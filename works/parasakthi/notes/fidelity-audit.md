@@ -50,25 +50,21 @@ Visual comparison completed for all eight pages directly against enlarged render
 
 | PDF | Printed | Audit result | Findings |
 |---:|---:|---|---|
-| 36 | 35 | correction-needed; uncertainty resolved | The existing marked reading `⟦சேர்மையா?⟧` is legible in context as `சேர்மையா`. Clear source-form corrections include `தர்மம் தலைகாக்கும்னு` (draft `தானம்...`) and the surrounding Narayanapillai / Gunasekaran exchange must be brought back to the printed wording without normalization. |
-| 37 | 36 | correction-needed; uncertainty resolved | In `காட்சி—32`, the marked amount is clearly `ஒரு அரையணா`; the first-pass `⟦ஒரு அணையணு?⟧` is erroneous. The preceding Vimala/Gunasekaran dialogue also contains small source-form differences to apply. |
-| 38 | 37 | correction-needed | `காட்சி 33` was compared in full. Several first-pass lexical forms differ from the scan in Gunasekaran's account and Vimala's reply; no genuinely unreadable source span was found on this page. |
-| 39 | 38 | correction-needed | Clear corrections include source `திருமாலுக்கு திருவிழா` where the draft has `திருமணுக்கு திருவிழா`, and source `மோகன வாழ்வு` where the draft has `மோசன வாழ்வு`. The remainder of the argument contains additional source-form corrections but no unresolved scan reading. |
-| 40 | 39 | correction-needed; uncertainty resolved | The marked phrase resolves clearly from the scan as `பாலைவனத்தை பூஞ்சோலையாக்க`; the draft's `⟦பாக்குவனத்தை?⟧ பூஞ்சோலையாக` is not source-faithful. The dream lyric and surrounding dialogue were visually checked; smaller spelling/spacing corrections remain for consolidated application. |
-| 41 | 40 | correction-needed; uncertainty resolved | The marked long reading in Gnanasekaran's refugee-camp speech is legible as the printed `சுட்டுக் கொல்லப்பட்டிருப்போம்` in context. The page contains several colloquial/source-form differences that must be retained exactly in the consolidated rewrite. |
-| 42 | 41 | substantive correction-needed | The first-pass transcription of Gnanasekaran's long speech is materially corrupted in places. The scan clearly includes `பிச்சைக்காரர்கள் நாம்மட்டு மல்ல இந்தநாடு பூராவுமே பரந்துகிடக்கின்றனர்` and a coherent sequence about uniting beggars, holding a conference, passing resolutions, and making the government hear their demands. This page requires direct source-led retranscription of the affected paragraph rather than piecemeal word replacement. `காட்சி—35` begins at the bottom of the page. |
-| 43 | 42 | correction-needed | The continuation of `காட்சி—35`, `காட்சி—36`, and opening of `காட்சி—37` were visually checked. The scene sequence is correct; several small colloquial/source-form corrections are required, but no new unresolved source reading was identified. |
+| 36 | 35 | correction-needed; uncertainty resolved | Existing marked `சேர்மையா` is legible. Source-form corrections include `தர்மம் தலைகாக்கும்னு`; surrounding exchange requires source-faithful correction. |
+| 37 | 36 | correction-needed; uncertainty resolved | Marked amount is clearly `ஒரு அரையணா`; surrounding dialogue has source-form differences. |
+| 38 | 37 | correction-needed | `காட்சி 33` compared in full; several lexical differences, no genuinely unreadable source span. |
+| 39 | 38 | correction-needed | Clear corrections include `திருமாலுக்கு திருவிழா` and `மோகன வாழ்வு`; further source-form corrections required. |
+| 40 | 39 | correction-needed; uncertainty resolved | Marked phrase resolves as `பாலைவனத்தை பூஞ்சோலையாக்க`; dream lyric and surrounding dialogue require smaller corrections. |
+| 41 | 40 | correction-needed; uncertainty resolved | Marked reading resolves as `சுட்டுக் கொல்லப்பட்டிருப்போம்`; colloquial/source forms require correction. |
+| 42 | 41 | substantive correction-needed | Gnanasekaran's long speech is materially corrupted in the first pass. Direct source-led retranscription required. `காட்சி—35` begins at bottom. |
+| 43 | 42 | correction-needed | Scene sequence correct; several small source-form corrections, no new unresolved reading. |
 
 ### Batch 5 uncertainty resolution
-
-Four existing Part 02 uncertainty markers can be resolved directly from the scan during the consolidated Part 02 rewrite:
 
 - PDF 36: `சேர்மையா`
 - PDF 37: `ஒரு அரையணா`
 - PDF 40: `பாலைவனத்தை பூஞ்சோலையாக்க`
 - PDF 41: `சுட்டுக் கொல்லப்பட்டிருப்போம்`
-
-PDF 42 is the important fidelity finding in this batch: because a substantial paragraph is textually corrupted rather than merely misspelled, it must be retranscribed directly from the page image during application.
 
 ## Batch 6 — PDF 44–51 / printed pp. 43–50
 
@@ -76,34 +72,47 @@ Visual comparison completed for all eight pages directly against enlarged render
 
 | PDF | Printed | Audit result | Findings |
 |---:|---:|---|---|
-| 44 | 43 | substantive correction-needed | `காட்சி—38` and the opening of `காட்சி—39` are present in the correct sequence, but the first-pass transcription materially distorts portions of Kalyani's speech after she is kicked away from Sekar's house. Clear source wording includes `நீங்கள் சகோதரர்கள் கூடப்பிறக்கவில்லை`, the repeated `சரியாய்ப் போய் விழும்`, and the lament beginning `கண்ணே! ஆடம்பரத்துக்கும் அக்கிரமத்துக்கும் அடங்கி நடப்பதுண்டா உலகம்!`. The affected prose should be retranscribed directly from the scan during consolidation. The Bharati song opening is structurally intact. |
-| 45 | 44 | substantive correction-needed | The continuation of the song and Kuppan/Gunasekaran exchange are in the right sequence. The temple scene is materially wrong in the draft: the priest's proposition includes `நீ என் கூட இருந்து வேலை செய்யுறியா? உனக்கு வேண்டியதெல்லாம் தாராளமாக வாங்கித்தாரேன்`, rather than the draft's worship-oriented wording. His following internal monologue and approach to Kalyani also contain extensive lexical corruption. Retranscribe this scene directly from the scan. |
-| 46 | 45 | substantive correction-needed | Kalyani's river-side suicide monologue is heavily corrupted in the first pass even though the scan is readable. The sequence about taking the child to the river, throwing the child into the water, Kalyani jumping, and the police intervention must be retranscribed directly. Gunasekaran's reaction immediately afterward also contains substantial errors. `காட்சி—41` begins correctly at the bottom and its opening court questions are much closer to source. |
-| 47 | 46 | correction-needed | The courtroom sequence is structurally complete, but many exact source forms differ. Examples include `ஆக்கப்பட்ட பொருள்கள் அத்தனையும் அரசாங்கத்துக்குச் சொந்தம்`, `சோற்றுக்கு கஷ்டப்பட்டோம்`, and the extended contrast between government ownership and its failure to support the starving. Kalyani's arguments about Nallathangal and Siruthondar also require source-form correction, but no unreadable source span was found. |
-| 48 | 47 | substantive correction-needed | Kalyani's answer beginning with the Thirugnanasambandar reference and her subsequent family-history account contain multiple first-pass corruptions. The source presents a coherent argument about being forced toward prostitution by society, followed by her mother's death, father, three elder brothers, marriage, widowhood, and waiting for `சந்திரசேகரன், ஞானசேகரன், குணசேகரன்`. These passages should be retranscribed as blocks from the scan. `காட்சி—42` begins correctly at the bottom. |
-| 49 | 48 | substantive correction-needed | The street-preacher speech continuing `காட்சி—42` is materially corrupted in the draft, although the source page is readable. It develops the image of a mother driven by poverty to sell her child and should be retranscribed directly. The source-order anomaly `காட்சி—48` is correctly present on this page and must remain exactly where printed. The opening Kaliyamman-temple action sequence is otherwise structurally correct. |
-| 50 | 49 | correction-needed; two uncertainties resolved | Both existing marked readings are clear in the scan: `கற்பைச் சூறையாட துணிந்தபோது` and `உனது பலாத்கார அணைப்பிலே சிக்கிய`. Other clear source forms include `அம்பாள் எந்தக் காலத்தில் பேசினாள் அறிவு கெட்டவனே?` and `என் தங்கை கல்யாணி உனக்குத் தாசியா`. No new uncertainty is introduced. |
-| 51 | 50 | correction-needed | The confrontation continues in source order through `இரத்த விழா! வீர விழா! வெற்றிவிழா!`, then `காட்சி—44` and the opening of `காட்சி—45`. The first-pass text contains several smaller wording/punctuation errors, but no substantive omission or unresolved source reading was found on this page. The courtroom speech opening remains structurally intact for continuation on PDF 52. |
+| 44 | 43 | substantive correction-needed | `காட்சி—38` and opening `காட்சி—39` are correctly sequenced, but portions of Kalyani's speech are materially distorted. Retranscribe affected prose directly. |
+| 45 | 44 | substantive correction-needed | Song/exchange sequence correct. Temple scene, priest's proposition, internal monologue and approach to Kalyani contain extensive lexical corruption; retranscribe directly. |
+| 46 | 45 | substantive correction-needed | Kalyani's river-side monologue and Gunasekaran reaction are heavily corrupted though source is readable; retranscribe directly. `காட்சி—41` begins correctly. |
+| 47 | 46 | correction-needed | Courtroom sequence structurally complete but exact source forms differ throughout; no unreadable span. |
+| 48 | 47 | substantive correction-needed | Thirugnanasambandar answer and family-history account contain multiple corruptions; retranscribe as blocks. `காட்சி—42` begins correctly. |
+| 49 | 48 | substantive correction-needed | Street-preacher speech materially corrupted; retranscribe directly. Source-order `காட்சி—48` correctly present and must remain. |
+| 50 | 49 | correction-needed; two uncertainties resolved | Marked readings resolve as `கற்பைச் சூறையாட துணிந்தபோது` and `உனது பலாத்கார அணைப்பிலே சிக்கிய`; other source-form corrections required. |
+| 51 | 50 | correction-needed | Source order intact through `காட்சி—44` and opening `காட்சி—45`; smaller wording/punctuation corrections, no unresolved reading. |
 
 ### Batch 6 uncertainty resolution
-
-Two more existing Part 02 uncertainty markers can be resolved directly from the scan during consolidated application:
 
 - PDF 50: `சூறையாட`
 - PDF 50: `அணைப்பிலே`
 
-No new genuinely unreadable source span was identified in PDF 44–51.
+## Batch 7 — PDF 52–57 / printed pp. 51–56
 
-The pages now requiring direct block retranscription during Part 02 consolidation are **PDF 42, 44, 45, 46, 48, and 49**. These are source-readable pages whose first-pass text is too corrupted for safe piecemeal patching.
+Visual comparison completed for all six final canonical pages directly against the source scan. This completes the visual audit range for Part 02. Part 02 remains unchanged at this checkpoint so that all Batch 5–7 findings can be applied in one controlled consolidated rewrite.
+
+| PDF | Printed | Audit result | Findings |
+|---:|---:|---|---|
+| 52 | 51 | substantive correction-needed | The continuation of Gunasekaran's courtroom speech is structurally present but the first-pass wording is materially corrupted throughout. The scan clearly gives the famous contrast `கோவில் கூடாது என்பதற்காக அல்ல கோவில் கொடியவர்களின் கூடாரமாய் இருக்கக்கூடாது என்பதற்காக`, followed by `பூசாரியைத் தாக்கினேன்... பக்தி பகல் வேஷமாகிவிட்டதைக் கண்டிப்பதற்காக`. The long autobiographical argument beginning after `[நடுவில் ஒரு வக்கீல் எழுந்திருக்கிறார்]` contains numerous lexical and syntactic errors in the draft and should be retranscribed directly from the scan rather than patched piecemeal. |
+| 53 | 52 | substantive correction-needed | Gunasekaran's defence continues in source order, but much of the first-pass text is materially distorted. The source discusses Kalyani's exploitation by `காளையர்`, the priest demanding her chastity as an offering, her attempted suicide, and the analogy with Gandhi ordering a suffering calf killed. The final sequence `பகட்டு... பணம்... பக்தி... ஓடினாள், ஓடினாள் வாழ்க்கையின் ஓரத்திற்கே ஓடினாள்` is readable and must be restored exactly. Direct block retranscription is required. |
+| 54 | 53 | substantive correction-needed | The speech continues with the rhetorical chain assigning responsibility for crimes to social causes; the draft has substantial wording corruption. The judge's reply and the Kalyani/Gunasekaran recognition exchange also contain source-form differences. The scan clearly includes `இக்குற்றங்கள் களையப்படும் வரை குணசேகரன்களும் கல்யாணிகளும் குறையப்போவதில்லை` and `இதுதான் எங்கள் வாழ்க்கை ஏட்டில் எந்தப்பக்கம் புரட்டினாலும் காணப்படும் பாடம்`. Retranscribe the affected blocks directly. |
+| 55 | 54 | correction-needed | Vimala's explanation of rescuing the child, the flashback, court recognition, `காட்சி—46`, and opening `காட்சி—47` are all structurally present. Numerous smaller lexical/source-form corrections are required (including the child falling into her boat and the sequence identifying Gunasekaran and Kalyani), but no unreadable source span or substantive omission was found. |
+| 56 | 55 | correction-needed | The family reunion, Gnanasekaran's fundraising visit, Vimala/Gunasekaran exchange, lyric reprise, and marriage joke are structurally complete. The draft contains many colloquial/source-form errors; the source clearly has the beggars' conference line and the joke about `ரெண்டு மாலை, ஒரு சொற்பொழிவாளர்`. No genuinely unreadable source span was found. |
+| 57 | 56 | correction-needed | Final reunion dialogue, source-order `காட்சி—43`, closing song, `—சுபம்—`, and printer line are all present. The draft has multiple wording errors in the opening dialogue and closing verse. The source-order anomaly `காட்சி—43` is visually confirmed at the end after scenes 46 and 47 and must remain unchanged. No unresolved source reading was found. |
+
+### Batch 7 uncertainty result
+
+No additional explicit Part 02 uncertainty marker occurs in PDF 52–57, and no new genuinely unreadable source span was identified.
+
+The pages requiring direct block retranscription during consolidated Part 02 application are now **PDF 42, 44, 45, 46, 48, 49, 52, 53, and 54**. Other Part 02 pages require source-form correction but can be applied without inventing readings.
 
 ## Current cumulative state
 
-- Pages visually compared: **PDF 4–51 / printed pp. 3–50**
+- Pages visually compared: **PDF 4–57 / printed pp. 3–56 — complete canonical range**
 - Part 01: **audit complete; corrections applied — 30 verified / 2 review**
-- Part 02 audited so far: **PDF 36–51 / printed pp. 35–50**
+- Part 02 audit: **complete — PDF 36–57 / printed pp. 35–56**
 - Part 02 canonical corrections: **not yet applied**
 - Part 02 uncertainty markers visually resolved pending apply: **6**
-- New unresolved source readings found in Part 02 audit so far: **0**
-- Substantive Part 02 retranscription required: **PDF 42, 44, 45, 46, 48, 49**
-- Next fidelity-audit page: **PDF 52 / printed p.51**
-- Continue auditing PDF 52–57 before doing the consolidated Part 02 rewrite.
+- New unresolved source readings found in Part 02 audit: **0**
+- Direct block retranscription required in Part 02: **PDF 42, 44, 45, 46, 48, 49, 52, 53, 54**
+- Next action: **perform one consolidated source-led rewrite of `transcription/parts/part-02-pdf-36-57.md`, apply all Batch 5–7 corrections and the six resolved markers, then promote page anchors based on the completed audit.**
+- Do not begin English translation before that consolidated Part 02 application and post-rewrite verification are complete.
