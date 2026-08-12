@@ -44,4 +44,46 @@ The missing block will be transcribed directly from the scan during the consolid
 - Corrections/omission recorded: **PDF 4, 5, 6, 7, 9, 11**
 - Existing source-damaged uncertainty still unresolved in this batch: **PDF 5**
 - Canonical part has **not yet been rewritten**; page anchors therefore remain `draft` until the accumulated corrections are applied.
-- Next audit page: **PDF 12 / printed p. 11**
+
+## Batch 2 — PDF 12–19 / printed pp. 11–18
+
+Visual comparison completed for all eight pages directly against the scan.
+
+| PDF | Printed | Audit result | Findings |
+|---:|---:|---|---|
+| 12 | 11 | substantive correction-needed | The draft omits an entire lyric stanza at the top of the page, beginning `கற்றிலும் சித்திரமும் கண்டு—அதன்` and ending `அளிக்கும் கலைகள் அறிவோம்`, before the existing `வானுலக மோட்சமதை நாடி—இன்ப` stanza. Additional clear corrections include source `ஆணவத்தினிலே` vs draft `ஆணவத்திலே`, source `இனிக்கும் விதத்தில் சுகம்` vs draft `வித்தத்தில்`, and the stage direction's `தன் பணத்தை பூராவும் பறிகொடுக்கிறான்` vs draft `சூறாவும்`. |
+| 13 | 12 | correction-needed; two uncertainties resolved | The two marked readings are legible in the enlarged scan as `பஞ்சையாய்...பராரியாய்`. The source continues `என் தங்கைக்கு`, not draft `ஏன் தங்கைக்கு`. Other clear source forms include `வீதிகளிலே`, `இதுதானு`, and `ஊமையாய்`, which differ from the current draft. |
+| 14 | 13 | correction-needed | The auction notice prints `என்னவென்றால்` as one word; the draft has `என்ன வென்றால்`. In the following conversation the scan reads the colloquial `ஆனுங்களோ?`, not draft `ஆனாங்களோ?`. Scene headings and song placement match. |
+| 15 | 14 | correction-needed | The scan reads `நான் சொல்வதைக் கேளு`; the draft has `சொல்லுவதைக்`. It also prints `நடக்க வேண்டியதுதானே நடக்கும்` as a continuous form rather than the draft's separated `வேண்டியது தானே`. The remainder of the page follows the draft's sequence. |
+| 16 | 15 | review / one source uncertainty remains | The marked `⟦சேப்பு?⟧` is clearly `சோப்பு` in the scan. The source also has `இல்லே எம்ப்டி பாக்கெட்`, not draft `இல்ல எம்ப்டி பாக்கெட்`. The later marked word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்` remains too ambiguous in this scan to replace confidently, so that uncertainty is retained. |
+| 17 | 16 | correction-needed; one uncertainty resolved | The marked phrase is legible as `நல்லவன், நாதியற்றவனை`. The scan also reads `உடுத்த மாற்றுத் துணியில்லை` where the draft has `உடுக்க`, and `வாடிக்கைக்காரங்க` where the draft has `வாடிக்கைகாரங்க`. |
+| 18 | 17 | correction-needed; one uncertainty resolved | The stage-direction marker `⟦கேளாமலேயே?⟧` resolves to `கேளாமலேயே`. Other clear source forms include `பரவாயில்ல`, `நாலு அணாவுக்கு`, `தானப்பா`, `காசில்லையா?`, and `பாழாப் போனவனே`, all differing from the current draft in small but source-significant ways. |
+| 19 | 18 | correction-needed; one uncertainty resolved | The marked phrase is clearly `வித்தாத்தானே வீணுப்போனவனே?`. The remainder of the page follows the first-pass sequence closely; one small source-form difference is `(மைனர்கள் கொடுத்துவிடுகின்றனர்)` rather than the draft's separated `கொடுத்து விடுகின்றனர்`. |
+
+### Substantive omission on PDF 12
+
+PDF 12 contains a full lyric stanza before the stanza currently beginning the draft page. This is the second substantive first-pass omission found during the fidelity audit. It is not a page-order issue: the omitted stanza is visibly part of the same song begun on PDF 11 and must be restored at the start of the PDF 12 source anchor during the consolidated part-01 correction.
+
+### Uncertainty resolution in Batch 2
+
+Six existing uncertainty markers can now be resolved directly from the scan when the canonical part is rewritten:
+
+- PDF 13: `பஞ்சையாய்`
+- PDF 13: `பராரியாய்`
+- PDF 16: `சோப்பு`
+- PDF 17: `நல்லவன், நாதியற்றவனை`
+- PDF 18: `கேளாமலேயே`
+- PDF 19: `வித்தாத்தானே வீணுப்போனவனே?`
+
+One marked reading on PDF 16 remains unresolved after enlarged inspection. Together with the earlier source-damaged span on PDF 5, there are currently **two known unresolved readings within the already-audited pages**. This does not yet change the canonical draft's stored count of 19 markers because no consolidated rewrite has been applied.
+
+## Cumulative audit state
+
+- Pages visually compared: **PDF 4–19 / printed pp. 3–18**
+- Total audited pages: **16**
+- Clean pages so far: **PDF 8, 10**
+- Substantive first-pass omissions found: **PDF 7 (`காட்சி—3` opening block), PDF 12 (lyric stanza)**
+- Uncertainty markers resolved from the scan but pending canonical rewrite: **6**
+- Known unresolved readings within audited pages: **PDF 5 and PDF 16**
+- Canonical part has **not yet been rewritten**; all source anchors in part 01 remain `draft` until the accumulated corrections are applied together.
+- Next audit page: **PDF 20 / printed p. 19**
