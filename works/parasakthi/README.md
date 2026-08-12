@@ -26,14 +26,16 @@ The detailed transcription pass confirms **46 visible scene headings**. Only `�
 - Structural mapping: **verified**
 - Canonical Tamil first-pass transcription: **complete** for PDF 4–57 / printed pp. 3–56
 - Canonical transcription status: **draft-complete**
-- Explicit unresolved short readings in the first-pass draft: **19**
-- Tamil fidelity audit: **in progress through PDF 11 / printed p. 10**
-- Next audit page: **PDF 12 / printed p. 11**
+- Explicit unresolved short readings still stored in the first-pass draft: **19**
+- Tamil fidelity audit: **in progress through PDF 19 / printed p. 18**
+- Next audit page: **PDF 20 / printed p. 19**
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
+- Six existing uncertainty markers on audited pages have now been resolved visually but are pending the consolidated part-01 rewrite
+- Two source readings within the audited range remain unresolved: **PDF 5 and PDF 16**
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until the corresponding Tamil text is verified**
 
-The first audit batch found several ordinary corrections and a substantive first-pass omission: the printed `காட்சி—3` heading and its opening block on PDF 7 are absent from the current draft. Those findings are preserved in the audit ledger. Corrections are being accumulated for a consolidated rewrite of part 01; its page anchors remain `draft` until that rewrite is made.
+The audit has now found two substantive first-pass omissions: the printed `காட்சி—3` opening block on PDF 7 and a lyric stanza at the start of PDF 12. Smaller source-form corrections and the uncertainty resolutions are recorded in the audit ledger. Corrections are being accumulated for a consolidated rewrite of part 01; its page anchors remain `draft` until that rewrite is made.
 
 ## Canonical transcription
 
