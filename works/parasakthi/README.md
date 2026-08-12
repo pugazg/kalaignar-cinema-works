@@ -26,10 +26,14 @@ The detailed transcription pass confirms **46 visible scene headings**. Only `�
 - Structural mapping: **verified**
 - Canonical Tamil first-pass transcription: **complete** for PDF 4–57 / printed pp. 3–56
 - Canonical transcription status: **draft-complete**
-- Explicit unresolved short readings: **19**
-- Tamil fidelity audit: **not-started**
+- Explicit unresolved short readings in the first-pass draft: **19**
+- Tamil fidelity audit: **in progress through PDF 11 / printed p. 10**
+- Next audit page: **PDF 12 / printed p. 11**
+- Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until the corresponding Tamil text is verified**
+
+The first audit batch found several ordinary corrections and a substantive first-pass omission: the printed `காட்சி—3` heading and its opening block on PDF 7 are absent from the current draft. Those findings are preserved in the audit ledger. Corrections are being accumulated for a consolidated rewrite of part 01; its page anchors remain `draft` until that rewrite is made.
 
 ## Canonical transcription
 
@@ -38,6 +42,4 @@ The detailed transcription pass confirms **46 visible scene headings**. Only `�
 - [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34
 - [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56, plus the PDF 58 back-matter provenance note
 
-The first part preserves the previously entered first-pass bytes; splitting the transcription avoids silently rewriting that historical draft while the remaining source pages are added.
-
-The scan, not the film audio/subtitles, later editions, web quotations, or memory, controls the canonical text. The next project gate is a **page-by-page visual fidelity audit**, including resolution of every explicit uncertainty marker before any English translation begins.
+The scan, not the film audio/subtitles, later editions, web quotations, or memory, controls the canonical text.
