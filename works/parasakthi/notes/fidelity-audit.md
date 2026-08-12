@@ -77,13 +77,39 @@ Six existing uncertainty markers can now be resolved directly from the scan when
 
 One marked reading on PDF 16 remains unresolved after enlarged inspection. Together with the earlier source-damaged span on PDF 5, there are currently **two known unresolved readings within the already-audited pages**. This does not yet change the canonical draft's stored count of 19 markers because no consolidated rewrite has been applied.
 
+## Batch 3 — PDF 20–27 / printed pp. 19–26
+
+Visual comparison completed for all eight pages directly against the rendered scan.
+
+| PDF | Printed | Audit result | Findings |
+|---:|---:|---|---|
+| 20 | 19 | correction-needed; one uncertainty resolved | The marked line is legible as `ஈசனும் ஈசனார் பூசையும் தேசத்தில்`. Other clear corrections include source `சாட்சி கோர்ட்டு ஏறாதடி` vs draft `ஏறுதடி`, source `இல்லா தவனை` vs draft `இல்லாதவன்`, source `முட்டாபயலையெல்லாம்` vs draft `முட்டாப்பயலெல்லாம்`, and source `நான் பிச்சைக்காரனில்லை` vs draft `பிச்சைக்காரனில்லே`. |
+| 21 | 20 | correction-needed | Clear source forms include `அவுங்க அப்பாதானே?`, `அவளையும் வாழ விடலே`, `அவளை சிசுவும் கையுமா விதவையாக்கிருச்சி`, `துயரப்படுறியே`, and `கல்யாணியைத் தேட`. The `காட்சி 17` direction has `இதப் பார்த்துக்கொண்டே` and `நெஞ்சைத் துளைக்கும்`, and the lullaby line reads `யானையும் வாகனமாய்—சின்ன`, not draft `பாண்டமும்`. |
+| 22 | 21 | correction-needed; two uncertainties resolved | The source reads `வெள்ளியினால் செய்த ஏட்டில்` and `பாடம் எழுத உனை`, not draft `வெள்ளியினில்` / `உன்`. In `காட்சி-18`, the marked readings resolve as `லாண்டறியே` and `டேபின்`. Other clear corrections include source `தான் ஆட்டத்துக்கு வர்லே`, `ஏது ஆள் அவுட்டா`, and `ஒன்கிட்டே`. |
+| 23 | 22 | correction-needed; one uncertainty resolved | Source corrections include `அங்கே வர்றியா`, `கற்பித்தானா?`, `மந்திரி பிரதானீகளே`, `இசைக்குயில் போல்`, `கடக்கட்டு`, and `பரதேசிப் பசங்களா`. The longer marked span resolves as `சஞ்சீவி நாம பர்வதம்`. The end verse block otherwise follows the draft sequence. |
+| 24 | 23 | correction-needed | The source has `(இவ்வாறாக...)`, `இங்கே வாயேன்`, `பெத்து தர்றேன்`, `கட்டிக்கிறாயா?`, `முதல்லே`, `தர்றேன்`, and `சத்தியமா`, where the draft has smaller source-form errors. The scene direction prints `(இடம்ரோடு)`, and the road dialogue includes `கொடப்பா` and `நடக்கும்லே?`. |
+| 25 | 24 | correction-needed | Clear source forms include `காசு எடப்பா`, `ஏனப்பா`, `திமிறுபடைச்சவன்`, `எடுன்னா`, `விளையாடுறே`, `பாக்றயா`, `யாருனு`, `அப்படின்னா`, `ரெண்டணாவுக்குக் கொடு`, `ஏங்க உங்களுக்கு`, and `பிட்டுக் கொடுக்கிறான்`, all differing from the draft. |
+| 26 | 25 | correction-needed | The source reads `நழுவ விடுவாயோ—ஏதுங்காணும் இந்தக் காசு?`, `ஏதுங் காணும்`, `எய்ட் நாட்திரீ`, `கொட்டாபுளியை`, `தூக்கவிட மறுத்தல்`, and `தலையின்மீது`. In `காட்சி 21`, the scan has `ஏண்ணா இவ்வளவு நாழி?`, `இருக்குல்லே?`, `இருங்கண்ணா! கொண்டு வர்றேன்`, `போடாமல்`, `இரண்டாக`, `கலந்துகிட்டால் லாபமும்`, repeated `அண்ணா`, and `பாவியானேன்`. |
+| 27 | 26 | correction-needed | The page continues the `அண்ணா` source form. Other clear corrections include `பலாமரமாக`, source spelling `மாழி`, `தானும் அப்படித்தான்`, `கந்தல்பாயிலே`, and `வஞ்சக வலைவீசினால் விழுவார்கள்`. The rescue dialogue has `மைத்துனு`, `நீ வரலின்னா`, repeated `கிறுக்கண்ணா`, `இட்லி தர்றேன்`, `கேட்பியே`, and `சொன்னா`, not the draft's corresponding forms. |
+
+### Uncertainty resolution in Batch 3
+
+Four additional existing uncertainty markers can now be resolved directly from the scan when `part-01-pdf-4-35.md` is rewritten:
+
+- PDF 20: `ஈசனார்`
+- PDF 22: `லாண்டறியே`
+- PDF 22: `டேபின்`
+- PDF 23: `சஞ்சீவி நாம பர்வதம்`
+
+No new unresolved source reading was identified in PDF 20–27 during this pass.
+
 ## Cumulative audit state
 
-- Pages visually compared: **PDF 4–19 / printed pp. 3–18**
-- Total audited pages: **16**
+- Pages visually compared: **PDF 4–27 / printed pp. 3–26**
+- Total audited pages: **24**
 - Clean pages so far: **PDF 8, 10**
 - Substantive first-pass omissions found: **PDF 7 (`காட்சி—3` opening block), PDF 12 (lyric stanza)**
-- Uncertainty markers resolved from the scan but pending canonical rewrite: **6**
+- Uncertainty markers resolved from the scan but pending canonical rewrite: **10**
 - Known unresolved readings within audited pages: **PDF 5 and PDF 16**
 - Canonical part has **not yet been rewritten**; all source anchors in part 01 remain `draft` until the accumulated corrections are applied together.
-- Next audit page: **PDF 20 / printed p. 19**
+- Next audit page: **PDF 28 / printed p. 27**
