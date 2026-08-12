@@ -32,6 +32,7 @@ The repository is organized by **work/film**, with each work preserving its sour
         ├── mapping.md
         ├── source/
         ├── notes/
+        │   └── fidelity-audit.md
         ├── transcription/
         │   ├── full-text.md
         │   └── parts/
@@ -46,7 +47,9 @@ The first source is the scanned booklet **`பராசக்தி — மு�
 
 The corrected structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). The detailed transcription pass confirms **46 visible scene headings**: headings 23 and 34 were not observed, `காட்சி-48` appears on PDF 49 / printed p.48, and the source places `காட்சி-43` at the end on PDF 57 / printed p.56.
 
-The **first-pass canonical Tamil transcription is now complete** for all printed dialogue/song content: **PDF 4–57 / printed pp. 3–56**. PDF 58 is rear advertisement/back matter and is recorded as paratext rather than film dialogue. The Tamil remains `draft-complete`: the separate page-by-page fidelity audit has not yet begun, and English translation remains blocked until verified Tamil exists.
+The **first-pass canonical Tamil transcription is complete** for all printed dialogue/song content: **PDF 4–57 / printed pp. 3–56**. PDF 58 is rear advertisement/back matter and is recorded as paratext rather than film dialogue.
+
+The page-by-page **Tamil fidelity audit is now in progress**. PDF **4–11 / printed pp. 3–10** have been visually compared; the next audit page is PDF **12 / printed p. 11**. The audit ledger is [`works/parasakthi/notes/fidelity-audit.md`](works/parasakthi/notes/fidelity-audit.md). Batch 1 identified a substantive first-pass omission of the printed `காட்சி—3` opening block on PDF 7, along with smaller corrections. English translation remains blocked until the corresponding Tamil is verified.
 
 ## Status vocabulary
 
