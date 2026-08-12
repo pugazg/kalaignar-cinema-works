@@ -26,16 +26,17 @@ The detailed transcription pass confirms **46 visible scene headings**. Only `�
 - Structural mapping: **verified**
 - Canonical Tamil first-pass transcription: **complete** for PDF 4–57 / printed pp. 3–56
 - Canonical transcription status: **draft-complete**
-- Explicit unresolved short readings still stored in the first-pass draft: **19**
-- Tamil fidelity audit: **in progress through PDF 27 / printed p. 26**
-- Next audit page: **PDF 28 / printed p. 27**
+- Part 01 fidelity audit: **complete for PDF 4–35 / printed pp. 3–34**
+- Latest audit batch: **PDF 28–35 / printed pp. 27–34**
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
-- Ten existing uncertainty markers on audited pages have now been resolved visually but are pending the consolidated part-01 rewrite
-- Two source readings within the audited range remain unresolved: **PDF 5 and PDF 16**
+- Ten existing uncertainty markers in part 01 have been resolved visually but are pending the consolidated rewrite
+- Two part-01 source readings remain genuinely unresolved: **PDF 5 and PDF 16**
+- Two substantive first-pass omissions are recorded: the `காட்சி—3` opening block on PDF 7 and a lyric stanza on PDF 12
+- **Next required action:** consolidated rewrite of [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md), applying the complete audit ledger before beginning PDF 36
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until the corresponding Tamil text is verified**
 
-The audit has now found two substantive first-pass omissions: the printed `காட்சி—3` opening block on PDF 7 and a lyric stanza at the start of PDF 12. Smaller source-form corrections and the uncertainty resolutions are recorded in the audit ledger. Corrections are being accumulated for a consolidated rewrite of part 01; its page anchors remain `draft` until that rewrite is made.
+The part-01 canonical file has not yet been rewritten, so its page anchors still remain `draft`. After the consolidated correction, PDF 5 and PDF 16 must be promoted only to `review`; the other corrected part-01 pages can be promoted to `verified` if no additional source uncertainty appears during application.
 
 ## Canonical transcription
 
