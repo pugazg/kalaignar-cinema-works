@@ -49,7 +49,7 @@ The corrected structural map is complete in [`works/parasakthi/mapping.md`](work
 
 The **first-pass canonical Tamil transcription is complete** for all printed dialogue/song content: **PDF 4–57 / printed pp. 3–56**. PDF 58 is rear advertisement/back matter and is recorded as paratext rather than film dialogue.
 
-The page-by-page **Tamil fidelity audit is now in progress**. PDF **4–11 / printed pp. 3–10** have been visually compared; the next audit page is PDF **12 / printed p. 11**. The audit ledger is [`works/parasakthi/notes/fidelity-audit.md`](works/parasakthi/notes/fidelity-audit.md). Batch 1 identified a substantive first-pass omission of the printed `காட்சி—3` opening block on PDF 7, along with smaller corrections. English translation remains blocked until the corresponding Tamil is verified.
+The page-by-page **Tamil fidelity audit is now in progress through PDF 19 / printed p.18**; the next audit page is PDF **20 / printed p.19**. The audit ledger is [`works/parasakthi/notes/fidelity-audit.md`](works/parasakthi/notes/fidelity-audit.md). The audit has found two substantive first-pass omissions so far — the `காட்சி—3` opening block on PDF 7 and a lyric stanza on PDF 12 — and has visually resolved six existing uncertainty markers pending the consolidated part-01 rewrite. English translation remains blocked until the corresponding Tamil is verified.
 
 ## Status vocabulary
 
