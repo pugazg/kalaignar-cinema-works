@@ -77,9 +77,13 @@ transcription_progress:
     - 25
     - 26
     - 27
-  draft_printed_pages: "3-26"
-  next_pdf_page: 28
-  next_printed_page: 27
+    - 28
+    - 29
+    - 30
+    - 31
+  draft_printed_pages: "3-30"
+  next_pdf_page: 32
+  next_printed_page: 31
   unresolved_short_spans: 13
 
 status:
