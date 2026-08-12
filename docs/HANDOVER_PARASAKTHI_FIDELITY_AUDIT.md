@@ -19,26 +19,6 @@ This is the controlling continuation note for the **Parasakthi Tamil visual-fide
 
 Do not repair text from film audio, subtitles, web copies, later editions, memory, or familiar quotations. Preserve spelling, punctuation, scene numbering, source anomalies, and uncertainty transparently.
 
-Uncertainty notation follows `docs/TRANSCRIPTION_GUIDE.md`:
-
-- `⟦?⟧` — unreadable short span
-- `⟦reading?⟧` — probable but unverified reading
-
-## Files to read before continuing
-
-Fetch current `main` versions of:
-
-1. `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`
-2. `docs/TRANSCRIPTION_GUIDE.md`
-3. `works/parasakthi/notes/fidelity-audit.md`
-4. `works/parasakthi/metadata.yaml`
-5. `works/parasakthi/mapping.md`
-6. `works/parasakthi/transcription/full-text.md`
-7. `works/parasakthi/transcription/parts/part-01-pdf-4-35.md`
-8. `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`
-9. `data/works.json`
-10. relevant READMEs
-
 ## Structural facts
 
 The first-pass Tamil transcription is complete for **PDF 4–57 / printed pp. 3–56**.
@@ -57,33 +37,28 @@ The scan has **46 visible scene headings**. Preserve source anomalies exactly:
 
 ## Part 01 — completed
 
-The visual audit for **PDF 4–35 / printed pp. 3–34** is complete and the accumulated corrections have been applied.
-
-Part 01 status:
+The visual audit for **PDF 4–35 / printed pp. 3–34** is complete and corrections are applied.
 
 - **30 verified pages**
 - **2 review pages: PDF 5 and PDF 16**
 
-The remaining Part 01 uncertainties are:
+Those two source uncertainties remain unresolved and must not be inferred from external versions.
 
-- PDF 5 / printed p.4: short damaged span in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?`
-- PDF 16 / printed p.15: marked word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
-
-Do not infer either from external versions.
-
-## Part 02 — audit in progress
+## Part 02 — visual audit complete, corrections pending
 
 Completed audit batches:
 
 - Batch 5: **PDF 36–43 / printed pp. 35–42**
 - Batch 6: **PDF 44–51 / printed pp. 43–50**
-- Cumulative Part 02 audit: **PDF 36–51 / printed pp. 35–50**
+- Batch 7: **PDF 52–57 / printed pp. 51–56**
 
-Part 02 canonical corrections have **not** been applied yet. Continue accumulating findings until PDF 57 is audited, then perform one consolidated Part 02 rewrite.
+Therefore the complete canonical range **PDF 4–57 / printed pp. 3–56 has now been visually compared against the scan**.
+
+Part 02 canonical corrections have **not** yet been applied. The next operation is one consolidated source-led rewrite of `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`.
 
 ### Part 02 uncertainty markers resolved from the scan, pending application
 
-Six existing markers have been securely resolved:
+Six existing markers are securely resolved:
 
 - PDF 36: `சேர்மையா`
 - PDF 37: `ஒரு அரையணா`
@@ -92,46 +67,50 @@ Six existing markers have been securely resolved:
 - PDF 50: `சூறையாட`
 - PDF 50: `அணைப்பிலே`
 
-No new genuinely unreadable source span has been found in the Part 02 audit through PDF 51.
+No new genuinely unreadable source span was found anywhere in Part 02.
 
 ### Part 02 blocks requiring direct source-led retranscription
 
-The first-pass text is materially corrupted on these source-readable pages and must be retranscribed directly from the scan during the consolidated rewrite:
+The first-pass text is materially corrupted on these readable source pages and must be retranscribed directly from the scan during consolidation:
 
-- **PDF 42 / printed p.41** — Gnanasekaran's long refugee/beggar-conference speech
-- **PDF 44 / printed p.43** — portions of Kalyani's speech after being driven from Sekar's house
-- **PDF 45 / printed p.44** — priest/Kalyani temple scene, especially the proposition and priest's internal monologue
-- **PDF 46 / printed p.45** — Kalyani's river-side suicide monologue and immediate aftermath
-- **PDF 48 / printed p.47** — Kalyani's courtroom answer and family-history passage
-- **PDF 49 / printed p.48** — street-preacher speech before the printed `காட்சி—48`
+- **PDF 42 / printed p.41** — Gnanasekaran refugee/beggar-conference speech
+- **PDF 44 / printed p.43** — Kalyani after being driven from Sekar's house
+- **PDF 45 / printed p.44** — priest/Kalyani temple scene
+- **PDF 46 / printed p.45** — river-side suicide monologue and aftermath
+- **PDF 48 / printed p.47** — Kalyani courtroom/family-history passage
+- **PDF 49 / printed p.48** — street-preacher speech
+- **PDF 52 / printed p.51** — continuation of Gunasekaran's courtroom defence
+- **PDF 53 / printed p.52** — defence concerning Kalyani, priest, suicide, Gandhi/calf analogy and `பகட்டு / பணம் / பக்தி` sequence
+- **PDF 54 / printed p.53** — responsibility-for-crime argument, judge reply and recognition exchange
 
-Do not patch these blocks from memory or external Parasakthi versions.
+All other Part 02 pages still require the recorded source-form corrections from `works/parasakthi/notes/fidelity-audit.md`.
 
 ## Exact next work
 
-Audit the final Part 02 range: **PDF 52–57 / printed pp. 51–56**.
+Perform the **single consolidated Part 02 rewrite**:
 
-For every page:
+1. fetch current `main` versions of this handover, `docs/TRANSCRIPTION_GUIDE.md`, `works/parasakthi/notes/fidelity-audit.md`, `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`, metadata and machine state;
+2. use the attached scan as the only textual authority;
+3. apply every Batch 5–7 source-form correction;
+4. directly retranscribe the nine pages/blocks listed above rather than trying to repair their corrupted first-pass wording piecemeal;
+5. replace all six resolved uncertainty markers;
+6. preserve `காட்சி—48` on PDF 49 and final `காட்சி—43` on PDF 57 exactly in source order;
+7. promote Part 02 page anchors to `verified` unless a source uncertainty is actually discovered during application; do not manufacture `review` status merely because the first pass was poor;
+8. perform a post-rewrite visual spot-check of every direct-retranscription page and all scene/page boundaries;
+9. update ledger, metadata, `data/works.json`, READMEs/manifest as required, and this handover.
 
-- compare the complete canonical page text against the rendered scan;
-- inspect headings, speaker labels, stage directions, dialogue, punctuation, verse lineation, and page continuity;
-- identify omissions and materially corrupted passages as well as isolated word errors;
-- resolve an existing uncertainty marker only when the scan supports a confident reading;
-- record findings in `works/parasakthi/notes/fidelity-audit.md`;
-- preserve the source-order anomalies, especially final `காட்சி—43` on PDF 57.
-
-After PDF 52–57 are fully audited, the next activity is the **single consolidated rewrite of `part-02-pdf-36-57.md`**, including direct retranscription of the six blocks listed above plus any additional block discovered in the final batch. Only then promote Part 02 page anchors individually to `verified` / `review`.
+Do not begin English translation in the same operation. Finish the corrected Tamil canonical state and its verification first.
 
 ## Translation gate
 
-English translation remains blocked for any unit that is not `verified`. Part 02 remains blocked until its consolidated source correction and page-status promotion are complete.
+English translation remains blocked for any unit that is not `verified`. Part 02 remains blocked until the consolidated rewrite and post-rewrite verification are complete.
 
 ## Durable continuation state
 
 - Part 01 audit: **complete and applied — 30 verified / 2 review**
-- Fidelity audit through: **PDF 51 / printed p.50**
-- Part 02 audited: **PDF 36–51 / printed pp.35–50**
+- Full canonical visual audit: **complete through PDF 57 / printed p.56**
+- Part 02 audit: **complete — PDF 36–57 / printed pp.35–56**
+- Part 02 corrections applied: **no**
 - Part 02 resolved markers pending apply: **6**
-- Part 02 direct retranscription pages: **42, 44, 45, 46, 48, 49**
-- Next fidelity page: **PDF 52 / printed p.51**
-- Next batch: **PDF 52–57 / printed pp.51–56**
+- Part 02 direct retranscription pages: **42, 44, 45, 46, 48, 49, 52, 53, 54**
+- Next activity: **consolidated Part 02 rewrite and post-rewrite verification**
