@@ -61,14 +61,18 @@ transcription_progress:
     - path: "transcription/parts/part-01-pdf-4-35.md"
       pdf_pages: "4-35"
       printed_pages: "3-34"
+      fidelity_status: review
+      verified_pages: 30
+      review_pages: 2
     - path: "transcription/parts/part-02-pdf-36-57.md"
       pdf_pages: "36-57"
       printed_pages: "35-56"
+      fidelity_status: draft
   rear_advertisement_recorded_pdf_page: 58
   next_pdf_page: null
   next_printed_page: null
-  unresolved_short_spans: 19
-  unresolved_short_spans_note: "Count still reflects markers stored in the canonical draft. Ten markers in part 01 are visually resolved and await the consolidated part-01 rewrite; two part-01 readings remain genuinely unresolved."
+  unresolved_short_spans: 9
+  unresolved_short_spans_note: "After the consolidated part-01 rewrite, ten markers were resolved. Two unresolved markers remain in part 01 (PDF 5 and PDF 16); seven markers remain in unaudited part 02."
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
@@ -77,52 +81,23 @@ fidelity_audit:
   latest_batch_pdf_pages: "28-35"
   latest_batch_printed_pages: "27-34"
   part_01_audit_complete: true
-  next_pdf_page: null
-  next_printed_page: null
-  next_action: "Apply the consolidated fidelity corrections to transcription/parts/part-01-pdf-4-35.md before starting the part-02 audit."
-  clean_pages_so_far:
-    - 8
-    - 10
-  correction_pending_pages:
-    - 4
+  part_01_corrections_applied: true
+  part_01_verified_pages: 30
+  part_01_review_pages:
     - 5
-    - 6
-    - 7
-    - 9
-    - 11
-    - 12
-    - 13
-    - 14
-    - 15
     - 16
-    - 17
-    - 18
-    - 19
-    - 20
-    - 21
-    - 22
-    - 23
-    - 24
-    - 25
-    - 26
-    - 27
-    - 28
-    - 29
-    - 30
-    - 31
-    - 32
-    - 33
-    - 34
-    - 35
+  next_pdf_page: 36
+  next_printed_page: 35
+  next_action: "Begin the part-02 visual fidelity audit at PDF 36 / printed page 35."
   substantive_omission_pages:
     - 7
     - 12
   source_uncertainty_pages_audited:
     - 5
     - 16
-  uncertainty_markers_resolved_pending_apply: 10
-  canonical_corrections_applied: false
-  note: "Batch 4 audited PDF 28-35 / printed pp. 27-34 and completed part 01 audit coverage. No new source uncertainty was found in this batch. Consolidated correction of part 01 is now the required next action."
+  uncertainty_markers_resolved_pending_apply: 0
+  canonical_corrections_applied: true
+  note: "Part 01 has been consolidated after complete visual audit. All recorded corrections and both substantive omissions were applied; 30 page anchors are verified and PDF 5 / PDF 16 remain review because their source readings are genuinely unclear."
 
 status:
   structural_mapping: verified
