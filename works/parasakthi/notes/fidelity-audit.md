@@ -24,7 +24,7 @@ Visual comparison completed for all eight pages.
 | 4 | 3 | correction-needed | In the opening speech, the scan reads `இந்த மண் மாதாவின் மடியிலே`; the draft has `மடியில்`. No additional unresolved scan reading identified on this page in this pass. |
 | 5 | 4 | review / source uncertainty remains | Clear draft error: `விண்ணியாண்டுகிட்டு` must be `விளையாண்டுகிட்டு`. The existing short uncertainty in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?` remains unresolved: the intervening letters are damaged/blurred in this scan and are not safe to infer. |
 | 6 | 5 | correction-needed | The scan prints `இல்ல...ஒங்க அப்பா படத்தைப் பார்த்தவுடன்`; the draft has `இல்லை...`. Other text on the page was visually compared without a new unresolved span. |
-| 7 | 6 | substantive correction-needed | The parenthetical after the gift-packing instruction reads `(ஞான சேகரன் வருந்துகிறான்)`; the draft has `வந்துகிறான்`. More importantly, the draft omits the printed `காட்சி—3` heading and its complete opening block at the bottom of the page. This block must be restored from the scan before the page can be verified. |
+| 7 | 6 | substantive correction-needed | The parenthetical after the gift-packing instruction reads `(ஞான சேகரன் வருந்துகிறான்)`; the draft has `வந்துகிறான்`. More importantly, the draft omitted the printed `காட்சி—3` heading and its complete opening block at the bottom of the page. |
 | 8 | 7 | clean in this pass | Continuation of `காட்சி—3`, `காட்சி—4`, its duet, and the opening of `காட்சி—5` visually match the draft. |
 | 9 | 8 | correction-needed | At the end of the page the scan line-breaks the form corresponding to `போயிட்டுத்தான் வரட்டுமே`; the draft currently separates it as `போயிட்டு தான் வரட்டுமே`. |
 | 10 | 9 | clean in this pass | `காட்சி—7` opening and the page's dialogue/stage directions visually match the draft; no new unresolved span identified. |
@@ -32,18 +32,7 @@ Visual comparison completed for all eight pages.
 
 ### Substantive omission on PDF 7
 
-The scan visibly contains a `காட்சி—3` heading after the end of the Rangoon conversation. It begins with the stage direction showing கல்யாணி in wedding dress, crying before a mirror, followed by her lament about her absent brothers and replies from பார்வதி and மாணிக்கம். The current first-pass draft jumps directly from PDF 7's preceding dialogue to the continuation on PDF 8, so this is a genuine first-pass omission rather than a scene-numbering anomaly.
-
-The missing block will be transcribed directly from the scan during the consolidated correction of `part-01-pdf-4-35.md`; any word that cannot be read confidently will receive the repository's explicit uncertainty notation.
-
-## Batch 1 state
-
-- Pages visually compared: **PDF 4–11 / printed pp. 3–10**
-- Pages in batch: **8**
-- Clean in this pass: **PDF 8, 10**
-- Corrections/omission recorded: **PDF 4, 5, 6, 7, 9, 11**
-- Existing source-damaged uncertainty still unresolved in this batch: **PDF 5**
-- Canonical part has **not yet been rewritten**; page anchors therefore remain `draft` until the accumulated corrections are applied.
+The scan visibly contains a `காட்சி—3` heading after the end of the Rangoon conversation. It begins with the direction showing கல்யாணி in wedding dress crying before a mirror, followed by her lament about her absent brothers and replies from பார்வதி / மாணிக்கம். This block was restored directly from the scan in the consolidated part-01 rewrite.
 
 ## Batch 2 — PDF 12–19 / printed pp. 11–18
 
@@ -51,31 +40,18 @@ Visual comparison completed for all eight pages directly against the scan.
 
 | PDF | Printed | Audit result | Findings |
 |---:|---:|---|---|
-| 12 | 11 | substantive correction-needed | The draft omits an entire lyric stanza at the top of the page, beginning `கற்றிலும் சித்திரமும் கண்டு—அதன்` and ending `அளிக்கும் கலைகள் அறிவோம்`, before the existing `வானுலக மோட்சமதை நாடி—இன்ப` stanza. Additional clear corrections include source `ஆணவத்தினிலே` vs draft `ஆணவத்திலே`, source `இனிக்கும் விதத்தில் சுகம்` vs draft `வித்தத்தில்`, and the stage direction's `தன் பணத்தை பூராவும் பறிகொடுக்கிறான்` vs draft `சூறாவும்`. |
-| 13 | 12 | correction-needed; two uncertainties resolved | The two marked readings are legible in the enlarged scan as `பஞ்சையாய்...பராரியாய்`. The source continues `என் தங்கைக்கு`, not draft `ஏன் தங்கைக்கு`. Other clear source forms include `வீதிகளிலே`, `இதுதானு`, and `ஊமையாய்`, which differ from the current draft. |
-| 14 | 13 | correction-needed | The auction notice prints `என்னவென்றால்` as one word; the draft has `என்ன வென்றால்`. In the following conversation the scan reads the colloquial `ஆனுங்களோ?`, not draft `ஆனாங்களோ?`. Scene headings and song placement match. |
-| 15 | 14 | correction-needed | The scan reads `நான் சொல்வதைக் கேளு`; the draft has `சொல்லுவதைக்`. It also prints `நடக்க வேண்டியதுதானே நடக்கும்` as a continuous form rather than the draft's separated `வேண்டியது தானே`. The remainder of the page follows the draft's sequence. |
-| 16 | 15 | review / one source uncertainty remains | The marked `⟦சேப்பு?⟧` is clearly `சோப்பு` in the scan. The source also has `இல்லே எம்ப்டி பாக்கெட்`, not draft `இல்ல எம்ப்டி பாக்கெட்`. The later marked word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்` remains too ambiguous in this scan to replace confidently, so that uncertainty is retained. |
-| 17 | 16 | correction-needed; one uncertainty resolved | The marked phrase is legible as `நல்லவன், நாதியற்றவனை`. The scan also reads `உடுத்த மாற்றுத் துணியில்லை` where the draft has `உடுக்க`, and `வாடிக்கைக்காரங்க` where the draft has `வாடிக்கைகாரங்க`. |
-| 18 | 17 | correction-needed; one uncertainty resolved | The stage-direction marker `⟦கேளாமலேயே?⟧` resolves to `கேளாமலேயே`. Other clear source forms include `பரவாயில்ல`, `நாலு அணாவுக்கு`, `தானப்பா`, `காசில்லையா?`, and `பாழாப் போனவனே`, all differing from the current draft in small but source-significant ways. |
-| 19 | 18 | correction-needed; one uncertainty resolved | The marked phrase is clearly `வித்தாத்தானே வீணுப்போனவனே?`. The remainder of the page follows the first-pass sequence closely; one small source-form difference is `(மைனர்கள் கொடுத்துவிடுகின்றனர்)` rather than the draft's separated `கொடுத்து விடுகின்றனர்`. |
-
-### Substantive omission on PDF 12
-
-PDF 12 contains a full lyric stanza before the stanza currently beginning the draft page. This is the second substantive first-pass omission found during the fidelity audit. It is not a page-order issue: the omitted stanza is visibly part of the same song begun on PDF 11 and must be restored at the start of the PDF 12 source anchor during the consolidated part-01 correction.
+| 12 | 11 | substantive correction-needed | The draft omitted an entire lyric stanza at the top of the page. Direct re-reading during consolidated application confirms the source opening as `கற்சிலையும் சித்திரமும் கண்டு—அதன்`; the stanza ends `அளிக்கும் கலைகள் அறிவோம்`, before the existing `வானுலக மோட்சமதை நாடி—இன்ப` stanza. Additional clear corrections include source `ஆணவத்தினிலே` vs draft `ஆணவத்திலே`, source `இனிக்கும் விதத்தில் சுகம்` vs draft `வித்தத்தில்`, and the stage direction's `தன் பணத்தை பூராவும் பறிகொடுக்கிறான்` vs draft `சூறாவும்`. |
+| 13 | 12 | correction-needed; two uncertainties resolved | The two marked readings are legible in the enlarged scan as `பஞ்சையாய்...பராரியாய்`. The source continues `என் தங்கைக்கு`, not draft `ஏன் தங்கைக்கு`. Other clear source forms include `வீதிகளிலே`, `இதுதானு`, and `ஊமையாய்`. |
+| 14 | 13 | correction-needed | The auction notice prints `என்னவென்றால்` as one word; the following conversation reads `ஆனுங்களோ?`. |
+| 15 | 14 | correction-needed | The scan reads `நான் சொல்வதைக் கேளு` and `நடக்க வேண்டியதுதானே நடக்கும்`. |
+| 16 | 15 | review / one source uncertainty remains | The marked `⟦சேப்பு?⟧` resolves to `சோப்பு`; `இல்லே எம்ப்டி பாக்கெட்` is clear. The later marked word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்` remains too ambiguous to replace confidently. |
+| 17 | 16 | correction-needed; one uncertainty resolved | The marked phrase resolves to `நல்லவன், நாதியற்றவனை`; the source also has `உடுத்த மாற்றுத் துணியில்லை` and `வாடிக்கைக்காரங்க`. |
+| 18 | 17 | correction-needed; one uncertainty resolved | `⟦கேளாமலேயே?⟧` resolves to `கேளாமலேயே`; other source forms include `பரவாயில்ல`, `நாலு அணாவுக்கு`, `காசில்லையா?`, and `பாழாப் போனவனே`. |
+| 19 | 18 | correction-needed; one uncertainty resolved | The marked phrase resolves to `வித்தாத்தானே வீணுப்போனவனே?`; the source has `(மைனர்கள் கொடுத்துவிடுகின்றனர்)`. |
 
 ### Uncertainty resolution in Batch 2
 
-Six existing uncertainty markers can now be resolved directly from the scan when the canonical part is rewritten:
-
-- PDF 13: `பஞ்சையாய்`
-- PDF 13: `பராரியாய்`
-- PDF 16: `சோப்பு`
-- PDF 17: `நல்லவன், நாதியற்றவனை`
-- PDF 18: `கேளாமலேயே`
-- PDF 19: `வித்தாத்தானே வீணுப்போனவனே?`
-
-One marked reading on PDF 16 remains unresolved after enlarged inspection. Together with the earlier source-damaged span on PDF 5, there are currently **two known unresolved readings within the already-audited pages**. This does not yet change the canonical draft's stored count of 19 markers because no consolidated rewrite has been applied.
+Resolved directly from the scan: PDF 13 `பஞ்சையாய்`, `பராரியாய்`; PDF 16 `சோப்பு`; PDF 17 `நல்லவன், நாதியற்றவனை`; PDF 18 `கேளாமலேயே`; PDF 19 `வித்தாத்தானே வீணுப்போனவனே?`.
 
 ## Batch 3 — PDF 20–27 / printed pp. 19–26
 
@@ -83,51 +59,55 @@ Visual comparison completed for all eight pages directly against the rendered sc
 
 | PDF | Printed | Audit result | Findings |
 |---:|---:|---|---|
-| 20 | 19 | correction-needed; one uncertainty resolved | The marked line is legible as `ஈசனும் ஈசனார் பூசையும் தேசத்தில்`. Other clear corrections include source `சாட்சி கோர்ட்டு ஏறாதடி` vs draft `ஏறுதடி`, source `இல்லா தவனை` vs draft `இல்லாதவன்`, source `முட்டாபயலையெல்லாம்` vs draft `முட்டாப்பயலெல்லாம்`, and source `நான் பிச்சைக்காரனில்லை` vs draft `பிச்சைக்காரனில்லே`. |
-| 21 | 20 | correction-needed | Clear source forms include `அவுங்க அப்பாதானே?`, `அவளையும் வாழ விடலே`, `அவளை சிசுவும் கையுமா விதவையாக்கிருச்சி`, `துயரப்படுறியே`, and `கல்யாணியைத் தேட`. The `காட்சி 17` direction has `இதப் பார்த்துக்கொண்டே` and `நெஞ்சைத் துளைக்கும்`, and the lullaby line reads `யானையும் வாகனமாய்—சின்ன`, not draft `பாண்டமும்`. |
-| 22 | 21 | correction-needed; two uncertainties resolved | The source reads `வெள்ளியினால் செய்த ஏட்டில்` and `பாடம் எழுத உனை`, not draft `வெள்ளியினில்` / `உன்`. In `காட்சி-18`, the marked readings resolve as `லாண்டறியே` and `டேபின்`. Other clear corrections include source `தான் ஆட்டத்துக்கு வர்லே`, `ஏது ஆள் அவுட்டா`, and `ஒன்கிட்டே`. |
-| 23 | 22 | correction-needed; one uncertainty resolved | Source corrections include `அங்கே வர்றியா`, `கற்பித்தானா?`, `மந்திரி பிரதானீகளே`, `இசைக்குயில் போல்`, `கடக்கட்டு`, and `பரதேசிப் பசங்களா`. The longer marked span resolves as `சஞ்சீவி நாம பர்வதம்`. The end verse block otherwise follows the draft sequence. |
-| 24 | 23 | correction-needed | The source has `(இவ்வாறாக...)`, `இங்கே வாயேன்`, `பெத்து தர்றேன்`, `கட்டிக்கிறாயா?`, `முதல்லே`, `தர்றேன்`, and `சத்தியமா`, where the draft has smaller source-form errors. The scene direction prints `(இடம்ரோடு)`, and the road dialogue includes `கொடப்பா` and `நடக்கும்லே?`. |
-| 25 | 24 | correction-needed | Clear source forms include `காசு எடப்பா`, `ஏனப்பா`, `திமிறுபடைச்சவன்`, `எடுன்னா`, `விளையாடுறே`, `பாக்றயா`, `யாருனு`, `அப்படின்னா`, `ரெண்டணாவுக்குக் கொடு`, `ஏங்க உங்களுக்கு`, and `பிட்டுக் கொடுக்கிறான்`, all differing from the draft. |
-| 26 | 25 | correction-needed | The source reads `நழுவ விடுவாயோ—ஏதுங்காணும் இந்தக் காசு?`, `ஏதுங் காணும்`, `எய்ட் நாட்திரீ`, `கொட்டாபுளியை`, `தூக்கவிட மறுத்தல்`, and `தலையின்மீது`. In `காட்சி 21`, the scan has `ஏண்ணா இவ்வளவு நாழி?`, `இருக்குல்லே?`, `இருங்கண்ணா! கொண்டு வர்றேன்`, `போடாமல்`, `இரண்டாக`, `கலந்துகிட்டால் லாபமும்`, repeated `அண்ணா`, and `பாவியானேன்`. |
-| 27 | 26 | correction-needed | The page continues the `அண்ணா` source form. Other clear corrections include `பலாமரமாக`, source spelling `மாழி`, `தானும் அப்படித்தான்`, `கந்தல்பாயிலே`, and `வஞ்சக வலைவீசினால் விழுவார்கள்`. The rescue dialogue has `மைத்துனு`, `நீ வரலின்னா`, repeated `கிறுக்கண்ணா`, `இட்லி தர்றேன்`, `கேட்பியே`, and `சொன்னா`, not the draft's corresponding forms. |
+| 20 | 19 | correction-needed; one uncertainty resolved | The marked line is `ஈசனும் ஈசனார் பூசையும் தேசத்தில்`. Other corrections include `சாட்சி கோர்ட்டு ஏறாதடி`, `இல்லா தவனை`, `முட்டாபயலையெல்லாம்`, and `நான் பிச்சைக்காரனில்லை`. |
+| 21 | 20 | correction-needed | Source forms include `அவுங்க அப்பாதானே?`, `அவளையும் வாழ விடலே`, `அவளை சிசுவும் கையுமா விதவையாக்கிருச்சி`, `துயரப்படுறியே`, `கல்யாணியைத் தேட`, `இதப் பார்த்துக்கொண்டே`, `நெஞ்சைத் துளைக்கும்`, and lyric `யானையும் வாகனமாய்—சின்ன`. |
+| 22 | 21 | correction-needed; two uncertainties resolved | Source reads `வெள்ளியினால் செய்த ஏட்டில்`, `பாடம் எழுத உனை`; marked readings resolve to `லாண்டறியே` and `டேபின்`; other corrections include `தான் ஆட்டத்துக்கு வர்லே`, `ஏது ஆள் அவுட்டா`, `ஒன்கிட்டே`. |
+| 23 | 22 | correction-needed; one uncertainty resolved | Corrections include `அங்கே வர்றியா`, `கற்பித்தானா?`, `மந்திரி பிரதானீகளே`, `இசைக்குயில் போல்`, `கடக்கட்டு`, `பரதேசிப் பசங்களா`; the longer marked span resolves to `சஞ்சீவி நாம பர்வதம்`. |
+| 24 | 23 | correction-needed | Source has `(இவ்வாறாக...)`, `இங்கே வாயேன்`, `பெத்து தர்றேன்`, `கட்டிக்கிறாயா?`, `முதல்லே`, `தர்றேன்`, `சத்தியமா`, `(இடம்ரோடு)`, `கொடப்பா`, and `நடக்கும்லே?`. |
+| 25 | 24 | correction-needed | Source forms include `காசு எடப்பா`, `ஏனப்பா`, `திமிறுபடைச்சவன்`, `எடுன்னா`, `விளையாடுறே`, `பாக்றயா`, `யாருனு`, `அப்படின்னா`, `ரெண்டணாவுக்குக் கொடு`, `ஏங்க உங்களுக்கு`, `பிட்டுக் கொடுக்கிறான்`. |
+| 26 | 25 | correction-needed | Source reads `நழுவ விடுவாயோ—ஏதுங்காணும் இந்தக் காசு?`, `ஏதுங் காணும்`, `எய்ட் நாட்திரீ`, `கொட்டாபுளியை`, `தூக்கவிட மறுத்தல்`, `தலையின்மீது`; scene 21 has `ஏண்ணா இவ்வளவு நாழி?`, `இருக்குல்லே?`, `இருங்கண்ணா! கொண்டு வர்றேன்`, `போடாமல்`, `இரண்டாக`, `கலந்துகிட்டால் லாபமும்`, repeated `அண்ணா`, and `பாவியானேன்`. |
+| 27 | 26 | correction-needed | Source continues `அண்ணா`; other corrections include `பலாமரமாக`, `மாழி`, `தானும் அப்படித்தான்`, `கந்தல்பாயிலே`, `வஞ்சக வலைவீசினால் விழுவார்கள்`, `மைத்துனு`, `நீ வரலின்னா`, repeated `கிறுக்கண்ணா`, `இட்லி தர்றேன்`, `கேட்பியே`, `சொன்னா`. |
 
 ### Uncertainty resolution in Batch 3
 
-Four additional existing uncertainty markers can now be resolved directly from the scan when `part-01-pdf-4-35.md` is rewritten:
-
-- PDF 20: `ஈசனார்`
-- PDF 22: `லாண்டறியே`
-- PDF 22: `டேபின்`
-- PDF 23: `சஞ்சீவி நாம பர்வதம்`
-
-No new unresolved source reading was identified in PDF 20–27 during this pass.
+Resolved directly from the scan: PDF 20 `ஈசனார்`; PDF 22 `லாண்டறியே`, `டேபின்`; PDF 23 `சஞ்சீவி நாம பர்வதம்`.
 
 ## Batch 4 — PDF 28–35 / printed pp. 27–34
 
-Visual comparison completed for all eight pages directly against enlarged renders of the scan. This completes the audit coverage for `part-01-pdf-4-35.md`.
+Visual comparison completed for all eight pages directly against enlarged renders of the scan.
 
 | PDF | Printed | Audit result | Findings |
 |---:|---:|---|---|
-| 28 | 27 | correction-needed | The `காட்சி—22` direction reads `மறுநாள் காலை` and `கடை ஒன்றின்`, not draft `மறுநாள் கால` / `கடையொன்றின்`. Both early speaker lines read `ஆளையே காணும்`, not `ஆனாயே காணும்`. The gossip line has `நம் பயல்`, and the final direction/dialogue is `(மைனர்களை அடித்து)` with `சொல்லிவிடுகிறேன்`, not draft `(மைனர்கள் அடித்து)` / `சொல்லி விடுகிறேன்`. |
-| 29 | 28 | correction-needed | In the opening reflection the scan prints `சமுதாயம் அவள் வாழவிடவில்லை`, not draft `அவளை வாழவிடவில்லை`. In `காட்சி—24`, the last line reads `அவர்களை வரச்சொன்னேன்`, not draft `அவர்களே வரச்சொன்னேன்`. The remainder of the page follows the draft closely. |
-| 30 | 29 | correction-needed | In Narayanapillai's black-market justification the scan reads `நீ ப்ளாக் மார்க்கெட்டை கேவலமா பேசறே`, not draft `ப்ளாக் மார்க்கெட்டு`. The remaining dialogue and CID-book exchange match the draft sequence in this pass. |
-| 31 | 30 | correction-needed | The `காட்சி—26` direction has `சிலர் அவனைத் துரத்தவே`, not draft `அவனை துரத்தவே`. In the song the scan reads `அண்ணுவே நீங்கள் அழகான வாயால்`, not draft `அண்ணவே`. No unresolved reading was identified. |
-| 32 | 31 | correction-needed | The `காட்சி—28` direction prints `கள்ள மார்க்கெட்-காரன்`, preserving the hyphen. Narayanapillai's line reads `கந்த புராணத்திலிருந்து`, not draft `கந்த புராணத்தில் இருந்து`. Other text on the page visually follows the draft. |
-| 33 | 32 | correction-needed | The scan has `அட போடா மடையா!`, not draft `அட போட்டா மடையா!`. Later Narayanapillai asks for `அந்தத் தண்ணுடையைக் கொஞ்சம் எடேன்`; the draft has `தண்ணுடியைக்`. The lyric quotation and surrounding dialogue otherwise follow the draft. |
-| 34 | 33 | correction-needed | The pillow request prints `அந்தத் தலையணையைக் கொஞ்சமெடேன்`, not the draft's separated `கொஞ்சம் எடேன்`. A substantive word error is source `என் உப்பை தின்னுட்டு எனக்கே துரோகமா?`, where the draft has `என் உடம்பை`. In Kantha's rebuke the scan has `இங்கே நாராயண லீலாவா`, not draft `இங்கு`. |
-| 35 | 34 | correction-needed | Kantha's warning reads `ஏதாவது நாய்க்கும் வந்து நுழையும்!`, not draft `நாய்க்குப்`. The `காட்சி—29` song, `காட்சி—30` heading, direction, and final beggar line otherwise visually follow the first-pass draft. |
+| 28 | 27 | correction-needed | `மறுநாள் காலை`, `கடை ஒன்றின்`, both `ஆளையே காணும்`, `நம் பயல்`, `(மைனர்களை அடித்து)`, and `சொல்லிவிடுகிறேன்`. |
+| 29 | 28 | correction-needed | `சமுதாயம் அவள் வாழவிடவில்லை`; in `காட்சி—24`, `அவர்களை வரச்சொன்னேன்`. |
+| 30 | 29 | correction-needed | `நீ ப்ளாக் மார்க்கெட்டை கேவலமா பேசறே`. |
+| 31 | 30 | correction-needed | `சிலர் அவனைத் துரத்தவே`; song `அண்ணுவே நீங்கள் அழகான வாயால்`. |
+| 32 | 31 | correction-needed | `கள்ள மார்க்கெட்-காரன்`; `கந்த புராணத்திலிருந்து`. |
+| 33 | 32 | correction-needed | `அட போடா மடையா!`; `அந்தத் தண்ணுடையைக் கொஞ்சம் எடேன்`. |
+| 34 | 33 | correction-needed | `அந்தத் தலையணையைக் கொஞ்சமெடேன்`; `என் உப்பை தின்னுட்டு எனக்கே துரோகமா?`; `இங்கே நாராயண லீலாவா`. |
+| 35 | 34 | correction-needed | `ஏதாவது நாய்க்கும் வந்து நுழையும்!`; remaining song/scene material follows the first-pass sequence. |
 
 No new uncertainty marker was resolved or introduced in PDF 28–35.
 
-## Cumulative audit state
+## Consolidated Part 01 application
 
-- Pages visually compared: **PDF 4–35 / printed pp. 3–34**
-- Total audited pages: **32**
-- Part 01 audit coverage: **complete**
-- Clean pages in the audit ledger: **PDF 8, 10**; all other pages have one or more recorded corrections or omissions
-- Substantive first-pass omissions found: **PDF 7 (`காட்சி—3` opening block), PDF 12 (lyric stanza)**
-- Uncertainty markers resolved from the scan but pending canonical rewrite: **10**
-- Known unresolved readings in part 01: **PDF 5 and PDF 16**
-- Canonical part has **not yet been rewritten** at this checkpoint; its source anchors remain `draft` until the accumulated corrections are applied together.
-- Next required action: **consolidated rewrite of `part-01-pdf-4-35.md`**, then promotion of page anchors to `verified` except PDF 5 and PDF 16, which must remain `review`.
+The accumulated corrections for **PDF 4–35 / printed pp. 3–34** have now been applied to `transcription/parts/part-01-pdf-4-35.md` in one controlled rewrite.
+
+Applied in that rewrite:
+
+- all recorded Batch 1–4 source-form corrections;
+- restoration of the omitted PDF 7 `காட்சி—3` opening block directly from the scan;
+- restoration of the omitted PDF 12 lyric stanza directly from the scan, with opening `கற்சிலையும் சித்திரமும் கண்டு—அதன்`;
+- replacement of all ten uncertainty markers resolved during the audit;
+- retention of the two genuinely unresolved readings on PDF 5 and PDF 16;
+- page-anchor promotion to `verified` for 30 pages and `review` for PDF 5 and PDF 16.
+
+## Current cumulative state
+
+- Pages visually compared and consolidated: **PDF 4–35 / printed pp. 3–34**
+- Part 01: **audit complete; corrections applied**
+- Part 01 page statuses: **30 verified / 2 review**
+- Known unresolved readings in Part 01: **PDF 5 and PDF 16**
+- Resolved uncertainty markers pending apply: **0**
+- Next fidelity-audit page: **PDF 36 / printed p. 35**
+- Part 02 remains first-pass `draft`; no Part 02 audit correction has yet been applied.
