@@ -54,29 +54,29 @@ transcription_progress:
       pdf_pages: "36-57"
       printed_pages: "35-56"
       fidelity_status: audit-in-progress
-      audited_through_pdf_page: 43
+      audited_through_pdf_page: 51
       corrections_applied: false
   rear_advertisement_recorded_pdf_page: 58
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
-  audited_pdf_pages: "4-43"
-  audited_printed_pages: "3-42"
-  latest_batch_pdf_pages: "36-43"
-  latest_batch_printed_pages: "35-42"
+  audited_pdf_pages: "4-51"
+  audited_printed_pages: "3-50"
+  latest_batch_pdf_pages: "44-51"
+  latest_batch_printed_pages: "43-50"
   part_01_audit_complete: true
   part_01_corrections_applied: true
   part_01_verified_pages: 30
   part_01_review_pages: [5, 16]
-  part_02_audited_pdf_pages: "36-43"
+  part_02_audited_pdf_pages: "36-51"
   part_02_corrections_applied: false
-  part_02_uncertainty_markers_resolved_pending_apply: 4
-  part_02_substantive_retranscription_pages: [42]
-  next_pdf_page: 44
-  next_printed_page: 43
-  next_action: "Continue the part-02 visual fidelity audit at PDF 44 / printed page 43. Do not consolidate part 02 until its remaining pages are audited."
+  part_02_uncertainty_markers_resolved_pending_apply: 6
+  part_02_substantive_retranscription_pages: [42, 44, 45, 46, 48, 49]
+  next_pdf_page: 52
+  next_printed_page: 51
+  next_action: "Audit PDF 52-57 / printed pages 51-56, then perform one consolidated Part 02 rewrite from the scan and ledger."
   source_uncertainty_pages_audited: [5, 16]
-  note: "Batch 5 visually audited PDF 36-43. Four existing Part 02 uncertainty markers were resolved from the scan; no new source uncertainty was introduced. PDF 42 contains a materially corrupted first-pass paragraph and requires direct retranscription during consolidated application."
+  note: "Batch 6 visually audited PDF 44-51. Two more Part 02 uncertainty markers were resolved on PDF 50. No new unreadable source span was found. Several first-pass passages on PDF 44, 45, 46, 48 and 49 are materially corrupted and must be retranscribed directly from the scan together with the previously identified PDF 42 paragraph."
 
 status:
   structural_mapping: verified
