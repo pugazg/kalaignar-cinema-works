@@ -3,7 +3,7 @@
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`  
 Handover prepared: 2026-08-12  
-Last verified project HEAD before this handover update: `039de47cea9f2aa1abf67f42638ff7753f453537`
+Last verified project HEAD before this handover update: `1bc8192f0ddf31b2b570f770a376d1c94b9fcee7`
 
 This document is the controlling handover for continuing the **Parasakthi Tamil visual-fidelity audit** in another chat window. Read it together with the current `main` versions of the files listed below before making any new transcription or audit changes.
 
@@ -58,6 +58,7 @@ Before continuing, fetch and read the current `main` versions of:
 7. `works/parasakthi/transcription/parts/part-01-pdf-4-35.md` — first canonical part.
 8. `works/parasakthi/transcription/parts/part-02-pdf-36-57.md` — second canonical part.
 9. `data/works.json` — machine-readable progress state.
+10. `works/parasakthi/README.md` and root `README.md` — public progress summaries.
 
 Do not continue from an older cached copy of these files.
 
@@ -87,8 +88,9 @@ Completed and committed:
 
 - Batch 1: **PDF 4–11 / printed pp. 3–10**.
 - Batch 2: **PDF 12–19 / printed pp. 11–18**.
-- Cumulative audited range: **PDF 4–19 / printed pp. 3–18** = **16 pages**.
-- Next page that has not been committed as audited: **PDF 20 / printed p.19**.
+- Batch 3: **PDF 20–27 / printed pp. 19–26**.
+- Cumulative audited range: **PDF 4–27 / printed pp. 3–26** = **24 pages**.
+- Next page that has not been committed as audited: **PDF 28 / printed p.27**.
 
 The detailed findings are in `works/parasakthi/notes/fidelity-audit.md` and must be treated as the authoritative audit ledger.
 
@@ -100,7 +102,7 @@ The detailed findings are in `works/parasakthi/notes/fidelity-audit.md` and must
 
 ### Existing uncertainty markers resolved visually but not yet applied to canonical text
 
-Batch 2 resolved these directly from the scan:
+Ten readings have been resolved directly from the scan and are pending the consolidated rewrite of part 01:
 
 - PDF 13: `பஞ்சையாய்`
 - PDF 13: `பராரியாய்`
@@ -108,8 +110,12 @@ Batch 2 resolved these directly from the scan:
 - PDF 17: `நல்லவன், நாதியற்றவனை`
 - PDF 18: `கேளாமலேயே`
 - PDF 19: `வித்தாத்தானே வீணுப்போனவனே?`
+- PDF 20: `ஈசனார்`
+- PDF 22: `லாண்டறியே`
+- PDF 22: `டேபின்`
+- PDF 23: `சஞ்சீவி நாம பர்வதம்`
 
-These six readings are **pending the consolidated rewrite** of part 01. Do not treat the old uncertainty markers in the canonical file as still unresolved merely because they have not yet been replaced there.
+Do not treat the old uncertainty markers in the canonical file as still unresolved merely because they have not yet been replaced there.
 
 ### Known genuinely unresolved readings within the audited range
 
@@ -120,19 +126,23 @@ Two readings remain genuinely unclear after enlarged visual inspection:
 
 Do not infer either from external versions.
 
-The first-pass canonical files still contain **19 explicit uncertainty markers across both parts** because the consolidated audit rewrite has not yet happened. Six of those markers have now been resolved in the audit ledger; the two readings above remain unresolved within PDF 4–19; markers on later unaudited pages still require visual review.
+The first-pass canonical files still contain **19 explicit uncertainty markers across both parts** because the consolidated audit rewrite has not yet happened. Ten of those markers have now been resolved in the audit ledger; the two readings above remain unresolved within PDF 4–27; markers on later unaudited pages still require visual review.
 
-## 6. Important ordinary corrections already recorded
+## 6. Important corrections already recorded
 
 Do not recreate these from memory; use the audit ledger for exact wording. Examples already recorded include:
 
 - PDF 4: `இந்த மண் மாதாவின் மடியிலே` rather than draft `மடியில்`.
 - PDF 5: `விளையாண்டுகிட்டு` rather than draft `விண்ணியாண்டுகிட்டு`.
-- PDF 7: `(ஞான சேகரன் வருந்துகிறான்)` rather than draft `வந்துகிறான்`.
+- PDF 7: `(ஞான சேகரன் வருந்துகிறான்)` rather than draft `வந்துகிறான்`, plus the omitted `காட்சி—3` opening block.
 - PDF 11: feminine stage-direction forms `தவறியவள் ... வெளியேறுபவள் ... செய்கிறாள்`; `உம்...வேண்டாம்...தேங்க்ஸ்`; lyric `இனிக்கும் விதத்தில் சுகம்`.
-- PDF 12: `ஆணவத்தினிலே`, `இனிக்கும் விதத்தில் சுகம்`, `தன் பணத்தை பூராவும் பறிகொடுக்கிறான்`.
-- PDF 13: `என் தங்கைக்கு` and other source forms recorded in the ledger.
-- PDF 16–19: multiple colloquial/source-form corrections plus the uncertainty resolutions listed above.
+- PDF 12: omitted lyric stanza, `ஆணவத்தினிலே`, `இனிக்கும் விதத்தில் சுகம்`, `தன் பணத்தை பூராவும் பறிகொடுக்கிறான்`.
+- PDF 13–19: multiple colloquial/source-form corrections plus six uncertainty resolutions.
+- PDF 20: `ஈசனார்`, `சாட்சி கோர்ட்டு ஏறாதடி`, `முட்டாபயலையெல்லாம்`, `பிச்சைக்காரனில்லை`.
+- PDF 21: `அவுங்க`, `அவளையும்`, `அவளை சிசுவும்`, `துயரப்படுறியே`, `யானையும் வாகனமாய்—சின்ன`.
+- PDF 22: `வெள்ளியினால்`, `உனை`, `லாண்டறியே`, `டேபின்`, `தான் ஆட்டத்துக்கு வர்லே`.
+- PDF 23: `மந்திரி பிரதானீகளே`, `பரதேசிப் பசங்களா`, `சஞ்சீவி நாம பர்வதம்`.
+- PDF 24–27: many source-form corrections in the mad/road and Venu-Kalyani scenes, recorded page by page in the ledger.
 
 Again, `works/parasakthi/notes/fidelity-audit.md` is authoritative for the complete findings.
 
@@ -157,9 +167,9 @@ After the rewrite, update the audit ledger, metadata, `data/works.json`, relevan
 
 ## 8. Exact next work
 
-Start from **PDF 20 / printed page 19**.
+Start from **PDF 28 / printed page 27**.
 
-Recommended next audit batch: **PDF 20–27 / printed pp. 19–26**.
+Recommended next audit batch: **PDF 28–35 / printed pp. 27–34**, completing the audit range for part 01.
 
 For every page in that batch:
 
@@ -169,9 +179,9 @@ For every page in that batch:
 - resolve existing `⟦...⟧` markers only when the scan supports a confident reading;
 - record findings in `works/parasakthi/notes/fidelity-audit.md`;
 - update progress metadata/README/handover after the batch;
-- **do not rewrite `part-01-pdf-4-35.md` yet**.
+- **do not rewrite `part-01-pdf-4-35.md` until PDF 35 is completely audited**.
 
-A few pages from the next range were rendered for inspection in the previous chat immediately before this handover request, but **no Batch 3 audit findings were committed**. Therefore the durable project state remains: **next audit page = PDF 20**. Do not assume PDF 20 or any later page has been audited merely because it may have been visually opened in the prior chat.
+After PDF 28–35 are audited and committed, the next step should be the consolidated rewrite of `part-01-pdf-4-35.md`.
 
 ## 9. After part 01 is corrected
 
@@ -203,12 +213,12 @@ Do not claim corrections have been applied to canonical Tamil until the correspo
 
 Use this with the same source PDF attached:
 
-> I am continuing `pugazg/kalaignar-cinema-works` Parasakthi fidelity audit. Read the current `main` versions of `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`, `docs/TRANSCRIPTION_GUIDE.md`, `works/parasakthi/notes/fidelity-audit.md`, `works/parasakthi/metadata.yaml`, `works/parasakthi/mapping.md`, and both canonical transcription parts. Treat those repository files as controlling instructions. The attached source is `TVA_BOK_0062968_பராசக்தி.pdf`, SHA-256 `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`, actual 58 PDF pages. Continue the visual fidelity audit exactly from **PDF 20 / printed page 19**. Do not use subtitles, web copies, later editions, or memory to repair the text. Record findings first; do not rewrite part 01 until PDF 35 has been completely audited.
+> I am continuing `pugazg/kalaignar-cinema-works` Parasakthi fidelity audit. Read the current `main` versions of `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`, `docs/TRANSCRIPTION_GUIDE.md`, `works/parasakthi/notes/fidelity-audit.md`, `works/parasakthi/metadata.yaml`, `works/parasakthi/mapping.md`, and both canonical transcription parts. Treat those repository files as controlling instructions. The attached source is `TVA_BOK_0062968_பராசக்தி.pdf`, SHA-256 `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`, actual 58 PDF pages. Continue the visual fidelity audit exactly from **PDF 28 / printed page 27**. Do not use subtitles, web copies, later editions, or memory to repair the text. Record findings first; do not rewrite part 01 until PDF 35 has been completely audited.
 
 ## 12. Durable checkpoint
 
-At handover creation time, the last project commit before this document update was:
+At this handover update, the latest completed audit batch is:
 
-`039de47cea9f2aa1abf67f42638ff7753f453537` — `Update Parasakthi fidelity audit status`
+`PDF 20–27 / printed pp. 19–26` — Batch 3, recorded in `works/parasakthi/notes/fidelity-audit.md`.
 
 After this handover file is committed, treat the resulting newer `main` HEAD as the new durable checkpoint and fetch it fresh in the next chat.
