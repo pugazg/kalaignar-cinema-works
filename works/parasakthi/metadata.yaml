@@ -69,9 +69,30 @@ transcription_progress:
   next_printed_page: null
   unresolved_short_spans: 19
 
+fidelity_audit:
+  ledger: "notes/fidelity-audit.md"
+  audited_pdf_pages: "4-11"
+  audited_printed_pages: "3-10"
+  next_pdf_page: 12
+  next_printed_page: 11
+  clean_pages_in_latest_batch:
+    - 8
+    - 10
+  correction_pending_pages:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 11
+  source_uncertainty_pages:
+    - 5
+  canonical_corrections_applied: false
+  note: "Batch 1 found a substantive omitted காட்சி—3 block on PDF 7; corrections are being accumulated for a consolidated rewrite of part 01."
+
 status:
   structural_mapping: verified
   tamil_transcription: draft-complete
-  tamil_fidelity_audit: not-started
+  tamil_fidelity_audit: in-progress
   song_authorship_mapping: not-started
   english_translation: blocked
