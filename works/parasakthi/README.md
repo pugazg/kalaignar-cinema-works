@@ -33,12 +33,12 @@ This repository preserves that printed order unless a separately documented sour
 ## Current state
 
 - Structural mapping: **complete / verified**
-- Canonical Tamil transcription: **draft through PDF 27 / printed page 26**
-- Draft pages currently entered: **PDF 4–27 / printed pages 3–26**
-- Latest batch: **PDF 24–27 / printed pages 23–26**
-- Next page for transcription: **PDF 28 / printed page 27**
+- Canonical Tamil transcription: **draft through PDF 31 / printed page 30**
+- Draft pages currently entered: **PDF 4–31 / printed pages 3–30**
+- Latest batch: **PDF 28–31 / printed pages 27–30**
+- Next page for transcription: **PDF 32 / printed page 31**
 - Tamil fidelity audit: **not-started**
-- Thirteen short unresolved readings remain explicitly marked in the draft; no new uncertainty marker was needed for PDF 24–27
+- Thirteen short unresolved readings remain explicitly marked in the draft; no new uncertainty marker was needed for PDF 28–31
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until verified Tamil exists**
 
