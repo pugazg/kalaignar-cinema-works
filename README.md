@@ -46,7 +46,9 @@ The repository is organized by **work/film**, with each work preserving its sour
 
 The first source is the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**. Its title page credits **`திரைக்கதை, வசனம் — கலைஞர் மு. கருணாநிதி`**. The scan contains 58 PDF pages and is image-only.
 
-The structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). It records all 58 PDF pages, the printed-page correspondence, all visible scene headings, source numbering anomalies, and first-pass verse/lyric-formatted locations. Canonical Tamil transcription is the next stage.
+The structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). It records all 58 PDF pages, the printed-page correspondence, all visible scene headings, source numbering anomalies, and first-pass verse/lyric-formatted locations.
+
+Canonical Tamil transcription has now begun. The current draft covers **PDF pages 4–7 / printed pages 3–6**, with page anchors and one explicitly marked unreadable short span. The separate fidelity audit has not yet begun; the next transcription page is **PDF 8 / printed page 7**.
 
 ## Status vocabulary
 
