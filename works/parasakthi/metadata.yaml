@@ -57,9 +57,13 @@ transcription_progress:
     - 5
     - 6
     - 7
-  draft_printed_pages: "3-6"
-  next_pdf_page: 8
-  next_printed_page: 7
+    - 8
+    - 9
+    - 10
+    - 11
+  draft_printed_pages: "3-10"
+  next_pdf_page: 12
+  next_printed_page: 11
   unresolved_short_spans: 1
 
 status:
