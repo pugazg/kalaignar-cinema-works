@@ -51,9 +51,20 @@ structure:
     printed_page: 56
     note: "Printed after scenes 46 and 47, which begin on PDF 55 / printed page 54."
 
+transcription_progress:
+  draft_pdf_pages:
+    - 4
+    - 5
+    - 6
+    - 7
+  draft_printed_pages: "3-6"
+  next_pdf_page: 8
+  next_printed_page: 7
+  unresolved_short_spans: 1
+
 status:
   structural_mapping: verified
-  tamil_transcription: not-started
+  tamil_transcription: draft
   tamil_fidelity_audit: not-started
   song_authorship_mapping: not-started
   english_translation: blocked
