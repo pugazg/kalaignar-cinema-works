@@ -32,6 +32,8 @@ The repository is organized by **work/film**, with each work preserving its sour
         ├── mapping.md
         ├── source/
         │   └── README.md
+        ├── notes/
+        │   └── textual-notes.md
         ├── transcription/
         │   ├── full-text.md
         │   └── scenes/
@@ -44,7 +46,7 @@ The repository is organized by **work/film**, with each work preserving its sour
 
 The first source is the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**. Its title page credits **`திரைக்கதை, வசனம் — கலைஞர் மு. கருணாநிதி`**. The scan contains 58 PDF pages and is image-only.
 
-The initial structural map is in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). Tamil transcription has deliberately **not** started yet; the source map and archival controls are being established first.
+The structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). It records all 58 PDF pages, the printed-page correspondence, all visible scene headings, source numbering anomalies, and first-pass verse/lyric-formatted locations. Canonical Tamil transcription is the next stage.
 
 ## Status vocabulary
 
