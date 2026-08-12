@@ -65,10 +65,14 @@ transcription_progress:
     - 13
     - 14
     - 15
-  draft_printed_pages: "3-14"
-  next_pdf_page: 16
-  next_printed_page: 15
-  unresolved_short_spans: 4
+    - 16
+    - 17
+    - 18
+    - 19
+  draft_printed_pages: "3-18"
+  next_pdf_page: 20
+  next_printed_page: 19
+  unresolved_short_spans: 9
 
 status:
   structural_mapping: verified
