@@ -53,34 +53,36 @@ transcription_progress:
     - path: "transcription/parts/part-02-pdf-36-57.md"
       pdf_pages: "36-57"
       printed_pages: "35-56"
-      fidelity_status: audit-in-progress
-      audited_through_pdf_page: 51
+      fidelity_status: audit-complete-pending-apply
+      audited_through_pdf_page: 57
       corrections_applied: false
   rear_advertisement_recorded_pdf_page: 58
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
-  audited_pdf_pages: "4-51"
-  audited_printed_pages: "3-50"
-  latest_batch_pdf_pages: "44-51"
-  latest_batch_printed_pages: "43-50"
+  audited_pdf_pages: "4-57"
+  audited_printed_pages: "3-56"
+  latest_batch_pdf_pages: "52-57"
+  latest_batch_printed_pages: "51-56"
+  canonical_range_audit_complete: true
   part_01_audit_complete: true
   part_01_corrections_applied: true
   part_01_verified_pages: 30
   part_01_review_pages: [5, 16]
-  part_02_audited_pdf_pages: "36-51"
+  part_02_audited_pdf_pages: "36-57"
+  part_02_audit_complete: true
   part_02_corrections_applied: false
   part_02_uncertainty_markers_resolved_pending_apply: 6
-  part_02_substantive_retranscription_pages: [42, 44, 45, 46, 48, 49]
-  next_pdf_page: 52
-  next_printed_page: 51
-  next_action: "Audit PDF 52-57 / printed pages 51-56, then perform one consolidated Part 02 rewrite from the scan and ledger."
+  part_02_substantive_retranscription_pages: [42, 44, 45, 46, 48, 49, 52, 53, 54]
+  next_pdf_page: null
+  next_printed_page: null
+  next_action: "Perform one consolidated source-led rewrite of part-02-pdf-36-57.md using the completed Batch 5-7 audit ledger, then verify and promote page anchors."
   source_uncertainty_pages_audited: [5, 16]
-  note: "Batch 6 visually audited PDF 44-51. Two more Part 02 uncertainty markers were resolved on PDF 50. No new unreadable source span was found. Several first-pass passages on PDF 44, 45, 46, 48 and 49 are materially corrupted and must be retranscribed directly from the scan together with the previously identified PDF 42 paragraph."
+  note: "Batch 7 visually audited PDF 52-57, completing the full canonical visual audit through PDF 57 / printed page 56. No new unreadable source span was found in Part 02. PDF 52-54 join the direct-retranscription set because their first-pass courtroom text is materially corrupted despite a readable scan."
 
 status:
   structural_mapping: verified
   tamil_transcription: draft-complete
-  tamil_fidelity_audit: in-progress
+  tamil_fidelity_audit: audit-complete-pending-part-02-apply
   song_authorship_mapping: not-started
   english_translation: blocked
