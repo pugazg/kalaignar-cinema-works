@@ -32,25 +32,11 @@ source:
   publication_year: null
   edition: null
   publisher: null
-  notes:
-    - "PDF creation metadata is scan-production metadata and is not treated as publication metadata."
-    - "Printer line visible on printed page 56 / PDF 57 is not treated as publisher metadata."
 
 structure:
   scene_headings_observed: 46
   scene_heading_range_printed: "1-48 with headings 23 and 34 not observed; 48 and 43 occur out of normal numeric order"
-  headings_not_observed:
-    - 23
-    - 34
-  out_of_order_headings:
-    - scene: 48
-      pdf_page: 49
-      printed_page: 48
-      note: "Printed after scene 42 and before scenes 44 and 45."
-    - scene: 43
-      pdf_page: 57
-      printed_page: 56
-      note: "Printed after scenes 46 and 47 at the end of the booklet."
+  headings_not_observed: [23, 34]
   mapping_revision_note: "Detailed transcription of PDF 36-57 corrected the first-pass map: headings 33, 38 and 40 are present, and scene 48 is present on PDF 49 / printed page 48."
 
 transcription_progress:
@@ -67,37 +53,30 @@ transcription_progress:
     - path: "transcription/parts/part-02-pdf-36-57.md"
       pdf_pages: "36-57"
       printed_pages: "35-56"
-      fidelity_status: draft
+      fidelity_status: audit-in-progress
+      audited_through_pdf_page: 43
+      corrections_applied: false
   rear_advertisement_recorded_pdf_page: 58
-  next_pdf_page: null
-  next_printed_page: null
-  unresolved_short_spans: 9
-  unresolved_short_spans_note: "After the consolidated part-01 rewrite, ten markers were resolved. Two unresolved markers remain in part 01 (PDF 5 and PDF 16); seven markers remain in unaudited part 02."
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
-  audited_pdf_pages: "4-35"
-  audited_printed_pages: "3-34"
-  latest_batch_pdf_pages: "28-35"
-  latest_batch_printed_pages: "27-34"
+  audited_pdf_pages: "4-43"
+  audited_printed_pages: "3-42"
+  latest_batch_pdf_pages: "36-43"
+  latest_batch_printed_pages: "35-42"
   part_01_audit_complete: true
   part_01_corrections_applied: true
   part_01_verified_pages: 30
-  part_01_review_pages:
-    - 5
-    - 16
-  next_pdf_page: 36
-  next_printed_page: 35
-  next_action: "Begin the part-02 visual fidelity audit at PDF 36 / printed page 35."
-  substantive_omission_pages:
-    - 7
-    - 12
-  source_uncertainty_pages_audited:
-    - 5
-    - 16
-  uncertainty_markers_resolved_pending_apply: 0
-  canonical_corrections_applied: true
-  note: "Part 01 has been consolidated after complete visual audit. All recorded corrections and both substantive omissions were applied; 30 page anchors are verified and PDF 5 / PDF 16 remain review because their source readings are genuinely unclear."
+  part_01_review_pages: [5, 16]
+  part_02_audited_pdf_pages: "36-43"
+  part_02_corrections_applied: false
+  part_02_uncertainty_markers_resolved_pending_apply: 4
+  part_02_substantive_retranscription_pages: [42]
+  next_pdf_page: 44
+  next_printed_page: 43
+  next_action: "Continue the part-02 visual fidelity audit at PDF 44 / printed page 43. Do not consolidate part 02 until its remaining pages are audited."
+  source_uncertainty_pages_audited: [5, 16]
+  note: "Batch 5 visually audited PDF 36-43. Four existing Part 02 uncertainty markers were resolved from the scan; no new source uncertainty was introduced. PDF 42 contains a materially corrupted first-pass paragraph and requires direct retranscription during consolidated application."
 
 status:
   structural_mapping: verified
