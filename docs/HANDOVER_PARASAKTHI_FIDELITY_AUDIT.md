@@ -57,17 +57,9 @@ The scan has **46 visible scene headings**. Preserve source anomalies exactly:
 
 ## Part 01 — completed
 
-The visual audit for **PDF 4–35 / printed pp. 3–34** is complete, and the accumulated corrections have been applied in one consolidated rewrite of `part-01-pdf-4-35.md`.
+The visual audit for **PDF 4–35 / printed pp. 3–34** is complete and the accumulated corrections have been applied.
 
-Applied:
-
-- all Batch 1–4 source-form corrections;
-- restoration of the omitted PDF 7 `காட்சி—3` opening block directly from the scan;
-- restoration of the omitted PDF 12 lyric stanza directly from the scan; its source opening is `கற்சிலையும் சித்திரமும் கண்டு—அதன்`;
-- replacement of all ten uncertainty markers that were securely resolved during the audit;
-- preservation of the two genuinely unresolved readings.
-
-Part 01 page status is now:
+Part 01 status:
 
 - **30 verified pages**
 - **2 review pages: PDF 5 and PDF 16**
@@ -79,33 +71,67 @@ The remaining Part 01 uncertainties are:
 
 Do not infer either from external versions.
 
-The canonical files now contain **9 explicit uncertainty markers across both parts**: 2 in Part 01 and 7 in unaudited Part 02.
+## Part 02 — audit in progress
+
+Completed audit batches:
+
+- Batch 5: **PDF 36–43 / printed pp. 35–42**
+- Batch 6: **PDF 44–51 / printed pp. 43–50**
+- Cumulative Part 02 audit: **PDF 36–51 / printed pp. 35–50**
+
+Part 02 canonical corrections have **not** been applied yet. Continue accumulating findings until PDF 57 is audited, then perform one consolidated Part 02 rewrite.
+
+### Part 02 uncertainty markers resolved from the scan, pending application
+
+Six existing markers have been securely resolved:
+
+- PDF 36: `சேர்மையா`
+- PDF 37: `ஒரு அரையணா`
+- PDF 40: `பாலைவனத்தை பூஞ்சோலையாக்க`
+- PDF 41: `சுட்டுக் கொல்லப்பட்டிருப்போம்`
+- PDF 50: `சூறையாட`
+- PDF 50: `அணைப்பிலே`
+
+No new genuinely unreadable source span has been found in the Part 02 audit through PDF 51.
+
+### Part 02 blocks requiring direct source-led retranscription
+
+The first-pass text is materially corrupted on these source-readable pages and must be retranscribed directly from the scan during the consolidated rewrite:
+
+- **PDF 42 / printed p.41** — Gnanasekaran's long refugee/beggar-conference speech
+- **PDF 44 / printed p.43** — portions of Kalyani's speech after being driven from Sekar's house
+- **PDF 45 / printed p.44** — priest/Kalyani temple scene, especially the proposition and priest's internal monologue
+- **PDF 46 / printed p.45** — Kalyani's river-side suicide monologue and immediate aftermath
+- **PDF 48 / printed p.47** — Kalyani's courtroom answer and family-history passage
+- **PDF 49 / printed p.48** — street-preacher speech before the printed `காட்சி—48`
+
+Do not patch these blocks from memory or external Parasakthi versions.
 
 ## Exact next work
 
-Start the Part 02 fidelity audit at **PDF 36 / printed page 35**.
+Audit the final Part 02 range: **PDF 52–57 / printed pp. 51–56**.
 
-Recommended next batch: **PDF 36–43 / printed pp. 35–42**.
-
-For each page:
+For every page:
 
 - compare the complete canonical page text against the rendered scan;
-- inspect headings, speaker labels, directions, dialogue, punctuation, verse lineation, and page continuity;
-- identify omissions as well as wrong words;
+- inspect headings, speaker labels, stage directions, dialogue, punctuation, verse lineation, and page continuity;
+- identify omissions and materially corrupted passages as well as isolated word errors;
 - resolve an existing uncertainty marker only when the scan supports a confident reading;
-- record every finding in `works/parasakthi/notes/fidelity-audit.md`;
-- do not normalize scene numbering or source language.
+- record findings in `works/parasakthi/notes/fidelity-audit.md`;
+- preserve the source-order anomalies, especially final `காட்சி—43` on PDF 57.
 
-Use the same controlled workflow as Part 01: accumulate findings for Part 02, then perform a consolidated rewrite after its audit range is complete unless the ledger explicitly changes that rule.
+After PDF 52–57 are fully audited, the next activity is the **single consolidated rewrite of `part-02-pdf-36-57.md`**, including direct retranscription of the six blocks listed above plus any additional block discovered in the final batch. Only then promote Part 02 page anchors individually to `verified` / `review`.
 
 ## Translation gate
 
-English translation remains blocked for any unit that is not `verified`. Part 01 pages marked `verified` are eligible individually under the repository rule, but PDF 5 and PDF 16 are not. Part 02 remains blocked until audited and promoted.
+English translation remains blocked for any unit that is not `verified`. Part 02 remains blocked until its consolidated source correction and page-status promotion are complete.
 
 ## Durable continuation state
 
-- Part 01 audit: **complete and applied**
-- Part 01: **30 verified / 2 review**
-- Fidelity audit through: **PDF 35 / printed p.34**
-- Next fidelity page: **PDF 36 / printed p.35**
-- Part 02: **first-pass draft; audit not started**
+- Part 01 audit: **complete and applied — 30 verified / 2 review**
+- Fidelity audit through: **PDF 51 / printed p.50**
+- Part 02 audited: **PDF 36–51 / printed pp.35–50**
+- Part 02 resolved markers pending apply: **6**
+- Part 02 direct retranscription pages: **42, 44, 45, 46, 48, 49**
+- Next fidelity page: **PDF 52 / printed p.51**
+- Next batch: **PDF 52–57 / printed pp.51–56**
