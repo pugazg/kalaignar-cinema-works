@@ -49,15 +49,15 @@ The corrected structural map is complete in [`works/parasakthi/mapping.md`](work
 
 The **first-pass canonical Tamil transcription is complete** for all printed dialogue/song content: **PDF 4–57 / printed pp. 3–56**. PDF 58 is rear advertisement/back matter and is recorded as paratext rather than film dialogue.
 
-The page-by-page **Tamil fidelity audit has completed part 01: PDF 4–35 / printed pp. 3–34**. The audit ledger is [`works/parasakthi/notes/fidelity-audit.md`](works/parasakthi/notes/fidelity-audit.md). It records two substantive first-pass omissions — the `காட்சி—3` opening block on PDF 7 and a lyric stanza on PDF 12 — plus many source-form corrections. Ten existing uncertainty markers in part 01 have been visually resolved; two readings, on PDF 5 and PDF 16, remain genuinely unresolved.
+The page-by-page Tamil fidelity audit has completed and consolidated **Part 01: PDF 4–35 / printed pp. 3–34**. All recorded corrections were applied, including restoration of the omitted `காட்சி—3` opening block on PDF 7 and the omitted lyric stanza on PDF 12. Ten previously uncertain readings were resolved directly from the scan. Part 01 now has **30 verified pages and 2 review pages**; PDF 5 and PDF 16 retain one genuine source uncertainty each.
 
-The required next action is the **consolidated rewrite of `part-01-pdf-4-35.md`**. Part 02 audit must not begin until those accumulated part-01 corrections are applied and page anchors are promoted to `verified` / `review` as appropriate. English translation remains blocked until the corresponding Tamil is verified.
+Part 02 remains first-pass draft. The **next fidelity-audit page is PDF 36 / printed p.35**. English translation remains blocked until the corresponding Tamil unit is verified.
 
 ## Status vocabulary
 
 - `not-started` — no transcription attempted
-- `draft` — transcription exists but first-pass coverage is incomplete
-- `draft-complete` — complete first-pass source coverage exists but has not completed visual fidelity review
+- `draft` — transcription exists but has not passed visual fidelity review
+- `draft-complete` — complete first-pass source coverage exists but the work as a whole has not completed visual fidelity review
 - `review` — compared to the scan but unresolved readings remain
 - `verified` — visually checked against the source page and no unresolved reading remains
 
