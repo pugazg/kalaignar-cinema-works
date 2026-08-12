@@ -32,15 +32,18 @@ This repository preserves that printed order unless a separately documented sour
 
 ## Current state
 
-- Structural mapping: **complete**
-- Canonical Tamil transcription: **not-started**
+- Structural mapping: **complete / verified**
+- Canonical Tamil transcription: **draft through PDF 7 / printed page 6**
+- Draft pages currently entered: **PDF 4–7 / printed pages 3–6**
+- Next page for transcription: **PDF 8 / printed page 7**
 - Tamil fidelity audit: **not-started**
+- One short unreadable span is explicitly marked in the draft on PDF 5 / printed page 4
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until verified Tamil exists**
 
-## Planned canonical files
+## Canonical files
 
-- `transcription/full-text.md` — source-order Tamil transcription with page anchors
+- [`transcription/full-text.md`](transcription/full-text.md) — source-order Tamil transcription with page anchors
 - `transcription/scenes/` — verified scene derivatives generated only from the canonical text
 - `songs/` — song index/derivatives with explicit authorship status
 
