@@ -6,14 +6,24 @@ The complete first-pass Tamil source transcription is present for PDF 4–57 / p
 
 The second-pass visual fidelity audit is **in progress**.
 
-- Audited: **PDF 4–11 / printed pp. 3–10**
-- Next: **PDF 12 / printed p. 11**
+- Audited: **PDF 4–19 / printed pp. 3–18**
+- Next: **PDF 20 / printed p. 19**
 - Detailed ledger: `works/parasakthi/notes/fidelity-audit.md`
 - Canonical page anchors remain `draft` until accumulated part-01 corrections are applied in a consolidated rewrite.
 - English translation remains blocked.
 
-Batch 1 found several ordinary word/punctuation corrections and one **substantive first-pass omission**: the printed `காட்சி—3` heading and its opening block at the bottom of PDF 7 are absent from the current draft. The audit ledger records this explicitly so it cannot be lost.
+Two substantive first-pass omissions have now been found and recorded:
 
-The source-damaged short span on PDF 5 in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?` remains unresolved after enlarged visual inspection. Do not guess it from film subtitles, web copies, later editions, or memory.
+1. PDF 7: the printed `காட்சி—3` heading and its opening block are absent from the draft.
+2. PDF 12: an entire lyric stanza at the start of the page, continuing the song from PDF 11, is absent from the draft.
 
-Continue by comparing every remaining transcribed page directly against the scan, recording corrections and resolving explicit uncertainty markers where the scan supports a confident reading. After the audit of `part-01-pdf-4-35.md` is complete, apply its accumulated corrections in one consolidated rewrite and promote each page anchor individually to `review` or `verified` as warranted.
+Batch 2 also resolved six existing uncertainty markers directly from the scan, pending canonical rewrite: `பஞ்சையாய்`, `பராரியாய்`, `சோப்பு`, `நல்லவன், நாதியற்றவனை`, `கேளாமலேயே`, and `வித்தாத்தானே வீணுப்போனவனே?`.
+
+Two readings within the already-audited range remain genuinely unresolved after enlarged visual inspection:
+
+- PDF 5: the short span in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?`
+- PDF 16: the marked word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
+
+Do not infer either reading from film subtitles, web copies, later editions, or memory.
+
+Continue by comparing PDF 20 onward directly against the scan and recording all clear corrections. After PDF 35 is audited, apply all accumulated part-01 corrections in one consolidated rewrite, restore both omitted blocks, replace the six resolved markers, retain any genuinely unresolved source spans, and then promote each page anchor individually to `review` or `verified` as warranted.
