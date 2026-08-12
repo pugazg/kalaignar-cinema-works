@@ -37,62 +37,41 @@ source:
     - "Printer line visible on printed page 56 / PDF 57 is not treated as publisher metadata."
 
 structure:
-  scene_headings_observed: 42
-  scene_heading_range_printed: "1-47 with gaps and out-of-order 43"
+  scene_headings_observed: 46
+  scene_heading_range_printed: "1-48 with headings 23 and 34 not observed; 48 and 43 occur out of normal numeric order"
   headings_not_observed:
     - 23
-    - 33
     - 34
-    - 38
-    - 40
-  out_of_order_heading:
-    scene: 43
-    pdf_page: 57
-    printed_page: 56
-    note: "Printed after scenes 46 and 47, which begin on PDF 55 / printed page 54."
+  out_of_order_headings:
+    - scene: 48
+      pdf_page: 49
+      printed_page: 48
+      note: "Printed after scene 42 and before scenes 44 and 45."
+    - scene: 43
+      pdf_page: 57
+      printed_page: 56
+      note: "Printed after scenes 46 and 47 at the end of the booklet."
+  mapping_revision_note: "Detailed transcription of PDF 36-57 corrected the first-pass map: headings 33, 38 and 40 are present, and scene 48 is present on PDF 49 / printed page 48."
 
 transcription_progress:
-  draft_pdf_pages:
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - 14
-    - 15
-    - 16
-    - 17
-    - 18
-    - 19
-    - 20
-    - 21
-    - 22
-    - 23
-    - 24
-    - 25
-    - 26
-    - 27
-    - 28
-    - 29
-    - 30
-    - 31
-    - 32
-    - 33
-    - 34
-    - 35
-  draft_printed_pages: "3-34"
-  next_pdf_page: 36
-  next_printed_page: 35
-  unresolved_short_spans: 13
+  first_pass_complete: true
+  canonical_pdf_pages: "4-57"
+  canonical_printed_pages: "3-56"
+  transcription_parts:
+    - path: "transcription/parts/part-01-pdf-4-35.md"
+      pdf_pages: "4-35"
+      printed_pages: "3-34"
+    - path: "transcription/parts/part-02-pdf-36-57.md"
+      pdf_pages: "36-57"
+      printed_pages: "35-56"
+  rear_advertisement_recorded_pdf_page: 58
+  next_pdf_page: null
+  next_printed_page: null
+  unresolved_short_spans: 19
 
 status:
   structural_mapping: verified
-  tamil_transcription: draft
+  tamil_transcription: draft-complete
   tamil_fidelity_audit: not-started
   song_authorship_mapping: not-started
   english_translation: blocked

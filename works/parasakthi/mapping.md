@@ -2,7 +2,7 @@
 
 Source: `TVA_BOK_0062968_பராசக்தி.pdf`
 
-This file records the visual structure of the complete scan before canonical transcription. It is a map, not a transcription.
+This file records the visual structure of the complete scan. The initial heading pass was corrected during full-page transcription of PDF 36–57; the detailed transcription pass exposed four headings missed in the first map and one additional `காட்சி-48` heading.
 
 ## Verified scan facts
 
@@ -17,11 +17,14 @@ This file records the visual structure of the complete scan before canonical tra
 
 ## Scene-heading findings
 
-The scan was visually reviewed for printed `காட்சி-N` headings. **42 distinct headings** were observed. The numbering is not a simple 1→47 sequence in print order:
+The complete scan has now been reviewed in detail through the end of the printed text. **46 distinct printed `காட்சி-N` headings** are visible.
 
-- No heading bearing `காட்சி-23`, `காட்சி-33`, `காட்சி-34`, `காட்சி-38`, or `காட்சி-40` was observed anywhere in the complete scan.
-- `காட்சி-43` is printed on **printed page 56 / PDF 57**, after `காட்சி-46` and `காட்சி-47` on printed page 54 / PDF 55.
-- These anomalies are preserved as source facts. Do **not** renumber, insert, or reorder scenes during transcription without separate evidence.
+- No heading bearing `காட்சி-23` or `காட்சி-34` was observed anywhere in the complete scan.
+- `காட்சி-48` is printed on **PDF 49 / printed page 48**, after `காட்சி-42` and before `காட்சி-44`.
+- `காட்சி-43` is printed on **PDF 57 / printed page 56**, after `காட்சி-46` and `காட்சி-47`.
+- The numbering anomalies are preserved as source facts. Do **not** renumber, insert, or reorder scenes in the canonical transcription.
+
+Earlier structural notes that listed 33, 38, and 40 as absent were corrected during the page-by-page transcription pass: those headings are visibly present on PDF 38, PDF 43, and PDF 45 respectively.
 
 ## Page map
 
@@ -34,13 +37,13 @@ The scan was visually reviewed for printed `காட்சி-N` headings. **42
 | 5 | 4 | Dialogue / scene text; **காட்சி-2** begins |
 | 6 | 5 | Dialogue / scene text |
 | 7 | 6 | Dialogue / scene text; **காட்சி-3** begins |
-| 8 | 7 | Dialogue / scene text; **காட்சி-4, காட்சி-5** begins; verse/lyric-formatted block visible |
+| 8 | 7 | Dialogue / scene text; **காட்சி-4, காட்சி-5** begin; verse/lyric-formatted block visible |
 | 9 | 8 | Dialogue / scene text; **காட்சி-6** begins |
 | 10 | 9 | Dialogue / scene text; **காட்சி-7** begins |
 | 11 | 10 | Dialogue / scene text; **காட்சி-8** begins; verse/lyric-formatted block visible |
 | 12 | 11 | Dialogue / scene text; **காட்சி-9** begins; verse/lyric-formatted block visible |
 | 13 | 12 | Dialogue / scene text; **காட்சி-10** begins |
-| 14 | 13 | Dialogue / scene text; **காட்சி-11, காட்சி-12** begins; verse/lyric-formatted block visible |
+| 14 | 13 | Dialogue / scene text; **காட்சி-11, காட்சி-12** begin; verse/lyric-formatted block visible |
 | 15 | 14 | Dialogue / scene text; **காட்சி-13** begins |
 | 16 | 15 | Dialogue / scene text |
 | 17 | 16 | Dialogue / scene text; **காட்சி-14** begins |
@@ -55,35 +58,35 @@ The scan was visually reviewed for printed `காட்சி-N` headings. **42
 | 26 | 25 | Dialogue / scene text; **காட்சி-21** begins |
 | 27 | 26 | Dialogue / scene text |
 | 28 | 27 | Dialogue / scene text; **காட்சி-22** begins |
-| 29 | 28 | Dialogue / scene text; **காட்சி-24, காட்சி-25** begins |
+| 29 | 28 | Dialogue / scene text; **காட்சி-24, காட்சி-25** begin |
 | 30 | 29 | Dialogue / scene text |
 | 31 | 30 | Dialogue / scene text; **காட்சி-26** begins; verse/lyric-formatted block visible |
-| 32 | 31 | Dialogue / scene text; **காட்சி-27, காட்சி-28** begins; verse/lyric-formatted block visible |
+| 32 | 31 | Dialogue / scene text; **காட்சி-27, காட்சி-28** begin; verse/lyric-formatted block visible |
 | 33 | 32 | Dialogue / scene text |
 | 34 | 33 | Dialogue / scene text |
-| 35 | 34 | Dialogue / scene text; **காட்சி-29, காட்சி-30** begins; verse/lyric-formatted block visible |
+| 35 | 34 | Dialogue / scene text; **காட்சி-29, காட்சி-30** begin; verse/lyric-formatted block visible |
 | 36 | 35 | Dialogue / scene text |
-| 37 | 36 | Dialogue / scene text; **காட்சி-31** begins |
-| 38 | 37 | Dialogue / scene text; **காட்சி-32** begins |
+| 37 | 36 | Dialogue / scene text; **காட்சி-31, காட்சி-32** begin |
+| 38 | 37 | Dialogue / scene text; **காட்சி-33** begins |
 | 39 | 38 | Dialogue / scene text |
 | 40 | 39 | Dialogue / scene text; verse/lyric-formatted block visible |
 | 41 | 40 | Dialogue / scene text |
 | 42 | 41 | Dialogue / scene text; **காட்சி-35** begins |
-| 43 | 42 | Dialogue / scene text; **காட்சி-36, காட்சி-37** begins |
+| 43 | 42 | Dialogue / scene text; **காட்சி-36, காட்சி-37, காட்சி-38** begin |
 | 44 | 43 | Dialogue / scene text; **காட்சி-39** begins; verse/lyric-formatted block visible |
-| 45 | 44 | Dialogue / scene text |
+| 45 | 44 | Dialogue / scene text; **காட்சி-40** begins |
 | 46 | 45 | Dialogue / scene text; **காட்சி-41** begins |
 | 47 | 46 | Dialogue / scene text |
 | 48 | 47 | Dialogue / scene text; **காட்சி-42** begins |
-| 49 | 48 | Dialogue / scene text |
+| 49 | 48 | Dialogue / scene text; **காட்சி-48** begins |
 | 50 | 49 | Dialogue / scene text |
-| 51 | 50 | Dialogue / scene text; **காட்சி-44, காட்சி-45** begins |
+| 51 | 50 | Dialogue / scene text; **காட்சி-44, காட்சி-45** begin |
 | 52 | 51 | Dialogue / scene text |
 | 53 | 52 | Dialogue / scene text |
 | 54 | 53 | Dialogue / scene text |
-| 55 | 54 | Dialogue / scene text; **காட்சி-46, காட்சி-47** begins |
+| 55 | 54 | Dialogue / scene text; **காட்சி-46, காட்சி-47** begin |
 | 56 | 55 | Dialogue / scene text |
-| 57 | 56 | Dialogue / scene text; **காட்சி-43** begins; verse/lyric-formatted block visible |
+| 57 | 56 | Dialogue / scene text; **காட்சி-43** begins; verse/lyric-formatted block visible; `—சுபம்—` and printer line |
 | 58 | — | Rear advertisement / back matter |
 
 ## Scene-start index
@@ -120,33 +123,37 @@ The scan was visually reviewed for printed `காட்சி-N` headings. **42
 | 28 | காட்சி-29 | 35 | 34 |
 | 29 | காட்சி-30 | 35 | 34 |
 | 30 | காட்சி-31 | 37 | 36 |
-| 31 | காட்சி-32 | 38 | 37 |
-| 32 | காட்சி-35 | 42 | 41 |
-| 33 | காட்சி-36 | 43 | 42 |
-| 34 | காட்சி-37 | 43 | 42 |
-| 35 | காட்சி-39 | 44 | 43 |
-| 36 | காட்சி-41 | 46 | 45 |
-| 37 | காட்சி-42 | 48 | 47 |
-| 38 | காட்சி-44 | 51 | 50 |
-| 39 | காட்சி-45 | 51 | 50 |
-| 40 | காட்சி-46 | 55 | 54 |
-| 41 | காட்சி-47 | 55 | 54 |
-| 42 | காட்சி-43 | 57 | 56 |
+| 31 | காட்சி-32 | 37 | 36 |
+| 32 | காட்சி-33 | 38 | 37 |
+| 33 | காட்சி-35 | 42 | 41 |
+| 34 | காட்சி-36 | 43 | 42 |
+| 35 | காட்சி-37 | 43 | 42 |
+| 36 | காட்சி-38 | 43 | 42 |
+| 37 | காட்சி-39 | 44 | 43 |
+| 38 | காட்சி-40 | 45 | 44 |
+| 39 | காட்சி-41 | 46 | 45 |
+| 40 | காட்சி-42 | 48 | 47 |
+| 41 | காட்சி-48 | 49 | 48 |
+| 42 | காட்சி-44 | 51 | 50 |
+| 43 | காட்சி-45 | 51 | 50 |
+| 44 | காட்சி-46 | 55 | 54 |
+| 45 | காட்சி-47 | 55 | 54 |
+| 46 | காட்சி-43 | 57 | 56 |
 
 ## Verse / song-formatted material
 
-A first visual pass found clearly verse/lyric-formatted material on PDF pages **4, 8, 11–12, 14, 20–21, 31–32, 35, 40, 44, and 57**. This is a typography/location map only. It does **not** establish that every block is a song, nor does it establish authorship.
+Clearly verse/lyric-formatted material is visible on PDF pages **4, 8, 11–12, 14, 20–21, 31–32, 35, 40, 44–45, 56–57**. This is a typography/location map only. It does **not** establish that every block is a song, nor does it establish authorship.
 
-Before any song-specific extraction, each block must be checked against the booklet's lyric credits and, where the booklet does not disambiguate authorship, against a separately cited source. The canonical full-text transcription must still preserve the block exactly where it appears in source order.
+Before any song-specific extraction, each block must be checked against the booklet's lyric credits and, where the booklet does not disambiguate authorship, against a separately cited source. The canonical transcription preserves each block in source order regardless of later authorship resolution.
 
 ## Mapping status
 
 - [x] Complete PDF page count verified
 - [x] SHA-256 recorded
 - [x] Front matter / printed pagination / back matter mapped
-- [x] All visible `காட்சி-N` headings mapped across all 58 PDF pages
+- [x] All visible `காட்சி-N` headings mapped across all 58 PDF pages after detailed transcription pass
 - [x] Source numbering anomalies recorded without correction
-- [x] First-pass verse/lyric-formatted locations recorded
+- [x] Verse/lyric-formatted locations recorded
+- [x] Canonical Tamil first-pass transcription complete for PDF 4–57 / printed pp. 3–56
 - [ ] Per-song authorship mapping
-- [ ] Canonical Tamil transcription
 - [ ] Page-by-page visual fidelity audit

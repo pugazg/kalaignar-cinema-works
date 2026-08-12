@@ -4,15 +4,7 @@ Archival record for the scanned booklet **`பராசக்தி — மு�
 
 ## Source-supported identification
 
-The title page shows:
-
-- `பராசக்தி`
-- `முழு வசனம் + பாடல்கள்`
-- `திரைக்கதை, வசனம்`
-- `கலைஞர் மு. கருணாநிதி`
-- `விலை ரூபாய் 1-00.`
-
-The following credits page also prints `கதை-வசனம் — கலைஞர் மு. கருணாநிதி` and contains cast/creative credits. It lists multiple contributors under the song/lyric credits, so individual songs are **not** to be attributed automatically to Kalaignar.
+The title page shows `பராசக்தி`, `முழு வசனம் + பாடல்கள்`, `திரைக்கதை, வசனம்`, `கலைஞர் மு. கருணாநிதி`, and `விலை ரூபாய் 1-00.` The following credits page also prints `கதை-வசனம் — கலைஞர் மு. கருணாநிதி` and lists multiple contributors under the song/lyric credits, so individual songs are **not** attributed automatically to Kalaignar.
 
 ## Scan
 
@@ -20,32 +12,32 @@ The following credits page also prints `கதை-வசனம் — கலை�
 - PDF pages: **58**
 - SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 - Type: image-only scan
-- Printed content pagination: **3–56**, corresponding to PDF pages **4–57**
+- Printed dialogue/song pagination: **3–56**, corresponding to PDF **4–57**
+- PDF 58: rear advertisement / back matter
 
-See [`mapping.md`](mapping.md) for the complete structural page map.
+See [`mapping.md`](mapping.md) for the corrected complete structural page map.
 
-## Important source anomaly
+## Source numbering
 
-The scene headings in this booklet must not be normalized. The visual map found no headings numbered 23, 33, 34, 38, or 40, and `காட்சி-43` appears on printed page 56 after `காட்சி-46` and `காட்சி-47` on printed page 54.
-
-This repository preserves that printed order unless a separately documented source establishes that the booklet itself contains an error that should be represented in a derivative layer.
+The detailed transcription pass confirms **46 visible scene headings**. Only `காட்சி-23` and `காட்சி-34` were not observed. The source also prints `காட்சி-48` on PDF 49 / printed p.48 and places `காட்சி-43` at the end on PDF 57 / printed p.56, after scenes 46 and 47. These source anomalies are preserved without normalization.
 
 ## Current state
 
-- Structural mapping: **complete / verified**
-- Canonical Tamil transcription: **draft through PDF 35 / printed page 34**
-- Draft pages currently entered: **PDF 4–35 / printed pages 3–34**
-- Latest batch: **PDF 32–35 / printed pages 31–34**
-- Next page for transcription: **PDF 36 / printed page 35**
+- Structural mapping: **verified**
+- Canonical Tamil first-pass transcription: **complete** for PDF 4–57 / printed pp. 3–56
+- Canonical transcription status: **draft-complete**
+- Explicit unresolved short readings: **19**
 - Tamil fidelity audit: **not-started**
-- Thirteen short unresolved readings remain explicitly marked in the draft; no new uncertainty marker was needed for PDF 32–35
 - Per-song authorship mapping: **not-started**
-- English translation: **blocked until verified Tamil exists**
+- English translation: **blocked until the corresponding Tamil text is verified**
 
-## Canonical files
+## Canonical transcription
 
-- [`transcription/full-text.md`](transcription/full-text.md) — source-order Tamil transcription with page anchors
-- `transcription/scenes/` — verified scene derivatives generated only from the canonical text
-- `songs/` — song index/derivatives with explicit authorship status
+[`transcription/full-text.md`](transcription/full-text.md) is the canonical manifest. The source-order transcription is preserved in two parts:
 
-The scan, not the film audio/subtitles or web quotations, controls the canonical text.
+- [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34
+- [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56, plus the PDF 58 back-matter provenance note
+
+The first part preserves the previously entered first-pass bytes; splitting the transcription avoids silently rewriting that historical draft while the remaining source pages are added.
+
+The scan, not the film audio/subtitles, later editions, web quotations, or memory, controls the canonical text. The next project gate is a **page-by-page visual fidelity audit**, including resolution of every explicit uncertainty marker before any English translation begins.
