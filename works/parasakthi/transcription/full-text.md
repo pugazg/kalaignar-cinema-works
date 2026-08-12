@@ -1,6 +1,6 @@
 # பராசக்தி — canonical Tamil transcription
 
-**Status:** `draft` — first-pass transcription complete; fidelity audit in progress.
+**Status:** `draft` — first-pass transcription complete; part-01 fidelity audit complete, corrections pending application.
 
 Source: `TVA_BOK_0062968_பராசக்தி.pdf`  
 SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
@@ -16,19 +16,22 @@ Together these two files contain the complete **first-pass canonical Tamil trans
 
 The second visual pass is tracked in [`../notes/fidelity-audit.md`](../notes/fidelity-audit.md).
 
-Current coverage: **PDF 4–27 / printed pp. 3–26**. The next page is **PDF 28 / printed p. 27**.
+Part 01 audit coverage is complete: **PDF 4–35 / printed pp. 3–34**. The latest batch covered PDF 28–35 / printed pp. 27–34.
 
-The audit has identified corrections that still need to be applied to `part-01-pdf-4-35.md`, including two substantive first-pass omissions: the printed `காட்சி—3` opening block on PDF 7 and a lyric stanza at the start of PDF 12. To avoid repeatedly replacing the large canonical part while its audit is still underway, corrections are accumulated in the audit ledger and will be applied in a consolidated part-01 rewrite. Until then the page anchors in the part remain `draft`.
+The audit identified two substantive first-pass omissions — the printed `காட்சி—3` opening block on PDF 7 and a lyric stanza at the start of PDF 12 — as well as many smaller source-form corrections. Ten existing uncertainty markers in part 01 have been visually resolved; two readings, on PDF 5 and PDF 16, remain genuinely unresolved.
+
+The canonical part has **not yet been rewritten**, so all part-01 source anchors still retain their first-pass `draft` state. The required next action is one consolidated correction of `part-01-pdf-4-35.md`. After application, PDF 5 and PDF 16 must remain `review`; other part-01 pages may be promoted to `verified` if no further source uncertainty is introduced.
 
 ## Current state
 
 - Printed dialogue/song transcription: **complete first pass**
 - Canonical coverage: **PDF 4–57 / printed pp. 3–56**
 - PDF 58: rear advertisement / back matter; recorded but not treated as film text
-- Page status: `draft`
-- Fidelity audit: **in progress through PDF 27 / printed p. 26**
-- Explicit unresolved short spans in the first-pass draft: **19**; ten markers on audited pages are now visually resolved but pending the consolidated part-01 rewrite
-- Known unresolved readings within audited pages: **PDF 5 and PDF 16**
+- Part 01 fidelity audit: **complete through PDF 35 / printed p. 34**
+- Part 01 canonical corrections: **pending consolidated rewrite**
+- Explicit unresolved short spans still stored in the first-pass files: **19**; ten part-01 markers are now visually resolved but pending application
+- Known genuinely unresolved part-01 readings: **PDF 5 and PDF 16**
+- Part 02 fidelity audit: **not started**
 - English translation: **blocked until the corresponding Tamil text is verified**
 
 The detailed structural map in [`../mapping.md`](../mapping.md) records the source's printed scene numbering exactly, including `காட்சி—48` on PDF 49 / printed p.48 and the out-of-order `காட்சி—43` on PDF 57 / printed p.56.
