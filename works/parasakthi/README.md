@@ -25,24 +25,23 @@ The detailed transcription pass confirms **46 visible scene headings**. Only `�
 
 - Structural mapping: **verified**
 - Canonical Tamil first-pass transcription: **complete** for PDF 4–57 / printed pp. 3–56
-- Canonical transcription status: **draft-complete**
-- Part 01 fidelity audit: **complete for PDF 4–35 / printed pp. 3–34**
-- Latest audit batch: **PDF 28–35 / printed pp. 27–34**
+- Part 01 fidelity audit: **complete and applied** for PDF 4–35 / printed pp. 3–34
+- Part 01 page status: **30 verified / 2 review**
+- Review pages: **PDF 5 and PDF 16**, each retaining one genuinely unresolved source reading
+- Ten earlier uncertainty markers in Part 01 have been resolved and applied
+- The omitted `காட்சி—3` opening block on PDF 7 and omitted lyric stanza on PDF 12 have been restored in source position
+- Explicit uncertainty markers remaining across both canonical parts: **9**
+- Part 02 fidelity audit: **not started**
+- **Next audit page:** PDF **36 / printed p. 35**
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
-- Ten existing uncertainty markers in part 01 have been resolved visually but are pending the consolidated rewrite
-- Two part-01 source readings remain genuinely unresolved: **PDF 5 and PDF 16**
-- Two substantive first-pass omissions are recorded: the `காட்சி—3` opening block on PDF 7 and a lyric stanza on PDF 12
-- **Next required action:** consolidated rewrite of [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md), applying the complete audit ledger before beginning PDF 36
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until the corresponding Tamil text is verified**
-
-The part-01 canonical file has not yet been rewritten, so its page anchors still remain `draft`. After the consolidated correction, PDF 5 and PDF 16 must be promoted only to `review`; the other corrected part-01 pages can be promoted to `verified` if no additional source uncertainty appears during application.
 
 ## Canonical transcription
 
 [`transcription/full-text.md`](transcription/full-text.md) is the canonical manifest. The source-order transcription is preserved in two parts:
 
-- [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34
-- [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56, plus the PDF 58 back-matter provenance note
+- [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34; fidelity corrections applied
+- [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56; first-pass draft, plus the PDF 58 back-matter provenance note
 
 The scan, not the film audio/subtitles, later editions, web quotations, or memory, controls the canonical text.
