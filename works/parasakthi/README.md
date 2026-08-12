@@ -27,10 +27,10 @@ The detailed transcription pass confirms **46 visible scene headings**. Only `�
 - Canonical Tamil first-pass transcription: **complete** for PDF 4–57 / printed pp. 3–56
 - Canonical transcription status: **draft-complete**
 - Explicit unresolved short readings still stored in the first-pass draft: **19**
-- Tamil fidelity audit: **in progress through PDF 19 / printed p. 18**
-- Next audit page: **PDF 20 / printed p. 19**
+- Tamil fidelity audit: **in progress through PDF 27 / printed p. 26**
+- Next audit page: **PDF 28 / printed p. 27**
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
-- Six existing uncertainty markers on audited pages have now been resolved visually but are pending the consolidated part-01 rewrite
+- Ten existing uncertainty markers on audited pages have now been resolved visually but are pending the consolidated part-01 rewrite
 - Two source readings within the audited range remain unresolved: **PDF 5 and PDF 16**
 - Per-song authorship mapping: **not-started**
 - English translation: **blocked until the corresponding Tamil text is verified**
