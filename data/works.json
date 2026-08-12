@@ -18,11 +18,15 @@
     "tamil_fidelity_audit_through_pdf_page": 35,
     "tamil_fidelity_audit_through_printed_page": 34,
     "part_01_fidelity_audit_complete": true,
-    "next_fidelity_audit_pdf_page": null,
-    "next_fidelity_action": "consolidated-part-01-rewrite",
-    "audit_uncertainty_markers_resolved_pending_apply": 10,
+    "part_01_corrections_applied": true,
+    "part_01_verified_pages": 30,
+    "part_01_review_pages": [5, 16],
+    "next_fidelity_audit_pdf_page": 36,
+    "next_fidelity_action": "audit-part-02",
+    "audit_uncertainty_markers_resolved_pending_apply": 0,
     "known_unresolved_audited_pdf_pages": [5, 16],
-    "canonical_audit_corrections_applied": false,
+    "canonical_audit_corrections_applied": true,
+    "canonical_unresolved_short_spans": 9,
     "english_translation": "blocked"
   }
 ]
