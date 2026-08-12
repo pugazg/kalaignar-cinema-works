@@ -68,16 +68,18 @@ transcription_progress:
   next_pdf_page: null
   next_printed_page: null
   unresolved_short_spans: 19
-  unresolved_short_spans_note: "Count reflects markers still present in the canonical draft. Ten markers on audited pages are now visually resolved but are awaiting the consolidated part-01 rewrite."
+  unresolved_short_spans_note: "Count still reflects markers stored in the canonical draft. Ten markers in part 01 are visually resolved and await the consolidated part-01 rewrite; two part-01 readings remain genuinely unresolved."
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
-  audited_pdf_pages: "4-27"
-  audited_printed_pages: "3-26"
-  latest_batch_pdf_pages: "20-27"
-  latest_batch_printed_pages: "19-26"
-  next_pdf_page: 28
-  next_printed_page: 27
+  audited_pdf_pages: "4-35"
+  audited_printed_pages: "3-34"
+  latest_batch_pdf_pages: "28-35"
+  latest_batch_printed_pages: "27-34"
+  part_01_audit_complete: true
+  next_pdf_page: null
+  next_printed_page: null
+  next_action: "Apply the consolidated fidelity corrections to transcription/parts/part-01-pdf-4-35.md before starting the part-02 audit."
   clean_pages_so_far:
     - 8
     - 10
@@ -104,6 +106,14 @@ fidelity_audit:
     - 25
     - 26
     - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
   substantive_omission_pages:
     - 7
     - 12
@@ -112,7 +122,7 @@ fidelity_audit:
     - 16
   uncertainty_markers_resolved_pending_apply: 10
   canonical_corrections_applied: false
-  note: "Batch 3 audited PDF 20-27 / printed pp. 19-26. Four more uncertainty markers on PDF 20, 22 and 23 are now resolvable from the scan; no new unresolved source reading was identified."
+  note: "Batch 4 audited PDF 28-35 / printed pp. 27-34 and completed part 01 audit coverage. No new source uncertainty was found in this batch. Consolidated correction of part 01 is now the required next action."
 
 status:
   structural_mapping: verified
