@@ -103,13 +103,31 @@ Four additional existing uncertainty markers can now be resolved directly from t
 
 No new unresolved source reading was identified in PDF 20–27 during this pass.
 
+## Batch 4 — PDF 28–35 / printed pp. 27–34
+
+Visual comparison completed for all eight pages directly against enlarged renders of the scan. This completes the audit coverage for `part-01-pdf-4-35.md`.
+
+| PDF | Printed | Audit result | Findings |
+|---:|---:|---|---|
+| 28 | 27 | correction-needed | The `காட்சி—22` direction reads `மறுநாள் காலை` and `கடை ஒன்றின்`, not draft `மறுநாள் கால` / `கடையொன்றின்`. Both early speaker lines read `ஆளையே காணும்`, not `ஆனாயே காணும்`. The gossip line has `நம் பயல்`, and the final direction/dialogue is `(மைனர்களை அடித்து)` with `சொல்லிவிடுகிறேன்`, not draft `(மைனர்கள் அடித்து)` / `சொல்லி விடுகிறேன்`. |
+| 29 | 28 | correction-needed | In the opening reflection the scan prints `சமுதாயம் அவள் வாழவிடவில்லை`, not draft `அவளை வாழவிடவில்லை`. In `காட்சி—24`, the last line reads `அவர்களை வரச்சொன்னேன்`, not draft `அவர்களே வரச்சொன்னேன்`. The remainder of the page follows the draft closely. |
+| 30 | 29 | correction-needed | In Narayanapillai's black-market justification the scan reads `நீ ப்ளாக் மார்க்கெட்டை கேவலமா பேசறே`, not draft `ப்ளாக் மார்க்கெட்டு`. The remaining dialogue and CID-book exchange match the draft sequence in this pass. |
+| 31 | 30 | correction-needed | The `காட்சி—26` direction has `சிலர் அவனைத் துரத்தவே`, not draft `அவனை துரத்தவே`. In the song the scan reads `அண்ணுவே நீங்கள் அழகான வாயால்`, not draft `அண்ணவே`. No unresolved reading was identified. |
+| 32 | 31 | correction-needed | The `காட்சி—28` direction prints `கள்ள மார்க்கெட்-காரன்`, preserving the hyphen. Narayanapillai's line reads `கந்த புராணத்திலிருந்து`, not draft `கந்த புராணத்தில் இருந்து`. Other text on the page visually follows the draft. |
+| 33 | 32 | correction-needed | The scan has `அட போடா மடையா!`, not draft `அட போட்டா மடையா!`. Later Narayanapillai asks for `அந்தத் தண்ணுடையைக் கொஞ்சம் எடேன்`; the draft has `தண்ணுடியைக்`. The lyric quotation and surrounding dialogue otherwise follow the draft. |
+| 34 | 33 | correction-needed | The pillow request prints `அந்தத் தலையணையைக் கொஞ்சமெடேன்`, not the draft's separated `கொஞ்சம் எடேன்`. A substantive word error is source `என் உப்பை தின்னுட்டு எனக்கே துரோகமா?`, where the draft has `என் உடம்பை`. In Kantha's rebuke the scan has `இங்கே நாராயண லீலாவா`, not draft `இங்கு`. |
+| 35 | 34 | correction-needed | Kantha's warning reads `ஏதாவது நாய்க்கும் வந்து நுழையும்!`, not draft `நாய்க்குப்`. The `காட்சி—29` song, `காட்சி—30` heading, direction, and final beggar line otherwise visually follow the first-pass draft. |
+
+No new uncertainty marker was resolved or introduced in PDF 28–35.
+
 ## Cumulative audit state
 
-- Pages visually compared: **PDF 4–27 / printed pp. 3–26**
-- Total audited pages: **24**
-- Clean pages so far: **PDF 8, 10**
+- Pages visually compared: **PDF 4–35 / printed pp. 3–34**
+- Total audited pages: **32**
+- Part 01 audit coverage: **complete**
+- Clean pages in the audit ledger: **PDF 8, 10**; all other pages have one or more recorded corrections or omissions
 - Substantive first-pass omissions found: **PDF 7 (`காட்சி—3` opening block), PDF 12 (lyric stanza)**
 - Uncertainty markers resolved from the scan but pending canonical rewrite: **10**
-- Known unresolved readings within audited pages: **PDF 5 and PDF 16**
-- Canonical part has **not yet been rewritten**; all source anchors in part 01 remain `draft` until the accumulated corrections are applied together.
-- Next audit page: **PDF 28 / printed p. 27**
+- Known unresolved readings in part 01: **PDF 5 and PDF 16**
+- Canonical part has **not yet been rewritten** at this checkpoint; its source anchors remain `draft` until the accumulated corrections are applied together.
+- Next required action: **consolidated rewrite of `part-01-pdf-4-35.md`**, then promotion of page anchors to `verified` except PDF 5 and PDF 16, which must remain `review`.
