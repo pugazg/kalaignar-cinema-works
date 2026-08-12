@@ -14,7 +14,11 @@
     "tamil_transcription_through_printed_page": 56,
     "tamil_first_pass_complete": true,
     "next_transcription_pdf_page": null,
-    "tamil_fidelity_audit": "not-started",
+    "tamil_fidelity_audit": "in-progress",
+    "tamil_fidelity_audit_through_pdf_page": 11,
+    "tamil_fidelity_audit_through_printed_page": 10,
+    "next_fidelity_audit_pdf_page": 12,
+    "canonical_audit_corrections_applied": false,
     "english_translation": "blocked"
   }
 ]
