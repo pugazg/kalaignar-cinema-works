@@ -48,7 +48,7 @@ The first source is the scanned booklet **`பராசக்தி — மு�
 
 The structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). It records all 58 PDF pages, the printed-page correspondence, all visible scene headings, source numbering anomalies, and first-pass verse/lyric-formatted locations.
 
-Canonical Tamil transcription is in progress. The current draft covers **PDF pages 4–23 / printed pages 3–22**, with page anchors. The latest batch added **PDF 20–23 / printed pages 19–22**, carrying the text through `காட்சி 19` and its following verse block. The separate fidelity audit has not yet begun; the next transcription page is **PDF 24 / printed page 23**.
+Canonical Tamil transcription is in progress. The current draft covers **PDF pages 4–27 / printed pages 3–26**, with page anchors. The latest batch added **PDF 24–27 / printed pages 23–26**, carrying the text through `காட்சி 21`. The separate fidelity audit has not yet begun; the next transcription page is **PDF 28 / printed page 27**.
 
 ## Status vocabulary
 
