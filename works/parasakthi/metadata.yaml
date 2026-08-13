@@ -37,7 +37,7 @@ structure:
   scene_headings_observed: 46
   scene_heading_range_printed: "1-48 with headings 23 and 34 not observed; 48 and 43 occur out of normal numeric order"
   headings_not_observed: [23, 34]
-  mapping_revision_note: "Detailed transcription of PDF 36-57 corrected the first-pass map: headings 33, 38 and 40 are present, and scene 48 is present on PDF 49 / printed page 48."
+  mapping_revision_note: "Detailed transcription and fidelity audit confirm headings 33, 38 and 40, scene 48 on PDF 49 / printed p.48, and final scene 43 on PDF 57 / printed p.56."
 
 transcription_progress:
   first_pass_complete: true
@@ -53,17 +53,18 @@ transcription_progress:
     - path: "transcription/parts/part-02-pdf-36-57.md"
       pdf_pages: "36-57"
       printed_pages: "35-56"
-      fidelity_status: audit-complete-pending-apply
-      audited_through_pdf_page: 57
-      corrections_applied: false
+      fidelity_status: verified
+      verified_pages: 22
+      review_pages: 0
+      corrections_applied: true
   rear_advertisement_recorded_pdf_page: 58
+  unresolved_short_spans: 2
+  unresolved_short_spans_note: "Only the genuine Part 01 source uncertainties on PDF 5 and PDF 16 remain. Part 02 has no unresolved marker after consolidated fidelity application."
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
   audited_pdf_pages: "4-57"
   audited_printed_pages: "3-56"
-  latest_batch_pdf_pages: "52-57"
-  latest_batch_printed_pages: "51-56"
   canonical_range_audit_complete: true
   part_01_audit_complete: true
   part_01_corrections_applied: true
@@ -71,18 +72,21 @@ fidelity_audit:
   part_01_review_pages: [5, 16]
   part_02_audited_pdf_pages: "36-57"
   part_02_audit_complete: true
-  part_02_corrections_applied: false
-  part_02_uncertainty_markers_resolved_pending_apply: 6
+  part_02_corrections_applied: true
+  part_02_verified_pages: 22
+  part_02_review_pages: []
+  part_02_uncertainty_markers_resolved_pending_apply: 0
   part_02_substantive_retranscription_pages: [42, 44, 45, 46, 48, 49, 52, 53, 54]
+  post_rewrite_verification_complete: true
+  source_uncertainty_pages_audited: [5, 16]
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Perform one consolidated source-led rewrite of part-02-pdf-36-57.md using the completed Batch 5-7 audit ledger, then verify and promote page anchors."
-  source_uncertainty_pages_audited: [5, 16]
-  note: "Batch 7 visually audited PDF 52-57, completing the full canonical visual audit through PDF 57 / printed page 56. No new unreadable source span was found in Part 02. PDF 52-54 join the direct-retranscription set because their first-pass courtroom text is materially corrupted despite a readable scan."
+  next_action: "Resolve the two genuine Part 01 source uncertainties only if stronger source evidence becomes available; otherwise keep them explicit. English translation may begin only for verified pages."
+  note: "Full visual fidelity audit is complete. Part 02 was consolidated from the scan, including nine direct-retranscription pages and six resolved uncertainty markers. All 22 Part 02 pages are verified. The complete work remains review-qualified only because PDF 5 and PDF 16 in Part 01 retain genuine source uncertainty."
 
 status:
   structural_mapping: verified
-  tamil_transcription: draft-complete
-  tamil_fidelity_audit: audit-complete-pending-part-02-apply
+  tamil_transcription: fidelity-audited
+  tamil_fidelity_audit: complete-with-two-source-uncertainties
   song_authorship_mapping: not-started
-  english_translation: blocked
+  english_translation: blocked-for-review-pages
