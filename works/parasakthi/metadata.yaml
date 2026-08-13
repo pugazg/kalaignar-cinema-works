@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Structured scene derivatives are complete through canonical scene 10. Next extract scenes 11-20 from verified Part 01 and verify boundaries against scenes/index.json."
+  next_action: "Structured scene derivatives are complete through canonical scene 20. Next extract observed scenes in the 21-30 numbering range from verified Part 01; scene 23 is absent, so the next batch has 9 files."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -116,9 +116,12 @@ structured_derivatives:
   scene_text_files:
     status: in-progress
     expected_files: 46
-    completed_files: 10
-    completed_scenes: "1-10"
-    next_batch: "scenes 11-20"
+    completed_files: 20
+    completed_scenes: "1-20"
+    completed_batches:
+      - "scenes 1-10"
+      - "scenes 11-20"
+    next_batch: "observed scenes 21-30; scene 23 absent; 9 files"
   dialogue_index:
     status: not-started
   character_index:
