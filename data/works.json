@@ -11,18 +11,8 @@
     "scene_headings_observed": 46,
     "headings_not_observed": [23, 34],
     "canonical_scene_number_corrections": [
-      {
-        "pdf_page": 49,
-        "printed_page": 48,
-        "source_heading": 48,
-        "canonical_heading": 43
-      },
-      {
-        "pdf_page": 57,
-        "printed_page": 56,
-        "source_heading": 43,
-        "canonical_heading": 48
-      }
+      {"pdf_page": 49, "printed_page": 48, "source_heading": 48, "canonical_heading": 43},
+      {"pdf_page": 57, "printed_page": 56, "source_heading": 43, "canonical_heading": 48}
     ],
     "tamil_transcription": "verified",
     "tamil_transcription_through_pdf_page": 57,
@@ -65,12 +55,15 @@
       "cross_part_scenes": [30],
       "scene_number_provenance_corrections": [43, 48],
       "next_scene_derivative_batch": null,
-      "dialogue_index": "pilot-verified",
+      "dialogue_index": "in-progress-verified",
       "dialogue_index_path": "works/parasakthi/dialogues/index.json",
       "dialogue_schema_path": "works/parasakthi/dialogues/schema.json",
-      "dialogue_records": 42,
-      "dialogue_scenes_completed": [1, 2],
-      "next_dialogue_batch": "scenes 3-10",
+      "dialogue_storage": "scene-sharded",
+      "dialogue_record_directory": "works/parasakthi/dialogues/records",
+      "dialogue_records": 117,
+      "dialogue_scenes_completed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "dialogue_cross_page_records": ["parasakthi-s001-d001", "parasakthi-s009-d001"],
+      "next_dialogue_batch": "scenes 11-20",
       "next_structured_derivative": "dialogue-index",
       "character_index": "not-started"
     },

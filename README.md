@@ -45,7 +45,9 @@ The repository is organized by **work/film**, with each work preserving its sour
         ├── dialogues/
         │   ├── README.md
         │   ├── schema.json
-        │   └── index.json
+        │   ├── index.json
+        │   └── records/
+        │       └── scene-*.json
         └── songs/
 ```
 
@@ -57,15 +59,13 @@ The corrected structural map is complete in [`works/parasakthi/mapping.md`](work
 
 The booklet misnumbers/transposes two late scene headings: PDF 49 / printed p.48 prints `காட்சி-48` where the canonical sequence is **`காட்சி-43`**, while the final scene on PDF 57 / printed p.56 prints `காட்சி-43` where the canonical sequence is **`காட்சி-48`**. The canonical transcription corrects the visible headings while retaining both printed readings as documented provenance.
 
-The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp. 3–56**, with PDF 58 recorded as rear advertisement/back matter. The complete canonical range has passed page-by-page visual fidelity audit, consolidated correction, and the Part 02 post-rewrite verification pass.
+The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp.3–56**, with PDF 58 recorded as rear advertisement/back matter. The complete canonical range has passed page-by-page visual fidelity audit and is **54 verified / 0 review** with no remaining uncertainty markers.
 
-Current page status is **54 verified / 0 review**. The final two Part 01 readings were resolved directly from the scan with reviewer assistance: PDF 5 reads `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`, and PDF 16 reads `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`. No canonical uncertainty marker remains.
+The scene derivative layer is complete: **46 / 46 observed scene files**. Scenes 23 and 34 remain absent because those headings are not observed.
 
-The scene derivative layer is complete: **46 / 46 observed scene files** exist under `works/parasakthi/scenes/`. Scenes 23 and 34 remain absent because those headings are not observed. Canonical `scene-43.md` records source heading 48 on PDF 49, and canonical final `scene-48.md` records source heading 43 on PDF 57.
+The **dialogue index is now verified through canonical scenes 1–10**, producing **117 speaker-labelled records**. The fixed record schema preserves exact speaker labels, exact Tamil wording and PDF/printed-page provenance. Dialogue records are stored by canonical scene under `works/parasakthi/dialogues/records/`, with `dialogues/index.json` serving as the compact manifest/checkpoint. Two cross-page utterances are currently recorded: scene 1 PDF 4→5 and scene 9 PDF 12→13.
 
-The **dialogue index has now started with a verified pilot** under `works/parasakthi/dialogues/`: scenes 1–2 produce **42 speaker-labelled dialogue records** using a fixed schema that preserves exact labels, exact Tamil wording, and PDF/printed-page provenance. The next dialogue batch is scenes **3–10**.
-
-English translation may begin later as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
+The next dialogue batch is **scenes 11–20**. English translation may begin later as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
 
 ## Status vocabulary
 

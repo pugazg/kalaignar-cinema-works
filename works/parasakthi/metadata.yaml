@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Dialogue-index schema and verified pilot are complete for canonical scenes 1-2: 42 dialogue records. Next extract and verify dialogue records for scenes 3-10 using the fixed schema."
+  next_action: "Dialogue index is verified through canonical scenes 1-10: 117 dialogue records. Next extract and verify scenes 11-20 using the fixed schema and scene-sharded storage."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -130,15 +130,28 @@ structured_derivatives:
     next_batch: null
     note: "Scene 30 starts on PDF 35 in Part 01, continues through PDF 36 stored in Part 02, and stops before scene 31 on PDF 37. Scene 33 continues across PDF 38-42 because scene 34 is not observed. Scene 43 provenance records source heading 48 on PDF 49; final scene 48 provenance records source heading 43 on PDF 57."
   dialogue_index:
-    status: pilot-verified
+    status: in-progress-verified
     path: "dialogues/index.json"
     schema: "dialogues/schema.json"
     readme: "dialogues/README.md"
-    records: 42
-    scenes_completed: [1, 2]
-    cross_page_records_verified: ["parasakthi-s001-d001"]
-    next_batch: "scenes 3-10"
-    note: "Only speaker-labelled utterances are indexed. Exact speaker labels and Tamil wording are preserved; unlabelled songs, stage directions, narrative prose, provenance comments and back matter are excluded."
+    storage: scene-sharded
+    record_directory: "dialogues/records"
+    records: 117
+    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    scene_record_counts:
+      1: 1
+      2: 41
+      3: 8
+      4: 8
+      5: 5
+      6: 19
+      7: 22
+      8: 5
+      9: 1
+      10: 7
+    cross_page_records_verified: ["parasakthi-s001-d001", "parasakthi-s009-d001"]
+    next_batch: "scenes 11-20"
+    note: "Only explicitly speaker-labelled utterances are indexed. Exact labels and Tamil wording are preserved. Records are sharded by canonical scene. Unlabelled songs, standalone stage directions, narrative prose, provenance comments and back matter are excluded; explicitly speaker-labelled sung/verse utterances are retained."
   character_index:
     status: not-started
 
@@ -148,6 +161,6 @@ status:
   tamil_fidelity_audit: complete
   scene_index: complete
   scene_text_derivatives: complete
-  dialogue_index: pilot-verified
+  dialogue_index: in-progress-verified
   song_authorship_mapping: not-started
   english_translation: not-started
