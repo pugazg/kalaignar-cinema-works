@@ -104,19 +104,21 @@
       "song_tamil_derivative_files": 11,
       "song_quoted_verse_derivatives": "complete-verified",
       "song_quoted_verse_derivative_files": 1,
-      "english_translation": "pilot-review",
+      "english_translation": "in-progress-review",
       "translation_schema_path": "works/parasakthi/translations/schema.json",
       "translation_index_path": "works/parasakthi/translations/index.json",
       "translation_record_directory": "works/parasakthi/translations/records",
-      "translation_pilot_scene": 1,
-      "translation_units": 4,
-      "translation_review_units": 4,
-      "translation_verified_units": 0,
+      "translation_scenes_started": [1, 2, 3, 4, 5],
+      "translation_scenes_verified": [1],
+      "translation_scenes_in_review": [2, 3, 4, 5],
+      "translation_units": 70,
+      "translation_review_units": 66,
+      "translation_verified_units": 4,
       "translation_cross_page_units": ["parasakthi-en-s001-u004"],
-      "next_structured_derivative": "english-translation-pilot-review"
+      "next_structured_derivative": "english-translation-review-scenes-2-5"
     },
     "song_authorship_mapping": "complete-verified",
     "song_tamil_derivatives": "complete-verified",
-    "english_translation": "pilot-review"
+    "english_translation": "in-progress-review"
   }
 ]
