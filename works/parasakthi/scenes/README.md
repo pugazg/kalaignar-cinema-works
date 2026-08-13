@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene index:** complete  
-**Individual scene-text files:** in progress — **38 / 46 complete**
+**Individual scene-text files:** **complete — 46 / 46 observed scenes**
 
 This directory is a derivative layer built only from the fully verified canonical Tamil transcription. It does **not** replace or normalize the canonical source text in `../transcription/parts/`.
 
@@ -26,9 +26,9 @@ The documented late numbering correction is preserved:
 - PDF 49 / printed p.48: booklet prints `காட்சி—48`; canonical scene number is **43**.
 - PDF 57 / printed p.56: booklet prints `காட்சி—43`; canonical final scene number is **48**.
 
-For those two records, `index.json` stores both `source_heading` and `canonical_heading` so the derivative remains traceable to the printed booklet.
+For those two records, `index.json` stores both `source_heading` and `canonical_heading`. The corresponding derivative files also record the differing source heading in their provenance headers.
 
-## Scene-text extraction
+## Scene-text extraction — complete
 
 Completed batches:
 
@@ -36,56 +36,63 @@ Completed batches:
 - Batch 2: `scene-11.md` through `scene-20.md`
 - Batch 3: `scene-21.md`, `scene-22.md`, `scene-24.md`, `scene-25.md`, `scene-26.md`, `scene-27.md`, `scene-28.md`, `scene-29.md`, `scene-30.md`
 - Batch 4: `scene-31.md`, `scene-32.md`, `scene-33.md`, `scene-35.md`, `scene-36.md`, `scene-37.md`, `scene-38.md`, `scene-39.md`, `scene-40.md`
+- Batch 5: `scene-41.md` through `scene-48.md`
 
-The derivative layer now contains **38 / 46 observed scene files**. Scenes 23 and 34 remain absent because no such source headings are observed.
+The derivative layer now contains **all 46 observed scene files**. No `scene-23.md` or `scene-34.md` exists because those headings are not observed in the primary source.
 
-### Batch 4 boundary verification
+### Final batch boundary verification
 
-The Part 02 batch was checked against both [`index.json`](index.json) and `../transcription/parts/part-02-pdf-36-57.md`:
+The final Part 02 batch was checked against both [`index.json`](index.json) and the verified canonical Part 02 text:
 
-- scene 31 — PDF 37 / printed p.36
-- scene 32 — PDF 37 / printed p.36
-- scene 33 — PDF 38 / printed p.37
-- scene 35 — PDF 42 / printed p.41
-- scene 36 — PDF 43 / printed p.42
-- scene 37 — PDF 43 / printed p.42
-- scene 38 — PDF 43 / printed p.42
-- scene 39 — PDF 44 / printed p.43
-- scene 40 — PDF 45 / printed p.44
+- scene 41 — PDF 46 / printed p.45
+- scene 42 — PDF 48 / printed p.47
+- scene 43 — PDF 49 / printed p.48; booklet source heading **48**, canonical heading **43**
+- scene 44 — PDF 51 / printed p.50
+- scene 45 — PDF 51 / printed p.50
+- scene 46 — PDF 55 / printed p.54
+- scene 47 — PDF 55 / printed p.54
+- scene 48 — PDF 57 / printed p.56; booklet source heading **43**, canonical final heading **48**
 
-Because scene **34 is absent**, `scene-33.md` deliberately continues across PDF 38–42 and stops only immediately before `காட்சி—35`. No artificial scene break is inserted.
+`scene-48.md` runs through `—சுபம்—` and the printer line, then stops before the PDF 58 rear advertisement / back matter.
 
 ### Cross-part scene 30
 
-Scene 30 is a deliberate cross-part derivative. Its heading begins on PDF 35 / printed p.34 in Part 01, but the scene continues onto **PDF 36 / printed p.35**, which is stored in the canonical Part 02 file. `scene-30.md` therefore includes that verified PDF 36 continuation and stops immediately before `காட்சி—31` begins on PDF 37. This preserves the actual scene boundary rather than the transcription-file boundary.
+Scene 30 is a deliberate cross-part derivative. Its heading begins on PDF 35 / printed p.34 in Part 01, but the scene continues onto **PDF 36 / printed p.35**, which is stored in the canonical Part 02 file. `scene-30.md` includes that verified continuation and stops immediately before `காட்சி—31` begins on PDF 37.
 
-No `scene-23.md` or `scene-34.md` will be created unless new primary-source evidence establishes those headings.
+### Scene 33 and absent scene 34
+
+Scene 33 starts on **PDF 38 / printed p.37** and continues across PDF **39, 40, 41 and 42**. Because no `காட்சி—34` heading is observed, `scene-33.md` continues uninterrupted until immediately before `காட்சி—35` on PDF 42.
 
 ## Derivative rules
 
-Each scene file must:
+Each scene file:
 
-1. copy Tamil only from the verified canonical transcription;
-2. retain every page anchor that occurs within the scene;
-3. record the scene's starting PDF/printed page;
-4. preserve songs, dialogue, stage directions and page-boundary continuity exactly as represented in the canonical layer;
-5. point back to the canonical part file through its provenance metadata;
-6. stop at the next observed canonical scene heading even when a scene crosses a transcription-part boundary;
-7. never be used to repair or overwrite the canonical transcription.
+1. copies Tamil only from the verified canonical transcription;
+2. retains every canonical page anchor occurring inside the scene;
+3. records the scene's starting PDF/printed page in provenance;
+4. preserves songs, dialogue, stage directions and page-boundary continuity exactly as represented in the canonical layer;
+5. stops at the next observed canonical scene heading, even when a scene crosses a transcription-part boundary;
+6. preserves documented source/canonical scene-number differences in provenance;
+7. is never used to repair or overwrite the canonical transcription.
 
-## Next batch
+## Scene derivative completion state
 
-Extract the final **8 observed scenes**:
+- Scene index records: **46 / 46 complete**
+- Scene-text files: **46 / 46 complete**
+- Canonical missing headings preserved as absent: **23, 34**
+- Canonical/source numbering corrections preserved: **43 / 48**
+- Scene extraction status: **complete**
 
-- `scene-41.md`
-- `scene-42.md`
-- `scene-43.md`
-- `scene-44.md`
-- `scene-45.md`
-- `scene-46.md`
-- `scene-47.md`
-- `scene-48.md`
+## Next structured derivative
 
-For scenes 43 and 48, preserve the documented canonical/source distinction: source PDF 49 prints 48 but canonical scene is 43; source PDF 57 prints 43 but canonical final scene is 48.
+The next activity is the **dialogue index** defined by Stage 5 of `docs/ARCHIVAL_WORKFLOW.md`.
 
-After this batch, verify every boundary against `index.json` and the verified Part 02 canonical text, then mark the 46-file scene derivative activity complete before beginning another derivative type.
+Before bulk extraction, define a small deterministic schema that records at minimum:
+
+- canonical scene number;
+- exact speaker label as represented in the verified Tamil;
+- dialogue text without normalization;
+- PDF / printed-page provenance;
+- source scene-number provenance where scene 43 or 48 is involved.
+
+Stage directions, songs and non-speaker narrative text must remain distinguishable from speaker-labelled dialogue rather than being silently converted into dialogue records.
