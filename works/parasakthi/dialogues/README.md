@@ -22,8 +22,10 @@ Required provenance:
 - `source_scene_heading` from `scenes/index.json`;
 - exact `speaker_label` as represented before the colon in the verified Tamil;
 - `text` copied without normalization;
-- one or more `page_segments`, each carrying `pdf_page`, `printed_page`, and the text belonging to that page;
+- one or more `page_provenance` entries carrying `pdf_page` and `printed_page`;
 - `source_scene_file`.
+
+A `page_segments` array is added only when one utterance crosses a page boundary, so the exact source-page break remains recoverable without duplicating text for every ordinary single-page record.
 
 ### Speaker labels
 
@@ -31,7 +33,7 @@ Do **not** expand or standardize labels. For example, `சந்`, `ஞான`, 
 
 ### Page boundaries
 
-If an utterance crosses a page anchor, it remains **one dialogue record**. Its `page_segments` array records each source page separately, and `text` joins those verified segments with a newline. Do not split a single utterance merely because the scan page changes.
+If an utterance crosses a page anchor, it remains **one dialogue record**. Its `page_provenance` lists every involved page, while `page_segments` records the exact text belonging to each page. The top-level `text` joins those verified segments with a single newline. Do not split a single utterance merely because the scan page changes.
 
 ### Material excluded from dialogue records
 
