@@ -14,7 +14,34 @@
   "quoted_verse_records": 1,
   "booklet_wide_contributors": 6,
   "item_level_booklet_crediting": false,
-  "next_activity": "Create song-specific Tamil derivative files for the 11 soundtrack compositions using only the verified canonical source text. Keep the scene-28 Bharathidasan quotation as a separate quoted-verse derivative and keep the scene-47 occurrence as a reprise link rather than duplicating it as a distinct composition.",
+  "tamil_track_derivatives": {
+    "status": "complete-verified",
+    "directory": "tracks",
+    "expected_files": 11,
+    "completed_files": 11,
+    "files": [
+      {"track": 1, "path": "tracks/01-desam-gnanam-kalvi.md", "occurrences": ["parasakthi-song-005", "parasakthi-song-006"]},
+      {"track": 2, "path": "tracks/02-kaa-kaa-kaa.md", "occurrences": ["parasakthi-song-008"]},
+      {"track": 3, "path": "tracks/03-nenju-porukkuthillaiye.md", "occurrences": ["parasakthi-song-012"]},
+      {"track": 4, "path": "tracks/04-il-vaazhvinile.md", "occurrences": ["parasakthi-song-002"]},
+      {"track": 5, "path": "tracks/05-pudhu-pennin-manathai.md", "occurrences": ["parasakthi-song-011", "parasakthi-song-013"]},
+      {"track": 6, "path": "tracks/06-o-rasikkum-seemane.md", "occurrences": ["parasakthi-song-003"]},
+      {"track": 7, "path": "tracks/07-ellorum-vaazha-vendum.md", "occurrences": ["parasakthi-song-014"]},
+      {"track": 8, "path": "tracks/08-konju-mozhi-sollum.md", "occurrences": ["parasakthi-song-007"]},
+      {"track": 9, "path": "tracks/09-poomalai.md", "occurrences": ["parasakthi-song-004"]},
+      {"track": 10, "path": "tracks/10-porule-illaarkku.md", "occurrences": ["parasakthi-song-010"]},
+      {"track": 11, "path": "tracks/11-vaazhga-vaazhgave.md", "occurrences": ["parasakthi-song-001"]}
+    ]
+  },
+  "quoted_verse_derivatives": {
+    "status": "complete-verified",
+    "directory": "quoted-verses",
+    "completed_files": 1,
+    "files": [
+      {"occurrence": "parasakthi-song-009", "path": "quoted-verses/001-vidhavayin-kaadhal.md", "author_ta": "பாரதிதாசன்"}
+    ]
+  },
+  "next_activity": "Begin English translation as a separate derivative layer. Define a translation schema and a small source-linked pilot first; do not alter canonical Tamil, scene files, dialogue records, character mappings, song inventory or Tamil song derivatives.",
   "canonical_text_modified": false,
   "dialogue_records_modified": false,
   "character_index_modified": false
