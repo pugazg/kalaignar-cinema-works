@@ -33,18 +33,18 @@ Source-linked English records live under [`translations/`](translations/). There
 Current checkpoint:
 
 - status: **in-progress-review**
-- scenes started: **1–10**
-- scenes verified: **1–5**
-- scenes in review: **6–10**
-- translation units: **136**
-- verified: **70**
-- review: **66**
-- kinds: **109 dialogue / 24 stage direction / 3 song / 0 quoted verse**
+- scenes started: **1–15**
+- scenes verified: **1–10**
+- scenes in review: **11–15**
+- translation units: **224**
+- verified: **136**
+- review: **88**
+- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**
 
-The scenes 2–5 second-pass review is complete. English-only refinements were applied where needed; no Tamil/source file was changed.
+The scenes 6–10 second-pass review is complete. All **66** units passed after a small set of English-only corrections; no Tamil/source file was changed.
 
-The scenes 6–10 review batch includes several explicitly documented interpretive pressure points: scene 6's pregnancy euphemism, scene 8's two-page `ஓ ரசிக்கும் சீமானே` verse, scene 9's PDF 12→13 rhetorical monologue and anomalous `வங்கத்திலே`, and scene 10's contextual rendering of `பெட்டிலே` as hospital `bed`.
+The new scenes 11–15 review batch contains **88** source-linked units. Explicit review pressure points include scene 11's `வில்லுக்கொத்து போல` simile, scene 12's `பூமாலை` source anomalies and widowhood vocabulary, scene 13's dialect/kinship language and PDF 16→17 cross-page rhetoric, scene 14's `மாப்கரோஜ்` sound-play, and scene 15's unexplained `பாரா-2` plus the two separately identified occurrences of soundtrack track 1.
 
 ## Next activity
 
-Second-pass review all **66 English units in scenes 6–10**. If they pass, mark scenes 6–10 verified and begin canonical **scenes 11–15**.
+Second-pass review all **88 English units in scenes 11–15**. Change English only where source fidelity requires it. Do **not** begin scenes 16–20 until that review is complete.
