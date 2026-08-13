@@ -103,12 +103,30 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Tamil fidelity audit is complete with all 54 canonical pages verified. Song authorship mapping or English translation may proceed as separate derivative work."
-  note: "Full visual fidelity audit is complete. Part 01 is now 32/32 verified after the final two source readings were resolved. Part 02 is 22/22 verified after consolidated retranscription and corrective post-check. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
+  next_action: "Structured derivatives have started with the complete 46-record canonical scene index. Next create individual scene-text derivatives from the verified Tamil, beginning with scenes 1-10."
+  note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
+
+structured_derivatives:
+  scene_index:
+    status: complete
+    path: "scenes/index.json"
+    scene_records: 46
+    headings_not_observed: [23, 34]
+    numbering_corrections_recorded: true
+  scene_text_files:
+    status: not-started
+    expected_files: 46
+    next_batch: "scenes 1-10"
+  dialogue_index:
+    status: not-started
+  character_index:
+    status: not-started
 
 status:
   structural_mapping: verified
   tamil_transcription: verified
   tamil_fidelity_audit: complete
+  scene_index: complete
+  scene_text_derivatives: not-started
   song_authorship_mapping: not-started
   english_translation: not-started
