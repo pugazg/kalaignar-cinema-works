@@ -44,7 +44,8 @@ The visible canonical transcription corrects those two headings to **43** and **
 - A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Structured scene index: **complete — 46 records**
-- Individual scene-text derivatives: **in progress — scenes 1–20 complete (20/46)**
+- Individual scene-text derivatives: **in progress — 29/46 complete**
+- All observed scene headings beginning in Part 01 are now extracted
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started; the verified Tamil source is ready for derivative translation work**
 
@@ -68,8 +69,21 @@ The repository is in the post-verification **structured derivatives** stage defi
 - scenes 23 and 34 are not invented because no such headings are observed in the source;
 - canonical scene 43 retains source heading 48 as provenance;
 - canonical scene 48 retains source heading 43 as provenance;
-- derivative scene files copy only from the verified canonical Tamil and retain page anchors.
+- derivative scene files copy only from the verified canonical Tamil and retain page anchors;
+- a scene boundary follows the next observed scene heading, not an artificial transcription-part boundary.
 
-Two extraction batches are complete: **`scene-01.md` through `scene-20.md`**. All scene boundaries for scenes 11–20 were checked against the verified Part 01 text and the scene index.
+Three extraction batches are complete. Scene derivatives now exist for all observed scene headings beginning in Part 01:
 
-The next derivative batch covers the observed scenes in the **21–30 numbering range**. Scene 23 is absent, so the next batch has **9 files: 21, 22, 24, 25, 26, 27, 28, 29 and 30**.
+- scenes 1–10
+- scenes 11–20
+- scenes 21, 22, 24, 25, 26, 27, 28, 29 and 30
+
+That is **29 / 46 scene files complete**.
+
+### Scene 30 cross-part continuity
+
+Scene 30 begins on PDF 35 / printed p.34 in Part 01 but continues onto PDF 36 / printed p.35, which is stored in the Part 02 canonical file. `scenes/scene-30.md` includes that verified continuation and ends immediately before scene 31 begins on PDF 37. This is intentional and preserves the actual source scene boundary.
+
+## Next derivative batch
+
+Begin Part 02 with the observed scenes in the **31–40 numbering range**. Scene 34 is absent, so the next batch contains exactly **9 files: 31, 32, 33, 35, 36, 37, 38, 39 and 40**.
