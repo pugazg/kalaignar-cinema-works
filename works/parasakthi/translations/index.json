@@ -1,17 +1,17 @@
 {
   "work_id": "parasakthi",
   "target_language": "en",
-  "status": "in-progress-review",
+  "status": "in-progress-verified",
   "schema": "schema.json",
   "readme": "README.md",
   "record_directory": "records",
   "pilot_scene": 1,
   "scenes_started": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
   "scenes_reviewed": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
-  "scenes_verified": [1,2,3,4,5,6,7,8,9,10],
-  "scenes_in_review": [11,12,13,14,15],
+  "scenes_verified": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+  "scenes_in_review": [],
   "translation_units": 224,
-  "unit_status_counts": {"draft":0,"review":88,"verified":136},
+  "unit_status_counts": {"draft":0,"review":0,"verified":224},
   "unit_kind_counts": {"stage-direction":42,"song":6,"dialogue":176,"quoted-verse":0},
   "scene_records": [
     {"canonical_scene":1,"path":"records/scene-01.json","unit_count":4,"status":"verified"},
@@ -24,11 +24,11 @@
     {"canonical_scene":8,"path":"records/scene-08.json","unit_count":10,"status":"verified"},
     {"canonical_scene":9,"path":"records/scene-09.json","unit_count":1,"status":"verified"},
     {"canonical_scene":10,"path":"records/scene-10.json","unit_count":9,"status":"verified"},
-    {"canonical_scene":11,"path":"records/scene-11.json","unit_count":3,"status":"review"},
-    {"canonical_scene":12,"path":"records/scene-12.json","unit_count":10,"status":"review"},
-    {"canonical_scene":13,"path":"records/scene-13.json","unit_count":32,"status":"review"},
-    {"canonical_scene":14,"path":"records/scene-14.json","unit_count":19,"status":"review"},
-    {"canonical_scene":15,"path":"records/scene-15.json","unit_count":24,"status":"review"}
+    {"canonical_scene":11,"path":"records/scene-11.json","unit_count":3,"status":"verified"},
+    {"canonical_scene":12,"path":"records/scene-12.json","unit_count":10,"status":"verified"},
+    {"canonical_scene":13,"path":"records/scene-13.json","unit_count":32,"status":"verified"},
+    {"canonical_scene":14,"path":"records/scene-14.json","unit_count":19,"status":"verified"},
+    {"canonical_scene":15,"path":"records/scene-15.json","unit_count":24,"status":"verified"}
   ],
   "cross_page_translation_units": ["parasakthi-en-s001-u004","parasakthi-en-s008-u002","parasakthi-en-s009-u001","parasakthi-en-s013-u028","parasakthi-en-s015-u023"],
   "special_representation_notes": [
@@ -36,9 +36,9 @@
     "Scene 8's soundtrack song parasakthi-song-003 remains one verified semantic-poetic unit spanning PDF 11-12.",
     "Scene 9's sole dialogue remains one verified rhetorical translation unit across PDF 12-13 with English page segments aligned to the source break.",
     "Scene 1's Thangappan dialogue remains one verified unit across PDF 4-5.",
-    "Scene 12's `பூமாலை` is one semantic-poetic review unit linked to parasakthi-song-004 on PDF 14; source person-shifts and incomplete refrain cues are documented rather than repaired.",
-    "Scene 13's parasakthi-s013-d023 remains one cross-page dialogue translation unit across PDF 16-17; the source's first-person/third-person rhetorical instability and mid-word page break are disclosed in notes.",
-    "Scene 15 contains two separately source-identified review song units, parasakthi-song-005 and parasakthi-song-006, although soundtrack evidence places both within track 1 `தேசம் ஞானம் கல்வி`; parasakthi-song-005 spans PDF 19-20."
+    "Scene 12's `பூமாலை` is one verified semantic-poetic unit linked to parasakthi-song-004 on PDF 14; source person-shifts and incomplete refrain cues are documented rather than repaired.",
+    "Scene 13's parasakthi-s013-d023 remains one verified cross-page dialogue translation unit across PDF 16-17; the source's first-person/third-person rhetorical instability and mid-word page break are disclosed in notes.",
+    "Scene 15 contains two separately source-identified verified song units, parasakthi-song-005 and parasakthi-song-006, although soundtrack evidence places both within track 1 `தேசம் ஞானம் கல்வி`; parasakthi-song-005 spans PDF 19-20."
   ],
   "second_pass_scene_06_10": {
     "status": "complete-verified",
@@ -51,19 +51,17 @@
       "scene 10: tightened the bombing and hospital English without changing source meaning"
     ]
   },
-  "scene_11_15_batch": {
-    "status": "review",
-    "units": 88,
-    "unit_kind_counts": {"stage-direction":18,"song":3,"dialogue":67,"quoted-verse":0},
-    "review_pressure_points": [
-      "scene 11: `வில்லுக்கொத்து போல` simile and compressed account of Kalyani's spent cash/sold jewellery",
-      "scene 12: `பூமாலை` person-shift `வந்தேன் தவழ்ந்தாய்?`, difficult `பாரான`, and `தாசில் உத்தியோகம்` widowhood line",
-      "scene 13: Marwari-shop dialect, kinship wordplay, cross-page d023 rhetorical pronoun instability, and fragmentary d024 mayor line",
-      "scene 14: `மாப்கரோஜ்` / `ரோஜ்` sound-play and `நாணயம்` as reliability/creditworthiness",
-      "scene 15: unexplained `பாரா-2`, Mariamman ritual image, social monologue, and two structurally distinct song occurrences from soundtrack track 1"
+  "second_pass_scene_11_15": {
+    "status": "complete-verified",
+    "units_reviewed": 88,
+    "english_only_corrections": [
+      "scene 13: rendered `திண்ணை` consistently as `raised veranda` and changed the literal `merit a cow has` to the more faithful idiomatic `good fortune a cow has` without altering the metaphor",
+      "scene 14: removed an added English endearment from `அதெல்லாம் முடியாதம்மா` and rendered `நாணயம்` naturally as being trustworthy/creditworthy",
+      "scene 15: rendered `மண்ணைப் போச்சே` idiomatically as `gone to waste` and avoided the misleading modern English age-sense of `minors` in standalone stage directions for `மைனர்கள்`",
+      "scenes 11-15: retained all documented source anomalies, incomplete forms, dialect, code-switching, song occurrence boundaries and rhetorical instability without Tamil normalization"
     ]
   },
-  "next_activity": "Perform a deliberate second-pass fidelity/editorial review of all 88 units in canonical scenes 11-15. Change English only where a genuine translation problem is found; do not begin scenes 16-20 until this review is complete.",
+  "next_activity": "Translate canonical scenes 16-20 as the next source-linked English batch at review status, then perform a deliberate second-pass review before verification.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
