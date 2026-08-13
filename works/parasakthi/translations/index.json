@@ -1,0 +1,37 @@
+{
+  "work_id": "parasakthi",
+  "target_language": "en",
+  "status": "pilot-review",
+  "schema": "schema.json",
+  "readme": "README.md",
+  "record_directory": "records",
+  "pilot_scene": 1,
+  "scenes_started": [1],
+  "scenes_reviewed": [1],
+  "scenes_verified": [],
+  "translation_units": 4,
+  "unit_status_counts": {
+    "draft": 0,
+    "review": 4,
+    "verified": 0
+  },
+  "unit_kind_counts": {
+    "stage-direction": 2,
+    "song": 1,
+    "dialogue": 1,
+    "quoted-verse": 0
+  },
+  "pilot_record": "records/scene-01.json",
+  "source_links": {
+    "scene": "../scenes/scene-01.md",
+    "song": "../songs/tracks/11-vaazhga-vaazhgave.md",
+    "dialogue_record": "../dialogues/records/scene-01.json"
+  },
+  "cross_page_translation_units": ["parasakthi-en-s001-u004"],
+  "next_activity": "Review the four scene-1 translation units for fidelity and editorial consistency. If accepted, mark them verified and begin the first full translation batch with canonical scenes 2-5 using the same schema.",
+  "canonical_tamil_modified": false,
+  "scene_files_modified": false,
+  "dialogue_records_modified": false,
+  "character_index_modified": false,
+  "tamil_song_derivatives_modified": false
+}
