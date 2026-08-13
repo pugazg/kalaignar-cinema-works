@@ -1,4 +1,4 @@
-# Parasakthi — project handover after Tamil fidelity audit
+# Parasakthi — project handover after completed Tamil fidelity audit
 
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`  
@@ -17,7 +17,7 @@ This is the controlling continuation note for the **Parasakthi canonical Tamil t
 - PDF 58 = rear advertisement/back matter
 - Image-only scan; the scan is the controlling textual source.
 
-Do not repair unreadable text from film audio, subtitles, web copies, later editions, memory, or familiar quotations. Preserve genuine source uncertainty transparently.
+Do not replace source readings from film audio, subtitles, web copies, later editions, memory, or familiar quotations. Any future correction must remain source-led and documented.
 
 ## Files to read before continuing
 
@@ -34,7 +34,7 @@ Fetch current `main` versions of:
 9. `data/works.json`
 10. relevant READMEs
 
-## Canonical coverage and audit result
+## Canonical coverage and final audit result
 
 The canonical Tamil transcription covers **PDF 4–57 / printed pp. 3–56**.
 
@@ -43,21 +43,26 @@ Two canonical parts:
 - Part 01: PDF 4–35 / printed pp. 3–34
 - Part 02: PDF 36–57 / printed pp. 35–56
 
-The full canonical range has completed page-by-page visual fidelity audit.
+The full canonical range has completed page-by-page visual fidelity audit and now has **54 verified pages / 0 review pages**.
 
-### Part 01
+### Part 01 — final state
 
-- **30 verified pages**
-- **2 review pages: PDF 5 and PDF 16**
+- **32 verified pages**
+- **0 review pages**
+- **0 remaining uncertainty markers**
 
-The two unresolved source readings are:
+The final two readings that had remained under review were resolved by direct reviewer-assisted inspection of the attached source scan and applied in commit:
 
-- PDF 5 / printed p.4: short damaged span in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?`
-- PDF 16 / printed p.15: unclear word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
+`13b29064d01d606f64f2ae817b25008d21394f75`
 
-Do not infer either from external versions. Leave them as `review` unless stronger source evidence becomes available.
+Resolved readings:
 
-### Part 02
+- PDF 5 / printed p.4: `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`
+- PDF 16 / printed p.15: `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
+
+Do not reintroduce uncertainty markers at either location unless new primary-source evidence demonstrates a problem.
+
+### Part 02 — final state
 
 Part 02 has been fully audited, consolidated, and post-rewrite verified:
 
@@ -111,30 +116,31 @@ Headings 23 and 34 remain unobserved in the source; do not invent them.
 - Structural mapping: **verified**
 - Canonical Tamil coverage: **complete — PDF 4–57 / printed pp. 3–56**
 - Full visual fidelity audit: **complete**
-- Total canonical page status: **52 verified / 2 review**
-- Part 01: **30 verified / 2 review**
+- Total canonical page status: **54 verified / 0 review**
+- Part 01: **32 verified / 0 review**
 - Part 02: **22 verified / 0 review**
-- Remaining source uncertainties: **PDF 5 and PDF 16 only**
+- Remaining source uncertainties: **0**
+- Remaining canonical uncertainty markers: **0**
 - Part 02 post-rewrite corrective verification: **complete**
 - Scene-number correction: **source PDF49 48 → canonical 43; source PDF57 43 → canonical 48**
 - PDF 58: rear advertisement/back matter, recorded as `paratext`
 - Per-song authorship mapping: **not-started**
+- English translation: **not-started**
 
 ## Translation gate
 
-English translation may begin only for Tamil source units marked `verified`. PDF 5 and PDF 16 remain blocked unless their source uncertainties are resolved from stronger evidence.
+The Tamil source is now fully verified, so English translation may begin for the complete canonical dialogue/song range as a **separate derivative activity**.
 
-Do **not** alter the canonical Tamil merely to make translation smoother. Translation is derivative and must remain separate from the source transcription.
+Do **not** alter the canonical Tamil merely to make translation smoother. Translation must remain separate from the source transcription.
 
 ## Next work
 
-There is **no remaining page-by-page Tamil fidelity-audit work** for this scan.
+There is **no remaining Tamil fidelity-audit work** for this scan.
 
-For any future continuation:
+Possible next archival activities are:
 
-- keep the two Part 01 uncertainties explicit unless stronger source evidence is obtained;
-- preserve the documented scene-number correction described above;
-- if moving to derivatives, work only from `verified` Tamil units;
-- song-specific work should first resolve per-song authorship because the booklet credits multiple lyric contributors.
+- per-song authorship verification/mapping before song-specific attribution or extraction;
+- English translation from the fully verified Tamil canonical text;
+- additional derivative indexing/scene segmentation, while keeping the canonical Tamil untouched.
 
-Do not silently reintroduce the booklet's swapped `காட்சி—48` / `காட்சி—43` headings into the visible canonical copy.
+Preserve the documented `காட்சி—43` / `காட்சி—48` canonical correction described above.
