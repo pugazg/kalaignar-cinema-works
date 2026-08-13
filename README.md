@@ -38,6 +38,10 @@ The repository is organized by **work/film**, with each work preserving its sour
         │   └── parts/
         │       ├── part-01-pdf-4-35.md
         │       └── part-02-pdf-36-57.md
+        ├── scenes/
+        │   ├── README.md
+        │   ├── index.json
+        │   └── scene-*.md
         └── songs/
 ```
 
@@ -53,7 +57,9 @@ The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp
 
 Current page status is **54 verified / 0 review**. The final two Part 01 readings were resolved directly from the scan with reviewer assistance: PDF 5 reads `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`, and PDF 16 reads `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`. No canonical uncertainty marker remains.
 
-The Tamil source is now fully verified. English translation may begin as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
+The scene derivative layer is also complete: **46 / 46 observed scene files** exist under `works/parasakthi/scenes/`. Scenes 23 and 34 remain absent because those headings are not observed. Canonical `scene-43.md` records source heading 48 on PDF 49, and canonical final `scene-48.md` records source heading 43 on PDF 57.
+
+The next structured derivative is the **dialogue index**, which will be built from the verified canonical/scene text with exact speaker labels and PDF/printed-page provenance. English translation may begin later as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
 
 ## Status vocabulary
 
