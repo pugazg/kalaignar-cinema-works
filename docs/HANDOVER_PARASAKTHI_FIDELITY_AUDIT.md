@@ -40,56 +40,22 @@ Fetch current `main` versions of:
 
 ## Canonical coverage and final audit result
 
-The canonical Tamil transcription covers **PDF 4–57 / printed pp. 3–56**.
+The canonical Tamil transcription covers **PDF 4–57 / printed pp. 3–56** and has completed page-by-page visual fidelity audit.
 
-Two canonical parts:
+- Total canonical pages: **54 verified / 0 review**
+- Part 01: **32 verified / 0 review**
+- Part 02: **22 verified / 0 review**
+- Remaining source uncertainties: **0**
+- Remaining canonical uncertainty markers: **0**
 
-- Part 01: PDF 4–35 / printed pp. 3–34
-- Part 02: PDF 36–57 / printed pp. 35–56
-
-The full canonical range has completed page-by-page visual fidelity audit and has **54 verified pages / 0 review pages**.
-
-### Part 01 — final state
-
-- **32 verified pages**
-- **0 review pages**
-- **0 remaining uncertainty markers**
-
-The final two readings that had remained under review were resolved by direct reviewer-assisted inspection of the attached source scan and applied in commit:
-
-`13b29064d01d606f64f2ae817b25008d21394f75`
-
-Resolved readings:
+The final two Part 01 readings were resolved by reviewer-assisted direct inspection of the attached source scan and applied in commit `13b29064d01d606f64f2ae817b25008d21394f75`:
 
 - PDF 5 / printed p.4: `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`
 - PDF 16 / printed p.15: `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
 
 Do not reintroduce uncertainty markers at either location unless new primary-source evidence demonstrates a problem.
 
-### Part 02 — final state
-
-Part 02 has been fully audited, consolidated, and post-rewrite verified:
-
-- **22 verified pages**
-- **0 review pages**
-- **0 remaining uncertainty markers**
-
-Six first-pass uncertainty markers were resolved directly from the scan:
-
-- PDF 36: `சேர்மையா`
-- PDF 37: `ஒரு அரையணா`
-- PDF 40: `பாலைவனத்தை பூஞ்சோலையாக்க`
-- PDF 41: `சுட்டுக் கொல்லப்பட்டிருப்போம்`
-- PDF 50: `சூறையாட`
-- PDF 50: `அணைப்பிலே`
-
-Nine materially corrupted first-pass blocks were retranscribed directly from the scan:
-
-- PDF **42, 44, 45, 46, 48, 49, 52, 53, 54**
-
-After the first consolidated rewrite, an enlarged post-rewrite visual check identified additional source-form inaccuracies, especially on PDF 44–46 and PDF 52–54. Those were corrected in the final Part 02 corrective commit:
-
-`ac4828c60f9a69590f1fc6b2da17114f62c16d22`
+Part 02 was fully consolidated and post-rewrite verified. Nine materially corrupted first-pass blocks were retranscribed directly from the scan on PDF **42, 44, 45, 46, 48, 49, 52, 53 and 54**. The final Part 02 corrective commit is `ac4828c60f9a69590f1fc6b2da17114f62c16d22`.
 
 ## Critical scene-number correction
 
@@ -107,35 +73,47 @@ The booklet itself contains a two-heading scene-number misprint/transposition ne
 - Canonical visible heading: **`காட்சி—48`**
 - Reason: this is the final scene after `காட்சி—46` and `காட்சி—47`.
 
-The source readings are preserved as hidden HTML comments immediately before the two corrected headings in `part-02-pdf-36-57.md`, and both source and canonical values are recorded in `mapping.md`, `metadata.yaml`, and the scene derivative index.
+The source readings are preserved in provenance comments and in `mapping.md`, `metadata.yaml`, and `scenes/index.json`.
 
-Therefore the canonical sequence near the end is:
-
-`காட்சி—42` → **`காட்சி—43`** → `காட்சி—44` → `காட்சி—45` → `காட்சி—46` → `காட்சி—47` → **`காட்சி—48`**.
-
-Headings 23 and 34 remain unobserved in the source; do not invent them.
+Headings **23 and 34 are not observed** in the source. Do not invent them.
 
 ## Structured derivatives — in progress
 
-The repository is now in Stage 5 of `docs/ARCHIVAL_WORKFLOW.md`: **Structured Derivatives**.
+The repository is in Stage 5 of `docs/ARCHIVAL_WORKFLOW.md`: **Structured Derivatives**.
 
-Completed derivative artifacts:
+### Scene index — complete
 
-- `works/parasakthi/scenes/README.md`
 - `works/parasakthi/scenes/index.json`
-- `works/parasakthi/scenes/scene-01.md` through `scene-10.md`
-
-The scene index contains **46 records**, one for every observed scene heading. Each record stores the canonical scene number, printed source heading, starting PDF/printed page, canonical part, intended scene-file name, and an explicit correction flag for canonical scenes 43 and 48.
+- Records: **46**, one for each observed scene heading
+- Missing/unobserved headings retained as absent: **23, 34**
+- Canonical/source numbering distinction retained for scenes **43 and 48**
 
 ### Scene derivative batch 1 — complete
 
-Canonical scenes **1–10** have been extracted from verified Part 01.
+Canonical scenes **1–10** were extracted from verified Part 01.
 
-- Completed scene files: **10 / 46**
-- Completed canonical scenes: **1–10**
-- Next batch: **11–20**
+### Scene derivative batch 2 — complete
 
-Each completed file uses a derivative provenance comment and retains canonical page anchors that occur inside the scene. Scene boundaries stop immediately before the next canonical scene heading.
+Canonical scenes **11–20** were extracted from verified Part 01 and checked against both `scenes/index.json` and the canonical Part 01 boundaries.
+
+Start-page verification for Batch 2:
+
+- scene 11 — PDF 14 / printed p.13
+- scene 12 — PDF 14 / printed p.13
+- scene 13 — PDF 15 / printed p.14
+- scene 14 — PDF 17 / printed p.16
+- scene 15 — PDF 18 / printed p.17
+- scene 16 — PDF 20 / printed p.19
+- scene 17 — PDF 21 / printed p.20
+- scene 18 — PDF 22 / printed p.21
+- scene 19 — PDF 23 / printed p.22
+- scene 20 — PDF 24 / printed p.23
+
+Current scene derivative state:
+
+- Completed scene files: **20 / 46**
+- Completed canonical scenes: **1–20**
+- Canonical Part 01 remains untouched by derivative extraction.
 
 ### Scene derivative rules
 
@@ -143,12 +121,10 @@ Individual scene files are derivatives, not replacements for canonical text. Whe
 
 1. copy Tamil only from the verified canonical part files;
 2. retain every canonical page anchor occurring inside the scene;
-3. stop immediately before the next canonical scene heading;
+3. stop immediately before the next observed canonical scene heading;
 4. preserve dialogue, directions, verse/song lineation and punctuation as represented in the canonical layer;
 5. add a derivative provenance header with canonical scene number, starting PDF/printed page and canonical part;
 6. do not use a scene file to make new textual corrections to the canonical Tamil.
-
-No scene 23 or scene 34 file is to be created because those headings are absent from the scan.
 
 ## Durable current state
 
@@ -156,11 +132,9 @@ No scene 23 or scene 34 file is to be created because those headings are absent 
 - Canonical Tamil coverage: **complete — PDF 4–57 / printed pp. 3–56**
 - Full visual fidelity audit: **complete**
 - Total canonical page status: **54 verified / 0 review**
-- Remaining source uncertainties: **0**
-- Remaining canonical uncertainty markers: **0**
 - Scene-number correction: **source PDF49 48 → canonical 43; source PDF57 43 → canonical 48**
 - Structured derivative scene index: **complete — 46 records**
-- Individual scene-text derivatives: **10 / 46 complete — scenes 1–10**
+- Individual scene-text derivatives: **20 / 46 complete — scenes 1–20**
 - Dialogue index: **not-started**
 - Character index: **not-started**
 - PDF 58: rear advertisement/back matter, recorded as `paratext`
@@ -177,11 +151,16 @@ Do **not** alter canonical Tamil merely to make a derivative, translation or ind
 
 ## Exact next work
 
-Create the next scene-text derivative batch for **canonical scenes 11–20** under `works/parasakthi/scenes/`.
+Create the next scene-text derivative batch from verified Part 01 for the observed scenes in the **21–30 numbering range**.
 
-For each file, extract from the verified Part 01 Tamil from its heading through immediately before the next scene heading, retain page anchors, and include derivative provenance. After the batch:
+Because **scene 23 is absent**, create exactly these **9 files**:
 
-- verify all ten boundaries against `scenes/index.json` and canonical Part 01;
+`scene-21.md`, `scene-22.md`, `scene-24.md`, `scene-25.md`, `scene-26.md`, `scene-27.md`, `scene-28.md`, `scene-29.md`, `scene-30.md`.
+
+For each file, extract from its canonical heading through immediately before the next observed scene heading, retain all page anchors, and include derivative provenance. After the batch:
+
+- verify all nine boundaries against `scenes/index.json` and canonical Part 01;
+- Part 01 scene extraction will then be complete for all observed headings in that part;
 - update `scenes/README.md`, `metadata.yaml`, `data/works.json`, work README, and this handover;
-- then advance to scenes 21–30, remembering that scene 23 is absent and must not be invented;
+- then begin Part 02 scene derivatives with canonical scenes 31 onward, remembering that scene 34 is absent;
 - do not begin English translation or song authorship work until scene extraction is handled as a separate completed derivative activity.
