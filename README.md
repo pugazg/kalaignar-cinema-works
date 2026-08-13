@@ -37,6 +37,12 @@ The repository is organized by **work/film**, with each work preserving source p
         │   ├── index.json
         │   └── records/
         │       └── scene-*.json
+        ├── characters/
+        │   ├── README.md
+        │   ├── schema.json
+        │   ├── labels-inventory.json
+        │   ├── entities-pilot.json
+        │   └── index.json
         └── songs/
 ```
 
@@ -50,11 +56,11 @@ The source contains **46 observed scene headings**; scenes 23 and 34 are absent.
 
 The scene derivative layer is **46/46 complete**.
 
-The **dialogue index is now complete and verified for all 46 observed scenes**, totaling **642 speaker-labelled records** stored under `works/parasakthi/dialogues/records/`. The final scenes 41–48 batch adds 115 records. Scene 48 is a valid zero-record scene because its closing content is unlabelled song/back-of-work material.
+The **dialogue index is complete and verified for all 46 observed scenes**, totaling **642 speaker-labelled records**. It contains 11 verified cross-page utterances and preserves exact source labels/punctuation without normalization.
 
-The completed dialogue index contains **11 cross-page utterances**. Canonical scene 43 preserves `source_scene_heading: 48`, and canonical final scene 48 preserves `source_scene_heading: 43`.
+The **character index has now begun with a verified pilot**. All **69 distinct exact dialogue speaker labels** have been inventoried; the pilot maps **18 labels to 8 evidence-backed recurring character entities**, leaving **51 labels** for systematic review. The character layer is separate and does not modify any dialogue record.
 
-The next structured derivative is the **character index**: map exact source speaker labels to stable character entities without rewriting the dialogue records. Ambiguous abbreviations and role labels must remain explicit and reviewable.
+The next structured activity is to expand the character/entity mapping across those remaining 51 labels, using role/collective entities where appropriate and retaining ambiguous labels as unresolved rather than guessing.
 
 English translation may begin later as a separate derivative. Per-song authorship remains a separate gate because the booklet credits multiple lyric contributors.
 
@@ -65,6 +71,7 @@ English translation may begin later as a separate derivative. Per-song authorshi
 - `draft-complete`
 - `review`
 - `verified`
+- `pilot-verified`
 - `complete-verified`
 
 A derivative translation can begin only after the corresponding Tamil source text is verified.
