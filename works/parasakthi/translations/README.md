@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — scenes **1–5 verified**; scenes **6–10 in review**
+**Status:** in progress — scenes **1–10 verified**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
@@ -27,39 +27,52 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 There is intentionally no separate assembled English screenplay yet. A reading view can be generated later from verified records.
 
-## Verified coverage — scenes 1–5
+## Verified coverage — scenes 1–10
 
-Scene 1's four-unit pilot passed review first. The subsequent **66 units in scenes 2–5** have now also passed their deliberate second-pass review.
+Scenes **1–10** have now passed deliberate second-pass review.
 
-Verified cumulative state through scene 5: **70 units**.
+Verified cumulative state through scene 10: **136 units**.
 
-Review refinements made before verification included:
+- verified units: **136**
+- review units: **0**
+- kinds: **109 dialogue / 24 stage direction / 3 song / 0 quoted verse**
 
-- scene 2: the source direction `அண்ணியிடம் போதல்` no longer gains an English possessive not present in Tamil;
-- scene 2: the unusual `தங்கையின் வாழ்விலே பொன் விழா?` remains question-shaped rather than being normalized into a more specific ceremony label;
-- scene 4: `மாங்குயில்` is rendered naturally as `cuckoo`, while the Tamil source remains untouched;
-- scene 3's semantically unusual elder-brother sentence and scene 5's compressed wartime newspaper line remain explicitly source-faithful rather than silently repaired.
+The scenes 6–10 pass reviewed all **66 units** against the canonical scene files, immutable dialogue records, page provenance and the verified song derivative for scene 8. English-only corrections were made where the review found genuine additions, omissions or over-resolution; no Tamil/source file was changed.
 
-## Second full batch — scenes 6–10 in review
+### Scene 6 review decisions
 
-This batch adds **66 review units**:
+- `முழுகாதிருக்கிற பெண்ணு` remains `a woman in her condition`, preserving the period pregnancy euphemism.
+- `புறப்படு சீக்கிரம்` no longer gains the earlier review's first-person plural `let's leave`.
+- the elliptical `மாப்புள்ளே நீ சொன்ன படியெல்லாம் கேட்டிரு` no longer supplies an unstated `she`; its uncertainty is documented in the translation note.
 
-- scene 6 — **22**: 19 dialogue + 3 stage directions;
-- scene 7 — **24**: 22 dialogue + 2 stage directions;
-- scene 8 — **10**: 5 dialogue + 4 stage directions + 1 song;
-- scene 9 — **1**: one cross-page rhetorical dialogue unit;
-- scene 10 — **9**: 7 dialogue + 2 stage directions.
+### Scene 7 review decisions
 
-Cumulative translation state: **136 units — 70 verified / 66 review**.
+- begging and prostitution remain explicit.
+- Gunasekaran's irony about Tamil Nadu's `first voice` remains intact.
+- `சரிதாம்போ` is kept non-specific rather than adding a kinship address not explicit in the source.
+- `பிள்ளைக் குட்டிக்காரன்` is `I have children`; the earlier contextual addition `to feed` was removed.
+- Jolly's social/moral vocabulary and code-switches remain source-led rather than modernized.
 
-### Review-sensitive decisions in scenes 6–10
+### Scene 8 review decisions
 
-- Scene 6's `முழுகாதிருக்கிற பெண்ணு` is rendered contextually as `a woman in her condition`, with the pregnancy euphemism documented rather than modernized in Tamil.
-- Scene 7 preserves the source's explicit social language and the irony of begging as Gunasekaran's `first voice` on returning to Tamil Nadu.
-- Scene 8's `ஓ ரசிக்கும் சீமானே` occurrence is one semantic-poetic unit spanning PDF 11→12. Its compressed line around `பெண்களின் வாழ்க்கையை இழந்தவர்கள் கோடி` is explicitly marked review-sensitive.
-- Scene 9 remains one dialogue unit across PDF 12→13. The page break `நெஞ்சிலே / நஞ்சைக்` is retained through English page segments. The anomalous source word `வங்கத்திலே` is disclosed in notes rather than used to alter Tamil.
-- Scene 10's source form `பெட்டிலே` is interpreted contextually as hospital `bed` only in English and recorded as such.
+- `parasakthi-song-003` / `ஓ ரசிக்கும் சீமானே` remains one verified semantic-poetic unit across PDF **11→12**.
+- the compressed third stanza around `பெண்களின் வாழ்க்கையை இழந்தவர்கள் கோடி` remains deliberately unsmoothed.
+- the closing stage direction now explicitly retains `விழுந்து` (`falls`) before Thangappan's death.
+
+### Scene 9 review decisions
+
+- the entire Gunasekaran monologue remains one verified cross-page unit across PDF **12→13**.
+- `english_page_segments` still preserve the source break `நெஞ்சிலே / நஞ்சைக்`.
+- anomalous `வங்கத்திலே` remains untouched in Tamil; English stays context-neutral as `in this land`.
+- the unclear `தகுதி? போக்கியதை?` remains explicitly documented rather than over-resolved.
+- `காலையிலே` is now `this morning`; the earlier `all morning` added duration not present in the source.
+
+### Scene 10 review decisions
+
+- `பெட்டிலே` remains contextually rendered as hospital `bed`, with the Tamil unchanged.
+- the opening bombing direction is kept broad and does not invent a specific injury.
+- grief/hospital dialogue remains source-linked and rhetorically direct.
 
 ## Next activity
 
-Perform a deliberate second-pass fidelity/editorial review of all **66 units in scenes 6–10**. If accepted, mark scenes 6–10 verified and begin the next English batch with canonical **scenes 11–15**, using the same immutable source-linking rules.
+Create the next source-linked English translation batch for canonical **scenes 11–15** at `review` status, using the same schema and immutable-source discipline. Only after that batch exists should its own deliberate second-pass review begin.
