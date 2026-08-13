@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Structured scene derivatives are complete through the observed 31-40 Part 02 batch: 38 of 46 scene files. Next extract the final observed scenes 41-48, preserving the documented canonical/source numbering distinction for scenes 43 and 48."
+  next_action: "Scene-text derivatives are complete for all 46 observed scenes. Next define and build the dialogue index from the verified canonical/scene text with scene and page provenance."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -114,21 +114,24 @@ structured_derivatives:
     headings_not_observed: [23, 34]
     numbering_corrections_recorded: true
   scene_text_files:
-    status: in-progress
+    status: complete
     expected_files: 46
-    completed_files: 38
-    completed_scenes: "1-22,24-33,35-40"
+    completed_files: 46
+    completed_scenes: "1-22,24-33,35-48"
     part_01_scene_derivatives_complete: true
+    part_02_scene_derivatives_complete: true
     cross_part_scenes: [30]
     completed_batches:
       - "scenes 1-10"
       - "scenes 11-20"
       - "observed scenes 21-30; scene 23 absent"
       - "observed scenes 31-40; scene 34 absent"
-    next_batch: "final observed scenes 41-48; 8 files"
-    note: "Scene 30 starts on PDF 35 in Part 01, continues through PDF 36 stored in Part 02, and stops before scene 31 on PDF 37. Scene 33 continues across PDF 38-42 because scene 34 is not observed."
+      - "final observed scenes 41-48"
+    next_batch: null
+    note: "Scene 30 starts on PDF 35 in Part 01, continues through PDF 36 stored in Part 02, and stops before scene 31 on PDF 37. Scene 33 continues across PDF 38-42 because scene 34 is not observed. Scene 43 provenance records source heading 48 on PDF 49; final scene 48 provenance records source heading 43 on PDF 57."
   dialogue_index:
     status: not-started
+    next_action: "Define a deterministic dialogue-record schema and build the index from verified canonical scene derivatives while retaining exact speaker labels and PDF/printed-page provenance."
   character_index:
     status: not-started
 
@@ -137,6 +140,6 @@ status:
   tamil_transcription: verified
   tamil_fidelity_audit: complete
   scene_index: complete
-  scene_text_derivatives: in-progress
+  scene_text_derivatives: complete
   song_authorship_mapping: not-started
   english_translation: not-started
