@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene index:** complete  
-**Individual scene-text files:** in progress — **20 / 46 complete**
+**Individual scene-text files:** in progress — **29 / 46 complete**
 
 This directory is a derivative layer built only from the fully verified canonical Tamil transcription. It does **not** replace or normalize the canonical source text in `../transcription/parts/`.
 
@@ -34,21 +34,25 @@ Completed batches:
 
 - Batch 1: `scene-01.md` through `scene-10.md`
 - Batch 2: `scene-11.md` through `scene-20.md`
+- Batch 3: `scene-21.md`, `scene-22.md`, `scene-24.md`, `scene-25.md`, `scene-26.md`, `scene-27.md`, `scene-28.md`, `scene-29.md`, `scene-30.md`
 
-All **20 completed scene files** were extracted from the verified canonical Part 01 text. Each starts at its canonical heading, stops immediately before the next observed scene heading, and retains every canonical page anchor occurring within the scene. A derivative provenance comment records the canonical scene number, start PDF/printed page, and canonical part.
+The completed scene derivatives now cover **all observed scene headings that begin in Part 01**: **29 files total**. Scene 23 is absent in the source and is not created.
 
-Batch 2 boundary verification was checked against both [`index.json`](index.json) and `../transcription/parts/part-01-pdf-4-35.md`:
+Batch 3 start-page verification against [`index.json`](index.json):
 
-- scene 11 starts PDF 14 / printed p.13;
-- scene 12 starts PDF 14 / printed p.13;
-- scene 13 starts PDF 15 / printed p.14;
-- scene 14 starts PDF 17 / printed p.16;
-- scene 15 starts PDF 18 / printed p.17;
-- scene 16 starts PDF 20 / printed p.19;
-- scene 17 starts PDF 21 / printed p.20;
-- scene 18 starts PDF 22 / printed p.21;
-- scene 19 starts PDF 23 / printed p.22;
-- scene 20 starts PDF 24 / printed p.23.
+- scene 21 — PDF 26 / printed p.25
+- scene 22 — PDF 28 / printed p.27
+- scene 24 — PDF 29 / printed p.28
+- scene 25 — PDF 29 / printed p.28
+- scene 26 — PDF 31 / printed p.30
+- scene 27 — PDF 32 / printed p.31
+- scene 28 — PDF 32 / printed p.31
+- scene 29 — PDF 35 / printed p.34
+- scene 30 — PDF 35 / printed p.34
+
+### Cross-part scene 30
+
+Scene 30 is a deliberate cross-part derivative. Its heading begins on PDF 35 / printed p.34 in Part 01, but the scene continues onto **PDF 36 / printed p.35**, which is stored in the canonical Part 02 file. `scene-30.md` therefore includes that verified PDF 36 continuation and stops immediately before `காட்சி—31` begins on PDF 37. This preserves the actual scene boundary rather than the transcription-file boundary.
 
 No `scene-23.md` or `scene-34.md` will be created unless new primary-source evidence establishes those headings.
 
@@ -61,10 +65,21 @@ Each scene file must:
 3. record the scene's starting PDF/printed page;
 4. preserve songs, dialogue, stage directions and page-boundary continuity exactly as represented in the canonical layer;
 5. point back to the canonical part file through its provenance metadata;
-6. never be used to repair or overwrite the canonical transcription.
+6. stop at the next observed canonical scene heading even when a scene crosses a transcription-part boundary;
+7. never be used to repair or overwrite the canonical transcription.
 
 ## Next batch
 
-Extract the observed canonical scenes in the **21–30 numbering range** from verified Part 01. Because scene **23 is absent in the source**, this batch contains **9 files**: scenes **21, 22, 24, 25, 26, 27, 28, 29 and 30**.
+Begin Part 02 scene derivatives for the observed scenes in the **31–40 numbering range**. Because scene **34 is absent in the source**, create exactly these **9 files**:
 
-After extraction, verify every boundary against `index.json` and the canonical Part 01 text before advancing to Part 02 scene derivatives.
+- `scene-31.md`
+- `scene-32.md`
+- `scene-33.md`
+- `scene-35.md`
+- `scene-36.md`
+- `scene-37.md`
+- `scene-38.md`
+- `scene-39.md`
+- `scene-40.md`
+
+Verify each boundary against `index.json` and the verified Part 02 canonical text before advancing to scenes 41–48.
