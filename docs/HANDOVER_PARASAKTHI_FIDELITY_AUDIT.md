@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-This is the controlling continuation note for **Parasakthi after completion of the canonical Tamil visual-fidelity audit, completion of all scene-text derivatives, and verified dialogue indexing through scenes 1–10**.
+This is the controlling continuation note for **Parasakthi after completed canonical Tamil fidelity work, completed scene derivatives, and verified dialogue indexing through canonical scene 20**.
 
 ## Source
 
@@ -13,160 +13,147 @@ This is the controlling continuation note for **Parasakthi after completion of t
 - File: `TVA_BOK_0062968_பராசக்தி.pdf`
 - SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 - Actual PDF pages: **58**
-- PDF 4–57 = printed pp. **3–56**
-- PDF 58 = rear advertisement/back matter
-- Image-only scan; the scan is the controlling textual source.
+- Canonical dialogue/song range: PDF **4–57** / printed pp. **3–56**
+- PDF 58: rear advertisement/back matter
+- Image-only scan; the scan controls the source text.
 
-Do not replace source readings from film audio, subtitles, web copies, later editions, memory, or familiar quotations. Future source corrections must remain source-led and documented.
-
-## Files to read before continuing
-
-Fetch current `main` versions of:
-
-1. `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`
-2. `docs/ARCHIVAL_WORKFLOW.md`
-3. `works/parasakthi/metadata.yaml`
-4. relevant verified canonical transcription / scene derivative files
-5. `works/parasakthi/scenes/index.json`
-6. `works/parasakthi/dialogues/README.md`
-7. `works/parasakthi/dialogues/schema.json`
-8. `works/parasakthi/dialogues/index.json`
-9. completed files under `works/parasakthi/dialogues/records/`
-10. `data/works.json`
-11. relevant READMEs
+Never repair Tamil from film audio, subtitles, web copies, later editions or memory.
 
 ## Canonical Tamil — complete
-
-The canonical Tamil transcription covers **PDF 4–57 / printed pp.3–56** and has completed page-by-page visual fidelity audit.
 
 - Total canonical pages: **54 verified / 0 review**
 - Part 01: **32 verified / 0 review**
 - Part 02: **22 verified / 0 review**
-- Remaining source uncertainties: **0**
-- Remaining canonical uncertainty markers: **0**
+- Remaining uncertainties: **0**
+- Remaining uncertainty markers: **0**
 
 Final reviewer-assisted Part 01 readings:
 
-- PDF 5 / printed p.4: `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`
-- PDF 16 / printed p.15: `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
+- PDF 5: `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`
+- PDF 16: `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
 
-Part 02 was fully consolidated and post-rewrite verified. Nine materially corrupted first-pass blocks were retranscribed directly from the scan on PDF **42, 44, 45, 46, 48, 49, 52, 53 and 54**.
+Nine materially corrupted Part 02 first-pass blocks were retranscribed directly from the scan on PDF 42, 44, 45, 46, 48, 49, 52, 53 and 54.
 
-## Critical scene-number correction
+## Scene numbering and derivatives
 
-Do **not** revert the documented canonical correction:
+There are **46 observed scene headings**. Headings **23 and 34 are absent** and must never be invented.
 
-- PDF 49 / printed p.48: booklet `காட்சி—48` → canonical **scene 43**; provenance keeps source heading 48.
-- PDF 57 / printed p.56: booklet `காட்சி—43` → canonical final **scene 48**; provenance keeps source heading 43.
+Documented source/canonical correction:
 
-Headings **23 and 34 are not observed**. Do not invent them.
+- PDF 49 / printed p.48: booklet heading 48 → canonical **scene 43**.
+- PDF 57 / printed p.56: booklet heading 43 → canonical final **scene 48**.
 
-## Scene structured derivatives — complete
-
-- Scene index: **46 / 46 observed records complete**
-- Individual scene files: **46 / 46 complete**
-- Completed canonical scenes: **1–22, 24–33, 35–48**
+The scene index and all **46/46 observed scene files** are complete.
 
 Important boundaries:
 
-- scene 30 crosses PDF 35→36 across the canonical part-file boundary;
+- scene 30 crosses PDF 35→36 across canonical part files;
 - scene 33 continues through PDF 42 because scene 34 is absent;
-- scene 48 ends at `—சுபம்—` / printer line and excludes PDF 58 back matter.
+- scene 48 ends before PDF 58 back matter.
 
-Canonical Tamil must remain untouched by derivative extraction.
+## Dialogue index — active Stage 5 derivative
 
-## Dialogue index — verified through scenes 1–10
+Read before continuing:
 
-Dialogue indexing is the active Stage 5 derivative.
+1. `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`
+2. `docs/ARCHIVAL_WORKFLOW.md`
+3. `works/parasakthi/metadata.yaml`
+4. `works/parasakthi/scenes/index.json`
+5. relevant verified `works/parasakthi/scenes/scene-XX.md` files
+6. `works/parasakthi/dialogues/README.md`
+7. `works/parasakthi/dialogues/schema.json`
+8. `works/parasakthi/dialogues/index.json`
+9. existing `works/parasakthi/dialogues/records/scene-XX.json`
+10. `data/works.json`
 
-Files:
+### Storage
 
-- `works/parasakthi/dialogues/README.md`
-- `works/parasakthi/dialogues/schema.json` — **fixed record schema**
-- `works/parasakthi/dialogues/index.json` — compact manifest/checkpoint
-- `works/parasakthi/dialogues/records/scene-XX.json` — scene-sharded dialogue records
+- `dialogues/schema.json` — fixed record schema.
+- `dialogues/index.json` — compact manifest/checkpoint.
+- `dialogues/records/scene-XX.json` — scene-sharded records.
 
-### Storage refinement
+The original scenes 1–2 pilot was migrated losslessly into scene-sharded storage. This did **not** change the record schema.
 
-The initial 42-record scenes 1–2 pilot was migrated losslessly from the monolithic index into `records/scene-01.json` and `records/scene-02.json` before the first bulk batch. The **record schema did not change**. Scene sharding is only a storage/layout refinement to keep each scene independently auditable and avoid repeatedly rewriting one large record array.
+### Dialogue rules
 
-### Current dialogue state
-
-- Status: **in-progress-verified**
-- Completed canonical scenes: **1–10**
-- Total dialogue records: **117**
-- New records in scenes 3–10 batch: **75**
-- Next batch: **scenes 11–20**
-
-Per-scene record counts:
-
-- 1: **1**
-- 2: **41**
-- 3: **8**
-- 4: **8**
-- 5: **5**
-- 6: **19**
-- 7: **22**
-- 8: **5**
-- 9: **1**
-- 10: **7**
-
-### Dialogue-record rules
-
-Each record represents exactly one explicitly speaker-labelled utterance and carries:
+Each record is one **explicitly speaker-labelled** utterance and preserves:
 
 - stable ID `parasakthi-sNNN-dNNN`;
 - canonical scene number;
-- source scene heading from `scenes/index.json`;
+- source scene heading;
 - exact speaker label before the colon;
 - exact Tamil text without normalization;
 - PDF / printed-page provenance;
 - source scene file.
 
-Do **not** expand or merge speaker labels. Exact variants such as `சந்`, `சந்திர`, `ஞான`, `ஞா`, `மாணிக்கம்`, `மாணிக்`, `மாணி`, and `மணி` remain distinct at this layer. Character normalization belongs to the later character index.
+Do not normalize speaker labels. Variants such as `சந்`/`சந்திர`, `ஞான`/`ஞா`, `மாணிக்கம்`/`மாணிக்`/`மாணி`/`மணி`, and `கல்யாணி`/`கல்யா`/`கல்` remain distinct here.
 
-Standalone stage directions, narrative prose, scene headings, unlabelled songs/verse, provenance comments, printer marks and back matter are **not dialogue records**. Parenthetical text inside a speaker-labelled line remains part of that dialogue.
+Standalone stage directions, unlabelled songs/verse, and unlabelled prose are excluded even when context strongly identifies a speaker. Parenthetical text inside a labelled utterance remains part of that record. Explicitly labelled sung/verse material is included.
 
-Explicitly speaker-labelled sung/verse material **is** indexed. Scene 4's `தங்` / `கல்` / `இரு` verse exchange is therefore present; scene 8's unlabelled opening song remains excluded.
+Examples:
 
-### Cross-page utterances verified so far
+- scene 4 labelled verse is indexed;
+- scene 8 unlabelled opening song is excluded;
+- scene 17 unlabelled lullaby and unlabelled `மனசாட்சி` prose are excluded; only the labelled `குண` line is indexed;
+- scene 19 unlabelled performance/verse after the first `குண` record is excluded until the next explicit speaker label.
 
-A single utterance crossing a canonical page boundary remains one record, with every page in `page_provenance` and exact `page_segments`:
+### Cross-page rule
 
-- `parasakthi-s001-d001` — `தங்கப்பன்`, PDF 4 / printed p.3 → PDF 5 / printed p.4.
-- `parasakthi-s009-d001` — `குண`, PDF 12 / printed p.11 → PDF 13 / printed p.12.
+A labelled utterance crossing a page anchor remains one record with multiple `page_provenance` entries and exact `page_segments`.
 
-## Durable current state
+Verified cross-page records:
 
-- Structural mapping: **verified**
-- Canonical Tamil: **54 verified / 0 review**
-- Scene index: **complete — 46 records**
-- Scene-text derivatives: **complete — 46 / 46**
-- Dialogue index: **in-progress-verified — 117 records / scenes 1–10**
-- Character index: **not-started**
-- Song authorship mapping: **not-started**
-- English translation: **not-started**
+- `parasakthi-s001-d001` — PDF 4→5
+- `parasakthi-s009-d001` — PDF 12→13
+- `parasakthi-s013-d023` — PDF 16→17
 
-## Translation and song gates
+## Dialogue checkpoint
 
-The Tamil source is fully verified, so English translation may begin later as a separate derivative activity. Song-specific attribution remains gated because the booklet credits multiple lyric contributors.
+Dialogue indexing is verified through canonical **scenes 1–20**.
 
-Do **not** alter canonical Tamil merely to make a derivative, translation or index smoother.
+- Records before this batch (scenes 1–10): **117**
+- Scenes 11–20 batch: **136**
+- Cumulative records: **253**
+- Completed scenes: **1–20**
+
+Scene counts for 11–20:
+
+- 11: 2
+- 12: 7
+- 13: 26
+- 14: 16
+- 15: 16
+- 16: 10
+- 17: 1
+- 18: 11
+- 19: 11
+- 20: 36
 
 ## Exact next work
 
-Continue the dialogue index with canonical **scenes 11–20**.
+Extract the next observed canonical scenes in the **21–30 range**:
+
+**21, 22, 24, 25, 26, 27, 28, 29 and 30**.
+
+Scene 23 is absent — do not create `scene-23.json`.
 
 For each scene:
 
-1. read its verified scene derivative plus `scenes/index.json`;
+1. read the verified scene derivative and `scenes/index.json`;
 2. extract only explicitly speaker-labelled utterances;
-3. preserve exact speaker labels and exact Tamil text;
-4. assign stable IDs starting at `d001` within that scene;
-5. carry correct PDF / printed-page provenance from page anchors;
+3. preserve exact labels and Tamil text;
+4. start IDs at `d001` within each scene;
+5. carry page provenance from canonical anchors;
 6. preserve cross-page utterances as one record with `page_segments`;
-7. exclude standalone directions, unlabelled songs/verse and narrative text;
-8. write the records to `dialogues/records/scene-XX.json`;
-9. verify count and final record for each scene before advancing `dialogues/index.json`.
+7. write `dialogues/records/scene-XX.json`;
+8. verify record count and final record before advancing the manifest.
 
-After scenes 11–20 are verified, update the manifest, dialogue README, metadata, `data/works.json`, work/root READMEs if needed, and this handover. The following batch should then begin with the next observed scenes after 20, remembering scene 23 is absent.
+Special upcoming case: **scene 30 crosses the Part 01/Part 02 transcription-file boundary**, but its completed scene derivative already contains the full verified scene. Use the scene derivative as the extraction source and do not truncate it at PDF 35.
+
+After the 21–30 observed-scene batch, update the dialogue manifest, README, metadata, `data/works.json`, relevant READMEs and this handover. The following dialogue batch should begin with observed scenes in the 31–40 range, remembering scene 34 is absent.
+
+## Other gates
+
+- Character index: not started.
+- Song authorship mapping: not started; mixed lyric credits require item-level verification.
+- English translation: not started; Tamil is fully verified and eligible for later translation derivative work.

@@ -2,17 +2,17 @@
 
 A source-led archive of screenplay, dialogue, song, and related cinema writing credited to **Kalaignar M. Karunanidhi**.
 
-The repository is organized by **work/film**, with each work preserving its source provenance, page mapping, transcription status, and derivative representations separately.
+The repository is organized by **work/film**, with each work preserving source provenance, page mapping, canonical transcription and derivative representations separately.
 
 ## Archival principles
 
 1. **Primary source first.** The scanned publication controls the canonical transcription.
-2. **No silent correction.** Spelling, punctuation, scene numbering, apparent printing errors, and unusual ordering are preserved unless a correction is explicitly documented with the printed source reading retained as provenance.
-3. **Page provenance is mandatory.** Every transcribed unit remains traceable to the PDF page and, where present, the printed page number.
-4. **Uncertainty stays visible.** Illegible or doubtful text is marked for review rather than guessed from film subtitles, later editions, web copies, or memory.
-5. **Source text and derivatives are separate.** Scene files, indexes, translations, normalized text, and research notes do not overwrite the canonical source transcription.
-6. **Authorship is not inferred.** A booklet may contain material by multiple writers or lyricists; per-item attribution must be supported by the source or separately documented verification.
-7. **Rights are not assumed.** No repository-wide public-domain or open-license claim is made unless established work by work.
+2. **No silent correction.** Apparent source errors are corrected only with the printed reading retained as provenance.
+3. **Page provenance is mandatory.** Every transcribed or indexed unit remains traceable to its PDF/printed page.
+4. **Uncertainty stays visible.** Doubtful source text is reviewed rather than guessed from outside copies or memory.
+5. **Source text and derivatives are separate.** Scene files, indexes and translations never overwrite the canonical layer.
+6. **Authorship is not inferred.** Mixed-credit material requires item-level attribution evidence.
+7. **Rights are not assumed.** No repository-wide public-domain or open-license claim is made.
 
 ## Repository layout
 
@@ -20,9 +20,6 @@ The repository is organized by **work/film**, with each work preserving its sour
 .
 ├── README.md
 ├── docs/
-│   ├── ARCHIVAL_WORKFLOW.md
-│   ├── SOURCE_POLICY.md
-│   └── TRANSCRIPTION_GUIDE.md
 ├── data/
 │   └── works.json
 └── works/
@@ -30,16 +27,8 @@ The repository is organized by **work/film**, with each work preserving its sour
         ├── README.md
         ├── metadata.yaml
         ├── mapping.md
-        ├── source/
-        ├── notes/
-        │   └── fidelity-audit.md
         ├── transcription/
-        │   ├── full-text.md
-        │   └── parts/
-        │       ├── part-01-pdf-4-35.md
-        │       └── part-02-pdf-36-57.md
         ├── scenes/
-        │   ├── README.md
         │   ├── index.json
         │   └── scene-*.md
         ├── dialogues/
@@ -53,26 +42,26 @@ The repository is organized by **work/film**, with each work preserving its sour
 
 ## First work: பராசக்தி
 
-The first source is the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**. Its title page credits **`திரைக்கதை, வசனம் — கலைஞர் மு. கருணாநிதி`**. The scan contains 58 PDF pages and is image-only.
+The first source is the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**, whose title page credits `திரைக்கதை, வசனம் — கலைஞர் மு. கருணாநிதி`.
 
-The corrected structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). The detailed transcription and fidelity audit confirm **46 visible scene headings**; headings 23 and 34 were not observed.
+The canonical Tamil covers PDF **4–57 / printed pp.3–56** and is fully verified at **54/54 pages**, with no remaining uncertainty markers. PDF 58 is rear advertisement/back matter.
 
-The booklet misnumbers/transposes two late scene headings: PDF 49 / printed p.48 prints `காட்சி-48` where the canonical sequence is **`காட்சி-43`**, while the final scene on PDF 57 / printed p.56 prints `காட்சி-43` where the canonical sequence is **`காட்சி-48`**. The canonical transcription corrects the visible headings while retaining both printed readings as documented provenance.
+The source contains **46 observed scene headings**; scenes 23 and 34 are absent. The documented late transposition is preserved as source provenance while the canonical sequence uses scene 43 on PDF 49 and final scene 48 on PDF 57.
 
-The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp.3–56**, with PDF 58 recorded as rear advertisement/back matter. The complete canonical range has passed page-by-page visual fidelity audit and is **54 verified / 0 review** with no remaining uncertainty markers.
+The scene derivative layer is **46/46 complete**.
 
-The scene derivative layer is complete: **46 / 46 observed scene files**. Scenes 23 and 34 remain absent because those headings are not observed.
+The **dialogue index is verified through scenes 1–20**, currently totaling **253 speaker-labelled dialogue records** stored under `works/parasakthi/dialogues/records/`. The fixed schema preserves exact speaker labels, exact Tamil text and PDF/printed-page provenance. Three dialogue records currently cross page boundaries: scenes 1, 9 and 13.
 
-The **dialogue index is now verified through canonical scenes 1–10**, producing **117 speaker-labelled records**. The fixed record schema preserves exact speaker labels, exact Tamil wording and PDF/printed-page provenance. Dialogue records are stored by canonical scene under `works/parasakthi/dialogues/records/`, with `dialogues/index.json` serving as the compact manifest/checkpoint. Two cross-page utterances are currently recorded: scene 1 PDF 4→5 and scene 9 PDF 12→13.
+The next dialogue batch covers observed scenes **21, 22 and 24–30**; scene 23 remains absent.
 
-The next dialogue batch is **scenes 11–20**. English translation may begin later as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
+English translation may begin later as a separate derivative. Per-song authorship remains a separate gate because the booklet credits multiple lyric contributors.
 
 ## Status vocabulary
 
-- `not-started` — no transcription attempted
-- `draft` — transcription exists but has not passed visual fidelity review
-- `draft-complete` — complete first-pass source coverage exists but the work as a whole has not completed visual fidelity review
-- `review` — compared to the scan but unresolved readings remain
-- `verified` — visually checked against the source page and no unresolved reading remains
+- `not-started`
+- `draft`
+- `draft-complete`
+- `review`
+- `verified`
 
-A derivative translation can begin only after the corresponding Tamil source text is `verified`.
+A derivative translation can begin only after the corresponding Tamil source text is verified.

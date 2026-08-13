@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Dialogue index is verified through canonical scenes 1-10: 117 dialogue records. Next extract and verify scenes 11-20 using the fixed schema and scene-sharded storage."
+  next_action: "Dialogue index is verified through canonical scenes 1-20: 253 dialogue records. Next extract the observed scenes 21-30, with scene 23 absent."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -136,8 +136,8 @@ structured_derivatives:
     readme: "dialogues/README.md"
     storage: scene-sharded
     record_directory: "dialogues/records"
-    records: 117
-    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    records: 253
+    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     scene_record_counts:
       1: 1
       2: 41
@@ -149,9 +149,19 @@ structured_derivatives:
       8: 5
       9: 1
       10: 7
-    cross_page_records_verified: ["parasakthi-s001-d001", "parasakthi-s009-d001"]
-    next_batch: "scenes 11-20"
-    note: "Only explicitly speaker-labelled utterances are indexed. Exact labels and Tamil wording are preserved. Records are sharded by canonical scene. Unlabelled songs, standalone stage directions, narrative prose, provenance comments and back matter are excluded; explicitly speaker-labelled sung/verse utterances are retained."
+      11: 2
+      12: 7
+      13: 26
+      14: 16
+      15: 16
+      16: 10
+      17: 1
+      18: 11
+      19: 11
+      20: 36
+    cross_page_records_verified: ["parasakthi-s001-d001", "parasakthi-s009-d001", "parasakthi-s013-d023"]
+    next_batch: "observed scenes 21-30; scene 23 absent"
+    note: "Only explicitly speaker-labelled utterances are indexed. Exact labels and Tamil wording are preserved. Unlabelled songs, verse, prose and standalone directions are excluded even when context identifies the speaker; explicitly labelled sung/verse utterances are retained."
   character_index:
     status: not-started
 
