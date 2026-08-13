@@ -1,61 +1,65 @@
 # Parasakthi — English translation layer
 
-**Canonical authority:** verified Tamil transcription and its immutable structured derivatives  
+**Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — scene 1 verified; scenes 2–5 in review
+**Status:** in progress — scenes **1–5 verified**; scenes **6–10 in review**
 
-This directory contains interpretive English derivatives. Nothing in this layer is allowed to repair, normalize, or overwrite the verified Tamil source.
+This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
 ## Translation principles
 
-1. **Tamil remains authoritative.** A smoother English rendering is never evidence that the Tamil should be changed.
-2. **Every unit is source-linked.** Each translation record carries canonical scene, source path, source record/occurrence ID where one exists, and PDF/printed-page provenance.
-3. **Exact source identifiers stay exact.** Dialogue `speaker_label` values remain exactly as represented in the dialogue index. Character normalization, when useful, is a separate reference to the character index.
-4. **Stage directions do not gain action.** Translate only the action/context present in the verified source.
-5. **Dialogue preserves rhetorical force.** Repetition, questions, exclamations, metaphors, code-switching and social/political language should not be flattened merely for fluency.
-6. **Songs are semantic translations, not singable rewrites.** Preserve source line order and stanza structure where practical; do not introduce rhyme, meter or imagery not present in the Tamil.
-7. **Quoted verse stays distinct from soundtrack song.** Authorship and source-kind distinctions from the completed song layer remain intact.
-8. **Cross-page source units remain one unit.** `english_page_segments` may be used to show how an English rendering aligns to a source utterance that crosses a page anchor.
-9. **Translation status is independent.** `draft`, `review`, and `verified` refer only to the English derivative, never to Tamil source status.
-10. **No external text substitution.** Web translations, subtitles, film dialogue, published English versions or audio memory must not replace source-linked translation work.
+1. **Tamil remains authoritative.** Smoother English is never evidence for changing Tamil.
+2. **Every unit is source-linked.** Preserve canonical scene, source path, record/occurrence ID where available, and PDF/printed-page provenance.
+3. **Exact identifiers stay exact.** Tamil `speaker_label` values remain immutable metadata.
+4. **Stage directions do not gain action.** Translate only what the verified source supplies.
+5. **Dialogue preserves rhetorical force.** Repetition, questions, code-switching, metaphors and political/social rhetoric are not flattened merely for fluency.
+6. **Songs are semantic translations, not singable rewrites.** Preserve line/stanza order where practical; do not invent rhyme, metre or imagery.
+7. **Quoted verse remains distinct from soundtrack song.**
+8. **Cross-page source units remain one translation unit.** Use `english_page_segments` when page-boundary alignment matters.
+9. **Translation status is independent.** `draft`, `review`, `verified` refer only to English.
+10. **No external text substitution.** Web translations, subtitles, film audio or later English versions do not replace source-linked work.
 
 ## Storage
 
-- `schema.json` — translation unit schema.
-- `index.json` — translation checkpoint / scene coverage manifest.
-- `records/scene-XX.json` — source-linked translation units grouped by canonical scene.
+- `schema.json` — translation-unit schema.
+- `index.json` — coverage/status manifest.
+- `records/scene-XX.json` — source-linked English units grouped by canonical scene.
 
-There is intentionally no second human-readable English screenplay file yet. An assembled reading view can be generated later from verified translation records.
+There is intentionally no separate assembled English screenplay yet. A reading view can be generated later from verified records.
 
-## Scene 1 pilot — verified
+## Verified coverage — scenes 1–5
 
-The four-unit pilot was reviewed for fidelity and editorial consistency and is now `verified`:
+Scene 1's four-unit pilot passed review first. The subsequent **66 units in scenes 2–5** have now also passed their deliberate second-pass review.
 
-1. opening stage direction;
-2. soundtrack occurrence `parasakthi-song-001` / `வாழ்க வாழ்கவே`;
-3. transition stage direction before the speech;
-4. dialogue record `parasakthi-s001-d001` under the exact label `தங்கப்பன்`.
+Verified cumulative state through scene 5: **70 units**.
 
-The Thangappan utterance remains one translation unit across PDF **4→5** / printed **3→4**, with aligned English page segments. The notably interpretive song rendering `பண்ணிகர்` → `melodious` remains explicitly disclosed in the unit notes rather than hidden.
+Review refinements made before verification included:
 
-## First full batch — scenes 2–5 in review
+- scene 2: the source direction `அண்ணியிடம் போதல்` no longer gains an English possessive not present in Tamil;
+- scene 2: the unusual `தங்கையின் வாழ்விலே பொன் விழா?` remains question-shaped rather than being normalized into a more specific ceremony label;
+- scene 4: `மாங்குயில்` is rendered naturally as `cuckoo`, while the Tamil source remains untouched;
+- scene 3's semantically unusual elder-brother sentence and scene 5's compressed wartime newspaper line remain explicitly source-faithful rather than silently repaired.
 
-The first full batch adds **66 review units**:
+## Second full batch — scenes 6–10 in review
 
-- scene 2 — **46 units**: 41 dialogue + 5 stage directions;
-- scene 3 — **10 units**: 8 dialogue + 2 stage directions;
-- scene 4 — **2 units**: 1 stage direction + 1 song;
-- scene 5 — **8 units**: 5 dialogue + 3 stage directions.
+This batch adds **66 review units**:
 
-Cumulative translation state: **70 units total — 4 verified / 66 review**.
+- scene 6 — **22**: 19 dialogue + 3 stage directions;
+- scene 7 — **24**: 22 dialogue + 2 stage directions;
+- scene 8 — **10**: 5 dialogue + 4 stage directions + 1 song;
+- scene 9 — **1**: one cross-page rhetorical dialogue unit;
+- scene 10 — **9**: 7 dialogue + 2 stage directions.
 
-### Representation decisions established in this batch
+Cumulative translation state: **136 units — 70 verified / 66 review**.
 
-- Scene 4's entire speaker-labelled `இல் வாழ்வினிலே` verse is represented as **one song translation unit** linked to `parasakthi-song-002`. The exact Tamil speaker labels `தங்`, `கல்`, `இரு` are retained inline in the English lines. The same source text is not duplicated as eight separate English dialogue units.
-- Colloquial and code-switched speech in scene 2 is translated for meaning while exact Tamil `speaker_label` values remain immutable metadata.
-- Semantically unusual source wording is not silently repaired. Scene 3's `உலகில் ஒரு அண்ணன் இருந்து பெண்ணைப் பிறந்தால் பெரும் துயர் என்பார்கள்` is translated conservatively and explicitly noted for review.
-- Scene 5's compressed newspaper line around `இரங்கூன் கடலோரங்களில் எதிரிகள் கப்பல்கள் இந்தியா போய்ச் சேரவில்லை` is translated without inventing a causal relationship not stated in the Tamil.
+### Review-sensitive decisions in scenes 6–10
+
+- Scene 6's `முழுகாதிருக்கிற பெண்ணு` is rendered contextually as `a woman in her condition`, with the pregnancy euphemism documented rather than modernized in Tamil.
+- Scene 7 preserves the source's explicit social language and the irony of begging as Gunasekaran's `first voice` on returning to Tamil Nadu.
+- Scene 8's `ஓ ரசிக்கும் சீமானே` occurrence is one semantic-poetic unit spanning PDF 11→12. Its compressed line around `பெண்களின் வாழ்க்கையை இழந்தவர்கள் கோடி` is explicitly marked review-sensitive.
+- Scene 9 remains one dialogue unit across PDF 12→13. The page break `நெஞ்சிலே / நஞ்சைக்` is retained through English page segments. The anomalous source word `வங்கத்திலே` is disclosed in notes rather than used to alter Tamil.
+- Scene 10's source form `பெட்டிலே` is interpreted contextually as hospital `bed` only in English and recorded as such.
 
 ## Next activity
 
-Perform a second-pass fidelity/editorial review of all **66 units in scenes 2–5**. If accepted, mark those scenes `verified` and begin the next English translation batch with canonical **scenes 6–10**, using the same schema and source-linking rules.
+Perform a deliberate second-pass fidelity/editorial review of all **66 units in scenes 6–10**. If accepted, mark scenes 6–10 verified and begin the next English batch with canonical **scenes 11–15**, using the same immutable source-linking rules.
