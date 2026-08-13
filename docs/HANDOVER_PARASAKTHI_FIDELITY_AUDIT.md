@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-Current stage: **Structured Derivatives — scene, dialogue, character and song-authorship layers complete; source-faithful song derivative extraction next**.
+Current stage: **Structured Derivatives — source, scene, dialogue, character, song-authorship and Tamil song-derivative layers complete; English translation pilot next**.
 
 ## Canonical source state
 
@@ -53,7 +53,7 @@ Final reviewer-assisted Part 01 readings remain:
 
 Do not force `நொண்டி` / `நொ` into ஞானசேகரன் without explicit source evidence.
 
-## Song / verse authorship layer — complete-verified
+## Song / verse layer — complete-verified
 
 Files:
 
@@ -63,6 +63,8 @@ Files:
 - `works/parasakthi/songs/tracklist-evidence.json`
 - `works/parasakthi/songs/inventory.json`
 - `works/parasakthi/songs/index.json`
+- `works/parasakthi/songs/tracks/`
+- `works/parasakthi/songs/quoted-verses/`
 
 ### Booklet-wide credits
 
@@ -75,66 +77,98 @@ PDF 3 prints `பாடல்கள்` and lists six contributors:
 - `கே. பி. காமாட்சி சுந்தரம்`
 - `கு. ம. அண்ணல்தங்கோ`
 
-That credits page itself is booklet-wide and does **not** pair contributors with specific songs.
+That credits page is booklet-wide and does **not** pair contributors with individual songs.
 
-### Item-level evidence received and reconciled
+### Item-level soundtrack evidence
 
-A user-supplied screenshot was matched exactly to the Tamil Wikipedia `பராசக்தி (1952 திரைப்படம்)` soundtrack table: same 11 rows, row order, titles, singers, lyricists, durations, and total length `35:46`.
+The user-supplied soundtrack screenshot was matched exactly to the Tamil Wikipedia `பராசக்தி (1952 திரைப்படம்)` soundtrack table: same 11 rows, titles, singers, lyricists, durations and total `35:46`.
 
-`tracklist-evidence.json` records the screenshot provenance, identified public page, all 11 rows, and the mapping from soundtrack tracks to our canonical occurrence records. The public page is secondary evidence; it cites a 1952 National Pictures song booklet among its references, but that archived PDF could not be directly retrieved in the session. This limitation remains explicit.
+`tracklist-evidence.json` preserves that secondary evidence and the limitation that the referenced 1952 National Pictures song booklet could not be directly retrieved in the session.
 
-### Final soundtrack authorship
+### Final authorship state
 
-1. `தேசம் ஞானம் கல்வி` — **உடுமலை நாராயண கவி**
-2. `கா கா கா` — **உடுமலை நாராயண கவி**
-3. `நெஞ்சு பொறுக்கு தில்லையே` — **சுப்பிரமணிய பாரதி**
-4. `இல் வாழ்வினிலே` — **பாரதிதாசன்**
-5. `புது பெண்ணின் மனதை` — **கே. பி. காமாட்சிசுந்தரம்**
-6. `ஓ ரசிக்கும் சீமானே` — **கே. பி. காமாட்சிசுந்தரம்**
-7. `எல்லோரும் வாழ வேண்டும்` — **அண்ணல் தங்கோ**
-8. `கொஞ்சு மொழி சொல்லும்` — **கே. பி. காமாட்சிசுந்தரம்**
-9. `பூமாலை` — **மு. கருணாநிதி**
-10. `பொருளே இல்லார்க்கு` — **கே. பி. காமாட்சிசுந்தரம்**
-11. `வாழ்க வாழ்கவே` — **பாரதிதாசன்**
-
-### Canonical occurrence reconciliation
-
-The canonical inventory remains **14 occurrence records**, all now `verified` for authorship:
-
-- **13 records** map to the 11 soundtrack tracks.
-- `parasakthi-song-005` (`குதம்பாய்` section) and `parasakthi-song-006` (`தாண்டவக்கோனே` section) are separate canonical text occurrences within the same soundtrack track `தேசம் ஞானம் கல்வி`, both by **உடுமலை நாராயண கவி**.
-- `parasakthi-song-013` is a partial reprise of `parasakthi-song-011` (`புது பெண்ணின் மனதை`) and therefore shares **கே. பி. காமாட்சிசுந்தரம்**.
-- `parasakthi-song-009`, beginning `கோரிக்கையற்று கிடக்குதண்ணே—இங்கு`, is a **separate literary quotation**, not one of the 11 soundtrack tracks. Scene 28 explicitly attributes it to **பாரதிதாசன்**.
-
-Final song-authorship state:
-
-- Candidate occurrence records: **14**
+- Canonical song/verse occurrence records: **14**
 - Verified authorship: **14**
 - Review: **0**
 - Unresolved: **0**
 - Soundtrack compositions: **11**
-- Quoted literary-verse records: **1**
+- Soundtrack-linked occurrence records: **13**
+- Separate quoted literary-verse records: **1**
 
-No canonical Tamil, scene file, dialogue record, or character mapping was modified during authorship resolution.
+Final soundtrack lyricists:
 
-## Exact next work — create source-faithful song derivatives
+1. `தேசம் ஞானம் கல்வி` — உடுமலை நாராயண கவி
+2. `கா கா கா` — உடுமலை நாராயண கவி
+3. `நெஞ்சு பொறுக்கு தில்லையே` — சுப்பிரமணிய பாரதி
+4. `இல் வாழ்வினிலே` — பாரதிதாசன்
+5. `புது பெண்ணின் மனதை` — கே. பி. காமாட்சிசுந்தரம்
+6. `ஓ ரசிக்கும் சீமானே` — கே. பி. காமாட்சிசுந்தரம்
+7. `எல்லோரும் வாழ வேண்டும்` — அண்ணல் தங்கோ
+8. `கொஞ்சு மொழி சொல்லும்` — கே. பி. காமாட்சிசுந்தரம்
+9. `பூமாலை` — மு. கருணாநிதி
+10. `பொருளே இல்லார்க்கு` — கே. பி. காமாட்சிசுந்தரம்
+11. `வாழ்க வாழ்கவே` — பாரதிதாசன்
 
-Create **11 soundtrack-composition Tamil derivative files** under `works/parasakthi/songs/` (prefer a dedicated `tracks/` or similarly explicit subdirectory if introducing one).
+### Tamil soundtrack derivatives — complete-verified
 
-For each composition:
+Exactly **11 source-faithful composition files** now exist under `works/parasakthi/songs/tracks/`:
 
-1. copy Tamil only from the verified canonical transcription / verified scene derivative;
-2. record the soundtrack title and verified lyricist from `tracklist-evidence.json`;
-3. record all canonical scene occurrence IDs and PDF/printed-page provenance;
-4. preserve source line breaks and wording exactly;
-5. if a composition spans more than one canonical occurrence, assemble it without losing the occurrence boundary metadata;
-6. for `தேசம் ஞானம் கல்வி`, combine the source-faithful text of `parasakthi-song-005` and `parasakthi-song-006` while retaining both occurrence IDs;
-7. for `புது பெண்ணின் மனதை`, use scene 33 as the primary composition text and record scene 47 as a reprise occurrence rather than duplicating it as a second song file;
-8. do **not** fold the scene-28 Bharathidasan quotation into the soundtrack set; create a separate quoted-verse derivative if desired;
-9. do not use web lyrics or audio to repair/normalize any Tamil;
-10. after all 11 files are verified, update song README/index, metadata, `data/works.json`, work/root READMEs and this handover.
+1. `01-desam-gnanam-kalvi.md`
+2. `02-kaa-kaa-kaa.md`
+3. `03-nenju-porukkuthillaiye.md`
+4. `04-il-vaazhvinile.md`
+5. `05-pudhu-pennin-manathai.md`
+6. `06-o-rasikkum-seemane.md`
+7. `07-ellorum-vaazha-vendum.md`
+8. `08-konju-mozhi-sollum.md`
+9. `09-poomalai.md`
+10. `10-porule-illaarkku.md`
+11. `11-vaazhga-vaazhgave.md`
 
-Only after the source-faithful Tamil song derivative set is complete should song-specific English translation begin.
+Source-faithfulness rules applied:
+
+- Tamil bodies were copied only from verified scene/canonical text.
+- Track metadata comes from `tracklist-evidence.json` and never alters Tamil wording.
+- Cross-page source anchors are retained where they occur.
+- Scene 4 speaker labels remain because they are canonical source representation.
+- `தேசம் ஞானம் கல்வி` combines two canonical occurrence records (`005`, `006`) inside one composition file while retaining both occurrence boundaries.
+- `புது பெண்ணின் மனதை` uses scene 33 as primary text and preserves scene 47 as a reprise section inside the same composition file.
+- Scene 48's song file contains only song text; `—சுபம்—` and printer line are excluded.
+
+### Separate quoted verse
+
+`works/parasakthi/songs/quoted-verses/001-vidhavayin-kaadhal.md` preserves the scene-28 Bharathidasan quotation beginning `கோரிக்கையற்று கிடக்குதண்ணே—இங்கு`.
+
+It is **not** counted among the 11 soundtrack compositions.
+
+No canonical Tamil, scene file, dialogue record or character mapping was modified by song derivative extraction.
+
+## Exact next work — English translation pilot
+
+Create a separate translation layer under `works/parasakthi/translations/`.
+
+First checkpoint should be schema-first and small:
+
+1. create `translations/README.md` defining translation principles;
+2. create `translations/schema.json` for source-linked translation records;
+3. create `translations/index.json` with pilot status;
+4. use immutable source references rather than copying/rewriting Tamil identifiers;
+5. distinguish at minimum `dialogue`, `stage-direction`, `song`, and `quoted-verse` translation units;
+6. preserve exact canonical scene number, source record/occurrence ID, PDF/printed-page provenance and source path;
+7. never alter `speaker_label`; normalized character identity may be referenced separately from the character index;
+8. mark translation status independently (`draft`, `review`, `verified`);
+9. do not treat fluent English as permission to simplify or correct the Tamil source;
+10. start with a **small pilot**, preferably canonical scene 1 because it exercises a stage direction, a verified song composition (`வாழ்க வாழ்கவே`) and the cross-page Thangappan dialogue in one bounded scene.
+
+For scene-1 pilot translation:
+
+- source scene: `works/parasakthi/scenes/scene-01.md`;
+- song source: `works/parasakthi/songs/tracks/11-vaazhga-vaazhgave.md`;
+- dialogue source record: `parasakthi-s001-d001`;
+- preserve PDF 4→5 / printed pp.3→4 provenance for the Thangappan utterance;
+- translation must remain a derivative and must not change any Tamil file.
+
+After the pilot is reviewed, choose the batching strategy for full-scene translation and song-specific English derivatives.
 
 ## Overall stage status
 
@@ -146,6 +180,7 @@ Only after the source-faithful Tamil song derivative set is complete should song
 - Dialogue index: complete-verified
 - Character index: complete-verified
 - Song/verse inventory: complete
-- Song authorship mapping: **complete-verified**
-- Song-specific Tamil derivatives: **not-started — next**
-- English translation: not-started
+- Song authorship mapping: complete-verified
+- Song-specific Tamil derivatives: **complete-verified — 11/11**
+- Separate quoted-verse derivatives: **complete-verified — 1**
+- English translation: **not-started — next**
