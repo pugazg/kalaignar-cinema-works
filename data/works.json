@@ -57,8 +57,10 @@
       "scene_index": "complete",
       "scene_index_path": "works/parasakthi/scenes/index.json",
       "scene_records": 46,
-      "scene_text_derivatives": "not-started",
-      "next_scene_derivative_batch": "1-10",
+      "scene_text_derivatives": "in-progress",
+      "scene_text_files_completed": 10,
+      "completed_scene_range": "1-10",
+      "next_scene_derivative_batch": "11-20",
       "dialogue_index": "not-started",
       "character_index": "not-started"
     },
