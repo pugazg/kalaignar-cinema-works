@@ -44,8 +44,9 @@ The visible canonical transcription corrects those two headings to **43** and **
 - A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Structured scene index: **complete — 46 records**
-- Individual scene-text derivatives: **in progress — 29/46 complete**
-- All observed scene headings beginning in Part 01 are now extracted
+- Individual scene-text derivatives: **in progress — 38/46 complete**
+- Part 01-starting scene derivatives: **complete**
+- Part 02 derivatives are complete through canonical scene 40, with scene 34 correctly absent
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started; the verified Tamil source is ready for derivative translation work**
 
@@ -72,18 +73,28 @@ The repository is in the post-verification **structured derivatives** stage defi
 - derivative scene files copy only from the verified canonical Tamil and retain page anchors;
 - a scene boundary follows the next observed scene heading, not an artificial transcription-part boundary.
 
-Three extraction batches are complete. Scene derivatives now exist for all observed scene headings beginning in Part 01:
+Four extraction batches are complete:
 
 - scenes 1–10
 - scenes 11–20
 - scenes 21, 22, 24, 25, 26, 27, 28, 29 and 30
+- scenes 31, 32, 33, 35, 36, 37, 38, 39 and 40
 
-That is **29 / 46 scene files complete**.
+That is **38 / 46 scene files complete**.
 
 ### Scene 30 cross-part continuity
 
 Scene 30 begins on PDF 35 / printed p.34 in Part 01 but continues onto PDF 36 / printed p.35, which is stored in the Part 02 canonical file. `scenes/scene-30.md` includes that verified continuation and ends immediately before scene 31 begins on PDF 37. This is intentional and preserves the actual source scene boundary.
 
+### Scene 33 and the absent scene 34
+
+Scene 33 begins on PDF 38 / printed p.37 and continues across PDF 39, 40, 41 and 42. Because no `காட்சி—34` heading is observed, `scenes/scene-33.md` continues uninterrupted until immediately before `காட்சி—35` on PDF 42. No synthetic scene 34 is created.
+
 ## Next derivative batch
 
-Begin Part 02 with the observed scenes in the **31–40 numbering range**. Scene 34 is absent, so the next batch contains exactly **9 files: 31, 32, 33, 35, 36, 37, 38, 39 and 40**.
+Extract the final **8 observed scenes: 41–48**. The existing editorial numbering correction must remain explicit when deriving scenes 43 and 48:
+
+- source PDF 49 prints scene 48 → canonical derivative `scene-43.md`;
+- source PDF 57 prints scene 43 → canonical final derivative `scene-48.md`.
+
+After that batch, the scene-text derivative activity will be complete at **46 / 46 files** and the project can move to the next separate structured derivative activity.
