@@ -1,10 +1,10 @@
-# Parasakthi — project handover after completed Tamil fidelity audit
+# Parasakthi — handover after completed Tamil fidelity audit
 
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-This is the controlling continuation note for the **Parasakthi canonical Tamil transcription after completion of the visual-fidelity audit**.
+This is the controlling continuation note for **Parasakthi after completion of the canonical Tamil visual-fidelity audit and entry into structured derivatives**.
 
 ## Source
 
@@ -24,15 +24,18 @@ Do not replace source readings from film audio, subtitles, web copies, later edi
 Fetch current `main` versions of:
 
 1. `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`
-2. `docs/TRANSCRIPTION_GUIDE.md`
-3. `works/parasakthi/notes/fidelity-audit.md`
-4. `works/parasakthi/metadata.yaml`
-5. `works/parasakthi/mapping.md`
-6. `works/parasakthi/transcription/full-text.md`
-7. `works/parasakthi/transcription/parts/part-01-pdf-4-35.md`
-8. `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`
-9. `data/works.json`
-10. relevant READMEs
+2. `docs/ARCHIVAL_WORKFLOW.md`
+3. `docs/TRANSCRIPTION_GUIDE.md`
+4. `works/parasakthi/notes/fidelity-audit.md`
+5. `works/parasakthi/metadata.yaml`
+6. `works/parasakthi/mapping.md`
+7. `works/parasakthi/transcription/full-text.md`
+8. `works/parasakthi/transcription/parts/part-01-pdf-4-35.md`
+9. `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`
+10. `works/parasakthi/scenes/README.md`
+11. `works/parasakthi/scenes/index.json`
+12. `data/works.json`
+13. relevant READMEs
 
 ## Canonical coverage and final audit result
 
@@ -43,7 +46,7 @@ Two canonical parts:
 - Part 01: PDF 4–35 / printed pp. 3–34
 - Part 02: PDF 36–57 / printed pp. 35–56
 
-The full canonical range has completed page-by-page visual fidelity audit and now has **54 verified pages / 0 review pages**.
+The full canonical range has completed page-by-page visual fidelity audit and has **54 verified pages / 0 review pages**.
 
 ### Part 01 — final state
 
@@ -103,7 +106,7 @@ The booklet itself contains a two-heading scene-number misprint/transposition ne
 - Canonical visible heading: **`காட்சி—48`**
 - Reason: this is the final scene after `காட்சி—46` and `காட்சி—47`.
 
-The source readings are preserved as hidden HTML comments immediately before the two corrected headings in `part-02-pdf-36-57.md`, and both source and canonical values are recorded in `mapping.md` and `metadata.yaml`.
+The source readings are preserved as hidden HTML comments immediately before the two corrected headings in `part-02-pdf-36-57.md`, and both source and canonical values are recorded in `mapping.md`, `metadata.yaml`, and the scene derivative index.
 
 Therefore the canonical sequence near the end is:
 
@@ -111,36 +114,69 @@ Therefore the canonical sequence near the end is:
 
 Headings 23 and 34 remain unobserved in the source; do not invent them.
 
-## Durable final Tamil state
+## Structured derivatives — started
+
+The repository has now entered Stage 5 of `docs/ARCHIVAL_WORKFLOW.md`: **Structured Derivatives**.
+
+Completed first derivative artifacts:
+
+- `works/parasakthi/scenes/README.md`
+- `works/parasakthi/scenes/index.json`
+
+The scene index contains **46 records**, one for every observed scene heading. Each record stores:
+
+- canonical scene number;
+- printed source heading;
+- starting PDF page;
+- starting printed page;
+- canonical part;
+- intended scene-file name;
+- explicit correction flag for canonical scenes 43 and 48.
+
+No scene 23 or scene 34 record/file is to be invented because those headings are absent from the scan.
+
+### Scene derivative rule
+
+Individual scene files are derivatives, not replacements for canonical text. When extracting a scene:
+
+1. copy Tamil only from the verified canonical part files;
+2. retain every canonical page anchor occurring inside the scene;
+3. stop immediately before the next canonical scene heading;
+4. preserve dialogue, directions, verse/song lineation and punctuation as represented in the canonical layer;
+5. add a short derivative provenance header pointing to the canonical part and scene start page;
+6. do not use a scene file to make new textual corrections to the canonical Tamil.
+
+## Durable current state
 
 - Structural mapping: **verified**
 - Canonical Tamil coverage: **complete — PDF 4–57 / printed pp. 3–56**
 - Full visual fidelity audit: **complete**
 - Total canonical page status: **54 verified / 0 review**
-- Part 01: **32 verified / 0 review**
-- Part 02: **22 verified / 0 review**
 - Remaining source uncertainties: **0**
 - Remaining canonical uncertainty markers: **0**
-- Part 02 post-rewrite corrective verification: **complete**
 - Scene-number correction: **source PDF49 48 → canonical 43; source PDF57 43 → canonical 48**
+- Structured derivative scene index: **complete — 46 records**
+- Individual scene-text derivatives: **not-started**
+- Dialogue index: **not-started**
+- Character index: **not-started**
 - PDF 58: rear advertisement/back matter, recorded as `paratext`
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started**
 
-## Translation gate
+## Translation and song gates
 
-The Tamil source is now fully verified, so English translation may begin for the complete canonical dialogue/song range as a **separate derivative activity**.
+The Tamil source is fully verified, so English translation may begin later as a separate derivative activity.
 
-Do **not** alter the canonical Tamil merely to make translation smoother. Translation must remain separate from the source transcription.
+Song-specific extraction or attribution must still pass the separate authorship gate because the booklet credits multiple lyric contributors.
 
-## Next work
+Do **not** alter canonical Tamil merely to make a derivative, translation or index smoother.
 
-There is **no remaining Tamil fidelity-audit work** for this scan.
+## Exact next work
 
-Possible next archival activities are:
+Create the first batch of individual scene-text derivative files for **canonical scenes 1–10** under `works/parasakthi/scenes/`.
 
-- per-song authorship verification/mapping before song-specific attribution or extraction;
-- English translation from the fully verified Tamil canonical text;
-- additional derivative indexing/scene segmentation, while keeping the canonical Tamil untouched.
+For each file, extract from the verified canonical Tamil from its heading through immediately before the next scene heading, retain page anchors, and include provenance back to the canonical part. After the batch:
 
-Preserve the documented `காட்சி—43` / `காட்சி—48` canonical correction described above.
+- verify all ten scene boundaries against `scenes/index.json` and the canonical part;
+- update `scenes/README.md`, `metadata.yaml`, `data/works.json`, and this handover;
+- do not begin English translation or song authorship work in the same batch.
