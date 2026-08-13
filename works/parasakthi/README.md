@@ -34,9 +34,10 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Remaining source uncertainties: **0**
 - Scene index: **complete — 46 records**
 - Individual scene derivatives: **complete — 46/46 observed scenes**
-- Dialogue index: **complete and verified — 642 records / 46 observed scenes**
-- Character index: **pilot verified — 69 exact labels inventoried; 8 entities / 18 labels mapped**
-- Character labels remaining for review: **51**
+- Dialogue index: **complete-verified — 642 records / 46 observed scenes**
+- Character index: **complete-verified — 69/69 exact labels have an explicit disposition**
+- Character entities: **48 total — 46 verified, 1 review, 1 unresolved**
+- Character label dispositions: **66 verified, 1 review, 2 unresolved, 0 unmapped**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started**
 
@@ -57,29 +58,31 @@ The scan controls the Tamil. Film audio, subtitles, later editions, web quotatio
 
 [`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the final manifest; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
 
-Dialogue extraction is **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent. Scene 48 is a valid zero-record dialogue scene because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
+Dialogue extraction is **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent. Scenes 26, 29 and 48 are valid zero-record dialogue scenes. Scene 48 contains the unlabelled closing song plus `—சுபம்—` / printer line.
 
 The complete dialogue index contains **11 verified cross-page utterances**. Exact speaker labels and source punctuation anomalies remain unnormalized.
 
 ## Character index
 
-[`characters/labels-inventory.json`](characters/labels-inventory.json) inventories every exact speaker label in the completed dialogue layer. It records **69 distinct exact labels** across the 642 records.
+The character layer is a separate derivative and does **not** modify any dialogue record.
 
-[`characters/schema.json`](characters/schema.json) defines a separate entity layer; [`characters/entities-pilot.json`](characters/entities-pilot.json) contains the first **8 verified character entities**, mapping **18 exact labels**:
+- [`characters/labels-inventory.json`](characters/labels-inventory.json) — all **69** distinct exact source speaker labels.
+- [`characters/schema.json`](characters/schema.json) — entity/mapping schema.
+- [`characters/entities-pilot.json`](characters/entities-pilot.json) — preserved 8-entity pilot.
+- [`characters/entities.json`](characters/entities.json) — complete disposition for all 69 labels.
+- [`characters/index.json`](characters/index.json) — final character-index checkpoint.
 
-- குணசேகரன்
-- கல்யாணி
-- சந்திரசேகரன்
-- ஞானசேகரன்
-- சரஸ்வதி
-- தங்கப்பன்
-- மாணிக்கம் பிள்ளை
-- விமலா
+Final character coverage:
 
-The character derivative does not modify dialogue records. Exact labels remain intact in `dialogues/records/`; only the separate character layer links supported variants to stable entity IDs.
+- **48 entities** total;
+- **46 verified entities**;
+- **1 review entity** — `ராக` → display form `இராகவன்`, retained at review because converting the printed vocative `இராகவா` to a nominative name is a grammatical normalization;
+- **1 unresolved entity** — `நொண்டி` / `நொ`;
+- **66 verified labels + 1 review label + 2 unresolved labels = 69/69**;
+- **0 unmapped labels**.
 
-The pilot deliberately leaves **51 labels** unmapped. Ambiguous or generic labels are not merged merely because their spelling or narrative context suggests a likely identity. For example, `நொண்டி` / `நொ` remain outside the ஞானசேகரன் entity until the systematic evidence pass.
+Important conservative decisions are documented in [`characters/README.md`](characters/README.md). In particular, `நொண்டி` / `நொ` are **not** merged into ஞானசேகரன் because scene 37 proves the speaker is Kalyani's brother but does not explicitly identify which brother. Conversely, scene 43's `குரல்` is mapped to குணசேகரன் because the verified stage direction places the voice behind the goddess image and immediately has Gunasekaran emerge from that exact position.
 
 ## Next structured activity
 
-Expand the character/entity index across the remaining **51 exact source labels**. Resolve evidence-backed named characters and roles, create role/collective entities where appropriate, and retain genuinely ambiguous labels as explicitly unresolved. Do not modify any of the 642 dialogue records.
+Proceed to the **per-song authorship gate**. The booklet credits multiple song/lyric contributors, so first identify every song/verse block and map its authorship from the printed credits where possible. If the booklet does not disambiguate a particular song, keep authorship `unresolved` unless separately cited reliable evidence resolves it. Do not use outside sources to alter the canonical Tamil text.
