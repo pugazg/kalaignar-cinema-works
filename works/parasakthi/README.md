@@ -44,9 +44,9 @@ The visible canonical transcription corrects those two headings to **43** and **
 - A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Structured scene index: **complete — 46 records**
-- Individual scene-text derivatives: **in progress — 38/46 complete**
-- Part 01-starting scene derivatives: **complete**
-- Part 02 derivatives are complete through canonical scene 40, with scene 34 correctly absent
+- Individual scene-text derivatives: **complete — 46/46 observed scenes**
+- Dialogue index: **not-started — next structured derivative**
+- Character index: **not-started**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started; the verified Tamil source is ready for derivative translation work**
 
@@ -65,7 +65,7 @@ The repository is in the post-verification **structured derivatives** stage defi
 
 [`scenes/index.json`](scenes/index.json) records all **46 observed canonical scenes**, their starting PDF/printed page, canonical part, intended scene-file name, and—where required—the booklet's different printed heading.
 
-[`scenes/README.md`](scenes/README.md) defines the derivative rules. In particular:
+[`scenes/README.md`](scenes/README.md) defines the scene-derivative rules. In particular:
 
 - scenes 23 and 34 are not invented because no such headings are observed in the source;
 - canonical scene 43 retains source heading 48 as provenance;
@@ -73,14 +73,15 @@ The repository is in the post-verification **structured derivatives** stage defi
 - derivative scene files copy only from the verified canonical Tamil and retain page anchors;
 - a scene boundary follows the next observed scene heading, not an artificial transcription-part boundary.
 
-Four extraction batches are complete:
+Five extraction batches are complete:
 
 - scenes 1–10
 - scenes 11–20
 - scenes 21, 22, 24, 25, 26, 27, 28, 29 and 30
 - scenes 31, 32, 33, 35, 36, 37, 38, 39 and 40
+- scenes 41–48
 
-That is **38 / 46 scene files complete**.
+That is **46 / 46 observed scene files complete**.
 
 ### Scene 30 cross-part continuity
 
@@ -90,11 +91,12 @@ Scene 30 begins on PDF 35 / printed p.34 in Part 01 but continues onto PDF 36 / 
 
 Scene 33 begins on PDF 38 / printed p.37 and continues across PDF 39, 40, 41 and 42. Because no `காட்சி—34` heading is observed, `scenes/scene-33.md` continues uninterrupted until immediately before `காட்சி—35` on PDF 42. No synthetic scene 34 is created.
 
-## Next derivative batch
+### Corrected late scene derivatives
 
-Extract the final **8 observed scenes: 41–48**. The existing editorial numbering correction must remain explicit when deriving scenes 43 and 48:
+- `scenes/scene-43.md` is canonical scene **43** beginning on PDF 49 / printed p.48, while its provenance records that the booklet prints source heading **48**.
+- `scenes/scene-48.md` is canonical final scene **48** beginning on PDF 57 / printed p.56, while its provenance records that the booklet prints source heading **43**.
+- `scene-48.md` ends with `—சுபம்—` and the printer line and excludes PDF 58 rear advertisement/back matter.
 
-- source PDF 49 prints scene 48 → canonical derivative `scene-43.md`;
-- source PDF 57 prints scene 43 → canonical final derivative `scene-48.md`.
+## Next structured derivative
 
-After that batch, the scene-text derivative activity will be complete at **46 / 46 files** and the project can move to the next separate structured derivative activity.
+The next activity is to define and build a **dialogue index** from the verified canonical/scene text. Dialogue records should preserve exact speaker labels and dialogue wording and retain canonical scene plus PDF/printed-page provenance. Stage directions, songs and other narrative material should remain distinguishable rather than being silently converted into dialogue records.
