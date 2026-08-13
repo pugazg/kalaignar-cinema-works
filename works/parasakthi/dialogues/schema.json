@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "parasakthi-dialogue-record.schema.json",
+  "title": "Parasakthi dialogue record",
+  "type": "object",
+  "required": [
+    "id",
+    "canonical_scene",
+    "source_scene_heading",
+    "speaker_label",
+    "text",
+    "page_segments",
+    "source_scene_file"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^parasakthi-s[0-9]{3}-d[0-9]{3}$"
+    },
+    "canonical_scene": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 48
+    },
+    "source_scene_heading": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 48
+    },
+    "speaker_label": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact speaker label before the colon in the verified canonical Tamil; never expanded or normalized."
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact verified utterance text after the speaker label. For a cross-page utterance, page-segment texts are joined with a single newline."
+    },
+    "page_segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["pdf_page", "printed_page", "text"],
+        "properties": {
+          "pdf_page": {"type": "integer", "minimum": 4, "maximum": 57},
+          "printed_page": {"type": "integer", "minimum": 3, "maximum": 56},
+          "text": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_scene_file": {
+      "type": "string",
+      "pattern": "^scene-[0-9]{2}\\.md$"
+    }
+  },
+  "additionalProperties": false
+}
