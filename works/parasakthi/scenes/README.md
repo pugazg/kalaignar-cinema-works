@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene index:** complete  
-**Individual scene-text files:** in progress — **29 / 46 complete**
+**Individual scene-text files:** in progress — **38 / 46 complete**
 
 This directory is a derivative layer built only from the fully verified canonical Tamil transcription. It does **not** replace or normalize the canonical source text in `../transcription/parts/`.
 
@@ -35,20 +35,25 @@ Completed batches:
 - Batch 1: `scene-01.md` through `scene-10.md`
 - Batch 2: `scene-11.md` through `scene-20.md`
 - Batch 3: `scene-21.md`, `scene-22.md`, `scene-24.md`, `scene-25.md`, `scene-26.md`, `scene-27.md`, `scene-28.md`, `scene-29.md`, `scene-30.md`
+- Batch 4: `scene-31.md`, `scene-32.md`, `scene-33.md`, `scene-35.md`, `scene-36.md`, `scene-37.md`, `scene-38.md`, `scene-39.md`, `scene-40.md`
 
-The completed scene derivatives now cover **all observed scene headings that begin in Part 01**: **29 files total**. Scene 23 is absent in the source and is not created.
+The derivative layer now contains **38 / 46 observed scene files**. Scenes 23 and 34 remain absent because no such source headings are observed.
 
-Batch 3 start-page verification against [`index.json`](index.json):
+### Batch 4 boundary verification
 
-- scene 21 — PDF 26 / printed p.25
-- scene 22 — PDF 28 / printed p.27
-- scene 24 — PDF 29 / printed p.28
-- scene 25 — PDF 29 / printed p.28
-- scene 26 — PDF 31 / printed p.30
-- scene 27 — PDF 32 / printed p.31
-- scene 28 — PDF 32 / printed p.31
-- scene 29 — PDF 35 / printed p.34
-- scene 30 — PDF 35 / printed p.34
+The Part 02 batch was checked against both [`index.json`](index.json) and `../transcription/parts/part-02-pdf-36-57.md`:
+
+- scene 31 — PDF 37 / printed p.36
+- scene 32 — PDF 37 / printed p.36
+- scene 33 — PDF 38 / printed p.37
+- scene 35 — PDF 42 / printed p.41
+- scene 36 — PDF 43 / printed p.42
+- scene 37 — PDF 43 / printed p.42
+- scene 38 — PDF 43 / printed p.42
+- scene 39 — PDF 44 / printed p.43
+- scene 40 — PDF 45 / printed p.44
+
+Because scene **34 is absent**, `scene-33.md` deliberately continues across PDF 38–42 and stops only immediately before `காட்சி—35`. No artificial scene break is inserted.
 
 ### Cross-part scene 30
 
@@ -70,16 +75,17 @@ Each scene file must:
 
 ## Next batch
 
-Begin Part 02 scene derivatives for the observed scenes in the **31–40 numbering range**. Because scene **34 is absent in the source**, create exactly these **9 files**:
+Extract the final **8 observed scenes**:
 
-- `scene-31.md`
-- `scene-32.md`
-- `scene-33.md`
-- `scene-35.md`
-- `scene-36.md`
-- `scene-37.md`
-- `scene-38.md`
-- `scene-39.md`
-- `scene-40.md`
+- `scene-41.md`
+- `scene-42.md`
+- `scene-43.md`
+- `scene-44.md`
+- `scene-45.md`
+- `scene-46.md`
+- `scene-47.md`
+- `scene-48.md`
 
-Verify each boundary against `index.json` and the verified Part 02 canonical text before advancing to scenes 41–48.
+For scenes 43 and 48, preserve the documented canonical/source distinction: source PDF 49 prints 48 but canonical scene is 43; source PDF 57 prints 43 but canonical final scene is 48.
+
+After this batch, verify every boundary against `index.json` and the verified Part 02 canonical text, then mark the 46-file scene derivative activity complete before beginning another derivative type.
