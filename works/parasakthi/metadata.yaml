@@ -11,7 +11,19 @@ credits_as_printed:
   credits_page:
     role: "கதை-வசனம்"
     name: "கலைஞர் மு. கருணாநிதி"
-  song_credit_note: "The credits page visibly lists multiple song/lyric contributors; per-song authorship must be resolved separately."
+  song_credits:
+    heading: "பாடல்கள்"
+    pdf_page: 3
+    scope: booklet-wide
+    item_level_assignment_present: false
+    contributors:
+      - "பாரதியார்"
+      - "பாரதிதாசன்"
+      - "உடுமலை நாராயணகவி"
+      - "மு. கருணாநிதி"
+      - "கே. பி. காமாட்சி சுந்தரம்"
+      - "கு. ம. அண்ணல்தங்கோ"
+  song_credit_note: "The PDF 3 credits page lists six booklet-wide song contributors but does not pair each name with a specific song. Per-item attribution therefore requires item-level evidence."
 
 source:
   identifier: "TVA_BOK_0062968"
@@ -103,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Character index is complete-verified with explicit disposition for all 69 exact source labels. Next structured derivative: per-song authorship mapping before song-specific extraction or translation."
+  next_action: "Song/verse inventory is complete with 14 candidate occurrences. Resolve the remaining 13 unresolved authorship records using item-level evidence; do not infer from booklet-wide credits."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -211,7 +223,22 @@ structured_derivatives:
     unresolved_source_labels: ["நொண்டி", "நொ"]
     remaining_unmapped_labels: 0
     dialogue_records_modified: false
-    next_action: "Begin per-song authorship mapping. The booklet lists multiple lyric contributors, so resolve each song/verse block before creating song-specific files or translations."
+    next_action: null
+  song_authorship_mapping:
+    status: inventory-complete-authorship-in-progress
+    path: "songs/index.json"
+    schema: "songs/schema.json"
+    readme: "songs/README.md"
+    credits: "songs/credits.json"
+    inventory: "songs/inventory.json"
+    candidate_blocks: 14
+    verified_authorship: 1
+    review_authorship: 0
+    unresolved_authorship: 13
+    booklet_wide_contributors: 6
+    item_level_booklet_crediting: false
+    verified_item_ids: ["parasakthi-song-009"]
+    next_action: "Resolve the 13 unresolved items with item-level evidence. External sources may resolve attribution metadata but must never alter canonical Tamil wording."
 
 status:
   structural_mapping: verified
@@ -221,5 +248,5 @@ status:
   scene_text_derivatives: complete
   dialogue_index: complete-verified
   character_index: complete-verified
-  song_authorship_mapping: not-started
+  song_authorship_mapping: inventory-complete-authorship-in-progress
   english_translation: not-started
