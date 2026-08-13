@@ -1,17 +1,17 @@
 {
   "work_id": "parasakthi",
   "target_language": "en",
-  "status": "in-progress-review",
+  "status": "in-progress-verified",
   "schema": "schema.json",
   "readme": "README.md",
   "record_directory": "records",
   "pilot_scene": 1,
   "scenes_started": [1,2,3,4,5,6,7,8,9,10],
   "scenes_reviewed": [1,2,3,4,5,6,7,8,9,10],
-  "scenes_verified": [1,2,3,4,5],
-  "scenes_in_review": [6,7,8,9,10],
+  "scenes_verified": [1,2,3,4,5,6,7,8,9,10],
+  "scenes_in_review": [],
   "translation_units": 136,
-  "unit_status_counts": {"draft":0,"review":66,"verified":70},
+  "unit_status_counts": {"draft":0,"review":0,"verified":136},
   "unit_kind_counts": {"stage-direction":24,"song":3,"dialogue":109,"quoted-verse":0},
   "scene_records": [
     {"canonical_scene":1,"path":"records/scene-01.json","unit_count":4,"status":"verified"},
@@ -19,20 +19,31 @@
     {"canonical_scene":3,"path":"records/scene-03.json","unit_count":10,"status":"verified"},
     {"canonical_scene":4,"path":"records/scene-04.json","unit_count":2,"status":"verified"},
     {"canonical_scene":5,"path":"records/scene-05.json","unit_count":8,"status":"verified"},
-    {"canonical_scene":6,"path":"records/scene-06.json","unit_count":22,"status":"review"},
-    {"canonical_scene":7,"path":"records/scene-07.json","unit_count":24,"status":"review"},
-    {"canonical_scene":8,"path":"records/scene-08.json","unit_count":10,"status":"review"},
-    {"canonical_scene":9,"path":"records/scene-09.json","unit_count":1,"status":"review"},
-    {"canonical_scene":10,"path":"records/scene-10.json","unit_count":9,"status":"review"}
+    {"canonical_scene":6,"path":"records/scene-06.json","unit_count":22,"status":"verified"},
+    {"canonical_scene":7,"path":"records/scene-07.json","unit_count":24,"status":"verified"},
+    {"canonical_scene":8,"path":"records/scene-08.json","unit_count":10,"status":"verified"},
+    {"canonical_scene":9,"path":"records/scene-09.json","unit_count":1,"status":"verified"},
+    {"canonical_scene":10,"path":"records/scene-10.json","unit_count":9,"status":"verified"}
   ],
   "cross_page_translation_units": ["parasakthi-en-s001-u004","parasakthi-en-s008-u002","parasakthi-en-s009-u001"],
   "special_representation_notes": [
     "Scene 4 is represented by one stage-direction unit plus one song unit linked to parasakthi-song-002; exact source speaker labels remain inline.",
-    "Scene 8's soundtrack song parasakthi-song-003 remains one semantic-poetic unit spanning PDF 11-12.",
-    "Scene 9's sole dialogue remains one rhetorical translation unit across PDF 12-13 with English page segments aligned to the source break.",
+    "Scene 8's soundtrack song parasakthi-song-003 remains one verified semantic-poetic unit spanning PDF 11-12.",
+    "Scene 9's sole dialogue remains one verified rhetorical translation unit across PDF 12-13 with English page segments aligned to the source break.",
     "Scene 1's Thangappan dialogue remains one verified unit across PDF 4-5."
   ],
-  "next_activity": "Perform a deliberate second-pass fidelity/editorial review of scenes 6-10. If accepted, mark those 66 units verified and begin the next English translation batch with canonical scenes 11-15 using the same schema.",
+  "second_pass_scene_06_10": {
+    "status": "complete-verified",
+    "units_reviewed": 66,
+    "english_only_corrections": [
+      "scene 6: removed an added first-person plural from `புறப்படு சீக்கிரம்` and removed an unstated `she` from the elliptical `நீ சொன்ன படியெல்லாம் கேட்டிரு` translation",
+      "scene 7: removed an unstated kinship address from `சரிதாம்போ` and removed the added phrase `to feed` from `பிள்ளைக் குட்டிக்காரன்`",
+      "scene 8: restored the source action `விழுந்து` (`falls`) in the closing stage direction",
+      "scene 9: changed `all morning` to `this morning` for `காலையிலே` while retaining documented source anomalies",
+      "scene 10: tightened the bombing and hospital English without changing source meaning"
+    ]
+  },
+  "next_activity": "Translate canonical scenes 11-15 as the next source-linked English batch at review status, then perform a deliberate second-pass review before verification.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
