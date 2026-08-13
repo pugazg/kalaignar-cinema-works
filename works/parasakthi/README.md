@@ -35,7 +35,8 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Scene index: **complete — 46 records**
 - Individual scene derivatives: **complete — 46/46 observed scenes**
 - Dialogue index: **complete and verified — 642 records / 46 observed scenes**
-- Character index: **not-started**
+- Character index: **pilot verified — 69 exact labels inventoried; 8 entities / 18 labels mapped**
+- Character labels remaining for review: **51**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started**
 
@@ -56,23 +57,29 @@ The scan controls the Tamil. Film audio, subtitles, later editions, web quotatio
 
 [`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the final manifest; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
 
-Dialogue extraction is now **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent.
+Dialogue extraction is **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent. Scene 48 is a valid zero-record dialogue scene because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
 
-The final scenes 41–48 batch added **115 records**:
+The complete dialogue index contains **11 verified cross-page utterances**. Exact speaker labels and source punctuation anomalies remain unnormalized.
 
-- scene 41: 23
-- scene 42: 1
-- scene 43: 19 (`source_scene_heading: 48`)
-- scene 44: 4
-- scene 45: 30
-- scene 46: 4
-- scene 47: 34
-- scene 48: 0 (`source_scene_heading: 43`)
+## Character index
 
-Scene 48 correctly contains zero dialogue records because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
+[`characters/labels-inventory.json`](characters/labels-inventory.json) inventories every exact speaker label in the completed dialogue layer. It records **69 distinct exact labels** across the 642 records.
 
-The complete dialogue index contains **11 verified cross-page utterances**, including scene 42 PDF 48→49, two scene 43 cross-page records and three long courtroom records in scene 45. Exact speaker labels and source punctuation anomalies remain unnormalized.
+[`characters/schema.json`](characters/schema.json) defines a separate entity layer; [`characters/entities-pilot.json`](characters/entities-pilot.json) contains the first **8 verified character entities**, mapping **18 exact labels**:
 
-## Next structured derivative
+- குணசேகரன்
+- கல்யாணி
+- சந்திரசேகரன்
+- ஞானசேகரன்
+- சரஸ்வதி
+- தங்கப்பன்
+- மாணிக்கம் பிள்ளை
+- விமலா
 
-With scene and dialogue derivatives complete, the next stage is the **character index**. It should map exact source speaker labels to stable character entities while retaining every original label and explicitly recording ambiguous/role-based mappings rather than silently normalizing them.
+The character derivative does not modify dialogue records. Exact labels remain intact in `dialogues/records/`; only the separate character layer links supported variants to stable entity IDs.
+
+The pilot deliberately leaves **51 labels** unmapped. Ambiguous or generic labels are not merged merely because their spelling or narrative context suggests a likely identity. For example, `நொண்டி` / `நொ` remain outside the ஞானசேகரன் entity until the systematic evidence pass.
+
+## Next structured activity
+
+Expand the character/entity index across the remaining **51 exact source labels**. Resolve evidence-backed named characters and roles, create role/collective entities where appropriate, and retain genuinely ambiguous labels as explicitly unresolved. Do not modify any of the 642 dialogue records.
