@@ -1,0 +1,151 @@
+{
+  "work_id": "parasakthi",
+  "target_language": "en",
+  "canonical_scene": 1,
+  "pilot_status": "review",
+  "unit_count": 4,
+  "units": [
+    {
+      "id": "parasakthi-en-s001-u001",
+      "kind": "stage-direction",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/parasakthi/scenes/scene-01.md",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-01.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-parenthetical-block",
+          "ordinal": 1,
+          "description": "Opening parenthetical immediately after the canonical scene-1 heading."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 4, "printed_page": 3}
+        ]
+      },
+      "translation": {
+        "english_text": "(As Kalyani's wedding is about to take place in Madurai, her three elder brothers—Chandrasekaran, Gnanasekaran and Gunasekaran—are in Rangoon. At that time, in Madurai... a dance is taking place at a gathering.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The three personal names are transliterated; the source relationship `அண்ணன்மார்கள்` is rendered as `elder brothers`."
+        ]
+      }
+    },
+    {
+      "id": "parasakthi-en-s001-u002",
+      "kind": "song",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/parasakthi/songs/tracks/11-vaazhga-vaazhgave.md",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-01.md",
+        "source_record_id": null,
+        "source_occurrence_id": "parasakthi-song-001",
+        "source_locator": null,
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 4, "printed_page": 3}
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "Long live, long live—long live, long live",
+          "Our prosperous Dravidian land. (Long live",
+          "Encircled by the southern sea, with Kumari dancing,",
+          "To the north extends Bengal, famed for valour;",
+          "Deep seas lie to east and west—",
+          "A land rich in knowledge and skill. (Long live",
+          "Ancient Tamil, and those that blossomed from Tamil—",
+          "Melodious Telugu, Tulu and Malayalam,",
+          "And Kannada, their peer—these languages;",
+          "A land where the arts flourish and spread their fragrance. (Long live",
+          "Agarwood and teak on inexhaustible hills,",
+          "Seas that gather pearls in beauty,",
+          "Good fields alive with clouds and red paddy,",
+          "A land fragrant with mullai forests. (Long live",
+          "In rivers, in springs of water, in the juice of fruit,",
+          "In the gentle breeze; in noble strength,",
+          "In the deeds of valiant warriors; and in women,",
+          "A land exalted in beauty and chastity. (Long live"
+        ],
+        "mode": "semantic-poetic",
+        "notes": [
+          "This is a semantic translation, not a singable adaptation; source line order is retained.",
+          "The compressed source form `பண்ணிகர்` is left untouched in Tamil and rendered contextually as `melodious` in English.",
+          "Source refrain fragments such as `(வாழ்க` / `(வாழ்கவே` are represented as `(Long live` cues rather than silently completed."
+        ]
+      }
+    },
+    {
+      "id": "parasakthi-en-s001-u003",
+      "kind": "stage-direction",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/parasakthi/scenes/scene-01.md",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-01.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-parenthetical-block",
+          "ordinal": 2,
+          "description": "Parenthetical after the opening song and immediately before Thangappan's speech."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 4, "printed_page": 3}
+        ]
+      },
+      "translation": {
+        "english_text": "(When the dance and songs end, the bridegroom speaks.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "parasakthi-en-s001-u004",
+      "kind": "dialogue",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/parasakthi/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-01.md",
+        "source_record_id": "parasakthi-s001-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "தங்கப்பன்",
+        "page_provenance": [
+          {"pdf_page": 4, "printed_page": 3},
+          {"pdf_page": 5, "printed_page": 4}
+        ]
+      },
+      "translation": {
+        "english_text": "(Respected elders, until now you have enjoyed the voice of the new mingled with a new kind of dance. The children of such a beautiful land, instead of crawling in the lap of this Mother Earth, go away to other countries. When I think of this, I remember something one of our thinkers said. If we were to give an imaginative reason for why seawater is salty... he said it is because of the tears shed by Tamils who, unable to make a living in their own land, went abroad. Why go that far? Here is Kalyani, whom I am about to marry: she has apparently never even seen the faces of her brothers! They left for Rangoon when she was so young. And not only they! Hundreds of thousands of young people. Countless families! In Malaya's rubber plantations! In Africa, on the island of Ceylon—they must all return to our cherished homeland. That is exactly what this beautiful song reminds us of.)",
+        "english_page_segments": [
+          {
+            "pdf_page": 4,
+            "printed_page": 3,
+            "english_text": "(Respected elders, until now you have enjoyed the voice of the new mingled with a new kind of dance. The children of such a beautiful land, instead of crawling in the lap of this Mother Earth, go away to other countries. When I think of this, I remember something one of our thinkers said. If we were to give an imaginative reason for why seawater is salty... he said it is because of the tears shed by Tamils who, unable to make a living in their own land, went abroad. Why go that..."
+          },
+          {
+            "pdf_page": 5,
+            "printed_page": 4,
+            "english_text": "far? Here is Kalyani, whom I am about to marry: she has apparently never even seen the faces of her brothers! They left for Rangoon when she was so young. And not only they! Hundreds of thousands of young people. Countless families! In Malaya's rubber plantations! In Africa, on the island of Ceylon—they must all return to our cherished homeland. That is exactly what this beautiful song reminds us of.)"
+          }
+        ],
+        "mode": "prose-faithful",
+        "notes": [
+          "The exact source speaker label `தங்கப்பன்` is retained as metadata rather than normalized in the English text.",
+          "The translated page segments deliberately mirror the source break inside `அவ்வளவு / ஏன்?`; the combined English text restores the natural phrase `Why go that far?`.",
+          "`இலங்கை தீவு` is rendered with the period-readable English place name `the island of Ceylon`; this is translation only and does not alter source metadata."
+        ]
+      }
+    }
+  ]
+}
