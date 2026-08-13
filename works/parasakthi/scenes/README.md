@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene index:** complete  
-**Individual scene-text files:** in progress — **10 / 46 complete**
+**Individual scene-text files:** in progress — **20 / 46 complete**
 
 This directory is a derivative layer built only from the fully verified canonical Tamil transcription. It does **not** replace or normalize the canonical source text in `../transcription/parts/`.
 
@@ -30,20 +30,25 @@ For those two records, `index.json` stores both `source_heading` and `canonical_
 
 ## Scene-text extraction
 
-Completed first batch:
+Completed batches:
 
-- `scene-01.md`
-- `scene-02.md`
-- `scene-03.md`
-- `scene-04.md`
-- `scene-05.md`
-- `scene-06.md`
-- `scene-07.md`
-- `scene-08.md`
-- `scene-09.md`
-- `scene-10.md`
+- Batch 1: `scene-01.md` through `scene-10.md`
+- Batch 2: `scene-11.md` through `scene-20.md`
 
-Each scene file was extracted from the verified canonical Part 01 text, starts at its canonical heading, stops immediately before the next scene heading, and retains canonical page anchors that occur within the scene. A derivative provenance comment records the scene number, start PDF/printed page, and canonical part.
+All **20 completed scene files** were extracted from the verified canonical Part 01 text. Each starts at its canonical heading, stops immediately before the next observed scene heading, and retains every canonical page anchor occurring within the scene. A derivative provenance comment records the canonical scene number, start PDF/printed page, and canonical part.
+
+Batch 2 boundary verification was checked against both [`index.json`](index.json) and `../transcription/parts/part-01-pdf-4-35.md`:
+
+- scene 11 starts PDF 14 / printed p.13;
+- scene 12 starts PDF 14 / printed p.13;
+- scene 13 starts PDF 15 / printed p.14;
+- scene 14 starts PDF 17 / printed p.16;
+- scene 15 starts PDF 18 / printed p.17;
+- scene 16 starts PDF 20 / printed p.19;
+- scene 17 starts PDF 21 / printed p.20;
+- scene 18 starts PDF 22 / printed p.21;
+- scene 19 starts PDF 23 / printed p.22;
+- scene 20 starts PDF 24 / printed p.23.
 
 No `scene-23.md` or `scene-34.md` will be created unless new primary-source evidence establishes those headings.
 
@@ -60,4 +65,6 @@ Each scene file must:
 
 ## Next batch
 
-Extract **canonical scenes 11–20** from verified Part 01 using the same deterministic boundary rule, then verify the ten scene boundaries against `index.json` and the canonical part.
+Extract the observed canonical scenes in the **21–30 numbering range** from verified Part 01. Because scene **23 is absent in the source**, this batch contains **9 files**: scenes **21, 22, 24, 25, 26, 27, 28, 29 and 30**.
+
+After extraction, verify every boundary against `index.json` and the canonical Part 01 text before advancing to Part 02 scene derivatives.
