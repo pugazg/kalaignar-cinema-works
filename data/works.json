@@ -84,9 +84,20 @@
       "character_unresolved_source_labels": ["நொண்டி", "நொ"],
       "character_remaining_unmapped_labels": 0,
       "character_dialogue_records_modified": false,
-      "next_structured_derivative": "song-authorship-mapping"
+      "song_authorship_mapping": "inventory-complete-authorship-in-progress",
+      "song_schema_path": "works/parasakthi/songs/schema.json",
+      "song_credits_path": "works/parasakthi/songs/credits.json",
+      "song_inventory_path": "works/parasakthi/songs/inventory.json",
+      "song_index_path": "works/parasakthi/songs/index.json",
+      "song_candidate_blocks": 14,
+      "song_verified_authorship": 1,
+      "song_review_authorship": 0,
+      "song_unresolved_authorship": 13,
+      "song_booklet_wide_contributors": 6,
+      "song_item_level_booklet_crediting": false,
+      "next_structured_derivative": "song-authorship-resolution"
     },
-    "song_authorship_mapping": "not-started",
+    "song_authorship_mapping": "inventory-complete-authorship-in-progress",
     "english_translation": "not-started"
   }
 ]
