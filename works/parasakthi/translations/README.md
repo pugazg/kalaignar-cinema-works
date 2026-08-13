@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — scenes **1–10 verified**
+**Status:** in progress — scenes **1–10 verified**; scenes **11–15 in review**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
@@ -29,50 +29,72 @@ There is intentionally no separate assembled English screenplay yet. A reading v
 
 ## Verified coverage — scenes 1–10
 
-Scenes **1–10** have now passed deliberate second-pass review.
+Scenes **1–10** have passed deliberate second-pass review: **136 verified units**.
 
-Verified cumulative state through scene 10: **136 units**.
+The scenes 6–10 pass reviewed all **66 units** against canonical scene files, immutable dialogue records, page provenance and the verified scene-8 song derivative. English-only corrections were made where the review found genuine additions, omissions or over-resolution; no Tamil/source file was changed.
 
-- verified units: **136**
-- review units: **0**
-- kinds: **109 dialogue / 24 stage direction / 3 song / 0 quoted verse**
+Review refinements included:
 
-The scenes 6–10 pass reviewed all **66 units** against the canonical scene files, immutable dialogue records, page provenance and the verified song derivative for scene 8. English-only corrections were made where the review found genuine additions, omissions or over-resolution; no Tamil/source file was changed.
+- scene 6: `புறப்படு சீக்கிரம்` no longer gains `let's`; the elliptical `நீ சொன்ன படியெல்லாம் கேட்டிரு` no longer gains an unstated `she`;
+- scene 7: `சரிதாம்போ` no longer gains an unstated kinship address, and `பிள்ளைக் குட்டிக்காரன்` no longer gains `to feed`;
+- scene 8: the closing stage direction again includes the source action `விழுந்து` (`falls`); the compressed third stanza of `ஓ ரசிக்கும் சீமானே` remains unsmoothed;
+- scene 9: `காலையிலே` is `this morning`, while anomalous `வங்கத்திலே`, unclear `தகுதி? போக்கியதை?`, and the PDF 12→13 break remain explicitly documented;
+- scene 10: hospital `பெட்டிலே` remains contextually `bed` in English only, and the bombing direction stays broad rather than inventing an injury.
 
-### Scene 6 review decisions
+## New review batch — scenes 11–15
 
-- `முழுகாதிருக்கிற பெண்ணு` remains `a woman in her condition`, preserving the period pregnancy euphemism.
-- `புறப்படு சீக்கிரம்` no longer gains the earlier review's first-person plural `let's leave`.
-- the elliptical `மாப்புள்ளே நீ சொன்ன படியெல்லாம் கேட்டிரு` no longer supplies an unstated `she`; its uncertainty is documented in the translation note.
+Canonical scenes **11–15** now have source-linked English review records: **88 new units**.
 
-### Scene 7 review decisions
+Per-scene counts:
 
-- begging and prostitution remain explicit.
-- Gunasekaran's irony about Tamil Nadu's `first voice` remains intact.
-- `சரிதாம்போ` is kept non-specific rather than adding a kinship address not explicit in the source.
-- `பிள்ளைக் குட்டிக்காரன்` is `I have children`; the earlier contextual addition `to feed` was removed.
-- Jolly's social/moral vocabulary and code-switches remain source-led rather than modernized.
+- scene 11 — **3**: 2 dialogue + 1 stage direction;
+- scene 12 — **10**: 7 dialogue + 2 stage directions + 1 song;
+- scene 13 — **32**: 26 dialogue + 6 stage directions;
+- scene 14 — **19**: 16 dialogue + 3 stage directions;
+- scene 15 — **24**: 16 dialogue + 6 stage directions + 2 songs.
 
-### Scene 8 review decisions
+Cumulative translation state:
 
-- `parasakthi-song-003` / `ஓ ரசிக்கும் சீமானே` remains one verified semantic-poetic unit across PDF **11→12**.
-- the compressed third stanza around `பெண்களின் வாழ்க்கையை இழந்தவர்கள் கோடி` remains deliberately unsmoothed.
-- the closing stage direction now explicitly retains `விழுந்து` (`falls`) before Thangappan's death.
+- scenes started: **1–15**;
+- scenes verified: **1–10**;
+- scenes in review: **11–15**;
+- translation units: **224**;
+- verified: **136**;
+- review: **88**;
+- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**.
 
-### Scene 9 review decisions
+### Scene 11 review pressure points
 
-- the entire Gunasekaran monologue remains one verified cross-page unit across PDF **12→13**.
-- `english_page_segments` still preserve the source break `நெஞ்சிலே / நஞ்சைக்`.
-- anomalous `வங்கத்திலே` remains untouched in Tamil; English stays context-neutral as `in this land`.
-- the unclear `தகுதி? போக்கியதை?` remains explicitly documented rather than over-resolved.
-- `காலையிலே` is now `this morning`; the earlier `all morning` added duration not present in the source.
+- The source simile `வில்லுக்கொத்து போல` is kept conservatively as `together like a bundle of bows`; it is not replaced by a smoother invented image.
+- The account of Kalyani's cash and jewellery is translated so that English does not imply literally selling money, while the source sequence remains untouched.
 
-### Scene 10 review decisions
+### Scene 12 review pressure points
 
-- `பெட்டிலே` remains contextually rendered as hospital `bed`, with the Tamil unchanged.
-- the opening bombing direction is kept broad and does not invent a specific injury.
-- grief/hospital dialogue remains source-linked and rhetorically direct.
+- `பூமாலை` / `parasakthi-song-004` is one semantic-poetic unit on PDF 14.
+- The unusual source person-shift `வந்தேன் தவழ்ந்தாய்?` remains visible in English rather than being silently repaired.
+- `பாரான எந்தன் வயிற்றில்` is documented as semantically difficult.
+- `தாலி அறுத்தவர்கள்` retains the period tali image, and `தாசில் உத்தியோகம்` remains the source's culturally specific `Tahsildar's post` comparison rather than being generalized.
+
+### Scene 13 review pressure points
+
+- The Marwari-shop dialogue retains its source-linked dialect/code-switching without inventing a caricatured English accent.
+- The kinship joke around `தம்பி முறை` remains a kinship claim, not a modernized or sexualized inference.
+- `parasakthi-s013-d023` remains one cross-page unit across PDF **16→17**. Its repeated first-person forms and later third-person shift are deliberately preserved and noted.
+- The policeman's following line, `நீ மெட்ராசுக்கு மேயராக வர்ற காலத்திலே மிருகத்தையெல்லாம் மனுஷனுக்கு.`, remains fragmentary in English; no missing verb is invented.
+
+### Scene 14 review pressure points
+
+- `மாப்கரோஜ் மகராஜ்` is transliterated so Venu's following sound-play can remain visible.
+- `மண்ணாங்கட்டி` is rendered dismissively as `rubbish`, while `ரோஜ்` remains as sound-play rather than being over-explained.
+- `நாணயம்` in Venu's credit offer is rendered as reliability/creditworthiness, not literally as coin.
+
+### Scene 15 review pressure points
+
+- The unexplained source token `பாரா-2` is retained transparently as `[para-2]` with a note.
+- The Mariamman-temple earth-flinging image remains source-specific rather than being replaced with a generic curse.
+- Gunasekaran's `பைத்தியக்கார உலகம்` monologue retains its blunt sequence of hunger, theft, punishment and deception.
+- Soundtrack track 1 appears as two structurally distinct verified source occurrences: `parasakthi-song-005` (`குதம்பாய்`, PDF 19→20) and `parasakthi-song-006` (`தாண்டவக்கோனே`, PDF 20). They therefore remain two semantic-poetic translation units even though they belong to one soundtrack composition.
 
 ## Next activity
 
-Create the next source-linked English translation batch for canonical **scenes 11–15** at `review` status, using the same schema and immutable-source discipline. Only after that batch exists should its own deliberate second-pass review begin.
+Perform a deliberate second-pass fidelity/editorial review of all **88 units in scenes 11–15**. Verify ordering, dialogue IDs and exact labels, stage-direction locators, song occurrence links and page provenance. Change English only where a genuine translation problem is found. **Do not begin scenes 16–20 until that review is complete.**
