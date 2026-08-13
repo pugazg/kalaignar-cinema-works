@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — scenes **1–15 verified**
+**Status:** in progress — scenes **1–20 verified**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
@@ -27,55 +27,38 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 There is intentionally no separate assembled English screenplay yet. A reading view can be generated later from verified records.
 
-## Verified coverage — scenes 1–15
+## Verified coverage — scenes 1–20
 
-Scenes **1–15** have now passed deliberate second-pass review: **224 verified units**.
+Scenes **1–20** have passed deliberate second-pass review: **311 verified units**.
 
-Cumulative verified state:
-
-- scenes started: **1–15**;
-- scenes verified: **1–15**;
+- scenes started: **1–20**;
+- scenes verified: **1–20**;
 - scenes in review: **none**;
-- translation units: **224**;
-- verified: **224**;
+- translation units: **311**;
+- verified: **311**;
 - review: **0**;
-- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**.
+- kinds: **250 dialogue / 54 stage direction / 7 song / 0 quoted verse**.
 
-### Scenes 6–10 review checkpoint
+The review gates remain cumulative:
 
-The scenes 6–10 pass reviewed all **66 units** against canonical scene files, immutable dialogue records, page provenance and the verified scene-8 song derivative. English-only corrections were made where the review found genuine additions, omissions or over-resolution; no Tamil/source file was changed.
+- scenes 6–10: **66 units** second-pass verified;
+- scenes 11–15: **88 units** second-pass verified;
+- scenes 16–20: **87 units** second-pass verified.
 
-Review refinements included:
+### Scenes 16–20 review checkpoint
 
-- scene 6: `புறப்படு சீக்கிரம்` no longer gains `let's`; the elliptical `நீ சொன்ன படியெல்லாம் கேட்டிரு` no longer gains an unstated `she`;
-- scene 7: `சரிதாம்போ` no longer gains an unstated kinship address, and `பிள்ளைக் குட்டிக்காரன்` no longer gains `to feed`;
-- scene 8: the closing stage direction again includes the source action `விழுந்து` (`falls`); the compressed third stanza of `ஓ ரசிக்கும் சீமானே` remains unsmoothed;
-- scene 9: `காலையிலே` is `this morning`, while anomalous `வங்கத்திலே`, unclear `தகுதி? போக்கியதை?`, and the PDF 12→13 break remain explicitly documented;
-- scene 10: hospital `பெட்டிலே` remains contextually `bed` in English only, and the bombing direction stays broad rather than inventing an injury.
+The second pass checked all **87 units** against the verified scene derivatives, immutable dialogue records, page provenance, the verified scene-17 song derivative, and the song inventory.
 
-### Scenes 11–15 review checkpoint
+English-only refinements included:
 
-The second pass reviewed all **88 units** in scenes 11–15 against the verified scene derivatives, immutable dialogue records, page provenance, and the verified Tamil song derivatives for `பூமாலை` and `தேசம் ஞானம் கல்வி`.
+- **scene 16:** tightened the following-year wording while retaining the carved-statue, `பாழும் தெய்வம்`, and infant-in-arms source images;
+- **scene 17:** refined the lullaby opening while preserving `மாமன்மார் மூவர் தம்பி`, `பாலாடை`, `சீதனம்`, the PDF 21→22 occurrence, the unlabelled conscience block, and `சுமைதாங்கி / சோகம் தாங்கி` wordplay;
+- **scene 18:** changed the over-specific English diagnosis to generic `fits` for period `காக்கா வலிப்பு`; source forms such as `டேபின்` remain unresolved rather than guessed;
+- **scene 19:** corrected the split-name handling of `நந்த / கோபாலன்` and `வேணு / கோபாலன்`, and kept four unlabelled performed blocks scene-located without inventing dialogue IDs, soundtrack occurrences or authorship;
+- **scene 20:** corrected `பொறுக்கவா?` to the source-nearer `Why—to scavenge?`; opaque forms such as `எய்ட் நாட்திரீ` and `கொட்டாபுளி`, plus the final arrest ambiguity, remain explicitly documented.
 
-English-only refinements made during this review:
-
-- **scene 13:** `திண்ணை` is rendered consistently as `raised veranda`; the awkward literal `merit a cow has` was tightened to `good fortune a cow has` while keeping the source metaphor;
-- **scene 14:** an added English endearment was removed from `அதெல்லாம் முடியாதம்மா`; `நாணயம்` is expressed naturally through trustworthiness/creditworthiness rather than as `coin`;
-- **scene 15:** `மண்ணைப் போச்சே` is rendered idiomatically as `gone to waste`; standalone stage directions avoid the misleading modern English age-sense of `minors` for `மைனர்கள்`, while exact Tamil labels remain immutable metadata.
-
-No English smoothing was allowed to erase source pressure points. The following remain explicitly documented:
-
-- scene 11 `வில்லுக்கொத்து போல` and the compressed cash/jewellery account;
-- scene 12 `வந்தேன் தவழ்ந்தாய்?`, difficult `பாரான`, the tali image, and `தாசில் உத்தியோகம்`;
-- scene 13 Marwari-shop dialect, `நீப்பன்—`, kinship wordplay, cross-page d023 pronoun instability, and fragmentary d024;
-- scene 14 `மாப்கரோஜ்` / `ரோஜ்` sound-play;
-- scene 15 unexplained `பாரா-2`, the Mariamman earth-flinging image, Gunasekaran's social monologue, and the two separately preserved song occurrences from soundtrack track 1.
-
-## Song representation through scene 15
-
-- Scene 12 `parasakthi-song-004` / `பூமாலை` remains one verified semantic-poetic unit on PDF 14.
-- Scene 15 `parasakthi-song-005` (`குதம்பாய்`, PDF 19→20) and `parasakthi-song-006` (`தாண்டவக்கோனே`, PDF 20) remain two verified translation units because the verified Tamil derivative preserves them as distinct source occurrences, even though soundtrack evidence places both inside one composition.
+No canonical Tamil, scene file, dialogue record, character record or Tamil song derivative was changed.
 
 ## Next activity
 
-Create the next source-linked English batch for canonical **scenes 16–20** at `review` status, preserving the same schema and immutable source-linking rules. After that batch is created, perform a deliberate second-pass review before verification.
+Create the next source-linked English review batch covering canonical **scenes 21–25**, but only for the observed scenes **21, 22, 24 and 25**. Canonical **scene 23 is absent and must not be invented**. After creating that batch, perform the same deliberate second-pass review before verification.
