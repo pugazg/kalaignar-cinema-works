@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Dialogue index is complete and verified for all 46 observed scenes: 642 records. Next structured derivative: character index."
+  next_action: "Character-index pilot is verified. Expand evidence-backed mappings across the remaining 51 exact source speaker labels without modifying dialogue records."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -138,61 +138,25 @@ structured_derivatives:
     record_directory: "dialogues/records"
     records: 642
     scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
-    scene_record_counts:
-      1: 1
-      2: 41
-      3: 8
-      4: 8
-      5: 5
-      6: 19
-      7: 22
-      8: 5
-      9: 1
-      10: 7
-      11: 2
-      12: 7
-      13: 26
-      14: 16
-      15: 16
-      16: 10
-      17: 1
-      18: 11
-      19: 11
-      20: 36
-      21: 40
-      22: 11
-      24: 6
-      25: 26
-      26: 0
-      27: 3
-      28: 48
-      29: 0
-      30: 26
-      31: 13
-      32: 4
-      33: 56
-      35: 10
-      36: 4
-      37: 8
-      38: 8
-      39: 9
-      40: 2
-      41: 23
-      42: 1
-      43: 19
-      44: 4
-      45: 30
-      46: 4
-      47: 34
-      48: 0
     zero_record_scenes: [26, 29, 48]
     cross_page_records_verified: ["parasakthi-s001-d001", "parasakthi-s009-d001", "parasakthi-s013-d023", "parasakthi-s028-d023", "parasakthi-s033-d053", "parasakthi-s042-d001", "parasakthi-s043-d003", "parasakthi-s043-d017", "parasakthi-s045-d001", "parasakthi-s045-d003", "parasakthi-s045-d018"]
     source_label_anomaly_records: ["parasakthi-s021-d040", "parasakthi-s025-d011", "parasakthi-s025-d017"]
     next_batch: null
     note: "Dialogue indexing is complete for all observed scenes. Canonical scene 43 retains source heading 48, canonical scene 48 retains source heading 43, and scene 48 correctly has zero records because its closing material is unlabelled song/back-of-work text."
   character_index:
-    status: not-started
-    next_action: "Define a stable character-entity schema and create a pilot mapping from exact source speaker labels without altering dialogue records."
+    status: pilot-verified
+    path: "characters/index.json"
+    schema: "characters/schema.json"
+    readme: "characters/README.md"
+    label_inventory: "characters/labels-inventory.json"
+    pilot: "characters/entities-pilot.json"
+    dialogue_records_source: 642
+    distinct_source_labels: 69
+    pilot_entities: 8
+    pilot_mapped_labels: 18
+    remaining_unmapped_labels: 51
+    dialogue_records_modified: false
+    next_action: "Expand mappings across the remaining 51 exact source labels. Resolve evidence-backed named/role entities and preserve ambiguous labels as unresolved."
 
 status:
   structural_mapping: verified
@@ -201,6 +165,6 @@ status:
   scene_index: complete
   scene_text_derivatives: complete
   dialogue_index: complete-verified
-  character_index: not-started
+  character_index: pilot-verified
   song_authorship_mapping: not-started
   english_translation: not-started
