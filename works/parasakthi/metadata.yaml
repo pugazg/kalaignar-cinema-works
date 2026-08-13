@@ -115,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "English scenes 1-15 are verified: 224 units total (224 verified / 0 review). Next create the source-linked English review batch for canonical scenes 16-20."
+  next_action: "English scenes 1-20 are verified: 311 units total (311 verified / 0 review). Next create the source-linked English review batch for canonical scenes 21-25 using only observed scenes 21, 22, 24 and 25; scene 23 is absent."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -260,22 +260,22 @@ structured_derivatives:
     schema: "translations/schema.json"
     readme: "translations/README.md"
     record_directory: "translations/records"
-    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     scenes_in_review: []
-    translation_units: 224
+    translation_units: 311
     unit_status_counts:
       draft: 0
       review: 0
-      verified: 224
+      verified: 311
     unit_kind_counts:
-      stage_direction: 42
-      song: 6
-      dialogue: 176
+      stage_direction: 54
+      song: 7
+      dialogue: 250
       quoted_verse: 0
-    cross_page_units: ["parasakthi-en-s001-u004", "parasakthi-en-s008-u002", "parasakthi-en-s009-u001", "parasakthi-en-s013-u028", "parasakthi-en-s015-u023"]
+    cross_page_units: ["parasakthi-en-s001-u004", "parasakthi-en-s008-u002", "parasakthi-en-s009-u001", "parasakthi-en-s013-u028", "parasakthi-en-s015-u023", "parasakthi-en-s017-u002"]
     source_layers_modified: false
-    next_action: "Create source-linked English review records for canonical scenes 16-20, then second-pass them before verification."
+    next_action: "Create source-linked English review records for observed canonical scenes 21, 22, 24 and 25; scene 23 is absent. Then second-pass the batch before verification."
 
 status:
   structural_mapping: verified
