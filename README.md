@@ -7,7 +7,7 @@ The repository is organized by **work/film**, with each work preserving its sour
 ## Archival principles
 
 1. **Primary source first.** The scanned publication controls the canonical transcription.
-2. **No silent correction.** Spelling, punctuation, scene numbering, apparent printing errors, and unusual ordering are preserved unless a correction is explicitly documented.
+2. **No silent correction.** Spelling, punctuation, scene numbering, apparent printing errors, and unusual ordering are preserved unless a correction is explicitly documented with the printed source reading retained as provenance.
 3. **Page provenance is mandatory.** Every transcribed unit remains traceable to the PDF page and, where present, the printed page number.
 4. **Uncertainty stays visible.** Illegible or doubtful text is marked for review rather than guessed from film subtitles, later editions, web copies, or memory.
 5. **Source text and derivatives are separate.** Scene files, indexes, translations, normalized text, and research notes do not overwrite the canonical source transcription.
@@ -45,9 +45,11 @@ The repository is organized by **work/film**, with each work preserving its sour
 
 The first source is the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**. Its title page credits **`திரைக்கதை, வசனம் — கலைஞர் மு. கருணாநிதி`**. The scan contains 58 PDF pages and is image-only.
 
-The corrected structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). The detailed transcription and fidelity audit confirm **46 visible scene headings**: headings 23 and 34 were not observed, `காட்சி-48` appears on PDF 49 / printed p.48, and the source places `காட்சி-43` at the end on PDF 57 / printed p.56.
+The corrected structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). The detailed transcription and fidelity audit confirm **46 visible scene headings**; headings 23 and 34 were not observed.
 
-The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp. 3–56**, with PDF 58 recorded as rear advertisement/back matter. The complete canonical range has now passed page-by-page visual fidelity audit and consolidated correction.
+The booklet misnumbers/transposes two late scene headings: PDF 49 / printed p.48 prints `காட்சி-48` where the canonical sequence is **`காட்சி-43`**, while the final scene on PDF 57 / printed p.56 prints `காட்சி-43` where the canonical sequence is **`காட்சி-48`**. The canonical transcription corrects the visible headings while retaining both printed readings as documented provenance.
+
+The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp. 3–56**, with PDF 58 recorded as rear advertisement/back matter. The complete canonical range has passed page-by-page visual fidelity audit, consolidated correction, and a post-rewrite Part 02 verification pass.
 
 Current page status is **52 verified / 2 review**. The only remaining source uncertainties are on **PDF 5 and PDF 16** in Part 01; they remain explicitly marked rather than inferred from external versions. Part 02, PDF 36–57, is fully consolidated at **22 verified / 0 review**.
 
