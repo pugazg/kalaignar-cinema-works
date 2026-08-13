@@ -37,7 +37,11 @@ The repository is organized by **work/film**, with each work preserving source p
             ├── credits.json
             ├── tracklist-evidence.json
             ├── inventory.json
-            └── index.json
+            ├── index.json
+            ├── tracks/
+            │   └── 01-...md through 11-...md
+            └── quoted-verses/
+                └── 001-vidhavayin-kaadhal.md
 ```
 
 ## First work: பராசக்தி
@@ -53,13 +57,12 @@ Structured derivatives now stand at:
 - character index: **complete-verified — 69/69 exact labels disposed across 48 entities**;
 - song/verse inventory: **14 canonical occurrence records**;
 - song authorship mapping: **complete-verified — 14/14 resolved**;
-- soundtrack compositions represented: **11**.
+- Tamil soundtrack derivatives: **complete-verified — 11/11 composition files**;
+- separate quoted-verse derivatives: **1**.
 
-The song-authorship layer preserves the distinction between soundtrack composition and canonical text occurrence. Scene 15 has two canonical verse sections that belong to one soundtrack track, scene 47 reprises the scene-33 composition, and scene 28 contains a separate Bharathidasan literary quotation.
+The song layer preserves the distinction between soundtrack composition and canonical text occurrence. Scene 15 has two canonical verse sections that belong to one soundtrack track, scene 47 reprises the scene-33 composition, and scene 28 contains a separate Bharathidasan literary quotation. Each Tamil track file copies only from verified canonical scene text and preserves page/occurrence provenance.
 
-The next structured derivative is to create **11 source-faithful Tamil soundtrack-song files**, each copied only from verified canonical Tamil and linked back to its authorship evidence and page/scene provenance. The scene-28 quotation remains a separate quoted-verse derivative.
-
-English translation remains a later separate derivative. Outside sources may establish attribution metadata but must never alter canonical Tamil wording.
+The next structured activity is **English translation as a separate derivative layer**. It should begin with a source-linked schema and small pilot; translations must never overwrite or normalize any Tamil source or derivative layer.
 
 ## Status vocabulary
 
