@@ -9,7 +9,7 @@
     "source_scene_heading",
     "speaker_label",
     "text",
-    "page_segments",
+    "page_provenance",
     "source_scene_file"
   ],
   "properties": {
@@ -37,9 +37,24 @@
       "minLength": 1,
       "description": "Exact verified utterance text after the speaker label. For a cross-page utterance, page-segment texts are joined with a single newline."
     },
-    "page_segments": {
+    "page_provenance": {
       "type": "array",
       "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["pdf_page", "printed_page"],
+        "properties": {
+          "pdf_page": {"type": "integer", "minimum": 4, "maximum": 57},
+          "printed_page": {"type": "integer", "minimum": 3, "maximum": 56}
+        },
+        "additionalProperties": false
+      }
+    },
+    "page_segments": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Used only when one speaker-labelled utterance crosses a canonical page boundary.",
       "items": {
         "type": "object",
         "required": ["pdf_page", "printed_page", "text"],
@@ -56,5 +71,15 @@
       "pattern": "^scene-[0-9]{2}\\.md$"
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "page_provenance": {"minItems": 2}
+        }
+      },
+      "then": {"required": ["page_segments"]}
+    }
+  ],
   "additionalProperties": false
 }
