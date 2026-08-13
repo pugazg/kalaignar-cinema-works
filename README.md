@@ -31,17 +31,15 @@ The repository is organized by **work/film**, with each work preserving source p
         ├── scenes/
         ├── dialogues/
         ├── characters/
-        └── songs/
+        ├── songs/
+        │   ├── tracks/
+        │   └── quoted-verses/
+        └── translations/
             ├── README.md
             ├── schema.json
-            ├── credits.json
-            ├── tracklist-evidence.json
-            ├── inventory.json
             ├── index.json
-            ├── tracks/
-            │   └── 01-...md through 11-...md
-            └── quoted-verses/
-                └── 001-vidhavayin-kaadhal.md
+            └── records/
+                └── scene-01.json
 ```
 
 ## First work: பராசக்தி
@@ -58,11 +56,12 @@ Structured derivatives now stand at:
 - song/verse inventory: **14 canonical occurrence records**;
 - song authorship mapping: **complete-verified — 14/14 resolved**;
 - Tamil soundtrack derivatives: **complete-verified — 11/11 composition files**;
-- separate quoted-verse derivatives: **1**.
+- separate quoted-verse derivatives: **1**;
+- English translation: **pilot-review — canonical scene 1 / 4 source-linked units**.
 
-The song layer preserves the distinction between soundtrack composition and canonical text occurrence. Scene 15 has two canonical verse sections that belong to one soundtrack track, scene 47 reprises the scene-33 composition, and scene 28 contains a separate Bharathidasan literary quotation. Each Tamil track file copies only from verified canonical scene text and preserves page/occurrence provenance.
+The translation layer is intentionally independent. The scene-1 pilot covers two stage directions, the verified `வாழ்க வாழ்கவே` song, and the cross-page Thangappan dialogue. Exact Tamil identifiers and PDF/printed-page provenance are retained as metadata; all four English units remain at `review` until the pilot is editorially accepted.
 
-The next structured activity is **English translation as a separate derivative layer**. It should begin with a source-linked schema and small pilot; translations must never overwrite or normalize any Tamil source or derivative layer.
+The next structured activity is to review that pilot. If accepted, it becomes `verified` and the first full English batch proceeds with canonical **scenes 2–5** using the same schema.
 
 ## Status vocabulary
 
@@ -71,6 +70,7 @@ The next structured activity is **English translation as a separate derivative l
 - `draft-complete`
 - `review`
 - `verified`
+- `pilot-review`
 - `pilot-verified`
 - `complete-verified`
 - `unresolved`
