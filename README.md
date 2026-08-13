@@ -45,13 +45,13 @@ The repository is organized by **work/film**, with each work preserving its sour
 
 The first source is the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**. Its title page credits **`திரைக்கதை, வசனம் — கலைஞர் மு. கருணாநிதி`**. The scan contains 58 PDF pages and is image-only.
 
-The corrected structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). The detailed transcription pass confirms **46 visible scene headings**: headings 23 and 34 were not observed, `காட்சி-48` appears on PDF 49 / printed p.48, and the source places `காட்சி-43` at the end on PDF 57 / printed p.56.
+The corrected structural map is complete in [`works/parasakthi/mapping.md`](works/parasakthi/mapping.md). The detailed transcription and fidelity audit confirm **46 visible scene headings**: headings 23 and 34 were not observed, `காட்சி-48` appears on PDF 49 / printed p.48, and the source places `காட்சி-43` at the end on PDF 57 / printed p.56.
 
-The **first-pass canonical Tamil transcription is complete** for all printed dialogue/song content: **PDF 4–57 / printed pp. 3–56**. PDF 58 is rear advertisement/back matter and is recorded as paratext rather than film dialogue.
+The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp. 3–56**, with PDF 58 recorded as rear advertisement/back matter. The complete canonical range has now passed page-by-page visual fidelity audit and consolidated correction.
 
-The page-by-page Tamil fidelity audit has completed and consolidated **Part 01: PDF 4–35 / printed pp. 3–34**. All recorded corrections were applied, including restoration of the omitted `காட்சி—3` opening block on PDF 7 and the omitted lyric stanza on PDF 12. Ten previously uncertain readings were resolved directly from the scan. Part 01 now has **30 verified pages and 2 review pages**; PDF 5 and PDF 16 retain one genuine source uncertainty each.
+Current page status is **52 verified / 2 review**. The only remaining source uncertainties are on **PDF 5 and PDF 16** in Part 01; they remain explicitly marked rather than inferred from external versions. Part 02, PDF 36–57, is fully consolidated at **22 verified / 0 review**.
 
-Part 02 remains first-pass draft. The **next fidelity-audit page is PDF 36 / printed p.35**. English translation remains blocked until the corresponding Tamil unit is verified.
+English translation may proceed only for source units marked `verified`; the two `review` pages remain blocked.
 
 ## Status vocabulary
 
