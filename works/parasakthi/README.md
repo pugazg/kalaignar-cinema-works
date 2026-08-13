@@ -43,8 +43,10 @@ The visible canonical transcription corrects those two headings to **43** and **
 - Nine materially corrupted Part 02 blocks were retranscribed directly from the scan during consolidated application
 - A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
+- Structured scene index: **complete — 46 records**
+- Individual scene-text derivatives: **not-started**
 - Per-song authorship mapping: **not-started**
-- English translation: **not-started; the verified Tamil source is now ready for derivative translation work**
+- English translation: **not-started; the verified Tamil source is ready for derivative translation work**
 
 ## Canonical transcription
 
@@ -54,3 +56,18 @@ The visible canonical transcription corrects those two headings to **43** and **
 - [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56; audited, consolidated and post-rewrite verified, plus the PDF 58 back-matter provenance note
 
 The scan controls the textual transcription. Film audio/subtitles, later editions, web quotations, or memory are not used to repair unreadable source text.
+
+## Structured derivatives
+
+The repository has now entered the post-verification **structured derivatives** stage defined in `docs/ARCHIVAL_WORKFLOW.md`.
+
+[`scenes/index.json`](scenes/index.json) is the first derivative artifact. It records all **46 observed canonical scenes**, their starting PDF/printed page, canonical part, intended scene-file name, and—where required—the booklet's different printed heading.
+
+[`scenes/README.md`](scenes/README.md) defines the derivative rules. In particular:
+
+- scenes 23 and 34 are not invented because no such headings are observed in the source;
+- canonical scene 43 retains source heading 48 as provenance;
+- canonical scene 48 retains source heading 43 as provenance;
+- derivative scene files must copy only from the verified canonical Tamil and must retain page anchors.
+
+The next derivative operation is to create the individual scene-text files, beginning with **scenes 1–10**.
