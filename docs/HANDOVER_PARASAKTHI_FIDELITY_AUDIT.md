@@ -34,8 +34,9 @@ Fetch current `main` versions of:
 9. `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`
 10. `works/parasakthi/scenes/README.md`
 11. `works/parasakthi/scenes/index.json`
-12. `data/works.json`
-13. relevant READMEs
+12. the completed scene derivative files under `works/parasakthi/scenes/`
+13. `data/works.json`
+14. relevant READMEs
 
 ## Canonical coverage and final audit result
 
@@ -114,28 +115,29 @@ Therefore the canonical sequence near the end is:
 
 Headings 23 and 34 remain unobserved in the source; do not invent them.
 
-## Structured derivatives — started
+## Structured derivatives — in progress
 
-The repository has now entered Stage 5 of `docs/ARCHIVAL_WORKFLOW.md`: **Structured Derivatives**.
+The repository is now in Stage 5 of `docs/ARCHIVAL_WORKFLOW.md`: **Structured Derivatives**.
 
-Completed first derivative artifacts:
+Completed derivative artifacts:
 
 - `works/parasakthi/scenes/README.md`
 - `works/parasakthi/scenes/index.json`
+- `works/parasakthi/scenes/scene-01.md` through `scene-10.md`
 
-The scene index contains **46 records**, one for every observed scene heading. Each record stores:
+The scene index contains **46 records**, one for every observed scene heading. Each record stores the canonical scene number, printed source heading, starting PDF/printed page, canonical part, intended scene-file name, and an explicit correction flag for canonical scenes 43 and 48.
 
-- canonical scene number;
-- printed source heading;
-- starting PDF page;
-- starting printed page;
-- canonical part;
-- intended scene-file name;
-- explicit correction flag for canonical scenes 43 and 48.
+### Scene derivative batch 1 — complete
 
-No scene 23 or scene 34 record/file is to be invented because those headings are absent from the scan.
+Canonical scenes **1–10** have been extracted from verified Part 01.
 
-### Scene derivative rule
+- Completed scene files: **10 / 46**
+- Completed canonical scenes: **1–10**
+- Next batch: **11–20**
+
+Each completed file uses a derivative provenance comment and retains canonical page anchors that occur inside the scene. Scene boundaries stop immediately before the next canonical scene heading.
+
+### Scene derivative rules
 
 Individual scene files are derivatives, not replacements for canonical text. When extracting a scene:
 
@@ -143,8 +145,10 @@ Individual scene files are derivatives, not replacements for canonical text. Whe
 2. retain every canonical page anchor occurring inside the scene;
 3. stop immediately before the next canonical scene heading;
 4. preserve dialogue, directions, verse/song lineation and punctuation as represented in the canonical layer;
-5. add a short derivative provenance header pointing to the canonical part and scene start page;
+5. add a derivative provenance header with canonical scene number, starting PDF/printed page and canonical part;
 6. do not use a scene file to make new textual corrections to the canonical Tamil.
+
+No scene 23 or scene 34 file is to be created because those headings are absent from the scan.
 
 ## Durable current state
 
@@ -156,7 +160,7 @@ Individual scene files are derivatives, not replacements for canonical text. Whe
 - Remaining canonical uncertainty markers: **0**
 - Scene-number correction: **source PDF49 48 → canonical 43; source PDF57 43 → canonical 48**
 - Structured derivative scene index: **complete — 46 records**
-- Individual scene-text derivatives: **not-started**
+- Individual scene-text derivatives: **10 / 46 complete — scenes 1–10**
 - Dialogue index: **not-started**
 - Character index: **not-started**
 - PDF 58: rear advertisement/back matter, recorded as `paratext`
@@ -173,10 +177,11 @@ Do **not** alter canonical Tamil merely to make a derivative, translation or ind
 
 ## Exact next work
 
-Create the first batch of individual scene-text derivative files for **canonical scenes 1–10** under `works/parasakthi/scenes/`.
+Create the next scene-text derivative batch for **canonical scenes 11–20** under `works/parasakthi/scenes/`.
 
-For each file, extract from the verified canonical Tamil from its heading through immediately before the next scene heading, retain page anchors, and include provenance back to the canonical part. After the batch:
+For each file, extract from the verified Part 01 Tamil from its heading through immediately before the next scene heading, retain page anchors, and include derivative provenance. After the batch:
 
-- verify all ten scene boundaries against `scenes/index.json` and the canonical part;
-- update `scenes/README.md`, `metadata.yaml`, `data/works.json`, and this handover;
-- do not begin English translation or song authorship work in the same batch.
+- verify all ten boundaries against `scenes/index.json` and canonical Part 01;
+- update `scenes/README.md`, `metadata.yaml`, `data/works.json`, work README, and this handover;
+- then advance to scenes 21–30, remembering that scene 23 is absent and must not be invented;
+- do not begin English translation or song authorship work until scene extraction is handled as a separate completed derivative activity.
