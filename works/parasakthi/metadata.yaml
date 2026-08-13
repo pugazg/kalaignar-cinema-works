@@ -115,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Song authorship mapping is complete-verified for all 14 canonical song/verse occurrence records. Next create song-specific Tamil derivative files for the 11 soundtrack compositions, preserving the scene-28 Bharathidasan quotation separately and scene-47 as a reprise link."
+  next_action: "Source-faithful Tamil soundtrack derivatives are complete: 11/11 composition files plus one separate Bharathidasan quoted-verse derivative. Next begin English translation as a source-linked derivative with a schema and small pilot."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -242,7 +242,17 @@ structured_derivatives:
     booklet_wide_contributors: 6
     item_level_booklet_crediting: false
     verified_item_ids: ["parasakthi-song-001", "parasakthi-song-002", "parasakthi-song-003", "parasakthi-song-004", "parasakthi-song-005", "parasakthi-song-006", "parasakthi-song-007", "parasakthi-song-008", "parasakthi-song-009", "parasakthi-song-010", "parasakthi-song-011", "parasakthi-song-012", "parasakthi-song-013", "parasakthi-song-014"]
-    next_action: "Create source-faithful Tamil derivative files for the 11 soundtrack compositions. Preserve multi-occurrence and reprise relationships rather than flattening them."
+    tamil_track_derivatives:
+      status: complete-verified
+      directory: "songs/tracks"
+      expected_files: 11
+      completed_files: 11
+      multi_occurrence_tracks: [1, 5]
+    quoted_verse_derivatives:
+      status: complete-verified
+      directory: "songs/quoted-verses"
+      completed_files: 1
+    next_action: null
 
 status:
   structural_mapping: verified
@@ -253,4 +263,5 @@ status:
   dialogue_index: complete-verified
   character_index: complete-verified
   song_authorship_mapping: complete-verified
+  song_tamil_derivatives: complete-verified
   english_translation: not-started
