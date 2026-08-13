@@ -1,0 +1,17 @@
+{
+  "work_id": "parasakthi",
+  "status": "inventory-complete-authorship-in-progress",
+  "schema": "schema.json",
+  "credits": "credits.json",
+  "inventory": "inventory.json",
+  "candidate_blocks": 14,
+  "verified_authorship": 1,
+  "review_authorship": 0,
+  "unresolved_authorship": 13,
+  "booklet_wide_contributors": 6,
+  "item_level_booklet_crediting": false,
+  "next_activity": "Resolve the 13 unresolved song/verse blocks using item-level evidence. Prefer printed booklet evidence; where absent, document reliable external attribution sources separately. Do not alter canonical Tamil or create song-specific translations until each item has an authorship disposition.",
+  "canonical_text_modified": false,
+  "dialogue_records_modified": false,
+  "character_index_modified": false
+}
