@@ -66,8 +66,17 @@
       "dialogue_cross_page_records": ["parasakthi-s001-d001", "parasakthi-s009-d001", "parasakthi-s013-d023", "parasakthi-s028-d023", "parasakthi-s033-d053", "parasakthi-s042-d001", "parasakthi-s043-d003", "parasakthi-s043-d017", "parasakthi-s045-d001", "parasakthi-s045-d003", "parasakthi-s045-d018"],
       "dialogue_source_label_anomaly_records": ["parasakthi-s021-d040", "parasakthi-s025-d011", "parasakthi-s025-d017"],
       "next_dialogue_batch": null,
-      "next_structured_derivative": "character-index",
-      "character_index": "not-started"
+      "character_index": "pilot-verified",
+      "character_index_path": "works/parasakthi/characters/index.json",
+      "character_schema_path": "works/parasakthi/characters/schema.json",
+      "character_label_inventory_path": "works/parasakthi/characters/labels-inventory.json",
+      "character_pilot_path": "works/parasakthi/characters/entities-pilot.json",
+      "character_distinct_source_labels": 69,
+      "character_pilot_entities": 8,
+      "character_pilot_mapped_labels": 18,
+      "character_remaining_unmapped_labels": 51,
+      "character_dialogue_records_modified": false,
+      "next_structured_derivative": "character-index-expansion"
     },
     "song_authorship_mapping": "not-started",
     "english_translation": "not-started"
