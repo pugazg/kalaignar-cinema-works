@@ -1,6 +1,6 @@
 # பராசக்தி — canonical Tamil transcription
 
-**Status:** `review` — complete canonical Tamil transcription has finished visual fidelity audit; two genuine source uncertainties remain in Part 01.
+**Status:** `verified` — complete canonical Tamil transcription has finished visual fidelity audit with no unresolved source reading.
 
 Source: `TVA_BOK_0062968_பராசக்தி.pdf`  
 SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
@@ -16,7 +16,12 @@ The scan, not film subtitles, later transcriptions, web quotations, or memory, c
 
 The completed visual audit is tracked in [`../notes/fidelity-audit.md`](../notes/fidelity-audit.md).
 
-Part 01 — **PDF 4–35 / printed pp. 3–34** — is audited and consolidated. The omitted PDF 7 `காட்சி—3` block and PDF 12 lyric stanza were restored, ten first-pass uncertainty markers were resolved from the scan, and page status is **30 verified / 2 review**. PDF 5 and PDF 16 retain genuine source uncertainty.
+Part 01 — **PDF 4–35 / printed pp. 3–34** — is audited and consolidated. The omitted PDF 7 `காட்சி—3` block and PDF 12 lyric stanza were restored. Ten first-pass uncertainty markers were resolved from the scan during the audit, and the final two short readings were subsequently resolved by direct reviewer-assisted source inspection:
+
+- PDF 5: `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`
+- PDF 16: `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
+
+Part 01 page status is now **32 verified / 0 review**.
 
 Part 02 — **PDF 36–57 / printed pp. 35–56** — is audited, consolidated, and post-rewrite verified. All six Part 02 first-pass uncertainty markers were resolved from the scan; materially corrupted blocks on PDF 42, 44, 45, 46, 48, 49, 52, 53 and 54 were retranscribed directly from the source. A subsequent enlarged visual check corrected remaining source-form inaccuracies in the consolidated text. Page status is **22 verified / 0 review**.
 
@@ -33,10 +38,11 @@ The printed readings remain preserved in hidden inline comments immediately befo
 
 - Canonical dialogue/song coverage: **PDF 4–57 / printed pp. 3–56**
 - Full canonical visual fidelity audit: **complete**
-- Total page status: **52 verified / 2 review**
+- Total page status: **54 verified / 0 review**
+- Remaining explicit source uncertainties: **0**
+- Remaining canonical uncertainty markers: **0**
 - Part 02 post-rewrite corrective verification: **complete**
-- Remaining explicit source uncertainties: **2 — PDF 5 and PDF 16**
 - PDF 58: rear advertisement / back matter; recorded as paratext
-- English translation: eligible for `verified` pages only; the two `review` pages remain blocked
+- English translation: **eligible to begin as a separate derivative activity**
 
 The detailed structural map in [`../mapping.md`](../mapping.md) records both the booklet's printed scene headings and the corrected canonical scene sequence.
