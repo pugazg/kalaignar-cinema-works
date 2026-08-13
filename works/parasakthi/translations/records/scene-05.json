@@ -1,0 +1,130 @@
+{
+  "work_id": "parasakthi",
+  "target_language": "en",
+  "canonical_scene": 5,
+  "scene_status": "review",
+  "unit_count": 8,
+  "units": [
+    {
+      "id": "parasakthi-en-s005-u001",
+      "kind": "stage-direction",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/scenes/scene-05.md",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_locator": {"kind": "scene-bracketed-direction", "ordinal": 1, "description": "Opening location marker after the scene-5 heading."},
+        "page_provenance": [{"pdf_page": 8, "printed_page": 7}]
+      },
+      "translation": {"english_text": "[In Rangoon]", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "parasakthi-en-s005-u002",
+      "kind": "dialogue",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/dialogues/records/scene-05.json",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_record_id": "parasakthi-s005-d001",
+        "speaker_label": "ஞா",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "(Reading the newspaper.) The world war at its peak—Japan's war preparations! Enemies off the Rangoon coast; the ships have not reached India—brother, if Father and little sister hear this news, they'll be terribly upset. The wedding arrangements must be going on in full swing.",
+        "mode": "prose-faithful",
+        "notes": ["The compressed source sequence around `இரங்கூன் கடலோரங்களில் எதிரிகள் கப்பல்கள் இந்தியா போய்ச் சேரவில்லை` is preserved conservatively; the English does not add a causal claim that is not explicit in the Tamil."]
+      }
+    },
+    {
+      "id": "parasakthi-en-s005-u003",
+      "kind": "dialogue",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/dialogues/records/scene-05.json",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_record_id": "parasakthi-s005-d002",
+        "speaker_label": "சந்திர",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 8}]
+      },
+      "translation": {"english_text": "Yes. The ship Gunasekaran left on apparently still hasn't even reached Madras. We've become wretches unable to see our sister in her bridal attire.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "parasakthi-en-s005-u004",
+      "kind": "stage-direction",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/scenes/scene-05.md",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_locator": {"kind": "scene-bracketed-direction", "ordinal": 2, "description": "Radio war-news direction between the second and third dialogue records."},
+        "page_provenance": [{"pdf_page": 9, "printed_page": 8}]
+      },
+      "translation": {"english_text": "[At this moment war news is broadcast on the radio. Today, enemy bombing caused heavy damage... about a thousand people were killed. An entire city in Burma has been emptied.]", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "parasakthi-en-s005-u005",
+      "kind": "dialogue",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/dialogues/records/scene-05.json",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_record_id": "parasakthi-s005-d003",
+        "speaker_label": "சந்",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 8}]
+      },
+      "translation": {"english_text": "How many more days can we go on living like this?", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "parasakthi-en-s005-u006",
+      "kind": "dialogue",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/dialogues/records/scene-05.json",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_record_id": "parasakthi-s005-d004",
+        "speaker_label": "ஞான",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 8}]
+      },
+      "translation": {"english_text": "It feels as though simply escaping alive is a great struggle.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "parasakthi-en-s005-u007",
+      "kind": "dialogue",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/dialogues/records/scene-05.json",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_record_id": "parasakthi-s005-d005",
+        "speaker_label": "சந்",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 8}]
+      },
+      "translation": {"english_text": "We shouldn't stay here any longer. Even if we have to walk, let's reach India.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "parasakthi-en-s005-u008",
+      "kind": "stage-direction",
+      "status": "review",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {
+        "source_path": "works/parasakthi/scenes/scene-05.md",
+        "canonical_scene_path": "works/parasakthi/scenes/scene-05.md",
+        "source_locator": {"kind": "scene-bracketed-direction", "ordinal": 3, "description": "Closing direction after the decision to leave Rangoon."},
+        "page_provenance": [{"pdf_page": 9, "printed_page": 8}]
+      },
+      "translation": {"english_text": "[They leave Rangoon on foot.]", "mode": "prose-faithful", "notes": []}
+    }
+  ]
+}
