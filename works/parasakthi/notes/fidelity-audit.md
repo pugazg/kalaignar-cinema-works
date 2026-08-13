@@ -3,7 +3,7 @@
 Source: `TVA_BOK_0062968_பராசக்தி.pdf`  
 SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 
-This ledger records the second-pass visual comparison of the canonical Tamil draft against the scan. The scan alone controls corrections. Film subtitles, web quotations, later transcriptions, and memory are not used to repair the text.
+This ledger records the second-pass visual comparison of the canonical Tamil draft against the scan. The scan alone controls textual corrections. Film subtitles, web quotations, later transcriptions, and memory are not used to repair the text.
 
 ## Audit procedure
 
@@ -46,11 +46,15 @@ Visual comparison completed for all eight pages. Two additional uncertainty mark
 - `சூறையாட`
 - `அணைப்பிலே`
 
-Direct block retranscription was required for PDF 44, 45, 46, 48 and 49 because the first-pass prose was materially corrupted despite a readable scan. `காட்சி—48` on PDF 49 was confirmed in its anomalous printed position and retained.
+Direct block retranscription was required for PDF 44, 45, 46, 48 and 49 because the first-pass prose was materially corrupted despite a readable scan.
+
+The scan visibly prints `காட்சி—48` on PDF 49 / printed p.48. This was initially retained as a source anomaly during the fidelity pass. A later editorial numbering review established that this is the misplaced/misprinted scene 43; the canonical correction is documented below.
 
 ## Batch 7 — PDF 52–57 / printed pp. 51–56
 
-Visual comparison completed for all six final canonical pages. PDF 52–54, containing the continuation of Gunasekaran's courtroom defence, were added to the direct-retranscription set because the first-pass wording was materially corrupted. PDF 55–57 required smaller source-form corrections. Final `காட்சி—43` on PDF 57 was visually confirmed and retained after scenes 46 and 47.
+Visual comparison completed for all six final canonical pages. PDF 52–54, containing the continuation of Gunasekaran's courtroom defence, were added to the direct-retranscription set because the first-pass wording was materially corrupted. PDF 55–57 required smaller source-form corrections.
+
+The scan visibly prints `காட்சி—43` on PDF 57 / printed p.56 after scenes 46 and 47. This was initially retained as printed during the fidelity pass. A later editorial numbering review established that this is the final scene 48; the canonical correction is documented below.
 
 No new genuinely unreadable Part 02 source span was found in Batches 5–7.
 
@@ -63,11 +67,34 @@ Applied:
 - all recorded Part 02 source-form corrections;
 - direct scan-led retranscription of the materially corrupted blocks on **PDF 42, 44, 45, 46, 48, 49, 52, 53 and 54**;
 - replacement of all six Part 02 uncertainty markers resolved from the scan;
-- preservation of the printed scene-order anomalies, including `காட்சி—48` on PDF 49 and final `காட்சி—43` on PDF 57;
 - promotion of all **22 Part 02 page anchors to `verified`**;
 - retention of PDF 58 as `paratext`, outside the canonical dialogue/song pagination.
 
-A post-rewrite repository check confirmed the Part 02 anchor sequence PDF 36–57, zero remaining Part 02 uncertainty markers, and the required scene-order boundaries.
+## Post-rewrite corrective verification
+
+The first consolidated Part 02 rewrite was followed by another enlarged visual check of the direct-retranscription pages and scene/page boundaries. That check found that several phrases in the first consolidated version—especially on **PDF 44–46 and PDF 52–54**—still did not reproduce the scan closely enough.
+
+Those blocks were re-read directly from enlarged source renders and corrected in the canonical file. The final corrective Part 02 commit is:
+
+`ac4828c60f9a69590f1fc6b2da17114f62c16d22`
+
+The post-correction state has:
+
+- **22 verified Part 02 page anchors**;
+- **0 Part 02 uncertainty markers**;
+- the nine source-led retranscription pages retained as PDF **42, 44, 45, 46, 48, 49, 52, 53, 54**;
+- all page boundaries and the closing sequence rechecked.
+
+## Editorial scene-number correction
+
+The source itself remains fully documented, but the visible canonical copy now corrects two scene-number misprints/transpositions:
+
+| Location | Printed booklet | Canonical copy | Reason |
+|---|---|---|---|
+| PDF 49 / printed p.48 | `காட்சி—48` | **`காட்சி—43`** | It follows scene 42 and precedes scene 44. |
+| PDF 57 / printed p.56 | `காட்சி—43` | **`காட்சி—48`** | It is the final scene after scenes 46 and 47. |
+
+These are **not silent corrections**. Hidden HTML comments immediately before the two canonical headings retain the printed source readings, and `mapping.md` records both the source and canonical numbering.
 
 ## Current cumulative state
 
@@ -79,6 +106,8 @@ A post-rewrite repository check confirmed the Part 02 anchor sequence PDF 36–5
 - Remaining explicit source uncertainties: **2**, both in Part 01 (PDF 5 and PDF 16)
 - Part 02 resolved markers pending apply: **0**
 - Part 02 corrections applied: **yes**
+- Part 02 post-rewrite corrective verification: **complete**
+- Canonical scene-number corrections: **PDF 49 source 48 → canonical 43; PDF 57 source 43 → canonical 48**
 - English translation remains blocked for the two `review` pages; verified pages are eligible under the repository's translation gate.
 
 No further fidelity-audit page remains in this scan. The two Part 01 uncertainties should remain explicit unless stronger source evidence becomes available.
