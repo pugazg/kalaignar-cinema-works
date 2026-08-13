@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-Current stage: **English translation in progress — canonical scenes 1–5 verified; scenes 6–10 in review**.
+Current stage: **English translation in progress — canonical scenes 1–10 verified; scenes 11–15 in review**.
 
 ## Canonical/source state — immutable
 
@@ -26,7 +26,7 @@ Never use English translation, film audio, subtitles, web copies or later editio
 - `works/parasakthi/translations/README.md`
 - `works/parasakthi/translations/schema.json`
 - `works/parasakthi/translations/index.json`
-- `works/parasakthi/translations/records/scene-01.json` through `scene-10.json`
+- `works/parasakthi/translations/records/scene-01.json` through `scene-15.json`
 
 Translation rules:
 
@@ -39,66 +39,70 @@ Translation rules:
 - Cross-page source records remain one translation unit where the source record is one unit.
 - English statuses (`draft`, `review`, `verified`) are independent from Tamil verification.
 
-## Verified English coverage — scenes 1–5
+## Verified English coverage — scenes 1–10
 
-The initial scene-1 pilot and the first full scenes-2–5 batch have passed deliberate second-pass review.
+Scenes **1–10** have passed deliberate second-pass review.
 
-- scenes verified: **1, 2, 3, 4, 5**
-- verified units: **70**
+- scenes verified: **1–10**
+- verified units: **136**
 
-Review refinements applied before verification:
+The scenes 6–10 review gate was completed **before** scenes 11–15 were created. The durable review checkpoint is `250f4ae975722c5d1a6dedb9a5dc81a783c3fedd`; comparison with the pre-review handover checkpoint showed modifications only within the English translation directory.
 
-- scene 2 `அண்ணியிடம் போதல்`: English no longer adds an unsupported possessive;
-- scene 2 `தங்கையின் வாழ்விலே பொன் விழா?`: question-shaped wording is preserved rather than normalized into a specific ceremony label;
-- scene 4 `மாங்குயில்`: English uses natural `cuckoo`; the Tamil remains unchanged;
-- scene 3's semantically unusual elder-brother sentence remains conservatively translated with an explicit note;
-- scene 5's compressed wartime newspaper syntax remains unresolved at source level and is not silently repaired in English.
+English-only review refinements in scenes 6–10 included:
 
-## Scenes 6–10 — second batch in review
+- scene 6: removing an unsupported `let's` and an unstated `she` from elliptical source lines;
+- scene 7: removing an unstated kinship address and the added phrase `to feed`;
+- scene 8: restoring source action `விழுந்து` in English and retaining the song's compressed syntax;
+- scene 9: changing `all morning` to `this morning` while keeping source anomalies explicitly documented;
+- scene 10: retaining contextual hospital `bed` for `பெட்டிலே` in English only and avoiding invented bombing injuries.
 
-New review units: **66**.
+No canonical Tamil or immutable structured source derivative was changed.
+
+## Scenes 11–15 — current review batch
+
+New review units: **88**.
 
 Per-scene counts:
 
-- scene 6 — **22**: 19 dialogue + 3 stage directions;
-- scene 7 — **24**: 22 dialogue + 2 stage directions;
-- scene 8 — **10**: 5 dialogue + 4 stage directions + 1 song;
-- scene 9 — **1**: one long cross-page dialogue;
-- scene 10 — **9**: 7 dialogue + 2 stage directions.
+- scene 11 — **3**: 2 dialogue + 1 stage direction;
+- scene 12 — **10**: 7 dialogue + 2 stage directions + 1 song;
+- scene 13 — **32**: 26 dialogue + 6 stage directions;
+- scene 14 — **19**: 16 dialogue + 3 stage directions;
+- scene 15 — **24**: 16 dialogue + 6 stage directions + 2 songs.
 
 Cumulative translation state:
 
-- scenes started: **1–10**
-- scenes verified: **1–5**
-- scenes in review: **6–10**
-- translation units: **136**
-- verified: **70**
-- review: **66**
-- kinds: **109 dialogue / 24 stage direction / 3 song / 0 quoted verse**
-- cross-page translation units: `parasakthi-en-s001-u004`, `parasakthi-en-s008-u002`, `parasakthi-en-s009-u001`
+- scenes started: **1–15**
+- scenes verified: **1–10**
+- scenes in review: **11–15**
+- translation units: **224**
+- verified: **136**
+- review: **88**
+- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**
+- cross-page translation units: `parasakthi-en-s001-u004`, `parasakthi-en-s008-u002`, `parasakthi-en-s009-u001`, `parasakthi-en-s013-u028`, `parasakthi-en-s015-u023`
 
-### Review-sensitive decisions in the new batch
+### Review-sensitive decisions in the current batch
 
-- Scene 6: `முழுகாதிருக்கிற பெண்ணு` is rendered `a woman in her condition` as a contextual pregnancy euphemism; do not modernize the Tamil source.
-- Scene 7: preserve the source's explicit references to begging/prostitution and Gunasekaran's irony about Tamil Nadu's `first voice`.
-- Scene 8: `parasakthi-song-003` is one semantic-poetic unit across PDF 11→12. The compressed sequence around `பெண்களின் வாழ்க்கையை இழந்தவர்கள் கோடி` is deliberately flagged for review.
-- Scene 9: `parasakthi-s009-d001` remains one English unit across PDF 12→13 with `english_page_segments`. The source `வங்கத்திலே` is semantically anomalous in context; current English uses context-neutral `in this land` and documents the choice. `தகுதி? போக்கியதை?` is also review-sensitive.
-- Scene 10: source `பெட்டிலே` is rendered contextually as hospital `bed` only in English, with a note.
+- **Scene 11:** preserve unusual `வில்லுக்கொத்து போல`; verify the English handling of Kalyani's cash and sold jewellery without rewriting the Tamil.
+- **Scene 12:** `parasakthi-song-004` / `பூமாலை` remains semantic-poetic; `வந்தேன் தவழ்ந்தாய்?`, `பாரான`, `தாலி அறுத்தவர்கள்`, and `தாசில் உத்தியோகம்` remain explicitly review-sensitive.
+- **Scene 13:** preserve Marwari-shop dialect/code-switching without caricature; preserve `தம்பி முறை` kinship wordplay; keep d023 one PDF 16→17 unit; do not repair fragmentary d024.
+- **Scene 14:** review `மாப்கரோஜ்` / `ரோஜ்` sound-play and `நாணயம்` as creditworthiness/reliability.
+- **Scene 15:** retain unexplained `பாரா-2` transparently; preserve the Mariamman ritual image and Gunasekaran's social rhetoric; keep `parasakthi-song-005` and `parasakthi-song-006` as separate source occurrences even though both belong to soundtrack track 1.
 
 ## Exact next work
 
-Perform the second-pass fidelity/editorial review of all **66 units in scenes 6–10**:
+Perform the second-pass fidelity/editorial review of all **88 units in scenes 11–15**:
 
-1. verify ordering and source links against `scenes/scene-06.md` through `scene-10.md`;
-2. verify all dialogue IDs, exact labels and page provenance against `dialogues/records/scene-06.json` through `scene-10.json`;
-3. review scene 6's euphemistic/colloquial lines without flattening tone;
-4. review scene 7's social vocabulary and Jolly dialogue without moral/editorial rewriting;
-5. review scene 8's song carefully against `songs/tracks/06-o-rasikkum-seemane.md`, especially its compressed third stanza;
-6. review scene 9's full rhetorical monologue, source anomalies and PDF 12→13 page split;
-7. review scene 10's hospital vocabulary and grief dialogue;
-8. alter English only when the review identifies a translation problem;
-9. if accepted, mark scenes 6–10 and all 66 units `verified`;
-10. then begin the next translation batch with canonical **scenes 11–15**.
+1. verify ordering and source links against `scenes/scene-11.md` through `scene-15.md`;
+2. verify all dialogue IDs, exact labels and page provenance against `dialogues/records/scene-11.json` through `scene-15.json`;
+3. verify stage-direction locators and ensure no action was invented;
+4. verify `parasakthi-song-004`, `parasakthi-song-005` and `parasakthi-song-006` against the verified Tamil track derivatives and song inventory;
+5. review each documented pressure point without normalizing the Tamil;
+6. alter English only when the review identifies a genuine translation problem;
+7. if accepted, mark scenes 11–15 and all 88 units `verified`;
+8. synchronize translation/status manifests and handovers;
+9. compare the resulting HEAD against the current checkpoint to confirm source/Tamil derivative immutability;
+10. only then begin canonical **scenes 16–20**.
 
 ## Overall status
 
@@ -106,4 +110,4 @@ Perform the second-pass fidelity/editorial review of all **66 units in scenes 6�
 - Canonical Tamil: verified
 - Tamil fidelity audit: complete
 - Scene/dialogue/character/song Tamil derivatives: complete as documented above
-- English translation: **in-progress-review — scenes 1–10 / 136 units / scenes 1–5 verified**
+- English translation: **in-progress-review — scenes 1–15 / 224 units / scenes 1–10 verified / scenes 11–15 review**
