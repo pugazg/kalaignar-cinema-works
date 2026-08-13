@@ -33,18 +33,18 @@ Source-linked English records live under [`translations/`](translations/). There
 Current checkpoint:
 
 - status: **in-progress-verified**
-- scenes started: **1–15**
-- scenes verified: **1–15**
+- scenes started: **1–20**
+- scenes verified: **1–20**
 - scenes in review: **none**
-- translation units: **224**
-- verified: **224**
+- translation units: **311**
+- verified: **311**
 - review: **0**
-- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**
+- kinds: **250 dialogue / 54 stage direction / 7 song / 0 quoted verse**
 
-The scenes 11–15 second-pass review is complete. All **88** units passed after English-only refinements in scenes 13–15; no Tamil/source file was changed.
+The scenes 16–20 second-pass review is complete. All **87** units passed after English-only refinements; no Tamil/source file was changed.
 
-Documented source pressure points remain visible rather than normalized: scene 11's `வில்லுக்கொத்து போல` simile, scene 12's `பூமாலை` source anomalies and widowhood vocabulary, scene 13's dialect/kinship language and PDF 16→17 cross-page rhetoric, scene 14's `மாப்கரோஜ்` sound-play, and scene 15's unexplained `பாரா-2` plus the two separately identified occurrences of soundtrack track 1.
+The verified scene-17 lullaby remains one PDF **21→22** semantic-poetic unit linked to `parasakthi-song-007`. Scene 19's four unlabelled performance blocks remain source-located translation units without invented dialogue IDs, soundtrack occurrences or authorship. Source ambiguities and opaque forms in scenes 18–20 remain documented rather than repaired through English.
 
 ## Next activity
 
-Create the next source-linked English translation batch for canonical **scenes 16–20** at `review` status, then perform the same deliberate second-pass review before verification.
+Create the next source-linked English review batch for canonical **scenes 21–25**, using only observed scenes **21, 22, 24 and 25**. Canonical **scene 23 is absent and must not be invented**. Then perform the same deliberate second-pass review before verification.
