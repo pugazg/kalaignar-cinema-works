@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Character-index pilot is verified. Expand evidence-backed mappings across the remaining 51 exact source speaker labels without modifying dialogue records."
+  next_action: "Character index is complete-verified with explicit disposition for all 69 exact source labels. Next structured derivative: per-song authorship mapping before song-specific extraction or translation."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -191,19 +191,27 @@ structured_derivatives:
     next_batch: null
     note: "Dialogue indexing is complete for all observed scenes. Canonical scene 43 retains source heading 48, canonical scene 48 retains source heading 43, and scene 48 correctly has zero records because its closing material is unlabelled song/back-of-work text."
   character_index:
-    status: pilot-verified
+    status: complete-verified
     path: "characters/index.json"
     schema: "characters/schema.json"
     readme: "characters/README.md"
     label_inventory: "characters/labels-inventory.json"
     pilot: "characters/entities-pilot.json"
+    entities: "characters/entities.json"
     dialogue_records_source: 642
     distinct_source_labels: 69
-    pilot_entities: 8
-    pilot_mapped_labels: 18
-    remaining_unmapped_labels: 51
+    entity_count: 48
+    verified_entities: 46
+    review_entities: 1
+    unresolved_entities: 1
+    verified_labels: 66
+    review_labels: 1
+    unresolved_labels: 2
+    review_source_labels: ["ராக"]
+    unresolved_source_labels: ["நொண்டி", "நொ"]
+    remaining_unmapped_labels: 0
     dialogue_records_modified: false
-    next_action: "Expand mappings across the remaining 51 exact source labels. Resolve evidence-backed named/role entities and preserve ambiguous labels as unresolved."
+    next_action: "Begin per-song authorship mapping. The booklet lists multiple lyric contributors, so resolve each song/verse block before creating song-specific files or translations."
 
 status:
   structural_mapping: verified
@@ -212,6 +220,6 @@ status:
   scene_index: complete
   scene_text_derivatives: complete
   dialogue_index: complete-verified
-  character_index: pilot-verified
+  character_index: complete-verified
   song_authorship_mapping: not-started
   english_translation: not-started
