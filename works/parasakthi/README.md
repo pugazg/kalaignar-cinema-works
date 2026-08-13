@@ -45,7 +45,7 @@ The visible canonical transcription corrects those two headings to **43** and **
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Structured scene index: **complete — 46 records**
 - Individual scene-text derivatives: **complete — 46/46 observed scenes**
-- Dialogue index: **not-started — next structured derivative**
+- Dialogue index: **pilot verified — 42 records across scenes 1–2**
 - Character index: **not-started**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started; the verified Tamil source is ready for derivative translation work**
@@ -73,15 +73,7 @@ The repository is in the post-verification **structured derivatives** stage defi
 - derivative scene files copy only from the verified canonical Tamil and retain page anchors;
 - a scene boundary follows the next observed scene heading, not an artificial transcription-part boundary.
 
-Five extraction batches are complete:
-
-- scenes 1–10
-- scenes 11–20
-- scenes 21, 22, 24, 25, 26, 27, 28, 29 and 30
-- scenes 31, 32, 33, 35, 36, 37, 38, 39 and 40
-- scenes 41–48
-
-That is **46 / 46 observed scene files complete**.
+Five scene extraction batches are complete, covering all **46 / 46 observed scene files**.
 
 ### Scene 30 cross-part continuity
 
@@ -97,6 +89,21 @@ Scene 33 begins on PDF 38 / printed p.37 and continues across PDF 39, 40, 41 and
 - `scenes/scene-48.md` is canonical final scene **48** beginning on PDF 57 / printed p.56, while its provenance records that the booklet prints source heading **43**.
 - `scene-48.md` ends with `—சுபம்—` and the printer line and excludes PDF 58 rear advertisement/back matter.
 
-## Next structured derivative
+## Dialogue index
 
-The next activity is to define and build a **dialogue index** from the verified canonical/scene text. Dialogue records should preserve exact speaker labels and dialogue wording and retain canonical scene plus PDF/printed-page provenance. Stage directions, songs and other narrative material should remain distinguishable rather than being silently converted into dialogue records.
+[`dialogues/README.md`](dialogues/README.md) and [`dialogues/schema.json`](dialogues/schema.json) define the deterministic dialogue-record layer. [`dialogues/index.json`](dialogues/index.json) currently contains the verified pilot for **scenes 1–2: 42 dialogue records**.
+
+The pilot confirms these rules:
+
+- exact speaker labels are preserved without expansion or normalization;
+- only speaker-labelled utterances become dialogue records;
+- unlabelled songs and standalone stage directions remain excluded;
+- parenthetical text inside a speaker-labelled utterance remains part of the dialogue text;
+- a dialogue utterance crossing a page boundary remains one record with all page provenance retained;
+- scene 43 / 48 source-heading differences will be carried forward when those scenes are indexed.
+
+The first cross-page record is `parasakthi-s001-d001`: the `தங்கப்பன்` utterance spans PDF 4 / printed p.3 and PDF 5 / printed p.4 and is represented as one dialogue record with two page segments.
+
+## Next dialogue batch
+
+Extract and verify dialogue records for **canonical scenes 3–10** using the fixed pilot schema. Do not modify the schema unless a genuinely new source structure requires a documented change.
