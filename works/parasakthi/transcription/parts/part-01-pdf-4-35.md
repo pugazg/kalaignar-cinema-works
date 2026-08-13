@@ -1,11 +1,11 @@
 # பராசக்தி — canonical Tamil transcription
 
-**Status:** `review` — fidelity audit complete for PDF 4–35; two source uncertainties remain.
+**Status:** `verified` — fidelity audit complete for PDF 4–35; no unresolved source reading remains.
 
 Source: `TVA_BOK_0062968_பராசக்தி.pdf`  
 SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 
-Canonical transcription follows the printed source order documented in [`../mapping.md`](../mapping.md). Page status is recorded independently in each source anchor. Pages marked `verified` have been visually checked against the scan with no unresolved reading; pages marked `review` have been visually checked but retain an explicit source uncertainty.
+Canonical transcription follows the printed source order documented in [`../mapping.md`](../mapping.md). Page status is recorded independently in each source anchor. Pages marked `verified` have been visually checked against the scan with no unresolved reading.
 
 <!-- source: pdf=4 printed=3 status=verified -->
 
@@ -42,7 +42,7 @@ Canonical transcription follows the printed source order documented in [`../mapp
 
 தங்கப்பன்: (மாப்பிள்ளை பெரியோர்களே இதுவரையில் புதுமையின் குரல் புதுமையாட்டத்துடன் கலந்து ரசித்தீர்கள். இத்தகைய எழில்மிக்க நாட்டின் குழந்தைகள் இந்த மண் மாதாவின் மடியிலே தவழாமல் வேறு நாடு சென்று வருகின்றனர். இதை நினைக்கும் போது நமது அறிவர் சொன்னது ஞாபகத்திற்கு வருகிறது. கடல் நீர் ஏன் உப்பாக இருக்கிறது காரணம் கற்பனையாக சொல்லப்போனால்...சொந்த நாட்டிலே பிழைக்க வழி இல்லாமல் அயல்நாடு சென்று தமிழர்கள் அழுது வடித்த கண்ணீர்தான் காரணம் என்றார். அவ்வளவு
 
-<!-- source: pdf=5 printed=4 status=review -->
+<!-- source: pdf=5 printed=4 status=verified -->
 
 ஏன்? இதோ நான் திருமணம் செய்து கொள்ளப் போகும் திருமதி கல்யாணி தன் சகோதரர்களின் முகத்தையே பார்த்ததில்லையாம்! அவ்வளவு இளமையிலேயே அவர்கள் இரங்கூன் சென்றுவிட்டனர். அவர்கள் மட்டுமல்ல! எத்தனையோ லட்சக் கணக்கான இளைஞர்கள். எத்தனையோ குடும்பங்கள்! மலேயாவின் ரப்பர் தோட்டத்திலே! ஆப்பிரிக்காவிலே, இலங்கை தீவிலே அவர்கள் எல்லாம் நம் திரு நாட்டுக்குத் திரும்ப வேண்டும். அதைத்தான் இந்த அழகிய பாடலும் நமக்கு நினைவூட்டுகிறது.)
 
@@ -74,7 +74,7 @@ Canonical transcription follows the printed source order documented in [`../mapp
 
 சந் : டிக்கட் புக் பண்ணச் சொல்லி போன் பண்ணி இருக்கிறேன். பதில் இப்போ வந்திடும். (அண்ணியிடம் போதல்)
 
-குண : அண்ணி! குட் நியூஸ்! கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?
+குண : அண்ணி! குட் நியூஸ்! கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?
 
 <!-- source: pdf=6 printed=5 status=verified -->
 
@@ -459,7 +459,7 @@ Canonical transcription follows the printed source order documented in [`../mapp
 
 வீட்டுக் : பணம் பெட்டியெல்லாம் திருட்டுப் போயிட்டா போலீஸ் ஸ்டேஷனிலே ரிப்போர்ட் பண்ணு.
 
-<!-- source: pdf=16 printed=15 status=review -->
+<!-- source: pdf=16 printed=15 status=verified -->
 
 குண : மதுரைக்குப் போகணும் ஏதாவது...
 
@@ -495,7 +495,7 @@ Canonical transcription follows the printed source order documented in [`../mapp
 
 போலீஸ் : யாரையடா சொல்றே?
 
-குண : உங்களச் சொல்லலீங்க முதுகெலும்பு ஒடிய ஒடிய மூட்டை வண்டி இழுக்கிறேனே...குதிரைக்கு பதிலாக ⟦நாப்பு?⟧ தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக் கூனிப் போயிருக்
+குண : உங்களச் சொல்லலீங்க முதுகெலும்பு ஒடிய ஒடிய மூட்டை வண்டி இழுக்கிறேனே...குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக் கூனிப் போயிருக்
 
 <!-- source: pdf=17 printed=16 status=verified -->
 
@@ -1277,8 +1277,8 @@ Canonical transcription follows the printed source order documented in [`../mapp
 ## Fidelity-audit coverage
 
 - Audited and consolidated: PDF **4–35** / printed pages **3–34**.
-- Page status: **30 verified, 2 review**.
-- Remaining source uncertainties: **PDF 5 and PDF 16** only.
-- Ten previously marked readings were resolved directly from the scan during the audit.
+- Page status: **32 verified, 0 review**.
+- Remaining source uncertainties: **none**.
+- Twelve previously marked readings were resolved directly from the scan/reviewer-assisted source reading during the audit.
 - The omitted `காட்சி—3` opening block on PDF 7 and omitted lyric stanza on PDF 12 have been restored in source position.
-- Next fidelity-audit page: PDF **36** / printed page **35**.
+- Part 01 is fully verified.
