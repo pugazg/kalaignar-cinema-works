@@ -28,17 +28,17 @@ Completed source/Tamil derivatives:
 - Tamil soundtrack files: **11/11 complete-verified**;
 - separate quoted verse: **1**.
 
-English translation is now source-linked through canonical **scene 15**:
+English translation is now source-linked and verified through canonical **scene 15**:
 
-- scenes **1–10 verified**;
-- scenes **11–15 in review**;
+- scenes **1–15 verified**;
+- scenes in review: **none**;
 - **224 translation units total**;
-- **136 verified / 88 review**;
+- **224 verified / 0 review**;
 - **176 dialogue / 42 stage direction / 6 song** units.
 
-The scenes 6–10 second-pass review is complete. Scene 9's long Gunasekaran monologue remains one verified PDF **12→13** unit, and scene 8's song remains one verified semantic-poetic PDF **11→12** unit. The new review batch preserves scene 13's cross-page PDF **16→17** dialogue and scene 15's two distinct source occurrences belonging to soundtrack track 1. Review notes expose source ambiguities instead of using English to repair Tamil.
+The scenes 11–15 second-pass review is complete. Source anomalies, dialect, code-switching, cross-page segmentation and song-occurrence boundaries remain explicitly documented instead of being repaired through English.
 
-**Next:** second-pass review scenes **11–15**; do not begin scenes **16–20** until that review is complete.
+**Next:** create the source-linked English review batch for scenes **16–20**, then perform the same deliberate second-pass review before verification.
 
 ## Status vocabulary
 
