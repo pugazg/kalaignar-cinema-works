@@ -2,108 +2,18 @@
   "work_id": "parasakthi",
   "target_language": "en",
   "canonical_scene": 3,
-  "scene_status": "review",
+  "scene_status": "verified",
   "unit_count": 10,
   "units": [
-    {
-      "id": "parasakthi-en-s003-u001",
-      "kind": "stage-direction",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {
-        "source_path": "works/parasakthi/scenes/scene-03.md",
-        "canonical_scene_path": "works/parasakthi/scenes/scene-03.md",
-        "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Opening direction after the scene-3 heading."},
-        "page_provenance": [{"pdf_page": 7, "printed_page": 6}]
-      },
-      "translation": {"english_text": "(In Madurai, Kalyani, dressed as a bride, stands before a mirror, weeping...)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u002",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d001", "speaker_label": "கல்யாணி", "page_provenance": [{"pdf_page": 7, "printed_page": 6}]},
-      "translation": {"english_text": "Brother, have you forgotten me? I was not blessed with a mother to call 'Amma'; I thought at least I had you to call 'Anna.' They say that for a girl to be born with even one elder brother is a great sorrow; though I have three elder brothers, not one has come to see my wedding...", "mode": "prose-faithful", "notes": ["The source sentence `உலகில் ஒரு அண்ணன் இருந்து பெண்ணைப் பிறந்தால் பெரும் துயர் என்பார்கள்` is semantically unusual; it is translated conservatively without silently repairing the Tamil."]}
-    },
-    {
-      "id": "parasakthi-en-s003-u003",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d002", "speaker_label": "பார்", "page_provenance": [{"pdf_page": 7, "printed_page": 6}]},
-      "translation": {"english_text": "Kalyani! Don't cry, dear! It's the circumstances—it's happened to everyone... they'll come...", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u004",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d003", "speaker_label": "கல்", "page_provenance": [{"pdf_page": 7, "printed_page": 6}]},
-      "translation": {"english_text": "Circumstances? No—my fate.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u005",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d004", "speaker_label": "மாணிக்கம்", "page_provenance": [{"pdf_page": 7, "printed_page": 6}]},
-      "translation": {"english_text": "Kalyani, don't be upset. Your brothers will come somehow. It's getting late; come.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u006",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d005", "speaker_label": "கல்", "page_provenance": [{"pdf_page": 8, "printed_page": 7}]},
-      "translation": {"english_text": "Father, how many days I waited, thinking my brothers would come. Even now, not one brother has come to see me in my bridal attire?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u007",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d006", "speaker_label": "மாணிக்", "page_provenance": [{"pdf_page": 8, "printed_page": 7}]},
-      "translation": {"english_text": "They'll come, dear! If not today, they'll come tomorrow. Don't cry, dear.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u008",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d007", "speaker_label": "கல்", "page_provenance": [{"pdf_page": 8, "printed_page": 7}]},
-      "translation": {"english_text": "Father, what if we postpone the wedding?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s003-u009",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-03.json", "canonical_scene_path": "works/parasakthi/scenes/scene-03.md", "source_record_id": "parasakthi-s003-d008", "speaker_label": "மாணிக்", "page_provenance": [{"pdf_page": 8, "printed_page": 7}]},
-      "translation": {"english_text": "The priest fixed this day, dear. If we miss it, there'll be a dispute. Come—everyone is waiting.", "mode": "prose-faithful", "notes": ["`ஐயர்` is rendered contextually as `the priest`; no caste/title normalization is made in source metadata."]}
-    },
-    {
-      "id": "parasakthi-en-s003-u010",
-      "kind": "stage-direction",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 3,
-      "source": {
-        "source_path": "works/parasakthi/scenes/scene-03.md",
-        "canonical_scene_path": "works/parasakthi/scenes/scene-03.md",
-        "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 2, "description": "Closing direction after the final exchange."},
-        "page_provenance": [{"pdf_page": 8, "printed_page": 7}]
-      },
-      "translation": {"english_text": "(The wedding takes place happily.)", "mode": "prose-faithful", "notes": []}
-    }
+    {"id":"parasakthi-en-s003-u001","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/scenes/scene-03.md","source_locator":{"kind":"scene-parenthetical-block","ordinal":1,"description":"Opening direction after the scene-3 heading."},"page_provenance":[{"pdf_page":7,"printed_page":6}]},"translation":{"english_text":"(In Madurai, Kalyani, dressed as a bride, stands before a mirror, weeping...)","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u002","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d001","speaker_label":"கல்யாணி","page_provenance":[{"pdf_page":7,"printed_page":6}]},"translation":{"english_text":"Brother, have you forgotten me? I was not blessed with a mother to call 'Amma'; I thought at least I had you to call 'Anna.' They say that for a girl to be born with even one elder brother is a great sorrow; though I have three elder brothers, not one has come to see my wedding...","mode":"prose-faithful","notes":["The source sentence `உலகில் ஒரு அண்ணன் இருந்து பெண்ணைப் பிறந்தால் பெரும் துயர் என்பார்கள்` is semantically unusual; it is translated conservatively without silently repairing the Tamil."]}},
+    {"id":"parasakthi-en-s003-u003","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d002","speaker_label":"பார்","page_provenance":[{"pdf_page":7,"printed_page":6}]},"translation":{"english_text":"Kalyani! Don't cry, dear! It's the circumstances—it's happened to everyone... they'll come...","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u004","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d003","speaker_label":"கல்","page_provenance":[{"pdf_page":7,"printed_page":6}]},"translation":{"english_text":"Circumstances? No—my fate.","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u005","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d004","speaker_label":"மாணிக்கம்","page_provenance":[{"pdf_page":7,"printed_page":6}]},"translation":{"english_text":"Kalyani, don't be upset. Your brothers will come somehow. It's getting late; come.","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u006","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d005","speaker_label":"கல்","page_provenance":[{"pdf_page":8,"printed_page":7}]},"translation":{"english_text":"Father, how many days I waited, thinking my brothers would come. Even now, not one brother has come to see me in my bridal attire?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u007","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d006","speaker_label":"மாணிக்","page_provenance":[{"pdf_page":8,"printed_page":7}]},"translation":{"english_text":"They'll come, dear! If not today, they'll come tomorrow. Don't cry, dear.","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u008","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d007","speaker_label":"கல்","page_provenance":[{"pdf_page":8,"printed_page":7}]},"translation":{"english_text":"Father, what if we postpone the wedding?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s003-u009","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/dialogues/records/scene-03.json","source_record_id":"parasakthi-s003-d008","speaker_label":"மாணிக்","page_provenance":[{"pdf_page":8,"printed_page":7}]},"translation":{"english_text":"The priest fixed this day, dear. If we miss it, there'll be a dispute. Come—everyone is waiting.","mode":"prose-faithful","notes":["`ஐயர்` is rendered contextually as `the priest`; source metadata is not normalized."]}},
+    {"id":"parasakthi-en-s003-u010","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":3,"source":{"source_path":"works/parasakthi/scenes/scene-03.md","source_locator":{"kind":"scene-parenthetical-block","ordinal":2,"description":"Closing direction after the final exchange."},"page_provenance":[{"pdf_page":8,"printed_page":7}]},"translation":{"english_text":"(The wedding takes place happily.)","mode":"prose-faithful","notes":[]}}
   ]
 }
