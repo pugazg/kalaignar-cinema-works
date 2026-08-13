@@ -50,9 +50,11 @@ The source contains **46 observed scene headings**; scenes 23 and 34 are absent.
 
 The scene derivative layer is **46/46 complete**.
 
-The **dialogue index is verified through scenes 1–20**, currently totaling **253 speaker-labelled dialogue records** stored under `works/parasakthi/dialogues/records/`. The fixed schema preserves exact speaker labels, exact Tamil text and PDF/printed-page provenance. Three dialogue records currently cross page boundaries: scenes 1, 9 and 13.
+The **dialogue index is now verified for 29 observed scenes — canonical scenes 1–22 and 24–30 — with 413 speaker-labelled records** stored under `works/parasakthi/dialogues/records/`. Four dialogue records currently cross page boundaries: scenes 1, 9, 13 and 28. Scenes 26 and 29 have valid zero-record dialogue files because they contain no explicitly speaker-labelled utterance.
 
-The next dialogue batch covers observed scenes **21, 22 and 24–30**; scene 23 remains absent.
+This stage also records source punctuation anomalies without normalizing the canonical Tamil: scene 21's final `கல் !` line and two scene 25 `சி. ஜி. டி.` lines are explicitly speaker-labelled despite lacking the usual colon delimiter.
+
+The next dialogue batch covers observed scenes **31, 32, 33 and 35–40**; scene 34 remains absent.
 
 English translation may begin later as a separate derivative. Per-song authorship remains a separate gate because the booklet credits multiple lyric contributors.
 

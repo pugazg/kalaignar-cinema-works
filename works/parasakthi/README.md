@@ -34,7 +34,7 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Remaining source uncertainties: **0**
 - Scene index: **complete — 46 records**
 - Individual scene derivatives: **complete — 46/46 observed scenes**
-- Dialogue index: **in-progress-verified — 253 records across scenes 1–20**
+- Dialogue index: **in-progress-verified — 413 records across 29 observed scenes**
 - Character index: **not-started**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started**
@@ -56,16 +56,33 @@ The scan controls the Tamil. Film audio, subtitles, later editions, web quotatio
 
 [`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the compact checkpoint; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
 
-Dialogue extraction is verified through **scene 20**, totaling **253 records**. The scenes 11–20 batch added **136 records**.
+Dialogue extraction is now verified for canonical scenes **1–22 and 24–30**, totaling **413 records**. Scene 23 remains absent.
+
+The observed 21–30 batch added **160 records**:
+
+- scene 21: 40
+- scene 22: 11
+- scene 24: 6
+- scene 25: 26
+- scene 26: 0
+- scene 27: 3
+- scene 28: 48
+- scene 29: 0
+- scene 30: 26
+
+Scenes 26 and 29 contain no explicitly speaker-labelled utterances, so their dialogue files correctly contain zero records.
 
 Current cross-page records are:
 
 - `parasakthi-s001-d001` — PDF 4→5;
 - `parasakthi-s009-d001` — PDF 12→13;
-- `parasakthi-s013-d023` — PDF 16→17.
+- `parasakthi-s013-d023` — PDF 16→17;
+- `parasakthi-s028-d023` — PDF 33→34.
 
-Dialogue extraction preserves exact speaker labels and Tamil wording. Only explicitly speaker-labelled material is indexed. Unlabelled songs, verse, stage directions and prose remain excluded even where context makes the speaker apparent; explicitly labelled sung/verse material remains eligible as dialogue.
+This batch also exposed three explicit speaker-label punctuation anomalies. Scene 21's final `கல் ! ...` line and two scene 25 `சி. ஜி. டி.` lines omit the normal colon delimiter. They are indexed as explicit labelled utterances without changing the canonical Tamil; the anomaly is recorded in their scene-record wrappers and dialogue README.
+
+Scene 30 remains intentionally cross-part: its first dialogue is on PDF 35 and the rest continue on PDF 36.
 
 ## Next dialogue batch
 
-Extract the next observed scenes in the **21–30 range**: **21, 22, 24, 25, 26, 27, 28, 29 and 30**. Scene 23 is absent and must not be created.
+Extract the next observed scenes in the **31–40 range**: **31, 32, 33, 35, 36, 37, 38, 39 and 40**. Scene 34 is absent and must not be created.

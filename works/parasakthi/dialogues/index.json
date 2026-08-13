@@ -4,17 +4,23 @@
   "record_schema": "schema.json",
   "status": "in-progress-verified",
   "storage": "scene-sharded",
-  "dialogue_records": 253,
-  "scenes_completed": 20,
+  "dialogue_records": 413,
+  "scenes_completed": 29,
   "scenes_expected": 46,
-  "completed_scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "completed_scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30],
   "headings_not_observed": [23, 34],
   "cross_page_records": [
     "parasakthi-s001-d001",
     "parasakthi-s009-d001",
-    "parasakthi-s013-d023"
+    "parasakthi-s013-d023",
+    "parasakthi-s028-d023"
   ],
-  "next_scene_batch": "observed scenes 21-30; scene 23 absent",
+  "source_label_anomaly_records": [
+    "parasakthi-s021-d040",
+    "parasakthi-s025-d011",
+    "parasakthi-s025-d017"
+  ],
+  "next_scene_batch": "observed scenes 31-40; scene 34 absent",
   "scene_files": [
     {"canonical_scene": 1, "source_scene_heading": 1, "file": "records/scene-01.json", "record_count": 1},
     {"canonical_scene": 2, "source_scene_heading": 2, "file": "records/scene-02.json", "record_count": 41},
@@ -35,6 +41,15 @@
     {"canonical_scene": 17, "source_scene_heading": 17, "file": "records/scene-17.json", "record_count": 1},
     {"canonical_scene": 18, "source_scene_heading": 18, "file": "records/scene-18.json", "record_count": 11},
     {"canonical_scene": 19, "source_scene_heading": 19, "file": "records/scene-19.json", "record_count": 11},
-    {"canonical_scene": 20, "source_scene_heading": 20, "file": "records/scene-20.json", "record_count": 36}
+    {"canonical_scene": 20, "source_scene_heading": 20, "file": "records/scene-20.json", "record_count": 36},
+    {"canonical_scene": 21, "source_scene_heading": 21, "file": "records/scene-21.json", "record_count": 40},
+    {"canonical_scene": 22, "source_scene_heading": 22, "file": "records/scene-22.json", "record_count": 11},
+    {"canonical_scene": 24, "source_scene_heading": 24, "file": "records/scene-24.json", "record_count": 6},
+    {"canonical_scene": 25, "source_scene_heading": 25, "file": "records/scene-25.json", "record_count": 26},
+    {"canonical_scene": 26, "source_scene_heading": 26, "file": "records/scene-26.json", "record_count": 0},
+    {"canonical_scene": 27, "source_scene_heading": 27, "file": "records/scene-27.json", "record_count": 3},
+    {"canonical_scene": 28, "source_scene_heading": 28, "file": "records/scene-28.json", "record_count": 48},
+    {"canonical_scene": 29, "source_scene_heading": 29, "file": "records/scene-29.json", "record_count": 0},
+    {"canonical_scene": 30, "source_scene_heading": 30, "file": "records/scene-30.json", "record_count": 26}
   ]
 }
