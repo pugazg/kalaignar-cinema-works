@@ -1,0 +1,22 @@
+{
+  "work_id": "parasakthi",
+  "source_pdf_page": 3,
+  "source_section_heading": "பாடல்கள்",
+  "scope": "booklet-wide",
+  "as_printed_lines": [
+    "பாரதியார், பாரதிதாசன், உடுமலை நாராயணகவி",
+    "மு. கருணாநிதி, கே. பி. காமாட்சி சுந்தரம்",
+    "கு. ம. அண்ணல்தங்கோ"
+  ],
+  "contributors_as_printed": [
+    "பாரதியார்",
+    "பாரதிதாசன்",
+    "உடுமலை நாராயணகவி",
+    "மு. கருணாநிதி",
+    "கே. பி. காமாட்சி சுந்தரம்",
+    "கு. ம. அண்ணல்தங்கோ"
+  ],
+  "item_level_assignment_present": false,
+  "authorship_rule": "These are booklet-wide song credits only. Do not assign any contributor to an individual song/verse block unless the booklet context explicitly identifies that item or a separately documented reliable source establishes authorship.",
+  "source_note": "Transcribed directly from the scanned credits page; this file records credit metadata only and does not alter canonical Tamil."
+}
