@@ -115,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Source-faithful Tamil soundtrack derivatives are complete: 11/11 composition files plus one separate Bharathidasan quoted-verse derivative. Next begin English translation as a source-linked derivative with a schema and small pilot."
+  next_action: "English translation pilot for canonical scene 1 is source-linked and in review: 4 units covering two stage directions, the `வாழ்க வாழ்கவே` song, and cross-page dialogue `parasakthi-s001-d001`. Review the pilot for translation fidelity; if accepted, verify it and begin scenes 2-5."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -253,6 +253,29 @@ structured_derivatives:
       directory: "songs/quoted-verses"
       completed_files: 1
     next_action: null
+  english_translation:
+    status: pilot-review
+    target_language: en
+    path: "translations/index.json"
+    schema: "translations/schema.json"
+    readme: "translations/README.md"
+    record_directory: "translations/records"
+    pilot_scene: 1
+    scenes_started: [1]
+    scenes_verified: []
+    translation_units: 4
+    unit_status_counts:
+      draft: 0
+      review: 4
+      verified: 0
+    unit_kind_counts:
+      stage_direction: 2
+      song: 1
+      dialogue: 1
+      quoted_verse: 0
+    cross_page_units: ["parasakthi-en-s001-u004"]
+    source_layers_modified: false
+    next_action: "Review scene-1 pilot; if accepted, mark the four units verified and translate canonical scenes 2-5."
 
 status:
   structural_mapping: verified
@@ -264,4 +287,4 @@ status:
   character_index: complete-verified
   song_authorship_mapping: complete-verified
   song_tamil_derivatives: complete-verified
-  english_translation: not-started
+  english_translation: pilot-review
