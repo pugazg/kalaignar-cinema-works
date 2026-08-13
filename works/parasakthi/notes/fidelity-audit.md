@@ -3,7 +3,7 @@
 Source: `TVA_BOK_0062968_பராசக்தி.pdf`  
 SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 
-This ledger records the second-pass visual comparison of the canonical Tamil draft against the scan. The scan alone controls textual corrections. Film subtitles, web quotations, later transcriptions, and memory are not used to repair the text.
+This ledger records the second-pass visual comparison of the canonical Tamil draft against the scan. The scan controls textual corrections. Film subtitles, web quotations, later transcriptions, and memory are not used to repair the text.
 
 ## Audit procedure
 
@@ -19,14 +19,20 @@ For each PDF page:
 
 Four visual-audit batches covered PDF 4–35. The consolidated Part 01 application restored the omitted PDF 7 `காட்சி—3` block and PDF 12 lyric stanza, applied all recorded source-form corrections, and resolved ten uncertainty markers directly from the scan.
 
-Part 01 result:
+Two short readings initially remained under review on PDF 5 and PDF 16. They were subsequently resolved by direct reviewer-assisted inspection of the same source scan:
 
-- **30 verified pages**
-- **2 review pages: PDF 5 and PDF 16**
-- PDF 5 retains the damaged short span in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?`
-- PDF 16 retains the unclear word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
+| PDF | Printed | Previously unresolved | Resolved reading | Canonical context |
+|---:|---:|---|---|---|
+| 5 | 4 | `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?` | **`உங்களுக்குத்`** | `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?` |
+| 16 | 15 | `குதிரைக்கு பதிலாக ⟦நாப்பு?⟧ தெறிக்கத்தெறிக்க...` | **`நரம்பு`** | `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...` |
 
-Those two readings are not repaired from external versions.
+Those readings were applied in commit `13b29064d01d606f64f2ae817b25008d21394f75`, and both page anchors were promoted from `review` to `verified`.
+
+Final Part 01 result:
+
+- **32 verified pages**
+- **0 review pages**
+- **0 remaining uncertainty markers**
 
 ## Batch 5 — PDF 36–43 / printed pp. 35–42
 
@@ -56,7 +62,7 @@ Visual comparison completed for all six final canonical pages. PDF 52–54, cont
 
 The scan visibly prints `காட்சி—43` on PDF 57 / printed p.56 after scenes 46 and 47. This was initially retained as printed during the fidelity pass. A later editorial numbering review established that this is the final scene 48; the canonical correction is documented below.
 
-No new genuinely unreadable Part 02 source span was found in Batches 5–7.
+No genuinely unreadable Part 02 source span remained after Batches 5–7.
 
 ## Consolidated Part 02 application
 
@@ -87,7 +93,7 @@ The post-correction state has:
 
 ## Editorial scene-number correction
 
-The source itself remains fully documented, but the visible canonical copy now corrects two scene-number misprints/transpositions:
+The source itself remains fully documented, but the visible canonical copy corrects two scene-number misprints/transpositions:
 
 | Location | Printed booklet | Canonical copy | Reason |
 |---|---|---|---|
@@ -96,18 +102,19 @@ The source itself remains fully documented, but the visible canonical copy now c
 
 These are **not silent corrections**. Hidden HTML comments immediately before the two canonical headings retain the printed source readings, and `mapping.md` records both the source and canonical numbering.
 
-## Current cumulative state
+## Final cumulative state
 
 - Canonical Tamil coverage: **PDF 4–57 / printed pp. 3–56**
 - Full canonical visual audit: **complete**
-- Part 01: **30 verified / 2 review**
+- Part 01: **32 verified / 0 review**
 - Part 02: **22 verified / 0 review**
-- Total canonical pages: **52 verified / 2 review**
-- Remaining explicit source uncertainties: **2**, both in Part 01 (PDF 5 and PDF 16)
-- Part 02 resolved markers pending apply: **0**
+- Total canonical pages: **54 verified / 0 review**
+- Remaining explicit source uncertainties: **0**
+- Remaining canonical uncertainty markers: **0**
 - Part 02 corrections applied: **yes**
 - Part 02 post-rewrite corrective verification: **complete**
 - Canonical scene-number corrections: **PDF 49 source 48 → canonical 43; PDF 57 source 43 → canonical 48**
-- English translation remains blocked for the two `review` pages; verified pages are eligible under the repository's translation gate.
+- Tamil fidelity audit: **complete**
+- English translation: **eligible to begin as a separate derivative activity**
 
-No further fidelity-audit page remains in this scan. The two Part 01 uncertainties should remain explicit unless stronger source evidence becomes available.
+No further Tamil fidelity-audit work remains for this scan.
