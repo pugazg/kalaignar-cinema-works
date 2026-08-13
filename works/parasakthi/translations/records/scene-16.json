@@ -2,128 +2,20 @@
   "work_id": "parasakthi",
   "target_language": "en",
   "canonical_scene": 16,
-  "scene_status": "review",
+  "scene_status": "verified",
   "unit_count": 12,
   "units": [
-    {
-      "id": "parasakthi-en-s016-u001",
-      "kind": "stage-direction",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {
-        "source_path": "works/parasakthi/scenes/scene-16.md",
-        "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Gunasekaran, pretending to be mad, reaches Madurai near his locked home and questions Parvathi nearby."},
-        "page_provenance": [{"pdf_page": 20, "printed_page": 19}]
-      },
-      "translation": {"english_text": "(Pretending to be mad, Gunasekaran comes from Madras to Madurai and reaches the neighbourhood of his home. Finding the house locked, he questions Parvathi, who is standing nearby giving alms.)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u002",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d001", "speaker_label": "பார்", "page_provenance": [{"pdf_page": 20, "printed_page": 19}]},
-      "translation": {"english_text": "Hey! Who are you? Wait, I'm coming.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u003",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d002", "speaker_label": "குண", "page_provenance": [{"pdf_page": 20, "printed_page": 19}]},
-      "translation": {"english_text": "No, mother, I'm not a beggar. There was a man named Manickam Pillai in the next house—where is he now, mother?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u004",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d003", "speaker_label": "பார்", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "Who? Kalyani's father, isn't it?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u005",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d004", "speaker_label": "குண", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "Yes, mother!", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u006",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d005", "speaker_label": "பார்", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "He died.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u007",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d006", "speaker_label": "குண", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "Ah... he died? Then his daughter Kalyani?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u008",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d007", "speaker_label": "பார்", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {
-        "english_text": "Kalyani! She's like a daughter to me too! She was like a finely carved statue. Her wedding all went well. That accursed god did not let her have a life either... The year after the wedding, it made her a widow with an infant in her arms!",
-        "mode": "prose-faithful",
-        "notes": ["`கடைஞ்செடுத்த சிலைமாதிரி` is retained as the image of a finely carved statue.", "`பாழும் தெய்வம்` is rendered as the lamenting `accursed god`; the English does not add a theological explanation.", "`சிசுவும் கையுமா` is rendered contextually as `with an infant in her arms`."]
-      }
-    },
-    {
-      "id": "parasakthi-en-s016-u009",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d008", "speaker_label": "குண", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "Ah, ayyayyo... where is Kalyani now, mother?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u010",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d009", "speaker_label": "பார்", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "There, at the end of that street, she runs an idli stall. You're grieving so much—who are you?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u011",
-      "kind": "dialogue",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {"source_path": "works/parasakthi/dialogues/records/scene-16.json", "source_record_id": "parasakthi-s016-d010", "speaker_label": "குண", "page_provenance": [{"pdf_page": 21, "printed_page": 20}]},
-      "translation": {"english_text": "Even if I told you who I am, you wouldn't know me, mother.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "parasakthi-en-s016-u012",
-      "kind": "stage-direction",
-      "status": "review",
-      "target_language": "en",
-      "canonical_scene": 16,
-      "source": {
-        "source_path": "works/parasakthi/scenes/scene-16.md",
-        "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 2, "description": "Gunasekaran goes to the house at the end of the street in search of Kalyani."},
-        "page_provenance": [{"pdf_page": 21, "printed_page": 20}]
-      },
-      "translation": {"english_text": "(Gunasekaran goes to the house at the end of the street in search of Kalyani.)", "mode": "prose-faithful", "notes": []}
-    }
+    {"id":"parasakthi-en-s016-u001","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/scenes/scene-16.md","source_locator":{"kind":"scene-parenthetical-block","ordinal":1,"description":"Gunasekaran, pretending to be mad, reaches Madurai near his locked home and questions Parvathi nearby."},"page_provenance":[{"pdf_page":20,"printed_page":19}]},"translation":{"english_text":"(Pretending to be mad, Gunasekaran comes from Madras to Madurai and reaches the neighbourhood of his home. Finding the house locked, he questions Parvathi, who is standing nearby giving alms.)","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u002","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d001","speaker_label":"பார்","page_provenance":[{"pdf_page":20,"printed_page":19}]},"translation":{"english_text":"Hey! Who are you? Wait, I'm coming.","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u003","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d002","speaker_label":"குண","page_provenance":[{"pdf_page":20,"printed_page":19}]},"translation":{"english_text":"No, mother, I'm not a beggar. There was a man named Manickam Pillai in the next house—where is he now, mother?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u004","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d003","speaker_label":"பார்","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"Who? Kalyani's father, isn't it?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u005","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d004","speaker_label":"குண","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"Yes, mother!","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u006","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d005","speaker_label":"பார்","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"He died.","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u007","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d006","speaker_label":"குண","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"Ah... he died? Then his daughter Kalyani?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u008","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d007","speaker_label":"பார்","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"Kalyani! She's like a daughter to me too! She was like a finely carved statue. Her wedding all went well. That accursed god did not let her have a life either... The following year, it made her a widow with an infant in her arms!","mode":"prose-faithful","notes":["`கடைஞ்செடுத்த சிலைமாதிரி` is retained as the image of a finely carved statue.","`பாழும் தெய்வம்` is rendered as the lamenting `accursed god`; the English does not add a theological explanation.","`சிசுவும் கையுமா` is rendered contextually as `with an infant in her arms`.","Second-pass review tightened `மறுவருஷம்` from the looser `the year after` to `the following year`."]}},
+    {"id":"parasakthi-en-s016-u009","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d008","speaker_label":"குண","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"Ah, ayyayyo... where is Kalyani now, mother?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u010","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d009","speaker_label":"பார்","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"There, at the end of that street, she runs an idli stall. You're grieving so much—who are you?","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u011","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/dialogues/records/scene-16.json","source_record_id":"parasakthi-s016-d010","speaker_label":"குண","page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"Even if I told you who I am, you wouldn't know me, mother.","mode":"prose-faithful","notes":[]}},
+    {"id":"parasakthi-en-s016-u012","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":16,"source":{"source_path":"works/parasakthi/scenes/scene-16.md","source_locator":{"kind":"scene-parenthetical-block","ordinal":2,"description":"Gunasekaran goes to the house at the end of the street in search of Kalyani."},"page_provenance":[{"pdf_page":21,"printed_page":20}]},"translation":{"english_text":"(Gunasekaran goes to the house at the end of the street in search of Kalyani.)","mode":"prose-faithful","notes":[]}}
   ]
 }
