@@ -35,9 +35,20 @@ source:
 
 structure:
   scene_headings_observed: 46
-  scene_heading_range_printed: "1-48 with headings 23 and 34 not observed; 48 and 43 occur out of normal numeric order"
+  canonical_scene_heading_range: "1-48 with headings 23 and 34 not observed"
   headings_not_observed: [23, 34]
-  mapping_revision_note: "Detailed transcription and fidelity audit confirm headings 33, 38 and 40, scene 48 on PDF 49 / printed p.48, and final scene 43 on PDF 57 / printed p.56."
+  source_scene_number_misprints:
+    - pdf_page: 49
+      printed_page: 48
+      source_heading: 48
+      canonical_heading: 43
+      note: "Printed after scene 42 and before scene 44; canonical copy corrects the heading to scene 43 and retains the source reading in an inline provenance comment."
+    - pdf_page: 57
+      printed_page: 56
+      source_heading: 43
+      canonical_heading: 48
+      note: "Final scene after scenes 46 and 47; canonical copy corrects the heading to scene 48 and retains the source reading in an inline provenance comment."
+  mapping_revision_note: "Detailed transcription and fidelity audit confirm 46 visible scene headings. The booklet transposes/misprints scene numbers 43 and 48 near the end; the canonical visible copy corrects them while mapping.md and inline comments preserve the printed readings."
 
 transcription_progress:
   first_pass_complete: true
@@ -57,9 +68,10 @@ transcription_progress:
       verified_pages: 22
       review_pages: 0
       corrections_applied: true
+      post_rewrite_corrective_pass_applied: true
   rear_advertisement_recorded_pdf_page: 58
   unresolved_short_spans: 2
-  unresolved_short_spans_note: "Only the genuine Part 01 source uncertainties on PDF 5 and PDF 16 remain. Part 02 has no unresolved marker after consolidated fidelity application."
+  unresolved_short_spans_note: "Only the genuine Part 01 source uncertainties on PDF 5 and PDF 16 remain. Part 02 has no unresolved marker after consolidated fidelity application and corrective post-check."
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
@@ -78,11 +90,12 @@ fidelity_audit:
   part_02_uncertainty_markers_resolved_pending_apply: 0
   part_02_substantive_retranscription_pages: [42, 44, 45, 46, 48, 49, 52, 53, 54]
   post_rewrite_verification_complete: true
+  post_rewrite_corrective_commit: "ac4828c60f9a69590f1fc6b2da17114f62c16d22"
   source_uncertainty_pages_audited: [5, 16]
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Resolve the two genuine Part 01 source uncertainties only if stronger source evidence becomes available; otherwise keep them explicit. English translation may begin only for verified pages."
-  note: "Full visual fidelity audit is complete. Part 02 was consolidated from the scan, including nine direct-retranscription pages and six resolved uncertainty markers. All 22 Part 02 pages are verified. The complete work remains review-qualified only because PDF 5 and PDF 16 in Part 01 retain genuine source uncertainty."
+  next_action: "No further fidelity-audit page remains. Keep PDF 5 and PDF 16 explicit unless stronger source evidence becomes available; derivative work may proceed only from verified source units."
+  note: "Full visual fidelity audit is complete. Part 02 was consolidated from the scan, then rechecked and corrected on the previously shaky blocks. All 22 Part 02 pages are verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints. The complete work remains review-qualified only because PDF 5 and PDF 16 in Part 01 retain genuine source uncertainty."
 
 status:
   structural_mapping: verified
