@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Scene-text derivatives are complete for all 46 observed scenes. Next define and build the dialogue index from the verified canonical/scene text with scene and page provenance."
+  next_action: "Dialogue-index schema and verified pilot are complete for canonical scenes 1-2: 42 dialogue records. Next extract and verify dialogue records for scenes 3-10 using the fixed schema."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -130,8 +130,15 @@ structured_derivatives:
     next_batch: null
     note: "Scene 30 starts on PDF 35 in Part 01, continues through PDF 36 stored in Part 02, and stops before scene 31 on PDF 37. Scene 33 continues across PDF 38-42 because scene 34 is not observed. Scene 43 provenance records source heading 48 on PDF 49; final scene 48 provenance records source heading 43 on PDF 57."
   dialogue_index:
-    status: not-started
-    next_action: "Define a deterministic dialogue-record schema and build the index from verified canonical scene derivatives while retaining exact speaker labels and PDF/printed-page provenance."
+    status: pilot-verified
+    path: "dialogues/index.json"
+    schema: "dialogues/schema.json"
+    readme: "dialogues/README.md"
+    records: 42
+    scenes_completed: [1, 2]
+    cross_page_records_verified: ["parasakthi-s001-d001"]
+    next_batch: "scenes 3-10"
+    note: "Only speaker-labelled utterances are indexed. Exact speaker labels and Tamil wording are preserved; unlabelled songs, stage directions, narrative prose, provenance comments and back matter are excluded."
   character_index:
     status: not-started
 
@@ -141,5 +148,6 @@ status:
   tamil_fidelity_audit: complete
   scene_index: complete
   scene_text_derivatives: complete
+  dialogue_index: pilot-verified
   song_authorship_mapping: not-started
   english_translation: not-started
