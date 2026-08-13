@@ -50,13 +50,11 @@ The source contains **46 observed scene headings**; scenes 23 and 34 are absent.
 
 The scene derivative layer is **46/46 complete**.
 
-The **dialogue index is verified for 38 observed scenes — canonical scenes 1–22, 24–33 and 35–40 — with 527 speaker-labelled records** stored under `works/parasakthi/dialogues/records/`. Five records currently cross page boundaries: scenes 1, 9, 13, 28 and 33. Scenes 26 and 29 have valid zero-record dialogue files because they contain no explicitly speaker-labelled utterance.
+The **dialogue index is now complete and verified for all 46 observed scenes**, totaling **642 speaker-labelled records** stored under `works/parasakthi/dialogues/records/`. The final scenes 41–48 batch adds 115 records. Scene 48 is a valid zero-record scene because its closing content is unlabelled song/back-of-work material.
 
-The 31–40 batch adds 114 records. Scene 33 spans PDF 38–42 because scene 34 is absent, with `parasakthi-s033-d053` crossing PDF 41→42. Unlabelled dream/song material remains outside the dialogue index.
+The completed dialogue index contains **11 cross-page utterances**. Canonical scene 43 preserves `source_scene_heading: 48`, and canonical final scene 48 preserves `source_scene_heading: 43`.
 
-Source punctuation anomalies documented in scenes 21 and 25 remain indexed without normalizing the canonical Tamil.
-
-The next and final dialogue batch covers observed scenes **41–48**, preserving the documented source-heading provenance for canonical scenes 43 and 48.
+The next structured derivative is the **character index**: map exact source speaker labels to stable character entities without rewriting the dialogue records. Ambiguous abbreviations and role labels must remain explicit and reviewable.
 
 English translation may begin later as a separate derivative. Per-song authorship remains a separate gate because the booklet credits multiple lyric contributors.
 
@@ -67,5 +65,6 @@ English translation may begin later as a separate derivative. Per-song authorshi
 - `draft-complete`
 - `review`
 - `verified`
+- `complete-verified`
 
 A derivative translation can begin only after the corresponding Tamil source text is verified.

@@ -34,7 +34,7 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Remaining source uncertainties: **0**
 - Scene index: **complete — 46 records**
 - Individual scene derivatives: **complete — 46/46 observed scenes**
-- Dialogue index: **in-progress-verified — 527 records across 38 observed scenes**
+- Dialogue index: **complete and verified — 642 records / 46 observed scenes**
 - Character index: **not-started**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started**
@@ -54,34 +54,25 @@ The scan controls the Tamil. Film audio, subtitles, later editions, web quotatio
 
 ## Dialogue index
 
-[`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the compact checkpoint; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
+[`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the final manifest; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
 
-Dialogue extraction is verified for canonical scenes **1–22, 24–33 and 35–40**, totaling **527 records**. Scenes 23 and 34 remain absent.
+Dialogue extraction is now **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent.
 
-The observed 31–40 batch added **114 records**:
+The final scenes 41–48 batch added **115 records**:
 
-- scene 31: 13
-- scene 32: 4
-- scene 33: 56
-- scene 35: 10
-- scene 36: 4
-- scene 37: 8
-- scene 38: 8
-- scene 39: 9
-- scene 40: 2
+- scene 41: 23
+- scene 42: 1
+- scene 43: 19 (`source_scene_heading: 48`)
+- scene 44: 4
+- scene 45: 30
+- scene 46: 4
+- scene 47: 34
+- scene 48: 0 (`source_scene_heading: 43`)
 
-Scene 33 intentionally spans PDF **38–42** because scene 34 is absent. `parasakthi-s033-d053` crosses PDF **41→42** and remains one record with `page_segments`. The unlabelled dream song inside scene 33 is excluded. Scene 39's opening unlabelled song is also excluded; only the explicitly labelled dialogue that follows is indexed.
+Scene 48 correctly contains zero dialogue records because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
 
-Current cross-page records are:
+The complete dialogue index contains **11 verified cross-page utterances**, including scene 42 PDF 48→49, two scene 43 cross-page records and three long courtroom records in scene 45. Exact speaker labels and source punctuation anomalies remain unnormalized.
 
-- `parasakthi-s001-d001` — PDF 4→5;
-- `parasakthi-s009-d001` — PDF 12→13;
-- `parasakthi-s013-d023` — PDF 16→17;
-- `parasakthi-s028-d023` — PDF 33→34;
-- `parasakthi-s033-d053` — PDF 41→42.
+## Next structured derivative
 
-Scenes 26 and 29 remain valid zero-record dialogue files. Source-label punctuation anomalies documented in scenes 21 and 25 remain preserved without normalization.
-
-## Next dialogue batch
-
-Extract the **final observed scenes 41–48**. The canonical/source heading distinction must be retained for canonical scene **43** (`source_scene_heading: 48`) and canonical final scene **48** (`source_scene_heading: 43`).
+With scene and dialogue derivatives complete, the next stage is the **character index**. It should map exact source speaker labels to stable character entities while retaining every original label and explicitly recording ambiguous/role-based mappings rather than silently normalizing them.

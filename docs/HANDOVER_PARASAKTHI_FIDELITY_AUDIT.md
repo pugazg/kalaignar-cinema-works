@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-Current stage: **Structured Derivatives — dialogue index**.
+Current stage: **Structured Derivatives — dialogue index complete; character index next**.
 
 ## Canonical source state
 
@@ -12,7 +12,7 @@ Current stage: **Structured Derivatives — dialogue index**.
 - SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 - 58 PDF pages; PDF 4–57 / printed pp.3–56 are canonical dialogue/song pages; PDF 58 is back matter.
 - Tamil canonical text: **54 verified / 0 review / 0 unresolved markers**.
-- Do not repair Tamil from film audio, subtitles, web copies, later editions or memory.
+- Never repair Tamil from film audio, subtitles, web copies, later editions or memory.
 
 Final reviewer-assisted Part 01 readings remain:
 
@@ -21,97 +21,97 @@ Final reviewer-assisted Part 01 readings remain:
 
 ## Scene structure
 
-- 46 observed canonical scenes.
-- Scene 23 absent.
-- Scene 34 absent.
-- PDF 49 source heading 48 → canonical scene 43.
-- PDF 57 source heading 43 → canonical final scene 48.
+- **46 observed canonical scenes**.
+- Scene **23 absent**.
+- Scene **34 absent**.
+- PDF 49 source heading **48** → canonical scene **43**.
+- PDF 57 source heading **43** → canonical final scene **48**.
 - Scene 30 crosses PDF 35→36 across the Part 01 / Part 02 transcription-file boundary.
 - Scene 33 spans PDF 38→42 because scene 34 is absent.
-- All 46 observed scene derivatives are complete.
+- All **46/46 observed scene derivatives are complete**.
 
-## Dialogue-index rules
+## Dialogue index — complete
 
 Files:
 
 - `works/parasakthi/dialogues/schema.json` — fixed record schema.
-- `works/parasakthi/dialogues/index.json` — compact checkpoint.
+- `works/parasakthi/dialogues/index.json` — final manifest.
 - `works/parasakthi/dialogues/records/scene-XX.json` — scene-sharded records.
 
-Each record represents one explicitly speaker-labelled utterance. Preserve exact Tamil, exact speaker label, canonical/source scene provenance, PDF/printed-page provenance and source scene file. Parenthetical text inside a labelled utterance remains part of it.
+Final state:
 
-Exclude standalone directions, unlabelled prose, unlabelled songs/verse, printer marks and back matter. Explicitly labelled sung/verse material remains eligible.
+- Status: **complete-verified**
+- Observed scenes represented: **46 / 46**
+- Dialogue records: **642**
+- Zero-record observed scenes: **26, 29, 48**
+- Missing headings: **23, 34**
 
-A labelled utterance crossing a page boundary remains one record with `page_segments`.
+Final batch counts:
 
-### Explicit-label delimiter anomalies
+- scene 41: 23
+- scene 42: 1
+- scene 43: 19 (`source_scene_heading: 48`)
+- scene 44: 4
+- scene 45: 30
+- scene 46: 4
+- scene 47: 34
+- scene 48: 0 (`source_scene_heading: 43`)
 
-The schema remains unchanged. When the source explicitly marks a speaker without the normal colon, index the utterance but do not insert punctuation into the canonical Tamil.
+Scene 48 correctly has zero dialogue records because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
 
-Verified anomaly records:
+### Dialogue extraction rules that remain controlling
 
-- `parasakthi-s021-d040` — source form `கல் ! கிறுக்கண்ணு! கிறுக்கண்ணு!`.
-- `parasakthi-s025-d011` — `சி. ஜி. டி.` line without colon.
-- `parasakthi-s025-d017` — second `சி. ஜி. டி.` line without colon.
+Each record represents one explicitly speaker-labelled utterance. Preserve exact Tamil, exact source speaker label, canonical/source scene provenance, PDF/printed-page provenance and source scene file.
 
-## Dialogue checkpoint
+Do not expand, merge or normalize speaker labels in dialogue records. Character identity normalization belongs only in the character-index layer.
 
-Dialogue extraction is verified for **38 observed scenes**:
+Exclude standalone stage directions, unlabelled prose, unlabelled songs/verse, printer marks and back matter. Explicitly labelled sung/verse material remains eligible. Parenthetical text inside a labelled utterance remains part of that utterance.
 
-`1–22, 24–33, 35–40`
+When a labelled utterance crosses a page boundary, keep one record and preserve `page_segments`.
 
-- Previous total after observed scenes 21–30: **413 records**.
-- Observed scenes 31–40 batch: **114 records**.
-- Cumulative total: **527 records**.
+### Explicit source-label punctuation anomalies
 
-Batch counts:
+Do not insert missing punctuation into canonical text:
 
-- scene 31: 13
-- scene 32: 4
-- scene 33: 56
-- scene 35: 10
-- scene 36: 4
-- scene 37: 8
-- scene 38: 8
-- scene 39: 9
-- scene 40: 2
+- `parasakthi-s021-d040` — `கல் ! கிறுக்கண்ணு! கிறுக்கண்ணு!`
+- `parasakthi-s025-d011` — `சி. ஜி. டி.` line without usual colon
+- `parasakthi-s025-d017` — second `சி. ஜி. டி.` line without usual colon
 
-Scene 34 remains absent and has no record file.
+### Cross-page dialogue records
 
-Special cases from this batch:
-
-- `parasakthi-s033-d053` is one utterance crossing PDF 41→42.
-- Scene 33's unlabelled dream song is excluded.
-- Scene 39's opening unlabelled song is excluded; its labelled dialogue begins on PDF 45.
-- Scenes 26 and 29 remain legitimate zero-record files.
-
-Verified cross-page dialogue records now are:
+The complete index has **11** verified cross-page records:
 
 - `parasakthi-s001-d001` — PDF 4→5
 - `parasakthi-s009-d001` — PDF 12→13
 - `parasakthi-s013-d023` — PDF 16→17
 - `parasakthi-s028-d023` — PDF 33→34
 - `parasakthi-s033-d053` — PDF 41→42
+- `parasakthi-s042-d001` — PDF 48→49
+- `parasakthi-s043-d003` — PDF 49→50
+- `parasakthi-s043-d017` — PDF 50→51
+- `parasakthi-s045-d001` — PDF 51→53
+- `parasakthi-s045-d003` — PDF 53→54
+- `parasakthi-s045-d018` — PDF 54→55
 
-## Exact next work
+## Exact next work — character index
 
-Extract the **final observed canonical scenes 41–48**.
+Start a **character-index pilot** without changing any existing dialogue record.
 
-For each scene:
+Recommended first activity:
 
-1. read the verified scene derivative and `scenes/index.json`;
-2. extract explicitly speaker-labelled utterances only;
-3. preserve exact labels and Tamil text;
-4. assign IDs from `d001` within each scene;
-5. preserve PDF/printed provenance and cross-page `page_segments`;
-6. document any genuine source label-delimiter anomaly rather than normalizing it;
-7. verify record count and final record before advancing the manifest.
+1. Read `dialogues/schema.json`, `dialogues/index.json`, and representative record files across the work.
+2. Inventory every distinct exact `speaker_label` used in the 642 records.
+3. Define a character/entity schema that separates:
+   - stable character/entity ID;
+   - preferred display name;
+   - exact source-label variants;
+   - role/generic labels (`ஒரு`, `மற்`, etc.);
+   - confidence/status for mappings;
+   - supporting dialogue record IDs / scenes.
+4. Create a small verified pilot for the central family/recurring characters only.
+5. **Do not infer ambiguous abbreviations solely from similarity.** If an abbreviation cannot be tied safely to one entity from source context, retain it as unresolved or role-based.
+6. Do not modify the 642 dialogue records; the character index is a separate derivative layer.
 
-Critical final-batch provenance:
+After the pilot is verified, expand the mapping across all distinct speaker labels and then update metadata/checkpoints.
 
-- canonical scene **43** must use `source_scene_heading: 48` because PDF 49 / printed p.48 is misprinted as scene 48;
-- canonical scene **48** must use `source_scene_heading: 43` because PDF 57 / printed p.56 is misprinted as scene 43.
-
-After scenes 41–48 are verified, mark the dialogue index **46/46 observed scenes complete**, record the final dialogue-record total, and then advance to the next structured derivative (character index unless the repository workflow is deliberately changed).
-
-Other stages remain: character index not started; song authorship mapping not started; English translation not started.
+Other stages remain: per-song authorship mapping not started; English translation not started.

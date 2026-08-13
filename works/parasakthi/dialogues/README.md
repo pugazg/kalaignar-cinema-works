@@ -2,81 +2,105 @@
 
 **Stage:** structured derivatives  
 **Canonical authority:** fully verified Tamil transcription  
-**Dialogue index status:** in progress — verified for **38 observed scenes through the 31–40 range**
+**Dialogue index status:** **complete and verified — 46/46 observed scenes**
 
-This directory is a machine-readable dialogue derivative built from the verified canonical Tamil / completed scene derivatives. It does **not** replace, normalize, or repair the canonical transcription.
+This directory is a machine-readable dialogue derivative built from the verified canonical Tamil and completed scene derivatives. It does **not** replace, normalize, or repair the canonical transcription.
 
 ## Files and storage
 
 - `schema.json` — fixed deterministic dialogue-record schema.
-- `index.json` — compact manifest and extraction checkpoint.
-- `records/scene-XX.json` — all dialogue records belonging to one observed canonical scene.
+- `index.json` — final compact manifest/checkpoint.
+- `records/scene-XX.json` — dialogue records for each observed canonical scene.
 
-The original scenes 1–2 pilot was migrated losslessly into scene-sharded files before bulk extraction. That was a storage-only change; the record schema remains fixed.
+The original scenes 1–2 pilot was migrated losslessly into scene-sharded files before bulk extraction. That was a storage-only change; the record schema remained fixed.
 
 ## Record rules
 
-Each record represents exactly one explicitly speaker-labelled utterance and preserves the stable ID, canonical/source scene number, exact speaker label, exact Tamil text, PDF/printed-page provenance and source scene file. A `page_segments` array is added only when one utterance crosses a canonical page boundary.
+Each record represents one explicitly speaker-labelled utterance and preserves:
 
-Do **not** expand, merge or standardize labels. Character normalization belongs in the later character-index layer.
+- stable ID `parasakthi-sNNN-dNNN`;
+- canonical scene number;
+- printed/source scene heading where different;
+- exact `speaker_label`;
+- exact Tamil `text` without normalization;
+- PDF/printed-page provenance;
+- source scene file.
 
-Included material must be explicitly marked by a speaker prefix. Standalone directions, narrative prose, unlabelled songs/verse, unlabelled monologue/prose, editorial comments, printer marks and back matter remain excluded. Parenthetical text inside a labelled utterance remains part of that record. Explicitly speaker-labelled sung/verse material remains eligible.
+A `page_segments` array is used only when a single utterance crosses a canonical page boundary.
 
-### Explicit-label punctuation anomalies
+Speaker-label variants are **not** expanded or merged. Character normalization belongs to the next character-index layer.
 
-A speaker may still be explicit even when the booklet omits the usual colon. Do not alter the canonical Tamil to normalize punctuation.
+### Included / excluded material
 
-Verified anomaly records remain:
+Included:
+
+- explicitly speaker-labelled prose;
+- explicitly speaker-labelled sung/verse material;
+- explicit speaker labels whose source delimiter is anomalous but unambiguous.
+
+Excluded:
+
+- scene headings;
+- standalone stage directions and narrative prose;
+- unlabelled songs/verse;
+- unlabelled monologue/prose even when context identifies the speaker;
+- provenance comments, printer marks and back matter.
+
+Parenthetical material inside a speaker-labelled utterance remains part of that utterance. A standalone direction between portions of a continuing labelled speech is not turned into dialogue text.
+
+### Documented source-label delimiter anomalies
+
+The canonical source is not normalized to add missing punctuation:
 
 - `parasakthi-s021-d040` — source form `கல் ! கிறுக்கண்ணு! கிறுக்கண்ணு!`.
-- `parasakthi-s025-d011` — `சி. ஜி. டி.` line without colon.
-- `parasakthi-s025-d017` — second `சி. ஜி. டி.` line without colon.
-
-### Page boundaries
-
-A single utterance crossing a page anchor remains one record with all pages in `page_provenance` and exact `page_segments`.
-
-Verified cross-page records through this checkpoint:
-
-- `parasakthi-s001-d001` — PDF 4→5.
-- `parasakthi-s009-d001` — PDF 12→13.
-- `parasakthi-s013-d023` — PDF 16→17.
-- `parasakthi-s028-d023` — PDF 33→34.
-- `parasakthi-s033-d053` — PDF 41→42.
+- `parasakthi-s025-d011` — `சி. ஜி. டி.` line without the usual colon.
+- `parasakthi-s025-d017` — second `சி. ஜி. டி.` line without the usual colon.
 
 ### Scene-number provenance
 
-Headings 23 and 34 are not observed and must not be invented. For the documented late booklet transposition:
+The booklet contains two documented late numbering errors, preserved in dialogue records as source provenance:
 
-- canonical scene 43 must retain `source_scene_heading: 48`;
-- canonical scene 48 must retain `source_scene_heading: 43`.
+- canonical **scene 43** uses `source_scene_heading: 48` (PDF 49 / printed p.48);
+- canonical **scene 48** uses `source_scene_heading: 43` (PDF 57 / printed p.56).
 
-## Verified extraction checkpoint
+Scenes **23 and 34 are not observed** and have no dialogue files.
 
-Dialogue indexing is now verified for **38 observed scenes**:
+## Final verified totals
 
-`1–22, 24–33, 35–40`
+- Observed scenes represented: **46 / 46**
+- Dialogue records: **642**
+- Zero-record observed scenes: **26, 29, 48**
+- Missing source headings: **23, 34**
 
-- Previous cumulative total through the 21–30 batch: **413**.
-- Observed scenes 31–40 batch: **114**.
-- Cumulative dialogue records: **527**.
+Final batch, scenes 41–48: **115 records**
 
-This batch's per-scene counts:
+- scene 41 — **23**
+- scene 42 — **1**
+- scene 43 — **19** (`source_scene_heading: 48`)
+- scene 44 — **4**
+- scene 45 — **30**
+- scene 46 — **4**
+- scene 47 — **34**
+- scene 48 — **0** (`source_scene_heading: 43`)
 
-- scene 31 — **13**
-- scene 32 — **4**
-- scene 33 — **56**
-- scene 35 — **10**
-- scene 36 — **4**
-- scene 37 — **8**
-- scene 38 — **8**
-- scene 39 — **9**
-- scene 40 — **2**
+Scene 48 correctly contains zero dialogue records because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
 
-Scene 34 remains absent. Scene 33 is intentionally long: it continues across PDF 38–42 because no scene-34 heading occurs. Its record `parasakthi-s033-d053` crosses PDF 41→42. The unlabelled dream song inside scene 33 remains excluded. Scene 39's opening unlabelled song is also excluded; its explicitly labelled dialogue begins on PDF 45.
+## Cross-page dialogue records
 
-Scenes 26 and 29 continue to have valid zero-record dialogue files because they contain no explicitly speaker-labelled utterance.
+Verified cross-page records in the complete index:
 
-## Next batch
+- `parasakthi-s001-d001` — PDF 4→5
+- `parasakthi-s009-d001` — PDF 12→13
+- `parasakthi-s013-d023` — PDF 16→17
+- `parasakthi-s028-d023` — PDF 33→34
+- `parasakthi-s033-d053` — PDF 41→42
+- `parasakthi-s042-d001` — PDF 48→49
+- `parasakthi-s043-d003` — PDF 49→50
+- `parasakthi-s043-d017` — PDF 50→51
+- `parasakthi-s045-d001` — PDF 51→53
+- `parasakthi-s045-d003` — PDF 53→54
+- `parasakthi-s045-d018` — PDF 54→55
 
-Extract and verify the **final observed scenes 41–48**. Preserve the fixed schema and exact Tamil. The final batch must also preserve the source/canonical scene-heading distinction for canonical scenes **43 and 48**.
+## Next structured derivative
+
+The dialogue index is closed as **complete/verified**. The next structured derivative is the **character index**: map exact source speaker labels to stable character entities while retaining every original label and recording uncertain/role-based mappings explicitly rather than silently normalizing them.
