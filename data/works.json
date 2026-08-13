@@ -99,9 +99,15 @@
       "song_quoted_verse_records": 1,
       "song_booklet_wide_contributors": 6,
       "song_item_level_booklet_crediting": false,
-      "next_structured_derivative": "song-specific-tamil-derivatives"
+      "song_tamil_derivatives": "complete-verified",
+      "song_tamil_derivative_directory": "works/parasakthi/songs/tracks",
+      "song_tamil_derivative_files": 11,
+      "song_quoted_verse_derivatives": "complete-verified",
+      "song_quoted_verse_derivative_files": 1,
+      "next_structured_derivative": "english-translation-pilot"
     },
     "song_authorship_mapping": "complete-verified",
+    "song_tamil_derivatives": "complete-verified",
     "english_translation": "not-started"
   }
 ]
