@@ -27,7 +27,7 @@ Final reviewer-assisted Part 01 readings remain:
 - PDF 49 source heading 48 → canonical scene 43.
 - PDF 57 source heading 43 → canonical final scene 48.
 - Scene 30 crosses PDF 35→36 across the Part 01 / Part 02 transcription-file boundary.
-- Scene 33 continues through PDF 42 because scene 34 is absent.
+- Scene 33 spans PDF 38→42 because scene 34 is absent.
 - All 46 observed scene derivatives are complete.
 
 ## Dialogue-index rules
@@ -46,7 +46,7 @@ A labelled utterance crossing a page boundary remains one record with `page_segm
 
 ### Explicit-label delimiter anomalies
 
-The record schema remains unchanged, but the source sometimes marks a speaker without the normal colon. These are still indexed when the speaker prefix is explicit; never alter the canonical Tamil to insert punctuation.
+The schema remains unchanged. When the source explicitly marks a speaker without the normal colon, index the utterance but do not insert punctuation into the canonical Tamil.
 
 Verified anomaly records:
 
@@ -54,61 +54,64 @@ Verified anomaly records:
 - `parasakthi-s025-d011` — `சி. ஜி. டி.` line without colon.
 - `parasakthi-s025-d017` — second `சி. ஜி. டி.` line without colon.
 
-Their scene-record wrappers preserve `source_label_anomalies` notes.
-
 ## Dialogue checkpoint
 
-Dialogue extraction is verified for **29 observed scenes**:
+Dialogue extraction is verified for **38 observed scenes**:
 
-`1–22, 24–30`
+`1–22, 24–33, 35–40`
 
-Scene 23 is absent and has no record file.
-
-- Previous total through scene 20: **253 records**.
-- Observed scenes 21–30 batch: **160 records**.
-- Cumulative total: **413 records**.
+- Previous total after observed scenes 21–30: **413 records**.
+- Observed scenes 31–40 batch: **114 records**.
+- Cumulative total: **527 records**.
 
 Batch counts:
 
-- scene 21: 40
-- scene 22: 11
-- scene 24: 6
-- scene 25: 26
-- scene 26: 0
-- scene 27: 3
-- scene 28: 48
-- scene 29: 0
-- scene 30: 26
+- scene 31: 13
+- scene 32: 4
+- scene 33: 56
+- scene 35: 10
+- scene 36: 4
+- scene 37: 8
+- scene 38: 8
+- scene 39: 9
+- scene 40: 2
 
-Scenes 26 and 29 correctly have zero-record files because their contents are narrative/unlabelled song material only.
+Scene 34 remains absent and has no record file.
 
-Verified cross-page dialogue records:
+Special cases from this batch:
+
+- `parasakthi-s033-d053` is one utterance crossing PDF 41→42.
+- Scene 33's unlabelled dream song is excluded.
+- Scene 39's opening unlabelled song is excluded; its labelled dialogue begins on PDF 45.
+- Scenes 26 and 29 remain legitimate zero-record files.
+
+Verified cross-page dialogue records now are:
 
 - `parasakthi-s001-d001` — PDF 4→5
 - `parasakthi-s009-d001` — PDF 12→13
 - `parasakthi-s013-d023` — PDF 16→17
 - `parasakthi-s028-d023` — PDF 33→34
-
-Scene 30's record file must retain its cross-part structure: first utterance on PDF 35, remaining dialogue on PDF 36.
+- `parasakthi-s033-d053` — PDF 41→42
 
 ## Exact next work
 
-Extract dialogue records for the next observed scenes in the **31–40 range**:
-
-**31, 32, 33, 35, 36, 37, 38, 39, 40**
-
-Scene 34 is absent — do not create `dialogues/records/scene-34.json`.
+Extract the **final observed canonical scenes 41–48**.
 
 For each scene:
 
 1. read the verified scene derivative and `scenes/index.json`;
 2. extract explicitly speaker-labelled utterances only;
 3. preserve exact labels and Tamil text;
-4. assign IDs from `d001` within the scene;
+4. assign IDs from `d001` within each scene;
 5. preserve PDF/printed provenance and cross-page `page_segments`;
 6. document any genuine source label-delimiter anomaly rather than normalizing it;
 7. verify record count and final record before advancing the manifest.
 
-After the 31–40 observed-scene batch, update the dialogue manifest, README, metadata, `data/works.json`, work/root README as needed, and this handover. The following batch should be the final observed scenes 41–48, preserving source-heading provenance for canonical 43 and 48.
+Critical final-batch provenance:
+
+- canonical scene **43** must use `source_scene_heading: 48` because PDF 49 / printed p.48 is misprinted as scene 48;
+- canonical scene **48** must use `source_scene_heading: 43` because PDF 57 / printed p.56 is misprinted as scene 43.
+
+After scenes 41–48 are verified, mark the dialogue index **46/46 observed scenes complete**, record the final dialogue-record total, and then advance to the next structured derivative (character index unless the repository workflow is deliberately changed).
 
 Other stages remain: character index not started; song authorship mapping not started; English translation not started.
