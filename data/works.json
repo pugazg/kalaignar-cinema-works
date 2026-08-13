@@ -65,7 +65,12 @@
       "cross_part_scenes": [30],
       "scene_number_provenance_corrections": [43, 48],
       "next_scene_derivative_batch": null,
-      "dialogue_index": "not-started",
+      "dialogue_index": "pilot-verified",
+      "dialogue_index_path": "works/parasakthi/dialogues/index.json",
+      "dialogue_schema_path": "works/parasakthi/dialogues/schema.json",
+      "dialogue_records": 42,
+      "dialogue_scenes_completed": [1, 2],
+      "next_dialogue_batch": "scenes 3-10",
       "next_structured_derivative": "dialogue-index",
       "character_index": "not-started"
     },
