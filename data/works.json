@@ -53,6 +53,16 @@
     "next_fidelity_action": null,
     "known_unresolved_audited_pdf_pages": [],
     "canonical_unresolved_short_spans": 0,
+    "structured_derivatives": {
+      "scene_index": "complete",
+      "scene_index_path": "works/parasakthi/scenes/index.json",
+      "scene_records": 46,
+      "scene_text_derivatives": "not-started",
+      "next_scene_derivative_batch": "1-10",
+      "dialogue_index": "not-started",
+      "character_index": "not-started"
+    },
+    "song_authorship_mapping": "not-started",
     "english_translation": "not-started"
   }
 ]
