@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — scenes **1–10 verified**; scenes **11–15 in review**
+**Status:** in progress — scenes **1–15 verified**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
@@ -27,9 +27,21 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 There is intentionally no separate assembled English screenplay yet. A reading view can be generated later from verified records.
 
-## Verified coverage — scenes 1–10
+## Verified coverage — scenes 1–15
 
-Scenes **1–10** have passed deliberate second-pass review: **136 verified units**.
+Scenes **1–15** have now passed deliberate second-pass review: **224 verified units**.
+
+Cumulative verified state:
+
+- scenes started: **1–15**;
+- scenes verified: **1–15**;
+- scenes in review: **none**;
+- translation units: **224**;
+- verified: **224**;
+- review: **0**;
+- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**.
+
+### Scenes 6–10 review checkpoint
 
 The scenes 6–10 pass reviewed all **66 units** against canonical scene files, immutable dialogue records, page provenance and the verified scene-8 song derivative. English-only corrections were made where the review found genuine additions, omissions or over-resolution; no Tamil/source file was changed.
 
@@ -41,60 +53,29 @@ Review refinements included:
 - scene 9: `காலையிலே` is `this morning`, while anomalous `வங்கத்திலே`, unclear `தகுதி? போக்கியதை?`, and the PDF 12→13 break remain explicitly documented;
 - scene 10: hospital `பெட்டிலே` remains contextually `bed` in English only, and the bombing direction stays broad rather than inventing an injury.
 
-## New review batch — scenes 11–15
+### Scenes 11–15 review checkpoint
 
-Canonical scenes **11–15** now have source-linked English review records: **88 new units**.
+The second pass reviewed all **88 units** in scenes 11–15 against the verified scene derivatives, immutable dialogue records, page provenance, and the verified Tamil song derivatives for `பூமாலை` and `தேசம் ஞானம் கல்வி`.
 
-Per-scene counts:
+English-only refinements made during this review:
 
-- scene 11 — **3**: 2 dialogue + 1 stage direction;
-- scene 12 — **10**: 7 dialogue + 2 stage directions + 1 song;
-- scene 13 — **32**: 26 dialogue + 6 stage directions;
-- scene 14 — **19**: 16 dialogue + 3 stage directions;
-- scene 15 — **24**: 16 dialogue + 6 stage directions + 2 songs.
+- **scene 13:** `திண்ணை` is rendered consistently as `raised veranda`; the awkward literal `merit a cow has` was tightened to `good fortune a cow has` while keeping the source metaphor;
+- **scene 14:** an added English endearment was removed from `அதெல்லாம் முடியாதம்மா`; `நாணயம்` is expressed naturally through trustworthiness/creditworthiness rather than as `coin`;
+- **scene 15:** `மண்ணைப் போச்சே` is rendered idiomatically as `gone to waste`; standalone stage directions avoid the misleading modern English age-sense of `minors` for `மைனர்கள்`, while exact Tamil labels remain immutable metadata.
 
-Cumulative translation state:
+No English smoothing was allowed to erase source pressure points. The following remain explicitly documented:
 
-- scenes started: **1–15**;
-- scenes verified: **1–10**;
-- scenes in review: **11–15**;
-- translation units: **224**;
-- verified: **136**;
-- review: **88**;
-- kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**.
+- scene 11 `வில்லுக்கொத்து போல` and the compressed cash/jewellery account;
+- scene 12 `வந்தேன் தவழ்ந்தாய்?`, difficult `பாரான`, the tali image, and `தாசில் உத்தியோகம்`;
+- scene 13 Marwari-shop dialect, `நீப்பன்—`, kinship wordplay, cross-page d023 pronoun instability, and fragmentary d024;
+- scene 14 `மாப்கரோஜ்` / `ரோஜ்` sound-play;
+- scene 15 unexplained `பாரா-2`, the Mariamman earth-flinging image, Gunasekaran's social monologue, and the two separately preserved song occurrences from soundtrack track 1.
 
-### Scene 11 review pressure points
+## Song representation through scene 15
 
-- The source simile `வில்லுக்கொத்து போல` is kept conservatively as `together like a bundle of bows`; it is not replaced by a smoother invented image.
-- The account of Kalyani's cash and jewellery is translated so that English does not imply literally selling money, while the source sequence remains untouched.
-
-### Scene 12 review pressure points
-
-- `பூமாலை` / `parasakthi-song-004` is one semantic-poetic unit on PDF 14.
-- The unusual source person-shift `வந்தேன் தவழ்ந்தாய்?` remains visible in English rather than being silently repaired.
-- `பாரான எந்தன் வயிற்றில்` is documented as semantically difficult.
-- `தாலி அறுத்தவர்கள்` retains the period tali image, and `தாசில் உத்தியோகம்` remains the source's culturally specific `Tahsildar's post` comparison rather than being generalized.
-
-### Scene 13 review pressure points
-
-- The Marwari-shop dialogue retains its source-linked dialect/code-switching without inventing a caricatured English accent.
-- The kinship joke around `தம்பி முறை` remains a kinship claim, not a modernized or sexualized inference.
-- `parasakthi-s013-d023` remains one cross-page unit across PDF **16→17**. Its repeated first-person forms and later third-person shift are deliberately preserved and noted.
-- The policeman's following line, `நீ மெட்ராசுக்கு மேயராக வர்ற காலத்திலே மிருகத்தையெல்லாம் மனுஷனுக்கு.`, remains fragmentary in English; no missing verb is invented.
-
-### Scene 14 review pressure points
-
-- `மாப்கரோஜ் மகராஜ்` is transliterated so Venu's following sound-play can remain visible.
-- `மண்ணாங்கட்டி` is rendered dismissively as `rubbish`, while `ரோஜ்` remains as sound-play rather than being over-explained.
-- `நாணயம்` in Venu's credit offer is rendered as reliability/creditworthiness, not literally as coin.
-
-### Scene 15 review pressure points
-
-- The unexplained source token `பாரா-2` is retained transparently as `[para-2]` with a note.
-- The Mariamman-temple earth-flinging image remains source-specific rather than being replaced with a generic curse.
-- Gunasekaran's `பைத்தியக்கார உலகம்` monologue retains its blunt sequence of hunger, theft, punishment and deception.
-- Soundtrack track 1 appears as two structurally distinct verified source occurrences: `parasakthi-song-005` (`குதம்பாய்`, PDF 19→20) and `parasakthi-song-006` (`தாண்டவக்கோனே`, PDF 20). They therefore remain two semantic-poetic translation units even though they belong to one soundtrack composition.
+- Scene 12 `parasakthi-song-004` / `பூமாலை` remains one verified semantic-poetic unit on PDF 14.
+- Scene 15 `parasakthi-song-005` (`குதம்பாய்`, PDF 19→20) and `parasakthi-song-006` (`தாண்டவக்கோனே`, PDF 20) remain two verified translation units because the verified Tamil derivative preserves them as distinct source occurrences, even though soundtrack evidence places both inside one composition.
 
 ## Next activity
 
-Perform a deliberate second-pass fidelity/editorial review of all **88 units in scenes 11–15**. Verify ordering, dialogue IDs and exact labels, stage-direction locators, song occurrence links and page provenance. Change English only where a genuine translation problem is found. **Do not begin scenes 16–20 until that review is complete.**
+Create the next source-linked English batch for canonical **scenes 16–20** at `review` status, preserving the same schema and immutable source-linking rules. After that batch is created, perform a deliberate second-pass review before verification.
