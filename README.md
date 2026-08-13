@@ -29,22 +29,14 @@ The repository is organized by **work/film**, with each work preserving source p
         ├── mapping.md
         ├── transcription/
         ├── scenes/
-        │   ├── index.json
-        │   └── scene-*.md
         ├── dialogues/
-        │   ├── README.md
-        │   ├── schema.json
-        │   ├── index.json
-        │   └── records/
-        │       └── scene-*.json
         ├── characters/
-        │   ├── README.md
-        │   ├── schema.json
-        │   ├── labels-inventory.json
-        │   ├── entities-pilot.json
-        │   ├── entities.json
-        │   └── index.json
         └── songs/
+            ├── README.md
+            ├── schema.json
+            ├── credits.json
+            ├── inventory.json
+            └── index.json
 ```
 
 ## First work: பராசக்தி
@@ -55,15 +47,15 @@ The canonical Tamil covers PDF **4–57 / printed pp.3–56** and is fully verif
 
 The source contains **46 observed scene headings**; scenes 23 and 34 are absent. The documented late transposition is preserved as source provenance while the canonical sequence uses scene 43 on PDF 49 and final scene 48 on PDF 57.
 
-The scene derivative layer is **46/46 complete**.
+The scene derivative layer is **46/46 complete**. The dialogue index is **complete-verified with 642 records**, and the character index is **complete-verified with explicit disposition for all 69 exact speaker labels**.
 
-The **dialogue index is complete-verified for all 46 observed scenes**, totaling **642 speaker-labelled records**. It contains 11 verified cross-page utterances and preserves exact source labels/punctuation without normalization.
+The **song/verse authorship gate is now active**. PDF 3 lists six booklet-wide song contributors—பாரதியார், பாரதிதாசன், உடுமலை நாராயணகவி, மு. கருணாநிதி, கே. பி. காமாட்சி சுந்தரம், and கு. ம. அண்ணல்தங்கோ—but does not pair them with individual songs.
 
-The **character index is also complete-verified**. All **69 distinct exact speaker labels** have an explicit disposition across **48 character/role/collective entities**: 66 labels are verified, `ராக` remains at review, and `நொண்டி` / `நொ` remain explicitly unresolved. No dialogue record was rewritten to achieve this mapping.
+A source-led inventory now contains **14 candidate song/verse occurrences**. **1 attribution is internally verified** (the scene-28 Bharathidasan quotation) and **13 remain unresolved** pending item-level evidence. Booklet-wide credit alone is never treated as an item-level assignment.
 
-The next structured derivative is the **per-song authorship gate**. Because the booklet credits multiple lyric contributors, each song or verse block must be identified and its authorship resolved from the printed credits or separately documented reliable evidence before song-specific extraction or translation.
+The next structured activity is to resolve those 13 remaining authorship records using primary/official or otherwise reliable attribution evidence. Outside sources may establish attribution metadata but must never be used to alter the canonical Tamil transcription.
 
-English translation may begin later as a separate derivative. Outside sources must never be used to alter the canonical Tamil transcription.
+English translation may begin later as a separate derivative, with song-specific translation remaining gated by item-level authorship disposition.
 
 ## Status vocabulary
 
