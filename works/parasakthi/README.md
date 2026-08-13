@@ -2,13 +2,7 @@
 
 Archival record for the scanned booklet **`பராசக்தி — முழு வசனம் + பாடல்கள்`**.
 
-## Source-supported identification
-
-The title page shows `பராசக்தி`, `முழு வசனம் + பாடல்கள்`, `திரைக்கதை, வசனம்`, `கலைஞர் மு. கருணாநிதி`, and `விலை ரூபாய் 1-00.` The credits page also prints `கதை-வசனம் — கலைஞர் மு. கருணாநிதி`.
-
-The PDF 3 `பாடல்கள்` credit lists six booklet-wide contributors: **பாரதியார், பாரதிதாசன், உடுமலை நாராயணகவி, மு. கருணாநிதி, கே. பி. காமாட்சி சுந்தரம், கு. ம. அண்ணல்தங்கோ**. Item-level song attribution is preserved separately in the verified song derivative layer.
-
-## Scan and canonical Tamil
+## Canonical source
 
 - Source: `TVA_BOK_0062968_பராசக்தி.pdf`
 - PDF pages: **58**
@@ -17,42 +11,40 @@ The PDF 3 `பாடல்கள்` credit lists six booklet-wide contributors:
 - PDF 58: rear advertisement / back matter
 - Canonical Tamil: **54 verified / 0 review / 0 unresolved markers**
 
-The source has **46 observed scene headings**. Headings 23 and 34 are absent. PDF 49's source `காட்சி-48` is canonical scene **43**, and PDF 57's source `காட்சி-43` is canonical final scene **48**; both printed readings remain preserved as provenance.
+The source has **46 observed scene headings**; headings 23 and 34 are absent. The documented late scene-number transposition remains source-provenanced while the canonical sequence uses scene 43 on PDF 49 and final scene 48 on PDF 57.
 
-## Completed structured derivatives
+## Completed Tamil/source derivatives
 
-- Scene index: **complete — 46 records**
-- Scene-text derivatives: **complete — 46/46**
+- Scene index: **46/46 complete**
+- Scene-text derivatives: **46/46 complete**
 - Dialogue index: **complete-verified — 642 records**
-- Character index: **complete-verified — 69/69 exact labels have an explicit disposition**
+- Character index: **complete-verified — 69/69 source labels disposed**
 - Song/verse inventory: **14 occurrence records**
-- Song authorship: **complete-verified — 14/14**
-- Tamil soundtrack derivatives: **complete-verified — 11/11 compositions**
+- Song authorship: **14/14 verified**
+- Tamil soundtrack derivatives: **11/11 complete-verified**
 - Separate quoted-verse derivative: **1**
 
-None of these derivative layers rewrites the canonical Tamil.
+None of these layers is rewritten by English translation work.
 
 ## English translation layer
 
-The English layer is stored under [`translations/`](translations/) as source-linked records rather than as a second screenplay authority.
+Source-linked English records live under [`translations/`](translations/). There is no second English screenplay authority yet.
 
-Current state:
+Current checkpoint:
 
 - status: **in-progress-review**
-- scenes started: **1–5**
-- scene 1: **verified**
-- scenes 2–5: **review**
-- translation units: **70 total**
-- verified units: **4**
-- review units: **66**
-- unit kinds: **55 dialogue / 13 stage direction / 2 song**
+- scenes started: **1–10**
+- scenes verified: **1–5**
+- scenes in review: **6–10**
+- translation units: **136**
+- verified: **70**
+- review: **66**
+- kinds: **109 dialogue / 24 stage direction / 3 song / 0 quoted verse**
 
-Scene 1's verified pilot contains the opening stage direction, `வாழ்க வாழ்கவே`, the transition direction, and the cross-page Thangappan dialogue. The dialogue remains one unit across PDF 4→5 with aligned English page segments.
+The scenes 2–5 second-pass review is complete. English-only refinements were applied where needed; no Tamil/source file was changed.
 
-The first full batch covers scenes 2–5. Scene 4's speaker-labelled `இல் வாழ்வினிலே` is represented as one song translation unit linked to `parasakthi-song-002`; the exact Tamil labels remain inline and the same text is not duplicated as eight separate English dialogue units.
-
-Interpretive or semantically unusual source passages remain explicitly noted in the English records rather than being silently repaired. Translation status is independent of the already-verified Tamil source status.
+The scenes 6–10 review batch includes several explicitly documented interpretive pressure points: scene 6's pregnancy euphemism, scene 8's two-page `ஓ ரசிக்கும் சீமானே` verse, scene 9's PDF 12→13 rhetorical monologue and anomalous `வங்கத்திலே`, and scene 10's contextual rendering of `பெட்டிலே` as hospital `bed`.
 
 ## Next activity
 
-Perform a deliberate second-pass review of the **66 English units in scenes 2–5**. If accepted, mark those scenes verified and begin the next English batch with canonical **scenes 6–10**.
+Second-pass review all **66 English units in scenes 6–10**. If they pass, mark scenes 6–10 verified and begin canonical **scenes 11–15**.
