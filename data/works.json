@@ -9,6 +9,21 @@
     "source_sha256": "b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c",
     "structural_mapping": "verified",
     "scene_headings_observed": 46,
+    "headings_not_observed": [23, 34],
+    "canonical_scene_number_corrections": [
+      {
+        "pdf_page": 49,
+        "printed_page": 48,
+        "source_heading": 48,
+        "canonical_heading": 43
+      },
+      {
+        "pdf_page": 57,
+        "printed_page": 56,
+        "source_heading": 43,
+        "canonical_heading": 48
+      }
+    ],
     "tamil_transcription": "fidelity-audited",
     "tamil_transcription_through_pdf_page": 57,
     "tamil_transcription_through_printed_page": 56,
@@ -29,6 +44,7 @@
     "part_02_uncertainty_markers_resolved_pending_apply": 0,
     "part_02_substantive_retranscription_pages": [42, 44, 45, 46, 48, 49, 52, 53, 54],
     "post_rewrite_verification_complete": true,
+    "post_rewrite_corrective_commit": "ac4828c60f9a69590f1fc6b2da17114f62c16d22",
     "next_fidelity_audit_pdf_page": null,
     "next_fidelity_action": null,
     "known_unresolved_audited_pdf_pages": [5, 16],
