@@ -2,13 +2,13 @@
   "work_id": "parasakthi",
   "target_language": "en",
   "canonical_scene": 1,
-  "pilot_status": "review",
+  "pilot_status": "verified",
   "unit_count": 4,
   "units": [
     {
       "id": "parasakthi-en-s001-u001",
       "kind": "stage-direction",
-      "status": "review",
+      "status": "verified",
       "target_language": "en",
       "canonical_scene": 1,
       "source": {
@@ -37,7 +37,7 @@
     {
       "id": "parasakthi-en-s001-u002",
       "kind": "song",
-      "status": "review",
+      "status": "verified",
       "target_language": "en",
       "canonical_scene": 1,
       "source": {
@@ -83,7 +83,7 @@
     {
       "id": "parasakthi-en-s001-u003",
       "kind": "stage-direction",
-      "status": "review",
+      "status": "verified",
       "target_language": "en",
       "canonical_scene": 1,
       "source": {
@@ -110,7 +110,7 @@
     {
       "id": "parasakthi-en-s001-u004",
       "kind": "dialogue",
-      "status": "review",
+      "status": "verified",
       "target_language": "en",
       "canonical_scene": 1,
       "source": {
