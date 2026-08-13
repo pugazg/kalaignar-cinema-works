@@ -6,7 +6,7 @@ Archival record for the scanned booklet **`பராசக்தி — மு�
 
 The title page shows `பராசக்தி`, `முழு வசனம் + பாடல்கள்`, `திரைக்கதை, வசனம்`, `கலைஞர் மு. கருணாநிதி`, and `விலை ரூபாய் 1-00.` The credits page also prints `கதை-வசனம் — கலைஞர் மு. கருணாநிதி`.
 
-The PDF 3 `பாடல்கள்` credit lists six booklet-wide contributors: **பாரதியார், பாரதிதாசன், உடுமலை நாராயணகவி, மு. கருணாநிதி, கே. பி. காமாட்சி சுந்தரம், கு. ம. அண்ணல்தங்கோ**. The page does not pair those contributors with individual songs, so booklet presence alone is not item-level authorship evidence.
+The PDF 3 `பாடல்கள்` credit lists six booklet-wide contributors: **பாரதியார், பாரதிதாசன், உடுமலை நாராயணகவி, மு. கருணாநிதி, கே. பி. காமாட்சி சுந்தரம், கு. ம. அண்ணல்தங்கோ**. That page itself does not pair contributors with individual songs; item-level resolution is therefore kept in the separate song derivative layer.
 
 ## Scan
 
@@ -38,9 +38,9 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Individual scene derivatives: **complete — 46/46 observed scenes**
 - Dialogue index: **complete-verified — 642 records / 46 observed scenes**
 - Character index: **complete-verified — 69/69 exact labels have an explicit disposition**
-- Character entities: **48 total — 46 verified, 1 review, 1 unresolved**
-- Song/verse inventory: **complete — 14 candidate occurrences**
-- Song authorship: **1 verified / 13 unresolved / 0 review**
+- Song/verse inventory: **complete — 14 occurrence records**
+- Song authorship: **complete-verified — 14 verified / 0 review / 0 unresolved**
+- Soundtrack compositions represented: **11**
 - English translation: **not-started**
 
 The final reviewer-assisted Part 01 readings are `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?` on PDF 5 and `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...` on PDF 16.
@@ -52,42 +52,41 @@ The final reviewer-assisted Part 01 readings are `கல்யாணிக்க
 
 The scan controls the Tamil. Film audio, subtitles, later editions, web quotations and memory are not used to repair the canonical text.
 
-## Scene derivatives
+## Scene, dialogue and character derivatives
 
-[`scenes/index.json`](scenes/index.json) and [`scenes/README.md`](scenes/README.md) define the complete scene layer. Important cases include scene 30 crossing the Part 01/Part 02 file boundary, scene 33 continuing because scene 34 is absent, and the documented source/canonical numbering distinction for scenes 43 and 48.
+[`scenes/`](scenes/) is complete for all 46 observed scenes. [`dialogues/`](dialogues/) contains **642 verified speaker-labelled records**. [`characters/`](characters/) gives explicit disposition to all **69 exact source speaker labels** across **48 entities**, with uncertainty retained rather than guessed away.
 
-## Dialogue index
+None of those derivative layers rewrites the canonical Tamil.
 
-[`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the final manifest; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
+## Song / verse authorship layer
 
-Dialogue extraction is **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent. Scenes 26, 29 and 48 are valid zero-record dialogue scenes. The complete dialogue index contains **11 verified cross-page utterances** and preserves exact source labels/punctuation.
+Files:
 
-## Character index
+- [`songs/schema.json`](songs/schema.json)
+- [`songs/credits.json`](songs/credits.json)
+- [`songs/tracklist-evidence.json`](songs/tracklist-evidence.json)
+- [`songs/inventory.json`](songs/inventory.json)
+- [`songs/index.json`](songs/index.json)
+- [`songs/README.md`](songs/README.md)
 
-The character layer is a separate derivative and does **not** modify any dialogue record.
+A user-supplied soundtrack screenshot was matched exactly to the Tamil Wikipedia soundtrack table for the 1952 film: the same **11 tracks**, singers, lyricists, durations and total length **35:46**. This item-level evidence resolves the soundtrack compositions without changing any canonical lyric wording.
 
-- [`characters/labels-inventory.json`](characters/labels-inventory.json) — all **69** distinct exact source speaker labels.
-- [`characters/entities.json`](characters/entities.json) — complete disposition for all 69 labels.
-- [`characters/index.json`](characters/index.json) — final character-index checkpoint.
+Final soundtrack lyricists represented:
 
-Final character coverage is **48 entities**, with **66 verified labels**, `ராக` at review, and `நொண்டி` / `நொ` explicitly unresolved. There are **0 unmapped labels**.
+- `தேசம் ஞானம் கல்வி` — **உடுமலை நாராயண கவி**
+- `கா கா கா` — **உடுமலை நாராயண கவி**
+- `நெஞ்சு பொறுக்கு தில்லையே` — **சுப்பிரமணிய பாரதி**
+- `இல் வாழ்வினிலே` — **பாரதிதாசன்**
+- `புது பெண்ணின் மனதை` — **கே. பி. காமாட்சிசுந்தரம்**
+- `ஓ ரசிக்கும் சீமானே` — **கே. பி. காமாட்சிசுந்தரம்**
+- `எல்லோரும் வாழ வேண்டும்` — **அண்ணல் தங்கோ**
+- `கொஞ்சு மொழி சொல்லும்` — **கே. பி. காமாட்சிசுந்தரம்**
+- `பூமாலை` — **மு. கருணாநிதி**
+- `பொருளே இல்லார்க்கு` — **கே. பி. காமாட்சிசுந்தரம்**
+- `வாழ்க வாழ்கவே` — **பாரதிதாசன்**
 
-## Song / verse authorship gate
-
-The song layer is now initialized and source-inventory complete:
-
-- [`songs/schema.json`](songs/schema.json) — attribution/inventory schema.
-- [`songs/credits.json`](songs/credits.json) — exact booklet-wide song contributor credit from PDF 3.
-- [`songs/inventory.json`](songs/inventory.json) — **14 candidate song/verse occurrences** in canonical order.
-- [`songs/index.json`](songs/index.json) — current checkpoint.
-- [`songs/README.md`](songs/README.md) — controlling attribution rules.
-
-The inventory distinguishes unlabelled songs, speaker-labelled verse, quoted verse, and a reprise. It also splits scene 15's `குதம்பாய்` and `தாண்டவக்கோனே` sections because later evidence may establish different authorship.
-
-At this checkpoint, only **one item is internally verified**: `parasakthi-song-009`, the scene-28 quotation beginning `கோரிக்கையற்று கிடக்குதண்ணே—இங்கு`. Narayana Pillai explicitly introduces that quotation as Bharathidasan's verse immediately before it, so the inventory records **பாரதிதாசன்** with `canonical-context-explicit` evidence.
-
-The remaining **13 items stay unresolved**. Even familiar literary/song attributions are not entered until item-level evidence is documented. Outside sources may resolve authorship metadata, but they must never alter canonical Tamil wording.
+The canonical inventory remains **14 occurrence records**, because soundtrack identity and source-text occurrence are not one-to-one: scene 15's `குதம்பாய்` and `தாண்டவக்கோனே` sections are two textual occurrences within one soundtrack track; scene 47 reprises the scene-33 composition; and scene 28 contains a separate Bharathidasan literary quotation rather than a soundtrack song.
 
 ## Next structured activity
 
-Resolve the **13 unresolved song/verse items** one by one using primary/official or otherwise reliable attribution sources. Record evidence separately, preserve the canonical text unchanged, and only then create song-specific derivative files or English song translations.
+Create source-faithful Tamil derivative files for the **11 soundtrack compositions**, copying text only from the verified canonical transcription/scene derivatives. Each derivative should retain authorship evidence, PDF/printed-page provenance, and all occurrence/reprise links. Keep the scene-28 Bharathidasan quotation as a separate quoted-verse derivative rather than folding it into the soundtrack set.
