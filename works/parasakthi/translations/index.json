@@ -6,35 +6,33 @@
   "readme": "README.md",
   "record_directory": "records",
   "pilot_scene": 1,
-  "scenes_started": [1, 2, 3, 4, 5],
-  "scenes_reviewed": [1, 2, 3, 4, 5],
-  "scenes_verified": [1],
-  "scenes_in_review": [2, 3, 4, 5],
-  "translation_units": 70,
-  "unit_status_counts": {
-    "draft": 0,
-    "review": 66,
-    "verified": 4
-  },
-  "unit_kind_counts": {
-    "stage-direction": 13,
-    "song": 2,
-    "dialogue": 55,
-    "quoted-verse": 0
-  },
+  "scenes_started": [1,2,3,4,5,6,7,8,9,10],
+  "scenes_reviewed": [1,2,3,4,5,6,7,8,9,10],
+  "scenes_verified": [1,2,3,4,5],
+  "scenes_in_review": [6,7,8,9,10],
+  "translation_units": 136,
+  "unit_status_counts": {"draft":0,"review":66,"verified":70},
+  "unit_kind_counts": {"stage-direction":24,"song":3,"dialogue":109,"quoted-verse":0},
   "scene_records": [
-    {"canonical_scene": 1, "path": "records/scene-01.json", "unit_count": 4, "status": "verified"},
-    {"canonical_scene": 2, "path": "records/scene-02.json", "unit_count": 46, "status": "review"},
-    {"canonical_scene": 3, "path": "records/scene-03.json", "unit_count": 10, "status": "review"},
-    {"canonical_scene": 4, "path": "records/scene-04.json", "unit_count": 2, "status": "review"},
-    {"canonical_scene": 5, "path": "records/scene-05.json", "unit_count": 8, "status": "review"}
+    {"canonical_scene":1,"path":"records/scene-01.json","unit_count":4,"status":"verified"},
+    {"canonical_scene":2,"path":"records/scene-02.json","unit_count":46,"status":"verified"},
+    {"canonical_scene":3,"path":"records/scene-03.json","unit_count":10,"status":"verified"},
+    {"canonical_scene":4,"path":"records/scene-04.json","unit_count":2,"status":"verified"},
+    {"canonical_scene":5,"path":"records/scene-05.json","unit_count":8,"status":"verified"},
+    {"canonical_scene":6,"path":"records/scene-06.json","unit_count":22,"status":"review"},
+    {"canonical_scene":7,"path":"records/scene-07.json","unit_count":24,"status":"review"},
+    {"canonical_scene":8,"path":"records/scene-08.json","unit_count":10,"status":"review"},
+    {"canonical_scene":9,"path":"records/scene-09.json","unit_count":1,"status":"review"},
+    {"canonical_scene":10,"path":"records/scene-10.json","unit_count":9,"status":"review"}
   ],
-  "cross_page_translation_units": ["parasakthi-en-s001-u004"],
+  "cross_page_translation_units": ["parasakthi-en-s001-u004","parasakthi-en-s008-u002","parasakthi-en-s009-u001"],
   "special_representation_notes": [
-    "Scene 4 is represented by one stage-direction unit plus one song unit linked to parasakthi-song-002; the song retains the exact source speaker labels inline and is not duplicated into eight separate English dialogue units.",
-    "Scene 1's Thangappan dialogue remains one unit across PDF 4→5 with English page segments aligned to the source break."
+    "Scene 4 is represented by one stage-direction unit plus one song unit linked to parasakthi-song-002; exact source speaker labels remain inline.",
+    "Scene 8's soundtrack song parasakthi-song-003 remains one semantic-poetic unit spanning PDF 11-12.",
+    "Scene 9's sole dialogue remains one rhetorical translation unit across PDF 12-13 with English page segments aligned to the source break.",
+    "Scene 1's Thangappan dialogue remains one verified unit across PDF 4-5."
   ],
-  "next_activity": "Perform a deliberate second-pass fidelity/editorial review of scenes 2-5. If accepted, mark those 66 units verified and begin the next English translation batch with canonical scenes 6-10 using the same schema.",
+  "next_activity": "Perform a deliberate second-pass fidelity/editorial review of scenes 6-10. If accepted, mark those 66 units verified and begin the next English translation batch with canonical scenes 11-15 using the same schema.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
