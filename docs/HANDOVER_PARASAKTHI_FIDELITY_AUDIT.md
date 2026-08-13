@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-Current stage: **Structured Derivatives — scene, dialogue and character indexes complete; per-song authorship gate next**.
+Current stage: **Structured Derivatives — scene, dialogue and character indexes complete; song/verse inventory complete; item-level authorship resolution next**.
 
 ## Canonical source state
 
@@ -45,20 +45,7 @@ Final state:
 - Zero-record observed scenes: **26, 29, 48**
 - Missing headings: **23, 34**
 - Existing dialogue records are immutable derivatives and must not be rewritten by later indexes.
-
-The complete dialogue index has **11 verified cross-page records**:
-
-- `parasakthi-s001-d001` — PDF 4→5
-- `parasakthi-s009-d001` — PDF 12→13
-- `parasakthi-s013-d023` — PDF 16→17
-- `parasakthi-s028-d023` — PDF 33→34
-- `parasakthi-s033-d053` — PDF 41→42
-- `parasakthi-s042-d001` — PDF 48→49
-- `parasakthi-s043-d003` — PDF 49→50
-- `parasakthi-s043-d017` — PDF 50→51
-- `parasakthi-s045-d001` — PDF 51→53
-- `parasakthi-s045-d003` — PDF 53→54
-- `parasakthi-s045-d018` — PDF 54→55
+- Cross-page records verified: **11**.
 
 Source-label punctuation anomalies remain preserved in dialogue records:
 
@@ -77,9 +64,7 @@ Files:
 - `works/parasakthi/characters/entities.json`
 - `works/parasakthi/characters/index.json`
 
-### Final coverage
-
-All **642 dialogue records** were surveyed for exact `speaker_label` values.
+Final coverage:
 
 - Distinct exact source labels: **69**
 - Explicit label dispositions: **69 / 69**
@@ -89,57 +74,91 @@ All **642 dialogue records** were surveyed for exact `speaker_label` values.
 - Review entities: **1**
 - Unresolved entities: **1**
 - Labels attached to verified entities: **66**
-- Review labels: **1** — `ராக`
-- Unresolved labels: **2** — `நொண்டி`, `நொ`
+- Review label: `ராக`
+- Unresolved labels: `நொண்டி`, `நொ`
 - Dialogue records modified by character indexing: **0**
 
-### Character mapping rules that remain controlling
+Important conservative decisions remain documented in `characters/README.md`. Do not force `நொண்டி` / `நொ` into ஞானசேகரன் without explicit source evidence.
 
-1. Never modify exact dialogue `speaker_label` values.
-2. Character normalization belongs only in the character derivative.
-3. Similar spelling alone does not prove identity.
-4. Generic source labels may be represented as role/collective categories rather than one continuing person.
-5. Ambiguity remains explicit rather than guessed away.
-6. `supporting_records` are representative evidence anchors.
+## Song / verse authorship gate — inventory complete
 
-### Important completed decisions
+Files:
 
-- `குரல்` → **குணசேகரன்**: scene 43 explicitly locates the voice behind the goddess image and immediately has Gunasekaran emerge from there.
-- `நாரா` → **நாராயணப் பிள்ளை**: scene 30 explicitly gives `ஜெனரல் மெர்ச்சண்ட் நாராயணப் பிள்ளை`.
-- `காந்` / `காந்தா` → **காந்தா**.
-- `பார்` / `பார்வதி` → **பார்வதி**.
-- `கருப்` → **கருப்பன்**.
-- `குப்` → **குப்பன்**.
-- `நீதி` remains a **judge role**, not globally merged into சந்திரசேகரன், because the source does not explicitly identify every judicial occurrence as that same person.
-- `டாக்டர்` / `டாக்`, `வியாபாரி` / `வியா`, `வீட்டுக்` / `வீட்`, and `பிச்சை` / `பிச்` are occupational-role categories; grouping does not assert one individual across unrelated scenes.
-- `1வது` vs `1—வது` and `2வது` vs `2—வது` remain separate scene-specific ordinal roles.
-- `ராக` → display form **இராகவன்** remains `review` / medium confidence because the source prints the vocative `இராகவா` and the nominative display form is a grammatical normalization.
-- `நொண்டி` / `நொ` remain explicit unresolved labels. Scene 37 proves the speaker is Kalyani's brother but does not explicitly identify which brother; do not force a merge into ஞானசேகரன்.
+- `works/parasakthi/songs/README.md`
+- `works/parasakthi/songs/schema.json`
+- `works/parasakthi/songs/credits.json`
+- `works/parasakthi/songs/inventory.json`
+- `works/parasakthi/songs/index.json`
 
-## Exact next work — per-song authorship gate
+### Exact booklet-wide song credits
 
-`docs/ARCHIVAL_WORKFLOW.md` controls this stage: a song inside a Kalaignar-credited dialogue booklet is **not automatically a Kalaignar lyric**. Song-specific files require an explicit authorship field and source; if a song cannot be disambiguated, authorship must remain `unresolved`.
+PDF 3 prints the heading `பாடல்கள்` followed by:
 
-Before creating song-specific derivatives:
+- `பாரதியார்`
+- `பாரதிதாசன்`
+- `உடுமலை நாராயணகவி`
+- `மு. கருணாநிதி`
+- `கே. பி. காமாட்சி சுந்தரம்`
+- `கு. ம. அண்ணல்தங்கோ`
 
-1. read current `works/parasakthi/mapping.md`, canonical transcription parts, and the booklet credits page;
-2. inventory every song/verse block in canonical order with PDF/printed-page provenance and scene context;
-3. distinguish unlabelled songs from explicitly speaker-labelled sung/verse dialogue already present in the dialogue index;
-4. transcribe the printed lyric/song contributor credits exactly as source metadata;
-5. attempt item-level authorship resolution using the booklet first;
-6. if the booklet does not identify which lyricist wrote a particular block, set authorship `unresolved` unless a separately documented reliable source resolves it;
-7. outside sources may resolve authorship metadata but must never alter canonical Tamil wording;
-8. only after authorship disposition exists should individual song files or English song translations be created.
+This is a **booklet-wide contributor list**. The credits page does **not** pair contributors with specific songs. `songs/credits.json` records `item_level_assignment_present: false`.
 
-Known song/verse locations from the structural map include material around PDF pages **4, 8, 11–12, 14, 20–21, 31–32, 35, 40, 44–45, 56–57**. Treat this as a location aid, not as a complete authorship determination; verify each block against the canonical text and credits.
+### Candidate inventory
 
-Recommended first song-authorship checkpoint:
+The source-led inventory contains **14 candidate song/verse occurrences**:
 
-- create `works/parasakthi/songs/README.md` if needed;
-- define `songs/schema.json`;
-- create an inventory of all candidate song/verse blocks with source page/scene provenance and provisional type (`unlabelled-song`, `speaker-labelled-verse`, `other-verse`);
-- record booklet-wide lyric contributor credits separately from item-level authorship;
-- do **not** infer per-song author from booklet-wide credits.
+1. `parasakthi-song-001` — scene 1 — `வாழ்க வாழ்கவே வாழ்க வாழ்கவே` — PDF 4.
+2. `parasakthi-song-002` — scene 4 — `இவ்வாழ்வினிலே ஒளி ஏற்றும் தீபம்` — PDF 8 — speaker-labelled verse / dialogue overlap.
+3. `parasakthi-song-003` — scene 8 — `ஓ ரசிகரும் சீமானே வா` — PDF 11→12.
+4. `parasakthi-song-004` — scene 12 — `பூமாலே நீயே புழுதி மண்மேலே வீணே` — PDF 14.
+5. `parasakthi-song-005` — scene 15 — `தேசம், ஞானம், கல்வி, ஈசன் பூசையெல்லாம்` — PDF 19→20 — `குதம்பாய்` section.
+6. `parasakthi-song-006` — scene 15 — `ஆரியக் கூத்தாடினாலும்` — PDF 20 — `தாண்டவக்கோனே` section.
+7. `parasakthi-song-007` — scene 17 — `கொஞ்சும் மொழி சொல்லும் கிளியே` — PDF 21→22.
+8. `parasakthi-song-008` — scene 26 — `கா—கா—கா—கா—` — PDF 31→32.
+9. `parasakthi-song-009` — scene 28 — `கோரிக்கையற்று கிடக்குதண்ணே—இங்கு` — PDF 33 — quoted verse.
+10. `parasakthi-song-010` — scene 29 — `பொருளே இல்லார்க்கு தொல்லையா` — PDF 35.
+11. `parasakthi-song-011` — scene 33 — `புதுப்பெண்ணின் மனதைத் தொட்டுப் போறவரே` — PDF 40.
+12. `parasakthi-song-012` — scene 39 — `நெஞ்சு பொறுக்குதில்லையே—இந்த` — PDF 44→45.
+13. `parasakthi-song-013` — scene 47 — short reprise of song 011 — PDF 56.
+14. `parasakthi-song-014` — scene 48 — `எல்லோரும் வாழ வேண்டும்—உயிர்கள்` — PDF 57.
+
+The earlier structural map was only a verse-location aid. This inventory improves it by splitting the two structurally separable scene-15 sections and adding the scene-28 literary quotation on PDF 33.
+
+### Current authorship state
+
+- Candidate occurrences: **14**
+- Authorship verified: **1**
+- Authorship review: **0**
+- Authorship unresolved: **13**
+
+`parasakthi-song-009` is the only internally verified item at this checkpoint. In scene 28, Narayana Pillai says `யாரோ பாரதிதாசனும் விதவையைப் பற்றி சொல்லியிருக்கான் பாரு` immediately before the verse, so its lyric/verse authorship is recorded as **பாரதிதாசன்** with `canonical-context-explicit` evidence.
+
+All other 13 records remain unresolved even when a literary or soundtrack attribution may be familiar. Familiarity is not archival evidence.
+
+Special cases:
+
+- Scene 4 performers/speaker labels do not imply lyric authorship.
+- Scene 15's `குதம்பாய்` and `தாண்டவக்கோனே` sections are separate inventory records so mixed authorship can be represented if evidence requires it.
+- Scene 33 has a partial reprise in scene 47; the reprise points back to the original block.
+- Scene 39 explicitly says `நெஞ்சு பொறுக்குதில்லையே` is another person's song but does not name the author in the scene text.
+- Scene 48 is an unlabelled collective closing song; scene 47 immediately precedes it with `(பேதமின்றி பாடுகின்றனர்)`.
+
+## Exact next work — resolve 13 unresolved authorship records
+
+Proceed item by item from `songs/inventory.json`.
+
+For each unresolved item:
+
+1. preserve the canonical opening line and page/scene provenance exactly;
+2. search first for primary/official or otherwise reliable attribution sources;
+3. prefer sources that identify the exact song/title/opening line, not merely a generic film-credit list;
+4. record the attribution source separately from canonical text;
+5. if multiple reliable sources disagree, mark the record `review` and preserve the disagreement;
+6. if no reliable item-level source is found, leave the item `unresolved`;
+7. outside evidence may change only attribution metadata — never canonical Tamil wording;
+8. do not create song-specific English translations until the corresponding authorship record has an explicit disposition.
+
+A practical first resolution batch should cover the most recognizable exact openings: `வாழ்க வாழ்கவே`, `நெஞ்சு பொறுக்குதில்லையே`, the two scene-15 sections, and the scene-33/47 `புதுப்பெண்ணின்...` composition. Then continue through the remaining items.
 
 ## Other stages
 
@@ -150,5 +169,6 @@ Recommended first song-authorship checkpoint:
 - Scene text derivatives: complete
 - Dialogue index: complete-verified
 - Character index: complete-verified
-- Per-song authorship mapping: **not-started — next**
-- English translation: not-started
+- Song/verse inventory: complete
+- Song authorship mapping: **in progress — 1 verified / 13 unresolved**
+- English translation: not started
