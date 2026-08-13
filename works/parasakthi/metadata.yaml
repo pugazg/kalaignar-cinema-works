@@ -58,9 +58,9 @@ transcription_progress:
     - path: "transcription/parts/part-01-pdf-4-35.md"
       pdf_pages: "4-35"
       printed_pages: "3-34"
-      fidelity_status: review
-      verified_pages: 30
-      review_pages: 2
+      fidelity_status: verified
+      verified_pages: 32
+      review_pages: 0
     - path: "transcription/parts/part-02-pdf-36-57.md"
       pdf_pages: "36-57"
       printed_pages: "35-56"
@@ -70,8 +70,8 @@ transcription_progress:
       corrections_applied: true
       post_rewrite_corrective_pass_applied: true
   rear_advertisement_recorded_pdf_page: 58
-  unresolved_short_spans: 2
-  unresolved_short_spans_note: "Only the genuine Part 01 source uncertainties on PDF 5 and PDF 16 remain. Part 02 has no unresolved marker after consolidated fidelity application and corrective post-check."
+  unresolved_short_spans: 0
+  unresolved_short_spans_note: "The final Part 01 readings on PDF 5 and PDF 16 were resolved by direct reviewer-assisted reading of the source scan: `உங்களுக்குத்` and `நரம்பு`. No canonical uncertainty marker remains."
 
 fidelity_audit:
   ledger: "notes/fidelity-audit.md"
@@ -80,8 +80,8 @@ fidelity_audit:
   canonical_range_audit_complete: true
   part_01_audit_complete: true
   part_01_corrections_applied: true
-  part_01_verified_pages: 30
-  part_01_review_pages: [5, 16]
+  part_01_verified_pages: 32
+  part_01_review_pages: []
   part_02_audited_pdf_pages: "36-57"
   part_02_audit_complete: true
   part_02_corrections_applied: true
@@ -91,15 +91,24 @@ fidelity_audit:
   part_02_substantive_retranscription_pages: [42, 44, 45, 46, 48, 49, 52, 53, 54]
   post_rewrite_verification_complete: true
   post_rewrite_corrective_commit: "ac4828c60f9a69590f1fc6b2da17114f62c16d22"
-  source_uncertainty_pages_audited: [5, 16]
+  final_part_01_resolution_commit: "13b29064d01d606f64f2ae817b25008d21394f75"
+  resolved_final_readings:
+    - pdf_page: 5
+      printed_page: 4
+      reading: "உங்களுக்குத்"
+      context: "கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?"
+    - pdf_page: 16
+      printed_page: 15
+      reading: "நரம்பு"
+      context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "No further fidelity-audit page remains. Keep PDF 5 and PDF 16 explicit unless stronger source evidence becomes available; derivative work may proceed only from verified source units."
-  note: "Full visual fidelity audit is complete. Part 02 was consolidated from the scan, then rechecked and corrected on the previously shaky blocks. All 22 Part 02 pages are verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints. The complete work remains review-qualified only because PDF 5 and PDF 16 in Part 01 retain genuine source uncertainty."
+  next_action: "Tamil fidelity audit is complete with all 54 canonical pages verified. Song authorship mapping or English translation may proceed as separate derivative work."
+  note: "Full visual fidelity audit is complete. Part 01 is now 32/32 verified after the final two source readings were resolved. Part 02 is 22/22 verified after consolidated retranscription and corrective post-check. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 status:
   structural_mapping: verified
-  tamil_transcription: fidelity-audited
-  tamil_fidelity_audit: complete-with-two-source-uncertainties
+  tamil_transcription: verified
+  tamil_fidelity_audit: complete
   song_authorship_mapping: not-started
-  english_translation: blocked-for-review-pages
+  english_translation: not-started
