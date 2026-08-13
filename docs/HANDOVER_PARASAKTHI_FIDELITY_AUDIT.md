@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-Current stage: **Structured Derivatives — dialogue index complete; character index next**.
+Current stage: **Structured Derivatives — character index pilot verified; systematic label expansion next**.
 
 ## Canonical source state
 
@@ -19,7 +19,7 @@ Final reviewer-assisted Part 01 readings remain:
 - PDF 5: `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`
 - PDF 16: `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
 
-## Scene structure
+## Scene structure — complete
 
 - **46 observed canonical scenes**.
 - Scene **23 absent**.
@@ -34,9 +34,9 @@ Final reviewer-assisted Part 01 readings remain:
 
 Files:
 
-- `works/parasakthi/dialogues/schema.json` — fixed record schema.
-- `works/parasakthi/dialogues/index.json` — final manifest.
-- `works/parasakthi/dialogues/records/scene-XX.json` — scene-sharded records.
+- `works/parasakthi/dialogues/schema.json`
+- `works/parasakthi/dialogues/index.json`
+- `works/parasakthi/dialogues/records/scene-XX.json`
 
 Final state:
 
@@ -45,41 +45,9 @@ Final state:
 - Dialogue records: **642**
 - Zero-record observed scenes: **26, 29, 48**
 - Missing headings: **23, 34**
+- Existing dialogue records must remain immutable during character indexing.
 
-Final batch counts:
-
-- scene 41: 23
-- scene 42: 1
-- scene 43: 19 (`source_scene_heading: 48`)
-- scene 44: 4
-- scene 45: 30
-- scene 46: 4
-- scene 47: 34
-- scene 48: 0 (`source_scene_heading: 43`)
-
-Scene 48 correctly has zero dialogue records because its content is the unlabelled closing song plus `—சுபம்—` / printer line.
-
-### Dialogue extraction rules that remain controlling
-
-Each record represents one explicitly speaker-labelled utterance. Preserve exact Tamil, exact source speaker label, canonical/source scene provenance, PDF/printed-page provenance and source scene file.
-
-Do not expand, merge or normalize speaker labels in dialogue records. Character identity normalization belongs only in the character-index layer.
-
-Exclude standalone stage directions, unlabelled prose, unlabelled songs/verse, printer marks and back matter. Explicitly labelled sung/verse material remains eligible. Parenthetical text inside a labelled utterance remains part of that utterance.
-
-When a labelled utterance crosses a page boundary, keep one record and preserve `page_segments`.
-
-### Explicit source-label punctuation anomalies
-
-Do not insert missing punctuation into canonical text:
-
-- `parasakthi-s021-d040` — `கல் ! கிறுக்கண்ணு! கிறுக்கண்ணு!`
-- `parasakthi-s025-d011` — `சி. ஜி. டி.` line without usual colon
-- `parasakthi-s025-d017` — second `சி. ஜி. டி.` line without usual colon
-
-### Cross-page dialogue records
-
-The complete index has **11** verified cross-page records:
+The complete dialogue index has **11 verified cross-page records**:
 
 - `parasakthi-s001-d001` — PDF 4→5
 - `parasakthi-s009-d001` — PDF 12→13
@@ -93,25 +61,96 @@ The complete index has **11** verified cross-page records:
 - `parasakthi-s045-d003` — PDF 53→54
 - `parasakthi-s045-d018` — PDF 54→55
 
-## Exact next work — character index
+Source-label punctuation anomalies remain preserved in dialogue records:
 
-Start a **character-index pilot** without changing any existing dialogue record.
+- `parasakthi-s021-d040`
+- `parasakthi-s025-d011`
+- `parasakthi-s025-d017`
 
-Recommended first activity:
+## Character index — pilot verified
 
-1. Read `dialogues/schema.json`, `dialogues/index.json`, and representative record files across the work.
-2. Inventory every distinct exact `speaker_label` used in the 642 records.
-3. Define a character/entity schema that separates:
-   - stable character/entity ID;
-   - preferred display name;
-   - exact source-label variants;
-   - role/generic labels (`ஒரு`, `மற்`, etc.);
-   - confidence/status for mappings;
-   - supporting dialogue record IDs / scenes.
-4. Create a small verified pilot for the central family/recurring characters only.
-5. **Do not infer ambiguous abbreviations solely from similarity.** If an abbreviation cannot be tied safely to one entity from source context, retain it as unresolved or role-based.
-6. Do not modify the 642 dialogue records; the character index is a separate derivative layer.
+Files:
 
-After the pilot is verified, expand the mapping across all distinct speaker labels and then update metadata/checkpoints.
+- `works/parasakthi/characters/README.md`
+- `works/parasakthi/characters/schema.json`
+- `works/parasakthi/characters/labels-inventory.json`
+- `works/parasakthi/characters/entities-pilot.json`
+- `works/parasakthi/characters/index.json`
 
-Other stages remain: per-song authorship mapping not started; English translation not started.
+### Complete exact-label inventory
+
+All 642 dialogue records have been surveyed for their exact `speaker_label` values.
+
+- Dialogue records surveyed: **642**
+- Observed scenes surveyed: **46**
+- Distinct exact source labels: **69**
+- Inventory status: **complete**
+
+`labels-inventory.json` records every exact label and the canonical scenes in which it occurs. This is an inventory only; it does not imply that similar labels belong to the same entity.
+
+### Pilot mapping
+
+The first character pilot is **verified** and intentionally conservative:
+
+- Pilot entities: **8**
+- Exact labels mapped: **18**
+- Exact labels remaining for review: **51**
+- Dialogue records modified: **0**
+
+Verified pilot entities:
+
+1. `parasakthi-char-gunasekaran` — **குணசேகரன்** — labels: `குண`
+2. `parasakthi-char-kalyani` — **கல்யாணி** — labels: `கல்யாணி`, `கல்யா`, `கல்`
+3. `parasakthi-char-chandrasekaran` — **சந்திரசேகரன்** — labels: `சந்`, `சந்திர`, `சேகர்`
+4. `parasakthi-char-gnanasekaran` — **ஞானசேகரன்** — labels: `ஞான`, `ஞா`
+5. `parasakthi-char-saraswati` — **சரஸ்வதி** — labels: `சரஸ்`, `சர`
+6. `parasakthi-char-thangappan` — **தங்கப்பன்** — labels: `தங்கப்பன்`, `தங்`
+7. `parasakthi-char-manickam-pillai` — **மாணிக்கம் பிள்ளை** — labels: `மாணிக்கம்`, `மாணிக்`, `மாணி`, `மணி`
+8. `parasakthi-char-vimala` — **விமலா** — label: `விம`
+
+`entities-pilot.json` contains representative supporting dialogue record IDs and scene coverage for every mapping.
+
+### Character mapping rules
+
+These rules are controlling for the next pass:
+
+1. **Never modify the exact dialogue `speaker_label`.** Character mapping is a separate derivative.
+2. Similar spelling alone is not sufficient evidence for merging labels.
+3. Named-character mappings should be based on direct source context, self-identification, family/scene continuity, or repeated unambiguous usage.
+4. Generic labels may become `role` or `collective` entities rather than named characters.
+5. If a label is still ambiguous, retain it as `unresolved`; do not force a mapping to reduce the unresolved count.
+6. Representative `supporting_records` should be preserved for every verified mapping.
+7. The final character index may contain verified entities alongside explicit unresolved label records.
+
+A deliberate example: `நொண்டி` and `நொ` are **not** included in the ஞானசேகரன் pilot mapping even though narrative context may suggest an identity. Resolve them only during the evidence pass if the source continuity is sufficiently explicit.
+
+## Exact next work — expand the remaining 51 labels
+
+Continue from `characters/index.json` and `characters/labels-inventory.json`.
+
+For each remaining exact source label:
+
+1. find every scene in `labels-inventory.json`;
+2. inspect the corresponding dialogue record(s) and, when necessary, the verified scene derivative for context;
+3. decide whether the label maps to a named character, a generic role, a collective, or must remain unresolved;
+4. add or extend a stable entity only when the evidence is sufficient;
+5. preserve the exact label string as a variant — never rename it in dialogue data;
+6. record confidence/status and representative evidence IDs;
+7. keep a running mapped/unresolved label count.
+
+Recommended order for the expansion pass:
+
+- first resolve straightforward recurring named/role labels such as `வேணு`, `நாரா`, `காந்`/`காந்தா`, `பூசாரி`, `பார்`/`பார்வதி`, `டாக்`/`டாக்டர்`, `கருப்`, `ஜாலி`;
+- then resolve clear occupational/generic labels (`போலீஸ்`, `நீதி`, `வக்`, `வியாபாரி`/`வியா`, etc.);
+- finally review ambiguous abbreviations/collectives and leave any unsupported identity as unresolved.
+
+Do not mark the character index `complete-verified` until all 69 exact labels have an explicit disposition: mapped to a verified/review entity or retained as unresolved.
+
+## Other stages
+
+- Scene index: complete
+- Scene text derivatives: complete
+- Dialogue index: complete-verified
+- Character index: **pilot-verified / expansion pending**
+- Per-song authorship mapping: not started
+- English translation: not started
