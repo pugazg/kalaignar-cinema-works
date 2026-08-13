@@ -1,0 +1,39 @@
+{
+  "work_id": "parasakthi",
+  "evidence_id": "parasakthi-tracklist-2026-08-13",
+  "evidence_type": "user-supplied-screenshot-corroborated-public-tracklist",
+  "user_supplied_attachment": "AACA17EB-B678-4C65-9068-5F8BAF735FB4.jpeg",
+  "identified_public_source": {
+    "title": "பராசக்தி (1952 திரைப்படம்)",
+    "section": "இசைத்தட்டு",
+    "publisher": "தமிழ் விக்கிப்பீடியா",
+    "url": "https://ta.wikipedia.org/wiki/பராசக்தி_(1952_திரைப்படம்)",
+    "matched_table_total_length": "35:46",
+    "match_note": "The user-supplied screenshot matches the public table exactly in row order, song titles, singers, lyricists, durations and total length."
+  },
+  "source_quality_note": "This is item-level secondary tracklist evidence supplied by the user and independently matched to the public Tamil Wikipedia soundtrack table. The Wikipedia article cites a 1952 National Pictures song booklet among its music references, but that archived PDF could not be directly retrieved in this session. Canonical Tamil text remains controlled only by the verified dialogue/song booklet scan.",
+  "tracks": [
+    {"track": 1, "title_ta": "தேசம் ஞானம் கல்வி", "singers_ta": ["சி. எஸ். ஜெயராமன்"], "lyricist_ta": "உடுமலை நாராயண கவி", "duration": "3:26", "inventory_occurrences": ["parasakthi-song-005", "parasakthi-song-006"]},
+    {"track": 2, "title_ta": "கா கா கா", "singers_ta": ["சி. எஸ். ஜெயராமன்"], "lyricist_ta": "உடுமலை நாராயண கவி", "duration": "3:00", "inventory_occurrences": ["parasakthi-song-008"]},
+    {"track": 3, "title_ta": "நெஞ்சு பொறுக்கு தில்லையே", "singers_ta": ["சி. எஸ். ஜெயராமன்"], "lyricist_ta": "சுப்பிரமணிய பாரதி", "duration": "4:50", "inventory_occurrences": ["parasakthi-song-012"]},
+    {"track": 4, "title_ta": "இல் வாழ்வினிலே", "singers_ta": ["டி. எஸ். பகவதி", "எம். ஹெச். ஹுசைன்"], "lyricist_ta": "பாரதிதாசன்", "duration": "2:07", "inventory_occurrences": ["parasakthi-song-002"]},
+    {"track": 5, "title_ta": "புது பெண்ணின் மனதை", "singers_ta": ["எம். எஸ். ராஜேஸ்வரி"], "lyricist_ta": "கே. பி. காமாட்சிசுந்தரம்", "duration": "4:23", "inventory_occurrences": ["parasakthi-song-011", "parasakthi-song-013"]},
+    {"track": 6, "title_ta": "ஓ ரசிக்கும் சீமானே", "singers_ta": ["எம். எஸ். ராஜேஸ்வரி"], "lyricist_ta": "கே. பி. காமாட்சிசுந்தரம்", "duration": "1:44", "inventory_occurrences": ["parasakthi-song-003"]},
+    {"track": 7, "title_ta": "எல்லோரும் வாழ வேண்டும்", "singers_ta": ["டி. எஸ். பகவதி", "எம். எஸ். ராஜேஸ்வரி"], "lyricist_ta": "அண்ணல் தங்கோ", "duration": "1:35", "inventory_occurrences": ["parasakthi-song-014"]},
+    {"track": 8, "title_ta": "கொஞ்சு மொழி சொல்லும்", "singers_ta": ["டி. எஸ். பகவதி"], "lyricist_ta": "கே. பி. காமாட்சிசுந்தரம்", "duration": "3:03", "inventory_occurrences": ["parasakthi-song-007"]},
+    {"track": 9, "title_ta": "பூமாலை", "singers_ta": ["டி. எஸ். பகவதி"], "lyricist_ta": "மு. கருணாநிதி", "duration": "3:01", "inventory_occurrences": ["parasakthi-song-004"]},
+    {"track": 10, "title_ta": "பொருளே இல்லார்க்கு", "singers_ta": ["டி. எஸ். பகவதி"], "lyricist_ta": "கே. பி. காமாட்சிசுந்தரம்", "duration": "3:37", "inventory_occurrences": ["parasakthi-song-010"]},
+    {"track": 11, "title_ta": "வாழ்க வாழ்கவே", "singers_ta": ["எம். எல். வசந்தகுமாரி"], "lyricist_ta": "பாரதிதாசன்", "duration": "5:00", "inventory_occurrences": ["parasakthi-song-001"]}
+  ],
+  "inventory_reconciliation": {
+    "soundtrack_tracks": 11,
+    "soundtrack_occurrence_records": 13,
+    "non_soundtrack_quoted_verse_records": 1,
+    "total_inventory_records": 14,
+    "special_cases": [
+      "parasakthi-song-005 and parasakthi-song-006 are two structurally distinct canonical text sections belonging to soundtrack track 1, `தேசம் ஞானம் கல்வி`.",
+      "parasakthi-song-013 is a partial reprise of soundtrack track 5 / parasakthi-song-011.",
+      "parasakthi-song-009 is a Bharathidasan literary quotation in scene 28 and is not one of the 11 soundtrack-table rows."
+    ]
+  }
+}
