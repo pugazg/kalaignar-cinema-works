@@ -2,65 +2,26 @@
   "work_id": "parasakthi",
   "target_language": "en",
   "canonical_scene": 4,
-  "scene_status": "review",
+  "scene_status": "verified",
   "unit_count": 2,
   "units": [
     {
       "id": "parasakthi-en-s004-u001",
       "kind": "stage-direction",
-      "status": "review",
+      "status": "verified",
       "target_language": "en",
       "canonical_scene": 4,
-      "source": {
-        "source_path": "works/parasakthi/scenes/scene-04.md",
-        "canonical_scene_path": "works/parasakthi/scenes/scene-04.md",
-        "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Opening direction after the scene-4 heading."},
-        "page_provenance": [{"pdf_page": 8, "printed_page": 7}]
-      },
-      "translation": {
-        "english_text": "(Kalyani and her husband rejoice, singing in refined Tamil in a grove where the mango-cuckoo calls.)",
-        "mode": "prose-faithful",
-        "notes": ["`பைந்தமிழ் பண்பாடி` is rendered as `singing in refined Tamil`; the source's poetic register is not expanded into additional action."]
-      }
+      "source": {"source_path":"works/parasakthi/scenes/scene-04.md","source_locator":{"kind":"scene-parenthetical-block","ordinal":1,"description":"Opening direction after the scene-4 heading."},"page_provenance":[{"pdf_page":8,"printed_page":7}]},
+      "translation": {"english_text":"(Kalyani and her husband rejoice, singing in refined Tamil in a grove where the cuckoo calls.)","mode":"prose-faithful","notes":["`பைந்தமிழ் பண்பாடி` is rendered as `singing in refined Tamil`; `மாங்குயில்` is rendered naturally as `cuckoo` rather than the overly literal compound `mango-cuckoo`."]}
     },
     {
       "id": "parasakthi-en-s004-u002",
       "kind": "song",
-      "status": "review",
+      "status": "verified",
       "target_language": "en",
       "canonical_scene": 4,
-      "source": {
-        "source_path": "works/parasakthi/songs/tracks/04-il-vaazhvinile.md",
-        "canonical_scene_path": "works/parasakthi/scenes/scene-04.md",
-        "source_occurrence_id": "parasakthi-song-002",
-        "page_provenance": [{"pdf_page": 8, "printed_page": 7}]
-      },
-      "translation": {
-        "english_lines": [
-          "தங்: The lamp that kindles light in this life—",
-          "The form of the queen of my heart.",
-          "கல்: The one who shines as the flame within this lamp—",
-          "The form of the valiant one.",
-          "தங்: The form of a youthful peacock.",
-          "கல்: The lamp that kindles light in this life—",
-          "The lamp of our love.",
-          "தங்: O fruit! O sugarcane-sweet Tamil! O nectar!",
-          "O flower on which dew sleeps! O moon!",
-          "கல்: With your tender words, you have captivated me,",
-          "O magnetic statue.",
-          "தங்: When I see you, the feeling that wells within my heart—",
-          "There are no letters with which a writer could set it down.",
-          "இரு: Like this festive day, every day let us dance and sing,",
-          "And live as sweetly as honey. (In this life"
-        ],
-        "mode": "semantic-poetic",
-        "notes": [
-          "This is a semantic translation, not a singable adaptation.",
-          "The exact source speaker labels `தங்`, `கல்`, and `இரு` are retained inline because the verified song text is speaker-labelled.",
-          "The source refrain fragment `(இல்` is represented as `(In this life` without silently reconstructing a complete refrain.",
-          "`இள மாமயில்` is rendered literally as `a youthful peacock`; no gendered substitution is introduced."
-        ]
-      }
+      "source": {"source_path":"works/parasakthi/songs/tracks/04-il-vaazhvinile.md","source_occurrence_id":"parasakthi-song-002","page_provenance":[{"pdf_page":8,"printed_page":7}]},
+      "translation": {"english_lines":["தங்: The lamp that kindles light in this life—","The form of the queen of my heart.","கல்: The one who shines as the flame within this lamp—","The form of the valiant one.","தங்: The form of a youthful peacock.","கல்: The lamp that kindles light in this life—","The lamp of our love.","தங்: O fruit! O sugarcane-sweet Tamil! O nectar!","O flower on which dew sleeps! O moon!","கல்: With your tender words, you have captivated me,","O magnetic statue.","தங்: When I see you, the feeling that wells within my heart—","There are no letters with which a writer could set it down.","இரு: Like this festive day, every day let us dance and sing,","And live as sweetly as honey. (In this life"],"mode":"semantic-poetic","notes":["Semantic translation, not a singable adaptation.","Exact source speaker labels `தங்`, `கல்`, and `இரு` are retained inline.","The source refrain fragment `(இல்` remains incomplete in English rather than being reconstructed.","`இள மாமயில்` is rendered literally as `a youthful peacock`; no gendered substitution is introduced."]}
     }
   ]
 }
