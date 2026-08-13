@@ -42,6 +42,7 @@ The repository is organized by **work/film**, with each work preserving source p
         │   ├── schema.json
         │   ├── labels-inventory.json
         │   ├── entities-pilot.json
+        │   ├── entities.json
         │   └── index.json
         └── songs/
 ```
@@ -56,13 +57,13 @@ The source contains **46 observed scene headings**; scenes 23 and 34 are absent.
 
 The scene derivative layer is **46/46 complete**.
 
-The **dialogue index is complete and verified for all 46 observed scenes**, totaling **642 speaker-labelled records**. It contains 11 verified cross-page utterances and preserves exact source labels/punctuation without normalization.
+The **dialogue index is complete-verified for all 46 observed scenes**, totaling **642 speaker-labelled records**. It contains 11 verified cross-page utterances and preserves exact source labels/punctuation without normalization.
 
-The **character index has now begun with a verified pilot**. All **69 distinct exact dialogue speaker labels** have been inventoried; the pilot maps **18 labels to 8 evidence-backed recurring character entities**, leaving **51 labels** for systematic review. The character layer is separate and does not modify any dialogue record.
+The **character index is also complete-verified**. All **69 distinct exact speaker labels** have an explicit disposition across **48 character/role/collective entities**: 66 labels are verified, `ராக` remains at review, and `நொண்டி` / `நொ` remain explicitly unresolved. No dialogue record was rewritten to achieve this mapping.
 
-The next structured activity is to expand the character/entity mapping across those remaining 51 labels, using role/collective entities where appropriate and retaining ambiguous labels as unresolved rather than guessing.
+The next structured derivative is the **per-song authorship gate**. Because the booklet credits multiple lyric contributors, each song or verse block must be identified and its authorship resolved from the printed credits or separately documented reliable evidence before song-specific extraction or translation.
 
-English translation may begin later as a separate derivative. Per-song authorship remains a separate gate because the booklet credits multiple lyric contributors.
+English translation may begin later as a separate derivative. Outside sources must never be used to alter the canonical Tamil transcription.
 
 ## Status vocabulary
 
@@ -73,5 +74,6 @@ English translation may begin later as a separate derivative. Per-song authorshi
 - `verified`
 - `pilot-verified`
 - `complete-verified`
+- `unresolved`
 
 A derivative translation can begin only after the corresponding Tamil source text is verified.
