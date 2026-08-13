@@ -24,18 +24,21 @@
         "canonical_heading": 48
       }
     ],
-    "tamil_transcription": "fidelity-audited",
+    "tamil_transcription": "verified",
     "tamil_transcription_through_pdf_page": 57,
     "tamil_transcription_through_printed_page": 56,
     "tamil_first_pass_complete": true,
-    "tamil_fidelity_audit": "complete-with-two-source-uncertainties",
+    "tamil_fidelity_audit": "complete",
     "tamil_fidelity_audit_through_pdf_page": 57,
     "tamil_fidelity_audit_through_printed_page": 56,
     "canonical_range_fidelity_audit_complete": true,
+    "total_canonical_pages": 54,
+    "total_verified_pages": 54,
+    "total_review_pages": 0,
     "part_01_fidelity_audit_complete": true,
     "part_01_corrections_applied": true,
-    "part_01_verified_pages": 30,
-    "part_01_review_pages": [5, 16],
+    "part_01_verified_pages": 32,
+    "part_01_review_pages": [],
     "part_02_fidelity_audit_through_pdf_page": 57,
     "part_02_fidelity_audit_complete": true,
     "part_02_corrections_applied": true,
@@ -45,10 +48,11 @@
     "part_02_substantive_retranscription_pages": [42, 44, 45, 46, 48, 49, 52, 53, 54],
     "post_rewrite_verification_complete": true,
     "post_rewrite_corrective_commit": "ac4828c60f9a69590f1fc6b2da17114f62c16d22",
+    "final_part_01_resolution_commit": "13b29064d01d606f64f2ae817b25008d21394f75",
     "next_fidelity_audit_pdf_page": null,
     "next_fidelity_action": null,
-    "known_unresolved_audited_pdf_pages": [5, 16],
-    "canonical_unresolved_short_spans": 2,
-    "english_translation": "blocked-for-review-pages"
+    "known_unresolved_audited_pdf_pages": [],
+    "canonical_unresolved_short_spans": 0,
+    "english_translation": "not-started"
   }
 ]
