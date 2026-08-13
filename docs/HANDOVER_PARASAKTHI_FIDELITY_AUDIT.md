@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-Current stage: **Structured Derivatives — character index pilot verified; systematic label expansion next**.
+Current stage: **Structured Derivatives — scene, dialogue and character indexes complete; per-song authorship gate next**.
 
 ## Canonical source state
 
@@ -30,7 +30,7 @@ Final reviewer-assisted Part 01 readings remain:
 - Scene 33 spans PDF 38→42 because scene 34 is absent.
 - All **46/46 observed scene derivatives are complete**.
 
-## Dialogue index — complete
+## Dialogue index — complete-verified
 
 Files:
 
@@ -40,12 +40,11 @@ Files:
 
 Final state:
 
-- Status: **complete-verified**
 - Observed scenes represented: **46 / 46**
 - Dialogue records: **642**
 - Zero-record observed scenes: **26, 29, 48**
 - Missing headings: **23, 34**
-- Existing dialogue records must remain immutable during character indexing.
+- Existing dialogue records are immutable derivatives and must not be rewritten by later indexes.
 
 The complete dialogue index has **11 verified cross-page records**:
 
@@ -67,7 +66,7 @@ Source-label punctuation anomalies remain preserved in dialogue records:
 - `parasakthi-s025-d011`
 - `parasakthi-s025-d017`
 
-## Character index — pilot verified
+## Character index — complete-verified
 
 Files:
 
@@ -75,82 +74,81 @@ Files:
 - `works/parasakthi/characters/schema.json`
 - `works/parasakthi/characters/labels-inventory.json`
 - `works/parasakthi/characters/entities-pilot.json`
+- `works/parasakthi/characters/entities.json`
 - `works/parasakthi/characters/index.json`
 
-### Complete exact-label inventory
+### Final coverage
 
-All 642 dialogue records have been surveyed for their exact `speaker_label` values.
+All **642 dialogue records** were surveyed for exact `speaker_label` values.
 
-- Dialogue records surveyed: **642**
-- Observed scenes surveyed: **46**
 - Distinct exact source labels: **69**
-- Inventory status: **complete**
+- Explicit label dispositions: **69 / 69**
+- Unmapped labels: **0**
+- Entities: **48**
+- Verified entities: **46**
+- Review entities: **1**
+- Unresolved entities: **1**
+- Labels attached to verified entities: **66**
+- Review labels: **1** — `ராக`
+- Unresolved labels: **2** — `நொண்டி`, `நொ`
+- Dialogue records modified by character indexing: **0**
 
-`labels-inventory.json` records every exact label and the canonical scenes in which it occurs. This is an inventory only; it does not imply that similar labels belong to the same entity.
+### Character mapping rules that remain controlling
 
-### Pilot mapping
+1. Never modify exact dialogue `speaker_label` values.
+2. Character normalization belongs only in the character derivative.
+3. Similar spelling alone does not prove identity.
+4. Generic source labels may be represented as role/collective categories rather than one continuing person.
+5. Ambiguity remains explicit rather than guessed away.
+6. `supporting_records` are representative evidence anchors.
 
-The first character pilot is **verified** and intentionally conservative:
+### Important completed decisions
 
-- Pilot entities: **8**
-- Exact labels mapped: **18**
-- Exact labels remaining for review: **51**
-- Dialogue records modified: **0**
+- `குரல்` → **குணசேகரன்**: scene 43 explicitly locates the voice behind the goddess image and immediately has Gunasekaran emerge from there.
+- `நாரா` → **நாராயணப் பிள்ளை**: scene 30 explicitly gives `ஜெனரல் மெர்ச்சண்ட் நாராயணப் பிள்ளை`.
+- `காந்` / `காந்தா` → **காந்தா**.
+- `பார்` / `பார்வதி` → **பார்வதி**.
+- `கருப்` → **கருப்பன்**.
+- `குப்` → **குப்பன்**.
+- `நீதி` remains a **judge role**, not globally merged into சந்திரசேகரன், because the source does not explicitly identify every judicial occurrence as that same person.
+- `டாக்டர்` / `டாக்`, `வியாபாரி` / `வியா`, `வீட்டுக்` / `வீட்`, and `பிச்சை` / `பிச்` are occupational-role categories; grouping does not assert one individual across unrelated scenes.
+- `1வது` vs `1—வது` and `2வது` vs `2—வது` remain separate scene-specific ordinal roles.
+- `ராக` → display form **இராகவன்** remains `review` / medium confidence because the source prints the vocative `இராகவா` and the nominative display form is a grammatical normalization.
+- `நொண்டி` / `நொ` remain explicit unresolved labels. Scene 37 proves the speaker is Kalyani's brother but does not explicitly identify which brother; do not force a merge into ஞானசேகரன்.
 
-Verified pilot entities:
+## Exact next work — per-song authorship gate
 
-1. `parasakthi-char-gunasekaran` — **குணசேகரன்** — labels: `குண`
-2. `parasakthi-char-kalyani` — **கல்யாணி** — labels: `கல்யாணி`, `கல்யா`, `கல்`
-3. `parasakthi-char-chandrasekaran` — **சந்திரசேகரன்** — labels: `சந்`, `சந்திர`, `சேகர்`
-4. `parasakthi-char-gnanasekaran` — **ஞானசேகரன்** — labels: `ஞான`, `ஞா`
-5. `parasakthi-char-saraswati` — **சரஸ்வதி** — labels: `சரஸ்`, `சர`
-6. `parasakthi-char-thangappan` — **தங்கப்பன்** — labels: `தங்கப்பன்`, `தங்`
-7. `parasakthi-char-manickam-pillai` — **மாணிக்கம் பிள்ளை** — labels: `மாணிக்கம்`, `மாணிக்`, `மாணி`, `மணி`
-8. `parasakthi-char-vimala` — **விமலா** — label: `விம`
+`docs/ARCHIVAL_WORKFLOW.md` controls this stage: a song inside a Kalaignar-credited dialogue booklet is **not automatically a Kalaignar lyric**. Song-specific files require an explicit authorship field and source; if a song cannot be disambiguated, authorship must remain `unresolved`.
 
-`entities-pilot.json` contains representative supporting dialogue record IDs and scene coverage for every mapping.
+Before creating song-specific derivatives:
 
-### Character mapping rules
+1. read current `works/parasakthi/mapping.md`, canonical transcription parts, and the booklet credits page;
+2. inventory every song/verse block in canonical order with PDF/printed-page provenance and scene context;
+3. distinguish unlabelled songs from explicitly speaker-labelled sung/verse dialogue already present in the dialogue index;
+4. transcribe the printed lyric/song contributor credits exactly as source metadata;
+5. attempt item-level authorship resolution using the booklet first;
+6. if the booklet does not identify which lyricist wrote a particular block, set authorship `unresolved` unless a separately documented reliable source resolves it;
+7. outside sources may resolve authorship metadata but must never alter canonical Tamil wording;
+8. only after authorship disposition exists should individual song files or English song translations be created.
 
-These rules are controlling for the next pass:
+Known song/verse locations from the structural map include material around PDF pages **4, 8, 11–12, 14, 20–21, 31–32, 35, 40, 44–45, 56–57**. Treat this as a location aid, not as a complete authorship determination; verify each block against the canonical text and credits.
 
-1. **Never modify the exact dialogue `speaker_label`.** Character mapping is a separate derivative.
-2. Similar spelling alone is not sufficient evidence for merging labels.
-3. Named-character mappings should be based on direct source context, self-identification, family/scene continuity, or repeated unambiguous usage.
-4. Generic labels may become `role` or `collective` entities rather than named characters.
-5. If a label is still ambiguous, retain it as `unresolved`; do not force a mapping to reduce the unresolved count.
-6. Representative `supporting_records` should be preserved for every verified mapping.
-7. The final character index may contain verified entities alongside explicit unresolved label records.
+Recommended first song-authorship checkpoint:
 
-A deliberate example: `நொண்டி` and `நொ` are **not** included in the ஞானசேகரன் pilot mapping even though narrative context may suggest an identity. Resolve them only during the evidence pass if the source continuity is sufficiently explicit.
-
-## Exact next work — expand the remaining 51 labels
-
-Continue from `characters/index.json` and `characters/labels-inventory.json`.
-
-For each remaining exact source label:
-
-1. find every scene in `labels-inventory.json`;
-2. inspect the corresponding dialogue record(s) and, when necessary, the verified scene derivative for context;
-3. decide whether the label maps to a named character, a generic role, a collective, or must remain unresolved;
-4. add or extend a stable entity only when the evidence is sufficient;
-5. preserve the exact label string as a variant — never rename it in dialogue data;
-6. record confidence/status and representative evidence IDs;
-7. keep a running mapped/unresolved label count.
-
-Recommended order for the expansion pass:
-
-- first resolve straightforward recurring named/role labels such as `வேணு`, `நாரா`, `காந்`/`காந்தா`, `பூசாரி`, `பார்`/`பார்வதி`, `டாக்`/`டாக்டர்`, `கருப்`, `ஜாலி`;
-- then resolve clear occupational/generic labels (`போலீஸ்`, `நீதி`, `வக்`, `வியாபாரி`/`வியா`, etc.);
-- finally review ambiguous abbreviations/collectives and leave any unsupported identity as unresolved.
-
-Do not mark the character index `complete-verified` until all 69 exact labels have an explicit disposition: mapped to a verified/review entity or retained as unresolved.
+- create `works/parasakthi/songs/README.md` if needed;
+- define `songs/schema.json`;
+- create an inventory of all candidate song/verse blocks with source page/scene provenance and provisional type (`unlabelled-song`, `speaker-labelled-verse`, `other-verse`);
+- record booklet-wide lyric contributor credits separately from item-level authorship;
+- do **not** infer per-song author from booklet-wide credits.
 
 ## Other stages
 
+- Structural mapping: verified
+- Canonical Tamil transcription: verified
+- Tamil fidelity audit: complete
 - Scene index: complete
 - Scene text derivatives: complete
 - Dialogue index: complete-verified
-- Character index: **pilot-verified / expansion pending**
-- Per-song authorship mapping: not started
-- English translation: not started
+- Character index: complete-verified
+- Per-song authorship mapping: **not-started — next**
+- English translation: not-started
