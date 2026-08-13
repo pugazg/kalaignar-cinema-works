@@ -1,0 +1,101 @@
+{
+  "work_id": "parasakthi",
+  "status": "pilot-verified",
+  "source_label_inventory": "labels-inventory.json",
+  "dialogue_index": "../dialogues/index.json",
+  "dialogue_records_source": 642,
+  "distinct_source_labels": 69,
+  "pilot_entities": 8,
+  "mapped_distinct_source_labels": 18,
+  "remaining_unmapped_source_labels": 51,
+  "entities": [
+    {
+      "id": "parasakthi-char-gunasekaran",
+      "preferred_name_ta": "குணசேகரன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["குண"],
+      "scenes": [2, 7, 9, 13, 15, 16, 17, 19, 20, 21, 22, 30, 31, 33, 39, 40, 43, 45, 47],
+      "supporting_records": ["parasakthi-s002-d002", "parasakthi-s009-d001", "parasakthi-s045-d001"],
+      "notes": "`குண` is the recurring exact source label for Gunasekaran; representative records include the early family scene, his scene-9 monologue, and the courtroom speech."
+    },
+    {
+      "id": "parasakthi-char-kalyani",
+      "preferred_name_ta": "கல்யாணி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["கல்யாணி", "கல்யா", "கல்"],
+      "scenes": [3, 4, 6, 12, 14, 19, 21, 25, 28, 32, 35, 36, 38, 39, 40, 41, 45, 47],
+      "supporting_records": ["parasakthi-s003-d001", "parasakthi-s012-d002", "parasakthi-s041-d004"],
+      "notes": "`கல்யாணி`, `கல்யா`, and `கல்` are directly anchored to Kalyani across full-name and abbreviated labels in recurring family/court scenes."
+    },
+    {
+      "id": "parasakthi-char-chandrasekaran",
+      "preferred_name_ta": "சந்திரசேகரன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["சந்", "சந்திர", "சேகர்"],
+      "scenes": [2, 5, 10, 24, 27, 38, 44, 47],
+      "supporting_records": ["parasakthi-s002-d021", "parasakthi-s005-d002", "parasakthi-s027-d001"],
+      "notes": "`சந்` is explicitly self-identified as Chandrasekaran in scene 2 (`ஹலோ—சந்திரசேகரன் ஸ்பீக்கிங்`); `சந்திர` and later `சேகர்` occur in the same established elder-brother/judge continuity."
+    },
+    {
+      "id": "parasakthi-char-gnanasekaran",
+      "preferred_name_ta": "ஞானசேகரன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["ஞான", "ஞா"],
+      "scenes": [2, 5, 33, 46, 47],
+      "supporting_records": ["parasakthi-s002-d001", "parasakthi-s005-d001", "parasakthi-s047-d011"],
+      "notes": "`ஞான` and `ஞா` are direct abbreviations for Gnanasakaran in family scenes. The later labels `நொண்டி` / `நொ` are deliberately not mapped in this pilot."
+    },
+    {
+      "id": "parasakthi-char-saraswati",
+      "preferred_name_ta": "சரஸ்வதி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["சரஸ்", "சர"],
+      "scenes": [2, 10, 24, 44, 47],
+      "supporting_records": ["parasakthi-s002-d014", "parasakthi-s010-d006", "parasakthi-s047-d008"],
+      "notes": "`சரஸ்` is used for Saraswati from the opening family sequence onward; the shorter `சர` occurs in the same scene-47 household continuity."
+    },
+    {
+      "id": "parasakthi-char-thangappan",
+      "preferred_name_ta": "தங்கப்பன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["தங்கப்பன்", "தங்"],
+      "scenes": [1, 4, 6, 8],
+      "supporting_records": ["parasakthi-s001-d001", "parasakthi-s004-d001", "parasakthi-s008-d002"],
+      "notes": "The full label `தங்கப்பன்` and abbreviated `தங்` occur in the wedding/family sequence for Kalyani's husband."
+    },
+    {
+      "id": "parasakthi-char-manickam-pillai",
+      "preferred_name_ta": "மாணிக்கம் பிள்ளை",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["மாணிக்கம்", "மாணிக்", "மாணி", "மணி"],
+      "scenes": [3, 6, 8],
+      "supporting_records": ["parasakthi-s003-d004", "parasakthi-s003-d006", "parasakthi-s006-d009", "parasakthi-s006-d019"],
+      "notes": "`மாணிக்கம்`, `மாணிக்`, `மாணி`, and `மணி` all occur in the same father-of-Kalyani continuity across scenes 3, 6 and 8."
+    },
+    {
+      "id": "parasakthi-char-vimala",
+      "preferred_name_ta": "விமலா",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["விம"],
+      "scenes": [31, 33, 45, 47],
+      "supporting_records": ["parasakthi-s031-d003", "parasakthi-s033-d002", "parasakthi-s045-d014", "parasakthi-s047-d010"],
+      "notes": "`விம` is the recurring exact source label for Vimala across scenes 31, 33, 45 and 47."
+    }
+  ]
+}
