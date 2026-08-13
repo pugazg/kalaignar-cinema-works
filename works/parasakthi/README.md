@@ -31,24 +31,26 @@ The visible canonical transcription corrects those two headings to **43** and **
 ## Current state
 
 - Structural mapping: **verified**
-- Canonical Tamil transcription: **complete** for PDF 4–57 / printed pp. 3–56
+- Canonical Tamil transcription: **complete and verified** for PDF 4–57 / printed pp. 3–56
 - Full canonical visual fidelity audit: **complete**
-- Part 01: **30 verified / 2 review**
+- Part 01: **32 verified / 0 review**
 - Part 02: **22 verified / 0 review**
-- Total canonical page status: **52 verified / 2 review**
-- Remaining source uncertainties: **PDF 5 and PDF 16 only**
+- Total canonical page status: **54 verified / 0 review**
+- Remaining source uncertainties: **none**
+- Remaining canonical uncertainty markers: **0**
+- The final Part 01 readings were resolved as `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?` on PDF 5 and `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...` on PDF 16
 - Part 02's six first-pass uncertainty markers were resolved from the scan and applied
 - Nine materially corrupted Part 02 blocks were retranscribed directly from the scan during consolidated application
 - A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Per-song authorship mapping: **not-started**
-- English translation: permitted only for `verified` source units; the two `review` pages remain blocked
+- English translation: **not-started; the verified Tamil source is now ready for derivative translation work**
 
 ## Canonical transcription
 
 [`transcription/full-text.md`](transcription/full-text.md) is the canonical manifest. The page-order transcription is preserved in two parts:
 
-- [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34; audited and consolidated
+- [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34; audited and fully verified
 - [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56; audited, consolidated and post-rewrite verified, plus the PDF 58 back-matter provenance note
 
 The scan controls the textual transcription. Film audio/subtitles, later editions, web quotations, or memory are not used to repair unreadable source text.
