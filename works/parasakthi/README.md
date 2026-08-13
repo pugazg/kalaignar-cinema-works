@@ -4,7 +4,9 @@ Archival record for the scanned booklet **`பராசக்தி — மு�
 
 ## Source-supported identification
 
-The title page shows `பராசக்தி`, `முழு வசனம் + பாடல்கள்`, `திரைக்கதை, வசனம்`, `கலைஞர் மு. கருணாநிதி`, and `விலை ரூபாய் 1-00.` The credits page also prints `கதை-வசனம் — கலைஞர் மு. கருணாநிதி` and lists multiple song/lyric contributors, so individual songs are not attributed automatically to Kalaignar.
+The title page shows `பராசக்தி`, `முழு வசனம் + பாடல்கள்`, `திரைக்கதை, வசனம்`, `கலைஞர் மு. கருணாநிதி`, and `விலை ரூபாய் 1-00.` The credits page also prints `கதை-வசனம் — கலைஞர் மு. கருணாநிதி`.
+
+The PDF 3 `பாடல்கள்` credit lists six booklet-wide contributors: **பாரதியார், பாரதிதாசன், உடுமலை நாராயணகவி, மு. கருணாநிதி, கே. பி. காமாட்சி சுந்தரம், கு. ம. அண்ணல்தங்கோ**. The page does not pair those contributors with individual songs, so booklet presence alone is not item-level authorship evidence.
 
 ## Scan
 
@@ -37,8 +39,8 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Dialogue index: **complete-verified — 642 records / 46 observed scenes**
 - Character index: **complete-verified — 69/69 exact labels have an explicit disposition**
 - Character entities: **48 total — 46 verified, 1 review, 1 unresolved**
-- Character label dispositions: **66 verified, 1 review, 2 unresolved, 0 unmapped**
-- Per-song authorship mapping: **not-started**
+- Song/verse inventory: **complete — 14 candidate occurrences**
+- Song authorship: **1 verified / 13 unresolved / 0 review**
 - English translation: **not-started**
 
 The final reviewer-assisted Part 01 readings are `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?` on PDF 5 and `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...` on PDF 16.
@@ -58,31 +60,34 @@ The scan controls the Tamil. Film audio, subtitles, later editions, web quotatio
 
 [`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the final manifest; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
 
-Dialogue extraction is **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent. Scenes 26, 29 and 48 are valid zero-record dialogue scenes. Scene 48 contains the unlabelled closing song plus `—சுபம்—` / printer line.
-
-The complete dialogue index contains **11 verified cross-page utterances**. Exact speaker labels and source punctuation anomalies remain unnormalized.
+Dialogue extraction is **complete for all 46 observed scenes**, totaling **642 records**. Scenes 23 and 34 remain absent. Scenes 26, 29 and 48 are valid zero-record dialogue scenes. The complete dialogue index contains **11 verified cross-page utterances** and preserves exact source labels/punctuation.
 
 ## Character index
 
 The character layer is a separate derivative and does **not** modify any dialogue record.
 
 - [`characters/labels-inventory.json`](characters/labels-inventory.json) — all **69** distinct exact source speaker labels.
-- [`characters/schema.json`](characters/schema.json) — entity/mapping schema.
-- [`characters/entities-pilot.json`](characters/entities-pilot.json) — preserved 8-entity pilot.
 - [`characters/entities.json`](characters/entities.json) — complete disposition for all 69 labels.
 - [`characters/index.json`](characters/index.json) — final character-index checkpoint.
 
-Final character coverage:
+Final character coverage is **48 entities**, with **66 verified labels**, `ராக` at review, and `நொண்டி` / `நொ` explicitly unresolved. There are **0 unmapped labels**.
 
-- **48 entities** total;
-- **46 verified entities**;
-- **1 review entity** — `ராக` → display form `இராகவன்`, retained at review because converting the printed vocative `இராகவா` to a nominative name is a grammatical normalization;
-- **1 unresolved entity** — `நொண்டி` / `நொ`;
-- **66 verified labels + 1 review label + 2 unresolved labels = 69/69**;
-- **0 unmapped labels**.
+## Song / verse authorship gate
 
-Important conservative decisions are documented in [`characters/README.md`](characters/README.md). In particular, `நொண்டி` / `நொ` are **not** merged into ஞானசேகரன் because scene 37 proves the speaker is Kalyani's brother but does not explicitly identify which brother. Conversely, scene 43's `குரல்` is mapped to குணசேகரன் because the verified stage direction places the voice behind the goddess image and immediately has Gunasekaran emerge from that exact position.
+The song layer is now initialized and source-inventory complete:
+
+- [`songs/schema.json`](songs/schema.json) — attribution/inventory schema.
+- [`songs/credits.json`](songs/credits.json) — exact booklet-wide song contributor credit from PDF 3.
+- [`songs/inventory.json`](songs/inventory.json) — **14 candidate song/verse occurrences** in canonical order.
+- [`songs/index.json`](songs/index.json) — current checkpoint.
+- [`songs/README.md`](songs/README.md) — controlling attribution rules.
+
+The inventory distinguishes unlabelled songs, speaker-labelled verse, quoted verse, and a reprise. It also splits scene 15's `குதம்பாய்` and `தாண்டவக்கோனே` sections because later evidence may establish different authorship.
+
+At this checkpoint, only **one item is internally verified**: `parasakthi-song-009`, the scene-28 quotation beginning `கோரிக்கையற்று கிடக்குதண்ணே—இங்கு`. Narayana Pillai explicitly introduces that quotation as Bharathidasan's verse immediately before it, so the inventory records **பாரதிதாசன்** with `canonical-context-explicit` evidence.
+
+The remaining **13 items stay unresolved**. Even familiar literary/song attributions are not entered until item-level evidence is documented. Outside sources may resolve authorship metadata, but they must never alter canonical Tamil wording.
 
 ## Next structured activity
 
-Proceed to the **per-song authorship gate**. The booklet credits multiple song/lyric contributors, so first identify every song/verse block and map its authorship from the printed credits where possible. If the booklet does not disambiguate a particular song, keep authorship `unresolved` unless separately cited reliable evidence resolves it. Do not use outside sources to alter the canonical Tamil text.
+Resolve the **13 unresolved song/verse items** one by one using primary/official or otherwise reliable attribution sources. Record evidence separately, preserve the canonical text unchanged, and only then create song-specific derivative files or English song translations.
