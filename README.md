@@ -42,6 +42,10 @@ The repository is organized by **work/film**, with each work preserving its sour
         │   ├── README.md
         │   ├── index.json
         │   └── scene-*.md
+        ├── dialogues/
+        │   ├── README.md
+        │   ├── schema.json
+        │   └── index.json
         └── songs/
 ```
 
@@ -57,9 +61,11 @@ The canonical Tamil dialogue/song transcription covers **PDF 4–57 / printed pp
 
 Current page status is **54 verified / 0 review**. The final two Part 01 readings were resolved directly from the scan with reviewer assistance: PDF 5 reads `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?`, and PDF 16 reads `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`. No canonical uncertainty marker remains.
 
-The scene derivative layer is also complete: **46 / 46 observed scene files** exist under `works/parasakthi/scenes/`. Scenes 23 and 34 remain absent because those headings are not observed. Canonical `scene-43.md` records source heading 48 on PDF 49, and canonical final `scene-48.md` records source heading 43 on PDF 57.
+The scene derivative layer is complete: **46 / 46 observed scene files** exist under `works/parasakthi/scenes/`. Scenes 23 and 34 remain absent because those headings are not observed. Canonical `scene-43.md` records source heading 48 on PDF 49, and canonical final `scene-48.md` records source heading 43 on PDF 57.
 
-The next structured derivative is the **dialogue index**, which will be built from the verified canonical/scene text with exact speaker labels and PDF/printed-page provenance. English translation may begin later as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
+The **dialogue index has now started with a verified pilot** under `works/parasakthi/dialogues/`: scenes 1–2 produce **42 speaker-labelled dialogue records** using a fixed schema that preserves exact labels, exact Tamil wording, and PDF/printed-page provenance. The next dialogue batch is scenes **3–10**.
+
+English translation may begin later as a separate derivative activity; per-song authorship mapping remains a separate prerequisite for song-specific attribution work.
 
 ## Status vocabulary
 
