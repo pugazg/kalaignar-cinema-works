@@ -17,9 +17,16 @@ The title page shows `பராசக்தி`, `முழு வசனம் +
 
 See [`mapping.md`](mapping.md) for the corrected complete structural page map.
 
-## Source numbering
+## Scene numbering
 
-The detailed transcription and visual audit confirm **46 visible scene headings**. Only `காட்சி-23` and `காட்சி-34` were not observed. The source prints `காட்சி-48` on PDF 49 / printed p.48 and places `காட்சி-43` at the end on PDF 57 / printed p.56, after scenes 46 and 47. These source anomalies are preserved without normalization.
+The detailed transcription and visual audit confirm **46 visible scene headings**. Only `காட்சி-23` and `காட்சி-34` were not observed.
+
+The booklet contains a documented scene-number transposition near the end:
+
+- on PDF 49 / printed p.48 it prints `காட்சி-48`, where the sequence requires **`காட்சி-43`**;
+- on PDF 57 / printed p.56 it prints `காட்சி-43`, although this is the final **`காட்சி-48`** after scenes 46 and 47.
+
+The visible canonical transcription corrects those two headings to **43** and **48** respectively. The booklet's printed readings are retained in inline provenance comments and in [`mapping.md`](mapping.md), so the correction is explicit rather than silent.
 
 ## Current state
 
@@ -32,15 +39,16 @@ The detailed transcription and visual audit confirm **46 visible scene headings*
 - Remaining source uncertainties: **PDF 5 and PDF 16 only**
 - Part 02's six first-pass uncertainty markers were resolved from the scan and applied
 - Nine materially corrupted Part 02 blocks were retranscribed directly from the scan during consolidated application
+- A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Per-song authorship mapping: **not-started**
 - English translation: permitted only for `verified` source units; the two `review` pages remain blocked
 
 ## Canonical transcription
 
-[`transcription/full-text.md`](transcription/full-text.md) is the canonical manifest. The source-order transcription is preserved in two parts:
+[`transcription/full-text.md`](transcription/full-text.md) is the canonical manifest. The page-order transcription is preserved in two parts:
 
 - [`transcription/parts/part-01-pdf-4-35.md`](transcription/parts/part-01-pdf-4-35.md) — PDF 4–35 / printed pp. 3–34; audited and consolidated
-- [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56; audited and consolidated, plus the PDF 58 back-matter provenance note
+- [`transcription/parts/part-02-pdf-36-57.md`](transcription/parts/part-02-pdf-36-57.md) — PDF 36–57 / printed pp. 35–56; audited, consolidated and post-rewrite verified, plus the PDF 58 back-matter provenance note
 
-The scan, not the film audio/subtitles, later editions, web quotations, or memory, controls the canonical text.
+The scan controls the textual transcription. Film audio/subtitles, later editions, web quotations, or memory are not used to repair unreadable source text.
