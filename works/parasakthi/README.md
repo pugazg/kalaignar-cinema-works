@@ -44,7 +44,7 @@ The visible canonical transcription corrects those two headings to **43** and **
 - A post-rewrite enlarged visual check corrected remaining Part 02 source-form issues before the final durable checkpoint
 - Audit ledger: [`notes/fidelity-audit.md`](notes/fidelity-audit.md)
 - Structured scene index: **complete — 46 records**
-- Individual scene-text derivatives: **not-started**
+- Individual scene-text derivatives: **in progress — scenes 1–10 complete (10/46)**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started; the verified Tamil source is ready for derivative translation work**
 
@@ -59,15 +59,15 @@ The scan controls the textual transcription. Film audio/subtitles, later edition
 
 ## Structured derivatives
 
-The repository has now entered the post-verification **structured derivatives** stage defined in `docs/ARCHIVAL_WORKFLOW.md`.
+The repository has entered the post-verification **structured derivatives** stage defined in `docs/ARCHIVAL_WORKFLOW.md`.
 
-[`scenes/index.json`](scenes/index.json) is the first derivative artifact. It records all **46 observed canonical scenes**, their starting PDF/printed page, canonical part, intended scene-file name, and—where required—the booklet's different printed heading.
+[`scenes/index.json`](scenes/index.json) records all **46 observed canonical scenes**, their starting PDF/printed page, canonical part, intended scene-file name, and—where required—the booklet's different printed heading.
 
 [`scenes/README.md`](scenes/README.md) defines the derivative rules. In particular:
 
 - scenes 23 and 34 are not invented because no such headings are observed in the source;
 - canonical scene 43 retains source heading 48 as provenance;
 - canonical scene 48 retains source heading 43 as provenance;
-- derivative scene files must copy only from the verified canonical Tamil and must retain page anchors.
+- derivative scene files copy only from the verified canonical Tamil and retain page anchors.
 
-The next derivative operation is to create the individual scene-text files, beginning with **scenes 1–10**.
+The first extraction batch is complete: **`scene-01.md` through `scene-10.md`**. The next derivative batch is **canonical scenes 11–20**.
