@@ -32,19 +32,19 @@ Source-linked English records live under [`translations/`](translations/). There
 
 Current checkpoint:
 
-- status: **in-progress-review**
+- status: **in-progress-verified**
 - scenes started: **1–15**
-- scenes verified: **1–10**
-- scenes in review: **11–15**
+- scenes verified: **1–15**
+- scenes in review: **none**
 - translation units: **224**
-- verified: **136**
-- review: **88**
+- verified: **224**
+- review: **0**
 - kinds: **176 dialogue / 42 stage direction / 6 song / 0 quoted verse**
 
-The scenes 6–10 second-pass review is complete. All **66** units passed after a small set of English-only corrections; no Tamil/source file was changed.
+The scenes 11–15 second-pass review is complete. All **88** units passed after English-only refinements in scenes 13–15; no Tamil/source file was changed.
 
-The new scenes 11–15 review batch contains **88** source-linked units. Explicit review pressure points include scene 11's `வில்லுக்கொத்து போல` simile, scene 12's `பூமாலை` source anomalies and widowhood vocabulary, scene 13's dialect/kinship language and PDF 16→17 cross-page rhetoric, scene 14's `மாப்கரோஜ்` sound-play, and scene 15's unexplained `பாரா-2` plus the two separately identified occurrences of soundtrack track 1.
+Documented source pressure points remain visible rather than normalized: scene 11's `வில்லுக்கொத்து போல` simile, scene 12's `பூமாலை` source anomalies and widowhood vocabulary, scene 13's dialect/kinship language and PDF 16→17 cross-page rhetoric, scene 14's `மாப்கரோஜ்` sound-play, and scene 15's unexplained `பாரா-2` plus the two separately identified occurrences of soundtrack track 1.
 
 ## Next activity
 
-Second-pass review all **88 English units in scenes 11–15**. Change English only where source fidelity requires it. Do **not** begin scenes 16–20 until that review is complete.
+Create the next source-linked English translation batch for canonical **scenes 16–20** at `review` status, then perform the same deliberate second-pass review before verification.
