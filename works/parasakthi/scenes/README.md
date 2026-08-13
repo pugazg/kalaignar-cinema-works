@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene index:** complete  
-**Individual scene-text files:** not started
+**Individual scene-text files:** in progress — **10 / 46 complete**
 
 This directory is a derivative layer built only from the fully verified canonical Tamil transcription. It does **not** replace or normalize the canonical source text in `../transcription/parts/`.
 
@@ -28,22 +28,36 @@ The documented late numbering correction is preserved:
 
 For those two records, `index.json` stores both `source_heading` and `canonical_heading` so the derivative remains traceable to the printed booklet.
 
-## Planned scene files
+## Scene-text extraction
 
-The next operation in this derivative stage is deterministic extraction of each scene into its own file, using names such as:
+Completed first batch:
 
 - `scene-01.md`
 - `scene-02.md`
-- …
-- `scene-48.md`
+- `scene-03.md`
+- `scene-04.md`
+- `scene-05.md`
+- `scene-06.md`
+- `scene-07.md`
+- `scene-08.md`
+- `scene-09.md`
+- `scene-10.md`
+
+Each scene file was extracted from the verified canonical Part 01 text, starts at its canonical heading, stops immediately before the next scene heading, and retains canonical page anchors that occur within the scene. A derivative provenance comment records the scene number, start PDF/printed page, and canonical part.
 
 No `scene-23.md` or `scene-34.md` will be created unless new primary-source evidence establishes those headings.
 
-Each future scene file must:
+## Derivative rules
+
+Each scene file must:
 
 1. copy Tamil only from the verified canonical transcription;
 2. retain every page anchor that occurs within the scene;
 3. record the scene's starting PDF/printed page;
 4. preserve songs, dialogue, stage directions and page-boundary continuity exactly as represented in the canonical layer;
-5. point back to the canonical part file;
+5. point back to the canonical part file through its provenance metadata;
 6. never be used to repair or overwrite the canonical transcription.
+
+## Next batch
+
+Extract **canonical scenes 11–20** from verified Part 01 using the same deterministic boundary rule, then verify the ten scene boundaries against `index.json` and the canonical part.
