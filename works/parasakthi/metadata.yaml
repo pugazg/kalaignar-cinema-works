@@ -115,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "English scene 1 is verified. Scenes 2-5 are source-linked and in review: 66 new units, bringing the translation layer to 70 units total (4 verified / 66 review). Perform the second-pass review; if accepted, verify scenes 2-5 and begin scenes 6-10."
+  next_action: "English scenes 1-5 are verified: 70 units. Scenes 6-10 are source-linked and in review: 66 additional units, bringing the layer to 136 total (70 verified / 66 review). Second-pass scenes 6-10; if accepted, verify them and begin scenes 11-15."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -260,22 +260,22 @@ structured_derivatives:
     schema: "translations/schema.json"
     readme: "translations/README.md"
     record_directory: "translations/records"
-    scenes_started: [1, 2, 3, 4, 5]
-    scenes_verified: [1]
-    scenes_in_review: [2, 3, 4, 5]
-    translation_units: 70
+    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    scenes_verified: [1, 2, 3, 4, 5]
+    scenes_in_review: [6, 7, 8, 9, 10]
+    translation_units: 136
     unit_status_counts:
       draft: 0
       review: 66
-      verified: 4
+      verified: 70
     unit_kind_counts:
-      stage_direction: 13
-      song: 2
-      dialogue: 55
+      stage_direction: 24
+      song: 3
+      dialogue: 109
       quoted_verse: 0
-    cross_page_units: ["parasakthi-en-s001-u004"]
+    cross_page_units: ["parasakthi-en-s001-u004", "parasakthi-en-s008-u002", "parasakthi-en-s009-u001"]
     source_layers_modified: false
-    next_action: "Second-pass review scenes 2-5; if accepted, verify them and translate canonical scenes 6-10."
+    next_action: "Second-pass review scenes 6-10; if accepted, verify them and translate canonical scenes 11-15."
 
 status:
   structural_mapping: verified
