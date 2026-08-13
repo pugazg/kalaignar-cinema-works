@@ -12,14 +12,14 @@ The title page shows `பராசக்தி`, `முழு வசனம் +
 - PDF pages: **58**
 - SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
 - Image-only scan
-- Canonical printed dialogue/song range: PDF **4–57** / printed pp. **3–56**
+- Canonical dialogue/song range: PDF **4–57** / printed pp. **3–56**
 - PDF 58: rear advertisement / back matter
 
 See [`mapping.md`](mapping.md) for the structural page map.
 
 ## Scene numbering
 
-The verified source contains **46 visible scene headings**. Headings 23 and 34 are not observed.
+The verified source contains **46 observed scene headings**. Headings 23 and 34 are not observed.
 
 The booklet transposes two late scene numbers:
 
@@ -34,7 +34,7 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Remaining source uncertainties: **0**
 - Scene index: **complete — 46 records**
 - Individual scene derivatives: **complete — 46/46 observed scenes**
-- Dialogue index: **in-progress-verified — 413 records across 29 observed scenes**
+- Dialogue index: **in-progress-verified — 527 records across 38 observed scenes**
 - Character index: **not-started**
 - Per-song authorship mapping: **not-started**
 - English translation: **not-started**
@@ -56,33 +56,32 @@ The scan controls the Tamil. Film audio, subtitles, later editions, web quotatio
 
 [`dialogues/schema.json`](dialogues/schema.json) is the fixed record schema. [`dialogues/index.json`](dialogues/index.json) is the compact checkpoint; records are stored by canonical scene under [`dialogues/records/`](dialogues/records/).
 
-Dialogue extraction is now verified for canonical scenes **1–22 and 24–30**, totaling **413 records**. Scene 23 remains absent.
+Dialogue extraction is verified for canonical scenes **1–22, 24–33 and 35–40**, totaling **527 records**. Scenes 23 and 34 remain absent.
 
-The observed 21–30 batch added **160 records**:
+The observed 31–40 batch added **114 records**:
 
-- scene 21: 40
-- scene 22: 11
-- scene 24: 6
-- scene 25: 26
-- scene 26: 0
-- scene 27: 3
-- scene 28: 48
-- scene 29: 0
-- scene 30: 26
+- scene 31: 13
+- scene 32: 4
+- scene 33: 56
+- scene 35: 10
+- scene 36: 4
+- scene 37: 8
+- scene 38: 8
+- scene 39: 9
+- scene 40: 2
 
-Scenes 26 and 29 contain no explicitly speaker-labelled utterances, so their dialogue files correctly contain zero records.
+Scene 33 intentionally spans PDF **38–42** because scene 34 is absent. `parasakthi-s033-d053` crosses PDF **41→42** and remains one record with `page_segments`. The unlabelled dream song inside scene 33 is excluded. Scene 39's opening unlabelled song is also excluded; only the explicitly labelled dialogue that follows is indexed.
 
 Current cross-page records are:
 
 - `parasakthi-s001-d001` — PDF 4→5;
 - `parasakthi-s009-d001` — PDF 12→13;
 - `parasakthi-s013-d023` — PDF 16→17;
-- `parasakthi-s028-d023` — PDF 33→34.
+- `parasakthi-s028-d023` — PDF 33→34;
+- `parasakthi-s033-d053` — PDF 41→42.
 
-This batch also exposed three explicit speaker-label punctuation anomalies. Scene 21's final `கல் ! ...` line and two scene 25 `சி. ஜி. டி.` lines omit the normal colon delimiter. They are indexed as explicit labelled utterances without changing the canonical Tamil; the anomaly is recorded in their scene-record wrappers and dialogue README.
-
-Scene 30 remains intentionally cross-part: its first dialogue is on PDF 35 and the rest continue on PDF 36.
+Scenes 26 and 29 remain valid zero-record dialogue files. Source-label punctuation anomalies documented in scenes 21 and 25 remain preserved without normalization.
 
 ## Next dialogue batch
 
-Extract the next observed scenes in the **31–40 range**: **31, 32, 33, 35, 36, 37, 38, 39 and 40**. Scene 34 is absent and must not be created.
+Extract the **final observed scenes 41–48**. The canonical/source heading distinction must be retained for canonical scene **43** (`source_scene_heading: 48`) and canonical final scene **48** (`source_scene_heading: 43`).

@@ -103,7 +103,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Dialogue index is verified for 29 observed scenes through the 21-30 range: 413 records. Next extract observed scenes 31-40, with scene 34 absent."
+  next_action: "Dialogue index is verified for 38 observed scenes through the 31-40 range: 527 records. Next extract the final observed scenes 41-48."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -136,8 +136,8 @@ structured_derivatives:
     readme: "dialogues/README.md"
     storage: scene-sharded
     record_directory: "dialogues/records"
-    records: 413
-    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30]
+    records: 527
+    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40]
     scene_record_counts:
       1: 1
       2: 41
@@ -168,11 +168,20 @@ structured_derivatives:
       28: 48
       29: 0
       30: 26
+      31: 13
+      32: 4
+      33: 56
+      35: 10
+      36: 4
+      37: 8
+      38: 8
+      39: 9
+      40: 2
     zero_record_scenes: [26, 29]
-    cross_page_records_verified: ["parasakthi-s001-d001", "parasakthi-s009-d001", "parasakthi-s013-d023", "parasakthi-s028-d023"]
+    cross_page_records_verified: ["parasakthi-s001-d001", "parasakthi-s009-d001", "parasakthi-s013-d023", "parasakthi-s028-d023", "parasakthi-s033-d053"]
     source_label_anomaly_records: ["parasakthi-s021-d040", "parasakthi-s025-d011", "parasakthi-s025-d017"]
-    next_batch: "observed scenes 31-40; scene 34 absent"
-    note: "Explicitly speaker-labelled utterances are indexed even when the source uses an anomalous delimiter instead of the usual colon; those cases are documented without changing canonical Tamil. Unlabelled songs, verse, prose and standalone directions remain excluded."
+    next_batch: "final observed scenes 41-48"
+    note: "Scene 33 spans PDF 38-42 because scene 34 is absent; its d053 record crosses PDF 41-42. Unlabelled dream/song material in scenes 33 and 39 remains excluded. Explicitly speaker-labelled utterances are indexed without normalizing source punctuation."
   character_index:
     status: not-started
 
