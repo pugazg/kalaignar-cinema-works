@@ -1,10 +1,10 @@
-# Parasakthi — project handover for fidelity audit
+# Parasakthi — project handover after Tamil fidelity audit
 
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`  
 Handover refreshed: 2026-08-13
 
-This is the controlling continuation note for the **Parasakthi Tamil visual-fidelity audit**.
+This is the controlling continuation note for the **Parasakthi canonical Tamil transcription after completion of the visual-fidelity audit**.
 
 ## Source
 
@@ -15,50 +15,57 @@ This is the controlling continuation note for the **Parasakthi Tamil visual-fide
 - Actual PDF pages: **58**
 - PDF 4–57 = printed pp. **3–56**
 - PDF 58 = rear advertisement/back matter
-- Image-only scan; the scan is the canonical source.
+- Image-only scan; the scan is the controlling textual source.
 
-Do not repair text from film audio, subtitles, web copies, later editions, memory, or familiar quotations. Preserve spelling, punctuation, scene numbering, source anomalies, and uncertainty transparently.
+Do not repair unreadable text from film audio, subtitles, web copies, later editions, memory, or familiar quotations. Preserve genuine source uncertainty transparently.
 
-## Structural facts
+## Files to read before continuing
 
-The first-pass Tamil transcription is complete for **PDF 4–57 / printed pp. 3–56**.
+Fetch current `main` versions of:
+
+1. `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`
+2. `docs/TRANSCRIPTION_GUIDE.md`
+3. `works/parasakthi/notes/fidelity-audit.md`
+4. `works/parasakthi/metadata.yaml`
+5. `works/parasakthi/mapping.md`
+6. `works/parasakthi/transcription/full-text.md`
+7. `works/parasakthi/transcription/parts/part-01-pdf-4-35.md`
+8. `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`
+9. `data/works.json`
+10. relevant READMEs
+
+## Canonical coverage and audit result
+
+The canonical Tamil transcription covers **PDF 4–57 / printed pp. 3–56**.
 
 Two canonical parts:
 
 - Part 01: PDF 4–35 / printed pp. 3–34
 - Part 02: PDF 36–57 / printed pp. 35–56
 
-The scan has **46 visible scene headings**. Preserve source anomalies exactly:
+The full canonical range has completed page-by-page visual fidelity audit.
 
-- `காட்சி-23` not observed
-- `காட்சி-34` not observed
-- `காட்சி-48` appears on PDF 49 / printed p.48, after scene 42 and before scene 44
-- `காட்சி-43` appears at the end on PDF 57 / printed p.56, after scenes 46 and 47
-
-## Part 01 — completed
-
-The visual audit for **PDF 4–35 / printed pp. 3–34** is complete and corrections are applied.
+### Part 01
 
 - **30 verified pages**
 - **2 review pages: PDF 5 and PDF 16**
 
-Those two source uncertainties remain unresolved and must not be inferred from external versions.
+The two unresolved source readings are:
 
-## Part 02 — visual audit complete, corrections pending
+- PDF 5 / printed p.4: short damaged span in `கல்யாணிக்குக் கல்யாணம் ⟦?⟧ தெரியுமா?`
+- PDF 16 / printed p.15: unclear word before `தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...`
 
-Completed audit batches:
+Do not infer either from external versions. Leave them as `review` unless stronger source evidence becomes available.
 
-- Batch 5: **PDF 36–43 / printed pp. 35–42**
-- Batch 6: **PDF 44–51 / printed pp. 43–50**
-- Batch 7: **PDF 52–57 / printed pp. 51–56**
+### Part 02
 
-Therefore the complete canonical range **PDF 4–57 / printed pp. 3–56 has now been visually compared against the scan**.
+Part 02 has been fully audited, consolidated, and post-rewrite verified:
 
-Part 02 canonical corrections have **not** yet been applied. The next operation is one consolidated source-led rewrite of `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`.
+- **22 verified pages**
+- **0 review pages**
+- **0 remaining uncertainty markers**
 
-### Part 02 uncertainty markers resolved from the scan, pending application
-
-Six existing markers are securely resolved:
+Six first-pass uncertainty markers were resolved directly from the scan:
 
 - PDF 36: `சேர்மையா`
 - PDF 37: `ஒரு அரையணா`
@@ -67,50 +74,67 @@ Six existing markers are securely resolved:
 - PDF 50: `சூறையாட`
 - PDF 50: `அணைப்பிலே`
 
-No new genuinely unreadable source span was found anywhere in Part 02.
+Nine materially corrupted first-pass blocks were retranscribed directly from the scan:
 
-### Part 02 blocks requiring direct source-led retranscription
+- PDF **42, 44, 45, 46, 48, 49, 52, 53, 54**
 
-The first-pass text is materially corrupted on these readable source pages and must be retranscribed directly from the scan during consolidation:
+After the first consolidated rewrite, an enlarged post-rewrite visual check identified additional source-form inaccuracies, especially on PDF 44–46 and PDF 52–54. Those were corrected in the final Part 02 corrective commit:
 
-- **PDF 42 / printed p.41** — Gnanasekaran refugee/beggar-conference speech
-- **PDF 44 / printed p.43** — Kalyani after being driven from Sekar's house
-- **PDF 45 / printed p.44** — priest/Kalyani temple scene
-- **PDF 46 / printed p.45** — river-side suicide monologue and aftermath
-- **PDF 48 / printed p.47** — Kalyani courtroom/family-history passage
-- **PDF 49 / printed p.48** — street-preacher speech
-- **PDF 52 / printed p.51** — continuation of Gunasekaran's courtroom defence
-- **PDF 53 / printed p.52** — defence concerning Kalyani, priest, suicide, Gandhi/calf analogy and `பகட்டு / பணம் / பக்தி` sequence
-- **PDF 54 / printed p.53** — responsibility-for-crime argument, judge reply and recognition exchange
+`ac4828c60f9a69590f1fc6b2da17114f62c16d22`
 
-All other Part 02 pages still require the recorded source-form corrections from `works/parasakthi/notes/fidelity-audit.md`.
+## Critical scene-number correction
 
-## Exact next work
+The booklet itself contains a two-heading scene-number misprint/transposition near the end. **Do not revert the canonical correction.**
 
-Perform the **single consolidated Part 02 rewrite**:
+### PDF 49 / printed p.48
 
-1. fetch current `main` versions of this handover, `docs/TRANSCRIPTION_GUIDE.md`, `works/parasakthi/notes/fidelity-audit.md`, `works/parasakthi/transcription/parts/part-02-pdf-36-57.md`, metadata and machine state;
-2. use the attached scan as the only textual authority;
-3. apply every Batch 5–7 source-form correction;
-4. directly retranscribe the nine pages/blocks listed above rather than trying to repair their corrupted first-pass wording piecemeal;
-5. replace all six resolved uncertainty markers;
-6. preserve `காட்சி—48` on PDF 49 and final `காட்சி—43` on PDF 57 exactly in source order;
-7. promote Part 02 page anchors to `verified` unless a source uncertainty is actually discovered during application; do not manufacture `review` status merely because the first pass was poor;
-8. perform a post-rewrite visual spot-check of every direct-retranscription page and all scene/page boundaries;
-9. update ledger, metadata, `data/works.json`, READMEs/manifest as required, and this handover.
+- Booklet prints: `காட்சி—48`
+- Canonical visible heading: **`காட்சி—43`**
+- Reason: this scene follows `காட்சி—42` and precedes `காட்சி—44`.
 
-Do not begin English translation in the same operation. Finish the corrected Tamil canonical state and its verification first.
+### PDF 57 / printed p.56
+
+- Booklet prints: `காட்சி—43`
+- Canonical visible heading: **`காட்சி—48`**
+- Reason: this is the final scene after `காட்சி—46` and `காட்சி—47`.
+
+The source readings are preserved as hidden HTML comments immediately before the two corrected headings in `part-02-pdf-36-57.md`, and both source and canonical values are recorded in `mapping.md` and `metadata.yaml`.
+
+Therefore the canonical sequence near the end is:
+
+`காட்சி—42` → **`காட்சி—43`** → `காட்சி—44` → `காட்சி—45` → `காட்சி—46` → `காட்சி—47` → **`காட்சி—48`**.
+
+Headings 23 and 34 remain unobserved in the source; do not invent them.
+
+## Durable final Tamil state
+
+- Structural mapping: **verified**
+- Canonical Tamil coverage: **complete — PDF 4–57 / printed pp. 3–56**
+- Full visual fidelity audit: **complete**
+- Total canonical page status: **52 verified / 2 review**
+- Part 01: **30 verified / 2 review**
+- Part 02: **22 verified / 0 review**
+- Remaining source uncertainties: **PDF 5 and PDF 16 only**
+- Part 02 post-rewrite corrective verification: **complete**
+- Scene-number correction: **source PDF49 48 → canonical 43; source PDF57 43 → canonical 48**
+- PDF 58: rear advertisement/back matter, recorded as `paratext`
+- Per-song authorship mapping: **not-started**
 
 ## Translation gate
 
-English translation remains blocked for any unit that is not `verified`. Part 02 remains blocked until the consolidated rewrite and post-rewrite verification are complete.
+English translation may begin only for Tamil source units marked `verified`. PDF 5 and PDF 16 remain blocked unless their source uncertainties are resolved from stronger evidence.
 
-## Durable continuation state
+Do **not** alter the canonical Tamil merely to make translation smoother. Translation is derivative and must remain separate from the source transcription.
 
-- Part 01 audit: **complete and applied — 30 verified / 2 review**
-- Full canonical visual audit: **complete through PDF 57 / printed p.56**
-- Part 02 audit: **complete — PDF 36–57 / printed pp.35–56**
-- Part 02 corrections applied: **no**
-- Part 02 resolved markers pending apply: **6**
-- Part 02 direct retranscription pages: **42, 44, 45, 46, 48, 49, 52, 53, 54**
-- Next activity: **consolidated Part 02 rewrite and post-rewrite verification**
+## Next work
+
+There is **no remaining page-by-page Tamil fidelity-audit work** for this scan.
+
+For any future continuation:
+
+- keep the two Part 01 uncertainties explicit unless stronger source evidence is obtained;
+- preserve the documented scene-number correction described above;
+- if moving to derivatives, work only from `verified` Tamil units;
+- song-specific work should first resolve per-song authorship because the booklet credits multiple lyric contributors.
+
+Do not silently reintroduce the booklet's swapped `காட்சி—48` / `காட்சி—43` headings into the visible canonical copy.
