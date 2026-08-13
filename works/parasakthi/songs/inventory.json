@@ -1,0 +1,295 @@
+{
+  "work_id": "parasakthi",
+  "status": "inventory-complete-authorship-gate-open",
+  "canonical_authority": "../transcription/full-text.md",
+  "booklet_credits": "credits.json",
+  "candidate_count": 14,
+  "verified_authorship_count": 1,
+  "review_authorship_count": 0,
+  "unresolved_authorship_count": 13,
+  "records": [
+    {
+      "id": "parasakthi-song-001",
+      "canonical_scene": 1,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "வாழ்க வாழ்கவே வாழ்க வாழ்கவே",
+      "pdf_pages": [4],
+      "printed_pages": [3],
+      "canonical_scene_file": "../scenes/scene-01.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Opening dance/song at the gathering before Thangappan speaks.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "The booklet-wide credits list six contributors but do not identify this song item-by-item."
+      },
+      "notes": "Full song block is present on PDF 4 / printed p.3."
+    },
+    {
+      "id": "parasakthi-song-002",
+      "canonical_scene": 4,
+      "candidate_kind": "speaker-labelled-verse",
+      "opening_line_ta": "இவ்வாழ்வினிலே ஒளி ஏற்றும் தீபம்",
+      "pdf_pages": [8],
+      "printed_pages": [7],
+      "canonical_scene_file": "../scenes/scene-04.md",
+      "dialogue_index_overlap": true,
+      "performance_context": "Thangappan and Kalyani alternate labelled sung/verse lines; `இரு` marks their joint closing line.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "Speaker labels identify performers/characters, not lyric authorship."
+      },
+      "notes": "This block already overlaps dialogue records because every verse line is explicitly speaker-labelled."
+    },
+    {
+      "id": "parasakthi-song-003",
+      "canonical_scene": 8,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "ஓ ரசிகரும் சீமானே வா",
+      "pdf_pages": [11, 12],
+      "printed_pages": [10, 11],
+      "canonical_scene_file": "../scenes/scene-08.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Dance-house performance observed by Gunasekaran and Jolly.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "No item-level lyricist is printed in the scene text."
+      },
+      "notes": "Cross-page song block PDF 11→12."
+    },
+    {
+      "id": "parasakthi-song-004",
+      "canonical_scene": 12,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "பூமாலே நீயே புழுதி மண்மேலே வீணே",
+      "pdf_pages": [14],
+      "printed_pages": [13],
+      "canonical_scene_file": "../scenes/scene-12.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Kalyani sings while holding her child.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "The scene identifies the singer but not the lyricist."
+      },
+      "notes": "Song ends before Parvathi enters on PDF 15."
+    },
+    {
+      "id": "parasakthi-song-005",
+      "canonical_scene": 15,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "தேசம், ஞானம், கல்வி, ஈசன் பூசையெல்லாம்",
+      "pdf_pages": [19, 20],
+      "printed_pages": [18, 19],
+      "canonical_scene_file": "../scenes/scene-15.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Gunasekaran, acting like a madman, sings while collecting money.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "This `குதம்பாய்` section is structurally separated from the following `தாண்டவக்கோனே` section and is therefore inventoried independently for authorship review."
+      },
+      "notes": "Begins on PDF 19 and continues onto PDF 20."
+    },
+    {
+      "id": "parasakthi-song-006",
+      "canonical_scene": 15,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "ஆரியக் கூத்தாடினாலும்",
+      "pdf_pages": [20],
+      "printed_pages": [19],
+      "canonical_scene_file": "../scenes/scene-15.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Second structurally distinct verse section within Gunasekaran's street performance, using the `தாண்டவக்கோனே` refrain.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "Kept separate from the preceding `குதம்பாய்` section so different authorship can be represented if later evidence requires it."
+      },
+      "notes": "Source layout separates this refrain section from the preceding verse block."
+    },
+    {
+      "id": "parasakthi-song-007",
+      "canonical_scene": 17,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "கொஞ்சும் மொழி சொல்லும் கிளியே",
+      "pdf_pages": [21, 22],
+      "printed_pages": [20, 21],
+      "canonical_scene_file": "../scenes/scene-17.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Kalyani sings a lullaby to her child while Gunasekaran watches unseen.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "No item-level lyricist is printed."
+      },
+      "notes": "Cross-page lullaby PDF 21→22."
+    },
+    {
+      "id": "parasakthi-song-008",
+      "canonical_scene": 26,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "கா—கா—கா—கா—",
+      "pdf_pages": [31, 32],
+      "printed_pages": [30, 31],
+      "canonical_scene_file": "../scenes/scene-26.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Gunasekaran sings beside the well while eating stolen food; the scene explicitly describes him as singing.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "Singer identity does not establish lyric authorship."
+      },
+      "notes": "Cross-page song PDF 31→32."
+    },
+    {
+      "id": "parasakthi-song-009",
+      "canonical_scene": 28,
+      "candidate_kind": "quoted-verse",
+      "opening_line_ta": "கோரிக்கையற்று கிடக்குதண்ணே—இங்கு",
+      "pdf_pages": [33],
+      "printed_pages": [32],
+      "canonical_scene_file": "../scenes/scene-28.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Narayana Pillai introduces a printed/literary quotation while discussing widowhood; this is verse quotation, not staged singing.",
+      "relation": null,
+      "authorship": {
+        "status": "verified",
+        "lyricist_ta": "பாரதிதாசன்",
+        "evidence_basis": "canonical-context-explicit",
+        "evidence_reference": "scene-28.md: Narayana Pillai says `யாரோ பாரதிதாசனும் விதவையைப் பற்றி சொல்லியிருக்கான் பாரு` immediately before the verse.",
+        "notes": "This is the only candidate in the first inventory whose authorship is explicitly identified by the canonical scene context itself."
+      },
+      "notes": "Inventoried because it is verse-formatted material even though it is a literary quotation rather than a song performance."
+    },
+    {
+      "id": "parasakthi-song-010",
+      "canonical_scene": 29,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "பொருளே இல்லார்க்கு தொல்லையா",
+      "pdf_pages": [35],
+      "printed_pages": [34],
+      "canonical_scene_file": "../scenes/scene-29.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Kalyani walks the street suffering from hunger; the scene consists of the verse/song block.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "No item-level lyricist is printed."
+      },
+      "notes": "Single-page block on PDF 35 / printed p.34."
+    },
+    {
+      "id": "parasakthi-song-011",
+      "canonical_scene": 33,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "புதுப்பெண்ணின் மனதைத் தொட்டுப் போறவரே",
+      "pdf_pages": [40],
+      "printed_pages": [39],
+      "canonical_scene_file": "../scenes/scene-33.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Verse/song occurs inside Vimala's dream sequence.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "No item-level lyricist is printed."
+      },
+      "notes": "Later partially reprised in scene 47."
+    },
+    {
+      "id": "parasakthi-song-012",
+      "canonical_scene": 39,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "நெஞ்சு பொறுக்குதில்லையே—இந்த",
+      "pdf_pages": [44, 45],
+      "printed_pages": [43, 44],
+      "canonical_scene_file": "../scenes/scene-39.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Gunasekaran expresses his anguish through song; afterward he explicitly says he did not compose/sing it originally and that it is another person's song.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "The scene itself confirms the song is by someone else but does not name that person. External attribution evidence is required before resolving the lyricist."
+      },
+      "notes": "Cross-page song PDF 44→45."
+    },
+    {
+      "id": "parasakthi-song-013",
+      "canonical_scene": 47,
+      "candidate_kind": "unlabelled-reprise",
+      "opening_line_ta": "புதுப் பெண்ணின் மனதைத் தொட்டுப் போறவரே",
+      "pdf_pages": [56],
+      "printed_pages": [55],
+      "canonical_scene_file": "../scenes/scene-47.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Short reprise after Gunasekaran stops Vimala from leaving.",
+      "relation": {
+        "type": "reprise-of",
+        "target_id": "parasakthi-song-011"
+      },
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "Authorship follows the same unresolved composition as the scene-33 occurrence until that song is independently resolved."
+      },
+      "notes": "Only the opening portion is reprised here."
+    },
+    {
+      "id": "parasakthi-song-014",
+      "canonical_scene": 48,
+      "candidate_kind": "unlabelled-song",
+      "opening_line_ta": "எல்லோரும் வாழ வேண்டும்—உயிர்கள்",
+      "pdf_pages": [57],
+      "printed_pages": [56],
+      "canonical_scene_file": "../scenes/scene-48.md",
+      "dialogue_index_overlap": false,
+      "performance_context": "Closing collective song at the opening of the orphanage; scene 47 immediately precedes it with `(பேதமின்றி பாடுகின்றனர்)`.",
+      "relation": null,
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "booklet-wide-credits-only",
+        "evidence_reference": "credits.json",
+        "notes": "The closing scene does not print an item-level lyricist."
+      },
+      "notes": "Ends before `—சுபம்—` and the printer line."
+    }
+  ]
+}
