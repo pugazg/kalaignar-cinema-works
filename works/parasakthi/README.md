@@ -42,7 +42,7 @@ The canonical layer corrects those two numbers explicitly while retaining the pr
 - Song authorship: **complete-verified — 14 verified / 0 review / 0 unresolved**
 - Tamil soundtrack derivatives: **complete-verified — 11/11 compositions**
 - Separate quoted-verse derivatives: **1**
-- English translation: **not-started**
+- English translation: **pilot-review — scene 1 / 4 units**
 
 The final reviewer-assisted Part 01 readings are `கல்யாணிக்குக் கல்யாணம் உங்களுக்குத் தெரியுமா?` on PDF 5 and `குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்...` on PDF 16.
 
@@ -61,7 +61,7 @@ None of those derivative layers rewrites the canonical Tamil.
 
 ## Song / verse layer
 
-The song layer now includes both completed authorship metadata and source-faithful Tamil composition files:
+The song layer includes both completed authorship metadata and source-faithful Tamil composition files:
 
 - [`songs/schema.json`](songs/schema.json)
 - [`songs/credits.json`](songs/credits.json)
@@ -72,16 +72,28 @@ The song layer now includes both completed authorship metadata and source-faithf
 - [`songs/tracks/`](songs/tracks/) — **11/11 soundtrack compositions**
 - [`songs/quoted-verses/`](songs/quoted-verses/) — the separate scene-28 Bharathidasan quotation
 
-A user-supplied soundtrack screenshot was matched exactly to the Tamil Wikipedia soundtrack table for the 1952 film: the same **11 tracks**, singers, lyricists, durations and total length **35:46**. That evidence resolves item-level authorship metadata without changing canonical lyric wording.
+The canonical inventory remains **14 occurrence records**, because soundtrack identity and source-text occurrence are not one-to-one: scene 15 has two verse sections within one track, scene 47 reprises the scene-33 composition, and scene 28 contains a separate literary quotation.
 
-The canonical inventory remains **14 occurrence records**, because soundtrack identity and source-text occurrence are not one-to-one:
+## English translation layer
 
-- scene 15's `குதம்பாய்` and `தாண்டவக்கோனே` sections are two canonical occurrences within the one track `தேசம் ஞானம் கல்வி`;
-- scene 47 is a partial reprise of the scene-33 `புது பெண்ணின் மனதை` composition;
-- scene 28 contains a separate Bharathidasan literary quotation rather than a soundtrack song.
+A source-linked English translation layer has now begun under [`translations/`](translations/).
 
-The 11 Tamil track files copy only from verified canonical scene text. Cross-page anchors, source speaker labels and occurrence/reprise relationships are preserved. Scene 48's song derivative excludes `—சுபம்—` and the printer line.
+Files created for the pilot:
+
+- [`translations/README.md`](translations/README.md) — translation principles and review rules;
+- [`translations/schema.json`](translations/schema.json) — source-linked unit schema;
+- [`translations/index.json`](translations/index.json) — pilot checkpoint;
+- [`translations/records/scene-01.json`](translations/records/scene-01.json) — four scene-1 translation units.
+
+The scene-1 pilot covers:
+
+1. the opening stage direction;
+2. `parasakthi-song-001` / `வாழ்க வாழ்கவே` as a semantic-poetic English translation;
+3. the transition direction before the speech;
+4. `parasakthi-s001-d001`, retaining the exact `தங்கப்பன்` speaker label as source metadata and the PDF **4→5** / printed **3→4** page break.
+
+All four English units are currently **`review`**, not `verified`. This keeps translation interpretation visibly separate from source verification. The Tamil source, scene, dialogue, character and Tamil-song layers remain unchanged.
 
 ## Next structured activity
 
-Begin **English translation as a separate derivative layer**. First define a source-linked translation schema and create a small verified pilot. Translation must reference immutable Tamil source units and must never overwrite or normalize the canonical Tamil, scene, dialogue, character, song inventory or Tamil song derivative layers.
+Review the four scene-1 English units for semantic fidelity and editorial consistency. If accepted, mark the pilot `verified` and begin the first full English batch with canonical **scenes 2–5** using the same source-linking schema.
