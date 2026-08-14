@@ -77,26 +77,34 @@ structure:
   additional_main_text_crop_or_duplicate_findings: []
 
 transcription_progress:
-  status: draft
-  first_pass_complete: false
+  status: draft-complete
+  first_pass_complete: true
   canonical_pdf_pages: "9-112"
   canonical_printed_pages: "1-104"
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
-  completed_first_pass_pdf_pages: "9-13"
-  completed_first_pass_printed_pages: "1-5"
-  first_pass_through_pdf_page: 13
-  first_pass_through_printed_page: 5
-  draft_pages: 5
+  parts_completed: 5
+  part_paths:
+    - "transcription/parts/part-01-pdf-9-13.md"
+    - "transcription/parts/part-02-pdf-14-35.md"
+    - "transcription/parts/part-03-pdf-36-63.md"
+    - "transcription/parts/part-04-pdf-64-91.md"
+    - "transcription/parts/part-05-pdf-92-112.md"
+  completed_first_pass_pdf_pages: "9-112"
+  completed_first_pass_printed_pages: "1-104"
+  first_pass_through_pdf_page: 112
+  first_pass_through_printed_page: 104
+  draft_pages: 104
   verified_pages: 0
-  current_part_path: "transcription/parts/part-01-pdf-9-13.md"
-  next_pdf_page: 14
-  next_printed_page: 6
-  next_action: "Continue canonical Tamil first-pass transcription from PDF 14 / printed p.6 using rendered scan pages only."
+  next_pdf_page: null
+  next_printed_page: null
+  next_action: "Begin the canonical Tamil visual fidelity audit at PDF 9 / printed p.1, correcting only against rendered source images and keeping uncertainties explicit."
 
 fidelity_audit:
   status: not-started
   canonical_range_audit_complete: false
+  next_pdf_page: 9
+  next_printed_page: 1
 
 structured_derivatives:
   scene_index: not-started
@@ -110,7 +118,7 @@ structured_derivatives:
 status:
   source_intake: complete
   structural_mapping: verified
-  tamil_transcription: draft
+  tamil_transcription: draft-complete
   tamil_fidelity_audit: not-started
   scene_index: not-started
   scene_text_derivatives: not-started
