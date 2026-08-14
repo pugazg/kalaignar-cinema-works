@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Continue the dialogue index with scenes 41-50 from the completed scene derivatives and verified canonical Tamil."
+  next_action: "Continue the dialogue index with scenes 51-60 from the completed scene derivatives and verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -146,7 +146,7 @@ structured_derivatives:
       - "scenes 81-93"
     cross_part_scenes: [5, 29, 48, 76]
     next_batch: null
-    note: "All 93 scene-text derivatives are complete. Scene 5 crosses part-01/part-02; scene 29 crosses part-02/part-03; scene 48 crosses part-03/part-04; scene 76 crosses part-04/part-05. All are assembled in verified canonical source order with page anchors preserved. The final scene preserves the source ending on PDF 112 / printed p.104, including `வணக்கம்.` and the final star."
+    note: "All 93 scene-text derivatives are complete. Scene 5 crosses part-01/part-02; scene 29 crosses part-02/part-03; scene 48 crosses part-03/part-04; scene 76 crosses part-04/part-05. During dialogue batch 41-50, scene 41 was repaired against the already-verified Part 03 canonical transcription to restore the canonical opening exchange and omitted PDF 54 page anchor; no canonical transcription was changed."
   dialogue_index:
     status: in-progress
     path: "dialogues/index.json"
@@ -154,8 +154,8 @@ structured_derivatives:
     readme: "dialogues/README.md"
     storage: scene-sharded
     record_directory: "dialogues/records"
-    records: 461
-    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    records: 593
+    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
     scene_record_counts:
       1: 8
       2: 13
@@ -197,16 +197,26 @@ structured_derivatives:
       38: 13
       39: 18
       40: 4
-    zero_record_scenes: [10, 11, 25, 26]
-    cross_page_records_verified: ["tirumbippaar-s001-d006"]
+      41: 36
+      42: 5
+      43: 0
+      44: 1
+      45: 23
+      46: 7
+      47: 17
+      48: 17
+      49: 20
+      50: 6
+    zero_record_scenes: [10, 11, 25, 26, 43]
+    cross_page_records_verified: ["tirumbippaar-s001-d006", "tirumbippaar-s041-d034", "tirumbippaar-s045-d015"]
     source_label_anomaly_records: []
-    next_batch: "scenes 41-50"
-    note: "Dialogue indexing is complete through scene 40 with 461 records. Batch 4 contributes 167 records. Scene 31's unlabelled song-performance material remains outside the dialogue index. In scene 33 the standalone `(ஒருவனிடம்)` direction and following unlabelled `ஏய்....நீ ஆமோதிடா!` are not silently merged into Punnakodi's preceding labelled utterance. No new individual labelled utterance crosses a canonical page boundary in scenes 31-40, so the cross-page inventory is unchanged."
+    next_batch: "scenes 51-60"
+    note: "Dialogue indexing is complete through scene 50 with 593 records. Batch 5 contributes 132 records. Scene 43 correctly has zero records because its material is unlabelled. Scene 44 indexes only Pandiyan's explicitly labelled opening paragraph; the continuation after a standalone direction remains outside the dialogue layer. Scene 41 and scene 45 add verified cross-page records. Scene 41's derivative was repaired from verified canonical Part 03 before extraction."
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: dialogue-index-scenes-41-50
+  next_structured_derivative: dialogue-index-scenes-51-60
 
 status:
   source_intake: complete
