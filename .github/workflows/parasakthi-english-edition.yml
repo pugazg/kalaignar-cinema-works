@@ -1,0 +1,56 @@
+name: Parasakthi English reader QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "works/parasakthi/translations/index.json"
+      - "works/parasakthi/translations/records/**"
+      - "works/parasakthi/dialogues/records/**"
+      - "works/parasakthi/songs/inventory.json"
+      - "works/parasakthi/songs/tracks/**"
+      - "works/parasakthi/songs/quoted-verses/**"
+      - "works/parasakthi/scenes/**"
+      - "works/parasakthi/editions/en/build.py"
+      - ".github/workflows/parasakthi-english-edition.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  qa-and-build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run whole-work QA and build reader derivatives
+        run: python works/parasakthi/editions/en/build.py
+
+      - name: Commit generated reader derivatives
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            works/parasakthi/editions/en/reader-edition.md \
+            works/parasakthi/editions/en/reader-edition.html \
+            works/parasakthi/editions/en/reader-edition.json \
+            works/parasakthi/editions/en/QA_REPORT.md \
+            works/parasakthi/editions/en/manifest.json
+          if git diff --cached --quiet; then
+            echo "Reader derivatives are already reproducible; nothing to commit."
+          else
+            git commit -m "Build Parasakthi English reader edition [skip ci]"
+            git push
+          fi
