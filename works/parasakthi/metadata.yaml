@@ -296,7 +296,7 @@ structured_derivatives:
     song_verse_occurrence_links_checked: 14
     distinct_source_paths_checked: 97
     cross_page_units_checked: 16
-    translation_input_aggregate_sha256: "bbbd6636e1fe25a3a302e28a12d4dc13800a4451b4381f1772722b579bc7ab44"
+    translation_input_aggregate_sha256: "a409ce63863c357ff729594147234b8e38406ac2d67fdd388c68d19f47760608"
     workflow: ".github/workflows/parasakthi-english-edition.yml"
     source_layers_modified: false
     next_action: null
