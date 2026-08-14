@@ -28,25 +28,28 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - main-text missing/duplicate/crop findings: **none observed**
 - performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
 - canonical Tamil first-pass transcription: **complete — PDF 9–112 / printed pp.1–104**
-- canonical Tamil status: **draft-complete — 29 draft / 75 verified / 0 review pages**
-- verified fidelity range: **PDF 9–83 / printed pp.1–75**
-- latest verified batch: **PDF 24–53 / printed pp.16–45 — 30 pages**
-- fidelity audit: **in-progress**
+- canonical Tamil page status: **104 verified / 0 draft / 0 review**
+- verified fidelity range: **PDF 9–112 / printed pp.1–104**
+- final verified batch: **PDF 84–112 / printed pp.76–104 — 29 pages**
+- fidelity audit: **complete**
+- unresolved audited main-text pages: **0**
 - structured scene/dialogue/character/song derivatives: **not-started**
 - English translation: **not-started**
 
-`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records page-by-page source corrections and verification progress.
+`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history.
 
-Canonical first-pass transcription is indexed at `transcription/full-text.md` and stored in five source-order files under `transcription/parts/`.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`.
 
-During the latest audit, a pre-existing archival gap was found: `part-03-pdf-36-63.md` had actually stopped at PDF 60 despite earlier complete first-pass status. PDF **61–63 / printed pp.53–55** have now been restored from the scan as **draft-only** pages. They were not included in the 30 verified pages and still require a normal fidelity pass.
+Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
+
+The final PDF 84–112 audit also corrected a prior structural reading for scene 72: the source heading at PDF **87 / printed p.79** is `[தாசி வீடு`, not `[காசி வீடு`.
 
 ## Source discipline
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-The completed first pass is **not** yet the fully verified canonical text. PDF 9–83 / printed pp.1–75 have passed direct visual fidelity comparison; the remaining 29 pages stay `draft` until individually checked.
+All 104 canonical main-text pages have now passed direct rendered-scan comparison. The separate PDF-2 printer-imprint crop remains explicitly unresolved as a front-matter source limitation and is not reconstructed.
 
 ## Exact next activity
 
-Continue the **canonical Tamil visual fidelity audit** at PDF **84 / printed p.76**. Compare draft pages against rendered source images, apply only source-supported corrections, preserve unresolved source forms explicitly, and promote a page to `verified` only after its complete visual check passes.
+Construct the **scene index / scene-text derivatives** from the verified canonical Tamil, using Parasakthi only as the reference implementation and **not** as a text source. Preserve page anchors, source scene numbering, source-visible heading irregularities and cross-page provenance.
