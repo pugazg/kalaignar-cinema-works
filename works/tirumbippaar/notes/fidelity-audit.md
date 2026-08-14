@@ -112,4 +112,8 @@ Representative source-supported corrections include:
 
 Source-visible irregularities and English insertions were preserved rather than silently modernized.
 
+### Page-boundary integrity repair found during this activity
+
+The stored first pass contained the text of PDF **80 / printed p.72**, but it had no explicit page anchor: the PDF 79 sentence flowed directly into PDF 80 before the next recorded anchor at PDF 81. The rendered scan shows the sentence crossing the page boundary after `கொஞ்சங்`; an explicit `<!-- source: pdf=80 printed=72 status=verified -->` anchor has now been restored at that exact boundary. No source text was invented or deleted by this repair.
+
 **Next audit page:** PDF **84 / printed p.76**.

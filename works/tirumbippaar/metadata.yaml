@@ -95,7 +95,9 @@ transcription_progress:
   first_pass_through_pdf_page: 112
   first_pass_through_printed_page: 104
   first_pass_gap_repaired_pdf_pages: [61, 62, 63]
-  first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan as draft-only pages and remain unaudited."
+  first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan and have now completed fidelity verification."
+  first_pass_missing_page_anchor_repaired_pdf_pages: [80]
+  first_pass_missing_page_anchor_repair_note: "During the PDF 54-83 audit, the stored first pass was found to contain PDF 80 text without an explicit page anchor. The PDF 79/80 source boundary was restored from the scan before verification."
   draft_pages: 29
   verified_pages: 75
   review_pages: 0
@@ -113,8 +115,8 @@ fidelity_audit:
   verified_pages: 75
   review_pages: 0
   unresolved_pages: 0
-  last_completed_batch_pdf_pages: "24-53"
-  last_completed_batch_printed_pages: "16-45"
+  last_completed_batch_pdf_pages: "54-83"
+  last_completed_batch_printed_pages: "46-75"
   last_completed_batch_verified_pages: 30
   next_pdf_page: 84
   next_printed_page: 76

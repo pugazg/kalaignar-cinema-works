@@ -443,6 +443,10 @@
       "english_translation": "not-started",
       "next_structured_derivative": "canonical-tamil-fidelity-audit"
     },
-    "next_action": "Continue canonical Tamil visual fidelity audit at PDF 84 / printed p.76; keep derivatives blocked until verified source text is available."
+    "next_action": "Continue canonical Tamil visual fidelity audit at PDF 84 / printed p.76; keep derivatives blocked until verified source text is available.",
+    "tamil_first_pass_missing_page_anchor_repaired_pdf_pages": [
+      80
+    ],
+    "tamil_first_pass_missing_page_anchor_repair_status": "restored-verified"
   }
 ]
