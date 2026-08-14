@@ -1,0 +1,29 @@
+{
+  "work_id": "tirumbippaar",
+  "source_identifier": "TVA_BOK_0014652",
+  "record_schema": "schema.json",
+  "status": "in-progress",
+  "storage": "scene-sharded",
+  "dialogue_records": 96,
+  "scenes_completed": 10,
+  "scenes_expected": 93,
+  "completed_scenes": [1,2,3,4,5,6,7,8,9,10],
+  "headings_not_observed": [],
+  "zero_record_scenes": [10],
+  "cross_page_records": ["tirumbippaar-s001-d006"],
+  "source_label_anomaly_records": [],
+  "next_scene_batch": "11-20",
+  "next_structured_derivative": "dialogue-index-scenes-11-20",
+  "scene_files": [
+    {"canonical_scene":1,"source_scene_heading":1,"file":"records/scene-01.json","record_count":8},
+    {"canonical_scene":2,"source_scene_heading":2,"file":"records/scene-02.json","record_count":13},
+    {"canonical_scene":3,"source_scene_heading":3,"file":"records/scene-03.json","record_count":2},
+    {"canonical_scene":4,"source_scene_heading":4,"file":"records/scene-04.json","record_count":15},
+    {"canonical_scene":5,"source_scene_heading":5,"file":"records/scene-05.json","record_count":25},
+    {"canonical_scene":6,"source_scene_heading":6,"file":"records/scene-06.json","record_count":14},
+    {"canonical_scene":7,"source_scene_heading":7,"file":"records/scene-07.json","record_count":12},
+    {"canonical_scene":8,"source_scene_heading":8,"file":"records/scene-08.json","record_count":4},
+    {"canonical_scene":9,"source_scene_heading":9,"file":"records/scene-09.json","record_count":3},
+    {"canonical_scene":10,"source_scene_heading":10,"file":"records/scene-10.json","record_count":0}
+  ]
+}
