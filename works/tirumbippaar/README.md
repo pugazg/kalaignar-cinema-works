@@ -28,8 +28,8 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - main-text missing/duplicate/crop findings: **none observed**
 - performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
 - canonical Tamil first-pass transcription: **complete — PDF 9–112 / printed pp.1–104**
-- canonical Tamil status: **draft-complete — 99 draft / 5 verified / 0 review pages**
-- verified fidelity range: **PDF 9–13 / printed pp.1–5**
+- canonical Tamil status: **draft-complete — 94 draft / 10 verified / 0 review pages**
+- verified fidelity range: **PDF 9–18 / printed pp.1–10**
 - fidelity audit: **in-progress**
 - structured scene/dialogue/character/song derivatives: **not-started**
 - English translation: **not-started**
@@ -42,8 +42,8 @@ Canonical first-pass transcription is indexed at `transcription/full-text.md` an
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-The completed first pass is **not** yet the fully verified canonical text. PDF 9–13 / printed pp.1–5 have passed direct visual fidelity comparison; the remaining 99 pages stay `draft` until individually checked.
+The completed first pass is **not** yet the fully verified canonical text. PDF 9–18 / printed pp.1–10 have passed direct visual fidelity comparison; the remaining 94 pages stay `draft` until individually checked.
 
 ## Exact next activity
 
-Continue the **canonical Tamil visual fidelity audit** at PDF **14 / printed p.6**. Compare the draft page by page against rendered source images, apply only source-supported corrections, preserve unresolved source forms explicitly, and promote a page to `verified` only after its complete visual check passes.
+Continue the **canonical Tamil visual fidelity audit** at PDF **19 / printed p.11**. Compare the draft page by page against rendered source images, apply only source-supported corrections, preserve unresolved source forms explicitly, and promote a page to `verified` only after its complete visual check passes.
