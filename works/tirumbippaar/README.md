@@ -27,12 +27,15 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - scene numbering gaps/repeats/out-of-order findings: **none observed**
 - main-text missing/duplicate/crop findings: **none observed**
 - performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
-- canonical Tamil transcription: **not-started — gate now open**
+- canonical Tamil transcription: **draft — PDF 9–13 / printed pp.1–5 completed**
+- canonical Tamil page status: **5 draft / 0 verified**
 - fidelity audit: **not-started**
 - structured scene/dialogue/character/song derivatives: **not-started**
 - English translation: **not-started**
 
-`mapping.md` records the verified gate result. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and the mapped performance/printed-text candidates.
+`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and the mapped performance/printed-text candidates.
+
+Canonical first-pass transcription is indexed at `transcription/full-text.md`; the first source-order batch is `transcription/parts/part-01-pdf-9-13.md`.
 
 ## Source discipline
 
@@ -40,4 +43,4 @@ The supplied scan is the controlling source. Do not modernize spelling or punctu
 
 ## Exact next activity
 
-Begin **canonical Tamil transcription** from PDF **9 / printed p.1**, working from rendered scan pages only. Preserve page anchors, scene-marker punctuation, speaker labels, stage directions, source spelling, English code-switching and structural blocks exactly as printed. Keep any uncertain reading visible instead of repairing it from external knowledge.
+Continue **canonical Tamil first-pass transcription** from PDF **14 / printed p.6**, working from rendered scan pages only. Keep the new pages at `draft` until a separate visual fidelity audit is performed.
