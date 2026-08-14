@@ -30,22 +30,22 @@ None of these layers is rewritten by English translation work.
 
 Source-linked English records live under [`translations/`](translations/).
 
-Current checkpoint:
+Final checkpoint:
 
-- status: **in-progress-review**
-- scenes started/reviewed: **1–22, 24–33, 35–40**
-- scenes verified: **1–22, 24–33, 35**
-- scenes in review: **36, 37, 38, 39, 40**
+- status: **complete-verified**
+- observed scenes translated/verified: **1–22, 24–33, 35–48 — 46/46 observed scenes**
 - canonical scenes **23 and 34: absent**
-- translation units: **638**
-- verified: **595**
-- review: **43**
-- kinds: **526 dialogue / 100 stage direction / 11 song / 1 quoted verse**
+- translation units: **769**
+- verified: **769**
+- review/draft: **0**
+- kinds: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**
 
-The scenes **36–40** review batch contains **43** source-linked units. The verified scene-39 soundtrack occurrence `parasakthi-song-012` remains one semantic-poetic English unit across PDF **44→45** / printed pp. **43→44**.
+The final activity completed the second pass of scenes **36–40** and then translated and second-pass verified all remaining scenes **41–48**. Verified soundtrack occurrences `parasakthi-song-012`, `parasakthi-song-013` and `parasakthi-song-014` retain their exact source occurrence boundaries; the scene-47 reprise contains only the four lines printed there.
 
-The batch preserves source-visible stage directions, immutable dialogue boundaries and pressure-sensitive forms without repairing the canonical Tamil. No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
+Cross-page dialogue records in scenes 42, 43 and 45 remain single English units. Canonical scene 43 retains source-heading-48 provenance, and final canonical scene 48 retains source-heading-43 provenance. Source-visible material outside the dialogue derivative—such as the scene-45 bracketed lawyer direction and scene-48 closing block—is source-located without invented dialogue IDs.
+
+No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory, Tamil song derivative or transcription file was modified.
 
 ## Next activity
 
-Second-pass all **43 English review units** in canonical scenes **36–40**. Change English only where source fidelity requires it; preserve `parasakthi-song-012` as one cross-page unit. Do not begin scenes **41–45** until this review is complete.
+There is **no remaining English translation batch**. Optional next work is final whole-work QA/export into a continuous reader-facing English edition while preserving every verified source layer unchanged.
