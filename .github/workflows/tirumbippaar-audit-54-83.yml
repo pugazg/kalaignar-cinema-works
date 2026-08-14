@@ -27,6 +27,31 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Account for missing PDF 80 first-pass page anchor
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tools/apply_tirumbippaar_audit_54_83.py')
+          s=p.read_text(encoding='utf-8')
+          old="""for p in range(64,84):
+              printed=p-8
+              t=replace_required(t, f'<!-- source: pdf={p} printed={printed} status=draft -->', f'<!-- source: pdf={p} printed={printed} status=verified -->', f'part04 anchor {p}')
+          """
+          new="""for p in list(range(64,80)) + list(range(81,84)):
+              printed=p-8
+              t=replace_required(t, f'<!-- source: pdf={p} printed={printed} status=draft -->', f'<!-- source: pdf={p} printed={printed} status=verified -->', f'part04 anchor {p}')
+          # PDF 80 / printed p.72 was missing its page anchor in the stored first pass.
+          t=replace_required(t,
+              'இருந்தாலும் சில தொழிலாளிங்க கொஞ்சம் கொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,',
+              'இருந்தாலும் சில தொழிலாளிங்க கொஞ்சங்\n\n<!-- source: pdf=80 printed=72 status=verified -->\n\nகொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,',
+              'part04 restore PDF80 boundary')
+          """
+          if old not in s:
+              raise SystemExit('Expected anchor loop not found in helper')
+          p.write_text(s.replace(old,new,1),encoding='utf-8')
+          PY
+
       - name: Apply verified source corrections and status updates
         run: python tools/apply_tirumbippaar_audit_54_83.py
 
