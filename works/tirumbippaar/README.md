@@ -15,19 +15,24 @@ Archival intake for the scanned first-edition screenplay/dialogue booklet **`த
 
 The cover also shows `திராவிடப் பண்ணை` and `தெப்பக்குளம் :: திருச்சி`. PDF 2 prints `உரிமையுடையது.` and `விலை ரூ. 0-10-0`; this archive records those source statements without turning them into a present-day rights determination.
 
+The lower PDF-2 imprint line remains physically cropped. High-resolution reinspection supports only `சிட்டி பிரஸ், மதுரை ரோ…`; the missing continuation is not reconstructed.
+
 ## Current archival status
 
 - source intake: **complete**
 - full-scan scene-number/start-page pass: **complete**
-- structural mapping: **review**
+- structural mapping: **verified**
+- scene-heading / structural-label audit: **93/93 dispositioned**
 - observed scene numbers: **93**, consecutively **1–93**
 - scene numbering gaps/repeats/out-of-order findings: **none observed**
-- canonical Tamil transcription: **not-started**
+- main-text missing/duplicate/crop findings: **none observed**
+- performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
+- canonical Tamil transcription: **not-started — gate now open**
 - fidelity audit: **not-started**
 - structured scene/dialogue/character/song derivatives: **not-started**
 - English translation: **not-started**
 
-`mapping.md` records every observed scene-number start and its PDF/printed page. It deliberately does **not** claim exact verification of every bracketed scene-location/header string yet.
+`mapping.md` records the verified gate result. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and the mapped performance/printed-text candidates.
 
 ## Source discipline
 
@@ -35,4 +40,4 @@ The supplied scan is the controlling source. Do not modernize spelling or punctu
 
 ## Exact next activity
 
-Perform the **scene-heading and structural-label verification pass** across PDF 9–112: transcribe every full scene-heading line exactly as printed, including bracketed location/production labels and punctuation; confirm structural song/verse blocks; resolve or explicitly retain the cropped PDF-2 printer-line uncertainty. Only after that gate passes should canonical Tamil transcription begin from PDF 9 / printed p.1.
+Begin **canonical Tamil transcription** from PDF **9 / printed p.1**, working from rendered scan pages only. Preserve page anchors, scene-marker punctuation, speaker labels, stage directions, source spelling, English code-switching and structural blocks exactly as printed. Keep any uncertain reading visible instead of repairing it from external knowledge.
