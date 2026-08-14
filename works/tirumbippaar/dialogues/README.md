@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Canonical authority:** fully verified Tamil transcription and completed 93-scene derivative set  
-**Dialogue index status:** **in progress — scenes 1–10 complete**
+**Dialogue index status:** **in progress — scenes 1–20 complete**
 
 This directory is a machine-readable dialogue derivative built only from the verified canonical Tamil and completed Tirumbippaar scene derivatives. It does **not** replace, normalize, correct, modernize, reconstruct, or repair the canonical transcription.
 
@@ -46,31 +46,33 @@ Excluded:
 
 Parenthetical material inside a speaker-labelled utterance remains part of that utterance. A standalone direction between portions of a continuing labelled speech is not silently merged into dialogue text.
 
-## Batch 1 — scenes 1–10
+## Progress through scene 20
 
-- scenes completed: **10 / 93**
-- dialogue records: **96**
-- zero-record scenes: **10**
-- cross-page dialogue records: **1**
+- scenes completed: **20 / 93**
+- dialogue records: **201**
+- zero-record scenes: **10, 11**
+- verified cross-page dialogue records: **1**
   - `tirumbippaar-s001-d006` — PDF 9→10 / printed pp.1→2
 
-Per-scene record counts:
+Batch 1, scenes 1–10: **96 records**.
 
-- scene 1 — 8
-- scene 2 — 13
-- scene 3 — 2
-- scene 4 — 15
-- scene 5 — 25
-- scene 6 — 14
-- scene 7 — 12
-- scene 8 — 4
-- scene 9 — 3
-- scene 10 — 0
+Batch 2, scenes 11–20: **105 records**:
 
-Scene 10 correctly has zero dialogue records because the scene consists only of the unlabelled visual description of Bama's tears becoming a waterfall/river. The description remains preserved in the scene derivative and canonical transcription, but is not converted into a dialogue record.
+- scene 11 — 0
+- scene 12 — 21
+- scene 13 — 8
+- scene 14 — 1
+- scene 15 — 19
+- scene 16 — 5
+- scene 17 — 21
+- scene 18 — 3
+- scene 19 — 8
+- scene 20 — 19
 
-In scene 5, the unlabelled `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` that follows a standalone stage direction is not silently assigned to Garudan; the dialogue layer follows the explicit-label rule used by the reference implementation.
+Scene 10 correctly has zero dialogue records because it consists only of an unlabelled visual description of Bama's tears becoming a waterfall/river. Scene 11 likewise has zero dialogue records because the source gives only an unlabelled direction that Paranthaman and another woman are singing while travelling by boat; no lyrics or explicit speaker-labelled utterance are printed in that scene.
+
+In scene 5, the unlabelled `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` following a standalone stage direction remains excluded rather than being silently assigned to Garudan. The same explicit-label discipline is retained in scenes 11–20: unlabelled song/stage material is preserved in the scene derivative but not converted into dialogue records.
 
 ## Next batch
 
-Extract and verify dialogue records for **scenes 11–20** from the completed scene derivatives and canonical Tamil, keeping this schema fixed.
+Extract and verify dialogue records for **scenes 21–30** from the completed scene derivatives and canonical Tamil, keeping this schema fixed.
