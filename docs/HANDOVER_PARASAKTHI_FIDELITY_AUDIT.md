@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-14
 
-Current stage: **English translation in progress — observed canonical scenes through 35 are verified; canonical scenes 23 and 34 are absent**.
+Current stage: **English translation in progress — observed canonical scenes through 35 are verified; scenes 36–40 are in review; canonical scenes 23 and 34 are absent**.
 
 ## Canonical/source state — immutable
 
@@ -21,13 +21,14 @@ Never use English translation or external versions to repair the Tamil source.
 
 ## English translation checkpoint
 
-- scenes started/reviewed/verified: **1–22, 24–33, 35**
-- scenes in review: **none**
-- translation units: **595**
+- scenes started/reviewed: **1–22, 24–33, 35–40**
+- scenes verified: **1–22, 24–33, 35**
+- scenes in review: **36, 37, 38, 39, 40**
+- translation units: **638**
 - verified: **595**
-- review: **0**
-- kinds: **495 dialogue / 89 stage direction / 10 song / 1 quoted verse**
-- status: **`in-progress-verified`**
+- review: **43**
+- kinds: **526 dialogue / 100 stage direction / 11 song / 1 quoted verse**
+- status: **`in-progress-review`**
 
 Completed second-pass gates:
 
@@ -38,21 +39,19 @@ Completed second-pass gates:
 - scenes 26–30 — **93 units**;
 - observed scenes 31, 32, 33 and 35 — **95 units**; scene 34 absent.
 
-The scenes 31–35 pass preserved verified soundtrack occurrence `parasakthi-song-011` in scene 33 and scene-33 dialogue d053 as one PDF **41→42** unit. It also preserved two directly source-linked labelled pieces outside the immutable dialogue derivative: scene 32 `parasakthi-en-s032-u004` and scene 33 `parasakthi-en-s033-u063`; no dialogue IDs were invented.
+The scenes 36–40 review batch contains **43 units**: 31 dialogue, 11 stage directions and one song. Verified soundtrack occurrence `parasakthi-song-012` in scene 39 remains one semantic-poetic English unit across PDF **44→45**.
 
-English-only refinements resolved repeated `அண்ணு` contextually where supported, clarified dense social/voting-rights passages, and removed added explanatory wording. Pressure-sensitive verified forms including `கல்வெறியத்`, `கனக்கோல்`, `சரசாரமாய் திடுக்கிடவே`, `ரோம் நகமும்`, `சட்டம்!`, `ஊரும்.`, and `நாம் ஓட்டுகிற பரதேசி அரசாங்கத்தையே` remain documented rather than silently normalized.
-
-No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
+Pressure-sensitive forms in scenes 36–40 are documented in the English handover rather than silently normalized. No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified while creating the batch.
 
 ## Exact next work
 
-Create the source-linked English **review** batch for observed canonical scenes **36–40**. Before deriving units, inspect the verified scene files, immutable dialogue records, and verified song/quoted-verse inventory and relevant Tamil derivatives. Include standalone stage directions and verified song/verse occurrences in source order.
+Perform a deliberate second-pass fidelity/editorial review of all **43 English review units** in canonical scenes **36–40**. Verify ordering, exact source labels, page provenance and `parasakthi-song-012` as one PDF **44→45** unit. Change English only where a genuine translation problem is found.
 
-Set every new unit and scene to `review`, synchronize status surfaces, and then perform a separate deliberate second pass. Do not mark the new batch verified at creation time.
+If the pass succeeds, mark all 43 units verified, synchronize status surfaces and compare against the pre-review checkpoint. **Do not begin scenes 41–45 before this review is complete.**
 
 ## Overall status
 
 - Structural mapping: verified
 - Canonical Tamil: verified
 - Tamil fidelity audit: complete
-- English translation: **in-progress-verified — 595 units / 595 verified / 0 review**
+- English translation: **in-progress-review — 638 units / 595 verified / 43 review**
