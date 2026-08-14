@@ -115,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "English review batch created for canonical scenes 36-40: 43 review units, with parasakthi-song-012 preserved as one PDF 44-45 unit. Second-pass all 43 units before scenes 41-45."
+  next_action: "English source-linked translation is complete-verified for every observed canonical scene: 769/769 units verified; scenes 23 and 34 are absent. No translation batch remains; next optional work is final whole-work QA/export."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -254,29 +254,30 @@ structured_derivatives:
       completed_files: 1
     next_action: null
   english_translation:
-    status: in-progress-review
+    status: complete-verified
     target_language: en
     path: "translations/index.json"
     schema: "translations/schema.json"
     readme: "translations/README.md"
     record_directory: "translations/records"
-    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40]
-    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35]
-    scenes_in_review: [36, 37, 38, 39, 40]
-    translation_units: 638
+    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+    scenes_in_review: []
+    absent_canonical_scenes: [23, 34]
+    translation_units: 769
     unit_status_counts:
       draft: 0
-      review: 43
-      verified: 595
+      review: 0
+      verified: 769
     unit_kind_counts:
-      stage_direction: 100
-      song: 11
-      dialogue: 526
+      stage_direction: 114
+      song: 13
+      dialogue: 641
       quoted_verse: 1
-    cross_page_units: ["parasakthi-en-s001-u004", "parasakthi-en-s008-u002", "parasakthi-en-s009-u001", "parasakthi-en-s013-u028", "parasakthi-en-s015-u023", "parasakthi-en-s017-u002", "parasakthi-en-s026-u003", "parasakthi-en-s028-u026", "parasakthi-en-s033-u059", "parasakthi-en-s039-u002"]
+    cross_page_units: ["parasakthi-en-s001-u004", "parasakthi-en-s008-u002", "parasakthi-en-s009-u001", "parasakthi-en-s013-u028", "parasakthi-en-s015-u023", "parasakthi-en-s017-u002", "parasakthi-en-s026-u003", "parasakthi-en-s028-u026", "parasakthi-en-s033-u059", "parasakthi-en-s039-u002", "parasakthi-en-s042-u002", "parasakthi-en-s043-u006", "parasakthi-en-s043-u022", "parasakthi-en-s045-u002", "parasakthi-en-s045-u005", "parasakthi-en-s045-u020"]
     direct_source_labelled_units_without_dialogue_record: ["parasakthi-en-s032-u004", "parasakthi-en-s033-u063"]
     source_layers_modified: false
-    next_action: "Second-pass all 43 English review units in canonical scenes 36-40; preserve parasakthi-song-012 as one PDF 44-45 unit and do not begin scenes 41-45 before verification."
+    next_action: "No English translation batch remains. Optional next work is final whole-work QA/export while preserving the verified Tamil source layer unchanged."
 
 status:
   structural_mapping: verified
@@ -288,4 +289,4 @@ status:
   character_index: complete-verified
   song_authorship_mapping: complete-verified
   song_tamil_derivatives: complete-verified
-  english_translation: in-progress-review
+  english_translation: complete-verified
