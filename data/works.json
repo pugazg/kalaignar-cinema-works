@@ -152,16 +152,31 @@
     "publication_year_as_printed": 1953,
     "main_text_pdf_pages": "9-112",
     "main_text_printed_pages": "1-104",
-    "structural_mapping": "review",
+    "structural_mapping": "verified",
     "scene_headings_observed": 93,
     "scene_heading_range": "1-93",
+    "scene_heading_audit_path": "works/tirumbippaar/notes/scene-heading-audit.md",
+    "scene_start_dispositions_verified": 93,
+    "exact_scene_location_headers_verified": true,
     "scene_number_gaps_observed": [],
     "scene_number_repeats_observed": [],
     "scene_number_out_of_order_observed": [],
     "canonical_scene_number_corrections": [],
+    "main_text_additional_crop_or_duplicate_findings": [],
+    "performance_song_candidate_scenes": [2,6,11,14,31,42,43],
     "tamil_transcription": "not-started",
     "tamil_first_pass_complete": false,
+    "tamil_transcription_next_pdf_page": 9,
+    "tamil_transcription_next_printed_page": 1,
     "tamil_fidelity_audit": "not-started",
+    "source_crop_notes": [
+      {
+        "pdf_page": 2,
+        "element": "lower_printer_imprint_line",
+        "visible_partial_reading": "சிட்டி பிரஸ், மதுரை ரோ…",
+        "status": "unresolved_source_crop"
+      }
+    ],
     "structured_derivatives": {
       "scene_index": "not-started",
       "scene_text_derivatives": "not-started",
@@ -170,8 +185,8 @@
       "song_authorship_mapping": "not-started",
       "song_tamil_derivatives": "not-started",
       "english_translation": "not-started",
-      "next_structured_derivative": "structural-heading-verification-before-transcription"
+      "next_structured_derivative": "canonical-tamil-transcription"
     },
-    "next_action": "Verify every full scene heading/location label and distinct textual structure against the scan, then begin canonical Tamil transcription at PDF 9 / printed p.1."
+    "next_action": "Begin canonical Tamil transcription at PDF 9 / printed p.1 from rendered scan pages, preserving source order, wording, punctuation and structural forms."
   }
 ]
