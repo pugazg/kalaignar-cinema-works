@@ -164,10 +164,15 @@
     "canonical_scene_number_corrections": [],
     "main_text_additional_crop_or_duplicate_findings": [],
     "performance_song_candidate_scenes": [2,6,11,14,31,42,43],
-    "tamil_transcription": "not-started",
+    "tamil_transcription": "draft",
     "tamil_first_pass_complete": false,
-    "tamil_transcription_next_pdf_page": 9,
-    "tamil_transcription_next_printed_page": 1,
+    "tamil_transcription_through_pdf_page": 13,
+    "tamil_transcription_through_printed_page": 5,
+    "tamil_transcription_draft_pages": 5,
+    "tamil_transcription_verified_pages": 0,
+    "tamil_transcription_part_paths": ["works/tirumbippaar/transcription/parts/part-01-pdf-9-13.md"],
+    "tamil_transcription_next_pdf_page": 14,
+    "tamil_transcription_next_printed_page": 6,
     "tamil_fidelity_audit": "not-started",
     "source_crop_notes": [
       {
@@ -187,6 +192,6 @@
       "english_translation": "not-started",
       "next_structured_derivative": "canonical-tamil-transcription"
     },
-    "next_action": "Begin canonical Tamil transcription at PDF 9 / printed p.1 from rendered scan pages, preserving source order, wording, punctuation and structural forms."
+    "next_action": "Continue canonical Tamil first-pass transcription at PDF 14 / printed p.6 from rendered scan pages, preserving source order, wording, punctuation and structural forms."
   }
 ]
