@@ -28,11 +28,11 @@ Completed source/Tamil derivatives:
 - Tamil soundtrack files: **11/11 complete-verified**;
 - separate quoted verse: **1**.
 
-English translation is source-linked and verified through observed canonical scene **35**: observed scenes **1–22, 24–33 and 35** are verified; canonical scenes **23 and 34 are absent**. There are **595 translation units, all verified**, comprising **495 dialogue / 89 stage direction / 10 song / 1 quoted verse**.
+English translation is source-linked through observed canonical scene **40**. Observed scenes **1–22, 24–33 and 35** are verified; canonical scenes **23 and 34 are absent**; scenes **36–40 are in review**. There are **638 translation units**: **595 verified / 43 review**, comprising **526 dialogue / 100 stage direction / 11 song / 1 quoted verse**.
 
-The scenes **31, 32, 33 and 35** second-pass gate is complete at **95/95 verified units**. It preserves scene-33 soundtrack occurrence `parasakthi-song-011`, the PDF **41→42** cross-page dialogue, and two directly source-linked labelled units that remain outside the immutable dialogue index.
+The current review batch contains **43 units** across scenes 36–40. It preserves verified soundtrack occurrence `parasakthi-song-012` in scene 39 as one PDF **44→45** semantic-poetic unit. Pressure-sensitive source forms remain documented rather than silently normalized.
 
-**Next:** create the source-linked English review batch for observed scenes **36–40**, after inspecting the verified scene/dialogue/song derivatives, and give that batch its own second pass before verification.
+**Next:** second-pass all **43** units in scenes **36–40** before verification or any scene 41–45 English batch.
 
 ## Status vocabulary
 
