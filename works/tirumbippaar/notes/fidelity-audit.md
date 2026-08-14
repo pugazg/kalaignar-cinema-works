@@ -22,8 +22,9 @@ The full main-text first pass is **draft-complete** for PDF **9–112 / printed 
 |---|---:|---:|---:|---|
 | PDF 9–13 / printed pp.1–5 | 0 | 5 | 0 | verified |
 | PDF 14–18 / printed pp.6–10 | 0 | 5 | 0 | verified |
-| PDF 19–112 / printed pp.11–104 | 94 | 0 | 0 | pending |
-| **Total** | **94** | **10** | **0** | **in-progress** |
+| PDF 19–23 / printed pp.11–15 | 0 | 5 | 0 | verified |
+| PDF 24–112 / printed pp.16–104 | 89 | 0 | 0 | pending |
+| **Total** | **89** | **15** | **0** | **in-progress** |
 
 ## PDF 9–13 / printed pp.1–5 — completed audit
 
@@ -44,7 +45,7 @@ Source-visible irregular forms such as `காட்சி 5[`, `[Bath Room`, `N
 
 ## PDF 14–18 / printed pp.6–10 — completed audit
 
-These five pages required a substantially heavier correction pass than the opening batch. All visible text on PDF 14–18 was checked against the rendered scan and the corrected page text is now stored in `transcription/parts/part-02-pdf-14-35.md` with `status=verified` anchors.
+These five pages required a substantially heavier correction pass than the opening batch. All visible text on PDF 14–18 was checked against the rendered scan and the corrected page text is stored in `transcription/parts/part-02-pdf-14-35.md` with `status=verified` anchors.
 
 Representative source-supported corrections include:
 
@@ -57,6 +58,20 @@ Representative source-supported corrections include:
 - **PDF 17 / printed p.9:** restored `ஈடு பட்டிருக்கின்றனர்`, `வச்சு விட்டோம்னு நெனச்சேன்`, and the full colour-wordplay ending `எழுமிச்சம்பழ நிறமா, நாகற்பழ நிறமா, அல்லது இரண்டுங் கலந்ததா?`.
 - **PDF 18 / printed p.10:** restored the printed `கவிதைகளால்ல` forms and corrected scene-9 staging to `மாடியில் தேடி அலுத்து பிரமைபிடித்தவள்போலிருக்கும் பூமாலிடம் குமுதா ஓடிவருகிறாள்`.
 
-No unresolved reading remains in PDF 14–18 after this audit. Source irregularities were preserved rather than normalized.
+## PDF 19–23 / printed pp.11–15 — completed audit
 
-**Next audit page:** PDF **19 / printed p.11**.
+All five pages were checked directly against the rendered source images. This batch exposed major first-pass corruption in both prose and dialogue, so the affected passages were retranscribed from the scan rather than semantically repaired.
+
+Representative source-supported corrections include:
+
+- **PDF 19 / printed p.11:** restored the scene-12 stage text around the handwritten `வாழு` manuscript and `துறவி`, corrected `எங்கே வந்தாய்....`, `செத்தே போகிறேன்`, the explicit `நீ ஜாடையாகக் கூறிவிட்ட` wording, and source `இல்ல, இல்ல.`.
+- **PDF 20 / printed p.12:** restored the source-visible unusual sequence beginning `குதுவாதறியாத கன்னி யொருத்தியின் வாழ்க்கைக் கன வாடிய குதாடியின்...`; it is retained as printed rather than normalized from context.
+- **PDF 20:** restored the missing `மிருகத்தைக்கூடப் பழக்கி விடலாமப்பா...` sentence, the long money/wedding paragraph, `பாமா பரிசுத்தமானவள் அல்ல`, and `பாமா பத்தரைமாற்றுப் பசும்பொன்.`.
+- **PDF 21 / printed p.13:** corrected `ஞாயிற்றையும்` to source `ஞானோதயம்`, restored the source `வாழு` form, `பாடம் கற்கும் குழந்தைகள்`, `அம்புஜம் சொல்லுது`, `நிஜந்தானு`, `புஸ்தகத்திலே`, `மணி மணியா`, and `ஆஹா!`.
+- **PDF 22 / printed p.14:** substantially retranscribed the stage speech, restoring `ஆபாச நடையிலே`, `கேடுதரும் கருத்துக்கள்`, source `வாழு` terminology, `லீலா விநோதங்களுக்காகவே`, the `வாழு / வாழாதே / வாழு வாழ விடு` contrast, and the printed `அன்பவருக்கும்` form.
+- **PDF 22:** scene-15 staging and speech were restored to the source forms `புண்ணகோடி உள்ளே வருகிறான்`, `உள்ளே வந்து உட்காருகிறான்`, and `ஏம்ப்பா நாடகத்துக்கு வர வில்ல.`.
+- **PDF 23 / printed p.15:** restored `யாருப்பா சொன்னு?`, `வந்திருந்தாங்களே`, `இல்லேப்பா!`, `நிலையா`, the coat-pocket joke as a separate source stage block, `என்னப்பா சொல்றே!`, and removed the unsupported first-pass `கஞ்சன்.`.
+
+No unresolved reading remains in PDF 19–23 after this audit. Source irregularities remain visible rather than being modernized.
+
+**Next audit page:** PDF **24 / printed p.16**.
