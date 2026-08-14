@@ -77,7 +77,7 @@ structure:
   additional_main_text_crop_or_duplicate_findings: []
 
 transcription_progress:
-  status: draft-complete
+  status: verified
   first_pass_complete: true
   canonical_pdf_pages: "9-112"
   canonical_printed_pages: "1-104"
@@ -98,28 +98,28 @@ transcription_progress:
   first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan and have now completed fidelity verification."
   first_pass_missing_page_anchor_repaired_pdf_pages: [80]
   first_pass_missing_page_anchor_repair_note: "During the PDF 54-83 audit, the stored first pass was found to contain PDF 80 text without an explicit page anchor. The PDF 79/80 source boundary was restored from the scan before verification."
-  draft_pages: 29
-  verified_pages: 75
+  draft_pages: 0
+  verified_pages: 104
   review_pages: 0
-  verified_pdf_pages: "9-83"
-  verified_printed_pages: "1-75"
+  verified_pdf_pages: "9-112"
+  verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Continue the canonical Tamil visual fidelity audit at PDF 84 / printed p.76, correcting only against rendered source images and keeping uncertainties explicit."
+  next_action: "Construct the scene index and scene-text derivatives from the verified canonical Tamil, using Parasakthi only as the reference implementation and never as a text source."
 
 fidelity_audit:
-  status: in-progress
-  canonical_range_audit_complete: false
-  audited_through_pdf_page: 83
-  audited_through_printed_page: 75
-  verified_pages: 75
+  status: complete
+  canonical_range_audit_complete: true
+  audited_through_pdf_page: 112
+  audited_through_printed_page: 104
+  verified_pages: 104
   review_pages: 0
   unresolved_pages: 0
-  last_completed_batch_pdf_pages: "54-83"
-  last_completed_batch_printed_pages: "46-75"
-  last_completed_batch_verified_pages: 30
-  next_pdf_page: 84
-  next_printed_page: 76
+  last_completed_batch_pdf_pages: "84-112"
+  last_completed_batch_printed_pages: "76-104"
+  last_completed_batch_verified_pages: 29
+  next_pdf_page: null
+  next_printed_page: null
   ledger_path: "notes/fidelity-audit.md"
 
 structured_derivatives:
@@ -130,12 +130,13 @@ structured_derivatives:
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
+  next_structured_derivative: scene-index
 
 status:
   source_intake: complete
   structural_mapping: verified
-  tamil_transcription: draft-complete
-  tamil_fidelity_audit: in-progress
+  tamil_transcription: verified
+  tamil_fidelity_audit: complete
   scene_index: not-started
   scene_text_derivatives: not-started
   dialogue_index: not-started
