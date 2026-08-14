@@ -6,7 +6,9 @@ Audit status: **verified for structural mapping**.
 
 This is a second visual pass over every numbered scene start in PDF 9–112. Rendered scan pages are controlling evidence; the PDF OCR layer is not used as canonical text.
 
-The `header / production label as printed` column preserves the source wording and internal punctuation of the right-side or immediately associated structural label. `—` means no separate location/production label is printed with that scene start. The source uses irregular bracket typography around some scene markers; those page-level glyphs remain part of the later canonical transcription and are not regularized here. Three conspicuous marker anomalies were recorded during this pass: scene 5 prints `காட்சி 5[`, scene 36 prints `காட்சி 36` without the usual following bracket, and scene 43 prints `காட்சி 43].`.
+The `header / production label as printed` column preserves the source wording and internal punctuation of the right-side or immediately associated structural label. `—` means no separate location/production label is printed with that scene start. The source uses irregular bracket typography around some scene markers; those page-level glyphs remain part of the canonical transcription and are not regularized here. Three conspicuous marker anomalies were recorded during this pass: scene 5 prints `காட்சி 5[`, scene 36 prints `காட்சி 36` without the usual following bracket, and scene 43 prints `காட்சி 43].`.
+
+**Post-fidelity correction:** the final page-by-page visual audit rechecked scene 72 on PDF **87 / printed p.79** and established the scan-visible heading as **`[தாசி வீடு`**. The earlier structural-pass reading `[காசி வீடு` was a transcription error and has been corrected here; no scene numbering or pagination changes result from this correction.
 
 ## Verified scene-heading labels
 
@@ -83,7 +85,7 @@ The `header / production label as printed` column preserves the source wording a
 | 69 | 84 | 76 | `[சாப்பாட்டு அறை` |
 | 70 | 86 | 78 | `[கருடன் பதிப்பகம்` |
 | 71 | 87 | 79 | `[ஹோட்டல்` |
-| 72 | 87 | 79 | `[காசி வீடு` |
+| 72 | 87 | 79 | `[தாசி வீடு` |
 | 73 | 90 | 82 | `[ரோடு இரவு` |
 | 74 | 90 | 82 | `[கோர்ட்` |
 | 75 | 90 | 82 | `[கருடன் பதிப்பகம்` |
@@ -113,7 +115,7 @@ This pass records source-visible structures only. It does **not** assign lyric a
 ### Standalone performance-shaped blocks
 
 - **PDF 35 / printed p.27:** centred heading `கோஷம்` followed by a three-line labour slogan/chant block. This is structurally distinct from the surrounding dialogue.
-- **PDF 57 / printed p.49, scenes 42–43:** source-visible `“கலப்படம் கலப்படம்”` material followed by scene 43's statement that the office boy sings the `“கலப்படம்”` song. Treat as a song/performance candidate pending canonical transcription and fidelity review.
+- **PDF 57 / printed p.49, scenes 42–43:** source-visible `“கலப்படம் கலப்படம்”` material followed by scene 43's statement that the office boy sings the `“கலப்படம்”` song. Treat as a song/performance candidate pending source-linked derivative work.
 
 ### Explicit song/singing references without a standalone lyric block established at mapping stage
 
@@ -147,4 +149,4 @@ PDF 2 was re-inspected at high resolution. The lower imprint line visibly suppor
 - Song/performance candidates: **marked for later source-linked inventory; no authorship inferred**.
 - PDF-2 printer line: **partial source reading retained; cropped remainder unresolved**.
 
-The structural mapping gate may therefore move to **`verified`**. Canonical Tamil transcription may begin at PDF **9** / printed p. **1**.
+The structural mapping gate remains **`verified`**. Canonical Tamil transcription is now also fully fidelity-verified across PDF **9–112 / printed pp.1–104**.
