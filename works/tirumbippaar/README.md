@@ -32,7 +32,7 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - unresolved audited main-text pages: **0**
 - scene index: **complete — 93/93**
 - scene-text derivatives: **complete — 93/93**
-- dialogue index: **in progress — scenes 1–20 complete, 201 records**
+- dialogue index: **in progress — scenes 1–30 complete, 294 records**
 - character index: **not-started**
 - song authorship mapping / Tamil song derivatives: **not-started**
 - English translation: **not-started**
@@ -49,8 +49,8 @@ The final PDF 84–112 audit also corrected a prior structural reading for scene
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character. Scenes 10 and 11 therefore correctly have zero dialogue records.
+The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character. Scenes 10, 11, 25 and 26 therefore correctly have zero dialogue records. The standalone scene-29 `கோஷம்` remains in the canonical/scene layer rather than being silently assigned to a speaker.
 
 ## Exact next activity
 
-Continue the **dialogue index with scenes 21–30** from the completed scene derivatives and verified canonical Tamil. Keep the fixed dialogue schema, preserve exact source labels and text, record PDF/printed-page provenance, and use `page_segments` only when one labelled utterance crosses a page boundary.
+Continue the **dialogue index with scenes 31–40** from the completed scene derivatives and verified canonical Tamil. Keep the fixed dialogue schema, preserve exact source labels and text, record PDF/printed-page provenance, and use `page_segments` only when one labelled utterance crosses a page boundary.
