@@ -24,7 +24,7 @@ The source has **46 observed scene headings**; headings **23 and 34 are absent**
 - Tamil soundtrack derivatives: **11/11 complete-verified**
 - Separate quoted-verse derivative: **1**
 
-None of these layers is rewritten by English translation work.
+None of these layers is rewritten by English translation or reader-export work.
 
 ## English translation layer
 
@@ -40,12 +40,39 @@ Final checkpoint:
 - review/draft: **0**
 - kinds: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**
 
-The final activity completed the second pass of scenes **36–40** and then translated and second-pass verified all remaining scenes **41–48**. Verified soundtrack occurrences `parasakthi-song-012`, `parasakthi-song-013` and `parasakthi-song-014` retain their exact source occurrence boundaries; the scene-47 reprise contains only the four lines printed there.
+The translation preserves all verified cross-page units, the source-heading corrections for canonical scenes 43 and 48, soundtrack occurrence boundaries, source-visible material outside the dialogue derivative, and source-unlabelled dialogue/performance without invented speaker labels.
 
-Cross-page dialogue records in scenes 42, 43 and 45 remain single English units. Canonical scene 43 retains source-heading-48 provenance, and final canonical scene 48 retains source-heading-43 provenance. Source-visible material outside the dialogue derivative—such as the scene-45 bracketed lawyer direction and scene-48 closing block—is source-located without invented dialogue IDs.
+## English reader edition and whole-work QA
+
+The publication-facing derivative is under [`editions/en/`](editions/en/). Its automated whole-work QA is **PASS**.
+
+The QA validates:
+
+- **769/769** unique sequential verified English units across **46/46** observed scenes;
+- **634** links back to immutable dialogue records, including exact source speaker labels and page provenance;
+- **14** verified song/verse occurrence links;
+- all **16** cross-page English units;
+- **97** distinct source paths;
+- two direct source-linked labelled dialogue units without invented dialogue IDs;
+- five direct source-linked unlabelled dialogue/performance units without invented speaker labels;
+- two additional direct source-linked non-dialogue units;
+- canonical PDF/printed-page range and scene/unit source order;
+- every unit exactly once in the generated Markdown and HTML reader editions.
+
+Generated reader derivatives:
+
+- `editions/en/reader-edition.md`
+- `editions/en/reader-edition.html`
+- `editions/en/reader-edition.json`
+- `editions/en/QA_REPORT.md`
+- `editions/en/manifest.json`
+
+The build is reproducible through `editions/en/build.py` and the active `.github/workflows/parasakthi-english-edition.yml` workflow.
+
+During this QA activity, the legacy scene-1 pilot record was normalized by adding `scene_status: verified` alongside its existing `pilot_status: verified`; its verified translation text and source provenance were unchanged.
 
 No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory, Tamil song derivative or transcription file was modified.
 
 ## Next activity
 
-There is **no remaining English translation batch**. Optional next work is final whole-work QA/export into a continuous reader-facing English edition while preserving every verified source layer unchanged.
+There is **no required English translation or whole-work QA/export activity remaining**. Optional future work may package the verified reader edition into PDF/EPUB or a repository release without changing the verified source or translation authority.
