@@ -38,6 +38,20 @@ No canonical Tamil, scene, dialogue, character, song or transcription derivative
 
 **Next:** no required Parasakthi English translation or QA/export activity remains. Optional future work may package the verified reader edition into formats such as PDF/EPUB or a release, without changing the verified source layers.
 
+## திரும்பிப்பார்! status
+
+The next screenplay has entered archival intake from `TVA_BOK_0014652_திரும்பிப்பார்.pdf`.
+
+- explicit source edition statement: **`முதல் பதிப்பு: 1953`**;
+- scan: **112 PDF pages**;
+- main screenplay: PDF **9–112 / printed pp.1–104**;
+- scene-number pass: **93 scene starts, consecutively 1–93**;
+- source intake: **complete**;
+- structural mapping: **review**;
+- canonical Tamil transcription: **not-started**.
+
+The scene numbers and start pages have been mapped across the full scan. The next gate is exact visual verification of every complete scene-heading/location line and distinct verse/song structures. Canonical transcription remains blocked until that structural mapping is verified.
+
 ## Status vocabulary
 
 `not-started` · `draft` · `draft-complete` · `review` · `verified` · `pilot-verified` · `complete-verified` · `unresolved`
