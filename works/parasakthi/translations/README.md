@@ -21,7 +21,7 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 ## Current coverage
 
-Observed canonical scenes **1–22, 24–33?** No: the English layer currently stops at **scene 30**. Verified English scene records exist for **1–22 and 24–30**; canonical scene **23 is absent**.
+Verified English scene records exist for observed canonical scenes **1–22 and 24–30**; canonical scene **23 is absent**. The English layer currently stops at **scene 30**.
 
 Current totals:
 
