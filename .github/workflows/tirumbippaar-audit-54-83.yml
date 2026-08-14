@@ -32,8 +32,9 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          p=Path('tools/apply_tirumbippaar_audit_54_83.py')
-          s=p.read_text(encoding='utf-8')
+
+          helper=Path('tools/apply_tirumbippaar_audit_54_83.py')
+          s=helper.read_text(encoding='utf-8')
           old="""for p in range(64,84):
               printed=p-8
               t=replace_required(t, f'<!-- source: pdf={p} printed={printed} status=draft -->', f'<!-- source: pdf={p} printed={printed} status=verified -->', f'part04 anchor {p}')
@@ -41,15 +42,18 @@ jobs:
           new="""for p in list(range(64,80)) + list(range(81,84)):
               printed=p-8
               t=replace_required(t, f'<!-- source: pdf={p} printed={printed} status=draft -->', f'<!-- source: pdf={p} printed={printed} status=verified -->', f'part04 anchor {p}')
-          # PDF 80 / printed p.72 was missing its page anchor in the stored first pass.
-          t=replace_required(t,
-              'இருந்தாலும் சில தொழிலாளிங்க கொஞ்சம் கொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,',
-              'இருந்தாலும் சில தொழிலாளிங்க கொஞ்சங்\n\n<!-- source: pdf=80 printed=72 status=verified -->\n\nகொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,',
-              'part04 restore PDF80 boundary')
           """
           if old not in s:
               raise SystemExit('Expected anchor loop not found in helper')
-          p.write_text(s.replace(old,new,1),encoding='utf-8')
+          helper.write_text(s.replace(old,new,1),encoding='utf-8')
+
+          part=Path('works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md')
+          t=part.read_text(encoding='utf-8')
+          old_boundary='இருந்தாலும் சில தொழிலாளிங்க கொஞ்சம் கொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,'
+          new_boundary='இருந்தாலும் சில தொழிலாளிங்க கொஞ்சங்\n\n<!-- source: pdf=80 printed=72 status=verified -->\n\nகொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,'
+          if old_boundary not in t:
+              raise SystemExit('Expected PDF 79/80 cross-page sentence not found')
+          part.write_text(t.replace(old_boundary,new_boundary,1),encoding='utf-8')
           PY
 
       - name: Apply verified source corrections and status updates
