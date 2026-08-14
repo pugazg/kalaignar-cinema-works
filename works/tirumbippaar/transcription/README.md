@@ -1,29 +1,31 @@
 # திரும்பிப்பார்! — canonical Tamil transcription
 
-Status: **draft-complete; fidelity audit in-progress**.
+Status: **verified; fidelity audit complete**.
 
 `../mapping.md` is `verified`; the complete scene-heading / structural-label audit is in `../notes/scene-heading-audit.md`.
 
-The complete canonical main-text range has a rendered-scan first-pass transcription:
+The complete canonical main-text range has been directly checked against rendered scan images:
 
 - canonical range: PDF **9–112** / printed pp. **1–104**;
 - first-pass coverage: **104/104 pages**;
-- page status: **29 draft / 75 verified / 0 review**;
-- verified range so far: PDF **9–83** / printed pp. **1–75**;
-- last completed audit batch: PDF **24–53** / printed pp. **16–45** — **30 verified pages**;
-- fidelity audit: **in-progress**;
-- next source review page: PDF **84** / printed p. **76**.
+- page status: **0 draft / 104 verified / 0 review**;
+- verified range: PDF **9–112** / printed pp. **1–104**;
+- final completed audit batch: PDF **84–112** / printed pp. **76–104** — **29 verified pages**;
+- fidelity audit: **complete**;
+- unresolved audited main-text pages: **0**.
 
 The aggregate transcription index is [`full-text.md`](full-text.md), the source-order batches are listed in [`parts/README.md`](parts/README.md), and detailed fidelity corrections are recorded in [`../notes/fidelity-audit.md`](../notes/fidelity-audit.md).
 
-A pre-existing first-pass storage gap at PDF **61–63** was discovered during the latest audit. Those three pages have now been restored in part 03 as `draft`; they were not promoted to verified and remain for a later page-by-page visual audit.
+Earlier integrity repairs are now fully resolved within the verified canonical text: PDF **61–63** were restored after a first-pass storage gap was discovered, and the missing explicit page anchor at PDF **80** was restored at the scan-supported boundary.
 
 Each source page uses a stable anchor such as:
 
 ```md
-<!-- source: pdf=53 printed=45 status=verified -->
+<!-- source: pdf=112 printed=104 status=verified -->
 ```
 
 Read from rendered page images. Preserve exact source order, spelling, punctuation, scene-marker irregularities, speaker labels, stage directions, English code-switching and performance/printed-text structures. Keep doubtful readings explicit rather than repairing them from film knowledge, subtitles, audio, web copies or later editions.
 
-The OCR layer is navigation-only and is not canonical evidence. A page is promoted to `verified` only after complete visual comparison against the controlling scan. Structured derivatives remain blocked until the corresponding Tamil source units are fidelity-verified.
+The OCR layer is navigation-only and is not canonical evidence. The separate PDF-2 printer-imprint crop remains documented as a source limitation and is not a main-text fidelity failure.
+
+**Next:** construct the **scene index / scene-text derivatives** from this verified canonical Tamil, using Parasakthi only as the reference implementation and never as a text source.
