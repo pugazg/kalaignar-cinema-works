@@ -4,14 +4,14 @@ Canonical page-order transcription is stored here in source-order batches.
 
 | Part | Source range | Status |
 |---|---|---|
-| `part-01-pdf-9-13.md` | PDF 9–13 / printed pp.1–5 | draft |
+| `part-01-pdf-9-13.md` | PDF 9–13 / printed pp.1–5 | verified |
 | `part-02-pdf-14-35.md` | PDF 14–35 / printed pp.6–27 | draft |
 | `part-03-pdf-36-63.md` | PDF 36–63 / printed pp.28–55 | draft |
 | `part-04-pdf-64-91.md` | PDF 64–91 / printed pp.56–83 | draft |
 | `part-05-pdf-92-112.md` | PDF 92–112 / printed pp.84–104 | draft |
 
-The complete screenplay range, PDF **9–112 / printed pp.1–104**, now has a first-pass transcription: **104/104 draft pages**.
+The complete screenplay range, PDF **9–112 / printed pp.1–104**, has a first-pass transcription. Current page status is **99 draft / 5 verified / 0 review**.
 
-Every page carries a source anchor with independent status. `draft` means first-pass transcription only; a page becomes `verified` only after a separate visual fidelity comparison against the rendered scan.
+Every page carries a source anchor with independent status. `draft` means first-pass transcription only; a page becomes `verified` only after a complete visual fidelity comparison against the rendered scan.
 
-**Next:** begin the visual fidelity audit at PDF **9 / printed p.1**. No page is yet fidelity-verified.
+**Next:** continue the visual fidelity audit at PDF **14 / printed p.6**.
