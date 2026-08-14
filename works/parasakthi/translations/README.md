@@ -16,7 +16,7 @@ This directory contains interpretive English derivatives. Nothing here may repai
 6. **Songs are semantic translations, not singable rewrites.** No rhyme, metre or imagery is invented.
 7. **Quoted verse remains distinct from soundtrack song.**
 8. **Cross-page source units remain one translation unit.**
-9. **Source-visible material absent from a structured derivative may be source-located directly.** Do not manufacture dialogue IDs.
+9. **Source-visible material absent from a structured derivative may be source-located directly.** Do not manufacture dialogue IDs or speaker labels.
 10. **No external text substitution.** Web translations, subtitles, film audio, familiar quotations and later English versions do not replace source-linked work.
 
 ## Final coverage
@@ -29,34 +29,42 @@ Final totals:
 - translation units: **769**;
 - verified: **769**;
 - review/draft: **0**;
-- kinds: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**.
+- kinds: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**;
+- cross-page units: **16**.
 
-All 13 verified soundtrack occurrence records are represented in English, including the scene-47 partial reprise `parasakthi-song-013`; the separate literary quotation `parasakthi-song-009` remains `quoted-verse` rather than soundtrack song.
+All 13 verified soundtrack occurrence records are represented in English, including the scene-47 partial reprise `parasakthi-song-013`; the separate literary quotation remains `quoted-verse` rather than soundtrack song.
 
-## Final review gates
+## Whole-work QA and reader edition
 
-- scenes 6–10: **66/66** second-pass verified;
-- scenes 11–15: **88/88**;
-- scenes 16–20: **87/87**;
-- observed scenes 21, 22, 24, 25: **96/96**; scene 23 absent;
-- scenes 26–30: **93/93**;
-- observed scenes 31, 32, 33, 35: **95/95**; scene 34 absent;
-- scenes 36–40: **43/43**;
-- scenes 41–48: **131/131**.
+The downstream publication-facing edition lives at `../editions/en/`. Its automated whole-work QA is **PASS** and treats these verified records as the English authority rather than rewriting them.
 
-The final pass preserves the verified source-heading corrections: canonical scene **43** corresponds to source heading **48** on PDF 49, and canonical final scene **48** corresponds to source heading **43** on PDF 57.
+The QA checked all **769/769** units and, among other invariants:
 
-## Late-scene fidelity notes
+- cross-checked **634** immutable dialogue-record links for scene, exact Tamil `speaker_label`, and page provenance;
+- cross-checked **14** verified song/verse occurrence links;
+- verified **97** distinct source paths exist;
+- verified the exact **16** cross-page unit list;
+- retained the two indexed direct source-linked labelled dialogue units without invented record IDs;
+- retained **five** source-unlabelled dialogue/performance units without inventing speaker labels;
+- retained the two indexed direct source-linked non-dialogue units;
+- verified canonical PDF **4–57** / printed **3–56** provenance and source order;
+- verified every unit appears exactly once in both the Markdown and HTML reader editions;
+- preserved both prose `english_text` and semantic-poetic/performance `english_lines` payloads according to each verified record.
 
-- `parasakthi-song-012` remains one semantic-poetic PDF **44→45** unit based only on the booklet occurrence, not on a published Bharati translation.
-- Scene 42's preacher speech remains one cross-page PDF **48→49** dialogue unit.
-- Scene 43 preserves its two cross-page dialogue records and pressure-sensitive forms such as `பாடைக் காவடி`, `சுக்குமாந்தடி`, and `ஆஸ்திகம் விதியாக்கிக் கொண்டது` without Tamil repair.
-- Scene 45 preserves the three long cross-page courtroom/flashback records. The source-visible bracket `[நடுவில் ஒரு வக்கீல் எழுந்திருக்கிறார்]`, absent from the dialogue derivative, remains a separate source-located stage unit. During second pass `கடைக்கண் பார்வை` was refined from an overly literal English phrase to **“sidelong glance.”**
-- Scene 47 preserves `parasakthi-song-013` as only the four reprise lines actually printed in that scene.
-- Scene 48 preserves `parasakthi-song-014`, the closing `சுபம்`, and the printer imprint as source-located material; no dialogue record is invented for a scene whose verified dialogue derivative has zero records.
+Generated outputs:
 
-No canonical Tamil, scene file, dialogue record, character record, song inventory, Tamil song derivative or transcription file was modified by the English translation work.
+- `../editions/en/reader-edition.md`
+- `../editions/en/reader-edition.html`
+- `../editions/en/reader-edition.json`
+- `../editions/en/QA_REPORT.md`
+- `../editions/en/manifest.json`
+
+The reproducible builder is `../editions/en/build.py`; `.github/workflows/parasakthi-english-edition.yml` reruns the QA/build when authoritative inputs change.
+
+During QA, the legacy scene-1 pilot record gained `scene_status: verified` alongside its existing `pilot_status: verified`; no verified English text or source provenance changed. The QA also explicitly preserves source-unlabelled material such as scene 17's conscience block and scene 19's performance blocks without manufactured speaker metadata.
+
+No canonical Tamil, scene file, dialogue record, character record, song inventory, Tamil song derivative or transcription file was modified.
 
 ## Next activity
 
-There is **no remaining English translation batch**. Optional follow-up work is a final whole-work QA/export pass—such as generating a reader-facing continuous English edition—without changing the verified Tamil/source layers.
+There is **no required English translation or reader-QA activity remaining**. Optional future work may package the verified reader edition as PDF/EPUB or a release while keeping these records and all canonical source layers immutable.
