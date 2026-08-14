@@ -11,7 +11,7 @@ Archival record for the scanned booklet **`பராசக்தி — மு�
 - PDF 58: rear advertisement / back matter
 - Canonical Tamil: **54 verified / 0 review / 0 unresolved markers**
 
-The source has **46 observed scene headings**; headings 23 and 34 are absent. The documented late scene-number transposition remains source-provenanced while the canonical sequence uses scene 43 on PDF 49 and final scene 48 on PDF 57.
+The source has **46 observed scene headings**; headings **23 and 34 are absent**. The documented late scene-number transposition remains source-provenanced while the canonical sequence uses scene 43 on PDF 49 and final scene 48 on PDF 57.
 
 ## Completed Tamil/source derivatives
 
@@ -32,19 +32,25 @@ Source-linked English records live under [`translations/`](translations/). There
 
 Current checkpoint:
 
-- status: **in-progress-verified**
-- scenes started: **1–20**
+- status: **in-progress-review**
+- scenes started: **1–22, 24–25**
 - scenes verified: **1–20**
-- scenes in review: **none**
-- translation units: **311**
+- scenes in review: **21, 22, 24, 25**
+- canonical scene **23: absent**
+- translation units: **407**
 - verified: **311**
-- review: **0**
-- kinds: **250 dialogue / 54 stage direction / 7 song / 0 quoted verse**
+- review: **96**
+- kinds: **333 dialogue / 67 stage direction / 7 song / 0 quoted verse**
 
-The scenes 16–20 second-pass review is complete. All **87** units passed after English-only refinements; no Tamil/source file was changed.
+The newly created review batch contains:
 
-The verified scene-17 lullaby remains one PDF **21→22** semantic-poetic unit linked to `parasakthi-song-007`. Scene 19's four unlabelled performance blocks remain source-located translation units without invented dialogue IDs, soundtrack occurrences or authorship. Source ambiguities and opaque forms in scenes 18–20 remain documented rather than repaired through English.
+- scene 21 — **44 units**;
+- scene 22 — **16 units**;
+- scene 24 — **7 units**;
+- scene 25 — **29 units**.
+
+There is no verified song/quoted-verse occurrence in these four scenes. Exact Tamil source labels, including the known anomalies in scene 21 d040 and scene 25 d011/d017, remain immutable metadata.
 
 ## Next activity
 
-Create the next source-linked English review batch for canonical **scenes 21–25**, using only observed scenes **21, 22, 24 and 25**. Canonical **scene 23 is absent and must not be invented**. Then perform the same deliberate second-pass review before verification.
+Second-pass all **96 English units** in scenes **21, 22, 24 and 25**. Change English only where source fidelity requires it. Do not create scene 23 and do not begin the next batch until this review is complete.
