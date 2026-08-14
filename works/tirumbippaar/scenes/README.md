@@ -36,4 +36,10 @@ Four scenes cross canonical transcription-part boundaries and are assembled expl
 - scene 48: `part-03` → `part-04` — PDF 63–64 / printed pp.55–56
 - scene 76: `part-04` → `part-05` — PDF 91–92 / printed pp.83–84
 
+## Derivative repair log
+
+During dialogue-index batch 5 (scenes 41–50), direct comparison against the already-verified Part 03 canonical transcription exposed a prior drift in [`scene-41.md`](scene-41.md). The scene derivative had substituted the opening Pandiyan/Paranthaman exchange after PDF 53 and omitted the PDF 54 page anchor. It was repaired from the verified canonical transcription before dialogue extraction.
+
+The repair restored the canonical `பாண்டியன்: கேளேன் தருகிறேன் ...` line, the PDF 54 exchange beginning `பரந்தாமன்: (கேலியாக சிரித்து விட்டு) சரியான திருடன்பா!...`, and the PDF 54 page anchor. No canonical Tamil transcription was altered.
+
 The final derivative, [`scene-93.md`](scene-93.md), preserves the source ending on PDF 112 / printed p.104, including `வணக்கம்.` and the final star.
