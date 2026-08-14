@@ -27,20 +27,22 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - scene numbering gaps/repeats/out-of-order findings: **none observed**
 - main-text missing/duplicate/crop findings: **none observed**
 - performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
-- canonical Tamil transcription: **draft — PDF 9–13 / printed pp.1–5 completed**
-- canonical Tamil page status: **5 draft / 0 verified**
+- canonical Tamil first-pass transcription: **complete — PDF 9–112 / printed pp.1–104**
+- canonical Tamil status: **draft-complete — 104 draft / 0 verified pages**
 - fidelity audit: **not-started**
 - structured scene/dialogue/character/song derivatives: **not-started**
 - English translation: **not-started**
 
-`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and the mapped performance/printed-text candidates.
+`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates.
 
-Canonical first-pass transcription is indexed at `transcription/full-text.md`; the first source-order batch is `transcription/parts/part-01-pdf-9-13.md`.
+Canonical first-pass transcription is indexed at `transcription/full-text.md` and stored in five source-order files under `transcription/parts/`.
 
 ## Source discipline
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
+The completed first pass is **not** yet the verified canonical text. All 104 pages remain `draft` pending direct visual comparison against the scan.
+
 ## Exact next activity
 
-Continue **canonical Tamil first-pass transcription** from PDF **14 / printed p.6**, working from rendered scan pages only. Keep the new pages at `draft` until a separate visual fidelity audit is performed.
+Begin the **canonical Tamil visual fidelity audit** at PDF **9 / printed p.1**. Compare the draft page by page against rendered source images, apply only source-supported corrections, preserve unresolved source forms explicitly, and promote a page to `verified` only after its complete visual check passes.
