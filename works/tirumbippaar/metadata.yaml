@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Extract scene-text derivatives for scenes 51-60 from the verified canonical Tamil."
+  next_action: "Extract scene-text derivatives for scenes 61-70 from the verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -132,23 +132,24 @@ structured_derivatives:
   scene_text_derivatives:
     status: in-progress
     expected_files: 93
-    completed_files: 50
-    completed_scenes: "1-50"
+    completed_files: 60
+    completed_scenes: "1-60"
     completed_batches:
       - "scenes 1-10"
       - "scenes 11-20"
       - "scenes 21-30"
       - "scenes 31-40"
       - "scenes 41-50"
+      - "scenes 51-60"
     cross_part_scenes: [5, 29, 48]
-    next_batch: "scenes 51-60"
-    note: "Scene 5 crosses part-01/part-02. Scene 29 crosses part-02/part-03. Scene 48 starts on PDF 63 in part-03 and continues on PDF 64 in part-04 before scene 49. All are assembled in verified canonical source order with page anchors preserved. Source-visible scene-marker irregularities remain unnormalized."
+    next_batch: "scenes 61-70"
+    note: "Scene 5 crosses part-01/part-02. Scene 29 crosses part-02/part-03. Scene 48 crosses part-03/part-04. Scenes 51-60 are wholly sourced from verified part-04 text. All derivatives preserve canonical wording, page anchors, English insertions and source-visible structural irregularities without normalization."
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: scene-text-scenes-51-60
+  next_structured_derivative: scene-text-scenes-61-70
 
 status:
   source_intake: complete
