@@ -32,19 +32,22 @@ Source-linked English records live under [`translations/`](translations/). There
 
 Current checkpoint:
 
-- status: **in-progress-verified**
-- scenes started/reviewed/verified: **1–22, 24–25**
-- scenes in review: **none**
+- status: **in-progress-review**
+- scenes started/reviewed: **1–22, 24–30**
+- scenes verified: **1–22, 24–25**
+- scenes in review: **26–30**
 - canonical scene **23: absent**
-- translation units: **407**
+- translation units: **500**
 - verified: **407**
-- review: **0**
-- kinds: **333 dialogue / 67 stage direction / 7 song / 0 quoted verse**
+- review: **93**
+- kinds: **410 dialogue / 80 stage direction / 9 song / 1 quoted verse**
 
-The observed scenes 21–25 second-pass review is complete: all **96** units in scenes 21, 22, 24 and 25 are verified. English-only refinements were made where needed, while exact Tamil source labels and known source anomalies remain unchanged.
+The scenes 26–30 review batch contains **93** source-linked units: scene 26 (4), scene 27 (4), scene 28 (55), scene 29 (2), and scene 30 (28). Verified occurrence boundaries are preserved for `parasakthi-song-008`, quoted verse `parasakthi-song-009`, and `parasakthi-song-010`.
+
+Scene 28 dialogue d023 remains one PDF **33→34** translation unit. Scene 30 remains a cross-part canonical scene but no individual English unit crosses its PDF 35→36 boundary.
 
 No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Next activity
 
-Create the next source-linked English review batch for canonical **scenes 26–30**, preserving the verified song/verse occurrence boundaries in scenes 26, 28 and 29. Then perform the same deliberate second-pass review before verification.
+Second-pass all **93 English review units** in scenes **26–30**. Change English only where source fidelity requires it. Preserve verified song/verse boundaries exactly and do not begin scenes 31–35 until this review is complete.
