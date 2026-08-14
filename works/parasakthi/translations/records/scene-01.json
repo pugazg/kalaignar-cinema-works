@@ -3,6 +3,7 @@
   "target_language": "en",
   "canonical_scene": 1,
   "pilot_status": "verified",
+  "scene_status": "verified",
   "unit_count": 4,
   "units": [
     {
