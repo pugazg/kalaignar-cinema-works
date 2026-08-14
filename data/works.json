@@ -118,10 +118,27 @@
       "translation_unit_kind_counts": {"dialogue":641,"stage_direction":114,"song":13,"quoted_verse":1},
       "translation_cross_page_units": ["parasakthi-en-s001-u004","parasakthi-en-s008-u002","parasakthi-en-s009-u001","parasakthi-en-s013-u028","parasakthi-en-s015-u023","parasakthi-en-s017-u002","parasakthi-en-s026-u003","parasakthi-en-s028-u026","parasakthi-en-s033-u059","parasakthi-en-s039-u002","parasakthi-en-s042-u002","parasakthi-en-s043-u006","parasakthi-en-s043-u022","parasakthi-en-s045-u002","parasakthi-en-s045-u005","parasakthi-en-s045-u020"],
       "translation_direct_source_labelled_units_without_dialogue_record": ["parasakthi-en-s032-u004","parasakthi-en-s033-u063"],
-      "next_structured_derivative": "english-translation-final-whole-work-qa-or-export"
+      "english_reader_edition": "complete-verified",
+      "english_reader_edition_directory": "works/parasakthi/editions/en",
+      "english_reader_markdown": "works/parasakthi/editions/en/reader-edition.md",
+      "english_reader_html": "works/parasakthi/editions/en/reader-edition.html",
+      "english_reader_json": "works/parasakthi/editions/en/reader-edition.json",
+      "english_reader_qa_report": "works/parasakthi/editions/en/QA_REPORT.md",
+      "english_reader_manifest": "works/parasakthi/editions/en/manifest.json",
+      "english_reader_build": "works/parasakthi/editions/en/build.py",
+      "english_reader_qa": "PASS",
+      "english_reader_qa_units": 769,
+      "english_reader_qa_dialogue_links": 634,
+      "english_reader_qa_occurrence_links": 14,
+      "english_reader_qa_source_paths": 97,
+      "english_reader_qa_cross_page_units": 16,
+      "english_reader_input_aggregate_sha256": "bbbd6636e1fe25a3a302e28a12d4dc13800a4451b4381f1772722b579bc7ab44",
+      "next_structured_derivative": null
     },
     "song_authorship_mapping": "complete-verified",
     "song_tamil_derivatives": "complete-verified",
-    "english_translation": "complete-verified"
+    "english_translation": "complete-verified",
+    "english_reader_edition": "complete-verified",
+    "english_reader_qa": "PASS"
   }
 ]
