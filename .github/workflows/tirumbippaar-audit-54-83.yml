@@ -1,11 +1,10 @@
-name: Tirumbippaar fidelity audit PDF 54-83
+name: Finalize Tirumbippaar fidelity audit PDF 54-83
 
 on:
   push:
     branches:
       - main
     paths:
-      - "tools/apply_tirumbippaar_audit_54_83.py"
       - ".github/workflows/tirumbippaar-audit-54-83.yml"
   workflow_dispatch:
 
@@ -13,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  apply-audit:
+  finalize-audit:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -27,47 +26,72 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Account for missing PDF 80 first-pass page anchor
+      - name: Apply final source correction and audit bookkeeping
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
+          import json, re
 
-          helper=Path('tools/apply_tirumbippaar_audit_54_83.py')
-          s=helper.read_text(encoding='utf-8')
-          old="""for p in range(64,84):
-              printed=p-8
-              t=replace_required(t, f'<!-- source: pdf={p} printed={printed} status=draft -->', f'<!-- source: pdf={p} printed={printed} status=verified -->', f'part04 anchor {p}')
-          """
-          new="""for p in list(range(64,80)) + list(range(81,84)):
-              printed=p-8
-              t=replace_required(t, f'<!-- source: pdf={p} printed={printed} status=draft -->', f'<!-- source: pdf={p} printed={printed} status=verified -->', f'part04 anchor {p}')
-          """
+          p4=Path('works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md')
+          s=p4.read_text(encoding='utf-8')
+          old='குமுதா: இருதயம் இருக்கிறது. அதில் உன் தம்பியின் நேசம் வாரங்களுக்கு மட்டுமே இடமிருக்கிறது.'
+          new='குமுதா: இருதயம் இருக்கிறது. அதில் உன் தம்பியின் ஷேம லாபங்களுக்கு மட்டுமே இடமிருக்கிறது.'
           if old not in s:
-              raise SystemExit('Expected anchor loop not found in helper')
-          helper.write_text(s.replace(old,new,1),encoding='utf-8')
+              raise SystemExit('Expected PDF75 heart line not found')
+          p4.write_text(s.replace(old,new,1),encoding='utf-8')
 
-          part=Path('works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md')
-          t=part.read_text(encoding='utf-8')
-          old_boundary='இருந்தாலும் சில தொழிலாளிங்க கொஞ்சம் கொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,'
-          new_boundary='இருந்தாலும் சில தொழிலாளிங்க கொஞ்சங்\n\n<!-- source: pdf=80 printed=72 status=verified -->\n\nகொஞ்சமா அந்தப் பாண்டியன் கட்சியிலே சேர்ந்துகிட்டு,'
-          if old_boundary not in t:
-              raise SystemExit('Expected PDF 79/80 cross-page sentence not found')
-          part.write_text(t.replace(old_boundary,new_boundary,1),encoding='utf-8')
+          meta=Path('works/tirumbippaar/metadata.yaml')
+          s=meta.read_text(encoding='utf-8')
+          s=s.replace(
+              '  first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan as draft-only pages and remain unaudited."',
+              '  first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan and have now completed fidelity verification."')
+          marker='  draft_pages: 29\n'
+          if marker not in s:
+              raise SystemExit('Metadata draft count marker missing')
+          s=s.replace(marker,'  first_pass_missing_page_anchor_repaired_pdf_pages: [80]\n  first_pass_missing_page_anchor_repair_note: "During the PDF 54-83 audit, the stored first pass was found to contain PDF 80 text without an explicit page anchor. The PDF 79/80 source boundary was restored from the scan before verification."\n  draft_pages: 29\n',1)
+          s=s.replace('  last_completed_batch_pdf_pages: "24-53"','  last_completed_batch_pdf_pages: "54-83"')
+          s=s.replace('  last_completed_batch_printed_pages: "16-45"','  last_completed_batch_printed_pages: "46-75"')
+          meta.write_text(s,encoding='utf-8')
+
+          ledger=Path('works/tirumbippaar/notes/fidelity-audit.md')
+          s=ledger.read_text(encoding='utf-8')
+          note='''### Page-boundary integrity repair found during this activity\n\nThe stored first pass contained the text of PDF **80 / printed p.72**, but it had no explicit page anchor: the PDF 79 sentence flowed directly into PDF 80 before the next recorded anchor at PDF 81. The rendered scan shows the sentence crossing the page boundary after `கொஞ்சங்`; an explicit `<!-- source: pdf=80 printed=72 status=verified -->` anchor has now been restored at that exact boundary. No source text was invented or deleted by this repair.\n\n'''
+          next_marker='**Next audit page:** PDF **84 / printed p.76**.'
+          if next_marker not in s:
+              raise SystemExit('Ledger next-page marker missing')
+          if 'Page-boundary integrity repair found during this activity' not in s:
+              s=s.replace(next_marker,note+next_marker,1)
+          ledger.write_text(s,encoding='utf-8')
+
+          registry=Path('data/works.json')
+          data=json.loads(registry.read_text(encoding='utf-8'))
+          w=next(x for x in data if x.get('id')=='tirumbippaar')
+          w['tamil_first_pass_missing_page_anchor_repaired_pdf_pages']=[80]
+          w['tamil_first_pass_missing_page_anchor_repair_status']='restored-verified'
+          w['tamil_fidelity_audit_last_batch_pdf_pages']='54-83'
+          w['tamil_fidelity_audit_last_batch_verified_pages']=30
+          registry.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          p3=Path('works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md').read_text(encoding='utf-8')
+          p4s=p4.read_text(encoding='utf-8')
+          for p in range(54,64):
+              assert p3.count(f'<!-- source: pdf={p} printed={p-8} status=verified -->') == 1, p
+          for p in range(64,84):
+              assert p4s.count(f'<!-- source: pdf={p} printed={p-8} status=verified -->') == 1, p
+          for p in range(84,92):
+              assert p4s.count(f'<!-- source: pdf={p} printed={p-8} status=draft -->') == 1, p
+          assert 'நேசம் வாரங்களுக்கு' not in p4s
+          assert 'ஷேம லாபங்களுக்கு' in p4s
+          print('Final QA passed: PDF 54-83 each has one verified anchor; PDF 84-91 remain draft.')
           PY
 
-      - name: Apply verified source corrections and status updates
-        run: python tools/apply_tirumbippaar_audit_54_83.py
-
-      - name: Commit audit results
+      - name: Remove one-off audit tooling and commit final state
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -f tools/apply_tirumbippaar_audit_54_83.py .github/workflows/tirumbippaar-audit-54-83.yml
           git add README.md data/works.json works/tirumbippaar
-          if git diff --cached --quiet; then
-            echo "Audit outputs are already applied; nothing to commit."
-          else
-            git commit -m "Verify Tirumbippaar PDF 54-83 against scan [skip ci]"
-            git push
-          fi
+          git commit -m "Finalize Tirumbippaar PDF 54-83 fidelity audit [skip ci]"
+          git push
