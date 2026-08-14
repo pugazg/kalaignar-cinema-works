@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Continue the dialogue index with scenes 11-20 from the completed scene derivatives and verified canonical Tamil."
+  next_action: "Continue the dialogue index with scenes 21-30 from the completed scene derivatives and verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -154,8 +154,8 @@ structured_derivatives:
     readme: "dialogues/README.md"
     storage: scene-sharded
     record_directory: "dialogues/records"
-    records: 96
-    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    records: 201
+    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     scene_record_counts:
       1: 8
       2: 13
@@ -167,16 +167,26 @@ structured_derivatives:
       8: 4
       9: 3
       10: 0
-    zero_record_scenes: [10]
+      11: 0
+      12: 21
+      13: 8
+      14: 1
+      15: 19
+      16: 5
+      17: 21
+      18: 3
+      19: 8
+      20: 19
+    zero_record_scenes: [10, 11]
     cross_page_records_verified: ["tirumbippaar-s001-d006"]
     source_label_anomaly_records: []
-    next_batch: "scenes 11-20"
-    note: "Batch 1 is complete for scenes 1-10. Explicit speaker labels are preserved exactly without character normalization. Scene 10 correctly has zero dialogue records because it contains only unlabelled visual narrative. The unlabelled post-direction `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` in scene 5 is not silently assigned to a speaker."
+    next_batch: "scenes 21-30"
+    note: "Dialogue indexing is complete through scene 20. Batch 2 contributes 105 records. Scene 11 correctly has zero records because its printed content is only an unlabelled boat-song stage direction. Explicit speaker labels and parenthetical material inside labelled utterances are preserved exactly; unlabelled stage/song material is not silently assigned."
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: dialogue-index-scenes-11-20
+  next_structured_derivative: dialogue-index-scenes-21-30
 
 status:
   source_intake: complete
