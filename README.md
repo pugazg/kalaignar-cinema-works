@@ -53,14 +53,14 @@ The next screenplay is being archived from `TVA_BOK_0014652_திரும்�
 - main-text missing/duplicate/crop findings: **none observed**;
 - performance/song candidate structures: marked for later source-linked inventory, with no authorship inferred;
 - canonical Tamil first pass: **complete — 104/104 pages**;
-- canonical Tamil page status: **94 draft / 10 verified / 0 review**;
-- verified range: **PDF 9–18 / printed pp.1–10**;
+- canonical Tamil page status: **89 draft / 15 verified / 0 review**;
+- verified range: **PDF 9–23 / printed pp.1–15**;
 - Tamil transcription status: **draft-complete**;
 - fidelity audit: **in-progress**.
 
 The PDF-2 lower imprint remains a documented source crop. Reinspection supports only the visible partial `சிட்டி பிரஸ், மதுரை ரோ…`; the missing continuation is not reconstructed.
 
-**Next:** continue the canonical Tamil **visual fidelity audit** from PDF **19 / printed p.11**. Draft pages are promoted to `verified` only after complete direct comparison with the rendered source scan.
+**Next:** continue the canonical Tamil **visual fidelity audit** from PDF **24 / printed p.16**. Draft pages are promoted to `verified` only after complete direct comparison with the rendered source scan.
 
 ## Status vocabulary
 
