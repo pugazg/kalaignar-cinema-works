@@ -53,17 +53,18 @@ The next screenplay is being archived from `TVA_BOK_0014652_திரும்�
 - main-text missing/duplicate/crop findings: **none observed**;
 - performance/song candidate structures: marked for later source-linked inventory, with no authorship inferred;
 - canonical Tamil first pass: **complete — 104/104 pages**;
-- canonical Tamil page status: **29 draft / 75 verified / 0 review**;
-- verified range: **PDF 9–83 / printed pp.1–75**;
-- latest audit batch: **PDF 24–53 / printed pp.16–45 — 30 verified pages**;
-- Tamil transcription status: **draft-complete**;
-- fidelity audit: **in-progress**.
+- canonical Tamil page status: **0 draft / 104 verified / 0 review**;
+- verified range: **PDF 9–112 / printed pp.1–104**;
+- final audit batch: **PDF 84–112 / printed pp.76–104 — 29 verified pages**;
+- Tamil transcription status: **verified**;
+- fidelity audit: **complete**;
+- unresolved audited main-text pages: **0**.
 
-During the latest audit, a pre-existing stored-transcription gap at PDF **61–63** was discovered and repaired from the scan. Those three pages are restored as `draft` only and remain pending their normal fidelity audit.
+Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are now fidelity-verified. The final audit also corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
 
 The PDF-2 lower imprint remains a documented source crop. Reinspection supports only the visible partial `சிட்டி பிரஸ், மதுரை ரோ…`; the missing continuation is not reconstructed.
 
-**Next:** continue the canonical Tamil **visual fidelity audit** from PDF **84 / printed p.76**. Draft pages are promoted to `verified` only after complete direct comparison with the rendered source scan.
+**Next:** construct the **scene index / scene-text derivatives** from verified canonical Tamil, using Parasakthi only as the reference implementation and not as a text source.
 
 ## Status vocabulary
 
