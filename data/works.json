@@ -168,8 +168,9 @@
     "tamil_first_pass_complete": true,
     "tamil_transcription_through_pdf_page": 112,
     "tamil_transcription_through_printed_page": 104,
-    "tamil_transcription_draft_pages": 104,
-    "tamil_transcription_verified_pages": 0,
+    "tamil_transcription_draft_pages": 94,
+    "tamil_transcription_verified_pages": 10,
+    "tamil_transcription_review_pages": 0,
     "tamil_transcription_part_paths": [
       "works/tirumbippaar/transcription/parts/part-01-pdf-9-13.md",
       "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
@@ -179,9 +180,11 @@
     ],
     "tamil_transcription_next_pdf_page": null,
     "tamil_transcription_next_printed_page": null,
-    "tamil_fidelity_audit": "not-started",
-    "tamil_fidelity_audit_next_pdf_page": 9,
-    "tamil_fidelity_audit_next_printed_page": 1,
+    "tamil_fidelity_audit": "in-progress",
+    "tamil_fidelity_audit_through_pdf_page": 18,
+    "tamil_fidelity_audit_through_printed_page": 10,
+    "tamil_fidelity_audit_next_pdf_page": 19,
+    "tamil_fidelity_audit_next_printed_page": 11,
     "source_crop_notes": [
       {
         "pdf_page": 2,
@@ -200,6 +203,6 @@
       "english_translation": "not-started",
       "next_structured_derivative": "canonical-tamil-fidelity-audit"
     },
-    "next_action": "Begin canonical Tamil visual fidelity audit at PDF 9 / printed p.1; keep derivatives blocked until verified source text is available."
+    "next_action": "Continue canonical Tamil visual fidelity audit at PDF 19 / printed p.11; keep derivatives blocked until verified source text is available."
   }
 ]
