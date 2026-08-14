@@ -2,7 +2,7 @@
 """Build and QA the provenance-safe Parasakthi English reader edition.
 
 The verified scene-sharded translation records are the English authority.
-This script validates their structure and source links, then emits continuous
+This script validates structure and source links, then emits continuous
 Markdown, HTML, and JSON reader exports plus a deterministic QA report and
 manifest. It writes only inside works/parasakthi/editions/en/.
 """
@@ -18,7 +18,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-BUILD_VERSION = 2
+BUILD_VERSION = 3
 ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "parasakthi"
 TRANSLATIONS = WORK / "translations"
@@ -26,7 +26,7 @@ INDEX_PATH = TRANSLATIONS / "index.json"
 SONG_INVENTORY_PATH = WORK / "songs" / "inventory.json"
 OUT_DIR = WORK / "editions" / "en"
 
-EXPECTED_SCENES = [scene for scene in range(1, 49) if scene not in {23, 34}]
+EXPECTED_SCENES = [n for n in range(1, 49) if n not in {23, 34}]
 EXPECTED_ABSENT = [23, 34]
 EXPECTED_UNITS = 769
 EXPECTED_KIND_COUNTS = {
@@ -99,63 +99,80 @@ def source_records(path: Path, cache: dict[Path, dict[str, dict[str, Any]]]) -> 
     return cache[path]
 
 
-def unit_text(unit: dict[str, Any]) -> str:
+def translation_parts(unit: dict[str, Any]) -> tuple[str | None, list[str] | None]:
     translation = unit["translation"]
-    return translation["english_text"] if "english_text" in translation else "\n".join(translation["english_lines"])
+    text = translation.get("english_text")
+    lines = translation.get("english_lines")
+    return text if isinstance(text, str) else None, lines if isinstance(lines, list) else None
+
+
+def unit_text(unit: dict[str, Any]) -> str:
+    text, lines = translation_parts(unit)
+    if text is not None:
+        return text
+    assert lines is not None
+    return "\n".join(lines)
 
 
 def page_label(provenance: list[dict[str, int]]) -> str:
     if len(provenance) == 1:
-        page = provenance[0]
-        return f"PDF {page['pdf_page']} / printed {page['printed_page']}"
+        p = provenance[0]
+        return f"PDF {p['pdf_page']} / printed {p['printed_page']}"
     first, last = provenance[0], provenance[-1]
     return f"PDF {first['pdf_page']}→{last['pdf_page']} / printed {first['printed_page']}→{last['printed_page']}"
 
 
 def render_markdown(scenes: list[dict[str, Any]]) -> str:
-    lines = [
+    out: list[str] = [
         "# Parasakthi — English Reader Edition",
         "",
         "**Status:** complete-verified source-linked English derivative  ",
         "**English authority:** `works/parasakthi/translations/records/`  ",
         f"**Source scan SHA-256:** `{EXPECTED_SOURCE_SHA256}`",
         "",
-        "> Editorial note: This reader edition concatenates the 769 verified English translation units without rewriting them. Exact Tamil speaker labels are retained where the source supplies them. Canonical scenes 23 and 34 are absent from the source and are therefore not invented here.",
+        "> Editorial note: This edition concatenates the 769 verified English units without rewriting them. Exact Tamil speaker labels are retained where supplied by the source-linked record. Canonical scenes 23 and 34 are absent and are not invented here.",
         "",
         "## Contents",
         "",
     ]
-    lines.extend(f"- [Scene {scene}](#scene-{scene})" for scene in EXPECTED_SCENES)
-    lines.extend(["", "---", ""])
+    out.extend(f"- [Scene {scene}](#scene-{scene})" for scene in EXPECTED_SCENES)
+    out.extend(["", "---", ""])
 
     for record in scenes:
         scene = record["canonical_scene"]
-        lines.extend([f"## Scene {scene}", ""])
+        out.extend([f"## Scene {scene}", ""])
         if scene == 43:
-            lines.extend(["*Source-numbering provenance: canonical scene 43 corresponds to the booklet heading printed as scene 48 on PDF 49.*", ""])
-        if scene == 48:
-            lines.extend(["*Source-numbering provenance: canonical final scene 48 corresponds to the booklet heading printed as scene 43 on PDF 57.*", ""])
+            out.extend(["*Source-numbering provenance: canonical scene 43 corresponds to the booklet heading printed as scene 48 on PDF 49.*", ""])
+        elif scene == 48:
+            out.extend(["*Source-numbering provenance: canonical final scene 48 corresponds to the booklet heading printed as scene 43 on PDF 57.*", ""])
 
         for unit in record["units"]:
             uid = unit["id"]
             source = unit["source"]
             kind = unit["kind"]
-            translation = unit["translation"]
-            lines.append(f"<!-- unit:{uid}; source:{page_label(source['page_provenance'])} -->")
+            text, lines = translation_parts(unit)
+            out.append(f"<!-- unit:{uid}; source:{page_label(source['page_provenance'])} -->")
             if kind == "dialogue":
-                speaker = source.get("speaker_label")
-                if speaker:
-                    lines.append(f"**{speaker}**  ")
-                lines.append(translation["english_text"])
+                if source.get("speaker_label"):
+                    out.append(f"**{source['speaker_label']}**  ")
+                if text is not None:
+                    out.append(text)
+                else:
+                    out.extend(f"> {line}  " for line in lines or [])
             elif kind == "stage-direction":
-                lines.append(f"*{translation['english_text']}*")
+                if text is not None:
+                    out.append(f"*{text}*")
+                else:
+                    out.extend(f"*{line}*  " for line in lines or [])
             else:
-                lines.append(f"*{'Song' if kind == 'song' else 'Quoted verse'}*  ")
-                lines.extend(f"> {line}  " for line in translation["english_lines"])
-            lines.append("")
-        lines.extend(["---", ""])
-
-    return "\n".join(lines).rstrip() + "\n"
+                out.append(f"*{'Song' if kind == 'song' else 'Quoted verse'}*  ")
+                if lines is not None:
+                    out.extend(f"> {line}  " for line in lines)
+                elif text is not None:
+                    out.append(f"> {text}")
+            out.append("")
+        out.extend(["---", ""])
+    return "\n".join(out).rstrip() + "\n"
 
 
 def render_html(scenes: list[dict[str, Any]]) -> str:
@@ -166,27 +183,30 @@ def render_html(scenes: list[dict[str, Any]]) -> str:
         body = [f'<section class="scene" id="scene-{scene}">', f"<h2>Scene {scene}</h2>"]
         if scene == 43:
             body.append('<p class="provenance">Source-numbering provenance: canonical scene 43 corresponds to the booklet heading printed as scene 48 on PDF 49.</p>')
-        if scene == 48:
+        elif scene == 48:
             body.append('<p class="provenance">Source-numbering provenance: canonical final scene 48 corresponds to the booklet heading printed as scene 43 on PDF 57.</p>')
 
         for unit in record["units"]:
             uid = html.escape(unit["id"], quote=True)
             source = unit["source"]
             kind = unit["kind"]
-            translation = unit["translation"]
+            text, lines = translation_parts(unit)
             page = html.escape(page_label(source["page_provenance"]), quote=True)
             if kind == "dialogue":
                 speaker = source.get("speaker_label")
                 speaker_html = f'<span class="speaker">{html.escape(speaker)}</span>' if speaker else ""
-                text = html.escape(translation["english_text"]).replace("\n", "<br>")
-                body.append(f'<p class="unit dialogue" data-unit-id="{uid}" data-source-page="{page}">{speaker_html}<span class="text">{text}</span></p>')
+                if text is not None:
+                    content = html.escape(text).replace("\n", "<br>")
+                else:
+                    content = "<br>\n".join(html.escape(line) for line in lines or [])
+                body.append(f'<p class="unit dialogue" data-unit-id="{uid}" data-source-page="{page}">{speaker_html}<span class="text">{content}</span></p>')
             elif kind == "stage-direction":
-                text = html.escape(translation["english_text"]).replace("\n", "<br>")
-                body.append(f'<p class="unit stage" data-unit-id="{uid}" data-source-page="{page}">{text}</p>')
+                content = html.escape(text).replace("\n", "<br>") if text is not None else "<br>\n".join(html.escape(line) for line in lines or [])
+                body.append(f'<p class="unit stage" data-unit-id="{uid}" data-source-page="{page}">{content}</p>')
             else:
                 label = "Song" if kind == "song" else "Quoted verse"
-                verse = "<br>\n".join(html.escape(line) for line in translation["english_lines"])
-                body.append(f'<div class="unit verse" data-unit-id="{uid}" data-source-page="{page}"><p class="verse-label">{label}</p><p>{verse}</p></div>')
+                content = "<br>\n".join(html.escape(line) for line in lines) if lines is not None else html.escape(text or "")
+                body.append(f'<div class="unit verse" data-unit-id="{uid}" data-source-page="{page}"><p class="verse-label">{label}</p><p>{content}</p></div>')
         body.append('<p class="back"><a href="#contents">Back to contents</a></p>')
         body.append("</section>")
         sections.append("\n".join(body))
@@ -220,7 +240,7 @@ nav a {{ white-space: nowrap; }}
 <header>
 <h1>Parasakthi — English Reader Edition</h1>
 <p><strong>Status:</strong> complete-verified source-linked English derivative</p>
-<p class="note">This edition concatenates the 769 verified English translation units without rewriting them. Exact Tamil speaker labels are retained where the source supplies them. Canonical scenes 23 and 34 are absent from the source and are not invented.</p>
+<p class="note">This edition concatenates the 769 verified English units without rewriting them. Exact Tamil speaker labels are retained where supplied. Canonical scenes 23 and 34 are absent and are not invented.</p>
 </header>
 <h2 id="contents">Contents</h2>
 <nav aria-label="Scene navigation">{nav}</nav>
@@ -269,8 +289,7 @@ def main() -> int:
         record = load_json(path)
         scenes.append(record)
         ensure(record.get("canonical_scene") == scene, f"Scene mismatch in {path.relative_to(ROOT)}")
-        record_status = record.get("scene_status", record.get("pilot_status"))
-        ensure(record_status == "verified", f"Scene {scene} is not verified")
+        ensure(record.get("scene_status", record.get("pilot_status")) == "verified", f"Scene {scene} is not verified")
         units = record.get("units")
         ensure(isinstance(units, list) and units, f"Scene {scene} has no units array")
         ensure(record.get("unit_count") == len(units) == meta.get("unit_count"), f"Scene {scene} unit count mismatch")
@@ -336,20 +355,16 @@ def main() -> int:
 
             if kind == "dialogue" and record_id is None:
                 ensure(locator is not None, f"Source-located dialogue {uid} has no source locator")
-                if source.get("speaker_label"):
-                    direct_labelled.append(uid)
-                else:
-                    direct_unlabelled.append(uid)
+                (direct_labelled if source.get("speaker_label") else direct_unlabelled).append(uid)
 
             translation = unit.get("translation")
             ensure(isinstance(translation, dict), f"Unit {uid} has malformed translation")
-            has_text = isinstance(translation.get("english_text"), str)
-            has_lines = isinstance(translation.get("english_lines"), list)
-            ensure(has_text ^ has_lines, f"Unit {uid} must have exactly one of english_text or english_lines")
-            if kind in {"dialogue", "stage-direction"}:
-                ensure(has_text and translation["english_text"].strip(), f"Unit {uid} should contain non-empty english_text")
+            text, lines = translation_parts(unit)
+            ensure((text is not None) ^ (lines is not None), f"Unit {uid} must have exactly one of english_text or english_lines")
+            if text is not None:
+                ensure(bool(text.strip()), f"Unit {uid} has empty english_text")
             else:
-                ensure(has_lines and translation["english_lines"] and all(isinstance(line, str) for line in translation["english_lines"]), f"Unit {uid} should contain english_lines")
+                ensure(bool(lines) and all(isinstance(line, str) for line in lines), f"Unit {uid} has malformed english_lines")
             ensure(not PLACEHOLDER_RE.search(unit_text(unit)), f"Unit {uid} contains an editorial placeholder token")
             ensure(translation.get("mode") in {"prose-faithful", "semantic-poetic"}, f"Unit {uid} has invalid translation mode")
             ensure(isinstance(translation.get("notes"), list), f"Unit {uid} notes is not an array")
@@ -399,7 +414,7 @@ def main() -> int:
     ensure(reader_md.count("\n## Scene ") == len(EXPECTED_SCENES), "Reader Markdown scene heading count mismatch")
     ensure(reader_html.count('<section class="scene" id="scene-') == len(EXPECTED_SCENES), "Reader HTML scene section count mismatch")
 
-    qa_report = f"""# Parasakthi English Reader Edition — Whole-work QA\n\n**Status:** PASS  \n**English authority:** `works/parasakthi/translations/records/`  \n**Source scan SHA-256:** `{EXPECTED_SOURCE_SHA256}`\n\n## Verified checks\n\n- observed canonical scenes: **46/46** (`1–22, 24–33, 35–48`);\n- absent canonical scenes: **23, 34** — no phantom reader sections created;\n- English units: **{EXPECTED_UNITS}/{EXPECTED_UNITS} unique, sequential and verified**;\n- status counts: **769 verified / 0 review / 0 draft**;\n- kind counts: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**;\n- cross-page units: **{len(cross_page)}**, exactly matching `translations/index.json`;\n- immutable dialogue-record links cross-checked: **{dialogue_links_checked}**;\n- verified song/verse occurrence links cross-checked: **{occurrence_links_checked}**;\n- distinct source paths existence-checked: **{len(source_paths_checked)}**;\n- direct source-linked labelled dialogue units without invented record IDs: **{len(direct_labelled)}**;\n- direct source-linked unlabelled dialogue/conscience units retained without invented speaker labels: **{len(direct_unlabelled)}**;\n- additional indexed direct source-linked non-dialogue units retained: **{len(direct_non_dialogue)}**;\n- every provenance page lies inside PDF **4–57** / printed **3–56**, with the verified printed-page mapping;\n- unit order is non-regressing in source-page order within every scene;\n- scene order is non-regressing across the canonical sequence;\n- reader Markdown contains every verified unit exactly once;\n- reader HTML contains every verified unit exactly once;\n- no `TODO`, `TBD`, `FIXME`, or template-placeholder token appears in reader text.\n\n## Reader-edition policy\n\nThe reader export does **not** rewrite translation text. Dialogue displays an exact Tamil source `speaker_label` only when that verified metadata exists; source-unlabelled dialogue remains unlabelled rather than receiving an invented speaker label. Songs and quoted verse preserve their verified English line order. Stage directions remain separate units. Source-numbering corrections for canonical scenes **43** and **48** are stated explicitly rather than silently normalized.\n\n## Generated derivatives\n\n- `reader-edition.md` — continuous Markdown reader edition with invisible unit/page provenance comments;\n- `reader-edition.html` — standalone responsive/print-friendly HTML reader edition;\n- `reader-edition.json` — concatenated machine-readable edition retaining full source-linked unit metadata;\n- `manifest.json` — deterministic input/output integrity manifest.\n\nThe generator writes only inside `works/parasakthi/editions/en/`; it does not modify canonical Tamil, scene derivatives, dialogue records, character mappings, song inventory, Tamil song derivatives, or transcription files.\n"""
+    qa_report = f"""# Parasakthi English Reader Edition — Whole-work QA\n\n**Status:** PASS  \n**English authority:** `works/parasakthi/translations/records/`  \n**Source scan SHA-256:** `{EXPECTED_SOURCE_SHA256}`\n\n## Verified checks\n\n- observed canonical scenes: **46/46** (`1–22, 24–33, 35–48`);\n- absent canonical scenes: **23, 34** — no phantom reader sections created;\n- English units: **{EXPECTED_UNITS}/{EXPECTED_UNITS} unique, sequential and verified**;\n- status counts: **769 verified / 0 review / 0 draft**;\n- kind counts: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**;\n- cross-page units: **{len(cross_page)}**, exactly matching `translations/index.json`;\n- immutable dialogue-record links cross-checked: **{dialogue_links_checked}**;\n- verified song/verse occurrence links cross-checked: **{occurrence_links_checked}**;\n- distinct source paths existence-checked: **{len(source_paths_checked)}**;\n- direct source-linked labelled dialogue units without invented record IDs: **{len(direct_labelled)}**;\n- direct source-linked unlabelled dialogue/performance units retained without invented speaker labels: **{len(direct_unlabelled)}**;\n- additional indexed direct source-linked non-dialogue units retained: **{len(direct_non_dialogue)}**;\n- every provenance page lies inside PDF **4–57** / printed **3–56**, with the verified printed-page mapping;\n- unit order is non-regressing in source-page order within every scene;\n- scene order is non-regressing across the canonical sequence;\n- both prose (`english_text`) and semantic-poetic/performance (`english_lines`) translation payloads are preserved according to the verified record rather than coerced by unit kind;\n- reader Markdown contains every verified unit exactly once;\n- reader HTML contains every verified unit exactly once;\n- no `TODO`, `TBD`, `FIXME`, or template-placeholder token appears in reader text.\n\n## Reader-edition policy\n\nThe reader export does **not** rewrite translation text. Dialogue displays an exact Tamil source `speaker_label` only when that verified metadata exists; source-unlabelled dialogue/performance remains unlabelled. Semantic-poetic `english_lines` remain line-structured even when the archival unit kind is dialogue. Songs and quoted verse preserve verified English line order. Stage directions remain separate. Source-numbering corrections for canonical scenes **43** and **48** are stated explicitly rather than silently normalized.\n\n## Generated derivatives\n\n- `reader-edition.md` — continuous Markdown reader edition with invisible unit/page provenance comments;\n- `reader-edition.html` — standalone responsive/print-friendly HTML reader edition;\n- `reader-edition.json` — concatenated machine-readable edition retaining full source-linked unit metadata;\n- `manifest.json` — deterministic input/output integrity manifest.\n\nThe generator writes only inside `works/parasakthi/editions/en/`; it does not modify canonical Tamil, scene derivatives, dialogue records, character mappings, song inventory, Tamil song derivatives, or transcription files.\n"""
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     output_payloads = {
