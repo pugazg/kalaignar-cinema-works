@@ -115,7 +115,7 @@ fidelity_audit:
       context: "குதிரைக்கு பதிலாக நரம்பு தெறிக்கத்தெறிக்க ரிக்ஷா இழுத்துக்"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "English source-linked translation is complete-verified for every observed canonical scene: 769/769 units verified; scenes 23 and 34 are absent. No translation batch remains; next optional work is final whole-work QA/export."
+  next_action: "English translation and whole-work English reader QA/export are complete. No required derivative work remains; optional future work is downstream packaging/release only."
   note: "Full visual fidelity audit is complete. Part 01 is 32/32 verified and Part 02 is 22/22 verified. The canonical scene headings use 43 on PDF 49 and final 48 on PDF 57, while preserving the booklet's opposite printed readings as documented source misprints."
 
 structured_derivatives:
@@ -277,7 +277,29 @@ structured_derivatives:
     cross_page_units: ["parasakthi-en-s001-u004", "parasakthi-en-s008-u002", "parasakthi-en-s009-u001", "parasakthi-en-s013-u028", "parasakthi-en-s015-u023", "parasakthi-en-s017-u002", "parasakthi-en-s026-u003", "parasakthi-en-s028-u026", "parasakthi-en-s033-u059", "parasakthi-en-s039-u002", "parasakthi-en-s042-u002", "parasakthi-en-s043-u006", "parasakthi-en-s043-u022", "parasakthi-en-s045-u002", "parasakthi-en-s045-u005", "parasakthi-en-s045-u020"]
     direct_source_labelled_units_without_dialogue_record: ["parasakthi-en-s032-u004", "parasakthi-en-s033-u063"]
     source_layers_modified: false
-    next_action: "No English translation batch remains. Optional next work is final whole-work QA/export while preserving the verified Tamil source layer unchanged."
+    next_action: null
+  english_reader_edition:
+    status: complete-verified
+    directory: "editions/en"
+    build: "editions/en/build.py"
+    readme: "editions/en/README.md"
+    markdown: "editions/en/reader-edition.md"
+    html: "editions/en/reader-edition.html"
+    json: "editions/en/reader-edition.json"
+    qa_report: "editions/en/QA_REPORT.md"
+    manifest: "editions/en/manifest.json"
+    qa_status: PASS
+    translation_units_validated: 769
+    observed_scenes_validated: 46
+    absent_canonical_scenes: [23, 34]
+    dialogue_record_links_checked: 634
+    song_verse_occurrence_links_checked: 14
+    distinct_source_paths_checked: 97
+    cross_page_units_checked: 16
+    translation_input_aggregate_sha256: "bbbd6636e1fe25a3a302e28a12d4dc13800a4451b4381f1772722b579bc7ab44"
+    workflow: ".github/workflows/parasakthi-english-edition.yml"
+    source_layers_modified: false
+    next_action: null
 
 status:
   structural_mapping: verified
@@ -290,3 +312,4 @@ status:
   song_authorship_mapping: complete-verified
   song_tamil_derivatives: complete-verified
   english_translation: complete-verified
+  english_reader_edition: complete-verified
