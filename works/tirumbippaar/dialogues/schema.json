@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tirumbippaar-dialogue-record.schema.json",
+  "title": "Tirumbippaar dialogue record",
+  "type": "object",
+  "required": ["id", "canonical_scene", "source_scene_heading", "speaker_label", "text", "page_provenance", "source_scene_file"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^tirumbippaar-s[0-9]{3}-d[0-9]{3}$"},
+    "canonical_scene": {"type": "integer", "minimum": 1, "maximum": 93},
+    "source_scene_heading": {"type": "integer", "minimum": 1, "maximum": 93},
+    "speaker_label": {"type": "string", "minLength": 1, "description": "Exact speaker label before the colon in the verified canonical Tamil; never expanded or normalized."},
+    "text": {"type": "string", "minLength": 1, "description": "Exact verified utterance text after the speaker label. For a cross-page utterance, page-segment texts are joined with a single newline."},
+    "page_provenance": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "object", "required": ["pdf_page", "printed_page"], "properties": {"pdf_page": {"type": "integer", "minimum": 9, "maximum": 112}, "printed_page": {"type": "integer", "minimum": 1, "maximum": 104}}, "additionalProperties": false}},
+    "page_segments": {"type": "array", "minItems": 2, "description": "Used only when one speaker-labelled utterance crosses a canonical page boundary.", "items": {"type": "object", "required": ["pdf_page", "printed_page", "text"], "properties": {"pdf_page": {"type": "integer", "minimum": 9, "maximum": 112}, "printed_page": {"type": "integer", "minimum": 1, "maximum": 104}, "text": {"type": "string", "minLength": 1}}, "additionalProperties": false}},
+    "source_scene_file": {"type": "string", "pattern": "^scene-[0-9]{2}\\.md$"}
+  },
+  "allOf": [{"if": {"properties": {"page_provenance": {"minItems": 2}}}, "then": {"required": ["page_segments"]}}],
+  "additionalProperties": false
+}
