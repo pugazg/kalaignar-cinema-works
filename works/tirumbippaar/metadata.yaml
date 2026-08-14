@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Extract scene-text derivatives for scenes 71-80 from the verified canonical Tamil."
+  next_action: "Build the dialogue index from the complete 93-scene derivative set and verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -130,10 +130,10 @@ structured_derivatives:
     headings_not_observed: []
     numbering_corrections_recorded: false
   scene_text_derivatives:
-    status: in-progress
+    status: complete
     expected_files: 93
-    completed_files: 70
-    completed_scenes: "1-70"
+    completed_files: 93
+    completed_scenes: "1-93"
     completed_batches:
       - "scenes 1-10"
       - "scenes 11-20"
@@ -142,15 +142,17 @@ structured_derivatives:
       - "scenes 41-50"
       - "scenes 51-60"
       - "scenes 61-70"
-    cross_part_scenes: [5, 29, 48]
-    next_batch: "scenes 71-80"
-    note: "Scene 5 crosses part-01/part-02. Scene 29 crosses part-02/part-03. Scene 48 crosses part-03/part-04. Scenes 61-70 are wholly sourced from verified part-04 text. All derivatives preserve canonical wording, page anchors, English insertions and source-visible structural irregularities without normalization."
+      - "scenes 71-80"
+      - "scenes 81-93"
+    cross_part_scenes: [5, 29, 48, 76]
+    next_batch: null
+    note: "All 93 scene-text derivatives are complete. Scene 5 crosses part-01/part-02; scene 29 crosses part-02/part-03; scene 48 crosses part-03/part-04; scene 76 crosses part-04/part-05. All are assembled in verified canonical source order with page anchors preserved. The final scene preserves the source ending on PDF 112 / printed p.104, including `வணக்கம்.` and the final star."
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: scene-text-scenes-71-80
+  next_structured_derivative: dialogue-index
 
 status:
   source_intake: complete
@@ -158,7 +160,7 @@ status:
   tamil_transcription: verified
   tamil_fidelity_audit: complete
   scene_index: complete
-  scene_text_derivatives: in-progress
+  scene_text_derivatives: complete
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
