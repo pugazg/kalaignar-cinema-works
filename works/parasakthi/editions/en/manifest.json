@@ -1,0 +1,105 @@
+{
+  "work_id": "parasakthi",
+  "edition": "english-reader",
+  "status": "complete-verified",
+  "build_version": 3,
+  "generator": "works/parasakthi/editions/en/build.py",
+  "source_scan_sha256": "b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c",
+  "translation_authority": "works/parasakthi/translations/records",
+  "translation_input_files": 47,
+  "translation_input_aggregate_sha256": "bbbd6636e1fe25a3a302e28a12d4dc13800a4451b4381f1772722b579bc7ab44",
+  "observed_scenes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "absent_canonical_scenes": [
+    23,
+    34
+  ],
+  "translation_units": 769,
+  "unit_kind_counts": {
+    "dialogue": 641,
+    "stage-direction": 114,
+    "song": 13,
+    "quoted-verse": 1
+  },
+  "cross_page_units": 16,
+  "direct_source_labelled_dialogue_units": [
+    "parasakthi-en-s032-u004",
+    "parasakthi-en-s033-u063"
+  ],
+  "direct_source_unlabelled_dialogue_units": [
+    "parasakthi-en-s017-u004",
+    "parasakthi-en-s019-u003",
+    "parasakthi-en-s019-u004",
+    "parasakthi-en-s019-u006",
+    "parasakthi-en-s019-u007"
+  ],
+  "direct_source_non_dialogue_units": [
+    "parasakthi-en-s045-u003",
+    "parasakthi-en-s048-u003"
+  ],
+  "qa_status": "PASS",
+  "outputs": {
+    "reader-edition.md": {
+      "sha256": "bd3ee6327632140c47c9a96ee141720a6d41c542bbed7f7efc39c1b21c819742",
+      "bytes": 148241
+    },
+    "reader-edition.html": {
+      "sha256": "4230807b70f9abb3553e2c84f8a31e6a6dda344af0e1fda0f39fa2d2b8dca996",
+      "bytes": 218526
+    },
+    "reader-edition.json": {
+      "sha256": "cd924960202193c222b24bdc7d1d1432415a4c52fb58932eefb59c0ef679c27e",
+      "bytes": 720633
+    },
+    "QA_REPORT.md": {
+      "sha256": "d7d6534d87c179ae1e3dff0c4c9d04ca14a97b7726dec784eb99531151899c33",
+      "bytes": 2927
+    }
+  }
+}
