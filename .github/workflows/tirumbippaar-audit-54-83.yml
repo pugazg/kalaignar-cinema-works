@@ -1,0 +1,44 @@
+name: Tirumbippaar fidelity audit PDF 54-83
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/apply_tirumbippaar_audit_54_83.py"
+      - ".github/workflows/tirumbippaar-audit-54-83.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply verified source corrections and status updates
+        run: python tools/apply_tirumbippaar_audit_54_83.py
+
+      - name: Commit audit results
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/works.json works/tirumbippaar
+          if git diff --cached --quiet; then
+            echo "Audit outputs are already applied; nothing to commit."
+          else
+            git commit -m "Verify Tirumbippaar PDF 54-83 against scan [skip ci]"
+            git push
+          fi
