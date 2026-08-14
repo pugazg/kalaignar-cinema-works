@@ -1,13 +1,15 @@
 # திரும்பிப்பார்! — canonical Tamil transcription
 
-Status: **not-started**.
+Status: **not-started; structural gate passed**.
 
-Canonical transcription is blocked by the repository's structural mapping gate. `../mapping.md` currently has status `review`: scene numbers and start pages are mapped, but every full scene heading/location label still needs exact visual verification.
+`../mapping.md` is now `verified`. The complete scene-heading / structural-label audit is in `../notes/scene-heading-audit.md`.
 
-When the mapping becomes `verified`, begin with PDF **9** / printed p. **1** and use stable page anchors such as:
+Canonical Tamil transcription may therefore begin with PDF **9** / printed p. **1**. Use stable page anchors such as:
 
 ```md
 <!-- source: pdf=9 printed=1 status=draft -->
 ```
 
-Read from rendered page images, preserve exact source order and printed forms, and keep doubtful readings explicit rather than repairing them from film knowledge or external text.
+Read from rendered page images. Preserve exact source order, spelling, punctuation, scene-marker irregularities, speaker labels, stage directions, English code-switching and any performance/printed-text structures. Keep doubtful readings explicit rather than repairing them from film knowledge, subtitles, audio, web copies or later editions.
+
+The OCR layer is navigation-only and is not canonical evidence.
