@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Construct the scene index and scene-text derivatives from the verified canonical Tamil, using Parasakthi only as the reference implementation and never as a text source."
+  next_action: "Extract scene-text derivatives beginning with scenes 1-10 from the verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -123,21 +123,31 @@ fidelity_audit:
   ledger_path: "notes/fidelity-audit.md"
 
 structured_derivatives:
-  scene_index: not-started
-  scene_text_derivatives: not-started
+  scene_index:
+    status: complete
+    path: "scenes/index.json"
+    scene_records: 93
+    headings_not_observed: []
+    numbering_corrections_recorded: false
+  scene_text_derivatives:
+    status: not-started
+    expected_files: 93
+    completed_files: 0
+    next_batch: "scenes 1-10"
+    note: "Scene 5 crosses the part-01/part-02 transcription boundary and must be assembled in verified source order."
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: scene-index
+  next_structured_derivative: scene-text-scenes-1-10
 
 status:
   source_intake: complete
   structural_mapping: verified
   tamil_transcription: verified
   tamil_fidelity_audit: complete
-  scene_index: not-started
+  scene_index: complete
   scene_text_derivatives: not-started
   dialogue_index: not-started
   character_index: not-started
