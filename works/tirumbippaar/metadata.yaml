@@ -94,17 +94,26 @@ transcription_progress:
   completed_first_pass_printed_pages: "1-104"
   first_pass_through_pdf_page: 112
   first_pass_through_printed_page: 104
-  draft_pages: 104
-  verified_pages: 0
+  draft_pages: 99
+  verified_pages: 5
+  review_pages: 0
+  verified_pdf_pages: "9-13"
+  verified_printed_pages: "1-5"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Begin the canonical Tamil visual fidelity audit at PDF 9 / printed p.1, correcting only against rendered source images and keeping uncertainties explicit."
+  next_action: "Continue the canonical Tamil visual fidelity audit at PDF 14 / printed p.6, correcting only against rendered source images and keeping uncertainties explicit."
 
 fidelity_audit:
-  status: not-started
+  status: in-progress
   canonical_range_audit_complete: false
-  next_pdf_page: 9
-  next_printed_page: 1
+  audited_through_pdf_page: 13
+  audited_through_printed_page: 5
+  verified_pages: 5
+  review_pages: 0
+  unresolved_pages: 0
+  next_pdf_page: 14
+  next_printed_page: 6
+  ledger_path: "notes/fidelity-audit.md"
 
 structured_derivatives:
   scene_index: not-started
@@ -119,7 +128,7 @@ status:
   source_intake: complete
   structural_mapping: verified
   tamil_transcription: draft-complete
-  tamil_fidelity_audit: not-started
+  tamil_fidelity_audit: in-progress
   scene_index: not-started
   scene_text_derivatives: not-started
   dialogue_index: not-started
