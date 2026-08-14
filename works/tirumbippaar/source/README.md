@@ -23,7 +23,11 @@ Canonical text must be read from rendered page images, not accepted from the OCR
 - PDF 2: `உரிமையுடையது.`
 - PDF 2: `விலை ரூ. 0-10-0`
 
-The lower printer/imprint line on PDF 2 is partly cropped in the supplied scan. It must not be reconstructed from guesswork or an external edition.
+High-resolution reinspection of PDF 2 supports only the visible beginning of the lower printer/imprint line:
+
+`சிட்டி பிரஸ், மதுரை ரோ…`
+
+The continuation at the right edge is physically cropped in the supplied scan. It is deliberately not reconstructed from guesswork or an external edition.
 
 ## Pagination
 
@@ -33,6 +37,10 @@ The lower printer/imprint line on PDF 2 is partly cropped in the supplied scan. 
 - PDF 7 — `முக்கிய அறிவிப்பு`
 - PDF 8 — catalogue advertisement
 - PDF 9–112 — screenplay, continuously printed pages **1–104**
+
+## Structural mapping checkpoint
+
+The pre-transcription structural gate is **verified**. All **93** numbered scene starts were visually dispositioned, with no scene-number gaps, repeats or out-of-order sequence observed. Exact structural-label evidence is recorded in `../notes/scene-heading-audit.md`.
 
 ## Binary handling
 
