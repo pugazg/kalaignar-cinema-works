@@ -8,17 +8,16 @@ This document is the continuation entry point. Read it before doing translation 
 
 ## 1. Current English state
 
-- scenes started/reviewed: **1–22, 24–33, 35**
-- scenes verified: **1–22, 24–30**
-- scenes in review: **31, 32, 33, 35**
+- scenes started/reviewed/verified: **1–22, 24–33, 35**
+- scenes in review: **none**
 - canonical scenes **23 and 34 are absent**
 - translation units: **595**
-- verified units: **500**
-- review units: **95**
+- verified units: **595**
+- review units: **0**
 - kinds: **495 dialogue / 89 stage-direction / 10 song / 1 quoted-verse**
-- status: **`in-progress-review`**
+- status: **`in-progress-verified`**
 
-The exact next activity is a deliberate second-pass review of all **95 units** in observed scenes **31, 32, 33 and 35**. Canonical scene **34 is absent**. Do not begin the next batch until this review is complete.
+The exact next activity is to create the source-linked English **review** batch for observed canonical scenes **36–40**. Inspect the current verified scene files, immutable dialogue records and verified song/quoted-verse inventory before deriving units. Do not mark that batch verified until its own deliberate second pass is complete.
 
 ## 2. Completed review gates
 
@@ -26,90 +25,66 @@ The exact next activity is a deliberate second-pass review of all **95 units** i
 - scenes 11–15: **88/88** verified;
 - scenes 16–20: **87/87** verified;
 - observed scenes 21, 22, 24 and 25: **96/96** verified;
-- scenes 26–30: **93/93** verified.
+- scenes 26–30: **93/93** verified;
+- observed scenes 31, 32, 33 and 35: **95/95** verified; scene 34 absent.
 
 No completed English review has modified canonical Tamil, scene derivatives, dialogue records, character mappings, song inventory or Tamil song derivatives.
 
-## 3. Scenes 31–35 review batch
+## 3. Scenes 31–35 second-pass checkpoint
 
-The source-linked batch is at `review` status:
+The verified batch comprises:
 
 - scene 31 — **15** units: 13 dialogue + 2 stage directions;
 - scene 32 — **6** units: 5 dialogue + 1 stage direction;
 - scene 33 — **63** units: 57 dialogue + 5 stage directions + 1 song;
 - scene 35 — **11** units: 10 dialogue + 1 stage direction.
 
-Batch total: **95 units** — **85 dialogue + 9 stage directions + 1 song**.
+Batch total: **95 units** — **85 dialogue + 9 stage directions + 1 song**. Canonical scene **34 is absent and has no translation record**.
 
-Canonical scene **34 is absent and has no translation record**.
+Verified soundtrack occurrence `parasakthi-song-011` remains one semantic-poetic scene-33 unit on PDF **40** / printed p. **39**, distinct from its later scene-47 reprise. Scene 33 dialogue `parasakthi-s033-d053` remains one English unit, `parasakthi-en-s033-u059`, across PDF **41→42**.
 
-The verified song inventory contributes exactly one occurrence:
+Two explicitly labelled canonical pieces remain translated directly from verified scene files rather than being retrofitted into the immutable dialogue index:
 
-- scene 33 — soundtrack occurrence `parasakthi-song-011`, PDF **40** / printed p. **39**.
+1. **scene 32 — `parasakthi-en-s032-u004`**: source `ஒரு : போ...போ...` between dialogue records d002 and d003;
+2. **scene 33 — `parasakthi-en-s033-u063`**: Gnana Sekaran's long beggars' conference / voting-rights speech after d056, including source-embedded crowd reactions.
 
-It remains the primary scene-33 occurrence of soundtrack track 5 and is distinct from the later scene-47 reprise.
+No dialogue IDs were invented and the dialogue derivative was not changed.
 
-Scene 33 dialogue `parasakthi-s033-d053` remains one cross-page English unit, `parasakthi-en-s033-u059`, across PDF **41→42**.
-
-### Direct source-linked labelled material outside immutable dialogue records
-
-Two explicitly labelled canonical pieces are visible in the verified scene files but do not appear in the immutable dialogue-record derivatives. They are therefore translated directly from the verified scene layer, with no invented dialogue ID and no source modification:
-
-1. **scene 32 — `parasakthi-en-s032-u004`**: source `ஒரு : போ...போ...`, positioned between scene-32 dialogue records d002 and d003;
-2. **scene 33 — `parasakthi-en-s033-u063`**: Gnana Sekaran's long beggars' conference / voting-rights speech after dialogue record d056, including the source-embedded crowd reactions.
-
-These are translation-layer source locators only. Do **not** add records to the dialogue index during English review.
-
-## 4. Review pressure points
+## 4. English-only refinements made in the second pass
 
 ### Scene 31
 
-- Opening thought about Kalyani and her child should retain the contrast between Gunasekaran obtaining food through theft/deception/threat and their unknown hardship.
-- Vimala's response about asking for food versus taking it/running must not gain an invented moral explanation.
-- d005 explicitly refers back to the scene-26 `பகுத்தறிவாளரைப் பார்க்காதீங்க` lyric; do not use this later dialogue to repair the verified song text.
-- d006 calls it wrong to describe merciless people as rationalists; preserve the rhetorical correction.
+All 15 units passed without wording changes. The reference to the scene-26 rationalist lyric remains source-led and does not retroactively alter that verified song.
 
 ### Scene 32
 
-- Preserve the initial dog/biscuit setup exactly.
-- `குழந்தையின் வயிறு காயுது` is a hunger image; avoid turning it into a medical diagnosis.
-- The source-visible `ஒரு : போ...போ...` must remain a direct source-linked English unit with **no invented dialogue ID**.
-- The final man/dog/`டார்லிங்` contrast is intentionally harsh and should not be softened.
+- Kalyani's milk plea now preserves the source ordering in `ஏதாவது ஒரு அரையணா`: **“Anything—half an anna—to buy milk...”**.
+- `குழந்தையின் வயிறு காயுது` remains the hunger image **“the child's stomach is burning”**, not a medical diagnosis.
+- Direct-source `ஒரு : போ...போ...` remains its own source-linked unit without an invented dialogue ID.
 
 ### Scene 33
 
-This scene spans PDF **38–42** because canonical scene 34 is absent. It contains an abrupt shift from Vimala/Gunasekaran material into refugee-camp/office dialogue; do not invent a missing scene heading or smooth that structural break.
-
-Pressure-sensitive forms/phrases to review closely:
-
-- d001 `இந்த நிலையில் அறிமுகம் ஒருகேடா?`;
-- d005 `பானை / பானம் / பணம்` sound-chain;
-- d008 `கல்வெறியத்`, `கனக்கோல்`, `சரசாரமாய் திடுக்கிடவே`;
-- d013 dense clause around `அன்பும் பேராசையிலே வேலை வாங்கிக்கொண்டு வீட்டுவாசல்களிலே` and the `ஒரு கோடிக் கல்யாணிகள்` rhetoric;
-- d014 opening `எனக்கென்ன அடிக்கவேண்டும்?` in continuity with the preceding heart-beat question;
-- d017 `நாட்டோடி`;
-- d019 volcano / mountain-snake / `ஆலகால விஷம்` revolution metaphors;
-- d022 `மண்ணைவாரி இறைத்துப்`;
-- d024–d026 repeated `அண்ணு` and `எதிர்த்துலகில்`;
-- d027 verified source form `ரோம் நகமும்`; do not normalize through outside knowledge of Nero;
-- `parasakthi-song-011` forms `அந்த மார்பத்தை` and `என்—இன்பக்கனவை பேணு கலைக்கிறாய்?`;
-- d028/d029 remain two separately labelled records across the page boundary, not one fused translation record;
-- d035 `பிள்ளை கிண்ணை` surname/child wordplay;
-- d043 Delhi plea syntax;
-- d051 refugee/death/peace syntax;
-- d052 `சட்டம்!`;
-- d053 cross-page `இடம் இல்லை` rhetoric must remain one unit;
-- d055 `கருணை / கருணைமகால்` naming contrast;
-- direct source-linked u063: `நாம் ஓட்டுகிற பரதேசி அரசாங்கத்தையே` is pressure-sensitive in the voting-rights context. Do not guess an electoral/governing meaning unless the source itself supports it.
+- d013's dense Kalyani/social-suffering clause was clarified while preserving its sequence: love/longing for his own sister → seeking work at house doorways → encountering another hunger-stricken woman → the rhetoric of **“a crore Kalyanis.”**
+- d017 now reads the surrounding poverty exchange contextually while retaining `நாட்டோடி` as **“wandering woman.”**
+- d024–d026 `அண்ணு` is now resolved as **Vimala's elder brother**, not a proper name. The immediate source says she has an `அண்ணு` and ends `அவர் தங்கை நான்`; the verified character derivative independently records a Vimala elder-brother role without supplying a name.
+- d036's caste response was tightened to remove an explanatory verb not present in the source.
+- d043's Delhi plea was made idiomatic without adding administrative context.
+- In direct-source u063, the voting-rights sequence now renders `கூட நிற்கலாம்` as **standing for election together**, supported by the immediately following `எதிர்த்து போட்டியிட` contest language.
+- The phrase `நாம் ஓட்டுகிற பரதேசி அரசாங்கத்தையே` remains pressure-sensitive; `paradesi` / `ottugira` remain visible rather than assigning an unsupported final sense.
 
 ### Scene 35
 
-- Repeated `அண்ணு` remains a source address/name form pending second-pass contextual review.
-- d006 `அகதிகளாக வந்தோம், ஆண்டிகளாக மாறிவிட்டோம்` should preserve the refugees→mendicants descent.
-- d008 opens with verified source `ஊரும்.`; do not silently repair it. The review record currently exposes it as `Oorum.`.
-- d010 keeps the embedded source action `(கல்யாணி பார்க்கிறாள் இல்லை)` within the dialogue unit.
+- Repeated `அண்ணு` is rendered as the generic address **“Brother”**, not a personal name.
+- `அகதிகளாக வந்தோம், ஆண்டிகளாக மாறிவிட்டோம்` retains the refugees → mendicants descent.
+- Verified source `ஊரும்.` remains exposed as `Oorum.` rather than silently repaired.
 
-## 5. Canonical/source state — immutable
+## 5. Pressure-sensitive forms intentionally left visible
+
+The second pass did **not** normalize or guess away the verified forms `கல்வெறியத்`, `கனக்கோல்`, `சரசாரமாய் திடுக்கிடவே`, `ரோம் நகமும்`, `சட்டம்!`, `ஊரும்.`, or the u063 phrase `நாம் ஓட்டுகிற பரதேசி அரசாங்கத்தையே`.
+
+Song occurrence `parasakthi-song-011` also retains the source-pressure forms `அந்த மார்பத்தை` and `என்—இன்பக்கனவை பேணு கலைக்கிறாய்?` through a close semantic-poetic rendering and notes rather than Tamil repair.
+
+## 6. Canonical/source state — immutable
 
 - source: `TVA_BOK_0062968_பராசக்தி.pdf`
 - SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
@@ -125,7 +100,7 @@ Pressure-sensitive forms/phrases to review closely:
 
 Critical rule: English translation must never repair, normalize or overwrite the Tamil source. Do not use film audio, subtitles, web copies, later editions or memory to change canonical Tamil.
 
-## 6. Translation rules
+## 7. Translation rules
 
 1. Tamil remains authoritative.
 2. Every English unit remains source-linked with scene, record/occurrence where available, and PDF/printed-page provenance.
@@ -138,14 +113,23 @@ Critical rule: English translation must never repair, normalize or overwrite the
 9. Source-visible material absent from a structured derivative may be source-located directly; do not manufacture IDs merely to fit an index.
 10. Interpretive choices and unresolved source forms belong in `translation.notes`.
 
-## 7. Exact next activity
+## 8. Exact next activity — scenes 36–40
 
-Second-pass all **95 review units** in `records/scene-31.json`, `scene-32.json`, `scene-33.json`, and `scene-35.json` against the verified scene files, immutable dialogue records, and verified track-5 derivative.
+Before creating the next batch, fetch current `main` versions of:
 
-Change **English only** where a genuine translation problem is found. Verify ordering, exact speaker labels, page provenance, direct source locators, `parasakthi-song-011`, and cross-page scene-33 d053.
+- this handover and `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`;
+- `docs/ARCHIVAL_WORKFLOW.md`;
+- `works/parasakthi/translations/README.md`, `schema.json`, and `index.json`;
+- canonical scene files **36, 37, 38, 39 and 40**;
+- immutable dialogue-record files for **36–40**;
+- `songs/inventory.json` and any verified Tamil song/quoted-verse derivatives whose occurrences fall inside those scenes.
 
-If the pass succeeds, mark all 95 units and the four scene records `verified`, synchronize all status surfaces, compare against the pre-batch checkpoint, and only then begin the next batch.
+Derive the English unit count from complete verified source order, including standalone stage directions and verified song/verse occurrences. Create all new units and scene records at `review` status, synchronize status surfaces, and stop at that gate before the separate second pass.
 
-## 8. Continuation prompt
+## 9. Repository discipline
 
-> Read `docs/HANDOVER_PARASAKTHI_ENGLISH_TRANSLATION.md` and continue exactly from there. Second-pass all 95 English review units in observed scenes 31, 32, 33 and 35. Scene 34 is absent. Preserve `parasakthi-song-011`, scene-33 d053 as one PDF 41→42 unit, and the two direct source-linked labelled units; do not begin the next batch until this review is complete.
+Keep state synchronized in the translation index/README, work/root READMEs, metadata, `data/works.json`, and both handovers. After each durable checkpoint, compare against the previous checkpoint and confirm that canonical/source derivatives were not modified.
+
+## 10. Continuation prompt
+
+> Read `docs/HANDOVER_PARASAKTHI_ENGLISH_TRANSLATION.md` and continue exactly from there. Create the source-linked English review batch for observed scenes 36–40 after inspecting the verified scene, dialogue and song/verse derivatives. Do not mark the new batch verified until its own separate second-pass review is complete.
