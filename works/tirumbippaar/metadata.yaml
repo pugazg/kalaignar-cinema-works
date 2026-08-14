@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Continue the dialogue index with scenes 31-40 from the completed scene derivatives and verified canonical Tamil."
+  next_action: "Continue the dialogue index with scenes 41-50 from the completed scene derivatives and verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -154,8 +154,8 @@ structured_derivatives:
     readme: "dialogues/README.md"
     storage: scene-sharded
     record_directory: "dialogues/records"
-    records: 294
-    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+    records: 461
+    scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
     scene_record_counts:
       1: 8
       2: 13
@@ -187,16 +187,26 @@ structured_derivatives:
       28: 29
       29: 23
       30: 14
+      31: 2
+      32: 28
+      33: 6
+      34: 6
+      35: 20
+      36: 23
+      37: 47
+      38: 13
+      39: 18
+      40: 4
     zero_record_scenes: [10, 11, 25, 26]
     cross_page_records_verified: ["tirumbippaar-s001-d006"]
     source_label_anomaly_records: []
-    next_batch: "scenes 31-40"
-    note: "Dialogue indexing is complete through scene 30 with 294 records. Batch 3 contributes 93 records. Scenes 25 and 26 correctly have zero records because they contain only unlabelled narrative/stage material. Scene 29's standalone `கோஷம்` remains outside the dialogue index, and although scene 29 crosses the part-02/part-03 storage boundary, no individual labelled utterance crosses a page boundary in this batch."
+    next_batch: "scenes 41-50"
+    note: "Dialogue indexing is complete through scene 40 with 461 records. Batch 4 contributes 167 records. Scene 31's unlabelled song-performance material remains outside the dialogue index. In scene 33 the standalone `(ஒருவனிடம்)` direction and following unlabelled `ஏய்....நீ ஆமோதிடா!` are not silently merged into Punnakodi's preceding labelled utterance. No new individual labelled utterance crosses a canonical page boundary in scenes 31-40, so the cross-page inventory is unchanged."
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: dialogue-index-scenes-31-40
+  next_structured_derivative: dialogue-index-scenes-41-50
 
 status:
   source_intake: complete
