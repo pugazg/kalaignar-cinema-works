@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Canonical authority:** fully verified Tamil transcription and completed 93-scene derivative set  
-**Dialogue index status:** **in progress — scenes 1–30 complete**
+**Dialogue index status:** **in progress — scenes 1–40 complete**
 
 This directory is a machine-readable dialogue derivative built only from the verified canonical Tamil and completed Tirumbippaar scene derivatives. It does **not** replace, normalize, correct, modernize, reconstruct, or repair the canonical transcription.
 
@@ -46,10 +46,10 @@ Excluded:
 
 Parenthetical material inside a speaker-labelled utterance remains part of that utterance. A standalone direction between portions of a continuing labelled speech is not silently merged into dialogue text.
 
-## Progress through scene 30
+## Progress through scene 40
 
-- scenes completed: **30 / 93**
-- dialogue records: **294**
+- scenes completed: **40 / 93**
+- dialogue records: **461**
 - zero-record scenes: **10, 11, 25, 26**
 - verified cross-page dialogue records: **1**
   - `tirumbippaar-s001-d006` — PDF 9→10 / printed pp.1→2
@@ -58,25 +58,29 @@ Batch 1, scenes 1–10: **96 records**.
 
 Batch 2, scenes 11–20: **105 records**.
 
-Batch 3, scenes 21–30: **93 records**:
+Batch 3, scenes 21–30: **93 records**.
 
-- scene 21 — 10
-- scene 22 — 6
-- scene 23 — 2
-- scene 24 — 4
-- scene 25 — 0
-- scene 26 — 0
-- scene 27 — 5
-- scene 28 — 29
-- scene 29 — 23
-- scene 30 — 14
+Batch 4, scenes 31–40: **167 records**:
 
-Scenes 25 and 26 correctly have zero dialogue records: both are composed of unlabelled narrative/stage material rather than explicitly speaker-labelled utterances. Scene 29 preserves the standalone `கோஷம்` block in the scene derivative, but that unlabelled chant is not converted into dialogue records. Scene 29 also crosses the part-02 → part-03 storage boundary at PDF 36; no individual labelled utterance crosses that page boundary, so no new `page_segments` record is required.
+- scene 31 — 2
+- scene 32 — 28
+- scene 33 — 6
+- scene 34 — 6
+- scene 35 — 20
+- scene 36 — 23
+- scene 37 — 47
+- scene 38 — 13
+- scene 39 — 18
+- scene 40 — 4
 
-Scene 10 correctly has zero dialogue records because it consists only of an unlabelled visual description of Bama's tears becoming a waterfall/river. Scene 11 likewise has zero dialogue records because the source gives only an unlabelled direction that Paranthaman and another woman are singing while travelling by boat; no lyrics or explicit speaker-labelled utterance are printed in that scene.
+Scene 31 contains an unlabelled song-performance direction plus two explicitly labelled utterances; the song itself is not converted into dialogue records because no lyrics or explicit song speaker labels are printed there.
 
-In scene 5, the unlabelled `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` following a standalone stage direction remains excluded rather than being silently assigned to Garudan. The same explicit-label discipline is retained throughout the dialogue layer.
+Scene 33 preserves the source's standalone direction `(ஒருவனிடம்)` and following unlabelled `ஏய்....நீ ஆமோதிடா!` in the scene derivative, but the dialogue record for Punnakodi stops before that standalone direction. The later explicitly labelled `ஒருவன்:` utterance is indexed normally. This follows the same explicit-label boundary rule used throughout the dialogue layer.
+
+No new cross-page dialogue record occurs in scenes 31–40. Several scenes span multiple printed pages, but their explicitly labelled utterances end before each page anchor; the existing `page_segments` inventory therefore remains unchanged.
+
+Scenes 25 and 26 correctly have zero dialogue records because both are composed of unlabelled narrative/stage material. Scene 29's standalone `கோஷம்` likewise remains in the canonical/scene layer rather than being silently assigned to a speaker.
 
 ## Next batch
 
-Extract and verify dialogue records for **scenes 31–40** from the completed scene derivatives and canonical Tamil, keeping this schema fixed.
+Extract and verify dialogue records for **scenes 41–50** from the completed scene derivatives and canonical Tamil, keeping this schema fixed.
