@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Canonical authority:** fully verified Tamil transcription and completed 93-scene derivative set  
-**Dialogue index status:** **in progress — scenes 1–50 complete**
+**Dialogue index status:** **complete — scenes 1–93 complete**
 
 This directory is a machine-readable dialogue derivative built only from the verified canonical Tamil and completed Tirumbippaar scene derivatives. It does **not** replace, normalize, correct, modernize, reconstruct, or repair the canonical transcription.
 
@@ -46,55 +46,47 @@ Excluded:
 
 Parenthetical material inside a speaker-labelled utterance remains part of that utterance. A standalone direction between portions of a continuing labelled speech is not silently merged into dialogue text.
 
-## Progress through scene 50
+## Final progress
 
-- scenes completed: **50 / 93**
-- dialogue records: **593**
-- zero-record scenes: **10, 11, 25, 26, 43**
-- verified cross-page dialogue records: **3**
+- scenes completed: **93 / 93**
+- dialogue records: **1,040**
+- zero-record scenes: **10, 11, 25, 26, 43, 54**
+- verified cross-page dialogue records: **8**
   - `tirumbippaar-s001-d006` — PDF 9→10 / printed pp.1→2
   - `tirumbippaar-s041-d034` — PDF 56→57 / printed pp.48→49
   - `tirumbippaar-s045-d015` — PDF 59→60 / printed pp.51→52
+  - `tirumbippaar-s063-d003` — PDF 79→80 / printed pp.71→72
+  - `tirumbippaar-s072-d001` — PDF 87→88 / printed pp.79→80
+  - `tirumbippaar-s076-d012` — PDF 91→92 / printed pp.83→84
+  - `tirumbippaar-s080-d022` — PDF 96→97 / printed pp.88→89
+  - `tirumbippaar-s080-d028` — PDF 97→98 / printed pp.89→90
 
-Batch 1, scenes 1–10: **96 records**.
+Batch totals:
 
-Batch 2, scenes 11–20: **105 records**.
+- scenes 1–10 — **96 records**
+- scenes 11–20 — **105 records**
+- scenes 21–30 — **93 records**
+- scenes 31–40 — **167 records**
+- scenes 41–50 — **132 records**
+- scenes 51–60 — **124 records**
+- scenes 61–70 — **89 records**
+- scenes 71–80 — **106 records**
+- scenes 81–93 — **128 records**
 
-Batch 3, scenes 21–30: **93 records**.
+The final scenes 51–93 were completed in one archival activity. They add **447 records**, taking the dialogue layer from 593 to 1,040 records.
 
-Batch 4, scenes 31–40: **167 records**.
+### Explicit-label decisions in the completed layer
 
-Batch 5, scenes 41–50: **132 records**:
+Scene 54 correctly has zero dialogue records. Its Reading Room material is a printed newspaper report without an explicit speaker label, so the text remains in the scene/canonical layer.
 
-- scene 41 — 36
-- scene 42 — 5
-- scene 43 — 0
-- scene 44 — 1
-- scene 45 — 23
-- scene 46 — 7
-- scene 47 — 17
-- scene 48 — 17
-- scene 49 — 20
-- scene 50 — 6
+Scene 63 adds `tirumbippaar-s063-d003`, where Punnakodi's labelled utterance crosses PDF 79→80. Scene 72 adds `tirumbippaar-s072-d001`, preserving Paranthaman's PDF 87→88 utterance and the source distinction between `அழித்தெழுதாச் சித்திரமே!` and the following explicitly labelled `குரல்:` line. Scene 76 adds `tirumbippaar-s076-d012` across the Part 04→Part 05 storage boundary. Scene 80 adds two cross-page Poomaal records, `tirumbippaar-s080-d022` and `tirumbippaar-s080-d028`.
 
-### Scene 41 derivative repair during dialogue extraction
+Several source-visible blocks remain intentionally outside the dialogue index. Scene 83's `அவசர வேண்டுகோள்` letter is unlabelled. Scene 84's initial newspaper/advertisement reading is unlabelled even though the staging identifies the watchman. Scene 85's address-card block is unlabelled. Scene 88's line after the standalone `(பையன் போக)` direction is unlabelled. Scene 91's mill-handover stage direction and `பத்திரிகை News` block are unlabelled. Scene 93's `வணக்கம்.` is an ending structure, not dialogue.
 
-While preparing batch 5, direct comparison with the verified canonical Part 03 exposed a prior scene-41 derivative drift. The canonical text has PDF 53 dialogue `பாண்டியன்: கேளேன் தருகிறேன் ...`, followed by the PDF 54 exchange beginning `பரந்தாமன்: (கேலியாக சிரித்து விட்டு) சரியான திருடன்பா!...`; the stored scene derivative had previously substituted different wording and omitted the PDF 54 page anchor.
+### Earlier derivative repair during dialogue extraction
 
-`../scenes/scene-41.md` was repaired from the already-verified canonical transcription before dialogue extraction. No canonical transcription was changed. The repair also restores the genuine cross-page Poomaal utterance spanning PDF 56→57, represented as `tirumbippaar-s041-d034` with `page_segments`.
+While preparing scenes 41–50, direct comparison with verified canonical Part 03 exposed a prior scene-41 derivative drift. `../scenes/scene-41.md` was repaired from the already-verified canonical transcription to restore the canonical opening Pandiyan/Paranthaman exchange and the missing PDF 54 page anchor. No canonical transcription was changed.
 
-Scene 43 correctly has zero dialogue records because its printed content is unlabelled narrative about the office boy singing `கலப்படம்` and Paranthaman reacting; neither the song text nor a speaker-labelled utterance is printed there.
+## Next structured derivative
 
-Scene 44 has one dialogue record: Pandiyan's explicitly labelled opening paragraph. The following paragraph after the standalone `(கருடன் ஆத்திரம்)` direction is an unlabelled continuation and therefore remains in the scene/canonical layer rather than being silently merged into the dialogue record.
-
-Scene 45 contributes the second new cross-page record in this batch: Pandiyan's `லஞ்சத்திலே சிக்கவடி-` line continues on the next page as `கும் பரந்தாமனல்ல நான்...`, preserved as `tirumbippaar-s045-d015` with page segments.
-
-Scene 31 contains an unlabelled song-performance direction plus two explicitly labelled utterances; the song itself is not converted into dialogue records because no lyrics or explicit song speaker labels are printed there.
-
-Scene 33 preserves the source's standalone direction `(ஒருவனிடம்)` and following unlabelled `ஏய்....நீ ஆமோதிடா!` in the scene derivative, but the dialogue record for Punnakodi stops before that standalone direction. The later explicitly labelled `ஒருவன்:` utterance is indexed normally. This follows the same explicit-label boundary rule used throughout the dialogue layer.
-
-Scenes 25 and 26 correctly have zero dialogue records because both are composed of unlabelled narrative/stage material. Scene 29's standalone `கோஷம்` likewise remains in the canonical/scene layer rather than being silently assigned to a speaker.
-
-## Next batch
-
-Extract and verify dialogue records for **scenes 51–60** from the completed scene derivatives and canonical Tamil, keeping this schema fixed.
+Build the **character index** from the completed 93-scene dialogue index, completed scene derivatives and verified canonical Tamil. Character normalization or alias resolution belongs there; the dialogue layer itself continues to preserve exact source speaker labels.
