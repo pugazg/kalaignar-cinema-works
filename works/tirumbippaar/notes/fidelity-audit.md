@@ -1,11 +1,11 @@
 # திரும்பிப்பார்! — canonical Tamil fidelity audit
 
-Status: **in-progress**.
+Status: **complete**.
 
 Source: `TVA_BOK_0014652_திரும்பிப்பார்.pdf`  
 SHA-256: `973b9c3f7b84d6a1902a4a472af8799c783bf1ec2d6cd015796fc1df1ce59682`
 
-The full main-text first pass is **draft-complete** for PDF **9–112 / printed pp.1–104**. Verification is proceeding page by page against rendered scan images.
+The full main-text first pass and visual fidelity audit are **complete and verified** for PDF **9–112 / printed pp.1–104**. Every one of the 104 canonical main-text pages has been compared against rendered scan images.
 
 ## Audit rules
 
@@ -14,7 +14,7 @@ The full main-text first pass is **draft-complete** for PDF **9–112 / printed 
 - Do not repair from film audio, subtitles, web copies, memory or later editions.
 - A page becomes `verified` only after its complete visible text has been compared against the scan and all source-supported corrections are applied.
 - If the scan cannot support a confident reading, retain the uncertainty explicitly rather than guessing.
-- Structured scene/dialogue/character/song/translation derivatives remain blocked until their controlling Tamil source material is verified.
+- Structured derivatives may begin only after their controlling Tamil source material is verified.
 
 ## Progress
 
@@ -24,8 +24,8 @@ The full main-text first pass is **draft-complete** for PDF **9–112 / printed 
 | PDF 14–23 / printed pp.6–15 | 0 | 10 | 0 | verified |
 | PDF 24–53 / printed pp.16–45 | 0 | 30 | 0 | verified |
 | PDF 54–83 / printed pp.46–75 | 0 | 30 | 0 | verified |
-| PDF 84–112 / printed pp.76–104 | 29 | 0 | 0 | pending |
-| **Total** | **29** | **75** | **0** | **in-progress** |
+| PDF 84–112 / printed pp.76–104 | 0 | 29 | 0 | verified |
+| **Total** | **0** | **104** | **0** | **complete** |
 
 ## PDF 9–13 / printed pp.1–5 — completed audit
 
@@ -71,7 +71,7 @@ Representative source-supported corrections include:
 
 ## PDF 24–53 / printed pp.16–45 — completed 30-page audit
 
-All thirty requested pages were visually checked against the rendered source scan. The range crosses the end of transcription part 02 and the beginning of part 03: PDF 24–35 are now verified in `part-02-pdf-14-35.md`; PDF 36–53 are now verified in `part-03-pdf-36-63.md`. No review or unresolved page remains in this 30-page range.
+All thirty requested pages were visually checked against the rendered source scan. The range crosses the end of transcription part 02 and the beginning of part 03: PDF 24–35 are verified in `part-02-pdf-14-35.md`; PDF 36–53 are verified in `part-03-pdf-36-63.md`. No review or unresolved page remains in this range.
 
 This range required extensive retranscription. Representative source-supported corrections include:
 
@@ -94,17 +94,17 @@ This range required extensive retranscription. Representative source-supported c
 
 While preparing the PDF 36–53 verification update, the stored `part-03-pdf-36-63.md` was found to stop at PDF 60 even though its filename/header and project status had previously claimed PDF 36–63 coverage. PDF **61–63 / printed pp.53–55** were therefore missing from the actual stored first-pass transcription.
 
-Those three pages have now been restored to part 03 from the source scan as **draft-only** first-pass pages. They were **not** counted among the 30 pages verified in this activity and remain pending their own visual fidelity audit. The project can again truthfully claim stored first-pass coverage for PDF 9–112 / printed pp.1–104.
+Those three pages were restored to part 03 from the source scan as draft-only first-pass pages. They were not counted among the 30 pages verified in that activity; they subsequently passed the PDF 54–83 fidelity batch below.
 
 ## PDF 54–83 / printed pp.46–75 — completed 30-page audit
 
-All thirty pages were compared directly against the rendered source scan. PDF 54–63 complete the fidelity verification of `part-03-pdf-36-63.md`; PDF 64–83 are now verified in `part-04-pdf-64-91.md`. No review or unresolved page remains in this batch.
+All thirty pages were compared directly against the rendered source scan. PDF 54–63 complete the fidelity verification of `part-03-pdf-36-63.md`; PDF 64–83 are verified in `part-04-pdf-64-91.md`. No review or unresolved page remains in this batch.
 
 Representative source-supported corrections include:
 
 - **PDF 54–57 / pp.46–49:** restored the `முகாரிதான் மோகன கீதமா` wordplay, `கருங்காலித்தனம்`, the labour-welfare `ஷேம நிதி`, the cinema-theatre explanation naming `ராமா, முருகா`, `இது வீடா, வேசி மடமா`, source `காதலர் மணமா`, the printed `காமல ஜீவவியத்தைக் கேட்கும்` pressure-form, `புனிதமானவன்`, `பரத்தையலோலன்`, and scene-42 `சிச்சுவேஷன்`.
 - **PDF 58–60 / pp.50–52:** substantially restored the scene-44 labour speech, including `தொல்லைப்படும் தொழிலாளி வர்க்கத்திற்கு`, `ஆர்வமென்னும் மலர்களால்`, `மந்திரியின் கழுத்தில்`, `பலாத்காரமற்ற விடுதலைக் கிளர்ச்சி`, and `பாட்டாளிகளின் தலைவனாகிவிட முடியாது`; scene 45 restores `பெருமூச்சு`, `மனவேதனை`, `பயல்கள்`, and the cross-page `லஞ்சத்திலே சிக்கவடி... / கும் பரந்தாமனல்ல நான்` source split. PDF 60 restores `பின்னடைந்துபோன தொழிலாளர் நிலை கண்டு, மனம் புண்ணடைந்து புலம்ப வந்தேன்.`
-- **PDF 61–63 / pp.53–55:** the three pages whose missing first-pass storage was repaired in the preceding activity have now passed visual fidelity review. Source forms such as `பயன்படாதவர்களும்`, the attempted-shooting stage sequence, `குமுதா action`, and scene 48's mill-gate labour exchange are retained without normalization.
+- **PDF 61–63 / pp.53–55:** the three pages whose missing first-pass storage was repaired in the preceding activity passed visual fidelity review. Source forms such as `பயன்படாதவர்களும்`, the attempted-shooting stage sequence, `குமுதா action`, and scene 48's mill-gate labour exchange are retained without normalization.
 - **PDF 64–66 / pp.56–58:** restored `வாங்களேன்`, source English `wife`, `என் சம்சாரம்`, `சீக்கிரம்`, `மதராஸ்`, printed speaker label `குண்டுமணி`, and the key `இளிச்சவாயர் / இளிச்சவாயர்கள்` terminology in place of the corrupted first-pass `இனிச்சுவார்`.
 - **PDF 67–73 / pp.59–65:** verified the canteen, `Reading Room`, necklace/theft setup and police-search sequence; retained source English `Reading Room`, `Phone`, `yes!...`, and other code-switching. Restored `ஊரார் உறவினர்`, `ஆலைக்கே தீ வைப்பான்`, `அவனைப் பிடிக்க ஆதாரம்`, `சென்னையில் குமுதா வீடு`, `குண்டுமணி`, the baby-toy list, and the source search/order wording.
 - **PDF 74–78 / pp.66–70:** restored `பாண்டியன் உம்மை அரஸ்ட்`, Kumutha's `அழாமல் ஆனந்தமடையச் சொல்கிறாயா!`, repeated `சூதாட்டம்`, `படுக்கையறைப் பதுமைகளில்`, the jail farewell's `என் சங்கை குளிர`, and the extended Poombal/Paranthaman confrontation including `கூண்டிலே நிறுத்துகிறேன்`, `புனித காரியத்தால்தான்`, and the police/public-exposure sequence.
@@ -114,6 +114,33 @@ Source-visible irregularities and English insertions were preserved rather than 
 
 ### Page-boundary integrity repair found during this activity
 
-The stored first pass contained the text of PDF **80 / printed p.72**, but it had no explicit page anchor: the PDF 79 sentence flowed directly into PDF 80 before the next recorded anchor at PDF 81. The rendered scan shows the sentence crossing the page boundary after `கொஞ்சங்`; an explicit `<!-- source: pdf=80 printed=72 status=verified -->` anchor has now been restored at that exact boundary. No source text was invented or deleted by this repair.
+The stored first pass contained the text of PDF **80 / printed p.72**, but it had no explicit page anchor: the PDF 79 sentence flowed directly into PDF 80 before the next recorded anchor at PDF 81. The rendered scan shows the sentence crossing the page boundary after `கொஞ்சங்`; an explicit `<!-- source: pdf=80 printed=72 status=verified -->` anchor was restored at that exact boundary. No source text was invented or deleted by this repair.
 
-**Next audit page:** PDF **84 / printed p.76**.
+## PDF 84–112 / printed pp.76–104 — completed final 29-page audit
+
+All twenty-nine remaining main-text pages were compared directly against rendered source images. The audited text spans the end of `part-04-pdf-64-91.md` and all of `part-05-pdf-92-112.md`. Every page in this range is now `verified`; no review or unresolved main-text reading remains.
+
+This final range contained extensive first-pass corruption. Corrections were made only from the supplied scan. Representative source-supported results include:
+
+- **PDF 84–86 / pp.76–78:** restored the police report opening `போலீஸார் மீது கல்வீச்சு!`, the full scene-69 clock manipulation and `பின் தூங்கி முன் எழும் பத்தினி` sequence, the source's கலியுக இந்திரா / கெளதமர் comparison, and the arrest wording including `நீர் கைது செய்யப்படுகிறீர்!`.
+- **PDF 87–89 / pp.79–81:** scene 72's structural label was re-read directly from the scan as **`[தாசி வீடு`**, correcting the earlier structural-pass transcription `[காசி வீடு`. The Bama confrontation was substantially retranscribed, preserving source wording including the paired `அழித்தெழுதாச் சித்திரமே!` / `அழுத்தெழுதாச் சித்திரமே!`, `விதியின் விளையாட்டு`, `பாரசூட்`, and the extended revenge declaration rather than regularizing the rhetoric.
+- **PDF 90–91 / pp.82–83:** restored the road arrest, court apology and Garudan-office aftermath, including the complete charges speech and source colloquial line about a `மானம்` that can be lost merely by asking forgiveness. Scene 76 begins on PDF 91 and continues across the part boundary.
+- **PDF 92–94 / pp.84–86:** restored scene 76's continuation about displaced workers, scene 77's mill-owner confrontation, scene 78's independence-day release, scene 79's locked-house monologue and the beginning of scene 80.
+- **PDF 95–98 / pp.87–90:** substantially retranscribed Poombal's confrontation with Paranthaman, preserving the monkey/buffalo imagery, `யுக யுகாந்திரங்கள்`, the argument about freedom and responsibility, the title-command `தீயவனே திரும்பிப்பார்!`, and the ruined-hall `Reaction-Echo` passage. Source-visible unusual stage wording in PDF 98 is retained rather than repaired from context.
+- **PDF 99–101 / pp.91–93:** restored Paranthaman's reform speech in the publisher's office, the `கருடன் பதிப்பகம்—திருடன் பதிப்பகமாகப் படுகிறது` visual joke, the standalone heading `அவசர வேண்டுகோள்.`, and the full newspaper-advertisement text with `ரூம்—15, இமாலயா ஓட்டல், சென்னை.`.
+- **PDF 102–105 / pp.94–97:** restored the maternity-hospital reading of the advertisement, the dropped-card address reveal, Pandiyan/Kumutha reunion, Punnakodi's displaced-worker group, and the source wording of the workers' hardship and Pandiyan's decision to confront the mill owner.
+- **PDF 106–108 / pp.98–100:** restored the hotel/address handoff and Bama-house confrontation, including the balloon burst, revolver struggle, Bama's death, Poombal's shot and the source stage label **`[மரணமூச்சுவிடும் பரந்தாமன்]`**.
+- **PDF 109–110 / pp.101–102:** restored Paranthaman's final exchange with Poombal, scene 91's mill-owner discussion, Pandiyan's demand to restore the workers, and the handover of mill administration, including `வாழ்க உங்கள் புகழ்! வளர்க இந்த பண்பு!` and `சிவசக்தி மில் இன்று முதல் ஜன சக்தி மில்லாக மாறும்!`.
+- **PDF 111–112 / pp.103–104:** preserved the distinct **`பத்திரிகை News`** block with `(அக்காள் தம்பியைக் கொன்றாள்)`, scenes 92–93, the court judgment, Poombal's last jail speech, the source's `மாணவிகளின் கண்களில் நீர்` / `மாணவிகளைக் காட்டி` wording, and the closing **`வணக்கம்.`** followed by the printed star.
+
+### Final gate
+
+- Canonical main-text pages audited: **104/104**.
+- Verified pages: **104**.
+- Draft pages: **0**.
+- Review / unresolved audited main-text pages: **0**.
+- Fidelity audit through: PDF **112 / printed p.104**.
+- Fidelity audit status: **complete**.
+- The PDF-2 lower printer-imprint crop remains separately documented as an unresolved **front-matter source limitation**; no missing continuation has been invented.
+
+**Next activity:** construct the **scene index / scene-text derivatives** from the verified canonical Tamil, using Parasakthi only as the reference implementation and never as a text source.
