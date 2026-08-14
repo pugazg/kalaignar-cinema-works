@@ -32,19 +32,22 @@ Source-linked English records live under [`translations/`](translations/).
 
 Current checkpoint:
 
-- status: **in-progress-verified**
-- scenes started/reviewed/verified: **1–22, 24–30**
-- scenes in review: **none**
-- canonical scene **23: absent**
-- translation units: **500**
+- status: **in-progress-review**
+- scenes started/reviewed: **1–22, 24–33, 35**
+- scenes verified: **1–22, 24–30**
+- scenes in review: **31, 32, 33, 35**
+- canonical scenes **23 and 34: absent**
+- translation units: **595**
 - verified: **500**
-- review: **0**
-- kinds: **410 dialogue / 80 stage direction / 9 song / 1 quoted verse**
+- review: **95**
+- kinds: **495 dialogue / 89 stage direction / 10 song / 1 quoted verse**
 
-The scenes **26–30** batch has completed its deliberate second pass: **93/93 units verified**. The verified occurrence boundaries for `parasakthi-song-008`, quoted verse `parasakthi-song-009`, and `parasakthi-song-010` remain unchanged; scene 28 d023 remains one PDF **33→34** English unit.
+The scenes **31, 32, 33 and 35** review batch contains **95** source-linked units. Scene **34 was not created**. The verified scene-33 soundtrack occurrence `parasakthi-song-011` remains one PDF 40 unit, and scene-33 dialogue d053 remains one cross-page PDF **41→42** unit.
+
+Two source-visible labelled units that are absent from the immutable dialogue derivatives are represented directly from the verified scene files without invented dialogue IDs: scene 32 `parasakthi-en-s032-u004` and scene 33 `parasakthi-en-s033-u063`.
 
 No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Next activity
 
-Create the next source-linked English review batch for observed canonical scenes **31, 32, 33 and 35**. Scene **34 is absent and must not be invented**. Inspect verified song/quoted-verse occurrences before deriving the unit count, then second-pass that batch before verification.
+Second-pass all **95 English review units** in observed scenes **31, 32, 33 and 35**. Change English only where source fidelity requires it; preserve `parasakthi-song-011`, the PDF 41→42 cross-page dialogue unit, and the two direct source-linked labelled units. Do not begin the next batch until this review is complete.
