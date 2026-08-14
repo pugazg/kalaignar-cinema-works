@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — scenes **1–20 verified**; observed scenes **21, 22, 24, 25 in review**
+**Status:** in progress — observed scenes through **25 verified**; canonical scene **23 is absent**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
@@ -21,42 +21,48 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 ## Current coverage
 
-Scenes **1–20** have passed deliberate second-pass review: **311 verified units**.
-
-The next review batch has now been created for the observed canonical scenes **21, 22, 24 and 25**. Canonical **scene 23 is absent and no translation record has been invented for it**.
+Observed canonical scenes **1–22, 24–25** have now passed deliberate second-pass review. Canonical **scene 23 is absent and no translation record exists for it**.
 
 Current totals:
 
-- scenes started: **1–22, 24–25**;
-- scenes verified: **1–20**;
-- scenes in review: **21, 22, 24, 25**;
+- scenes started/reviewed/verified: **1–22, 24–25**;
+- scenes in review: **none**;
 - translation units: **407**;
-- verified: **311**;
-- review: **96**;
+- verified: **407**;
+- review: **0**;
 - kinds: **333 dialogue / 67 stage direction / 7 song / 0 quoted verse**.
 
-New batch counts:
+The scenes 21–25 observed batch contained **96 units**:
 
 - scene 21 — **44** units: 40 dialogue + 4 stage directions;
 - scene 22 — **16** units: 11 dialogue + 5 stage directions;
 - scene 24 — **7** units: 6 dialogue + 1 stage direction;
 - scene 25 — **29** units: 26 dialogue + 3 stage directions.
 
-The verified song inventory has **no song or quoted-verse occurrence in scenes 21, 22, 24 or 25**, so this batch adds no song unit.
+The verified song inventory has no song or quoted-verse occurrence in scenes 21, 22, 24 or 25.
 
-## Review pressure points — scenes 21–25
+## Scenes 21–25 review checkpoint
 
-- **Scene 21:** Venu's rice/wheat talk develops into companionship/kinship insinuation; preserve `மூச்சிக்கு முப்பத்திரண்டு`, `அண்ணா / மாமா / அத்தான்`, the source's predatory imagery, and dialogue-record anomaly `parasakthi-s021-d040` without normalization.
-- **Scene 22:** avoid the misleading modern age-sense of `மைனர்கள்`; retain the colloquial mouth/chatter phrase, the defamatory `கள்ளப்புருஷன்`, and Gunasekaran's paired `சந்தர்ப்பம் / சமுதாயம்` rhetoric.
-- **Scene 24:** the source says Chandrasekar asked them to come and immediately says they will leave tomorrow; preserve that sequence rather than reconciling it.
-- **Scene 25:** retain the black-market satire, `கன்னிப் பொண்ணு` comparison, tali/`black` rhetoric, the `நூல்` thread/book pun, source-label anomalies `parasakthi-s025-d011` and `parasakthi-s025-d017`, and Kalyani's incomplete hunger request.
+The second pass checked all **96 units** against the verified canonical scene files, immutable dialogue records, exact labels, page provenance, and the verified song inventory.
+
+English-only refinements included:
+
+- **scene 21:** made the `மூச்சிக்கு முப்பத்திரண்டு` repeated-address hyperbole clearer in English; retained repeated `-ம்மா` as `amma` rather than the misleading literal kinship `mother`;
+- **scene 22:** kept `களங்கம்` as the source's stain/disgrace image and preserved the defamatory force of `கள்ளப்புருஷன்` without source normalization;
+- **scene 24:** preserved the source's unresolved arrive/leave sequence rather than reconciling it;
+- **scene 25:** kept singular `அதை` singular in the sack joke, removed a misleading literal `mother` for feminine `ஏம்மா`, rendered departure-context `வணக்கம்` as `Goodbye`, and removed an added child reference from a stage-direction locator.
+
+Source-specific pressure points remain explicit: scene 21's kinship progression and predatory imagery, scene 22's colloquial chatter and paired `சந்தர்ப்பம் / சமுதாயம்` rhetoric, scene 24's travel logic, and scene 25's black-market satire, `நூல்` thread/book pun, label anomalies and incomplete hunger request.
+
+No canonical Tamil, scene file, dialogue record, character record, song inventory or Tamil song derivative was changed.
 
 ## Completed review gates
 
 - scenes 6–10: **66/66** second-pass verified;
 - scenes 11–15: **88/88** second-pass verified;
-- scenes 16–20: **87/87** second-pass verified.
+- scenes 16–20: **87/87** second-pass verified;
+- observed scenes 21, 22, 24, 25: **96/96** second-pass verified.
 
 ## Next activity
 
-Perform a deliberate second-pass fidelity/editorial review of all **96 units** in scenes **21, 22, 24 and 25**. Change English only where a genuine translation problem is found. **Do not create scene 23 and do not begin the next translation batch until this review is complete.**
+Create the next source-linked English review batch for canonical **scenes 26–30**. Preserve verified song/verse occurrence boundaries exactly: scene 26 contains `parasakthi-song-008`, scene 28 contains quoted verse `parasakthi-song-009`, and scene 29 contains `parasakthi-song-010`. After creating that batch, perform the same deliberate second-pass review before verification.
