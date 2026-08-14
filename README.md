@@ -40,17 +40,23 @@ No canonical Tamil, scene, dialogue, character, song or transcription derivative
 
 ## திரும்பிப்பார்! status
 
-The next screenplay has entered archival intake from `TVA_BOK_0014652_திரும்பிப்பார்.pdf`.
+The next screenplay is being archived from `TVA_BOK_0014652_திரும்பிப்பார்.pdf`.
 
 - explicit source edition statement: **`முதல் பதிப்பு: 1953`**;
 - scan: **112 PDF pages**;
 - main screenplay: PDF **9–112 / printed pp.1–104**;
 - scene-number pass: **93 scene starts, consecutively 1–93**;
 - source intake: **complete**;
-- structural mapping: **review**;
-- canonical Tamil transcription: **not-started**.
+- structural mapping: **verified**;
+- scene-heading / structural-label audit: **93/93 dispositioned**;
+- numbering gaps/repeats/out-of-order: **none observed**;
+- main-text missing/duplicate/crop findings: **none observed**;
+- performance/song candidate structures: marked for later source-linked inventory, with no authorship inferred;
+- canonical Tamil transcription: **not-started — structural gate open**.
 
-The scene numbers and start pages have been mapped across the full scan. The next gate is exact visual verification of every complete scene-heading/location line and distinct verse/song structures. Canonical transcription remains blocked until that structural mapping is verified.
+The PDF-2 lower imprint remains a documented source crop. Reinspection supports only the visible partial `சிட்டி பிரஸ், மதுரை ரோ…`; the missing continuation is not reconstructed.
+
+**Next:** begin canonical Tamil transcription from PDF **9 / printed p.1**, using rendered scan pages as the controlling source.
 
 ## Status vocabulary
 
