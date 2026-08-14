@@ -1,6 +1,6 @@
 # திரும்பிப்பார்! — canonical Tamil transcription
 
-**Status:** `draft-complete` — the complete main screenplay range has a source-order first-pass transcription. Visual fidelity audit is in progress; PDF 9–53 / printed pp.1–45 are verified.
+**Status:** `draft-complete` — the complete main screenplay range has a source-order first-pass transcription. Visual fidelity audit is in progress; PDF 9–83 / printed pp.1–75 are verified.
 
 Source: `TVA_BOK_0014652_திரும்பிப்பார்.pdf`  
 SHA-256: `973b9c3f7b84d6a1902a4a472af8799c783bf1ec2d6cd015796fc1df1ce59682`
@@ -19,12 +19,12 @@ The scan, not the OCR layer, film subtitles, audio, web quotations, memory or a 
 
 - Canonical main-text range: PDF **9–112 / printed pp.1–104**
 - First-pass transcription: **complete — 104/104 pages**
-- Verified pages: **45** — PDF **9–53 / printed pp.1–45**
-- Remaining draft pages: **59**
+- Verified pages: **75** — PDF **9–83 / printed pp.1–75**
+- Remaining draft pages: **29**
 - Review / unresolved audited pages: **0**
 - Last completed audit batch: **30 pages — PDF 24–53 / printed pp.16–45**
 - Fidelity audit: **in-progress**
-- Next audit page: PDF **54 / printed p.46**
+- Next audit page: PDF **84 / printed p.76**
 - Structured scene/dialogue/character/song/translation derivatives remain blocked until the corresponding Tamil source text is fidelity-verified.
 
 During the latest audit, a pre-existing storage gap was found: `part-03-pdf-36-63.md` had stopped at PDF 60 despite the earlier complete-coverage status. PDF **61–63** have now been restored from the scan as **draft-only** first-pass pages; they were not counted in the 30-page verified batch.

@@ -23,8 +23,9 @@ The full main-text first pass is **draft-complete** for PDF **9–112 / printed 
 | PDF 9–13 / printed pp.1–5 | 0 | 5 | 0 | verified |
 | PDF 14–23 / printed pp.6–15 | 0 | 10 | 0 | verified |
 | PDF 24–53 / printed pp.16–45 | 0 | 30 | 0 | verified |
-| PDF 54–112 / printed pp.46–104 | 59 | 0 | 0 | pending |
-| **Total** | **59** | **45** | **0** | **in-progress** |
+| PDF 54–83 / printed pp.46–75 | 0 | 30 | 0 | verified |
+| PDF 84–112 / printed pp.76–104 | 29 | 0 | 0 | pending |
+| **Total** | **29** | **75** | **0** | **in-progress** |
 
 ## PDF 9–13 / printed pp.1–5 — completed audit
 
@@ -95,4 +96,20 @@ While preparing the PDF 36–53 verification update, the stored `part-03-pdf-36-
 
 Those three pages have now been restored to part 03 from the source scan as **draft-only** first-pass pages. They were **not** counted among the 30 pages verified in this activity and remain pending their own visual fidelity audit. The project can again truthfully claim stored first-pass coverage for PDF 9–112 / printed pp.1–104.
 
-**Next audit page:** PDF **54 / printed p.46**.
+## PDF 54–83 / printed pp.46–75 — completed 30-page audit
+
+All thirty pages were compared directly against the rendered source scan. PDF 54–63 complete the fidelity verification of `part-03-pdf-36-63.md`; PDF 64–83 are now verified in `part-04-pdf-64-91.md`. No review or unresolved page remains in this batch.
+
+Representative source-supported corrections include:
+
+- **PDF 54–57 / pp.46–49:** restored the `முகாரிதான் மோகன கீதமா` wordplay, `கருங்காலித்தனம்`, the labour-welfare `ஷேம நிதி`, the cinema-theatre explanation naming `ராமா, முருகா`, `இது வீடா, வேசி மடமா`, source `காதலர் மணமா`, the printed `காமல ஜீவவியத்தைக் கேட்கும்` pressure-form, `புனிதமானவன்`, `பரத்தையலோலன்`, and scene-42 `சிச்சுவேஷன்`.
+- **PDF 58–60 / pp.50–52:** substantially restored the scene-44 labour speech, including `தொல்லைப்படும் தொழிலாளி வர்க்கத்திற்கு`, `ஆர்வமென்னும் மலர்களால்`, `மந்திரியின் கழுத்தில்`, `பலாத்காரமற்ற விடுதலைக் கிளர்ச்சி`, and `பாட்டாளிகளின் தலைவனாகிவிட முடியாது`; scene 45 restores `பெருமூச்சு`, `மனவேதனை`, `பயல்கள்`, and the cross-page `லஞ்சத்திலே சிக்கவடி... / கும் பரந்தாமனல்ல நான்` source split. PDF 60 restores `பின்னடைந்துபோன தொழிலாளர் நிலை கண்டு, மனம் புண்ணடைந்து புலம்ப வந்தேன்.`
+- **PDF 61–63 / pp.53–55:** the three pages whose missing first-pass storage was repaired in the preceding activity have now passed visual fidelity review. Source forms such as `பயன்படாதவர்களும்`, the attempted-shooting stage sequence, `குமுதா action`, and scene 48's mill-gate labour exchange are retained without normalization.
+- **PDF 64–66 / pp.56–58:** restored `வாங்களேன்`, source English `wife`, `என் சம்சாரம்`, `சீக்கிரம்`, `மதராஸ்`, printed speaker label `குண்டுமணி`, and the key `இளிச்சவாயர் / இளிச்சவாயர்கள்` terminology in place of the corrupted first-pass `இனிச்சுவார்`.
+- **PDF 67–73 / pp.59–65:** verified the canteen, `Reading Room`, necklace/theft setup and police-search sequence; retained source English `Reading Room`, `Phone`, `yes!...`, and other code-switching. Restored `ஊரார் உறவினர்`, `ஆலைக்கே தீ வைப்பான்`, `அவனைப் பிடிக்க ஆதாரம்`, `சென்னையில் குமுதா வீடு`, `குண்டுமணி`, the baby-toy list, and the source search/order wording.
+- **PDF 74–78 / pp.66–70:** restored `பாண்டியன் உம்மை அரஸ்ட்`, Kumutha's `அழாமல் ஆனந்தமடையச் சொல்கிறாயா!`, repeated `சூதாட்டம்`, `படுக்கையறைப் பதுமைகளில்`, the jail farewell's `என் சங்கை குளிர`, and the extended Poombal/Paranthaman confrontation including `கூண்டிலே நிறுத்துகிறேன்`, `புனித காரியத்தால்தான்`, and the police/public-exposure sequence.
+- **PDF 79–83 / pp.71–75:** verified the typing-office dismissal, domestic-work dismissal, labour-office discussion and marriage/political manoeuvring. Restored `பகுத்தறிவு`, `திரை மறைவிலே`, the `Failure` line about ஊஷா, source `மாஸ் சைகாலஜி`, `பெண்புத்தி பின்புத்தி`, `சமாளிக்க நேரிடும்`, `பரந்தாமனை`, and the scene-66/67 revolution sequence.
+
+Source-visible irregularities and English insertions were preserved rather than silently modernized.
+
+**Next audit page:** PDF **84 / printed p.76**.

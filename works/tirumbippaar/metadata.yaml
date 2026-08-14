@@ -96,28 +96,28 @@ transcription_progress:
   first_pass_through_printed_page: 104
   first_pass_gap_repaired_pdf_pages: [61, 62, 63]
   first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan as draft-only pages and remain unaudited."
-  draft_pages: 59
-  verified_pages: 45
+  draft_pages: 29
+  verified_pages: 75
   review_pages: 0
-  verified_pdf_pages: "9-53"
-  verified_printed_pages: "1-45"
+  verified_pdf_pages: "9-83"
+  verified_printed_pages: "1-75"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Continue the canonical Tamil visual fidelity audit at PDF 54 / printed p.46, correcting only against rendered source images and keeping uncertainties explicit."
+  next_action: "Continue the canonical Tamil visual fidelity audit at PDF 84 / printed p.76, correcting only against rendered source images and keeping uncertainties explicit."
 
 fidelity_audit:
   status: in-progress
   canonical_range_audit_complete: false
-  audited_through_pdf_page: 53
-  audited_through_printed_page: 45
-  verified_pages: 45
+  audited_through_pdf_page: 83
+  audited_through_printed_page: 75
+  verified_pages: 75
   review_pages: 0
   unresolved_pages: 0
   last_completed_batch_pdf_pages: "24-53"
   last_completed_batch_printed_pages: "16-45"
   last_completed_batch_verified_pages: 30
-  next_pdf_page: 54
-  next_printed_page: 46
+  next_pdf_page: 84
+  next_printed_page: 76
   ledger_path: "notes/fidelity-audit.md"
 
 structured_derivatives:
