@@ -104,21 +104,21 @@
       "song_tamil_derivative_files": 11,
       "song_quoted_verse_derivatives": "complete-verified",
       "song_quoted_verse_derivative_files": 1,
-      "english_translation": "in-progress-review",
+      "english_translation": "in-progress-verified",
       "translation_schema_path": "works/parasakthi/translations/schema.json",
       "translation_index_path": "works/parasakthi/translations/index.json",
       "translation_record_directory": "works/parasakthi/translations/records",
       "translation_scenes_started": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,30],
-      "translation_scenes_verified": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25],
-      "translation_scenes_in_review": [26,27,28,29,30],
+      "translation_scenes_verified": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,30],
+      "translation_scenes_in_review": [],
       "translation_units": 500,
-      "translation_review_units": 93,
-      "translation_verified_units": 407,
+      "translation_review_units": 0,
+      "translation_verified_units": 500,
       "translation_cross_page_units": ["parasakthi-en-s001-u004","parasakthi-en-s008-u002","parasakthi-en-s009-u001","parasakthi-en-s013-u028","parasakthi-en-s015-u023","parasakthi-en-s017-u002","parasakthi-en-s026-u003","parasakthi-en-s028-u026"],
-      "next_structured_derivative": "english-translation-review-scenes-26-30"
+      "next_structured_derivative": "english-translation-observed-scenes-31-35-scene-34-absent"
     },
     "song_authorship_mapping": "complete-verified",
     "song_tamil_derivatives": "complete-verified",
-    "english_translation": "in-progress-review"
+    "english_translation": "in-progress-verified"
   }
 ]
