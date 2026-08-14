@@ -32,7 +32,7 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - unresolved audited main-text pages: **0**
 - scene index: **complete — 93/93**
 - scene-text derivatives: **complete — 93/93**
-- dialogue index: **in progress — scenes 1–40 complete, 461 records**
+- dialogue index: **in progress — scenes 1–50 complete, 593 records**
 - character index: **not-started**
 - song authorship mapping / Tamil song derivatives: **not-started**
 - English translation: **not-started**
@@ -45,12 +45,16 @@ Earlier audit work found two first-pass integrity defects: PDF **61–63 / print
 
 The final PDF 84–112 audit also corrected a prior structural reading for scene 72: the source heading at PDF **87 / printed p.79** is `[தாசி வீடு`, not `[காசி வீடு`.
 
+During dialogue-index batch 5, direct comparison with the verified Part 03 canonical transcription exposed a prior drift in `scenes/scene-41.md`. The scene derivative was repaired to restore the canonical opening Pandiyan/Paranthaman exchange and the missing PDF 54 page anchor. No canonical transcription was changed.
+
 ## Source discipline
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character. Scenes 10, 11, 25 and 26 therefore correctly have zero dialogue records. The scene-29 standalone `கோஷம்`, scene-31 unlabelled song-performance material, and scene-33 unlabelled speech after a standalone direction remain in the canonical/scene layer rather than being silently assigned.
+The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character. Scenes 10, 11, 25, 26 and 43 therefore correctly have zero dialogue records. The scene-29 standalone `கோஷம்`, scene-31 unlabelled song-performance material, scene-33 unlabelled speech after a standalone direction, and scene-44 unlabelled continuation after `(கருடன் ஆத்திரம்)` remain in the canonical/scene layer rather than being silently assigned.
+
+Three cross-page dialogue records are currently verified: `tirumbippaar-s001-d006`, `tirumbippaar-s041-d034`, and `tirumbippaar-s045-d015`.
 
 ## Exact next activity
 
-Continue the **dialogue index with scenes 41–50** from the completed scene derivatives and verified canonical Tamil. Keep the fixed dialogue schema, preserve exact source labels and text, record PDF/printed-page provenance, and use `page_segments` only when one labelled utterance crosses a page boundary.
+Continue the **dialogue index with scenes 51–60** from the completed scene derivatives and verified canonical Tamil. Keep the fixed dialogue schema, preserve exact source labels and text, record PDF/printed-page provenance, and use `page_segments` only when one labelled utterance crosses a page boundary.
