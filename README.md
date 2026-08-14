@@ -28,13 +28,15 @@ Completed source/Tamil derivatives:
 - Tamil soundtrack files: **11/11 complete-verified**;
 - separate quoted verse: **1**.
 
-The source-linked English translation is now **complete-verified for all 46 observed canonical scenes**: scenes **1–22, 24–33 and 35–48**. Canonical scenes **23 and 34 are absent** and correctly have no translation records.
+The source-linked English translation is **complete-verified for all 46 observed canonical scenes**: scenes **1–22, 24–33 and 35–48**. Canonical scenes **23 and 34 are absent** and correctly have no translation records.
 
-Final English totals are **769/769 verified units**: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**. The final pass preserves all verified cross-page boundaries, the scene-43/source-heading-48 and final-scene-48/source-heading-43 provenance corrections, and the distinction between soundtrack occurrences and the separate quoted verse.
+Final English totals are **769/769 verified units**: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**. A whole-work reader QA now also passes across all 769 units: **634 immutable dialogue-record links**, **14 song/verse occurrence links**, **16 cross-page units**, and **97 distinct source paths** were checked. Source-unlabelled dialogue/performance remains unlabelled rather than receiving invented speaker metadata.
 
-No canonical Tamil, scene, dialogue, character, song or transcription derivative was modified by the English translation layer.
+Publication-facing, provenance-safe English derivatives are generated under `works/parasakthi/editions/en/` as Markdown, standalone HTML and machine-readable JSON, with a generated QA report and deterministic integrity manifest. The active GitHub Actions workflow reruns the QA/build when its authoritative inputs change.
 
-**Next:** no translation batch remains. Optional work is final whole-work QA/export for a reader-facing English edition while keeping the verified source layers immutable.
+No canonical Tamil, scene, dialogue, character, song or transcription derivative was modified by the English translation or reader-export work.
+
+**Next:** no required Parasakthi English translation or QA/export activity remains. Optional future work may package the verified reader edition into formats such as PDF/EPUB or a release, without changing the verified source layers.
 
 ## Status vocabulary
 
