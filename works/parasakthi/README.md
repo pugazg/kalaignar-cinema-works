@@ -32,21 +32,20 @@ Source-linked English records live under [`translations/`](translations/).
 
 Current checkpoint:
 
-- status: **in-progress-verified**
-- scenes started/reviewed/verified: **1–22, 24–33, 35**
-- scenes in review: **none**
+- status: **in-progress-review**
+- scenes started/reviewed: **1–22, 24–33, 35–40**
+- scenes verified: **1–22, 24–33, 35**
+- scenes in review: **36, 37, 38, 39, 40**
 - canonical scenes **23 and 34: absent**
-- translation units: **595**
+- translation units: **638**
 - verified: **595**
-- review: **0**
-- kinds: **495 dialogue / 89 stage direction / 10 song / 1 quoted verse**
+- review: **43**
+- kinds: **526 dialogue / 100 stage direction / 11 song / 1 quoted verse**
 
-The observed scenes **31, 32, 33 and 35** batch has completed its deliberate second pass: **95/95 units verified**. Scene **34 was not created**. The verified scene-33 soundtrack occurrence `parasakthi-song-011` remains one PDF 40 unit, and scene-33 dialogue d053 remains one cross-page PDF **41→42** unit.
+The scenes **36–40** review batch contains **43** source-linked units. The verified scene-39 soundtrack occurrence `parasakthi-song-012` remains one semantic-poetic English unit across PDF **44→45** / printed pp. **43→44**.
 
-Two source-visible labelled units absent from the immutable dialogue derivatives remain represented directly from the verified scene files without invented dialogue IDs: scene 32 `parasakthi-en-s032-u004` and scene 33 `parasakthi-en-s033-u063`.
-
-No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
+The batch preserves source-visible stage directions, immutable dialogue boundaries and pressure-sensitive forms without repairing the canonical Tamil. No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Next activity
 
-Create the next source-linked English review batch for observed canonical scenes **36–40**. Inspect verified scene files, immutable dialogue records and the verified song/verse inventory before deriving the unit count; then give that batch its own separate second-pass review before verification.
+Second-pass all **43 English review units** in canonical scenes **36–40**. Change English only where source fidelity requires it; preserve `parasakthi-song-012` as one cross-page unit. Do not begin scenes **41–45** until this review is complete.
