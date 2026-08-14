@@ -26,19 +26,20 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - observed scene numbers: **93**, consecutively **1–93**
 - scene numbering gaps/repeats/out-of-order findings: **none observed**
 - main-text missing/duplicate/crop findings: **none observed**
-- performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
 - canonical Tamil first-pass transcription: **complete — PDF 9–112 / printed pp.1–104**
 - canonical Tamil page status: **104 verified / 0 draft / 0 review**
-- verified fidelity range: **PDF 9–112 / printed pp.1–104**
-- final verified batch: **PDF 84–112 / printed pp.76–104 — 29 pages**
 - fidelity audit: **complete**
 - unresolved audited main-text pages: **0**
-- structured scene/dialogue/character/song derivatives: **not-started**
+- scene index: **complete — 93/93**
+- scene-text derivatives: **complete — 93/93**
+- dialogue index: **in progress — scenes 1–10 complete, 96 records**
+- character index: **not-started**
+- song authorship mapping / Tamil song derivatives: **not-started**
 - English translation: **not-started**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The dialogue derivative is under `dialogues/`, using a fixed schema and scene-sharded record files.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -48,8 +49,8 @@ The final PDF 84–112 audit also corrected a prior structural reading for scene
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-All 104 canonical main-text pages have now passed direct rendered-scan comparison. The separate PDF-2 printer-imprint crop remains explicitly unresolved as a front-matter source limitation and is not reconstructed.
+The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character.
 
 ## Exact next activity
 
-Construct the **scene index / scene-text derivatives** from the verified canonical Tamil, using Parasakthi only as the reference implementation and **not** as a text source. Preserve page anchors, source scene numbering, source-visible heading irregularities and cross-page provenance.
+Continue the **dialogue index with scenes 11–20** from the completed scene derivatives and verified canonical Tamil. Keep the fixed dialogue schema, preserve exact source labels and text, record PDF/printed-page provenance, and use `page_segments` only when one labelled utterance crosses a page boundary.
