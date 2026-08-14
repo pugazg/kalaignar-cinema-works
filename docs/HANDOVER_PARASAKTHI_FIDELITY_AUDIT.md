@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Handover refreshed: 2026-08-14
 
-Current stage: **English translation in progress — scenes 1–20 verified; observed scenes 21, 22, 24 and 25 in review**. Canonical **scene 23 is absent**.
+Current stage: **English translation in progress — observed canonical scenes through 25 are verified; canonical scene 23 is absent**.
 
 ## Canonical/source state — immutable
 
@@ -21,35 +21,31 @@ Never use English translation, film audio, subtitles, web copies or later editio
 
 ## English translation checkpoint
 
-- scenes started: **1–22, 24–25**
-- scenes verified: **1–20**
-- scenes in review: **21, 22, 24, 25**
+- scenes started/reviewed/verified: **1–22, 24–25**
+- scenes in review: **none**
 - translation units: **407**
-- verified: **311**
-- review: **96**
+- verified: **407**
+- review: **0**
 - kinds: **333 dialogue / 67 stage direction / 7 song / 0 quoted verse**
 
 Completed second-pass gates:
 
 - scenes 6–10 — **66 units**;
 - scenes 11–15 — **88 units**;
-- scenes 16–20 — **87 units**.
+- scenes 16–20 — **87 units**;
+- observed scenes 21, 22, 24 and 25 — **96 units**.
 
-The new review batch contains **96 units** across only observed scenes 21, 22, 24 and 25. No scene-23 derivative was created. The verified song inventory contains no song or quoted-verse occurrence in this batch.
+The latest review changed English only where needed. Source-linked pressure points remain documented in the translation records, including scene 21 kinship/wordplay and d040 label punctuation, scene 22 colloquial rhetoric, scene 24's unresolved travel sequence, and scene 25's `நூல்` homonym and d011/d017 label anomalies.
 
-Review-sensitive material includes scene 21's kinship/wordplay and source-label anomaly d040; scene 22's colloquial language and paired `சந்தர்ப்பம் / சமுதாயம்` rhetoric; scene 24's unreconciled come/leave sequence; and scene 25's black-market satire, `நூல்` thread/book pun and source-label anomalies d011/d017.
-
-No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified while creating the English batch.
+No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Exact next work
 
-Perform a deliberate second-pass fidelity/editorial review of all **96 English review units** in scenes **21, 22, 24 and 25**. Verify ordering, dialogue IDs, exact source labels, page provenance and standalone stage-direction locators against the immutable source derivatives. Change English only where a genuine problem is found.
-
-If the pass succeeds, mark all 96 units verified, synchronize status surfaces and compare against the pre-batch checkpoint. **Do not begin the next translation batch before this review is complete.**
+Create the source-linked English review batch for canonical **scenes 26–30**. Preserve the verified occurrence boundaries for `parasakthi-song-008` in scene 26, quoted verse `parasakthi-song-009` in scene 28, and `parasakthi-song-010` in scene 29. Derive the unit count from verified source files and set the batch to `review` before any second-pass verification.
 
 ## Overall status
 
 - Structural mapping: verified
 - Canonical Tamil: verified
 - Tamil fidelity audit: complete
-- English translation: **in-progress-review — 407 units / 311 verified / 96 review**
+- English translation: **in-progress-verified — 407 units / 407 verified / 0 review**

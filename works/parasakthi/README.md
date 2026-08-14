@@ -32,25 +32,19 @@ Source-linked English records live under [`translations/`](translations/). There
 
 Current checkpoint:
 
-- status: **in-progress-review**
-- scenes started: **1–22, 24–25**
-- scenes verified: **1–20**
-- scenes in review: **21, 22, 24, 25**
+- status: **in-progress-verified**
+- scenes started/reviewed/verified: **1–22, 24–25**
+- scenes in review: **none**
 - canonical scene **23: absent**
 - translation units: **407**
-- verified: **311**
-- review: **96**
+- verified: **407**
+- review: **0**
 - kinds: **333 dialogue / 67 stage direction / 7 song / 0 quoted verse**
 
-The newly created review batch contains:
+The observed scenes 21–25 second-pass review is complete: all **96** units in scenes 21, 22, 24 and 25 are verified. English-only refinements were made where needed, while exact Tamil source labels and known source anomalies remain unchanged.
 
-- scene 21 — **44 units**;
-- scene 22 — **16 units**;
-- scene 24 — **7 units**;
-- scene 25 — **29 units**.
-
-There is no verified song/quoted-verse occurrence in these four scenes. Exact Tamil source labels, including the known anomalies in scene 21 d040 and scene 25 d011/d017, remain immutable metadata.
+No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Next activity
 
-Second-pass all **96 English units** in scenes **21, 22, 24 and 25**. Change English only where source fidelity requires it. Do not create scene 23 and do not begin the next batch until this review is complete.
+Create the next source-linked English review batch for canonical **scenes 26–30**, preserving the verified song/verse occurrence boundaries in scenes 26, 28 and 29. Then perform the same deliberate second-pass review before verification.

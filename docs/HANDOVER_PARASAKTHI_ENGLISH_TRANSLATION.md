@@ -10,67 +10,36 @@ This document is the continuation entry point for a new chat. Read it before doi
 
 The Tamil/source archive and non-English structured derivatives remain complete and immutable. The active derivative is English translation.
 
-- scenes started: **1–22, 24–25**
-- scenes verified: **1–20**
-- scenes in review: **21, 22, 24, 25**
+- scenes started/reviewed/verified: **1–22, 24–25**
+- scenes in review: **none**
 - canonical scene **23 is absent and has no translation record**
 - translation units: **407**
-- verified units: **311**
-- review units: **96**
+- verified units: **407**
+- review units: **0**
 - kinds: **333 dialogue / 67 stage-direction / 7 song / 0 quoted-verse**
-- status: **`in-progress-review`**
+- status: **`in-progress-verified`**
 
-The exact next activity is a deliberate second-pass review of all **96 units** in observed scenes **21, 22, 24 and 25**. Do not begin the next translation batch until this review is complete.
+The exact next activity is to create the source-linked English review batch for canonical **scenes 26–30**, then perform a deliberate second-pass review before verification.
 
 ## 2. Completed review gates
 
 - scenes 6–10: **66/66** second-pass verified;
 - scenes 11–15: **88/88** second-pass verified;
-- scenes 16–20: **87/87** second-pass verified.
+- scenes 16–20: **87/87** second-pass verified;
+- observed scenes 21, 22, 24 and 25: **96/96** second-pass verified.
 
-English remains an interpretive derivative. No completed review has modified canonical Tamil, scene derivatives, dialogue records, character mappings, song inventory or Tamil song derivatives.
+### Scenes 21–25 review refinements
 
-## 3. New review batch — observed scenes 21–25
+The latest pass changed English only:
 
-The source-linked batch has now been created at `review` status. Canonical scene **23 is absent and was not invented**.
+- **scene 21:** clarified the `மூச்சிக்கு முப்பத்திரண்டு` repeated-address hyperbole; repeated `-ம்மா` is retained as `amma` rather than literal `mother`;
+- **scene 22:** preserved `களங்கம்` as the source's stain/disgrace image and kept the force of `கள்ளப்புருஷன்` without normalizing the Tamil;
+- **scene 24:** preserved the source's unresolved come/leave sequence rather than repairing the travel logic;
+- **scene 25:** kept singular `அதை` singular in the sack joke, removed a misleading literal `mother` for feminine `ஏம்மா`, rendered departure-context `வணக்கம்` as `Goodbye`, and removed an added child reference from a stage-direction locator.
 
-Per-scene counts:
+No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
-- scene 21 — **44** units: 40 dialogue + 4 stage directions;
-- scene 22 — **16** units: 11 dialogue + 5 stage directions;
-- scene 24 — **7** units: 6 dialogue + 1 stage direction;
-- scene 25 — **29** units: 26 dialogue + 3 stage directions.
-
-Batch total: **96 units** — **83 dialogue + 13 stage directions**. The verified song inventory has no song or quoted-verse occurrence in these four scenes.
-
-### Scene 21 review pressure points
-
-- Venu's rice/wheat discussion develops into a double meaning around being alone versus paired; do not flatten it into ordinary food advice.
-- Preserve `மூச்சிக்கு முப்பத்திரண்டு` as the source's numerical hyperbole.
-- Preserve the kinship progression `அண்ணா / மாமா / அத்தான்`; current English retains `mama` and `athan` rather than falsely mapping each to one English relation.
-- The source's predatory `கருநாகம்`, `கனி`, and `செவ்விதழைச் சுவைக்க` imagery is retained as source framing; do not add action beyond the text.
-- `parasakthi-s021-d040` has a known source-label punctuation anomaly (`கல் !`); exact label metadata remains unchanged.
-
-### Scene 22 review pressure points
-
-- Stage directions use `young men` for `மைனர்கள்` to avoid the modern English age/legal sense of `minors`; exact Tamil labels remain immutable.
-- `ஒட்டையை வீணு அலட்டிக்கிட்டே?` is colloquial and should not be over-normalized.
-- `கள்ளப்புருஷன்` must retain the defamatory accusation that provokes Gunasekaran.
-- Preserve the paired rhetoric `சந்தர்ப்பம் ... சமுதாயம் ...` in Gunasekaran's widowhood line.
-
-### Scene 24 review pressure point
-
-The source says Chandrasekar asked `them` to come and then immediately says `we'll leave tomorrow`. The current English preserves that sequence rather than silently reconciling the travel logic.
-
-### Scene 25 review pressure points
-
-- Preserve the black-market satire and the source's jarring `கன்னிப் பொண்ணு` comparison.
-- Preserve the tali/`black` rhetoric without converting it into an external economic explanation.
-- `நூல்` is a deliberate thread/book homonym. Current English retains `nool` until C.G.T. explicitly resolves the joke.
-- `parasakthi-s025-d011` and `parasakthi-s025-d017` have explicit source speaker prefixes without the usual colon; exact label metadata remains unchanged.
-- Kalyani's `ஏதாவது` request trails off and remains incomplete in English.
-
-## 4. Canonical/source state — immutable
+## 3. Canonical/source state — immutable
 
 - source: `TVA_BOK_0062968_பராசக்தி.pdf`
 - SHA-256: `b0024315ca2018a63807b8ff44eb02d132868a7250e6399a2144a10e47c4ad4c`
@@ -78,13 +47,15 @@ The source says Chandrasekar asked `them` to come and then immediately says `we'
 - canonical Tamil: **54 verified / 0 review / 0 unresolved markers**
 - observed scene headings: **46**
 - headings **23 and 34 are absent**
+- PDF 49 source heading `48` is canonical scene **43**
+- PDF 57 source heading `43` is canonical final scene **48**
 - dialogue index: **642 complete-verified records**
 - song authorship: **14/14 verified**
 - Tamil soundtrack derivatives: **11/11 complete-verified**, plus one separate quoted-verse derivative
 
 Critical rule: English translation must never repair, normalize or overwrite the Tamil source. Do not use film audio, subtitles, web copies, later editions or memory to change canonical Tamil.
 
-## 5. Translation rules
+## 4. Translation rules
 
 1. Tamil remains authoritative.
 2. Every English unit remains source-linked with scene, record/occurrence where available, and PDF/printed-page provenance.
@@ -97,19 +68,29 @@ Critical rule: English translation must never repair, normalize or overwrite the
 9. Unlabelled canonical material may be source-located directly; do not manufacture dialogue IDs merely to fit the index.
 10. Interpretive choices and unresolved source forms belong in `translation.notes`.
 
-## 6. Exact next activity
+## 5. Exact next activity — scenes 26–30
 
-Second-pass all **96 review units** in:
+Before creating the next batch, fetch current `main` versions of:
 
-- `works/parasakthi/translations/records/scene-21.json`
-- `scene-22.json`
-- `scene-24.json`
-- `scene-25.json`
+- this handover and `docs/HANDOVER_PARASAKTHI_FIDELITY_AUDIT.md`;
+- `docs/ARCHIVAL_WORKFLOW.md`;
+- `works/parasakthi/translations/README.md`, `schema.json`, and `index.json`;
+- canonical scene files **26–30**;
+- immutable dialogue-record files for **26–30**;
+- the verified song inventory and the relevant Tamil derivatives.
 
-Review each unit against its verified canonical scene text, immutable dialogue record, exact speaker label and page provenance. Check the pressure points above. Change **English only** where a genuine translation problem is found.
+The verified occurrence boundaries that must be preserved are:
 
-If the pass succeeds, mark all 96 units and the four scene records `verified`, synchronize all status surfaces, and compare the resulting HEAD against the pre-batch checkpoint to confirm source/Tamil immutability. **Only then begin the next batch.**
+- scene 26 — soundtrack occurrence `parasakthi-song-008`;
+- scene 28 — quoted verse `parasakthi-song-009`;
+- scene 29 — soundtrack occurrence `parasakthi-song-010`.
+
+Create scenes 26–30 at **`review`** status, derive the unit count from the verified source, synchronize status surfaces, and only then perform a separate second-pass before verification.
+
+## 6. Repository discipline
+
+Keep state synchronized in the translation index/README, work/root READMEs, metadata, `data/works.json`, and both handovers. After each durable checkpoint, compare against the previous checkpoint and confirm that canonical/source derivatives were not modified.
 
 ## 7. Continuation prompt
 
-> Read `docs/HANDOVER_PARASAKTHI_ENGLISH_TRANSLATION.md` and continue exactly from there. Second-pass all 96 English units in scenes 21, 22, 24 and 25; scene 23 is absent and must not be invented. Do not begin the next batch until the review is complete.
+> Read `docs/HANDOVER_PARASAKTHI_ENGLISH_TRANSLATION.md` and continue exactly from there. Create the English review batch for scenes 26–30, preserving verified song and quoted-verse occurrence boundaries; do not mark the batch verified until its own second-pass review is complete.
