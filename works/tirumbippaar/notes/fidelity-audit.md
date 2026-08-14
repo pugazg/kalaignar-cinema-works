@@ -21,10 +21,10 @@ The full main-text first pass is **draft-complete** for PDF **9–112 / printed 
 | Range | Draft pages | Verified pages | Review / unresolved pages | Status |
 |---|---:|---:|---:|---|
 | PDF 9–13 / printed pp.1–5 | 0 | 5 | 0 | verified |
-| PDF 14–18 / printed pp.6–10 | 0 | 5 | 0 | verified |
-| PDF 19–23 / printed pp.11–15 | 0 | 5 | 0 | verified |
-| PDF 24–112 / printed pp.16–104 | 89 | 0 | 0 | pending |
-| **Total** | **89** | **15** | **0** | **in-progress** |
+| PDF 14–23 / printed pp.6–15 | 0 | 10 | 0 | verified |
+| PDF 24–53 / printed pp.16–45 | 0 | 30 | 0 | verified |
+| PDF 54–112 / printed pp.46–104 | 59 | 0 | 0 | pending |
+| **Total** | **59** | **45** | **0** | **in-progress** |
 
 ## PDF 9–13 / printed pp.1–5 — completed audit
 
@@ -45,33 +45,54 @@ Source-visible irregular forms such as `காட்சி 5[`, `[Bath Room`, `N
 
 ## PDF 14–18 / printed pp.6–10 — completed audit
 
-These five pages required a substantially heavier correction pass than the opening batch. All visible text on PDF 14–18 was checked against the rendered scan and the corrected page text is stored in `transcription/parts/part-02-pdf-14-35.md` with `status=verified` anchors.
+These five pages required a substantially heavier correction pass than the opening batch. All visible text on PDF 14–18 was checked against the rendered scan.
 
 Representative source-supported corrections include:
 
 - **PDF 14 / printed p.6:** restored the anomalous printed speaker label `குரு:` rather than silently expanding it to `கருடன்:`.
-- **PDF 14:** restored the historical-name sequence `தலையாலங்கானத்து செருவென்ற பாண்டியனு? ஆரியப்படை கடந்த நெடுஞ்செழியனு?` instead of the corrupted first-pass paraphrase.
-- **PDF 14:** restored `எழுத்துத் திருடன் சந்திக்கவந்த`, `ஆசிரியனு?`, `அயோக்கியத்தனம்`, `மரியாதையாகப் போகமாட்டாய்`, `சீ...பேசாதே!`, and the source stage action in which the மேஜை is opened and the ரிவால்வர் is taken.
-- **PDF 15 / printed p.7:** restored `சும்மா இரு`, `அனாவசியமா`, the `பஞ்சண` / `பஞ்சணையைப்பத்தி` forms, `வரகவியா, சுய கவியா?`, the pen/ink imagery, and `வியாபாரமாகாவிட்டாலும்`.
-- **PDF 15:** corrected scene-6 staging to `மரத்தின் மேலே இருந்து பரந்தாமன் குடத்தின் கழுத்தில் சுருக்குப் போட்டு இழுக்கிறான்`.
-- **PDF 16 / printed p.8:** restored `கயிற்றால்`, `மரகதமணிக் கழுத்திலே`, `மாங்கல்யக் கயிற்றால்`, `புயலை அடக்கும்`, `அணைக்கின்ற`, `வர்ணனையாக`, `நாளை ஓடிவிடுவேனு`, `கொஞ்ச மொழியாலே!`, and `இல்ல...யில்ல...`.
-- **PDF 17 / printed p.9:** restored `ஈடு பட்டிருக்கின்றனர்`, `வச்சு விட்டோம்னு நெனச்சேன்`, and the full colour-wordplay ending `எழுமிச்சம்பழ நிறமா, நாகற்பழ நிறமா, அல்லது இரண்டுங் கலந்ததா?`.
-- **PDF 18 / printed p.10:** restored the printed `கவிதைகளால்ல` forms and corrected scene-9 staging to `மாடியில் தேடி அலுத்து பிரமைபிடித்தவள்போலிருக்கும் பூமாலிடம் குமுதா ஓடிவருகிறாள்`.
+- **PDF 14:** restored `தலையாலங்கானத்து செருவென்ற பாண்டியனு? ஆரியப்படை கடந்த நெடுஞ்செழியனு?`, `எழுத்துத் திருடன் சந்திக்கவந்த`, `அயோக்கியத்தனம்`, and the source stage action involving the மேஜை and ரிவால்வர்.
+- **PDF 15 / printed p.7:** restored `அனாவசியமா`, `பஞ்சண` / `பஞ்சணையைப்பத்தி`, `வரகவியா, சுய கவியா?`, the pen/ink imagery, and `வியாபாரமாகாவிட்டாலும்`.
+- **PDF 16 / printed p.8:** restored `கயிற்றால்`, `மரகதமணிக் கழுத்திலே`, `மாங்கல்யக் கயிற்றால்`, `வர்ணனையாக`, and `இல்ல...யில்ல...`.
+- **PDF 17 / printed p.9:** restored the full colour-wordplay ending `எழுமிச்சம்பழ நிறமா, நாகற்பழ நிறமா, அல்லது இரண்டுங் கலந்ததா?`.
+- **PDF 18 / printed p.10:** restored the printed `கவிதைகளால்ல` forms and scene-9 staging.
 
 ## PDF 19–23 / printed pp.11–15 — completed audit
 
-All five pages were checked directly against the rendered source images. This batch exposed major first-pass corruption in both prose and dialogue, so the affected passages were retranscribed from the scan rather than semantically repaired.
+All five pages were checked directly against the rendered source images. This batch exposed major first-pass corruption in prose and dialogue, so affected passages were retranscribed from the scan rather than semantically repaired.
 
 Representative source-supported corrections include:
 
-- **PDF 19 / printed p.11:** restored the scene-12 stage text around the handwritten `வாழு` manuscript and `துறவி`, corrected `எங்கே வந்தாய்....`, `செத்தே போகிறேன்`, the explicit `நீ ஜாடையாகக் கூறிவிட்ட` wording, and source `இல்ல, இல்ல.`.
-- **PDF 20 / printed p.12:** restored the source-visible unusual sequence beginning `குதுவாதறியாத கன்னி யொருத்தியின் வாழ்க்கைக் கன வாடிய குதாடியின்...`; it is retained as printed rather than normalized from context.
-- **PDF 20:** restored the missing `மிருகத்தைக்கூடப் பழக்கி விடலாமப்பா...` sentence, the long money/wedding paragraph, `பாமா பரிசுத்தமானவள் அல்ல`, and `பாமா பத்தரைமாற்றுப் பசும்பொன்.`.
-- **PDF 21 / printed p.13:** corrected `ஞாயிற்றையும்` to source `ஞானோதயம்`, restored the source `வாழு` form, `பாடம் கற்கும் குழந்தைகள்`, `அம்புஜம் சொல்லுது`, `நிஜந்தானு`, `புஸ்தகத்திலே`, `மணி மணியா`, and `ஆஹா!`.
-- **PDF 22 / printed p.14:** substantially retranscribed the stage speech, restoring `ஆபாச நடையிலே`, `கேடுதரும் கருத்துக்கள்`, source `வாழு` terminology, `லீலா விநோதங்களுக்காகவே`, the `வாழு / வாழாதே / வாழு வாழ விடு` contrast, and the printed `அன்பவருக்கும்` form.
-- **PDF 22:** scene-15 staging and speech were restored to the source forms `புண்ணகோடி உள்ளே வருகிறான்`, `உள்ளே வந்து உட்காருகிறான்`, and `ஏம்ப்பா நாடகத்துக்கு வர வில்ல.`.
-- **PDF 23 / printed p.15:** restored `யாருப்பா சொன்னு?`, `வந்திருந்தாங்களே`, `இல்லேப்பா!`, `நிலையா`, the coat-pocket joke as a separate source stage block, `என்னப்பா சொல்றே!`, and removed the unsupported first-pass `கஞ்சன்.`.
+- **PDF 19 / printed p.11:** restored the scene-12 `வாழு` manuscript / `துறவி` stage text, `செத்தே போகிறேன்`, and `நீ ஜாடையாகக் கூறிவிட்ட`.
+- **PDF 20 / printed p.12:** retained the unusual source sequence beginning `குதுவாதறியாத கன்னி யொருத்தியின் வாழ்க்கைக் கன வாடிய குதாடியின்...`, and restored the omitted `மிருகத்தைக்கூடப் பழக்கி விடலாமப்பா...` sentence.
+- **PDF 21 / printed p.13:** restored `ஞானோதயம்`, `வாழு`, `அம்புஜம் சொல்லுது`, `நிஜந்தானு`, `புஸ்தகத்திலே`, and `மணி மணியா`.
+- **PDF 22 / printed p.14:** substantially retranscribed the stage speech and restored the `வாழு / வாழாதே / வாழு வாழ விடு` contrast.
+- **PDF 23 / printed p.15:** restored `யாருப்பா சொன்னு?`, `வந்திருந்தாங்களே`, `இல்லேப்பா!`, `நிலையா`, the coat-pocket stage block and `என்னப்பா சொல்றே!`; unsupported first-pass `கஞ்சன்.` was removed.
 
-No unresolved reading remains in PDF 19–23 after this audit. Source irregularities remain visible rather than being modernized.
+## PDF 24–53 / printed pp.16–45 — completed 30-page audit
 
-**Next audit page:** PDF **24 / printed p.16**.
+All thirty requested pages were visually checked against the rendered source scan. The range crosses the end of transcription part 02 and the beginning of part 03: PDF 24–35 are now verified in `part-02-pdf-14-35.md`; PDF 36–53 are now verified in `part-03-pdf-36-63.md`. No review or unresolved page remains in this 30-page range.
+
+This range required extensive retranscription. Representative source-supported corrections include:
+
+- **PDF 24 / p.16:** the printed marriage notice identifies `சிவசக்தி மில்ஸ் மேஸ்திரி புண்ணகோடி` and `கோவை மெர்சண்ட் குணரத்தனம்`; the first pass had substituted different occupations/names.
+- **PDF 25–26 / pp.17–18:** restored `எனக்குத் தொழிலல்ல`, `சங்க முகத்தை`, `காயகல்பம்`, `வேறொருவன் மனைவி!`, `அன்புக்கரசி`, `அமிழ்தெழுதா சித்திரமே`, and the source's extended persuasion to elope.
+- **PDF 27 / p.19:** restored the `பாண்டு வாத்தியம்` stopping stage action and source colloquial `அவாள்னா இவாள்னா` passage.
+- **PDF 28–30 / pp.20–22:** restored `வாழு வாழவிடு`, source `Carriage` code-switching, the `கள்ளி பொறுத்தியைப் பற்றி தீர விசாரிக்காமல்...` speech, the `கோவலனைக் கொன்றாரே` joke and scene-23 heading `மிருக காட்சிசாலை` with `[கூண்டில் புலி]`.
+- **PDF 31–32 / pp.23–24:** scene 25 and scene 26 were substantially retranscribed, restoring `நளனைப் பின்பற்றி`, `பைத்தியக்காரி போலானாள்`, `உற்றார் உறவினர்`, and the page-break continuation `உறுமு / வது புலியல்ல.`.
+- **PDF 32–35 / pp.24–27:** restored printed source label `குண்டுமணி` where it appears, `தனித்தனியா`, `பாஸா!`, `பொருத்தமான நம்பருதான்`, `ஏக ஜாலியா`, source English `life` / `free`, and the correct `பாட்டாளியின் குரல்` book-plan dialogue.
+- **PDF 36 / p.28:** restored `என்ன மூளா!`, `புஸ்தகம்`, `லாபத்திலே உனக்கு கால், எனக்கு முக்கால்`, and the full jewellery / `துரோகம்` stage action.
+- **PDF 37 / p.29:** restored `வேட்டையாட ஒரு வேடன்`, `காவியாடை`, and retained source-visible anomalous `எரிமலமிது` instead of repairing it from context.
+- **PDF 38–40 / pp.30–32:** restored `உன் சொல்லைத் தாண்டிப்போனதே`, the paper-bale labourer exchange, `பாட்டாளியின் குரல்`, `5000 காப்பி`, `முதுகெலும்புகள் பாட்டாளிகள்`, and the full public-meeting invitation rhetoric.
+- **PDF 41–42 / pp.33–34:** substantially restored the mill-meeting stage directions, old Austin car / exhaust-noise explanation, `பயமில்லா சிங்கம்`, the speech beginning `காடு வெட்டி கழனி திருத்தி...`, and scene 34's `ஜீவஹிம்சை`, `மூர்த்தர்!` forms.
+- **PDF 43 / p.35:** substantially retranscribed the garden exchange; retained source-visible forms including `மோனத்திற்கும் முதிர் சோலையில், காணத்தால் களிப்பூட்டும்`, `சிரிக்கும் முல்லையும், சிங்காரக் கொல்லையும்`, and `அடுத்தாதே!`.
+- **PDF 44–48 / pp.36–40:** restored `பரிசு கொடுக்க`, `என்மேல் ஒரு தவறும் இல்லையே`, `ஸ்ட்ரைக் நோட்டீஸ்களை`, the father's marriage discussion, `பேசாமடந்தை யாக்கிவிடும் பைத்தியக்கார சமூகம்`, and retained printed `முன்னுடி`.
+- **PDF 49–50 / pp.41–42:** restored scene-38 stage wording `அவன் குரல் மட்டும் முகத்தில் ஒலிக்கிறது`, source `துல்யமான`, `பூகம்பம்`, and the scene-39 opening where the two men are initially `உட்காராமல்`.
+- **PDF 51–53 / pp.43–45:** restored `ஆயிரக் கணக்கான தொழிலாளர்கள்`, `ஜென்மம்`, `கிடு கிடுத்துவிட்டார் முதலாளி`, `தலைவன்`, the cigarette falling into the coat-pocket staging, `தேவகிக்கு ... 1200`, the strike-news block, and `கேளேன் தருகிறேன்`.
+
+### First-pass coverage integrity correction discovered during this activity
+
+While preparing the PDF 36–53 verification update, the stored `part-03-pdf-36-63.md` was found to stop at PDF 60 even though its filename/header and project status had previously claimed PDF 36–63 coverage. PDF **61–63 / printed pp.53–55** were therefore missing from the actual stored first-pass transcription.
+
+Those three pages have now been restored to part 03 from the source scan as **draft-only** first-pass pages. They were **not** counted among the 30 pages verified in this activity and remain pending their own visual fidelity audit. The project can again truthfully claim stored first-pass coverage for PDF 9–112 / printed pp.1–104.
+
+**Next audit page:** PDF **54 / printed p.46**.
