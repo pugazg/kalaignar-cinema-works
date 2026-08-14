@@ -32,14 +32,14 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - unresolved audited main-text pages: **0**
 - scene index: **complete — 93/93**
 - scene-text derivatives: **complete — 93/93**
-- dialogue index: **in progress — scenes 1–50 complete, 593 records**
+- dialogue index: **complete — 93/93 scenes, 1,040 records**
 - character index: **not-started**
 - song authorship mapping / Tamil song derivatives: **not-started**
 - English translation: **not-started**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The dialogue derivative is under `dialogues/`, using a fixed schema and scene-sharded record files.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -51,10 +51,12 @@ During dialogue-index batch 5, direct comparison with the verified Part 03 canon
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character. Scenes 10, 11, 25, 26 and 43 therefore correctly have zero dialogue records. The scene-29 standalone `கோஷம்`, scene-31 unlabelled song-performance material, scene-33 unlabelled speech after a standalone direction, and scene-44 unlabelled continuation after `(கருடன் ஆத்திரம்)` remain in the canonical/scene layer rather than being silently assigned.
+The dialogue index follows the same discipline: only explicitly speaker-labelled utterances become dialogue records. Speaker labels remain exact; standalone narrative/stage directions and unlabelled material are not silently assigned to a character. Scenes **10, 11, 25, 26, 43 and 54** therefore correctly have zero dialogue records.
 
-Three cross-page dialogue records are currently verified: `tirumbippaar-s001-d006`, `tirumbippaar-s041-d034`, and `tirumbippaar-s045-d015`.
+The completed dialogue layer contains **eight** verified cross-page utterances: `tirumbippaar-s001-d006`, `tirumbippaar-s041-d034`, `tirumbippaar-s045-d015`, `tirumbippaar-s063-d003`, `tirumbippaar-s072-d001`, `tirumbippaar-s076-d012`, `tirumbippaar-s080-d022`, and `tirumbippaar-s080-d028`.
+
+Unlabelled structures remain in the canonical/scene layer rather than being silently converted to dialogue. Examples include the scene-29 `கோஷம்`, scene-31 song-performance material, scene-43 `கலப்படம்` performance description, scene-54 newspaper report, scene-83 letter, scene-84 unlabelled advertisement reading, scene-85 address card, scene-91 `பத்திரிகை News`, and the final `வணக்கம்.` in scene 93.
 
 ## Exact next activity
 
-Continue the **dialogue index with scenes 51–60** from the completed scene derivatives and verified canonical Tamil. Keep the fixed dialogue schema, preserve exact source labels and text, record PDF/printed-page provenance, and use `page_segments` only when one labelled utterance crosses a page boundary.
+Build the **character index** from the completed 93-scene dialogue index, completed scene derivatives and verified canonical Tamil. Preserve exact source speaker labels in the dialogue layer; alias resolution and character normalization belong only in the character-index derivative.
