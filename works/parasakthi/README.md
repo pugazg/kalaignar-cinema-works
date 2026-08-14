@@ -32,22 +32,21 @@ Source-linked English records live under [`translations/`](translations/).
 
 Current checkpoint:
 
-- status: **in-progress-review**
-- scenes started/reviewed: **1–22, 24–33, 35**
-- scenes verified: **1–22, 24–30**
-- scenes in review: **31, 32, 33, 35**
+- status: **in-progress-verified**
+- scenes started/reviewed/verified: **1–22, 24–33, 35**
+- scenes in review: **none**
 - canonical scenes **23 and 34: absent**
 - translation units: **595**
-- verified: **500**
-- review: **95**
+- verified: **595**
+- review: **0**
 - kinds: **495 dialogue / 89 stage direction / 10 song / 1 quoted verse**
 
-The scenes **31, 32, 33 and 35** review batch contains **95** source-linked units. Scene **34 was not created**. The verified scene-33 soundtrack occurrence `parasakthi-song-011` remains one PDF 40 unit, and scene-33 dialogue d053 remains one cross-page PDF **41→42** unit.
+The observed scenes **31, 32, 33 and 35** batch has completed its deliberate second pass: **95/95 units verified**. Scene **34 was not created**. The verified scene-33 soundtrack occurrence `parasakthi-song-011` remains one PDF 40 unit, and scene-33 dialogue d053 remains one cross-page PDF **41→42** unit.
 
-Two source-visible labelled units that are absent from the immutable dialogue derivatives are represented directly from the verified scene files without invented dialogue IDs: scene 32 `parasakthi-en-s032-u004` and scene 33 `parasakthi-en-s033-u063`.
+Two source-visible labelled units absent from the immutable dialogue derivatives remain represented directly from the verified scene files without invented dialogue IDs: scene 32 `parasakthi-en-s032-u004` and scene 33 `parasakthi-en-s033-u063`.
 
 No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Next activity
 
-Second-pass all **95 English review units** in observed scenes **31, 32, 33 and 35**. Change English only where source fidelity requires it; preserve `parasakthi-song-011`, the PDF 41→42 cross-page dialogue unit, and the two direct source-linked labelled units. Do not begin the next batch until this review is complete.
+Create the next source-linked English review batch for observed canonical scenes **36–40**. Inspect verified scene files, immutable dialogue records and the verified song/verse inventory before deriving the unit count; then give that batch its own separate second-pass review before verification.
