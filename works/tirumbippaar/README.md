@@ -28,22 +28,25 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - main-text missing/duplicate/crop findings: **none observed**
 - performance/song candidate structures: **marked for later source-linked inventory; no authorship inferred**
 - canonical Tamil first-pass transcription: **complete — PDF 9–112 / printed pp.1–104**
-- canonical Tamil status: **draft-complete — 89 draft / 15 verified / 0 review pages**
-- verified fidelity range: **PDF 9–23 / printed pp.1–15**
+- canonical Tamil status: **draft-complete — 59 draft / 45 verified / 0 review pages**
+- verified fidelity range: **PDF 9–53 / printed pp.1–45**
+- latest verified batch: **PDF 24–53 / printed pp.16–45 — 30 pages**
 - fidelity audit: **in-progress**
 - structured scene/dialogue/character/song derivatives: **not-started**
 - English translation: **not-started**
 
-`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and the mapped performance/printed-text candidates. `notes/fidelity-audit.md` records page-by-page source corrections and verification progress.
+`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records page-by-page source corrections and verification progress.
 
 Canonical first-pass transcription is indexed at `transcription/full-text.md` and stored in five source-order files under `transcription/parts/`.
+
+During the latest audit, a pre-existing archival gap was found: `part-03-pdf-36-63.md` had actually stopped at PDF 60 despite earlier complete first-pass status. PDF **61–63 / printed pp.53–55** have now been restored from the scan as **draft-only** pages. They were not included in the 30 verified pages and still require a normal fidelity pass.
 
 ## Source discipline
 
 The supplied scan is the controlling source. Do not modernize spelling or punctuation, normalize speaker labels, repair scene headings from film knowledge, fill unreadable text from subtitles/audio/web copies, or infer lyric authorship from proximity.
 
-The completed first pass is **not** yet the fully verified canonical text. PDF 9–23 / printed pp.1–15 have passed direct visual fidelity comparison; the remaining 89 pages stay `draft` until individually checked.
+The completed first pass is **not** yet the fully verified canonical text. PDF 9–53 / printed pp.1–45 have passed direct visual fidelity comparison; the remaining 59 pages stay `draft` until individually checked.
 
 ## Exact next activity
 
-Continue the **canonical Tamil visual fidelity audit** at PDF **24 / printed p.16**. Compare the draft page by page against rendered source images, apply only source-supported corrections, preserve unresolved source forms explicitly, and promote a page to `verified` only after its complete visual check passes.
+Continue the **canonical Tamil visual fidelity audit** at PDF **54 / printed p.46**. Compare draft pages against rendered source images, apply only source-supported corrections, preserve unresolved source forms explicitly, and promote a page to `verified` only after its complete visual check passes.
