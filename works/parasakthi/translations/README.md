@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription and immutable structured derivatives  
 **Target language:** English (`en`)  
-**Status:** in progress — observed canonical scenes through **30 verified**; scenes **31, 32, 33 and 35 in review**; canonical scenes **23 and 34 are absent**
+**Status:** in progress — observed canonical scenes through **35 verified**; canonical scenes **23 and 34 are absent**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, or overwrite the verified Tamil source.
 
@@ -21,21 +21,20 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 ## Current coverage
 
-Verified English scene records exist for observed canonical scenes **1–22 and 24–30**. New review records now exist for observed canonical scenes **31, 32, 33 and 35**. Canonical scenes **23 and 34 are absent**; no translation records exist for them.
+Verified English scene records now exist for observed canonical scenes **1–22, 24–33 and 35**. Canonical scenes **23 and 34 are absent** and have no translation records.
 
 Current totals:
 
-- scenes started/reviewed: **1–22, 24–33, 35**;
-- scenes verified: **1–22, 24–30**;
-- scenes in review: **31, 32, 33, 35**;
+- scenes started/reviewed/verified: **1–22, 24–33, 35**;
+- scenes in review: **none**;
 - translation units: **595**;
-- verified: **500**;
-- review: **95**;
+- verified: **595**;
+- review: **0**;
 - kinds: **495 dialogue / 89 stage direction / 10 song / 1 quoted verse**.
 
-## Scenes 31–35 review batch
+## Scenes 31–35 second-pass checkpoint
 
-The new batch contains **95 units**:
+All **95 units** in observed scenes **31, 32, 33 and 35** passed deliberate second-pass review:
 
 - scene 31 — **15** units: 13 dialogue + 2 stage directions;
 - scene 32 — **6** units: 5 dialogue + 1 stage direction;
@@ -44,25 +43,22 @@ The new batch contains **95 units**:
 
 Canonical scene **34 is absent and was not created**.
 
-The verified song inventory contributes exactly one occurrence to this batch: soundtrack occurrence `parasakthi-song-011` in scene 33, PDF **40** / printed p. **39**. It remains one semantic-poetic unit and remains distinct from the later scene-47 reprise.
+The pass preserves soundtrack occurrence `parasakthi-song-011` in scene 33, PDF **40** / printed p. **39**, as one semantic-poetic unit distinct from its later scene-47 reprise. Scene 33 dialogue `parasakthi-s033-d053` remains one PDF **41→42** English unit.
 
-Scene 33 dialogue `parasakthi-s033-d053` remains one cross-page English unit across PDF **41→42**.
-
-Two explicitly labelled canonical lines/blocks are present in the verified scene files but are not represented in the immutable dialogue-record derivatives. They are translated directly from source without inventing dialogue IDs:
+Two explicitly labelled source pieces remain translated directly from verified scene files rather than being retrofitted into the immutable dialogue index:
 
 - scene 32 — `parasakthi-en-s032-u004`, source `ஒரு : போ...போ...`;
-- scene 33 — `parasakthi-en-s033-u063`, Gnana Sekaran's long beggars' conference speech after dialogue record d056.
+- scene 33 — `parasakthi-en-s033-u063`, Gnana Sekaran's beggars' conference / voting-rights speech.
 
-These translation units do **not** modify or repair the dialogue index.
+English-only second-pass refinements included:
 
-### Review pressure points
+- scene 32: preserved the order of Kalyani's open plea and the half-anna amount;
+- scene 33: clarified the dense Kalyani/social-suffering clause, tightened the poverty/wanderer exchange, resolved `அண்ணு` contextually as Vimala's **elder brother** without inventing a name, removed added explanation from the caste joke, improved the Delhi plea, and made the voting-rights sequence explicitly electoral where the source context supports it;
+- scene 35: rendered repeated `அண்ணு` as a generic **brother** address rather than a proper name, while leaving verified `ஊரும்.` exposed as `Oorum.` rather than repairing it.
 
-- **scene 31:** the exchange explicitly revisits the scene-26 rationalist lyric; keep the reference source-led rather than retroactively changing the song.
-- **scene 32:** preserve the omitted-from-dialogue-index but source-visible `போ...போ...` as a direct source-linked unit; review `வயிறு காயுது` without over-medicalizing it.
-- **scene 33:** review the dense social-revolution rhetoric and the forms `கல்வெறியத்`, `கனக்கோல்`, `சரசாரமாய் திடுக்கிடவே`, `நாட்டோடி`, `எதிர்த்துலகில்`, `ரோம் நகமும்`, `மார்பத்தை`, `பேணு`, `சட்டம்`, and `நாம் ஓட்டுகிற பரதேசி அரசாங்கம்`; preserve the source's puns, fragments, abrupt transitions and direct-source labelled block.
-- **scene 35:** review repeated `அண்ணு`, `ஆண்டிகள்`, and the pressure-sensitive opening `ஊரும்.` in d008 without silently repairing Tamil.
+Pressure-sensitive forms including `கல்வெறியத்`, `கனக்கோல்`, `சரசாரமாய் திடுக்கிடவே`, `ரோம் நகமும்`, `சட்டம்`, and `நாம் ஓட்டுகிற பரதேசி அரசாங்கம்` remain visible/documented rather than silently normalized.
 
-No canonical Tamil, scene file, dialogue record, character record, song inventory or Tamil song derivative was modified while creating this batch.
+No canonical Tamil, scene file, dialogue record, character record, song inventory or Tamil song derivative was modified.
 
 ## Completed review gates
 
@@ -70,8 +66,9 @@ No canonical Tamil, scene file, dialogue record, character record, song inventor
 - scenes 11–15: **88/88** second-pass verified;
 - scenes 16–20: **87/87** second-pass verified;
 - observed scenes 21, 22, 24, 25: **96/96** second-pass verified;
-- scenes 26–30: **93/93** second-pass verified.
+- scenes 26–30: **93/93** second-pass verified;
+- observed scenes 31, 32, 33, 35: **95/95** second-pass verified.
 
 ## Next activity
 
-Perform a deliberate second-pass fidelity/editorial review of all **95 units** in observed scenes **31, 32, 33 and 35**. Change English only where a genuine translation problem is found. Preserve `parasakthi-song-011`, the PDF 41→42 cross-page dialogue unit, and both direct source-linked labelled units. **Do not begin the next batch until this review is complete.**
+Create the next source-linked English **review** batch for observed canonical scenes **36–40**. Inspect the current verified scene files, immutable dialogue records and verified song/verse inventory before deriving the unit count. Do not mark that batch verified until its own separate second-pass review is complete.
