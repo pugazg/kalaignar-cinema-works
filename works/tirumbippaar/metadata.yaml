@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Extract scene-text derivatives for scenes 31-40 from the verified canonical Tamil."
+  next_action: "Extract scene-text derivatives for scenes 41-50 from the verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -132,21 +132,22 @@ structured_derivatives:
   scene_text_derivatives:
     status: in-progress
     expected_files: 93
-    completed_files: 30
-    completed_scenes: "1-30"
+    completed_files: 40
+    completed_scenes: "1-40"
     completed_batches:
       - "scenes 1-10"
       - "scenes 11-20"
       - "scenes 21-30"
+      - "scenes 31-40"
     cross_part_scenes: [5, 29]
-    next_batch: "scenes 31-40"
-    note: "Scene 5 crosses part-01/part-02. Scene 29 starts on PDF 34 in part-02, continues through PDF 35, then crosses into PDF 36 in part-03 before scene 30 begins. Both cross-part scenes are assembled in verified canonical source order with page anchors preserved."
+    next_batch: "scenes 41-50"
+    note: "Scene 5 crosses part-01/part-02. Scene 29 crosses part-02/part-03. Scenes 31-40 are wholly sourced from verified part-03 text; source-visible irregular scene marker `காட்சி 36` without the usual following bracket is preserved in scene-36.md."
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: scene-text-scenes-31-40
+  next_structured_derivative: scene-text-scenes-41-50
 
 status:
   source_intake: complete
