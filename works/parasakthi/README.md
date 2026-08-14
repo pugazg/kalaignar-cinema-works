@@ -28,26 +28,23 @@ None of these layers is rewritten by English translation work.
 
 ## English translation layer
 
-Source-linked English records live under [`translations/`](translations/). There is no second English screenplay authority yet.
+Source-linked English records live under [`translations/`](translations/).
 
 Current checkpoint:
 
-- status: **in-progress-review**
-- scenes started/reviewed: **1–22, 24–30**
-- scenes verified: **1–22, 24–25**
-- scenes in review: **26–30**
+- status: **in-progress-verified**
+- scenes started/reviewed/verified: **1–22, 24–30**
+- scenes in review: **none**
 - canonical scene **23: absent**
 - translation units: **500**
-- verified: **407**
-- review: **93**
+- verified: **500**
+- review: **0**
 - kinds: **410 dialogue / 80 stage direction / 9 song / 1 quoted verse**
 
-The scenes 26–30 review batch contains **93** source-linked units: scene 26 (4), scene 27 (4), scene 28 (55), scene 29 (2), and scene 30 (28). Verified occurrence boundaries are preserved for `parasakthi-song-008`, quoted verse `parasakthi-song-009`, and `parasakthi-song-010`.
-
-Scene 28 dialogue d023 remains one PDF **33→34** translation unit. Scene 30 remains a cross-part canonical scene but no individual English unit crosses its PDF 35→36 boundary.
+The scenes **26–30** batch has completed its deliberate second pass: **93/93 units verified**. The verified occurrence boundaries for `parasakthi-song-008`, quoted verse `parasakthi-song-009`, and `parasakthi-song-010` remain unchanged; scene 28 d023 remains one PDF **33→34** English unit.
 
 No canonical Tamil, scene derivative, dialogue record, character mapping, song inventory or Tamil song derivative was modified.
 
 ## Next activity
 
-Second-pass all **93 English review units** in scenes **26–30**. Change English only where source fidelity requires it. Preserve verified song/verse boundaries exactly and do not begin scenes 31–35 until this review is complete.
+Create the next source-linked English review batch for observed canonical scenes **31, 32, 33 and 35**. Scene **34 is absent and must not be invented**. Inspect verified song/quoted-verse occurrences before deriving the unit count, then second-pass that batch before verification.
