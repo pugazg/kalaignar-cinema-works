@@ -32,8 +32,9 @@ source:
   cropped_or_uncertain_source_elements:
     - pdf_page: 2
       element: lower_printer_imprint_line
-      status: unresolved
-      note: "The supplied scan crops/obscures part of the lower printer line; do not reconstruct it."
+      visible_partial_reading: "சிட்டி பிரஸ், மதுரை ரோ…"
+      status: unresolved_source_crop
+      note: "The right-hand continuation is physically cropped in the supplied scan and is not reconstructed."
 
 front_matter:
   author_foreword:
@@ -47,8 +48,9 @@ front_matter:
     pdf_page: 8
 
 structure:
-  structural_mapping: review
+  structural_mapping: verified
   mapping_path: "mapping.md"
+  scene_heading_audit_path: "notes/scene-heading-audit.md"
   main_text_pdf_pages: "9-112"
   main_text_printed_pages: "1-104"
   printed_page_formula: "printed page = PDF page - 8 for PDF 9-112"
@@ -59,8 +61,20 @@ structure:
   scene_number_out_of_order_observed: []
   canonical_scene_number_corrections: []
   scene_number_start_pages_mapped: true
-  exact_scene_location_headers_verified: false
-  distinct_textual_structures_inventory_status: review
+  exact_scene_location_headers_verified: true
+  scene_start_dispositions_verified: 93
+  distinct_textual_structures_inventory_status: verified
+  performance_song_candidate_scenes: [2, 6, 11, 14, 31, 42, 43]
+  standalone_chant_blocks:
+    - pdf_page: 35
+      printed_page: 27
+      heading: "கோஷம்"
+  song_performance_candidates:
+    - pdf_page: 57
+      printed_page: 49
+      scenes: [42, 43]
+      source_reference: "கலப்படம்"
+  additional_main_text_crop_or_duplicate_findings: []
 
 transcription_progress:
   status: not-started
@@ -69,7 +83,7 @@ transcription_progress:
   canonical_printed_pages: "1-104"
   next_pdf_page: 9
   next_printed_page: 1
-  next_action: "Complete the structural heading/location-label verification gate before starting canonical Tamil transcription."
+  next_action: "Begin canonical Tamil transcription from PDF 9 / printed p.1, reading only from rendered scan pages and preserving source order and wording."
 
 fidelity_audit:
   status: not-started
@@ -86,7 +100,7 @@ structured_derivatives:
 
 status:
   source_intake: complete
-  structural_mapping: review
+  structural_mapping: verified
   tamil_transcription: not-started
   tamil_fidelity_audit: not-started
   scene_index: not-started
