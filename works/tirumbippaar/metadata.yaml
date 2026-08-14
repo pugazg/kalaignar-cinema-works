@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Extract scene-text derivatives beginning with scenes 1-10 from the verified canonical Tamil."
+  next_action: "Extract scene-text derivatives for scenes 11-20 from the verified canonical Tamil."
 
 fidelity_audit:
   status: complete
@@ -130,17 +130,21 @@ structured_derivatives:
     headings_not_observed: []
     numbering_corrections_recorded: false
   scene_text_derivatives:
-    status: not-started
+    status: in-progress
     expected_files: 93
-    completed_files: 0
-    next_batch: "scenes 1-10"
-    note: "Scene 5 crosses the part-01/part-02 transcription boundary and must be assembled in verified source order."
+    completed_files: 10
+    completed_scenes: "1-10"
+    completed_batches:
+      - "scenes 1-10"
+    cross_part_scenes: [5]
+    next_batch: "scenes 11-20"
+    note: "Scene 5 starts on PDF 13 in part-01, continues through PDF 14-15 in part-02, and stops before scene 6 on PDF 15. It is assembled in verified canonical source order with page anchors preserved."
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: scene-text-scenes-1-10
+  next_structured_derivative: scene-text-scenes-11-20
 
 status:
   source_intake: complete
@@ -148,7 +152,7 @@ status:
   tamil_transcription: verified
   tamil_fidelity_audit: complete
   scene_index: complete
-  scene_text_derivatives: not-started
+  scene_text_derivatives: in-progress
   dialogue_index: not-started
   character_index: not-started
   song_authorship_mapping: not-started
