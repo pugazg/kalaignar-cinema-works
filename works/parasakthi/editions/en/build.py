@@ -18,6 +18,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+BUILD_VERSION = 1
 ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "parasakthi"
 TRANSLATIONS = WORK / "translations"
@@ -424,6 +425,7 @@ def main() -> int:
         "work_id": "parasakthi",
         "edition": "english-reader",
         "status": "complete-verified",
+        "build_version": BUILD_VERSION,
         "generator": "works/parasakthi/editions/en/build.py",
         "source_scan_sha256": EXPECTED_SOURCE_SHA256,
         "translation_authority": "works/parasakthi/translations/records",
