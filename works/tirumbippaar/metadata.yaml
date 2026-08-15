@@ -107,7 +107,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Translate and verify English scenes 6-10 from the immutable verified Tamil and structured source layers."
+  next_action: "Translate and verify English scenes 11-15 from the immutable verified Tamil and structured source layers."
 
 fidelity_audit:
   status: complete
@@ -301,24 +301,26 @@ structured_derivatives:
     readme: "translations/README.md"
     record_directory: "translations/records"
     pilot_scene: 1
-    scenes_started: [1, 2, 3, 4, 5]
-    scenes_verified: [1, 2, 3, 4, 5]
-    translation_units: 81
-    verified_units: 81
+    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    translation_units: 124
+    verified_units: 124
     review_units: 0
     draft_units: 0
     unit_kind_counts:
-      dialogue: 64
-      stage_direction: 16
+      dialogue: 97
+      stage_direction: 25
       song: 0
-      song_reference: 1
+      song_reference: 2
       chant: 0
       written_text: 0
     cross_page_translation_units: ["tirumbippaar-en-s001-u008"]
     direct_source_unlabelled_dialogue_units: ["tirumbippaar-en-s005-u026"]
-    next_batch: "scenes 6-10"
-    note: "Scenes 1-5 are verified in English with 81 source-linked units. Scene 2 carries the source-only song-performance reference `tirumbippaar-song-001` without invented lyrics. Scene 5 preserves the source-unlabelled coffee request as direct dialogue with null speaker metadata and no invented dialogue-record ID. The sole cross-page unit remains scene 1's `மில் / முதலாளி` break."
-  next_structured_derivative: english-translation-scenes-6-10
+    verified_song_reference_occurrences: ["tirumbippaar-song-001", "tirumbippaar-song-002"]
+    zero_dialogue_source_scenes_translated: [10]
+    next_batch: "scenes 11-15"
+    note: "Scenes 1-10 are verified in English with 124 source-linked units. Scene 6 carries the source-only `tirumbippaar-song-002` performance reference with no invented title or lyrics; scene 10 correctly has zero dialogue records and is represented by one direct scene-linked visual stage-direction unit. Scene 5's source-unlabelled coffee request remains direct dialogue with null speaker metadata and no invented record ID. The sole cross-page English unit remains scene 1's `மில் / முதலாளி` break."
+  next_structured_derivative: english-translation-scenes-11-15
 
 status:
   source_intake: complete
