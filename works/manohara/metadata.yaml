@@ -96,17 +96,33 @@ structure:
       title: "முரசொலி"
 
 transcription_progress:
-  status: not-started
+  status: draft
   first_pass_complete: false
   canonical_pdf_pages: "7-88"
   canonical_logical_printed_pages: "6-87"
-  next_pdf_page: 7
-  next_logical_printed_page: 6
-  next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
+  canonical_pages_total: 82
+  first_pass_completed_pdf_pages: "7-30"
+  first_pass_completed_logical_printed_pages: "6-29"
+  first_pass_pages_completed: 24
+  first_pass_through_pdf_page: 30
+  first_pass_through_logical_printed_page: 29
+  draft_pages: 24
+  verified_pages: 0
+  review_pages: 0
+  full_text_index_path: "transcription/full-text.md"
+  parts_directory: "transcription/parts"
+  parts_completed: 1
+  part_paths:
+    - "transcription/parts/part-01-pdf-7-30.md"
+  next_pdf_page: 31
+  next_logical_printed_page: 30
+  next_action: "Continue canonical Tamil first-pass transcription from PDF 31 / logical printed p.30, in source order, with stable page anchors."
 
 fidelity_audit:
   status: not-started
   canonical_range_audit_complete: false
+  verified_pages: 0
+  review_pages: 0
 
 structured_derivatives:
   scene_text_derivatives: blocked
