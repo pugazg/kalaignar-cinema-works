@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription, completed scene derivatives and immutable dialogue records  
 **Target language:** English (`en`)  
-**Status:** **in-progress — scenes 1–15 complete, 187/187 current units verified**
+**Status:** **in-progress — scenes 1–20 complete, 253/253 current units verified**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, expand or overwrite the verified Tamil source.
 
@@ -27,38 +27,35 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 ## Unit kinds
 
-The schema supports `dialogue`, `stage-direction`, `song`, `song-reference`, `chant`, and `written-text` so later scenes can preserve source-visible structures without forcing everything into labelled dialogue. A kind identifies the archival form of the source unit; it does not add content that is absent from the booklet.
+The schema supports `dialogue`, `stage-direction`, `song`, `song-reference`, `chant`, and `written-text` so later scenes can preserve source-visible structures without forcing everything into labelled dialogue.
 
 ## Verified coverage
 
-Scenes **1–15** are translated and verified in canonical order.
+Scenes **1–20** are translated and verified in canonical order.
 
 - scenes 1–5 — **81 units**;
 - scenes 6–10 — **43 units**;
 - scenes 11–15 — **63 units**;
-- total — **187 verified / 0 review / 0 draft**.
+- scenes 16–20 — **66 units**;
+- total — **253 verified / 0 review / 0 draft**.
 
-Current kinds: **147 dialogue / 36 stage-direction / 4 song-reference**.
+Current kinds: **203 dialogue / 46 stage-direction / 4 song-reference**.
 
 The only cross-page English unit so far remains `tirumbippaar-en-s001-u008`, linked to dialogue record `tirumbippaar-s001-d006` across PDF 9→10 / printed pp.1→2.
 
-## Source-sensitive cases through scene 15
+## Source-sensitive cases through scene 20
 
-Scene 2 and scene 6 preserve only the source-visible facts that song performance/teaching occurs; neither occurrence gains an invented title or lyric body.
+Earlier source-sensitive cases remain documented in their scene records. Scenes 2, 6, 11 and 14 preserve source-visible song/performance references without importing absent lyrics. Scenes 5 and 15 preserve source-unlabelled speech with null speaker metadata. Scene 10 remains a zero-dialogue visual scene.
 
-Scene 5 contains the source-unlabelled spoken line `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` It remains direct source-linked dialogue with `speaker_label: null` and no invented dialogue-record ID. The anomalous exact label `குரு` on `பக்தா!` remains unchanged metadata.
+Scene 16 preserves the wedding invitation only through its printed cutoff at `தங்கள் சுற்றமும் ....`; the English does not complete the conventional invitation wording. Garudan's interrupted accusation likewise remains unfinished.
 
-Scene 10 has no labelled dialogue. Its entire source-visible content is translated as one stage-direction unit: Bama's tears fall into her hand, become a waterfall and then a river.
+Scene 17 preserves Paranthaman's elaborate mythological and romantic rhetoric rather than flattening it. Tilottama and Menaka remain named references; `காயகல்பம்` is represented as `kayakalpa`. The source's unusual forms around `குழந்தைக்கார லோகம்`, `குணப்பக்காரன்`, and the printed age expression are not used to alter canonical Tamil.
 
-Scene 11 is another zero-dialogue source scene. Its boat movement is a stage-direction, while the fact that Paranthaman and an unnamed woman sing as they travel is a `song-reference` linked to `tirumbippaar-song-003`. The woman is not identified and absent lyrics remain absent.
+Scene 18 keeps the colloquial `அவாள்னா இவாள்னா` generic rather than assigning identities absent from the source. The final report that the bride has run away remains an unlabelled stage action whispered to Punnakodi, not invented dialogue.
 
-Scene 12 preserves the source's irregular rhetoric rather than silently repairing it. The unusual `குதுவாதறியாத` phrase is translated conservatively and explicitly noted; `முகாரி` remains `Mukhari` to retain the source's music/lament reference. The closing child's `நாய் வால் நிமிர்க்க முடியாதாம்` line is translated literally without editorial explanation.
+Scene 19 preserves the exact generic speaker label `பெண்`; the student is not given a name. `அம்மா` is translated as the address `amma` where relationship would otherwise be inferred.
 
-Scene 13 ends with `புத்தகத்தைப் பிரித்துப் பாடல்`. Because that line gives no title, lyrics or explicit performer and is not a separately inventoried song occurrence, the English keeps it as the direct stage/performance direction `(The book is opened; a song follows.)` rather than inventing song metadata.
-
-Scene 14 links the source-only stage-song reference to `tirumbippaar-song-004`; no absent lyrics are supplied. Pandiyan's speech keeps the contrast among `வாழு`, `வாழாதே`, and `வாழு வாழ விடு`, and renders `பகுத்தறிவு` as `rationalism` rather than weakening the ideological vocabulary.
-
-Scene 15 contains a second source-unlabelled spoken line: `என்னடா இது ஒவ்வொரு சலவைக்கு ஒவ்வொரு பாக்கெட்டா திங்கிறான்......`. It remains direct scene-linked dialogue with `speaker_label: null` and no invented dialogue-record ID. Its odd pocket/laundry image is translated literally.
+Scene 20 keeps the book title `வாழு வாழவிடு` visibly connected to its Tamil form through transliteration. Pandiyan's repeated `நானு தவறு செய்யவில்லை` frames his long humiliation speech in English as it does in the source, while the unusual `கள்ளி பொறுத்தி` insult is translated conservatively and explicitly noted rather than silently modernized.
 
 No canonical Tamil, scene derivative, dialogue record, character record or song record was modified by this English batch.
 
@@ -68,4 +65,4 @@ The completed song gate found that this booklet does not print a complete lyric 
 
 ## Next activity
 
-Translate and verify **scenes 16–20**. Continue exact dialogue-record linking, direct scene linking for stage/unlabelled material, source-visible performance material only to its printed extent, and page provenance for every unit.
+Translate and verify **scenes 21–25**. Continue exact dialogue-record linking, direct scene linking for stage/unlabelled material, source-visible performance material only to its printed extent, and page provenance for every unit.
