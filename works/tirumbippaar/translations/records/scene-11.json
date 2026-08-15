@@ -1,0 +1,62 @@
+{
+  "work_id": "tirumbippaar",
+  "target_language": "en",
+  "canonical_scene": 11,
+  "scene_status": "verified",
+  "unit_count": 2,
+  "units": [
+    {
+      "id": "tirumbippaar-en-s011-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 11,
+      "source": {
+        "source_path": "works/tirumbippaar/scenes/scene-11.md",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-11.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-bracketed-stage-direction",
+          "ordinal": 1,
+          "description": "Opening boat movement in the scene-11 bracketed direction."
+        },
+        "speaker_label": null,
+        "page_provenance": [{"pdf_page": 19, "printed_page": 11}]
+      },
+      "translation": {
+        "english_text": "(A boat is moving along.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s011-u002",
+      "kind": "song-reference",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 11,
+      "source": {
+        "source_path": "works/tirumbippaar/scenes/scene-11.md",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-11.md",
+        "source_record_id": null,
+        "source_occurrence_id": "tirumbippaar-song-003",
+        "source_locator": {
+          "kind": "scene-bracketed-performance-direction",
+          "ordinal": 1,
+          "description": "The same opening direction states that Paranthaman and another woman are singing as they travel in the boat."
+        },
+        "speaker_label": null,
+        "page_provenance": [{"pdf_page": 19, "printed_page": 11}]
+      },
+      "translation": {
+        "english_text": "(Paranthaman and another woman are singing as they travel in the boat.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The booklet prints only this performance reference; no song title or lyric body is supplied or reconstructed.",
+          "The source does not name the other woman, so the English does not identify her."
+        ]
+      }
+    }
+  ]
+}
