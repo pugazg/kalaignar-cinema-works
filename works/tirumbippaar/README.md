@@ -33,13 +33,13 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - scene index: **complete — 93/93**
 - scene-text derivatives: **complete — 93/93**
 - dialogue index: **complete — 93/93 scenes, 1,040 records**
-- character index: **not-started**
+- character index: **complete-verified — 45/45 exact labels, 39 entities/role categories**
 - song authorship mapping / Tamil song derivatives: **not-started**
 - English translation: **not-started**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -57,6 +57,8 @@ The completed dialogue layer contains **eight** verified cross-page utterances: 
 
 Unlabelled structures remain in the canonical/scene layer rather than being silently converted to dialogue. Examples include the scene-29 `கோஷம்`, scene-31 song-performance material, scene-43 `கலப்படம்` performance description, scene-54 newspaper report, scene-83 letter, scene-84 unlabelled advertisement reading, scene-85 address card, scene-91 `பத்திரிகை News`, and the final `வணக்கம்.` in scene 93.
 
+The character layer likewise does not rewrite source labels. `குணமணி` and `குண்டுமணி` are source-supported variants mapped to one household-helper character; scene-79 `அவன் குரல்` maps to Pandiyan from the scene context. By contrast, the reused exact label `குரல்` remains a role category because it represents different contextual voices in scenes 38, 67 and 72. Generic `பையன்`, worker labels, police labels and `Echo` are also retained as role/collective categories rather than being falsely turned into named individuals.
+
 ## Exact next activity
 
-Build the **character index** from the completed 93-scene dialogue index, completed scene derivatives and verified canonical Tamil. Preserve exact source speaker labels in the dialogue layer; alias resolution and character normalization belong only in the character-index derivative.
+Begin the **per-song authorship mapping gate**. Inspect only source-supported booklet credits and the verified song/performance blocks before creating song-specific Tamil derivatives or any English song translations. Do not infer lyric authorship from a nearby dialogue credit or from the character who performs a song.
