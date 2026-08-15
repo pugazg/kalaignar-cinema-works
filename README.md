@@ -59,7 +59,8 @@ The second screenplay is archived from `TVA_BOK_0014652_திரும்பி
 - source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
 - Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
 - English translation: **complete-verified — scenes 1–93, 1,321 verified source-linked units**;
-- English reader/export edition: **complete-verified — Markdown / HTML / JSON + QA report + integrity manifest**.
+- English reader/export edition: **complete-verified — Markdown / HTML / JSON + QA report + integrity manifest**;
+- English EPUB 3 package: **complete-verified — deterministic package QA PASS**.
 
 Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are fidelity-verified. The final audit corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
 
@@ -77,11 +78,15 @@ The publication-reader preflight performed a final derivative-only reconciliatio
 
 Scene 57 retains all **50** labelled dialogue records individually. Scene 90 retains the source direction `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 preserves `பத்திரிகை News` as written newspaper content; scene 93 preserves final `வணக்கம்.` and leaves the following `★` structural.
 
-The provenance-safe reader/export layer under `works/tirumbippaar/editions/en/` passes whole-work QA across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**. It generates `reader-edition.md`, standalone `reader-edition.html`, machine-readable `reader-edition.json`, `QA_REPORT.md` and `manifest.json`. The active GitHub Actions workflow reruns the preflight/QA build when authoritative inputs change and commits the reproducible outputs after the gate passes.
+The provenance-safe reader/export layer under `works/tirumbippaar/editions/en/` passes whole-work QA across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**. It generates `reader-edition.md`, standalone `reader-edition.html`, machine-readable `reader-edition.json`, `QA_REPORT.md` and `manifest.json`.
 
-No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation or export build.
+The same automated publication workflow now builds `tirumbippaar-en.epub` as a deterministic **EPUB 3** package. EPUB QA confirms **93 scene XHTML documents**, every one of the **1,321 verified unit IDs exactly once**, **99 ZIP members**, complete TOC/OPF/spine coverage, and first/uncompressed exact `mimetype`. The package is **370,615 bytes** with SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`; `EPUB_QA_REPORT.md` and `package-manifest.json` record the package checkpoint.
 
-**Next:** no required Tirumbippaar English translation or reader-export activity remains. Optional future work may package the verified reader edition as PDF/EPUB or a formal release without changing the verified source layers.
+The active GitHub Actions workflow reruns reader preflight, whole-work reader QA, deterministic EPUB packaging and metadata synchronization when authoritative inputs change, and commits reproducible outputs only after all gates pass.
+
+No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation, reader export or EPUB packaging.
+
+**Next:** no required Tirumbippaar English translation, reader-export or EPUB-packaging activity remains. Optional future work may create a **print-ready PDF** or a formal release without changing the verified source layers.
 
 ## Status vocabulary
 
