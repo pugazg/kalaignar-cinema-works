@@ -105,7 +105,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Build the character index from the completed 93-scene dialogue index and verified canonical Tamil."
+  next_action: "Begin the per-song authorship mapping gate using source-supported booklet credits and verified song/performance blocks."
 
 fidelity_audit:
   status: complete
@@ -254,12 +254,31 @@ structured_derivatives:
     cross_page_records_verified: ["tirumbippaar-s001-d006", "tirumbippaar-s041-d034", "tirumbippaar-s045-d015", "tirumbippaar-s063-d003", "tirumbippaar-s072-d001", "tirumbippaar-s076-d012", "tirumbippaar-s080-d022", "tirumbippaar-s080-d028"]
     source_label_anomaly_records: []
     next_batch: null
-    note: "Dialogue indexing is complete for all 93 scenes with 1,040 records. The final scenes 51-93 added 447 records. Scene 54 correctly has zero records because its Reading Room news text is unlabelled. Unlabelled letters, news blocks, address text, stage directions and continuations remain outside the dialogue layer. Eight individual labelled utterances cross canonical page boundaries and are represented with page_segments. Exact source speaker labels remain unnormalized for later character-index resolution."
-  character_index: not-started
+    note: "Dialogue indexing is complete for all 93 scenes with 1,040 records. Scene 54 correctly has zero records because its Reading Room news text is unlabelled. Unlabelled letters, news blocks, address text, stage directions and continuations remain outside the dialogue layer. Eight individual labelled utterances cross canonical page boundaries and are represented with page_segments. Exact source speaker labels remain immutable; character/role resolution is recorded separately under characters/."
+  character_index:
+    status: complete
+    path: "characters/index.json"
+    schema: "characters/schema.json"
+    readme: "characters/README.md"
+    label_inventory: "characters/labels-inventory.json"
+    pilot: "characters/entities-pilot.json"
+    entities: "characters/entities.json"
+    dialogue_records_source: 1040
+    distinct_source_labels: 45
+    entity_count: 39
+    verified_entities: 39
+    review_entities: 0
+    unresolved_entities: 0
+    verified_labels: 45
+    review_labels: 0
+    unresolved_labels: 0
+    label_coverage: "45/45"
+    dialogue_records_modified: false
+    note: "Every exact speaker label has one explicit disposition. `குணமணி`/`குண்டுமணி` are source-supported variants of the same household-helper character. Scene 79 `அவன் குரல்` maps to Pandiyan. Reused `குரல்`, generic `பையன்`, unnamed worker labels, police labels and Echo remain role/collective categories rather than being falsely merged into named characters."
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: character-index
+  next_structured_derivative: song-authorship-mapping
 
 status:
   source_intake: complete
@@ -269,7 +288,7 @@ status:
   scene_index: complete
   scene_text_derivatives: complete
   dialogue_index: complete
-  character_index: not-started
+  character_index: complete
   song_authorship_mapping: not-started
   song_tamil_derivatives: not-started
   english_translation: not-started
