@@ -37,11 +37,11 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - song authorship mapping: **complete — 8 occurrences dispositioned; 3 verified / 5 unresolved**
 - source-named songs with verified item-level authorship: **2**
 - Tamil song derivative files: **0 — no full lyric body for either source-named song is printed in this booklet**
-- English translation: **in-progress — scenes 1–40 verified, 588 units**
+- English translation: **in-progress — scenes 1–45 verified, 680 units**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history. Later source corrections discovered during derivative work are recorded separately in `notes/post-fidelity-corrections.md`.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The source-linked English derivative is under `translations/`, with scenes 1–40 now verified.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The source-linked English derivative is under `translations/`, with scenes 1–45 now verified.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -59,7 +59,7 @@ The dialogue index follows the same discipline: only explicitly speaker-labelled
 
 The completed dialogue layer contains **eight** verified cross-page utterances: `tirumbippaar-s001-d006`, `tirumbippaar-s041-d034`, `tirumbippaar-s045-d015`, `tirumbippaar-s063-d003`, `tirumbippaar-s072-d001`, `tirumbippaar-s076-d012`, `tirumbippaar-s080-d022`, and `tirumbippaar-s080-d028`.
 
-Unlabelled structures remain in the canonical/scene layer rather than being silently converted to dialogue. Examples include the scene-29 `கோஷம்`, scene-31 song-performance material, scene-43 `கலப்படம்` performance description, scene-54 newspaper report, scene-83 letter, scene-84 unlabelled advertisement reading, scene-85 address card, scene-91 `பத்திரிகை News`, and the final `வணக்கம்.` in scene 93.
+Unlabelled structures remain in the canonical/scene layer rather than being silently converted to dialogue. Examples include the scene-29 `கோஷம்`, scene-31 song-performance material, scene-43 `கலப்படம்` performance description, scene-44 platform-speech continuation after the Garudan reaction direction, scene-54 newspaper report, scene-83 letter, scene-84 unlabelled advertisement reading, scene-85 address card, scene-91 `பத்திரிகை News`, and the final `வணக்கம்.` in scene 93.
 
 The character layer likewise does not rewrite source labels. `குணமணி` and `குண்டுமணி` are source-supported variants mapped to one household-helper character; scene-79 `அவன் குரல்` maps to Pandiyan from the scene context. By contrast, the reused exact label `குரல்` remains a role category because it represents different contextual voices in scenes 38, 67 and 72. Generic `பையன்`, worker labels, police labels and `Echo` are also retained as role/collective categories rather than being falsely turned into named individuals.
 
@@ -67,8 +67,20 @@ The song layer follows an equally strict gate. Visual inspection of PDF **1–8*
 
 No Tamil song-lyric derivative is created from absent text. Scene 31 prints only a named performance reference; scenes 42–43 print/name only `கலப்படம்` material rather than a complete lyric body. The canonical scene files therefore remain the complete source-supported Tamil record for these occurrences.
 
-The English layer follows the same immutability rule. Scenes **1–40** now contain **588 verified source-linked units**: **463 dialogue, 116 stage directions, 5 song-references, 1 chant and 3 written-text units**. Source-unlabelled speech remains unlabelled, zero-dialogue scenes remain represented through their actual narrative/performance structure, and the scene-29 labour slogan remains an unattributed chant. Scene 31 preserves only the printed `பாண்டியன் என் சொல்லை` song reference without reconstructing lyrics. Scene 36 keeps Poomaal's creeper/plant metaphor; scene 37 preserves the marriage-age, horoscope and `போதை` exchanges; scene 38 retains the contest-arena/earthquake imagery; and scenes 39–40 preserve the source-order contrast between privately accepting money to halt the strike and publicly declaring victory to the workers. Verified cross-page English units so far are `tirumbippaar-en-s001-u008` and `tirumbippaar-en-s026-u002`.
+## English translation checkpoint
+
+Scenes **1–45** now contain **680 verified source-linked units**: **529 dialogue / 138 stage direction / 7 song-reference / 1 chant / 5 written-text**. There are **0 review / 0 draft** units.
+
+Current cross-page English units are scene 1 PDF 9→10, scene 26 PDF 31→32, scene 41 PDF 52→53, scene 41's labelled Poomaal utterance PDF 56→57, and scene 45's labelled Pandiyan utterance PDF 59→60.
+
+Scene 41 preserves the Sivasakthi Mills cash bundle, its four-name amount slip and the strike-ending newspaper headline as source-linked material. The irregular printed phrase `காமல ஜீவவியத்தைக்` inside Poomaal's cross-page speech is transliterated conservatively rather than silently reconstructed.
+
+Scenes 42–43 are linked to song occurrences `tirumbippaar-song-007` and `tirumbippaar-song-008`. Scene 42 translates only the printed `கலப்படம் கலப்படம்` fragment; scene 43 records only the office boy's reprise. No missing lyrics are supplied.
+
+Scene 43 remains a zero-dialogue source scene. Scene 44's second platform-speech block appears after an intervening stage direction without a renewed speaker label; the English therefore preserves it as source-unlabelled direct speech with null speaker metadata rather than inventing a dialogue record.
+
+Scene 45 preserves Usha's medicine metaphor and Pandiyan's `மஞ்சம் / பஞ்சம் / லஞ்சம்` sound-play, with the latter kept as one cross-page English unit.
 
 ## Exact next activity
 
-Translate and verify **scenes 41–45**. Preserve canonical order and exact Tamil speaker labels as metadata, link every labelled utterance to its immutable dialogue record, retain stage/performance and other unlabelled material without invented speakers, mirror genuine cross-page provenance, and keep absent song lyrics absent.
+Translate and verify **scenes 46–50**. Preserve canonical order and exact Tamil speaker labels as metadata, link every labelled utterance to its immutable dialogue record, retain stage/performance and other unlabelled material without invented speakers, mirror genuine cross-page provenance, and keep absent song lyrics absent.
