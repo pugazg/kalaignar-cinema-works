@@ -1,12 +1,12 @@
 # திரும்பிப்பார்! — English reader edition
 
-This directory is the publication-facing export layer built from the **complete-verified source-linked English translation records** under `../../translations/records/`.
+This directory is the publication-facing export and packaging layer built from the **complete-verified source-linked English translation records** under `../../translations/records/`.
 
 It is deliberately downstream of the canonical Tamil/source layers. Nothing in this directory may be used to repair, normalize or overwrite canonical Tamil, scene derivatives, dialogue records, character mappings, song inventory or transcription files.
 
 ## Status
 
-**Complete-verified — whole-work reader QA PASS.**
+**Complete-verified — whole-work reader QA PASS and deterministic EPUB 3 package QA PASS.**
 
 Final reader checkpoint:
 
@@ -20,6 +20,19 @@ Final reader checkpoint:
 - page-order regressions: **0**;
 - missing/extra immutable dialogue links: **0 / 0**.
 
+Final EPUB checkpoint:
+
+- format: **EPUB 3**;
+- packaged scenes: **93/93**;
+- packaged verified units: **1,321/1,321**, each unit ID exactly once;
+- scene XHTML documents: **93**;
+- ZIP members: **99**;
+- package size: **370,615 bytes**;
+- EPUB SHA-256: `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`;
+- deterministic fixed ZIP timestamps and uncompressed members: **verified**;
+- `mimetype` first, exact and uncompressed: **verified**;
+- TOC, OPF manifest and spine coverage: **verified**.
+
 ## Build and QA
 
 Run from the repository root:
@@ -27,11 +40,13 @@ Run from the repository root:
 ```bash
 python works/tirumbippaar/editions/en/audit_probe.py
 python works/tirumbippaar/editions/en/build.py
+python works/tirumbippaar/editions/en/package.py
+python works/tirumbippaar/editions/en/sync_status.py
 ```
 
-`audit_probe.py` provides a diagnostic preflight across all scene shards. `build.py` performs the release gate and exits non-zero if a required invariant fails.
+`audit_probe.py` provides a diagnostic preflight across all scene shards. `build.py` performs the reader release gate and generates the Markdown/HTML/JSON derivatives. `package.py` creates and validates the deterministic EPUB 3 file. `sync_status.py` writes the verified derivative/package checkpoint back to `works/tirumbippaar/metadata.yaml`.
 
-The QA gate checks, among other things:
+The reader QA gate checks, among other things:
 
 - all **93 canonical scenes** are present in canonical order;
 - all **1,321 English units** are unique, sequential and `verified`;
@@ -45,22 +60,27 @@ The QA gate checks, among other things:
 - reader Markdown and HTML contain every verified English unit exactly once;
 - no editorial placeholder token survives in reader text.
 
+The EPUB package gate additionally checks the ZIP member set, first/uncompressed `mimetype`, OPF manifest, title + 93-scene spine, 93-scene table of contents, exact per-unit XHTML coverage, and deterministic package construction.
+
 ## Generated outputs
 
-The passing build generates and the workflow commits:
+The passing workflow generates and commits:
 
 - `reader-edition.md` — continuous Markdown edition with scene navigation and invisible unit/page provenance comments;
 - `reader-edition.html` — standalone responsive and print-friendly HTML edition;
 - `reader-edition.json` — concatenated machine-readable edition retaining source-linked metadata;
-- `QA_REPORT.md` — generated whole-work QA result;
-- `manifest.json` — deterministic integrity manifest containing aggregate input and output SHA-256 values.
+- `QA_REPORT.md` — generated whole-work reader QA result;
+- `manifest.json` — deterministic reader integrity manifest;
+- `tirumbippaar-en.epub` — deterministic EPUB 3 publication package;
+- `EPUB_QA_REPORT.md` — generated EPUB package QA result;
+- `package-manifest.json` — EPUB integrity/package manifest including package SHA-256.
 
-The first complete reader build was produced by GitHub Actions in commit `e7b427f` after a passing whole-work QA run.
+The first complete reader build was produced by GitHub Actions in commit `e7b427f`. The deterministic EPUB package subsequently passed the same whole-work reader gate plus its package-specific gate and is now maintained by the active workflow.
 
 ## Reader policy
 
-The reader outputs do **not** rewrite verified English translation text. Exact Tamil source `speaker_label` values remain visible for labelled dialogue. Source-unlabelled speech remains unlabelled. Stage directions, chants, song references and written text remain distinct structures.
+The reader and EPUB outputs do **not** rewrite verified English translation text. Exact Tamil source `speaker_label` values remain visible for labelled dialogue. Source-unlabelled speech remains unlabelled. Stage directions, chants, song references and written text remain distinct structures.
 
 The source-sensitive readings already verified in the archival layers remain controlling, including scene 31 **`பாண்டியன் என் சொல்லை`**, scene 72 `[தாசி வீடு`, scene 90 `[மரணமூச்சுவிடும் பரந்தாமன்]`, scene 91 `பத்திரிகை News`, and scene 93 final `வணக்கம்.`. The final `★` remains structural and is not rendered as invented prose.
 
-This is a provenance-safe reader/export derivative, not a new translation authority.
+This is a provenance-safe reader/export/package derivative, not a new translation authority.
