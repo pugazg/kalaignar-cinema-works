@@ -38,6 +38,21 @@ This edition does **not** print numbered scene headings. Scene boundaries theref
 
 The scan also contains an extended play-within-the-play sequence, several explicit song/performance references, a war-proclamation/chant-like passage, and a separately printed letter. These are structural findings only. No song authorship has been inferred from the screenplay/dialogue credit.
 
+## Canonical Tamil first-pass checkpoint
+
+The first meaningful transcription batch has been completed from the rendered scan:
+
+- batch file: `transcription/parts/part-01-pdf-7-30.md`;
+- coverage: PDF **7–30** / logical printed pp. **6–29**;
+- pages transcribed: **24/82** canonical pages;
+- current page status: **24 draft / 0 verified / 0 review**;
+- embedded play-within-the-play on PDF **13–19** remains in source order inside the canonical page transcription;
+- the PDF 23 war proclamation/chant-like passage is retained in source position;
+- source-visible song/performance references encountered in this batch remain source text only; no authorship has been assigned;
+- next first-pass page: PDF **31** / logical printed p. **30**.
+
+`draft` means first-pass source transcription only. A separate visual fidelity audit is still required before any page becomes `verified` and before structured derivatives are unlocked.
+
 ## Status
 
 | Layer | Status |
@@ -45,7 +60,7 @@ The scan also contains an extended play-within-the-play sequence, several explic
 | Source intake | complete |
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
-| Canonical Tamil transcription | not-started |
+| Canonical Tamil transcription | draft — 24/82 pages, PDF 7–30 |
 | Visual fidelity audit | not-started |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
@@ -54,4 +69,4 @@ The scan also contains an extended play-within-the-play sequence, several explic
 
 ## Next activity
 
-**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
+**Continue canonical Tamil first-pass transcription from PDF 31 / logical printed p.30, in source order, with stable page anchors.**
