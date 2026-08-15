@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription, completed scene derivatives and immutable dialogue records  
 **Target language:** English (`en`)  
-**Status:** **complete-verified — scenes 1–93, 1,330/1,330 units verified**
+**Status:** **complete-verified — scenes 1–93, 1,321/1,321 units verified**
 
 This directory contains interpretive English derivatives. Nothing here repairs, normalizes, expands or overwrites the verified Tamil source.
 
@@ -11,11 +11,12 @@ This directory contains interpretive English derivatives. Nothing here repairs, 
 - `schema.json` — schema for the 93 scene-sharded source-linked translation records; it supports both the richer early units and the later compact units.
 - `index.json` — completed translation / integrity checkpoint.
 - `records/scene-XX.json` — 93 scene-sharded English translation records.
+- `../editions/en/` — publication-facing reader/export layer generated from these verified records.
 
 ## Translation principles
 
 1. **Tamil remains authoritative.** English fluency is never evidence for changing the canonical Tamil.
-2. **Every source-labelled utterance is linked.** All 1,040 immutable dialogue records are represented exactly once in the completed English layer.
+2. **Every source-labelled utterance is linked.** All **1,040** immutable dialogue records are represented exactly once.
 3. **Exact Tamil speaker labels stay exact metadata.** Character normalization does not rewrite them.
 4. **Stage directions do not gain action.** Translate only what the verified scene supplies.
 5. **Dialogue preserves rhetorical force.** Repetition, questions, code-switching, imagery and political/social rhetoric are not silently flattened.
@@ -33,12 +34,12 @@ All canonical scenes **1–93** are translated and verified.
 - scenes 6–10 — **43 units**
 - scenes 11–15 — **63 units**
 - scenes 16–20 — **66 units**
-- scenes 21–25 — **28 units**
-- scenes 26–30 — **100 units**
-- scenes 31–35 — **85 units**
+- scenes 21–25 — **27 units**
+- scenes 26–30 — **96 units**
+- scenes 31–35 — **84 units**
 - scenes 36–40 — **122 units**
 - scenes 41–45 — **92 units**
-- scenes 46–50 — **84 units**
+- scenes 46–50 — **81 units**
 - scenes 51–55 — **46 units**
 - scenes 56–60 — **111 units**
 - scenes 61–65 — **50 units**
@@ -48,11 +49,11 @@ All canonical scenes **1–93** are translated and verified.
 - scenes 81–85 — **49 units**
 - scenes 86–90 — **82 units**
 - scenes 91–93 — **36 units**
-- **total — 1,330 verified / 0 review / 0 draft**
+- **total — 1,321 verified / 0 review / 0 draft**
 
-Final kinds: **1,047 dialogue / 263 stage-direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**.
+Final kinds: **1,047 dialogue / 254 stage-direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**.
 
-The 1,047 dialogue-kind units consist of the **1,040 immutable source dialogue records plus 7 source-visible unlabelled spoken units**. The latter intentionally have null speaker/dialogue-record metadata.
+The 1,047 dialogue-kind units consist of the **1,040 immutable source dialogue records plus 7 source-visible unlabelled spoken units**. Those seven intentionally retain null speaker/dialogue-record metadata.
 
 ## Cross-page English units
 
@@ -87,26 +88,27 @@ The six source scenes with no labelled dialogue records — **10, 11, 25, 26, 43
 
 ## Song/performance constraint
 
-Seven translated song references are linked to verified source occurrences `tirumbippaar-song-001`, `002`, `003`, `004`, `006`, `007` and `008`. Scene 31 is explicitly linked to `tirumbippaar-song-006`, whose scan-visible title is **`பாண்டியன் என் சொல்லை`**. Scenes 42–43 link the source-visible `கலப்படம்` material to occurrences `007` and `008`.
+Seven translated song references are linked to verified source occurrences `tirumbippaar-song-001`, `002`, `003`, `004`, `006`, `007` and `008`. Scene 31 is linked to `tirumbippaar-song-006`, whose scan-visible title is **`பாண்டியன் என் சொல்லை`**. Scenes 42–43 link the source-visible `கலப்படம்` material to occurrences `007` and `008`.
 
 The booklet prints no complete lyric body for either source-named soundtrack song, so this layer contains **zero reconstructed full-song translations**. The scene-29 labour slogan and scene-86 begging chant remain chants, not fabricated soundtrack lyrics.
 
-## Final reconciliation findings
+## Final reader-export reconciliation
 
-The completion audit reconciled scene records against the immutable dialogue layer and source-visible structures.
+The publication-facing reader preflight exposed and repaired derivative-only structural residue without changing canonical Tamil, scenes, dialogue records, character mappings or song inventory.
 
-- **93/93** scene translation files are present and verified.
-- **1,040/1,040** labelled source dialogue records are linked.
-- `schema.json` now describes the actual scene-sharded record architecture instead of the earlier unit-only shape, while accepting the richer provenance fields retained by the pilot/early records and the compact source fields used later.
-- Scene 31's former placeholder song link was replaced by exact occurrence `tirumbippaar-song-006`.
-- Scene 57 was repaired so all **50** labelled dialogue records are individually represented; its previously collapsed final confrontation is now fully source-linked.
-- Star-only separators were removed from the derivative wherever they had been represented as synthetic `(Scene ends.)` units.
-- Scene 90 retains the explicit source direction `[மரணமூச்சுவிடும் பரந்தாமன்]` as the transition into Paranthaman's dying exchange.
-- Scene 91 preserves `பத்திரிகை News` / `(அக்காள் தம்பியைக் கொன்றாள்)` as written newspaper content rather than dialogue.
-- Scene 93 preserves the final source-visible `வணக்கம்.` as `Vanakkam.`; the following `★` remains structural.
+- **93/93** translation scene files remain verified.
+- **1,040/1,040** labelled source dialogue records are linked exactly once.
+- Scene 31 uses exact song occurrence `tirumbippaar-song-006`.
+- Scene 57 retains all **50** labelled dialogue records individually.
+- Residual synthetic `(Scene ends.)` units derived only from structural `★` markers were removed from scenes **21, 26, 27, 29, 30 and 34**.
+- Scene 29's `கோஷம்` structural heading was restored to its source position before the chant body.
+- Scene 30's source-visible location heading was restored to source order.
+- Scene 47's three duplicated stage-action units were removed because those actions were already represented in their source-order units.
+- Final preflight reports **0 synthetic star-end units, 0 page-order regressions, 0 unit-ID errors, 0 missing dialogue links and 0 extra dialogue links**.
+- Scene 90 retains `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 retains `பத்திரிகை News` as written text; scene 93 retains final `வணக்கம்.` while its following `★` remains structural.
 
-No canonical Tamil transcription, scene derivative, dialogue record, character record or song inventory was modified by the English translation reconciliation.
+## Reader/export status
 
-## Next activity
+`../editions/en/` now contains generated Markdown, standalone HTML and machine-readable JSON reader editions together with a whole-work `QA_REPORT.md` and deterministic `manifest.json`. The GitHub Actions reader QA/build is active and passes against this final checkpoint.
 
-No required English translation activity remains. Optional future work may build publication-facing reader/export derivatives from this verified layer without changing the canonical Tamil or structured source layers.
+No required English translation activity remains.
