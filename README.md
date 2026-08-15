@@ -14,6 +14,17 @@ The repository preserves source provenance, canonical transcription and derivati
 6. **Authorship is not inferred.** Mixed-credit material requires item-level evidence.
 7. **Rights are not assumed.** No repository-wide public-domain/open-license claim is made.
 
+## Reusable onboarding for new cinema works
+
+For every newly supplied Kalaignar cinema source, use these project-level documents before work begins:
+
+- `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` — the detailed mature workflow from source intake through Reading Room integration;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` — project-level handover, reference implementations and lessons learned;
+- `docs/START_NEW_CINEMA_WORK_PROMPT.md` — copy-paste prompt for starting a new work safely;
+- `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, and `docs/TRANSCRIPTION_GUIDE.md` — baseline source/transcription rules.
+
+The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful.
+
 ## Parasakthi status
 
 The canonical Tamil covers PDF **4–57 / printed pp.3–56** and is fully verified at **54/54 pages**. PDF 58 is back matter.
@@ -36,7 +47,7 @@ Publication-facing, provenance-safe English derivatives are generated under `wor
 
 No canonical Tamil, scene, dialogue, character, song or transcription derivative was modified by the English translation or reader-export work.
 
-**Next:** no required Parasakthi English translation or QA/export activity remains. Optional future work may package the verified reader edition into formats such as PDF/EPUB or a release, without changing the verified source layers.
+**Next:** no required Parasakthi English translation or QA/export activity remains. For public access, future downstream work should prioritize integration into `https://nenjukkuneethi.org/read`; standalone packaging should be done only when separately requested or useful.
 
 ## திரும்பிப்பார்! status
 
@@ -86,7 +97,7 @@ The active GitHub Actions workflow reruns reader preflight, whole-work reader QA
 
 No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation, reader export or EPUB packaging.
 
-**Next:** no required Tirumbippaar English translation, reader-export or EPUB-packaging activity remains. Optional future work may create a **print-ready PDF** or a formal release without changing the verified source layers.
+**Next:** no required Tirumbippaar English translation, reader-export or EPUB-packaging activity remains. Its intended primary public destination is the scene-based Reading Room at `https://nenjukkuneethi.org/read`, using the verified Tamil/English structured data. Additional standalone packages are optional only when explicitly requested.
 
 ## Status vocabulary
 
