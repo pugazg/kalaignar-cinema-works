@@ -27,7 +27,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake and structural-mapping gate, and canonical Tamil first-pass transcription is now in progress.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed intake, structural mapping and the complete canonical Tamil first pass.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -41,13 +41,13 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake 
 - source-numbered scene headings: **none printed** — no scene count has been invented;
 - structural mapping: **verified**;
 - transition-heading audit: **complete for intake/mapping**;
-- canonical Tamil first pass: **72/82 pages complete — PDF 7–78 / logical printed pp.6–77, status `draft`**;
+- canonical Tamil first pass: **82/82 pages complete — PDF 7–88 / logical printed pp.6–87, status `draft-complete`**;
 - visual fidelity audit: **not-started**;
 - later structured derivatives and translation: **blocked until Tamil verification**.
 
-Five source-order first-pass batches are now stored under `works/manohara/transcription/parts/`. The fifth batch preserves the Ugrasenan infiltration sequence, Vijayā's prison childbirth, the Purushothaman–Vasantha Sena confrontation, Purushothaman's imprisonment and Manoharan's continued Akshayan disguise in source order. Only **10 canonical screenplay pages remain** in the first pass. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+Six source-order first-pass batches are stored under `works/manohara/transcription/parts/`. The final PDF 79–88 batch preserves the prison confrontation, the attempted killing of Vijayā's child, Padmavati's final appeal, Manoharan breaking his bonds, Ugrasenan's death, Vasanthan's death, the final Kesari Varma–Vasantha Sena reckoning and the closing reconciliation in source order. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
 
-**Next:** complete canonical Tamil first-pass transcription from **PDF 79–88 / logical printed pp.78–87**, in source order, with stable page anchors. The separate visual fidelity audit remains a later gate before structured derivatives.
+**Next:** begin the separate visual fidelity audit from **PDF 7 / logical printed p.6**, comparing the stored first-pass transcription line by line against the rendered scan. Structured derivatives remain blocked until the canonical Tamil layer is verified.
 
 ## Parasakthi status
 
