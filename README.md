@@ -58,7 +58,8 @@ The second screenplay is archived from `TVA_BOK_0014652_திரும்பி
 - song authorship mapping: **3 verified occurrences / 5 unresolved occurrences**;
 - source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
 - Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
-- English translation: **complete-verified — scenes 1–93, 1,330 verified source-linked units**.
+- English translation: **complete-verified — scenes 1–93, 1,321 verified source-linked units**;
+- English reader/export edition: **complete-verified — Markdown / HTML / JSON + QA report + integrity manifest**.
 
 Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are fidelity-verified. The final audit corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
 
@@ -68,15 +69,19 @@ The PDF-2 lower imprint remains a documented source crop. Reinspection supports 
 
 The song gate visually checked PDF **1–8** and found no lyricist/song-credit section. The cover `கதை - வசனம்` credit is not treated as song authorship. Item-level external music-catalog evidence is used only for the two exact source-named title matches; unnamed singing references and the scene-29 labour chant remain explicitly unresolved rather than being guessed onto other soundtrack rows.
 
-The completed English derivative is stored under `works/tirumbippaar/translations/`. Final totals are **1,330/1,330 verified units: 1,047 dialogue / 263 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**. All **1,040 immutable labelled dialogue records** are linked exactly once; seven additional source-visible spoken units remain deliberately unlabelled in metadata.
+The completed English derivative is stored under `works/tirumbippaar/translations/`. Final totals are **1,321/1,321 verified units: 1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**. All **1,040 immutable labelled dialogue records** are linked exactly once; seven additional source-visible spoken units remain deliberately unlabelled in metadata.
 
-The translation contains **12 genuine cross-page units** and preserves all six zero-dialogue source scenes (**10, 11, 25, 26, 43, 54**) through their source-visible narrative, performance or written material. Scene 31 now links exactly to song occurrence `tirumbippaar-song-006`; scenes 42–43 preserve only source-visible `கலப்படம்` material, with absent lyrics remaining absent.
+The translation contains **12 genuine cross-page units** and preserves all six zero-dialogue source scenes (**10, 11, 25, 26, 43, 54**) through their source-visible narrative, performance or written material. Scene 31 links exactly to song occurrence `tirumbippaar-song-006`; scenes 42–43 preserve only source-visible `கலப்படம்` material, with absent lyrics remaining absent.
 
-Final reconciliation also repaired scene 57 so all **50** of its labelled dialogue records are individually source-linked and removed synthetic `(Scene ends.)` units that had been derived solely from structural `★` separators. Scene 90 retains the source direction `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 preserves `பத்திரிகை News` as written newspaper content; scene 93 preserves final `வணக்கம்.` and leaves the following `★` structural.
+The publication-reader preflight performed a final derivative-only reconciliation. Residual synthetic `(Scene ends.)` units created solely from structural `★` separators were removed from scenes **21, 26, 27, 29, 30 and 34**; scene 29's `கோஷம்` heading and scene 30's location heading were restored to source order; and scene 47's three duplicated stage-action units were removed. Final diagnostics report **0 synthetic star-end units, 0 page-order regressions, 0 unit-ID errors, 0 missing dialogue links and 0 extra dialogue links**.
 
-No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation reconciliation.
+Scene 57 retains all **50** labelled dialogue records individually. Scene 90 retains the source direction `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 preserves `பத்திரிகை News` as written newspaper content; scene 93 preserves final `வணக்கம்.` and leaves the following `★` structural.
 
-**Next:** no required Tirumbippaar English translation activity remains. Optional future work may create publication-facing reader/export derivatives from the verified English layer without changing the verified source layers.
+The provenance-safe reader/export layer under `works/tirumbippaar/editions/en/` passes whole-work QA across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**. It generates `reader-edition.md`, standalone `reader-edition.html`, machine-readable `reader-edition.json`, `QA_REPORT.md` and `manifest.json`. The active GitHub Actions workflow reruns the preflight/QA build when authoritative inputs change and commits the reproducible outputs after the gate passes.
+
+No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation or export build.
+
+**Next:** no required Tirumbippaar English translation or reader-export activity remains. Optional future work may package the verified reader edition as PDF/EPUB or a formal release without changing the verified source layers.
 
 ## Status vocabulary
 
