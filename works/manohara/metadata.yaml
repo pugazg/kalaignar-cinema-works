@@ -1,0 +1,119 @@
+id: manohara
+title_ta: "மனோகரா"
+source_title_ta: "மனோகரா"
+work_type: film
+source_type: printed_screenplay_dialogue_booklet
+
+credits_as_printed:
+  title_page:
+    role: "திரைக்கதை வசனம்"
+    name: "மு. கருணாநிதி"
+
+source:
+  identifier: "TVA_BOK_0010102"
+  identifier_basis: "supplied archive filename"
+  filename: "TVA_BOK_0010102_மனோகரா.pdf"
+  pdf_pages: 90
+  byte_size: 30684695
+  sha256: "87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9"
+  scan_type: scanned_image_with_ocr_layer
+  ocr_authority: non_canonical_navigation_only
+  front_cover_pdf_page: 1
+  title_page_pdf_page: 2
+  edition_statement_pdf_page: 3
+  rights_notice_as_printed: "உரிமை : ஆசிரியருக்கே."
+  edition_statement_as_printed: "முதற்பதிப்பு : பிப்ரவரி 1954."
+  publication_year_as_printed: 1954
+  publication_month_as_printed: "பிப்ரவரி"
+  price_as_printed: "விலை எட்டணா"
+  publisher:
+    name: "மூனா கானா பதிப்பகம்"
+    address_lines:
+      - "1/1 ஜக்கரியா காலணி 2-வது தெரு,"
+      - "சென்னை-24"
+  printer_as_printed: "Bharat Devi Press, 2/16, Mount Road, Madras-2."
+  missing_duplicated_or_unreadable_scan_pages_observed: []
+  non_source_marks:
+    - pdf_page: 1
+      kind: library_or_archive_stamp
+      disposition: excluded_from_canonical_text
+    - pdf_page: 90
+      kind: later_library_or_news_agent_stamp
+      disposition: excluded_from_canonical_text
+
+front_matter:
+  story_summary:
+    heading: "நாடகக் கதை"
+    pdf_pages: "4-5"
+    logical_printed_pages: "3-4"
+  foreword:
+    heading: "முன்னுரை"
+    pdf_page: 6
+    logical_printed_page: 5
+    closing_credit: "பதிப்பகத்தார்."
+
+structure:
+  structural_mapping: verified
+  mapping_path: "mapping.md"
+  transition_heading_audit_path: "notes/scene-heading-audit.md"
+  main_text_pdf_pages: "7-88"
+  main_text_logical_printed_pages: "6-87"
+  printed_page_formula: "printed page = PDF page - 1 for the continuous interior sequence; folios are suppressed on PDF 4, 6 and 7"
+  source_numbered_scene_headings: false
+  source_numbered_scene_count: null
+  scene_number_gaps_observed: not_applicable
+  scene_number_repeats_observed: not_applicable
+  scene_number_out_of_order_observed: not_applicable
+  canonical_scene_numbering_introduced: false
+  transition_system:
+    - decorative_star_separators
+    - parenthetical_stage_transitions
+    - bracketed_stage_transitions
+    - bare_location_labels
+    - continuous_action_and_dialogue
+  distinct_textual_structures:
+    play_within_play:
+      status: observed
+      approximate_pdf_pages: "13-19"
+    song_performance_references:
+      status: observed
+      candidate_pdf_pages: [9, 16, 30, 32, 37, 41]
+      authorship_status: unresolved_not_inferred
+    proclamation_or_chant_like_passage:
+      status: observed
+      pdf_page: 23
+    letter:
+      status: observed
+      approximate_pdf_pages: "63-65"
+      visible_salutation_pdf_page_65: "அன்புள்ள வசந்தசேனைக்கு!"
+      visible_signature_pdf_page_65: "உக்ரசேனன்."
+  back_matter:
+    - pdf_page: 89
+      kind: advertisement_or_catalogue
+      heading: "ஒப்பிட்டுப் பாருங்கள்!"
+    - pdf_page: 90
+      kind: back_cover_advertisement
+      title: "முரசொலி"
+
+transcription_progress:
+  status: not-started
+  first_pass_complete: false
+  canonical_pdf_pages: "7-88"
+  canonical_logical_printed_pages: "6-87"
+  next_pdf_page: 7
+  next_logical_printed_page: 6
+  next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
+
+fidelity_audit:
+  status: not-started
+  canonical_range_audit_complete: false
+
+structured_derivatives:
+  scene_text_derivatives: blocked
+  dialogue_index: blocked
+  character_index: blocked
+  song_authorship_mapping: blocked
+  song_tamil_derivatives: blocked
+  english_translation: blocked
+  reader_export: blocked
+  reading_room_integration: blocked
