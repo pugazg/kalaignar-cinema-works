@@ -13,6 +13,7 @@ on:
       - "works/tirumbippaar/scenes/**"
       - "works/tirumbippaar/editions/en/build.py"
       - "works/tirumbippaar/editions/en/audit_probe.py"
+      - "works/tirumbippaar/editions/en/sync_status.py"
       - ".github/workflows/tirumbippaar-english-edition.yml"
 
 permissions:
@@ -39,19 +40,23 @@ jobs:
       - name: Run whole-work QA and build reader derivatives
         run: python works/tirumbippaar/editions/en/build.py
 
-      - name: Commit generated reader derivatives
+      - name: Synchronize derivative-status metadata
+        run: python works/tirumbippaar/editions/en/sync_status.py
+
+      - name: Commit generated reader derivatives and synchronized metadata
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            works/tirumbippaar/metadata.yaml \
             works/tirumbippaar/editions/en/reader-edition.md \
             works/tirumbippaar/editions/en/reader-edition.html \
             works/tirumbippaar/editions/en/reader-edition.json \
             works/tirumbippaar/editions/en/QA_REPORT.md \
             works/tirumbippaar/editions/en/manifest.json
           if git diff --cached --quiet; then
-            echo "Reader derivatives are already reproducible; nothing to commit."
+            echo "Reader derivatives and metadata are already reproducible; nothing to commit."
           else
             git commit -m "Build Tirumbippaar English reader edition [skip ci]"
             git push
