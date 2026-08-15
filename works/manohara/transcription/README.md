@@ -9,12 +9,12 @@ The canonical screenplay/dialogue range is PDF **7–88** / logical printed pp. 
 ## Current checkpoint
 
 - canonical range: PDF **7–88** / logical printed pp. **6–87** — **82 pages**;
-- first-pass coverage: **48/82 pages**;
-- completed first-pass range: PDF **7–54** / logical printed pp. **6–53**;
-- draft pages: **48**;
+- first-pass coverage: **60/82 pages**;
+- completed first-pass range: PDF **7–66** / logical printed pp. **6–65**;
+- draft pages: **60**;
 - verified pages: **0**;
 - review pages: **0**;
-- next first-pass page: PDF **55** / logical printed p. **54**;
+- next first-pass page: PDF **67** / logical printed p. **66**;
 - visual fidelity audit: **not-started**;
 - structured derivatives: **blocked until the Tamil source layer is fidelity-verified**.
 
@@ -34,4 +34,4 @@ From PDF 8 onward the visible/continuous interior pagination is recorded normall
 
 First-pass `draft` does **not** mean visually verified. A separate complete fidelity audit against the rendered scan must follow after first-pass coverage is complete. OCR, film audio, subtitles, web quotations, memory and later editions are not canonical repair sources.
 
-**Next:** continue canonical Tamil first-pass transcription from **PDF 55 / logical printed p.54**, in source order, using a meaningful multi-page batch and stable page anchors.
+**Next:** continue canonical Tamil first-pass transcription from **PDF 67 / logical printed p.66**, in source order, using a meaningful multi-page batch and stable page anchors.
