@@ -40,19 +40,21 @@ The scan also contains an extended play-within-the-play sequence, several explic
 
 ## Canonical Tamil first-pass checkpoint
 
-Five source-order transcription batches have now been completed from the rendered scan:
+The complete source-order first pass is now stored in six archival batches:
 
 - `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 draft pages**;
 - `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 draft pages**;
 - `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 draft pages**;
 - `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 draft pages**;
 - `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 draft pages**;
-- cumulative coverage: **72/82** canonical pages;
-- current page status: **72 draft / 0 verified / 0 review**;
-- the PDF 67–78 batch preserves the Ugrasenan infiltration sequence, the prison childbirth sequence, the Purushothaman–Vasantha Sena confrontation, Purushothaman's imprisonment, and Manoharan's continued Akshayan disguise in source order;
-- only **10 canonical screenplay pages remain** in the first pass: PDF **79–88 / logical printed pp.78–87**.
+- `transcription/parts/part-06-pdf-79-88.md` — PDF **79–88** / logical printed pp. **78–87** — **10 draft pages**;
+- cumulative coverage: **82/82 canonical pages — first pass complete**;
+- current page status: **82 draft / 0 verified / 0 review**;
+- aggregate transcription status: **`draft-complete`**.
 
-`draft` means first-pass source transcription only. A separate visual fidelity audit is still required before any page becomes `verified` and before structured derivatives are unlocked.
+The final batch preserves the prison confrontation, the attempted killing of Vijayā's child, Padmavati's final appeal, Manoharan breaking his bonds, Ugrasenan's death, Vasanthan's death, the final Kesari Varma–Vasantha Sena reckoning and the closing reconciliation in source order.
+
+`draft-complete` means every canonical page has a first-pass transcription. It does **not** mean the text is verified. A separate visual fidelity audit is now required before any page becomes `verified` and before structured derivatives are unlocked.
 
 ## Status
 
@@ -61,7 +63,7 @@ Five source-order transcription batches have now been completed from the rendere
 | Source intake | complete |
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
-| Canonical Tamil transcription | draft — 72/82 pages, PDF 7–78 |
+| Canonical Tamil transcription | **draft-complete — 82/82 pages, PDF 7–88** |
 | Visual fidelity audit | not-started |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
@@ -70,4 +72,4 @@ Five source-order transcription batches have now been completed from the rendere
 
 ## Next activity
 
-**Complete canonical Tamil first-pass transcription from PDF 79–88 / logical printed pp.78–87, in source order, with stable page anchors.**
+**Begin the separate visual fidelity audit from PDF 7 / logical printed p.6, comparing the stored first-pass text line by line against the rendered scan and recording corrections or unresolved readings explicitly.**
