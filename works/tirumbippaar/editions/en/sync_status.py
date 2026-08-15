@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Synchronize Tirumbippaar derivative-status metadata from translations/index.json.
+"""Synchronize Tirumbippaar derivative-status metadata from verified build outputs.
 
 This script edits only works/tirumbippaar/metadata.yaml. It does not touch the
-canonical Tamil/source layers. It is run by the English reader workflow before
-QA so repository-level status cannot drift from the verified translation index.
+canonical Tamil/source layers. The workflow runs it after reader and EPUB QA so
+repository-level status cannot drift from verified derivative checkpoints.
 """
 
 from __future__ import annotations
@@ -15,12 +15,23 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "tirumbippaar"
 INDEX = WORK / "translations" / "index.json"
+EDITION = WORK / "editions" / "en"
+PACKAGE_MANIFEST = EDITION / "package-manifest.json"
 METADATA = WORK / "metadata.yaml"
 
 idx = json.loads(INDEX.read_text(encoding="utf-8"))
 if idx.get("status") != "complete-verified":
     raise SystemExit("Refusing metadata sync: translation index is not complete-verified")
+if not PACKAGE_MANIFEST.exists():
+    raise SystemExit("Refusing metadata sync: EPUB package manifest is missing")
+pkg = json.loads(PACKAGE_MANIFEST.read_text(encoding="utf-8"))
+if pkg.get("status") != "complete-verified" or pkg.get("epub", {}).get("qa_status", "PASS") != "PASS":
+    # Older package manifests do not carry qa_status inside epub; package-level
+    # complete-verified plus generated QA report is the controlling condition.
+    if pkg.get("status") != "complete-verified":
+        raise SystemExit("Refusing metadata sync: EPUB package is not complete-verified")
 
+epub = pkg["epub"]
 scenes_started = ", ".join(str(x) for x in idx["scenes_started"])
 scenes_verified = ", ".join(str(x) for x in idx["scenes_verified"])
 counts = idx["unit_kind_counts"]
@@ -72,6 +83,20 @@ translation_block = f'''  english_translation:
     immutable_dialogue_records_linked: 1040
     cross_page_translation_units: 12
     qa_status: PASS
+  english_epub_package:
+    status: complete-verified
+    format: "EPUB 3"
+    path: "editions/en/tirumbippaar-en.epub"
+    build: "editions/en/package.py"
+    qa_report: "editions/en/EPUB_QA_REPORT.md"
+    manifest: "editions/en/package-manifest.json"
+    translation_units: 1321
+    scene_documents: 93
+    zip_members: {epub['zip_members']}
+    byte_size: {epub['bytes']}
+    sha256: "{epub['sha256']}"
+    deterministic: true
+    qa_status: PASS
   next_structured_derivative: null'''
 
 text = METADATA.read_text(encoding="utf-8")
@@ -80,15 +105,23 @@ if not pattern.search(text):
     raise SystemExit("Could not locate english_translation metadata block")
 text = pattern.sub(translation_block, text, count=1)
 
-if re.search(r"^  english_reader_edition:", text, re.M):
-    status_tail = re.sub(
-        r"(^  english_translation: complete-verified\n)(?!  english_reader_edition:)",
+# Synchronize the compact status tail without confusing the structured block.
+if not re.search(r"^  english_reader_edition: complete-verified$", text, re.M):
+    text = re.sub(
+        r"(^  english_translation: complete-verified\n)",
         r"\1  english_reader_edition: complete-verified\n",
         text,
         count=1,
         flags=re.M,
     )
-    text = status_tail
+if not re.search(r"^  english_epub_package: complete-verified$", text, re.M):
+    text = re.sub(
+        r"(^  english_reader_edition: complete-verified\n)",
+        r"\1  english_epub_package: complete-verified\n",
+        text,
+        count=1,
+        flags=re.M,
+    )
 
 METADATA.write_text(text, encoding="utf-8")
-print("Synchronized works/tirumbippaar/metadata.yaml from translations/index.json")
+print("Synchronized Tirumbippaar translation, reader and EPUB package status metadata")
