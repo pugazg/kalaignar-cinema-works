@@ -1,0 +1,45 @@
+{
+  "work_id": "tirumbippaar",
+  "target_language": "en",
+  "canonical_scene": 3,
+  "scene_status": "verified",
+  "unit_count": 4,
+  "units": [
+    {
+      "id": "tirumbippaar-en-s003-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 3,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-03.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-03.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-bracketed-stage-direction", "ordinal": 1, "description": "Opening bracketed direction immediately after the canonical scene-3 heading."}, "speaker_label": null, "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
+      "translation": {"english_text": "(After putting down the toothbrush, he mutters to himself.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s003-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 3,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-03.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-03.md", "source_record_id": "tirumbippaar-s003-d001", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
+      "translation": {"english_text": "Love...service...broad beans...", "mode": "prose-faithful", "notes": ["The muttered source turns the preceding three-letter-word rhetoric into comic word association; `அவரைக்காய்` is translated literally as `broad beans` rather than replaced with a new English pun."]}
+    },
+    {
+      "id": "tirumbippaar-en-s003-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 3,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-03.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-03.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Parenthetical between Paranthaman's muttering and his final line."}, "speaker_label": null, "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
+      "translation": {"english_text": "(Angrily he turns the tap and takes a shower. Only after the water falls on him does it become clear that he is bathing without taking off his nightdress.)", "mode": "prose-faithful", "notes": ["The source's English loanword `Nightdress` is translated as ordinary English without adding costume detail."]}
+    },
+    {
+      "id": "tirumbippaar-en-s003-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 3,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-03.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-03.md", "source_record_id": "tirumbippaar-s003-d002", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
+      "translation": {"english_text": "Oh no! This is another nuisance.", "mode": "prose-faithful", "notes": []}
+    }
+  ]
+}
