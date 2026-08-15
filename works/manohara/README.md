@@ -40,15 +40,16 @@ The scan also contains an extended play-within-the-play sequence, several explic
 
 ## Canonical Tamil first-pass checkpoint
 
-Two source-order transcription batches have now been completed from the rendered scan:
+Three source-order transcription batches have now been completed from the rendered scan:
 
 - `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 draft pages**;
 - `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 draft pages**;
-- cumulative coverage: **36/82** canonical pages;
-- current page status: **36 draft / 0 verified / 0 review**;
+- `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 draft pages**;
+- cumulative coverage: **48/82** canonical pages;
+- current page status: **48 draft / 0 verified / 0 review**;
 - the PDF 32 `“சிங்காரப் பைங்கிளியே... பேசு”` performance reference, PDF 37 `“பொழுது புலர்ந்தது” பாட்டு`, and PDF 41 `வசந்த விழாக் கொண்டாட்டம். பாட்டுகள்...` remain in their source positions without lyric authorship inference;
-- the source-printed `???` in the PDF 36 Manoharan speech is retained rather than silently repaired;
-- next first-pass page: PDF **43** / logical printed p. **42**.
+- the PDF 43–54 batch preserves the source's unnumbered transitions, typographical irregularities and extended royal-court confrontation in page order rather than imposing a derivative scene structure;
+- next first-pass page: PDF **55** / logical printed p. **54**.
 
 `draft` means first-pass source transcription only. A separate visual fidelity audit is still required before any page becomes `verified` and before structured derivatives are unlocked.
 
@@ -59,7 +60,7 @@ Two source-order transcription batches have now been completed from the rendered
 | Source intake | complete |
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
-| Canonical Tamil transcription | draft — 36/82 pages, PDF 7–42 |
+| Canonical Tamil transcription | draft — 48/82 pages, PDF 7–54 |
 | Visual fidelity audit | not-started |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
@@ -68,4 +69,4 @@ Two source-order transcription batches have now been completed from the rendered
 
 ## Next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 43 / logical printed p.42, in source order, with stable page anchors.**
+**Continue canonical Tamil first-pass transcription from PDF 55 / logical printed p.54, in source order, with stable page anchors.**
