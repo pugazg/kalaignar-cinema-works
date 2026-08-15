@@ -33,6 +33,26 @@ Final EPUB checkpoint:
 - `mimetype` first, exact and uncompressed: **verified**;
 - TOC, OPF manifest and spine coverage: **verified**.
 
+## Primary public reading target
+
+The intended public destination for **திரும்பிப்பார்!** is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**.
+
+The Reading Room, rather than a new print-ready PDF, should be treated as the primary publication surface for this work. Future downstream activity should therefore prioritize preparing these verified records for web integration.
+
+Recommended Reading Room presentation:
+
+- collection title: **`திரும்பிப்பார்!`**;
+- description: screenplay / story-dialogue booklet;
+- verified scope: **93 scenes · 104 printed pages**;
+- navigation: by **scene**, not by artificial chapters;
+- language access: Tamil source text and verified English derivative where available;
+- search: scene text, dialogue and full-text content;
+- source-linked metadata should remain available behind the presentation so reader text stays traceable to the archive.
+
+The preferred web data source is the structured verified repository data (`translations/`, `scenes/`, `dialogues/` and reader JSON as appropriate), not OCR or scraped generated HTML. Search indexes, collection cards, filters and language controls are presentation derivatives and must not modify canonical Tamil, exact speaker labels, dialogue IDs, page provenance, scene order or verified translation text.
+
+Do **not** create an additional print-ready PDF or another standalone publication package unless it is explicitly requested for a separate purpose. The existing EPUB may remain as a reproducible archival/publication artifact, but it is not the primary public reading destination.
+
 ## Build and QA
 
 Run from the repository root:
