@@ -58,7 +58,7 @@ The second screenplay is being archived from `TVA_BOK_0014652_திரும்
 - song authorship mapping: **3 verified occurrences / 5 unresolved occurrences**;
 - source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
 - Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
-- English translation: **in-progress — scenes 1–40 verified, 588 source-linked units**.
+- English translation: **in-progress — scenes 1–45 verified, 680 source-linked units**.
 
 Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are fidelity-verified. The final audit corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
 
@@ -68,9 +68,11 @@ The PDF-2 lower imprint remains a documented source crop. Reinspection supports 
 
 The song gate visually checked PDF **1–8** and found no lyricist/song-credit section. The cover `கதை - வசனம்` credit is not treated as song authorship. Item-level external music-catalog evidence is used only for the two exact source-named title matches; unnamed singing references and the scene-29 labour chant remain explicitly unresolved rather than being guessed onto other soundtrack rows.
 
-The English derivative is stored under `works/tirumbippaar/translations/`. Scenes 1–40 now contain **588 verified units: 463 dialogue / 116 stage direction / 5 song-reference / 1 chant / 3 written-text**. Scenes 10, 11, 25 and 26 remain zero-dialogue source scenes represented through their actual non-dialogue structures. Scene 29's labour slogan remains an unattributed chant; scene 31 links only the printed `பாண்டியன் என் சொல்லை` reference and supplies no missing lyrics. Scene 37 preserves the age/horoscope/`போதை` exchanges, while scenes 39–40 retain the source-order satire of privately taking money to stop the strike and then publicly declaring victory. Verified cross-page English units so far are `tirumbippaar-en-s001-u008` and `tirumbippaar-en-s026-u002`.
+The English derivative is stored under `works/tirumbippaar/translations/`. Scenes 1–45 now contain **680 verified units: 529 dialogue / 138 stage direction / 7 song-reference / 1 chant / 5 written-text**. Current cross-page English units are scene 1 PDF 9→10, scene 26 PDF 31→32, scene 41 PDF 52→53 and PDF 56→57, and scene 45 PDF 59→60.
 
-**Next:** translate and verify **scenes 41–45**.
+Scenes 42–43 preserve only the source-visible `கலப்படம்` fragment/reprise and link them to the verified song occurrences; absent lyrics stay absent. Scene 43 correctly remains a zero-dialogue source scene. Scene 44's platform-speech continuation after the Garudan reaction direction stays source-unlabelled in English rather than receiving an invented dialogue-record ID. Scene 45 preserves Usha's medicine metaphor and Pandiyan's `மஞ்சம் / பஞ்சம் / லஞ்சம்` sound-play.
+
+**Next:** translate and verify **scenes 46–50**.
 
 ## Status vocabulary
 
