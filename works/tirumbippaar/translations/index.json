@@ -6,21 +6,17 @@
   "readme": "README.md",
   "record_directory": "records",
   "pilot_scene": 1,
-  "scenes_started": [1, 2, 3, 4, 5],
-  "scenes_reviewed": [1, 2, 3, 4, 5],
-  "scenes_verified": [1, 2, 3, 4, 5],
+  "scenes_started": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "scenes_reviewed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "scenes_verified": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   "scenes_in_review": [],
-  "translation_units": 81,
-  "unit_status_counts": {
-    "draft": 0,
-    "review": 0,
-    "verified": 81
-  },
+  "translation_units": 124,
+  "unit_status_counts": {"draft": 0, "review": 0, "verified": 124},
   "unit_kind_counts": {
-    "dialogue": 64,
-    "stage-direction": 16,
+    "dialogue": 97,
+    "stage-direction": 25,
     "song": 0,
-    "song-reference": 1,
+    "song-reference": 2,
     "chant": 0,
     "written-text": 0
   },
@@ -29,11 +25,14 @@
     {"canonical_scene": 2, "path": "records/scene-02.json", "unit_count": 17, "status": "verified"},
     {"canonical_scene": 3, "path": "records/scene-03.json", "unit_count": 4, "status": "verified"},
     {"canonical_scene": 4, "path": "records/scene-04.json", "unit_count": 18, "status": "verified"},
-    {"canonical_scene": 5, "path": "records/scene-05.json", "unit_count": 32, "status": "verified"}
+    {"canonical_scene": 5, "path": "records/scene-05.json", "unit_count": 32, "status": "verified"},
+    {"canonical_scene": 6, "path": "records/scene-06.json", "unit_count": 17, "status": "verified"},
+    {"canonical_scene": 7, "path": "records/scene-07.json", "unit_count": 15, "status": "verified"},
+    {"canonical_scene": 8, "path": "records/scene-08.json", "unit_count": 6, "status": "verified"},
+    {"canonical_scene": 9, "path": "records/scene-09.json", "unit_count": 4, "status": "verified"},
+    {"canonical_scene": 10, "path": "records/scene-10.json", "unit_count": 1, "status": "verified"}
   ],
-  "cross_page_translation_units": [
-    "tirumbippaar-en-s001-u008"
-  ],
+  "cross_page_translation_units": ["tirumbippaar-en-s001-u008"],
   "source_linked_units_without_dialogue_record": [
     "tirumbippaar-en-s001-u001",
     "tirumbippaar-en-s001-u004",
@@ -52,21 +51,25 @@
     "tirumbippaar-en-s005-u023",
     "tirumbippaar-en-s005-u025",
     "tirumbippaar-en-s005-u026",
-    "tirumbippaar-en-s005-u027"
+    "tirumbippaar-en-s005-u027",
+    "tirumbippaar-en-s006-u001",
+    "tirumbippaar-en-s006-u002",
+    "tirumbippaar-en-s006-u004",
+    "tirumbippaar-en-s007-u001",
+    "tirumbippaar-en-s007-u009",
+    "tirumbippaar-en-s007-u013",
+    "tirumbippaar-en-s008-u002",
+    "tirumbippaar-en-s008-u006",
+    "tirumbippaar-en-s009-u001",
+    "tirumbippaar-en-s010-u001"
   ],
-  "direct_source_unlabelled_dialogue_units": [
-    "tirumbippaar-en-s005-u026"
-  ],
-  "verified_song_reference_occurrences": [
-    "tirumbippaar-song-001"
-  ],
+  "direct_source_unlabelled_dialogue_units": ["tirumbippaar-en-s005-u026"],
+  "verified_song_reference_occurrences": ["tirumbippaar-song-001", "tirumbippaar-song-002"],
+  "zero_dialogue_source_scenes_translated": [10],
   "source_visible_absent_lyrics_rule": "Translate only song titles, fragments or performance references that the verified booklet actually prints. Do not import or reconstruct missing lyrics from external sources.",
-  "completed_batches": [
-    "pilot scene 1",
-    "scenes 2-5"
-  ],
-  "next_batch": "scenes 6-10",
-  "next_activity": "Translate and verify scenes 6-10 in canonical order, preserving immutable dialogue links, source-unlabelled material without invented speakers, song/performance references only to the printed extent, and PDF/printed-page provenance.",
+  "completed_batches": ["pilot scene 1", "scenes 2-5", "scenes 6-10"],
+  "next_batch": "scenes 11-15",
+  "next_activity": "Translate and verify scenes 11-15 in canonical order, preserving immutable dialogue links, source-unlabelled material without invented speakers, song/performance references only to the printed extent, and PDF/printed-page provenance.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
