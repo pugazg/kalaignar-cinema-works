@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription, completed scene derivatives and immutable dialogue records  
 **Target language:** English (`en`)  
-**Status:** **in-progress — scenes 1–20 complete, 253/253 current units verified**
+**Status:** **in-progress — scenes 1–40 complete, 588/588 current units verified**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, expand or overwrite the verified Tamil source.
 
@@ -19,7 +19,7 @@ This directory contains interpretive English derivatives. Nothing here may repai
 3. **Exact Tamil speaker labels stay exact metadata.** Character normalization does not rewrite them.
 4. **Stage directions do not gain action.** Translate only what the verified scene actually supplies.
 5. **Dialogue preserves rhetorical force.** Repetition, questions, code-switching, imagery and political/social rhetoric are not silently flattened.
-6. **Cross-page source units remain one English unit.** Where useful, `english_page_segments` mirrors the canonical source break.
+6. **Cross-page source units remain one English unit.** Where useful, page provenance mirrors the canonical source break.
 7. **Song/performance material is limited to what this booklet prints.** Do not import absent lyrics from audio, web pages, streaming metadata or another booklet.
 8. **Unlabelled source material stays unlabelled.** Direct speech, letters, newspaper blocks, advertisements, chants and other source-visible material must not receive invented speakers or record IDs.
 9. **External authorship metadata is not translation text.** It may identify a song occurrence, but it cannot supply missing Tamil or English lyrics.
@@ -27,35 +27,39 @@ This directory contains interpretive English derivatives. Nothing here may repai
 
 ## Unit kinds
 
-The schema supports `dialogue`, `stage-direction`, `song`, `song-reference`, `chant`, and `written-text` so later scenes can preserve source-visible structures without forcing everything into labelled dialogue.
+The schema supports `dialogue`, `stage-direction`, `song`, `song-reference`, `chant`, and `written-text` so source-visible structures can be preserved without forcing everything into labelled dialogue.
 
 ## Verified coverage
 
-Scenes **1–20** are translated and verified in canonical order.
+Scenes **1–40** are translated and verified in canonical order.
 
 - scenes 1–5 — **81 units**;
 - scenes 6–10 — **43 units**;
 - scenes 11–15 — **63 units**;
 - scenes 16–20 — **66 units**;
-- total — **253 verified / 0 review / 0 draft**.
+- scenes 21–25 — **28 units**;
+- scenes 26–30 — **100 units**;
+- scenes 31–35 — **85 units**;
+- scenes 36–40 — **122 units**;
+- total — **588 verified / 0 review / 0 draft**.
 
-Current kinds: **203 dialogue / 46 stage-direction / 4 song-reference**.
+Current kinds: **463 dialogue / 116 stage-direction / 5 song-reference / 1 chant / 3 written-text**.
 
-The only cross-page English unit so far remains `tirumbippaar-en-s001-u008`, linked to dialogue record `tirumbippaar-s001-d006` across PDF 9→10 / printed pp.1→2.
+Verified cross-page English units so far are `tirumbippaar-en-s001-u008` and `tirumbippaar-en-s026-u002`.
 
-## Source-sensitive cases through scene 20
+## Source-sensitive cases through scene 40
 
-Earlier source-sensitive cases remain documented in their scene records. Scenes 2, 6, 11 and 14 preserve source-visible song/performance references without importing absent lyrics. Scenes 5 and 15 preserve source-unlabelled speech with null speaker metadata. Scene 10 remains a zero-dialogue visual scene.
+Earlier source-sensitive cases remain documented in their scene records. Scenes 2, 6, 11, 14 and 31 preserve only the song/performance material actually printed by the booklet; absent lyrics are never reconstructed. Scenes 5 and 15 preserve source-unlabelled speech with null speaker metadata. Scenes 10, 11, 25 and 26 are zero-dialogue source scenes represented through their actual non-dialogue structures.
 
-Scene 16 preserves the wedding invitation only through its printed cutoff at `தங்கள் சுற்றமும் ....`; the English does not complete the conventional invitation wording. Garudan's interrupted accusation likewise remains unfinished.
+Scene 29 preserves the standalone labour `கோஷம்` as an unattributed chant rather than assigning it to a named character. Scene 30 preserves the source's `பொன்னகை / புன்னகை` wordplay through a translation note rather than silently replacing the Tamil rhetoric.
 
-Scene 17 preserves Paranthaman's elaborate mythological and romantic rhetoric rather than flattening it. Tilottama and Menaka remain named references; `காயகல்பம்` is represented as `kayakalpa`. The source's unusual forms around `குழந்தைக்கார லோகம்`, `குணப்பக்காரன்`, and the printed age expression are not used to alter canonical Tamil.
+Scene 31 translates only the printed reference to `பாண்டியன் என் சொல்லை`; no lyric body is supplied. Scenes 32–33 retain the satire of Paranthaman's pro-worker rhetoric against his treatment and manipulation of workers. Scene 33's `ஆ...மோதிக்கிறேன் / மோதிக்கிட்டேங்க` joke is noted because its sound-play does not transfer literally to English.
 
-Scene 18 keeps the colloquial `அவாள்னா இவாள்னா` generic rather than assigning identities absent from the source. The final report that the bride has run away remains an unlabelled stage action whispered to Punnakodi, not invented dialogue.
+Scene 35 keeps Pandiyan's incomplete poetic utterance incomplete rather than reconstructing the missing syntax.
 
-Scene 19 preserves the exact generic speaker label `பெண்`; the student is not given a name. `அம்மா` is translated as the address `amma` where relationship would otherwise be inferred.
+Scene 36 preserves Poomaal's creeper/plant metaphor for the competing loves without replacing it with an explicit editorial explanation. Scene 37 retains the age, horoscope and `போதை` exchanges, including Punnakodi's final literal drinking retort to Pandiyan's figurative `போதை`. Scene 38 preserves the recurring contest-arena/earthquake imagery and Poomaal's explicit sacrifice of her love for Kumudha.
 
-Scene 20 keeps the book title `வாழு வாழவிடு` visibly connected to its Tamil form through transliteration. Pandiyan's repeated `நானு தவறு செய்யவில்லை` frames his long humiliation speech in English as it does in the source, while the unusual `கள்ளி பொறுத்தி` insult is translated conservatively and explicitly noted rather than silently modernized.
+Scenes 39–40 preserve the political satire in source order: Paranthaman privately accepts money to stop the strike, arranges to buy over Punnakodi, then publicly declares victory and asks the workers to return to work. The English layer does not add motives or commentary beyond what the source makes visible.
 
 No canonical Tamil, scene derivative, dialogue record, character record or song record was modified by this English batch.
 
@@ -65,4 +69,4 @@ The completed song gate found that this booklet does not print a complete lyric 
 
 ## Next activity
 
-Translate and verify **scenes 21–25**. Continue exact dialogue-record linking, direct scene linking for stage/unlabelled material, source-visible performance material only to its printed extent, and page provenance for every unit.
+Translate and verify **scenes 41–45**. Continue exact dialogue-record linking, direct scene linking for stage/unlabelled material, source-visible performance material only to its printed extent, and page provenance for every unit.
