@@ -58,7 +58,7 @@ The second screenplay is being archived from `TVA_BOK_0014652_திரும்
 - song authorship mapping: **3 verified occurrences / 5 unresolved occurrences**;
 - source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
 - Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
-- English translation: **pilot-verified — scene 1, 10/10 source-linked units**.
+- English translation: **in-progress — scenes 1–5 verified, 81 source-linked units**.
 
 Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are fidelity-verified. The final audit corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
 
@@ -68,9 +68,9 @@ The PDF-2 lower imprint remains a documented source crop. Reinspection supports 
 
 The song gate visually checked PDF **1–8** and found no lyricist/song-credit section. The cover `கதை - வசனம்` credit is not treated as song authorship. Item-level external music-catalog evidence is used only for the two exact source-named title matches; unnamed singing references and the scene-29 labour chant remain explicitly unresolved rather than being guessed onto other soundtrack rows.
 
-The English pilot is stored under `works/tirumbippaar/translations/`. Scene 1 contains **8 dialogue + 2 stage-direction units**, all verified and source-linked. The Poomaal utterance that crosses PDF 9→10 remains one translation unit with page-segment provenance. No English text is permitted to repair Tamil or to reconstruct absent song lyrics.
+The English derivative is stored under `works/tirumbippaar/translations/`. Scenes 1–5 now contain **81 verified units: 64 dialogue / 16 stage direction / 1 song-reference**. Scene 2's song material is limited to the printed performance reference; no absent lyrics are supplied. Scene 5 also preserves a source-unlabelled coffee request without inventing a speaker or dialogue-record ID. The scene-1 Poomaal utterance across PDF 9→10 remains one translation unit with page-segment provenance.
 
-**Next:** translate and verify **scenes 2–5** as the first English scale-out batch.
+**Next:** translate and verify **scenes 6–10**.
 
 ## Status vocabulary
 
