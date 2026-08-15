@@ -37,11 +37,11 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - song authorship mapping: **complete — 8 occurrences dispositioned; 3 verified / 5 unresolved**
 - source-named songs with verified item-level authorship: **2**
 - Tamil song derivative files: **0 — no full lyric body for either source-named song is printed in this booklet**
-- English translation: **not-started**
+- English translation: **pilot-verified — scene 1, 10/10 units**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history. Later source corrections discovered during derivative work are recorded separately in `notes/post-fidelity-corrections.md`.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The source-linked English derivative now begins under `translations/` with a fixed schema, progress index and a verified scene-1 pilot.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -67,6 +67,8 @@ The song layer follows an equally strict gate. Visual inspection of PDF **1–8*
 
 No Tamil song-lyric derivative is created from absent text. Scene 31 prints only a named performance reference; scenes 42–43 print/name only `கலப்படம்` material rather than a complete lyric body. The canonical scene files therefore remain the complete source-supported Tamil record for these occurrences.
 
+The English layer follows the same immutability rule. Scene 1 is represented by **10 verified source-linked units**: eight immutable dialogue-record links and two direct scene-linked stage directions. The cross-page Poomaal unit remains one English unit across PDF 9→10, and source repetition is preserved rather than silently smoothed. No translation unit may be used to repair Tamil or to supply absent song lyrics.
+
 ## Exact next activity
 
-Begin **English translation as a separate source-linked derivative layer**. Define a translation schema and create a small verified pilot first. Every English unit must point back to immutable canonical Tamil/source pages, and song/performance references must be translated only to the extent actually printed; absent lyrics must remain absent.
+Translate and verify **scenes 2–5** as the first scale-out English batch. Preserve canonical order and exact Tamil speaker labels as metadata, link every labelled utterance to its immutable dialogue record, retain stage/performance material without invented speakers, mirror genuine cross-page provenance, and keep absent song lyrics absent.
