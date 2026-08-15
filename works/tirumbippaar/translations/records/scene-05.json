@@ -1,0 +1,297 @@
+{
+  "work_id": "tirumbippaar",
+  "target_language": "en",
+  "canonical_scene": 5,
+  "scene_status": "verified",
+  "unit_count": 32,
+  "units": [
+    {
+      "id": "tirumbippaar-en-s005-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-bracketed-stage-direction", "ordinal": 1, "description": "Opening bracketed direction immediately after the canonical scene-5 heading."}, "speaker_label": null, "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "(The sound 'tak, tak' is heard as the publishing house rubber stamp is pressed onto tied parcels and book-post packets.)", "mode": "prose-faithful", "notes": ["The source's sound effect is retained rather than replaced with an invented effect."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d001", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "(To the office boy) Boy...hmm...it's time for the parcels. Go...go. We can send the rest tomorrow.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Standalone parenthetical sound cue after Garudan sends the boy off."}, "speaker_label": null, "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "('Tak, tak'—the stamping sound.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d002", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "Who is it? Come in.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 2, "description": "Standalone parenthetical immediately after Garudan asks the visitor to enter."}, "speaker_label": null, "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "(Pandiyan comes in.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d003", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "Who are you...I feel I've seen you somewhere... (suspiciously)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d004", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாண்டியன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book......", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d005", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "No, no...but the cover says the author is Paranthaman!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d006", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாண்டியன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "What does the printing machine know of the injustice you commit? I am the one who thought and thought, turned all my red blood into sweat, bore the hardship and laboured for many days to write it—wouldn't I know who wrote it?", "mode": "prose-faithful", "notes": ["The source's bodily metaphor is preserved rather than softened."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d007", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Here is Paranthaman.", "mode": "prose-faithful", "notes": ["The terse source `இல்ல பரந்தாமன்` is rendered contextually as an introduction without changing the Tamil record."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d008", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாண்டியன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Who is this Paranthaman?", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d009", "source_occurrence_id": null, "source_locator": null, "speaker_label": "குரு", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Devotee!", "mode": "prose-faithful", "notes": ["The anomalous source speaker label `குரு` is preserved exactly in metadata and is not silently normalized to another character."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d010", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Why are you getting angry? Why are you agitated—what is it Paranthaman was called for? Who is he?", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d011", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Pandiyan...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d012", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Who is he! Pandiyan! The Pandiyan who won the battle of Thalaiyalanganam? Nedunchezhiyan who crossed the Aryan army? You Pandiyan who entered without any weapon of war—who are you, man?", "mode": "prose-faithful", "notes": ["Historical names and epithets are transliterated rather than replaced with explanatory prose."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d013", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாண்டியன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Me? Pandiyan—the true author of Illara Jothi, who came to confront a thief of writing...", "mode": "prose-faithful", "notes": ["The book title `இல்லற ஜோதி` is transliterated as `Illara Jothi`; the accusation `எழுத்துத் திருடன்` is retained as `thief of writing`."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d014", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Hm...hm...hm...you are the author of Illara Jothi? Of the book?...Bravo!...Bravo!...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d015", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாண்டியன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "You took it from me when I was an unpublished writer, committed this dishonesty, and now you laugh to hide it, you thieves. Rather than living by plundering another man's writing, you might as well put a rope around your neck.", "mode": "prose-faithful", "notes": ["The unusual source form around `அச்சியற்றவனாக` is rendered conservatively as `unpublished writer`; no claim beyond the theft accusation is added."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d016", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Won't you leave with some respect!...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d017", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாண்டியன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "Shame...don't speak! (A slap lands on Paranthaman's cheek.) Respect is for those who have honour, not the shameless! How many people like you have set out like this—to live by exploiting someone else's writing?", "mode": "prose-faithful", "notes": ["The embedded slap remains inside the immutable dialogue-linked unit because it is part of that source record."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d018", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பையன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "A lot of them have set out like that...go on, sir,", "mode": "prose-faithful", "notes": ["The source line ends with a comma and is kept open-ended."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d019", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "(To the boy) Shut up, you little upstart...", "mode": "prose-faithful", "notes": ["`முந்திரிக்கொட்டை` is rendered idiomatically as a meddling/upstart child rather than literally as `cashew nut`."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 3, "description": "Standalone action after Garudan rebukes the office boy and before PDF 15."}, "speaker_label": null, "page_provenance": [{"pdf_page": 14, "printed_page": 6}]},
+      "translation": {"english_text": "(Paranthaman, furious, rushes to the table, opens it and takes out a revolver; Garudan stops him.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d020", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "Shh...keep quiet! What will the youngster think afterward...a fine thing you've done...", "mode": "prose-faithful", "notes": ["The colloquial source is retained as an incomplete rebuke rather than regularized into a fuller explanation."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u025",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 4, "description": "Standalone action after Garudan's PDF-15 rebuke and before the unlabelled coffee request."}, "speaker_label": null, "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "(Saying this, he takes the revolver, puts it in the drawer, closes it, and turns to the boy.)", "mode": "prose-faithful", "notes": ["No speaker is inferred for the following source-unlabelled utterance from this action alone."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "source-unlabelled-speech", "ordinal": 1, "description": "Unlabelled spoken line immediately after the revolver is returned to the drawer."}, "speaker_label": null, "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "Hey, boy! Bring another cup of coffee.", "mode": "prose-faithful", "notes": ["The booklet prints this as speech without an explicit speaker label. The English preserves it as unlabelled and does not manufacture a dialogue-record ID or speaker."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u027",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-05.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 5, "description": "Standalone parenthetical after the unlabelled coffee request."}, "speaker_label": null, "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "(The boy leaves.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d021", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "We mustn't let it go...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d022", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "(Grandly) Yes, we mustn't let it go!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d023", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "Hey...the fact that I was slapped must not get outside!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d024", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கருடன்", "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "That's right...I told you even then not to put another man's writing out under your name—you've written the Panjanai book now! Look at the value it has...does Illara Jothi have that? Why get into needless trouble? Ah...letters have come about Panjanai...Who is that ascetic? Can we meet him? Is there a photograph? Is he a born poet or a self-made poet? Does he have a pen in his hand, or a bow in his head? Is there ink in the pen, or only sugarcane juice? That's how they describe you. Nobody describes Illara Jothi that way. Nor does it sell very much.", "mode": "prose-faithful", "notes": ["`பஞ்சண` and `இல்லற ஜோதி` are retained as source book titles in transliteration; the source's extravagant pen/bow/juice imagery is preserved rather than rationalized."]}
+    },
+    {
+      "id": "tirumbippaar-en-s005-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 5,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-05.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-05.md", "source_record_id": "tirumbippaar-s005-d025", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
+      "translation": {"english_text": "Even if it was not a commercial success, Illara Jothi has given me a delightful light.", "mode": "prose-faithful", "notes": ["The source plays on the title word `ஜோதி` (`light`); the English retains the title and its closing semantic echo without inventing a new pun."]}
+    }
+  ]
+}
