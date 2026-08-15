@@ -8,8 +8,9 @@ The canonical Tamil first pass is stored in source-order batches. Every batch is
 | [`part-02-pdf-31-42.md`](part-02-pdf-31-42.md) | 31–42 | 30–41 | 12 | draft |
 | [`part-03-pdf-43-54.md`](part-03-pdf-43-54.md) | 43–54 | 42–53 | 12 | draft |
 | [`part-04-pdf-55-66.md`](part-04-pdf-55-66.md) | 55–66 | 54–65 | 12 | draft |
+| [`part-05-pdf-67-78.md`](part-05-pdf-67-78.md) | 67–78 | 66–77 | 12 | draft |
 
-Current first-pass coverage: **60/82 canonical pages**.  
-Next page: **PDF 67 / logical printed p.66**.
+Current first-pass coverage: **72/82 canonical pages**.  
+Next page: **PDF 79 / logical printed p.78**.
 
 Do not use the OCR layer, film audio, subtitles, web quotations, memory or later editions to silently repair this source layer.
