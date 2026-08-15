@@ -1,0 +1,41 @@
+{
+  "work_id": "tirumbippaar",
+  "status": "complete-with-unresolved-authorship",
+  "schema": "schema.json",
+  "credits": "credits.json",
+  "tracklist_evidence": "tracklist-evidence.json",
+  "inventory": "inventory.json",
+  "candidate_occurrences": 8,
+  "verified_authorship_occurrences": 3,
+  "review_authorship_occurrences": 0,
+  "unresolved_authorship_occurrences": 5,
+  "named_song_occurrences": 3,
+  "distinct_named_songs_mapped": 2,
+  "performance_references_without_printed_lyrics": 5,
+  "standalone_chant_occurrences": 1,
+  "full_lyric_blocks_printed_for_named_songs": 0,
+  "tamil_song_derivative_files_created": 0,
+  "canonical_text_modified_by_external_evidence": false,
+  "late_source_correction": {
+    "pdf_page": 38,
+    "printed_page": 30,
+    "canonical_scene": 31,
+    "previous_reading": "பாண்டியன் என் செல்வம்",
+    "verified_source_reading": "பாண்டியன் என் சொல்லை",
+    "basis": "direct rendered-scan reinspection before authorship mapping; external catalog metadata was not used as the canonical text authority"
+  },
+  "verified_mappings": [
+    {"occurrence": "tirumbippaar-song-006", "title_ta": "பாண்டியன் என் சொல்லை", "lyricist_ta": "பாரதிதாசன்"},
+    {"occurrence": "tirumbippaar-song-007", "title_ta": "கலப்படம் கலப்படம்", "lyricist_ta": "கண்ணதாசன்"},
+    {"occurrence": "tirumbippaar-song-008", "title_ta": "கலப்படம்", "lyricist_ta": "கண்ணதாசன்", "relation": "reprise-of tirumbippaar-song-007"}
+  ],
+  "unresolved_occurrences": [
+    "tirumbippaar-song-001",
+    "tirumbippaar-song-002",
+    "tirumbippaar-song-003",
+    "tirumbippaar-song-004",
+    "tirumbippaar-song-005"
+  ],
+  "song_tamil_derivative_gate": "No full lyric body for either source-named soundtrack song is printed in this booklet. Do not import lyrics from the catalog, audio, web pages or another song booklet. The unnamed performance references remain unresolved and the labour chant remains a canonical scene structure rather than being asserted as a soundtrack composition.",
+  "next_activity": "Begin English translation as a separate source-linked derivative layer, starting with a schema and a small verified pilot. Song/performance references must be translated only to the extent printed in the canonical scene text; do not supply absent lyrics."
+}
