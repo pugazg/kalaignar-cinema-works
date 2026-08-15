@@ -10,18 +10,19 @@ The canonical source-order transcription is stored in archival batch files. The 
 ## Batch index
 
 1. [`parts/part-01-pdf-7-30.md`](parts/part-01-pdf-7-30.md) — PDF **7–30** / logical printed pp. **6–29** — **24 pages, draft first pass**.
+2. [`parts/part-02-pdf-31-42.md`](parts/part-02-pdf-31-42.md) — PDF **31–42** / logical printed pp. **30–41** — **12 pages, draft first pass**.
 
 ## Current state
 
 - Canonical screenplay/dialogue range: PDF **7–88** / logical printed pp. **6–87** — **82 pages**.
-- First-pass transcription: **24/82 pages complete**.
-- First-pass through: PDF **30** / logical printed p. **29**.
-- Remaining first-pass pages: **58**.
-- Draft pages: **24**.
+- First-pass transcription: **36/82 pages complete**.
+- First-pass through: PDF **42** / logical printed p. **41**.
+- Remaining first-pass pages: **46**.
+- Draft pages: **36**.
 - Fidelity-verified pages: **0**.
 - Visual fidelity audit: **not-started**.
-- Next first-pass page: PDF **31** / logical printed p. **30**.
+- Next first-pass page: PDF **43** / logical printed p. **42**.
 
 The PDF 7 opening folio is suppressed in the source; its page anchor records `printed-logical=6` rather than pretending a numeral is visibly printed. Subsequent anchors follow the continuous interior pagination.
 
-**Next:** continue the source-order first pass from PDF **31**. Do not begin scene/dialogue/character/song/translation derivatives before the full Tamil source layer has completed the later visual fidelity gate.
+**Next:** continue the source-order first pass from PDF **43**. Do not begin scene/dialogue/character/song/translation derivatives before the full Tamil source layer has completed the later visual fidelity gate.
