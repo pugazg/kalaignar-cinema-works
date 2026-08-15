@@ -454,5 +454,44 @@
       80
     ],
     "tamil_first_pass_missing_page_anchor_repair_status": "restored-verified"
+  },
+  {
+    "id": "manohara",
+    "title_ta": "மனோகரா",
+    "source_title_ta": "மனோகரா",
+    "work_type": "film",
+    "source_identifier": "TVA_BOK_0010102",
+    "source_pdf_pages": 90,
+    "source_sha256": "87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9",
+    "publication_year_as_printed": 1954,
+    "edition_statement_as_printed": "முதற்பதிப்பு : பிப்ரவரி 1954.",
+    "main_text_pdf_pages": "7-88",
+    "main_text_logical_printed_pages": "6-87",
+    "structural_mapping": "verified",
+    "source_numbered_scene_headings": false,
+    "source_numbered_scene_count": null,
+    "transition_heading_audit_path": "works/manohara/notes/scene-heading-audit.md",
+    "performance_song_candidate_pdf_pages": [
+      9,
+      16,
+      30,
+      32,
+      37,
+      41
+    ],
+    "tamil_transcription": "not-started",
+    "tamil_first_pass_complete": false,
+    "tamil_fidelity_audit": "not-started",
+    "structured_derivatives": {
+      "scene_text_derivatives": "blocked",
+      "dialogue_index": "blocked",
+      "character_index": "blocked",
+      "song_authorship_mapping": "blocked",
+      "song_tamil_derivatives": "blocked",
+      "english_translation": "blocked",
+      "reader_export": "blocked",
+      "reading_room_integration": "blocked"
+    },
+    "next_action": "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
   }
 ]
