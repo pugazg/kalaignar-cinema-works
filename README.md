@@ -58,7 +58,7 @@ The second screenplay is being archived from `TVA_BOK_0014652_திரும்
 - song authorship mapping: **3 verified occurrences / 5 unresolved occurrences**;
 - source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
 - Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
-- English translation: **in-progress — scenes 1–10 verified, 124 source-linked units**.
+- English translation: **in-progress — scenes 1–15 verified, 187 source-linked units**.
 
 Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are fidelity-verified. The final audit corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
 
@@ -68,9 +68,9 @@ The PDF-2 lower imprint remains a documented source crop. Reinspection supports 
 
 The song gate visually checked PDF **1–8** and found no lyricist/song-credit section. The cover `கதை - வசனம்` credit is not treated as song authorship. Item-level external music-catalog evidence is used only for the two exact source-named title matches; unnamed singing references and the scene-29 labour chant remain explicitly unresolved rather than being guessed onto other soundtrack rows.
 
-The English derivative is stored under `works/tirumbippaar/translations/`. Scenes 1–10 now contain **124 verified units: 97 dialogue / 25 stage direction / 2 song-reference**. Scene 6's opening is limited to the printed fact that Bama's song has ended; no title or absent lyrics are supplied. Scene 10 contains no dialogue and is represented by its source-visible transformation of tears into a waterfall and river. Scene 5's source-unlabelled coffee request remains unlabelled in metadata. The scene-1 Poomaal utterance across PDF 9→10 remains one translation unit with page-segment provenance.
+The English derivative is stored under `works/tirumbippaar/translations/`. Scenes 1–15 now contain **187 verified units: 147 dialogue / 36 stage direction / 4 song-reference**. Scene 11 is a zero-dialogue source scene whose boat movement and source-only singing reference remain separate unlabelled units. Scene 14 links only the printed stage-song reference; absent lyrics stay absent. Scene 15 preserves its source-unlabelled pocket/laundry line with a null speaker and no invented dialogue-record ID. The scene-1 Poomaal utterance across PDF 9→10 remains the only cross-page English translation unit so far.
 
-**Next:** translate and verify **scenes 11–15**.
+**Next:** translate and verify **scenes 16–20**.
 
 ## Status vocabulary
 
