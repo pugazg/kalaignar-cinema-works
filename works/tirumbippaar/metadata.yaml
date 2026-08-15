@@ -98,6 +98,8 @@ transcription_progress:
   first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan and have now completed fidelity verification."
   first_pass_missing_page_anchor_repaired_pdf_pages: [80]
   first_pass_missing_page_anchor_repair_note: "During the PDF 54-83 audit, the stored first pass was found to contain PDF 80 text without an explicit page anchor. The PDF 79/80 source boundary was restored from the scan before verification."
+  post_fidelity_correction_pdf_pages: [38]
+  post_fidelity_correction_note: "During the song-authorship gate, direct reinspection of PDF 38 / printed p.30 corrected scene 31's song title from the earlier `பாண்டியன் என் செல்வம்` misreading to scan-visible `பாண்டியன் என் சொல்லை`. The correction is recorded in notes/post-fidelity-corrections.md and was made from the scan, not external metadata."
   draft_pages: 0
   verified_pages: 104
   review_pages: 0
@@ -105,7 +107,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Begin the per-song authorship mapping gate using source-supported booklet credits and verified song/performance blocks."
+  next_action: "Begin English translation as a separate source-linked derivative layer, starting with a schema and a small verified pilot."
 
 fidelity_audit:
   status: complete
@@ -121,6 +123,7 @@ fidelity_audit:
   next_pdf_page: null
   next_printed_page: null
   ledger_path: "notes/fidelity-audit.md"
+  post_fidelity_corrections_path: "notes/post-fidelity-corrections.md"
 
 structured_derivatives:
   scene_index:
@@ -146,7 +149,7 @@ structured_derivatives:
       - "scenes 81-93"
     cross_part_scenes: [5, 29, 48, 76]
     next_batch: null
-    note: "All 93 scene-text derivatives are complete. Scene 5 crosses part-01/part-02; scene 29 crosses part-02/part-03; scene 48 crosses part-03/part-04; scene 76 crosses part-04/part-05. During dialogue batch 41-50, scene 41 was repaired against the already-verified Part 03 canonical transcription to restore the canonical opening exchange and omitted PDF 54 page anchor; no canonical transcription was changed."
+    note: "All 93 scene-text derivatives are complete. Scene 5 crosses part-01/part-02; scene 29 crosses part-02/part-03; scene 48 crosses part-03/part-04; scene 76 crosses part-04/part-05. During dialogue batch 41-50, scene 41 was repaired against the already-verified Part 03 canonical transcription to restore the canonical opening exchange and omitted PDF 54 page anchor; no canonical transcription was changed. Scene 31 was later corrected from `பாண்டியன் என் செல்வம்` to scan-visible `பாண்டியன் என் சொல்லை` during the song-authorship gate, with the canonical part-03 transcription corrected in parallel."
   dialogue_index:
     status: complete
     path: "dialogues/index.json"
@@ -275,10 +278,24 @@ structured_derivatives:
     label_coverage: "45/45"
     dialogue_records_modified: false
     note: "Every exact speaker label has one explicit disposition. `குணமணி`/`குண்டுமணி` are source-supported variants of the same household-helper character. Scene 79 `அவன் குரல்` maps to Pandiyan. Reused `குரல்`, generic `பையன்`, unnamed worker labels, police labels and Echo remain role/collective categories rather than being falsely merged into named characters."
-  song_authorship_mapping: not-started
+  song_authorship_mapping:
+    status: complete
+    path: "songs/index.json"
+    schema: "songs/schema.json"
+    readme: "songs/README.md"
+    credits: "songs/credits.json"
+    tracklist_evidence: "songs/tracklist-evidence.json"
+    inventory: "songs/inventory.json"
+    candidate_occurrences: 8
+    verified_authorship_occurrences: 3
+    review_authorship_occurrences: 0
+    unresolved_authorship_occurrences: 5
+    distinct_named_songs_mapped: 2
+    full_lyric_blocks_printed_for_named_songs: 0
+    note: "PDF 1-8 contains no song-credit heading or lyricist list; the cover `கதை - வசனம்` credit is not treated as lyric authorship. Exact source-named matches establish `பாண்டியன் என் சொல்லை` → பாரதிதாசன் and `கலப்படம்` → கண்ணதாசன் from separately documented item-level public music-catalog evidence. Unnamed singing references and the scene-29 labour chant remain unresolved rather than being guessed onto other soundtrack rows."
   song_tamil_derivatives: not-started
   english_translation: not-started
-  next_structured_derivative: song-authorship-mapping
+  next_structured_derivative: english-translation
 
 status:
   source_intake: complete
@@ -289,6 +306,6 @@ status:
   scene_text_derivatives: complete
   dialogue_index: complete
   character_index: complete
-  song_authorship_mapping: not-started
+  song_authorship_mapping: complete
   song_tamil_derivatives: not-started
   english_translation: not-started
