@@ -2,6 +2,14 @@
 
 This repository treats a scanned primary source as the controlling object. The workflow is designed so that a later researcher can reconstruct exactly how a transcription or derivative file relates to the scan.
 
+For **Kalaignar cinema works**, this document is the baseline workflow. New-work onboarding must also read and follow:
+
+- `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` — detailed reusable cinema-work processing rules;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` — mature project-level handover and lessons learned;
+- `docs/START_NEW_CINEMA_WORK_PROMPT.md` — copy-paste starter prompt for a newly supplied cinema source.
+
+A work-specific guide may add stricter requirements, but it must not weaken the source-authority rules below.
+
 ## 1. Source intake
 
 For every source:
