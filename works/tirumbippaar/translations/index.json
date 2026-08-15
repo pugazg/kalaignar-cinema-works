@@ -1,47 +1,72 @@
 {
   "work_id": "tirumbippaar",
   "target_language": "en",
-  "status": "pilot-verified",
+  "status": "in-progress",
   "schema": "schema.json",
   "readme": "README.md",
   "record_directory": "records",
   "pilot_scene": 1,
-  "scenes_started": [1],
-  "scenes_reviewed": [1],
-  "scenes_verified": [1],
+  "scenes_started": [1, 2, 3, 4, 5],
+  "scenes_reviewed": [1, 2, 3, 4, 5],
+  "scenes_verified": [1, 2, 3, 4, 5],
   "scenes_in_review": [],
-  "translation_units": 10,
+  "translation_units": 81,
   "unit_status_counts": {
     "draft": 0,
     "review": 0,
-    "verified": 10
+    "verified": 81
   },
   "unit_kind_counts": {
-    "dialogue": 8,
-    "stage-direction": 2,
+    "dialogue": 64,
+    "stage-direction": 16,
     "song": 0,
-    "song-reference": 0,
+    "song-reference": 1,
     "chant": 0,
     "written-text": 0
   },
   "scene_records": [
-    {
-      "canonical_scene": 1,
-      "path": "records/scene-01.json",
-      "unit_count": 10,
-      "status": "verified"
-    }
+    {"canonical_scene": 1, "path": "records/scene-01.json", "unit_count": 10, "status": "verified"},
+    {"canonical_scene": 2, "path": "records/scene-02.json", "unit_count": 17, "status": "verified"},
+    {"canonical_scene": 3, "path": "records/scene-03.json", "unit_count": 4, "status": "verified"},
+    {"canonical_scene": 4, "path": "records/scene-04.json", "unit_count": 18, "status": "verified"},
+    {"canonical_scene": 5, "path": "records/scene-05.json", "unit_count": 32, "status": "verified"}
   ],
   "cross_page_translation_units": [
     "tirumbippaar-en-s001-u008"
   ],
   "source_linked_units_without_dialogue_record": [
     "tirumbippaar-en-s001-u001",
-    "tirumbippaar-en-s001-u004"
+    "tirumbippaar-en-s001-u004",
+    "tirumbippaar-en-s002-u001",
+    "tirumbippaar-en-s002-u003",
+    "tirumbippaar-en-s002-u015",
+    "tirumbippaar-en-s002-u017",
+    "tirumbippaar-en-s003-u001",
+    "tirumbippaar-en-s003-u003",
+    "tirumbippaar-en-s004-u001",
+    "tirumbippaar-en-s004-u010",
+    "tirumbippaar-en-s004-u014",
+    "tirumbippaar-en-s005-u001",
+    "tirumbippaar-en-s005-u003",
+    "tirumbippaar-en-s005-u005",
+    "tirumbippaar-en-s005-u023",
+    "tirumbippaar-en-s005-u025",
+    "tirumbippaar-en-s005-u026",
+    "tirumbippaar-en-s005-u027"
+  ],
+  "direct_source_unlabelled_dialogue_units": [
+    "tirumbippaar-en-s005-u026"
+  ],
+  "verified_song_reference_occurrences": [
+    "tirumbippaar-song-001"
   ],
   "source_visible_absent_lyrics_rule": "Translate only song titles, fragments or performance references that the verified booklet actually prints. Do not import or reconstruct missing lyrics from external sources.",
-  "next_batch": "scenes 2-5",
-  "next_activity": "Translate and verify scenes 2-5 in canonical order, preserving immutable dialogue links, stage directions, source-visible performance material and page provenance.",
+  "completed_batches": [
+    "pilot scene 1",
+    "scenes 2-5"
+  ],
+  "next_batch": "scenes 6-10",
+  "next_activity": "Translate and verify scenes 6-10 in canonical order, preserving immutable dialogue links, source-unlabelled material without invented speakers, song/performance references only to the printed extent, and PDF/printed-page provenance.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
