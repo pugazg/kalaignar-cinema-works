@@ -12,6 +12,7 @@ on:
       - "works/tirumbippaar/songs/inventory.json"
       - "works/tirumbippaar/scenes/**"
       - "works/tirumbippaar/editions/en/build.py"
+      - "works/tirumbippaar/editions/en/audit_probe.py"
       - ".github/workflows/tirumbippaar-english-edition.yml"
 
 permissions:
@@ -31,6 +32,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Run reader preflight diagnostics
+        run: python works/tirumbippaar/editions/en/audit_probe.py
 
       - name: Run whole-work QA and build reader derivatives
         run: python works/tirumbippaar/editions/en/build.py
