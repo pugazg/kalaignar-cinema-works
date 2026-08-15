@@ -8,7 +8,7 @@ This directory contains interpretive English derivatives. Nothing here repairs, 
 
 ## Files
 
-- `schema.json` — source-linked translation-unit schema.
+- `schema.json` — schema for the 93 scene-sharded source-linked translation records; it supports both the richer early units and the later compact units.
 - `index.json` — completed translation / integrity checkpoint.
 - `records/scene-XX.json` — 93 scene-sharded English translation records.
 
@@ -97,6 +97,7 @@ The completion audit reconciled scene records against the immutable dialogue lay
 
 - **93/93** scene translation files are present and verified.
 - **1,040/1,040** labelled source dialogue records are linked.
+- `schema.json` now describes the actual scene-sharded record architecture instead of the earlier unit-only shape, while accepting the richer provenance fields retained by the pilot/early records and the compact source fields used later.
 - Scene 31's former placeholder song link was replaced by exact occurrence `tirumbippaar-song-006`.
 - Scene 57 was repaired so all **50** labelled dialogue records are individually represented; its previously collapsed final confrontation is now fully source-linked.
 - Star-only separators were removed from the derivative wherever they had been represented as synthetic `(Scene ends.)` units.
