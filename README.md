@@ -25,6 +25,29 @@ For every newly supplied Kalaignar cinema source, use these project-level docume
 
 The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful.
 
+## மனோகரா status
+
+The new source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake and structural-mapping gate.
+
+- source title: **`மனோகரா`**;
+- printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
+- explicit edition statement: **`முதற்பதிப்பு : பிப்ரவரி 1954.`**;
+- scan: **90 PDF pages**;
+- source SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`;
+- `நாடகக் கதை`: PDF **4–5**;
+- `முன்னுரை`: PDF **6**;
+- main screenplay/dialogue: PDF **7–88 / logical printed pp.6–87**;
+- back matter: PDF **89–90**;
+- source-numbered scene headings: **none printed** — no scene count has been invented;
+- structural mapping: **verified**;
+- transition-heading audit: **complete for intake/mapping**;
+- canonical Tamil transcription: **not-started**;
+- later structured derivatives and translation: **blocked until Tamil verification**.
+
+Source-visible structural candidates include an embedded play-within-the-play, song/performance references, a war-proclamation/chant-like passage and a separately printed letter. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+
+**Next:** Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.
+
 ## Parasakthi status
 
 The canonical Tamil covers PDF **4–57 / printed pp.3–56** and is fully verified at **54/54 pages**. PDF 58 is back matter.
