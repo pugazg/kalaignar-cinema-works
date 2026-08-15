@@ -479,8 +479,21 @@
       37,
       41
     ],
-    "tamil_transcription": "not-started",
+    "tamil_transcription": "draft",
     "tamil_first_pass_complete": false,
+    "tamil_transcription_through_pdf_page": 66,
+    "tamil_transcription_through_logical_printed_page": 65,
+    "tamil_transcription_draft_pages": 60,
+    "tamil_transcription_verified_pages": 0,
+    "tamil_transcription_review_pages": 0,
+    "tamil_transcription_part_paths": [
+      "works/manohara/transcription/parts/part-01-pdf-7-30.md",
+      "works/manohara/transcription/parts/part-02-pdf-31-42.md",
+      "works/manohara/transcription/parts/part-03-pdf-43-54.md",
+      "works/manohara/transcription/parts/part-04-pdf-55-66.md"
+    ],
+    "tamil_transcription_next_pdf_page": 67,
+    "tamil_transcription_next_logical_printed_page": 66,
     "tamil_fidelity_audit": "not-started",
     "structured_derivatives": {
       "scene_text_derivatives": "blocked",
@@ -492,6 +505,6 @@
       "reader_export": "blocked",
       "reading_room_integration": "blocked"
     },
-    "next_action": "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
+    "next_action": "Continue canonical Tamil first-pass transcription from PDF 67 / logical printed p.66, in source order, with stable page anchors."
   }
 ]
