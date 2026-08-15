@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-BUILD_VERSION = 3
+BUILD_VERSION = 4
 ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "tirumbippaar"
 TRANSLATIONS = WORK / "translations"
@@ -63,7 +63,7 @@ def sha256(data: bytes) -> str:
 def aggregate_sha256(paths: list[Path]) -> str:
     digest = hashlib.sha256()
     for path in sorted(set(paths), key=lambda p: p.as_posix()):
-        digest.update(path.relative_to(ROOT).as_posix().encode())
+        digest.update(path.relative_to(ROOT).as_posix().encode("utf-8"))
         digest.update(b"\0")
         digest.update(path.read_bytes())
         digest.update(b"\0")
@@ -71,24 +71,23 @@ def aggregate_sha256(paths: list[Path]) -> str:
 
 
 def collect_ids(node: Any) -> set[str]:
-    out: set[str] = set()
+    result: set[str] = set()
     if isinstance(node, dict):
         if isinstance(node.get("id"), str):
-            out.add(node["id"])
+            result.add(node["id"])
         for value in node.values():
-            out |= collect_ids(value)
+            result.update(collect_ids(value))
     elif isinstance(node, list):
         for value in node:
-            out |= collect_ids(value)
-    return out
+            result.update(collect_ids(value))
+    return result
 
 
 def translation_payload(unit: dict[str, Any]) -> tuple[str, list[str] | None]:
     translation = unit.get("translation")
     ensure(isinstance(translation, dict), f"{unit.get('id')} has malformed translation")
-    text = translation.get("english_text")
-    lines = translation.get("english_lines")
-    ensure((isinstance(text, str)) ^ (isinstance(lines, list)), f"{unit.get('id')} must have exactly one English payload")
+    text, lines = translation.get("english_text"), translation.get("english_lines")
+    ensure(isinstance(text, str) ^ isinstance(lines, list), f"{unit.get('id')} must have exactly one English payload")
     if isinstance(text, str):
         ensure(bool(text.strip()), f"{unit.get('id')} has empty English text")
         return text, None
@@ -115,25 +114,17 @@ def dialogue_records(scene: int) -> list[dict[str, Any]]:
 
 def render_markdown(records: list[dict[str, Any]]) -> str:
     out = [
-        "# Tirumbippaar! — English Reader Edition",
-        "",
+        "# Tirumbippaar! — English Reader Edition", "",
         "**Tamil title:** திரும்பிப்பார்!  ",
         "**Status:** complete-verified source-linked English derivative  ",
         "**English authority:** `works/tirumbippaar/translations/records/`  ",
-        f"**Source scan SHA-256:** `{SOURCE_SHA256}`",
-        "",
-        f"> Editorial note: This edition concatenates the {EXPECTED_UNITS:,} verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled. Structural stars are not converted into invented prose.",
-        "",
-        "## Contents",
-        "",
-        *[f"- [Scene {scene}](#scene-{scene})" for scene in SCENES],
-        "",
-        "---",
-        "",
+        f"**Source scan SHA-256:** `{SOURCE_SHA256}`", "",
+        f"> Editorial note: This edition concatenates the {EXPECTED_UNITS:,} verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled. Structural stars are not converted into invented prose.", "",
+        "## Contents", "",
+        *[f"- [Scene {scene}](#scene-{scene})" for scene in SCENES], "", "---", "",
     ]
     for record in records:
-        scene = record["canonical_scene"]
-        out += [f"## Scene {scene}", ""]
+        out.extend([f"## Scene {record['canonical_scene']}", ""])
         for unit in record["units"]:
             uid, kind, source = unit["id"], unit["kind"], unit["source"]
             text, lines = translation_payload(unit)
@@ -147,12 +138,8 @@ def render_markdown(records: list[dict[str, Any]]) -> str:
             else:
                 label = {"song":"Song","song-reference":"Song / performance reference","chant":"Chant","written-text":"Written text"}[kind]
                 out.append(f"*{label}*  ")
-                if lines:
-                    out.extend(f"> {line}  " for line in lines)
-                else:
-                    out.append(f"> {text}")
-                out.append("")
-        out += ["---", ""]
+                out.extend([*(f"> {line}  " for line in lines), ""] if lines else [f"> {text}", ""])
+        out.extend(["---", ""])
     return "\n".join(out).rstrip() + "\n"
 
 
@@ -181,13 +168,8 @@ def render_html(records: list[dict[str, Any]]) -> str:
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tirumbippaar! — English Reader Edition</title>
-<style>
-body{{font-family:ui-serif,Georgia,"Times New Roman",serif;max-width:56rem;margin:auto;padding:2rem 1.25rem 5rem;line-height:1.65}}nav{{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0}}.scene{{border-top:1px solid;margin-top:2.5rem;padding-top:1rem}}.dialogue{{display:grid;grid-template-columns:minmax(5rem,8rem) 1fr;gap:.75rem}}.dialogue:not(:has(.speaker)){{display:block}}.speaker{{font-weight:700}}.stage{{font-style:italic}}.special{{margin:1rem 0 1rem 1rem;border-left:2px solid;padding-left:1rem}}@media(max-width:36rem){{.dialogue{{display:block}}.speaker{{display:block}}}}@media print{{nav,.back{{display:none}}.scene{{break-before:page}}}}
-</style></head><body>
-<h1>Tirumbippaar! — English Reader Edition</h1><p><strong>Tamil title:</strong> திரும்பிப்பார்!</p>
-<p><strong>Status:</strong> complete-verified source-linked English derivative</p>
-<p>This edition concatenates the {EXPECTED_UNITS:,} verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled.</p>
-<h2 id="contents">Contents</h2><nav>{nav}</nav>{''.join(sections)}</body></html>\n'''
+<style>body{{font-family:ui-serif,Georgia,"Times New Roman",serif;max-width:56rem;margin:auto;padding:2rem 1.25rem 5rem;line-height:1.65}}nav{{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0}}.scene{{border-top:1px solid;margin-top:2.5rem;padding-top:1rem}}.dialogue{{display:grid;grid-template-columns:minmax(5rem,8rem) 1fr;gap:.75rem}}.dialogue:not(:has(.speaker)){{display:block}}.speaker{{font-weight:700}}.stage{{font-style:italic}}.special{{margin:1rem 0 1rem 1rem;border-left:2px solid;padding-left:1rem}}@media(max-width:36rem){{.dialogue{{display:block}}.speaker{{display:block}}}}@media print{{nav,.back{{display:none}}.scene{{break-before:page}}}}</style>
+</head><body><h1>Tirumbippaar! — English Reader Edition</h1><p><strong>Tamil title:</strong> திரும்பிப்பார்!</p><p><strong>Status:</strong> complete-verified source-linked English derivative</p><p>This edition concatenates the {EXPECTED_UNITS:,} verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled.</p><h2 id="contents">Contents</h2><nav>{nav}</nav>{''.join(sections)}</body></html>\n'''
 
 
 def main() -> int:
@@ -287,8 +269,9 @@ def main() -> int:
             if segments is not None:
                 ensure([(x.get("pdf_page"),x.get("printed_page")) for x in segments] == [(x["pdf_page"],x["printed_page"]) for x in provenance], f"English page segments mismatch at {uid}")
 
+    actual_kinds = {kind: kinds.get(kind, 0) for kind in EXPECTED_KINDS}
     ensure(not synthetic_end, f"Synthetic star-end units remain: {', '.join(synthetic_end)}")
-    ensure(len(units_seen) == EXPECTED_UNITS and dict(kinds) == EXPECTED_KINDS, "Derived translation totals differ from index")
+    ensure(len(units_seen) == EXPECTED_UNITS and actual_kinds == EXPECTED_KINDS, f"Derived translation totals differ from index: units={len(units_seen)}, kinds={actual_kinds}")
     ensure(cross_page == index.get("cross_page_translation_units") and len(cross_page) == EXPECTED_CROSS_PAGE, "Cross-page unit index differs")
     ensure(direct_seen == direct_expected, "Source-unlabelled speech index differs")
     ensure(len(dialogue_links) == len(set(dialogue_links)) == EXPECTED_DIALOGUE_RECORDS and set(dialogue_links) == set(dialogue_by_id), "Immutable dialogue links are not exact 1:1 coverage")
@@ -296,10 +279,9 @@ def main() -> int:
 
     reader_md = render_markdown(records)
     reader_html = render_html(records)
-    reader_json_obj = {
+    reader_json = json.dumps({
         "work_id":"tirumbippaar","title":"Tirumbippaar! — English Reader Edition","title_ta":"திரும்பிப்பார்!","target_language":"en","status":"complete-verified","authority":"works/tirumbippaar/translations/records","source_sha256":SOURCE_SHA256,"canonical_scene_order":SCENES,"translation_units":EXPECTED_UNITS,"unit_kind_counts":EXPECTED_KINDS,"scenes":records,
-    }
-    reader_json = json.dumps(reader_json_obj, ensure_ascii=False, indent=2) + "\n"
+    }, ensure_ascii=False, indent=2) + "\n"
     for uid in units_seen:
         ensure(reader_md.count(f"unit:{uid};") == 1, f"Markdown coverage mismatch for {uid}")
         ensure(reader_html.count(f'data-unit-id="{uid}"') == 1, f"HTML coverage mismatch for {uid}")
@@ -315,7 +297,7 @@ def main() -> int:
 - canonical scenes: **93/93** in source order;
 - English units: **{EXPECTED_UNITS:,}/{EXPECTED_UNITS:,} unique, sequential and verified**;
 - status counts: **{EXPECTED_UNITS:,} verified / 0 review / 0 draft**;
-- kind counts: **1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text**;
+- kind counts: **1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song**;
 - immutable labelled dialogue records linked exactly once: **{len(dialogue_links)}/1,040**;
 - source-visible unlabelled spoken units retained without invented speaker/dialogue IDs: **{len(direct_seen)}**;
 - verified song/performance occurrence links cross-checked: **{len(occurrence_links)}**;
@@ -334,10 +316,10 @@ The generator writes only inside `works/tirumbippaar/editions/en/` and does not 
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     payloads = {
-        OUT_DIR/"reader-edition.md": reader_md.encode(),
-        OUT_DIR/"reader-edition.html": reader_html.encode(),
-        OUT_DIR/"reader-edition.json": reader_json.encode(),
-        OUT_DIR/"QA_REPORT.md": qa.encode(),
+        OUT_DIR/"reader-edition.md": reader_md.encode("utf-8"),
+        OUT_DIR/"reader-edition.html": reader_html.encode("utf-8"),
+        OUT_DIR/"reader-edition.json": reader_json.encode("utf-8"),
+        OUT_DIR/"QA_REPORT.md": qa.encode("utf-8"),
     }
     for path, payload in payloads.items():
         path.write_bytes(payload)
