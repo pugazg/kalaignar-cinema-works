@@ -1,0 +1,45 @@
+{
+  "work_id": "tirumbippaar",
+  "evidence_id": "tirumbippaar-tracklist-2026-08-15",
+  "evidence_type": "public-music-catalog-item-level-authorship",
+  "access_date": "2026-08-15",
+  "source": {
+    "title": "Thirumbi Paar (Original Motion Picture Soundtrack)",
+    "publisher": "Amazon Music Australia",
+    "catalog_rights_line": "(C) 2017 Saregama",
+    "url": "https://music.amazon.com.au/albums/B0799NZ5M3",
+    "track_count": 9,
+    "source_quality_note": "Public commercial music-catalog metadata gives item-level title/artist-credit strings. It supplements the supplied booklet only for authorship metadata and is never used to repair or expand canonical Tamil."
+  },
+  "catalog_tracks": [
+    {"track": 1, "title": "Pandiyan En Sollai", "credited_artists": ["P. Leela", "G. Ramanathan", "Bharathidasan"], "duration": "3:18"},
+    {"track": 2, "title": "Aranna Ara Doona", "credited_artists": ["Jikki", "G. Ramanathan", "Kannadasan"], "duration": "2:31"},
+    {"track": 3, "title": "Illara Joythi", "credited_artists": ["T. S. Bhagavathi", "G. Ramanathan", "Kannadasan"], "duration": "3:08"},
+    {"track": 4, "title": "Kanniyarin Vellaimanam", "credited_artists": ["A. M. Rajah", "P. Leela", "G. Ramanathan", "Kannadasan"], "duration": "2:32"},
+    {"track": 5, "title": "Vaazhkkai Vaazhvatherkke", "credited_artists": ["D. B. Ramachandran", "G. Ramanathan", "Kannadasan"], "duration": "2:22"},
+    {"track": 6, "title": "Kalappadam", "credited_artists": ["S. C. Krishnan", "G. Ramanathan", "Kannadasan"], "duration": "2:59"},
+    {"track": 7, "title": "Kannaale", "credited_artists": ["Thiruchi Loganathan", "P. Leela", "G. Ramanathan", "Kannadasan"], "duration": "3:17"},
+    {"track": 8, "title": "Kathalar Vaazhntha", "credited_artists": ["Jikki", "G. Ramanathan", "Kannadasan"], "duration": "3:07"},
+    {"track": 9, "title": "Kannalla Thoongamma", "credited_artists": ["P. Leela", "G. Ramanathan", "Kannadasan"], "duration": "3:05"}
+  ],
+  "canonical_occurrence_mappings": [
+    {
+      "inventory_occurrences": ["tirumbippaar-song-006"],
+      "canonical_reference_ta": "பாண்டியன் என் சொல்லை",
+      "catalog_track": 1,
+      "catalog_title": "Pandiyan En Sollai",
+      "lyricist_ta": "பாரதிதாசன்",
+      "match_basis": "Exact named-song title correspondence after transliteration; the booklet itself prints the Tamil title in scene 31."
+    },
+    {
+      "inventory_occurrences": ["tirumbippaar-song-007", "tirumbippaar-song-008"],
+      "canonical_reference_ta": "கலப்படம்",
+      "catalog_track": 6,
+      "catalog_title": "Kalappadam",
+      "lyricist_ta": "கண்ணதாசன்",
+      "match_basis": "Exact named-song title correspondence after transliteration; scene 42 prints `கலப்படம் கலப்படம்` and scene 43 explicitly calls it the `கலப்படம்` song."
+    }
+  ],
+  "mapping_rule": "The catalog's other seven tracks are not assigned to the booklet's unnamed singing references merely because they occur in the same film. Only source-named candidates with an exact title match are mapped here.",
+  "canonical_text_rule": "External track metadata supplies authorship only. Lyrics, wording, spelling and source structure remain controlled exclusively by the verified booklet scan."
+}
