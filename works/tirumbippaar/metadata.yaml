@@ -337,6 +337,20 @@ structured_derivatives:
     immutable_dialogue_records_linked: 1040
     cross_page_translation_units: 12
     qa_status: PASS
+  english_epub_package:
+    status: complete-verified
+    format: "EPUB 3"
+    path: "editions/en/tirumbippaar-en.epub"
+    build: "editions/en/package.py"
+    qa_report: "editions/en/EPUB_QA_REPORT.md"
+    manifest: "editions/en/package-manifest.json"
+    translation_units: 1321
+    scene_documents: 93
+    zip_members: 99
+    byte_size: 370615
+    sha256: "17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f"
+    deterministic: true
+    qa_status: PASS
   next_structured_derivative: null
 
 status:
@@ -352,3 +366,4 @@ status:
   song_tamil_derivatives: not-started
   english_translation: complete-verified
   english_reader_edition: complete-verified
+  english_epub_package: complete-verified
