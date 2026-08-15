@@ -107,7 +107,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Translate and verify English scenes 16-20 from the immutable verified Tamil and structured source layers."
+  next_action: "Translate and verify English scenes 41-45 from the immutable verified Tamil and structured source layers."
 
 fidelity_audit:
   status: complete
@@ -301,26 +301,26 @@ structured_derivatives:
     readme: "translations/README.md"
     record_directory: "translations/records"
     pilot_scene: 1
-    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    translation_units: 187
-    verified_units: 187
+    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    translation_units: 588
+    verified_units: 588
     review_units: 0
     draft_units: 0
     unit_kind_counts:
-      dialogue: 147
-      stage_direction: 36
+      dialogue: 463
+      stage_direction: 116
       song: 0
-      song_reference: 4
-      chant: 0
-      written_text: 0
-    cross_page_translation_units: ["tirumbippaar-en-s001-u008"]
+      song_reference: 5
+      chant: 1
+      written_text: 3
+    cross_page_translation_units: ["tirumbippaar-en-s001-u008", "tirumbippaar-en-s026-u002"]
     direct_source_unlabelled_dialogue_units: ["tirumbippaar-en-s005-u026", "tirumbippaar-en-s015-u018"]
-    zero_dialogue_source_scenes_translated: [10, 11]
-    verified_song_reference_occurrences: ["tirumbippaar-song-001", "tirumbippaar-song-002", "tirumbippaar-song-003", "tirumbippaar-song-004"]
-    next_batch: "scenes 16-20"
-    note: "Scenes 1-15 are verified in English with 187 source-linked units. Scene 11 is a zero-dialogue source scene whose boat movement and source-only singing reference remain separate unlabelled units. Scene 14 links only the printed stage-song reference and supplies no absent lyrics. Scene 15 preserves its unlabelled pocket/laundry line with null speaker metadata and no invented dialogue-record ID. The sole cross-page English unit remains scene 1's PDF 9/10 `மில் / முதலாளி` break."
-  next_structured_derivative: english-translation-scenes-16-20
+    zero_dialogue_source_scenes_translated: [10, 11, 25, 26]
+    verified_song_reference_occurrences: ["tirumbippaar-song-001", "tirumbippaar-song-002", "tirumbippaar-song-003", "tirumbippaar-song-004", "scene-31-source-song-reference"]
+    next_batch: "scenes 41-45"
+    note: "Scenes 1-40 are verified in English with 588 source-linked units. Scene 29 preserves the standalone labour slogan as an unattributed chant; scene 31 translates only the printed `பாண்டியன் என் சொல்லை` performance reference and supplies no missing lyrics. Scene 36 preserves Poomaal's creeper/plant metaphor, scene 37 retains the age/horoscope/`போதை` exchanges, scene 38 retains the contest-arena/earthquake imagery, and scenes 39-40 preserve the source-order contrast between privately taking money to halt the strike and publicly declaring victory. Cross-page English units currently remain scene 1 PDF 9/10 and scene 26 PDF 31/32."
+  next_structured_derivative: english-translation-scenes-41-45
 
 status:
   source_intake: complete
