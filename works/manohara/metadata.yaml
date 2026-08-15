@@ -101,24 +101,25 @@ transcription_progress:
   canonical_pdf_pages: "7-88"
   canonical_logical_printed_pages: "6-87"
   canonical_pages_total: 82
-  first_pass_completed_pdf_pages: "7-54"
-  first_pass_completed_logical_printed_pages: "6-53"
-  first_pass_pages_completed: 48
-  first_pass_through_pdf_page: 54
-  first_pass_through_logical_printed_page: 53
-  draft_pages: 48
+  first_pass_completed_pdf_pages: "7-66"
+  first_pass_completed_logical_printed_pages: "6-65"
+  first_pass_pages_completed: 60
+  first_pass_through_pdf_page: 66
+  first_pass_through_logical_printed_page: 65
+  draft_pages: 60
   verified_pages: 0
   review_pages: 0
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
-  parts_completed: 3
+  parts_completed: 4
   part_paths:
     - "transcription/parts/part-01-pdf-7-30.md"
     - "transcription/parts/part-02-pdf-31-42.md"
     - "transcription/parts/part-03-pdf-43-54.md"
-  next_pdf_page: 55
-  next_logical_printed_page: 54
-  next_action: "Continue canonical Tamil first-pass transcription from PDF 55 / logical printed p.54, in source order, with stable page anchors."
+    - "transcription/parts/part-04-pdf-55-66.md"
+  next_pdf_page: 67
+  next_logical_printed_page: 66
+  next_action: "Continue canonical Tamil first-pass transcription from PDF 67 / logical printed p.66, in source order, with stable page anchors."
 
 fidelity_audit:
   status: not-started
