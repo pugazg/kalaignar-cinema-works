@@ -34,18 +34,22 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - scene-text derivatives: **complete — 93/93**
 - dialogue index: **complete — 93/93 scenes, 1,040 records**
 - character index: **complete-verified — 45/45 exact labels, 39 entities/role categories**
-- song authorship mapping / Tamil song derivatives: **not-started**
+- song authorship mapping: **complete — 8 occurrences dispositioned; 3 verified / 5 unresolved**
+- source-named songs with verified item-level authorship: **2**
+- Tamil song derivative files: **0 — no full lyric body for either source-named song is printed in this booklet**
 - English translation: **not-started**
 
-`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history.
+`mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history. Later source corrections discovered during derivative work are recorded separately in `notes/post-fidelity-corrections.md`.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
 The final PDF 84–112 audit also corrected a prior structural reading for scene 72: the source heading at PDF **87 / printed p.79** is `[தாசி வீடு`, not `[காசி வீடு`.
 
 During dialogue-index batch 5, direct comparison with the verified Part 03 canonical transcription exposed a prior drift in `scenes/scene-41.md`. The scene derivative was repaired to restore the canonical opening Pandiyan/Paranthaman exchange and the missing PDF 54 page anchor. No canonical transcription was changed.
+
+During the later song-authorship gate, direct rendered-scan reinspection of **PDF 38 / printed p.30** found another source-level correction: scene 31 prints the song title **`பாண்டியன் என் சொல்லை`**, not the earlier transcription `பாண்டியன் என் செல்வம்`. Both the canonical Part 03 transcription and scene-31 derivative were corrected from the scan; `notes/post-fidelity-corrections.md` records the change. Page counts/status remain **104 verified / 0 draft / 0 review**.
 
 ## Source discipline
 
@@ -59,6 +63,10 @@ Unlabelled structures remain in the canonical/scene layer rather than being sile
 
 The character layer likewise does not rewrite source labels. `குணமணி` and `குண்டுமணி` are source-supported variants mapped to one household-helper character; scene-79 `அவன் குரல்` maps to Pandiyan from the scene context. By contrast, the reused exact label `குரல்` remains a role category because it represents different contextual voices in scenes 38, 67 and 72. Generic `பையன்`, worker labels, police labels and `Echo` are also retained as role/collective categories rather than being falsely turned into named individuals.
 
+The song layer follows an equally strict gate. Visual inspection of PDF **1–8** found no `பாடல்கள்` heading, lyricist list or item-level song credit; the cover's `கதை - வசனம்` credit is not treated as lyric authorship. Of eight source-visible song/performance occurrences, five remain unresolved because the booklet supplies no safe title/lyric evidence. Separately documented item-level soundtrack metadata is used only where the booklet itself names the song: **`பாண்டியன் என் சொல்லை` → பாரதிதாசன்** and **`கலப்படம்` → கண்ணதாசன்**. External metadata never supplies or repairs canonical lyrics.
+
+No Tamil song-lyric derivative is created from absent text. Scene 31 prints only a named performance reference; scenes 42–43 print/name only `கலப்படம்` material rather than a complete lyric body. The canonical scene files therefore remain the complete source-supported Tamil record for these occurrences.
+
 ## Exact next activity
 
-Begin the **per-song authorship mapping gate**. Inspect only source-supported booklet credits and the verified song/performance blocks before creating song-specific Tamil derivatives or any English song translations. Do not infer lyric authorship from a nearby dialogue credit or from the character who performs a song.
+Begin **English translation as a separate source-linked derivative layer**. Define a translation schema and create a small verified pilot first. Every English unit must point back to immutable canonical Tamil/source pages, and song/performance references must be translated only to the extent actually printed; absent lyrics must remain absent.
