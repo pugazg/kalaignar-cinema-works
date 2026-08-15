@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription, completed scene derivatives and immutable dialogue records  
 **Target language:** English (`en`)  
-**Status:** **in-progress — scenes 1–10 complete, 124/124 current units verified**
+**Status:** **in-progress — scenes 1–15 complete, 187/187 current units verified**
 
 This directory contains interpretive English derivatives. Nothing here may repair, normalize, expand or overwrite the verified Tamil source.
 
@@ -31,37 +31,34 @@ The schema supports `dialogue`, `stage-direction`, `song`, `song-reference`, `ch
 
 ## Verified coverage
 
-Scenes **1–10** are translated and verified in canonical order:
+Scenes **1–15** are translated and verified in canonical order.
 
-- scene 1 — **10 units**;
-- scene 2 — **17 units**;
-- scene 3 — **4 units**;
-- scene 4 — **18 units**;
-- scene 5 — **32 units**;
-- scene 6 — **17 units**;
-- scene 7 — **15 units**;
-- scene 8 — **6 units**;
-- scene 9 — **4 units**;
-- scene 10 — **1 unit**;
-- total — **124 verified / 0 review / 0 draft**.
+- scenes 1–5 — **81 units**;
+- scenes 6–10 — **43 units**;
+- scenes 11–15 — **63 units**;
+- total — **187 verified / 0 review / 0 draft**.
 
-Current kinds: **97 dialogue / 25 stage-direction / 2 song-reference**.
+Current kinds: **147 dialogue / 36 stage-direction / 4 song-reference**.
 
 The only cross-page English unit so far remains `tirumbippaar-en-s001-u008`, linked to dialogue record `tirumbippaar-s001-d006` across PDF 9→10 / printed pp.1→2.
 
-## Source-sensitive cases through scene 10
+## Source-sensitive cases through scene 15
 
-Scene 2 opens with Poomaal teaching children moral instruction through song. This is represented as `song-reference` linked to `tirumbippaar-song-001`; the booklet prints no song title or lyric body, so the English supplies none.
+Scene 2 and scene 6 preserve only the source-visible facts that song performance/teaching occurs; neither occurrence gains an invented title or lyric body.
 
-Scene 3 preserves the comic source word association `அன்பு...தொண்டு...அவரைக்காய்...` without fabricating a different English pun. Scene 4 retains the visibly broken banana/child comparison with an explanatory note rather than silently reconstructing a modern sentence.
+Scene 5 contains the source-unlabelled spoken line `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` It remains direct source-linked dialogue with `speaker_label: null` and no invented dialogue-record ID. The anomalous exact label `குரு` on `பக்தா!` remains unchanged metadata.
 
-Scene 5 contains the source-unlabelled spoken line `ஏ பையா! கூடா ஒரு கப் காபி கொண்டாந்து கொடு.` It remains direct source-linked dialogue with `speaker_label: null` and no invented dialogue-record ID. The anomalous exact speaker label `குரு` on `பக்தா!` likewise remains unchanged metadata.
+Scene 10 has no labelled dialogue. Its entire source-visible content is translated as one stage-direction unit: Bama's tears fall into her hand, become a waterfall and then a river.
 
-Scene 6 opens immediately after Bama's song has ended. The performance reference is linked to `tirumbippaar-song-002`, but the source prints no title or lyric body, so no English lyrics are reconstructed. Paranthaman's `சுருக்கு` / marriage-cord wordplay and the storm/breeze/volcano imagery are preserved as rhetoric rather than flattened into a summary.
+Scene 11 is another zero-dialogue source scene. Its boat movement is a stage-direction, while the fact that Paranthaman and an unnamed woman sing as they travel is a `song-reference` linked to `tirumbippaar-song-003`. The woman is not identified and absent lyrics remain absent.
 
-Scene 7 retains the period colour joke and the source phrase `கவர் கவிதை` as deliberately odd `cover-poetry`; it is not silently normalized into a different joke. Scene 8 preserves the hurried `முகூர்த்தநேரம்` exchange as the search for the missing bridegroom begins.
+Scene 12 preserves the source's irregular rhetoric rather than silently repairing it. The unusual `குதுவாதறியாத` phrase is translated conservatively and explicitly noted; `முகாரி` remains `Mukhari` to retain the source's music/lament reference. The closing child's `நாய் வால் நிமிர்க்க முடியாதாம்` line is translated literally without editorial explanation.
 
-Scene 10 correctly has **no dialogue record**. Its entire source-visible content is the visual transformation of Bama's tears into a waterfall and then a river, so it is represented as one direct scene-linked `stage-direction` unit rather than receiving invented dialogue or interpretation.
+Scene 13 ends with `புத்தகத்தைப் பிரித்துப் பாடல்`. Because that line gives no title, lyrics or explicit performer and is not a separately inventoried song occurrence, the English keeps it as the direct stage/performance direction `(The book is opened; a song follows.)` rather than inventing song metadata.
+
+Scene 14 links the source-only stage-song reference to `tirumbippaar-song-004`; no absent lyrics are supplied. Pandiyan's speech keeps the contrast among `வாழு`, `வாழாதே`, and `வாழு வாழ விடு`, and renders `பகுத்தறிவு` as `rationalism` rather than weakening the ideological vocabulary.
+
+Scene 15 contains a second source-unlabelled spoken line: `என்னடா இது ஒவ்வொரு சலவைக்கு ஒவ்வொரு பாக்கெட்டா திங்கிறான்......`. It remains direct scene-linked dialogue with `speaker_label: null` and no invented dialogue-record ID. Its odd pocket/laundry image is translated literally.
 
 No canonical Tamil, scene derivative, dialogue record, character record or song record was modified by this English batch.
 
@@ -71,4 +68,4 @@ The completed song gate found that this booklet does not print a complete lyric 
 
 ## Next activity
 
-Translate and verify **scenes 11–15**. Continue exact dialogue-record linking, direct scene linking for stage/unlabelled material, source-visible song references only to their printed extent, and page provenance for every unit.
+Translate and verify **scenes 16–20**. Continue exact dialogue-record linking, direct scene linking for stage/unlabelled material, source-visible performance material only to its printed extent, and page provenance for every unit.
