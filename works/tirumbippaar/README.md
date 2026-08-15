@@ -39,10 +39,11 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - Tamil song derivative files: **0 — no full lyric body for either source-named song is printed in this booklet**
 - English translation: **complete-verified — scenes 1–93, 1,321 units**
 - English reader/export edition: **complete-verified — Markdown / HTML / JSON + QA report + integrity manifest**
+- English EPUB 3 package: **complete-verified — 93 scenes / 1,321 units, deterministic package QA PASS**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history. Later source corrections discovered during derivative work are recorded separately in `notes/post-fidelity-corrections.md`.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The completed source-linked English derivative is under `translations/`. The publication-facing reader/export layer is under `editions/en/`.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The completed source-linked English derivative is under `translations/`. The publication-facing reader/export and EPUB packaging layer is under `editions/en/`.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -82,11 +83,11 @@ The final preflight now reports **0 synthetic star-end units, 0 page-order regre
 
 The final dramatic structures remain source-specific: scene 80 preserves Poomaal's title-bearing `திரும்பிப்பார்` confrontation; scene 81 retains the printed `Reaction-Echo`; scene 90 retains `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 preserves `பத்திரிகை News` as written newspaper content; and scene 93 preserves final `வணக்கம்.` while leaving the following `★` structural.
 
-## English reader/export edition
+## English reader/export and EPUB package
 
-`editions/en/` is a provenance-safe publication layer generated from the verified translation records. Its whole-work QA passes across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**.
+`editions/en/` is a provenance-safe publication layer generated from the verified translation records. Its whole-work reader QA passes across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**.
 
-Generated outputs:
+Generated reader outputs:
 
 - `editions/en/reader-edition.md`
 - `editions/en/reader-edition.html`
@@ -94,10 +95,17 @@ Generated outputs:
 - `editions/en/QA_REPORT.md`
 - `editions/en/manifest.json`
 
-The active GitHub Actions workflow reruns the diagnostic preflight and reader build when authoritative English/source-link inputs change, and commits reproducible generated outputs only after the QA gate passes.
+The same workflow builds `editions/en/tirumbippaar-en.epub` as a deterministic **EPUB 3** package and validates it separately. EPUB package QA confirms **93 scene XHTML documents**, all **1,321 unit IDs exactly once**, **99 ZIP members**, complete TOC/OPF/spine coverage, first/uncompressed exact `mimetype`, and fixed deterministic ZIP timestamps. The package is **370,615 bytes** with SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
 
-No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation or export build.
+EPUB audit derivatives:
+
+- `editions/en/EPUB_QA_REPORT.md`
+- `editions/en/package-manifest.json`
+
+The active GitHub Actions workflow reruns the diagnostic preflight, reader build, EPUB package gate and metadata synchronization when authoritative English/source-link inputs change, and commits reproducible generated outputs only after all gates pass.
+
+No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation, reader export or EPUB packaging.
 
 ## Exact next activity
 
-No required Tirumbippaar English translation or reader-export activity remains. Optional future work may package the verified reader edition into formats such as **PDF/EPUB** or a formal release without changing verified source layers.
+No required Tirumbippaar English translation, reader-export or EPUB-packaging activity remains. Optional future work may create a **print-ready PDF** or a formal release from these verified publication derivatives without changing verified source layers.
