@@ -14,6 +14,7 @@ on:
       - "works/tirumbippaar/editions/en/build.py"
       - "works/tirumbippaar/editions/en/audit_probe.py"
       - "works/tirumbippaar/editions/en/sync_status.py"
+      - "works/tirumbippaar/editions/en/package.py"
       - ".github/workflows/tirumbippaar-english-edition.yml"
 
 permissions:
@@ -40,10 +41,13 @@ jobs:
       - name: Run whole-work QA and build reader derivatives
         run: python works/tirumbippaar/editions/en/build.py
 
+      - name: Build and validate deterministic EPUB 3 package
+        run: python works/tirumbippaar/editions/en/package.py
+
       - name: Synchronize derivative-status metadata
         run: python works/tirumbippaar/editions/en/sync_status.py
 
-      - name: Commit generated reader derivatives and synchronized metadata
+      - name: Commit generated reader package and synchronized metadata
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -54,10 +58,13 @@ jobs:
             works/tirumbippaar/editions/en/reader-edition.html \
             works/tirumbippaar/editions/en/reader-edition.json \
             works/tirumbippaar/editions/en/QA_REPORT.md \
-            works/tirumbippaar/editions/en/manifest.json
+            works/tirumbippaar/editions/en/manifest.json \
+            works/tirumbippaar/editions/en/tirumbippaar-en.epub \
+            works/tirumbippaar/editions/en/EPUB_QA_REPORT.md \
+            works/tirumbippaar/editions/en/package-manifest.json
           if git diff --cached --quiet; then
-            echo "Reader derivatives and metadata are already reproducible; nothing to commit."
+            echo "Reader derivatives, EPUB package and metadata are already reproducible; nothing to commit."
           else
-            git commit -m "Build Tirumbippaar English reader edition [skip ci]"
+            git commit -m "Build Tirumbippaar English publication package [skip ci]"
             git push
           fi
