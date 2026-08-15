@@ -41,13 +41,13 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake 
 - source-numbered scene headings: **none printed** — no scene count has been invented;
 - structural mapping: **verified**;
 - transition-heading audit: **complete for intake/mapping**;
-- canonical Tamil first pass: **60/82 pages complete — PDF 7–66 / logical printed pp.6–65, status `draft`**;
+- canonical Tamil first pass: **72/82 pages complete — PDF 7–78 / logical printed pp.6–77, status `draft`**;
 - visual fidelity audit: **not-started**;
 - later structured derivatives and translation: **blocked until Tamil verification**.
 
-Four source-order first-pass batches are now stored under `works/manohara/transcription/parts/`. The fourth batch preserves the death-sentence and prison/cave sequences, Vasanta's coronation rehearsal, the separately printed PDF-65 letter (`அன்புள்ள வசந்தசேனைக்கு!` / `உக்ரசேனன்.`), and the beginning of Manoharan's Akshayan-disguise sequence in source order. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+Five source-order first-pass batches are now stored under `works/manohara/transcription/parts/`. The fifth batch preserves the Ugrasenan infiltration sequence, Vijayā's prison childbirth, the Purushothaman–Vasantha Sena confrontation, Purushothaman's imprisonment and Manoharan's continued Akshayan disguise in source order. Only **10 canonical screenplay pages remain** in the first pass. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
 
-**Next:** continue canonical Tamil first-pass transcription from **PDF 67 / logical printed p.66**, in source order, with stable page anchors. The separate visual fidelity audit remains a later gate before structured derivatives.
+**Next:** complete canonical Tamil first-pass transcription from **PDF 79–88 / logical printed pp.78–87**, in source order, with stable page anchors. The separate visual fidelity audit remains a later gate before structured derivatives.
 
 ## Parasakthi status
 
