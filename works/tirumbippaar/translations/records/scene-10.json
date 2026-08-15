@@ -1,0 +1,6 @@
+{
+  "work_id":"tirumbippaar","target_language":"en","canonical_scene":10,"scene_status":"verified","unit_count":1,
+  "units":[
+    {"id":"tirumbippaar-en-s010-u001","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":10,"source":{"source_path":"works/tirumbippaar/scenes/scene-10.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-10.md","source_record_id":null,"source_occurrence_id":null,"source_locator":{"kind":"scene-bracketed-stage-direction","ordinal":1,"description":"The complete source-visible content of canonical scene 10."},"speaker_label":null,"page_provenance":[{"pdf_page":18,"printed_page":10}]},"translation":{"english_text":"(Tears stream from Bama's eyes. The flowing tears fall into her hand. The water that falls into her hand turns into a waterfall. The waterfall becomes a river.)","mode":"prose-faithful","notes":["Scene 10 contains no labelled dialogue; the visual transformation is translated as one direct scene-linked stage-direction unit without adding interpretation."]}}
+  ]
+}
