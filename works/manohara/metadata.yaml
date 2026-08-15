@@ -96,35 +96,40 @@ structure:
       title: "முரசொலி"
 
 transcription_progress:
-  status: draft
-  first_pass_complete: false
+  status: draft-complete
+  first_pass_complete: true
   canonical_pdf_pages: "7-88"
   canonical_logical_printed_pages: "6-87"
   canonical_pages_total: 82
-  first_pass_completed_pdf_pages: "7-78"
-  first_pass_completed_logical_printed_pages: "6-77"
-  first_pass_pages_completed: 72
-  first_pass_through_pdf_page: 78
-  first_pass_through_logical_printed_page: 77
-  draft_pages: 72
+  first_pass_completed_pdf_pages: "7-88"
+  first_pass_completed_logical_printed_pages: "6-87"
+  first_pass_pages_completed: 82
+  first_pass_through_pdf_page: 88
+  first_pass_through_logical_printed_page: 87
+  draft_pages: 82
   verified_pages: 0
   review_pages: 0
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
-  parts_completed: 5
+  parts_completed: 6
   part_paths:
     - "transcription/parts/part-01-pdf-7-30.md"
     - "transcription/parts/part-02-pdf-31-42.md"
     - "transcription/parts/part-03-pdf-43-54.md"
     - "transcription/parts/part-04-pdf-55-66.md"
     - "transcription/parts/part-05-pdf-67-78.md"
-  next_pdf_page: 79
-  next_logical_printed_page: 78
-  next_action: "Complete canonical Tamil first-pass transcription from PDF 79-88 / logical printed pp.78-87, in source order, with stable page anchors."
+    - "transcription/parts/part-06-pdf-79-88.md"
+  next_pdf_page: null
+  next_logical_printed_page: null
+  next_action: "Begin the separate visual fidelity audit from PDF 7 / logical printed p.6."
 
 fidelity_audit:
   status: not-started
   canonical_range_audit_complete: false
+  audit_through_pdf_page: null
+  audit_through_logical_printed_page: null
+  next_pdf_page: 7
+  next_logical_printed_page: 6
   verified_pages: 0
   review_pages: 0
 
