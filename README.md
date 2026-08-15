@@ -41,13 +41,13 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake 
 - source-numbered scene headings: **none printed** — no scene count has been invented;
 - structural mapping: **verified**;
 - transition-heading audit: **complete for intake/mapping**;
-- canonical Tamil first pass: **48/82 pages complete — PDF 7–54 / logical printed pp.6–53, status `draft`**;
+- canonical Tamil first pass: **60/82 pages complete — PDF 7–66 / logical printed pp.6–65, status `draft`**;
 - visual fidelity audit: **not-started**;
 - later structured derivatives and translation: **blocked until Tamil verification**.
 
-Three source-order first-pass batches are now stored under `works/manohara/transcription/parts/`. The text preserves the embedded play-within-the-play, source-visible song/performance references, the PDF-23 war proclamation and the extended PDF 49–54 royal-court confrontation in source order. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+Four source-order first-pass batches are now stored under `works/manohara/transcription/parts/`. The fourth batch preserves the death-sentence and prison/cave sequences, Vasanta's coronation rehearsal, the separately printed PDF-65 letter (`அன்புள்ள வசந்தசேனைக்கு!` / `உக்ரசேனன்.`), and the beginning of Manoharan's Akshayan-disguise sequence in source order. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
 
-**Next:** continue canonical Tamil first-pass transcription from **PDF 55 / logical printed p.54**, in source order, with stable page anchors. The separate visual fidelity audit remains a later gate before structured derivatives.
+**Next:** continue canonical Tamil first-pass transcription from **PDF 67 / logical printed p.66**, in source order, with stable page anchors. The separate visual fidelity audit remains a later gate before structured derivatives.
 
 ## Parasakthi status
 
