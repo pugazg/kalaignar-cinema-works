@@ -107,7 +107,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Translate and verify English scenes 46-50 from the immutable verified Tamil and structured source layers."
+  next_action: null
 
 fidelity_audit:
   status: complete
@@ -295,32 +295,35 @@ structured_derivatives:
     note: "PDF 1-8 contains no song-credit heading or lyricist list; the cover `கதை - வசனம்` credit is not treated as lyric authorship. Exact source-named matches establish `பாண்டியன் என் சொல்லை` → பாரதிதாசன் and `கலப்படம்` → கண்ணதாசன் from separately documented item-level public music-catalog evidence. Unnamed singing references and the scene-29 labour chant remain unresolved rather than being guessed onto other soundtrack rows."
   song_tamil_derivatives: not-started
   english_translation:
-    status: in-progress
+    status: complete-verified
     path: "translations/index.json"
     schema: "translations/schema.json"
     readme: "translations/README.md"
     record_directory: "translations/records"
     pilot_scene: 1
-    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
-    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
-    translation_units: 680
-    verified_units: 680
+    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
+    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
+    translation_units: 1330
+    verified_units: 1330
     review_units: 0
     draft_units: 0
     unit_kind_counts:
-      dialogue: 529
-      stage_direction: 138
+      dialogue: 1047
+      stage_direction: 263
       song: 0
       song_reference: 7
-      chant: 1
-      written_text: 5
-    cross_page_translation_units: ["tirumbippaar-en-s001-u008", "tirumbippaar-en-s026-u002", "tirumbippaar-en-s041-u001", "tirumbippaar-en-s041-u046", "tirumbippaar-en-s045-u018"]
-    direct_source_unlabelled_dialogue_units: ["tirumbippaar-en-s005-u026", "tirumbippaar-en-s015-u018", "tirumbippaar-en-s044-u004"]
-    zero_dialogue_source_scenes_translated: [10, 11, 25, 26, 43]
-    verified_song_reference_occurrences: ["tirumbippaar-song-001", "tirumbippaar-song-002", "tirumbippaar-song-003", "tirumbippaar-song-004", "scene-31-source-song-reference", "tirumbippaar-song-007", "tirumbippaar-song-008"]
-    next_batch: "scenes 46-50"
-    note: "Scenes 1-45 are verified in English with 680 source-linked units. Scene 41 preserves the Sivasakthi Mills money bundle, the four-name amount slip, the strike-ending newspaper headline and two genuine cross-page units. Scenes 42-43 link only the source-visible `கலப்படம்` fragment/reprise to song occurrences 007/008 and supply no absent lyrics. Scene 43 remains a zero-dialogue source scene. Scene 44 preserves its post-reaction platform-speech continuation as source-unlabelled direct speech without an invented dialogue-record ID. Scene 45 preserves Usha's medicine metaphor and Pandiyan's cross-page `மஞ்சம் / பஞ்சம் / லஞ்சம்` wordplay."
-  next_structured_derivative: english-translation-scenes-46-50
+      chant: 2
+      written_text: 11
+    dialogue_source_records_expected: 1040
+    dialogue_source_records_linked: 1040
+    cross_page_translation_units: ["tirumbippaar-en-s001-u008", "tirumbippaar-en-s026-u002", "tirumbippaar-en-s041-u001", "tirumbippaar-en-s041-u046", "tirumbippaar-en-s045-u018", "tirumbippaar-en-s061-u001", "tirumbippaar-en-s063-u004", "tirumbippaar-en-s072-u002", "tirumbippaar-en-s076-u014", "tirumbippaar-en-s080-u024", "tirumbippaar-en-s080-u032", "tirumbippaar-en-s083-u002"]
+    direct_source_unlabelled_dialogue_units: ["tirumbippaar-en-s005-u026", "tirumbippaar-en-s015-u018", "tirumbippaar-en-s044-u004", "tirumbippaar-en-s051-u003", "tirumbippaar-en-s084-u002", "tirumbippaar-en-s088-u004", "tirumbippaar-en-s091-u014"]
+    zero_dialogue_source_scenes_translated: [10, 11, 25, 26, 43, 54]
+    verified_song_reference_occurrences: ["tirumbippaar-song-001", "tirumbippaar-song-002", "tirumbippaar-song-003", "tirumbippaar-song-004", "tirumbippaar-song-006", "tirumbippaar-song-007", "tirumbippaar-song-008"]
+    synthetic_star_end_units: 0
+    next_batch: null
+    note: "All 93 scenes are complete-verified in English with 1,330 source-linked units. All 1,040 labelled dialogue records are linked exactly once; seven additional source-visible spoken units intentionally remain unlabelled in metadata. The final reconciliation linked scene 31 to exact song occurrence 006, restored all 50 labelled dialogue records in scene 57 as individual source-linked units, removed synthetic `(Scene ends.)` units created solely from structural stars, added scene 54 to the zero-dialogue translated set, and preserved final source-specific structures including scene 90's dying-breath direction, scene 91's newspaper News block and scene 93's `வணக்கம்.`. No canonical Tamil or structured source layer was modified."
+  next_structured_derivative: null
 
 status:
   source_intake: complete
@@ -333,4 +336,4 @@ status:
   character_index: complete
   song_authorship_mapping: complete
   song_tamil_derivatives: not-started
-  english_translation: in-progress
+  english_translation: complete-verified
