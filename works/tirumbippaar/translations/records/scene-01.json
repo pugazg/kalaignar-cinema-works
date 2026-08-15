@@ -1,0 +1,277 @@
+{
+  "work_id": "tirumbippaar",
+  "target_language": "en",
+  "canonical_scene": 1,
+  "pilot_status": "verified",
+  "scene_status": "verified",
+  "unit_count": 10,
+  "units": [
+    {
+      "id": "tirumbippaar-en-s001-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/scenes/scene-01.md",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-bracketed-stage-direction",
+          "ordinal": 1,
+          "description": "Opening bracketed direction immediately after the canonical scene-1 heading."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "(The lawyer is speaking.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வக்கீல்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "The report in the newspapers saying that Poomaal committed the murder is false! After the investigation, the very shape of the case has changed. There is no basic reason at all why Poomaal should have killed the murdered man. (Poomaal is shown.) From the very beginning, Pandiyan has been the murdered man's bitterest enemy. (Pandiyan is shown.) In family matters and in public life alike, hostility has been growing between the two for many days. That hostility turned into hatred and ended in murder!",
+        "mode": "prose-faithful",
+        "notes": [
+          "Personal names are transliterated in the English text; the exact Tamil speaker label remains immutable metadata.",
+          "The two source-visible display directions embedded in the lawyer's utterance remain inside this dialogue unit."
+        ]
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூமால்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "No. Pandiyan is innocent! He did not commit the murder—did not commit the murder. I alone committed the murder.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source repeats the denial across the dash; the English deliberately preserves that repetition rather than smoothing it away."
+        ]
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/scenes/scene-01.md",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-parenthetical-block",
+          "ordinal": 1,
+          "description": "Standalone parenthetical between Poomaal's first admission and the lawyer's response."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "(The judge bangs the table. Silence.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source itself uses the English word `Silence`; it is retained in meaning rather than treated as an editorial insertion."
+        ]
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வக்கீல்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "Poomaal is taking the murder charge upon herself because of her affection for Pandiyan—for the sole reason that she does not want to give Pandiyan away.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூமால்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "No, no. Your Honour! Pandiyan has nothing whatsoever to do with this murder. Please listen to my entire family history!......",
+        "mode": "prose-faithful",
+        "notes": [
+          "The emphatic repeated `இல்ல இல்ல` and the extended source ellipsis are preserved rather than reduced to a single denial."
+        ]
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நீதிபதி",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1}
+        ]
+      },
+      "translation": {
+        "english_text": "What connection is there between this murder case and your family history?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The conversational feminine address embedded in `என்னம்மா` is not expanded into an invented English name or title."
+        ]
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூமால்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 1},
+          {"pdf_page": 10, "printed_page": 2}
+        ]
+      },
+      "translation": {
+        "english_text": "There is a great deal! As evidence in this case, there is not only that history; there are also witnesses—the hospital watchman, the mill owner and others. Question them too! First listen to my story!",
+        "english_page_segments": [
+          {
+            "pdf_page": 9,
+            "printed_page": 1,
+            "english_text": "There is a great deal! As evidence in this case, there is not only that history; there are also witnesses—the hospital watchman, the mill"
+          },
+          {
+            "pdf_page": 10,
+            "printed_page": 2,
+            "english_text": "owner and others. Question them too! First listen to my story!"
+          }
+        ],
+        "mode": "prose-faithful",
+        "notes": [
+          "This is the pilot's only cross-page dialogue unit. The English page segments deliberately mirror the source break inside `மில் / முதலாளி`; the combined English text restores the natural phrase `mill owner`."
+        ]
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நீதிபதி",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 2}
+        ]
+      },
+      "translation": {
+        "english_text": "Tell me!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "tirumbippaar-en-s001-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 1,
+      "source": {
+        "source_path": "works/tirumbippaar/dialogues/records/scene-01.json",
+        "canonical_scene_path": "works/tirumbippaar/scenes/scene-01.md",
+        "source_record_id": "tirumbippaar-s001-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூமால்",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 2}
+        ]
+      },
+      "translation": {
+        "english_text": "Our family lived in Coimbatore! There was a bookshop there! Its name was Garudan Publishing House. It was there!...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source-visible historical Tamil place form `கோயமுத்தார்` remains unchanged in the canonical Tamil; the English translation uses the standard English toponym `Coimbatore`.",
+          "The unfinished source pivot `அங்கேதான்!...` is kept unfinished rather than completed with inferred narrative."
+        ]
+      }
+    }
+  ]
+}
