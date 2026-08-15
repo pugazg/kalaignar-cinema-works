@@ -37,11 +37,12 @@ The lower PDF-2 imprint line remains physically cropped. High-resolution reinspe
 - song authorship mapping: **complete — 8 occurrences dispositioned; 3 verified / 5 unresolved**
 - source-named songs with verified item-level authorship: **2**
 - Tamil song derivative files: **0 — no full lyric body for either source-named song is printed in this booklet**
-- English translation: **complete-verified — scenes 1–93, 1,330 units**
+- English translation: **complete-verified — scenes 1–93, 1,321 units**
+- English reader/export edition: **complete-verified — Markdown / HTML / JSON + QA report + integrity manifest**
 
 `mapping.md` records the verified structural gate. `notes/scene-heading-audit.md` contains the 93-scene structural-label audit, source-visible irregular forms and mapped performance/printed-text candidates. `notes/fidelity-audit.md` records the complete page-by-page source corrections and verification history. Later source corrections discovered during derivative work are recorded separately in `notes/post-fidelity-corrections.md`.
 
-Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The completed source-linked English derivative is under `translations/`.
+Canonical Tamil transcription is indexed at `transcription/full-text.md` and stored in five verified source-order files under `transcription/parts/`. The complete scene layer is under `scenes/`. The completed dialogue derivative is under `dialogues/`, using a fixed schema and 93 scene-sharded record files. The completed character/entity layer is under `characters/`; it inventories all 45 exact dialogue speaker labels and gives each one a verified named-character, role, or collective disposition without modifying any dialogue record. The song/performance authorship gate is under `songs/`. The completed source-linked English derivative is under `translations/`. The publication-facing reader/export layer is under `editions/en/`.
 
 Earlier audit work found two first-pass integrity defects: PDF **61–63 / printed pp.53–55** had been omitted from the stored part 03, and the PDF **80 / printed p.72** text lacked an explicit page anchor. Both were repaired from the scan and have since passed normal fidelity verification.
 
@@ -69,18 +70,34 @@ No Tamil song-lyric derivative is created from absent text. Scene 31 prints only
 
 ## English translation — final checkpoint
 
-All **93 scenes** now contain **1,330 verified source-linked units**: **1,047 dialogue / 263 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**. There are **0 review / 0 draft** units.
+All **93 scenes** contain **1,321 verified source-linked units**: **1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**. There are **0 review / 0 draft** units.
 
 All **1,040 immutable labelled dialogue records** are linked exactly once. The remaining seven dialogue-kind units are source-visible spoken passages without a printed speaker label and therefore retain null speaker/dialogue-record metadata: scenes 5, 15, 44, 51, 84, 88 and 91.
 
 There are **12 genuine cross-page English units**: scene 1 PDF 9→10; scene 26 PDF 31→32; scene 41 PDF 52→53 and PDF 56→57; scene 45 PDF 59→60; scene 61 PDF 78→79; scene 63 PDF 79→80; scene 72 PDF 87→88; scene 76 PDF 91→92; scene 80 PDF 96→97 and PDF 97→98; and scene 83 PDF 100→101.
 
-The completion reconciliation replaced scene 31's temporary song-reference placeholder with exact occurrence `tirumbippaar-song-006`. Scene 57 was repaired so all **50** labelled source dialogue records are represented individually rather than collapsing its final confrontation into a summary. Translation-only `(Scene ends.)` units that had been created from structural `★` separators were removed.
+The publication-reader preflight performed one final derivative-only reconciliation. Residual synthetic `(Scene ends.)` units created solely from structural `★` separators were removed from scenes **21, 26, 27, 29, 30 and 34**. Scene 29's source-visible `கோஷம்` heading and scene 30's location heading were restored to source order. Scene 47's three duplicated stage-action units were removed because the same actions were already represented in their source-order units. This changed no canonical Tamil or structured source record.
+
+The final preflight now reports **0 synthetic star-end units, 0 page-order regressions, 0 unit-ID errors, 0 missing dialogue links and 0 extra dialogue links**. Scene 31 links exactly to song occurrence `tirumbippaar-song-006`, and scene 57 contains all **50** of its labelled dialogue records individually.
 
 The final dramatic structures remain source-specific: scene 80 preserves Poomaal's title-bearing `திரும்பிப்பார்` confrontation; scene 81 retains the printed `Reaction-Echo`; scene 90 retains `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 preserves `பத்திரிகை News` as written newspaper content; and scene 93 preserves final `வணக்கம்.` while leaving the following `★` structural.
 
-No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation or its final reconciliation.
+## English reader/export edition
+
+`editions/en/` is a provenance-safe publication layer generated from the verified translation records. Its whole-work QA passes across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**.
+
+Generated outputs:
+
+- `editions/en/reader-edition.md`
+- `editions/en/reader-edition.html`
+- `editions/en/reader-edition.json`
+- `editions/en/QA_REPORT.md`
+- `editions/en/manifest.json`
+
+The active GitHub Actions workflow reruns the diagnostic preflight and reader build when authoritative English/source-link inputs change, and commits reproducible generated outputs only after the QA gate passes.
+
+No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation or export build.
 
 ## Exact next activity
 
-No required English translation activity remains. Optional future work may build publication-facing reader/export derivatives from the verified English layer without changing the canonical Tamil or structured source layers.
+No required Tirumbippaar English translation or reader-export activity remains. Optional future work may package the verified reader edition into formats such as **PDF/EPUB** or a formal release without changing verified source layers.
