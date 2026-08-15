@@ -40,7 +40,7 @@ No canonical Tamil, scene, dialogue, character, song or transcription derivative
 
 ## திரும்பிப்பார்! status
 
-The next screenplay is being archived from `TVA_BOK_0014652_திரும்பிப்பார்.pdf`.
+The second screenplay is being archived from `TVA_BOK_0014652_திரும்பிப்பார்.pdf`.
 
 - explicit source edition statement: **`முதல் பதிப்பு: 1953`**;
 - scan: **112 PDF pages**;
@@ -49,22 +49,26 @@ The next screenplay is being archived from `TVA_BOK_0014652_திரும்�
 - source intake: **complete**;
 - structural mapping: **verified**;
 - scene-heading / structural-label audit: **93/93 dispositioned**;
-- numbering gaps/repeats/out-of-order: **none observed**;
-- main-text missing/duplicate/crop findings: **none observed**;
-- performance/song candidate structures: marked for later source-linked inventory, with no authorship inferred;
-- canonical Tamil first pass: **complete — 104/104 pages**;
-- canonical Tamil page status: **0 draft / 104 verified / 0 review**;
-- verified range: **PDF 9–112 / printed pp.1–104**;
-- final audit batch: **PDF 84–112 / printed pp.76–104 — 29 verified pages**;
-- Tamil transcription status: **verified**;
+- canonical Tamil: **104 verified / 0 draft / 0 review**;
 - fidelity audit: **complete**;
-- unresolved audited main-text pages: **0**.
+- scene index / scene-text derivatives: **93/93 complete**;
+- dialogue index: **1,040 records across 93 scene shards, complete**;
+- character index: **45/45 exact speaker labels dispositioned into 39 verified entities/role categories**;
+- song/performance inventory: **8 source-visible occurrences dispositioned**;
+- song authorship mapping: **3 verified occurrences / 5 unresolved occurrences**;
+- source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
+- Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
+- English translation: **not-started**.
 
-Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are now fidelity-verified. The final audit also corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
+Earlier audit work found and repaired a first-pass storage gap at PDF **61–63** and a missing explicit page anchor at PDF **80**; both are fidelity-verified. The final audit corrected the scene-72 structural label at PDF **87 / printed p.79** to the scan-visible `[தாசி வீடு`.
+
+A later derivative-stage scan recheck also corrected scene 31 at PDF **38 / printed p.30** from the earlier transcription `பாண்டியன் என் செல்வம்` to the source-visible song title **`பாண்டியன் என் சொல்லை`**. The canonical Part 03 transcription and scene derivative were corrected from the scan, and the change is recorded in `works/tirumbippaar/notes/post-fidelity-corrections.md`.
 
 The PDF-2 lower imprint remains a documented source crop. Reinspection supports only the visible partial `சிட்டி பிரஸ், மதுரை ரோ…`; the missing continuation is not reconstructed.
 
-**Next:** construct the **scene index / scene-text derivatives** from verified canonical Tamil, using Parasakthi only as the reference implementation and not as a text source.
+The song gate visually checked PDF **1–8** and found no lyricist/song-credit section. The cover `கதை - வசனம்` credit is not treated as song authorship. Item-level external music-catalog evidence is used only for the two exact source-named title matches; unnamed singing references and the scene-29 labour chant remain explicitly unresolved rather than being guessed onto other soundtrack rows.
+
+**Next:** begin **English translation as a separate source-linked derivative layer**, first defining a schema and creating a small verified pilot. Absent song lyrics must remain absent.
 
 ## Status vocabulary
 
