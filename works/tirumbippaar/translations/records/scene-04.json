@@ -1,0 +1,171 @@
+{
+  "work_id": "tirumbippaar",
+  "target_language": "en",
+  "canonical_scene": 4,
+  "scene_status": "verified",
+  "unit_count": 18,
+  "units": [
+    {
+      "id": "tirumbippaar-en-s004-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-04.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-bracketed-stage-direction", "ordinal": 1, "description": "Opening bracketed direction immediately after the canonical scene-4 heading."}, "speaker_label": null, "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "(A woman carries away the used cups and saucers.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d001", "source_occurrence_id": null, "source_locator": null, "speaker_label": "குணரத்தனம்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "Then I'm happy. The seventh is an auspicious day... ... ...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d002", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "What does it matter to me which day it is!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d003", "source_occurrence_id": null, "source_locator": null, "speaker_label": "குணரத்தனம்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "No, madam! I have a little faith in the stars.", "mode": "prose-faithful", "notes": ["`நக்ஷத்திரம்` is rendered as the astrological `stars` without expanding the belief beyond what the source says."]}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d004", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "All right, all right... ... what's wrong with that!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d005", "source_occurrence_id": null, "source_locator": null, "speaker_label": "தங்கம்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "Why haven't you married, dear... ... ...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d006", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "I'm the one responsible for this family, aren't I? My younger brother was brought up in comfort; Father and Mother ordered that the family's hardships should not be placed on him. My elder sister's daughter, who has no father or mother, is studying in Madras; I am her support.", "mode": "prose-faithful", "notes": ["`சென்னை` is rendered as `Madras` in this 1953-period translation context; the canonical Tamil place name remains unchanged."]}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d007", "source_occurrence_id": null, "source_locator": null, "speaker_label": "குணரத்தனம்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "It is because you are a motherly support to everyone like this that they are looking for your life-partner as someone who will live here with the household!...... ...", "mode": "prose-faithful", "notes": ["The source refers to a husband who would remain with Poomaal's household; no modern family-law terminology is added."]}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d008", "source_occurrence_id": null, "source_locator": null, "speaker_label": "தங்கம்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "Oh dear...you won't find a husband like that... the girl looks like Lakshmi herself!", "mode": "prose-faithful", "notes": ["`லக்ஷ்மி` is treated as the source's comparison to Lakshmi, not normalized in Tamil metadata."]}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-04.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Standalone parenthetical before Poomaal introduces Bama's parents."}, "speaker_label": null, "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "(Paranthaman enters, bathed and dressed.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d009", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "Come, brother! Do you know these people? (Paranthaman stares blankly.) Oh! Looks as though you know only their daughter... ... Bama's parents!.", "mode": "prose-faithful", "notes": ["The embedded source action remains inside the dialogue unit because it is part of the immutable dialogue record."]}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d010", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "Oh! Greetings!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d011", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "They've come to fix the marriage! Well... ... you agree, don't you... ... ...", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/scenes/scene-04.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 2, "description": "Standalone parenthetical after Poomaal asks for Paranthaman's consent."}, "speaker_label": null, "page_provenance": [{"pdf_page": 12, "printed_page": 4}]},
+      "translation": {"english_text": "(Paranthaman is silent, bashful.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d012", "source_occurrence_id": null, "source_locator": null, "speaker_label": "குணரத்தனம்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "Why even ask him that! Is there a child who says it doesn't want a banana?.... Ah, the child.... .... ....", "mode": "prose-faithful", "notes": ["The source line is visibly broken by ellipses around the banana/child comparison. The translation keeps the rhetorical sense but does not invent missing words."]}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d013", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "Well, Paranthaman?", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d014", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "All right, sister!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "tirumbippaar-en-s004-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "canonical_scene": 4,
+      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-04.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-04.md", "source_record_id": "tirumbippaar-s004-d015", "source_occurrence_id": null, "source_locator": null, "speaker_label": "குணரத்தனம்", "page_provenance": [{"pdf_page": 13, "printed_page": 5}]},
+      "translation": {"english_text": "Then it's settled. We'll be going. I'm happy. We'll attend to what has to be done.", "mode": "prose-faithful", "notes": []}
+    }
+  ]
+}
