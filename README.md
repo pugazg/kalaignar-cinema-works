@@ -27,7 +27,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The new source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake and structural-mapping gate.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed the intake and structural-mapping gate, and canonical Tamil first-pass transcription is now in progress.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -36,17 +36,18 @@ The new source `TVA_BOK_0010102_மனோகரா.pdf` has completed the int
 - source SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`;
 - `நாடகக் கதை`: PDF **4–5**;
 - `முன்னுரை`: PDF **6**;
-- main screenplay/dialogue: PDF **7–88 / logical printed pp.6–87**;
+- main screenplay/dialogue: PDF **7–88 / logical printed pp.6–87** — **82 canonical pages**;
 - back matter: PDF **89–90**;
 - source-numbered scene headings: **none printed** — no scene count has been invented;
 - structural mapping: **verified**;
 - transition-heading audit: **complete for intake/mapping**;
-- canonical Tamil transcription: **not-started**;
+- canonical Tamil first pass: **24/82 pages complete — PDF 7–30 / logical printed pp.6–29, status `draft`**;
+- visual fidelity audit: **not-started**;
 - later structured derivatives and translation: **blocked until Tamil verification**.
 
-Source-visible structural candidates include an embedded play-within-the-play, song/performance references, a war-proclamation/chant-like passage and a separately printed letter. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+The first batch preserves the embedded play-within-the-play, source-visible song/performance references and the PDF-23 war proclamation in source order. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
 
-**Next:** Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.
+**Next:** continue canonical Tamil first-pass transcription from **PDF 31 / logical printed p.30**, in source order, with stable page anchors. The separate visual fidelity audit remains a later gate before structured derivatives.
 
 ## Parasakthi status
 
