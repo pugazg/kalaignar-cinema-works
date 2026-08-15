@@ -241,10 +241,11 @@ def validate_epub(reader: dict[str, Any], entries: dict[str, bytes]) -> dict[str
 
     nav_text = entries["EPUB/nav.xhtml"].decode("utf-8")
     for scene in EXPECTED_SCENES:
-        ensure(nav_text.count(f'href="text/scene-{scene:03d}.xhtml"') == 1, f"EPUB navigation missing or duplicates scene {scene}")
+        toc_item = f'<li><a href="text/scene-{scene:03d}.xhtml">Scene {scene}</a></li>'
+        ensure(nav_text.count(toc_item) == 1, f"EPUB TOC missing or duplicates scene {scene}")
 
     opf_text = entries["EPUB/package.opf"].decode("utf-8")
-    ensure(opf_text.count('media-type="application/xhtml+xml"') == 94, "OPF XHTML manifest count is not title/nav + 93 scenes")
+    ensure(opf_text.count('media-type="application/xhtml+xml"') == 95, "OPF XHTML manifest count is not nav + title + 93 scenes")
     ensure(opf_text.count("<itemref ") == 94, "OPF spine count is not title + 93 scenes")
 
     return {
@@ -290,7 +291,7 @@ def main() -> int:
 - `mimetype` is first, exact and uncompressed;
 - OPF manifest contains navigation, stylesheet, title page and all 93 scene documents;
 - OPF spine contains title page + all 93 scenes in canonical order;
-- EPUB navigation contains every scene exactly once;
+- EPUB table of contents contains every scene exactly once;
 - every English unit ID appears in scene XHTML exactly once;
 - no synthetic `(Scene ends.)` text is packaged;
 - package is written with fixed ZIP timestamps and uncompressed deterministic members.
