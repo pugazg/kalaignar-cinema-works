@@ -107,7 +107,7 @@ transcription_progress:
   verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Begin English translation as a separate source-linked derivative layer, starting with a schema and a small verified pilot."
+  next_action: "Translate and verify English scenes 2-5 from the immutable verified Tamil and structured source layers."
 
 fidelity_audit:
   status: complete
@@ -294,8 +294,30 @@ structured_derivatives:
     full_lyric_blocks_printed_for_named_songs: 0
     note: "PDF 1-8 contains no song-credit heading or lyricist list; the cover `கதை - வசனம்` credit is not treated as lyric authorship. Exact source-named matches establish `பாண்டியன் என் சொல்லை` → பாரதிதாசன் and `கலப்படம்` → கண்ணதாசன் from separately documented item-level public music-catalog evidence. Unnamed singing references and the scene-29 labour chant remain unresolved rather than being guessed onto other soundtrack rows."
   song_tamil_derivatives: not-started
-  english_translation: not-started
-  next_structured_derivative: english-translation
+  english_translation:
+    status: pilot-verified
+    path: "translations/index.json"
+    schema: "translations/schema.json"
+    readme: "translations/README.md"
+    record_directory: "translations/records"
+    pilot_scene: 1
+    scenes_started: [1]
+    scenes_verified: [1]
+    translation_units: 10
+    verified_units: 10
+    review_units: 0
+    draft_units: 0
+    unit_kind_counts:
+      dialogue: 8
+      stage_direction: 2
+      song: 0
+      song_reference: 0
+      chant: 0
+      written_text: 0
+    cross_page_translation_units: ["tirumbippaar-en-s001-u008"]
+    next_batch: "scenes 2-5"
+    note: "Scene 1 is the verified English pilot: eight dialogue units linked to immutable dialogue records and two direct scene-linked stage directions. The sole cross-page unit mirrors the source break in `மில் / முதலாளி`. Translation does not supply absent song lyrics or rewrite canonical Tamil."
+  next_structured_derivative: english-translation-scenes-2-5
 
 status:
   source_intake: complete
@@ -308,4 +330,4 @@ status:
   character_index: complete
   song_authorship_mapping: complete
   song_tamil_derivatives: not-started
-  english_translation: not-started
+  english_translation: pilot-verified
