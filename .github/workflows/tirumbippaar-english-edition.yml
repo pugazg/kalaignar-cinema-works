@@ -1,0 +1,54 @@
+name: Tirumbippaar English reader QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "works/tirumbippaar/translations/index.json"
+      - "works/tirumbippaar/translations/records/**"
+      - "works/tirumbippaar/dialogues/records/**"
+      - "works/tirumbippaar/songs/inventory.json"
+      - "works/tirumbippaar/scenes/**"
+      - "works/tirumbippaar/editions/en/build.py"
+      - ".github/workflows/tirumbippaar-english-edition.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  qa-and-build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run whole-work QA and build reader derivatives
+        run: python works/tirumbippaar/editions/en/build.py
+
+      - name: Commit generated reader derivatives
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            works/tirumbippaar/editions/en/reader-edition.md \
+            works/tirumbippaar/editions/en/reader-edition.html \
+            works/tirumbippaar/editions/en/reader-edition.json \
+            works/tirumbippaar/editions/en/QA_REPORT.md \
+            works/tirumbippaar/editions/en/manifest.json
+          if git diff --cached --quiet; then
+            echo "Reader derivatives are already reproducible; nothing to commit."
+          else
+            git commit -m "Build Tirumbippaar English reader edition [skip ci]"
+            git push
+          fi
