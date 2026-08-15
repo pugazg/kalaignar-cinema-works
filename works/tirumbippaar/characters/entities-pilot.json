@@ -1,0 +1,101 @@
+{
+  "work_id": "tirumbippaar",
+  "status": "pilot-verified",
+  "source_label_inventory": "labels-inventory.json",
+  "dialogue_index": "../dialogues/index.json",
+  "dialogue_records_source": 1040,
+  "distinct_source_labels": 45,
+  "pilot_entities": 8,
+  "mapped_distinct_source_labels": 10,
+  "remaining_unmapped_source_labels": 35,
+  "entities": [
+    {
+      "id": "tirumbippaar-char-paranthaman",
+      "preferred_name_ta": "பரந்தாமன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["பரந்தாமன்"],
+      "scenes": [2,3,4,5,6,7,12,13,16,17,22,23,24,29,30,32,33,35,39,40,41,46,47,48,49,55,56,60,63,65,66,69,70,71,72,74,75,80,81,82,83,88,90],
+      "supporting_records": ["tirumbippaar-s002-d002","tirumbippaar-s072-d001","tirumbippaar-s081-d001"],
+      "notes": "The recurring exact label `பரந்தாமன்` identifies the central character across family, publishing, labour, court and final-reform sequences."
+    },
+    {
+      "id": "tirumbippaar-char-poomaal",
+      "preferred_name_ta": "பூமால்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["பூமால்"],
+      "scenes": [1,2,4,7,8,9,12,19,20,21,27,28,30,34,35,36,38,41,47,55,57,60,76,77,80,87,89,90,93],
+      "supporting_records": ["tirumbippaar-s001-d002","tirumbippaar-s038-d003","tirumbippaar-s080-d001"],
+      "notes": "The recurring exact label `பூமால்` identifies Paranthaman's elder sister throughout the frame trial, household and reform arc."
+    },
+    {
+      "id": "tirumbippaar-char-pandiyan",
+      "preferred_name_ta": "பாண்டியன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["பாண்டியன்","அவன் குரல்"],
+      "scenes": [5,14,15,18,20,21,28,31,35,37,38,41,42,44,45,47,50,57,59,78,79,84,85,86,91,93],
+      "supporting_records": ["tirumbippaar-s005-d004","tirumbippaar-s045-d015","tirumbippaar-s079-d001"],
+      "notes": "`பாண்டியன்` is the recurring proper-name label. In scene 79 the scene direction shows Pandiyan at Kumudha's locked house and `அவன் குரல்` is his voice-over, so that exact label maps here without rewriting the dialogue record."
+    },
+    {
+      "id": "tirumbippaar-char-kumudha",
+      "preferred_name_ta": "குமுதா",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["குமுதா"],
+      "scenes": [7,8,9,21,27,28,31,35,36,41,42,47,50,57,59,61,62,64,86,92,93],
+      "supporting_records": ["tirumbippaar-s007-d002","tirumbippaar-s057-d004","tirumbippaar-s093-d001"],
+      "notes": "The recurring exact label `குமுதா` consistently identifies Poomaal's ward/niece and Pandiyan's wife."
+    },
+    {
+      "id": "tirumbippaar-char-bama",
+      "preferred_name_ta": "பாமா",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["பாமா"],
+      "scenes": [6,17,22,23,24,72,90],
+      "supporting_records": ["tirumbippaar-s006-d001","tirumbippaar-s017-d002","tirumbippaar-s072-d005"],
+      "notes": "The recurring exact label `பாமா` identifies the woman first engaged to Paranthaman and later confronting him in the dasi-house and final sequences."
+    },
+    {
+      "id": "tirumbippaar-char-garudan",
+      "preferred_name_ta": "கருடன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["கருடன்"],
+      "scenes": [5,13,16,29,32,33,39,46,53,58,63,70,71,75,82],
+      "supporting_records": ["tirumbippaar-s005-d001","tirumbippaar-s039-d006","tirumbippaar-s071-d001"],
+      "notes": "`கருடன்` is the recurring publishing associate and accomplice of Paranthaman."
+    },
+    {
+      "id": "tirumbippaar-char-punnakodi",
+      "preferred_name_ta": "புண்ணகோடி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["புண்ணகோடி"],
+      "scenes": [15,18,32,33,37,40,48,49,51,52,63,66,67,69,76,86],
+      "supporting_records": ["tirumbippaar-s015-d002","tirumbippaar-s033-d001","tirumbippaar-s069-d004"],
+      "notes": "`புண்ணகோடி` is Pandiyan's father and a recurring mill-worker/labour-organizer character."
+    },
+    {
+      "id": "tirumbippaar-char-kundumani",
+      "preferred_name_ta": "குண்டுமணி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "source_labels": ["குணமணி","குண்டுமணி"],
+      "scenes": [7,19,20,21,27,28,50,57,76,87],
+      "supporting_records": ["tirumbippaar-s007-d006","tirumbippaar-s027-d004","tirumbippaar-s057-d001"],
+      "notes": "`குணமணி` and `குண்டுமணி` occur in the same Poomaal/Kumudha household-helper continuity and are mapped to one stable character while preserving both exact source labels."
+    }
+  ]
+}
