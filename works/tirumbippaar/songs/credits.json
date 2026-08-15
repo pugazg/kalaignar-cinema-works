@@ -1,0 +1,14 @@
+{
+  "work_id": "tirumbippaar",
+  "source_pages_inspected": [1, 2, 3, 4, 5, 6, 7, 8],
+  "scope": "front-matter",
+  "cover_credit": {
+    "role_as_printed": "கதை - வசனம்",
+    "name_as_printed": "கலைஞர் மு. கருணாநிதி"
+  },
+  "song_credit_heading_observed": false,
+  "contributors_as_printed": [],
+  "item_level_assignment_present": false,
+  "authorship_rule": "The cover's story-dialogue credit is not a lyric credit. No பாடல்கள், lyricist or item-level song-credit section was observed in PDF 1-8. A song/performance candidate remains unresolved unless the canonical context explicitly attributes it or separately documented external evidence establishes item-level authorship.",
+  "source_note": "PDF 1-8 of the supplied scan were visually inspected for this gate. They contain the cover, edition/rights/price page, author foreword, publisher notice and catalogue advertisement, but no song-contributor list. This file records credit evidence only and does not alter canonical Tamil."
+}
