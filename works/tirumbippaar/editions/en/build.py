@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-BUILD_VERSION = 2
+BUILD_VERSION = 3
 ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "tirumbippaar"
 TRANSLATIONS = WORK / "translations"
@@ -22,10 +22,10 @@ SONG_INVENTORY_PATH = WORK / "songs" / "inventory.json"
 OUT_DIR = WORK / "editions" / "en"
 
 SCENES = list(range(1, 94))
-EXPECTED_UNITS = 1329
+EXPECTED_UNITS = 1321
 EXPECTED_KINDS = {
     "dialogue": 1047,
-    "stage-direction": 262,
+    "stage-direction": 254,
     "song": 0,
     "song-reference": 7,
     "chant": 2,
@@ -315,7 +315,7 @@ def main() -> int:
 - canonical scenes: **93/93** in source order;
 - English units: **{EXPECTED_UNITS:,}/{EXPECTED_UNITS:,} unique, sequential and verified**;
 - status counts: **{EXPECTED_UNITS:,} verified / 0 review / 0 draft**;
-- kind counts: **1,047 dialogue / 262 stage direction / 7 song-reference / 2 chant / 11 written-text**;
+- kind counts: **1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text**;
 - immutable labelled dialogue records linked exactly once: **{len(dialogue_links)}/1,040**;
 - source-visible unlabelled spoken units retained without invented speaker/dialogue IDs: **{len(direct_seen)}**;
 - verified song/performance occurrence links cross-checked: **{len(occurrence_links)}**;
