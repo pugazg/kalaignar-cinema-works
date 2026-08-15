@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tirumbippaar-translation-unit-schema",
+  "title": "Tirumbippaar source-linked English translation unit",
+  "description": "Interpretive English derivative linked to verified Tamil source units. Canonical Tamil remains authoritative and absent source text must not be supplied from external versions.",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "status",
+    "target_language",
+    "canonical_scene",
+    "source",
+    "translation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^tirumbippaar-en-s[0-9]{3}-u[0-9]{3}$"
+    },
+    "kind": {
+      "enum": [
+        "dialogue",
+        "stage-direction",
+        "song",
+        "song-reference",
+        "chant",
+        "written-text"
+      ]
+    },
+    "status": {
+      "enum": ["draft", "review", "verified"]
+    },
+    "target_language": {
+      "const": "en"
+    },
+    "canonical_scene": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 93
+    },
+    "source": {
+      "type": "object",
+      "required": ["source_path", "page_provenance"],
+      "properties": {
+        "source_path": {"type": "string", "minLength": 1},
+        "canonical_scene_path": {"type": ["string", "null"]},
+        "source_record_id": {"type": ["string", "null"]},
+        "source_occurrence_id": {"type": ["string", "null"]},
+        "source_locator": {
+          "type": ["object", "null"],
+          "properties": {
+            "kind": {"type": "string"},
+            "ordinal": {"type": "integer", "minimum": 1},
+            "description": {"type": "string"}
+          },
+          "required": ["kind", "ordinal", "description"],
+          "additionalProperties": false
+        },
+        "speaker_label": {"type": ["string", "null"]},
+        "page_provenance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["pdf_page", "printed_page"],
+            "properties": {
+              "pdf_page": {"type": "integer", "minimum": 1},
+              "printed_page": {"type": "integer", "minimum": 1}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "translation": {
+      "type": "object",
+      "properties": {
+        "english_text": {"type": "string", "minLength": 1},
+        "english_lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string"}
+        },
+        "english_page_segments": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["pdf_page", "printed_page", "english_text"],
+            "properties": {
+              "pdf_page": {"type": "integer", "minimum": 1},
+              "printed_page": {"type": "integer", "minimum": 1},
+              "english_text": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "mode": {
+          "enum": ["prose-faithful", "semantic-poetic"]
+        },
+        "notes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "oneOf": [
+        {"required": ["english_text", "mode", "notes"]},
+        {"required": ["english_lines", "mode", "notes"]}
+      ],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
