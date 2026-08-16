@@ -1,8 +1,8 @@
 # மனோகரா — character / entity index
 
-Status: **pilot-verified / in progress**.
+Status: **complete-verified**.
 
-This is a downstream interpretive layer built from the **983 complete-verified immutable dialogue records**. It maps exact source-visible speaker labels to characters, roles or collectives without changing `speaker_label` or dialogue text in any source record.
+This is a downstream interpretive layer built from the **983 complete-verified immutable dialogue records**. It maps exact source-visible speaker labels to named characters, context-safe roles, collectives, or explicit unresolved dispositions without changing `speaker_label`, delimiter, dialogue text, or provenance in any dialogue record.
 
 ## Source discipline
 
@@ -10,59 +10,76 @@ This is a downstream interpretive layer built from the **983 complete-verified i
 - `labels-inventory.json` inventories every exact non-empty speaker label before normalization.
 - spelling, abbreviation and punctuation variants remain visible as separate source labels;
 - a label is mapped to a named character only when verified scene context supports that identity;
-- reused labels are **not** forced into one character merely because one occurrence is obvious;
-- play-within-the-play identities remain distinct from the outer story unless the source explicitly supports a cross-layer identity;
-- the 983 dialogue records remain immutable.
+- reused labels are not forced into one character merely because one occurrence is obvious;
+- play-within-the-play identities remain distinct from the outer story;
+- the **983 dialogue records remain immutable**.
 
-## Exact-label inventory checkpoint
+## Completion checkpoint
 
-The complete dialogue inventory contains **111 distinct non-empty source speaker labels** across **57 archival scene shards / 983 records**. `manohara-s024` has zero labelled dialogue and therefore contributes no speaker label.
+The complete dialogue inventory contains **111 distinct non-empty source speaker labels** across **57 archival scene shards / 983 records**. `manohara-s024` has zero labelled dialogue and contributes no speaker label.
 
-The inventory intentionally preserves forms such as `வ. சே`, `வ. சே.`, `கே. வ`, `கே. வ.`, `சத். சீல`, `சிப்பாய் 2`, and the longer contextual forms `வசந்தசேனை மனதிற்குள்`, `நாடகம் பார்க்கும் ராஜப்பிரியன்` and `நாடகம் பார்க்கும் வசந்தசேனா` exactly as stored in the verified dialogue records.
+Final character/entity disposition:
 
-## Pilot checkpoint
+- exact source labels inventoried: **111/111**;
+- exact labels dispositioned: **111/111**;
+- remaining unmapped labels: **0**;
+- stable character/role/collective/unresolved entities: **37**;
+- verified entities: **36**;
+- review entities: **0**;
+- unresolved entities: **1**;
+- verified source labels: **110**;
+- review source labels: **0**;
+- unresolved source labels: **1** — `வர்மா`;
+- dialogue records modified: **no**.
 
-The first verified pilot establishes **10 named characters** and maps **51/111 exact labels**. **60 labels remain undisposed** for the next character-index pass.
+`entities.json` is the complete disposition file. `entities-pilot.json` remains as the earlier pilot checkpoint and is not the final mapping authority.
 
-Pilot entities:
+## Named-character mappings added after the pilot
 
-- `மனோகரன்`
-- `பத்மாவதி`
-- `புருஷோத்தமன்`
-- `வசந்தசேனை`
-- `வசந்தன்`
-- `விஜயா`
-- `ராஜப்பிரியன்`
-- `சத்யசீலர்`
-- `கேசரிவர்மன்`
-- `உக்ரசேனன்`
+The completion pass safely establishes additional named characters from source context, including:
 
-All ten pilot entities are `verified` / `high` confidence. Representative immutable dialogue IDs are stored with each entity in `entities-pilot.json`.
+- nested-play `அஜயன்` / `அஜ` → **அஜயன்**;
+- `அட்சயன்` → the real **அக்ஷயன்**, while `அட்` remains context-sensitive because that shorthand is also used for மனோகரன் in disguise;
+- nested-play `ஈஸ்வரி வர்மன்` / `வர்மன்` → **ஈஸ்வரி வர்மன்**;
+- nested-play `உத்தம புருஷன்` / `உத்` / `ராஜா` → **உத்தம புருஷன்**;
+- nested-play `கமலாவதி` / `கமலா` / `கம` → **கமலாவதி**;
+- nested-play `தேவசேனா` / `நாடக தேவசேனா` → **தேவசேனா**;
+- `பெளத்தாயன்` / `பெளத்தாயன` / `பெளத்` / disguise label `துறவி` → **பெளத்தாயனன்**;
+- `முத்து விஜயன்` / `மு. வி` / `முத்து` → **முத்து விஜயன்**;
+- `விகடன்` / `விகட` / `விக` → **விகடன்**;
+- scene-42 `வீர` → **வீரசிம்ஹன்**, because உக்ரசேனன் explicitly addresses him as `வீரசிம்ஹா!` immediately before the response.
 
-## Deliberately unresolved/reused labels
+The completion pass also adds `அரூபம்` / `அரூ` to **கேசரிவர்மன்**. Scene 1 establishes Kesari's guru-created invisibility medicine; scene 39's invisible speaker describes the same guru-derived medicine, providing source-internal continuity rather than an external inference.
 
-Several exact labels cannot safely be collapsed globally and are therefore **not** assigned in the pilot:
+## Context-reused labels
 
-- `வச` is used for **வசந்தசேனை** in some scenes and **வசந்தன்** in others; scene 41 itself demonstrates both uses within one archival scene.
-- `வசந்` likewise alternates between வசந்தசேனை and வசந்தன் depending on source context.
-- `சேனா` is used for the play-within-the-play **தேவசேனா** in scene 8 and for வசந்தசேனை in later outer-story scenes.
-- `அட்` is used for the real அக்ஷயன் and, elsewhere, for மனோகரன் while he is in the false-Akshayan disguise.
-- `வர்` is used in the nested play's வர்மன் material and later for கேசரிவர்மன்.
-- `தோழி` / `தோ` are generic attendant/friend labels used in more than one context and are not automatically equated with a single named woman.
+The following exact labels are deliberately represented as context-role entities rather than forced into one physical character:
 
-These are not transcription defects. They are source-level label reuse and must be handled as explicit role/context dispositions rather than silently normalized.
+- `அட்` — real அக்ஷயன் in scenes 40 and 51, but மனோகரன் in the false-Akshayan disguise in scene 41;
+- `வச` — used for both வசந்தசேனை and வசந்தன்; scene 41 alone contains both uses;
+- `வசந்` — likewise alternates between வசந்தசேனை and வசந்தன் across scenes;
+- `சேனா` — nested-play தேவசேனா in scene 8, later outer-story வசந்தசேனை;
+- `வர்` — nested-play ஈஸ்வரி வர்மன் in scene 8, outer-story கேசரிவர்மன் in scene 40;
+- `தோ` / `தோழி` / `தோழி 1` / `தோழி 2` — generic friend/attendant labels used for more than one woman and narrative context.
 
-## Nested play safeguard
+These are source-level label reuse, not transcription errors. The role dispositions preserve that fact without rewriting the dialogue layer.
 
-Scene 8 contains a play-within-the-play with labels including `உத்தம புருஷன்`, `ஈஸ்வரி வர்மன்`, `கமலாவதி`, `தேவசேனா`, `ராஜா`, `வர்மன்`, `வர்மா`, `கம`, `உத்`, `அஜயன்`, `அஜ`, and `நாடக தேவசேனா`. Those performance identities are not automatically merged with similarly patterned outer-story characters. The main-story observer labels `நாடகம் பார்க்கும் ராஜப்பிரியன்` and `நாடகம் பார்க்கும் வசந்தசேனா`, however, are explicitly source-labelled as the outer characters and are safely mapped in the pilot.
+## Generic role / collective dispositions
+
+The final index also keeps unnamed source roles categorical where personal identity is not established: `காவலர்`, `சிப்பாய்`, `பிரதானி`, `வைத்தியர்`, `வீரன்`, `முரசறைவோன்`, the recurring `பெரியவர் / குருதேவர்`, `மனக்குரல்`, and the collective `சபையோர்`. Grouping equivalent role labels does not assert that every occurrence is one physical person.
+
+## Remaining unresolved source label
+
+`வர்மா` in `manohara-s008-d003` remains **unresolved**. It occurs inside the nested play immediately before an `ஈஸ்வரி வர்மன்` response, but the printed sequence does not support assigning that label confidently to ஈஸ்வரி வர்மன், உத்தம புருஷன், or another specific character without inference. The exact source label is therefore preserved with an explicit unresolved disposition rather than silently repaired.
 
 ## Files
 
 - `schema.json` — Manohara entity-derivative schema.
 - `labels-inventory.json` — complete exact-label inventory, **111 labels**.
-- `entities-pilot.json` — first **10 verified entities / 51 mapped labels**.
-- `index.json` — current character-layer checkpoint.
+- `entities-pilot.json` — historical pilot checkpoint: **10 entities / 51 mapped labels**.
+- `entities.json` — final complete disposition: **37 entities / 111 labels**.
+- `index.json` — compact completion manifest/checkpoint.
 
-## Next activity
+## Next structured derivative
 
-Dispose the remaining **60 exact labels** into verified named characters, stable roles/collectives, or explicit review/unresolved entities. Reused shorthand labels must remain context-safe; do not rewrite the dialogue layer to make normalization easier.
+Begin the **source-visible song/performance inventory and per-song authorship mapping gate**. Use the booklet's own evidence first. Do **not** infer lyric authorship from `திரைக்கதை வசனம் / மு. கருணாநிதி`, performer identity, proximity to dialogue, or soundtrack memory. Missing lyrics remain absent unless they are printed in the source.
