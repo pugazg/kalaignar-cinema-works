@@ -18,20 +18,25 @@ Important:
 - Decorative star separators are never expanded into prose such as `(Scene ends.)`.
 - Boundary separators are not duplicated between adjacent derivative files.
 - Page anchors are repeated inside derivatives for traceability; repeating an anchor does not create new canonical text.
-- Cross-part continuities are preserved when a derivative begins near the end of one canonical part and continues into the next; canonical part boundaries do not force an artificial scene split.
 - The opening global title/credit lines (`மனோகரா` / `திரைக்கதை வசனம்`) remain in the canonical transcription and are not repeated as a scene heading.
 
 ## Current checkpoint
 
 - archival scene segments indexed: **57/57**;
 - source-numbered scene count: **not applicable**;
-- scene-text derivatives completed: **16/57** — `manohara-s001` through `manohara-s016`;
-- completed derivative source span: opening PDF **7** through the opening dialogue on PDF **31**, ending immediately before audit transition `T017` (`பாண்டியமக்கள் விசாரணை மண்டபம்`);
-- `manohara-s008` preserves the complete embedded play beginning on PDF 13 and continuing through the closing `இன்னும் உயிர் வாழ்கிறாள்.` on PDF 19;
-- `manohara-s012`–`manohara-s016` preserve the Vasanthasena–Bauthayan conspiracy, Muthu Vijayan battle/death, Vijaya's revenge attempt, her capture, and the `வாழ்வதே மாது நான்` transition;
-- `manohara-s016` intentionally crosses the storage boundary from canonical Part 01 into the opening of Part 02 because the source-visible transition `T017` occurs only after the continuing dialogue on PDF 31;
+- scene-text derivatives completed: **23/57** — `manohara-s001` through `manohara-s023`;
+- completed derivative source span: opening PDF **7** through PDF **36**, ending immediately before audit transition `T024` (`வசந்தா-அரசர் படுக்கையறை`);
+- `manohara-s016` legitimately crosses the Part 01 / Part 02 storage boundary because the source action continues from PDF 30 to PDF 31 before `T017`;
+- `manohara-s017` preserves the Pandya public inquiry and Rajapriyan's marriage-as-sentence pronouncement;
+- `manohara-s018` preserves the Pandya-palace dialogue up to, but not including, the separate song/boat transition `T019`;
+- `manohara-s019` preserves the `“சிங்காரப் பைங்கிளியே... பேசு”` performance/boat occurrence and Bauthayan's failed dagger attack;
+- `manohara-s020` preserves the Vasanthasena–Bauthayan war-sword conspiracy;
+- `manohara-s021` preserves the false-death message to Padmavati, Bauthayan's exposure and Manoharan's oath;
+- `manohara-s022` preserves Vasanthasena ordering Bauthayan's death;
+- `manohara-s023` preserves the prison poisoning-by-snake sequence and ends before `T024`;
+- boundary stars are not duplicated across derivative files;
 - derivative source authority: verified canonical Tamil only;
-- next scene-text derivative: **`manohara-s017`**, beginning with `(பாண்டியமக்கள் விசாரணை மண்டபம்)` on PDF 31.
+- next scene-text derivative: **`manohara-s024`**, beginning with `வசந்தா-அரசர் படுக்கையறை` / `“பொழுது புலர்ந்தது” பாட்டு` on PDF 37.
 
 `index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
 
