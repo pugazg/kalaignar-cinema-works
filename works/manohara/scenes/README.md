@@ -25,19 +25,18 @@ Important:
 
 - archival scene segments indexed: **57/57**;
 - source-numbered scene count: **not applicable**;
-- scene-text derivatives completed: **30/57** — `manohara-s001` through `manohara-s030`;
-- completed derivative source span: opening PDF **7** through the opening continuation on PDF **43**, ending immediately before audit transition `T031` (`[பத்மாவதி அறை]`);
+- scene-text derivatives completed: **35/57** — `manohara-s001` through `manohara-s035`;
+- completed derivative source span: opening PDF **7** through PDF **48**, ending immediately before audit transition `T036` (`அரசர் அவைக்கூடம்`);
 - `manohara-s016` legitimately crosses the Part 01 / Part 02 storage boundary because the source action continues from PDF 30 to PDF 31 before `T017`;
-- `manohara-s024` preserves `வசந்தா-அரசர் படுக்கையறை` and the `“பொழுது புலர்ந்தது” பாட்டு` reference;
-- `manohara-s025` preserves the Vasanthasena–Purushothaman chamber conversation before the victory assembly;
-- `manohara-s026` preserves the victory assembly confrontation around the `ரத்ன சிம்மாசனம்`;
-- `manohara-s027` preserves Manoharan's complaint to Padmavati after leaving the assembly;
-- `manohara-s028` preserves Vasanthan's physician/comic medicine sequence;
-- `manohara-s029` preserves the cave/guru sequence and the guru's death;
-- `manohara-s030` preserves the Vasantha-festival sequence from PDF 41 through the opening continuation on PDF 43 and therefore legitimately crosses the Part 02 / Part 03 storage boundary before `T031`;
+- `manohara-s030` legitimately crosses the Part 02 / Part 03 storage boundary because the Vasantha-festival action continues onto PDF 43 before `T031`;
+- `manohara-s031` preserves Manoharan's appeal to Padmavati after the Vasantha-festival clash;
+- `manohara-s032` preserves the short king-room transition with Vasanthasena at the door, retaining the source's unmatched opening bracket in the stage direction;
+- `manohara-s033` preserves the Padmavati/Vijaya inquiry, Vasanthasena's counter-plot and staged suicide sequence through PDF 46;
+- `manohara-s034` preserves the eavesdropping/suspicion sequence and the king's order that Padmavati be imprisoned and Manoharan apologize;
+- `manohara-s035` preserves the Padmavati-room response and Manoharan's departure to demand the reason for the order;
 - boundary stars are not duplicated across derivative files;
 - derivative source authority: verified canonical Tamil only;
-- next scene-text derivative: **`manohara-s031`**, beginning with `[பத்மாவதி அறை]` on PDF 43.
+- next scene-text derivative: **`manohara-s036`**, beginning with `அரசர் அவைக்கூடம்` on PDF 48.
 
 `index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
 
