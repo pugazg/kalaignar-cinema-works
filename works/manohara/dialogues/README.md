@@ -39,22 +39,29 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing is complete through **scenes 1–50** (`manohara-s001`–`manohara-s050`). These fifty scene shards contain **864 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–55** (`manohara-s001`–`manohara-s055`). These fifty-five scene shards contain **973 immutable labelled-dialogue records**.
 
-The tenth batch added **97 records** across scenes 46–50:
+The eleventh batch added **109 records** across scenes 51–55:
 
-- `s046`: 10 records;
-- `s047`: 10;
-- `s048`: 41;
-- `s049`: 9;
-- `s050`: 27.
+- `s051`: 14 records;
+- `s052`: 19;
+- `s053`: 28;
+- `s054`: 10;
+- `s055`: 38.
 
-The rendered source pages for this batch were reinspected directly across PDF **71–78** while constructing the dialogue shards. Two newly indexed utterances cross canonical page boundaries and remain single immutable records:
+The rendered source scan was reinspected directly across PDF **78–88** while constructing this batch.
 
-- `manohara-s048-d007` — PDF 72→73, beginning with the king's `அர : எதடி ஆண்டவன் கட்டளை?...` and continuing on the next page without a new speaker label;
-- `manohara-s048-d039` — PDF 75→76, the king's extended lament beginning `வசந்தன்! அந்த வஞ்சகியின் மகன்...` and continuing across the page break.
+Five newly indexed utterances cross physical page boundaries and remain single immutable records:
 
-The cumulative cross-page set is now **8 records**:
+- `manohara-s052-d012` — PDF 79→80;
+- `manohara-s055-d008` — PDF 83→84;
+- `manohara-s055-d014` — PDF 84→85;
+- `manohara-s055-d020` — PDF 85→86;
+- `manohara-s055-d024` — PDF 86→87.
+
+For the long `manohara-s055` speeches, `page_segments` follows the physical scan break directly, including source words divided by a page break (`பொறு`→`த்துக்கொண்டேன்`, `ஆண`→`வம்`, and `கட்டிப்`→`போட்டேன்`). No word is silently recombined inside page-specific provenance.
+
+The cumulative cross-page set is now **13 records**:
 
 - `manohara-s001-d004` — PDF 7→8;
 - `manohara-s015-d002` — PDF 28→29;
@@ -63,24 +70,44 @@ The cumulative cross-page set is now **8 records**:
 - `manohara-s036-d041` — PDF 52→53;
 - `manohara-s036-d077` — PDF 56→57;
 - `manohara-s048-d007` — PDF 72→73;
-- `manohara-s048-d039` — PDF 75→76.
+- `manohara-s048-d039` — PDF 75→76;
+- `manohara-s052-d012` — PDF 79→80;
+- `manohara-s055-d008` — PDF 83→84;
+- `manohara-s055-d014` — PDF 84→85;
+- `manohara-s055-d020` — PDF 85→86;
+- `manohara-s055-d024` — PDF 86→87.
 
-`manohara-s049-d008` keeps the immediately following unlabelled `இல்ல...இல்ல...` continuation within the preceding explicit `மனோ :` utterance, preserving the verified source sequence without creating a second inferred-speaker record.
+`manohara-s052-d003` preserves Manoharan's unlabelled continuation after the beard-removal direction inside the preceding explicit `மனோ :` utterance. `manohara-s053-d018` likewise preserves `விடு என்னை... விடு என்னை.` with its intervening source direction inside the preceding explicit `வச :` turn.
 
-`manohara-s050` preserves a new printed delimiter anomaly exactly: `பத் , தந்திரமாக தப்பிவிடுவது...` becomes `manohara-s050-d018` with `speaker_label` `பத்` and `speaker_delimiter` `,`. The following source line beginning only `: தம்பி மனோகரனிடம் சொல்—...` remains outside the dialogue index because the printed speaker field is empty; it is not assigned to Padmavati or any other inferred speaker.
+In `manohara-s055-d003`, Ugrasenan's source-unlabelled continuation `உம் கண்ணீரால் குளிப்பாட்டு உன் பிள்ளைக் கனியமுதை!` remains within the preceding explicit `உக்ர :` utterance, together with the intervening source direction, rather than being promoted to a new inferred-speaker record.
 
-Recorded source-label/delimiter anomalies are now **5**:
+Source lines beginning with an **empty** speaker field remain outside the dialogue index. This batch therefore does not infer speakers for, among others:
+
+- the four empty-label lines in `manohara-s051`, including `: வெற்றிச் செய்தியோடு வந்திருப்பான்...` and `: என்ன அக்ஷயா?...`;
+- `: மனோகரனுடைய குழந்தைக்கு நான் ஒரு முத்தம் கூட கொடுக்கக் கூடாதா?` in `manohara-s052`;
+- the two empty-label Vasanthasena threats after `சேனா : நாசமா?` in `manohara-s052`.
+
+`manohara-s051` introduces three exact semicolon-delimiter records:
+
+- `manohara-s051-d007` — `அட்சயன் ; ...`;
+- `manohara-s051-d009` — `அட் ; ...`;
+- `manohara-s051-d010` — `சேனா ; ...`.
+
+Recorded source-label/delimiter anomalies are now **8**:
 
 - `manohara-s013-d009` — `சிப்பாய் 2 - ...`;
 - `manohara-s021-d001` — `தோழி 1. ...`;
 - `manohara-s021-d003` — `தோழி 2. ...`;
 - `manohara-s026-d002` — `பிரதானி2, ...`;
-- `manohara-s050-d018` — `பத் , ...`.
+- `manohara-s050-d018` — `பத் , ...`;
+- `manohara-s051-d007` — `அட்சயன் ; ...`;
+- `manohara-s051-d009` — `அட் ; ...`;
+- `manohara-s051-d010` — `சேனா ; ...`.
 
 The previously established zero-record scene remains `manohara-s024`.
 
-The post-fidelity PDF 68 speaker-label repair remains documented in `../notes/post-fidelity-corrections.md`; no additional canonical Tamil correction was required in this batch.
+The post-fidelity PDF 68 speaker-label repair remains documented in `../notes/post-fidelity-corrections.md`; no new canonical wording correction was required in this batch.
 
-Next batch: continue with **`manohara-s051`–`manohara-s055`**. Multiple scenes should continue to be handled per activity where density permits.
+Next batch: complete dialogue indexing with **`manohara-s056`–`manohara-s057`**.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
