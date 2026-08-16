@@ -1,13 +1,13 @@
 # மனோகரா — canonical Tamil transcription
 
-**Status:** `draft` — first-pass transcription for PDF 43–54 / printed pp.42–53. This batch has not yet undergone the separate visual fidelity audit.
+**Status:** `verified` — PDF 43–54 / printed pp.42–53 completed the separate visual fidelity audit, all 48 reviewed scan-supported correction groups were applied, and the corrected range passed the post-application recheck.
 
 Source: `TVA_BOK_0010102_மனோகரா.pdf`  
 SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`
 
 The rendered scan controls every reading. The PDF OCR layer was used only for navigation. Source spelling, punctuation, speaker labels, stage directions, separators and typographical irregularities are retained as read. Doubtful readings are not repaired from film knowledge or other editions.
 
-<!-- source: pdf=43 printed=42 status=draft -->
+<!-- source: pdf=43 printed=42 status=verified -->
 
 அரசன் : வசந்தி!...நீ வரம்பு மீறிவிட்டாய்.
 
@@ -45,7 +45,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத்மா : அப்படியா சொன்னாள்! அதை அரசர் கேட்டுக் கொண்டு நின்றார்? அப்போது சத்யசீலர் அங்கே இருந்தாரா விஜயா?
 
-<!-- source: pdf=44 printed=43 status=draft -->
+<!-- source: pdf=44 printed=43 status=verified -->
 
 விஜயா : இருந்தார்.
 
@@ -83,7 +83,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 இருட்டுவேளை! பத்மாவதியின் அந்தப்புரம்! அங்கே சத்யசீலர்! அதை நேரே காணவேண்டும்! யார்? யாரடி? அரசர் காணும்படி நாம் ஏற்பாடு வேண்டும்... அதற்கு ஒரு வழி செய்யவேண்டும்... வா...
 
-<!-- source: pdf=45 printed=44 status=draft -->
+<!-- source: pdf=45 printed=44 status=verified -->
 
 [அரசர் அறை வசந்தசேனையின் தோழி கதவைத் தட்டுகிறாள்]
 
@@ -119,7 +119,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அர : வசந்தி...வேண்டாம்...வா...இங்கே
 
-<!-- source: pdf=46 printed=45 status=draft -->
+<!-- source: pdf=46 printed=45 status=verified -->
 
 வ. சே : என்னை விட்டுவிடுங்கள் — மகாராஜா — மரண முகப்பிலே ஒரு வேண்டுகோள். தயவு செய்து நிறைவேற்றுங்கள். தற்கொலை செய்துகொண்டாள் வசந்தா என்ற அவச்சொல் தங்களுக்கே வேண்டாம். தாங்களே கொன்று விடுங்கள்—இதோ (கட்டாரியைக் காண்பிக்கிறாள்). தங்கள் நினைவுகள் ஏந்திக் கொண்டிருக்கும் என் நெஞ்சிலே இதைப் பாய்ச்சுங்கள். இதைக் கத்திக் குத்தாகக் கருதமாட்டேன். என் கண்ணாளன் தந்த கடைசி முத்தமாகக் கருதுவேன். உம்...தயங்காதீர்கள்—ஏன் ஸ்வாமி தயக்கம்...
 
@@ -151,7 +151,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=47 printed=46 status=draft -->
+<!-- source: pdf=47 printed=46 status=verified -->
 
 பத்மாவதியின் அறை.
 
@@ -189,7 +189,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=48 printed=47 status=draft -->
+<!-- source: pdf=48 printed=47 status=verified -->
 
 பத்மாவதியின் அறை.
 
@@ -233,7 +233,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 ராஜ : அரசர் விடுத்த அவசர ஆணை கேட்டு அடலேறு போல வந்துகொண்டிருக்கிறான் மனோகரன்!
 
-<!-- source: pdf=49 printed=48 status=draft -->
+<!-- source: pdf=49 printed=48 status=verified -->
 
 அரசர் : ஆ!
 
@@ -265,7 +265,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அரசர் : என் கட்டளையைத் தெரிந்து கொண்டிருப்பாய் நீ
 
-<!-- source: pdf=50 printed=49 status=draft -->
+<!-- source: pdf=50 printed=49 status=verified -->
 
 மனோ : கட்டளையா இது? கரைகாண முடியாத ஆசை! பொன்னும், மணியும், மின்னும் வைரமும் பூட்டி மகிழ்ந்து, கண்ணே! முத்தே! தமிழ்ப் பண்ணே! என்றெல்லாம் குலவிக் கொஞ்சி, தந்தத்தால் ஆன கட்டிலிலே...சந்தனத் தொட்டிலிலே! வீரனே! என் விழி நிறைந்தவனே வீர வழி வந்தவனே! என்று யாரைச் சீராட்டி பாராட்டினீர்களோ... அவனை அந்த மனோகரனை சங்கிலியால் பிணைத்து சபை நடுவே நிறுத்தி சந்தோஷம் கொண்டாட வேண்டும் என்ற தங்கள் தணியாத ஆசைக்குப் பெயர் கட்டளையா தந்தையே?
 
@@ -283,7 +283,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : சம்பந்தம் இல்லாதது சபைக்கு வருவானேன்? குடும்பத் தகராறு கொலு மண்டபத்துக்கு வரும் விசித்திரத்தை சரித்திரம் இன்றுதான் முதன் முதலாக சந்திக்கிறது மகாராஜா!
 
-<!-- source: pdf=51 printed=50 status=draft -->
+<!-- source: pdf=51 printed=50 status=verified -->
 
 அரச : போதும் நிறுத்து... வசந்த விழாவில் நீ செய்த தவறுக்காக வசந்தசேனையிடம் மன்னிப்புக் கேட்க வேண்டும்.
 
@@ -309,7 +309,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : அரை நொடியென்ன? அதற்குள்ளாகவே! ஆனால் யாரிடம் மன்னிப்புக் கேட்க வேண்டும் தெரியுமா? கோமளவல்லி—கோமேதகச் சிலை—கூவும் குயில்—குதிக்கும் மான் என்றெல்லாம் உம்மால் புகழப்படும் இந்தக் கோணல் புத்திக்காரியின் கொள்விழிக் கண்களை—கொடிய நாக்கை—என் கூர்வாளுக்கு இரையாகத் தந்துவிட்டு—அதை எதிர்த்தால் உம்மையும், உமக்குப் பக்கத் துணை வந்தால் அந்தப் பட்டாச்சியையும்
 
-<!-- source: pdf=52 printed=51 status=draft -->
+<!-- source: pdf=52 printed=51 status=verified -->
 
 பிணமாக்கிவிட்டு...சூன்யக்காரிக்கு ஆலவட்டம் சுற்றியவர்களை—சுடுகாட்டுக்கனுப்பி விட்டேன்...என்று சுழலும் வாளுடன்...சூழும் புகழுடன் என் அன்னையிடம் ஓடி மன்னிப்புக் கேட்க வேண்டும். நிறைவேற்றட்டுமா—அந்த உத்திரவை?......தயார் தானா...? தயார் தானா?...
 
@@ -337,7 +337,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : புருஷோத்தமரே! புரட்டுக்காரியின் உருட்டும் விழியில் உலகத்தைக் காண்பவரே! மானமொன்றே நல் வாழ்வெனக் கொண்டு வாழ்ந்த மறவேந்தர் பரம்பரையில் மாசாக வந்தவரே! மயிலுக்கும் மந்திக்கும் வித்தியாசம் தெரியாத மதிவாணரே! குளிர் நிலவை
 
-<!-- source: pdf=53 printed=52 status=draft -->
+<!-- source: pdf=53 printed=52 status=verified -->
 
 கொள்ளிக்கட்டையெனக் கூறிய குருடரே; என் தாய் அன்பின் பிறப்பிடம்—அறநெறியின் இருப்பிடம்—கருணை வடிவம்—கற்பின் திருவுருவம்—மாசற்ற மாணிக்கம்—மாற்றுக் குறையாத தங்கம்—அவர்களை அவதூறு கூறிய உமது அங்கங்கள் பிளந்தெறிவேன்! இந்த துரோகப் பேச்சுக்கு உம்மைத் தூண்டிவிட்ட தூர்த்தையின் உடலைத் துண்டாடுவேன். துணிவிருந்தால்—தோளிலே வலுவிருந்தால் எடுத்துக் கொள்ளும் உமது வாளை—தடுத்துக் கொள்ளும் உமது சாவை! தைர்யமில்லாவிட்டால்—குலுக்குக்காரியின் குலுக்குச் சிரிப்பிலே நீர் கோழையாகி விட்டிருந்தால் ஓடிவிடும் இதைவிட்டு! புறமுதுகு காட்டி ஓடும்! புறநானூற்றின் பெருமையை மூடவந்த புழுதிக் காற்றே! புறமுதுகு காட்டி ஓடும்! கலிங்கத்துப் பரணியை மறைக்க வந்த காரிருளே! கால் பிடரியில் இடிபட ஓடும்......ஓடும்...ஓடும்...ஒலமிட்டு ஓடும்.....ஓங்காரம் கூச்சலிட்டு ஓடும்...ஏன் அவமானமாயிருக்கிறதா?
 
@@ -351,7 +351,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத் : மனோகரா!
 
-<!-- source: pdf=54 printed=53 status=draft -->
+<!-- source: pdf=54 printed=53 status=verified -->
 
 மனோ : சற்று பொறுங்கள் தாயே! (அரசரைப் பார்த்து] எங்கே ஓடப் பார்க்கிறீர்கள்? நில்லுங்கள்,
 
