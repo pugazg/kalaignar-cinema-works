@@ -96,7 +96,7 @@ structure:
       title: "முரசொலி"
 
 transcription_progress:
-  status: draft-complete
+  status: complete-verified
   first_pass_complete: true
   canonical_pdf_pages: "7-88"
   canonical_logical_printed_pages: "6-87"
@@ -106,11 +106,11 @@ transcription_progress:
   first_pass_pages_completed: 82
   first_pass_through_pdf_page: 88
   first_pass_through_logical_printed_page: 87
-  draft_pages: 10
-  verified_pages: 72
+  draft_pages: 0
+  verified_pages: 82
   review_pages: 0
-  verified_pdf_pages: "7-78"
-  verified_logical_printed_pages: "6-77"
+  verified_pdf_pages: "7-88"
+  verified_logical_printed_pages: "6-87"
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
   parts_completed: 6
@@ -123,10 +123,10 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Apply all 63 reviewed Part 06 corrections to PDF 79-88, keep the anchors draft during application, then perform a separate complete visual recheck before promotion."
+  next_action: "Construct scene index and scene-text derivatives from the verified Tamil layer using observed source transition dispositions; do not invent source scene numbers."
 
 fidelity_audit:
-  status: in-progress
+  status: complete
   ledger_path: "notes/fidelity-audit.md"
   part_03_final_record_path: "notes/fidelity-audit-part03-final.md"
   part_04_batch_09_path: "notes/fidelity-audit-part04-batch09.md"
@@ -136,6 +136,7 @@ fidelity_audit:
   part_05_batch_12_path: "notes/fidelity-audit-part05-batch12.md"
   part_05_final_record_path: "notes/fidelity-audit-part05-final.md"
   part_06_batch_13_path: "notes/fidelity-audit-part06-batch13.md"
+  part_06_final_record_path: "notes/fidelity-audit-part06-final.md"
   canonical_range_audit_complete: true
   audited_pdf_pages: "7-88"
   audited_logical_printed_pages: "6-87"
@@ -193,21 +194,28 @@ fidelity_audit:
   part_06_audited_pdf_pages: "79-88"
   part_06_audited_logical_printed_pages: "78-87"
   part_06_audited_pages: 10
-  part_06_corrections_recorded: 63
-  part_06_corrections_pending_apply: 63
-  part_06_corrections_applied: false
-  part_06_verified_pages: 0
-  correction_groups_pending_apply: 63
-  corrections_applied: true_for_parts_01_02_03_04_05
+  part_06_initial_corrections_recorded: 63
+  part_06_post_recheck_additional_corrections: 5
+  part_06_corrections_recorded: 68
+  part_06_corrections_pending_apply: 0
+  part_06_corrections_applied: true
+  part_06_initial_application_commit: "5d2002de0852930453b89153afe68e70a8d54eab"
+  part_06_recheck_corrections_commit: "2f5b88fba7329c53e53025e190fa2da2e0a78b4e"
+  part_06_post_application_recheck: passed
+  part_06_verification_commit: "0c491d98448c62300a76c5735a52416ca1204182"
+  part_06_verified_pages: 10
+  correction_groups_pending_apply: 0
+  corrections_applied: true_for_parts_01_02_03_04_05_06
   unresolved_source_readings: 0
-  next_pdf_page: 79
-  next_logical_printed_page: 78
-  verified_pages: 72
-  draft_pages: 10
+  next_pdf_page: null
+  next_logical_printed_page: null
+  verified_pages: 82
+  draft_pages: 0
   review_pages: 0
 
 structured_derivatives:
-  scene_text_derivatives: blocked
+  scene_index: not-started
+  scene_text_derivatives: not-started
   dialogue_index: blocked
   character_index: blocked
   song_authorship_mapping: blocked
@@ -215,3 +223,4 @@ structured_derivatives:
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
+  next_structured_derivative: scene-index
