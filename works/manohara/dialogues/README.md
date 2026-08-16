@@ -39,23 +39,23 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing is complete through **scenes 1–25** (`manohara-s001`–`manohara-s025`). These twenty-five scene shards contain **329 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–30** (`manohara-s001`–`manohara-s030`). These thirty scene shards contain **388 immutable labelled-dialogue records**.
 
-The fifth batch added **50 records** across scenes 21–25:
+The sixth batch added **59 records** across scenes 26–30:
 
-- `s021`: 37 records;
-- `s022`: 3;
-- `s023`: 1;
-- `s024`: 0;
-- `s025`: 9.
+- `s026`: 10 records;
+- `s027`: 4;
+- `s028`: 10;
+- `s029`: 6;
+- `s030`: 29.
 
-`manohara-s021` introduces two source-visible period-delimited speaker labels, `தோழி 1.` and `தோழி 2.`. These are preserved as `manohara-s021-d001` and `manohara-s021-d003` with `speaker_delimiter: "."`; the schema now permits the period delimiter rather than silently rewriting it as a colon.
+`manohara-s026-d002` preserves the source's comma-delimited label `பிரதானி2,` instead of silently normalizing it to a colon. It is added to the source-label/delimiter anomaly ledger.
 
-The same scene also contains source-unlabelled speech `வந்துவிட்டேனம்மா` and `“மனோகரா!”`. They remain outside the immutable dialogue index because the source prints no speaker label for them.
+`manohara-s027` intentionally leaves the quoted instruction `“விஜயா உன் கணவனை சாந்தப் படுத்து!”` outside the immutable dialogue index because the source presents it after the stage cue `(விஜயாவிடம்)` without a new printed speaker label.
 
-`manohara-s021-d017` is a cross-page record: Manoharan's labelled utterance begins on PDF 34 / logical printed p.33, continues through the attached stage direction `(கையிலுள்ள போர்வாளைக் கண்டு)`, and resumes on PDF 35 / p.34 without a new speaker label. It is therefore preserved as one record with two page segments.
+`manohara-s030` crosses the canonical Part 02 / Part 03 storage boundary. No single labelled utterance crosses the PDF 42→43 page boundary, so records remain page-local. Within PDF 42, however, the source-attached directions `[பல்லைக் கடித்து]......` and `[கட்டாரியை உருவுகிறான்]` remain embedded in the corresponding Vasanthi and Manoharan dialogue records because the same labelled utterance continues after each direction without a new speaker label.
 
-`manohara-s024` is the first zero-record scene in this work. It contains the `“பொழுது புலர்ந்தது” பாட்டு` reference and narrative action only, with no explicitly speaker-labelled utterance; its shard is retained with `record_count: 0` rather than manufacturing dialogue.
+The previously established zero-record scene remains `manohara-s024`.
 
 Cross-page dialogue records currently are:
 
@@ -67,8 +67,9 @@ Recorded source-label/delimiter anomalies currently are:
 
 - `manohara-s013-d009` — `சிப்பாய் 2 - ...`;
 - `manohara-s021-d001` — `தோழி 1. ...`;
-- `manohara-s021-d003` — `தோழி 2. ...`.
+- `manohara-s021-d003` — `தோழி 2. ...`;
+- `manohara-s026-d002` — `பிரதானி2, ...`.
 
-Next batch: continue with **`manohara-s026`–`manohara-s030`**. Multiple scenes should continue to be handled per activity where density permits.
+Next batch: continue with **`manohara-s031`–`manohara-s035`**. Multiple scenes should continue to be handled per activity where density permits.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
