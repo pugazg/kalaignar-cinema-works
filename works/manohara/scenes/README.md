@@ -6,7 +6,7 @@ The source booklet does **not** print numbered scenes. The verified canonical Ta
 
 ## Segmentation policy
 
-`notes/scene-heading-audit.md` verified **57 principal source-visible transition dispositions**, identified there as audit rows `T001`–`T057`. After the complete Tamil layer reached `complete-verified`, those 57 accepted transitions were adopted as the start points for **57 archival scene segments**.
+[`../notes/scene-heading-audit.md`](../notes/scene-heading-audit.md) verified **57 principal source-visible transition dispositions**, identified there as audit rows `T001`–`T057`. After the complete Tamil layer reached `complete-verified`, those 57 accepted transitions were adopted as the start points for **57 archival scene segments**.
 
 Important:
 
@@ -29,6 +29,6 @@ Important:
 - derivative source authority: verified canonical Tamil only;
 - next scene-text derivative: **`manohara-s008`**, the embedded play beginning on PDF 13.
 
-`index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
+`index.json` is the authoritative scene-segmentation index for this derivative layer. [`../notes/scene-heading-audit.md`](../notes/scene-heading-audit.md) remains the provenance record for why each start point exists.
 
 Dialogue indexing remains blocked until the full scene-text derivative layer is complete.
