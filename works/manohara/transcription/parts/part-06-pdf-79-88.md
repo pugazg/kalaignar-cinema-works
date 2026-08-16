@@ -1,13 +1,13 @@
 # மனோகரா — canonical Tamil transcription
 
-**Status:** `draft` — first-pass transcription for PDF 79–88 / printed pp.78–87. This batch has not yet undergone the separate visual fidelity audit.
+**Status:** `verified` — PDF 79–88 / printed pp.78–87 completed the separate visual fidelity audit; all reviewed scan-supported corrections were applied and the complete ten-page range passed the post-application visual recheck.
 
 Source: `TVA_BOK_0010102_மனோகரா.pdf`  
 SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`
 
 The rendered scan controls every reading. The PDF OCR layer was used only for navigation. Source spelling, punctuation, speaker labels, stage directions, separators and typographical irregularities are retained as read. Doubtful readings are not repaired from film knowledge or other editions.
 
-<!-- source: pdf=79 printed=78 status=draft -->
+<!-- source: pdf=79 printed=78 status=verified -->
 
 அட் : மனோகரன்!
 
@@ -57,7 +57,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : அம்மா, அப்பா சிறையிலே பூட்டப்பட்டு விட்டார். உங்கள் ஆணையை மீறமுடியாத நான் இந்தப் பாதகியின்
 
-<!-- source: pdf=80 printed=79 status=draft -->
+<!-- source: pdf=80 printed=79 status=verified -->
 
 உத்திரவுக்குப் பணிந்தேன். இந்தப் பாவியின் கரங்களால் பாதாள சிறையில் பூட்டினேன்.
 
@@ -93,7 +93,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந்தி : வேண்டாம். முதலில் குழந்தை! பிறகு மனோகரன்! அவன் கண்ணுக்கு நேராகவே அவன் கண்மணியைக் கொல்லவேண்டும். ஆயா! போ! குழந்தையைக் கொண்டுவா;
 
-<!-- source: pdf=81 printed=80 status=draft -->
+<!-- source: pdf=81 printed=80 status=verified -->
 
 (வசந்தன் வருகிறான்)
 
@@ -137,7 +137,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந்தி : வாயை மூடு
 
-<!-- source: pdf=82 printed=81 status=draft -->
+<!-- source: pdf=82 printed=81 status=verified -->
 
 வச : முடியாது.
 
@@ -177,7 +177,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=83 printed=82 status=draft -->
+<!-- source: pdf=83 printed=82 status=verified -->
 
 [மனோகரனின் முன்பு]
 
@@ -205,7 +205,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந்தி : அது உன் பூர்வ ஜன்ம வினை.
 
-<!-- source: pdf=84 printed=83 status=draft -->
+<!-- source: pdf=84 printed=83 status=verified -->
 
 பத்மா : இல்லை புருஷன் மீது வைத்த அன்பு. அவருடைய பொருள் நீ. அந்த பொருளுக்குத் தீங்கு செய்து கணவருக்கு கவலை உண்டாகக் கூடாதென்று கருதினேன். ஆனால் இன்று நீ என் கணவரையே காராகிரகத்தில் அடைத்து விட்டாய். வசந்தசேனை இன்று வரை நான் காட்டிய பொறுமையின் பேரால் கேட்கிறேன். உனக்கு நாடு தானே வேண்டும். எடுத்துக் கொள். நடத்து உன் ராஜ்யத்தை! எங்களுக்கு காடு போதும். எங்கள் எல்லாரையும் விட்டுவிடு.
 
@@ -221,7 +221,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (பத்மாவை வசந்தி அறைகிறாள்)
 
-<!-- source: pdf=85 printed=84 status=draft -->
+<!-- source: pdf=85 printed=84 status=verified -->
 
 மனோ : அம்மா!...... (அலறிவிடுகிறான்)
 
@@ -233,7 +233,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத்மா : என் அருமைச் செல்வமே! உன் தந்தையின் நன்மைக்காகத்தான் உன் வீரக் கரங்களைக் கட்டிப் போட்டேன். இந்த விஷமக்காரியின் முன்னே சிரம் தாழ்த்தி நின்றேன். யாருக்காக பொறுமை பொறுமை என்று சொல்லி வந்தேனோ அவரையே சிறையில் பூட்டிவிட்ட பிறகு பொறுமைக்கு எங்கே இருக்கிறது பெருமை? மனோகரா! பொறுத்தது போதும். பொங்கியெழு!
 
-<!-- source: pdf=86 printed=85 status=draft -->
+<!-- source: pdf=86 printed=85 status=verified -->
 
 மனோ : அம்மா!
 
@@ -247,7 +247,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத் : ஏன் சிரிக்கிறீர்கள்? செவ்வாழைத் தோட்டத்திலே குதித்தாடும் குரங்குகளே! மங்கை உருவில், மகான் உருவில், இந்த மண்ணை வளைக்க வந்த மகா பாதகர்களே! இப்படி சிரித்தவர் வாழ்ந்ததில்லை, அழுதவர் கெட்டதில்லை என்று ஜெகம் சொல்லும் சரித்திரத்தை மறந்தவர்களே! செப்படி வித்தையால் செழுந் தமிழர் செங்கோலை முறிக்க வந்த சிறு நரிக் கூட்டமே! சிரிக்காதே! கண்ணீரின் வலிமையை உணர முடியாத கயவரின்கூட்டமே! கண்ணீர் துளிகள் சாதித்ததை கத்தி முனையும் சாதித்ததில்லை என்பதை மறந்துவிட்டு சிரிக்காதே. நொந்துபோனவர் மத்தியிலே சந்து புனை சிந்து பாடும், துரோகிகளே சிரிக்காதீர்கள், சிரிக்காதீர்கள்...... ஓ தாயகத்து மண்ணே! உன் வீட்டத்து திருவிளக்கு மனோகரனைப் பார்! சோழ மாதா! உன் சுந்தரத் தோளிலே வெற்றி மாலை சூட்டிய வீராதி வீரன் துடி துடிக்கும் கொடுமையைப் பார். அன்னியப் பகைவரின் ரத்தத்தால் உன் அழகு நெற்றிக்கு திலகமிட்ட மைந்தன்—அய்யகோ! அடிமைத் தளையால் கட்டுண்டு தவிக்கும் காட்சியைப் பார். சோழ குடும்பத்தின் கொலு மண்டபமே என் வெற்றியின் உருவத்தை இந்த வீணர்கள் மத்தியிலே
 
-<!-- source: pdf=87 printed=86 status=draft -->
+<!-- source: pdf=87 printed=86 status=verified -->
 
 எவ்வளவு நேரம் தலை குனியவைக்கப் போகிறாய்? பச்சிளங் குழந்தை - பட்டத்திளவரசன்! பாராளும் மன்னன். அத்தனை பேரையும் பழிவாங்க துடிக்கும் பாதகியைத் தாங்கி நிற்கும் பூமி மாதா! நீ நன்றியுள்ளவள் என்பது உண்மையானால் மறக்குடியில் பிறந்த மாதாக்களின் கண்ணீருக்கு சக்தி உண்டென்பது உண்மையானால் மாற்றானுக்கு மண்டியிட்டறியாத மாவீரன் மனோகரன் என் மகன் என்பது உண்மையானால் இந்த சங்கிலி பொடிப்பொடியாகட்டும், அக்ரமக்காரர்களின் சிரிப்பு அடங்கட்டும், இந்த மண்டபமே இடிந்து தூள் தூளாகட்டும். தூள் தூளாகட்டும்! தூள் தூளாகட்டும்!! தூள் தூளாகட்டும்!!!
 
@@ -277,7 +277,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (வசந்தன் சாகிறான். மனோகரன் வசந்தியை கொல்லம் முயலும்போது.)
 
-<!-- source: pdf=88 printed=87 status=draft -->
+<!-- source: pdf=88 printed=87 status=verified -->
 
 கேசரி : வேண்டாம் இளவரசே! அவளை என்னிடம் விட்டு விடுங்கள். இந்த நல்ல காரியத்திற்காக நான் பல நாட்கள் காத்திருக்கிறேன். ஒரே வீச்சில் அவள் சாகக்கூடாது. இறுதி மூச்சுவரையில், கொஞ்சம்... கொஞ்சமாக கொல்ல வேண்டும். (ஓடுகிறாள் வசந்தி)
 
