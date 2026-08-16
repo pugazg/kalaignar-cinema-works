@@ -133,19 +133,67 @@ The following corrections are **recorded but not yet applied** to `transcription
 - unresolved source readings: **0**;
 - corrections applied to canonical Part 01: **no — still deferred until all PDF 7–30 pages in Part 01 are audited**;
 - verified page anchors: **0**;
-- review page anchors: **0**;
-- next visual-audit page: **PDF 25 / printed p.24**.
+- review page anchors: **0**.
+
+## Batch 4 — PDF 25–30 / printed pp.24–29
+
+Visual comparison completed for the final six pages of Part 01. Enlarged scan renders were used for the Padmavati farewell, the Vasantha Sena–Bouthayan conspiracy, the Muthu Vijayan battle, the Vijaya night-entry sequence and the opening of the Manoharan–Vijaya exchange. This completes visual-audit coverage of the whole Part 01 range, PDF 7–30.
+
+The following corrections are **recorded but not yet applied** to `transcription/parts/part-01-pdf-7-30.md`:
+
+| PDF | Printed | First-pass reading | Scan-supported reading / disposition |
+|---:|---:|---|---|
+| 25 | 24 | `அவன்மீது எனக்கு கோபம் ஏற்பட்டதேயில்லை— ... அன்புத் திருமகன்—எனக்கு அவன்...` | source prints `அவன்மீது எனக்கு கோபம் ஏற்பட்டதேயில்லே` and restores the omitted line `என்னை அவன் வெறுக்கலாம்—ஆனால் அவன்` before `எனக்கு வெண்ணிலா!...` |
+| 25 | 24 | `ரத்ன சிம்மாசனம்` | source prints `ரத்தின சிம்மாசனம்` |
+| 25 | 24 | `வீரவாள் மட்டும் என் செய்தி கூறும்!` | clear scan reading `வீரவாள் வரும் என் செய்தி கூறும்!` |
+| 25 | 24 | `மாளிகையை அடுத்து நந்தவனம்,` | `மாளிகையை அடுத்த நந்தவனம்,` |
+| 25 | 24 | `தனியாக மறைந்து யாரையோ எதிர் பார்க்கிறாள்` | source repeats the word: `தனியாக மறைந்து மறைந்து யாரையோ எதிர் பார்க்கிறாள்` |
+| 26 | 25 | `சரி...நீ போ;` | source punctuation continues after the semicolon: `சரி...நீ போ ;...` |
+| 26 | 25 | `தந்திரமாக நடந்து கொள்ளும்,` | source ends the line `தந்திரமாக நடந்து கொள்ளும்......` |
+| 26 | 25 | `நமக்கு ஆபத்து, அவனை` | source sentence break `நமக்கு ஆபத்து. அவனை` |
+| 26 | 25 | `பகைவர்கள் மீது போட்டுவிட வேண்டும்` | source prints `பகைவர்கள்மீது போட்டுவிட வேண்டும்` |
+| 26 | 25 | `போர்வாளைக் கொண்டு வருவேன்` | source word spacing `போர் வாளைக் கொண்டு வருவேன்` |
+| 26 | 25 | `பூரணகும்பம் முறிந்தது.` | source prints `பூரண கும்பம் முறிந்தது.` |
+| 27 | 26 | `முத்து விஜயனிடம், - மூர்க்கன்!` | source has no inserted dash: `முத்து விஜயனிடம், மூர்க்கன்!` |
+| 27 | 26 | `சிப்பாய் 2 : மீன்கொடி சாய்ந்துவிட்டது.` | source label/passage is `சிப்பாய் 2 - மீன் கொடி சாய்ந்துவிட்டது.` |
+| 27 | 26 | `மனோகரன் படைகள் கோட்டைச் சுவரில் ஏறுகின்றன, பலத்த எதிர்ப்பு` | source punctuation `மனோகரன் படைகள் கோட்டைச் சுவரில் ஏறுகின்றன. பலத்த எதிர்ப்பு—` |
+| 27 | 26 | `கேள்விப்பட்டிருக்கிறேன்—நீர் வீரர்` | source punctuation/form `கேள்விப்பட்டிருக்கிறேன்- நீர் வீரர்` |
+| 27 | 26 | `மனோகரன் படைகள் உள்ளே நுழைய ஆரம்பிக்கின்றன,` | source ends the sentence `மனோகரன் படைகள் உள்ளே நுழைய ஆரம்பிக்கின்றன.` |
+| 27 | 26 | `முத்து விஜயன் மனோகரன் வாளுக்கு பலியாகிறான்` | source retains trailing ellipsis: `முத்து விஜயன் மனோகரன் வாளுக்கு பலியாகிறான்......` |
+| 28 | 27 | `புலிக்கொடியை ராஜப்பிரியன் ஏற்றுவிக்கிறான்.` | source form is `புலிக் கொடியைப் ராஜப்ரியன் ஏற்றுவிக்கிறான்......` |
+| 28 | 27 | `வெற்றிச் சபதம்!` | source prints `வெற்றிசபதம்!` |
+| 29 | 28 | `நீர் வீரனானால் என்னை ஜெயித்த பிறகு பேசும்!` | `நீர் வீரனெனில் என்னை ஜெயித்த பிறகு பேசும்!` |
+| 29 | 28 | `கேலி தேவையில்லை...எடும் வாளை,` | source colloquial form `கேலி தேவையில்ல...எடும் வாளை,` |
+| 30 | 29 | `லட்சணத்தைப்பற்றி` | source historical spelling `லக்ஷணத்தைப்பற்றி` |
+| 30 | 29 | `நீ இப்போது பாதுகாப்புக் கைதி!` | restore omitted source wording: `நீ இப்போது கைதி - பாதுகாப்புக் கைதி!` |
+| 30 | 29 | `சிக்கமாட்டேன்.` | source word spacing `சிக்க மாட்டேன்.` |
+| 30 | 29 | `(உள்ளேவந்த) மனோகரன்` | source direction `(உள்ளேவந்து) மனோகரன்` |
+| 30 | 29 | `பரவாயில்லை, மரணப் புயலிலிருந்து` | source colloquial form and sentence break `பரவாயில்ல. மரணப் புயலிலிருந்து` |
+| 30 | 29 | `காப்பாற்றியிருக்கிறேன்.` | source word spacing `காப்பாற்றி யிருக்கிறேன்.` |
+
+### Batch 4 disposition
+
+- pages visually audited in this batch: **6**;
+- audited range: PDF **25–30** / printed pp. **24–29**;
+- clear correction groups recorded in this batch: **27**;
+- unresolved source readings: **0**;
+- Part 01 visual-audit coverage: **complete — PDF 7–30 / logical printed pp.6–29**;
+- cumulative Part 01 correction groups pending application: **89**;
+- corrections applied to canonical Part 01: **no — consolidated application is now the next required gate**;
+- verified page anchors: **0**;
+- review page anchors: **0**.
 
 ## Current cumulative state
 
 - canonical Tamil range: **PDF 7–88 / logical printed pp.6–87 — 82 pages**;
 - first pass: **82/82 complete (`draft-complete`)**;
-- visual audit completed through: **PDF 24 / printed p.23**;
-- visually audited pages: **18/82**;
-- correction groups pending consolidated Part 01 application: **62**;
+- visual audit completed through: **PDF 30 / printed p.29**;
+- visually audited pages: **24/82**;
+- Part 01 visual-audit coverage: **complete**;
+- correction groups pending consolidated Part 01 application: **89**;
 - unresolved source readings: **0**;
 - verified canonical pages: **0**;
 - review canonical pages: **0**;
 - structured derivatives: **blocked**.
 
-**Next:** continue the visual fidelity audit with **PDF 25–30 / printed pp.24–29**, completing Part 01. After that six-page audit, apply the accumulated PDF 7–30 scan-supported corrections in one controlled rewrite before promoting any Part 01 page anchor.
+**Next:** apply the accumulated PDF **7–30** scan-supported corrections to `transcription/parts/part-01-pdf-7-30.md` in one controlled source-led rewrite. Recheck the rewritten Part 01 against the audit ledger; if no mismatch or unresolved reading remains, promote all **24 Part 01 page anchors** from `draft` to `verified` before continuing the visual audit at PDF **31 / printed p.30**.
