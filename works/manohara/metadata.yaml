@@ -121,15 +121,22 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Begin the separate visual fidelity audit from PDF 7 / logical printed p.6."
+  next_action: "Continue the visual fidelity audit with PDF 13-18 / printed pp.12-17; keep Part 01 anchors draft until the accumulated corrections are applied."
 
 fidelity_audit:
-  status: not-started
+  status: in-progress
+  ledger_path: "notes/fidelity-audit.md"
   canonical_range_audit_complete: false
-  audit_through_pdf_page: null
-  audit_through_logical_printed_page: null
-  next_pdf_page: 7
-  next_logical_printed_page: 6
+  audited_pdf_pages: "7-12"
+  audited_logical_printed_pages: "6-11"
+  audited_pages: 6
+  audit_through_pdf_page: 12
+  audit_through_logical_printed_page: 11
+  correction_groups_pending_apply: 13
+  corrections_applied: false
+  unresolved_source_readings: 0
+  next_pdf_page: 13
+  next_logical_printed_page: 12
   verified_pages: 0
   review_pages: 0
 
