@@ -1,6 +1,6 @@
 # மனோகரா — archival scene derivatives
 
-Status: **in-progress**.
+Status: **complete-verified**.
 
 The source booklet does **not** print numbered scenes. The verified canonical Tamil therefore remains authoritative in `../transcription/parts/`; this directory is a downstream reader/navigation layer only.
 
@@ -21,26 +21,22 @@ Important:
 - Canonical storage-part boundaries do not force scene boundaries when the verified source action continues across them.
 - The opening global title/credit lines (`மனோகரா` / `திரைக்கதை வசனம்`) remain in the canonical transcription and are not repeated as a scene heading.
 
-## Current checkpoint
+## Final checkpoint
 
 - archival scene segments indexed: **57/57**;
 - source-numbered scene count: **not applicable**;
-- scene-text derivatives completed: **51/57** — `manohara-s001` through `manohara-s051`;
-- completed derivative source span: opening PDF **7** through the opening lines of PDF **79**, ending immediately before audit transition `T052` (`சிறைச்சாலை`);
-- `manohara-s016` legitimately crosses the Part 01 / Part 02 storage boundary because the source action continues from PDF 30 to PDF 31 before `T017`;
-- `manohara-s030` legitimately crosses the Part 02 / Part 03 storage boundary because the Vasantha-festival action continues onto PDF 43 before `T031`;
-- `manohara-s036` legitimately crosses the Part 03 / Part 04 storage boundary; the long royal-court sequence continues through PDF 57 and ends immediately before `T037` on PDF 58;
-- `manohara-s041` legitimately crosses the Part 04 / Part 05 storage boundary, preserving Manoharan's entry in the false-Atchayan/physician disguise through the opening of PDF 67 before `T042`;
-- `manohara-s042` preserves Ugrasenan's camp, his disguised entry with the ascetic force, and the palace takeover preparations through PDF 69;
-- `manohara-s043` preserves the cave response in which Manoharan is sent back into the palace while Rajapriyan is sent for Pandya support;
-- `manohara-s044`–`manohara-s048` preserve the Ugrasenan–Vasanthasena chamber sequence, Vijaya's childbirth/prison sequence, Vasanthan's warning to Purushothaman, the exposure of Vasanthasena and Ugrasenan, and Purushothaman's imprisonment;
-- `manohara-s049` preserves Vasanthasena's order that the disguised Manoharan kill Vijaya's newborn child and his internal refusal;
-- `manohara-s050` preserves the real Atchayan's escape, the palace conspiracy discussion, and Manoharan's failed attempt to remove Padmavati, Vijaya and the child from prison;
-- `manohara-s051` legitimately crosses the Part 05 / Part 06 storage boundary: the real Atchayan exposes the false Atchayan on PDF 78 and the recognition continues onto the opening of PDF 79 before `T052`;
+- scene-text derivatives completed: **57/57** — `manohara-s001` through `manohara-s057`;
+- derivative source span: canonical screenplay PDF **7–88 / logical printed pp.6–87**;
+- genuine cross-storage continuities preserved: **5** — `manohara-s016`, `manohara-s030`, `manohara-s036`, `manohara-s041`, and `manohara-s051`;
+- `manohara-s052` preserves the final prison capture and Padmavati's realization that Purushothaman has understood the truth;
+- `manohara-s053` preserves Manoharan bound to the pillar and Vasanthan's refusal to accept the throne obtained through violence;
+- `manohara-s054` preserves the attempt to seize Vijaya's newborn child from prison;
+- `manohara-s055` preserves the climactic confrontation from the child-sacrifice threat through Padmavati's command, the breaking of Manoharan's bonds, Ugrasenan's death, Vasanthan's death and the king's release;
+- `manohara-s056` preserves Kesari Varma's final confrontation with Vasanthasena in the cave;
+- `manohara-s057` preserves the closing palace reconciliation and final `கடமை, கண்ணியம், கட்டுப்பாடு` line;
 - boundary stars are not duplicated across derivative files;
-- derivative source authority: verified canonical Tamil only;
-- next scene-text derivative: **`manohara-s052`**, beginning with `சிறைச்சாலை` on PDF 79.
+- derivative source authority: verified canonical Tamil only.
 
 `index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
 
-Dialogue indexing remains blocked until the full scene-text derivative layer is complete.
+With all **57/57** scene texts complete-verified, the scene-text gate is closed successfully and **dialogue indexing may begin as the next structured derivative layer**. Dialogue extraction must continue to use the verified canonical/scene text without normalizing source speaker labels or silently resolving irregular labels.
