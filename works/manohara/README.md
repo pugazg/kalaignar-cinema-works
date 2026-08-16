@@ -87,28 +87,25 @@ Final scene checkpoint:
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
 
-## Dialogue index — in progress
+## Dialogue index — complete-verified
 
-The dialogue layer is active under `dialogues/` and follows the repository's established scene-sharded immutable-record model, adapted for Manohara's unnumbered source structure.
+The dialogue layer under `dialogues/` is now complete across all **57 archival scenes**.
 
-Current checkpoint:
+Final checkpoint:
 
-- dialogue scene shards completed: **55/57** — `manohara-s001` through `manohara-s055`;
-- immutable explicitly speaker-labelled dialogue records: **973**;
-- eleventh batch (`s051`–`s055`) added **109** records — `14 + 19 + 28 + 10 + 38`;
-- direct rendered-scan reinspection covered PDF **78–88** for the active batch;
-- five new cross-page dialogue records were added: `manohara-s052-d012` (PDF 79→80), `manohara-s055-d008` (PDF 83→84), `manohara-s055-d014` (PDF 84→85), `manohara-s055-d020` (PDF 85→86), and `manohara-s055-d024` (PDF 86→87), bringing the cumulative cross-page set to **13**;
-- `manohara-s055` page segments preserve the physical scan breaks even where a Tamil word is divided by the page boundary (`பொறு`→`த்துக்கொண்டேன்`, `ஆண`→`வம்`, `கட்டிப்`→`போட்டேன்`);
-- `manohara-s052-d003`, `manohara-s053-d018`, and `manohara-s055-d003` preserve genuine source-unlabelled continuations inside the preceding explicitly labelled speaker turn rather than creating inferred new speakers;
-- empty-speaker lines beginning only with `:` remain outside the dialogue index, including the empty-label lines in `s051` and `s052`;
-- `manohara-s051` adds three exact semicolon-delimiter records (`d007`, `d009`, `d010`), bringing source-label/delimiter anomaly records to **8**;
-- `manohara-s024` remains the sole zero-record scene so far;
-- `speaker_label` preserves the exact source-visible label and is never expanded or normalized at this layer;
-- source-unlabelled material is never assigned to an inferred speaker merely to increase dialogue coverage;
-- character normalization remains deferred to the later character/entity index;
-- final dialogue batch: **`manohara-s056`–`manohara-s057`**.
+- dialogue scene shards completed: **57/57** — `manohara-s001` through `manohara-s057`;
+- immutable explicitly speaker-labelled dialogue records: **983**;
+- final batch (`s056`–`s057`) added **10** records — `3 + 7`;
+- direct rendered-scan reinspection of PDF **88 / printed p.87** was completed before closing the layer;
+- cumulative cross-page dialogue records: **13**; the final batch adds none;
+- cumulative source-label/delimiter anomaly records: **8**; the final batch adds none;
+- `manohara-s056` leaves four empty-speaker `:` lines outside the dialogue inventory rather than assigning inferred speakers;
+- `manohara-s057-d001` keeps the source-unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` inside the preceding explicit king's turn;
+- `manohara-s024` is the sole zero-record scene;
+- `speaker_label` remains exact source-visible text and has not been expanded or normalized;
+- no dialogue record has been rewritten to a normalized character identity.
 
-Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
+Dialogue policy, schema and final inventory are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
 
 ## Status
 
@@ -121,12 +118,12 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
-| Dialogue index | **in-progress — 55/57 scenes, 973 records** |
-| Character index | blocked until dialogue layer |
+| Dialogue index | **complete-verified — 57/57 scenes, 983 records** |
+| Character index | ready / not-started |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
 | Reader / Reading Room integration | blocked / not-started |
 
 ## Next activity
 
-**Complete dialogue indexing with `manohara-s056` through `manohara-s057`. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
+**Begin the Manohara character/entity index from the complete-verified 983-record dialogue inventory. Build an explicit source-label inventory and derivative identity mappings without modifying the immutable dialogue shards.**
