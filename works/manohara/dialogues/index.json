@@ -6,10 +6,10 @@
   "storage": "scene-sharded",
   "source_numbered_scenes": false,
   "archival_scene_segments": 57,
-  "dialogue_records": 388,
-  "scenes_completed": 30,
+  "dialogue_records": 467,
+  "scenes_completed": 35,
   "scenes_expected": 57,
-  "completed_scene_ordinals": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+  "completed_scene_ordinals": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],
   "zero_record_scenes": [24],
   "cross_page_records": [
     "manohara-s001-d004",
@@ -22,7 +22,7 @@
     "manohara-s021-d003",
     "manohara-s026-d002"
   ],
-  "next_scene_batch": "31-35",
+  "next_scene_batch": "36-40",
   "next_structured_derivative": "dialogue-index",
   "scene_files": [
     {"scene_id":"manohara-s001","scene_ordinal":1,"transition_audit_id":"T001","file":"records/scene-001.json","record_count":10},
@@ -54,6 +54,11 @@
     {"scene_id":"manohara-s027","scene_ordinal":27,"transition_audit_id":"T027","file":"records/scene-027.json","record_count":4},
     {"scene_id":"manohara-s028","scene_ordinal":28,"transition_audit_id":"T028","file":"records/scene-028.json","record_count":10},
     {"scene_id":"manohara-s029","scene_ordinal":29,"transition_audit_id":"T029","file":"records/scene-029.json","record_count":6},
-    {"scene_id":"manohara-s030","scene_ordinal":30,"transition_audit_id":"T030","file":"records/scene-030.json","record_count":29}
+    {"scene_id":"manohara-s030","scene_ordinal":30,"transition_audit_id":"T030","file":"records/scene-030.json","record_count":29},
+    {"scene_id":"manohara-s031","scene_ordinal":31,"transition_audit_id":"T031","file":"records/scene-031.json","record_count":7},
+    {"scene_id":"manohara-s032","scene_ordinal":32,"transition_audit_id":"T032","file":"records/scene-032.json","record_count":1},
+    {"scene_id":"manohara-s033","scene_ordinal":33,"transition_audit_id":"T033","file":"records/scene-033.json","record_count":46},
+    {"scene_id":"manohara-s034","scene_ordinal":34,"transition_audit_id":"T034","file":"records/scene-034.json","record_count":12},
+    {"scene_id":"manohara-s035","scene_ordinal":35,"transition_audit_id":"T035","file":"records/scene-035.json","record_count":13}
   ]
 }
