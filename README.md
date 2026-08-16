@@ -27,7 +27,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation, the immutable dialogue inventory, the complete character/entity disposition layer, and the source-visible song/performance authorship gate. The source-linked English translation is **verified in progress through archival scene 40**.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation, the immutable dialogue inventory, the complete character/entity disposition layer, and the source-visible song/performance authorship gate. The source-linked English translation is **verified in progress through archival scene 45**.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -47,28 +47,26 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source inta
 - song/performance inventory: **6 source-visible occurrences; 1 verified / 1 review / 4 unresolved authorship**;
 - verified song authorship: **`பொழுது புலர்ந்தது` — சுரபி**;
 - Tamil song lyric derivative files: **0 — no complete lyric body is printed in this booklet**;
-- English translation: **verified in progress — 40/57 archival scenes, 818/818 verified units**;
-- English unit mix: **688 dialogue-kind / 122 stage direction / 6 song-reference / 1 chant / 1 written-text**;
-- immutable dialogue links in completed English scenes: **676/676**;
-- direct source-unlabelled spoken English units: **13**;
+- English translation: **verified in progress — 45/57 archival scenes, 923/923 verified units**;
+- English unit mix: **781 dialogue-kind / 134 stage direction / 6 song-reference / 1 chant / 1 written-text**;
+- immutable dialogue links in completed English scenes: **767/767**;
+- direct source-unlabelled spoken English units: **15**;
 - genuine cross-page English units: **10**;
 - translated song occurrences: **`manohara-song-001` through `manohara-song-006`**.
 
-The English layer continues to preserve Kalaignar's rhetorical architecture instead of flattening it into generic fluent English. The requested scenes **26–40** were checked directly against PDF **38–65 / logical printed pp.37–64** and add **401 verified units**, linking all **347/347 immutable labelled dialogue records** in that range.
+The latest requested batch **`manohara-s041`–`manohara-s045`** was checked directly against PDF **65–71 / logical printed pp.64–70**. It adds **105 verified units** and links all **91/91 immutable labelled dialogue records** in those five scenes.
 
-Scene 36 is preserved as the rhetorical centre rather than condensed. Its court confrontation retains the childhood gold/gems/diamonds and ivory-bed/sandalwood-cradle imagery, the crime-question refrain, the Parasurama contrast, Padmavathi's womb / corpse / bitter `royal fortune` / grave images, and Vijaya's rose / jasmine / suffering-waves / desert / dark-room / sorrow-lotus chain. The major speech linked to `manohara-s036-d041` keeps **Purananuru**, **Kalingathu Parani** and **abhishekam** explicit rather than domesticating them away.
+Scene 41 preserves the false-physician comic chain from `உயிரை வாங்குறே` through Yama-Dharma and Yama's buffalo, while the source-unlabelled `உமது பெயர்?` remains a null-speaker unit rather than being assigned from context. Scene 42 retains the counterfeit ascetic register, Bhagavan, the `world is a drama` turn, Mahalakshmi and Nalayini, and translates the printed `மறவு பெண்ணாசை மறக்கவேண்டும்` as it stands rather than silently replacing it from external literary knowledge. The exact scan-supported `வ. சே.` label remains untouched.
 
-Three new genuine cross-page English units preserve scene-36 physical scan boundaries: `manohara-en-s036-u035` across PDF **51→52**, `manohara-en-s036-u044` across **52→53**, and `manohara-en-s036-u080` across **56→57**.
+Scene 43 keeps the saffron-robes / knife-bearing-army / opened-sluice imagery and Satyaseelar's strength-of-mind versus military-strength contrast. Scene 44 preserves the `ஆண்டவன் / ஆண்டு கொண்டிருப்பவன்` Lord/ruler turn, the cloud / jasmine / rose accumulation, and the military/sexual palace-inner-chamber-surrender double meanings. Scene 45 keeps the source-undelimited `ஆள்......அப்படியா......` as another null-speaker unit and preserves Padmavathi's diamond-cradle / straw-enclosure and flower-feet / earth-to-gold / golden-mansion-to-dust reversals.
 
-Source-unlabelled speech remains unlabelled. Scene 27's instruction to Vijaya and scene 38's source-empty `: இப்ப நான் சொல்றபடி சொல்லணும்......` are represented with `speaker_label: null`, without invented dialogue-record IDs or inferred speakers. The scene-30 spring-festival reference links only to `manohara-song-006`; no absent lyric or external song title is imported.
-
-Scene 40 preserves Ugrasenan's full PDF-65 letter as `written-text`, including its salutation, body and signature. The `ஓலை / சாவோலை` letter/death-letter turn and the `முள்ளை முள் கொண்டு எடுப்பது போல` thorn-with-thorn strategy image remain visible in English.
+No absent lyric, inferred speaker, external devotional correction, or normalized character label was introduced. No canonical Tamil, scene, dialogue, character or song-inventory record was changed by this English batch.
 
 The final dialogue pass reinspected PDF **88 / printed p.87** directly. In `manohara-s056`, four source lines with an empty speaker field beginning only with `:` remain unassigned rather than being attributed by inference. In `manohara-s057`, the unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` remains inside the preceding explicitly labelled king's turn rather than being promoted to an invented speaker record.
 
 The earlier PDF 68 post-fidelity repair of `வ. சே. : வசந்தா!` is documented in `works/manohara/notes/post-fidelity-corrections.md`.
 
-**Next:** translate and verify **`manohara-s041`–`manohara-s045`** using the same source-linked model and voice-preservation rules.
+**Next:** translate and verify **`manohara-s046`–`manohara-s050`** using the same source-linked model and voice-preservation rules.
 
 ## Parasakthi status
 
