@@ -56,16 +56,27 @@ The complete source-order first pass is stored in six archival batches:
 
 The separate scan-led audit is **in progress**.
 
-Part 01, **PDF 7–30 / logical printed pp.6–29**, is now **complete-verified**. Four visual-audit batches recorded **89** source-supported correction groups. All 89 were applied in a controlled rewrite, the rewritten range was checked again against the ledger and rendered scans, and all **24** Part 01 page anchors were then promoted to `verified`.
+Part 01, **PDF 7–30 / logical printed pp.6–29**, is **complete-verified**. Four visual-audit batches recorded **89** source-supported correction groups. All 89 were applied in a controlled rewrite, the rewritten range was checked again against the ledger and rendered scans, and all **24** Part 01 page anchors were promoted to `verified`.
 
-Part 01 result:
+Part 02 is now halfway through its visual audit:
 
-- visually audited pages: **24**;
-- correction groups: **89 applied**;
-- post-application recheck: **passed**;
+- audited Part 02 range: **PDF 31–36 / printed pp.30–35**;
+- Part 02 audited pages: **6/12**;
+- correction groups recorded in this Part 02 batch: **24**;
+- Part 02 corrections applied: **not yet**;
 - unresolved source readings: **0**;
-- verified Part 01 pages: **24/24**;
-- next audit page: **PDF 31 / printed p.30**.
+- next audit range: **PDF 37–42 / printed pp.36–41**.
+
+The PDF 31–36 corrections include source forms such as `ஒருத்தி தான்`, `பொற்கொடி யிருப்பது`, `இதழ் கடலின் தேனலைகளை`, `ரசித்துக்கொண்டே யிருக்கிறேன்`, `அத்யாயம்`, `தேளின் கொடுக்கே!`, `ராஜப்ரியா`, the unusual source reading `அவள் உயிரோடு விடக்கூடாது!`, `ஹூம்`, and `சிறைச்சாலை வசந்தசேனையின் தோழி`. The canonical Part 02 file has deliberately **not** been rewritten yet.
+
+Cumulative fidelity state:
+
+- visually audited pages: **30/82**;
+- verified pages: **24**;
+- draft pages: **58**;
+- review pages: **0**;
+- pending Part 02 correction groups: **24**;
+- unresolved source readings: **0**.
 
 The fidelity record is in `notes/fidelity-audit.md`.
 
@@ -77,7 +88,7 @@ The fidelity record is in `notes/fidelity-audit.md`.
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — Part 01 PDF 7–30 complete-verified; 24 verified / 58 draft** |
+| Visual fidelity audit | **in-progress — PDF 7–36 audited; Part 01 verified; Part 02 6/12 audited** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -85,4 +96,4 @@ The fidelity record is in `notes/fidelity-audit.md`.
 
 ## Next activity
 
-**Begin the Part 02 visual fidelity audit at PDF 31 / printed p.30. Keep Part 02 page anchors at `draft` while its scan-supported corrections are accumulated; apply and recheck those corrections before promoting Part 02.**
+**Continue the Part 02 visual fidelity audit with PDF 37–42 / printed pp.36–41. Keep Part 02 page anchors at `draft`; after completing that range, apply the full Part 02 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 02.**
