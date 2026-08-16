@@ -27,49 +27,44 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation, the immutable dialogue inventory, the complete character/entity disposition layer, and the source-visible song/performance authorship gate. The source-linked English translation is now in a verified pilot phase.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation, the immutable dialogue inventory, the complete character/entity disposition layer, and the source-visible song/performance authorship gate. The source-linked English translation is **verified in progress through archival scene 25**.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
 - explicit edition statement: **`முதற்பதிப்பு : பிப்ரவரி 1954.`**;
 - scan: **90 PDF pages**;
 - source SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`;
-- `நாடகக் கதை`: PDF **4–5**;
-- `முன்னுரை`: PDF **6**;
 - main screenplay/dialogue: PDF **7–88 / logical printed pp.6–87** — **82 canonical pages**;
-- back matter: PDF **89–90**;
-- source-numbered scene headings: **none printed** — no scene count has been invented;
-- structural mapping: **verified**;
+- source-numbered scene headings: **none printed**;
 - canonical Tamil: **82/82 pages complete-verified**;
 - visual fidelity audit: **complete — 82/82 pages, 0 unresolved source readings**;
 - archival scene index / scene-text derivatives: **57/57 complete-verified**;
 - dialogue index: **57/57 scenes, 983 immutable labelled-dialogue records, complete-verified**;
 - cross-page dialogue records: **13**;
-- exact source-label/delimiter anomaly records: **8**;
+- source-label/delimiter anomaly records: **8**;
 - sole zero-record scene: **`manohara-s024`**;
-- character/entity exact-label inventory: **111 labels, complete**;
-- character/entity index: **complete-verified — 111/111 labels dispositioned into 37 entities/role categories**;
-- character verified entities / labels: **36 / 110**;
-- character unresolved entities / labels: **1 / 1 — `வர்மா`**;
-- song/performance inventory: **6 source-visible occurrences**;
-- song authorship: **1 verified / 1 review / 4 unresolved**;
+- character/entity index: **complete-verified — 111/111 labels dispositioned into 37 entities/role categories; `வர்மா` remains the sole unresolved label**;
+- song/performance inventory: **6 source-visible occurrences; 1 verified / 1 review / 4 unresolved authorship**;
 - verified song authorship: **`பொழுது புலர்ந்தது` — சுரபி**;
 - Tamil song lyric derivative files: **0 — no complete lyric body is printed in this booklet**;
-- English translation: **pilot-verified — 1/57 archival scenes, 12/12 pilot units verified**;
-- pilot unit mix: **10 dialogue / 2 stage direction**;
-- pilot cross-page English units: **1**.
+- English translation: **verified in progress — 25/57 archival scenes, 417/417 verified units**;
+- English unit mix: **339 dialogue-kind / 72 stage direction / 5 song-reference / 1 chant**;
+- immutable dialogue links in completed English scenes: **329/329**;
+- direct source-unlabelled spoken English units: **11**;
+- genuine cross-page English units: **7**;
+- translated song occurrences: **`manohara-song-001` through `manohara-song-005`**.
 
-The character layer preserves context-reused source labels instead of forcing false identities. `அட்` crosses the real அக்ஷயன் and மனோகரன்'s false-Akshayan disguise; `வச` and `வசந்` cross வசந்தசேனை and வசந்தன்; `சேனா` crosses nested-play தேவசேனா and outer-story வசந்தசேனை; `வர்` crosses nested-play ஈஸ்வரி வர்மன் and outer-story கேசரிவர்மன்; and generic `தோழி` forms remain contextual attendant roles. The single `வர்மா` label in scene 8 remains explicitly unresolved because the printed sequence does not support a safe physical-speaker assignment without inference.
+The English layer continues to preserve Kalaignar's rhetorical architecture instead of flattening it into generic fluent English. The requested scenes **11–25** were checked directly against PDF **23–37 / logical printed pp.22–36** and add **213 verified units**, linking all **165/165 immutable labelled dialogue records** in that range. The batch preserves the street war proclamation as a `chant`, Vasanthan's martial parody, Muthu Vijayan's `வாய் வீச்சு / வாள் வீச்சு` wordplay, Vijaya's sustained rhetorical image chains, Rajapriyan's mock-sentencing marriage reversal, and Padmavathi's maternal-oath sequence.
 
-The song gate visually checked PDF **1–6** and found no lyricist/song-credit section. The title-page `திரைக்கதை வசனம் / மு. கருணாநிதி` credit is not treated as lyric authorship. Six source-visible occurrences at PDF **9, 16, 30, 32, 37 and 41** were inventoried. Official item-level Saregama evidence verifies **`பொழுது புலர்ந்தது` — சுரபி**. `சிங்காரப் பைங்கிளியே... பேசு` remains in **review** because external sources conflict between உடுமலை நாராயண கவி and மு. கருணாநிதி; the other four occurrences remain unresolved rather than being guessed from film-wide soundtrack metadata. No external evidence modified canonical Tamil or immutable dialogue records.
+Source-unlabelled speech remains unlabelled even where dramatic context strongly suggests a speaker. New examples include the scene-20 conspiracy continuation after the gold sack and scene 21's `வந்துவிட்டேனம்மா` / quoted `மனோகரா!`. Scene 24 remains the sole zero-labelled-dialogue scene and is represented without invented dialogue.
 
-The English pilot covers `manohara-s001` across PDF **7–8 / logical printed pp.6–7**. All **10/10** immutable scene-1 dialogue records are linked exactly once, together with two source-visible stage directions. The cross-page `manohara-s001-d004` remains one English unit with page-segment provenance. The pilot explicitly preserves Kalaignar's rhetorical accumulation and theatrical voice—repetition, metaphors, pauses, forms of address and escalating invective are not flattened into generic fluent English. Decorative `★` remains structural and is not converted into invented prose.
+The song references `வாழ்வதே மாது நான்`, `சிங்காரப் பைங்கிளியே... பேசு`, and `பொழுது புலர்ந்தது` are linked only to their source-visible song occurrences; no absent lyrics are supplied. `சிங்காரப் பைங்கிளியே... பேசு` retains its disputed authorship status, while the external verification of Surabi for `பொழுது புலர்ந்தது` remains metadata rather than translation text.
 
 The final dialogue pass reinspected PDF **88 / printed p.87** directly. In `manohara-s056`, four source lines with an empty speaker field beginning only with `:` remain unassigned rather than being attributed by inference. In `manohara-s057`, the unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` remains inside the preceding explicitly labelled king's turn rather than being promoted to an invented speaker record.
 
 The earlier PDF 68 post-fidelity repair of `வ. சே. : வசந்தா!` is documented in `works/manohara/notes/post-fidelity-corrections.md`.
 
-**Next:** translate and verify **`manohara-s002`–`manohara-s005`** using the verified pilot's source-linked model and voice-preservation rules. Reinspect the rendered scan wherever a reading, page break or rhetorical nuance is uncertain.
+**Next:** translate and verify **`manohara-s026`–`manohara-s030`** using the same source-linked model and voice-preservation rules.
 
 ## Parasakthi status
 
