@@ -124,7 +124,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Translate and verify archival scenes manohara-s002 through manohara-s005 using the verified scene-1 English pilot's source-linked model and voice-preservation rules."
+  next_action: "Translate and verify archival scenes manohara-s006 through manohara-s010 using the verified source-linked English model and voice-preservation rules."
 
 fidelity_audit:
   status: complete
@@ -273,29 +273,31 @@ structured_derivatives:
   song_tamil_derivatives: not-started
   song_tamil_derivative_files: 0
   song_dialogue_records_modified: false
-  english_translation: pilot-verified
+  english_translation: verified
   english_translation_index_path: "translations/index.json"
   english_translation_schema_path: "translations/schema.json"
   english_translation_readme_path: "translations/README.md"
   english_translation_pilot_review_path: "translations/PILOT_REVIEW.md"
+  english_translation_batch_review_paths: ["translations/BATCH_002_005_REVIEW.md"]
   english_translation_record_directory: "translations/records"
   english_translation_pilot_scene: 1
-  english_translation_scenes_started: [1]
-  english_translation_scenes_verified: [1]
-  english_translation_units: 12
-  english_translation_verified_units: 12
+  english_translation_scenes_started: [1, 2, 3, 4, 5]
+  english_translation_scenes_verified: [1, 2, 3, 4, 5]
+  english_translation_units: 38
+  english_translation_verified_units: 38
   english_translation_review_units: 0
   english_translation_draft_units: 0
   english_translation_unit_kind_counts:
-    dialogue: 10
-    stage_direction: 2
-    song_reference: 0
+    dialogue: 31
+    stage_direction: 6
+    song_reference: 1
     chant: 0
     written_text: 0
-  english_translation_dialogue_source_records_expected_completed_scenes: 10
-  english_translation_dialogue_source_records_linked: 10
+  english_translation_dialogue_source_records_expected_completed_scenes: 31
+  english_translation_dialogue_source_records_linked: 31
   english_translation_cross_page_units: ["manohara-en-s001-u006"]
-  english_translation_next_scene_batch: "2-5"
+  english_translation_translated_song_occurrences: ["manohara-song-001"]
+  english_translation_next_scene_batch: "6-10"
   reader_export: blocked
   reading_room_integration: blocked
   next_structured_derivative: english-translation
