@@ -1,0 +1,122 @@
+{
+  "work_id": "manohara",
+  "target_language": "en",
+  "scene_id": "manohara-s003",
+  "archival_scene_ordinal": 3,
+  "source_scene_number": null,
+  "scene_status": "verified",
+  "unit_count": 4,
+  "units": [
+    {
+      "id": "manohara-en-s003-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/manohara/scenes/scene-003.md",
+        "canonical_scene_path": "works/manohara/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location-heading",
+          "ordinal": 1,
+          "description": "Bare source-visible location label opening the archival scene."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 8}
+        ]
+      },
+      "translation": {
+        "english_text": "In one part of the palace.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s003-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-003.md",
+        "source_record_id": "manohara-s003-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வசந்தன்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 8}
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, yes—no doubt, Vikata! The king's son is the prince! About that, I have no doubt...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The comic repetition of `சந்தேகமில்லே` is preserved because it leads directly into the named song reference."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s003-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-003.md",
+        "source_record_id": "manohara-s003-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விகடன்",
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 8}
+        ]
+      },
+      "translation": {
+        "english_text": "Vasantha! Is that the only thing we have no doubt about?... On any day, in anything, there is not even the slightest bit of doubt in us.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The intentionally absurd certainty is retained rather than rewritten into smoother logic."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s003-u004",
+      "kind": "song-reference",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/manohara/songs/inventory.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": "manohara-song-001",
+        "source_locator": {
+          "kind": "named-song-reference",
+          "ordinal": 1,
+          "description": "Parenthetical Vasanthan-Vikatan song reference immediately after their dialogue."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 9, "printed_page": 8}
+        ]
+      },
+      "translation": {
+        "english_text": "(Vasanthan and Vikatan — the ‘No Doubt’ song.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "Only the source-visible song reference is translated. No absent lyric body is supplied.",
+          "The occurrence remains linked to `manohara-song-001`, whose authorship is unresolved."
+        ]
+      }
+    }
+  ]
+}
