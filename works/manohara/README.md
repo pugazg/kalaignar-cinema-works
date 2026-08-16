@@ -78,15 +78,14 @@ Current scene checkpoint:
 
 - archival scene segments indexed: **57/57**;
 - scene index: **complete**;
-- scene-text derivatives: **16/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s016`;
-- `manohara-s008` preserves the complete embedded play from PDF **13–19**;
-- `manohara-s012` preserves the night-garden conspiracy between Vasanthasena and Bauthayan;
-- `manohara-s013` preserves the Muthu Vijayan battle and his death;
-- `manohara-s014` preserves Vijaya receiving news of her father's death;
-- `manohara-s015` preserves Vijaya's night revenge attempt, revelation and capture;
-- `manohara-s016` preserves the `வாழ்வதே மாது நான்` transition and intentionally crosses from canonical Part 01 into the opening of Part 02, ending only before `T017` on PDF 31;
-- next: `manohara-s017`, beginning with `(பாண்டியமக்கள் விசாரணை மண்டபம்)` on PDF 31;
+- scene-text derivatives: **23/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s023`;
+- `manohara-s016` preserves the genuine PDF 30→31 continuity across the Part 01 / Part 02 storage boundary;
+- `manohara-s017` preserves the Pandya inquiry and Rajapriyan's public marriage judgment;
+- `manohara-s018` ends before the separate song/boat transition `T019`;
+- `manohara-s019` preserves the `“சிங்காரப் பைங்கிளியே... பேசு”` performance/boat occurrence and failed dagger attack;
+- `manohara-s020`–`manohara-s023` preserve the Vasanthasena–Bauthayan conspiracy, the false report to Padmavati, Manoharan's oath, Vasanthasena's counter-order and Bauthayan's prison death;
+- next: `manohara-s024`, beginning with `வசந்தா-அரசர் படுக்கையறை` / `“பொழுது புலர்ந்தது” பாட்டு` on PDF 37;
 - dialogue indexing remains blocked until all scene-text derivatives are complete.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
@@ -101,7 +100,7 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
-| Scene-text derivatives | **in-progress — 16/57 complete-verified** |
+| Scene-text derivatives | **in-progress — 23/57 complete-verified** |
 | Dialogue index | blocked until scene-text layer |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
@@ -110,4 +109,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Continue scene-text derivatives from `manohara-s017` / transition `T017`, beginning with `(பாண்டியமக்கள் விசாரணை மண்டபம்)` on PDF 31. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, preserve cross-part continuity where necessary, and do not create source scene numbers or synthetic scene-ending prose.**
+**Continue scene-text derivatives from `manohara-s024` / transition `T024`, beginning with `வசந்தா-அரசர் படுக்கையறை` and the `“பொழுது புலர்ந்தது” பாட்டு` reference on PDF 37. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
