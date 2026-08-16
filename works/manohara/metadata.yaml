@@ -123,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue archival scene-text derivatives from manohara-s036 / transition T036 using only the verified Tamil layer."
+  next_action: "Continue archival scene-text derivatives from manohara-s037 / transition T037 using only the verified Tamil layer."
 
 fidelity_audit:
   status: complete
@@ -220,10 +220,10 @@ structured_derivatives:
   source_numbered_scene_count: null
   archival_scene_segments: 57
   scene_text_derivatives: in-progress
-  scene_text_files_completed: 35
-  scene_text_completed_ordinals: "1-35"
-  scene_text_next_ordinal: 36
-  scene_text_cross_part_continuities_preserved: 2
+  scene_text_files_completed: 36
+  scene_text_completed_ordinals: "1-36"
+  scene_text_next_ordinal: 37
+  scene_text_cross_part_continuities_preserved: 3
   dialogue_index: blocked
   character_index: blocked
   song_authorship_mapping: blocked
