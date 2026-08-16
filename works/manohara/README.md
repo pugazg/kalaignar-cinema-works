@@ -129,26 +129,31 @@ The booklet prints no complete standalone lyric body for any occurrence, so ther
 
 ## English translation — verified in progress
 
-The English derivative now covers archival scenes **1–25 of 57**. These are archive navigation segments only; the booklet still prints no scene numbers.
+The English derivative now covers archival scenes **1–40 of 57**. These are archive navigation segments only; the booklet still prints no scene numbers.
 
-Current checkpoint: **417/417 verified source-linked units / 0 review / 0 draft**:
+Current checkpoint: **818/818 verified source-linked units / 0 review / 0 draft**:
 
-- **339 dialogue-kind units**;
-- **72 stage-direction units**;
-- **5 song-reference units**;
+- **688 dialogue-kind units**;
+- **122 stage-direction units**;
+- **6 song-reference units**;
 - **1 chant unit**;
-- **329/329 immutable labelled dialogue records** in completed scenes linked exactly once;
-- **11 direct source-unlabelled spoken units**, all retaining `speaker_label: null`;
-- **7 genuine cross-page English units**;
-- translated source-visible song occurrences: `manohara-song-001` through `manohara-song-005`.
+- **1 written-text unit**;
+- **676/676 immutable labelled dialogue records** in completed scenes linked exactly once;
+- **13 direct source-unlabelled spoken units**, all retaining `speaker_label: null`;
+- **10 genuine cross-page English units**;
+- all **6** source-visible song/performance occurrences translated at the reference level.
 
 The verified scene-1 pilot remains the voice template: Kalaignar's repetition, rhetorical accumulation, metaphor, theatrical pauses, address vocabulary, comic/formal register differences and heightened invective are preserved rather than smoothed into generic fluent English.
 
-The requested scenes **11–25** were checked directly against PDF **23–37 / logical printed pp.22–36** and add **213 verified units**, linking all **165/165 immutable labelled dialogue records** in those fifteen scenes. Three batch reviews (`BATCH_011_015_REVIEW.md`, `BATCH_016_020_REVIEW.md`, `BATCH_021_025_REVIEW.md`) document the source and voice decisions.
+The requested scenes **26–40** were checked directly against PDF **38–65 / logical printed pp.37–64** and add **401 verified units**, linking all **347/347 immutable labelled dialogue records** in those fifteen scenes. Three batch reviews (`BATCH_026_030_REVIEW.md`, `BATCH_031_035_REVIEW.md`, `BATCH_036_040_REVIEW.md`) document the source and voice decisions.
 
-Important decisions in this checkpoint include the source-labelled war proclamation as a `chant`; preservation of Vasanthan's martial parody, Muthu Vijayan's `வாய் வீச்சு / வாள் வீச்சு` wordplay and Vijaya's sustained image chains; three new cross-page units through scene 15 plus the scene-21 PDF **34→35** dialogue crossing; and three new source-unlabelled spoken units in scenes 20–21 that remain null-speaker rather than being assigned by inference.
+Scene 36 is preserved as the rhetorical centre of the work rather than condensed. Its long court confrontation retains the childhood endearment and cradle imagery, crime-question refrain, Parasurama contrast, Padmavathi's womb / corpse / bitter `royal fortune` / grave images, and Vijaya's rose / jasmine / suffering-waves / desert / dark-room / sorrow-lotus chain. The major `manohara-s036-d041` speech keeps **Purananuru**, **Kalingathu Parani** and **abhishekam** explicit, along with its mother-as-love/righteousness/compassion/chastity/gem/gold accumulation.
 
-Song references `வாழ்வதே மாது நான்`, `சிங்காரப் பைங்கிளியே... பேசு`, and `பொழுது புலர்ந்தது` are now linked to `manohara-song-003`, `004`, and `005` respectively. Only the text printed in this booklet is translated; no absent lyrics are supplied. Scene 24 remains the sole zero-labelled-dialogue scene and is represented without invented dialogue.
+Three new cross-page English units in scene 36 preserve the physical scan boundaries: `manohara-en-s036-u035` across PDF **51→52**, `manohara-en-s036-u044` across **52→53**, and `manohara-en-s036-u080` across **56→57**.
+
+Source-empty speech remains unlabelled. Scene 27's `விஜயா உன் கணவனை சாந்தப் படுத்து!` and scene 38's `: இப்ப நான் சொல்றபடி சொல்லணும்......` are represented with `speaker_label: null`, without invented dialogue-record IDs or inferred speakers.
+
+The scene-30 spring-festival performance is linked only to `manohara-song-006`; no absent lyric or external title is imported. Scene 40 preserves Ugrasenan's full PDF-65 letter as a `written-text` unit with its source salutation, body and signature. `ஓலை / சாவோலை` remains a letter/death-letter turn, and `முள்ளை முள் கொண்டு எடுப்பது போல` remains the source's thorn-with-thorn strategy image.
 
 No canonical Tamil, scene, dialogue, character or song-inventory record has been changed by the English layer.
 
@@ -167,9 +172,9 @@ No canonical Tamil, scene, dialogue, character or song-inventory record has been
 | Character index | **complete-verified — 111/111 labels dispositioned, 37 entities, 1 unresolved label** |
 | Song/performance authorship | **complete-with-unresolved-authorship — 6 occurrences; 1 verified / 1 review / 4 unresolved** |
 | Tamil song lyric derivatives | **0 — no complete lyric body printed** |
-| English translation | **verified in progress — 25/57 scenes, 417 verified units** |
+| English translation | **verified in progress — 40/57 scenes, 818 verified units** |
 | Reader / Reading Room integration | blocked / not-started |
 
 ## Next activity
 
-**Translate and verify `manohara-s026`–`manohara-s030` using the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a page crossing, empty speaker field, performance/song boundary, courtly address, comic phrase or rhetorical image is uncertain.**
+**Translate and verify `manohara-s041`–`manohara-s045` using the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a page crossing, empty speaker field, letter/performance boundary, courtly address, comic phrase or rhetorical image is uncertain.**
