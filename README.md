@@ -63,7 +63,9 @@ No canonical Tamil, scene, dialogue, character or song-inventory record was chan
 
 The **Manohara English reader/export preflight now passes** across all 57 scene records and 1,190 verified units: 983/983 immutable dialogue links exactly once, 27 null-speaker spoken units, 17 cross-page units and all 6 song/performance links, with zero missing/extra/duplicate dialogue links, synthetic scene-end units, direct structural-star units, page-order regressions, unit-ID errors or provenance/scene-metadata errors.
 
-**Next:** generate deterministic Manohara English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON; run generated-output QA and write an integrity manifest before Reading Room integration.
+The deterministic **Manohara English reader/export package now passes generated-output QA**: Markdown, standalone HTML and machine-readable JSON each contain all 1,190 verified units exactly once, with an integrity manifest recording reproducible input/output hashes. No canonical Tamil or structured source derivative was changed.
+
+**Next:** integrate the verified Manohara English reader into the Kalaignar Digital Library / Reading Room, preserving the 57 scene IDs strictly as archival navigation rather than source numbering.
 
 ## Parasakthi status
 

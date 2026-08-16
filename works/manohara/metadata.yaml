@@ -124,7 +124,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Generate deterministic English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON; run generated-output QA and write an integrity manifest before Reading Room integration."
+  next_action: "Integrate the complete-verified Manohara English reader derivative into the Reading Room using verified structured data; keep the repository reader package as the reproducible publication/export checkpoint."
 
 fidelity_audit:
   status: complete
@@ -313,6 +313,20 @@ structured_derivatives:
   english_reader_preflight_structural_star_units: 0
   english_reader_preflight_page_order_regressions: 0
   english_reader_preflight_unit_id_errors: 0
-  reader_export: ready-after-preflight
-  reading_room_integration: blocked-pending-reader-export-generation-and-qa
-  next_structured_derivative: reader-export
+  reader_export: complete-verified
+  english_reader_edition_path: "editions/en"
+  english_reader_build_script_path: "editions/en/build.py"
+  english_reader_qa_report_path: "editions/en/QA_REPORT.md"
+  english_reader_manifest_path: "editions/en/manifest.json"
+  english_reader_markdown_path: "editions/en/reader-edition.md"
+  english_reader_html_path: "editions/en/reader-edition.html"
+  english_reader_json_path: "editions/en/reader-edition.json"
+  english_reader_translation_units: 1190
+  english_reader_dialogue_links: 983
+  english_reader_source_unlabelled_spoken_units: 27
+  english_reader_cross_page_units: 17
+  english_reader_song_occurrence_links: 6
+  english_reader_qa_status: PASS
+  english_reader_deterministic: true
+  reading_room_integration: ready-after-reader-export-qa
+  next_structured_derivative: reading-room-integration

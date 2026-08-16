@@ -83,4 +83,8 @@ Scene 57 preserves the source-unlabelled `பத்மா! என் இதய�
 
 The whole-work automated preflight passed across all **57** scene records and **1,190** verified units. It independently confirmed **983/983 immutable dialogue links exactly once**, all **27** null-speaker spoken units, all **17** cross-page units, and all **6/6** song/performance occurrence links. Diagnostics found **0** missing/extra/duplicate dialogue links, **0** synthetic `(Scene ends.)` units, **0** units derived directly from decorative stars, **0** page-order regressions, **0** unit-ID errors and **0** provenance/scene-metadata errors. See `../editions/en/PREFLIGHT_QA_REPORT.md`.
 
-**Next:** generate deterministic publication-facing Markdown, standalone HTML and machine-readable JSON; then run generated-output QA and write an integrity manifest before Reading Room integration.
+## Reader/export package — PASS
+
+The deterministic publication-facing derivatives are now complete under `../editions/en/`: Markdown, standalone HTML and machine-readable JSON each contain all **1,190** verified English units exactly once. Generated-output QA and the integrity manifest both pass; exact **983/983** dialogue linkage, **27** null-speaker spoken units, **17** cross-page units and **6/6** song/performance links are preserved.
+
+**Next:** integrate this verified structured derivative into the Reading Room; do not infer source scene numbering from the archive's 57 navigation segments.

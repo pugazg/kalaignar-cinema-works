@@ -99,13 +99,19 @@ The detailed final reviews are:
 | Tamil song lyric derivatives | **0 — no complete lyric body printed** |
 | English translation | **complete-verified — 57/57 scenes, 1,190 units** |
 | English reader/export preflight | **complete-pass — 57 scenes / 1,190 units / 983 dialogue links** |
-| English reader/export generation | **ready / not-started** |
-| Reading Room integration | blocked pending generated reader/export QA |
+| English reader/export generation | **complete-verified — Markdown / HTML / JSON / manifest** |
+| Reading Room integration | **ready after reader/export QA** |
 
 ## Reader/export preflight — PASS
 
 The automated whole-work gate passed across **57/57 scene records and 1,190/1,190 verified units**. It confirmed **983/983 immutable dialogue links exactly once**, **27** null-speaker spoken units, **17** genuine cross-page units and **6/6** song/performance links, with **0** missing/extra/duplicate dialogue links, **0** synthetic scene-end units, **0** direct structural-star units, **0** page-order regressions, **0** unit-ID errors and **0** provenance/scene-metadata errors. The reproducible diagnostic and full disposition are under `editions/en/`.
 
+## Reader/export package — PASS
+
+The deterministic English reader/export package is now **complete-verified**. `editions/en/reader-edition.md`, `reader-edition.html` and `reader-edition.json` each contain all **1,190** verified English units exactly once. Generated-output QA confirms exact **983/983** immutable dialogue linkage, all **27** source-unlabelled spoken units, all **17** cross-page units and all **6/6** song/performance links. `editions/en/manifest.json` records deterministic input/output hashes and `editions/en/QA_REPORT.md` records the PASS disposition.
+
+No canonical Tamil, scene, dialogue, character or song-inventory layer was modified by reader generation.
+
 ## Next activity
 
-Generate the deterministic **English reader/export package** in Markdown, standalone HTML and machine-readable JSON, then run generated-output QA and write an integrity manifest before Reading Room integration.
+Integrate the verified structured Manohara English reader into the **Kalaignar Digital Library / Reading Room**, preserving archival-scene labelling as derivative navigation because the booklet prints no scene numbers.
