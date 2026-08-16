@@ -95,12 +95,8 @@ Final checkpoint:
 
 - dialogue scene shards completed: **57/57** — `manohara-s001` through `manohara-s057`;
 - immutable explicitly speaker-labelled dialogue records: **983**;
-- final batch (`s056`–`s057`) added **10** records — `3 + 7`;
-- direct rendered-scan reinspection of PDF **88 / printed p.87** was completed before closing the layer;
-- cumulative cross-page dialogue records: **13**; the final batch adds none;
-- cumulative source-label/delimiter anomaly records: **8**; the final batch adds none;
-- `manohara-s056` leaves four empty-speaker `:` lines outside the dialogue inventory rather than assigning inferred speakers;
-- `manohara-s057-d001` keeps the source-unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` inside the preceding explicit king's turn;
+- cumulative cross-page dialogue records: **13**;
+- cumulative source-label/delimiter anomaly records: **8**;
 - `manohara-s024` is the sole zero-record scene;
 - `speaker_label` remains exact source-visible text and has not been expanded or normalized;
 - no dialogue record has been rewritten to a normalized character identity.
@@ -109,66 +105,52 @@ Dialogue policy, schema and final inventory are recorded in `dialogues/README.md
 
 ## Character/entity index — complete-verified
 
-The character layer is now closed across the complete 983-record dialogue inventory.
+The character layer is closed across the complete 983-record dialogue inventory:
 
-Final checkpoint:
-
-- exact-label inventory: **111 distinct non-empty source labels** across all **57** scene shards;
+- exact-label inventory: **111 distinct non-empty source labels**;
 - exact labels dispositioned: **111/111**;
 - stable entities / role categories: **37**;
-- verified entities: **36**;
-- unresolved entities: **1**;
-- verified source labels: **110**;
-- unresolved source labels: **1 — `வர்மா`**;
+- verified entities / labels: **36 / 110**;
+- unresolved entities / labels: **1 / 1 — `வர்மா`**;
 - remaining unmapped labels: **0**;
 - dialogue records modified by character normalization: **0**.
 
-The final pass preserves context-reused shorthand as context-safe role entities instead of forcing false one-to-one identities. `அட்` crosses the real அக்ஷயன் and மனோகரன் in disguise; `வச` and `வசந்` cross வசந்தசேனை and வசந்தன்; `சேனா` crosses nested-play தேவசேனா and outer-story வசந்தசேனை; `வர்` crosses nested-play ஈஸ்வரி வர்மன் and outer-story கேசரிவர்மன்; and generic `தோழி` forms remain attendant/friend roles rather than one named woman.
+Context-reused shorthand remains context-safe instead of being forced into false identities. The nested-play identities stay distinct from the outer story, and `வர்மா` in `manohara-s008-d003` remains unresolved because the printed sequence does not support a safe physical-speaker assignment without inference.
 
-The nested-play identities are explicitly dispositioned without collapsing them into the outer story: `அஜயன்`, `ஈஸ்வரி வர்மன்`, `உத்தம புருஷன்`, `கமலாவதி`, and `தேவசேனா` now have verified mappings. Scene 42's `வீர` is mapped to **வீரசிம்ஹன்** because உக்ரசேனன் addresses him as `வீரசிம்ஹா!` immediately before the response. `அரூபம்` / `அரூ` are mapped to **கேசரிவர்மன்** from source-internal continuity with the guru-created invisibility medicine established in scene 1 and described again by the invisible speaker in scene 39.
-
-One label remains intentionally unresolved: `வர்மா` in `manohara-s008-d003`. The printed nested-play sequence does not justify assigning it confidently to ஈஸ்வரி வர்மன், உத்தம புருஷன், or another physical speaker without inference, so the source form remains explicit rather than being silently repaired.
-
-Character policy and final files are under `characters/`: `README.md`, `schema.json`, `labels-inventory.json`, `entities-pilot.json`, `entities.json`, and `index.json`.
+Character policy and final files are under `characters/`.
 
 ## Song / performance authorship gate — complete with unresolved authorship
 
-The song/performance gate is closed for the evidence presently available. PDF **1–6** was visually inspected first: the booklet prints `திரைக்கதை வசனம் / மு. கருணாநிதி`, but **no lyricist heading, song-contributor list or item-level song credit**. The screenplay-dialogue credit is therefore not reused as lyric authorship.
+PDF **1–6** was visually inspected first: the booklet prints `திரைக்கதை வசனம் / மு. கருணாநிதி`, but **no lyricist heading, song-contributor list or item-level song credit**. The screenplay-dialogue credit is therefore not reused as lyric authorship.
 
-Six source-visible occurrences were verified at PDF **9, 16, 30, 32, 37 and 41** and recorded in `songs/inventory.json`:
+Six source-visible occurrences were verified at PDF **9, 16, 30, 32, 37 and 41**. Final gate totals are **6 occurrences / 1 verified / 1 review / 4 unresolved**. `பொழுது புலர்ந்தது` is the sole item with verified lyricist evidence (**சுரபி**); `சிங்காரப் பைங்கிளியே... பேசு` remains in review because external attributions conflict. No external evidence modified canonical Tamil, scene text or dialogue records.
 
-- `சந்தேகமில்லே` — named reference, authorship **unresolved**;
-- nested-play `நிலாவிலே ! சல்லாபமே!!` — authorship **unresolved**;
-- `வாழ்வதே மாது நான்` — authorship **unresolved**;
-- `சிங்காரப் பைங்கிளியே... பேசு` — **review**, because external attributions conflict between உடுமலை நாராயண கவி and மு. கருணாநிதி;
-- `பொழுது புலர்ந்தது` — **சுரபி, verified** from item-level official Saregama evidence;
-- the PDF 41 `வசந்த விழாக் கொண்டாட்டம். பாட்டுகள்...` / Manoharan–Vijaya singing sequence — authorship **unresolved** and linked only by context, not guessed onto a soundtrack title.
-
-Final gate totals: **6 occurrences / 1 verified / 1 review / 4 unresolved**. External evidence did **not** modify canonical Tamil, scene text or the 983 immutable dialogue records.
-
-The booklet prints **no complete standalone lyric body** for any of the six occurrences. Accordingly there are **0 reconstructed Tamil song files**: missing lyrics are not imported from recordings, streaming services, record catalogs, websites, later editions or another booklet. `songs/README.md` documents the evidence policy and all dispositions.
+The booklet prints no complete standalone lyric body for any occurrence, so there are **0 reconstructed Tamil song files**. `songs/README.md` documents the evidence policy and all dispositions.
 
 ## English translation — verified in progress
 
-The English derivative under `translations/` now covers archival scenes **1–10 of 57**. These are archive navigation segments only; the booklet still prints no scene numbers.
+The English derivative now covers archival scenes **1–25 of 57**. These are archive navigation segments only; the booklet still prints no scene numbers.
 
-The translation has **204/204 verified source-linked units** with **0 review / 0 draft**:
+Current checkpoint: **417/417 verified source-linked units / 0 review / 0 draft**:
 
-- **172 dialogue-kind units**;
-- **30 stage-direction units**;
-- **2 song-reference units**;
-- **164/164 immutable labelled dialogue records** in completed scenes linked exactly once;
-- **8 direct source-unlabelled spoken units**, all retaining `speaker_label: null`;
-- **3 genuine cross-page English units**;
-- translated source-visible song occurrences: `manohara-song-001` and `manohara-song-002`.
+- **339 dialogue-kind units**;
+- **72 stage-direction units**;
+- **5 song-reference units**;
+- **1 chant unit**;
+- **329/329 immutable labelled dialogue records** in completed scenes linked exactly once;
+- **11 direct source-unlabelled spoken units**, all retaining `speaker_label: null`;
+- **7 genuine cross-page English units**;
+- translated source-visible song occurrences: `manohara-song-001` through `manohara-song-005`.
 
 The verified scene-1 pilot remains the voice template: Kalaignar's repetition, rhetorical accumulation, metaphor, theatrical pauses, address vocabulary, comic/formal register differences and heightened invective are preserved rather than smoothed into generic fluent English.
 
-The second scaling batch, scenes **6–10**, was checked directly against PDF **10–23 / logical printed pp.9–22**. It adds **166 verified units** and links all **133/133** labelled dialogue records in those scenes. Scene 8 retains the play-within-the-play as a distinct dramatic layer and keeps source-empty speaker fields unlabelled even where stage context suggests a likely speaker. Its two new cross-page units preserve the PDF **13→14** reported message and PDF **18→19** final accusation as single English units.
+The requested scenes **11–25** were checked directly against PDF **23–37 / logical printed pp.22–36** and add **213 verified units**, linking all **165/165 immutable labelled dialogue records** in those fifteen scenes. Three batch reviews (`BATCH_011_015_REVIEW.md`, `BATCH_016_020_REVIEW.md`, `BATCH_021_025_REVIEW.md`) document the source and voice decisions.
 
-The scene-8 love-song reference `நிலாவிலே ! சல்லாபமே!!` is linked to `manohara-song-002`; only the source-visible title/refrain is translated and no missing lyrics are supplied. The exact `வர்மா` label remains unresolved and unchanged by translation.
+Important decisions in this checkpoint include the source-labelled war proclamation as a `chant`; preservation of Vasanthan's martial parody, Muthu Vijayan's `வாய் வீச்சு / வாள் வீச்சு` wordplay and Vijaya's sustained image chains; three new cross-page units through scene 15 plus the scene-21 PDF **34→35** dialogue crossing; and three new source-unlabelled spoken units in scenes 20–21 that remain null-speaker rather than being assigned by inference.
 
-`translations/PILOT_REVIEW.md`, `translations/BATCH_002_005_REVIEW.md`, and `translations/BATCH_006_010_REVIEW.md` record the verified translation decisions and integrity checks. No canonical Tamil, scene, dialogue, character or song-inventory record has been changed by the English layer.
+Song references `வாழ்வதே மாது நான்`, `சிங்காரப் பைங்கிளியே... பேசு`, and `பொழுது புலர்ந்தது` are now linked to `manohara-song-003`, `004`, and `005` respectively. Only the text printed in this booklet is translated; no absent lyrics are supplied. Scene 24 remains the sole zero-labelled-dialogue scene and is represented without invented dialogue.
+
+No canonical Tamil, scene, dialogue, character or song-inventory record has been changed by the English layer.
 
 ## Status
 
@@ -185,9 +167,9 @@ The scene-8 love-song reference `நிலாவிலே ! சல்லாப�
 | Character index | **complete-verified — 111/111 labels dispositioned, 37 entities, 1 unresolved label** |
 | Song/performance authorship | **complete-with-unresolved-authorship — 6 occurrences; 1 verified / 1 review / 4 unresolved** |
 | Tamil song lyric derivatives | **0 — no complete lyric body printed** |
-| English translation | **verified in progress — 10/57 scenes, 204 verified units** |
+| English translation | **verified in progress — 25/57 scenes, 417 verified units** |
 | Reader / Reading Room integration | blocked / not-started |
 
 ## Next activity
 
-**Translate and verify `manohara-s011`–`manohara-s015` using the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a proclamation/chant boundary, unlabelled speech, courtly register, comic phrase, page crossing or rhetorical image is uncertain.**
+**Translate and verify `manohara-s026`–`manohara-s030` using the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a page crossing, empty speaker field, performance/song boundary, courtly address, comic phrase or rhetorical image is uncertain.**
