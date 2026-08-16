@@ -56,18 +56,19 @@ The complete source-order first pass is stored in six archival batches:
 
 ## Visual fidelity audit
 
-The separate scan-led audit is **in progress**. Three six-page batches have now visually compared **PDF 7–24 / logical printed pp.6–23** against the stored Part 01 text.
+The separate scan-led audit is **in progress**. Four six-page batches have now visually compared the complete Part 01 range, **PDF 7–30 / logical printed pp.6–29**, against the stored canonical first pass.
 
-- visually audited pages: **18/82**;
-- cumulative clear correction groups recorded: **62**;
+- visually audited pages: **24/82**;
+- Part 01 visual-audit coverage: **complete**;
+- cumulative clear correction groups recorded for Part 01: **89**;
 - unresolved source readings: **0**;
 - corrections applied to canonical Part 01: **not yet**;
 - verified page anchors: **0**;
-- next audit range: **PDF 25–30 / printed pp.24–29**.
+- next source page after Part 01: **PDF 31 / printed p.30**, but the Part 01 corrections must be applied and rechecked before continuing.
 
-The corrections are recorded in `notes/fidelity-audit.md`. Batch 3 preserves source-visible colloquial and typographic forms such as `வெட்கமில்ல`, `இல்லே`, `ஒன்றுமில்ல`, `உதிரவில்லே`, `நாடகத்திலே வந்த வாள்`, `பாதகி வசந்த சேனையாலுந்தான்`, repeated `சந்தேகமில்லே`, the clear reading `பால்குடித்த கெண்டியை`, and `வரச்சொல்லி யிருக்கிறேன்`. It also records punctuation and spacing that the first pass had normalized, including the PDF 23 proclamation and war-speech punctuation.
+The corrections are recorded in `notes/fidelity-audit.md`. Batch 4 includes several substantial source restorations: the omitted `என்னை அவன் வெறுக்கலாம்—ஆனால் அவன்`, `ரத்தின சிம்மாசனம்`, `வீரவாள் வரும் என் செய்தி கூறும்!`, the repeated `மறைந்து மறைந்து`, `மீன் கொடி`, `புலிக் கொடியைப் ராஜப்ரியன்`, `நீர் வீரனெனில்`, historical spelling `லக்ஷணத்தைப்பற்றி`, the omitted `கைதி - பாதுகாப்புக் கைதி!`, and the source forms `(உள்ளேவந்து)` and `பரவாயில்ல.`.
 
-The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have been audited and the accumulated corrections are applied in one controlled rewrite.
+The Part 01 anchors deliberately remain `draft` because those 89 scan-supported corrections have not yet been written back to `transcription/parts/part-01-pdf-7-30.md`. The next gate is a controlled consolidated rewrite followed by a post-application check.
 
 ## Status
 
@@ -77,7 +78,7 @@ The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have 
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil transcription | **draft-complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — PDF 7–24 audited, 62 correction groups pending apply** |
+| Visual fidelity audit | **in-progress — Part 01 PDF 7–30 fully audited; 89 corrections pending apply** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -85,4 +86,4 @@ The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have 
 
 ## Next activity
 
-**Continue the visual fidelity audit with PDF 25–30 / printed pp.24–29, completing Part 01. After that batch, apply the accumulated PDF 7–30 corrections in one controlled scan-led rewrite before promoting any Part 01 page anchor.**
+**Apply all 89 recorded PDF 7–30 corrections to `transcription/parts/part-01-pdf-7-30.md` in one controlled source-led rewrite. Recheck the rewritten Part 01 against the scan-led audit ledger; if it passes with no unresolved reading, promote all 24 Part 01 page anchors from `draft` to `verified` before continuing the visual audit at PDF 31 / printed p.30.**
