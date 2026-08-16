@@ -6,22 +6,38 @@
   "storage": "scene-sharded",
   "source_numbered_scenes": false,
   "archival_scene_segments": 57,
-  "dialogue_records": 31,
-  "scenes_completed": 5,
+  "dialogue_records": 164,
+  "scenes_completed": 10,
   "scenes_expected": 57,
-  "completed_scene_ordinals": [1, 2, 3, 4, 5],
+  "completed_scene_ordinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
   "zero_record_scenes": [],
   "cross_page_records": [
     "manohara-s001-d004"
   ],
   "source_label_anomaly_records": [],
-  "next_scene_batch": "6-10",
+  "next_scene_batch": "11-15",
   "next_structured_derivative": "dialogue-index",
   "scene_files": [
     {"scene_id":"manohara-s001","scene_ordinal":1,"transition_audit_id":"T001","file":"records/scene-001.json","record_count":10},
     {"scene_id":"manohara-s002","scene_ordinal":2,"transition_audit_id":"T002","file":"records/scene-002.json","record_count":3},
     {"scene_id":"manohara-s003","scene_ordinal":3,"transition_audit_id":"T003","file":"records/scene-003.json","record_count":2},
     {"scene_id":"manohara-s004","scene_ordinal":4,"transition_audit_id":"T004","file":"records/scene-004.json","record_count":1},
-    {"scene_id":"manohara-s005","scene_ordinal":5,"transition_audit_id":"T005","file":"records/scene-005.json","record_count":15}
+    {"scene_id":"manohara-s005","scene_ordinal":5,"transition_audit_id":"T005","file":"records/scene-005.json","record_count":15},
+    {"scene_id":"manohara-s006","scene_ordinal":6,"transition_audit_id":"T006","file":"records/scene-006.json","record_count":18},
+    {"scene_id":"manohara-s007","scene_ordinal":7,"transition_audit_id":"T007","file":"records/scene-007.json","record_count":13},
+    {"scene_id":"manohara-s008","scene_ordinal":8,"transition_audit_id":"T008","file":"records/scene-008.json","record_count":58},
+    {"scene_id":"manohara-s009","scene_ordinal":9,"transition_audit_id":"T009","file":"records/scene-009.json","record_count":36},
+    {"scene_id":"manohara-s010","scene_ordinal":10,"transition_audit_id":"T010","file":"records/scene-010.json","record_count":8}
   ]
 }
