@@ -123,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue the Manohara character/entity index by disposing the remaining 60 exact source labels into verified characters, context-safe roles/collectives, or explicit review/unresolved entities. Keep all 983 dialogue records immutable."
+  next_action: "Begin the Manohara source-visible song/performance inventory and per-song authorship mapping gate. Use booklet evidence first and do not infer lyric authorship from the screenplay/dialogue credit."
 
 fidelity_audit:
   status: complete
@@ -236,19 +236,27 @@ structured_derivatives:
   dialogue_source_label_anomaly_records: 8
   dialogue_zero_record_scenes: 1
   dialogue_next_scene_ordinal: null
-  character_index: pilot-verified
+  character_index: complete-verified
   character_index_path: "characters/index.json"
   character_schema_path: "characters/schema.json"
   character_label_inventory_path: "characters/labels-inventory.json"
   character_pilot_path: "characters/entities-pilot.json"
+  character_entities_path: "characters/entities.json"
   character_distinct_source_labels: 111
-  character_pilot_entities: 10
-  character_pilot_mapped_labels: 51
-  character_remaining_unmapped_labels: 60
+  character_entities: 37
+  character_verified_entities: 36
+  character_review_entities: 0
+  character_unresolved_entities: 1
+  character_verified_labels: 110
+  character_review_labels: 0
+  character_unresolved_labels: 1
+  character_review_source_labels: []
+  character_unresolved_source_labels: ["வர்மா"]
+  character_remaining_unmapped_labels: 0
   character_dialogue_records_modified: false
-  song_authorship_mapping: blocked
+  song_authorship_mapping: not-started
   song_tamil_derivatives: blocked
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
-  next_structured_derivative: character-index
+  next_structured_derivative: song-authorship-mapping
