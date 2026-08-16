@@ -1,0 +1,14 @@
+{
+  "work_id": "manohara",
+  "source_pages_inspected": [1, 2, 3, 4, 5, 6],
+  "scope": "front-matter",
+  "title_page_credit": {
+    "role_as_printed": "திரைக்கதை வசனம்",
+    "name_as_printed": "மு. கருணாநிதி"
+  },
+  "song_credit_heading_observed": false,
+  "contributors_as_printed": [],
+  "item_level_assignment_present": false,
+  "authorship_rule": "The title-page screenplay-dialogue credit is not a lyric credit. No பாடல்கள் heading, lyricist list, contributor block or item-level song attribution was observed in PDF 1-6. A song/performance occurrence remains unresolved unless the canonical booklet itself attributes it or separately documented item-level external evidence establishes authorship.",
+  "source_note": "PDF 1-6 of the supplied scan were visually inspected for this gate. They contain the cover, title/credit/publisher page, edition/rights/price/printer page, நாடகக் கதை and முன்னுரை, but no song-contributor list. This file records credit evidence only and does not alter canonical Tamil."
+}
