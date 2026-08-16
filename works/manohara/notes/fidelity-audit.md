@@ -46,18 +46,63 @@ The following corrections are **recorded but not yet applied** to `transcription
 - unresolved source readings: **0**;
 - corrections applied to canonical Part 01: **no — intentionally deferred until the active part is fully audited**;
 - verified page anchors: **0**;
+- review page anchors: **0**.
+
+## Batch 2 — PDF 13–18 / printed pp.12–17
+
+Visual comparison completed for the next six pages, covering the opening and central portion of the embedded play-within-the-play. The rendered scan was inspected directly, including enlarged page renders for small or atypical letterforms. The odd-looking colloquial source form on PDF 16 is legible in the enlarged scan and is therefore retained as printed rather than normalized.
+
+The following corrections are **recorded but not yet applied** to `transcription/parts/part-01-pdf-7-30.md`:
+
+| PDF | Printed | First-pass reading | Scan-supported reading / disposition |
+|---:|---:|---|---|
+| 13 | 12 | `சிந்தனைச் சித்திரம்,` | `சிந்தனைச் சித்திரம்.` |
+| 13 | 12 | `பாண்டியன் கொன்றான், ... ஒரு சைத்ரிகன், ஈஸ்வரி வர்மன்!` | `பாண்டியன் கொன்றான். ... ஒரு சைத்ரிகன் ஈஸ்வரி வர்மன்!` |
+| 13 | 12 | `புயலாக மாறினாள்,` | `புயலாக மாறினாள்.` |
+| 13 | 12 | `என் பேரன் அஜயன் தான். பாண்டியன் மீது ... என் நவரத்ன சிங்காசனத்தை` | `என் பேரன் அஜயன் தான் பாண்டியன் மீது ... என் நவரத்ன சிங்காதனத்தை` |
+| 14 | 13 | `தெரிவித்துவிடு` | `தெரிவித்து விடு` |
+| 14 | 13 | `ஆசீர்வாதம்` | source prints `ஆசீர் வாதம்` |
+| 14 | 13 | `தங்களுக்கு தங்கள் பிதா` | `தங்களுக்குத் தங்கள் பிதா` |
+| 14 | 13 | `கொஞ்சிச் சொல்லியதும்` | `கூறிச் சொல்லியதும்` |
+| 14 | 13 | `இல்லேடா கண்ணு, அஜயா` | `இல்லேடா கண்ணு. அஜயா` |
+| 14 | 13 | stage direction ends `கைவைக்கிறாள்;)` | source ends `கைவைக்கிறாள்.)` |
+| 15 | 14 | `பணிப்பெண்ணாக` | source prints `பணிப் பெண்ணாக` |
+| 15 | 14 | `பதினெட்டு ஆண்டுகளுக்கு முன்பு!...` | `பதினெட்டு ஆண்டுகளுக்கு முன்பு...` |
+| 15 | 14 | `செய்யவேண்டியிருக்கிறது` | source prints `செய்யவேண்டி இருக்கிறது` |
+| 15 | 14 | `அத்தான்: இதோ...` | source uses a dash: `அத்தான்—இதோ...` |
+| 16 | 15 | `சொன்னா கேட்காத் தானே!` | enlarged scan supports the source form `சொன்னு கேட்டாத் தானே!` |
+| 16 | 15 | `மறுபடியும் மயக்கம் வந்திருச்சுங்களா?` | `மறுபடியும் மயக்கம் வந்திடுச்சுங்களா?` |
+| 16 | 15 | `விட்டது... அந்த சண்டாளியின் சகவாசம்` | `விட்டது. அந்த சண்டாளியின் சகவாசம்` |
+| 17 | 16 | `பத்ரம்` | source prints `பத்திரம்` |
+| 17 | 16 | `மகாராஜா! - இனிமேல்` | `மகாராஜா! இனிமேல்` |
+| 17 | 16 | `கணவனைகளுக்கும்` | `கணவன்மார்களுக்கும்` |
+| 17 | 16 | `கொடுப்பார்களாம்,` | `கொடுப்பார்களாம்.` |
+| 17 | 16 | `அப்படியொன்றுமில்லை` | source colloquial form `அப்படியொன்றுமில்ல` |
+| 18 | 17 | `ஏனாம். நான்தான் கொடுப்பேன்.. உம்...` | source punctuation: `ஏனாம்... நான்தான் கொடுப்பேன்... உம்...` |
+| 18 | 17 | `வேண்டாம்! வேண்டாம் விஷம்!` | retain the source-visible closing quote: `வேண்டாம்! வேண்டாம் விஷம்!”` |
+| 18 | 17 | `ஒன்றா, இரண்டா?` | `ஒன்று, இரண்டா?` |
+
+### Batch 2 disposition
+
+- pages visually audited in this batch: **6**;
+- audited range: PDF **13–18** / printed pp. **12–17**;
+- clear correction groups recorded in this batch: **25**;
+- unresolved source readings: **0**;
+- corrections applied to canonical Part 01: **no — still deferred until all PDF 7–30 pages in Part 01 are audited**;
+- verified page anchors: **0**;
 - review page anchors: **0**;
-- next visual-audit page: **PDF 13 / printed p.12**.
+- next visual-audit page: **PDF 19 / printed p.18**.
 
 ## Current cumulative state
 
 - canonical Tamil range: **PDF 7–88 / logical printed pp.6–87 — 82 pages**;
 - first pass: **82/82 complete (`draft-complete`)**;
-- visual audit completed through: **PDF 12 / logical printed p.11**;
-- visually audited pages: **6/82**;
-- canonical corrections pending consolidated application: **yes**;
+- visual audit completed through: **PDF 18 / printed p.17**;
+- visually audited pages: **12/82**;
+- correction groups pending consolidated Part 01 application: **38**;
+- unresolved source readings: **0**;
 - verified canonical pages: **0**;
 - review canonical pages: **0**;
 - structured derivatives: **blocked**.
 
-**Next:** continue the visual fidelity audit with **PDF 13–18 / printed pp.12–17**, remaining within Part 01. Do not promote any Part 01 page anchor until the accumulated Part 01 corrections have been applied to the canonical transcription.
+**Next:** continue the visual fidelity audit with **PDF 19–24 / printed pp.18–23**, remaining within Part 01. Do not promote any Part 01 page anchor until the accumulated PDF 7–30 corrections have been applied to the canonical transcription.
