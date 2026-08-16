@@ -90,19 +90,62 @@ The following corrections are **recorded but not yet applied** to `transcription
 - unresolved source readings: **0**;
 - corrections applied to canonical Part 01: **no — still deferred until all PDF 7–30 pages in Part 01 are audited**;
 - verified page anchors: **0**;
+- review page anchors: **0**.
+
+## Batch 3 — PDF 19–24 / printed pp.18–23
+
+Visual comparison completed for the next six pages. This batch closes the embedded play-within-the-play aftermath, follows the renewed Padmavati/Manoharan war-vow sequence, and includes the source-visible street proclamation and Vasanthan's comic war speech on PDF 23. Enlarged renders were used where the source preserves colloquial terminal forms such as `வெட்கமில்ல`, `இல்லே`, `ஒன்றுமில்ல`, and `உதிரவில்லே`.
+
+The following corrections are **recorded but not yet applied** to `transcription/parts/part-01-pdf-7-30.md`:
+
+| PDF | Printed | First-pass reading | Scan-supported reading / disposition |
+|---:|---:|---|---|
+| 19 | 18 | `வெட்கமில்லை.` | source colloquial form `வெட்கமில்ல.` |
+| 19 | 18 | `நம்மை காட்டிக் கொடுக்கிற` | source prints `நம்மை காட்டி கொடுக்கிற` |
+| 19 | 18 | `(அரசர் வருகிறார்)` | source punctuation `(அரசர் வருகிறார்.)` |
+| 19 | 18 | `புன்சிரிப்பு இல்லை...` | `புன்சிரிப்பு இல்லே...` |
+| 19 | 18 | `ஒன்றுமில்லை...` | source colloquial form `ஒன்றுமில்ல...` |
+| 19 | 18 | `கனிமொழி உதிரவில்லை?` | `கனிமொழி உதிரவில்லே?` |
+| 20 | 19 | `அதெல்லாமில்லை...` | source colloquial form `அதெல்லாமில்ல...` |
+| 20 | 19 | `எடுத்துக் கொண்டு...இதில், எதை வேண்டுமானாலும் தாங்கள்...”` | retain the source-visible opening quote before `இதில்`: `எடுத்துக் கொண்டு...”இதில், எதை வேண்டுமானாலும் தாங்கள்...”` |
+| 20 | 19 | `இல்லை தாங்கள் விரும்புவதை` | `இல்லே தாங்கள் விரும்புவதை` |
+| 20 | 19 | `என்னை மன்னித்துவிடுங்கள் மகாராஜா!` | source punctuation `என்னை மன்னித்துவிடுங்கள் மகாராஜா?` |
+| 21 | 20 | `இல்லை...பச்சைப் புளுகு!...` | `இல்லே...பச்சைப் புளுகு?...` |
+| 21 | 20 | `உத்திரவு கொடுங்கள், உருத் தெரியாமல்` | source sentence break `உத்திரவு கொடுங்கள். உருத் தெரியாமல்` |
+| 21 | 20 | `இந்தவாள் ஏது தெரியுமா?` | source separates the words: `இந்த வாள் ஏது தெரியுமா?` |
+| 22 | 21 | `நாடகத்தில் வந்த வாள், போலி வாள்!` | source prints `நாடகத்திலே வந்த வாள், போலி வாள்!` |
+| 23 | 22 | `பாதக வசந்த சேனையாலுந்தான்!` | `பாதகி வசந்த சேனையாலுந்தான்!` |
+| 23 | 22 | `வெற்றிக் கொடி பிடிப்போம், வாரீர்!` | source punctuation `வெற்றிக் கொடி பிடிப்போம். வாரீர்!` |
+| 23 | 22 | `மண்டைகள் உடையும் - சண்டையைப் பற்றி!` | source has no inserted dash: `மண்டைகள் உடையும் சண்டையைப் பற்றி!` |
+| 23 | 22 | `உம், புறப்படுங்கள், ஏன் நிற்கிறீர்கள்!` | source sentence break `உம், புறப்படுங்கள். ஏன் நிற்கிறீர்கள்!` |
+| 23 | 22 | `[வீரர் பொம்மைகள் இப்போது காட்சியாகின்றன]` | source closes the direction as `[வீரர் பொம்மைகள் இப்போது காட்சியாகின்றன.]` |
+| 23 | 22 | `நீ வீரனேதான்.` | source word spacing `நீ வீரனே தான்.` |
+| 23 | 22 | `சந்தேகமில்லை...சந்தேகமில்லை` | source repeatedly prints `சந்தேகமில்லே...சந்தேகமில்லே` |
+| 24 | 23 | `அவன் பால்முடித்த கெண்டியை` | clear scan reading `அவன் பால்குடித்த கெண்டியை` |
+| 24 | 23 | `வைத்தியரை வரச்சொல்லி இருக்கிறேன்` | source prints `வைத்தியரை வரச்சொல்லி யிருக்கிறேன்` |
+| 24 | 23 | `ராஜப்பிரியா! வெற்றி பெறுவதற்கு முன் வெற்றி மாலை சூடுவது` | source punctuation/form `ராஜப்பிரியா வெற்றி பெறுவதற்கு முன் வெற்றி மாலை-சூடுவது` |
+
+### Batch 3 disposition
+
+- pages visually audited in this batch: **6**;
+- audited range: PDF **19–24** / printed pp. **18–23**;
+- clear correction groups recorded in this batch: **24**;
+- unresolved source readings: **0**;
+- corrections applied to canonical Part 01: **no — still deferred until all PDF 7–30 pages in Part 01 are audited**;
+- verified page anchors: **0**;
 - review page anchors: **0**;
-- next visual-audit page: **PDF 19 / printed p.18**.
+- next visual-audit page: **PDF 25 / printed p.24**.
 
 ## Current cumulative state
 
 - canonical Tamil range: **PDF 7–88 / logical printed pp.6–87 — 82 pages**;
 - first pass: **82/82 complete (`draft-complete`)**;
-- visual audit completed through: **PDF 18 / printed p.17**;
-- visually audited pages: **12/82**;
-- correction groups pending consolidated Part 01 application: **38**;
+- visual audit completed through: **PDF 24 / printed p.23**;
+- visually audited pages: **18/82**;
+- correction groups pending consolidated Part 01 application: **62**;
 - unresolved source readings: **0**;
 - verified canonical pages: **0**;
 - review canonical pages: **0**;
 - structured derivatives: **blocked**.
 
-**Next:** continue the visual fidelity audit with **PDF 19–24 / printed pp.18–23**, remaining within Part 01. Do not promote any Part 01 page anchor until the accumulated PDF 7–30 corrections have been applied to the canonical transcription.
+**Next:** continue the visual fidelity audit with **PDF 25–30 / printed pp.24–29**, completing Part 01. After that six-page audit, apply the accumulated PDF 7–30 scan-supported corrections in one controlled rewrite before promoting any Part 01 page anchor.
