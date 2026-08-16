@@ -78,10 +78,13 @@ Current scene checkpoint:
 
 - archival scene segments indexed: **57/57**;
 - scene index: **complete**;
-- scene-text derivatives: **8/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s008`;
-- `manohara-s008` preserves the complete embedded play from PDF **13–19**, ending before transition `T009`;
-- next: `manohara-s009`, beginning with `[வசந்தசேனை அந்தப்புரம்...` on PDF 19;
+- scene-text derivatives: **11/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s011`;
+- `manohara-s008` preserves the complete embedded play from PDF **13–19**;
+- `manohara-s009` covers the Vasanthasena chamber aftermath through the opening of PDF 22;
+- `manohara-s010` covers the ancestral war-sword discussion through the order to seek the king's permission;
+- `manohara-s011` covers the street proclamation, Vasanthan's comic war passage, the royal leave-taking and Padmavati's blessing, ending before `T012`;
+- next: `manohara-s012`, beginning with the night garden transition on PDF 25;
 - dialogue indexing remains blocked until all scene-text derivatives are complete.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
@@ -96,7 +99,7 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
-| Scene-text derivatives | **in-progress — 8/57 complete-verified** |
+| Scene-text derivatives | **in-progress — 11/57 complete-verified** |
 | Dialogue index | blocked until scene-text layer |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
@@ -105,4 +108,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Continue scene-text derivatives from `manohara-s009` / transition `T009`, beginning with `[வசந்தசேனை அந்தப்புரம்...` on PDF 19. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
+**Continue scene-text derivatives from `manohara-s012` / transition `T012`, beginning with the night garden sequence on PDF 25. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
