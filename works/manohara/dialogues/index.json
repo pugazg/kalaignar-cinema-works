@@ -1,0 +1,27 @@
+{
+  "work_id": "manohara",
+  "source_identifier": "TVA_BOK_0010102",
+  "record_schema": "schema.json",
+  "status": "in-progress",
+  "storage": "scene-sharded",
+  "source_numbered_scenes": false,
+  "archival_scene_segments": 57,
+  "dialogue_records": 31,
+  "scenes_completed": 5,
+  "scenes_expected": 57,
+  "completed_scene_ordinals": [1, 2, 3, 4, 5],
+  "zero_record_scenes": [],
+  "cross_page_records": [
+    "manohara-s001-d004"
+  ],
+  "source_label_anomaly_records": [],
+  "next_scene_batch": "6-10",
+  "next_structured_derivative": "dialogue-index",
+  "scene_files": [
+    {"scene_id":"manohara-s001","scene_ordinal":1,"transition_audit_id":"T001","file":"records/scene-001.json","record_count":10},
+    {"scene_id":"manohara-s002","scene_ordinal":2,"transition_audit_id":"T002","file":"records/scene-002.json","record_count":3},
+    {"scene_id":"manohara-s003","scene_ordinal":3,"transition_audit_id":"T003","file":"records/scene-003.json","record_count":2},
+    {"scene_id":"manohara-s004","scene_ordinal":4,"transition_audit_id":"T004","file":"records/scene-004.json","record_count":1},
+    {"scene_id":"manohara-s005","scene_ordinal":5,"transition_audit_id":"T005","file":"records/scene-005.json","record_count":15}
+  ]
+}
