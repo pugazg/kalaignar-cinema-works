@@ -1,4 +1,4 @@
-name: Manohara English reader preflight
+name: Manohara English reader QA and build
 
 on:
   workflow_dispatch:
@@ -12,14 +12,16 @@ on:
       - "works/manohara/songs/inventory.json"
       - "works/manohara/scenes/**"
       - "works/manohara/editions/en/audit_probe.py"
+      - "works/manohara/editions/en/build.py"
       - "works/manohara/editions/en/sync_preflight_status.py"
+      - "works/manohara/editions/en/sync_status.py"
       - ".github/workflows/manohara-english-preflight.yml"
 
 permissions:
   contents: write
 
 jobs:
-  reader-preflight:
+  reader-qa-and-build:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -36,10 +38,13 @@ jobs:
       - name: Run whole-work English reader preflight
         run: python works/manohara/editions/en/audit_probe.py
 
-      - name: Synchronize preflight checkpoint metadata
-        run: python works/manohara/editions/en/sync_preflight_status.py
+      - name: Build and validate deterministic reader exports
+        run: python works/manohara/editions/en/build.py
 
-      - name: Commit synchronized checkpoint
+      - name: Synchronize completed reader/export status
+        run: python works/manohara/editions/en/sync_status.py
+
+      - name: Commit generated reader package and synchronized status
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -48,10 +53,15 @@ jobs:
             README.md \
             works/manohara/README.md \
             works/manohara/metadata.yaml \
-            works/manohara/translations/README.md
+            works/manohara/translations/README.md \
+            works/manohara/editions/en/reader-edition.md \
+            works/manohara/editions/en/reader-edition.html \
+            works/manohara/editions/en/reader-edition.json \
+            works/manohara/editions/en/QA_REPORT.md \
+            works/manohara/editions/en/manifest.json
           if git diff --cached --quiet; then
-            echo "Preflight checkpoint metadata is already synchronized; nothing to commit."
+            echo "Reader exports and status are already reproducible; nothing to commit."
           else
-            git commit -m "Sync Manohara reader preflight checkpoint [skip ci]"
+            git commit -m "Build Manohara English reader package [skip ci]"
             git push
           fi
