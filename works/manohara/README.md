@@ -38,37 +38,36 @@ This edition does **not** print numbered scene headings. Scene boundaries theref
 
 The scan also contains an extended play-within-the-play sequence, several explicit song/performance references, a war-proclamation/chant-like passage, and a separately printed letter. These are structural findings only. No song authorship has been inferred from the screenplay/dialogue credit.
 
-## Canonical Tamil first-pass checkpoint
+## Canonical Tamil checkpoint
 
 The complete source-order first pass is stored in six archival batches:
 
-- `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 draft pages**;
+- `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 verified pages**;
 - `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 draft pages**;
 - `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 draft pages**;
 - `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 draft pages**;
 - `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 draft pages**;
 - `transcription/parts/part-06-pdf-79-88.md` — PDF **79–88** / logical printed pp. **78–87** — **10 draft pages**;
-- cumulative coverage: **82/82 canonical pages — first pass complete**;
-- current page status: **82 draft / 0 verified / 0 review**;
-- aggregate transcription status: **`draft-complete`**.
-
-`draft-complete` means every canonical page has a first-pass transcription. It does **not** mean the text is verified.
+- cumulative first-pass coverage: **82/82 canonical pages — complete**;
+- current page status: **24 verified / 58 draft / 0 review**;
+- aggregate first-pass status: **`draft-complete`**.
 
 ## Visual fidelity audit
 
-The separate scan-led audit is **in progress**. Four six-page batches have now visually compared the complete Part 01 range, **PDF 7–30 / logical printed pp.6–29**, against the stored canonical first pass.
+The separate scan-led audit is **in progress**.
 
-- visually audited pages: **24/82**;
-- Part 01 visual-audit coverage: **complete**;
-- cumulative clear correction groups recorded for Part 01: **89**;
+Part 01, **PDF 7–30 / logical printed pp.6–29**, is now **complete-verified**. Four visual-audit batches recorded **89** source-supported correction groups. All 89 were applied in a controlled rewrite, the rewritten range was checked again against the ledger and rendered scans, and all **24** Part 01 page anchors were then promoted to `verified`.
+
+Part 01 result:
+
+- visually audited pages: **24**;
+- correction groups: **89 applied**;
+- post-application recheck: **passed**;
 - unresolved source readings: **0**;
-- corrections applied to canonical Part 01: **not yet**;
-- verified page anchors: **0**;
-- next source page after Part 01: **PDF 31 / printed p.30**, but the Part 01 corrections must be applied and rechecked before continuing.
+- verified Part 01 pages: **24/24**;
+- next audit page: **PDF 31 / printed p.30**.
 
-The corrections are recorded in `notes/fidelity-audit.md`. Batch 4 includes several substantial source restorations: the omitted `என்னை அவன் வெறுக்கலாம்—ஆனால் அவன்`, `ரத்தின சிம்மாசனம்`, `வீரவாள் வரும் என் செய்தி கூறும்!`, the repeated `மறைந்து மறைந்து`, `மீன் கொடி`, `புலிக் கொடியைப் ராஜப்ரியன்`, `நீர் வீரனெனில்`, historical spelling `லக்ஷணத்தைப்பற்றி`, the omitted `கைதி - பாதுகாப்புக் கைதி!`, and the source forms `(உள்ளேவந்து)` and `பரவாயில்ல.`.
-
-The Part 01 anchors deliberately remain `draft` because those 89 scan-supported corrections have not yet been written back to `transcription/parts/part-01-pdf-7-30.md`. The next gate is a controlled consolidated rewrite followed by a post-application check.
+The fidelity record is in `notes/fidelity-audit.md`.
 
 ## Status
 
@@ -77,8 +76,8 @@ The Part 01 anchors deliberately remain `draft` because those 89 scan-supported 
 | Source intake | complete |
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
-| Canonical Tamil transcription | **draft-complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — Part 01 PDF 7–30 fully audited; 89 corrections pending apply** |
+| Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
+| Visual fidelity audit | **in-progress — Part 01 PDF 7–30 complete-verified; 24 verified / 58 draft** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -86,4 +85,4 @@ The Part 01 anchors deliberately remain `draft` because those 89 scan-supported 
 
 ## Next activity
 
-**Apply all 89 recorded PDF 7–30 corrections to `transcription/parts/part-01-pdf-7-30.md` in one controlled source-led rewrite. Recheck the rewritten Part 01 against the scan-led audit ledger; if it passes with no unresolved reading, promote all 24 Part 01 page anchors from `draft` to `verified` before continuing the visual audit at PDF 31 / printed p.30.**
+**Begin the Part 02 visual fidelity audit at PDF 31 / printed p.30. Keep Part 02 page anchors at `draft` while its scan-supported corrections are accumulated; apply and recheck those corrections before promoting Part 02.**
