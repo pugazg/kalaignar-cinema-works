@@ -45,11 +45,11 @@ The complete source-order first pass is stored in six archival batches:
 - `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 verified pages**;
 - `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 verified pages**;
 - `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 verified pages**;
-- `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 draft pages**;
+- `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 verified pages**;
 - `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 draft pages**;
 - `transcription/parts/part-06-pdf-79-88.md` — PDF **79–88** / logical printed pp. **78–87** — **10 draft pages**;
 - cumulative first-pass coverage: **82/82 canonical pages — complete**;
-- current page status: **48 verified / 34 draft / 0 review**;
+- current page status: **60 verified / 22 draft / 0 review**;
 - aggregate first-pass status: **`draft-complete`**.
 
 ## Visual fidelity audit
@@ -62,23 +62,18 @@ Part 02, **PDF 31–42 / printed pp.30–41**, is **complete-verified**. Its two
 
 Part 03, **PDF 43–54 / printed pp.42–53**, is **complete-verified**. The final source-led set contains **48 actual correction groups**: 30 from PDF 43–48 and 18 from a direct re-audit of PDF 49–54. All 48 were applied in commit `f084ff91647ec1d76d2a113351e1a769fc8bad53`; the corrected range passed a post-application visual comparison with **0 unresolved source readings**, and all 12 anchors were promoted in `7f1413a451b7ac4ee769c0f20766f9c08939d753`. The definitive record is `notes/fidelity-audit-part03-final.md`.
 
-Part 04, **PDF 55–66 / printed pp.54–65**, has now completed its **12/12-page visual audit**. Batch 9 audited PDF 55–60 and recorded **33** clear correction groups. Batch 10 audited PDF 61–66 and recorded **30** more. The full reviewed Part 04 set therefore contains **63 scan-supported corrections**, with **0 unresolved source readings**. The two records are `notes/fidelity-audit-part04-batch09.md` and `notes/fidelity-audit-part04-batch10.md`.
-
-The **63 Part 04 corrections remain deliberately unapplied**. All 12 Part 04 anchors remain `draft` until the complete correction set is written in one controlled source-led rewrite and the corrected range passes a separate post-application visual recheck.
-
-Representative Batch 10 restorations include source label `வைத்தியன்`, `வேற ஆளில்ல பாருங்க...`, the substantive `இது தீராத வியாதி!...`, `அய்யோ!...`, `பைத்தியக்காரனுக்குத் தீர்க்கதரிசியாக`, the source line `தங்கள் மகனுந் தான்—தங்களை விட எனக்கென்ன ஆசை வந்து கிடக்கிறது!`, `இந்த மாளிகையை வசப்படுத்தி`, `மனோகரன் அட்சயனிடமிருந்து ஒரு கடிதத்தை எடுக்கிறான்`, `நம் சாமர்த்தியம்`, `அவள் சதிகளை அம்பலப்படுத்துவதில்தான்`, and the restored `என் ஆழ்ந்த அனுதாபங்களை முதலில் தெரிவித்துக்கொள்கிறேன்...`.
+Part 04, **PDF 55–66 / printed pp.54–65**, is **complete-verified**. Batch 9 recorded **33** source-supported corrections for PDF 55–60, and Batch 10 recorded **30** for PDF 61–66. All **63** reviewed corrections were applied in commit `fd9e993a21deae53a9b4310fd2022384e8ccb7c1` while all twelve anchors remained `draft`. The corrected file's Git blob matched the independently calculated expected blob `d0936ed84f4809d637b8d88e80a9309f13072d61`. The full PDF 55–66 range was then visually rechecked against the rendered scan with **0 unresolved source readings** and no additional correction required. All 12 anchors were promoted to `verified` in commit `0795ea5d668cecda8a258563d7b93d0c27f7dc29`; the verified blob is `42253eb2489e875f7b729a8aab2f084394463e85`. The definitive record is `notes/fidelity-audit-part04-final.md`.
 
 Cumulative fidelity state:
 
 - visually audited pages: **60/82** — through PDF **66 / printed p.65**;
-- verified pages: **48** — PDF **7–54**;
-- draft pages: **34**;
+- verified pages: **60** — PDF **7–66**;
+- draft pages: **22** — PDF **67–88**;
 - review pages: **0**;
-- Part 04 audit coverage: **12/12 pages — complete**;
-- pending Part 04 correction groups: **63**;
-- unresolved source readings: **0**.
-
-The historical fidelity ledger is `notes/fidelity-audit.md`; the definitive Part 03 disposition is `notes/fidelity-audit-part03-final.md`, and the Part 04 batch records are `notes/fidelity-audit-part04-batch09.md` and `notes/fidelity-audit-part04-batch10.md`.
+- Parts 01–04: **complete-verified**;
+- pending correction groups: **0**;
+- unresolved source readings: **0**;
+- next audit page: **PDF 67 / printed p.66**.
 
 ## Status
 
@@ -88,7 +83,7 @@ The historical fidelity ledger is `notes/fidelity-audit.md`; the definitive Part
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — 60/82 pages audited; PDF 7–54 verified; Part 04 12/12 audited, correction application pending** |
+| Visual fidelity audit | **in-progress — 60/82 pages verified; Parts 01–04 complete-verified** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -96,4 +91,4 @@ The historical fidelity ledger is `notes/fidelity-audit.md`; the definitive Part
 
 ## Next activity
 
-**Apply all 63 reviewed Part 04 corrections to `transcription/parts/part-04-pdf-55-66.md` in one controlled source-led rewrite while keeping all twelve anchors at `draft`. Mechanically verify the result, then visually recheck PDF 55–66 against the rendered scan. Only after that passes with no unresolved source reading should Part 04 be promoted to `verified`.**
+**Begin the Part 05 visual fidelity audit at PDF 67 / printed p.66. Keep Part 05 page anchors at `draft`; after its full audit, apply the complete reviewed Part 05 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 05.**
