@@ -107,6 +107,26 @@ Final checkpoint:
 
 Dialogue policy, schema and final inventory are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
 
+## Character/entity index — pilot-verified / in progress
+
+The character layer has begun from the closed 983-record dialogue inventory.
+
+Current checkpoint:
+
+- complete exact-label inventory: **111 distinct non-empty source labels** across all **57** scene shards;
+- first verified pilot: **10 named characters**;
+- exact labels mapped in the pilot: **51/111**;
+- exact labels still requiring disposition: **60**;
+- dialogue records modified by character normalization: **0**.
+
+The pilot verifies high-confidence mappings for `மனோகரன்`, `பத்மாவதி`, `புருஷோத்தமன்`, `வசந்தசேனை`, `வசந்தன்`, `விஜயா`, `ராஜப்பிரியன்`, `சத்யசீலர்`, `கேசரிவர்மன்`, and `உக்ரசேனன்`.
+
+Several source labels are deliberately left outside named-character mappings because the exact same shorthand is reused by different characters. In particular, `வச` and `வசந்` alternate between வசந்தசேனை and வசந்தன்; `சேனா` is used for the nested-play தேவசேனா and later for வசந்தசேனை; `அட்` is used for the real அக்ஷயன் and the disguised மனோகரன்; and `வர்` crosses nested-play and outer-story Varman contexts. These are source-level contextual labels, not errors to be silently normalized.
+
+The nested play in scene 8 is also kept structurally distinct. Its labels such as `உத்தம புருஷன்`, `ஈஸ்வரி வர்மன்`, `கமலாவதி`, `தேவசேனா`, `ராஜா`, `வர்மன்`, and `நாடக தேவசேனா` are not automatically merged with outer-story identities.
+
+Character policy and checkpoint files are under `characters/`: `README.md`, `schema.json`, `labels-inventory.json`, `entities-pilot.json`, and `index.json`.
+
 ## Status
 
 | Layer | Status |
@@ -119,11 +139,11 @@ Dialogue policy, schema and final inventory are recorded in `dialogues/README.md
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
 | Dialogue index | **complete-verified — 57/57 scenes, 983 records** |
-| Character index | ready / not-started |
-| Song/performance authorship | blocked until earlier structured layers |
+| Character index | **pilot-verified / in-progress — 111 labels inventoried, 51 mapped, 60 remain** |
+| Song/performance authorship | blocked until character index |
 | English translation | blocked until structured source layer |
 | Reader / Reading Room integration | blocked / not-started |
 
 ## Next activity
 
-**Begin the Manohara character/entity index from the complete-verified 983-record dialogue inventory. Build an explicit source-label inventory and derivative identity mappings without modifying the immutable dialogue shards.**
+**Continue the Manohara character/entity index by disposing the remaining 60 exact source labels into verified named characters, stable roles/collectives, or explicit review/unresolved entities. Reused shorthand labels must remain context-safe, and the 983 immutable dialogue records must not be rewritten.**
