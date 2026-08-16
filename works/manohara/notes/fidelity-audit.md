@@ -289,19 +289,71 @@ Part 02 result:
 - unresolved source readings: **0**;
 - post-application recheck: **passed**.
 
+## Batch 7 — PDF 43–48 / printed pp.42–47
+
+Visual comparison completed for the first six pages of Part 03. The range covers Manoharan's appeal to Padmavati after the spring-festival confrontation, Vasantha Sena's scheme to turn the king against Padmavati and Satyaseela, the staged suicide attempt, the king's concealed listening at Padmavati's chamber, and the beginning of Manoharan's response to Padmavati's imprisonment order. Enlarged scan renders were used for historical name forms, colloquial wording, omitted particles, speaker-label forms and close punctuation/spacing checks.
+
+The following corrections are **recorded but not yet applied** to `transcription/parts/part-03-pdf-43-54.md`:
+
+| PDF | Printed | First-pass reading | Scan-supported reading / disposition |
+|---:|---:|---|---|
+| 43 | 42 | `அவைகளைவிட பெரியவளா` | source prints `அவைகளைவிடப் பெரியவளா` |
+| 43 | 42 | `இந்த கள்வி?` | clear scan reading `இந்த கள்ளி?` |
+| 43 | 42 | `அப்போது சத்தியசீலர் அங்கே` | source historical form `அப்போது சத்யசீலர் அங்கே` |
+| 44 | 43 | the several `சத்தியசீலர்` / `சத்தியசீலரை` forms on this page | source consistently prints `சத்யசீலர்` / `சத்யசீலரை` |
+| 44 | 43 | `உடனே பேச...இப்போதே அழைத்துவா!` | clear scan reading `உடனே போ...இப்போதே அழைத்துவா!` |
+| 44 | 43 | `கடவுள் இதுதானென்று...` | source closes the sentence `கடவுள் இதுதானென்று.` |
+| 44 | 43 | `இருக்கட்டும்... போன செய்தி...` | source prints `அதிருக்கட்டும்... போன செய்தி...` |
+| 44 | 43 | `அடுக்காக... சுருக்கிச் சொல்.` | clear scan wording `அடுக்காதே... சீக்கிரம் சொல்.` |
+| 45 | 44 | `தூக்கு போட்டுக் கொள்ள` in the stage direction | source prints `தூக்குப் போட்டுக் கொள்ள` |
+| 45 | 44 | `என் விதிதானே அனுபவிக்க வேண்டும்` | restore source wording `என் விதி—நான்தானே அனுபவிக்க வேண்டும்` |
+| 45 | 44 | `வசந்தி! வசந்தி? (ஓடி வருகிறார்) வசந்தி!...` | source begins the king's line `சே! சே? (ஓடி வருகிறார்) வசந்தி!...` |
+| 45 | 44 | `இனி நான் ஒரு கணமும் உயிரோடிருக்க விரும்பவில்லை.` | source includes the omitted particle: `இனி நான் ஒரு கணமும்கூட உயிரோடிருக்க விரும்பவில்லை.` |
+| 45 | 44 | `உங்கள் கண்ணெதிரிலேயே என் கண்களை மூடுகிறேன்.` | source wording `உங்கள் கண்ணெதிரிலேயே கண்ணை மூடுகிறேன்.` |
+| 46 | 45 | `வசந்தா என்ற அவச்சொல் தங்கள் நினைவுகளை கொன்றுவிட வேண்டாம்.` | source instead reads `வசந்தா என்ற அவச்சொல் தங்களுக்கே வேண்டாம்.` |
+| 46 | 45 | `தங்கள் நினைவுகளை ஏந்திக் கொண்டிருக்கும்` | source grammatical form `தங்கள் நினைவுகள் ஏந்திக் கொண்டிருக்கும்` |
+| 46 | 45 | `புத்திமாறாட்டமா?` | source word spacing `புத்தி மாறாட்டமா?` |
+| 46 | 45 | `இன்பலோகம்` | source prints `இன்ப லோகம்` |
+| 46 | 45 | `மரியாதைகூட` | source prints `மரியாதை கூட` |
+| 46 | 45 | `உண்மை வெளிவரத்தானே போகிறது` | source prints `உண்மை வெளிவரத்தான் போகிறது` |
+| 46 | 45 | `மகாராணி அந்தப்புரத்தை!` | source spacing `மகாராணி அந்தப் புரத்தை!` |
+| 46 | 45 | `சத்தியசீலருக்கு` | source historical form `சத்யசீலருக்கு` |
+| 47 | 46 | speaker label `சத்தியசீலர் :` | exact source label is `சத்யசீலா :` |
+| 47 | 46 | `பயப்படத்தேவையில்லை—நான் பார்த்துக்கொள்கிறேன்.` | source dash form `பயப்படத்தேவையில்லை-நான் பார்த்துக்கொள்கிறேன்.` |
+| 47 | 46 | `(அரசர் பத்மா மீது சந்தேகம் கொண்டு திரும்புகிறார்).` | source joins the words and omits the added final period: `(அரசர் பத்மாமீது சந்தேகம்கொண்டு திரும்புகிறார்)` |
+| 47 | 46 | `கேட்கச் சொல்கிறேன்` in both occurrences of the king's closing speech | source prints `கேட்கச் சொல்லுகிறேன்` in both occurrences |
+| 47 | 46 | `பத்மாவதிக்குச் சிறை சாலை!` | source prints `பத்மாவதிக்குச் சிறைச் சாலை!` |
+| 48 | 47 | `மன்னிப்பு கேட்கவேண்டும்!` | source prints `மன்னிப்புக் கேட்கவேண்டும்!` |
+| 48 | 47 | `அதைத்தான் பெற மறந்தார்!` | source spacing/form `அதைத் தான் பெற மறந்தார்!` |
+| 48 | 47 | heading `அரச அவைக்கூடம்` | source heading is `அரசர் அவைக்கூடம்` |
+| 48 | 47 | `புயல் வீசப்போகிறது மன்னவா!` | enlarged scan clearly reads `புயல் வீசப்போகிறது மன்னவரே!` |
+
+### Batch 7 disposition
+
+- pages visually audited in this batch: **6**;
+- audited range: PDF **43–48** / printed pp. **42–47**;
+- clear correction groups recorded in this batch: **30**;
+- unresolved source readings: **0**;
+- Part 03 visual-audit coverage: **6/12 pages**;
+- Part 03 corrections applied: **no — deferred until PDF 43–54 is fully audited**;
+- Part 03 page anchors promoted: **0**;
+- next visual-audit page: **PDF 49 / printed p.48**.
+
 ## Current cumulative state
 
 - canonical Tamil range: **PDF 7–88 / logical printed pp.6–87 — 82 pages**;
 - first pass: **82/82 complete (`draft-complete`)**;
-- visual audit completed through: **PDF 42 / printed p.41**;
-- visually audited pages: **36/82**;
+- visual audit completed through: **PDF 48 / printed p.47**;
+- visually audited pages: **42/82**;
 - verified canonical pages: **36**;
 - draft canonical pages: **46**;
 - review canonical pages: **0**;
 - Part 01: **complete-verified**;
 - Part 02: **complete-verified**;
-- correction groups pending application: **0**;
+- Part 03 visual-audit coverage: **PDF 43–48 / 6 of 12 pages**;
+- Part 03 correction groups pending application: **30**;
+- correction groups pending application: **30**;
 - unresolved source readings: **0**;
 - structured derivatives: **blocked until the remaining PDF 43–88 Tamil source layer is fidelity-verified**.
 
-**Next:** continue the visual fidelity audit at **PDF 43 / printed p.42**, beginning Part 03. Keep Part 03 page anchors `draft` while corrections are accumulated for its own consolidated application and post-application recheck.
+**Next:** continue the Part 03 visual fidelity audit with **PDF 49–54 / printed pp.48–53**. Keep all Part 03 anchors `draft`; after that second six-page audit, apply the complete Part 03 correction set in one controlled rewrite, recheck it, and only then promote Part 03 anchors.
