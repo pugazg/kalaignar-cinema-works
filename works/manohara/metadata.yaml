@@ -123,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Begin the Part 06 visual fidelity audit at PDF 79 / printed p.78; keep Part 06 anchors draft until its correction set is applied and rechecked."
+  next_action: "Apply all 63 reviewed Part 06 corrections to PDF 79-88, keep the anchors draft during application, then perform a separate complete visual recheck before promotion."
 
 fidelity_audit:
   status: in-progress
@@ -135,12 +135,13 @@ fidelity_audit:
   part_05_batch_11_path: "notes/fidelity-audit-part05-batch11.md"
   part_05_batch_12_path: "notes/fidelity-audit-part05-batch12.md"
   part_05_final_record_path: "notes/fidelity-audit-part05-final.md"
-  canonical_range_audit_complete: false
-  audited_pdf_pages: "7-78"
-  audited_logical_printed_pages: "6-77"
-  audited_pages: 72
-  audit_through_pdf_page: 78
-  audit_through_logical_printed_page: 77
+  part_06_batch_13_path: "notes/fidelity-audit-part06-batch13.md"
+  canonical_range_audit_complete: true
+  audited_pdf_pages: "7-88"
+  audited_logical_printed_pages: "6-87"
+  audited_pages: 82
+  audit_through_pdf_page: 88
+  audit_through_logical_printed_page: 87
   part_01_audit_complete: true
   part_01_corrections_recorded: 89
   part_01_corrections_applied: true
@@ -188,7 +189,15 @@ fidelity_audit:
   part_05_post_application_recheck: passed
   part_05_verification_commit: "bd2b26b558671eacd7819969bc9136ea11b3018d"
   part_05_verified_pages: 12
-  correction_groups_pending_apply: 0
+  part_06_audit_complete: true
+  part_06_audited_pdf_pages: "79-88"
+  part_06_audited_logical_printed_pages: "78-87"
+  part_06_audited_pages: 10
+  part_06_corrections_recorded: 63
+  part_06_corrections_pending_apply: 63
+  part_06_corrections_applied: false
+  part_06_verified_pages: 0
+  correction_groups_pending_apply: 63
   corrections_applied: true_for_parts_01_02_03_04_05
   unresolved_source_readings: 0
   next_pdf_page: 79
