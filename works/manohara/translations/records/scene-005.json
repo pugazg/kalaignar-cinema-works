@@ -1,0 +1,381 @@
+{
+  "work_id": "manohara",
+  "target_language": "en",
+  "scene_id": "manohara-s005",
+  "archival_scene_ordinal": 5,
+  "source_scene_number": null,
+  "scene_status": "verified",
+  "unit_count": 16,
+  "units": [
+    {
+      "id": "manohara-en-s005-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/scenes/scene-005.md",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "opening-parenthetical-stage-direction",
+          "ordinal": 1,
+          "description": "Opening cave-interior direction."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "(Inside the cave.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரியவர்",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Where are you off to in such a hurry, Kesari Varma?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேசரி வர்மன்",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "To the play—I have arranged for those very people there.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's demonstrative `அதோ` is retained as a deictic `there` rather than replaced with an inferred identity."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s005-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "I had forgotten. Is today Manoharan's birthday celebration? Hmm... what name have you given the play?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேசரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "The Sword of War.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The play title `போர்வாள்` is translated semantically and is not presented as a source English title."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s005-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Shabash... there is no obstacle to staging it, is there?...",
+        "mode": "prose-faithful",
+        "notes": [
+          "`சபாஷ்` is retained as `Shabash` to preserve the spoken register rather than flattening it to a neutral approval."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s005-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேச",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "None. Because they will not understand the story...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "What alias have you given Vasantha Sena in your play?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேச",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Deva Sena!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Your name?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேச",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Eeswari Varman. I have changed Purushothaman to Uthama Purushan.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The nested-play aliases are transliterated; they remain derivative character names, not replacements for the outer-story identities."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s005-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "They will certainly understand the story.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேச",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "They must understand it. At least then, will Purushothaman not come to his senses?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The rhetorical question is retained because it reveals Kesari Varman's purpose in staging the disguised story."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s005-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Hmm... try and see!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "manohara-en-s005-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கேச",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "I shall go, Gurudeva!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`குரு தேவா` follows the pilot's established `Gurudeva` register."
+        ]
+      }
+    },
+    {
+      "id": "manohara-en-s005-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "source": {
+        "source_path": "works/manohara/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/manohara/scenes/scene-005.md",
+        "source_record_id": "manohara-s005-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரி",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 9}]
+      },
+      "translation": {
+        "english_text": "Be careful.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
