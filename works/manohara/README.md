@@ -148,6 +148,18 @@ Final gate totals: **6 occurrences / 1 verified / 1 review / 4 unresolved**. Ext
 
 The booklet prints **no complete standalone lyric body** for any of the six occurrences. Accordingly there are **0 reconstructed Tamil song files**: missing lyrics are not imported from recordings, streaming services, record catalogs, websites, later editions or another booklet. `songs/README.md` documents the evidence policy and all dispositions.
 
+## English translation — pilot verified
+
+The English derivative has begun under `translations/` with a Manohara-specific schema that explicitly treats `manohara-s001`–`s057` as **archive navigation IDs, not source scene numbers**.
+
+Pilot `manohara-s001` was checked against the verified scene, all **10 immutable dialogue records**, and direct rendered-scan inspection of PDF **7–8 / logical printed pp.6–7**. It contains **12 verified units: 10 dialogue + 2 stage direction**, with one genuine cross-page English unit corresponding to `manohara-s001-d004` across PDF 7→8.
+
+The pilot establishes a strict voice rule for scaling: preserve Kalaignar's repetition, rhetorical accumulation, metaphor, theatrical pauses, address vocabulary, comic/formal register differences and heightened invective rather than smoothing them into generic fluent English. Scene 1 therefore retains features such as repeated `Victory`, the harvest image, `Gurudeva` / `Swami`, `Bhadrakali`, and the `kovvai-red lips` image.
+
+The opening decorative `★` remains structural and is not translated into an invented `(Scene ends.)` unit. No Tamil source, scene, dialogue, character or song record was changed by the pilot.
+
+Current English checkpoint: **1/57 scenes / 12 verified units / 0 review / 0 draft**. `translations/PILOT_REVIEW.md` records the scaling rules.
+
 ## Status
 
 | Layer | Status |
@@ -163,9 +175,9 @@ The booklet prints **no complete standalone lyric body** for any of the six occu
 | Character index | **complete-verified — 111/111 labels dispositioned, 37 entities, 1 unresolved label** |
 | Song/performance authorship | **complete-with-unresolved-authorship — 6 occurrences; 1 verified / 1 review / 4 unresolved** |
 | Tamil song lyric derivatives | **0 — no complete lyric body printed** |
-| English translation | **ready / not-started** |
+| English translation | **pilot-verified — 1/57 scenes, 12 verified units** |
 | Reader / Reading Room integration | blocked / not-started |
 
 ## Next activity
 
-**Begin English translation as a separate source-linked derivative layer, starting with a schema and a small verified pilot before scaling. Preserve the source's rhetoric, cadence and character voice; translate song/performance material only to the extent printed in the booklet, and never supply absent lyrics.**
+**Translate and verify `manohara-s002`–`manohara-s005` using the verified pilot's source-linked unit model and voice-preservation rules. Reinspect the rendered scan whenever a reading, page boundary, address term, image or rhetorical nuance is uncertain.**
