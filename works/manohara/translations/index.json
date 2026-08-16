@@ -1,27 +1,30 @@
 {
   "work_id": "manohara",
   "target_language": "en",
-  "status": "pilot-verified",
+  "status": "verified",
   "schema": "schema.json",
   "readme": "README.md",
   "pilot_review": "PILOT_REVIEW.md",
+  "batch_reviews": [
+    "BATCH_002_005_REVIEW.md"
+  ],
   "record_directory": "records",
   "pilot_scene": "manohara-s001",
   "source_scene_numbering": "none-printed",
   "scenes_expected": 57,
-  "scenes_started": [1],
-  "scenes_verified": [1],
+  "scenes_started": [1, 2, 3, 4, 5],
+  "scenes_verified": [1, 2, 3, 4, 5],
   "scenes_in_review": [],
-  "translation_units": 12,
+  "translation_units": 38,
   "unit_status_counts": {
     "draft": 0,
     "review": 0,
-    "verified": 12
+    "verified": 38
   },
   "unit_kind_counts": {
-    "dialogue": 10,
-    "stage-direction": 2,
-    "song-reference": 0,
+    "dialogue": 31,
+    "stage-direction": 6,
+    "song-reference": 1,
     "chant": 0,
     "written-text": 0
   },
@@ -32,12 +35,43 @@
       "path": "records/scene-001.json",
       "unit_count": 12,
       "status": "verified"
+    },
+    {
+      "scene_id": "manohara-s002",
+      "archival_scene_ordinal": 2,
+      "path": "records/scene-002.json",
+      "unit_count": 4,
+      "status": "verified"
+    },
+    {
+      "scene_id": "manohara-s003",
+      "archival_scene_ordinal": 3,
+      "path": "records/scene-003.json",
+      "unit_count": 4,
+      "status": "verified"
+    },
+    {
+      "scene_id": "manohara-s004",
+      "archival_scene_ordinal": 4,
+      "path": "records/scene-004.json",
+      "unit_count": 2,
+      "status": "verified"
+    },
+    {
+      "scene_id": "manohara-s005",
+      "archival_scene_ordinal": 5,
+      "path": "records/scene-005.json",
+      "unit_count": 16,
+      "status": "verified"
     }
   ],
-  "dialogue_source_records_expected_in_completed_scenes": 10,
-  "dialogue_source_records_linked": 10,
+  "dialogue_source_records_expected_in_completed_scenes": 31,
+  "dialogue_source_records_linked": 31,
   "cross_page_translation_units": [
     "manohara-en-s001-u006"
+  ],
+  "translated_song_occurrences": [
+    "manohara-song-001"
   ],
   "source_linked_unlabelled_spoken_units": [],
   "source_visible_structural_stars_translated": 0,
@@ -46,6 +80,6 @@
   "dialogue_records_modified": false,
   "character_index_modified": false,
   "song_inventory_modified": false,
-  "next_scene_batch": "2-5",
-  "next_activity": "Translate and verify archival scenes manohara-s002 through manohara-s005 using the same source-linked unit model and the verified pilot's voice-preservation rules. Reinspect the rendered scan whenever a scene reading, page boundary or rhetorical nuance is uncertain."
+  "next_scene_batch": "6-10",
+  "next_activity": "Translate and verify archival scenes manohara-s006 through manohara-s010 using the same source-linked unit model and the verified voice-preservation rules. Reinspect the rendered scan whenever a page boundary, courtly expression, nested-play identity, comic phrase or rhetorical image is uncertain."
 }
