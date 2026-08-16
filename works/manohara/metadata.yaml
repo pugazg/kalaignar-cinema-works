@@ -106,9 +106,11 @@ transcription_progress:
   first_pass_pages_completed: 82
   first_pass_through_pdf_page: 88
   first_pass_through_logical_printed_page: 87
-  draft_pages: 82
-  verified_pages: 0
+  draft_pages: 58
+  verified_pages: 24
   review_pages: 0
+  verified_pdf_pages: "7-30"
+  verified_logical_printed_pages: "6-29"
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
   parts_completed: 6
@@ -121,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Apply the accumulated PDF 7-30 scan-supported corrections to Part 01 in one controlled rewrite; recheck the rewritten range and promote its 24 anchors if the post-application check passes."
+  next_action: "Continue the visual fidelity audit at PDF 31 / printed p.30, beginning Part 02; keep Part 02 anchors draft until its accumulated corrections are applied and rechecked."
 
 fidelity_audit:
   status: in-progress
@@ -133,14 +135,17 @@ fidelity_audit:
   audit_through_pdf_page: 30
   audit_through_logical_printed_page: 29
   part_01_audit_complete: true
-  part_01_corrections_pending_apply: 89
-  correction_groups_pending_apply: 89
-  corrections_applied: false
+  part_01_corrections_recorded: 89
+  part_01_corrections_applied: true
+  part_01_post_application_recheck: passed
+  part_01_verified_pages: 24
+  correction_groups_pending_apply: 0
+  corrections_applied: true_for_part_01
   unresolved_source_readings: 0
   next_pdf_page: 31
   next_logical_printed_page: 30
-  part_01_corrections_must_apply_before_next_batch: true
-  verified_pages: 0
+  verified_pages: 24
+  draft_pages: 58
   review_pages: 0
 
 structured_derivatives:
