@@ -27,7 +27,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed intake, structural mapping and the complete canonical Tamil first pass.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation and the immutable dialogue inventory.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -40,14 +40,20 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed intake, str
 - back matter: PDF **89–90**;
 - source-numbered scene headings: **none printed** — no scene count has been invented;
 - structural mapping: **verified**;
-- transition-heading audit: **complete for intake/mapping**;
-- canonical Tamil first pass: **82/82 pages complete — PDF 7–88 / logical printed pp.6–87, status `draft-complete`**;
-- visual fidelity audit: **not-started**;
-- later structured derivatives and translation: **blocked until Tamil verification**.
+- canonical Tamil: **82/82 pages complete-verified**;
+- visual fidelity audit: **complete — 82/82 pages, 0 unresolved source readings**;
+- archival scene index / scene-text derivatives: **57/57 complete-verified**;
+- dialogue index: **57/57 scenes, 983 immutable labelled-dialogue records, complete-verified**;
+- cross-page dialogue records: **13**;
+- exact source-label/delimiter anomaly records: **8**;
+- sole zero-record scene: **`manohara-s024`**;
+- character/entity index: **ready / not-started**.
 
-Six source-order first-pass batches are stored under `works/manohara/transcription/parts/`. The final PDF 79–88 batch preserves the prison confrontation, the attempted killing of Vijayā's child, Padmavati's final appeal, Manoharan breaking his bonds, Ugrasenan's death, Vasanthan's death, the final Kesari Varma–Vasantha Sena reckoning and the closing reconciliation in source order. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+The final dialogue pass reinspected PDF **88 / printed p.87** directly. In `manohara-s056`, four source lines with an empty speaker field beginning only with `:` remain unassigned rather than being attributed by inference. In `manohara-s057`, the unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` remains inside the preceding explicitly labelled king's turn rather than being promoted to an invented speaker record.
 
-**Next:** begin the separate visual fidelity audit from **PDF 7 / logical printed p.6**, comparing the stored first-pass transcription line by line against the rendered scan. Structured derivatives remain blocked until the canonical Tamil layer is verified.
+The earlier PDF 68 post-fidelity repair of `வ. சே. : வசந்தா!` is documented in `works/manohara/notes/post-fidelity-corrections.md`. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
+
+**Next:** build the **Manohara character/entity index** from the complete 983-record dialogue inventory. Normalize source labels only through explicit derivative mappings; do not rewrite immutable dialogue records.
 
 ## Parasakthi status
 
