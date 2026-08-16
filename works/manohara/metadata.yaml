@@ -124,7 +124,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Run whole-work English reader/export preflight and integrity QA across all 57 verified archival scene records before generating publication-facing derivatives."
+  next_action: "Generate deterministic English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON; run generated-output QA and write an integrity manifest before Reading Room integration."
 
 fidelity_audit:
   status: complete
@@ -299,7 +299,20 @@ structured_derivatives:
   english_translation_translated_song_occurrences: ["manohara-song-001", "manohara-song-002", "manohara-song-003", "manohara-song-004", "manohara-song-005", "manohara-song-006"]
   english_translation_source_unlabelled_spoken_units: ["manohara-en-s008-u002", "manohara-en-s008-u008", "manohara-en-s008-u016", "manohara-en-s008-u018", "manohara-en-s008-u030", "manohara-en-s008-u077", "manohara-en-s009-u009", "manohara-en-s009-u023", "manohara-en-s020-u013", "manohara-en-s021-u019", "manohara-en-s021-u021", "manohara-en-s027-u006", "manohara-en-s038-u023", "manohara-en-s041-u011", "manohara-en-s045-u003", "manohara-en-s050-u023", "manohara-en-s051-u004", "manohara-en-s051-u005", "manohara-en-s051-u007", "manohara-en-s051-u013", "manohara-en-s052-u003", "manohara-en-s052-u014", "manohara-en-s052-u015", "manohara-en-s056-u003", "manohara-en-s056-u004", "manohara-en-s056-u006", "manohara-en-s056-u008"]
   english_translation_next_scene_batch: null
-  english_translation_integrity_state: translation-complete-pre-reader-qa
-  reader_export: not-started
-  reading_room_integration: blocked
+  english_translation_integrity_state: preflight-complete-pass
+  english_reader_preflight: complete-pass
+  english_reader_preflight_report_path: "editions/en/PREFLIGHT_QA_REPORT.md"
+  english_reader_preflight_script_path: "editions/en/audit_probe.py"
+  english_reader_preflight_workflow_path: "../../.github/workflows/manohara-english-preflight.yml"
+  english_reader_preflight_workflow_run_id: 31956654990
+  english_reader_preflight_head_commit: "b2cd2a597a9f2eeb0e8016b78102ec67fe05ae7e"
+  english_reader_preflight_dialogue_links_missing: 0
+  english_reader_preflight_dialogue_links_extra: 0
+  english_reader_preflight_dialogue_links_duplicate: 0
+  english_reader_preflight_synthetic_scene_end_units: 0
+  english_reader_preflight_structural_star_units: 0
+  english_reader_preflight_page_order_regressions: 0
+  english_reader_preflight_unit_id_errors: 0
+  reader_export: ready-after-preflight
+  reading_room_integration: blocked-pending-reader-export-generation-and-qa
   next_structured_derivative: reader-export

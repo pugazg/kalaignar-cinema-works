@@ -98,9 +98,14 @@ The detailed final reviews are:
 | Song/performance authorship | **complete-with-unresolved-authorship — 6 occurrences; 1 verified / 1 review / 4 unresolved** |
 | Tamil song lyric derivatives | **0 — no complete lyric body printed** |
 | English translation | **complete-verified — 57/57 scenes, 1,190 units** |
-| English reader/export preflight | **not-started** |
-| Reading Room integration | blocked pending reader/export QA |
+| English reader/export preflight | **complete-pass — 57 scenes / 1,190 units / 983 dialogue links** |
+| English reader/export generation | **ready / not-started** |
+| Reading Room integration | blocked pending generated reader/export QA |
+
+## Reader/export preflight — PASS
+
+The automated whole-work gate passed across **57/57 scene records and 1,190/1,190 verified units**. It confirmed **983/983 immutable dialogue links exactly once**, **27** null-speaker spoken units, **17** genuine cross-page units and **6/6** song/performance links, with **0** missing/extra/duplicate dialogue links, **0** synthetic scene-end units, **0** direct structural-star units, **0** page-order regressions, **0** unit-ID errors and **0** provenance/scene-metadata errors. The reproducible diagnostic and full disposition are under `editions/en/`.
 
 ## Next activity
 
-Run a **whole-work English reader/export preflight and integrity QA** across all 57 verified translation records before producing publication-facing Markdown/HTML/JSON or Reading Room data. The preflight should verify source order, unit IDs, exact **983/983** dialogue linkage, the **17** cross-page units, the **27** null-speaker spoken units, song-reference integrity, and absence of synthetic prose derived only from decorative `★` separators.
+Generate the deterministic **English reader/export package** in Markdown, standalone HTML and machine-readable JSON, then run generated-output QA and write an integrity manifest before Reading Room integration.

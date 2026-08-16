@@ -61,7 +61,9 @@ Scene 56 leaves all four colon-only continuations null-speaker. Scene 57 preserv
 
 No canonical Tamil, scene, dialogue, character or song-inventory record was changed by the English translation.
 
-**Next:** run **whole-work English reader/export preflight and integrity QA** across all 57 verified scene records before generating publication-facing Markdown/HTML/JSON or Reading Room data.
+The **Manohara English reader/export preflight now passes** across all 57 scene records and 1,190 verified units: 983/983 immutable dialogue links exactly once, 27 null-speaker spoken units, 17 cross-page units and all 6 song/performance links, with zero missing/extra/duplicate dialogue links, synthetic scene-end units, direct structural-star units, page-order regressions, unit-ID errors or provenance/scene-metadata errors.
+
+**Next:** generate deterministic Manohara English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON; run generated-output QA and write an integrity manifest before Reading Room integration.
 
 ## Parasakthi status
 

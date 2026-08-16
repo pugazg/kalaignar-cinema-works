@@ -79,6 +79,8 @@ Scene 56 has only three explicitly labelled dialogue records. Its four colon-onl
 
 Scene 57 preserves the source-unlabelled `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` inside the preceding king's immutable record. The closing `கடமை, கண்ணியம், கட்டுப்பாடு` is preserved as **Duty, dignity, discipline**, retaining its three-part cadence before the final victory acclamation.
 
-## Next gate
+## Reader/export preflight — PASS
 
-The **translation layer itself is complete**. The next activity is a separate **whole-work reader/export preflight and integrity QA** across all 57 scene records. That gate should check source order, unit IDs, exact 983/983 dialogue linkage, cross-page provenance, absence of synthetic star-derived endings, song-reference integrity and publication-reader structure before any Markdown/HTML/JSON or Reading Room derivative is generated.
+The whole-work automated preflight passed across all **57** scene records and **1,190** verified units. It independently confirmed **983/983 immutable dialogue links exactly once**, all **27** null-speaker spoken units, all **17** cross-page units, and all **6/6** song/performance occurrence links. Diagnostics found **0** missing/extra/duplicate dialogue links, **0** synthetic `(Scene ends.)` units, **0** units derived directly from decorative stars, **0** page-order regressions, **0** unit-ID errors and **0** provenance/scene-metadata errors. See `../editions/en/PREFLIGHT_QA_REPORT.md`.
+
+**Next:** generate deterministic publication-facing Markdown, standalone HTML and machine-readable JSON; then run generated-output QA and write an integrity manifest before Reading Room integration.
