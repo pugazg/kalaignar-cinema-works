@@ -64,16 +64,21 @@ Part 03, **PDF 43–54 / printed pp.42–53**, is **complete-verified**. The fin
 
 Part 04, **PDF 55–66 / printed pp.54–65**, is **complete-verified**. Batch 9 recorded **33** source-supported corrections for PDF 55–60, and Batch 10 recorded **30** for PDF 61–66. All **63** reviewed corrections were applied in commit `fd9e993a21deae53a9b4310fd2022384e8ccb7c1` while all twelve anchors remained `draft`. The corrected file's Git blob matched the independently calculated expected blob `d0936ed84f4809d637b8d88e80a9309f13072d61`. The full PDF 55–66 range was then visually rechecked against the rendered scan with **0 unresolved source readings** and no additional correction required. All 12 anchors were promoted to `verified` in commit `0795ea5d668cecda8a258563d7b93d0c27f7dc29`; the verified blob is `42253eb2489e875f7b729a8aab2f084394463e85`. The definitive record is `notes/fidelity-audit-part04-final.md`.
 
+Part 05, **PDF 67–78 / printed pp.66–77**, is now **half audited**. Batch 11 compared **PDF 67–72 / printed pp.66–71** directly against the rendered scan and recorded **33 clear scan-supported correction groups** with **0 unresolved readings**. Those corrections are stored in `notes/fidelity-audit-part05-batch11.md` and deliberately remain unapplied until PDF 73–78 is also audited. All 12 Part 05 anchors therefore remain `draft`.
+
+Representative Batch 11 restorations include `சற்றே விலகியிரும் பிள்ளாய்...`, `பல சாம்ராஜ்யங்கள் கவிழ்ந்திருக்கின்றன...`, `கத்தி ஏந்திய படை`, source `தபோதனர் வேடத்தில்`, unusual source `உடன்புறப்படுங்கள்.`, `நாம் ஆணையிட்டால் போதும்`, `புருஷோத்தமனின் படை வீரர்களை என் கைக்குள்`, `எதிரிப் படை அரண்மனைக்குள் மட்டுமா வந்திருக்கிறது?`, `இந்த ஆனந்தம் அனுபவித்து?`, `வாப்பா......வா......`, `அதுகூடத்தேவை இல்லை, அணையா விளக்கு நீ அருகே இருக்கும்போது!`, and `யாரா?......பாதகி!`.
+
 Cumulative fidelity state:
 
-- visually audited pages: **60/82** — through PDF **66 / printed p.65**;
+- visually audited pages: **66/82** — through PDF **72 / printed p.71**;
 - verified pages: **60** — PDF **7–66**;
 - draft pages: **22** — PDF **67–88**;
 - review pages: **0**;
 - Parts 01–04: **complete-verified**;
-- pending correction groups: **0**;
+- Part 05 audit coverage: **6/12 pages**;
+- pending Part 05 correction groups: **33**;
 - unresolved source readings: **0**;
-- next audit page: **PDF 67 / printed p.66**.
+- next audit page: **PDF 73 / printed p.72**.
 
 ## Status
 
@@ -83,7 +88,7 @@ Cumulative fidelity state:
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — 60/82 pages verified; Parts 01–04 complete-verified** |
+| Visual fidelity audit | **in-progress — 66/82 pages audited; PDF 7–66 verified; Part 05 6/12 audited** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -91,4 +96,4 @@ Cumulative fidelity state:
 
 ## Next activity
 
-**Begin the Part 05 visual fidelity audit at PDF 67 / printed p.66. Keep Part 05 page anchors at `draft`; after its full audit, apply the complete reviewed Part 05 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 05.**
+**Continue the Part 05 visual fidelity audit with PDF 73–78 / printed pp.72–77. Keep Part 05 page anchors at `draft`; after the full twelve-page audit, apply the complete reviewed Part 05 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 05.**
