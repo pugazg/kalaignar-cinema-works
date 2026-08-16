@@ -194,7 +194,7 @@ Part 01 result:
 
 Visual comparison completed for the first six pages of Part 02. This batch covers the Vijaya inquiry and marriage judgment, the `சிங்காரப் பைங்கிளியே... பேசு` performance reference, Bouthayan's false death report, his exposure before Padmavati and Manoharan, and his death in prison. Enlarged renders were used where the first pass had normalized source spelling, word spacing or dash forms.
 
-The following corrections are **recorded but not yet applied** to `transcription/parts/part-02-pdf-31-42.md`:
+The following corrections were recorded for `transcription/parts/part-02-pdf-31-42.md` and were later applied in the consolidated Part 02 rewrite documented below:
 
 | PDF | Printed | First-pass reading | Scan-supported reading / disposition |
 |---:|---:|---|---|
@@ -230,16 +230,13 @@ The following corrections are **recorded but not yet applied** to `transcription
 - audited range: PDF **31–36** / printed pp. **30–35**;
 - clear correction groups recorded in this batch: **24**;
 - unresolved source readings: **0**;
-- Part 02 visual-audit coverage: **6/12 pages**;
-- Part 02 corrections applied: **no — deferred until PDF 31–42 is fully audited**;
-- Part 02 page anchors promoted: **0**;
-- next visual-audit page: **PDF 37 / printed p.36**.
+- Part 02 visual-audit coverage after this batch: **6/12 pages**.
 
 ## Batch 6 — PDF 37–42 / printed pp.36–41
 
 Visual comparison completed for the final six pages of Part 02. This batch covers Vasantha Sena's attempt to enter the victory durbar, the court confrontation, Manoharan's anger before Padmavati, Vasanthan's medicine exchange, the final moments of the cave elder, the spring-festival sequence, and the confrontation ending with Manoharan striking Vijaya. Enlarged scan renders were used to preserve unusual punctuation, source abbreviations and source-visible grammatical forms rather than normalize them.
 
-The following corrections are **recorded but not yet applied** to `transcription/parts/part-02-pdf-31-42.md`:
+The following corrections were recorded for `transcription/parts/part-02-pdf-31-42.md` and were later applied in the consolidated Part 02 rewrite documented below:
 
 | PDF | Printed | First-pass reading | Scan-supported reading / disposition |
 |---:|---:|---|---|
@@ -270,9 +267,27 @@ The following corrections are **recorded but not yet applied** to `transcription
 - clear correction groups recorded in this batch: **19**;
 - unresolved source readings: **0**;
 - Part 02 visual-audit coverage: **complete — PDF 31–42 / printed pp.30–41**;
-- cumulative Part 02 correction groups pending application: **43**;
-- Part 02 corrections applied: **no — consolidated application is now the required next gate**;
-- Part 02 page anchors promoted: **0**.
+- cumulative Part 02 correction groups: **43**.
+
+## Consolidated Part 02 application and post-application check
+
+All **43** scan-supported correction groups recorded in Batches 5–6 were applied to `transcription/parts/part-02-pdf-31-42.md` in one controlled rewrite. The application commit was:
+
+`4082414706b1aac34b0eb878972e82a81459e0f6`
+
+The rewritten PDF 31–42 range was then checked again against this ledger and the rendered scans already inspected for the two Part 02 audit batches. The recheck confirmed that the recorded replacements, restored wording, historical/colloquial forms, punctuation, source abbreviations and page boundaries were present, and that no unresolved source reading remained.
+
+After that check, all **12 Part 02 page anchors** were promoted from `draft` to `verified`. The verification-promotion commit was:
+
+`e9ebea117d251d3f2f1e911c3b920e7b4298e407`
+
+Part 02 result:
+
+- canonical range: **PDF 31–42 / printed pp.30–41**;
+- pages: **12 verified / 0 review / 0 draft within Part 02**;
+- recorded correction groups: **43 applied**;
+- unresolved source readings: **0**;
+- post-application recheck: **passed**.
 
 ## Current cumulative state
 
@@ -280,13 +295,13 @@ The following corrections are **recorded but not yet applied** to `transcription
 - first pass: **82/82 complete (`draft-complete`)**;
 - visual audit completed through: **PDF 42 / printed p.41**;
 - visually audited pages: **36/82**;
-- verified canonical pages: **24**;
-- draft canonical pages: **58**;
+- verified canonical pages: **36**;
+- draft canonical pages: **46**;
 - review canonical pages: **0**;
 - Part 01: **complete-verified**;
-- Part 02 visual-audit coverage: **complete — PDF 31–42 / 12 of 12 pages**;
-- Part 02 correction groups pending application: **43**;
+- Part 02: **complete-verified**;
+- correction groups pending application: **0**;
 - unresolved source readings: **0**;
-- structured derivatives: **blocked until the remaining PDF 31–88 Tamil source layer is fidelity-verified**.
+- structured derivatives: **blocked until the remaining PDF 43–88 Tamil source layer is fidelity-verified**.
 
-**Next:** apply all **43** recorded Part 02 corrections to `transcription/parts/part-02-pdf-31-42.md` in one controlled source-led rewrite. Recheck the rewritten PDF **31–42 / printed pp.30–41** range against the ledger and rendered scans; if the check passes with no unresolved reading, promote all **12 Part 02 page anchors** to `verified` before continuing the visual audit at PDF **43 / printed p.42**.
+**Next:** continue the visual fidelity audit at **PDF 43 / printed p.42**, beginning Part 03. Keep Part 03 page anchors `draft` while corrections are accumulated for its own consolidated application and post-application recheck.
