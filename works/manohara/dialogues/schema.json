@@ -39,8 +39,8 @@
     },
     "speaker_delimiter": {
       "type": "string",
-      "enum": [":", ";", ",", "-"],
-      "description": "Printed punctuation separating a non-empty speaker label from the utterance. Stored separately because this booklet contains colon, semicolon, comma and hyphen delimiter anomalies."
+      "enum": [":", ";", ",", "-", "."],
+      "description": "Printed punctuation separating a non-empty speaker label from the utterance. Stored separately because this booklet contains colon, semicolon, comma, hyphen and period delimiter anomalies."
     },
     "text": {
       "type": "string",
