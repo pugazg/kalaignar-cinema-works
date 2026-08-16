@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manohara-song-inventory-schema",
+  "title": "Manohara song / performance inventory record",
+  "description": "Source-led derivative for song and singing-reference structures. Canonical Tamil remains authoritative; authorship is never inferred from performer identity, proximity, soundtrack memory, or the screenplay-dialogue credit.",
+  "type": "object",
+  "required": [
+    "id",
+    "archival_scene",
+    "candidate_kind",
+    "source_text_ta",
+    "pdf_pages",
+    "printed_pages",
+    "canonical_scene_file",
+    "printed_text_extent",
+    "authorship"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^manohara-song-[0-9]{3}$"
+    },
+    "archival_scene": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 57
+    },
+    "candidate_kind": {
+      "enum": [
+        "named-song-reference",
+        "named-song-performance-reference",
+        "performance-reference-with-partial-printed-lines"
+      ]
+    },
+    "source_text_ta": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pdf_pages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "integer", "minimum": 1}
+    },
+    "printed_pages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "integer", "minimum": 1}
+    },
+    "canonical_scene_file": {
+      "type": "string",
+      "pattern": "^../scenes/scene-[0-9]{3}\\.md$"
+    },
+    "dialogue_index_overlap": {
+      "type": "boolean"
+    },
+    "printed_text_extent": {
+      "enum": [
+        "title-or-refrain-only",
+        "performance-reference-only",
+        "partial-printed-labelled-lines"
+      ]
+    },
+    "performance_context": {
+      "type": "string"
+    },
+    "authorship": {
+      "type": "object",
+      "required": ["status", "lyricist_ta", "evidence_basis", "evidence_reference", "notes"],
+      "properties": {
+        "status": {"enum": ["verified", "review", "unresolved"]},
+        "lyricist_ta": {"type": ["string", "null"]},
+        "evidence_basis": {
+          "enum": [
+            "canonical-context-explicit",
+            "printed-item-credit",
+            "external-source",
+            "conflicting-external-sources",
+            "none"
+          ]
+        },
+        "evidence_reference": {"type": ["string", "null"]},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
