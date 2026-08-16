@@ -123,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Construct scene index and scene-text derivatives from the verified Tamil layer using observed source transition dispositions; do not invent source scene numbers."
+  next_action: "Continue archival scene-text derivatives from manohara-s008 / transition T008 using only the verified Tamil layer."
 
 fidelity_audit:
   status: complete
@@ -214,8 +214,15 @@ fidelity_audit:
   review_pages: 0
 
 structured_derivatives:
-  scene_index: not-started
-  scene_text_derivatives: not-started
+  scene_index: complete
+  scene_index_path: "scenes/index.json"
+  scene_segmentation_policy_path: "scenes/README.md"
+  source_numbered_scene_count: null
+  archival_scene_segments: 57
+  scene_text_derivatives: in-progress
+  scene_text_files_completed: 7
+  scene_text_completed_ordinals: "1-7"
+  scene_text_next_ordinal: 8
   dialogue_index: blocked
   character_index: blocked
   song_authorship_mapping: blocked
@@ -223,4 +230,4 @@ structured_derivatives:
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
-  next_structured_derivative: scene-index
+  next_structured_derivative: scene-text
