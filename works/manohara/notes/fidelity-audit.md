@@ -190,18 +190,64 @@ Part 01 result:
 - unresolved source readings: **0**;
 - post-application recheck: **passed**.
 
+## Batch 5 — PDF 31–36 / printed pp.30–35
+
+Visual comparison completed for the first six pages of Part 02. This batch covers the Vijaya inquiry and marriage judgment, the `சிங்காரப் பைங்கிளியே... பேசு` performance reference, Bouthayan's false death report, his exposure before Padmavati and Manoharan, and his death in prison. Enlarged renders were used where the first pass had normalized source spelling, word spacing or dash forms.
+
+The following corrections are **recorded but not yet applied** to `transcription/parts/part-02-pdf-31-42.md`:
+
+| PDF | Printed | First-pass reading | Scan-supported reading / disposition |
+|---:|---:|---|---|
+| 31 | 30 | — | no clear textual mismatch requiring correction was found on this page |
+| 32 | 31 | `நீ ஒருத்திதான் அழகி` | source spacing `நீ ஒருத்தி தான் அழகி` |
+| 32 | 31 | `ஒரு பொற்கொடி இருப்பது ... போய்விட்டது.` | source forms `ஒரு பொற்கொடி யிருப்பது ... போய் விட்டது.` |
+| 32 | 31 | `[...விஜயாவின் உருவத்தைக் காட்டி]` | source prints `[...விஜயாவின் உருவத்தை காட்டி]` |
+| 32 | 31 | `என்னை உங்கள் தாய் தந்தையர்கள்` | `என்னை தங்கள் தாய் தந்தையர்கள்` |
+| 32 | 31 | `உன் அமுதூறும் இதழ்களின் தேனலைகளை` | restore source wording `உன் அமுதூறும் இதழ் கடலின் தேனலைகளை` |
+| 32 | 31 | `ரசித்துக்கொண்டே இருக்கிறேன்` | source prints `ரசித்துக்கொண்டே யிருக்கிறேன்` |
+| 32 | 31 | `இன்னும் கொஞ்சம் பேச...` | source has `இன்னும் கொஞ்சம் பேசு...` |
+| 32 | 31 | `கட்டாரியை உங்கள் மீது வீசிவிட்டு` | source word joining `கட்டாரியை உங்கள்மீது வீசிவிட்டு` |
+| 33 | 32 | `கேளுங்கள்—நீச்சல் விளையாட்டு` | source dash form `கேளுங்கள் - நீச்சல் விளையாட்டு` |
+| 33 | 32 | `களைப்பு—புது மனைவியுடன் களிப்பு—எப்படியம்மா` | source uses spaced hyphens: `களைப்பு - புது மனைவியுடன் களிப்பு - எப்படியம்மா` |
+| 34 | 33 | `மனோகரனைத் தழுவிக் கொண்டு—ஆச்சரியத்துடன் பார்க்கிறாள்....` | source closes the line `மனோகரனைத் தழுவிக் கொண்டு—ஆச்சரியத்துடன் பார்க்கிறாள்...` |
+| 35 | 34 | `வாளைத் திருடியது மட்டுமல்லாமல்` | source prints `வாளைத் திருடியதுமல்லாமல்` |
+| 35 | 34 | `சதியிலே புது அத்தியாயம்—போர்வாளை` | preserve historical spelling and source dash: `சதியிலே புது அத்யாயம் - போர்வாளை` |
+| 35 | 34 | `கேளின் கொடுக்கே!` | clear scan reading `தேளின் கொடுக்கே!` |
+| 35 | 34 | `விடக் கூடாதம்மா...ராஜப்பிரியா...` | source dialogue form `விடக் கூடாதம்மா...ராஜப்ரியா...` |
+| 35 | 34 | `இனியும் அவளை உயிரோடு விடக்கூடாது!` | source prints the unusual form `இனியும் அவள் உயிரோடு விடக்கூடாது!` |
+| 35 | 34 | `மனோகரா! நில்—எங்கே ஓடுகிறாய்?...` | source dash form `மனோகரா! நில் - எங்கே ஓடுகிறாய்?...` |
+| 35 | 34 | `அம்மா இன்னும் என்ன—உங்கள் சபதத்தை` | source dash form `அம்மா இன்னும் என்ன - உங்கள் சபதத்தை` |
+| 35 | 34 | `வசந்தசேனைக்கோ—என் அனுமதியின்றி` | source dash form `வசந்தசேனைக்கோ - என் அனுமதியின்றி` |
+| 36 | 35 | `அவளுக்கு இரக்கம்—??? முடியாது!` | source dash form `அவளுக்கு இரக்கம் - ??? முடியாது!` |
+| 36 | 35 | `நாடு சிரிக்கட்டும்—அடங்காத` | source dash form `நாடு சிரிக்கட்டும் - அடங்காத` |
+| 36 | 35 | `ஹும் தேனை எடுக்க வேண்டுமானால்` | source prints `ஹூம் தேனை எடுக்க வேண்டுமானால்` |
+| 36 | 35 | `[சிறைச்சாலையில் வசந்தசேனையின் தோழி ...]` | source begins `[சிறைச்சாலை வசந்தசேனையின் தோழி ...]` |
+| 36 | 35 | `படம் எடுத்தபடி பாம்பு வெளிவந்து` | source word joining `படமெடுத்தபடி பாம்பு வெளிவந்து` |
+
+### Batch 5 disposition
+
+- pages visually audited in this batch: **6**;
+- audited range: PDF **31–36** / printed pp. **30–35**;
+- clear correction groups recorded in this batch: **24**;
+- unresolved source readings: **0**;
+- Part 02 visual-audit coverage: **6/12 pages**;
+- Part 02 corrections applied: **no — deferred until PDF 31–42 is fully audited**;
+- Part 02 page anchors promoted: **0**;
+- next visual-audit page: **PDF 37 / printed p.36**.
+
 ## Current cumulative state
 
 - canonical Tamil range: **PDF 7–88 / logical printed pp.6–87 — 82 pages**;
 - first pass: **82/82 complete (`draft-complete`)**;
-- visual audit completed through: **PDF 30 / printed p.29**;
-- visually audited pages: **24/82**;
+- visual audit completed through: **PDF 36 / printed p.35**;
+- visually audited pages: **30/82**;
 - verified canonical pages: **24**;
 - draft canonical pages: **58**;
 - review canonical pages: **0**;
 - Part 01: **complete-verified**;
-- correction groups pending application: **0**;
+- Part 02 visual-audit coverage: **PDF 31–36 / 6 of 12 pages**;
+- Part 02 correction groups pending application: **24**;
 - unresolved source readings: **0**;
 - structured derivatives: **blocked until the remaining PDF 31–88 Tamil source layer is fidelity-verified**.
 
-**Next:** continue the visual fidelity audit at **PDF 31 / printed p.30**, beginning Part 02. Keep Part 02 anchors `draft` while corrections are accumulated for its own consolidated application.
+**Next:** continue the Part 02 visual fidelity audit with **PDF 37–42 / printed pp.36–41**. Keep all Part 02 anchors `draft`; after that second six-page audit, apply the complete Part 02 correction set in one controlled rewrite, recheck it, and only then promote Part 02 anchors.
