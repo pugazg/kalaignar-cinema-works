@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manohara-character-index-schema",
+  "title": "Manohara character/entity derivative",
+  "description": "Derivative mapping from exact dialogue speaker labels to stable entities. Dialogue records remain immutable.",
+  "type": "object",
+  "required": [
+    "work_id",
+    "status",
+    "entities"
+  ],
+  "properties": {
+    "work_id": {
+      "const": "manohara"
+    },
+    "status": {
+      "enum": [
+        "pilot-verified",
+        "in-progress",
+        "complete-verified"
+      ]
+    },
+    "source_label_inventory": {
+      "type": "string"
+    },
+    "dialogue_index": {
+      "type": "string"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    }
+  },
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "required": [
+        "id",
+        "preferred_name_ta",
+        "entity_type",
+        "status",
+        "confidence",
+        "source_labels",
+        "scenes",
+        "supporting_records",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^manohara-char-[a-z0-9-]+$"
+        },
+        "preferred_name_ta": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_type": {
+          "enum": [
+            "character",
+            "role",
+            "collective",
+            "unresolved"
+          ]
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "review",
+            "unresolved"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "source_labels": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scenes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "supporting_records": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^manohara-s[0-9]{3}-d[0-9]{3}$"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}
