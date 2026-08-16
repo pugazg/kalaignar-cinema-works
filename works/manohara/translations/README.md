@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil transcription, complete scene derivatives and immutable dialogue records  
 **Target language:** English (`en`)  
-**Status:** **verified in progress — archival scenes 1–5 / 57, 38/38 units verified**
+**Status:** **verified in progress — archival scenes 1–10 / 57, 204/204 units verified**
 
 This directory contains an interpretive English derivative of the verified Tamil source. Nothing here repairs, normalizes, expands or overwrites the canonical Tamil.
 
@@ -14,7 +14,8 @@ The booklet prints **no scene numbers**. Translation identifiers such as `manoha
 - `index.json` — translation coverage and integrity checkpoint.
 - `PILOT_REVIEW.md` — scene-1 fidelity/voice review and scaling rules.
 - `BATCH_002_005_REVIEW.md` — verified review record for archival scenes 2–5.
-- `records/scene-001.json` through `records/scene-005.json` — verified English scene records.
+- `BATCH_006_010_REVIEW.md` — verified review record for archival scenes 6–10.
+- `records/scene-001.json` through `records/scene-010.json` — verified English scene records.
 
 ## Translation principles
 
@@ -23,10 +24,10 @@ The booklet prints **no scene numbers**. Translation identifiers such as `manoha
 3. **Every source-labelled utterance remains linked to its immutable dialogue record.** Exact Tamil `speaker_label` metadata is never normalized or replaced by character names.
 4. **Stage directions do not gain action or identity.** Translate only what the verified scene supplies.
 5. **Character voice is not homogenized.** Formal courtly speech, colloquial speech, reverential address, comic diction and heightened invective should remain distinguishable in English.
-6. **Culturally specific images are not automatically domesticated.** Terms such as `Gurudeva`, `Swami`, `Bhadrakali` and the `கொவ்வை` colour-image may be retained or lightly glossed when replacement would flatten the source.
+6. **Culturally specific images are not automatically domesticated.** Terms such as `Gurudeva`, `Swami`, `Bhadrakali`, `Athaan`, `Rakshasi`, `Chandali` and the `கொவ்வை` colour-image may be retained or lightly glossed when replacement would flatten the source.
 7. **Cross-page source utterances remain one English unit.** Page provenance and English page segments preserve the physical source boundary.
 8. **Song/performance material is limited to what this booklet prints.** No absent lyric is imported from recordings, web pages, record catalogs, subtitles or another booklet.
-9. **Source-unlabelled speech remains unlabelled.** Translation must not manufacture a speaker or dialogue-record ID.
+9. **Source-unlabelled speech remains unlabelled.** Translation must not manufacture a speaker or dialogue-record ID, even where surrounding stage context makes a likely speaker apparent.
 10. **Decorative `★` separators remain structural.** They are not converted into invented prose such as `(Scene ends.)`.
 11. **External authorship metadata is not translation text.** The song evidence layer may identify or qualify an occurrence, but cannot supply missing words.
 12. **The play-within-the-play remains structurally distinct.** Translation must not collapse nested-play identities into outer-story identities.
@@ -41,24 +42,30 @@ The pilot establishes the voice template: repeated `Victory`, the harvest metaph
 
 PDF **8–10 / logical printed pp.7–9** was reinspected for this batch. Four additional archival scenes add **26 verified units: 21 dialogue / 4 stage direction / 1 song-reference**.
 
-Key dispositions:
+The batch preserves Vasantha Sena's escalating ambition, the recurring `சந்தேகமில்லே` wordplay, Padmavathi's pleading register and the nested-play aliases. The translated song reference in scene 3 links only to `manohara-song-001`; no absent lyrics are supplied.
 
-- scene 2 preserves Vasantha Sena's escalating boast, including `living corpses`, `chief queen`, the throne and realm-at-her-feet imagery;
-- scene 3 preserves the repeated `சந்தேகமில்லே` wordplay and links the translated source-visible song reference to `manohara-song-001` without adding absent lyrics;
-- scene 4 retains Padmavathi's repeated `Swami!`, rhetorical pleading and the parental `உச்சி மோந்து` image as `kiss the crown`;
-- scene 5 keeps the nested-play aliases distinct, translates `போர்வாள்` as `The Sword of War`, retains `Shabash`, and follows the pilot's `Gurudeva` register.
+## Verified batch — `manohara-s006`–`manohara-s010`
 
-All **21/21** immutable dialogue records in scenes 2–5 are linked exactly once. `BATCH_002_005_REVIEW.md` records the batch-level fidelity decisions.
+PDF **10–23 / logical printed pp.9–22** was directly reinspected. Five additional archival scenes add **166 verified units: 141 dialogue-kind / 24 stage direction / 1 song-reference**. All **133/133 immutable labelled dialogue records** in these scenes are linked exactly once.
+
+Scene 8 exercises the most complex source structure so far. It retains the play-within-the-play as a separate dramatic layer, keeps the unresolved exact label `வர்மா` unchanged, and translates six source-empty speaker passages without inventing speaker metadata. Two new genuine cross-page English units are preserved: `manohara-en-s008-u008` across PDF 13→14 and `manohara-en-s008-u077` across PDF 18→19.
+
+The source-visible scene-8 love-song reference `நிலாவிலே ! சல்லாபமே!!` is linked to `manohara-song-002`. Only the printed title/refrain reference is translated; no lyric body is reconstructed.
+
+Across scenes 6–10, the English preserves Vasanthan's comic Pillaiyar/Parvati comparison, Manoharan's tortoise/warrior contrast, Kamalavathi's `javvadhu` / `Chandali` / `Rati-devi` imagery, Devasena's `Athaan` / `Rakshasi` register, Vasantha Sena's renunciation performance, Kesari's `brazen lie` / `syrupy speech` contrast, and Manoharan's festering-wound / civet-perfume alliterative image sequence. Scene 10 also preserves the `roll up and seize / be rolled up and crushed` wordplay rather than reducing it to a generic threat.
+
+`BATCH_006_010_REVIEW.md` records the batch-level decisions and integrity checks.
 
 ## Current coverage
 
 - archival scenes expected: **57**;
-- scenes translated/verified: **5/57**;
-- verified English units: **38**;
-- unit mix: **31 dialogue / 6 stage direction / 1 song-reference**;
-- immutable dialogue links: **31/31** for completed scenes;
-- translated song occurrences: **1 — `manohara-song-001`**;
-- cross-page English units: **1**;
+- scenes translated/verified: **10/57**;
+- verified English units: **204**;
+- unit mix: **172 dialogue / 30 stage direction / 2 song-reference**;
+- immutable dialogue links: **164/164** for completed scenes;
+- direct source-unlabelled spoken units: **8**, all with null speaker metadata;
+- translated song occurrences: **2 — `manohara-song-001`, `manohara-song-002`**;
+- cross-page English units: **3**;
 - review/draft units: **0**;
 - structural stars translated as prose: **0**;
 - canonical Tamil modified: **no**;
@@ -66,4 +73,4 @@ All **21/21** immutable dialogue records in scenes 2–5 are linked exactly once
 
 ## Next activity
 
-Translate and verify **`manohara-s006`–`manohara-s010`** with the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a page boundary, courtly expression, nested-play identity, comic phrase or rhetorical image is uncertain.
+Translate and verify **`manohara-s011`–`manohara-s015`** with the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a proclamation/chant boundary, unlabelled speech, courtly register, comic phrase, page crossing or rhetorical image is uncertain.
