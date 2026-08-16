@@ -91,16 +91,18 @@ The dialogue layer is active under `dialogues/` and follows the repository's est
 
 Current checkpoint:
 
-- dialogue scene shards completed: **15/57** — `manohara-s001` through `manohara-s015`;
-- immutable explicitly speaker-labelled dialogue records: **246**;
-- third batch (`s011`–`s015`) added **82** records;
+- dialogue scene shards completed: **20/57** — `manohara-s001` through `manohara-s020`;
+- immutable explicitly speaker-labelled dialogue records: **279**;
+- fourth batch (`s016`–`s020`) added **33** records;
 - cross-page dialogue records: **2** — `manohara-s001-d004` and `manohara-s015-d002`;
+- `manohara-s016` preserves the Part 01 / Part 02 scene continuity while keeping its PDF 30 and PDF 31 labelled utterances as distinct page-provenanced records; the preceding `(உள்ளேவந்து)` direction stays in the scene derivative rather than being folded into the speaker label;
+- `manohara-s020` intentionally leaves the post-stage-direction `பெளத்தாயனரே!... இன்னொரு காரியம்...` continuation unindexed because the source does not print a speaker label there;
 - `manohara-s013-d009` preserves the source's hyphen-delimited `சிப்பாய் 2 - மீன் கொடி சாய்ந்துவிட்டது.` rather than normalizing the delimiter;
 - `speaker_label` preserves the exact source-visible label and is never expanded or normalized at this layer;
-- `speaker_delimiter` separately preserves source punctuation, now including `:`, `;`, `,` and `-` forms;
+- `speaker_delimiter` separately preserves source punctuation, including `:`, `;`, `,` and `-` forms;
 - source-unlabelled lines remain unlabelled and do **not** receive dialogue IDs;
 - character normalization remains deferred to the later character/entity index;
-- next dialogue batch: **`manohara-s016`–`manohara-s020`**.
+- next dialogue batch: **`manohara-s021`–`manohara-s025`**.
 
 Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
 
@@ -115,7 +117,7 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
-| Dialogue index | **in-progress — 15/57 scenes, 246 records** |
+| Dialogue index | **in-progress — 20/57 scenes, 279 records** |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
@@ -123,4 +125,4 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 
 ## Next activity
 
-**Continue dialogue indexing with `manohara-s016` through `manohara-s020` in the next meaningful batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
+**Continue dialogue indexing with `manohara-s021` through `manohara-s025` in the next meaningful batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
