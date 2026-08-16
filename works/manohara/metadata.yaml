@@ -124,7 +124,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Translate and verify archival scenes manohara-s046 through manohara-s050 using the verified source-linked English model and voice-preservation rules."
+  next_action: "Run whole-work English reader/export preflight and integrity QA across all 57 verified archival scene records before generating publication-facing derivatives."
 
 fidelity_audit:
   status: complete
@@ -273,32 +273,33 @@ structured_derivatives:
   song_tamil_derivatives: not-started
   song_tamil_derivative_files: 0
   song_dialogue_records_modified: false
-  english_translation: verified
+  english_translation: complete-verified
   english_translation_index_path: "translations/index.json"
   english_translation_schema_path: "translations/schema.json"
   english_translation_readme_path: "translations/README.md"
   english_translation_pilot_review_path: "translations/PILOT_REVIEW.md"
-  english_translation_batch_review_paths: ["translations/BATCH_002_005_REVIEW.md", "translations/BATCH_006_010_REVIEW.md", "translations/BATCH_011_015_REVIEW.md", "translations/BATCH_016_020_REVIEW.md", "translations/BATCH_021_025_REVIEW.md", "translations/BATCH_026_030_REVIEW.md", "translations/BATCH_031_035_REVIEW.md", "translations/BATCH_036_040_REVIEW.md", "translations/BATCH_041_045_REVIEW.md"]
+  english_translation_batch_review_paths: ["translations/BATCH_002_005_REVIEW.md", "translations/BATCH_006_010_REVIEW.md", "translations/BATCH_011_015_REVIEW.md", "translations/BATCH_016_020_REVIEW.md", "translations/BATCH_021_025_REVIEW.md", "translations/BATCH_026_030_REVIEW.md", "translations/BATCH_031_035_REVIEW.md", "translations/BATCH_036_040_REVIEW.md", "translations/BATCH_041_045_REVIEW.md", "translations/BATCH_046_050_REVIEW.md", "translations/BATCH_051_055_REVIEW.md", "translations/BATCH_056_057_REVIEW.md"]
   english_translation_record_directory: "translations/records"
   english_translation_pilot_scene: 1
-  english_translation_scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
-  english_translation_scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
-  english_translation_units: 923
-  english_translation_verified_units: 923
+  english_translation_scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+  english_translation_scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+  english_translation_units: 1190
+  english_translation_verified_units: 1190
   english_translation_review_units: 0
   english_translation_draft_units: 0
   english_translation_unit_kind_counts:
-    dialogue: 781
-    stage_direction: 134
+    dialogue: 1009
+    stage_direction: 173
     song_reference: 6
     chant: 1
     written_text: 1
-  english_translation_dialogue_source_records_expected_completed_scenes: 767
-  english_translation_dialogue_source_records_linked: 767
-  english_translation_cross_page_units: ["manohara-en-s001-u006", "manohara-en-s008-u008", "manohara-en-s008-u077", "manohara-en-s011-u007", "manohara-en-s013-u017", "manohara-en-s015-u006", "manohara-en-s021-u023", "manohara-en-s036-u035", "manohara-en-s036-u044", "manohara-en-s036-u080"]
+  english_translation_dialogue_source_records_expected_completed_scenes: 983
+  english_translation_dialogue_source_records_linked: 983
+  english_translation_cross_page_units: ["manohara-en-s001-u006", "manohara-en-s008-u008", "manohara-en-s008-u077", "manohara-en-s011-u007", "manohara-en-s013-u017", "manohara-en-s015-u006", "manohara-en-s021-u023", "manohara-en-s036-u035", "manohara-en-s036-u044", "manohara-en-s036-u080", "manohara-en-s048-u009", "manohara-en-s048-u044", "manohara-en-s052-u018", "manohara-en-s055-u010", "manohara-en-s055-u016", "manohara-en-s055-u023", "manohara-en-s055-u029"]
   english_translation_translated_song_occurrences: ["manohara-song-001", "manohara-song-002", "manohara-song-003", "manohara-song-004", "manohara-song-005", "manohara-song-006"]
-  english_translation_source_unlabelled_spoken_units: ["manohara-en-s008-u002", "manohara-en-s008-u008", "manohara-en-s008-u016", "manohara-en-s008-u018", "manohara-en-s008-u030", "manohara-en-s008-u077", "manohara-en-s009-u009", "manohara-en-s009-u023", "manohara-en-s020-u013", "manohara-en-s021-u019", "manohara-en-s021-u021", "manohara-en-s027-u006", "manohara-en-s038-u023", "manohara-en-s041-u011", "manohara-en-s045-u003"]
-  english_translation_next_scene_batch: "46-50"
-  reader_export: blocked
+  english_translation_source_unlabelled_spoken_units: ["manohara-en-s008-u002", "manohara-en-s008-u008", "manohara-en-s008-u016", "manohara-en-s008-u018", "manohara-en-s008-u030", "manohara-en-s008-u077", "manohara-en-s009-u009", "manohara-en-s009-u023", "manohara-en-s020-u013", "manohara-en-s021-u019", "manohara-en-s021-u021", "manohara-en-s027-u006", "manohara-en-s038-u023", "manohara-en-s041-u011", "manohara-en-s045-u003", "manohara-en-s050-u023", "manohara-en-s051-u004", "manohara-en-s051-u005", "manohara-en-s051-u007", "manohara-en-s051-u013", "manohara-en-s052-u003", "manohara-en-s052-u014", "manohara-en-s052-u015", "manohara-en-s056-u003", "manohara-en-s056-u004", "manohara-en-s056-u006", "manohara-en-s056-u008"]
+  english_translation_next_scene_batch: null
+  english_translation_integrity_state: translation-complete-pre-reader-qa
+  reader_export: not-started
   reading_room_integration: blocked
-  next_structured_derivative: english-translation
+  next_structured_derivative: reader-export
