@@ -1,0 +1,48 @@
+{
+  "work_id": "manohara",
+  "purpose": "External evidence is used only for item-level authorship or title correspondence after the source-visible occurrence has been established from the booklet. It never changes canonical Tamil or supplies absent lyrics.",
+  "accessed_date": "2026-08-16",
+  "sources": [
+    {
+      "id": "manohara-ext-001",
+      "source_name": "Saregama — Manohara album page",
+      "source_type": "official-label-catalog",
+      "url": "https://www.saregama.com/album/manohara_120868",
+      "evidence": "The official Saregama album page lists four Manohara tracks: Yennai Paarenna, Pozhuthu Pularnthathey, Santhegam Illai and Inbanaalithe.",
+      "use": "Exact public-catalog title correspondence for the source-visible Pozhuthu Pularnthathey / பொழுது புலர்ந்தது and Santhegam Illai / சந்தேகமில்லே occurrences. The album page itself does not expose lyricist attribution for Santhegam Illai in the retrieved metadata and is not treated as an exhaustive list of every song heard in the booklet."
+    },
+    {
+      "id": "manohara-ext-002",
+      "source_name": "Saregama — Surabi artist page",
+      "source_type": "official-label-lyricist-catalog",
+      "url": "https://www.saregama.com/artist/surabi_19221",
+      "evidence": "Saregama identifies Surabi as a Lyricist and lists Pozhuthu Pularnthathey from Manohara on the same artist page.",
+      "use": "Item-level authorship evidence for the booklet occurrence பொழுது புலர்ந்தது."
+    },
+    {
+      "id": "manohara-ext-003",
+      "source_name": "Noolaham digital text — discussion of Udumalai Narayana Kavi",
+      "source_type": "digitized-secondary-publication",
+      "url": "https://noolaham.net/project/104/10380/10380.html",
+      "evidence": "The digitized publication includes சிங்காரப் பைங்கிளியே பேசு (மனோஹரா) among film love songs attributed to Udumalai Narayana Kavi.",
+      "use": "Supports Udumalai Narayana Kavi as a candidate lyricist for the source-visible சிங்காரப் பைங்கிளியே... பேசு occurrence, but is not the booklet's own credit."
+    },
+    {
+      "id": "manohara-ext-004",
+      "source_name": "மதியின் திரை நட்சத்திரங்கள் — Radha Jayalakshmi retrospective",
+      "source_type": "secondary-web-retrospective",
+      "url": "https://thamizhstars.blogspot.com/2017/05/",
+      "evidence": "The retrospective describes சிங்காரப் பைங்கிளியே பேசு in Manohara as a song by Kalaignar Karunanidhi.",
+      "use": "Conflicts with manohara-ext-003; therefore this archive does not mark authorship of சிங்காரப் பைங்கிளியே... பேசு as verified."
+    },
+    {
+      "id": "manohara-ext-005",
+      "source_name": "Public soundtrack table reproduced for Manohara",
+      "source_type": "tertiary-tracklist-corroboration",
+      "url": "https://en.wikipedia.org/wiki/Manohara_(film)",
+      "evidence": "The soundtrack table lists Singaara Paingkiliye Pesu with Udumalai Narayana Kavi and also lists Nilaavile Ullaasamaaga Aadalaam, Sandhegam Illai Sandhegam Illai and Vasantha Vizhaa Osantha Thiruvizhaa among Manohara songs.",
+      "use": "Corroboration only. It is not allowed to override the booklet or resolve conflicting authorship evidence by itself."
+    }
+  ],
+  "evidence_policy": "Official item-level label metadata can verify authorship when the source-visible title correspondence is exact. Secondary or tertiary sources may document a candidate or conflict but do not silently convert uncertainty into verification. Film-wide lyricist lists are not item-level assignments."
+}
