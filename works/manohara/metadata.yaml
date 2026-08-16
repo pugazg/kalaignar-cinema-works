@@ -76,9 +76,10 @@ structure:
       status: observed
       approximate_pdf_pages: "13-19"
     song_performance_references:
-      status: observed
+      status: inventoried
       candidate_pdf_pages: [9, 16, 30, 32, 37, 41]
-      authorship_status: unresolved_not_inferred
+      authorship_status: complete_with_unresolved_authorship
+      inventory_path: "songs/inventory.json"
     proclamation_or_chant_like_passage:
       status: observed
       pdf_page: 23
@@ -123,7 +124,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Begin the Manohara source-visible song/performance inventory and per-song authorship mapping gate. Use booklet evidence first and do not infer lyric authorship from the screenplay/dialogue credit."
+  next_action: "Begin English translation as a separate source-linked derivative layer. Translate song/performance material only to the extent printed in the canonical Tamil; do not supply absent lyrics or alter unresolved authorship dispositions."
 
 fidelity_audit:
   status: complete
@@ -254,9 +255,25 @@ structured_derivatives:
   character_unresolved_source_labels: ["வர்மா"]
   character_remaining_unmapped_labels: 0
   character_dialogue_records_modified: false
-  song_authorship_mapping: not-started
-  song_tamil_derivatives: blocked
-  english_translation: blocked
+  song_authorship_mapping: complete-with-unresolved-authorship
+  song_index_path: "songs/index.json"
+  song_schema_path: "songs/schema.json"
+  song_credits_path: "songs/credits.json"
+  song_tracklist_evidence_path: "songs/tracklist-evidence.json"
+  song_inventory_path: "songs/inventory.json"
+  song_candidate_occurrences: 6
+  song_verified_authorship_occurrences: 1
+  song_review_authorship_occurrences: 1
+  song_unresolved_authorship_occurrences: 4
+  song_verified_occurrence_ids: ["manohara-song-005"]
+  song_review_occurrence_ids: ["manohara-song-004"]
+  song_unresolved_occurrence_ids: ["manohara-song-001", "manohara-song-002", "manohara-song-003", "manohara-song-006"]
+  song_named_occurrences: 5
+  song_full_lyric_blocks_printed: 0
+  song_tamil_derivatives: not-started
+  song_tamil_derivative_files: 0
+  song_dialogue_records_modified: false
+  english_translation: not-started
   reader_export: blocked
   reading_room_integration: blocked
-  next_structured_derivative: song-authorship-mapping
+  next_structured_derivative: english-translation
