@@ -123,19 +123,20 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue the Part 04 visual fidelity audit with PDF 61-66 / printed pp.60-65; keep Part 04 anchors draft until the complete correction set is applied and rechecked."
+  next_action: "Apply all 63 reviewed Part 04 corrections to PDF 55-66, keep the anchors draft during application, then perform a separate post-application visual recheck before promotion."
 
 fidelity_audit:
   status: in-progress
   ledger_path: "notes/fidelity-audit.md"
   part_03_final_record_path: "notes/fidelity-audit-part03-final.md"
   part_04_batch_09_path: "notes/fidelity-audit-part04-batch09.md"
+  part_04_batch_10_path: "notes/fidelity-audit-part04-batch10.md"
   canonical_range_audit_complete: false
-  audited_pdf_pages: "7-60"
-  audited_logical_printed_pages: "6-59"
-  audited_pages: 54
-  audit_through_pdf_page: 60
-  audit_through_logical_printed_page: 59
+  audited_pdf_pages: "7-66"
+  audited_logical_printed_pages: "6-65"
+  audited_pages: 60
+  audit_through_pdf_page: 66
+  audit_through_logical_printed_page: 65
   part_01_audit_complete: true
   part_01_corrections_recorded: 89
   part_01_corrections_applied: true
@@ -161,19 +162,19 @@ fidelity_audit:
   part_03_post_application_recheck: passed
   part_03_verification_commit: "7f1413a451b7ac4ee769c0f20766f9c08939d753"
   part_03_verified_pages: 12
-  part_04_audit_complete: false
-  part_04_audited_pdf_pages: "55-60"
-  part_04_audited_logical_printed_pages: "54-59"
-  part_04_audited_pages: 6
-  part_04_corrections_recorded: 33
-  part_04_corrections_pending_apply: 33
+  part_04_audit_complete: true
+  part_04_audited_pdf_pages: "55-66"
+  part_04_audited_logical_printed_pages: "54-65"
+  part_04_audited_pages: 12
+  part_04_corrections_recorded: 63
+  part_04_corrections_pending_apply: 63
   part_04_corrections_applied: false
   part_04_verified_pages: 0
-  correction_groups_pending_apply: 33
+  correction_groups_pending_apply: 63
   corrections_applied: true_for_parts_01_02_03
   unresolved_source_readings: 0
-  next_pdf_page: 61
-  next_logical_printed_page: 60
+  next_pdf_page: 55
+  next_logical_printed_page: 54
   verified_pages: 48
   draft_pages: 34
   review_pages: 0
