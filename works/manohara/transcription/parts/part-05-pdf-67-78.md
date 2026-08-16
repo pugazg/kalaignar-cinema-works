@@ -1,13 +1,13 @@
 # மனோகரா — canonical Tamil transcription
 
-**Status:** `draft` — first-pass transcription for PDF 67–78 / printed pp.66–77. This batch has not yet undergone the separate visual fidelity audit.
+**Status:** `verified` — PDF 67–78 / printed pp.66–77 completed the separate visual fidelity audit; all 69 reviewed scan-supported correction groups were applied and the corrected range passed the post-application visual recheck.
 
 Source: `TVA_BOK_0010102_மனோகரா.pdf`  
 SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`
 
 The rendered scan controls every reading. The PDF OCR layer was used only for navigation. Source spelling, punctuation, speaker labels, stage directions, separators and typographical irregularities are retained as read. Doubtful readings are not repaired from film knowledge or other editions.
 
-<!-- source: pdf=67 printed=66 status=draft -->
+<!-- source: pdf=67 printed=66 status=verified -->
 
 வைத் : அப்போ நான்...
 
@@ -47,7 +47,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அரசன் : வரவேண்டும்...... வரவேண்டும்...... பாக்யவானானேன்.
 
-<!-- source: pdf=68 printed=67 status=draft -->
+<!-- source: pdf=68 printed=67 status=verified -->
 
 உக் : பகவானின் பேரருள் சித்திக்கட்டும்... புருஷோத்தம ராஜன்... நாடகமே உலகம், நாளை நடப்பதை யாரறிவார்!......
 
@@ -97,7 +97,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 உக்ர : எல்லாம் கடவுள் செயல்! ராஜன்!... இந்த உடலம் சிறிது இளைப்பாறவேண்டும்...
 
-<!-- source: pdf=69 printed=68 status=draft -->
+<!-- source: pdf=69 printed=68 status=verified -->
 
 அர : இதோ ஏற்பாடு செய்கிறேன்......
 
@@ -125,7 +125,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந் : ஸ்வாமிகளுக்கு ஆண்டவன் நினைவோ?
 
-<!-- source: pdf=70 printed=69 status=draft -->
+<!-- source: pdf=70 printed=69 status=verified -->
 
 உக் : ஆண்டவனைப்பற்றியல்ல. ஆண்டு கொண்டிருப்பவனைப்பற்றி... உட்கார். உல்லாசி.
 
@@ -167,7 +167,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 ஆள்......அப்படியா......
 
-<!-- source: pdf=71 printed=70 status=draft -->
+<!-- source: pdf=71 printed=70 status=verified -->
 
 (சிறைக்குள்ளே)
 
@@ -205,7 +205,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 உக் : சொர்க்கலோகத்துக்குப் போய்க்கொண்டிருக்கிறோம், கண்ணே!
 
-<!-- source: pdf=72 printed=71 status=draft -->
+<!-- source: pdf=72 printed=71 status=verified -->
 
 [பூஜை அறையின் ஜன்னலுக்கு வெளியே]
 
@@ -253,7 +253,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அர : எதடி ஆண்டவன் கட்டளை? எது? அர்த்த ராத்திரியிலே, ஹம்ஸ தூளிகா மஞ்சத்தில் அந்த ஆண்—
 
-<!-- source: pdf=73 printed=72 status=draft -->
+<!-- source: pdf=73 printed=72 status=verified -->
 
 டிப் பயலோடு நீ ஆனந்தக் கேளிக்கை நடத்தவேண்டுமென்பதா ஆண்டவன் கட்டளை?
 
@@ -281,7 +281,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அர : மோசக்காரி!
 
-<!-- source: pdf=74 printed=73 status=draft -->
+<!-- source: pdf=74 printed=73 status=verified -->
 
 சே : மோசக்காரி! நானு மோசக்காரி? பல ஆண்டுகளாக என்னை பள்ளியறைப் பதுமையாக மாத்திரம் வைத்துக்கொண்டு என் பாலகனுக்கு பட்டாபிஷேகம் செய்ய வேண்டும் என்ற என் ஒரே ஒரு தணியாத ஆசையைக்கூட தரை மட்டமாக ஆக்கிவிட்ட நீரல்லவா மோசக்காரர்?
 
@@ -309,7 +309,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * *
 
-<!-- source: pdf=75 printed=74 status=draft -->
+<!-- source: pdf=75 printed=74 status=verified -->
 
 (சிறைக்கூடம்)
 
@@ -333,7 +333,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அர : வசந்தன்! அந்த வஞ்சகியின் மகன் வக்கிர மூளைக்காரன். வளமார் எமது பூமியின் வருங்கால காவலன் ஐயகோ! மனோகரா! ஆளப் பிறந்த என் செல்வமே! உன்னை சாகத்துரத்திய சண்டாளனுக்கு சரியான தண்டனை கிடைத்துவிட்டது. மனோகரா! உனக்கும் உன் மாதாவிற்கும் கண்மணி விஜயாவுக்கும் எத்தனை இடை
 
-<!-- source: pdf=76 printed=75 status=draft -->
+<!-- source: pdf=76 printed=75 status=verified -->
 
 யூறுகள் செய்தேன்! அதற்கெல்லாம் யாரிடம் மன்னிப்பு கேட்பேன்? நீ எங்கிருக்கிறாய் மனோகரா! ஆயிரம் குற்றங்கள் செய்திருந்தாலும் தந்தைக்கு ஆபத்து என்றால் தலைகொடுக்க ஓடிவருவாயே! உன்னிடம் யார் இந்தச் செய்தியையை சொல்லுவார்கள் மனோகரா! மனோகரா நீ எங்கிருக்கிறாய் மனோகரா!
 
@@ -373,7 +373,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 [குகையருகிலுள்ள கல் தூணில் கட்டப்பட்டிருந்த உண்மை அக்ஷயன் கஷ்டப்பட்டு கயிறுகளை அறுக்கிறான்.]
 
-<!-- source: pdf=77 printed=76 status=draft -->
+<!-- source: pdf=77 printed=76 status=verified -->
 
 அரண்மனை
 
@@ -421,7 +421,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 : தம்பி மனோகரனிடம் சொல்—எனக்கு ஒரு செல்வப் பேரன் பிறந்திருக்கிறான், சிறைச்சாலையில் என்று!
 
-<!-- source: pdf=78 printed=77 status=draft -->
+<!-- source: pdf=78 printed=77 status=verified -->
 
 மனோ : இந்தப் பேரனுக்கு வரும் பேராபத்தை நீக்கத்தான் நீங்கள் வெளியேற வேண்டும் என்கிறேன்.
 
