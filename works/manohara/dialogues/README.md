@@ -39,10 +39,20 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing has begun with **scenes 1–5** (`manohara-s001`–`manohara-s005`). These five scene shards contain **31 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–10** (`manohara-s001`–`manohara-s010`). These ten scene shards contain **164 immutable labelled-dialogue records**.
 
-One cross-page record is already present: `manohara-s001-d004`, whose labelled utterance begins on PDF 7 / logical printed p.6 and continues onto PDF 8 / printed p.7.
+The second batch added **133 records** across scenes 6–10:
 
-Next batch: continue from **`manohara-s006`**. Multiple scenes should be handled per activity where density permits.
+- `s006`: 18 records;
+- `s007`: 13;
+- `s008`: 58;
+- `s009`: 36;
+- `s010`: 8.
+
+`manohara-s008` contains the embedded play. Source lines whose printed speaker field is empty and appears only as `:` remain outside the dialogue index. By contrast, non-empty descriptive labels actually printed before a colon — for example `நாடகம் பார்க்கும் ராஜப்பிரியன்`, `நாடகம் பார்க்கும் வசந்தசேனா`, `நாடக தேவசேனா`, and `நாடகம் பார்க்கும் வசந்தன்` — are retained exactly as source speaker labels, without normalizing them to character names.
+
+The existing cross-page record remains `manohara-s001-d004`, whose labelled utterance begins on PDF 7 / logical printed p.6 and continues onto PDF 8 / printed p.7.
+
+Next batch: continue with **`manohara-s011`–`manohara-s015`**. Multiple scenes should continue to be handled per activity where density permits.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
