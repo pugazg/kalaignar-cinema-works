@@ -5,7 +5,7 @@ The canonical Tamil first pass is stored in source-order batches. Each part rema
 | Part | PDF pages | Logical printed pages | Pages | Status |
 |---|---:|---:|---:|---|
 | [`part-01-pdf-7-30.md`](part-01-pdf-7-30.md) | 7–30 | 6–29 | 24 | **verified** |
-| [`part-02-pdf-31-42.md`](part-02-pdf-31-42.md) | 31–42 | 30–41 | 12 | draft |
+| [`part-02-pdf-31-42.md`](part-02-pdf-31-42.md) | 31–42 | 30–41 | 12 | **verified** |
 | [`part-03-pdf-43-54.md`](part-03-pdf-43-54.md) | 43–54 | 42–53 | 12 | draft |
 | [`part-04-pdf-55-66.md`](part-04-pdf-55-66.md) | 55–66 | 54–65 | 12 | draft |
 | [`part-05-pdf-67-78.md`](part-05-pdf-67-78.md) | 67–78 | 66–77 | 12 | draft |
@@ -13,10 +13,12 @@ The canonical Tamil first pass is stored in source-order batches. Each part rema
 
 First-pass coverage: **82/82 canonical pages — complete**.  
 Canonical range: **PDF 7–88 / logical printed pp.6–87**.  
-Current fidelity state: **24 verified / 58 draft / 0 review**.
+Current fidelity state: **36 verified / 46 draft / 0 review**.
 
 Part 01 passed its full PDF 7–30 visual audit, had all **89** recorded scan-supported correction groups applied, and passed a post-application recheck before all 24 page anchors were promoted to `verified`.
 
-The next fidelity-audit range begins at **PDF 31 / printed p.30** in Part 02.
+Part 02 passed its full PDF 31–42 visual audit, had all **43** recorded scan-supported correction groups applied, and passed a post-application recheck before all 12 page anchors were promoted to `verified`.
+
+The next fidelity-audit range begins at **PDF 43 / printed p.42** in Part 03.
 
 Do not use the OCR layer, film audio, subtitles, web quotations, memory or later editions to silently repair this source layer.
