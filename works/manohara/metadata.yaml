@@ -123,32 +123,33 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue the Part 02 visual fidelity audit with PDF 37-42 / printed pp.36-41; keep Part 02 anchors draft, then apply and recheck the complete Part 02 correction set before promotion."
+  next_action: "Apply all 43 recorded Part 02 corrections to PDF 31-42 / printed pp.30-41 in one controlled rewrite; recheck the corrected range and promote its 12 anchors only if the check passes."
 
 fidelity_audit:
   status: in-progress
   ledger_path: "notes/fidelity-audit.md"
   canonical_range_audit_complete: false
-  audited_pdf_pages: "7-36"
-  audited_logical_printed_pages: "6-35"
-  audited_pages: 30
-  audit_through_pdf_page: 36
-  audit_through_logical_printed_page: 35
+  audited_pdf_pages: "7-42"
+  audited_logical_printed_pages: "6-41"
+  audited_pages: 36
+  audit_through_pdf_page: 42
+  audit_through_logical_printed_page: 41
   part_01_audit_complete: true
   part_01_corrections_recorded: 89
   part_01_corrections_applied: true
   part_01_post_application_recheck: passed
   part_01_verified_pages: 24
-  part_02_audit_complete: false
-  part_02_audited_pdf_pages: "31-36"
-  part_02_audited_logical_printed_pages: "30-35"
-  part_02_audited_pages: 6
-  part_02_corrections_pending_apply: 24
-  correction_groups_pending_apply: 24
+  part_02_audit_complete: true
+  part_02_audited_pdf_pages: "31-42"
+  part_02_audited_logical_printed_pages: "30-41"
+  part_02_audited_pages: 12
+  part_02_corrections_pending_apply: 43
+  correction_groups_pending_apply: 43
   corrections_applied: true_for_part_01
   unresolved_source_readings: 0
-  next_pdf_page: 37
-  next_logical_printed_page: 36
+  next_pdf_page: 43
+  next_logical_printed_page: 42
+  part_02_corrections_must_apply_before_next_batch: true
   verified_pages: 24
   draft_pages: 58
   review_pages: 0
