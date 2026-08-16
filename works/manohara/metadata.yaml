@@ -123,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Begin the Part 05 visual fidelity audit at PDF 67 / printed p.66; keep Part 05 anchors draft until its correction set is applied and rechecked."
+  next_action: "Continue the Part 05 visual fidelity audit with PDF 73-78 / printed pp.72-77; keep Part 05 anchors draft until the complete correction set is applied and rechecked."
 
 fidelity_audit:
   status: in-progress
@@ -132,12 +132,13 @@ fidelity_audit:
   part_04_batch_09_path: "notes/fidelity-audit-part04-batch09.md"
   part_04_batch_10_path: "notes/fidelity-audit-part04-batch10.md"
   part_04_final_record_path: "notes/fidelity-audit-part04-final.md"
+  part_05_batch_11_path: "notes/fidelity-audit-part05-batch11.md"
   canonical_range_audit_complete: false
-  audited_pdf_pages: "7-66"
-  audited_logical_printed_pages: "6-65"
-  audited_pages: 60
-  audit_through_pdf_page: 66
-  audit_through_logical_printed_page: 65
+  audited_pdf_pages: "7-72"
+  audited_logical_printed_pages: "6-71"
+  audited_pages: 66
+  audit_through_pdf_page: 72
+  audit_through_logical_printed_page: 71
   part_01_audit_complete: true
   part_01_corrections_recorded: 89
   part_01_corrections_applied: true
@@ -174,11 +175,19 @@ fidelity_audit:
   part_04_post_application_recheck: passed
   part_04_verification_commit: "0795ea5d668cecda8a258563d7b93d0c27f7dc29"
   part_04_verified_pages: 12
-  correction_groups_pending_apply: 0
+  part_05_audit_complete: false
+  part_05_audited_pdf_pages: "67-72"
+  part_05_audited_logical_printed_pages: "66-71"
+  part_05_audited_pages: 6
+  part_05_corrections_recorded: 33
+  part_05_corrections_pending_apply: 33
+  part_05_corrections_applied: false
+  part_05_verified_pages: 0
+  correction_groups_pending_apply: 33
   corrections_applied: true_for_parts_01_02_03_04
   unresolved_source_readings: 0
-  next_pdf_page: 67
-  next_logical_printed_page: 66
+  next_pdf_page: 73
+  next_logical_printed_page: 72
   verified_pages: 60
   draft_pages: 22
   review_pages: 0
