@@ -78,15 +78,14 @@ Current scene checkpoint:
 
 - archival scene segments indexed: **57/57**;
 - scene index: **complete**;
-- scene-text derivatives: **41/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s041`;
-- `manohara-s016`, `manohara-s030`, `manohara-s036`, and `manohara-s041` preserve genuine source continuities across canonical storage-part boundaries rather than introducing false scene breaks;
-- `manohara-s037` preserves the PDF 58 palace/cave continuation after Manoharan's rescue;
-- `manohara-s038` preserves the prison material and Vasanthan's mock-darbar sequence;
-- `manohara-s039` preserves Vasanthasena's garden conversation, her decision to turn to Ugrasenan and the invisible Kesari Varma/Vasanthan intervention;
-- `manohara-s040` preserves the interception of Atchayan, Ugrasenan's letter and the decision to expose the conspiracy;
-- `manohara-s041` preserves the false-Atchayan/physician disguise through the opening portion of PDF 67 and stops immediately before `T042`;
-- next: `manohara-s042`, beginning with `[உக்ரசேனன் கூடாரம்]` on PDF 67;
+- scene-text derivatives: **51/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s051`;
+- five genuine source continuities across canonical storage-part boundaries have been preserved rather than converted into false scene breaks: `s016`, `s030`, `s036`, `s041`, and `s051`;
+- `manohara-s042`–`manohara-s048` preserve Ugrasenan's disguised infiltration, the cave response, Ugrasenan/Vasanthasena's chamber sequence, Vijaya's childbirth in prison, Vasanthan's warning to Purushothaman, the exposure of Vasanthasena and Ugrasenan, and Purushothaman's imprisonment;
+- `manohara-s049` preserves Vasanthasena ordering the disguised Manoharan to kill Vijaya's newborn child and his internal refusal;
+- `manohara-s050` preserves the real Atchayan's escape and Manoharan's unsuccessful attempt to remove Padmavati, Vijaya and the child from prison;
+- `manohara-s051` crosses from PDF 78 into the opening of PDF 79 as the real Atchayan exposes Manoharan's disguise, stopping immediately before `T052`;
+- next: `manohara-s052`, beginning with `சிறைச்சாலை` on PDF 79;
 - dialogue indexing remains blocked until all scene-text derivatives are complete.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
@@ -101,7 +100,7 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
-| Scene-text derivatives | **in-progress — 41/57 complete-verified** |
+| Scene-text derivatives | **in-progress — 51/57 complete-verified** |
 | Dialogue index | blocked until scene-text layer |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
@@ -110,4 +109,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Continue scene-text derivatives from `manohara-s042` / transition `T042`, beginning with `[உக்ரசேனன் கூடாரம்]` on PDF 67. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
+**Continue scene-text derivatives from `manohara-s052` / transition `T052`, beginning with `சிறைச்சாலை` on PDF 79. Only six archival scene derivatives remain; copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
