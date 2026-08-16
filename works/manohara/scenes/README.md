@@ -6,7 +6,7 @@ The source booklet does **not** print numbered scenes. The verified canonical Ta
 
 ## Segmentation policy
 
-[`../notes/scene-heading-audit.md`](../notes/scene-heading-audit.md) verified **57 principal source-visible transition dispositions**, identified there as audit rows `T001`–`T057`. After the complete Tamil layer reached `complete-verified`, those 57 accepted transitions were adopted as the start points for **57 archival scene segments**.
+`notes/scene-heading-audit.md` verified **57 principal source-visible transition dispositions**, identified there as audit rows `T001`–`T057`. After the complete Tamil layer reached `complete-verified`, those 57 accepted transitions were adopted as the start points for **57 archival scene segments**.
 
 Important:
 
@@ -24,11 +24,12 @@ Important:
 
 - archival scene segments indexed: **57/57**;
 - source-numbered scene count: **not applicable**;
-- scene-text derivatives completed: **7/57** — `manohara-s001` through `manohara-s007`;
-- completed derivative source span: opening PDF **7** through PDF **13**, ending immediately before audit transition `T008` (`அரண்மனையில் நாடகம்`);
+- scene-text derivatives completed: **8/57** — `manohara-s001` through `manohara-s008`;
+- completed derivative source span: opening PDF **7** through PDF **19**, ending immediately before audit transition `T009` (`வசந்தசேனை அந்தப்புரம்`);
+- `manohara-s008` preserves the complete embedded play beginning on PDF 13 and continuing through the closing `இன்னும் உயிர் வாழ்கிறாள்.` on PDF 19; the following boundary stars are not duplicated into either adjacent scene derivative;
 - derivative source authority: verified canonical Tamil only;
-- next scene-text derivative: **`manohara-s008`**, the embedded play beginning on PDF 13.
+- next scene-text derivative: **`manohara-s009`**, beginning with `[வசந்தசேனை அந்தப்புரம்...` on PDF 19.
 
-`index.json` is the authoritative scene-segmentation index for this derivative layer. [`../notes/scene-heading-audit.md`](../notes/scene-heading-audit.md) remains the provenance record for why each start point exists.
+`index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
 
 Dialogue indexing remains blocked until the full scene-text derivative layer is complete.
