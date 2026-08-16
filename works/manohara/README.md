@@ -43,13 +43,13 @@ The scan also contains an extended play-within-the-play sequence, several explic
 The complete source-order first pass is stored in six archival batches:
 
 - `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 verified pages**;
-- `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 draft pages**;
+- `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 verified pages**;
 - `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 draft pages**;
 - `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 draft pages**;
 - `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 draft pages**;
 - `transcription/parts/part-06-pdf-79-88.md` — PDF **79–88** / logical printed pp. **78–87** — **10 draft pages**;
 - cumulative first-pass coverage: **82/82 canonical pages — complete**;
-- current page status: **24 verified / 58 draft / 0 review**;
+- current page status: **36 verified / 46 draft / 0 review**;
 - aggregate first-pass status: **`draft-complete`**.
 
 ## Visual fidelity audit
@@ -58,26 +58,19 @@ The separate scan-led audit is **in progress**.
 
 Part 01, **PDF 7–30 / logical printed pp.6–29**, is **complete-verified**. Four visual-audit batches recorded **89** source-supported correction groups. All 89 were applied in a controlled rewrite, the rewritten range was checked again against the ledger and rendered scans, and all **24** Part 01 page anchors were promoted to `verified`.
 
-Part 02, **PDF 31–42 / printed pp.30–41**, has now completed its visual comparison:
+Part 02, **PDF 31–42 / printed pp.30–41**, is also **complete-verified**. Its two six-page visual-audit batches recorded **43** source-supported correction groups. All 43 were applied in one controlled rewrite, the corrected range passed a post-application recheck with **0 unresolved source readings**, and all **12** Part 02 page anchors were promoted to `verified`.
 
-- Part 02 audited pages: **12/12**;
-- Part 02 correction groups recorded: **43**;
-- Part 02 corrections applied: **not yet**;
-- Part 02 page anchors promoted: **0**;
-- unresolved source readings: **0**.
-
-The second Part 02 batch (PDF 37–42) records source-supported forms including `விதவையைப் போல`, joined `சகலகெளரவத்தோடும்`, source label punctuation `பிரதானி2,`, `வெற்றிமாலை- அணிவேன்`, the source's unmatched closing bracket after `வெளியேறுகிறான்]`, `அந்தப் பாதகி`, `வைத்`, the unusual enlarged-scan wording `“ஊஹூம்...கொஞ்சம் புளிக்கும், என்னு ரெண்டு?`, `தணலில் விழுந்த புழுவாக`, and `பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது`.
-
-The canonical Part 02 file has deliberately **not** been rewritten yet. The complete **43-correction** Part 02 set must be applied in one controlled source-led rewrite and then rechecked before any Part 02 anchor is promoted.
+Preserved Part 02 source forms include `இதழ் கடலின் தேனலைகளை`, historical `அத்யாயம்`, `தேளின் கொடுக்கே!`, source dialogue `ராஜப்ரியா`, `ஹூம்`, `பிரதானி2,`, `அந்தப் பாதகி`, `வைத்`, the unusual enlarged-scan wording `“ஊஹூம்...கொஞ்சம் புளிக்கும், என்னு ரெண்டு?`, `தணலில் விழுந்த புழுவாக`, and `பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது`.
 
 Cumulative fidelity state:
 
 - visually audited pages: **36/82**;
-- verified pages: **24**;
-- draft pages: **58**;
+- verified pages: **36**;
+- draft pages: **46**;
 - review pages: **0**;
-- pending Part 02 correction groups: **43**;
-- unresolved source readings: **0**.
+- pending correction groups: **0**;
+- unresolved source readings: **0**;
+- next audit page: **PDF 43 / printed p.42**.
 
 The fidelity record is in `notes/fidelity-audit.md`.
 
@@ -89,7 +82,7 @@ The fidelity record is in `notes/fidelity-audit.md`.
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — PDF 7–42 audited; Part 01 verified; Part 02 audit complete with 43 corrections pending apply** |
+| Visual fidelity audit | **in-progress — PDF 7–42 verified; Parts 01–02 complete-verified** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -97,4 +90,4 @@ The fidelity record is in `notes/fidelity-audit.md`.
 
 ## Next activity
 
-**Apply all 43 recorded Part 02 corrections to `transcription/parts/part-02-pdf-31-42.md` in one controlled source-led rewrite. Recheck PDF 31–42 / printed pp.30–41 against the audit ledger and rendered scan; if the check passes with no unresolved reading, promote all 12 Part 02 page anchors to `verified` before continuing the visual audit at PDF 43 / printed p.42.**
+**Begin the Part 03 visual fidelity audit at PDF 43 / printed p.42. Keep Part 03 page anchors at `draft` while its scan-supported corrections are accumulated; apply and recheck those corrections before promoting Part 03.**
