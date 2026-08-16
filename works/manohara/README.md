@@ -81,13 +81,26 @@ Final scene checkpoint:
 - scene-text derivatives: **57/57 complete-verified**;
 - completed: `manohara-s001`–`manohara-s057`;
 - five genuine source continuities across canonical storage-part boundaries were preserved rather than converted into false scene breaks: `s016`, `s030`, `s036`, `s041`, and `s051`;
-- `manohara-s052`–`manohara-s054` preserve the final prison capture, Manoharan bound to the pillar, Vasanthan's refusal of the throne, and the attempt to seize Vijaya's newborn child;
-- `manohara-s055` preserves the climactic confrontation, Padmavati's command, the breaking of Manoharan's bonds, Ugrasenan's death, Vasanthan's death, and the king's release through the point immediately before the cave transition;
-- `manohara-s056` preserves Kesari Varma's final cave confrontation with Vasanthasena;
-- `manohara-s057` preserves the closing palace reconciliation and the final `கடமை, கண்ணியம், கட்டுப்பாடு` line;
 - no source scene numbers, synthetic endings, or duplicate boundary separators were introduced.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
+
+## Dialogue index — in progress
+
+The dialogue layer is now active under `dialogues/` and follows the repository's established scene-sharded immutable-record model, adapted for Manohara's unnumbered source structure.
+
+Current checkpoint:
+
+- dialogue scene shards completed: **5/57** — `manohara-s001` through `manohara-s005`;
+- immutable explicitly speaker-labelled dialogue records: **31**;
+- cross-page dialogue records: **1** — `manohara-s001-d004`;
+- next dialogue scene: **`manohara-s006`**;
+- `speaker_label` preserves the exact source-visible label and is never expanded or normalized at this layer;
+- `speaker_delimiter` separately preserves source punctuation because later Manohara labels include `:`, `;` and `,` forms;
+- source-unlabelled lines remain unlabelled and do **not** receive dialogue IDs;
+- character normalization remains deferred to the later character/entity index.
+
+Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
 
 ## Status
 
@@ -100,7 +113,7 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
-| Dialogue index | **ready / not-started** |
+| Dialogue index | **in-progress — 5/57 scenes, 31 records** |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
@@ -108,4 +121,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Begin the dialogue-index layer from the 57 complete-verified archival scene texts. Preserve the source wording, page provenance and speaker-label irregularities exactly; do not silently normalize abbreviated, inconsistent, punctuation-only or unlabelled dialogue forms.**
+**Continue dialogue indexing from `manohara-s006`, in a meaningful multi-scene batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
