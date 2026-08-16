@@ -9,7 +9,7 @@ This layer is downstream of the **57/57 complete-verified archival scene-text de
 - Only source-visible utterances with a **non-empty printed speaker label** become dialogue records.
 - Source-unlabelled speech such as lines beginning only with `:` remains unlabelled and is **not** converted into a dialogue record.
 - `speaker_label` preserves the exact printed label form used by the verified Tamil. It is not expanded, standardized or mapped to a character here.
-- `speaker_delimiter` preserves the printed punctuation after that label. The booklet contains `:`, `;`, `,` and `-` forms in different places; those irregularities must not be silently normalized.
+- `speaker_delimiter` preserves the printed punctuation after that label. The booklet contains `:`, `;`, `,`, `-` and `.` forms in different places; those irregularities must not be silently normalized.
 - Character identity/label normalization belongs only to the later `characters/` derivative layer.
 - Dialogue `text` is copied exactly from verified scene text after the printed label delimiter. Label-attached parenthetical or stage material remains inside that immutable record text.
 - A labelled utterance crossing a page boundary remains **one** record with multi-page `page_provenance` and `page_segments`.
@@ -39,27 +39,36 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing is complete through **scenes 1–20** (`manohara-s001`–`manohara-s020`). These twenty scene shards contain **279 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–25** (`manohara-s001`–`manohara-s025`). These twenty-five scene shards contain **329 immutable labelled-dialogue records**.
 
-The fourth batch added **33 records** across scenes 16–20:
+The fifth batch added **50 records** across scenes 21–25:
 
-- `s016`: 12 records;
-- `s017`: 1;
-- `s018`: 7;
-- `s019`: 3;
-- `s020`: 10.
+- `s021`: 37 records;
+- `s022`: 3;
+- `s023`: 1;
+- `s024`: 0;
+- `s025`: 9.
 
-`manohara-s016` crosses the canonical Part 01 / Part 02 storage boundary, but no labelled utterance crosses that page boundary; records retain the verified PDF 30 and PDF 31 provenance separately. The source stage direction `(உள்ளேவந்து)` preceding the first `மனோகரன் :` line remains in the verified scene derivative and is not silently absorbed into the speaker label.
+`manohara-s021` introduces two source-visible period-delimited speaker labels, `தோழி 1.` and `தோழி 2.`. These are preserved as `manohara-s021-d001` and `manohara-s021-d003` with `speaker_delimiter: "."`; the schema now permits the period delimiter rather than silently rewriting it as a colon.
 
-`manohara-s020` contains a deliberate unlabelled continuation after `[பொன் மூட்டையை அவனிடம் கொடுக்கிறாள்.]`: the lines beginning `பெளத்தாயனரே!... இன்னொரு காரியம்...` and continuing through the Padmavati/Rani/Prime Minister proposal have no printed speaker label, so they remain outside the immutable dialogue index even though the dramatic context strongly suggests the speaker. The next explicit `பெளத் :` line resumes indexed dialogue.
+The same scene also contains source-unlabelled speech `வந்துவிட்டேனம்மா` and `“மனோகரா!”`. They remain outside the immutable dialogue index because the source prints no speaker label for them.
 
-Cross-page dialogue records currently remain:
+`manohara-s021-d017` is a cross-page record: Manoharan's labelled utterance begins on PDF 34 / logical printed p.33, continues through the attached stage direction `(கையிலுள்ள போர்வாளைக் கண்டு)`, and resumes on PDF 35 / p.34 without a new speaker label. It is therefore preserved as one record with two page segments.
+
+`manohara-s024` is the first zero-record scene in this work. It contains the `“பொழுது புலர்ந்தது” பாட்டு` reference and narrative action only, with no explicitly speaker-labelled utterance; its shard is retained with `record_count: 0` rather than manufacturing dialogue.
+
+Cross-page dialogue records currently are:
 
 - `manohara-s001-d004` — PDF 7→8;
-- `manohara-s015-d002` — PDF 28→29.
+- `manohara-s015-d002` — PDF 28→29;
+- `manohara-s021-d017` — PDF 34→35.
 
-The source delimiter anomaly `manohara-s013-d009` remains preserved as `சிப்பாய் 2 - ...`, with `-` recorded rather than normalized.
+Recorded source-label/delimiter anomalies currently are:
 
-Next batch: continue with **`manohara-s021`–`manohara-s025`**. Multiple scenes should continue to be handled per activity where density permits.
+- `manohara-s013-d009` — `சிப்பாய் 2 - ...`;
+- `manohara-s021-d001` — `தோழி 1. ...`;
+- `manohara-s021-d003` — `தோழி 2. ...`.
+
+Next batch: continue with **`manohara-s026`–`manohara-s030`**. Multiple scenes should continue to be handled per activity where density permits.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
