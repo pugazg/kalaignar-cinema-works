@@ -46,10 +46,10 @@ The complete source-order first pass is stored in six archival batches:
 - `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 verified pages**;
 - `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 verified pages**;
 - `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 verified pages**;
-- `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 draft pages**;
+- `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 verified pages**;
 - `transcription/parts/part-06-pdf-79-88.md` — PDF **79–88** / logical printed pp. **78–87** — **10 draft pages**;
 - cumulative first-pass coverage: **82/82 canonical pages — complete**;
-- current page status: **60 verified / 22 draft / 0 review**;
+- current page status: **72 verified / 10 draft / 0 review**;
 - aggregate first-pass status: **`draft-complete`**.
 
 ## Visual fidelity audit
@@ -64,22 +64,18 @@ Part 03, **PDF 43–54 / printed pp.42–53**, is **complete-verified**. The fin
 
 Part 04, **PDF 55–66 / printed pp.54–65**, is **complete-verified**. Batch 9 recorded **33** source-supported corrections for PDF 55–60, and Batch 10 recorded **30** for PDF 61–66. All **63** reviewed corrections were applied in commit `fd9e993a21deae53a9b4310fd2022384e8ccb7c1` while all twelve anchors remained `draft`. The corrected file's Git blob matched the independently calculated expected blob `d0936ed84f4809d637b8d88e80a9309f13072d61`. The full PDF 55–66 range was then visually rechecked against the rendered scan with **0 unresolved source readings** and no additional correction required. All 12 anchors were promoted to `verified` in commit `0795ea5d668cecda8a258563d7b93d0c27f7dc29`; the verified blob is `42253eb2489e875f7b729a8aab2f084394463e85`. The definitive record is `notes/fidelity-audit-part04-final.md`.
 
-Part 05, **PDF 67–78 / printed pp.66–77**, has now completed its **12/12-page visual audit**. Batch 11 audited PDF 67–72 and recorded **33** clear correction groups. Batch 12 audited PDF 73–78 and recorded **36** more. The full reviewed Part 05 set therefore contains **69 scan-supported corrections**, with **0 unresolved source readings**. The two records are `notes/fidelity-audit-part05-batch11.md` and `notes/fidelity-audit-part05-batch12.md`.
-
-The **69 Part 05 corrections remain deliberately unapplied**. All 12 Part 05 anchors remain `draft` until the complete correction set is written in one controlled source-led rewrite and the corrected range passes a separate post-application visual recheck.
-
-Representative Batch 12 restorations include source `நானு மோசக்காரி?`, `ராஜரீகம்`, `இங்கே கிடையாதா?`, `கமண்டல மேந்தி`, the substantive `என் வீரம் வீண் போய் விடவில்லை.`, `அந்த வஞ்சகியின் மகன்`, restoration of the omitted `இல்ல...இல்ல...`, source `கட்டப்பட்டிருந்த உண்மை அக்ஷயன்`, `ஆமாம்! மனோகரனின் ரகசிய ஏற்பாடு.`, `வேண்டும் என்கிறேன்.`, `அத்தே இவனை நம்பாதீர்கள்`, `யார் இவரு அக்ஷயன்?`, source label `அட்சயன் ;`, and the omitted `ஆமாம்...` before `மகாராஜா! என்னைக் கட்டிப் போட்டார்கள்.`.
+Part 05, **PDF 67–78 / printed pp.66–77**, is **complete-verified**. Batch 11 recorded **33** source-supported corrections for PDF 67–72, and Batch 12 recorded **36** for PDF 73–78. All **69** reviewed corrections were applied in commit `9bfd56174a9d3fbb309ba52b1bca22204c234bb8` while all twelve anchors remained `draft`. The corrected file's Git blob matched the independently calculated expected blob `ae7a0b97c8aea592f3af2b7f40fe3917ecbda2ee`. The full PDF 67–78 range was then visually rechecked against the rendered scan with **0 unresolved source readings** and no additional correction required. All 12 anchors were promoted to `verified` in commit `bd2b26b558671eacd7819969bc9136ea11b3018d`; the verified blob is `86a75bdf3254b08e9551f14378f35ae58238efc0`. The definitive record is `notes/fidelity-audit-part05-final.md`.
 
 Cumulative fidelity state:
 
 - visually audited pages: **72/82** — through PDF **78 / printed p.77**;
-- verified pages: **60** — PDF **7–66**;
-- draft pages: **22** — PDF **67–88**;
+- verified pages: **72** — PDF **7–78**;
+- draft pages: **10** — PDF **79–88**;
 - review pages: **0**;
-- Parts 01–04: **complete-verified**;
-- Part 05 audit coverage: **12/12 pages — complete**;
-- pending Part 05 correction groups: **69**;
-- unresolved source readings: **0**.
+- Parts 01–05: **complete-verified**;
+- pending correction groups: **0**;
+- unresolved source readings: **0**;
+- next audit page: **PDF 79 / printed p.78**.
 
 ## Status
 
@@ -89,7 +85,7 @@ Cumulative fidelity state:
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — 72/82 pages audited; PDF 7–66 verified; Part 05 12/12 audited, correction application pending** |
+| Visual fidelity audit | **in-progress — 72/82 pages verified; Parts 01–05 complete-verified** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -97,4 +93,4 @@ Cumulative fidelity state:
 
 ## Next activity
 
-**Apply all 69 reviewed Part 05 corrections to `transcription/parts/part-05-pdf-67-78.md` in one controlled source-led rewrite while keeping all twelve anchors at `draft`. Mechanically verify the result, then visually recheck PDF 67–78 against the rendered scan. Only after that passes with no unresolved source reading should Part 05 be promoted to `verified`.**
+**Begin the Part 06 visual fidelity audit at PDF 79 / printed p.78. Keep Part 06 page anchors at `draft`; after the full ten-page audit, apply the complete reviewed Part 06 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 06.**
