@@ -106,11 +106,11 @@ transcription_progress:
   first_pass_pages_completed: 82
   first_pass_through_pdf_page: 88
   first_pass_through_logical_printed_page: 87
-  draft_pages: 46
-  verified_pages: 36
+  draft_pages: 34
+  verified_pages: 48
   review_pages: 0
-  verified_pdf_pages: "7-42"
-  verified_logical_printed_pages: "6-41"
+  verified_pdf_pages: "7-54"
+  verified_logical_printed_pages: "6-53"
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
   parts_completed: 6
@@ -123,17 +123,17 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue the Part 03 visual fidelity audit with PDF 49-54 / printed pp.48-53; keep Part 03 anchors draft, then apply and recheck the complete Part 03 correction set before promotion."
+  next_action: "Begin the Part 04 visual fidelity audit at PDF 55 / printed p.54; keep Part 04 anchors draft until its accumulated corrections are applied and rechecked."
 
 fidelity_audit:
   status: in-progress
   ledger_path: "notes/fidelity-audit.md"
   canonical_range_audit_complete: false
-  audited_pdf_pages: "7-48"
-  audited_logical_printed_pages: "6-47"
-  audited_pages: 42
-  audit_through_pdf_page: 48
-  audit_through_logical_printed_page: 47
+  audited_pdf_pages: "7-54"
+  audited_logical_printed_pages: "6-53"
+  audited_pages: 48
+  audit_through_pdf_page: 54
+  audit_through_logical_printed_page: 53
   part_01_audit_complete: true
   part_01_corrections_recorded: 89
   part_01_corrections_applied: true
@@ -148,18 +148,24 @@ fidelity_audit:
   part_02_corrections_applied: true
   part_02_post_application_recheck: passed
   part_02_verified_pages: 12
-  part_03_audit_complete: false
-  part_03_audited_pdf_pages: "43-48"
-  part_03_audited_logical_printed_pages: "42-47"
-  part_03_audited_pages: 6
-  part_03_corrections_pending_apply: 30
-  correction_groups_pending_apply: 30
-  corrections_applied: true_for_parts_01_02
+  part_03_audit_complete: true
+  part_03_audited_pdf_pages: "43-54"
+  part_03_audited_logical_printed_pages: "42-53"
+  part_03_audited_pages: 12
+  part_03_corrections_recorded: 48
+  part_03_corrections_pending_apply: 0
+  part_03_corrections_applied: true
+  part_03_application_commit: "f084ff91647ec1d76d2a113351e1a769fc8bad53"
+  part_03_post_application_recheck: passed
+  part_03_verification_commit: "7f1413a451b7ac4ee769c0f20766f9c08939d753"
+  part_03_verified_pages: 12
+  correction_groups_pending_apply: 0
+  corrections_applied: true_for_parts_01_02_03
   unresolved_source_readings: 0
-  next_pdf_page: 49
-  next_logical_printed_page: 48
-  verified_pages: 36
-  draft_pages: 46
+  next_pdf_page: 55
+  next_logical_printed_page: 54
+  verified_pages: 48
+  draft_pages: 34
   review_pages: 0
 
 structured_derivatives:
