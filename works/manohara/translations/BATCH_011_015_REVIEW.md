@@ -59,7 +59,8 @@ The source embeds Vijaya's involuntary `ஓ` inside stage narration; it therefor
 - source-unlabelled speakers invented: **0**;
 - structural stars translated as prose: **0**;
 - canonical Tamil changes: **0**;
-- dialogue-record changes: **0**.
+- dialogue-record changes: **0**;
+- JSON storage recheck: embedded English line breaks in scene 11 and scene 13 were stored with JSON `\n` escapes rather than raw line breaks; semantic translation text did not change.
 
 Cumulative checkpoint after scene 15: **15/57 archival scenes / 308 verified units / 246 immutable dialogue links / 6 cross-page English units**.
 
