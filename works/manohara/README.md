@@ -68,25 +68,24 @@ Part 06's initial full-range audit recorded **63** corrections. After those were
 
 Important final-page disposition: `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` continues the king's speech without a printed speaker label; it is not converted into an invented/new speaker label in the canonical text.
 
-## Scene derivative layer — in progress
+## Scene derivative layer — complete-verified
 
 The verified transition audit contains **57 principal source-visible transition dispositions** (`T001`–`T057`). These are used as the start points for **57 archival scene segments** in `scenes/index.json`.
 
 This is a derivative navigation system only. The booklet still has **no source scene numbers**. IDs such as `manohara-s001` and filenames such as `scene-001.md` must never be presented as numbers printed by the source.
 
-Current scene checkpoint:
+Final scene checkpoint:
 
 - archival scene segments indexed: **57/57**;
 - scene index: **complete**;
-- scene-text derivatives: **51/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s051`;
-- five genuine source continuities across canonical storage-part boundaries have been preserved rather than converted into false scene breaks: `s016`, `s030`, `s036`, `s041`, and `s051`;
-- `manohara-s042`–`manohara-s048` preserve Ugrasenan's disguised infiltration, the cave response, Ugrasenan/Vasanthasena's chamber sequence, Vijaya's childbirth in prison, Vasanthan's warning to Purushothaman, the exposure of Vasanthasena and Ugrasenan, and Purushothaman's imprisonment;
-- `manohara-s049` preserves Vasanthasena ordering the disguised Manoharan to kill Vijaya's newborn child and his internal refusal;
-- `manohara-s050` preserves the real Atchayan's escape and Manoharan's unsuccessful attempt to remove Padmavati, Vijaya and the child from prison;
-- `manohara-s051` crosses from PDF 78 into the opening of PDF 79 as the real Atchayan exposes Manoharan's disguise, stopping immediately before `T052`;
-- next: `manohara-s052`, beginning with `சிறைச்சாலை` on PDF 79;
-- dialogue indexing remains blocked until all scene-text derivatives are complete.
+- scene-text derivatives: **57/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s057`;
+- five genuine source continuities across canonical storage-part boundaries were preserved rather than converted into false scene breaks: `s016`, `s030`, `s036`, `s041`, and `s051`;
+- `manohara-s052`–`manohara-s054` preserve the final prison capture, Manoharan bound to the pillar, Vasanthan's refusal of the throne, and the attempt to seize Vijaya's newborn child;
+- `manohara-s055` preserves the climactic confrontation, Padmavati's command, the breaking of Manoharan's bonds, Ugrasenan's death, Vasanthan's death, and the king's release through the point immediately before the cave transition;
+- `manohara-s056` preserves Kesari Varma's final cave confrontation with Vasanthasena;
+- `manohara-s057` preserves the closing palace reconciliation and the final `கடமை, கண்ணியம், கட்டுப்பாடு` line;
+- no source scene numbers, synthetic endings, or duplicate boundary separators were introduced.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
 
@@ -100,8 +99,8 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
-| Scene-text derivatives | **in-progress — 51/57 complete-verified** |
-| Dialogue index | blocked until scene-text layer |
+| Scene-text derivatives | **complete-verified — 57/57** |
+| Dialogue index | **ready / not-started** |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
@@ -109,4 +108,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Continue scene-text derivatives from `manohara-s052` / transition `T052`, beginning with `சிறைச்சாலை` on PDF 79. Only six archival scene derivatives remain; copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
+**Begin the dialogue-index layer from the 57 complete-verified archival scene texts. Preserve the source wording, page provenance and speaker-label irregularities exactly; do not silently normalize abbreviated, inconsistent, punctuation-only or unlabelled dialogue forms.**
