@@ -56,16 +56,16 @@ The complete source-order first pass is stored in six archival batches:
 
 ## Visual fidelity audit
 
-The separate scan-led audit is now **in progress**. Batch 1 visually compared **PDF 7–12 / logical printed pp.6–11** against the stored Part 01 text.
+The separate scan-led audit is **in progress**. Two six-page batches have now visually compared **PDF 7–18 / logical printed pp.6–17** against the stored Part 01 text.
 
-- visually audited pages: **6/82**;
-- clear correction groups recorded: **13**;
-- unresolved source readings in Batch 1: **0**;
+- visually audited pages: **12/82**;
+- cumulative clear correction groups recorded: **38**;
+- unresolved source readings: **0**;
 - corrections applied to canonical Part 01: **not yet**;
 - verified page anchors: **0**;
-- next audit range: **PDF 13–18 / printed pp.12–17**.
+- next audit range: **PDF 19–24 / printed pp.18–23**.
 
-The corrections are recorded in `notes/fidelity-audit.md`. They include source-form differences such as `சந்தேகமில்லே`, `எழில் பூத்த நம் செல்வத்தை`, the source-visible `புறப்பட்டு இருப்பாய்?`, the stage direction `வசந்தாவைத் தொடுகிறான்`, and restoration of the fuller `பிள்ளையாரு...` sentence on PDF 11.
+The corrections are recorded in `notes/fidelity-audit.md`. Batch 2 covers the play-within-the-play and records scan-supported forms such as `சிங்காதனத்தை`, `தங்களுக்குத் தங்கள் பிதா`, `கூறிச் சொல்லியதும்`, `பணிப் பெண்ணாக`, the source-visible colloquial `சொன்னு கேட்டாத் தானே!`, `கணவன்மார்களுக்கும்`, `அப்படியொன்றுமில்ல`, and `ஒன்று, இரண்டா?`.
 
 The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have been audited and the accumulated corrections are applied in one controlled rewrite.
 
@@ -77,7 +77,7 @@ The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have 
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil transcription | **draft-complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — PDF 7–12 audited, corrections pending apply** |
+| Visual fidelity audit | **in-progress — PDF 7–18 audited, 38 correction groups pending apply** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -85,4 +85,4 @@ The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have 
 
 ## Next activity
 
-**Continue the visual fidelity audit with PDF 13–18 / printed pp.12–17. Keep Part 01 anchors at `draft` until the accumulated Part 01 corrections have been applied.**
+**Continue the visual fidelity audit with PDF 19–24 / printed pp.18–23. Keep Part 01 anchors at `draft` until the accumulated PDF 7–30 corrections have been applied.**
