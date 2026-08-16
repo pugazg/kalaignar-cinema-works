@@ -235,19 +235,58 @@ The following corrections are **recorded but not yet applied** to `transcription
 - Part 02 page anchors promoted: **0**;
 - next visual-audit page: **PDF 37 / printed p.36**.
 
+## Batch 6 — PDF 37–42 / printed pp.36–41
+
+Visual comparison completed for the final six pages of Part 02. This batch covers Vasantha Sena's attempt to enter the victory durbar, the court confrontation, Manoharan's anger before Padmavati, Vasanthan's medicine exchange, the final moments of the cave elder, the spring-festival sequence, and the confrontation ending with Manoharan striking Vijaya. Enlarged scan renders were used to preserve unusual punctuation, source abbreviations and source-visible grammatical forms rather than normalize them.
+
+The following corrections are **recorded but not yet applied** to `transcription/parts/part-02-pdf-31-42.md`:
+
+| PDF | Printed | First-pass reading | Scan-supported reading / disposition |
+|---:|---:|---|---|
+| 37 | 36 | `விதவையைப் போல் ஒரு மூலையில்` | source prints `விதவையைப் போல ஒரு மூலையில்` |
+| 37 | 36 | `பேசாதே—சகல கெளரவத்தோடும்` | source spacing/dash form `பேசாதே - சகலகெளரவத்தோடும்` |
+| 37 | 36 | `அர : இல்லை...வரலாம் நீ......` | source has no `நீ`: `அர : இல்லை...வரலாம்......` |
+| 38 | 37 | `அவைக்கூடம். “மனோகரன் வாழ்க!”` | source punctuation `அவைக்கூடம், “மனோகரன் வாழ்க!”` |
+| 38 | 37 | `மன்னர் மயங்கித்தான் விட்டார்.` | source ends the line `மன்னர் மயங்கித்தான் விட்டார்,` |
+| 38 | 37 | `பிரதானி2 :` | source prints the unusual label punctuation `பிரதானி2,` |
+| 38 | 37 | `வெற்றிமாலை அணிவேன்` | source prints `வெற்றிமாலை- அணிவேன்` |
+| 38 | 37 | `...உன் கையால்...(வாள் உருவுகிறான்)` | source places the noun outside the parenthesis: `...உன் கையால்...வாள் (உருவுகிறான்)` |
+| 38 | 37 | `ஆத்திரமடைந்த மனோகரன் ... வேகமாக வெளியேறுகிறான்.` | retain the source's unmatched closing bracket: `ஆத்திரமடைந்த மனோகரன் ... வேகமாக வெளியேறுகிறான்]` |
+| 39 | 38 | `அந்தப் பாவி அமர்வதற்கு` | clear scan reading `அந்தப் பாதகி அமர்வதற்கு` |
+| 39 | 38 | `மறந்துவிடு மனோகரா` | source closes the address `மறந்துவிடு மனோகரா!` |
+| 39 | 38 | lower speaker abbreviation `வைத்த் :` | source prints `வைத் :` in both lower occurrences |
+| 39 | 38 | `ஊஹூம்...கொஞ்சம் புளிக்கும், இன்னும் ரெண்டு மிளகாயும் சேர்த்திருக்கேன்.` | enlarged scan supports the unusual source wording/punctuation `“ஊஹூம்...கொஞ்சம் புளிக்கும், என்னு ரெண்டு? மிளகாயும் சேர்த்திருக்கேன்.` |
+| 40 | 39 | opening continuation speaker `வச :` | source prints `வசந் :` |
+| 40 | 39 | `பெரியவர் : (தேவையில்லை......இதோ......) இன்றைக்கே` | source has no parenthetical enclosure: `பெரியவர் : தேவையில்லை......இதோ......இன்றைக்கே` |
+| 41 | 40 | `நெருப்பிலே விழுந்த புழுவாக` | clear scan reading `தணலில் விழுந்த புழுவாக` |
+| 41 | 40 | `அமர்த்தா விட்டால், நான் மனோகரனல்ல.` | source punctuation `அமர்த்தா விட்டால்...நான் மனோகரனல்ல.` |
+| 42 | 41 | `பாண்டியன் மகள் பாணிக்கிரகணம் செய்தது` | source grammatical form `பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது` |
+| 42 | 41 | `அண்ணன்—ஜாக்கிரதை!` | source dash form `அண்ணன் - ஜாக்கிரதை!` |
+
+### Batch 6 disposition
+
+- pages visually audited in this batch: **6**;
+- audited range: PDF **37–42** / printed pp. **36–41**;
+- clear correction groups recorded in this batch: **19**;
+- unresolved source readings: **0**;
+- Part 02 visual-audit coverage: **complete — PDF 31–42 / printed pp.30–41**;
+- cumulative Part 02 correction groups pending application: **43**;
+- Part 02 corrections applied: **no — consolidated application is now the required next gate**;
+- Part 02 page anchors promoted: **0**.
+
 ## Current cumulative state
 
 - canonical Tamil range: **PDF 7–88 / logical printed pp.6–87 — 82 pages**;
 - first pass: **82/82 complete (`draft-complete`)**;
-- visual audit completed through: **PDF 36 / printed p.35**;
-- visually audited pages: **30/82**;
+- visual audit completed through: **PDF 42 / printed p.41**;
+- visually audited pages: **36/82**;
 - verified canonical pages: **24**;
 - draft canonical pages: **58**;
 - review canonical pages: **0**;
 - Part 01: **complete-verified**;
-- Part 02 visual-audit coverage: **PDF 31–36 / 6 of 12 pages**;
-- Part 02 correction groups pending application: **24**;
+- Part 02 visual-audit coverage: **complete — PDF 31–42 / 12 of 12 pages**;
+- Part 02 correction groups pending application: **43**;
 - unresolved source readings: **0**;
 - structured derivatives: **blocked until the remaining PDF 31–88 Tamil source layer is fidelity-verified**.
 
-**Next:** continue the Part 02 visual fidelity audit with **PDF 37–42 / printed pp.36–41**. Keep all Part 02 anchors `draft`; after that second six-page audit, apply the complete Part 02 correction set in one controlled rewrite, recheck it, and only then promote Part 02 anchors.
+**Next:** apply all **43** recorded Part 02 corrections to `transcription/parts/part-02-pdf-31-42.md` in one controlled source-led rewrite. Recheck the rewritten PDF **31–42 / printed pp.30–41** range against the ledger and rendered scans; if the check passes with no unresolved reading, promote all **12 Part 02 page anchors** to `verified` before continuing the visual audit at PDF **43 / printed p.42**.
