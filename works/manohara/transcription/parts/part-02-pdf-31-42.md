@@ -1,13 +1,13 @@
 # மனோகரா — canonical Tamil transcription
 
-**Status:** `draft` — PDF 31–42 / printed pp.30–41 has completed visual audit and all 43 recorded scan-supported correction groups have been applied. Page anchors remain `draft` until the post-application check is completed.
+**Status:** `verified` — PDF 31–42 / printed pp.30–41 completed the separate visual fidelity audit, all 43 recorded scan-supported correction groups were applied, and the corrected range passed the post-application recheck.
 
 Source: `TVA_BOK_0010102_மனோகரா.pdf`  
 SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`
 
 The rendered scan controls every reading. The PDF OCR layer was used only for navigation. Source spelling, punctuation, speaker labels, stage directions, separators and performance structures are retained as read. Doubtful readings are not repaired from film knowledge or other editions.
 
-<!-- source: pdf=31 printed=30 status=draft -->
+<!-- source: pdf=31 printed=30 status=verified -->
 
 ராஜ : அதனால் தான் சொல்லுகிறேன் அர்த்தராத்திரியில் அந்தப்புரத்தில் பிரவேசிக்கக் கூடாதென்று!
 
@@ -27,7 +27,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 ராஜப்பிரியன் : கொலை செய்ய முயன்றார்—தற்கொலை செய்துகொள்ள யத்தனித்தார். மன்னிக்க முடியாத மாபெருங் குற்றங்களைச் செய்திருக்கிறார், ராஜகுமாரி! மக்கள் மன்றத்தின் முன் நிறுத்தப்பட்டிருக்கிறார்! எங்கள் அரசிளங்குமாரரை, எனது ஆருயிர்த் தோழரை, சோழர் குடித் திலகத்தை இந்த மனோகரனை பிரிக்க முயன்ற யுவராணியின் ஆயுளுக்கே முடிவுகட்ட வேண்டும். அரசிளங்குமாரியாரே! உங்கள் ஆயுள் முழுவதும் நான் தரும் தண்டனையை அனுபவிக்கத் தயாராயிருங்கள். நாளை மாலை சூரிய அஸ்தமனத்திற்குள்—காளி கோயிலில்—வேண்டாம் தண்டனையை ஒருநாள் ஒத்திப்போட நான் விரும்பவில்லை—பாண்டிய நாட்டு பைங்கொடி விஜயாதேவி சோழநாட்டு அத்தானை கொலைசெய்ய முயன்ற குற்றத்திற்காக இன்றே—இப்போதே—இந்த இடத்திலே—எல்லோர் முன்னிலையிலும் மனோகரனுக்கு மாலையைச் சூட்டி மணாளனாக ஏற்றுக்கொள்ள வேண்டும்!
 
-<!-- source: pdf=32 printed=31 status=draft -->
+<!-- source: pdf=32 printed=31 status=verified -->
 
 (பாண்டியன் அரண்மனை)
 
@@ -55,7 +55,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : ஏதோ சூழ்ச்சி நடக்கிறது... நாமும் உடனே புறப்படுவோம் வா!
 
-<!-- source: pdf=33 printed=32 status=draft -->
+<!-- source: pdf=33 printed=32 status=verified -->
 
 [வசந்தசேனை அந்தப்புரம்]
 
@@ -95,7 +95,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 தோழி 2. அம்மா...யாரோ ஒரு துறவி, உங்களைப் பார்க்க வேண்டுமாம், அவசரமாக!
 
-<!-- source: pdf=34 printed=33 status=draft -->
+<!-- source: pdf=34 printed=33 status=verified -->
 
 (துறவி வேடத்தில் பெளத்தாயனன் வருகிறான்.)
 
@@ -138,7 +138,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (கையிலுள்ள போர்வாளைக் கண்டு)
 
-<!-- source: pdf=35 printed=34 status=draft -->
+<!-- source: pdf=35 printed=34 status=verified -->
 
 ஆ...என் போர்வாள்...காணாமற் போனது...எப்படி இங்கே வந்தது...?
 
@@ -178,7 +178,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத்மா : கூடாது! வசந்தசேனைக்கும் சேர்த்துத்தான்!
 
-<!-- source: pdf=36 printed=35 status=draft -->
+<!-- source: pdf=36 printed=35 status=verified -->
 
 மனோ : வசந்தசேனை...வட்டமிடும் கழுகு!...வாய் பிளந்து நிற்கும் ஓநாய்!...நம்மை வளைத்துவிட்ட மலைப்பாம்பு அவளுக்கு இரக்கம் - ??? முடியாது! கூடாது!...
 
@@ -209,7 +209,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=37 printed=36 status=draft -->
+<!-- source: pdf=37 printed=36 status=verified -->
 
 வசந்தா-அரசர் படுக்கையறை
 
@@ -241,7 +241,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=38 printed=37 status=draft -->
+<!-- source: pdf=38 printed=37 status=verified -->
 
 அவைக்கூடம், “மனோகரன் வாழ்க!” என்ற முழக்கம், அரசர் வசந்தசேனையோடு நுழைகிறார்.
 
@@ -271,7 +271,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=39 printed=38 status=draft -->
+<!-- source: pdf=39 printed=38 status=verified -->
 
 பத்மாவதி அறை:
 
@@ -311,7 +311,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வைத் : தீராத வியாதி...
 
-<!-- source: pdf=40 printed=39 status=draft -->
+<!-- source: pdf=40 printed=39 status=verified -->
 
 வசந் : உம்—அதானே பாத்தேன்—எல்லாரும் பைத்தியம் பைத்தியங்கிறாங்களே—
 விகடா! கேட்டியா—எனக்கு பைத்தியம் ஒண்ணும் கிடையாது! தீராத வியாதி!
@@ -338,7 +338,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=41 printed=40 status=draft -->
+<!-- source: pdf=41 printed=40 status=verified -->
 
 வசந்த விழாக் கொண்டாட்டம். பாட்டுகள்...
 மனோகரனும் விஜயாவும் பாடுகிறார்கள்
@@ -381,7 +381,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந்தன் : அம்மா!...அண்ணனும் அண்ணியும் என்னைப் பார்த்து சிரிக்கிறாங்க!...
 
-<!-- source: pdf=42 printed=41 status=draft -->
+<!-- source: pdf=42 printed=41 status=verified -->
 
 வசந்தி : பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது பற்றித்தான் ஊர் உன் அண்ணனைப் பார்த்து சிரிக்கிறது. தகப்பனைக் கொன்றவனுக்கு தாரமாய் வாய்த்ததைப் பற்றித்தான் உலகமே உன் அண்ணியைப் பார்த்து சிரிக்கிறது...
 
