@@ -60,17 +60,29 @@ Part 01, **PDF 7–30 / logical printed pp.6–29**, is **complete-verified**. F
 
 Part 02, **PDF 31–42 / printed pp.30–41**, is also **complete-verified**. Its two six-page visual-audit batches recorded **43** source-supported correction groups. All 43 were applied in one controlled rewrite, the corrected range passed a post-application recheck with **0 unresolved source readings**, and all **12** Part 02 page anchors were promoted to `verified`.
 
-Preserved Part 02 source forms include `இதழ் கடலின் தேனலைகளை`, historical `அத்யாயம்`, `தேளின் கொடுக்கே!`, source dialogue `ராஜப்ரியா`, `ஹூம்`, `பிரதானி2,`, `அந்தப் பாதகி`, `வைத்`, the unusual enlarged-scan wording `“ஊஹூம்...கொஞ்சம் புளிக்கும், என்னு ரெண்டு?`, `தணலில் விழுந்த புழுவாக`, and `பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது`.
+Part 03, **PDF 43–54 / printed pp.42–53**, is now halfway through its visual audit:
+
+- audited Part 03 range: **PDF 43–48 / printed pp.42–47**;
+- Part 03 audited pages: **6/12**;
+- correction groups recorded in this Part 03 batch: **30**;
+- Part 03 corrections applied: **not yet**;
+- Part 03 page anchors promoted: **0**;
+- unresolved source readings: **0**;
+- next audit range: **PDF 49–54 / printed pp.48–53**.
+
+Representative Part 03 source restorations include `அவைகளைவிடப் பெரியவளா`, `இந்த கள்ளி?`, historical `சத்யசீலர்` and exact source label `சத்யசீலா`, `உடனே போ`, `அடுக்காதே... சீக்கிரம் சொல்.`, `என் விதி—நான்தானே அனுபவிக்க வேண்டும்`, the king's unusual `சே! சே?`, the omitted `கணமும்கூட`, `வசந்தா என்ற அவச்சொல் தங்களுக்கே வேண்டாம்.`, `தங்கள் நினைவுகள் ஏந்திக் கொண்டிருக்கும்`, `பத்மாவதிக்குச் சிறைச் சாலை!`, source heading `அரசர் அவைக்கூடம்`, and `மன்னவரே!`.
+
+The canonical Part 03 file has deliberately **not** been rewritten yet. Its complete correction set will be applied only after PDF 43–54 is fully audited and then rechecked before any Part 03 page anchor is promoted.
 
 Cumulative fidelity state:
 
-- visually audited pages: **36/82**;
+- visually audited pages: **42/82**;
 - verified pages: **36**;
 - draft pages: **46**;
 - review pages: **0**;
-- pending correction groups: **0**;
+- pending Part 03 correction groups: **30**;
 - unresolved source readings: **0**;
-- next audit page: **PDF 43 / printed p.42**.
+- next audit page: **PDF 49 / printed p.48**.
 
 The fidelity record is in `notes/fidelity-audit.md`.
 
@@ -82,7 +94,7 @@ The fidelity record is in `notes/fidelity-audit.md`.
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — PDF 7–42 verified; Parts 01–02 complete-verified** |
+| Visual fidelity audit | **in-progress — PDF 7–48 audited; Parts 01–02 complete-verified; Part 03 6/12 audited** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -90,4 +102,4 @@ The fidelity record is in `notes/fidelity-audit.md`.
 
 ## Next activity
 
-**Begin the Part 03 visual fidelity audit at PDF 43 / printed p.42. Keep Part 03 page anchors at `draft` while its scan-supported corrections are accumulated; apply and recheck those corrections before promoting Part 03.**
+**Continue the Part 03 visual fidelity audit with PDF 49–54 / printed pp.48–53. Keep Part 03 page anchors at `draft`; after completing that range, apply the full Part 03 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 03.**
