@@ -2,156 +2,85 @@
 
 Source-led archival work for the supplied screenplay/dialogue booklet `TVA_BOK_0010102_மனோகரா.pdf`.
 
-The rendered scan is the controlling source for this edition. The PDF's OCR layer is useful only for navigation and must not be treated as canonical text.
+The rendered scan is the controlling source for this edition. The PDF OCR layer is navigation-only and is never canonical.
 
-## Verified source checkpoint
+## Source checkpoint
 
 - source title: `மனோகரா`;
 - printed credit: `திரைக்கதை வசனம்` / `மு. கருணாநிதி`;
-- title-page publisher: `மூனா கானா பதிப்பகம்`;
-- title-page address: `1/1 ஜக்கரியா காலணி 2-வது தெரு, சென்னை-24`;
-- edition statement: `முதற்பதிப்பு : பிப்ரவரி 1954.`;
+- publisher: `மூனா கானா பதிப்பகம்`;
+- edition: `முதற்பதிப்பு : பிப்ரவரி 1954.`;
 - rights statement: `உரிமை : ஆசிரியருக்கே.`;
-- price: `விலை எட்டணா`;
-- printer line: `Bharat Devi Press, 2/16, Mount Road, Madras-2.`;
-- archive/source identifier from the supplied filename: `TVA_BOK_0010102`;
+- source identifier: `TVA_BOK_0010102`;
 - PDF pages: **90**;
-- file size: **30,684,695 bytes**;
-- SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`.
+- source SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`;
+- main screenplay/dialogue: PDF **7–88 / logical printed pp.6–87**;
+- PDF 89–90: back matter.
 
-## Source boundaries
+The booklet prints **no numbered scenes**. The archive's 57 scene IDs are derivative navigation only and must never be presented as source numbering.
 
-- PDF 1: illustrated front cover;
-- PDF 2: title / screenplay-dialogue credit / publisher page;
-- PDF 3: rights / first-edition date / price / printer page;
-- PDF 4–5: `நாடகக் கதை` summary;
-- PDF 6: `முன்னுரை`;
-- PDF 7–88: screenplay/dialogue text;
-- PDF 89: boxed back-matter advertisement/catalogue headed `ஒப்பிட்டுப் பாருங்கள்!`;
-- PDF 90: back-cover advertisement for `முரசொலி`, with a later library/news-agent stamp over the printed advertisement.
+## Canonical Tamil and fidelity — complete-verified
 
-The interior pagination supports `printed page = PDF page - 1` for the continuous book sequence. Section-opening folios are suppressed on PDF 4, 6 and 7, so the main screenplay occupies logical printed pp. **6–87**.
+Canonical Tamil covers all **82 screenplay pages** across six stored parts, PDF **7–88 / logical pp.6–87**. Final state: **82 verified / 0 draft / 0 review**. Every canonical page passed rendered-scan comparison and there are **0 unresolved source readings**.
 
-## Structural finding
+The post-fidelity correction discovered during dialogue work—PDF 68 `வ. சே. : வசந்தா!`—is documented in `notes/post-fidelity-corrections.md`. The final-page source-unlabelled `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` remains a continuation of the king's preceding labelled turn rather than an invented speaker line.
 
-This edition does **not** print numbered scene headings. Scene boundaries therefore must not be retroactively presented as source scene numbers. The source uses decorative star separators, parenthetical/bracketed stage transitions, bare location labels and continuous dialogue/action instead. `mapping.md` and `notes/scene-heading-audit.md` document that source structure.
+## Structured Tamil derivatives — complete
 
-The scan also contains an extended play-within-the-play sequence, explicit song/performance references, a war-proclamation/chant-like passage, and a separately printed letter. Song authorship is handled only in the separate `songs/` evidence layer and is never inferred from the screenplay/dialogue credit.
+- archival scene index / scene text: **57/57 complete-verified**;
+- immutable explicitly labelled dialogue records: **983** across 57 scene shards;
+- dialogue cross-page records: **13**;
+- source label/delimiter anomaly records: **8**;
+- zero-record dialogue scene: **`manohara-s024`**;
+- exact speaker-label inventory: **111/111 dispositioned**;
+- character/entity layer: **37 entities/role categories**, **36 verified**, **1 unresolved**;
+- sole unresolved source label: **`வர்மா`**;
+- dialogue records altered by character normalization: **0**.
 
-## Canonical Tamil — complete-verified
+Context-reused abbreviations remain context-safe rather than being forced into false one-to-one identities. Nested-play identities remain distinct from outer-story identities.
 
-The complete source-order Tamil layer is stored in six verified archival batches:
+## Song / performance gate
 
-- `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 verified pages**;
-- `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 verified pages**;
-- `transcription/parts/part-03-pdf-43-54.md` — PDF **43–54** / logical printed pp. **42–53** — **12 verified pages**;
-- `transcription/parts/part-04-pdf-55-66.md` — PDF **55–66** / logical printed pp. **54–65** — **12 verified pages**;
-- `transcription/parts/part-05-pdf-67-78.md` — PDF **67–78** / logical printed pp. **66–77** — **12 verified pages**;
-- `transcription/parts/part-06-pdf-79-88.md` — PDF **79–88** / logical printed pp. **78–87** — **10 verified pages**.
+PDF **1–6** contains no lyricist/song-credit section; the title-page `திரைக்கதை வசனம் / மு. கருணாநிதி` credit is therefore not treated as lyric authorship.
 
-Final canonical status: **82 verified / 0 draft / 0 review**.
+The booklet contains **6 source-visible song/performance occurrences**. Authorship disposition is **1 verified / 1 review / 4 unresolved**. `பொழுது புலர்ந்தது` has verified item-level lyricist evidence for **சுரபி**; `சிங்காரப் பைங்கிளியே... பேசு` remains in review because external attributions conflict. The booklet prints no complete standalone lyric body, so **0 reconstructed Tamil lyric files** were created.
 
-## Visual fidelity audit — complete
+## English translation — complete-verified
 
-Every canonical page PDF **7–88 / logical printed pp.6–87** has been compared against the rendered scan and passed its correction/recheck gate. There are **0 unresolved source readings**.
+The source-linked English derivative now covers **all 57/57 archival scene segments**. These remain derivative navigation segments; the source itself prints no scene numbers.
 
-Part-level correction totals after final rechecks:
+Final translation checkpoint:
 
-- Part 01 — **89** corrections;
-- Part 02 — **43**;
-- Part 03 — **48**;
-- Part 04 — **63**;
-- Part 05 — **69**;
-- Part 06 — **68 final corrections**.
+- verified English units: **1,190/1,190**;
+- review / draft units: **0 / 0**;
+- unit mix: **1,009 dialogue-kind / 173 stage direction / 6 song-reference / 1 chant / 1 written-text**;
+- immutable labelled dialogue records linked: **983/983** exactly once;
+- direct source-unlabelled spoken English units: **27**, all with `speaker_label: null`;
+- genuine cross-page English units: **17**;
+- source-visible song/performance occurrences represented in English: **6/6**;
+- canonical Tamil, scene, dialogue, character and song-inventory records modified by translation: **0**.
 
-Part 06's initial full-range audit recorded **63** corrections. After those were applied, the mandatory second complete visual comparison found **5 additional scan-supported corrections**. Those were applied before verification. The final Part 06 record is `notes/fidelity-audit-part06-final.md`.
+The scene-1 pilot remains the voice model: Kalaignar's repetition, rhetorical accumulation, metaphors, verbal reversals, insults, theatrical pauses, courtly/colloquial contrasts and culturally specific vocabulary are preserved instead of being flattened into generic fluent English.
 
-During dialogue preparation for `manohara-s042`, direct reinspection of PDF 68 exposed one stored application omission for an item already recorded in the Part 05 Batch 11 audit: the source label is `வ. சே. : வசந்தா!`, not `வ. சே : வசந்தா!`. The canonical Part 05 text and `scene-042.md` were corrected before dialogue extraction. The correction is documented in `notes/post-fidelity-corrections.md`; the canonical page remains verified and no other wording or structure changed.
+### Final requested pass — scenes 46–57
 
-Important final-page disposition: `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` continues the king's speech without a printed speaker label; it is not converted into an invented/new speaker label in the canonical text.
+The final twelve scenes were checked directly against the rendered scan across **PDF 71–88 / logical printed pp.70–87**. They add **267 verified units: 228 dialogue-kind / 39 stage directions**, linking all **216/216 immutable labelled dialogue records** in that range.
 
-## Scene derivative layer — complete-verified
+Scenes 46–50 preserve the fruit/romantic wordplay, `தியான / உத்தியான`, burglary/crowbar and bedchamber-lotus imagery, spear/kamandalam and saffron-robe contrasts, `பத்தரை மாற்று தங்கம்`, the father-son remorse sequence, Manoharan's inner `unfading flowers / coloured parrots` image, and the null-speaker `தம்பி மனோகரனிடம் சொல்...` line. Two new genuine crossings occur in scene 48, PDF **72→73** and **75→76**.
 
-The verified transition audit contains **57 principal source-visible transition dispositions** (`T001`–`T057`). These are used as the start points for **57 archival scene segments** in `scenes/index.json`.
+Scenes 51–54 preserve all source-empty speaker fields without inference. Scene 52 retains `death-abhishekam` and its PDF **79→80** utterance; scene 53 keeps the source-unlabelled continuation within Vasanthan's existing turn; scene 54 keeps the hen/hawk motherhood image, `பைங்கொடி` as tender creeper and `ஜீவ ஓவியம்` as **living portrait**.
 
-This is a derivative navigation system only. The booklet still has **no source scene numbers**. IDs such as `manohara-s001` and filenames such as `scene-001.md` must never be presented as numbers printed by the source.
+Scene 55 is preserved at full rhetorical force. Its climax retains the young-breeze/bud/tear-bath sequence, repeated **I endured**, moonless sky, sword/sheath, golden idol at knife-point, `love-kamandalam`, `you to rule / we to perish`, self-aarti, heroic-epic/stylus/palm-leaf imagery, **Tamil Mother**, sword/word–army/ban–blade/glance parallelism, `பொறுமை / பெருமை`, and the complete red-banana / jackal / tears-versus-sword / motherland / Chola Mother / victory-garland / blood-tilak / slavery-fetters / dust invocation. Four scene-55 utterances preserve PDF **83→84, 84→85, 85→86 and 86→87** crossings.
 
-Final scene checkpoint:
+`சந்து புனை சிந்து பாடும்` remains conservatively **compose sandhu and sing sindhu** rather than receiving an unsupported literary repair. Vasanthan's dying `தம்பி` exchange keeps **thambi** because the kinship term is the emotional point. Kesari's `little... by little` threat is not softened.
 
-- archival scene segments indexed: **57/57**;
-- scene index: **complete**;
-- scene-text derivatives: **57/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s057`;
-- five genuine source continuities across canonical storage-part boundaries were preserved rather than converted into false scene breaks: `s016`, `s030`, `s036`, `s041`, and `s051`;
-- no source scene numbers, synthetic endings, or duplicate boundary separators were introduced.
+Scene 56 preserves all four colon-only continuations as null-speaker units. Scene 57 keeps `பத்மா! என் இதயராணி...` within the king's preceding immutable turn and closes with `கடமை, கண்ணியம், கட்டுப்பாடு` as **Duty, dignity, discipline**.
 
-The segmentation policy and safeguards are documented in `scenes/README.md`.
+The detailed final reviews are:
 
-## Dialogue index — complete-verified
-
-The dialogue layer under `dialogues/` is now complete across all **57 archival scenes**.
-
-Final checkpoint:
-
-- dialogue scene shards completed: **57/57** — `manohara-s001` through `manohara-s057`;
-- immutable explicitly speaker-labelled dialogue records: **983**;
-- cumulative cross-page dialogue records: **13**;
-- cumulative source-label/delimiter anomaly records: **8**;
-- `manohara-s024` is the sole zero-record scene;
-- `speaker_label` remains exact source-visible text and has not been expanded or normalized;
-- no dialogue record has been rewritten to a normalized character identity.
-
-Dialogue policy, schema and final inventory are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
-
-## Character/entity index — complete-verified
-
-The character layer is closed across the complete 983-record dialogue inventory:
-
-- exact-label inventory: **111 distinct non-empty source labels**;
-- exact labels dispositioned: **111/111**;
-- stable entities / role categories: **37**;
-- verified entities / labels: **36 / 110**;
-- unresolved entities / labels: **1 / 1 — `வர்மா`**;
-- remaining unmapped labels: **0**;
-- dialogue records modified by character normalization: **0**.
-
-Context-reused shorthand remains context-safe instead of being forced into false identities. The nested-play identities stay distinct from the outer story, and `வர்மா` in `manohara-s008-d003` remains unresolved because the printed sequence does not support a safe physical-speaker assignment without inference.
-
-Character policy and final files are under `characters/`.
-
-## Song / performance authorship gate — complete with unresolved authorship
-
-PDF **1–6** was visually inspected first: the booklet prints `திரைக்கதை வசனம் / மு. கருணாநிதி`, but **no lyricist heading, song-contributor list or item-level song credit**. The screenplay-dialogue credit is therefore not reused as lyric authorship.
-
-Six source-visible occurrences were verified at PDF **9, 16, 30, 32, 37 and 41**. Final gate totals are **6 occurrences / 1 verified / 1 review / 4 unresolved**. `பொழுது புலர்ந்தது` is the sole item with verified lyricist evidence (**சுரபி**); `சிங்காரப் பைங்கிளியே... பேசு` remains in review because external attributions conflict. No external evidence modified canonical Tamil, scene text or dialogue records.
-
-The booklet prints no complete standalone lyric body for any occurrence, so there are **0 reconstructed Tamil song files**. `songs/README.md` documents the evidence policy and all dispositions.
-
-## English translation — verified in progress
-
-The English derivative now covers archival scenes **1–45 of 57**. These are archive navigation segments only; the booklet still prints no scene numbers.
-
-Current checkpoint: **923/923 verified source-linked units / 0 review / 0 draft**:
-
-- **781 dialogue-kind units**;
-- **134 stage-direction units**;
-- **6 song-reference units**;
-- **1 chant unit**;
-- **1 written-text unit**;
-- **767/767 immutable labelled dialogue records** in completed scenes linked exactly once;
-- **15 direct source-unlabelled spoken units**, all retaining `speaker_label: null`;
-- **10 genuine cross-page English units**;
-- all **6** source-visible song/performance occurrences translated at the reference level.
-
-The verified scene-1 pilot remains the voice template: Kalaignar's repetition, rhetorical accumulation, metaphor, theatrical pauses, address vocabulary, comic/formal register differences and heightened invective are preserved rather than smoothed into generic fluent English.
-
-The latest requested batch **41–45** was checked directly against PDF **65–71 / logical printed pp.64–70** and adds **105 verified units**, linking all **91/91 immutable labelled dialogue records** in those five scenes. `BATCH_041_045_REVIEW.md` records the source and voice decisions.
-
-Scene 41 retains the false-physician comic chain from `taking my life` through Yama-Dharma and Yama's buffalo, and keeps `உமது பெயர்?` as a null-speaker unit rather than assigning it from context. Scene 42 retains the counterfeit ascetic register, Bhagavan, the `world is a drama` turn, Mahalakshmi, Nalayini and Vasanthan's half-remembered devotional recitation. The printed `மறவு பெண்ணாசை மறக்கவேண்டும்` is translated as it stands rather than silently corrected from outside literary knowledge.
-
-Scene 43 keeps the saffron-robes / knife-bearing-army / opened-sluice imagery and the strength-of-mind versus military-strength contrast. Scene 44 preserves the `ஆண்டவன் / ஆண்டு கொண்டிருப்பவன்` Lord/ruler turn, the cloud / jasmine / rose accumulation and the military/sexual invasion-surrender double meaning. Scene 45 keeps the source-undelimited `ஆள்......அப்படியா......` as another null-speaker unit and preserves Padmavathi's diamond-cradle / straw-enclosure and flower-feet / earth-to-gold / golden-mansion-to-dust reversals.
-
-No canonical Tamil, scene, dialogue, character or song-inventory record has been changed by the English layer.
+- `translations/BATCH_046_050_REVIEW.md`;
+- `translations/BATCH_051_055_REVIEW.md`;
+- `translations/BATCH_056_057_REVIEW.md`.
 
 ## Status
 
@@ -165,12 +94,13 @@ No canonical Tamil, scene, dialogue, character or song-inventory record has been
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
 | Dialogue index | **complete-verified — 57/57 scenes, 983 records** |
-| Character index | **complete-verified — 111/111 labels dispositioned, 37 entities, 1 unresolved label** |
+| Character index | **complete-verified — 111/111 labels, 37 entities, 1 unresolved label** |
 | Song/performance authorship | **complete-with-unresolved-authorship — 6 occurrences; 1 verified / 1 review / 4 unresolved** |
 | Tamil song lyric derivatives | **0 — no complete lyric body printed** |
-| English translation | **verified in progress — 45/57 scenes, 923 verified units** |
-| Reader / Reading Room integration | blocked / not-started |
+| English translation | **complete-verified — 57/57 scenes, 1,190 units** |
+| English reader/export preflight | **not-started** |
+| Reading Room integration | blocked pending reader/export QA |
 
 ## Next activity
 
-**Translate and verify `manohara-s046`–`manohara-s050` using the same source-linked model and voice-preservation rules. Reinspect the rendered scan whenever a page crossing, empty speaker field, courtly address, colloquial/comic phrase or rhetorical image is uncertain.**
+Run a **whole-work English reader/export preflight and integrity QA** across all 57 verified translation records before producing publication-facing Markdown/HTML/JSON or Reading Room data. The preflight should verify source order, unit IDs, exact **983/983** dialogue linkage, the **17** cross-page units, the **27** null-speaker spoken units, song-reference integrity, and absence of synthetic prose derived only from decorative `★` separators.
