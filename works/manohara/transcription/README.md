@@ -16,10 +16,10 @@ The canonical screenplay/dialogue range is PDF **7–88** / logical printed pp. 
 - review pages: **0**;
 - first-pass pages remaining: **0**;
 - visual fidelity audit: **in-progress**;
-- visually audited: **PDF 7–12 / logical printed pp.6–11 — 6 pages**;
-- Batch 1 correction groups recorded: **13**, with **0 unresolved source readings**;
-- Batch 1 corrections applied: **no — intentionally deferred until Part 01 has been fully audited**;
-- next fidelity-audit page: PDF **13** / printed p. **12**;
+- visually audited: **PDF 7–18 / logical printed pp.6–17 — 12 pages**;
+- correction groups recorded so far: **38**, with **0 unresolved source readings**;
+- accumulated Part 01 corrections applied: **no — intentionally deferred until PDF 7–30 has been fully audited**;
+- next fidelity-audit page: PDF **19** / printed p. **18**;
 - structured derivatives: **blocked until the Tamil source layer is fidelity-verified**.
 
 The aggregate transcription index is [`full-text.md`](full-text.md). Source-order batch files are listed in [`parts/README.md`](parts/README.md). The fidelity ledger is [`../notes/fidelity-audit.md`](../notes/fidelity-audit.md).
@@ -36,8 +36,10 @@ From PDF 8 onward the visible/continuous interior pagination is recorded normall
 <!-- source: pdf=8 printed=7 status=draft -->
 ```
 
-The anchors remain `draft` during the Part 01 visual audit even when a page has already been inspected, because the scan-supported corrections are being accumulated for a consolidated Part 01 rewrite. Only after those corrections are applied will the affected anchors be promoted to `verified` or `review`.
+The anchors remain `draft` during the Part 01 visual audit even when a page has already been inspected, because scan-supported corrections are being accumulated for one consolidated Part 01 rewrite. Only after those corrections are applied will affected anchors be promoted to `verified` or `review`.
+
+Batch 2 (PDF 13–18) covered the embedded play-within-the-play and recorded source-supported corrections including `சிங்காதனத்தை`, `தங்களுக்குத் தங்கள் பிதா`, `கூறிச் சொல்லியதும்`, `பணிப் பெண்ணாக`, the unusual but legible `சொன்னு கேட்டாத் தானே!`, `கணவன்மார்களுக்கும்`, and `ஒன்று, இரண்டா?`.
 
 OCR, film audio, subtitles, web quotations, memory and later editions are not canonical repair sources.
 
-**Next:** continue the visual fidelity audit with **PDF 13–18 / printed pp.12–17**. Do not begin structured derivatives and do not promote Part 01 anchors before the accumulated corrections are applied.
+**Next:** continue the visual fidelity audit with **PDF 19–24 / printed pp.18–23**. Do not begin structured derivatives and do not promote Part 01 anchors before the accumulated PDF 7–30 corrections are applied.
