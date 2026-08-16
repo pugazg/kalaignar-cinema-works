@@ -87,14 +87,17 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Dialogue index — in progress
 
-The dialogue layer is now active under `dialogues/` and follows the repository's established scene-sharded immutable-record model, adapted for Manohara's unnumbered source structure.
+The dialogue layer is active under `dialogues/` and follows the repository's established scene-sharded immutable-record model, adapted for Manohara's unnumbered source structure.
 
 Current checkpoint:
 
-- dialogue scene shards completed: **5/57** — `manohara-s001` through `manohara-s005`;
-- immutable explicitly speaker-labelled dialogue records: **31**;
+- dialogue scene shards completed: **10/57** — `manohara-s001` through `manohara-s010`;
+- immutable explicitly speaker-labelled dialogue records: **164**;
 - cross-page dialogue records: **1** — `manohara-s001-d004`;
-- next dialogue scene: **`manohara-s006`**;
+- second batch (`s006`–`s010`) added **133** records;
+- `manohara-s008`, the embedded-play segment, contributes **58** labelled records while source lines whose speaker field is empty and printed only as `:` remain outside the dialogue index;
+- non-empty descriptive labels printed before a colon, including `நாடகம் பார்க்கும் ராஜப்பிரியன்`, `நாடகம் பார்க்கும் வசந்தசேனா`, `நாடக தேவசேனா`, and `நாடகம் பார்க்கும் வசந்தன்`, are retained exactly rather than normalized to inferred character names;
+- next dialogue batch: **`manohara-s011`–`manohara-s015`**;
 - `speaker_label` preserves the exact source-visible label and is never expanded or normalized at this layer;
 - `speaker_delimiter` separately preserves source punctuation because later Manohara labels include `:`, `;` and `,` forms;
 - source-unlabelled lines remain unlabelled and do **not** receive dialogue IDs;
@@ -113,7 +116,7 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
-| Dialogue index | **in-progress — 5/57 scenes, 31 records** |
+| Dialogue index | **in-progress — 10/57 scenes, 164 records** |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
@@ -121,4 +124,4 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 
 ## Next activity
 
-**Continue dialogue indexing from `manohara-s006`, in a meaningful multi-scene batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
+**Continue dialogue indexing with `manohara-s011` through `manohara-s015` in the next meaningful batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
