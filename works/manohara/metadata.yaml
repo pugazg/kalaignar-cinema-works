@@ -178,6 +178,7 @@ fidelity_audit:
   part_04_corrections_recorded: 63
   part_04_corrections_pending_apply: 0
   part_04_corrections_applied: true
+  part_04_application_commit: "fd9e993a21deae53a9b4310fd2022384e8ccb7c1"
   part_04_post_application_recheck: passed
   part_04_verification_commit: "0795ea5d668cecda8a258563d7b93d0c27f7dc29"
   part_04_verified_pages: 12
@@ -188,6 +189,7 @@ fidelity_audit:
   part_05_corrections_recorded: 69
   part_05_corrections_pending_apply: 0
   part_05_corrections_applied: true
+  part_05_application_commit: "9bfd56174a9d3fbb309ba52b1bca22204c234bb8"
   part_05_post_application_recheck: passed
   part_05_verification_commit: "bd2b26b558671eacd7819969bc9136ea11b3018d"
   part_05_verified_pages: 12
