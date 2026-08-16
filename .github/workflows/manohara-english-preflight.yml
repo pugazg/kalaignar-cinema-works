@@ -1,0 +1,33 @@
+name: Manohara English reader preflight
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "works/manohara/translations/index.json"
+      - "works/manohara/translations/records/**"
+      - "works/manohara/dialogues/records/**"
+      - "works/manohara/songs/inventory.json"
+      - "works/manohara/scenes/**"
+      - "works/manohara/editions/en/audit_probe.py"
+      - ".github/workflows/manohara-english-preflight.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  reader-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run whole-work English reader preflight
+        run: python works/manohara/editions/en/audit_probe.py
