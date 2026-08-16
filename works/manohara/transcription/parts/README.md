@@ -1,10 +1,10 @@
 # மனோகரா — transcription parts
 
-The canonical Tamil first pass is stored in source-order batches. Every batch was read from the rendered scan and remains `draft` until the later, separate visual fidelity audit verifies it page by page.
+The canonical Tamil first pass is stored in source-order batches. Each part remains `draft` until its separate visual fidelity audit, correction application and post-application recheck are complete.
 
 | Part | PDF pages | Logical printed pages | Pages | Status |
 |---|---:|---:|---:|---|
-| [`part-01-pdf-7-30.md`](part-01-pdf-7-30.md) | 7–30 | 6–29 | 24 | draft |
+| [`part-01-pdf-7-30.md`](part-01-pdf-7-30.md) | 7–30 | 6–29 | 24 | **verified** |
 | [`part-02-pdf-31-42.md`](part-02-pdf-31-42.md) | 31–42 | 30–41 | 12 | draft |
 | [`part-03-pdf-43-54.md`](part-03-pdf-43-54.md) | 43–54 | 42–53 | 12 | draft |
 | [`part-04-pdf-55-66.md`](part-04-pdf-55-66.md) | 55–66 | 54–65 | 12 | draft |
@@ -12,8 +12,11 @@ The canonical Tamil first pass is stored in source-order batches. Every batch wa
 | [`part-06-pdf-79-88.md`](part-06-pdf-79-88.md) | 79–88 | 78–87 | 10 | draft |
 
 First-pass coverage: **82/82 canonical pages — complete**.  
-Canonical range: **PDF 7–88 / logical printed pp.6–87**.
+Canonical range: **PDF 7–88 / logical printed pp.6–87**.  
+Current fidelity state: **24 verified / 58 draft / 0 review**.
 
-The aggregate status is now `draft-complete`, not `verified`. The next gate is a separate page-by-page visual fidelity audit beginning at **PDF 7 / logical printed p.6**.
+Part 01 passed its full PDF 7–30 visual audit, had all **89** recorded scan-supported correction groups applied, and passed a post-application recheck before all 24 page anchors were promoted to `verified`.
+
+The next fidelity-audit range begins at **PDF 31 / printed p.30** in Part 02.
 
 Do not use the OCR layer, film audio, subtitles, web quotations, memory or later editions to silently repair this source layer.
