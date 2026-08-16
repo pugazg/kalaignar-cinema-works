@@ -27,7 +27,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation and the immutable dialogue inventory.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation and the immutable dialogue inventory. The character/entity derivative is now in its pilot-verified mapping phase.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -47,13 +47,16 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source inta
 - cross-page dialogue records: **13**;
 - exact source-label/delimiter anomaly records: **8**;
 - sole zero-record scene: **`manohara-s024`**;
-- character/entity index: **ready / not-started**.
+- character/entity exact-label inventory: **111 labels, complete**;
+- character/entity pilot: **10 verified named characters / 51 labels mapped / 60 labels remaining**.
+
+The character pilot deliberately does not force globally reused labels into one identity. `வச` and `வசந்` alternate between வசந்தசேனை and வசந்தன்; `சேனா` crosses the nested-play தேவசேனா and outer-story வசந்தசேனை; `அட்` crosses the real அக்ஷயன் and மனோகரன்'s false-Akshayan disguise; and `வர்` is reused across nested-play and outer-story Varman contexts. These remain context-sensitive until explicitly dispositioned.
 
 The final dialogue pass reinspected PDF **88 / printed p.87** directly. In `manohara-s056`, four source lines with an empty speaker field beginning only with `:` remain unassigned rather than being attributed by inference. In `manohara-s057`, the unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` remains inside the preceding explicitly labelled king's turn rather than being promoted to an invented speaker record.
 
 The earlier PDF 68 post-fidelity repair of `வ. சே. : வசந்தா!` is documented in `works/manohara/notes/post-fidelity-corrections.md`. Song authorship remains unresolved by design; the screenplay/dialogue credit is not treated as lyric credit.
 
-**Next:** build the **Manohara character/entity index** from the complete 983-record dialogue inventory. Normalize source labels only through explicit derivative mappings; do not rewrite immutable dialogue records.
+**Next:** continue the **Manohara character/entity index** by disposing the remaining **60 exact source labels** into verified named characters, stable roles/collectives, or explicit review/unresolved entities. Do not rewrite immutable dialogue records.
 
 ## Parasakthi status
 
