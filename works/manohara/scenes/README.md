@@ -18,21 +18,20 @@ Important:
 - Decorative star separators are never expanded into prose such as `(Scene ends.)`.
 - Boundary separators are not duplicated between adjacent derivative files.
 - Page anchors are repeated inside derivatives for traceability; repeating an anchor does not create new canonical text.
+- Cross-part continuities are preserved when a derivative begins near the end of one canonical part and continues into the next; canonical part boundaries do not force an artificial scene split.
 - The opening global title/credit lines (`மனோகரா` / `திரைக்கதை வசனம்`) remain in the canonical transcription and are not repeated as a scene heading.
 
 ## Current checkpoint
 
 - archival scene segments indexed: **57/57**;
 - source-numbered scene count: **not applicable**;
-- scene-text derivatives completed: **11/57** — `manohara-s001` through `manohara-s011`;
-- completed derivative source span: opening PDF **7** through PDF **25**, ending immediately before audit transition `T012` (`மாளிகையை அடுத்த நந்தவனம்` / `இரவு நேரம்......`);
+- scene-text derivatives completed: **16/57** — `manohara-s001` through `manohara-s016`;
+- completed derivative source span: opening PDF **7** through the opening dialogue on PDF **31**, ending immediately before audit transition `T017` (`பாண்டியமக்கள் விசாரணை மண்டபம்`);
 - `manohara-s008` preserves the complete embedded play beginning on PDF 13 and continuing through the closing `இன்னும் உயிர் வாழ்கிறாள்.` on PDF 19;
-- `manohara-s009` preserves the post-play Vasanthasena chamber sequence through the opening PDF 22 continuation before `T010`;
-- `manohara-s010` covers the war-sword / ancestral-duty discussion and stops before the street proclamation `T011`;
-- `manohara-s011` preserves the street war proclamation, Vasanthan's comic war passage, Manoharan's royal leave-taking and Padmavati's blessing, stopping before `T012`;
-- boundary stars are not duplicated across derivative files;
+- `manohara-s012`–`manohara-s016` preserve the Vasanthasena–Bauthayan conspiracy, Muthu Vijayan battle/death, Vijaya's revenge attempt, her capture, and the `வாழ்வதே மாது நான்` transition;
+- `manohara-s016` intentionally crosses the storage boundary from canonical Part 01 into the opening of Part 02 because the source-visible transition `T017` occurs only after the continuing dialogue on PDF 31;
 - derivative source authority: verified canonical Tamil only;
-- next scene-text derivative: **`manohara-s012`**, beginning with the night garden transition on PDF 25.
+- next scene-text derivative: **`manohara-s017`**, beginning with `(பாண்டியமக்கள் விசாரணை மண்டபம்)` on PDF 31.
 
 `index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
 
