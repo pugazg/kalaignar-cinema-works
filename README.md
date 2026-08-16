@@ -27,7 +27,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation, the immutable dialogue inventory, the complete character/entity disposition layer, and the source-visible song/performance authorship gate.
+The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, archival scene derivation, the immutable dialogue inventory, the complete character/entity disposition layer, and the source-visible song/performance authorship gate. The source-linked English translation is now in a verified pilot phase.
 
 - source title: **`மனோகரா`**;
 - printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -54,17 +54,22 @@ The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source inta
 - song/performance inventory: **6 source-visible occurrences**;
 - song authorship: **1 verified / 1 review / 4 unresolved**;
 - verified song authorship: **`பொழுது புலர்ந்தது` — சுரபி**;
-- Tamil song lyric derivative files: **0 — no complete lyric body is printed in this booklet**.
+- Tamil song lyric derivative files: **0 — no complete lyric body is printed in this booklet**;
+- English translation: **pilot-verified — 1/57 archival scenes, 12/12 pilot units verified**;
+- pilot unit mix: **10 dialogue / 2 stage direction**;
+- pilot cross-page English units: **1**.
 
 The character layer preserves context-reused source labels instead of forcing false identities. `அட்` crosses the real அக்ஷயன் and மனோகரன்'s false-Akshayan disguise; `வச` and `வசந்` cross வசந்தசேனை and வசந்தன்; `சேனா` crosses nested-play தேவசேனா and outer-story வசந்தசேனை; `வர்` crosses nested-play ஈஸ்வரி வர்மன் and outer-story கேசரிவர்மன்; and generic `தோழி` forms remain contextual attendant roles. The single `வர்மா` label in scene 8 remains explicitly unresolved because the printed sequence does not support a safe physical-speaker assignment without inference.
 
 The song gate visually checked PDF **1–6** and found no lyricist/song-credit section. The title-page `திரைக்கதை வசனம் / மு. கருணாநிதி` credit is not treated as lyric authorship. Six source-visible occurrences at PDF **9, 16, 30, 32, 37 and 41** were inventoried. Official item-level Saregama evidence verifies **`பொழுது புலர்ந்தது` — சுரபி**. `சிங்காரப் பைங்கிளியே... பேசு` remains in **review** because external sources conflict between உடுமலை நாராயண கவி and மு. கருணாநிதி; the other four occurrences remain unresolved rather than being guessed from film-wide soundtrack metadata. No external evidence modified canonical Tamil or immutable dialogue records.
 
+The English pilot covers `manohara-s001` across PDF **7–8 / logical printed pp.6–7**. All **10/10** immutable scene-1 dialogue records are linked exactly once, together with two source-visible stage directions. The cross-page `manohara-s001-d004` remains one English unit with page-segment provenance. The pilot explicitly preserves Kalaignar's rhetorical accumulation and theatrical voice—repetition, metaphors, pauses, forms of address and escalating invective are not flattened into generic fluent English. Decorative `★` remains structural and is not converted into invented prose.
+
 The final dialogue pass reinspected PDF **88 / printed p.87** directly. In `manohara-s056`, four source lines with an empty speaker field beginning only with `:` remain unassigned rather than being attributed by inference. In `manohara-s057`, the unlabelled continuation `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` remains inside the preceding explicitly labelled king's turn rather than being promoted to an invented speaker record.
 
 The earlier PDF 68 post-fidelity repair of `வ. சே. : வசந்தா!` is documented in `works/manohara/notes/post-fidelity-corrections.md`.
 
-**Next:** begin **Manohara English translation** as a separate source-linked derivative layer. Preserve the source's rhetoric, cadence and character voice; translate song/performance material only to the extent printed in the booklet and do not supply absent lyrics.
+**Next:** translate and verify **`manohara-s002`–`manohara-s005`** using the verified pilot's source-linked model and voice-preservation rules. Reinspect the rendered scan wherever a reading, page break or rhetorical nuance is uncertain.
 
 ## Parasakthi status
 
