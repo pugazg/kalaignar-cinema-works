@@ -1,0 +1,16 @@
+{
+  "work_id": "manohara",
+  "status": "pilot-verified",
+  "dialogue_index": "../dialogues/index.json",
+  "schema": "schema.json",
+  "label_inventory": "labels-inventory.json",
+  "pilot": "entities-pilot.json",
+  "entities": null,
+  "dialogue_records_source": 983,
+  "distinct_source_labels": 111,
+  "pilot_entities": 10,
+  "mapped_distinct_source_labels": 51,
+  "remaining_unmapped_labels": 60,
+  "dialogue_records_modified": false,
+  "next_activity": "Dispose the remaining 60 exact labels into verified named characters, context-safe roles/collectives, or explicit review/unresolved entities without rewriting immutable dialogue records."
+}
