@@ -123,7 +123,7 @@ transcription_progress:
     - "transcription/parts/part-06-pdf-79-88.md"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue dialogue indexing with manohara-s026 through manohara-s030 using only complete-verified scene derivatives. Preserve exact non-empty speaker labels and printed delimiters; do not assign unlabelled speech."
+  next_action: "Continue dialogue indexing with manohara-s031 through manohara-s035 using only complete-verified scene derivatives. Preserve exact non-empty speaker labels and printed delimiters; do not assign unlabelled speech."
 
 fidelity_audit:
   status: complete
@@ -227,13 +227,13 @@ structured_derivatives:
   dialogue_index: in-progress
   dialogue_index_path: "dialogues/index.json"
   dialogue_schema_path: "dialogues/schema.json"
-  dialogue_scenes_completed: 25
-  dialogue_completed_ordinals: "1-25"
-  dialogue_records: 329
+  dialogue_scenes_completed: 30
+  dialogue_completed_ordinals: "1-30"
+  dialogue_records: 388
   dialogue_cross_page_records: 3
-  dialogue_source_label_anomaly_records: 3
+  dialogue_source_label_anomaly_records: 4
   dialogue_zero_record_scenes: 1
-  dialogue_next_scene_ordinal: 26
+  dialogue_next_scene_ordinal: 31
   character_index: blocked
   song_authorship_mapping: blocked
   song_tamil_derivatives: blocked
