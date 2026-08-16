@@ -1,0 +1,41 @@
+{
+  "work_id": "manohara",
+  "status": "complete-with-unresolved-authorship",
+  "schema": "schema.json",
+  "credits": "credits.json",
+  "tracklist_evidence": "tracklist-evidence.json",
+  "inventory": "inventory.json",
+  "candidate_occurrences": 6,
+  "verified_authorship_occurrences": 1,
+  "review_authorship_occurrences": 1,
+  "unresolved_authorship_occurrences": 4,
+  "named_song_occurrences": 5,
+  "performance_references_with_partial_printed_lines": 1,
+  "full_lyric_blocks_printed": 0,
+  "tamil_song_derivative_files_created": 0,
+  "canonical_text_modified_by_external_evidence": false,
+  "verified_mappings": [
+    {
+      "occurrence": "manohara-song-005",
+      "title_ta": "பொழுது புலர்ந்தது",
+      "lyricist_ta": "சுரபி",
+      "evidence": "official Saregama Manohara title correspondence plus Saregama Surabi lyricist page"
+    }
+  ],
+  "review_occurrences": [
+    {
+      "occurrence": "manohara-song-004",
+      "title_ta": "சிங்காரப் பைங்கிளியே... பேசு",
+      "reason": "external sources conflict between உடுமலை நாராயண கவி and மு. கருணாநிதி; the booklet prints no lyricist credit"
+    }
+  ],
+  "unresolved_occurrences": [
+    "manohara-song-001",
+    "manohara-song-002",
+    "manohara-song-003",
+    "manohara-song-006"
+  ],
+  "song_tamil_derivative_gate": "The booklet prints song titles/refrain references and one partial labelled singing sequence, but no complete standalone lyric body for any inventoried occurrence. Do not reconstruct or import missing lyrics from audio, record catalogs, websites, later editions or another song booklet. The scene and dialogue layers already preserve every song-related word supplied by this source.",
+  "dialogue_records_modified": false,
+  "next_activity": "Begin English translation as a separate source-linked derivative layer. Translate song/performance material only to the extent printed in the canonical Tamil; preserve unresolved/review authorship status and do not supply absent lyrics."
+}
