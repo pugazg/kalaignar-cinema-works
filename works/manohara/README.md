@@ -78,13 +78,12 @@ Current scene checkpoint:
 
 - archival scene segments indexed: **57/57**;
 - scene index: **complete**;
-- scene-text derivatives: **30/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s030`;
+- scene-text derivatives: **35/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s035`;
 - `manohara-s016` preserves the genuine PDF 30→31 continuity across the Part 01 / Part 02 storage boundary;
-- `manohara-s024`–`manohara-s026` preserve the dawn-song reference, Vasanthasena's chamber argument and the victory-assembly confrontation;
-- `manohara-s027`–`manohara-s029` preserve Manoharan's complaint to Padmavati, Vasanthan's physician sequence and the cave/guru strand;
 - `manohara-s030` preserves the Vasantha-festival sequence and legitimately continues from Part 02 into the opening lines of PDF 43 / Part 03 before `T031`;
-- next: `manohara-s031`, beginning with `[பத்மாவதி அறை]` on PDF 43;
+- `manohara-s031`–`manohara-s035` preserve the Padmavati/Vijaya aftermath, the king-room transition, Vasanthasena's staged-suicide counter-plot, the suspicion/eavesdropping sequence, and Manoharan's departure to challenge the order;
+- next: `manohara-s036`, beginning with `அரசர் அவைக்கூடம்` on PDF 48;
 - dialogue indexing remains blocked until all scene-text derivatives are complete.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
@@ -99,7 +98,7 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
-| Scene-text derivatives | **in-progress — 30/57 complete-verified** |
+| Scene-text derivatives | **in-progress — 35/57 complete-verified** |
 | Dialogue index | blocked until scene-text layer |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
@@ -108,4 +107,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Continue scene-text derivatives from `manohara-s031` / transition `T031`, beginning with `[பத்மாவதி அறை]` on PDF 43. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
+**Continue scene-text derivatives from `manohara-s036` / transition `T036`, beginning with `அரசர் அவைக்கூடம்` on PDF 48. This is a long continuous court sequence through PDF 58, so preserve the verified canonical text and page anchors exactly, without inventing source scene numbering or synthetic scene endings.**
