@@ -24,11 +24,15 @@ Important:
 
 - archival scene segments indexed: **57/57**;
 - source-numbered scene count: **not applicable**;
-- scene-text derivatives completed: **8/57** — `manohara-s001` through `manohara-s008`;
-- completed derivative source span: opening PDF **7** through PDF **19**, ending immediately before audit transition `T009` (`வசந்தசேனை அந்தப்புரம்`);
-- `manohara-s008` preserves the complete embedded play beginning on PDF 13 and continuing through the closing `இன்னும் உயிர் வாழ்கிறாள்.` on PDF 19; the following boundary stars are not duplicated into either adjacent scene derivative;
+- scene-text derivatives completed: **11/57** — `manohara-s001` through `manohara-s011`;
+- completed derivative source span: opening PDF **7** through PDF **25**, ending immediately before audit transition `T012` (`மாளிகையை அடுத்த நந்தவனம்` / `இரவு நேரம்......`);
+- `manohara-s008` preserves the complete embedded play beginning on PDF 13 and continuing through the closing `இன்னும் உயிர் வாழ்கிறாள்.` on PDF 19;
+- `manohara-s009` preserves the post-play Vasanthasena chamber sequence through the opening PDF 22 continuation before `T010`;
+- `manohara-s010` covers the war-sword / ancestral-duty discussion and stops before the street proclamation `T011`;
+- `manohara-s011` preserves the street war proclamation, Vasanthan's comic war passage, Manoharan's royal leave-taking and Padmavati's blessing, stopping before `T012`;
+- boundary stars are not duplicated across derivative files;
 - derivative source authority: verified canonical Tamil only;
-- next scene-text derivative: **`manohara-s009`**, beginning with `[வசந்தசேனை அந்தப்புரம்...` on PDF 19.
+- next scene-text derivative: **`manohara-s012`**, beginning with the night garden transition on PDF 25.
 
 `index.json` is the authoritative scene-segmentation index for this derivative layer. `notes/scene-heading-audit.md` remains the provenance record for why each start point exists.
 
