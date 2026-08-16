@@ -68,6 +68,23 @@ Part 06's initial full-range audit recorded **63** corrections. After those were
 
 Important final-page disposition: `பத்மா! என் இதயராணி. என்னை மன்னித்துவிடு.` continues the king's speech without a printed speaker label; it is not converted into an invented/new speaker label in the canonical text.
 
+## Scene derivative layer — in progress
+
+The verified transition audit contains **57 principal source-visible transition dispositions** (`T001`–`T057`). These are now used as the start points for **57 archival scene segments** in `scenes/index.json`.
+
+This is a derivative navigation system only. The booklet still has **no source scene numbers**. IDs such as `manohara-s001` and filenames such as `scene-001.md` must never be presented as numbers printed by the source.
+
+Current scene checkpoint:
+
+- archival scene segments indexed: **57/57**;
+- scene index: **complete**;
+- scene-text derivatives: **7/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s007`;
+- next: `manohara-s008`, beginning with the embedded play on PDF 13;
+- dialogue indexing remains blocked until all scene-text derivatives are complete.
+
+The segmentation policy and safeguards are documented in `scenes/README.md`.
+
 ## Status
 
 | Layer | Status |
@@ -77,8 +94,9 @@ Important final-page disposition: `பத்மா! என் இதயராண
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
-| Scene index / scene-text derivatives | **not-started — next gate** |
-| Dialogue index | blocked until scene layer |
+| Archival scene index | **complete — 57 derivative segments** |
+| Scene-text derivatives | **in-progress — 7/57 complete-verified** |
+| Dialogue index | blocked until scene-text layer |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
@@ -86,4 +104,4 @@ Important final-page disposition: `பத்மா! என் இதயராண
 
 ## Next activity
 
-**Construct the scene index and scene-text derivatives from the verified Tamil source layer. Use the source-visible transition system to define derivative scene dispositions, preserve page provenance and cross-part continuities, and do not claim derivative scene IDs are scene numbers printed by the booklet.**
+**Continue scene-text derivatives from `manohara-s008` / transition `T008`, beginning with the embedded play on PDF 13. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
