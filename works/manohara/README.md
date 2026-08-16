@@ -91,19 +91,21 @@ The dialogue layer is active under `dialogues/` and follows the repository's est
 
 Current checkpoint:
 
-- dialogue scene shards completed: **35/57** — `manohara-s001` through `manohara-s035`;
-- immutable explicitly speaker-labelled dialogue records: **467**;
-- seventh batch (`s031`–`s035`) added **79** records;
-- cross-page dialogue records remain **3** — `manohara-s001-d004`, `manohara-s015-d002`, and `manohara-s021-d017`;
+- dialogue scene shards completed: **40/57** — `manohara-s001` through `manohara-s040`;
+- immutable explicitly speaker-labelled dialogue records: **676**;
+- eighth batch (`s036`–`s040`) added **209** records;
+- `manohara-s036` alone contributes **88** records from the long court confrontation and its aftermath;
+- cross-page dialogue records are now **6** — the previous three plus `manohara-s036-d032` (PDF 51→52), `manohara-s036-d041` (PDF 52→53), and `manohara-s036-d077` (PDF 56→57);
+- the unlabelled collective cries under `(சபையோர்)` on PDF 55 remain outside the dialogue index, while the later explicit `சபையோர் :` line on PDF 56 is indexed with its immediately following unlabelled continuation kept in the same record;
+- `manohara-s038` intentionally leaves the empty-speaker line `: இப்ப நான் சொல்றபடி சொல்லணும்......` unindexed;
+- `manohara-s039-d029` preserves the explicit printed label `வசந்தசேனை மனதிற்குள்` exactly rather than converting it to narrative or a normalized character identity;
+- the separately printed Ugrasenan letter in `manohara-s040` remains outside the dialogue index because it is a letter block rather than explicitly speaker-labelled dialogue;
 - source-label/delimiter anomaly records remain **4**; this batch introduces no new delimiter form;
-- `manohara-s033` preserves the source's changing printed label forms (`வ. சே.`, `வ. சே`, `வ. சேனை`, `தோழி`, `தோ`, `அரசர்`, `அர`) without collapsing them to normalized character identities;
-- `manohara-s033-d017` keeps the unlabelled second paragraph beginning `இருட்டுவேளை! பத்மாவதியின் அந்தப்புரம்!` inside the immediately preceding `வ. சே. :` utterance because no new speaker label intervenes;
-- `manohara-s035-d013` keeps Manoharan's closing utterance continuous through its two embedded source directions, including the final unlabelled `விஜயா! பார்த்துக்கொள்...வருகிறேன்` continuation;
 - `manohara-s024` remains the sole zero-record scene so far;
 - `speaker_label` preserves the exact source-visible label and is never expanded or normalized at this layer;
 - source-unlabelled material is never assigned to an inferred speaker merely to increase dialogue coverage;
 - character normalization remains deferred to the later character/entity index;
-- next dialogue batch: **`manohara-s036`–`manohara-s040`**.
+- next dialogue batch: **`manohara-s041`–`manohara-s045`**.
 
 Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `dialogues/schema.json` and `dialogues/index.json`.
 
@@ -118,7 +120,7 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
 | Scene-text derivatives | **complete-verified — 57/57** |
-| Dialogue index | **in-progress — 35/57 scenes, 467 records** |
+| Dialogue index | **in-progress — 40/57 scenes, 676 records** |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
 | English translation | blocked until structured source layer |
@@ -126,4 +128,4 @@ Dialogue policy, schema and checkpoint are recorded in `dialogues/README.md`, `d
 
 ## Next activity
 
-**Continue dialogue indexing with `manohara-s036` through `manohara-s040` in the next meaningful batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
+**Continue dialogue indexing with `manohara-s041` through `manohara-s045` in the next meaningful batch. Create records only for non-empty explicitly speaker-labelled utterances, preserve exact label/delimiter/text/page provenance, keep cross-page utterances whole, and never assign source-unlabelled speech to an inferred speaker.**
