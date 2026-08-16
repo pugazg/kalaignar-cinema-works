@@ -1,13 +1,13 @@
 # மனோகரா — canonical Tamil transcription
 
-**Status:** `draft` — Part 04 visual audit is complete for PDF 55–66 / printed pp.54–65; all 63 reviewed correction groups have been applied, and the twelve page anchors remain `draft` pending the separate post-application visual recheck.
+**Status:** `verified` — PDF 55–66 / printed pp.54–65 completed the separate visual fidelity audit; all 63 reviewed scan-supported correction groups were applied and the corrected range passed the post-application visual recheck.
 
 Source: `TVA_BOK_0010102_மனோகரா.pdf`  
 SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`
 
 The rendered scan controls every reading. The PDF OCR layer was used only for navigation. Source spelling, punctuation, speaker labels, stage directions, separators and typographical irregularities are retained as read. Doubtful readings are not repaired from film knowledge or other editions.
 
-<!-- source: pdf=55 printed=54 status=draft -->
+<!-- source: pdf=55 printed=54 status=verified -->
 
 பத் : மனோகரா! என் மாணிக்கமே! உன் மாதா கோழையின் குடும்பத்தில் பிறக்கவும் இல்லை. கோழையின் மனைவியாக ஆகவும் இல்லை. கோழையை மகனாகப் பெறவும் இல்லையடா கண்ணே! மன்னிப்புக் கேட்பதைவிட மரணமடைவதே மேல்.
 
@@ -47,7 +47,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 “அநீதியான தீர்ப்பு! அநீதியான தீர்ப்பு.”
 
-<!-- source: pdf=56 printed=55 status=draft -->
+<!-- source: pdf=56 printed=55 status=verified -->
 
 பத்மா : அமைதியாயிருங்கள்! சத்தியசீலரே! மனோகரனைத் தூக்கிக்கொண்டு போக ஏற்பாடு செய்யுங்கள்—கொலைக்களத்திற்கு!
 
@@ -73,7 +73,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 விஜயா : எது மாமா தீர்ந்துபோன விஷயம். தந்தை மகன் - என்ற பந்தமா?...... கணவன் மனைவி என்ற சொந்தமா? தங்களைப் பொறுத்த வரையில் இரண்டுமே தீர்ந்துவிட்டாலும், என் நிலையில் இருந்து நினைத்துப்பாருங்கள்; நான் உங்கள் பகைவரின் மகள். என் உள்ளத்தைக் கவர்ந்த உத்தமர் உங்கள் மகன். எதிரியையும் இழுக்கக்கூடிய இதயம் படைத்தவரை இத்தகைய கொடுமைக்கு ஆளாக்குவது, அதுவும் கர்ப்பிணி பெண்ணது விந்தையல்லவா, மாமா? பாண்டிய நாட்டு ராஜகுமாரி சோழநாட்டு
 
-<!-- source: pdf=57 printed=56 status=draft -->
+<!-- source: pdf=57 printed=56 status=verified -->
 
 அரண்மனைக்கு ஏன் வந்தாள்............ சோகப் பதுமையாக மாறவா...? சுகத்தை இழக்கவா? சொல்லுங்கள் மாமா.
 
@@ -115,7 +115,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 [அப்போது அரூபம் (கேசரிவர்மன்) ரதத்தைத் தடுத்து நிறுத்துகிறது. காவலாளிகள் பயந்து ஓடுகிறார்கள். அரூபம் ரதத்தை ஓட்டிச் செல்கிறது. ராஜப்பிரியன் பின் தொடர்கிறான்.]
 
-<!-- source: pdf=58 printed=57 status=draft -->
+<!-- source: pdf=58 printed=57 status=verified -->
 
 (அரண்மனை)
 
@@ -157,7 +157,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 * * *
 
-<!-- source: pdf=59 printed=58 status=draft -->
+<!-- source: pdf=59 printed=58 status=verified -->
 
 (சிறைச்சாலை)
 
@@ -195,7 +195,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வைத் : ராஜவீர தீர பராக்கிரம...
 
-<!-- source: pdf=60 printed=59 status=draft -->
+<!-- source: pdf=60 printed=59 status=verified -->
 
 விக : ரணரங்க தீர வீர சூர...
 
@@ -247,7 +247,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வச : சேனாதிபதி! நடனம் நடக்கட்டும்...
 
-<!-- source: pdf=61 printed=60 status=draft -->
+<!-- source: pdf=61 printed=60 status=verified -->
 
 வைத்தியன் : மகாராணியை ஆடச் சொல்லுங்கள்...
 
@@ -285,7 +285,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வச : எப்படி மாறும்—இந்திரனுக்காகப் படைக்கப்பட்ட அகல்யா—சந்திரனுக்காகப் படைக்கப்பட்ட தாரை—புருஷோத்தமருக்காகப் படைக்கப்பட்ட வசந்தா—
 
-<!-- source: pdf=62 printed=61 status=draft -->
+<!-- source: pdf=62 printed=61 status=verified -->
 
 அர : வசந்தி! கண்ணே... உன்னோடு என்ன பேசுவதென்றே தெரியவில்லை—
 
@@ -327,7 +327,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வச : போதும்... போதும்!... வர்ணிக்காதீர்கள்—வசந்த ராஜனுக்கு இதுவும் வேண்டும் இன்னமும் வேண்டும் உன்னை... அறிவாளி என்று நினைத்தேன்... [கோபமாக] நீ ஒரு ஞான சூன்யம்!
 
-<!-- source: pdf=63 printed=62 status=draft -->
+<!-- source: pdf=63 printed=62 status=verified -->
 
 வச : (தந்திரமாக) முட்டாள் என்று மூவாயிரம் முறை சொல்லுங்கள்—சந்தோஷம்!... ஆனால்... உங்கள் வசந்தி வஞ்சகி என்று மாத்திரம் நினைக்காதீர்கள்... ஸ்வாமி!... ஒரு யோசனைதான் உங்களைக் கேட்டேன்— என் மகன்மட்டு மல்லவே அவன்—தங்கள் மகனுந் தான்—தங்களை விட எனக்கென்ன ஆசை வந்து கிடக்கிறது! என் லட்சியம் தங்கள் சுகம்... சுயநலமல்ல...
 
@@ -359,7 +359,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வச : அந்த மருந்தை எனக்கு கொஞ்சம் தர்ரியா?
 
-<!-- source: pdf=64 printed=63 status=draft -->
+<!-- source: pdf=64 printed=63 status=verified -->
 
 அரூ : தருகிறேன்! ஆனால் நீ நான் சொல்றபடி கேட்க வேண்டும்.
 
@@ -397,7 +397,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 [மனோகரனும் ராஜப்பிரியனும் அட்சயனைத் தாக்கி அவனை ஒரு கல்தூணில் கட்டிப் போடுகிறார்கள். மனோகரன் அட்சயனிடமிருந்து ஒரு கடிதத்தை எடுக்கிறான்.]
 
-<!-- source: pdf=65 printed=64 status=draft -->
+<!-- source: pdf=65 printed=64 status=verified -->
 
 “அன்புள்ள வசந்தசேனைக்கு!
 
@@ -431,7 +431,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 [வசந்தசேனை அந்தப்புரம் காவலன் அக்ஷயன் வேடத்தில் உள்ள மனோகரனைக் காட்டி]
 
-<!-- source: pdf=66 printed=65 status=draft -->
+<!-- source: pdf=66 printed=65 status=verified -->
 
 காவலன் : அம்மா—இவரை மகாராஜா தங்களிடம் அனுப்பினார். பெரிய வைத்தியராம்...
 
