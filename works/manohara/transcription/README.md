@@ -14,19 +14,23 @@ The canonical screenplay/dialogue range is PDF **7–88** / logical printed pp. 
 - draft pages: **46** — PDF **43–88**;
 - review pages: **0**;
 - visual fidelity audit: **in-progress**;
-- visually audited: **PDF 7–42 / logical printed pp.6–41 — 36 pages**;
+- visually audited: **PDF 7–48 / logical printed pp.6–47 — 42 pages**;
 - Part 01: **complete-verified — 24 pages, 89 corrections applied, post-application recheck passed**;
 - Part 02: **complete-verified — 12 pages, 43 corrections applied, post-application recheck passed**;
+- Part 03 audit coverage: **PDF 43–48 / printed pp.42–47 — 6/12 pages**;
+- Part 03 correction groups pending application: **30**;
 - unresolved source readings: **0**;
-- next fidelity-audit page: PDF **43** / printed p. **42**;
+- next fidelity-audit page: PDF **49** / printed p. **48**;
 - structured derivatives: **blocked until the remaining Tamil source layer is fidelity-verified**.
 
 The aggregate transcription index is [`full-text.md`](full-text.md). Source-order batch files are listed in [`parts/README.md`](parts/README.md). The fidelity ledger is [`../notes/fidelity-audit.md`](../notes/fidelity-audit.md).
 
-Parts 01 and 02 now carry verified page anchors from PDF 7 through PDF 42. Part 03 and later parts remain `draft`.
+Parts 01 and 02 carry verified page anchors from PDF 7 through PDF 42. Part 03 and later parts remain `draft`.
 
-Part 02 verification followed two six-page visual comparisons, a consolidated application of all **43** recorded source-supported correction groups, and a post-application recheck. The recheck passed with no unresolved source reading. Preserved source forms include `இதழ் கடலின் தேனலைகளை`, historical `அத்யாயம்`, `தேளின் கொடுக்கே!`, source dialogue `ராஜப்ரியா`, `ஹூம்`, `பிரதானி2,`, `அந்தப் பாதகி`, `வைத்`, the unusual enlarged-scan wording `“ஊஹூம்...கொஞ்சம் புளிக்கும், என்னு ரெண்டு?`, `தணலில் விழுந்த புழுவாக`, and `பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது`.
+The first Part 03 audit batch (PDF 43–48) records **30** scan-supported correction groups. Among the substantive restorations are `அவைகளைவிடப் பெரியவளா`, `இந்த கள்ளி?`, historical `சத்யசீலர்` / source label `சத்யசீலா`, `உடனே போ`, `அடுக்காதே... சீக்கிரம் சொல்.`, `என் விதி—நான்தானே அனுபவிக்க வேண்டும்`, the source king's opening `சே! சே?`, the omitted `கணமும்கூட`, `வசந்தா என்ற அவச்சொல் தங்களுக்கே வேண்டாம்.`, `தங்கள் நினைவுகள் ஏந்திக் கொண்டிருக்கும்`, `உண்மை வெளிவரத்தான் போகிறது`, `பத்மாவதிக்குச் சிறைச் சாலை!`, source heading `அரசர் அவைக்கூடம்`, and `மன்னவரே!`.
+
+These Part 03 corrections are recorded only; they have **not** yet been written back to `parts/part-03-pdf-43-54.md`. Its anchors therefore correctly remain `draft` until PDF 43–54 is fully audited, corrected and rechecked.
 
 OCR, film audio, subtitles, web quotations, memory and later editions are not canonical repair sources.
 
-**Next:** begin the Part 03 visual fidelity audit at **PDF 43 / printed p.42**, keeping Part 03 anchors at `draft` until its own accumulated corrections are applied and rechecked.
+**Next:** continue the Part 03 visual fidelity audit with **PDF 49–54 / printed pp.48–53**. After that batch, apply the complete Part 03 correction set in one controlled rewrite, recheck the corrected range, and only then promote Part 03 anchors.
