@@ -8,12 +8,12 @@ The canonical Tamil first pass is stored in source-order batches. Each part rema
 | [`part-02-pdf-31-42.md`](part-02-pdf-31-42.md) | 31–42 | 30–41 | 12 | **verified** |
 | [`part-03-pdf-43-54.md`](part-03-pdf-43-54.md) | 43–54 | 42–53 | 12 | **verified** |
 | [`part-04-pdf-55-66.md`](part-04-pdf-55-66.md) | 55–66 | 54–65 | 12 | **verified** |
-| [`part-05-pdf-67-78.md`](part-05-pdf-67-78.md) | 67–78 | 66–77 | 12 | draft |
+| [`part-05-pdf-67-78.md`](part-05-pdf-67-78.md) | 67–78 | 66–77 | 12 | **verified** |
 | [`part-06-pdf-79-88.md`](part-06-pdf-79-88.md) | 79–88 | 78–87 | 10 | draft |
 
 First-pass coverage: **82/82 canonical pages — complete**.  
 Canonical range: **PDF 7–88 / logical printed pp.6–87**.  
-Current fidelity state: **60 verified / 22 draft / 0 review**.
+Current fidelity state: **72 verified / 10 draft / 0 review**.
 
 Part 01 passed its full PDF 7–30 visual audit, had all **89** recorded scan-supported correction groups applied, and passed a post-application recheck before all 24 page anchors were promoted to `verified`.
 
@@ -23,6 +23,8 @@ Part 03 passed its full PDF 43–54 visual audit after a direct re-audit removed
 
 Part 04 passed its full PDF 55–66 visual audit with **63** reviewed correction groups. Those corrections were applied in one controlled rewrite, the complete 12-page range was visually rechecked against the rendered scan with **0 unresolved readings**, and all 12 anchors were promoted to `verified`.
 
-The next fidelity-audit range begins at **PDF 67 / printed p.66** in Part 05.
+Part 05 passed its full PDF 67–78 visual audit with **69** reviewed correction groups. Those corrections were applied in one controlled rewrite, the complete 12-page range was visually rechecked against the rendered scan with **0 unresolved readings**, and all 12 anchors were promoted to `verified`.
+
+The next fidelity-audit range begins at **PDF 79 / printed p.78** in Part 06.
 
 Do not use the OCR layer, film audio, subtitles, web quotations, memory or later editions to silently repair this source layer.
