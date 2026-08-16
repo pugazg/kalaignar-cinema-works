@@ -9,7 +9,7 @@ This layer is downstream of the **57/57 complete-verified archival scene-text de
 - Only source-visible utterances with a **non-empty printed speaker label** become dialogue records.
 - Source-unlabelled speech such as lines beginning only with `:` remains unlabelled and is **not** converted into a dialogue record.
 - `speaker_label` preserves the exact printed label form used by the verified Tamil. It is not expanded, standardized or mapped to a character here.
-- `speaker_delimiter` preserves the printed punctuation after that label. The booklet contains `:`, `;` and `,` forms in different places; those irregularities must not be silently normalized.
+- `speaker_delimiter` preserves the printed punctuation after that label. The booklet contains `:`, `;`, `,` and `-` forms in different places; those irregularities must not be silently normalized.
 - Character identity/label normalization belongs only to the later `characters/` derivative layer.
 - Dialogue `text` is copied exactly from verified scene text after the printed label delimiter. Label-attached parenthetical or stage material remains inside that immutable record text.
 - A labelled utterance crossing a page boundary remains **one** record with multi-page `page_provenance` and `page_segments`.
@@ -39,20 +39,25 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing is complete through **scenes 1–10** (`manohara-s001`–`manohara-s010`). These ten scene shards contain **164 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–15** (`manohara-s001`–`manohara-s015`). These fifteen scene shards contain **246 immutable labelled-dialogue records**.
 
-The second batch added **133 records** across scenes 6–10:
+The third batch added **82 records** across scenes 11–15:
 
-- `s006`: 18 records;
-- `s007`: 13;
-- `s008`: 58;
-- `s009`: 36;
-- `s010`: 8.
+- `s011`: 26 records;
+- `s012`: 16;
+- `s013`: 13;
+- `s014`: 6;
+- `s015`: 21.
 
-`manohara-s008` contains the embedded play. Source lines whose printed speaker field is empty and appears only as `:` remain outside the dialogue index. By contrast, non-empty descriptive labels actually printed before a colon — for example `நாடகம் பார்க்கும் ராஜப்பிரியன்`, `நாடகம் பார்க்கும் வசந்தசேனா`, `நாடக தேவசேனா`, and `நாடகம் பார்க்கும் வசந்தன்` — are retained exactly as source speaker labels, without normalizing them to character names.
+This batch introduced two important source-fidelity cases:
 
-The existing cross-page record remains `manohara-s001-d004`, whose labelled utterance begins on PDF 7 / logical printed p.6 and continues onto PDF 8 / printed p.7.
+- `manohara-s013-d009` preserves the printed hyphen-delimited form `சிப்பாய் 2 - மீன் கொடி சாய்ந்துவிட்டது.` as an explicitly labelled dialogue record. The schema now allows `-` as a source delimiter rather than silently converting it to a colon.
+- `manohara-s015-d002` is one cross-page utterance: Vijaya's labelled speech starts on PDF 28 / logical printed p.27 and continues onto PDF 29 / p.28. It remains one immutable record with two page segments.
 
-Next batch: continue with **`manohara-s011`–`manohara-s015`**. Multiple scenes should continue to be handled per activity where density permits.
+The earlier embedded-play rule remains unchanged: source lines whose speaker field is empty and appears only as `:` stay outside the dialogue index, while non-empty printed descriptive labels remain exact source labels.
+
+Cross-page records currently recorded: `manohara-s001-d004` and `manohara-s015-d002`.
+
+Next batch: continue with **`manohara-s016`–`manohara-s020`**. Multiple scenes should continue to be handled per activity where density permits.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
