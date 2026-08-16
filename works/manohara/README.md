@@ -40,7 +40,7 @@ The scan also contains an extended play-within-the-play sequence, several explic
 
 ## Canonical Tamil first-pass checkpoint
 
-The complete source-order first pass is now stored in six archival batches:
+The complete source-order first pass is stored in six archival batches:
 
 - `transcription/parts/part-01-pdf-7-30.md` — PDF **7–30** / logical printed pp. **6–29** — **24 draft pages**;
 - `transcription/parts/part-02-pdf-31-42.md` — PDF **31–42** / logical printed pp. **30–41** — **12 draft pages**;
@@ -52,9 +52,22 @@ The complete source-order first pass is now stored in six archival batches:
 - current page status: **82 draft / 0 verified / 0 review**;
 - aggregate transcription status: **`draft-complete`**.
 
-The final batch preserves the prison confrontation, the attempted killing of Vijayā's child, Padmavati's final appeal, Manoharan breaking his bonds, Ugrasenan's death, Vasanthan's death, the final Kesari Varma–Vasantha Sena reckoning and the closing reconciliation in source order.
+`draft-complete` means every canonical page has a first-pass transcription. It does **not** mean the text is verified.
 
-`draft-complete` means every canonical page has a first-pass transcription. It does **not** mean the text is verified. A separate visual fidelity audit is now required before any page becomes `verified` and before structured derivatives are unlocked.
+## Visual fidelity audit
+
+The separate scan-led audit is now **in progress**. Batch 1 visually compared **PDF 7–12 / logical printed pp.6–11** against the stored Part 01 text.
+
+- visually audited pages: **6/82**;
+- clear correction groups recorded: **13**;
+- unresolved source readings in Batch 1: **0**;
+- corrections applied to canonical Part 01: **not yet**;
+- verified page anchors: **0**;
+- next audit range: **PDF 13–18 / printed pp.12–17**.
+
+The corrections are recorded in `notes/fidelity-audit.md`. They include source-form differences such as `சந்தேகமில்லே`, `எழில் பூத்த நம் செல்வத்தை`, the source-visible `புறப்பட்டு இருப்பாய்?`, the stage direction `வசந்தாவைத் தொடுகிறான்`, and restoration of the fuller `பிள்ளையாரு...` sentence on PDF 11.
+
+The Part 01 anchors deliberately remain `draft` until all PDF 7–30 pages have been audited and the accumulated corrections are applied in one controlled rewrite.
 
 ## Status
 
@@ -64,7 +77,7 @@ The final batch preserves the prison confrontation, the attempted killing of Vij
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil transcription | **draft-complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | not-started |
+| Visual fidelity audit | **in-progress — PDF 7–12 audited, corrections pending apply** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -72,4 +85,4 @@ The final batch preserves the prison confrontation, the attempted killing of Vij
 
 ## Next activity
 
-**Begin the separate visual fidelity audit from PDF 7 / logical printed p.6, comparing the stored first-pass text line by line against the rendered scan and recording corrections or unresolved readings explicitly.**
+**Continue the visual fidelity audit with PDF 13–18 / printed pp.12–17. Keep Part 01 anchors at `draft` until the accumulated Part 01 corrections have been applied.**
