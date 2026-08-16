@@ -78,13 +78,15 @@ Current scene checkpoint:
 
 - archival scene segments indexed: **57/57**;
 - scene index: **complete**;
-- scene-text derivatives: **36/57 complete-verified**;
-- completed: `manohara-s001`–`manohara-s036`;
-- `manohara-s016` preserves the genuine PDF 30→31 continuity across the Part 01 / Part 02 storage boundary;
-- `manohara-s030` preserves the Vasantha-festival sequence and legitimately continues from Part 02 into the opening lines of PDF 43 / Part 03 before `T031`;
-- `manohara-s031`–`manohara-s035` preserve the Padmavati/Vijaya aftermath, the king-room transition, Vasanthasena's staged-suicide counter-plot, the suspicion/eavesdropping sequence, and Manoharan's departure to challenge the order;
-- `manohara-s036` preserves the long `அரசர் அவைக்கூடம்` sequence from PDF 48 through PDF 57, including the chained court confrontation, Manoharan's speech against Purushothaman, Padmavati's intervention, the death sentence, Vijaya's appeal and Manoharan's removal/rescue; it legitimately crosses the Part 03 / Part 04 storage boundary;
-- next: `manohara-s037`, beginning at `T037` on PDF 58 with the palace/cave strand transition;
+- scene-text derivatives: **41/57 complete-verified**;
+- completed: `manohara-s001`–`manohara-s041`;
+- `manohara-s016`, `manohara-s030`, `manohara-s036`, and `manohara-s041` preserve genuine source continuities across canonical storage-part boundaries rather than introducing false scene breaks;
+- `manohara-s037` preserves the PDF 58 palace/cave continuation after Manoharan's rescue;
+- `manohara-s038` preserves the prison material and Vasanthan's mock-darbar sequence;
+- `manohara-s039` preserves Vasanthasena's garden conversation, her decision to turn to Ugrasenan and the invisible Kesari Varma/Vasanthan intervention;
+- `manohara-s040` preserves the interception of Atchayan, Ugrasenan's letter and the decision to expose the conspiracy;
+- `manohara-s041` preserves the false-Atchayan/physician disguise through the opening portion of PDF 67 and stops immediately before `T042`;
+- next: `manohara-s042`, beginning with `[உக்ரசேனன் கூடாரம்]` on PDF 67;
 - dialogue indexing remains blocked until all scene-text derivatives are complete.
 
 The segmentation policy and safeguards are documented in `scenes/README.md`.
@@ -99,7 +101,7 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 | Canonical Tamil | **complete-verified — 82/82 pages** |
 | Visual fidelity audit | **complete — 82/82 pages** |
 | Archival scene index | **complete — 57 derivative segments** |
-| Scene-text derivatives | **in-progress — 36/57 complete-verified** |
+| Scene-text derivatives | **in-progress — 41/57 complete-verified** |
 | Dialogue index | blocked until scene-text layer |
 | Character index | blocked until dialogue layer |
 | Song/performance authorship | blocked until earlier structured layers |
@@ -108,4 +110,4 @@ The segmentation policy and safeguards are documented in `scenes/README.md`.
 
 ## Next activity
 
-**Continue scene-text derivatives from `manohara-s037` / transition `T037` on PDF 58. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
+**Continue scene-text derivatives from `manohara-s042` / transition `T042`, beginning with `[உக்ரசேனன் கூடாரம்]` on PDF 67. Copy only from the verified canonical Tamil, preserve page anchors and source irregularities, and do not create source scene numbers or synthetic scene-ending prose.**
