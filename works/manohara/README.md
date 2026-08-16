@@ -58,24 +58,25 @@ The separate scan-led audit is **in progress**.
 
 Part 01, **PDF 7–30 / logical printed pp.6–29**, is **complete-verified**. Four visual-audit batches recorded **89** source-supported correction groups. All 89 were applied in a controlled rewrite, the rewritten range was checked again against the ledger and rendered scans, and all **24** Part 01 page anchors were promoted to `verified`.
 
-Part 02 is now halfway through its visual audit:
+Part 02, **PDF 31–42 / printed pp.30–41**, has now completed its visual comparison:
 
-- audited Part 02 range: **PDF 31–36 / printed pp.30–35**;
-- Part 02 audited pages: **6/12**;
-- correction groups recorded in this Part 02 batch: **24**;
+- Part 02 audited pages: **12/12**;
+- Part 02 correction groups recorded: **43**;
 - Part 02 corrections applied: **not yet**;
-- unresolved source readings: **0**;
-- next audit range: **PDF 37–42 / printed pp.36–41**.
+- Part 02 page anchors promoted: **0**;
+- unresolved source readings: **0**.
 
-The PDF 31–36 corrections include source forms such as `ஒருத்தி தான்`, `பொற்கொடி யிருப்பது`, `இதழ் கடலின் தேனலைகளை`, `ரசித்துக்கொண்டே யிருக்கிறேன்`, `அத்யாயம்`, `தேளின் கொடுக்கே!`, `ராஜப்ரியா`, the unusual source reading `அவள் உயிரோடு விடக்கூடாது!`, `ஹூம்`, and `சிறைச்சாலை வசந்தசேனையின் தோழி`. The canonical Part 02 file has deliberately **not** been rewritten yet.
+The second Part 02 batch (PDF 37–42) records source-supported forms including `விதவையைப் போல`, joined `சகலகெளரவத்தோடும்`, source label punctuation `பிரதானி2,`, `வெற்றிமாலை- அணிவேன்`, the source's unmatched closing bracket after `வெளியேறுகிறான்]`, `அந்தப் பாதகி`, `வைத்`, the unusual enlarged-scan wording `“ஊஹூம்...கொஞ்சம் புளிக்கும், என்னு ரெண்டு?`, `தணலில் விழுந்த புழுவாக`, and `பாண்டியன் மகளை பாணிக்கிரகணம் செய்தது`.
+
+The canonical Part 02 file has deliberately **not** been rewritten yet. The complete **43-correction** Part 02 set must be applied in one controlled source-led rewrite and then rechecked before any Part 02 anchor is promoted.
 
 Cumulative fidelity state:
 
-- visually audited pages: **30/82**;
+- visually audited pages: **36/82**;
 - verified pages: **24**;
 - draft pages: **58**;
 - review pages: **0**;
-- pending Part 02 correction groups: **24**;
+- pending Part 02 correction groups: **43**;
 - unresolved source readings: **0**.
 
 The fidelity record is in `notes/fidelity-audit.md`.
@@ -88,7 +89,7 @@ The fidelity record is in `notes/fidelity-audit.md`.
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — PDF 7–36 audited; Part 01 verified; Part 02 6/12 audited** |
+| Visual fidelity audit | **in-progress — PDF 7–42 audited; Part 01 verified; Part 02 audit complete with 43 corrections pending apply** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -96,4 +97,4 @@ The fidelity record is in `notes/fidelity-audit.md`.
 
 ## Next activity
 
-**Continue the Part 02 visual fidelity audit with PDF 37–42 / printed pp.36–41. Keep Part 02 page anchors at `draft`; after completing that range, apply the full Part 02 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 02.**
+**Apply all 43 recorded Part 02 corrections to `transcription/parts/part-02-pdf-31-42.md` in one controlled source-led rewrite. Recheck PDF 31–42 / printed pp.30–41 against the audit ledger and rendered scan; if the check passes with no unresolved reading, promote all 12 Part 02 page anchors to `verified` before continuing the visual audit at PDF 43 / printed p.42.**
