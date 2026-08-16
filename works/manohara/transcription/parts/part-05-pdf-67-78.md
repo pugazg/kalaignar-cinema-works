@@ -91,7 +91,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந் : மதி வேண்டும்...
 
-வ. சே : வசந்தா!
+வ. சே. : வசந்தா!
 
 [வசந்தி போகிறான்]...
 
