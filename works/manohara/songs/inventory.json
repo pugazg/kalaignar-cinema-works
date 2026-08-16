@@ -1,0 +1,133 @@
+{
+  "work_id": "manohara",
+  "status": "complete-with-unresolved-authorship",
+  "canonical_authority": "../transcription/full-text.md",
+  "booklet_credits": "credits.json",
+  "tracklist_evidence": "tracklist-evidence.json",
+  "candidate_count": 6,
+  "verified_authorship_count": 1,
+  "review_authorship_count": 1,
+  "unresolved_authorship_count": 4,
+  "records": [
+    {
+      "id": "manohara-song-001",
+      "archival_scene": 3,
+      "candidate_kind": "named-song-reference",
+      "source_text_ta": "(வசந்தன் ; விகடன் சந்தேகமில்லே பாட்டு)",
+      "pdf_pages": [9],
+      "printed_pages": [8],
+      "canonical_scene_file": "../scenes/scene-003.md",
+      "dialogue_index_overlap": false,
+      "printed_text_extent": "title-or-refrain-only",
+      "performance_context": "After Vasanthan and Vikatan exchange remarks about having no doubt, the booklet explicitly marks a சந்தேகமில்லே song. No lyric body is printed in this occurrence.",
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "none",
+        "evidence_reference": "tracklist-evidence.json: manohara-ext-001",
+        "notes": "The official Saregama Manohara page contains an exact transliterated track title Santhegam Illai, which supports title correspondence only. The retrieved official metadata does not establish an item-level lyricist, so authorship is not inferred from film-wide lyricist lists or unofficial metadata."
+      },
+      "notes": "Named song reference only; no reconstructed lyrics are created."
+    },
+    {
+      "id": "manohara-song-002",
+      "archival_scene": 8,
+      "candidate_kind": "named-song-performance-reference",
+      "source_text_ta": "நாடகத்தின் அடுத்த காட்சியாக அரசன் உத்தம புருஷனும் தேவசேனாவும் காதல்பாட்டு (நிலாவிலே ! சல்லாபமே!! பாடுகின்றனர்.)",
+      "pdf_pages": [16],
+      "printed_pages": [15],
+      "canonical_scene_file": "../scenes/scene-008.md",
+      "dialogue_index_overlap": false,
+      "printed_text_extent": "title-or-refrain-only",
+      "performance_context": "Inside the play-within-the-play, Uthama Purushan and Devasena are explicitly described as singing a love song identified by the parenthetical words நிலாவிலே ! சல்லாபமே!!. No lyric body is printed.",
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "none",
+        "evidence_reference": null,
+        "notes": "No item-level credit is printed. Public soundtrack lists contain similarly themed Manohara song titles, but no exact source-supported item-level match and lyricist evidence was established for this booklet wording."
+      },
+      "notes": "Nested-play song occurrence; kept distinct from outer-story identities and soundtrack guesses."
+    },
+    {
+      "id": "manohara-song-003",
+      "archival_scene": 16,
+      "candidate_kind": "named-song-reference",
+      "source_text_ta": "விஜயா அந்தப்புரம் “வாழ்வதே மாது நான்” பாட்டு.",
+      "pdf_pages": [30],
+      "printed_pages": [29],
+      "canonical_scene_file": "../scenes/scene-016.md",
+      "dialogue_index_overlap": false,
+      "printed_text_extent": "title-or-refrain-only",
+      "performance_context": "The booklet explicitly places the named song வாழ்வதே மாது நான் in Vijaya's inner chamber immediately before her attempted poisoning. No lyric body is printed.",
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "none",
+        "evidence_reference": null,
+        "notes": "Public discographic lists contain a Manohara title transliterated as Vazhvatho Mathu, but the evidence inspected for this gate did not establish a reliable item-level lyricist assignment."
+      },
+      "notes": "Named-song reference only; source title retained exactly."
+    },
+    {
+      "id": "manohara-song-004",
+      "archival_scene": 19,
+      "candidate_kind": "named-song-performance-reference",
+      "source_text_ta": "[“சிங்காரப் பைங்கிளியே... பேசு” — பாட்டு]\n\n[பாடிக்கொண்டு படகில் போகும்போது பெளத்தாயன் கட்டாரியை வீசுகிறான் குறி தவறிவிடுகிறது.]",
+      "pdf_pages": [32],
+      "printed_pages": [31],
+      "canonical_scene_file": "../scenes/scene-019.md",
+      "dialogue_index_overlap": false,
+      "printed_text_extent": "title-or-refrain-only",
+      "performance_context": "The booklet explicitly names சிங்காரப் பைங்கிளியே... பேசு and states that the characters continue travelling by boat while singing. No lyric body is printed.",
+      "authorship": {
+        "status": "review",
+        "lyricist_ta": null,
+        "evidence_basis": "conflicting-external-sources",
+        "evidence_reference": "tracklist-evidence.json: manohara-ext-003, manohara-ext-004, manohara-ext-005",
+        "notes": "A digitized publication on Udumalai Narayana Kavi and a public soundtrack table attribute this song to உடுமலை நாராயண கவி, while a separate Tamil cinema retrospective attributes it to மு. கருணாநிதி. Because the booklet itself supplies no lyricist and the external evidence conflicts, this archive leaves authorship in review rather than choosing one claimant."
+      },
+      "notes": "Exact source title is secure; lyric authorship is deliberately not forced."
+    },
+    {
+      "id": "manohara-song-005",
+      "archival_scene": 24,
+      "candidate_kind": "named-song-reference",
+      "source_text_ta": "“பொழுது புலர்ந்தது” பாட்டு",
+      "pdf_pages": [37],
+      "printed_pages": [36],
+      "canonical_scene_file": "../scenes/scene-024.md",
+      "dialogue_index_overlap": false,
+      "printed_text_extent": "title-or-refrain-only",
+      "performance_context": "The source marks பொழுது புலர்ந்தது as a song in the Vasanthasena-king bedchamber sequence; no lyric body is printed in the booklet.",
+      "authorship": {
+        "status": "verified",
+        "lyricist_ta": "சுரபி",
+        "evidence_basis": "external-source",
+        "evidence_reference": "tracklist-evidence.json: manohara-ext-001, manohara-ext-002",
+        "notes": "The source-visible title corresponds exactly to Saregama's Manohara track Pozhuthu Pularnthathey. Saregama's Surabi artist page identifies Surabi as a lyricist and lists that Manohara track, providing item-level attribution without altering the booklet wording."
+      },
+      "notes": "This is the only occurrence whose lyricist is verified at this gate."
+    },
+    {
+      "id": "manohara-song-006",
+      "archival_scene": 30,
+      "candidate_kind": "performance-reference-with-partial-printed-lines",
+      "source_text_ta": "வசந்த விழாக் கொண்டாட்டம். பாட்டுகள்...\nமனோகரனும் விஜயாவும் பாடுகிறார்கள்\n\nவிஜயா : இந்த அன்பு மாறவே மாறாதே...",
+      "pdf_pages": [41],
+      "printed_pages": [40],
+      "canonical_scene_file": "../scenes/scene-030.md",
+      "dialogue_index_overlap": true,
+      "printed_text_extent": "partial-printed-labelled-lines",
+      "performance_context": "The scene explicitly opens with Vasantha festival songs and says Manoharan and Vijaya are singing. The following source-labelled lines are already preserved as immutable dialogue records; the booklet does not give a secure song title or a complete lyric block here.",
+      "authorship": {
+        "status": "unresolved",
+        "lyricist_ta": null,
+        "evidence_basis": "none",
+        "evidence_reference": null,
+        "notes": "Public soundtrack tables contain a Vasantha Vizhaa title, but the booklet occurrence is not given that title and the printed labelled lines are insufficient for a safe item-level authorship match. No soundtrack row is guessed onto this occurrence."
+      },
+      "notes": "The song derivative does not duplicate or rewrite the existing labelled dialogue records."
+    }
+  ]
+}
