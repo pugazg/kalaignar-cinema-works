@@ -1,13 +1,13 @@
 # மனோகரா — canonical Tamil transcription
 
-**Status:** `draft` — PDF 7–30 / logical printed pp.6–29 has completed visual audit and the recorded scan-supported corrections have been applied. Page anchors remain `draft` until the post-application check is completed.
+**Status:** `verified` — PDF 7–30 / logical printed pp.6–29 completed the separate visual fidelity audit, all 89 recorded scan-supported correction groups were applied, and the corrected range passed the post-application recheck.
 
 Source: `TVA_BOK_0010102_மனோகரா.pdf`  
 SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`
 
 The rendered scan controls every reading. The PDF OCR layer was used only for navigation. Source spelling, punctuation, speaker labels, stage directions, separators and performance structures are retained as read. Doubtful readings are not repaired from film knowledge or other editions.
 
-<!-- source: pdf=7 printed-logical=6 folio=suppressed status=draft -->
+<!-- source: pdf=7 printed-logical=6 folio=suppressed status=verified -->
 
 # மனோகரா
 
@@ -30,7 +30,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 கேசரி : குருதேவா!...பதின்மூன்று வருடங்கள்...பதறிக் கிடந்தேன் அந்தப் பாவியைப் பழிவாங்க வேண்டுமென்று! பாதை வகுத்துக் கொடுத்து
 
-<!-- source: pdf=8 printed=7 status=draft -->
+<!-- source: pdf=8 printed=7 status=verified -->
 
 விட்டபோது! ......சுவாமி! அரூபம் அதிக நாள் இருக்காதா?......
 
@@ -50,7 +50,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வசந்த சேனையின் சிரிப்புடன் அரண்மனையில் காட்சி ஆரம்பமாகிறது.
 
-<!-- source: pdf=9 printed=8 status=draft -->
+<!-- source: pdf=9 printed=8 status=verified -->
 
 வசந்தசேனை : பைத்தியக்காரி! இப்போது நினைத்தாலும் நான் பட்டமகிஷி ஆக முடியுமடி!......
 
@@ -73,7 +73,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 பத்மாவதி : (அரசர் படத்துக்கு முன்பு)
 சுவாமி! நாமிருவரும் இனிமேல் ஒன்று சேரும் நாளே வராதா...? என் வாழ்க்கையிலே நான் யாருக்கும் எந்த தீங்கும் செய்தது கிடையாதே! என் வாழ்க்கையைக் கெடுத்த வசந்த சேனையைக்கூட மன்னித்து இருக்கிறேன்.... அவளிடம் வாஞ்சை மிகுந்து உங்களுக்கு வருத்தம் வரக்கூடாது என்பதற்காக!... அப்படியே நான் யாருக்காவது தீமை செய்திருந்தாலும் அதற்கு பல ஆண்டு காலம் தங்களைப் பிரிந்து வாடுகிறேனே! இந்த தண்டனை போதாதா? சுவாமி! கண்மணி மனோகரனின் பிறந்த நாளும் வருகிறது. எழில் பூத்த நம் செல்வத்தை இருவரும் உச்சி மோந்து வாழ்த்து கூறுவோமே - அந்த இன்ப நாள் இனிமேல் வரவே முடியாதா சுவாமி!
 
-<!-- source: pdf=10 printed=9 status=draft -->
+<!-- source: pdf=10 printed=9 status=verified -->
 
 (குகையின் உட்புறம்)
 
@@ -111,7 +111,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (அரண்மனை. வசந்தசேனை முத்தாரத்தில் உள்ள பதக்கத்துள்ளே மறைத்து வைக்கப்பட்டிருக்கும் உக்ரசேனன் படத்தைப் பார்த்துக் கொண்டிருக்கிறாள்.)
 
-<!-- source: pdf=11 printed=10 status=draft -->
+<!-- source: pdf=11 printed=10 status=verified -->
 
 தோழி : என்னம்மா... தினம் தினம் எதை மறந்தாலும் இதை மறப்பதில்லை நீங்கள்? அப்படியென்ன இந்தப் பதக்கத்தில் கண்ணை இழுக்கும் காந்தம் இருக்கிறது?
 
@@ -147,7 +147,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 புருஷோத் : தீரவே தீராது இது!
 
-<!-- source: pdf=12 printed=11 status=draft -->
+<!-- source: pdf=12 printed=11 status=verified -->
 
 வசந்தன் : சந்தேகமில்லை.
 
@@ -181,7 +181,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : அம்மா!...
 
-<!-- source: pdf=13 printed=12 status=draft -->
+<!-- source: pdf=13 printed=12 status=verified -->
 
 பத் : செல்வா... கேட்டுக்கொண்டுதான் வந்தேன்! ராஜப்பிரியன் கூட சீறி விழுந்தானே, ஏன்? மந்திரியாரே... மனோகரன் கட்டாயம் நாடகத்துக்கு வருவான்...
 
@@ -215,7 +215,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 : “என் பேரன் அஜயன் தான் பாண்டியன் மீது பழி தீர்த்துக்கொள்ளவேண்டும். என் நவரத்ன சிங்காதனத்தை மீட்பதும் அவன் பொறுப்புதான்.
 
-<!-- source: pdf=14 printed=13 status=draft -->
+<!-- source: pdf=14 printed=13 status=verified -->
 
 இந்த பழி தீர்க்கும் பாரம் ராஜா உத்தம புருஷனுக்கு கிடையாதென்பதையும் திட்டமாக கமலாவதிக்கு தெரிவித்து விடு...
 
@@ -255,7 +255,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வர் : என் பாக்கியம் ப்ரபூ!
 
-<!-- source: pdf=15 printed=14 status=draft -->
+<!-- source: pdf=15 printed=14 status=verified -->
 
 கம : உன் மனைவிக்கு இஷ்டமிருந்தால் அவள் என்னிடமே பணிப் பெண்ணாக இருக்கலாம்.
 
@@ -287,7 +287,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (சொல்லியபடி கீழே விழுகிறாள்)
 
-<!-- source: pdf=16 printed=15 status=draft -->
+<!-- source: pdf=16 printed=15 status=verified -->
 
 தோழி : அம்மா!... அம்மா!...... சொன்னு கேட்டாத் தானே!......
 
@@ -319,7 +319,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 கமலா : உங்கள் நாவு இவ்வளவு கேவலமாகவா மாசு விட்டது. அந்த சண்டாளியின் சகவாசம்.
 
-<!-- source: pdf=17 printed=16 status=draft -->
+<!-- source: pdf=17 printed=16 status=verified -->
 
 (ராஜா கமலாவதியை கன்னத்தில் அறைகிறார்)
 
@@ -341,7 +341,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 சேனா : இல்லையத்தான்...ஆனால் இந்தப் பாலில் அப்படியொன்றுமில்ல
 
-<!-- source: pdf=18 printed=17 status=draft -->
+<!-- source: pdf=18 printed=17 status=verified -->
 
 வர்மன் : நீ சொல்லும்போது எனக்கென்ன பயம்? சேனா இப்படி வா...... என் கையால் உனக்குப் பாலைக் கொடுத்து ரொம்ப காலமாயிற்றல்லவா?........
 
@@ -369,7 +369,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (ஒலி கேட்கிறது) கணவனைக் கொன்றாள்! காட்டாற்றில் உருட்டினாள்...
 
-<!-- source: pdf=19 printed=18 status=draft -->
+<!-- source: pdf=19 printed=18 status=verified -->
 
 காதகி! இன்னும் உயிர் வாழ்கிறாள்!
 இன்னும் உயிர் வாழ்கிறாள்.
@@ -409,7 +409,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 அர : பாலா?...
 
-<!-- source: pdf=20 printed=19 status=draft -->
+<!-- source: pdf=20 printed=19 status=verified -->
 
 வச : ஏன், ஓஹோ! நாடகம் நினைவுக்கு வந்துவிட்டதோ...
 
@@ -435,7 +435,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 வச : உலகம் மிகப் பெரியது. பிரபு! அதன் ஜனக் கூட்டத்திலே நானும் ஒரு துளியாக விடுகிறேன் - தங்கள் பெயரை ஜபித்துக்கொண்டு என் ஜன்மத்தை கழித்துவிடுகிறேன்.
 
-<!-- source: pdf=21 printed=20 status=draft -->
+<!-- source: pdf=21 printed=20 status=verified -->
 
 வச : உங்கள் காலடியில் கிடக்கும் என் இன்ப வாழ்வுக்கு தீ மூட்டத் திட்டம் போட்டு விட்டார்கள்!
 
@@ -469,7 +469,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத்மா : இந்த வாள் ஏது தெரியுமா?......
 
-<!-- source: pdf=22 printed=21 status=draft -->
+<!-- source: pdf=22 printed=21 status=verified -->
 
 மனோ : நாடகத்தில் கூட இதுமாதிரி ஒரு வாள்...ஆமாம் பார்த்தேன்......
 
@@ -490,7 +490,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 பத் : செல்வா! சிந்தை குளிர்ந்ததடா கண்ணே... நம் பரம்பரைக்கேற்பட்ட களங்கத்தை நீதான் கழுவ வேண்டும்......
 
-<!-- source: pdf=23 printed=22 status=draft -->
+<!-- source: pdf=23 printed=22 status=verified -->
 
 மனோ : பரம்பரைக்கேற்பட்ட களங்கம் பாண்டியன் முத்துவிஜயனால் மட்டுமல்ல - பாதகி வசந்த சேனையாலுந்தான்! ஏமாந்த காலத்தில் வெற்றி முரசு கொட்டிய வெறியனை மட்டுமல்ல உங்கள் இன்ப வாழ்வில் குறுக்கிட்ட வஞ்சகியையும் விட்டுவைக்காது இந்த வாள்!
 
@@ -512,7 +512,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 (என்று வாளை உருவுகிறான். கையில் வாளின் பிடி மட்டும் இருக்கிறது......
 
-<!-- source: pdf=24 printed=23 status=draft -->
+<!-- source: pdf=24 printed=23 status=verified -->
 
 வசந்த சேனை வருகிறாள் அம்பு போடுகிறான்)
 
@@ -548,7 +548,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 மனோ : ராஜப்பிரியா வெற்றி பெறுவதற்கு முன் வெற்றி மாலை-சூடுவது வீரர்க்கு வழக்கமில்லை
 
-<!-- source: pdf=25 printed=24 status=draft -->
+<!-- source: pdf=25 printed=24 status=verified -->
 
 (வசந்திக்கு முகம் மாறுகிறது......)
 
@@ -592,7 +592,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 [ஈனக் குரலில்]......
 
-<!-- source: pdf=26 printed=25 status=draft -->
+<!-- source: pdf=26 printed=25 status=verified -->
 
 தோழி : மெதுவாக இதோ...
 [மெதுவாக]......
@@ -633,7 +633,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 சிப்பாய் 2 : பூரண கும்பம் முறிந்தது.
 
-<!-- source: pdf=27 printed=26 status=draft -->
+<!-- source: pdf=27 printed=26 status=verified -->
 
 சிப்பாய் 3 : எதிரிகள் முன்னேறுகிறார்கள்.
 
@@ -666,7 +666,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 முத்து விஜயன் மனோகரன் வாளுக்கு பலியாகிறான்......
 
-<!-- source: pdf=28 printed=27 status=draft -->
+<!-- source: pdf=28 printed=27 status=verified -->
 
 கோட்டை வாசலில் மனோகரன் படைகள் வெற்றி முழக்கத்தோடு நுழைகின்றன...
 
@@ -701,7 +701,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 விஜயா : நீர் உண்டாக்கிய சுடுகாட்டிலே மறு உயிர் பெற்ற பேயுமல்ல, பிணமுமல்ல! உனது பார்வையில்
 
-<!-- source: pdf=29 printed=28 status=draft -->
+<!-- source: pdf=29 printed=28 status=verified -->
 
 தட்டுப்படாமல்போன பகைவர்களில் ஒருவன்—பாண்டிய நாட்டு வீரன்!
 
@@ -735,7 +735,7 @@ The rendered scan controls every reading. The PDF OCR layer was used only for na
 
 விஜ : கேலி தேவையில்ல...எடும் வாளை,
 
-<!-- source: pdf=30 printed=29 status=draft -->
+<!-- source: pdf=30 printed=29 status=verified -->
 
 மனோ : என் வாள் களத்திலேதான் விளையாடும்... கனிகளைக் காயப்படுத்தாது!
 
