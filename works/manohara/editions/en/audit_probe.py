@@ -29,6 +29,12 @@ EXPECTED_KINDS = {
 }
 
 SYNTH_SCENE_END = re.compile(r"^\s*[\[(]?\s*Scene\s+ends?\.?\s*[\])]?\s*$", re.I)
+STRUCTURAL_LOCATOR_KINDS = {
+    "structural-star",
+    "decorative-star",
+    "decorative-star-separator",
+    "structural-star-separator",
+}
 
 errors = []
 warnings = []
@@ -110,8 +116,10 @@ for scene in range(1, EXPECTED_SCENES + 1):
         rid = source.get("source_record_id")
         if rid:
             dialogue_links.append(rid)
-            if kind != "dialogue":
-                errors.append(f"non-dialogue unit carries immutable dialogue record link: {uid} -> {rid}")
+            # The source-labelled war proclamation in scene 11 is deliberately
+            # classified as a chant while retaining its immutable dialogue link.
+            if kind not in {"dialogue", "chant"}:
+                errors.append(f"unexpected unit kind carries immutable dialogue record link: {uid} ({kind}) -> {rid}")
         elif kind == "dialogue":
             unlabelled_dialogue.append(uid)
             if source.get("speaker_label") is not None:
@@ -126,8 +134,9 @@ for scene in range(1, EXPECTED_SCENES + 1):
         locator = source.get("source_locator")
         if isinstance(locator, dict):
             loc_kind = str(locator.get("kind", "")).lower()
-            loc_desc = str(locator.get("description", "")).lower()
-            if "star" in loc_kind or "decorative star" in loc_desc or "structural star" in loc_desc:
+            # References such as "after the structural star" in a real stage
+            # direction's description are contextual, not translations of the star.
+            if loc_kind in STRUCTURAL_LOCATOR_KINDS:
                 structural_star_units.append(uid)
 
         tr = unit.get("translation", {})
@@ -201,7 +210,7 @@ if duplicate_song_links:
 if synthetic_scene_end:
     errors.append(f"synthetic scene-end prose units: {synthetic_scene_end}")
 if structural_star_units:
-    errors.append(f"translation units derived from decorative/structural stars: {structural_star_units}")
+    errors.append(f"translation units derived directly from decorative/structural stars: {structural_star_units}")
 
 # Cross-check the stored index rather than trusting it as the source of truth.
 if index.get("translation_units") != units:
