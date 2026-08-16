@@ -36,7 +36,7 @@ The interior pagination supports `printed page = PDF page - 1` for the continuou
 
 This edition does **not** print numbered scene headings. Scene boundaries therefore must not be retroactively presented as source scene numbers. The source uses decorative star separators, parenthetical/bracketed stage transitions, bare location labels and continuous dialogue/action instead. `mapping.md` and `notes/scene-heading-audit.md` document that source structure.
 
-The scan also contains an extended play-within-the-play sequence, explicit song/performance references, a war-proclamation/chant-like passage, and a separately printed letter. No song authorship has been inferred from the screenplay/dialogue credit.
+The scan also contains an extended play-within-the-play sequence, explicit song/performance references, a war-proclamation/chant-like passage, and a separately printed letter. Song authorship is handled only in the separate `songs/` evidence layer and is never inferred from the screenplay/dialogue credit.
 
 ## Canonical Tamil — complete-verified
 
@@ -131,6 +131,23 @@ One label remains intentionally unresolved: `வர்மா` in `manohara-s008-
 
 Character policy and final files are under `characters/`: `README.md`, `schema.json`, `labels-inventory.json`, `entities-pilot.json`, `entities.json`, and `index.json`.
 
+## Song / performance authorship gate — complete with unresolved authorship
+
+The song/performance gate is closed for the evidence presently available. PDF **1–6** was visually inspected first: the booklet prints `திரைக்கதை வசனம் / மு. கருணாநிதி`, but **no lyricist heading, song-contributor list or item-level song credit**. The screenplay-dialogue credit is therefore not reused as lyric authorship.
+
+Six source-visible occurrences were verified at PDF **9, 16, 30, 32, 37 and 41** and recorded in `songs/inventory.json`:
+
+- `சந்தேகமில்லே` — named reference, authorship **unresolved**;
+- nested-play `நிலாவிலே ! சல்லாபமே!!` — authorship **unresolved**;
+- `வாழ்வதே மாது நான்` — authorship **unresolved**;
+- `சிங்காரப் பைங்கிளியே... பேசு` — **review**, because external attributions conflict between உடுமலை நாராயண கவி and மு. கருணாநிதி;
+- `பொழுது புலர்ந்தது` — **சுரபி, verified** from item-level official Saregama evidence;
+- the PDF 41 `வசந்த விழாக் கொண்டாட்டம். பாட்டுகள்...` / Manoharan–Vijaya singing sequence — authorship **unresolved** and linked only by context, not guessed onto a soundtrack title.
+
+Final gate totals: **6 occurrences / 1 verified / 1 review / 4 unresolved**. External evidence did **not** modify canonical Tamil, scene text or the 983 immutable dialogue records.
+
+The booklet prints **no complete standalone lyric body** for any of the six occurrences. Accordingly there are **0 reconstructed Tamil song files**: missing lyrics are not imported from recordings, streaming services, record catalogs, websites, later editions or another booklet. `songs/README.md` documents the evidence policy and all dispositions.
+
 ## Status
 
 | Layer | Status |
@@ -144,10 +161,11 @@ Character policy and final files are under `characters/`: `README.md`, `schema.j
 | Scene-text derivatives | **complete-verified — 57/57** |
 | Dialogue index | **complete-verified — 57/57 scenes, 983 records** |
 | Character index | **complete-verified — 111/111 labels dispositioned, 37 entities, 1 unresolved label** |
-| Song/performance authorship | **ready / not-started** |
-| English translation | blocked pending remaining structured-source gates |
+| Song/performance authorship | **complete-with-unresolved-authorship — 6 occurrences; 1 verified / 1 review / 4 unresolved** |
+| Tamil song lyric derivatives | **0 — no complete lyric body printed** |
+| English translation | **ready / not-started** |
 | Reader / Reading Room integration | blocked / not-started |
 
 ## Next activity
 
-**Begin the Manohara source-visible song/performance inventory and per-song authorship mapping gate. Use the booklet's own evidence first. Do not infer lyric authorship from `திரைக்கதை வசனம் / மு. கருணாநிதி`, performer identity, proximity to dialogue, or soundtrack memory.**
+**Begin English translation as a separate source-linked derivative layer, starting with a schema and a small verified pilot before scaling. Preserve the source's rhetoric, cadence and character voice; translate song/performance material only to the extent printed in the booklet, and never supply absent lyrics.**
