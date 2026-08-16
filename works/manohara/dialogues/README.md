@@ -39,21 +39,23 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing is complete through **scenes 1–35** (`manohara-s001`–`manohara-s035`). These thirty-five scene shards contain **467 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–40** (`manohara-s001`–`manohara-s040`). These forty scene shards contain **676 immutable labelled-dialogue records**.
 
-The seventh batch added **79 records** across scenes 31–35:
+The eighth batch added **209 records** across scenes 36–40:
 
-- `s031`: 7 records;
-- `s032`: 1;
-- `s033`: 46;
-- `s034`: 12;
-- `s035`: 13.
+- `s036`: 88 records;
+- `s037`: 17;
+- `s038`: 50;
+- `s039`: 37;
+- `s040`: 17.
 
-`manohara-s033` is the dense manipulation sequence spanning PDF 43–46. The source-visible speaker-label variants — including `வ. சே.`, `வ. சே`, `வ. சேனை`, `தோழி`, `தோ`, `அரசர்`, and `அர` — are preserved exactly rather than collapsed into normalized character names. No new delimiter anomaly or cross-page dialogue record is introduced in this batch.
+`manohara-s036` is the long court-confrontation segment spanning PDF 48–57 and crossing the canonical Part 03 / Part 04 storage boundary. Three labelled utterances cross page boundaries and remain single immutable records: `manohara-s036-d032` across PDF 51→52, `manohara-s036-d041` across PDF 52→53, and `manohara-s036-d077` across PDF 56→57. Source-attached directions and unlabelled continuations remain inside the preceding labelled record where no new speaker label intervenes.
 
-Within `manohara-s033-d017`, the second paragraph beginning `இருட்டுவேளை! பத்மாவதியின் அந்தப்புரம்!` has no new speaker label and directly continues the preceding `வ. சே. :` utterance, so it remains inside the same immutable record rather than receiving an invented dialogue ID.
+The unlabelled collective cries under `(சபையோர்)` on PDF 55 remain outside the dialogue index because the source prints no speaker delimiter there. By contrast, the later explicit `சபையோர் :` line on PDF 56 is indexed and its immediately following unlabelled quoted continuation remains within the same record.
 
-`manohara-s035-d013` similarly preserves Manoharan's final continuous utterance through the embedded source directions `[பத்மாவதியைக் கைது செய்ய வந்திருக்கும் சிப்பாய்களை நோக்கி]` and `[விஜயாவை நோக்கி]`; the closing `விஜயா! பார்த்துக்கொள்...வருகிறேன்` is not split off or assigned a synthetic new label.
+`manohara-s038` preserves the comic mock-darbar exchange exactly. The source line beginning only `: இப்ப நான் சொல்றபடி சொல்லணும்......` remains unindexed because its printed speaker field is empty.
+
+`manohara-s039-d029` preserves the explicit source label `வசந்தசேனை மனதிற்குள் :` exactly rather than normalizing it to a character name or converting it to narrative. In `manohara-s040`, the separately printed Ugrasenan letter remains outside the dialogue index because it is a letter block, not an explicitly speaker-labelled utterance.
 
 The previously established zero-record scene remains `manohara-s024`.
 
@@ -61,7 +63,10 @@ Cross-page dialogue records currently are:
 
 - `manohara-s001-d004` — PDF 7→8;
 - `manohara-s015-d002` — PDF 28→29;
-- `manohara-s021-d017` — PDF 34→35.
+- `manohara-s021-d017` — PDF 34→35;
+- `manohara-s036-d032` — PDF 51→52;
+- `manohara-s036-d041` — PDF 52→53;
+- `manohara-s036-d077` — PDF 56→57.
 
 Recorded source-label/delimiter anomalies currently are:
 
@@ -70,6 +75,6 @@ Recorded source-label/delimiter anomalies currently are:
 - `manohara-s021-d003` — `தோழி 2. ...`;
 - `manohara-s026-d002` — `பிரதானி2, ...`.
 
-Next batch: continue with **`manohara-s036`–`manohara-s040`**. Multiple scenes should continue to be handled per activity where density permits.
+Next batch: continue with **`manohara-s041`–`manohara-s045`**. Multiple scenes should continue to be handled per activity where density permits.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
