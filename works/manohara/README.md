@@ -58,25 +58,26 @@ The separate scan-led audit is **in progress**.
 
 Part 01, **PDF 7–30 / logical printed pp.6–29**, is **complete-verified**. Four visual-audit batches recorded **89** source-supported correction groups. All 89 were applied in a controlled rewrite, the rewritten range was checked again against the ledger and rendered scans, and all **24** Part 01 page anchors were promoted to `verified`.
 
-Part 02, **PDF 31–42 / printed pp.30–41**, is also **complete-verified**. Its two six-page visual-audit batches recorded **43** source-supported correction groups. All 43 were applied in one controlled rewrite, the corrected range passed a post-application recheck with **0 unresolved source readings**, and all **12** Part 02 page anchors were promoted to `verified`.
+Part 02, **PDF 31–42 / printed pp.30–41**, is **complete-verified**. Its two six-page visual-audit batches recorded **43** source-supported correction groups. All 43 were applied in one controlled rewrite, the corrected range passed a post-application recheck with **0 unresolved source readings**, and all **12** Part 02 page anchors were promoted to `verified`.
 
-Part 03, **PDF 43–54 / printed pp.42–53**, is now **complete-verified**. The first six-page audit recorded 30 correction groups. Before applying the second batch, the preliminary PDF 49–54 notes were re-audited directly against the scan because they mixed genuine mismatches with source forms already preserved correctly. The final source-led Part 03 set therefore contains **48 actual correction groups**: 30 from PDF 43–48 and 18 from the re-audited PDF 49–54 range.
+Part 03, **PDF 43–54 / printed pp.42–53**, is **complete-verified**. The final source-led set contains **48 actual correction groups**: 30 from PDF 43–48 and 18 from a direct re-audit of PDF 49–54. All 48 were applied in commit `f084ff91647ec1d76d2a113351e1a769fc8bad53`; the corrected range passed a post-application visual comparison with **0 unresolved source readings**, and all 12 anchors were promoted in `7f1413a451b7ac4ee769c0f20766f9c08939d753`. The definitive record is `notes/fidelity-audit-part03-final.md`.
 
-All 48 Part 03 corrections were applied in commit `f084ff91647ec1d76d2a113351e1a769fc8bad53`. The corrected PDF 43–54 range then passed a post-application comparison against the rendered scan with **0 unresolved source readings**, and all **12** Part 03 anchors were promoted to `verified` in commit `7f1413a451b7ac4ee769c0f20766f9c08939d753`.
+Part 04, **PDF 55–66 / printed pp.54–65**, is now **half audited**. Batch 9 compared **PDF 55–60 / printed pp.54–59** directly against the rendered scan and recorded **33 clear scan-supported correction groups** with **0 unresolved readings**. Those corrections are stored in `notes/fidelity-audit-part04-batch09.md` and deliberately remain unapplied until PDF 61–66 is also audited. All 12 Part 04 anchors therefore remain `draft`.
 
-Representative Part 03 restorations include `அவைகளைவிடப் பெரியவளா`, `இந்த கள்ளி?`, historical `சத்யசீலர்` and source label `சத்யசீலா`, `அடுக்காதே... சீக்கிரம் சொல்.`, `என் விதி—நான்தானே அனுபவிக்க வேண்டும்`, the omitted `கணமும்கூட`, `தங்களுக்கே வேண்டாம்`, `இரும்பு சங்கிலியால்`, `மா வீரர்கள்`, source laughter `ஹ...ஹ...ஹ`, `பாசறையைப் பார்வையிட்ட`, `மாற்றுக் குறையாத தங்கம்`, and the omitted source line `என் அன்னையைத் தூஷித்த சின்னஞ்சிறு புழுவே...`.
+Representative Batch 9 restorations include `கோழையை மகனாகப் பெறவும்`, `தங்களைப் பொறுத்த வரையில்`, `என் நிலையில் இருந்து நினைத்துப்பாருங்கள்`, `உத்தமர் உங்கள் மகன்`, `கற்புக்கரசிகளே கட்டாரி மட்டுமில்ல...`, the omitted `பயப்படாதே...`, `இந்தப் பழரசம்`, `வேந்தனின் வேத புத்தகமே நான்தான்.`, source label `வைத்தியர்`, `வசந்த மகா ராஜா`, and the colloquial `மாலினியை வைச்சுக்கலாம்...வா...`.
 
 Cumulative fidelity state:
 
-- visually audited pages: **48/82**;
-- verified pages: **48**;
+- visually audited pages: **54/82** — through PDF **60 / printed p.59**;
+- verified pages: **48** — PDF **7–54**;
 - draft pages: **34**;
 - review pages: **0**;
-- pending correction groups: **0**;
+- Part 04 audit coverage: **6/12 pages**;
+- pending Part 04 correction groups: **33**;
 - unresolved source readings: **0**;
-- next audit page: **PDF 55 / printed p.54**.
+- next audit page: **PDF 61 / printed p.60**.
 
-The fidelity record is in `notes/fidelity-audit.md`.
+The historical fidelity ledger is `notes/fidelity-audit.md`; the definitive Part 03 disposition is `notes/fidelity-audit-part03-final.md`, and the active Part 04 batch record is `notes/fidelity-audit-part04-batch09.md`.
 
 ## Status
 
@@ -86,7 +87,7 @@ The fidelity record is in `notes/fidelity-audit.md`.
 | Structural mapping | verified |
 | Numbered-scene disposition | not-applicable — none printed |
 | Canonical Tamil first pass | **complete — 82/82 pages, PDF 7–88** |
-| Visual fidelity audit | **in-progress — PDF 7–54 verified; Parts 01–03 complete-verified** |
+| Visual fidelity audit | **in-progress — 54/82 pages audited; PDF 7–54 verified; Part 04 6/12 audited** |
 | Scene/dialogue/character derivatives | blocked / not-started |
 | Song authorship / Tamil song derivatives | blocked / not-started |
 | English translation | blocked / not-started |
@@ -94,4 +95,4 @@ The fidelity record is in `notes/fidelity-audit.md`.
 
 ## Next activity
 
-**Begin the Part 04 visual fidelity audit at PDF 55 / printed p.54. Keep Part 04 page anchors at `draft` while its source-supported corrections are accumulated; apply and recheck the complete Part 04 correction set before promoting Part 04.**
+**Continue the Part 04 visual fidelity audit with PDF 61–66 / printed pp.60–65. Keep Part 04 page anchors at `draft`; after the full twelve-page audit, apply the complete reviewed Part 04 correction set in one controlled source-led rewrite, recheck it against the scan, and only then promote Part 04.**
