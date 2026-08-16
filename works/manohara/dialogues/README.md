@@ -39,27 +39,17 @@ The `printed_page` field stores the verified logical interior printed-page numbe
 
 ## Current checkpoint
 
-Dialogue indexing is complete through **scenes 1–40** (`manohara-s001`–`manohara-s040`). These forty scene shards contain **676 immutable labelled-dialogue records**.
+Dialogue indexing is complete through **scenes 1–45** (`manohara-s001`–`manohara-s045`). These forty-five scene shards contain **767 immutable labelled-dialogue records**.
 
-The eighth batch added **209 records** across scenes 36–40:
+The ninth batch added **91 records** across scenes 41–45:
 
-- `s036`: 88 records;
-- `s037`: 17;
-- `s038`: 50;
-- `s039`: 37;
-- `s040`: 17.
+- `s041`: 27 records;
+- `s042`: 35;
+- `s043`: 5;
+- `s044`: 18;
+- `s045`: 6.
 
-`manohara-s036` is the long court-confrontation segment spanning PDF 48–57 and crossing the canonical Part 03 / Part 04 storage boundary. Three labelled utterances cross page boundaries and remain single immutable records: `manohara-s036-d032` across PDF 51→52, `manohara-s036-d041` across PDF 52→53, and `manohara-s036-d077` across PDF 56→57. Source-attached directions and unlabelled continuations remain inside the preceding labelled record where no new speaker label intervenes.
-
-The unlabelled collective cries under `(சபையோர்)` on PDF 55 remain outside the dialogue index because the source prints no speaker delimiter there. By contrast, the later explicit `சபையோர் :` line on PDF 56 is indexed and its immediately following unlabelled quoted continuation remains within the same record.
-
-`manohara-s038` preserves the comic mock-darbar exchange exactly. The source line beginning only `: இப்ப நான் சொல்றபடி சொல்லணும்......` remains unindexed because its printed speaker field is empty.
-
-`manohara-s039-d029` preserves the explicit source label `வசந்தசேனை மனதிற்குள் :` exactly rather than normalizing it to a character name or converting it to narrative. In `manohara-s040`, the separately printed Ugrasenan letter remains outside the dialogue index because it is a letter block, not an explicitly speaker-labelled utterance.
-
-The previously established zero-record scene remains `manohara-s024`.
-
-Cross-page dialogue records currently are:
+The batch adds **no new cross-page dialogue records**. The cumulative cross-page set therefore remains:
 
 - `manohara-s001-d004` — PDF 7→8;
 - `manohara-s015-d002` — PDF 28→29;
@@ -68,13 +58,19 @@ Cross-page dialogue records currently are:
 - `manohara-s036-d041` — PDF 52→53;
 - `manohara-s036-d077` — PDF 56→57.
 
-Recorded source-label/delimiter anomalies currently are:
+During source reinspection for `manohara-s042`, the rendered PDF 68 scan confirmed the label `வ. சே. : வசந்தா!`. The Part 05 fidelity ledger had already recorded that terminal dot, but one stored canonical/scene occurrence still lacked it. The canonical Tamil and `scene-042.md` were corrected before the dialogue shard was created; the repair is documented in `../notes/post-fidelity-corrections.md`. Dialogue record `manohara-s042-d033` therefore preserves the scan-supported `speaker_label` `வ. சே.` exactly.
+
+`manohara-s041` intentionally leaves the source-unlabelled question `உமது பெயர்?` outside the dialogue index. `manohara-s045` likewise leaves `ஆள்......அப்படியா......` outside the index because the source prints no speaker delimiter establishing a labelled utterance. Neither line is assigned to an inferred speaker.
+
+Recorded source-label/delimiter anomalies remain:
 
 - `manohara-s013-d009` — `சிப்பாய் 2 - ...`;
 - `manohara-s021-d001` — `தோழி 1. ...`;
 - `manohara-s021-d003` — `தோழி 2. ...`;
 - `manohara-s026-d002` — `பிரதானி2, ...`.
 
-Next batch: continue with **`manohara-s041`–`manohara-s045`**. Multiple scenes should continue to be handled per activity where density permits.
+This batch introduces no new delimiter anomaly. The previously established zero-record scene remains `manohara-s024`.
+
+Next batch: continue with **`manohara-s046`–`manohara-s050`**. Multiple scenes should continue to be handled per activity where density permits.
 
 The character/entity index remains blocked until the complete dialogue inventory is established.
