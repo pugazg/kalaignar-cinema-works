@@ -1,0 +1,91 @@
+{
+  "id": "kalaignar-song-en-040",
+  "song_id": "kalaignar-song-040",
+  "anthology_song_number": 40,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-040.md",
+    "tamil_status": "verified",
+    "pdf_pages": [94],
+    "tamil_title": "ஏய் கனவிலே மயங்காதே",
+    "film_title_ta": "தூக்கு மேடை",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Hey, do not be lost in a dream",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஏய் கனவிலே மயங்காதே",
+          "நான்தானே குறமுல்லை",
+          "என்றே நினை ஒரு நாள் அணை",
+          "நீ வாராய் ராஜா... நீ வாராய் ராஜா...",
+          "கண்ணிரண்டும் சின்ன சின்ன பூதானே",
+          "பெண்ணின் மேனி கைகள் தேடும் மாந்தானே",
+          "நீ வெட்கம் கொண்டாயே",
+          "சொல்லுக்கு செய்தாயே",
+          "ஏதோ பாட்டுப்பட்ட",
+          "அல்லிப் பூவை தேடி வந்த பருவமே",
+          "என்றே நினை ஒரு நாள் அணை",
+          "நீ வாராய் ராஜா நீ வாராய்"
+        ],
+        "english_lines": [
+          "Hey, do not be lost in a dream,",
+          "Am I not Kuramullai,",
+          "Think so — one day, embrace me,",
+          "Come, Raja... come, Raja...",
+          "Both eyes are little, little flowers,",
+          "O man whose hands seek a woman's body,",
+          "You have taken on shyness,",
+          "You have done it to the word,",
+          "Somehow song-struck,",
+          "O season that came seeking the alli flower,",
+          "Think so — one day, embrace me,",
+          "Come, Raja, come."
+        ],
+        "notes": [
+          "`குறமுல்லை` is retained as `Kuramullai` because the verified anthology form does not support a safe replacement.",
+          "`சொல்லுக்கு செய்தாயே` is kept deliberately close to the source as `You have done it to the word`; the English does not invent a missing object or action.",
+          "`பாட்டுப்பட்ட` is represented conservatively as `song-struck`, retaining the source compound instead of substituting a familiar soundtrack wording."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வந்தபேர்க்கு வாரி இவர் தருவாரே",
+          "வள்ளல் நேரில் வந்தது போல வந்தாரே",
+          "ரம்மை போல கண்ணு ஜின்னை போல கண்ணும்",
+          "ஜாடை ஒன்று காட்டி நாடி வரும் நாட்டி",
+          "நானே உன்னை தேடி வந்து நின்றேனே",
+          "என்றே நினை ஒரு நாள் அணை",
+          "நீ வாராய் ராஜா நீ வாராய்"
+        ],
+        "english_lines": [
+          "To those who come, he pours out and gives,",
+          "He came as though a vallal had arrived in person,",
+          "An eye like rammai, and an eye like jinnai too,",
+          "Showing one gesture — the naatti who comes seeking,",
+          "I myself came seeking you and stood here,",
+          "Think so — one day, embrace me,",
+          "Come, Raja, come."
+        ],
+        "notes": [
+          "`வள்ளல்` remains `vallal`, preserving the culturally loaded generous-patron image.",
+          "The verified source sequence `ரம்மை போல கண்ணு ஜின்னை போல கண்ணும்` is not repaired from soundtrack familiarity; `rammai` and `jinnai` remain transliterated pressure points.",
+          "`நாடி வரும் நாட்டி` is retained conservatively with `naatti` rather than assigning an unsupported identity or profession."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song mixes flirtation with colloquial, source-anomalous phrases. The English preserves those pressures rather than rewriting them into smoother romantic lyric prose.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
