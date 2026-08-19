@@ -1,0 +1,75 @@
+{
+  "id": "kalaignar-song-en-029",
+  "song_id": "kalaignar-song-029",
+  "anthology_song_number": 29,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-029.md",
+    "tamil_status": "verified",
+    "pdf_pages": [70],
+    "tamil_title": "அலையிருக்குது கடலிலே",
+    "film_title_ta": "குறவஞ்சி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "There are waves in the sea",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "அலையிருக்குது கடலிலே",
+          "அசைவிருக்குது உடலிலே",
+          "கலையிருக்குது நெளிவிலே",
+          "விலையிருக்குதா உலகிலே - எனக்கு",
+          "விலையிருக்குதா உலகிலே?",
+          "(அலை)",
+          "வலையிருக்குது விழியிலே - பழக்",
+          "குலையிருக்குது மொழியிலே",
+          "சிலையிருக்குது எதிரிலே",
+          "விலையிருக்குதா உலகிலே - எனக்கு",
+          "விலையிருக்குதா உலகிலே?",
+          "(அலை)",
+          "தளுக்கு நடையில் மினுக்கும் இடையில்",
+          "துடிக்கும் இளமை தொடுக்கும் கணையில்",
+          "ஜொலிக்கும் வாழ்வில் இனிமை தவழப்",
+          "படிக்கும் இன்பக் கவிதைகள் நாம்!",
+          "(அலை)"
+        ],
+        "english_lines": [
+          "There are waves in the sea,",
+          "There is movement in the body,",
+          "There is art in the bend,",
+          "Is there a price in this world — for me,",
+          "Is there a price in this world?",
+          "(Wave)",
+          "There is a net in the eyes — a fruit-",
+          "cluster is there in the speech,",
+          "There is a statue before me,",
+          "Is there a price in this world — for me,",
+          "Is there a price in this world?",
+          "(Wave)",
+          "In the coquettish walk, in the gleaming waist,",
+          "In throbbing youth, in the arrow it strings,",
+          "As sweetness glides through a shining life,",
+          "We are poems of pleasure being recited!",
+          "(Wave)"
+        ],
+        "notes": [
+          "The repeated `இருக்குது` construction remains repetitive rather than being stylistically varied.",
+          "The page's split `பழக் / குலை` is mirrored as `fruit- / cluster`; the fruit-cluster-in-speech image is not replaced by a smoother sweetness metaphor.",
+          "`விலையிருக்குதா` remains the repeated question of whether the speaker has a price in the world.",
+          "`தளுக்கு` is rendered as coquettish movement while the waist/youth/arrow sequence remains concrete.",
+          "The refrain cue `(அலை)` remains explicitly mapped as `(Wave)`."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation retains Kalaignar's linked wave/movement/art, net/fruit-cluster/statue, and walk/waist/youth/arrow imagery rather than reducing the lyric to a generic beauty song.",
+      "The source's colloquial syntax and repeated questioning remain visible."
+    ]
+  }
+}
