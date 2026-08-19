@@ -1,0 +1,144 @@
+{
+  "id": "kalaignar-song-en-016",
+  "song_id": "kalaignar-song-016",
+  "anthology_song_number": 16,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-016.md",
+    "tamil_status": "verified",
+    "pdf_pages": [48],
+    "tamil_title": "சின்னப் புது மலரே",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "O little new flower",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "முத்தாயி",
+        "english_label": "முத்தாயி",
+        "source_tamil_lines": [
+          "சின்னப் புது மலரே",
+          "சிங்கார அகல் விளக்கே...",
+          "கன்னற் தனிச்சுவையே",
+          "கற்கண்டே கனிரசமே..."
+        ],
+        "english_lines": [
+          "O little new flower,",
+          "O lovely agal-lamp...",
+          "O unique taste of sugarcane,",
+          "O rock-candy, O fruit-nectar..."
+        ],
+        "notes": [
+          "`அகல் விளக்கு` is retained as `agal-lamp` rather than flattened to `lamp`, preserving the culture-bearing domestic image.",
+          "The verified source form `கன்னற்` is translated conservatively through its sugarcane sense; the Tamil witness itself is not emended.",
+          "The source's accumulation of flower, lamp, sugarcane, rock-candy and fruit-nectar remains an accumulation."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "(சின்)",
+        "english_label": "(Sin — source refrain cue)",
+        "source_tamil_lines": ["(சின்)"],
+        "english_lines": ["(Sin — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "செந்நெல் மணிக் கதிரே",
+          "தித்திக்கும் செங்கரும்பே...",
+          "செந்தமிழ் மலர் என்றெடுத்த",
+          "செல்வக் களஞ்சியமே..."
+        ],
+        "english_lines": [
+          "O jewel-like ear of red paddy,",
+          "O sweet-tasting red sugarcane...",
+          "O treasure-house gathered as",
+          "A flower of refined Tamil..."
+        ],
+        "notes": [
+          "Red-paddy ear and red-sugarcane remain agricultural images rather than generalized `prosperity`.",
+          "`செந்தமிழ்` is rendered as `refined Tamil` while keeping Tamil itself explicit in the image."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "(சின்)",
+        "english_label": "(Sin — source refrain cue)",
+        "source_tamil_lines": ["(சின்)"],
+        "english_lines": ["(Sin — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "காவிரியின் தென் பாங்கே",
+          "கற்றார்ப் பெட்டகமே...",
+          "பூவிரித்த சோலையிலே",
+          "பொங்கும் புதுமணமே..."
+        ],
+        "english_lines": [
+          "O southern grace of the Kaveri,",
+          "O casket of the learned...",
+          "In the grove spread open with flowers,",
+          "O new fragrance that overflows..."
+        ],
+        "notes": [
+          "Kaveri and the casket-of-the-learned image remain explicit; neither is replaced with generalized regional pride.",
+          "`பொங்கும்` remains the overflowing movement of fragrance."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "(சின்)",
+        "english_label": "(Sin — source refrain cue)",
+        "source_tamil_lines": ["(சின்)"],
+        "english_lines": ["(Sin — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 7,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நீ... இராவிடம் இருள் சூழும்",
+          "என்ற நிலை தந்த",
+          "திராவிடப் பொன்னழகி...",
+          "வாழ்ந்திடுவாய் விண்ண முதே -"
+        ],
+        "english_lines": [
+          "You... gave that state — `at night, darkness gathers` —",
+          "That very condition,",
+          "O golden beauty of Dravida...",
+          "Live on, O nectar of heaven —"
+        ],
+        "notes": [
+          "The verified Tamil wording `நீ... இராவிடம் இருள் சூழும் / என்ற நிலை தந்த` is syntactically difficult. The English deliberately preserves its visible wording and awkwardness rather than silently reconstructing a different Tamil line.",
+          "`திராவிட` remains `Dravida`; the political-cultural noun is not replaced with a broader `South India`.",
+          "The source-split `விண்ண முதே` is rendered through its contextual heavenly-nectar image without modifying the Tamil witness."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "(சின்)",
+        "english_label": "(Sin — source refrain cue)",
+        "source_tamil_lines": ["(சின்)"],
+        "english_lines": ["(Sin — source refrain cue)"],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "This lyric depends on dense Tamil, agricultural, regional and Dravidian image chains. The English keeps those nouns and images visible rather than turning the song into generic praise.",
+      "The difficult final stanza is treated as a documented source pressure point, not silently repaired through translation.",
+      "No singer is inferred because the numbered lyric page prints no separate voice line."
+    ]
+  }
+}
