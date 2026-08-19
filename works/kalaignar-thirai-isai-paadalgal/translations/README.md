@@ -31,49 +31,49 @@ The default translation mode is `semantic-poetic-source-faithful`. This is **not
 - `index.json` — whole-corpus English translation status;
 - `records/song-001.json` etc. — source-linked English records;
 - `PILOT_REVIEW.md` — approved pilot voice and structural decisions;
-- `BATCH_004_011_REVIEW.md` — first scaled batch review for the complete `நாம்` group.
+- `BATCH_004_011_REVIEW.md` — scaled review for the complete `நாம்` group;
+- `BATCH_012_018_REVIEW.md` — scaled review for the complete `அம்மையப்பன்` group.
 
-Each record preserves:
-
-- anthology song number;
-- exact source song-file path;
-- source PDF page(s);
-- film title and attribution status;
-- exact Tamil section/turn labels;
-- Tamil lines alongside their English lines for auditability;
-- translator notes for source-specific wording.
+Each record preserves anthology song number, exact source-song path, source PDF page(s), film title, attribution status, exact Tamil section/turn labels, Tamil lines alongside English lines, and translator notes for source-specific wording.
 
 ## Current checkpoint
 
 - source Tamil songs: **54/54 complete-verified**;
-- English translated: **11/54**;
+- English translated: **18/54**;
 - pilot-verified: **3** (`001–003`);
-- verified: **8** (`004–011`);
+- verified: **15** (`004–018`);
 - draft: **0**;
 - review: **0**;
-- not started: **43** (`012–054`).
+- not started: **36** (`019–054`).
 
-### Approved pilot
+### Approved pilot — songs 001–003
 
-Songs `001–003` established the voice baseline across rustic political/social satire, romantic image chains, and maternal/class lament. Their approved decisions remain controlling for later work.
+The pilot established the voice baseline across rustic political/social satire, romantic image chains and maternal/class lament. Its approved decisions remain controlling for later work.
 
-### First scaled batch — songs 004–011
+### First scaled batch — songs 004–011 (`நாம்`)
 
-The complete `நாம்` group is now verified in English. The batch demonstrates that the Kalaignar-language rule holds across devotional/social satire, romantic duet, female lament, comic mythic performance, rationalist/agricultural political song, praise/reform rhetoric, and political-philosophical exhortation.
+PASS — **8/8 verified**. It established that the Kalaignar-language rule survives folk devotion, social satire, romantic duet, lament, comic mythic performance, rationalist/agricultural politics, praise/reform rhetoric and political endurance.
+
+See `BATCH_004_011_REVIEW.md`.
+
+### Second scaled batch — songs 012–018 (`அம்மையப்பன்`)
+
+PASS — **7/7 verified**.
 
 Key retained source forces include:
 
-- song `004`: Mari/Kali folk-devotional vocabulary, rain/science debate, Kodumpavi and the direct tax grievance;
-- song `005`: yaazh, doe, Tamil epic, unpainted painting, repeated `பேசி பேசி / வீசி வீசி`, and women/warriors imagery;
-- song `006`: the `மணம்` fragrance/marriage wordplay and the full veena/thunderbolt/vine/cyclone/pollen/dark-house image chain;
-- song `007`: the yaazh that **plucks an unreturning sorrow**, singing ghost and inscribed-page imagery;
-- song `008`: source-anomalous transliterations, `Dei`, kichili fruit, consumption, monkey/moustache/tail ridicule and Bhimasena;
-- song `009`: ignorance-as-wasteland, knowledge-as-plough-point, science/ploughing, field labour, Nandanar versus hands-and-legs labour, golden queen/comrade and common granary;
-- song `010`: fourfold `வாழ்க`, Arignar, buffalo/worm/eagle/mouse/tiger political images, rational thought and conservative handling of possible title/wordplay phrases;
-- song `011`: snakes, prison, torture, Socrates, deathless Gandhi, honey-to-scorpion, battlefront death, army, fury and slander.
+- `012`: Ammaiyappa/Aiyan devotional address, paired opposites, honey/poison and fire/water paradoxes, king-to-`aandis` hierarchy, palanquin bearers/riders, toad-in-stone, sesame-oil and snake-fang venom;
+- `013`: repeated **paappa**, blue sea, silver sand, sandalwood parrot, peacock, nectar-dove and repeated `sway`;
+- `014`: realm of love, `come running`, cloud/grove-plumage, great gem, maiden dancing in the eyes, boundary of bliss, heart-veena and moon-of-love variation;
+- `015`: deliberate sorrow-reprise of `014`, song drifting on the breeze, honey-rain and the source's unassigned `lap`;
+- `016`: agal-lamp, sugarcane/rock-candy/fruit-nectar, red paddy, refined Tamil, Kaveri, casket of the learned, Dravida, and the difficult `நீ... இராவிடம் இருள் சூழும் / என்ற நிலை தந்த` wording preserved as an explicit source pressure point;
+- `017`: living portrait, epic of flavour, flame, storm/flower-garden, fallen divine statue and empty temple;
+- `018`: love-dove, tender-shoot body, repeated `come`, deer-skinned tiger, mango-cuckoo, sorrow-darkness, sleeping moon-maiden and love/deception reversal.
 
-See `BATCH_004_011_REVIEW.md` for the detailed gate.
+See `BATCH_012_018_REVIEW.md`.
+
+No verified Tamil song file was changed by either scaled English batch.
 
 ## Next batch
 
-Translate and verify songs **012–018** (`அம்மையப்பன்`) under the same source-faithful Kalaignar-language rules. The verified Tamil files must remain immutable translation inputs.
+Translate and verify songs **019–025** under the same source-faithful Kalaignar-language rules. Preserve multi-page provenance for `019`, `023` and `024`; the verified Tamil corpus remains immutable translation input.
