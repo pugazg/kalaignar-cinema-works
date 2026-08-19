@@ -1,0 +1,130 @@
+{
+  "id": "kalaignar-song-en-012",
+  "song_id": "kalaignar-song-012",
+  "anthology_song_number": 12,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-012.md",
+    "tamil_status": "verified",
+    "pdf_pages": [44],
+    "tamil_title": "அம்மையப்பா அருள்புரிவாய் எல்லாம் உன் செயல்",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Ammaiyappa, grant your grace — all is your doing",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "தொகையறா",
+        "english_label": "Thogaiyara",
+        "source_tamil_lines": [
+          "அம்மையப்பா அருள்புரிவாய் எல்லாம் உன் செயல்",
+          "அம்மையப்பா",
+          "எல்லாம் உன் செயல் அம்மையப்பா"
+        ],
+        "english_lines": [
+          "Ammaiyappa, grant your grace — all is your doing,",
+          "Ammaiyappa,",
+          "All is your doing, Ammaiyappa."
+        ],
+        "notes": [
+          "`அம்மையப்பா` is retained as `Ammaiyappa` rather than reduced to a generic `Lord`, because the name/vocative is central to the lyric and film title."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "பாட்டு",
+        "english_label": "Paattu (song)",
+        "source_tamil_lines": [
+          "அம்மையப்பா அருள்புரிவாய் எல்லாம் உன் செயல்",
+          "அம்மையப்பா",
+          "எல்லாம் உன் செயல் அம்மையப்பா"
+        ],
+        "english_lines": [
+          "Ammaiyappa, grant your grace — all is your doing,",
+          "Ammaiyappa,",
+          "All is your doing, Ammaiyappa."
+        ],
+        "notes": [
+          "The full opening is repeated because the source repeats it after the performance label; it is not collapsed into a refrain reference."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "இம்மை மறுமை இன்பம் துன்பம்",
+          "உண்மை பொய்மை உலக பந்தம்",
+          "எல்லாம் உன் செயல் அம்மையப்பா"
+        ],
+        "english_lines": [
+          "This life, the afterlife; pleasure, pain,",
+          "Truth, falsehood, the bonds of the world —",
+          "All is your doing, Ammaiyappa."
+        ],
+        "notes": [
+          "The paired opposites are preserved as an accumulation rather than rewritten into explanatory prose."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "தேனின் விஷம் தெள்ளமுது தேனருவி தீக்காடு",
+          "எரிகுளம் எரிமலைகள் எல்லாம் உன்செயல் அம்மையப்பா",
+          "அரசன் முதல் ஆண்டிகளும் ஐயன் சிருஷ்டி உண்மையப்பா",
+          "இது ஐயன் சிருஷ்டி உண்மையப்பா"
+        ],
+        "english_lines": [
+          "Poison in honey, clear nectar, honey-cascade, fire-forest,",
+          "Burning pool, volcanoes — all are your doing, Ammaiyappa;",
+          "From the king down to aandis, all are Aiyan's creation — true, appa,",
+          "This is Aiyan's creation — true, appa."
+        ],
+        "notes": [
+          "The source's rapid paradoxical image-chain — honey/poison, nectar, honey-cascade, fire-forest, burning pool, volcanoes — remains concrete.",
+          "`ஆண்டிகள்` is retained as `aandis` because a simple `beggars` or `ascetics` would over-fix the social/religious register; the contrast with `அரசன்` is preserved.",
+          "`ஐயன்` and the vocative `அப்பா` remain audible as `Aiyan` and `appa` rather than being normalized into a single English divine title."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பல்லக்கு தூக்கிகளும் அதில் பவனி வருகின்ற மனிதர்களும்",
+          "அம்மையப்பா உந்தன்",
+          "எல்லைக்குள் வாழ்வோர் உண்மையப்பா",
+          "கல்லுக்குள் தேரையும் எள்ளுக்குள் எண்ணெயும்",
+          "பாம்பின் பல்லுக்குள் கொடு நஞ்சும்",
+          "அம்மையப்பா தொல்லுலகம் உந்தன்",
+          "செயல்தானென்று சொல்லுதப்பா."
+        ],
+        "english_lines": [
+          "The palanquin-bearers, and the people who ride in procession within it,",
+          "Ammaiyappa — within your",
+          "Bounds they live; that is true, appa,",
+          "The toad within the stone, the oil within sesame,",
+          "The cruel venom within the snake's fang —",
+          "Ammaiyappa, this ancient world says",
+          "That all of it is your doing, appa."
+        ],
+        "notes": [
+          "The bearers/riders contrast is kept visible; the lyric does not flatten social hierarchy into a generic statement that `everyone is equal`.",
+          "`கல்லுக்குள் தேரை` is rendered as the traditional image of a toad within stone; `எள்ளுக்குள் எண்ணெய்` and snake-fang venom remain equally concrete.",
+          "The source line-break after `உந்தன்` is preserved in the mapping rather than hidden by a prose rewrite."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This song combines devotional address, paradox, social hierarchy and proverbial natural images. The translation keeps those registers together rather than turning it into generalized piety.",
+      "No singer is inferred because the verified Tamil record says the numbered lyric page prints no separate voice line.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
