@@ -1,0 +1,110 @@
+{
+  "id": "kalaignar-song-en-048",
+  "song_id": "kalaignar-song-048",
+  "anthology_song_number": 48,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-048.md",
+    "tamil_status": "verified",
+    "pdf_pages": [116],
+    "tamil_title": "இளைஞனே இளைஞனே நீ விழித்தெழு",
+    "film_title_ta": "கண்ணம்மா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Young man, young man, wake and rise",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "இளைஞனே இளைஞனே நீ விழித்தெழு",
+          "கலைஞன் நான் அழைக்கின்றேன் விழித்தெழு",
+          "காற்றைப் போல விரைந்து வா",
+          "ஆற்றைப் போல பெருகி வா",
+          "உலகத்தைப் படித்து நீ உயர்ந்திடவே",
+          "உன்னை நீயே உணர்ந்திடவே",
+          "உழைப்பவர்க்கு துணை புரிந்திடவே",
+          "உடன்பிறப்பே என் உடன்பிறப்பே",
+          "(இளைஞனே)"
+        ],
+        "english_lines": [
+          "Young man, young man, wake and rise,",
+          "I, the kalaignan, call you — wake and rise,",
+          "Come swiftly like the wind,",
+          "Come swelling like the river,",
+          "So that, studying the world, you may rise,",
+          "So that you may know yourself,",
+          "So that you may stand beside the working people,",
+          "Udanpirappe, my udanpirappe,",
+          "(Young man)."
+        ],
+        "notes": [
+          "`கலைஞன்` is retained as `kalaignan` rather than flattened to a single English occupation word; its literal artistic sense and political resonance are left visible.",
+          "`உடன்பிறப்பே` remains `udanpirappe`, following the anthology's politically resonant kin-address rather than reducing it to generic `brother`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "யுவனும் யுவதியும் ஆர்த்தெழுந்தால்",
+          "யுகத்தையே மாற்றலாம்",
+          "ஜாதி மத பேத சரித்திரத்தை",
+          "சம்மட்டியால் அடித்து நொறுக்கலாம்",
+          "ஆதிமகனாம் வள்ளுவர் குறளை",
+          "ஓதி உணர்ந்து ஒலித்திடக் கேட்கலாம்",
+          "(இளைஞனே)"
+        ],
+        "english_lines": [
+          "If young man and young woman rise roaring,",
+          "An age itself can be changed,",
+          "The history of caste and religious division,",
+          "Can be struck and smashed with a sledgehammer,",
+          "The Kural of Valluvar, the primordial son,",
+          "May be read, understood, and heard resounding,",
+          "(Young man)."
+        ],
+        "notes": [
+          "The caste/religion line and sledgehammer image remain direct political language.",
+          "`ஆதிமகனாம்` is kept close as `the primordial son`; the English does not replace the anthology's wording with a more familiar Valluvar epithet."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "லட்சிய வேட்கை இடியாய் முழங்கிடவே",
+          "இடியோசை கேட்ட நாகமாய்",
+          "இன்பபகை மாய்ந்திடவே",
+          "அலட்சியம் வேண்டாம் அன்பு இளைஞனே",
+          "ஆன்றோர்க்கு தலைவணங்கி",
+          "அறிஞர் வழியில் நடந்திடவே",
+          "(இளைஞனே)"
+        ],
+        "english_lines": [
+          "Let the hunger for the ideal thunder like lightning,",
+          "Like a cobra that has heard the thunderclap,",
+          "Let `inba-pagai` vanish,",
+          "No indifference, beloved young man,",
+          "Bowing your head to the wise elders,",
+          "Walk in the path of the learned,",
+          "(Young man)."
+        ],
+        "notes": [
+          "The verified compact form `இன்பபகை` is retained as `inba-pagai` because a smooth English expansion would imply an unrecorded source correction.",
+          "The thunder/cobra image and the imperative against indifference remain unsoftened."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation preserves the wake-up exhortation, anti-caste/religion rhetoric, Valluvar reference and movement-style `udanpirappe` address without turning the song into neutral civic prose.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
