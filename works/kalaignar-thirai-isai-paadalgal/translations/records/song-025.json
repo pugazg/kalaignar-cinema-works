@@ -1,0 +1,67 @@
+{
+  "id": "kalaignar-song-en-025",
+  "song_id": "kalaignar-song-025",
+  "anthology_song_number": 25,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-025.md",
+    "tamil_status": "verified",
+    "pdf_pages": [64],
+    "tamil_title": "ஆயர்பாடி கண்ணா நீ",
+    "film_title_ta": "ரங்கோன் ராதா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Ayarpadi Kanna, you",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஆயர்பாடி கண்ணா நீ",
+          "ஆடவாராய் என்னோடு - மாயக்காரா வா வா வா - ஜாலக்காரா",
+          "ஓஹோஹோ - ஏ பகவானே - பகவானே பகவானே",
+          "பாமாவைப் போலவே அழகான ராணி நான்",
+          "தாளாத காதலே தணலாக வீசுதே",
+          "காணக்கிடைக்கா தங்கம் பார்",
+          "காதல் தெளிக்கும் அங்கம் பார்",
+          "மாயக்காரா-ஜாலக்காரா-ஏ பகவானே பகவானே-(பகவானே)",
+          "வானோடும் மின்னலே இடையாக ஆனதே",
+          "தேனுறும் கன்னமே தெய்வீக பானமே",
+          "வேலைப் பழிக்கும் விழியைப் பார்",
+          "ஆளை மயக்கும் மொழியைப் பார்",
+          "மாயக்காரா-ஜாலக்காரா-ஏ பகவானே பகவானே-(பகவானே)"
+        ],
+        "english_lines": [
+          "Ayarpadi Kanna, you,",
+          "Come dance with me — Mayakkara, come, come, come — Jaalakkara,",
+          "Ohoho — hey Bhagavane — Bhagavane, Bhagavane,",
+          "I am a queen beautiful like Bhama,",
+          "Love I cannot bear blows like burning embers,",
+          "Look at this gold that cannot be found,",
+          "Look at this body that sprinkles love,",
+          "Mayakkara — Jaalakkara — hey Bhagavane, Bhagavane — (Bhagavane),",
+          "The lightning that races with the sky has become my waist,",
+          "My honey-seeping cheek is a divine drink,",
+          "Look at these eyes that put the spear to shame,",
+          "Look at this speech that enchants a person,",
+          "Mayakkara — Jaalakkara — hey Bhagavane, Bhagavane — (Bhagavane)."
+        ],
+        "notes": [
+          "`ஆயர்பாடி கண்ணா`, `மாயக்காரா`, `ஜாலக்காரா`, and `பகவானே` remain culturally audible through transliteration rather than being flattened into generic divine epithets.",
+          "`தணலாக வீசுதே` remains the bodily image of love blowing like burning embers.",
+          "`வானோடும் மின்னலே இடையாக ஆனதே` keeps the sky-racing lightning becoming the waist, rather than replacing it with a conventional slender-waist compliment.",
+          "`வேலைப் பழிக்கும் விழி` is translated as eyes that put the spear to shame, preserving the `vel`/eye comparison.",
+          "Repeated invocations and `வா வா வா` remain repeated."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song's flirtation is image-dense and devotional/playful at once; Bhama, Kanna, Bhagavane, embers, lightning-waist, honey-cheek and spear-shaming eyes remain explicit.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
