@@ -24,9 +24,9 @@ Authoritative whitelist and map:
 | Item | Status |
 |---|---:|
 | Draft song files | 3 |
-| Verified song files | 20 |
+| Verified song files | 21 |
 | Review song files | 0 |
-| Not-started song files | 31 |
+| Not-started song files | 30 |
 | English translations | 0 |
 
 ### Draft
@@ -37,20 +37,19 @@ Authoritative whitelist and map:
 
 - `004–011` — PDF 33–41;
 - `012–018` — PDF 44–50;
-- `019–023` — PDF 53–59.
+- `019–023` — PDF 53–59;
+- `024` — PDF 62–63.
 
-Latest review: `notes/PAGE_BATCH_053_059_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_062_063_REVIEW.md`.
 
-The latest page run produced five verified records. Song 019 spans PDF 53–54 and song 023 spans PDF 58–59. Song 023 preserves the source's own `வசனம்` / `பாட்டு` alternation rather than stripping the spoken portions from the numbered song item.
+Song 024 is a two-page record. The rendered scan was checked line by line, preserving source forms such as `மிகபுனிதமான`, `நம்நாடு`, `நந்நாடு`, `மனிதனுக்குயிர்`, `திருவோடேந்தும்`, `நடைபிணத்துக்குயிர்`, and `கடமைகளுக்கொளி` without normalization.
 
 ## Next activity
 
-**Skip PDF 60–61** because they are non-song pages.
+The next song-bearing page is:
 
-Resume at:
+- **PDF 64 → song 025**.
 
-- **PDF 62–63 → song 024**.
-
-Then continue only through song-bearing pages listed in `songs/page-map.json`.
+Continue only through song-bearing pages listed in `songs/page-map.json`.
 
 Do not begin English translation before the relevant Tamil lyric is verified.
