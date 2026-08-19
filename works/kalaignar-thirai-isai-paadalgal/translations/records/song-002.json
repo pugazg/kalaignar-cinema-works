@@ -1,0 +1,169 @@
+{
+  "id": "kalaignar-song-en-002",
+  "song_id": "kalaignar-song-002",
+  "anthology_song_number": 2,
+  "target_language": "en",
+  "status": "pilot-verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-002.md",
+    "tamil_status": "verified",
+    "pdf_pages": [29],
+    "tamil_title": "இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்",
+    "film_title_ta": "பராசக்தி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "The lamp that lights our household life",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "தங்",
+        "english_label": "தங்",
+        "source_tamil_lines": [
+          "இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்",
+          "என் இதயராணி ரூபம்"
+        ],
+        "english_lines": [
+          "The lamp that lights our household life,",
+          "Is the form of my queen of the heart."
+        ],
+        "notes": [
+          "The source turn label `தங்` is kept exactly and is not expanded to an inferred character name."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "கல்",
+        "english_label": "கல்",
+        "source_tamil_lines": [
+          "இந்த தீபத்திலே சுடராய் திகழ்வதென்",
+          "தீரனின் ரூபம்"
+        ],
+        "english_lines": [
+          "The flame that shines within this lamp,",
+          "Is the form of my brave one."
+        ],
+        "notes": [
+          "The flame/lamp image is preserved rather than paraphrased into a generic declaration of love."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "தங்",
+        "english_label": "தங்",
+        "source_tamil_lines": [
+          "இளமயில் ரூபம்"
+        ],
+        "english_lines": [
+          "The form of a young peacock."
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_label": "கல்",
+        "english_label": "கல்",
+        "source_tamil_lines": [
+          "இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்",
+          "நம் காதல் தீபம்"
+        ],
+        "english_lines": [
+          "The lamp that lights our household life,",
+          "Is the lamp of our love."
+        ],
+        "notes": [
+          "The source repeats `தீபம்`; the English repeats `lamp` rather than varying the word for stylistic smoothness."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "தங்",
+        "english_label": "தங்",
+        "source_tamil_lines": [
+          "கனியே! கன்னல் தமிழே! அமுதே!",
+          "பனி தூங்கும் மலரே! நிலவே!"
+        ],
+        "english_lines": [
+          "O fruit! O sugarcane-Tamil! O nectar!",
+          "O flower where dew sleeps! O moon!"
+        ],
+        "notes": [
+          "`கன்னல் தமிழே` is kept as the striking `sugarcane-Tamil` image instead of being flattened to `sweet words`.",
+          "`பனி தூங்கும் மலரே` remains `flower where dew sleeps`, preserving Kalaignar's personifying image."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "கல்",
+        "english_label": "கல்",
+        "source_tamil_lines": [
+          "கனிவான மொழியால் எனையே",
+          "கவர்ந்தீரே காந்தச் சிலையே"
+        ],
+        "english_lines": [
+          "With your tender speech, me myself,",
+          "You have captivated — O magnetic statue!"
+        ],
+        "notes": [
+          "The unusual `காந்தச் சிலையே` is retained as `magnetic statue` rather than replaced with a smoother `magnetic beauty`.",
+          "The slightly emphatic `எனையே` is allowed to remain audible in the English instead of disappearing into neutral syntax."
+        ]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "தங்",
+        "english_label": "தங்",
+        "source_tamil_lines": [
+          "உனைக் காணும் போது நெஞ்சில்",
+          "ஊறிடும் உணர்ச்சி தனையே எழுதுவோர்",
+          "எழுத்தும் இல்லையே"
+        ],
+        "english_lines": [
+          "When I see you, the feeling that seeps through my heart —",
+          "For those who would write that very feeling,",
+          "There are no letters at all."
+        ],
+        "notes": [
+          "The source's image of feeling `seeping` into the heart and the claim that language itself lacks letters are both retained."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "தங்,கல்",
+        "english_label": "தங்,கல்",
+        "source_tamil_lines": [
+          "திருநாளிது போல்தினம் ஆடிப்பாடியே",
+          "தேன் போல் வாழ்வோம்"
+        ],
+        "english_lines": [
+          "Every day like this festival day, dancing and singing,",
+          "Let us live like honey."
+        ],
+        "notes": [
+          "The joined source form `போல்தினம்` is not used to alter the Tamil witness; the English follows the visible festival/day syntax.",
+          "`தேன் போல் வாழ்வோம்` remains the literal honey image."
+        ]
+      },
+      {
+        "ordinal": 9,
+        "source_label": "(இல்)",
+        "english_label": "(Il — source refrain cue)",
+        "source_tamil_lines": [
+          "(இல்)"
+        ],
+        "english_lines": [
+          "(Il — source refrain cue)"
+        ],
+        "notes": [
+          "The anthology prints only the abbreviated refrain cue; it is not expanded or reconstructed."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "Exact Tamil turn labels `தங்`, `கல்`, and `தங்,கல்` remain unexpanded because the anthology itself does not spell out the identities on this lyric page.",
+      "The pilot deliberately keeps images such as `queen of the heart`, `young peacock`, `sugarcane-Tamil`, `dew sleeps`, `magnetic statue`, and `live like honey` instead of replacing them with generic romantic English.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
