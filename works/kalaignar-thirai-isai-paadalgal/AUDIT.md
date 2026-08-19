@@ -2,9 +2,9 @@
 
 ## Scope
 
-This audit covers the complete PDF-specific song-presence scan, line-level Tamil lyric verification for all **54 numbered songs**, and the entire source-linked English translation corpus from pilot `001–003` through final batch `047–054`.
+This audit covers the complete PDF-specific song-presence scan, line-level Tamil lyric verification for all **54 numbered songs**, the complete source-linked English translation corpus, and the whole-corpus English reader/export preflight.
 
-The rendered scan controls Tamil. Verified Tamil song files control the English derivative. No external recording, lyric website, subtitle, alternate edition, campaign text, commentary, or soundtrack-memory reconstruction is used to repair either layer.
+The rendered scan controls Tamil. Verified Tamil song files control the English derivative. The complete-verified English translation records then control reader/export generation. No external recording, lyric website, subtitle, alternate edition, campaign text, commentary, or soundtrack-memory reconstruction is used to repair any layer.
 
 ## Full-PDF page classification
 
@@ -26,11 +26,22 @@ Machine map: `songs/page-map.json`
 - not started: **0**;
 - unresolved Tamil song readings: **0**.
 
-The Tamil song corpus is **complete-verified** and immutable translation input.
+The Tamil song corpus is **complete-verified** and immutable derivative input.
+
+## English translation gate
+
+The source-linked English translation corpus is **54/54 complete-verified** under `semantic-poetic-source-faithful` mode.
+
+- `001–003`: **3 pilot-verified**;
+- `004–054`: **51 verified**;
+- draft/review/not-started: **0/0/0**;
+- all 54 records remain `anthology-attributed`.
+
+The approved English retains Kalaignar's language, rhetoric, repetition, political/social force, concrete imagery, colloquial energy, culture-bearing vocabulary and source-specific constructions. It is not a singable adaptation.
 
 ## Cross-page source records
 
-The following songs span more than one song-bearing page and remain one record each in both Tamil and English where translated:
+The following eight songs span more than one song-bearing page and remain one record each across the Tamil, translation and reader-preflight layers:
 
 - `009` — PDF 38–39;
 - `019` — PDF 53–54;
@@ -41,52 +52,58 @@ The following songs span more than one song-bearing page and remain one record e
 - `051` — PDF 121–122;
 - `052` — PDF 123–124.
 
-## English translation authority
+## English reader/export preflight
 
-- guide: `docs/SONG_TRANSLATION_GUIDE.md`;
-- schema: `translations/schema.json`;
-- index: `translations/index.json`;
-- pilot review: `translations/PILOT_REVIEW.md`;
-- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`, `translations/BATCH_033_039_REVIEW.md`, `translations/BATCH_040_046_REVIEW.md`, `translations/BATCH_047_054_REVIEW.md`.
+**PASS.**
 
-The approved mode is **`semantic-poetic-source-faithful`**. English retains Kalaignar's language, rhetoric, repetition, political/social force, concrete imagery, colloquial energy, culture-bearing vocabulary and source-specific constructions. It is not a singable adaptation.
+Authoritative report: `editions/en/PREFLIGHT_QA_REPORT.md`  
+Probe: `editions/en/audit_probe.py`  
+Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
 
-## Translation gates
+The automated run checks the translation records independently against `translations/index.json`, `songs/page-map.json`, and all 54 verified Tamil song files.
 
-- pilot `001–003`: **3/3 PASS — pilot-verified**;
-- `004–011`: **8/8 PASS**;
-- `012–018`: **7/7 PASS**;
-- `019–025`: **7/7 PASS**;
-- `026–032`: **7/7 PASS**;
-- `033–039`: **7/7 PASS**;
-- `040–046`: **7/7 PASS**;
-- `047–054`: **8/8 PASS**.
+PASS results:
 
-## Final batch fidelity highlights — `047–054`
+- translation record files: **54/54**;
+- source-linked Tamil song files: **54/54**;
+- anthology order: **001–054, no gaps**;
+- item status distribution: **3 pilot-verified / 51 verified**;
+- `anthology-attributed`: **54/54**;
+- mapped Tamil lyric lines/cues: **1,105**;
+- mapped English lines/cues: **1,105**;
+- Tamil/English line-count mismatches: **0**;
+- duplicate anthology song numbers: **0**;
+- duplicate translation IDs: **0**;
+- duplicate song IDs: **0**;
+- duplicate translation record paths: **0**;
+- source-page mismatches against the verified page map: **0**;
+- Tamil-title mismatches: **0**;
+- film-title mismatches: **0**;
+- attribution drift: **0**;
+- translation-mode drift: **0**;
+- cross-page provenance mismatches: **0**;
+- warnings/errors: **0/0**.
 
-- `047`: **sons of the soil**, eye/eyelid duty imagery, repeated courage/wisdom lines, **hand for kinship / voice for rights**, and `naam / naan` lip-position wordplay remain source-shaped; `பிரிவாது` is documented rather than normalized.
-- `048`: `kalaignan`, `udanpirappe`, direct caste/religion division and sledgehammer rhetoric, Valluvar and source-pressure `inba-pagai` remain explicit.
-- `049`: mother-warrior pride/grief, sculpted-beauty casket, young-deer bride, tusker/steed violence, battlefield fame and womb-bearing motherhood remain unsoftened.
-- `050`: `mullai`, Tamil `mandram`, `bhava`, `jathi`, `veena`, `Nasika Poosani`, jathi vocables, source-pressure `nyaayirene` and the abrupt final line remain visible.
-- `051`: PDF **121–122** remains one record; the `machaan` duet preserves sexual/comic food imagery, `aandi`, `thaali`, `saivam / asaivam`, anti-subordination language and verified pressure-point phrases without outside repair.
-- `052`: PDF **123–124** remains one record; affection-parrot, `kurinji`, repeated chorus responses, Kannagi, Classical Tamil, red jasmine, sibling/mother imagery and eyes becoming ponds remain intact.
-- `053`: the printed clipped short-line architecture, `bhava`, Pearl-Tamil and Chola praise remain segmented rather than reconstructed into prose.
-- `054`: musical/place vocabulary, `Kodumudi kokilam`, honey/milk and `aanpaal` wordplay, `paayiram`, and the classical **water upon red earth** image remain culturally and literarily audible.
+The preflight explicitly preserves the distinction between `pilot-verified` and `verified`, and it does not promote anthology attribution into original-film primary-source verification.
 
-Detailed review: `translations/BATCH_047_054_REVIEW.md`.
-
-## Final gate result
+## Current gate result
 
 - Tamil transcription: **complete-verified — 54/54**;
 - Tamil fidelity audit: **complete**;
 - English translation: **complete-verified — 54/54**;
-- English pilot-verified: **3** (`001–003`);
-- English verified: **51** (`004–054`);
-- English draft/review/not-started: **0/0/0**;
-- reader/export: **not started**.
+- English reader/export preflight: **complete-pass**;
+- deterministic reader/export package: **not started**.
 
-**PASS — both the Tamil song corpus and the source-linked English translation corpus are complete-verified.**
+**PASS — the repository is cleared to generate publication-facing English reader/export derivatives without altering the complete-verified Tamil or English source-linked layers.**
 
 ## Next activity
 
-Run a whole-corpus English **reader/export preflight** across all 54 translation records. Preserve anthology order, Tamil/source links, page provenance, `anthology-attributed` status, and the distinction between `pilot-verified` and `verified`. Do not alter the complete-verified Tamil or English source-linked layers merely for publication smoothness.
+Generate deterministic English reader/export outputs from the 54 verified translation records:
+
+1. Markdown reader edition;
+2. standalone HTML reader edition;
+3. machine-readable JSON reader edition;
+4. generated-output QA report;
+5. integrity manifest with reproducible input/output hashes.
+
+Then verify that all 54 songs, 1,105 mapped English lines/cues, source links, page provenance, item statuses and attribution states survive the generated outputs exactly once before any downstream Reading Room integration.
