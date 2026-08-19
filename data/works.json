@@ -297,19 +297,22 @@
     "unresolved_tamil_song_readings": 0,
     "latest_verified_batch_review": "works/kalaignar-thirai-isai-paadalgal/notes/FINAL_DRAFT_001_003_REVIEW.md",
     "default_attribution_status": "anthology-attributed",
-    "english_translation": "pilot-verified",
+    "english_translation": "in-progress",
     "english_translation_mode": "semantic-poetic-source-faithful",
     "english_translation_guide": "docs/SONG_TRANSLATION_GUIDE.md",
     "english_translation_schema_path": "works/kalaignar-thirai-isai-paadalgal/translations/schema.json",
     "english_translation_index_path": "works/kalaignar-thirai-isai-paadalgal/translations/index.json",
     "english_translation_pilot_review_path": "works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md",
+    "english_translation_batch_review_paths": ["works/kalaignar-thirai-isai-paadalgal/translations/BATCH_004_011_REVIEW.md"],
+    "english_translation_translated_files": 11,
     "english_translation_pilot_verified_files": 3,
-    "english_translation_verified_files": 0,
+    "english_translation_verified_files": 8,
     "english_translation_draft_files": 0,
     "english_translation_review_files": 0,
-    "english_translation_not_started_files": 51,
+    "english_translation_not_started_files": 43,
     "english_translation_pilot_song_ids": ["kalaignar-song-001","kalaignar-song-002","kalaignar-song-003"],
+    "english_translation_verified_song_ids": ["kalaignar-song-004","kalaignar-song-005","kalaignar-song-006","kalaignar-song-007","kalaignar-song-008","kalaignar-song-009","kalaignar-song-010","kalaignar-song-011"],
     "reader_export": "not-started",
-    "next_action": "Translate and verify songs 004-011 using the approved Kalaignar-language source-faithful pilot rules."
+    "next_action": "Translate and verify songs 012-018 using the approved Kalaignar-language source-faithful rules."
   }
 ]
