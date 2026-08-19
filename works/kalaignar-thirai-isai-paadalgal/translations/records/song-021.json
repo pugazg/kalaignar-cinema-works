@@ -1,0 +1,58 @@
+{
+  "id": "kalaignar-song-en-021",
+  "song_id": "kalaignar-song-021",
+  "anthology_song_number": 21,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-021.md",
+    "tamil_status": "verified",
+    "pdf_pages": [56],
+    "tamil_title": "ஆழிசூழ் உலகம் விடிந்த தென்று என்",
+    "film_title_ta": "ராஜா ராணி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Saying the ocean-girdled world had dawned",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஆழிசூழ் உலகம் விடிந்த தென்று என்",
+          "ஆருயிர் மணவாளரை எழுப்பிவிட்டு",
+          "கோழிபோல் கொக்கரித்து என் கற்பையும்",
+          "கொத்திவிட்டாய் கொடியவளே! படுபாவி!",
+          "ஊழிபோல் வந்திங்கு ஆடிவிட்டாய் உடைந்த",
+          "தாழிபோல் ஆகிவிட்டேன் - இனி",
+          "ஒரு கணம் இந்த உயிர் நில்லுமோ",
+          "கற்புக்கு இலக்கணம் சொல்லுமோ... சொல்லுமோ...",
+          "எந்தன் உயிர் நில்லுமோ..."
+        ],
+        "english_lines": [
+          "Saying the ocean-girdled world had dawned,",
+          "You woke my life-beloved bridegroom,",
+          "Crowed like a rooster and even my chastity,",
+          "You pecked away, cruel woman! Great sinner!",
+          "You came here like the end-age and played havoc; broken,",
+          "I have become like a shattered thaazhi-vessel — now,",
+          "Will this life remain even one moment?",
+          "Will it state the grammar of chastity... will it...",
+          "Will my life remain...?"
+        ],
+        "notes": [
+          "`ஆழிசூழ் உலகம்` remains the classical concrete `ocean-girdled world` rather than being reduced to `the world`.",
+          "`கற்புக்கு இலக்கணம்` is retained as `the grammar of chastity`, preserving Kalaignar's striking grammar/morality formulation.",
+          "`தாழி` is retained as `thaazhi-vessel` because a generic `pot` would flatten the culturally specific object; the source's broken-vessel comparison remains explicit.",
+          "The end-age/deluge force of `ஊழி` remains catastrophic rather than softened to `storm`."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The accusatory violence of crowing, pecking, chastity, end-age and broken-vessel imagery is retained without euphemism.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
