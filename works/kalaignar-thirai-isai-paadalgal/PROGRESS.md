@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Tamil song transcription and fidelity verification — page-driven mode.**
+**Tamil song transcription and fidelity verification — complete-verified.**
 
 This PDF alone follows the rule: inspect the rendered page; create/process a song file only when the page contains an actual numbered lyric body or directly continues one; otherwise ignore the page.
 
@@ -19,37 +19,41 @@ Authoritative whitelist and map:
 - `notes/FULL_PDF_SONG_PAGE_SCAN.md`
 - `songs/page-map.json`
 
-## Current counts
+## Final Tamil counts
 
 | Item | Status |
 |---|---:|
-| Draft song files | 3 |
-| Verified song files | 51 |
+| Draft song files | 0 |
+| Verified song files | 54 |
 | Review song files | 0 |
 | Not-started song files | 0 |
 | English translations | 0 |
 
-### Draft
+All numbered songs `001–054` are now **verified**.
 
-- `001–003` remain draft pending their dedicated visual fidelity pass.
+The final pilot-draft recheck covered only:
 
-### Verified
+- PDF 26 → `001`;
+- PDF 29 → `002`;
+- PDF 30 → `003`.
 
-- `004–054` — **51 verified song files**.
-- Every formerly not-started whitelist entry through the final song-bearing page, PDF 130, has now been processed and visually checked.
+Detailed review: `notes/FINAL_DRAFT_001_003_REVIEW.md`.
 
-Latest review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
+Key corrections/dispositions from that gate:
 
-The final page-driven run added songs **026–054** from only their mapped song-bearing pages. New cross-page records in that run are `036` (PDF 86–87), `037` (PDF 90–91), `051` (PDF 121–122), and `052` (PDF 123–124).
+- song `001`: source spelling corrected from pilot `அறியாண்டி` to scan-visible `அறியான்டி`; unusual `வேணசெல்வம்`, `பெண்ணி`, `ஏழைக்கிக்` confirmed;
+- song `002`: pilot text confirmed without lyric correction;
+- song `003`: both uncertainty markers resolved directly from the scan as `வந்தேன் தவழ்ந்தாய்?` and `பாழான`.
+
+Cross-page verified records in the full corpus are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
+
+## Gate status
+
+- Tamil transcription: **complete-verified**;
+- Tamil fidelity audit: **complete**;
+- unresolved Tamil song readings: **0**;
+- English translation: **not started, now unblocked**.
 
 ## Next activity
 
-There are no remaining `not-started` numbered songs. The only Tamil fidelity work left is the dedicated recheck of the three early draft pages:
-
-- PDF 26 → song `001`;
-- PDF 29 → song `002`;
-- PDF 30 → song `003`.
-
-After those three pass, the Tamil lyric corpus can be promoted to **complete-verified**.
-
-Do not begin English translation before that Tamil fidelity gate is closed.
+Define the anthology's source-linked English translation layer and run a small pilot from the verified Tamil files before scaling to all 54 songs. The English layer must remain derivative and must not normalize or overwrite the Tamil source transcription.
