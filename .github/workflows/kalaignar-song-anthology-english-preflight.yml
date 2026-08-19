@@ -14,6 +14,7 @@ on:
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/build.py"
+      - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py"
       - ".github/workflows/kalaignar-song-anthology-english-preflight.yml"
 
 permissions:
@@ -46,7 +47,10 @@ jobs:
       - name: Build and validate deterministic English reader exports
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/build.py
 
-      - name: Commit passing reader package
+      - name: Synchronize completed reader/export status
+        run: python works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py
+
+      - name: Commit passing reader package and status
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -55,6 +59,14 @@ jobs:
             README.md \
             data/works.json \
             docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/kalaignar-thirai-isai-paadalgal/README.md \
+            works/kalaignar-thirai-isai-paadalgal/metadata.yaml \
+            works/kalaignar-thirai-isai-paadalgal/PROGRESS.md \
+            works/kalaignar-thirai-isai-paadalgal/AUDIT.md \
+            works/kalaignar-thirai-isai-paadalgal/PROJECT_HANDOVER.md \
+            works/kalaignar-thirai-isai-paadalgal/songs/README.md \
+            works/kalaignar-thirai-isai-paadalgal/translations/index.json \
+            works/kalaignar-thirai-isai-paadalgal/translations/README.md \
             works/kalaignar-thirai-isai-paadalgal/editions/en/PREFLIGHT_QA_REPORT.md \
             works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.md \
             works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.html \
@@ -62,8 +74,8 @@ jobs:
             works/kalaignar-thirai-isai-paadalgal/editions/en/QA_REPORT.md \
             works/kalaignar-thirai-isai-paadalgal/editions/en/manifest.json
           if git diff --cached --quiet; then
-            echo "Reader package and synchronized preflight status are already current; nothing to commit."
+            echo "Reader package and synchronized status are already reproducible; nothing to commit."
           else
-            git commit -m "Build anthology English reader package [skip ci]"
+            git commit -m "Finalize anthology English reader package [skip ci]"
             git push
           fi
