@@ -1,0 +1,584 @@
+{
+  "work_id": "kalaignar-thirai-isai-paadalgal",
+  "edition": "english-reader",
+  "build_version": 1,
+  "status": "complete-verified",
+  "source_sha256": "f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05",
+  "deterministic": true,
+  "input_count": 110,
+  "inputs": [
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/page-map.json",
+      "sha256": "04892e140ad776c9cbda012ccebd725667877117f935b61f85d23cad707b5287",
+      "bytes": 3280
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-001.md",
+      "sha256": "1846d2edf8342a0a96b1b41de0119ae7a7ba64baba57acc5f6cf9d599dcea0b3",
+      "bytes": 2786
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-002.md",
+      "sha256": "dab98c058be65727d3bb666053fb9743328d4aeaf3b94bbbba02ed0dabc7e184",
+      "bytes": 2351
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-003.md",
+      "sha256": "c6d5ae5eda66763b290687f423c82332b801b7fff2ba6d85a7d6b1a95567ea8b",
+      "bytes": 2179
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-004.md",
+      "sha256": "16bd8ec41026a5404535532b989862a381f18c0ca8c684b99870df83eae2a95e",
+      "bytes": 2321
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-005.md",
+      "sha256": "99d59544851192828ea08c083c32b7e88e5c1293fc980b0e934b84940b4e2713",
+      "bytes": 1872
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-006.md",
+      "sha256": "5045c4f2d5fd82d9b2f2df3150be89eb1546371284bccf0b22dde28e3c9f3027",
+      "bytes": 2183
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-007.md",
+      "sha256": "3a3c7103906c770843f70eb88cd8b837484ad93af628510d202a0f06e3309969",
+      "bytes": 1700
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-008.md",
+      "sha256": "5730ebfd5cf29e06ebc362a6c456b53a628bff137d03985abe987114b0432082",
+      "bytes": 2168
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-009.md",
+      "sha256": "8287b75869812c4986dcfec747eaa31f292d8fe53e00f90d73af7a91ab7bccb0",
+      "bytes": 4002
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-010.md",
+      "sha256": "e9bf05ad9247b183c5a9f2466b26cb7cf6ec7af86cd4c097b51e459e9a040bad",
+      "bytes": 3010
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-011.md",
+      "sha256": "ce1946e650c563eadbd94ca26a2ee6fed6910735c649daee2a9dbfa3b70f706a",
+      "bytes": 2199
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-012.md",
+      "sha256": "9fb4a0e1ec102a8d08e84b4927e92ffe72a108a0d35adde752547c915f52c5f5",
+      "bytes": 2769
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-013.md",
+      "sha256": "767f3c7ea11932fb85c037ce1ec9ab859f33f4150792404f8a0c411e27f7072a",
+      "bytes": 1533
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-014.md",
+      "sha256": "a6cf462ed5d553b3cf985b491e0517431be6fb6473efb9f6be9c76a11ac0d22b",
+      "bytes": 2047
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-015.md",
+      "sha256": "7fc6651abf76183e5089d61d92fbda18a2d6e7eaf3a05a6f298a0ab2282630ef",
+      "bytes": 1706
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-016.md",
+      "sha256": "b40de19a8efe9ae18aa57eda7e321e5788d633bf8f81a3dbdcefe2fd4fd301d3",
+      "bytes": 2063
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-017.md",
+      "sha256": "261104315a726013b96d53ca20166dfd5caf91bdad17683e28ff16df327cfcd9",
+      "bytes": 1676
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-018.md",
+      "sha256": "1b376e01f715e73b15214d94e291fd6d79a1937d185fd179ae378270d42e7924",
+      "bytes": 2174
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-019.md",
+      "sha256": "6add3ad74aed521099f7d3fb7d5beef246a100d7bdbef630f502bd99509b689b",
+      "bytes": 4693
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-020.md",
+      "sha256": "eee195e3383da77eac72287849a7abcb0df3a69400ac042e8242fe10f01faf18",
+      "bytes": 1730
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-021.md",
+      "sha256": "07aa6fdaeda0a208ce13bedbe44ece61737a3eb22c323d85a3ba3598042d3caa",
+      "bytes": 1700
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-022.md",
+      "sha256": "1d3012e505572e434ee3b6e4335f414b84a8554caa48d480c4a24733cfec5131",
+      "bytes": 1657
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-023.md",
+      "sha256": "67ee0e80ad3148b035a5f84c6ad775330a385a4d4f6bbcf84ee0a0757cd4a120",
+      "bytes": 3495
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-024.md",
+      "sha256": "b4fc3dc3b8a14d68372b154a24e5803c0546bf6fabcc248d1cae9829a968de8d",
+      "bytes": 3475
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-025.md",
+      "sha256": "c42fbbc34e422bfec71aeb3dd439d1cc3948e479653996d0740a7b939edc7279",
+      "bytes": 2294
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-026.md",
+      "sha256": "1456084dfb6a44c8b8f0fec18aa7380fa319be69db4d0464195031426556b545",
+      "bytes": 1770
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-027.md",
+      "sha256": "9ad66a9fb5442d82975f3d92161084fd0e199d55a63645d080d879ed004b62e7",
+      "bytes": 1931
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-028.md",
+      "sha256": "9cafc444ad5981efae77f0108f06e8030c2dfcc2989712e57f6d97d8f4a6f84a",
+      "bytes": 1598
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-029.md",
+      "sha256": "31f3671bc3e8fa57df1f77a84ab511815b664477b3a4304d496cbc63fac145cb",
+      "bytes": 2067
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-030.md",
+      "sha256": "8cb63ebc2bf7e13e7ab5f0266da888fddaf1bc25f01d9eda41ac731f09f4d0b4",
+      "bytes": 2804
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-031.md",
+      "sha256": "49cbe4a700121ed22c2059198a7ce36801bc754f844879ecf844c958643da8ec",
+      "bytes": 3167
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-032.md",
+      "sha256": "72235363510b20c84045fce7d0aee222dd73e356085979f8b41b459e5267457e",
+      "bytes": 2490
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-033.md",
+      "sha256": "9d73634bd9d3680b6ccb5307ab38bea99fa9bdbbc3d6269af063e491c0f9b017",
+      "bytes": 2214
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-034.md",
+      "sha256": "a4574ca1163593ed9ba232ff27aea38429b13b01137b0138ab913469c6e6bbad",
+      "bytes": 2238
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-035.md",
+      "sha256": "f3b10b61b241ceb0a805657eb517bfb7534bffff8b4aefb5ac94e69172ea5c59",
+      "bytes": 3125
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-036.md",
+      "sha256": "a254e7305d04e167e1fc80733a9c5328203e17ba0fab1af1e58b29f45ff653c6",
+      "bytes": 3457
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-037.md",
+      "sha256": "a26098e9936e59b6c3870706f8ef4a264d8a82b4801113a12b31290ac5a119f3",
+      "bytes": 3241
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-038.md",
+      "sha256": "4cc48510f61057c2994805bc8900431688709cdba5684d5c133057aa0d96f5ff",
+      "bytes": 2087
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-039.md",
+      "sha256": "f099f2599637dc5a9ed4f3db2837e1995d4cd876827139137cfc23ec0caa4cda",
+      "bytes": 2795
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-040.md",
+      "sha256": "70cecb1e59f8ff00633ae92bf95fe8824ca37795cb1bf6b68859a31e30db4762",
+      "bytes": 2532
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-041.md",
+      "sha256": "4a23539e13ed4960fc37816463a4049d02c728c1b39283014ac8872f51bd93cb",
+      "bytes": 2613
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-042.md",
+      "sha256": "0e0a78e0d11f3617d8690e45ac75b3fbf89d960231275f24bef416436368529b",
+      "bytes": 3261
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-043.md",
+      "sha256": "a56458ec5d4963cdf7d408ab79344184ef8ed2b29966dd4624be6b24ec11ec5b",
+      "bytes": 3851
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-044.md",
+      "sha256": "2b754ae1e4ecf51ce57448612ae1fbafc32da3259b2c98bbb70ab987507236b4",
+      "bytes": 3005
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-045.md",
+      "sha256": "5d37e67549a30b4c383d4f97841cf592266df82b67aba335686d550efca96784",
+      "bytes": 2110
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-046.md",
+      "sha256": "b5984259a3dfc398021b8bf55bfe30aa548c04341f8eea9e745b5eac2d953ba7",
+      "bytes": 2807
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-047.md",
+      "sha256": "af17aaf21baa7e4254f45d0516f5b98a63b81244c8d466fb5aa296ceae7f04c2",
+      "bytes": 2882
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-048.md",
+      "sha256": "6d6ce473d82a985f0b12f3668f9ec03b4407ef504b22114c3810782dadf4c5ba",
+      "bytes": 2662
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-049.md",
+      "sha256": "bbfa9b90d0eec56091233092ff481a409166d09a93fa5a3942a743e519e91bb1",
+      "bytes": 2977
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-050.md",
+      "sha256": "ef3c749d18ad5cd2d38d5d5b8ec271150c9e4cf4c8d7df0e9bc11cdefed7b65f",
+      "bytes": 2950
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-051.md",
+      "sha256": "68fed48847091af9f77dcc5f30e7713965ecd1ad122d2208e478c029b0b11e6e",
+      "bytes": 3856
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-052.md",
+      "sha256": "5b554a14f8c166b6738ff195add167742a43752ba731d8f4dbb176a5f415ac29",
+      "bytes": 5028
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-053.md",
+      "sha256": "fd0d10eb82fd13b3fa0c1074e700e0cc3ed2620955417cb6812603da76d97088",
+      "bytes": 1960
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/song-054.md",
+      "sha256": "575cb92df9ab37fcc9c3f6bf0ce8a4cdb380269244691e04a192acc4e0af6848",
+      "bytes": 3069
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/index.json",
+      "sha256": "c5d1ad6776a08729e23ec633156747d720d961741656e5305b54e615627dbe79",
+      "bytes": 19622
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-001.json",
+      "sha256": "be65d660e668ad3bdeed9b55f39e4df89f36b34b14257b3b8584b7722a8a40a3",
+      "bytes": 5730
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-002.json",
+      "sha256": "75dbe889d0a023ab93626d2465154f3db6af727ecd972bb6c8e4353399f141ff",
+      "bytes": 6785
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-003.json",
+      "sha256": "c2625828572d618d265bc48e6d76027df56db766d669dc9bb7a017fd3590a6ea",
+      "bytes": 5822
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-004.json",
+      "sha256": "b0330d84f1a10d2182f493d16c00b64327bb63fd37671ff41fb61088ad13fa37",
+      "bytes": 5948
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-005.json",
+      "sha256": "71723c13e6c037009d43b3d065671d4cae4c02b6ad42e5a28b388a900e5733a7",
+      "bytes": 5488
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-006.json",
+      "sha256": "58eeadcd595ebea20c85f875ce020ba98d3ca55483fe8c7fd7e19ba374a4910e",
+      "bytes": 5065
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-007.json",
+      "sha256": "4b23309c5fcd86560a18f74f4f533a1b9024a0cfdab1ba9ab69e9cd51b4b3761",
+      "bytes": 4843
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-008.json",
+      "sha256": "48fb3f025d066ca31880bdd993ecb2f757376520e4cb889fe0a207db6764eabc",
+      "bytes": 4861
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-009.json",
+      "sha256": "0e430affa825cda992523a86b8ff97e7e3e4870abd23a3753e036e617aa99f83",
+      "bytes": 10124
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-010.json",
+      "sha256": "d973e4ecd7f9c99ab51538dece137839d2a997252b829a03647135de2434a2c6",
+      "bytes": 7139
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-011.json",
+      "sha256": "f7a107b9632d6eb40227ba4959ed1795a9f648ef7ff3e24375abeee2b0c14dec",
+      "bytes": 6003
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-012.json",
+      "sha256": "dec9cfc163a8b3e8833f515434386ed2df2e4c38e4ec99408e6c1fbb3c23d03d",
+      "bytes": 6865
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-013.json",
+      "sha256": "70a912c1fbc54d3fc6ea59a624084d4e1a4051c23c6543a65ae4e5e1f8fc8de5",
+      "bytes": 3705
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-014.json",
+      "sha256": "b097379cbceb155009f027c626f991fd1650c98d376d77ad058c2ba51a1bba0d",
+      "bytes": 6122
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-015.json",
+      "sha256": "0c52902b1010dae688f0e0e11ab4b70fd4923a26cf826c7c7a9b8aa01abdb87c",
+      "bytes": 4315
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-016.json",
+      "sha256": "261f64ea85d2b5c88b66be4fc910add04365b1ee0af67ccbe55ebd601f8bd0e6",
+      "bytes": 6332
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-017.json",
+      "sha256": "ace44b936fc5ccf4ddd5ca412c602e1b3253b6a00e1c45b026872c821d813c53",
+      "bytes": 5040
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-018.json",
+      "sha256": "ea0afb84be7ffb1f56955a775437ffbe5aad798ff0b03d6f947bfac8200ebe46",
+      "bytes": 6140
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-019.json",
+      "sha256": "b87006183d2cff1b86de50def978172ac18a47c90f1fd29977999d206f99109a",
+      "bytes": 13985
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-020.json",
+      "sha256": "bd6a90c1e9ae0b19ce9ad1379a19abf7743d0e58ba7e7781669672b298e76006",
+      "bytes": 3374
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-021.json",
+      "sha256": "5aba39f3d71d45e142b3374b2b1b2349bd9b2e691be59173ee57373233a6dff2",
+      "bytes": 3150
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-022.json",
+      "sha256": "109fcaa20175bd815d70eb75382454200a83ec74f4a42288f041ce2fcaf58209",
+      "bytes": 2862
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-023.json",
+      "sha256": "f177551123e33b722772d35e4c12efb338e0ae45f8ca30649223d2ab1ae1c870",
+      "bytes": 7524
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-024.json",
+      "sha256": "5cd0c6387e8b961d3c0194ef6c2f9bf364131de23f5e625b2990dbcdf6b5cb6c",
+      "bytes": 6979
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-025.json",
+      "sha256": "dc909849910b50a934fdbb63d9074556ab59518bf82e823003d0280d17320d66",
+      "bytes": 4027
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-026.json",
+      "sha256": "02145133d201b75526da35e987f09cbb4c2c2404c1766427b41efe50aad37180",
+      "bytes": 3217
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-027.json",
+      "sha256": "93e93662183a8c0074ea9a1140e83be094ad9317c27377b677abf458d96fc49c",
+      "bytes": 3491
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-028.json",
+      "sha256": "798f85f14027682b5122c8e9ec3f5b94ade166e5ce2bc3066d84ee44cc746b0b",
+      "bytes": 3110
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-029.json",
+      "sha256": "72a7cfba27efbd83e3d82f761fbe36475bb1934f1c56a4543e20560050eeb246",
+      "bytes": 3854
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-030.json",
+      "sha256": "e1e7bbb983d658650db1d2890150fb65f7fa07be47f2ee85ef97bf8e7fac6d21",
+      "bytes": 7246
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-031.json",
+      "sha256": "ad85b85fa82856c5778645b01c1f020a1f19422aef72a5a73fa726f6e7f64677",
+      "bytes": 6278
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-032.json",
+      "sha256": "fc8f1e62f09f057cd5557192e8c08df9d6f5671b03f97ef33f515174f88531c0",
+      "bytes": 4934
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-033.json",
+      "sha256": "fe2a35c387de5a8e0245d83d8d6dce066395779d319066658040c328aa8f7e1f",
+      "bytes": 3947
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-034.json",
+      "sha256": "38cc9d0a0c33cae996b8b69d383dda858f9b86530c127a06cf5f3180c095cf0b",
+      "bytes": 4150
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-035.json",
+      "sha256": "99daa3f8ff381684832d407c65c6006f7935fe8026421f3ae68c294d3e60ba31",
+      "bytes": 7003
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-036.json",
+      "sha256": "1fc2fb7b198432968f2e32f2450e7a2cd5dc0114f9f0f54fcbc395967d687dbe",
+      "bytes": 6421
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-037.json",
+      "sha256": "dd0024f9286c4b1ee5434c59ef882dff9da71b1a5d754e80104ef4afdc7d0116",
+      "bytes": 7599
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-038.json",
+      "sha256": "badb13da6b53342746052e77dc8c7ea98e389f882393d96d7ced089659474f2c",
+      "bytes": 3929
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-039.json",
+      "sha256": "fd45dce8c54bcba96b4181b1673f2bfd373ae95709cf58ed9019976dba027cc1",
+      "bytes": 6395
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-040.json",
+      "sha256": "a43f447ca87e100b07d806a6db88b956a0e6948a8a61280c3515a8b0b77e7d9e",
+      "bytes": 4913
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-041.json",
+      "sha256": "562fe3a0d80184727c624599cadf6bef08aa294727efd68c9b8d3eb3a2762814",
+      "bytes": 5549
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-042.json",
+      "sha256": "1426caea986c3980430abc856eb74c7d60fe79b6acc75ffe463ba7fb356ed9fc",
+      "bytes": 6123
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-043.json",
+      "sha256": "46101fdffa398c03e07856e92ac65dbfb5b04ecf6d42ce077477e695f3bdf7b6",
+      "bytes": 8464
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-044.json",
+      "sha256": "cb55f7f6e32aae5e65dda70b909b0832e69d028107d9b05f8ebab3685a8261a0",
+      "bytes": 5621
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-045.json",
+      "sha256": "e4db72342df5c0bbc4f9be8de5ce9d29a3134550d76300a411d6809dfd352513",
+      "bytes": 4227
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-046.json",
+      "sha256": "ab2b6531c31c31a5c30e228c29f2e1062a23906265a5cee0df69887523455308",
+      "bytes": 5673
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-047.json",
+      "sha256": "e3d35c81bd98a62e319027381bec1ea51dd751035caab0a2bae265bb5f676c99",
+      "bytes": 5461
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-048.json",
+      "sha256": "2f357b7df6283f952175a57c54763524ea2100ddfa1f02462d35a7b96c34ef83",
+      "bytes": 5492
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-049.json",
+      "sha256": "aaf9553a24020ca08ad1141c9b51a1239b70de98e0c53d23b5a84b0c05640adc",
+      "bytes": 6055
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-050.json",
+      "sha256": "3becae0a5b71fe777a3cda5688ff52e9c753c4ac39feaa68732667efab1402a6",
+      "bytes": 5874
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-051.json",
+      "sha256": "9479e02560920007e3ecb56f2534801f92371157702939c307fcea124a9f880a",
+      "bytes": 9298
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-052.json",
+      "sha256": "cf08142ecbbdf6a1842a62c494c083ab4e79366248503ab62738e6829a9eac2f",
+      "bytes": 9874
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-053.json",
+      "sha256": "0ab369de5cac344f405ee0fbf7731644a7a7bd8f33379f61939aa3e86339f1ad",
+      "bytes": 4217
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-054.json",
+      "sha256": "ab272e558978436a0630c19a7c1c319b4f4d8302dccceaa21c526f19a5abf759",
+      "bytes": 5972
+    }
+  ],
+  "outputs": [
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.md",
+      "sha256": "42e13ad7a171b4304ef4b1b8b424fa7f50ebace8510c7ea864f49c31dc9cc209",
+      "bytes": 124018
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.html",
+      "sha256": "d48bd5476ba3cbdc540334abaf743b4481d0a1b7cae37d5bc4198f15adebc034",
+      "bytes": 187842
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.json",
+      "sha256": "8e9782ca160e07bd9f45be38931d3d3ad07c3a126a0be6755b67e7e7fdec1ed8",
+      "bytes": 354382
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/QA_REPORT.md",
+      "sha256": "1b2c593944530b922d8e93ba010bdf378b98f9b9734a1c13a5706da7af9475b1",
+      "bytes": 2238
+    }
+  ],
+  "manifest_note": "manifest.json intentionally does not hash itself to avoid a circular self-hash"
+}
