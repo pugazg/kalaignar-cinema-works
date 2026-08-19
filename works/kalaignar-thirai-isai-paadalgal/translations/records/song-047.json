@@ -1,0 +1,101 @@
+{
+  "id": "kalaignar-song-en-047",
+  "song_id": "kalaignar-song-047",
+  "anthology_song_number": 47,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-047.md",
+    "tamil_status": "verified",
+    "pdf_pages": [113],
+    "tamil_title": "கண்ணின் மணிபோல",
+    "film_title_ta": "மண்ணின் மைந்தன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Like the jewel of the eye",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "லல்லல லல்லல்லா",
+          "கண்ணின் மணிபோல",
+          "கனியின் விதைபோல",
+          "மண்ணின் மைந்தர் நமக்குள்ளே",
+          "கசப்பும் வெறுப்பும் எதுக்காக",
+          "மண்ணின் மைந்தர் வாழ்வதற்கு - இந்த",
+          "மண்ணில் உரிமை இல்லையா",
+          "கண்ணை காக்கும் கடமைதான்",
+          "இமைக்கு பெரிய தொல்லையா",
+          "கடமை தவறி நடப்பதற்கு",
+          "காவல் எதற்கு சொல்லையா",
+          "(கண்ணின்)"
+        ],
+        "english_lines": [
+          "Lallala lallallaa,",
+          "Like the jewel of the eye,",
+          "Like the seed of a fruit,",
+          "We sons of the soil, among ourselves —",
+          "Why bitterness and hatred?",
+          "For the sons of the soil to live — in this",
+          "Soil, is there no right?",
+          "The duty is to guard the eye —",
+          "Is that such a great trouble for the eyelid?",
+          "If one walks forsaking duty,",
+          "What is guarding for? Tell me, ayya.",
+          "(Like the jewel of the eye)."
+        ],
+        "notes": [
+          "`மண்ணின் மைந்தர்` remains `sons of the soil`, keeping the political-social belonging language concrete.",
+          "The eye/eyelid duty image is kept literally rather than turned into abstract civic prose.",
+          "The closing colloquial `சொல்லையா` retains its spoken address as `tell me, ayya`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "விண்ணில் ஏறவும் கடலைச்சாடவும்",
+          "வீரம் வேண்டும் விவேகம் மிகவும் வேண்டும்",
+          "விண்ணில் ஏறவும் கடலைச்சாடவும்",
+          "வீரம் வேண்டும் விவேகம் மிகவும் வேண்டும்",
+          "வேற்றுமையில் ஒற்றுமை காண வேண்டும்",
+          "விரோத உணர்வு வேரோடு சாய வேண்டும்",
+          "உறவுக்கு கைகொடுப்போம் உரிமைக்கு குரல் கொடுப்போம்",
+          "நாம் என்று சொல்லிப்பாருங்கள்",
+          "உதடுகள் ஒட்டும் உறவுகள் மலரும்",
+          "நான் என்று சொல்லிப்பாருங்கள்",
+          "உதடுகள் இணையாது உறவும் பிரிவாது",
+          "(கண்ணின்)"
+        ],
+        "english_lines": [
+          "To climb the sky and leap across the sea,",
+          "Courage is needed; wisdom is needed even more,",
+          "To climb the sky and leap across the sea,",
+          "Courage is needed; wisdom is needed even more,",
+          "We must see unity in difference,",
+          "The feeling of enmity must fall by the roots,",
+          "Let us give a hand for kinship; let us give voice for rights,",
+          "Say `naam` — we — and see,",
+          "The lips meet; relationships bloom,",
+          "Say `naan` — I — and see,",
+          "The lips do not join; the relationship too does not part,",
+          "(Like the jewel of the eye)."
+        ],
+        "notes": [
+          "The repeated sky/sea and courage/wisdom lines remain repeated.",
+          "`உறவுக்கு கை / உரிமைக்கு குரல்` keeps the established `hand for kinship / voice for rights` architecture.",
+          "`நாம் / நான்` is kept as `naam / naan` so the lip-position wordplay remains visible. The verified closing `பிரிவாது` produces a semantically awkward contrast and is translated conservatively rather than repaired."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song moves from belonging and civic duty into unity/rights rhetoric and a phonetic `naam / naan` argument; the English keeps all three registers visible.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
