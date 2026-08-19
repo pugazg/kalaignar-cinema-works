@@ -24,9 +24,9 @@ Authoritative whitelist and map:
 | Item | Status |
 |---|---:|
 | Draft song files | 3 |
-| Verified song files | 21 |
+| Verified song files | 22 |
 | Review song files | 0 |
-| Not-started song files | 30 |
+| Not-started song files | 29 |
 | English translations | 0 |
 
 ### Draft
@@ -38,17 +38,18 @@ Authoritative whitelist and map:
 - `004–011` — PDF 33–41;
 - `012–018` — PDF 44–50;
 - `019–023` — PDF 53–59;
-- `024` — PDF 62–63.
+- `024` — PDF 62–63;
+- `025` — PDF 64.
 
-Latest review: `notes/PAGE_BATCH_062_063_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_064_REVIEW.md`.
 
-Song 024 is a two-page record. The rendered scan was checked line by line, preserving source forms such as `மிகபுனிதமான`, `நம்நாடு`, `நந்நாடு`, `மனிதனுக்குயிர்`, `திருவோடேந்தும்`, `நடைபிணத்துக்குயிர்`, and `கடமைகளுக்கொளி` without normalization.
+Song 025 was transcribed from the single numbered lyric page PDF 64. Music `டி.ஆர்.பாப்பா`, voice `டி.வி. ரத்னம்`, repeated `மாயக்காரா` / `ஜாலக்காரா` / `பகவானே` wording, source hyphenation, and source-visible forms were retained without importing soundtrack or web text.
 
 ## Next activity
 
 The next song-bearing page is:
 
-- **PDF 64 → song 025**.
+- **PDF 65 → song 026**.
 
 Continue only through song-bearing pages listed in `songs/page-map.json`.
 
