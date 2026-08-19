@@ -85,9 +85,24 @@ fidelity_audit:
   unresolved_song_readings: 0
 
 translation:
-  status: not-started
-  readiness: ready-after-tamil-fidelity-gate
-  next_action: "Define a source-linked English translation schema/pilot and translate only from the 54 verified Tamil song files."
+  status: pilot-verified
+  target_language: en
+  mode: semantic-poetic-source-faithful
+  voice_rule: "retain Kalaignar's language, rhetoric, repetition, political/social force, concrete imagery, colloquial energy and source-specific constructions"
+  guide: "../../docs/SONG_TRANSLATION_GUIDE.md"
+  schema: "translations/schema.json"
+  index: "translations/index.json"
+  pilot_review: "translations/PILOT_REVIEW.md"
+  songs_expected: 54
+  songs_pilot_verified: 3
+  songs_verified: 0
+  songs_draft: 0
+  songs_review: 0
+  songs_not_started: 51
+  pilot_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
+  pilot_pdf_pages: [26, 29, 30]
+  next_batch: "004-011"
+  next_action: "Translate and verify songs 004-011 using the approved Kalaignar-language pilot rules; do not smooth away source imagery, repetition, satire or colloquial force."
 
 reader_export:
   status: not-started
@@ -98,5 +113,5 @@ status:
   song_inventory: complete-verified
   tamil_song_transcription: complete-verified
   tamil_song_fidelity_audit: complete
-  english_translation: not-started
+  english_translation: pilot-verified
   reader_export: not-started
