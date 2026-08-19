@@ -2,100 +2,91 @@
 
 Source-led archival work for the supplied anthology **`கலைஞர் திரை இசைப் பாடல்கள்`**, compiled by **நெல்லை ஜெயந்தா** and published by **தமிழ்நாடு இயல் இசை நாடக மன்றம்**.
 
-This is a **song anthology work**, not a screenplay/dialogue-booklet work. Its numbered song corpus is stored under `songs/`.
-
-## Source authority
-
-The supplied scan controls what this **2024 anthology edition** prints: its lyric text, song numbering, film grouping, headings, music/voice labels and editorial attribution claims.
-
-Because this is a later anthology, an anthology attribution is not silently promoted to an original-film primary-source attribution. The repository uses `anthology-attributed` unless stronger source-specific evidence has separately been established.
-
-The source PDF itself is not committed to this repository.
+This is a **song anthology work**, not a screenplay/dialogue-booklet work.
 
 ## Source checkpoint
 
-- archive identifier from supplied filename: `TVA_BOK_0065867`;
 - source filename: `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`;
+- archive identifier: `TVA_BOK_0065867`;
+- physical PDF pages: **194**;
 - source SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
-- binary size: **130,427,193 bytes**;
-- physical PDF pages in the supplied binary: **194**;
 - printed title: **`கலைஞர் திரை இசைப் பாடல்கள்`**;
 - compiler: **`நெல்லை ஜெயந்தா`**;
-- edition statement: **First Edition — June 2024**;
-- printed `No of pages` statement: **192**;
+- First Edition: **June 2024**;
+- printed `No of pages`: **192**;
 - ISBN: **978-81-961205-2-8**;
 - publisher: **தமிழ்நாடு இயல் இசை நாடக மன்றம்**.
 
-The PDF is image-only for archival purposes; OCR/text extraction is not authoritative.
+The rendered scan controls. OCR is navigation only.
 
-## Structural checkpoint
+## New PDF-specific page rule
 
-The full source has been mapped before large-scale lyric transcription.
+The user has explicitly changed the operating method **for this PDF only**:
 
-- front matter / essays / introductory filmographies: PDF 1–20;
-- contents: PDF 21–23;
-- numbered Tamil film-song corpus: PDF **24–130**;
-- film sections in numbered corpus: **23**;
-- printed numbered songs: **001–054**;
-- other-language film details: PDF 131–139;
-- `கலைஞரின் பட உலகப் பயணம்`: PDF 140–181;
-- `கலைஞருக்குக் கலை உலகக் கதவைத் திறந்தவர்கள்`: PDF 182–188;
-- bibliography: PDF 189;
-- note/back-matter pages: PDF 190–194.
+> Scan the page. If it contains a song, create/process the song file. Otherwise ignore it.
 
-See `mapping.md` for the section-by-section map.
+The entire **194-page PDF has now been visually scanned first**, before further lyric work.
 
-## Song work status
+For this work, a page counts as song-bearing only when it contains an actual numbered lyric body or directly continues one. A song title in a list, prose mention, film metadata, photograph, contents page, historical/biographical page, bibliography or back matter does not qualify.
 
-- complete song inventory: **54/54**;
-- draft lyric records: **3/54** (`001`–`003`);
-- verified lyric records: **8/54** (`004`–`011`);
-- review lyric records: **0/54**;
-- not-started lyric records: **43/54** (`012`–`054`);
-- English translation: **not-started**;
-- reader/export: **not-started**.
+### Full scan result
 
-Songs 004–011 form the complete verified `நாம்` batch. The rendered scan was checked across PDF **31–41**; numbered lyric pages are PDF **33–41**, with song `009` continuing across PDF **38–39**.
+- pages scanned: **194/194**;
+- song-bearing pages: **62**;
+- ignored pages: **132**;
+- numbered songs represented: **54 (`001–054`)**;
+- final song-bearing page: **PDF 130**.
 
-Key fidelity dispositions from this batch:
+Song-bearing page whitelist:
 
-- `004` uses scan-supported **`மாரி`**, not the initial `மாறி` typo;
-- `005` retains source spacing `பெண் மானே` and its `குமரன்` / `மீனா` / `இருவரும்` turns;
-- `006` prints no separate `குரல்` line, so no singer identity is inferred; source role `மீனா:` is retained;
-- `007` retains printed `ஜிக்கி (சோகம்)`;
-- `008` retains source forms such as `சைபோக`, `சைரந்திரியே`, `மம்முதா`;
-- `009` is one source record across two pages;
-- `010` keeps the scan-visible `பலியாக தருகின்ற இளமை` rather than silently changing it;
-- `011` retains its `(எதையும்)` refrain cues and source political/philosophical wording.
+`26, 29–30, 33–41, 44–50, 53–59, 62–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`
 
-See `notes/BATCH_004_011_REVIEW.md` for the complete batch audit.
+Authoritative documents:
 
-The first three records remain **draft**. Their dedicated fidelity recheck has not yet been completed, so they are not promoted merely because their pages were inspected during intake.
+- `notes/FULL_PDF_SONG_PAGE_SCAN.md` — human-readable full scan ledger;
+- `songs/page-map.json` — machine-readable song number → PDF page map.
 
-## Attribution disposition
+The older film-section map remains descriptive metadata only. It no longer decides what gets processed.
 
-The anthology's film-level list for `நாம்` on PDF 32 places `கலைஞர்` beside the eight entries represented by songs 004–011. These remain **`anthology-attributed`**, because this 2024 compilation is evidence for the anthology's attribution and not automatically an original film-era authorship source.
+## Current lyric status
 
-The same PDF separately lists `ஆயிரம் தெய்வங்கள்` with `பாரதியார்`; that item is not inserted into the numbered Kalaignar-song batch.
+- song locations mapped: **54/54**;
+- draft lyric records: **3** (`001–003`);
+- verified lyric records: **8** (`004–011`);
+- review: **0**;
+- not started: **43** (`012–054`);
+- English translation: **not started**;
+- reader/export: **not started**.
 
-## Important editorial disposition
+Songs 004–011 were visually verified from their actual lyric pages PDF 33–41. Song 009 is a two-page lyric across PDF 38–39.
 
-The anthology's `மந்திரிகுமாரி` note says Kalaignar wrote two songs for the film, including **`ஆளப்பிறந்தவன் தமிழன் அவன்தானே`**, and states that this first song was censored/prohibited. The anthology does **not** print it as a numbered lyric record. It is therefore preserved only as an editorial/prose-mentioned song and is **not** inserted into the numbered `001–054` corpus.
+The first three records remain draft pending their dedicated fidelity pass.
 
-## Documents
+## Important exclusions
 
-- `metadata.yaml` — source and progress metadata;
-- `mapping.md` — full structural/film-section map;
-- `PROGRESS.md` — live processing checkpoint;
-- `AUDIT.md` — source, structural and fidelity audit;
-- `PROJECT_HANDOVER.md` — continuation instructions;
-- `notes/anthology-notes.md` — editorial/source notes;
-- `notes/BATCH_004_011_REVIEW.md` — verified `நாம்` batch review;
-- `songs/README.md` — song-layer policy;
-- `songs/schema.json` — inventory/record schema;
-- `songs/index.json` — all 54 numbered songs and current statuses;
-- `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md` — reusable repository-level anthology workflow.
+- PDF 25's prose mention of `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` does **not** generate a song file because the lyric body is absent.
+- Metadata/list pages such as PDF 27–28, 31–32 and 42–43 are ignored for lyric-file creation.
+- PDF 131–194 contains no numbered lyric sheet and is ignored under this workflow.
 
-## Next activity
+## Attribution rule
 
-Process and visually verify **songs 012–018**, the `அம்மையப்பன்` section at PDF **42–50**, preserving exact anthology lineation, labels, composer/voice metadata and source spelling. Do not begin English translation yet.
+This 2024 anthology controls what this edition prints and attributes. Default attribution status remains **`anthology-attributed`**. Do not silently promote that to original-film `primary-source-verified` authorship without separate evidence.
+
+## Key documents
+
+- `metadata.yaml`
+- `mapping.md`
+- `PROGRESS.md`
+- `AUDIT.md`
+- `PROJECT_HANDOVER.md`
+- `notes/FULL_PDF_SONG_PAGE_SCAN.md`
+- `notes/BATCH_004_011_REVIEW.md`
+- `songs/README.md`
+- `songs/page-map.json`
+- `songs/index.json`
+
+## Exact next activity
+
+Resume at **PDF 44 / song 012**, the next unprocessed song-bearing page.
+
+From there, process only pages in `songs/page-map.json`, in ascending PDF order. Skip every intervening non-song page without creating a file. Do not begin English translation yet.
