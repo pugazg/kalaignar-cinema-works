@@ -47,16 +47,36 @@ See `mapping.md` for the section-by-section map.
 
 ## Song work status
 
-- complete song inventory: **54/54** established from the anthology contents;
+- complete song inventory: **54/54**;
 - draft lyric records: **3/54** (`001`–`003`);
-- verified lyric records: **0/54**;
-- not-started lyric records: **51/54**;
-- current draft source pages: PDF **26, 29, 30**;
-- current film coverage: `மந்திரிகுமாரி`, `பராசக்தி`;
-- no English translation started;
-- no reader/export started.
+- verified lyric records: **8/54** (`004`–`011`);
+- review lyric records: **0/54**;
+- not-started lyric records: **43/54** (`012`–`054`);
+- English translation: **not-started**;
+- reader/export: **not-started**.
 
-The first three records remain **draft**, even though their pages have been directly inspected. A dedicated line-by-line fidelity gate will promote songs to `verified` only after an explicit recheck.
+Songs 004–011 form the complete verified `நாம்` batch. The rendered scan was checked across PDF **31–41**; numbered lyric pages are PDF **33–41**, with song `009` continuing across PDF **38–39**.
+
+Key fidelity dispositions from this batch:
+
+- `004` uses scan-supported **`மாரி`**, not the initial `மாறி` typo;
+- `005` retains source spacing `பெண் மானே` and its `குமரன்` / `மீனா` / `இருவரும்` turns;
+- `006` prints no separate `குரல்` line, so no singer identity is inferred; source role `மீனா:` is retained;
+- `007` retains printed `ஜிக்கி (சோகம்)`;
+- `008` retains source forms such as `சைபோக`, `சைரந்திரியே`, `மம்முதா`;
+- `009` is one source record across two pages;
+- `010` keeps the scan-visible `பலியாக தருகின்ற இளமை` rather than silently changing it;
+- `011` retains its `(எதையும்)` refrain cues and source political/philosophical wording.
+
+See `notes/BATCH_004_011_REVIEW.md` for the complete batch audit.
+
+The first three records remain **draft**. Their dedicated fidelity recheck has not yet been completed, so they are not promoted merely because their pages were inspected during intake.
+
+## Attribution disposition
+
+The anthology's film-level list for `நாம்` on PDF 32 places `கலைஞர்` beside the eight entries represented by songs 004–011. These remain **`anthology-attributed`**, because this 2024 compilation is evidence for the anthology's attribution and not automatically an original film-era authorship source.
+
+The same PDF separately lists `ஆயிரம் தெய்வங்கள்` with `பாரதியார்`; that item is not inserted into the numbered Kalaignar-song batch.
 
 ## Important editorial disposition
 
@@ -67,14 +87,15 @@ The anthology's `மந்திரிகுமாரி` note says Kalaignar wr
 - `metadata.yaml` — source and progress metadata;
 - `mapping.md` — full structural/film-section map;
 - `PROGRESS.md` — live processing checkpoint;
-- `AUDIT.md` — source-intake and mapping audit;
+- `AUDIT.md` — source, structural and fidelity audit;
 - `PROJECT_HANDOVER.md` — continuation instructions;
 - `notes/anthology-notes.md` — editorial/source notes;
+- `notes/BATCH_004_011_REVIEW.md` — verified `நாம்` batch review;
 - `songs/README.md` — song-layer policy;
 - `songs/schema.json` — inventory/record schema;
-- `songs/index.json` — all 54 numbered songs;
+- `songs/index.json` — all 54 numbered songs and current statuses;
 - `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md` — reusable repository-level anthology workflow.
 
 ## Next activity
 
-Transcribe and visually review **songs 004–011**, the eight-song `நாம்` section at PDF **31–41**, preserving the anthology's exact lineation, labels, composer/voice metadata and source spelling. Do not translate yet.
+Process and visually verify **songs 012–018**, the `அம்மையப்பன்` section at PDF **42–50**, preserving exact anthology lineation, labels, composer/voice metadata and source spelling. Do not begin English translation yet.
