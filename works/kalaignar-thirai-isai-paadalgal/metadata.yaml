@@ -50,10 +50,25 @@ structure:
   notes_and_back_matter_pdf_pages: "190-194"
   visible_numbered_interior_printed_page_alignment: "PDF page number matches visible printed footer for inspected continuous numbered interior pages beginning at PDF 5; section map uses the printed page ranges visible in the contents"
 
+page_scan:
+  status: complete
+  scope: this-pdf-only
+  method: rendered-page-visual-scan
+  physical_pages_scanned: 194
+  song_page_definition: "actual numbered lyric body or direct continuation; title lists, prose mentions, metadata, photographs, history, bibliography and back matter do not qualify"
+  song_bearing_pages: 62
+  ignored_pages: 132
+  song_bearing_page_ranges: "26, 29-30, 33-41, 44-50, 53-59, 62-67, 70, 73-74, 77, 80, 83-84, 86-87, 90-94, 97, 100, 103, 106, 109-110, 113, 116-117, 120-124, 127, 130"
+  last_song_bearing_pdf_page: 130
+  report_path: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
+  machine_map_path: "songs/page-map.json"
+  processing_policy: "Process only song-bearing pages in ascending PDF order; skip non-song pages without creating song files."
+
 song_inventory:
   status: complete
   path: "songs/index.json"
   schema: "songs/schema.json"
+  page_map: "songs/page-map.json"
   expected_numbered_songs: 54
   inventoried_numbered_songs: 54
   film_sections: 23
@@ -66,9 +81,8 @@ song_inventory:
   verified_song_pdf_pages: "33-41"
   verified_cross_page_song_ids: ["kalaignar-song-009"]
   batch_review_paths: ["notes/BATCH_004_011_REVIEW.md"]
-  next_song_batch: "012-018"
-  next_film_section: "அம்மையப்பன்"
-  next_pdf_pages: "42-50"
+  next_unprocessed_song: "012"
+  next_unprocessed_song_pdf_page: 44
 
 special_source_notes:
   - id: "mandhiri-kumari-censored-song"
@@ -77,7 +91,7 @@ special_source_notes:
     mentioned_title: "ஆளப்பிறந்தவன் தமிழன் அவன்தானே"
     anthology_claim: "Kalaignar wrote this song, and the note states that it was prohibited/censored."
     numbered_lyric_record_created: false
-    disposition: "editorial-prose-mention-only"
+    disposition: "editorial-prose-mention-only; ignored for song-file creation under page-scan policy"
   - id: "mandhiri-kumari-numbered-song-001"
     pdf_page: 26
     title: "ஊருக்கு உழைப்பவண்டி"
@@ -101,7 +115,7 @@ special_source_notes:
 
 transcription:
   status: in-progress
-  source_order: anthology_song_number
+  source_order: ascending_song_bearing_pdf_page
   song_files_expected: 54
   song_files_draft: 3
   song_files_verified: 8
@@ -109,7 +123,7 @@ transcription:
   song_files_not_started: 43
   verified_through_song_number: 11
   verified_noncontiguous_note: "Songs 004-011 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
-  next_action: "Transcribe and visually verify songs 012-018 in the அம்மையப்பன் section, PDF 42-50."
+  next_action: "Open PDF 44, create/update song 012 from that lyric page, then continue only through pages listed in songs/page-map.json; skip all non-song pages."
 
 fidelity_audit:
   status: in-progress
@@ -117,6 +131,7 @@ fidelity_audit:
   review_song_ids: []
   draft_song_ids_pending_recheck: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
   latest_batch_review: "notes/BATCH_004_011_REVIEW.md"
+  full_pdf_song_page_scan: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
 
 translation:
   status: not-started
@@ -127,6 +142,7 @@ reader_export:
 status:
   source_intake: complete
   structural_mapping: verified
+  full_pdf_song_page_scan: complete
   song_inventory: complete
   tamil_song_transcription: in-progress
   tamil_song_fidelity_audit: in-progress
