@@ -9,13 +9,13 @@ Full scan ledger: `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
 
 - songs located: **54/54**;
 - draft: **001–003** — 3;
-- verified: **004–025** — 22;
+- verified: **004–054** — 51;
 - review: **0**;
-- not started: **026–054** — 29;
-- latest review: `../notes/PAGE_BATCH_064_REVIEW.md`;
-- next song-bearing page: **PDF 65 / song 026**.
+- not started: **0**;
+- latest review: `../notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`;
+- next unprocessed song-bearing page: **none**.
 
-Cross-page verified records so far: 009, 019, 023 and 024.
+Every whitelist entry associated with songs `004–054` has now been transcribed and visually verified. The final page-driven run processed songs `026–054` through PDF 130.
 
 ## Rules
 
@@ -26,4 +26,8 @@ Cross-page verified records so far: 009, 019, 023 and 024.
 - Do not infer absent singers or import missing lyrics.
 - Default attribution remains `anthology-attributed` unless stronger source evidence is separately established.
 
-English translation remains blocked until the relevant Tamil lyric is verified.
+## Remaining Tamil gate
+
+The only remaining Tamil lyric work is a dedicated visual fidelity recheck of songs `001–003` on PDF 26, 29 and 30. They remain `draft`; do not call the whole corpus complete-verified until they pass.
+
+English translation remains blocked until that gate closes.
