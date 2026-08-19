@@ -24,33 +24,32 @@ Authoritative whitelist and map:
 | Item | Status |
 |---|---:|
 | Draft song files | 3 |
-| Verified song files | 22 |
+| Verified song files | 51 |
 | Review song files | 0 |
-| Not-started song files | 29 |
+| Not-started song files | 0 |
 | English translations | 0 |
 
 ### Draft
 
-- `001–003` remain draft pending their dedicated fidelity pass.
+- `001–003` remain draft pending their dedicated visual fidelity pass.
 
 ### Verified
 
-- `004–011` — PDF 33–41;
-- `012–018` — PDF 44–50;
-- `019–023` — PDF 53–59;
-- `024` — PDF 62–63;
-- `025` — PDF 64.
+- `004–054` — **51 verified song files**.
+- Every formerly not-started whitelist entry through the final song-bearing page, PDF 130, has now been processed and visually checked.
 
-Latest review: `notes/PAGE_BATCH_064_REVIEW.md`.
+Latest review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-Song 025 was transcribed from the single numbered lyric page PDF 64. Music `டி.ஆர்.பாப்பா`, voice `டி.வி. ரத்னம்`, repeated `மாயக்காரா` / `ஜாலக்காரா` / `பகவானே` wording, source hyphenation, and source-visible forms were retained without importing soundtrack or web text.
+The final page-driven run added songs **026–054** from only their mapped song-bearing pages. New cross-page records in that run are `036` (PDF 86–87), `037` (PDF 90–91), `051` (PDF 121–122), and `052` (PDF 123–124).
 
 ## Next activity
 
-The next song-bearing page is:
+There are no remaining `not-started` numbered songs. The only Tamil fidelity work left is the dedicated recheck of the three early draft pages:
 
-- **PDF 65 → song 026**.
+- PDF 26 → song `001`;
+- PDF 29 → song `002`;
+- PDF 30 → song `003`.
 
-Continue only through song-bearing pages listed in `songs/page-map.json`.
+After those three pass, the Tamil lyric corpus can be promoted to **complete-verified**.
 
-Do not begin English translation before the relevant Tamil lyric is verified.
+Do not begin English translation before that Tamil fidelity gate is closed.
