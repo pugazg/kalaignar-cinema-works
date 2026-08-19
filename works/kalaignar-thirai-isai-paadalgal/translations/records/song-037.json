@@ -1,0 +1,147 @@
+{
+  "id": "kalaignar-song-en-037",
+  "song_id": "kalaignar-song-037",
+  "anthology_song_number": 37,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-037.md",
+    "tamil_status": "verified",
+    "pdf_pages": [90, 91],
+    "tamil_title": "குடி உயர கோல் உயரும்",
+    "film_title_ta": "தூக்கு மேடை",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "When the people rise, the sceptre rises",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "பல்லவி",
+        "english_label": "Pallavi",
+        "source_tamil_lines": [
+          "ஆண் : குடி உயர கோல் உயரும்",
+          "கோல் உயர குடி உயரும்",
+          "உயரம் எத்தனை அழகாய் எத்தனை விதமாய்",
+          "எங்கள் மக்கள் சாகிறார்",
+          "எரியும் நெருப்பில் வேகிறார்"
+        ],
+        "english_lines": [
+          "Man: When the people rise, the sceptre rises,",
+          "When the sceptre rises, the people rise,",
+          "What heights — how beautifully, in how many ways,",
+          "Our people are dying,",
+          "They are cooking in burning fire."
+        ],
+        "notes": [
+          "`குடி / கோல்` is kept as `people / sceptre`, preserving the source's political reversal rather than generalizing it into abstract governance language.",
+          "The printed `ஆண்` role remains inside the first source/English line under the printed `பல்லவி` structure.",
+          "`வேகிறார்` remains the harsh bodily image `cooking` in fire rather than being softened to generic suffering."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "சரணம்",
+        "english_label": "Charanam",
+        "source_tamil_lines": [
+          "எல்லாரும் இந்நாட்டு மன்னர் என்றார் பாட்டுல",
+          "எங்கள் மன்னர் வாழுகின்றார் மண்ணாங்கட்டி வீட்டுல",
+          "இடி இடித்தால் மழை பொழிந்தால்",
+          "மன்னரெல்லாம் ரோட்டுல",
+          "சிறுகொடிந்த பறவை கூட இருக்குதுப்பா கூட்டில",
+          "(குடி உயர)"
+        ],
+        "english_lines": [
+          "'Everyone is a king of this country,' he said in the song,",
+          "Our king lives in a mud-clod house,",
+          "If thunder strikes, if rain pours,",
+          "All the kings are on the road,",
+          "Even a `sirukodindha` bird has a nest, appa,",
+          "(People rise)."
+        ],
+        "notes": [
+          "The colloquial `பாட்டுல / வீட்டுல / ரோட்டுல` register is kept in direct spoken English rather than formalized.",
+          "The verified source form `சிறுகொடிந்த` is not silently corrected to a familiar bird/wing expression; `sirukodindha` is therefore retained as an explicit pressure point."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "எங்களுக்கும் உணர்ச்சி உண்டு",
+          "எங்கள் பங்களாவில் மெத்தை உண்டு",
+          "புளிச்சக்காடி மதுவை உண்டு",
+          "புருஷன் மனைவி சேருவதுண்டு",
+          "வெளிச்சம் போட்டா காரும் வந்தா",
+          "விலகி விலகி படுப்பதுண்டு ....",
+          "(குடி உயர)"
+        ],
+        "english_lines": [
+          "We too have feeling,",
+          "In our bungalow there is a mattress,",
+          "We drink the sour-kaadi liquor,",
+          "Husband and wife do come together,",
+          "When light is thrown, when a car comes,",
+          "We move aside, move aside, and lie down....",
+          "(People rise)."
+        ],
+        "notes": [
+          "`பங்களா` remains `bungalow`, preserving the source's bitterly comic contrast rather than explaining the social setting inside the lyric.",
+          "`புளிச்சக்காடி` is retained conservatively as `sour-kaadi`; the verified source form is not replaced with a guessed modern beverage label.",
+          "The repeated `விலகி விலகி` remains repeated `move aside, move aside`."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "முத்தெல்லாம் முக்குச் சளி",
+          "ரத்தக் காயம் ரத்தினமாம்",
+          "வைரங்கள் நட்சத்திரம்",
+          "வானவில்லே வைடூரியம்.. எப்படி...."
+        ],
+        "english_lines": [
+          "All pearls are nose-mucus,",
+          "A blood-wound, they say, is a gem,",
+          "Diamonds are stars,",
+          "The rainbow itself is vaiduriyam.. how...."
+        ],
+        "notes": [
+          "The deliberately degrading pearl/mucus and wound/gem reversals are left explicit.",
+          "`வைடூரியம்` remains `vaiduriyam` rather than being narrowed to one English gem name, preserving the source term."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "குத்துக் கல்லு சிம்மாசனம்",
+          "குப்பத் தொட்டி ராஜாங்கம்",
+          "செத்துப் பிழைக்கும் மக்களுக்கு",
+          "ஜெகத்தை அழிக்கும் சக்தி உண்டு",
+          "(குடி உயர)"
+        ],
+        "english_lines": [
+          "Kuthuk-kallu is the throne,",
+          "The garbage bin is the kingdom,",
+          "For the people who survive by dying,",
+          "There is power to destroy the world,",
+          "(People rise)."
+        ],
+        "notes": [
+          "`குத்துக் கல்லு` is retained as `kuthuk-kallu` because the compact source form does not support one uniquely safe English object label without interpretation.",
+          "`செத்துப் பிழைக்கும்` remains the paradox `survive by dying`; its social-political violence is not softened."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This two-page song uses kingship language, homelessness, bodily ridicule, gem inversions and apocalyptic political force; the English preserves the satire rather than converting it into explanatory prose.",
+      "PDF provenance remains one continuous record across pages 90–91.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
