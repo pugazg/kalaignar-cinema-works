@@ -52,10 +52,10 @@ Authoritative report: `editions/en/PREFLIGHT_QA_REPORT.md`
 Probe: `editions/en/audit_probe.py`  
 Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
 
-Passing automated run:
+Latest passing automated run:
 
-- head commit audited: `39c6b56d8ccd13c350bb1673697667bf2d809737`;
-- workflow run: `32274309519`;
+- head commit audited: `f919d3b177c5114b6bc32eb64318207f2a6773c5`;
+- workflow run: `32274775152`;
 - Python: 3.12;
 - audit warnings/errors: **0/0**.
 
