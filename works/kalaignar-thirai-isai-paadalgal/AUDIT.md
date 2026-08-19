@@ -1,88 +1,53 @@
 # Audit — கலைஞர் திரை இசைப் பாடல்கள்
 
-## Audit scope
+## Scope
 
-This checkpoint covers **source intake + full 194-page song-presence scan + Tamil lyric work through numbered song 018**.
+This checkpoint covers the **complete 194-page song-presence scan** and line-level Tamil lyric verification through numbered song **023**.
 
-The full-PDF scan is a **page-classification audit**. Line-level verification is performed only when each song-bearing page is processed.
+The rendered scan is authoritative. The full-PDF scan classifies pages; a song is marked verified only after its own song-bearing page(s) are visually checked.
 
-## Source binary
+## Full-PDF page classification
 
-- filename: `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`;
-- size: 130,427,193 bytes;
-- SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
-- physical PDF pages: **194**;
-- source mode: image-only / rendered scan controls.
-
-## Full-PDF song-page classification
-
-**PASS — all 194 physical PDF pages were visually scanned.**
+**PASS — 194/194 pages scanned.**
 
 - song-bearing pages: **62**;
 - ignored pages: **132**;
-- numbered songs represented: **54 (`001–054`)**;
-- final song-bearing page: **PDF 130**;
-- PDF 131–194 contains no numbered lyric page.
+- numbered songs located: **54/54**;
+- final song-bearing page: **130**.
 
-Song-bearing whitelist:
-
-`26, 29–30, 33–41, 44–50, 53–59, 62–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`
-
-Full ledger: `notes/FULL_PDF_SONG_PAGE_SCAN.md`  
+Authoritative ledger: `notes/FULL_PDF_SONG_PAGE_SCAN.md`  
 Machine map: `songs/page-map.json`
 
-## Current lyric fidelity status
+## Lyric fidelity status
 
-### Draft songs 001–003
-
-Songs 001–003 remain **draft** pending their dedicated line-by-line verification.
-
-### Verified songs 004–011
-
-**PASS — 8/8 records verified against PDF 33–41.**  
-Detailed review: `notes/BATCH_004_011_REVIEW.md`.
-
-### Verified songs 012–018
-
-**PASS — 7/7 records verified against the next consecutive song-bearing pages PDF 44–50.**  
-Detailed review: `notes/PAGE_BATCH_044_050_REVIEW.md`.
-
-Important dispositions from PDF 44–50:
-
-- all seven lyric pages print music `டி.ஆர்.பாப்பா`;
-- none prints a separate `குரல்` line, so no singer was inferred;
-- source role/performance labels remain exact where printed;
-- song 014 and song 015 are separate numbered records even though they share the `காதல் துறையே புதுமைக் கனவே` material; song 015 is explicitly the sorrow version;
-- source forms such as `உன்செயல்`, `விண்ண முதே`, `வெறுங்`, `மான் தோல்`, ellipses and refrain cues remain unnormalized.
-
-Current totals:
-
-- inventory: **54/54**;
-- verified: **15** (`004–018`);
 - draft: **3** (`001–003`);
+- verified: **20** (`004–023`);
 - review: **0**;
-- not started: **36** (`019–054`).
+- not started: **31** (`024–054`).
 
-## Processing-policy rule
+Verified page runs:
 
-For this PDF only:
+- PDF 33–41 → songs 004–011;
+- PDF 44–50 → songs 012–018;
+- PDF 53–59 → songs 019–023.
 
-1. follow `songs/page-map.json` in ascending PDF order;
-2. inspect and process song-bearing pages only;
-3. skip non-song pages without creating files;
-4. keep a multi-page lyric in one song file;
-5. never create a file from a title-list/prose mention alone;
-6. never import absent lyrics from elsewhere.
+Latest detailed review: `notes/PAGE_BATCH_053_059_REVIEW.md`.
 
-## Authorship / attribution
+### Latest fidelity dispositions
 
-The 2024 anthology remains evidence for what this edition attributes. Default status stays `anthology-attributed`; page-driven processing does not upgrade item authorship to original-film primary-source verification.
+- PDF 51–52 were skipped as non-song pages.
+- Song 019 remains one record across PDF 53–54 and preserves speaker labels, ticket-price wordplay, colloquial source forms and repeated cues.
+- Song 020 retains `வேலை யில்லாத` and `எனமனம்போலவே` as printed.
+- Song 021 retains `ஆழிசூழ்`, `வந்திங்கு`, repetitions and source lineation.
+- Song 022 retains `மணிப் புறா`, `பூமானே`, `ரோஜாக் கொல்லை`, `முகந்தானே`, and `சுகந்தானே`.
+- Song 023 remains one source record across PDF 58–59. Its printed `வசனம்` / `பாட்டு` alternation is preserved, including card-suit forms `கிளாவர்`, `டைமன்`, and `இஸ்பேட்`.
 
-## Open work
+## PDF-specific processing rule
 
-1. line-by-line fidelity recheck for songs 001–003;
-2. **skip PDF 51–52**;
-3. continue at **PDF 53–54 / song 019**;
-4. proceed only through the whitelist until PDF 130;
-5. whole-corpus reconciliation after all 54 song files exist;
-6. English translation only after the relevant Tamil lyric is verified.
+For this PDF only, process actual numbered lyric pages/direct continuations and ignore every other page for lyric-file creation. Do not import missing lyrics from elsewhere.
+
+## Next
+
+Skip PDF **60–61**. Resume at **PDF 62–63 / song 024** and continue only through the whitelist.
+
+Songs 001–003 still require their dedicated fidelity recheck before the Tamil corpus can become contiguous-complete.
