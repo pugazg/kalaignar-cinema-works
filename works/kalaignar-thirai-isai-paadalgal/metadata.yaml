@@ -58,13 +58,17 @@ song_inventory:
   inventoried_numbered_songs: 54
   film_sections: 23
   draft_song_files: 3
-  verified_song_files: 0
-  not_started_song_files: 51
+  verified_song_files: 8
+  review_song_files: 0
+  not_started_song_files: 43
   draft_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_ids: []
-  next_song_batch: "004-011"
-  next_film_section: "நாம்"
-  next_pdf_pages: "31-41"
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
+  verified_song_pdf_pages: "33-41"
+  verified_cross_page_song_ids: ["kalaignar-song-009"]
+  batch_review_paths: ["notes/BATCH_004_011_REVIEW.md"]
+  next_song_batch: "012-018"
+  next_film_section: "அம்மையப்பன்"
+  next_pdf_pages: "42-50"
 
 special_source_notes:
   - id: "mandhiri-kumari-censored-song"
@@ -82,16 +86,37 @@ special_source_notes:
     pdf_page: 28
     songs: ["kalaignar-song-002", "kalaignar-song-003"]
     note: "The anthology's film-song list explicitly places Kalaignar beside the two numbered Parasakthi songs represented here; this remains anthology-level item attribution unless separately primary-source-verified."
+  - id: "naam-item-level-attribution"
+    pdf_page: 32
+    songs: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
+    note: "PDF 32 places Kalaignar beside all eight numbered Naam songs represented here. The separate ஆயிரம் தெய்வங்கள் entry is printed with பாரதியார் and is excluded from this numbered Kalaignar batch."
+  - id: "naam-song-006-no-voice-line"
+    pdf_page: 35
+    song: "kalaignar-song-006"
+    note: "The numbered lyric page prints no separate voice line. The source role label மீனா: is retained and no singer is inferred."
+  - id: "naam-song-009-cross-page"
+    pdf_pages: "38-39"
+    song: "kalaignar-song-009"
+    note: "The numbered lyric continues across two physical/printed pages and is stored as one song record."
 
 transcription:
   status: in-progress
   source_order: anthology_song_number
   song_files_expected: 54
   song_files_draft: 3
-  song_files_verified: 0
+  song_files_verified: 8
   song_files_review: 0
-  song_files_not_started: 51
-  next_action: "Transcribe and visually review songs 004-011 in the நாம் section, PDF 31-41."
+  song_files_not_started: 43
+  verified_through_song_number: 11
+  verified_noncontiguous_note: "Songs 004-011 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
+  next_action: "Transcribe and visually verify songs 012-018 in the அம்மையப்பன் section, PDF 42-50."
+
+fidelity_audit:
+  status: in-progress
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
+  review_song_ids: []
+  draft_song_ids_pending_recheck: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
+  latest_batch_review: "notes/BATCH_004_011_REVIEW.md"
 
 translation:
   status: not-started
@@ -104,6 +129,6 @@ status:
   structural_mapping: verified
   song_inventory: complete
   tamil_song_transcription: in-progress
-  tamil_song_fidelity_audit: not-started
+  tamil_song_fidelity_audit: in-progress
   english_translation: not-started
   reader_export: not-started
