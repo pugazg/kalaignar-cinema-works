@@ -6,7 +6,8 @@ This audit covers:
 
 1. the complete PDF-specific song-presence scan;
 2. line-level Tamil lyric verification for all **54 numbered songs**;
-3. the initial source-linked English translation pilot for songs **001–003**.
+3. the source-linked English translation pilot for songs **001–003**;
+4. the first scaled English translation batch, songs **004–011**.
 
 The rendered scan controls Tamil. Verified Tamil song files control the English derivative. No external recording, lyric website, subtitle, alternate edition, or soundtrack-memory reconstruction is used to repair either layer.
 
@@ -54,46 +55,68 @@ The following verified songs span more than one song-bearing page and remain one
 
 For this PDF only, process actual numbered lyric pages/direct continuations and ignore every other page for lyric-file creation. Do not import missing lyrics from elsewhere.
 
-## English pilot gate
-
-**PASS — songs 001–003 are `pilot-verified`.**
-
-Translation authority and structure:
+## English translation authority
 
 - guide: `docs/SONG_TRANSLATION_GUIDE.md`;
 - schema: `translations/schema.json`;
 - index: `translations/index.json`;
-- detailed review: `translations/PILOT_REVIEW.md`;
-- records: `translations/records/song-001.json` through `song-003.json`.
+- pilot review: `translations/PILOT_REVIEW.md`;
+- first scaled review: `translations/BATCH_004_011_REVIEW.md`.
+
+The approved mode is **`semantic-poetic-source-faithful`**. English must retain Kalaignar's language, rhetoric, repetition, political/social force, concrete imagery, colloquial energy and source-specific constructions. It is not a singable adaptation.
+
+## Pilot gate — songs 001–003
+
+**PASS — 3/3 `pilot-verified`.**
 
 Pilot checks passed:
 
-- all three source Tamil song files were already verified;
-- each English record preserves song ID, anthology number and PDF provenance;
-- every Tamil lyric line/cue in the pilot has an explicit English mapping;
-- exact source turn/performance labels remain traceable and are not expanded by guess;
-- no Tamil source file was modified during translation;
-- no external lyric or audio source was imported;
-- attribution remains `anthology-attributed` and is not strengthened merely because the English is reviewed.
+- each source Tamil song was already verified;
+- every record preserves song ID, anthology number and PDF provenance;
+- every Tamil lyric line/cue has an explicit English mapping;
+- exact source turn/performance labels remain traceable;
+- no Tamil source file was modified;
+- no external lyric/audio source was imported;
+- attribution remains `anthology-attributed`.
 
-## Kalaignar-language fidelity in English
+The pilot established voice baselines for rustic social satire, romantic image chains and maternal/class lament.
 
-The approved mode is **`semantic-poetic-source-faithful`**.
+## First scaled gate — songs 004–011
 
-The pilot specifically verifies that English does not flatten Kalaignar's language:
+**PASS — 8/8 `verified`.**
 
-- song `001`: rustic `di`, buffalo-calf refrain, seven-storey-mansion/begging contrast and leader/wealth satire remain audible;
-- song `002`: lamp/flame repetition, young-peacock image, `sugarcane-Tamil`, `flower where dew sleeps`, `magnetic statue` and `live like honey` remain concrete;
-- song `003`: splendour/roots reversal, ruined-womb image, repeated `Why were you born?`, bird/food image, `crores upon crores` and poor/grandee contrast remain intact.
+Structural checks:
 
-The difficult verified source `வந்தேன் தவழ்ந்தாய்?` is not silently emended in translation; the pilot preserves its visible subject shift and documents the pressure point.
+- verified Tamil files `song-004.md` through `song-011.md` are the only textual translation authorities;
+- every visible Tamil lyric line is represented in the corresponding English record;
+- role/performance labels and abbreviated refrain cues remain source-linked;
+- song `009` retains PDF **38–39** as one cross-page provenance record;
+- no verified Tamil file was changed by the English batch;
+- no source anomaly was silently repaired through English;
+- no external recording, subtitle, web lyric or alternate edition was used.
+
+### Kalaignar-language fidelity checks
+
+- `004`: folk-devotional vocabulary, water/cloud/rain reasoning, Kodumpavi, colloquial speech and the tax grievance remain visible together;
+- `005`: yaazh/doe/breeze/sky/moon/Tamil-epic/unpainted-painting imagery and doubled verbs remain intact;
+- `006`: the `மணம்` fragrance/marriage wordplay is made visible, while the veena/thunderbolt/garden/vine/cyclone/pollen/dark-house imagery remains concrete;
+- `007`: the earlier yaazh image turns into grief through `a yaazh that plucks an unreturning sorrow`, singing ghost and inscribed-page imagery;
+- `008`: source-anomalous names/forms are transliterated rather than normalized; `Dei`, kichili fruit, consumption, monkey/moustache/tail taunts and Bhimasena remain direct;
+- `009`: ignorance-as-wasteland, knowledge-as-plough-point, science/ploughing, field labour, Nandanar versus hands-and-legs labour, golden queen/comrade and common granary remain a single rationalist/agricultural chain;
+- `010`: fourfold `வாழ்க`, Arignar, buffalo/worm/eagle/mouse/tiger images, rights/reform rhetoric and `பகுத்தறிவு` remain explicit; possible title/wordplay expressions are conservatively transliterated;
+- `011`: snake, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death, arrogance, army, fury and slander remain unsoftened.
+
+Detailed review: `translations/BATCH_004_011_REVIEW.md`.
 
 ## Current gate result
 
-- Tamil transcription: **complete-verified**;
+- Tamil transcription: **complete-verified — 54/54**;
 - Tamil fidelity audit: **complete**;
-- English translation: **pilot-verified — 3/54**;
-- English remaining: **51 songs**;
+- English translated: **11/54**;
+- English pilot-verified: **3** (`001–003`);
+- English verified: **8** (`004–011`);
+- English draft/review: **0/0**;
+- English not started: **43** (`012–054`);
 - reader/export: **not started**.
 
-Next translation batch: **004–011** (`நாம்`), using the approved Kalaignar-language pilot rules.
+Next translation batch: **012–018** (`அம்மையப்பன்`), using the approved Kalaignar-language source-faithful rules.
