@@ -30,27 +30,23 @@ Every numbered lyric record has been transcribed and visually verified from its 
 
 ## Final Tamil gate
 
-Songs `001–003` were the final pilot drafts. Direct reinspection of PDF 26, 29 and 30 closed that gate:
-
-- `001`: `அறியான்டி` confirmed as the source spelling; `வேணசெல்வம்`, `பெண்ணி`, `ஏழைக்கிக்` retained;
-- `002`: no lyric correction required;
-- `003`: uncertainty markers resolved as `வந்தேன் தவழ்ந்தாய்?` and `பாழான`.
-
-The Tamil corpus is therefore **54/54 complete-verified** and must be treated as immutable translation input.
+The Tamil corpus is **54/54 complete-verified** and is immutable source input for derivatives.
 
 ## English derivative
 
 English translation lives separately under `../translations/`:
 
-- status: **in progress**;
-- translated: **46/54**;
+- status: **complete-verified**;
+- translated: **54/54**;
 - pilot-verified: **001–003**;
-- verified: **004–046**;
-- draft/review: **0/0**;
-- not started: **047–054 — 8 songs**;
+- verified: **004–054**;
+- draft/review/not-started: **0/0/0**;
 - mode: **`semantic-poetic-source-faithful`**;
 - governing guide: `../../../docs/SONG_TRANSLATION_GUIDE.md`;
-- scaled reviews: `../translations/BATCH_004_011_REVIEW.md`, `../translations/BATCH_012_018_REVIEW.md`, `../translations/BATCH_019_025_REVIEW.md`, `../translations/BATCH_026_032_REVIEW.md`, `../translations/BATCH_033_039_REVIEW.md`, `../translations/BATCH_040_046_REVIEW.md`;
-- next English batch: **047–054**.
+- final review: `../translations/BATCH_047_054_REVIEW.md`.
 
-The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability. Existing multi-page English records retain complete source-page provenance; the final batch must preserve `051` (PDF 121–122) and `052` (PDF 123–124) in the same way.
+The English layer retains Kalaignar's language and does not rewrite these verified Tamil song files for smoothness, rhyme or singability. All eight multi-page songs retain complete source-page provenance in the translation index, including final-batch records `051` (PDF 121–122) and `052` (PDF 123–124).
+
+## Next derivative activity
+
+Run whole-corpus English reader/export preflight across all 54 source-linked translation records without altering the complete-verified Tamil or English source layers.
