@@ -1,0 +1,100 @@
+{
+  "id": "kalaignar-song-en-015",
+  "song_id": "kalaignar-song-015",
+  "anthology_song_number": 15,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-015.md",
+    "tamil_status": "verified",
+    "pdf_pages": [47],
+    "tamil_title": "காதல் துறையே புதுமைக் கனவே — சோக கீதம்",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "O realm of love, O new dream — song of sorrow",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "முத்தாயி சோக கீதம்",
+        "english_label": "முத்தாயி — song of sorrow",
+        "source_tamil_lines": [
+          "காதல் துறையே புதுமைக் கனவே - மன",
+          "மேவும் இன்ப ஜோதியே ஓடிவா"
+        ],
+        "english_lines": [
+          "O realm of love, O new dream — O blissful flame",
+          "That dwells in the heart, come running."
+        ],
+        "notes": [
+          "The opening deliberately matches song 014 because the Tamil reprises the same lines; the English does not vary the wording merely for novelty."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "(கா)",
+        "english_label": "(Kaa — source refrain cue)",
+        "source_tamil_lines": ["(கா)"],
+        "english_lines": ["(Kaa — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வானில் உலாவும் மாமுகில் காணும்போதிலே...",
+          "சோலைக் கலாபம் ஆடுதே..."
+        ],
+        "english_lines": [
+          "When I see the great cloud roaming the sky...",
+          "The grove's plumage dances..."
+        ],
+        "notes": [
+          "The cloud/plumage image is kept aligned with song 014 while preserving the source ellipses and sorrow-song context."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "(கா)",
+        "english_label": "(Kaa — source refrain cue)",
+        "source_tamil_lines": ["(கா)"],
+        "english_lines": ["(Kaa — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "அன்பில் விளைந்த மாமணி...",
+          "ஆனந்த வாழ்வின் செல்வம் நீ",
+          "தென்றலில் வீசும் கானமே",
+          "தேன்மழையே என் ஜீவனே",
+          "இன்பத்தின் எல்லை காணவே",
+          "துன்பத்தில் மடியில் தூங்குவோம்"
+        ],
+        "english_lines": [
+          "O great gem born of love...",
+          "You are the treasure of a blissful life,",
+          "O song that drifts upon the breeze,",
+          "O honey-rain, my life,",
+          "To behold the boundary of bliss,",
+          "In sorrow, let us sleep in the lap."
+        ],
+        "notes": [
+          "`கானம்` is retained as song, so `தென்றலில் வீசும் கானமே` remains an image of song moving on the breeze rather than a generic `sweet breeze`.",
+          "`தேன்மழை` remains the concrete `honey-rain` image.",
+          "The final Tamil line does not name whose lap; the English preserves that omission instead of inventing a possessor."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This source is a sorrow-version related to song 014. Repeated lines retain repeated English so the relationship between the two songs remains audible.",
+      "The source provides no separate singer line; no performer identity is inferred.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
