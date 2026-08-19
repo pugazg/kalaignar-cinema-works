@@ -80,7 +80,7 @@ special_source_notes:
     attribution_state: anthology-attributed
   - id: "parasakthi-item-level-attribution"
     pdf_page: 28
-    songs: ["கலைஞர்-song-002", "கலைஞர்-song-003"]
+    songs: ["kalaignar-song-002", "kalaignar-song-003"]
     note: "The anthology's film-song list explicitly places Kalaignar beside the two numbered Parasakthi songs represented here; this remains anthology-level item attribution unless separately primary-source-verified."
 
 transcription:
