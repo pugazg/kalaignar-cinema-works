@@ -1,0 +1,134 @@
+{
+  "id": "kalaignar-song-en-043",
+  "song_id": "kalaignar-song-043",
+  "anthology_song_number": 43,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-043.md",
+    "tamil_status": "verified",
+    "pdf_pages": [103],
+    "tamil_title": "ஆற, அமர கொஞ்சம் யோசிச்சுப் பாரு",
+    "film_title_ta": "மக்கள் ஆணையிட்டால்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Calmly, at ease, think a little and see",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "“உங்கள் ஓட்டு கதிரவனுக்கா, எங்கள் ஓட்டு கதிரவனுக்கே",
+          "நாட்டு நடப்ப பார்த்து போடுங்கம்மா ஓட்டு”"
+        ],
+        "english_lines": [
+          "“Is your vote for the Rising Sun? Our vote is for the Rising Sun itself,",
+          "Look at how the country is going and cast your vote, amma.”"
+        ],
+        "notes": [
+          "The opening campaign quotation remains explicitly campaign speech; `கதிரவன்` is rendered as `Rising Sun` in this quoted electoral context without importing any additional campaign text.",
+          "The spoken `ம்மா` force remains `amma`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஆற, அமர கொஞ்சம் யோசிச்சுப் பாரு",
+          "நீ அடுத்தவரும் தலைமுறையே சிந்தித்துப் பாரு",
+          "ஏற, இறங்க பாத்து எடைகளைப் போடு",
+          "நீ எத்தனுக்கும் பித்தனுக்கும் தடைகளைப் போடு",
+          "(ஆற, அமர)"
+        ],
+        "english_lines": [
+          "Calmly, at ease, think a little and see,",
+          "Think and see about the generation that comes next,",
+          "Look at the rise and fall and place the weights,",
+          "Put barriers before the trickster and the madman,",
+          "(Calmly, at ease)."
+        ],
+        "notes": [
+          "`ஆற, அமர` is kept as a paired calm/settled instruction rather than compressed to a single neutral adverb.",
+          "The weighing image in `ஏற, இறங்க ... எடைகளைப் போடு` remains visible.",
+          "Verified `எத்தனுக்கும்` is translated conservatively through the source's trickster sense; the Tamil witness is not normalized."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஓட்டுக்கு உன்னிடத்தில் வருபவன் யாரு",
+          "உழைப்பவனா, ஊரை ஏய்ப்பவனா",
+          "தேர்தல் களத்தினிலே நிற்பவன் யாரு",
+          "தியாகம் செஞ்ச வரை மோசம் செஞ்சவரு",
+          "ஓட்டுக்கு பணம் கொடுக்கும் உலுத்தர்களை நம்பாதேப்பா",
+          "நாட்டுக்கு உயிர் கொடுக்கும் நல்லவரை தள்ளாதேப்பா",
+          "லஞ்சப் பேய்களை வெறுக்கணுமே",
+          "ஏழை துன்பம் தீர்ப்பவரே ஜெயிக்கணுமே... அதுக்கு",
+          "(ஆற அமர)"
+        ],
+        "english_lines": [
+          "Who is the one who comes to you for your vote?",
+          "A worker — or one who cheats the town?",
+          "Who is the one standing in the election field?",
+          "Those who made sacrifice; those who committed fraud,",
+          "Do not trust the wretches who give money for votes, appa,",
+          "Do not push away the good one who gives his life for the country, appa,",
+          "We must hate the bribe-demons,",
+          "The one who ends the poor man's suffering must win... for that,",
+          "(Calmly, at ease)."
+        ],
+        "notes": [
+          "The worker / town-cheater contrast, vote-buying accusation and `லஞ்சப் பேய்கள்` as `bribe-demons` remain direct political language.",
+          "The source's compact `தியாகம் செஞ்ச வரை மோசம் செஞ்சவரு` is not silently rewritten into a grammatically repaired Tamil sentence; the English keeps its two opposed actions visible.",
+          "`உலுத்தர்கள்` is rendered as `wretches`, retaining the contemptuous colloquial register; `ப்பா` remains audible as `appa`."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "என்ன விலை கேட்டு, போடுங்கம்மா ஓட்டு",
+          "அரிசி விலையை பாத்து போடுங்கம்மா ஓட்டு",
+          "இந்த படை போதுமா, இன்னும் கொஞ்சம் வேணுமா",
+          "கொள்கையே இல்லாத கொடியவன் யாரு",
+          "கொடுமைக்குப் பணியா வீரனும் யாரு",
+          "ஊழல் புரிஞ்சி வாழும் மனுஷன் யாரு",
+          "அதை ஊருக்குச் சொல்லும் உயர்ந்தவன் யாரு",
+          "உறவுக்கு கரம் கொடுப்பான் எங்க வீட்டு தம்பியப்பா",
+          "உரிமைக்கு குரல் கொடுப்பான் தென்பாண்டி சிங்கமப்பா",
+          "உதயக் கதிருதான் உதிக்குது பாரு உடன் பிறப்பே நீ ஒன்றாக சேரு",
+          "(ஆற, அமர)"
+        ],
+        "english_lines": [
+          "Ask what price — cast your vote, amma,",
+          "Look at the price of rice and cast your vote, amma,",
+          "Is this force enough, or do you want a little more?",
+          "Who is the cruel one with no principle at all?",
+          "Who is the warrior who will not bow to cruelty?",
+          "Who is the man who lives practising corruption?",
+          "Who is the noble one who tells the town about it?",
+          "For kinship he will give his hand — our house's thambi, appa,",
+          "For rights he will give his voice — the Thenpandi lion, appa,",
+          "See, the rising ray itself is rising — O udanpirappe, come together as one,",
+          "(Calmly, at ease)."
+        ],
+        "notes": [
+          "The rice-price and vote-price rhetoric remains literal rather than being generalized into election reform language.",
+          "`உறவுக்கு கரம் / உரிமைக்கு குரல்` is retained as hand-for-kinship / voice-for-rights, preserving Kalaignar's paired rhetorical construction.",
+          "`தம்பி`, `தென்பாண்டி சிங்கம்`, and especially `உடன் பிறப்பே` remain culturally and politically audible as `thambi`, `Thenpandi lion`, and `udanpirappe` rather than being flattened into generic supporter language."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song is campaign rhetoric built from colloquial address, weighing metaphors, anti-corruption accusation, rice-price politics and kinship/rights word-pairing. The English preserves that political register instead of neutralizing it.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
