@@ -1,0 +1,32 @@
+name: Kalaignar song anthology English reader preflight
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "works/kalaignar-thirai-isai-paadalgal/translations/index.json"
+      - "works/kalaignar-thirai-isai-paadalgal/translations/records/**"
+      - "works/kalaignar-thirai-isai-paadalgal/songs/page-map.json"
+      - "works/kalaignar-thirai-isai-paadalgal/songs/song-*.md"
+      - "works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py"
+      - ".github/workflows/kalaignar-song-anthology-english-preflight.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  reader-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run whole-corpus English reader preflight
+        run: python works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py
