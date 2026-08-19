@@ -1,0 +1,158 @@
+{
+  "id": "kalaignar-song-en-035",
+  "song_id": "kalaignar-song-035",
+  "anthology_song_number": 35,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-035.md",
+    "tamil_status": "verified",
+    "pdf_pages": [84],
+    "tamil_title": "ஒண்ணு கொடுத்தா ஒன்பது கிடைக்கும்",
+    "film_title_ta": "மறக்க முடியுமா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Give one, you get nine",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "ஒண்ணு கொடுத்தா ஒன்பது கிடைக்கும்",
+          "உனக்குத் தெரியுமா? உனக்குத் தெரியுமா?"
+        ],
+        "english_lines": [
+          "Give one, you get nine,",
+          "Do you know? Do you know?"
+        ],
+        "notes": ["The colloquial `ஒண்ணு` is kept in an equally direct spoken register rather than formalized."]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "ஒன்பதுக்கு வட்டி உடனே கொடுக்க",
+          "என்னால் முடியுமா? என்னால் முடியுமா?"
+        ],
+        "english_lines": [
+          "To give interest on the nine at once,",
+          "Can I do it? Can I do it?"
+        ],
+        "notes": ["`வட்டி` remains financial `interest`, preserving the arithmetic/romantic wordplay."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "பெண்ணுக்குச் சுவை வட்டியில் உண்டு",
+          "அசலைப்போடம்மா அசலைப்போடம்மா",
+          "கண்ணுக்குள் ஆடும் கனியேமலரே -",
+          "கன்னம் இதுதாம்மா கன்னம் இதுதாம்மா"
+        ],
+        "english_lines": [
+          "For a woman, the flavour lies in the interest,",
+          "Put down the principal, amma, put down the principal, amma,",
+          "O fruit-flower dancing within the eye —",
+          "This is the cheek, amma, this is the cheek, amma."
+        ],
+        "notes": [
+          "`வட்டி / அசல்` remains `interest / principal`; the financial vocabulary is the source's erotic-comic mechanism and is not replaced by a smoother metaphor.",
+          "The verified joined form `கனியேமலரே` is represented conservatively as `fruit-flower` rather than silently separating or correcting the Tamil."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "கன்னத்தில் சித்திரம் கனியிதழ் முத்திரை",
+          "எண்ணிக்கொள் தருகிறேன் திருமணம்",
+          "பண்ணிக்கொள் தருகிறேன்",
+          "(இப்ப)"
+        ],
+        "english_lines": [
+          "A picture on the cheek, the seal of fruit-lips,",
+          "Count it and take it — I give it; marriage,",
+          "Make it — I give it,",
+          "(Now)."
+        ],
+        "notes": [
+          "The compact `எண்ணிக்கொள் / பண்ணிக்கொள்` sequence is kept as a visible verbal pairing instead of being rewritten into a newly invented English joke.",
+          "`(இப்ப)` remains the source cue `(Now)`."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "ஒண்ணு கொடுத்தா ஒன்பது கிடைக்கும்",
+          "உனக்குத் தெரியுமா? உனக்குத் தெரியுமா?"
+        ],
+        "english_lines": [
+          "Give one, you get nine,",
+          "Do you know? Do you know?"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 6,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "ஒன்பதுக்கு வட்டி உடனே கொடுக்க",
+          "என்னால் முடியுமா? என்னால் முடியுமா?"
+        ],
+        "english_lines": [
+          "To give interest on the nine at once,",
+          "Can I do it? Can I do it?"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 7,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "குளிப்பதில் சுகமோ? நினைவில் களிப்பதில்",
+          "சுகமோ? காதல் தளிர்ப்பதில் சுகமோ?",
+          "கேட்டதை அளிப்பதில் சுகமோ"
+        ],
+        "english_lines": [
+          "Is pleasure in bathing? In rejoicing in memory,",
+          "Is there pleasure? Is pleasure in love putting forth shoots?",
+          "Is pleasure in giving what was asked?"
+        ],
+        "notes": ["The repeated `சுகமோ?` questioning and `love putting forth shoots` image are preserved rather than summarized."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "இருப்பது வீடு... வீணே பறப்பது ஏனோ?",
+          "எனக்கும் துடிக்குது பருவம்... ஆனால்",
+          "தடுக்குது இதயம்..."
+        ],
+        "english_lines": [
+          "There is a home... why fly about for nothing?",
+          "My season too is throbbing... but,",
+          "The heart restrains it..."
+        ],
+        "notes": ["`பருவம்` remains the bodily/seasonal image rather than being reduced to a generic statement of desire."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The duet depends on financial vocabulary, repetition, cheek/lip imagery and colloquial erotic bargaining; the English keeps those mechanisms visible rather than replacing them with polished romance.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
