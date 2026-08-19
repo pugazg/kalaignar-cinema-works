@@ -46,37 +46,26 @@ The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadal
 - numbered songs: **54/54 inventoried (`001–054`)**;
 - Tamil song transcription: **54/54 complete-verified**;
 - Tamil fidelity audit: **complete — 0 draft / 0 review / 0 unresolved Tamil readings**;
-- latest Tamil gate review: `works/kalaignar-thirai-isai-paadalgal/notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
-- English translation: **in progress — 39/54 translated**;
+- English translation: **54/54 complete-verified**;
 - English pilot-verified: **3 (`001–003`)**;
-- English verified: **36 (`004–039`)**;
-- English draft/review: **0/0**;
-- English not started: **15 (`040–054`)**;
+- English verified: **51 (`004–054`)**;
+- English draft/review/not-started: **0/0/0**;
 - English mode: **`semantic-poetic-source-faithful`**, retaining Kalaignar's language rather than producing a singable rewrite;
-- English pilot review: `works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md`;
-- scaled English reviews: `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_004_011_REVIEW.md`, `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_012_018_REVIEW.md`, `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_019_025_REVIEW.md`, `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_026_032_REVIEW.md`, `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_033_039_REVIEW.md`;
-- reader/export: **not-started**.
+- final English review: `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_047_054_REVIEW.md`;
+- reader/export preflight: **not-started**.
 
 The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered Tamil song files are visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
 
-The English pilot uses songs `001–003` to establish the translation voice across rustic political/social satire, romantic metaphor and maternal/class lament. It deliberately retains source images and rhetorical force such as **buffalo calf**, **sugarcane-Tamil**, **flower where dew sleeps**, **magnetic statue**, **live like honey**, repeated **Why were you born?**, and the poor-versus-grandee contrast.
+The complete English corpus follows the same source discipline. Across all 54 songs it preserves Kalaignar's political and social rhetoric, repetition, concrete image chains, colloquial and folk speech, Tamil cultural vocabulary, performance terminology and difficult verified source forms instead of smoothing them into generic lyric English.
 
-The first scaled `நாம்` batch (`004–011`) is verified. It retains folk-devotional/rain-science language, romantic yaazh imagery, `மணம்` fragrance/marriage wordplay, grief imagery, comic mythic taunts, rationalist/agricultural politics, reform rhetoric and political endurance.
+The final `047–054` batch preserves **sons of the soil** and `naam / naan` wordplay; `kalaignan` and `udanpirappe`; mother-warrior grief/pride; `mullai / bhava / jathi / veena`; the two-page colloquial `machaan` duet with `saivam / asaivam` wordplay and anti-subordination language; the two-page family song with Kannagi and Classical-Tamil imagery; the deliberately segmented performance-poem form of `053`; and `aanpaal / paayiram / water upon red earth` in `054`. Full two-page provenance is retained for `051` (PDF 121–122) and `052` (PDF 123–124).
 
-The second scaled `அம்மையப்பன்` batch (`012–018`) is also verified. It retains Ammaiyappa/Aiyan devotional address and paradoxes; repeated `paappa`; realm-of-love, cloud/plumage and heart-veena imagery; the sorrow reprise with honey-rain; agal-lamp, Tamil/Kaveri/Dravida imagery; living-portrait/fallen-statue/empty-temple grief; and love-dove, tender-shoot body, deer-skinned tiger, mango-cuckoo and moon-maiden imagery. The difficult verified `நீ... இராவிடம் இருள் சூழும் / என்ற நிலை தந்த` wording in song `016` remains a documented source pressure point rather than being silently repaired through English.
-
-The third scaled batch (`019–025`) preserves theatre-ticket hawker comedy and source sound-play; unemployment/mistaken-rank reversal; **ocean-girdled world**, `thaazhi` and **grammar of chastity**; jewel-dove imagery; the source's `வசனம்` / `பாட்டு` alternation and Clavar/Daiman/Ispade card language; **body of fame**, walking corpse, temple of knowledge, working comrade and public-welfare-as-medicine; and Ayarpadi Kanna, Mayakkara/Jaalakkara/Bhagavane, lightning-waist and spear-shaming eyes.
-
-The fourth scaled batch (`026–032`) preserves sky-flower/honeyed-moon romance; `eduppu`, `pann`, `yaazh`; explicit **O Tamil** lullaby language; source-split imagery; `kalagam / kalayam` intoxication sound-play; martial `வெல்க / செல்க / சென்று வா / வென்று வா`; and **one woman for one man** with the anthology's own printed Thirukkural wording.
-
-The fifth scaled batch (`033–039`) preserves triple cheek/bowl/colour/sign repetition; the paper-boat/shared-sinking social lament and literal **death at six, death at a hundred**; `வட்டி / அசல்` as **interest / principal**; **justice for the heart / sword for the shoulder** with Bharathi/Buddha/Gandhi/Arignar Anna and direct caste/religion challenge; `குடி / கோல்` as **people / sceptre**, `sirukodindha`, `kuthuk-kallu` and **survive by dying**; direct **O Tamil** with source-pressure `Ponni nadiyaan`; and `kurinji`, `iyal / isai / koothu / Muthamizh`, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother**. Multi-page provenance remains complete for `036` (PDF 86–87) and `037` (PDF 90–91).
-
-Difficult verified Tamil forms are documented rather than silently repaired through English. No verified Tamil song file was changed by the English translation layer.
+Difficult verified Tamil forms remain documented rather than silently repaired through English. No verified Tamil song file was changed by the English translation layer.
 
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** translate and verify songs **040–046** using the approved Kalaignar-language source-faithful rules.
+**Next:** run a whole-corpus **English reader/export preflight** across all 54 source-linked translation records, preserving anthology order, source/page provenance, `anthology-attributed` status and the distinction between 3 `pilot-verified` and 51 `verified` records.
 
 ## மனோகரா status
 
