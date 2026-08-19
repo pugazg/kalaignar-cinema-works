@@ -19,8 +19,9 @@ Read completely before changing this work:
 9. `works/kalaignar-thirai-isai-paadalgal/PROGRESS.md`
 10. `works/kalaignar-thirai-isai-paadalgal/AUDIT.md`
 11. `works/kalaignar-thirai-isai-paadalgal/notes/anthology-notes.md`
-12. `works/kalaignar-thirai-isai-paadalgal/songs/README.md`
-13. `works/kalaignar-thirai-isai-paadalgal/songs/index.json`
+12. `works/kalaignar-thirai-isai-paadalgal/notes/BATCH_004_011_REVIEW.md`
+13. `works/kalaignar-thirai-isai-paadalgal/songs/README.md`
+14. `works/kalaignar-thirai-isai-paadalgal/songs/index.json`
 
 Then inspect current GitHub `main`. Current repository state is authoritative over this handover if later work has advanced.
 
@@ -89,11 +90,26 @@ Tamil lyric files:
 - `songs/song-001.md` — draft — PDF 26;
 - `songs/song-002.md` — draft — PDF 29;
 - `songs/song-003.md` — draft — PDF 30;
-- songs 004–054 — not started.
+- `songs/song-004.md` through `songs/song-011.md` — **verified** — PDF 33–41;
+- songs 012–054 — not started.
 
-Verified song files: **0**.
+Current totals:
 
-Do not call the initial three songs verified until a dedicated line-by-line recheck is completed and recorded.
+- verified: **8** (`004–011`);
+- draft: **3** (`001–003`);
+- review: **0**;
+- not started: **43** (`012–054`).
+
+The latest verified batch is documented in `notes/BATCH_004_011_REVIEW.md`.
+
+### `நாம்` batch safeguards
+
+- PDF 32 places `கலைஞர்` beside the eight entries represented by songs 004–011. Keep them `anthology-attributed` unless stronger film-era evidence is separately established.
+- The separate `ஆயிரம் தெய்வங்கள்` entry is printed with `பாரதியார்`; do not add it to the Kalaignar numbered batch.
+- Song 004 source is `மாரி`, not `மாறி`.
+- Song 006 has no printed `குரல்` line; do not infer a singer. Preserve `மீனா:` as the source role label.
+- Song 009 is one lyric across PDF 38–39.
+- Preserve unusual/colloquial source forms in all records; do not normalize from soundtrack familiarity.
 
 ## Special source case — மந்திரிகுமாரி
 
@@ -108,7 +124,7 @@ Disposition:
 
 ## Exact next activity
 
-Process **songs 004–011**, film **`நாம்`**, PDF **31–41**.
+Process **songs 012–018**, film **`அம்மையப்பன்`**, PDF **42–50**.
 
 For the batch:
 
@@ -117,8 +133,8 @@ For the batch:
 3. preserve exact composer/voice/character-turn labels;
 4. preserve lineation, refrains, ellipses, colloquial/source spelling;
 5. leave uncertain readings visible;
-6. recheck the rendered scan;
-7. update `songs/index.json`, `PROGRESS.md`, `AUDIT.md`, `metadata.yaml` and README;
+6. recheck the rendered scan before marking a record `verified`;
+7. update `songs/index.json`, `PROGRESS.md`, `AUDIT.md`, `metadata.yaml` and work-level status documents;
 8. do not begin English translation.
 
 ## Later gates
@@ -126,7 +142,7 @@ For the batch:
 After song 054:
 
 1. whole-corpus song-number/title/page reconciliation;
-2. full visual fidelity pass and correction ledger;
+2. full visual fidelity reconciliation, including draft songs 001–003;
 3. source-to-source cross-links to existing film works only where exact matches are confirmed;
 4. English translation only for verified Tamil;
 5. reader/export only after translation/QA if requested.
