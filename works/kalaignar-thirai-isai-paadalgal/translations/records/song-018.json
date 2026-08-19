@@ -1,0 +1,136 @@
+{
+  "id": "kalaignar-song-en-018",
+  "song_id": "kalaignar-song-018",
+  "anthology_song_number": 18,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-018.md",
+    "tamil_status": "verified",
+    "pdf_pages": [50],
+    "tamil_title": "காதல் புறா காதிலே பேசுவதென்னோ",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Why does the love-dove speak into the ear?",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "பூங்காவனம்",
+        "english_label": "பூங்காவனம்",
+        "source_tamil_lines": [
+          "காதல் புறா காதிலே பேசுவதென்னோ -",
+          "அதன் ரகசியம் ஏதோ...",
+          "பாசம் கொண்டதும் வீணோ?...",
+          "பாவை ஏன் பிறந்தேனோ?..."
+        ],
+        "english_lines": [
+          "Why does the love-dove speak into the ear? —",
+          "What secret might it hold...",
+          "Was the affection I bore all in vain?...",
+          "Why was I born a maiden?..."
+        ],
+        "notes": [
+          "The love-dove and secret-in-the-ear images remain literal and intimate rather than being rewritten as `love whispers to me`.",
+          "The repeated `பாவை ஏன் பிறந்தேனோ?` is retained as a direct existential lament."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "தளிர்மேனி சோர்ந்தாள் இளையராணி",
+          "தாவும் தென்றலே வா... வா...",
+          "சோகம் தீர்க்கவே... நீ... வா..."
+        ],
+        "english_lines": [
+          "The young queen with a tender-shoot body has withered,",
+          "O leaping breeze, come... come...",
+          "To end this sorrow... you... come..."
+        ],
+        "notes": [
+          "`தளிர்மேனி` remains the tender-shoot body image instead of becoming merely `delicate` or `young`.",
+          "The repeated `வா` and broken ellipses remain audible in English."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "மான் தோல் வேங்கை வாழ்ந்திடும் காட்டில்",
+          "மாங்குயில் தான் கூவிடலாமோ...",
+          "பாசம் கொண்டதும் வீணோ?...",
+          "பாவை ஏன் பிறந்தேனோ?..."
+        ],
+        "english_lines": [
+          "In a forest where a deer-skinned tiger lives,",
+          "Can the mango-cuckoo truly sing?...",
+          "Was the affection I bore all in vain?...",
+          "Why was I born a maiden?..."
+        ],
+        "notes": [
+          "The verified source deliberately preserves the spaced phrase `மான் தோல்`; the English keeps the unsettling `deer-skinned tiger` image instead of silently repairing or explaining it away.",
+          "`மாங்குயில்` remains `mango-cuckoo`, preserving the source's compound image rather than reducing it to `bird`."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "துயர் மேவும் இருளில் வீழ்ந்தாள் ராணி",
+          "தூங்கும் வெண்ணில பெண்ணே - ஒளி",
+          "தூவ வந்திடு கண்ணே..."
+        ],
+        "english_lines": [
+          "The queen has fallen into darkness where sorrow dwells,",
+          "O sleeping moon-maiden — come",
+          "To scatter light, dear one..."
+        ],
+        "notes": [
+          "The sorrow/darkness and sleeping moon-maiden images remain concrete; the English does not generalize them into `bring me hope`."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நேசத்தினாலே மோசம் போனேன்",
+          "ஆசைக் கனவெல்லாம் பலிக்காதோ",
+          "பாசம் கொண்டதும் வீணோ",
+          "பாவை ஏன் பிறந்தேனோ..."
+        ],
+        "english_lines": [
+          "Through love itself I was deceived,",
+          "Will none of my dreams of desire come true?",
+          "Was the affection I bore all in vain?",
+          "Why was I born a maiden?..."
+        ],
+        "notes": [
+          "The source's love/deception reversal remains direct; it is not softened into disappointment.",
+          "The final refrain returns almost unchanged, preserving the song's circular lament."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "(கா)",
+        "english_label": "(Kaa — source refrain cue)",
+        "source_tamil_lines": ["(கா)"],
+        "english_lines": ["(Kaa — source refrain cue)"],
+        "notes": [
+          "The abbreviated source cue remains a cue; absent refrain text is not reconstructed."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation preserves the source's recurring love-dove, maiden, tender-shoot body, breeze, deer-skinned tiger, mango-cuckoo, darkness and moon-maiden images rather than smoothing them into generic heartbreak.",
+      "The source role label `பூங்காவனம்` remains exact and no singer is inferred.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
