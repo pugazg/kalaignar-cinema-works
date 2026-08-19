@@ -2,83 +2,87 @@
 
 ## Current phase
 
-**Tamil song transcription and fidelity verification — in progress.**
+**Tamil song transcription and fidelity verification — page-driven mode.**
 
-Source intake, full anthology structural mapping and the complete numbered-song inventory are established. Song transcription now advances in source order with each completed batch visually rechecked before verification.
+The user has set a work-specific rule for this PDF: scan the page; if it contains an actual song lyric body, create/process the song file; otherwise ignore the page. This rule applies only to `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`.
+
+## Full-PDF song-page scan
+
+The complete **194-page PDF has now been visually scanned** for actual song-bearing pages.
+
+- physical pages scanned: **194**;
+- song-bearing pages: **62**;
+- non-song pages ignored for song-file creation: **132**;
+- numbered songs represented: **54 (`001–054`)**;
+- last song-bearing page: **PDF 130**.
+
+Authoritative page whitelist:
+
+`26, 29–30, 33–41, 44–50, 53–59, 62–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`
+
+See:
+
+- `notes/FULL_PDF_SONG_PAGE_SCAN.md`
+- `songs/page-map.json`
+
+Pages containing only film metadata, song-title lists, photographs, prose mentions, historical/biographical material, bibliography, notes or back matter are ignored for lyric-file creation. In particular, PDF 25's prose mention of `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` does not create a song file because no lyric body is printed there.
 
 ## Counts
 
 | Item | Status |
 |---|---:|
 | Physical PDF pages | 194 |
-| Tamil film sections in numbered corpus | 23/23 mapped |
-| Numbered songs | 54/54 inventoried |
+| Song-bearing PDF pages | 62 |
+| Ignored PDF pages | 132 |
+| Numbered songs | 54/54 mapped |
 | Draft song files | 3 |
 | Verified song files | 8 |
 | Review song files | 0 |
 | Not-started song files | 43 |
 | English translations | 0 |
 
-## Completed activity
+## Existing lyric files
 
-### Intake / map
+### Draft — songs 001–003
 
-- source identity, file size, SHA-256 and physical page count recorded;
-- title/compiler/publisher/edition/ISBN recorded from the scan;
-- front matter, filmography, contents, numbered corpus and back matter mapped;
-- all 23 numbered-film sections mapped;
-- all 54 printed song numbers inventoried in source order;
-- separate song-anthology processing rules established at `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md`.
+1. `001` — PDF 26 — draft;
+2. `002` — PDF 29 — draft;
+3. `003` — PDF 30 — draft.
 
-### Initial draft batch — songs 001–003
+These remain draft pending their dedicated line-by-line verification pass.
 
-Draft source-led records remain for:
+### Verified — songs 004–011
 
-1. `001` — `ஊருக்கு உழைப்பவண்டி` — `மந்திரிகுமாரி` — PDF 26;
-2. `002` — `இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்` — `பராசக்தி` — PDF 29;
-3. `003` — `பூமாலை நீயே...` — `பராசக்தி` — PDF 30.
+The song-bearing pages PDF **33–41** were transcribed and visually checked:
 
-These three remain **draft, not verified**. Songs 001 and 003 contain source forms that still require their dedicated line-by-line recheck.
-
-### Verified batch — songs 004–011 / `நாம்`
-
-The complete `நாம்` section at PDF **31–41** was inspected directly from the rendered scan. Eight song files were transcribed and visually rechecked:
-
-- `004` — `மாரி மகமாயி மாரி` — PDF 33 — verified;
-- `005` — `பேசும் யாழே பெண் மானே` — PDF 34 — verified;
-- `006` — `மணமில்லா மலர் நானம்மா!` — PDF 35 — verified;
-- `007` — `பேசும் யாழே பெண் மானே` (`ஜிக்கி (சோகம்)`) — PDF 36 — verified;
-- `008` — `வருவாய் வருவாய்...` — PDF 37 — verified;
-- `009` — `புதியதோர் பாதை வகுப்போம்` — PDF 38–39 — verified;
-- `010` — `வாழ்க வாழ்க வாழ்க வாழ்கவே` — PDF 40 — verified;
-- `011` — `எதையும் தாங்கும் இதயம் வேண்டும்` — PDF 41 — verified.
+- `004` — PDF 33 — verified;
+- `005` — PDF 34 — verified;
+- `006` — PDF 35 — verified;
+- `007` — PDF 36 — verified;
+- `008` — PDF 37 — verified;
+- `009` — PDF 38–39 — verified;
+- `010` — PDF 40 — verified;
+- `011` — PDF 41 — verified.
 
 Batch review: `notes/BATCH_004_011_REVIEW.md`.
 
-Important dispositions:
+## Page-driven processing rule
 
-- song 004 was corrected to the scan-supported `மாரி`, not the first-pass typo `மாறி`;
-- song 006 prints no separate `குரல்` line, so no singer was inferred; its source role `மீனா:` is retained;
-- song 009 spans PDF 38→39 and remains one song record;
-- source-colloquial/unusual forms and role/refrain labels were preserved rather than normalized.
+From this checkpoint onward:
 
-## Attribution checkpoint
-
-The anthology presents the numbered corpus as Kalaignar film songs. Repository status therefore remains `anthology-attributed` unless separately strengthened by original-film primary-source evidence.
-
-For `நாம்`, PDF 32 explicitly places `கலைஞர்` beside the eight entries represented by songs 004–011. The separate `ஆயிரம் தெய்வங்கள்` entry is printed there with `பாரதியார்` and is not inserted into this numbered Kalaignar-song batch.
-
-## Special note
-
-The `மந்திரிகுமாரி` prose on PDF 25 mentions `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` as another Kalaignar-written song and says it was censored/prohibited. Because the lyric is not printed as a numbered record, it is documented in `notes/anthology-notes.md` but is not inserted into `001–054`.
+1. follow `songs/page-map.json` in ascending PDF-page order;
+2. open the rendered page before doing anything;
+3. if it is a song-bearing page, create/update the corresponding `song-NNN.md`;
+4. if it is not song-bearing, skip it completely for this activity;
+5. multi-page lyrics remain one song file;
+6. do not use film-section boundaries as the processing unit;
+7. do not create files from title lists or prose mentions;
+8. do not import missing lyrics from outside the PDF.
 
 ## Next activity
 
-Process **songs 012–018** from **`அம்மையப்பன்`**, PDF **42–50**:
+The next unprocessed song-bearing page is **PDF 44**, corresponding to **song 012**.
 
-1. inspect the film metadata / song-list context page(s);
-2. transcribe every numbered lyric in source order;
-3. preserve exact composer, voice, character/turn and refrain labels;
-4. recheck every lyric line against the rendered scan;
-5. update the inventory and checkpoint documents;
-6. do not begin English translation before Tamil verification.
+Continue from PDF 44 using the page whitelist only. After PDF 50, jump directly to PDF 53; skip PDF 51–52. Continue this way through the final song-bearing page, PDF 130.
+
+Do not begin English translation before the relevant Tamil lyric is verified.
