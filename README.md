@@ -39,22 +39,23 @@ The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadal
 - source SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
 - printed colophon statement: **`No of pages : 192`**;
 - structural mapping: **verified**;
+- full PDF song-page scan: **complete — 62 song-bearing / 132 ignored pages**;
 - numbered Tamil lyric corpus: PDF **24–130**;
 - film sections: **23/23 mapped**;
 - numbered songs: **54/54 inventoried (`001–054`)**;
-- Tamil song transcription: **3 draft / 8 verified / 0 review / 43 not-started**;
+- Tamil song transcription: **3 draft / 51 verified / 0 review / 0 not-started**;
 - draft songs: `001–003`;
-- verified songs: **`004–011`**, the complete `நாம்` batch;
-- latest verified source range: PDF **31–41**, with song `009` spanning PDF **38–39**;
+- verified songs: **`004–054`**;
+- latest page-driven review: `works/kalaignar-thirai-isai-paadalgal/notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`;
 - default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
 - English translation: **not-started**;
 - reader/export: **not-started**.
 
-For `நாம்`, PDF 32 places `கலைஞர்` beside the eight entries represented by numbered songs 004–011. The separate `ஆயிரம் தெய்வங்கள்` entry is printed with `பாரதியார்` and is not included in this numbered Kalaignar batch. Song 006 has no printed `குரல்` line, so no singer has been inferred. The detailed visual verification ledger is `works/kalaignar-thirai-isai-paadalgal/notes/BATCH_004_011_REVIEW.md`.
+The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. The final formerly not-started run created and visually verified songs **026–054** from only the established whitelist pages through PDF **130**. Cross-page verified records in the corpus include `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
 
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** process songs **012–018** from `அம்மையப்பன்`, PDF **42–50**, in source order with visual verification before promotion.
+**Next:** directly reinspect only PDF **26, 29 and 30** for draft songs **001–003**. If all three pass, the Tamil lyric corpus can be promoted to complete-verified; English translation remains blocked until then.
 
 ## மனோகரா status
 
