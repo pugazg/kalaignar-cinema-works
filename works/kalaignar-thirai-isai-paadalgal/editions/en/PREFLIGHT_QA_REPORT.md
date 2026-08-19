@@ -22,9 +22,9 @@ Preflight implementation: `works/kalaignar-thirai-isai-paadalgal/editions/en/aud
 
 Passing run:
 
-- head commit: `7a711133c437998fb1fd697319d794dbc51fb5e9`;
-- workflow run: `32278643036`;
-- run URL: `https://github.com/pugazg/kalaignar-cinema-works/actions/runs/32278643036`;
+- head commit: `71edb0a0626266a0e28c27c1a1a3fb24f635d9bd`;
+- workflow run: `32279189289`;
+- run URL: `https://github.com/pugazg/kalaignar-cinema-works/actions/runs/32279189289`;
 - Python: 3.12.
 
 ## PASS results
