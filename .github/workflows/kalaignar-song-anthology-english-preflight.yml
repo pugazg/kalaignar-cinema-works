@@ -12,6 +12,7 @@ on:
       - "works/kalaignar-thirai-isai-paadalgal/songs/song-*.md"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py"
+      - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py"
       - ".github/workflows/kalaignar-song-anthology-english-preflight.yml"
 
 permissions:
@@ -38,14 +39,21 @@ jobs:
       - name: Write passing preflight report
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py
 
-      - name: Commit passing preflight report
+      - name: Synchronize repository preflight status
+        run: python works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py
+
+      - name: Commit passing preflight checkpoint
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add works/kalaignar-thirai-isai-paadalgal/editions/en/PREFLIGHT_QA_REPORT.md
+          git add \
+            README.md \
+            data/works.json \
+            docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/kalaignar-thirai-isai-paadalgal/editions/en/PREFLIGHT_QA_REPORT.md
           if git diff --cached --quiet; then
-            echo "Preflight report is already current; nothing to commit."
+            echo "Preflight report and synchronized status are already current; nothing to commit."
           else
             git commit -m "Record anthology English reader preflight [skip ci]"
             git push
