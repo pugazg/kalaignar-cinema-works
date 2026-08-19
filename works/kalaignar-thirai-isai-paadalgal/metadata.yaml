@@ -1,0 +1,109 @@
+id: kalaignar-thirai-isai-paadalgal
+title_ta: "கலைஞர் திரை இசைப் பாடல்கள்"
+work_type: film_song_anthology
+source_type: compiled_printed_film_lyrics_anthology
+
+source:
+  identifier: "TVA_BOK_0065867"
+  identifier_basis: "supplied archive filename"
+  filename: "TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf"
+  byte_size: 130427193
+  sha256: "f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05"
+  physical_pdf_pages: 194
+  scan_type: image_only
+  ocr_authority: non_canonical_navigation_only
+  repository_binary_storage: not_committed
+
+publication_as_printed:
+  title: "கலைஞர் திரை இசைப் பாடல்கள்"
+  compiler: "நெல்லை ஜெயந்தா"
+  first_edition: "June 2024"
+  printed_no_of_pages_statement: 192
+  isbn: "978-81-961205-2-8"
+  price: "Rs. 300/-"
+  publisher: "தமிழ்நாடு இயல் இசை நாடக மன்றம்"
+  publisher_address:
+    - "பொன்னி 31, குமாரசாமி ராஜா சாலை"
+    - "அடையாறு, சென்னை - 600 020"
+  printer: "Jothy Enterprises, Chennai - 600 005"
+
+source_authority:
+  edition_text_authority: controlling
+  authorship_scope: anthology_claims_control_this_edition_only
+  default_song_attribution_state: anthology-attributed
+  primary_source_verification_requires_separate_evidence: true
+  external_audio_or_web_lyrics_may_fill_missing_text: false
+
+structure:
+  status: verified
+  mapping_path: "mapping.md"
+  front_matter_pdf_pages: "1-20"
+  contents_pdf_pages: "21-23"
+  numbered_song_corpus_pdf_pages: "24-130"
+  tamil_film_sections: 23
+  numbered_songs: 54
+  numbered_song_range: "001-054"
+  other_language_film_details_pdf_pages: "131-139"
+  film_world_journey_pdf_pages: "140-181"
+  people_who_opened_film_world_door_pdf_pages: "182-188"
+  bibliography_pdf_page: 189
+  notes_and_back_matter_pdf_pages: "190-194"
+  visible_numbered_interior_printed_page_alignment: "PDF page number matches visible printed footer for inspected continuous numbered interior pages beginning at PDF 5; section map uses the printed page ranges visible in the contents"
+
+song_inventory:
+  status: complete
+  path: "songs/index.json"
+  schema: "songs/schema.json"
+  expected_numbered_songs: 54
+  inventoried_numbered_songs: 54
+  film_sections: 23
+  draft_song_files: 3
+  verified_song_files: 0
+  not_started_song_files: 51
+  draft_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
+  verified_song_ids: []
+  next_song_batch: "004-011"
+  next_film_section: "நாம்"
+  next_pdf_pages: "31-41"
+
+special_source_notes:
+  - id: "mandhiri-kumari-censored-song"
+    pdf_page: 25
+    film: "மந்திரிகுமாரி"
+    mentioned_title: "ஆளப்பிறந்தவன் தமிழன் அவன்தானே"
+    anthology_claim: "Kalaignar wrote this song, and the note states that it was prohibited/censored."
+    numbered_lyric_record_created: false
+    disposition: "editorial-prose-mention-only"
+  - id: "mandhiri-kumari-numbered-song-001"
+    pdf_page: 26
+    title: "ஊருக்கு உழைப்பவண்டி"
+    attribution_state: anthology-attributed
+  - id: "parasakthi-item-level-attribution"
+    pdf_page: 28
+    songs: ["கலைஞர்-song-002", "கலைஞர்-song-003"]
+    note: "The anthology's film-song list explicitly places Kalaignar beside the two numbered Parasakthi songs represented here; this remains anthology-level item attribution unless separately primary-source-verified."
+
+transcription:
+  status: in-progress
+  source_order: anthology_song_number
+  song_files_expected: 54
+  song_files_draft: 3
+  song_files_verified: 0
+  song_files_review: 0
+  song_files_not_started: 51
+  next_action: "Transcribe and visually review songs 004-011 in the நாம் section, PDF 31-41."
+
+translation:
+  status: not-started
+
+reader_export:
+  status: not-started
+
+status:
+  source_intake: complete
+  structural_mapping: verified
+  song_inventory: complete
+  tamil_song_transcription: in-progress
+  tamil_song_fidelity_audit: not-started
+  english_translation: not-started
+  reader_export: not-started
