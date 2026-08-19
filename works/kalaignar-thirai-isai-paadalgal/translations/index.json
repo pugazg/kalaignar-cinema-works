@@ -8,13 +8,13 @@
   "source_corpus_status": "complete-verified",
   "source_songs_expected": 54,
   "source_songs_verified": 54,
-  "translated_songs": 32,
+  "translated_songs": 39,
   "status_counts": {
-    "not-started": 22,
+    "not-started": 15,
     "draft": 0,
     "review": 0,
     "pilot-verified": 3,
-    "verified": 29
+    "verified": 36
   },
   "pilot_song_ids": [
     "kalaignar-song-001",
@@ -50,7 +50,14 @@
     "kalaignar-song-029",
     "kalaignar-song-030",
     "kalaignar-song-031",
-    "kalaignar-song-032"
+    "kalaignar-song-032",
+    "kalaignar-song-033",
+    "kalaignar-song-034",
+    "kalaignar-song-035",
+    "kalaignar-song-036",
+    "kalaignar-song-037",
+    "kalaignar-song-038",
+    "kalaignar-song-039"
   ],
   "records": [
     {"translation_id":"kalaignar-song-en-001","song_id":"kalaignar-song-001","anthology_song_number":1,"status":"pilot-verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-001.md","source_pdf_pages":[26],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-001.json"},
@@ -84,15 +91,23 @@
     {"translation_id":"kalaignar-song-en-029","song_id":"kalaignar-song-029","anthology_song_number":29,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-029.md","source_pdf_pages":[70],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-029.json"},
     {"translation_id":"kalaignar-song-en-030","song_id":"kalaignar-song-030","anthology_song_number":30,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-030.md","source_pdf_pages":[73],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-030.json"},
     {"translation_id":"kalaignar-song-en-031","song_id":"kalaignar-song-031","anthology_song_number":31,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-031.md","source_pdf_pages":[74],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-031.json"},
-    {"translation_id":"kalaignar-song-en-032","song_id":"kalaignar-song-032","anthology_song_number":32,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-032.md","source_pdf_pages":[77],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-032.json"}
+    {"translation_id":"kalaignar-song-en-032","song_id":"kalaignar-song-032","anthology_song_number":32,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-032.md","source_pdf_pages":[77],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-032.json"},
+    {"translation_id":"kalaignar-song-en-033","song_id":"kalaignar-song-033","anthology_song_number":33,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-033.md","source_pdf_pages":[80],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-033.json"},
+    {"translation_id":"kalaignar-song-en-034","song_id":"kalaignar-song-034","anthology_song_number":34,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-034.md","source_pdf_pages":[83],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-034.json"},
+    {"translation_id":"kalaignar-song-en-035","song_id":"kalaignar-song-035","anthology_song_number":35,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-035.md","source_pdf_pages":[84],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-035.json"},
+    {"translation_id":"kalaignar-song-en-036","song_id":"kalaignar-song-036","anthology_song_number":36,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-036.md","source_pdf_pages":[86,87],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-036.json"},
+    {"translation_id":"kalaignar-song-en-037","song_id":"kalaignar-song-037","anthology_song_number":37,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-037.md","source_pdf_pages":[90,91],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-037.json"},
+    {"translation_id":"kalaignar-song-en-038","song_id":"kalaignar-song-038","anthology_song_number":38,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-038.md","source_pdf_pages":[92],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-038.json"},
+    {"translation_id":"kalaignar-song-en-039","song_id":"kalaignar-song-039","anthology_song_number":39,"status":"verified","source_song_file":"works/kalaignar-thirai-isai-paadalgal/songs/song-039.md","source_pdf_pages":[93],"translation_file":"works/kalaignar-thirai-isai-paadalgal/translations/records/song-039.json"}
   ],
   "pilot_review": "works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md",
   "batch_review_paths": [
     "works/kalaignar-thirai-isai-paadalgal/translations/BATCH_004_011_REVIEW.md",
     "works/kalaignar-thirai-isai-paadalgal/translations/BATCH_012_018_REVIEW.md",
     "works/kalaignar-thirai-isai-paadalgal/translations/BATCH_019_025_REVIEW.md",
-    "works/kalaignar-thirai-isai-paadalgal/translations/BATCH_026_032_REVIEW.md"
+    "works/kalaignar-thirai-isai-paadalgal/translations/BATCH_026_032_REVIEW.md",
+    "works/kalaignar-thirai-isai-paadalgal/translations/BATCH_033_039_REVIEW.md"
   ],
-  "next_batch": "033-039",
-  "next_action": "Translate and verify songs 033-039 using the approved Kalaignar-language source-faithful rules; preserve full cross-page provenance for songs 036 and 037."
+  "next_batch": "040-046",
+  "next_action": "Translate and verify songs 040-046 using the approved Kalaignar-language source-faithful rules."
 }
