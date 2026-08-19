@@ -30,19 +30,20 @@ Authoritative Tamil/source records:
 | Item | Status |
 |---|---:|
 | Source songs available | 54 |
-| English translated total | 25 |
+| English translated total | 32 |
 | Pilot-verified English songs | 3 |
-| Verified English songs beyond pilot | 22 |
+| Verified English songs beyond pilot | 29 |
 | English draft | 0 |
 | English review | 0 |
-| English not started | 29 |
+| English not started | 22 |
 
 Completed English gates:
 
 - pilot: `001–003`;
 - `BATCH_004_011_REVIEW.md` — `நாம்`, 8/8 PASS;
 - `BATCH_012_018_REVIEW.md` — `அம்மையப்பன்`, 7/7 PASS;
-- `BATCH_019_025_REVIEW.md` — songs 019–025, 7/7 PASS.
+- `BATCH_019_025_REVIEW.md` — songs 019–025, 7/7 PASS;
+- `BATCH_026_032_REVIEW.md` — songs 026–032, 7/7 PASS.
 
 Translation authorities:
 
@@ -52,6 +53,7 @@ Translation authorities:
 - `translations/BATCH_004_011_REVIEW.md`
 - `translations/BATCH_012_018_REVIEW.md`
 - `translations/BATCH_019_025_REVIEW.md`
+- `translations/BATCH_026_032_REVIEW.md`
 - `docs/SONG_TRANSLATION_GUIDE.md`
 
 ## Kalaignar-language translation rule
@@ -68,22 +70,22 @@ The English must retain Kalaignar's language rather than become generic lyric pr
 - no rhyme or singability is invented at the cost of meaning;
 - difficult source forms are documented rather than silently corrected through English.
 
-## Third scaled batch result — `019–025`
+## Fourth scaled batch result — `026–032`
 
 PASS — **7/7 verified**.
 
 The batch adds several new register tests while retaining source shape:
 
-- `019`: two-page theatre-ticket comedy with ticket prices, stains, dramatic sales patter, `ட்ராமா / வெங்கட்ராமா`, `kaali / naarkaali`, dressing-scene torch, house-full and other sound-driven jokes retained conservatively;
-- `020`: unemployment vanishing like morning dew, unexpected prosperity and `seemaatti` mistaken-status humour;
-- `021`: ocean-girdled world, rooster/pecking attack, chastity, end-age, `thaazhi` vessel and **grammar of chastity**;
-- `022`: jewel-dove, heart leaping toward the beloved, flower-spreading bed, `Poomaane`, rose enclosure/jasmine garden and Raja/Rani intimacy;
-- `023`: song/dialogue alternation, cat/world and curtain/moon ridicule, Harishchandra sarcasm and source-spelled card-suit language across PDF 58–59;
-- `024`: **body of fame**, body-as-cage, walking corpse, pandaaram/paradesi/Govinda, temple of knowledge, working comrade and public-welfare-as-medicine chain across PDF 62–63;
-- `025`: Ayarpadi Kanna, Mayakkara/Jaalakkara/Bhagavane, Bhama, burning-ember love, lightning-waist, honey-cheek and spear-shaming eyes.
+- `026`: sky-flower grove, honeyed moon, jasmine creeper, overflowing-dam love, quenched fire, uncloying nectar and sweet mango-fruit;
+- `027`: plucked lips, north-wind chill, intimate `di`, conservative `eduppu`, `pann` / `yaazh`, and lightning-like disappearance; no singer inferred;
+- `028`: explicit **O Tamil**, retained lullaby vocables, golden lamp, wave-struck mother's heart, moon and cloud-seeing peacock;
+- `029`: repeated `இருக்குது` architecture, price-question, net-in-eyes, printed `fruit- / cluster` split, statue, waist/youth/arrow and pleasure-poem imagery;
+- `030`: water/fire impossibilities, spinning world/body, `kalagam / kalayam` commotion/pot sound-play, heaven/dizziness, colloquial maiden-girl, unexpanded `one on the cheek`, and exact role labels;
+- `031`: repeated martial exhortation, warrior-conch, armies, head-giving, mother's honour, hill-like shoulder, enemy feet, flower-not-plucking warrior hands, raised sword, `vengai` tiger-king, and documented source pressure points;
+- `032`: **one woman for one man**, the anthology's printed Thirukkural wording, life-as-boat, unforgettable Veda, youth-as-fading-costume, storm preparedness and the oarless-boat analogy.
 
-Multi-page English provenance is preserved for `019` (53–54), `023` (58–59) and `024` (62–63). No verified Tamil song file was modified.
+No verified Tamil song file was modified.
 
 ## Next activity
 
-Translate and verify **songs 026–032** using the same Kalaignar-language source-faithful rules.
+Translate and verify **songs 033–039** using the same Kalaignar-language source-faithful rules. Preserve full cross-page provenance for songs `036` and `037`.
