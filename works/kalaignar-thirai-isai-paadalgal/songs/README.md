@@ -9,13 +9,13 @@ Full scan ledger: `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
 
 - songs located: **54/54**;
 - draft: **001–003** — 3;
-- verified: **004–023** — 20;
+- verified: **004–024** — 21;
 - review: **0**;
-- not started: **024–054** — 31;
-- latest review: `../notes/PAGE_BATCH_053_059_REVIEW.md`;
-- next song-bearing page: **PDF 62–63 / song 024**.
+- not started: **025–054** — 30;
+- latest review: `../notes/PAGE_BATCH_062_063_REVIEW.md`;
+- next song-bearing page: **PDF 64 / song 025**.
 
-PDF 60–61 are non-song pages and must be skipped.
+Song 024 is a cross-page record across PDF 62–63.
 
 ## Rules
 
