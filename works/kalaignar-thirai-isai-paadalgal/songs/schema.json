@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kalaignar-thirai-isai-paadalgal-song-record.schema.json",
+  "title": "Kalaignar Thirai Isai Paadalgal song inventory record",
+  "type": "object",
+  "required": [
+    "id",
+    "anthology_song_number",
+    "film_title_ta",
+    "film_year_printed",
+    "section_pdf_pages",
+    "contents_title",
+    "status",
+    "attribution_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^kalaignar-song-[0-9]{3}$"
+    },
+    "anthology_song_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 54
+    },
+    "film_section_ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 23
+    },
+    "film_title_ta": { "type": "string" },
+    "film_year_printed": { "type": "integer" },
+    "section_pdf_pages": { "type": "string" },
+    "contents_title": { "type": "string" },
+    "lyric_title": { "type": ["string", "null"] },
+    "lyric_pdf_pages": { "type": ["string", "null"] },
+    "music_as_printed": { "type": ["string", "null"] },
+    "voice_as_printed": { "type": ["string", "null"] },
+    "song_file": { "type": ["string", "null"] },
+    "status": {
+      "enum": ["not-started", "draft", "review", "verified"]
+    },
+    "attribution_status": {
+      "enum": ["anthology-attributed", "primary-source-verified", "review", "unresolved"]
+    },
+    "attribution_evidence": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}
