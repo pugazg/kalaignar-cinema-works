@@ -18,9 +18,9 @@ See `notes/FULL_PDF_SONG_PAGE_SCAN.md` and `songs/page-map.json`.
 ## Current status
 
 - draft: **3** (`001–003`);
-- verified: **21** (`004–024`);
+- verified: **22** (`004–025`);
 - review: **0**;
-- not started: **30** (`025–054`);
+- not started: **29** (`026–054`);
 - English translation: **not started**.
 
 Verified song-bearing runs:
@@ -28,11 +28,12 @@ Verified song-bearing runs:
 - PDF 33–41 → songs 004–011;
 - PDF 44–50 → songs 012–018;
 - PDF 53–59 → songs 019–023;
-- PDF 62–63 → song 024.
+- PDF 62–63 → song 024;
+- PDF 64 → song 025.
 
-Latest review: `notes/PAGE_BATCH_062_063_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_064_REVIEW.md`.
 
-Song 024 is a two-page record. Its exact source music/voice lines, `(பொதுநலம்)` refrain cues, hyphenated constructions and unusual printed forms are preserved without normalization.
+Song 025 preserves the numbered page's music `டி.ஆர்.பாப்பா`, voice `டி.வி. ரத்னம்`, repeated vocatives/refrain, source hyphenation and source-visible lexical forms without soundtrack-driven normalization.
 
 ## Attribution
 
@@ -40,4 +41,4 @@ The 2024 anthology is authoritative for what this edition prints and attributes.
 
 ## Next activity
 
-Resume at **PDF 64 / song 025**, then continue only through song-bearing pages in `songs/page-map.json`.
+Resume at **PDF 65 / song 026**, then continue only through song-bearing pages in `songs/page-map.json`.
