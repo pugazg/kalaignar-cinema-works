@@ -1,4 +1,4 @@
-# 004 — மாறி மகமாயி மாறி
+# 004 — மாரி மகமாயி மாரி
 
 <!-- source: pdf=33 printed=33 anthology_song=004 status=verified -->
 
