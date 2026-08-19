@@ -1,0 +1,94 @@
+{
+  "id": "kalaignar-song-en-046",
+  "song_id": "kalaignar-song-046",
+  "anthology_song_number": 46,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-046.md",
+    "tamil_status": "verified",
+    "pdf_pages": [110],
+    "tamil_title": "நீதிமன்றத் துலாக்கோலே சாயலாமா",
+    "film_title_ta": "மதுரை மீனாட்சி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Can the court's balance-scale lean?",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நீதிமன்றத் துலாக்கோலே சாயலாமா",
+          "நிரபராதி நியாயமின்றிச் சாகலாமா சாகலாமா",
+          "பாவமோரிடம் பழியோரிடம் என்பது இதுதானா",
+          "ஆதவன் ஒளியை அமாவாசை என்பதும் சரிதானா",
+          "இது நல்லோர் வாழ்ந்திடும் திருநாடா",
+          "இல்லை பொல்லா விலங்குகள் இருள் காடா",
+          "அராஜகம் என்பதற்கோ அளவே இல்லையா",
+          "ஆண்டவா நீ இருந்தால் பதில் சொல்லைய்யா",
+          "(பாவ)"
+        ],
+        "english_lines": [
+          "Can the court's balance-scale lean?",
+          "Can an innocent person die without justice — die, die?",
+          "Is this what it means — sin with one, blame with another?",
+          "Is it right to call the sun's light an amavasai?",
+          "Is this a sacred land where good people live?",
+          "Or a dark forest of wicked beasts?",
+          "Is there no limit at all to what is called lawlessness?",
+          "Lord, if you exist, answer, ayya,",
+          "(Sin)."
+        ],
+        "notes": [
+          "The repeated `சாகலாமா` remains repeated, retaining the accusatory pressure.",
+          "`பாவமோரிடம் பழியோரிடம்` stays the compact sin-with-one / blame-with-another contrast rather than being expanded into explanatory legal prose.",
+          "`அமாவாசை` remains `amavasai`, preserving the source's culturally specific darkness/new-moon image; `அய்யா` remains audible as `ayya`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வேங்கையின் பிடியில் வெள்ளாடு",
+          "சிக்கிய வேதனை பாரய்யா",
+          "வேலியே பயிரை மேய்ந்திடும்",
+          "கொடிய சாதனை கேளய்யா",
+          "அநியாயமாக ஒரு தமிழ் மகன் சாவது நன்றோ",
+          "அன்னைத் தமிழகமே அமைதியைக் காண்பது என்றோ",
+          "துரோகிகள் கூட்டம் பிடிபடவே",
+          "தூயவர் துயரம் பொடிபடவே",
+          "தூக்கிடு கொடியை உன் தோளுக்கு மேலே",
+          "தோழா இனிதான் நம் அறப்போர் வாழுக்குவேலை",
+          "நம் அறப்போர் வாழுக்கு வேலை."
+        ],
+        "english_lines": [
+          "A white goat in the grip of the vengai —",
+          "Look, ayya, at the pain of being caught,",
+          "The fence itself grazes the crop —",
+          "Hear, ayya, of this cruel achievement,",
+          "Is it good that a Tamil son should die unjustly?",
+          "O Mother Tamilagam, when will you see peace?",
+          "Let the band of traitors be caught,",
+          "Let the sorrow of the pure one be ground to powder,",
+          "Raise the flag above your shoulder,",
+          "Comrade, only now comes our righteous struggle's `vaazhukku-velai`,",
+          "Our righteous struggle — `vaazhukku velai`."
+        ],
+        "notes": [
+          "The tiger/goat and fence/grazing-crop images remain literal and accusatory.",
+          "`தமிழகமே` remains `Tamilagam` in the direct maternal address `Mother Tamilagam`, rather than being silently modernized to a different political-geographic label.",
+          "The verified closing forms `வாழுக்குவேலை / வாழுக்கு வேலை` are retained as `vaazhukku-velai / vaazhukku velai`. The English does not silently emend them to a familiar alternate phrase such as `வாளுக்கு வேலை`."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song is a judicial and political protest built from the tilted-scale question, innocent death, sun/amavasai reversal, predator/prey and fence/crop images, Mother Tamilagam and righteous struggle. The English keeps those accusations direct.",
+      "The closing verified source anomaly is deliberately exposed rather than repaired through translation.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
