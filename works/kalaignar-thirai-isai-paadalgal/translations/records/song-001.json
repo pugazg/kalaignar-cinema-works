@@ -1,0 +1,110 @@
+{
+  "id": "kalaignar-song-en-001",
+  "song_id": "kalaignar-song-001",
+  "anthology_song_number": 1,
+  "target_language": "en",
+  "status": "pilot-verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-001.md",
+    "tamil_status": "verified",
+    "pdf_pages": [26],
+    "tamil_title": "ஊருக்கு உழைப்பவண்டி",
+    "film_title_ta": "மந்திரிகுமாரி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "He who labours for the village, di",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "தொகையறா",
+        "english_label": "Thogaiyara",
+        "source_tamil_lines": [
+          "ஊருக்கு உழைப்பவண்டி",
+          "ஒரு குற்றம் அறியான்டி",
+          "உதை பட்டு சாவாண்டி - எருமைக் கன்னுக்குட்டி"
+        ],
+        "english_lines": [
+          "He who labours for the village, di,",
+          "Knows not a single wrong, di,",
+          "Gets kicked and dies, di — buffalo calf."
+        ],
+        "notes": [
+          "The colloquial vocative force carried by the joined source forms ending in `டி` is retained as `di` rather than formalized away.",
+          "`எருமைக் கன்னுக்குட்டி` remains the concrete buffalo-calf refrain/image."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "பாட்டு",
+        "english_label": "Paattu (song)",
+        "source_tamil_lines": [
+          "நல்லதுக்குக் காலமில்லே",
+          "நடப்பதெல்லாம் வெளிப்பகட்டு",
+          "சொல்லப்போனால் வெட்கக்கேடு - எருமைக் கன்னுக்குட்டி"
+        ],
+        "english_lines": [
+          "There is no time for what is good,",
+          "Everything that happens is outward show,",
+          "Say it plainly — it is a shame — buffalo calf."
+        ],
+        "notes": [
+          "The social accusation is kept direct; `வெளிப்பகட்டு` is rendered as outward show rather than softened to mere appearance."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "தொகையறா",
+        "english_label": "Thogaiyara",
+        "source_tamil_lines": [
+          "ஏய்ச்சுப் பொழைக்கிறவன்",
+          "ஏழடுக்கு மாளிகையில்",
+          "எகத்தாளம் போடுறானே",
+          "அவன் - பேச்சை மறுக்கிறவன்",
+          "பிச்சை எடுக்கிறானே - எருமைக் கன்னுக்குட்டி"
+        ],
+        "english_lines": [
+          "The fellow who lives by cheating,",
+          "In a seven-storey mansion,",
+          "Beats out his swagger there;",
+          "But the man who contradicts his word,",
+          "Is out begging — buffalo calf."
+        ],
+        "notes": [
+          "The palace-versus-begging contrast and the spoken/rustic attack are preserved instead of recast as neutral social commentary.",
+          "`எகத்தாளம் போடுறானே` is rendered with its performative swagger rather than reduced to `lives proudly`."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "பாட்டு",
+        "english_label": "Paattu (song)",
+        "source_tamil_lines": [
+          "நாட்டுக்குத் தலைவனென்று நம்பும்படி பேசிவிட்டு",
+          "வேணசெல்வம் வாரியே போவாரடி",
+          "நாடு செழிக்க பெண்ணி நாளெல்லாம் பாடுபடும்",
+          "ஏழைக்கிக் காலமில்லே எவனெவனோ வாழுகின்றான் -",
+          "எருமைக் கன்னுக்குட்டி"
+        ],
+        "english_lines": [
+          "He talks till we believe him to be the leader of the land,",
+          "Then scoops away all the wealth he wants, di;",
+          "With the land's prosperity in mind, the poor man labours all day,",
+          "For the poor, no good times; all sorts of fellows are thriving —",
+          "Buffalo calf."
+        ],
+        "notes": [
+          "The verified Tamil witness prints the joined form `வேணசெல்வம்`; the English renders its contextual force as `all the wealth he wants` without asserting a Tamil emendation.",
+          "The verified source also prints `பெண்ணி`. The English follows the sentence's evident prosperity/labour contrast while leaving that Tamil witness unchanged and explicitly documented.",
+          "The leader/wealth/poor-worker sequence is kept as a pointed political-social satire rather than generalized."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The source context label `மாட்டுக்காரப் பையன்` is understood as a cattle-boy/cowherd performance voice but is not used to invent a named character.",
+      "The translation retains `di` selectively because removing the repeated colloquial address would erase part of the song's rustic spoken force.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
