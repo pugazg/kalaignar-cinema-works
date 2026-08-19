@@ -6,7 +6,7 @@ Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
 ## Mandatory startup
 
-Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `songs/page-map.json`, `songs/index.json`, and the latest page-batch review before changing this work. Current GitHub `main` is authoritative.
+Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `notes/FINAL_DRAFT_001_003_REVIEW.md`, `songs/page-map.json`, and `songs/index.json` before changing this work. Current GitHub `main` is authoritative.
 
 ## Controlling source
 
@@ -21,37 +21,41 @@ Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FUL
 
 Process only actual numbered lyric pages/direct continuations. Ignore every non-song page for lyric-file creation. Multi-page lyrics remain one song file. Never import absent lyrics from elsewhere.
 
-The full PDF was already visually classified: **62 song-bearing / 132 ignored pages / 54 numbered songs**. Use `songs/page-map.json`; do not revert to film-section batching.
+The full PDF is classified at **62 song-bearing / 132 ignored pages / 54 numbered songs**. Use `songs/page-map.json`; do not revert to film-section batching for Tamil lyric-file work.
 
 ## Current checkpoint
 
-- draft: `001–003` — **3**;
-- verified: `004–054` — **51**;
+- verified: `001–054` — **54/54**;
+- draft: **0**;
 - review: **0**;
-- not started: **0**.
+- not started: **0**;
+- Tamil song transcription: **complete-verified**;
+- Tamil fidelity audit: **complete**;
+- unresolved Tamil song readings: **0**;
+- English translation: **not started**.
 
-Latest review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
+Final Tamil gate review: `notes/FINAL_DRAFT_001_003_REVIEW.md`.
 
-The final formerly not-started activity processed **songs 026–054** only from mapped song-bearing pages through PDF 130. New cross-page records in that activity were:
+The final pilot recheck inspected only PDF 26, 29 and 30:
 
-- `036` — PDF 86–87;
-- `037` — PDF 90–91;
-- `051` — PDF 121–122;
-- `052` — PDF 123–124.
+- song `001`: corrected pilot `அறியாண்டி` to source-visible `அறியான்டி`; confirmed `வேணசெல்வம்`, `பெண்ணி`, `ஏழைக்கிக்`;
+- song `002`: passed without lyric correction; printed turn labels remain exact;
+- song `003`: resolved the pilot uncertainty readings directly as `வந்தேன் தவழ்ந்தாய்?` and `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!`.
+
+Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
 
 Music/voice lines were taken only when printed. Source speaker labels, refrain cues, colloquial spellings, unusual compounds, punctuation and lineation were preserved. No external lyrics were imported.
 
 ## Exact next activity
 
-There are no not-started numbered songs. Reinspect the only remaining draft records:
+The Tamil gate is closed. Before scaling English translation:
 
-1. PDF 26 → song `001`;
-2. PDF 29 → song `002`;
-3. PDF 30 → song `003`.
+1. inspect existing translation conventions in this repository;
+2. define a song-translation schema/index that preserves song ID and Tamil source-file provenance;
+3. create a small English pilot from verified Tamil song files;
+4. review voice, cultural terms, refrains, speaker labels and source-specific wordplay before batch translation.
 
-Promote those records only after direct visual fidelity verification. If all three pass, mark the Tamil lyric corpus complete-verified.
-
-Do not begin English translation until that Tamil gate closes.
+Do not alter the verified Tamil files merely to make English smoother.
 
 ## Repository boundary
 
