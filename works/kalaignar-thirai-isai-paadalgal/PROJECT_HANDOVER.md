@@ -6,7 +6,7 @@ Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
 ## Mandatory startup
 
-Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `notes/FINAL_DRAFT_001_003_REVIEW.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, all scaled batch reviews through `translations/BATCH_047_054_REVIEW.md`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
+Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, all scaled batch reviews through `translations/BATCH_047_054_REVIEW.md`, `editions/en/PREFLIGHT_QA_REPORT.md`, `editions/en/audit_probe.py`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
 
 ## Controlling source
 
@@ -23,7 +23,9 @@ Process only actual numbered lyric pages/direct continuations. Ignore every non-
 
 The full PDF is classified at **62 song-bearing / 132 ignored pages / 54 numbered songs**. Tamil lyric-file work is complete; do not reopen film-section batching as the processing driver.
 
-## Tamil checkpoint
+## Closed source-linked layers
+
+### Tamil
 
 - verified `001–054`: **54/54**;
 - draft/review/not-started: **0/0/0**;
@@ -31,64 +33,71 @@ The full PDF is classified at **62 song-bearing / 132 ignored pages / 54 numbere
 - Tamil fidelity audit: **complete**;
 - unresolved Tamil song readings: **0**.
 
-Cross-page verified Tamil records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
+### English translation
 
-## English translation checkpoint
+- translated: **54/54 complete-verified**;
+- pilot-verified: **3** (`001–003`);
+- verified: **51** (`004–054`);
+- draft/review/not-started: **0/0/0**;
+- mode: **`semantic-poetic-source-faithful`**;
+- attribution state: **54/54 `anthology-attributed`**.
 
-English translation is **complete-verified**.
+Do not revise the verified English corpus into smoother generic lyric English. Retain Kalaignar's repetition, rhetoric, political/social force, concrete imagery, colloquial energy, culture-bearing vocabulary, performance terms and documented source pressure points.
 
-Authoritative English-layer files:
+## Reader/export preflight checkpoint
 
-- `docs/SONG_TRANSLATION_GUIDE.md`;
-- `translations/schema.json`;
-- `translations/index.json`;
-- `translations/README.md`;
-- `translations/PILOT_REVIEW.md`;
-- all seven scaled batch reviews through `translations/BATCH_047_054_REVIEW.md`;
-- `translations/records/song-001.json` through `song-054.json`.
+**PASS — complete.**
 
-Counts:
+Authoritative report: `editions/en/PREFLIGHT_QA_REPORT.md`  
+Probe: `editions/en/audit_probe.py`  
+Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
 
-- source songs: **54/54 Tamil verified**;
-- English translated total: **54/54**;
-- English pilot-verified: **3** (`001–003`);
-- English verified: **51** (`004–054`);
-- English draft/review/not-started: **0/0/0**.
+Passing automated run:
 
-The final batch `047–054` is **8/8 PASS**. Multi-page provenance is preserved for `051` = PDF **121–122** and `052` = PDF **123–124**.
+- head commit audited: `39c6b56d8ccd13c350bb1673697667bf2d809737`;
+- workflow run: `32274309519`;
+- Python: 3.12;
+- audit warnings/errors: **0/0**.
 
-## Non-negotiable translation rule — retain Kalaignar's language
+Verified by the preflight:
 
-Use `semantic-poetic-source-faithful` English, not a singable adaptation.
+1. exactly **54** translation records, ordered `001–054` with no gaps;
+2. exactly **54** verified Tamil source links;
+3. item statuses remain **3 `pilot-verified` + 51 `verified`**;
+4. all **54** records remain `anthology-attributed`;
+5. mapped Tamil/English line-cue totals are **1,105 / 1,105** with **0** count mismatches;
+6. no duplicate anthology number, translation ID, song ID or record path;
+7. no source-page, Tamil-title or film-title mismatch;
+8. no translation-mode or attribution drift;
+9. exactly eight cross-page records retain complete provenance: `009` 38–39, `019` 53–54, `023` 58–59, `024` 62–63, `036` 86–87, `037` 90–91, `051` 121–122, `052` 123–124.
 
-Preserve repetition/refrains, political and social force, concrete imagery, rhetorical questions, colloquial energy, culture-bearing terms, exact source turn/performance labels, and source anomalies as documented pressure points rather than hidden Tamil corrections.
-
-Final-batch precedents include:
-
-- `047`: **sons of the soil**, eye/eyelid duty image, **hand for kinship / voice for rights**, `naam / naan` lip-wordplay, and conservative handling of `பிரிவாது`;
-- `048`: `kalaignan`, `udanpirappe`, caste/religion division, sledgehammer rhetoric, Valluvar and `inba-pagai`;
-- `049`: mother-warrior grief/pride, young-deer bride, tusker/steed imagery and womb-bearing motherhood;
-- `050`: `mullai`, Tamil `mandram`, `bhava`, `jathi`, `veena`, `Nasika Poosani`, source-pressure `nyaayirene`, and the abrupt final source line;
-- `051`: colloquial `machaan` erotic/comic register, `aandi`, `thaali`, `saivam / asaivam`, anti-subordination lines and pressure-point source phrases; preserve PDF 121–122 as one record;
-- `052`: affection-parrot, `kurinji`, Kannagi, Classical Tamil, sibling/mother imagery and eyes-as-ponds; preserve PDF 123–124 as one record;
-- `053`: preserve the printed clipped short-line structure rather than recomposing it into prose;
-- `054`: preserve musical/place vocabulary, `Kodumudi kokilam`, honey/milk and `aanpaal` wordplay, `paayiram`, and the classical red-earth/water image.
-
-Do not revise the verified 001–054 English corpus into smoother generic lyric English merely for fluency.
+The preflight changed no Tamil or English source-linked record.
 
 ## Exact next activity
 
-Run a **whole-corpus English reader/export preflight** across all 54 source-linked translation records.
+Generate the deterministic English reader/export package from `translations/records/song-001.json` through `song-054.json`.
 
-The preflight should verify at minimum:
+Required outputs under `editions/en/`:
 
-1. exactly 54 translation records, in anthology order `001–054`;
-2. each record links to the correct verified Tamil song file and PDF page provenance;
-3. the 3 `pilot-verified` and 51 `verified` statuses remain distinct and complete;
-4. all eight cross-page song records preserve their full source-page arrays;
-5. no missing/duplicate anthology song number, translation ID, song ID or record path;
-6. `anthology-attributed` remains distinct from original-film primary-source verification;
-7. reader/export generation does not alter the complete-verified Tamil or English source-linked records.
+1. `reader-edition.md` — publication-facing anthology-order Markdown;
+2. `reader-edition.html` — standalone HTML carrying the same 54 songs;
+3. `reader-edition.json` — machine-readable reader/export derivative;
+4. `QA_REPORT.md` — generated-output reconciliation;
+5. `manifest.json` — deterministic input/output hashes and package checkpoint;
+6. a deterministic build script, preferably `build.py`, modeled on the repository's established reader/export pattern.
+
+Generation rules:
+
+- input is the complete-verified English translation layer; do **not** edit translations during export;
+- preserve anthology order `001–054` exactly once;
+- preserve Tamil title, English title, film title, source PDF page array, source-song path, item status and `anthology-attributed` state;
+- preserve every English line/cue exactly as stored in the translation records;
+- preserve section/turn labels and refrain structure;
+- retain the 3 `pilot-verified` / 51 `verified` distinction;
+- retain all eight cross-page source arrays;
+- generated QA must detect missing/extra/duplicate song IDs and line/cue loss or duplication;
+- deterministic manifest must hash authoritative inputs and all generated outputs;
+- do not begin downstream Reading Room integration until generated-output QA passes.
 
 ## Repository boundary
 
