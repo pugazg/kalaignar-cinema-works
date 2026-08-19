@@ -18,20 +18,21 @@ See `notes/FULL_PDF_SONG_PAGE_SCAN.md` and `songs/page-map.json`.
 ## Current status
 
 - draft: **3** (`001–003`);
-- verified: **20** (`004–023`);
+- verified: **21** (`004–024`);
 - review: **0**;
-- not started: **31** (`024–054`);
+- not started: **30** (`025–054`);
 - English translation: **not started**.
 
 Verified song-bearing runs:
 
 - PDF 33–41 → songs 004–011;
 - PDF 44–50 → songs 012–018;
-- PDF 53–59 → songs 019–023.
+- PDF 53–59 → songs 019–023;
+- PDF 62–63 → song 024.
 
-Latest review: `notes/PAGE_BATCH_053_059_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_062_063_REVIEW.md`.
 
-Songs 019 and 023 are cross-page records. Song 023 preserves the numbered page's own mixture of `வசனம்` and `பாட்டு` instead of discarding the spoken material.
+Song 024 is a two-page record. Its exact source music/voice lines, `(பொதுநலம்)` refrain cues, hyphenated constructions and unusual printed forms are preserved without normalization.
 
 ## Attribution
 
@@ -39,4 +40,4 @@ The 2024 anthology is authoritative for what this edition prints and attributes.
 
 ## Next activity
 
-**Skip PDF 60–61.** Resume at **PDF 62–63 / song 024**, then continue only through song-bearing pages in `songs/page-map.json`.
+Resume at **PDF 64 / song 025**, then continue only through song-bearing pages in `songs/page-map.json`.
