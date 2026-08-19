@@ -1,0 +1,133 @@
+{
+  "id": "kalaignar-song-en-003",
+  "song_id": "kalaignar-song-003",
+  "anthology_song_number": 3,
+  "target_language": "en",
+  "status": "pilot-verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-003.md",
+    "tamil_status": "verified",
+    "pdf_pages": [30],
+    "tamil_title": "பூமாலை நீயே...",
+    "film_title_ta": "பராசக்தி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "You are the flower-garland...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பூமாலை நீயே...",
+          "புழுதி மண்மேலே வீணே",
+          "வந்தேன் தவழ்ந்தாய்?"
+        ],
+        "english_lines": [
+          "You are the flower-garland...",
+          "Wasted upon dust and earth,",
+          "I came — did you crawl?"
+        ],
+        "notes": [
+          "The verified anthology witness prints the morphologically difficult `வந்தேன் தவழ்ந்தாய்?`. The English keeps the visible subject shift (`I came` / `did you crawl?`) rather than silently emending the Tamil to a familiar or smoother reading.",
+          "The dust/flower-garland collision is kept concrete."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "(பூமாலை)",
+        "english_label": "(Flower-garland — refrain cue)",
+        "source_tamil_lines": [
+          "(பூமாலை)"
+        ],
+        "english_lines": [
+          "(Flower-garland — refrain cue)"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பாராயோ என் பன்னீர்ச்செல்வமே",
+          "சீரோடு வாழ்ந்தோம்",
+          "வேரோடு சாய்ந்தோம்",
+          "ராஜாங்கம் போல வாழ்ந்த வாழ்வும் வீழ்ந்தே",
+          "பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!",
+          "நீயேன் பிறந்தாய்?"
+        ],
+        "english_lines": [
+          "Will you not look, my rosewater treasure?",
+          "We lived in splendour,",
+          "We fell with the very roots,",
+          "Even the life we lived like a kingdom has fallen,",
+          "In this ruined womb of mine you were born, my king!",
+          "Why were you born?"
+        ],
+        "notes": [
+          "`சீரோடு வாழ்ந்தோம் / வேரோடு சாய்ந்தோம்` is kept as a compact splendour/roots reversal rather than paraphrased.",
+          "`ராஜாங்கம்` remains `kingdom`, and the direct `ராஜா!` address remains `my king!`.",
+          "The harsh `பாழான எந்தன் வயிற்றில்` image is not softened."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "(பூமாலை)",
+        "english_label": "(Flower-garland — refrain cue)",
+        "source_tamil_lines": [
+          "(பூமாலை)"
+        ],
+        "english_lines": [
+          "(Flower-garland — refrain cue)"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பறவை வீட்டில் நீ பிறந்திருந்தாலும்",
+          "பசி நீங்கவே உணவும்",
+          "பறந்தோடி வந்திடும்",
+          "கோடானுகோடி ஏழை மாந்தர் வாடும்",
+          "சீமான்கள் வாழும் நாட்டில் பிறந்தாய்-ராஜா!",
+          "நீயேன் பிறந்தாய்?"
+        ],
+        "english_lines": [
+          "Had you been born in a bird's home,",
+          "Food, just to end your hunger,",
+          "Would have come flying to you;",
+          "Crores upon crores of poor people wither,",
+          "You were born, my king, in a land where the grandees live!",
+          "Why were you born?"
+        ],
+        "notes": [
+          "The bird/food-flying image is preserved literally enough to keep the bitter comparison between animal care and human poverty.",
+          "`கோடானுகோடி` remains `crores upon crores`, retaining the Tamil numerical-social register rather than replacing it with a vague `millions`.",
+          "`சீமான்கள்` is rendered as `grandees` to retain the class contrast with `ஏழை மாந்தர்`."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "(பூமாலை)",
+        "english_label": "(Flower-garland — refrain cue)",
+        "source_tamil_lines": [
+          "(பூமாலை)"
+        ],
+        "english_lines": [
+          "(Flower-garland — refrain cue)"
+        ],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "The translation preserves the maternal lament's repeated `Why were you born?` rather than varying it for literary elegance.",
+      "The song's movement from fallen household/kingdom imagery to the contrast between poor people and wealthy grandees is retained as a political-social structure, not reduced to private grief alone.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
