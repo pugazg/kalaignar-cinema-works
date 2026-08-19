@@ -1,0 +1,116 @@
+{
+  "id": "kalaignar-song-en-050",
+  "song_id": "kalaignar-song-050",
+  "anthology_song_number": 50,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-050.md",
+    "tamil_status": "verified",
+    "pdf_pages": [120],
+    "tamil_title": "தென்றல் என்னும் தேர் ஏறி",
+    "film_title_ta": "பாசக் கிளிகள்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Riding the chariot called the breeze",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "ஆ... தென்றல் என்னும் தேர் ஏறி - தமிழ்",
+          "மன்றம் வந்த முல்லை மலரே",
+          "தென்றல் என்னும் தேர் ஏறி - தமிழ்",
+          "மன்றம் வந்த முல்லை மலரே",
+          "உனைப்போல் இல்லையோர் அழகே",
+          "உதிக்கும் ஞாயிறெனெ உருமாறி",
+          "உலகை எழுப்ப ஒளியாய் வா! வா!",
+          "(தென்றல்)"
+        ],
+        "english_lines": [
+          "Aa... riding the chariot called the breeze — O mullai flower,",
+          "Who came to the Tamil mandram,",
+          "Riding the chariot called the breeze — O mullai flower,",
+          "Who came to the Tamil mandram,",
+          "There is no beauty like you,",
+          "Transform like the rising `nyaayirene`,",
+          "Come, come as light to awaken the world!",
+          "(Breeze)."
+        ],
+        "notes": [
+          "`முல்லை` and `தமிழ் மன்றம்` remain culturally audible as `mullai` and `Tamil mandram` rather than being generalized.",
+          "The verified `ஞாயிறெனெ` is retained conservatively as `nyaayirene`; the English does not silently regularize the Tamil to a familiar `sun-like` form."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நானறிவேன் இசை ஞானம் யாவும்",
+          "நாசிகா பூசனி நான் பாடும் ராகம்",
+          "நானறிவேன் இசை ஞானம் யாவும்",
+          "நாசிகா பூசனி நான் பாடும் ராகம்",
+          "பாவமுடன் ஜதி சொல்லி பாடும்",
+          "தகுதியும் அதனுடன் கூடும்",
+          "நானும் தெரிந்தவன் நான்தானே",
+          "பல நூலின் ஆழம் அறிவேனே",
+          "(தென்றல்)"
+        ],
+        "english_lines": [
+          "I know all the wisdom of music,",
+          "Nasika Poosani is the raga I sing,",
+          "I know all the wisdom of music,",
+          "Nasika Poosani is the raga I sing,",
+          "To utter jathi with bhava and sing —",
+          "That ability too comes with it,",
+          "I too am the one who knows, am I not?",
+          "I know the depth of many books,",
+          "(Breeze)."
+        ],
+        "notes": [
+          "`நாசிகா பூசனி` remains `Nasika Poosani` as printed, without substituting an externally familiar raga name.",
+          "`பாவம் / ஜதி` remain `bhava / jathi`, preserving the performance vocabulary and the boastful comic register."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ஜதி சொல்லல்",
+        "english_label": "Jathi utterance",
+        "source_tamil_lines": [
+          "தகத் தோம்தில்லானா",
+          "தகத் தோம்தில்லானா     (ஜதி சொல்லல்)",
+          "தோம்... தோம்...",
+          "தண்ணிலவாய் குளிரும் உன்முகம்",
+          "தனலாய் கொதிக்கும் உன் அகம்",
+          "மாமதுரை தமிழ்ச்சங்கப் பாட்டு",
+          "தேன்மதுர இதழ்கள் பாடக் கேட்டு",
+          "செவியில் தேன்பாய வீணை மீட்டு",
+          "உலகிலே யார் காட்டு"
+        ],
+        "english_lines": [
+          "Thagath thom-thillanaa,",
+          "Thagath thom-thillanaa — (jathi utterance),",
+          "Thom... thom...",
+          "Your face cools like a cool moon,",
+          "Your inner self boils like burning heat,",
+          "The song of the great Madurai Tamil Sangam,",
+          "Hearing honey-sweet lips sing it,",
+          "Pluck the veena till honey flows into the ear,",
+          "Who in the world — show me."
+        ],
+        "notes": [
+          "The jathi vocables are transliterated rather than replaced by English sound effects.",
+          "The final verified `உலகிலே யார் காட்டு` remains deliberately abrupt; the English does not invent a missing object or completion."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song mixes Tamil-cultural address, comic musical self-display, technical performance vocabulary and sensual imagery; the English retains those registers side by side.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
