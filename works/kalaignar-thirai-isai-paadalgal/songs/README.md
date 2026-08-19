@@ -8,14 +8,16 @@ Full scan ledger: `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
 ## Current state
 
 - songs located: **54/54**;
-- draft: **001–003** — 3;
-- verified: **004–054** — 51;
+- draft: **0**;
+- verified: **001–054 — 54**;
 - review: **0**;
 - not started: **0**;
-- latest review: `../notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`;
+- Tamil transcription: **complete-verified**;
+- Tamil fidelity audit: **complete**;
+- latest Tamil review: `../notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - next unprocessed song-bearing page: **none**.
 
-Every whitelist entry associated with songs `004–054` has now been transcribed and visually verified. The final page-driven run processed songs `026–054` through PDF 130.
+Every numbered lyric record has now been transcribed and visually verified from its mapped song-bearing page(s).
 
 ## Rules
 
@@ -26,8 +28,16 @@ Every whitelist entry associated with songs `004–054` has now been transcribed
 - Do not infer absent singers or import missing lyrics.
 - Default attribution remains `anthology-attributed` unless stronger source evidence is separately established.
 
-## Remaining Tamil gate
+## Final Tamil gate
 
-The only remaining Tamil lyric work is a dedicated visual fidelity recheck of songs `001–003` on PDF 26, 29 and 30. They remain `draft`; do not call the whole corpus complete-verified until they pass.
+Songs `001–003` were the final pilot drafts. Direct reinspection of PDF 26, 29 and 30 closed that gate:
 
-English translation remains blocked until that gate closes.
+- `001`: `அறியான்டி` confirmed as the source spelling; `வேணசெல்வம்`, `பெண்ணி`, `ஏழைக்கிக்` retained;
+- `002`: no lyric correction required;
+- `003`: uncertainty markers resolved as `வந்தேன் தவழ்ந்தாய்?` and `பாழான`.
+
+The Tamil corpus is therefore **54/54 complete-verified**.
+
+## Next layer
+
+English translation is now unblocked but has not started. It must be created as a separate source-linked derivative from these verified Tamil song files.
