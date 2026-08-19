@@ -1,0 +1,67 @@
+{
+  "id": "kalaignar-song-en-020",
+  "song_id": "kalaignar-song-020",
+  "anthology_song_number": 20,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-020.md",
+    "tamil_status": "verified",
+    "pdf_pages": [55],
+    "tamil_title": "வேலை யில்லாத தொல்லை",
+    "film_title_ta": "ராஜா ராணி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "The trouble of having no work",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வேலை யில்லாத தொல்லை",
+          "காலை பனி போலே நீங்கி போனதே...",
+          "நான் எண்ணாத நல் வாழ்வுதான்",
+          "தன்னால் வந்து சேர்ந்ததே",
+          "இன்ப நன்னாளிதே",
+          "செல்வ பொன்னாளிதே...",
+          "ஆஹா ஆனந்தம் ஆனந்தமே...",
+          "முன்பின் அறியாதார் உறவாளர் எனமனம்போலவே",
+          "நலமே நானடைந்தேன்",
+          "அன்பின் உருவாகவே",
+          "எந்தன் துயர் நீங்கவே",
+          "நன்மை தந்திட வந்தார் இன்றே",
+          "என்னை சீமாட்டி என்றெண்ணி ஏமாந்தாரே",
+          "ஆஹா விந்தையிதே..."
+        ],
+        "english_lines": [
+          "The trouble of having no work,",
+          "Has gone away like morning dew...",
+          "A good life I had never imagined,",
+          "Came and joined me of its own accord,",
+          "This is a fine day of joy,",
+          "This is a golden day of wealth...",
+          "Ah, happiness — happiness itself...",
+          "Those I had never known before came as kin, just as my heart wished,",
+          "I have found well-being,",
+          "As forms of love,",
+          "So that my sorrow may leave me,",
+          "They came today to bring me good,",
+          "Thinking me a seemaatti, they were deceived,",
+          "Ah, what a wonder this is..."
+        ],
+        "notes": [
+          "`வேலை யில்லாத` remains the explicit unemployment/no-work condition rather than being generalized to hardship.",
+          "`சீமாட்டி` is retained as `seemaatti` because the source's social-rank flavour is stronger than a neutral `lady`; the surrounding line makes the mistaken-status joke clear.",
+          "The joined source form `எனமனம்போலவே` is translated conservatively from context without altering the Tamil witness."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song moves quickly from unemployment to unexpected prosperity and mistaken social status; that sudden reversal is retained without smoothing it into a general happiness lyric.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
