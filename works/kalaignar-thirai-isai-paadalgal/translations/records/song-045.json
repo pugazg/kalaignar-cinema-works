@@ -1,0 +1,89 @@
+{
+  "id": "kalaignar-song-en-045",
+  "song_id": "kalaignar-song-045",
+  "anthology_song_number": 45,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-045.md",
+    "tamil_status": "verified",
+    "pdf_pages": [109],
+    "tamil_title": "தங்கக்குணம் படைத்த எங்கள் தந்தையே",
+    "film_title_ta": "மதுரை மீனாட்சி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Our father, endowed with a golden nature",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "தங்கக்குணம் படைத்த எங்கள் தந்தையே",
+          "பொங்கும் எங்கள் கண்ணீரால்",
+          "உங்கள் பாதங்களைக் குளிப்பாட்டுகின்றோமே",
+          "எங்கள் கைவிரல்களையே விழிகளாக்கி",
+          "கல்வி வெளிச்சம் தந்தவரே!"
+        ],
+        "english_lines": [
+          "Our father, endowed with a golden nature,",
+          "With our overflowing tears,",
+          "We are bathing your feet,",
+          "You who made our very fingers into eyes,",
+          "And gave us the light of education!"
+        ],
+        "notes": [
+          "The striking `கைவிரல்களையே விழிகளாக்கி` remains literally `made our very fingers into eyes`; the English does not insert an explanatory context absent from the lyric.",
+          "The tear-bathing of the father's feet remains direct devotional/elegiac imagery."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "குழு",
+        "english_label": "Group",
+        "source_tamil_lines": [
+          "கருணைக்கடலே! பொறுமையின் இமயமே!",
+          "கருணைக்கடலே! பொறுமையின் இமயமே..."
+        ],
+        "english_lines": [
+          "O ocean of compassion! O Himalaya of patience!",
+          "O ocean of compassion! O Himalaya of patience!..."
+        ],
+        "notes": [
+          "The repeated paired images `ocean of compassion / Himalaya of patience` remain repeated and monumental rather than being summarized as kindness and patience."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "எமது இதயங்களை மலர்களாக்கி",
+          "தொடுத்த மாலையை உமது புகழ் சிகரத்தின்",
+          "கழுத்தில் அணிவிக்கின்றோம்",
+          "உம்மைக் காப்பாற்றி வைத்துக் கொள்ள",
+          "முடியாத எங்களை மன்னித்துவிடும்",
+          "எங்கள் தந்தையே!"
+        ],
+        "english_lines": [
+          "Making our hearts into flowers,",
+          "We string a garland and place it around the neck,",
+          "Of the summit of your fame,",
+          "Forgive us, who could not,",
+          "Protect you and keep you with us,",
+          "Our father!"
+        ],
+        "notes": [
+          "The source's mixed metaphor — hearts as flowers, a garland, and the `neck` of the summit of fame — is deliberately retained rather than regularized.",
+          "The final plea for forgiveness remains collective and direct."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song is an elegiac address built from filial devotion, education imagery and monumental praise. The English keeps the source's unusual metaphor architecture intact.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
