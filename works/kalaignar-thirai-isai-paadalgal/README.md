@@ -27,30 +27,43 @@ Cross-page verified Tamil song records are `009`, `019`, `023`, `024`, `036`, `0
 
 ## English translation status
 
-The English layer is now **complete-verified** under the approved `semantic-poetic-source-faithful` mode.
+The English layer is **54/54 complete-verified** under `semantic-poetic-source-faithful` mode.
 
-- translated: **54/54**;
 - pilot-verified: **3** (`001–003`);
 - verified: **51** (`004–054`);
 - draft/review/not-started: **0/0/0**;
 - guide: `docs/SONG_TRANSLATION_GUIDE.md`;
-- schema/index: `translations/schema.json`, `translations/index.json`;
-- final review: `translations/BATCH_047_054_REVIEW.md`.
+- final translation review: `translations/BATCH_047_054_REVIEW.md`.
 
-### Retaining Kalaignar's language
+The English is deliberately **not** a singable rewrite or generic paraphrase. Across all 54 songs it retains repetition, social/political force, concrete images, rhetorical questions, colloquial energy, culture-bearing vocabulary, performance terms and verified source-specific constructions. No verified Tamil file was changed by the English translation layer.
 
-The English is deliberately **not** a singable rewrite or generic paraphrase. Across all 54 songs it retains repetition, social/political force, concrete images, rhetorical questions, colloquial energy, culture-bearing vocabulary, performance terms and verified source-specific constructions.
+## English reader/export preflight
 
-The final batch (`047–054`) extends that policy through **sons of the soil** and `naam / naan` wordplay; `kalaignan` / `udanpirappe`; mother-warrior pride and grief; `mullai` / `bhava` / `jathi` musical language; the two-page colloquial `machaan` duet with `saivam / asaivam` wordplay; the two-page family-affection song with Kannagi and Classical Tamil imagery; the clipped performance-poem structure of `053`; and the musical/literary `aanpaal`, `paayiram`, and **water upon red earth** imagery of `054`.
+**PASS — complete.**
 
-Multi-page English provenance is preserved for `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No verified Tamil file was changed by the English translation layer.
+Report: `editions/en/PREFLIGHT_QA_REPORT.md`  
+Probe: `editions/en/audit_probe.py`  
+Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
+
+The automated whole-corpus gate verified:
+
+- **54/54** translation records and **54/54** verified Tamil source links;
+- anthology order **001–054**, with no gaps or duplicate IDs/paths;
+- the status distinction **3 pilot-verified + 51 verified**;
+- **54/54 `anthology-attributed`** records with no attribution promotion;
+- **1,105 Tamil lines/cues ↔ 1,105 English lines/cues**, with zero line-count mismatches;
+- zero source-page, Tamil-title, film-title or translation-mode mismatches;
+- exactly eight complete cross-page records: `009`, `019`, `023`, `024`, `036`, `037`, `051`, `052`;
+- **0 warnings / 0 errors**.
+
+Reader/export generation must treat the complete-verified English records as immutable input. The preflight does not authorize stylistic smoothing of Kalaignar-language decisions.
 
 ## Attribution
 
-The 2024 anthology is authoritative for what this edition prints and attributes. Default item status remains `anthology-attributed`; a verified English translation does not automatically upgrade that to original-film `primary-source-verified` authorship.
+The 2024 anthology is authoritative for what this edition prints and attributes. Default item status remains `anthology-attributed`; a verified English translation or reader/export derivative does not automatically upgrade that to original-film `primary-source-verified` authorship.
 
 The anthology's `மந்திரிகுமாரி` editorial note mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
 ## Next activity
 
-Run a whole-corpus **English reader/export preflight** over all 54 source-linked translation records, preserving anthology order, Tamil/source provenance, attribution status and the distinction between `pilot-verified` and `verified` records. Do not alter either complete-verified source-linked layer merely for publication smoothness.
+Generate deterministic publication-facing English reader/export outputs from the 54 verified translation records: Markdown, standalone HTML and machine-readable JSON, followed by generated-output QA and an integrity manifest. Preserve anthology order, source/page provenance, item status history, attribution state and the approved Kalaignar-language English exactly.
