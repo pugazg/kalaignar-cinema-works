@@ -1,0 +1,61 @@
+{
+  "id": "kalaignar-song-en-022",
+  "song_id": "kalaignar-song-022",
+  "anthology_song_number": 22,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-022.md",
+    "tamil_status": "verified",
+    "pdf_pages": [57],
+    "tamil_title": "மணிப் புறா!... புது மணிப் புறா!...",
+    "film_title_ta": "ராஜா ராணி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Jewel-dove!... new jewel-dove!...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "மணிப் புறா!...",
+          "புது மணிப் புறா!... புத்தம்",
+          "புது மணிப் புறா!... நானேதான்",
+          "மேவிடும் அன்பால்",
+          "தாவிடும் உன்பால் நெஞ்சம்",
+          "பூ விரித்து அழைக்குது மஞ்சம்",
+          "பூமானே வாராய் கொஞ்சம்",
+          "ரோஜாக் கொல்லை முல்லைத் தோட்டம்",
+          "எந்தன் முகந்தானே",
+          "ராஜா உமக்கு நான்தான் ராணி",
+          "தருவேன் சுகந்தானே"
+        ],
+        "english_lines": [
+          "Jewel-dove!...",
+          "New jewel-dove!... brand-new,",
+          "New jewel-dove!... it is I,",
+          "Through the love that dwells,",
+          "My heart leaps toward you,",
+          "The bed spreads flowers and calls,",
+          "Poomaane, come a little closer,",
+          "A rose enclosure, a jasmine garden,",
+          "That is my very face,",
+          "Raja, for you I alone am the queen,",
+          "I shall give you pleasure indeed."
+        ],
+        "notes": [
+          "`மணிப் புறா` remains the concrete `jewel-dove` image rather than being generalized to `darling`.",
+          "`பூமானே` is retained as `Poomaane` because the verified source form is semantically compact and a confident expansion would risk replacing the source's own image/wordplay.",
+          "The rose-enclosure/jasmine-garden image is kept attached to the speaker's face rather than smoothed into generic beauty language."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song's intimate invitation, bed/flower imagery and Raja/Rani pairing are retained directly rather than euphemized.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
