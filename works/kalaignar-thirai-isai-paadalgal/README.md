@@ -6,7 +6,7 @@ Source-led archival work for the supplied anthology **`கலைஞர் தி
 
 For this PDF only: inspect the rendered page; if it contains an actual numbered lyric body or directly continues one, create/process that song file; otherwise ignore the page for lyric-file work. Do not import absent lyrics from outside this PDF.
 
-The complete **194-page PDF has already been visually scanned**:
+The complete **194-page PDF has been visually scanned**:
 
 - song-bearing pages: **62**;
 - ignored pages: **132**;
@@ -17,28 +17,29 @@ See `notes/FULL_PDF_SONG_PAGE_SCAN.md` and `songs/page-map.json`.
 
 ## Current status
 
-- draft: **3** (`001–003`);
-- verified: **51** (`004–054`);
+- draft: **0**;
+- verified: **54** (`001–054`);
 - review: **0**;
 - not started: **0**;
+- Tamil song transcription: **complete-verified**;
+- Tamil fidelity audit: **complete**;
 - English translation: **not started**.
 
-All formerly not-started numbered songs have now been processed through the final song-bearing page, PDF 130. The final activity added songs **026–054** from only their mapped whitelist pages.
+All 54 numbered songs have now been transcribed from their song-bearing page(s) and visually verified.
 
-Latest review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
+Final pilot-draft review: `notes/FINAL_DRAFT_001_003_REVIEW.md`.  
+Final formerly not-started batch review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-Cross-page verified song records in the corpus include `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
+The last Tamil fidelity gate rechecked only PDF 26, 29 and 30. It corrected song `001` from pilot `அறியாண்டி` to scan-visible `அறியான்டி`, confirmed song `002` without lyric change, and resolved song `003` as `வந்தேன் தவழ்ந்தாய்?` / `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!` directly from the rendered scan.
+
+Cross-page verified song records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
 
 ## Attribution
 
 The 2024 anthology is authoritative for what this edition prints and attributes. Default item status remains `anthology-attributed`; it is not automatically an original-film primary-source verification.
 
-## Remaining Tamil fidelity activity
+The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-Only the three early pilot drafts remain:
+## Next activity
 
-- PDF 26 → `001`;
-- PDF 29 → `002`;
-- PDF 30 → `003`.
-
-After direct visual recheck and successful promotion of those three, the Tamil lyric corpus can become **complete-verified**. English translation remains blocked until then.
+The Tamil layer is closed. The next repository-internal activity is to define a source-linked English translation schema/pilot based only on the verified Tamil song files. English must remain derivative and must not overwrite or normalize the Tamil corpus.
