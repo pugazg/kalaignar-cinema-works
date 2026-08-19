@@ -1,0 +1,132 @@
+{
+  "id": "kalaignar-song-en-011",
+  "song_id": "kalaignar-song-011",
+  "anthology_song_number": 11,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-011.md",
+    "tamil_status": "verified",
+    "pdf_pages": [41],
+    "tamil_title": "எதையும் தாங்கும் இதயம் வேண்டும்",
+    "film_title_ta": "நாம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "We need a heart that can bear anything",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "எதையும் தாங்கும் இதயம் வேண்டும்",
+          "பகையும் பழியும் பாம்பெனத் தீண்டும் - உலகில்",
+          "எதையும் தாங்கும் இதயம் வேண்டும்",
+          "சிறையா வதையா இன்னும்..."
+        ],
+        "english_lines": [
+          "We need a heart that can bear anything,",
+          "In this world, enmity and blame strike like snakes —",
+          "We need a heart that can bear anything,",
+          "Prison? Torture? What more..."
+        ],
+        "notes": [
+          "The repeated title line is kept repeated rather than reduced to a single refrain reference.",
+          "`பகையும் பழியும் பாம்பெனத் தீண்டும்` retains the snake image and the direct prison/torture sequence remains unsoftened."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "(எதையும்)",
+        "english_label": "(Ethaiyum — source refrain cue)",
+        "source_tamil_lines": [
+          "(எதையும்)"
+        ],
+        "english_lines": [
+          "(Ethaiyum — source refrain cue)"
+        ],
+        "notes": [
+          "The abbreviated source refrain cue is preserved rather than expanded."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "சாக்ரட்டீஸ் வாழ்வினைப் பார்",
+          "சாகாத காந்தி முடிவையுமே பார்",
+          "வேதனையாலே வீழாதே",
+          "சோதனையாலே வாடாதே - நீ வாடாதே",
+          "சோதனையாலே வாடாதே - வரும்..."
+        ],
+        "english_lines": [
+          "Look at the life of Socrates,",
+          "Look also at the end of deathless Gandhi,",
+          "Do not fall because of pain,",
+          "Do not wither under trial — you, do not wither,",
+          "Do not wither under trial — what comes..."
+        ],
+        "notes": [
+          "`சாகாத காந்தி` remains `deathless Gandhi`, preserving Kalaignar's paradoxical memorial phrase.",
+          "The repeated `வாடாதே` is retained as repeated exhortation rather than stylistically varied."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "(எதையும்)",
+        "english_label": "(Ethaiyum — source refrain cue)",
+        "source_tamil_lines": [
+          "(எதையும்)"
+        ],
+        "english_lines": [
+          "(Ethaiyum — source refrain cue)"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "தேனெனும் வாழ்வே தேளாய் மாறும்",
+          "போர்முனைச் சாவே பொதுவாழ்வில் இன்பம்",
+          "ஆணவம் சீறலாம், ராணுவம் பாயலாம்",
+          "சீற்றத்தைக் கண்டு சிதறாதே - உளம் சிதறாதே",
+          "தூற்றலைக் கேட்டுத் துவளாதே - பகை..."
+        ],
+        "english_lines": [
+          "Life called honey itself will turn into a scorpion,",
+          "In public life, death at the battlefront is joy,",
+          "Arrogance may roar, the army may pounce,",
+          "Seeing fury, do not scatter — let the heart not scatter,",
+          "Hearing slander, do not wilt — enmity..."
+        ],
+        "notes": [
+          "The honey-to-scorpion reversal is retained literally; it is one of the stanza's central rhetorical blows.",
+          "`போர்முனைச் சாவே பொதுவாழ்வில் இன்பம்` remains the stark `death at the battlefront is joy in public life`; it is not softened into sacrifice/service language.",
+          "`ஆணவம் / ராணுவம்` is translated semantically as arrogance / army without inventing an English rhyme at the cost of meaning."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "(எதையும்)",
+        "english_label": "(Ethaiyum — source refrain cue)",
+        "source_tamil_lines": [
+          "(எதையும்)"
+        ],
+        "english_lines": [
+          "(Ethaiyum — source refrain cue)"
+        ],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "The translation preserves the song as political-philosophical exhortation: snake, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death, arrogance, army, fury and slander all remain explicit.",
+      "The source's repetitions are kept as rhetorical insistence rather than polished away.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
