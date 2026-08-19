@@ -4,106 +4,50 @@ Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`  
 Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
-## Mandatory startup in a new chat
+## Mandatory startup
 
-Read completely before changing this work:
-
-1. `works/kalaignar-thirai-isai-paadalgal/README.md`
-2. `works/kalaignar-thirai-isai-paadalgal/metadata.yaml`
-3. `works/kalaignar-thirai-isai-paadalgal/notes/FULL_PDF_SONG_PAGE_SCAN.md`
-4. `works/kalaignar-thirai-isai-paadalgal/songs/page-map.json`
-5. `works/kalaignar-thirai-isai-paadalgal/PROGRESS.md`
-6. `works/kalaignar-thirai-isai-paadalgal/AUDIT.md`
-7. `works/kalaignar-thirai-isai-paadalgal/songs/README.md`
-8. `works/kalaignar-thirai-isai-paadalgal/songs/index.json`
-9. `works/kalaignar-thirai-isai-paadalgal/notes/BATCH_004_011_REVIEW.md`
-10. `works/kalaignar-thirai-isai-paadalgal/notes/PAGE_BATCH_044_050_REVIEW.md`
-
-Then inspect current GitHub `main`. Current repository state is authoritative over older status text.
+Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `songs/page-map.json`, `songs/index.json`, and the latest page-batch review before changing this work. Current GitHub `main` is authoritative.
 
 ## Controlling source
 
 `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`
 
-- size: `130427193` bytes;
-- SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
-- physical PDF pages: **194**;
+- 194 physical PDF pages;
+- SHA-256 `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
 - image-only source;
-- rendered scan controls;
-- do not use OCR or soundtrack memory as authority.
+- rendered scan controls.
 
-## Critical PDF-specific rule — do not generalize
+## Critical rule — this PDF only
 
-The user explicitly instructed that **only for this PDF** the work must be page-driven:
+Process only actual numbered lyric pages/direct continuations. Ignore every non-song page for lyric-file creation. Multi-page lyrics remain one song file. Never import absent lyrics from elsewhere.
 
-1. scan/render the page;
-2. if an actual song lyric body is present, create/process the song file;
-3. if not, ignore the page;
-4. title lists, film metadata, prose mentions, photographs, contents, history/biography, bibliography, notes and back matter do not generate song files;
-5. a multi-page lyric remains one song file;
-6. do not import missing lyrics from any outside source.
+The full PDF was already visually classified: **62 song-bearing / 132 ignored pages / 54 numbered songs**. Use `songs/page-map.json`; do not revert to film-section batching.
 
-Do **not** revert to film-section batching as the work driver.
+## Current checkpoint
 
-## Full 194-page scan checkpoint
-
-The full PDF has already been visually scanned.
-
-- song-bearing pages: **62**;
-- ignored pages: **132**;
-- numbered songs represented: **54 (`001–054`)**;
-- final song-bearing page: **130**.
-
-Song-bearing whitelist:
-
-`26, 29–30, 33–41, 44–50, 53–59, 62–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`
-
-Human-readable scan ledger: `notes/FULL_PDF_SONG_PAGE_SCAN.md`  
-Machine map: `songs/page-map.json`
-
-## Current lyric checkpoint
-
-- `001–003`: draft;
-- `004–018`: verified;
-- `019–054`: not started.
-
-Totals:
-
-- verified: **15**;
-- draft: **3**;
+- draft: `001–003` — **3**;
+- verified: `004–023` — **20**;
 - review: **0**;
-- not started: **36**.
+- not started: `024–054` — **31**.
 
-Latest verified page batch: `notes/PAGE_BATCH_044_050_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_053_059_REVIEW.md`.
 
-### PDF 44–50 safeguards
+Latest verified page run:
 
-- Seven song-bearing pages produced songs 012–018.
-- All seven pages print music `டி.ஆர்.பாப்பா`.
-- None prints a separate `குரல்` line; do not infer singers.
-- Preserve source role/performance labels and refrain cues exactly.
-- Song 014 and song 015 are separate numbered records; song 015 is the source-marked sorrow version.
-- Preserve source-visible forms including `உன்செயல்`, `விண்ண முதே`, `வெறுங்`, and `மான் தோல்`.
+- PDF 53–54 → 019;
+- PDF 55 → 020;
+- PDF 56 → 021;
+- PDF 57 → 022;
+- PDF 58–59 → 023.
 
-## Attribution rule
-
-This is a 2024 anthology. Default item attribution is `anthology-attributed` unless separately strengthened by original-film evidence. Page-driven processing changes **what pages are processed**, not the evidentiary standard for authorship.
+Safeguards: 019 and 023 are cross-page records; 023 preserves its printed `வசனம்` / `பாட்டு` alternation and card-suit forms such as `கிளாவர்`, `டைமன்`, `இஸ்பேட்`.
 
 ## Exact next activity
 
-**Skip PDF 51–52.** They are non-song pages.
+**Skip PDF 60–61.** Process **PDF 62–63 → song 024**, then continue strictly by the page whitelist.
 
-Resume at **PDF 53–54 / song 019** and continue strictly through `songs/page-map.json` in ascending page order.
-
-For every whitelist entry:
-
-- inspect the rendered page(s);
-- create/update the corresponding `song-NNN.md`;
-- visually verify before marking `verified`;
-- skip every intervening non-song page completely.
-
-Do not begin English translation until the relevant Tamil lyric is verified.
+Do not begin English translation until the relevant Tamil song is verified.
 
 ## Repository boundary
 
-Work only inside `pugazg/kalaignar-cinema-works` unless the user explicitly requests another repository.
+Work only inside `pugazg/kalaignar-cinema-works` unless explicitly instructed otherwise.
