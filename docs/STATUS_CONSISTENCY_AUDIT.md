@@ -19,7 +19,7 @@ The central synchronization target is `data/works.json`. Work-specific metadata 
 
 **PASS — repository status registry synchronized for all four works.**
 
-The three screenplay works remain at their completed checkpoints. The film-song anthology has closed its Tamil transcription/fidelity gate at **54/54 complete-verified** and has now opened its English derivative with a **3-song pilot-verified checkpoint**.
+The three screenplay works remain at their completed checkpoints. The film-song anthology has closed its Tamil transcription/fidelity gate at **54/54 complete-verified** and has advanced its English derivative to **11/54 translated songs**.
 
 ## Cross-work status matrix
 
@@ -32,7 +32,7 @@ The three screenplay works remain at their completed checkpoints. The film-song 
 | Dialogue index | 642 records, complete-verified | 1,040 records, complete | 983 records, complete-verified | not applicable |
 | Character/entity layer | complete-verified | complete | complete-verified with one unresolved source label | not applicable |
 | Song/performance layer | 14/14 authorship verified | 3 verified / 5 unresolved | 1 verified / 1 review / 4 unresolved | 54/54 anthology-attributed lyric records verified |
-| English translation | 769 verified units | 1,321 verified units | 1,190 verified units | pilot-verified, 3/54 songs |
+| English translation | 769 verified units | 1,321 verified units | 1,190 verified units | in progress — 11/54 translated |
 | English reader/export | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS | not started |
 | EPUB | not required | complete-verified, QA PASS | not required | not started/not required yet |
 | Required Tamil/source work remaining | none | none | none | none |
@@ -48,18 +48,22 @@ Tamil status:
 - Tamil fidelity audit: **complete**;
 - unresolved Tamil song readings: **0**.
 
-The English layer is separately source-linked and now has:
+The English layer is separately source-linked under `works/kalaignar-thirai-isai-paadalgal/translations/` and follows `docs/SONG_TRANSLATION_GUIDE.md`.
 
-- guide: `docs/SONG_TRANSLATION_GUIDE.md`;
-- schema/index: `works/kalaignar-thirai-isai-paadalgal/translations/schema.json` and `translations/index.json`;
-- pilot review: `works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md`;
-- pilot-verified songs: **001–003**;
-- English not started: **51 songs**;
-- approved mode: **`semantic-poetic-source-faithful`**.
+Current English status:
 
-The pilot explicitly retains Kalaignar's language instead of smoothing it into generic lyric English: rustic/political satire in `001`, image-dense romantic language in `002`, and maternal/class lament in `003`. Repetition, concrete images, rhetorical questions, colloquial force and source anomalies remain visible/documented.
+- mode: **`semantic-poetic-source-faithful`**;
+- translated: **11/54**;
+- pilot-verified: **3** (`001–003`);
+- verified: **8** (`004–011`);
+- draft/review: **0/0**;
+- not started: **43** (`012–054`);
+- pilot review: `translations/PILOT_REVIEW.md`;
+- first scaled review: `translations/BATCH_004_011_REVIEW.md`.
 
-Default attribution remains `anthology-attributed`: English translation verification does not convert the 2024 anthology's attribution into automatic original-film primary-source verification.
+The English policy explicitly retains Kalaignar's language rather than smoothing it into generic lyric English. The `நாம்` batch demonstrates this across devotional/social satire, romantic duet, lament, comic mythic performance, rationalist/agricultural politics, reform rhetoric and political-philosophical exhortation. The verified records retain source images and terms such as yaazh, fragrance/marriage wordplay, Kodumpavi, kichili fruit, Nandanar versus hands-and-legs labour, common granary, Arignar, deathless Gandhi and honey turning into a scorpion.
+
+No verified Tamil song file was changed by the English translation layer. Default attribution remains `anthology-attributed`; English verification does not convert the 2024 anthology's attribution into automatic original-film primary-source verification.
 
 ## Existing screenplay works
 
@@ -99,6 +103,6 @@ The cropped lower printer-imprint continuation on PDF 2 remains an intentional u
 
 No required Tamil/source transcription or fidelity work remains for any of the four current works.
 
-For the anthology, the next repository-internal activity is **English songs 004–011 (`நாம்`)**, using the approved source-faithful Kalaignar-language pilot rules.
+For the anthology, the next repository-internal activity is **English songs 012–018 (`அம்மையப்பன்`)**, using the approved source-faithful Kalaignar-language rules.
 
 Reading Room integration remains a separate downstream publication activity and is outside this repository-only audit unless explicitly requested.
