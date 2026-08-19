@@ -2,9 +2,9 @@
 
 ## Scope
 
-This checkpoint covers the **complete 194-page song-presence scan** and line-level Tamil lyric verification for every numbered song except the three early draft records `001–003`.
+This audit covers the complete PDF-specific song-presence scan and line-level Tamil lyric verification for all **54 numbered songs** in the supplied anthology.
 
-The rendered scan is authoritative. The full-PDF scan classifies pages; a song is marked verified only after its own song-bearing page(s) are visually checked.
+The rendered scan is authoritative. A song is verified only after its song-bearing page(s) are visually checked. No external recording, lyric website, subtitle, alternate edition, or soundtrack-memory reconstruction is used to repair the anthology text.
 
 ## Full-PDF page classification
 
@@ -18,44 +18,52 @@ The rendered scan is authoritative. The full-PDF scan classifies pages; a song i
 Authoritative ledger: `notes/FULL_PDF_SONG_PAGE_SCAN.md`  
 Machine map: `songs/page-map.json`
 
-## Lyric fidelity status
+## Final lyric fidelity status
 
-- draft: **3** (`001–003`);
-- verified: **51** (`004–054`);
+- draft: **0**;
+- verified: **54** (`001–054`);
 - review: **0**;
-- not started: **0**.
+- not started: **0**;
+- unresolved Tamil song readings: **0**.
 
-Latest detailed review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
+The Tamil song corpus is therefore **complete-verified**.
 
-### Final not-started batch disposition
+Final draft-gate review: `notes/FINAL_DRAFT_001_003_REVIEW.md`.  
+Final formerly not-started batch review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-The final page-driven run processed songs `026–054` only from their established song-bearing pages:
+## Final pilot-draft disposition
 
-`65–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`.
-
-That run created and visually verified **29** song files. It did not create files from intervening non-song pages.
-
-New cross-page records in that run:
-
-- `036` — PDF 86–87;
-- `037` — PDF 90–91;
-- `051` — PDF 121–122;
-- `052` — PDF 123–124.
-
-Source-specific speaker labels, refrain cues, vocalizations, punctuation, colloquial wording, unusual compounds and lineation were preserved. No external recording, lyric website or alternate edition was used to fill, repair or normalize the Tamil.
-
-## PDF-specific processing rule
-
-For this PDF only, process actual numbered lyric pages/direct continuations and ignore every other page for lyric-file creation. Do not import missing lyrics from elsewhere.
-
-## Remaining Tamil gate
-
-The numbered corpus has **no not-started songs**, but it is **not yet complete-verified** because three pilot records remain drafts.
-
-Reinspect only:
+The last three draft pages were reinspected directly:
 
 - PDF 26 → song `001`;
 - PDF 29 → song `002`;
 - PDF 30 → song `003`.
 
-If those three pass, promote the Tamil lyric corpus to complete-verified. English translation remains blocked until then.
+Results:
+
+- `001`: corrected pilot `அறியாண்டி` to source-visible `அறியான்டி`; confirmed `வேணசெல்வம்`, `பெண்ணி`, and `ஏழைக்கிக்` exactly as printed;
+- `002`: pilot transcription passed without lyric correction; printed `தங்`, `கல்`, and `தங்,கல்` labels remain exact;
+- `003`: resolved the two pilot uncertainty markers directly from the scan as `வந்தேன் தவழ்ந்தாய்?` and `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!`.
+
+## Cross-page records
+
+The following verified songs span more than one song-bearing page and remain one file each:
+
+- `009` — PDF 38–39;
+- `019` — PDF 53–54;
+- `023` — PDF 58–59;
+- `024` — PDF 62–63;
+- `036` — PDF 86–87;
+- `037` — PDF 90–91;
+- `051` — PDF 121–122;
+- `052` — PDF 123–124.
+
+## PDF-specific processing rule
+
+For this PDF only, process actual numbered lyric pages/direct continuations and ignore every other page for lyric-file creation. Do not import missing lyrics from elsewhere.
+
+## Gate result
+
+**PASS — Tamil transcription complete-verified; Tamil fidelity audit complete.**
+
+English translation is now unblocked but remains a separate derivative layer and has not yet started.
