@@ -5,7 +5,6 @@ source_type: compiled_printed_film_lyrics_anthology
 
 source:
   identifier: "TVA_BOK_0065867"
-  identifier_basis: "supplied archive filename"
   filename: "TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf"
   byte_size: 130427193
   sha256: "f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05"
@@ -20,12 +19,7 @@ publication_as_printed:
   first_edition: "June 2024"
   printed_no_of_pages_statement: 192
   isbn: "978-81-961205-2-8"
-  price: "Rs. 300/-"
   publisher: "தமிழ்நாடு இயல் இசை நாடக மன்றம்"
-  publisher_address:
-    - "பொன்னி 31, குமாரசாமி ராஜா சாலை"
-    - "அடையாறு, சென்னை - 600 020"
-  printer: "Jothy Enterprises, Chennai - 600 005"
 
 source_authority:
   edition_text_authority: controlling
@@ -34,34 +28,16 @@ source_authority:
   primary_source_verification_requires_separate_evidence: true
   external_audio_or_web_lyrics_may_fill_missing_text: false
 
-structure:
-  status: verified
-  mapping_path: "mapping.md"
-  front_matter_pdf_pages: "1-20"
-  contents_pdf_pages: "21-23"
-  numbered_song_corpus_pdf_pages: "24-130"
-  tamil_film_sections: 23
-  numbered_songs: 54
-  numbered_song_range: "001-054"
-  other_language_film_details_pdf_pages: "131-139"
-  film_world_journey_pdf_pages: "140-181"
-  people_who_opened_film_world_door_pdf_pages: "182-188"
-  bibliography_pdf_page: 189
-  notes_and_back_matter_pdf_pages: "190-194"
-
 page_scan:
   status: complete
   scope: this-pdf-only
-  method: rendered-page-visual-scan
   physical_pages_scanned: 194
-  song_page_definition: "actual numbered lyric body or direct continuation; title lists, prose mentions, metadata, photographs, history, bibliography and back matter do not qualify"
   song_bearing_pages: 62
   ignored_pages: 132
-  song_bearing_page_ranges: "26, 29-30, 33-41, 44-50, 53-59, 62-67, 70, 73-74, 77, 80, 83-84, 86-87, 90-94, 97, 100, 103, 106, 109-110, 113, 116-117, 120-124, 127, 130"
   last_song_bearing_pdf_page: 130
   report_path: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
   machine_map_path: "songs/page-map.json"
-  processing_policy: "Process only song-bearing pages in ascending PDF order; skip non-song pages without creating song files."
+  processing_policy: "Process only actual numbered lyric pages/direct continuations in ascending PDF order; ignore all other pages for lyric-file creation."
 
 song_inventory:
   status: complete
@@ -71,51 +47,37 @@ song_inventory:
   expected_numbered_songs: 54
   inventoried_numbered_songs: 54
   draft_song_files: 3
-  verified_song_files: 15
+  verified_song_files: 20
   review_song_files: 0
-  not_started_song_files: 36
+  not_started_song_files: 31
   draft_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
-  verified_song_pdf_pages: "33-41, 44-50"
-  verified_cross_page_song_ids: ["kalaignar-song-009"]
-  batch_review_paths: ["notes/BATCH_004_011_REVIEW.md", "notes/PAGE_BATCH_044_050_REVIEW.md"]
-  next_unprocessed_song: "019"
-  next_unprocessed_song_pdf_page: 53
-
-special_source_notes:
-  - id: "mandhiri-kumari-censored-song"
-    pdf_page: 25
-    film: "மந்திரிகுமாரி"
-    mentioned_title: "ஆளப்பிறந்தவன் தமிழன் அவன்தானே"
-    numbered_lyric_record_created: false
-    disposition: "editorial-prose-mention-only; ignored for song-file creation under page-scan policy"
-  - id: "naam-song-009-cross-page"
-    pdf_pages: "38-39"
-    song: "kalaignar-song-009"
-    note: "The numbered lyric continues across two physical/printed pages and is stored as one song record."
-  - id: "ammaiyappan-pages-44-50"
-    pdf_pages: "44-50"
-    songs: ["kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
-    note: "All seven song-bearing pages were visually transcribed and verified. None prints a separate voice line; source role labels are retained without singer inference."
+  verified_song_range: "004-023"
+  verified_song_pdf_pages: "33-41, 44-50, 53-59"
+  verified_cross_page_song_ids: ["kalaignar-song-009", "kalaignar-song-019", "kalaignar-song-023"]
+  batch_review_paths:
+    - "notes/BATCH_004_011_REVIEW.md"
+    - "notes/PAGE_BATCH_044_050_REVIEW.md"
+    - "notes/PAGE_BATCH_053_059_REVIEW.md"
+  next_unprocessed_song: "024"
+  next_unprocessed_song_pdf_page: 62
 
 transcription:
   status: in-progress
   source_order: ascending_song_bearing_pdf_page
   song_files_expected: 54
   song_files_draft: 3
-  song_files_verified: 15
+  song_files_verified: 20
   song_files_review: 0
-  song_files_not_started: 36
-  verified_through_song_number: 18
-  verified_noncontiguous_note: "Songs 004-018 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
-  next_action: "Skip non-song PDF 51-52 and process song 019 from PDF 53-54; then continue only through pages listed in songs/page-map.json."
+  song_files_not_started: 31
+  verified_through_song_number: 23
+  verified_noncontiguous_note: "Songs 004-023 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
+  next_action: "Skip PDF 60-61; process song 024 from PDF 62-63; then continue only through songs/page-map.json."
 
 fidelity_audit:
   status: in-progress
-  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
-  review_song_ids: []
+  verified_song_range: "004-023"
   draft_song_ids_pending_recheck: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  latest_batch_review: "notes/PAGE_BATCH_044_050_REVIEW.md"
+  latest_batch_review: "notes/PAGE_BATCH_053_059_REVIEW.md"
   full_pdf_song_page_scan: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
 
 translation:
@@ -126,7 +88,6 @@ reader_export:
 
 status:
   source_intake: complete
-  structural_mapping: verified
   full_pdf_song_page_scan: complete
   song_inventory: complete
   tamil_song_transcription: in-progress
