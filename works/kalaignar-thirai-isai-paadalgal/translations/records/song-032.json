@@ -1,0 +1,83 @@
+{
+  "id": "kalaignar-song-en-032",
+  "song_id": "kalaignar-song-032",
+  "anthology_song_number": 32,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-032.md",
+    "tamil_status": "verified",
+    "pdf_pages": [77],
+    "tamil_title": "ஒருவனுக்கு ஒருத்தி என்ற",
+    "film_title_ta": "பூம்புகார்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "‘One woman for one man’",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஒருவனுக்கு ஒருத்தி என்ற",
+          "உயிர்மூச்சை உள்ளடக்கி",
+          "அறன் எனப் பட்டதே இல்வாழ்க்கை அஃதும்",
+          "பிறன் பழிப்பதில்லாயின் நன்று - எனும்",
+          "திருக்குறளை மறவாதே",
+          "திசை தவறிப்போகாதே",
+          "வாழ்க்கை எனும் ஓடம்",
+          "வழங்குகின்ற பாடம்",
+          "மானிடரின் மனதினிலே",
+          "மறக்க வொண்ணா வேதம்",
+          "(வாழ்க்கை)",
+          "வாலிபம் என்பது கலைகின்ற வேடம் - அதில்",
+          "வந்தது வரட்டும் என்பவன் முழு மூடம்",
+          "வருமுன் காப்பவன் தான் அறிவாளி - புயல்",
+          "வருமுன் காப்பவன் தான் அறிவாளி",
+          "வந்தபின்னே தவிப்பவன்தான் ஏமாளி",
+          "(வாழ்க்கை)",
+          "துடுப்புகள் இல்லாப் படகு - அலைகள்",
+          "அழைக்கின்ற திசையெல்லாம் போகும் - தீமையைத்",
+          "தடுப்பவன் இல்லாத வாழ்வும் - அந்தப்",
+          "படகின் நிலைபோலே ஆகும்."
+        ],
+        "english_lines": [
+          "Holding within it the life-breath,",
+          "‘one woman for one man,’",
+          "‘Domestic life is what is called virtue; even that,",
+          "is good if it brings no blame from another’ — says the,",
+          "Thirukkural; do not forget it,",
+          "do not stray from your direction,",
+          "The boat called life,",
+          "the lesson it gives,",
+          "within the human heart,",
+          "is a Veda impossible to forget,",
+          "(Life)",
+          "Youth is a costume that fades — in it,",
+          "the one who says ‘let whatever comes, come’ is a complete fool,",
+          "the one who guards before it comes is the wise one — before the storm,",
+          "the one who guards before it comes is the wise one,",
+          "the one who suffers after it comes is the dupe,",
+          "(Life)",
+          "A boat without oars — the waves,",
+          "will take it in every direction they call — a life with no one,",
+          "to block evil — that life too,",
+          "will become like the state of that boat."
+        ],
+        "notes": [
+          "The opening `ஒருவனுக்கு ஒருத்தி` is retained directly as `one woman for one man`; it is not paraphrased into a modern abstract term such as monogamy.",
+          "The Thirukkural wording is translated exactly from the verified anthology witness. No canonical-edition wording is substituted for what this page prints.",
+          "`வாழ்க்கை எனும் ஓடம்` remains the boat-called-life metaphor and `மறக்க வொண்ணா வேதம்` remains an unforgettable Veda rather than generic wisdom.",
+          "Youth remains a fading costume, and the repeated warning to guard before the storm remains repeated.",
+          "The final boat-without-oars analogy retains waves actively calling directions and a life lacking someone who blocks evil."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation retains the song's moral-didactic architecture: one-woman/one-man life-breath, the anthology's printed Thirukkural wording, life-as-boat, Veda, youth-as-fading-costume, storm-preparedness and the oarless-boat warning.",
+      "No alternate Thirukkural edition or soundtrack wording is used to repair or harmonize the source."
+    ]
+  }
+}
