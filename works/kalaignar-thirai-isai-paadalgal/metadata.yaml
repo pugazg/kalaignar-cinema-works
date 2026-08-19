@@ -99,18 +99,19 @@ translation:
     - "translations/BATCH_019_025_REVIEW.md"
     - "translations/BATCH_026_032_REVIEW.md"
     - "translations/BATCH_033_039_REVIEW.md"
+    - "translations/BATCH_040_046_REVIEW.md"
   songs_expected: 54
-  songs_translated: 39
+  songs_translated: 46
   songs_pilot_verified: 3
-  songs_verified: 36
+  songs_verified: 43
   songs_draft: 0
   songs_review: 0
-  songs_not_started: 15
+  songs_not_started: 8
   pilot_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018", "kalaignar-song-019", "kalaignar-song-020", "kalaignar-song-021", "kalaignar-song-022", "kalaignar-song-023", "kalaignar-song-024", "kalaignar-song-025", "kalaignar-song-026", "kalaignar-song-027", "kalaignar-song-028", "kalaignar-song-029", "kalaignar-song-030", "kalaignar-song-031", "kalaignar-song-032", "kalaignar-song-033", "kalaignar-song-034", "kalaignar-song-035", "kalaignar-song-036", "kalaignar-song-037", "kalaignar-song-038", "kalaignar-song-039"]
-  translated_pdf_pages: [26, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 53, 54, 55, 56, 57, 58, 59, 62, 63, 64, 65, 66, 67, 70, 73, 74, 77, 80, 83, 84, 86, 87, 90, 91, 92, 93]
-  next_batch: "040-046"
-  next_action: "Translate and verify songs 040-046 using the approved Kalaignar-language source-faithful rules."
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018", "kalaignar-song-019", "kalaignar-song-020", "kalaignar-song-021", "kalaignar-song-022", "kalaignar-song-023", "kalaignar-song-024", "kalaignar-song-025", "kalaignar-song-026", "kalaignar-song-027", "kalaignar-song-028", "kalaignar-song-029", "kalaignar-song-030", "kalaignar-song-031", "kalaignar-song-032", "kalaignar-song-033", "kalaignar-song-034", "kalaignar-song-035", "kalaignar-song-036", "kalaignar-song-037", "kalaignar-song-038", "kalaignar-song-039", "kalaignar-song-040", "kalaignar-song-041", "kalaignar-song-042", "kalaignar-song-043", "kalaignar-song-044", "kalaignar-song-045", "kalaignar-song-046"]
+  translated_pdf_pages: [26, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 53, 54, 55, 56, 57, 58, 59, 62, 63, 64, 65, 66, 67, 70, 73, 74, 77, 80, 83, 84, 86, 87, 90, 91, 92, 93, 94, 97, 100, 103, 106, 109, 110]
+  next_batch: "047-054"
+  next_action: "Translate and verify the final songs 047-054 using the approved Kalaignar-language source-faithful rules; preserve full cross-page provenance for songs 051 and 052."
 
 reader_export:
   status: not-started
