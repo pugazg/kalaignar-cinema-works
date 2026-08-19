@@ -30,12 +30,12 @@ Authoritative Tamil/source records:
 | Item | Status |
 |---|---:|
 | Source songs available | 54 |
-| English translated total | 32 |
+| English translated total | 39 |
 | Pilot-verified English songs | 3 |
-| Verified English songs beyond pilot | 29 |
+| Verified English songs beyond pilot | 36 |
 | English draft | 0 |
 | English review | 0 |
-| English not started | 22 |
+| English not started | 15 |
 
 Completed English gates:
 
@@ -43,7 +43,8 @@ Completed English gates:
 - `BATCH_004_011_REVIEW.md` — `நாம்`, 8/8 PASS;
 - `BATCH_012_018_REVIEW.md` — `அம்மையப்பன்`, 7/7 PASS;
 - `BATCH_019_025_REVIEW.md` — songs 019–025, 7/7 PASS;
-- `BATCH_026_032_REVIEW.md` — songs 026–032, 7/7 PASS.
+- `BATCH_026_032_REVIEW.md` — songs 026–032, 7/7 PASS;
+- `BATCH_033_039_REVIEW.md` — songs 033–039, 7/7 PASS.
 
 Translation authorities:
 
@@ -54,6 +55,7 @@ Translation authorities:
 - `translations/BATCH_012_018_REVIEW.md`
 - `translations/BATCH_019_025_REVIEW.md`
 - `translations/BATCH_026_032_REVIEW.md`
+- `translations/BATCH_033_039_REVIEW.md`
 - `docs/SONG_TRANSLATION_GUIDE.md`
 
 ## Kalaignar-language translation rule
@@ -70,22 +72,22 @@ The English must retain Kalaignar's language rather than become generic lyric pr
 - no rhyme or singability is invented at the cost of meaning;
 - difficult source forms are documented rather than silently corrected through English.
 
-## Fourth scaled batch result — `026–032`
+## Fifth scaled batch result — `033–039`
 
 PASS — **7/7 verified**.
 
-The batch adds several new register tests while retaining source shape:
+The batch adds several demanding voice tests while retaining source shape:
 
-- `026`: sky-flower grove, honeyed moon, jasmine creeper, overflowing-dam love, quenched fire, uncloying nectar and sweet mango-fruit;
-- `027`: plucked lips, north-wind chill, intimate `di`, conservative `eduppu`, `pann` / `yaazh`, and lightning-like disappearance; no singer inferred;
-- `028`: explicit **O Tamil**, retained lullaby vocables, golden lamp, wave-struck mother's heart, moon and cloud-seeing peacock;
-- `029`: repeated `இருக்குது` architecture, price-question, net-in-eyes, printed `fruit- / cluster` split, statue, waist/youth/arrow and pleasure-poem imagery;
-- `030`: water/fire impossibilities, spinning world/body, `kalagam / kalayam` commotion/pot sound-play, heaven/dizziness, colloquial maiden-girl, unexpanded `one on the cheek`, and exact role labels;
-- `031`: repeated martial exhortation, warrior-conch, armies, head-giving, mother's honour, hill-like shoulder, enemy feet, flower-not-plucking warrior hands, raised sword, `vengai` tiger-king, and documented source pressure points;
-- `032`: **one woman for one man**, the anthology's printed Thirukkural wording, life-as-boat, unforgettable Veda, youth-as-fading-costume, storm preparedness and the oarless-boat analogy.
+- `033`: triple cheek/bowl/colour/sign repetition, youth-feast, forceful bird, burning moon and the paired two-fish/two-honeys/two-deer/two-skies sequence;
+- `034`: three-person paper boat, shared sinking, ritual/public imagery, social abandonment, god absent from every temple, literal **death at six, death at a hundred**, and the final Amma/mother call;
+- `035`: **interest / principal** financial-romantic wordplay, source-joined **fruit-flower**, cheek/fruit-lip seal imagery, love putting forth shoots and throbbing `பருவம்` restrained by the heart;
+- `036`: **justice for the heart / sword for the shoulder**, Bharathi/Buddha/Gandhi/Arignar Anna rhetoric, direct anti-caste/religion language, duty/rights/humanity and corruption/mirror/blame/pillar warning across PDF 86–87;
+- `037`: **people / sceptre**, people cooking in fire, kings-on-road satire, `sirukodindha`, bungalow/sour-kaadi street-life imagery, pearl/mucus and gem reversals, `kuthuk-kallu`, and **survive by dying** across PDF 90–91;
+- `038`: direct **O Tamil**, thousand crescents, sun procession, Podhigai breeze, literature/youth/old-age duration chain and source-pressure `Ponni nadiyaan`;
+- `039`: `kurinji`, honey-waist, rock-candy/milk/sugarcane-plough imagery, `iyal / isai / koothu / Muthamizh`, three fruits, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother**.
 
 No verified Tamil song file was modified.
 
 ## Next activity
 
-Translate and verify **songs 033–039** using the same Kalaignar-language source-faithful rules. Preserve full cross-page provenance for songs `036` and `037`.
+Translate and verify **songs 040–046** using the same Kalaignar-language source-faithful rules.
