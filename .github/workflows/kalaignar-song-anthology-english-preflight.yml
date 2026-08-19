@@ -1,4 +1,4 @@
-name: Kalaignar song anthology English reader preflight
+name: Kalaignar song anthology English reader QA and build
 
 on:
   workflow_dispatch:
@@ -13,13 +13,14 @@ on:
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py"
+      - "works/kalaignar-thirai-isai-paadalgal/editions/en/build.py"
       - ".github/workflows/kalaignar-song-anthology-english-preflight.yml"
 
 permissions:
   contents: write
 
 jobs:
-  reader-preflight:
+  reader-qa-and-build:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -42,7 +43,10 @@ jobs:
       - name: Synchronize repository preflight status
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py
 
-      - name: Commit passing preflight checkpoint
+      - name: Build and validate deterministic English reader exports
+        run: python works/kalaignar-thirai-isai-paadalgal/editions/en/build.py
+
+      - name: Commit passing reader package
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -51,10 +55,15 @@ jobs:
             README.md \
             data/works.json \
             docs/STATUS_CONSISTENCY_AUDIT.md \
-            works/kalaignar-thirai-isai-paadalgal/editions/en/PREFLIGHT_QA_REPORT.md
+            works/kalaignar-thirai-isai-paadalgal/editions/en/PREFLIGHT_QA_REPORT.md \
+            works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.md \
+            works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.html \
+            works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.json \
+            works/kalaignar-thirai-isai-paadalgal/editions/en/QA_REPORT.md \
+            works/kalaignar-thirai-isai-paadalgal/editions/en/manifest.json
           if git diff --cached --quiet; then
-            echo "Preflight report and synchronized status are already current; nothing to commit."
+            echo "Reader package and synchronized preflight status are already current; nothing to commit."
           else
-            git commit -m "Record anthology English reader preflight [skip ci]"
+            git commit -m "Build anthology English reader package [skip ci]"
             git push
           fi
