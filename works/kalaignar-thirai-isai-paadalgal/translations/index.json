@@ -1,0 +1,56 @@
+{
+  "work_id": "kalaignar-thirai-isai-paadalgal",
+  "target_language": "en",
+  "status": "pilot-verified",
+  "mode": "semantic-poetic-source-faithful",
+  "translation_guide": "docs/SONG_TRANSLATION_GUIDE.md",
+  "schema": "works/kalaignar-thirai-isai-paadalgal/translations/schema.json",
+  "source_corpus_status": "complete-verified",
+  "source_songs_expected": 54,
+  "source_songs_verified": 54,
+  "translated_songs": 3,
+  "status_counts": {
+    "not-started": 51,
+    "draft": 0,
+    "review": 0,
+    "pilot-verified": 3,
+    "verified": 0
+  },
+  "pilot_song_ids": [
+    "kalaignar-song-001",
+    "kalaignar-song-002",
+    "kalaignar-song-003"
+  ],
+  "records": [
+    {
+      "translation_id": "kalaignar-song-en-001",
+      "song_id": "kalaignar-song-001",
+      "anthology_song_number": 1,
+      "status": "pilot-verified",
+      "source_song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-001.md",
+      "source_pdf_pages": [26],
+      "translation_file": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-001.json"
+    },
+    {
+      "translation_id": "kalaignar-song-en-002",
+      "song_id": "kalaignar-song-002",
+      "anthology_song_number": 2,
+      "status": "pilot-verified",
+      "source_song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-002.md",
+      "source_pdf_pages": [29],
+      "translation_file": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-002.json"
+    },
+    {
+      "translation_id": "kalaignar-song-en-003",
+      "song_id": "kalaignar-song-003",
+      "anthology_song_number": 3,
+      "status": "pilot-verified",
+      "source_song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-003.md",
+      "source_pdf_pages": [30],
+      "translation_file": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-003.json"
+    }
+  ],
+  "pilot_review": "works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md",
+  "next_batch": "004-011",
+  "next_action": "Translate and verify songs 004-011 using the approved Kalaignar-language voice rules before scaling further."
+}
