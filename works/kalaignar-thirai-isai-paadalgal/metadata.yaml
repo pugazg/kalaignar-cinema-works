@@ -85,7 +85,7 @@ fidelity_audit:
   unresolved_song_readings: 0
 
 translation:
-  status: pilot-verified
+  status: in-progress
   target_language: en
   mode: semantic-poetic-source-faithful
   voice_rule: "retain Kalaignar's language, rhetoric, repetition, political/social force, concrete imagery, colloquial energy and source-specific constructions"
@@ -93,16 +93,20 @@ translation:
   schema: "translations/schema.json"
   index: "translations/index.json"
   pilot_review: "translations/PILOT_REVIEW.md"
+  batch_review_paths:
+    - "translations/BATCH_004_011_REVIEW.md"
   songs_expected: 54
+  songs_translated: 11
   songs_pilot_verified: 3
-  songs_verified: 0
+  songs_verified: 8
   songs_draft: 0
   songs_review: 0
-  songs_not_started: 51
+  songs_not_started: 43
   pilot_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  pilot_pdf_pages: [26, 29, 30]
-  next_batch: "004-011"
-  next_action: "Translate and verify songs 004-011 using the approved Kalaignar-language pilot rules; do not smooth away source imagery, repetition, satire or colloquial force."
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
+  translated_pdf_pages: [26, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40, 41]
+  next_batch: "012-018"
+  next_action: "Translate and verify songs 012-018 using the approved Kalaignar-language source-faithful rules; do not smooth away source imagery, repetition, satire, cultural wording or colloquial force."
 
 reader_export:
   status: not-started
@@ -113,5 +117,5 @@ status:
   song_inventory: complete-verified
   tamil_song_transcription: complete-verified
   tamil_song_fidelity_audit: complete
-  english_translation: pilot-verified
+  english_translation: in-progress
   reader_export: not-started
