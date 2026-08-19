@@ -36,16 +36,19 @@ Songs `001–003` were the final pilot drafts. Direct reinspection of PDF 26, 29
 - `002`: no lyric correction required;
 - `003`: uncertainty markers resolved as `வந்தேன் தவழ்ந்தாய்?` and `பாழான`.
 
-The Tamil corpus is therefore **54/54 complete-verified** and should now be treated as immutable translation input.
+The Tamil corpus is therefore **54/54 complete-verified** and must be treated as immutable translation input.
 
 ## English derivative
 
-English translation now exists separately under `../translations/`:
+English translation lives separately under `../translations/`:
 
-- status: **pilot-verified**;
-- pilot songs: **001–003**;
+- status: **in progress**;
+- translated: **11/54**;
+- pilot-verified: **001–003**;
+- verified: **004–011**;
 - mode: **`semantic-poetic-source-faithful`**;
 - governing guide: `../../../docs/SONG_TRANSLATION_GUIDE.md`;
-- next English batch: **004–011**.
+- first scaled review: `../translations/BATCH_004_011_REVIEW.md`;
+- next English batch: **012–018**.
 
 The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability.
