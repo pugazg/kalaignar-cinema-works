@@ -1,0 +1,61 @@
+{
+  "id": "kalaignar-song-en-028",
+  "song_id": "kalaignar-song-028",
+  "anthology_song_number": 28,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-028.md",
+    "tamil_status": "verified",
+    "pdf_pages": [67],
+    "tamil_title": "தமிழே தேனே கண்ணே தாலேலோ",
+    "film_title_ta": "ரங்கோன் ராதா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "O Tamil, O honey, dear one — thaalelo",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "தமிழே தேனே கண்ணே தாலேலோ",
+          "தங்க ஜோதி வீசும் தீபமே தாலேல தாலல தாலேலோ",
+          "அலை மோதிடும் கடல் போலவே",
+          "உனை ஈன்ற தாயின் உள்ளமே",
+          "நிலை மாறி வரும் போதிலே",
+          "நீதான் வந்தாய் நிலவாகவே",
+          "முகில் காணுமோர் மயில் போலவே",
+          "உன் கோல முகமும் காணவே",
+          "துயர் நீங்கி நானும் ஆடுவேன்",
+          "தூங்காத கண்ணே தூங்கப்பா"
+        ],
+        "english_lines": [
+          "O Tamil, O honey, dear one — thaalelo,",
+          "O lamp that casts golden radiance — thaalela, thaalala, thaalelo,",
+          "Like a sea where waves collide,",
+          "is the heart of the mother who bore you,",
+          "When its state keeps changing,",
+          "you alone came as the moon,",
+          "Like a peacock that beholds a cloud,",
+          "on beholding your lovely face,",
+          "my sorrow will leave and I too shall dance,",
+          "Sleepless dear one, sleep, pa."
+        ],
+        "notes": [
+          "`தமிழே` remains an explicit address to Tamil; it is not generalized into language or mother tongue.",
+          "The source lullaby vocables `தாலேல / தாலல / தாலேலோ` remain transliterated rather than replaced by English lullaby sounds.",
+          "The mother's heart remains a wave-struck sea, and the child remains the moon that arrives when that heart's state changes.",
+          "Cloud-seeing peacock and the mother's answering dance remain a linked image.",
+          "The closing `தூங்கப்பா` keeps the colloquial `pa` vocative force rather than being formalized."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This lullaby retains Tamil, honey, golden lamp, wave-beaten sea, moon and peacock/cloud imagery as Kalaignar arranges them.",
+      "The translation is literary and source-faithful, not adapted for an English lullaby metre."
+    ]
+  }
+}
