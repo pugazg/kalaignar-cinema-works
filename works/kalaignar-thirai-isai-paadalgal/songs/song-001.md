@@ -1,6 +1,6 @@
 # 001 — ஊருக்கு உழைப்பவண்டி
 
-<!-- source: pdf=26 printed=26 anthology_song=001 status=draft -->
+<!-- source: pdf=26 printed=26 anthology_song=001 status=verified -->
 
 - film: `மந்திரி குமாரி`
 - anthology film year: `1950`
@@ -8,7 +8,7 @@
 - voice as printed: `பி.எஸ்.சுப்பையா`
 - context label as printed: `மாட்டுக்காரப் பையன்`
 - attribution status: `anthology-attributed`
-- transcription status: `draft`
+- transcription status: `verified`
 
 ## மூலம்
 
@@ -17,7 +17,7 @@
 (தொகையறா)
 
 ஊருக்கு உழைப்பவண்டி  
-ஒரு குற்றம் அறியாண்டி  
+ஒரு குற்றம் அறியான்டி  
 உதை பட்டு சாவாண்டி - எருமைக் கன்னுக்குட்டி
 
 (பாட்டு)
@@ -46,4 +46,5 @@
 
 - PDF 25 lists `ஊருக்கு உழைப்பவண்டி` beside `கலைஞர்` and separately says Kalaignar wrote this song and the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`.
 - The latter is not printed as a numbered lyric record and is not reconstructed here.
-- The final stanza retains the first-pass scan readings exactly as transcribed. Recheck `வேணசெல்வம்`, `பெண்ணி`, and `ஏழைக்கிக்` against a high-resolution rendering before changing this record from `draft` to `verified`; do not normalize them from familiarity.
+- Direct high-resolution reinspection of PDF 26 resolved the pilot reading and confirms the source-visible forms `அறியான்டி`, `வேணசெல்வம்`, `பெண்ணி`, and `ஏழைக்கிக்`; they are retained without normalization.
+- Fidelity status: **verified from the rendered anthology page**.
