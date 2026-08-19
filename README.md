@@ -43,19 +43,20 @@ The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadal
 - numbered Tamil lyric corpus: PDF **24–130**;
 - film sections: **23/23 mapped**;
 - numbered songs: **54/54 inventoried (`001–054`)**;
-- Tamil song transcription: **3 draft / 51 verified / 0 review / 0 not-started**;
-- draft songs: `001–003`;
-- verified songs: **`004–054`**;
-- latest page-driven review: `works/kalaignar-thirai-isai-paadalgal/notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`;
+- Tamil song transcription: **54/54 complete-verified**;
+- Tamil fidelity audit: **complete — 0 draft / 0 review / 0 unresolved Tamil readings**;
+- latest Tamil gate review: `works/kalaignar-thirai-isai-paadalgal/notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
-- English translation: **not-started**;
+- English translation: **not-started, now unblocked**;
 - reader/export: **not-started**.
 
-The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. The final formerly not-started run created and visually verified songs **026–054** from only the established whitelist pages through PDF **130**. Cross-page verified records in the corpus include `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
+The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered song files are now visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
+
+The final pilot-draft recheck inspected only PDF **26, 29 and 30**. Song `001` was corrected from pilot `அறியாண்டி` to source-visible `அறியான்டி`, while the unusual `வேணசெல்வம்`, `பெண்ணி`, and `ஏழைக்கிக்` forms were confirmed. Song `002` required no lyric correction. Song `003` had its two uncertainty markers resolved directly from the scan as `வந்தேன் தவழ்ந்தாய்?` and `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!`.
 
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** directly reinspect only PDF **26, 29 and 30** for draft songs **001–003**. If all three pass, the Tamil lyric corpus can be promoted to complete-verified; English translation remains blocked until then.
+**Next:** define and review a source-linked English translation pilot from the verified Tamil song files before scaling to all 54 songs.
 
 ## மனோகரா status
 
