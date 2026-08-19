@@ -31,29 +31,29 @@ The English layer is **in progress** under the approved `semantic-poetic-source-
 
 Current checkpoint:
 
-- translated: **32/54**;
+- translated: **39/54**;
 - pilot-verified: **3** (`001–003`);
-- verified: **29** (`004–032`);
+- verified: **36** (`004–039`);
 - draft/review: **0/0**;
-- not started: **22** (`033–054`);
+- not started: **15** (`040–054`);
 - guide: `docs/SONG_TRANSLATION_GUIDE.md`;
 - schema/index: `translations/schema.json`, `translations/index.json`;
 - pilot review: `translations/PILOT_REVIEW.md`;
-- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`.
+- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`, `translations/BATCH_033_039_REVIEW.md`.
 
 ### Retaining Kalaignar's language
 
 The English is deliberately **not** a singable rewrite or generic paraphrase. It retains repetition, social/political force, concrete images, rhetorical questions, colloquial energy, culture-bearing vocabulary and source-specific constructions.
 
-The fourth scaled batch (`026–032`) is verified and extends the policy into several new registers:
+The fifth scaled batch (`033–039`) is verified and preserves:
 
-- `026`: sky-flower grove, honeyed moon, jasmine creeper, overflowing-dam love, quenched fire, uncloying nectar and sweet mango-fruit;
-- `027`: plucked lips, north-wind chill, intimate `di`, conservative `eduppu`, `pann` / `yaazh`, and lightning-like disappearance; no singer was inferred;
-- `028`: explicit **O Tamil**, retained lullaby vocables, golden lamp, wave-struck mother's heart, moon and cloud-seeing peacock;
-- `029`: repeated `இருக்குது` architecture, price-question, net-in-eyes, source-split `fruit- / cluster`, statue, waist/youth/arrow and pleasure-poem imagery;
-- `030`: water/fire impossibilities, spinning world/body, `kalagam / kalayam` commotion/pot sound-play, heaven/dizziness, colloquial maiden-girl and unexpanded `one on the cheek`, with exact role labels retained;
-- `031`: repeated martial exhortation, warrior-conch, armies, head-giving, mother's honour, hill-like shoulder, enemy feet, flower-not-plucking warrior hands, raised sword, `vengai` tiger-king, and documented source pressure points `குமலைப்`, `அஞ்சுகத்தின்`, `புறப்படடா`;
-- `032`: **one woman for one man**, the anthology's own printed Thirukkural wording, life-as-boat, unforgettable Veda, youth-as-fading-costume, storm preparedness and the oarless-boat analogy.
+- `033`: triple cheek/bowl/colour/sign repetition, youth-feast, forceful bird, burning moon and paired **two fish / two honeys / two deer / two skies** imagery;
+- `034`: paper boat, three-person shared sinking, social abandonment, no place for the poor, no god in any temple, literal **death at six, death at a hundred**, and final Amma/mother call;
+- `035`: `வட்டி / அசல்` as **interest / principal**, source-joined **fruit-flower**, cheek/fruit-lip/marriage wordplay, love putting forth shoots and throbbing `பருவம்` restrained by the heart;
+- `036`: **justice for the heart / sword for the shoulder**, Bharathi/Buddha/Gandhi/Arignar Anna rhetoric, direct anti-caste/religion language, duty/rights/humanity and corruption/mirror/blame/pillar warning across PDF 86–87;
+- `037`: **people / sceptre**, people cooking in fire, kings-on-road satire, `sirukodindha`, bungalow/sour-kaadi street-life imagery, pearl/mucus and gem reversals, `kuthuk-kallu`, and **survive by dying** across PDF 90–91;
+- `038`: direct **O Tamil**, thousand crescents, sun procession, Podhigai breeze, literature/youth/old-age duration chain and source-pressure `Ponni nadiyaan`;
+- `039`: `kurinji`, honey-waist, rock-candy/milk/sugarcane-plough imagery, `iyal / isai / koothu / Muthamizh`, three fruits, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother**.
 
 No verified Tamil file was changed by the English translation layer.
 
@@ -65,4 +65,4 @@ The anthology's `மந்திரிகுமாரி` editorial note also me
 
 ## Next activity
 
-Translate and verify **songs 033–039** using the same approved Kalaignar-language source-faithful rules. Preserve full cross-page provenance for songs `036` and `037`; do not overwrite or normalize the verified Tamil corpus.
+Translate and verify **songs 040–046** using the same approved Kalaignar-language source-faithful rules. Do not overwrite or normalize the verified Tamil corpus.
