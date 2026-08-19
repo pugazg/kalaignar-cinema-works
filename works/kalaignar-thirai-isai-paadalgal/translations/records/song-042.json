@@ -1,0 +1,101 @@
+{
+  "id": "kalaignar-song-en-042",
+  "song_id": "kalaignar-song-042",
+  "anthology_song_number": 42,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-042.md",
+    "tamil_status": "verified",
+    "pdf_pages": [100],
+    "tamil_title": "சுருளு மீசைக்காரனடி வேலுத்தம்பி",
+    "film_title_ta": "வீரன் வேலுத்தம்பி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Curled-moustached Veluthambi, di",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "சுருளு மீசைக்காரனடி வேலுத்தம்பி",
+          "சூராதி சூரனடி வேலுத்தம்பி",
+          "சூரியனில் நெருப்பெடுப்பான், சூழ்ச்சிகளை கொளுத்திடுவான்",
+          "சுருளு மீசைக்காரனடி வேலுத்தம்பி",
+          "சூராதி சூரனடி வேலுத்தம்பி",
+          "ஏறிமலையில் அடுப்பெரிப்பான், ஏழையர்க்கு உணவளிப்பான்",
+          "எங்கள் குல தெய்வமாவான் அவன் தங்ககுல சிங்கமாவான்",
+          "பூகம்ப மேடையிலே புரட்சி கீதம் பாடிடுவான்",
+          "பொல்லாதோர் படையெல்லாம் பொடிப்பொடியா ஆக்கிடுவான்",
+          "(சுருளு மீசைக்காரனடி)"
+        ],
+        "english_lines": [
+          "Curled-moustached Veluthambi, di,",
+          "Hero beyond heroes, Veluthambi, di,",
+          "He will take fire from the sun and burn conspiracies,",
+          "Curled-moustached Veluthambi, di,",
+          "Hero beyond heroes, Veluthambi, di,",
+          "On the eeri-malai he will light a stove and feed the poor,",
+          "He will become our clan-deity; he will become the golden-clan lion,",
+          "On the earthquake-stage he will sing the song of revolution,",
+          "He will make the whole army of the wicked into powder, powder,",
+          "(Curled-moustached one, di)."
+        ],
+        "notes": [
+          "The intimate folk vocative `டி` remains `di`.",
+          "Verified `ஏறிமலையில்` is not silently corrected to a familiar alternate form; `eeri-malai` is retained as a documented source pressure point.",
+          "`குல தெய்வம்`, `தங்ககுல சிங்கம்`, `பூகம்ப மேடை`, and the repeated `பொடிப்பொடியா` remain source-shaped images rather than being replaced by generic heroism."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "குழு",
+        "english_label": "Group",
+        "source_tamil_lines": [
+          "கும்மியடிப் பெண்ணே கும்மியடி குலவைப் போட்டுக் கும்மியடி",
+          "கும்மியடிப் பெண்ணே கும்மியடி குலவைப் போட்டுக் கும்மியடி"
+        ],
+        "english_lines": [
+          "Dance kummi, woman — dance kummi, raise the kulavai and dance kummi,",
+          "Dance kummi, woman — dance kummi, raise the kulavai and dance kummi."
+        ],
+        "notes": [
+          "`கும்மி` and `குலவை` remain `kummi` and `kulavai`, preserving the source performance vocabulary and repetition."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "கடமைக்குத்தான் உயிர் கொடுப்பான்",
+          "கண்ணியத்தைக் காத்து நிற்பான்",
+          "இந்த தம்பியிருந்தா படைக்கு பயமில்லே",
+          "இந்த தத்துவத்தைத்தான் மறந்து போனதில்லே",
+          "தனியுடைமைக்கு தடைவிதித்து பொதுவுடைமைக்கு போர்தொடுத்து",
+          "தும்பியைப் போல் பறந்து வந்து துன்பங்களை தீர்த்துவைப்பான்"
+        ],
+        "english_lines": [
+          "He will give his life only for duty,",
+          "He will stand guarding dignity,",
+          "If this thambi is here, the army has no fear,",
+          "He has never forgotten this philosophy,",
+          "Placing a ban on private ownership, waging struggle for common ownership,",
+          "Flying in like a thumbi, he will come and end suffering."
+        ],
+        "notes": [
+          "`தம்பி` remains `thambi` as an intimate political/familial address.",
+          "`தனியுடைமை / பொதுவுடைமை` is translated directly as private ownership / common ownership; the ideological contrast is not softened.",
+          "`தும்பி` remains `thumbi` because the source image is culture- and species-sensitive and does not require a forced English substitute."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The lyric combines folk-performance diction, revolutionary hero-praise and explicit common-ownership politics. The English retains all three registers together.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
