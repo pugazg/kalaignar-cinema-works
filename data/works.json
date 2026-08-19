@@ -13,18 +13,8 @@
     "scene_headings_observed": 46,
     "headings_not_observed": [23, 34],
     "canonical_scene_number_corrections": [
-      {
-        "pdf_page": 49,
-        "printed_page": 48,
-        "source_heading": 48,
-        "canonical_heading": 43
-      },
-      {
-        "pdf_page": 57,
-        "printed_page": 56,
-        "source_heading": 43,
-        "canonical_heading": 48
-      }
+      {"pdf_page":49,"printed_page":48,"source_heading":48,"canonical_heading":43},
+      {"pdf_page":57,"printed_page":56,"source_heading":43,"canonical_heading":48}
     ],
     "tamil_transcription": "verified",
     "tamil_first_pass_complete": true,
@@ -79,12 +69,7 @@
       "translation_verified_units": 769,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 641,
-        "stage_direction": 114,
-        "song": 13,
-        "quoted_verse": 1
-      },
+      "translation_unit_kind_counts": {"dialogue":641,"stage_direction":114,"song":13,"quoted_verse":1},
       "translation_cross_page_units": 16,
       "english_reader_edition": "complete-verified",
       "english_reader_edition_directory": "works/parasakthi/editions/en",
@@ -127,14 +112,7 @@
     "total_canonical_pages": 104,
     "total_verified_pages": 104,
     "total_review_pages": 0,
-    "source_crop_notes": [
-      {
-        "pdf_page": 2,
-        "element": "lower_printer_imprint_line",
-        "visible_partial_reading": "சிட்டி பிரஸ், மதுரை ரோ…",
-        "status": "unresolved_source_crop"
-      }
-    ],
+    "source_crop_notes": [{"pdf_page":2,"element":"lower_printer_imprint_line","visible_partial_reading":"சிட்டி பிரஸ், மதுரை ரோ…","status":"unresolved_source_crop"}],
     "structured_derivatives": {
       "scene_index": "complete",
       "scene_index_path": "works/tirumbippaar/scenes/index.json",
@@ -171,13 +149,7 @@
       "translation_verified_units": 1321,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 1047,
-        "stage_direction": 254,
-        "song_reference": 7,
-        "chant": 2,
-        "written_text": 11
-      },
+      "translation_unit_kind_counts": {"dialogue":1047,"stage_direction":254,"song_reference":7,"chant":2,"written_text":11},
       "translation_dialogue_source_records_linked": 1040,
       "translation_source_unlabelled_spoken_units": 7,
       "translation_cross_page_units": 12,
@@ -257,12 +229,7 @@
       "song_unresolved_authorship_occurrences": 4,
       "song_verified_occurrence_ids": ["manohara-song-005"],
       "song_review_occurrence_ids": ["manohara-song-004"],
-      "song_unresolved_occurrence_ids": [
-        "manohara-song-001",
-        "manohara-song-002",
-        "manohara-song-003",
-        "manohara-song-006"
-      ],
+      "song_unresolved_occurrence_ids": ["manohara-song-001","manohara-song-002","manohara-song-003","manohara-song-006"],
       "song_tamil_derivatives": "not-started",
       "song_tamil_derivative_files": 0,
       "english_translation": "complete-verified",
@@ -272,13 +239,7 @@
       "translation_verified_units": 1190,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 1009,
-        "stage_direction": 173,
-        "song_reference": 6,
-        "chant": 1,
-        "written_text": 1
-      },
+      "translation_unit_kind_counts": {"dialogue":1009,"stage_direction":173,"song_reference":6,"chant":1,"written_text":1},
       "translation_dialogue_source_records_linked": 983,
       "translation_source_unlabelled_spoken_units": 27,
       "translation_cross_page_units": 17,
@@ -297,5 +258,38 @@
       "next_structured_derivative": "reading-room-integration"
     },
     "next_action": "Downstream Reading Room integration is ready; no required repository-internal transcription, translation, or reader/export work remains."
+  },
+  {
+    "id": "kalaignar-thirai-isai-paadalgal",
+    "title_ta": "கலைஞர் திரை இசைப் பாடல்கள்",
+    "source_title_ta": "கலைஞர் திரை இசைப் பாடல்கள்",
+    "work_type": "film_song_anthology",
+    "source_identifier": "TVA_BOK_0065867",
+    "source_pdf_pages": 194,
+    "source_printed_no_of_pages_statement": 192,
+    "source_sha256": "f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05",
+    "compiler_as_printed": "நெல்லை ஜெயந்தா",
+    "first_edition_as_printed": "June 2024",
+    "isbn_as_printed": "978-81-961205-2-8",
+    "publisher_as_printed": "தமிழ்நாடு இயல் இசை நாடக மன்றம்",
+    "structural_mapping": "verified",
+    "contents_pdf_pages": "21-23",
+    "numbered_song_corpus_pdf_pages": "24-130",
+    "film_sections": 23,
+    "numbered_songs": 54,
+    "numbered_song_range": "001-054",
+    "song_inventory": "complete",
+    "song_inventory_path": "works/kalaignar-thirai-isai-paadalgal/songs/index.json",
+    "song_schema_path": "works/kalaignar-thirai-isai-paadalgal/songs/schema.json",
+    "tamil_song_transcription": "in-progress",
+    "tamil_song_draft_files": 3,
+    "tamil_song_verified_files": 0,
+    "tamil_song_review_files": 0,
+    "tamil_song_not_started_files": 51,
+    "draft_song_ids": ["kalaignar-song-001","kalaignar-song-002","kalaignar-song-003"],
+    "default_attribution_status": "anthology-attributed",
+    "english_translation": "not-started",
+    "reader_export": "not-started",
+    "next_action": "Transcribe and visually review anthology songs 004-011 for நாம், PDF 31-41."
   }
 ]
