@@ -8,6 +8,7 @@ It supplements:
 - `docs/ARCHIVAL_WORKFLOW.md`
 - `docs/SOURCE_POLICY.md`
 - `docs/TRANSCRIPTION_GUIDE.md`
+- `docs/SONG_TRANSLATION_GUIDE.md` for English derivative work
 
 The supplied scan remains the controlling source for the **text and claims of that scanned edition**.
 
@@ -51,6 +52,8 @@ works/<anthology-id>/
     ├── schema.json
     └── song-001.md
 ```
+
+When English translation begins, add a separate `translations/` layer rather than modifying the verified Tamil files.
 
 If the anthology prints stable song numbers, preserve them. Do not renumber them to match a different soundtrack catalogue.
 
@@ -155,23 +158,33 @@ Verification checks:
 
 Do not translate or build a public reader until the corresponding Tamil song is verified.
 
-For an English derivative:
+For English translation, follow `docs/SONG_TRANSLATION_GUIDE.md` in addition to this guide.
+
+The default English goal is **source-faithful literary translation that retains Kalaignar's language**, not a singable adaptation. In particular:
 
 - retain the song number and film provenance;
 - keep Tamil source text immutable;
-- preserve repetition, refrain structure, satire, political idiom and cultural wording;
+- preserve repetition and refrain structure;
+- preserve satire, political/class language and rhetorical force without euphemism;
+- preserve concrete images and culturally specific wording before smoothing them into generic English;
+- preserve colloquial energy where formal English would erase the source register;
+- document difficult or anomalous verified Tamil forms rather than silently repairing them through English;
+- do not invent rhyme/metre at the cost of meaning;
 - keep source-attribution status visible;
 - do not imply stronger authorship evidence than the repository actually holds.
+
+For structured translation records, preserve explicit links back to the verified Tamil song file and source PDF page(s). Where practical, map every Tamil lyric line/cue to an English line/cue so that translation QA can detect omissions.
 
 ## 10. Major checkpoint synchronization
 
 After each major song batch, update at least:
 
-- `works/<anthology-id>/songs/index.json`;
+- `works/<anthology-id>/songs/index.json` when Tamil/song status changes;
+- `works/<anthology-id>/translations/index.json` when English work exists;
 - `works/<anthology-id>/PROGRESS.md`;
 - `works/<anthology-id>/AUDIT.md`;
 - `works/<anthology-id>/metadata.yaml`;
 - `works/<anthology-id>/README.md`;
 - `data/works.json` when the repository-level checkpoint changes.
 
-At handover points, refresh `PROJECT_HANDOVER.md` with the exact next song number/page range.
+At handover points, refresh `PROJECT_HANDOVER.md` with the exact next song number/page range or translation batch.
