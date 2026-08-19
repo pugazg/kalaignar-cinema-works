@@ -1,0 +1,148 @@
+{
+  "id": "kalaignar-song-en-010",
+  "song_id": "kalaignar-song-010",
+  "anthology_song_number": 10,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-010.md",
+    "tamil_status": "verified",
+    "pdf_pages": [40],
+    "tamil_title": "வாழ்க வாழ்க வாழ்க வாழ்கவே",
+    "film_title_ta": "நாம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Long live, long live, long live, long live!",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வாழ்க வாழ்க வாழ்க வாழ்கவே",
+          "அருமை மிகுந்த எங்கள் அறிஞர்",
+          "அண்ணா வாழ்கவே",
+          "குமர அண்ணா வாழ்கவே"
+        ],
+        "english_lines": [
+          "Long live, long live, long live, long live!",
+          "Our precious Arignar,",
+          "Long live Anna!",
+          "Long live Kumara Anna!"
+        ],
+        "notes": [
+          "`அறிஞர்` is retained as the honorific `Arignar` rather than reduced to a generic `scholar`, preserving the source's public/political register.",
+          "`அண்ணா` and `குமர அண்ணா` remain source-shaped names/addresses rather than being expanded by inference."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பெருமை பேசும் மனிதரெல்லாம்",
+          "எதற்கெடுத்தாலும் எருமை போல",
+          "தலையசைப்பதை உரிமைக்காக",
+          "எதிர்த்து நிற்கும்",
+          "அண்ணா வாழ்கவே",
+          "எங்கள் அண்ணா வாழ்கவே"
+        ],
+        "english_lines": [
+          "Against all those men who boast of greatness,",
+          "Who, whatever the matter, like buffaloes,",
+          "Go on nodding their heads — for rights,",
+          "He stands opposing them,",
+          "Long live Anna!",
+          "Long live our Anna!"
+        ],
+        "notes": [
+          "The buffalo-head-nodding ridicule is retained as an intentionally coarse political image rather than softened to `those who merely agree`."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "புழுவாகத் துடிக்கின்ற ஏழை",
+          "கழுகாகப் பறக்கின்ற சீமான் - இந்தப்",
+          "பொல்லாத பேதங்கள் எல்லாம்",
+          "இல்லாத பொன்னாடாய்ச் செய்தார் - அந்த",
+          "அண்ணா வாழ்கவே",
+          "குமர அண்ணா வாழ்கவே"
+        ],
+        "english_lines": [
+          "The poor man writhing like a worm,",
+          "The grandee flying like an eagle — these,",
+          "All these wicked divisions,",
+          "He made into a golden land where they are no more — that,",
+          "Anna, long live!",
+          "Kumara Anna, long live!"
+        ],
+        "notes": [
+          "The worm/eagle class contrast is kept literal and sharp.",
+          "`சீமான்` is rendered as `grandee` to preserve privileged social rank rather than neutralizing it to `rich man`."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "எலியாக வாழ்கின்ற விதவை",
+          "பலியாக தருகின்ற இளமை",
+          "புலியாக பாய்கின்ற பழமை",
+          "மலிவாகப் போன இக்கொடுமை",
+          "மாற்றிடும் அண்ணா வாழ்கவே!",
+          "குமர அண்ணா வாழ்கவே."
+        ],
+        "english_lines": [
+          "The widow living like a mouse,",
+          "Youth being given as sacrifice,",
+          "Old custom pouncing like a tiger,",
+          "This cruelty that has become so commonplace,",
+          "Long live Anna who will change it!",
+          "Long live Kumara Anna."
+        ],
+        "notes": [
+          "The mouse/sacrifice/tiger accumulation is preserved line by line rather than compressed into a general reform message.",
+          "`பழமை` remains `old custom` here so the source's attack on oppressive inherited practice stays direct."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "சிலசில இடங்களில் பணத்தோட்டம் - அது",
+          "செல்வக் குமரி... கோட்டம்! இப்படிப்",
+          "பலபல கருத்துக்கள் சொல்லும் தேனாறு",
+          "பகுத்தறிவூட்டும் லட்சிய வரலாறு -",
+          "அண்ணா வாழ்கவே",
+          "குமர அண்ணா வாழ்கவே."
+        ],
+        "english_lines": [
+          "Here and there, Panathottam — that,",
+          "Selvak Kumari... Kottam! Like this,",
+          "A honey-stream speaking many, many ideas,",
+          "An ideal history that feeds rational thought —",
+          "Long live Anna!",
+          "Long live Kumara Anna."
+        ],
+        "notes": [
+          "`பணத்தோட்டம்` and `செல்வக் குமரி... கோட்டம்!` are retained conservatively in transliteration because the source line may carry title/wordplay force that a literalized English phrase would over-interpret.",
+          "The doubled `சிலசில / பலபல` pattern remains audible through `here and there / many, many`.",
+          "`பகுத்தறிவு` is rendered directly as rational thought; it is not diluted to generic wisdom."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation keeps the song's praise, ridicule, class contrast and reform rhetoric in the same register instead of turning it into ceremonial praise prose.",
+      "Animal images — buffalo, worm, eagle, mouse, tiger — remain animals because they carry the song's political bite.",
+      "Potential title/wordplay expressions in the closing stanza are transliterated rather than silently reinterpreted.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
