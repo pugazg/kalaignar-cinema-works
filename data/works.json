@@ -303,16 +303,16 @@
     "english_translation_schema_path": "works/kalaignar-thirai-isai-paadalgal/translations/schema.json",
     "english_translation_index_path": "works/kalaignar-thirai-isai-paadalgal/translations/index.json",
     "english_translation_pilot_review_path": "works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md",
-    "english_translation_batch_review_paths": ["works/kalaignar-thirai-isai-paadalgal/translations/BATCH_004_011_REVIEW.md","works/kalaignar-thirai-isai-paadalgal/translations/BATCH_012_018_REVIEW.md"],
-    "english_translation_translated_files": 18,
+    "english_translation_batch_review_paths": ["works/kalaignar-thirai-isai-paadalgal/translations/BATCH_004_011_REVIEW.md","works/kalaignar-thirai-isai-paadalgal/translations/BATCH_012_018_REVIEW.md","works/kalaignar-thirai-isai-paadalgal/translations/BATCH_019_025_REVIEW.md"],
+    "english_translation_translated_files": 25,
     "english_translation_pilot_verified_files": 3,
-    "english_translation_verified_files": 15,
+    "english_translation_verified_files": 22,
     "english_translation_draft_files": 0,
     "english_translation_review_files": 0,
-    "english_translation_not_started_files": 36,
+    "english_translation_not_started_files": 29,
     "english_translation_pilot_song_ids": ["kalaignar-song-001","kalaignar-song-002","kalaignar-song-003"],
-    "english_translation_verified_song_ids": ["kalaignar-song-004","kalaignar-song-005","kalaignar-song-006","kalaignar-song-007","kalaignar-song-008","kalaignar-song-009","kalaignar-song-010","kalaignar-song-011","kalaignar-song-012","kalaignar-song-013","kalaignar-song-014","kalaignar-song-015","kalaignar-song-016","kalaignar-song-017","kalaignar-song-018"],
+    "english_translation_verified_song_ids": ["kalaignar-song-004","kalaignar-song-005","kalaignar-song-006","kalaignar-song-007","kalaignar-song-008","kalaignar-song-009","kalaignar-song-010","kalaignar-song-011","kalaignar-song-012","kalaignar-song-013","kalaignar-song-014","kalaignar-song-015","kalaignar-song-016","kalaignar-song-017","kalaignar-song-018","kalaignar-song-019","kalaignar-song-020","kalaignar-song-021","kalaignar-song-022","kalaignar-song-023","kalaignar-song-024","kalaignar-song-025"],
     "reader_export": "not-started",
-    "next_action": "Translate and verify songs 019-025 using the approved Kalaignar-language source-faithful rules; preserve multi-page provenance for 019, 023 and 024."
+    "next_action": "Translate and verify songs 026-032 using the approved Kalaignar-language source-faithful rules."
   }
 ]
