@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 BUILD_VERSION = 1
-ROOT = Path(__file__).resolve().parents[5]
+ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "kalaignar-thirai-isai-paadalgal"
 READER_PATH = WORK / "editions" / "en" / "reader-edition.json"
 READER_MANIFEST_PATH = WORK / "editions" / "en" / "manifest.json"
@@ -253,7 +253,6 @@ def build_payload() -> tuple[dict[str, Any], dict[str, Any]]:
         "films": film_groups,
     }
 
-    # Verify the payload is a lossless repackaging of the reader lines.
     payload_songs = [song for film in payload["films"] for song in film["songs"]]
     ensure([s["song_id"] for s in payload_songs] == [s["song_id"] for s in integration_songs], "payload song order drift")
     payload_lines = [line for song in payload_songs for section in song["sections"] for line in section["lines"]]
@@ -372,7 +371,6 @@ def main() -> int:
     payload_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     qa_path.write_text(render_qa(qa), encoding="utf-8")
 
-    # Re-open generated JSON and assert stable top-level checkpoint.
     reloaded = load_json(payload_path)
     ensure(reloaded.get("integration_status") == "payload-complete-verified", "generated payload status drift")
     ensure(reloaded.get("work", {}).get("counts", {}).get("songs") == EXPECTED_SONGS, "generated payload song count drift")
