@@ -48,7 +48,6 @@ structure:
   people_who_opened_film_world_door_pdf_pages: "182-188"
   bibliography_pdf_page: 189
   notes_and_back_matter_pdf_pages: "190-194"
-  visible_numbered_interior_printed_page_alignment: "PDF page number matches visible printed footer for inspected continuous numbered interior pages beginning at PDF 5; section map uses the printed page ranges visible in the contents"
 
 page_scan:
   status: complete
@@ -71,66 +70,52 @@ song_inventory:
   page_map: "songs/page-map.json"
   expected_numbered_songs: 54
   inventoried_numbered_songs: 54
-  film_sections: 23
   draft_song_files: 3
-  verified_song_files: 8
+  verified_song_files: 15
   review_song_files: 0
-  not_started_song_files: 43
+  not_started_song_files: 36
   draft_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
-  verified_song_pdf_pages: "33-41"
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
+  verified_song_pdf_pages: "33-41, 44-50"
   verified_cross_page_song_ids: ["kalaignar-song-009"]
-  batch_review_paths: ["notes/BATCH_004_011_REVIEW.md"]
-  next_unprocessed_song: "012"
-  next_unprocessed_song_pdf_page: 44
+  batch_review_paths: ["notes/BATCH_004_011_REVIEW.md", "notes/PAGE_BATCH_044_050_REVIEW.md"]
+  next_unprocessed_song: "019"
+  next_unprocessed_song_pdf_page: 53
 
 special_source_notes:
   - id: "mandhiri-kumari-censored-song"
     pdf_page: 25
     film: "மந்திரிகுமாரி"
     mentioned_title: "ஆளப்பிறந்தவன் தமிழன் அவன்தானே"
-    anthology_claim: "Kalaignar wrote this song, and the note states that it was prohibited/censored."
     numbered_lyric_record_created: false
     disposition: "editorial-prose-mention-only; ignored for song-file creation under page-scan policy"
-  - id: "mandhiri-kumari-numbered-song-001"
-    pdf_page: 26
-    title: "ஊருக்கு உழைப்பவண்டி"
-    attribution_state: anthology-attributed
-  - id: "parasakthi-item-level-attribution"
-    pdf_page: 28
-    songs: ["kalaignar-song-002", "kalaignar-song-003"]
-    note: "The anthology's film-song list explicitly places Kalaignar beside the two numbered Parasakthi songs represented here; this remains anthology-level item attribution unless separately primary-source-verified."
-  - id: "naam-item-level-attribution"
-    pdf_page: 32
-    songs: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
-    note: "PDF 32 places Kalaignar beside all eight numbered Naam songs represented here. The separate ஆயிரம் தெய்வங்கள் entry is printed with பாரதியார் and is excluded from this numbered Kalaignar batch."
-  - id: "naam-song-006-no-voice-line"
-    pdf_page: 35
-    song: "kalaignar-song-006"
-    note: "The numbered lyric page prints no separate voice line. The source role label மீனா: is retained and no singer is inferred."
   - id: "naam-song-009-cross-page"
     pdf_pages: "38-39"
     song: "kalaignar-song-009"
     note: "The numbered lyric continues across two physical/printed pages and is stored as one song record."
+  - id: "ammaiyappan-pages-44-50"
+    pdf_pages: "44-50"
+    songs: ["kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
+    note: "All seven song-bearing pages were visually transcribed and verified. None prints a separate voice line; source role labels are retained without singer inference."
 
 transcription:
   status: in-progress
   source_order: ascending_song_bearing_pdf_page
   song_files_expected: 54
   song_files_draft: 3
-  song_files_verified: 8
+  song_files_verified: 15
   song_files_review: 0
-  song_files_not_started: 43
-  verified_through_song_number: 11
-  verified_noncontiguous_note: "Songs 004-011 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
-  next_action: "Open PDF 44, create/update song 012 from that lyric page, then continue only through pages listed in songs/page-map.json; skip all non-song pages."
+  song_files_not_started: 36
+  verified_through_song_number: 18
+  verified_noncontiguous_note: "Songs 004-018 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
+  next_action: "Skip non-song PDF 51-52 and process song 019 from PDF 53-54; then continue only through pages listed in songs/page-map.json."
 
 fidelity_audit:
   status: in-progress
-  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011"]
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
   review_song_ids: []
   draft_song_ids_pending_recheck: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  latest_batch_review: "notes/BATCH_004_011_REVIEW.md"
+  latest_batch_review: "notes/PAGE_BATCH_044_050_REVIEW.md"
   full_pdf_song_page_scan: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
 
 translation:
