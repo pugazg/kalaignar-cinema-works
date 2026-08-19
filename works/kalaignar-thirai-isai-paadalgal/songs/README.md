@@ -1,82 +1,63 @@
 # Song layer — கலைஞர் திரை இசைப் பாடல்கள்
 
-This directory stores the anthology's **printed numbered lyric corpus `001–054`**.
+This directory stores song files created from the supplied anthology **only when the rendered PDF page contains an actual numbered lyric body or a direct continuation of one**.
+
+## PDF-specific operating rule
+
+This rule applies only to `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`.
+
+The entire 194-page PDF has been visually scanned. The authoritative whitelist is stored in `page-map.json` and documented in `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
+
+- song-bearing pages: **62**;
+- ignored pages: **132**;
+- numbered songs represented: **54 (`001–054`)**.
+
+A page containing only a song title, film metadata, prose mention, photograph, contents/list, historical text, bibliography, note or back matter does **not** create a song file.
+
+## Song-bearing page whitelist
+
+`26, 29–30, 33–41, 44–50, 53–59, 62–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`
+
+Machine-readable map: `page-map.json`.
 
 ## Authority
 
-Each `song-NNN.md` is a transcription derivative of the corresponding numbered lyric page(s) in the supplied 2024 anthology.
+Each `song-NNN.md` is a transcription derivative of the corresponding numbered lyric page(s) in this supplied 2024 anthology.
 
-The anthology controls this layer's:
+The anthology controls:
 
+- numbered lyric text;
 - song number;
-- film title as printed;
-- lyric wording/lineation;
-- composer/music line;
-- voice/singer line when printed;
-- singer/character turn labels;
+- source-visible music/voice metadata on the lyric page;
+- singer/character/turn labels;
 - refrain/stanza labels;
-- punctuation and source spellings.
+- punctuation, lineation and source spellings.
 
-It does not automatically function as an original film-era source for authorship history. Default authorship status is `anthology-attributed`.
+Default authorship status remains `anthology-attributed`; this anthology is not silently treated as an original film-era source.
 
-## Inventory
+## Page-driven transcription rules
 
-`songs/index.json` contains all **54** numbered items.
+1. Follow `page-map.json` in ascending PDF-page order.
+2. Open/render the page before creating or changing a song file.
+3. Process only the listed song-bearing pages.
+4. Skip all other pages without creating files.
+5. Multi-page songs remain one `song-NNN.md` file.
+6. Preserve source line order, labels, punctuation, ellipses, colloquial forms and unusual spellings.
+7. Do not import missing verses from recordings, websites or another publication.
+8. Do not change a lyric because a familiar soundtrack version differs.
+9. Keep uncertain readings visible until the rendered scan supports verification.
 
-The inventory separates:
+## Special exclusion
 
-- `contents_title` — wording read from PDF 21–23;
-- `lyric_title` — wording established from the numbered lyric page when processed;
-- `lyric_pdf_pages` — exact lyric page(s);
-- `status` — `not-started`, `draft`, `review`, or `verified`;
-- `attribution_status` — initially `anthology-attributed` unless stronger evidence is separately documented.
-
-## Song-file format
-
-Each song file contains:
-
-1. provenance block;
-2. source-visible metadata;
-3. exact Tamil lyric body;
-4. editorial/uncertainty notes separated from the lyric;
-5. verification status.
-
-Recommended anchor:
-
-```md
-<!-- source: pdf=29 printed=29 anthology_song=002 status=draft -->
-```
-
-## Transcription rules
-
-- preserve source line order;
-- preserve labels such as `(தொகையறா)`, `(பாட்டு)`, `பல்லவி`, singer initials, duet labels and character labels;
-- preserve source punctuation and ellipses;
-- preserve colloquial or unusual spellings unless the rendered source proves they were misread;
-- do not import missing verses from recordings, websites or another book;
-- do not change a lyric because a familiar soundtrack version differs;
-- keep uncertain readings visible in an editorial note and re-open the scan.
-
-## Verification
-
-A draft is promoted to `verified` only after line-by-line comparison against the rendered source page(s).
-
-The audit confirms song number, film, music/voice labels, every lyric line, refrains, lineation and page provenance. A source page that does not print a voice line must remain without an inferred singer.
-
-## Special cases
-
-The prose-mentioned censored/prohibited `மந்திரிகுமாரி` song `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` is **not** a numbered lyric item here. See `../notes/anthology-notes.md`.
-
-Song `009` is the first verified cross-page numbered lyric in this work: it spans PDF/printed **38–39** and remains one song file.
+PDF 25 mentions `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` in prose, but does not print its lyric body as a numbered song sheet. Under the page-driven rule, **no song file is created from PDF 25**.
 
 ## Current state
 
-- inventory: **54/54**;
+- inventory/page map: **54/54 songs located**;
 - draft: **001–003** — 3 songs;
 - verified: **004–011** — 8 songs;
 - review: **0**;
 - not started: **012–054** — 43 songs;
-- latest batch audit: `../notes/BATCH_004_011_REVIEW.md`;
-- next: **012–018** (`அம்மையப்பன்`, PDF **42–50**).
+- next unprocessed song-bearing page: **PDF 44 / song 012**.
 
 English translation remains blocked until the relevant Tamil lyric is verified.
