@@ -1,0 +1,129 @@
+{
+  "id": "kalaignar-song-en-024",
+  "song_id": "kalaignar-song-024",
+  "anthology_song_number": 24,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-024.md",
+    "tamil_status": "verified",
+    "pdf_pages": [62, 63],
+    "tamil_title": "பொதுநலம் என்றும் பொதுநலம்",
+    "film_title_ta": "ரங்கோன் ராதா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Public welfare — always public welfare",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பொதுநலம் என்றும் பொதுநலம்",
+          "புகழ் உடலைக் காக்கும் மிகபுனிதமான செயல்",
+          "பொது நலம் என்றும் பொதுநலம்",
+          "வீடுவாசல் மாடு மனை மக்கள் சுற்றம் போலாலும்",
+          "நாடு நம்நாடு நந்நாடு நாடென்று",
+          "நாமெல்லோரும் கூடிச் செய்யும் தியாகமே",
+          "(பொதுநலம்)"
+        ],
+        "english_lines": [
+          "Public welfare — always public welfare,",
+          "A most sacred act that guards the body of fame,",
+          "Public welfare — always public welfare,",
+          "House, threshold, cattle, home, people and kin though there may be,",
+          "Country — our country, good country — saying 'country',",
+          "It is the sacrifice we all make together,",
+          "(Public welfare)"
+        ],
+        "notes": [
+          "`புகழ் உடல்` is retained as the striking `body of fame` image rather than reduced to reputation.",
+          "The household-to-country accumulation is preserved line by line rather than summarized as patriotism."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நாட்டிலே எதுக்கும் லாயக்கில்லாமல்",
+          "வீட்டிலே எதுவும் வேலை செய்யாமல் - உடல்",
+          "கூட்டிலே தீனியை அடைத்து வாழும்",
+          "உருப்படா மனிதனுக்குயிர் கொடுக்கும் மருந்து - நல்ல மருந்து"
+        ],
+        "english_lines": [
+          "Fit for nothing in the country,",
+          "Doing no work at all in the house — into the body,",
+          "As into a cage, stuffing food and living,",
+          "A medicine that gives life to the useless man — a good medicine."
+        ],
+        "notes": [
+          "The `உடல் / கூட்டில்` sequence is kept as a body-as-cage image instead of smoothed into merely eating idly.",
+          "The ridicule of the idle man remains direct."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "திண்ணைத் தூங்கிப் பண்டாரம்",
+          "திருவோடேந்தும் பரதேசி",
+          "தெருவிலே உருளும் திருப்பதி கோவிந்தா - கோவிந்தா",
+          "இந்த சோம்பேறி நடைபிணத்துக்குயிர் கொடுக்கும் மருந்து",
+          "(பொதுநலம்)"
+        ],
+        "english_lines": [
+          "The pandaaram who sleeps on the front veranda,",
+          "The paradesi bearing the sacred begging bowl,",
+          "The Tirupati Govinda rolling in the street — Govinda, Govinda,",
+          "A medicine that gives life to this lazy walking corpse,",
+          "(Public welfare)"
+        ],
+        "notes": [
+          "`பண்டாரம்`, `பரதேசி`, and `கோவிந்தா` retain their culture-bearing force by transliteration/title rather than being collapsed into generic beggars.",
+          "`நடைபிணம்` remains the harsh concrete `walking corpse` image."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நெற்றியிலே விழுகின்ற கோடுகளை",
+          "முதுமைக் கோடுகளை",
+          "புத்தியிலே விளைகின்ற கேடுகளை",
+          "கச்சிதமாய் அகற்றிவிடும் கைகண்ட மருந்து - நல்ல மருந்து",
+          "அறிவுக்கோயில் வழிபாடு",
+          "உழைக்கும் தோழர் பண்பாடு",
+          "அறநெறியோடு அன்புடன் வாழ்வோமே வாழ்வோமே",
+          "இந்த மேலான கடமைகளுக்கொளி கொடுக்கும் மருந்து",
+          "(பொதுநலம்)"
+        ],
+        "english_lines": [
+          "The lines that fall upon the forehead,",
+          "The lines of old age,",
+          "The evils that grow in the mind,",
+          "A proven medicine that removes them precisely — a good medicine,",
+          "Worship at the temple of knowledge,",
+          "The culture of the working comrade,",
+          "Let us live, let us live, with love along the path of virtue,",
+          "A medicine that gives light to these higher duties,",
+          "(Public welfare)"
+        ],
+        "notes": [
+          "`அறிவுக்கோயில்` remains the `temple of knowledge`, and `உழைக்கும் தோழர்` remains the explicitly labour-oriented `working comrade`.",
+          "`கைகண்ட மருந்து` is rendered as a proven medicine; the extended medicine metaphor is preserved across all stanzas.",
+          "The repeated `வாழ்வோமே` remains repeated."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song treats public welfare as medicine for idleness, age, intellectual harm and civic duty; the repeated medicinal metaphor and social satire remain intact.",
+      "PDF 62–63 provenance remains attached to one translation record.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
