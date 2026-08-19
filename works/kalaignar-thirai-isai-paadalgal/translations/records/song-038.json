@@ -1,0 +1,76 @@
+{
+  "id": "kalaignar-song-en-038",
+  "song_id": "kalaignar-song-038",
+  "anthology_song_number": 38,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-038.md",
+    "tamil_status": "verified",
+    "pdf_pages": [92],
+    "tamil_title": "ஆயிரம் பிறைகள் காணும் வரை",
+    "film_title_ta": "தூக்கு மேடை",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Until a thousand crescents are seen",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஆயிரம் பிறைகள் காணும் வரை",
+          "அலைகடல் ஓசை அடங்கும் வரை",
+          "தமிழே உனக்காக நீ தனியே எனக்காக",
+          "காத்திருப்பேன் நான் காத்திருப்பேன்.....",
+          "கதிரவன் ஊர்வலம் நிற்கும் வரை",
+          "கனி வளம் உலகில் வற்றும் வரை",
+          "பொதிகைத் தென்றல் தூங்கும் வரை",
+          "பொன்னி நதியான் செழிக்கும் வரை",
+          "தமிழே உனக்காக - நீ",
+          "தனியே எனக்காக..",
+          "(ஆயிரம்)",
+          "இயற்கை வளங்கள் நிலைக்கும் வரை",
+          "இலக்கிய செல்வம் வாழும் வரை",
+          "இளமை அழகு தீரும் வரை",
+          "முதுமை உடலில் பாயும் வரை",
+          "தமிழே உனக்காக - நீ",
+          "தனியே எனக்காக",
+          "(ஆயிரம்)"
+        ],
+        "english_lines": [
+          "Until a thousand crescents are seen,",
+          "Until the roar of the wave-sea falls still,",
+          "O Tamil, for you — you alone, for me,",
+          "I shall wait, I shall wait.....",
+          "Until the sun's procession stops,",
+          "Until fruit-bounty dries up in the world,",
+          "Until the Podhigai breeze sleeps,",
+          "Until Ponni `nadiyaan` flourishes,",
+          "O Tamil, for you — you,",
+          "Alone, for me..",
+          "(A thousand)",
+          "Until nature's riches endure,",
+          "Until the wealth of literature lives,",
+          "Until the beauty of youth is spent,",
+          "Until old age surges into the body,",
+          "O Tamil, for you — you,",
+          "Alone, for me,",
+          "(A thousand)."
+        ],
+        "notes": [
+          "`தமிழே` remains direct address as `O Tamil`; the lyric's Tamil/beloved doubleness is not flattened into a generic love-song pronoun.",
+          "Sun-procession, fruit-bounty, Podhigai breeze, literary wealth, youth and old age remain separate duration images.",
+          "The verified source form `பொன்னி நதியான்` is not silently normalized; `nadiyaan` is retained as an explicit pressure point while `Ponni` remains identifiable.",
+          "The repeated `காத்திருப்பேன்` and `(ஆயிரம்)` refrain architecture is preserved."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song binds Tamil-address, landscape, literature, youth and ageing into a vow of waiting; the English preserves that accumulation rather than reducing it to romantic abstraction.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
