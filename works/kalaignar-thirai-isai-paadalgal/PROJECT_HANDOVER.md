@@ -26,30 +26,32 @@ The full PDF was already visually classified: **62 song-bearing / 132 ignored pa
 ## Current checkpoint
 
 - draft: `001–003` — **3**;
-- verified: `004–025` — **22**;
+- verified: `004–054` — **51**;
 - review: **0**;
-- not started: `026–054` — **29**.
+- not started: **0**.
 
-Latest review: `notes/PAGE_BATCH_064_REVIEW.md`.
+Latest review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-Latest verified page run:
+The final formerly not-started activity processed **songs 026–054** only from mapped song-bearing pages through PDF 130. New cross-page records in that activity were:
 
-- PDF 64 → song 025.
+- `036` — PDF 86–87;
+- `037` — PDF 90–91;
+- `051` — PDF 121–122;
+- `052` — PDF 123–124.
 
-Safeguards for song 025:
-
-- one single-page record from PDF/printed 64;
-- music `டி.ஆர்.பாப்பா`;
-- voice `டி.வி. ரத்னம்`;
-- retain the repeated `மாயக்காரா`, `ஜாலக்காரா`, `பகவானே` wording and parenthesized refrain;
-- preserve source hyphenation and source-visible forms including `ஆடவாராய்`, `காணக்கிடைக்கா`, `தேனுறும்`, and `வேலைப் பழிக்கும்`;
-- do not normalize from soundtrack familiarity or import absent verses.
+Music/voice lines were taken only when printed. Source speaker labels, refrain cues, colloquial spellings, unusual compounds, punctuation and lineation were preserved. No external lyrics were imported.
 
 ## Exact next activity
 
-Process **PDF 65 → song 026**, then continue strictly by the page whitelist.
+There are no not-started numbered songs. Reinspect the only remaining draft records:
 
-Do not begin English translation until the relevant Tamil song is verified.
+1. PDF 26 → song `001`;
+2. PDF 29 → song `002`;
+3. PDF 30 → song `003`.
+
+Promote those records only after direct visual fidelity verification. If all three pass, mark the Tamil lyric corpus complete-verified.
+
+Do not begin English translation until that Tamil gate closes.
 
 ## Repository boundary
 
