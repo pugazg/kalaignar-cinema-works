@@ -19,7 +19,7 @@ The central synchronization target is `data/works.json`. Work-specific metadata 
 
 **PASS — repository status registry synchronized for all four works.**
 
-The three screenplay works remain at their completed checkpoints. The film-song anthology has closed its Tamil transcription/fidelity gate at **54/54 complete-verified** and has advanced its English derivative to **32/54 translated songs**.
+The three screenplay works remain at their completed checkpoints. The film-song anthology has closed its Tamil transcription/fidelity gate at **54/54 complete-verified** and has advanced its English derivative to **39/54 translated songs**.
 
 ## Cross-work status matrix
 
@@ -32,7 +32,7 @@ The three screenplay works remain at their completed checkpoints. The film-song 
 | Dialogue index | 642 records, complete-verified | 1,040 records, complete | 983 records, complete-verified | not applicable |
 | Character/entity layer | complete-verified | complete | complete-verified with one unresolved source label | not applicable |
 | Song/performance layer | 14/14 authorship verified | 3 verified / 5 unresolved | 1 verified / 1 review / 4 unresolved | 54/54 anthology-attributed lyric records verified |
-| English translation | 769 verified units | 1,321 verified units | 1,190 verified units | in progress — 32/54 translated |
+| English translation | 769 verified units | 1,321 verified units | 1,190 verified units | in progress — 39/54 translated |
 | English reader/export | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS | not started |
 | EPUB | not required | complete-verified, QA PASS | not required | not started/not required yet |
 | Required Tamil/source work remaining | none | none | none | none |
@@ -53,17 +53,19 @@ The English layer is separately source-linked under `works/kalaignar-thirai-isai
 Current English status:
 
 - mode: **`semantic-poetic-source-faithful`**;
-- translated: **32/54**;
+- translated: **39/54**;
 - pilot-verified: **3** (`001–003`);
-- verified: **29** (`004–032`);
+- verified: **36** (`004–039`);
 - draft/review: **0/0**;
-- not started: **22** (`033–054`);
+- not started: **15** (`040–054`);
 - pilot review: `translations/PILOT_REVIEW.md`;
-- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`.
+- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`, `translations/BATCH_033_039_REVIEW.md`.
 
-The English policy explicitly retains Kalaignar's language rather than smoothing it into generic lyric English. The fourth scaled batch extends that policy into romantic image-chain language, intimate dream/musical vocabulary, Tamil-address lullaby, colloquial beauty-performance structure, intoxication comedy and sound-play, martial exhortation, and moral-didactic Thirukkural-linked verse.
+The English policy explicitly retains Kalaignar's language rather than smoothing it into generic lyric English. The fifth scaled batch extends that policy across erotic repetition, social despair, financial/romantic wordplay, direct political ethics, slum/class satire, Tamil-address devotion and Kurinji/Muthamizh romance.
 
-Notable safeguards in `026–032` include preserving **sky-flower grove**, **honeyed moon**, dam-overflow/wave imagery, `eduppu`, `pann`, `yaazh`, explicit **O Tamil**, printed lullaby vocables, the `fruit- / cluster` source split, `kalagam / kalayam` commotion/pot sound-play, the unexpanded **one on the cheek**, martial `வெல்க / செல்க / சென்று வா / வென்று வா` repetition, `kumalai`, `Anjugam`, `vengai` tiger-king, **one woman for one man**, and the anthology's own printed Thirukkural wording rather than an alternate canonical witness.
+Notable safeguards in `033–039` include preserving triple `கன்னம் / கிண்ணம் / வண்ணம் / சின்னம்` repetition; the paper-boat/shared-sinking sequence and literal **death at six, death at a hundred**; `வட்டி / அசல்` as **interest / principal**; **justice for the heart / sword for the shoulder** with Bharathi/Buddha/Gandhi/Arignar Anna and direct caste/religion challenge; `குடி / கோல்` as **people / sceptre**, people cooking in burning fire, `sirukodindha`, `kuthuk-kallu`, and **survive by dying**; direct **O Tamil** with source-pressure `Ponni nadiyaan`; and `kurinji`, `iyal / isai / koothu / Muthamizh`, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother**.
+
+Multi-page English provenance is complete for `036` (PDF 86–87) and `037` (PDF 90–91), alongside the earlier cross-page translations.
 
 No verified Tamil song file was changed by the English translation layer. Default attribution remains `anthology-attributed`; English verification does not convert the 2024 anthology's attribution into automatic original-film primary-source verification.
 
@@ -105,6 +107,6 @@ The cropped lower printer-imprint continuation on PDF 2 remains an intentional u
 
 No required Tamil/source transcription or fidelity work remains for any of the four current works.
 
-For the anthology, the next repository-internal activity is **English songs 033–039**, using the approved source-faithful Kalaignar-language rules and preserving cross-page provenance for songs `036` and `037`.
+For the anthology, the next repository-internal activity is **English songs 040–046**, using the approved source-faithful Kalaignar-language rules.
 
 Reading Room integration remains a separate downstream publication activity and is outside this repository-only audit unless explicitly requested.
