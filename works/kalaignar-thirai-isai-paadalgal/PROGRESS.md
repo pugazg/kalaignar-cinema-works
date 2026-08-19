@@ -30,15 +30,16 @@ Authoritative Tamil/source records:
 | Item | Status |
 |---|---:|
 | Source songs available | 54 |
-| English translated total | 11 |
+| English translated total | 18 |
 | Pilot-verified English songs | 3 |
-| Verified English songs beyond pilot | 8 |
+| Verified English songs beyond pilot | 15 |
 | English draft | 0 |
 | English review | 0 |
-| English not started | 43 |
+| English not started | 36 |
 
 Pilot records: `001–003`.  
-First scaled verified batch: `004–011` (`நாம்`).
+First scaled verified batch: `004–011` (`நாம்`).  
+Second scaled verified batch: `012–018` (`அம்மையப்பன்`).
 
 Translation authorities:
 
@@ -46,6 +47,7 @@ Translation authorities:
 - `translations/schema.json`
 - `translations/PILOT_REVIEW.md`
 - `translations/BATCH_004_011_REVIEW.md`
+- `translations/BATCH_012_018_REVIEW.md`
 - `docs/SONG_TRANSLATION_GUIDE.md`
 
 ## Kalaignar-language translation rule
@@ -66,19 +68,24 @@ The English must retain Kalaignar's language rather than become generic lyric pr
 
 PASS — **8/8 verified**.
 
-The batch confirms the voice rules across multiple registers:
+The batch confirms the voice rules across folk devotion/social satire, romantic duet, female lament, comic mythic performance, rationalist/agricultural politics, praise/reform rhetoric and political endurance. No verified Tamil file was changed.
 
-- `004`: folk devotion + rain/science argument + tax grievance;
-- `005`: romantic yaazh/doe/Tamil-epic imagery and duet repetition;
-- `006`: `மணம்` fragrance/marriage wordplay and full lament image chain;
-- `007`: grief version of the yaazh motif, singing ghost and inscribed-page imagery;
-- `008`: comic village performance, Mahabharata taunts and source-anomalous forms retained by transliteration;
-- `009`: rationalist/agricultural political language, science/ploughing, labour versus miracle, common granary;
-- `010`: praise, rights, class contrast, reform images and rational thought;
-- `011`: political endurance through snakes, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death and army imagery.
+## Second scaled batch result — `012–018`
+
+PASS — **7/7 verified**.
+
+The `அம்மையப்பன்` group extends the same voice discipline into new registers:
+
+- `012`: devotional address, paired opposites, paradoxes, king/`aandis` social contrast, palanquin hierarchy, toad-in-stone, sesame-oil and snake-fang venom;
+- `013`: child-address through repeated `paappa`, silver sand, sandalwood parrot, peacock and nectar-dove;
+- `014`: realm-of-love duet, cloud/plumage, gem, dancing-maiden, boundary-of-bliss, heart-veena and moon-of-love imagery;
+- `015`: sorrow reprise with song-on-the-breeze, honey-rain and source-ambiguous `lap`;
+- `016`: agal-lamp, sugarcane, rock-candy, red paddy, Tamil/Kaveri/Dravida imagery and a deliberately documented difficult final stanza rather than a hidden correction;
+- `017`: living portrait, epic of flavour, storm/flower-garden, fallen divine statue and empty temple;
+- `018`: love-dove, tender-shoot body, deer-skinned tiger, mango-cuckoo, sorrow-darkness and sleeping moon-maiden.
 
 No verified Tamil song file was modified by this English batch.
 
 ## Next activity
 
-Translate and verify **songs 012–018** (`அம்மையப்பன்`) using the same approved Kalaignar-language source-faithful rules.
+Translate and verify **songs 019–025** using the same approved Kalaignar-language source-faithful rules. Preserve multi-page provenance for songs `019`, `023` and `024`.
