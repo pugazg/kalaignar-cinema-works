@@ -47,39 +47,40 @@ song_inventory:
   expected_numbered_songs: 54
   inventoried_numbered_songs: 54
   draft_song_files: 3
-  verified_song_files: 22
+  verified_song_files: 51
   review_song_files: 0
-  not_started_song_files: 29
+  not_started_song_files: 0
   draft_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_range: "004-025"
-  verified_song_pdf_pages: "33-41, 44-50, 53-59, 62-64"
-  verified_cross_page_song_ids: ["kalaignar-song-009", "kalaignar-song-019", "kalaignar-song-023", "kalaignar-song-024"]
+  verified_song_range: "004-054"
+  verified_song_pdf_pages: "33-41, 44-50, 53-59, 62-67, 70, 73-74, 77, 80, 83-84, 86-87, 90-94, 97, 100, 103, 106, 109-110, 113, 116-117, 120-124, 127, 130"
+  verified_cross_page_song_ids: ["kalaignar-song-009", "kalaignar-song-019", "kalaignar-song-023", "kalaignar-song-024", "kalaignar-song-036", "kalaignar-song-037", "kalaignar-song-051", "kalaignar-song-052"]
   batch_review_paths:
     - "notes/BATCH_004_011_REVIEW.md"
     - "notes/PAGE_BATCH_044_050_REVIEW.md"
     - "notes/PAGE_BATCH_053_059_REVIEW.md"
     - "notes/PAGE_BATCH_062_063_REVIEW.md"
     - "notes/PAGE_BATCH_064_REVIEW.md"
-  next_unprocessed_song: "026"
-  next_unprocessed_song_pdf_page: 65
+    - "notes/FINAL_PAGE_BATCH_065_130_REVIEW.md"
+  next_unprocessed_song: null
+  next_unprocessed_song_pdf_page: null
 
 transcription:
   status: in-progress
   source_order: ascending_song_bearing_pdf_page
   song_files_expected: 54
   song_files_draft: 3
-  song_files_verified: 22
+  song_files_verified: 51
   song_files_review: 0
-  song_files_not_started: 29
-  verified_through_song_number: 25
-  verified_noncontiguous_note: "Songs 004-025 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
-  next_action: "Process song 026 from PDF 65, then continue only through songs/page-map.json."
+  song_files_not_started: 0
+  verified_through_song_number: 54
+  verified_noncontiguous_note: "Songs 004-054 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
+  next_action: "Reinspect PDF 26, 29 and 30 for songs 001-003; promote only after direct visual fidelity verification."
 
 fidelity_audit:
   status: in-progress
-  verified_song_range: "004-025"
+  verified_song_range: "004-054"
   draft_song_ids_pending_recheck: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  latest_batch_review: "notes/PAGE_BATCH_064_REVIEW.md"
+  latest_batch_review: "notes/FINAL_PAGE_BATCH_065_130_REVIEW.md"
   full_pdf_song_page_scan: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
 
 translation:
