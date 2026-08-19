@@ -1,0 +1,63 @@
+{
+  "id": "kalaignar-song-en-027",
+  "song_id": "kalaignar-song-027",
+  "anthology_song_number": 27,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-027.md",
+    "tamil_status": "verified",
+    "pdf_pages": [66],
+    "tamil_title": "ஓடையிலே ஒருநாள்",
+    "film_title_ta": "ரங்கோன் ராதா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "One day by the stream",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஓடையிலே ஒருநாள் எந்தன்",
+          "இதழ் பறித்து முத்தமிட்டான்",
+          "இன்பசுகம் என் சொல்வேன்",
+          "வாடைக்குளிரில் இந்த தேகம் அணைத்த செல்வன்",
+          "வருகிறேன் என்று சொல்லிப்போய்விட்டானடி தோழி",
+          "எடுப்புக்க அமர்ந்தேன் - எந்தன்",
+          "எண்ணத்தில் வந்து கலந்தான்",
+          "பண்ணிசைக்க யாழெடுத்தேன்",
+          "கண்ணெதிரே அவன் நின்றான்",
+          "பாய்ந்து தழுவச் சென்றேன்",
+          "மின்னல் போல் மறைந்து விட்டான்."
+        ],
+        "english_lines": [
+          "One day by the stream, my,",
+          "lips he plucked and kissed,",
+          "What can I say of that pleasure-bliss?",
+          "In the chill of the north wind, the dear one embraced this body,",
+          "Saying, ‘I will come,’ he went away, di, my friend,",
+          "I sat down for the eduppu — and in my,",
+          "thoughts he came and mingled,",
+          "I took up the yaazh to make pann-music,",
+          "Before my eyes he stood,",
+          "I sprang forward to embrace him,",
+          "Like lightning, he vanished."
+        ],
+        "notes": [
+          "The startling `இதழ் பறித்து` is kept as plucking the lips rather than replaced by a conventional romantic paraphrase.",
+          "`வாடைக்குளிரில்` retains the north-wind chill, and `டி தோழி` keeps the intimate colloquial `di` address.",
+          "The verified source form `எடுப்புக்க அமர்ந்தேன்` is conservatively kept as `sat down for the eduppu`; the page does not support silently replacing it with a more specific action.",
+          "`பண்ணிசைக்க யாழெடுத்தேன்` retains both `pann` and `yaazh` as culture-bearing musical vocabulary.",
+          "The final lightning disappearance remains sudden and literal."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "Kalaignar's bodily, musical and dreamlike sequence is retained without smoothing: plucked lips, north-wind chill, eduppu, pann, yaazh, attempted embrace and lightning-like disappearance.",
+      "No singer is inferred because the verified Tamil page prints no separate voice line."
+    ]
+  }
+}
