@@ -26,44 +26,41 @@ See `notes/FULL_PDF_SONG_PAGE_SCAN.md` and `songs/page-map.json`.
 Final Tamil gate: `notes/FINAL_DRAFT_001_003_REVIEW.md`.  
 Final formerly not-started batch review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-The last Tamil fidelity gate rechecked only PDF 26, 29 and 30. It corrected song `001` from pilot `அறியாண்டி` to scan-visible `அறியான்டி`, confirmed song `002` without lyric change, and resolved song `003` as `வந்தேன் தவழ்ந்தாய்?` / `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!` directly from the rendered scan.
-
 Cross-page verified Tamil song records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
 
 ## English translation status
 
-The English layer is now **in progress** under the approved `semantic-poetic-source-faithful` mode.
+The English layer is **in progress** under the approved `semantic-poetic-source-faithful` mode.
 
 Current checkpoint:
 
-- translated: **11/54**;
+- translated: **18/54**;
 - pilot-verified: **3** (`001–003`);
-- verified: **8** (`004–011`);
+- verified: **15** (`004–018`);
 - draft/review: **0/0**;
-- not started: **43** (`012–054`);
+- not started: **36** (`019–054`);
 - guide: `docs/SONG_TRANSLATION_GUIDE.md`;
 - schema/index: `translations/schema.json`, `translations/index.json`;
 - pilot review: `translations/PILOT_REVIEW.md`;
-- first scaled batch review: `translations/BATCH_004_011_REVIEW.md`.
+- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`.
 
 ### Retaining Kalaignar's language
 
-The English is deliberately **not** a singable rewrite or generic paraphrase. It must retain Kalaignar's repetition, political/social force, concrete images, rhetorical questions, colloquial energy and source-specific constructions.
+The English is deliberately **not** a singable rewrite or generic paraphrase. It retains repetition, social/political force, concrete images, rhetorical questions, colloquial energy, culture-bearing vocabulary and source-specific constructions.
 
-The pilot established the baseline with `buffalo calf`, `sugarcane-Tamil`, `flower where dew sleeps`, `magnetic statue`, `live like honey`, repeated `Why were you born?`, and poor-versus-grandee contrast.
+The first scaled `நாம்` batch (`004–011`) preserves folk devotion/rain-science argument, romantic yaazh imagery, `மணம்` wordplay, grief imagery, comic mythic taunts, rationalist/agricultural politics, reform rhetoric and political endurance.
 
-The first scaled `நாம்` batch confirms those rules across eight more songs:
+The second scaled `அம்மையப்பன்` batch (`012–018`) is also verified. It preserves:
 
-- `004`: Mari/Kali folk devotion, rain/science reasoning, Kodumpavi and tax grievance;
-- `005`: yaazh/doe/Tamil-epic imagery, repetition and women/warriors language;
-- `006`: `மணம்` fragrance/marriage wordplay and the veena/thunderbolt/vine/cyclone image chain;
-- `007`: yaazh-as-grief, singing ghost and inscribed-page imagery;
-- `008`: comic Mahabharata village performance, `Dei`, kichili fruit, consumption and source-anomalous forms retained by transliteration;
-- `009`: ignorance-as-wasteland, knowledge-as-plough-point, science/ploughing, labour-versus-miracle and common granary;
-- `010`: fourfold `வாழ்க`, Arignar, animal/class metaphors, reform rhetoric and rational thought;
-- `011`: snakes, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death, army, fury and slander.
+- `012`: Ammaiyappa/Aiyan address, paradox chains, king-to-`aandis` social span, palanquin hierarchy and proverbial natural images;
+- `013`: repeated `paappa`, blue sea/silver sand and sandalwood-parrot/peacock/nectar-dove imagery;
+- `014`: realm of love, `come running`, cloud/plumage, great gem, dancing maiden, boundary of bliss, heart-veena and moon-of-love variation;
+- `015`: the sorrow reprise, song on the breeze, honey-rain and the source's unassigned `lap`;
+- `016`: agal-lamp, sugarcane/rock-candy/fruit-nectar, red paddy, refined Tamil, Kaveri, Dravida and the difficult final stanza preserved as a documented source pressure point;
+- `017`: living portrait, epic of flavour, storm/flower-garden, fallen divine statue and empty temple;
+- `018`: love-dove, tender-shoot body, deer-skinned tiger, mango-cuckoo, sorrow-darkness and sleeping moon-maiden.
 
-Difficult verified Tamil forms are documented rather than silently repaired through English. No verified Tamil file was changed by the English pilot or first scaled batch.
+Difficult verified Tamil forms are documented rather than silently repaired through English. No verified Tamil file was changed by the English translation layer.
 
 ## Attribution
 
@@ -73,4 +70,4 @@ The anthology's `மந்திரிகுமாரி` editorial note also me
 
 ## Next activity
 
-Translate and verify **songs 012–018** (`அம்மையப்பன்`) using the same approved Kalaignar-language source-faithful rules. English must remain source-linked and must not overwrite or normalize the verified Tamil corpus.
+Translate and verify **songs 019–025** using the same approved Kalaignar-language source-faithful rules. Preserve multi-page provenance for songs `019`, `023` and `024`; do not overwrite or normalize the verified Tamil corpus.
