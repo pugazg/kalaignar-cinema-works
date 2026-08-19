@@ -12,7 +12,7 @@ The anthology controls this layer's:
 - film title as printed;
 - lyric wording/lineation;
 - composer/music line;
-- voice/singer line;
+- voice/singer line when printed;
 - singer/character turn labels;
 - refrain/stanza labels;
 - punctuation and source spellings.
@@ -21,19 +21,19 @@ It does not automatically function as an original film-era source for authorship
 
 ## Inventory
 
-`songs/index.json` contains all **54** numbered items before full transcription begins.
+`songs/index.json` contains all **54** numbered items.
 
 The inventory separates:
 
 - `contents_title` — wording read from PDF 21–23;
 - `lyric_title` — wording established from the numbered lyric page when processed;
-- `lyric_pdf_pages` — exact lyric page(s), initially null until confirmed;
+- `lyric_pdf_pages` — exact lyric page(s);
 - `status` — `not-started`, `draft`, `review`, or `verified`;
 - `attribution_status` — initially `anthology-attributed` unless stronger evidence is separately documented.
 
 ## Song-file format
 
-Each song file should contain:
+Each song file contains:
 
 1. provenance block;
 2. source-visible metadata;
@@ -61,15 +61,22 @@ Recommended anchor:
 
 A draft is promoted to `verified` only after line-by-line comparison against the rendered source page(s).
 
-The audit must confirm song number, film, music/voice labels, every lyric line, refrains, lineation and page provenance.
+The audit confirms song number, film, music/voice labels, every lyric line, refrains, lineation and page provenance. A source page that does not print a voice line must remain without an inferred singer.
 
-## Special case
+## Special cases
 
 The prose-mentioned censored/prohibited `மந்திரிகுமாரி` song `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` is **not** a numbered lyric item here. See `../notes/anthology-notes.md`.
 
+Song `009` is the first verified cross-page numbered lyric in this work: it spans PDF/printed **38–39** and remains one song file.
+
 ## Current state
 
-- inventory: 54/54;
-- draft: 001–003;
-- verified: none;
-- next: 004–011 (`நாம்`, PDF 31–41).
+- inventory: **54/54**;
+- draft: **001–003** — 3 songs;
+- verified: **004–011** — 8 songs;
+- review: **0**;
+- not started: **012–054** — 43 songs;
+- latest batch audit: `../notes/BATCH_004_011_REVIEW.md`;
+- next: **012–018** (`அம்மையப்பன்`, PDF **42–50**).
+
+English translation remains blocked until the relevant Tamil lyric is verified.
