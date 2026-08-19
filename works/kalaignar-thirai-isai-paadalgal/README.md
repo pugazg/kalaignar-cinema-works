@@ -18,27 +18,27 @@ See `notes/FULL_PDF_SONG_PAGE_SCAN.md` and `songs/page-map.json`.
 ## Current status
 
 - draft: **3** (`001–003`);
-- verified: **22** (`004–025`);
+- verified: **51** (`004–054`);
 - review: **0**;
-- not started: **29** (`026–054`);
+- not started: **0**;
 - English translation: **not started**.
 
-Verified song-bearing runs:
+All formerly not-started numbered songs have now been processed through the final song-bearing page, PDF 130. The final activity added songs **026–054** from only their mapped whitelist pages.
 
-- PDF 33–41 → songs 004–011;
-- PDF 44–50 → songs 012–018;
-- PDF 53–59 → songs 019–023;
-- PDF 62–63 → song 024;
-- PDF 64 → song 025.
+Latest review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-Latest review: `notes/PAGE_BATCH_064_REVIEW.md`.
-
-Song 025 preserves the numbered page's music `டி.ஆர்.பாப்பா`, voice `டி.வி. ரத்னம்`, repeated vocatives/refrain, source hyphenation and source-visible lexical forms without soundtrack-driven normalization.
+Cross-page verified song records in the corpus include `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`.
 
 ## Attribution
 
 The 2024 anthology is authoritative for what this edition prints and attributes. Default item status remains `anthology-attributed`; it is not automatically an original-film primary-source verification.
 
-## Next activity
+## Remaining Tamil fidelity activity
 
-Resume at **PDF 65 / song 026**, then continue only through song-bearing pages in `songs/page-map.json`.
+Only the three early pilot drafts remain:
+
+- PDF 26 → `001`;
+- PDF 29 → `002`;
+- PDF 30 → `003`.
+
+After direct visual recheck and successful promotion of those three, the Tamil lyric corpus can become **complete-verified**. English translation remains blocked until then.
