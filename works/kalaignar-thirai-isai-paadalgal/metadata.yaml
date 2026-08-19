@@ -126,8 +126,24 @@ reader_export:
   preflight_cross_page_records: 8
   preflight_errors: 0
   preflight_warnings: 0
-  status: not-started
-  next_action: "Generate deterministic English reader/export derivatives from the 54 complete-verified translation records, then run generated-output QA and create an integrity manifest."
+  status: complete-verified
+  edition_directory: "editions/en"
+  build_script: "editions/en/build.py"
+  markdown_path: "editions/en/reader-edition.md"
+  html_path: "editions/en/reader-edition.html"
+  json_path: "editions/en/reader-edition.json"
+  qa_report_path: "editions/en/QA_REPORT.md"
+  manifest_path: "editions/en/manifest.json"
+  generated_songs: 54
+  generated_line_cues: 1105
+  generated_cross_page_records: 8
+  generated_errors: 0
+  generated_warnings: 0
+  markdown_sha256: "42e13ad7a171b4304ef4b1b8b424fa7f50ebace8510c7ea864f49c31dc9cc209"
+  html_sha256: "d48bd5476ba3cbdc540334abaf743b4481d0a1b7cae37d5bc4198f15adebc034"
+  json_sha256: "8e9782ca160e07bd9f45be38931d3d3ad07c3a126a0be6755b67e7e7fdec1ed8"
+  reading_room_integration: ready-after-reader-export-qa
+  next_action: "Downstream Reading Room integration is ready; no required repository-internal transcription, translation, preflight, or reader/export work remains."
 
 status:
   source_intake: complete
@@ -137,4 +153,4 @@ status:
   tamil_song_fidelity_audit: complete
   english_translation: complete-verified
   english_reader_preflight: complete-pass
-  reader_export: not-started
+  reader_export: complete-verified

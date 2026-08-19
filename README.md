@@ -53,7 +53,7 @@ The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadal
 - English draft/review/not-started: **0/0/0**;
 - English mode: **`semantic-poetic-source-faithful`**, retaining Kalaignar's language rather than producing a singable rewrite;
 - final English review: `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_047_054_REVIEW.md`;
-- English reader/export preflight: **complete-pass** — 54/54 records, 1,105/1,105 mapped Tamil/English lines-cues, 8 cross-page records, 0 warnings/errors;
+- English reader/export: **complete-verified, QA PASS** — 54/54 songs, 1,105/1,105 English lines-cues, 8 cross-page records, deterministic Markdown/HTML/JSON + manifest;
 
 The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered Tamil song files are visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
 
@@ -65,7 +65,7 @@ Difficult verified Tamil forms remain documented rather than silently repaired t
 
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** generate deterministic anthology-order English reader/export Markdown, standalone HTML and machine-readable JSON from all 54 complete-verified translation records, then run generated-output QA and create an integrity manifest before downstream Reading Room integration.
+**Next:** repository-internal anthology work is complete; downstream Kalaignar Digital Library / Reading Room integration may proceed from the verified reader/export package.
 
 ## மனோகரா status
 

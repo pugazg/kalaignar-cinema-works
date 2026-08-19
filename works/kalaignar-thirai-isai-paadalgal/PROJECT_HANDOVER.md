@@ -73,31 +73,37 @@ Verified by the preflight:
 
 The preflight changed no Tamil or English source-linked record.
 
+## Reader/export package checkpoint
+
+The deterministic English reader/export package is **complete-verified**.
+
+Generated files under `editions/en/`:
+
+1. `reader-edition.md`;
+2. `reader-edition.html`;
+3. `reader-edition.json`;
+4. `QA_REPORT.md` — **PASS**;
+5. `manifest.json`;
+6. `build.py` — deterministic builder/QA implementation.
+
+Generated-output QA confirms:
+
+- anthology order `001–054` exactly once;
+- **54/54** songs;
+- **1,105/1,105** English lines/cues;
+- **3 pilot-verified + 51 verified** item statuses;
+- **54/54 anthology-attributed** items;
+- all **8** cross-page source arrays;
+- **0** missing/extra/duplicate song IDs, translation IDs or line IDs;
+- **0** source-page/status/attribution drift;
+- **0** English-line text drift;
+- **0 warnings / 0 errors**.
+
+The manifest hashes **110 authoritative inputs** and all generated publication outputs. Do not manually edit generated reader files; rerun `editions/en/build.py` through the workflow when authoritative inputs change.
+
 ## Exact next activity
 
-Generate the deterministic English reader/export package from `translations/records/song-001.json` through `song-054.json`.
-
-Required outputs under `editions/en/`:
-
-1. `reader-edition.md` — publication-facing anthology-order Markdown;
-2. `reader-edition.html` — standalone HTML carrying the same 54 songs;
-3. `reader-edition.json` — machine-readable reader/export derivative;
-4. `QA_REPORT.md` — generated-output reconciliation;
-5. `manifest.json` — deterministic input/output hashes and package checkpoint;
-6. a deterministic build script, preferably `build.py`, modeled on the repository's established reader/export pattern.
-
-Generation rules:
-
-- input is the complete-verified English translation layer; do **not** edit translations during export;
-- preserve anthology order `001–054` exactly once;
-- preserve Tamil title, English title, film title, source PDF page array, source-song path, item status and `anthology-attributed` state;
-- preserve every English line/cue exactly as stored in the translation records;
-- preserve section/turn labels and refrain structure;
-- retain the 3 `pilot-verified` / 51 `verified` distinction;
-- retain all eight cross-page source arrays;
-- generated QA must detect missing/extra/duplicate song IDs and line/cue loss or duplication;
-- deterministic manifest must hash authoritative inputs and all generated outputs;
-- do not begin downstream Reading Room integration until generated-output QA passes.
+No required repository-internal transcription, fidelity, translation, preflight or reader/export gate remains. The next activity is **downstream Kalaignar Digital Library / Reading Room integration**. Preserve anthology order, page provenance, `anthology-attributed` status, the 3 `pilot-verified` / 51 `verified` history, and the source-faithful Kalaignar-language English. Do not reopen or smooth the verified source-linked layers for UI convenience.
 
 ## Repository boundary
 

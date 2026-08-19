@@ -37,26 +37,24 @@ The English layer is **54/54 complete-verified** under `semantic-poetic-source-f
 
 The English is deliberately **not** a singable rewrite or generic paraphrase. Across all 54 songs it retains repetition, social/political force, concrete images, rhetorical questions, colloquial energy, culture-bearing vocabulary, performance terms and verified source-specific constructions. No verified Tamil file was changed by the English translation layer.
 
-## English reader/export preflight
+## English reader/export
 
-**PASS — complete.**
+**Complete-verified — preflight PASS and generated-output QA PASS.**
 
-Report: `editions/en/PREFLIGHT_QA_REPORT.md`  
-Probe: `editions/en/audit_probe.py`  
-Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
+Preflight: `editions/en/PREFLIGHT_QA_REPORT.md`  
+Generated-output QA: `editions/en/QA_REPORT.md`  
+Integrity manifest: `editions/en/manifest.json`  
+Builder: `editions/en/build.py`
 
-The automated whole-corpus gate verified:
+The deterministic package contains:
 
-- **54/54** translation records and **54/54** verified Tamil source links;
-- anthology order **001–054**, with no gaps or duplicate IDs/paths;
-- the status distinction **3 pilot-verified + 51 verified**;
-- **54/54 `anthology-attributed`** records with no attribution promotion;
-- **1,105 Tamil lines/cues ↔ 1,105 English lines/cues**, with zero line-count mismatches;
-- zero source-page, Tamil-title, film-title or translation-mode mismatches;
-- exactly eight complete cross-page records: `009`, `019`, `023`, `024`, `036`, `037`, `051`, `052`;
-- **0 warnings / 0 errors**.
+- `editions/en/reader-edition.md`;
+- `editions/en/reader-edition.html`;
+- `editions/en/reader-edition.json`.
 
-Reader/export generation must treat the complete-verified English records as immutable input. The preflight does not authorize stylistic smoothing of Kalaignar-language decisions.
+QA confirms **54/54 songs** and **1,105/1,105 English lines/cues** exactly once in each machine-addressable output layer, with all **8 cross-page records**, **3 pilot-verified + 51 verified** statuses and **54 anthology-attributed** states intact. There are **0 warnings / 0 errors** and no English-line text drift.
+
+The build treats the source-faithful English as immutable input. It does not smooth Kalaignar's language for publication.
 
 ## Attribution
 
@@ -66,4 +64,5 @@ The anthology's `மந்திரிகுமாரி` editorial note mention
 
 ## Next activity
 
-Generate deterministic publication-facing English reader/export outputs from the 54 verified translation records: Markdown, standalone HTML and machine-readable JSON, followed by generated-output QA and an integrity manifest. Preserve anthology order, source/page provenance, item status history, attribution state and the approved Kalaignar-language English exactly.
+Repository-internal work is complete. The verified reader/export package is ready for **downstream Kalaignar Digital Library / Reading Room integration** while preserving anthology order, Tamil/source provenance, item status history, attribution state and the approved Kalaignar-language English.
+

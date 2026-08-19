@@ -47,6 +47,9 @@ English translation lives separately under `../translations/`:
 
 The English layer retains Kalaignar's language and does not rewrite these verified Tamil song files for smoothness, rhyme or singability. All eight multi-page songs retain complete source-page provenance in the translation index, including final-batch records `051` (PDF 121–122) and `052` (PDF 123–124).
 
-## Next derivative activity
+## Downstream derivative status
 
-Run whole-corpus English reader/export preflight across all 54 source-linked translation records without altering the complete-verified Tamil or English source layers.
+The English translation and deterministic English reader/export package are both complete-verified. Generated-output QA passes for **54/54 songs** and **1,105/1,105 English lines/cues** with no alteration to this Tamil source layer.
+
+No further source-layer activity is required. Downstream Reading Room integration may proceed from the verified derivatives.
+

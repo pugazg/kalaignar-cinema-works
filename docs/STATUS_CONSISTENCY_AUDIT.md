@@ -33,7 +33,7 @@ The three screenplay works remain at their completed checkpoints. The film-song 
 | Character/entity layer | complete-verified | complete | complete-verified with one unresolved source label | not applicable |
 | Song/performance layer | 14/14 authorship verified | 3 verified / 5 unresolved | 1 verified / 1 review / 4 unresolved | 54/54 anthology-attributed lyric records verified |
 | English translation | 769 verified units | 1,321 verified units | 1,190 verified units | complete-verified — 54/54 songs |
-| English reader/export | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS | preflight complete-pass; reader export not started |
+| English reader/export | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS — 54 songs / 1,105 lines-cues |
 | EPUB | not required | complete-verified, QA PASS | not required | not started/not required yet |
 | Required Tamil/source work remaining | none | none | none | none |
 
@@ -105,6 +105,6 @@ The cropped lower printer-imprint continuation on PDF 2 remains an intentional u
 
 No required Tamil/source transcription, Tamil fidelity, or English song-translation work remains for the anthology.
 
-The anthology whole-corpus English reader/export preflight is **complete-pass** across 54/54 records, 1,105/1,105 mapped Tamil/English lines-cues and all eight cross-page records, with zero warnings/errors. The next repository-internal activity is deterministic reader/export generation (Markdown, standalone HTML, machine-readable JSON), followed by generated-output QA and an integrity manifest.
+The anthology English reader/export is **complete-verified with QA PASS**: 54/54 songs, 1,105/1,105 English lines-cues, all eight cross-page records, deterministic Markdown/HTML/JSON and an integrity manifest, with zero warnings/errors or text drift. No required repository-internal anthology activity remains; downstream Reading Room integration is ready.
 
 Reading Room integration remains a separate downstream publication activity and is outside this repository-only audit unless explicitly requested.

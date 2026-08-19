@@ -86,24 +86,28 @@ PASS results:
 
 The preflight explicitly preserves the distinction between `pilot-verified` and `verified`, and it does not promote anthology attribution into original-film primary-source verification.
 
-## Current gate result
+## Final gate result
 
 - Tamil transcription: **complete-verified — 54/54**;
 - Tamil fidelity audit: **complete**;
 - English translation: **complete-verified — 54/54**;
 - English reader/export preflight: **complete-pass**;
-- deterministic reader/export package: **not started**.
+- deterministic reader/export package: **complete-verified**;
+- generated-output QA: **PASS**;
+- generated songs: **54/54**;
+- generated English lines/cues: **1,105/1,105**;
+- cross-page records: **8/8**;
+- generated-output warnings/errors: **0/0**.
 
-**PASS — the repository is cleared to generate publication-facing English reader/export derivatives without altering the complete-verified Tamil or English source-linked layers.**
+**PASS — the source-linked Tamil and English layers and the deterministic English reader/export derivative are all closed at their verified checkpoints.**
+
+## Generated-output integrity
+
+`editions/en/QA_REPORT.md` confirms that Markdown, standalone HTML and machine-readable JSON each retain the complete 54-song anthology order and all 1,105 English lines/cues. There are zero missing/extra/duplicate song IDs, translation IDs or line IDs, zero source-page/status/attribution drift and zero English text drift in the machine-addressable outputs.
+
+`editions/en/manifest.json` hashes **110 authoritative inputs** and the generated Markdown, HTML, JSON and QA report. Output SHA-256 values are recorded in `metadata.yaml`.
 
 ## Next activity
 
-Generate deterministic English reader/export outputs from the 54 verified translation records:
+No required repository-internal archival or publication-generation gate remains for this anthology. Downstream Reading Room integration may proceed without reopening or smoothing the verified Tamil or Kalaignar-language English.
 
-1. Markdown reader edition;
-2. standalone HTML reader edition;
-3. machine-readable JSON reader edition;
-4. generated-output QA report;
-5. integrity manifest with reproducible input/output hashes.
-
-Then verify that all 54 songs, 1,105 mapped English lines/cues, source links, page provenance, item statuses and attribution states survive the generated outputs exactly once before any downstream Reading Room integration.

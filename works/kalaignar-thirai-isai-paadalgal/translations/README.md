@@ -56,6 +56,19 @@ The preflight independently reconciles the records against the translation index
 
 The preflight treats every translation record as immutable reader input. It does not authorize publication-facing smoothing of Kalaignar-language wording or documented pressure points.
 
+## Reader/export derivative
+
+The complete-verified translation corpus now has a deterministic publication derivative under `../editions/en/`:
+
+- `reader-edition.md`;
+- `reader-edition.html`;
+- `reader-edition.json`;
+- `QA_REPORT.md` — **PASS**;
+- `manifest.json`.
+
+Generated QA proves that all **54 songs** and **1,105 English lines/cues** survive exactly once with source provenance, the **3 pilot-verified / 51 verified** distinction and `anthology-attributed` state intact. The builder does not edit or smooth these translation records.
+
 ## Next activity
 
-Build deterministic publication-facing derivatives under `../editions/en/`: `reader-edition.md`, standalone `reader-edition.html`, machine-readable `reader-edition.json`, generated-output `QA_REPORT.md`, and `manifest.json`. Generated QA must prove that all 54 songs and all 1,105 English mapped lines/cues survive exactly once with source provenance, item status and attribution state intact.
+No translation-layer or reader/export work remains. Downstream Reading Room integration may consume these verified derivatives without changing the source-linked English.
+
