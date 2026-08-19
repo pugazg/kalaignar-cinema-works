@@ -31,29 +31,29 @@ The English layer is **in progress** under the approved `semantic-poetic-source-
 
 Current checkpoint:
 
-- translated: **25/54**;
+- translated: **32/54**;
 - pilot-verified: **3** (`001–003`);
-- verified: **22** (`004–025`);
+- verified: **29** (`004–032`);
 - draft/review: **0/0**;
-- not started: **29** (`026–054`);
+- not started: **22** (`033–054`);
 - guide: `docs/SONG_TRANSLATION_GUIDE.md`;
 - schema/index: `translations/schema.json`, `translations/index.json`;
 - pilot review: `translations/PILOT_REVIEW.md`;
-- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`.
+- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`.
 
 ### Retaining Kalaignar's language
 
 The English is deliberately **not** a singable rewrite or generic paraphrase. It retains repetition, social/political force, concrete images, rhetorical questions, colloquial energy, culture-bearing vocabulary and source-specific constructions.
 
-The third scaled batch (`019–025`) adds especially demanding theatre/comic and social-political material while retaining source shape:
+The fourth scaled batch (`026–032`) is verified and extends the policy into several new registers:
 
-- `019`: theatre-ticket hawker speech, prices, floor/stain imagery, `ட்ராமா / வெங்கட்ராமா`, `kaali / naarkaali`, dressing-scene torch and other sound-driven jokes retained conservatively across PDF 53–54;
-- `020`: unemployment vanishing like morning dew, unexpected prosperity and `seemaatti` mistaken-status humour;
-- `021`: ocean-girdled world, crowing/pecking, chastity, end-age catastrophe, `thaazhi` vessel and **grammar of chastity**;
-- `022`: jewel-dove, heart leaping toward the beloved, flower-spreading bed, `Poomaane`, rose enclosure/jasmine garden and Raja/Rani intimacy;
-- `023`: source-visible dialogue/song alternation, cat/world and curtain/moon ridicule, Harishchandra sarcasm and Clavar/Daiman/Ispade card language across PDF 58–59;
-- `024`: **body of fame**, body-as-cage, walking corpse, pandaaram/paradesi/Govinda, temple of knowledge, working comrade and public-welfare-as-medicine across PDF 62–63;
-- `025`: Ayarpadi Kanna, Mayakkara/Jaalakkara/Bhagavane, Bhama, burning-ember love, lightning-waist, honey-cheek and spear-shaming eyes.
+- `026`: sky-flower grove, honeyed moon, jasmine creeper, overflowing-dam love, quenched fire, uncloying nectar and sweet mango-fruit;
+- `027`: plucked lips, north-wind chill, intimate `di`, conservative `eduppu`, `pann` / `yaazh`, and lightning-like disappearance; no singer was inferred;
+- `028`: explicit **O Tamil**, retained lullaby vocables, golden lamp, wave-struck mother's heart, moon and cloud-seeing peacock;
+- `029`: repeated `இருக்குது` architecture, price-question, net-in-eyes, source-split `fruit- / cluster`, statue, waist/youth/arrow and pleasure-poem imagery;
+- `030`: water/fire impossibilities, spinning world/body, `kalagam / kalayam` commotion/pot sound-play, heaven/dizziness, colloquial maiden-girl and unexpanded `one on the cheek`, with exact role labels retained;
+- `031`: repeated martial exhortation, warrior-conch, armies, head-giving, mother's honour, hill-like shoulder, enemy feet, flower-not-plucking warrior hands, raised sword, `vengai` tiger-king, and documented source pressure points `குமலைப்`, `அஞ்சுகத்தின்`, `புறப்படடா`;
+- `032`: **one woman for one man**, the anthology's own printed Thirukkural wording, life-as-boat, unforgettable Veda, youth-as-fading-costume, storm preparedness and the oarless-boat analogy.
 
 No verified Tamil file was changed by the English translation layer.
 
@@ -65,4 +65,4 @@ The anthology's `மந்திரிகுமாரி` editorial note also me
 
 ## Next activity
 
-Translate and verify **songs 026–032** using the same approved Kalaignar-language source-faithful rules. Do not overwrite or normalize the verified Tamil corpus.
+Translate and verify **songs 033–039** using the same approved Kalaignar-language source-faithful rules. Preserve full cross-page provenance for songs `036` and `037`; do not overwrite or normalize the verified Tamil corpus.
