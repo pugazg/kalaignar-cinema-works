@@ -1,0 +1,176 @@
+{
+  "id": "kalaignar-song-en-030",
+  "song_id": "kalaignar-song-030",
+  "anthology_song_number": 30,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-030.md",
+    "tamil_status": "verified",
+    "pdf_pages": [73],
+    "tamil_title": "நீர்மேல் நடக்கலாம்",
+    "film_title_ta": "காஞ்சித் தலைவன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "We can walk on water",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "மதனன்",
+        "english_label": "Madanan",
+        "source_tamil_lines": [
+          "நீர்மேல் நடக்கலாம்",
+          "நெருப்பிலே படுக்கலாம்",
+          "நிலை தடுமாறினால் நினைத்ததைப் பேசலாம்"
+        ],
+        "english_lines": [
+          "We can walk on water,",
+          "We can lie down in fire,",
+          "If our state staggers, we can say whatever we think."
+        ],
+        "notes": [
+          "The deliberately impossible water/fire claims remain literal; `நிலை தடுமாறினால்` keeps the staggering-state/intoxication force."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "மதனன்",
+        "english_label": "Madanan",
+        "source_tamil_lines": [
+          "உலகம் சுத்துது எதனாலே? நம்",
+          "உடம்பு சுத்துது அதனாலே",
+          "உலகம் சுத்துது எதனாலே?"
+        ],
+        "english_lines": [
+          "Why does the world spin? Our,",
+          "body spins — that's why,",
+          "Why does the world spin?"
+        ],
+        "notes": [
+          "The source line-break after `நம்` is retained rather than silently recast into a new lyric line."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "வீரர்கள்",
+        "english_label": "Warriors",
+        "source_tamil_lines": ["நம்ம உடம்பு சுத்துது அதனாலே"],
+        "english_lines": ["Our body spins — that's why."],
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_label": "மதனன்",
+        "english_label": "Madanan",
+        "source_tamil_lines": [
+          "கலகம் வருவது எதனாலே?",
+          "கலயம் பொங்குது அதனாலே",
+          "கலகம் வருவது எதனாலே?",
+          "கலயம் பொங்குது அதனாலே",
+          "சொர்க்கம் தெரியுது எதனாலே?",
+          "மயக்கம் வருது அதனாலே",
+          "சொர்க்கம் தெரியுது எதனாலே"
+        ],
+        "english_lines": [
+          "Why does kalagam — commotion — come?",
+          "Because the kalayam pot bubbles over,",
+          "Why does kalagam — commotion — come?",
+          "Because the kalayam pot bubbles over,",
+          "Why does heaven appear?",
+          "Because dizziness comes,",
+          "Why does heaven appear?"
+        ],
+        "notes": [
+          "`கலகம் / கலயம்` is a sound-driven joke. Both Tamil sounds are kept audible while `commotion` and `pot` supply the source meanings rather than inventing a different English pun.",
+          "`மயக்கம்` remains dizziness/intoxication rather than being romanticized."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "கோரஸ்",
+        "english_label": "Chorus",
+        "source_tamil_lines": ["மயக்கம் வருது அதனாலே"],
+        "english_lines": ["Because dizziness comes."],
+        "notes": []
+      },
+      {
+        "ordinal": 6,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": ["(உலகம்)"],
+        "english_lines": ["(World)"],
+        "notes": ["The abbreviated refrain cue remains a cue and is not expanded into reconstructed lyrics."]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "மதனன்",
+        "english_label": "Madanan",
+        "source_tamil_lines": [
+          "கண்ணைக் கவருது எதனாலே? - இவ",
+          "கன்னிப் பொண்ணு அதனாலே",
+          "கண்ணைக் கவருது எதனாலே?"
+        ],
+        "english_lines": [
+          "Why does it captivate the eye? — this,",
+          "maiden-girl, that's why,",
+          "Why does it captivate the eye?"
+        ],
+        "notes": ["The colloquial `இவ / கன்னிப் பொண்ணு` remains colloquial rather than being elevated into formal romantic diction."]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "கோரஸ்",
+        "english_label": "Chorus",
+        "source_tamil_lines": ["இவ கன்னிப் பொண்ணு அதனாலே"],
+        "english_lines": ["This maiden-girl, that's why."],
+        "notes": []
+      },
+      {
+        "ordinal": 9,
+        "source_label": "மதனன்",
+        "english_label": "Madanan",
+        "source_tamil_lines": [
+          "கன்னிப் பொண்ணு ....ம் .....ம்......",
+          "கன்னத்தில் ஒண்ணு"
+        ],
+        "english_lines": [
+          "Maiden-girl.... mm..... mm......,",
+          "one on the cheek."
+        ],
+        "notes": [
+          "The source never names the implied act after `கன்னத்தில் ஒண்ணு`; English keeps `one on the cheek` instead of inserting `kiss`."
+        ]
+      },
+      {
+        "ordinal": 10,
+        "source_label": "சிங்காரி",
+        "english_label": "Singari",
+        "source_tamil_lines": ["உலகம் சுத்துது எதனாலே?"],
+        "english_lines": ["Why does the world spin?"],
+        "notes": []
+      },
+      {
+        "ordinal": 11,
+        "source_label": "கோரஸ்",
+        "english_label": "Chorus",
+        "source_tamil_lines": ["நம்ம உடம்பு சுத்துது அதனாலே"],
+        "english_lines": ["Our body spins — that's why."],
+        "notes": []
+      },
+      {
+        "ordinal": 12,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": ["(உலகம்)"],
+        "english_lines": ["(World)"],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "The comic intoxication structure is retained through spinning world/body, kalagam/kalayam sound-play, heaven/dizziness, maiden-girl repetition and the deliberately incomplete `one on the cheek` line.",
+      "Printed role labels Madanan, Warriors, Chorus and Singari remain explicit; no performer identity is inferred beyond the source."
+    ]
+  }
+}
