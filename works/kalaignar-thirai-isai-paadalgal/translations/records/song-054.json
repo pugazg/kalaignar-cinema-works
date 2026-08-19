@@ -1,0 +1,107 @@
+{
+  "id": "kalaignar-song-en-054",
+  "song_id": "kalaignar-song-054",
+  "anthology_song_number": 54,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-054.md",
+    "tamil_status": "verified",
+    "pdf_pages": [130],
+    "tamil_title": "வீணையில் எழுவது வேணுகானமா",
+    "film_title_ta": "பெண் சிங்கம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Is what rises from the veena a flute-song?",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": ["ஆஹா..."],
+        "english_lines": ["Aahaa..."],
+        "notes": []
+      },
+      {
+        "ordinal": 2,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "வீணையில் எழுவது வேணுகானமா",
+          "திருவாதிரையின் தோடி ராகமா",
+          "திருவெண்காட்டு மகுடி நாதமா",
+          "இசைவதனால் இணையும் ஈருயிர்கள்",
+          "இணைந்தபின்பு இரண்டும் ஓர் உயிர்தானே"
+        ],
+        "english_lines": [
+          "Is what rises from the veena a venu-song?",
+          "Is it Thiruvathirai's Todi raga?",
+          "Is it Thiruvenkadu's magudi sound?",
+          "Two lives join because they harmonize,",
+          "Once joined, are not the two a single life?"
+        ],
+        "notes": [
+          "`வேணு`, Todi, Thiruvathirai, Thiruvenkadu and `magudi` remain culturally and musically audible rather than being generalized into `music`.",
+          "The `இசை / இசைவது / இணை` sound-and-meaning movement is retained through `harmonize / join` without inventing rhyme."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ஆண் / பெண்",
+        "english_label": "Man / Woman",
+        "source_tamil_lines": [
+          "ஆண் : காலை அரும்பி மாலை மலரும்",
+          "காதல் நோயால் நானும் உருகினேன்",
+          "பெண் : காலை அரும்பி மாலை மலரும்",
+          "காதல் நோயால் நானும் உருகினேன்",
+          "ஆண் : ஓவியமாகி நீயும் கொடுமுடி கோகிலம்தானே",
+          "கொள்ளை கொண்டாய்",
+          "நெஞ்சத்தினையே, கொடுத்துவிடு",
+          "எடுத்தபடியே",
+          "பெண் : தேனும் பாலும் கலந்த பின்னே",
+          "தனியே சுவையை பிரிக்கலாகுமா",
+          "ஆண் : இனிக்கும் தேனாய் நீயும்",
+          "துடிக்கும் ஆண்பாலாய் நானும்",
+          "திருமணம் ஆன பின்னால் தேனும் பாலுமாகலாம்",
+          "பெண் : ஆயிரம் இரவுகள் போதும்",
+          "பாயிரம் பாடல் போதும் இப்போது",
+          "ஆண் : செம்புலம் நீர்போல அன்புடை நெஞ்சமும்",
+          "நாம் கலந்தோமே"
+        ],
+        "english_lines": [
+          "Man: Budding in the morning, flowering in the evening,",
+          "I too melted from the disease of love,",
+          "Woman: Budding in the morning, flowering in the evening,",
+          "I too melted from the disease of love,",
+          "Man: You became a painting — are you not the Kodumudi kokilam?",
+          "You plundered,",
+          "My very heart; give it back,",
+          "Just as you took it,",
+          "Woman: Once honey and milk are mixed,",
+          "Can their taste be separated out?",
+          "Man: You as sweet honey,",
+          "And I as throbbing `aanpaal`,",
+          "After marriage, we may become honey and milk,",
+          "Woman: A thousand nights are enough,",
+          "A paayiram song is enough now,",
+          "Man: Like water upon red earth, our loving hearts,",
+          "We have mingled."
+        ],
+        "notes": [
+          "The morning-bud/evening-flower love-disease lines remain repeated across the man/woman turns.",
+          "`கொடுமுடி கோகிலம்` remains `Kodumudi kokilam` rather than being replaced by an externally inferred person/place gloss.",
+          "`ஆண்பாலாய்` is retained as `aanpaal` because the line activates milk/gender wordplay and a single smooth English equivalent would flatten it.",
+          "`பாயிரம்` remains `paayiram`, preserving the literary term.",
+          "`செம்புலம் நீர்போல` remains the classical red-earth/water image rather than being paraphrased as generic inseparability."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The final anthology song fuses musical vocabulary, place/literary references, love-disease imagery, honey/milk and gender wordplay, and the classical red-earth/water union image. The English retains those source layers without turning the lyric into a conventional romantic paraphrase.",
+      "This is the final numbered song in the supplied anthology and remains source-linked to PDF 130.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
