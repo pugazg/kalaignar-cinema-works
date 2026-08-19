@@ -26,25 +26,28 @@ The full PDF was already visually classified: **62 song-bearing / 132 ignored pa
 ## Current checkpoint
 
 - draft: `001–003` — **3**;
-- verified: `004–023` — **20**;
+- verified: `004–024` — **21**;
 - review: **0**;
-- not started: `024–054` — **31**.
+- not started: `025–054` — **30**.
 
-Latest review: `notes/PAGE_BATCH_053_059_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_062_063_REVIEW.md`.
 
 Latest verified page run:
 
-- PDF 53–54 → 019;
-- PDF 55 → 020;
-- PDF 56 → 021;
-- PDF 57 → 022;
-- PDF 58–59 → 023.
+- PDF 62–63 → song 024.
 
-Safeguards: 019 and 023 are cross-page records; 023 preserves its printed `வசனம்` / `பாட்டு` alternation and card-suit forms such as `கிளாவர்`, `டைமன்`, `இஸ்பேட்`.
+Safeguards for song 024:
+
+- one cross-page record across PDF 62–63;
+- music `டி.ஆர்.பாப்பா`;
+- voice `சி.எஸ்.ஜெயராமன்`;
+- retain `(பொதுநலம்)` cues;
+- preserve source forms including `மிகபுனிதமான`, `நம்நாடு`, `நந்நாடு`, `மனிதனுக்குயிர்`, `திருவோடேந்தும்`, `நடைபிணத்துக்குயிர்`, and `கடமைகளுக்கொளி`;
+- do not normalize source hyphenation.
 
 ## Exact next activity
 
-**Skip PDF 60–61.** Process **PDF 62–63 → song 024**, then continue strictly by the page whitelist.
+Process **PDF 64 → song 025**, then continue strictly by the page whitelist.
 
 Do not begin English translation until the relevant Tamil song is verified.
 
