@@ -1,0 +1,101 @@
+{
+  "id": "kalaignar-song-en-041",
+  "song_id": "kalaignar-song-041",
+  "anthology_song_number": 41,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-041.md",
+    "tamil_status": "verified",
+    "pdf_pages": [97],
+    "tamil_title": "ஒரு போராளியின் பயணமிது",
+    "film_title_ta": "ஒரே ரத்தம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "This is a fighter's journey",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஒரு போராளியின் பயணமிது - அவன்",
+          "போராடி பெற்ற பரிசு இது",
+          "ஓய்வில்லாமல் உழைத்தவனே - இனி",
+          "ஓய்வு கொள்ள போறியா",
+          "ஓய்வில்லாமல் உழைத்தவனே - இனி",
+          "ஓய்வு கொள்ளப் போறியா",
+          "தாயின் மடியில் தவழ்ந்தவனே நீ",
+          "தரைக்குள் தூங்கப் போறியா"
+        ],
+        "english_lines": [
+          "This is a fighter's journey — his,",
+          "This is the prize he won by fighting,",
+          "You who laboured without rest — now,",
+          "Are you going to take rest?",
+          "You who laboured without rest — now,",
+          "Are you going to take rest?",
+          "You who crawled in your mother's lap,",
+          "Are you going to sleep beneath the ground?"
+        ],
+        "notes": [
+          "The repeated `ஓய்வில்லாமல்... / ஓய்வு கொள்ள...` contrast remains repeated rather than compressed.",
+          "Colloquial `போறியா` remains direct spoken questioning instead of being elevated into formal elegy."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "இளைஞர்களை எழுப்ப வந்த குட்டிச்சிங்கமே",
+          "இளஞ்சூரியனாய் ஒளிவீசிய சுட்டித்தங்கமே",
+          "கொலைவெறி ஜாதிபேத ஆயுதங்கள் தாக்கினாரே",
+          "கொள்கைக்காக வாழ்ந்த உந்தன் உயிரை போக்கினாரே",
+          "ஓய்வில்லாமல் உழைத்தவனே - இனி",
+          "ஓய்வு கொள்ள போறியா"
+        ],
+        "english_lines": [
+          "Little lion who came to awaken the youth,",
+          "Sprightly golden one who shone like a young sun,",
+          "The murder-mad weapons of caste division struck you,",
+          "They took the life you lived for principle,",
+          "You who laboured without rest — now,",
+          "Are you going to take rest?"
+        ],
+        "notes": [
+          "`குட்டிச்சிங்கம்` remains the intimate political image `little lion`; `சுட்டித்தங்கம்` is kept as `sprightly golden one` rather than generalized praise.",
+          "`கொலைவெறி ஜாதிபேத ஆயுதங்கள்` remains a direct chain of murder-fury, caste division and weapons; the political accusation is not softened."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "இயேசு புத்தர் நபிகள் காந்தி காட்டும் வழியிலே",
+          "பேசும் புயல் பெரியார் அண்ணா அம்பேத்கர் மொழியிலே",
+          "குன்றம் போல முழங்கி நடந்த குலவிளக்கு நீதியா",
+          "உன் கொடி நிழலில் என்றும் நாங்கள் கூடுவோம் பாரடா"
+        ],
+        "english_lines": [
+          "On the path shown by Jesus, Buddha, the Prophets and Gandhi,",
+          "In the words of the speaking storm — Periyar, Anna, Ambedkar,",
+          "O lamp of the lineage who walked roaring like a mountain — is this justice?",
+          "Under the shade of your flag, we will gather forever — see, da."
+        ],
+        "notes": [
+          "The printed chain Jesus / Buddha / Prophets / Gandhi / Periyar / Anna / Ambedkar remains intact and in source order.",
+          "`பேசும் புயல்` remains `speaking storm`; `குலவிளக்கு` remains `lamp of the lineage` rather than being replaced by generic leader language.",
+          "The rough-intimate vocative force in `பாரடா` is retained with `da`."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song is an elegy built from political kinship, martyrdom and colloquial address. The English keeps the grief and ideological naming explicit.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
