@@ -1,0 +1,197 @@
+{
+  "id": "kalaignar-song-en-009",
+  "song_id": "kalaignar-song-009",
+  "anthology_song_number": 9,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-009.md",
+    "tamil_status": "verified",
+    "pdf_pages": [38, 39],
+    "tamil_title": "புதியதோர் பாதை வகுப்போம்",
+    "film_title_ta": "நாம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Let us lay out a new path",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "குமரன் & கிராமவாசிகள்",
+        "english_label": "Kumaran & villagers",
+        "source_tamil_lines": [
+          "புதியதோர் பாதை வகுப்போம் - நாம் - கெட்ட",
+          "போரிடும் பாதையை சாய்ப்போம் நாம்...",
+          "நித்தம் உழைத்தே உயர்வோம் நாம் -",
+          "நெறி தவறாமல் வாழ்வோம் நாம் -"
+        ],
+        "english_lines": [
+          "Let us lay out a new path — we — the evil,",
+          "Path that leads to fighting, we shall bring it down...",
+          "By labouring every day, we shall rise —",
+          "Without straying from the path, we shall live —"
+        ],
+        "notes": [
+          "The broken source syntax around `நாம் - கெட்ட / போரிடும் பாதையை` is not silently rewritten into a cleaner Tamil sentence; the English keeps the interruption while making the target of `சாய்ப்போம்` explicit enough to read.",
+          "`உழைத்தே உயர்வோம்` retains the labour/rise pairing central to the song's social programme."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "அஞ்ஞானப் பாழ் வெளியையே - நல்",
+          "அறிவாகும் ஏர் முனையினால்...",
+          "அஞ்ஞானப் பாழ் வெளியையே - நல்",
+          "அறிவாகும் ஏர் முனையினால்...",
+          "அறிவாகும் ஏர் முனையினால்..."
+        ],
+        "english_lines": [
+          "The barren waste of ignorance — with the plough-point,",
+          "That is good knowledge...",
+          "The barren waste of ignorance — with the plough-point,",
+          "That is good knowledge...",
+          "With the plough-point that is knowledge..."
+        ],
+        "notes": [
+          "The agricultural metaphor is kept concrete: ignorance is barren land and knowledge is the plough-point.",
+          "The full repetition is preserved instead of being reduced to one occurrence."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "விஞ்ஞானப் பேரறிவினால் - உழுதே",
+          "மெய்ஞ்ஞானம் காண்பவர்கள் நாம்!",
+          "விஞ்ஞானப் பேரறிவினால் - உழுதே",
+          "மெய்ஞ்ஞானம் காண்பவர்கள் நாம்!"
+        ],
+        "english_lines": [
+          "With the great knowledge of science — ploughing,",
+          "We are those who seek true wisdom!",
+          "With the great knowledge of science — ploughing,",
+          "We are those who seek true wisdom!"
+        ],
+        "notes": [
+          "`விஞ்ஞானம் / மெய்ஞ்ஞானம்` is retained as science / true wisdom, while `உழுதே` continues the ploughing metaphor rather than becoming an abstract intellectual verb."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஏற்றங்கொண்டு வாழ்வோம் நாம் - கால",
+          "மாற்றத்தோடு மாறுவோம் நாம்",
+          "மாற்றத்தோடு மாறுவோம் நாம்"
+        ],
+        "english_lines": [
+          "We shall live rising upward — with the times,",
+          "We shall change along with change,",
+          "We shall change along with change."
+        ],
+        "notes": [
+          "The repeated `மாற்றம் / மாறுவோம்` change-language is kept visibly repetitive instead of varied for English style."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஊற்றெடுக்கும் அறிவினாலே - புதிய",
+          "கருவிகொண்டு ஆளுவோம் - நாம்",
+          "ஊற்றெடுக்கும் அறிவினாலே - புதிய",
+          "கருவிகொண்டு ஆளுவோம் - நாம்!"
+        ],
+        "english_lines": [
+          "With knowledge springing forth — with new,",
+          "Tools we shall take command — we,",
+          "With knowledge springing forth — with new,",
+          "Tools we shall take command — we!"
+        ],
+        "notes": [
+          "The springing-water image in `ஊற்றெடுக்கும் அறிவு` and the material `புதிய கருவி` remain visible; the stanza is not generalized into modernization rhetoric."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நாத்து நடுவோம் - களை",
+          "பேத்து எறிவோம்!",
+          "நாத்து நடுவோம் - களை",
+          "பேத்து எறிவோம்!",
+          "காத்து வளர்ப்போம் - கதிர்",
+          "கண்டு மகிழ்வோம் - கதிர்",
+          "கண்டு மகிழ்வோம்..."
+        ],
+        "english_lines": [
+          "We'll plant the seedlings — the weeds,",
+          "We'll yank up and throw away!",
+          "We'll plant the seedlings — the weeds,",
+          "We'll yank up and throw away!",
+          "We'll guard and grow them — the grain-head,",
+          "Seeing it, we'll rejoice — the grain-head,",
+          "Seeing it, we'll rejoice..."
+        ],
+        "notes": [
+          "The colloquial agricultural vocabulary `நாத்து` and `பேத்து` is translated by its field-work action rather than replaced with formal agronomy language.",
+          "The seedlings/weeds/grain-head sequence preserves the song's labouring physicality."
+        ]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "(தொகையறா)",
+        "english_label": "Thogaiyara",
+        "source_tamil_lines": [
+          "சொப்பனத்தில் வந்த கடவுளின் அருளால்",
+          "பயிர் வளர்த்தாராம் நந்தனார்...",
+          "எப்பொழுதும்போல் கைகால்களுதவியால்",
+          "பயிர் வளர்த்தோமே இந்நாள்..."
+        ],
+        "english_lines": [
+          "By the grace of the god who came in a dream,",
+          "They say Nandanar raised the crop...",
+          "As always, with the help of our hands and legs,",
+          "We raised the crop this day..."
+        ],
+        "notes": [
+          "The Nandanar miracle reference is kept beside the deliberately material counter-image of hands and legs doing the work; the contrast is not softened or explained away."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வளைந்த கதிரில் விளைந்து வந்தாய் தங்கராணியே...",
+          "வாழ்வில் இன்பம் பொங்கிட வந்தாய் எங்கள் தோழியே...",
+          "“பொதுக் களஞ்சியம் கண்டோம் நாம்",
+          "புதியதோர் பாதை வகுத்தோம்” ..."
+        ],
+        "english_lines": [
+          "In the bending ear of grain you ripened and came, O golden queen...",
+          "You came, our comrade, so joy may overflow in life...",
+          "“We have found a common granary,",
+          "We have laid out a new path” ..."
+        ],
+        "notes": [
+          "The ripened grain becomes `தங்கராணி` — golden queen — and then `தோழி` — comrade; both shifts are retained.",
+          "`பொதுக் களஞ்சியம்` remains `common granary`, preserving the collective-economic image rather than translating it as mere prosperity."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This translation keeps the song's distinctive chain: ignorance as wasteland, knowledge as plough-point, science as the force that ploughs, new tools, collective field labour, Nandanar's miracle contrasted with hands-and-legs labour, and the common granary.",
+      "Political and rationalist force is retained without importing modern terminology not present in the source.",
+      "Because song 009 spans PDF 38–39, the record preserves both source pages as one song provenance.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
