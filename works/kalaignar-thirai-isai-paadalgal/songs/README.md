@@ -17,7 +17,7 @@ Full scan ledger: `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
 - latest Tamil review: `../notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - next unprocessed song-bearing page: **none**.
 
-Every numbered lyric record has now been transcribed and visually verified from its mapped song-bearing page(s).
+Every numbered lyric record has been transcribed and visually verified from its mapped song-bearing page(s).
 
 ## Rules
 
@@ -36,8 +36,16 @@ Songs `001–003` were the final pilot drafts. Direct reinspection of PDF 26, 29
 - `002`: no lyric correction required;
 - `003`: uncertainty markers resolved as `வந்தேன் தவழ்ந்தாய்?` and `பாழான`.
 
-The Tamil corpus is therefore **54/54 complete-verified**.
+The Tamil corpus is therefore **54/54 complete-verified** and should now be treated as immutable translation input.
 
-## Next layer
+## English derivative
 
-English translation is now unblocked but has not started. It must be created as a separate source-linked derivative from these verified Tamil song files.
+English translation now exists separately under `../translations/`:
+
+- status: **pilot-verified**;
+- pilot songs: **001–003**;
+- mode: **`semantic-poetic-source-faithful`**;
+- governing guide: `../../../docs/SONG_TRANSLATION_GUIDE.md`;
+- next English batch: **004–011**.
+
+The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability.
