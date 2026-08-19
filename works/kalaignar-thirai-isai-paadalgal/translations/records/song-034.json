@@ -1,0 +1,72 @@
+{
+  "id": "kalaignar-song-en-034",
+  "song_id": "kalaignar-song-034",
+  "anthology_song_number": 34,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-034.md",
+    "tamil_status": "verified",
+    "pdf_pages": [83],
+    "tamil_title": "காகித ஓடம் கடலலை மீது",
+    "film_title_ta": "மறக்க முடியுமா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "A paper boat upon the sea-wave",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "காகித ஓடம் கடலலை மீது",
+          "போவது போலே மூவரும் போவோம்",
+          "ஆதரவின்றி ஆழ்ந்திடும் ஓடம்",
+          "அது போல் ஒன்றாய் மூழ்குதல் நன்றாம்",
+          "கோலமும் போட்டு கொடிகளும் ஏற்றி",
+          "தேரையும் ஓட்டி தீயையும் வைத்தான்",
+          "காலமும் பார்த்து நேரமும் பார்த்து",
+          "வாழ்வையும் ஈந்து வதைக்கவும் செய்தான்",
+          "அழுவதை கேட்க ஆட்களும் இல்லை",
+          "ஆறுதல் வழங்க யாருமே இல்லை",
+          "ஏழைகள் வாழ இடமே இல்லை",
+          "ஆலயம் எதிலும் ஆண்டவன் இல்லை",
+          "தாயின் மடியும் நிலைத்திட வில்லை",
+          "தந்தையின் நிழலும் காத்திட வில்லை",
+          "ஆறிலும் சாவு நூறிலும் சாவு",
+          "அம்மா எங்களை அழைத்திடு தாயே"
+        ],
+        "english_lines": [
+          "Like a paper boat upon the sea-wave,",
+          "Let the three of us go as it goes,",
+          "A boat that sinks without support,",
+          "Like that, it is better that we sink as one,",
+          "He drew the kolam and raised the flags,",
+          "Drove the chariot and set the fire,",
+          "Watching the season, watching the hour,",
+          "He gave us life and made us suffer too,",
+          "There is no one even to hear us cry,",
+          "There is no one at all to give comfort,",
+          "There is no place for the poor to live,",
+          "In no temple is there a god,",
+          "Even mother's lap did not remain,",
+          "Even father's shadow did not protect,",
+          "Death at six, death at a hundred,",
+          "Amma, call us to you, O mother."
+        ],
+        "notes": [
+          "`காகித ஓடம்` remains a paper boat and the three-person sinking image is not softened into generalized despair.",
+          "`கோலம்`, flags, chariot and fire remain separate ritual/public images; the source's unnamed masculine subject remains `he` rather than being identified by inference.",
+          "`ஆறிலும் சாவு நூறிலும் சாவு` is retained literally as `death at six, death at a hundred`; the English does not replace the source formulation with a generalized proverb about mortality.",
+          "The repeated absence of people, comfort, a place for the poor and god in the temple remains an uncompressed accusation."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The lyric moves from fragile paper-boat imagery into social abandonment and a final call to the mother; the translation preserves that progression without sentimental smoothing.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
