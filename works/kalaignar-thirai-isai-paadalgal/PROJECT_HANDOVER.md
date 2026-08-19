@@ -17,7 +17,7 @@ Read completely before changing this work:
 7. `works/kalaignar-thirai-isai-paadalgal/songs/README.md`
 8. `works/kalaignar-thirai-isai-paadalgal/songs/index.json`
 9. `works/kalaignar-thirai-isai-paadalgal/notes/BATCH_004_011_REVIEW.md`
-10. repository source/transcription guides as needed.
+10. `works/kalaignar-thirai-isai-paadalgal/notes/PAGE_BATCH_044_050_REVIEW.md`
 
 Then inspect current GitHub `main`. Current repository state is authoritative over older status text.
 
@@ -61,43 +61,48 @@ Song-bearing whitelist:
 Human-readable scan ledger: `notes/FULL_PDF_SONG_PAGE_SCAN.md`  
 Machine map: `songs/page-map.json`
 
-Important exclusions:
-
-- PDF 25 mentions `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` in prose but does not print its lyric body; do not create a song file from that page.
-- PDF 131–194 contains no numbered lyric sheet under this scan and is ignored for lyric-file creation.
-
 ## Current lyric checkpoint
 
 - `001–003`: draft;
-- `004–011`: verified;
-- `012–054`: not started.
+- `004–018`: verified;
+- `019–054`: not started.
 
 Totals:
 
-- verified: **8**;
+- verified: **15**;
 - draft: **3**;
 - review: **0**;
-- not started: **43**.
+- not started: **36**.
 
-Latest verified batch: `notes/BATCH_004_011_REVIEW.md`.
+Latest verified page batch: `notes/PAGE_BATCH_044_050_REVIEW.md`.
+
+### PDF 44–50 safeguards
+
+- Seven song-bearing pages produced songs 012–018.
+- All seven pages print music `டி.ஆர்.பாப்பா`.
+- None prints a separate `குரல்` line; do not infer singers.
+- Preserve source role/performance labels and refrain cues exactly.
+- Song 014 and song 015 are separate numbered records; song 015 is the source-marked sorrow version.
+- Preserve source-visible forms including `உன்செயல்`, `விண்ண முதே`, `வெறுங்`, and `மான் தோல்`.
 
 ## Attribution rule
 
-This is a 2024 anthology. Default item attribution is `anthology-attributed` unless separately strengthened by original-film evidence. The page-driven processing rule changes **what pages are processed**, not the evidentiary standard for authorship.
+This is a 2024 anthology. Default item attribution is `anthology-attributed` unless separately strengthened by original-film evidence. Page-driven processing changes **what pages are processed**, not the evidentiary standard for authorship.
 
 ## Exact next activity
 
-Start at **PDF 44 / song 012**.
+**Skip PDF 51–52.** They are non-song pages.
 
-Then continue strictly through `songs/page-map.json` in ascending page order:
+Resume at **PDF 53–54 / song 019** and continue strictly through `songs/page-map.json` in ascending page order.
 
-- process the lyric page(s);
+For every whitelist entry:
+
+- inspect the rendered page(s);
 - create/update the corresponding `song-NNN.md`;
 - visually verify before marking `verified`;
-- skip every non-song page completely;
-- after PDF 50 jump to PDF 53; after PDF 59 jump to PDF 62; continue according to the whitelist through PDF 130.
+- skip every intervening non-song page completely.
 
-Do not perform film-section metadata work unless it is needed to interpret text printed directly on a song-bearing page. Do not begin English translation until the relevant Tamil lyric is verified.
+Do not begin English translation until the relevant Tamil lyric is verified.
 
 ## Repository boundary
 
