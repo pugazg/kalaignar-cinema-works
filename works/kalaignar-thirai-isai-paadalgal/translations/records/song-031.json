@@ -1,0 +1,99 @@
+{
+  "id": "kalaignar-song-en-031",
+  "song_id": "kalaignar-song-031",
+  "anthology_song_number": 31,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-031.md",
+    "tamil_status": "verified",
+    "pdf_pages": [74],
+    "tamil_title": "வெல்க நாடு வெல்க நாடு வெல்க வெல்கவே",
+    "film_title_ta": "காஞ்சித் தலைவன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "May the land triumph, may the land triumph — triumph, triumph!",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வெல்க நாடு வெல்க நாடு வெல்க வெல்கவே",
+          "வீர சங்க நாதம் கேட்டு செல்க செல்கவே",
+          "படைகள் செல்கவே - படைகள் செல்கவே...",
+          "(வெல்க நாடு)",
+          "தாயின் ஆணை கேட்பதற்கு தலை வணங்கும் தங்கமே",
+          "தலைகொடுத்து தாயின் மானம் காத்திடுவாய் சிங்கமே",
+          "சென்று வா - வென்று வா...",
+          "(வெல்க நாடு)",
+          "குமலைப் போல மழலை பேசும்",
+          "குழந்தைகளின் முத்தமும்",
+          "கொஞ்சுகின்ற அஞ்சுகத்தின்",
+          "கோலமொழிச் சத்தமும்",
+          "உன் குன்று தோளில் புது பலத்தை வழங்குமடா நித்தமும் சென்று வா -",
+          "வென்று வா...",
+          "(வெல்க நாடு)",
+          "மகிமை கொண்ட மண்ணின் மீது எதிரிகளின் கால்கள்",
+          "எதிரிகளின் கால்கள்",
+          "மலர் பறிப்பதில்லையடா வீரர்களின் கைகள்",
+          "மாவீரர்களின் கைகள்",
+          "சென்று வா - வென்று வா...",
+          "(வெல்க நாடு)",
+          "ஓங்கிய வாள் போன்ற வடிவமடா - அவர்",
+          "ஒளி விழிகள் உலகத்தின் படிவமடா",
+          "வேங்கைப் புலி மன்னனடா",
+          "வீரர்களின் தலைவனடா - அவர்",
+          "கட்டளைக்குக் காத்திருந்து நல்லவனே",
+          "களம் நோக்கிப் புறப்படடா வல்லவனே..",
+          "(வெல்க நாடு)"
+        ],
+        "english_lines": [
+          "May the land triumph, may the land triumph — triumph, triumph!",
+          "Hear the warrior-conch blast and go, go!",
+          "Let the armies go — let the armies go...",
+          "(May the land triumph)",
+          "Golden one who bows the head to heed the mother's command,",
+          "Give your head and guard the mother's honour, O lion,",
+          "Go and return — win and return...",
+          "(May the land triumph)",
+          "Speaking baby-talk like kumalai,",
+          "the kisses of the children,",
+          "and the lovely-voiced sound",
+          "of coaxing Anjugam,",
+          "will give new strength every day to your hill-like shoulder, da — go and return —",
+          "win and return...",
+          "(May the land triumph)",
+          "Upon the glorious soil — the feet of enemies,",
+          "the feet of enemies,",
+          "Warriors' hands do not pluck flowers, da,",
+          "the hands of great warriors,",
+          "Go and return — win and return...",
+          "(May the land triumph)",
+          "His form is like an upraised sword, da — his,",
+          "radiant eyes are the mould of the world, da,",
+          "He is the vengai-tiger king, da,",
+          "the leader of warriors, da — await his,",
+          "command, good one,",
+          "Set out toward the battlefield, mighty one..",
+          "(May the land triumph)"
+        ],
+        "notes": [
+          "The refrain keeps repeated `வெல்க / செல்க / சென்று வா / வென்று வா` exhortation instead of condensing the marching rhetoric.",
+          "`தாய்` remains mother rather than being silently expanded to motherland where the source does not do so.",
+          "The verified unusual `குமலைப்` is retained as `kumalai`; the source itself does not justify replacing it with a normalized form.",
+          "`அஞ்சுகத்தின்` is conservatively retained as `Anjugam` rather than silently deciding whether the source intends a name or another lexical form.",
+          "`குன்று தோள்` remains a hill-like shoulder, and the direct `டா` force is selectively retained as `da`.",
+          "The stark line that warriors' hands do not pluck flowers remains literal.",
+          "`வேங்கைப் புலி` remains `vengai-tiger`, and the verified source form `புறப்படடா` is not used as a pretext to rewrite the Tamil."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song's martial language remains source-shaped: conch blast, armies, head-giving, mother's honour, children's kisses, hill-like shoulder, enemy feet, flower-not-plucking warrior hands, raised sword, radiant eyes, tiger-king and battlefield command.",
+      "Source pressure points `குமலைப்`, `அஞ்சுகத்தின்`, and `புறப்படடா` are documented rather than normalized through English."
+    ]
+  }
+}
