@@ -28,7 +28,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
-A dedicated film-song anthology work has been initialized under `works/kalaignar-thirai-isai-paadalgal/` from the supplied source `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`.
+The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadalgal/` is being processed from the supplied source `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`.
 
 - printed title: **`கலைஞர் திரை இசைப் பாடல்கள்`**;
 - compiler: **`நெல்லை ஜெயந்தா`**;
@@ -42,15 +42,19 @@ A dedicated film-song anthology work has been initialized under `works/kalaignar
 - numbered Tamil lyric corpus: PDF **24–130**;
 - film sections: **23/23 mapped**;
 - numbered songs: **54/54 inventoried (`001–054`)**;
-- Tamil song transcription: **3 draft / 0 verified / 51 not-started**;
-- current draft songs: `001` `ஊருக்கு உழைப்பவண்டி`, `002` `இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்`, `003` `பூமாலை நீயே...`;
+- Tamil song transcription: **3 draft / 8 verified / 0 review / 43 not-started**;
+- draft songs: `001–003`;
+- verified songs: **`004–011`**, the complete `நாம்` batch;
+- latest verified source range: PDF **31–41**, with song `009` spanning PDF **38–39**;
 - default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
 - English translation: **not-started**;
 - reader/export: **not-started**.
 
+For `நாம்`, PDF 32 places `கலைஞர்` beside the eight entries represented by numbered songs 004–011. The separate `ஆயிரம் தெய்வங்கள்` entry is printed with `பாரதியார்` and is not included in this numbered Kalaignar batch. Song 006 has no printed `குரல்` line, so no singer has been inferred. The detailed visual verification ledger is `works/kalaignar-thirai-isai-paadalgal/notes/BATCH_004_011_REVIEW.md`.
+
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** process songs **004–011** from `நாம்`, PDF **31–41**, in source order with visual recheck before verification.
+**Next:** process songs **012–018** from `அம்மையப்பன்`, PDF **42–50**, in source order with visual verification before promotion.
 
 ## மனோகரா status
 
