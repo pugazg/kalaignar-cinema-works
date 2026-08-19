@@ -30,12 +30,12 @@ Authoritative Tamil/source records:
 | Item | Status |
 |---|---:|
 | Source songs available | 54 |
-| English translated total | 39 |
+| English translated total | 46 |
 | Pilot-verified English songs | 3 |
-| Verified English songs beyond pilot | 36 |
+| Verified English songs beyond pilot | 43 |
 | English draft | 0 |
 | English review | 0 |
-| English not started | 15 |
+| English not started | 8 |
 
 Completed English gates:
 
@@ -44,7 +44,8 @@ Completed English gates:
 - `BATCH_012_018_REVIEW.md` — `அம்மையப்பன்`, 7/7 PASS;
 - `BATCH_019_025_REVIEW.md` — songs 019–025, 7/7 PASS;
 - `BATCH_026_032_REVIEW.md` — songs 026–032, 7/7 PASS;
-- `BATCH_033_039_REVIEW.md` — songs 033–039, 7/7 PASS.
+- `BATCH_033_039_REVIEW.md` — songs 033–039, 7/7 PASS;
+- `BATCH_040_046_REVIEW.md` — songs 040–046, 7/7 PASS.
 
 Translation authorities:
 
@@ -56,6 +57,7 @@ Translation authorities:
 - `translations/BATCH_019_025_REVIEW.md`
 - `translations/BATCH_026_032_REVIEW.md`
 - `translations/BATCH_033_039_REVIEW.md`
+- `translations/BATCH_040_046_REVIEW.md`
 - `docs/SONG_TRANSLATION_GUIDE.md`
 
 ## Kalaignar-language translation rule
@@ -72,22 +74,22 @@ The English must retain Kalaignar's language rather than become generic lyric pr
 - no rhyme or singability is invented at the cost of meaning;
 - difficult source forms are documented rather than silently corrected through English.
 
-## Fifth scaled batch result — `033–039`
+## Sixth scaled batch result — `040–046`
 
 PASS — **7/7 verified**.
 
 The batch adds several demanding voice tests while retaining source shape:
 
-- `033`: triple cheek/bowl/colour/sign repetition, youth-feast, forceful bird, burning moon and the paired two-fish/two-honeys/two-deer/two-skies sequence;
-- `034`: three-person paper boat, shared sinking, ritual/public imagery, social abandonment, god absent from every temple, literal **death at six, death at a hundred**, and the final Amma/mother call;
-- `035`: **interest / principal** financial-romantic wordplay, source-joined **fruit-flower**, cheek/fruit-lip seal imagery, love putting forth shoots and throbbing `பருவம்` restrained by the heart;
-- `036`: **justice for the heart / sword for the shoulder**, Bharathi/Buddha/Gandhi/Arignar Anna rhetoric, direct anti-caste/religion language, duty/rights/humanity and corruption/mirror/blame/pillar warning across PDF 86–87;
-- `037`: **people / sceptre**, people cooking in fire, kings-on-road satire, `sirukodindha`, bungalow/sour-kaadi street-life imagery, pearl/mucus and gem reversals, `kuthuk-kallu`, and **survive by dying** across PDF 90–91;
-- `038`: direct **O Tamil**, thousand crescents, sun procession, Podhigai breeze, literature/youth/old-age duration chain and source-pressure `Ponni nadiyaan`;
-- `039`: `kurinji`, honey-waist, rock-candy/milk/sugarcane-plough imagery, `iyal / isai / koothu / Muthamizh`, three fruits, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother**.
+- `040`: **Kuramullai**, one-day embrace/Raja refrain, little-flower eyes, source-pressure `சொல்லுக்கு செய்தாயே`, **song-struck**, `vallal`, and `rammai / jinnai / naatti` left visible rather than repaired from soundtrack familiarity;
+- `041`: worker/rest elegy, mother's-lap / ground-sleep reversal, **little lion**, caste-division weapons, life taken for principle, Jesus/Buddha/Prophets/Gandhi/Periyar/Anna/Ambedkar chain, **speaking storm**, lineage-lamp and rough `da`;
+- `042`: folk `di`, sun-fire/conspiracy burning, source-pressure **eeri-malai**, clan-deity/golden-clan lion/earthquake-stage imagery, **kummi / kulavai**, `thambi`, explicit **private ownership / common ownership**, and `thumbi`;
+- `043`: campaign quotation, paired **calmly / at ease**, rise/fall/weights metaphor, worker/town-cheater contrast, vote-buying wretches, **bribe-demons**, rice-price politics, **hand for kinship / voice for rights**, `thambi`, Thenpandi lion and `udanpirappe`;
+- `044`: **khaki-shirt man**, do-what-we-said / say-only-what-we-did ethics, `mamool`, fence-grazing-crop proverb, goat/`vengai`, illicit-liquor `support` and cotton-fluff tearing imagery;
+- `045`: tears bathing the father's feet, **fingers made into eyes**, **ocean of compassion / Himalaya of patience**, and the hearts-as-flowers / garland / neck-of-fame-summit mixed metaphor;
+- `046`: tilted court balance, repeated innocent-death question, **sin with one / blame with another**, `amavasai`, predator/goat and fence/crop images, **Mother Tamilagam**, and unresolved **vaazhukku-velai / vaazhukku velai** retained without silent emendation.
 
 No verified Tamil song file was modified.
 
 ## Next activity
 
-Translate and verify **songs 040–046** using the same Kalaignar-language source-faithful rules.
+Translate and verify the **final songs 047–054** using the same Kalaignar-language source-faithful rules. Preserve full cross-page provenance for `051` (PDF 121–122) and `052` (PDF 123–124).
