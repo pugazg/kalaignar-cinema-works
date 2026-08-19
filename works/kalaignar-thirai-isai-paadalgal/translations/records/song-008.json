@@ -1,0 +1,109 @@
+{
+  "id": "kalaignar-song-en-008",
+  "song_id": "kalaignar-song-008",
+  "anthology_song_number": 8,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-008.md",
+    "tamil_status": "verified",
+    "pdf_pages": [37],
+    "tamil_title": "வருவாய் வருவாய் வைபோக",
+    "film_title_ta": "நாம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Come, come... Vaibhoga Sundariye...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "கிராமவாசிகள்",
+        "english_label": "Villagers",
+        "source_tamil_lines": [
+          "ஆஹா ஆஹா!",
+          "வருவாய் வருவாய்...",
+          "வைபோக சுந்தரியே...",
+          "சைபோக செளந்தரியே!",
+          "சைரந்திரியே... கண்ணே... வருவாய்...",
+          "கீசகன் ஆசை கொண்ட கிச்சிலிப் பழமடி நீ...",
+          "காச நோய்போல வந்த காதலுக்கு மருந்தடி நீ..."
+        ],
+        "english_lines": [
+          "Aaha, aaha!",
+          "Come, come...",
+          "Vaibhoga Sundariye...",
+          "Saibhoga Soundariye!",
+          "Sairandhri... dear one... come...",
+          "You are the kichili fruit that Kichaka desired, di...",
+          "You are the medicine, di, for love that came like consumption..."
+        ],
+        "notes": [
+          "The unusual printed forms `வைபோக`, `சைபோக`, and `சைரந்திரியே` are carried into English by transliteration rather than normalized to a familiar dramatic text.",
+          "`கிச்சிலிப் பழம்` remains `kichili fruit`, preserving the specific comic fruit image.",
+          "`காச நோய்` is rendered as `consumption`, retaining the disease-love comparison rather than softening it to lovesickness."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "ஆணழகா மம்முதா ஆசைகொண்ட கீசகா!",
+          "கீசகா! கீசகா!"
+        ],
+        "english_lines": [
+          "O handsome one, Mammudha, desire-struck Kichaka!",
+          "Kichaka! Kichaka!"
+        ],
+        "notes": [
+          "The verified Tamil prints `மம்முதா`; the English retains it as `Mammudha` rather than silently correcting it to a familiar mythological name."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "கீசகா!... டேய்...",
+          "கிறுக்குத்தனமாய் வந்து மீசையை",
+          "முறுக்கி விட்ட குரங்கே! பெரிய குரங்கே!",
+          "எட்டுத் திக்கும் நடுநடுங்க"
+        ],
+        "english_lines": [
+          "Kichaka!... Dei...",
+          "You came in madness, twirling your moustache,",
+          "You monkey! You great big monkey!",
+          "Making all eight directions tremble,"
+        ],
+        "notes": [
+          "`டேய்` is retained as `Dei` because its taunting spoken force would be lost in a polite English address.",
+          "The monkey insult and moustache-twirling mockery are kept direct."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "முரசு கொட்டும் பீமசேனனிடம்",
+          "வாலாட்டமா...?",
+          "வாலாட்டமா...?"
+        ],
+        "english_lines": [
+          "Before Bhimasena, whose drum thunders,",
+          "You wag your tail...?",
+          "You wag your tail...?"
+        ],
+        "notes": [
+          "The repeated `வாலாட்டமா...?` taunt is retained exactly as repetition, keeping the animal/mock-heroic image."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation keeps the song as a noisy village performance full of interjections, taunts, Mahabharata references, disease imagery, fruit imagery and deliberately coarse ridicule.",
+      "Source-anomalous printed forms remain visible through transliteration; translation is not used to repair the Tamil witness.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
