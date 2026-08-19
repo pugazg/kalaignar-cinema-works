@@ -1,0 +1,77 @@
+{
+  "id": "kalaignar-song-en-033",
+  "song_id": "kalaignar-song-033",
+  "anthology_song_number": 33,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-033.md",
+    "tamil_status": "verified",
+    "pdf_pages": [80],
+    "tamil_title": "கன்னம் கன்னம் கன்னம்",
+    "film_title_ta": "பூமாலை",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Cheek, cheek, cheek",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "கன்னம் கன்னம் கன்னம் - சந்தனக்",
+          "கிண்ணம் கிண்ணம் கிண்ணம் - என்",
+          "வண்ணம் வண்ணம் வண்ணம் - காதல்",
+          "சின்னம் சின்னம் சின்னம்",
+          "(கன்னம்)",
+          "வாலிப விருந்து வழங்குவேன் அருந்து",
+          "ஆயிரம் சாகசம் இருக்குது கைவசம்",
+          "வலிய வருது பறவை",
+          "வளர்க்கப் போகுது உறவை",
+          "நிலவு எரிக்குது நெருப்பாய்",
+          "நீயும் தழுவி அணைப்பாய்",
+          "(கன்னம்)",
+          "பார்வையில் மயக்கம் பாவையென் பழக்கம்",
+          "பழம்போல் மேனி பார்த்தும் ஏன் தயக்கம்",
+          "மீன் இரண்டு உருளுது - இதழ்த்",
+          "தேன் இரண்டு பெருகுது",
+          "மான் இரண்டு துள்ளுது",
+          "வான் இரண்டு அழைக்குது",
+          "(கன்னம்)"
+        ],
+        "english_lines": [
+          "Cheek, cheek, cheek — sandalwood",
+          "Bowl, bowl, bowl — my",
+          "Colour, colour, colour — love's",
+          "Sign, sign, sign,",
+          "(Cheek)",
+          "I shall serve a feast of youth — drink it,",
+          "A thousand adventures are in my hands,",
+          "The bird comes forcefully,",
+          "It is going to grow the bond,",
+          "The moon burns like fire,",
+          "You too will embrace and hold me,",
+          "(Cheek)",
+          "Dizziness in the gaze — enchantment is this maiden's habit,",
+          "Even seeing a body like fruit, why this hesitation?",
+          "Two fish are rolling — from the lips,",
+          "Two honeys are swelling,",
+          "Two deer are leaping,",
+          "Two skies are calling,",
+          "(Cheek)."
+        ],
+        "notes": [
+          "The triple repetitions `கன்னம் / கிண்ணம் / வண்ணம் / சின்னம்` are retained as repetitions rather than compressed into a polished refrain.",
+          "`வலிய வருது பறவை` is kept conservatively as `the bird comes forcefully`; the colloquial source wording is not normalized into a more conventional romantic line.",
+          "The paired `two fish / two honeys / two deer / two skies` image-chain is preserved line by line rather than decoded into body-part paraphrases."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song's erotic-romantic voice depends on repetition, colloquial verbs and a deliberately extravagant sequence of paired images; those remain source-shaped.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
