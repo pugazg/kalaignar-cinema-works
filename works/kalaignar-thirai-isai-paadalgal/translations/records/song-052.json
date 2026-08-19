@@ -1,0 +1,163 @@
+{
+  "id": "kalaignar-song-en-052",
+  "song_id": "kalaignar-song-052",
+  "anthology_song_number": 52,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-052.md",
+    "tamil_status": "verified",
+    "pdf_pages": [123, 124],
+    "tamil_title": "தங்கை என்ற பாசக்கிளி கொஞ்சி விளையாட",
+    "film_title_ta": "பாசக் கிளிகள்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Let the affection-parrot called younger sister fondle and play",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "தங்கை என்ற பாசக்கிளி கொஞ்சி விளையாட...",
+          "பொங்கும் எங்கள் நெஞ்சங்களில் புன்னகைப் பூத்தாட...",
+          "அண்ணன்மார்கள் சுற்றிநின்று ஆனந்தப் பண்பாட",
+          "குமரிப்பெண்ணின் கூந்தலுக்கு குறிஞ்சிப்பூக்கள் ஓட"
+        ],
+        "english_lines": [
+          "Let the affection-parrot called younger sister fondle and play...",
+          "Let smiles bloom and dance in our overflowing hearts...",
+          "Let elder brothers stand around and joy's panpaadu dance,",
+          "Let kurinji flowers run to the young maiden's hair."
+        ],
+        "notes": [
+          "`பாசக்கிளி` remains the concrete `affection-parrot`, and `குறிஞ்சி` remains `kurinji`.",
+          "The compact `ஆனந்தப் பண்பாட` is kept close as `joy's panpaadu`; it is not expanded into an explanatory phrase unsupported by the printed wording."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "நிலவும்தான் இவள் முன்னால் நின்றாடுமா",
+          "நிலமயில் இவள்போல அழகாகுமா",
+          "நிலவும்தான் இவள் முன்னால் நின்றாடுமா",
+          "நிலமயில் இவள்போல அழகாகுமா",
+          "ஆ... ஆ... லூ... லூ..."
+        ],
+        "english_lines": [
+          "Would even the moon stand and dance before her?",
+          "Could the land-peacock be as beautiful as she?",
+          "Would even the moon stand and dance before her?",
+          "Could the land-peacock be as beautiful as she?",
+          "Aa... aa... loo... loo..."
+        ],
+        "notes": [
+          "The repeated moon/`நிலமயில்` comparison remains repeated. `நிலமயில்` is retained conservatively as `land-peacock` rather than silently normalized."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ஆண் / குழு",
+        "english_label": "Man / Chorus",
+        "source_tamil_lines": [
+          "ஆண் : தங்கை என்ற பாசக்கிளி கொஞ்சி விளையாட",
+          "குழு : ஆட",
+          "ஆண் : பொங்கும் எங்கள் நெஞ்சங்களில் புன்னகைப் பூத்தாட...",
+          "குழு : ஆட",
+          "ஆண் : அண்ணன்மார்கள் சுற்றிநின்று ஆனந்தப் பண்பாட",
+          "குழு : ஆட...!",
+          "ஆண் : குமரிப்பெண்ணின் கூந்தலுக்கு குறிஞ்சிப்பூக்கள் ஓட",
+          "குழு : ஆட...!"
+        ],
+        "english_lines": [
+          "Man: Let the affection-parrot called younger sister fondle and play,",
+          "Chorus: Dance,",
+          "Man: Let smiles bloom and dance in our overflowing hearts...",
+          "Chorus: Dance,",
+          "Man: Let elder brothers stand around and joy's panpaadu dance,",
+          "Chorus: Dance...!",
+          "Man: Let kurinji flowers run to the young maiden's hair,",
+          "Chorus: Dance...!"
+        ],
+        "notes": [
+          "The source's repeated `ஆட` chorus responses remain individually mapped rather than being compressed into one refrain cue."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "ஆண் / மனோரமா / பெண்",
+        "english_label": "Man / Manorama / Woman",
+        "source_tamil_lines": [
+          "ஆண் : பிறந்தாய் ஒரு பிள்ளைக்கனி அமுதாய் பிறந்தாய்",
+          "ஒரு வெள்ளிப் பிறைபோல வளர்ந்தாய்",
+          "துள்ளிடும் இளமானாய் திகழ்ந்தாய்",
+          "எங்கள் வீட்டில் விளக்காக ஒளிவீசப் பிறந்தாய்",
+          "மனோரமா: கண்ணகிதான் இங்கு வந்து தங்கையானால் பாரு",
+          "பெண்ணழகி பிறந்தநாளில் நல்வாழ்த்துக் கூறு",
+          "பெண் : இருவருமே என்வாழ்வில் இமையானீரே",
+          "ஆண் : சிறந்தாய் ஒரு செம்மொழித் தமிழாய் சிறந்தாய்",
+          "செழுஞ்சுடர்கதிர்போல உயர்ந்தாய்",
+          "சிவப்பு மல்லிகைப்பூவாய் மலர்ந்தாய்",
+          "சிறந்தாய் ஒரு செம்மொழித் தமிழாய் சிறந்தாய்",
+          "செழுஞ்சுடர்கதிர்போல உயர்ந்தாய்"
+        ],
+        "english_lines": [
+          "Man: You were born — a child-fruit, born as nectar,",
+          "You grew like a silver crescent,",
+          "You shone as a leaping young deer,",
+          "You were born to shine as a lamp in our house,",
+          "Manorama: Look — as though Kannagi herself came here as a younger sister,",
+          "Wish the beautiful woman well on her birthday,",
+          "Woman: Both of you have become eyelids in my life,",
+          "Man: You excelled — excelled as Classical Tamil,",
+          "You rose like a rich radiant ray,",
+          "You blossomed as a red jasmine flower,",
+          "You excelled — excelled as Classical Tamil,",
+          "You rose like a rich radiant ray."
+        ],
+        "notes": [
+          "`பிள்ளைக்கனி`, `இளமான்`, Kannagi, `செம்மொழித் தமிழ்` and the unusual `சிவப்பு மல்லிகைப்பூ` remain concrete source images.",
+          "`இமையானீரே` is retained as `have become eyelids in my life`, preserving the source's kinship-protection metaphor."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "ஆண் / மனோரமா / பெண்",
+        "english_label": "Man / Manorama / Woman",
+        "source_tamil_lines": [
+          "சிவப்பு மல்லிகைப்பூவாய் மலர்ந்தாய்",
+          "எங்கள் வீட்டில் தங்கையாகப் பிறந்து",
+          "எங்கள் வீட்டில் தாயாய் திகழ்வாய்",
+          "எங்கள் வீட்டில் தங்கையாகப் பிறந்து",
+          "எங்கள் வீட்டில் தாயாய் திகழ்வாய்",
+          "மனோரமா: உன்னை ஒரு நல்ல வீட்டு மருமகளாய் காண",
+          "அன்னைமனம்போல் இந்த அண்ணன்மனம் ஏங்க",
+          "பெண் : அம்மா என் கண்கள் குளமாகுதே..."
+        ],
+        "english_lines": [
+          "You blossomed as a red jasmine flower,",
+          "Born as a younger sister in our house,",
+          "You will shine as a mother in our house,",
+          "Born as a younger sister in our house,",
+          "You will shine as a mother in our house,",
+          "Manorama: To see you as the daughter-in-law of a good home,",
+          "This elder-brother heart yearns like a mother's heart,",
+          "Woman: Amma, my eyes are becoming ponds..."
+        ],
+        "notes": [
+          "The younger-sister/mother repetition remains exact in structure.",
+          "`அண்ணன்மனம் / அன்னைமனம்` remains the source's elder-brother-heart / mother-heart pairing, and the final eyes-as-ponds image is kept literal."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The two-page family-celebration song preserves kinship terms, Kannagi/Tamil imagery, repeated chorus responses and the final emotional mother/elder-brother register without flattening them into generic birthday sentiment.",
+      "Full source provenance remains PDF 123–124 as one translation record.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
