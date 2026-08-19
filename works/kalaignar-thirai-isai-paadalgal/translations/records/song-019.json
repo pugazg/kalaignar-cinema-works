@@ -1,0 +1,340 @@
+{
+  "id": "kalaignar-song-en-019",
+  "song_id": "kalaignar-song-019",
+  "anthology_song_number": 19,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-019.md",
+    "tamil_status": "verified",
+    "pdf_pages": [53, 54],
+    "tamil_title": "வாங்க... வாங்க... வாங்க...",
+    "film_title_ta": "ராஜா ராணி",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Come... come... come...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "வாங்க... வாங்க... வாங்க...",
+          "எல்லோரும் இங்கே வாங்க",
+          "டிக்கெட்டு வாங்க... வாங்க...",
+          "இன்றிரவு மிக நன்றிரவு",
+          "இணையில்லாத இன்ப இரவு..."
+        ],
+        "english_lines": [
+          "Come... come... come...",
+          "Everyone, come here,",
+          "Buy a ticket... come...",
+          "Tonight is a very fine night,",
+          "A night of pleasure without equal..."
+        ],
+        "notes": [
+          "The repeated hawker-call `வாங்க` remains repetition rather than being varied for English style."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "நபர் 1",
+        "english_label": "Person 1",
+        "source_tamil_lines": ["தரை ஒண்ணு!"],
+        "english_lines": ["One floor ticket!"],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": ["அரை ரூபா!"],
+        "english_lines": ["Half a rupee!"],
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "source_tamil_lines": ["கொடு கொடு இந்தா!"],
+        "english_lines": ["Give it, give it — here!"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "தரை அரை ரூபா!-கரை படிந்த தரை அரை ரூபா",
+          "ரத்த கறை படிந்த தரை அரை ரூபா",
+          "வெற்றிலை பாக்கு கறை படிந்த தரை அரை ரூபா",
+          "(இன்றிரவு)",
+          "(இன்றிரவு)"
+        ],
+        "english_lines": [
+          "Floor, half a rupee! — the stained floor, half a rupee,",
+          "The blood-stained floor, half a rupee,",
+          "The betel-leaf-and-areca-stained floor, half a rupee,",
+          "(Tonight)",
+          "(Tonight)"
+        ],
+        "notes": [
+          "The repeated `தரை / கறை` sound-play is not replaced by an invented English rhyme; the floor/stain meanings remain explicit."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "நபர் 2",
+        "english_label": "Person 2",
+        "source_tamil_lines": ["ஏம்மா இன்னிக்கு என்னா ட்ராமா?"],
+        "english_lines": ["Hey, ma, what drama is it today?"],
+        "notes": ["The colloquial theatre-pitch register is retained."]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": ["அட வெங்கட்ராமா கம்பெனிலே நில்லு!"],
+        "english_lines": ["Hey Venkatrama, stand in the company!"],
+        "notes": ["The source wordplay around `ட்ராமா / வெங்கட்ராமா` is kept audible through the name rather than normalized away."]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "source_tamil_lines": [
+          "எப்படித் தெரியும் என் பேரு?",
+          "செப்படி வித்தை கற்றவளோ?"
+        ],
+        "english_lines": [
+          "How do you know my name?",
+          "Have you learnt sleight-of-hand magic?"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 9,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "தரை அரை ரூபா... பெஞ்சு ஒண்ணு",
+          "பேக் பெஞ்சு மூணு!..",
+          "ஏ... காலி...",
+          "காலி! காலி!...",
+          "நாற்காலி... அஞ்சு ரூபா..."
+        ],
+        "english_lines": [
+          "Floor, half a rupee... bench, one,",
+          "Back bench, three!..",
+          "Hey... kaali...",
+          "Kaali! kaali!...",
+          "Naarkaali... five rupees..."
+        ],
+        "notes": [
+          "`காலி / நாற்காலி` carries a sound-based empty/chair joke. `kaali / naarkaali` is retained rather than inventing a different English pun."
+        ]
+      },
+      {
+        "ordinal": 10,
+        "source_label": "நபர் 3",
+        "english_label": "Person 3",
+        "source_tamil_lines": ["கொஞ்ச ரூபா சொல்லு"],
+        "english_lines": ["Quote me a little less in rupees."],
+        "notes": ["The colloquial bargaining force of `கொஞ்ச ரூபா` is retained without formalizing the exchange."]
+      },
+      {
+        "ordinal": 11,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": ["ஆ!..."],
+        "english_lines": ["Ah!..."],
+        "notes": []
+      },
+      {
+        "ordinal": 12,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "source_tamil_lines": [
+          "கொஞ்ச ரூபா சொல்லம்மா... கோகில வாணி",
+          "அம்மா கோகில வாணி",
+          "அம்மா கோகில வாணி"
+        ],
+        "english_lines": [
+          "Quote a little less, ma... Kokila Vani,",
+          "Amma, Kokila Vani,",
+          "Amma, Kokila Vani."
+        ],
+        "notes": ["`கோகில வாணி` is retained as `Kokila Vani` to preserve the source's name/voice wordplay without over-resolving it."]
+      },
+      {
+        "ordinal": 13,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "வஞ்சகனே போடா... ஏடா... மூடா...",
+          "வீணே சாகாதேடா..."
+        ],
+        "english_lines": [
+          "You cheat, get lost... hey, fellow... fool...",
+          "Don't die for nothing, da..."
+        ],
+        "notes": ["The repeated rough vocative force is retained rather than polished into formal abuse."]
+      },
+      {
+        "ordinal": 14,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "source_tamil_lines": ["ஆ!"],
+        "english_lines": ["Ah!"],
+        "notes": []
+      },
+      {
+        "ordinal": 15,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "எங்க நாடகத்தில் இந்த வசனங்களை கேட்ட",
+          "கொஞ்ச ரூபாயா? அஞ்சு ரூபா தான்",
+          "அழகான நாடகம் எழிலான காட்சிகள்",
+          "அனல் வீசும் பேச்சுகள் -",
+          "ஆடல்... பாடல் ஊடல்... கூடல் எல்லாம் காண",
+          "இங்கே வாங்க... வாங்க",
+          "டிக்கெட்டு வாங்க வாங்க"
+        ],
+        "english_lines": [
+          "To hear these lines in our drama,",
+          "A few rupees? Five rupees, that's all,",
+          "A beautiful drama, lovely scenes,",
+          "Speeches that throw fire —",
+          "To see dance... song... sulking... reunion — all of it,",
+          "Come here... come,",
+          "Buy a ticket, come, come."
+        ],
+        "notes": ["`ஆடல் / பாடல் / ஊடல் / கூடல்` is kept as a four-part performance/love sequence instead of being condensed."]
+      },
+      {
+        "ordinal": 16,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "மூணு வயதுக்கு மேல் முழு சார்ஜ்",
+          "இடம்மாறி உட்கார்ந்தால் டபுள் சார்ஜ்",
+          "ட்ரெஸிங் சீனில் அடிக்கக் கூடாது டார்ச்சு",
+          "(மூணு)"
+        ],
+        "english_lines": [
+          "Above three years of age, full charge,",
+          "Change your seat and it's double charge,",
+          "In the dressing scene, don't shine a torch,",
+          "(Three)"
+        ],
+        "notes": ["English-derived ticket/theatre words remain direct, matching the comic sales patter."]
+      },
+      {
+        "ordinal": 17,
+        "source_label": "கிழவன்",
+        "english_label": "Old man",
+        "source_tamil_lines": ["ஐம்பது மூணுக்கு?"],
+        "english_lines": ["For fifty-three?"],
+        "notes": ["The compact source joke is left literal because the line does not provide enough evidence to expand its intended calculation."]
+      },
+      {
+        "ordinal": 18,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": ["ஈஸிசேர்!..."],
+        "english_lines": ["Easy chair!..."],
+        "notes": []
+      },
+      {
+        "ordinal": 19,
+        "source_label": "ஒரு பெண்",
+        "english_label": "A woman",
+        "source_tamil_lines": ["ஏம்மா! பெண்களுக்குத் தனி இடம் உண்டா?"],
+        "english_lines": ["Hey, ma! Is there a separate place for women?"],
+        "notes": []
+      },
+      {
+        "ordinal": 20,
+        "source_label": "ரா",
+        "english_label": "Raa",
+        "source_tamil_lines": [
+          "பிள்ளைகள் போட்ட எனையும் உண்டு!",
+          "பீடா சிகரெட் பாக்கு வெத்திலை",
+          "சோடா கலர் ஆரஞ்சு!"
+        ],
+        "english_lines": [
+          "There is even me, who has borne children!",
+          "Beeda, cigarette, areca nut, betel leaf,",
+          "Soda, colour, orange!"
+        ],
+        "notes": ["The exact abbreviated source label `ரா` remains unexpanded in metadata."]
+      },
+      {
+        "ordinal": 21,
+        "source_label": "குள்ளன்",
+        "english_label": "Dwarf",
+        "source_tamil_lines": ["பீரியா?"],
+        "english_lines": ["Beer-aa?"],
+        "notes": ["The sound-based misunderstanding is preserved rather than regularized."]
+      },
+      {
+        "ordinal": 22,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": [
+          "அட பீரியோ!",
+          "பீரியோ டேபிள்னா டேபிள்னா!",
+          "முட்டன்னா டாவன்னா உள்ளன்னா போய்யா",
+          "(மூணு)"
+        ],
+        "english_lines": [
+          "Hey, bureau!",
+          "Bureau — table-na, table-na!",
+          "Muttanna, daavanna, ullanna — go, ya!",
+          "(Three)"
+        ],
+        "notes": ["The passage is heavily sound-driven and colloquial; `பீரியோ`, `டேபிள்னா`, and the final chained forms are transliterated where a confident semantic expansion would amount to rewriting the source."]
+      },
+      {
+        "ordinal": 23,
+        "source_label": "நபர் 4",
+        "english_label": "Person 4",
+        "source_tamil_lines": ["ஏம்மா அரை டிக்கட் உண்டா?"],
+        "english_lines": ["Hey, ma, is there a half ticket?"],
+        "notes": []
+      },
+      {
+        "ordinal": 24,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": ["யப்பா... உமக்கு முழு டிக்கட்டும் இல்லே!"],
+        "english_lines": ["Ayya... there isn't even a full ticket for you!"],
+        "notes": []
+      },
+      {
+        "ordinal": 25,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "source_tamil_lines": ["ஏனாம்?"],
+        "english_lines": ["Why so?"],
+        "notes": []
+      },
+      {
+        "ordinal": 26,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "source_tamil_lines": ["ஹவுஸ் புல்!"],
+        "english_lines": ["House full!"],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "This two-page theatre-ticket song depends heavily on colloquial sales patter, code-mixed English-derived Tamil and sound jokes; the translation preserves those rough edges rather than replacing them with new English jokes.",
+      "PDF 53–54 provenance remains attached to the single song record.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
