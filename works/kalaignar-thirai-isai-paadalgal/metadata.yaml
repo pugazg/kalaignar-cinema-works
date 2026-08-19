@@ -96,18 +96,19 @@ translation:
   batch_review_paths:
     - "translations/BATCH_004_011_REVIEW.md"
     - "translations/BATCH_012_018_REVIEW.md"
+    - "translations/BATCH_019_025_REVIEW.md"
   songs_expected: 54
-  songs_translated: 18
+  songs_translated: 25
   songs_pilot_verified: 3
-  songs_verified: 15
+  songs_verified: 22
   songs_draft: 0
   songs_review: 0
-  songs_not_started: 36
+  songs_not_started: 29
   pilot_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018"]
-  translated_pdf_pages: [26, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50]
-  next_batch: "019-025"
-  next_action: "Translate and verify songs 019-025 using the approved Kalaignar-language source-faithful rules; preserve multi-page provenance for 019, 023 and 024."
+  verified_song_ids: ["kalaignar-song-004", "kalaignar-song-005", "kalaignar-song-006", "kalaignar-song-007", "kalaignar-song-008", "kalaignar-song-009", "kalaignar-song-010", "kalaignar-song-011", "kalaignar-song-012", "kalaignar-song-013", "kalaignar-song-014", "kalaignar-song-015", "kalaignar-song-016", "kalaignar-song-017", "kalaignar-song-018", "kalaignar-song-019", "kalaignar-song-020", "kalaignar-song-021", "kalaignar-song-022", "kalaignar-song-023", "kalaignar-song-024", "kalaignar-song-025"]
+  translated_pdf_pages: [26, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 53, 54, 55, 56, 57, 58, 59, 62, 63, 64]
+  next_batch: "026-032"
+  next_action: "Translate and verify songs 026-032 using the approved Kalaignar-language source-faithful rules."
 
 reader_export:
   status: not-started
