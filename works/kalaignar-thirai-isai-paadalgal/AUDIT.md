@@ -10,7 +10,8 @@ This audit covers:
 4. the first scaled English translation batch, songs **004–011**;
 5. the second scaled English translation batch, songs **012–018**;
 6. the third scaled English translation batch, songs **019–025**;
-7. the fourth scaled English translation batch, songs **026–032**.
+7. the fourth scaled English translation batch, songs **026–032**;
+8. the fifth scaled English translation batch, songs **033–039**.
 
 The rendered scan controls Tamil. Verified Tamil song files control the English derivative. No external recording, lyric website, subtitle, alternate edition, or soundtrack-memory reconstruction is used to repair either layer.
 
@@ -55,7 +56,7 @@ The following verified songs span more than one song-bearing page and remain one
 - schema: `translations/schema.json`;
 - index: `translations/index.json`;
 - pilot review: `translations/PILOT_REVIEW.md`;
-- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`.
+- scaled reviews: `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`, `translations/BATCH_033_039_REVIEW.md`.
 
 The approved mode is **`semantic-poetic-source-faithful`**. English must retain Kalaignar's language, rhetoric, repetition, political/social force, concrete imagery, colloquial energy and source-specific constructions. It is not a singable adaptation.
 
@@ -93,38 +94,44 @@ Detailed review: `translations/BATCH_019_025_REVIEW.md`.
 
 **PASS — 7/7 `verified`.**
 
+The batch preserved romantic image chains, `eduppu`/`pann`/`yaazh`, Tamil-address lullaby, source-split lyric forms, intoxication sound-play, martial exhortation and the anthology's own printed Thirukkural wording.
+
+Detailed review: `translations/BATCH_026_032_REVIEW.md`.
+
+## Fifth scaled gate — songs 033–039
+
+**PASS — 7/7 `verified`.**
+
 Structural checks:
 
-- verified Tamil files `song-026.md` through `song-032.md` are the only textual translation authorities;
-- every visible Tamil lyric line and refrain cue is represented in the corresponding English record;
-- exact role/performance labels remain traceable for song `030`;
-- all seven source records retain their single-page provenance: **65, 66, 67, 70, 73, 74, 77**;
-- no singer is inferred for `027`, whose verified source page prints no separate voice line;
+- verified Tamil files `song-033.md` through `song-039.md` are the only textual translation authorities;
+- every visible Tamil lyric line, refrain cue and printed turn/structural label is represented in the corresponding English record;
+- multi-page English provenance remains one-record/complete for `036` = **86–87** and `037` = **90–91**;
 - no verified Tamil file was changed;
 - no source anomaly was silently repaired through English;
-- no external recording, subtitle, web lyric, alternate edition or alternate Thirukkural witness was used.
+- no external recording, subtitle, web lyric or alternate edition was used.
 
 ### Kalaignar-language fidelity checks
 
-- `026`: sky-flower grove, honeyed moon, open-subject breeze line, jasmine creeper, overflowing dam, wave-surge, quenched fire, uncloying nectar and sweet mango-fruit remain concrete;
-- `027`: `இதழ் பறித்து` remains plucked lips; north-wind chill, intimate `di`, conservative `eduppu`, `pann` / `yaazh`, attempted embrace and lightning-like disappearance remain source-shaped;
-- `028`: **O Tamil**, lullaby vocables, golden lamp, wave-struck mother's heart, moon, cloud-seeing peacock and colloquial closing `pa` remain visible;
-- `029`: repeated `இருக்குது` architecture, price-question, net-in-eyes, the source split `பழக் / குலை` as `fruit- / cluster`, statue, waist/youth/arrow and pleasure-poem imagery remain uncompressed;
-- `030`: water/fire impossibilities, spinning world/body, `kalagam / kalayam` commotion/pot sound-play, heaven/dizziness, colloquial maiden-girl, source-unexpanded `one on the cheek`, and exact role labels remain intact;
-- `031`: repeated martial exhortations, warrior-conch, armies, head-giving, mother's honour, hill-like shoulder, enemy feet, warriors' non-flower-plucking hands, raised sword, `vengai` tiger-king and battlefield command remain explicit; `குமலைப்`, `அஞ்சுகத்தின்`, and `புறப்படடா` are documented pressure points rather than normalized forms;
-- `032`: **one woman for one man**, the anthology's own printed Thirukkural wording, life-as-boat, unforgettable Veda, youth-as-fading-costume, repeated storm warning and oarless-boat analogy remain source-led.
+- `033`: triple cheek/bowl/colour/sign repetition, youth-feast, forceful bird, burning moon and the paired **two fish / two honeys / two deer / two skies** sequence remain visible;
+- `034`: paper boat, three-person shared sinking, ritual/public image chain, social abandonment, no place for the poor, no god in any temple, literal **death at six, death at a hundred**, and final Amma/mother call remain unsoftened;
+- `035`: `வட்டி / அசல்` remains **interest / principal**, the joined source form `கனியேமலரே` remains conservative **fruit-flower**, and cheek/fruit-lip/marriage plus love-shoot/`பருவம்` imagery remain source-shaped;
+- `036`: **justice for the heart / sword for the shoulder**, Bharathi/Buddha/Gandhi/Arignar Anna rhetoric, direct caste/religion challenge, duty/rights/humanity and corruption/mirror/blame/pillar warning remain explicit across PDF 86–87;
+- `037`: **people / sceptre**, people cooking in burning fire, kings on the road, `sirukodindha`, bungalow/sour-kaadi street-life satire, pearl/mucus and gem reversals, `kuthuk-kallu`, and **survive by dying** remain explicit across PDF 90–91;
+- `038`: direct **O Tamil**, thousand crescents, wave-sea, sun procession, Podhigai breeze, literature/youth/old-age duration chain and source-pressure `Ponni nadiyaan` remain visible;
+- `039`: `kurinji`, honey-waist, rock-candy/milk/sugarcane-plough imagery, `iyal / isai / koothu / Muthamizh`, three fruits, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother** remain culturally audible.
 
-Detailed review: `translations/BATCH_026_032_REVIEW.md`.
+Detailed review: `translations/BATCH_033_039_REVIEW.md`.
 
 ## Current gate result
 
 - Tamil transcription: **complete-verified — 54/54**;
 - Tamil fidelity audit: **complete**;
-- English translated: **32/54**;
+- English translated: **39/54**;
 - English pilot-verified: **3** (`001–003`);
-- English verified: **29** (`004–032`);
+- English verified: **36** (`004–039`);
 - English draft/review: **0/0**;
-- English not started: **22** (`033–054`);
+- English not started: **15** (`040–054`);
 - reader/export: **not started**.
 
-Next translation batch: **033–039**, using the approved Kalaignar-language source-faithful rules and preserving cross-page provenance for songs `036` and `037`.
+Next translation batch: **040–046**, using the approved Kalaignar-language source-faithful rules.
