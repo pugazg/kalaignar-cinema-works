@@ -1,0 +1,104 @@
+{
+  "id": "kalaignar-song-en-053",
+  "song_id": "kalaignar-song-053",
+  "anthology_song_number": 53,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-053.md",
+    "tamil_status": "verified",
+    "pdf_pages": [127],
+    "tamil_title": "அலை யெல்லாம் நடனம் ஆடும்",
+    "film_title_ta": "உளியின் ஓசை",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Every wave dances",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "அலை யெல்லாம் நடனம் ஆடும்; தமிழர்",
+          "கலை யெல்லாம் தமது பண்பைப் பாடும்.",
+          "காடுகளில் ஓடி விளையாடுகின்ற",
+          "பீடு மிகு மானினமும்,"
+        ],
+        "english_lines": [
+          "Every wave dances; the Tamil people's,",
+          "Every art sings its own culture.",
+          "Running and playing in the forests,",
+          "The deer-kind, rich in dignity,"
+        ],
+        "notes": [
+          "The source spacing `அலை யெல்லாம் / கலை யெல்லாம்` and the line break after `தமிழர்` are reflected rather than recomposed into smoother prose.",
+          "`பீடு மிகு மானினம்` remains `deer-kind, rich in dignity`, keeping the collective image."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "பாடும் இசை",
+          "ஜோடிக் குயில்",
+          "தாளமொடு",
+          "பாவ மிடு",
+          "கான மயில்",
+          "புள்ளினமும்",
+          "பட்டுக்கொடி,",
+          "கொற்றக் குடை"
+        ],
+        "english_lines": [
+          "Singing music,",
+          "Paired cuckoo,",
+          "With rhythm,",
+          "Set bhava,",
+          "Forest peacock,",
+          "Bird-kind too,",
+          "Silk flag,",
+          "Victory parasol."
+        ],
+        "notes": [
+          "The source's unusually segmented short-line architecture is retained line by line.",
+          "`பாவ மிடு` is kept as the performance term `set bhava` rather than silently joining or correcting the printed form."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "சுற்றிச் சுழல்",
+          "வெற்றித் திரு",
+          "முத்துத் தமிழ்",
+          "கற்றுச் சுடர்",
+          "பெற்றுக் குலச்",
+          "சோழ தேசப்",
+          "புகழ் பாடத்",
+          "தொழுதிடுவோம்"
+        ],
+        "english_lines": [
+          "Circle and whirl,",
+          "Sacred victory,",
+          "Pearl-Tamil,",
+          "Learned radiance,",
+          "Having received — clan,",
+          "Chola land's,",
+          "Fame to sing,",
+          "Let us bow in worship."
+        ],
+        "notes": [
+          "The final eight lines are intentionally not recombined into a syntactically polished stanza; the verified source itself is highly segmented.",
+          "`முத்துத் தமிழ்` remains `Pearl-Tamil`, and the Chola-land praise remains explicit."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "Structural fidelity is especially important here: the printed lyric works through clipped, cumulative performance-images, so the English preserves the short-line segmentation even where the result is syntactically rough.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
