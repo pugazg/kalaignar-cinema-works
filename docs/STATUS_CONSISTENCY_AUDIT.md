@@ -19,7 +19,7 @@ The central synchronization target is `data/works.json`. Work-specific metadata 
 
 **PASS — repository status registry synchronized for all four works.**
 
-The three screenplay works remain at their previously completed checkpoints. The new film-song anthology has now closed its Tamil transcription/fidelity gate at **54/54 complete-verified**.
+The three screenplay works remain at their completed checkpoints. The film-song anthology has closed its Tamil transcription/fidelity gate at **54/54 complete-verified** and has now opened its English derivative with a **3-song pilot-verified checkpoint**.
 
 ## Cross-work status matrix
 
@@ -32,36 +32,34 @@ The three screenplay works remain at their previously completed checkpoints. The
 | Dialogue index | 642 records, complete-verified | 1,040 records, complete | 983 records, complete-verified | not applicable |
 | Character/entity layer | complete-verified | complete | complete-verified with one unresolved source label | not applicable |
 | Song/performance layer | 14/14 authorship verified | 3 verified / 5 unresolved | 1 verified / 1 review / 4 unresolved | 54/54 anthology-attributed lyric records verified |
-| English translation | 769 verified units | 1,321 verified units | 1,190 verified units | not started; unblocked |
+| English translation | 769 verified units | 1,321 verified units | 1,190 verified units | pilot-verified, 3/54 songs |
 | English reader/export | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS | not started |
 | EPUB | not required | complete-verified, QA PASS | not required | not started/not required yet |
 | Required Tamil/source work remaining | none | none | none | none |
 
 ## Film-song anthology reconciliation
 
-The supplied `கலைஞர் திரை இசைப் பாடல்கள்` anthology follows a PDF-specific page-driven rule: only actual numbered lyric pages or direct continuations create/process lyric files. The complete PDF classification is **194/194 pages scanned, 62 song-bearing pages, 132 ignored pages, 54 numbered songs**.
+The supplied `கலைஞர் திரை இசைப் பாடல்கள்` anthology follows a PDF-specific page-driven Tamil rule: only actual numbered lyric pages or direct continuations create/process lyric files. The complete PDF classification is **194/194 pages scanned, 62 song-bearing pages, 132 ignored pages, 54 numbered songs**.
 
-The final formerly not-started batch completed songs `026–054`. The last Tamil fidelity gate then reinspected the three original pilot drafts only:
-
-- PDF 26 → song `001`;
-- PDF 29 → song `002`;
-- PDF 30 → song `003`.
-
-Final dispositions:
-
-- song `001`: corrected pilot `அறியாண்டி` to source-visible `அறியான்டி`; confirmed `வேணசெல்வம்`, `பெண்ணி`, and `ஏழைக்கிக்`;
-- song `002`: direct visual recheck required no lyric correction;
-- song `003`: resolved the two pilot uncertainty markers directly from the scan as `வந்தேன் தவழ்ந்தாய்?` and `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!`.
-
-The anthology status is now:
+Tamil status:
 
 - song inventory: **54/54 complete-verified**;
 - Tamil transcription: **54 verified / 0 draft / 0 review / 0 not-started**;
 - Tamil fidelity audit: **complete**;
-- unresolved Tamil song readings: **0**;
-- English translation: **not started, now unblocked**.
+- unresolved Tamil song readings: **0**.
 
-Default attribution remains `anthology-attributed`: verification here means fidelity to what the 2024 anthology prints, not automatic original-film primary-source authorship verification.
+The English layer is separately source-linked and now has:
+
+- guide: `docs/SONG_TRANSLATION_GUIDE.md`;
+- schema/index: `works/kalaignar-thirai-isai-paadalgal/translations/schema.json` and `translations/index.json`;
+- pilot review: `works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md`;
+- pilot-verified songs: **001–003**;
+- English not started: **51 songs**;
+- approved mode: **`semantic-poetic-source-faithful`**.
+
+The pilot explicitly retains Kalaignar's language instead of smoothing it into generic lyric English: rustic/political satire in `001`, image-dense romantic language in `002`, and maternal/class lament in `003`. Repetition, concrete images, rhetorical questions, colloquial force and source anomalies remain visible/documented.
+
+Default attribution remains `anthology-attributed`: English translation verification does not convert the 2024 anthology's attribution into automatic original-film primary-source verification.
 
 ## Existing screenplay works
 
@@ -101,6 +99,6 @@ The cropped lower printer-imprint continuation on PDF 2 remains an intentional u
 
 No required Tamil/source transcription or fidelity work remains for any of the four current works.
 
-For the anthology, the next repository-internal activity is optional-but-ready derivative work: define and review a source-linked English translation pilot before scaling to all 54 songs.
+For the anthology, the next repository-internal activity is **English songs 004–011 (`நாம்`)**, using the approved source-faithful Kalaignar-language pilot rules.
 
 Reading Room integration remains a separate downstream publication activity and is outside this repository-only audit unless explicitly requested.
