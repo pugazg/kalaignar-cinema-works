@@ -20,6 +20,7 @@ For every newly supplied Kalaignar cinema source, use these project-level docume
 
 - `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` — the detailed mature workflow from source intake through Reading Room integration;
 - `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md` — additional rules for compiled film-song/lyric anthologies;
+- `docs/SONG_TRANSLATION_GUIDE.md` — source-faithful English rules for retaining Kalaignar's language in song translation;
 - `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` — project-level handover, reference implementations and lessons learned;
 - `docs/START_NEW_CINEMA_WORK_PROMPT.md` — copy-paste prompt for starting a new work safely;
 - `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, and `docs/TRANSCRIPTION_GUIDE.md` — baseline source/transcription rules.
@@ -47,16 +48,18 @@ The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadal
 - Tamil fidelity audit: **complete — 0 draft / 0 review / 0 unresolved Tamil readings**;
 - latest Tamil gate review: `works/kalaignar-thirai-isai-paadalgal/notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
-- English translation: **not-started, now unblocked**;
+- English translation: **pilot-verified — 3/54 (`001–003`)**;
+- English mode: **`semantic-poetic-source-faithful`**, retaining Kalaignar's language rather than producing a singable rewrite;
+- English pilot review: `works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md`;
 - reader/export: **not-started**.
 
-The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered song files are now visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
+The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered Tamil song files are visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
 
-The final pilot-draft recheck inspected only PDF **26, 29 and 30**. Song `001` was corrected from pilot `அறியாண்டி` to source-visible `அறியான்டி`, while the unusual `வேணசெல்வம்`, `பெண்ணி`, and `ஏழைக்கிக்` forms were confirmed. Song `002` required no lyric correction. Song `003` had its two uncertainty markers resolved directly from the scan as `வந்தேன் தவழ்ந்தாய்?` and `பாழான எந்தன் வயிற்றில் பிறந்தாய் ராஜா!`.
+The English pilot uses songs `001–003` to establish the translation voice across rustic political/social satire, romantic metaphor and maternal/class lament. It deliberately retains source images and rhetorical force such as **buffalo calf**, **sugarcane-Tamil**, **flower where dew sleeps**, **magnetic statue**, **live like honey**, repeated **Why were you born?**, and the poor-versus-grandee contrast. Difficult verified Tamil forms are documented rather than silently repaired through English.
 
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** define and review a source-linked English translation pilot from the verified Tamil song files before scaling to all 54 songs.
+**Next:** translate and verify songs **004–011**, the complete `நாம்` group, using the approved Kalaignar-language pilot rules.
 
 ## மனோகரா status
 
