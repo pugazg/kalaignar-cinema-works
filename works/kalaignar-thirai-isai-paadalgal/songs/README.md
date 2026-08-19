@@ -43,14 +43,14 @@ The Tamil corpus is therefore **54/54 complete-verified** and must be treated as
 English translation lives separately under `../translations/`:
 
 - status: **in progress**;
-- translated: **39/54**;
+- translated: **46/54**;
 - pilot-verified: **001–003**;
-- verified: **004–039**;
+- verified: **004–046**;
 - draft/review: **0/0**;
-- not started: **040–054 — 15 songs**;
+- not started: **047–054 — 8 songs**;
 - mode: **`semantic-poetic-source-faithful`**;
 - governing guide: `../../../docs/SONG_TRANSLATION_GUIDE.md`;
-- scaled reviews: `../translations/BATCH_004_011_REVIEW.md`, `../translations/BATCH_012_018_REVIEW.md`, `../translations/BATCH_019_025_REVIEW.md`, `../translations/BATCH_026_032_REVIEW.md`, `../translations/BATCH_033_039_REVIEW.md`;
-- next English batch: **040–046**.
+- scaled reviews: `../translations/BATCH_004_011_REVIEW.md`, `../translations/BATCH_012_018_REVIEW.md`, `../translations/BATCH_019_025_REVIEW.md`, `../translations/BATCH_026_032_REVIEW.md`, `../translations/BATCH_033_039_REVIEW.md`, `../translations/BATCH_040_046_REVIEW.md`;
+- next English batch: **047–054**.
 
-The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability. Multi-page English records `036` (PDF 86–87) and `037` (PDF 90–91) now retain their complete source-page provenance alongside the earlier cross-page records.
+The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability. Existing multi-page English records retain complete source-page provenance; the final batch must preserve `051` (PDF 121–122) and `052` (PDF 123–124) in the same way.
