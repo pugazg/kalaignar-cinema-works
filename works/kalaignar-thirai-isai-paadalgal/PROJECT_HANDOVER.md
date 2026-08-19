@@ -26,28 +26,28 @@ The full PDF was already visually classified: **62 song-bearing / 132 ignored pa
 ## Current checkpoint
 
 - draft: `001–003` — **3**;
-- verified: `004–024` — **21**;
+- verified: `004–025` — **22**;
 - review: **0**;
-- not started: `025–054` — **30**.
+- not started: `026–054` — **29**.
 
-Latest review: `notes/PAGE_BATCH_062_063_REVIEW.md`.
+Latest review: `notes/PAGE_BATCH_064_REVIEW.md`.
 
 Latest verified page run:
 
-- PDF 62–63 → song 024.
+- PDF 64 → song 025.
 
-Safeguards for song 024:
+Safeguards for song 025:
 
-- one cross-page record across PDF 62–63;
+- one single-page record from PDF/printed 64;
 - music `டி.ஆர்.பாப்பா`;
-- voice `சி.எஸ்.ஜெயராமன்`;
-- retain `(பொதுநலம்)` cues;
-- preserve source forms including `மிகபுனிதமான`, `நம்நாடு`, `நந்நாடு`, `மனிதனுக்குயிர்`, `திருவோடேந்தும்`, `நடைபிணத்துக்குயிர்`, and `கடமைகளுக்கொளி`;
-- do not normalize source hyphenation.
+- voice `டி.வி. ரத்னம்`;
+- retain the repeated `மாயக்காரா`, `ஜாலக்காரா`, `பகவானே` wording and parenthesized refrain;
+- preserve source hyphenation and source-visible forms including `ஆடவாராய்`, `காணக்கிடைக்கா`, `தேனுறும்`, and `வேலைப் பழிக்கும்`;
+- do not normalize from soundtrack familiarity or import absent verses.
 
 ## Exact next activity
 
-Process **PDF 64 → song 025**, then continue strictly by the page whitelist.
+Process **PDF 65 → song 026**, then continue strictly by the page whitelist.
 
 Do not begin English translation until the relevant Tamil song is verified.
 
