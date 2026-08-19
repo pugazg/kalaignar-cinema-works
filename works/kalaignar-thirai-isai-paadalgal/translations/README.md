@@ -32,19 +32,20 @@ The default translation mode is `semantic-poetic-source-faithful`. This is **not
 - `records/song-001.json` etc. — source-linked English records;
 - `PILOT_REVIEW.md` — approved pilot voice and structural decisions;
 - `BATCH_004_011_REVIEW.md` — scaled review for the complete `நாம்` group;
-- `BATCH_012_018_REVIEW.md` — scaled review for the complete `அம்மையப்பன்` group.
+- `BATCH_012_018_REVIEW.md` — scaled review for the complete `அம்மையப்பன்` group;
+- `BATCH_019_025_REVIEW.md` — scaled review covering the theatre/comic/social `ராஜா ராணி` material and the first two `ரங்கோன் ராதா` songs.
 
 Each record preserves anthology song number, exact source-song path, source PDF page(s), film title, attribution status, exact Tamil section/turn labels, Tamil lines alongside English lines, and translator notes for source-specific wording.
 
 ## Current checkpoint
 
 - source Tamil songs: **54/54 complete-verified**;
-- English translated: **18/54**;
+- English translated: **25/54**;
 - pilot-verified: **3** (`001–003`);
-- verified: **15** (`004–018`);
+- verified: **22** (`004–025`);
 - draft: **0**;
 - review: **0**;
-- not started: **36** (`019–054`).
+- not started: **29** (`026–054`).
 
 ### Approved pilot — songs 001–003
 
@@ -58,22 +59,28 @@ See `BATCH_004_011_REVIEW.md`.
 
 ### Second scaled batch — songs 012–018 (`அம்மையப்பன்`)
 
+PASS — **7/7 verified**. It extends the same policy through devotional paradox, child-address, romantic duet/reprise, Tamil/Kaveri/Dravida image density, grief architecture and love-lament imagery.
+
+See `BATCH_012_018_REVIEW.md`.
+
+### Third scaled batch — songs 019–025
+
 PASS — **7/7 verified**.
 
 Key retained source forces include:
 
-- `012`: Ammaiyappa/Aiyan devotional address, paired opposites, honey/poison and fire/water paradoxes, king-to-`aandis` hierarchy, palanquin bearers/riders, toad-in-stone, sesame-oil and snake-fang venom;
-- `013`: repeated **paappa**, blue sea, silver sand, sandalwood parrot, peacock, nectar-dove and repeated `sway`;
-- `014`: realm of love, `come running`, cloud/grove-plumage, great gem, maiden dancing in the eyes, boundary of bliss, heart-veena and moon-of-love variation;
-- `015`: deliberate sorrow-reprise of `014`, song drifting on the breeze, honey-rain and the source's unassigned `lap`;
-- `016`: agal-lamp, sugarcane/rock-candy/fruit-nectar, red paddy, refined Tamil, Kaveri, casket of the learned, Dravida, and the difficult `நீ... இராவிடம் இருள் சூழும் / என்ற நிலை தந்த` wording preserved as an explicit source pressure point;
-- `017`: living portrait, epic of flavour, flame, storm/flower-garden, fallen divine statue and empty temple;
-- `018`: love-dove, tender-shoot body, repeated `come`, deer-skinned tiger, mango-cuckoo, sorrow-darkness, sleeping moon-maiden and love/deception reversal.
+- `019`: theatre-ticket hawker speech, floor/stain wordplay, `ட்ராமா / வெங்கட்ராமா`, `kaali / naarkaali`, dance/song/sulking/reunion sequence, full/double charge, dressing-scene torch, `Beer-aa? / bureau` sound-play and source-driven colloquial fragments;
+- `020`: unemployment vanishing like morning dew, unexpected prosperity, strangers becoming kin and `seemaatti` mistaken-rank humour;
+- `021`: ocean-girdled world, rooster-crowing/pecking, chastity, end-age catastrophe, `thaazhi` vessel and **grammar of chastity**;
+- `022`: jewel-dove, heart leaping toward the beloved, flower-spreading bed, `Poomaane`, rose enclosure/jasmine garden and Raja/Rani intimacy;
+- `023`: preserved song/dialogue alternation, cat/world and curtain/moon ridicule, Harishchandra sarcasm, `bundled sugarcane`, card-deck queen and source-spelled Clavar/Daiman/Ispade suit language;
+- `024`: **body of fame**, collective sacrifice, body-as-cage, walking corpse, pandaaram/paradesi/Govinda, temple of knowledge, working comrade and extended public-welfare-as-medicine metaphor;
+- `025`: Ayarpadi Kanna, Mayakkara/Jaalakkara/Bhagavane, Bhama, love as burning embers, sky-racing-lightning waist, honey-seeping cheek and spear-shaming eyes.
 
-See `BATCH_012_018_REVIEW.md`.
+Multi-page provenance remains complete for `019` (PDF 53–54), `023` (58–59) and `024` (62–63).
 
-No verified Tamil song file was changed by either scaled English batch.
+No verified Tamil song file was changed by any English batch.
 
 ## Next batch
 
-Translate and verify songs **019–025** under the same source-faithful Kalaignar-language rules. Preserve multi-page provenance for `019`, `023` and `024`; the verified Tamil corpus remains immutable translation input.
+Translate and verify songs **026–032** under the same source-faithful Kalaignar-language rules. The verified Tamil corpus remains immutable translation input.
