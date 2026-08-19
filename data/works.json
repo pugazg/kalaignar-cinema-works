@@ -297,9 +297,19 @@
     "unresolved_tamil_song_readings": 0,
     "latest_verified_batch_review": "works/kalaignar-thirai-isai-paadalgal/notes/FINAL_DRAFT_001_003_REVIEW.md",
     "default_attribution_status": "anthology-attributed",
-    "english_translation": "not-started",
-    "english_translation_readiness": "ready-after-tamil-fidelity-gate",
+    "english_translation": "pilot-verified",
+    "english_translation_mode": "semantic-poetic-source-faithful",
+    "english_translation_guide": "docs/SONG_TRANSLATION_GUIDE.md",
+    "english_translation_schema_path": "works/kalaignar-thirai-isai-paadalgal/translations/schema.json",
+    "english_translation_index_path": "works/kalaignar-thirai-isai-paadalgal/translations/index.json",
+    "english_translation_pilot_review_path": "works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md",
+    "english_translation_pilot_verified_files": 3,
+    "english_translation_verified_files": 0,
+    "english_translation_draft_files": 0,
+    "english_translation_review_files": 0,
+    "english_translation_not_started_files": 51,
+    "english_translation_pilot_song_ids": ["kalaignar-song-001","kalaignar-song-002","kalaignar-song-003"],
     "reader_export": "not-started",
-    "next_action": "Define and review a source-linked English translation pilot from the verified Tamil song files before scaling to all 54 songs."
+    "next_action": "Translate and verify songs 004-011 using the approved Kalaignar-language source-faithful pilot rules."
   }
 ]
