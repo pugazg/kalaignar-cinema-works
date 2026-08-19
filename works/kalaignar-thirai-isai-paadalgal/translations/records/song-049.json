@@ -1,0 +1,117 @@
+{
+  "id": "kalaignar-song-en-049",
+  "song_id": "kalaignar-song-049",
+  "anthology_song_number": 49,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-049.md",
+    "tamil_status": "verified",
+    "pdf_pages": [117],
+    "tamil_title": "என் இரு விழி மழைதனை காணாதே",
+    "film_title_ta": "கண்ணம்மா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Do not look at the rain of my two eyes",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "என் இரு விழி மழைதனை காணாதே",
+          "என் இதயம் மகிழ்வதை காண்பீரே",
+          "போர்வாள் ஏந்தி என் மகன் பொன்முடி",
+          "புல்லரை வீழ்த்தி உயிர்துறந்தான்",
+          "புல்லரை வீழ்த்தி உயிர் துறந்தான்",
+          "(என் இரு விழி)"
+        ],
+        "english_lines": [
+          "Do not look at the rain of my two eyes,",
+          "Look instead at my heart rejoicing,",
+          "My son Ponmudi, bearing the battle-sword,",
+          "Struck down the base men and gave up his life,",
+          "Struck down the base men and gave up his life,",
+          "(My two eyes)."
+        ],
+        "notes": [
+          "The source's two differently spaced `உயிர்துறந்தான் / உயிர் துறந்தான்` lines remain two repeated English lines rather than being collapsed.",
+          "The mother holds grief and pride together; the English does not turn the opening into a purely mournful elegy."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "காதலுக்கு தடைசொல்லக் கூடாதென்று - ஒரு",
+          "கட்டழகுப் பெட்டகத்தை துணைசேர்த்த - அவன்",
+          "கருத்துக்கு ஏற்றவொரு கன்னி இளமானை",
+          "களம் சென்று திரும்பியபின் மணமுடிக்க காத்திருந்தேன்"
+        ],
+        "english_lines": [
+          "Saying love must not be forbidden — I joined to him,",
+          "A casket of sculpted beauty as his companion —",
+          "A maiden young-deer suited to his thought,",
+          "I waited to marry them after he returned from the field."
+        ],
+        "notes": [
+          "`கட்டழகுப் பெட்டகம்` remains a concrete `casket of sculpted beauty`, and `கன்னி இளமானை` remains `maiden young-deer`; the images are not generalized into `beautiful bride`."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "அவனோ களிறுகளை பந்தாடி",
+          "புரவிகளை பஞ்சாக்கி",
+          "கயவர்களின் வாள்முனையை நெஞ்சில் தாங்கி",
+          "காதலியை தவிக்கவிட்டு காலத்தை நகர்த்துகின்ற",
+          "இந்தக் கிழவியையும் கண்ணீரில் மிதக்கவிட்டு",
+          "கடமையினை முடித்து விட்டான்"
+        ],
+        "english_lines": [
+          "But he played ball with the tuskers,",
+          "Turned the steeds to cotton,",
+          "Bore the sword-points of the vile upon his chest,",
+          "Leaving his beloved to suffer as time moves on,",
+          "Leaving this old woman too floating in tears,",
+          "He finished his duty."
+        ],
+        "notes": [
+          "`களிறுகளை பந்தாடி` remains the violent `played ball with the tuskers` image.",
+          "The verified `புரவிகளை பஞ்சாக்கி` is translated conservatively as `turned the steeds to cotton`; it is not silently replaced with a familiar martial cliché."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "களிப்பொரு பக்கம் கண்ணில் நீர் ஒரு பக்கம்",
+          "களப்புகழ் பெற்ற மகனை வாழ்த்துகின்றேன்",
+          "கருவில் சுமந்த தாயல்லவோ",
+          "அதனால் வாடுகிறேன்",
+          "(என் இரு விழி)"
+        ],
+        "english_lines": [
+          "Joy on one side, water in the eye on one side,",
+          "I praise the son who won fame on the battlefield,",
+          "Am I not the mother who bore him in the womb?",
+          "That is why I wither,",
+          "(My two eyes)."
+        ],
+        "notes": [
+          "`களப்புகழ்` remains battlefield fame, and the final womb/mother line keeps the song's simultaneous public pride and private grief."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The song's mother-warrior voice is retained without sentimental smoothing: pride, battlefield violence, the planned marriage, the abandoned lover and maternal grief remain in the same rhetorical frame.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
