@@ -6,7 +6,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[5]
+ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "kalaignar-thirai-isai-paadalgal"
 INTEGRATION = WORK / "integrations" / "reading-room"
 WORK_ID = "kalaignar-thirai-isai-paadalgal"
@@ -56,7 +56,6 @@ def replace_section(path: Path, start: str, end: str | None, new_section: str) -
     path.write_text(text[:start_pos] + replacement + text[end_pos:], encoding="utf-8")
 
 
-# Central machine registry.
 registry_path = ROOT / "data" / "works.json"
 registry = json.loads(registry_path.read_text(encoding="utf-8"))
 entry = next((item for item in registry if item.get("id") == WORK_ID), None)
@@ -80,7 +79,6 @@ entry.update({
 })
 registry_path.write_text(json.dumps(registry, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
-# Work metadata: insert/replace a dedicated downstream integration block.
 metadata_path = WORK / "metadata.yaml"
 metadata_text = metadata_path.read_text(encoding="utf-8")
 block_start = "reading_room_integration:\n"
@@ -122,7 +120,6 @@ else:
     metadata_text = metadata_text.replace(marker, marker + "  reading_room_payload: complete-verified\n", 1)
 metadata_path.write_text(metadata_text, encoding="utf-8")
 
-# Progress.
 progress = WORK / "PROGRESS.md"
 replace_section(progress, "## Next activity", None, f'''## Reading Room integration payload
 
@@ -149,7 +146,6 @@ The public-site implementation itself remains **not applied**; this repository h
 
 Apply the complete-verified payload in the separate Kalaignar Digital Library / Reading Room implementation repository **only when that repository is explicitly authorized for modification**. No Tamil, translation, reader/export or integration-payload text should be rewritten for UI convenience.''')
 
-# Audit.
 audit = WORK / "AUDIT.md"
 replace_section(audit, "## Next activity", None, f'''## Reading Room integration payload gate
 
@@ -165,7 +161,6 @@ The downstream public-site repository has not been modified by this gate.
 
 Actual Reading Room site application is the only remaining downstream action. It requires explicit authorization for the separate implementation repository. The archive and integration payload must remain immutable inputs to that UI work.''')
 
-# Work README.
 work_readme = WORK / "README.md"
 replace_section(work_readme, "## Next activity", None, f'''## Reading Room integration payload
 
@@ -179,7 +174,6 @@ The payload is intended for structured-data consumption by the Kalaignar Digital
 
 The public Reading Room implementation itself remains `not-applied`. Apply this payload in the separate implementation repository only when that repository is explicitly authorized for modification.''')
 
-# Handover.
 handover = WORK / "PROJECT_HANDOVER.md"
 replace_section(handover, "## Exact next activity", "## Repository boundary", f'''## Reading Room integration payload checkpoint
 
@@ -203,7 +197,6 @@ The payload uses film-first navigation (23 anthology film sections) with antholo
 
 Apply the verified `integrations/reading-room/reading-room.json` payload in the separate Kalaignar Digital Library / Reading Room implementation repository only after that repository is explicitly authorized for modification. Preserve the source-faithful Tamil/English strings exactly; UI routing, cards, filters, search indexes and language switching remain presentation metadata.''')
 
-# Root README.
 root_readme = ROOT / "README.md"
 replace_idempotent(
     root_readme,
@@ -216,7 +209,6 @@ replace_idempotent(
     "**Next:** apply the verified Reading Room payload in the separate implementation repository only when that repository is explicitly authorized for modification."
 )
 
-# Repository status consistency audit.
 status_audit = ROOT / "docs" / "STATUS_CONSISTENCY_AUDIT.md"
 replace_idempotent(
     status_audit,
