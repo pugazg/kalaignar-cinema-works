@@ -7,66 +7,68 @@ This is a **song anthology work**, not a screenplay/dialogue-booklet work.
 ## Source checkpoint
 
 - source filename: `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`;
-- archive identifier: `TVA_BOK_0065867`;
 - physical PDF pages: **194**;
 - source SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
 - printed title: **`கலைஞர் திரை இசைப் பாடல்கள்`**;
 - compiler: **`நெல்லை ஜெயந்தா`**;
 - First Edition: **June 2024**;
-- printed `No of pages`: **192**;
 - ISBN: **978-81-961205-2-8**;
 - publisher: **தமிழ்நாடு இயல் இசை நாடக மன்றம்**.
 
 The rendered scan controls. OCR is navigation only.
 
-## New PDF-specific page rule
+## PDF-specific page rule
 
-The user has explicitly changed the operating method **for this PDF only**:
+This rule applies **only to this PDF**:
 
-> Scan the page. If it contains a song, create/process the song file. Otherwise ignore it.
+1. inspect the rendered page;
+2. if it contains an actual numbered lyric body, or directly continues one, create/process that song file;
+3. otherwise ignore the page for lyric-file work;
+4. never create a lyric file from a title list, film metadata, prose mention, photograph, history/biography, bibliography, notes or back matter;
+5. never import missing lyrics from elsewhere.
 
-The entire **194-page PDF has now been visually scanned first**, before further lyric work.
+The full **194-page PDF has already been visually scanned**.
 
-For this work, a page counts as song-bearing only when it contains an actual numbered lyric body or directly continues one. A song title in a list, prose mention, film metadata, photograph, contents page, historical/biographical page, bibliography or back matter does not qualify.
-
-### Full scan result
-
-- pages scanned: **194/194**;
 - song-bearing pages: **62**;
 - ignored pages: **132**;
 - numbered songs represented: **54 (`001–054`)**;
 - final song-bearing page: **PDF 130**.
 
-Song-bearing page whitelist:
+Song-bearing whitelist:
 
 `26, 29–30, 33–41, 44–50, 53–59, 62–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`
 
-Authoritative documents:
+Authoritative scan documents:
 
-- `notes/FULL_PDF_SONG_PAGE_SCAN.md` — human-readable full scan ledger;
-- `songs/page-map.json` — machine-readable song number → PDF page map.
-
-The older film-section map remains descriptive metadata only. It no longer decides what gets processed.
+- `notes/FULL_PDF_SONG_PAGE_SCAN.md`
+- `songs/page-map.json`
 
 ## Current lyric status
 
 - song locations mapped: **54/54**;
 - draft lyric records: **3** (`001–003`);
-- verified lyric records: **8** (`004–011`);
+- verified lyric records: **15** (`004–018`);
 - review: **0**;
-- not started: **43** (`012–054`);
+- not started: **36** (`019–054`);
 - English translation: **not started**;
 - reader/export: **not started**.
 
-Songs 004–011 were visually verified from their actual lyric pages PDF 33–41. Song 009 is a two-page lyric across PDF 38–39.
+Verified song-bearing pages now cover:
+
+- PDF **33–41** → songs `004–011`;
+- PDF **44–50** → songs `012–018`.
+
+Latest review: `notes/PAGE_BATCH_044_050_REVIEW.md`.
+
+For PDF 44–50, all seven pages print music `டி.ஆர்.பாப்பா`; none prints a separate `குரல்` line, so no singer identity was inferred. Source role labels, refrain cues, ellipses and unusual spellings remain source-shaped.
 
 The first three records remain draft pending their dedicated fidelity pass.
 
 ## Important exclusions
 
 - PDF 25's prose mention of `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` does **not** generate a song file because the lyric body is absent.
-- Metadata/list pages such as PDF 27–28, 31–32 and 42–43 are ignored for lyric-file creation.
-- PDF 131–194 contains no numbered lyric sheet and is ignored under this workflow.
+- PDF 42–43 and PDF 51–52 are non-song pages under the full scan and are skipped for lyric-file work.
+- PDF 131–194 contains no numbered lyric sheet.
 
 ## Attribution rule
 
@@ -75,18 +77,17 @@ This 2024 anthology controls what this edition prints and attributes. Default at
 ## Key documents
 
 - `metadata.yaml`
-- `mapping.md`
 - `PROGRESS.md`
 - `AUDIT.md`
 - `PROJECT_HANDOVER.md`
 - `notes/FULL_PDF_SONG_PAGE_SCAN.md`
-- `notes/BATCH_004_011_REVIEW.md`
+- `notes/PAGE_BATCH_044_050_REVIEW.md`
 - `songs/README.md`
 - `songs/page-map.json`
 - `songs/index.json`
 
 ## Exact next activity
 
-Resume at **PDF 44 / song 012**, the next unprocessed song-bearing page.
+**Skip PDF 51–52.** Resume at **PDF 53–54 / song 019**.
 
-From there, process only pages in `songs/page-map.json`, in ascending PDF order. Skip every intervening non-song page without creating a file. Do not begin English translation yet.
+Then continue only through song-bearing pages in `songs/page-map.json`, in ascending PDF order.
