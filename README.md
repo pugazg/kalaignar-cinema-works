@@ -19,11 +19,38 @@ The repository preserves source provenance, canonical transcription and derivati
 For every newly supplied Kalaignar cinema source, use these project-level documents before work begins:
 
 - `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` — the detailed mature workflow from source intake through Reading Room integration;
+- `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md` — additional rules for compiled film-song/lyric anthologies;
 - `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` — project-level handover, reference implementations and lessons learned;
 - `docs/START_NEW_CINEMA_WORK_PROMPT.md` — copy-paste prompt for starting a new work safely;
 - `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, and `docs/TRANSCRIPTION_GUIDE.md` — baseline source/transcription rules.
 
 The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful.
+
+## கலைஞர் திரை இசைப் பாடல்கள் status
+
+A dedicated film-song anthology work has been initialized under `works/kalaignar-thirai-isai-paadalgal/` from the supplied source `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`.
+
+- printed title: **`கலைஞர் திரை இசைப் பாடல்கள்`**;
+- compiler: **`நெல்லை ஜெயந்தா`**;
+- First Edition: **June 2024**;
+- publisher: **தமிழ்நாடு இயல் இசை நாடக மன்றம்**;
+- ISBN: **978-81-961205-2-8**;
+- physical source binary: **194 PDF pages**, 130,427,193 bytes;
+- source SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
+- printed colophon statement: **`No of pages : 192`**;
+- structural mapping: **verified**;
+- numbered Tamil lyric corpus: PDF **24–130**;
+- film sections: **23/23 mapped**;
+- numbered songs: **54/54 inventoried (`001–054`)**;
+- Tamil song transcription: **3 draft / 0 verified / 51 not-started**;
+- current draft songs: `001` `ஊருக்கு உழைப்பவண்டி`, `002` `இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்`, `003` `பூமாலை நீயே...`;
+- default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
+- English translation: **not-started**;
+- reader/export: **not-started**.
+
+The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
+
+**Next:** process songs **004–011** from `நாம்`, PDF **31–41**, in source order with visual recheck before verification.
 
 ## மனோகரா status
 
