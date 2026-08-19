@@ -32,30 +32,38 @@ Cross-page verified Tamil song records are `009`, `019`, `023`, `024`, `036`, `0
 
 ## English translation status
 
-The source-linked English layer has now begun with a **three-song pilot**:
+The English layer is now **in progress** under the approved `semantic-poetic-source-faithful` mode.
 
-- `001` — rustic political/social satire;
-- `002` — romantic image chains and duet turns;
-- `003` — maternal lament and class contrast.
+Current checkpoint:
 
-Current English checkpoint:
-
-- status: **pilot-verified**;
-- pilot-verified: **3/54**;
+- translated: **11/54**;
+- pilot-verified: **3** (`001–003`);
+- verified: **8** (`004–011`);
 - draft/review: **0/0**;
-- not started: **51**;
-- mode: **`semantic-poetic-source-faithful`**;
+- not started: **43** (`012–054`);
 - guide: `docs/SONG_TRANSLATION_GUIDE.md`;
 - schema/index: `translations/schema.json`, `translations/index.json`;
-- pilot review: `translations/PILOT_REVIEW.md`.
+- pilot review: `translations/PILOT_REVIEW.md`;
+- first scaled batch review: `translations/BATCH_004_011_REVIEW.md`.
 
 ### Retaining Kalaignar's language
 
 The English is deliberately **not** a singable rewrite or generic paraphrase. It must retain Kalaignar's repetition, political/social force, concrete images, rhetorical questions, colloquial energy and source-specific constructions.
 
-Pilot examples establish the baseline: `buffalo calf`, `sugarcane-Tamil`, `flower where dew sleeps`, `magnetic statue`, `live like honey`, the repeated `Why were you born?`, and the poor-versus-grandee contrast remain visible rather than being polished away.
+The pilot established the baseline with `buffalo calf`, `sugarcane-Tamil`, `flower where dew sleeps`, `magnetic statue`, `live like honey`, repeated `Why were you born?`, and poor-versus-grandee contrast.
 
-Difficult verified Tamil forms are documented rather than silently repaired through English. No verified Tamil file was changed during the pilot.
+The first scaled `நாம்` batch confirms those rules across eight more songs:
+
+- `004`: Mari/Kali folk devotion, rain/science reasoning, Kodumpavi and tax grievance;
+- `005`: yaazh/doe/Tamil-epic imagery, repetition and women/warriors language;
+- `006`: `மணம்` fragrance/marriage wordplay and the veena/thunderbolt/vine/cyclone image chain;
+- `007`: yaazh-as-grief, singing ghost and inscribed-page imagery;
+- `008`: comic Mahabharata village performance, `Dei`, kichili fruit, consumption and source-anomalous forms retained by transliteration;
+- `009`: ignorance-as-wasteland, knowledge-as-plough-point, science/ploughing, labour-versus-miracle and common granary;
+- `010`: fourfold `வாழ்க`, Arignar, animal/class metaphors, reform rhetoric and rational thought;
+- `011`: snakes, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death, army, fury and slander.
+
+Difficult verified Tamil forms are documented rather than silently repaired through English. No verified Tamil file was changed by the English pilot or first scaled batch.
 
 ## Attribution
 
@@ -65,4 +73,4 @@ The anthology's `மந்திரிகுமாரி` editorial note also me
 
 ## Next activity
 
-Translate and verify **songs 004–011**, the complete `நாம்` group, using the approved pilot voice rules. English must remain source-linked and must not overwrite or normalize the verified Tamil corpus.
+Translate and verify **songs 012–018** (`அம்மையப்பன்`) using the same approved Kalaignar-language source-faithful rules. English must remain source-linked and must not overwrite or normalize the verified Tamil corpus.
