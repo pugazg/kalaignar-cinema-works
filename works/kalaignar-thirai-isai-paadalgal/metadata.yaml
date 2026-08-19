@@ -47,37 +47,38 @@ song_inventory:
   expected_numbered_songs: 54
   inventoried_numbered_songs: 54
   draft_song_files: 3
-  verified_song_files: 20
+  verified_song_files: 21
   review_song_files: 0
-  not_started_song_files: 31
+  not_started_song_files: 30
   draft_song_ids: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  verified_song_range: "004-023"
-  verified_song_pdf_pages: "33-41, 44-50, 53-59"
-  verified_cross_page_song_ids: ["kalaignar-song-009", "kalaignar-song-019", "kalaignar-song-023"]
+  verified_song_range: "004-024"
+  verified_song_pdf_pages: "33-41, 44-50, 53-59, 62-63"
+  verified_cross_page_song_ids: ["kalaignar-song-009", "kalaignar-song-019", "kalaignar-song-023", "kalaignar-song-024"]
   batch_review_paths:
     - "notes/BATCH_004_011_REVIEW.md"
     - "notes/PAGE_BATCH_044_050_REVIEW.md"
     - "notes/PAGE_BATCH_053_059_REVIEW.md"
-  next_unprocessed_song: "024"
-  next_unprocessed_song_pdf_page: 62
+    - "notes/PAGE_BATCH_062_063_REVIEW.md"
+  next_unprocessed_song: "025"
+  next_unprocessed_song_pdf_page: 64
 
 transcription:
   status: in-progress
   source_order: ascending_song_bearing_pdf_page
   song_files_expected: 54
   song_files_draft: 3
-  song_files_verified: 20
+  song_files_verified: 21
   song_files_review: 0
-  song_files_not_started: 31
-  verified_through_song_number: 23
-  verified_noncontiguous_note: "Songs 004-023 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
-  next_action: "Skip PDF 60-61; process song 024 from PDF 62-63; then continue only through songs/page-map.json."
+  song_files_not_started: 30
+  verified_through_song_number: 24
+  verified_noncontiguous_note: "Songs 004-024 are verified; songs 001-003 remain draft, so verification is not yet contiguous from song 001."
+  next_action: "Process song 025 from PDF 64, then continue only through songs/page-map.json."
 
 fidelity_audit:
   status: in-progress
-  verified_song_range: "004-023"
+  verified_song_range: "004-024"
   draft_song_ids_pending_recheck: ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"]
-  latest_batch_review: "notes/PAGE_BATCH_053_059_REVIEW.md"
+  latest_batch_review: "notes/PAGE_BATCH_062_063_REVIEW.md"
   full_pdf_song_page_scan: "notes/FULL_PDF_SONG_PAGE_SCAN.md"
 
 translation:
