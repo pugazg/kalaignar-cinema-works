@@ -1,0 +1,210 @@
+{
+  "id": "kalaignar-song-en-051",
+  "song_id": "kalaignar-song-051",
+  "anthology_song_number": 51,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-051.md",
+    "tamil_status": "verified",
+    "pdf_pages": [121, 122],
+    "tamil_title": "கருத்த மச்சான் ஒனக்குத்தான்",
+    "film_title_ta": "பாசக் கிளிகள்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Dark machaan, this is for you",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "கருத்த மச்சான் ஒனக்குத்தான் ஆ...",
+          "வறுத்த மீன வச்சிருக்கேன் ம்ம்... ம்...",
+          "வாய்த்திறந்து வாங்கிக்க - நான்",
+          "பாய விரிச்ச படுத்துப்பேன் ம்... ம்...",
+          "நீ பாஞ்சு வந்து கட்டிக்கோ",
+          "ஒஞ்சு போயி நிக்காத ஓடிவந்து சாஞ்சுக்கோ",
+          "(ஏ கருத்த மச்சான்)"
+        ],
+        "english_lines": [
+          "Dark machaan, this is for you — aa...",
+          "I've kept fried fish ready — mm... mm...",
+          "Open your mouth and take it — I",
+          "Will spread the mat and lie down — mm... mm...",
+          "You leap over and hold me,",
+          "Don't shrink away and stand there; run over and lean into me,",
+          "(Hey, dark machaan)."
+        ],
+        "notes": [
+          "`மச்சான்` remains `machaan`, preserving the intimate colloquial kin/lover address.",
+          "The food, mat and bodily invitation remain direct rather than being euphemized."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "ஏ பச்சரிசி சிரிப்பே",
+          "என்ன பத்திக்கொண்ட நெருப்பே",
+          "நான் ஆண்டி என்ன தூண்டிப்போட்டு இழுக்காதே"
+        ],
+        "english_lines": [
+          "Hey, raw-rice smile,",
+          "O fire that has caught hold of me,",
+          "I am an aandi — don't prod me and pull me."
+        ],
+        "notes": [
+          "`பச்சரிசி சிரிப்பு` remains the source-shaped `raw-rice smile` image.",
+          "`ஆண்டி` remains `aandi` rather than being narrowed to one English religious/social label."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "ஏ... ஆண்டிக்குத்தான் தேவ ஆறுகால பூஜ",
+          "நானுமுத்த போற மெழுக பாக்காதே"
+        ],
+        "english_lines": [
+          "Hey... it is the aandi who needs six-time puja,",
+          "Don't look at this `naanumuttha pora mezhugu`."
+        ],
+        "notes": [
+          "The verified compact phrase `நானுமுத்த போற மெழுக` is not silently segmented or repaired from an external lyric. It remains transliterated as a documented pressure point."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "அடங்காத பொம்பளையே அழகான பூதகியே"
+        ],
+        "english_lines": [
+          "Unruly woman, beautiful demoness."
+        ],
+        "notes": [
+          "The teasing insult remains sharp and colloquial."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "ஏ... அடுப்பதும் பொண்ணுன்னு",
+          "அலட்சியமா கேலிபண்ணும்",
+          "ஆம்பளைங்க திருந்தவேணும்",
+          "அடிமைத்தனம் போகவேணும்",
+          "தாலியத்தான் கட்டிப்புட்டு",
+          "தவசிவேஷம் போட்டுக்கிட்ட",
+          "(கருத்த)"
+        ],
+        "english_lines": [
+          "Hey... saying `adupathum ponnu`,",
+          "Mocking carelessly,",
+          "Men must reform,",
+          "Slavery must go,",
+          "After tying the thaali,",
+          "You put on an ascetic disguise,",
+          "(Dark one)."
+        ],
+        "notes": [
+          "The verified `அடுப்பதும் பொண்ணுன்னு` is retained as `adupathum ponnu` because a smooth explanatory rendering would require choosing an unprinted syntactic repair.",
+          "The explicit demand that men reform and slavery end is retained, as is `thaali` rather than a generic wedding-token substitute."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "ஏ... வறுத்த மீன தின்னா",
+          "சாமிகுத்தம் வந்து சேரும்",
+          "நான் சைவம் பெண்ணே",
+          "அசைவம் போட்டு கெடுக்காதே"
+        ],
+        "english_lines": [
+          "Hey... if I eat fried fish,",
+          "Saami-kutham will come upon me,",
+          "I am saivam, woman,",
+          "Don't ruin me by putting asaivam before me."
+        ],
+        "notes": [
+          "`சைவம் / அசைவம்` is retained as `saivam / asaivam` so the vegetarian/non-vegetarian wordplay remains available for the woman's reply.",
+          "`சாமிகுத்தம்` remains `saami-kutham`, preserving the colloquial religious-fear register."
+        ]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "ஆணு பொண்ணு உறவே",
+          "அசைவம்தானே மாமா",
+          "அருகில் வரும் மீன வெறுக்காதே"
+        ],
+        "english_lines": [
+          "The bond of man and woman —",
+          "Isn't that itself asaivam, mama?",
+          "Don't reject the fish that comes near you."
+        ],
+        "notes": [
+          "`அசைவம்` carries both the food opposition and a bodily/movement suggestion; it remains `asaivam` rather than being reduced to one English sense.",
+          "`மாமா` remains `mama` as the teasing address."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "அடங்காத பொம்பளையே",
+          "அழகான பூதகியே"
+        ],
+        "english_lines": [
+          "Unruly woman,",
+          "Beautiful demoness."
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 9,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "எட்டுக்கால் லட்சணமே",
+          "எமனேறும் வாகனமே",
+          "என்றுதான் நானும் மச்சான்",
+          "ஏளனமே செய்வோனய்யா",
+          "எந்நிலமை புரியலையா",
+          "உன்மனசும் எங்களையா",
+          "(கருத்த)"
+        ],
+        "english_lines": [
+          "O eight-legged beauty-mark,",
+          "O vehicle that Yama rides,",
+          "That is how I too, machaan,",
+          "Only mock you, ayya,",
+          "Don't you understand my condition?",
+          "Isn't your heart ours, ayya?",
+          "(Dark one)."
+        ],
+        "notes": [
+          "The Yama-vehicle insult is preserved rather than replaced by a generic animal insult.",
+          "The verified closing `உன்மனசும் எங்களையா` is rendered conservatively; the Tamil witness is not altered to resolve its colloquial grammar."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This two-page duet mixes sexual teasing, food/vegetarian wordplay, colloquial insults and a direct anti-subordination demand. The English keeps that instability instead of sanitizing it into romantic banter.",
+      "Full source provenance remains PDF 121–122 as one translation record.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
