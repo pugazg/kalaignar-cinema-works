@@ -1,0 +1,111 @@
+{
+  "id": "kalaignar-song-en-017",
+  "song_id": "kalaignar-song-017",
+  "anthology_song_number": 17,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-017.md",
+    "tamil_status": "verified",
+    "pdf_pages": [49],
+    "tamil_title": "சிதைந்ததே என் காதல் உயிரோவியம்",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Shattered is my love's living portrait",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "முத்தாயி பூங்காவனம் சோக கீதம்",
+        "english_label": "முத்தாயி பூங்காவனம் — song of sorrow",
+        "source_tamil_lines": [
+          "சிதைந்ததே என் காதல் உயிரோவியம்",
+          "அழிந்ததே என் வாழ்வின் சுவைக் காவியம்."
+        ],
+        "english_lines": [
+          "Shattered is my love's living portrait,",
+          "Destroyed is the epic of flavour in my life."
+        ],
+        "notes": [
+          "`உயிரோவியம்` remains the striking `living portrait` image rather than becoming simply `my beloved`.",
+          "`சுவைக் காவியம்` is kept close as `epic of flavour`; smoothing it to `beautiful story` would erase the unusual source metaphor."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "தொகையறா",
+        "english_label": "Thogaiyara",
+        "source_tamil_lines": [
+          "சிதைந்ததே என் காதல் உயிரோவியம்",
+          "அழிந்ததே என் வாழ்வின் சுவைக் காவியம்."
+        ],
+        "english_lines": [
+          "Shattered is my love's living portrait,",
+          "Destroyed is the epic of flavour in my life."
+        ],
+        "notes": [
+          "The source places these lines under the Thogaiyara performance structure; the English retains the same lyric wording rather than rewriting the repeated passage."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "பாட்டு",
+        "english_label": "Paattu (song)",
+        "source_tamil_lines": [
+          "மனமோகன ஜீவன் வாழ்வின் ஜோதி மறைந்தோடுதே...",
+          "புயல் வீசுதே... பூங்காவிலே..."
+        ],
+        "english_lines": [
+          "The heart-enchanting life, the flame of life, slips away hidden...",
+          "A storm blows... in the flower-garden..."
+        ],
+        "notes": [
+          "The source's `ஜீவன் / வாழ்வின் ஜோதி` accumulation remains doubled rather than compressed into one `life is fading` sentence.",
+          "The storm remains inside the concrete flower-garden image."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "(மன)",
+        "english_label": "(Mana — source refrain cue)",
+        "source_tamil_lines": ["(மன)"],
+        "english_lines": ["(Mana — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "அருள் மேவும் காதல் தெய்வச்சிலை வீழ்ந்ததே...",
+          "வெறுங் கோவிலானதே என் வாழ்வுதான்",
+          "வீணானதே..."
+        ],
+        "english_lines": [
+          "The divine statue of love where grace dwells has fallen...",
+          "My life has become an empty temple,",
+          "Gone to waste..."
+        ],
+        "notes": [
+          "The fallen deity-statue / empty-temple sequence is preserved intact; it is the central architectural-spiritual image of the stanza.",
+          "The verified source form `வெறுங்` is not normalized in Tamil; the English follows its empty/bare-temple sense."
+        ]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "(மன)",
+        "english_label": "(Mana — source refrain cue)",
+        "source_tamil_lines": ["(மன)"],
+        "english_lines": ["(Mana — source refrain cue)"],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "The song's grief is carried through painting, epic, flame, storm, flower-garden, divine statue and empty-temple images; the English retains those images instead of replacing them with generalized heartbreak.",
+      "No separate singer is inferred from outside the verified Tamil record.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
