@@ -1,0 +1,128 @@
+{
+  "id": "kalaignar-song-en-004",
+  "song_id": "kalaignar-song-004",
+  "anthology_song_number": 4,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-004.md",
+    "tamil_status": "verified",
+    "pdf_pages": [33],
+    "tamil_title": "மாரி மகமாயி மாரி",
+    "film_title_ta": "நாம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Mari Mahamayi, Mari Mahamayi",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "கோரஸ்",
+        "english_label": "Chorus",
+        "source_tamil_lines": [
+          "மாரி மகமாயி மாரி மகமாயி",
+          "ஆயி எங்கள் காளியம்மா",
+          "மாரி மகமாயி மாரி மகமாயி",
+          "ஏழை நாங்கள் எல்லோரும் வாழ",
+          "மாத மும்மாரி பொழியணும் தாயே.."
+        ],
+        "english_lines": [
+          "Mari Mahamayi, Mari Mahamayi,",
+          "Aayi, our Kaliamma,",
+          "Mari Mahamayi, Mari Mahamayi,",
+          "For all of us poor folk to live,",
+          "Let the month's mummari rains pour, Mother.."
+        ],
+        "notes": [
+          "`மாரி மகமாயி`, `ஆயி`, `காளியம்மா`, and `மும்மாரி` are retained as culturally loaded devotional terms rather than flattened into generic goddess/rain language.",
+          "The appeal is also social: the rain is explicitly needed so `ஏழை நாங்கள்` — we poor folk — may live."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "ஆண்",
+        "english_label": "Male voice",
+        "source_tamil_lines": [
+          "(சூரியனால் கடல் நீரும் - மேகமாகவே",
+          "மாறியதால் லோகத்திலே",
+          "மழையும் பொழியுமா"
+        ],
+        "english_lines": [
+          "(By the sun, even the sea-water — into cloud itself,",
+          "Having changed, upon the world,",
+          "Will the rain then fall?"
+        ],
+        "notes": [
+          "The source's unmatched opening parenthesis is preserved in the English line rather than silently repaired.",
+          "The water/cloud/rain reasoning is kept visible instead of paraphrased as a generic reference to science."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "பெண்",
+        "english_label": "Female voice",
+        "source_tamil_lines": [
+          "சொல்றேன் கேளு",
+          "விஞ்ஞானம் புதிதாக மாறுது பாராய்",
+          "கொடும்பாவி அருளாலே பெய்யுமாம் ஜோராய்",
+          "மானம் காஞ்சா நாமெல்லோரும் வாடிடுவோம்",
+          "தல்லாலே லா.... ...."
+        ],
+        "english_lines": [
+          "I'll tell you — listen,",
+          "See, science is changing anew,",
+          "They say by Kodumpavi's grace it will rain hard,",
+          "If the sky dries up, all of us will wither,",
+          "Thallale la.... ...."
+        ],
+        "notes": [
+          "`கொடும்பாவி` is retained as `Kodumpavi`, preserving the source's ritual/cultural reference instead of replacing it with an explanatory paraphrase.",
+          "The colloquial `சொல்றேன் கேளு`, `மாறுது`, and `காஞ்சா` are kept conversational rather than elevated into formal English.",
+          "The vocalized `தல்லாலே லா.... ....` is preserved rather than omitted as non-semantic filler."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "எல்லோரும்",
+        "english_label": "All",
+        "source_tamil_lines": [
+          "திரி சூலி நீலி எங்கள் மாரி மகமாயி",
+          "வரி கொடுக்க முடியாமல்",
+          "வாடுறோம் தாயே...",
+          "ஓங்கார ரூபிணி மாரி மகமாயி",
+          "எங்கள் குறை தீர்த்து விடு மாரி மகமாயி"
+        ],
+        "english_lines": [
+          "Trisuli, Neeli, our Mari Mahamayi,",
+          "Unable to pay the tax,",
+          "We are withering, Mother...",
+          "Omkara-rupini, Mari Mahamayi,",
+          "Set right our grievance, Mari Mahamayi."
+        ],
+        "notes": [
+          "The devotional epithets are transliterated to retain the song's sound and cultural register.",
+          "`வரி கொடுக்க முடியாமல் / வாடுறோம்` is kept as the blunt tax grievance embedded inside the devotional appeal."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "(மாரி)",
+        "english_label": "(Mari — source refrain cue)",
+        "source_tamil_lines": [
+          "(மாரி)"
+        ],
+        "english_lines": [
+          "(Mari — source refrain cue)"
+        ],
+        "notes": [
+          "The anthology prints an abbreviated refrain cue; it is not expanded into reconstructed lyrics."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation keeps the song's collision of folk devotion, rain-science argument, Kodumpavi ritual reference, poverty, and taxation rather than smoothing it into a single devotional register.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
