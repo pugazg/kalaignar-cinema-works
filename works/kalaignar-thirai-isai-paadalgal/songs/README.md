@@ -24,14 +24,7 @@ Machine-readable map: `page-map.json`.
 
 Each `song-NNN.md` is a transcription derivative of the corresponding numbered lyric page(s) in this supplied 2024 anthology.
 
-The anthology controls:
-
-- numbered lyric text;
-- song number;
-- source-visible music/voice metadata on the lyric page;
-- singer/character/turn labels;
-- refrain/stanza labels;
-- punctuation, lineation and source spellings.
+The anthology controls the numbered lyric text, song number, source-visible music/voice metadata, singer/character/turn labels, refrain/stanza labels, punctuation, lineation and source spellings.
 
 Default authorship status remains `anthology-attributed`; this anthology is not silently treated as an original film-era source.
 
@@ -44,20 +37,18 @@ Default authorship status remains `anthology-attributed`; this anthology is not 
 5. Multi-page songs remain one `song-NNN.md` file.
 6. Preserve source line order, labels, punctuation, ellipses, colloquial forms and unusual spellings.
 7. Do not import missing verses from recordings, websites or another publication.
-8. Do not change a lyric because a familiar soundtrack version differs.
-9. Keep uncertain readings visible until the rendered scan supports verification.
-
-## Special exclusion
-
-PDF 25 mentions `ஆளப்பிறந்தவன் தமிழன் அவன்தானே` in prose, but does not print its lyric body as a numbered song sheet. Under the page-driven rule, **no song file is created from PDF 25**.
+8. Keep uncertain readings visible until the rendered scan supports verification.
 
 ## Current state
 
 - inventory/page map: **54/54 songs located**;
 - draft: **001–003** — 3 songs;
-- verified: **004–011** — 8 songs;
+- verified: **004–018** — 15 songs;
 - review: **0**;
-- not started: **012–054** — 43 songs;
-- next unprocessed song-bearing page: **PDF 44 / song 012**.
+- not started: **019–054** — 36 songs;
+- latest review: `../notes/PAGE_BATCH_044_050_REVIEW.md`;
+- next unprocessed song-bearing page: **PDF 53–54 / song 019**.
+
+PDF 51–52 are non-song pages and must be skipped.
 
 English translation remains blocked until the relevant Tamil lyric is verified.
