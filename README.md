@@ -48,18 +48,27 @@ The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadal
 - Tamil fidelity audit: **complete — 0 draft / 0 review / 0 unresolved Tamil readings**;
 - latest Tamil gate review: `works/kalaignar-thirai-isai-paadalgal/notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
-- English translation: **pilot-verified — 3/54 (`001–003`)**;
+- English translation: **in progress — 11/54 translated**;
+- English pilot-verified: **3 (`001–003`)**;
+- English verified: **8 (`004–011`)**;
+- English draft/review: **0/0**;
+- English not started: **43 (`012–054`)**;
 - English mode: **`semantic-poetic-source-faithful`**, retaining Kalaignar's language rather than producing a singable rewrite;
 - English pilot review: `works/kalaignar-thirai-isai-paadalgal/translations/PILOT_REVIEW.md`;
+- first scaled English review: `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_004_011_REVIEW.md`;
 - reader/export: **not-started**.
 
 The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered Tamil song files are visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
 
-The English pilot uses songs `001–003` to establish the translation voice across rustic political/social satire, romantic metaphor and maternal/class lament. It deliberately retains source images and rhetorical force such as **buffalo calf**, **sugarcane-Tamil**, **flower where dew sleeps**, **magnetic statue**, **live like honey**, repeated **Why were you born?**, and the poor-versus-grandee contrast. Difficult verified Tamil forms are documented rather than silently repaired through English.
+The English pilot uses songs `001–003` to establish the translation voice across rustic political/social satire, romantic metaphor and maternal/class lament. It deliberately retains source images and rhetorical force such as **buffalo calf**, **sugarcane-Tamil**, **flower where dew sleeps**, **magnetic statue**, **live like honey**, repeated **Why were you born?**, and the poor-versus-grandee contrast.
+
+The first scaled `நாம்` batch (`004–011`) is now verified. It retains folk-devotional/rain-science language and a tax grievance in `004`; yaazh/doe/Tamil-epic imagery in `005`; the `மணம்` fragrance/marriage wordplay in `006`; yaazh-as-grief and singing-ghost imagery in `007`; comic mythic taunts and source-anomalous transliterations in `008`; the full rationalist/agricultural chain of ignorance-as-wasteland, knowledge-as-plough-point, science/ploughing, labour-versus-miracle and common granary in `009`; animal/class metaphors, Arignar and rational-thought rhetoric in `010`; and snakes, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death and army imagery in `011`.
+
+Difficult verified Tamil forms are documented rather than silently repaired through English. No verified Tamil song file was changed by the English translation layer.
 
 The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
-**Next:** translate and verify songs **004–011**, the complete `நாம்` group, using the approved Kalaignar-language pilot rules.
+**Next:** translate and verify songs **012–018**, the complete `அம்மையப்பன்` group, using the approved Kalaignar-language source-faithful rules.
 
 ## மனோகரா status
 
