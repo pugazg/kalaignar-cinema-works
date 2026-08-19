@@ -1,0 +1,82 @@
+{
+  "id": "kalaignar-song-en-013",
+  "song_id": "kalaignar-song-013",
+  "anthology_song_number": 13,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-013.md",
+    "tamil_status": "verified",
+    "pdf_pages": [45],
+    "tamil_title": "நீலக்கடல் பாரு பாப்பா...",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "Look at the blue sea, paappa...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "முத்தாயி",
+        "english_label": "முத்தாயி",
+        "source_tamil_lines": [
+          "நீலக்கடல் பாரு பாப்பா...",
+          "அதில் நீந்தி விளையாடு பாப்பா...",
+          "வெள்ளி மணல் படுக்கையிலே பாப்பா",
+          "துள்ளி விளையாடு பாப்பா...",
+          "ஓடி விளையாடு பாப்பா... நீ",
+          "ஓய்வாக நடமாடு பாப்பா..."
+        ],
+        "english_lines": [
+          "Look at the blue sea, paappa...",
+          "Swim and play in it, paappa...",
+          "On the bed of silver sand, paappa,",
+          "Leap and play, paappa...",
+          "Run and play, paappa... you,",
+          "Stroll at ease, paappa..."
+        ],
+        "notes": [
+          "`பாப்பா` is retained as `paappa` to preserve the affectionate child-address and the repeated sound of the source rather than varying it as `child`, `dear` or `little one`.",
+          "The sea/silver-sand/play sequence remains simple and childlike; it is not elevated into ornate English verse."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "சாய்ந்தாடம்மா சாய்ந்தாடு",
+          "சந்தனக் கிளியே சாய்ந்தாடு",
+          "அழகு மயிலே சாய்ந்தாடு",
+          "அமுதப் புறாவே சாய்ந்தாடு"
+        ],
+        "english_lines": [
+          "Sway, little one, sway,",
+          "O sandalwood parrot, sway,",
+          "O beautiful peacock, sway,",
+          "O nectar-dove, sway."
+        ],
+        "notes": [
+          "The repeated imperative `சாய்ந்தாடு` remains repeated `sway` rather than being stylistically varied.",
+          "`சந்தனக் கிளி`, `மயில்`, and `அமுதப் புறா` remain the source's concrete affectionate images."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "(சா)",
+        "english_label": "(Saa — source refrain cue)",
+        "source_tamil_lines": ["(சா)"],
+        "english_lines": ["(Saa — source refrain cue)"],
+        "notes": [
+          "The abbreviated cue is preserved as a cue and is not expanded into lyrics absent from the anthology."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation preserves the song's child-address, repetition and concrete pet-name imagery instead of polishing it into a generalized lullaby.",
+      "The exact source role label `முத்தாயி` remains unexpanded; no singer identity is inferred.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
