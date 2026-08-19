@@ -1,0 +1,121 @@
+{
+  "id": "kalaignar-song-en-039",
+  "song_id": "kalaignar-song-039",
+  "anthology_song_number": 39,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-039.md",
+    "tamil_status": "verified",
+    "pdf_pages": [93],
+    "tamil_title": "குறிஞ்சி மலரொன்று குலுங்கி அழைக்குது",
+    "film_title_ta": "தூக்கு மேடை",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "A kurinji flower sways and calls",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "ஆ-ஆ...ஆஆ...லாலலாலா...",
+          "குறிஞ்சி மலரொன்று குலுங்கி அழைக்குது",
+          "குலவிட வருவாய் குளிர் தென்றலே",
+          "தென்றலின் சுகத்தில் தேனிடை கலந்து",
+          "தளிராய் வாழ்வோம் இன்பத்தில் மிதந்து"
+        ],
+        "english_lines": [
+          "Aa-aa... aaaa... laalalaa...",
+          "A kurinji flower sways and calls,",
+          "Come, cool breeze, to mingle and play,",
+          "In the breeze's pleasure, honey-waist mingling,",
+          "Let us live as tender shoots, floating in delight."
+        ],
+        "notes": [
+          "The opening vocalization is retained rather than replaced by new English vocables.",
+          "`குறிஞ்சி` remains `kurinji`, preserving the culture-bearing landscape/flower term.",
+          "The compact `தேனிடை` is kept as the source-shaped image `honey-waist`; it is not generalized into sweetness or beauty."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "கற்கண்டு தோட்டத்தில் பால் பாய்ந்து",
+          "கரும்பு கலப்பையாய் ஏரோட்டி",
+          "அற்புதமாய் விளைந்த கதிர்மணியே",
+          "அற்புதமாய் விளைந்த கதிர்மணியே",
+          "அணைத்து மகிழ்வோம் கண்மணியே!",
+          "(குறிஞ்சி)"
+        ],
+        "english_lines": [
+          "In the rock-candy garden, milk flowing,",
+          "Driving the plough with sugarcane as the ploughshare,",
+          "O grain-gem, wondrously grown,",
+          "O grain-gem, wondrously grown,",
+          "Let us embrace and rejoice, eye-gem!",
+          "(Kurinji)."
+        ],
+        "notes": [
+          "Rock-candy garden, milk, sugarcane-plough and `கதிர்மணி` remain an agricultural-sweetness image-chain rather than being collapsed into a conventional compliment.",
+          "The repeated `அற்புதமாய் விளைந்த கதிர்மணியே` remains repeated."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ஆண்",
+        "english_label": "Man",
+        "source_tamil_lines": [
+          "இன்ப நாவுக்கு முன்னுரை எழுதிட வருக",
+          "இயல் இசை கூத்தென முத்தமிழ் சுவையை தருக",
+          "முத்தமிழ் கயல்விழி முக்கனி உன் மொழி",
+          "முத்திக்கு ஒரு வழி நீ",
+          "முத்துமாரி பொழி நீ"
+        ],
+        "english_lines": [
+          "Come write a preface for the tongue of pleasure,",
+          "Give the taste of Muthamizh — iyal, isai, koothu,",
+          "Muthamizh, fish-eyed one — your speech is the three fruits,",
+          "You are a path to mukti,",
+          "Pour a pearl-rain."
+        ],
+        "notes": [
+          "`இயல் / இசை / கூத்து` and `முத்தமிழ்` remain culturally audible as `iyal / isai / koothu / Muthamizh` rather than being flattened into generic literature, music and drama.",
+          "`முக்கனி` remains `the three fruits`, preserving the Tamil cultural image; `முத்தி` remains `mukti`.",
+          "`முத்துமாரி` is represented as `pearl-rain`, retaining the source's `muthu/maari` image rather than replacing it with generic blessing."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "பெண்",
+        "english_label": "Woman",
+        "source_tamil_lines": [
+          "அணைத்தால் விளக்கும் இரண்டு விடும்",
+          "அஞ்சும் தேகம் துவண்டு விடும்",
+          "இணைத்தால் நம்மை தமிழன்னை",
+          "இனி பிரிவதில்லை என்றும் நானுன்னை",
+          "(குறிஞ்சி)"
+        ],
+        "english_lines": [
+          "If embraced, the two lamps will go out,",
+          "The trembling body will grow faint,",
+          "If Tamil Mother joins us,",
+          "From now on, never will I part from you,",
+          "(Kurinji)."
+        ],
+        "notes": [
+          "`அணைத்தால்` carries the source's embrace/extinguish pressure; `the two lamps will go out` is retained without inventing an explanatory body-part gloss.",
+          "`தமிழன்னை` remains `Tamil Mother`, and the final joined source form `நானுன்னை` is translated without altering the Tamil witness."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The duet moves through kurinji, agricultural sweetness, Muthamizh and Tamil Mother while keeping erotic imagery active; the English retains those layers instead of separating them into explanatory prose.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
