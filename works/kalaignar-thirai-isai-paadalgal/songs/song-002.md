@@ -1,13 +1,13 @@
 # 002 — இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்
 
-<!-- source: pdf=29 printed=29 anthology_song=002 status=draft -->
+<!-- source: pdf=29 printed=29 anthology_song=002 status=verified -->
 
 - film: `பராசக்தி`
 - anthology film year: `1952`
 - music as printed: `ஆர்.சுதர்சனம்`
 - voice as printed: `டி.எஸ்.பகவதி, உசேன்`
 - attribution status: `anthology-attributed`
-- transcription status: `draft`
+- transcription status: `verified`
 
 ## மூலம்
 
@@ -41,4 +41,5 @@
 
 - PDF 28 of this anthology explicitly lists `இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்` beside `கலைஞர்`.
 - Turn labels `தங்`, `கல்`, and `தங்,கல்` are retained exactly as the lyric page prints them; they are not silently expanded.
-- This is a draft transcription pending an explicit line-by-line fidelity recheck.
+- Direct visual reinspection of PDF 29 confirms the complete pilot transcription, including `திகழ்வதென்`, `கன்னல் தமிழே`, `காந்தச் சிலையே`, and the joined source form `போல்தினம்`.
+- Fidelity status: **verified from the rendered anthology page**.
