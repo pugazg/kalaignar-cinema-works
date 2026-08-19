@@ -14,7 +14,6 @@ on:
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/build.py"
-      - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py"
       - "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/build.py"
       - "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/sync_status.py"
       - ".github/workflows/kalaignar-song-anthology-english-preflight.yml"
@@ -45,9 +44,6 @@ jobs:
 
       - name: Build and validate deterministic English reader exports
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/build.py
-
-      - name: Synchronize completed reader/export status
-        run: python works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py
 
       - name: Build and validate Reading Room integration payload
         run: python works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/build.py
