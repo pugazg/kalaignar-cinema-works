@@ -2,9 +2,14 @@
 
 ## Current phase
 
-**English translation — complete-verified.**
+**English reader/export preflight — PASS.**
 
-The Tamil source layer is fixed at **54/54 complete-verified**. The source-linked English derivative is also now **54/54 complete-verified** under `docs/SONG_TRANSLATION_GUIDE.md`.
+Both immutable source-linked content layers are closed:
+
+- Tamil songs: **54/54 complete-verified**;
+- English translations: **54/54 complete-verified**.
+
+The reader/export preflight has now independently cleared all 54 English records for deterministic publication-facing generation.
 
 ## Source/Tamil checkpoint
 
@@ -18,57 +23,44 @@ The Tamil source layer is fixed at **54/54 complete-verified**. The source-linke
 
 ## English translation checkpoint
 
-| Item | Status |
-|---|---:|
-| Source songs available | 54 |
-| English translated total | 54 |
-| Pilot-verified English songs | 3 |
-| Verified English songs beyond pilot | 51 |
-| English draft | 0 |
-| English review | 0 |
-| English not started | 0 |
+- translated: **54/54**;
+- pilot-verified: **3** (`001–003`);
+- verified: **51** (`004–054`);
+- draft/review/not-started: **0/0/0**;
+- mode: **`semantic-poetic-source-faithful`**.
 
-Completed English gates:
+## Reader/export preflight
 
-- pilot `001–003` — 3/3 PASS;
-- `004–011` — 8/8 PASS;
-- `012–018` — 7/7 PASS;
-- `019–025` — 7/7 PASS;
-- `026–032` — 7/7 PASS;
-- `033–039` — 7/7 PASS;
-- `040–046` — 7/7 PASS;
-- `047–054` — 8/8 PASS.
+Automated preflight: **PASS**.
 
-Authoritative translation records:
+Report: `editions/en/PREFLIGHT_QA_REPORT.md`  
+Probe: `editions/en/audit_probe.py`  
+Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
 
-- `translations/index.json`;
-- `translations/schema.json`;
-- `translations/PILOT_REVIEW.md`;
-- all seven scaled batch reviews through `translations/BATCH_047_054_REVIEW.md`;
-- `translations/records/song-001.json` through `song-054.json`;
-- `docs/SONG_TRANSLATION_GUIDE.md`.
+Passing checks include:
 
-## Kalaignar-language translation rule
+- **54/54** translation record files and **54/54** verified Tamil source links;
+- anthology order **001–054** with no gaps;
+- **3** `pilot-verified` + **51** `verified` statuses preserved;
+- **54/54** records remain `anthology-attributed`;
+- **1,105** mapped Tamil lyric lines/cues and **1,105** mapped English lines/cues;
+- **0** line-count mismatches;
+- **0** duplicate song numbers, translation IDs, song IDs or record paths;
+- **0** source-page, Tamil-title or film-title mismatches;
+- **0** translation-mode or attribution drift;
+- exactly **8** cross-page records, matching the verified page map: `009`, `019`, `023`, `024`, `036`, `037`, `051`, `052`;
+- **0 warnings / 0 errors**.
 
-The completed corpus remains **`semantic-poetic-source-faithful`**. Repetition, political/social force, concrete imagery, colloquial speech, Tamil cultural vocabulary, performance terms and verified source anomalies were preserved rather than rewritten for singability or generic English fluency.
-
-## Final scaled batch result — `047–054`
-
-PASS — **8/8 verified**.
-
-The final batch preserves, among other source forces:
-
-- `047`: **sons of the soil**, eye/eyelid duty imagery, **hand for kinship / voice for rights**, and `naam / naan` lip-wordplay;
-- `048`: `kalaignan`, `udanpirappe`, direct caste/religion division and sledgehammer rhetoric, Valluvar and source-pressure `inba-pagai`;
-- `049`: mother-warrior grief/pride, sculpted-beauty casket, young-deer bride, tusker/steed battlefield images and womb-bearing motherhood;
-- `050`: `mullai`, Tamil `mandram`, `bhava`, `jathi`, `veena`, `Nasika Poosani`, jathi vocables and the source-abrupt ending;
-- `051`: PDF **121–122**, colloquial erotic/comic `machaan` duet, `saivam / asaivam` wordplay, anti-subordination lines and unresolved source phrases left visible;
-- `052`: PDF **123–124**, affection-parrot, `kurinji`, Kannagi, Classical Tamil, sibling/mother imagery and eyes becoming ponds;
-- `053`: the printed highly segmented performance-poem layout, `bhava`, Pearl-Tamil and Chola praise;
-- `054`: musical/place vocabulary, `Kodumudi kokilam`, honey/milk and `aanpaal` wordplay, `paayiram`, and the classical red-earth/water union image.
-
-No verified Tamil song file was modified by the English layer.
+The preflight does not rewrite Tamil or English. Kalaignar-language decisions already fixed in the translation reviews remain immutable reader input.
 
 ## Next activity
 
-Run a **whole-corpus English reader/export preflight** over all 54 source-linked translation records. Preserve anthology order, page provenance, source Tamil links, `anthology-attributed` status and the distinction between 3 `pilot-verified` and 51 `verified` records. Do not alter the complete-verified Tamil or English source-linked layers merely for publication smoothness.
+Generate the deterministic English reader/export package from the 54 verified translation records:
+
+- publication-facing Markdown;
+- standalone HTML;
+- machine-readable JSON;
+- generated-output QA report;
+- integrity manifest with reproducible input/output hashes.
+
+Generation must preserve anthology order, Tamil/source provenance, item status history and `anthology-attributed` attribution without smoothing or rewriting the complete-verified English text.
