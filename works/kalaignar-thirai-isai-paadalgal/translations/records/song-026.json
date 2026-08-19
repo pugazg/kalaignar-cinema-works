@@ -1,0 +1,64 @@
+{
+  "id": "kalaignar-song-en-026",
+  "song_id": "kalaignar-song-026",
+  "anthology_song_number": 26,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-026.md",
+    "tamil_status": "verified",
+    "pdf_pages": [65],
+    "tamil_title": "வான் மலர் சோலையில்",
+    "film_title_ta": "ரங்கோன் ராதா",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "In the sky-flower grove",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வான் மலர் சோலையில்",
+          "தேன் மதி காணவே",
+          "மாருதில் ஓடுதே",
+          "காற்றில் ஆடும் முல்லைக் கொடியே",
+          "துணைதான் இணைந்த நம் வாழ்வில்",
+          "ஆனந்தம் காண்போமே இன்றே",
+          "ஆசைத்துரையே அழகான ராணி",
+          "அணைமீறும் அன்பால் அலைமோதுகின்றாள்",
+          "அருகே நீ வாராய்",
+          "தீயும் அணைந்து தென்றல் வீசுது",
+          "தெவிட்டாத அமுதாய் தேமாங்கனியாய்",
+          "புதுவாழ்வு கண்டேன்."
+        ],
+        "english_lines": [
+          "In the sky-flower grove,",
+          "To behold the honeyed moon,",
+          "It runs in the breeze,",
+          "O jasmine creeper dancing in the wind,",
+          "In our life joined by companionship,",
+          "Let us behold bliss today,",
+          "O lord of desire, beautiful queen,",
+          "She surges in waves with love that overflows the dam,",
+          "Come near,",
+          "The fire too is quenched; the breeze blows,",
+          "As nectar that never cloys, as sweet mango-fruit,",
+          "I have found a new life."
+        ],
+        "notes": [
+          "`தேன் மதி` remains the concrete honeyed-moon image rather than becoming a generic beautiful moon.",
+          "The subject of `மாருதில் ஓடுதே` is not supplied on the page; English keeps the same open `it runs in the breeze` construction instead of inventing one.",
+          "`அணைமீறும் அன்பால் அலைமோதுகின்றாள்` keeps the dam-overflow and wave-surge imagery together.",
+          "`தேமாங்கனியாய்` is kept as sweet mango-fruit rather than softened to sweetness."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The translation retains Kalaignar's image-chain of sky-flower grove, honeyed moon, jasmine creeper, overflowing dam, quenched fire, breeze, nectar and mango-fruit.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
