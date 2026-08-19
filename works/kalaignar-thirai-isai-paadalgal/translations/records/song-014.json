@@ -1,0 +1,145 @@
+{
+  "id": "kalaignar-song-en-014",
+  "song_id": "kalaignar-song-014",
+  "anthology_song_number": 14,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-014.md",
+    "tamil_status": "verified",
+    "pdf_pages": [46],
+    "tamil_title": "காதல் துறையே புதுமைக் கனவே",
+    "film_title_ta": "அம்மையப்பன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "O realm of love, O new dream",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "முத்தாயி",
+        "english_label": "முத்தாயி",
+        "source_tamil_lines": [
+          "காதல் துறையே புதுமைக் கனவே - மன",
+          "மேவும் இன்ப ஜோதியே ஓடிவா"
+        ],
+        "english_lines": [
+          "O realm of love, O new dream — O blissful flame",
+          "That dwells in the heart, come running."
+        ],
+        "notes": [
+          "`காதல் துறை` is kept as the image-bearing `realm of love`; the line is not reduced to `my love`.",
+          "`ஓடிவா` remains `come running`, preserving the urgency of the source rather than smoothing it to `come to me`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "(கா)",
+        "english_label": "(Kaa — source refrain cue)",
+        "source_tamil_lines": ["(கா)"],
+        "english_lines": ["(Kaa — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": "முத்தன்",
+        "english_label": "முத்தன்",
+        "source_tamil_lines": [
+          "வானில் உலாவும் மாமுகில் காணும்போதிலே",
+          "சோலைக் கலாபம் ஆடுதே..."
+        ],
+        "english_lines": [
+          "When I see the great cloud roaming the sky,",
+          "The grove's plumage dances..."
+        ],
+        "notes": [
+          "`கலாபம்` is retained through the image of plumage rather than paraphrased as `the garden rejoices`; the source's visual motion remains central."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "(கா)",
+        "english_label": "(Kaa — source refrain cue)",
+        "source_tamil_lines": ["(கா)"],
+        "english_lines": ["(Kaa — source refrain cue)"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": "முத்தன்",
+        "english_label": "முத்தன்",
+        "source_tamil_lines": ["அன்பில் விளைந்த மாமணி..."],
+        "english_lines": ["O great gem born of love..."],
+        "notes": []
+      },
+      {
+        "ordinal": 6,
+        "source_label": "முத்தாயி",
+        "english_label": "முத்தாயி",
+        "source_tamil_lines": ["ஆனந்த வாழ்வின் செல்வம் நீ"],
+        "english_lines": ["You are the treasure of a blissful life."],
+        "notes": []
+      },
+      {
+        "ordinal": 7,
+        "source_label": "முத்தன்",
+        "english_label": "முத்தன்",
+        "source_tamil_lines": ["கண்ணில் நின்றாடும் பாவையே"],
+        "english_lines": ["O maiden who stands dancing in my eyes."],
+        "notes": [
+          "The eye/dancing image is preserved directly rather than normalized to `the girl I always see`."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "முத்தாயி",
+        "english_label": "முத்தாயி",
+        "source_tamil_lines": ["இன்பத்தின் எல்லை காணுவோம்..."],
+        "english_lines": ["Let us behold the boundary of bliss..."],
+        "notes": [
+          "`எல்லை` remains `boundary`, retaining the source's spatial metaphor for joy."
+        ]
+      },
+      {
+        "ordinal": 9,
+        "source_label": "முத்தன்",
+        "english_label": "முத்தன்",
+        "source_tamil_lines": ["இதய வீணையே...."],
+        "english_lines": ["O veena of my heart...."],
+        "notes": [
+          "`வீணை` is retained as `veena`, preserving the culture-bearing instrument image."
+        ]
+      },
+      {
+        "ordinal": 10,
+        "source_label": "இருவரும்",
+        "english_label": "இருவரும்",
+        "source_tamil_lines": ["ஈடில்லாத வாழ்விதே"],
+        "english_lines": ["This is a life without equal."],
+        "notes": []
+      },
+      {
+        "ordinal": 11,
+        "source_label": "இருவரும்",
+        "english_label": "இருவரும்",
+        "source_tamil_lines": [
+          "காதல் நிலவே புதுமைக் கனவே-மன",
+          "மேவும் இன்ப ஜோதியே - ஓடிவா"
+        ],
+        "english_lines": [
+          "O moon of love, O new dream — O blissful flame",
+          "That dwells in the heart — come running."
+        ],
+        "notes": [
+          "The closing variation changes `காதல் துறை` to `காதல் நிலவு`; the English preserves that source variation instead of forcing a uniform refrain."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The source turn labels `முத்தாயி`, `முத்தன்`, and `இருவரும்` remain exact; no performer identities are inferred.",
+      "The translation preserves the source's cloud, plumage, gem, dancing-maiden, boundary, veena, moon and flame images rather than replacing them with generic romantic language.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
