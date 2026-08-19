@@ -6,7 +6,7 @@ Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
 ## Mandatory startup
 
-Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, all scaled batch reviews through `translations/BATCH_047_054_REVIEW.md`, `editions/en/PREFLIGHT_QA_REPORT.md`, `editions/en/audit_probe.py`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
+Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, all scaled batch reviews through `translations/BATCH_047_054_REVIEW.md`, `editions/en/PREFLIGHT_QA_REPORT.md`, `editions/en/QA_REPORT.md`, `editions/en/manifest.json`, `editions/en/audit_probe.py`, `editions/en/build.py`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
 
 ## Controlling source
 
@@ -54,8 +54,8 @@ Workflow: `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
 
 Latest passing automated run:
 
-- head commit audited: `f919d3b177c5114b6bc32eb64318207f2a6773c5`;
-- workflow run: `32274775152`;
+- head commit audited: `c435719bad7febc02a91c90224f65d9ff8547e5e`;
+- workflow run: `32279227050`;
 - Python: 3.12;
 - audit warnings/errors: **0/0**.
 
@@ -99,7 +99,13 @@ Generated-output QA confirms:
 - **0** English-line text drift;
 - **0 warnings / 0 errors**.
 
-The manifest hashes **110 authoritative inputs** and all generated publication outputs. Do not manually edit generated reader files; rerun `editions/en/build.py` through the workflow when authoritative inputs change.
+The manifest hashes **110 authoritative inputs** and all generated publication outputs. Current generated hashes are:
+
+- Markdown: `42e13ad7a171b4304ef4b1b8b424fa7f50ebace8510c7ea864f49c31dc9cc209`;
+- HTML: `d48bd5476ba3cbdc540334abaf743b4481d0a1b7cae37d5bc4198f15adebc034`;
+- JSON: `8e9782ca160e07bd9f45be38931d3d3ad07c3a126a0be6755b67e7e7fdec1ed8`.
+
+Do not manually edit generated reader files; rerun `editions/en/build.py` through the workflow when authoritative inputs change.
 
 ## Exact next activity
 
