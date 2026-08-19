@@ -6,7 +6,7 @@ Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
 ## Mandatory startup
 
-Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `notes/FINAL_DRAFT_001_003_REVIEW.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`, `translations/BATCH_033_039_REVIEW.md`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
+Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `notes/FINAL_DRAFT_001_003_REVIEW.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, `translations/BATCH_026_032_REVIEW.md`, `translations/BATCH_033_039_REVIEW.md`, `translations/BATCH_040_046_REVIEW.md`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
 
 ## Controlling source
 
@@ -49,16 +49,17 @@ Authoritative English-layer files:
 - `translations/BATCH_019_025_REVIEW.md`;
 - `translations/BATCH_026_032_REVIEW.md`;
 - `translations/BATCH_033_039_REVIEW.md`;
-- `translations/records/song-001.json` through `song-039.json`.
+- `translations/BATCH_040_046_REVIEW.md`;
+- `translations/records/song-001.json` through `song-046.json`.
 
 Counts:
 
 - source songs: **54/54 Tamil verified**;
-- English translated total: **39/54**;
+- English translated total: **46/54**;
 - English pilot-verified: **3** (`001–003`);
-- English verified: **36** (`004–039`);
+- English verified: **43** (`004–046`);
 - English draft/review: **0/0**;
-- English not started: **15** (`040–054`).
+- English not started: **8** (`047–054`).
 
 Completed scaled batches:
 
@@ -66,7 +67,8 @@ Completed scaled batches:
 - `012–018` — `அம்மையப்பன்` — **7/7 verified**;
 - `019–025` — **7/7 verified**;
 - `026–032` — **7/7 verified**;
-- `033–039` — **7/7 verified**.
+- `033–039` — **7/7 verified**;
+- `040–046` — **7/7 verified**.
 
 ## Non-negotiable translation rule — retain Kalaignar's language
 
@@ -74,21 +76,21 @@ Use `semantic-poetic-source-faithful` English, not a singable adaptation.
 
 Preserve repetition/refrains, political and social force, concrete imagery, rhetorical questions, colloquial energy, culture-bearing terms, exact source turn/performance labels, and source anomalies as documented pressure points rather than hidden Tamil corrections.
 
-The `033–039` batch adds important precedents:
+The `040–046` batch adds important precedents:
 
-- `033`: keep triple cheek/bowl/colour/sign repetition, the forceful bird, burning moon and the paired two-fish/two-honeys/two-deer/two-skies image chain; do not decode those images into body-part prose;
-- `034`: keep the three-person paper boat and shared sinking, social abandonment, no place for the poor, no god in any temple, literal **death at six, death at a hundred**, and final Amma/mother call;
-- `035`: keep `வட்டி / அசல்` as **interest / principal**, source-joined `கனியேமலரே` as conservative **fruit-flower**, cheek/fruit-lip/marriage wordplay, love putting forth shoots and throbbing `பருவம்`;
-- `036`: preserve **justice for the heart / sword for the shoulder**, Bharathi/Buddha/Gandhi/Arignar Anna rhetoric, direct caste/religion challenge, duty/rights/humanity, `anne / appa`, and corruption/mirror/blame/pillar warning; preserve PDF 86–87 as one record;
-- `037`: preserve **people / sceptre**, people cooking in burning fire, kings on the road, `sirukodindha`, bungalow/sour-kaadi street-life satire, pearl/mucus and gem reversals, `kuthuk-kallu`, and **survive by dying**; preserve PDF 90–91 as one record;
-- `038`: retain direct **O Tamil**, thousand crescents, sun procession, Podhigai breeze, literature/youth/old-age chain and source-pressure `Ponni nadiyaan` without normalization;
-- `039`: retain `kurinji`, honey-waist, rock-candy/milk/sugarcane-plough imagery, `iyal / isai / koothu / Muthamizh`, three fruits, `mukti`, pearl-rain, two-lamps embrace/extinguish pressure and **Tamil Mother**.
+- `040`: keep **Kuramullai**, the one-day embrace/Raja refrain, little-flower eyes, source-pressure `சொல்லுக்கு செய்தாயே`, `பாட்டுப்பட்ட` as **song-struck**, `vallal`, and `rammai / jinnai / naatti`; do not repair these through soundtrack familiarity;
+- `041`: keep the worker/rest elegy, mother's-lap / ground-sleep reversal, **little lion**, caste-division weapons, principle/martyrdom, Jesus/Buddha/Prophets/Gandhi/Periyar/Anna/Ambedkar chain, **speaking storm**, lineage-lamp and rough `da`;
+- `042`: keep folk `di`, sun-fire/conspiracy burning, verified `ஏறிமலையில்` as source-pressure **eeri-malai**, clan-deity/golden-clan lion/earthquake-stage images, `kummi / kulavai`, `thambi`, explicit **private ownership / common ownership**, and `thumbi`;
+- `043`: keep the campaign quotation, paired **calmly / at ease**, rise/fall/weights metaphor, worker/town-cheater contrast, vote-buying wretches, **bribe-demons**, rice-price politics, **hand for kinship / voice for rights**, `thambi`, Thenpandi lion and Kalaignar's `udanpirappe` address;
+- `044`: keep **khaki-shirt man**, do-what-we-said / say-only-what-we-did ethics, `mamool`, the fence-grazing-crop proverb, goat/`vengai`, illicit-liquor `support` code-mixing and cotton-fluff tearing imagery;
+- `045`: keep tears bathing the father's feet, **fingers made into eyes**, **ocean of compassion / Himalaya of patience**, and the source's hearts-as-flowers / garland / neck-of-fame-summit mixed metaphor;
+- `046`: keep tilted court balance, repeated innocent-death question, **sin with one / blame with another**, `amavasai`, predator/goat and fence/crop images, **Mother Tamilagam**, and the verified closing `வாழுக்குவேலை / வாழுக்கு வேலை` as **vaazhukku-velai / vaazhukku velai** rather than silently emending it to a familiar alternate phrase.
 
-Do not revise verified 001–039 English into smoother generic lyric English merely for fluency.
+Do not revise verified 001–046 English into smoother generic lyric English merely for fluency.
 
 ## Exact next activity
 
-Translate and verify **songs 040–046**.
+Translate and verify the **final songs 047–054**.
 
 For each song:
 
@@ -96,10 +98,10 @@ For each song:
 2. preserve anthology number, film provenance and source PDF page(s);
 3. create one source-linked English record under `translations/records/`;
 4. map every Tamil lyric line/cue to English;
-5. retain Kalaignar's language according to the approved guide and 001–039 precedents;
+5. retain Kalaignar's language according to the approved guide and 001–046 precedents;
 6. document difficult cultural/colloquial/source-specific terms rather than smoothing them away;
-7. preserve any multi-page provenance exactly as the verified Tamil song record carries it;
-8. update `translations/index.json` and create the next batch review only after all songs pass.
+7. preserve `051` as one English record across PDF **121–122** and `052` as one English record across PDF **123–124**;
+8. update `translations/index.json` and create the final batch review only after all eight songs pass.
 
 Do not alter verified Tamil files merely to make English smoother.
 
