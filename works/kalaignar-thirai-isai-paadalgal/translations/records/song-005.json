@@ -1,0 +1,148 @@
+{
+  "id": "kalaignar-song-en-005",
+  "song_id": "kalaignar-song-005",
+  "anthology_song_number": 5,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-005.md",
+    "tamil_status": "verified",
+    "pdf_pages": [34],
+    "tamil_title": "பேசும் யாழே பெண் மானே",
+    "film_title_ta": "நாம்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "O speaking yaazh, O doe",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "குமரன்",
+        "english_label": "Kumaran",
+        "source_tamil_lines": [
+          "பேசும் யாழே பெண் மானே",
+          "வீசும் தென்றல் நீ தானே"
+        ],
+        "english_lines": [
+          "O speaking yaazh, O doe,",
+          "You are the breeze that blows."
+        ],
+        "notes": [
+          "`யாழ்` is retained as `yaazh` rather than replaced with a generic harp, preserving the Tamil cultural image."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "மீனா",
+        "english_label": "Meena",
+        "source_tamil_lines": [
+          "நீல வானே தன்னை மறந்து",
+          "நிலவினைப் புகழ்ந்திடலாமோ"
+        ],
+        "english_lines": [
+          "O blue sky, forgetting yourself,",
+          "Can you go praising the moon?"
+        ],
+        "notes": [
+          "The sky/moon comparison and rhetorical question are kept intact rather than converted into a generic compliment."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "குமரன்",
+        "english_label": "Kumaran",
+        "source_tamil_lines": [
+          "எழிலே! தமிழ்க் காவியமே",
+          "எழுதாத ஓவியமே -"
+        ],
+        "english_lines": [
+          "O beauty! O Tamil epic,",
+          "O painting never painted —"
+        ],
+        "notes": [
+          "`தமிழ்க் காவியமே` remains `Tamil epic`; `எழுதாத ஓவியமே` keeps its deliberately paradoxical unpainted-painting image."
+        ]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "மீனா",
+        "english_label": "Meena",
+        "source_tamil_lines": [
+          "இன்ப மொழி பேசி பேசி",
+          "அன்புப் பார்வை வீசி வீசி"
+        ],
+        "english_lines": [
+          "Speaking and speaking words of delight,",
+          "Casting and casting loving glances."
+        ],
+        "notes": [
+          "The doubled verbs `பேசி பேசி` and `வீசி வீசி` remain doubled rather than being compressed for smoother English."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "குமரன்",
+        "english_label": "Kumaran",
+        "source_tamil_lines": [
+          "பேசும் யாழே பெண் மானே -"
+        ],
+        "english_lines": [
+          "O speaking yaazh, O doe —"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 6,
+        "source_label": "மீனா",
+        "english_label": "Meena",
+        "source_tamil_lines": [
+          "யாழே நானென்றால் நாதம் நீதானே"
+        ],
+        "english_lines": [
+          "If I am the yaazh, you are its resonance, are you not?"
+        ],
+        "notes": [
+          "`நாதம்` is rendered as `resonance` so the yaazh/sound relationship remains audible."
+        ]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "குமரன்",
+        "english_label": "Kumaran",
+        "source_tamil_lines": [
+          "நாதத்தில் பேதம் உண்டு",
+          "நமக்கது வேண்டாமே"
+        ],
+        "english_lines": [
+          "In resonance there can be difference;",
+          "Let there be none of that between us."
+        ],
+        "notes": [
+          "The `நாதம் / பேதம்` turn is preserved semantically as sound/resonance versus difference/division rather than rewritten into a new English rhyme."
+        ]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "இருவரும்",
+        "english_label": "Both",
+        "source_tamil_lines": [
+          "காதல் வாழ்கவே கனி ரசமே",
+          "மாதர் மறவர் உல்லாசமே."
+        ],
+        "english_lines": [
+          "Long live love, O fruit-nectar,",
+          "Delight of women and warriors."
+        ],
+        "notes": [
+          "`கனி ரசமே` keeps the concrete fruit-nectar image.",
+          "`மாதர் மறவர்` is retained literally as women and warriors rather than normalized to a generic lovers/couples phrase."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "This duet keeps Kalaignar's dense sequence of yaazh, doe, breeze, sky, moon, Tamil epic, painting, fruit and warrior images instead of smoothing them into conventional romantic English.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
