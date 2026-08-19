@@ -1,0 +1,99 @@
+{
+  "id": "kalaignar-song-en-044",
+  "song_id": "kalaignar-song-044",
+  "anthology_song_number": 44,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-044.md",
+    "tamil_status": "verified",
+    "pdf_pages": [106],
+    "tamil_title": "காவலுக்கு கெட்டிக்காரன்",
+    "film_title_ta": "காவலுக்கு கெட்டிக்காரன்",
+    "attribution_status": "anthology-attributed"
+  },
+  "translation": {
+    "english_title": "A tough one for guarding",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "காவலுக்கு கெட்டிக்காரன் இந்த காக்கிச்சட்டைக்காரன்",
+          "தஞ்சாவூரு ஜில்லாக்காரன் அவன்",
+          "அஞ்சாநெஞ்சம் படச்ச வீரன்",
+          "சொன்னதை செய்வோமென்பான்",
+          "அப்படி செய்ததையே சொல்வோமென்பான்",
+          "நம்பிக்கையா நடந்துக்குவான்",
+          "நம்ப நாட்டுக்காக உழைச்சிடுவான்",
+          "மாமூலு வாங்கமாட்டான்",
+          "நல்ல மனுஷங்கள் வெறுக்க மாட்டான்",
+          "மனசாட்சி கடவுளென்பான்",
+          "நம்ப மக்களுக்கு தொண்டு செய்வான்",
+          "(காவலுக்கு கெட்டிக்காரன்)"
+        ],
+        "english_lines": [
+          "A tough one for guarding — this khaki-shirt man,",
+          "He is a fellow from Thanjavur district,",
+          "A warrior made with a fearless heart,",
+          "He will say, 'We will do what we said,'",
+          "He will say only what he actually did,",
+          "He will conduct himself so as to be trusted,",
+          "He will work for our country,",
+          "He will not take mamool,",
+          "He will not hate good people,",
+          "He will say conscience is God,",
+          "He will serve our people,",
+          "(A tough one for guarding)."
+        ],
+        "notes": [
+          "The police-song register remains colloquial: `காக்கிச்சட்டைக்காரன்` is kept as `khaki-shirt man` rather than formalized as police officer.",
+          "`மாமூலு` remains `mamool`, preserving the source's culturally specific bribe/regular-payment term.",
+          "The paired `சொன்னதை செய்வோம் / செய்ததையே சொல்வோம்` formulation remains explicit instead of being summarized as honesty."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "source_tamil_lines": [
+          "வேலியே பயிரை மேயும் - அந்த",
+          "வேதனையை பொறுக்க மாட்டான்",
+          "வெள்ளாட்டு மேலே பாயும் - ஒரு",
+          "வேங்கையாக இருக்க மாட்டான்",
+          "சாராயம் காய்ச்சும் கூட்டம் - இவன்",
+          "சப்போர்ட்டு கேட்டுதுன்னா",
+          "சத்தியமா துடிச்சிடுவான்",
+          "சவுக்காலே அடிச்சிடுவான்",
+          "பதுக்கலையும் கடத்தலையும்",
+          "பஞ்சு பஞ்சா பிச்சிடுவான்",
+          "(காவலுக்கு கெட்டிக்காரன்)"
+        ],
+        "english_lines": [
+          "When the fence itself grazes the crop — that,",
+          "He will not bear that pain,",
+          "He will not be a vengai,",
+          "Pouncing upon a white goat,",
+          "If the gang that brews illicit liquor,",
+          "Comes asking him for support,",
+          "By truth, he will flare up,",
+          "He will strike with the whip,",
+          "Hoarding and smuggling,",
+          "He will tear them into cotton-fluff, cotton-fluff,",
+          "(A tough one for guarding)."
+        ],
+        "notes": [
+          "The proverb-image `வேலியே பயிரை மேயும்` remains literally the fence grazing the crop.",
+          "`வேங்கை` remains `vengai`, keeping the tiger/tree-associated heroic image rather than forcing a single English equivalent.",
+          "The illicit-liquor `support` code-mixing and the violent colloquial `பஞ்சு பஞ்சா பிச்சிடுவான்` are retained as source-shaped speech, not softened into bureaucratic anti-smuggling language."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The lyric idealizes a police figure through colloquial speech, anti-bribery language and proverb-like violence against corruption. The English retains that register rather than converting it into formal civic prose.",
+      "This is a literary source-faithful translation, not a singable adaptation."
+    ]
+  }
+}
