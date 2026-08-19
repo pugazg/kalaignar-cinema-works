@@ -43,14 +43,14 @@ The Tamil corpus is therefore **54/54 complete-verified** and must be treated as
 English translation lives separately under `../translations/`:
 
 - status: **in progress**;
-- translated: **18/54**;
+- translated: **25/54**;
 - pilot-verified: **001–003**;
-- verified: **004–018**;
+- verified: **004–025**;
 - draft/review: **0/0**;
-- not started: **019–054 — 36 songs**;
+- not started: **026–054 — 29 songs**;
 - mode: **`semantic-poetic-source-faithful`**;
 - governing guide: `../../../docs/SONG_TRANSLATION_GUIDE.md`;
-- scaled reviews: `../translations/BATCH_004_011_REVIEW.md`, `../translations/BATCH_012_018_REVIEW.md`;
-- next English batch: **019–025**.
+- scaled reviews: `../translations/BATCH_004_011_REVIEW.md`, `../translations/BATCH_012_018_REVIEW.md`, `../translations/BATCH_019_025_REVIEW.md`;
+- next English batch: **026–032**.
 
-The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability. Songs `019`, `023` and `024` are multi-page Tamil records and must retain their complete page provenance when translated.
+The English layer must retain Kalaignar's language and must never rewrite these verified Tamil song files for smoothness, rhyme or singability. Multi-page translated records `019`, `023` and `024` retain their complete source-page provenance.
