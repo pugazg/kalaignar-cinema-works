@@ -6,7 +6,7 @@ Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
 ## Mandatory startup
 
-Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `notes/FINAL_DRAFT_001_003_REVIEW.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
+Read current `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`, `notes/FULL_PDF_SONG_PAGE_SCAN.md`, `notes/FINAL_DRAFT_001_003_REVIEW.md`, `songs/page-map.json`, `songs/index.json`, `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, `translations/BATCH_004_011_REVIEW.md`, `translations/BATCH_012_018_REVIEW.md`, `translations/BATCH_019_025_REVIEW.md`, and `docs/SONG_TRANSLATION_GUIDE.md` before changing this work. Current GitHub `main` is authoritative.
 
 ## Controlling source
 
@@ -46,21 +46,23 @@ Authoritative English-layer files:
 - `translations/PILOT_REVIEW.md`;
 - `translations/BATCH_004_011_REVIEW.md`;
 - `translations/BATCH_012_018_REVIEW.md`;
-- `translations/records/song-001.json` through `song-018.json`.
+- `translations/BATCH_019_025_REVIEW.md`;
+- `translations/records/song-001.json` through `song-025.json`.
 
 Counts:
 
 - source songs: **54/54 Tamil verified**;
-- English translated total: **18/54**;
+- English translated total: **25/54**;
 - English pilot-verified: **3** (`001–003`);
-- English verified: **15** (`004–018`);
+- English verified: **22** (`004–025`);
 - English draft/review: **0/0**;
-- English not started: **36** (`019–054`).
+- English not started: **29** (`026–054`).
 
 Completed scaled batches:
 
 - `004–011` — `நாம்` — **8/8 verified**;
-- `012–018` — `அம்மையப்பன்` — **7/7 verified**.
+- `012–018` — `அம்மையப்பன்` — **7/7 verified**;
+- `019–025` — **7/7 verified**.
 
 ## Non-negotiable translation rule — retain Kalaignar's language
 
@@ -68,21 +70,27 @@ Use `semantic-poetic-source-faithful` English, not a singable adaptation.
 
 Preserve repetition/refrains, political and social force, concrete imagery, rhetorical questions, colloquial energy, culture-bearing terms, exact source turn/performance labels, and source anomalies as documented pressure points rather than hidden Tamil corrections.
 
-The `அம்மையப்பன்` batch adds several important precedents:
+The `019–025` batch adds important precedents:
 
-- song `012`: keep Ammaiyappa/Aiyan devotional address, paradox chains, king/`aandis` hierarchy, palanquin bearers/riders and proverbial natural images;
-- `013`: retain `paappa` and child-song repetition rather than varying the vocative;
-- `014`: preserve the realm-of-love/cloud/plumage/gem/dancing-maiden/boundary/heart-veena imagery and exact duet labels;
-- `015`: repeated Tamil shared with `014` should retain matching English; do not invent a possessor for the final `மடியில்` line;
-- `016`: preserve agal-lamp, Tamil/Kaveri/Dravida imagery and explicitly document the difficult verified `நீ... இராவிடம் இருள் சூழும் / என்ற நிலை தந்த` wording instead of repairing it;
-- `017`: preserve living-portrait, epic-of-flavour, fallen-statue and empty-temple imagery;
-- `018`: preserve love-dove, tender-shoot body, deer-skinned tiger, mango-cuckoo and moon-maiden imagery.
+- `019`: preserve theatre-ticket comedy, code-mixed Tamil, ticket-price patter and sound jokes; where Tamil sound-play has no safe English equivalent, transliterate rather than invent a substitute joke;
+- `020`: keep unemployment explicit and retain `seemaatti` for the mistaken social-rank joke;
+- `021`: keep `ocean-girdled world`, `thaazhi` vessel and **grammar of chastity** rather than smoothing them;
+- `022`: retain **jewel-dove**, the flower-spreading bed and `Poomaane` as a documented compact source form;
+- `023`: preserve source `வசனம்` / `பாட்டு` alternation and source-spelled Clavar/Daiman/Ispade card language; do not modernize suit forms silently;
+- `024`: keep **body of fame**, body-as-cage, walking corpse, pandaaram/paradesi/Govinda, temple of knowledge and working comrade;
+- `025`: retain Ayarpadi Kanna, Mayakkara/Jaalakkara/Bhagavane, Bhama, burning-ember love, lightning-waist, honey-cheek and spear-shaming eyes.
 
-Do not revise verified 001–018 English into smoother generic lyric English merely for fluency.
+Multi-page English records already completed and preserved in this batch:
+
+- `019` — PDF 53–54;
+- `023` — PDF 58–59;
+- `024` — PDF 62–63.
+
+Do not revise verified 001–025 English into smoother generic lyric English merely for fluency.
 
 ## Exact next activity
 
-Translate and verify **songs 019–025**.
+Translate and verify **songs 026–032**.
 
 For each song:
 
@@ -90,10 +98,10 @@ For each song:
 2. preserve anthology number, film provenance and source PDF page(s);
 3. create one source-linked English record under `translations/records/`;
 4. map every Tamil lyric line/cue to English;
-5. retain Kalaignar's language according to the approved guide and 001–018 precedents;
+5. retain Kalaignar's language according to the approved guide and 001–025 precedents;
 6. document difficult cultural/colloquial/source-specific terms rather than smoothing them away;
-7. preserve cross-page provenance for `019` (PDF 53–54), `023` (PDF 58–59) and `024` (PDF 62–63);
-8. update `translations/index.json` and create `translations/BATCH_019_025_REVIEW.md` only after all seven songs pass.
+7. preserve any multi-page provenance exactly as the verified Tamil song record carries it;
+8. update `translations/index.json` and create the next batch review only after all songs pass.
 
 Do not alter verified Tamil files merely to make English smoother.
 
