@@ -1,4 +1,4 @@
-name: Kalaignar song anthology English reader QA and build
+name: Kalaignar song anthology English reader QA and Reading Room payload
 
 on:
   workflow_dispatch:
@@ -8,6 +8,7 @@ on:
     paths:
       - "works/kalaignar-thirai-isai-paadalgal/translations/index.json"
       - "works/kalaignar-thirai-isai-paadalgal/translations/records/**"
+      - "works/kalaignar-thirai-isai-paadalgal/songs/index.json"
       - "works/kalaignar-thirai-isai-paadalgal/songs/page-map.json"
       - "works/kalaignar-thirai-isai-paadalgal/songs/song-*.md"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py"
@@ -15,13 +16,15 @@ on:
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/build.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py"
+      - "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/build.py"
+      - "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/sync_status.py"
       - ".github/workflows/kalaignar-song-anthology-english-preflight.yml"
 
 permissions:
   contents: write
 
 jobs:
-  reader-qa-and-build:
+  reader-qa-and-reading-room-payload:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -50,7 +53,13 @@ jobs:
       - name: Synchronize completed reader/export status
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py
 
-      - name: Commit passing reader package and status
+      - name: Build and validate Reading Room integration payload
+        run: python works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/build.py
+
+      - name: Synchronize Reading Room payload status
+        run: python works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/sync_status.py
+
+      - name: Commit passing reader and Reading Room payload checkpoints
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -72,10 +81,13 @@ jobs:
             works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.html \
             works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.json \
             works/kalaignar-thirai-isai-paadalgal/editions/en/QA_REPORT.md \
-            works/kalaignar-thirai-isai-paadalgal/editions/en/manifest.json
+            works/kalaignar-thirai-isai-paadalgal/editions/en/manifest.json \
+            works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/reading-room.json \
+            works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/QA_REPORT.md \
+            works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/manifest.json
           if git diff --cached --quiet; then
-            echo "Reader package and synchronized status are already reproducible; nothing to commit."
+            echo "Reader package, integration payload and synchronized status are already reproducible; nothing to commit."
           else
-            git commit -m "Finalize anthology English reader package [skip ci]"
+            git commit -m "Prepare anthology Reading Room payload [skip ci]"
             git push
           fi
