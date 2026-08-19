@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**English translation pilot — pilot-verified after complete Tamil fidelity closure.**
+**English translation — in progress after verified pilot.**
 
 The Tamil source layer is fixed at **54/54 complete-verified**. English is a separate source-linked derivative and follows `docs/SONG_TRANSLATION_GUIDE.md`.
 
-For the supplied PDF alone, Tamil lyric-file work still follows the established page rule: process only actual numbered lyric pages/direct continuations; ignore all other pages. That Tamil phase is now closed.
+For the supplied PDF alone, Tamil lyric-file work follows the established page rule: process only actual numbered lyric pages/direct continuations; ignore all other pages. That Tamil phase is closed.
 
 ## Source/Tamil checkpoint
 
@@ -30,21 +30,23 @@ Authoritative Tamil/source records:
 | Item | Status |
 |---|---:|
 | Source songs available | 54 |
+| English translated total | 11 |
 | Pilot-verified English songs | 3 |
-| Verified English songs beyond pilot | 0 |
+| Verified English songs beyond pilot | 8 |
 | English draft | 0 |
 | English review | 0 |
-| English not started | 51 |
+| English not started | 43 |
 
-Pilot records:
+Pilot records: `001–003`.  
+First scaled verified batch: `004–011` (`நாம்`).
 
-- `translations/records/song-001.json`
-- `translations/records/song-002.json`
-- `translations/records/song-003.json`
+Translation authorities:
 
-Pilot review: `translations/PILOT_REVIEW.md`  
-Index: `translations/index.json`  
-Schema: `translations/schema.json`
+- `translations/index.json`
+- `translations/schema.json`
+- `translations/PILOT_REVIEW.md`
+- `translations/BATCH_004_011_REVIEW.md`
+- `docs/SONG_TRANSLATION_GUIDE.md`
 
 ## Kalaignar-language translation rule
 
@@ -60,12 +62,23 @@ The English must retain Kalaignar's language rather than become generic lyric pr
 - no rhyme or singability is invented at the cost of meaning;
 - difficult source forms are documented rather than silently corrected through English.
 
-The three-song pilot deliberately tested:
+## First scaled batch result — `004–011`
 
-- `001` — rustic political/social satire;
-- `002` — romantic metaphor and duet-turn structure;
-- `003` — maternal lament and poor-versus-privileged class contrast.
+PASS — **8/8 verified**.
+
+The batch confirms the voice rules across multiple registers:
+
+- `004`: folk devotion + rain/science argument + tax grievance;
+- `005`: romantic yaazh/doe/Tamil-epic imagery and duet repetition;
+- `006`: `மணம்` fragrance/marriage wordplay and full lament image chain;
+- `007`: grief version of the yaazh motif, singing ghost and inscribed-page imagery;
+- `008`: comic village performance, Mahabharata taunts and source-anomalous forms retained by transliteration;
+- `009`: rationalist/agricultural political language, science/ploughing, labour versus miracle, common granary;
+- `010`: praise, rights, class contrast, reform images and rational thought;
+- `011`: political endurance through snakes, prison, torture, Socrates, deathless Gandhi, honey/scorpion, battlefront death and army imagery.
+
+No verified Tamil song file was modified by this English batch.
 
 ## Next activity
 
-Translate and verify **songs 004–011**, the complete `நாம்` group, using the approved pilot voice decisions. Do not alter any verified Tamil file to make the English smoother.
+Translate and verify **songs 012–018** (`அம்மையப்பன்`) using the same approved Kalaignar-language source-faithful rules.
