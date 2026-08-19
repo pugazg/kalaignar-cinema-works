@@ -8,6 +8,19 @@ ROOT = Path(__file__).resolve().parents[4]
 WORK_ID = "kalaignar-thirai-isai-paadalgal"
 REPORT_PATH = "works/kalaignar-thirai-isai-paadalgal/editions/en/PREFLIGHT_QA_REPORT.md"
 
+# Translation index: the translation layer itself is closed. Reader/export is a
+# downstream derivative, so do not leave a stale translation continuation.
+translation_index_path = ROOT / "works" / WORK_ID / "translations" / "index.json"
+translation_index = json.loads(translation_index_path.read_text(encoding="utf-8"))
+translation_index["reader_export_preflight"] = "complete-pass"
+translation_index["reader_export_preflight_report"] = REPORT_PATH
+translation_index["next_batch"] = None
+translation_index["next_action"] = None
+translation_index_path.write_text(
+    json.dumps(translation_index, ensure_ascii=False, separators=(",", ":")),
+    encoding="utf-8",
+)
+
 # Central machine registry. This update is naturally idempotent.
 registry_path = ROOT / "data" / "works.json"
 registry = json.loads(registry_path.read_text(encoding="utf-8"))
