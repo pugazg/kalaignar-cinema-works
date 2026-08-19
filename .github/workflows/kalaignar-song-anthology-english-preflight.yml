@@ -13,7 +13,6 @@ on:
       - "works/kalaignar-thirai-isai-paadalgal/songs/song-*.md"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/audit_probe.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py"
-      - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/build.py"
       - "works/kalaignar-thirai-isai-paadalgal/editions/en/sync_reader_status.py"
       - "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/build.py"
@@ -43,9 +42,6 @@ jobs:
 
       - name: Write passing preflight report
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/write_preflight_report.py
-
-      - name: Synchronize repository preflight status
-        run: python works/kalaignar-thirai-isai-paadalgal/editions/en/sync_preflight_status.py
 
       - name: Build and validate deterministic English reader exports
         run: python works/kalaignar-thirai-isai-paadalgal/editions/en/build.py
