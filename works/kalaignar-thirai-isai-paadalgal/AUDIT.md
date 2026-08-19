@@ -2,7 +2,7 @@
 
 ## Scope
 
-This checkpoint covers the **complete 194-page song-presence scan** and line-level Tamil lyric verification through numbered song **025**.
+This checkpoint covers the **complete 194-page song-presence scan** and line-level Tamil lyric verification for every numbered song except the three early draft records `001–003`.
 
 The rendered scan is authoritative. The full-PDF scan classifies pages; a song is marked verified only after its own song-bearing page(s) are visually checked.
 
@@ -21,34 +21,41 @@ Machine map: `songs/page-map.json`
 ## Lyric fidelity status
 
 - draft: **3** (`001–003`);
-- verified: **22** (`004–025`);
+- verified: **51** (`004–054`);
 - review: **0**;
-- not started: **29** (`026–054`).
+- not started: **0**.
 
-Verified page runs:
+Latest detailed review: `notes/FINAL_PAGE_BATCH_065_130_REVIEW.md`.
 
-- PDF 33–41 → songs 004–011;
-- PDF 44–50 → songs 012–018;
-- PDF 53–59 → songs 019–023;
-- PDF 62–63 → song 024;
-- PDF 64 → song 025.
+### Final not-started batch disposition
 
-Latest detailed review: `notes/PAGE_BATCH_064_REVIEW.md`.
+The final page-driven run processed songs `026–054` only from their established song-bearing pages:
 
-### Latest fidelity dispositions
+`65–67, 70, 73–74, 77, 80, 83–84, 86–87, 90–94, 97, 100, 103, 106, 109–110, 113, 116–117, 120–124, 127, 130`.
 
-- Song 025 is a single-page numbered lyric on PDF/printed page 64.
-- Music `டி.ஆர்.பாப்பா` and voice `டி.வி. ரத்னம்` are taken directly from the numbered lyric page.
-- Repeated `மாயக்காரா`, `ஜாலக்காரா`, `பகவானே`, the page's parenthesized refrain and source hyphenation are preserved.
-- Source-visible forms including `ஆடவாராய்`, `காணக்கிடைக்கா`, `தேனுறும்`, and `வேலைப் பழிக்கும்` are not silently normalized.
-- No external recording, lyric website or alternate edition supplied text.
+That run created and visually verified **29** song files. It did not create files from intervening non-song pages.
+
+New cross-page records in that run:
+
+- `036` — PDF 86–87;
+- `037` — PDF 90–91;
+- `051` — PDF 121–122;
+- `052` — PDF 123–124.
+
+Source-specific speaker labels, refrain cues, vocalizations, punctuation, colloquial wording, unusual compounds and lineation were preserved. No external recording, lyric website or alternate edition was used to fill, repair or normalize the Tamil.
 
 ## PDF-specific processing rule
 
 For this PDF only, process actual numbered lyric pages/direct continuations and ignore every other page for lyric-file creation. Do not import missing lyrics from elsewhere.
 
-## Next
+## Remaining Tamil gate
 
-Resume at **PDF 65 / song 026** and continue only through the whitelist.
+The numbered corpus has **no not-started songs**, but it is **not yet complete-verified** because three pilot records remain drafts.
 
-Songs 001–003 still require their dedicated fidelity recheck before the Tamil corpus can become contiguous-complete.
+Reinspect only:
+
+- PDF 26 → song `001`;
+- PDF 29 → song `002`;
+- PDF 30 → song `003`.
+
+If those three pass, promote the Tamil lyric corpus to complete-verified. English translation remains blocked until then.
