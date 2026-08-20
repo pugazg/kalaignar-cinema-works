@@ -1,0 +1,10 @@
+work: manthiri-kumari
+source: TVA_BOK_0026144_மந்திரி_குமாரி.pdf
+status: verified-from-source
+credits:
+  story_dialogue:
+    printed: "கதை, வசனம் : மு. கருணாநிதி"
+    attribution_status: primary-source-verified
+  lyric_authorship:
+    status: not-assigned
+    reason: source does not provide item-level lyricist credits
