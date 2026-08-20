@@ -1,0 +1,84 @@
+id: tva-bok-0065773
+parent_work_id: kalaignar-thirai-isai-paadalgal
+witness_role: additional_source_witness
+work_type: film_song_anthology
+source_type: compiled_printed_film_lyrics_anthology
+
+source:
+  identifier_from_filename: "TVA_BOK_0065773"
+  filename: "TVA_BOK_0065773_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf"
+  byte_size: 10419528
+  sha256: "56d414a65a61a73b990632eadc17a3b1efdc764d47f64b851060c161a3f98e3b"
+  physical_pdf_pages: 62
+  scan_type: image_only
+  embedded_text_observed: false
+  ocr_authority: non_canonical_navigation_only
+  repository_binary_storage: not_committed
+
+publication_as_printed:
+  title: "கலைஞர் திரை இசைப் பாடல்கள்"
+  compiler_title_page: "தொகுப்பு சிலோன் விஜயேந்திரன்"
+  compiler_cover: "தொகுப்பாசிரியர் சிலோன் விஜயேந்திரன்"
+  edition_label: "முதற்பதிப்பு:"
+  edition_date: "வைகாசி 21, திருவள்ளுவர் 2020 (03.06.89)"
+  gregorian_date_as_printed: "03.06.89"
+  publisher_imprint: "காந்தளகம்"
+  chennai_address:
+    - "4, முதல்மாடி"
+    - "ரசிகா கட்டடம்,"
+    - "834, அண்ணாசாலை,"
+    - "சென்னை-600 002."
+  jaffna_address:
+    - "213, காங்கேயன்துறை வீதி"
+    - "யாழ்ப்பாணம்."
+  price: "விலை ரூ. 5.00"
+  printer_line: "அச்சிட்டோர்: காந்தளகம், சென்னை-2."
+
+attribution:
+  separate_m_karunanidhi_author_byline_observed_in_front_matter: false
+  edition_scope: anthology_attribution_only
+  default_status: anthology-attributed
+  primary_source_verification_requires_separate_evidence: true
+
+structure:
+  front_matter_pdf_pages: "1-9"
+  compiler_note_pdf_page: 4
+  thumbippurai_pdf_pages: "5-7"
+  contents_pdf_pages: "8-9"
+  numbered_song_corpus_pdf_pages: "10-62"
+  numbered_song_corpus_printed_pages: "1-53"
+  pdf_to_printed_formula: "printed = pdf - 9 for PDF 10-62"
+  body_thematic_divisions: 4
+  numbered_songs: 40
+  numbered_song_range: "1-40"
+  numbering_gaps: []
+  numbering_repeats: []
+  numbering_out_of_order: []
+  distinct_films_in_map: 16
+  back_matter_after_numbered_corpus: false
+  contents_body_anomalies:
+    - "Contents rows 30 and 31 are reversed relative to the body numbering/pages: contents has ஒண்ணு கொடுத்தா... at p.40 and வான் மலர்ச் சோலையில் at p.41; body has song 30 வான் மலர்ச் சோலையில்... at p.40 and song 31 ஒண்ணு கொடுத்தா... at p.41."
+    - "Contents song 33 lists பூமாலை... under மறக்க முடியுமா at p.43, while body song 33 metadata states படம்: பராசக்தி."
+
+scan_condition:
+  content_critical_crop_observed: false
+  missing_pages_observed: false
+  duplicate_pages_observed: false
+  notes:
+    - "Library stamp and handwriting overlay the title page (PDF 2)."
+    - "Handwritten shelf/call-number marks appear on PDF 3."
+    - "Library stamps recur on some body pages."
+    - "Minor edge darkening, speckling and scan marks occur on several pages, including the contents/right edge, without observed loss of the mapped text."
+
+status:
+  source_intake: complete
+  whole_scan_inspection: complete
+  structural_mapping: verified
+  canonical_tamil_first_pass: not-started
+  visual_fidelity_audit: blocked
+  structured_song_derivatives: blocked
+  cross_witness_comparison: not-started
+  english_translation: blocked
+  reader_export: blocked
+
+next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."

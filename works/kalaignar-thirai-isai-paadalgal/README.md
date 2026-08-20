@@ -1,8 +1,17 @@
 # கலைஞர் திரை இசைப் பாடல்கள்
 
-Source-led archival work for the supplied anthology **`கலைஞர் திரை இசைப் பாடல்கள்`**, compiled by **நெல்லை ஜெயந்தா**.
+Source-led archival work for **`கலைஞர் திரை இசைப் பாடல்கள்`**.
 
-## PDF-specific operating rule
+## Source witnesses
+
+Two distinct source witnesses are now tracked under the same work ID; they must remain source-separated.
+
+1. **2024 anthology — `TVA_BOK_0065867`** — compiled by **நெல்லை ஜெயந்தா**. This is the existing completed 194-page source-linked corpus with 54 verified Tamil songs, 54 verified English translations and completed reader/export outputs.
+2. **Earlier first-edition witness — `TVA_BOK_0065773`** — compiled by **சிலோன் விஜயேந்திரன்**, with the printed first-edition date `வைகாசி 21, திருவள்ளுவர் 2020 (03.06.89)`. Its 62-page scan has completed source intake and structural mapping only; its 40 numbered-song body has **not** yet been canonically transcribed.
+
+The second witness is preserved at `sources/tva-bok-0065773/`. It does not overwrite, renumber or silently correct the completed 2024 corpus.
+
+## 2024 PDF-specific operating rule
 
 For this PDF only: inspect the rendered page; if it contains an actual numbered lyric body or directly continues one, create/process that song file; otherwise ignore the page for lyric-file work. Do not import absent lyrics from outside this PDF.
 
@@ -64,5 +73,9 @@ The anthology's `மந்திரிகுமாரி` editorial note mention
 
 ## Next activity
 
-Repository-internal work is complete. The verified reader/export package is ready for **downstream Kalaignar Digital Library / Reading Room integration** while preserving anthology order, Tamil/source provenance, item status history, attribution state and the approved Kalaignar-language English.
+The completed **2024** source track remains ready for downstream Kalaignar Digital Library / Reading Room integration and must not be reopened for convenience.
+
+For the newly supplied **`TVA_BOK_0065773`** source witness, the active next activity is:
+
+> **Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
 
