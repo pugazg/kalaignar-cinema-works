@@ -1,0 +1,84 @@
+id: manthiri-kumari
+title_ta: "மந்திரி குமாரி"
+work_type: film
+source_type: film_story_song_booklet
+
+source:
+  identifier_from_filename: "TVA_BOK_0026144"
+  filename: "TVA_BOK_0026144_மந்திரி_குமாரி.pdf"
+  byte_size: 579782
+  sha256: "a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee"
+  physical_pdf_pages: 14
+  scan_type: image_only
+  embedded_text_observed: false
+  ocr_authority: non_canonical_navigation_only
+  repository_binary_storage: not_committed
+
+publication_as_printed:
+  cover_studio_line: "மாடர்ன் தியேட்டர்ஸ்"
+  title: "மந்திரி குமாரி"
+  story_heading: "\"மந்திரி குமாரி\"—கதைச்சுருக்கம்"
+  songs_heading: "மந்திரி குமாரி—பாடல்கள்"
+  kalaignar_credit: "கதை, வசனம் : மு. கருணாநிதி"
+  direction_line: "டைரக்ஷன் : டி. ஆர். சுந்தரம், எல்லிஸ் ஆர். டங்கன்."
+  organization_line: "விஸ்வநாதன் பிக்சர்ஸ், காரைக்குடி."
+  printer_line: "பிரபாத் பிரஸ், வேலூர். போன் 92"
+  explicit_edition_statement_observed: false
+  explicit_publication_year_observed: false
+
+source_authority:
+  booklet_text_authority: controlling_for_this_source
+  story_dialogue_credit_status: primary-source-verified
+  story_summary_is_screenplay_dialogue: false
+  song_authorship_inferred_from_story_dialogue_credit: false
+  external_audio_web_or_later_sources_may_fill_text: false
+
+structure:
+  cover_pdf_page: 1
+  credits_pdf_page: 2
+  story_summary_pdf_pages: "3-5"
+  song_performance_pdf_pages: "6-13"
+  back_cover_pdf_page: 14
+  back_cover_disposition: "unrelated advertisement for அமரகவி; preserve as paratext, exclude from canonical work text"
+  song_performance_blocks: 15
+  source_numbered_scene_headings: false
+  scene_system_supported_by_source: false
+  full_screenplay_dialogue_supported_by_source: false
+  visible_printed_page_numbers:
+    - "PDF 4 = printed 3"
+    - "PDF 5 = printed 4"
+    - "PDF 7 = printed 6"
+    - "PDF 8 = printed 7"
+    - "PDF 9 = printed 8"
+    - "PDF 10 = printed 9"
+    - "PDF 11 = printed 10"
+    - "PDF 12 = printed 11"
+    - "PDF 13 = printed 12"
+  unnumbered_or_number_not_visible_pdf_pages: [1, 2, 3, 6, 14]
+
+scan_condition:
+  missing_pages_observed: false
+  duplicate_pages_observed: false
+  content_critical_crop_observed: false
+  notes:
+    - "PDF 1 cover has visible surface loss/abrasion, including a white damaged area at lower right; title remains readable."
+    - "Text pages are legible at rendered resolution; no text-critical crop was observed during the 14-page structural pass."
+    - "PDF 14 is a back-cover advertisement and not Mandhiri Kumari canonical text."
+
+status:
+  duplicate_work_check: complete
+  source_intake: complete
+  whole_scan_inspection: complete
+  structural_mapping: verified
+  canonical_tamil_first_pass: not-started
+  visual_fidelity_audit: not-started
+  credits_derivative: blocked
+  story_summary_derivative: blocked
+  song_performance_inventory: blocked
+  song_cross_witness_comparison: blocked
+  scene_derivatives: not-applicable-from-this-source
+  dialogue_index: not-applicable-from-this-source
+  english_translation: blocked
+  reader_export: blocked
+
+next_action: "Canonical Tamil first-pass transcription of PDF 2-13 from the rendered scan, in source order, with stable page anchors; preserve PDF 1 and 14 separately as paratext; then perform a separate full visual fidelity audit before derivatives."

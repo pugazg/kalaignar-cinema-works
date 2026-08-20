@@ -25,7 +25,30 @@ For every newly supplied Kalaignar cinema source, use these project-level docume
 - `docs/START_NEW_CINEMA_WORK_PROMPT.md` — copy-paste prompt for starting a new work safely;
 - `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, and `docs/TRANSCRIPTION_GUIDE.md` — baseline source/transcription rules.
 
-The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful.
+The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful. A source that is not actually scene-structured, such as a film story/song booklet, should retain its natural source structure rather than being forced into screenplay scenes.
+
+## மந்திரி குமாரி status
+
+The source `TVA_BOK_0026144_மந்திரி_குமாரி.pdf` has completed source intake and whole-scan structural mapping under `works/manthiri-kumari/`.
+
+- source classification: **film story-and-song booklet**, not a full screenplay/dialogue book;
+- cover title: **`மந்திரி குமாரி`** under `மாடர்ன் தியேட்டர்ஸ்`;
+- direct printed Kalaignar credit: **`கதை, வசனம் : மு. கருணாநிதி`**;
+- scan: **14 PDF pages**, **579,782 bytes**;
+- source SHA-256: `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;
+- PDF 2: cast/music/production credits;
+- PDF 3–5: **`"மந்திரி குமாரி"—கதைச்சுருக்கம்`**;
+- PDF 6–13: **`மந்திரி குமாரி—பாடல்கள்`**, **15** separately headed song/performance blocks;
+- PDF 14: unrelated **`அமரகவி`** back-cover advertisement / paratext;
+- source scene-numbering system: **none**;
+- canonical Tamil first pass: **not-started**;
+- visual fidelity audit: **not-started**;
+- credits/story/song derivatives: **blocked until verified Tamil**;
+- scene/dialogue derivatives: **not applicable as a full-work model from this source**.
+
+The booklet's story/dialogue credit is primary-source evidence for that authorship role but is **not** automatically item-level lyric authorship. After this source is independently transcribed and visually verified, its song/performance material can be compared against the existing later `கலைஞர் திரை இசைப் பாடல்கள்` corpus without creating duplicate song records.
+
+**Next:** canonical Tamil first-pass transcription of PDF 2–13 in source order with stable page anchors, followed by a separate full visual fidelity audit before structured derivatives.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
