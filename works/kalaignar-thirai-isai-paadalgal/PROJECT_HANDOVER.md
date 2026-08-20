@@ -6,21 +6,21 @@ Work path: `works/kalaignar-thirai-isai-paadalgal/`
 
 ## Mandatory startup
 
-Treat current GitHub `main` and current workflow state as authoritative over stale SHAs/status prose. Read completely before changing this work:
+Treat live GitHub `main` and current workflow state as authoritative over every SHA/status recorded below. Before changing anything, read completely:
 
-- `PROJECT_HANDOVER.md`
-- `CONTINUATION_GUIDELINES.md`
-- `NEXT_CHAT_PROMPT.md`
-- `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`
-- `notes/FULL_PDF_SONG_PAGE_SCAN.md`
-- `songs/page-map.json`, `songs/index.json`
-- `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, all batch reviews through `BATCH_047_054_REVIEW.md`
-- `editions/en/PREFLIGHT_QA_REPORT.md`, `editions/en/QA_REPORT.md`, `editions/en/manifest.json`, `editions/en/audit_probe.py`, `editions/en/build.py`
-- `integrations/reading-room/README.md`, `integrations/reading-room/build.py`, `integrations/reading-room/sync_status.py`
-- `docs/SONG_TRANSLATION_GUIDE.md`
-- `.github/workflows/kalaignar-song-anthology-english-preflight.yml`
+- this `PROJECT_HANDOVER.md`;
+- `CONTINUATION_GUIDELINES.md`;
+- `NEXT_CHAT_PROMPT.md`;
+- `README.md`, `metadata.yaml`, `PROGRESS.md`, `AUDIT.md`;
+- `notes/FULL_PDF_SONG_PAGE_SCAN.md`;
+- `songs/page-map.json`, `songs/index.json`;
+- `translations/README.md`, `translations/index.json`, `translations/PILOT_REVIEW.md`, and batch reviews through `BATCH_047_054_REVIEW.md`;
+- `editions/en/PREFLIGHT_QA_REPORT.md`, `editions/en/QA_REPORT.md`, `editions/en/manifest.json`, `editions/en/audit_probe.py`, `editions/en/build.py`;
+- `integrations/reading-room/README.md`, `integrations/reading-room/build.py`, `integrations/reading-room/sync_status.py`;
+- `docs/SONG_TRANSLATION_GUIDE.md`;
+- `.github/workflows/kalaignar-song-anthology-english-preflight.yml`.
 
-Then inspect current `main`, recent commits and the latest workflow run before acting.
+Then inspect live `main`, recent commits, and the latest workflow run before acting.
 
 ## Controlling source
 
@@ -29,23 +29,24 @@ Then inspect current `main`, recent commits and the latest workflow run before a
 - 194 physical PDF pages;
 - SHA-256 `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
 - image-only source;
-- rendered scan controls Tamil readings.
+- rendered scan controls Tamil readings;
+- classification: **62 song-bearing / 132 ignored pages / 54 numbered songs**.
 
-Process only actual numbered lyric pages/direct continuations. The full PDF classification is **62 song-bearing / 132 ignored pages / 54 numbered songs**. Never import absent lyrics from elsewhere.
+Never import absent lyrics from elsewhere.
 
 ## Closed source-linked layers — do not restart
 
 ### Tamil
 
-- verified `001–054`: **54/54**;
-- Tamil transcription: **complete-verified**;
+- `001–054`: **54/54 verified**;
+- transcription: **complete-verified**;
 - fidelity audit: **complete**;
 - unresolved readings: **0**.
 
 ### English
 
-- translated: **54/54 complete-verified**;
-- **3 pilot-verified + 51 verified**;
+- **54/54 complete-verified**;
+- history: **3 pilot-verified + 51 verified**;
 - mode: `semantic-poetic-source-faithful`;
 - attribution: **54/54 `anthology-attributed`**;
 - mapped Tamil/English line cues: **1,105 / 1,105**.
@@ -56,21 +57,21 @@ Exactly eight songs are cross-page and must retain complete provenance: `009` 38
 
 ## Reader/export checkpoint
 
-English preflight and deterministic reader/export are **complete-verified / PASS**. The reader contains 54 songs and 1,105 paired line cues with 0 warnings/errors at the completed checkpoint. Generated reader files must not be hand-edited; rebuild from authoritative structured inputs.
+English preflight and deterministic reader/export are **complete-verified / PASS**. The reader contains **54 songs / 1,105 paired line cues / 0 warnings / 0 errors** at the completed checkpoint. Generated reader files must not be hand-edited; rebuild them from authoritative structured inputs.
 
-## Reading Room integration checkpoint
+## Reading Room integration-preparation checkpoint
 
-Repository-internal integration preparation is now active.
+Repository-internal Reading Room integration preparation has been implemented but its generated-output gate is **not yet recorded complete**.
 
-Created under `integrations/reading-room/`:
+Implemented under `integrations/reading-room/`:
 
 - `README.md` — downstream authority/navigation/language/search/attribution/provenance contract;
 - `build.py` — deterministic Reading Room payload builder and QA;
 - `sync_status.py` — repository status synchronizer.
 
-The existing workflow `.github/workflows/kalaignar-song-anthology-english-preflight.yml` has been extended so the verified English reader gate is followed by Reading Room payload build/QA and status synchronization.
+The existing workflow `.github/workflows/kalaignar-song-anthology-english-preflight.yml` was extended to run the Reading Room payload build/QA after the verified English reader gate and then synchronize status.
 
-The payload contract expects:
+Expected payload invariants:
 
 - **23 film groups** in first-appearance order;
 - **54 songs** in anthology order `001–054`;
@@ -79,28 +80,32 @@ The payload contract expects:
 - printed film year/music/voice metadata where available;
 - exact source PDF page arrays;
 - immutable source paths and archival IDs;
-- `3 pilot-verified + 51 verified` history;
-- `54/54 anthology-attributed` status;
-- presentation guidance for film → song navigation and Tamil/English/parallel display.
+- **3 pilot-verified + 51 verified** history;
+- **54/54 `anthology-attributed`**;
+- all eight cross-page songs retaining complete provenance;
+- film → song navigation and Tamil/English/parallel presentation guidance only at the downstream presentation layer.
 
-The public website remains downstream. Search normalization must not overwrite stored text, and `anthology-attributed` must not be promoted to primary-source-verified original-film authorship without separate upstream evidence.
+`anthology-attributed` must not be promoted to primary-source-verified original-film authorship without separate upstream evidence.
 
-## Recent implementation commits
+## Last known live checkpoint in this chat
 
-The integration-preparation sequence introduced/refined the Reading Room builder, synchronizer and workflow, including the workflow checkpoint commit `0b8d833bf4696b30e7a0d1a16679105aa0c4c026` (`Build Reading Room payload after reader QA`). Continuation documents were then added/refreshed. Do not treat these SHAs as more authoritative than live `main` in a future chat.
+The workflow integration commit observed on `main` was `0b8d833bf4696b30e7a0d1a16679105aa0c4c026` (`Build Reading Room payload after reader QA`). A subsequent workflow-related commit `b8f8565647d612e0a6e2e3e34bbf9c8fe7507e22` was also made during this activity. These are historical pointers only; the next chat must verify current `main` rather than assuming either is still HEAD.
+
+At the final explicit check in this chat, `integrations/reading-room/reading-room.json` was **not found on `main`**. Therefore do not claim that the integration-preparation gate has passed merely because builder/workflow code exists.
 
 ## Exact next activity
 
-1. Inspect live `main` and the latest workflow run.
-2. Check whether these generated outputs now exist:
+1. Inspect live `main`, recent commits and the latest GitHub Actions run for `.github/workflows/kalaignar-song-anthology-english-preflight.yml`.
+2. Check for all three generated outputs:
    - `integrations/reading-room/reading-room.json`
    - `integrations/reading-room/QA_REPORT.md`
    - `integrations/reading-room/manifest.json`
-3. If present, verify QA **PASS**, expected 23/54/1,105 totals, anthology order, attribution/status history, all eight cross-page provenance arrays, manifest integrity and synchronized status.
-4. If absent or the workflow failed, diagnose/fix the integration build/workflow without reopening verified Tamil/English layers merely for UI convenience.
-5. When payload QA is PASS, mark the **repository-internal Reading Room integration-preparation gate complete** and refresh status/handover documents.
-6. Only after that, and only when explicitly in scope, apply the verified payload to the separate Kalaignar Digital Library / Reading Room implementation repository.
+3. If absent, inspect the latest workflow job/steps/logs and diagnose the first failing step. Fix only the integration builder/workflow/status plumbing needed to make the deterministic gate pass.
+4. If present, verify QA **PASS**, **23/54/1,105**, exact `001–054` anthology order, `3 + 51` status history, `54 anthology-attributed`, all eight cross-page provenance arrays, source paths/IDs, and manifest integrity.
+5. Confirm repository status documents are synchronized by `sync_status.py` and contain no premature deployment claim.
+6. Once all checks pass, mark the **repository-internal Reading Room integration-preparation gate complete** and refresh `PROJECT_HANDOVER.md`, `CONTINUATION_GUIDELINES.md`, `NEXT_CHAT_PROMPT.md`, and relevant status files.
+7. Stop at the repository boundary unless the user explicitly brings the separate Reading Room implementation repository into scope.
 
 ## Repository boundary
 
-This handover does **not** claim that `nenjukkuneethi.org/read` has been updated. Work only inside `pugazg/kalaignar-cinema-works` until the Reading Room implementation repository is explicitly brought into scope.
+This repository prepares a verified downstream payload; it does **not** by itself deploy or update `nenjukkuneethi.org/read`. Do not edit another repository without explicit user authorization.
