@@ -70,15 +70,32 @@ scan_condition:
     - "Library stamps recur on some body pages."
     - "Minor edge darkening, speckling and scan marks occur on several pages, including the contents/right edge, without observed loss of the mapped text."
 
+song_presence_deduplication:
+  policy: "Use the existing parent songs/ folder; do not add a duplicate when the same underlying song is already present."
+  status: complete
+  source_sections_checked: 40
+  source_sections_already_represented: 40
+  distinct_existing_song_records_matched: 39
+  genuinely_new_songs_found: 0
+  new_parent_song_files_added: 0
+  existing_verified_song_files_modified: 0
+  parent_song_index_rows_added: 0
+  audit_path: "../../songs/SOURCE_WITNESS_0065773_DEDUP.md"
+  special_mapping_notes:
+    - "Source sections 4 and 13 both map to parent song-009.md; this witness splits material that the 2024 witness preserves in one song record."
+    - "A presence match means the same underlying song, not identical witness text; source-supported textual/segmentation variants remain separate witness evidence."
+
 status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
+  song_presence_deduplication: complete
+  unique_song_import_required: false
   canonical_tamil_first_pass: not-started
-  visual_fidelity_audit: blocked
-  structured_song_derivatives: blocked
-  cross_witness_comparison: not-started
-  english_translation: blocked
-  reader_export: blocked
+  visual_fidelity_audit: blocked-unless-future-witness-transcription
+  structured_song_derivatives: no-new-song-import-required
+  cross_witness_textual_comparison: optional-not-started
+  english_translation: no-new-song-import-required
+  reader_export: no-new-song-import-required
 
-next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
+next_action: "No required song import remains. If explicitly requested, transcribe/compare this 1989 witness as a separate textual witness without creating duplicate parent song records or overwriting verified 2024 song text."

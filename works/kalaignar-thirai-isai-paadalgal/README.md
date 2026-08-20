@@ -4,12 +4,14 @@ Source-led archival work for **`கலைஞர் திரை இசைப் 
 
 ## Source witnesses
 
-Two distinct source witnesses are now tracked under the same work ID; they must remain source-separated.
+Two distinct source witnesses are tracked under the same work ID and remain source-separated.
 
-1. **2024 anthology — `TVA_BOK_0065867`** — compiled by **நெல்லை ஜெயந்தா**. This is the existing completed 194-page source-linked corpus with 54 verified Tamil songs, 54 verified English translations and completed reader/export outputs.
-2. **Earlier first-edition witness — `TVA_BOK_0065773`** — compiled by **சிலோன் விஜயேந்திரன்**, with the printed first-edition date `வைகாசி 21, திருவள்ளுவர் 2020 (03.06.89)`. Its 62-page scan has completed source intake and structural mapping only; its 40 numbered-song body has **not** yet been canonically transcribed.
+1. **2024 anthology — `TVA_BOK_0065867`** — compiled by **நெல்லை ஜெயந்தா**. This is the completed 194-page source-linked corpus with 54 verified Tamil songs, 54 verified English translations and completed reader/export outputs.
+2. **Earlier first-edition witness — `TVA_BOK_0065773`** — compiled by **சிலோன் விஜயேந்திரன்**, with the printed first-edition date `வைகாசி 21, திருவள்ளுவர் 2020 (03.06.89)`. Its 62-page scan has completed source intake, structural mapping and song-presence deduplication against the existing parent `songs/` folder.
 
-The second witness is preserved at `sources/tva-bok-0065773/`. It does not overwrite, renumber or silently correct the completed 2024 corpus.
+The 1989 witness contains **40 numbered source sections**. Under the current rule — use the existing `songs/` folder and do not add a song that is already present — all **40/40** sections were found to be already represented by **39 distinct existing song records**. Therefore **0 new song files** and **0 new index rows** were added. Detailed mapping: `songs/SOURCE_WITNESS_0065773_DEDUP.md`.
+
+The second witness remains preserved at `sources/tva-bok-0065773/` for provenance and possible future textual-variant study. It does not overwrite, renumber or silently correct the completed 2024 corpus.
 
 ## 2024 PDF-specific operating rule
 
@@ -67,15 +69,16 @@ The build treats the source-faithful English as immutable input. It does not smo
 
 ## Attribution
 
-The 2024 anthology is authoritative for what this edition prints and attributes. Default item status remains `anthology-attributed`; a verified English translation or reader/export derivative does not automatically upgrade that to original-film `primary-source-verified` authorship.
+The 2024 anthology is authoritative for what that edition prints and attributes. Default item status remains `anthology-attributed`; a verified English translation or reader/export derivative does not automatically upgrade that to original-film `primary-source-verified` authorship.
 
-The anthology's `மந்திரிகுமாரி` editorial note mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
+The 1989 witness likewise supports anthology-level evidence for what it prints; its presence does not by itself upgrade original-film item authorship.
+
+The 2024 anthology's `மந்திரிகுமாரி` editorial note mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
 ## Next activity
 
-The completed **2024** source track remains ready for downstream Kalaignar Digital Library / Reading Room integration and must not be reopened for convenience.
+No additional parent `songs/` import remains from `TVA_BOK_0065773`; every one of its 40 numbered sections is already represented in the current verified song layer.
 
-For the newly supplied **`TVA_BOK_0065773`** source witness, the active next activity is:
+The completed **2024** source track remains ready for downstream Kalaignar Digital Library / Reading Room integration.
 
-> **Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
-
+If the 1989 witness is revisited later, treat that as a **separate textual-variant transcription/comparison project**. Do not create duplicate parent song records or overwrite verified 2024 song text merely to match the earlier witness.

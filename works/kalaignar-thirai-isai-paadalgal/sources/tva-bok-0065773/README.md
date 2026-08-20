@@ -17,7 +17,7 @@ This directory preserves a **distinct earlier source witness** of **`கலை�
 - SHA-256: `56d414a65a61a73b990632eadc17a3b1efdc764d47f64b851060c161a3f98e3b`;
 - scan: image-only; rendered page images control all future transcription.
 
-The scan contains no separate front-matter author/byline line naming M. Karunanidhi. The work title, compiler prose and the anthology structure present these as Kalaignar film songs; this witness therefore supports **anthology attribution for this edition**, not automatic original-film primary-source verification.
+The scan contains no separate front-matter author/byline line naming M. Karunanidhi. The work title, compiler prose and anthology structure present these as Kalaignar film songs; this witness therefore supports **anthology attribution for this edition**, not automatic original-film primary-source verification.
 
 ## Structural checkpoint
 
@@ -35,17 +35,43 @@ Source anomalies are preserved rather than repaired: the contents reverse songs 
 
 See `mapping.md` for the full page/heading map and `notes/INTAKE_AUDIT.md` for the scan audit.
 
+## Song-folder deduplication result
+
+The user-directed import rule is: **use the existing parent `songs/` folder and do not add a song if that song is already present**.
+
+All **40/40** numbered source sections were checked against the existing verified parent song layer.
+
+- source sections checked: **40**;
+- existing song matches: **40**;
+- distinct current song records represented: **39**;
+- genuinely new songs found: **0**;
+- new song files added: **0**;
+- existing verified song files modified: **0**;
+- `songs/index.json` additions: **0**.
+
+The 40→39 relationship is intentional: this 1989 witness numbers `ஊற்றெடுக்கும் அறிவினாலே...` and the later `புதியதோர் பாதை வகுத்தோம்!` material separately as sections **4** and **13**, whereas the completed 2024 witness preserves both within current `songs/song-009.md`.
+
+Detailed deduplication mapping is stored at:
+
+`../../songs/SOURCE_WITNESS_0065773_DEDUP.md`
+
+This result does **not** claim that the 1989 and 2024 texts are identical. Variants in wording, labels, omissions and segmentation remain witness-level evidence and are not merged into the verified 2024 song files.
+
 ## Status
 
 - source intake: **complete**;
 - whole-scan structural inspection: **complete**;
 - structural mapping: **verified for this source witness**;
-- canonical Tamil first-pass transcription: **not-started**;
-- visual fidelity audit: **blocked until the first pass exists**;
-- structured song derivatives / comparison with the 2024 witness / English translation / reader work: **not-started or blocked**.
+- song-presence deduplication against parent `songs/`: **complete**;
+- new unique songs requiring import: **0**;
+- canonical full-witness Tamil transcription: **not-started / optional future source-variant work**;
+- visual fidelity audit of a future full-witness transcription: **blocked until such a transcription exists**;
+- English/reader work for this witness: **not required for the no-duplicate import gate**.
 
-The existing 2024 witness and its verified Tamil/English derivatives remain unchanged.
+The existing 2024 witness and all verified Tamil/English derivatives remain unchanged.
 
-## Exact next activity
+## Current next activity
 
-> **Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
+No song import remains for `TVA_BOK_0065773` under the no-duplicate rule.
+
+If future work on this witness is explicitly requested, the next archival activity should be a **source-witness textual-variant transcription/comparison kept separate from the verified 2024 song files**. It must not create duplicate parent song records or silently overwrite existing verified text.

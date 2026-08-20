@@ -1,6 +1,6 @@
 # Song layer — கலைஞர் திரை இசைப் பாடல்கள்
 
-Song files are created only from actual numbered lyric pages/direct continuation pages in the supplied PDF. This page-driven rule applies only to this PDF.
+Song files are created only from actual numbered lyric pages/direct continuation pages in the supplied PDF. This page-driven rule applies only to the completed 2024 source witness.
 
 Authoritative page map: `page-map.json`.  
 Full scan ledger: `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
@@ -17,7 +17,25 @@ Full scan ledger: `../notes/FULL_PDF_SONG_PAGE_SCAN.md`.
 - latest Tamil review: `../notes/FINAL_DRAFT_001_003_REVIEW.md`;
 - next unprocessed song-bearing page: **none**.
 
-Every numbered lyric record has been transcribed and visually verified from its mapped song-bearing page(s).
+Every numbered lyric record in the completed 2024 source track has been transcribed and visually verified from its mapped song-bearing page(s).
+
+## 1989 source-witness deduplication
+
+The additional first-edition witness `TVA_BOK_0065773` contains **40 numbered source sections**. Before adding anything to this folder, all 40 were checked against the existing verified song layer.
+
+**All 40 are already represented here. No new lyric file was added.**
+
+- source sections checked: **40/40**;
+- distinct existing song records matched: **39**;
+- new unique songs found: **0**;
+- existing song files modified: **0**;
+- `index.json` additions: **0**.
+
+The count is 39 distinct existing records because the 1989 source separately numbers sections **4** and **13**, while the completed 2024 source preserves both portions together in `song-009.md`.
+
+Detailed mapping and the non-obvious lyric-level checks are recorded in `SOURCE_WITNESS_0065773_DEDUP.md`.
+
+Source-witness differences in wording, role labels, segmentation or omissions are not merged into these verified 2024 files. They remain source-level evidence under `../sources/tva-bok-0065773/`.
 
 ## Rules
 
@@ -27,10 +45,11 @@ Every numbered lyric record has been transcribed and visually verified from its 
 - Do not create files from metadata/title-list/prose pages.
 - Do not infer absent singers or import missing lyrics.
 - Default attribution remains `anthology-attributed` unless stronger source evidence is separately established.
+- When another witness contains the same underlying song, do **not** create a duplicate song file merely because its heading, segmentation or wording varies.
 
 ## Final Tamil gate
 
-The Tamil corpus is **54/54 complete-verified** and is immutable source input for derivatives.
+The 2024 corpus is **54/54 complete-verified** and is immutable source input for derivatives.
 
 ## English derivative
 
@@ -51,5 +70,4 @@ The English layer retains Kalaignar's language and does not rewrite these verifi
 
 The English translation and deterministic English reader/export package are both complete-verified. Generated-output QA passes for **54/54 songs** and **1,105/1,105 English lines/cues** with no alteration to this Tamil source layer.
 
-No further source-layer activity is required. Downstream Reading Room integration may proceed from the verified derivatives.
-
+No further source-layer song addition is required from the 1989 witness under the current no-duplicate rule. Downstream Reading Room integration may proceed from the verified derivatives.
