@@ -3,18 +3,51 @@ work_id: raja-rani
 source:
   filename: TVA_BOK_0017188_ராஜா_ராணி.pdf
   pages: 80
+  bytes: 31600388
+  sha256: 26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4
   type: scanned_publication
 classification:
   type: screenplay-dialogue-publication-with-songs
 credits:
-  kalaignar_role: printed dialogue/story credit to be verified from source layer
+  kalaignar_role: printed name/credit present in source; exact source-layer transcription retained for canonical metadata pass
+structure:
+  front_cover_pdf_page: 1
+  publication_details_pdf_page: 2
+  story_summary_pdf_page: 3
+  songs_pdf_range: 4-9-first-part
+  cast_credits_pdf_range: 9-second-part
+  screenplay_pdf_range: 10-79
+  screenplay_printed_range: 9-78
+  back_cover_pdf_page: 80
+  embedded_dramas:
+    - id: cheran-senguttuvan
+      title_ta: சேரன் செங்குட்டுவன்
+      pdf_range: 13-19
+      printed_range: 12-18
+    - id: agalya-rehearsal
+      title_ta: அகல்யா நாடக ஒத்திகை
+      pdf_range: 40-41-first-part
+      printed_range: 39-40
+    - id: socrates
+      title_ta: சாக்ரடீஸ் (நாடகம்)
+      pdf_range: 66-72
+      printed_range: 65-71
+scene_structure:
+  separator_policy: source-visible-star-ornamentation
+  separator_typography_uniform: false
+  preserve_exact_printed_ornament: true
+  page_break_is_scene_boundary: false
 layers:
-  story_summary: pending
-  songs: pending
-  scenes: pending
-  dialogues: pending
-  characters: pending
+  story_summary: mapped
+  songs: mapped-source-section
+  scenes: blocked-until-verified-transcription
+  dialogues: blocked-until-verified-transcription
+  characters: blocked-until-dialogue-layer
 status:
   intake: complete
-  structural_mapping: in-progress
+  structural_mapping: complete
+  whole_source_boundary_audit: complete
+  scene_separator_policy: verified
   transcription: not-started
+  fidelity_audit: not-started
+next_action: canonical Tamil first-pass transcription for PDF 10-79 in source order
