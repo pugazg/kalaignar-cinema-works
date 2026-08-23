@@ -86,21 +86,30 @@ No missing or duplicated complete PDF page was identified in the whole-scan inta
 Source-condition issues requiring explicit handling include:
 
 - PDF 1: cover wear and a later pencil/handwritten numeric annotation below the printed Kalaignar name; the annotation is not canonical source text;
+- PDF 27 / printed p.26: a faint/washed part of Rani's internal-monologue block leaves one short first-pass reading explicitly uncertain as `⟦நீ?⟧`;
 - PDF 74 / printed p.73: a later ownership/address stamp or overprint beginning `K. N. சங்கரன்` covers part of the upper-right printed source text; any source reading hidden by it must remain unresolved unless the scan supports a reading elsewhere;
 - PDF 80: stained/damaged back cover with edge wear; no back-matter text was identified there.
 
-## Current repository reconciliation
+## Canonical Tamil first-pass progress
 
-The work already existed when this intake was resumed, so no duplicate work directory was created.
+The work already existed when this intake was resumed, so no duplicate work directory was created. At that time, `works/raja-rani/pages/` contained **44 pre-existing draft files (`001.md`–`044.md`)**. Several were summary placeholders or partial transcriptions and could not be treated as canonical completion merely because the files existed.
 
-`works/raja-rani/pages/` currently contains **44 draft page files (`001.md`–`044.md`)** created before this checkpoint. They must **not** be treated as a completed canonical first pass:
+Those drafts are being reconciled directly against the rendered scan in source order.
 
-- the files are marked or function as draft material;
-- metadata/status formatting is inconsistent across the batch;
-- at least one page file (`012.md`) contains an explicit continuation placeholder rather than the complete page text;
-- no separate full visual fidelity audit has verified this batch.
+Current continuous first-pass coverage is now:
 
-Accordingly, these drafts are retained as working material, but the next canonical pass must reconcile them against the rendered scan in source order rather than simply assuming PDF 1–44 are complete and resuming at PDF 45.
+- source PDF **1–30**: reconciled as draft first-pass material;
+- front matter / story / song / credits: PDF **1–9**;
+- screenplay: PDF **10–30 / printed pp.9–29**;
+- screenplay progress: **21/70 pages**;
+- embedded `சேரன் செங்குட்டுவன்`: complete in first-pass source order through PDF 19;
+- PDF 22→23: the printed letter remains a genuine cross-page written-text structure;
+- PDF 25 and later structural ornaments are retained from the scan instead of normalized;
+- PDF 27 retains explicit uncertainty where the scan is not yet secure enough for a definitive reading.
+
+All reconciled pages remain **draft**. No page is promoted to `verified` during this first-pass activity.
+
+The pre-existing files PDF **31–44** remain untrusted working drafts until each is reconciled against its rendered source page.
 
 ## Current gate
 
@@ -108,19 +117,21 @@ Accordingly, these drafts are retained as working material, but the next canonic
 - Structural mapping: **complete**
 - Whole-source boundary audit: **complete**
 - Scene-separator policy: **verified**
-- Draft page storage: **001–044 present, incomplete/unverified**
-- Canonical Tamil first pass: **not complete**
-- Verified Tamil pages: **0 claimed at this checkpoint**
+- Canonical Tamil first pass: **in progress — PDF 1–30 continuous**
+- Screenplay first pass: **PDF 10–30 / printed pp.9–29 — 21/70 pages**
+- Verified Tamil pages: **0 claimed**
 - Visual fidelity audit: **not started**
-- Dialogue / scene / character derivatives: **blocked until verified Tamil**
+- Dialogue / scene / character / translation derivatives: **blocked until verified Tamil**
 
-## Authoritative mapping notes
+## Authoritative mapping / progress notes
 
 - `mapping.md`
 - `notes/full-source-structure-audit.md`
 - `notes/embedded-drama-boundaries.md`
 - `notes/scene-heading-inventory.md`
 - `notes/transcription-state-reconciliation.md`
+- `notes/canonical-first-pass-batch-001.md`
+- `notes/canonical-first-pass-batch-002.md`
 
 ## Source rules
 
@@ -129,7 +140,8 @@ Accordingly, these drafts are retained as working material, but the next canonic
 - No silent correction or modernization.
 - No invented speakers.
 - Song authorship requires item-level evidence.
+- First-pass uncertainty remains explicit instead of being repaired from memory or external sources.
 
 ## Next activity
 
-**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
+Continue **canonical Tamil first-pass transcription from PDF 31 onward**, in source order, with stable page anchors. Reconcile the pre-existing PDF 31–44 drafts against the rendered scan rather than trusting them as complete. After the whole first pass reaches PDF 79, perform a **separate visual fidelity audit** before any structured derivatives.
