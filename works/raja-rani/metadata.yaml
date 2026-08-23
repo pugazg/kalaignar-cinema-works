@@ -3,139 +3,22 @@ work_id: raja-rani
 source:
   filename: TVA_BOK_0017188_ராஜா_ராணி.pdf
   identifier: TVA_BOK_0017188
-  identifier_basis: archive filename; not observed as a printed identifier in the scan
   pages: 80
-  bytes: 31600388
-  sha256: 26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4
-  type: scanned_publication
-  embedded_text: OCR text layer present; non-canonical navigation aid only
-  title_leaf_title_as_visible: ராஜா ராணி
-  cover_title_form_as_visible: ராஜாராணி
-  imprint_as_visible:
-    - மலர் மன்றம்
-    - விருதுநகர்,
-  edition_statement_as_printed: null
-  publication_year_as_printed: null
-  final_printer_line_as_visible: "அன்பு அச்சகம், மதுரை:-- 56"
-classification:
-  type: screenplay-dialogue-publication-with-songs
-credits:
-  cover_name_as_printed: மு. கருணாநிதி
-  cover_credit_role_label_present: false
-  song_credit_roster_as_printed:
-    - மு. கருணாநிதி
-    - ஏ. மருதகாசி
-    - கே. பி. காமாக்ஷி
-    - எம். கே. ஆத்மநாதன்
-    - வில்லிபுத்தன்
-    - விவேகன்
-  song_item_authorship: unresolved; film-wide roster must not be promoted to item-level authorship
-structure:
-  front_cover_pdf_page: 1
-  publication_details_pdf_page: 2
-  story_summary_pdf_page: 3
-  songs_pdf_range: 4-9-first-part
-  song_performance_blocks: 11
-  song_number_range: 1-11
-  cast_credits_pdf_range: 9-second-part
-  screenplay_pdf_range: 10-79
-  screenplay_printed_range: 9-78
-  screenplay_printed_page_formula: printed = PDF - 1
-  back_cover_pdf_page: 80
-  source_numbered_scene_sequence: false
-  embedded_dramas:
-    - id: cheran-senguttuvan
-      title_ta: சேரன் செங்குட்டுவன்
-      pdf_range: 13-19
-      printed_range: 12-18
-    - id: agalya-rehearsal
-      title_ta: அகல்யா நாடக ஒத்திகை
-      pdf_range: 40-41-first-part
-      printed_range: 39-40
-    - id: socrates
-      title_ta: சாக்ரடீஸ் (நாடகம்)
-      pdf_range: 66-73-first-part
-      printed_range: 65-72-first-part
-      boundary_correction_basis: PDF 72 ends inside Samarasam's staged-performance intervention; PDF 73 continues through Babu's arrest before a source-visible rule-star-rule returns to parent-film action
-scene_structure:
-  separator_policy: source-visible-star-ornamentation
-  separator_typography_uniform: false
-  preserve_exact_printed_ornament: true
-  page_break_is_scene_boundary: false
+status:
+  fidelity_audit: in-progress
+  fidelity_audit_through_pdf_page: 40
+  fidelity_audited_source_pages: 40
+  fidelity_verified_source_pages: 37
+  fidelity_review_source_pages: 3
+  verified_tamil_pages: 29
+  screenplay_fidelity_verified_pages: 29
+  screenplay_fidelity_review_pages: 2
+  structured_derivatives: blocked
 scan_condition:
-  missing_or_duplicate_full_pages_identified: false
   notes:
-    - pdf_page: 1
-      finding: cover wear plus a later pencil/handwritten numeric annotation below the printed Kalaignar name; annotation is not source text
-    - pdf_page: 4
-      finding: one short Babu lyric phrase remains visual-fidelity review as "⟦சாக சந் தானா?⟧"; no external source has been used to repair it
     - pdf_page: 27
-      printed_page: 26
-      finding: faint/washed source area in the internal-monologue block; enlarged rendered-scan review still does not securely resolve the working reading "⟦நீ?⟧"
+      finding: faint/washed source area in the internal-monologue block remains unresolved as "⟦நீ?⟧"
     - pdf_page: 34
       printed_page: 33
-      finding: one color-name in Karand's bulb inventory is retained as explicit first-pass uncertainty "⟦கேவா?⟧ கலர்"
-    - pdf_page: 41
-      printed_page: 40
-      finding: one short word in the முனி speech before "காரணத்தை" remains explicit first-pass uncertainty "⟦சொத்தைக்?⟧"
-    - pdf_page: 42
-      printed_page: 41
-      finding: one short Samarasam imperative remains explicit first-pass uncertainty "⟦புடி?⟧"
-    - pdf_page: 48
-      printed_page: 47
-      finding: two short words in Raja's parcel explanation remain explicit first-pass uncertainties "⟦வந்த...?⟧" and "⟦திடானு?⟧"
-    - pdf_page: 51
-      printed_page: 50
-      finding: one short word in Raja's description of Babu remains explicit first-pass uncertainty "⟦லச்சிருக்கானே?⟧"
-    - pdf_page: 52
-      printed_page: 51
-      finding: one English-heavy phrase in Karand's comic fight description remains explicit first-pass uncertainty "⟦டைகர் ஓல்டன்?⟧"
-    - pdf_page: 57
-      printed_page: 56
-      finding: Samarasam's final line remains explicit first-pass uncertainty "⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧"
-    - pdf_page: 74
-      printed_page: 73
-      finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" overlaps upper-right printed source text; overprint is non-canonical and any genuinely hidden reading remains unresolved
-    - pdf_page: 74
-      printed_page: 73
-      finding: one short Samarasam line remains explicit first-pass uncertainty "⟦எது இன்னோரத்தில லெட்டர்?⟧"
-    - pdf_page: 77
-      printed_page: 76
-      finding: one short phrase in Samarasam's instruction remains explicit first-pass uncertainty "⟦விதவை தாப்பா?⟧"
-    - pdf_page: 80
-      finding: unnumbered back cover with staining, edge wear and physical damage; no back-matter text identified
-layers:
-  story_summary: verified
-  songs: fidelity-audit-in-progress
-  scenes: blocked-until-verified-transcription
-  dialogues: blocked-until-verified-transcription
-  characters: blocked-until-dialogue-layer
-  translations: blocked-until-verified-tamil
-status:
-  intake: complete
-  structural_mapping: complete-with-socrates-boundary-correction
-  whole_source_boundary_audit: complete-with-socrates-boundary-correction
-  scene_separator_policy: verified
-  draft_page_files_present: true
-  initial_draft_page_file_range: 1-44
-  initial_draft_page_file_count: 44
-  current_page_file_range: 1-79
-  current_page_file_count: 79
-  transcription: first-pass-complete-draft
-  canonical_first_pass_complete: true
-  source_order_first_pass_reconciled_pdf_range: 1-79
-  front_matter_first_pass_reconciled_pdf_range: 1-9
-  screenplay_first_pass_reconciled_pdf_range: 10-79
-  screenplay_first_pass_reconciled_printed_range: 9-78
-  screenplay_first_pass_reconciled_pages: 70
-  screenplay_total_pages: 70
-  fidelity_audit: in-progress
-  fidelity_audit_through_pdf_page: 30
-  fidelity_audited_source_pages: 30
-  fidelity_verified_source_pages: 28
-  fidelity_review_source_pages: 2
-  verified_tamil_pages: 20
-  screenplay_fidelity_verified_pages: 20
-  screenplay_fidelity_review_pages: 1
-  structured_derivatives: blocked
-next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 31 onward, in source order; pay special attention to the flagged PDF 34 reading, resolve or retain uncertainty without guessing, and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
+      finding: one color-name in Karand's bulb inventory remains explicit first-pass uncertainty "⟦கேவா?⟧ கலர்"
+next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 41 onward; resolve or retain uncertainty without guessing and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
