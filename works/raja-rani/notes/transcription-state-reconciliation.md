@@ -2,158 +2,82 @@
 
 ## Purpose
 
-This checkpoint reconciles the live repository state with the rendered source and records completion of the source-order canonical Tamil first pass.
+This checkpoint records the authoritative transcription and verification state for `works/raja-rani/`.
 
-## Initial live repository finding
+The rendered scan remains the controlling source. OCR/embedded text is navigation assistance only.
 
-At the start of reconciliation, `works/raja-rani/pages/` contained **44 files**, continuously named `001.md` through `044.md`.
+## Initial repository finding
 
-Recent repository history described many of these commits as canonical-transcription additions, but direct inspection showed heterogeneous material: partial transcriptions, prose summaries and literal continuation placeholders. File presence therefore could not be treated as canonical completion.
+When the current reconciliation began, `pages/001.md`–`044.md` already existed, but the set contained partial transcription, summary-style material and continuation placeholders. File existence was therefore not accepted as canonical completion.
 
-## Canonical disposition
+The old range was re-read from the rendered source in order and then extended through the end of the screenplay.
 
-The rendered scan remains the controlling source.
+## Canonical Tamil first pass
 
-The old draft range was re-read from the beginning, incomplete placeholders and summary-style files were replaced with source-supported page text, and new page files were then created beyond the original range through the final screenplay page.
+The source-order first pass is now complete as draft:
 
-No page becomes `verified` merely because the first pass is now complete. A separate full visual-fidelity audit remains mandatory before any structured derivatives.
+- source-order page files: **001.md–079.md**
+- source-order PDF range: **1–79**
+- screenplay: **PDF 10–79 / printed pp.9–78**
+- screenplay pages: **70/70**
+- PDF 80: unnumbered back cover, outside the canonical screenplay layer
 
-## First-pass progress
+Detailed first-pass checkpoints:
 
-### Front matter / source-position song section
+- `notes/canonical-first-pass-batch-001.md`
+- `notes/canonical-first-pass-batch-002.md`
+- `notes/canonical-first-pass-batch-003.md`
+- `notes/canonical-first-pass-batch-004.md`
+- `notes/canonical-first-pass-batch-005.md`
+- `notes/canonical-first-pass-batch-006.md`
+- `notes/canonical-first-pass-batch-007.md`
 
-PDF **1–9** was re-read as draft first-pass material:
+## Structural correction discovered during first pass
 
-- PDF 1: cover;
-- PDF 2: title/publication details;
-- PDF 3: `கதைச் சுருக்கம்`;
-- PDF 4–9: numbered song/performance material plus cast/song-credit material.
+The embedded `சாக்ரடீஸ் (நாடகம்)` section is source-supported through the **first part of PDF 73**, not merely through PDF 72.
 
-The film-wide song-credit roster remains distinct from item-level authorship.
-
-### Batch 001 — PDF 10–14
-
-- printed pp.9–13
-- 5 screenplay pages
-- removed literal continuation placeholders
-- began restoring `சேரன் செங்குட்டுவன்` in source order
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-001.md`.
-
-### Batch 002 — PDF 15–30
-
-- printed pp.14–29
-- 16 screenplay pages
-- completes `சேரன் செங்குட்டுவன்`
-- preserves the PDF 22→23 written-letter continuation
-- retains PDF 27 explicit uncertainty `⟦நீ?⟧`
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-002.md`.
-
-### Batch 003 — PDF 31–40
-
-- printed pp.30–39
-- 10 screenplay pages
-- reaches the start of `அகல்யா நாடக ஒத்திகை`
-- preserves cross-page continuities PDF 35→36 and 37→38
-- retains PDF 34 `⟦கேவா?⟧ கலர்`
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-003.md`.
-
-### Batch 004 — PDF 41–50
-
-- printed pp.40–49
-- 10 screenplay pages
-- completes reconciliation of the original pre-existing draft range through PDF 44
-- preserves the mixed PDF 41 Ahalya-rehearsal / parent-film boundary
-- preserves PDF 47→48, 48→49 and 49→50 continuities
-- retains explicit uncertainty on PDFs 41, 42 and 48
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-004.md`.
-
-### Batch 005 — PDF 51–60
-
-- printed pp.50–59
-- 10 new screenplay page files
-- preserves PDF 52→53 and 58→59 continuities
-- preserves source ornaments on PDFs 52, 53, 56, 58 and 59
-- retains explicit uncertainty on PDFs 51, 52 and 57
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-005.md`.
-
-### Batch 006 — PDF 61–70
-
-- printed pp.60–69
-- 10 new screenplay page files
-- preserves PDF 62→63, 64→65, 65→66, 68→69 and 69→70 continuities
-- preserves Rani's written letter on PDF 66 as a written-text structure
-- preserves `★ சாக்ரடீஸ் (நாடகம்) ★`, `நீதி மன்றம்` and `சிறை` source headings
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-006.md`.
-
-### Batch 007 — PDF 71–79
-
-- printed pp.70–78
-- 9 new screenplay page files
-- completes the source-order first pass through the final screenplay page
-- PDF 71→72 preserves Socrates' final-address continuation
-- PDF 72→73 preserves Samarasam's staged-performance intervention across the physical page boundary
-- source review corrects the `சாக்ரடீஸ் (நாடகம்)` boundary from **PDF 66–72** to **PDF 66–first part of 73**
-- PDF 73 rule–star–rule ornament marks return to parent-film `(மனப் போராட்டம்)` only after Babu's arrest
-- PDF 74 preserves two source-visible rule–star–rule transitions and excludes the later `K. N. சங்கரன்` overprint from canonical text
-- PDF 75→76 preserves Raja's lament across the physical page boundary
-- PDF 77 preserves `(முன்)` and the later rule–star–rule return
-- PDF 79 preserves `★ தோட்டம் ★`, `(இருவரும் பாடுகிறார்கள்)`, `நலம் வாழ்க!`, the final divider and the printer line; no absent lyrics are invented
-- new explicit first-pass flags: PDF 74 `⟦எது இன்னோரத்தில லெட்டர்?⟧`; PDF 77 `⟦விதவை தாப்பா?⟧`
-
-Detailed checkpoint: `notes/canonical-first-pass-batch-007.md`.
-
-## Corrected embedded-performance boundary
-
-The earlier structural map stated:
-
-`சாக்ரடீஸ் (நாடகம்)`: PDF 66–72.
-
-That endpoint is superseded by direct source transcription. PDF 72 ends with `பாபு: அத்தான்...`; PDF 73 continues the staged intervention through the real-poison revelation, police arrival and Babu's arrest. Only then does a rule–star–rule ornament precede `(மனப் போராட்டம்)`.
-
-The authoritative source-supported boundary is now:
+Authoritative boundary:
 
 **PDF 66–first part of 73 / printed pp.65–72 (first part).**
 
-## Current continuous coverage
+The return to parent-film action occurs only after the performance interruption concludes and the next source-visible divider appears.
 
-- source-order draft first pass: **PDF 1–79 — COMPLETE**
-- screenplay draft first pass: **PDF 10–79 / printed pp.9–78 — COMPLETE**
-- reconciled screenplay pages: **70/70**
-- current page files: **001.md–079.md**
+## Separate visual-fidelity audit
+
+The first pass is not itself verification. A separate page-by-page rendered-scan audit is now in progress.
+
+### Fidelity Batch 001 — PDF 1–10
+
+- audited: **10/79 source-order pages**
+- verified: **9 source-order pages** — PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
+- review: **PDF 4**
+- verified screenplay pages: **1/70** — PDF 10 / printed p.9
+- report: `notes/visual-fidelity-audit-batch-001.md`
+
+Source-backed corrections in this batch include:
+
+- PDF 6: `சிந்திக்கத் தெரிந்த மனித குலத்துக்கே` restored from the rendered scan;
+- PDF 8: source punctuation after `கிளாவர் ராணி` restored;
+- PDF 9: the previously uncertain printed form `தவறுக` resolved from the scan without normalization;
+- PDF 10: source-visible leading punctuation in Rani's line restored and the four-star divider verified.
+
+PDF 4 remains explicitly in review because one short lyric phrase is not visually secure enough for promotion to verified. No outside edition, audio, web source or memory has been used to fill it.
+
+## Current fidelity review queue
+
+Review remains required on PDF 4 and on previously flagged readings later in the source, including PDFs 27, 34, 41, 42, 48, 51, 52, 57, 74 and 77. PDF 74 also has documented later-source overprint interference.
+
+Exact flagged forms remain in the individual page files and batch notes.
+
+## Current gate
+
+- source intake: **complete**
+- structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
-- verified Tamil pages claimed: **0**
-- visual fidelity audit: **not started**
-- scene/dialogue/character/translation derivatives: **blocked**
-
-PDF 80 is the unnumbered back cover and remains outside the canonical screenplay layer.
-
-## Remaining explicit first-pass uncertainty
-
-Current flags to revisit during the fidelity audit include:
-
-- PDF 27: `⟦நீ?⟧`
-- PDF 34: `⟦கேவா?⟧ கலர்`
-- PDF 41: `⟦சொத்தைக்?⟧`
-- PDF 42: `⟦புடி?⟧`
-- PDF 48: `⟦வந்த...?⟧`, `⟦திடானு?⟧`
-- PDF 51: `⟦லச்சிருக்கானே?⟧`
-- PDF 52: `⟦டைகர் ஓல்டன்?⟧`
-- PDF 57: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
-- PDF 74: `⟦எது இன்னோரத்தில லெட்டர்?⟧` plus later ownership/address overprint
-- PDF 77: `⟦விதவை தாப்பா?⟧`
-
-These are not silently repaired from film audio, subtitles, websites, later editions or memory.
+- visual fidelity audit: **in progress through PDF 10**
+- verified screenplay pages: **1/70**
+- structured scene/dialogue/character/translation derivatives: **blocked**
 
 ## Next activity
 
-Perform a **separate full visual fidelity audit** of the canonical Tamil layer against the rendered scan, in source order.
-
-The audit must verify exact source-supported spelling, speaker labels, punctuation, stage directions, written text, ornaments/headings and cross-page continuity; resolve or retain uncertainty explicitly; and promote pages to verified only when the scan supports them.
-
-Structured scene/dialogue/character/translation derivatives remain blocked until that Tamil fidelity gate is complete.
+Continue the rendered-scan visual fidelity audit from **PDF 11 onward**, in source order. Verify exact source-supported spelling, labels, punctuation, stage directions, written-text structures, ornaments/headings and cross-page continuity. Resolve or retain uncertainty explicitly and keep structured derivatives blocked until the full Tamil fidelity gate is complete.
