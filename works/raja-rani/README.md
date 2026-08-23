@@ -58,89 +58,126 @@ Embedded dramatic sections:
 - `அகல்யா நாடக ஒத்திகை`: PDF **40–first part of 41** / printed pp.39–40
 - `சாக்ரடீஸ் (நாடகம்)`: PDF **66–first part of 73** / printed pp.65–72 (first part)
 
-### Socrates boundary correction
+The Socrates boundary was corrected during first-pass reconciliation: PDF 72 ends inside the staged-performance intervention, and PDF 73 continues that sequence through Babu's arrest before the next source-visible divider returns to parent-film action.
 
-The intake map had recorded the Socrates block as PDF 66–72. The completed first pass shows that PDF 72 ends inside Samarasam's staged-performance intervention with `பாபு: அத்தான்...`, and PDF 73 continues that same performance through the real-poison revelation, police arrival and Babu's arrest. Only the following rule–star–rule ornament returns to parent-film `(மனப் போராட்டம்)`.
+The source does **not** present a numbered screenplay-scene sequence. Later scene records must therefore be derived only from verified source-supported boundaries.
 
-The corrected source-supported boundary is therefore **PDF 66–first part of 73**.
+## Scene-separator policy
 
-The source does **not** present a numbered screenplay-scene sequence. Later scene records must be derived only from verified source-supported boundaries.
+The source uses recurring star ornamentation as scene-boundary evidence, but not one uniform glyph sequence throughout. Forms include rows of stars, rule–star–rule ornaments, standalone `★`, circular ornaments, and star-flanked headings.
 
-## Scene-separator finding
+Canonical transcription preserves the source-visible form on each page. OCR does not decide scene boundaries, and a page break alone is not a scene boundary.
 
-The source uses recurring star ornamentation as scene-boundary evidence, but not one uniform glyph sequence throughout.
+## Canonical Tamil first pass
 
-Examples include centered rows of stars, rule–star–rule ornaments (`—★—`), standalone `★` transitions, and star-flanked headings such as `★ சாக்ரடீஸ் (நாடகம்) ★`, `நீதி மன்றம்`, `சிறை`, and `★ தோட்டம் ★`.
+The work already existed when this project was resumed, with **44 pre-existing draft files (`001.md`–`044.md`)**. Several contained partial transcription, prose summaries or placeholders, so file existence was not treated as canonical completion.
 
-Canonical transcription preserves the source-visible form on each page. OCR must not normalize or decide scene separators, and page breaks alone are not scene boundaries.
-
-## Scan-condition / uncertainty issues
-
-No missing or duplicated complete PDF page was identified.
-
-Current review/uncertainty items include:
-
-- PDF 4: `⟦சாக சந் தானா?⟧`
-- PDF 27 / printed p.26: `⟦நீ?⟧` — enlarged rendered-scan review still does not securely resolve the word
-- PDF 34 / printed p.33: `⟦கேவா?⟧ கலர்`
-- PDF 41 / printed p.40: `⟦சொத்தைக்?⟧`
-- PDF 42 / printed p.41: `⟦புடி?⟧`
-- PDF 48 / printed p.47: `⟦வந்த...?⟧`, `⟦திடானு?⟧`
-- PDF 51 / printed p.50: `⟦லச்சிருக்கானே?⟧`
-- PDF 52 / printed p.51: `⟦டைகர் ஓல்டன்?⟧`
-- PDF 57 / printed p.56: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
-- PDF 74 / printed p.73: `⟦எது இன்னோரத்தில லெட்டர்?⟧`
-- PDF 77 / printed p.76: `⟦விதவை தாப்பா?⟧`
-
-PDF 74 also carries a later ownership/address overprint beginning `K. N. சங்கரன்` across the upper-right source text. The overprint itself is not canonical; only scan-supported source wording is transcribed.
-
-PDF 80 is a stained/damaged back cover outside the canonical screenplay range.
-
-## Canonical Tamil first-pass status
-
-The work already existed when this intake was resumed, with **44 pre-existing draft files (`001.md`–`044.md`)**. Several were partial transcriptions, prose summaries or placeholders, so they were not accepted as complete merely because files existed.
-
-Those drafts were reconciled from the rendered scan in source order, and new page files were created through the final screenplay page.
+The drafts were reconciled from the rendered scan in source order and extended through the final screenplay page.
 
 - source-order first pass: **PDF 1–79 — complete as draft**
 - screenplay first pass: **PDF 10–79 / printed pp.9–78 — 70/70 pages**
 - page files: **`001.md`–`079.md`**
 
-## Visual fidelity audit status
+## Visual fidelity audit
 
-The separate rendered-scan audit is in progress.
+The separate rendered-scan fidelity audit is in progress. The scan remains the controlling evidence; uncertain text is not repaired from audio, subtitles, web quotations, later editions or memory.
 
 ### Batch 001 — PDF 1–10
 
-- verified: PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
-- review: PDF 4
+- verified: PDF **1, 2, 3, 5, 6, 7, 8, 9, 10**
+- review: PDF **4**
 - report: `notes/visual-fidelity-audit-batch-001.md`
+
+PDF 4 retains the unresolved lyric reading `⟦சாக சந் தானா?⟧`.
 
 ### Batch 002 — PDF 11–20
 
 - verified: **PDF 11–20 — 10/10**
 - review: none
-- includes verification of the full `சேரன் செங்குட்டுவன்` embedded-performance range and return to film-level `(மேடையில்)` on PDF 20
 - report: `notes/visual-fidelity-audit-batch-002.md`
+
+This batch verified the full `சேரன் செங்குட்டுவன்` embedded-performance range and return to film-level `(மேடையில்)` on PDF 20.
 
 ### Batch 003 — PDF 21–30
 
 - verified: **PDF 21–26, 28–30 — 9 pages**
 - review: **PDF 27**
-- PDF 27 remains review because the faint `⟦நீ?⟧` reading is not secure enough to guess
-- source-specific corrections include restoration of parenthetical vs bracketed structures on PDF 21, preservation of colloquial forms on PDF 22, `முந்நாறு!` on PDF 26, `வேண்டியதில்லே!` on PDF 28, and `கெளரவமான` on PDF 29
 - report: `notes/visual-fidelity-audit-batch-003.md`
+
+PDF 27 retains the faint internal-monologue reading `⟦நீ?⟧`.
+
+### Batch 004 — PDF 31–40
+
+- verified: **PDF 31–33, 35–40 — 9 pages**
+- review: **PDF 34**
+- report: `notes/visual-fidelity-audit-batch-004.md`
+
+PDF 34 retains the unresolved bulb-colour reading `⟦கேவா?⟧ கலர்`.
+
+### Batch 005 — PDF 41–50
+
+- verified: **PDF 43–47, 49–50 — 7 pages**
+- review: **PDF 41, 42, 48 — 3 pages**
+- report: `notes/visual-fidelity-audit-batch-005.md`
+
+Unresolved readings remain explicit on PDF 41 (`⟦சொத்தைக்?⟧`), PDF 42 (`⟦புடி?⟧`), and PDF 48 (`⟦வந்த...?⟧`, `⟦திடானு?⟧`). The mixed PDF 41 boundary from the `அகல்யா நாடக ஒத்திகை` back to parent-film material remains preserved.
+
+### Batch 006 — PDF 51–60
+
+- verified: **PDF 51, 53–56, 58–60 — 8 pages**
+- review: **PDF 52, 57 — 2 pages**
+- report: `notes/visual-fidelity-audit-batch-006.md`
+
+Important findings include:
+
+- PDF 51: earlier `⟦லச்சிருக்கானே?⟧` resolved from the rendered scan as **`வச்சிருக்கானே!`**;
+- PDF 52: printed `பயிட்` forms restored, while `⟦டைகர் ஓல்டன்?⟧` remains unresolved;
+- PDF 53: source forms and Babu's final `நீ?` restored;
+- PDF 56: all three source-visible scene transitions remain distinct;
+- PDF 57: the final Samarasam phrase remains unresolved after scan inspection;
+- PDF 58→59: Rani's cross-page utterance was verified without merging page provenance.
 
 ### Cumulative audit position
 
-- source-order audited: **PDF 1–30 — 30/79 pages**
-- verified source-order pages: **28**
-- review source-order pages: **2 — PDF 4, PDF 27**
-- screenplay audited: **PDF 10–30 — 21/70 pages**
-- screenplay verified: **20/70**
-- screenplay review: **1/70 — PDF 27**
+- source-order audit through: **PDF 60**
+- audited source pages: **60/79**
+- verified source pages: **52**
+- review source pages: **8 — PDF 4, 27, 34, 41, 42, 48, 52, 57**
+- screenplay audited: **PDF 10–60 — 51/70 pages**
+- screenplay verified: **44/70**
+- screenplay review: **7/70 — PDF 27, 34, 41, 42, 48, 52, 57**
 
-Structured scene/dialogue/character/translation derivatives remain blocked until the full Tamil fidelity gate is complete.
+## Remaining fidelity review queue
+
+Already-audited unresolved readings:
+
+- PDF 4: `⟦சாக சந் தானா?⟧`
+- PDF 27: `⟦நீ?⟧`
+- PDF 34: `⟦கேவா?⟧ கலர்`
+- PDF 41: `⟦சொத்தைக்?⟧`
+- PDF 42: `⟦புடி?⟧`
+- PDF 48: `⟦வந்த...?⟧`, `⟦திடானு?⟧`
+- PDF 52: `⟦டைகர் ஓல்டன்?⟧`
+- PDF 57: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
+
+Later first-pass flags still awaiting their own fidelity batches:
+
+- PDF 74: `⟦எது இன்னோரத்தில லெட்டர்?⟧`, plus later ownership/address overprint interference
+- PDF 77: `⟦விதவை தாப்பா?⟧`
+
+PDF 51 is no longer in the review queue because the scan resolves it as `வச்சிருக்கானே!`.
+
+## Current gate
+
+- source intake: **complete**
+- structural mapping: **complete**
+- canonical Tamil first pass: **complete as draft**
+- visual fidelity audit: **in progress through PDF 60**
+- structured scenes: **blocked**
+- dialogue index: **blocked**
+- character/entity index: **blocked**
+- song/performance authorship derivatives: **blocked pending their gate**
+- English translation: **blocked until verified Tamil**
 
 ## Authoritative mapping / progress notes
 
@@ -159,6 +196,9 @@ Structured scene/dialogue/character/translation derivatives remain blocked until
 - `notes/visual-fidelity-audit-batch-001.md`
 - `notes/visual-fidelity-audit-batch-002.md`
 - `notes/visual-fidelity-audit-batch-003.md`
+- `notes/visual-fidelity-audit-batch-004.md`
+- `notes/visual-fidelity-audit-batch-005.md`
+- `notes/visual-fidelity-audit-batch-006.md`
 
 ## Source rules
 
@@ -171,4 +211,4 @@ Structured scene/dialogue/character/translation derivatives remain blocked until
 
 ## Next activity
 
-Continue the **separate rendered-scan visual fidelity audit from PDF 31 onward**, in source order. Pay special attention to the already flagged PDF 34 reading `⟦கேவா?⟧ கலர்`, preserve source-specific forms and separators, and do not begin structured derivatives until the full Tamil fidelity gate is complete.
+Continue the **rendered-scan visual fidelity audit from PDF 61 onward**, in source order. The next meaningful batch is PDF 61–70, with particular attention to preserving the transition into `சாக்ரடீஸ் (நாடகம்)` beginning on PDF 66. Structured derivatives remain blocked until the full Tamil fidelity gate is complete.
