@@ -4,11 +4,16 @@
 
 Source intake, structural mapping, canonical Tamil first pass and the full rendered-scan fidelity audit are complete for the supplied scan.
 
-The fidelity audit is **complete-with-source-limitations** rather than artificially 79/79 verified. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
+The Tamil fidelity gate is **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The controlling gate disposition is:
+The scene segmentation/index phase is also complete, and verified scene-text extraction is now in progress.
 
-`notes/tamil-fidelity-gate-disposition.md`
+Controlling files:
+
+- `notes/tamil-fidelity-gate-disposition.md`
+- `notes/scene-segmentation-audit.md`
+- `scenes/index.json`
+- `scenes/README.md`
 
 ## Completed
 
@@ -25,6 +30,10 @@ The controlling gate disposition is:
   - `சேரன் செங்குட்டுவன்`: PDF 13–19;
   - `அகல்யா நாடக ஒத்திகை`: PDF 40–first part of 41;
   - `சாக்ரடீஸ் (நாடகம்)`: PDF 66–first part of 73.
+- Source-supported archival scene segmentation complete: **58 segments**.
+- Verified scene-text eligibility: **50 segments**.
+- Source-review-blocked scene segments: **8**.
+- Scene-text Batch 001 complete: `scene-001.md`–`scene-010.md`.
 
 ## Bounded source limitations
 
@@ -39,22 +48,34 @@ These four pages remain `review` even though the audit phase itself is closed.
 
 Later layers must use **verified Tamil only**.
 
-- A structural scene index may cover the entire screenplay.
+- The structural scene index covers the entire screenplay.
 - A verified scene-text derivative may be created only when its complete source span is verified.
-- Any scene intersecting PDF 27, 48, 57 or 74 must be marked blocked/pending for verified scene-text output.
+- Any scene intersecting PDF 27, 48, 57 or 74 remains blocked for verified scene-text output.
 - Dialogue records may be created only from explicitly speaker-labelled verified source utterances.
 - English translation may begin only for corresponding verified Tamil units.
 - No uncertain or physically obscured text may be filled from context, film audio, subtitles, websites, OCR or another edition.
 
+## Current scene-text progress
+
+- archival segments: **58**
+- eligible scene-text segments: **50**
+- completed verified scene-text files: **10**
+- remaining eligible scene-text files: **40**
+- blocked scene segments: **8**
+
+Blocked IDs:
+
+`raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013`, `raja-rani-s033`, `raja-rani-s039`, `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055`.
+
 ## Readiness
 
-- scene segmentation/index: **READY**
-- verified scene-text derivative generation: **READY with review-page exclusions**
-- dialogue extraction: **not yet started; follow scene-text gate**
+- scene segmentation/index: **COMPLETE**
+- verified scene-text derivative generation: **IN PROGRESS**
+- dialogue extraction: **not yet started; follow verified-source-unit gate**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
 - English translation: **not yet started; verified Tamil units only**
 
 ## Next activity
 
-Build the **source-supported scene segmentation and scene-text derivative eligibility map for PDF 10–79**. Use source-visible separators/headings and clear dramatic transitions only; never use page breaks alone. Explicitly identify every scene intersecting PDF 27, 48, 57 or 74 as blocked for verified scene-text derivation.
+Continue verified scene-text extraction in source order. **Skip blocked `s011`–`s013` and resume with `s014`**, using a meaningful batch and preserving the accepted segmentation boundaries exactly.
