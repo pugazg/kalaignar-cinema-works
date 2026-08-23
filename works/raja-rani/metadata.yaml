@@ -71,7 +71,7 @@ scan_condition:
       finding: one short Babu lyric phrase remains visual-fidelity review as "⟦சாக சந் தானா?⟧"; no external source has been used to repair it
     - pdf_page: 27
       printed_page: 26
-      finding: faint/washed source area in the internal-monologue block; one short first-pass reading remains explicitly uncertain as "⟦நீ?⟧"
+      finding: faint/washed source area in the internal-monologue block; enlarged rendered-scan review still does not securely resolve the working reading "⟦நீ?⟧"
     - pdf_page: 34
       printed_page: 33
       finding: one color-name in Karand's bulb inventory is retained as explicit first-pass uncertainty "⟦கேவா?⟧ கலர்"
@@ -130,12 +130,12 @@ status:
   screenplay_first_pass_reconciled_pages: 70
   screenplay_total_pages: 70
   fidelity_audit: in-progress
-  fidelity_audit_through_pdf_page: 10
-  fidelity_audited_source_pages: 10
-  fidelity_verified_source_pages: 9
-  fidelity_review_source_pages: 1
-  verified_tamil_pages: 1
-  screenplay_fidelity_verified_pages: 1
-  screenplay_fidelity_review_pages: 0
+  fidelity_audit_through_pdf_page: 30
+  fidelity_audited_source_pages: 30
+  fidelity_verified_source_pages: 28
+  fidelity_review_source_pages: 2
+  verified_tamil_pages: 20
+  screenplay_fidelity_verified_pages: 20
+  screenplay_fidelity_review_pages: 1
   structured_derivatives: blocked
-next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 11 onward, in source order; resolve or retain uncertainty without guessing and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
+next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 31 onward, in source order; pay special attention to the flagged PDF 34 reading, resolve or retain uncertainty without guessing, and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
