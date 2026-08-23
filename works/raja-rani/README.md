@@ -70,21 +70,17 @@ The source does **not** present a numbered screenplay-scene sequence. Later scen
 
 The source uses recurring star ornamentation as scene-boundary evidence, but not one uniform glyph sequence throughout.
 
-Examples include:
-
-- centered rows of stars;
-- rule–star–rule ornaments (`—★—`);
-- standalone `★` transitions;
-- star-flanked headings such as `★ சாக்ரடீஸ் (நாடகம்) ★`, `நீதி மன்றம்`, `சிறை`, and `★ தோட்டம் ★`.
+Examples include centered rows of stars, rule–star–rule ornaments (`—★—`), standalone `★` transitions, and star-flanked headings such as `★ சாக்ரடீஸ் (நாடகம்) ★`, `நீதி மன்றம்`, `சிறை`, and `★ தோட்டம் ★`.
 
 Canonical transcription preserves the source-visible form on each page. OCR must not normalize or decide scene separators, and page breaks alone are not scene boundaries.
 
-## Scan-condition / first-pass issues
+## Scan-condition / uncertainty issues
 
 No missing or duplicated complete PDF page was identified.
 
-Explicit first-pass uncertainty remains visible rather than silently repaired. Current flags include:
+Current review/uncertainty items include:
 
+- PDF 4: `⟦சாக சந் தானா?⟧`
 - PDF 27 / printed p.26: `⟦நீ?⟧`
 - PDF 34 / printed p.33: `⟦கேவா?⟧ கலர்`
 - PDF 41 / printed p.40: `⟦சொத்தைக்?⟧`
@@ -106,17 +102,32 @@ The work already existed when this intake was resumed, with **44 pre-existing dr
 
 Those drafts were reconciled from the rendered scan in source order, and new page files were created through the final screenplay page.
 
-Current state:
+- source-order first pass: **PDF 1–79 — complete as draft**
+- screenplay first pass: **PDF 10–79 / printed pp.9–78 — 70/70 pages**
+- page files: **`001.md`–`079.md`**
 
-- source-order draft first pass: **PDF 1–79 — complete**
-- screenplay draft first pass: **PDF 10–79 / printed pp.9–78 — 70/70 pages**
-- current page files: **`001.md`–`079.md`**
+## Visual fidelity audit status
+
+The separate rendered-scan audit has now begun.
+
+### Batch 001 — PDF 1–10
+
+- audited source-order pages: **10**
+- verified source-order pages: **9** — PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
+- review pages: **1** — PDF 4
+- verified screenplay pages: **1/70** — PDF 10 / printed p.9
+- detailed report: `notes/visual-fidelity-audit-batch-001.md`
+
+Source-backed corrections in this batch include `சிந்திக்கத் தெரிந்த மனித குலத்துக்கே` on PDF 6, restoration of `கிளாவர் ராணி!` punctuation on PDF 8, resolution of PDF 9's printed `தவறுக`, and restoration of the leading source punctuation in `ராணி: 'இதோ வந்துட்டேனப்பா,` on PDF 10.
+
+PDF 4 remains review because one short Babu lyric phrase is not visually secure enough to promote to verified. No external source has been used to repair it.
+
+Current gate:
+
 - canonical Tamil first pass: **complete as draft**
-- verified Tamil pages: **0 claimed**
-- visual fidelity audit: **not started**
-- dialogue / scene / character / translation derivatives: **blocked until verified Tamil**
-
-The first pass preserves source-supported written text and performance structures, including Rani's letter on PDF 66, cross-page continuities, the corrected Socrates performance endpoint on PDF 73, PDF 74's later-overprint condition, and the final `★ தோட்டம் ★` / `(இருவரும் பாடுகிறார்கள்)` / `நலம் வாழ்க!` sequence on PDF 79. No absent lyrics are invented.
+- visual fidelity audit: **in progress through PDF 10**
+- verified screenplay pages: **1/70**
+- structured derivatives: **blocked until the full Tamil fidelity gate is complete**
 
 ## Authoritative mapping / progress notes
 
@@ -132,6 +143,7 @@ The first pass preserves source-supported written text and performance structure
 - `notes/canonical-first-pass-batch-005.md`
 - `notes/canonical-first-pass-batch-006.md`
 - `notes/canonical-first-pass-batch-007.md`
+- `notes/visual-fidelity-audit-batch-001.md`
 
 ## Source rules
 
@@ -140,8 +152,8 @@ The first pass preserves source-supported written text and performance structure
 - No silent correction or modernization.
 - No invented speakers.
 - Song authorship requires item-level evidence.
-- First-pass uncertainty remains explicit instead of being repaired from memory or external sources.
+- Uncertainty remains explicit instead of being repaired from memory or external sources.
 
 ## Next activity
 
-Perform a **separate full visual fidelity audit** of the canonical Tamil layer against the rendered scan, in source order, before any structured derivatives.
+Continue the **separate full visual fidelity audit from PDF 11 onward**, in source order, before any structured derivatives.
