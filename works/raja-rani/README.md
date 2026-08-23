@@ -87,6 +87,7 @@ Source-condition issues requiring explicit handling include:
 
 - PDF 1: cover wear and a later pencil/handwritten numeric annotation below the printed Kalaignar name; the annotation is not canonical source text;
 - PDF 27 / printed p.26: a faint/washed part of Rani's internal-monologue block leaves one short first-pass reading explicitly uncertain as `⟦நீ?⟧`;
+- PDF 34 / printed p.33: one printed color-name in Karand's bulb inventory remains explicit first-pass uncertainty as `⟦கேவா?⟧ கலர்`;
 - PDF 74 / printed p.73: a later ownership/address stamp or overprint beginning `K. N. சங்கரன்` covers part of the upper-right printed source text; any source reading hidden by it must remain unresolved unless the scan supports a reading elsewhere;
 - PDF 80: stained/damaged back cover with edge wear; no back-matter text was identified there.
 
@@ -98,18 +99,20 @@ Those drafts are being reconciled directly against the rendered scan in source o
 
 Current continuous first-pass coverage is now:
 
-- source PDF **1–30**: reconciled as draft first-pass material;
+- source PDF **1–40**: reconciled as draft first-pass material;
 - front matter / story / song / credits: PDF **1–9**;
-- screenplay: PDF **10–30 / printed pp.9–29**;
-- screenplay progress: **21/70 pages**;
+- screenplay: PDF **10–40 / printed pp.9–39**;
+- screenplay progress: **31/70 pages**;
 - embedded `சேரன் செங்குட்டுவன்`: complete in first-pass source order through PDF 19;
+- embedded `அகல்யா நாடக ஒத்திகை`: begins on PDF 40 and continues into the first part of PDF 41;
 - PDF 22→23: the printed letter remains a genuine cross-page written-text structure;
-- PDF 25 and later structural ornaments are retained from the scan instead of normalized;
-- PDF 27 retains explicit uncertainty where the scan is not yet secure enough for a definitive reading.
+- PDF 35→36 and PDF 37→38 preserve genuine cross-page stage/dialogue continuities;
+- source-visible rule–star–rule and single-star ornaments remain distinct instead of being normalized;
+- PDF 27 and PDF 34 retain explicit uncertainty where the rendered scan is not yet secure enough for a definitive reading.
 
 All reconciled pages remain **draft**. No page is promoted to `verified` during this first-pass activity.
 
-The pre-existing files PDF **31–44** remain untrusted working drafts until each is reconciled against its rendered source page.
+The pre-existing files PDF **41–44** remain untrusted working drafts until each is reconciled against its rendered source page.
 
 ## Current gate
 
@@ -117,8 +120,8 @@ The pre-existing files PDF **31–44** remain untrusted working drafts until eac
 - Structural mapping: **complete**
 - Whole-source boundary audit: **complete**
 - Scene-separator policy: **verified**
-- Canonical Tamil first pass: **in progress — PDF 1–30 continuous**
-- Screenplay first pass: **PDF 10–30 / printed pp.9–29 — 21/70 pages**
+- Canonical Tamil first pass: **in progress — PDF 1–40 continuous**
+- Screenplay first pass: **PDF 10–40 / printed pp.9–39 — 31/70 pages**
 - Verified Tamil pages: **0 claimed**
 - Visual fidelity audit: **not started**
 - Dialogue / scene / character / translation derivatives: **blocked until verified Tamil**
@@ -132,6 +135,7 @@ The pre-existing files PDF **31–44** remain untrusted working drafts until eac
 - `notes/transcription-state-reconciliation.md`
 - `notes/canonical-first-pass-batch-001.md`
 - `notes/canonical-first-pass-batch-002.md`
+- `notes/canonical-first-pass-batch-003.md`
 
 ## Source rules
 
@@ -144,4 +148,4 @@ The pre-existing files PDF **31–44** remain untrusted working drafts until eac
 
 ## Next activity
 
-Continue **canonical Tamil first-pass transcription from PDF 31 onward**, in source order, with stable page anchors. Reconcile the pre-existing PDF 31–44 drafts against the rendered scan rather than trusting them as complete. After the whole first pass reaches PDF 79, perform a **separate visual fidelity audit** before any structured derivatives.
+Continue **canonical Tamil first-pass transcription from PDF 41 onward**, in source order, beginning with the mixed physical page where the `அகல்யா நாடக ஒத்திகை` ends and the parent-film screenplay resumes. Reconcile the remaining pre-existing PDF 41–44 drafts against the rendered scan rather than trusting them as complete. After the whole first pass reaches PDF 79, perform a **separate visual fidelity audit** before any structured derivatives.
