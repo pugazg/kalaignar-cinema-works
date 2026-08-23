@@ -4,9 +4,22 @@
 
 `TVA_BOK_0017188_ராஜா_ராணி.pdf`
 
+- source/archive identifier: **`TVA_BOK_0017188`** — taken from the supplied/archive filename, not observed as a printed source identifier
 - PDF pages: **80**
 - byte size: **31,600,388**
 - SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`
+- PDF form: scanned publication with an embedded OCR text layer; OCR is non-canonical
+
+## Source identity
+
+- title leaf title: **`ராஜா ராணி`**
+- cover title form: **`ராஜாராணி`** (no clearly visible word gap)
+- cover name/credit: **`மு. கருணாநிதி`**; no role label is printed beside the name on the cover
+- visible imprint on PDF 2: **`மலர் மன்றம்` / `விருதுநகர்,`**
+- visible price statement: **`விலை அணா 0-8-0`**
+- explicit edition statement: **none identified**
+- explicit publication year: **none identified**
+- final printer line on PDF 79: **`அன்பு அச்சகம், மதுரை:-- 56`**; the printed `56` is not treated as a publication year without an explicit source label
 
 ## Source classification
 
@@ -21,17 +34,35 @@ This is processed using the Parasakthi / Manohara workflow, not the limited stor
 | 1 | Front cover | verified paratext |
 | 2 | Book/title/publication details | verified paratext / metadata |
 | 3 | `கதைச் சுருக்கம்` | verified narrative summary; do not convert into scenes |
-| 4–9 (first part of p.9) | Film songs / performance text | verified source-position song section |
+| 4–9 (first part of p.9) | Film songs / performance text | verified source-position song section; 11 numbered `பாட்டு` blocks (1–11) |
 | 9 (second part) | Cast / performers / song-credit roster | verified credits / metadata |
 | 10–79 | Main dialogue/screenplay | verified canonical screenplay range |
-| 80 | Back cover | verified back-cover paratext |
+| 80 | Back cover | verified back-cover paratext; no back-matter text identified |
 
 ## Printed pagination
 
 - PDF 10 = printed p.9.
 - PDF 79 = printed p.78.
 - Canonical screenplay range: **PDF 10–79 / printed pp.9–78**.
+- The valid screenplay formula is **printed page = PDF page - 1**.
+- PDF 5 visibly carries printed p.4 and the numbered pages continue consistently through the screenplay.
 - PDF 4 is the opening song page and does not show a visible printed page number in the rendered scan; do not invent one in canonical page anchors.
+- PDF 1–3 and PDF 80 are unnumbered paratext for archival mapping purposes.
+
+## Song / performance structures
+
+The source prints **11 numbered song/performance blocks (`பாட்டு` 1–11)** before the main screenplay range.
+
+PDF 9 prints the film-wide `பாடல்கள்:` roster:
+
+- `மு. கருணாநிதி`
+- `ஏ. மருதகாசி`
+- `கே. பி. காமாக்ஷி`
+- `எம். கே. ஆத்மநாதன்`
+- `வில்லிபுத்தன்`
+- `விவேகன்`
+
+This is **not item-level authorship evidence**. No numbered song is assigned to an individual lyricist merely from this roster.
 
 ## Verified embedded dramatic sections
 
@@ -46,6 +77,17 @@ See:
 - `notes/embedded-drama-boundaries.md`
 - `notes/full-source-structure-audit.md`
 
+## Scene / section numbering finding
+
+The screenplay does **not** print a source-numbered scene sequence comparable to `1, 2, 3...`.
+
+Therefore, at intake:
+
+- no source scene count is invented;
+- no scene-number gap, repeat or out-of-order sequence is claimed;
+- the three named embedded dramatic units are mapped by their printed headings and source boundaries;
+- later archival scene records will be derived only from source-supported separators/headings and dramatic transitions after the Tamil layer is verified.
+
 ## Scene-separator finding
 
 The screenplay uses **source-visible star ornamentation as recurring scene-boundary evidence**, but not in one completely uniform typography.
@@ -53,7 +95,7 @@ The screenplay uses **source-visible star ornamentation as recurring scene-bound
 Verified examples include:
 
 - PDF 10: a centered row of four stars between dramatic blocks;
-- PDF 25: a centered rule–star–rule ornament (`—★—`); 
+- PDF 25: a centered rule–star–rule ornament (`—★—`);
 - later pages: the same divider family, often corrupted by OCR;
 - PDF 79: star-flanked location heading `★ தோட்டம் ★` and a final rule–star–rule ornament.
 
@@ -64,6 +106,18 @@ Therefore:
 - do not normalize every separator to a single literal form;
 - page breaks alone are not scene boundaries;
 - star-flanked headings are heading evidence and must be distinguished from standalone divider ornaments.
+
+## Scan defects / source questions
+
+Whole-scan inspection identified no missing or duplicated complete PDF page in this intake pass.
+
+Documented physical/later-source interference:
+
+- **PDF 1:** worn cover and a later pencil/handwritten numeric annotation below the printed `மு. கருணாநிதி`; exclude the annotation from canonical text.
+- **PDF 74 / printed p.73:** a later ownership/address stamp or overprint beginning **`K. N. சங்கரன்`** covers part of the upper-right printed text. Any hidden reading must remain explicit as unresolved unless the controlling scan itself supports it elsewhere.
+- **PDF 80:** stained/damaged unnumbered back cover with edge wear; no catalogue or advertisement text identified there.
+
+General page wear, contrast variation and edge damage are source-condition issues and must not be silently repaired through transcription.
 
 ## Scene/dialogue preparation rules
 
@@ -81,6 +135,14 @@ Therefore:
 - Printed film-wide song-credit lists do not automatically assign every song without item-level mapping.
 - Existing Kalaignar song corpus must be checked before creating duplicate song records.
 
+## Existing draft-page reconciliation
+
+This work was already present when the current intake checkpoint resumed. The repository contains **44 page files, `pages/001.md` through `pages/044.md`**.
+
+They are **draft working material, not a completed canonical first pass**. At least one (`pages/012.md`) contains an explicit continuation placeholder instead of a complete page transcription, and formatting/status conventions vary across the batch. No separate visual-fidelity audit has verified the set.
+
+For that reason, the next canonical activity must work from the rendered scan in source order and reconcile the existing drafts rather than blindly continuing at page 45.
+
 ## Gate status
 
 - Source intake: **complete**
@@ -88,10 +150,12 @@ Therefore:
 - Whole-source boundary audit: **complete**
 - Embedded dramatic-section boundary audit: **complete**
 - Scene-separator policy: **verified**
-- Canonical Tamil transcription: **not started**
+- Existing page drafts: **001–044 present, incomplete/unverified**
+- Canonical Tamil first pass: **not complete**
+- Verified Tamil pages: **0 claimed at this checkpoint**
 - Visual fidelity audit: **not started**
 - Structured derivatives: **blocked**
 
 ## Next activity
 
-Begin canonical Tamil first-pass transcription in source order for **PDF 10–79 / printed pp.9–78**, preserving all source-visible stage directions, exact speaker labels, star ornaments, songs/performance blocks and embedded dramatic material.
+**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
