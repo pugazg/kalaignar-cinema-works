@@ -2,23 +2,47 @@ title: ராஜா ராணி
 work_id: raja-rani
 source:
   filename: TVA_BOK_0017188_ராஜா_ராணி.pdf
+  identifier: TVA_BOK_0017188
+  identifier_basis: archive filename; not observed as a printed identifier in the scan
   pages: 80
   bytes: 31600388
   sha256: 26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4
   type: scanned_publication
+  embedded_text: OCR text layer present; non-canonical navigation aid only
+  title_leaf_title_as_visible: ராஜா ராணி
+  cover_title_form_as_visible: ராஜாராணி
+  imprint_as_visible:
+    - மலர் மன்றம்
+    - விருதுநகர்,
+  edition_statement_as_printed: null
+  publication_year_as_printed: null
+  final_printer_line_as_visible: "அன்பு அச்சகம், மதுரை:-- 56"
 classification:
   type: screenplay-dialogue-publication-with-songs
 credits:
-  kalaignar_role: printed name/credit present in source; exact source-layer transcription retained for canonical metadata pass
+  cover_name_as_printed: மு. கருணாநிதி
+  cover_credit_role_label_present: false
+  song_credit_roster_as_printed:
+    - மு. கருணாநிதி
+    - ஏ. மருதகாசி
+    - கே. பி. காமாக்ஷி
+    - எம். கே. ஆத்மநாதன்
+    - வில்லிபுத்தன்
+    - விவேகன்
+  song_item_authorship: unresolved; film-wide roster must not be promoted to item-level authorship
 structure:
   front_cover_pdf_page: 1
   publication_details_pdf_page: 2
   story_summary_pdf_page: 3
   songs_pdf_range: 4-9-first-part
+  song_performance_blocks: 11
+  song_number_range: 1-11
   cast_credits_pdf_range: 9-second-part
   screenplay_pdf_range: 10-79
   screenplay_printed_range: 9-78
+  screenplay_printed_page_formula: printed = PDF - 1
   back_cover_pdf_page: 80
+  source_numbered_scene_sequence: false
   embedded_dramas:
     - id: cheran-senguttuvan
       title_ta: சேரன் செங்குட்டுவன்
@@ -37,17 +61,34 @@ scene_structure:
   separator_typography_uniform: false
   preserve_exact_printed_ornament: true
   page_break_is_scene_boundary: false
+scan_condition:
+  missing_or_duplicate_full_pages_identified: false
+  notes:
+    - pdf_page: 1
+      finding: cover wear plus a later pencil/handwritten numeric annotation below the printed Kalaignar name; annotation is not source text
+    - pdf_page: 74
+      printed_page: 73
+      finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" obscures upper-right printed source text; affected reading must remain explicit if unresolved
+    - pdf_page: 80
+      finding: unnumbered back cover with staining, edge wear and physical damage; no back-matter text identified
 layers:
   story_summary: mapped
   songs: mapped-source-section
   scenes: blocked-until-verified-transcription
   dialogues: blocked-until-verified-transcription
   characters: blocked-until-dialogue-layer
+  translations: blocked-until-verified-tamil
 status:
   intake: complete
   structural_mapping: complete
   whole_source_boundary_audit: complete
   scene_separator_policy: verified
-  transcription: not-started
+  draft_page_files_present: true
+  draft_page_file_range: 1-44
+  draft_page_file_count: 44
+  transcription: draft-incomplete-requires-source-reconciliation
+  canonical_first_pass_complete: false
+  verified_tamil_pages: 0
   fidelity_audit: not-started
-next_action: canonical Tamil first-pass transcription for PDF 10-79 in source order
+  structured_derivatives: blocked
+next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
