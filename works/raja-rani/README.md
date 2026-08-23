@@ -81,7 +81,7 @@ No missing or duplicated complete PDF page was identified.
 Current review/uncertainty items include:
 
 - PDF 4: `⟦சாக சந் தானா?⟧`
-- PDF 27 / printed p.26: `⟦நீ?⟧`
+- PDF 27 / printed p.26: `⟦நீ?⟧` — enlarged rendered-scan review still does not securely resolve the word
 - PDF 34 / printed p.33: `⟦கேவா?⟧ கலர்`
 - PDF 41 / printed p.40: `⟦சொத்தைக்?⟧`
 - PDF 42 / printed p.41: `⟦புடி?⟧`
@@ -108,26 +108,39 @@ Those drafts were reconciled from the rendered scan in source order, and new pag
 
 ## Visual fidelity audit status
 
-The separate rendered-scan audit has now begun.
+The separate rendered-scan audit is in progress.
 
 ### Batch 001 — PDF 1–10
 
-- audited source-order pages: **10**
-- verified source-order pages: **9** — PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
-- review pages: **1** — PDF 4
-- verified screenplay pages: **1/70** — PDF 10 / printed p.9
-- detailed report: `notes/visual-fidelity-audit-batch-001.md`
+- verified: PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
+- review: PDF 4
+- report: `notes/visual-fidelity-audit-batch-001.md`
 
-Source-backed corrections in this batch include `சிந்திக்கத் தெரிந்த மனித குலத்துக்கே` on PDF 6, restoration of `கிளாவர் ராணி!` punctuation on PDF 8, resolution of PDF 9's printed `தவறுக`, and restoration of the leading source punctuation in `ராணி: 'இதோ வந்துட்டேனப்பா,` on PDF 10.
+### Batch 002 — PDF 11–20
 
-PDF 4 remains review because one short Babu lyric phrase is not visually secure enough to promote to verified. No external source has been used to repair it.
+- verified: **PDF 11–20 — 10/10**
+- review: none
+- includes verification of the full `சேரன் செங்குட்டுவன்` embedded-performance range and return to film-level `(மேடையில்)` on PDF 20
+- report: `notes/visual-fidelity-audit-batch-002.md`
 
-Current gate:
+### Batch 003 — PDF 21–30
 
-- canonical Tamil first pass: **complete as draft**
-- visual fidelity audit: **in progress through PDF 10**
-- verified screenplay pages: **1/70**
-- structured derivatives: **blocked until the full Tamil fidelity gate is complete**
+- verified: **PDF 21–26, 28–30 — 9 pages**
+- review: **PDF 27**
+- PDF 27 remains review because the faint `⟦நீ?⟧` reading is not secure enough to guess
+- source-specific corrections include restoration of parenthetical vs bracketed structures on PDF 21, preservation of colloquial forms on PDF 22, `முந்நாறு!` on PDF 26, `வேண்டியதில்லே!` on PDF 28, and `கெளரவமான` on PDF 29
+- report: `notes/visual-fidelity-audit-batch-003.md`
+
+### Cumulative audit position
+
+- source-order audited: **PDF 1–30 — 30/79 pages**
+- verified source-order pages: **28**
+- review source-order pages: **2 — PDF 4, PDF 27**
+- screenplay audited: **PDF 10–30 — 21/70 pages**
+- screenplay verified: **20/70**
+- screenplay review: **1/70 — PDF 27**
+
+Structured scene/dialogue/character/translation derivatives remain blocked until the full Tamil fidelity gate is complete.
 
 ## Authoritative mapping / progress notes
 
@@ -144,6 +157,8 @@ Current gate:
 - `notes/canonical-first-pass-batch-006.md`
 - `notes/canonical-first-pass-batch-007.md`
 - `notes/visual-fidelity-audit-batch-001.md`
+- `notes/visual-fidelity-audit-batch-002.md`
+- `notes/visual-fidelity-audit-batch-003.md`
 
 ## Source rules
 
@@ -156,4 +171,4 @@ Current gate:
 
 ## Next activity
 
-Continue the **separate full visual fidelity audit from PDF 11 onward**, in source order, before any structured derivatives.
+Continue the **separate rendered-scan visual fidelity audit from PDF 31 onward**, in source order. Pay special attention to the already flagged PDF 34 reading `⟦கேவா?⟧ கலர்`, preserve source-specific forms and separators, and do not begin structured derivatives until the full Tamil fidelity gate is complete.
