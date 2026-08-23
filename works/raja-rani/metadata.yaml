@@ -81,6 +81,15 @@ scan_condition:
     - pdf_page: 48
       printed_page: 47
       finding: two short words in Raja's parcel explanation remain explicit first-pass uncertainties "⟦வந்த...?⟧" and "⟦திடானு?⟧"
+    - pdf_page: 51
+      printed_page: 50
+      finding: one short word in Raja's description of Babu remains explicit first-pass uncertainty "⟦லச்சிருக்கானே?⟧"
+    - pdf_page: 52
+      printed_page: 51
+      finding: one English-heavy phrase in Karand's comic fight description remains explicit first-pass uncertainty "⟦டைகர் ஓல்டன்?⟧"
+    - pdf_page: 57
+      printed_page: 56
+      finding: Samarasam's final line remains explicit first-pass uncertainty "⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧"
     - pdf_page: 74
       printed_page: 73
       finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" obscures upper-right printed source text; affected reading must remain explicit if unresolved
@@ -101,17 +110,17 @@ status:
   draft_page_files_present: true
   initial_draft_page_file_range: 1-44
   initial_draft_page_file_count: 44
-  current_page_file_range: 1-50
-  current_page_file_count: 50
+  current_page_file_range: 1-60
+  current_page_file_count: 60
   transcription: in-progress-source-reconciliation
   canonical_first_pass_complete: false
-  source_order_first_pass_reconciled_pdf_range: 1-50
+  source_order_first_pass_reconciled_pdf_range: 1-60
   front_matter_first_pass_reconciled_pdf_range: 1-9
-  screenplay_first_pass_reconciled_pdf_range: 10-50
-  screenplay_first_pass_reconciled_printed_range: 9-49
-  screenplay_first_pass_reconciled_pages: 41
+  screenplay_first_pass_reconciled_pdf_range: 10-60
+  screenplay_first_pass_reconciled_printed_range: 9-59
+  screenplay_first_pass_reconciled_pages: 51
   screenplay_total_pages: 70
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Continue canonical Tamil first-pass transcription from PDF 51 onward, in source order, with stable page anchors; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass transcription from PDF 61 onward, in source order, with stable page anchors; preserve the approach into the embedded சாக்ரடீஸ் (நாடகம்) sequence beginning on PDF 66; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
