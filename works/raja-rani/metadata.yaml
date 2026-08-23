@@ -6,15 +6,15 @@ source:
   pages: 80
 status:
   canonical_first_pass: complete-draft
-  fidelity_audit: in-progress
-  fidelity_audit_through_pdf_page: 70
-  fidelity_audited_source_pages: 70
-  fidelity_verified_source_pages: 62
-  fidelity_review_source_pages: 8
-  screenplay_fidelity_audited_pages: 61
-  verified_tamil_pages: 54
-  screenplay_fidelity_verified_pages: 54
-  screenplay_fidelity_review_pages: 7
+  fidelity_audit: full-range-audited-review-open
+  fidelity_audit_through_pdf_page: 79
+  fidelity_audited_source_pages: 79
+  fidelity_verified_source_pages: 70
+  fidelity_review_source_pages: 9
+  screenplay_fidelity_audited_pages: 70
+  verified_tamil_pages: 62
+  screenplay_fidelity_verified_pages: 62
+  screenplay_fidelity_review_pages: 8
   structured_derivatives: blocked
 scan_condition:
   notes:
@@ -43,13 +43,7 @@ scan_condition:
       finding: final Samarasam phrase remains explicit uncertainty "⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧"
     - pdf_page: 74
       printed_page: 73
-      finding: later ownership/address overprint beginning "K. N. சங்கரன்" overlaps upper-right source text; overprint is non-canonical
-    - pdf_page: 74
-      printed_page: 73
-      finding: one short Samarasam line remains pending later fidelity review as "⟦எது இன்னோரத்தில லெட்டர்?⟧"
-    - pdf_page: 77
-      printed_page: 76
-      finding: one short phrase remains pending later fidelity review as "⟦விதவை தாப்பா?⟧"
+      finding: later ownership/address overprint beginning "K. N. சங்கரன்" overlaps upper-right source text; overprint is non-canonical and obscured source text is not reconstructed
 resolved_during_fidelity_audit:
   - pdf_page: 51
     printed_page: 50
@@ -69,4 +63,16 @@ resolved_during_fidelity_audit:
   - pdf_page: 69
     printed_page: 68
     finding: printed "தடை போட்டது கிடையாதே!" restored and repeated "சுக்கு நூறாகப்போய் விடுவீர்கள்!..." page-boundary structure restored
-next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 71 through PDF 79, complete the சாக்ரடீஸ் (நாடகம்) boundary through first part of PDF 73, verify the return to parent-film action, and pay special attention to the PDF 74 overprint/reading and PDF 77 flagged phrase. Keep structured derivatives blocked until the full Tamil fidelity gate is complete."
+  - pdf_page: 73
+    printed_page: 72
+    finding: source-unlabelled line "சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?" restored without inventing a speaker label; return from சாக்ரடீஸ் performance verified after Babu arrest
+  - pdf_page: 74
+    printed_page: 73
+    finding: earlier "⟦எது இன்னோரத்தில லெட்டர்?⟧" resolved from rendered scan as "எது இந்நேரத்தில லெட்டர்?"; page remains review because of physical overprint obstruction
+  - pdf_page: 77
+    printed_page: 76
+    finding: earlier "⟦விதவை தாப்பா?⟧" resolved from rendered scan as "கதவை தாப்பாபோட்டுட்டு"; page verified
+  - pdf_page: 79
+    printed_page: 78
+    finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
+next_action: "Perform a targeted high-resolution review of the remaining fidelity queue — PDF 4, 27, 34, 41, 42, 48, 52, 57 and 74. Resolve only what the rendered source supports, classify irreducible scan damage/overprint explicitly, and decide the Tamil fidelity gate before beginning structured derivatives."
