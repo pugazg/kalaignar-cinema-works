@@ -72,6 +72,15 @@ scan_condition:
     - pdf_page: 34
       printed_page: 33
       finding: one color-name in Karand's bulb inventory is retained as explicit first-pass uncertainty "⟦கேவா?⟧ கலர்"
+    - pdf_page: 41
+      printed_page: 40
+      finding: one short word in the முனி speech before "காரணத்தை" remains explicit first-pass uncertainty "⟦சொத்தைக்?⟧"
+    - pdf_page: 42
+      printed_page: 41
+      finding: one short Samarasam imperative remains explicit first-pass uncertainty "⟦புடி?⟧"
+    - pdf_page: 48
+      printed_page: 47
+      finding: two short words in Raja's parcel explanation remain explicit first-pass uncertainties "⟦வந்த...?⟧" and "⟦திடானு?⟧"
     - pdf_page: 74
       printed_page: 73
       finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" obscures upper-right printed source text; affected reading must remain explicit if unresolved
@@ -92,15 +101,17 @@ status:
   draft_page_files_present: true
   initial_draft_page_file_range: 1-44
   initial_draft_page_file_count: 44
+  current_page_file_range: 1-50
+  current_page_file_count: 50
   transcription: in-progress-source-reconciliation
   canonical_first_pass_complete: false
-  source_order_first_pass_reconciled_pdf_range: 1-40
+  source_order_first_pass_reconciled_pdf_range: 1-50
   front_matter_first_pass_reconciled_pdf_range: 1-9
-  screenplay_first_pass_reconciled_pdf_range: 10-40
-  screenplay_first_pass_reconciled_printed_range: 9-39
-  screenplay_first_pass_reconciled_pages: 31
+  screenplay_first_pass_reconciled_pdf_range: 10-50
+  screenplay_first_pass_reconciled_printed_range: 9-49
+  screenplay_first_pass_reconciled_pages: 41
   screenplay_total_pages: 70
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Continue canonical Tamil first-pass reconciliation from PDF 41 onward, beginning with the mixed PDF 41 boundary where the Ahalya rehearsal ends and film-level dialogue resumes; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass transcription from PDF 51 onward, in source order, with stable page anchors; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
