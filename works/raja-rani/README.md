@@ -60,7 +60,7 @@ Embedded dramatic sections:
 
 The Socrates boundary is source-verified: PDF 72 ends during Samarasam's staged-performance intervention, PDF 73 continues through the real-poison revelation, police arrival and Babu's arrest, and only the following rule–star–rule ornament returns to parent-film `(மனப் போராட்டம்)`.
 
-The source does **not** present a numbered screenplay-scene sequence. Later scene records must therefore be derived only from verified source-supported boundaries.
+The source does **not** present a numbered screenplay-scene sequence.
 
 ## Scene-separator policy
 
@@ -82,30 +82,11 @@ The source was reconciled from the rendered scan in source order and extended th
 
 The rendered-scan visual audit has covered the complete canonical layer **PDF 1–79**.
 
-Batch reports:
+Reports:
 
-- `notes/visual-fidelity-audit-batch-001.md` — PDF 1–10
-- `notes/visual-fidelity-audit-batch-002.md` — PDF 11–20
-- `notes/visual-fidelity-audit-batch-003.md` — PDF 21–30
-- `notes/visual-fidelity-audit-batch-004.md` — PDF 31–40
-- `notes/visual-fidelity-audit-batch-005.md` — PDF 41–50
-- `notes/visual-fidelity-audit-batch-006.md` — PDF 51–60
-- `notes/visual-fidelity-audit-batch-007.md` — PDF 61–70
-- `notes/visual-fidelity-audit-batch-008.md` — PDF 71–79
-- `notes/visual-fidelity-targeted-review-001.md` — high-resolution reinspection of the remaining review queue
-- `notes/tamil-fidelity-gate-disposition.md` — final gate disposition for irreducible supplied-scan limitations
-
-### Targeted high-resolution results
-
-The targeted review promoted five formerly review-open pages:
-
-- PDF 4: `⟦சாக சந் தானா?⟧` → **`சாக சந் தானா`**
-- PDF 34: `⟦கேவா?⟧ கலர்` → **`கேவா கலர்`**; printed `வால்ட்` and `சேப்பு` restored
-- PDF 41: `⟦சொத்தைக்?⟧` → **`கோத்தைக்`**; source-visible `ராசா:` labels restored
-- PDF 42: `⟦புடி?⟧ புடாதே` → **`உடி புடாதே.`**; source-visible `ராசா:` / `ராஜ:` labels restored
-- PDF 52: `⟦டைகர் ஓல்டன்?⟧` → **`டைகர் ஓல்டன்`**, while printed `பயிட்` wordplay remains unchanged
-
-PDF 48 was tightened during the same review: source-visible `ராசா:` variants and `எடுத்துகிட்டு` were restored, but two short spans immediately before `சமரசம் வீடு` remain unresolved.
+- `notes/visual-fidelity-audit-batch-001.md` through `notes/visual-fidelity-audit-batch-008.md`
+- `notes/visual-fidelity-targeted-review-001.md`
+- `notes/tamil-fidelity-gate-disposition.md`
 
 ### Final cumulative position
 
@@ -128,17 +109,54 @@ PDF 74 is an **irreducible physical obstruction in the supplied scan** unless a 
 
 ## Tamil fidelity gate disposition
 
-The supplied scan has now been exhausted through a complete visual audit plus targeted high-resolution reinspection. The Tamil fidelity gate is therefore **closed-with-source-limitations**, while the four affected page records remain `review`.
+The supplied scan has been exhausted through complete visual audit plus targeted high-resolution reinspection. The Tamil fidelity gate is **closed-with-source-limitations**, while PDF 27, 48, 57 and 74 remain `review`.
 
-This closure does not mean unresolved text becomes verified. Instead, downstream work uses a verified-source-unit eligibility rule:
+Downstream eligibility is source-unit based:
 
-- scene segmentation/indexing may represent the complete screenplay structurally;
-- verified scene-text output is allowed only for scenes whose complete Tamil source span is verified;
-- scenes intersecting PDF **27, 48, 57 or 74** remain blocked for verified scene-text derivation;
-- dialogue records and English translation may use only corresponding verified Tamil source units;
-- unresolved/obstructed text must never be normalized, reconstructed or translated as settled text.
+- structural scene indexing may cover the complete screenplay;
+- verified scene text requires a fully verified source span;
+- dialogue records and English translation may use only corresponding verified Tamil units;
+- unresolved/obstructed text is never normalized, reconstructed or translated as settled text.
 
-See `notes/tamil-fidelity-gate-disposition.md` for the controlling policy.
+Controlling policy: `notes/tamil-fidelity-gate-disposition.md`.
+
+## Scene segmentation / index
+
+Source-supported segmentation is now **complete**.
+
+- segmentation audit: `notes/scene-segmentation-audit.md`
+- scene index: `scenes/index.json`
+- archival scene segments: **58**
+- source-numbered scenes: **none**
+- eligible verified scene-text segments: **50**
+- blocked source-review segments: **8**
+
+The archive IDs `raja-rani-s001`–`raja-rani-s058` and their ordinals are navigation-only. They are not presented as source scene numbers.
+
+Blocked segments are:
+
+- `s011`, `s012`, `s013` — intersect PDF 27
+- `s033` — intersects PDF 48
+- `s039` — intersects PDF 57
+- `s053`, `s054`, `s055` — intersect PDF 74
+
+## Scene-text derivatives
+
+Scene-text extraction has begun from verified Tamil only.
+
+Batch 001 is complete:
+
+- `scenes/scene-001.md` through `scenes/scene-010.md`
+- batch report: `notes/scene-text-batch-001.md`
+- scene-layer guide/status: `scenes/README.md`
+
+Current totals:
+
+- verified scene-text files completed: **10/50 eligible**
+- eligible scene-text files remaining: **40**
+- blocked scene segments: **8**
+
+Each completed derivative retains source page anchors and accepted scene boundaries and does not repair the canonical page layer.
 
 ## Current gate
 
@@ -149,12 +167,12 @@ See `notes/tamil-fidelity-gate-disposition.md` for the controlling policy.
 - Tamil fidelity gate: **closed-with-source-limitations**
 - source pages: **75 verified / 4 review**
 - screenplay pages: **66 verified / 4 review**
-- scene segmentation/index: **eligible to begin**
-- verified scene-text derivatives: **eligible only from fully verified scene spans**
-- dialogue index: **eligible only from verified Tamil source units**
+- scene segmentation/index: **complete — 58 segments**
+- scene-text derivatives: **in progress — 10/50 eligible complete**
+- dialogue index: **not started; eligible only from verified Tamil source units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
-- English translation: **eligible only from verified Tamil source units**
+- English translation: **not started; eligible only from verified Tamil source units**
 
 ## Authoritative mapping / progress notes
 
@@ -167,6 +185,8 @@ See `notes/tamil-fidelity-gate-disposition.md` for the controlling policy.
 - `notes/visual-fidelity-audit-batch-001.md` through `notes/visual-fidelity-audit-batch-008.md`
 - `notes/visual-fidelity-targeted-review-001.md`
 - `notes/tamil-fidelity-gate-disposition.md`
+- `notes/scene-segmentation-audit.md`
+- `notes/scene-text-batch-001.md`
 
 ## Source rules
 
@@ -179,4 +199,4 @@ See `notes/tamil-fidelity-gate-disposition.md` for the controlling policy.
 
 ## Next activity
 
-Build the **source-supported scene segmentation and scene-text derivative eligibility map for PDF 10–79**. Use only source-visible separators/headings and clear dramatic transitions; do not create scenes from page breaks alone. Mark every scene intersecting PDF 27, 48, 57 or 74 as blocked for verified scene-text output, while allowing fully verified scenes to proceed.
+Continue verified scene-text extraction in source order. **Skip blocked `s011`–`s013` and resume at `s014`**, using a meaningful batch and preserving the accepted segmentation boundaries exactly.
