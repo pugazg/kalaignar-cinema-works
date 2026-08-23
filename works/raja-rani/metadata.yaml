@@ -67,6 +67,8 @@ scan_condition:
   notes:
     - pdf_page: 1
       finding: cover wear plus a later pencil/handwritten numeric annotation below the printed Kalaignar name; annotation is not source text
+    - pdf_page: 4
+      finding: one short Babu lyric phrase remains visual-fidelity review as "⟦சாக சந் தானா?⟧"; no external source has been used to repair it
     - pdf_page: 27
       printed_page: 26
       finding: faint/washed source area in the internal-monologue block; one short first-pass reading remains explicitly uncertain as "⟦நீ?⟧"
@@ -103,8 +105,8 @@ scan_condition:
     - pdf_page: 80
       finding: unnumbered back cover with staining, edge wear and physical damage; no back-matter text identified
 layers:
-  story_summary: draft-first-pass-reconciled
-  songs: draft-first-pass-reconciled-source-section
+  story_summary: verified
+  songs: fidelity-audit-in-progress
   scenes: blocked-until-verified-transcription
   dialogues: blocked-until-verified-transcription
   characters: blocked-until-dialogue-layer
@@ -127,7 +129,13 @@ status:
   screenplay_first_pass_reconciled_printed_range: 9-78
   screenplay_first_pass_reconciled_pages: 70
   screenplay_total_pages: 70
-  verified_tamil_pages: 0
-  fidelity_audit: not-started
+  fidelity_audit: in-progress
+  fidelity_audit_through_pdf_page: 10
+  fidelity_audited_source_pages: 10
+  fidelity_verified_source_pages: 9
+  fidelity_review_source_pages: 1
+  verified_tamil_pages: 1
+  screenplay_fidelity_verified_pages: 1
+  screenplay_fidelity_review_pages: 0
   structured_derivatives: blocked
-next_action: "Perform a separate full visual fidelity audit of PDF 1-79 against the rendered scan, in source order; resolve or retain explicit uncertainty without guessing, verify exact speaker labels/punctuation/stage directions/written text/ornaments/cross-page continuity, and keep structured derivatives blocked until the Tamil fidelity gate is complete."
+next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 11 onward, in source order; resolve or retain uncertainty without guessing and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
