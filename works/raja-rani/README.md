@@ -15,7 +15,7 @@ Physical scan:
 - SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`
 - embedded OCR text layer: **present**, navigation aid only; rendered scan remains canonical
 
-The title leaf prints **`ராஜா ராணி`**. The cover presents the title without a clearly visible word gap as **`ராஜாராணி`** and directly prints **`மு. கருணாநிதி`** beneath it. The cover does not print a role label next to that name.
+The title leaf prints **`ராஜா ராணி`**. The cover presents **`ராஜாராணி`** without a clearly visible word gap and directly prints **`மு. கருணாநிதி`** beneath it. The cover does not print a role label next to that name.
 
 The title/publication page visibly gives:
 
@@ -25,18 +25,11 @@ The title/publication page visibly gives:
 
 No explicit edition statement or publication year has been identified in the scan. The final screenplay page has the printer line `அன்பு அச்சகம், மதுரை:-- 56`; the terminal `56` is preserved as printed and is **not** promoted to a publication year without a source label.
 
-This work follows the Parasakthi / Manohara archival model because the source contains screenplay-style material:
-
-- speaker-labelled dialogue;
-- stage directions;
-- dramatic sequences;
-- embedded songs and performances.
-
 ## Printed Kalaignar / song credits
 
 The cover directly prints `மு. கருணாநிதி`.
 
-PDF 9 also contains a film-wide `பாடல்கள்:` credit roster:
+PDF 9 contains a film-wide `பாடல்கள்:` credit roster:
 
 - `மு. கருணாநிதி`
 - `ஏ. மருதகாசி`
@@ -57,15 +50,21 @@ This roster does **not** establish item-level authorship for each numbered song.
 - PDF 10–79: canonical screenplay/dialogue range (printed pp.9–78)
 - PDF 80: unnumbered back cover
 
-Printed-page mapping for the screenplay is `printed page = PDF page - 1`: PDF 10 → printed p.9 and PDF 79 → printed p.78. PDF 4, the opening song page, does not show a visible printed page number and must not be assigned one by inference.
+Printed-page mapping for the screenplay is `printed page = PDF page - 1`: PDF 10 → printed p.9 and PDF 79 → printed p.78. PDF 4, the opening song page, does not show a visible printed page number and is not assigned one by inference.
 
 Embedded dramatic sections:
 
-- `சேரன் செங்குட்டுவன்`: PDF 13–19 / printed pp.12–18
-- `அகல்யா நாடக ஒத்திகை`: PDF 40–first part of 41 / printed pp.39–40
-- `சாக்ரடீஸ் (நாடகம்)`: PDF 66–72 / printed pp.65–71
+- `சேரன் செங்குட்டுவன்`: PDF **13–19** / printed pp.12–18
+- `அகல்யா நாடக ஒத்திகை`: PDF **40–first part of 41** / printed pp.39–40
+- `சாக்ரடீஸ் (நாடகம்)`: PDF **66–first part of 73** / printed pp.65–72 (first part)
 
-The source does **not** present a numbered screenplay-scene sequence. Therefore no artificial scene count, gap list, repeat list or reordered number sequence is assigned at intake. Later scene records must be derived only from verified source-supported boundaries.
+### Socrates boundary correction
+
+The intake map had recorded the Socrates block as PDF 66–72. The completed first pass shows that PDF 72 ends inside Samarasam's staged-performance intervention with `பாபு: அத்தான்...`, and PDF 73 continues that same performance through the real-poison revelation, police arrival and Babu's arrest. Only the following rule–star–rule ornament returns to parent-film `(மனப் போராட்டம்)`.
+
+The corrected source-supported boundary is therefore **PDF 66–first part of 73**.
+
+The source does **not** present a numbered screenplay-scene sequence. Later scene records must be derived only from verified source-supported boundaries.
 
 ## Scene-separator finding
 
@@ -76,66 +75,48 @@ Examples include:
 - centered rows of stars;
 - rule–star–rule ornaments (`—★—`);
 - standalone `★` transitions;
-- star-flanked headings such as `★ தோட்டம் ★`.
+- star-flanked headings such as `★ சாக்ரடீஸ் (நாடகம்) ★`, `நீதி மன்றம்`, `சிறை`, and `★ தோட்டம் ★`.
 
 Canonical transcription preserves the source-visible form on each page. OCR must not normalize or decide scene separators, and page breaks alone are not scene boundaries.
 
-## Scan-condition findings
+## Scan-condition / first-pass issues
 
-No missing or duplicated complete PDF page was identified in the whole-scan intake overview.
+No missing or duplicated complete PDF page was identified.
 
-Source-condition / first-pass issues requiring explicit handling include:
+Explicit first-pass uncertainty remains visible rather than silently repaired. Current flags include:
 
-- PDF 1: cover wear and a later pencil/handwritten numeric annotation below the printed Kalaignar name; the annotation is not canonical source text;
-- PDF 27 / printed p.26: `⟦நீ?⟧`;
-- PDF 34 / printed p.33: `⟦கேவா?⟧ கலர்`;
-- PDF 41 / printed p.40: `⟦சொத்தைக்?⟧`;
-- PDF 42 / printed p.41: `⟦புடி?⟧`;
-- PDF 48 / printed p.47: `⟦வந்த...?⟧` and `⟦திடானு?⟧`;
-- PDF 51 / printed p.50: `⟦லச்சிருக்கானே?⟧`;
-- PDF 52 / printed p.51: `⟦டைகர் ஓல்டன்?⟧`;
-- PDF 57 / printed p.56: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`;
-- PDF 74 / printed p.73: a later ownership/address stamp or overprint beginning `K. N. சங்கரன்` covers part of the upper-right printed source text;
-- PDF 80: stained/damaged back cover with edge wear; no back-matter text identified there.
+- PDF 27 / printed p.26: `⟦நீ?⟧`
+- PDF 34 / printed p.33: `⟦கேவா?⟧ கலர்`
+- PDF 41 / printed p.40: `⟦சொத்தைக்?⟧`
+- PDF 42 / printed p.41: `⟦புடி?⟧`
+- PDF 48 / printed p.47: `⟦வந்த...?⟧`, `⟦திடானு?⟧`
+- PDF 51 / printed p.50: `⟦லச்சிருக்கானே?⟧`
+- PDF 52 / printed p.51: `⟦டைகர் ஓல்டன்?⟧`
+- PDF 57 / printed p.56: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
+- PDF 74 / printed p.73: `⟦எது இன்னோரத்தில லெட்டர்?⟧`
+- PDF 77 / printed p.76: `⟦விதவை தாப்பா?⟧`
 
-All uncertainty remains explicit and is deferred to the separate visual-fidelity audit; none is repaired from film audio, subtitles, websites, later editions or memory.
+PDF 74 also carries a later ownership/address overprint beginning `K. N. சங்கரன்` across the upper-right source text. The overprint itself is not canonical; only scan-supported source wording is transcribed.
 
-## Canonical Tamil first-pass progress
+PDF 80 is a stained/damaged back cover outside the canonical screenplay range.
 
-The work already existed when this intake was resumed. At that time, `works/raja-rani/pages/` contained **44 pre-existing draft files (`001.md`–`044.md`)**. Several were summary placeholders or partial transcriptions and could not be treated as canonical completion merely because the files existed.
+## Canonical Tamil first-pass status
 
-Those old drafts have now been reconciled, and the first pass has moved beyond the original draft range.
+The work already existed when this intake was resumed, with **44 pre-existing draft files (`001.md`–`044.md`)**. Several were partial transcriptions, prose summaries or placeholders, so they were not accepted as complete merely because files existed.
 
-Current continuous first-pass coverage:
+Those drafts were reconciled from the rendered scan in source order, and new page files were created through the final screenplay page.
 
-- source PDF **1–70**: reconciled as draft first-pass material;
-- front matter / story / song / credits: PDF **1–9**;
-- screenplay: PDF **10–70 / printed pp.9–69**;
-- screenplay progress: **61/70 pages**;
-- current page files: **`001.md`–`070.md`**;
-- `சேரன் செங்குட்டுவன்`: complete in first-pass source order through PDF 19;
-- `அகல்யா நாடக ஒத்திகை`: preserved through its source-supported end on PDF 41;
-- `சாக்ரடீஸ் (நாடகம்)`: first-pass transcription has begun at PDF 66 and currently reaches PDF 70; the embedded play continues through PDF 72;
-- PDF 22→23 preserves the printed letter as a genuine cross-page written-text structure;
-- cross-page continuity has been preserved at PDF 35→36, 37→38, 47→48, 48→49, 49→50, 52→53, 58→59, 62→63, 64→65, 65→66, 68→69 and 69→70;
-- PDF 66 preserves Rani's written letter as a separate source structure and the exact transition into `★ சாக்ரடீஸ் (நாடகம்) ★`;
-- PDF 67 preserves the star-flanked `நீதி மன்றம்` heading;
-- PDF 70 preserves the star-flanked `சிறை` heading;
-- source-visible ornaments remain distinct instead of being normalized.
+Current state:
 
-All reconciled pages remain **draft**. No page is promoted to `verified` during this first-pass activity.
+- source-order draft first pass: **PDF 1–79 — complete**
+- screenplay draft first pass: **PDF 10–79 / printed pp.9–78 — 70/70 pages**
+- current page files: **`001.md`–`079.md`**
+- canonical Tamil first pass: **complete as draft**
+- verified Tamil pages: **0 claimed**
+- visual fidelity audit: **not started**
+- dialogue / scene / character / translation derivatives: **blocked until verified Tamil**
 
-## Current gate
-
-- Source intake: **complete**
-- Structural mapping: **complete**
-- Whole-source boundary audit: **complete**
-- Scene-separator policy: **verified**
-- Canonical Tamil first pass: **in progress — PDF 1–70 continuous**
-- Screenplay first pass: **PDF 10–70 / printed pp.9–69 — 61/70 pages**
-- Verified Tamil pages: **0 claimed**
-- Visual fidelity audit: **not started**
-- Dialogue / scene / character / translation derivatives: **blocked until verified Tamil**
+The first pass preserves source-supported written text and performance structures, including Rani's letter on PDF 66, cross-page continuities, the corrected Socrates performance endpoint on PDF 73, PDF 74's later-overprint condition, and the final `★ தோட்டம் ★` / `(இருவரும் பாடுகிறார்கள்)` / `நலம் வாழ்க!` sequence on PDF 79. No absent lyrics are invented.
 
 ## Authoritative mapping / progress notes
 
@@ -150,6 +131,7 @@ All reconciled pages remain **draft**. No page is promoted to `verified` during 
 - `notes/canonical-first-pass-batch-004.md`
 - `notes/canonical-first-pass-batch-005.md`
 - `notes/canonical-first-pass-batch-006.md`
+- `notes/canonical-first-pass-batch-007.md`
 
 ## Source rules
 
@@ -162,4 +144,4 @@ All reconciled pages remain **draft**. No page is promoted to `verified` during 
 
 ## Next activity
 
-Continue **canonical Tamil first-pass transcription from PDF 71 onward**, in source order. Complete `சாக்ரடீஸ் (நாடகம்)` through PDF 72, preserve the exact return to parent-film dialogue, and then continue through PDF 79. After the whole first pass reaches PDF 79, perform a **separate visual fidelity audit** before any structured derivatives.
+Perform a **separate full visual fidelity audit** of the canonical Tamil layer against the rendered scan, in source order, before any structured derivatives.
