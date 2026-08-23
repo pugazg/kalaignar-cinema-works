@@ -137,14 +137,31 @@ Important findings include:
 - PDF 57: the final Samarasam phrase remains unresolved after scan inspection;
 - PDF 58→59: Rani's cross-page utterance was verified without merging page provenance.
 
+### Batch 007 — PDF 61–70
+
+- verified: **PDF 61–70 — 10/10 pages**
+- review: none
+- report: `notes/visual-fidelity-audit-batch-007.md`
+
+Important findings include:
+
+- PDF 61: first-pass `சிட்டு கட்டு` corrected to printed **`சீட்டு கட்டு`**;
+- PDF 62: historical/source form **`யென்றும்`** restored and unusual `இத்திப்பான` confirmed;
+- PDF 64: unusual **`மோவா அரும்பு—தாவாச் சிறுமான்`** retained as scan-supported;
+- PDF 65: normalized `தீய பந்தங்களில்` corrected to printed **`தீப் பந்தங்களிலே`**;
+- PDF 66: parent-film dialogue → poisoning-plan stage block → `★ ராணி வீடு ★` → Rani's written suicide letter → `★ சாக்ரடீஸ் (நாடகம்) ★` preserved as separate source structures;
+- PDF 67: `இவைகளைக் காட்டிலும்` and `உத்திரவிடுகிறார்` restored; `★ நீதி மன்றம் ★` retained;
+- PDF 69→70: the source's repeated `சுக்கு நூறாகப்போய் விடுவீர்கள்!...` page-boundary structure restored instead of collapsing the repetition;
+- PDF 70: `★ சிறை ★` heading and guard's cross-page instruction preserved.
+
 ### Cumulative audit position
 
-- source-order audit through: **PDF 60**
-- audited source pages: **60/79**
-- verified source pages: **52**
+- source-order audit through: **PDF 70**
+- audited source pages: **70/79**
+- verified source pages: **62**
 - review source pages: **8 — PDF 4, 27, 34, 41, 42, 48, 52, 57**
-- screenplay audited: **PDF 10–60 — 51/70 pages**
-- screenplay verified: **44/70**
+- screenplay audited: **PDF 10–70 — 61/70 pages**
+- screenplay verified: **54/70**
 - screenplay review: **7/70 — PDF 27, 34, 41, 42, 48, 52, 57**
 
 ## Remaining fidelity review queue
@@ -160,7 +177,7 @@ Already-audited unresolved readings:
 - PDF 52: `⟦டைகர் ஓல்டன்?⟧`
 - PDF 57: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
 
-Later first-pass flags still awaiting their own fidelity batches:
+Later first-pass flags still awaiting the final fidelity batch:
 
 - PDF 74: `⟦எது இன்னோரத்தில லெட்டர்?⟧`, plus later ownership/address overprint interference
 - PDF 77: `⟦விதவை தாப்பா?⟧`
@@ -172,7 +189,7 @@ PDF 51 is no longer in the review queue because the scan resolves it as `வச�
 - source intake: **complete**
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
-- visual fidelity audit: **in progress through PDF 60**
+- visual fidelity audit: **in progress through PDF 70**
 - structured scenes: **blocked**
 - dialogue index: **blocked**
 - character/entity index: **blocked**
@@ -199,6 +216,7 @@ PDF 51 is no longer in the review queue because the scan resolves it as `வச�
 - `notes/visual-fidelity-audit-batch-004.md`
 - `notes/visual-fidelity-audit-batch-005.md`
 - `notes/visual-fidelity-audit-batch-006.md`
+- `notes/visual-fidelity-audit-batch-007.md`
 
 ## Source rules
 
@@ -211,4 +229,4 @@ PDF 51 is no longer in the review queue because the scan resolves it as `வச�
 
 ## Next activity
 
-Continue the **rendered-scan visual fidelity audit from PDF 61 onward**, in source order. The next meaningful batch is PDF 61–70, with particular attention to preserving the transition into `சாக்ரடீஸ் (நாடகம்)` beginning on PDF 66. Structured derivatives remain blocked until the full Tamil fidelity gate is complete.
+Continue the **rendered-scan visual fidelity audit from PDF 71 through PDF 79**, in source order. Complete the `சாக்ரடீஸ் (நாடகம்)` sequence through the first part of PDF 73, verify the exact return to parent-film action, and audit the remaining screenplay through the canonical endpoint on PDF 79. Pay particular attention to PDF 74's later overprint/flagged reading and PDF 77's flagged phrase. Structured derivatives remain blocked until the full Tamil fidelity gate is complete.
