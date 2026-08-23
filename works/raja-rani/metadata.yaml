@@ -6,7 +6,9 @@ source:
   pages: 80
 status:
   canonical_first_pass: complete-draft
-  fidelity_audit: full-range-audited-review-open
+  fidelity_audit: complete-with-source-limitations
+  tamil_fidelity_gate: closed-with-source-limitations
+  fidelity_gate_disposition_path: works/raja-rani/notes/tamil-fidelity-gate-disposition.md
   fidelity_audit_through_pdf_page: 79
   fidelity_audited_source_pages: 79
   fidelity_verified_source_pages: 75
@@ -15,21 +17,25 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: blocked
+  structured_derivatives: eligible-with-review-exclusions
+  scene_segmentation: eligible-to-begin
+  scene_text_derivatives: eligible-only-from-verified-tamil
+  dialogue_index: eligible-only-from-verified-tamil
+  english_translation: eligible-only-from-verified-tamil
 scan_condition:
   notes:
     - pdf_page: 27
       printed_page: 26
-      finding: faint/washed internal-monologue word remains unresolved as "⟦நீ?⟧"
+      finding: faint/washed internal-monologue word remains unresolved as "⟦நீ?⟧"; page remains review
     - pdf_page: 48
       printed_page: 47
-      finding: two short spans immediately before "சமரசம் வீடு" remain explicit visual uncertainty; source-visible ராசா labels and "எடுத்துகிட்டு" have been restored
+      finding: two short spans immediately before "சமரசம் வீடு" remain explicit visual uncertainty; source-visible ராசா labels and "எடுத்துகிட்டு" have been restored; page remains review
     - pdf_page: 57
       printed_page: 56
-      finding: line securely begins "என்னடா இது, முன்னுக்கு பின்..." but following compact colloquial word group remains unresolved after high-resolution review
+      finding: line securely begins "என்னடா இது, முன்னுக்கு பின்..." but following compact colloquial word group remains unresolved after repeated high-resolution review; page remains review
     - pdf_page: 74
       printed_page: 73
-      finding: later ownership/address overprint beginning "K. N. சங்கரன்" physically obscures upper-right source text; overprint is non-canonical and hidden source text is not reconstructed
+      finding: later ownership/address overprint beginning "K. N. சங்கரன்" physically obscures upper-right source text; overprint is non-canonical and hidden source text is not reconstructed; classified as irreducible source obstruction in supplied scan
 resolved_during_fidelity_audit:
   - pdf_page: 4
     finding: earlier "⟦சாக சந் தானா?⟧" resolved by high-resolution scan review as unusual printed "சாக சந் தானா"; page verified
@@ -75,4 +81,4 @@ resolved_during_fidelity_audit:
   - pdf_page: 79
     printed_page: 78
     finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
-next_action: "Perform a final gate-disposition review of PDF 27, 48, 57 and 74. Narrow only scan-supported uncertainties, classify irreducible obstruction explicitly, and decide whether/how the Tamil fidelity gate can close before structured scene derivatives begin."
+next_action: "Build the source-supported scene segmentation and scene-text derivative eligibility map for PDF 10-79. Use only source-supported separators/headings and clear dramatic transitions; mark scenes intersecting PDF 27, 48, 57 or 74 as blocked for verified scene-text output."
