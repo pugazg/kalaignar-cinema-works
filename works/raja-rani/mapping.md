@@ -36,7 +36,7 @@ This is processed using the Parasakthi / Manohara workflow, not the limited stor
 | 3 | `கதைச் சுருக்கம்` | verified narrative summary; do not convert into scenes |
 | 4–9 (first part of p.9) | Film songs / performance text | verified source-position song section; 11 numbered `பாட்டு` blocks (1–11) |
 | 9 (second part) | Cast / performers / song-credit roster | verified credits / metadata |
-| 10–79 | Main dialogue/screenplay | verified canonical screenplay range |
+| 10–79 | Main dialogue/screenplay | canonical screenplay range |
 | 80 | Back cover | verified back-cover paratext; no back-matter text identified |
 
 ## Printed pagination
@@ -70,22 +70,29 @@ This is **not item-level authorship evidence**. No numbered song is assigned to 
 |---|---|---|
 | `சேரன் செங்குட்டுவன்` | PDF **13–19**, printed pp. **12–18** | PDF 20 returns to film-level post-performance context |
 | `அகல்யா நாடக ஒத்திகை` | PDF **40–first part of 41**, printed pp. **39–40** | rehearsal ends within PDF 41; film dialogue resumes on same page |
-| `சாக்ரடீஸ் (நாடகம்)` | PDF **66–72**, printed pp. **65–71** | PDF 73 returns to film-level action |
+| `சாக்ரடீஸ் (நாடகம்)` | PDF **66–first part of 73**, printed pp. **65–72 (first part)** | PDF 72 ends during Samarasam's intervention in the staged performance; PDF 73 continues through the real-poison revelation, police arrival and Babu's arrest; only the following rule–star–rule ornament returns to parent-film `(மனப் போராட்டம்)` |
+
+### Socrates boundary correction
+
+The intake map originally recorded `சாக்ரடீஸ் (நாடகம்)` as PDF 66–72. The completed source-order first pass proved that endpoint false because PDF 72 ends with `பாபு: அத்தான்...` and the same staged-performance intervention continues on PDF 73. The source-supported boundary is therefore **PDF 66–first part of 73**.
+
+This is a source-fidelity correction made from the controlling scan, not an interpretive expansion.
 
 See:
 
 - `notes/embedded-drama-boundaries.md`
 - `notes/full-source-structure-audit.md`
+- `notes/canonical-first-pass-batch-007.md`
 
 ## Scene / section numbering finding
 
 The screenplay does **not** print a source-numbered scene sequence comparable to `1, 2, 3...`.
 
-Therefore, at intake:
+Therefore:
 
 - no source scene count is invented;
 - no scene-number gap, repeat or out-of-order sequence is claimed;
-- the three named embedded dramatic units are mapped by their printed headings and source boundaries;
+- the three named embedded dramatic units are mapped by their printed headings and source-supported boundaries;
 - later archival scene records will be derived only from source-supported separators/headings and dramatic transitions after the Tamil layer is verified.
 
 ## Scene-separator finding
@@ -97,6 +104,7 @@ Verified examples include:
 - PDF 10: a centered row of four stars between dramatic blocks;
 - PDF 25: a centered rule–star–rule ornament (`—★—`);
 - later pages: the same divider family, often corrupted by OCR;
+- PDF 73: a rule–star–rule ornament closes the staged Socrates intervention and precedes `(மனப் போராட்டம்)`;
 - PDF 79: star-flanked location heading `★ தோட்டம் ★` and a final rule–star–rule ornament.
 
 Therefore:
@@ -109,12 +117,12 @@ Therefore:
 
 ## Scan defects / source questions
 
-Whole-scan inspection identified no missing or duplicated complete PDF page in this intake pass.
+Whole-scan inspection identified no missing or duplicated complete PDF page.
 
 Documented physical/later-source interference:
 
 - **PDF 1:** worn cover and a later pencil/handwritten numeric annotation below the printed `மு. கருணாநிதி`; exclude the annotation from canonical text.
-- **PDF 74 / printed p.73:** a later ownership/address stamp or overprint beginning **`K. N. சங்கரன்`** covers part of the upper-right printed text. Any hidden reading must remain explicit as unresolved unless the controlling scan itself supports it elsewhere.
+- **PDF 74 / printed p.73:** a later ownership/address stamp or overprint beginning **`K. N. சங்கரன்`** overlaps upper-right printed text. The overprint is not canonical. Only scan-supported source wording is transcribed; any genuinely hidden reading remains unresolved.
 - **PDF 80:** stained/damaged unnumbered back cover with edge wear; no catalogue or advertisement text identified there.
 
 General page wear, contrast variation and edge damage are source-condition issues and must not be silently repaired through transcription.
@@ -134,28 +142,34 @@ General page wear, contrast variation and edge damage are source-condition issue
 - Keep songs as source structures until attribution and witness comparison gates are complete.
 - Printed film-wide song-credit lists do not automatically assign every song without item-level mapping.
 - Existing Kalaignar song corpus must be checked before creating duplicate song records.
+- PDF 79 says `(இருவரும் பாடுகிறார்கள்)` and `நலம் வாழ்க!`; no absent lyrics are supplied.
 
-## Existing draft-page reconciliation
+## Canonical first-pass disposition
 
-This work was already present when the current intake checkpoint resumed. The repository contains **44 page files, `pages/001.md` through `pages/044.md`**.
+The work pre-existed this intake with 44 heterogeneous draft files (`001.md`–`044.md`). Those drafts were not trusted as complete. They were reconciled from the rendered scan in source order, and new page files were then created through the canonical endpoint.
 
-They are **draft working material, not a completed canonical first pass**. At least one (`pages/012.md`) contains an explicit continuation placeholder instead of a complete page transcription, and formatting/status conventions vary across the batch. No separate visual-fidelity audit has verified the set.
+Current first-pass state:
 
-For that reason, the next canonical activity must work from the rendered scan in source order and reconcile the existing drafts rather than blindly continuing at page 45.
+- page files: **`pages/001.md`–`pages/079.md`**
+- source-order first-pass coverage: **PDF 1–79**
+- screenplay first-pass coverage: **PDF 10–79 / printed pp.9–78**
+- screenplay pages covered: **70/70**
+- canonical Tamil first pass: **complete as draft**
+- verified Tamil pages: **0 claimed**
+- visual fidelity audit: **not started**
 
 ## Gate status
 
 - Source intake: **complete**
-- Structural mapping: **complete**
-- Whole-source boundary audit: **complete**
-- Embedded dramatic-section boundary audit: **complete**
+- Structural mapping: **complete with Socrates-boundary correction**
+- Whole-source boundary audit: **complete with Socrates-boundary correction**
+- Embedded dramatic-section boundary audit: **complete with Socrates-boundary correction**
 - Scene-separator policy: **verified**
-- Existing page drafts: **001–044 present, incomplete/unverified**
-- Canonical Tamil first pass: **not complete**
-- Verified Tamil pages: **0 claimed at this checkpoint**
+- Canonical Tamil first pass: **complete as draft**
+- Verified Tamil pages: **0**
 - Visual fidelity audit: **not started**
 - Structured derivatives: **blocked**
 
 ## Next activity
 
-**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
+**Perform a separate full visual fidelity audit of the canonical Tamil layer against the rendered scan, in source order, before any structured derivatives.**
