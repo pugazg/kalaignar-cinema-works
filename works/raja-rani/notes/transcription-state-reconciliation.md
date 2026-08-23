@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This checkpoint records the authoritative transcription and verification state for `works/raja-rani/`.
+This checkpoint records the authoritative transcription, fidelity and structured-derivative state for `works/raja-rani/`.
 
 The rendered scan remains the controlling source. OCR/embedded text is navigation assistance only.
 
@@ -28,97 +28,94 @@ Authoritative boundary:
 
 PDF 72 ends during Samarasam's intervention in the staged performance. PDF 73 continues through the real-poison revelation, police arrival and Babu's arrest. Only the following source-visible rule–star–rule ornament returns to parent-film `(மனப் போராட்டம்)`.
 
-## Separate visual-fidelity audit
+## Fidelity audit
 
-The rendered-scan audit covers **all PDF 1–79 canonical source pages**.
+The rendered-scan audit covers all canonical source pages PDF 1–79.
 
-Batch reports:
+Reports:
 
-- `notes/visual-fidelity-audit-batch-001.md` — PDF 1–10
-- `notes/visual-fidelity-audit-batch-002.md` — PDF 11–20
-- `notes/visual-fidelity-audit-batch-003.md` — PDF 21–30
-- `notes/visual-fidelity-audit-batch-004.md` — PDF 31–40
-- `notes/visual-fidelity-audit-batch-005.md` — PDF 41–50
-- `notes/visual-fidelity-audit-batch-006.md` — PDF 51–60
-- `notes/visual-fidelity-audit-batch-007.md` — PDF 61–70
-- `notes/visual-fidelity-audit-batch-008.md` — PDF 71–79
-- `notes/visual-fidelity-targeted-review-001.md` — high-resolution reinspection
-- `notes/tamil-fidelity-gate-disposition.md` — final supplied-scan gate disposition
+- `notes/visual-fidelity-audit-batch-001.md` through `notes/visual-fidelity-audit-batch-008.md`
+- `notes/visual-fidelity-targeted-review-001.md`
+- `notes/tamil-fidelity-gate-disposition.md`
 
-## Targeted high-resolution review result
+Final fidelity position:
 
-Five pages from the earlier review queue were resolved and promoted to verified:
-
-- **PDF 4:** `⟦சாக சந் தானா?⟧` → `சாக சந் தானா`
-- **PDF 34:** `⟦கேவா?⟧ கலர்` → `கேவா கலர்`; printed `வால்ட்` / `சேப்பு` restored
-- **PDF 41:** `⟦சொத்தைக்?⟧` → `கோத்தைக்`; source-visible `ராசா:` labels restored
-- **PDF 42:** `⟦புடி?⟧ புடாதே` → `உடி புடாதே.`; source-visible `ராசா:` / `ராஜ:` labels restored
-- **PDF 52:** `⟦டைகர் ஓல்டன்?⟧` → `டைகர் ஓல்டன்`; printed `பயிட்` forms retained
-
-PDF 48 was tightened by restoring source-visible `ராசா:` variants and `எடுத்துகிட்டு`, but its remaining two short uncertain spans could not be safely resolved.
-
-## Final fidelity position
-
-- audited source-order range: **PDF 1–79**
 - audited source pages: **79/79**
 - verified source pages: **75**
 - review source pages: **4 — PDF 27, 48, 57, 74**
-- audited screenplay range: **PDF 10–79 / printed pp.9–78**
 - audited screenplay pages: **70/70**
 - verified screenplay pages: **66/70**
 - review screenplay pages: **4/70 — PDF 27, 48, 57, 74**
 
-## Bounded source limitations
+The four page limitations remain bounded rather than reconstructed:
 
-### PDF 27 / printed p.26
+- PDF 27: faint/washed internal-monologue word remains `⟦நீ?⟧`;
+- PDF 48: two short spans before `சமரசம் வீடு` remain visually insecure;
+- PDF 57: the line securely begins `என்னடா இது, முன்னுக்கு பின்...`, but the following compact colloquial group remains unresolved;
+- PDF 74: later `K. N. சங்கரன்` ownership/address overprint physically obscures original source text and is classified as an irreducible supplied-scan obstruction.
 
-The faint/washed internal-monologue word remains explicit as `⟦நீ?⟧`. It is not inferred from context.
+The Tamil fidelity gate is therefore **closed-with-source-limitations**. The four page files themselves remain `review`.
 
-### PDF 48 / printed p.47
+## Scene segmentation
 
-Two short spans immediately before `சமரசம் வீடு` remain visually insecure after high-resolution review. The page remains review.
+Source-supported scene segmentation is complete.
 
-### PDF 57 / printed p.56
+Authoritative files:
 
-The line securely begins `என்னடா இது, முன்னுக்கு பின்...`, but the following compact colloquial word group remains insufficiently unambiguous for verified promotion.
+- `notes/scene-segmentation-audit.md`
+- `scenes/index.json`
 
-### PDF 74 / printed p.73
+The booklet prints no screenplay scene numbers. The archive therefore uses navigation-only IDs `raja-rani-s001` through `raja-rani-s058`.
 
-A later ownership/address overprint beginning `K. N. சங்கரன்` physically obscures part of the original source. The overprint is non-canonical and hidden source text is not reconstructed from context or another edition. The separate former Samarasam-line uncertainty was already resolved as `எது இந்நேரத்தில லெட்டர்?`.
+Segmentation totals:
 
-This is an **irreducible physical obstruction in the supplied scan** unless a cleaner source image is later available.
+- archival scene segments: **58**
+- eligible for verified scene-text extraction: **50**
+- blocked by review-source intersection: **8**
 
-## Tamil fidelity gate disposition
+Blocked scene IDs:
 
-The full visual-fidelity audit phase is **complete-with-source-limitations**.
+- `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013` — PDF 27
+- `raja-rani-s033` — PDF 48
+- `raja-rani-s039` — PDF 57
+- `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055` — PDF 74
 
-The four affected page records remain `review`; their text is not promoted merely to force a complete verification count. However, the supplied scan has been exhausted through full-range audit and targeted high-resolution review, so the gate is now formally **closed-with-source-limitations** for downstream eligibility purposes.
+Page breaks alone were not used as scene boundaries.
 
-Downstream rule:
+## Scene-text derivatives
 
-- scene segmentation/indexing may cover the whole screenplay structurally;
-- verified scene-text derivatives require fully verified Tamil across the complete scene span;
-- scenes touching PDF **27, 48, 57 or 74** are blocked from verified scene-text output;
-- immutable dialogue records and English translation may use only verified Tamil source units;
-- unresolved/obstructed text is never reconstructed or translated as settled text.
+Batch 001 is complete and documented in `notes/scene-text-batch-001.md`.
 
-Controlling disposition: `notes/tamil-fidelity-gate-disposition.md`.
+Completed verified scene-text files:
+
+- `scenes/scene-001.md` through `scenes/scene-010.md`
+
+Current derivative counts:
+
+- verified scene-text files completed: **10/50 eligible**
+- eligible scene-text files remaining: **40**
+- blocked scene segments remaining: **8**
+
+Every completed scene file is derived only from verified canonical Tamil, retains page anchors, and stops at the next accepted transition. No blocked/review page is included in Batch 001.
 
 ## Current gate
 
 - source intake: **complete**
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
-- rendered-scan audit coverage: **complete, PDF 1–79**
-- fidelity audit: **complete-with-source-limitations**
+- rendered-scan fidelity audit: **complete-with-source-limitations**
 - Tamil fidelity gate: **closed-with-source-limitations**
 - page verification: **75 verified / 4 review**
 - screenplay verification: **66 verified / 4 review**
-- scene segmentation/index: **eligible to begin**
-- scene-text / dialogue / translation derivatives: **eligible only from verified Tamil source units**
+- scene segmentation/index: **complete — 58 segments**
+- scene-text derivatives: **in progress — 10/50 eligible complete**
+- dialogue index: **not started; eligible only from verified Tamil units**
+- character/entity index: **not started**
+- song/performance authorship derivatives: **not started / separately gated**
+- English translation: **not started; eligible only from verified Tamil units**
 
 No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved readings.
 
 ## Next activity
 
-Build the **source-supported scene segmentation and scene-text derivative eligibility map for PDF 10–79**. Use source-visible separators/headings and clear dramatic transitions only; do not use page breaks alone. Mark scenes intersecting PDF 27, 48, 57 or 74 as blocked for verified scene-text output.
+Continue verified scene-text extraction in source order, **skip blocked `s011`–`s013`**, and resume with `s014`. Use a meaningful batch and preserve `scene-segmentation-audit.md` boundaries exactly.
