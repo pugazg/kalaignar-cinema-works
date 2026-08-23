@@ -26,9 +26,9 @@ Therefore it was unsafe to infer either that PDF 1–44 had complete canonical t
 
 ## Canonical disposition
 
-The existing files are retained as working material. The rendered scan remains the controlling source.
+The rendered scan remains the controlling source. Existing draft files are retained only as working material until reconciled against the rendered page.
 
-Every draft page must be reconciled against its rendered page in source order. Incomplete placeholders and prose summaries are replaced by source-supported page text during the canonical first pass. No page becomes `verified` merely because a draft exists. A separate full visual-fidelity audit remains mandatory after the first pass and before scene/dialogue/character derivatives.
+Incomplete placeholders and prose summaries are replaced by source-supported page text during the canonical first pass. No page becomes `verified` merely because a draft exists. A separate full visual-fidelity audit remains mandatory after the first pass and before scene/dialogue/character derivatives.
 
 PDF 74 / printed p.73 still requires special care because a later `K. N. சங்கரன்` ownership/address overprint obscures printed text.
 
@@ -49,10 +49,8 @@ The front section remains draft and does not establish item-level lyric authorsh
 
 - PDF **10–14** / printed pp. **9–13**
 - **5 screenplay pages** reconciled directly from the rendered scan
-- stable page anchors applied
-- PDF 12 continuation placeholder removed and the full page supplied
-- PDF 13–14 embedded `சேரன் செங்குட்டுவன்` text restored in source order
-- all five pages remain **draft**, not verified
+- PDF 12 continuation placeholder removed
+- PDF 13–14 embedded `சேரன் செங்குட்டுவன்` text restored
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-001.md`.
 
@@ -60,13 +58,10 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-001.md`.
 
 - PDF **15–30** / printed pp. **14–29**
 - **16 screenplay pages** reconciled
-- PDF 15–19 completes the first-pass `சேரன் செங்குட்டுவன்` embedded sequence
+- PDF 15–19 completes the first-pass `சேரன் செங்குட்டுவன்` sequence
 - PDF 20 returns to film-level narrative
-- PDF 21–30 replaces summary/partial drafts with source-order page transcription through the electric-store/employment sequence
 - PDF 22→23 preserves the printed letter as a cross-page written-text structure
-- PDF 25 and PDF 27 retain source-visible separator/ornament evidence rather than normalizing it away
-- PDF 27 retains one explicit uncertain short reading as `⟦நீ?⟧` because the scan is faint/washed there
-- all pages remain **draft**, not verified
+- PDF 27 retains one explicit uncertain short reading as `⟦நீ?⟧`
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-002.md`.
 
@@ -74,34 +69,43 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-002.md`.
 
 - PDF **31–40** / printed pp. **30–39**
 - **10 screenplay pages** reconciled
-- PDF 31–39 restores full page-level text across the theatre-company conflict, electric-store comedy, income-tax/salary exchange, Samarasam–Santham dove sequence, and heroine-selection sequence
 - PDF 40 begins the embedded `அகல்யா நாடக ஒத்திகை`
-- PDF 35→36 preserves a cross-page stage direction rather than silently joining or shortening it
-- PDF 37→38 preserves Samarasam's cross-page sentence exactly at the physical page break
-- multiple source-visible ornament forms remain distinct: rule–star–rule, standalone circular ornament, and single star
-- PDF 34 retains one explicit uncertain color-name as `⟦கேவா?⟧ கலர்`
-- all pages remain **draft**, not verified
+- PDF 35→36 and PDF 37→38 preserve genuine physical-page continuities
+- source-visible ornament forms remain distinct
+- PDF 34 retains `⟦கேவா?⟧ கலர்`
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-003.md`.
 
+### Batch 004 — complete through PDF 50
+
+- PDF **41–50** / printed pp. **40–49**
+- **10 screenplay pages** reconciled
+- the final four pre-existing drafts (`041.md`–`044.md`) are now reconciled from the rendered scan
+- six new page files (`045.md`–`050.md`) extend the canonical first pass beyond the original draft range
+- PDF 41 preserves the mixed physical-page boundary where `அகல்யா நாடக ஒத்திகை` ends and parent-film dialogue resumes
+- PDF 42, PDF 43 and PDF 46 retain multiple rule–star–rule source ornaments instead of normalizing them
+- PDF 46 preserves a source-unlabelled utterance after the bureau search without inventing a speaker
+- PDF 47→48, PDF 48→49 and PDF 49→50 preserve genuine cross-page continuities
+- PDF 49 retains a standalone `★` before the Babu/Raja confrontation
+- explicit first-pass uncertainties remain on PDF 41 (`⟦சொத்தைக்?⟧`), PDF 42 (`⟦புடி?⟧`) and PDF 48 (`⟦வந்த...?⟧`, `⟦திடானு?⟧`)
+
+Detailed checkpoint: `notes/canonical-first-pass-batch-004.md`.
+
 ## Current continuous coverage
 
-- source-order draft first pass: **PDF 1–40**
-- screenplay draft first pass: **PDF 10–40 / printed pp.9–39**
-- reconciled screenplay pages: **31/70**
+- source-order draft first pass: **PDF 1–50**
+- screenplay draft first pass: **PDF 10–50 / printed pp.9–49**
+- reconciled screenplay pages: **41/70**
+- current page files: **001.md–050.md**
 - complete canonical Tamil first pass: **no**
 - verified Tamil pages claimed: **0**
 - visual fidelity audit: **not started**
 - scene/dialogue/character/translation derivatives: **blocked**
 
-The remaining pre-existing files PDF **41–44** are still working drafts and are **not** counted as reconciled until each is checked against the rendered scan.
-
-PDF 41 must be handled as a mixed page: the `அகல்யா நாடக ஒத்திகை` continues at the top and the parent-film screenplay resumes later on the same physical page. That internal boundary must be preserved rather than treating the page as one homogeneous scene.
-
 ## Next activity
 
-Continue canonical Tamil first-pass reconciliation from **PDF 41 onward**, in source order, with stable page anchors. Begin by preserving the exact Ahalya-rehearsal-to-film boundary on PDF 41, then continue through the remaining pre-existing PDF 42–44 drafts before moving beyond the old draft range.
+Continue canonical Tamil first-pass transcription from **PDF 51 onward**, in source order, creating new stable page files as needed.
 
-Preserve exact source-supported speaker labels, stage directions, written text, performance structure, code-switching, and source-visible ornaments. Keep uncertainty explicit rather than repairing from other editions, film audio, subtitles, websites, or memory.
+Preserve exact source-supported speaker labels, stage directions, written text, performance structure, code-switching, source-unlabelled speech and source-visible ornaments. Keep uncertainty explicit rather than repairing from other editions, film audio, subtitles, websites, or memory.
 
 After the entire first pass reaches PDF 79, perform the separate visual-fidelity audit before structured derivatives.
