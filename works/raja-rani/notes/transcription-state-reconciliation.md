@@ -81,16 +81,33 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-004.md`.
 - PDF 51 retains `⟦லச்சிருக்கானே?⟧`
 - PDF 52 retains `⟦டைகர் ஓல்டன்?⟧`
 - PDF 57 retains `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
-- all pages remain draft first-pass transcription; no page is promoted to verified
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-005.md`.
 
+### Batch 006 — complete through PDF 70
+
+- PDF **61–70** / printed pp. **60–69**
+- **10 new screenplay page files** created from the rendered scan
+- PDF 61 preserves three separate rule–star–rule transitions across Babu's theatre-company return, Rani's widowhood discovery, and Raja's reaction
+- PDF 62→63 preserves Raja's cross-page warning to Babu
+- PDF 64→65 preserves Babu's cross-page speech to Rani
+- PDF 65→66 preserves Gnanakkan's accusation across the physical page boundary
+- PDF 66 preserves the transition from parent-film dialogue to Babu's poisoning plan, `★ ராணி வீடு ★`, Rani's written letter, and the start of `★ சாக்ரடீஸ் (நாடகம்) ★`
+- PDF 67 preserves the star-flanked `நீதி மன்றம்` heading inside the embedded play
+- PDF 68→69 preserves the Socrates courtroom argument across the physical page boundary
+- PDF 69→70 preserves Socrates' sentencing speech across the physical page boundary
+- PDF 70 preserves the star-flanked `சிறை` heading and the guard's final instruction continues into PDF 71
+- all pages remain draft first-pass transcription; no page is promoted to verified
+
+Detailed checkpoint: `notes/canonical-first-pass-batch-006.md`.
+
 ## Current continuous coverage
 
-- source-order draft first pass: **PDF 1–60**
-- screenplay draft first pass: **PDF 10–60 / printed pp.9–59**
-- reconciled screenplay pages: **51/70**
-- current page files: **001.md–060.md**
+- source-order draft first pass: **PDF 1–70**
+- screenplay draft first pass: **PDF 10–70 / printed pp.9–69**
+- reconciled screenplay pages: **61/70**
+- current page files: **001.md–070.md**
+- `சாக்ரடீஸ் (நாடகம்)`: first pass in progress through PDF 70; source-supported range continues through PDF 72
 - complete canonical Tamil first pass: **no**
 - verified Tamil pages claimed: **0**
 - visual fidelity audit: **not started**
@@ -98,7 +115,7 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-005.md`.
 
 ## Next activity
 
-Continue canonical Tamil first-pass transcription from **PDF 61 onward**, in source order, creating new stable page files as needed. Preserve the approach into the embedded `சாக்ரடீஸ் (நாடகம்)` section beginning on PDF 66, including exact source-visible transition evidence and any cross-page dialogue/performance structure.
+Continue canonical Tamil first-pass transcription from **PDF 71 onward**, completing `சாக்ரடீஸ் (நாடகம்)` through PDF 72 and preserving the exact transition back to the parent-film screenplay. Then continue through PDF 79 in source order with stable page anchors.
 
 Keep uncertainty explicit rather than repairing from other editions, film audio, subtitles, websites or memory.
 
