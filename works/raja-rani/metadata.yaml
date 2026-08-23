@@ -5,20 +5,53 @@ source:
   identifier: TVA_BOK_0017188
   pages: 80
 status:
+  canonical_first_pass: complete-draft
   fidelity_audit: in-progress
-  fidelity_audit_through_pdf_page: 40
-  fidelity_audited_source_pages: 40
-  fidelity_verified_source_pages: 37
-  fidelity_review_source_pages: 3
-  verified_tamil_pages: 29
-  screenplay_fidelity_verified_pages: 29
-  screenplay_fidelity_review_pages: 2
+  fidelity_audit_through_pdf_page: 60
+  fidelity_audited_source_pages: 60
+  fidelity_verified_source_pages: 52
+  fidelity_review_source_pages: 8
+  screenplay_fidelity_audited_pages: 51
+  verified_tamil_pages: 44
+  screenplay_fidelity_verified_pages: 44
+  screenplay_fidelity_review_pages: 7
   structured_derivatives: blocked
 scan_condition:
   notes:
+    - pdf_page: 4
+      finding: one short Babu lyric phrase remains visual-fidelity review as "⟦சாக சந் தானா?⟧"
     - pdf_page: 27
-      finding: faint/washed source area in the internal-monologue block remains unresolved as "⟦நீ?⟧"
+      printed_page: 26
+      finding: faint/washed internal-monologue word remains unresolved as "⟦நீ?⟧"
     - pdf_page: 34
       printed_page: 33
-      finding: one color-name in Karand's bulb inventory remains explicit first-pass uncertainty "⟦கேவா?⟧ கலர்"
-next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 41 onward; resolve or retain uncertainty without guessing and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
+      finding: one color-name in Karand's bulb inventory remains explicit uncertainty "⟦கேவா?⟧ கலர்"
+    - pdf_page: 41
+      printed_page: 40
+      finding: one short word in the முனி speech before "காரணத்தை" remains explicit uncertainty "⟦சொத்தைக்?⟧"
+    - pdf_page: 42
+      printed_page: 41
+      finding: one short Samarasam reading remains explicit uncertainty "⟦புடி?⟧"
+    - pdf_page: 48
+      printed_page: 47
+      finding: two short readings remain explicit uncertainties "⟦வந்த...?⟧" and "⟦திடானு?⟧"
+    - pdf_page: 52
+      printed_page: 51
+      finding: English-heavy comic phrase remains explicit uncertainty "⟦டைகர் ஓல்டன்?⟧"; surrounding printed பயிட் forms are scan-supported
+    - pdf_page: 57
+      printed_page: 56
+      finding: final Samarasam phrase remains explicit uncertainty "⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧"
+    - pdf_page: 74
+      printed_page: 73
+      finding: later ownership/address overprint beginning "K. N. சங்கரன்" overlaps upper-right source text; overprint is non-canonical
+    - pdf_page: 74
+      printed_page: 73
+      finding: one short Samarasam line remains pending later fidelity review as "⟦எது இன்னோரத்தில லெட்டர்?⟧"
+    - pdf_page: 77
+      printed_page: 76
+      finding: one short phrase remains pending later fidelity review as "⟦விதவை தாப்பா?⟧"
+resolved_during_fidelity_audit:
+  - pdf_page: 51
+    printed_page: 50
+    finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
+next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 61 onward, in source order; preserve the transition into சாக்ரடீஸ் (நாடகம்) at PDF 66, resolve or retain uncertainty without guessing, and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
