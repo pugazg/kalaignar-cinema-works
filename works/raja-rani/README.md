@@ -93,6 +93,7 @@ Batch reports:
 - `notes/visual-fidelity-audit-batch-007.md` — PDF 61–70
 - `notes/visual-fidelity-audit-batch-008.md` — PDF 71–79
 - `notes/visual-fidelity-targeted-review-001.md` — high-resolution reinspection of the remaining review queue
+- `notes/tamil-fidelity-gate-disposition.md` — final gate disposition for irreducible supplied-scan limitations
 
 ### Targeted high-resolution results
 
@@ -106,7 +107,7 @@ The targeted review promoted five formerly review-open pages:
 
 PDF 48 was tightened during the same review: source-visible `ராசா:` variants and `எடுத்துகிட்டு` were restored, but two short spans immediately before `சமரசம் வீடு` remain unresolved.
 
-### Current cumulative position
+### Final cumulative position
 
 - source-order audited: **PDF 1–79 — 79/79 pages**
 - verified source pages: **75**
@@ -114,28 +115,46 @@ PDF 48 was tightened during the same review: source-visible `ராசா:` vari
 - screenplay audited: **PDF 10–79 — 70/70 pages**
 - screenplay verified: **66/70**
 - screenplay review: **4/70 — PDF 27, 48, 57, 74**
+- visual-fidelity audit phase: **complete-with-source-limitations**
 
-## Remaining fidelity review queue
+## Bounded source limitations
 
 - **PDF 27 / printed p.26:** faint/washed internal-monologue word remains `⟦நீ?⟧`.
 - **PDF 48 / printed p.47:** two short spans in Raja's recollection before `சமரசம் வீடு` remain visually insecure.
-- **PDF 57 / printed p.56:** the line securely begins `என்னடா இது, முன்னுக்கு பின்...`; the following compact colloquial word group remains unresolved after high-resolution review.
+- **PDF 57 / printed p.56:** the line securely begins `என்னடா இது, முன்னுக்கு பின்...`; the following compact colloquial word group remains unresolved after repeated high-resolution review.
 - **PDF 74 / printed p.73:** a later `K. N. சங்கரன்` ownership/address overprint physically obscures original source text. The overprint is non-canonical and hidden source text is not reconstructed. The separate former uncertainty on this page has already been resolved as `எது இந்நேரத்தில லெட்டர்?`.
 
-PDF 74 is qualitatively different from glyph-only review items: it is an **irreducible physical obstruction in the supplied scan** unless a cleaner source image is later supplied.
+PDF 74 is an **irreducible physical obstruction in the supplied scan** unless a cleaner source image is later supplied. The other three are bounded unresolved glyph readings. None is promoted merely to create an artificial 79/79 verification count.
+
+## Tamil fidelity gate disposition
+
+The supplied scan has now been exhausted through a complete visual audit plus targeted high-resolution reinspection. The Tamil fidelity gate is therefore **closed-with-source-limitations**, while the four affected page records remain `review`.
+
+This closure does not mean unresolved text becomes verified. Instead, downstream work uses a verified-source-unit eligibility rule:
+
+- scene segmentation/indexing may represent the complete screenplay structurally;
+- verified scene-text output is allowed only for scenes whose complete Tamil source span is verified;
+- scenes intersecting PDF **27, 48, 57 or 74** remain blocked for verified scene-text derivation;
+- dialogue records and English translation may use only corresponding verified Tamil source units;
+- unresolved/obstructed text must never be normalized, reconstructed or translated as settled text.
+
+See `notes/tamil-fidelity-gate-disposition.md` for the controlling policy.
 
 ## Current gate
 
 - source intake: **complete**
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
-- rendered-scan visual audit coverage: **complete through PDF 79**
-- Tamil fidelity gate: **review-open — 4 source pages remain**
-- structured scenes: **blocked**
-- dialogue index: **blocked**
-- character/entity index: **blocked**
-- song/performance authorship derivatives: **blocked pending their gate**
-- English translation: **blocked until the Tamil gate has a documented closure/disposition**
+- rendered-scan visual audit: **complete-with-source-limitations**
+- Tamil fidelity gate: **closed-with-source-limitations**
+- source pages: **75 verified / 4 review**
+- screenplay pages: **66 verified / 4 review**
+- scene segmentation/index: **eligible to begin**
+- verified scene-text derivatives: **eligible only from fully verified scene spans**
+- dialogue index: **eligible only from verified Tamil source units**
+- character/entity index: **not started**
+- song/performance authorship derivatives: **not started / separately gated**
+- English translation: **eligible only from verified Tamil source units**
 
 ## Authoritative mapping / progress notes
 
@@ -147,6 +166,7 @@ PDF 74 is qualitatively different from glyph-only review items: it is an **irred
 - `notes/canonical-first-pass-batch-001.md` through `notes/canonical-first-pass-batch-007.md`
 - `notes/visual-fidelity-audit-batch-001.md` through `notes/visual-fidelity-audit-batch-008.md`
 - `notes/visual-fidelity-targeted-review-001.md`
+- `notes/tamil-fidelity-gate-disposition.md`
 
 ## Source rules
 
@@ -159,4 +179,4 @@ PDF 74 is qualitatively different from glyph-only review items: it is an **irred
 
 ## Next activity
 
-Perform a **final gate-disposition review of PDF 27, 48, 57 and 74**. Narrow only what the supplied scan genuinely supports, classify irreducible obstruction explicitly, and decide whether/how the Tamil fidelity gate can close before structured scene derivatives begin.
+Build the **source-supported scene segmentation and scene-text derivative eligibility map for PDF 10–79**. Use only source-visible separators/headings and clear dramatic transitions; do not create scenes from page breaks alone. Mark every scene intersecting PDF 27, 48, 57 or 74 as blocked for verified scene-text output, while allowing fully verified scenes to proceed.
