@@ -14,7 +14,7 @@ The old range was re-read from the rendered source in order and then extended th
 
 ## Canonical Tamil first pass
 
-The source-order first pass is now complete as draft:
+The source-order first pass is complete as draft:
 
 - source-order page files: **001.md–079.md**
 - source-order PDF range: **1–79**
@@ -44,40 +44,85 @@ The return to parent-film action occurs only after the performance interruption 
 
 ## Separate visual-fidelity audit
 
-The first pass is not itself verification. A separate page-by-page rendered-scan audit is now in progress.
+The first pass is not itself verification. A separate page-by-page rendered-scan audit is in progress.
 
 ### Fidelity Batch 001 — PDF 1–10
 
-- audited: **10/79 source-order pages**
-- verified: **9 source-order pages** — PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
+- verified: **PDF 1, 2, 3, 5, 6, 7, 8, 9, 10**
 - review: **PDF 4**
-- verified screenplay pages: **1/70** — PDF 10 / printed p.9
 - report: `notes/visual-fidelity-audit-batch-001.md`
 
-Source-backed corrections in this batch include:
+Source-backed corrections included `சிந்திக்கத் தெரிந்த மனித குலத்துக்கே` on PDF 6, restoration of source punctuation after `கிளாவர் ராணி` on PDF 8, resolution of PDF 9's printed `தவறுக`, and restoration of source-visible punctuation on PDF 10.
 
-- PDF 6: `சிந்திக்கத் தெரிந்த மனித குலத்துக்கே` restored from the rendered scan;
-- PDF 8: source punctuation after `கிளாவர் ராணி` restored;
-- PDF 9: the previously uncertain printed form `தவறுக` resolved from the scan without normalization;
-- PDF 10: source-visible leading punctuation in Rani's line restored and the four-star divider verified.
+PDF 4 remains review because one short lyric phrase `⟦சாக சந் தானா?⟧` is not visually secure enough to promote.
 
-PDF 4 remains explicitly in review because one short lyric phrase is not visually secure enough for promotion to verified. No outside edition, audio, web source or memory has been used to fill it.
+### Fidelity Batch 002 — PDF 11–20
 
-## Current fidelity review queue
+- verified: **PDF 11–20 — 10/10 pages**
+- review: none
+- report: `notes/visual-fidelity-audit-batch-002.md`
 
-Review remains required on PDF 4 and on previously flagged readings later in the source, including PDFs 27, 34, 41, 42, 48, 51, 52, 57, 74 and 77. PDF 74 also has documented later-source overprint interference.
+This batch verifies the beginning and completion of `சேரன் செங்குட்டுவன்` and the return to film-level `(மேடையில்)` on PDF 20. It also resolves or preserves scan-supported forms including PDF 15 `துடித்தாய்`, PDF 16 `சுக்குநாறுதான்`, PDF 17 `வட்டியிலே நாழிபார்க்கும் விதங்கண்ட தமிழ்நாட்டுமாதரசி`, PDF 18 `திருவிடத்துக்`, PDF 19 `தீட்டிய ஏடுகள்`, and PDF 20 `ரெளடிகள்` / `ரெள 2` / `சொன்னாரு`.
 
-Exact flagged forms remain in the individual page files and batch notes.
+### Fidelity Batch 003 — PDF 21–30
+
+- verified: **PDF 21–26, 28–30 — 9 pages**
+- review: **PDF 27**
+- report: `notes/visual-fidelity-audit-batch-003.md`
+
+This batch checks the post-performance exchange, collection-room aftermath, the overnight Leela misunderstanding, the cross-page written letter, Rani's `மனம்` / `நிழல்` internal dialogue and the opening of her employment sequence.
+
+Notable source-backed corrections include:
+
+- PDF 21: parenthetical vs bracketed structural forms restored from the scan;
+- PDF 22: printed colloquial forms and letter transition retained;
+- PDF 26: normalized `முந்நூறு!` reversed to the printed **`முந்நாறு!`**;
+- PDF 28: printed `வேண்டியதில்லே!` retained;
+- PDF 29: `கண்டு புடிச்சே`, `இது என்னு இது!`, and `கெளரவமான` retained instead of modernization.
+
+PDF 27 remains review. Enlarged rendered-scan inspection still does not securely resolve the faint word in:
+
+`இரவு ⟦நீ?⟧ எங்கே போயிருந்தாயம்மா...`
+
+The uncertainty is preserved rather than guessed from context or outside sources.
+
+## Current fidelity position
+
+- audited source-order range: **PDF 1–30**
+- audited source pages: **30/79**
+- verified source pages: **28**
+- review source pages: **2 — PDF 4 and PDF 27**
+- audited screenplay range: **PDF 10–30 / printed pp.9–29**
+- audited screenplay pages: **21/70**
+- verified screenplay pages: **20/70**
+- review screenplay pages: **1/70 — PDF 27**
+
+## Remaining fidelity review queue
+
+Current unresolved/review readings still requiring scan-based attention include:
+
+- PDF 4: `⟦சாக சந் தானா?⟧`
+- PDF 27: `⟦நீ?⟧`
+- PDF 34: `⟦கேவா?⟧ கலர்`
+- PDF 41: `⟦சொத்தைக்?⟧`
+- PDF 42: `⟦புடி?⟧`
+- PDF 48: `⟦வந்த...?⟧`, `⟦திடானு?⟧`
+- PDF 51: `⟦லச்சிருக்கானே?⟧`
+- PDF 52: `⟦டைகர் ஓல்டன்?⟧`
+- PDF 57: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
+- PDF 74: `⟦எது இன்னோரத்தில லெட்டர்?⟧` plus later overprint interference
+- PDF 77: `⟦விதவை தாப்பா?⟧`
+
+No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved readings.
 
 ## Current gate
 
 - source intake: **complete**
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
-- visual fidelity audit: **in progress through PDF 10**
-- verified screenplay pages: **1/70**
+- visual fidelity audit: **in progress through PDF 30**
 - structured scene/dialogue/character/translation derivatives: **blocked**
 
 ## Next activity
 
-Continue the rendered-scan visual fidelity audit from **PDF 11 onward**, in source order. Verify exact source-supported spelling, labels, punctuation, stage directions, written-text structures, ornaments/headings and cross-page continuity. Resolve or retain uncertainty explicitly and keep structured derivatives blocked until the full Tamil fidelity gate is complete.
+Continue the rendered-scan visual fidelity audit from **PDF 31 onward**, in source order. Pay special attention to PDF 34's flagged color-name reading, preserve exact speaker labels, punctuation, stage directions, written-text structures, ornaments/headings and cross-page continuity, and retain any unresolved reading explicitly rather than guessing.
