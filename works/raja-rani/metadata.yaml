@@ -7,13 +7,13 @@ source:
 status:
   canonical_first_pass: complete-draft
   fidelity_audit: in-progress
-  fidelity_audit_through_pdf_page: 60
-  fidelity_audited_source_pages: 60
-  fidelity_verified_source_pages: 52
+  fidelity_audit_through_pdf_page: 70
+  fidelity_audited_source_pages: 70
+  fidelity_verified_source_pages: 62
   fidelity_review_source_pages: 8
-  screenplay_fidelity_audited_pages: 51
-  verified_tamil_pages: 44
-  screenplay_fidelity_verified_pages: 44
+  screenplay_fidelity_audited_pages: 61
+  verified_tamil_pages: 54
+  screenplay_fidelity_verified_pages: 54
   screenplay_fidelity_review_pages: 7
   structured_derivatives: blocked
 scan_condition:
@@ -54,4 +54,19 @@ resolved_during_fidelity_audit:
   - pdf_page: 51
     printed_page: 50
     finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
-next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 61 onward, in source order; preserve the transition into சாக்ரடீஸ் (நாடகம்) at PDF 66, resolve or retain uncertainty without guessing, and keep structured derivatives blocked until the full Tamil fidelity gate is complete."
+  - pdf_page: 61
+    printed_page: 60
+    finding: first-pass "சிட்டு கட்டு" corrected from rendered scan to "சீட்டு கட்டு"
+  - pdf_page: 62
+    printed_page: 61
+    finding: printed historical form "யென்றும்" restored; unusual "இத்திப்பான" confirmed as source-supported
+  - pdf_page: 65
+    printed_page: 64
+    finding: normalized "தீய பந்தங்களில்" corrected to printed "தீப் பந்தங்களிலே"
+  - pdf_page: 67
+    printed_page: 66
+    finding: printed forms "இவைகளைக் காட்டிலும்" and "உத்திரவிடுகிறார்" restored
+  - pdf_page: 69
+    printed_page: 68
+    finding: printed "தடை போட்டது கிடையாதே!" restored and repeated "சுக்கு நூறாகப்போய் விடுவீர்கள்!..." page-boundary structure restored
+next_action: "Continue the separate rendered-scan visual fidelity audit from PDF 71 through PDF 79, complete the சாக்ரடீஸ் (நாடகம்) boundary through first part of PDF 73, verify the return to parent-film action, and pay special attention to the PDF 74 overprint/reading and PDF 77 flagged phrase. Keep structured derivatives blocked until the full Tamil fidelity gate is complete."
