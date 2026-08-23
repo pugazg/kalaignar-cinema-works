@@ -17,11 +17,19 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: eligible-with-review-exclusions
-  scene_segmentation: eligible-to-begin
-  scene_text_derivatives: eligible-only-from-verified-tamil
-  dialogue_index: eligible-only-from-verified-tamil
-  english_translation: eligible-only-from-verified-tamil
+  structured_derivatives: in-progress-with-review-exclusions
+  scene_segmentation: complete
+  scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
+  scene_index_path: works/raja-rani/scenes/index.json
+  archival_scene_segments: 58
+  scene_text_eligible_segments: 50
+  scene_text_blocked_segments: 8
+  scene_text_derivatives: in-progress-verified-only
+  scene_text_files_completed: 10
+  scene_text_files_remaining_eligible: 40
+  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-001.md
+  dialogue_index: eligible-only-from-verified-tamil-not-started
+  english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
   notes:
     - pdf_page: 27
@@ -81,4 +89,4 @@ resolved_during_fidelity_audit:
   - pdf_page: 79
     printed_page: 78
     finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
-next_action: "Build the source-supported scene segmentation and scene-text derivative eligibility map for PDF 10-79. Use only source-supported separators/headings and clear dramatic transitions; mark scenes intersecting PDF 27, 48, 57 or 74 as blocked for verified scene-text output."
+next_action: "Continue verified scene-text extraction in source order, skipping blocked scenes s011-s013 and resuming at s014. Use only verified canonical Tamil and preserve accepted scene boundaries exactly."
