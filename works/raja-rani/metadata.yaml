@@ -9,45 +9,45 @@ status:
   fidelity_audit: full-range-audited-review-open
   fidelity_audit_through_pdf_page: 79
   fidelity_audited_source_pages: 79
-  fidelity_verified_source_pages: 70
-  fidelity_review_source_pages: 9
+  fidelity_verified_source_pages: 75
+  fidelity_review_source_pages: 4
   screenplay_fidelity_audited_pages: 70
-  verified_tamil_pages: 62
-  screenplay_fidelity_verified_pages: 62
-  screenplay_fidelity_review_pages: 8
+  verified_tamil_pages: 66
+  screenplay_fidelity_verified_pages: 66
+  screenplay_fidelity_review_pages: 4
   structured_derivatives: blocked
 scan_condition:
   notes:
-    - pdf_page: 4
-      finding: one short Babu lyric phrase remains visual-fidelity review as "⟦சாக சந் தானா?⟧"
     - pdf_page: 27
       printed_page: 26
       finding: faint/washed internal-monologue word remains unresolved as "⟦நீ?⟧"
-    - pdf_page: 34
-      printed_page: 33
-      finding: one color-name in Karand's bulb inventory remains explicit uncertainty "⟦கேவா?⟧ கலர்"
-    - pdf_page: 41
-      printed_page: 40
-      finding: one short word in the முனி speech before "காரணத்தை" remains explicit uncertainty "⟦சொத்தைக்?⟧"
-    - pdf_page: 42
-      printed_page: 41
-      finding: one short Samarasam reading remains explicit uncertainty "⟦புடி?⟧"
     - pdf_page: 48
       printed_page: 47
-      finding: two short readings remain explicit uncertainties "⟦வந்த...?⟧" and "⟦திடானு?⟧"
-    - pdf_page: 52
-      printed_page: 51
-      finding: English-heavy comic phrase remains explicit uncertainty "⟦டைகர் ஓல்டன்?⟧"; surrounding printed பயிட் forms are scan-supported
+      finding: two short spans immediately before "சமரசம் வீடு" remain explicit visual uncertainty; source-visible ராசா labels and "எடுத்துகிட்டு" have been restored
     - pdf_page: 57
       printed_page: 56
-      finding: final Samarasam phrase remains explicit uncertainty "⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧"
+      finding: line securely begins "என்னடா இது, முன்னுக்கு பின்..." but following compact colloquial word group remains unresolved after high-resolution review
     - pdf_page: 74
       printed_page: 73
-      finding: later ownership/address overprint beginning "K. N. சங்கரன்" overlaps upper-right source text; overprint is non-canonical and obscured source text is not reconstructed
+      finding: later ownership/address overprint beginning "K. N. சங்கரன்" physically obscures upper-right source text; overprint is non-canonical and hidden source text is not reconstructed
 resolved_during_fidelity_audit:
+  - pdf_page: 4
+    finding: earlier "⟦சாக சந் தானா?⟧" resolved by high-resolution scan review as unusual printed "சாக சந் தானா"; page verified
+  - pdf_page: 34
+    printed_page: 33
+    finding: earlier "⟦கேவா?⟧ கலர்" resolved as "கேவா கலர்"; printed "வால்ட்" and "சேப்பு" restored; page verified
+  - pdf_page: 41
+    printed_page: 40
+    finding: earlier "⟦சொத்தைக்?⟧" resolved as unusual printed "கோத்தைக்"; source-visible "ராசா:" variants restored; page verified
+  - pdf_page: 42
+    printed_page: 41
+    finding: earlier "⟦புடி?⟧ புடாதே" resolved as printed "உடி புடாதே."; source-visible "ராசா:" / "ராஜ:" variants restored; page verified
   - pdf_page: 51
     printed_page: 50
     finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
+  - pdf_page: 52
+    printed_page: 51
+    finding: earlier "⟦டைகர் ஓல்டன்?⟧" resolved as printed "டைகர் ஓல்டன்" while surrounding பயிட் forms remain unchanged; page verified
   - pdf_page: 61
     printed_page: 60
     finding: first-pass "சிட்டு கட்டு" corrected from rendered scan to "சீட்டு கட்டு"
@@ -68,11 +68,11 @@ resolved_during_fidelity_audit:
     finding: source-unlabelled line "சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?" restored without inventing a speaker label; return from சாக்ரடீஸ் performance verified after Babu arrest
   - pdf_page: 74
     printed_page: 73
-    finding: earlier "⟦எது இன்னோரத்தில லெட்டர்?⟧" resolved from rendered scan as "எது இந்நேரத்தில லெட்டர்?"; page remains review because of physical overprint obstruction
+    finding: earlier "⟦எது இன்னோரத்தில லெட்டர்?⟧" resolved as "எது இந்நேரத்தில லெட்டர்?"; page remains review because of physical overprint obstruction
   - pdf_page: 77
     printed_page: 76
-    finding: earlier "⟦விதவை தாப்பா?⟧" resolved from rendered scan as "கதவை தாப்பாபோட்டுட்டு"; page verified
+    finding: earlier "⟦விதவை தாப்பா?⟧" resolved as "கதவை தாப்பாபோட்டுட்டு"; page verified
   - pdf_page: 79
     printed_page: 78
     finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
-next_action: "Perform a targeted high-resolution review of the remaining fidelity queue — PDF 4, 27, 34, 41, 42, 48, 52, 57 and 74. Resolve only what the rendered source supports, classify irreducible scan damage/overprint explicitly, and decide the Tamil fidelity gate before beginning structured derivatives."
+next_action: "Perform a final gate-disposition review of PDF 27, 48, 57 and 74. Narrow only scan-supported uncertainties, classify irreducible obstruction explicitly, and decide whether/how the Tamil fidelity gate can close before structured scene derivatives begin."
