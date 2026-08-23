@@ -69,6 +69,9 @@ scan_condition:
     - pdf_page: 27
       printed_page: 26
       finding: faint/washed source area in the internal-monologue block; one short first-pass reading remains explicitly uncertain as "⟦நீ?⟧"
+    - pdf_page: 34
+      printed_page: 33
+      finding: one color-name in Karand's bulb inventory is retained as explicit first-pass uncertainty "⟦கேவா?⟧ கலர்"
     - pdf_page: 74
       printed_page: 73
       finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" obscures upper-right printed source text; affected reading must remain explicit if unresolved
@@ -91,13 +94,13 @@ status:
   initial_draft_page_file_count: 44
   transcription: in-progress-source-reconciliation
   canonical_first_pass_complete: false
-  source_order_first_pass_reconciled_pdf_range: 1-30
+  source_order_first_pass_reconciled_pdf_range: 1-40
   front_matter_first_pass_reconciled_pdf_range: 1-9
-  screenplay_first_pass_reconciled_pdf_range: 10-30
-  screenplay_first_pass_reconciled_printed_range: 9-29
-  screenplay_first_pass_reconciled_pages: 21
+  screenplay_first_pass_reconciled_pdf_range: 10-40
+  screenplay_first_pass_reconciled_printed_range: 9-39
+  screenplay_first_pass_reconciled_pages: 31
   screenplay_total_pages: 70
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Continue canonical Tamil first-pass reconciliation from PDF 31 onward, in source order, with stable page anchors; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass reconciliation from PDF 41 onward, beginning with the mixed PDF 41 boundary where the Ahalya rehearsal ends and film-level dialogue resumes; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
