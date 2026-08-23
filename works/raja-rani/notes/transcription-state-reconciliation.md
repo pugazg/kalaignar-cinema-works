@@ -8,9 +8,7 @@ The rendered scan remains the controlling source. OCR/embedded text is navigatio
 
 ## Canonical Tamil first pass
 
-The work originally contained pre-existing files `pages/001.md`–`044.md`, but some were partial transcriptions, summaries or placeholders. File existence was therefore not treated as canonical completion.
-
-The source was re-read in order and extended through the final screenplay page.
+The source-order first pass is complete as draft:
 
 - source-order page files: **001.md–079.md**
 - source-order PDF range: **1–79**
@@ -32,100 +30,67 @@ PDF 72 ends during Samarasam's intervention in the staged performance. PDF 73 co
 
 ## Separate visual-fidelity audit
 
-The rendered-scan audit has now covered **all PDF 1–79 canonical source pages**.
+The rendered-scan audit covers **all PDF 1–79 canonical source pages**.
 
-### Fidelity Batch 001 — PDF 1–10
+Batch reports:
 
-- verified: PDF 1, 2, 3, 5, 6, 7, 8, 9, 10
-- review: PDF 4
-- report: `notes/visual-fidelity-audit-batch-001.md`
+- `notes/visual-fidelity-audit-batch-001.md` — PDF 1–10
+- `notes/visual-fidelity-audit-batch-002.md` — PDF 11–20
+- `notes/visual-fidelity-audit-batch-003.md` — PDF 21–30
+- `notes/visual-fidelity-audit-batch-004.md` — PDF 31–40
+- `notes/visual-fidelity-audit-batch-005.md` — PDF 41–50
+- `notes/visual-fidelity-audit-batch-006.md` — PDF 51–60
+- `notes/visual-fidelity-audit-batch-007.md` — PDF 61–70
+- `notes/visual-fidelity-audit-batch-008.md` — PDF 71–79
 
-### Fidelity Batch 002 — PDF 11–20
+## Targeted high-resolution review
 
-- verified: PDF 11–20
-- review: none
-- report: `notes/visual-fidelity-audit-batch-002.md`
+Report: `notes/visual-fidelity-targeted-review-001.md`
 
-### Fidelity Batch 003 — PDF 21–30
+The targeted queue after the full-range audit was PDF 4, 27, 34, 41, 42, 48, 52, 57 and 74.
 
-- verified: PDF 21–26, 28–30
-- review: PDF 27
-- report: `notes/visual-fidelity-audit-batch-003.md`
+Five pages were resolved and promoted to verified:
 
-### Fidelity Batch 004 — PDF 31–40
+- **PDF 4:** `⟦சாக சந் தானா?⟧` → `சாக சந் தானா`
+- **PDF 34:** `⟦கேவா?⟧ கலர்` → `கேவா கலர்`; printed `வால்ட்` / `சேப்பு` restored
+- **PDF 41:** `⟦சொத்தைக்?⟧` → `கோத்தைக்`; source-visible `ராசா:` labels restored
+- **PDF 42:** `⟦புடி?⟧ புடாதே` → `உடி புடாதே.`; source-visible `ராசா:` / `ராஜ:` labels restored
+- **PDF 52:** `⟦டைகர் ஓல்டன்?⟧` → `டைகர் ஓல்டன்`; printed `பயிட்` forms retained
 
-- verified: PDF 31–33, 35–40
-- review: PDF 34
-- report: `notes/visual-fidelity-audit-batch-004.md`
-
-### Fidelity Batch 005 — PDF 41–50
-
-- verified: PDF 43–47, 49–50
-- review: PDF 41, 42, 48
-- report: `notes/visual-fidelity-audit-batch-005.md`
-
-### Fidelity Batch 006 — PDF 51–60
-
-- verified: PDF 51, 53–56, 58–60
-- review: PDF 52, 57
-- report: `notes/visual-fidelity-audit-batch-006.md`
-
-PDF 51's former uncertainty was resolved as `வச்சிருக்கானே!`.
-
-### Fidelity Batch 007 — PDF 61–70
-
-- verified: PDF 61–70 — 10/10
-- review: none
-- report: `notes/visual-fidelity-audit-batch-007.md`
-
-This batch verified the transition into `சாக்ரடீஸ் (நாடகம்)` and restored several source forms, including the repeated `சுக்கு நூறாகப்போய் விடுவீர்கள்!...` structure across PDF 69→70.
-
-### Fidelity Batch 008 — PDF 71–79
-
-- verified: **PDF 71–73, 75–79 — 8 pages**
-- review: **PDF 74 — 1 page**
-- report: `notes/visual-fidelity-audit-batch-008.md`
-
-Notable final-batch results:
-
-- PDF 71: source direct-address `கிரீட்டோ` restored;
-- PDF 72→73: continuation of the staged Socrates intervention verified;
-- PDF 73: the line `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?` is source-unlabelled and remains unlabelled; the exact return to parent-film `(மனப் போராட்டம்)` is verified after Babu's arrest;
-- PDF 74: former `⟦எது இன்னோரத்தில லெட்டர்?⟧` resolved as `எது இந்நேரத்தில லெட்டர்?`; page remains review because a later `K. N. சங்கரன்` ownership/address overprint physically obscures source text;
-- PDF 75: source square-bracket stage direction and `கண்ணாமூச்சி` retained;
-- PDF 76: `சதிராடும்`, `மரப் பொம்மை`, `அமுது கசியும்`, `உயிரோடிருந்து` restored;
-- PDF 77: former `⟦விதவை தாப்பா?⟧` resolved as `கதவை தாப்பாபோட்டுட்டு`; page is verified;
-- PDF 78: source `போயிடுவியோன்னு நெனைச்சேன்` and irregular `சமரசம்...ஏய்...ஏய்...` preserved;
-- PDF 79: final source structures and printer line verified without inventing absent lyrics.
+PDF 48 was also tightened: source-visible `ராசா:` variants and `எடுத்துகிட்டு` were restored, but two short spans remain unresolved.
 
 ## Current fidelity position
 
 - audited source-order range: **PDF 1–79**
 - audited source pages: **79/79**
-- verified source pages: **70**
-- review source pages: **9 — PDF 4, 27, 34, 41, 42, 48, 52, 57, 74**
+- verified source pages: **75**
+- review source pages: **4 — PDF 27, 48, 57, 74**
 - audited screenplay range: **PDF 10–79 / printed pp.9–78**
 - audited screenplay pages: **70/70**
-- verified screenplay pages: **62/70**
-- review screenplay pages: **8/70 — PDF 27, 34, 41, 42, 48, 52, 57, 74**
+- verified screenplay pages: **66/70**
+- review screenplay pages: **4/70 — PDF 27, 48, 57, 74**
 
-This means **full-range audit coverage is complete**, but the Tamil fidelity gate remains review-open.
+Full-range audit coverage is complete, but the Tamil fidelity gate remains review-open.
 
 ## Remaining fidelity review queue
 
-- PDF 4: `⟦சாக சந் தானா?⟧`
-- PDF 27: `⟦நீ?⟧`
-- PDF 34: `⟦கேவா?⟧ கலர்`
-- PDF 41: `⟦சொத்தைக்?⟧`
-- PDF 42: `⟦புடி?⟧`
-- PDF 48: `⟦வந்த...?⟧`, `⟦திடானு?⟧`
-- PDF 52: `⟦டைகர் ஓல்டன்?⟧`
-- PDF 57: `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
-- PDF 74: later physical overprint obscures part of the source; its former short-line uncertainty has itself been resolved as `எது இந்நேரத்தில லெட்டர்?`
+### PDF 27 / printed p.26
 
-PDF 74 must not be reconstructed from context or another edition if the hidden source wording cannot be recovered from the scan.
+The faint/washed internal-monologue word remains explicit as `⟦நீ?⟧`. It is not inferred from context.
 
-No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved readings.
+### PDF 48 / printed p.47
+
+Two short spans immediately before `சமரசம் வீடு` remain visually insecure after high-resolution review. The page remains review.
+
+### PDF 57 / printed p.56
+
+The line securely begins `என்னடா இது, முன்னுக்கு பின்...`, but the following compact colloquial word group remains insufficiently unambiguous for verified promotion.
+
+### PDF 74 / printed p.73
+
+A later ownership/address overprint beginning `K. N. சங்கரன்` physically obscures part of the original source. The overprint is non-canonical and hidden source text is not reconstructed from context or another edition. The separate former Samarasam-line uncertainty was already resolved as `எது இந்நேரத்தில லெட்டர்?`.
+
+This is classified as an **irreducible obstruction in the supplied scan** unless a cleaner source image is later available.
 
 ## Current gate
 
@@ -133,9 +98,11 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
 - rendered-scan audit coverage: **complete, PDF 1–79**
-- Tamil fidelity gate: **review-open**
+- Tamil fidelity gate: **review-open — 4 source pages**
 - structured scene/dialogue/character/translation derivatives: **blocked**
+
+No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved readings.
 
 ## Next activity
 
-Perform a **targeted high-resolution review of the remaining fidelity queue — PDF 4, 27, 34, 41, 42, 48, 52, 57 and 74**. Resolve only what the rendered source actually supports; classify irreducible scan damage/overprint explicitly; then decide the Tamil fidelity gate before beginning structured derivatives.
+Perform a **final gate-disposition review of PDF 27, 48, 57 and 74**. Narrow only what the supplied scan genuinely supports and document how irreducible source obstruction is represented without treating hidden text as verified. Only after that disposition may the structured scene-text phase begin.
