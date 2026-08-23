@@ -110,17 +110,17 @@ status:
   draft_page_files_present: true
   initial_draft_page_file_range: 1-44
   initial_draft_page_file_count: 44
-  current_page_file_range: 1-60
-  current_page_file_count: 60
+  current_page_file_range: 1-70
+  current_page_file_count: 70
   transcription: in-progress-source-reconciliation
   canonical_first_pass_complete: false
-  source_order_first_pass_reconciled_pdf_range: 1-60
+  source_order_first_pass_reconciled_pdf_range: 1-70
   front_matter_first_pass_reconciled_pdf_range: 1-9
-  screenplay_first_pass_reconciled_pdf_range: 10-60
-  screenplay_first_pass_reconciled_printed_range: 9-59
-  screenplay_first_pass_reconciled_pages: 51
+  screenplay_first_pass_reconciled_pdf_range: 10-70
+  screenplay_first_pass_reconciled_printed_range: 9-69
+  screenplay_first_pass_reconciled_pages: 61
   screenplay_total_pages: 70
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Continue canonical Tamil first-pass transcription from PDF 61 onward, in source order, with stable page anchors; preserve the approach into the embedded சாக்ரடீஸ் (நாடகம்) sequence beginning on PDF 66; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass transcription from PDF 71 onward, completing the embedded சாக்ரடீஸ் (நாடகம்) sequence through PDF 72 before returning to parent-film dialogue; continue through PDF 79, then perform a separate visual fidelity audit before any structured derivatives."
