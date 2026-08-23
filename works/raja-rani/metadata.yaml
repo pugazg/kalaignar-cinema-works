@@ -66,14 +66,17 @@ scan_condition:
   notes:
     - pdf_page: 1
       finding: cover wear plus a later pencil/handwritten numeric annotation below the printed Kalaignar name; annotation is not source text
+    - pdf_page: 27
+      printed_page: 26
+      finding: faint/washed source area in the internal-monologue block; one short first-pass reading remains explicitly uncertain as "⟦நீ?⟧"
     - pdf_page: 74
       printed_page: 73
       finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" obscures upper-right printed source text; affected reading must remain explicit if unresolved
     - pdf_page: 80
       finding: unnumbered back cover with staining, edge wear and physical damage; no back-matter text identified
 layers:
-  story_summary: mapped
-  songs: mapped-source-section
+  story_summary: draft-first-pass-reconciled
+  songs: draft-first-pass-reconciled-source-section
   scenes: blocked-until-verified-transcription
   dialogues: blocked-until-verified-transcription
   characters: blocked-until-dialogue-layer
@@ -84,14 +87,17 @@ status:
   whole_source_boundary_audit: complete
   scene_separator_policy: verified
   draft_page_files_present: true
-  draft_page_file_range: 1-44
-  draft_page_file_count: 44
+  initial_draft_page_file_range: 1-44
+  initial_draft_page_file_count: 44
   transcription: in-progress-source-reconciliation
   canonical_first_pass_complete: false
-  canonical_first_pass_reconciled_pdf_range: 10-14
-  canonical_first_pass_reconciled_printed_range: 9-13
-  canonical_first_pass_reconciled_pages: 5
+  source_order_first_pass_reconciled_pdf_range: 1-30
+  front_matter_first_pass_reconciled_pdf_range: 1-9
+  screenplay_first_pass_reconciled_pdf_range: 10-30
+  screenplay_first_pass_reconciled_printed_range: 9-29
+  screenplay_first_pass_reconciled_pages: 21
+  screenplay_total_pages: 70
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Continue canonical Tamil first-pass reconciliation from PDF 15 onward, in source order, with stable page anchors; after the whole first pass, perform a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass reconciliation from PDF 31 onward, in source order, with stable page anchors; after the whole first pass through PDF 79, perform a separate visual fidelity audit before any structured derivatives."
