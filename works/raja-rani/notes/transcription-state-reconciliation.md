@@ -2,51 +2,55 @@
 
 ## Purpose
 
-This checkpoint reconciles the live repository state with the completed source-intake / structural-mapping gate before any further canonical Tamil work.
+This checkpoint reconciles the live repository state with the completed source-intake / structural-mapping gate and tracks the source-order canonical Tamil first pass.
 
 ## Live repository finding
 
-At this checkpoint, `works/raja-rani/pages/` contains **44 files**, continuously named:
+At the start of reconciliation, `works/raja-rani/pages/` contained **44 files**, continuously named `001.md` through `044.md`.
 
-`001.md` through `044.md`.
+Recent repository history described many of these commits as canonical-transcription additions, but commit messages and file presence were not sufficient evidence that the source pages were complete or verified.
 
-Recent repository history describes many of these commits as canonical-transcription additions, but commit messages and file presence are not sufficient evidence that the source pages are complete or verified.
+## Why the pre-existing batch was not a completed canonical first pass
 
-## Why this is not a completed canonical first pass
+Direct inspection showed heterogeneous draft material.
 
-Direct inspection of the live page files shows that the batch is heterogeneous draft material.
+Examples included:
 
-Examples:
+- `pages/010.md` labelled itself draft and ended before the source page was fully reconciled;
+- `pages/012.md` contained only the opening portion and then the literal placeholder `[Continue transcription preserved from source scan. Full visual fidelity pass pending.]`;
+- `pages/013.md` and `pages/014.md` contained partial text followed by continuation placeholders;
+- later files use inconsistent metadata/status layouts and several are summary placeholders rather than full transcription.
 
-- `pages/010.md` labels itself `Status: draft`.
-- `pages/012.md` contains only the opening portion of the page and then the literal working placeholder:
-  `[Continue transcription preserved from source scan. Full visual fidelity pass pending.]`
-- later files use different metadata/status layouts; for example `pages/044.md` contains page text without a uniform archival status header.
-
-Therefore it would be unsafe to infer either:
-
-- that PDF 1–44 have complete canonical text; or
-- that the correct next transcription point is automatically PDF 45.
+Therefore it was unsafe to infer either that PDF 1–44 had complete canonical text or that the correct next transcription point was automatically PDF 45.
 
 ## Canonical disposition
 
-The existing 001–044 files are **retained**. They are useful working drafts and are not deleted merely because their state is inconsistent.
+The existing files are retained as working material. The rendered scan remains the controlling source.
 
-However:
+Every draft page must be reconciled against its rendered page in source order. Incomplete placeholders are replaced by full source-supported text during the canonical first pass. No page becomes `verified` merely because a draft exists. A separate full visual fidelity audit remains mandatory after the first pass and before scene/dialogue/character derivatives.
 
-1. the rendered scan remains the controlling source;
-2. every draft page must be reconciled against its rendered page in source order;
-3. incomplete placeholders must be replaced by full source-supported text during the canonical first pass;
-4. no page becomes `verified` merely because a draft exists;
-5. uncertainty must be recorded explicitly where the scan does not support a confident reading;
-6. PDF 74 / printed p.73 requires special care because a later `K. N. சங்கரன்` ownership/address overprint obscures printed text;
-7. a separate full visual fidelity audit remains mandatory after the first pass and before scene/dialogue/character derivatives.
+PDF 74 / printed p.73 still requires special care because a later `K. N. சங்கரன்` ownership/address overprint obscures printed text.
 
-## Status at this checkpoint
+## First-pass progress
+
+### Batch 001 — complete
+
+- PDF **10–14** / printed pp. **9–13**
+- 5 screenplay pages reconciled directly from rendered scan
+- stable page anchors applied
+- PDF 12 continuation placeholder removed and the full page supplied
+- PDF 13–14 embedded `சேரன் செங்குட்டுவன்` text restored in source order
+- all five pages remain **draft**, not verified
+
+Detailed checkpoint: `notes/canonical-first-pass-batch-001.md`.
+
+## Current status
 
 - source intake: **complete**
 - structural mapping: **complete**
-- draft page files: **44 (`001`–`044`)**
+- pre-existing draft page files: **44 (`001`–`044`)**
+- reconciled canonical first-pass screenplay range: **PDF 10–14 / printed 9–13**
+- reconciled screenplay pages: **5/70**
 - complete canonical Tamil first pass: **no**
 - verified Tamil pages claimed: **0**
 - visual fidelity audit: **not started**
@@ -54,4 +58,4 @@ However:
 
 ## Next activity
 
-**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
+Continue canonical Tamil first-pass reconciliation from **PDF 15 onward**, in source order, with stable page anchors. Preserve exact speaker labels, stage directions, verse structure, source-visible ornaments, and embedded drama text. After the entire first pass is complete, perform the separate visual fidelity audit before structured derivatives.
