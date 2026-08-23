@@ -108,18 +108,20 @@ Those old drafts have now been reconciled, and the first pass has moved beyond t
 
 Current continuous first-pass coverage:
 
-- source PDF **1–60**: reconciled as draft first-pass material;
+- source PDF **1–70**: reconciled as draft first-pass material;
 - front matter / story / song / credits: PDF **1–9**;
-- screenplay: PDF **10–60 / printed pp.9–59**;
-- screenplay progress: **51/70 pages**;
-- current page files: **`001.md`–`060.md`**;
+- screenplay: PDF **10–70 / printed pp.9–69**;
+- screenplay progress: **61/70 pages**;
+- current page files: **`001.md`–`070.md`**;
 - `சேரன் செங்குட்டுவன்`: complete in first-pass source order through PDF 19;
 - `அகல்யா நாடக ஒத்திகை`: preserved through its source-supported end on PDF 41;
-- the first pass is now five PDF pages away from the embedded `சாக்ரடீஸ் (நாடகம்)` sequence beginning on PDF 66;
+- `சாக்ரடீஸ் (நாடகம்)`: first-pass transcription has begun at PDF 66 and currently reaches PDF 70; the embedded play continues through PDF 72;
 - PDF 22→23 preserves the printed letter as a genuine cross-page written-text structure;
-- PDF 35→36, 37→38, 47→48, 48→49, 49→50, 52→53 and 58→59 preserve genuine cross-page continuities;
-- PDF 46 preserves a source-unlabelled utterance without inventing a speaker;
-- PDF 52, 53, 56, 58 and 59 retain source-visible rule–star–rule ornaments rather than normalizing them away.
+- cross-page continuity has been preserved at PDF 35→36, 37→38, 47→48, 48→49, 49→50, 52→53, 58→59, 62→63, 64→65, 65→66, 68→69 and 69→70;
+- PDF 66 preserves Rani's written letter as a separate source structure and the exact transition into `★ சாக்ரடீஸ் (நாடகம்) ★`;
+- PDF 67 preserves the star-flanked `நீதி மன்றம்` heading;
+- PDF 70 preserves the star-flanked `சிறை` heading;
+- source-visible ornaments remain distinct instead of being normalized.
 
 All reconciled pages remain **draft**. No page is promoted to `verified` during this first-pass activity.
 
@@ -129,8 +131,8 @@ All reconciled pages remain **draft**. No page is promoted to `verified` during 
 - Structural mapping: **complete**
 - Whole-source boundary audit: **complete**
 - Scene-separator policy: **verified**
-- Canonical Tamil first pass: **in progress — PDF 1–60 continuous**
-- Screenplay first pass: **PDF 10–60 / printed pp.9–59 — 51/70 pages**
+- Canonical Tamil first pass: **in progress — PDF 1–70 continuous**
+- Screenplay first pass: **PDF 10–70 / printed pp.9–69 — 61/70 pages**
 - Verified Tamil pages: **0 claimed**
 - Visual fidelity audit: **not started**
 - Dialogue / scene / character / translation derivatives: **blocked until verified Tamil**
@@ -147,6 +149,7 @@ All reconciled pages remain **draft**. No page is promoted to `verified` during 
 - `notes/canonical-first-pass-batch-003.md`
 - `notes/canonical-first-pass-batch-004.md`
 - `notes/canonical-first-pass-batch-005.md`
+- `notes/canonical-first-pass-batch-006.md`
 
 ## Source rules
 
@@ -159,4 +162,4 @@ All reconciled pages remain **draft**. No page is promoted to `verified` during 
 
 ## Next activity
 
-Continue **canonical Tamil first-pass transcription from PDF 61 onward**, in source order, creating stable page files as needed. Preserve the approach into the embedded `சாக்ரடீஸ் (நாடகம்)` section beginning on PDF 66. After the whole first pass reaches PDF 79, perform a **separate visual fidelity audit** before any structured derivatives.
+Continue **canonical Tamil first-pass transcription from PDF 71 onward**, in source order. Complete `சாக்ரடீஸ் (நாடகம்)` through PDF 72, preserve the exact return to parent-film dialogue, and then continue through PDF 79. After the whole first pass reaches PDF 79, perform a **separate visual fidelity audit** before any structured derivatives.
