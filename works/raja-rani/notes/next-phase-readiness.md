@@ -2,27 +2,27 @@
 
 ## Current phase
 
-Structural preparation before canonical Tamil transcription.
+Source intake and structural mapping are complete. The next phase is canonical Tamil first-pass transcription, beginning from the rendered scan in source order and reconciling the pre-existing draft page files.
 
 ## Completed
 
-- Source classified as full dialogue/screenplay publication with songs.
-- Front matter, story summary, songs, main dramatic text, embedded Cheran Senguttuvan section, and Socrates one-act play handling documented.
-- Dialogue workflow aligned with Parasakthi/Manohara model.
+- Source identity checked against the rendered scan.
+- 80-page source checksum and byte size verified.
+- Front cover, publication/title page, story summary, 11 numbered song/performance blocks, cast/credit roster, screenplay range and back cover mapped.
+- Screenplay pagination verified as PDF 10–79 / printed pp.9–78.
+- Embedded dramatic sections verified:
+  - `சேரன் செங்குட்டுவன்`: PDF 13–19;
+  - `அகல்யா நாடக ஒத்திகை`: PDF 40–first part of 41;
+  - `சாக்ரடீஸ் (நாடகம்)`: PDF 66–72.
+- Scene-separator policy verified from rendered star ornamentation.
+- Source condition issue at PDF 74 / printed p.73 documented: later `K. N. சங்கரன்` ownership/address overprint obscures part of the source text.
+- Existing `pages/001.md`–`044.md` batch reconciled as draft/incomplete working material rather than a completed canonical pass.
 
-## Ready after final source verification
+## No remaining structural blocker
 
-The work can proceed to canonical Tamil first-pass transcription only after the remaining page-level verification items are closed.
+The structural gate is closed. No further intake question needs to be answered before the canonical first pass starts.
 
-## Remaining verification items
-
-- PDF page to printed-page correspondence.
-- Exact boundary of story summary.
-- Exact boundary of song section.
-- Exact beginning of main dialogue.
-- Exact start/end pages of embedded Cheran Senguttuvan section.
-- Exact start/end pages and heading of Socrates one-act play.
-- Complete printed scene heading inventory.
+The existing page drafts must nevertheless be rechecked in source order because at least one file (`012.md`) contains an explicit continuation placeholder and the batch does not have a completed visual fidelity audit.
 
 ## Transcription constraints
 
@@ -30,4 +30,11 @@ The work can proceed to canonical Tamil first-pass transcription only after the 
 - OCR is navigation support only.
 - No silent Tamil normalization.
 - No invented dialogue speakers.
-- No conversion of summary text into scenes.
+- No conversion of story-summary text into scenes.
+- Preserve source-visible star ornaments exactly rather than normalizing them.
+- Keep PDF 74 obscured readings explicit if the scan does not support a confident reading.
+- Do not create scene/dialogue/character derivatives until verified Tamil exists.
+
+## Next activity
+
+**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
