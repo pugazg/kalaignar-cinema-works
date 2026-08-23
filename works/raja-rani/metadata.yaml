@@ -86,9 +86,12 @@ status:
   draft_page_files_present: true
   draft_page_file_range: 1-44
   draft_page_file_count: 44
-  transcription: draft-incomplete-requires-source-reconciliation
+  transcription: in-progress-source-reconciliation
   canonical_first_pass_complete: false
+  canonical_first_pass_reconciled_pdf_range: 10-14
+  canonical_first_pass_reconciled_printed_range: 9-13
+  canonical_first_pass_reconciled_pages: 5
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass reconciliation from PDF 15 onward, in source order, with stable page anchors; after the whole first pass, perform a separate visual fidelity audit before any structured derivatives."
