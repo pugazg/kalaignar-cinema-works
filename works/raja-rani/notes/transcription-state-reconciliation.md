@@ -12,17 +12,7 @@ Recent repository history described many of these commits as canonical-transcrip
 
 ## Why the pre-existing batch was not a completed canonical first pass
 
-Direct inspection showed heterogeneous draft material.
-
-Examples included:
-
-- `pages/010.md` labelled itself draft and ended before the source page was fully reconciled;
-- `pages/012.md` contained only the opening portion and then a literal continuation placeholder;
-- `pages/013.md` and `pages/014.md` contained partial text followed by continuation placeholders;
-- several later files were prose summaries rather than full page transcription;
-- metadata/status layouts varied across the batch.
-
-Therefore it was unsafe to infer either that PDF 1–44 had complete canonical text or that the correct next transcription point was automatically PDF 45.
+Direct inspection showed heterogeneous draft material: partial transcriptions, prose summaries and literal continuation placeholders. Therefore it was unsafe to infer either that PDF 1–44 had complete canonical text or that transcription should simply resume at PDF 45.
 
 ## Canonical disposition
 
@@ -36,12 +26,7 @@ PDF 74 / printed p.73 still requires special care because a later `K. N. சங�
 
 ### Source-order front matter / song reconciliation
 
-PDF **1–9** has been re-read as draft first-pass material:
-
-- PDF 1: cover;
-- PDF 2: title/publication details;
-- PDF 3: `கதைச் சுருக்கம்`;
-- PDF 4–9: numbered song/performance material and the cast/song-credit portion of PDF 9.
+PDF **1–9** has been re-read as draft first-pass material: cover, title/publication details, `கதைச் சுருக்கம்`, numbered song/performance material and the cast/song-credit portion of PDF 9.
 
 The front section remains draft and does not establish item-level lyric authorship beyond the printed film-wide roster.
 
@@ -59,9 +44,8 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-001.md`.
 - PDF **15–30** / printed pp. **14–29**
 - **16 screenplay pages** reconciled
 - PDF 15–19 completes the first-pass `சேரன் செங்குட்டுவன்` sequence
-- PDF 20 returns to film-level narrative
 - PDF 22→23 preserves the printed letter as a cross-page written-text structure
-- PDF 27 retains one explicit uncertain short reading as `⟦நீ?⟧`
+- PDF 27 retains `⟦நீ?⟧`
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-002.md`.
 
@@ -71,7 +55,6 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-002.md`.
 - **10 screenplay pages** reconciled
 - PDF 40 begins the embedded `அகல்யா நாடக ஒத்திகை`
 - PDF 35→36 and PDF 37→38 preserve genuine physical-page continuities
-- source-visible ornament forms remain distinct
 - PDF 34 retains `⟦கேவா?⟧ கலர்`
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-003.md`.
@@ -80,23 +63,34 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-003.md`.
 
 - PDF **41–50** / printed pp. **40–49**
 - **10 screenplay pages** reconciled
-- the final four pre-existing drafts (`041.md`–`044.md`) are now reconciled from the rendered scan
-- six new page files (`045.md`–`050.md`) extend the canonical first pass beyond the original draft range
-- PDF 41 preserves the mixed physical-page boundary where `அகல்யா நாடக ஒத்திகை` ends and parent-film dialogue resumes
-- PDF 42, PDF 43 and PDF 46 retain multiple rule–star–rule source ornaments instead of normalizing them
-- PDF 46 preserves a source-unlabelled utterance after the bureau search without inventing a speaker
-- PDF 47→48, PDF 48→49 and PDF 49→50 preserve genuine cross-page continuities
-- PDF 49 retains a standalone `★` before the Babu/Raja confrontation
-- explicit first-pass uncertainties remain on PDF 41 (`⟦சொத்தைக்?⟧`), PDF 42 (`⟦புடி?⟧`) and PDF 48 (`⟦வந்த...?⟧`, `⟦திடானு?⟧`)
+- old draft range fully reconciled through PDF 44; new files extend through PDF 50
+- PDF 41 preserves the mixed Ahalya-rehearsal / parent-film boundary
+- PDF 47→48, 48→49 and 49→50 preserve genuine cross-page continuities
+- explicit uncertainties remain on PDF 41 (`⟦சொத்தைக்?⟧`), PDF 42 (`⟦புடி?⟧`) and PDF 48 (`⟦வந்த...?⟧`, `⟦திடானு?⟧`)
 
 Detailed checkpoint: `notes/canonical-first-pass-batch-004.md`.
 
+### Batch 005 — complete through PDF 60
+
+- PDF **51–60** / printed pp. **50–59**
+- **10 new screenplay page files** created from the rendered scan
+- PDF 52→53 preserves Raja's cross-page explanation of the Babu fight
+- PDF 58→59 preserves Rani's cross-page account of her poverty, deception and danger
+- rule–star–rule source ornaments are preserved on PDF 52, 53, 56, 58 and 59
+- PDF 56 retains three separate rule–star–rule transitions rather than collapsing them
+- PDF 51 retains `⟦லச்சிருக்கானே?⟧`
+- PDF 52 retains `⟦டைகர் ஓல்டன்?⟧`
+- PDF 57 retains `⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧`
+- all pages remain draft first-pass transcription; no page is promoted to verified
+
+Detailed checkpoint: `notes/canonical-first-pass-batch-005.md`.
+
 ## Current continuous coverage
 
-- source-order draft first pass: **PDF 1–50**
-- screenplay draft first pass: **PDF 10–50 / printed pp.9–49**
-- reconciled screenplay pages: **41/70**
-- current page files: **001.md–050.md**
+- source-order draft first pass: **PDF 1–60**
+- screenplay draft first pass: **PDF 10–60 / printed pp.9–59**
+- reconciled screenplay pages: **51/70**
+- current page files: **001.md–060.md**
 - complete canonical Tamil first pass: **no**
 - verified Tamil pages claimed: **0**
 - visual fidelity audit: **not started**
@@ -104,8 +98,8 @@ Detailed checkpoint: `notes/canonical-first-pass-batch-004.md`.
 
 ## Next activity
 
-Continue canonical Tamil first-pass transcription from **PDF 51 onward**, in source order, creating new stable page files as needed.
+Continue canonical Tamil first-pass transcription from **PDF 61 onward**, in source order, creating new stable page files as needed. Preserve the approach into the embedded `சாக்ரடீஸ் (நாடகம்)` section beginning on PDF 66, including exact source-visible transition evidence and any cross-page dialogue/performance structure.
 
-Preserve exact source-supported speaker labels, stage directions, written text, performance structure, code-switching, source-unlabelled speech and source-visible ornaments. Keep uncertainty explicit rather than repairing from other editions, film audio, subtitles, websites, or memory.
+Keep uncertainty explicit rather than repairing from other editions, film audio, subtitles, websites or memory.
 
 After the entire first pass reaches PDF 79, perform the separate visual-fidelity audit before structured derivatives.
