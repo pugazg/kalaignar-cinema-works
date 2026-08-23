@@ -54,8 +54,9 @@ structure:
       printed_range: 39-40
     - id: socrates
       title_ta: சாக்ரடீஸ் (நாடகம்)
-      pdf_range: 66-72
-      printed_range: 65-71
+      pdf_range: 66-73-first-part
+      printed_range: 65-72-first-part
+      boundary_correction_basis: PDF 72 ends inside Samarasam's staged-performance intervention; PDF 73 continues through Babu's arrest before a source-visible rule-star-rule returns to parent-film action
 scene_structure:
   separator_policy: source-visible-star-ornamentation
   separator_typography_uniform: false
@@ -92,7 +93,13 @@ scan_condition:
       finding: Samarasam's final line remains explicit first-pass uncertainty "⟦முன்னுக்கு பின் முரணுவிட்டுப் போவது?⟧"
     - pdf_page: 74
       printed_page: 73
-      finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" obscures upper-right printed source text; affected reading must remain explicit if unresolved
+      finding: later ownership/address stamp or overprint beginning "K. N. சங்கரன்" overlaps upper-right printed source text; overprint is non-canonical and any genuinely hidden reading remains unresolved
+    - pdf_page: 74
+      printed_page: 73
+      finding: one short Samarasam line remains explicit first-pass uncertainty "⟦எது இன்னோரத்தில லெட்டர்?⟧"
+    - pdf_page: 77
+      printed_page: 76
+      finding: one short phrase in Samarasam's instruction remains explicit first-pass uncertainty "⟦விதவை தாப்பா?⟧"
     - pdf_page: 80
       finding: unnumbered back cover with staining, edge wear and physical damage; no back-matter text identified
 layers:
@@ -104,23 +111,23 @@ layers:
   translations: blocked-until-verified-tamil
 status:
   intake: complete
-  structural_mapping: complete
-  whole_source_boundary_audit: complete
+  structural_mapping: complete-with-socrates-boundary-correction
+  whole_source_boundary_audit: complete-with-socrates-boundary-correction
   scene_separator_policy: verified
   draft_page_files_present: true
   initial_draft_page_file_range: 1-44
   initial_draft_page_file_count: 44
-  current_page_file_range: 1-70
-  current_page_file_count: 70
-  transcription: in-progress-source-reconciliation
-  canonical_first_pass_complete: false
-  source_order_first_pass_reconciled_pdf_range: 1-70
+  current_page_file_range: 1-79
+  current_page_file_count: 79
+  transcription: first-pass-complete-draft
+  canonical_first_pass_complete: true
+  source_order_first_pass_reconciled_pdf_range: 1-79
   front_matter_first_pass_reconciled_pdf_range: 1-9
-  screenplay_first_pass_reconciled_pdf_range: 10-70
-  screenplay_first_pass_reconciled_printed_range: 9-69
-  screenplay_first_pass_reconciled_pages: 61
+  screenplay_first_pass_reconciled_pdf_range: 10-79
+  screenplay_first_pass_reconciled_printed_range: 9-78
+  screenplay_first_pass_reconciled_pages: 70
   screenplay_total_pages: 70
   verified_tamil_pages: 0
   fidelity_audit: not-started
   structured_derivatives: blocked
-next_action: "Continue canonical Tamil first-pass transcription from PDF 71 onward, completing the embedded சாக்ரடீஸ் (நாடகம்) sequence through PDF 72 before returning to parent-film dialogue; continue through PDF 79, then perform a separate visual fidelity audit before any structured derivatives."
+next_action: "Perform a separate full visual fidelity audit of PDF 1-79 against the rendered scan, in source order; resolve or retain explicit uncertainty without guessing, verify exact speaker labels/punctuation/stage directions/written text/ornaments/cross-page continuity, and keep structured derivatives blocked until the Tamil fidelity gate is complete."
