@@ -40,12 +40,23 @@ The recheck found the same type of surviving speaker-label normalization while a
 
 No other wording was changed in this correction. Both pages remain `verified`, and no review page was promoted.
 
+## Correction 004 — PDF 66 / printed p.65
+
+During preparation of scene-text Batch 008, the T047→T050 source span was reopened against a fresh high-resolution render before the scene derivatives were emitted.
+
+The first dialogue label at the top of PDF 66 is visibly printed **`ராசா:`** in the continuation of the Raja/Gnanakkan exchange from PDF 65. The canonical page had normalized that label to `ராஜா:`.
+
+The opening label has therefore been restored to **`ராசா:`**. The running-text forms `ராஜா` elsewhere on the same page—including the bracketed Babu plot summary and Rani's instruction to Current—remain unchanged because the scan prints those forms distinctly.
+
+PDF 66 remains `verified`; no review page was promoted and no other wording was changed.
+
 ## Downstream effect
 
 - `scene-034.md` was generated after Correction 001 and therefore already follows the corrected PDF 49–50 labels.
 - `scene-035.md` has been reconciled so its PDF 53 portion now carries the restored `ராசா:` labels.
 - `scene-036.md` was generated only after Correction 002 and begins with the restored T036 stage-direction form.
-- `scene-040.md` is generated only after Correction 003 and therefore preserves the exact alternating `ராஜா:` / `ராசா:` labels across PDF 58–59.
+- `scene-040.md` was generated only after Correction 003 and therefore preserves the exact alternating `ராஜா:` / `ராசா:` labels across PDF 58–59.
+- `scene-047.md` is generated only after Correction 004 and therefore carries the source-visible `ராசா:` continuation on PDF 66.
 
 No review page was promoted and the global fidelity counts remain unchanged:
 
