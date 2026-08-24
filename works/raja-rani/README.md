@@ -148,23 +148,27 @@ Completed batches:
 
 - Batch 001: `scenes/scene-001.md` through `scenes/scene-010.md`
 - Batch 002: `scenes/scene-014.md` through `scenes/scene-023.md`
+- Batch 003: `scenes/scene-024.md` through `scenes/scene-027.md`
+- Batch 004: carried-forward `scenes/scene-028.md` plus `scenes/scene-029.md` through `scenes/scene-032.md`
 
 Batch reports:
 
 - `notes/scene-text-batch-001.md`
 - `notes/scene-text-batch-002.md`
+- `notes/scene-text-batch-003.md`
+- `notes/scene-text-batch-004.md`
 
-Blocked `scene-011.md`–`scene-013.md` are intentionally absent because those archive segments intersect PDF 27.
+Blocked `scene-011.md`–`scene-013.md` and `scene-033.md` are intentionally absent because their archive segments intersect review-source pages.
 
 Current totals:
 
-- verified scene-text files completed: **20/50 eligible**
-- eligible scene-text files remaining: **30**
+- verified scene-text files completed: **29/50 eligible**
+- eligible scene-text files remaining: **21**
 - blocked scene segments: **8**
 
 Each completed derivative retains source page anchors and accepted scene boundaries and does not repair the canonical page layer.
 
-Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 was already verified after targeted high-resolution review. This reconciliation did not change canonical Tamil wording.
+Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. Before Batch 003 the same bookkeeping reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. These reconciliations did not change canonical Tamil wording.
 
 ## Current gate
 
@@ -176,7 +180,7 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 - source pages: **75 verified / 4 review**
 - screenplay pages: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 20/50 eligible complete**
+- scene-text derivatives: **in progress — 29/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil source units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -196,6 +200,8 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 - `notes/scene-segmentation-audit.md`
 - `notes/scene-text-batch-001.md`
 - `notes/scene-text-batch-002.md`
+- `notes/scene-text-batch-003.md`
+- `notes/scene-text-batch-004.md`
 
 ## Source rules
 
@@ -208,4 +214,4 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 
 ## Next activity
 
-Continue verified scene-text extraction with **`s024`–`s032`**, then stop before blocked `s033`. Use only verified canonical Tamil and preserve the accepted segmentation boundaries exactly.
+Process the next five-source-page scene-text iteration for **PDF 50–54 / printed pp.49–53**. Complete carried-forward `s034` from its verified PDF 49 opening through PDF 52, then complete `s035`. Carry `s036` forward because it begins on PDF 53 and continues through PDF 56.
