@@ -116,6 +116,8 @@ Scene-text Batch 006 similarly reopened PDF **53 / printed p.52** and restored s
 
 Scene-text Batch 007 reopened PDF **58–59 / printed pp.57–58** and confirmed that the source deliberately alternates `ராஜா:` and `ராசா:`. PDF 58's relevant sequence is `ராசா:` / `ராஜா:` / `ராசா:`; PDF 59's five pre-T041 labels are `ராஜா:` / `ராசா:` / `ராஜா:` / `ராசா:` / `ராஜா:`. The previously normalized `ராசா:` occurrences were restored before `scene-040.md` was generated. The distinct `[ராஜா பாடிக்கொண்டு வருகிறான்.]` stage direction remains unchanged.
 
+Scene-text Batch 008 reopened PDF **66 / printed p.65** and restored the source-visible opening continuation label `ராசா:` in the Raja/Gnanakkan exchange. Running-text `ராஜா` forms elsewhere on PDF 66 remain unchanged because the source prints them distinctly.
+
 No review page was promoted and the verified/review totals are unchanged. Full details are recorded in `notes/post-fidelity-corrections.md`.
 
 ## Tamil fidelity gate disposition
@@ -163,7 +165,8 @@ Completed batches:
 - Batch 004: carried-forward `scenes/scene-028.md` plus `scenes/scene-029.md` through `scenes/scene-032.md`
 - Batch 005: carried-forward `scenes/scene-034.md` plus `scenes/scene-035.md`
 - Batch 006: carried-forward `scenes/scene-036.md` plus `scenes/scene-037.md` and `scenes/scene-038.md`; `s039` remains blocked because it intersects PDF 57
-- Batch 007: resumed after blocked `s039`; completed carried-forward `scenes/scene-040.md` and `scenes/scene-041.md`, then `scenes/scene-042.md` through `scenes/scene-045.md`; `s046` is carried forward because it continues through PDF 65
+- Batch 007: resumed after blocked `s039`; completed carried-forward `scenes/scene-040.md` and `scenes/scene-041.md`, then `scenes/scene-042.md` through `scenes/scene-045.md`
+- Batch 008: completed carried-forward `scenes/scene-046.md`, then `scenes/scene-047.md` through `scenes/scene-050.md`; `s051` is carried forward because it continues through PDF 70
 
 Batch reports:
 
@@ -174,18 +177,19 @@ Batch reports:
 - `notes/scene-text-batch-005.md`
 - `notes/scene-text-batch-006.md`
 - `notes/scene-text-batch-007.md`
+- `notes/scene-text-batch-008.md`
 
-Blocked `scene-011.md`–`scene-013.md`, `scene-033.md` and `scene-039.md` are intentionally absent because their archive segments intersect review-source pages.
+Blocked `scene-011.md`–`scene-013.md`, `scene-033.md`, `scene-039.md` and `scene-053.md`–`scene-055.md` are intentionally absent because their archive segments intersect review-source pages.
 
 Current totals:
 
-- verified scene-text files completed: **40/50 eligible**
-- eligible scene-text files remaining: **10**
+- verified scene-text files completed: **45/50 eligible**
+- eligible scene-text files remaining: **5**
 - blocked scene segments: **8**
 
 Each completed derivative retains source page anchors and accepted scene boundaries and does not repair the canonical page layer.
 
-Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. Before Batch 003 the same bookkeeping reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. During Batch 005, PDF 49–50 were reconciled and source-visible `ராசா:` labels restored. Batch 006 restored the corresponding PDF 53 forms. Batch 007 restored the exact alternating `ராஜா:` / `ராசா:` labels on PDF 58–59 before derivative generation.
+Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. Before Batch 003 the same bookkeeping reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. During Batch 005, PDF 49–50 were reconciled and source-visible `ராசா:` labels restored. Batch 006 restored the corresponding PDF 53 forms. Batch 007 restored the exact alternating `ராஜா:` / `ராசா:` labels on PDF 58–59 before derivative generation. Batch 008 restored PDF 66's opening `ராசா:` label before `scene-047.md` was emitted.
 
 ## Current gate
 
@@ -197,7 +201,7 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 - source pages: **75 verified / 4 review**
 - screenplay pages: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 40/50 eligible complete**
+- scene-text derivatives: **in progress — 45/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil source units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -223,6 +227,7 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 - `notes/scene-text-batch-005.md`
 - `notes/scene-text-batch-006.md`
 - `notes/scene-text-batch-007.md`
+- `notes/scene-text-batch-008.md`
 
 ## Source rules
 
@@ -235,4 +240,4 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 
 ## Next activity
 
-Process the next five-source-page scene-text iteration for **PDF 65–69 / printed pp.64–68**. Complete carried-forward `s046` from its verified PDF 64 start through PDF 65, then complete eligible `s047`, `s048`, `s049` and `s050` through PDF 67. Carry `s051` forward because it begins on PDF 67 and continues through PDF 70.
+Process the next five-source-page scene-text iteration for **PDF 70–74 / printed pp.69–73**. Complete carried-forward `s051` through PDF 70, then complete eligible `s052` through PDF 73. Stop before/block `s053` because it intersects review-source PDF 74; do not skip across the blocked PDF-74 scene group within the same iteration.
