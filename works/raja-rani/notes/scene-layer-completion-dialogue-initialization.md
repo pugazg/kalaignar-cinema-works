@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This checkpoint closes the verified scene-text derivative phase and opens the immutable dialogue-index phase without changing canonical Tamil.
+This checkpoint closes the verified scene-text derivative phase, reconciles repository-level bookkeeping, and opens the immutable dialogue-index phase without changing canonical Tamil.
 
 ## Scene-layer completion
 
@@ -12,7 +12,7 @@ The source-supported scene segmentation remains:
 - verified scene-text eligible segments: **50**
 - blocked source-review segments: **8**
 
-Verified scene-text production is now complete:
+Verified scene-text production is complete:
 
 - completed verified scene files: **50/50 eligible**
 - remaining eligible scene files: **0**
@@ -27,13 +27,17 @@ Blocked scene IDs remain:
 
 No verified scene derivative exists for those eight segments. Their source-review status has not been weakened to complete the scene phase.
 
-## Global bookkeeping issue
+## Global bookkeeping reconciliation — complete
 
-Raja Rani had matured inside `works/raja-rani/` while remaining absent from the repository-level `data/works.json` registry and root README status sections.
+Raja Rani had matured inside `works/raja-rani/` while remaining absent from the repository-level `data/works.json` registry and root README status sections. That bookkeeping drift is now corrected.
 
-This checkpoint treats that absence as bookkeeping drift, not as evidence that the work was unstarted. The work-local source/fidelity/scene state remains authoritative for its current archival progress.
+Completed reconciliation:
 
-The repository-level registry and root README are to be reconciled to the established state:
+- `data/works.json` now contains a `raja-rani` registry entry;
+- root `README.md` now contains a `## ராஜா ராணி status` section;
+- the global entry and root status reflect the established work-local state rather than restarting or downgrading the work.
+
+Reconciled state:
 
 - source: `TVA_BOK_0017188_ராஜா_ராணி.pdf`
 - source SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`
