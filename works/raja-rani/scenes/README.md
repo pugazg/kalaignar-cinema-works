@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **31 / 50 eligible**  
+**Verified scene-text files:** **34 / 50 eligible**  
 **Blocked source-review segments:** **8**
 
 This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
@@ -53,13 +53,14 @@ Completed batches:
 - Batch 002: `scene-014.md` through `scene-023.md`
 - Batch 003: five-source-page window PDF **40–44**; completed `scene-024.md` through `scene-027.md`
 - Batch 004: five-source-page window PDF **45–49**; completed carried-forward `scene-028.md` and `scene-029.md` through `scene-032.md`; blocked `s033` remains absent because it intersects PDF 48
-- Batch 005: five-source-page window PDF **50–54**; completed carried-forward `scene-034.md` and `scene-035.md`; `s036` is carried forward because it continues through PDF 56
+- Batch 005: five-source-page window PDF **50–54**; completed carried-forward `scene-034.md` and `scene-035.md`; `s036` was carried forward because it continued through PDF 56
+- Batch 006: five-source-page window PDF **55–59**; completed carried-forward `scene-036.md` plus `scene-037.md` and `scene-038.md`; blocked `s039` remains absent because it intersects PDF 57
 
-Blocked `scene-011.md`–`scene-013.md` and `scene-033.md` are intentionally absent because their archive segments intersect review-source pages.
+Blocked `scene-011.md`–`scene-013.md`, `scene-033.md` and `scene-039.md` are intentionally absent because their archive segments intersect review-source pages.
 
-The five-source-page batching policy never emits a partial scene merely because the iteration boundary is reached. Batch 003 carried `s028` forward; Batch 004 completed it. Batch 004 stopped at blocked `s033`, and Batch 005 resumed with carried-forward `s034`. Batch 005 carries `s036` forward because the scene crosses its PDF 54 endpoint.
+The five-source-page batching policy never emits a partial scene merely because the iteration boundary is reached. Batch 003 carried `s028` forward; Batch 004 completed it. Batch 004 stopped at blocked `s033`, and Batch 005 resumed with carried-forward `s034`. Batch 005 carried `s036` forward; Batch 006 completed it and then stopped at blocked `s039` rather than skipping across that source-review segment to emit `s040` in the same iteration.
 
-During Batch 005, fresh rendered-scan reinspection corrected surviving PDF 49–50 dialogue-label normalization from `ராஜா:` to source-visible `ராசா:` while preserving PDF 50's distinct source stage-direction form `ராஜா`. See `../notes/post-fidelity-corrections.md`.
+During Batch 005, fresh rendered-scan reinspection corrected surviving PDF 49–50 dialogue-label normalization from `ராஜா:` to source-visible `ராசா:` while preserving PDF 50's distinct source stage-direction form `ராஜா`. During Batch 006, PDF 53 was similarly corrected to source-visible `ராசா:` dialogue labels and the T036 stage-direction form `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)`; `scene-035.md` was reconciled before `scene-036.md` was generated. See `../notes/post-fidelity-corrections.md`.
 
 Batch reports:
 
@@ -68,13 +69,14 @@ Batch reports:
 - `../notes/scene-text-batch-003.md`
 - `../notes/scene-text-batch-004.md`
 - `../notes/scene-text-batch-005.md`
+- `../notes/scene-text-batch-006.md`
 
 Current totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **31**
-- remaining eligible scene-text files: **19**
+- completed verified scene-text files: **34**
+- remaining eligible scene-text files: **16**
 - blocked scene-text segments: **8**
 
 ## Derivative rules
@@ -92,4 +94,4 @@ Each verified scene file:
 
 ## Next activity
 
-Process the next **five-source-page** window: **PDF 55–59 / printed pp.54–58**. Complete carried-forward `s036` through PDF 56, then complete eligible `s037` and `s038`. Stop before/block `s039` because it intersects review-source PDF 57; do not skip across that blocked segment to emit `s040` in the same iteration.
+Process the next **five-source-page** window: **PDF 60–64 / printed pp.59–63**. Resume after blocked `s039` by completing carried-forward `s040` from its verified PDF 58 start and `s041` from its verified PDF 59 start, then complete eligible `s042`, `s043`, `s044` and `s045` through PDF 64. Do not include any text from blocked `s039`.
