@@ -6,7 +6,7 @@ Source intake, structural mapping, canonical Tamil first pass and the full rende
 
 The Tamil fidelity gate is **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The source-supported scene segmentation/index phase is complete, and verified scene-text extraction is in progress using the user-requested **five source pages per iteration** batching rule.
+The source-supported scene segmentation/index phase is complete, and verified scene-text extraction is in progress using the established **five source pages per iteration** batching rule.
 
 Controlling files:
 
@@ -40,7 +40,8 @@ Controlling files:
 - Scene-text Batch 004 complete for source-page window **PDF 45–49**: carried-forward `scene-028.md` plus `scene-029.md`–`scene-032.md`.
 - Scene-text Batch 005 complete for source-page window **PDF 50–54**: carried-forward `scene-034.md` plus `scene-035.md`.
 - Scene-text Batch 006 complete for source-page window **PDF 55–59**: carried-forward `scene-036.md` plus `scene-037.md` and `scene-038.md`; blocked `s039` remains absent.
-- Verified scene-text files completed: **34/50 eligible**.
+- Scene-text Batch 007 complete for source-page window **PDF 60–64**: resumed after blocked `s039`, completed carried-forward `scene-040.md` and `scene-041.md`, then `scene-042.md`–`scene-045.md`.
+- Verified scene-text files completed: **40/50 eligible**.
 
 ## Canonical-status / source recheck history
 
@@ -50,9 +51,11 @@ Before Batch 003, PDF 43 and PDF 44 likewise still carried stale local `status=d
 
 Before Batch 004, PDF 45 and PDF 46 still carried the same stale local `status=draft` labels even though Fidelity Batch 005 had visually reviewed them. Their local metadata was reconciled to `verified`.
 
-During Batch 005, fresh rendered-scan reinspection of PDF 49–50 found that the dialogue label printed there is `ராசா:` rather than the normalized `ராஜா:` retained in the first-pass page files. The affected dialogue labels were corrected directly from the scan, while PDF 50's distinct source stage-direction form `ராஜா` was preserved. The page headers were reconciled to `verified`.
+During Batch 005, fresh rendered-scan reinspection of PDF 49–50 found source-visible `ராசா:` dialogue labels that had been normalized to `ராஜா:` in the first-pass page files. The affected labels were restored while PDF 50's distinct source stage-direction form `ராஜா` was preserved.
 
-During Batch 006, reinspection of PDF 53 found the same surviving normalization in that page's dialogue labels and the T036 stage direction. PDF 53 was restored to source-visible `ராசா:` labels and `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)`; the affected PDF-53 portion of previously completed `scene-035.md` was reconciled before `scene-036.md` was emitted. See `notes/post-fidelity-corrections.md`.
+During Batch 006, reinspection of PDF 53 found the same surviving normalization in that page's dialogue labels and the T036 stage direction. PDF 53 was restored to source-visible `ராசா:` labels and `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)`; the affected PDF-53 portion of `scene-035.md` was reconciled before `scene-036.md` was emitted.
+
+During Batch 007, the carried-forward T040 source span on PDF 58–59 was reopened against fresh high-resolution renders. The source deliberately alternates `ராஜா:` and `ராசா:`. PDF 58's relevant sequence is `ராசா:` / `ராஜா:` / `ராசா:`; PDF 59's five pre-T041 labels are `ராஜா:` / `ராசா:` / `ராஜா:` / `ராசா:` / `ராஜா:`. The previously normalized `ராசா:` occurrences were restored before `scene-040.md` was generated. The source-visible `[ராஜா பாடிக்கொண்டு வருகிறான்.]` stage direction remains unchanged. See `notes/post-fidelity-corrections.md`.
 
 No review page was promoted and the global fidelity totals remain unchanged.
 
@@ -82,20 +85,20 @@ Later layers must use **verified Tamil only**.
 
 - archival segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **34**
-- remaining eligible scene-text files: **16**
+- completed verified scene-text files: **40**
+- remaining eligible scene-text files: **10**
 - blocked scene segments: **8**
 
 Blocked IDs:
 
 `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013`, `raja-rani-s033`, `raja-rani-s039`, `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055`.
 
-`raja-rani-s039` begins on PDF 56 and intersects review-source PDF 57. Batch 006 therefore stopped before it and did not skip across it to emit `s040` in the same iteration.
+Batch 007 resumed only after blocked `s039`; it did not include any text from that scene. `raja-rani-s046` begins after T046 on PDF 64 and continues through PDF 65, so it is carried forward rather than emitted partially.
 
 ## Readiness
 
 - scene segmentation/index: **COMPLETE**
-- verified scene-text derivative generation: **IN PROGRESS — 34/50 eligible complete**
+- verified scene-text derivative generation: **IN PROGRESS — 40/50 eligible complete**
 - dialogue extraction: **not yet started; follow verified-source-unit gate**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
@@ -103,4 +106,4 @@ Blocked IDs:
 
 ## Next activity
 
-Process the next **five-source-page** window: **PDF 60–64 / printed pp.59–63**. Resume after blocked `s039` by completing carried-forward `s040` from its verified PDF 58 start and `s041` from its verified PDF 59 start, then complete eligible `s042`, `s043`, `s044` and `s045` through PDF 64. Do not include any text from blocked `s039`.
+Process the next **five-source-page** window: **PDF 65–69 / printed pp.64–68**. Complete carried-forward `raja-rani-s046` from its verified PDF 64 start through PDF 65, then complete eligible `s047`, `s048`, `s049` and `s050` through PDF 67. `s051` begins on PDF 67 and continues through PDF 70, so carry it forward rather than emitting a partial derivative at the PDF 69 boundary.
