@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **24 / 50 eligible**  
+**Verified scene-text files:** **29 / 50 eligible**  
 **Blocked source-review segments:** **8**
 
 This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
@@ -51,23 +51,25 @@ Completed batches:
 - Batch 001: `scene-001.md` through `scene-010.md`
 - Batch 002: `scene-014.md` through `scene-023.md`
 - Batch 003: five-source-page window PDF **40–44**; completed `scene-024.md` through `scene-027.md`
+- Batch 004: five-source-page window PDF **45–49**; completed carried-forward `scene-028.md` and `scene-029.md` through `scene-032.md`; blocked `s033` remains absent because it intersects PDF 48
 
 Blocked `scene-011.md`–`scene-013.md` are intentionally absent because those archive segments intersect PDF 27.
 
-Batch 003 begins the user-requested **five source pages per iteration** policy. A scene that crosses the end of a five-page window is carried forward rather than emitted as a partial derivative. Accordingly, `s028` begins within PDF 43–44 but remains pending because it continues through PDF 46.
+The five-source-page batching policy never emits a partial scene merely because the iteration boundary is reached. Batch 003 carried `s028` forward; Batch 004 completes it. Batch 004 stops at blocked `s033` rather than promoting review-source Tamil or skipping across the blocked scene within the same iteration.
 
 Batch reports:
 
 - `../notes/scene-text-batch-001.md`
 - `../notes/scene-text-batch-002.md`
 - `../notes/scene-text-batch-003.md`
+- `../notes/scene-text-batch-004.md`
 
 Current totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **24**
-- remaining eligible scene-text files: **26**
+- completed verified scene-text files: **29**
+- remaining eligible scene-text files: **21**
 - blocked scene-text segments: **8**
 
 ## Derivative rules
@@ -85,4 +87,4 @@ Each verified scene file:
 
 ## Next activity
 
-Process the next **five-source-page** window: **PDF 45–49 / printed pp.44–48**. Complete carried-forward `s028`, then verified `s029`–`s032`, and stop before/block `s033` because it intersects review-source PDF 48.
+Process the next **five-source-page** window: **PDF 50–54 / printed pp.49–53**. Complete carried-forward `s034` from its verified PDF 49 opening through its PDF 52 endpoint, then complete `s035`. Carry `s036` forward because it begins on PDF 53 and continues through PDF 56.
