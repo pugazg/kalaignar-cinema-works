@@ -1,8 +1,8 @@
 # ராஜா ராணி — scene derivatives
 
-**Stage:** structured derivatives  
+**Stage:** verified scene-text derivatives complete with review-source exclusions  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **47 / 50 eligible**  
+**Verified scene-text files:** **50 / 50 eligible**  
 **Blocked source-review segments:** **8**
 
 This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
@@ -33,8 +33,8 @@ Therefore:
 
 `index.json` records **58** source-supported archival scene segments.
 
-- **50** segments are eligible for verified scene-text extraction.
-- **8** segments are blocked because their span intersects a review-source page.
+- **50** segments are eligible for verified scene-text extraction and all **50/50 are now complete**.
+- **8** segments remain blocked because their span intersects a review-source page.
 
 Blocked scene IDs:
 
@@ -45,25 +45,26 @@ Blocked scene IDs:
 
 No verified scene-text file is created for a blocked scene until a stronger source resolves the affected page.
 
-## Scene-text extraction progress
+## Scene-text extraction history
 
 Completed batches:
 
 - Batch 001: `scene-001.md` through `scene-010.md`
 - Batch 002: `scene-014.md` through `scene-023.md`
-- Batch 003: five-source-page window PDF **40–44**; completed `scene-024.md` through `scene-027.md`
-- Batch 004: five-source-page window PDF **45–49**; completed carried-forward `scene-028.md` and `scene-029.md` through `scene-032.md`; blocked `s033` remains absent because it intersects PDF 48
-- Batch 005: five-source-page window PDF **50–54**; completed carried-forward `scene-034.md` and `scene-035.md`; `s036` was carried forward because it continued through PDF 56
-- Batch 006: five-source-page window PDF **55–59**; completed carried-forward `scene-036.md` plus `scene-037.md` and `scene-038.md`; blocked `s039` remains absent because it intersects PDF 57
-- Batch 007: five-source-page window PDF **60–64**; resumed after blocked `s039`, completed carried-forward `scene-040.md` and `scene-041.md`, then `scene-042.md` through `scene-045.md`; `s046` was carried forward because it continued through PDF 65
-- Batch 008: five-source-page window PDF **65–69**; completed carried-forward `scene-046.md`, then `scene-047.md` through `scene-050.md`; `s051` was carried forward because it continued through PDF 70
-- Batch 009: five-source-page window PDF **70–74**; completed carried-forward `scene-051.md` and `scene-052.md`; stopped before blocked `s053` because it intersects review-source PDF 74
+- Batch 003: PDF **40–44**; completed `scene-024.md` through `scene-027.md`
+- Batch 004: PDF **45–49**; completed carried-forward `scene-028.md` and `scene-029.md` through `scene-032.md`; blocked `s033` remained absent
+- Batch 005: PDF **50–54**; completed carried-forward `scene-034.md` and `scene-035.md`; `s036` carried forward
+- Batch 006: PDF **55–59**; completed carried-forward `scene-036.md`, `scene-037.md` and `scene-038.md`; blocked `s039` remained absent
+- Batch 007: PDF **60–64**; resumed after blocked `s039`, completed `scene-040.md` through `scene-045.md`; `s046` carried forward
+- Batch 008: PDF **65–69**; completed carried-forward `scene-046.md`, then `scene-047.md` through `scene-050.md`; `s051` carried forward
+- Batch 009: PDF **70–74**; completed carried-forward `scene-051.md` and `scene-052.md`; stopped before blocked `s053`
+- Batch 010: PDF **75–79**; resumed only at T056 after the blocked PDF-74 scene group and completed final eligible `scene-056.md`, `scene-057.md` and `scene-058.md`
 
 Blocked `scene-011.md`–`scene-013.md`, `scene-033.md`, `scene-039.md` and `scene-053.md`–`scene-055.md` are intentionally absent because their archive segments intersect review-source pages.
 
-The five-source-page batching policy never emits a partial scene merely because the iteration boundary is reached. Batch 003 carried `s028` forward; Batch 004 completed it. Batch 004 stopped at blocked `s033`, and Batch 005 resumed with carried-forward `s034`. Batch 005 carried `s036` forward; Batch 006 completed it and then stopped at blocked `s039`. Batch 007 resumed only after that blocked segment and carried `s046` forward. Batch 008 completed `s046` and carried `s051` forward. Batch 009 completed `s051` and `s052`, then stopped before the PDF-74 blocked scene group.
+The five-source-page batching policy never emits a partial scene merely because an iteration boundary is reached, and it never fills or imports review-source text to force continuity.
 
-Post-fidelity rendered-scan rechecks have restored source-visible Raja-label variation that earlier first-pass pages had normalized: PDF 49–50, PDF 53, PDF 58–59 and PDF 66. Batch 009 reopened PDF 70–74 against fresh high-resolution renders; no new canonical correction was required in verified PDF 70–73, and PDF 74 remains review because of the physical ownership/address overprint. See `../notes/post-fidelity-corrections.md` and `../notes/scene-text-batch-009.md`.
+Post-fidelity rendered-scan rechecks restored source-visible Raja-label variation on PDF 49–50, PDF 53, PDF 58–59 and PDF 66. Batch 009 found no further canonical correction in PDF 70–73, and Batch 010 found no new canonical correction in the verified T056–T058 span on PDF 77–79.
 
 Batch reports:
 
@@ -76,13 +77,14 @@ Batch reports:
 - `../notes/scene-text-batch-007.md`
 - `../notes/scene-text-batch-008.md`
 - `../notes/scene-text-batch-009.md`
+- `../notes/scene-text-batch-010.md`
 
-Current totals:
+Final scene-text totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **47**
-- remaining eligible scene-text files: **3**
+- completed verified scene-text files: **50**
+- remaining eligible scene-text files: **0**
 - blocked scene-text segments: **8**
 
 ## Derivative rules
@@ -100,4 +102,6 @@ Each verified scene file:
 
 ## Next activity
 
-Process the next **five-source-page** window: **PDF 75–79 / printed pp.74–78**. The opening portion still belongs to blocked `s055`, which intersects review-source PDF 74 and continues through PDF 77. Resume only after the blocked `s053`–`s055` group at T056 on PDF 77, then complete the remaining eligible `s056`, `s057` and `s058` through PDF 79. Do not import any text from the blocked scene group into verified derivatives.
+Run a compact **scene-layer completion / repository-bookkeeping checkpoint**. Reconcile the pre-existing Raja Rani registry gap in `data/works.json` and the repository root README, verify that all 50 eligible scene files and 8 blocked IDs agree across work metadata/indexes, and then open the **dialogue index** phase.
+
+Dialogue extraction must use only explicitly speaker-labelled utterances from verified Tamil units. Source-unlabelled speech must remain unassigned.
