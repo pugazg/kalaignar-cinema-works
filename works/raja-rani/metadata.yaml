@@ -27,9 +27,9 @@ status:
   scene_text_blocked_segments: 8
   scene_text_derivatives: in-progress-verified-only
   scene_text_batching_policy: five-source-pages-per-iteration
-  scene_text_files_completed: 40
-  scene_text_files_remaining_eligible: 10
-  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-007.md
+  scene_text_files_completed: 45
+  scene_text_files_remaining_eligible: 5
+  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-008.md
   dialogue_index: eligible-only-from-verified-tamil-not-started
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
@@ -98,4 +98,6 @@ post_fidelity_corrections:
     finding: dialogue labels normalized as "ராஜா:" were restored to source-visible "ராசா:"; T036 stage direction restored as "(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)"
   - pdf_pages: [58, 59]
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
-next_action: "Process the next five-source-page scene-text iteration for PDF 65-69 / printed pp.64-68. Complete carried-forward s046 from PDF 64 through PDF 65, then complete eligible s047-s050 through PDF 67. Carry s051 forward because it begins on PDF 67 and continues through PDF 70."
+  - pdf_pages: [66]
+    finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
+next_action: "Process the next five-source-page scene-text iteration for PDF 70-74 / printed pp.69-73. Complete carried-forward s051 through PDF 70, then complete eligible s052 through PDF 73. Stop before/block s053 because it intersects review-source PDF 74, and do not skip across the blocked PDF-74 scene group in the same iteration."
