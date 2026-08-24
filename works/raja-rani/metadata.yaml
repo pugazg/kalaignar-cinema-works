@@ -25,9 +25,9 @@ status:
   scene_text_eligible_segments: 50
   scene_text_blocked_segments: 8
   scene_text_derivatives: in-progress-verified-only
-  scene_text_files_completed: 10
-  scene_text_files_remaining_eligible: 40
-  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-001.md
+  scene_text_files_completed: 20
+  scene_text_files_remaining_eligible: 30
+  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-002.md
   dialogue_index: eligible-only-from-verified-tamil-not-started
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
@@ -55,13 +55,13 @@ resolved_during_fidelity_audit:
     finding: earlier "⟦சொத்தைக்?⟧" resolved as unusual printed "கோத்தைக்"; source-visible "ராசா:" variants restored; page verified
   - pdf_page: 42
     printed_page: 41
-    finding: earlier "⟦புடி?⟧ புடாதே" resolved as printed "உடி புடாதே."; source-visible "ராசா:" / "ராஜ:" variants restored; page verified
+    finding: earlier "⟦புடி?⟧ புடாதே" resolved as printed "உடி புடாதே."; source-visible "ராசா:" / "ராஜ:" labels restored; page verified
   - pdf_page: 51
     printed_page: 50
     finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
   - pdf_page: 52
     printed_page: 51
-    finding: earlier "⟦டைகர் ஓல்டன்?⟧" resolved as printed "டைகர் ஓல்டன்" while surrounding பயிட் forms remain unchanged; page verified
+    finding: earlier "⟦டைகர் ஓலன்?⟧" resolved as printed "டைகர் ஓலன்" while surrounding பயிட் forms remain unchanged; page verified
   - pdf_page: 61
     printed_page: 60
     finding: first-pass "சிட்டு கட்டு" corrected from rendered scan to "சீட்டு கட்டு"
@@ -89,4 +89,4 @@ resolved_during_fidelity_audit:
   - pdf_page: 79
     printed_page: 78
     finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
-next_action: "Continue verified scene-text extraction in source order, skipping blocked scenes s011-s013 and resuming at s014. Use only verified canonical Tamil and preserve accepted scene boundaries exactly."
+next_action: "Continue verified scene-text extraction with source-order scenes s024-s032, then stop before blocked s033. Use only verified canonical Tamil and preserve accepted scene boundaries exactly."
