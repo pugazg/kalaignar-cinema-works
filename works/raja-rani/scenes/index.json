@@ -12,13 +12,13 @@
   "reader_label_policy": "reader_label_ta values are archival navigation labels derived from source-visible transition evidence and are not claimed source headings unless explicitly identified in the audit",
   "tamil_fidelity_gate": "closed-with-source-limitations",
   "review_pdf_pages": [27, 48, 57, 74],
-  "scene_text_derivatives_status": "in-progress-verified-only",
+  "scene_text_derivatives_status": "complete-verified-only-with-review-exclusions",
   "scene_text_batching_policy": "five-source-pages-per-iteration; do not emit partial scene files when a scene crosses an iteration boundary",
   "scene_text_eligible_segments": 50,
   "scene_text_blocked_segments": 8,
-  "scene_text_files_completed": 47,
-  "scene_text_files_remaining_eligible": 3,
-  "scene_text_latest_batch": "works/raja-rani/notes/scene-text-batch-009.md",
+  "scene_text_files_completed": 50,
+  "scene_text_files_remaining_eligible": 0,
+  "scene_text_latest_batch": "works/raja-rani/notes/scene-text-batch-010.md",
   "blocked_scene_ids": [
     "raja-rani-s011",
     "raja-rani-s012",
@@ -85,8 +85,8 @@
     {"scene_id":"raja-rani-s053","ordinal":53,"transition_audit_id":"T053","start_pdf_page":73,"start_printed_page":72,"end_pdf_page":74,"end_printed_page":73,"end_before_transition_audit_id":"T054","reader_label_ta":"மனப் போராட்டம்","source_context":"parent-film","text_status":"blocked-source-review","blocked_by_pdf_pages":[74],"planned_file":null},
     {"scene_id":"raja-rani-s054","ordinal":54,"transition_audit_id":"T054","start_pdf_page":74,"start_printed_page":73,"end_pdf_page":74,"end_printed_page":73,"end_before_transition_audit_id":"T055","reader_label_ta":"சமரசம்–ராஜா / ராணியின் கடிதம்","source_context":"parent-film","text_status":"blocked-source-review","blocked_by_pdf_pages":[74],"planned_file":null},
     {"scene_id":"raja-rani-s055","ordinal":55,"transition_audit_id":"T055","start_pdf_page":74,"start_printed_page":73,"end_pdf_page":77,"end_printed_page":76,"end_before_transition_audit_id":"T056","reader_label_ta":"சமரசம் ராணி வீடு / ராஜா வருகை / ராணி இறந்ததாக நினைவு","source_context":"parent-film","text_status":"blocked-source-review","blocked_by_pdf_pages":[74],"planned_file":null},
-    {"scene_id":"raja-rani-s056","ordinal":56,"transition_audit_id":"T056","start_pdf_page":77,"start_printed_page":76,"end_pdf_page":77,"end_printed_page":76,"end_before_transition_audit_id":"T057","reader_label_ta":"(முன்) — சமரசம் தற்கொலையைத் தடுக்கிறது","source_context":"parent-film-flashback","text_status":"eligible-not-started","planned_file":"scene-056.md"},
-    {"scene_id":"raja-rani-s057","ordinal":57,"transition_audit_id":"T057","start_pdf_page":77,"start_printed_page":76,"end_pdf_page":79,"end_printed_page":78,"end_before_transition_audit_id":"T058","reader_label_ta":"நிகழ்காலம் — ராணி உயிருடன் / குடும்ப சமரசம்","source_context":"parent-film","text_status":"eligible-not-started","planned_file":"scene-057.md"},
-    {"scene_id":"raja-rani-s058","ordinal":58,"transition_audit_id":"T058","start_pdf_page":79,"start_printed_page":78,"end_pdf_page":79,"end_printed_page":78,"end_before_transition_audit_id":null,"reader_label_ta":"தோட்டம் — இறுதி ராஜா / ராணி","source_context":"parent-film","text_status":"eligible-not-started","planned_file":"scene-058.md"}
+    {"scene_id":"raja-rani-s056","ordinal":56,"transition_audit_id":"T056","start_pdf_page":77,"start_printed_page":76,"end_pdf_page":77,"end_printed_page":76,"end_before_transition_audit_id":"T057","reader_label_ta":"(முன்) — சமரசம் தற்கொலையைத் தடுக்கிறது","source_context":"parent-film-flashback","text_status":"complete-verified","planned_file":"scene-056.md"},
+    {"scene_id":"raja-rani-s057","ordinal":57,"transition_audit_id":"T057","start_pdf_page":77,"start_printed_page":76,"end_pdf_page":79,"end_printed_page":78,"end_before_transition_audit_id":"T058","reader_label_ta":"நிகழ்காலம் — ராணி உயிருடன் / குடும்ப சமரசம்","source_context":"parent-film","text_status":"complete-verified","planned_file":"scene-057.md"},
+    {"scene_id":"raja-rani-s058","ordinal":58,"transition_audit_id":"T058","start_pdf_page":79,"start_printed_page":78,"end_pdf_page":79,"end_printed_page":78,"end_before_transition_audit_id":null,"reader_label_ta":"தோட்டம் — இறுதி ராஜா / ராணி","source_context":"parent-film","text_status":"complete-verified","planned_file":"scene-058.md"}
   ]
 }
