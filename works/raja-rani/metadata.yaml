@@ -9,6 +9,7 @@ status:
   fidelity_audit: complete-with-source-limitations
   tamil_fidelity_gate: closed-with-source-limitations
   fidelity_gate_disposition_path: works/raja-rani/notes/tamil-fidelity-gate-disposition.md
+  post_fidelity_corrections_path: works/raja-rani/notes/post-fidelity-corrections.md
   fidelity_audit_through_pdf_page: 79
   fidelity_audited_source_pages: 79
   fidelity_verified_source_pages: 75
@@ -26,9 +27,9 @@ status:
   scene_text_blocked_segments: 8
   scene_text_derivatives: in-progress-verified-only
   scene_text_batching_policy: five-source-pages-per-iteration
-  scene_text_files_completed: 29
-  scene_text_files_remaining_eligible: 21
-  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-004.md
+  scene_text_files_completed: 31
+  scene_text_files_remaining_eligible: 19
+  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-005.md
   dialogue_index: eligible-only-from-verified-tamil-not-started
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
@@ -90,4 +91,7 @@ resolved_during_fidelity_audit:
   - pdf_page: 79
     printed_page: 78
     finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
-next_action: "Process the next five-source-page scene-text iteration for PDF 50-54 / printed pp.49-53. Complete carried-forward s034 from its verified PDF 49 opening through PDF 52, then complete s035; carry s036 forward because it begins on PDF 53 and continues through PDF 56."
+post_fidelity_corrections:
+  - pdf_pages: [49, 50]
+    finding: dialogue labels normalized as "ராஜா:" were restored from fresh rendered-scan reinspection to source-visible "ராசா:"; PDF 50's distinct stage-direction form "ராஜா" remains unchanged
+next_action: "Process the next five-source-page scene-text iteration for PDF 55-59 / printed pp.54-58. Complete carried-forward s036 through PDF 56, then complete s037 and s038; stop before/block s039 because it intersects review-source PDF 57, and do not skip across it to emit s040 in the same iteration."
