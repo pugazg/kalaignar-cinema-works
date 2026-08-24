@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **10 / 50 eligible**  
+**Verified scene-text files:** **20 / 50 eligible**  
 **Blocked source-review segments:** **8**
 
 This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
@@ -46,20 +46,24 @@ No verified scene-text file is created for a blocked scene until a stronger sour
 
 ## Scene-text extraction progress
 
-Batch 001 is complete:
+Completed batches:
 
-- `scene-001.md` through `scene-010.md`
+- Batch 001: `scene-001.md` through `scene-010.md`
+- Batch 002: `scene-014.md` through `scene-023.md`
 
-These ten files are copied only from verified Tamil and preserve source-page anchors and accepted transition boundaries.
+Blocked `scene-011.md`–`scene-013.md` are intentionally absent because those archive segments intersect PDF 27.
 
-Batch report: `../notes/scene-text-batch-001.md`.
+Batch reports:
+
+- `../notes/scene-text-batch-001.md`
+- `../notes/scene-text-batch-002.md`
 
 Current totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **10**
-- remaining eligible scene-text files: **40**
+- completed verified scene-text files: **20**
+- remaining eligible scene-text files: **30**
 - blocked scene-text segments: **8**
 
 ## Derivative rules
@@ -76,4 +80,4 @@ Each verified scene file:
 
 ## Next activity
 
-Continue source-order verified scene-text extraction by **skipping blocked `s011`–`s013` and resuming with `s014`**. Use meaningful batches rather than one scene at a time.
+Continue source-order verified scene-text extraction with **`s024`–`s032`**, then stop before blocked `s033`. Preserve the accepted segmentation boundaries exactly.
