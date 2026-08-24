@@ -37,6 +37,7 @@ Reports:
 - `notes/visual-fidelity-audit-batch-001.md` through `notes/visual-fidelity-audit-batch-008.md`
 - `notes/visual-fidelity-targeted-review-001.md`
 - `notes/tamil-fidelity-gate-disposition.md`
+- `notes/post-fidelity-corrections.md`
 
 Final fidelity position:
 
@@ -55,6 +56,14 @@ The four page limitations remain bounded rather than reconstructed:
 - PDF 74: later `K. N. சங்கரன்` ownership/address overprint physically obscures original source text and is classified as an irreducible supplied-scan obstruction.
 
 The Tamil fidelity gate is therefore **closed-with-source-limitations**. The four page files themselves remain `review`.
+
+## Post-fidelity correction
+
+During scene-text Batch 005, fresh high-resolution rendered-scan reinspection of PDF 49–50 found that the dialogue speaker label is printed as **`ராசா:`**, while those canonical page files had retained normalized `ராஜா:` labels.
+
+The affected dialogue labels on PDF 49 and PDF 50 were restored to `ராசா:`. PDF 50's separate stage-direction form `(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)` remains `ராஜா` because that is what the source prints.
+
+The local PDF 49–50 headers were also reconciled to `verified`. No review page was promoted and the 75/4 source-page and 66/4 screenplay-page fidelity counts remain unchanged. See `notes/post-fidelity-corrections.md`.
 
 ## Scene segmentation
 
@@ -90,23 +99,27 @@ Completed batch reports:
 - `notes/scene-text-batch-002.md`
 - `notes/scene-text-batch-003.md`
 - `notes/scene-text-batch-004.md`
+- `notes/scene-text-batch-005.md`
 
 Completed verified scene-text files:
 
 - `scenes/scene-001.md` through `scenes/scene-010.md`
 - `scenes/scene-014.md` through `scenes/scene-032.md`, excluding blocked `scene-011.md`–`scene-013.md`
+- `scenes/scene-034.md` and `scenes/scene-035.md`
 
 Blocked `scene-011.md`–`scene-013.md` and `scene-033.md` are intentionally absent because their archive segments intersect review-source pages.
 
 Current derivative counts:
 
-- verified scene-text files completed: **29/50 eligible**
-- eligible scene-text files remaining: **21**
+- verified scene-text files completed: **31/50 eligible**
+- eligible scene-text files remaining: **19**
 - blocked scene segments: **8**
 
 Every completed scene file is derived only from verified canonical Tamil, retains page anchors, and stops at the next accepted transition.
 
-Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and 35–40 were reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 had already been promoted after targeted high-resolution review. Before Batch 003 the same status reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. These changes were bookkeeping only; canonical Tamil wording was not altered.
+Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and 35–40 were reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 had already been promoted after targeted high-resolution review. Before Batch 003 the same status reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. Batch 005 reconciled PDF 49–50 and also corrected the source-visible `ராசா:` dialogue labels described above.
+
+`raja-rani-s036` starts on PDF 53 and continues through PDF 56. It was not emitted partially at the Batch 005 PDF 54 boundary and is carried into the next iteration.
 
 ## Current gate
 
@@ -118,7 +131,7 @@ Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and
 - page verification: **75 verified / 4 review**
 - screenplay verification: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 29/50 eligible complete**
+- scene-text derivatives: **in progress — 31/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -128,4 +141,4 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-Process the next five-source-page scene-text iteration for **PDF 50–54 / printed pp.49–53**. Complete carried-forward `s034` from its verified PDF 49 opening through PDF 52, then complete `s035`. Carry `s036` forward because it begins on PDF 53 and continues through PDF 56.
+Process the next five-source-page scene-text iteration for **PDF 55–59 / printed pp.54–58**. Complete carried-forward `s036` through PDF 56, then complete eligible `s037` and `s038`. Stop before/block `s039` because it intersects review-source PDF 57; do not skip across that blocked segment to emit `s040` in the same iteration.
