@@ -27,6 +27,35 @@ For every newly supplied Kalaignar cinema source, use these project-level docume
 
 The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful. A source that is not actually scene-structured, such as a film story/song booklet, should retain its natural source structure rather than being forced into screenplay scenes.
 
+## ராஜா ராணி status
+
+The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, and every scene-text derivative currently eligible from verified Tamil.
+
+- title leaf: **`ராஜா ராணி`**;
+- cover form: **`ராஜாராணி`**;
+- cover directly prints **`மு. கருணாநிதி`**, but no role label is printed beside that name;
+- scan: **80 PDF pages**;
+- source SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`;
+- canonical screenplay/dialogue: PDF **10–79 / printed pp.9–78 — 70 pages**;
+- source-numbered screenplay scenes: **none**;
+- rendered-scan audit: **79/79 canonical source pages inspected**;
+- verified/review source pages: **75 / 4**;
+- verified/review screenplay pages: **66 / 4**;
+- review pages: **PDF 27, 48, 57, 74**;
+- PDF 74 remains review because a later `K. N. சங்கரன்` ownership/address overprint physically obscures original source text; hidden wording is not reconstructed;
+- archival scene segmentation: **58 source-supported navigation segments**;
+- verified scene-text eligibility: **50 segments**;
+- verified scene-text derivatives: **50/50 eligible complete**;
+- blocked scene segments: **8** — `s011`, `s012`, `s013`, `s033`, `s039`, `s053`, `s054`, `s055`;
+- dialogue index: **initialized — verified-source-only**, currently **0 records / 0 of 50 eligible scenes processed**;
+- song/performance front matter: **11 numbered `பாட்டு` blocks**; the film-wide PDF-9 lyricist roster is not treated as item-level authorship evidence.
+
+The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. The scene-text phase deliberately remains complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
+
+Dialogue indexing is now open. Only explicitly speaker-labelled utterances from verified scene derivatives may become immutable dialogue records; source-unlabelled speech is not assigned an inferred speaker, and exact source-visible speaker-label variation such as `ராஜா` / `ராசா` remains unnormalized in this layer.
+
+**Next:** Dialogue Batch 001 — process verified `scene-001.md` through `scene-010.md` in source order, preserve exact speaker labels/delimiters and cross-page continuity, then stop before blocked `s011`–`s013`.
+
 ## மந்திரி குமாரி status
 
 The source `TVA_BOK_0026144_மந்திரி_குமாரி.pdf` has completed source intake and whole-scan structural mapping under `works/manthiri-kumari/`.
