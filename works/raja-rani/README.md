@@ -143,6 +143,32 @@ The final Batch 010 resumed only after the blocked PDF-74 scene group at T056 on
 
 No wording from blocked `s053`–`s055` was imported into the final verified derivatives.
 
+## Repository bookkeeping checkpoint
+
+The earlier repository-level gap is now reconciled:
+
+- `data/works.json` contains a Raja Rani work record aligned to this work-local state;
+- the repository root README contains a Raja Rani status section;
+- work-local scene totals remain **50/50 eligible complete / 8 blocked**;
+- `notes/scene-layer-completion-dialogue-initialization.md` records the phase boundary.
+
+## Dialogue index — initialized
+
+The immutable dialogue layer is now open under `dialogues/`:
+
+- `dialogues/README.md`
+- `dialogues/schema.json`
+- `dialogues/index.json`
+
+Current dialogue state:
+
+- eligible verified scenes: **50**
+- blocked scenes: **8**
+- dialogue records: **0**
+- completed dialogue scenes: **0/50**
+
+Only explicitly speaker-labelled utterances from verified scene derivatives may become dialogue records. Source-unlabelled speech is not assigned an inferred speaker. Exact label and delimiter forms remain immutable here; character normalization belongs to a later derivative layer.
+
 ## Current gate
 
 - source intake: **complete**
@@ -152,7 +178,7 @@ No wording from blocked `s053`–`s055` was imported into the final verified der
 - Tamil fidelity gate: **closed-with-source-limitations**
 - scene segmentation/index: **complete — 58 segments**
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
-- dialogue index: **not started; ready to open from verified Tamil units only**
+- dialogue index: **initialized — 0/50 eligible scenes processed**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; verified Tamil units only**
@@ -168,6 +194,6 @@ No wording from blocked `s053`–`s055` was imported into the final verified der
 
 ## Next activity
 
-Run the compact **scene-layer completion / repository-bookkeeping checkpoint**. Reconcile the pre-existing Raja Rani registry gap in `data/works.json` and the repository root README, verify final 50-complete / 8-blocked agreement across all work state files, and then begin the **dialogue index** phase.
+**Dialogue Batch 001:** process verified `scenes/scene-001.md` through `scenes/scene-010.md` in source order.
 
-Only explicitly speaker-labelled utterances from verified Tamil units may become dialogue records; source-unlabelled speech remains unassigned.
+Emit immutable dialogue records only for explicitly speaker-labelled utterances, preserve exact speaker labels and printed delimiters, keep cross-page utterances as single records with multi-page provenance, and stop before blocked `s011`–`s013`.
