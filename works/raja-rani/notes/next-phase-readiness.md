@@ -6,7 +6,7 @@ Source intake, structural mapping, canonical Tamil first pass and the full rende
 
 The Tamil fidelity gate is **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The scene segmentation/index phase is also complete, and verified scene-text extraction is now in progress.
+The source-supported scene segmentation/index phase is complete, and verified scene-text extraction is in progress.
 
 Controlling files:
 
@@ -26,7 +26,7 @@ Controlling files:
 - Review source pages: **4/79 — PDF 27, 48, 57, 74**.
 - Verified screenplay pages: **66/70**.
 - Review screenplay pages: **4/70**.
-- Embedded dramatic boundary correction retained:
+- Embedded dramatic boundaries retained:
   - `சேரன் செங்குட்டுவன்`: PDF 13–19;
   - `அகல்யா நாடக ஒத்திகை`: PDF 40–first part of 41;
   - `சாக்ரடீஸ் (நாடகம்)`: PDF 66–first part of 73.
@@ -34,6 +34,14 @@ Controlling files:
 - Verified scene-text eligibility: **50 segments**.
 - Source-review-blocked scene segments: **8**.
 - Scene-text Batch 001 complete: `scene-001.md`–`scene-010.md`.
+- Scene-text Batch 002 complete: `scene-014.md`–`scene-023.md`.
+- Verified scene-text files completed: **20/50 eligible**.
+
+## Canonical-status reconciliation
+
+Before Batch 002, PDF 31–33 and 35–40 still carried stale local `draft` / audit-pending labels even though rendered-scan Fidelity Batch 004 had already verified them. Their local status metadata has now been reconciled to `verified`; PDF 34 had already been verified through targeted high-resolution review.
+
+This was bookkeeping reconciliation only. No canonical Tamil wording was changed.
 
 ## Bounded source limitations
 
@@ -59,8 +67,8 @@ Later layers must use **verified Tamil only**.
 
 - archival segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **10**
-- remaining eligible scene-text files: **40**
+- completed verified scene-text files: **20**
+- remaining eligible scene-text files: **30**
 - blocked scene segments: **8**
 
 Blocked IDs:
@@ -70,7 +78,7 @@ Blocked IDs:
 ## Readiness
 
 - scene segmentation/index: **COMPLETE**
-- verified scene-text derivative generation: **IN PROGRESS**
+- verified scene-text derivative generation: **IN PROGRESS — 20/50 eligible complete**
 - dialogue extraction: **not yet started; follow verified-source-unit gate**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
@@ -78,4 +86,4 @@ Blocked IDs:
 
 ## Next activity
 
-Continue verified scene-text extraction in source order. **Skip blocked `s011`–`s013` and resume with `s014`**, using a meaningful batch and preserving the accepted segmentation boundaries exactly.
+Continue verified scene-text extraction with **`raja-rani-s024` through `raja-rani-s032`**, then stop before blocked `raja-rani-s033`. Preserve the accepted source-supported boundaries exactly.
