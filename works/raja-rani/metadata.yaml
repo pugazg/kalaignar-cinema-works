@@ -18,7 +18,7 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: scene-text-complete-with-review-exclusions
+  structured_derivatives: dialogue-index-initialized-after-scene-text-completion
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -30,7 +30,15 @@ status:
   scene_text_files_completed: 50
   scene_text_files_remaining_eligible: 0
   scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-010.md
-  dialogue_index: eligible-only-from-verified-tamil-not-started
+  scene_layer_completion_checkpoint: works/raja-rani/notes/scene-layer-completion-dialogue-initialization.md
+  dialogue_index: initialized-verified-source-only
+  dialogue_index_path: works/raja-rani/dialogues/index.json
+  dialogue_schema_path: works/raja-rani/dialogues/schema.json
+  dialogue_eligible_scenes: 50
+  dialogue_blocked_scenes: 8
+  dialogue_records: 0
+  dialogue_scenes_completed: 0
+  dialogue_next_scene_batch: "001-010"
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
   notes:
@@ -100,4 +108,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Run a compact scene-layer completion / repository-bookkeeping checkpoint, reconcile the missing Raja Rani entry in data/works.json and root README, then begin the dialogue index from explicitly speaker-labelled utterances in verified Tamil units only."
+next_action: "Dialogue Batch 001: process verified scene-001.md through scene-010.md in source order, emitting immutable records only for explicitly speaker-labelled utterances; preserve exact labels/delimiters and cross-page continuity; stop before blocked s011-s013."
