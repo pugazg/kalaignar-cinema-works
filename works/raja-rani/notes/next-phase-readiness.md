@@ -6,7 +6,7 @@ Source intake, structural mapping, canonical Tamil first pass and the full rende
 
 The Tamil fidelity gate is **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The source-supported scene segmentation/index phase is complete, and verified scene-text extraction is in progress.
+The source-supported scene segmentation/index phase is complete, and verified scene-text extraction is in progress using the user-requested **five source pages per iteration** batching rule.
 
 Controlling files:
 
@@ -35,13 +35,16 @@ Controlling files:
 - Source-review-blocked scene segments: **8**.
 - Scene-text Batch 001 complete: `scene-001.md`–`scene-010.md`.
 - Scene-text Batch 002 complete: `scene-014.md`–`scene-023.md`.
-- Verified scene-text files completed: **20/50 eligible**.
+- Scene-text Batch 003 complete for source-page window **PDF 40–44**: `scene-024.md`–`scene-027.md`.
+- Verified scene-text files completed: **24/50 eligible**.
 
 ## Canonical-status reconciliation
 
-Before Batch 002, PDF 31–33 and 35–40 still carried stale local `draft` / audit-pending labels even though rendered-scan Fidelity Batch 004 had already verified them. Their local status metadata has now been reconciled to `verified`; PDF 34 had already been verified through targeted high-resolution review.
+Before Batch 002, PDF 31–33 and 35–40 still carried stale local `draft` / audit-pending labels even though rendered-scan Fidelity Batch 004 had already verified them. Their local status metadata was reconciled to `verified`; PDF 34 had already been verified through targeted high-resolution review.
 
-This was bookkeeping reconciliation only. No canonical Tamil wording was changed.
+Before Batch 003, PDF 43 and PDF 44 likewise still carried stale local `status=draft` labels even though Fidelity Batch 005 had already completed their rendered-scan review. Their local metadata is now reconciled to `verified`.
+
+These were bookkeeping reconciliations only. No canonical Tamil wording was changed.
 
 ## Bounded source limitations
 
@@ -62,23 +65,26 @@ Later layers must use **verified Tamil only**.
 - Dialogue records may be created only from explicitly speaker-labelled verified source utterances.
 - English translation may begin only for corresponding verified Tamil units.
 - No uncertain or physically obscured text may be filled from context, film audio, subtitles, websites, OCR or another edition.
+- A five-page iteration never creates a partial scene file; a scene crossing the window boundary is carried into the next iteration.
 
 ## Current scene-text progress
 
 - archival segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **20**
-- remaining eligible scene-text files: **30**
+- completed verified scene-text files: **24**
+- remaining eligible scene-text files: **26**
 - blocked scene segments: **8**
 
 Blocked IDs:
 
 `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013`, `raja-rani-s033`, `raja-rani-s039`, `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055`.
 
+`raja-rani-s028` has started source material inside the completed PDF 40–44 window but is deliberately not emitted partially because its accepted span continues through PDF 46.
+
 ## Readiness
 
 - scene segmentation/index: **COMPLETE**
-- verified scene-text derivative generation: **IN PROGRESS — 20/50 eligible complete**
+- verified scene-text derivative generation: **IN PROGRESS — 24/50 eligible complete**
 - dialogue extraction: **not yet started; follow verified-source-unit gate**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
@@ -86,4 +92,4 @@ Blocked IDs:
 
 ## Next activity
 
-Continue verified scene-text extraction with **`raja-rani-s024` through `raja-rani-s032`**, then stop before blocked `raja-rani-s033`. Preserve the accepted source-supported boundaries exactly.
+Process the next **five-source-page** window: **PDF 45–49 / printed pp.44–48**. Complete carried-forward `raja-rani-s028`, then verified `s029`–`s032`, and stop before/block `s033` because it intersects review-source PDF 48.
