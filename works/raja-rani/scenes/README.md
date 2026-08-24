@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **20 / 50 eligible**  
+**Verified scene-text files:** **24 / 50 eligible**  
 **Blocked source-review segments:** **8**
 
 This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
@@ -50,20 +50,24 @@ Completed batches:
 
 - Batch 001: `scene-001.md` through `scene-010.md`
 - Batch 002: `scene-014.md` through `scene-023.md`
+- Batch 003: five-source-page window PDF **40–44**; completed `scene-024.md` through `scene-027.md`
 
 Blocked `scene-011.md`–`scene-013.md` are intentionally absent because those archive segments intersect PDF 27.
+
+Batch 003 begins the user-requested **five source pages per iteration** policy. A scene that crosses the end of a five-page window is carried forward rather than emitted as a partial derivative. Accordingly, `s028` begins within PDF 43–44 but remains pending because it continues through PDF 46.
 
 Batch reports:
 
 - `../notes/scene-text-batch-001.md`
 - `../notes/scene-text-batch-002.md`
+- `../notes/scene-text-batch-003.md`
 
 Current totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **20**
-- remaining eligible scene-text files: **30**
+- completed verified scene-text files: **24**
+- remaining eligible scene-text files: **26**
 - blocked scene-text segments: **8**
 
 ## Derivative rules
@@ -76,8 +80,9 @@ Each verified scene file:
 4. stops immediately before the next accepted transition in the segmentation audit;
 5. does not invent a speaker for source-unlabelled speech;
 6. does not repair or normalize the canonical page layer;
-7. is not produced when any part of the scene intersects PDF 27, 48, 57 or 74.
+7. is not produced when any part of the scene intersects PDF 27, 48, 57 or 74;
+8. is never emitted partially merely because a five-page iteration ends inside the scene.
 
 ## Next activity
 
-Continue source-order verified scene-text extraction with **`s024`–`s032`**, then stop before blocked `s033`. Preserve the accepted segmentation boundaries exactly.
+Process the next **five-source-page** window: **PDF 45–49 / printed pp.44–48**. Complete carried-forward `s028`, then verified `s029`–`s032`, and stop before/block `s033` because it intersects review-source PDF 48.
