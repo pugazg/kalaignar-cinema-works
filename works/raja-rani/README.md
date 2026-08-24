@@ -108,11 +108,13 @@ Reports:
 
 PDF 74 is an **irreducible physical obstruction in the supplied scan** unless a cleaner source image is later supplied. The other three are bounded unresolved glyph readings. None is promoted merely to create an artificial 79/79 verification count.
 
-## Post-fidelity source correction
+## Post-fidelity source corrections
 
-Scene-text Batch 005 reopened PDF **49–50** against fresh high-resolution renders before derivative extraction. The scan showed that the dialogue label printed on those pages is **`ராசா:`**, while the canonical page files had retained normalized `ராஜா:` labels. The affected dialogue labels have been corrected from the scan.
+Scene-text Batch 005 reopened PDF **49–50** against fresh high-resolution renders before derivative extraction. The scan showed that the dialogue label printed on those pages is **`ராசா:`**, while the canonical page files had retained normalized `ராஜா:` labels. The affected dialogue labels were corrected from the scan. PDF 50 separately prints the stage-direction name as `(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)`; that distinct source form is preserved.
 
-PDF 50 separately prints the stage-direction name as `(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)`; that distinct source form is preserved. No review page was promoted and the verified/review totals are unchanged. Full details are recorded in `notes/post-fidelity-corrections.md`.
+Scene-text Batch 006 similarly reopened the T036 boundary on PDF **53 / printed p.52**. The scan prints **`ராசா:`** for Raja's dialogue labels on that page and the stage-direction form **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...`**. The canonical page and the already-created PDF-53 portion of `scene-035.md` were reconciled before `scene-036.md` was generated.
+
+No review page was promoted and the verified/review totals are unchanged. Full details are recorded in `notes/post-fidelity-corrections.md`.
 
 ## Tamil fidelity gate disposition
 
@@ -157,7 +159,8 @@ Completed batches:
 - Batch 002: `scenes/scene-014.md` through `scenes/scene-023.md`
 - Batch 003: `scenes/scene-024.md` through `scenes/scene-027.md`
 - Batch 004: carried-forward `scenes/scene-028.md` plus `scenes/scene-029.md` through `scenes/scene-032.md`
-- Batch 005: carried-forward `scenes/scene-034.md` plus `scenes/scene-035.md`; `s036` remains carried forward because it continues through PDF 56
+- Batch 005: carried-forward `scenes/scene-034.md` plus `scenes/scene-035.md`
+- Batch 006: carried-forward `scenes/scene-036.md` plus `scenes/scene-037.md` and `scenes/scene-038.md`; `s039` remains blocked because it intersects PDF 57
 
 Batch reports:
 
@@ -166,18 +169,19 @@ Batch reports:
 - `notes/scene-text-batch-003.md`
 - `notes/scene-text-batch-004.md`
 - `notes/scene-text-batch-005.md`
+- `notes/scene-text-batch-006.md`
 
-Blocked `scene-011.md`–`scene-013.md` and `scene-033.md` are intentionally absent because their archive segments intersect review-source pages.
+Blocked `scene-011.md`–`scene-013.md`, `scene-033.md` and `scene-039.md` are intentionally absent because their archive segments intersect review-source pages.
 
 Current totals:
 
-- verified scene-text files completed: **31/50 eligible**
-- eligible scene-text files remaining: **19**
+- verified scene-text files completed: **34/50 eligible**
+- eligible scene-text files remaining: **16**
 - blocked scene segments: **8**
 
 Each completed derivative retains source page anchors and accepted scene boundaries and does not repair the canonical page layer.
 
-Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. Before Batch 003 the same bookkeeping reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. During Batch 005, PDF 49–50 were reconciled and the source-visible `ராசா:` dialogue-label correction described above was made from fresh renders.
+Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. Before Batch 003 the same bookkeeping reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. During Batch 005, PDF 49–50 were reconciled and the source-visible `ராசா:` dialogue-label correction described above was made from fresh renders. During Batch 006, the equivalent PDF 53 source-label/stage-direction correction was made and propagated to the affected derivative.
 
 ## Current gate
 
@@ -189,7 +193,7 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 - source pages: **75 verified / 4 review**
 - screenplay pages: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 31/50 eligible complete**
+- scene-text derivatives: **in progress — 34/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil source units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -213,6 +217,7 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 - `notes/scene-text-batch-003.md`
 - `notes/scene-text-batch-004.md`
 - `notes/scene-text-batch-005.md`
+- `notes/scene-text-batch-006.md`
 
 ## Source rules
 
@@ -225,4 +230,4 @@ Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was
 
 ## Next activity
 
-Process the next five-source-page scene-text iteration for **PDF 55–59 / printed pp.54–58**. Complete carried-forward `s036` through PDF 56, then complete eligible `s037` and `s038`. Stop before/block `s039` because it intersects review-source PDF 57; do not skip across that blocked segment to emit `s040` in the same iteration.
+Process the next five-source-page scene-text iteration for **PDF 60–64 / printed pp.59–63**. Resume after blocked `s039` by completing carried-forward `s040` from its verified PDF 58 start and `s041` from its verified PDF 59 start, then complete eligible `s042`, `s043`, `s044` and `s045` through PDF 64. Do not include any text from blocked `s039`.
