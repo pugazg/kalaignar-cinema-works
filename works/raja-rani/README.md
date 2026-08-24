@@ -122,7 +122,7 @@ Controlling policy: `notes/tamil-fidelity-gate-disposition.md`.
 
 ## Scene segmentation / index
 
-Source-supported segmentation is now **complete**.
+Source-supported segmentation is **complete**.
 
 - segmentation audit: `notes/scene-segmentation-audit.md`
 - scene index: `scenes/index.json`
@@ -142,21 +142,29 @@ Blocked segments are:
 
 ## Scene-text derivatives
 
-Scene-text extraction has begun from verified Tamil only.
+Scene-text extraction is in progress from verified Tamil only.
 
-Batch 001 is complete:
+Completed batches:
 
-- `scenes/scene-001.md` through `scenes/scene-010.md`
-- batch report: `notes/scene-text-batch-001.md`
-- scene-layer guide/status: `scenes/README.md`
+- Batch 001: `scenes/scene-001.md` through `scenes/scene-010.md`
+- Batch 002: `scenes/scene-014.md` through `scenes/scene-023.md`
+
+Batch reports:
+
+- `notes/scene-text-batch-001.md`
+- `notes/scene-text-batch-002.md`
+
+Blocked `scene-011.md`–`scene-013.md` are intentionally absent because those archive segments intersect PDF 27.
 
 Current totals:
 
-- verified scene-text files completed: **10/50 eligible**
-- eligible scene-text files remaining: **40**
+- verified scene-text files completed: **20/50 eligible**
+- eligible scene-text files remaining: **30**
 - blocked scene segments: **8**
 
 Each completed derivative retains source page anchors and accepted scene boundaries and does not repair the canonical page layer.
+
+Before Batch 002, stale local `draft` bookkeeping on PDF 31–33 and 35–40 was reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 was already verified after targeted high-resolution review. This reconciliation did not change canonical Tamil wording.
 
 ## Current gate
 
@@ -168,7 +176,7 @@ Each completed derivative retains source page anchors and accepted scene boundar
 - source pages: **75 verified / 4 review**
 - screenplay pages: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 10/50 eligible complete**
+- scene-text derivatives: **in progress — 20/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil source units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -187,6 +195,7 @@ Each completed derivative retains source page anchors and accepted scene boundar
 - `notes/tamil-fidelity-gate-disposition.md`
 - `notes/scene-segmentation-audit.md`
 - `notes/scene-text-batch-001.md`
+- `notes/scene-text-batch-002.md`
 
 ## Source rules
 
@@ -199,4 +208,4 @@ Each completed derivative retains source page anchors and accepted scene boundar
 
 ## Next activity
 
-Continue verified scene-text extraction in source order. **Skip blocked `s011`–`s013` and resume at `s014`**, using a meaningful batch and preserving the accepted segmentation boundaries exactly.
+Continue verified scene-text extraction with **`s024`–`s032`**, then stop before blocked `s033`. Use only verified canonical Tamil and preserve the accepted segmentation boundaries exactly.
