@@ -32,13 +32,6 @@ PDF 72 ends during Samarasam's intervention in the staged performance. PDF 73 co
 
 The rendered-scan audit covers all canonical source pages PDF 1–79.
 
-Reports:
-
-- `notes/visual-fidelity-audit-batch-001.md` through `notes/visual-fidelity-audit-batch-008.md`
-- `notes/visual-fidelity-targeted-review-001.md`
-- `notes/tamil-fidelity-gate-disposition.md`
-- `notes/post-fidelity-corrections.md`
-
 Final fidelity position:
 
 - audited source pages: **79/79**
@@ -48,28 +41,25 @@ Final fidelity position:
 - verified screenplay pages: **66/70**
 - review screenplay pages: **4/70 — PDF 27, 48, 57, 74**
 
-The four page limitations remain bounded rather than reconstructed:
+The four limitations remain bounded rather than reconstructed:
 
 - PDF 27: faint/washed internal-monologue word remains `⟦நீ?⟧`;
 - PDF 48: two short spans before `சமரசம் வீடு` remain visually insecure;
-- PDF 57: the line securely begins `என்னடா இது, முன்னுக்கு பின்...`, but the following compact colloquial group remains unresolved;
-- PDF 74: later `K. N. சங்கரன்` ownership/address overprint physically obscures original source text and is classified as an irreducible supplied-scan obstruction.
+- PDF 57: one compact colloquial group remains unresolved after `என்னடா இது, முன்னுக்கு பின்...`;
+- PDF 74: later `K. N. சங்கரன்` ownership/address overprint physically obscures original text.
 
-The Tamil fidelity gate is therefore **closed-with-source-limitations**. The four page files themselves remain `review`.
+The Tamil fidelity gate is **closed-with-source-limitations**. These four page files remain `review`.
 
-## Post-fidelity corrections
+## Post-fidelity correction history
 
-During scene-text Batch 005, fresh high-resolution rendered-scan reinspection of PDF 49–50 found source-visible **`ராசா:`** dialogue labels where those canonical page files had retained normalized `ராஜா:` labels. The affected labels were restored; PDF 50's separate stage-direction form `(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)` remains `ராஜா` because that is what the source prints.
+- Batch 005: PDF 49–50 source-visible `ராசா:` dialogue labels restored; PDF 50's distinct stage-direction `ராஜா` retained.
+- Batch 006: PDF 53 source-visible `ராசா:` labels and `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)` restored; affected `scene-035.md` portion reconciled.
+- Batch 007: exact PDF 58–59 `ராஜா:` / `ராசா:` alternation restored before `scene-040.md` generation.
+- Batch 008: PDF 66 opening continuation label restored from normalized `ராஜா:` to source-visible `ராசா:`.
+- Batch 009: PDF 70–74 rechecked; no new correction required in verified PDF 70–73.
+- Batch 010: PDF 75–79 rechecked; no new correction required in the verified T056–T058 source span on PDF 77–79.
 
-During scene-text Batch 006, PDF 53 was reopened around T036. Its dialogue labels likewise print **`ராசா:`**, and the stage direction prints **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...`**. The canonical PDF 53 page was restored accordingly, and `scene-035.md` was reconciled before `scene-036.md` was created.
-
-During scene-text Batch 007, the T040 span on PDF 58–59 was reopened before derivative extraction. The source deliberately alternates `ராஜா:` and `ராசா:`: PDF 58's relevant sequence is `ராசா:` / `ராஜா:` / `ராசா:`, while PDF 59's five pre-T041 labels are `ராஜா:` / `ராசா:` / `ராஜா:` / `ராசா:` / `ராஜா:`. The normalized `ராசா:` occurrences were restored. The distinct source stage direction `[ராஜா பாடிக்கொண்டு வருகிறான்.]` remains unchanged.
-
-During scene-text Batch 008, fresh rendered-scan reinspection of PDF 66 showed that the opening continuation of the Raja/Gnanakkan exchange prints **`ராசா:`**, while the canonical page had normalized it to `ராஜா:`. That opening label was restored before `scene-047.md` was generated. Running-text `ராஜா` forms elsewhere on PDF 66 remain unchanged as printed.
-
-During scene-text Batch 009, PDF 70–74 were reopened against fresh high-resolution renders. The T052 `★ சிறை ★` boundary, the cross-page prison sequence, the staged-performance intervention through PDF 73, the source-unlabelled `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?` line and the T053 return to `(மனப் போராட்டம்)` all matched the verified canonical layer. No new canonical correction was required. PDF 74 remains review because of the physical overprint obstruction.
-
-No review page was promoted and the 75/4 source-page and 66/4 screenplay-page fidelity counts remain unchanged. See `notes/post-fidelity-corrections.md` and `notes/scene-text-batch-009.md`.
+No review page was promoted. The 75/4 source-page and 66/4 screenplay-page fidelity counts remain unchanged.
 
 ## Scene segmentation
 
@@ -80,7 +70,7 @@ Authoritative files:
 - `notes/scene-segmentation-audit.md`
 - `scenes/index.json`
 
-The booklet prints no screenplay scene numbers. The archive therefore uses navigation-only IDs `raja-rani-s001` through `raja-rani-s058`.
+The booklet prints no screenplay scene numbers. Archive navigation therefore uses `raja-rani-s001` through `raja-rani-s058`.
 
 Segmentation totals:
 
@@ -88,49 +78,44 @@ Segmentation totals:
 - eligible for verified scene-text extraction: **50**
 - blocked by review-source intersection: **8**
 
-Blocked scene IDs:
+Blocked IDs:
 
 - `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013` — PDF 27
 - `raja-rani-s033` — PDF 48
 - `raja-rani-s039` — PDF 57
 - `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055` — PDF 74
 
-Page breaks alone were not used as scene boundaries.
+Page breaks alone are not scene boundaries.
 
-## Scene-text derivatives
+## Scene-text derivatives — complete
 
 Completed batch reports:
 
-- `notes/scene-text-batch-001.md`
-- `notes/scene-text-batch-002.md`
-- `notes/scene-text-batch-003.md`
-- `notes/scene-text-batch-004.md`
-- `notes/scene-text-batch-005.md`
-- `notes/scene-text-batch-006.md`
-- `notes/scene-text-batch-007.md`
-- `notes/scene-text-batch-008.md`
-- `notes/scene-text-batch-009.md`
+- `notes/scene-text-batch-001.md` through `notes/scene-text-batch-010.md`
 
-Completed verified scene-text files:
+Completed verified scene-text files cover every eligible segment:
 
-- `scenes/scene-001.md` through `scenes/scene-010.md`
-- `scenes/scene-014.md` through `scenes/scene-032.md`, excluding blocked `scene-011.md`–`scene-013.md`
-- `scenes/scene-034.md` through `scenes/scene-038.md`
-- `scenes/scene-040.md` through `scenes/scene-052.md`
+- `scene-001.md`–`scene-010.md`
+- `scene-014.md`–`scene-032.md`
+- `scene-034.md`–`scene-038.md`
+- `scene-040.md`–`scene-052.md`
+- `scene-056.md`–`scene-058.md`
 
-Blocked `scene-011.md`–`scene-013.md`, `scene-033.md`, `scene-039.md` and `scene-053.md`–`scene-055.md` are intentionally absent because their archive segments intersect review-source pages.
+The eight blocked scene files are intentionally absent.
 
-Current derivative counts:
+Final derivative counts:
 
-- verified scene-text files completed: **47/50 eligible**
-- eligible scene-text files remaining: **3**
+- verified scene-text files completed: **50/50 eligible**
+- eligible scene-text files remaining: **0**
 - blocked scene segments: **8**
 
-Every completed scene file is derived only from verified canonical Tamil, retains page anchors, and stops at the next accepted transition.
+Batch 010 resumed only at T056 after the blocked `s053`–`s055` group. It completed:
 
-Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and 35–40 were reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 had already been promoted after targeted high-resolution review. Before Batch 003 the same status reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. Batch 005 reconciled PDF 49–50 and corrected their source-visible `ராசா:` dialogue labels. Batch 006 corrected the equivalent PDF 53 labels and T036 stage-direction form, reconciled `scene-035.md`, completed `scene-036.md`–`scene-038.md`, and stopped before blocked `s039`. Batch 007 resumed only after blocked `s039`, restored the exact PDF 58–59 `ராஜா:` / `ராசா:` alternation, and completed `scene-040.md`–`scene-045.md`. Batch 008 restored PDF 66's opening `ராசா:` label, completed carried-forward `scene-046.md` plus `scene-047.md`–`scene-050.md`, and carried `s051` forward. Batch 009 completed carried-forward `scene-051.md` and `scene-052.md` and stopped before blocked `s053`.
+- `s056`: `(முன்)` flashback on PDF 77, stopping before T057;
+- `s057`: present-day return at T057 across PDF 77–79, stopping before `★ தோட்டம் ★`;
+- `s058`: final `★ தோட்டம் ★` scene through the end of PDF 79, including the closing song cue, `நலம் வாழ்க!`, final ornament and printer line.
 
-The remaining eligible derivatives are `scene-056.md`, `scene-057.md` and `scene-058.md`; the intervening `s053`–`s055` group is blocked by review-source PDF 74.
+No blocked PDF-74 wording was imported into the final verified derivatives.
 
 ## Current gate
 
@@ -142,8 +127,8 @@ The remaining eligible derivatives are `scene-056.md`, `scene-057.md` and `scene
 - page verification: **75 verified / 4 review**
 - screenplay verification: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 47/50 eligible complete**
-- dialogue index: **not started; eligible only from verified Tamil units**
+- scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
+- dialogue index: **not started; ready to open from verified units only**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; eligible only from verified Tamil units**
@@ -152,4 +137,6 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-Process the next five-source-page scene-text iteration for **PDF 75–79 / printed pp.74–78**. The opening portion still belongs to blocked `s055`, which intersects review-source PDF 74 and continues through PDF 77. Resume only after blocked `s053`–`s055` at T056 on PDF 77, then complete the remaining eligible `s056`, `s057` and `s058` through PDF 79. Do not import any text from the blocked PDF-74 scene group into verified derivatives.
+Run the scene-layer completion / repository-bookkeeping checkpoint, reconcile the Raja Rani entry in `data/works.json` and the root README, then begin the dialogue-index layer in the guide-prescribed order.
+
+Only explicitly speaker-labelled verified source utterances may become dialogue records. Source-unlabelled speech remains unassigned.
