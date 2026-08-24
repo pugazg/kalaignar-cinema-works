@@ -84,19 +84,27 @@ Page breaks alone were not used as scene boundaries.
 
 ## Scene-text derivatives
 
-Batch 001 is complete and documented in `notes/scene-text-batch-001.md`.
+Completed batch reports:
+
+- `notes/scene-text-batch-001.md`
+- `notes/scene-text-batch-002.md`
 
 Completed verified scene-text files:
 
 - `scenes/scene-001.md` through `scenes/scene-010.md`
+- `scenes/scene-014.md` through `scenes/scene-023.md`
+
+Blocked `scene-011.md`–`scene-013.md` are intentionally absent because their archive segments intersect PDF 27.
 
 Current derivative counts:
 
-- verified scene-text files completed: **10/50 eligible**
-- eligible scene-text files remaining: **40**
+- verified scene-text files completed: **20/50 eligible**
+- eligible scene-text files remaining: **30**
 - blocked scene segments remaining: **8**
 
-Every completed scene file is derived only from verified canonical Tamil, retains page anchors, and stops at the next accepted transition. No blocked/review page is included in Batch 001.
+Every completed scene file is derived only from verified canonical Tamil, retains page anchors, and stops at the next accepted transition. No blocked/review page is included in Batch 001 or Batch 002.
+
+Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and 35–40 were reconciled with the already completed rendered-scan Batch 004 audit. This changed bookkeeping only; canonical Tamil wording was not altered. PDF 34 had already been promoted after targeted high-resolution review.
 
 ## Current gate
 
@@ -108,7 +116,7 @@ Every completed scene file is derived only from verified canonical Tamil, retain
 - page verification: **75 verified / 4 review**
 - screenplay verification: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 10/50 eligible complete**
+- scene-text derivatives: **in progress — 20/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -118,4 +126,4 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-Continue verified scene-text extraction in source order, **skip blocked `s011`–`s013`**, and resume with `s014`. Use a meaningful batch and preserve `scene-segmentation-audit.md` boundaries exactly.
+Continue verified scene-text extraction with the next eligible source-order run, **`s024`–`s032`**, then stop before blocked `s033`. Use only verified canonical Tamil and preserve `scene-segmentation-audit.md` boundaries exactly.
