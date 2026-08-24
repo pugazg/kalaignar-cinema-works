@@ -59,11 +59,11 @@ The Tamil fidelity gate is therefore **closed-with-source-limitations**. The fou
 
 ## Post-fidelity corrections
 
-During scene-text Batch 005, fresh high-resolution rendered-scan reinspection of PDF 49–50 found that the dialogue speaker label is printed as **`ராசா:`**, while those canonical page files had retained normalized `ராஜா:` labels.
+During scene-text Batch 005, fresh high-resolution rendered-scan reinspection of PDF 49–50 found source-visible **`ராசா:`** dialogue labels where those canonical page files had retained normalized `ராஜா:` labels. The affected labels were restored; PDF 50's separate stage-direction form `(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)` remains `ராஜா` because that is what the source prints.
 
-The affected dialogue labels on PDF 49 and PDF 50 were restored to `ராசா:`. PDF 50's separate stage-direction form `(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)` remains `ராஜா` because that is what the source prints.
+During scene-text Batch 006, PDF 53 was reopened around T036. Its dialogue labels likewise print **`ராசா:`**, and the stage direction prints **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...`**. The canonical PDF 53 page was restored accordingly, and `scene-035.md` was reconciled before `scene-036.md` was created.
 
-During scene-text Batch 006, PDF 53 was reopened around the T036 transition. Its dialogue labels likewise print **`ராசா:`**, and the stage direction prints **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...`**. The canonical PDF 53 page was restored accordingly, and `scene-035.md` was reconciled before `scene-036.md` was created.
+During scene-text Batch 007, the T040 span on PDF 58–59 was reopened before derivative extraction. The source deliberately alternates `ராஜா:` and `ராசா:`: PDF 58's relevant sequence is `ராசா:` / `ராஜா:` / `ராசா:`, while PDF 59's five pre-T041 labels are `ராஜா:` / `ராசா:` / `ராஜா:` / `ராசா:` / `ராஜா:`. The normalized `ராசா:` occurrences were restored. The distinct source stage direction `[ராஜா பாடிக்கொண்டு வருகிறான்.]` remains unchanged.
 
 No review page was promoted and the 75/4 source-page and 66/4 screenplay-page fidelity counts remain unchanged. See `notes/post-fidelity-corrections.md`.
 
@@ -103,24 +103,28 @@ Completed batch reports:
 - `notes/scene-text-batch-004.md`
 - `notes/scene-text-batch-005.md`
 - `notes/scene-text-batch-006.md`
+- `notes/scene-text-batch-007.md`
 
 Completed verified scene-text files:
 
 - `scenes/scene-001.md` through `scenes/scene-010.md`
 - `scenes/scene-014.md` through `scenes/scene-032.md`, excluding blocked `scene-011.md`–`scene-013.md`
 - `scenes/scene-034.md` through `scenes/scene-038.md`
+- `scenes/scene-040.md` through `scenes/scene-045.md`
 
 Blocked `scene-011.md`–`scene-013.md`, `scene-033.md` and `scene-039.md` are intentionally absent because their archive segments intersect review-source pages.
 
 Current derivative counts:
 
-- verified scene-text files completed: **34/50 eligible**
-- eligible scene-text files remaining: **16**
+- verified scene-text files completed: **40/50 eligible**
+- eligible scene-text files remaining: **10**
 - blocked scene segments: **8**
 
 Every completed scene file is derived only from verified canonical Tamil, retains page anchors, and stops at the next accepted transition.
 
-Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and 35–40 were reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 had already been promoted after targeted high-resolution review. Before Batch 003 the same status reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. Batch 005 reconciled PDF 49–50 and corrected their source-visible `ராசா:` dialogue labels. Batch 006 corrected the equivalent PDF 53 labels and T036 stage-direction form, reconciled `scene-035.md`, completed `scene-036.md`–`scene-038.md`, and stopped before blocked `s039`.
+Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and 35–40 were reconciled with the already completed rendered-scan Batch 004 audit. PDF 34 had already been promoted after targeted high-resolution review. Before Batch 003 the same status reconciliation was completed for PDF 43–44, and before Batch 004 for PDF 45–46. Batch 005 reconciled PDF 49–50 and corrected their source-visible `ராசா:` dialogue labels. Batch 006 corrected the equivalent PDF 53 labels and T036 stage-direction form, reconciled `scene-035.md`, completed `scene-036.md`–`scene-038.md`, and stopped before blocked `s039`. Batch 007 resumed only after blocked `s039`, restored the exact PDF 58–59 `ராஜா:` / `ராசா:` alternation, and completed `scene-040.md`–`scene-045.md`.
+
+`raja-rani-s046` begins on PDF 64 after T046 and continues through PDF 65. It was not emitted partially at the Batch 007 PDF 64 boundary and is carried into the next iteration.
 
 ## Current gate
 
@@ -132,7 +136,7 @@ Before Batch 002, stale local `draft` status labels on canonical PDF 31–33 and
 - page verification: **75 verified / 4 review**
 - screenplay verification: **66 verified / 4 review**
 - scene segmentation/index: **complete — 58 segments**
-- scene-text derivatives: **in progress — 34/50 eligible complete**
+- scene-text derivatives: **in progress — 40/50 eligible complete**
 - dialogue index: **not started; eligible only from verified Tamil units**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
@@ -142,4 +146,4 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-Process the next five-source-page scene-text iteration for **PDF 60–64 / printed pp.59–63**. Resume after blocked `s039` by completing carried-forward `s040` from its verified PDF 58 start and `s041` from its verified PDF 59 start, then complete eligible `s042`, `s043`, `s044` and `s045` through PDF 64. Do not include any text from blocked `s039`.
+Process the next five-source-page scene-text iteration for **PDF 65–69 / printed pp.64–68**. Complete carried-forward `s046` from its verified PDF 64 start through PDF 65, then complete eligible `s047`, `s048`, `s049` and `s050` through PDF 67. Carry `s051` forward because it begins on PDF 67 and continues through PDF 70.
