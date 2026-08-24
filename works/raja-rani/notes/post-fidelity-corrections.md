@@ -18,9 +18,22 @@ The recheck found a source-label normalization error that had survived the earli
 
 The local page headers for PDF 49 and 50 were also reconciled to `status=verified`, consistent with the already completed full fidelity disposition. No other wording was changed in this correction.
 
+## Correction 002 — PDF 53 / printed p.52
+
+During preparation of scene-text Batch 006, the T036 boundary and surrounding PDF 53 text were reopened against the rendered scan before the carried-forward scene was emitted.
+
+The scan shows that the first-pass canonical page had again normalized source-visible Raja forms:
+
+- the dialogue labels on PDF 53 print **`ராசா:`**, not `ராஜா:`;
+- the T036 stage direction prints **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...`**, not the normalized `(ராஜா, ராணியைக் கொண்டுவந்து விடுகிறான்...`.
+
+The canonical PDF 53 page has been restored accordingly. This correction is source-visible and does not alter the page's verified status or the global fidelity counts.
+
 ## Downstream effect
 
-`scene-034.md` is generated only after these source-label corrections, so its speaker labels follow the corrected canonical page layer.
+- `scene-034.md` was generated after Correction 001 and therefore already follows the corrected PDF 49–50 labels.
+- `scene-035.md` has been reconciled so its PDF 53 portion now carries the restored `ராசா:` labels.
+- `scene-036.md` is generated only after Correction 002 and begins with the restored T036 stage-direction form.
 
 No review page was promoted and the global fidelity counts remain unchanged:
 
