@@ -18,18 +18,18 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: in-progress-with-review-exclusions
+  structured_derivatives: scene-text-complete-with-review-exclusions
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
   archival_scene_segments: 58
   scene_text_eligible_segments: 50
   scene_text_blocked_segments: 8
-  scene_text_derivatives: in-progress-verified-only
+  scene_text_derivatives: complete-verified-only-with-review-exclusions
   scene_text_batching_policy: five-source-pages-per-iteration
-  scene_text_files_completed: 47
-  scene_text_files_remaining_eligible: 3
-  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-009.md
+  scene_text_files_completed: 50
+  scene_text_files_remaining_eligible: 0
+  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-010.md
   dialogue_index: eligible-only-from-verified-tamil-not-started
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
@@ -100,4 +100,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Process the next five-source-page scene-text iteration for PDF 75-79 / printed pp.74-78. The opening portion still belongs to blocked s055; resume only after blocked s053-s055 at T056 on PDF 77, then complete the remaining eligible s056-s058 through PDF 79 without importing blocked PDF-74 text."
+next_action: "Run a compact scene-layer completion / repository-bookkeeping checkpoint, reconcile the missing Raja Rani entry in data/works.json and root README, then begin the dialogue index from explicitly speaker-labelled utterances in verified Tamil units only."
