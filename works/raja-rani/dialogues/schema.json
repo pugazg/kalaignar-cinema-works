@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "raja-rani-dialogue-record.schema.json",
+  "title": "Raja Rani dialogue record",
+  "type": "object",
+  "required": [
+    "id",
+    "scene_id",
+    "scene_ordinal",
+    "transition_audit_id",
+    "speaker_label",
+    "speaker_delimiter",
+    "text",
+    "page_provenance",
+    "source_scene_file"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^raja-rani-s[0-9]{3}-d[0-9]{3}$"
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^raja-rani-s[0-9]{3}$"
+    },
+    "scene_ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 58
+    },
+    "transition_audit_id": {
+      "type": "string",
+      "pattern": "^T[0-9]{3}$"
+    },
+    "speaker_label": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact non-empty source speaker label before its printed delimiter; never expanded or normalized."
+    },
+    "speaker_delimiter": {
+      "type": "string",
+      "enum": [":", ";", ",", "-", "."],
+      "description": "Printed punctuation separating a non-empty speaker label from the utterance. Stored separately so source irregularities are not normalized."
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact verified utterance text after the printed speaker delimiter. Label-attached parenthetical or stage material remains part of the record text. Cross-page segments are joined with a single newline."
+    },
+    "page_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["pdf_page", "printed_page"],
+        "properties": {
+          "pdf_page": {"type": "integer", "minimum": 10, "maximum": 79},
+          "printed_page": {"type": "integer", "minimum": 9, "maximum": 78}
+        },
+        "additionalProperties": false
+      }
+    },
+    "page_segments": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Used only when one explicitly speaker-labelled utterance crosses a canonical page boundary.",
+      "items": {
+        "type": "object",
+        "required": ["pdf_page", "printed_page", "text"],
+        "properties": {
+          "pdf_page": {"type": "integer", "minimum": 10, "maximum": 79},
+          "printed_page": {"type": "integer", "minimum": 9, "maximum": 78},
+          "text": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_scene_file": {
+      "type": "string",
+      "pattern": "^scene-[0-9]{3}\\.md$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "page_provenance": {"minItems": 2}
+        }
+      },
+      "then": {"required": ["page_segments"]}
+    }
+  ],
+  "additionalProperties": false
+}
