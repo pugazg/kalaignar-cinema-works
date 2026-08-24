@@ -61,7 +61,7 @@ resolved_during_fidelity_audit:
     finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
   - pdf_page: 52
     printed_page: 51
-    finding: earlier "⟦டைகர் ஓலன்?⟧" resolved as printed "டைகர் ஓலன்" while surrounding பயிட் forms remain unchanged; page verified
+    finding: earlier "⟦டைகர் ஓல்டன்?⟧" resolved as printed "டைகர் ஓல்டன்" while surrounding பயிட் forms remain unchanged; page verified
   - pdf_page: 61
     printed_page: 60
     finding: first-pass "சிட்டு கட்டு" corrected from rendered scan to "சீட்டு கட்டு"
