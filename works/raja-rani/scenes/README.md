@@ -2,7 +2,7 @@
 
 **Stage:** structured derivatives  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **45 / 50 eligible**  
+**Verified scene-text files:** **47 / 50 eligible**  
 **Blocked source-review segments:** **8**
 
 This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
@@ -56,13 +56,14 @@ Completed batches:
 - Batch 005: five-source-page window PDF **50–54**; completed carried-forward `scene-034.md` and `scene-035.md`; `s036` was carried forward because it continued through PDF 56
 - Batch 006: five-source-page window PDF **55–59**; completed carried-forward `scene-036.md` plus `scene-037.md` and `scene-038.md`; blocked `s039` remains absent because it intersects PDF 57
 - Batch 007: five-source-page window PDF **60–64**; resumed after blocked `s039`, completed carried-forward `scene-040.md` and `scene-041.md`, then `scene-042.md` through `scene-045.md`; `s046` was carried forward because it continued through PDF 65
-- Batch 008: five-source-page window PDF **65–69**; completed carried-forward `scene-046.md`, then `scene-047.md` through `scene-050.md`; `s051` is carried forward because it continues through PDF 70
+- Batch 008: five-source-page window PDF **65–69**; completed carried-forward `scene-046.md`, then `scene-047.md` through `scene-050.md`; `s051` was carried forward because it continued through PDF 70
+- Batch 009: five-source-page window PDF **70–74**; completed carried-forward `scene-051.md` and `scene-052.md`; stopped before blocked `s053` because it intersects review-source PDF 74
 
-Blocked `scene-011.md`–`scene-013.md`, `scene-033.md` and `scene-039.md` are intentionally absent because their archive segments intersect review-source pages. The later blocked `scene-053.md`–`scene-055.md` remain intentionally absent as well.
+Blocked `scene-011.md`–`scene-013.md`, `scene-033.md`, `scene-039.md` and `scene-053.md`–`scene-055.md` are intentionally absent because their archive segments intersect review-source pages.
 
-The five-source-page batching policy never emits a partial scene merely because the iteration boundary is reached. Batch 003 carried `s028` forward; Batch 004 completed it. Batch 004 stopped at blocked `s033`, and Batch 005 resumed with carried-forward `s034`. Batch 005 carried `s036` forward; Batch 006 completed it and then stopped at blocked `s039`. Batch 007 resumed only after that blocked segment and carried `s046` forward. Batch 008 completed `s046` and carries `s051` forward because its full span reaches PDF 70.
+The five-source-page batching policy never emits a partial scene merely because the iteration boundary is reached. Batch 003 carried `s028` forward; Batch 004 completed it. Batch 004 stopped at blocked `s033`, and Batch 005 resumed with carried-forward `s034`. Batch 005 carried `s036` forward; Batch 006 completed it and then stopped at blocked `s039`. Batch 007 resumed only after that blocked segment and carried `s046` forward. Batch 008 completed `s046` and carried `s051` forward. Batch 009 completed `s051` and `s052`, then stopped before the PDF-74 blocked scene group.
 
-Post-fidelity rendered-scan rechecks have restored source-visible Raja-label variation that earlier first-pass pages had normalized: PDF 49–50, PDF 53, PDF 58–59 and PDF 66. On PDF 66 the opening continuation label is source-visible `ராசா:` while running-text `ராஜா` forms elsewhere on the page remain unchanged. See `../notes/post-fidelity-corrections.md`.
+Post-fidelity rendered-scan rechecks have restored source-visible Raja-label variation that earlier first-pass pages had normalized: PDF 49–50, PDF 53, PDF 58–59 and PDF 66. Batch 009 reopened PDF 70–74 against fresh high-resolution renders; no new canonical correction was required in verified PDF 70–73, and PDF 74 remains review because of the physical ownership/address overprint. See `../notes/post-fidelity-corrections.md` and `../notes/scene-text-batch-009.md`.
 
 Batch reports:
 
@@ -74,13 +75,14 @@ Batch reports:
 - `../notes/scene-text-batch-006.md`
 - `../notes/scene-text-batch-007.md`
 - `../notes/scene-text-batch-008.md`
+- `../notes/scene-text-batch-009.md`
 
 Current totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **45**
-- remaining eligible scene-text files: **5**
+- completed verified scene-text files: **47**
+- remaining eligible scene-text files: **3**
 - blocked scene-text segments: **8**
 
 ## Derivative rules
@@ -98,4 +100,4 @@ Each verified scene file:
 
 ## Next activity
 
-Process the next **five-source-page** window: **PDF 70–74 / printed pp.69–73**. Complete carried-forward `s051` through PDF 70, then complete eligible `s052` through PDF 73. Stop before/block `s053` because it intersects review-source PDF 74; do not skip across the blocked PDF-74 scene group within the same iteration.
+Process the next **five-source-page** window: **PDF 75–79 / printed pp.74–78**. The opening portion still belongs to blocked `s055`, which intersects review-source PDF 74 and continues through PDF 77. Resume only after the blocked `s053`–`s055` group at T056 on PDF 77, then complete the remaining eligible `s056`, `s057` and `s058` through PDF 79. Do not import any text from the blocked scene group into verified derivatives.
