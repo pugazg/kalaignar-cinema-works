@@ -36,13 +36,16 @@ Controlling files:
 - Scene-text Batch 001 complete: `scene-001.md`–`scene-010.md`.
 - Scene-text Batch 002 complete: `scene-014.md`–`scene-023.md`.
 - Scene-text Batch 003 complete for source-page window **PDF 40–44**: `scene-024.md`–`scene-027.md`.
-- Verified scene-text files completed: **24/50 eligible**.
+- Scene-text Batch 004 complete for source-page window **PDF 45–49**: carried-forward `scene-028.md` plus `scene-029.md`–`scene-032.md`.
+- Verified scene-text files completed: **29/50 eligible**.
 
 ## Canonical-status reconciliation
 
 Before Batch 002, PDF 31–33 and 35–40 still carried stale local `draft` / audit-pending labels even though rendered-scan Fidelity Batch 004 had already verified them. Their local status metadata was reconciled to `verified`; PDF 34 had already been verified through targeted high-resolution review.
 
-Before Batch 003, PDF 43 and PDF 44 likewise still carried stale local `status=draft` labels even though Fidelity Batch 005 had already completed their rendered-scan review. Their local metadata is now reconciled to `verified`.
+Before Batch 003, PDF 43 and PDF 44 likewise still carried stale local `status=draft` labels even though Fidelity Batch 005 had already completed their rendered-scan review. Their local metadata was reconciled to `verified`.
+
+Before Batch 004, PDF 45 and PDF 46 still carried the same stale local `status=draft` labels even though Fidelity Batch 005 had visually reviewed them. Their local metadata is now reconciled to `verified`.
 
 These were bookkeeping reconciliations only. No canonical Tamil wording was changed.
 
@@ -71,20 +74,20 @@ Later layers must use **verified Tamil only**.
 
 - archival segments: **58**
 - eligible scene-text segments: **50**
-- completed verified scene-text files: **24**
-- remaining eligible scene-text files: **26**
+- completed verified scene-text files: **29**
+- remaining eligible scene-text files: **21**
 - blocked scene segments: **8**
 
 Blocked IDs:
 
 `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013`, `raja-rani-s033`, `raja-rani-s039`, `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055`.
 
-`raja-rani-s028` has started source material inside the completed PDF 40–44 window but is deliberately not emitted partially because its accepted span continues through PDF 46.
+`raja-rani-s033` remains represented structurally but has no verified scene-text file because it intersects review-source PDF 48. Batch 004 deliberately stopped at that blocked segment rather than promoting uncertain Tamil or skipping across it in the same iteration.
 
 ## Readiness
 
 - scene segmentation/index: **COMPLETE**
-- verified scene-text derivative generation: **IN PROGRESS — 24/50 eligible complete**
+- verified scene-text derivative generation: **IN PROGRESS — 29/50 eligible complete**
 - dialogue extraction: **not yet started; follow verified-source-unit gate**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
@@ -92,4 +95,4 @@ Blocked IDs:
 
 ## Next activity
 
-Process the next **five-source-page** window: **PDF 45–49 / printed pp.44–48**. Complete carried-forward `raja-rani-s028`, then verified `s029`–`s032`, and stop before/block `s033` because it intersects review-source PDF 48.
+Process the next **five-source-page** window: **PDF 50–54 / printed pp.49–53**. Complete carried-forward `raja-rani-s034` from its verified PDF 49 opening through PDF 52, then complete `s035`. `s036` begins on PDF 53 and continues through PDF 56, so carry it forward rather than emitting a partial derivative at the PDF 54 boundary.
