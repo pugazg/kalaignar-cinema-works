@@ -25,9 +25,10 @@ status:
   scene_text_eligible_segments: 50
   scene_text_blocked_segments: 8
   scene_text_derivatives: in-progress-verified-only
-  scene_text_files_completed: 20
-  scene_text_files_remaining_eligible: 30
-  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-002.md
+  scene_text_batching_policy: five-source-pages-per-iteration
+  scene_text_files_completed: 24
+  scene_text_files_remaining_eligible: 26
+  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-003.md
   dialogue_index: eligible-only-from-verified-tamil-not-started
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
@@ -89,4 +90,4 @@ resolved_during_fidelity_audit:
   - pdf_page: 79
     printed_page: 78
     finding: printed closing form "மாதுளையின் நிறங் காட்டும்" restored; closing song cue and printer line verified without supplying absent lyrics
-next_action: "Continue verified scene-text extraction with source-order scenes s024-s032, then stop before blocked s033. Use only verified canonical Tamil and preserve accepted scene boundaries exactly."
+next_action: "Process the next five-source-page scene-text iteration for PDF 45-49 / printed pp.44-48. Complete carried-forward s028, then verified s029-s032, and keep s033 blocked because it intersects review-source PDF 48."
