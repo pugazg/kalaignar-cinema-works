@@ -1,0 +1,31 @@
+{
+  "work_id": "raja-rani",
+  "source_identifier": "TVA_BOK_0017188",
+  "record_schema": "schema.json",
+  "status": "initialized-verified-source-only",
+  "storage": "scene-sharded",
+  "source_numbered_scenes": false,
+  "archival_scene_segments": 58,
+  "dialogue_eligible_scenes": 50,
+  "dialogue_blocked_scenes": 8,
+  "blocked_scene_ids": [
+    "raja-rani-s011",
+    "raja-rani-s012",
+    "raja-rani-s013",
+    "raja-rani-s033",
+    "raja-rani-s039",
+    "raja-rani-s053",
+    "raja-rani-s054",
+    "raja-rani-s055"
+  ],
+  "dialogue_records": 0,
+  "scenes_completed": 0,
+  "scenes_expected": 50,
+  "completed_scene_ordinals": [],
+  "zero_record_scenes": [],
+  "cross_page_records": [],
+  "source_label_anomaly_records": [],
+  "next_scene_batch": [1,2,3,4,5,6,7,8,9,10],
+  "next_structured_derivative": null,
+  "scene_files": []
+}
