@@ -58,6 +58,7 @@ The Tamil fidelity gate is **closed-with-source-limitations**. These four page f
 - Batch 008: PDF 66 opening continuation label restored from normalized `ராஜா:` to source-visible `ராசா:`.
 - Batch 009: PDF 70–74 rechecked; no new correction required in verified PDF 70–73.
 - Batch 010: PDF 75–79 rechecked; no new correction required in the verified T056–T058 source span on PDF 77–79.
+- Dialogue Batch 001: no new canonical Tamil correction required while extracting verified `s001`–`s010`.
 
 No review page was promoted. The 75/4 source-page and 66/4 screenplay-page fidelity counts remain unchanged.
 
@@ -121,28 +122,48 @@ No blocked PDF-74 wording was imported into the final verified derivatives.
 
 The pre-existing repository-level Raja Rani gap is closed:
 
-- `data/works.json` now includes `raja-rani` with the 70-page screenplay fidelity state, 58 archival segments, 50 eligible scene files complete and 8 blocked segments;
-- the root `README.md` now contains a Raja Rani status section;
-- `notes/scene-layer-completion-dialogue-initialization.md` records this phase boundary.
+- `data/works.json` includes `raja-rani` with the screenplay fidelity and scene-layer state;
+- the root `README.md` contains a Raja Rani status section;
+- `notes/scene-layer-completion-dialogue-initialization.md` records the phase boundary.
 
 This was bookkeeping reconciliation only. It did not alter canonical Tamil or weaken any review disposition.
 
-## Dialogue index — initialized
+## Dialogue index — in progress
 
-The immutable dialogue layer now exists under `dialogues/`:
+The immutable dialogue layer exists under `dialogues/`:
 
 - `dialogues/README.md`
 - `dialogues/schema.json`
 - `dialogues/index.json`
+- `dialogues/records/scene-###.json`
+
+Dialogue Batch 001 processed verified archival scenes `s001`–`s010` and stopped before blocked `s011`–`s013`.
 
 Current state:
 
 - dialogue-eligible verified scenes: **50**
 - dialogue-blocked scenes: **8**
-- dialogue records: **0**
-- completed dialogue scenes: **0/50**
+- processed dialogue scenes: **10/50**
+- immutable labelled-dialogue records: **203**
+- zero-record scenes: **`s008`, `s010`**
+- cross-page records: **3**
+- tracked non-colon source-label/delimiter anomalies: **3**
 
-Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Source-unlabelled speech remains outside the immutable dialogue index. Exact source speaker-label and delimiter forms are preserved; later character normalization must occur only in the character/entity derivative layer.
+The cross-page records are:
+
+- `raja-rani-s004-d006` — PDF 13→14;
+- `raja-rani-s004-d023` — PDF 14→15;
+- `raja-rani-s005-d010` — PDF 15→18.
+
+The tracked source-label/delimiter forms are:
+
+- `raja-rani-s004-d001` — `நாடகத் துவக்கத்திற்கு முன்பு குரல்.`;
+- `raja-rani-s004-d007` — `தமிழ்நாட்டுப் புலவர்.`;
+- `raja-rani-s007-d023` — `கீதாவின் தாய் தாயம்மாள்;`.
+
+Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Source-unlabelled speech, narrative/stage material, written newspaper/letter material and transition-only text remain outside the immutable dialogue index. Exact source speaker-label and delimiter forms are preserved; later character normalization must occur only in the character/entity derivative layer.
+
+Batch report: `notes/dialogue-batch-001.md`.
 
 ## Current gate
 
@@ -156,7 +177,7 @@ Only explicitly speaker-labelled utterances from verified scene derivatives are 
 - scene segmentation/index: **complete — 58 segments**
 - scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
 - repository bookkeeping: **reconciled**
-- dialogue index: **initialized — 0/50 eligible scenes processed**
+- dialogue index: **in progress — 10/50 eligible scenes processed; 203 records**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; eligible only from verified Tamil units**
@@ -165,6 +186,6 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-**Dialogue Batch 001:** process verified `scenes/scene-001.md` through `scenes/scene-010.md` in source order.
+**Dialogue Batch 002:** resume after blocked `s011`–`s013` and process verified `scenes/scene-014.md` through `scenes/scene-023.md` in source order.
 
-Create immutable records only for explicitly speaker-labelled utterances, preserve exact speaker labels and printed delimiters, preserve page provenance and cross-page continuity, and stop before blocked `s011`–`s013`.
+Create immutable records only for explicitly speaker-labelled utterances, preserve exact speaker labels and printed delimiters, preserve page provenance and cross-page continuity, and do not create dialogue shards for blocked `s011`–`s013`.
