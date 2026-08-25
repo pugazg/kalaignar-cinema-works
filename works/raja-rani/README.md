@@ -161,16 +161,19 @@ The immutable dialogue layer is active under `dialogues/`:
 - `dialogues/index.json`
 - `dialogues/records/scene-###.json`
 
-Dialogue Batch 001 processed verified `scene-001.md` through `scene-010.md` and stopped before blocked `s011`–`s013`.
+Completed dialogue production:
+
+- Batch 001: verified `scene-001.md` through `scene-010.md` — **203 records**
+- Batch 002: verified `scene-014.md` through `scene-023.md`, after blocked `s011`–`s013` — **221 records**
 
 Current dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- completed dialogue scenes: **10/50**
-- immutable labelled-dialogue records: **203**
-- zero-record scenes: **2 — `s008`, `s010`**
-- cross-page records: **3**
+- completed dialogue scenes: **20/50**
+- immutable labelled-dialogue records: **424**
+- zero-record scenes: **6 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`**
+- cross-page records: **4**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
 Cross-page records retained as single immutable records:
@@ -178,16 +181,20 @@ Cross-page records retained as single immutable records:
 - `raja-rani-s004-d006` — PDF 13→14
 - `raja-rani-s004-d023` — PDF 14→15
 - `raja-rani-s005-d010` — PDF 15→18
+- `raja-rani-s021-d048` — PDF 37→38
 
-Tracked source-label/delimiter forms:
+Tracked non-colon source-label/delimiter forms remain:
 
 - `raja-rani-s004-d001` — `நாடகத் துவக்கத்திற்கு முன்பு குரல்.`
 - `raja-rani-s004-d007` — `தமிழ்நாட்டுப் புலவர்.`
 - `raja-rani-s007-d023` — `கீதாவின் தாய் தாயம்மாள்;`
 
-Source-unlabelled speech, narrative/stage text, the written newspaper/letter material in `s009`, and transition-only material remain outside the immutable dialogue inventory. Character normalization belongs to the later character/entity layer.
+Batch 002 also deliberately leaves `ராணி வெளியிலே போர்டு பார்த்தேன்.` in `s015` outside the immutable dialogue index because the verified source line has no printed speaker delimiter. The unlabelled `எஸ் கமின்...` and `சாப்புடு...டேய் கரண்ட்!...` material in the same scene likewise remains unassigned.
 
-Batch report: `notes/dialogue-batch-001.md`.
+Batch reports:
+
+- `notes/dialogue-batch-001.md`
+- `notes/dialogue-batch-002.md`
 
 ## Current gate
 
@@ -198,7 +205,7 @@ Batch report: `notes/dialogue-batch-001.md`.
 - Tamil fidelity gate: **closed-with-source-limitations**
 - scene segmentation/index: **complete — 58 segments**
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
-- dialogue index: **in progress — 10/50 eligible scenes processed; 203 records**
+- dialogue index: **in progress — 20/50 eligible scenes processed; 424 records**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; verified Tamil units only**
@@ -214,6 +221,6 @@ Batch report: `notes/dialogue-batch-001.md`.
 
 ## Next activity
 
-**Dialogue Batch 002:** resume after blocked `s011`–`s013` and process verified `scenes/scene-014.md` through `scenes/scene-023.md` in source order.
+**Dialogue Batch 003:** process verified `scenes/scene-024.md` through `scenes/scene-032.md` in source order, then stop before blocked `s033`.
 
-Do not create dialogue shards for blocked `s011`–`s013`. Preserve exact source labels/delimiters, keep genuine cross-page utterances as single records, and continue to exclude source-unlabelled material rather than assigning inferred speakers.
+Do not create a dialogue shard for blocked `s033`. Preserve exact source labels/delimiters, keep genuine cross-page utterances as single records, and continue to exclude source-unlabelled material rather than assigning inferred speakers.
