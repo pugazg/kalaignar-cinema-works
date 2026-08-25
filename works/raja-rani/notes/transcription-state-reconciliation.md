@@ -42,7 +42,7 @@ Tamil fidelity gate: **closed-with-source-limitations**.
 - Scene-Text Batch 006: PDF 53 `ராசா:` labels and `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)` restored.
 - Scene-Text Batch 007: exact PDF 58–59 `ராஜா:` / `ராசா:` alternation restored.
 - Scene-Text Batch 008: PDF 66 opening continuation label restored to source-visible `ராசா:`.
-- Scene-Text Batches 009–010 and Dialogue Batches 001–005 required no new canonical Tamil correction.
+- Scene-Text Batches 009–010 and Dialogue Batches 001–006 required no new canonical Tamil correction.
 
 No review page was promoted. The 75/4 source-page and 66/4 screenplay-page counts remain unchanged.
 
@@ -66,9 +66,9 @@ Completed verified scene-text ranges are `s001`–`s010`, `s014`–`s032`, `s034
 
 ## Repository bookkeeping reconciliation
 
-The repository-level Raja Rani gap is closed: `data/works.json` and the root README carry the work status, while `notes/scene-layer-completion-dialogue-initialization.md` records the scene/dialogue phase boundary.
+The repository-level Raja Rani work record and root status section are maintained as global mirrors of the work-local state, while `notes/scene-layer-completion-dialogue-initialization.md` records the scene/dialogue phase boundary.
 
-## Dialogue index — in progress
+## Dialogue index — complete for verified eligible scenes
 
 The immutable dialogue layer exists under `dialogues/` with schema, inventory index and scene-sharded records.
 
@@ -79,13 +79,14 @@ Completed batches:
 - Batch 003: `s024`–`s032` — **133 records**
 - Batch 004: `s034`–`s038` — **140 records**
 - Batch 005: `s040`–`s052` — **165 records**
+- Batch 006: `s056`–`s058` — **30 records**
 
-Current state:
+Final state:
 
 - dialogue-eligible verified scenes: **50**
 - dialogue-blocked scenes: **8**
-- processed dialogue scenes: **47/50**
-- immutable labelled-dialogue records: **862**
+- processed dialogue scenes: **50/50 eligible**
+- immutable labelled-dialogue records: **892**
 - zero-record scenes: **15 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`**
 - cross-page records: **11**
 - tracked non-colon source-label/delimiter anomalies: **3**
@@ -104,13 +105,13 @@ Cumulative cross-page records:
 - `s051-d025` — PDF 69→70
 - `s052-d011` — PDF 71→72
 
-The three non-colon delimiter anomalies remain those established in Batch 001; Batch 005 introduced no new one.
+The three non-colon delimiter anomalies remain those established in Batch 001; Batches 002–006 introduced no new one.
 
-Batch 005 maintained the no-inference rule. The `s049` suicide-letter body/signature remains written material rather than dialogue. In `s052`, unlabelled speech after stage directions remains outside the immutable layer, including `கிரீட்டோ! உனக்குத் தெரியுமல்லவா?...`, `ஏ, மெலிடஸ், வா இங்கே...`, and `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?`.
+No-inference exclusions remain part of the immutable-dialogue policy. Written material such as the `s049` suicide letter is not dialogue. In `s052`, unlabelled speech after stage directions remains outside the immutable layer, including `கிரீட்டோ! உனக்குத் தெரியுமல்லவா?...`, `ஏ, மெலிடஸ், வா இங்கே...`, and `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?`. In `s057`, standalone unlabelled material after stage/action breaks remains outside records; in `s058`, the song cue, `நலம் வாழ்க!`, ornament and printer line are not dialogue.
 
-Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Exact source speaker-label and delimiter forms remain immutable; character normalization belongs only in a later character/entity derivative layer.
+Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Exact source speaker-label and delimiter forms are immutable; character normalization belongs only in the downstream character/entity derivative layer.
 
-Batch reports: `notes/dialogue-batch-001.md` through `notes/dialogue-batch-005.md`.
+Batch reports: `notes/dialogue-batch-001.md` through `notes/dialogue-batch-006.md`.
 
 ## Current gate
 
@@ -121,9 +122,8 @@ Batch reports: `notes/dialogue-batch-001.md` through `notes/dialogue-batch-005.m
 - Tamil fidelity gate: **closed-with-source-limitations**
 - scene segmentation/index: **complete — 58 segments**
 - scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
-- repository bookkeeping: **reconciled**
-- dialogue index: **in progress — 47/50 eligible scenes processed; 862 records**
-- character/entity index: **not started**
+- dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
+- character/entity index: **not started / next**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; eligible only from verified Tamil units**
 
@@ -131,6 +131,6 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-**Dialogue Batch 006:** skip blocked `s053`–`s055` and process the final eligible verified `scenes/scene-056.md` through `scenes/scene-058.md` in source order.
+Initialize the **character/entity derivative gate** from the completed 892-record immutable dialogue inventory.
 
-Close the dialogue layer at **50/50 eligible scenes** while retaining all eight review-source-blocked scenes outside immutable dialogue production. Then proceed to the character/entity derivative gate.
+Character/entity mapping may reconcile exact source-label variants only in its own downstream mapping. It must not rewrite any dialogue `speaker_label` or delimiter, and it must not treat the eight source-review-blocked scenes as verified character evidence until their source spans become fully verified.
