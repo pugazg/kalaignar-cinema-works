@@ -29,7 +29,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## ராஜா ராணி status
 
-The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, and every scene-text derivative currently eligible from verified Tamil.
+The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, and the complete eligible immutable dialogue layer.
 
 - title leaf: **`ராஜா ராணி`**;
 - cover form: **`ராஜாராணி`**;
@@ -47,16 +47,16 @@ The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `wo
 - verified scene-text eligibility: **50 segments**;
 - verified scene-text derivatives: **50/50 eligible complete**;
 - blocked scene segments: **8** — `s011`, `s012`, `s013`, `s033`, `s039`, `s053`, `s054`, `s055`;
-- dialogue index: **in progress — verified-source-only**, currently **557 records / 29 of 50 eligible scenes processed**;
-- dialogue zero-record scenes: **`s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`**;
-- dialogue cross-page records / tracked non-colon source-label delimiter anomalies: **4 / 3**;
+- dialogue index: **complete for verified eligible scenes — 892 immutable records / 50 of 50 eligible scenes processed**;
+- dialogue zero-record scenes: **`s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`**;
+- dialogue cross-page records / tracked non-colon source-label delimiter anomalies: **11 / 3**;
 - song/performance front matter: **11 numbered `பாட்டு` blocks**; the film-wide PDF-9 lyricist roster is not treated as item-level authorship evidence.
 
-The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. The scene-text phase deliberately remains complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
+The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. Both the scene-text and dialogue phases deliberately remain complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
 
-Dialogue Batches 001–003 have completed verified `scene-001.md` through `scene-010.md`, then `scene-014.md` through `scene-023.md` after the blocked `s011`–`s013` group, and `scene-024.md` through `scene-032.md` before blocked `s033`. Only explicitly speaker-labelled utterances become immutable records; source-unlabelled material remains outside the dialogue inventory. Exact source-visible speaker-label variation and delimiter irregularities remain unnormalized in this layer.
+Dialogue Batches 001–006 cover every eligible verified scene range: `s001`–`s010`, `s014`–`s032`, `s034`–`s038`, `s040`–`s052`, and `s056`–`s058`. Only explicitly speaker-labelled utterances become immutable records; source-unlabelled material, written matter, performance cues and final printer matter remain outside the dialogue inventory. Exact source-visible speaker-label variation and delimiter irregularities remain unnormalized in this layer.
 
-**Next:** Dialogue Batch 004 — skip blocked `s033`, process verified `scene-034.md` through `scene-038.md`, then stop before blocked `s039`.
+**Next:** initialize the **character/entity derivative gate** from the completed 892-record immutable dialogue inventory. Character mapping may reconcile source-label variants downstream, but it must not rewrite the exact labels preserved in dialogue records or use the eight review-source-blocked scenes as verified character evidence.
 
 ## மந்திரி குமாரி status
 
