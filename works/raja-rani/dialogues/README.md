@@ -89,18 +89,44 @@ Important no-inference exclusions include `ராணி வெளியிலே
 
 Batch report: `../notes/dialogue-batch-002.md`.
 
+## Dialogue Batch 003
+
+Processed verified `scene-024.md` through `scene-032.md` and stopped before blocked `s033`.
+
+Per-scene counts:
+
+- s024: 32
+- s025: 33
+- s026: 1
+- s027: 0
+- s028: 64
+- s029: 0
+- s030: 0
+- s031: 3
+- s032: 0
+
+Batch total: **133 records**.
+
+New zero-record scenes: `s027`, `s029`, `s030`, `s032`.
+
+No new cross-page record or non-colon speaker-label delimiter anomaly was added. Exact source variants such as `இந்தி`, `அகல்`, `முனி`, `ராஜ`, `ராசா`, `சாந்`, `சம`, and `வேலை` remain unnormalized.
+
+In `s028`, the unlabelled PDF-46 continuation `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` remains outside the immutable dialogue index rather than receiving a context-inferred speaker.
+
+Batch report: `../notes/dialogue-batch-003.md`.
+
 ## Current totals
 
 - eligible dialogue scenes: **50**
 - blocked scenes: **8**
-- processed dialogue scenes: **20/50**
-- immutable dialogue records: **424**
-- zero-record scenes: **6** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`
+- processed dialogue scenes: **29/50**
+- immutable dialogue records: **557**
+- zero-record scenes: **10** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`
 - cross-page records: **4**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
 ## Next dialogue batch
 
-Process verified **`scene-024.md` through `scene-032.md`** in source order, then stop before blocked `s033`.
+Skip blocked `s033`, then process verified **`scene-034.md` through `scene-038.md`** in source order and stop before blocked `s039`.
 
-Do not create a shard for blocked `s033`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
+Do not create dialogue shards for blocked `s033` or `s039`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
