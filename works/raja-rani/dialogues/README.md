@@ -1,6 +1,6 @@
 # ராஜா ராணி — immutable dialogue index
 
-Status: **initialized — verified-source-only**.
+Status: **in progress — verified-source-only**.
 
 This layer is downstream of the completed Raja Rani scene-text derivative phase. The verified canonical Tamil and verified scene derivatives remain the textual authorities; dialogue records are immutable structured references to explicitly speaker-labelled utterances only.
 
@@ -46,23 +46,57 @@ Each record links to:
 - `index.json` — work-level dialogue inventory and per-scene progress.
 - `records/scene-###.json` — scene-sharded dialogue records created only for verified eligible scene derivatives.
 
-## Initialization checkpoint
+## Dialogue Batch 001
 
-The scene-text phase closed at **50/50 eligible complete**, with the eight documented source-review exclusions unchanged. No dialogue records existed before this checkpoint.
+Processed verified scenes:
 
-The dialogue layer is now initialized with zero records and no completed dialogue scenes. This initialization does not reinterpret or modify canonical Tamil or scene derivatives.
+- `scene-001.md` through `scene-010.md`
+- **10/50 eligible scenes processed**
+- **203 immutable labelled-dialogue records**
+
+Per-scene counts:
+
+- s001: 9
+- s002: 21
+- s003: 27
+- s004: 23
+- s005: 22
+- s006: 13
+- s007: 30
+- s008: 0
+- s009: 58
+- s010: 0
+
+Zero-record scenes: `s008`, `s010`.
+
+Cross-page records:
+
+- `raja-rani-s004-d006` — PDF 13→14
+- `raja-rani-s004-d023` — PDF 14→15
+- `raja-rani-s005-d010` — PDF 15→18
+
+Tracked non-colon source-label/delimiter forms:
+
+- `raja-rani-s004-d001` — `நாடகத் துவக்கத்திற்கு முன்பு குரல்.`
+- `raja-rani-s004-d007` — `தமிழ்நாட்டுப் புலவர்.`
+- `raja-rani-s007-d023` — `கீதாவின் தாய் தாயம்மாள்;`
+
+Unlabelled ceremonial speech, written newspaper/letter text, unlabelled stage-linked speech and other implied-speaker material remain outside the immutable dialogue inventory.
+
+Batch report: `../notes/dialogue-batch-001.md`.
+
+## Current totals
+
+- eligible dialogue scenes: **50**
+- blocked scenes: **8**
+- processed dialogue scenes: **10/50**
+- immutable dialogue records: **203**
+- zero-record scenes: **2**
+- cross-page records: **3**
+- tracked non-colon source-label/delimiter anomalies: **3**
 
 ## Next dialogue batch
 
-Process verified scene derivatives **`scene-001.md` through `scene-010.md`** in source order.
+Resume after blocked `s011`–`s013` and process verified **`scene-014.md` through `scene-023.md`** in source order.
 
-For each scene:
-
-1. inspect the verified scene text against its page-provenance comments;
-2. emit one immutable record for each explicitly speaker-labelled utterance;
-3. preserve exact speaker labels and delimiters;
-4. retain cross-page utterances as one record;
-5. leave source-unlabelled speech outside the dialogue index;
-6. update `index.json` with record counts, zero-record scenes, cross-page records and any source-label/delimiter anomalies actually observed.
-
-Stop before blocked `s011`–`s013`. Do not skip into later scenes within the same first batch.
+Do not create shards for blocked `s011`–`s013`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
