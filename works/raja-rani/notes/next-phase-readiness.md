@@ -6,7 +6,7 @@ Source intake, structural mapping, canonical Tamil first pass, full rendered-sca
 
 The Tamil fidelity gate remains **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The repository-level Raja Rani bookkeeping gap has now been reconciled, and the immutable dialogue-index layer is initialized from verified scene derivatives only.
+The repository-level Raja Rani bookkeeping gap is reconciled, and immutable dialogue indexing is now **in progress from verified scene derivatives only**.
 
 Controlling files:
 
@@ -15,6 +15,7 @@ Controlling files:
 - `notes/scene-segmentation-audit.md`
 - `notes/scene-text-batch-010.md`
 - `notes/scene-layer-completion-dialogue-initialization.md`
+- `notes/dialogue-batch-001.md`
 - `scenes/index.json`
 - `scenes/README.md`
 - `dialogues/README.md`
@@ -41,9 +42,10 @@ Controlling files:
 - Scene-text Batch 001 through Batch 010 complete.
 - Verified scene-text files completed: **50/50 eligible**.
 - Remaining eligible scene-text files: **0**.
-- `data/works.json` now includes Raja Rani.
-- Repository root README now includes Raja Rani status.
+- `data/works.json` includes Raja Rani.
+- Repository root README includes Raja Rani status.
 - Dialogue layer initialized with schema, README and inventory index.
+- Dialogue Batch 001 completed for verified `scene-001.md` through `scene-010.md`.
 
 ## Scene-text completion position
 
@@ -64,6 +66,7 @@ The eligible scene-text layer is therefore **complete-with-review-source-exclusi
 - Batch 008 restored PDF 66's opening continuation label to source-visible `ராசா:`.
 - Batch 009 reopened PDF 70–74; no new canonical correction was required in verified PDF 70–73.
 - Batch 010 reopened PDF 75–79; no new canonical correction was required in the verified T056–T058 span on PDF 77–79.
+- Dialogue Batch 001 required no new canonical Tamil correction.
 
 No review page was promoted and the global fidelity totals remain unchanged.
 
@@ -78,14 +81,19 @@ These four pages remain `review` even though the audit phase itself is closed.
 
 ## Dialogue gate
 
-Dialogue indexing is now **initialized — verified-source-only**.
+Dialogue indexing is **in progress — verified-source-only**.
 
 Current dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- dialogue records: **0**
-- completed dialogue scenes: **0/50**
+- processed scenes: **10/50**
+- immutable labelled-dialogue records: **203**
+- zero-record scenes: **2 — `s008`, `s010`**
+- cross-page dialogue records: **3**
+- tracked non-colon source-label/delimiter anomalies: **3**
+
+Dialogue Batch 001 processed `s001`–`s010` and stopped before the blocked `s011`–`s013` group.
 
 Rules:
 
@@ -104,13 +112,13 @@ Rules:
 - scene segmentation/index: **COMPLETE — 58 segments**
 - verified scene-text derivatives: **COMPLETE — 50/50 eligible; 8 blocked**
 - repository bookkeeping: **RECONCILED**
-- dialogue extraction: **INITIALIZED — 0/50 eligible scenes processed**
+- dialogue extraction: **IN PROGRESS — 10/50 eligible scenes processed; 203 records**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
 - English translation: **not yet started; verified Tamil units only**
 
 ## Next activity
 
-**Dialogue Batch 001:** process verified `scene-001.md` through `scene-010.md` in source order.
+**Dialogue Batch 002:** resume after blocked `s011`–`s013` and process verified `scene-014.md` through `scene-023.md` in source order.
 
-Emit immutable records only for explicitly speaker-labelled utterances, preserve exact source labels/delimiters and page provenance, keep cross-page utterances as single records, and stop before blocked `s011`–`s013`.
+Do not create shards for blocked `s011`–`s013`. Preserve exact source labels/delimiters and page provenance, keep cross-page utterances as single records, and continue to leave source-unlabelled material outside the immutable dialogue index.
