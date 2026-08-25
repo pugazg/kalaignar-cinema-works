@@ -57,7 +57,7 @@ The Tamil fidelity gate is **closed-with-source-limitations**. These four page f
 - Scene-Text Batch 007: exact PDF 58–59 `ராஜா:` / `ராசா:` alternation restored before `scene-040.md` generation.
 - Scene-Text Batch 008: PDF 66 opening continuation label restored from normalized `ராஜா:` to source-visible `ராசா:`.
 - Scene-Text Batches 009–010: no new correction required in their verified source spans.
-- Dialogue Batches 001–002: no new canonical Tamil correction required.
+- Dialogue Batches 001–003: no new canonical Tamil correction required.
 
 No review page was promoted. The 75/4 source-page and 66/4 screenplay-page fidelity counts remain unchanged.
 
@@ -134,27 +134,28 @@ Completed dialogue batches:
 
 - Batch 001: verified `s001`–`s010` — **203 records**
 - Batch 002: verified `s014`–`s023`, after blocked `s011`–`s013` — **221 records**
+- Batch 003: verified `s024`–`s032`, stopping before blocked `s033` — **133 records**
 
 Current state:
 
 - dialogue-eligible verified scenes: **50**
 - dialogue-blocked scenes: **8**
-- processed dialogue scenes: **20/50**
-- immutable labelled-dialogue records: **424**
-- zero-record scenes: **6 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`**
+- processed dialogue scenes: **29/50**
+- immutable labelled-dialogue records: **557**
+- zero-record scenes: **10 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`**
 - cross-page records: **4**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
-The cross-page records are:
+The cross-page records remain:
 
 - `raja-rani-s004-d006` — PDF 13→14;
 - `raja-rani-s004-d023` — PDF 14→15;
 - `raja-rani-s005-d010` — PDF 15→18;
 - `raja-rani-s021-d048` — PDF 37→38.
 
-The three tracked non-colon source-label/delimiter forms remain those established in Batch 001. Batch 002 introduced no additional non-colon delimiter record.
+The three tracked non-colon source-label/delimiter forms remain those established in Batch 001. Batch 003 introduced no additional non-colon delimiter record.
 
-In `s015`, `ராணி வெளியிலே போர்டு பார்த்தேன்.` remains outside the immutable dialogue index because the verified source line has no printed speaker delimiter; no colon or speaker metadata was inferred. The unlabelled `எஸ் கமின்...` and `சாப்புடு...டேய் கரண்ட்!...` material likewise remains unassigned.
+In `s028`, the PDF-46 line `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` remains outside the immutable dialogue index because the verified source line has no printed speaker label/delimiter; no speaker metadata was inferred.
 
 Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Source-unlabelled speech, narrative/stage material and transition-only text remain outside the immutable dialogue index. Exact source speaker-label and delimiter forms are preserved; later character normalization must occur only in the character/entity derivative layer.
 
@@ -162,6 +163,7 @@ Batch reports:
 
 - `notes/dialogue-batch-001.md`
 - `notes/dialogue-batch-002.md`
+- `notes/dialogue-batch-003.md`
 
 ## Current gate
 
@@ -175,7 +177,7 @@ Batch reports:
 - scene segmentation/index: **complete — 58 segments**
 - scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
 - repository bookkeeping: **reconciled**
-- dialogue index: **in progress — 20/50 eligible scenes processed; 424 records**
+- dialogue index: **in progress — 29/50 eligible scenes processed; 557 records**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; eligible only from verified Tamil units**
@@ -184,6 +186,6 @@ No outside edition, film audio, subtitle, web quotation or memory is used to fil
 
 ## Next activity
 
-**Dialogue Batch 003:** process verified `scenes/scene-024.md` through `scenes/scene-032.md` in source order, then stop before blocked `s033`.
+**Dialogue Batch 004:** skip blocked `s033`, process verified `scenes/scene-034.md` through `scenes/scene-038.md` in source order, then stop before blocked `s039`.
 
-Create immutable records only for explicitly speaker-labelled utterances, preserve exact speaker labels and printed delimiters, preserve page provenance and cross-page continuity, and do not create a dialogue shard for blocked `s033`.
+Create immutable records only for explicitly speaker-labelled utterances, preserve exact speaker labels and printed delimiters, preserve page provenance and cross-page continuity, and do not create dialogue shards for blocked `s033` or `s039`.
