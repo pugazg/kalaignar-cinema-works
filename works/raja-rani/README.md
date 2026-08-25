@@ -152,22 +152,42 @@ The earlier repository-level gap is now reconciled:
 - work-local scene totals remain **50/50 eligible complete / 8 blocked**;
 - `notes/scene-layer-completion-dialogue-initialization.md` records the phase boundary.
 
-## Dialogue index — initialized
+## Dialogue index — in progress
 
-The immutable dialogue layer is now open under `dialogues/`:
+The immutable dialogue layer is active under `dialogues/`:
 
 - `dialogues/README.md`
 - `dialogues/schema.json`
 - `dialogues/index.json`
+- `dialogues/records/scene-###.json`
+
+Dialogue Batch 001 processed verified `scene-001.md` through `scene-010.md` and stopped before blocked `s011`–`s013`.
 
 Current dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- dialogue records: **0**
-- completed dialogue scenes: **0/50**
+- completed dialogue scenes: **10/50**
+- immutable labelled-dialogue records: **203**
+- zero-record scenes: **2 — `s008`, `s010`**
+- cross-page records: **3**
+- tracked non-colon source-label/delimiter anomalies: **3**
 
-Only explicitly speaker-labelled utterances from verified scene derivatives may become dialogue records. Source-unlabelled speech is not assigned an inferred speaker. Exact label and delimiter forms remain immutable here; character normalization belongs to a later derivative layer.
+Cross-page records retained as single immutable records:
+
+- `raja-rani-s004-d006` — PDF 13→14
+- `raja-rani-s004-d023` — PDF 14→15
+- `raja-rani-s005-d010` — PDF 15→18
+
+Tracked source-label/delimiter forms:
+
+- `raja-rani-s004-d001` — `நாடகத் துவக்கத்திற்கு முன்பு குரல்.`
+- `raja-rani-s004-d007` — `தமிழ்நாட்டுப் புலவர்.`
+- `raja-rani-s007-d023` — `கீதாவின் தாய் தாயம்மாள்;`
+
+Source-unlabelled speech, narrative/stage text, the written newspaper/letter material in `s009`, and transition-only material remain outside the immutable dialogue inventory. Character normalization belongs to the later character/entity layer.
+
+Batch report: `notes/dialogue-batch-001.md`.
 
 ## Current gate
 
@@ -178,7 +198,7 @@ Only explicitly speaker-labelled utterances from verified scene derivatives may 
 - Tamil fidelity gate: **closed-with-source-limitations**
 - scene segmentation/index: **complete — 58 segments**
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
-- dialogue index: **initialized — 0/50 eligible scenes processed**
+- dialogue index: **in progress — 10/50 eligible scenes processed; 203 records**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; verified Tamil units only**
@@ -194,6 +214,6 @@ Only explicitly speaker-labelled utterances from verified scene derivatives may 
 
 ## Next activity
 
-**Dialogue Batch 001:** process verified `scenes/scene-001.md` through `scenes/scene-010.md` in source order.
+**Dialogue Batch 002:** resume after blocked `s011`–`s013` and process verified `scenes/scene-014.md` through `scenes/scene-023.md` in source order.
 
-Emit immutable dialogue records only for explicitly speaker-labelled utterances, preserve exact speaker labels and printed delimiters, keep cross-page utterances as single records with multi-page provenance, and stop before blocked `s011`–`s013`.
+Do not create dialogue shards for blocked `s011`–`s013`. Preserve exact source labels/delimiters, keep genuine cross-page utterances as single records, and continue to exclude source-unlabelled material rather than assigning inferred speakers.
