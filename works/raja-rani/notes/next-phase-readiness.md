@@ -18,6 +18,7 @@ Controlling files:
 - `notes/dialogue-batch-001.md`
 - `notes/dialogue-batch-002.md`
 - `notes/dialogue-batch-003.md`
+- `notes/dialogue-batch-004.md`
 - `scenes/index.json`
 - `scenes/README.md`
 - `dialogues/README.md`
@@ -46,6 +47,7 @@ Controlling files:
 - Dialogue Batch 001 completed for verified `scene-001.md` through `scene-010.md`.
 - Dialogue Batch 002 completed for verified `scene-014.md` through `scene-023.md`, after the blocked `s011`–`s013` group.
 - Dialogue Batch 003 completed for verified `scene-024.md` through `scene-032.md`, stopping before blocked `s033`.
+- Dialogue Batch 004 completed for verified `scene-034.md` through `scene-038.md`, after blocked `s033` and stopping before blocked `s039`.
 
 ## Scene-text completion position
 
@@ -65,7 +67,7 @@ The eligible scene-text layer is therefore **complete-with-review-source-exclusi
 - Scene-Text Batch 007 restored the exact PDF 58–59 `ராஜா:` / `ராசா:` alternation.
 - Scene-Text Batch 008 restored PDF 66's opening continuation label to source-visible `ராசா:`.
 - Scene-Text Batches 009–010 required no further correction in their verified spans.
-- Dialogue Batches 001–003 required no new canonical Tamil correction.
+- Dialogue Batches 001–004 required no new canonical Tamil correction.
 
 No review page was promoted and the global fidelity totals remain unchanged.
 
@@ -86,15 +88,15 @@ Current dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- processed scenes: **29/50**
-- immutable labelled-dialogue records: **557**
-- zero-record scenes: **10 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`**
-- cross-page dialogue records: **4**
+- processed scenes: **34/50**
+- immutable labelled-dialogue records: **697**
+- zero-record scenes: **12 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`**
+- cross-page dialogue records: **5**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
-Batch 003 added **133 records** across `s024`–`s032`; `s027`, `s029`, `s030` and `s032` correctly yielded zero records. It added no new cross-page or delimiter-anomaly records.
+Batch 004 added **140 records** across `s034`–`s038`; `s037` and `s038` correctly yielded zero records. It added the cross-page record `raja-rani-s035-d012` across PDF 52→53 and introduced no new delimiter anomaly.
 
-The verified `s028` PDF-46 line `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` remains outside the immutable dialogue layer because it has no printed speaker label/delimiter. No speaker was inferred.
+The verified `s034` unlabelled lines `மெள்ள, மெள்ள...` and `ஆ...பூச்சி, பூச்சி...` remain outside the immutable dialogue layer because they have no printed speaker label/delimiter. No speaker was inferred.
 
 Rules:
 
@@ -113,13 +115,13 @@ Rules:
 - scene segmentation/index: **COMPLETE — 58 segments**
 - verified scene-text derivatives: **COMPLETE — 50/50 eligible; 8 blocked**
 - repository bookkeeping: **RECONCILED**
-- dialogue extraction: **IN PROGRESS — 29/50 eligible scenes processed; 557 records**
+- dialogue extraction: **IN PROGRESS — 34/50 eligible scenes processed; 697 records**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
 - English translation: **not yet started; verified Tamil units only**
 
 ## Next activity
 
-**Dialogue Batch 004:** skip blocked `s033`, process verified `scene-034.md` through `scene-038.md` in source order, then stop before blocked `s039`.
+**Dialogue Batch 005:** skip blocked `s039`, process verified `scene-040.md` through `scene-052.md` in source order, then stop before blocked `s053`–`s055`.
 
-Do not create dialogue shards for blocked `s033` or `s039`. Preserve exact source labels/delimiters and page provenance, keep cross-page utterances as single records, and continue to leave source-unlabelled material outside the immutable dialogue index.
+Do not create shards for blocked `s039`, `s053`, `s054` or `s055`. Preserve exact source labels/delimiters and page provenance, keep cross-page utterances as single records, and continue to leave source-unlabelled material outside the immutable dialogue index.
