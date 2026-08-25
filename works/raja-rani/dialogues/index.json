@@ -18,11 +18,11 @@
     "raja-rani-s054",
     "raja-rani-s055"
   ],
-  "dialogue_records": 424,
-  "scenes_completed": 20,
+  "dialogue_records": 557,
+  "scenes_completed": 29,
   "scenes_expected": 50,
-  "completed_scene_ordinals": [1,2,3,4,5,6,7,8,9,10,14,15,16,17,18,19,20,21,22,23],
-  "zero_record_scenes": [8,10,14,19,20,22],
+  "completed_scene_ordinals": [1,2,3,4,5,6,7,8,9,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32],
+  "zero_record_scenes": [8,10,14,19,20,22,27,29,30,32],
   "cross_page_records": [
     "raja-rani-s004-d006",
     "raja-rani-s004-d023",
@@ -34,7 +34,7 @@
     "raja-rani-s004-d007",
     "raja-rani-s007-d023"
   ],
-  "next_scene_batch": [24,25,26,27,28,29,30,31,32],
+  "next_scene_batch": [34,35,36,37,38],
   "next_structured_derivative": null,
   "scene_files": [
     {"scene_id":"raja-rani-s001","scene_ordinal":1,"transition_audit_id":"T001","file":"records/scene-001.json","record_count":9},
@@ -56,6 +56,15 @@
     {"scene_id":"raja-rani-s020","scene_ordinal":20,"transition_audit_id":"T020","file":"records/scene-020.json","record_count":0},
     {"scene_id":"raja-rani-s021","scene_ordinal":21,"transition_audit_id":"T021","file":"records/scene-021.json","record_count":50},
     {"scene_id":"raja-rani-s022","scene_ordinal":22,"transition_audit_id":"T022","file":"records/scene-022.json","record_count":0},
-    {"scene_id":"raja-rani-s023","scene_ordinal":23,"transition_audit_id":"T023","file":"records/scene-023.json","record_count":36}
+    {"scene_id":"raja-rani-s023","scene_ordinal":23,"transition_audit_id":"T023","file":"records/scene-023.json","record_count":36},
+    {"scene_id":"raja-rani-s024","scene_ordinal":24,"transition_audit_id":"T024","file":"records/scene-024.json","record_count":32},
+    {"scene_id":"raja-rani-s025","scene_ordinal":25,"transition_audit_id":"T025","file":"records/scene-025.json","record_count":33},
+    {"scene_id":"raja-rani-s026","scene_ordinal":26,"transition_audit_id":"T026","file":"records/scene-026.json","record_count":1},
+    {"scene_id":"raja-rani-s027","scene_ordinal":27,"transition_audit_id":"T027","file":"records/scene-027.json","record_count":0},
+    {"scene_id":"raja-rani-s028","scene_ordinal":28,"transition_audit_id":"T028","file":"records/scene-028.json","record_count":64},
+    {"scene_id":"raja-rani-s029","scene_ordinal":29,"transition_audit_id":"T029","file":"records/scene-029.json","record_count":0},
+    {"scene_id":"raja-rani-s030","scene_ordinal":30,"transition_audit_id":"T030","file":"records/scene-030.json","record_count":0},
+    {"scene_id":"raja-rani-s031","scene_ordinal":31,"transition_audit_id":"T031","file":"records/scene-031.json","record_count":3},
+    {"scene_id":"raja-rani-s032","scene_ordinal":32,"transition_audit_id":"T032","file":"records/scene-032.json","record_count":0}
   ]
 }
