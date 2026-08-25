@@ -17,6 +17,7 @@ Controlling files:
 - `notes/scene-layer-completion-dialogue-initialization.md`
 - `notes/dialogue-batch-001.md`
 - `notes/dialogue-batch-002.md`
+- `notes/dialogue-batch-003.md`
 - `scenes/index.json`
 - `scenes/README.md`
 - `dialogues/README.md`
@@ -44,6 +45,7 @@ Controlling files:
 - Dialogue layer initialized with schema, README and inventory index.
 - Dialogue Batch 001 completed for verified `scene-001.md` through `scene-010.md`.
 - Dialogue Batch 002 completed for verified `scene-014.md` through `scene-023.md`, after the blocked `s011`–`s013` group.
+- Dialogue Batch 003 completed for verified `scene-024.md` through `scene-032.md`, stopping before blocked `s033`.
 
 ## Scene-text completion position
 
@@ -63,7 +65,7 @@ The eligible scene-text layer is therefore **complete-with-review-source-exclusi
 - Scene-Text Batch 007 restored the exact PDF 58–59 `ராஜா:` / `ராசா:` alternation.
 - Scene-Text Batch 008 restored PDF 66's opening continuation label to source-visible `ராசா:`.
 - Scene-Text Batches 009–010 required no further correction in their verified spans.
-- Dialogue Batches 001–002 required no new canonical Tamil correction.
+- Dialogue Batches 001–003 required no new canonical Tamil correction.
 
 No review page was promoted and the global fidelity totals remain unchanged.
 
@@ -84,15 +86,15 @@ Current dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- processed scenes: **20/50**
-- immutable labelled-dialogue records: **424**
-- zero-record scenes: **6 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`**
+- processed scenes: **29/50**
+- immutable labelled-dialogue records: **557**
+- zero-record scenes: **10 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`**
 - cross-page dialogue records: **4**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
-Batch 002 added **221 records** across `s014`–`s023`; `s014`, `s019`, `s020` and `s022` correctly yielded zero records. The only new cross-page dialogue record is `raja-rani-s021-d048` across PDF 37→38.
+Batch 003 added **133 records** across `s024`–`s032`; `s027`, `s029`, `s030` and `s032` correctly yielded zero records. It added no new cross-page or delimiter-anomaly records.
 
-The verified `s015` line `ராணி வெளியிலே போர்டு பார்த்தேன்.` remains outside the immutable dialogue layer because no printed speaker delimiter follows `ராணி`. No colon was inferred.
+The verified `s028` PDF-46 line `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` remains outside the immutable dialogue layer because it has no printed speaker label/delimiter. No speaker was inferred.
 
 Rules:
 
@@ -111,13 +113,13 @@ Rules:
 - scene segmentation/index: **COMPLETE — 58 segments**
 - verified scene-text derivatives: **COMPLETE — 50/50 eligible; 8 blocked**
 - repository bookkeeping: **RECONCILED**
-- dialogue extraction: **IN PROGRESS — 20/50 eligible scenes processed; 424 records**
+- dialogue extraction: **IN PROGRESS — 29/50 eligible scenes processed; 557 records**
 - character/entity index: **not yet started**
 - song/performance authorship gate: **not yet started**
 - English translation: **not yet started; verified Tamil units only**
 
 ## Next activity
 
-**Dialogue Batch 003:** process verified `scene-024.md` through `scene-032.md` in source order, then stop before blocked `s033`.
+**Dialogue Batch 004:** skip blocked `s033`, process verified `scene-034.md` through `scene-038.md` in source order, then stop before blocked `s039`.
 
-Do not create a shard for blocked `s033`. Preserve exact source labels/delimiters and page provenance, keep cross-page utterances as single records, and continue to leave source-unlabelled material outside the immutable dialogue index.
+Do not create dialogue shards for blocked `s033` or `s039`. Preserve exact source labels/delimiters and page provenance, keep cross-page utterances as single records, and continue to leave source-unlabelled material outside the immutable dialogue index.
