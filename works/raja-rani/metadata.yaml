@@ -18,7 +18,7 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: dialogue-index-complete-eligible-only-character-index-next
+  structured_derivatives: character-index-in-progress-after-dialogue-completion
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -43,7 +43,12 @@ status:
   dialogue_source_label_anomaly_records: 3
   dialogue_latest_batch: works/raja-rani/notes/dialogue-batch-006.md
   dialogue_next_scene_batch: null
-  character_index: not-started
+  character_index: in-progress-exact-label-inventory-next
+  character_index_path: works/raja-rani/characters/index.json
+  character_schema_path: works/raja-rani/characters/schema.json
+  character_initialization_checkpoint: works/raja-rani/notes/character-layer-initialization.md
+  character_label_inventory: not-started
+  character_entity_mapping: blocked-until-label-inventory-complete
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
   notes:
@@ -113,4 +118,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Initialize and execute the character/entity derivative gate from the completed 892-record immutable dialogue inventory. Preserve exact dialogue speaker labels unchanged; normalize/reconcile labels only in the downstream character mapping, and exclude all eight review-source-blocked scenes from character evidence."
+next_action: "Character exact-label inventory: scan all 892 immutable eligible dialogue records and create characters/labels-inventory.json with every distinct exact non-empty speaker_label and its scene ordinals; do not begin entity normalization until inventory coverage is complete."
