@@ -62,28 +62,9 @@ Batch report: `../notes/dialogue-batch-001.md`.
 
 Resumed after blocked `s011`–`s013` and processed verified `scene-014.md` through `scene-023.md`.
 
-Per-scene counts:
+Per-scene counts: s014 0, s015 36, s016 10, s017 48, s018 41, s019 0, s020 0, s021 50, s022 0, s023 36.
 
-- s014: 0
-- s015: 36
-- s016: 10
-- s017: 48
-- s018: 41
-- s019: 0
-- s020: 0
-- s021: 50
-- s022: 0
-- s023: 36
-
-Batch total: **221 records**.
-
-New zero-record scenes: `s014`, `s019`, `s020`, `s022`.
-
-New cross-page record:
-
-- `raja-rani-s021-d048` — PDF 37→38 / printed 36→37
-
-No new non-colon speaker-label delimiter anomaly was promoted. Exact label variants and abbreviations remain preserved without normalization.
+Batch total: **221 records**. New zero-record scenes: `s014`, `s019`, `s020`, `s022`. New cross-page record: `raja-rani-s021-d048` — PDF 37→38 / printed 36→37.
 
 Important no-inference exclusions include `ராணி வெளியிலே போர்டு பார்த்தேன்.` in `s015`, which has no printed speaker delimiter, plus the unlabelled `எஸ் கமின்...` / `சாப்புடு...டேய் கரண்ட்!...` material in the same scene.
 
@@ -93,23 +74,9 @@ Batch report: `../notes/dialogue-batch-002.md`.
 
 Processed verified `scene-024.md` through `scene-032.md` and stopped before blocked `s033`.
 
-Per-scene counts:
+Per-scene counts: s024 32, s025 33, s026 1, s027 0, s028 64, s029 0, s030 0, s031 3, s032 0.
 
-- s024: 32
-- s025: 33
-- s026: 1
-- s027: 0
-- s028: 64
-- s029: 0
-- s030: 0
-- s031: 3
-- s032: 0
-
-Batch total: **133 records**.
-
-New zero-record scenes: `s027`, `s029`, `s030`, `s032`.
-
-No new cross-page record or non-colon speaker-label delimiter anomaly was added. Exact source variants such as `இந்தி`, `அகல்`, `முனி`, `ராஜ`, `ராசா`, `சாந்`, `சம`, and `வேலை` remain unnormalized.
+Batch total: **133 records**. New zero-record scenes: `s027`, `s029`, `s030`, `s032`.
 
 In `s028`, the unlabelled PDF-46 continuation `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` remains outside the immutable dialogue index rather than receiving a context-inferred speaker.
 
@@ -119,40 +86,47 @@ Batch report: `../notes/dialogue-batch-003.md`.
 
 Skipped blocked `s033`, processed verified `scene-034.md` through `scene-038.md`, and stopped before blocked `s039`.
 
-Per-scene counts:
+Per-scene counts: s034 65, s035 27, s036 48, s037 0, s038 0.
 
-- s034: 65
-- s035: 27
-- s036: 48
-- s037: 0
-- s038: 0
-
-Batch total: **140 records**.
-
-New zero-record scenes: `s037`, `s038`.
-
-New cross-page record:
-
-- `raja-rani-s035-d012` — PDF 52→53 / printed 51→52 (`ராஜா:`)
-
-No new non-colon speaker-label delimiter anomaly was added. Exact source variants such as `ராசா`, `ராஜா`, `ஞான`, `ஞா`, `கர`, `சம` and `சாந்` remain unnormalized.
+Batch total: **140 records**. New zero-record scenes: `s037`, `s038`. New cross-page record: `raja-rani-s035-d012` — PDF 52→53 / printed 51→52 (`ராஜா:`).
 
 The unlabelled `மெள்ள, மெள்ள...` and `ஆ...பூச்சி, பூச்சி...` lines in `s034` remain outside the immutable dialogue inventory rather than receiving context-inferred speaker metadata.
 
 Batch report: `../notes/dialogue-batch-004.md`.
 
+## Dialogue Batch 005
+
+Skipped blocked `s039`, processed verified `scene-040.md` through `scene-052.md`, and stopped before blocked `s053`–`s055`.
+
+Per-scene counts: s040 17, s041 41, s042 0, s043 0, s044 11, s045 28, s046 5, s047 10, s048 0, s049 3, s050 4, s051 25, s052 21.
+
+Batch total: **165 records**. New zero-record scenes: `s042`, `s043`, `s048`.
+
+New cross-page records:
+
+- `raja-rani-s040-d008` — PDF 58→59 / printed 57→58
+- `raja-rani-s044-d011` — PDF 62→63 / printed 61→62
+- `raja-rani-s046-d001` — PDF 64→65 / printed 63→64
+- `raja-rani-s050-d001` — PDF 66→67 / printed 65→66
+- `raja-rani-s051-d025` — PDF 69→70 / printed 68→69
+- `raja-rani-s052-d011` — PDF 71→72 / printed 70→71
+
+No new non-colon delimiter anomaly was found. Written letter material in `s049` and source-unlabelled speech in `s052`, including `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?`, remain outside the immutable dialogue inventory.
+
+Batch report: `../notes/dialogue-batch-005.md`.
+
 ## Current totals
 
 - eligible dialogue scenes: **50**
 - blocked scenes: **8**
-- processed dialogue scenes: **34/50**
-- immutable dialogue records: **697**
-- zero-record scenes: **12** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`
-- cross-page records: **5**
+- processed dialogue scenes: **47/50**
+- immutable dialogue records: **862**
+- zero-record scenes: **15** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`
+- cross-page records: **11**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
 ## Next dialogue batch
 
-Skip blocked `s039`, process verified **`scene-040.md` through `scene-052.md`** in source order, then stop before blocked `s053`–`s055`.
+Skip blocked `s053`–`s055` and process the final eligible verified **`scene-056.md` through `scene-058.md`** in source order.
 
-Do not create dialogue shards for blocked `s039`, `s053`, `s054` or `s055`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
+That batch should close the dialogue layer at **50/50 eligible scenes** while retaining all eight review-source-blocked scenes outside immutable dialogue production. Character/entity normalization must remain downstream of the immutable dialogue layer.
