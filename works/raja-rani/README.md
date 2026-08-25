@@ -166,15 +166,16 @@ Completed dialogue production:
 - Batch 001: verified `scene-001.md` through `scene-010.md` — **203 records**
 - Batch 002: verified `scene-014.md` through `scene-023.md`, after blocked `s011`–`s013` — **221 records**
 - Batch 003: verified `scene-024.md` through `scene-032.md`, stopping before blocked `s033` — **133 records**
+- Batch 004: verified `scene-034.md` through `scene-038.md`, after blocked `s033` and stopping before blocked `s039` — **140 records**
 
 Current dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- completed dialogue scenes: **29/50**
-- immutable labelled-dialogue records: **557**
-- zero-record scenes: **10 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`**
-- cross-page records: **4**
+- completed dialogue scenes: **34/50**
+- immutable labelled-dialogue records: **697**
+- zero-record scenes: **12 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`**
+- cross-page records: **5**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
 Cross-page records retained as single immutable records:
@@ -183,6 +184,7 @@ Cross-page records retained as single immutable records:
 - `raja-rani-s004-d023` — PDF 14→15
 - `raja-rani-s005-d010` — PDF 15→18
 - `raja-rani-s021-d048` — PDF 37→38
+- `raja-rani-s035-d012` — PDF 52→53
 
 Tracked non-colon source-label/delimiter forms remain:
 
@@ -190,13 +192,14 @@ Tracked non-colon source-label/delimiter forms remain:
 - `raja-rani-s004-d007` — `தமிழ்நாட்டுப் புலவர்.`
 - `raja-rani-s007-d023` — `கீதாவின் தாய் தாயம்மாள்;`
 
-Dialogue extraction continues to leave source-unlabelled material outside the immutable inventory. In Batch 003, the PDF-46 line `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` in `s028` has no printed speaker label/delimiter and therefore remains unassigned rather than being attributed by context.
+Dialogue extraction continues to leave source-unlabelled material outside the immutable inventory. Batch 004 deliberately leaves the unlabelled `மெள்ள, மெள்ள...` and `ஆ...பூச்சி, பூச்சி...` lines in `s034` unassigned rather than inferring a speaker from context.
 
 Batch reports:
 
 - `notes/dialogue-batch-001.md`
 - `notes/dialogue-batch-002.md`
 - `notes/dialogue-batch-003.md`
+- `notes/dialogue-batch-004.md`
 
 ## Current gate
 
@@ -207,7 +210,7 @@ Batch reports:
 - Tamil fidelity gate: **closed-with-source-limitations**
 - scene segmentation/index: **complete — 58 segments**
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
-- dialogue index: **in progress — 29/50 eligible scenes processed; 557 records**
+- dialogue index: **in progress — 34/50 eligible scenes processed; 697 records**
 - character/entity index: **not started**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; verified Tamil units only**
@@ -223,6 +226,6 @@ Batch reports:
 
 ## Next activity
 
-**Dialogue Batch 004:** skip blocked `s033`, process verified `scenes/scene-034.md` through `scenes/scene-038.md` in source order, then stop before blocked `s039`.
+**Dialogue Batch 005:** skip blocked `s039`, process verified `scenes/scene-040.md` through `scenes/scene-052.md` in source order, then stop before blocked `s053`–`s055`.
 
-Do not create dialogue shards for blocked `s033` or `s039`. Preserve exact source labels/delimiters, keep genuine cross-page utterances as single records, and continue to exclude source-unlabelled material rather than assigning inferred speakers.
+Do not create dialogue shards for blocked `s039`, `s053`, `s054` or `s055`. Preserve exact source labels/delimiters, keep genuine cross-page utterances as single records, and continue to exclude source-unlabelled material rather than assigning inferred speakers.
