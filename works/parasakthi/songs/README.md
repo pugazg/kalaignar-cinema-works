@@ -37,16 +37,45 @@ Final authorship state: **14/14 canonical occurrence records verified**, includi
 1. [`tracks/01-desam-gnanam-kalvi.md`](tracks/01-desam-gnanam-kalvi.md) — `தேசம் ஞானம் கல்வி` — உடுமலை நாராயண கவி — occurrences `005` + `006`.
 2. [`tracks/02-kaa-kaa-kaa.md`](tracks/02-kaa-kaa-kaa.md) — `கா கா கா` — உடுமலை நாராயண கவி.
 3. [`tracks/03-nenju-porukkuthillaiye.md`](tracks/03-nenju-porukkuthillaiye.md) — `நெஞ்சு பொறுக்கு தில்லையே` — சுப்பிரமணிய பாரதி.
-4. [`tracks/04-il-vaazhvinile.md`](tracks/04-il-vaazhvinile.md) — `இல் வாழ்வினிலே` — பாரதிதாசன்.
+4. [`tracks/04-il-vaazhvinile.md`](tracks/04-il-vaazhvinile.md) — `இல் வாழ்வினிலே` — மு. கருணாநிதி (`anthology-attributed`).
 5. [`tracks/05-pudhu-pennin-manathai.md`](tracks/05-pudhu-pennin-manathai.md) — `புது பெண்ணின் மனதை` — கே. பி. காமாட்சிசுந்தரம் — primary scene 33 plus scene-47 reprise.
 6. [`tracks/06-o-rasikkum-seemane.md`](tracks/06-o-rasikkum-seemane.md) — `ஓ ரசிக்கும் சீமானே` — கே. பி. காமாட்சிசுந்தரம்.
 7. [`tracks/07-ellorum-vaazha-vendum.md`](tracks/07-ellorum-vaazha-vendum.md) — `எல்லோரும் வாழ வேண்டும்` — அண்ணல் தங்கோ.
 8. [`tracks/08-konju-mozhi-sollum.md`](tracks/08-konju-mozhi-sollum.md) — `கொஞ்சு மொழி சொல்லும்` — கே. பி. காமாட்சிசுந்தரம்.
-9. [`tracks/09-poomalai.md`](tracks/09-poomalai.md) — `பூமாலை` — மு. கருணாநிதி.
+9. [`tracks/09-poomalai.md`](tracks/09-poomalai.md) — `பூமாலை` — மு. கருணாநிதி (`anthology-attributed`).
 10. [`tracks/10-porule-illaarkku.md`](tracks/10-porule-illaarkku.md) — `பொருளே இல்லார்க்கு` — கே. பி. காமாட்சிசுந்தரம்.
 11. [`tracks/11-vaazhga-vaazhgave.md`](tracks/11-vaazhga-vaazhgave.md) — `வாழ்க வாழ்கவே` — பாரதிதாசன்.
 
 The soundtrack title in file metadata follows `tracklist-evidence.json`; the Tamil body follows the verified canonical scene text exactly. Track metadata must never be used to normalize the source wording.
+
+## Cross-witness attribution from the Kalaignar film-song anthology
+
+The verified anthology `கலைஞர் திரை இசைப் பாடல்கள்` names two of this booklet's
+songs at item level. Its contents page (PDF 28) lists each title beside `கலைஞர்`:
+
+| Parasakthi occurrence | Scene | Anthology record | Evidence |
+|---|---|---|---|
+| `parasakthi-song-002` | 4 | `kalaignar-song-002` (anthology song 2, PDF 29) | [`match-report-002-il-vaazhvinile.md`](match-report-002-il-vaazhvinile.md) |
+| `parasakthi-song-004` | 12 | `kalaignar-song-003` (anthology song 3, PDF 30) | [`match-report-004-poomaalai-neeye.md`](match-report-004-poomaalai-neeye.md) |
+
+For `parasakthi-song-002` this supersedes the secondary soundtrack table, which
+attributed the song to **பாரதிதாசன்**. That witness is retained unchanged in
+`tracklist-evidence.json` and the disagreement is recorded in the match report
+rather than erased. For `parasakthi-song-004` the two witnesses agree on
+`மு. கருணாநிதி`; only the controlling evidence tier changed.
+
+Authority order, not collapsed into one:
+
+1. the scanned Parasakthi booklet controls the canonical Tamil text;
+2. the booklet's song-credits page establishes six contributors booklet-wide,
+   without pairing any name to a song;
+3. the Kalaignar film-song anthology establishes anthology-level item
+   attribution for the two songs it names;
+4. the external soundtrack table is weaker secondary evidence.
+
+`anthology-attributed` is **not** original-film `primary-source-verified`
+authorship. Neither witness changes one character of the canonical scene text:
+scene 4 keeps `இவ்வாழ்வினிலே` and scene 12 keeps `பூமாலே`.
 
 ## Separate quoted verse
 

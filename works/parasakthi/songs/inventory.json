@@ -14,8 +14,12 @@
       "canonical_scene": 1,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "வாழ்க வாழ்கவே வாழ்க வாழ்கவே",
-      "pdf_pages": [4],
-      "printed_pages": [3],
+      "pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3
+      ],
       "canonical_scene_file": "../scenes/scene-01.md",
       "dialogue_index_overlap": false,
       "performance_context": "Opening dance/song at the gathering before Thangappan speaks.",
@@ -34,18 +38,22 @@
       "canonical_scene": 4,
       "candidate_kind": "speaker-labelled-verse",
       "opening_line_ta": "இவ்வாழ்வினிலே ஒளி ஏற்றும் தீபம்",
-      "pdf_pages": [8],
-      "printed_pages": [7],
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        7
+      ],
       "canonical_scene_file": "../scenes/scene-04.md",
       "dialogue_index_overlap": true,
       "performance_context": "Thangappan and Kalyani alternate labelled sung/verse lines; `இரு` marks their joint closing line.",
       "relation": null,
       "authorship": {
         "status": "verified",
-        "lyricist_ta": "பாரதிதாசன்",
-        "evidence_basis": "external-source",
-        "evidence_reference": "tracklist-evidence.json: track 4 (`இல் வாழ்வினிலே`)",
-        "notes": "The soundtrack title is a shortened form of the canonical opening. Speaker labels identify performers, not authorship; the item-level tracklist supplies the lyricist."
+        "lyricist_ta": "மு. கருணாநிதி",
+        "evidence_basis": "anthology-attributed",
+        "evidence_reference": "works/kalaignar-thirai-isai-paadalgal/songs/song-002.md (kalaignar-song-002, anthology song 2, lyric PDF 29); anthology contents PDF 28 lists `இல் வாழ்வினிலே ஒளி ஏற்றும் தீபம்` beside `கலைஞர்`. Cross-witness comparison: songs/match-report-002-il-vaazhvinile.md",
+        "notes": "Attribution corrected from the verified Kalaignar film-song anthology, which names this song at item level. SUPERSEDED EVIDENCE, RETAINED: tracklist-evidence.json track 4 (`இல் வாழ்வினிலே`) attributes the song to பாரதிதாசன்; that secondary soundtrack-table witness is kept unchanged and is no longer the controlling evidence for this record. `anthology-attributed` is not original-film primary-source-verified authorship: the 2024 anthology is authoritative for what that edition prints and attributes. Speaker labels identify performers, not authorship. This is metadata only and does not alter the canonical lyric transcription — the scene keeps `இவ்வாழ்வினிலே`."
       },
       "notes": "This block already overlaps dialogue records because every verse line is explicitly speaker-labelled."
     },
@@ -54,8 +62,14 @@
       "canonical_scene": 8,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "ஓ ரசிகரும் சீமானே வா",
-      "pdf_pages": [11, 12],
-      "printed_pages": [10, 11],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "printed_pages": [
+        10,
+        11
+      ],
       "canonical_scene_file": "../scenes/scene-08.md",
       "dialogue_index_overlap": false,
       "performance_context": "Dance-house performance observed by Gunasekaran and Jolly.",
@@ -74,8 +88,12 @@
       "canonical_scene": 12,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "பூமாலே நீயே புழுதி மண்மேலே வீணே",
-      "pdf_pages": [14],
-      "printed_pages": [13],
+      "pdf_pages": [
+        14
+      ],
+      "printed_pages": [
+        13
+      ],
       "canonical_scene_file": "../scenes/scene-12.md",
       "dialogue_index_overlap": false,
       "performance_context": "Kalyani sings while holding her child.",
@@ -83,9 +101,9 @@
       "authorship": {
         "status": "verified",
         "lyricist_ta": "மு. கருணாநிதி",
-        "evidence_basis": "external-source",
-        "evidence_reference": "tracklist-evidence.json: track 9 (`பூமாலை`)",
-        "notes": "Resolved from the matched item-level soundtrack table; this attribution is metadata only and does not alter the canonical lyric transcription."
+        "evidence_basis": "anthology-attributed",
+        "evidence_reference": "works/kalaignar-thirai-isai-paadalgal/songs/song-003.md (kalaignar-song-003, anthology song 3, lyric PDF 30); anthology contents PDF 28 lists `பூமாலை நீயே` beside `கலைஞர்`. Cross-witness comparison: songs/match-report-004-poomaalai-neeye.md",
+        "notes": "Lyricist unchanged; the controlling evidence is upgraded from the secondary soundtrack table to the verified Kalaignar film-song anthology, which names this song at item level. EARLIER EVIDENCE, RETAINED: tracklist-evidence.json track 9 (`பூமாலை`) also names மு. கருணாநிதி, so the two witnesses agree and only the evidence tier changes. `anthology-attributed` is not original-film primary-source-verified authorship. Metadata only; the scene keeps `பூமாலே`."
       },
       "notes": "Song ends before Parvathi enters on PDF 15."
     },
@@ -94,8 +112,14 @@
       "canonical_scene": 15,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "தேசம், ஞானம், கல்வி, ஈசன் பூசையெல்லாம்",
-      "pdf_pages": [19, 20],
-      "printed_pages": [18, 19],
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "printed_pages": [
+        18,
+        19
+      ],
       "canonical_scene_file": "../scenes/scene-15.md",
       "dialogue_index_overlap": false,
       "performance_context": "Gunasekaran, acting like a madman, sings while collecting money.",
@@ -114,8 +138,12 @@
       "canonical_scene": 15,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "ஆரியக் கூத்தாடினாலும்",
-      "pdf_pages": [20],
-      "printed_pages": [19],
+      "pdf_pages": [
+        20
+      ],
+      "printed_pages": [
+        19
+      ],
       "canonical_scene_file": "../scenes/scene-15.md",
       "dialogue_index_overlap": false,
       "performance_context": "Second structurally distinct verse section within Gunasekaran's street performance, using the `தாண்டவக்கோனே` refrain.",
@@ -134,8 +162,14 @@
       "canonical_scene": 17,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "கொஞ்சும் மொழி சொல்லும் கிளியே",
-      "pdf_pages": [21, 22],
-      "printed_pages": [20, 21],
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "printed_pages": [
+        20,
+        21
+      ],
       "canonical_scene_file": "../scenes/scene-17.md",
       "dialogue_index_overlap": false,
       "performance_context": "Kalyani sings a lullaby to her child while Gunasekaran watches unseen.",
@@ -154,8 +188,14 @@
       "canonical_scene": 26,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "கா—கா—கா—கா—",
-      "pdf_pages": [31, 32],
-      "printed_pages": [30, 31],
+      "pdf_pages": [
+        31,
+        32
+      ],
+      "printed_pages": [
+        30,
+        31
+      ],
       "canonical_scene_file": "../scenes/scene-26.md",
       "dialogue_index_overlap": false,
       "performance_context": "Gunasekaran sings beside the well while eating stolen food; the scene explicitly describes him as singing.",
@@ -174,8 +214,12 @@
       "canonical_scene": 28,
       "candidate_kind": "quoted-verse",
       "opening_line_ta": "கோரிக்கையற்று கிடக்குதண்ணே—இங்கு",
-      "pdf_pages": [33],
-      "printed_pages": [32],
+      "pdf_pages": [
+        33
+      ],
+      "printed_pages": [
+        32
+      ],
       "canonical_scene_file": "../scenes/scene-28.md",
       "dialogue_index_overlap": false,
       "performance_context": "Narayana Pillai introduces a printed/literary quotation while discussing widowhood; this is verse quotation, not staged singing.",
@@ -194,8 +238,12 @@
       "canonical_scene": 29,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "பொருளே இல்லார்க்கு தொல்லையா",
-      "pdf_pages": [35],
-      "printed_pages": [34],
+      "pdf_pages": [
+        35
+      ],
+      "printed_pages": [
+        34
+      ],
       "canonical_scene_file": "../scenes/scene-29.md",
       "dialogue_index_overlap": false,
       "performance_context": "Kalyani walks the street suffering from hunger; the scene consists of the verse/song block.",
@@ -214,8 +262,12 @@
       "canonical_scene": 33,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "புதுப்பெண்ணின் மனதைத் தொட்டுப் போறவரே",
-      "pdf_pages": [40],
-      "printed_pages": [39],
+      "pdf_pages": [
+        40
+      ],
+      "printed_pages": [
+        39
+      ],
       "canonical_scene_file": "../scenes/scene-33.md",
       "dialogue_index_overlap": false,
       "performance_context": "Verse/song occurs inside Vimala's dream sequence.",
@@ -234,8 +286,14 @@
       "canonical_scene": 39,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "நெஞ்சு பொறுக்குதில்லையே—இந்த",
-      "pdf_pages": [44, 45],
-      "printed_pages": [43, 44],
+      "pdf_pages": [
+        44,
+        45
+      ],
+      "printed_pages": [
+        43,
+        44
+      ],
       "canonical_scene_file": "../scenes/scene-39.md",
       "dialogue_index_overlap": false,
       "performance_context": "Gunasekaran expresses his anguish through song; afterward he explicitly says he did not compose/sing it originally and that it is another person's song.",
@@ -254,8 +312,12 @@
       "canonical_scene": 47,
       "candidate_kind": "unlabelled-reprise",
       "opening_line_ta": "புதுப் பெண்ணின் மனதைத் தொட்டுப் போறவரே",
-      "pdf_pages": [56],
-      "printed_pages": [55],
+      "pdf_pages": [
+        56
+      ],
+      "printed_pages": [
+        55
+      ],
       "canonical_scene_file": "../scenes/scene-47.md",
       "dialogue_index_overlap": false,
       "performance_context": "Short reprise after Gunasekaran stops Vimala from leaving.",
@@ -277,8 +339,12 @@
       "canonical_scene": 48,
       "candidate_kind": "unlabelled-song",
       "opening_line_ta": "எல்லோரும் வாழ வேண்டும்—உயிர்கள்",
-      "pdf_pages": [57],
-      "printed_pages": [56],
+      "pdf_pages": [
+        57
+      ],
+      "printed_pages": [
+        56
+      ],
       "canonical_scene_file": "../scenes/scene-48.md",
       "dialogue_index_overlap": false,
       "performance_context": "Closing collective song at the opening of the orphanage; scene 47 immediately precedes it with `(பேதமின்றி பாடுகின்றனர்)`.",
@@ -292,5 +358,19 @@
       },
       "notes": "Ends before `—சுபம்—` and the printer line."
     }
-  ]
+  ],
+  "evidence_basis_counts": {
+    "anthology-attributed": 2,
+    "canonical-context-explicit": 1,
+    "external-source": 11
+  },
+  "kalaignar_attributed_occurrences": [
+    "parasakthi-song-002",
+    "parasakthi-song-004"
+  ],
+  "cross_witness_reports": [
+    "match-report-002-il-vaazhvinile.md",
+    "match-report-004-poomaalai-neeye.md"
+  ],
+  "authority_note": "Authority order for this work: (1) the scanned Parasakthi booklet controls canonical Tamil text; (2) the booklet's song-credits page establishes six contributors booklet-wide without item pairing; (3) the verified Kalaignar film-song anthology establishes anthology-level item attribution for the two songs it names; (4) the external soundtrack table is weaker secondary evidence. These are not collapsed into one authority, and anthology attribution does not become original-film primary-source-verified authorship."
 }

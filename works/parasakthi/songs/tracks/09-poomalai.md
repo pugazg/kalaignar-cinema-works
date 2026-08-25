@@ -10,7 +10,8 @@
 - **Scene:** 12
 - **PDF page:** 14
 - **Printed page:** 13
-- **Authorship evidence:** `../tracklist-evidence.json`
+- **Authorship evidence:** `anthology-attributed` — `works/kalaignar-thirai-isai-paadalgal/songs/song-003.md`; cross-witness comparison in [`../match-report-004-poomaalai-neeye.md`](../match-report-004-poomaalai-neeye.md)
+- **Earlier evidence:** `../tracklist-evidence.json` track 9 also names மு. கருணாநிதி; the witnesses agree and only the controlling evidence tier changed
 - **Tamil authority:** `../../scenes/scene-12.md`
 
 பூமாலே நீயே புழுதி மண்மேலே வீணே  

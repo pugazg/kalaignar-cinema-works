@@ -20,17 +20,85 @@
     "expected_files": 11,
     "completed_files": 11,
     "files": [
-      {"track": 1, "path": "tracks/01-desam-gnanam-kalvi.md", "occurrences": ["parasakthi-song-005", "parasakthi-song-006"]},
-      {"track": 2, "path": "tracks/02-kaa-kaa-kaa.md", "occurrences": ["parasakthi-song-008"]},
-      {"track": 3, "path": "tracks/03-nenju-porukkuthillaiye.md", "occurrences": ["parasakthi-song-012"]},
-      {"track": 4, "path": "tracks/04-il-vaazhvinile.md", "occurrences": ["parasakthi-song-002"]},
-      {"track": 5, "path": "tracks/05-pudhu-pennin-manathai.md", "occurrences": ["parasakthi-song-011", "parasakthi-song-013"]},
-      {"track": 6, "path": "tracks/06-o-rasikkum-seemane.md", "occurrences": ["parasakthi-song-003"]},
-      {"track": 7, "path": "tracks/07-ellorum-vaazha-vendum.md", "occurrences": ["parasakthi-song-014"]},
-      {"track": 8, "path": "tracks/08-konju-mozhi-sollum.md", "occurrences": ["parasakthi-song-007"]},
-      {"track": 9, "path": "tracks/09-poomalai.md", "occurrences": ["parasakthi-song-004"]},
-      {"track": 10, "path": "tracks/10-porule-illaarkku.md", "occurrences": ["parasakthi-song-010"]},
-      {"track": 11, "path": "tracks/11-vaazhga-vaazhgave.md", "occurrences": ["parasakthi-song-001"]}
+      {
+        "track": 1,
+        "path": "tracks/01-desam-gnanam-kalvi.md",
+        "occurrences": [
+          "parasakthi-song-005",
+          "parasakthi-song-006"
+        ]
+      },
+      {
+        "track": 2,
+        "path": "tracks/02-kaa-kaa-kaa.md",
+        "occurrences": [
+          "parasakthi-song-008"
+        ]
+      },
+      {
+        "track": 3,
+        "path": "tracks/03-nenju-porukkuthillaiye.md",
+        "occurrences": [
+          "parasakthi-song-012"
+        ]
+      },
+      {
+        "track": 4,
+        "path": "tracks/04-il-vaazhvinile.md",
+        "occurrences": [
+          "parasakthi-song-002"
+        ]
+      },
+      {
+        "track": 5,
+        "path": "tracks/05-pudhu-pennin-manathai.md",
+        "occurrences": [
+          "parasakthi-song-011",
+          "parasakthi-song-013"
+        ]
+      },
+      {
+        "track": 6,
+        "path": "tracks/06-o-rasikkum-seemane.md",
+        "occurrences": [
+          "parasakthi-song-003"
+        ]
+      },
+      {
+        "track": 7,
+        "path": "tracks/07-ellorum-vaazha-vendum.md",
+        "occurrences": [
+          "parasakthi-song-014"
+        ]
+      },
+      {
+        "track": 8,
+        "path": "tracks/08-konju-mozhi-sollum.md",
+        "occurrences": [
+          "parasakthi-song-007"
+        ]
+      },
+      {
+        "track": 9,
+        "path": "tracks/09-poomalai.md",
+        "occurrences": [
+          "parasakthi-song-004"
+        ]
+      },
+      {
+        "track": 10,
+        "path": "tracks/10-porule-illaarkku.md",
+        "occurrences": [
+          "parasakthi-song-010"
+        ]
+      },
+      {
+        "track": 11,
+        "path": "tracks/11-vaazhga-vaazhgave.md",
+        "occurrences": [
+          "parasakthi-song-001"
+        ]
+      }
     ]
   },
   "quoted_verse_derivatives": {
@@ -38,11 +106,30 @@
     "directory": "quoted-verses",
     "completed_files": 1,
     "files": [
-      {"occurrence": "parasakthi-song-009", "path": "quoted-verses/001-vidhavayin-kaadhal.md", "author_ta": "பாரதிதாசன்"}
+      {
+        "occurrence": "parasakthi-song-009",
+        "path": "quoted-verses/001-vidhavayin-kaadhal.md",
+        "author_ta": "பாரதிதாசன்"
+      }
     ]
   },
   "next_activity": "Begin English translation as a separate derivative layer. Define a translation schema and a small source-linked pilot first; do not alter canonical Tamil, scene files, dialogue records, character mappings, song inventory or Tamil song derivatives.",
   "canonical_text_modified": false,
   "dialogue_records_modified": false,
-  "character_index_modified": false
+  "character_index_modified": false,
+  "evidence_basis_counts": {
+    "anthology-attributed": 2,
+    "canonical-context-explicit": 1,
+    "external-source": 11
+  },
+  "kalaignar_attributed_occurrences": [
+    "parasakthi-song-002",
+    "parasakthi-song-004"
+  ],
+  "cross_witness_reports": [
+    "match-report-002-il-vaazhvinile.md",
+    "match-report-004-poomaalai-neeye.md"
+  ],
+  "cross_witness_source": "works/kalaignar-thirai-isai-paadalgal",
+  "authority_note": "Authority order for this work: (1) the scanned Parasakthi booklet controls canonical Tamil text; (2) the booklet's song-credits page establishes six contributors booklet-wide without item pairing; (3) the verified Kalaignar film-song anthology establishes anthology-level item attribution for the two songs it names; (4) the external soundtrack table is weaker secondary evidence. These are not collapsed into one authority, and anthology attribution does not become original-film primary-source-verified authorship."
 }
