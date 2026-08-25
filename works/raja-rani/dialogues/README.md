@@ -115,18 +115,44 @@ In `s028`, the unlabelled PDF-46 continuation `இந்தா! அது வச
 
 Batch report: `../notes/dialogue-batch-003.md`.
 
+## Dialogue Batch 004
+
+Skipped blocked `s033`, processed verified `scene-034.md` through `scene-038.md`, and stopped before blocked `s039`.
+
+Per-scene counts:
+
+- s034: 65
+- s035: 27
+- s036: 48
+- s037: 0
+- s038: 0
+
+Batch total: **140 records**.
+
+New zero-record scenes: `s037`, `s038`.
+
+New cross-page record:
+
+- `raja-rani-s035-d012` — PDF 52→53 / printed 51→52 (`ராஜா:`)
+
+No new non-colon speaker-label delimiter anomaly was added. Exact source variants such as `ராசா`, `ராஜா`, `ஞான`, `ஞா`, `கர`, `சம` and `சாந்` remain unnormalized.
+
+The unlabelled `மெள்ள, மெள்ள...` and `ஆ...பூச்சி, பூச்சி...` lines in `s034` remain outside the immutable dialogue inventory rather than receiving context-inferred speaker metadata.
+
+Batch report: `../notes/dialogue-batch-004.md`.
+
 ## Current totals
 
 - eligible dialogue scenes: **50**
 - blocked scenes: **8**
-- processed dialogue scenes: **29/50**
-- immutable dialogue records: **557**
-- zero-record scenes: **10** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`
-- cross-page records: **4**
+- processed dialogue scenes: **34/50**
+- immutable dialogue records: **697**
+- zero-record scenes: **12** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`
+- cross-page records: **5**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
 ## Next dialogue batch
 
-Skip blocked `s033`, then process verified **`scene-034.md` through `scene-038.md`** in source order and stop before blocked `s039`.
+Skip blocked `s039`, process verified **`scene-040.md` through `scene-052.md`** in source order, then stop before blocked `s053`–`s055`.
 
-Do not create dialogue shards for blocked `s033` or `s039`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
+Do not create dialogue shards for blocked `s039`, `s053`, `s054` or `s055`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
