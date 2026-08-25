@@ -78,6 +78,7 @@
           "enum": [
             "canonical-context-explicit",
             "printed-item-credit",
+            "anthology-attributed",
             "external-source",
             "booklet-wide-credits-only",
             "none"

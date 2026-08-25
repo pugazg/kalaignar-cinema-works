@@ -241,6 +241,16 @@ structured_derivatives:
     quoted_verse_records: 1
     booklet_wide_contributors: 6
     item_level_booklet_crediting: false
+    evidence_basis_counts:
+      anthology-attributed: 2
+      canonical-context-explicit: 1
+      external-source: 11
+    kalaignar_attributed_occurrences: ["parasakthi-song-002", "parasakthi-song-004"]
+    cross_witness_source: "works/kalaignar-thirai-isai-paadalgal"
+    cross_witness_reports:
+      - "songs/match-report-002-il-vaazhvinile.md"
+      - "songs/match-report-004-poomaalai-neeye.md"
+    cross_witness_note: "The verified Kalaignar film-song anthology names two of this booklet's songs at item level (anthology songs 2 and 3, contents PDF 28). Those two occurrences now read `anthology-attributed`; the superseded soundtrack-table attribution of parasakthi-song-002 to பாரதிதாசன் is retained in tracklist-evidence.json and recorded in the match report. Anthology attribution is not original-film primary-source-verified authorship."
     verified_item_ids: ["parasakthi-song-001", "parasakthi-song-002", "parasakthi-song-003", "parasakthi-song-004", "parasakthi-song-005", "parasakthi-song-006", "parasakthi-song-007", "parasakthi-song-008", "parasakthi-song-009", "parasakthi-song-010", "parasakthi-song-011", "parasakthi-song-012", "parasakthi-song-013", "parasakthi-song-014"]
     tamil_track_derivatives:
       status: complete-verified

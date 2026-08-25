@@ -3,14 +3,15 @@
 # இல் வாழ்வினிலே
 
 - **Soundtrack track:** 4
-- **Lyricist:** பாரதிதாசன்
+- **Lyricist:** மு. கருணாநிதி
 - **Singers:** டி. எஸ். பகவதி; எம். ஹெச். ஹுசைன்
 - **Duration:** 2:07
 - **Canonical occurrence:** `parasakthi-song-002`
 - **Scene:** 4
 - **PDF page:** 8
 - **Printed page:** 7
-- **Authorship evidence:** `../tracklist-evidence.json`
+- **Authorship evidence:** `anthology-attributed` — `works/kalaignar-thirai-isai-paadalgal/songs/song-002.md`; cross-witness comparison in [`../match-report-002-il-vaazhvinile.md`](../match-report-002-il-vaazhvinile.md)
+- **Superseded evidence:** `../tracklist-evidence.json` track 4 attributes this song to பாரதிதாசன்; that secondary soundtrack-table witness is retained unchanged and no longer controls this record
 - **Tamil authority:** `../../scenes/scene-04.md`
 
 This verse is speaker-labelled in the canonical scene; those labels are part of the verified source representation and are preserved here.
