@@ -48,55 +48,59 @@ Each record links to:
 
 ## Dialogue Batch 001
 
-Processed verified scenes:
+Processed verified scenes `scene-001.md` through `scene-010.md`.
 
-- `scene-001.md` through `scene-010.md`
-- **10/50 eligible scenes processed**
-- **203 immutable labelled-dialogue records**
+- processed scenes: **10**
+- records: **203**
+- zero-record scenes: `s008`, `s010`
+- cross-page records: `raja-rani-s004-d006`, `raja-rani-s004-d023`, `raja-rani-s005-d010`
+- tracked non-colon source-label/delimiter forms: `raja-rani-s004-d001`, `raja-rani-s004-d007`, `raja-rani-s007-d023`
+
+Batch report: `../notes/dialogue-batch-001.md`.
+
+## Dialogue Batch 002
+
+Resumed after blocked `s011`–`s013` and processed verified `scene-014.md` through `scene-023.md`.
 
 Per-scene counts:
 
-- s001: 9
-- s002: 21
-- s003: 27
-- s004: 23
-- s005: 22
-- s006: 13
-- s007: 30
-- s008: 0
-- s009: 58
-- s010: 0
+- s014: 0
+- s015: 36
+- s016: 10
+- s017: 48
+- s018: 41
+- s019: 0
+- s020: 0
+- s021: 50
+- s022: 0
+- s023: 36
 
-Zero-record scenes: `s008`, `s010`.
+Batch total: **221 records**.
 
-Cross-page records:
+New zero-record scenes: `s014`, `s019`, `s020`, `s022`.
 
-- `raja-rani-s004-d006` — PDF 13→14
-- `raja-rani-s004-d023` — PDF 14→15
-- `raja-rani-s005-d010` — PDF 15→18
+New cross-page record:
 
-Tracked non-colon source-label/delimiter forms:
+- `raja-rani-s021-d048` — PDF 37→38 / printed 36→37
 
-- `raja-rani-s004-d001` — `நாடகத் துவக்கத்திற்கு முன்பு குரல்.`
-- `raja-rani-s004-d007` — `தமிழ்நாட்டுப் புலவர்.`
-- `raja-rani-s007-d023` — `கீதாவின் தாய் தாயம்மாள்;`
+No new non-colon speaker-label delimiter anomaly was promoted. Exact label variants and abbreviations remain preserved without normalization.
 
-Unlabelled ceremonial speech, written newspaper/letter text, unlabelled stage-linked speech and other implied-speaker material remain outside the immutable dialogue inventory.
+Important no-inference exclusions include `ராணி வெளியிலே போர்டு பார்த்தேன்.` in `s015`, which has no printed speaker delimiter, plus the unlabelled `எஸ் கமின்...` / `சாப்புடு...டேய் கரண்ட்!...` material in the same scene.
 
-Batch report: `../notes/dialogue-batch-001.md`.
+Batch report: `../notes/dialogue-batch-002.md`.
 
 ## Current totals
 
 - eligible dialogue scenes: **50**
 - blocked scenes: **8**
-- processed dialogue scenes: **10/50**
-- immutable dialogue records: **203**
-- zero-record scenes: **2**
-- cross-page records: **3**
+- processed dialogue scenes: **20/50**
+- immutable dialogue records: **424**
+- zero-record scenes: **6** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`
+- cross-page records: **4**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
 ## Next dialogue batch
 
-Resume after blocked `s011`–`s013` and process verified **`scene-014.md` through `scene-023.md`** in source order.
+Process verified **`scene-024.md` through `scene-032.md`** in source order, then stop before blocked `s033`.
 
-Do not create shards for blocked `s011`–`s013`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
+Do not create a shard for blocked `s033`. Preserve exact labels/delimiters, cross-page continuity and the no-inferred-speaker rule.
