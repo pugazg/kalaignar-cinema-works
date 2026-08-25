@@ -1,6 +1,6 @@
 # ராஜா ராணி — immutable dialogue index
 
-Status: **in progress — verified-source-only**.
+Status: **complete — verified eligible scenes only, with review-source exclusions**.
 
 This layer is downstream of the completed Raja Rani scene-text derivative phase. The verified canonical Tamil and verified scene derivatives remain the textual authorities; dialogue records are immutable structured references to explicitly speaker-labelled utterances only.
 
@@ -13,7 +13,7 @@ This layer is downstream of the completed Raja Rani scene-text derivative phase.
 - blocked scene IDs: `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013`, `raja-rani-s033`, `raja-rani-s039`, `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055`
 - review source pages: PDF **27, 48, 57, 74**
 
-No dialogue record may be created from a blocked scene until its complete source span is supported by verified Tamil.
+No dialogue record is created from a blocked scene until its complete source span is supported by verified Tamil.
 
 ## Core rules
 
@@ -43,7 +43,7 @@ Each record links to:
 ## Storage
 
 - `schema.json` — immutable record schema.
-- `index.json` — work-level dialogue inventory and per-scene progress.
+- `index.json` — work-level dialogue inventory and per-scene completion state.
 - `records/scene-###.json` — scene-sharded dialogue records created only for verified eligible scene derivatives.
 
 ## Dialogue Batch 001
@@ -115,18 +115,32 @@ No new non-colon delimiter anomaly was found. Written letter material in `s049` 
 
 Batch report: `../notes/dialogue-batch-005.md`.
 
-## Current totals
+## Dialogue Batch 006 — final eligible batch
+
+Skipped blocked `s053`–`s055` and processed the final eligible verified `scene-056.md` through `scene-058.md`.
+
+Per-scene counts: s056 5, s057 21, s058 4.
+
+Batch total: **30 records**. No new zero-record scene, cross-page record or non-colon delimiter anomaly was introduced.
+
+The no-inference rule remains decisive in the finale. In `s057`, the standalone `(சத்தம் கேட்கவே) யாரது...என்னு?`, `சமரசம்...ஏய்...ஏய்...என்னப்பா என்ன தகராறு...?`, and the unlabelled `ஏய்! கொடு இப்படி. ஆளைப்பாரு...போடுங்க...` following a stage action stay outside immutable dialogue records. In `s058`, the performance cue `(இருவரும் பாடுகிறார்கள்)`, `நலம் வாழ்க!`, the closing ornament and printer line are likewise not dialogue records.
+
+Batch report: `../notes/dialogue-batch-006.md`.
+
+## Final totals
 
 - eligible dialogue scenes: **50**
 - blocked scenes: **8**
-- processed dialogue scenes: **47/50**
-- immutable dialogue records: **862**
+- processed dialogue scenes: **50/50 eligible**
+- immutable dialogue records: **892**
 - zero-record scenes: **15** — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`
 - cross-page records: **11**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
-## Next dialogue batch
+The dialogue layer is complete for every scene currently eligible from verified Tamil. The eight review-source-blocked archival segments remain intentionally absent rather than being reconstructed from uncertain or physically obscured text.
 
-Skip blocked `s053`–`s055` and process the final eligible verified **`scene-056.md` through `scene-058.md`** in source order.
+## Next structured derivative
 
-That batch should close the dialogue layer at **50/50 eligible scenes** while retaining all eight review-source-blocked scenes outside immutable dialogue production. Character/entity normalization must remain downstream of the immutable dialogue layer.
+Proceed to the **character/entity index** from this completed immutable dialogue inventory.
+
+Character/entity work may reconcile source-label variants only downstream. It must preserve all 892 immutable dialogue records and their exact `speaker_label` / `speaker_delimiter` values unchanged.
