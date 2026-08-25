@@ -2,11 +2,11 @@
 
 ## Current phase
 
-Source intake, structural mapping, canonical Tamil first pass, full rendered-scan fidelity audit, source-supported scene segmentation and the complete eligible verified scene-text derivative layer are complete for the supplied scan.
+Source intake, structural mapping, canonical Tamil first pass, full rendered-scan fidelity audit, source-supported scene segmentation, the complete eligible verified scene-text derivative layer, and the complete eligible immutable dialogue layer are complete for the supplied scan.
 
 The Tamil fidelity gate remains **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The repository-level Raja Rani bookkeeping gap is reconciled, and immutable dialogue indexing is **in progress from verified scene derivatives only**.
+The next structured derivative is the **character/entity index**, built only from the completed verified dialogue inventory and other verified source evidence without rewriting immutable dialogue labels.
 
 Controlling files:
 
@@ -15,7 +15,7 @@ Controlling files:
 - `notes/scene-segmentation-audit.md`
 - `notes/scene-text-batch-010.md`
 - `notes/scene-layer-completion-dialogue-initialization.md`
-- `notes/dialogue-batch-001.md` through `notes/dialogue-batch-005.md`
+- `notes/dialogue-batch-001.md` through `notes/dialogue-batch-006.md`
 - `scenes/index.json`
 - `scenes/README.md`
 - `dialogues/README.md`
@@ -37,9 +37,9 @@ Controlling files:
 - Source-review-blocked scene segments: **8**.
 - Scene-text Batch 001 through Batch 010 complete.
 - Verified scene-text files completed: **50/50 eligible**.
-- Remaining eligible scene-text files: **0**.
-- Repository bookkeeping is reconciled in `data/works.json` and the root README.
-- Dialogue Batches 001–005 are complete through verified `scene-052.md`, respecting all blocked-scene boundaries.
+- Dialogue Batch 001 through Batch 006 complete.
+- Immutable labelled-dialogue records: **892** across **50/50 eligible scenes**.
+- Repository bookkeeping is reconciled at the work-local level; global mirrors are synchronized at the completion checkpoint.
 
 ## Scene-text completion position
 
@@ -58,7 +58,7 @@ The eligible scene-text layer is therefore **complete-with-review-source-exclusi
 - Scene-Text Batch 007 restored the exact PDF 58–59 `ராஜா:` / `ராசா:` alternation.
 - Scene-Text Batch 008 restored PDF 66's opening continuation label to source-visible `ராசா:`.
 - Scene-Text Batches 009–010 required no further correction in their verified spans.
-- Dialogue Batches 001–005 required no new canonical Tamil correction.
+- Dialogue Batches 001–006 required no new canonical Tamil correction.
 
 No review page was promoted and the global fidelity totals remain unchanged.
 
@@ -71,23 +71,21 @@ No review page was promoted and the global fidelity totals remain unchanged.
 
 These four pages remain `review` even though the audit phase itself is closed.
 
-## Dialogue gate
+## Dialogue gate — complete for eligible verified scenes
 
-Dialogue indexing is **in progress — verified-source-only**.
-
-Current dialogue state:
+Final dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
-- processed scenes: **47/50**
-- immutable labelled-dialogue records: **862**
+- processed scenes: **50/50 eligible**
+- immutable labelled-dialogue records: **892**
 - zero-record scenes: **15 — `s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`**
 - cross-page dialogue records: **11**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
-Batch 005 added **165 records** across `s040`–`s052`; `s042`, `s043` and `s048` correctly yielded zero records. It added six genuine cross-page records: `s040-d008`, `s044-d011`, `s046-d001`, `s050-d001`, `s051-d025`, and `s052-d011`.
+Batch 006 added **30 records** across `s056`–`s058` and no new zero-record scene, cross-page record or delimiter anomaly.
 
-Source-unlabelled material remained outside the immutable layer, including written letter content in `s049` and the unlabelled `s052` line `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?`.
+The no-inference rule remains explicit in the ending. Standalone unlabelled material in `s057` remains outside immutable dialogue records, and the final `s058` performance cue, `நலம் வாழ்க!`, ornament and printer line are not dialogue records.
 
 Rules remain unchanged: only explicitly speaker-labelled utterances become records; exact labels/delimiters are preserved; page-crossing utterances remain one record; and blocked scenes remain outside dialogue production.
 
@@ -99,14 +97,13 @@ Rules remain unchanged: only explicitly speaker-labelled utterances become recor
 - rendered-scan fidelity audit: **COMPLETE-WITH-SOURCE-LIMITATIONS**
 - scene segmentation/index: **COMPLETE — 58 segments**
 - verified scene-text derivatives: **COMPLETE — 50/50 eligible; 8 blocked**
-- repository bookkeeping: **RECONCILED**
-- dialogue extraction: **IN PROGRESS — 47/50 eligible scenes processed; 862 records**
-- character/entity index: **not yet started**
+- dialogue extraction: **COMPLETE — 50/50 eligible scenes; 892 immutable records; 8 blocked scenes excluded**
+- character/entity index: **READY TO START**
 - song/performance authorship gate: **not yet started**
 - English translation: **not yet started; verified Tamil units only**
 
 ## Next activity
 
-**Dialogue Batch 006:** skip blocked `s053`–`s055` and process the final eligible verified `scene-056.md` through `scene-058.md` in source order.
+Initialize the **character/entity derivative gate** from the completed 892-record immutable dialogue inventory.
 
-That batch should close dialogue production at **50/50 eligible scenes** while retaining all eight review-source-blocked scenes outside the immutable dialogue layer. Character/entity normalization should begin only after this dialogue completion checkpoint.
+The character layer may reconcile source-label variants only in its downstream mapping. It must not rewrite exact dialogue `speaker_label` or delimiter values, and it must exclude the eight review-source-blocked scenes from verified character evidence until their Tamil spans become fully verified.
