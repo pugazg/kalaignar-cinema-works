@@ -47,16 +47,16 @@ The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `wo
 - verified scene-text eligibility: **50 segments**;
 - verified scene-text derivatives: **50/50 eligible complete**;
 - blocked scene segments: **8** — `s011`, `s012`, `s013`, `s033`, `s039`, `s053`, `s054`, `s055`;
-- dialogue index: **in progress — verified-source-only**, currently **424 records / 20 of 50 eligible scenes processed**;
-- dialogue zero-record scenes: **`s008`, `s010`, `s014`, `s019`, `s020`, `s022`**;
+- dialogue index: **in progress — verified-source-only**, currently **557 records / 29 of 50 eligible scenes processed**;
+- dialogue zero-record scenes: **`s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`**;
 - dialogue cross-page records / tracked non-colon source-label delimiter anomalies: **4 / 3**;
 - song/performance front matter: **11 numbered `பாட்டு` blocks**; the film-wide PDF-9 lyricist roster is not treated as item-level authorship evidence.
 
 The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. The scene-text phase deliberately remains complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
 
-Dialogue Batches 001–002 have completed verified `scene-001.md` through `scene-010.md` and, after the blocked `s011`–`s013` group, verified `scene-014.md` through `scene-023.md`. Only explicitly speaker-labelled utterances become immutable records; source-unlabelled material remains outside the dialogue inventory. Exact source-visible speaker-label variation and delimiter irregularities remain unnormalized in this layer.
+Dialogue Batches 001–003 have completed verified `scene-001.md` through `scene-010.md`, then `scene-014.md` through `scene-023.md` after the blocked `s011`–`s013` group, and `scene-024.md` through `scene-032.md` before blocked `s033`. Only explicitly speaker-labelled utterances become immutable records; source-unlabelled material remains outside the dialogue inventory. Exact source-visible speaker-label variation and delimiter irregularities remain unnormalized in this layer.
 
-**Next:** Dialogue Batch 003 — process verified `scene-024.md` through `scene-032.md` in source order, then stop before blocked `s033`.
+**Next:** Dialogue Batch 004 — skip blocked `s033`, process verified `scene-034.md` through `scene-038.md`, then stop before blocked `s039`.
 
 ## மந்திரி குமாரி status
 
