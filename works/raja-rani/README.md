@@ -195,19 +195,35 @@ Batch reports:
 - `notes/dialogue-batch-005.md`
 - `notes/dialogue-batch-006.md`
 
-## Character/entity index — exact-label inventory complete
+## Character/entity index — complete-verified
 
-The character layer is initialized under `characters/` and its mandatory exact-label inventory is complete before any normalization:
+The character/entity derivative is complete under `characters/`:
 
-- eligible dialogue scenes scanned: **50/50**;
-- immutable dialogue records scanned: **892/892**;
+- immutable dialogue records considered: **892/892**;
+- eligible verified dialogue scenes: **50/50**;
 - distinct exact non-empty `speaker_label` strings: **74**;
-- inventory: `characters/labels-inventory.json`;
-- checkpoint: `notes/character-label-inventory.md`;
-- dialogue records modified: **0**;
-- entity mapping: **not started — ready**.
+- exact labels dispositioned: **74/74**;
+- entities / role categories / collectives: **42**;
+- verified entities: **42**;
+- review entities: **0**;
+- unresolved entities: **0**;
+- verified labels: **74**;
+- review labels: **0**;
+- unresolved labels: **0**;
+- dialogue records modified: **0**.
 
-Exact variants remain separate inventory evidence. For example, `ராஜா`, `ராசா`, `ராஜ`, `ரா` are four exact labels at this layer; their eventual entity relationship must be established downstream from verified context rather than by spelling similarity alone. The same rule applies to every abbreviation, role label, collective and embedded dramatic identity.
+Character files:
+
+- `characters/labels-inventory.json`
+- `characters/entities.json`
+- `characters/index.json`
+- `characters/schema.json`
+- `notes/character-label-inventory.md`
+- `notes/character-entity-mapping.md`
+
+Important context-sensitive mapping decisions are source-backed rather than spelling-driven. In particular, `ரா` in scene 45 maps to **Rani**, not Raja; the stage direction immediately before scene-52 `தாய்:` identifies her as **Geetha's mother / Thayammal**; and scene 57 explicitly introduces **Sangaran** before the `சங்:` label. The short `வேலை` label is represented as a context-sensitive worker/servant role category rather than one falsely continuous physical character.
+
+Embedded dramatic identities in `சேரன் செங்குட்டுவன்`, the `அகல்யா` rehearsal and `சாக்ரடீஸ்` remain distinct from outer-film identities. Exact dialogue labels and delimiters remain immutable.
 
 ## Current gate
 
@@ -219,7 +235,7 @@ Exact variants remain separate inventory evidence. For example, `ராஜா`, 
 - scene segmentation/index: **complete — 58 segments**
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
 - dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
-- character/entity index: **in progress — exact-label inventory complete, 74 labels; entity mapping next**
+- character/entity index: **complete-verified — 74/74 labels; 42 verified entities/role categories/collectives**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; verified Tamil units only**
 
@@ -234,6 +250,6 @@ Exact variants remain separate inventory evidence. For example, `ராஜா`, 
 
 ## Next activity
 
-Begin evidence-backed **character/entity mapping for all 74 exact source labels**.
+Begin the **song/performance inventory and item-level authorship gate**.
 
-Character/entity mapping may reconcile source-label variants only downstream and only when verified scene/source context supports the relationship. It must not rewrite any exact dialogue `speaker_label` or delimiter, must keep embedded dramatic identities distinct from outer-film identities unless source evidence supports a relationship, and must leave genuinely ambiguous labels at `review` or `unresolved` rather than guessing.
+The booklet prints **11 numbered `பாட்டு` blocks** across PDF 4–9 plus a film-wide PDF-9 `பாடல்கள்:` roster. Inventory every source-visible song/performance occurrence before attempting authorship mapping. The film-wide roster must **not** be treated as item-level evidence for any particular song unless separate item-specific evidence supports that attribution.
