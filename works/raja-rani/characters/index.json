@@ -1,7 +1,7 @@
 {
   "work_id": "raja-rani",
-  "status": "in-progress",
-  "phase": "exact-label-inventory-complete-entity-mapping-next",
+  "status": "complete-verified",
+  "phase": "entity-mapping-complete",
   "dialogue_index": "../dialogues/index.json",
   "schema": "schema.json",
   "label_inventory": "labels-inventory.json",
@@ -20,9 +20,19 @@
     "raja-rani-s055"
   ],
   "distinct_source_labels": 74,
-  "entity_count": 0,
+  "entity_count": 42,
+  "verified_entities": 42,
+  "review_entities": 0,
+  "unresolved_entities": 0,
+  "verified_labels": 74,
+  "review_labels": 0,
+  "unresolved_labels": 0,
+  "review_source_labels": [],
+  "unresolved_source_labels": [],
+  "label_coverage": "74/74",
+  "remaining_unmapped_labels": 0,
   "label_inventory_status": "complete-inventory",
-  "entity_mapping_status": "not-started-ready",
+  "entity_mapping_status": "complete-verified",
   "dialogue_records_modified": false,
-  "next_activity": "Begin evidence-backed entity mapping for all 74 exact source labels. Preserve every dialogue speaker_label unchanged; reconcile variants only in downstream entity records, keep embedded dramatic identities distinct, and leave ambiguous identities review or unresolved rather than guessing."
+  "next_activity": "Begin the Raja Rani song/performance inventory and item-level authorship gate. Inventory all 11 numbered பாட்டு blocks and other source-visible performance occurrences first; do not infer per-song authorship from the film-wide PDF-9 பாடல்கள் roster."
 }
