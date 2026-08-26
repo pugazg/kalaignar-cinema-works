@@ -1,0 +1,53 @@
+{
+  "work_id": "raja-rani",
+  "status": "complete-with-unresolved-authorship",
+  "schema": "schema.json",
+  "credits": "credits.json",
+  "cross_witness_evidence": "cross-witness-evidence.json",
+  "inventory": "inventory.json",
+  "numbered_song_blocks": 11,
+  "screenplay_singing_references": 4,
+  "candidate_occurrences": 15,
+  "numbered_song_authorship_verified": 5,
+  "numbered_song_authorship_review": 0,
+  "numbered_song_authorship_unresolved": 6,
+  "numbered_song_primary_source_item_credits": 0,
+  "numbered_song_anthology_attributed_to_kalaignar": 5,
+  "kalaignar_attributed_numbered_song_ids": [
+    "raja-rani-song-003",
+    "raja-rani-song-005",
+    "raja-rani-song-006",
+    "raja-rani-song-007",
+    "raja-rani-song-008"
+  ],
+  "unresolved_numbered_song_ids": [
+    "raja-rani-song-001",
+    "raja-rani-song-002",
+    "raja-rani-song-004",
+    "raja-rani-song-009",
+    "raja-rani-song-010",
+    "raja-rani-song-011"
+  ],
+  "screenplay_performance_links": {
+    "verified": [
+      {"occurrence": "raja-rani-song-perf-001", "linked_song": "raja-rani-song-003", "scene": 4},
+      {"occurrence": "raja-rani-song-perf-002", "linked_song": "raja-rani-song-005", "scene": 16},
+      {"occurrence": "raja-rani-song-perf-003", "linked_song": "raja-rani-song-008", "scene": 40}
+    ],
+    "review": [
+      {"occurrence": "raja-rani-song-perf-004", "linked_song": "raja-rani-song-011", "scene": 58}
+    ]
+  },
+  "tamil_song_derivatives": "complete-verified",
+  "tamil_song_derivative_files": 11,
+  "tamil_song_directory": "tamil",
+  "canonical_text_modified_by_cross_witness": false,
+  "dialogue_records_modified": false,
+  "scene_derivative_correction": {
+    "scene": 16,
+    "source_page": 30,
+    "finding": "The verified source stage direction `[ராணி “வேலையில்லாத் தொல்லையில்லை” என்று பாடிக் கொண்டிருக்கிறாள்.]` and its preceding source separator belong at the start of scene 16 but were omitted from the earlier scene derivative. The derivative is restored from canonical page 030 without changing dialogue records or fidelity totals."
+  },
+  "song_gate_disposition": "The source song section is fully represented as 11 verified Tamil song derivatives. Five numbered songs have a later verified Kalaignar-anthology item correspondence and are recorded at `anthology-attributed` tier; six remain unresolved because the source's six-name PDF-9 lyricist roster has no item-level mapping. No unresolved authorship is guessed from performer identity, film memory or proximity.",
+  "next_activity": "Begin source-linked English translation from verified Tamil only. Translate the 11 song bodies as song units where encountered and the screenplay singing references only to the extent printed; do not invent absent lyrics or promote unresolved lyricist mappings."
+}
