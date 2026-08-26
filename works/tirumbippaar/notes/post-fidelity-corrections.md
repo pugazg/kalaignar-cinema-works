@@ -32,15 +32,13 @@ This batch confirms that earlier `verified` text had dropped or misread old-prin
 
 The canonical `part-01-pdf-9-13.md` and scene derivatives 1–4 were updated in this batch. Dialogue records for scenes 1, 2 and 4 were reconciled while preserving their stable record IDs. Scene 3's dialogue text required no change; only its stage-direction text changed.
 
-Character/entity and English/publication derivatives are intentionally not declared synchronized yet because the full 104-page correction pass is still in progress.
-
 ## PDF 14–35 / printed pp.6–27 — corrected Markdown canonical merge / batch 2
 
 **Date:** 2026-08-26  
 **Correction witness:** user-supplied `thirumbipaar.md`  
 **Final authority for doubt:** rendered `TVA_BOK_0014652_திரும்பிப்பார்.pdf`
 
-`transcription/parts/part-02-pdf-14-35.md` has now been rebuilt in source order from the user's corrected Markdown baseline. This is a canonical-layer correction pass, not a modernization pass.
+`transcription/parts/part-02-pdf-14-35.md` has been rebuilt in source order from the user's corrected Markdown baseline. This is a canonical-layer correction pass, not a modernization pass.
 
 The opening PDF 14–18 segment contains a dense cluster of earlier OCR/glyph errors. Representative corrections include:
 
@@ -54,7 +52,33 @@ The opening PDF 14–18 segment contains a dense cluster of earlier OCR/glyph er
 - scene 7 source speaker form `குண்டுமணி` restored from the earlier `குணமணி` reading;
 - the corrected Markdown's accidental non-Tamil extraction token `అది` is **not** imported; the source-language form is `அது`.
 
-Scene derivatives 5–10 and their affected dialogue records had already been partially reconciled during the opening Batch-2 work. The canonical Part-02 merge now establishes the corrected text through PDF 35; however, **scene/dialogue derivatives beginning on PDF 19 are still pending synchronization**. This temporary difference is explicitly tracked in `md-reconciliation-audit.md` and must not be mistaken for a closed archival state.
+Scenes 5–10 and their affected dialogue records were reconciled during this opening derivative pass. Scene 10 remains a legitimate zero-dialogue scene.
+
+## PDF 19–24 / printed pp.11–16 through scene 15 — corrected Markdown derivative reconciliation / batch 3
+
+**Date:** 2026-08-26  
+**Correction witness:** user-supplied `thirumbipaar.md`  
+**PDF consulted for doubtful structure:** PDF 19–23
+
+Scenes 12–15 and their dialogue shards have now been reconciled against the corrected Part-02 text. Stable dialogue IDs and record counts were retained.
+
+Representative corrections include:
+
+- scene 12 `பூமால்` → `பூமாலை` throughout;
+- `நிம்மதியா இருப்பாய்` → `நிம்மதியாயிருப்பாய்`;
+- `இல்ல, இல்ல` → `இல்லை,இல்லை`;
+- `உல்லாசச் சக்தி` → `உல்லாசச் சகதி`;
+- the badly corrupted sentence beginning `குதுவாதறியாத...` restored from the corrected Markdown as `சூதுவாதறியாத கன்னி யொருத்தியின் வாழ்வைக் களவாடிய சூதாடியின்...`;
+- `நானு சொல்லவேண்டும்` → `நானா சொல்லவேண்டும்`;
+- scene 13 `அட்டை மாத்திருந்தான்` → `அட்டை மாத்திரந்தான்`, with the source-visible `சீ |` and `/` punctuation retained from the correction witness;
+- scene 14's public speech restored to the corrected `தன்னுடைய`, `அறிவீனம்`, and `அனைவருக்கும்` readings instead of the earlier OCR drift;
+- scene 15 exact character label `புண்ணகோடி` → `புண்யகோடி` and associated dialogue text restored from the corrected witness, including `மேஸ்திரி`, `வேலை`, `பெண்னை`, and the final `கஞ்சன்.` sentence.
+
+PDF 19 was consulted because the Markdown extraction omits the visible scene-11 location label. The scan clearly shows `[ஆறு`; the scene-11 derivative therefore retains that source structure rather than deleting it.
+
+Because exact speaker labels have changed during this pass (`பூமாலை`, `புண்யகோடி`, earlier `குரல்`, `குண்டுமணி`), the existing character-label inventory and entity mapping are known to be stale and will be regenerated after the dialogue reconciliation reaches a stable full-work boundary.
+
+Character/entity and English/publication derivatives are intentionally not declared synchronized while this 104-page correction pass remains open.
 
 ## PDF 38 / printed p.30 — scene 31 song title
 
