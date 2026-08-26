@@ -1,0 +1,20 @@
+{
+  "work_id": "raja-rani",
+  "source_page": {
+    "pdf_page": 9,
+    "printed_page": 8,
+    "canonical_file": "../pages/009.md"
+  },
+  "source_heading": "பாடல்கள்:",
+  "film_wide_lyricists_as_printed": [
+    "மு. கருணாநிதி",
+    "ஏ. மருதகாசி",
+    "கே. பி. காமாக்ஷி",
+    "எம். கே. ஆத்மநாதன்",
+    "வில்லிபுத்தன்",
+    "விவேகன்"
+  ],
+  "scope": "film-wide-only",
+  "item_level_mapping_printed": false,
+  "authorship_rule": "The PDF-9 roster establishes film-wide lyricist participation but does not assign any one of the 11 numbered song blocks to an individual lyricist. It must not be used as automatic per-song authorship evidence."
+}
