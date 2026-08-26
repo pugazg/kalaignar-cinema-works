@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "raja-rani-translation-scene-record-schema",
+  "title": "Raja Rani source-linked English translation scene record",
+  "description": "Scene-sharded English derivative for Raja Rani. Archive scene IDs are navigation derivatives only because the booklet prints no scene numbers. Only verified scene derivatives are eligible; blocked review-source scenes remain outside this layer. Canonical Tamil and immutable structured source records remain authoritative.",
+  "type": "object",
+  "required": [
+    "work_id",
+    "target_language",
+    "scene_id",
+    "archival_scene_ordinal",
+    "source_scene_number",
+    "scene_status",
+    "unit_count",
+    "units"
+  ],
+  "properties": {
+    "work_id": {"const": "raja-rani"},
+    "target_language": {"const": "en"},
+    "scene_id": {"type": "string", "pattern": "^raja-rani-s[0-9]{3}$"},
+    "archival_scene_ordinal": {"type": "integer", "minimum": 1, "maximum": 58},
+    "source_scene_number": {"type": "null"},
+    "pilot_status": {"enum": ["draft", "review", "verified"]},
+    "scene_status": {"enum": ["draft", "review", "verified"]},
+    "unit_count": {"type": "integer", "minimum": 0},
+    "units": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/unit"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "page_provenance": {
+      "type": "object",
+      "required": ["pdf_page", "printed_page"],
+      "properties": {
+        "pdf_page": {"type": "integer", "minimum": 1},
+        "printed_page": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "source_locator": {
+      "type": ["object", "null"],
+      "properties": {
+        "kind": {"type": "string"},
+        "ordinal": {"type": "integer", "minimum": 1},
+        "description": {"type": "string"}
+      },
+      "required": ["kind", "ordinal", "description"],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "source_path",
+        "canonical_scene_path",
+        "source_record_id",
+        "source_occurrence_id",
+        "source_locator",
+        "speaker_label",
+        "page_provenance"
+      ],
+      "properties": {
+        "source_path": {"type": "string", "minLength": 1},
+        "canonical_scene_path": {"type": "string", "minLength": 1},
+        "source_record_id": {"type": ["string", "null"]},
+        "source_occurrence_id": {"type": ["string", "null"]},
+        "source_locator": {"$ref": "#/$defs/source_locator"},
+        "speaker_label": {"type": ["string", "null"]},
+        "page_provenance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/page_provenance"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "english_page_segment": {
+      "type": "object",
+      "required": ["pdf_page", "printed_page", "english_text"],
+      "properties": {
+        "pdf_page": {"type": "integer", "minimum": 1},
+        "printed_page": {"type": "integer", "minimum": 1},
+        "english_text": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "translation": {
+      "type": "object",
+      "properties": {
+        "english_text": {"type": "string", "minLength": 1},
+        "english_lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string"}
+        },
+        "english_page_segments": {
+          "type": "array",
+          "minItems": 2,
+          "items": {"$ref": "#/$defs/english_page_segment"}
+        },
+        "mode": {"enum": ["prose-faithful", "semantic-poetic"]},
+        "notes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "oneOf": [
+        {"required": ["english_text", "mode", "notes"]},
+        {"required": ["english_lines", "mode", "notes"]}
+      ],
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "status",
+        "target_language",
+        "scene_id",
+        "archival_scene_ordinal",
+        "source",
+        "translation"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^raja-rani-en-s[0-9]{3}-u[0-9]{3}$"},
+        "kind": {
+          "enum": [
+            "dialogue",
+            "stage-direction",
+            "song",
+            "song-reference",
+            "performance-cue",
+            "chant",
+            "written-text"
+          ]
+        },
+        "status": {"enum": ["draft", "review", "verified"]},
+        "target_language": {"const": "en"},
+        "scene_id": {"type": "string", "pattern": "^raja-rani-s[0-9]{3}$"},
+        "archival_scene_ordinal": {"type": "integer", "minimum": 1, "maximum": 58},
+        "source": {"$ref": "#/$defs/source"},
+        "translation": {"$ref": "#/$defs/translation"}
+      },
+      "additionalProperties": false
+    }
+  }
+}
