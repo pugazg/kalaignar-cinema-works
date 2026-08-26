@@ -42,7 +42,7 @@ Tamil fidelity gate: **closed-with-source-limitations**.
 - Scene-Text Batch 006: PDF 53 `ராசா:` labels and `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)` restored.
 - Scene-Text Batch 007: exact PDF 58–59 `ராஜா:` / `ராசா:` alternation restored.
 - Scene-Text Batch 008: PDF 66 opening continuation label restored to source-visible `ராசா:`.
-- Scene-Text Batches 009–010 and Dialogue Batches 001–006 required no new canonical Tamil correction.
+- Scene-Text Batches 009–010, Dialogue Batches 001–006 and the character/entity derivative required no new canonical Tamil correction.
 
 No review page was promoted. The 75/4 source-page and 66/4 screenplay-page counts remain unchanged.
 
@@ -66,7 +66,7 @@ Completed verified scene-text ranges are `s001`–`s010`, `s014`–`s032`, `s034
 
 ## Repository bookkeeping reconciliation
 
-The repository-level Raja Rani work record and root status section are maintained as global mirrors of the work-local state, while `notes/scene-layer-completion-dialogue-initialization.md` records the scene/dialogue phase boundary.
+The repository-level Raja Rani work record and root status section are synchronized with the work-local state. `notes/scene-layer-completion-dialogue-initialization.md`, `notes/character-label-inventory.md`, and `notes/character-entity-mapping.md` record the major derivative phase boundaries.
 
 ## Dialogue index — complete for verified eligible scenes
 
@@ -109,9 +109,36 @@ The three non-colon delimiter anomalies remain those established in Batch 001; B
 
 No-inference exclusions remain part of the immutable-dialogue policy. Written material such as the `s049` suicide letter is not dialogue. In `s052`, unlabelled speech after stage directions remains outside the immutable layer, including `கிரீட்டோ! உனக்குத் தெரியுமல்லவா?...`, `ஏ, மெலிடஸ், வா இங்கே...`, and `சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?`. In `s057`, standalone unlabelled material after stage/action breaks remains outside records; in `s058`, the song cue, `நலம் வாழ்க!`, ornament and printer line are not dialogue.
 
-Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Exact source speaker-label and delimiter forms are immutable; character normalization belongs only in the downstream character/entity derivative layer.
+Only explicitly speaker-labelled utterances from verified scene derivatives are eligible. Exact source speaker-label and delimiter forms are immutable.
 
 Batch reports: `notes/dialogue-batch-001.md` through `notes/dialogue-batch-006.md`.
+
+## Character/entity derivative — complete-verified
+
+The downstream character layer is complete without changing any immutable dialogue record:
+
+- dialogue records examined: **892/892**
+- distinct exact non-empty source labels: **74**
+- exact labels dispositioned: **74/74**
+- entities / role categories / collectives: **42**
+- verified entities: **42**
+- review entities: **0**
+- unresolved entities: **0**
+- verified labels: **74**
+- review labels: **0**
+- unresolved labels: **0**
+- remaining unmapped labels: **0**
+
+Files:
+
+- `characters/labels-inventory.json`
+- `characters/entities.json`
+- `characters/index.json`
+- `characters/schema.json`
+- `notes/character-label-inventory.md`
+- `notes/character-entity-mapping.md`
+
+The mapping is evidence-backed rather than spelling-driven. Scene 45 establishes `ரா` as Rani, not Raja. Scene 52's stage direction explicitly identifies Geetha's mother immediately before `தாய்:`, securing that alias as Thayammal. Scene 57 explicitly introduces Sangaran immediately before `சங்:`. The source-reused `வேலை` form is handled as a context-sensitive worker/servant role category rather than one asserted physical individual. Embedded dramatic identities in `சேரன் செங்குட்டுவன்`, the `அகல்யா` rehearsal and `சாக்ரடீஸ்` remain separate from outer-film characters.
 
 ## Current gate
 
@@ -123,14 +150,14 @@ Batch reports: `notes/dialogue-batch-001.md` through `notes/dialogue-batch-006.m
 - scene segmentation/index: **complete — 58 segments**
 - scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
 - dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
-- character/entity index: **not started / next**
-- song/performance authorship derivatives: **not started / separately gated**
+- character/entity index: **complete-verified — 74/74 labels; 42 verified entities/role categories/collectives**
+- song/performance authorship derivatives: **not started / next**
 - English translation: **not started; eligible only from verified Tamil units**
 
 No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved readings.
 
 ## Next activity
 
-Initialize the **character/entity derivative gate** from the completed 892-record immutable dialogue inventory.
+Begin the **song/performance inventory and item-level authorship gate**.
 
-Character/entity mapping may reconcile exact source-label variants only in its own downstream mapping. It must not rewrite any dialogue `speaker_label` or delimiter, and it must not treat the eight source-review-blocked scenes as verified character evidence until their source spans become fully verified.
+The source prints **11 numbered `பாட்டு` blocks** across PDF 4–9 and a film-wide PDF-9 `பாடல்கள்:` roster. Inventory every source-visible song/performance occurrence before authorship disposition. The film-wide roster must not be treated as per-song attribution unless item-specific evidence independently supports the assignment.
