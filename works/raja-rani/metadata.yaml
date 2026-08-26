@@ -18,7 +18,7 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: character-index-in-progress-label-inventory-complete
+  structured_derivatives: character-index-complete-verified-song-gate-next
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -43,7 +43,7 @@ status:
   dialogue_source_label_anomaly_records: 3
   dialogue_latest_batch: works/raja-rani/notes/dialogue-batch-006.md
   dialogue_next_scene_batch: null
-  character_index: in-progress-entity-mapping-next
+  character_index: complete-verified
   character_index_path: works/raja-rani/characters/index.json
   character_schema_path: works/raja-rani/characters/schema.json
   character_initialization_checkpoint: works/raja-rani/notes/character-layer-initialization.md
@@ -51,8 +51,17 @@ status:
   character_label_inventory_path: works/raja-rani/characters/labels-inventory.json
   character_label_inventory_checkpoint: works/raja-rani/notes/character-label-inventory.md
   character_distinct_source_labels: 74
-  character_entity_mapping: not-started-ready
-  character_entities: 0
+  character_entity_mapping: complete-verified
+  character_entities_path: works/raja-rani/characters/entities.json
+  character_mapping_checkpoint: works/raja-rani/notes/character-entity-mapping.md
+  character_entities: 42
+  character_verified_entities: 42
+  character_review_entities: 0
+  character_unresolved_entities: 0
+  character_verified_labels: 74
+  character_review_labels: 0
+  character_unresolved_labels: 0
+  song_authorship_mapping: not-started
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
   notes:
@@ -122,4 +131,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Begin evidence-backed character/entity mapping for all 74 exact source labels. Preserve dialogue speaker labels unchanged; reconcile variants only in downstream entity records, keep embedded dramatic identities distinct, and leave ambiguous identities review or unresolved rather than guessing."
+next_action: "Begin the Raja Rani song/performance inventory and item-level authorship gate. Inventory all 11 numbered பாட்டு blocks and any other source-visible performance occurrences first; do not infer per-song authorship from the film-wide PDF-9 பாடல்கள் roster."
