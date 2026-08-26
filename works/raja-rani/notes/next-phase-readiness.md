@@ -2,11 +2,11 @@
 
 ## Current phase
 
-Source intake, structural mapping, canonical Tamil first pass, full rendered-scan fidelity audit, source-supported scene segmentation, the complete eligible verified scene-text derivative layer, and the complete eligible immutable dialogue layer are complete for the supplied scan.
+Source intake, structural mapping, canonical Tamil first pass, full rendered-scan fidelity audit, source-supported scene segmentation, the complete eligible verified scene-text derivative layer, the complete eligible immutable dialogue layer, and the complete verified character/entity derivative are complete for the supplied scan.
 
 The Tamil fidelity gate remains **closed-with-source-limitations**. Four screenplay pages remain `review`: PDF **27, 48, 57 and 74**.
 
-The next structured derivative is the **character/entity index**, built only from the completed verified dialogue inventory and other verified source evidence without rewriting immutable dialogue labels.
+The next structured derivative is the **song/performance inventory and item-level authorship gate**. The source prints 11 numbered `பாட்டு` blocks across PDF 4–9 plus a film-wide PDF-9 `பாடல்கள்:` roster; the roster is not item-level authorship evidence.
 
 Controlling files:
 
@@ -16,11 +16,13 @@ Controlling files:
 - `notes/scene-text-batch-010.md`
 - `notes/scene-layer-completion-dialogue-initialization.md`
 - `notes/dialogue-batch-001.md` through `notes/dialogue-batch-006.md`
+- `notes/character-label-inventory.md`
+- `notes/character-entity-mapping.md`
 - `scenes/index.json`
-- `scenes/README.md`
-- `dialogues/README.md`
-- `dialogues/schema.json`
 - `dialogues/index.json`
+- `characters/labels-inventory.json`
+- `characters/entities.json`
+- `characters/index.json`
 
 ## Completed
 
@@ -35,11 +37,14 @@ Controlling files:
 - Source-supported archival scene segmentation complete: **58 segments**.
 - Verified scene-text eligibility: **50 segments**.
 - Source-review-blocked scene segments: **8**.
-- Scene-text Batch 001 through Batch 010 complete.
 - Verified scene-text files completed: **50/50 eligible**.
-- Dialogue Batch 001 through Batch 006 complete.
 - Immutable labelled-dialogue records: **892** across **50/50 eligible scenes**.
-- Repository bookkeeping is reconciled at the work-local level; global mirrors are synchronized at the completion checkpoint.
+- Exact character-label inventory: **74/74 labels**.
+- Character/entity mapping: **42 verified entities / role categories / collectives covering 74/74 labels**.
+- Character review/unresolved entities: **0 / 0**.
+- Character review/unresolved labels: **0 / 0**.
+- Dialogue records changed by character mapping: **0**.
+- Repository bookkeeping and global mirrors are synchronized at the character completion checkpoint.
 
 ## Scene-text completion position
 
@@ -58,7 +63,7 @@ The eligible scene-text layer is therefore **complete-with-review-source-exclusi
 - Scene-Text Batch 007 restored the exact PDF 58–59 `ராஜா:` / `ராசா:` alternation.
 - Scene-Text Batch 008 restored PDF 66's opening continuation label to source-visible `ராசா:`.
 - Scene-Text Batches 009–010 required no further correction in their verified spans.
-- Dialogue Batches 001–006 required no new canonical Tamil correction.
+- Dialogue Batches 001–006 and character mapping required no new canonical Tamil correction.
 
 No review page was promoted and the global fidelity totals remain unchanged.
 
@@ -83,11 +88,24 @@ Final dialogue state:
 - cross-page dialogue records: **11**
 - tracked non-colon source-label/delimiter anomalies: **3**
 
-Batch 006 added **30 records** across `s056`–`s058` and no new zero-record scene, cross-page record or delimiter anomaly.
-
-The no-inference rule remains explicit in the ending. Standalone unlabelled material in `s057` remains outside immutable dialogue records, and the final `s058` performance cue, `நலம் வாழ்க!`, ornament and printer line are not dialogue records.
-
 Rules remain unchanged: only explicitly speaker-labelled utterances become records; exact labels/delimiters are preserved; page-crossing utterances remain one record; and blocked scenes remain outside dialogue production.
+
+## Character/entity gate — complete-verified
+
+Final character state:
+
+- immutable dialogue records examined: **892/892**
+- distinct exact source labels: **74**
+- labels dispositioned: **74/74**
+- entities / role categories / collectives: **42**
+- verified entities: **42**
+- review entities: **0**
+- unresolved entities: **0**
+- verified labels: **74**
+- review labels: **0**
+- unresolved labels: **0**
+
+Normalization exists only downstream in `characters/entities.json`. Non-obvious mappings are supported by verified context: `ரா` in scene 45 maps to Rani rather than Raja; scene 52 explicitly establishes `தாய்` as Geetha's mother/Thayammal; scene 57 explicitly establishes `சங்` as Sangaran. Context-reused worker labels remain role categories rather than guessed physical identities, and embedded dramatic identities remain distinct from outer-film identities.
 
 ## Readiness
 
@@ -98,12 +116,12 @@ Rules remain unchanged: only explicitly speaker-labelled utterances become recor
 - scene segmentation/index: **COMPLETE — 58 segments**
 - verified scene-text derivatives: **COMPLETE — 50/50 eligible; 8 blocked**
 - dialogue extraction: **COMPLETE — 50/50 eligible scenes; 892 immutable records; 8 blocked scenes excluded**
-- character/entity index: **READY TO START**
-- song/performance authorship gate: **not yet started**
+- character/entity index: **COMPLETE-VERIFIED — 74/74 labels; 42 verified entities/role categories/collectives**
+- song/performance authorship gate: **READY TO START**
 - English translation: **not yet started; verified Tamil units only**
 
 ## Next activity
 
-Initialize the **character/entity derivative gate** from the completed 892-record immutable dialogue inventory.
+Begin the **song/performance inventory and item-level authorship gate**.
 
-The character layer may reconcile source-label variants only in its downstream mapping. It must not rewrite exact dialogue `speaker_label` or delimiter values, and it must exclude the eight review-source-blocked scenes from verified character evidence until their Tamil spans become fully verified.
+Inventory all **11 numbered `பாட்டு` blocks** and any other source-visible performance occurrences before assigning authorship. The film-wide PDF-9 `பாடல்கள்:` roster may establish the set of credited lyricists for the film but must not be promoted to item-level authorship for any specific song without item-specific evidence.
