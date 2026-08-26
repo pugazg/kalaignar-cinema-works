@@ -195,6 +195,20 @@ Batch reports:
 - `notes/dialogue-batch-005.md`
 - `notes/dialogue-batch-006.md`
 
+## Character/entity index — exact-label inventory complete
+
+The character layer is initialized under `characters/` and its mandatory exact-label inventory is complete before any normalization:
+
+- eligible dialogue scenes scanned: **50/50**;
+- immutable dialogue records scanned: **892/892**;
+- distinct exact non-empty `speaker_label` strings: **74**;
+- inventory: `characters/labels-inventory.json`;
+- checkpoint: `notes/character-label-inventory.md`;
+- dialogue records modified: **0**;
+- entity mapping: **not started — ready**.
+
+Exact variants remain separate inventory evidence. For example, `ராஜா`, `ராசா`, `ராஜ`, `ரா` are four exact labels at this layer; their eventual entity relationship must be established downstream from verified context rather than by spelling similarity alone. The same rule applies to every abbreviation, role label, collective and embedded dramatic identity.
+
 ## Current gate
 
 - source intake: **complete**
@@ -205,7 +219,7 @@ Batch reports:
 - scene segmentation/index: **complete — 58 segments**
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
 - dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
-- character/entity index: **not started**
+- character/entity index: **in progress — exact-label inventory complete, 74 labels; entity mapping next**
 - song/performance authorship derivatives: **not started / separately gated**
 - English translation: **not started; verified Tamil units only**
 
@@ -220,6 +234,6 @@ Batch reports:
 
 ## Next activity
 
-Initialize and execute the **character/entity derivative gate** from the completed 892-record immutable dialogue inventory.
+Begin evidence-backed **character/entity mapping for all 74 exact source labels**.
 
-Character/entity mapping may reconcile source-label variants only downstream. It must not rewrite any exact dialogue `speaker_label` or delimiter, and it must not use the eight source-review-blocked scenes as verified character evidence until their source spans are fully verified.
+Character/entity mapping may reconcile source-label variants only downstream and only when verified scene/source context supports the relationship. It must not rewrite any exact dialogue `speaker_label` or delimiter, must keep embedded dramatic identities distinct from outer-film identities unless source evidence supports a relationship, and must leave genuinely ambiguous labels at `review` or `unresolved` rather than guessing.
