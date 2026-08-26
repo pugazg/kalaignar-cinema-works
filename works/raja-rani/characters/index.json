@@ -1,7 +1,7 @@
 {
   "work_id": "raja-rani",
   "status": "in-progress",
-  "phase": "initialized-exact-label-inventory-next",
+  "phase": "exact-label-inventory-complete-entity-mapping-next",
   "dialogue_index": "../dialogues/index.json",
   "schema": "schema.json",
   "label_inventory": "labels-inventory.json",
@@ -19,10 +19,10 @@
     "raja-rani-s054",
     "raja-rani-s055"
   ],
-  "distinct_source_labels": null,
+  "distinct_source_labels": 74,
   "entity_count": 0,
-  "label_inventory_status": "not-started",
-  "entity_mapping_status": "blocked-until-label-inventory-complete",
+  "label_inventory_status": "complete-inventory",
+  "entity_mapping_status": "not-started-ready",
   "dialogue_records_modified": false,
-  "next_activity": "Inventory every distinct exact non-empty speaker_label across all 892 immutable eligible dialogue records and record the scene ordinals for each label in labels-inventory.json."
+  "next_activity": "Begin evidence-backed entity mapping for all 74 exact source labels. Preserve every dialogue speaker_label unchanged; reconcile variants only in downstream entity records, keep embedded dramatic identities distinct, and leave ambiguous identities review or unresolved rather than guessing."
 }
