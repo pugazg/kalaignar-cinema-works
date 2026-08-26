@@ -1,0 +1,303 @@
+{
+  "work_id": "raja-rani",
+  "target_language": "en",
+  "scene_id": "raja-rani-s001",
+  "archival_scene_ordinal": 1,
+  "source_scene_number": null,
+  "pilot_status": "verified",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "raja-rani-en-s001-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/scenes/scene-001.md",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "opening-stage-direction",
+          "ordinal": 1,
+          "description": "Opening hospital direction before the first labelled utterance."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "[Gnanakkan is lying on a table. The doctor and assistants stand around him. Rani is seated outside. A boy comes in.]",
+        "mode": "prose-faithful",
+        "notes": [
+          "The stage direction is translated only to the extent printed; no medical procedure or additional action is inferred."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பையன்",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "Amma! The doctor is calling you...",
+        "mode": "prose-faithful",
+        "notes": [
+          "`Amma` is retained as the boy's respectful form of address; it is not interpreted as a literal mother-child relationship."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/scenes/scene-001.md",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Direction between the boy's call and the doctor's first utterance."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "[Rani comes in.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டாக்டர்",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "He'll recover soon; don't worry... come this way, dear.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The soft address in `வாம்மா` is carried as `dear` without changing the doctor's informal reassuring register."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, doctor?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டாக்",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "It's a good thing—your father survived.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The idiomatic `நல்ல வேலையா` is kept as relief at survival rather than translated literally as `good work`."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "Many 'thanks', doctor. Is his eyesight all right now?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source-visible English-derived `தேங்க்ஸ்` remains visible as `thanks` rather than being replaced by a fully Tamil-register equivalent."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டாக்",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "Was his accident an ordinary one? That he survived at all is remarkable! Anyway, take him home and make sure he keeps taking the medicine without missing it; we'll see later!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The doctor's rhetorical question and colloquial instruction are retained rather than compressed into clinical prose."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "Then... his eyes...?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The broken, hesitant source wording `அப்படின்னு... அவங்கண்...?` is left fragmentary rather than completed into a smoother question."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டாக்",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "I told you well beforehand even then, amma—he has grown old. Whether his eyesight will return now is doubtful!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's repeated beforehand/already emphasis is retained rather than streamlined away.",
+          "`amma` preserves the doctor's familiar address to Rani without implying kinship."
+        ]
+      }
+    },
+    {
+      "id": "raja-rani-en-s001-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-001.md",
+        "source_record_id": "raja-rani-s001-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {"pdf_page": 10, "printed_page": 9}
+        ]
+      },
+      "translation": {
+        "english_text": "Appa!...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The kinship vocative is retained as `Appa` to preserve the emotional force of the one-word cry."
+        ]
+      }
+    }
+  ]
+}
