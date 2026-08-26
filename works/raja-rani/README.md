@@ -38,7 +38,7 @@ PDF 9 contains a film-wide `பாடல்கள்:` credit roster:
 - `வில்லிபுத்தன்`
 - `விவேகன்`
 
-This roster does **not** establish item-level authorship for each numbered song. Song authorship remains separately gated until item-level evidence is available.
+This roster establishes film-wide participation only. It does **not** map any one of the 11 numbered song blocks to an individual lyricist.
 
 ## Verified source structure
 
@@ -143,14 +143,11 @@ The final Batch 010 resumed only after the blocked PDF-74 scene group at T056 on
 
 No wording from blocked `s053`–`s055` was imported into the final verified derivatives.
 
+During the song gate, one earlier non-dialogue derivative omission was corrected from verified canonical PDF 30: `scenes/scene-016.md` now includes the source separator plus `[ராணி “வேலையில்லாத் தொல்லையில்லை” என்று பாடிக் கொண்டிருக்கிறாள்.]` before the first labelled dialogue. Canonical Tamil, fidelity totals and immutable dialogue records are unchanged.
+
 ## Repository bookkeeping checkpoint
 
-The earlier repository-level gap is reconciled:
-
-- `data/works.json` contains a Raja Rani work record;
-- the repository root README contains a Raja Rani status section;
-- work-local scene totals remain **50/50 eligible complete / 8 blocked**;
-- `notes/scene-layer-completion-dialogue-initialization.md` records the scene→dialogue phase boundary.
+The repository-level Raja Rani work record and root README are maintained as mirrors of the work-local phase state. Major phase checkpoints are recorded in `notes/scene-layer-completion-dialogue-initialization.md`, `notes/character-label-inventory.md`, `notes/character-entity-mapping.md`, and `notes/song-performance-authorship-gate.md`.
 
 ## Dialogue index — complete for verified eligible scenes
 
@@ -225,6 +222,37 @@ Important context-sensitive mapping decisions are source-backed rather than spel
 
 Embedded dramatic identities in `சேரன் செங்குட்டுவன்`, the `அகல்யா` rehearsal and `சாக்ரடீஸ்` remain distinct from outer-film identities. Exact dialogue labels and delimiters remain immutable.
 
+## Song/performance inventory and authorship gate — complete with unresolved authorship
+
+The source-visible song layer is complete under `songs/`.
+
+- numbered source `பாட்டு` blocks: **11**
+- standalone verified Tamil song derivatives: **11/11** under `songs/tamil/`
+- screenplay singing references: **4** — scenes 4, 16, 40 and 58
+- total inventoried song/singing occurrences: **15**
+- original-booklet item-level lyricist credits: **0**
+- numbered songs with later verified Kalaignar-anthology item correspondence: **5**
+- numbered songs with unresolved lyricist: **6**
+
+The PDF-9 six-name `பாடல்கள்:` roster remains film-wide only and is not assigned to songs by order, singer or likelihood.
+
+The later verified `works/kalaignar-thirai-isai-paadalgal/` archive provides exact Raja Rani item correspondence for numbered songs **3, 5, 6, 7 and 8**. Those five are recorded at **`anthology-attributed`** tier to `மு. கருணாநிதி`; this is not promoted to original-film primary-source item credit. Numbered songs **1, 2, 4, 9, 10 and 11** remain unresolved.
+
+Cross-witness wording never replaces this booklet. Examples include song 6's source `கொடியவனே` versus the later anthology's `கொடியவளே`, and song 8's source opening `சீலா!...லாலீ!...அது போலீ!...` versus the later anthology's `வீணா!... வாலி!... அது போலி!...`.
+
+Three screenplay links are source-secure: scene 4 → song 3; scene 16 → song 5; scene 40 → song 8. Scene 58's `(இருவரும் பாடுகிறார்கள்)` strongly echoes song 11 but remains a review-level link because the source prints neither the song number nor lyric there. No absent closing lyrics are supplied.
+
+Song files:
+
+- `songs/schema.json`
+- `songs/credits.json`
+- `songs/cross-witness-evidence.json`
+- `songs/inventory.json`
+- `songs/index.json`
+- `songs/tamil/README.md`
+- `songs/tamil/song-001.md` through `songs/tamil/song-011.md`
+- `notes/song-performance-authorship-gate.md`
+
 ## Current gate
 
 - source intake: **complete**
@@ -236,8 +264,8 @@ Embedded dramatic identities in `சேரன் செங்குட்டு�
 - verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
 - dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
 - character/entity index: **complete-verified — 74/74 labels; 42 verified entities/role categories/collectives**
-- song/performance authorship derivatives: **not started / separately gated**
-- English translation: **not started; verified Tamil units only**
+- song/performance authorship derivative: **complete-with-unresolved-authorship — 11 numbered songs, 4 screenplay references, 11/11 Tamil song derivatives**
+- English translation: **not started / next; verified Tamil units only**
 
 ## Source rules
 
@@ -246,10 +274,11 @@ Embedded dramatic identities in `சேரன் செங்குட்டு�
 - No silent correction or modernization.
 - No invented speakers.
 - Song authorship requires item-level evidence.
+- Later witnesses do not overwrite this edition's Tamil.
 - Uncertainty remains explicit instead of being repaired from memory or external sources.
 
 ## Next activity
 
-Begin the **song/performance inventory and item-level authorship gate**.
+Initialize the **source-linked English translation gate**.
 
-The booklet prints **11 numbered `பாட்டு` blocks** across PDF 4–9 plus a film-wide PDF-9 `பாடல்கள்:` roster. Inventory every source-visible song/performance occurrence before attempting authorship mapping. The film-wide roster must **not** be treated as item-level evidence for any particular song unless separate item-specific evidence supports that attribution.
+Create a translation schema/index and a small verified pilot from eligible verified Tamil. Labelled dialogue must link immutable dialogue IDs; source-unlabelled spoken material must remain unlabelled; stage directions, written text, complete song bodies and cue-only singing references must remain distinct; page crossings must remain traceable; the eight blocked review-source scenes remain excluded; and the six unresolved numbered-song lyricist mappings must not be upgraded during translation.
