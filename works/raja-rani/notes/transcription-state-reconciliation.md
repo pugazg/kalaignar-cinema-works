@@ -42,7 +42,7 @@ Tamil fidelity gate: **closed-with-source-limitations**.
 - Scene-Text Batch 006: PDF 53 `ராசா:` labels and `(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)` restored.
 - Scene-Text Batch 007: exact PDF 58–59 `ராஜா:` / `ராசா:` alternation restored.
 - Scene-Text Batch 008: PDF 66 opening continuation label restored to source-visible `ராசா:`.
-- Scene-Text Batches 009–010, Dialogue Batches 001–006, character/entity mapping and the song cross-witness gate required no new canonical Tamil correction.
+- Scene-Text Batches 009–010, Dialogue Batches 001–006, character/entity mapping, the song cross-witness gate and the English pilot required no new canonical Tamil correction.
 
 No review page was promoted. The 75/4 source-page and 66/4 screenplay-page counts remain unchanged.
 
@@ -68,7 +68,7 @@ During the song gate, one derivative-completeness omission was identified and re
 
 ## Repository bookkeeping reconciliation
 
-The repository-level Raja Rani work record and root status section are synchronized with the work-local state after major phase completion. Phase checkpoints include `notes/scene-layer-completion-dialogue-initialization.md`, `notes/character-label-inventory.md`, `notes/character-entity-mapping.md`, and `notes/song-performance-authorship-gate.md`.
+The repository-level Raja Rani work record and root status section are synchronized after major phase completion. Phase checkpoints include `notes/scene-layer-completion-dialogue-initialization.md`, `notes/character-label-inventory.md`, `notes/character-entity-mapping.md`, `notes/song-performance-authorship-gate.md`, and the translation-local `translations/PILOT_REVIEW.md`.
 
 ## Dialogue index — complete for verified eligible scenes
 
@@ -148,7 +148,7 @@ The source-visible song/performance gate is complete under `songs/`.
 
 ### Source-position numbered songs
 
-The verified front song section contains **11 numbered `பாட்டு` blocks** across PDF 4–9. All 11 are complete or clearly bounded lyric bodies, so the archive now has **11/11 complete-verified Tamil derivatives** under `songs/tamil/`.
+The verified front song section contains **11 numbered `பாட்டு` blocks** across PDF 4–9. All 11 are complete or clearly bounded lyric bodies, so the archive has **11/11 complete-verified Tamil derivatives** under `songs/tamil/`.
 
 The booklet's PDF-9 `பாடல்கள்:` roster names six lyricists but contains no per-item mapping. Therefore it is preserved only as film-wide evidence in `songs/credits.json`.
 
@@ -200,6 +200,38 @@ Authoritative files:
 - `songs/tamil/song-001.md` through `songs/tamil/song-011.md`
 - `notes/song-performance-authorship-gate.md`
 
+## English translation derivative — pilot verified
+
+The translation layer is initialized under `translations/` from verified Tamil only.
+
+Pilot `raja-rani-s001` covers PDF **10 / printed p.9**.
+
+- translation status: **pilot-verified**
+- translation-eligible verified scenes: **50**
+- blocked review-source scenes: **8**
+- scenes translated and verified: **1/50 eligible**
+- verified translation units: **11**
+- unit mix: **9 dialogue / 2 stage direction**
+- immutable dialogue records expected in pilot: **9**
+- immutable dialogue records linked: **9/9 exactly once**
+- source-unlabelled spoken units: **0**
+- cross-page translation units: **0**
+- song/performance units in pilot: **0**
+- canonical Tamil modified: **no**
+- scene/dialogue/character/song source derivatives modified by translation: **no**
+
+Authoritative translation files:
+
+- `translations/schema.json`
+- `translations/index.json`
+- `translations/README.md`
+- `translations/PILOT_REVIEW.md`
+- `translations/records/scene-001.json`
+
+The pilot keeps exact `டாக்டர்` / `டாக்` labels as source metadata, retains the address forms `Amma` / `amma` and `Appa` where literal English would over-specify kinship/register, and preserves the broken hesitant `அப்படின்னு... அவங்கண்...?` as `Then... his eyes...?` rather than smoothing it into invented wording.
+
+The 11 numbered front-matter lyric bodies remain outside screenplay scene numbering and will use a parallel song-linked English record set. Translation will not upgrade their authorship status.
+
 ## Current gate
 
 - source intake: **complete**
@@ -212,12 +244,12 @@ Authoritative files:
 - dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
 - character/entity index: **complete-verified — 74/74 labels; 42 verified entities/role categories/collectives**
 - song/performance authorship derivative: **complete-with-unresolved-authorship — 11 numbered songs, 4 screenplay singing references, 11/11 Tamil song derivatives**
-- English translation: **not started / next; eligible only from verified Tamil units**
+- English translation: **pilot-verified — 1/50 eligible scenes; 11 verified units**
 
-No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved canonical readings or absent lyrics.
+No outside edition, film audio, subtitle, web quotation or memory is used to fill unresolved canonical readings, absent lyrics or source-unlabelled speaker identity.
 
 ## Next activity
 
-Initialize the **source-linked English translation derivative**.
+Translate verified **`raja-rani-s002`–`raja-rani-s005`** in source order using the pilot rules.
 
-Create a translation schema/index and a small verified pilot. Labelled dialogue units must link existing immutable dialogue IDs; source-unlabelled speech remains unlabelled; stage directions, written matter, song bodies and singing references remain distinct unit kinds; page-crossing source units remain single translation units; blocked review-source scenes remain excluded; and unresolved lyricist metadata remains unresolved rather than being promoted during translation.
+Labelled dialogue units must link existing immutable dialogue IDs; source-unlabelled speech remains unlabelled; stage directions and song/performance references stay source-bounded; page-crossing source units remain single translation units; blocked review-source scenes remain excluded; and unresolved lyricist metadata remains unresolved rather than being promoted during translation.
