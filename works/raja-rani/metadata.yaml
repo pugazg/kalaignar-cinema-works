@@ -18,7 +18,7 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: song-gate-complete-with-unresolved-authorship-translation-next
+  structured_derivatives: english-translation-pilot-verified
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -80,7 +80,22 @@ status:
   song_original_source_item_level_lyricist_credits: 0
   song_tamil_derivatives: complete-verified
   song_tamil_derivative_files: 11
-  english_translation: eligible-only-from-verified-tamil-not-started
+  english_translation: pilot-verified
+  translation_schema_path: works/raja-rani/translations/schema.json
+  translation_index_path: works/raja-rani/translations/index.json
+  translation_pilot_review_path: works/raja-rani/translations/PILOT_REVIEW.md
+  translation_eligible_scenes: 50
+  translation_blocked_scenes: 8
+  translation_scenes_verified: 1
+  translation_units: 11
+  translation_verified_units: 11
+  translation_review_units: 0
+  translation_draft_units: 0
+  translation_dialogue_source_records_linked: 9
+  translation_unit_kind_counts: {dialogue: 9, stage_direction: 2, song: 0, song_reference: 0, performance_cue: 0, chant: 0, written_text: 0}
+  translation_front_matter_numbered_songs_expected: 11
+  translation_front_matter_numbered_songs_started: 0
+  translation_next_scene_batch: "002-005"
 scan_condition:
   notes:
     - pdf_page: 27
@@ -149,4 +164,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Begin the Raja Rani source-linked English translation gate from verified Tamil only. Create the translation schema/index and a small verified pilot; preserve immutable dialogue links, source-unlabelled speech, song units and cue-only singing references without inventing absent lyrics or upgrading unresolved authorship."
+next_action: "Translate verified Raja Rani scenes 002-005 in source order using the pilot rules. Preserve exact immutable dialogue links, source-unlabelled speech and source-visible stage/performance material; do not invent speakers, lyrics, scene endings or song authorship."
