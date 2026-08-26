@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil scene derivatives, immutable dialogue records, and the separately verified song/performance layer  
 **Target language:** English (`en`)  
-**Status:** **pilot-verified — scene 1 / 50 eligible verified scenes; 11 verified units**
+**Status:** **in-progress-verified — scenes 1–5 / 50 eligible verified scenes; 109 verified units**
 
 This directory contains the source-linked English derivative of `ராஜா ராணி`. Nothing here repairs, modernizes, expands or overwrites the Tamil source layers.
 
@@ -15,7 +15,8 @@ Eight archival scenes remain outside English production because they intersect r
 - `schema.json` — scene-sharded source-linked translation schema.
 - `index.json` — translation coverage and integrity checkpoint.
 - `PILOT_REVIEW.md` — scene-1 fidelity/voice review and scaling rules.
-- `records/scene-001.json` — verified pilot scene record.
+- `BATCH_002_005_REVIEW.md` — verified review for scenes 2–5.
+- `records/scene-001.json` through `records/scene-005.json` — verified scene records.
 
 The 11 numbered front-matter song bodies remain source structures outside the screenplay scene segmentation. They will be translated through a parallel song-linked translation set rather than being forced into invented scene IDs. Screenplay song references/performance cues may link to `songs/index.json` through `source_occurrence_id` when source evidence supports that relation.
 
@@ -26,9 +27,9 @@ The 11 numbered front-matter song bodies remain source structures outside the sc
 3. **Source-unlabelled speech remains unlabelled.** Where later scenes contain direct speech without an explicit source label, translation may preserve it as a source-linked unit with null `speaker_label` and null `source_record_id`; no speaker is invented.
 4. **Stage directions stay source-bounded.** Do not add action, motivation, identity or scene closure not printed in the verified scene derivative.
 5. **Rhetoric and colloquial force survive.** Repetition, hesitation, insults, rhetorical questions, comic timing, ellipses and abrupt syntax are retained when intelligible in English.
-6. **Tamil forms of address may remain transliterated when translation would falsely specify a relationship or flatten register.** The pilot establishes `Amma` / `amma` and `Appa` in this way.
-7. **Code-switching remains visible.** Source-visible English-derived forms such as `தேங்க்ஸ்` are not silently naturalized away when the switch itself carries source texture.
-8. **Cross-page source units remain one English unit.** Page provenance and `english_page_segments` must mirror genuine physical source crossings.
+6. **Tamil forms of address may remain transliterated when translation would falsely specify a relationship or flatten register.** The pilot establishes `Amma` / `amma` and `Appa`; Batch 002–005 also retains `thambi`, `athaan` and other context-bearing forms where useful.
+7. **Code-switching remains visible.** Source-visible English-derived forms such as `தேங்க்ஸ்` and `அமெச்சூர்ஸ்` are not silently naturalized away when the switch itself carries source texture.
+8. **Cross-page source units remain one English unit.** Page provenance and `english_page_segments` mirror genuine physical source crossings.
 9. **Songs are distinct translation units.** Complete printed lyric bodies use semantic-poetic translation; cue-only or reference-only occurrences never receive missing lyrics.
 10. **Authorship status is not translation content.** The five later-anthology Kalaignar attributions remain evidence metadata only; the six unresolved numbered-song authorships stay unresolved.
 11. **Decorative star/rule separators remain structural.** They do not become invented prose such as `(Scene ends.)`.
@@ -46,13 +47,39 @@ The 11 numbered front-matter song bodies remain source structures outside the sc
 - immutable dialogue records linked: **9/9**;
 - source-unlabelled spoken units: **0**;
 - song/performance units: **0**;
-- cross-page units: **0**;
-- canonical Tamil modified: **no**;
-- dialogue records modified: **no**;
-- character/song derivatives modified by translation: **no**.
+- cross-page units: **0**.
 
-See `PILOT_REVIEW.md` for the voice and scaling checkpoint.
+See `PILOT_REVIEW.md` for the initial voice checkpoint.
+
+## Batch 002–005 coverage
+
+Scenes `raja-rani-s002` through `raja-rani-s005` add **98 verified units**:
+
+- dialogue: **93**;
+- stage direction: **4**;
+- performance cue: **1**;
+- cross-page units: **3**.
+
+The batch links all **93/93** immutable dialogue records in those scenes. Cumulative completed-scene dialogue linkage is therefore **102/102**.
+
+Scene 4 keeps the `சேரன் செங்குட்டுவன்` embedded-play boundary explicit and represents Rani's ticket-selling singing direction as `raja-rani-song-perf-001`, securely linked by the song inventory to numbered song 3. No front-matter lyric is imported into the screenplay scene.
+
+Scene 5 keeps Cheran's long Purananuru-inspired recitation as one immutable dialogue-linked English unit across PDF **15→16→17→18**, with page segments preserving the physical scan boundaries. The translation keeps source rhetoric and cultural vocabulary instead of substituting wording from an outside Purananuru edition.
+
+Current cumulative state:
+
+- eligible verified scenes translated: **5/50**;
+- verified English units: **109**;
+- unit mix: **102 dialogue / 6 stage direction / 1 performance cue**;
+- immutable dialogue records linked in completed scenes: **102/102**;
+- source-unlabelled spoken units: **0**;
+- cross-page English units: **3**;
+- translated screenplay song/performance occurrences: **1**;
+- canonical Tamil modified: **no**;
+- scene/dialogue/character/song source derivatives modified by translation: **no**.
+
+See `BATCH_002_005_REVIEW.md` for the detailed batch checkpoint.
 
 ## Next batch
 
-Translate verified `raja-rani-s002` through `raja-rani-s005` in source order, retaining all source-labelled dialogue links and all source-visible stage/performance material. Do not cross into blocked `s011`–`s013` in a later batch; translation batching must follow the verified-scene eligibility map.
+Translate verified `raja-rani-s006` through `raja-rani-s010` in source order, then stop before blocked `s011`–`s013`. Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or authorship.
