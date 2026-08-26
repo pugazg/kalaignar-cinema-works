@@ -37,41 +37,33 @@ Iteration commentary / extraction-review prose embedded between Markdown batches
 |---|---|---|---|---|
 | PDF 9–13 / printed pp.1–5 | reconciled from corrected Markdown | scenes 1–4 reconciled | affected records in scenes 1, 2 and 4 reconciled; scene 3 dialogue unchanged | complete for this range |
 | PDF 14–18 / printed pp.6–10 | reconciled as the opening portion of Part 02 | scenes 5–10 reconciled | affected records in scenes 5–9 reconciled; scene 10 remains zero-dialogue | complete for this range |
-| PDF 19–24 / printed pp.11–16 through scene 15 | canonical Part 02 already corrected | scene 11 retained from scan-supported structure; scenes 12–15 reconciled | scene 11 remains zero-dialogue; scenes 12–15 reconciled with stable record IDs | complete through scene 15 |
-| PDF 24–35 / printed pp.16–27, scenes 16–29 | canonical Part 02 corrected from Markdown baseline | scenes 16–29 reconciled | scenes 16–29 reconciled with stable record IDs and unchanged counts | **complete through Part 02** |
-| PDF 36–112 / printed pp.28–104 | not yet reconciled in this pass | not yet reconciled | not yet reconciled | pending |
+| PDF 19–24 / printed pp.11–16 through scene 15 | canonical Part 02 reconciled | scene 11 retained from scan-supported structure; scenes 12–15 reconciled | scene 11 remains zero-dialogue; scenes 12–15 reconciled with stable record IDs | complete for this range |
+| PDF 24–35 / printed pp.16–27, scenes 16–29 | canonical Part 02 reconciled and final cleanup complete | scenes 16–29 reconciled through PDF 35 | scenes 16–29 reconciled with stable record IDs and unchanged counts; scene-29 PDF-36 continuation deferred | **complete through Part 02** |
+| PDF 36–63 / printed pp.28–55 | **canonical Part 03 reconciled from corrected Markdown** | pending | pending | **next derivative work: scene-29 continuation + scenes 30–48** |
+| PDF 64–112 / printed pp.56–104 | not yet reconciled in this pass | not yet reconciled | not yet reconciled | pending |
 
-### Part 02 canonical merge
+### Part 02 closure
 
-`transcription/parts/part-02-pdf-14-35.md` has been rewritten in source order from the corrected Markdown baseline for **PDF 14–35 / printed pp.6–27**. This establishes the user's corrected text as the main correction witness before all remaining derivatives are propagated.
+`transcription/parts/part-02-pdf-14-35.md` is now closed for this corrected-Markdown pass. After the primary merge, a final consistency cleanup resolved remaining Markdown extraction artifacts and structural-order drift already adjudicated from the scan/scene evidence, including the scene-17 `சூனியக்கார` reading, `கலங்குதய்யோ`, `காதிருந்தும் செவிடனாய்`, page-35 `டே...`, and the correct structural placement of scenes 22–27 material.
 
-The scan is still used where the Markdown omits or conflicts with visible structure. For example, PDF 19 visibly carries the scene-11 location label `[ஆறு`; the existing scene derivative retains it even though that label is absent from the Markdown extraction. Likewise, the corrected Markdown's accidental non-Tamil extraction token `అది` is not imported; the source-language form is `அது`.
+### Part 03 canonical reconciliation
 
-### Derivative reconciliation through scene 29 / end of Part 02
+`transcription/parts/part-03-pdf-36-63.md` has now been rebuilt from the corrected Markdown baseline for **Play Pages 28–55 / PDF 36–63**. Iteration commentary embedded in the supplied Markdown was excluded rather than imported as source text. The page anchors remain explicit so the scene/dialogue pass can now reconcile against a stable canonical source layer.
 
-Scenes 16–29 and their dialogue shards are now reconciled against the corrected Part-02 text. Stable dialogue IDs and the existing per-scene record counts were retained. Scene 25 and scene 26 remain legitimate zero-dialogue scenes.
+This Part-03 canonical merge includes the corrected forms and labels supplied by the user witness, including `பூமாலை`, `புண்யகோடி`, the corrected labour-movement passages, the scene-31 `பாண்டியன் என் சொல்லை` performance reference, and the corrected scene-42/43 `கலப்படம்` material. The existing special scan-supported scene-31 song-title correction remains consistent with this witness.
 
-Important exact-label corrections now propagated in this range include:
+### Derivative boundary
 
-- `பூமால்` → `பூமாலை`;
-- `புண்ணகோடி` → `புண்யகோடி`;
-- `குணமணி` → `குண்டுமணி`;
-- scene 21 `சமையல்காரி` → source-supported `சமையல்காரன்`.
+Scenes 1–29 are reconciled through **PDF 35 / printed p.27**. Scene 29 crosses the transcription-part boundary: its **PDF 36 / printed p.28 continuation** is now corrected canonically but still needs to be propagated to `scene-29.md` and its immutable dialogue records. After that, scenes 30–48 require the same corrected-canonical reconciliation.
 
-Important text restorations include the corrected scene-17 elopement/deception passage, scene-20 railway conversation, scene-25 `நளன்` narration, scene-26 `மாலுமிகளுக்கு வழி காட்டும் தீபஸ்தம்பம்`, scene-28 examination-number exchange, and scene-29 labour-slogan / `பாட்டாளியின் குரல்` setup.
-
-The PDF was used to adjudicate obvious remaining extraction doubts in the corrected Markdown rather than importing them blindly. In particular, PDF 25 supports `சூனியக்கார ... / சூனியக்காரன்` in scene 17, PDF 29 supports `காதிருந்தும் செவிடனாய்`, and PDF 30 preserves the structural scene-22 heading `[ஹோட்டலறை` and scene-23 `[மிருக காட்சிசாலை` layout.
-
-Scene 29 crosses the transcription-part boundary. Its **PDF 34–35 / printed pp.26–27** portion is reconciled from the corrected Part-02 witness; its already stored **PDF 36 / printed p.28** continuation has intentionally been left textually unchanged until Part 03 is opened against the corrected Markdown.
-
-Because exact speaker labels have changed during this pass, the existing character-label inventory and downstream entity mappings are now known to be stale and will be regenerated after the dialogue reconciliation pass reaches a stable full-work boundary. English / reader / EPUB derivatives likewise remain intentionally unsynchronized while the 104-page correction pass is open.
+Exact speaker labels have already changed during this pass (`பூமாலை`, `புண்யகோடி`, `குரல்`, `குண்டுமணி`, `சமையல்காரன்`). The existing character-label inventory and entity mappings therefore remain known-stale and will be regenerated only after the full dialogue reconciliation reaches a stable boundary.
 
 ## Execution order from here
 
-- Open **Part 03 / PDF 36–63 / printed pp.28–55** against the corrected Markdown, beginning with the PDF-36 continuation of scene 29 and then scene 30 onward.
-- Propagate each confirmed Part-03 correction to its scene/dialogue derivatives while preserving stable dialogue IDs.
-- Recheck character mappings after the dialogue label set stabilizes.
+- Reconcile scene 29's **PDF-36 continuation**, then scenes **30–48**, against corrected canonical Part 03.
+- Preserve stable dialogue IDs and existing record boundaries unless the corrected source proves the old segmentation itself wrong.
 - Continue the corrected-Markdown-first canonical reconciliation into Parts 04–05.
+- Rebuild character mappings after the dialogue label set stabilizes.
 - Reconcile English / reader / EPUB derivatives for semantic source changes instead of leaving them silently stale.
 - Restore final archive status only after all affected layers agree.
 
