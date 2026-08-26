@@ -37,23 +37,32 @@ Iteration commentary / extraction-review prose embedded between Markdown batches
 |---|---|---|---|---|
 | PDF 9–13 / printed pp.1–5 | reconciled from corrected Markdown | scenes 1–4 reconciled | affected records in scenes 1, 2 and 4 reconciled; scene 3 dialogue unchanged | complete for this range |
 | PDF 14–18 / printed pp.6–10 | reconciled as the opening portion of Part 02 | scenes 5–10 reconciled | affected records in scenes 5–9 reconciled; scene 10 remains zero-dialogue | complete for this range |
-| PDF 19–35 / printed pp.11–27 | canonical Part 02 now replaced from the corrected Markdown baseline | pending reconciliation | pending reconciliation | **next derivative work** |
+| PDF 19–24 / printed pp.11–16 through scene 15 | canonical Part 02 already corrected | scene 11 retained from scan-supported structure; scenes 12–15 reconciled | scene 11 remains zero-dialogue; scenes 12–15 reconciled with stable record IDs | complete through scene 15 |
+| PDF 24–35 / printed pp.16–27 from scene 16 onward | canonical Part 02 corrected from Markdown baseline | pending reconciliation | pending reconciliation | **next derivative work** |
 | PDF 36–112 / printed pp.28–104 | not yet reconciled in this pass | not yet reconciled | not yet reconciled | pending |
 
 ### Part 02 canonical merge
 
-`transcription/parts/part-02-pdf-14-35.md` has now been rewritten from the corrected Markdown source order for **PDF 14–35 / printed pp.6–27**. This intentionally establishes the corrected Markdown as the canonical correction baseline for the whole part before the remaining scene/dialogue derivatives are propagated.
+`transcription/parts/part-02-pdf-14-35.md` has been rewritten in source order from the corrected Markdown baseline for **PDF 14–35 / printed pp.6–27**. This establishes the user's corrected text as the main correction witness before all remaining derivatives are propagated.
 
-The merge also removes one obvious extraction-script artifact from the Markdown (`అది`) in favour of the Tamil source form `அது`. Earlier scan-adjudicated corrections already established source-visible `குரல் : பக்தா!` at PDF 14 rather than the repository's former `குரு: பக்தா!`.
+The scan is still used where the Markdown omits or conflicts with visible structure. For example, PDF 19 visibly carries the scene-11 location label `[ஆறு`; the existing scene derivative retains it even though that label is absent from the Markdown extraction. Likewise, the corrected Markdown's accidental non-Tamil extraction token `అది` is not imported; the source-language form is `அது`.
 
-The scene/dialogue layers are currently synchronized only through **PDF 18 / scene 10**. Therefore the archive must still be treated as **reconciliation-in-progress** until scenes beginning on PDF 19 onward, character-label inventories, translations and publication derivatives are updated from the corrected canonical text.
+### Derivative reconciliation through scene 15
+
+Scenes 12–15 have now been rebuilt against the corrected canonical text. The associated immutable dialogue shards were reconciled while retaining their record IDs and record counts. Important exact-label corrections now present in the dialogue layer include:
+
+- `பூமால்` → `பூமாலை` in scene 12;
+- `புண்ணகோடி` → `புண்யகோடி` in scene 15.
+
+Earlier Batch-2 work also changed scene-5 `குரு` → `குரல்` and scene-7 `குணமணி` → `குண்டுமணி` where supported by the corrected witness / scan.
+
+Because these are exact speaker-label changes, the existing character-label inventory and downstream entity mappings are now known to be stale and will be regenerated after the dialogue reconciliation pass reaches a stable full-work boundary.
 
 ## Execution order from here
 
-- Reconcile scene-text derivatives from PDF 19 onward against the corrected canonical Part 02.
-- Reconcile immutable dialogue text / exact source labels only where the corrected source requires it; preserve stable record IDs where the source utterance itself remains the same record.
-- Recheck character mappings when an exact source label changes.
-- Continue the same corrected-Markdown-first pass into Parts 03–05.
+- Continue scene/dialogue reconciliation with **scene 16 onward** through the rest of Part 02.
+- Recheck character mappings after the dialogue label set stabilizes.
+- Continue the corrected-Markdown-first canonical reconciliation into Parts 03–05.
 - Reconcile English / reader / EPUB derivatives for semantic source changes instead of leaving them silently stale.
 - Restore final archive status only after all affected layers agree.
 
