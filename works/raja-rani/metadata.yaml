@@ -84,22 +84,22 @@ status:
   translation_schema_path: works/raja-rani/translations/schema.json
   translation_index_path: works/raja-rani/translations/index.json
   translation_pilot_review_path: works/raja-rani/translations/PILOT_REVIEW.md
-  translation_latest_batch_review_path: works/raja-rani/translations/BATCH_002_005_REVIEW.md
+  translation_latest_batch_review_path: works/raja-rani/translations/BATCH_006_010_REVIEW.md
   translation_eligible_scenes: 50
   translation_blocked_scenes: 8
-  translation_scenes_verified: 5
-  translation_units: 109
-  translation_verified_units: 109
+  translation_scenes_verified: 10
+  translation_units: 234
+  translation_verified_units: 234
   translation_review_units: 0
   translation_draft_units: 0
-  translation_dialogue_source_records_linked: 102
-  translation_source_unlabelled_spoken_units: 0
-  translation_cross_page_units: 3
+  translation_dialogue_source_records_linked: 203
+  translation_source_unlabelled_spoken_units: 4
+  translation_cross_page_units: 4
   translation_song_performance_occurrences_linked: 1
-  translation_unit_kind_counts: {dialogue: 102, stage_direction: 6, song: 0, song_reference: 0, performance_cue: 1, chant: 0, written_text: 0}
+  translation_unit_kind_counts: {dialogue: 207, stage_direction: 24, song: 0, song_reference: 0, performance_cue: 1, chant: 0, written_text: 2}
   translation_front_matter_numbered_songs_expected: 11
   translation_front_matter_numbered_songs_started: 0
-  translation_next_scene_batch: "006-010"
+  translation_next_scene_batch: "014-018"
 scan_condition:
   notes:
     - pdf_page: 27
@@ -168,4 +168,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Translate verified Raja Rani scenes 006-010 in source order, then stop before blocked scenes 011-013. Preserve immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
+next_action: "Skip blocked Raja Rani scenes 011-013 and translate verified scenes 014-018 in source order. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
