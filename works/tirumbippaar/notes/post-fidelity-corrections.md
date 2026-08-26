@@ -76,7 +76,31 @@ Representative corrections include:
 
 PDF 19 was consulted because the Markdown extraction omits the visible scene-11 location label. The scan clearly shows `[ஆறு`; the scene-11 derivative therefore retains that source structure rather than deleting it.
 
-Because exact speaker labels have changed during this pass (`பூமாலை`, `புண்யகோடி`, earlier `குரல்`, `குண்டுமணி`), the existing character-label inventory and entity mapping are known to be stale and will be regenerated after the dialogue reconciliation reaches a stable full-work boundary.
+## PDF 24–35 / printed pp.16–27 — corrected Markdown derivative reconciliation / batch 4
+
+**Date:** 2026-08-26  
+**Correction witness:** user-supplied `thirumbipaar.md`  
+**PDF consulted for doubtful readings / structure:** PDF 25–35
+
+Scenes **16–29** and their dialogue shards have now been reconciled through the end of Part 02. Stable dialogue IDs and the existing per-scene record counts were retained. Scenes 25 and 26 remain zero-dialogue scenes.
+
+Representative corrections include:
+
+- scene 16 marriage notice: `புண்ணகோடி` → `புண்யகோடி`, `மெர்சண்ட்` → `மெர்ச்சண்ட்`, and `குணரத்தனம்` → `குணரத்னம்` in the printed notice;
+- scene 17: `அக்கிரமம்` → `அக்ரமம்`, the deception speech restored from the corrected witness, and scan-adjudicated `சூனியக்கார ... / சூனியக்காரன்` retained instead of importing the Markdown extraction's visibly corrupted forms;
+- scene 18 exact speaker label `புண்ணகோடி` → `புண்யகோடி`, plus `பிடிக்கலை`, `அவாளை இவாளை`, and the source `பாண்டு வாத்யம்` wording;
+- scenes 19–21: `பூமாலை`, `குண்டுமணி`, and scene-21 exact source label `சமையல்காரன்` propagated into dialogue records;
+- scene 20 railway dialogue restored, including `நானா`, `அறிவீனத்தால்`, and scan-supported `காதிருந்தும் செவிடனாய்`;
+- scene 22 source heading restored as `[ஹோட்டலறை`, with `கண்காட்சி சாலை`, `கதிரவனைப் பழிக்குமாம்`, and `அழித்தெழுதா சித்திரமே`;
+- scene 25 `நான்` → `நளன்` and the narration ending `போனதுவும் வேந்தர்க்குப் போதுமோ`;
+- scene 26 `வழ வழப்பான` → `வழவழப்பான`, `மானுடர்களுக்கு` → `மாலுமிகளுக்கு`, and the printed page-break split `உறுமு- / வது` preserved;
+- scene 27 internal monologue and `டீ தயாராகவில்லை` restored;
+- scene 28 examination/photo sequence restored, including `நானா`, `பதினாறு`, `இருபத்தினாலு`, and `விரட்டினாகூட`;
+- scene 29 Part-02 portion restored, including `போடலாமென்று துடித்தாள்`, removal of the unsupported inserted `வண்டு`, `சம்மந்தமில்லை`, `சேந்துக்கிறாரு`, `எழுதினா`, and `இன்றைக்கே`.
+
+Scene 29 crosses the transcription-part boundary. Its PDF 34–35 / printed pp.26–27 text is reconciled in this batch; the stored PDF 36 / printed p.28 continuation is intentionally unchanged pending the Part-03 corrected-Markdown pass.
+
+Because exact speaker labels have changed during this pass (`பூமாலை`, `புண்யகோடி`, `குரல்`, `குண்டுமணி`, `சமையல்காரன்`), the existing character-label inventory and entity mapping are known to be stale and will be regenerated after the dialogue reconciliation reaches a stable full-work boundary.
 
 Character/entity and English/publication derivatives are intentionally not declared synchronized while this 104-page correction pass remains open.
 
