@@ -29,7 +29,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## ராஜா ராணி status
 
-The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, the complete eligible immutable dialogue layer, and the complete verified character/entity derivative.
+The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, the complete eligible immutable dialogue layer, the complete verified character/entity derivative, and the source-visible song/performance authorship gate.
 
 - title leaf: **`ராஜா ராணி`**;
 - cover form: **`ராஜாராணி`**;
@@ -52,7 +52,10 @@ The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `wo
 - dialogue cross-page records / tracked non-colon source-label delimiter anomalies: **11 / 3**;
 - character exact-label inventory: **74/74 exact non-empty `speaker_label` strings inventoried**;
 - character/entity index: **complete-verified — 74/74 labels dispositioned into 42 verified entities / role categories / collectives; 0 review / 0 unresolved**;
-- song/performance front matter: **11 numbered `பாட்டு` blocks**; the film-wide PDF-9 lyricist roster is not treated as item-level authorship evidence.
+- numbered source songs: **11 `பாட்டு` blocks; 11/11 complete-verified Tamil song derivatives**;
+- screenplay singing references: **4**;
+- total song/singing occurrences inventoried: **15**;
+- numbered-song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved / 0 original-booklet item-level lyricist credits**.
 
 The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. Both the scene-text and dialogue phases deliberately remain complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
 
@@ -60,7 +63,11 @@ Dialogue Batches 001–006 cover every eligible verified scene range: `s001`–`
 
 Character normalization is downstream only. Non-obvious mappings were resolved from verified context rather than spelling: scene 45 establishes `ரா` as **Rani**, not Raja; scene 52 explicitly introduces **Geetha's mother / Thayammal** before `தாய்:`; and scene 57 explicitly introduces **Sangaran** before `சங்:`. Context-reused `வேலை` remains a worker/servant role category rather than being forced into one physical person. Embedded `சேரன் செங்குட்டுவன்`, `அகல்யா`, and `சாக்ரடீஸ்` dramatic identities remain distinct from outer-film identities. No dialogue record was rewritten by character mapping.
 
-**Next:** begin the **song/performance inventory and item-level authorship gate**. Inventory all 11 numbered `பாட்டு` blocks and any other source-visible performance occurrences first. The film-wide PDF-9 `பாடல்கள்:` roster must not be promoted to per-song authorship without item-specific evidence.
+The song gate keeps the PDF-9 six-name `பாடல்கள்:` roster film-wide rather than forcing it onto individual songs. The later verified `கலைஞர் திரை இசைப் பாடல்கள்` archive establishes item correspondence for numbered songs **3, 5, 6, 7 and 8**, which are recorded at **`anthology-attributed`** tier to `மு. கருணாநிதி`; songs **1, 2, 4, 9, 10 and 11** remain unresolved. Later-witness wording never overwrites this booklet: for example, Raja Rani song 8 retains `சீலா!...லாலீ!...அது போலீ!...` despite a different opening in the later anthology.
+
+The screenplay singing cues are separately retained: scene 4 securely links to song 3, scene 16 to song 5, and scene 40 to song 8. Scene 58's `(இருவரும் பாடுகிறார்கள்)` has only a review-level contextual link to song 11 because no title or lyric is printed at the cue. During this gate the already verified PDF-30 separator and Rani singing stage direction were restored to `scene-016.md`; canonical Tamil, fidelity totals and immutable dialogue records did not change.
+
+**Next:** initialize the **source-linked English translation gate** from verified Tamil only. Create a translation schema/index and a small verified pilot; preserve immutable dialogue links, source-unlabelled spoken material, stage directions and song/performance units, exclude the eight blocked review-source scenes, and do not invent absent lyrics or upgrade unresolved song authorship.
 
 ## மந்திரி குமாரி status
 
