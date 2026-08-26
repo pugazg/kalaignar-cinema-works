@@ -253,6 +253,37 @@ Song files:
 - `songs/tamil/song-001.md` through `songs/tamil/song-011.md`
 - `notes/song-performance-authorship-gate.md`
 
+## English translation — pilot verified
+
+The source-linked English layer is initialized under `translations/`.
+
+Pilot: `raja-rani-s001` / PDF 10 / printed p.9.
+
+- translation status: **pilot-verified**
+- eligible verified scenes: **50**
+- blocked review-source scenes: **8**
+- scenes translated and verified: **1/50 eligible**
+- verified English units: **11**
+- unit mix: **9 dialogue / 2 stage direction**
+- immutable dialogue links: **9/9 scene-1 records linked exactly once**
+- source-unlabelled spoken units in pilot: **0**
+- cross-page English units in pilot: **0**
+- song/performance units in pilot: **0**
+- canonical Tamil modified: **no**
+- scene/dialogue/character/song source layers modified by translation: **no**
+
+Files:
+
+- `translations/schema.json`
+- `translations/index.json`
+- `translations/README.md`
+- `translations/PILOT_REVIEW.md`
+- `translations/records/scene-001.json`
+
+The pilot establishes source-faithful handling of the colloquial hospital exchange. Exact `டாக்டர்` / `டாக்` speaker labels remain immutable metadata. `Amma` / `amma` and `Appa` are retained where translating them literally would over-specify or flatten the source relationship/register; the broken `அப்படின்னு... அவங்கண்...?` remains a broken `Then... his eyes...?` rather than being repaired into smoother prose.
+
+The 11 numbered front-matter song bodies are not forced into archive scene IDs. They will use a parallel song-linked English record set. Screenplay singing references remain scene units and may link `songs/index.json` only where the source-supported relation is secure.
+
 ## Current gate
 
 - source intake: **complete**
@@ -265,7 +296,7 @@ Song files:
 - dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
 - character/entity index: **complete-verified — 74/74 labels; 42 verified entities/role categories/collectives**
 - song/performance authorship derivative: **complete-with-unresolved-authorship — 11 numbered songs, 4 screenplay references, 11/11 Tamil song derivatives**
-- English translation: **not started / next; verified Tamil units only**
+- English translation: **pilot-verified — 1/50 eligible scenes, 11/11 pilot units verified**
 
 ## Source rules
 
@@ -275,10 +306,11 @@ Song files:
 - No invented speakers.
 - Song authorship requires item-level evidence.
 - Later witnesses do not overwrite this edition's Tamil.
+- Translation never repairs or upgrades source uncertainty/authorship.
 - Uncertainty remains explicit instead of being repaired from memory or external sources.
 
 ## Next activity
 
-Initialize the **source-linked English translation gate**.
+Translate verified **`raja-rani-s002` through `raja-rani-s005`** in source order using the pilot rules.
 
-Create a translation schema/index and a small verified pilot from eligible verified Tamil. Labelled dialogue must link immutable dialogue IDs; source-unlabelled spoken material must remain unlabelled; stage directions, written text, complete song bodies and cue-only singing references must remain distinct; page crossings must remain traceable; the eight blocked review-source scenes remain excluded; and the six unresolved numbered-song lyricist mappings must not be upgraded during translation.
+Preserve exact immutable dialogue links and all source-visible stage/performance material. Source-unlabelled speech must remain unlabelled; decorative separators remain structural; page-crossing units remain single English units; no absent lyric or unresolved authorship may be invented.
