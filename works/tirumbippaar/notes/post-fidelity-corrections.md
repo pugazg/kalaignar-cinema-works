@@ -34,6 +34,28 @@ The canonical `part-01-pdf-9-13.md` and scene derivatives 1–4 were updated in 
 
 Character/entity and English/publication derivatives are intentionally not declared synchronized yet because the full 104-page correction pass is still in progress.
 
+## PDF 14–35 / printed pp.6–27 — corrected Markdown canonical merge / batch 2
+
+**Date:** 2026-08-26  
+**Correction witness:** user-supplied `thirumbipaar.md`  
+**Final authority for doubt:** rendered `TVA_BOK_0014652_திரும்பிப்பார்.pdf`
+
+`transcription/parts/part-02-pdf-14-35.md` has now been rebuilt in source order from the user's corrected Markdown baseline. This is a canonical-layer correction pass, not a modernization pass.
+
+The opening PDF 14–18 segment contains a dense cluster of earlier OCR/glyph errors. Representative corrections include:
+
+- `குரு: பக்தா!` → `குரல் : பக்தா!`;
+- `தம்பி எண்ணனும்` → `கம்பி எண்ணனும்`;
+- `கூடா ஒரு கப் காபி` → `சூடா ஒரு கப் காபி`;
+- `மண்டையின் வில்லே` → `மன்மதனின் வில்லே`;
+- `இன்பமான ஜோதியை` → `இன்பமான ஜோடியை`;
+- `பாட்டுமுடிந்ததும்` → `பாடிமுடிந்ததும்`;
+- `பூமால்` → `பூமாலை` throughout the corrected range;
+- scene 7 source speaker form `குண்டுமணி` restored from the earlier `குணமணி` reading;
+- the corrected Markdown's accidental non-Tamil extraction token `అది` is **not** imported; the source-language form is `அது`.
+
+Scene derivatives 5–10 and their affected dialogue records had already been partially reconciled during the opening Batch-2 work. The canonical Part-02 merge now establishes the corrected text through PDF 35; however, **scene/dialogue derivatives beginning on PDF 19 are still pending synchronization**. This temporary difference is explicitly tracked in `md-reconciliation-audit.md` and must not be mistaken for a closed archival state.
+
 ## PDF 38 / printed p.30 — scene 31 song title
 
 **Discovered during:** per-song authorship gate  
