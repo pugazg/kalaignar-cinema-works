@@ -1,0 +1,578 @@
+{
+  "work_id": "raja-rani",
+  "target_language": "en",
+  "scene_id": "raja-rani-s002",
+  "archival_scene_ordinal": 2,
+  "source_scene_number": null,
+  "scene_status": "verified",
+  "unit_count": 21,
+  "units": [
+    {
+      "id": "raja-rani-en-s002-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானக்கண்",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani... Rani!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "‘Here I am, Appa,",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What were you doing, amma?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I was making you 'Horlicks', Appa... Here, have it... Wait, Appa. I'll give it to you myself.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[After drinking] Ahh! Rani... amma, Rani!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa!... Appa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm... you who have made loving service to your father your duty... From now on I will not be able to see, amma! I will not be able to see your guileless smile, amma!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Stroking her hand] Where is the ring, amma?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I sold it, Appa, to pay the hospital expenses... Even costly medicines have no power to bring light to your eyes, Appa...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't cry, amma! So what if I have lost my sight? From now on you are my eyes—your good character and good conduct are the pupils of my eyes! Then why should I worry? It is only when I think that the burden of a family caring for this blind man has fallen on your head...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why do you say that, Appa! When I have education and brains, why worry about making a living? I'll start today itself, looking for a good job...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm... going to work! How can I sit at home after sending such a young girl outside? This is a world with mountain pythons that swallow whole, and people who mock those who live with a conscience!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your daughter has plenty of strength of mind to protect herself, Appa...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "True, amma! Strength of mind is inner beauty; but outward beauty can sometimes invite suffering in...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying, Appa?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I keep telling you not to wear even flowers in your hair or a pottu on your forehead; that is what I was reminding you of....... Let us leave all that dangerous beauty to people of status... Why are you silent, amma? Hmm... Are you hurt that a father who ought to tell you to adorn your beauty is telling you to shrink into yourself like a tortoise?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No, Appa... why would I adorn myself with beauty that you cannot look at and delight in...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, amma! That is what becomes an intelligent girl!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Appa! I heard there is a job at a company. It may help if I go right now. Shall I go and see?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "raja-rani-en-s002-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/raja-rani/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-002.md",
+        "source_record_id": "raja-rani-s002-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞான",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, amma! What other choice can I give you—go carefully and come back, amma...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
