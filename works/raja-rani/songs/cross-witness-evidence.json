@@ -1,0 +1,64 @@
+{
+  "work_id": "raja-rani",
+  "witness_work": "works/kalaignar-thirai-isai-paadalgal",
+  "witness_source_identifier": "TVA_BOK_0065867",
+  "witness_status": "complete-verified",
+  "witness_default_attribution_status": "anthology-attributed",
+  "authority_rule": "The 2024 Kalaignar film-song anthology is a later cross-witness. It may support item identity and an anthology-level attribution to மு. கருணாநிதி, but it never replaces or corrects the Raja Rani booklet's canonical wording.",
+  "matches": [
+    {
+      "raja_rani_song_id": "raja-rani-song-003",
+      "anthology_song_id": "kalaignar-song-019",
+      "anthology_title": "வாங்க... வாங்க... வாங்க...",
+      "match_status": "verified-item-correspondence",
+      "attribution_supported": "மு. கருணாநிதி",
+      "attribution_tier": "anthology-attributed",
+      "notes": "The film title, ticket-selling performance structure, opening/refrain and long sequence correspond. The later anthology contains wording and lineation variants; those variants are not imported into the Raja Rani source text."
+    },
+    {
+      "raja_rani_song_id": "raja-rani-song-005",
+      "anthology_song_id": "kalaignar-song-020",
+      "anthology_title": "வேலை யில்லாத தொல்லை",
+      "match_status": "verified-item-correspondence",
+      "attribution_supported": "மு. கருணாநிதி",
+      "attribution_tier": "anthology-attributed",
+      "notes": "The opening, lyric sequence and film section correspond closely. Source spacing and wording remain edition-specific."
+    },
+    {
+      "raja_rani_song_id": "raja-rani-song-006",
+      "anthology_song_id": "kalaignar-song-021",
+      "anthology_title": "ஆழிசூழ் உலகம் விடிந்த தென்று என்",
+      "match_status": "verified-item-correspondence",
+      "attribution_supported": "மு. கருணாநிதி",
+      "attribution_tier": "anthology-attributed",
+      "notes": "The virutham is the same item by title/opening and full sequence. The two witnesses contain edition-level wording differences, including the booklet's printed `கொடியவனே` versus the later anthology's `கொடியவளே`; neither witness is silently normalized to the other."
+    },
+    {
+      "raja_rani_song_id": "raja-rani-song-007",
+      "anthology_song_id": "kalaignar-song-022",
+      "anthology_title": "மணிப் புறா!... புது மணிப் புறா!...",
+      "match_status": "verified-item-correspondence",
+      "attribution_supported": "மு. கருணாநிதி",
+      "attribution_tier": "anthology-attributed",
+      "notes": "Film title, opening/refrain and lyric sequence establish the same item. Raja Rani booklet typography and spelling remain controlling for this work."
+    },
+    {
+      "raja_rani_song_id": "raja-rani-song-008",
+      "anthology_song_id": "kalaignar-song-023",
+      "anthology_title": "கண்ணற்ற தகப்பனுக்கு பெண்ணாகப் பிறந்தவளே!",
+      "match_status": "verified-item-correspondence",
+      "attribution_supported": "மு. கருணாநிதி",
+      "attribution_tier": "anthology-attributed",
+      "notes": "The long body and unusual interleaved `வசனம்` / `பாட்டு: ராஜா` structure establish the same song item. The opening is materially variant: the Raja Rani booklet prints `சீலா!...லாலீ!...அது போலீ!...`, while the later anthology prints `வீணா!... வாலி!... அது போலி!...`. The booklet reading is preserved unchanged."
+    }
+  ],
+  "unmatched_numbered_song_ids": [
+    "raja-rani-song-001",
+    "raja-rani-song-002",
+    "raja-rani-song-004",
+    "raja-rani-song-009",
+    "raja-rani-song-010",
+    "raja-rani-song-011"
+  ],
+  "conclusion": "Five of the 11 numbered Raja Rani song blocks have a verified item correspondence in the later Kalaignar anthology and therefore receive an `anthology-attributed` Kalaignar authorship disposition. The other six remain unresolved at this gate because the Raja Rani booklet's film-wide lyricist roster supplies no item-level mapping."
+}
