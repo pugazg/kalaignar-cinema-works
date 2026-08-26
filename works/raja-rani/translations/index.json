@@ -1,0 +1,87 @@
+{
+  "work_id": "raja-rani",
+  "target_language": "en",
+  "status": "pilot-verified",
+  "schema": "schema.json",
+  "readme": "README.md",
+  "pilot_review": "PILOT_REVIEW.md",
+  "record_directory": "records",
+  "pilot_scene": "raja-rani-s001",
+  "source_scene_numbering": "none-printed",
+  "archival_scene_segments": 58,
+  "translation_eligible_scenes": 50,
+  "translation_blocked_scenes": 8,
+  "blocked_scene_ids": [
+    "raja-rani-s011",
+    "raja-rani-s012",
+    "raja-rani-s013",
+    "raja-rani-s033",
+    "raja-rani-s039",
+    "raja-rani-s053",
+    "raja-rani-s054",
+    "raja-rani-s055"
+  ],
+  "scenes_started": [1],
+  "scenes_verified": [1],
+  "scenes_in_review": [],
+  "translation_units": 11,
+  "unit_status_counts": {
+    "draft": 0,
+    "review": 0,
+    "verified": 11
+  },
+  "unit_kind_counts": {
+    "dialogue": 9,
+    "stage-direction": 2,
+    "song": 0,
+    "song-reference": 0,
+    "performance-cue": 0,
+    "chant": 0,
+    "written-text": 0
+  },
+  "scene_records": [
+    {
+      "scene_id": "raja-rani-s001",
+      "archival_scene_ordinal": 1,
+      "path": "records/scene-001.json",
+      "unit_count": 11,
+      "status": "verified"
+    }
+  ],
+  "dialogue_source_records_expected_in_completed_scenes": 9,
+  "dialogue_source_records_linked": 9,
+  "source_unlabelled_spoken_units": [],
+  "cross_page_translation_units": [],
+  "translated_song_occurrences": [],
+  "front_matter_numbered_songs_expected": 11,
+  "front_matter_numbered_songs_translation_started": 0,
+  "front_matter_numbered_songs_translation_verified": 0,
+  "song_authorship_policy": "Translation must not upgrade authorship. Raja Rani numbered songs 3, 5, 6, 7 and 8 remain later-anthology Kalaignar attributions; numbered songs 1, 2, 4, 9, 10 and 11 remain unresolved.",
+  "canonical_tamil_modified": false,
+  "scene_files_modified_by_translation": false,
+  "dialogue_records_modified": false,
+  "character_index_modified": false,
+  "song_inventory_modified": false,
+  "pilot_integrity": {
+    "status": "PASS",
+    "scene": "raja-rani-s001",
+    "source_pdf_pages": [10],
+    "source_printed_pages": [9],
+    "verified_units": 11,
+    "dialogue_source_records_expected": 9,
+    "dialogue_source_records_linked": 9,
+    "stage_direction_units": 2,
+    "source_unlabelled_spoken_units": 0,
+    "cross_page_units": 0,
+    "song_performance_units": 0,
+    "notes": [
+      "All 9 immutable labelled dialogue records in scene 1 are linked exactly once.",
+      "The two source-visible stage directions are represented separately.",
+      "Exact source speaker-label forms are retained in metadata and not normalized.",
+      "No source-unlabelled speech, song text, decorative separator or invented scene-end prose was introduced.",
+      "The pilot does not alter canonical Tamil or any completed source derivative."
+    ]
+  },
+  "next_scene_batch": [2, 3, 4, 5],
+  "next_activity": "Translate verified scenes 2-5 in source order using the pilot rules. Preserve exact immutable dialogue links and all source-visible stage/performance material; do not invent speakers, lyrics, scene endings or song authorship."
+}
