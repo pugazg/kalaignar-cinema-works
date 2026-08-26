@@ -1,0 +1,128 @@
+{
+  "work_id": "raja-rani",
+  "target_language": "en",
+  "scene_id": "raja-rani-s006",
+  "archival_scene_ordinal": 6,
+  "source_scene_number": null,
+  "scene_status": "verified",
+  "unit_count": 17,
+  "units": [
+    {
+      "id": "raja-rani-en-s006-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s006",
+      "archival_scene_ordinal": 6,
+      "source": {
+        "source_path": "works/raja-rani/scenes/scene-006.md",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-heading",
+          "ordinal": 1,
+          "description": "Source heading `சேரன் சபை`."
+        },
+        "speaker_label": null,
+        "page_provenance": [
+          {"pdf_page": 19, "printed_page": 18}
+        ]
+      },
+      "translation": {"english_text": "Cheran's court.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "raja-rani-s006",
+      "archival_scene_ordinal": 6,
+      "source": {
+        "source_path": "works/raja-rani/scenes/scene-006.md",
+        "canonical_scene_path": "works/raja-rani/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {"kind": "opening-stage-direction", "ordinal": 1, "description": "Samarasam rises while presiding over the play."},
+        "speaker_label": null,
+        "page_provenance": [{"pdf_page": 19, "printed_page": 18}]
+      },
+      "translation": {"english_text": "(Samarasam, who is presiding over the play, rises in a surge of emotion.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u003", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d001", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சாந்தம்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "What is it... sit down... you're the chairman.", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u004", "kind": "stage-direction", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/scenes/scene-006.md", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "embedded-drama-battle-direction", "ordinal": 1, "description": "Battle outcome between Senguttuvan and Kanaka-Vijayar."}, "speaker_label": null, "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "(In the battle between Cheran Senguttuvan and Kanaka-Vijayar, Senguttuvan is victorious.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u005", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d002", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேரன்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "Villava! What is the name of this place where victory resounds?", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u006", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d003", "source_occurrence_id": null, "source_locator": null, "speaker_label": "வில்லவன்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "Kuyilaluvam!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u007", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d004", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேர", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "Kuyilaluvam; mark it down! All these rocks are pages inscribed with Tamil valour! Victory alone is not enough, Villava; we must not let those wastrels go!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u008", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d005", "source_occurrence_id": null, "source_locator": null, "speaker_label": "வில்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "They say Kanaka and Vijaya have fled somewhere in ochre robes, like rishis!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u009", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d006", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேர", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "Ha... ha...! Nothing new... that is the one habit they truly have!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u010", "kind": "stage-direction", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/scenes/scene-006.md", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "embedded-drama-stage-direction", "ordinal": 2, "description": "Kanaka and Vijaya are brought in under arrest in ascetic dress."}, "speaker_label": null, "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "(Kanaka and Vijaya are brought in under arrest, dressed as holy men.)", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u011", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d007", "source_occurrence_id": null, "source_locator": null, "speaker_label": "கனக விஜயர்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "King! We kneel before you. Forgive us!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u012", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d008", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேரன்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "Forgive you? I should forgive you? Come and kneel upon the soil of Tamil Nadu; let it forgive you!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u013", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d009", "source_occurrence_id": null, "source_locator": null, "speaker_label": "வில்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "King! Shouldn't we return to Tamilakam? It has been thirty-two months since we set out!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u014", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d010", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேர", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "We shall set out—Villava! Before that, mustn't we take a stone here to raise a statue for Kannagi?", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u015", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d011", "source_occurrence_id": null, "source_locator": null, "speaker_label": "வில்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "Yes!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u016", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d012", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேர", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "We've found the right bulls to carry that stone! Kanaka—Vijaya! One vain word against Tamil valour—now lift the stone!", "mode": "prose-faithful", "notes": []}
+    },
+    {
+      "id": "raja-rani-en-s006-u017", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
+      "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d013", "source_occurrence_id": null, "source_locator": null, "speaker_label": "வீரர்கள்", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
+      "translation": {"english_text": "“Long live Cheran Senguttuvan!”", "mode": "prose-faithful", "notes": []}
+    }
+  ]
+}
