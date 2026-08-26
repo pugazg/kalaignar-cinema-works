@@ -29,7 +29,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## ராஜா ராணி status
 
-The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, the complete eligible immutable dialogue layer, the complete verified character/entity derivative, and the source-visible song/performance authorship gate.
+The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, the complete eligible immutable dialogue layer, the complete verified character/entity derivative, and the source-visible song/performance authorship gate. The source-linked English translation layer is now **pilot-verified**.
 
 - title leaf: **`ராஜா ராணி`**;
 - cover form: **`ராஜாராணி`**;
@@ -55,7 +55,10 @@ The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `wo
 - numbered source songs: **11 `பாட்டு` blocks; 11/11 complete-verified Tamil song derivatives**;
 - screenplay singing references: **4**;
 - total song/singing occurrences inventoried: **15**;
-- numbered-song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved / 0 original-booklet item-level lyricist credits**.
+- numbered-song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved / 0 original-booklet item-level lyricist credits**;
+- English translation: **pilot-verified — scene 1 / 50 eligible verified scenes**;
+- English pilot units: **11 verified — 9 dialogue / 2 stage direction**;
+- English pilot immutable dialogue links: **9/9 exactly once**.
 
 The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. Both the scene-text and dialogue phases deliberately remain complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
 
@@ -67,7 +70,9 @@ The song gate keeps the PDF-9 six-name `பாடல்கள்:` roster film-w
 
 The screenplay singing cues are separately retained: scene 4 securely links to song 3, scene 16 to song 5, and scene 40 to song 8. Scene 58's `(இருவரும் பாடுகிறார்கள்)` has only a review-level contextual link to song 11 because no title or lyric is printed at the cue. During this gate the already verified PDF-30 separator and Rani singing stage direction were restored to `scene-016.md`; canonical Tamil, fidelity totals and immutable dialogue records did not change.
 
-**Next:** initialize the **source-linked English translation gate** from verified Tamil only. Create a translation schema/index and a small verified pilot; preserve immutable dialogue links, source-unlabelled spoken material, stage directions and song/performance units, exclude the eight blocked review-source scenes, and do not invent absent lyrics or upgrade unresolved song authorship.
+The English pilot is `raja-rani-s001` / PDF 10 / printed p.9. Its **11 verified units** link all **9/9** immutable dialogue records exactly once and preserve both source-visible stage directions. Exact `டாக்டர்` / `டாக்` speaker labels remain metadata rather than being normalized. The pilot retains `Amma` / `amma` and `Appa` where literal English would over-specify kinship/register, and preserves the broken `அப்படின்னு... அவங்கண்...?` as `Then... his eyes...?` rather than silently completing the source. No Tamil or completed source derivative was changed by translation.
+
+**Next:** translate verified **`raja-rani-s002`–`raja-rani-s005`** in source order using the pilot rules. Preserve immutable dialogue links and source-visible stage/performance material, keep source-unlabelled speech unlabelled, and do not invent absent lyrics, scene endings or unresolved song authorship.
 
 ## மந்திரி குமாரி status
 
