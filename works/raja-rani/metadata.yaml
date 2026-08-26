@@ -18,7 +18,7 @@ status:
   verified_tamil_pages: 66
   screenplay_fidelity_verified_pages: 66
   screenplay_fidelity_review_pages: 4
-  structured_derivatives: character-index-complete-verified-song-gate-next
+  structured_derivatives: song-gate-complete-with-unresolved-authorship-translation-next
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -31,6 +31,7 @@ status:
   scene_text_files_remaining_eligible: 0
   scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-010.md
   scene_layer_completion_checkpoint: works/raja-rani/notes/scene-layer-completion-dialogue-initialization.md
+  scene_derivative_song_gate_correction: works/raja-rani/scenes/scene-016.md
   dialogue_index: complete-verified-only-with-review-exclusions
   dialogue_index_path: works/raja-rani/dialogues/index.json
   dialogue_schema_path: works/raja-rani/dialogues/schema.json
@@ -61,7 +62,24 @@ status:
   character_verified_labels: 74
   character_review_labels: 0
   character_unresolved_labels: 0
-  song_authorship_mapping: not-started
+  song_authorship_mapping: complete-with-unresolved-authorship
+  song_index_path: works/raja-rani/songs/index.json
+  song_schema_path: works/raja-rani/songs/schema.json
+  song_inventory_path: works/raja-rani/songs/inventory.json
+  song_credits_path: works/raja-rani/songs/credits.json
+  song_cross_witness_evidence_path: works/raja-rani/songs/cross-witness-evidence.json
+  song_gate_checkpoint: works/raja-rani/notes/song-performance-authorship-gate.md
+  song_numbered_blocks: 11
+  song_screenplay_singing_references: 4
+  song_candidate_occurrences: 15
+  song_numbered_verified_authorship: 5
+  song_numbered_review_authorship: 0
+  song_numbered_unresolved_authorship: 6
+  song_kalaignar_anthology_attributed: 5
+  song_kalaignar_attributed_numbered_song_ids: [3, 5, 6, 7, 8]
+  song_original_source_item_level_lyricist_credits: 0
+  song_tamil_derivatives: complete-verified
+  song_tamil_derivative_files: 11
   english_translation: eligible-only-from-verified-tamil-not-started
 scan_condition:
   notes:
@@ -131,4 +149,4 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Begin the Raja Rani song/performance inventory and item-level authorship gate. Inventory all 11 numbered பாட்டு blocks and any other source-visible performance occurrences first; do not infer per-song authorship from the film-wide PDF-9 பாடல்கள் roster."
+next_action: "Begin the Raja Rani source-linked English translation gate from verified Tamil only. Create the translation schema/index and a small verified pilot; preserve immutable dialogue links, source-unlabelled speech, song units and cue-only singing references without inventing absent lyrics or upgrading unresolved authorship."
