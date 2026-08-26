@@ -29,7 +29,7 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## ராஜா ராணி status
 
-The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, the complete eligible immutable dialogue layer, and the mandatory exact-label inventory opening the character/entity gate.
+The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/` and has completed source intake, structural mapping, canonical Tamil first pass, the full rendered-scan fidelity audit, source-supported scene segmentation, every scene-text derivative currently eligible from verified Tamil, the complete eligible immutable dialogue layer, and the complete verified character/entity derivative.
 
 - title leaf: **`ராஜா ராணி`**;
 - cover form: **`ராஜாராணி`**;
@@ -50,17 +50,17 @@ The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `wo
 - dialogue index: **complete for verified eligible scenes — 892 immutable records / 50 of 50 eligible scenes processed**;
 - dialogue zero-record scenes: **`s008`, `s010`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`**;
 - dialogue cross-page records / tracked non-colon source-label delimiter anomalies: **11 / 3**;
-- character exact-label inventory: **complete — 74 distinct exact non-empty `speaker_label` strings across 892/892 dialogue records**;
-- character entity mapping: **not started — ready**;
+- character exact-label inventory: **74/74 exact non-empty `speaker_label` strings inventoried**;
+- character/entity index: **complete-verified — 74/74 labels dispositioned into 42 verified entities / role categories / collectives; 0 review / 0 unresolved**;
 - song/performance front matter: **11 numbered `பாட்டு` blocks**; the film-wide PDF-9 lyricist roster is not treated as item-level authorship evidence.
 
 The archive IDs `raja-rani-s001`–`raja-rani-s058` are navigation-only and are not presented as source scene numbers. Both the scene-text and dialogue phases deliberately remain complete **with review exclusions** rather than reconstructing uncertain or physically obscured text.
 
 Dialogue Batches 001–006 cover every eligible verified scene range: `s001`–`s010`, `s014`–`s032`, `s034`–`s038`, `s040`–`s052`, and `s056`–`s058`. Only explicitly speaker-labelled utterances become immutable records; source-unlabelled material, written matter, performance cues and final printer matter remain outside the dialogue inventory. Exact source-visible speaker-label variation and delimiter irregularities remain unnormalized in this layer.
 
-The character inventory likewise remains non-normalizing. Exact forms such as `ராஜா`, `ராசா`, `ராஜ`, `ரா` remain separate inventory labels until verified context supports a downstream entity relationship. Embedded dramatic identities, generic roles and collectives are also retained distinctly rather than being collapsed by spelling similarity.
+Character normalization is downstream only. Non-obvious mappings were resolved from verified context rather than spelling: scene 45 establishes `ரா` as **Rani**, not Raja; scene 52 explicitly introduces **Geetha's mother / Thayammal** before `தாய்:`; and scene 57 explicitly introduces **Sangaran** before `சங்:`. Context-reused `வேலை` remains a worker/servant role category rather than being forced into one physical person. Embedded `சேரன் செங்குட்டுவன்`, `அகல்யா`, and `சாக்ரடீஸ்` dramatic identities remain distinct from outer-film identities. No dialogue record was rewritten by character mapping.
 
-**Next:** begin evidence-backed **character/entity mapping for all 74 exact source labels**. Character mapping may reconcile source-label variants downstream only when verified context supports the relationship; it must not rewrite exact dialogue labels or use the eight review-source-blocked scenes as verified evidence, and genuinely ambiguous identities must remain `review` or `unresolved`.
+**Next:** begin the **song/performance inventory and item-level authorship gate**. Inventory all 11 numbered `பாட்டு` blocks and any other source-visible performance occurrences first. The film-wide PDF-9 `பாடல்கள்:` roster must not be promoted to per-song authorship without item-specific evidence.
 
 ## மந்திரி குமாரி status
 
