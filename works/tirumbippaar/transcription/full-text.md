@@ -10,7 +10,7 @@ Correction witness: user-supplied `thirumbipaar.md`. It is the primary correctio
 The canonical page-order transcription is split into five archival batches:
 
 1. [`parts/part-01-pdf-9-13.md`](parts/part-01-pdf-9-13.md) — PDF 9–13 / printed pp.1–5 — **corrected-Markdown reconciled**.
-2. [`parts/part-02-pdf-14-35.md`](parts/part-02-pdf-14-35.md) — PDF 14–35 / printed pp.6–27 — **corrected-Markdown reconciled at canonical layer; downstream derivative synchronization still in progress**.
+2. [`parts/part-02-pdf-14-35.md`](parts/part-02-pdf-14-35.md) — PDF 14–35 / printed pp.6–27 — **corrected-Markdown reconciled; scene/dialogue derivatives synchronized through scene 29 / PDF 35**.
 3. [`parts/part-03-pdf-36-63.md`](parts/part-03-pdf-36-63.md) — PDF 36–63 / printed pp.28–55 — **pending this reconciliation pass**.
 4. [`parts/part-04-pdf-64-91.md`](parts/part-04-pdf-64-91.md) — PDF 64–91 / printed pp.56–83 — **pending this reconciliation pass**.
 5. [`parts/part-05-pdf-92-112.md`](parts/part-05-pdf-92-112.md) — PDF 92–112 / printed pp.84–104 — **pending this reconciliation pass**.
@@ -20,9 +20,10 @@ The canonical page-order transcription is split into five archival batches:
 - Main-text range: PDF **9–112 / printed pp.1–104**.
 - Corrected Markdown coverage: **104/104 Play Pages**.
 - Canonical parts reconciled from corrected Markdown: **Parts 01–02 / PDF 9–35 / printed pp.1–27**.
-- Scene/dialogue derivative reconciliation completed through: **PDF 18 / scene 10**.
-- Next derivative reconciliation range: **PDF 19 onward**, beginning with scenes 11–15.
-- Parts 03–05 still require corrected-Markdown canonical reconciliation.
+- Scene/dialogue derivative reconciliation completed through: **scene 29's PDF 35 / printed p.27 portion**.
+- Scene 29's PDF **36 / printed p.28** continuation remains intentionally unchanged until Part 03 is reconciled.
+- Next canonical/derivative reconciliation range: **Part 03 / PDF 36–63 / printed pp.28–55**, starting with the scene-29 continuation and then scene 30 onward.
+- Parts 04–05 remain pending.
 - Character/entity, English translation, reader/export and EPUB layers must be revalidated after the source-layer pass; their previous complete status is not treated as proof of textual synchronization during this correction cycle.
 
 The exact correction history and current synchronization boundary are recorded in [`../notes/md-reconciliation-audit.md`](../notes/md-reconciliation-audit.md) and [`../notes/post-fidelity-corrections.md`](../notes/post-fidelity-corrections.md).
