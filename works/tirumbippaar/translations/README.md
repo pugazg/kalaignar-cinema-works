@@ -1,63 +1,60 @@
 # திரும்பிப்பார்! — English translation layer
 
-**Canonical authority:** verified Tamil transcription, completed scene derivatives and immutable dialogue records  
+**Canonical authority:** corrected/scan-closed Tamil transcription, reconciled 93-scene derivatives, immutable **1,042-record** dialogue corpus, and regenerated character/entity layer  
 **Target language:** English (`en`)  
-**Status:** **complete-verified — scenes 1–93, 1,321/1,321 units verified**
+**Status:** **corrected-source reconciliation in progress**
 
-This directory contains interpretive English derivatives. Nothing here repairs, normalizes, expands or overwrites the verified Tamil source.
+This directory contains interpretive English derivatives. Nothing here repairs, normalizes, expands or overwrites the authoritative Tamil source.
+
+The historical English pass had been recorded as **93 scenes / 1,321 verified units / 1,040 labelled dialogue links**. That state is now historical because the Tamil corrected-source pass recovered two omitted scene-41 dialogue records and corrected many exact source readings and labels. English verification is therefore being reopened against the stable corrected Tamil corpus rather than silently carrying the old `verified` claim forward.
 
 ## Files
 
-- `schema.json` — schema for the 93 scene-sharded source-linked translation records; it supports both the richer early units and the later compact units.
-- `index.json` — completed translation / integrity checkpoint.
+- `schema.json` — schema for the 93 scene-sharded source-linked translation records.
+- `index.json` — current English reconciliation/integrity checkpoint.
 - `records/scene-XX.json` — 93 scene-sharded English translation records.
-- `../editions/en/` — publication-facing reader/export layer generated from these verified records.
+- `../editions/en/` — publication-facing reader/export layer; currently treated as downstream-stale until this English reconciliation stabilizes.
 
 ## Translation principles
 
 1. **Tamil remains authoritative.** English fluency is never evidence for changing the canonical Tamil.
-2. **Every source-labelled utterance is linked.** All **1,040** immutable dialogue records are represented exactly once.
-3. **Exact Tamil speaker labels stay exact metadata.** Character normalization does not rewrite them.
-4. **Stage directions do not gain action.** Translate only what the verified scene supplies.
+2. **Every source-labelled utterance must be linked exactly once.** The current immutable source corpus contains **1,042** labelled dialogue records.
+3. **Exact Tamil speaker labels stay exact metadata.** Character/entity mapping does not rewrite them.
+4. **Stage directions do not gain action.** Translate only what the corrected scene supplies.
 5. **Dialogue preserves rhetorical force.** Repetition, questions, code-switching, imagery and political/social rhetoric are not silently flattened.
 6. **Cross-page source units remain one English unit.** Genuine source-spanning units retain all page provenance.
 7. **Song/performance material is limited to what this booklet prints.** Do not import absent lyrics from audio, web pages, streaming metadata or another booklet.
 8. **Unlabelled source material stays unlabelled.** Direct speech, letters, newspaper blocks, advertisements, chants and other source-visible material do not receive invented speakers or dialogue-record IDs.
 9. **External authorship metadata is not translation text.** It may identify a song occurrence, but it cannot supply missing Tamil or English lyrics.
 10. **The printed `★` is structural.** It is not translated into an invented `(Scene ends.)` unit.
+11. **Historical translation-unit IDs are preserved.** New unit IDs are added only where the corrected source proves that a unit was omitted; existing IDs are not renumbered simply to restore source order.
 
-## Final verified coverage
+## Current corrected-source reconciliation
 
-All canonical scenes **1–93** are translated and verified.
+Scene **41** is the first English scene fully reopened and reconciled because the Tamil pass proved two labelled utterances had been omitted there.
 
-- scenes 1–5 — **81 units**
-- scenes 6–10 — **43 units**
-- scenes 11–15 — **63 units**
-- scenes 16–20 — **66 units**
-- scenes 21–25 — **27 units**
-- scenes 26–30 — **96 units**
-- scenes 31–35 — **84 units**
-- scenes 36–40 — **122 units**
-- scenes 41–45 — **92 units**
-- scenes 46–50 — **81 units**
-- scenes 51–55 — **46 units**
-- scenes 56–60 — **111 units**
-- scenes 61–65 — **50 units**
-- scenes 66–70 — **67 units**
-- scenes 71–75 — **44 units**
-- scenes 76–80 — **81 units**
-- scenes 81–85 — **49 units**
-- scenes 86–90 — **82 units**
-- scenes 91–93 — **36 units**
-- **total — 1,321 verified / 0 review / 0 draft**
+The scene-41 English layer now:
 
-Final kinds: **1,047 dialogue / 254 stage-direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**.
+- links recovered `tirumbippaar-s041-d037` (`பூமாலை`) and `tirumbippaar-s041-d038` (`பரந்தாமன்`) as new English units `tirumbippaar-en-s041-u050` and `tirumbippaar-en-s041-u051`;
+- preserves all historical translation-unit IDs instead of renumbering existing units;
+- keeps historical `tirumbippaar-en-s041-u046` linked to cross-page dialogue `tirumbippaar-s041-d034` and replaces its old mistranscription with the corrected `அன்பைக் கேட்- / காமல் ஐஸ்வரியத்தைக் கேட்கும்...` meaning;
+- adds the source-visible `(குமுதா போய்விடுகிறாள் பாண்டியனுடன்)` direction, missing from the historical English layer, as new unit `tirumbippaar-en-s041-u052`;
+- updates exact `பூமாலை` speaker metadata and Poomalai naming in the English stage-direction text.
 
-The 1,047 dialogue-kind units consist of the **1,040 immutable source dialogue records plus 7 source-visible unlabelled spoken units**. Those seven intentionally retain null speaker/dialogue-record metadata.
+Accordingly, the live English layer currently contains **1,324 units**:
+
+- **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
+- **255 stage-direction units**;
+- **7 song-reference units**;
+- **2 chant units**;
+- **11 written-text units**;
+- **0 reconstructed full-song units**.
+
+All **1,042 dialogue record IDs are now linked** in the English layer, but link coverage is not the same as textual reconciliation. The remaining historical scene files still need comparison against the corrected Tamil for exact source labels, wording, semantics and structure.
 
 ## Cross-page English units
 
-Twelve source units genuinely span canonical page boundaries and remain single English units:
+The historical cross-page list remains structurally valid, including:
 
 - `tirumbippaar-en-s001-u008` — PDF 9→10
 - `tirumbippaar-en-s026-u002` — PDF 31→32
@@ -84,31 +81,16 @@ These seven source-visible spoken passages remain `dialogue` units without inven
 - `tirumbippaar-en-s088-u004`
 - `tirumbippaar-en-s091-u014`
 
-The six source scenes with no labelled dialogue records — **10, 11, 25, 26, 43 and 54** — are nevertheless represented from their source-visible narrative/performance/written material.
+The six source scenes with no labelled dialogue records — **10, 11, 25, 26, 43 and 54** — remain represented from source-visible narrative/performance/written material.
 
 ## Song/performance constraint
 
-Seven translated song references are linked to verified source occurrences `tirumbippaar-song-001`, `002`, `003`, `004`, `006`, `007` and `008`. Scene 31 is linked to `tirumbippaar-song-006`, whose scan-visible title is **`பாண்டியன் என் சொல்லை`**. Scenes 42–43 link the source-visible `கலப்படம்` material to occurrences `007` and `008`.
-
-The booklet prints no complete lyric body for either source-named soundtrack song, so this layer contains **zero reconstructed full-song translations**. The scene-29 labour slogan and scene-86 begging chant remain chants, not fabricated soundtrack lyrics.
-
-## Final reader-export reconciliation
-
-The publication-facing reader preflight exposed and repaired derivative-only structural residue without changing canonical Tamil, scenes, dialogue records, character mappings or song inventory.
-
-- **93/93** translation scene files remain verified.
-- **1,040/1,040** labelled source dialogue records are linked exactly once.
-- Scene 31 uses exact song occurrence `tirumbippaar-song-006`.
-- Scene 57 retains all **50** labelled dialogue records individually.
-- Residual synthetic `(Scene ends.)` units derived only from structural `★` markers were removed from scenes **21, 26, 27, 29, 30 and 34**.
-- Scene 29's `கோஷம்` structural heading was restored to its source position before the chant body.
-- Scene 30's source-visible location heading was restored to source order.
-- Scene 47's three duplicated stage-action units were removed because those actions were already represented in their source-order units.
-- Final preflight reports **0 synthetic star-end units, 0 page-order regressions, 0 unit-ID errors, 0 missing dialogue links and 0 extra dialogue links**.
-- Scene 90 retains `[மரணமூச்சுவிடும் பரந்தாமன்]`; scene 91 retains `பத்திரிகை News` as written text; scene 93 retains final `வணக்கம்.` while its following `★` remains structural.
+Seven historical translated song references remain linked to source occurrences `tirumbippaar-song-001`, `002`, `003`, `004`, `006`, `007` and `008`. The booklet prints no complete lyric body for either source-named soundtrack song, so this layer continues to contain **zero reconstructed full-song translations**. The scene-29 labour slogan and scene-86 begging chant remain chants, not fabricated soundtrack lyrics.
 
 ## Reader/export status
 
-`../editions/en/` now contains generated Markdown, standalone HTML and machine-readable JSON reader editions together with a whole-work `QA_REPORT.md` and deterministic `manifest.json`. The GitHub Actions reader QA/build is active and passes against this final checkpoint.
+`../editions/en/` still contains the previously generated Markdown, standalone HTML and machine-readable JSON reader editions, together with their historical QA/manifest outputs. Those files are now **known-stale downstream derivatives** until corrected-source English reconciliation completes and the reader/export layer is regenerated/revalidated.
 
-No required English translation activity remains.
+## Next activity
+
+Continue scene-by-scene corrected-source English reconciliation beyond scene 41. For each scene, compare the existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
