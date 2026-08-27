@@ -76,14 +76,40 @@ structure:
       source_reference: "கலப்படம்"
   additional_main_text_crop_or_duplicate_findings: []
 
+correction_reconciliation:
+  status: in-progress
+  opened: 2026-08-26
+  primary_correction_witness: "thirumbipaar.md"
+  final_visual_authority: "TVA_BOK_0014652_திரும்பிப்பார்.pdf"
+  corrected_markdown_play_pages: 104
+  canonical_reconciled_pdf_pages: "9-91"
+  canonical_reconciled_printed_pages: "1-83"
+  canonical_parts_reconciled: [1, 2, 3, 4]
+  scene_dialogue_reconciled_through_scene: 48
+  scene_dialogue_reconciled_through_pdf_page: 64
+  scene_dialogue_reconciled_through_printed_page: 56
+  dialogue_records_current: 1042
+  scene_41_dialogue_records: 38
+  recovered_scene_41_record_ids: ["tirumbippaar-s041-d037", "tirumbippaar-s041-d038"]
+  next_derivative_scenes: "49-75"
+  next_canonical_part: 5
+  next_canonical_pdf_pages: "92-112"
+  next_canonical_printed_pages: "84-104"
+  character_entity_layer_status: stale-pending-dialogue-stabilization
+  english_publication_layer_status: stale-pending-source-reconciliation
+  note: "The previous 104 verified / 0 review claim is historical only for textual correctness while this correction pass remains open. Scene 76 begins on printed p.83 and crosses into Part 05, so its full derivative reconciliation waits for the Part-05 canonical merge."
+
 transcription_progress:
-  status: verified
+  status: reconciliation-in-progress
   first_pass_complete: true
   canonical_pdf_pages: "9-112"
   canonical_printed_pages: "1-104"
   full_text_index_path: "transcription/full-text.md"
   parts_directory: "transcription/parts"
   parts_completed: 5
+  corrected_parts_completed: 4
+  corrected_canonical_pdf_pages: "9-91"
+  corrected_canonical_printed_pages: "1-83"
   part_paths:
     - "transcription/parts/part-01-pdf-9-13.md"
     - "transcription/parts/part-02-pdf-14-35.md"
@@ -95,69 +121,61 @@ transcription_progress:
   first_pass_through_pdf_page: 112
   first_pass_through_printed_page: 104
   first_pass_gap_repaired_pdf_pages: [61, 62, 63]
-  first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan and have now completed fidelity verification."
+  first_pass_gap_repair_note: "During the PDF 24-53 fidelity activity, part-03 was found to stop at PDF 60 despite prior complete-coverage status. PDF 61-63 were restored from the scan and completed the historical fidelity verification."
   first_pass_missing_page_anchor_repaired_pdf_pages: [80]
-  first_pass_missing_page_anchor_repair_note: "During the PDF 54-83 audit, the stored first pass was found to contain PDF 80 text without an explicit page anchor. The PDF 79/80 source boundary was restored from the scan before verification."
+  first_pass_missing_page_anchor_repair_note: "During the PDF 54-83 audit, the stored first pass was found to contain PDF 80 text without an explicit page anchor. The PDF 79/80 source boundary was restored from the scan before historical verification."
   post_fidelity_correction_pdf_pages: [38]
-  post_fidelity_correction_note: "During the song-authorship gate, direct reinspection of PDF 38 / printed p.30 corrected scene 31's song title from the earlier `பாண்டியன் என் செல்வம்` misreading to scan-visible `பாண்டியன் என் சொல்லை`. The correction is recorded in notes/post-fidelity-corrections.md and was made from the scan, not external metadata."
-  draft_pages: 0
-  verified_pages: 104
-  review_pages: 0
-  verified_pdf_pages: "9-112"
-  verified_printed_pages: "1-104"
-  next_pdf_page: null
-  next_printed_page: null
-  next_action: null
+  post_fidelity_correction_note: "During the song-authorship gate, direct reinspection of PDF 38 / printed p.30 corrected scene 31's song title from the earlier `பாண்டியன் என் செல்வம்` misreading to scan-visible `பாண்டியன் என் சொல்லை`. The later corrected-Markdown reconciliation supersedes the prior full-volume textual-completeness claim."
+  historical_draft_pages: 0
+  historical_verified_pages: 104
+  historical_review_pages: 0
+  historical_verified_pdf_pages: "9-112"
+  historical_verified_printed_pages: "1-104"
+  next_pdf_page: 92
+  next_printed_page: 84
+  next_action: "Propagate corrected Part 04 through scenes 49-75, then reconcile canonical Part 05."
 
 fidelity_audit:
-  status: complete
+  status: historical-complete-superseded-for-textual-correctness
   canonical_range_audit_complete: true
   audited_through_pdf_page: 112
   audited_through_printed_page: 104
-  verified_pages: 104
-  review_pages: 0
-  unresolved_pages: 0
+  historical_verified_pages: 104
+  historical_review_pages: 0
+  historical_unresolved_pages: 0
   last_completed_batch_pdf_pages: "84-112"
   last_completed_batch_printed_pages: "76-104"
   last_completed_batch_verified_pages: 29
-  next_pdf_page: null
-  next_printed_page: null
   ledger_path: "notes/fidelity-audit.md"
   post_fidelity_corrections_path: "notes/post-fidelity-corrections.md"
+  active_reconciliation_ledger_path: "notes/md-reconciliation-audit.md"
 
 structured_derivatives:
   scene_index:
-    status: complete
+    status: complete-structural
     path: "scenes/index.json"
     scene_records: 93
     headings_not_observed: []
     numbering_corrections_recorded: false
   scene_text_derivatives:
-    status: complete
+    status: reconciliation-in-progress
     expected_files: 93
-    completed_files: 93
-    completed_scenes: "1-93"
-    completed_batches:
-      - "scenes 1-10"
-      - "scenes 11-20"
-      - "scenes 21-30"
-      - "scenes 31-40"
-      - "scenes 41-50"
-      - "scenes 51-60"
-      - "scenes 61-70"
-      - "scenes 71-80"
-      - "scenes 81-93"
+    historical_completed_files: 93
+    historical_completed_scenes: "1-93"
+    corrected_reconciled_through_scene: 48
+    next_batch: "scenes 49-75"
     cross_part_scenes: [5, 29, 48, 76]
-    next_batch: null
-    note: "All 93 scene-text derivatives are complete. Scene 5 crosses part-01/part-02; scene 29 crosses part-02/part-03; scene 48 crosses part-03/part-04; scene 76 crosses part-04/part-05. During dialogue batch 41-50, scene 41 was repaired against the already-verified Part 03 canonical transcription to restore the canonical opening exchange and omitted PDF 54 page anchor; no canonical transcription was changed. Scene 31 was later corrected from `பாண்டியன் என் செல்வம்` to scan-visible `பாண்டியன் என் சொல்லை` during the song-authorship gate, with the canonical part-03 transcription corrected in parallel."
+    note: "All 93 scene files exist from the historical pass, but corrected-source synchronization currently reaches scene 48. Scene 48 includes its PDF-64 / printed-p.56 continuation. Scene 76 crosses part-04/part-05 and will be completed after canonical Part 05 is reconciled."
   dialogue_index:
-    status: complete
+    status: reconciliation-in-progress
     path: "dialogues/index.json"
     schema: "dialogues/schema.json"
     readme: "dialogues/README.md"
     storage: scene-sharded
     record_directory: "dialogues/records"
-    records: 1040
+    records: 1042
+    historical_records_before_reconciliation: 1040
+    corrected_reconciled_through_scene: 48
     scenes_completed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
     scene_record_counts:
       1: 8
@@ -200,7 +218,7 @@ structured_derivatives:
       38: 13
       39: 18
       40: 4
-      41: 36
+      41: 38
       42: 5
       43: 0
       44: 1
@@ -255,31 +273,28 @@ structured_derivatives:
       93: 9
     zero_record_scenes: [10, 11, 25, 26, 43, 54]
     cross_page_records_verified: ["tirumbippaar-s001-d006", "tirumbippaar-s041-d034", "tirumbippaar-s045-d015", "tirumbippaar-s063-d003", "tirumbippaar-s072-d001", "tirumbippaar-s076-d012", "tirumbippaar-s080-d022", "tirumbippaar-s080-d028"]
+    recovered_records: ["tirumbippaar-s041-d037", "tirumbippaar-s041-d038"]
     source_label_anomaly_records: []
-    next_batch: null
-    note: "Dialogue indexing is complete for all 93 scenes with 1,040 records. Scene 54 correctly has zero records because its Reading Room news text is unlabelled. Unlabelled letters, news blocks, address text, stage directions and continuations remain outside the dialogue layer. Eight individual labelled utterances cross canonical page boundaries and are represented with page_segments. Exact source speaker labels remain immutable; character/role resolution is recorded separately under characters/."
+    next_batch: "scenes 49-75"
+    note: "The current immutable labelled-dialogue total is 1,042. Existing IDs were preserved; two previously omitted explicitly labelled scene-41 utterances were added as d037 and d038. Corrected-source propagation currently reaches scene 48. Scene 54 remains a legitimate zero-record scene because its Reading Room news text is unlabelled."
   character_index:
-    status: complete
+    status: stale-pending-dialogue-stabilization
     path: "characters/index.json"
     schema: "characters/schema.json"
     readme: "characters/README.md"
     label_inventory: "characters/labels-inventory.json"
     pilot: "characters/entities-pilot.json"
     entities: "characters/entities.json"
-    dialogue_records_source: 1040
-    distinct_source_labels: 45
-    entity_count: 39
-    verified_entities: 39
-    review_entities: 0
-    unresolved_entities: 0
-    verified_labels: 45
-    review_labels: 0
-    unresolved_labels: 0
-    label_coverage: "45/45"
-    dialogue_records_modified: false
-    note: "Every exact speaker label has one explicit disposition. `குணமணி`/`குண்டுமணி` are source-supported variants of the same household-helper character. Scene 79 `அவன் குரல்` maps to Pandiyan. Reused `குரல்`, generic `பையன்`, unnamed worker labels, police labels and Echo remain role/collective categories rather than being falsely merged into named characters."
+    dialogue_records_source_at_last_build: 1040
+    current_dialogue_records: 1042
+    historical_distinct_source_labels: 45
+    historical_entity_count: 39
+    historical_verified_entities: 39
+    historical_verified_labels: 45
+    dialogue_records_modified_since_last_build: true
+    note: "This layer was built against the pre-reconciliation 1,040-record dialogue set and is intentionally stale. Corrected exact labels include `பூமாலை`, `புண்யகோடி`, `குரல்`, `குண்டுமணி`, and `சமையல்காரன்`. Do not treat the historical 45-label/39-entity mapping as synchronized until the dialogue correction pass stabilizes and this layer is regenerated."
   song_authorship_mapping:
-    status: complete
+    status: historical-complete
     path: "songs/index.json"
     schema: "songs/schema.json"
     readme: "songs/README.md"
@@ -292,39 +307,33 @@ structured_derivatives:
     unresolved_authorship_occurrences: 5
     distinct_named_songs_mapped: 2
     full_lyric_blocks_printed_for_named_songs: 0
-    note: "PDF 1-8 contains no song-credit heading or lyricist list; the cover `கதை - வசனம்` credit is not treated as lyric authorship. Exact source-named matches establish `பாண்டியன் என் சொல்லை` → பாரதிதாசன் and `கலப்படம்` → கண்ணதாசன் from separately documented item-level public music-catalog evidence. Unnamed singing references and the scene-29 labour chant remain unresolved rather than being guessed onto other soundtrack rows."
+    note: "The historical authorship gate remains recorded. Source corrections do not authorize importing external lyrics or using external metadata to repair canonical Tamil."
   song_tamil_derivatives: not-started
   english_translation:
-    status: complete-verified
+    status: stale-pending-source-reconciliation
+    historical_status: complete-verified
     path: "translations/index.json"
     schema: "translations/schema.json"
     readme: "translations/README.md"
     record_directory: "translations/records"
     pilot_scene: 1
-    scenes_started: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
-    scenes_verified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
-    translation_units: 1321
-    verified_units: 1321
-    review_units: 0
-    draft_units: 0
-    unit_kind_counts:
+    historical_scenes_verified: "1-93"
+    historical_translation_units: 1321
+    historical_unit_kind_counts:
       dialogue: 1047
       stage_direction: 254
       song: 0
       song_reference: 7
       chant: 2
       written_text: 11
-    dialogue_source_records_expected: 1040
-    dialogue_source_records_linked: 1040
-    cross_page_translation_units: ["tirumbippaar-en-s001-u008", "tirumbippaar-en-s026-u002", "tirumbippaar-en-s041-u001", "tirumbippaar-en-s041-u046", "tirumbippaar-en-s045-u018", "tirumbippaar-en-s061-u001", "tirumbippaar-en-s063-u004", "tirumbippaar-en-s072-u002", "tirumbippaar-en-s076-u014", "tirumbippaar-en-s080-u024", "tirumbippaar-en-s080-u032", "tirumbippaar-en-s083-u002"]
-    direct_source_unlabelled_dialogue_units: ["tirumbippaar-en-s005-u026", "tirumbippaar-en-s015-u018", "tirumbippaar-en-s044-u004", "tirumbippaar-en-s051-u003", "tirumbippaar-en-s084-u002", "tirumbippaar-en-s088-u004", "tirumbippaar-en-s091-u014"]
-    zero_dialogue_source_scenes_translated: [10, 11, 25, 26, 43, 54]
-    verified_song_reference_occurrences: ["tirumbippaar-song-001", "tirumbippaar-song-002", "tirumbippaar-song-003", "tirumbippaar-song-004", "tirumbippaar-song-006", "tirumbippaar-song-007", "tirumbippaar-song-008"]
-    synthetic_star_end_units: 0
-    next_batch: null
-    note: "All 93 scenes are complete-verified in English with 1,321 source-linked units. All 1,040 labelled dialogue records are linked exactly once and seven additional source-visible spoken units intentionally remain unlabelled. Reader-export preflight removed residual synthetic star-end units derived only from structural stars, restored source ordering in scenes 29 and 30, and removed three duplicated stage-action units from scene 47. Final diagnostics report zero synthetic star-end units, zero page-order regressions, zero unit-ID errors, and exact 1,040/1,040 dialogue-link coverage. No canonical Tamil or structured source layer was modified."
+    dialogue_source_records_expected_at_last_build: 1040
+    dialogue_source_records_linked_at_last_build: 1040
+    current_dialogue_source_records: 1042
+    historical_cross_page_translation_units: ["tirumbippaar-en-s001-u008", "tirumbippaar-en-s026-u002", "tirumbippaar-en-s041-u001", "tirumbippaar-en-s041-u046", "tirumbippaar-en-s045-u018", "tirumbippaar-en-s061-u001", "tirumbippaar-en-s063-u004", "tirumbippaar-en-s072-u002", "tirumbippaar-en-s076-u014", "tirumbippaar-en-s080-u024", "tirumbippaar-en-s080-u032", "tirumbippaar-en-s083-u002"]
+    note: "The 1,321-unit English derivative remains as a historical build, but it predates the corrected Tamil reconciliation and the two recovered scene-41 dialogue records. It must be revalidated/regenerated after the Tamil dialogue layer stabilizes."
   english_reader_edition:
-    status: complete-verified
+    status: stale-pending-translation-reconciliation
+    historical_status: complete-verified
     path: "editions/en"
     build: "editions/en/build.py"
     preflight: "editions/en/audit_probe.py"
@@ -333,37 +342,38 @@ structured_derivatives:
     markdown: "editions/en/reader-edition.md"
     html: "editions/en/reader-edition.html"
     json: "editions/en/reader-edition.json"
-    translation_units: 1321
-    immutable_dialogue_records_linked: 1040
-    cross_page_translation_units: 12
-    qa_status: PASS
+    historical_translation_units: 1321
+    historical_immutable_dialogue_records_linked: 1040
+    historical_cross_page_translation_units: 12
+    historical_qa_status: PASS
   english_epub_package:
-    status: complete-verified
+    status: stale-pending-translation-reconciliation
+    historical_status: complete-verified
     format: "EPUB 3"
     path: "editions/en/tirumbippaar-en.epub"
     build: "editions/en/package.py"
     qa_report: "editions/en/EPUB_QA_REPORT.md"
     manifest: "editions/en/package-manifest.json"
-    translation_units: 1321
-    scene_documents: 93
-    zip_members: 99
-    byte_size: 370615
-    sha256: "17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f"
-    deterministic: true
-    qa_status: PASS
-  next_structured_derivative: null
+    historical_translation_units: 1321
+    historical_scene_documents: 93
+    historical_zip_members: 99
+    historical_byte_size: 370615
+    historical_sha256: "17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f"
+    historical_deterministic: true
+    historical_qa_status: PASS
+  next_structured_derivative: "corrected Part-04 scene/dialogue propagation for scenes 49-75"
 
 status:
   source_intake: complete
   structural_mapping: verified
-  tamil_transcription: verified
-  tamil_fidelity_audit: complete
-  scene_index: complete
-  scene_text_derivatives: complete
-  dialogue_index: complete
-  character_index: complete
-  song_authorship_mapping: complete
+  tamil_transcription: reconciliation-in-progress
+  tamil_fidelity_audit: historical-complete-superseded-for-textual-correctness
+  scene_index: complete-structural
+  scene_text_derivatives: reconciliation-in-progress
+  dialogue_index: reconciliation-in-progress
+  character_index: stale-pending-dialogue-stabilization
+  song_authorship_mapping: historical-complete
   song_tamil_derivatives: not-started
-  english_translation: complete-verified
-  english_reader_edition: complete-verified
-  english_epub_package: complete-verified
+  english_translation: stale-pending-source-reconciliation
+  english_reader_edition: stale-pending-translation-reconciliation
+  english_epub_package: stale-pending-translation-reconciliation
