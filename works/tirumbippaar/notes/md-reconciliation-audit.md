@@ -1,6 +1,6 @@
 # திரும்பிப்பார்! — corrected Markdown reconciliation audit
 
-Status: **source/dialogue reconciliation complete through scene 93; character/entity and publication layers pending regeneration/revalidation**
+Status: **canonical, scene/dialogue and character/entity reconciliation complete; English/publication derivatives still pending revalidation**
 
 Date opened: 2026-08-26
 
@@ -80,25 +80,42 @@ Important repairs include:
 
 Direct inspection of PDF 112 / printed p.104 also showed a final non-dialogue departure direction omitted by the Markdown witness. That scan-visible line is now retained in both `scenes/scene-93.md` and canonical `transcription/parts/part-05-pdf-92-112.md` immediately before `வணக்கம்.`.
 
+## Character/entity regeneration
+
+The historical character layer had been built against the pre-correction **1,040-record** dialogue set. After the Tamil layer stabilized at **1,042 records**, the character layer was regenerated without rewriting dialogue text or changing stable entity IDs where identity continuity remained valid.
+
+Reconciled character-layer totals:
+
+- dialogue records scanned: **1,042**
+- scenes scanned: **93**
+- distinct exact speaker labels: **45**
+- stable entities / role categories: **39**
+- verified labels: **45 / 45**
+- verified entities: **39 / 39**
+- review / unresolved labels or entities: **0**
+
+Exact-label changes reflected in the regenerated inventory include `பூமாலை`, `புண்யகோடி`, `குண்டுமணி`, `உஷா`, `சமையல்காரன்`, `அம்மாமி`, and the two printed spacing variants `சப்- இன்ஸ்பெக்டர்` / `சப் - இன்ஸ்பெக்டர்`.
+
+The former `குணமணி` inventory form is no longer retained as a valid exact source label; corrected dialogue evidence resolves it to `குண்டுமணி`. The two sub-inspector spacing forms remain separate exact source labels but map to one unnamed sub-inspector role.
+
 ## Current synchronization boundary
 
 - **Corrected canonical coverage:** PDF **9–112 / printed pp.1–104** — all five parts.
 - **Canonical source layer:** **scan-closed**.
 - **Scene/dialogue corrected reconciliation:** **complete through scene 93 / end of work**.
 - **Immutable labelled-dialogue total:** **1,042**.
-- **Existing stable IDs:** preserved throughout, apart from the two source-proven omitted scene-41 additions described above.
+- **Character/entity layer:** **complete-verified-reconciled — 45 labels / 39 entities**.
+- **Existing stable dialogue IDs:** preserved throughout, apart from the two source-proven omitted scene-41 additions described above.
 
-## Downstream reconciliation
+## Remaining downstream work
 
-The character/entity inventory was built against the historical 1,040-record dialogue corpus and is now being regenerated from the stable corrected 1,042-record corpus. Exact source labels changed during reconciliation, including `பூமாலை`, `புண்யகோடி`, `குண்டுமணி`, `சமையல்காரன்`, `அம்மாமி`, `உஷா`, and the two printed spacing variants `சப்- இன்ஸ்பெக்டர்` / `சப் - இன்ஸ்பெக்டர்`.
-
-English translations, reader/export derivatives and EPUB outputs remain potentially stale wherever corrected Tamil changes meaning, wording, or source linkage. Their historical verification state is not a current synchronization claim.
+English translations, reader/export derivatives and EPUB outputs may still be stale wherever corrected Tamil changes meaning, wording, exact speaker linkage, or source structure. Their historical verification state is not a current synchronization claim.
 
 ## Next execution order
 
-1. Regenerate/reconcile `characters/labels-inventory.json`, `characters/entities-pilot.json`, `characters/entities.json`, `characters/index.json`, and `characters/README.md` against the 1,042-record corpus.
-2. Update Tirumbippaar README/metadata/checkpoints to reflect the regenerated character layer.
-3. Reconcile English translation and reader/export/EPUB derivatives where Tamil changes are semantically material.
+1. Reconcile English translation derivatives against the corrected Tamil source, prioritizing units whose Tamil wording or speaker linkage changed.
+2. Propagate any required corrections into reader/export derivatives.
+3. Rebuild/revalidate deterministic EPUB outputs after source-linked English/reader content stabilizes.
 4. Restore final archive status only when all affected layers agree.
 
-The old `104 verified / 0 review` statement remains historical audit status only; the corrected source layer now supersedes it for textual correctness.
+The old `104 verified / 0 review` statement remains historical audit status only; the corrected source and regenerated character layers now supersede it for current textual correctness.
