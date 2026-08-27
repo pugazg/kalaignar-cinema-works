@@ -6,7 +6,7 @@
 
 This directory contains interpretive English derivatives. Nothing here repairs, normalizes, expands or overwrites the authoritative Tamil source.
 
-The historical English pass had been recorded as **93 scenes / 1,321 verified units / 1,040 labelled dialogue links**. That state is now historical because the Tamil corrected-source pass recovered two omitted scene-41 dialogue records and corrected many exact source readings and labels. English verification is therefore being reopened against the stable corrected Tamil corpus rather than silently carrying the old `verified` claim forward.
+The historical English pass had been recorded as **93 scenes / 1,321 verified units / 1,040 labelled dialogue links**. That state is historical: the Tamil corrected-source pass recovered two omitted scene-41 dialogue records and corrected many exact source readings and labels. English verification is therefore being reopened against the stable corrected Tamil corpus rather than silently carrying the old `verified` claim forward.
 
 ## Files
 
@@ -31,29 +31,27 @@ The historical English pass had been recorded as **93 scenes / 1,321 verified un
 
 ## Current corrected-source reconciliation
 
-The ordinary scene-order pass has now been reconciled through **scene 10**. Scene **41** was reconciled earlier out of order because the Tamil correction pass proved two labelled utterances had been omitted there.
+The ordinary scene-order pass has now been reconciled through **scene 15**. Scene **41** was reconciled earlier out of order because the Tamil correction pass proved two labelled utterances had been omitted there.
 
-### Scenes 1–10
+### Scenes 1–15
 
-Scenes **1–10** have now been compared against the corrected scene/dialogue source and marked `corrected-source-reconciled`.
+Scenes **1–15** have been compared against the corrected scene/dialogue source and marked `corrected-source-reconciled`.
 
 Representative material corrections include:
 
 - exact `பூமாலை` speaker metadata and Poomalai naming restored wherever the stale English layer still carried `பூமால்` / Poomaal;
-- scene 2 `இந்த வீட்டுக்கு படுக்க வர்ரதே தப்பு! நமக்கு சத்திரம் சாவடியா இல்லை` restored as Paranthaman's **first-person complaint about himself coming home merely to sleep**, replacing the old English that incorrectly turned it into an instruction about other people sleeping there;
-- scene 2 `தர்மப் பள்ளிக்கூடம்` retained as a charity-school reference rather than reduced to an unspecified school;
+- scene 2 `இந்த வீட்டுக்கு படுக்க வர்ரதே தப்பு! நமக்கு சத்திரம் சாவடியா இல்லை` restored as Paranthaman's first-person complaint about himself coming home merely to sleep;
 - scene 4's complete `வாழைப்பழம் வேண்டாங்கிற குழந்தை உண்டாங்கிறேன்` rhetorical sentence restored without invented missing wording;
-- scene 5 exact source label `குரல்` restored for `tirumbippaar-s005-d009`, replacing stale `குரு` metadata;
-- scene 5 `அச்சியற்றுவதாக என்னிடத்திலே வாங்கி` restored as the manuscript being taken **on the representation that it would be printed**, not the historical unsupported `unpublished writer` reading;
-- scene 5 `கம்பி எண்ணனும்` restored as the prison-bars/jail expression;
-- scene 5 `மன்மதனின் வில்லே` restored as **Manmatha's bow**, replacing the historical `bow in his head` rendering;
-- scene 5 closing `இன்பமான ஜோடியை` restored as **a delightful companion/mate**, replacing the old `delightful light` reading;
-- scene 6 retains the corrected `நேற்று / இன்று / நாளை` sequence explicitly and keeps `அலுத்தபடி` as weariness/exasperation rather than strengthening it to a different attitude;
-- scene 7 restores exact `குண்டுமணி` metadata and Gundumani naming, restores the dropped `வீட்டோட இருப்பேன்னு` household-continuity meaning, and corrects `கலர் கவிதைகளால்ல` to the source's **colour-poetry** joke instead of the stale `cover-poetry` rendering;
-- scenes 8–9 restore exact `பூமாலை` metadata and Poomalai naming;
-- scene 10 remains a zero-dialogue visual transformation and is translated without adding interpretation beyond the printed sequence.
+- scene 5 exact source label `குரல்`, the `அச்சியற்றுவதாக` printing promise, `கம்பி எண்ணனும்` jail expression, `மன்மதனின் வில்லே`, and closing `இன்பமான ஜோடியை` meaning restored;
+- scene 7 restores exact `குண்டுமணி` metadata, the dropped `வீட்டோட இருப்பேன்னு` meaning and the source's `கலர் கவிதைகளால்ல` colour-poetry joke;
+- scenes 8–10 restore corrected Poomalai naming and retain scene 10 as a zero-dialogue visual transformation without added interpretation;
+- scene 11 remains a zero-dialogue boat/song scene: only the source-visible performance reference is translated and no missing lyric text is reconstructed;
+- scene 12 restores exact `பூமாலை` metadata and materially corrects `உற்சாகச் சேறு, உல்லாசச் சகதி`, `சூதுவாதறியாத ... சூதாடி`, the `பணம் வீணாகாமல் பாமா பரிணயம்` clause, and the wedding-day question;
+- scene 13 restores `அட்டை மாத்திரந்தான் நல்லா இருக்கா?` as the retort **“Is only the cover good?”**, not the historical suggestion to change the cover;
+- scene 14 removes the unsupported `dear friends` addition from Pandiyan's closing thanks to `அனைவருக்கும்`;
+- scene 15 restores exact `புண்யகோடி` metadata and Punyakodi naming, restores `மேஸ்திரி` as **foreman**, and restores the omitted closing insult `கஞ்சன்.`; its source-unlabelled pocket/laundry speech remains unlabelled.
 
-No historical unit IDs were renumbered in scenes 1–10. Scene 5's source-unlabelled coffee request remains unlabelled and retains no invented dialogue-record ID or speaker.
+No historical unit IDs were renumbered in scenes 1–15. Source-unlabelled speech remains unlabelled and receives no invented dialogue-record ID or speaker.
 
 ### Scene 41 recovered-source repair
 
@@ -61,11 +59,11 @@ The scene-41 English layer:
 
 - links recovered `tirumbippaar-s041-d037` (`பூமாலை`) and `tirumbippaar-s041-d038` (`பரந்தாமன்`) as new English units `tirumbippaar-en-s041-u050` and `tirumbippaar-en-s041-u051`;
 - preserves all historical translation-unit IDs instead of renumbering existing units;
-- keeps historical `tirumbippaar-en-s041-u046` linked to cross-page dialogue `tirumbippaar-s041-d034` and replaces its old mistranscription with the corrected `அன்பைக் கேட்- / காமல் ஐஸ்வரியத்தைக் கேட்கும்...` meaning;
+- keeps historical `tirumbippaar-en-s041-u046` linked to cross-page dialogue `tirumbippaar-s041-d034` and translates the corrected `அன்பைக் கேட்- / காமல் ஐஸ்வரியத்தைக் கேட்கும்...` reading;
 - adds the source-visible `(குமுதா போய்விடுகிறாள் பாண்டியனுடன்)` direction, missing from the historical English layer, as new unit `tirumbippaar-en-s041-u052`;
-- updates exact `பூமாலை` speaker metadata and Poomalai naming in English stage-direction text.
+- updates exact `பூமாலை` speaker metadata and Poomalai naming.
 
-Accordingly, the live English layer currently contains **1,324 units**:
+The live English layer currently contains **1,324 units**:
 
 - **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
 - **255 stage-direction units**;
@@ -74,11 +72,11 @@ Accordingly, the live English layer currently contains **1,324 units**:
 - **11 written-text units**;
 - **0 reconstructed full-song units**.
 
-All **1,042 dialogue record IDs are linked** in the English layer, but link coverage is not the same as textual reconciliation. Scenes 1–10 and 41 are source-reconciled; the remaining historical scene files still require comparison against the corrected Tamil for exact source labels, wording, semantics and structure.
+All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes 1–15 and 41 are source-reconciled; the remaining historical scene files still require comparison against the corrected Tamil for exact source labels, wording, semantics and structure.
 
 ## Cross-page English units
 
-The historical cross-page list remains structurally valid, including:
+The historical cross-page list remains structurally valid:
 
 - `tirumbippaar-en-s001-u008` — PDF 9→10
 - `tirumbippaar-en-s026-u002` — PDF 31→32
@@ -113,8 +111,8 @@ Seven historical translated song references remain linked to source occurrences 
 
 ## Reader/export status
 
-`../editions/en/` still contains the previously generated Markdown, standalone HTML and machine-readable JSON reader editions, together with their historical QA/manifest outputs. Those files are now **known-stale downstream derivatives** until corrected-source English reconciliation completes and the reader/export layer is regenerated/revalidated.
+`../editions/en/` still contains the previously generated Markdown, standalone HTML and machine-readable JSON reader editions, together with their historical QA/manifest outputs. Those files are **known-stale downstream derivatives** until corrected-source English reconciliation completes and the reader/export layer is regenerated/revalidated.
 
 ## Next activity
 
-Continue the ordinary corrected-source English pass with **scenes 11–15**. For each scene, compare the existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
+Continue the ordinary corrected-source English pass with **scene 16 onward**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
