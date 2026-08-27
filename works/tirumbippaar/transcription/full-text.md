@@ -28,6 +28,7 @@ The canonical page-order transcription is split into five archival batches:
 - Part 04 scan adjudications include the full `குயில் பாடுதுங்கிறான்` reading, the `12½` clock, and scene 72's printed `குரல்` performance order.
 - Part 05 scene/dialogue propagation includes scenes 76–93, including scene 76's genuine PDF 91→92 continuation.
 - PDF 112's scan-visible final non-dialogue departure direction is now present in both `scenes/scene-93.md` and canonical `parts/part-05-pdf-92-112.md` immediately before `வணக்கம்.`.
+- Character/entity regeneration is complete against the corrected dialogue corpus: **45 exact source labels / 39 verified entities**, with no review or unresolved mappings.
 
 ## Active boundaries
 
@@ -35,10 +36,11 @@ The canonical page-order transcription is split into five archival batches:
 - **Canonical source layer:** **scan-closed**.
 - **Scene/dialogue corrected reconciliation:** **scene 93 / end of work**.
 - **Immutable dialogue total:** **1,042**.
-- **Next downstream activity:** regenerate/reconcile the character/entity layer from the stable corrected dialogue corpus.
+- **Character/entity layer:** **complete-verified-reconciled — 45 labels / 39 entities**.
+- **Next downstream activity:** reconcile English translation and reader/export/EPUB derivatives wherever corrected Tamil changes wording, meaning, speaker linkage, or source structure.
 
-Character/entity mappings, English translations, reader/export derivatives and EPUB outputs remain **known-stale** until explicitly regenerated or revalidated. Their previous complete/verified state is historical and is not a current synchronization claim.
+English translations, reader/export derivatives and EPUB outputs remain **known-stale** until explicitly regenerated or revalidated. Their previous complete/verified state is historical and is not a current synchronization claim.
 
 The exact correction history is recorded in [`../notes/md-reconciliation-audit.md`](../notes/md-reconciliation-audit.md) and [`../notes/post-fidelity-corrections.md`](../notes/post-fidelity-corrections.md).
 
-The former `104 verified / 0 review` statement remains historical audit status. The corrected source layer supersedes it for textual correctness.
+The former `104 verified / 0 review` statement remains historical audit status. The corrected source layer and regenerated character layer supersede it for current textual correctness.
