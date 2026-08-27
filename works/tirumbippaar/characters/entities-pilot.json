@@ -1,13 +1,13 @@
 {
   "work_id": "tirumbippaar",
-  "status": "pilot-verified",
+  "status": "pilot-verified-reconciled",
   "source_label_inventory": "labels-inventory.json",
   "dialogue_index": "../dialogues/index.json",
-  "dialogue_records_source": 1040,
+  "dialogue_records_source": 1042,
   "distinct_source_labels": 45,
   "pilot_entities": 8,
-  "mapped_distinct_source_labels": 10,
-  "remaining_unmapped_source_labels": 35,
+  "mapped_distinct_source_labels": 9,
+  "remaining_unmapped_source_labels": 36,
   "entities": [
     {
       "id": "tirumbippaar-char-paranthaman",
@@ -22,14 +22,14 @@
     },
     {
       "id": "tirumbippaar-char-poomaal",
-      "preferred_name_ta": "பூமால்",
+      "preferred_name_ta": "பூமாலை",
       "entity_type": "character",
       "status": "verified",
       "confidence": "high",
-      "source_labels": ["பூமால்"],
+      "source_labels": ["பூமாலை"],
       "scenes": [1,2,4,7,8,9,12,19,20,21,27,28,30,34,35,36,38,41,47,55,57,60,76,77,80,87,89,90,93],
       "supporting_records": ["tirumbippaar-s001-d002","tirumbippaar-s038-d003","tirumbippaar-s080-d001"],
-      "notes": "The recurring exact label `பூமால்` identifies Paranthaman's elder sister throughout the frame trial, household and reform arc."
+      "notes": "The corrected exact source label `பூமாலை` identifies Paranthaman's elder sister throughout the frame trial, household and reform arc. The stable entity ID is retained from the historical character layer."
     },
     {
       "id": "tirumbippaar-char-pandiyan",
@@ -51,7 +51,7 @@
       "source_labels": ["குமுதா"],
       "scenes": [7,8,9,21,27,28,31,35,36,41,42,47,50,57,59,61,62,64,86,92,93],
       "supporting_records": ["tirumbippaar-s007-d002","tirumbippaar-s057-d004","tirumbippaar-s093-d001"],
-      "notes": "The recurring exact label `குமுதா` consistently identifies Poomaal's ward/niece and Pandiyan's wife."
+      "notes": "The recurring exact label `குமுதா` consistently identifies Poomalai's ward/niece and Pandiyan's wife."
     },
     {
       "id": "tirumbippaar-char-bama",
@@ -77,14 +77,14 @@
     },
     {
       "id": "tirumbippaar-char-punnakodi",
-      "preferred_name_ta": "புண்ணகோடி",
+      "preferred_name_ta": "புண்யகோடி",
       "entity_type": "character",
       "status": "verified",
       "confidence": "high",
-      "source_labels": ["புண்ணகோடி"],
+      "source_labels": ["புண்யகோடி"],
       "scenes": [15,18,32,33,37,40,48,49,51,52,63,66,67,69,76,86],
       "supporting_records": ["tirumbippaar-s015-d002","tirumbippaar-s033-d001","tirumbippaar-s069-d004"],
-      "notes": "`புண்ணகோடி` is Pandiyan's father and a recurring mill-worker/labour-organizer character."
+      "notes": "The corrected exact source label `புண்யகோடி` identifies Pandiyan's father and recurring mill-worker/labour-organizer character. The stable entity ID is retained."
     },
     {
       "id": "tirumbippaar-char-kundumani",
@@ -92,10 +92,10 @@
       "entity_type": "character",
       "status": "verified",
       "confidence": "high",
-      "source_labels": ["குணமணி","குண்டுமணி"],
+      "source_labels": ["குண்டுமணி"],
       "scenes": [7,19,20,21,27,28,50,57,76,87],
       "supporting_records": ["tirumbippaar-s007-d006","tirumbippaar-s027-d004","tirumbippaar-s057-d001"],
-      "notes": "`குணமணி` and `குண்டுமணி` occur in the same Poomaal/Kumudha household-helper continuity and are mapped to one stable character while preserving both exact source labels."
+      "notes": "Corrected reconciliation resolves the historical `குணமணி` OCR variant to the exact source label `குண்டுமணி` throughout this character's dialogue records. The stable entity ID is retained."
     }
   ]
 }
