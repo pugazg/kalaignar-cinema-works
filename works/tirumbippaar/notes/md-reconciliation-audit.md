@@ -40,7 +40,7 @@ Iteration commentary / extraction-review prose embedded between Markdown batches
 | PDF 19–24 / printed pp.11–16 through scene 15 | canonical Part 02 reconciled | scene 11 retained from scan-supported structure; scenes 12–15 reconciled | scene 11 remains zero-dialogue; scenes 12–15 reconciled with stable record IDs | complete for this range |
 | PDF 24–35 / printed pp.16–27, scenes 16–29 | canonical Part 02 reconciled and final cleanup complete | scenes 16–29 reconciled through PDF 35 | scenes 16–29 reconciled with stable record IDs | **complete through Part 02** |
 | PDF 36–63 / printed pp.28–55 | **canonical Part 03 reconciled from corrected Markdown** | scene 29 PDF-36 continuation + scenes 30–48 reconciled; scene 48 retains its PDF-64 continuation | corresponding dialogue shards reconciled; scene 41 recovered two omitted labelled utterances | **Part 03 derivative reconciliation complete** |
-| PDF 64–91 / printed pp.56–83 | **not yet canonically reconciled in this pass** | scene 48 PDF-64 continuation already reconciled as a cross-part derivative | scene 48 PDF-64 records already reconciled; later scenes pending | **next canonical range: Part 04** |
+| PDF 64–91 / printed pp.56–83 | **canonical Part 04 reconciled from corrected Markdown** | scene 48 PDF-64 continuation already synchronized; scenes 49 onward still pending this derivative pass | scene 48 PDF-64 records synchronized; later Part-04 dialogue shards pending | **canonical complete; derivative propagation next** |
 | PDF 92–112 / printed pp.84–104 | not yet reconciled in this pass | not yet reconciled | not yet reconciled | pending |
 
 ### Part 02 closure
@@ -55,7 +55,7 @@ This canonical merge includes corrected forms and labels supplied by the user wi
 
 ### Part 03 derivative closure
 
-The scene/dialogue reconciliation now reaches **scene 48**, including scene 48's genuine cross-part continuation on **PDF 64 / printed p.56**. This does **not** mean canonical Part 04 has been reconciled; it only preserves the complete source-supported scene-48 derivative before the Part-04 canonical pass begins.
+The scene/dialogue reconciliation now reaches **scene 48**, including scene 48's genuine cross-part continuation on **PDF 64 / printed p.56**.
 
 Important derivative corrections in this closure include:
 
@@ -82,11 +82,20 @@ Accordingly:
 - whole-work immutable labelled-dialogue count: **1,042**
 - existing dialogue IDs were not renumbered.
 
+### Part 04 canonical reconciliation
+
+`transcription/parts/part-04-pdf-64-91.md` has now been rebuilt for **Play Pages 56–83 / PDF 64–91** from the corrected Markdown witness. Iteration commentary embedded after the source batches was excluded.
+
+The rendered scan was consulted where the Markdown visibly behaved like extracted/OCR text rather than source text. Examples include preserving the scene/page structure across the PDF 64 scene-48 continuation, restoring the page-57 `குயில்` line from the printed source rather than retaining its truncated Markdown extraction, joining source words split only by extraction layout such as `இவைகளுக்கெல்லாம்`, and retaining genuine physical-page splits such as scene 63's `கொஞ்சங்-` / `கொஞ்சமா` across PDF 79→80.
+
+No character/entity mapping, English translation, reader/export or EPUB layer is declared synchronized by this canonical merge.
+
 ### Current synchronization boundary
 
-- **Canonical corrected-Markdown boundary:** PDF **9–63** / printed pp. **1–55** (Parts 01–03).
+- **Canonical corrected-Markdown boundary:** PDF **9–91** / printed pp. **1–83** (Parts 01–04).
 - **Scene/dialogue derivative boundary:** through **scene 48**, including its PDF **64** / printed p. **56** continuation.
-- **Next canonical work:** Part 04, PDF **64–91** / printed pp. **56–83**.
+- **Next derivative work:** propagate corrected Part-04 readings through scenes **49–75**; scene 76 begins on printed p.83 and crosses into Part 05.
+- **Next canonical work after Part-04 derivative propagation:** Part 05, PDF **92–112** / printed pp. **84–104**.
 
 Exact speaker labels have changed during this pass (`பூமாலை`, `புண்யகோடி`, `குரல்`, `குண்டுமணி`, `சமையல்காரன்`). The existing character-label inventory and entity mappings therefore remain **known-stale** and must not be treated as synchronized yet.
 
@@ -94,9 +103,8 @@ English translations, reader/export derivatives and EPUB outputs may likewise be
 
 ## Execution order from here
 
-- Reconcile canonical **Part 04 / PDF 64–91 / printed pp.56–83** from the corrected Markdown baseline, using the rendered scan to adjudicate doubtful readings and physical structure.
-- Propagate each corrected Part-04 source reading to its scene/dialogue derivatives while preserving stable IDs and genuine page provenance.
-- Continue through Part 05.
+- Propagate corrected canonical **Part 04 / PDF 64–91 / printed pp.56–83** to scene/dialogue derivatives through scene 75, preserving stable dialogue IDs, exact labels and genuine page provenance.
+- Reconcile canonical Part 05 and its derivatives.
 - Rebuild character mappings only after the dialogue correction pass reaches a stable full-work boundary.
 - Reconcile English / reader / EPUB derivatives for semantic source changes instead of leaving them silently stale.
 - Restore final archive status only after all affected layers agree.
