@@ -3,176 +3,25 @@
   "target_language": "en",
   "canonical_scene": 2,
   "scene_status": "verified",
+  "reconciliation_status": "corrected-source-reconciled",
   "unit_count": 17,
   "units": [
-    {
-      "id": "tirumbippaar-en-s002-u001",
-      "kind": "song-reference",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {
-        "source_path": "works/tirumbippaar/scenes/scene-02.md",
-        "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md",
-        "source_record_id": null,
-        "source_occurrence_id": "tirumbippaar-song-001",
-        "source_locator": {
-          "kind": "scene-bracketed-performance-direction",
-          "ordinal": 1,
-          "description": "Opening bracketed direction immediately after the canonical scene-2 heading."
-        },
-        "speaker_label": null,
-        "page_provenance": [{"pdf_page": 10, "printed_page": 2}]
-      },
-      "translation": {
-        "english_text": "(Poomaal is teaching seven or eight children moral lessons through song.)",
-        "mode": "prose-faithful",
-        "notes": ["The booklet prints only the performance reference; no song title or lyric body is supplied or reconstructed."]
-      }
-    },
-    {
-      "id": "tirumbippaar-en-s002-u002",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d001", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "You must come tomorrow morning...", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u003",
-      "kind": "stage-direction",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/scenes/scene-02.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Standalone parenthetical after Poomaal dismisses the children."}, "speaker_label": null, "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "(The children leave.)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u004",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d002", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "(Coming in, weary from just waking up) Yes, come in the morning! Then you can shout away without letting a man sleep...", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u005",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d003", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "Shouting, is it? A child's prattle is sweeter than sugar candy!", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u006",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d004", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "Sister! I don't like any of this! Why do you call all these famine-stricken people here? Let them go to some school somewhere...", "mode": "prose-faithful", "notes": ["The dismissive tone of the source is retained rather than softened."]}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u007",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d005", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "I need something to pass the time, brother!", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u008",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d006", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "Are there no ways for women of rich households to pass the time? There are plenty! Badminton, ping-pong, ladies' club, English pictures—so many entertainments.", "mode": "prose-faithful", "notes": ["The source's English code-switching is retained in meaning and register."]}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u009",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d007", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 10, "printed_page": 2}]},
-      "translation": {"english_text": "There may be many ways, brother! But shouldn't it be useful to others too?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u010",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d008", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "All right...your wish! But from now on, don't let people come here just to sleep! This isn't a charity rest house.", "mode": "prose-faithful", "notes": ["The colloquial complaint is rendered conservatively from context without adding a named subject absent from the source."]}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u011",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d009", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "Brother, don't say things like that! The house is as vast as the sea!", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u012",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d010", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "Fine, carry on! Sister! What is money for...to enjoy—life, pleasure, money—they're all three-letter words.", "mode": "prose-faithful", "notes": ["The source makes a Tamil word-length play; the English keeps the explicit claim rather than replacing it with a new English pun."]}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u013",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d011", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "Love, service—those too are three-letter words, Paranthaman. Life is necessary, yes. But a life lived for others—that is the pleasure one should want—the pleasure of the heart born from other people's happiness.... ... ...", "mode": "prose-faithful", "notes": ["The Tamil word-length contrast is preserved as a stated rhetorical device rather than recreated with different English vocabulary."]}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u014",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d012", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "Hmm. At this rate, this house will soon become an ashram.", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u015",
-      "kind": "stage-direction",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/scenes/scene-02.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 2, "description": "Standalone parenthetical after Paranthaman's ashram remark."}, "speaker_label": null, "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "(He leaves irritably. Bama's parents arrive.)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u016",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-02.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": "tirumbippaar-s002-d013", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பூமால்", "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "Who is it... ... Oh... ... come, come! Sit down! Gundumani! Bring tea!", "mode": "prose-faithful", "notes": ["The exact source name remains in Tamil metadata; the English uses a transliteration only in the translated speech."]}
-    },
-    {
-      "id": "tirumbippaar-en-s002-u017",
-      "kind": "stage-direction",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 2,
-      "source": {"source_path": "works/tirumbippaar/scenes/scene-02.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-02.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 3, "description": "Closing parenthetical after Poomaal welcomes the visitors."}, "speaker_label": null, "page_provenance": [{"pdf_page": 11, "printed_page": 3}]},
-      "translation": {"english_text": "(Everyone sits down.)", "mode": "prose-faithful", "notes": []}
-    }
+    {"id":"tirumbippaar-en-s002-u001","kind":"song-reference","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/scenes/scene-02.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":null,"source_occurrence_id":"tirumbippaar-song-001","source_locator":{"kind":"scene-bracketed-performance-direction","ordinal":1,"description":"Opening bracketed direction immediately after the canonical scene-2 heading."},"speaker_label":null,"page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"(Poomalai is teaching seven or eight children moral lessons through song.)","mode":"prose-faithful","notes":["The booklet prints only the performance reference; no song title or lyric body is supplied or reconstructed."]}},
+    {"id":"tirumbippaar-en-s002-u002","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d001","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"You must come tomorrow morning...","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u003","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/scenes/scene-02.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":null,"source_occurrence_id":null,"source_locator":{"kind":"scene-parenthetical-block","ordinal":1,"description":"Standalone parenthetical after Poomalai dismisses the children."},"speaker_label":null,"page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"(The children leave.)","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u004","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d002","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"(Coming in with the drowsiness of someone just awakened) Yes, come in the morning! Then you can shout away without letting a man sleep...","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u005","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d003","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"You call this shouting? A child's prattle is sweeter than sugar candy!","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u006","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d004","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"Akka! I don't like any of this! Why do you call all these famine-stricken people here? Let them go to some charity school somewhere...","mode":"prose-faithful","notes":["`தர்மப் பள்ளிக்கூடம்` is retained as the source's charity-school reference rather than reduced to an unspecified school."]}},
+    {"id":"tirumbippaar-en-s002-u007","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d005","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"I need something to pass the time, brother!","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u008","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d006","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"Are there no ways for women of rich households to pass the time? There are plenty! Badminton, ping-pong, ladies' club, English pictures—so many entertainments.","mode":"prose-faithful","notes":["The source's English code-switching is retained in meaning and register."]}},
+    {"id":"tirumbippaar-en-s002-u009","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d007","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":10,"printed_page":2}]},"translation":{"english_text":"There may be many ways, brother! But shouldn't it be useful to others too?","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u010","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d008","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"All right...your wish! From now on, even coming to this house just to sleep is a mistake! Aren't there choultries and rest houses for me?","mode":"prose-faithful","notes":["The earlier English incorrectly turned this first-person complaint into an instruction not to let other people sleep at the house. The corrected Tamil is about Paranthaman himself coming home merely to sleep."]}},
+    {"id":"tirumbippaar-en-s002-u011","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d009","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"Brother, don't say things like that! We have a house as vast as the sea!","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u012","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d010","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"Fine, keep it that way! Akka! What is money for...to enjoy—life, pleasure, money—all are three-letter words.","mode":"prose-faithful","notes":["The source makes a Tamil word-length play; the English keeps the explicit claim rather than replacing it with a new English pun."]}},
+    {"id":"tirumbippaar-en-s002-u013","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d011","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"Love, service—those too are three-letter words, Paranthama. Life is necessary, yes. But a life lived for others—that is the life one needs; pleasure is desirable—the pleasure of the heart that arises from other people's happiness.... ... ...","mode":"prose-faithful","notes":["The Tamil word-length contrast is preserved as a stated rhetorical device rather than recreated with different English vocabulary."]}},
+    {"id":"tirumbippaar-en-s002-u014","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d012","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"Hmm. At this rate, this house will soon become an ashram.","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u015","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/scenes/scene-02.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":null,"source_occurrence_id":null,"source_locator":{"kind":"scene-parenthetical-block","ordinal":2,"description":"Standalone parenthetical after Paranthaman's ashram remark."},"speaker_label":null,"page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"(He leaves irritably. Bama's parents arrive.)","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s002-u016","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-02.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":"tirumbippaar-s002-d013","source_occurrence_id":null,"source_locator":null,"speaker_label":"பூமாலை","page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"Who is it... ... Oh... ... come, come! Sit down! Gundumani! Bring tea!","mode":"prose-faithful","notes":["The exact Tamil label remains immutable metadata; the English uses a transliteration only in translated speech."]}},
+    {"id":"tirumbippaar-en-s002-u017","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":2,"source":{"source_path":"works/tirumbippaar/scenes/scene-02.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-02.md","source_record_id":null,"source_occurrence_id":null,"source_locator":{"kind":"scene-parenthetical-block","ordinal":3,"description":"Final parenthetical after Poomalai invites Bama's parents to sit."},"speaker_label":null,"page_provenance":[{"pdf_page":11,"printed_page":3}]},"translation":{"english_text":"(Everyone sits down.)","mode":"prose-faithful","notes":[]}}
   ]
 }
