@@ -1,162 +1,22 @@
 {
-  "work_id": "tirumbippaar",
-  "target_language": "en",
-  "canonical_scene": 6,
-  "scene_status": "verified",
-  "unit_count": 17,
-  "units": [
-    {
-      "id": "tirumbippaar-en-s006-u001",
-      "kind": "song-reference",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/scenes/scene-06.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": null, "source_occurrence_id": "tirumbippaar-song-002", "source_locator": {"kind": "scene-bracketed-performance-direction", "ordinal": 1, "description": "Opening bracketed direction states that Bama's song has ended; the booklet prints no title or lyrics."}, "speaker_label": null, "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
-      "translation": {"english_text": "(Bama's song has ended.)", "mode": "prose-faithful", "notes": ["Only the source-visible performance reference is translated; no song title or lyric body is supplied or reconstructed."]}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u002",
-      "kind": "stage-direction",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/scenes/scene-06.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-bracketed-stage-direction", "ordinal": 1, "description": "Opening action following the source's song-ended reference."}, "speaker_label": null, "page_provenance": [{"pdf_page": 15, "printed_page": 7}]},
-      "translation": {"english_text": "(She takes the water pot and walks away. From the tree above, Paranthaman loops a noose around the neck of the pot and pulls it. Bama looks up—)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u003",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d001", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "What kind of mischief is this...", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u004",
-      "kind": "stage-direction",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/scenes/scene-06.md", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": null, "source_occurrence_id": null, "source_locator": {"kind": "scene-parenthetical-block", "ordinal": 1, "description": "Standalone parenthetical after Bama's first line."}, "speaker_label": null, "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "(Paranthaman comes down laughing.)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u005",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d002", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "The noose meant for the pot missed and fell around my neck,", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u006",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d003", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "I am going to put a noose around your neck too........", "mode": "prose-faithful", "notes": ["The source's wordplay on `சுருக்கு` is retained literally so Paranthaman's next line can turn it toward the marriage cord."]}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u007",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d004", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "What......", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u008",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d005", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "Don't be afraid! Not with this rope. With a turmeric-dyed marriage cord around your emerald-jewel neck. (Bama is shy.) Bama! What I said is right, isn't it? Come on, say it...... (Bama smiles.) Ah! A breeze that subdues a storm, a block of ice that quenches a volcano—I have never even heard of such a thing!... Yet I can see that wondrous power in a single smile of yours.", "mode": "prose-faithful", "notes": ["`மாங்கல்யக் கயிறு` is rendered as `marriage cord`; the source imagery and embedded actions remain within the immutable dialogue-linked unit."]}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u009",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d006", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "I hope all this doesn't end up being mere description?", "mode": "prose-faithful", "notes": ["The literary-register `வர்ணனை` is retained as `description` rather than expanded into an inferred promise."]}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u010",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d007", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "Why the doubt! (Putting a hand on her shoulder) I only met you yesterday. Are you afraid that today I touch and play with you, and tomorrow I will run away? You sweet-tongued one! Didn't you read carefully what I wrote in Illara Jothi?", "mode": "prose-faithful", "notes": ["The book title `இல்லற ஜோதி` is transliterated consistently; no claim is added about its true authorship inside the translation."]}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u011",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d008", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "Will you live as you wrote?", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u012",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d009", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "(Dismissively) Women are always creatures of suspicion like this.", "mode": "prose-faithful", "notes": ["The dismissive generalization is translated without softening or endorsement."]}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u013",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d010", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "No...no... (turning his face toward her) Look here...", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u014",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d011", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "Bama! My dear! (moves closer)", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u015",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d012", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 16, "printed_page": 8}]},
-      "translation": {"english_text": "No...all that only after the marriage...", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u016",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d013", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பரந்தாமன்", "page_provenance": [{"pdf_page": 17, "printed_page": 9}]},
-      "translation": {"english_text": "But the marriage is going to happen!", "mode": "prose-faithful", "notes": []}
-    },
-    {
-      "id": "tirumbippaar-en-s006-u017",
-      "kind": "dialogue",
-      "status": "verified",
-      "target_language": "en",
-      "canonical_scene": 6,
-      "source": {"source_path": "works/tirumbippaar/dialogues/records/scene-06.json", "canonical_scene_path": "works/tirumbippaar/scenes/scene-06.md", "source_record_id": "tirumbippaar-s006-d014", "source_occurrence_id": null, "source_locator": null, "speaker_label": "பாமா", "page_provenance": [{"pdf_page": 17, "printed_page": 9}]},
-      "translation": {"english_text": "Marriage. I am fortunate.", "mode": "prose-faithful", "notes": []}
-    }
+  "work_id":"tirumbippaar","target_language":"en","canonical_scene":6,"scene_status":"verified","reconciliation_status":"corrected-source-reconciled","unit_count":17,
+  "units":[
+    {"id":"tirumbippaar-en-s006-u001","kind":"song-reference","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/scenes/scene-06.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":null,"source_occurrence_id":"tirumbippaar-song-002","source_locator":{"kind":"scene-bracketed-performance-direction","ordinal":1,"description":"Opening bracketed direction states that Bama's song has ended; the booklet prints no title or lyrics."},"speaker_label":null,"page_provenance":[{"pdf_page":15,"printed_page":7}]},"translation":{"english_text":"(Bama's song has ended.)","mode":"prose-faithful","notes":["Only the source-visible performance reference is translated; no song title or lyric body is supplied or reconstructed."]}},
+    {"id":"tirumbippaar-en-s006-u002","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/scenes/scene-06.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":null,"source_occurrence_id":null,"source_locator":{"kind":"scene-bracketed-stage-direction","ordinal":1,"description":"Opening action following the source's song-ended reference."},"speaker_label":null,"page_provenance":[{"pdf_page":15,"printed_page":7}]},"translation":{"english_text":"(She takes the water pot and walks away. From the tree above, Paranthaman loops a noose around the neck of the pot and pulls it. Bama looks up—)","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u003","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d001","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"What kind of mischief is this...","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u004","kind":"stage-direction","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/scenes/scene-06.md","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":null,"source_occurrence_id":null,"source_locator":{"kind":"scene-parenthetical-block","ordinal":1,"description":"Standalone parenthetical after Bama's first line."},"speaker_label":null,"page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"(Paranthaman comes down laughing.)","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u005","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d002","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"The noose that fell on the pot slipped and fell around my neck,","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u006","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d003","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"I am going to put a noose around your neck too........","mode":"prose-faithful","notes":["The source's wordplay on `சுருக்கு` is retained literally so Paranthaman's next line can turn it toward the marriage cord."]}},
+    {"id":"tirumbippaar-en-s006-u007","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d004","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"What......","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u008","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d005","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"Don't be afraid! Not with this rope. With a turmeric-dyed marriage cord around your emerald-jewel neck. (Bama is shy.) Bama! What I said is right, isn't it? Come on, say it...... (Bama smiles.) Ah! A breeze that subdues a storm, a block of ice that quenches a volcano—I have never even heard of such a thing!... Yet I can see that wondrous power in a single smile of yours.","mode":"prose-faithful","notes":["`மாங்கல்யக் கயிறு` is rendered as `marriage cord`; the source imagery and embedded actions remain within the immutable dialogue-linked unit."]}},
+    {"id":"tirumbippaar-en-s006-u009","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d006","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"Won't all this end up as mere description?","mode":"prose-faithful","notes":["The source's `வர்ணனை` is kept as `description`; the question is not expanded into a promise absent from the Tamil."]}},
+    {"id":"tirumbippaar-en-s006-u010","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d007","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"Why the doubt! (Putting a hand on her shoulder) We were introduced only yesterday. Today I touch you and play with you; are you afraid that tomorrow I may run away? Sweet-tongued one! Haven't you carefully noticed what I wrote in Illara Jothi?","mode":"prose-faithful","notes":["The corrected Tamil's sequence `நேற்று... இன்று... நாளை...` is retained explicitly; the book title remains transliterated without importing authorship claims into the speech."]}},
+    {"id":"tirumbippaar-en-s006-u011","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d008","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"Will you act as you wrote?","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u012","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d009","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"(Wearily) Women are creatures of suspicion like this.","mode":"prose-faithful","notes":["`அலுத்தபடி` is retained as weariness/exasperation rather than strengthened into a different attitude."]}},
+    {"id":"tirumbippaar-en-s006-u013","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d010","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"No...no... (turning his face toward her) Look here...","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u014","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d011","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"Bama! My dear! (moves closer)","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u015","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d012","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":16,"printed_page":8}]},"translation":{"english_text":"No...all that only after the marriage...","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u016","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d013","source_occurrence_id":null,"source_locator":null,"speaker_label":"பரந்தாமன்","page_provenance":[{"pdf_page":17,"printed_page":9}]},"translation":{"english_text":"But the marriage is going to happen!","mode":"prose-faithful","notes":[]}},
+    {"id":"tirumbippaar-en-s006-u017","kind":"dialogue","status":"verified","target_language":"en","canonical_scene":6,"source":{"source_path":"works/tirumbippaar/dialogues/records/scene-06.json","canonical_scene_path":"works/tirumbippaar/scenes/scene-06.md","source_record_id":"tirumbippaar-s006-d014","source_occurrence_id":null,"source_locator":null,"speaker_label":"பாமா","page_provenance":[{"pdf_page":17,"printed_page":9}]},"translation":{"english_text":"Marriage. I am fortunate.","mode":"prose-faithful","notes":[]}}
   ]
 }
