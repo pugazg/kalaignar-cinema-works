@@ -98,11 +98,54 @@ Representative corrections include:
 - scene 28 examination/photo sequence restored, including `நானா`, `பதினாறு`, `இருபத்தினாலு`, and `விரட்டினாகூட`;
 - scene 29 Part-02 portion restored, including `போடலாமென்று துடித்தாள்`, removal of the unsupported inserted `வண்டு`, `சம்மந்தமில்லை`, `சேந்துக்கிறாரு`, `எழுதினா`, and `இன்றைக்கே`.
 
-Scene 29 crosses the transcription-part boundary. Its PDF 34–35 / printed pp.26–27 text is reconciled in this batch; the stored PDF 36 / printed p.28 continuation is intentionally unchanged pending the Part-03 corrected-Markdown pass.
+Scene 29 crosses the transcription-part boundary. Its PDF 34–35 / printed pp.26–27 text was reconciled here; its PDF 36 continuation was subsequently completed during the Part-03 derivative pass described below.
 
-Because exact speaker labels have changed during this pass (`பூமாலை`, `புண்யகோடி`, `குரல்`, `குண்டுமணி`, `சமையல்காரன்`), the existing character-label inventory and entity mapping are known to be stale and will be regenerated after the dialogue reconciliation reaches a stable full-work boundary.
+## PDF 36–63 / printed pp.28–55 — Part 03 derivative reconciliation closure
 
-Character/entity and English/publication derivatives are intentionally not declared synchronized while this 104-page correction pass remains open.
+**Date:** 2026-08-27  
+**Correction witness:** user-supplied `thirumbipaar.md`  
+**Final authority for doubt:** rendered source scan
+
+The canonical Part 03 had already been rebuilt from the corrected Markdown. This pass propagated the corrected text through scene 29's PDF-36 continuation and scenes 30–48.
+
+Important derivative corrections include:
+
+- exact labels such as `பூமாலை`, `புண்யகோடி`, `குரல்`, `குண்டுமணி` and other corrected source forms propagated without renumbering existing dialogue IDs;
+- scene 42 and scene 43 retained as separate source-supported segments;
+- scene 43 remains a legitimate zero-dialogue scene, with its `கலப்படம்` non-dialogue/performance material kept in scene 43 rather than misplaced in scene 42;
+- scene 44's unlabelled speech continuation remains outside the labelled-dialogue records;
+- scene 48's genuine continuation on PDF 64 / printed p.56 was synchronized so the cross-part scene remains complete.
+
+### Scene 41 recovered labelled utterances
+
+Fresh reconciliation proved that the old dialogue extraction omitted two explicitly labelled source utterances. They were added with new stable IDs without renumbering any prior record:
+
+- `tirumbippaar-s041-d037` — `பூமாலை` — `நீ வீட்டிலா இருக்கிறாய்... 'வீடு' என்றாவது உன் வாயால் சொன்னாயே...`
+- `tirumbippaar-s041-d038` — `பரந்தாமன்` — `அக்கா ! உன்னை உணர்ந்துகொண்டேன்...`
+
+Existing `tirumbippaar-s041-d034` retained its ID and now preserves the genuine PDF 56→57 / printed 48→49 break at `அன்பைக் கேட்-` / `காமல் ஐஸ்வரியத்தைக் கேட்கும்...`.
+
+The corrected dialogue total is therefore **1,042** and scene 41 contains **38** records.
+
+## PDF 64–91 / printed pp.56–83 — corrected Markdown canonical reconciliation / Part 04
+
+**Date:** 2026-08-27  
+**Correction witness:** user-supplied `thirumbipaar.md`  
+**Final authority for doubt:** rendered `TVA_BOK_0014652_திரும்பிப்பார்.pdf`
+
+`transcription/parts/part-04-pdf-64-91.md` has now been rebuilt from the corrected Markdown for Play Pages 56–83. Extraction-review prose embedded between source batches was excluded.
+
+Representative corrections / adjudications include:
+
+- `புண்ணகோடி` → `புண்யகோடி` throughout the corrected Part-04 source range;
+- page 57's visibly truncated Markdown extraction around the `குயில்` comparison repaired from the rendered scan rather than copied blindly;
+- extraction-only word splitting such as `இவைகளுக் கெல்லாம்` resolved to the source reading `இவைகளுக்கெல்லாம்`;
+- exact labels such as `குண்டுமணி`, `குரல்`, `II போலீஸ்`, `சப்- இன்ஸ்பெக்டர்`, `வார்டர்`, `வாட்ச்மேன்`, and others retained as printed rather than normalized into entity names;
+- genuine source page splits preserved, including scene 63's `கொஞ்சங்-` on PDF 79 / printed p.71 continuing as `கொஞ்சமா` on PDF 80 / printed p.72;
+- the source's English insertions (`wife`, `Phone`, `yes`, `Failure`, `மாஸ் சைகாலஜி`, etc.) retained rather than translated or standardized;
+- scene 72's long Bama confrontation and scene 74's court speech retained in source order without silent modernization.
+
+The canonical corrected boundary now reaches **PDF 91 / printed p.83**. Scene/dialogue derivatives after scene 48 are still being propagated from this corrected source; character/entity and English/publication layers remain intentionally stale until the Tamil source-layer pass stabilizes.
 
 ## PDF 38 / printed p.30 — scene 31 song title
 
@@ -126,3 +169,5 @@ Direct reinspection of PDF 38 shows the printed reading:
 No dialogue record, character mapping, scene numbering, pagination or page-status count changes.
 
 The subsequent authorship check found a public soundtrack catalog entry titled `Pandiyan En Sollai`, but that external metadata was **not** used to choose or repair the Tamil. The scan itself establishes `பாண்டியன் என் சொல்லை`; the external source is recorded separately only for item-level authorship in `../songs/tracklist-evidence.json`.
+
+Because exact speaker labels and source text have changed during this reconciliation, the existing character/entity and English/publication derivatives are not declared synchronized until their own regeneration/review passes are completed.
