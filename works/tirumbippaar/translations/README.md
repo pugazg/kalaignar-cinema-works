@@ -31,11 +31,11 @@ The historical English pass had been recorded as **93 scenes / 1,321 verified un
 
 ## Current corrected-source reconciliation
 
-The ordinary scene-order pass has now been reconciled through **scene 15**. Scene **41** was reconciled earlier out of order because the Tamil correction pass proved two labelled utterances had been omitted there.
+The ordinary scene-order pass has now been reconciled through **scene 20**. Scene **41** was reconciled earlier out of order because the Tamil correction pass proved two labelled utterances had been omitted there.
 
-### Scenes 1–15
+### Scenes 1–20
 
-Scenes **1–15** have been compared against the corrected scene/dialogue source and marked `corrected-source-reconciled`.
+Scenes **1–20** have been compared against the corrected scene/dialogue source and marked `corrected-source-reconciled`.
 
 Representative material corrections include:
 
@@ -49,9 +49,13 @@ Representative material corrections include:
 - scene 12 restores exact `பூமாலை` metadata and materially corrects `உற்சாகச் சேறு, உல்லாசச் சகதி`, `சூதுவாதறியாத ... சூதாடி`, the `பணம் வீணாகாமல் பாமா பரிணயம்` clause, and the wedding-day question;
 - scene 13 restores `அட்டை மாத்திரந்தான் நல்லா இருக்கா?` as the retort **“Is only the cover good?”**, not the historical suggestion to change the cover;
 - scene 14 removes the unsupported `dear friends` addition from Pandiyan's closing thanks to `அனைவருக்கும்`;
-- scene 15 restores exact `புண்யகோடி` metadata and Punyakodi naming, restores `மேஸ்திரி` as **foreman**, and restores the omitted closing insult `கஞ்சன்.`; its source-unlabelled pocket/laundry speech remains unlabelled.
+- scene 15 restores exact `புண்யகோடி` metadata and Punyakodi naming, restores `மேஸ்திரி` as **foreman**, and restores the omitted closing insult `கஞ்சன்.`; its source-unlabelled pocket/laundry speech remains unlabelled;
+- scene 16 restores Punyakodi naming in the invitation, avoids adding an unprinted daughter-relationship word between Gunaratnam and Bama, and keeps `யார் விட்டார்கள்` as a terse challenge rather than converting it to a future prediction;
+- scene 17 restores `என்னை இப்படி ஏமாற்றினாய்`, `சுந்தர முகம்`, `சூனியக்கார லோகம்`, `சூனியக்காரன்`, and the corrected `எண்பது வயது`; the ornate endearment sequence now follows `அழித்தெழுதா சித்திரமே`, while `கட்டாணி முத்தழகி` is preserved conservatively instead of being replaced by an unsupported image;
+- scene 18 restores exact `புண்யகோடி` metadata and the movement sense of `புறப்படு`; scene 19 restores exact `பூமாலை` / `குண்டுமணி` labels and naming;
+- scene 20 corrects the male `போகிறான்` action, restores exact `பூமாலை` / `குண்டுமணி` metadata, and repairs the rhetorical `நானா தவறு செய்யவில்லை`, the contrast `கண்டவர் ... காணாதவர்`, and the corrected `கள்ளி யொருத்தியைப் பற்றி` reading.
 
-No historical unit IDs were renumbered in scenes 1–15. Source-unlabelled speech remains unlabelled and receives no invented dialogue-record ID or speaker.
+No historical unit IDs were renumbered in scenes 1–20. Source-unlabelled speech remains unlabelled and receives no invented dialogue-record ID or speaker.
 
 ### Scene 41 recovered-source repair
 
@@ -72,7 +76,7 @@ The live English layer currently contains **1,324 units**:
 - **11 written-text units**;
 - **0 reconstructed full-song units**.
 
-All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes 1–15 and 41 are source-reconciled; the remaining historical scene files still require comparison against the corrected Tamil for exact source labels, wording, semantics and structure.
+All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes 1–20 and 41 are source-reconciled; the remaining historical scene files still require comparison against the corrected Tamil for exact source labels, wording, semantics and structure.
 
 ## Cross-page English units
 
@@ -115,4 +119,4 @@ Seven historical translated song references remain linked to source occurrences 
 
 ## Next activity
 
-Continue the ordinary corrected-source English pass with **scene 16 onward**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
+Continue the ordinary corrected-source English pass with **scenes 21–25**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
