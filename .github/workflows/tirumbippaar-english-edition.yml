@@ -13,6 +13,7 @@ on:
       - "works/tirumbippaar/scenes/**"
       - "works/tirumbippaar/editions/en/build.py"
       - "works/tirumbippaar/editions/en/audit_probe.py"
+      - "works/tirumbippaar/editions/en/normalize_source_order.py"
       - "works/tirumbippaar/editions/en/sync_status.py"
       - "works/tirumbippaar/editions/en/package.py"
       - ".github/workflows/tirumbippaar-english-edition.yml"
@@ -38,6 +39,9 @@ jobs:
       - name: Finalize reconciled translation checkpoint
         run: python works/tirumbippaar/editions/en/sync_status.py --prepare-index
 
+      - name: Restore corrected source order for recovered stable-ID units
+        run: python works/tirumbippaar/editions/en/normalize_source_order.py
+
       - name: Run reader preflight diagnostics
         run: python works/tirumbippaar/editions/en/audit_probe.py
 
@@ -57,6 +61,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             works/tirumbippaar/translations/index.json \
+            works/tirumbippaar/translations/records/scene-37.json \
+            works/tirumbippaar/translations/records/scene-39.json \
             works/tirumbippaar/metadata.yaml \
             works/tirumbippaar/editions/en/reader-edition.md \
             works/tirumbippaar/editions/en/reader-edition.html \
