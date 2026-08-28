@@ -42,18 +42,23 @@ jobs:
       - name: Restore corrected source order for recovered stable-ID units
         run: python works/tirumbippaar/editions/en/normalize_source_order.py
 
-      - name: Migrate reader gate to index-authoritative reconciliation status
+      - name: Migrate reader gates to index-authoritative reconciliation status
         run: |
           python - <<'PY'
           from pathlib import Path
           path = Path("works/tirumbippaar/editions/en/build.py")
           text = path.read_text(encoding="utf-8")
-          stale = '        ensure(record.get("reconciliation_status") == "corrected-source-reconciled", f"Scene {scene} reconciliation status mismatch")\n'
-          if stale not in text:
+          stale_scene = '        ensure(record.get("canonical_scene") == scene and record.get("scene_status", record.get("pilot_status")) == "verified", f"Scene {scene} record mismatch")\n'
+          new_scene = '        ensure(record.get("canonical_scene") == scene and record.get("scene_status", record.get("pilot_status")) in {"verified", "corrected-source-reconciled"}, f"Scene {scene} record mismatch")\n'
+          stale_reconciliation = '        ensure(record.get("reconciliation_status") == "corrected-source-reconciled", f"Scene {scene} reconciliation status mismatch")\n'
+          if stale_scene not in text:
+              raise SystemExit("Expected legacy per-file scene-status gate was not found")
+          if stale_reconciliation not in text:
               raise SystemExit("Expected legacy per-file reconciliation gate was not found")
-          text = text.replace(stale, "", 1)
+          text = text.replace(stale_scene, new_scene, 1)
+          text = text.replace(stale_reconciliation, "", 1)
           path.write_text(text, encoding="utf-8")
-          print("Reader build now trusts the reconciled scene status in translations/index.json while retaining per-file verified-state checks")
+          print("Reader build accepts both historical verified and corrected-source-reconciled scene markers while translations/index.json controls reconciliation coverage")
           PY
 
       - name: Run reader preflight diagnostics
