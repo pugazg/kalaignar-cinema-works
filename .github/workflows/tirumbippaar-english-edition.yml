@@ -39,7 +39,7 @@ jobs:
       - name: Finalize reconciled translation checkpoint
         run: python works/tirumbippaar/editions/en/sync_status.py --prepare-index
 
-      - name: Restore corrected source order for recovered stable-ID units
+      - name: Synchronize immutable dialogue metadata and corrected source order
         run: python works/tirumbippaar/editions/en/normalize_source_order.py
 
       - name: Migrate reader gates to index-authoritative reconciliation status
@@ -80,8 +80,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             works/tirumbippaar/translations/index.json \
-            works/tirumbippaar/translations/records/scene-37.json \
-            works/tirumbippaar/translations/records/scene-39.json \
+            works/tirumbippaar/translations/records \
             works/tirumbippaar/metadata.yaml \
             works/tirumbippaar/editions/en/build.py \
             works/tirumbippaar/editions/en/reader-edition.md \
