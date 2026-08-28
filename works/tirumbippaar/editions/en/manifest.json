@@ -2,14 +2,14 @@
   "work_id": "tirumbippaar",
   "edition": "english-reader",
   "status": "complete-verified",
-  "build_version": 4,
+  "build_version": 5,
   "generator": "works/tirumbippaar/editions/en/build.py",
   "source_scan_sha256": "973b9c3f7b84d6a1902a4a472af8799c783bf1ec2d6cd015796fc1df1ce59682",
   "translation_authority": "works/tirumbippaar/translations/records",
   "translation_input_files": 94,
-  "translation_input_aggregate_sha256": "05055fb469730ae89916c595f7dec918f3d3b33692d49c411957776cecb869c0",
+  "translation_input_aggregate_sha256": "e3ba5d1219319c13fd7378dc03f6e15715770a563c827f4284ceed2187f35004",
   "validation_input_files": 188,
-  "validation_input_aggregate_sha256": "b153db8d3c920f8e4051fc9a48f303d3fd8579595842d558760f0ba23e1a09e5",
+  "validation_input_aggregate_sha256": "e3f05b661eab969f0265cb89fd5a6e6ccfaf1c40fb0b8530c00d78cc04ed6c5b",
   "canonical_scenes": [
     1,
     2,
@@ -105,21 +105,21 @@
     92,
     93
   ],
-  "translation_units": 1321,
+  "translation_units": 1330,
   "unit_kind_counts": {
-    "dialogue": 1047,
-    "stage-direction": 254,
+    "dialogue": 1049,
+    "stage-direction": 262,
     "song": 0,
     "song-reference": 7,
     "chant": 2,
-    "written-text": 11
+    "written-text": 10
   },
-  "immutable_dialogue_records_linked": 1040,
+  "immutable_dialogue_records_linked": 1042,
   "direct_source_unlabelled_dialogue_units": [
     "tirumbippaar-en-s005-u026",
     "tirumbippaar-en-s015-u018",
+    "tirumbippaar-en-s034-u012",
     "tirumbippaar-en-s044-u004",
-    "tirumbippaar-en-s051-u003",
     "tirumbippaar-en-s084-u002",
     "tirumbippaar-en-s088-u004",
     "tirumbippaar-en-s091-u014"
@@ -150,20 +150,20 @@
   "qa_status": "PASS",
   "outputs": {
     "reader-edition.md": {
-      "sha256": "95a03c542dbda18d02186b8833df3a62c6def92ceb270c0bf1226ecb64c0e124",
-      "bytes": 231403
+      "sha256": "ec0f2e429f3e368a037aad19b8f6e9f662db3d66068436f6a53cd241ff3c6933",
+      "bytes": 232599
     },
     "reader-edition.html": {
-      "sha256": "e89e198aa9c5138510a698ddfbb27f3c4d3f0e1b4cefbc2f7bbe029cfd19896e",
-      "bytes": 334108
+      "sha256": "635b9a146b33d1c92fcfaa7e670e266540c03507690f618d31fe7eec8306d328",
+      "bytes": 335476
     },
     "reader-edition.json": {
-      "sha256": "ec7c06911b00720893e555b4f9a86895478f5404573caa13f32f0a53058d7a74",
-      "bytes": 879922
+      "sha256": "bf2e236fac38493c39b011164666614a8db222acc2801632c09b3ad1ee2732e1",
+      "bytes": 893100
     },
     "QA_REPORT.md": {
-      "sha256": "ab8068da6fc41909a1e4d660233d624ee8c5d7267305f3beb9a8c4d6d6c7e279",
-      "bytes": 1726
+      "sha256": "1895cb20f20468a21a8ba3ac0267196cc76f3bf3f518de855043b27d56bea433",
+      "bytes": 1860
     }
   }
 }

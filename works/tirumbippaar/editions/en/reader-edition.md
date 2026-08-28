@@ -5,7 +5,7 @@
 **English authority:** `works/tirumbippaar/translations/records/`  
 **Source scan SHA-256:** `973b9c3f7b84d6a1902a4a472af8799c783bf1ec2d6cd015796fc1df1ce59682`
 
-> Editorial note: This edition concatenates the 1,321 verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled. Structural stars are not converted into invented prose.
+> Editorial note: This edition concatenates the 1,330 verified English units in corrected source order without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled. Stable historical unit IDs may therefore appear out of numerical order where source-proven omitted material was later restored. Structural stars are not converted into invented prose.
 
 ## Contents
 
@@ -112,10 +112,10 @@
 
 <!-- unit:tirumbippaar-en-s001-u002; source:PDF 9 / printed 1 -->
 **வக்கீல்**  
-The report in the newspapers saying that Poomaal committed the murder is false! After the investigation, the very shape of the case has changed. There is no basic reason at all why Poomaal should have killed the murdered man. (Poomaal is shown.) From the very beginning, Pandiyan has been the murdered man's bitterest enemy. (Pandiyan is shown.) In family matters and in public life alike, hostility has been growing between the two for many days. That hostility turned into hatred and ended in murder!
+The report in the newspapers saying that Poomalai committed the murder is false! After the investigation, the very shape of the case has changed. There is no basic reason at all why Poomalai should have killed the murdered man. (Poomalai is shown.) From the very beginning, Pandiyan has been the murdered man's bitterest enemy. (Pandiyan is shown.) In family matters and in public life alike, hostility has been growing between the two for many days. That hostility turned into hatred and ended in murder!
 
 <!-- unit:tirumbippaar-en-s001-u003; source:PDF 9 / printed 1 -->
-**பூமால்**  
+**பூமாலை**  
 No. Pandiyan is innocent! He did not commit the murder—did not commit the murder. I alone committed the murder.
 
 <!-- unit:tirumbippaar-en-s001-u004; source:PDF 9 / printed 1 -->
@@ -123,10 +123,10 @@ No. Pandiyan is innocent! He did not commit the murder—did not commit the murd
 
 <!-- unit:tirumbippaar-en-s001-u005; source:PDF 9 / printed 1 -->
 **வக்கீல்**  
-Poomaal is taking the murder charge upon herself because of her affection for Pandiyan—for the sole reason that she does not want to give Pandiyan away.
+Poomalai is taking the murder charge upon herself because of her affection for Pandiyan—for the sole reason that she does not want to give Pandiyan away.
 
 <!-- unit:tirumbippaar-en-s001-u006; source:PDF 9 / printed 1 -->
-**பூமால்**  
+**பூமாலை**  
 No, no. Your Honour! Pandiyan has nothing whatsoever to do with this murder. Please listen to my entire family history!......
 
 <!-- unit:tirumbippaar-en-s001-u007; source:PDF 9 / printed 1 -->
@@ -134,15 +134,15 @@ No, no. Your Honour! Pandiyan has nothing whatsoever to do with this murder. Ple
 What connection is there between this murder case and your family history?
 
 <!-- unit:tirumbippaar-en-s001-u008; source:PDF 9→10 / printed 1→2 -->
-**பூமால்**  
-There is a great deal! As evidence in this case, there is not only that history; there are also witnesses—the hospital watchman, the mill owner and others. Question them too! First listen to my story!
+**பூமாலை**  
+There is a great deal! In support of this case, there is not only that history; there are also witnesses—the hospital watchman, the mill owner and others. Question them too! First listen to my story!
 
 <!-- unit:tirumbippaar-en-s001-u009; source:PDF 10 / printed 2 -->
 **நீதிபதி**  
 Tell me!...
 
 <!-- unit:tirumbippaar-en-s001-u010; source:PDF 10 / printed 2 -->
-**பூமால்**  
+**பூமாலை**  
 Our family lived in Coimbatore! There was a bookshop there! Its name was Garudan Publishing House. It was there!...
 
 ---
@@ -151,10 +151,10 @@ Our family lived in Coimbatore! There was a bookshop there! Its name was Garudan
 
 <!-- unit:tirumbippaar-en-s002-u001; source:PDF 10 / printed 2 -->
 *Song / performance reference*  
-> (Poomaal is teaching seven or eight children moral lessons through song.)
+> (Poomalai is teaching seven or eight children moral lessons through song.)
 
 <!-- unit:tirumbippaar-en-s002-u002; source:PDF 10 / printed 2 -->
-**பூமால்**  
+**பூமாலை**  
 You must come tomorrow morning...
 
 <!-- unit:tirumbippaar-en-s002-u003; source:PDF 10 / printed 2 -->
@@ -162,18 +162,18 @@ You must come tomorrow morning...
 
 <!-- unit:tirumbippaar-en-s002-u004; source:PDF 10 / printed 2 -->
 **பரந்தாமன்**  
-(Coming in, weary from just waking up) Yes, come in the morning! Then you can shout away without letting a man sleep...
+(Coming in with the drowsiness of someone just awakened) Yes, come in the morning! Then you can shout away without letting a man sleep...
 
 <!-- unit:tirumbippaar-en-s002-u005; source:PDF 10 / printed 2 -->
-**பூமால்**  
-Shouting, is it? A child's prattle is sweeter than sugar candy!
+**பூமாலை**  
+You call this shouting? A child's prattle is sweeter than sugar candy!
 
 <!-- unit:tirumbippaar-en-s002-u006; source:PDF 10 / printed 2 -->
 **பரந்தாமன்**  
-Sister! I don't like any of this! Why do you call all these famine-stricken people here? Let them go to some school somewhere...
+Akka! I don't like any of this! Why do you call all these famine-stricken people here? Let them go to some charity school somewhere...
 
 <!-- unit:tirumbippaar-en-s002-u007; source:PDF 10 / printed 2 -->
-**பூமால்**  
+**பூமாலை**  
 I need something to pass the time, brother!
 
 <!-- unit:tirumbippaar-en-s002-u008; source:PDF 10 / printed 2 -->
@@ -181,24 +181,24 @@ I need something to pass the time, brother!
 Are there no ways for women of rich households to pass the time? There are plenty! Badminton, ping-pong, ladies' club, English pictures—so many entertainments.
 
 <!-- unit:tirumbippaar-en-s002-u009; source:PDF 10 / printed 2 -->
-**பூமால்**  
+**பூமாலை**  
 There may be many ways, brother! But shouldn't it be useful to others too?
 
 <!-- unit:tirumbippaar-en-s002-u010; source:PDF 11 / printed 3 -->
 **பரந்தாமன்**  
-All right...your wish! But from now on, don't let people come here just to sleep! This isn't a charity rest house.
+All right...your wish! From now on, even coming to this house just to sleep is a mistake! Aren't there choultries and rest houses for me?
 
 <!-- unit:tirumbippaar-en-s002-u011; source:PDF 11 / printed 3 -->
-**பூமால்**  
-Brother, don't say things like that! The house is as vast as the sea!
+**பூமாலை**  
+Brother, don't say things like that! We have a house as vast as the sea!
 
 <!-- unit:tirumbippaar-en-s002-u012; source:PDF 11 / printed 3 -->
 **பரந்தாமன்**  
-Fine, carry on! Sister! What is money for...to enjoy—life, pleasure, money—they're all three-letter words.
+Fine, keep it that way! Akka! What is money for...to enjoy—life, pleasure, money—all are three-letter words.
 
 <!-- unit:tirumbippaar-en-s002-u013; source:PDF 11 / printed 3 -->
-**பூமால்**  
-Love, service—those too are three-letter words, Paranthaman. Life is necessary, yes. But a life lived for others—that is the pleasure one should want—the pleasure of the heart born from other people's happiness.... ... ...
+**பூமாலை**  
+Love, service—those too are three-letter words, Paranthama. Life is necessary, yes. But a life lived for others—that is the life one needs; pleasure is desirable—the pleasure of the heart that arises from other people's happiness.... ... ...
 
 <!-- unit:tirumbippaar-en-s002-u014; source:PDF 11 / printed 3 -->
 **பரந்தாமன்**  
@@ -208,7 +208,7 @@ Hmm. At this rate, this house will soon become an ashram.
 *(He leaves irritably. Bama's parents arrive.)*
 
 <!-- unit:tirumbippaar-en-s002-u016; source:PDF 11 / printed 3 -->
-**பூமால்**  
+**பூமாலை**  
 Who is it... ... Oh... ... come, come! Sit down! Gundumani! Bring tea!
 
 <!-- unit:tirumbippaar-en-s002-u017; source:PDF 11 / printed 3 -->
@@ -244,38 +244,38 @@ Oh no! This is another nuisance.
 Then I'm happy. The seventh is an auspicious day... ... ...
 
 <!-- unit:tirumbippaar-en-s004-u003; source:PDF 12 / printed 4 -->
-**பூமால்**  
-What does it matter to me which day it is!
+**பூமாலை**  
+What does it matter what day it is!
 
 <!-- unit:tirumbippaar-en-s004-u004; source:PDF 12 / printed 4 -->
 **குணரத்தனம்**  
-No, madam! I have a little faith in the stars.
+No, madam! I have a little faith in auspicious days and stars.
 
 <!-- unit:tirumbippaar-en-s004-u005; source:PDF 12 / printed 4 -->
-**பூமால்**  
-All right, all right... ... what's wrong with that!
+**பூமாலை**  
+All right, all right... ... so what!
 
 <!-- unit:tirumbippaar-en-s004-u006; source:PDF 12 / printed 4 -->
 **தங்கம்**  
 Why haven't you married, dear... ... ...
 
 <!-- unit:tirumbippaar-en-s004-u007; source:PDF 12 / printed 4 -->
-**பூமால்**  
+**பூமாலை**  
 I'm the one responsible for this family, aren't I? My younger brother was brought up in comfort; Father and Mother ordered that the family's hardships should not be placed on him. My elder sister's daughter, who has no father or mother, is studying in Madras; I am her support.
 
 <!-- unit:tirumbippaar-en-s004-u008; source:PDF 12 / printed 4 -->
 **குணரத்தனம்**  
-It is because you are a motherly support to everyone like this that they are looking for your life-partner as someone who will live here with the household!...... ...
+It is because you stand by everyone like a mother that they are looking for a life-partner for you who will live here with the household!...... ...
 
 <!-- unit:tirumbippaar-en-s004-u009; source:PDF 12 / printed 4 -->
 **தங்கம்**  
-Oh dear...you won't find a husband like that... the girl looks like Lakshmi herself!
+Oh dear...you won't find a husband like that... the girl is like Lakshmi herself!
 
 <!-- unit:tirumbippaar-en-s004-u010; source:PDF 12 / printed 4 -->
 *(Paranthaman enters, bathed and dressed.)*
 
 <!-- unit:tirumbippaar-en-s004-u011; source:PDF 12 / printed 4 -->
-**பூமால்**  
+**பூமாலை**  
 Come, brother! Do you know these people? (Paranthaman stares blankly.) Oh! Looks as though you know only their daughter... ... Bama's parents!.
 
 <!-- unit:tirumbippaar-en-s004-u012; source:PDF 12 / printed 4 -->
@@ -283,23 +283,23 @@ Come, brother! Do you know these people? (Paranthaman stares blankly.) Oh! Looks
 Oh! Greetings!
 
 <!-- unit:tirumbippaar-en-s004-u013; source:PDF 12 / printed 4 -->
-**பூமால்**  
-They've come to fix the marriage! Well... ... you agree, don't you... ... ...
+**பூமாலை**  
+They've come to settle the marriage! Well... ... you agree, don't you... ... ...
 
 <!-- unit:tirumbippaar-en-s004-u014; source:PDF 12 / printed 4 -->
 *(Paranthaman is silent, bashful.)*
 
 <!-- unit:tirumbippaar-en-s004-u015; source:PDF 13 / printed 5 -->
 **குணரத்தனம்**  
-Why even ask him that! Is there a child who says it doesn't want a banana?.... Ah, the child.... .... ....
+Why even ask him that! Is there a child who says it doesn't want a banana?
 
 <!-- unit:tirumbippaar-en-s004-u016; source:PDF 13 / printed 5 -->
-**பூமால்**  
-Well, Paranthaman?
+**பூமாலை**  
+What do you say, Paranthama!
 
 <!-- unit:tirumbippaar-en-s004-u017; source:PDF 13 / printed 5 -->
 **பரந்தாமன்**  
-All right, sister!
+All right, Akka!
 
 <!-- unit:tirumbippaar-en-s004-u018; source:PDF 13 / printed 5 -->
 **குணரத்தனம்**  
@@ -310,7 +310,7 @@ Then it's settled. We'll be going. I'm happy. We'll attend to what has to be don
 ## Scene 5
 
 <!-- unit:tirumbippaar-en-s005-u001; source:PDF 13 / printed 5 -->
-*(The sound 'tak, tak' is heard as the publishing house rubber stamp is pressed onto tied parcels and book-post packets.)*
+*(The sound 'tak, tak' is heard as the publishing-house rubber stamp is pressed onto tied parcels and book-post packets.)*
 
 <!-- unit:tirumbippaar-en-s005-u002; source:PDF 13 / printed 5 -->
 **கருடன்**  
@@ -328,11 +328,11 @@ Who is it? Come in.
 
 <!-- unit:tirumbippaar-en-s005-u006; source:PDF 13 / printed 5 -->
 **கருடன்**  
-Who are you...I feel I've seen you somewhere... (suspiciously)
+Who are you...I feel I've seen you somewhere.... (suspiciously)
 
 <!-- unit:tirumbippaar-en-s005-u007; source:PDF 13 / printed 5 -->
 **பாண்டியன்**  
-(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book......
+(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book
 
 <!-- unit:tirumbippaar-en-s005-u008; source:PDF 13 / printed 5 -->
 **கருடன்**  
@@ -342,29 +342,29 @@ No, no...but the cover says the author is Paranthaman!
 **பாண்டியன்**  
 What does the printing machine know of the injustice you commit? I am the one who thought and thought, turned all my red blood into sweat, bore the hardship and laboured for many days to write it—wouldn't I know who wrote it?
 
-<!-- unit:tirumbippaar-en-s005-u010; source:PDF 14 / printed 6 -->
+<!-- unit:tirumbippaar-en-s005-u010; source:PDF 13 / printed 5 -->
 **கருடன்**  
-Here is Paranthaman.
+No—Paranthaman.
 
 <!-- unit:tirumbippaar-en-s005-u011; source:PDF 14 / printed 6 -->
 **பாண்டியன்**  
 Who is this Paranthaman?
 
 <!-- unit:tirumbippaar-en-s005-u012; source:PDF 14 / printed 6 -->
-**குரு**  
+**குரல்**  
 Devotee!
 
 <!-- unit:tirumbippaar-en-s005-u013; source:PDF 14 / printed 6 -->
 **பரந்தாமன்**  
-Why are you getting angry? Why are you agitated—what is it Paranthaman was called for? Who is he?
+Why are you angry? Why are you agitated—what is the matter for which you called Paranthaman? Who is this man?
 
 <!-- unit:tirumbippaar-en-s005-u014; source:PDF 14 / printed 6 -->
 **கருடன்**  
-Pandiyan...
+He says he's Pandiyan.
 
 <!-- unit:tirumbippaar-en-s005-u015; source:PDF 14 / printed 6 -->
 **பரந்தாமன்**  
-Who is he! Pandiyan! The Pandiyan who won the battle of Thalaiyalanganam? Nedunchezhiyan who crossed the Aryan army? You Pandiyan who entered without any weapon of war—who are you, man?
+Who is he! Pandiyan—the Pandiyan who won the battle of Thalaiyalanganam? Nedunchezhiyan who crossed the Aryan army? You Pandiyan who entered without any weapon of war—who are you, man?
 
 <!-- unit:tirumbippaar-en-s005-u016; source:PDF 14 / printed 6 -->
 **பாண்டியன்**  
@@ -372,23 +372,23 @@ Me? Pandiyan—the true author of Illara Jothi, who came to confront a thief of 
 
 <!-- unit:tirumbippaar-en-s005-u017; source:PDF 14 / printed 6 -->
 **பரந்தாமன்**  
-Hm...hm...hm...you are the author of Illara Jothi? Of the book?...Bravo!...Bravo!...
+Ha...ha...ha...you are the author of Illara Jothi? Of the book?...Bravo!...Bravo!...
 
 <!-- unit:tirumbippaar-en-s005-u018; source:PDF 14 / printed 6 -->
 **பாண்டியன்**  
-You took it from me when I was an unpublished writer, committed this dishonesty, and now you laugh to hide it, you thieves. Rather than living by plundering another man's writing, you might as well put a rope around your neck.
+You took it from me saying you would have it printed, committed this dishonesty, and now you laugh to hide it, you thieves. Rather than living by stealing another man's writing, you might as well put a rope around your neck.
 
 <!-- unit:tirumbippaar-en-s005-u019; source:PDF 14 / printed 6 -->
 **பரந்தாமன்**  
-Won't you leave with some respect!...
+Won't you leave respectfully!...
 
 <!-- unit:tirumbippaar-en-s005-u020; source:PDF 14 / printed 6 -->
 **பாண்டியன்**  
-Shame...don't speak! (A slap lands on Paranthaman's cheek.) Respect is for those who have honour, not the shameless! How many people like you have set out like this—to live by exploiting someone else's writing?
+Shame...don't speak! (He slaps Paranthaman on the cheek.) Respect is for others, not for the shameless! How many of you have set out like this, living by exploiting another man's writing?
 
 <!-- unit:tirumbippaar-en-s005-u021; source:PDF 14 / printed 6 -->
 **பையன்**  
-A lot of them have set out like that...go on, sir,
+A lot of them have set out like that...go away, sir.
 
 <!-- unit:tirumbippaar-en-s005-u022; source:PDF 14 / printed 6 -->
 **கருடன்**  
@@ -399,13 +399,13 @@ A lot of them have set out like that...go on, sir,
 
 <!-- unit:tirumbippaar-en-s005-u024; source:PDF 15 / printed 7 -->
 **கருடன்**  
-Shh...keep quiet! What will the youngster think afterward...a fine thing you've done...
+Shh...keep quiet! Otherwise we'll have to count prison bars... Fine thing you've done...
 
 <!-- unit:tirumbippaar-en-s005-u025; source:PDF 15 / printed 7 -->
 *(Saying this, he takes the revolver, puts it in the drawer, closes it, and turns to the boy.)*
 
 <!-- unit:tirumbippaar-en-s005-u026; source:PDF 15 / printed 7 -->
-Hey, boy! Bring another cup of coffee.
+Hey, boy! Bring a hot cup of coffee.
 
 <!-- unit:tirumbippaar-en-s005-u027; source:PDF 15 / printed 7 -->
 *(The boy leaves.)*
@@ -420,15 +420,15 @@ We mustn't let it go...
 
 <!-- unit:tirumbippaar-en-s005-u030; source:PDF 15 / printed 7 -->
 **பரந்தாமன்**  
-Hey...the fact that I was slapped must not get outside!
+Hey, the fact that I was hit mustn't get out!
 
 <!-- unit:tirumbippaar-en-s005-u031; source:PDF 15 / printed 7 -->
 **கருடன்**  
-That's right...I told you even then not to put another man's writing out under your name—you've written the Panjanai book now! Look at the value it has...does Illara Jothi have that? Why get into needless trouble? Ah...letters have come about Panjanai...Who is that ascetic? Can we meet him? Is there a photograph? Is he a born poet or a self-made poet? Does he have a pen in his hand, or a bow in his head? Is there ink in the pen, or only sugarcane juice? That's how they describe you. Nobody describes Illara Jothi that way. Nor does it sell very much.
+That's right...I told you even then not to put another man's writing out under your name—you've written the Panjanai book now! Look at the value it has...does Illara Jothi have that? Why get into needless trouble? Ah...letters have come about Panjanai...Who is that ascetic? Can we meet him? Is there a photograph? Is he a born poet or a self-made poet? Does he have a pen in his hand, or Manmatha's bow? Is there ink in the pen, or sugarcane juice? That's how they describe you. Nobody describes Illara Jothi that way. Nor does it sell very much.
 
 <!-- unit:tirumbippaar-en-s005-u032; source:PDF 15 / printed 7 -->
 **பரந்தாமன்**  
-Even if it was not a commercial success, Illara Jothi has given me a delightful light.
+Even if it was not a commercial success, Illara Jothi has given me a delightful companion.
 
 ---
 
@@ -450,7 +450,7 @@ What kind of mischief is this...
 
 <!-- unit:tirumbippaar-en-s006-u005; source:PDF 16 / printed 8 -->
 **பாமா**  
-The noose meant for the pot missed and fell around my neck,
+The noose that fell on the pot slipped and fell around my neck,
 
 <!-- unit:tirumbippaar-en-s006-u006; source:PDF 16 / printed 8 -->
 **பரந்தாமன்**  
@@ -466,19 +466,19 @@ Don't be afraid! Not with this rope. With a turmeric-dyed marriage cord around y
 
 <!-- unit:tirumbippaar-en-s006-u009; source:PDF 16 / printed 8 -->
 **பாமா**  
-I hope all this doesn't end up being mere description?
+Won't all this end up as mere description?
 
 <!-- unit:tirumbippaar-en-s006-u010; source:PDF 16 / printed 8 -->
 **பரந்தாமன்**  
-Why the doubt! (Putting a hand on her shoulder) I only met you yesterday. Are you afraid that today I touch and play with you, and tomorrow I will run away? You sweet-tongued one! Didn't you read carefully what I wrote in Illara Jothi?
+Why the doubt! (Putting a hand on her shoulder) We were introduced only yesterday. Today I touch you and play with you; are you afraid that tomorrow I may run away? Sweet-tongued one! Haven't you carefully noticed what I wrote in Illara Jothi?
 
 <!-- unit:tirumbippaar-en-s006-u011; source:PDF 16 / printed 8 -->
 **பாமா**  
-Will you live as you wrote?
+Will you act as you wrote?
 
 <!-- unit:tirumbippaar-en-s006-u012; source:PDF 16 / printed 8 -->
 **பரந்தாமன்**  
-(Dismissively) Women are always creatures of suspicion like this.
+(Wearily) Women are creatures of suspicion like this.
 
 <!-- unit:tirumbippaar-en-s006-u013; source:PDF 16 / printed 8 -->
 **பாமா**  
@@ -505,10 +505,10 @@ Marriage. I am fortunate.
 ## Scene 7
 
 <!-- unit:tirumbippaar-en-s007-u001; source:PDF 17 / printed 9 -->
-*(Several women inside are busy with wedding preparations. Kumudha arrives. Poomaal eagerly runs to her—)*
+*(Several women inside are busy with wedding preparations. Kumudha arrives. Poomalai eagerly runs to her—)*
 
 <!-- unit:tirumbippaar-en-s007-u002; source:PDF 17 / printed 9 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha!
 
 <!-- unit:tirumbippaar-en-s007-u003; source:PDF 17 / printed 9 -->
@@ -516,24 +516,24 @@ Kumudha!
 Chinnamma! (They embrace.)
 
 <!-- unit:tirumbippaar-en-s007-u004; source:PDF 17 / printed 9 -->
-**பூமால்**  
+**பூமாலை**  
 Why are you so late, dear?
 
 <!-- unit:tirumbippaar-en-s007-u005; source:PDF 17 / printed 9 -->
 **குமுதா**  
-Exams, Chinnamma. I couldn't come immediately...
+Exams, Chinnamma. I couldn't come at once...
 
 <!-- unit:tirumbippaar-en-s007-u006; source:PDF 17 / printed 9 -->
-**பூமால்**  
-Sit down, Kumudha. I had thought we would marry you to my younger brother...
+**பூமாலை**  
+Sit down, Kumudha. I had thought I would marry you to my younger brother and keep you here in the household...
 
 <!-- unit:tirumbippaar-en-s007-u007; source:PDF 17 / printed 9 -->
-**குணமணி**  
-But by then he had already gone and made it a love marriage.
+**குண்டுமணி**  
+But before that, he already went and had a love marriage.
 
 <!-- unit:tirumbippaar-en-s007-u008; source:PDF 17 / printed 9 -->
 **குமுதா**  
-Hey, Gunamani.
+Hey, Gundumani.
 
 <!-- unit:tirumbippaar-en-s007-u009; source:PDF 17 / printed 9 -->
 *(Paranthaman enters.)*
@@ -544,7 +544,7 @@ Ah! When did Goddess Kumudha arrive?
 
 <!-- unit:tirumbippaar-en-s007-u011; source:PDF 17 / printed 9 -->
 **குமுதா**  
-Uncle, the bridegroom is right under my nose! Tell me, is my aunt fair or dark?
+Uncle, you're still in full bridegroom style! Tell me, is my aunt fair or dark?
 
 <!-- unit:tirumbippaar-en-s007-u012; source:PDF 17 / printed 9 -->
 **பரந்தாமன்**  
@@ -555,11 +555,11 @@ Oh dear...and an educated girl doesn't even know this! Would anyone like a woman
 
 <!-- unit:tirumbippaar-en-s007-u014; source:PDF 18 / printed 10 -->
 **குமுதா**  
-In the excitement of the wedding, poetry is just pouring out of Uncle!
+In the excitement of the wedding, poetry is pouring out of Uncle!
 
 <!-- unit:tirumbippaar-en-s007-u015; source:PDF 18 / printed 10 -->
-**குணமணி**  
-And cover-poetry is pouring out too! (Laughter)
+**குண்டுமணி**  
+And colour poetry is pouring out too! (Laughter)
 
 ---
 
@@ -570,19 +570,19 @@ And cover-poetry is pouring out too! (Laughter)
 Ask the bridegroom to come...
 
 <!-- unit:tirumbippaar-en-s008-u002; source:PDF 18 / printed 10 -->
-*(Poomaal sighs deeply.)*
+*(Poomalai lets out a deep sigh.)*
 
 <!-- unit:tirumbippaar-en-s008-u003; source:PDF 18 / printed 10 -->
 **புரோகிதர்**  
-Where is the bridegroom—the auspicious hour will be missed—quickly—quickly...
+Where is the bridegroom—the auspicious hour will pass—quickly—quickly...
 
 <!-- unit:tirumbippaar-en-s008-u004; source:PDF 18 / printed 10 -->
 **குமுதா**  
-Chinnamma! Uncle is missing.
+Chinnamma! Uncle can't be found.
 
 <!-- unit:tirumbippaar-en-s008-u005; source:PDF 18 / printed 10 -->
-**பூமால்**  
-Ah! He's missing?
+**பூமாலை**  
+Ah! Can't he be found?
 
 <!-- unit:tirumbippaar-en-s008-u006; source:PDF 18 / printed 10 -->
 *(An uproar as they search for the bridegroom.)*
@@ -592,10 +592,10 @@ Ah! He's missing?
 ## Scene 9
 
 <!-- unit:tirumbippaar-en-s009-u001; source:PDF 18 / printed 10 -->
-*(Kumudha runs to Poomaal, who is upstairs, exhausted from searching and looking almost deranged.)*
+*(Kumudha runs to Poomalai, who is upstairs, exhausted from searching and looking as though she is in a daze.)*
 
 <!-- unit:tirumbippaar-en-s009-u002; source:PDF 18 / printed 10 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha!
 
 <!-- unit:tirumbippaar-en-s009-u003; source:PDF 18 / printed 10 -->
@@ -603,7 +603,7 @@ Kumudha!
 Chinnamma!
 
 <!-- unit:tirumbippaar-en-s009-u004; source:PDF 18 / printed 10 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha! What are we to do about this disgrace... Ayyo... (she cries out)
 
 ---
@@ -611,7 +611,7 @@ Kumudha! What are we to do about this disgrace... Ayyo... (she cries out)
 ## Scene 10
 
 <!-- unit:tirumbippaar-en-s010-u001; source:PDF 18 / printed 10 -->
-*(Tears stream from Bama's eyes. The flowing tears fall into her hand. The water that falls into her hand turns into a waterfall. The waterfall becomes a river.)*
+*(Water streams from Bama's eyes. The flowing water falls into her hand. The water that falls into her hand turns into a waterfall. The waterfall becomes a river.)*
 
 ---
 
@@ -629,25 +629,25 @@ Kumudha! What are we to do about this disgrace... Ayyo... (she cries out)
 ## Scene 12
 
 <!-- unit:tirumbippaar-en-s012-u001; source:PDF 19 / printed 11 -->
-*(Poomaal enters the house in anguish. Paranthaman is sitting there.)*
+*(Poomalai enters the house in anguish. Paranthaman is sitting there.)*
 
 <!-- unit:tirumbippaar-en-s012-u002; source:PDF 19 / printed 11 -->
-**பூமால்**  
-Where have you come from....
+**பூமாலை**  
+Where have you come?
 
 <!-- unit:tirumbippaar-en-s012-u003; source:PDF 19 / printed 11 -->
-*(On the handwritten manuscript titled 'Vaazhu' that he has with him, beneath 'Vaazhu' he has written the author name 'Thuravi'.)*
+*(On the handwritten manuscript titled 'Vaazhu' that he has with him, beneath 'Vaazhu' he writes the author name 'Thuravi'.)*
 
 <!-- unit:tirumbippaar-en-s012-u004; source:PDF 19 / printed 11 -->
-**பூமால்**  
-I am asking you—where have you come from...
+**பூமாலை**  
+I am asking you—where have you come...
 
 <!-- unit:tirumbippaar-en-s012-u005; source:PDF 19 / printed 11 -->
 **பரந்தாமன்**  
 I came to my house.
 
 <!-- unit:tirumbippaar-en-s012-u006; source:PDF 19 / printed 11 -->
-**பூமால்**  
+**பூமாலை**  
 You stay in your house—I will leave.
 
 <!-- unit:tirumbippaar-en-s012-u007; source:PDF 19 / printed 11 -->
@@ -655,39 +655,39 @@ You stay in your house—I will leave.
 No one needs to go. I will go myself. I will die. Only then will you be at peace.
 
 <!-- unit:tirumbippaar-en-s012-u008; source:PDF 19 / printed 11 -->
-**பூமால்**  
-Why should you die? You still have to hold swimming games in the flood of how many more women's tears.
+**பூமாலை**  
+Why should you die? You still have to conduct swimming games in the flood of how many more women's tears.
 
 <!-- unit:tirumbippaar-en-s012-u009; source:PDF 19 / printed 11 -->
 **பரந்தாமன்**  
 Enough. After you have hinted that I ought to die, am I going to remain alive? No, no.
 
 <!-- unit:tirumbippaar-en-s012-u010; source:PDF 19 / printed 11 -->
-**பூமால்**  
-Don't frighten me! I know that people whose very aim in life is to roll their bodies in the mire of excitement and the force of revelry are afraid even to think of death.
+**பூமாலை**  
+Don't frighten me. I know that people whose very aim in life is to roll their bodies in the mud of excitement and the mire of pleasure are afraid even to think of death.
 
 <!-- unit:tirumbippaar-en-s012-u011; source:PDF 20 / printed 12 -->
 **பரந்தாமன்**  
 So what exactly are you saying now?
 
 <!-- unit:tirumbippaar-en-s012-u012; source:PDF 20 / printed 12 -->
-**பூமால்**  
-Do I have to say it? The whole town is saying it! It points me out and says, 'There she is—the sister of the reveler who withered the life-dream of a maiden unfamiliar with revelry.' Enough of the pain you have brought me. Father and mother must have told me a thousand times to look after my younger brother properly. I looked after you very properly indeed. Even an animal can be trained, boy...but you simply cannot be reformed......
+**பூமாலை**  
+Do I have to say it? The whole town is saying it! It points me out and says, 'There she is—the sister of the gambler who stole the life of a maiden who knew neither deceit nor guile.' Enough of the pain you have brought me. Father and mother must have told me a thousand times to look after my younger brother properly. I looked after you very properly indeed. Even an animal can be trained, my boy...but you simply cannot be reformed.
 
 <!-- unit:tirumbippaar-en-s012-u013; source:PDF 20 / printed 12 -->
 **பரந்தாமன்**  
-What do you know of my situation—you will cry. The town will see it and say, 'The sister is good, the brother is bad.' Your Mukhari lament will win a complete victory... Your worry is that the wedding has stopped, that all the things bought for the feast have gone to waste, that the money given to the wedding-pandal man is lost; that the wealth already spent can never be gathered again. But only I know what my mind would have suffered after the Bama marriage had gone through, even if the money was wasted. How would you know? Are father and mother here to worry about me?
+What do you know of my situation—you will cry. The town will see it and say, 'The sister is good, the brother is bad.' Your Mukhari will win a complete victory... Your worry is that the wedding has stopped, that the many things bought for the feast have gone to waste, that the money given to the wedding-pandal man is lost, and whether the wealth already spent can ever be gathered again. But only I know the torment my mind would have suffered afterward if the Bama marriage had been completed without the money going to waste. How would you know? Are father and mother here to worry about me?
 
 <!-- unit:tirumbippaar-en-s012-u014; source:PDF 20 / printed 12 -->
-**பூமால்**  
-Brother, don't say things like that. You ran away on the day of my wedding.
+**பூமாலை**  
+Brother, don't say things like that. Why did you run away on the wedding day?
 
 <!-- unit:tirumbippaar-en-s012-u015; source:PDF 20 / printed 12 -->
 **பரந்தாமன்**  
 Bama is not pure. I trusted her and was deceived......
 
 <!-- unit:tirumbippaar-en-s012-u016; source:PDF 20 / printed 12 -->
-**பூமால்**  
+**பூமாலை**  
 That cannot be—someone has told you something false. Bama is pure gold of the finest touch.
 
 <!-- unit:tirumbippaar-en-s012-u017; source:PDF 20 / printed 12 -->
@@ -695,34 +695,34 @@ That cannot be—someone has told you something false. Bama is pure gold of the 
 Not gold—brass plated with gold.
 
 <!-- unit:tirumbippaar-en-s012-u018; source:PDF 20 / printed 12 -->
-**பூமால்**  
-I cannot believe it. You are inventing a reason for your own fault...
+**பூமாலை**  
+I cannot believe it. You are inventing a reason for your own fault.
 
 <!-- unit:tirumbippaar-en-s012-u019; source:PDF 21 / printed 13 -->
 **பரந்தாமன்**  
 (Firmly) Then don't believe it. I don't like marriage. That is all...
 
 <!-- unit:tirumbippaar-en-s012-u020; source:PDF 21 / printed 13 -->
-**பூமால்**  
+**பூமாலை**  
 This enlightenment should have dawned earlier.
 
 <!-- unit:tirumbippaar-en-s012-u021; source:PDF 21 / printed 13 -->
 **பரந்தாமன்**  
-Even for very great men, it dawned only later. Am I ordinary......
+Even for very great men, it dawned only later. Am I ordinary...
 
 <!-- unit:tirumbippaar-en-s012-u022; source:PDF 21 / printed 13 -->
 *(He takes the 'Vaazhu' book and leaves.)*
 
 <!-- unit:tirumbippaar-en-s012-u023; source:PDF 21 / printed 13 -->
-*(The children who come for lessons run up to Poomaal.)*
+*(The children who come for lessons run up to Poomalai.)*
 
 <!-- unit:tirumbippaar-en-s012-u024; source:PDF 21 / printed 13 -->
 **ஒரு குழந்தை**  
 Sister, sister. Ambujam says a dog's tail cannot be straightened. Is that really true, sister?
 
 <!-- unit:tirumbippaar-en-s012-u025; source:PDF 21 / printed 13 -->
-**பூமால்**  
-Yes, all right. Come, let us study...
+**பூமாலை**  
+Yes. All right, come, let us study.
 
 ---
 
@@ -750,11 +750,11 @@ The cover, sir.
 
 <!-- unit:tirumbippaar-en-s013-u006; source:PDF 21 / printed 13 -->
 **கருடன்**  
-Tch! Would it be good if the cover were changed? The printing too is gem-like.
+Tch! Is only the cover good? The printing too is gem-like.
 
 <!-- unit:tirumbippaar-en-s013-u007; source:PDF 21 / printed 13 -->
 **பரந்தாமன்**  
-Garuda! I did not ask for criticism of the printing or the cover; I am asking how the advice I have given is.
+Garuda! I did not ask for criticism of how the printing is or how the cover is; I am asking how the advice I have given is.
 
 <!-- unit:tirumbippaar-en-s013-u008; source:PDF 21 / printed 13 -->
 **கருடன்**  
@@ -776,21 +776,21 @@ Ah! Do you even have to ask about that...
 
 <!-- unit:tirumbippaar-en-s014-u003; source:PDF 22 / printed 14 -->
 **பாண்டியன்**  
-Comrades! Greetings! A few writers have sprung up merely to spread needless and harmful ideas in the country through obscene style and meaningless chains of phrases. Recently a book titled 'Vaazhu' has been published. Its author says that man is born into the world only for his own playful pleasures. I wrote the book 'Vaazhu Vaazha Vidu'—'Live and Let Live'—to show that both the doctrine of 'Live' and the dry philosophy of 'Do not live; life itself is illusion' are wrong. I made it into a play as well. 'Live' is selfishness. 'Do not live' is ignorance. 'Live and Let Live' is rationalism. With your support, this truth must triumph. My thanks and greetings to the dear friends who have come to the play.
+Comrades! Greetings! A few writers have sprung up merely to spread needless, harmful ideas in the country through obscene style and meaningless chains of phrases. Recently a book titled 'Vaazhu' has been published. Its author says that man is born into the world only for his own playful pleasures. I wrote the book 'Vaazhu Vaazha Vidu'—'Live and Let Live'—to show that both the doctrine of 'Live' and the barren philosophy of 'Do not live; life itself is illusion' are wrong. I made it into a play as well. 'Live' is selfishness. 'Do not live' is ignorance. 'Live and Let Live' is rationalism. With your support, this truth must triumph. My thanks and greetings to everyone who has come to the play.
 
 ---
 
 ## Scene 15
 
 <!-- unit:tirumbippaar-en-s015-u001; source:PDF 22 / printed 14 -->
-*(There is a knock at the door. Pandiyan opens it; Punnakodi comes inside.)*
+*(There is a knock at the door. Pandiyan opens it; Punyakodi comes inside.)*
 
 <!-- unit:tirumbippaar-en-s015-u002; source:PDF 22 / printed 14 -->
 **பாண்டியன்**  
 Father, where had you gone?
 
 <!-- unit:tirumbippaar-en-s015-u003; source:PDF 22 / printed 14 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 It was all for a good matter.
 
 <!-- unit:tirumbippaar-en-s015-u004; source:PDF 22 / printed 14 -->
@@ -801,7 +801,7 @@ It was all for a good matter.
 Why didn't you come to the play, father? The play was really excellent.
 
 <!-- unit:tirumbippaar-en-s015-u006; source:PDF 22 / printed 14 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I heard.
 
 <!-- unit:tirumbippaar-en-s015-u007; source:PDF 23 / printed 15 -->
@@ -809,15 +809,15 @@ I heard.
 Who told you, father?
 
 <!-- unit:tirumbippaar-en-s015-u008; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 All our mill workers had come, hadn't they? They told me!
 
 <!-- unit:tirumbippaar-en-s015-u009; source:PDF 23 / printed 15 -->
 **பாண்டியன்**  
-The mill workers were able to come. The superior officer couldn't come, could he, father?
+The mill workers were able to come. The foreman couldn't come, could he, father?
 
 <!-- unit:tirumbippaar-en-s015-u010; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Don't be angry! I too had gone all the way to town on a matter concerning you......
 
 <!-- unit:tirumbippaar-en-s015-u011; source:PDF 23 / printed 15 -->
@@ -825,7 +825,7 @@ Don't be angry! I too had gone all the way to town on a matter concerning you...
 What matter, father!
 
 <!-- unit:tirumbippaar-en-s015-u012; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I have arranged your marriage.
 
 <!-- unit:tirumbippaar-en-s015-u013; source:PDF 23 / printed 15 -->
@@ -833,7 +833,7 @@ I have arranged your marriage.
 Why marriage for me now? Let me first get some steady job......
 
 <!-- unit:tirumbippaar-en-s015-u014; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 The work you have is enough! A writer's work is steady work, isn't it? Look here, son! It is a very good match...and the girl is very beautiful! Don't refuse—marry her...
 
 <!-- unit:tirumbippaar-en-s015-u015; source:PDF 23 / printed 15 -->
@@ -841,17 +841,17 @@ The work you have is enough! A writer's work is steady work, isn't it? Look here
 Shouldn't I see the girl, father?
 
 <!-- unit:tirumbippaar-en-s015-u016; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I know all about you! That is why I brought the photograph.
 
 <!-- unit:tirumbippaar-en-s015-u017; source:PDF 23 / printed 15 -->
 *(He searches the pocket of his coat.)*
 
 <!-- unit:tirumbippaar-en-s015-u018; source:PDF 23 / printed 15 -->
-What is this—does he eat one pocket with every wash?...... (He takes out the photograph and gives it.)
+What is this—does he eat one pocket with every wash? (He takes out the photograph and gives it.)
 
 <!-- unit:tirumbippaar-en-s015-u019; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Well, what do you say?
 
 <!-- unit:tirumbippaar-en-s015-u020; source:PDF 23 / printed 15 -->
@@ -859,15 +859,15 @@ Well, what do you say?
 As you wish.
 
 <!-- unit:tirumbippaar-en-s015-u021; source:PDF 23 / printed 15 -->
-**புண்ணகோடி**  
-That's the way to say it, my king! Tomorrow itself I will go to the mill owner and ask for a little money for the wedding. (Angrily) As if he is going to give it.
+**புண்யகோடி**  
+That's the way to say it, my king! Tomorrow itself I will go to the mill owner and ask for a little money for the wedding. (Angrily) As if he is going to give it. Miser.
 
 <!-- unit:tirumbippaar-en-s015-u022; source:PDF 24 / printed 16 -->
 **பாண்டியன்**  
 I have money myself, father!
 
 <!-- unit:tirumbippaar-en-s015-u023; source:PDF 24 / printed 16 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Then we can hold the wedding soon.
 
 <!-- unit:tirumbippaar-en-s015-u024; source:PDF 24 / printed 16 -->
@@ -882,14 +882,14 @@ Then we can hold the wedding soon.
 
 <!-- unit:tirumbippaar-en-s016-u002; source:PDF 24 / printed 16 -->
 **கருடன்**  
-The wedding of writer Pandiyan, son of Punnakodi, foreman at Sivasakthi Mills, Singanallur, and Miss Bama, daughter of Coimbatore merchant Gunaratnam, will be celebrated grandly at the bride's residence. You and your family....
+The wedding of writer Pandiyan, son of Punyakodi, foreman at Sivasakthi Mills, Singanallur, and Miss Bama of Coimbatore merchant Gunaratnam, will be celebrated grandly at the bride's residence. You and your family....
 
 <!-- unit:tirumbippaar-en-s016-u003; source:PDF 24 / printed 16 -->
 *(Paranthaman abruptly snatches the invitation, crumples it and throws it away.)*
 
 <!-- unit:tirumbippaar-en-s016-u004; source:PDF 24 / printed 16 -->
 **கருடன்**  
-That fellow Pandiyan keeps interfering in our affairs. The other day he staged some play and mocked our principles. And today, the woman we were supposed to marry....
+That fellow Pandiyan keeps interfering in our affairs. The other day he staged a play and mocked our doctrine. And today, the woman we were supposed to marry....
 
 <!-- unit:tirumbippaar-en-s016-u005; source:PDF 24 / printed 16 -->
 **பரந்தாமன்**  
@@ -901,7 +901,7 @@ No. The woman you were supposed to marry....
 
 <!-- unit:tirumbippaar-en-s016-u007; source:PDF 24 / printed 16 -->
 **பரந்தாமன்**  
-Who is going to let that happen?
+Who allowed that?
 
 ---
 
@@ -923,7 +923,7 @@ What is this outrage? I don't understand anything. Please go away....
 
 <!-- unit:tirumbippaar-en-s017-u005; source:PDF 25 / printed 17 -->
 **பரந்தாமன்**  
-Shh...don't make a noise! The people sleeping will wake up. Bama, look at me! Won't you look at me!... My Bama, why are you changing like this!...
+Shh...don't make a noise! The people sleeping will wake up. Bama, look at me! Won't you look at me?..... Why, Bama, did you deceive me like this?...
 
 <!-- unit:tirumbippaar-en-s017-u006; source:PDF 25 / printed 17 -->
 **பாமா**  
@@ -931,7 +931,7 @@ Deceiving people is not my profession.
 
 <!-- unit:tirumbippaar-en-s017-u007; source:PDF 25 / printed 17 -->
 **பரந்தாமன்**  
-Quite right... Your lover disappeared on the wedding day. Without worrying at all about where he went or what happened to him, you hurriedly chose the next lover...an innocent who knows nothing! And I am the deceiver—isn't that it?....
+Quite right... Your lover disappeared on the wedding day. Without worrying at all about where he went or what happened to him, you hurriedly chose the next lover...an innocent who knows nothing! And I am the deceiver—isn't that it?...
 
 <!-- unit:tirumbippaar-en-s017-u008; source:PDF 25 / printed 17 -->
 **பாமா**  
@@ -939,7 +939,7 @@ Where did you go? From this world to heaven?....
 
 <!-- unit:tirumbippaar-en-s017-u009; source:PDF 25 / printed 17 -->
 **பரந்தாமன்**  
-Even if I had gone to heaven, I would have cast aside Tilottama who enchants there, Menaka of bewitching speech, every one of them, and leapt down from the sky thinking of your conch-like face. I went to a world of childish fools, Bama! A trickster deceived me, Bama!
+Even if I had gone to heaven, I would have cast aside Tilottama who enchants there, Menaka of bewitching speech, every one of them, and leapt down from the sky thinking of your beautiful face. I went to a sorcerer's world, Bama! A sorcerer deceived me, Bama!
 
 <!-- unit:tirumbippaar-en-s017-u010; source:PDF 25 / printed 17 -->
 **பாமா**  
@@ -947,7 +947,7 @@ What are you saying!
 
 <!-- unit:tirumbippaar-en-s017-u011; source:PDF 25 / printed 17 -->
 **பரந்தாமன்**  
-Some magician...said there was a kayakalpa medicine to eat, and that if one ate it youth would not change until the age of eighty. I believed him and ate it. I thought of buying some for you too. He took me somewhere. He stole the ten thousand rupees I had and the diamond necklace I had bought for you, and disappeared somewhere.
+Some magician...said there was a kayakalpa remedy to eat, and that if one ate it youth would not change until the age of eighty. I believed him and ate it. I thought of buying some for you too. He took me somewhere. He stole the ten thousand rupees I had and the diamond necklace I had bought for you, and disappeared somewhere.
 
 <!-- unit:tirumbippaar-en-s017-u012; source:PDF 25 / printed 17 -->
 **பாமா**  
@@ -955,7 +955,7 @@ Didn't you tell the police?
 
 <!-- unit:tirumbippaar-en-s017-u013; source:PDF 26 / printed 18 -->
 **பரந்தாமன்**  
-How could I tell the outside world of this disgrace! Broken-hearted, I wandered about and came here...... And when I arrived, you had made another plan for your life...Bama! I was the one who was deceived, wasn't I? Yet you have become a greater deceiver than that magician, Bama!....
+How could I tell the outside world of this disgrace! Broken-hearted, I wandered about and came here. And when I arrived, you had made another plan for your life...Bama! I was the one who was deceived, wasn't I? Yet you have become a greater deceiver than that magician, Bama!....
 
 <!-- unit:tirumbippaar-en-s017-u014; source:PDF 26 / printed 18 -->
 **பாமா**  
@@ -979,7 +979,7 @@ What way? (She cries.)
 
 <!-- unit:tirumbippaar-en-s017-u019; source:PDF 26 / printed 18 -->
 **பரந்தாமன்**  
-Don't cry! Queen of love! Adorned sacred image of a jewel-beautiful palace! A picture not painted even with nectar—a swaying golden lamp! Pearl-faced beauty! Eye-catching gem! If there are tears in your eyes, my heart is shaken! Don't cry, Bama!.... Don't cry!
+Don't cry! Queen of love! Ornamental sacred form of the jewel-palace of beauty! Picture that cannot be erased and redrawn—a swaying golden lamp! Kattani-pearl beauty! Eye-catching gem! If there are tears in your eyes, my heart is shaken, alas! Don't cry, Bama!.... Don't cry!
 
 <!-- unit:tirumbippaar-en-s017-u020; source:PDF 26 / printed 18 -->
 **பாமா**  
@@ -1005,57 +1005,57 @@ Listen, my gold! Write a letter to your father. 'I do not like the marriage—I 
 *(Pandiyan is happy that he is going to marry Bama. Outside, preparations are under way for the bridegroom's procession. Inside—)*
 
 <!-- unit:tirumbippaar-en-s018-u002; source:PDF 27 / printed 19 -->
-**புண்ணகோடி**  
-Get ready quickly, son! Everything is ready.
+**புண்யகோடி**  
+Set out quickly, son! Everything is ready.
 
 <!-- unit:tirumbippaar-en-s018-u003; source:PDF 27 / printed 19 -->
 **பாண்டியன்**  
-Do we need a procession, father? Somehow I don't like it!
+Do we need a procession, father? Somehow I don't like it.
 
 <!-- unit:tirumbippaar-en-s018-u004; source:PDF 27 / printed 19 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Oh, forget that! No procession at all? Are we going to call this person and that person and arrange a concert? Can't we at least have a simple bridegroom's procession with a little ceremony? The girl isn't going to be beside you—why are you shy?
 
 <!-- unit:tirumbippaar-en-s018-u005; source:PDF 27 / printed 19 -->
-*(The band suddenly stops. A man tells Punnakodi in his ear that the bride has run away. Pandiyan is stunned.)*
+*(The band suddenly stops. A man tells Punyakodi in his ear that the bride has run away. Pandiyan is stunned.)*
 
 ---
 
 ## Scene 19
 
 <!-- unit:tirumbippaar-en-s019-u001; source:PDF 27 / printed 19 -->
-*(Poomaal is making preparations to leave town. A girl who studies under her comes to her.)*
+*(Poomalai is making preparations to leave town. A girl who studies under her comes to her.)*
 
 <!-- unit:tirumbippaar-en-s019-u002; source:PDF 27 / printed 19 -->
 **பெண்**  
 Why are you going to the city, amma?...
 
 <!-- unit:tirumbippaar-en-s019-u003; source:PDF 27 / printed 19 -->
-**பூமால்**  
-Kumudha's examination result will be known in two days. I am going to bring her back....
+**பூமாலை**  
+Kumudha's examination result will be known in two days. I am going to bring her back.
 
 <!-- unit:tirumbippaar-en-s019-u004; source:PDF 27 / printed 19 -->
-**குணமணி**  
+**குண்டுமணி**  
 (Coming in) Amma! Amma! Do you know what happened! The girl chosen for our young master......
 
 <!-- unit:tirumbippaar-en-s019-u005; source:PDF 27 / printed 19 -->
-**பூமால்**  
+**பூமாலை**  
 The wedding is today. What about it?
 
 <!-- unit:tirumbippaar-en-s019-u006; source:PDF 27 / printed 19 -->
-**குணமணி**  
+**குண்டுமணி**  
 They say the girl ran away last night!
 
 <!-- unit:tirumbippaar-en-s019-u007; source:PDF 27 / printed 19 -->
-**பூமால்**  
+**பூமாலை**  
 Is that so! (Thinking) Hmm...where is Paranthaman?
 
 <!-- unit:tirumbippaar-en-s019-u008; source:PDF 28 / printed 20 -->
-**குணமணி**  
+**குண்டுமணி**  
 He...he...hmm...he was telling Garudan that he too had to go to Madras.
 
 <!-- unit:tirumbippaar-en-s019-u009; source:PDF 28 / printed 20 -->
-**பூமால்**  
+**பூமாலை**  
 (Thoughtfully) Hmm...all right, get going. It's time for the train.
 
 ---
@@ -1063,17 +1063,17 @@ He...he...hmm...he was telling Garudan that he too had to go to Madras.
 ## Scene 20
 
 <!-- unit:tirumbippaar-en-s020-u001; source:PDF 28 / printed 20 -->
-*(Poomaal is seated in the train.)*
+*(Poomalai is seated in the train.)*
 
 <!-- unit:tirumbippaar-en-s020-u002; source:PDF 28 / printed 20 -->
-**குணமணி**  
+**குண்டுமணி**  
 Amma! Then I'll get into the next carriage.
 
 <!-- unit:tirumbippaar-en-s020-u003; source:PDF 28 / printed 20 -->
-*(She leaves. Pandiyan comes and gets into the same carriage. From the book he wrote, 'Vaazhu Vaazha Vidu,' Poomaal recognizes who he is. Then she takes out the tiffin.)*
+*(He leaves. Pandiyan comes and gets into the same carriage. From the book he wrote, 'Vaazhu Vaazha Vidu,' Poomalai recognizes who he is. Then she takes out the tiffin.)*
 
 <!-- unit:tirumbippaar-en-s020-u004; source:PDF 28 / printed 20 -->
-**பூமால்**  
+**பூமாலை**  
 Please eat....
 
 <!-- unit:tirumbippaar-en-s020-u005; source:PDF 28 / printed 20 -->
@@ -1081,7 +1081,7 @@ Please eat....
 No, thank you.
 
 <!-- unit:tirumbippaar-en-s020-u006; source:PDF 28 / printed 20 -->
-**பூமால்**  
+**பூமாலை**  
 Have a little.
 
 <!-- unit:tirumbippaar-en-s020-u007; source:PDF 28 / printed 20 -->
@@ -1089,31 +1089,31 @@ Have a little.
 Many thanks! You eat!....
 
 <!-- unit:tirumbippaar-en-s020-u008; source:PDF 28 / printed 20 -->
-**பூமால்**  
+**பூமாலை**  
 Which town are you going to?
 
 <!-- unit:tirumbippaar-en-s020-u009; source:PDF 28 / printed 20 -->
 **பாண்டியன்**  
-I...I don't know myself.
+Me? I don't know myself.
 
 <!-- unit:tirumbippaar-en-s020-u010; source:PDF 28 / printed 20 -->
-**பூமால்**  
-You are in great anguish. Such things are common in the world. You should not take them to heart....
+**பூமாலை**  
+You are in great anguish. Such things are common in the world. You should not take them to heart.
 
 <!-- unit:tirumbippaar-en-s020-u011; source:PDF 28 / printed 20 -->
 **பாண்டியன்**  
 Do you know me!...
 
 <!-- unit:tirumbippaar-en-s020-u012; source:PDF 28 / printed 20 -->
-**பூமால்**  
+**பூமாலை**  
 I do...here... (She shows the book.)
 
 <!-- unit:tirumbippaar-en-s020-u013; source:PDF 28 / printed 20 -->
 **பாண்டியன்**  
-(Lowering his head) What a disgrace...alas....
+(Lowering his head) What a disgrace, ayyo....
 
 <!-- unit:tirumbippaar-en-s020-u014; source:PDF 28 / printed 20 -->
-**பூமால்**  
+**பூமாலை**  
 Don't be distressed.
 
 <!-- unit:tirumbippaar-en-s020-u015; source:PDF 28 / printed 20 -->
@@ -1121,23 +1121,23 @@ Don't be distressed.
 Can you understand my whole story?
 
 <!-- unit:tirumbippaar-en-s020-u016; source:PDF 29 / printed 21 -->
-**பூமால்**  
+**பூமாலை**  
 (Uneasily) I understand. You, who should have been a bridegroom today......
 
 <!-- unit:tirumbippaar-en-s020-u017; source:PDF 29 / printed 21 -->
 **பாண்டியன்**  
-Enough...I should never show my face to the world again!
+Enough. I should never show my face to the world again!
 
 <!-- unit:tirumbippaar-en-s020-u018; source:PDF 29 / printed 21 -->
-**பூமால்**  
+**பூமாலை**  
 But you have done nothing wrong.
 
 <!-- unit:tirumbippaar-en-s020-u019; source:PDF 29 / printed 21 -->
 **பாண்டியன்**  
-I did nothing wrong. I, who lived bound by honour and self-respect, have today become a symbol of disgrace because of my foolishness. For everyone who sees me to spit in contempt, for those who behold me to mock me—though I had eyes I was blind, though I had ears I was deaf. Without thoroughly enquiring about that cactus-like woman, I dressed myself up as a bridegroom and came running like a fool. I did nothing wrong.
+Me? I did nothing wrong? I, who lived bound by honour and self-respect, have today become a symbol of disgrace because of my foolishness. Those who see me spit in contempt; those who have not seen me mock me. Though I had eyes I was blind, though I had ears I was deaf. Without thoroughly enquiring about a deceitful woman, I dressed myself up as a bridegroom and came running like a fool. Me? I did nothing wrong?
 
 <!-- unit:tirumbippaar-en-s020-u020; source:PDF 29 / printed 21 -->
-**பூமால்**  
+**பூமாலை**  
 Be quiet now. Come to Madras and take a little rest at our house.
 
 <!-- unit:tirumbippaar-en-s020-u021; source:PDF 29 / printed 21 -->
@@ -1152,43 +1152,43 @@ Rest? No rest can drive away this pain.
 ## Scene 21
 
 <!-- unit:tirumbippaar-en-s021-u001; source:PDF 29 / printed 21 -->
-**சமையல்காரி**  
-Amma! Chinnamma, come!
-
-<!-- unit:tirumbippaar-en-s021-u002; source:PDF 29 / printed 21 -->
-*(Kumudha comes running.)*
+**சமையல்காரன்**  
+Amma! Chinnamma is coming!
 
 <!-- unit:tirumbippaar-en-s021-u003; source:PDF 29 / printed 21 -->
 **குமுதா**  
 Chinnamma!
 
+<!-- unit:tirumbippaar-en-s021-u002; source:PDF 29 / printed 21 -->
+*(Kumudha comes running.)*
+
 <!-- unit:tirumbippaar-en-s021-u004; source:PDF 29 / printed 21 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha! (They embrace.)
 
 <!-- unit:tirumbippaar-en-s021-u005; source:PDF 29 / printed 21 -->
 **குமுதா**  
-(Looking at Pandiyan) Chinnamma, he is...
+(Looking at Pandiyan) Chinnamma, this gentleman...
 
 <!-- unit:tirumbippaar-en-s021-u006; source:PDF 29 / printed 21 -->
-**பூமால்**  
+**பூமாலை**  
 Would you know if I told you?
 
 <!-- unit:tirumbippaar-en-s021-u007; source:PDF 29 / printed 21 -->
 **குமுதா**  
-I know without being told. The author of 'Vaazhu, Vaazha Vidu.' Your name is Pandiyan, isn't it?
+I know without being told. 'Vaazhu, Vaazha Vidu'—forgive me. Your name is Pandiyan, isn't it?
 
 <!-- unit:tirumbippaar-en-s021-u008; source:PDF 29 / printed 21 -->
 **பாண்டியன்**  
 Yes.
 
 <!-- unit:tirumbippaar-en-s021-u009; source:PDF 30 / printed 22 -->
-**சமையல்காரி**  
-Who? That Pandiyan who killed Kovalan?...
+**சமையல்காரன்**  
+Who, sir? That Pandiyan who killed Kovalan?...
 
 <!-- unit:tirumbippaar-en-s021-u010; source:PDF 30 / printed 22 -->
-**குணமணி**  
-Of course...Soundara Pandiyan. Just look at the man!...
+**குண்டுமணி**  
+Yes indeed...Soundara Pandiyan. Just look at the man!...
 
 <!-- unit:tirumbippaar-en-s021-u011; source:PDF 30 / printed 22 -->
 **குமுதா**  
@@ -1200,15 +1200,15 @@ Come, first let's have coffee....
 
 <!-- unit:tirumbippaar-en-s022-u001; source:PDF 30 / printed 22 -->
 **பாமா**  
-How many days can we stay in a hotel? Find a house quickly.
+How many days are we to stay in a hotel? Find a house soon.
 
 <!-- unit:tirumbippaar-en-s022-u002; source:PDF 30 / printed 22 -->
 **பரந்தாமன்**  
-Let the house-hunting wait.... Come, at least today let's go around and see the city.
+Let the house-hunting wait... Come, at least today let's go around and see the city.
 
 <!-- unit:tirumbippaar-en-s022-u003; source:PDF 30 / printed 22 -->
 **பாமா**  
-Uh-uh...first we must start our family life.
+Uh-uh...first we must start a family.
 
 <!-- unit:tirumbippaar-en-s022-u004; source:PDF 30 / printed 22 -->
 **பரந்தாமன்**  
@@ -1220,7 +1220,10 @@ What is there in Chennai?
 
 <!-- unit:tirumbippaar-en-s022-u006; source:PDF 30 / printed 22 -->
 **பரந்தாமன்**  
-What is there in Chennai? They tell story after story about Kannagi Salai. They say the lighthouse gleams in the sun. Eyes that have not seen the zoo and Marina beach are sinful eyes, they say. Hmm...come! Queen of my love, ornamental divine form of the mansion of beauty, picture that even nectar could not paint. Come, let's go. (They leave.)
+What is there in Chennai? They tell story after story about the exhibition hall. They say the lighthouse puts even the sun to shame. Eyes that have not seen the zoo and Marina beach are sinful eyes, they say. Hmm...come! Queen of love, adorned sacred image of a jewel-beautiful palace, indelible picture. Come.
+
+<!-- unit:tirumbippaar-en-s022-u007; source:PDF 30 / printed 22 -->
+*(They leave.)*
 
 ---
 
@@ -1262,14 +1265,14 @@ Many people never understand that.
 ## Scene 25
 
 <!-- unit:tirumbippaar-en-s025-u001; source:PDF 31 / printed 23 -->
-*(While Damayanti slept, in the middle of the night I deceived her, betrayed her, tore away half her sari and set off running! I went, I went, leaving that virtuous woman to suffer. He went—he went away altogether.)*
+*(While Damayanti slept, in the middle of the night Nala deceived her, betrayed her, tore off half her sari and set off running! He went, he went, leaving that virtuous woman to suffer. He went—he went away altogether.)*
 
 <!-- unit:tirumbippaar-en-s025-u002; source:PDF 31 / printed 23 -->
-*(In the same way, Paranthaman follows Nala and goes away, leaving Bama to suffer. Bama is bewildered when she cannot find Paranthaman.)*
+*(In the same way, following Nala, Paranthaman goes away leaving Bama to suffer. Bama is bewildered when she cannot find Paranthaman.)*
 
 <!-- unit:tirumbippaar-en-s025-u003; source:PDF 31 / printed 23 -->
 *Written text*  
-> Would the wickedness of abandoning one's beloved in the forest, in pitch darkness, be enough for kings?...
+> Was abandoning the beloved in the forest, in pitch darkness, not enough for the king?...
 
 ---
 
@@ -1279,7 +1282,7 @@ Many people never understand that.
 *(Bama runs.)*
 
 <!-- unit:tirumbippaar-en-s026-u002; source:PDF 31→32 / printed 23→24 -->
-*(Bama became like a madwoman, a figure deserving pity. She ran—ran somewhere, searching for an end. The smooth tar road could not show a path to the woman who had been betrayed. The beacon that shows humankind the way could not show direction to one who had lost all bearings. The raging sea could not compete with her heart surging in turmoil. What roared was not a tiger. It was the world! The world! The world in which lived the kith and kin, mother and father whom she had rejected and left behind! She could no longer face that world! She could not! She could never face it!)*
+*(Bama became like a madwoman, a figure deserving pity. She ran—ran somewhere, searching for an end. The smooth tar road could not show a path to the woman who had been deceived. The beacon that guides sailors could not show direction to one who had lost all bearings. The raging sea could not compete with her heart surging in turmoil. What roared was not a tiger. The world, the world! The world in which lived the kith and kin, mother and father whom she had rejected and left behind! She could no longer face that world! She could not! She could never face it!)*
 
 <!-- unit:tirumbippaar-en-s026-u003; source:PDF 32 / printed 24 -->
 *(She falls on the seashore.)*
@@ -1293,29 +1296,29 @@ Many people never understand that.
 Gundumani! Isn't the tea ready yet?
 
 <!-- unit:tirumbippaar-en-s027-u002; source:PDF 32 / printed 24 -->
-*(She comes downstairs; Poomaal comes there.)*
+*(She comes downstairs; Poomalai comes there.)*
 
 <!-- unit:tirumbippaar-en-s027-u003; source:PDF 32 / printed 24 -->
 **குமுதா**  
-Chinnamma! Tell him to send tea to him. I'm going to buy film for the camera....
+Chinnamma! Have tea sent to him. I'm going to buy film for the camera....
 
 <!-- unit:tirumbippaar-en-s027-u004; source:PDF 32 / printed 24 -->
 *(Gundumani brings the tea.)*
 
 <!-- unit:tirumbippaar-en-s027-u005; source:PDF 32 / printed 24 -->
-**பூமால்**  
-Gundumani, wait!... I'll take the tea. You go attend to your work!...
+**பூமாலை**  
+Gundumani, wait... I'll take the tea. You go attend to your work.
 
 <!-- unit:tirumbippaar-en-s027-u006; source:PDF 32 / printed 24 -->
 **குண்டுமணி**  
 All right, amma....
 
 <!-- unit:tirumbippaar-en-s027-u007; source:PDF 32 / printed 24 -->
-*(She takes it and goes upstairs.)*
+*(Poomalai takes the tea and goes upstairs.)*
 
 <!-- unit:tirumbippaar-en-s027-u008; source:PDF 32 / printed 24 -->
 **குண்டுமணி**  
-(To himself) Amma is standing there herself to serve Pandiyan—what's this about? Ah, no, no! Amma is a good woman...hmm...who knows? Ah, let it go. (Suspiciously) What kind of...... All right, all right—why should a servant concern himself with all this......
+(To himself) When it comes to serving Pandiyan, Amma herself steps to the front—what's going on? Ah, tch, tch! Amma is a good woman...hmm...who knows? Such a... (suspiciously) what kind of... All right, all right—why should a servant concern himself with all this...
 
 ---
 
@@ -1326,7 +1329,7 @@ All right, amma....
 
 <!-- unit:tirumbippaar-en-s028-u002; source:PDF 32 / printed 24 -->
 **குமுதா**  
-Stand properly—yes—smile a little...just a little...steady please, right....thanks....
+Stand properly—yes—smile a little...just a little...steady please, right...thanks....
 
 <!-- unit:tirumbippaar-en-s028-u003; source:PDF 32 / printed 24 -->
 *(She takes the photograph.)*
@@ -1335,7 +1338,7 @@ Stand properly—yes—smile a little...just a little...steady please, right....
 **பாண்டியன்**  
 Give it here. I'll capture you.
 
-<!-- unit:tirumbippaar-en-s028-u005; source:PDF 33 / printed 25 -->
+<!-- unit:tirumbippaar-en-s028-u005; source:PDF 32 / printed 24 -->
 **குமுதா**  
 What?...
 
@@ -1349,7 +1352,7 @@ That's what I thought! (Shyly)
 
 <!-- unit:tirumbippaar-en-s028-u008; source:PDF 33 / printed 25 -->
 **பாண்டியன்**  
-(Taking the camera) Hmm...steady please.....
+(Taking the camera) Hmm...steady please....
 
 <!-- unit:tirumbippaar-en-s028-u009; source:PDF 33 / printed 25 -->
 *(Kumudha stands posing like Nataraja.)*
@@ -1358,23 +1361,23 @@ That's what I thought! (Shyly)
 **பாண்டியன்**  
 What's this!
 
-<!-- unit:tirumbippaar-en-s028-u011; source:PDF 33 / printed 25 -->
-*(Poomaal arrives just then.)*
-
 <!-- unit:tirumbippaar-en-s028-u012; source:PDF 33 / printed 25 -->
 **குமுதா**  
 Chinnamma!
 
 <!-- unit:tirumbippaar-en-s028-u013; source:PDF 33 / printed 25 -->
-**பூமால்**  
+**பூமாலை**  
 Yes, dear!
+
+<!-- unit:tirumbippaar-en-s028-u011; source:PDF 33 / printed 25 -->
+*(Poomalai arrives just then.)*
 
 <!-- unit:tirumbippaar-en-s028-u014; source:PDF 33 / printed 25 -->
 **குமுதா**  
-We took photos separately. We'll both stand together—you take one!
+We've taken photos separately. The two of us will stand together—you take one!
 
 <!-- unit:tirumbippaar-en-s028-u015; source:PDF 33 / printed 25 -->
-**பூமால்**  
+**பூமாலை**  
 Uh-uh, Kumudha! I don't know how to take one. You take it yourself!
 
 <!-- unit:tirumbippaar-en-s028-u016; source:PDF 33 / printed 25 -->
@@ -1382,7 +1385,7 @@ Uh-uh, Kumudha! I don't know how to take one. You take it yourself!
 Oh, Chinnamma! (Taking the camera with a pout) All right, Chinnamma! You two stand together; I'll take it. (Without guile.)
 
 <!-- unit:tirumbippaar-en-s028-u017; source:PDF 33 / printed 25 -->
-**பூமால்**  
+**பூமாலை**  
 Me?
 
 <!-- unit:tirumbippaar-en-s028-u018; source:PDF 33 / printed 25 -->
@@ -1390,7 +1393,7 @@ Me?
 Go and stand there, Chinnamma!
 
 <!-- unit:tirumbippaar-en-s028-u019; source:PDF 33 / printed 25 -->
-*(Poomaal goes and stands beside Pandiyan. Kumudha prepares to take the photograph.)*
+*(Poomalai goes and stands beside Pandiyan. Kumudha prepares to take the photograph.)*
 
 <!-- unit:tirumbippaar-en-s028-u020; source:PDF 33 / printed 25 -->
 **குமுதா**  
@@ -1400,7 +1403,7 @@ Steady please....
 *(Gundumani gives a joyous shout; Kumudha trembles and drops the camera.)*
 
 <!-- unit:tirumbippaar-en-s028-u022; source:PDF 33 / printed 25 -->
-**பூமால்**  
+**பூமாலை**  
 W...what...what?
 
 <!-- unit:tirumbippaar-en-s028-u023; source:PDF 33 / printed 25 -->
@@ -1412,7 +1415,7 @@ W...what...what?
 Passed?
 
 <!-- unit:tirumbippaar-en-s028-u025; source:PDF 34 / printed 26 -->
-**பூமால்**  
+**பூமாலை**  
 Passed! Kumudha, you're clever!
 
 <!-- unit:tirumbippaar-en-s028-u026; source:PDF 34 / printed 26 -->
@@ -1442,18 +1445,18 @@ My age is only sixteen.
 A well-matched number indeed.
 
 <!-- unit:tirumbippaar-en-s028-u033; source:PDF 34 / printed 26 -->
-**பூமால்**  
+**பூமாலை**  
 (Sharply) Hey....keep quiet....
 
 <!-- unit:tirumbippaar-en-s028-u034; source:PDF 34 / printed 26 -->
 **குண்டுமணி**  
-No, ma'am. I mean Kumudha-amma should remain sixteen forever, like Markandeya.
+No, ma'am. I mean Kumudha-amma should always remain sixteen years old, like Markandi.
 
 <!-- unit:tirumbippaar-en-s028-u035; source:PDF 34 / printed 26 -->
 *(Everyone laughs.)*
 
 <!-- unit:tirumbippaar-en-s028-u036; source:PDF 34 / printed 26 -->
-**பூமால்**  
+**பூமாலை**  
 Then shall we leave for our town?
 
 <!-- unit:tirumbippaar-en-s028-u037; source:PDF 34 / printed 26 -->
@@ -1462,7 +1465,7 @@ He....
 
 <!-- unit:tirumbippaar-en-s028-u038; source:PDF 34 / printed 26 -->
 **குண்டுமணி**  
-You don't have to worry about him, amma. From now on, even if he comes to our house, he won't leave us!
+You don't have to worry about him, amma. From now on, even if we chase him away, he won't leave us!
 
 ---
 
@@ -1477,11 +1480,11 @@ Come, man! The last two or three weeks must have been one grand, jolly life....
 
 <!-- unit:tirumbippaar-en-s029-u003; source:PDF 34 / printed 26 -->
 **பரந்தாமன்**  
-Poor thing...Bama insisted on setting up a family in Chennai and putting me in the prison of domestic life.... Where she went, what happened to her!...
+Poor thing...Bama longed to set up a family in Chennai and put me in the prison of domestic life... Where she went, what happened to her!....
 
 <!-- unit:tirumbippaar-en-s029-u004; source:PDF 35 / printed 27 -->
 **கருடன்**  
-Hmm...family life and all that—man ought to be free, I say. Hasn't God himself created an example for us: the bee that flits from flower to flower...hmm....
+Hmm...family life and all that—man ought to be free, like me. Hasn't God created an example for us—the one that flits from flower to flower......
 
 <!-- unit:tirumbippaar-en-s029-u005; source:PDF 35 / printed 27 -->
 **பையன்**  
@@ -1516,11 +1519,11 @@ What's that?
 
 <!-- unit:tirumbippaar-en-s029-u013; source:PDF 35 / printed 27 -->
 **பையன்**  
-Nothing to do with us.
+It has nothing to do with us.
 
 <!-- unit:tirumbippaar-en-s029-u014; source:PDF 35 / printed 27 -->
 **கருடன்**  
-Nothing to do with us? Tell us the part that concerns him too, you donkey!
+Not to us—to us! Tell the matter including him too, you donkey!
 
 <!-- unit:tirumbippaar-en-s029-u015; source:PDF 35 / printed 27 -->
 **பையன்**  
@@ -1532,15 +1535,15 @@ Is that so? Then it has nothing to do with us.
 
 <!-- unit:tirumbippaar-en-s029-u017; source:PDF 35 / printed 27 -->
 **கருடன்**  
-Why not? I've got an idea. Take advantage of this agitation and write a book about the working people—it'll sell well at a time like this.
+Why not? I've got an idea. If we make use of this agitation and write a book about the toilers, it will sell well at a time like this.
 
 <!-- unit:tirumbippaar-en-s029-u018; source:PDF 35 / printed 27 -->
 **பரந்தாமன்**  
-Yes....I'll start writing today itself. What shall we call the book....ah....right.... 'The Worker's Voice.'
+Yes....I'll start writing today itself. What shall we call the book...ah...right.... 'The Toiler's Voice.'
 
 <!-- unit:tirumbippaar-en-s029-u019; source:PDF 36 / printed 28 -->
 **கருடன்**  
-Bravo! 'The Worker's Voice.' What a brain! What a brain!
+Bravo! 'The Toiler's Voice.' What a brain! What a brain!
 
 <!-- unit:tirumbippaar-en-s029-u020; source:PDF 36 / printed 28 -->
 **பையன்**  
@@ -1552,15 +1555,15 @@ What is it?
 
 <!-- unit:tirumbippaar-en-s029-u022; source:PDF 36 / printed 28 -->
 **பையன்**  
-My wages....
+My wages.
 
 <!-- unit:tirumbippaar-en-s029-u023; source:PDF 36 / printed 28 -->
 **கருடன்**  
-(Angrily) Hey! He's going to write a book for the mill workers....
+(Angrily) Hey! If a book is written for the mill workers...
 
 <!-- unit:tirumbippaar-en-s029-u024; source:PDF 36 / printed 28 -->
 **பையன்**  
-I'm a worker too, sir!....
+I'm a worker too, sir!...
 
 <!-- unit:tirumbippaar-en-s029-u025; source:PDF 36 / printed 28 -->
 **கருடன்**  
@@ -1568,70 +1571,66 @@ A great worker he is! Paranthama! You start writing! Of the profit, one quarter 
 
 <!-- unit:tirumbippaar-en-s029-u026; source:PDF 36 / printed 28 -->
 **பையன்**  
-For me....
+For me...
 
 <!-- unit:tirumbippaar-en-s029-u027; source:PDF 36 / printed 28 -->
 **கருடன்**  
 A slap! (He slaps him.)
-
-<!-- unit:tirumbippaar-en-s029-u028; source:PDF 36 / printed 28 -->
-*(The boy cries.)*
 
 ---
 
 ## Scene 30
 
 <!-- unit:tirumbippaar-en-s030-u001; source:PDF 36 / printed 28 -->
-*Written text*  
-> Poomaal's house — daytime
+*(The boy cries.)*
 
 <!-- unit:tirumbippaar-en-s030-u002; source:PDF 36 / printed 28 -->
-*(Bama's father, Gunarathinam, is sorrowfully telling Poomaal about his daughter.)*
+*(Bama's father, Gunarathnam, is sorrowfully telling Poomalai about his daughter.)*
 
 <!-- unit:tirumbippaar-en-s030-u003; source:PDF 36 / printed 28 -->
-**குணரத்தனம்**  
-Did she go alone? She mortgaged the house and went off with the thousand rupees' worth of jewellery I'd had made too!
+**குணரத்னம்**  
+Was it only she who went? She mortgaged the house and went off with the thousand rupees' worth of jewellery I'd had made too!
 
 <!-- unit:tirumbippaar-en-s030-u004; source:PDF 36 / printed 28 -->
-**பூமால்**  
+**பூமாலை**  
 It's only a thousand rupees' worth of jewellery, isn't it? Here.... (Removing her own ornaments and handing them over) Keep these. (She gives them.)
 
 <!-- unit:tirumbippaar-en-s030-u005; source:PDF 36 / printed 28 -->
-**குணரத்தனம்**  
-(Taking them) Why? Whom am I going to adorn with these and admire? You keep them yourself. (Throwing them down) Those who betrayed me can go to ruin!...
+**குணரத்னம்**  
+(Taking them) Why? Whom am I going to adorn with these and admire? You keep them yourself. (Throwing them down) Those who betrayed me will come to ruin!...
 
 <!-- unit:tirumbippaar-en-s030-u006; source:PDF 37 / printed 29 -->
-*(He leaves. Poomaal sits wearily on the sofa. Paranthaman comes in and sees the jewellery lying on the floor.)*
+*(He leaves. Poomalai sits wearily on the sofa. Paranthaman comes in and sees the jewellery lying on the floor.)*
 
 <!-- unit:tirumbippaar-en-s030-u007; source:PDF 37 / printed 29 -->
 **பரந்தாமன்**  
-Akka, whose jewellery is this?
+Akka, where did this jewellery come from?
 
 <!-- unit:tirumbippaar-en-s030-u008; source:PDF 37 / printed 29 -->
-*(Poomaal is silent.)*
+*(Poomalai is silent.)*
 
 <!-- unit:tirumbippaar-en-s030-u009; source:PDF 37 / printed 29 -->
 **பரந்தாமன்**  
-Why is it lying down here like this? (He picks it up.) It's all gold jewellery, isn't it?
+Why is it lying down here like this? (He picks it up.) These are all gold ornaments, aren't they?
 
 <!-- unit:tirumbippaar-en-s030-u010; source:PDF 37 / printed 29 -->
-**பூமால்**  
+**பூமாலை**  
 No. The smile of betrayal!
 
 <!-- unit:tirumbippaar-en-s030-u011; source:PDF 37 / printed 29 -->
 **பரந்தாமன்**  
-(As if he does not understand) What's this! What's the matter, akka?....
+(As if he does not understand) What's this! What's the matter, akka?
 
 <!-- unit:tirumbippaar-en-s030-u012; source:PDF 37 / printed 29 -->
-**பூமால்**  
-A tiger cannot live long in a deerskin, Paranthama! A hunter will come to hunt it too. People do not let those who toy with the women of the town remain alive!.... Remember that!
+**பூமாலை**  
+A tiger cannot live long in a deerskin, Paranthama! A hunter will come to hunt it too. People do not leave alive those who toy with the women of the town!... Remember that!
 
 <!-- unit:tirumbippaar-en-s030-u013; source:PDF 37 / printed 29 -->
 **பரந்தாமன்**  
 Every time I come home, is it this same lament? Looks as though a man can't live in peace at all!
 
 <!-- unit:tirumbippaar-en-s030-u014; source:PDF 37 / printed 29 -->
-**பூமால்**  
+**பூமாலை**  
 A man must not live only for himself. He must let others live too!
 
 <!-- unit:tirumbippaar-en-s030-u015; source:PDF 37 / printed 29 -->
@@ -1639,18 +1638,18 @@ A man must not live only for himself. He must let others live too!
 All right, enough, enough. I suppose I should put on saffron robes and disappear somewhere.
 
 <!-- unit:tirumbippaar-en-s030-u016; source:PDF 37 / printed 29 -->
-**பூமால்**  
-Why! Do you think you can deceive people easily behind that disguise? Madman who has regarded womankind as a swarm of worms writhing in the earth! Where did Bama go? Tell me. Where did you leave her to suffer? What became of that poor young girl who came to play with this volcano? Tell me! Won't you tell me, sinner! Where is Bama?
+**பூமாலை**  
+Why! Do you think you can deceive people easily behind that screen? Madman who has regarded womankind as a swarm of worms writhing in the earth! Where did Bama go? Tell me. Where did you leave her to suffer? What became of that poor young girl who came to play on a volcano? Tell me! Won't you tell me, sinner! Where is Bama?
 
 <!-- unit:tirumbippaar-en-s030-u017; source:PDF 37 / printed 29 -->
 **பரந்தாமன்**  
-Go look for her in the other world!
+Go and look for her in the other world!
 
 <!-- unit:tirumbippaar-en-s030-u018; source:PDF 37 / printed 29 -->
 *(He leaves.)*
 
 <!-- unit:tirumbippaar-en-s030-u019; source:PDF 38 / printed 30 -->
-**பூமால்**  
+**பூமாலை**  
 (Tears welling) Ah! Amma! Appa! It seems I will not be able to keep the promise I gave you!
 
 ---
@@ -1696,18 +1695,18 @@ What, sir? You're a big man, yet you use such petty words. ‘Nonsense,’ is it
 
 <!-- unit:tirumbippaar-en-s032-u006; source:PDF 38 / printed 30 -->
 **கூலி**  
-Don't hit me, sir. I am a worker!....
+Don't hit me, sir. I am a worker!
 
 <!-- unit:tirumbippaar-en-s032-u007; source:PDF 38 / printed 30 -->
 **பரந்தாமன்**  
-Worker! A worker, he says... Run...run....
+Worker. A worker, he says—a worker....
 
 <!-- unit:tirumbippaar-en-s032-u008; source:PDF 38 / printed 30 -->
 *(The labourer runs outside.)*
 
 <!-- unit:tirumbippaar-en-s032-u009; source:PDF 39 / printed 31 -->
 **கருடன்**  
-They should take whatever money they're given. These fellows all need to be kicked like this.
+If they won't take the money they're given, these fellows all need to be kicked like this.
 
 <!-- unit:tirumbippaar-en-s032-u010; source:PDF 39 / printed 31 -->
 *(They look at the office boy; he stands covering his mouth.)*
@@ -1721,14 +1720,14 @@ They should take whatever money they're given. These fellows all need to be kick
 Not just the title! Five thousand copies sold in two days! What more do we need?
 
 <!-- unit:tirumbippaar-en-s032-u013; source:PDF 39 / printed 31 -->
-*(Paranthaman lights a cigarette. ‘The Voice of the Toiler’ lies on the table. Punnakodi enters.)*
+*(Paranthaman lights a cigarette. ‘The Voice of the Toiler’ lies on the table. Punyakodi enters.)*
 
 <!-- unit:tirumbippaar-en-s032-u014; source:PDF 39 / printed 31 -->
 **கருடன்**  
 Who are you?
 
 <!-- unit:tirumbippaar-en-s032-u015; source:PDF 39 / printed 31 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Don't you know me? I am the labour leader. You know why I've come....
 
 <!-- unit:tirumbippaar-en-s032-u016; source:PDF 39 / printed 31 -->
@@ -1736,19 +1735,19 @@ Don't you know me? I am the labour leader. You know why I've come....
 What is it, sir?....
 
 <!-- unit:tirumbippaar-en-s032-u017; source:PDF 39 / printed 31 -->
-*(Garudan and Paranthaman look alert.)*
+*(Garudan and Paranthaman become alert.)*
 
 <!-- unit:tirumbippaar-en-s032-u018; source:PDF 39 / printed 31 -->
-**புண்ணகோடி**  
-The workers are asking for higher wages, and about that agitation....
+**புண்யகோடி**  
+If a worker asks for higher wages, that ought to be considered....
 
 <!-- unit:tirumbippaar-en-s032-u019; source:PDF 39 / printed 31 -->
 **கருடன்**  
 No, sir, he wasn't asking for wages. He carried this paper bale here....
 
 <!-- unit:tirumbippaar-en-s032-u020; source:PDF 39 / printed 31 -->
-**புண்ணகோடி**  
-Not him! I mean the mill workers.
+**புண்யகோடி**  
+Not him! I mean the mill worker.
 
 <!-- unit:tirumbippaar-en-s032-u021; source:PDF 39 / printed 31 -->
 **கருடன்**  
@@ -1759,15 +1758,15 @@ Yes, yes. Employers who ignore workers' problems must not be spared.
 Garuda! What use is shouting with our mouths? If the voice of the toilers is to gain strength, we must launch a great agitation....
 
 <!-- unit:tirumbippaar-en-s032-u023; source:PDF 39 / printed 31 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 That's the way to speak....
 
 <!-- unit:tirumbippaar-en-s032-u024; source:PDF 40 / printed 32 -->
 **பரந்தாமன்**  
-The toilers are the backbone of this country. The working class is the very life of a nation. We must not let it wither! I have taken a solemn vow. We must soon begin the struggle for workers' liberation.
+The toilers are the backbone of this country. The working class is the very life of a nation. We must not let it become dispirited! I have taken a solemn vow. We must soon begin the struggle for workers' liberation.
 
 <!-- unit:tirumbippaar-en-s032-u025; source:PDF 40 / printed 32 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Bravo! Bravo! If there are truly resolute young men like you, liberation will dawn for the whole world in a single day. Reading your ‘The Voice of the Toiler’ turns even a decrepit old man into a youth, and a coward into a tiger. You must preside over tomorrow's public meeting.
 
 <!-- unit:tirumbippaar-en-s032-u026; source:PDF 40 / printed 32 -->
@@ -1775,7 +1774,7 @@ Bravo! Bravo! If there are truly resolute young men like you, liberation will da
 Preside? Me? No, I am a servant of the public.
 
 <!-- unit:tirumbippaar-en-s032-u027; source:PDF 40 / printed 32 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 No, brother! Don't say that! Thousands of workers want it too.
 
 <!-- unit:tirumbippaar-en-s032-u028; source:PDF 40 / printed 32 -->
@@ -1798,7 +1797,7 @@ A higher salary....
 Shoo, get lost! We're discussing great matters of the world....
 
 <!-- unit:tirumbippaar-en-s032-u033; source:PDF 40 / printed 32 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Then I'll be going, sir....
 
 <!-- unit:tirumbippaar-en-s032-u034; source:PDF 40 / printed 32 -->
@@ -1806,7 +1805,7 @@ Then I'll be going, sir....
 Namaskaram.
 
 <!-- unit:tirumbippaar-en-s032-u035; source:PDF 40 / printed 32 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 (To Garudan) I'll be going, sir!
 
 ---
@@ -1817,8 +1816,8 @@ Namaskaram.
 *(Thousands of workers, with a police guard present, wait for Paranthaman's speech.)*
 
 <!-- unit:tirumbippaar-en-s033-u002; source:PDF 41 / printed 33 -->
-**புண்ணகோடி**  
-Brothers! Leader Paranthaman, whom the whole country is eagerly awaiting, will arrive shortly. Everyone remain calm! Many revolutionary plans are to be carried out today. We are not going to fear anyone. No fear, no fear—even if the whole world opposes us, no fear.
+**புண்யகோடி**  
+Brothers! Leader Paranthaman, whom all of us have been eagerly awaiting, will arrive shortly. Everyone remain calm! Many revolutionary plans are to be carried out today. We are not going to fear anyone. No fear, no fear—even if the whole world opposes us, no fear.
 
 <!-- unit:tirumbippaar-en-s033-u003; source:PDF 41 / printed 33 -->
 **கூட்டம்**  
@@ -1828,7 +1827,7 @@ Yes, yes....
 *(A sudden explosive sound sends the crowd scattering in confusion. Then an old Austin arrives, Garudan driving and Paranthaman seated inside. It becomes clear that the car's exhaust made the sound. They take their places on the platform and the crowd settles.)*
 
 <!-- unit:tirumbippaar-en-s033-u005; source:PDF 41 / printed 33 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 The golden son of the toilers, the fearless lion whom we have watched the road and eagerly awaited—Paranthaman—has graced this union to remove our distress. I request that this garland be placed upon him and that he preside.
 
 <!-- unit:tirumbippaar-en-s033-u006; source:PDF 41 / printed 33 -->
@@ -1843,21 +1842,18 @@ The golden son of the toilers, the fearless lion whom we have watched the road a
 You really ‘seconded’ it well!
 
 <!-- unit:tirumbippaar-en-s033-u009; source:PDF 41 / printed 33 -->
-*(He is garlanded; applause. Paranthaman begins speaking before removing the garland.)*
+*(He is garlanded; applause. Paranthaman begins speaking without removing the garland.)*
 
 <!-- unit:tirumbippaar-en-s033-u010; source:PDF 42 / printed 34 -->
 **பரந்தாமன்**  
-Mr Chairman! (The people laugh.) Oh! I am the chairman, am I? Forgive me. My aim is that the broken-hearted farm labourer who clears forest, prepares the field, drives the cattle at dawn, takes up the plough and returns home in the evening after raising red paddy—and the mill worker who turns blood into pools of sweat, weary in spirit and labouring day after day—should gain a brand-new life.... When the poor say they are hungry, I feel as though my heart will burst. When they shed tears, all my blood boils. To crush the arrogance of those who refuse our demands—an immediate strike! We must set out as one united mass! Victory is ours! Victory is ours!
-
-<!-- unit:tirumbippaar-en-s033-u011; source:PDF 42 / printed 34 -->
-*(Cheers. Punnakodi is overflowing with delight.)*
+Mr Chairman! (The people laugh.) Oh! I am the chairman, am I? Forgive me. My aim is that the broken-hearted toiler who clears forest, prepares the field, drives the cattle in the morning, takes up the plough and returns home in the evening—and the mill worker who turns blood into pools of sweat, weary in spirit and labouring day after day—should gain a brand-new life.... When the poor say they are hungry, I feel as though my heart will burst. When they shed tears, all my blood boils. To crush the arrogance of those who refuse our demands—an immediate strike! We must set out as one united mass! Victory is ours! Victory is ours!
 
 ---
 
 ## Scene 34
 
 <!-- unit:tirumbippaar-en-s034-u001; source:PDF 42 / printed 34 -->
-**பூமால்**  
+**பூமாலை**  
 Name two people who said there should be no violence against living beings.
 
 <!-- unit:tirumbippaar-en-s034-u002; source:PDF 42 / printed 34 -->
@@ -1865,23 +1861,23 @@ Name two people who said there should be no violence against living beings.
 Buddha, Gandhi.
 
 <!-- unit:tirumbippaar-en-s034-u003; source:PDF 42 / printed 34 -->
-**பூமால்**  
-Good! Who are the Three Crowned Kings?
+**பூமாலை**  
+Mukunda! Who are the Three Crowned Kings?
 
 <!-- unit:tirumbippaar-en-s034-u004; source:PDF 42 / printed 34 -->
 **பையன்**  
 The Chera, the Chola.... (Hesitates.)
 
 <!-- unit:tirumbippaar-en-s034-u005; source:PDF 42 / printed 34 -->
-**பூமால்**  
-Hmm. Say it...... Pandiyan....
+**பூமாலை**  
+Hmm. Say it.
 
 <!-- unit:tirumbippaar-en-s034-u006; source:PDF 42 / printed 34 -->
-*(At the word ‘Pandiyan,’ her expression changes. Garudan murmurs. Then, to the students:)*
+*(At the word ‘Pandiyan,’ her expression changes and her lips murmur. Then, to the students:)*
 
 <!-- unit:tirumbippaar-en-s034-u007; source:PDF 42 / printed 34 -->
-**பூமால்**  
-All right, go home and come back tomorrow.......
+**பூமாலை**  
+All right, go home and come back tomorrow.
 
 <!-- unit:tirumbippaar-en-s034-u008; source:PDF 42 / printed 34 -->
 *(She sends everyone away.)*
@@ -1889,15 +1885,24 @@ All right, go home and come back tomorrow.......
 <!-- unit:tirumbippaar-en-s034-u009; source:PDF 42 / printed 34 -->
 *(After they leave, she goes toward the garden.)*
 
+<!-- unit:tirumbippaar-en-s034-u010; source:PDF 42 / printed 34 -->
+*(Cheers. Punyakodi is overflowing with delight.)*
+
+<!-- unit:tirumbippaar-en-s034-u011; source:PDF 42 / printed 34 -->
+*(Poomalai is with the children.)*
+
+<!-- unit:tirumbippaar-en-s034-u012; source:PDF 42 / printed 34 -->
+Pandiyan.
+
 ---
 
 ## Scene 35
 
 <!-- unit:tirumbippaar-en-s035-u001; source:PDF 43 / printed 35 -->
-*(Poomaal approaches Pandiyan, who is enjoying nature.)*
+*(Poomalai approaches Pandiyan, who is enjoying nature.)*
 
 <!-- unit:tirumbippaar-en-s035-u002; source:PDF 43 / printed 35 -->
-**பூமால்**  
+**பூமாலை**  
 I hope I'm not disturbing your thoughts....
 
 <!-- unit:tirumbippaar-en-s035-u003; source:PDF 43 / printed 35 -->
@@ -1905,15 +1910,15 @@ I hope I'm not disturbing your thoughts....
 No, no....
 
 <!-- unit:tirumbippaar-en-s035-u004; source:PDF 43 / printed 35 -->
-**பூமால்**  
-You've surrendered your heart to what lies before you! To the beauty of the sky—or the movement of the clouds?
+**பூமாலை**  
+To what have you lost your heart? To the beauty of the sky—or the movement of the clouds?
 
 <!-- unit:tirumbippaar-en-s035-u005; source:PDF 43 / printed 35 -->
 **பாண்டியன்**  
-In this grove ripened into silence, delighting the eye....
+In the mature grove that dwells in silence, delighting with song....
 
 <!-- unit:tirumbippaar-en-s035-u006; source:PDF 43 / printed 35 -->
-**பூமால்**  
+**பூமாலை**  
 Are you yearning for the skylark's arrival? Pandiyan! Realising that the smiling jasmine and charming grove are not enough to feast your thoughts, the skylark itself has flown here!
 
 <!-- unit:tirumbippaar-en-s035-u007; source:PDF 43 / printed 35 -->
@@ -1921,12 +1926,12 @@ Are you yearning for the skylark's arrival? Pandiyan! Realising that the smiling
 Where?
 
 <!-- unit:tirumbippaar-en-s035-u008; source:PDF 43 / printed 35 -->
-**பூமால்**  
-Don't you see? You can see it with your eyes too. But first you must be able to see it with your heart.
+**பூமாலை**  
+It isn't visible. It can be seen with the eyes too. But first you must try to see it with the heart.
 
 <!-- unit:tirumbippaar-en-s035-u009; source:PDF 43 / printed 35 -->
 **பாண்டியன்**  
-(Suspiciously) Poomaal......
+(Suspiciously) Poomalai......
 
 <!-- unit:tirumbippaar-en-s035-u010; source:PDF 43 / printed 35 -->
 *(As he speaks, she hears a voice call ‘Akka!’ and turns with a start. Paranthaman enters.)*
@@ -1936,7 +1941,7 @@ Don't you see? You can see it with your eyes too. But first you must be able to 
 Who is he?
 
 <!-- unit:tirumbippaar-en-s035-u012; source:PDF 43 / printed 35 -->
-**பூமால்**  
+**பூமாலை**  
 Paranthama, this is....
 
 <!-- unit:tirumbippaar-en-s035-u013; source:PDF 43 / printed 35 -->
@@ -1944,12 +1949,12 @@ Paranthama, this is....
 Don't tell me; I know. Who let this scoundrel into the house?
 
 <!-- unit:tirumbippaar-en-s035-u014; source:PDF 43 / printed 35 -->
-**பூமால்**  
+**பூமாலை**  
 (Angrily) Paranthama....
 
 <!-- unit:tirumbippaar-en-s035-u015; source:PDF 43 / printed 35 -->
 **பரந்தாமன்**  
-Don't interfere! What you've done is actually a good thing! I've been searching for him for many days.
+Don't snap at me! What you've done is actually a good thing! I've been searching for him for many days.
 
 <!-- unit:tirumbippaar-en-s035-u016; source:PDF 44 / printed 36 -->
 **பாண்டியன்**  
@@ -1971,8 +1976,8 @@ Ah...what!...Kumudha!
 Fool!
 
 <!-- unit:tirumbippaar-en-s035-u021; source:PDF 44 / printed 36 -->
-**பூமால்**  
-(Slapping Kumudha) Shame! Shut your mouth.
+**பூமாலை**  
+(Slapping Kumudha) Tch! Shut your mouth.
 
 <!-- unit:tirumbippaar-en-s035-u022; source:PDF 44 / printed 36 -->
 *(She slaps her several times.)*
@@ -1996,31 +2001,31 @@ My life is an arena of contests!....
 *(Kumudha is crying.)*
 
 <!-- unit:tirumbippaar-en-s036-u002; source:PDF 44 / printed 36 -->
-**பூமால்**  
+**பூமாலை**  
 Don't cry, Kumudha! (Distressed)
 
 <!-- unit:tirumbippaar-en-s036-u003; source:PDF 44 / printed 36 -->
 **குமுதா**  
-Chinnamma! My Chinnamma hit me! I haven't done anything wrong, Chinnamma!
+Chinnamma! Why did you hit me, Chinnamma? I haven't done anything wrong, Chinnamma!
 
 <!-- unit:tirumbippaar-en-s036-u004; source:PDF 44 / printed 36 -->
-**பூமால்**  
+**பூமாலை**  
 Who is Paranthaman? Isn't he one of us too? How could you go and hit him?
 
 <!-- unit:tirumbippaar-en-s036-u005; source:PDF 44 / printed 36 -->
 **குமுதா**  
-Chinnamma, did Pandiyan alone behave that way with Bama?
+Chinnamma, is uncle allowed to treat Pandiyan like that?
 
 <!-- unit:tirumbippaar-en-s036-u006; source:PDF 44 / printed 36 -->
-**பூமால்**  
-I'm here to question him about that! He meant to hurt me....
+**பூமாலை**  
+I'm here to question that! Right in front of me, he....
 
 <!-- unit:tirumbippaar-en-s036-u007; source:PDF 45 / printed 37 -->
 **குமுதா**  
 Your younger brother matters more to you!
 
 <!-- unit:tirumbippaar-en-s036-u008; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 And to you?
 
 <!-- unit:tirumbippaar-en-s036-u009; source:PDF 45 / printed 37 -->
@@ -2028,7 +2033,7 @@ And to you?
 My lover matters more to me!
 
 <!-- unit:tirumbippaar-en-s036-u010; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 (Startled) Lover?....
 
 <!-- unit:tirumbippaar-en-s036-u011; source:PDF 45 / printed 37 -->
@@ -2036,18 +2041,18 @@ My lover matters more to me!
 Yes! Pandiyan is my lover!
 
 <!-- unit:tirumbippaar-en-s036-u012; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 Your lover?
 
 <!-- unit:tirumbippaar-en-s036-u013; source:PDF 45 / printed 37 -->
-*(Sobbing, Poomaal goes aside and cries in despair. Kumudha runs to her.)*
+*(Sobbing, Poomalai goes aside and cries in despair. Kumudha runs to her.)*
 
 <!-- unit:tirumbippaar-en-s036-u014; source:PDF 45 / printed 37 -->
 **குமுதா**  
 Am I not allowed to love?
 
 <!-- unit:tirumbippaar-en-s036-u015; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 Has he given his consent?
 
 <!-- unit:tirumbippaar-en-s036-u016; source:PDF 45 / printed 37 -->
@@ -2055,15 +2060,15 @@ Has he given his consent?
 Our two hearts have become one!
 
 <!-- unit:tirumbippaar-en-s036-u017; source:PDF 45 / printed 37 -->
-**பூமால்**  
-Oh! What a great mistake I've made, Kumudha!
+**பூமாலை**  
+Tch! What a great mistake I've made, Kumudha!
 
 <!-- unit:tirumbippaar-en-s036-u018; source:PDF 45 / printed 37 -->
 **குமுதா**  
 What mistake did you make, Chinnamma? Was bringing him here the mistake? Or was introducing him to me the mistake?
 
 <!-- unit:tirumbippaar-en-s036-u019; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 There was no mistake in bringing him. Nor in introducing him.
 
 <!-- unit:tirumbippaar-en-s036-u020; source:PDF 45 / printed 37 -->
@@ -2071,7 +2076,7 @@ There was no mistake in bringing him. Nor in introducing him.
 Then was it wrong that I showed him affection?
 
 <!-- unit:tirumbippaar-en-s036-u021; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 Not that either, Kumudha! The mistake was that a plant tried to climb the branch on which a creeper was already spreading.
 
 <!-- unit:tirumbippaar-en-s036-u022; source:PDF 45 / printed 37 -->
@@ -2079,7 +2084,7 @@ Not that either, Kumudha! The mistake was that a plant tried to climb the branch
 I don't understand....
 
 <!-- unit:tirumbippaar-en-s036-u023; source:PDF 45 / printed 37 -->
-**பூமால்**  
+**பூமாலை**  
 You need not understand; you must never understand.
 
 <!-- unit:tirumbippaar-en-s036-u024; source:PDF 45 / printed 37 -->
@@ -2087,21 +2092,21 @@ You need not understand; you must never understand.
 Chinnamma! Won't you permit our love?
 
 <!-- unit:tirumbippaar-en-s036-u025; source:PDF 46 / printed 38 -->
-**பூமால்**  
+**பூமாலை**  
 I permit it, dear! I bless both of you this very moment....Pandiyan! Pandiyan!
-
-<!-- unit:tirumbippaar-en-s036-u026; source:PDF 46 / printed 38 -->
-*(She leaves.)*
 
 ---
 
 ## Scene 37
 
+<!-- unit:tirumbippaar-en-s037-u051; source:PDF 46 / printed 38 -->
+*(She leaves.)*
+
 <!-- unit:tirumbippaar-en-s037-u001; source:PDF 46 / printed 38 -->
-*(Punnakodi hands strike notices to the boy.)*
+*(Punyakodi hands strike notices to the boy.)*
 
 <!-- unit:tirumbippaar-en-s037-u002; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 They must be pasted all over town overnight! Not a single wall should be left! Understand?
 
 <!-- unit:tirumbippaar-en-s037-u003; source:PDF 46 / printed 38 -->
@@ -2109,14 +2114,14 @@ They must be pasted all over town overnight! Not a single wall should be left! U
 Yes, sir!...
 
 <!-- unit:tirumbippaar-en-s037-u004; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 All right, go!
 
 <!-- unit:tirumbippaar-en-s037-u005; source:PDF 46 / printed 38 -->
-*(The boy leaves. Pandiyan enters. Seeing Pandiyan's sorrowful face, Punnakodi comes near him.)*
+*(The boy leaves. Pandiyan enters. Seeing Pandiyan's sorrowful face, Punyakodi comes near him.)*
 
 <!-- unit:tirumbippaar-en-s037-u006; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 What is it, son? Why are you sad?
 
 <!-- unit:tirumbippaar-en-s037-u007; source:PDF 46 / printed 38 -->
@@ -2124,7 +2129,7 @@ What is it, son? Why are you sad?
 Nothing, father!
 
 <!-- unit:tirumbippaar-en-s037-u008; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 You were happy all through yesterday! What is it again now?
 
 <!-- unit:tirumbippaar-en-s037-u009; source:PDF 46 / printed 38 -->
@@ -2132,7 +2137,7 @@ You were happy all through yesterday! What is it again now?
 I have no worries.
 
 <!-- unit:tirumbippaar-en-s037-u010; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Hmm...Pandiyan! There was something I wanted to tell you!...hmm....
 
 <!-- unit:tirumbippaar-en-s037-u011; source:PDF 46 / printed 38 -->
@@ -2140,14 +2145,14 @@ Hmm...Pandiyan! There was something I wanted to tell you!...hmm....
 (A little startled) What is it, father?
 
 <!-- unit:tirumbippaar-en-s037-u012; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 That...that....
 
 <!-- unit:tirumbippaar-en-s037-u013; source:PDF 46 / printed 38 -->
 *(He shows him a photograph of a woman.)*
 
 <!-- unit:tirumbippaar-en-s037-u014; source:PDF 46 / printed 38 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Look at this!
 
 <!-- unit:tirumbippaar-en-s037-u015; source:PDF 46 / printed 38 -->
@@ -2155,7 +2160,7 @@ Look at this!
 (Looking at the picture) Father! I don't want marriage at all!
 
 <!-- unit:tirumbippaar-en-s037-u016; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 All right, you don't want it...but this girl....
 
 <!-- unit:tirumbippaar-en-s037-u017; source:PDF 47 / printed 39 -->
@@ -2163,7 +2168,7 @@ All right, you don't want it...but this girl....
 Whoever she is, I don't need it.
 
 <!-- unit:tirumbippaar-en-s037-u018; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Why are you in such a hurry, son? That girl is desperately longing!
 
 <!-- unit:tirumbippaar-en-s037-u019; source:PDF 47 / printed 39 -->
@@ -2171,7 +2176,7 @@ Why are you in such a hurry, son? That girl is desperately longing!
 Let her long! So what?
 
 <!-- unit:tirumbippaar-en-s037-u020; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I'm saying the girl is willing.
 
 <!-- unit:tirumbippaar-en-s037-u021; source:PDF 47 / printed 39 -->
@@ -2179,7 +2184,7 @@ I'm saying the girl is willing.
 Oh no, what trouble is this!...
 
 <!-- unit:tirumbippaar-en-s037-u022; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 There's no trouble...people in town will shout that an old man shouldn't marry...that's why I'm telling you all this.
 
 <!-- unit:tirumbippaar-en-s037-u023; source:PDF 47 / printed 39 -->
@@ -2187,7 +2192,7 @@ There's no trouble...people in town will shout that an old man shouldn't marry..
 I don't want marriage now! I won't want marriage even when I'm old!
 
 <!-- unit:tirumbippaar-en-s037-u024; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Hey, not for you, not for you! Forget that! I'm talking about myself!
 
 <!-- unit:tirumbippaar-en-s037-u025; source:PDF 47 / printed 39 -->
@@ -2195,7 +2200,7 @@ Hey, not for you, not for you! Forget that! I'm talking about myself!
 Father! The marriage is for you?
 
 <!-- unit:tirumbippaar-en-s037-u026; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Why are you surprised? Is this the eighth wonder of the world?
 
 <!-- unit:tirumbippaar-en-s037-u027; source:PDF 47 / printed 39 -->
@@ -2203,7 +2208,7 @@ Why are you surprised? Is this the eighth wonder of the world?
 When did this desire come to you, father?
 
 <!-- unit:tirumbippaar-en-s037-u028; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Yes, boy! What a fine question! When did desire come, you ask? As though I have written down the year, month and date. You're asking for the horoscope of desire.
 
 <!-- unit:tirumbippaar-en-s037-u029; source:PDF 47 / printed 39 -->
@@ -2211,7 +2216,7 @@ Yes, boy! What a fine question! When did desire come, you ask? As though I have 
 Even if desire has no horoscope, there is a horoscope to prove that you have crossed sixty, father!
 
 <!-- unit:tirumbippaar-en-s037-u030; source:PDF 47 / printed 39 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Impertinent fellow!
 
 <!-- unit:tirumbippaar-en-s037-u031; source:PDF 47 / printed 39 -->
@@ -2219,7 +2224,7 @@ Impertinent fellow!
 Father! Don't ruin a young woman's life!
 
 <!-- unit:tirumbippaar-en-s037-u032; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Fool! I'm going to give a young woman a life! Don't rave without understanding! No one will marry this girl. She is mute!
 
 <!-- unit:tirumbippaar-en-s037-u033; source:PDF 48 / printed 40 -->
@@ -2227,7 +2232,7 @@ Fool! I'm going to give a young woman a life! Don't rave without understanding! 
 This mad society turns even women who can speak into silent women; would it leave mute women alive?
 
 <!-- unit:tirumbippaar-en-s037-u034; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 So what do you say now?
 
 <!-- unit:tirumbippaar-en-s037-u035; source:PDF 48 / printed 40 -->
@@ -2235,7 +2240,7 @@ So what do you say now?
 I ask you to change your decision.
 
 <!-- unit:tirumbippaar-en-s037-u036; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Impossible! You are the one who must change your decision. I was born before you!
 
 <!-- unit:tirumbippaar-en-s037-u037; source:PDF 48 / printed 40 -->
@@ -2243,15 +2248,15 @@ Impossible! You are the one who must change your decision. I was born before you
 Who denies it! You're at the age to fondle grandchildren!
 
 <!-- unit:tirumbippaar-en-s037-u038; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
-Is this how you should talk back to the man who gave birth to you, raised you and protected you?
+**புண்யகோடி**  
+After I brought you into the world, raised and protected you, and made you a man, is this how you should talk back to me?
 
 <!-- unit:tirumbippaar-en-s037-u039; source:PDF 48 / printed 40 -->
 **பாண்டியன்**  
-For that I offer you a thousand salutations. But at the age when you should be handing me the wedding garland at your son's marriage, you say you will become the bridegroom yourself; I can never permit that!
+For that I offer you a thousand salutations. But at the age when you should be handing over the garland at your son's wedding, you say you will become the bridegroom yourself; I can never permit that!
 
 <!-- unit:tirumbippaar-en-s037-u040; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Bah! Who are you to permit me? I'll do as I please.
 
 <!-- unit:tirumbippaar-en-s037-u041; source:PDF 48 / printed 40 -->
@@ -2259,7 +2264,7 @@ Bah! Who are you to permit me? I'll do as I please.
 Don't do it, father—don't make this disastrous decision!
 
 <!-- unit:tirumbippaar-en-s037-u042; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Bah! Don't speak to me!
 
 <!-- unit:tirumbippaar-en-s037-u043; source:PDF 48 / printed 40 -->
@@ -2267,7 +2272,7 @@ Bah! Don't speak to me!
 Your marriage?
 
 <!-- unit:tirumbippaar-en-s037-u044; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I'm going through with it.
 
 <!-- unit:tirumbippaar-en-s037-u045; source:PDF 48 / printed 40 -->
@@ -2275,7 +2280,7 @@ I'm going through with it.
 Have you come to hate me?
 
 <!-- unit:tirumbippaar-en-s037-u046; source:PDF 48 / printed 40 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I'll drive you out.
 
 <!-- unit:tirumbippaar-en-s037-u047; source:PDF 49 / printed 41 -->
@@ -2283,7 +2288,7 @@ I'll drive you out.
 You don't have to drive me out. I'll go myself.
 
 <!-- unit:tirumbippaar-en-s037-u048; source:PDF 49 / printed 41 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Get out! Don't show your face to me again! Go!
 
 <!-- unit:tirumbippaar-en-s037-u049; source:PDF 49 / printed 41 -->
@@ -2291,7 +2296,7 @@ Get out! Don't show your face to me again! Go!
 I'm going. May your intoxication clear soon. (He leaves.)
 
 <!-- unit:tirumbippaar-en-s037-u050; source:PDF 49 / printed 41 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Go on, go! 'May your intoxication clear,' he says. As though I'm sitting here drunk!
 
 ---
@@ -2303,17 +2308,17 @@ Go on, go! 'May your intoxication clear,' he says. As though I'm sitting here dr
 
 <!-- unit:tirumbippaar-en-s038-u002; source:PDF 49 / printed 41 -->
 **குரல்**  
-On the wedding day, one woman deceived me. Two women are competing for love. The bridal chamber of an old man who walks leaning on a staff is becoming a sacrificial rock for a woman. A women's world filled with both comedy and pain!
+On the wedding day, one woman deceived me. Two women are competing for love. The bedchamber of an old man who walks leaning on a staff is becoming a sacrificial rock for a woman. A women's world filled with both comedy and pain!
 
 <!-- unit:tirumbippaar-en-s038-u003; source:PDF 49 / printed 41 -->
-*(Pandiyan meets Poomaal. He stops with a start.)*
+*(Pandiyan meets Poomalai. He stops with a start.)*
 
 <!-- unit:tirumbippaar-en-s038-u004; source:PDF 49 / printed 41 -->
 **பாண்டியன்**  
-Poomaal!
+Poomalai!
 
 <!-- unit:tirumbippaar-en-s038-u005; source:PDF 49 / printed 41 -->
-**பூமால்**  
+**பூமாலை**  
 (Choked with emotion) Forgive me!...I disturbed your mind.
 
 <!-- unit:tirumbippaar-en-s038-u006; source:PDF 49 / printed 41 -->
@@ -2321,7 +2326,7 @@ Poomaal!
 You are the one who must forgive me! I was the cause of the dark spot called love appearing in your pure white heart!...
 
 <!-- unit:tirumbippaar-en-s038-u007; source:PDF 49 / printed 41 -->
-**பூமால்**  
+**பூமாலை**  
 Love is not a dark spot. Are unreachable grapes sour, Pandiyan? (In pain) Kumudha is the one who captured your heart! Accept her!
 
 <!-- unit:tirumbippaar-en-s038-u008; source:PDF 49 / printed 41 -->
@@ -2329,15 +2334,15 @@ Love is not a dark spot. Are unreachable grapes sour, Pandiyan? (In pain) Kumudh
 My life is an arena of contests! An earthquake! Gardens like Kumudha should not be caught in it and ruined!....
 
 <!-- unit:tirumbippaar-en-s038-u009; source:PDF 50 / printed 42 -->
-**பூமால்**  
-It is no longer an arena of contests. Poomaal has admitted defeat. So it is no earthquake either; it is a breeze carrying a new fragrance—Kumudha is your beautiful parrot, and so....
+**பூமாலை**  
+It is no longer an arena of contests. Poomalai has admitted defeat. So it is no earthquake either; it is a breeze carrying a new fragrance—Kumudha is calling you, and so....
 
 <!-- unit:tirumbippaar-en-s038-u010; source:PDF 50 / printed 42 -->
 **பாண்டியன்**  
-(Sadly) Poomaal....
+(Sadly) Poomalai....
 
 <!-- unit:tirumbippaar-en-s038-u011; source:PDF 50 / printed 42 -->
-**பூமால்**  
+**பூமாலை**  
 (With sorrowful resolve) Pandiyan, I have sacrificed my love—for my Kumudha!
 
 <!-- unit:tirumbippaar-en-s038-u012; source:PDF 50 / printed 42 -->
@@ -2345,23 +2350,23 @@ It is no longer an arena of contests. Poomaal has admitted defeat. So it is no e
 Are you alone entitled to sacrifice love? I have that right too.
 
 <!-- unit:tirumbippaar-en-s038-u013; source:PDF 50 / printed 42 -->
-**பூமால்**  
-No—accept my Kumudha! Don't deceive her!........She does not have the strength to carry sorrow! I beg you with a melting heart. Forget my mistakes! Come home!
+**பூமாலை**  
+No—accept my Kumudha! Don't deceive her! She does not have the strength to carry sorrow! I plead with you. Forget my mistakes! Come home!
 
 <!-- unit:tirumbippaar-en-s038-u014; source:PDF 50 / printed 42 -->
 **பாண்டியன்**  
-Poomaal....
+Poomalai....
 
 <!-- unit:tirumbippaar-en-s038-u015; source:PDF 50 / printed 42 -->
-**பூமால்**  
-I'm inviting you happily! You will wipe the tears of my precious Kumudha! It is enough for me if she lives! Come....
-
-<!-- unit:tirumbippaar-en-s038-u016; source:PDF 50 / printed 42 -->
-*(Pandiyan walks along with her.)*
+**பூமாலை**  
+I'm inviting you happily! Wipe the tears of my precious Kumudha! It is enough for me if she lives! Come....
 
 ---
 
 ## Scene 39
+
+<!-- unit:tirumbippaar-en-s039-u026; source:PDF 50 / printed 42 -->
+*(Pandiyan walks with her.)*
 
 <!-- unit:tirumbippaar-en-s039-u001; source:PDF 50 / printed 42 -->
 *(Mill-strike posters have been pasted on walls throughout the town.)*
@@ -2432,11 +2437,11 @@ If you can somehow stop this strike.....
 
 <!-- unit:tirumbippaar-en-s039-u019; source:PDF 51 / printed 43 -->
 **பரந்தாமன்**  
-It can be stopped. But that is possible only if Punnakodi is changed over!
+It can be stopped. But that is possible only if Punyakodi is won over!
 
 <!-- unit:tirumbippaar-en-s039-u020; source:PDF 51 / printed 43 -->
 **கருடன்**  
-Punnakodi....he'll ask for at least three thousand!
+Punyakodi....he'll ask for at least three thousand!
 
 <!-- unit:tirumbippaar-en-s039-u021; source:PDF 52 / printed 44 -->
 **முதலாளி**  
@@ -2453,9 +2458,6 @@ For the sake of your good nature, and because I want our friendship to continue,
 **முதலாளி**  
 Many thanks!
 
-<!-- unit:tirumbippaar-en-s039-u025; source:PDF 52 / printed 44 -->
-*(The two rise.)*
-
 ---
 
 ## Scene 40
@@ -2465,7 +2467,7 @@ Many thanks!
 (Standing up in the car) Dear workers! Our struggle has succeeded! The owner has trembled before our agitation!... He has assured me that very soon he will attend to the question of a wage increase! Warriors! We have won!
 
 <!-- unit:tirumbippaar-en-s040-u002; source:PDF 52 / printed 44 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 For our leader Paranthaman!
 
 <!-- unit:tirumbippaar-en-s040-u003; source:PDF 52 / printed 44 -->
@@ -2479,12 +2481,15 @@ Therefore, as your leader, I ask all of you to return peacefully to work. We wil
 <!-- unit:tirumbippaar-en-s040-u005; source:PDF 52 / printed 44 -->
 *(The scene ends amid slogans of 'Jai to Paranthaman!')*
 
+<!-- unit:tirumbippaar-en-s040-u006; source:PDF 52 / printed 44 -->
+*(The two rise.)*
+
 ---
 
 ## Scene 41
 
 <!-- unit:tirumbippaar-en-s041-u001; source:PDF 52→53 / printed 44→45 -->
-*(Paranthaman enters, removes his coat and hangs it on the stand, then goes upstairs. As he climbs, he throws away his cigarette; it falls into the pocket of the hanging coat. The pocket begins to smoke. Poomaal, passing that way, sees the coat catching fire, runs to it and puts it out. In the coat pocket she finds the bundle of notes received from the mill owner, sealed 'Sivasakthi Mills,' and her expression changes. In the same pocket is a small slip.)*
+*(Paranthaman enters, removes his coat and hangs it on the stand, then goes upstairs. As he climbs, he throws away his cigarette; it falls into the pocket of the hanging coat. The pocket begins to smoke. Poomalai, passing that way, sees the coat catching fire, runs to it and puts it out. In the coat pocket she finds the bundle of notes received from the mill owner, sealed 'Sivasakthi Mills,' and her expression changes. In the same pocket is a small slip.)*
 
 <!-- unit:tirumbippaar-en-s041-u002; source:PDF 53 / printed 45 -->
 *Written text*  
@@ -2494,7 +2499,7 @@ Sulochana ... 500
 Devaki ... 1200
 
 <!-- unit:tirumbippaar-en-s041-u003; source:PDF 53 / printed 45 -->
-*(Poomaal takes these and goes inside. Pandiyan arrives holding a newspaper, comes into the hall, sits down and reads.)*
+*(Poomalai takes these and goes inside. Pandiyan arrives holding a newspaper, comes into the hall, sits down and reads.)*
 
 <!-- unit:tirumbippaar-en-s041-u004; source:PDF 53 / printed 45 -->
 *Written text*  
@@ -2528,21 +2533,21 @@ What are you saying now?
 
 <!-- unit:tirumbippaar-en-s041-u012; source:PDF 54 / printed 46 -->
 **பரந்தாமன்**  
-Hey! So that's it. You've started stealing even inside the house! Even I don't steal at home....
+Hey! So that's it. You've started stealing even inside the house! Even I don't steal at home.
 
 <!-- unit:tirumbippaar-en-s041-u013; source:PDF 54 / printed 46 -->
-*(He hears a voice call 'Paranthama,' turns, and Poomaal enters.)*
+*(He hears a voice call 'Paranthama,' turns, and Poomalai enters.)*
 
 <!-- unit:tirumbippaar-en-s041-u014; source:PDF 54 / printed 46 -->
-**பூமால்**  
-What is it?...
+**பூமாலை**  
+What is it?
 
 <!-- unit:tirumbippaar-en-s041-u015; source:PDF 54 / printed 46 -->
 **பரந்தாமன்**  
 Look, Akka. I had some money; he stole it.
 
 <!-- unit:tirumbippaar-en-s041-u016; source:PDF 54 / printed 46 -->
-**பூமால்**  
+**பூமாலை**  
 Which money?
 
 <!-- unit:tirumbippaar-en-s041-u017; source:PDF 54 / printed 46 -->
@@ -2550,7 +2555,7 @@ Which money?
 I brought it from the publishing office.
 
 <!-- unit:tirumbippaar-en-s041-u018; source:PDF 54 / printed 46 -->
-**பூமால்**  
+**பூமாலை**  
 I know where you brought it from.
 
 <!-- unit:tirumbippaar-en-s041-u019; source:PDF 54 / printed 46 -->
@@ -2558,7 +2563,7 @@ I know where you brought it from.
 That's the truth, Akka!
 
 <!-- unit:tirumbippaar-en-s041-u020; source:PDF 54 / printed 46 -->
-**பூமால்**  
+**பூமாலை**  
 Look, it has a seal on it. You thundered, 'For the toiling worker with a backbone, is Mukhari the enchanting song?' Look—the seal says this is money the mill owner gave you as a reward for that thunderous slogan!
 
 <!-- unit:tirumbippaar-en-s041-u021; source:PDF 54 / printed 46 -->
@@ -2566,10 +2571,10 @@ Look, it has a seal on it. You thundered, 'For the toiling worker with a backbon
 
 <!-- unit:tirumbippaar-en-s041-u022; source:PDF 54 / printed 46 -->
 **பரந்தாமன்**  
-Oh....so he stole the money and gave it to you?
+Oh.... so he stole the money and gave it to you?
 
 <!-- unit:tirumbippaar-en-s041-u023; source:PDF 54 / printed 46 -->
-**பூமால்**  
+**பூமாலை**  
 Enough! After acting as a blackleg, betraying the poor and taking a payoff, you still have the nerve to speak.
 
 <!-- unit:tirumbippaar-en-s041-u024; source:PDF 55 / printed 47 -->
@@ -2577,15 +2582,15 @@ Enough! After acting as a blackleg, betraying the poor and taking a payoff, you 
 Akka! You don't know why I took it. It was to add it to the workers' welfare fund!
 
 <!-- unit:tirumbippaar-en-s041-u025; source:PDF 55 / printed 47 -->
-**பூமால்**  
-I read that too.... Look here.... One thousand for Kalyani, three hundred for Subathra, five hundred for Sulochana, one thousand two hundred for Devaki.
+**பூமாலை**  
+I read that too.... Look here. One thousand for Kalyani, three hundred for Subathra, five hundred for Sulochana, one thousand two hundred for Devaki.
 
 <!-- unit:tirumbippaar-en-s041-u026; source:PDF 55 / printed 47 -->
 **பரந்தாமன்**  
-(Trying to manage the situation) Ha ha ha—oh, oh, did you misunderstand that? Ayyo, Rama, Muruga! Garudan and I are going to open a cinema theatre. Kalyani, Subathra, Sulochana, Devaki—this is the account of advances paid to release all those films there! Ha ha ha, that's all, that's all....
+(Trying to manage the situation) Ha ha ha—oh, oh, did you misunderstand that? Ayyo, Rama, Muruga! Garudan and I are going to open a cinema theatre. Kalyani, Subathra, Sulochana, Devaki—this is the account of advances paid to release all those films there! Ha ha ha, ayyo, ayyo.
 
 <!-- unit:tirumbippaar-en-s041-u027; source:PDF 55 / printed 47 -->
-*(He picks up the money and the slip that Poomaal placed on the table. His mocking laughter turns to anger and, in the same action, he turns to Pandiyan.)*
+*(He picks up the money and the slip that Poomalai placed on the table. His mocking laughter turns to anger and, in the same action, he turns to Pandiyan.)*
 
 <!-- unit:tirumbippaar-en-s041-u028; source:PDF 55 / printed 47 -->
 **பரந்தாமன்**  
@@ -2607,10 +2612,10 @@ Speak respectfully!
 You should learn that yourself, Uncle!
 
 <!-- unit:tirumbippaar-en-s041-u033; source:PDF 55 / printed 47 -->
-*(She comes and stands beside Pandiyan. Realising the situation may worsen, Poomaal turns to Kumudha.)*
+*(She comes and stands beside Pandiyan. Realising the situation may worsen, Poomalai turns to Kumudha.)*
 
 <!-- unit:tirumbippaar-en-s041-u034; source:PDF 55 / printed 47 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha! Take him inside, dear!
 
 <!-- unit:tirumbippaar-en-s041-u035; source:PDF 55 / printed 47 -->
@@ -2625,15 +2630,18 @@ Yes! Take him inside, sing 'Aararo,' and lull the baby to sleep!
 (Angrily) Enough!
 
 <!-- unit:tirumbippaar-en-s041-u038; source:PDF 56 / printed 48 -->
-**பூமால்**  
+**பூமாலை**  
 (Sharply) Kumudha!
+
+<!-- unit:tirumbippaar-en-s041-u052; source:PDF 56 / printed 48 -->
+*(Kumudha leaves with Pandiyan.)*
 
 <!-- unit:tirumbippaar-en-s041-u039; source:PDF 56 / printed 48 -->
 **பரந்தாமன்**  
 I can't tell whether this is a house or a brothel!
 
 <!-- unit:tirumbippaar-en-s041-u040; source:PDF 56 / printed 48 -->
-**பூமால்**  
+**பூமாலை**  
 Paranthama! Speak calmly!
 
 <!-- unit:tirumbippaar-en-s041-u041; source:PDF 56 / printed 48 -->
@@ -2641,35 +2649,43 @@ Paranthama! Speak calmly!
 Then what? Is it proper to let an unmarried girl go around with some good-for-nothing fellow?
 
 <!-- unit:tirumbippaar-en-s041-u042; source:PDF 56 / printed 48 -->
-**பூமால்**  
+**பூமாலை**  
 She is married. Pandiyan and Kumudha are husband and wife.
 
 <!-- unit:tirumbippaar-en-s041-u043; source:PDF 56 / printed 48 -->
 **பரந்தாமன்**  
-A love marriage—or did you dream it up?
+A Gandharva marriage—or did you dream it up?
 
 <!-- unit:tirumbippaar-en-s041-u044; source:PDF 56 / printed 48 -->
-**பூமால்**  
+**பூமாலை**  
 A registered marriage.
 
 <!-- unit:tirumbippaar-en-s041-u045; source:PDF 56 / printed 48 -->
 **பரந்தாமன்**  
 A registered marriage. I am here—there is still a man in this house. A registered marriage without my knowing....
 
+<!-- unit:tirumbippaar-en-s041-u050; source:PDF 56 / printed 48 -->
+**பூமாலை**  
+You live in this house? At least the word 'house' has come from your mouth—that alone makes me happy!...
+
+<!-- unit:tirumbippaar-en-s041-u051; source:PDF 56 / printed 48 -->
+**பரந்தாமன்**  
+Akka! I understand you now. I understand that all the affection you showed, calling me 'little brother, little brother,' was mere pretence. Otherwise, after telling me as though affection overflowed, 'Kumudha lives for you; she is your wife,' would you now say that you have made her the wife of some orphaned fellow!
+
 <!-- unit:tirumbippaar-en-s041-u046; source:PDF 56→57 / printed 48→49 -->
-**பூமால்**  
-Why do you need a wife? You get wives whenever you wish! Ask mother... To shower money on those beauties who ask for 'kaamala jeevaviyam,' there are innocent workers to pawn to the mill owner....
+**பூமாலை**  
+Why do you need a wife? Whenever you wish, wives are available to you! For those beauties who ask for wealth without asking for love, there are innocent workers to pawn to the mill owner so that you can lavish money on them...
 
 <!-- unit:tirumbippaar-en-s041-u047; source:PDF 57 / printed 49 -->
 **பரந்தாமன்**  
 Enough, stop!
 
 <!-- unit:tirumbippaar-en-s041-u048; source:PDF 57 / printed 49 -->
-**பூமால்**  
+**பூமாலை**  
 Intelligent! Pure! I expected praises like these to come to you. I never imagined words of blame like 'debauchee' and 'wrongdoer' would come instead.
 
 <!-- unit:tirumbippaar-en-s041-u049; source:PDF 57 / printed 49 -->
-*(Paranthaman leaves. Poomaal stands there, distressed, watching him go.)*
+*(Paranthaman leaves. Poomalai stands there, distressed, watching him go.)*
 
 ---
 
@@ -2696,18 +2712,18 @@ Which magazine would I write for....
 
 <!-- unit:tirumbippaar-en-s042-u006; source:PDF 57 / printed 49 -->
 **குமுதா**  
-Well then, let's hear the song....
-
-<!-- unit:tirumbippaar-en-s042-u007; source:PDF 57 / printed 49 -->
-*(Pandiyan sings what he has written.)*
-
-<!-- unit:tirumbippaar-en-s042-u008; source:PDF 57 / printed 49 -->
-*Song / performance reference*  
-> “Kalappadam, kalappadam” [“Adulteration, adulteration”]
+Well then, let's hear the song.
 
 ---
 
 ## Scene 43
+
+<!-- unit:tirumbippaar-en-s043-u003; source:PDF 57 / printed 49 -->
+*(Pandiyan sings what he has written.)*
+
+<!-- unit:tirumbippaar-en-s043-u004; source:PDF 57 / printed 49 -->
+*Song / performance reference*  
+> “Kalappadam, kalappadam” [“Adulteration, adulteration”]
 
 <!-- unit:tirumbippaar-en-s043-u001; source:PDF 57 / printed 49 -->
 *Song / performance reference*  
@@ -2725,19 +2741,19 @@ Well then, let's hear the song....
 
 <!-- unit:tirumbippaar-en-s044-u002; source:PDF 58 / printed 50 -->
 **பாண்டியன்**  
-Comrades! A few traitors have set out claiming that they are serving the suffering working class. Workers are a beautiful garland woven from the flowers of enthusiasm. Do not place it around a minister's neck merely to admire it. Do not trust a false leader who mortgages your feeling, your rights, your enthusiasm and your fervour in order to earn name, fame and money.
+Comrades! A few traitors have set out claiming that they are serving the suffering working class. Workers are a beautiful garland woven from the flowers of enthusiasm. Do not put it around a monkey's neck merely to admire it. Do not trust a false leader who mortgages your feeling, your rights, your enthusiasm and your fervour in order to earn name, fame and money.
 
 <!-- unit:tirumbippaar-en-s044-u003; source:PDF 58 / printed 50 -->
 *(Garudan becomes angry.)*
 
 <!-- unit:tirumbippaar-en-s044-u004; source:PDF 58 / printed 50 -->
-I am no coward who says there should be no struggle. Those who incite you to struggle are not tigers. I say this only to warn you that they are cats wearing tiger skins.... No rational person will reject a non-violent liberation struggle. But an agitation without a foundation will fall like a tall tree without roots. Pomp, newspaper publicity, cries of 'Jai' to Paranthaman—these displays cannot make anyone the leader of the workers.
+I am no coward who says there should be no struggle. Those who incite you to struggle are not tigers; they are cats seeking fame. I say this only to warn you.... No rational person will reject a non-violent liberation struggle. But an agitation without a foundation will fall like a tall tree without roots. Pomp, newspaper publicity, cries of 'Jai' to Paranthaman—these displays cannot make anyone the leader of the toilers.
 
 <!-- unit:tirumbippaar-en-s044-u005; source:PDF 58 / printed 50 -->
 *(Applause.)*
 
 <!-- unit:tirumbippaar-en-s044-u006; source:PDF 58 / printed 50 -->
-*(Garudan storms away in anger.)*
+*(Garudan leaves angrily.)*
 
 ---
 
@@ -2751,7 +2767,7 @@ I am no coward who says there should be no struggle. Those who incite you to str
 I heaved a sigh of relief thinking one fellow was gone. Now another one sprouts up—Pandiyan.
 
 <!-- unit:tirumbippaar-en-s045-u003; source:PDF 58 / printed 50 -->
-**ஊஷா**  
+**உஷா**  
 Can you think everyone is like Paranthaman and knock them down with money? People firm in their ideals will not bow their heads before the safe, Appa!
 
 <!-- unit:tirumbippaar-en-s045-u004; source:PDF 59 / printed 51 -->
@@ -2759,7 +2775,7 @@ Can you think everyone is like Paranthaman and knock them down with money? Peopl
 Keep quiet, Usha! You don't know anything!
 
 <!-- unit:tirumbippaar-en-s045-u005; source:PDF 59 / printed 51 -->
-**ஊஷா**  
+**உஷா**  
 What, Appa? Is it your opinion that a lady doctor knows nothing about the world?
 
 <!-- unit:tirumbippaar-en-s045-u006; source:PDF 59 / printed 51 -->
@@ -2767,15 +2783,15 @@ What, Appa? Is it your opinion that a lady doctor knows nothing about the world?
 Lady doctor!... These workers keep tormenting me with 'workers, workers' and cause me losses running into thousands. Can you give medicine for that mental anguish?
 
 <!-- unit:tirumbippaar-en-s045-u007; source:PDF 59 / printed 51 -->
-**ஊஷா**  
-Oh! I can. But this medicine must be placed on the leaf called the heart, mixed with the honey called compassion, and taken. Do you know the name of the medicine, Appa? Social justice. Equality. It will taste a little bitter at first. Then it will become all right.
+**உஷா**  
+Oh! I can. But this medicine must be placed on the leaf called the heart, mixed with the honey called compassion, and taken. Do you know the name of the medicine, Appa? Egalitarianism. Equality. It will taste a little bitter at first. Then it will become all right.
 
 <!-- unit:tirumbippaar-en-s045-u008; source:PDF 59 / printed 51 -->
 **முதலாளி**  
 Usha!
 
 <!-- unit:tirumbippaar-en-s045-u009; source:PDF 59 / printed 51 -->
-**ஊஷா**  
+**உஷா**  
 Why are you getting angry? Attend to the workers' grievances. Everything will settle down.
 
 <!-- unit:tirumbippaar-en-s045-u010; source:PDF 59 / printed 51 -->
@@ -2783,7 +2799,7 @@ Why are you getting angry? Attend to the workers' grievances. Everything will se
 
 <!-- unit:tirumbippaar-en-s045-u011; source:PDF 59 / printed 51 -->
 **பியூன்**  
-Pandiyan too has come to see you.
+It's Pandiyan. He has come to see you.
 
 <!-- unit:tirumbippaar-en-s045-u012; source:PDF 59 / printed 51 -->
 **முதலாளி**  
@@ -2810,7 +2826,7 @@ I know. Ask for however much money you want to suppress them; I'll give it.
 
 <!-- unit:tirumbippaar-en-s045-u018; source:PDF 59→60 / printed 51→52 -->
 **பாண்டியன்**  
-Sir! I am not Paranthaman, who thunders, 'The owner on the bed—the worker in famine,' and then gets caught in bribery. I am Pandiyan—a comrade of the workers....
+Sir! I am not Paranthaman, who thunders, 'The owner on the bed—the toiler in famine,' and then swims in bribes. I am Pandiyan—a comrade of the toilers....
 
 <!-- unit:tirumbippaar-en-s045-u019; source:PDF 60 / printed 52 -->
 **முதலாளி**  
@@ -2826,7 +2842,7 @@ Sighs, labour, sweat, blood—I've heard all this so much that my ears are block
 
 <!-- unit:tirumbippaar-en-s045-u022; source:PDF 60 / printed 52 -->
 **பாண்டியன்**  
-Your ears will become blocked, your eyes will go dark, your mouth will close. Your hands will stop moving! In the end, even your heart will stop. I am warning you so that such a pitiable state does not come about.
+Your ears will become blocked, your eyes will go dark, your mouth will close. Your hands and legs will not move! In the end, even your heart will stop. I am warning you so that such a pitiable state does not come about.
 
 <!-- unit:tirumbippaar-en-s045-u023; source:PDF 60 / printed 52 -->
 **முதலாளி**  
@@ -2853,7 +2869,7 @@ You man of luxury! Remember this.
 
 <!-- unit:tirumbippaar-en-s046-u001; source:PDF 60 / printed 52 -->
 **பரந்தாமன்**  
-(To Garudan) I spoke so much at the meeting—did you listen to it all and come back?... Hmm...
+(To Garudan) He spoke that much at the meeting, and you just listened and came away...hmm...
 
 <!-- unit:tirumbippaar-en-s046-u002; source:PDF 60 / printed 52 -->
 **கருடன்**  
@@ -2879,21 +2895,21 @@ Even if he walks around as a corpse, it will be dangerous to your greatness.
 **பரந்தாமன்**  
 I'll finish it. I'll finish it today itself.
 
-<!-- unit:tirumbippaar-en-s046-u008; source:PDF 61 / printed 53 -->
-*(He opens the table drawer and takes out a revolver.)*
-
 ---
 
 ## Scene 47
+
+<!-- unit:tirumbippaar-en-s047-u023; source:PDF 61 / printed 53 -->
+*(He opens the table drawer and takes out a revolver.)*
 
 <!-- unit:tirumbippaar-en-s047-u001; source:PDF 61 / printed 53 -->
 *(Pandiyan and Kumudha are asleep from exhaustion. Paranthaman comes, fires, and runs away; the shot hits the large mirror. Pandiyan and Kumudha wake and cling to each other in fear.)*
 
 <!-- unit:tirumbippaar-en-s047-u002; source:PDF 61 / printed 53 -->
-*(Paranthaman runs down the stairs. Hearing the sound, Poomaal comes crying 'Kumudha, Kumudha' and meets him on the staircase.)*
+*(Paranthaman runs down the stairs. Hearing the sound, Poomalai comes crying 'Kumudha, Kumudha' and meets him on the staircase.)*
 
 <!-- unit:tirumbippaar-en-s047-u003; source:PDF 61 / printed 53 -->
-**பூமால்**  
+**பூமாலை**  
 Paranthaman! You sinner! What have you done!
 
 <!-- unit:tirumbippaar-en-s047-u004; source:PDF 61 / printed 53 -->
@@ -2904,7 +2920,7 @@ Leave me. In this world Paranthaman must have neither enemies nor people who are
 *(He says this and leaves in fury.)*
 
 <!-- unit:tirumbippaar-en-s047-u006; source:PDF 61 / printed 53 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha! Kumudha!
 
 <!-- unit:tirumbippaar-en-s047-u007; source:PDF 61 / printed 53 -->
@@ -2914,7 +2930,7 @@ Kumudha! Kumudha!
 *(Kumudha's room.)*
 
 <!-- unit:tirumbippaar-en-s047-u009; source:PDF 61 / printed 53 -->
-**பூமால்**  
+**பூமாலை**  
 (Screaming) Kumudha...
 
 <!-- unit:tirumbippaar-en-s047-u010; source:PDF 61 / printed 53 -->
@@ -2930,7 +2946,7 @@ Someone has tried to kill me.
 Who else could it be? It is the enemy within our own house, Chinnamma! Either we must leave this house, or your brother must leave.
 
 <!-- unit:tirumbippaar-en-s047-u013; source:PDF 62 / printed 54 -->
-**பூமால்**  
+**பூமாலை**  
 What right do you or I have to tell him to leave?
 
 <!-- unit:tirumbippaar-en-s047-u014; source:PDF 62 / printed 54 -->
@@ -2942,11 +2958,11 @@ So you have the right only to let my husband be murdered?
 Kumudha! What is this!
 
 <!-- unit:tirumbippaar-en-s047-u016; source:PDF 62 / printed 54 -->
-**பூமால்**  
-Let her speak. Let her speak. She alone was left! Once she too has spoken, what more do I have to lack?
+**பூமாலை**  
+Let her speak. Let her speak. She alone was left! Once she too has spoken, what more is left for me?
 
 <!-- unit:tirumbippaar-en-s047-u017; source:PDF 62 / printed 54 -->
-**பூமால்**  
+**பூமாலை**  
 Pandiyan! Please listen to what I say. You and Kumudha should leave this town for a few days....
 
 <!-- unit:tirumbippaar-en-s047-u018; source:PDF 62 / printed 54 -->
@@ -2954,15 +2970,15 @@ Pandiyan! Please listen to what I say. You and Kumudha should leave this town fo
 Out of fear of death? Uh-uh...
 
 <!-- unit:tirumbippaar-en-s047-u019; source:PDF 62 / printed 54 -->
-**பூமால்**  
-For my Kumudha. So that the flowering grove in her hair, where even the cuckoo might dwell, is not destroyed, grant me this one boon, Pandiyan. My Kumudha has never even touched suffering. I know that even if she were cut into pieces, you are the great medicine that could join them again without breaking continuity. I will not allow that medicine—Kumudha's feast of happiness—to be destroyed. Please. I sacrificed my love for you, did I not? (Kumudha reacts.) In the name of that sacrifice, in the name of that love, I ask you. I beg you. Agree.
+**பூமாலை**  
+For my Kumudha. So that the flower-grove swaying in her hair is not destroyed, grant me this one boon, Pandiyan. My Kumudha has never even touched suffering. I know that even if she were cut into pieces, you are the great medicine that could join them again without breaking continuity. I will not allow that medicine, Kumudha's feast of happiness, to be destroyed. Please. I sacrificed my love for you, did I not? (Kumudha action.) In the name of that sacrifice, in the name of that love, I ask you. I beg you. Agree.
 
 <!-- unit:tirumbippaar-en-s047-u020; source:PDF 62 / printed 54 -->
 **குமுதா**  
 Chinnamma... (runs to her).
 
 <!-- unit:tirumbippaar-en-s047-u021; source:PDF 62 / printed 54 -->
-**பூமால்**  
+**பூமாலை**  
 Look at my Kumudha, Pandiyan. Protect her so that her life is not ruined. Both of you go to Madras. You can return after your enemy's anger has subsided......
 
 <!-- unit:tirumbippaar-en-s047-u022; source:PDF 62 / printed 54 -->
@@ -2974,14 +2990,14 @@ All right. We will do as you wish......
 ## Scene 48
 
 <!-- unit:tirumbippaar-en-s048-u001; source:PDF 63 / printed 55 -->
-*(Punnakodi and two or three workers come along talking.)*
+*(Punyakodi and two or three workers come along talking.)*
 
 <!-- unit:tirumbippaar-en-s048-u002; source:PDF 63 / printed 55 -->
 **ஒரு தொழிலாளி**  
-(To Punnakodi) What is this, master? You said the owner would soon attend to all our grievances, but we don't see anything happening!
+(To Punyakodi) What is this, foreman? You said the owner would soon attend to all our grievances, but we don't see anything happening!
 
 <!-- unit:tirumbippaar-en-s048-u003; source:PDF 63 / printed 55 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 All that will happen soon, you'll see!... If it doesn't, our leader will begin the final struggle!
 
 <!-- unit:tirumbippaar-en-s048-u004; source:PDF 63 / printed 55 -->
@@ -2989,7 +3005,7 @@ All that will happen soon, you'll see!... If it doesn't, our leader will begin t
 All right... but some people say even the January struggle we started has fizzled out!
 
 <!-- unit:tirumbippaar-en-s048-u005; source:PDF 63 / printed 55 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 They'll talk, they'll talk! Fools. They have taken our leader Paranthaman for an ordinary man! Tell them a tiger crouches only as a sign that it is about to pounce.
 
 <!-- unit:tirumbippaar-en-s048-u006; source:PDF 63 / printed 55 -->
@@ -2997,18 +3013,18 @@ They'll talk, they'll talk! Fools. They have taken our leader Paranthaman for an
 Pandiyan's doubt is whether the thing crouching is a tiger or a cat!
 
 <!-- unit:tirumbippaar-en-s048-u007; source:PDF 63 / printed 55 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Pandiyan... don't talk to me about that fellow... the scoundrel! Nowhere in the whole world have I seen a fellow who tries to stop his father from getting married.
 
 <!-- unit:tirumbippaar-en-s048-u008; source:PDF 63 / printed 55 -->
 **தொழிலாளி**  
-All right, master, we'll be going...
+All right, foreman, we'll be going...
 
 <!-- unit:tirumbippaar-en-s048-u009; source:PDF 63 / printed 55 -->
 *(Paranthaman is standing near his car.)*
 
 <!-- unit:tirumbippaar-en-s048-u010; source:PDF 63 / printed 55 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Greetings...
 
 <!-- unit:tirumbippaar-en-s048-u011; source:PDF 63 / printed 55 -->
@@ -3016,15 +3032,15 @@ Greetings...
 What... ah...
 
 <!-- unit:tirumbippaar-en-s048-u012; source:PDF 63 / printed 55 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Just finished work at the mill...
 
 <!-- unit:tirumbippaar-en-s048-u013; source:PDF 63 / printed 55 -->
 **பரந்தாமன்**  
-Hmm... I've been to the union side and am returning...
+Hmm... I'm going over to the union and will be back...
 
 <!-- unit:tirumbippaar-en-s048-u014; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Is that so? Come, let's go home.
 
 <!-- unit:tirumbippaar-en-s048-u015; source:PDF 64 / printed 56 -->
@@ -3032,7 +3048,7 @@ Is that so? Come, let's go home.
 I have urgent work...
 
 <!-- unit:tirumbippaar-en-s048-u016; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Come on... you didn't even come to our wedding. At least have a cup of coffee as the wedding feast and go.
 
 <!-- unit:tirumbippaar-en-s048-u017; source:PDF 64 / printed 56 -->
@@ -3040,7 +3056,7 @@ Come on... you didn't even come to our wedding. At least have a cup of coffee as
 Oh... your wife is here, is she!
 
 <!-- unit:tirumbippaar-en-s048-u018; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Yes.
 
 <!-- unit:tirumbippaar-en-s048-u019; source:PDF 64 / printed 56 -->
@@ -3052,33 +3068,33 @@ All right, come. We'll go in the car.
 ## Scene 49
 
 <!-- unit:tirumbippaar-en-s049-u001; source:PDF 64 / printed 56 -->
-*(The car stops. Paranthaman and Punnakodi get down.)*
+*(The car stops. Paranthaman and Punyakodi get down.)*
 
 <!-- unit:tirumbippaar-en-s049-u002; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
-Come! Come inside...
+**புண்யகோடி**  
+Come! Come inside.
 
 <!-- unit:tirumbippaar-en-s049-u003; source:PDF 64 / printed 56 -->
 **பரந்தாமன்**  
 You conducted the wedding very economically, didn't you....
 
 <!-- unit:tirumbippaar-en-s049-u004; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
-Yes..... (turning inside) Radha, Radha, come here for a moment.
+**புண்யகோடி**  
+Yes.... (turning inside) Radha, Radha, come here for a moment.
 
 <!-- unit:tirumbippaar-en-s049-u005; source:PDF 64 / printed 56 -->
-*(Radha comes and stands there; indicating him.)*
+*(Radha comes and stands there; indicating her.)*
 
 <!-- unit:tirumbippaar-en-s049-u006; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
-This is...
+**புண்யகோடி**  
+This is....
 
 <!-- unit:tirumbippaar-en-s049-u007; source:PDF 64 / printed 56 -->
 **பரந்தாமன்**  
 Oh... Pandiyan has a younger sister too?
 
 <!-- unit:tirumbippaar-en-s049-u008; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Younger sister! She's his stepmother! My wife...
 
 <!-- unit:tirumbippaar-en-s049-u009; source:PDF 64 / printed 56 -->
@@ -3086,30 +3102,30 @@ Younger sister! She's his stepmother! My wife...
 Oh... is that so....
 
 <!-- unit:tirumbippaar-en-s049-u010; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
-(Silly laugh) Radha! If there's any coffee, bring it quickly...
+**புண்யகோடி**  
+(Silly laugh) Radha! If there's tea or coffee, bring something quickly...
 
 <!-- unit:tirumbippaar-en-s049-u011; source:PDF 64 / printed 56 -->
 *(Radha goes inside.)*
 
 <!-- unit:tirumbippaar-en-s049-u012; source:PDF 64 / printed 56 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 A girl worth her weight in gold! Only one defect—she is mute! She's somewhat educated...
 
 <!-- unit:tirumbippaar-en-s049-u013; source:PDF 65 / printed 57 -->
 **பரந்தாமன்**  
-Poor thing?
+Can she sing?
 
 <!-- unit:tirumbippaar-en-s049-u014; source:PDF 65 / printed 57 -->
-**புண்ணகோடி**  
-What do you mean, brother? I'm saying she's mute...
+**புண்யகோடி**  
+How can she sing, brother? I'm telling you she's mute...
 
 <!-- unit:tirumbippaar-en-s049-u015; source:PDF 65 / printed 57 -->
 **பரந்தாமன்**  
-Oh...... Why, even Kumudha can't properly say a word. She makes some kind of noise, and he treats it as Kumudha singing.
+Oh! Does a cuckoo call by speaking words? It makes some sound; even that they call the cuckoo singing.
 
 <!-- unit:tirumbippaar-en-s049-u016; source:PDF 65 / printed 57 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Hee, hee, hee... yes... yes. You said that very well.
 
 <!-- unit:tirumbippaar-en-s049-u017; source:PDF 65 / printed 57 -->
@@ -3117,10 +3133,10 @@ Hee, hee, hee... yes... yes. You said that very well.
 
 <!-- unit:tirumbippaar-en-s049-u018; source:PDF 65 / printed 57 -->
 **பரந்தாமன்**  
-You married at this old age so that you could have her cook for you and eat, have her sing music and enjoy it, didn't you?
+At this old age, marrying is so that you can have her cook for you and eat, have her sing music and enjoy it, isn't it?
 
 <!-- unit:tirumbippaar-en-s049-u019; source:PDF 65 / printed 57 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 You know how it is. All my time is spent labouring for that wretched mill.
 
 <!-- unit:tirumbippaar-en-s049-u020; source:PDF 65 / printed 57 -->
@@ -3128,8 +3144,8 @@ You know how it is. All my time is spent labouring for that wretched mill.
 Poor thing... and at this old age too...
 
 <!-- unit:tirumbippaar-en-s049-u021; source:PDF 65 / printed 57 -->
-**புண்ணகோடி**  
-What, brother, why do you keep saying I've grown old?... (taking the coffee) Brother, you've made plans for how the workers' matter should proceed, haven't you?... Don't forget it...
+**புண்யகோடி**  
+What, brother, why do you keep saying I've grown old?... (taking the coffee from Radha) Brother, you've made plans for how the workers' matter should proceed, haven't you?... Don't forget it...
 
 <!-- unit:tirumbippaar-en-s049-u022; source:PDF 65 / printed 57 -->
 *(They drink coffee.)*
@@ -3139,7 +3155,7 @@ What, brother, why do you keep saying I've grown old?... (taking the coffee) Bro
 Would I forget? I will never forget. This Paranthaman has never left unfinished what he set his mind on....
 
 <!-- unit:tirumbippaar-en-s049-u024; source:PDF 65 / printed 57 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I was wondering where you might leave it unfinished.
 
 <!-- unit:tirumbippaar-en-s049-u025; source:PDF 65 / printed 57 -->
@@ -3182,54 +3198,48 @@ That isn't who I mean. I mean those who surrender their reason to the smiles of 
 ## Scene 51
 
 <!-- unit:tirumbippaar-en-s051-u001; source:PDF 66 / printed 58 -->
-**புண்ணகோடி**  
-Yes, yes! That's me. Do you doubt even that?... Hmm... You're thinking about what I looked like twenty years ago! I'm thinking about what you'll look like twenty years from now... Hmm, it'll come out about right—wondering whether you'll look passable.... Hmm, leave that, you donkey....
-
-<!-- unit:tirumbippaar-en-s051-u002; source:PDF 66 / printed 58 -->
-*(Going to her.)*
-
-<!-- unit:tirumbippaar-en-s051-u003; source:PDF 66 / printed 58 -->
-Then shall I go and come back? Shall I go and come back, I ask.... (He leaves, then returns.) I forgot to ask... What are you cooking today? I'm asking what you're cooking today....
+**புண்யகோடி**  
+Yes, yes! That's me. Do you doubt even that?... Hmm... You're thinking about what I looked like twenty years ago! I'm thinking about what you'll look like twenty years from now... Hmm... ‘all things come turning, like a cord...’—leave that, you donkey.... (Going to her) Then shall I go and come back? I asked if I may go and come back... (He goes, then returns) I forgot to ask. What are you cooking today? I'm asking what you're cooking today...
 
 <!-- unit:tirumbippaar-en-s051-u004; source:PDF 66 / printed 58 -->
-*(Radha points by rubbing Punnakodi's belly.)*
+*(Radha indicates by rubbing Punyakodi's belly.)*
 
 <!-- unit:tirumbippaar-en-s051-u005; source:PDF 67 / printed 59 -->
-**புண்ணகோடி**  
-Radha! No more of this trouble from now on. I may have been in such a hurry to marry out of desire.... (Taking paper and pencil.) Here, keep this paper. Keep this pencil stub. For everything, show me by writing it down.
+**புண்யகோடி**  
+Radha! No more of this trouble from now on. I married out of desire only to end up suffering.... (Taking paper and pencil) Here, keep this paper. Keep this pencil stub. For everything, show me by writing it down.
 
 <!-- unit:tirumbippaar-en-s051-u006; source:PDF 67 / printed 59 -->
-*(Radha stares in bewilderment.)*
+*(Radha stares without understanding.)*
 
 <!-- unit:tirumbippaar-en-s051-u007; source:PDF 67 / printed 59 -->
-**புண்ணகோடி**  
-From now on, write everything down. Shall I g—o and come back, Radha? Shall I go and come back?... That's what I asked!.... (He leaves.)
+**புண்யகோடி**  
+From now on, show me everything by writing it down! Shall I go and come back, Radha? I asked if I may go and come back... Forget it! (He leaves.)
 
 ---
 
 ## Scene 52
 
 <!-- unit:tirumbippaar-en-s052-u001; source:PDF 67 / printed 59 -->
-*(Punnakodi and several workers are sitting after having refreshments.)*
+*(Punyakodi and several workers are having refreshments.)*
 
 <!-- unit:tirumbippaar-en-s052-u002; source:PDF 67 / printed 59 -->
-**புண்ணகோடி**  
-You cannot find a motherly man like Paranthaman even if you search while eating. For good conduct and upright behaviour, our Paranthaman alone is the one and only example.
+**புண்யகோடி**  
+(While eating.) You cannot find an upright leader like Paranthaman. For good conduct and honest behaviour, our Paranthaman alone is the one and only example.
 
 <!-- unit:tirumbippaar-en-s052-u003; source:PDF 67 / printed 59 -->
 **தொழிலாளி ஒருவன்**  
 You're praising him, but your own son has written 'The False Leader.'
 
 <!-- unit:tirumbippaar-en-s052-u004; source:PDF 67 / printed 59 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 The boy writes—he's lost his sense. Is he my son? He's a traitor.
 
 <!-- unit:tirumbippaar-en-s052-u005; source:PDF 67 / printed 59 -->
 **தொழிலாளி**  
-Keep quiet. Pandiyan goes on exposing falsehood and showing the way of reason—he is a servant of truth.
+Keep quiet. Pandiyan is a great rationalist! A hero of ideals! A true servant!
 
 <!-- unit:tirumbippaar-en-s052-u006; source:PDF 67 / printed 59 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 He... is a traitor!
 
 <!-- unit:tirumbippaar-en-s052-u007; source:PDF 67 / printed 59 -->
@@ -3237,36 +3247,36 @@ He... is a traitor!
 They say they're even going to make a film called 'The False Leader.'
 
 <!-- unit:tirumbippaar-en-s052-u008; source:PDF 67 / printed 59 -->
-**புண்ணகோடி**  
-They will, they will! First this cinema itself must disappear. [Source wording irregular.] Marriage in the house. Poor thing, no marriage. An old man getting married? All this is cinema. When will this cinema disappear?
+**புண்யகோடி**  
+They will, they will! First this cinema itself must disappear. Reform, my foot! Widow remarriage. No child marriage. An old man getting married? All this is cinema. When will this cinema disappear?
 
 <!-- unit:tirumbippaar-en-s052-u009; source:PDF 68 / printed 60 -->
 **தொழிலாளி**  
 Why, is it attacking you personally?
 
 <!-- unit:tirumbippaar-en-s052-u010; source:PDF 68 / printed 60 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Hey, why do labourers need motion pictures!
 
 <!-- unit:tirumbippaar-en-s052-u011; source:PDF 68 / printed 60 -->
 **தொழிலாளி**  
-For a man who has worked hard all day, cinema is at least a little relief. Isn't that enough—why object to it?
+For a man who works hard all day, cinema gives a little relief. Would you deny even that small pleasure?
 
 <!-- unit:tirumbippaar-en-s052-u012; source:PDF 68 / printed 60 -->
-**புண்ணகோடி**  
-Oh, wonderful. Let this power cut spread all over the world so that cinema itself disappears.
+**புண்யகோடி**  
+Oh, wonderful happiness! Let this power cut spread all over the world so that cinema itself disappears.
 
 <!-- unit:tirumbippaar-en-s052-u013; source:PDF 68 / printed 60 -->
 **தொழிலாளி**  
-Look at that noble thought! For cinema to disappear, he'd even have it rain until the whole town dies!
+Look at that noble thought! For cinema to disappear, he says even rain must not fall and make the town prosper!
 
 <!-- unit:tirumbippaar-en-s052-u014; source:PDF 68 / printed 60 -->
 **மற்றொரு தொழிலாளி**  
-Old men are like this.
+When people grow old, they babble like this.
 
 <!-- unit:tirumbippaar-en-s052-u015; source:PDF 68 / printed 60 -->
-**புண்ணகோடி**  
-Who's old, eh?.... I'll thrash you. These fellows seem to belong to Pandiyan's group. He said the same thing. Old, am I? Old age! This is like Palani panchamirtham....
+**புண்யகோடி**  
+Who's old, eh?... I'll knock your teeth out. These fellows all seem to belong to Pandiyan's group. He said the same thing. Old, am I? Old age! This is a head anointed with Palani panchamirtham.
 
 ---
 
@@ -3281,14 +3291,14 @@ Look at this. When I grabbed Usha and pulled her, this necklace snapped off too 
 
 <!-- unit:tirumbippaar-en-s053-u003; source:PDF 68 / printed 60 -->
 **கருடன்**  
-Ah! Fine diamonds. It must be very valuable. Hmm... give it, give it. That is, whatever remains. We'll put it in the box.
+Ah! What a fine diamond. It must be very expensive. Hmm... give it, give it. At least let that remain. We'll put it in the box.
 
 <!-- unit:tirumbippaar-en-s053-u004; source:PDF 68 / printed 60 -->
 *(Paranthaman does not give the necklace.)*
 
 <!-- unit:tirumbippaar-en-s053-u005; source:PDF 68 / printed 60 -->
 **பையன்**  
-Speaking as though spitting fire. Writing with biting heat. Running a party without restraint. Blindly inciting workers. All these are the trailing tiger's tail of the false leader.
+Speaking as though spitting fire. Writing with biting heat. Running a party without restraint. Blindly inciting workers. All these are the dud fireworks set off by a false leader.
 
 <!-- unit:tirumbippaar-en-s053-u006; source:PDF 68 / printed 60 -->
 *(He comes along reading Pandiyan's book 'The False Leader.')*
@@ -3312,14 +3322,14 @@ Speaking as though spitting fire. Writing with biting heat. Running a party with
 ## Scene 55
 
 <!-- unit:tirumbippaar-en-s055-u001; source:PDF 69 / printed 61 -->
-*(Poomaal is preparing to leave town. Paranthaman comes there.)*
+*(Poomaalai is preparing to leave town. Paranthaman comes there.)*
 
 <!-- unit:tirumbippaar-en-s055-u002; source:PDF 69 / printed 61 -->
 **பரந்தாமன்**  
 Where are you travelling to, akka?
 
 <!-- unit:tirumbippaar-en-s055-u003; source:PDF 69 / printed 61 -->
-**பூமால்**  
+**பூமாலை**  
 To Madras....
 
 <!-- unit:tirumbippaar-en-s055-u004; source:PDF 69 / printed 61 -->
@@ -3327,31 +3337,31 @@ To Madras....
 Why Madras all of a sudden!
 
 <!-- unit:tirumbippaar-en-s055-u005; source:PDF 69 / printed 61 -->
-**பூமால்**  
-What? I'm going to see Kumudha. Am I not allowed to go?
+**பூமாலை**  
+Why? I'm going to see Kumudha. Am I not allowed to go?
 
 <!-- unit:tirumbippaar-en-s055-u006; source:PDF 69 / printed 61 -->
 **பரந்தாமன்**  
-I'm saying you shouldn't.... Hmm.... Yes, Pandiyan is in Madras, isn't he!...
+Did I say you shouldn't?... Hmm.... Yes, Pandiyan is in Madras, isn't he!...
 
 <!-- unit:tirumbippaar-en-s055-u007; source:PDF 69 / printed 61 -->
-**பூமால்**  
-Yes. Why are you asking all that? For you there are no townspeople or relatives, no good people or bad people anyway.
+**பூமாலை**  
+Yes. Why are you asking all that? For you there is no such thing as kith or kin, good people or bad people anyway.
 
 <!-- unit:tirumbippaar-en-s055-u008; source:PDF 69 / printed 61 -->
 **பரந்தாமன்**  
 I did that somehow in a fit of anger, akka.
 
 <!-- unit:tirumbippaar-en-s055-u009; source:PDF 69 / printed 61 -->
-**பூமால்**  
+**பூமாலை**  
 A fine fit of anger. If you had missed by just a little, Kumudha would have become a widow.
 
 <!-- unit:tirumbippaar-en-s055-u010; source:PDF 70 / printed 62 -->
-*(She goes inside. He puts the necklace in a box. When Poomaal returns...)*
+*(She goes inside. He puts the necklace in a box. When Poomaalai returns...)*
 
 <!-- unit:tirumbippaar-en-s055-u011; source:PDF 70 / printed 62 -->
 **பரந்தாமன்**  
-If I have done anything wrong, forgive me, akka! (Poomaal looks at him.) It was wrong of me to try to shoot Pandiyan. She would never expose me...
+If I have done anything wrong, forgive me, akka! (Poomaalai looks at him.) It was wrong of me to try to shoot Pandiyan. You would never expose me, would you...
 
 <!-- unit:tirumbippaar-en-s055-u012; source:PDF 70 / printed 62 -->
 *(The maid comes.)*
@@ -3361,12 +3371,15 @@ If I have done anything wrong, forgive me, akka! (Poomaal looks at him.) It was 
 It's time, amma.
 
 <!-- unit:tirumbippaar-en-s055-u014; source:PDF 70 / printed 62 -->
-**பூமால்**  
-(To Paranthaman) Shall I leave?
+**பூமாலை**  
+(To Paranthaman.) Shall I leave?
 
 <!-- unit:tirumbippaar-en-s055-u015; source:PDF 70 / printed 62 -->
 **பரந்தாமன்**  
 All right, akka! Tell everyone I asked after them! Give Pandiyan and Kumudha my fullest blessings!
+
+<!-- unit:tirumbippaar-en-s055-u016; source:PDF 70 / printed 62 -->
+*(Poomaalai leaves.)*
 
 ---
 
@@ -3377,15 +3390,15 @@ All right, akka! Tell everyone I asked after them! Give Pandiyan and Kumudha my 
 Usha! Didn't I tell you not to go out at night! Did you listen? You go saying you're helping the poor.
 
 <!-- unit:tirumbippaar-en-s056-u002; source:PDF 70 / printed 62 -->
-**ஊஷா**  
-Why keep talking about what has already happened, father? What did the police say?
+**உஷா**  
+Why talk about what has already happened, Appa? What did the police say?
 
 <!-- unit:tirumbippaar-en-s056-u003; source:PDF 70 / printed 62 -->
 **முதலாளி**  
 What did they say? Apparently no one has been caught!
 
 <!-- unit:tirumbippaar-en-s056-u004; source:PDF 70 / printed 62 -->
-*(Paranthaman enters saying, 'He's been caught.')*
+*(Paranthaman enters saying, 'He's been caught!')*
 
 <!-- unit:tirumbippaar-en-s056-u005; source:PDF 70 / printed 62 -->
 **முதலாளி**  
@@ -3393,7 +3406,7 @@ Who?
 
 <!-- unit:tirumbippaar-en-s056-u006; source:PDF 70 / printed 62 -->
 **பரந்தாமன்**  
-(Sitting down.) I heard everything. [Source wording irregular.] It is God who prevented the danger that befell you through Usha.
+(Sitting down.) I heard everything. Oh... so this is Usha! (To Usha.) It was God who averted the danger that befell you.
 
 <!-- unit:tirumbippaar-en-s056-u007; source:PDF 70 / printed 62 -->
 **முதலாளி**  
@@ -3416,12 +3429,12 @@ That man is Pandiyan.
 Pandiyan?
 
 <!-- unit:tirumbippaar-en-s056-u012; source:PDF 71 / printed 63 -->
-**ஊஷா**  
+**உஷா**  
 Pandiyan?
 
 <!-- unit:tirumbippaar-en-s056-u013; source:PDF 71 / printed 63 -->
 **பரந்தாமன்**  
-The very same! He has conducted an inaugural ceremony for the government. Soon he'll set fire to the mill itself. He has gathered a small gang solely to destroy you.
+The very same! He has held the inaugural ceremony for lawlessness. Soon he'll set fire to the mill itself. He has gathered a small gang solely to destroy you.
 
 <!-- unit:tirumbippaar-en-s056-u014; source:PDF 71 / printed 63 -->
 **முதலாளி**  
@@ -3429,7 +3442,7 @@ Hmm! Evidence to catch him!
 
 <!-- unit:tirumbippaar-en-s056-u015; source:PDF 71 / printed 63 -->
 **பரந்தாமன்**  
-Evidence! My friends have informed me where the stolen diamond necklace is. His house must be searched. This must be done urgently. Phone them right now!
+Evidence! Where in Madras do you think the stolen diamond necklace is? It must be in his house. Inform the police at once and have his house searched. This must be done urgently. Phone them right now!
 
 <!-- unit:tirumbippaar-en-s056-u016; source:PDF 71 / printed 63 -->
 **முதலாளி**  
@@ -3467,7 +3480,7 @@ Has Chinnappa sent Kumudha-amma any present?...
 Hmm. He has sent one, da. Earrings for the ears, a necklace for the neck!...
 
 <!-- unit:tirumbippaar-en-s057-u008; source:PDF 72 / printed 64 -->
-**பூமால்**  
+**பூமாலை**  
 (To Gundumani.) Here, take this box inside.
 
 <!-- unit:tirumbippaar-en-s057-u009; source:PDF 72 / printed 64 -->
@@ -3485,8 +3498,8 @@ Hey, go bring coffee, da.
 *(Gundumani goes.)*
 
 <!-- unit:tirumbippaar-en-s057-u013; source:PDF 72 / printed 64 -->
-**பூமால்**  
-My Kumudha, did that clown tell the truth?....
+**பூமாலை**  
+Why, Kumudha, are you angry because he told the truth?
 
 <!-- unit:tirumbippaar-en-s057-u014; source:PDF 72 / printed 64 -->
 *(The police enter the house. Everyone inside is startled.)*
@@ -3496,7 +3509,7 @@ My Kumudha, did that clown tell the truth?....
 Come... sit down...
 
 <!-- unit:tirumbippaar-en-s057-u016; source:PDF 72 / printed 64 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 No time to sit. You are Pandiyan, aren't you?
 
 <!-- unit:tirumbippaar-en-s057-u017; source:PDF 72 / printed 64 -->
@@ -3504,7 +3517,7 @@ No time to sit. You are Pandiyan, aren't you?
 Yes...
 
 <!-- unit:tirumbippaar-en-s057-u018; source:PDF 72 / printed 64 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப் - இன்ஸ்பெக்டர்**  
 We have to search your house in connection with the Kuniyamuthur highway robbery...
 
 <!-- unit:tirumbippaar-en-s057-u019; source:PDF 72 / printed 64 -->
@@ -3512,7 +3525,7 @@ We have to search your house in connection with the Kuniyamuthur highway robbery
 My house?
 
 <!-- unit:tirumbippaar-en-s057-u020; source:PDF 72 / printed 64 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 Yes!...
 
 <!-- unit:tirumbippaar-en-s057-u021; source:PDF 73 / printed 65 -->
@@ -3520,8 +3533,8 @@ Yes!...
 What are you saying, sir...
 
 <!-- unit:tirumbippaar-en-s057-u022; source:PDF 73 / printed 65 -->
-**சப்-இன்ஸ்பெக்டர்**  
-I'm not saying it; this order says it! F seven six, come on....
+**சப்- இன்ஸ்பெக்டர்**  
+I'm not saying it; this order says it! Eight seven six, come on....
 
 <!-- unit:tirumbippaar-en-s057-u023; source:PDF 73 / printed 65 -->
 *(Poomaal and Kumudha are startled. The house is searched; police look everywhere.)*
@@ -3531,7 +3544,7 @@ I'm not saying it; this order says it! F seven six, come on....
 Chinnamma! (She embraces her.)
 
 <!-- unit:tirumbippaar-en-s057-u025; source:PDF 73 / printed 65 -->
-**பூமால்**  
+**பூமாலை**  
 Be quiet. Be quiet. It's nothing.
 
 <!-- unit:tirumbippaar-en-s057-u026; source:PDF 73 / printed 65 -->
@@ -3539,10 +3552,10 @@ Be quiet. Be quiet. It's nothing.
 Kumudha! Foolish girl! What is this! Why are you afraid? One need fear only if there is guilt.
 
 <!-- unit:tirumbippaar-en-s057-u027; source:PDF 73 / printed 65 -->
-*(The police search all the boxes. They find no suspicious evidence anywhere.)*
+*(The police search all the boxes. They find no evidence of any kind.)*
 
 <!-- unit:tirumbippaar-en-s057-u028; source:PDF 73 / printed 65 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 Hmm... nothing's turning up.
 
 <!-- unit:tirumbippaar-en-s057-u029; source:PDF 73 / printed 65 -->
@@ -3553,21 +3566,21 @@ Why, sir, are you leaving this one behind? Shouldn't you look at this too?... (T
 *(Poomaal gives the key and the box is opened.)*
 
 <!-- unit:tirumbippaar-en-s057-u031; source:PDF 73 / printed 65 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 Why are you getting angry, boy! We're only doing our duty.
 
 <!-- unit:tirumbippaar-en-s057-u032; source:PDF 73 / printed 65 -->
-*(As the clothes are taken out and examined, a necklace is found at the bottom. Poomaal is shocked. The Sub-Inspector lifts the necklace and examines it. On its back are the letters 'Usha.')*
+*(As the clothes are taken out and examined, a necklace is found at the bottom. Poomaal is shocked. The Sub-Inspector turns the necklace over and over and looks at it. On its back are the letters 'Usha.')*
 
 <!-- unit:tirumbippaar-en-s057-u033; source:PDF 73 / printed 65 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 Usha! This is it.
 
 <!-- unit:tirumbippaar-en-s057-u034; source:PDF 73 / printed 65 -->
 *(Kumudha, Pandiyan and Poomaal are stunned.)*
 
 <!-- unit:tirumbippaar-en-s057-u035; source:PDF 74 / printed 66 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப் - இன்ஸ்பெக்டர்**  
 We've found it. Pandiyan, I am arresting you.
 
 <!-- unit:tirumbippaar-en-s057-u036; source:PDF 74 / printed 66 -->
@@ -3575,11 +3588,11 @@ We've found it. Pandiyan, I am arresting you.
 Ah!
 
 <!-- unit:tirumbippaar-en-s057-u037; source:PDF 74 / printed 66 -->
-**பூமால்**  
+**பூமாலை**  
 This is my box, sir. Let him go....
 
 <!-- unit:tirumbippaar-en-s057-u038; source:PDF 74 / printed 66 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப் - இன்ஸ்பெக்டர்**  
 Shh! Say whatever you have to say in court. No one interfere with my work. (To the police.) Hmm... take him away!....
 
 <!-- unit:tirumbippaar-en-s057-u039; source:PDF 74 / printed 66 -->
@@ -3599,11 +3612,11 @@ What is this, Pandiyan? I don't understand anything.....
 You don't understand? This is the world!
 
 <!-- unit:tirumbippaar-en-s057-u043; source:PDF 74 / printed 66 -->
-**பூமால்**  
+**பூமாலை**  
 Sub-Inspector sir! I am the one who came from out of town. This is my box. Pandiyan has committed no offence. Let him go.
 
 <!-- unit:tirumbippaar-en-s057-u044; source:PDF 74 / printed 66 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப் - இன்ஸ்பெக்டர்**  
 Don't cause trouble. Hmm...... take him away.
 
 <!-- unit:tirumbippaar-en-s057-u045; source:PDF 74 / printed 66 -->
@@ -3614,10 +3627,10 @@ Don't cause trouble. Hmm...... take him away.
 (Standing stunned and crying.) Pandiyan, Pandiyan...... (She runs.)
 
 <!-- unit:tirumbippaar-en-s057-u047; source:PDF 74 / printed 66 -->
-*(Pandiyan is put into the jeep. Kumudha and Poomaal cling together.)*
+*(Pandiyan is put into the jeep. Poomaal catches and embraces Kumudha as she runs after him crying.)*
 
 <!-- unit:tirumbippaar-en-s057-u048; source:PDF 74 / printed 66 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha... be calm!... Don't cry! Don't cry!
 
 <!-- unit:tirumbippaar-en-s057-u049; source:PDF 74 / printed 66 -->
@@ -3625,15 +3638,15 @@ Kumudha... be calm!... Don't cry! Don't cry!
 Are you telling me not to cry but to rejoice? How can happiness come to me? Did I come here having vowed to send him to jail, so that I could rejoice once the deed succeeded......
 
 <!-- unit:tirumbippaar-en-s057-u050; source:PDF 75 / printed 67 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha!
 
 <!-- unit:tirumbippaar-en-s057-u051; source:PDF 75 / printed 67 -->
 **குமுதா**  
-My Chinnamma, have you ruined our life like this?
+Why, Chinnamma, did you ruin our life like this?
 
 <!-- unit:tirumbippaar-en-s057-u052; source:PDF 75 / printed 67 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha! I knew nothing of any crime, Kumudha! Without even knowing it myself, I have been used as a pawn in someone's game!
 
 <!-- unit:tirumbippaar-en-s057-u053; source:PDF 75 / printed 67 -->
@@ -3641,7 +3654,7 @@ Kumudha! I knew nothing of any crime, Kumudha! Without even knowing it myself, I
 Whose game! Why hide it? It is all your younger brother's game!... I know!... The two of you together planned to destroy our happy life....
 
 <!-- unit:tirumbippaar-en-s057-u054; source:PDF 75 / printed 67 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha! Even if you cannot understand the conspiracy created by circumstance, have you forgotten even that your Chinnamma has a heart?
 
 <!-- unit:tirumbippaar-en-s057-u055; source:PDF 75 / printed 67 -->
@@ -3649,7 +3662,7 @@ Kumudha! Even if you cannot understand the conspiracy created by circumstance, h
 You have a heart. In it there is room only for your younger brother's welfare and gain.
 
 <!-- unit:tirumbippaar-en-s057-u056; source:PDF 75 / printed 67 -->
-**பூமால்**  
+**பூமாலை**  
 (Crying out.) Kumudha!
 
 <!-- unit:tirumbippaar-en-s057-u057; source:PDF 75 / printed 67 -->
@@ -3657,15 +3670,15 @@ You have a heart. In it there is room only for your younger brother's welfare an
 Paranthaman is furious that Kumudha, who should have been one of the dolls in his bedchamber, became the beloved of his enemy Pandiyan! And you are furious that Pandiyan, who should have been your lover, lies fondling Kumudha!
 
 <!-- unit:tirumbippaar-en-s057-u058; source:PDF 75 / printed 67 -->
-**பூமால்**  
+**பூமாலை**  
 Ah! What did you say! You sinner!
 
 <!-- unit:tirumbippaar-en-s057-u059; source:PDF 75 / printed 67 -->
 **குமுதா**  
-There is nothing more to say. As of today I am casting away this house, bond, affection and kinship—all of it. Here are the gold ornaments you fastened on me! Take the jewels! (She removes the ornaments and throws them down.) Live happily with your younger brother! I am leaving...
+There is nothing more to say. As of today the bonds, affection and kinship of this house are all over. Here are the gold ornaments you fastened on me! Take the jewels! (She removes the ornaments and throws them down.) Live happily with your younger brother! I am leaving...
 
 <!-- unit:tirumbippaar-en-s057-u060; source:PDF 76 / printed 68 -->
-**பூமால்**  
+**பூமாலை**  
 Kumudha!....
 
 <!-- unit:tirumbippaar-en-s057-u061; source:PDF 76 / printed 68 -->
@@ -3699,7 +3712,7 @@ I tried so much to secure your release. I couldn't, Pandiyan....
 
 <!-- unit:tirumbippaar-en-s059-u002; source:PDF 76 / printed 68 -->
 **பாண்டியன்**  
-Don't grieve, Kumudha! [Source wording irregular: 'எனக்கும் விடுதலையில்லா மலர் போய்விட்டுப் போகிறது.']
+Don't grieve, Kumudha! Am I going to remain without release forever?
 
 <!-- unit:tirumbippaar-en-s059-u003; source:PDF 76 / printed 68 -->
 **குமுதா**  
@@ -3747,31 +3760,31 @@ Pandiyan. Pandiyan.
 **பாண்டியன்**  
 Go, Kumudha!
 
-<!-- unit:tirumbippaar-en-s059-u015; source:PDF 77 / printed 69 -->
-*(Kumudha leaves.)*
-
 ---
 
 ## Scene 60
 
+<!-- unit:tirumbippaar-en-s060-u016; source:PDF 77 / printed 69 -->
+*(Kumudha leaves.)*
+
 <!-- unit:tirumbippaar-en-s060-u001; source:PDF 77 / printed 69 -->
-**பூமால்**  
-(Her eyes filling with sorrow.) What difference is there between the story of selling one's eyes to buy a painting and my condition—after ruining Kumudha and Pandiyan's life, trying to console myself by grieving over it....
+**பூமாலை**  
+(Her eyes filling with sorrow.) What difference is there between the story of selling one's eyes to buy a painting and my condition—after ruining Kumudha and Pandiyan's life, trying to preserve my affection for my younger brother....
 
 <!-- unit:tirumbippaar-en-s060-u002; source:PDF 77 / printed 69 -->
 **பரந்தாமன்**  
 Who told you to sell your eyes! You could simply expose me and go!
 
 <!-- unit:tirumbippaar-en-s060-u003; source:PDF 77 / printed 69 -->
-**பூமால்**  
+**பூமாலை**  
 That is my crime. There is no punishment for it in this world!
 
 <!-- unit:tirumbippaar-en-s060-u004; source:PDF 77 / printed 69 -->
 **பரந்தாமன்**  
-Pandiyan may speak against me until the stage shakes. He may pour abusive words like summer rain. He may publish a book calling me 'The False Leader' and turn me into an enemy of the public. He may heap such an unworthy name and degradation upon your younger brother. But if I alone teach him the proper lesson, that is sin and wickedness. Fine gratitude, akka; fine justice.
+Pandiyan may speak against me until the stage shakes. He may pour abusive words like summer rain. He may publish a book calling me 'The False Leader' and turn me into an enemy of the public. He may heap such undeserved names and baseness upon your younger brother. But if I alone teach him the proper lesson, that is sin and wickedness. Fine justice, akka.
 
 <!-- unit:tirumbippaar-en-s060-u005; source:PDF 77 / printed 69 -->
-**பூமால்**  
+**பூமாலை**  
 For ideological opposition, destroying a family is justice. Isn't that so!
 
 <!-- unit:tirumbippaar-en-s060-u006; source:PDF 77 / printed 69 -->
@@ -3779,15 +3792,15 @@ For ideological opposition, destroying a family is justice. Isn't that so!
 Yes! What are you going to do about it...
 
 <!-- unit:tirumbippaar-en-s060-u007; source:PDF 78 / printed 70 -->
-**பூமால்**  
-What am I going to do! I told you before—'expose me,' didn't I? That's what I'm going to do!
+**பூமாலை**  
+What am I going to do! You said earlier yourself, 'Expose me'; that's what I'm going to do!
 
 <!-- unit:tirumbippaar-en-s060-u008; source:PDF 78 / printed 70 -->
 **பரந்தாமன்**  
 Ah!
 
 <!-- unit:tirumbippaar-en-s060-u009; source:PDF 78 / printed 70 -->
-**பூமால்**  
+**பூமாலை**  
 I'll put you in the dock. I'll say that you are the criminal. Let the townspeople laugh. Let them mock you as a wastrel leader!
 
 <!-- unit:tirumbippaar-en-s060-u010; source:PDF 78 / printed 70 -->
@@ -3795,15 +3808,15 @@ I'll put you in the dock. I'll say that you are the criminal. Let the townspeopl
 Akka, don't!
 
 <!-- unit:tirumbippaar-en-s060-u011; source:PDF 78 / printed 70 -->
-**பூமால்**  
-Won't you reform even if I do that? Who knows? I'll try that too. What other happiness do I have for having got you as my younger brother!
+**பூமாலை**  
+Won't you reform at least if I do that? I'll try even that. What other happiness do I have for having got you as my younger brother!
 
 <!-- unit:tirumbippaar-en-s060-u012; source:PDF 78 / printed 70 -->
 **பரந்தாமன்**  
-If exposing me is your happiness, if seeing me stand as a prisoner is the sight that gives you delight—then believe now that the souls of that mother and father, who trusted you and entrusted me to you before they left, will attain peace only through that holy deed of yours! Go now! Tell the police! Proclaim it to the public! Betray your younger brother! Go, akka, go! That was the command Amma and Appa gave you, wasn't it! Fulfil it—go!
+If exposing me is your happiness, if seeing me stand as a prisoner is the sight that gives you delight—if the souls of that mother and father, who trusted you and entrusted me to you before they left, will attain peace only through that holy deed of yours, then go now! Tell the police! Proclaim it to the public! Betray your younger brother! Go, akka, go! That was the command Amma and Appa gave you, wasn't it! Fulfil it—go!
 
 <!-- unit:tirumbippaar-en-s060-u013; source:PDF 78 / printed 70 -->
-**பூமால்**  
+**பூமாலை**  
 Paranthama! (Crying.) Paranthama, will you at least reform and live rightly from now on?
 
 <!-- unit:tirumbippaar-en-s060-u014; source:PDF 78 / printed 70 -->
@@ -3839,27 +3852,27 @@ Sir, please......
 **மேனேஜர்**  
 Uh-uh. I said go—go!
 
-<!-- unit:tirumbippaar-en-s061-u007; source:PDF 79 / printed 71 -->
-*(Kumudha sobs.)*
-
 ---
 
 ## Scene 62
+
+<!-- unit:tirumbippaar-en-s062-u005; source:PDF 79 / printed 71 -->
+*(Kumudha moves away.)*
 
 <!-- unit:tirumbippaar-en-s062-u001; source:PDF 79 / printed 71 -->
 *(Behind a house.)*
 
 <!-- unit:tirumbippaar-en-s062-u002; source:PDF 79 / printed 71 -->
-**அம்மாள்**  
-A fine job you've done, girl! You've almost smashed all the things in our house!... Go, go! Enough—enough of you and your work. That's why I said we shouldn't take you on for this work in the first place.
+**அம்மாமி**  
+What a fine job you're doing, girl! It looks as though you'll smash all the things in our house!... Go, go! Enough—enough of you and your work. That's why I said we shouldn't take a pregnant woman on for work.
 
 <!-- unit:tirumbippaar-en-s062-u003; source:PDF 79 / printed 71 -->
 **குமுதா**  
 Amma! Think of me as your own daughter...
 
 <!-- unit:tirumbippaar-en-s062-u004; source:PDF 79 / printed 71 -->
-**அம்மாள்**  
-Daughter, indeed! Every other person here was born a girl too! Are you somehow different? Get out—go!
+**அம்மாமி**  
+Daughter, indeed! I've already got nine girls born here! Do I need you too? I said go—go!
 
 ---
 
@@ -3869,15 +3882,15 @@ Daughter, indeed! Every other person here was born a girl too! Are you somehow d
 *(Garudan Publishing House.)*
 
 <!-- unit:tirumbippaar-en-s063-u002; source:PDF 79 / printed 71 -->
-**புண்ணகோடி**  
-The reason I'm saying all this here is that the workers' demands must be fulfilled quickly. Thousands of workers are depending on us!
+**புண்யகோடி**  
+The reason I'm saying all this is that the workers' demands must be fulfilled very soon. Thousands of workers are depending on us!
 
 <!-- unit:tirumbippaar-en-s063-u003; source:PDF 79 / printed 71 -->
 **பரந்தாமன்**  
 Don't worry!
 
 <!-- unit:tirumbippaar-en-s063-u004; source:PDF 79→80 / printed 71→72 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I know you're making plans for that! Even so, little by little some workers are joining that Pandiyan's party, talking about rationalism and all that, and looking down on us somewhat!
 
 <!-- unit:tirumbippaar-en-s063-u005; source:PDF 80 / printed 72 -->
@@ -3885,8 +3898,8 @@ I know you're making plans for that! Even so, little by little some workers are 
 Never mind. What can they do? He's lying in jail himself. Hmm. You go; I'll attend to everything immediately.
 
 <!-- unit:tirumbippaar-en-s063-u006; source:PDF 80 / printed 72 -->
-**புண்ணகோடி**  
-I'll take leave. Namaskaram. What, with your... [source wording incomplete/irregular].
+**புண்யகோடி**  
+I'll be going. Namaskaram. What, you...
 
 <!-- unit:tirumbippaar-en-s063-u007; source:PDF 80 / printed 72 -->
 **கருடன்**  
@@ -3918,11 +3931,11 @@ Don't you know 'mass psychology'? We can give a reason for that too.
 
 <!-- unit:tirumbippaar-en-s063-u014; source:PDF 80 / printed 72 -->
 **பரந்தாமன்**  
-We can. But speaking in contradictions from one moment to the next......
+We can. But speaking inconsistently from one time to the next...
 
 <!-- unit:tirumbippaar-en-s063-u015; source:PDF 80 / printed 72 -->
 **கருடன்**  
-That's exactly how you must speak; otherwise what honour is there in being a leader?... Do as I say!
+That's exactly how you must speak; otherwise what is the mark of a leader? Do as I say, man!
 
 <!-- unit:tirumbippaar-en-s063-u016; source:PDF 80 / printed 72 -->
 **பரந்தாமன்**  
@@ -3938,7 +3951,7 @@ All right, we'll tell akka and have her ask for the bride.
 
 <!-- unit:tirumbippaar-en-s063-u019; source:PDF 81 / printed 73 -->
 **கருடன்**  
-Oh, why bring akka into all this? She's like a curse that objects to everything!
+Oh, why bring akka into all this? She's like a Saturn that objects to everything!
 
 <!-- unit:tirumbippaar-en-s063-u020; source:PDF 81 / printed 73 -->
 **பரந்தாமன்**  
@@ -3946,11 +3959,11 @@ Hey, Garuda! Watch your words! Don't say anything about my akka!
 
 <!-- unit:tirumbippaar-en-s063-u021; source:PDF 81 / printed 73 -->
 **கருடன்**  
-Forgive me! Forgive me!
+Forgive me, forgive me!
 
 <!-- unit:tirumbippaar-en-s063-u022; source:PDF 81 / printed 73 -->
 **கருடன்**  
-I saw it in one telephone call—how much love akka has for her younger brother........
+I was just testing how much love the younger brother has for his akka........
 
 ---
 
@@ -4037,22 +4050,22 @@ You want me to give you my daughter and be the one who's fooled? Impossible! Do 
 What are the owner and Paranthaman talking about for so long?
 
 <!-- unit:tirumbippaar-en-s066-u003; source:PDF 82 / printed 74 -->
-**புண்ணகோடி**  
-What else would they talk about! Paranthaman will come back only after deciding whether the owner is going to consider our demands or not. Is he an ordinary man! A revolutionary incarnation of Socrates.
+**புண்யகோடி**  
+What else would they talk about! Paranthaman will come back only after deciding whether the owner is going to consider our demands or not. Is he an ordinary man! He is the very embodiment of revolution.
 
 <!-- unit:tirumbippaar-en-s066-u004; source:PDF 82 / printed 74 -->
 *(Paranthaman comes quickly.)*
 
 <!-- unit:tirumbippaar-en-s066-u005; source:PDF 82 / printed 74 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Brother! What did you speak about! What happened......
 
 <!-- unit:tirumbippaar-en-s066-u006; source:PDF 82 / printed 74 -->
 **பரந்தாமன்**  
-What happened? I explained the grievances. I pleaded in every possible way that the demands be considered. I even warned him that a workers' revolution would come. That owner did not budge.
+What happened? I explained the grievances. I pleaded in every possible way that the demands be considered. I even warned him that a workers' revolution would erupt. That owner did not budge.
 
-<!-- unit:tirumbippaar-en-s066-u007; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
+<!-- unit:tirumbippaar-en-s066-u007; source:PDF 82 / printed 74 -->
+**புண்யகோடி**  
 Then?
 
 <!-- unit:tirumbippaar-en-s066-u008; source:PDF 83 / printed 75 -->
@@ -4060,15 +4073,15 @@ Then?
 What else! I must get married!
 
 <!-- unit:tirumbippaar-en-s066-u009; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 What?
 
 <!-- unit:tirumbippaar-en-s066-u010; source:PDF 83 / printed 75 -->
 **பரந்தாமன்**  
-No... we must make a resolution! We must draw up a plan! All these days we stayed quiet, believing the demands would be attended to. He has mistaken that for cowardice. A man of blind judgement! Let us rise in fury! Let us raise the battle flag! Let us make revolution! Revolution!
+No... we must make a decision! We must draw up a plan! All these days we stayed quiet because he said he would attend to the demands. That man of blind judgement has mistaken it for cowardice! Let us rise boiling with anger! Let us raise the battle flag! Let us make revolution! Revolution!
 
 <!-- unit:tirumbippaar-en-s066-u011; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Revolution! (Everyone raises the cry of 'Revolution!')
 
 ---
@@ -4076,46 +4089,46 @@ Revolution! (Everyone raises the cry of 'Revolution!')
 ## Scene 67
 
 <!-- unit:tirumbippaar-en-s067-u001; source:PDF 83 / printed 75 -->
-*(Punnakodi's house—night. Punnakodi knocks at the door.)*
+*(Punyakodi's house—night. Punyakodi knocks at the door.)*
 
 <!-- unit:tirumbippaar-en-s067-u002; source:PDF 83 / printed 75 -->
 **குரல்**  
 Radha! Radha!
 
 <!-- unit:tirumbippaar-en-s067-u003; source:PDF 83 / printed 75 -->
-*(Paranthaman leaves by another side. Punnakodi comes in. Before Radha can say that Paranthaman had come...)*
+*(Paranthaman leaves by another side. Punyakodi comes in. Radha tries to tell him that Paranthaman had come.)*
 
 <!-- unit:tirumbippaar-en-s067-u004; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Radha, serve the food quickly!
 
 <!-- unit:tirumbippaar-en-s067-u005; source:PDF 83 / printed 75 -->
 **ராதா**  
-Mm... mm... mm...
+..........
 
 <!-- unit:tirumbippaar-en-s067-u006; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
-What... today I must eat on time...
+**புண்யகோடி**  
+What... today I have to eat on time and go to bed...
 
 <!-- unit:tirumbippaar-en-s067-u007; source:PDF 83 / printed 75 -->
-*(The gramophone is indicated for playing a song.)*
+*(She points to the gramophone, indicating that it had been played.)*
 
 <!-- unit:tirumbippaar-en-s067-u008; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
-Yes! That's how music should be listened to! Serve the food!
+**புண்யகோடி**  
+Yes! Is this the time to listen to music! Serve the food!
 
 <!-- unit:tirumbippaar-en-s067-u009; source:PDF 83 / printed 75 -->
-*(She points toward the window, indicating Paranthaman.)*
+*(She points to the window through which Paranthaman left.)*
 
 <!-- unit:tirumbippaar-en-s067-u010; source:PDF 83 / printed 75 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 If the window is open, just close it...
 
 <!-- unit:tirumbippaar-en-s067-u011; source:PDF 83 / printed 75 -->
 *(She tries to say something more.)*
 
 <!-- unit:tirumbippaar-en-s067-u012; source:PDF 84 / printed 76 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Forget all that! Are you going to serve the food or not!
 
 ---
@@ -4142,7 +4155,7 @@ People are afraid even to move about in the street.
 They say there's going to be a big procession tomorrow morning.
 
 <!-- unit:tirumbippaar-en-s068-u006; source:PDF 84 / printed 76 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 (Entering.) All right. Orders have come to arrest the leading figures. Move out!
 
 ---
@@ -4150,38 +4163,38 @@ They say there's going to be a big procession tomorrow morning.
 ## Scene 69
 
 <!-- unit:tirumbippaar-en-s069-u001; source:PDF 84 / printed 76 -->
-*(Dining room. Radha serves food.)*
+*(Dining room. Radha runs to serve the food.)*
 
 <!-- unit:tirumbippaar-en-s069-u002; source:PDF 84 / printed 76 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 (While eating.) Radha! I have work at four in the morning. On Leader Paranthaman's orders, I must gather the workers to conduct a great revolutionary procession! Don't forget! Wake me by four!...
 
 <!-- unit:tirumbippaar-en-s069-u003; source:PDF 84 / printed 76 -->
-*(Both are asleep. The clock is about to strike twelve. A hand moves the hands of a wristwatch to show four o'clock. It is Paranthaman's hand. The clock strikes four. Radha wakes and wakes Punnakodi.)*
+*(Both are asleep. The clock is about to strike twelve. A hand moves the hands of a wristwatch to show four o'clock. It is Paranthaman's hand. The clock strikes four. Radha wakes and wakes Punyakodi.)*
 
 <!-- unit:tirumbippaar-en-s069-u004; source:PDF 84 / printed 76 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 (Waking and looking at the watch.) Bravo! Our elders say a chaste wife sleeps after her husband and rises before him. You are that chaste wife!..... Hmm, bring my coat!
 
 <!-- unit:tirumbippaar-en-s069-u005; source:PDF 85 / printed 77 -->
-*(She helps him put on the coat and he leaves. Radha lies down. Paranthaman comes and covers her cheek with his hand; she starts. Paranthaman laughs.)*
+*(She helps him put on the coat and he leaves. Radha lies down. Paranthaman comes and covers her eyes with his hands; she starts. Paranthaman laughs.)*
 
 <!-- unit:tirumbippaar-en-s069-u006; source:PDF 85 / printed 77 -->
 **பரந்தாமன்**  
 Surprised at how I came? This is the age of science—a clock comes in useful!
 
 <!-- unit:tirumbippaar-en-s069-u007; source:PDF 85 / printed 77 -->
-*(Punnakodi, walking along the street, looks at the clock tower, sees that it is only 12:30, and turns back. Inside the house, as Paranthaman approaches, Radha trembles. Punnakodi enters.)*
+*(Punyakodi, walking along the street, looks at the clock tower, sees that it is 12:30, and turns back. Inside the house, as Paranthaman approaches, Radha trembles. Punyakodi enters.)*
 
 <!-- unit:tirumbippaar-en-s069-u008; source:PDF 85 / printed 77 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 You sinner! You wretch!
 
 <!-- unit:tirumbippaar-en-s069-u009; source:PDF 85 / printed 77 -->
 *(Paranthaman is startled.)*
 
 <!-- unit:tirumbippaar-en-s069-u010; source:PDF 85 / printed 77 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 You Indra of the Kali age! So you are the leader of the workers! I was cheated because I trusted you as a great leader! Scoundrel! They say Gautama cursed Indra and his whole body became covered with eyes! You should not be cursed like that! With just two eyes you commit such treachery—if your whole body became eyes, you wouldn't leave a single woman in town alone! You must not be left alive!
 
 <!-- unit:tirumbippaar-en-s069-u011; source:PDF 85 / printed 77 -->
@@ -4189,37 +4202,37 @@ You Indra of the Kali age! So you are the leader of the workers! I was cheated b
 Hey, old man! Speak respectfully!
 
 <!-- unit:tirumbippaar-en-s069-u012; source:PDF 85 / printed 77 -->
-**புண்ணகோடி**  
-What did you say, you vile fellow!
+**புண்யகோடி**  
+What did you say, you wretch!
 
 <!-- unit:tirumbippaar-en-s069-u013; source:PDF 85 / printed 77 -->
-*(Punnakodi raises a pestle and comes at him. Paranthaman runs.)*
+*(Punyakodi raises a pestle and comes at him. Paranthaman runs.)*
 
 <!-- unit:tirumbippaar-en-s069-u014; source:PDF 85 / printed 77 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 I trusted this daylight masquerader and ruined all the working people—wretched fellow!
 
 <!-- unit:tirumbippaar-en-s069-u015; source:PDF 85 / printed 77 -->
 *(The police arrive and arrest him.)*
 
 <!-- unit:tirumbippaar-en-s069-u016; source:PDF 85 / printed 77 -->
-**சப்-இன்ஸ்பெக்டர்**  
-Punnakodi, you are under arrest!
+**சப்- இன்ஸ்பெக்டர்**  
+Punyakodi, you are under arrest!
 
 <!-- unit:tirumbippaar-en-s069-u017; source:PDF 85 / printed 77 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Ah! Why?
 
 <!-- unit:tirumbippaar-en-s069-u018; source:PDF 86 / printed 78 -->
-**சப்-இன்ஸ்பெக்டர்**  
-For carrying out a strike and creating disorder!
+**சப்- இன்ஸ்பெக்டர்**  
+For carrying out a strike and creating lawlessness!
 
 <!-- unit:tirumbippaar-en-s069-u019; source:PDF 86 / printed 78 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 That isn't my crime, sir!
 
 <!-- unit:tirumbippaar-en-s069-u020; source:PDF 86 / printed 78 -->
-**சப்-இன்ஸ்பெக்டர்**  
+**சப்- இன்ஸ்பெக்டர்**  
 Tell it in court!
 
 <!-- unit:tirumbippaar-en-s069-u021; source:PDF 86 / printed 78 -->
@@ -4234,11 +4247,11 @@ Tell it in court!
 
 <!-- unit:tirumbippaar-en-s070-u002; source:PDF 86 / printed 78 -->
 **பரந்தாமன்**  
-The police have gone to arrest Punnakodi! They'll be here in a little while!
+The police have gone to arrest Punyakodi! They'll be here in a little while!
 
 <!-- unit:tirumbippaar-en-s070-u003; source:PDF 86 / printed 78 -->
 **கருடன்**  
-Then where do we run now!
+Alas! Where do we run now!
 
 <!-- unit:tirumbippaar-en-s070-u004; source:PDF 86 / printed 78 -->
 **பரந்தாமன்**  
@@ -4360,11 +4373,11 @@ Oh, keep quiet, you businessman!
 
 <!-- unit:tirumbippaar-en-s072-u002; source:PDF 87→88 / printed 79→80 -->
 **பரந்தாமன்**  
-Hey, come here! Take the money! (He takes a one-rupee coin and throws it.) Won't you take it! Are you coming, or shall I come? (He rises and comes forward.) Queen of love! Ornamental divine form of the mansion of beauty! O picture that cannot be erased and redrawn!
+Hey, come here! Hey—tch—come when I call! (He takes a one-rupee coin and throws it.) Won't you take it! Are you coming, or shall I come? (He rises and comes forward.) Queen of love! Ornamental divine form of the mansion of beauty! O picture that cannot be erased and redrawn!
 
 <!-- unit:tirumbippaar-en-s072-u003; source:PDF 88 / printed 80 -->
 **குரல்**  
-O picture that cannot be overwritten! O swaying golden lamp! O pearl-like beauty! O eye-catching gem!
+O picture that cannot be erased and redrawn! O swaying golden lamp! O pearl-like beauty! O eye-catching gem!
 
 <!-- unit:tirumbippaar-en-s072-u004; source:PDF 88 / printed 80 -->
 **பரந்தாமன்**  
@@ -4452,7 +4465,7 @@ Hmm! Arrest him.
 
 <!-- unit:tirumbippaar-en-s074-u002; source:PDF 90 / printed 82 -->
 **பரந்தாமன்**  
-Honourable Court, I understand everything that has been said. I have been accused of inciting the workers, troubling the police, using the working class for my own selfish ends, involving innocent people in lawlessness and violence, and staging a political stunt. What answer am I going to give to all this? One answer: I had no connection whatsoever with the agitation that the workers carried out on their own. Even so, I bow before the Court and ask that I be warned once and forgiven. I ask forgiveness. I ask forgiveness.
+Honourable Court, I understand everything that has been said. I have been accused of inciting the workers, troubling the police, using the working class for my own selfish ends, involving innocent people in lawlessness and violence, and staging a political stunt. What answer am I going to give to all this? One answer: I had no connection whatsoever with the agitation that the workers carried out on their own. Even so, I bow before the Court and ask forgiveness, requesting that I be warned once and forgiven. I ask forgiveness.
 
 ---
 
@@ -4463,7 +4476,7 @@ Honourable Court, I understand everything that has been said. I have been accuse
 
 <!-- unit:tirumbippaar-en-s075-u002; source:PDF 90 / printed 82 -->
 **பரந்தாமன்**  
-The chapter of Paranthaman's confession and forgiveness of sins.
+Paranthaman's chapter of pardon for sins.
 
 <!-- unit:tirumbippaar-en-s075-u003; source:PDF 90 / printed 82 -->
 **கருடன்**  
@@ -4486,15 +4499,15 @@ Bravo.
 ## Scene 76
 
 <!-- unit:tirumbippaar-en-s076-u001; source:PDF 91 / printed 83 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Hey... where is Paranthaman?
 
 <!-- unit:tirumbippaar-en-s076-u002; source:PDF 91 / printed 83 -->
 **குண்டுமணி**  
-What is it, ayya....
+Why are you shouting, ayya?
 
 <!-- unit:tirumbippaar-en-s076-u003; source:PDF 91 / printed 83 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Where is that Paranthaman, da?
 
 <!-- unit:tirumbippaar-en-s076-u004; source:PDF 91 / printed 83 -->
@@ -4505,54 +4518,54 @@ Why are you shouting, ayya?
 *(Gundumani runs away.)*
 
 <!-- unit:tirumbippaar-en-s076-u006; source:PDF 91 / printed 83 -->
-*(Poomaal comes.)*
+*(Poomaalai comes.)*
 
 <!-- unit:tirumbippaar-en-s076-u007; source:PDF 91 / printed 83 -->
-**பூமால்**  
+**பூமாலை**  
 Who are you?
 
 <!-- unit:tirumbippaar-en-s076-u008; source:PDF 91 / printed 83 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Who am I? A fool who trusted a cheat. An idiot who hoisted a worthless fellow onto my head as a leader and danced around....
 
 <!-- unit:tirumbippaar-en-s076-u009; source:PDF 91 / printed 83 -->
-**பூமால்**  
+**பூமாலை**  
 What are you saying...
 
 <!-- unit:tirumbippaar-en-s076-u010; source:PDF 91 / printed 83 -->
-**புண்ணகோடி**  
-What am I to say, amma? What your younger brother has done has thrown dirt into the stomachs of hundreds of workers!....
+**புண்யகோடி**  
+What am I to say, amma? What your younger brother has done has ruined the livelihood of hundreds of workers!...
 
 <!-- unit:tirumbippaar-en-s076-u011; source:PDF 91 / printed 83 -->
-**பூமால்**  
+**பூமாலை**  
 But they released everyone, didn't they?
 
 <!-- unit:tirumbippaar-en-s076-u012; source:PDF 91 / printed 83 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 The court released us. But the mill owner dismissed all the important people in the agitation from their jobs, including me. Hundreds of families are suffering. Who brought this injustice upon us, amma?
 
 <!-- unit:tirumbippaar-en-s076-u013; source:PDF 91 / printed 83 -->
-**பூமால்**  
+**பூமாலை**  
 Wait. Don't be agitated....
 
 <!-- unit:tirumbippaar-en-s076-u014; source:PDF 91→92 / printed 83→84 -->
-**புண்ணகோடி**  
-What else can I do but be agitated? For his own private affair, the sinner made us stage a revolution and threw dirt into the food of all these poor people. We are all 'shade cattle'—we don't know how to work in forests or fields. What other work do we know? We can beg; that's all.... Hmm, where is your younger brother, amma?
+**புண்யகோடி**  
+What else can I do but be agitated? For his own private affair, the sinner made us stage a revolution and ruined the livelihood of all these poor people. We are all 'shade cattle'—we don't know how to work in forests or fields. What other work do we know? We can beg; that's all.... Hmm, where is your younger brother, amma?
 
 <!-- unit:tirumbippaar-en-s076-u015; source:PDF 92 / printed 84 -->
-**பூமால்**  
+**பூமாலை**  
 He isn't at home.
 
 <!-- unit:tirumbippaar-en-s076-u016; source:PDF 92 / printed 84 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Hmm... lawless fellow. Unjust fellow.
 
 <!-- unit:tirumbippaar-en-s076-u017; source:PDF 92 / printed 84 -->
-**பூமால்**  
+**பூமாலை**  
 Ayya, I myself will go and see the mill owner and ask him to give all of you your jobs back. Please go now.
 
 <!-- unit:tirumbippaar-en-s076-u018; source:PDF 92 / printed 84 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 If only that fellow falls into my sight...
 
 <!-- unit:tirumbippaar-en-s076-u019; source:PDF 92 / printed 84 -->
@@ -4563,7 +4576,7 @@ If only that fellow falls into my sight...
 ## Scene 77
 
 <!-- unit:tirumbippaar-en-s077-u001; source:PDF 92 / printed 84 -->
-*(The mill owner gets out of his car and walks away. Poomaal runs after him calling, 'Ayya! Ayya!')*
+*(The mill owner gets out of his car and walks away. Poomaalai runs after him calling, 'Ayya! Ayya!')*
 
 <!-- unit:tirumbippaar-en-s077-u002; source:PDF 92 / printed 84 -->
 **முதலாளி**  
@@ -4578,7 +4591,7 @@ She is Paranthaman's elder sister!
 Paranthaman's sister... what have you come here for... go—go....
 
 <!-- unit:tirumbippaar-en-s077-u005; source:PDF 92 / printed 84 -->
-**பூமால்**  
+**பூமாலை**  
 Please don't be angry... the reason I came...
 
 <!-- unit:tirumbippaar-en-s077-u006; source:PDF 92 / printed 84 -->
@@ -4586,7 +4599,7 @@ Please don't be angry... the reason I came...
 To ask for my daughter for Paranthaman... isn't that it?
 
 <!-- unit:tirumbippaar-en-s077-u007; source:PDF 92 / printed 84 -->
-**பூமால்**  
+**பூமாலை**  
 Not to ask for a bride for Paranthaman—to ask for a life for the workers!
 
 <!-- unit:tirumbippaar-en-s077-u008; source:PDF 92 / printed 84 -->
@@ -4594,15 +4607,15 @@ Not to ask for a bride for Paranthaman—to ask for a life for the workers!
 What are you babbling about?
 
 <!-- unit:tirumbippaar-en-s077-u009; source:PDF 92 / printed 84 -->
-**பூமால்**  
-You dismissed many workers because they took part in the agitation. They are all wasting away, unable to bear the suffering. Please take them back....
+**பூமாலை**  
+You dismissed many workers because they took part in the agitation. They are all wasting away, unable to bear the suffering. If only you would take them back....
 
-<!-- unit:tirumbippaar-en-s077-u010; source:PDF 93 / printed 85 -->
+<!-- unit:tirumbippaar-en-s077-u010; source:PDF 92 / printed 84 -->
 **முதலாளி**  
 Very good. So the leadership has changed now—the younger brother has gone and the elder sister has taken over! The leadership keeps circling within the family itself.
 
-<!-- unit:tirumbippaar-en-s077-u011; source:PDF 93 / printed 85 -->
-**பூமால்**  
+<!-- unit:tirumbippaar-en-s077-u011; source:PDF 92 / printed 84 -->
+**பூமாலை**  
 Must one come as a leader simply to speak of the suffering people's grievances? Ayya, I have not come as any such thing. Just say that you will relieve the anguish of the poor workers—that is enough.
 
 <!-- unit:tirumbippaar-en-s077-u012; source:PDF 93 / printed 85 -->
@@ -4610,23 +4623,23 @@ Must one come as a leader simply to speak of the suffering people's grievances? 
 You should have given this advice to your younger brother long ago.
 
 <!-- unit:tirumbippaar-en-s077-u013; source:PDF 93 / printed 85 -->
-**பூமால்**  
-The elder sister has come to perform penance for the sin committed by the younger brother. Please show mercy, ayya.
+**பூமாலை**  
+The elder sister has come to make atonement for the sin committed by the younger brother. Please show mercy, ayya.
 
 <!-- unit:tirumbippaar-en-s077-u014; source:PDF 93 / printed 85 -->
 **முதலாளி**  
 Impossible... go.... go away.
 
 <!-- unit:tirumbippaar-en-s077-u015; source:PDF 93 / printed 85 -->
-**பூமால்**  
-(Falling at his feet.) Ayya! I am holding your feet—wipe away the tears of those who have no refuge. Do not push the workers into hunger, starvation and famine. Whatever else, they are people who work for you. They are like your own children, ayya!...
+**பூமாலை**  
+(Falling at his feet.) Ayya! I am holding your feet—wipe away the tears of those who have no refuge. Do not push the workers into hunger, starvation and famine. Whatever else, they are people who worked for you. They are like your own children, ayya!...
 
 <!-- unit:tirumbippaar-en-s077-u016; source:PDF 93 / printed 85 -->
 **முதலாளி**  
 Let go of my leg.
 
 <!-- unit:tirumbippaar-en-s077-u017; source:PDF 93 / printed 85 -->
-**பூமால்**  
+**பூமாலை**  
 I cannot let go. Until you listen to the voice of suffering, until you make a way for those who cannot live, I cannot let go.
 
 <!-- unit:tirumbippaar-en-s077-u018; source:PDF 93 / printed 85 -->
@@ -4634,11 +4647,11 @@ I cannot let go. Until you listen to the voice of suffering, until you make a wa
 Ugh, you wretched woman!
 
 <!-- unit:tirumbippaar-en-s077-u019; source:PDF 93 / printed 85 -->
-*(He jerks his leg free and leaves. Poomaal is injured. Usha arrives at that moment.)*
+*(He jerks his leg free and leaves. Poomaalai is injured. Usha arrives at that moment.)*
 
 <!-- unit:tirumbippaar-en-s077-u020; source:PDF 93 / printed 85 -->
-**ஊஷா**  
-Oh! Poomaal.... You've been badly hurt. Hey.... who's there?
+**உஷா**  
+Oh! Poomaalai.... You've been badly hurt. Hey.... who's there?
 
 ---
 
@@ -4677,34 +4690,34 @@ Yes. My Kumudha is there.
 
 <!-- unit:tirumbippaar-en-s079-u002; source:PDF 94 / printed 86 -->
 **அவன் குரல்**  
-Kumudha, where have you gone? Have you gone all the way to Coimbatore? How can I come there and see you? Poomaal, Paranthaman—I must not even set eyes on their faces. My Kumudha in the house of those wicked people—no—I must not go there to see her.
+Kumudha, where have you gone? Have you gone all the way to Coimbatore? How can I come there and see you? Poomaalai, Paranthaman—I must not even set eyes on their faces. My Kumudha in the house of those wicked people—no—I must not go there to see her.
 
 ---
 
 ## Scene 80
 
 <!-- unit:tirumbippaar-en-s080-u001; source:PDF 94 / printed 86 -->
-**பூமால்**  
+**பூமாலை**  
 Usha, I can never forget your help.
 
 <!-- unit:tirumbippaar-en-s080-u002; source:PDF 94 / printed 86 -->
-**ஊஷா**  
+**உஷா**  
 It's all right, amma.
 
 <!-- unit:tirumbippaar-en-s080-u003; source:PDF 94 / printed 86 -->
-**பூமால்**  
+**பூமாலை**  
 If you keep sleeping here every night, your father may get angry about it. Go home tonight, amma.
 
 <!-- unit:tirumbippaar-en-s080-u004; source:PDF 95 / printed 87 -->
-**ஊஷா**  
+**உஷா**  
 No, it's only this one night. From tomorrow you won't even need the medicine applied. I'll go tomorrow.
 
 <!-- unit:tirumbippaar-en-s080-u005; source:PDF 95 / printed 87 -->
-**பூமால்**  
+**பூமாலை**  
 All right... you won't listen when you're told. Hmm... go and sleep.
 
 <!-- unit:tirumbippaar-en-s080-u006; source:PDF 95 / printed 87 -->
-**ஊஷா**  
+**உஷா**  
 Sleep peacefully... hmm.
 
 <!-- unit:tirumbippaar-en-s080-u007; source:PDF 95 / printed 87 -->
@@ -4715,15 +4728,15 @@ Sleep peacefully... hmm.
 Akka, how are you?
 
 <!-- unit:tirumbippaar-en-s080-u009; source:PDF 95 / printed 87 -->
-**பூமால்**  
+**பூமாலை**  
 Everything is well.
 
 <!-- unit:tirumbippaar-en-s080-u010; source:PDF 95 / printed 87 -->
-**ஊஷா**  
+**உஷா**  
 (Coming in.) Did you call me?
 
 <!-- unit:tirumbippaar-en-s080-u011; source:PDF 95 / printed 87 -->
-**பூமால்**  
+**பூமாலை**  
 It's nothing, amma! You go and sleep.
 
 <!-- unit:tirumbippaar-en-s080-u012; source:PDF 95 / printed 87 -->
@@ -4731,10 +4744,10 @@ It's nothing, amma! You go and sleep.
 I'll be going, akka! You sleep well.
 
 <!-- unit:tirumbippaar-en-s080-u013; source:PDF 95 / printed 87 -->
-*(Paranthaman paces restlessly. Then he slowly comes near the cot and utters 'Usha.' He touches gently. Poomaal snores.)*
+*(Paranthaman paces restlessly. Then he slowly comes near the cot and says, 'Usha.' He gently touches her. Poomaalai jumps up.)*
 
 <!-- unit:tirumbippaar-en-s080-u014; source:PDF 95 / printed 87 -->
-**பூமால்**  
+**பூமாலை**  
 I know what you're up to.
 
 <!-- unit:tirumbippaar-en-s080-u015; source:PDF 95 / printed 87 -->
@@ -4742,7 +4755,7 @@ I know what you're up to.
 Akka!
 
 <!-- unit:tirumbippaar-en-s080-u016; source:PDF 95 / printed 87 -->
-**பூமால்**  
+**பூமாலை**  
 Even a monkey setting out to destroy a garden leaves a few flowers behind... Even a buffalo wallowing in a red-lotus pond leaves some blossoms without trampling and destroying them. You who possess both a monkey's mind and a buffalo's nature—is no woman entitled to escape becoming prey to your eyes? In your frenzied court, may no maiden who guards her chastity be allowed to live? Do you not even have the sense of the little fox that says an unreachable fruit is sour and walks away? Must you use the old saying 'effort turns into accomplishment' only for these vile deeds?
 
 <!-- unit:tirumbippaar-en-s080-u017; source:PDF 96 / printed 88 -->
@@ -4750,7 +4763,7 @@ Even a monkey setting out to destroy a garden leaves a few flowers behind... Eve
 Akka.... I did not come with any bad intention.
 
 <!-- unit:tirumbippaar-en-s080-u018; source:PDF 96 / printed 88 -->
-**பூமால்**  
+**பூமாலை**  
 Yes. You came with the good intention of treating Usha as though she were your own younger sister! You cannot live for long making a show of seeking justification for your lawless games. The time of destruction for them will dawn very soon.
 
 <!-- unit:tirumbippaar-en-s080-u019; source:PDF 96 / printed 88 -->
@@ -4758,7 +4771,7 @@ Yes. You came with the good intention of treating Usha as though she were your o
 Is destruction only for me? Everything seen upon this earth is something that will one day perish.
 
 <!-- unit:tirumbippaar-en-s080-u020; source:PDF 96 / printed 88 -->
-**பூமால்**  
+**பூமாலை**  
 That is what you must understand properly. There is one thing that cannot perish. Even if thousands upon thousands of years pass, even if age after age rolls by, fame cannot perish—fame. The fame of being a good man. The fame of being a hero. The fame of being wise. That fame for which I performed penance, longing for my younger brother to receive it.
 
 <!-- unit:tirumbippaar-en-s080-u021; source:PDF 96 / printed 88 -->
@@ -4766,22 +4779,22 @@ That is what you must understand properly. There is one thing that cannot perish
 I need neither that fame nor your new sermon about fame. A man is born and he dies. In the interval before death, everything he desires must happen. That is Paranthaman's doctrine. No one has the freedom to obstruct it.
 
 <!-- unit:tirumbippaar-en-s080-u022; source:PDF 96 / printed 88 -->
-**பூமால்**  
-The freedom you claim for revelry, riotous pleasure and the frenzy of luxury—why should that same freedom not belong to the pitiable people harmed by you, to workers, to women, to the many lakhs of Bamas? Isn't that how it is, you lawless man......
+**பூமாலை**  
+The freedom you claim for deceit, intrigue and a frenzy for sensual pleasure—why should that same freedom not belong to the pitiable people harmed by you, to workers, to women, to the many lakhs of Bamas? Isn't that how it is, you lawless man......
 
 <!-- unit:tirumbippaar-en-s080-u023; source:PDF 96 / printed 88 -->
 **பரந்தாமன்**  
 Yes, that's how it is. Who are you to question it?
 
 <!-- unit:tirumbippaar-en-s080-u024; source:PDF 96→97 / printed 88→89 -->
-**பூமால்**  
+**பூமாலை**  
 Who am I? Who am I? I am the one to whom Appa and Amma left the child Paranthaman as a charge, the one who raised him every day with care. If my younger brother had a headache, I suffered as though a scorpion had stung me. When you stole the necklace and made the innocent Pandiyan a criminal, when the lion-like Pandiyan went to prison leaving the golden-bodied woman alone amid a swelling waterfall of tears, I stood as a barrier against justice for one reason alone—that I must not betray my younger brother. Do you understand now who I am? You ask me who I am?
 
 <!-- unit:tirumbippaar-en-s080-u025; source:PDF 97 / printed 89 -->
 *(Paranthaman starts to leave.)*
 
 <!-- unit:tirumbippaar-en-s080-u026; source:PDF 97 / printed 89 -->
-**பூமால்**  
+**பூமாலை**  
 Where are you going—stop—don't go to Usha—walk out.....
 
 <!-- unit:tirumbippaar-en-s080-u027; source:PDF 97 / printed 89 -->
@@ -4789,7 +4802,7 @@ Where are you going—stop—don't go to Usha—walk out.....
 Yes, I'm going to her. What will you do?...
 
 <!-- unit:tirumbippaar-en-s080-u028; source:PDF 97 / printed 89 -->
-**பூமால்**  
+**பூமாலை**  
 Stop. What you want now is a woman, isn't it? Paranthama, what you want now is a woman, isn't it? Here I am.
 
 <!-- unit:tirumbippaar-en-s080-u029; source:PDF 97 / printed 89 -->
@@ -4797,15 +4810,15 @@ Stop. What you want now is a woman, isn't it? Paranthama, what you want now is a
 Ah. Akka...
 
 <!-- unit:tirumbippaar-en-s080-u030; source:PDF 97 / printed 89 -->
-**பூமால்**  
+**பூமாலை**  
 Yes! Your own elder sister. Gather together all those words of lust you endlessly fling at the women of the town and fling them at the woman born with you, at the blood born before you! Speak! They say you begin with 'queen of love' and, in cascading language, bring beautiful women under your spell... Hmm... speak, da... hmm... speak...
 
 <!-- unit:tirumbippaar-en-s080-u031; source:PDF 97 / printed 89 -->
 *(Paranthaman turns.)*
 
 <!-- unit:tirumbippaar-en-s080-u032; source:PDF 97→98 / printed 89→90 -->
-**பூமால்**  
-Wicked man, look back! Not here. Look back along the path you have walked—look back at the lives crushed beneath your footsteps. Look back at the throbbing of the working class broken by your betrayal. Tear-streaked Bama—Punnakodi who cursed, 'Can this be borne?'—the helpless families crying 'Alas, we were deceived!' and shedding tears. [Source wording irregular: 'அத்தியின் மொத்த வியாபாரியே'] Look back at all of them. Why are you standing there? It must be terrifying. Why are you standing?
+**பூமாலை**  
+Wicked man, look back! Not here. Look back along the path you have walked—look back at the lives crushed beneath your footsteps. Look back at the throbbing of the working class broken by your betrayal. Tear-streaked Bama—Punyakodi who cursed, 'Can this be borne?'—the helpless families crying 'Alas, we were deceived!' and shedding tears. [Source wording irregular: `அந்தியின் மொத்த வியாபாரியே`] Look back at all of them. Why are you standing there, terrifying beast? Why are you standing?
 
 <!-- unit:tirumbippaar-en-s080-u033; source:PDF 98 / printed 90 -->
 **பரந்தாமன்**  
@@ -4835,6 +4848,9 @@ Many stars in the sky—one moon. In the world you may have many sisters—one w
 <!-- unit:tirumbippaar-en-s081-u005; source:PDF 98 / printed 90 -->
 **பரந்தாமன்**  
 Akka! Summit of love! Forgive me. I have become a rationalist. I have become a rationalist. 'Look back'—the incomparable teaching my akka has given not merely to me but to the whole world. Look back—O former human being, O great sinner—you too look back. How many skulls lie scattered along the road down which you have rolled? How many husks of hearts have been squeezed dry and thrown away? Count them. You who are filled with degradation, look back. O human race, they say you evolved from the monkey—look back once and ask whether that monkey mentality has truly diminished within you. Look back—look back—look back! Akka! I have looked back, akka! I have reformed, akka!
+
+<!-- unit:tirumbippaar-en-s081-u006; source:PDF 98 / printed 90 -->
+*(He runs.)*
 
 ---
 
@@ -4873,9 +4889,9 @@ Right. Looks as though akka has preached to you. Looks as though you've really i
 
 <!-- unit:tirumbippaar-en-s082-u009; source:PDF 99 / printed 91 -->
 **பரந்தாமன்**  
-Don't say anything about akka—she is my deity. The deity who opened the doors of my heart that had been shut! The jewel of womanhood who showed a lamp of light on my dark path. When I was about to fall into the pit of disgrace, she gave me a final breath and commanded me: 'Look, you who have lost all virtue. How many flower-faced women have been crushed under your footsteps along the path you have walked—those left without direction, those led astray, those struggling in the streets—how many are there? Traitor, look back!' The deity who reformed me with that command is my beloved sister. She alone is the living deity before my eyes. Garuda, I walked only on an evil path. So did you, so did you. You too reform yourself—look back, my friend—look back!
+Don't say anything about akka—she is my deity. The deity who opened the doors of my heart that had been shut! The jewel of womanhood who showed a lamp of light on my dark path. When I was about to fall into the pit of disgrace, she gave me a final breath and commanded me: 'Look, you worthless man devoid of character. How many flower-faced women have been crushed under your footsteps along the path you have walked—those left without direction, those led astray, those struggling in the streets—how many are there? Traitor, look back!' The deity who reformed me with that command is my beloved sister. She alone is the living deity before my eyes. Garuda, I walked only on an evil path. So did you, so did you. You too reform yourself—look back, my friend—look back!
 
-<!-- unit:tirumbippaar-en-s082-u010; source:PDF 100 / printed 92 -->
+<!-- unit:tirumbippaar-en-s082-u010; source:PDF 99 / printed 91 -->
 **கருடன்**  
 Oh, go on!
 
@@ -4908,7 +4924,7 @@ I'll come with you too.
 Come, brother, come. If you stay here, you'll be ruined too.
 
 <!-- unit:tirumbippaar-en-s082-u018; source:PDF 100 / printed 92 -->
-*(The boy gets up.)*
+*(The boy writes.)*
 
 <!-- unit:tirumbippaar-en-s082-u019; source:PDF 100 / printed 92 -->
 **கருடன்**  
@@ -4927,11 +4943,11 @@ Look back.
 ## Scene 83
 
 <!-- unit:tirumbippaar-en-s083-u001; source:PDF 100 / printed 92 -->
-*(Madras hotel. Paranthaman is writing.)*
+*(Chennai hotel. Paranthaman is writing.)*
 
 <!-- unit:tirumbippaar-en-s083-u002; source:PDF 100→101 / printed 92→93 -->
 *Written text*  
-> URGENT APPEAL. To dear Kumudha! I am longing to see you. Forget what has happened and let me know your address immediately; I will run to you and meet you. Yours, your loving uncle, Paranthaman, Room 15, Himalaya Hotel, Madras.
+> URGENT APPEAL. To dear Kumudha! I am longing to see you. Forget what has happened and let me know your address immediately; I will run to you and meet you. Yours, your loving uncle, Paranthaman, Room 15, Himalaya Hotel, Chennai.
 
 <!-- unit:tirumbippaar-en-s083-u003; source:PDF 101 / printed 93 -->
 *(He reads through the letter he has written once, then turns to the boy.)*
@@ -4942,7 +4958,7 @@ You must go immediately to the offices of the daily newspapers.
 
 <!-- unit:tirumbippaar-en-s083-u005; source:PDF 101 / printed 93 -->
 **பையன்**  
-Where...
+Why, sir...
 
 <!-- unit:tirumbippaar-en-s083-u006; source:PDF 101 / printed 93 -->
 **பரந்தாமன்**  
@@ -4970,7 +4986,7 @@ Oh... I forgot that.
 
 <!-- unit:tirumbippaar-en-s083-u012; source:PDF 101 / printed 93 -->
 **பரந்தாமன்**  
-I will certainly find out where my Kumudha is! I will run to her. I will ask forgiveness. I will bring a rebirth to the family that has fallen into ruin!
+I will certainly find out where my Kumudha is! I will run to her. I will ask forgiveness. I will bring a revival to the family that has fallen into ruin!
 
 ---
 
@@ -4980,7 +4996,7 @@ I will certainly find out where my Kumudha is! I will run to her. I will ask for
 *(Maternity hospital. The watchman is seated in his booth with a newspaper. Paranthaman's advertisement catches his eye.)*
 
 <!-- unit:tirumbippaar-en-s084-u002; source:PDF 102 / printed 94 -->
-'To dear Kumudha'—(eagerly) What! What! Our Kumudha's name is here! (Again.) 'To dear Kumudha...' (Then muttering; aloud.) 'Yours, your uncle Paranthaman, 15, Himalaya Hotel, Madras...' Ah! All Kumudha's worries will be over! I'll write Kumudha's address right now. (Searching for a card.) Where's the card! This too... hmm...
+'To dear Kumudha'—(eagerly) What! What! Our Kumudha's name is here! (Again.) 'To dear Kumudha...' (Then muttering; aloud.) 'Yours, your uncle Paranthaman, 15, Himalaya Hotel, Chennai...' Ah! All Kumudha's worries will be over! I'll write Kumudha's address right now. (Searching for a card.) Where's the card! This too... hmm...
 
 <!-- unit:tirumbippaar-en-s084-u003; source:PDF 102 / printed 94 -->
 *(He takes a card and writes. As he finishes writing, Pandiyan comes along that side.)*
@@ -4995,11 +5011,14 @@ Yes.
 
 <!-- unit:tirumbippaar-en-s084-u006; source:PDF 102 / printed 94 -->
 **வாட்ச்மேன்**  
-Hmm. Drop this card in the post box on your way. (Pandiyan takes it.) It's very urgent. It's hospital time for me; I mustn't go outside! You'll post it, won't you?
+Hmm. Drop this card in the post box on your way. (Pandiyan takes it.) It's very urgent. I'm on hospital duty; I mustn't go outside! You'll post it, won't you?
 
 <!-- unit:tirumbippaar-en-s084-u007; source:PDF 102 / printed 94 -->
 **பாண்டியன்**  
-Hmm... (He takes it and goes.)
+Hmm...
+
+<!-- unit:tirumbippaar-en-s084-u008; source:PDF 102 / printed 94 -->
+*(He takes the card and goes.)*
 
 ---
 
@@ -5010,11 +5029,11 @@ Hmm... (He takes it and goes.)
 
 <!-- unit:tirumbippaar-en-s085-u002; source:PDF 102 / printed 94 -->
 *Written text*  
-> Paranthaman, 15, Himalaya Hotel, Madras.
+> Paranthaman, 15, Himalaya Hotel, Chennai.
 
 <!-- unit:tirumbippaar-en-s085-u003; source:PDF 103 / printed 95 -->
 **பாண்டியன்**  
-(Startled.) Paranthaman!...... (He reads the card.) Ah! Kumudha's address! Kumudha! Kumudha! I've found my Kumudha! Kumudha! Kumudha!
+(Startled.) Paranthaman! (He reads the card.) Ah! Kumudha's address! I've found my Kumudha! Kumudha! Kumudha! Kumudha! Kumudha!
 
 <!-- unit:tirumbippaar-en-s085-u004; source:PDF 103 / printed 95 -->
 *(He runs.)*
@@ -5054,7 +5073,7 @@ What could it be? You tell me!
 Grandfather's name?
 
 <!-- unit:tirumbippaar-en-s086-u009; source:PDF 103 / printed 95 -->
-*(Punnakodi comes begging with a group of men and women, including the mute woman. The watchman, returning home, sees them.)*
+*(Punyakodi comes begging with a group of men and women, including the mute woman. The watchman, returning home, sees them.)*
 
 <!-- unit:tirumbippaar-en-s086-u010; source:PDF 103 / printed 95 -->
 *Chant*  
@@ -5065,7 +5084,7 @@ Grandfather's name?
 What is this, man.... Even when one person comes there is no one to give alms, and you come bringing a whole battalion.
 
 <!-- unit:tirumbippaar-en-s086-u012; source:PDF 103 / printed 95 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 We all come together because coming one by one would be troublesome. Hmm, what can we do! Such is our time. We used to live well!
 
 <!-- unit:tirumbippaar-en-s086-u013; source:PDF 103 / printed 95 -->
@@ -5073,7 +5092,7 @@ We all come together because coming one by one would be troublesome. Hmm, what c
 Oh, are you weavers!
 
 <!-- unit:tirumbippaar-en-s086-u014; source:PDF 104 / printed 96 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Forget that! We're all mill workers—and from Coimbatore at that! No work. We're suffering like this.
 
 <!-- unit:tirumbippaar-en-s086-u015; source:PDF 104 / printed 96 -->
@@ -5081,7 +5100,7 @@ Forget that! We're all mill workers—and from Coimbatore at that! No work. We'r
 Kumudha! Kumudha! Bring a little rice, amma!
 
 <!-- unit:tirumbippaar-en-s086-u016; source:PDF 104 / printed 96 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 A little?—after seeing this crowd......
 
 <!-- unit:tirumbippaar-en-s086-u017; source:PDF 104 / printed 96 -->
@@ -5093,10 +5112,10 @@ What then—do you expect them to give a whole measure!
 
 <!-- unit:tirumbippaar-en-s086-u019; source:PDF 104 / printed 96 -->
 **பாண்டியன்**  
-(Seeing Punnakodi.) Appa! Appa!
+(Seeing Punyakodi.) Appa! Appa!
 
 <!-- unit:tirumbippaar-en-s086-u020; source:PDF 104 / printed 96 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Pandiyan! My son! Have you seen what has become of your father!
 
 <!-- unit:tirumbippaar-en-s086-u021; source:PDF 104 / printed 96 -->
@@ -5104,7 +5123,7 @@ Pandiyan! My son! Have you seen what has become of your father!
 Appa! You've become a destitute wanderer?
 
 <!-- unit:tirumbippaar-en-s086-u022; source:PDF 104 / printed 96 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 That Paranthaman made me this way.
 
 <!-- unit:tirumbippaar-en-s086-u023; source:PDF 104 / printed 96 -->
@@ -5120,7 +5139,7 @@ Is that so!
 Yes. (To the watchman.) This is my father. Appa! What happened?
 
 <!-- unit:tirumbippaar-en-s086-u026; source:PDF 104 / printed 96 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 Paranthaman made us strike for his own selfish purpose and then asked forgiveness. Because of that, the owner said there was no work for any of us.
 
 <!-- unit:tirumbippaar-en-s086-u027; source:PDF 104 / printed 96 -->
@@ -5128,7 +5147,7 @@ Paranthaman made us strike for his own selfish purpose and then asked forgivenes
 Ah! Who committed the offence? And who is suffering the cruelty?
 
 <!-- unit:tirumbippaar-en-s086-u028; source:PDF 104 / printed 96 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 It's not only us, son! Hundreds of families have ended up like this!
 
 <!-- unit:tirumbippaar-en-s086-u029; source:PDF 105 / printed 97 -->
@@ -5136,7 +5155,7 @@ It's not only us, son! Hundreds of families have ended up like this!
 Hundreds of families! I will meet that owner on behalf of the workers who are suffering.
 
 <!-- unit:tirumbippaar-en-s086-u030; source:PDF 105 / printed 97 -->
-**புண்ணகோடி**  
+**புண்யகோடி**  
 My son is truly my son. (He embraces him.)
 
 ---
@@ -5144,22 +5163,22 @@ My son is truly my son. (He embraces him.)
 ## Scene 87
 
 <!-- unit:tirumbippaar-en-s087-u001; source:PDF 105 / printed 97 -->
-*(Poomaal finishes drinking coffee. Gundumani runs in carrying a newspaper.)*
+*(Poomaalai finishes drinking coffee. Gundumani runs in carrying a newspaper.)*
 
 <!-- unit:tirumbippaar-en-s087-u002; source:PDF 105 / printed 97 -->
 **குண்டுமணி**  
 Amma! Amma! Did you see this! Your younger brother has put out an advertisement asking for Kumudha-amma's address!
 
 <!-- unit:tirumbippaar-en-s087-u003; source:PDF 105 / printed 97 -->
-**பூமால்**  
+**பூமாலை**  
 Ah! (She looks at the newspaper.) Paranthaman is searching for Kumudha—the sinner! Some danger is going to come to her too! Gundumani, I must leave for Madras immediately.
 
 <!-- unit:tirumbippaar-en-s087-u004; source:PDF 105 / printed 97 -->
 **குண்டுமணி**  
-All right...
+...
 
 <!-- unit:tirumbippaar-en-s087-u005; source:PDF 105 / printed 97 -->
-**பூமால்**  
+**பூமாலை**  
 Only if I go can I save Kumudha from that destroyer!
 
 ---
@@ -5171,7 +5190,7 @@ Only if I go can I save Kumudha from that destroyer!
 
 <!-- unit:tirumbippaar-en-s088-u002; source:PDF 105 / printed 97 -->
 **பரந்தாமன்**  
-We've got our Kumudha's address. He's sent a telegram. Hmm...... hmm...... Put together the doll, rattle and everything we bought for the child.
+We've got our Kumudha's address. She's sent a telegram. Hmm...... hmm...... Put together the doll, rattle and everything we bought for the child.
 
 <!-- unit:tirumbippaar-en-s088-u003; source:PDF 105 / printed 97 -->
 *(The boy leaves.)*
@@ -5184,7 +5203,7 @@ I will bring renewal to the ruined family.
 ## Scene 89
 
 <!-- unit:tirumbippaar-en-s089-u001; source:PDF 106 / printed 98 -->
-**பூமால்**  
+**பூமாலை**  
 (To the office boy.) Where is Paranthaman?
 
 <!-- unit:tirumbippaar-en-s089-u002; source:PDF 106 / printed 98 -->
@@ -5192,12 +5211,12 @@ I will bring renewal to the ruined family.
 He's gone to Kumudha.
 
 <!-- unit:tirumbippaar-en-s089-u003; source:PDF 106 / printed 98 -->
-**பூமால்**  
+**பூமாலை**  
 The address...
 
 <!-- unit:tirumbippaar-en-s089-u004; source:PDF 106 / printed 98 -->
 **பையன்**  
-Here is the telegram they sent!
+Here is the telegram she sent!
 
 <!-- unit:tirumbippaar-en-s089-u005; source:PDF 106 / printed 98 -->
 *(He gives her the telegram. She takes it, looks at it, and hurries out.)*
@@ -5234,7 +5253,7 @@ Bama! Understand me! Don't act in haste! I am not the treacherous Paranthaman wh
 
 <!-- unit:tirumbippaar-en-s090-u008; source:PDF 106 / printed 98 -->
 **பாமா**  
-Yes! That's why you've come after getting Kumudha's address.
+Yes! That's why you've come to cast your net for Kumudha.
 
 <!-- unit:tirumbippaar-en-s090-u009; source:PDF 107 / printed 99 -->
 **பரந்தாமன்**  
@@ -5264,7 +5283,7 @@ Bama! (He stops her; as the two struggle.) Bama! Listen to what I say! Don't kil
 Sinner! Let go of me!
 
 <!-- unit:tirumbippaar-en-s090-u016; source:PDF 107 / printed 99 -->
-*(Poomaal's voice is heard calling, 'Kumudha! Kumudha!' Before that, Bama's revolver fires. Because the revolver has turned toward her own side, Bama loses her life and falls.)*
+*(Poomaalai's voice is heard calling, 'Kumudha! Kumudha!' Meanwhile Bama's revolver fires. Because the revolver has turned toward her own side, Bama loses her life and falls.)*
 
 <!-- unit:tirumbippaar-en-s090-u017; source:PDF 107 / printed 99 -->
 **பரந்தாமன்**  
@@ -5278,10 +5297,10 @@ Ah!.... (In distress.)
 Ah!.... (A cry.)
 
 <!-- unit:tirumbippaar-en-s090-u020; source:PDF 107 / printed 99 -->
-*(Writhing, he falls onto the sofa. The person who has now shot him is Poomaal.)*
+*(Writhing, he falls onto the sofa. The person who has now shot him is Poomaalai.)*
 
 <!-- unit:tirumbippaar-en-s090-u021; source:PDF 107 / printed 99 -->
-**பூமால்**  
+**பூமாலை**  
 Be gone, wicked man! At least from now on let the world live in peace! (To the woman lying below.) Kumudha! Kumudha! (She goes near and looks.) Ah! Bama!
 
 <!-- unit:tirumbippaar-en-s090-u022; source:PDF 108 / printed 100 -->
@@ -5292,15 +5311,15 @@ Be gone, wicked man! At least from now on let the world live in peace! (To the w
 That isn't Kumudha, akka! Bama! (Sobbing.) My Bama! She killed herself!
 
 <!-- unit:tirumbippaar-en-s090-u024; source:PDF 108 / printed 100 -->
-**பூமால்**  
+**பூமாலை**  
 Yes! From the very day she first saw you, she had already begun killing herself!
 
 <!-- unit:tirumbippaar-en-s090-u025; source:PDF 108 / printed 100 -->
 **பரந்தாமன்**  
-Akka! You still think wrongly of me, akka! You did not kill the younger brother who was committing an unworthy act—you killed gold that had been purified in fire! They had already killed the Paranthaman who was a cave of cruel games, akka! What you have killed now is the good man newly created by you! Akka, you have killed the younger brother I should have been to you. I came to ask Kumudha's forgiveness, akka. Bama, who had meant to take revenge... Bama... Bama...
+Akka! You still think wrongly of me, akka! You did not kill the younger brother who was committing an unworthy act—you killed gold that had been purified in fire! You had already killed the Paranthaman who was a cave of cruel games, akka! What you have killed now is the good man newly created by you! Akka, you have killed the younger brother I should have been to you. I came to ask Kumudha's forgiveness, akka. Bama, who had meant to take revenge... Bama... Bama...
 
 <!-- unit:tirumbippaar-en-s090-u026; source:PDF 108 / printed 100 -->
-**பூமால்**  
+**பூமாலை**  
 Thambi...
 
 <!-- unit:tirumbippaar-en-s090-u027; source:PDF 108 / printed 100 -->
@@ -5308,15 +5327,15 @@ Thambi...
 Look here, akka! The toys I bought for Kumudha's child!
 
 <!-- unit:tirumbippaar-en-s090-u028; source:PDF 108 / printed 100 -->
-**பூமால்**  
-Paranthama! I judged in haste—forgive me, my treasure...
+**பூமாலை**  
+Paranthama! I acted in haste and lost my reason—forgive me, my treasure...
 
 <!-- unit:tirumbippaar-en-s090-u029; source:PDF 108 / printed 100 -->
 **பரந்தாமன்**  
 You are without fault. I am the one who ought to die, akka! This is the punishment I needed. Not for me alone, but for everyone like me. O goddess who reformed me, give me that golden hand that pointed out where I must 'look back.'
 
 <!-- unit:tirumbippaar-en-s090-u030; source:PDF 108 / printed 100 -->
-**பூமால்**  
+**பூமாலை**  
 Not the hand that pointed the way. The hand that shot down its own brother... the hand that shot him down.
 
 <!-- unit:tirumbippaar-en-s090-u031; source:PDF 109 / printed 101 -->
@@ -5324,7 +5343,7 @@ Not the hand that pointed the way. The hand that shot down its own brother... th
 No, akka! No. Give me those loving hands that raised me... those cherished hands... Akka.... bid me farewell!
 
 <!-- unit:tirumbippaar-en-s090-u032; source:PDF 109 / printed 101 -->
-**பூமால்**  
+**பூமாலை**  
 Paranthama!
 
 <!-- unit:tirumbippaar-en-s090-u033; source:PDF 109 / printed 101 -->
@@ -5332,7 +5351,7 @@ Paranthama!
 Run away. Escape from the police, akka.
 
 <!-- unit:tirumbippaar-en-s090-u034; source:PDF 109 / printed 101 -->
-**பூமால்**  
+**பூமாலை**  
 No. Once you are gone, what life is there for me?
 
 <!-- unit:tirumbippaar-en-s090-u035; source:PDF 109 / printed 101 -->
@@ -5340,7 +5359,7 @@ No. Once you are gone, what life is there for me?
 Akka! Akka!
 
 <!-- unit:tirumbippaar-en-s090-u036; source:PDF 109 / printed 101 -->
-**பூமால்**  
+**பூமாலை**  
 Police! Police!
 
 <!-- unit:tirumbippaar-en-s090-u037; source:PDF 109 / printed 101 -->
@@ -5348,23 +5367,26 @@ Police! Police!
 Akka! Akka!
 
 <!-- unit:tirumbippaar-en-s090-u038; source:PDF 109 / printed 101 -->
-**பூமால்**  
+**பூமாலை**  
 Paranthama!
+
+<!-- unit:tirumbippaar-en-s090-u039; source:PDF 109 / printed 101 -->
+*(Paranthaman dies.)*
 
 ---
 
 ## Scene 91
 
 <!-- unit:tirumbippaar-en-s091-u001; source:PDF 109 / printed 101 -->
-**ஊஷா**  
-Appa, during the quarrel between Poomaal and Paranthaman I understood clearly that it was Paranthaman who committed the highway robbery and stole the necklace.
+**உஷா**  
+Appa, during the quarrel between Poomaalai and Paranthaman I understood clearly that it was Paranthaman who committed the highway robbery and stole the necklace.
 
 <!-- unit:tirumbippaar-en-s091-u002; source:PDF 109 / printed 101 -->
 **முதலாளி**  
 Poor innocent Pandiyan suffered for nothing because of me.
 
 <!-- unit:tirumbippaar-en-s091-u003; source:PDF 109 / printed 101 -->
-**ஊஷா**  
+**உஷா**  
 There is only one way to atone for that sin.
 
 <!-- unit:tirumbippaar-en-s091-u004; source:PDF 109 / printed 101 -->
@@ -5372,7 +5394,7 @@ There is only one way to atone for that sin.
 What is it, Usha?
 
 <!-- unit:tirumbippaar-en-s091-u005; source:PDF 109 / printed 101 -->
-**ஊஷா**  
+**உஷா**  
 Grant equality to the workers according to Pandiyan's principles.
 
 <!-- unit:tirumbippaar-en-s091-u006; source:PDF 109 / printed 101 -->
@@ -5431,21 +5453,24 @@ Ah! What!
 <!-- unit:tirumbippaar-en-s091-u020; source:PDF 110 / printed 102 -->
 *(The newspaper is handed to Pandiyan.)*
 
-<!-- unit:tirumbippaar-en-s091-u021; source:PDF 111 / printed 103 -->
+<!-- unit:tirumbippaar-en-s091-u021; source:PDF 110 / printed 102 -->
 **பாண்டியன்**  
-Yes!
-
-<!-- unit:tirumbippaar-en-s091-u022; source:PDF 111 / printed 103 -->
-*Written text*  
-> Newspaper News: 'Elder sister killed younger brother.'
+Ah!
 
 ---
 
 ## Scene 92
 
+<!-- unit:tirumbippaar-en-s092-u003; source:PDF 111 / printed 103 -->
+*Written text*  
+> Newspaper News: 'Elder sister killed younger brother.'
+
+<!-- unit:tirumbippaar-en-s092-u004; source:PDF 111 / printed 103 -->
+*(Court.)*
+
 <!-- unit:tirumbippaar-en-s092-u001; source:PDF 111 / printed 103 -->
 **நீதிபதி**  
-(The judgment is read.) Pandiyan came only after hearing the news through the newspaper! The testimony of the owner of Sivasakthi Mill and the hospital watchman makes it clear that he had no connection whatsoever with the murder. It is not believable that he committed the murder merely because there was enmity between Paranthaman and Pandiyan! Therefore Pandiyan is acquitted. (Poomaal smiles.) Poomaal, who admits to the crime of murder, is sentenced to death.
+(The judgment is read.) Pandiyan came only after learning the news through the newspaper. The testimony of the owner of Sivasakthi Mill and the hospital watchman makes it clear that he had no connection whatsoever with the murder. It is not credible that Pandiyan committed the murder merely because there was enmity between Paranthaman and him. Therefore Pandiyan is acquitted. (Poomaalai smiles.) Poomaalai, who admits to the crime of murder, is sentenced to death.
 
 <!-- unit:tirumbippaar-en-s092-u002; source:PDF 111 / printed 103 -->
 **குமுதா**  
@@ -5455,12 +5480,15 @@ Chinnamma!
 
 ## Scene 93
 
+<!-- unit:tirumbippaar-en-s093-u013; source:PDF 111 / printed 103 -->
+*(Jail.)*
+
 <!-- unit:tirumbippaar-en-s093-u001; source:PDF 111 / printed 103 -->
 **குமுதா**  
 Chinnamma! Chinnamma!
 
 <!-- unit:tirumbippaar-en-s093-u002; source:PDF 111 / printed 103 -->
-**பூமால்**  
+**பூமாலை**  
 Don't cry, Kumudha!...
 
 <!-- unit:tirumbippaar-en-s093-u003; source:PDF 111 / printed 103 -->
@@ -5468,34 +5496,34 @@ Don't cry, Kumudha!...
 You did not kill your younger brother! His own past deeds took revenge upon him!
 
 <!-- unit:tirumbippaar-en-s093-u004; source:PDF 111 / printed 103 -->
-**பூமால்**  
-If he had been a good man from the beginning, why would I ever have become angry with him? Why would I kill, while he writhed, the treasure I had raised with my own hands?
+**பூமாலை**  
+If he had been a good man from the beginning, why would I ever have become angry with him? Why would I kill, while he writhed, the treasure I had so tenderly raised?
 
 <!-- unit:tirumbippaar-en-s093-u005; source:PDF 111 / printed 103 -->
 **குமுதா**  
 Chinnamma!
 
 <!-- unit:tirumbippaar-en-s093-u006; source:PDF 112 / printed 104 -->
-**பூமால்**  
-Kumudha! Your uncle received the fitting reward for the suffering he caused you and the people of the town! And by doing this deed, I too showed that I—the woman you once suspected—was without stain!...
+**பூமாலை**  
+Kumudha! Your uncle received the fitting reward for the suffering he caused you and the people of the town! And by doing this deed, I too showed that I—the woman you once suspected—was without stain!
 
 <!-- unit:tirumbippaar-en-s093-u007; source:PDF 112 / printed 104 -->
 **குமுதா**  
 Forgive me, Chinnamma!
 
 <!-- unit:tirumbippaar-en-s093-u008; source:PDF 112 / printed 104 -->
-**பூமால்**  
-Don't cry, my dear, don't cry! All right, it is time. Kumudha! Pandiyan! I am going!
+**பூமாலை**  
+Don't cry, my dear, don't cry! All right, it is time. Kumudha! Pandiyan! I am going.
 
 <!-- unit:tirumbippaar-en-s093-u009; source:PDF 112 / printed 104 -->
-*(There are tears in the eyes of the students. Poomaal sees them.)*
+*(There are tears in the eyes of the female students. Poomaalai sees them.)*
 
 <!-- unit:tirumbippaar-en-s093-u010; source:PDF 112 / printed 104 -->
-**பூமால்**  
-Kumudha! Fulfil my one request! (Pointing to the students.) Here are the flower-clusters of a new world! Labour to kindle the lamp of knowledge in these young hearts. You and Pandiyan must work to make the counsel 'Look Back' a counsel needed by everyone—those who live well, those who lie crushed, and those engaged in destructive deeds! I am going. (To the students.) My lovely little birds! Blessings to all of you! Do not forget the teaching 'Look Back.' I am going to a place from which I will not return.
+**பூமாலை**  
+Kumudha! Fulfil my one request! (Pointing to the female students.) Here are the flower-clusters of a new world! Labour to kindle the lamp of knowledge in these young hearts. You and Pandiyan must strive to make the counsel 'Look Back' a counsel needed by everyone—those who live well, those who lie in distress, and those engaged in destructive deeds! I am going. (To the female students.) My lovely little birds! Blessings to all of you! Do not forget the teaching 'Look Back.' I am going to a place from which I will not return.
 
 <!-- unit:tirumbippaar-en-s093-u011; source:PDF 112 / printed 104 -->
-*(The children stand in tears. The warders lead Poomaal away.)*
+*(The children stand in tears. The warders lead Poomaalai away.)*
 
 <!-- unit:tirumbippaar-en-s093-u012; source:PDF 112 / printed 104 -->
 *Written text*  
