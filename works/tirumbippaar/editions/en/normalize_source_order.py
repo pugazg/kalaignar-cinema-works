@@ -2,14 +2,15 @@
 """Synchronize Tirumbippaar English source metadata without changing unit IDs/text.
 
 The corrected Tamil dialogue shards are the immutable source-metadata authority.
-This helper repairs only two downstream metadata/ordering classes discovered by
-publication QA:
+This helper repairs only downstream metadata/ordering drift:
 
 * exact speaker-label spacing/forms for units linked to immutable dialogue IDs;
 * two source-proven carry-over stage directions whose higher stable English IDs
   must appear at the beginning of scenes 37 and 39.
 
-It never renumbers units and never rewrites English translation payloads.
+Page-provenance disagreements are never auto-repaired. They are all reported in
+one pass so each can be adjudicated against the corrected scene/source before a
+manual repository correction. No files are written while such mismatches remain.
 """
 
 from __future__ import annotations
@@ -28,7 +29,8 @@ SOURCE_ORDER_MOVES = {
     39: "tirumbippaar-en-s039-u026",
 }
 
-changed_scenes: list[int] = []
+loaded: dict[int, tuple[Path, dict]] = {}
+provenance_mismatches: list[dict] = []
 speaker_repairs = 0
 order_repairs = 0
 
@@ -45,7 +47,6 @@ for scene in SCENES:
     if not isinstance(units, list):
         raise SystemExit(f"Malformed units array: {translation_path.relative_to(ROOT)}")
 
-    changed = False
     for unit in units:
         source = unit.get("source")
         if not isinstance(source, dict):
@@ -56,13 +57,20 @@ for scene in SCENES:
         immutable = dialogue_by_id.get(record_id)
         if immutable is None:
             raise SystemExit(f"Unknown dialogue source_record_id {record_id} in {translation_path.relative_to(ROOT)}")
+
         if source.get("page_provenance") != immutable.get("page_provenance"):
-            raise SystemExit(f"Page provenance mismatch requires manual review: {unit.get('id')}")
+            provenance_mismatches.append({
+                "scene": scene,
+                "unit_id": unit.get("id"),
+                "source_record_id": record_id,
+                "translation": source.get("page_provenance"),
+                "dialogue": immutable.get("page_provenance"),
+            })
+
         exact_label = immutable.get("speaker_label")
         if source.get("speaker_label") != exact_label:
             source["speaker_label"] = exact_label
             speaker_repairs += 1
-            changed = True
 
     move_id = SOURCE_ORDER_MOVES.get(scene)
     if move_id is not None:
@@ -74,15 +82,27 @@ for scene in SCENES:
             unit = units.pop(position)
             units.insert(0, unit)
             order_repairs += 1
-            changed = True
 
-    pages = [unit["source"]["page_provenance"][0]["pdf_page"] for unit in units]
-    if pages != sorted(pages):
-        raise SystemExit(f"Source-page order still regresses in {translation_path.relative_to(ROOT)}: {pages}")
     if translation.get("unit_count") != len(units):
         raise SystemExit(f"unit_count changed unexpectedly in {translation_path.relative_to(ROOT)}")
 
-    if changed:
+    loaded[scene] = (translation_path, translation)
+
+if provenance_mismatches:
+    print(f"PAGE_PROVENANCE_MISMATCHES={len(provenance_mismatches)}")
+    for mismatch in provenance_mismatches:
+        print(json.dumps(mismatch, ensure_ascii=False, separators=(",", ":")))
+    raise SystemExit("Page provenance mismatches require manual source review; no translation files were rewritten")
+
+changed_scenes: list[int] = []
+for scene, (translation_path, translation) in loaded.items():
+    units = translation["units"]
+    pages = [unit["source"]["page_provenance"][0]["pdf_page"] for unit in units]
+    if pages != sorted(pages):
+        raise SystemExit(f"Source-page order still regresses in {translation_path.relative_to(ROOT)}: {pages}")
+
+    original = json.loads(translation_path.read_text(encoding="utf-8"))
+    if translation != original:
         translation_path.write_text(
             json.dumps(translation, ensure_ascii=False, separators=(",", ":")) + "\n",
             encoding="utf-8",
