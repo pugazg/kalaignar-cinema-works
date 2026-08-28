@@ -1,9 +1,10 @@
 # திரும்பிப்பார்! — corrected Markdown reconciliation audit
 
-Status: **complete — canonical Tamil, scene/dialogue, character/entity, English source reconciliation and deterministic publication derivatives verified**
+Status: **complete — canonical Tamil, scene/dialogue, character/entity, song/performance, English source reconciliation and deterministic publication derivatives verified**
 
 Date opened: 2026-08-26  
-Publication closure: 2026-08-28
+Publication closure: 2026-08-28  
+Song/performance closure: 2026-08-28
 
 ## Authority
 
@@ -15,7 +16,7 @@ Authority order for this pass:
 2. `TVA_BOK_0014652_திரும்பிப்பார்.pdf` is final visual authority for doubt, conflicts, extraction artefacts, punctuation, headings, physical page structure and visibly omitted material.
 3. Earlier repository `verified` labels are historical workflow state, not textual proof.
 4. Printed spelling, punctuation, labels, old forms, anomalies and page provenance are not silently modernized.
-5. Existing immutable dialogue and English unit IDs remain stable unless the source proves omitted material.
+5. Existing immutable dialogue, song-occurrence and English unit IDs remain stable unless the source proves omitted material.
 
 The supplied corrected Markdown covers all **104 Play Pages**, matching PDF **9–112 / printed pp.1–104**.
 
@@ -77,6 +78,39 @@ Final totals:
 
 Exact-label handling retains corrected forms such as `பூமாலை`, `புண்யகோடி`, `குண்டுமணி`, `உஷா`, `சமையல்காரன்`, `அம்மாமி`, and both printed sub-inspector spacing forms `சப்- இன்ஸ்பெக்டர்` / `சப் - இன்ஸ்பெக்டர்`.
 
+## Song/performance reconciliation closure
+
+The historical song/performance inventory predated the final corrected-source scene pass. All **8** stable occurrence records were rechecked against the current corrected scene derivatives.
+
+Final occurrence distribution:
+
+- scene 2 — `tirumbippaar-song-001`
+- scene 6 — `tirumbippaar-song-002`
+- scene 11 — `tirumbippaar-song-003`
+- scene 14 — `tirumbippaar-song-004`
+- scene 29 — `tirumbippaar-song-005`
+- scene 31 — `tirumbippaar-song-006`
+- scene 43 — `tirumbippaar-song-007` and `tirumbippaar-song-008`
+
+Four stale source-metadata drifts were repaired without changing occurrence IDs:
+
+- occurrence 001: `பூமால்` → corrected `பூமாலை`;
+- occurrence 002: stale `பாமா பாட்டுமுடிந்ததும்...` → corrected `பாமா பாடிமுடிந்ததும் குடத்தை எடுத்துக்கொண்டு போகிறாள்`;
+- occurrence 005: chant punctuation synchronized exactly to corrected scene 29;
+- occurrence 007: stale scene **42** attribution moved to corrected scene **43**, where Pandiyan sings what he wrote and the booklet prints `கலப்படம் கலப்படம்`. Occurrence 008 remains the office-boy reprise later in the same scene.
+
+Scene 42 remains the spoken lead-in to the song performance but contains no separate song/performance inventory occurrence.
+
+Authorship status remains evidence-limited rather than guessed:
+
+- verified occurrences: **3** — `பாண்டியன் என் சொல்லை` / **பாரதிதாசன்**, plus `கலப்படம்` and its reprise / **கண்ணதாசன்**;
+- unresolved occurrences: **5** — the four unnamed singing/performance references and the standalone labour chant;
+- full named-song lyric blocks printed by this booklet: **0**.
+
+The front matter contains no `பாடல்கள்` or item-level lyricist credit. External track metadata supplies authorship only for exact title matches and is never used to repair Tamil wording, scene boundaries or supply absent lyrics.
+
+Therefore `song_tamil_derivatives` is now **closed-no-source-full-lyrics**, with **0 derivative lyric files by design**. This is a completed source-limited state, not unfinished work. Reopen only if a new controlling source supplies printed lyric bodies or explicit item-level credits.
+
 ## English source-reconciliation closure
 
 All **93 scenes** are corrected-source reconciled in English.
@@ -93,7 +127,7 @@ Final English totals:
 - labelled dialogue links: **1,042/1,042**
 - genuine cross-page English units: **12**
 
-Historical surviving English unit IDs were preserved. Source-proven recovered settings/actions were added without renumbering surviving IDs.
+Historical surviving English unit IDs were preserved. Source-proven recovered settings/actions were added without renumbering surviving IDs. The corrected English scene-43 records already link `tirumbippaar-song-007` and `tirumbippaar-song-008` at their proper source location, so the song-inventory scene-boundary repair required no English unit move or renumbering.
 
 ## Publication rebuild audit
 
@@ -140,13 +174,15 @@ The generated release was committed by GitHub Actions as **`55bb983eb2959190f025
 - scenes: **93/93 complete-verified-reconciled**
 - immutable labelled-dialogue corpus: **1,042**
 - character/entity layer: **45 labels / 39 entities / 0 unresolved**
+- song/performance inventory: **8/8 source-reconciled / 3 verified authorship / 5 evidence-limited unresolved**
+- Tamil song-lyric derivative gate: **closed-no-source-full-lyrics / 0 files by design**
 - English translation: **93/93 scenes / 1,330 verified units / 1,042/1,042 labelled links**
 - reader Markdown/HTML/JSON: **complete-verified, QA PASS**
 - EPUB 3 package: **complete-verified, QA PASS**
-- work metadata: **synchronized to the validated release**
+- work metadata: **synchronized to the validated release and source-limited song closure**
 
-The old **104 verified / 0 review** first-pass transcription status and the old **1,321-unit / 1,040-link** English publication status are historical checkpoints only. The corrected source-critical and deterministic publication closure above supersedes them.
+The old **104 verified / 0 review** first-pass transcription status, the old **1,321-unit / 1,040-link** English publication status, and the historical pre-reconciliation song inventory are retained only as historical checkpoints. The corrected source-critical closure above supersedes them.
 
-## Separate remaining track
+## Remaining work
 
-`song_tamil_derivatives` remains a distinct not-started derivative track. Existing song authorship evidence remains historical-complete at 8 occurrences dispositioned / 3 verified / 5 unresolved. No unresolved attribution is promoted from outside knowledge.
+There is no remaining source-authorized derivative work for Tirumbippaar in the current plan. The five unresolved song/chant authorship records are intentional evidence-limited outcomes, not pending normalization or guesses. Reopen this work only when a new controlling source or an explicit new publication/integration requirement is supplied.
