@@ -20,6 +20,7 @@ WORK = ROOT / "works" / "tirumbippaar"
 PARTS = sorted((WORK / "transcription" / "parts").glob("part-*.md"))
 SCENES = [WORK / "scenes" / f"scene-{n:02d}.md" for n in range(1, 94)]
 OUT = WORK / "notes" / "d1-2-scene-fidelity-audit.generated.json"
+TSV = WORK / "notes" / "d1-2-scene-fidelity-mismatches.generated.tsv"
 SOURCE_RE = re.compile(r"<!--\s*source:\s*pdf=(\d+)(?:\s+printed=(\d+))?\s+status=([^\s>]+)")
 SCENE_RE = re.compile(r"காட்சி\s*(\d+)")
 
@@ -63,7 +64,12 @@ def classify(a: str, b: str) -> str:
 
 
 def is_split_location_header(display: str) -> bool:
-    if not display or display[0] not in "[(":
+    """Recognize only short unmatched location headers after a scene heading.
+
+    Long malformed-bracket stage directions must stay in the textual gate; they
+    are exactly the kind of source-visible punctuation defect D1.2 is auditing.
+    """
+    if len(display) > 45 or not display or display[0] not in "[(":
         return False
     if ":" in display:
         return False
@@ -167,6 +173,16 @@ def build():
     }
 
 
+def write_tsv(gate: dict) -> None:
+    def clean(s):
+        return str(s if s is not None else "").replace("\t", " ").replace("\n", " ")
+    rows = ["pair\tclass\tpdf\tprinted\tscene\tcanonical_path\tcanonical_line\tscene_path\tscene_line\tcanonical_text\tscene_text"]
+    for m in gate["mismatches"]:
+        a, b = m["canonical"], m["scene"]
+        rows.append("\t".join(map(clean, [m["pair_index"], m["class"], a["pdf"], a["printed"], a["scene"], a["path"], a["file_line"], b["path"], b["file_line"], a["text"], b["text"]])))
+    TSV.write_text("\n".join(rows)+"\n", encoding="utf-8")
+
+
 def main():
     gate = build()
     result = {
@@ -178,6 +194,7 @@ def main():
         "gate": gate,
     }
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    write_tsv(gate)
     print(json.dumps({k:v for k,v in gate.items() if k not in {"unaligned","mismatches"}}, ensure_ascii=False, indent=2))
     if gate["aligned_pairs"] != 1342 or gate["unaligned"]:
         print(f"WARNING: parser gate drift: aligned={gate['aligned_pairs']} unaligned_blocks={gate['unaligned_blocks']}")
