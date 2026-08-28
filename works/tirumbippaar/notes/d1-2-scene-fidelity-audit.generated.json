@@ -2,164 +2,44 @@
   "work_id": "tirumbippaar",
   "audit": "D1.2 strict canonical/scene source-order fidelity",
   "authority": "controlling scan; neither canonical nor scene derivative is presumptively correct",
-  "profiles_summary": [
-    {
-      "include_stars": false,
-      "include_title": false,
-      "canonical_lines": 1508,
-      "scene_lines": 1475,
-      "aligned_pairs": 1440,
-      "unaligned_blocks": 37,
-      "exact_text_and_page": 1264,
-      "mismatch_count_including_page": 176,
-      "class_counts": {
-        "bracket-parenthesis": 13,
-        "quote-dash-glyph": 11,
-        "whitespace-only": 139,
-        "ellipsis-punct-count": 4,
-        "page-attribution": 6,
-        "other-punctuation": 3
-      }
-    },
-    {
-      "include_stars": true,
-      "include_title": false,
-      "canonical_lines": 1534,
-      "scene_lines": 1569,
-      "aligned_pairs": 1466,
-      "unaligned_blocks": 82,
-      "exact_text_and_page": 1289,
-      "mismatch_count_including_page": 177,
-      "class_counts": {
-        "bracket-parenthesis": 13,
-        "quote-dash-glyph": 11,
-        "whitespace-only": 139,
-        "ellipsis-punct-count": 4,
-        "page-attribution": 7,
-        "other-punctuation": 3
-      }
-    },
-    {
-      "include_stars": false,
-      "include_title": true,
-      "canonical_lines": 1509,
-      "scene_lines": 1475,
-      "aligned_pairs": 1440,
-      "unaligned_blocks": 38,
-      "exact_text_and_page": 1264,
-      "mismatch_count_including_page": 176,
-      "class_counts": {
-        "bracket-parenthesis": 13,
-        "quote-dash-glyph": 11,
-        "whitespace-only": 139,
-        "ellipsis-punct-count": 4,
-        "page-attribution": 6,
-        "other-punctuation": 3
-      }
-    },
-    {
-      "include_stars": true,
-      "include_title": true,
-      "canonical_lines": 1535,
-      "scene_lines": 1569,
-      "aligned_pairs": 1466,
-      "unaligned_blocks": 83,
-      "exact_text_and_page": 1289,
-      "mismatch_count_including_page": 177,
-      "class_counts": {
-        "bracket-parenthesis": 13,
-        "quote-dash-glyph": 11,
-        "whitespace-only": 139,
-        "ellipsis-punct-count": 4,
-        "page-attribution": 7,
-        "other-punctuation": 3
-      }
-    }
-  ],
-  "chosen_profile": {
-    "include_stars": false,
-    "include_title": false,
-    "canonical_lines": 1508,
-    "scene_lines": 1475,
-    "aligned_pairs": 1440,
-    "unaligned_blocks": 37,
-    "exact_text_and_page": 1264,
-    "mismatch_count_including_page": 176,
+  "gate_definition": "exact trimmed-line identity for source-bearing non-heading scene lines; punctuation, ellipses, whitespace and quote/dash glyphs significant; page attribution audited separately",
+  "documented_target_aligned_pairs": 1342,
+  "gate": {
+    "canonical_lines": 1351,
+    "scene_lines": 1344,
+    "aligned_pairs": 1342,
+    "unaligned_blocks": 11,
+    "exact_text": 1174,
+    "exact_text_and_page": 1173,
+    "mismatch_count_including_page": 169,
     "class_counts": {
-      "bracket-parenthesis": 13,
+      "bracket-parenthesis": 11,
       "quote-dash-glyph": 11,
       "whitespace-only": 139,
       "ellipsis-punct-count": 4,
-      "page-attribution": 6,
-      "other-punctuation": 3
+      "other-punctuation": 3,
+      "page-attribution": 1
     },
     "unaligned": [
       {
-        "tag": "replace",
+        "tag": "delete",
         "canonical": [
           {
-            "text": "காட்சி 7]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 68,
-            "pdf": 17,
-            "printed": 9,
-            "scene": 7,
-            "key": "கடச7"
-          },
-          {
-            "text": "[பூமாலை வீடு -பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 69,
-            "pdf": 17,
-            "printed": 9,
-            "scene": 7,
-            "key": "பமலவடபகல"
+            "text": "[கட்டப்பட்ட பார்சல்கள், புக் போஸ்டுகள்மீது பதிப்பகத்தின் ரப்பர் ஸ்டாம்பு குத்தப்படும் சப்தம் டக் டக் என்று கேட்டபடி இருக்கிறது]",
+            "path": "works/tirumbippaar/transcription/parts/part-01-pdf-9-13.md",
+            "file_line": 140,
+            "pdf": 13,
+            "printed": 5,
+            "scene": 5,
+            "key": "கடடபபடடபரசலகளபகபஸடகளமதபதபபகததனரபபரஸடமபகததபபடமசபதமடகடகஎனறகடடபடஇரககறத"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 7] [பூமாலை வீடு-பகல்",
-            "path": "works/tirumbippaar/scenes/scene-07.md",
-            "file_line": 4,
-            "pdf": 17,
-            "printed": 9,
-            "scene": 7,
-            "key": "கடச7பமலவடபகல"
-          }
-        ]
+        "scene": []
       },
       {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 8)",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 91,
-            "pdf": 18,
-            "printed": 10,
-            "scene": 8,
-            "key": "கடச8"
-          },
-          {
-            "text": "[பூமாலை ஹால்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 92,
-            "pdf": 18,
-            "printed": 10,
-            "scene": 8,
-            "key": "பமலஹல"
-          }
-        ],
+        "tag": "insert",
+        "canonical": [],
         "scene": [
-          {
-            "text": "காட்சி 8] [பூமாலை ஹால்",
-            "path": "works/tirumbippaar/scenes/scene-08.md",
-            "file_line": 4,
-            "pdf": 18,
-            "printed": 10,
-            "scene": 8,
-            "key": "கடச8பமலஹல"
-          },
           {
             "text": "புரோகிதர்: மாப்பிள்ளையை வரச்சொல்லுங்க...",
             "path": "works/tirumbippaar/scenes/scene-08.md",
@@ -187,324 +67,17 @@
         "scene": []
       },
       {
-        "tag": "replace",
-        "canonical": [
+        "tag": "insert",
+        "canonical": [],
+        "scene": [
           {
-            "text": "காட்சி 9]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 102,
+            "text": "[பாமாவின் கண்ணிலிருந்து நீர் வழிகிறது. வழிந்த நீர் கையில் விழுகிறது. கையில் விழுந்த நீர் அருவியாக மாறுகிறது. அருவி ஆறாகப் போகிறது.]",
+            "path": "works/tirumbippaar/scenes/scene-10.md",
+            "file_line": 6,
             "pdf": 18,
             "printed": 10,
-            "scene": 9,
-            "key": "கடச9"
-          },
-          {
-            "text": "[மாடியில் ஓர் அறை-பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 103,
-            "pdf": 18,
-            "printed": 10,
-            "scene": 9,
-            "key": "மடயலஓரஅறபகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 9] [மாடியில் ஓர் அறை-பகல்",
-            "path": "works/tirumbippaar/scenes/scene-09.md",
-            "file_line": 4,
-            "pdf": 18,
-            "printed": 10,
-            "scene": 9,
-            "key": "கடச9மடயலஓரஅறபகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 11]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 118,
-            "pdf": 19,
-            "printed": 11,
-            "scene": 11,
-            "key": "கடச11"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 11] [ஆறு",
-            "path": "works/tirumbippaar/scenes/scene-11.md",
-            "file_line": 4,
-            "pdf": 19,
-            "printed": 11,
-            "scene": 11,
-            "key": "கடச11ஆற"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 12]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 123,
-            "pdf": 19,
-            "printed": 11,
-            "scene": 12,
-            "key": "கடச12"
-          },
-          {
-            "text": "[பூமாலை வீடு -பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 124,
-            "pdf": 19,
-            "printed": 11,
-            "scene": 12,
-            "key": "பமலவடபகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 12] [பூமாலை வீடு -பகல்",
-            "path": "works/tirumbippaar/scenes/scene-12.md",
-            "file_line": 4,
-            "pdf": 19,
-            "printed": 11,
-            "scene": 12,
-            "key": "கடச12பமலவடபகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 16]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 217,
-            "pdf": 24,
-            "printed": 16,
-            "scene": 16,
-            "key": "கடச16"
-          },
-          {
-            "text": "(கருடன் பதிப்பகம் - பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 218,
-            "pdf": 24,
-            "printed": 16,
-            "scene": 16,
-            "key": "கரடனபதபபகமபகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 16] [கருடன் பதிப்பகம்—பகல்",
-            "path": "works/tirumbippaar/scenes/scene-16.md",
-            "file_line": 4,
-            "pdf": 24,
-            "printed": 16,
-            "scene": 16,
-            "key": "கடச16கரடனபதபபகமபகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 17)",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 229,
-            "pdf": 24,
-            "printed": 16,
-            "scene": 17,
-            "key": "கடச17"
-          },
-          {
-            "text": "(பாமா அறை - இரவு",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 230,
-            "pdf": 24,
-            "printed": 16,
-            "scene": 17,
-            "key": "பமஅறஇரவ"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 17] [பாமா அறை—இரவு",
-            "path": "works/tirumbippaar/scenes/scene-17.md",
-            "file_line": 4,
-            "pdf": 24,
-            "printed": 16,
-            "scene": 17,
-            "key": "கடச17பமஅறஇரவ"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 18]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 263,
-            "pdf": 26,
-            "printed": 18,
-            "scene": 18,
-            "key": "கடச18"
-          },
-          {
-            "text": "[பாண்டியன் அறை",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 267,
-            "pdf": 27,
-            "printed": 19,
-            "scene": 18,
-            "key": "பணடயனஅற"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 18] [பாண்டியன் அறை",
-            "path": "works/tirumbippaar/scenes/scene-18.md",
-            "file_line": 4,
-            "pdf": 27,
-            "printed": 19,
-            "scene": 18,
-            "key": "கடச18பணடயனஅற"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 19]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 276,
-            "pdf": 27,
-            "printed": 19,
-            "scene": 19,
-            "key": "கடச19"
-          },
-          {
-            "text": "[பூமாலை ஹால் - பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 277,
-            "pdf": 27,
-            "printed": 19,
-            "scene": 19,
-            "key": "பமலஹலபகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 19] [பூமாலை ஹால்—பகல்",
-            "path": "works/tirumbippaar/scenes/scene-19.md",
-            "file_line": 4,
-            "pdf": 27,
-            "printed": 19,
-            "scene": 19,
-            "key": "கடச19பமலஹலபகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 20]",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 293,
-            "pdf": 28,
-            "printed": 20,
-            "scene": 20,
-            "key": "கடச20"
-          },
-          {
-            "text": "[Rail Carriage-பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 294,
-            "pdf": 28,
-            "printed": 20,
-            "scene": 20,
-            "key": "RailCarriageபகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 20] [Rail Carriage—பகல்",
-            "path": "works/tirumbippaar/scenes/scene-20.md",
-            "file_line": 4,
-            "pdf": 28,
-            "printed": 20,
-            "scene": 20,
-            "key": "கடச20RailCarriageபகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 21)",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 323,
-            "pdf": 29,
-            "printed": 21,
-            "scene": 21,
-            "key": "கடச21"
-          },
-          {
-            "text": "[சென்னை குமுதா வீடு- பகல்",
-            "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-            "file_line": 324,
-            "pdf": 29,
-            "printed": 21,
-            "scene": 21,
-            "key": "சனனகமதவடபகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 21] [சென்னை குமுதா வீடு—பகல்",
-            "path": "works/tirumbippaar/scenes/scene-21.md",
-            "file_line": 4,
-            "pdf": 29,
-            "printed": 21,
-            "scene": 21,
-            "key": "கடச21சனனகமதவடபகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 30)",
-            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-            "file_line": 21,
-            "pdf": 36,
-            "printed": 28,
-            "scene": 30,
-            "key": "கடச30"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 30) [பூமாலை வீடு- பகல்",
-            "path": "works/tirumbippaar/scenes/scene-30.md",
-            "file_line": 4,
-            "pdf": 36,
-            "printed": 28,
-            "scene": 30,
-            "key": "கடச30பமலவடபகல"
+            "scene": 10,
+            "key": "பமவனகணணலரநதநரவழகறதவழநதநரகயலவழகறதகயலவழநதநரஅரவயகமறகறதஅரவஆறகபபகறத"
           }
         ]
       },
@@ -524,56 +97,7 @@
         "scene": []
       },
       {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 31)",
-            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-            "file_line": 48,
-            "pdf": 38,
-            "printed": 30,
-            "scene": 31,
-            "key": "கடச31"
-          },
-          {
-            "text": "(பூமாலை வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-            "file_line": 49,
-            "pdf": 38,
-            "printed": 30,
-            "scene": 31,
-            "key": "பமலவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 31) [பூமாலை வீடு",
-            "path": "works/tirumbippaar/scenes/scene-31.md",
-            "file_line": 4,
-            "pdf": 38,
-            "printed": 30,
-            "scene": 31,
-            "key": "கடச31பமலவட"
-          }
-        ]
-      },
-      {
         "tag": "delete",
-        "canonical": [
-          {
-            "text": "காட்சி 32)",
-            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-            "file_line": 53,
-            "pdf": 38,
-            "printed": 30,
-            "scene": 32,
-            "key": "கடச32"
-          }
-        ],
-        "scene": []
-      },
-      {
-        "tag": "replace",
         "canonical": [
           {
             "text": "(கருடன் பதிப்பகம்",
@@ -585,98 +109,26 @@
             "key": "கரடனபதபபகம"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 32) [கருடன் பதிப்பகம்",
-            "path": "works/tirumbippaar/scenes/scene-32.md",
-            "file_line": 4,
-            "pdf": 38,
-            "printed": 30,
-            "scene": 32,
-            "key": "கடச32கரடனபதபபகம"
-          }
-        ]
+        "scene": []
       },
       {
-        "tag": "replace",
+        "tag": "delete",
         "canonical": [
           {
-            "text": "காட்சி 33)",
-            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-            "file_line": 97,
-            "pdf": 40,
-            "printed": 32,
-            "scene": 33,
-            "key": "கடச33"
-          },
-          {
-            "text": "(மில்",
-            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-            "file_line": 101,
-            "pdf": 41,
-            "printed": 33,
-            "scene": 33,
-            "key": "மல"
+            "text": "(கார் போய் நிற்கிறது.பரந்தாமனும் புண்யகோடியும் இறங்குகிறார்கள்].",
+            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
+            "file_line": 20,
+            "pdf": 64,
+            "printed": 56,
+            "scene": 49,
+            "key": "கரபயநறகறதபரநதமனமபணயகடயமஇறஙககறரகள"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 33) [மில்",
-            "path": "works/tirumbippaar/scenes/scene-33.md",
-            "file_line": 4,
-            "pdf": 41,
-            "printed": 33,
-            "scene": 33,
-            "key": "கடச33மல"
-          }
-        ]
+        "scene": []
       },
       {
-        "tag": "replace",
+        "tag": "delete",
         "canonical": [
-          {
-            "text": "காட்சி 49]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 18,
-            "pdf": 64,
-            "printed": 56,
-            "scene": 49,
-            "key": "கடச49"
-          },
-          {
-            "text": "[புண்யகோடி வீடு.",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 19,
-            "pdf": 64,
-            "printed": 56,
-            "scene": 49,
-            "key": "பணயகடவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 49] [புண்யகோடி வீடு.",
-            "path": "works/tirumbippaar/scenes/scene-49.md",
-            "file_line": 4,
-            "pdf": 64,
-            "printed": 56,
-            "scene": 49,
-            "key": "கடச49பணயகடவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 50]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 48,
-            "pdf": 65,
-            "printed": 57,
-            "scene": 50,
-            "key": "கடச50"
-          },
           {
             "text": "[குமுதா மதறாஸ் வீடு : ஹால்",
             "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
@@ -687,462 +139,25 @@
             "key": "கமதமதறஸவடஹல"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 50] [குமுதா மதறாஸ் வீடு : ஹால்",
-            "path": "works/tirumbippaar/scenes/scene-50.md",
-            "file_line": 4,
-            "pdf": 65,
-            "printed": 57,
-            "scene": 50,
-            "key": "கடச50கமதமதறஸவடஹல"
-          }
-        ]
+        "scene": []
       },
       {
-        "tag": "replace",
+        "tag": "delete",
         "canonical": [
           {
-            "text": "காட்சி 51]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 60,
-            "pdf": 66,
-            "printed": 58,
-            "scene": 51,
-            "key": "கடச51"
-          },
-          {
-            "text": "[புண்யகோடி வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 61,
-            "pdf": 66,
-            "printed": 58,
-            "scene": 51,
-            "key": "பணயகடவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 51] [புண்யகோடி வீடு",
-            "path": "works/tirumbippaar/scenes/scene-51.md",
-            "file_line": 4,
-            "pdf": 66,
-            "printed": 58,
-            "scene": 51,
-            "key": "கடச51பணயகடவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 52]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 70,
-            "pdf": 67,
-            "printed": 59,
-            "scene": 52,
-            "key": "கடச52"
-          },
-          {
-            "text": "[மில் கேன்டீன்",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 71,
-            "pdf": 67,
-            "printed": 59,
-            "scene": 52,
-            "key": "மலகனடன"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 52] [மில் கேன்டீன்",
-            "path": "works/tirumbippaar/scenes/scene-52.md",
-            "file_line": 4,
-            "pdf": 67,
-            "printed": 59,
-            "scene": 52,
-            "key": "கடச52மலகனடன"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 53]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 90,
-            "pdf": 68,
-            "printed": 60,
-            "scene": 53,
-            "key": "கடச53"
-          },
-          {
-            "text": "[கருடன் பதிப்பகம்",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 91,
-            "pdf": 68,
-            "printed": 60,
-            "scene": 53,
-            "key": "கரடனபதபபகம"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 53] [கருடன் பதிப்பகம்",
-            "path": "works/tirumbippaar/scenes/scene-53.md",
-            "file_line": 4,
-            "pdf": 68,
-            "printed": 60,
-            "scene": 53,
-            "key": "கடச53கரடனபதபபகம"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 54]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 98,
-            "pdf": 68,
-            "printed": 60,
-            "scene": 54,
-            "key": "கடச54"
-          },
-          {
-            "text": "[Reading Room",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 102,
-            "pdf": 69,
-            "printed": 61,
-            "scene": 54,
-            "key": "ReadingRoom"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 54] [Reading Room",
-            "path": "works/tirumbippaar/scenes/scene-54.md",
-            "file_line": 4,
-            "pdf": 69,
-            "printed": 61,
-            "scene": 54,
-            "key": "கடச54ReadingRoom"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 55)",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 105,
-            "pdf": 69,
-            "printed": 61,
-            "scene": 55,
-            "key": "கடச55"
-          },
-          {
-            "text": "[பூமாலை வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 106,
-            "pdf": 69,
-            "printed": 61,
-            "scene": 55,
-            "key": "பமலவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 55) [பூமாலை வீடு",
-            "path": "works/tirumbippaar/scenes/scene-55.md",
-            "file_line": 4,
-            "pdf": 69,
-            "printed": 61,
-            "scene": 55,
-            "key": "கடச55பமலவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 56 )",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 126,
-            "pdf": 70,
-            "printed": 62,
-            "scene": 56,
-            "key": "கடச56"
-          },
-          {
-            "text": "(மில் முதலாளி வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 127,
-            "pdf": 70,
-            "printed": 62,
-            "scene": 56,
-            "key": "மலமதலளவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 56 ) (மில் முதலாளி வீடு",
-            "path": "works/tirumbippaar/scenes/scene-56.md",
-            "file_line": 4,
-            "pdf": 70,
-            "printed": 62,
-            "scene": 56,
-            "key": "கடச56மலமதலளவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 76]",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 498,
-            "pdf": 91,
-            "printed": 83,
-            "scene": 76,
-            "key": "கடச76"
-          },
-          {
-            "text": "[பூமாலை வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
-            "file_line": 499,
-            "pdf": 91,
-            "printed": 83,
-            "scene": 76,
-            "key": "பமலவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 76] [பூமாலை வீடு",
-            "path": "works/tirumbippaar/scenes/scene-76.md",
-            "file_line": 4,
-            "pdf": 91,
-            "printed": 83,
-            "scene": 76,
-            "key": "கடச76பமலவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 77]",
+            "text": "[பரந்தாமன் அறையிலிருக்கும்போது ஹோட்டல் பையன் வந்து தந்தியைக் கொடுத்துவிட்டுப் போகிறான். பரந்தாமன் பிரித்துப் படிக்கிறான். ஆனந்தம். ஆபீஸ் பையன் உள்ளே வருகிறான்.)",
             "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 18,
-            "pdf": 92,
-            "printed": 84,
-            "scene": 77,
-            "key": "கடச77"
-          },
-          {
-            "text": "(மில் முதலாளி வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 19,
-            "pdf": 92,
-            "printed": 84,
-            "scene": 77,
-            "key": "மலமதலளவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 77] [மில் முதலாளி வீடு",
-            "path": "works/tirumbippaar/scenes/scene-77.md",
-            "file_line": 4,
-            "pdf": 92,
-            "printed": 84,
-            "scene": 77,
-            "key": "கடச77மலமதலளவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 78]",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 43,
-            "pdf": 93,
-            "printed": 85,
-            "scene": 78,
-            "key": "கடச78"
-          },
-          {
-            "text": "(ஜெயில்",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 47,
-            "pdf": 94,
-            "printed": 86,
-            "scene": 78,
-            "key": "ஜயல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 78] [ஜெயில்",
-            "path": "works/tirumbippaar/scenes/scene-78.md",
-            "file_line": 4,
-            "pdf": 94,
-            "printed": 86,
-            "scene": 78,
-            "key": "கடச78ஜயல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 79]",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 54,
-            "pdf": 94,
-            "printed": 86,
-            "scene": 79,
-            "key": "கடச79"
-          },
-          {
-            "text": "[குமுதா வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 55,
-            "pdf": 94,
-            "printed": 86,
-            "scene": 79,
-            "key": "கமதவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 79] [குமுதா வீடு",
-            "path": "works/tirumbippaar/scenes/scene-79.md",
-            "file_line": 4,
-            "pdf": 94,
-            "printed": 86,
-            "scene": 79,
-            "key": "கடச79கமதவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 81]",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 108,
-            "pdf": 98,
-            "printed": 90,
-            "scene": 81,
-            "key": "கடச81"
-          },
-          {
-            "text": "[பாழடைந்த மண்டபம்",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 109,
-            "pdf": 98,
-            "printed": 90,
-            "scene": 81,
-            "key": "பழடநதமணடபம"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 81] [பாழடைந்த மண்டபம்",
-            "path": "works/tirumbippaar/scenes/scene-81.md",
-            "file_line": 4,
-            "pdf": 98,
-            "printed": 90,
-            "scene": 81,
-            "key": "கடச81பழடநதமணடபம"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 87",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 230,
-            "pdf": 105,
-            "printed": 97,
-            "scene": 87,
-            "key": "கடச87"
-          },
-          {
-            "text": "(பூமாலை வீடு - காலை",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 231,
-            "pdf": 105,
-            "printed": 97,
-            "scene": 87,
-            "key": "பமலவடகல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 87] [பூமாலை வீடு - காலை",
-            "path": "works/tirumbippaar/scenes/scene-87.md",
-            "file_line": 4,
-            "pdf": 105,
-            "printed": 97,
-            "scene": 87,
-            "key": "கடச87பமலவடகல"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 88)",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 237,
+            "file_line": 239,
             "pdf": 105,
             "printed": 97,
             "scene": 88,
-            "key": "கடச88"
-          },
-          {
-            "text": "(ஹோட்டல் ரூம்",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 238,
-            "pdf": 105,
-            "printed": 97,
-            "scene": 88,
-            "key": "ஹடடலரம"
+            "key": "பரநதமனஅறயலரககமபதஹடடலபயனவநததநதயககடததவடடபபகறனபரநதமனபரததபபடககறனஆனநதமஆபஸபயனஉளளவரகறன"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 88] [ஹோட்டல் ரூம்",
-            "path": "works/tirumbippaar/scenes/scene-88.md",
-            "file_line": 4,
-            "pdf": 105,
-            "printed": 97,
-            "scene": 88,
-            "key": "கடச88ஹடடலரம"
-          }
-        ]
+        "scene": []
       },
       {
-        "tag": "replace",
+        "tag": "delete",
         "canonical": [
           {
             "text": "(ஹோட்டல் அறை-பகல்",
@@ -1152,157 +167,29 @@
             "printed": 98,
             "scene": 88,
             "key": "ஹடடலஅறபகல"
-          },
-          {
-            "text": "காட்சி 89]",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 245,
-            "pdf": 106,
-            "printed": 98,
-            "scene": 89,
-            "key": "கடச89"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 89] [ஹோட்டல் அறை-பகல்",
-            "path": "works/tirumbippaar/scenes/scene-89.md",
-            "file_line": 4,
-            "pdf": 106,
-            "printed": 98,
-            "scene": 89,
-            "key": "கடச89ஹடடலஅறபகல"
-          }
-        ]
+        "scene": []
       },
       {
-        "tag": "replace",
+        "tag": "delete",
         "canonical": [
           {
-            "text": "காட்சி 90]",
+            "text": "(கதவு திறந்திருக்கிறது - ஹாலில் போய் உட்காருகிறான் பரந்தாமன்]",
             "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 251,
+            "file_line": 253,
             "pdf": 106,
             "printed": 98,
             "scene": 90,
-            "key": "கடச90"
-          },
-          {
-            "text": "(பாமா வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 252,
-            "pdf": 106,
-            "printed": 98,
-            "scene": 90,
-            "key": "பமவட"
+            "key": "கதவதறநதரககறதஹலலபயஉடகரகறனபரநதமன"
           }
         ],
-        "scene": [
-          {
-            "text": "காட்சி 90] [பாமா வீடு",
-            "path": "works/tirumbippaar/scenes/scene-90.md",
-            "file_line": 4,
-            "pdf": 106,
-            "printed": 98,
-            "scene": 90,
-            "key": "கடச90பமவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 91]",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 302,
-            "pdf": 109,
-            "printed": 101,
-            "scene": 91,
-            "key": "கடச91"
-          },
-          {
-            "text": "[மில் முதலாளி வீடு",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 303,
-            "pdf": 109,
-            "printed": 101,
-            "scene": 91,
-            "key": "மலமதலளவட"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 91] [மில் முதலாளி வீடு",
-            "path": "works/tirumbippaar/scenes/scene-91.md",
-            "file_line": 4,
-            "pdf": 109,
-            "printed": 101,
-            "scene": 91,
-            "key": "கடச91மலமதலளவட"
-          }
-        ]
-      },
-      {
-        "tag": "replace",
-        "canonical": [
-          {
-            "text": "காட்சி 93)",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 338,
-            "pdf": 111,
-            "printed": 103,
-            "scene": 93,
-            "key": "கடச93"
-          },
-          {
-            "text": "(ஜெயில்",
-            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-            "file_line": 339,
-            "pdf": 111,
-            "printed": 103,
-            "scene": 93,
-            "key": "ஜயல"
-          }
-        ],
-        "scene": [
-          {
-            "text": "காட்சி 93] [ஜெயில்",
-            "path": "works/tirumbippaar/scenes/scene-93.md",
-            "file_line": 4,
-            "pdf": 111,
-            "printed": 103,
-            "scene": 93,
-            "key": "கடச93ஜயல"
-          }
-        ]
+        "scene": []
       }
     ],
     "mismatches": [
       {
-        "pair_index": 56,
-        "class": "bracket-parenthesis",
-        "canonical": {
-          "text": "[கட்டப்பட்ட பார்சல்கள், புக் போஸ்டுகள்மீது பதிப்பகத்தின் ரப்பர் ஸ்டாம்பு குத்தப்படும் சப்தம் டக் டக் என்று கேட்டபடி இருக்கிறது]",
-          "path": "works/tirumbippaar/transcription/parts/part-01-pdf-9-13.md",
-          "file_line": 140,
-          "pdf": 13,
-          "printed": 5,
-          "scene": 5
-        },
-        "scene": {
-          "text": "(கட்டப்பட்ட பார்சல்கள், புக்போஸ்டுகள் மீது பதிப்பகத்தின் ரப்பர் ஸ்டாம்பு குத்தப்படும் சப்தம் டக் டக் என்று கேட்டபடி இருக்கிறது]",
-          "path": "works/tirumbippaar/scenes/scene-05.md",
-          "file_line": 6,
-          "pdf": 13,
-          "printed": 5,
-          "scene": 5
-        },
-        "same_text": false,
-        "same_pdf": true
-      },
-      {
-        "pair_index": 57,
+        "pair_index": 51,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "கருடன்: (ஆபீஸ் பையனிடம்) பையா...உம்...பார்சலுக்கு நேரமாச்சு புறப்படு...புறப்படு. பாக்கி நாளைக்கு அனுப்பலாம்.",
@@ -1324,7 +211,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 58,
+        "pair_index": 52,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "(‘டக் டக்’ என்று தட்டும் சப்தம்)",
@@ -1346,7 +233,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 59,
+        "pair_index": 53,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன்: யாரு? உள்ளே வாருங்க.",
@@ -1368,7 +255,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 61,
+        "pair_index": 55,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "கருடன்: யாரு...எங்கேயோ பாத்தமாதிரி...(சந்தேகமாய்)",
@@ -1390,7 +277,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 62,
+        "pair_index": 56,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "பாண்டியன்: (கோபமாய்) மறந்திருப்பீர். நான்தான் பாண்டியன். ஞாபகமிருக்கிறதா? (தன் கையிலுள்ள நூலைக் காட்டி) இந்தப் புத்தகத்தின் உண்மையான ஆசிரியர்......",
@@ -1412,7 +299,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 63,
+        "pair_index": 57,
         "class": "ellipsis-punct-count",
         "canonical": {
           "text": "கருடன்: சே சே...இதற்கு ஆசிரியர் பரந்தாமன் என்று அட்டையிலே போட்டிருக்கிறதே!",
@@ -1434,7 +321,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 101,
+        "pair_index": 94,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "பரந்தாமன் : பாமா! கண்ணே/ (நெருங்கல்)",
@@ -1456,7 +343,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 109,
+        "pair_index": 102,
         "class": "ellipsis-punct-count",
         "canonical": {
           "text": "குமுதா: பரீட்சை சின்னம்மா. உடனே வரமுடியிலே",
@@ -1478,7 +365,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 110,
+        "pair_index": 103,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : உட்காரு குமுதா. தம்பிக்கு உன்னை கல்யாணம் செஞ்சு வச்சு வீட்டோட இருப்பேன்னு நெனச்சேன் ...",
@@ -1500,7 +387,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 114,
+        "pair_index": 107,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : அடடே ! குமுதா தேவி எப்போது வந்தார்கள்?",
@@ -1522,7 +409,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 118,
+        "pair_index": 111,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா: கல்யாண உற்சாகத்திலே மாமாவுக்கு கவிதைகளால்ல ஊறுது !",
@@ -1544,7 +431,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 119,
+        "pair_index": 112,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி: அதுவும் கலர் கவிதைகளால்ல ஊறுது ! (சிரிப்பு)",
@@ -1566,7 +453,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 121,
+        "pair_index": 114,
         "class": "ellipsis-punct-count",
         "canonical": {
           "text": "புரோகிதர்: எங்கே மாப்பிள்ளை - முகூர்த்தநேரம் தவறிடும் - சீக்கிரம்- சீக்கிரம் ..",
@@ -1588,7 +475,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 122,
+        "pair_index": 115,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா: சின்னம்மா ! மாமாவைக் காணும்.",
@@ -1610,7 +497,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 123,
+        "pair_index": 116,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : ஆ ! காணுமா.",
@@ -1632,7 +519,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 124,
+        "pair_index": 117,
         "class": "whitespace-only",
         "canonical": {
           "text": "(மாப்பிள்ளையைக் காணும் ரகளை )",
@@ -1654,7 +541,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 125,
+        "pair_index": 118,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "(மாடியில் தேடி அலுத்து பிரமைபிடித்தவள்போலிருக்கும் பூமாலையிடம் குமுதா ஓடிவருகிறாள்]",
@@ -1676,7 +563,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 126,
+        "pair_index": 119,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை: குமுதா !",
@@ -1698,29 +585,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 130,
-        "class": "bracket-parenthesis",
-        "canonical": {
-          "text": "(பாமாவின் கண்ணிலிருந்து நீர் வழிகிறது. வழிந்த நீர் கையில் விழுகிறது. கையில் விழுந்த நீர் அருவியாக மாறுகிறது, அருவி ஆறாகப் போகிறது.]",
-          "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-          "file_line": 112,
-          "pdf": 18,
-          "printed": 10,
-          "scene": 10
-        },
-        "scene": {
-          "text": "[பாமாவின் கண்ணிலிருந்து நீர் வழிகிறது. வழிந்த நீர் கையில் விழுகிறது. கையில் விழுந்த நீர் அருவியாக மாறுகிறது. அருவி ஆறாகப் போகிறது.]",
-          "path": "works/tirumbippaar/scenes/scene-10.md",
-          "file_line": 6,
-          "pdf": 18,
-          "printed": 10,
-          "scene": 10
-        },
-        "same_text": false,
-        "same_pdf": true
-      },
-      {
-        "pair_index": 131,
+        "pair_index": 122,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "(படகொன்று போய்க் கொண்டிருக்கிறது. படகில் பரந்தாமனும், வேறு ஒரு பெண்ணும் பாடிக்கொண்டு போகிறார்கள்.)",
@@ -1742,29 +607,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 168,
-        "class": "page-attribution",
-        "canonical": {
-          "text": "காட்சி 14]",
-          "path": "works/tirumbippaar/transcription/parts/part-02-pdf-14-35.md",
-          "file_line": 173,
-          "pdf": 21,
-          "printed": 13,
-          "scene": 14
-        },
-        "scene": {
-          "text": "காட்சி 14]",
-          "path": "works/tirumbippaar/scenes/scene-14.md",
-          "file_line": 4,
-          "pdf": 22,
-          "printed": 14,
-          "scene": 14
-        },
-        "same_text": true,
-        "same_pdf": false
-      },
-      {
-        "pair_index": 198,
+        "pair_index": 183,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : சிங்க நல்லூர் சிவசக்தி மில்ஸ் மேஸ்திரி புண்யகோடியின் மகன் எழுத்தாளர் பாண்டியனுக்கும், கோவை மெர்ச்சண்ட் குணரத்னம் திருச் செல்வி பாமாவுக்கும் திருமண விழா மணமகள் இல்லத்தில் சிறப்பாக நடைபெறும். தங்கள் சுற்றமும்.....",
@@ -1786,7 +629,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 200,
+        "pair_index": 185,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : அந்தப் பயல் பாண்டியன் நம்ப விஷயத்திலே குறுக்கிட்டு கொண்டேயிருக்கிறான். அன்னைக்கு என்னடான்னா நாடகம் நடத்தி நம்ம கொள்கையை கிண்டல் பண்றான். இன்னைக்கு என்னடான்னா நம்ப கல்யாணம் பண்ணிக்க வேண்டிய பெண்ணை ..",
@@ -1808,7 +651,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 202,
+        "pair_index": 187,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : இல்லை. நீ கல்யாணம் பண்ணிக்க வேண்டிய பெண்ணை ...",
@@ -1830,7 +673,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 203,
+        "pair_index": 188,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : யார் விட்டார்கள்.",
@@ -1852,7 +695,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 205,
+        "pair_index": 190,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : பாமா!",
@@ -1874,7 +717,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 208,
+        "pair_index": 193,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : ஸ்...சத்தம் போடாதே ! தூங்குபவர்கள் விழித்துக் கொள்வார்கள். பாமா என்னைப் பார்! பார்க்கமாட்டாயா..... ஏன் பாமா என்னை இப்படி ஏமாற்றினாய்...",
@@ -1896,7 +739,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 209,
+        "pair_index": 194,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா : ஏமாற்றுவது எனக்குத் தொழிலல்ல.",
@@ -1918,7 +761,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 210,
+        "pair_index": 195,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "பரந்தாமன் : சரிதான்... கல்யாண தினத்தன்று காணாமற் போய்விட்டானே காதலன். எங்கே போனான். என்ன ஆனான். என்பதைப் பற்றி யெல்லாம் கவலைப்படாமல், அடுத்த காதலனை அவசரமாகத் தேர்ந்தெடுத்த நீ....எதுவும் தெரியாத பேதை ! நான் ஏமாற்றுக்காரன் -அப்படித்தானே...",
@@ -1940,7 +783,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 212,
+        "pair_index": 197,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : சொர்க்கலோகம் போனாலும்,அங்கே சொக்க வைக்கும் திலோத்தமை, மயக்குமொழி மேனகா அத்தனை பேரையும் உதறித் தள்ளிவிட்டு உன் சுந்தர முகத்தை நினைத்தபடி ஆகாயத்திலிருந்து குதித்திருப்பேனே, ஒரு சூனியக்கார லோகத்துக்குப் போய்விட்டேன் பாமா! ஒரு சூனியக்காரன் ஏமாற்றி விட்டான் பாமா!",
@@ -1962,7 +805,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 213,
+        "pair_index": 198,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா : என்ன சொல்கிறீர்கள்!",
@@ -1984,7 +827,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 214,
+        "pair_index": 199,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : யாரோ ஒரு மந்திரவாதி.... சாப்பிடுவதற்கு ஒரு காயகல்பம் இருக்கிறது. சாப்பிட்டால் எண்பது வயது வரையில் இளமை மாறாது என்றான். நம்பினேன், சாப்பிட்டேன்.உனக்கும் வாங்கிவர எண்ணினேன். அவன் என்னை எங்கேயோ கொண்டு போய் விட்டான். என்னிடமிருந்த பத்தாயிர ரூபாயையும், உனக்காக நான் வாங்கிய வைர மாலையையும் திருடிக்கொண்டு எங்கேயோ போய்விட்டான்.",
@@ -2006,7 +849,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 215,
+        "pair_index": 200,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா : போலீஸாருக்குச் சொல்லவில்லையா",
@@ -2028,7 +871,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 216,
+        "pair_index": 201,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன்: இந்த வெட்கக்கேட்டை எப்படி வெளியில் சொல்வது ! மனமொடிந்து அலைந்து திரிந்து இங்கு வந்தேன் . வந்தால், நீ வாழ்க்கைக்கு வேறு திட்டம் போட்டுவிட்டாய் ... பாமா! நான் ஏமாற்றப்பட்டவன்தானா? அந்த மந்திரவாதியைவிட நீ பெரிய ஏமாற்றுக்காரியாகி விட்டாய், பாமா ....",
@@ -2050,7 +893,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 217,
+        "pair_index": 202,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா: (பரந்தாமனின் காலைப்பிடித்துக் கொண்டு விம்மியபடி ) மன்னித்துவிடுங்கள் என்னை. அப்பாவின் ஆத்திரத்தை என்னால் எதிர்க்க முடியவில்லை.",
@@ -2072,7 +915,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 218,
+        "pair_index": 203,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : பொழுதுவிடிந்தால் உனக்குத் திருமணம்.வேறொருவன் மனைவி! உன்னை மன்னிக்க நான் யார்!",
@@ -2094,7 +937,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 219,
+        "pair_index": 204,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா: என்னைக் காப்பாற்றுங்கள் . இப்போதே அப்பாவிடம் சொல்லி கல்யாணத்தை நிறுத்தி விடலாம்....",
@@ -2116,7 +959,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 222,
+        "pair_index": 207,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "பரந்தாமன்: அழாதே ! அன்புக்கரசி ! அழகுமணி மாளிகையின் அலங்காரத் திருவுருவே. அழித்தெழுதா சித்திரமே - ஆடிவரும் பொன் விளக்கே ! கட்டாணி முத்தழகி ! கண்கவரும் ரத்தினமே ! உன் கண்ணில் நீர் என்றால், என் உள்ளம் கலங்குதய்யோ! அழாதே பாமா !.... அழாதே!",
@@ -2138,7 +981,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 224,
+        "pair_index": 209,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன்: வாழ வழி ! இப்போதே இருவரும் வெளியேறி விடுவதுதான்....",
@@ -2160,7 +1003,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 225,
+        "pair_index": 210,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா : ஆ",
@@ -2182,7 +1025,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 226,
+        "pair_index": 211,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "பரந்தாமன் : தங்கமே கேள் ! தந்தைக்கு ஒரு கடிதம் எழுதி வை. \"திருமணம் பிடிக்கவில்லை - வெளியேறி விட்டேன்\" என்று சிந்தைக்கினியவளே! சிங்கார மயிலே.... உம் சீக்கிரம் ... எழுது கண்ணே ! என் எழுதாத ஓவியமே எழுது !",
@@ -2204,7 +1047,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 228,
+        "pair_index": 213,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : சீக்கிரம் புறப்படுடா தம்பி ! எல்லாம் தயாரா இருக்கு.",
@@ -2226,7 +1069,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 229,
+        "pair_index": 214,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : ஊர்வலம் வேணுமாப்பா? எனக்கென்னமோ பிடிக்கலை",
@@ -2248,7 +1091,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 230,
+        "pair_index": 215,
         "class": "other-punctuation",
         "canonical": {
           "text": "புண்யகோடி : அது கெட்டுது போ / ஊர்வலமே வேண்டாமா ! நம்ப என்ன அவாளை இவாளை கூப்பிட்டு கச்சேரியா வைக்கப் போறோம். கொஞ்சம் சிறப்பா, வெறும் மாப்பிள்ளை ஊர்வலம் கூடவா கூடாது- பெண் உன் பக்கத்திலே இருக்கப் போறதில்லை நீ ஏன் வெட்கப் படுறே.",
@@ -2270,7 +1113,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 231,
+        "pair_index": 216,
         "class": "whitespace-only",
         "canonical": {
           "text": "(பாண்டு வாத்யம் திடீரென நிற்கிறது. ஒருவன் புண்யகோடியின் காதில் பெண் ஓடிவிட்டாள் என்ற செய்தியைக் கூறுதல். பாண்டியன் திகைப்பு )",
@@ -2292,7 +1135,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 232,
+        "pair_index": 217,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "[பூமாலை ஊருக்குப் புறப்பட ஏற்பாடு செய்கிறாள் - அவளிடம் பாடம் கற்கும் ஒரு பெண் வந்து]",
@@ -2314,7 +1157,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 233,
+        "pair_index": 218,
         "class": "whitespace-only",
         "canonical": {
           "text": "பெண் : பட்டணத்துக்கு ஏம்மா போறீங்க...",
@@ -2336,7 +1179,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 234,
+        "pair_index": 219,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : குமுதாவுக்கு பரிக்ஷை முடிவு ரெண்டுநாளில் தெரிந்துவிடும். அவளை அழைத்து வருவதற்காகப் போகிறேன்",
@@ -2358,7 +1201,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 238,
+        "pair_index": 223,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை: அப்படியா! (யோசனை) ம்... பரந்தாமன் எங்கே ?",
@@ -2380,7 +1223,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 239,
+        "pair_index": 224,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : அவரு... அவரு...ம் ...அவருகூட மெட்ராஸ் போகணும்னு கருடன் கிட்ட சொல்லிக்கிட்டு இருந்தாரு.",
@@ -2402,7 +1245,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 240,
+        "pair_index": 225,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : (சிந்தனை) ம்... சரி புறப்படு. ரயிலுக்கு நேரமாச்சு.",
@@ -2424,7 +1267,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 242,
+        "pair_index": 227,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : அம்மா ! அப்ப நான் அடுத்த வண்டீல ஏறிக்கிறேன்.",
@@ -2446,7 +1289,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 245,
+        "pair_index": 230,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : இல்லை வேண்டாம்.",
@@ -2468,7 +1311,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 247,
+        "pair_index": 232,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : ரொம்ப நன்றி ! நீங்கள் சாப்பிடுங்கள் !....",
@@ -2490,7 +1333,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 248,
+        "pair_index": 233,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : நீங்கள் எந்த ஊருக்குப் போகிறீர்கள்.",
@@ -2512,7 +1355,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 251,
+        "pair_index": 236,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : என்னைத் தெரியுமா உங்களுக்கு !..",
@@ -2534,7 +1377,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 252,
+        "pair_index": 237,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : தெரியும் ...இதோ . (புத்தகத்தைக் காட்டுதல்)",
@@ -2556,7 +1399,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 253,
+        "pair_index": 238,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "பாண்டியன் (தலையைத் தாழ்த்தியபடி) வெட்கக் கேடு அய்யோ...",
@@ -2578,7 +1421,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 254,
+        "pair_index": 239,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : வருத்தப்படாதீர்கள்.",
@@ -2600,7 +1443,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 257,
+        "pair_index": 242,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : போதும் உலகத்தின் முகத்திலேயே நான் விழிக்கக் கூடாது!",
@@ -2622,7 +1465,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 258,
+        "pair_index": 243,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : நீங்கள் ஒரு தவறும் செய்யவில்லையே.",
@@ -2644,7 +1487,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 259,
+        "pair_index": 244,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : நானா தவறு செய்யவில்லை. மானம் மரியாதைக்குக் கட்டுப்பட்டு வாழ்ந்த நான்,இன்று அவமானச் சின்னமாக மாறிவிட்டேன், என் அறிவீனத்தால்,கண்டவர் காரி உமிழ, காணாதவர் கேலி பேச, கண்ணிருந்தும் குருடனாய், காதிருந்தும் செவிடனாய் கள்ளி யொருத்தியைப் பற்றி தீர விசாரிக்காமல் கல்யாண மாப்பிள்ளையாக வேஷங் கட்டிக்கொண்டு ஓடி வந்தேனே முட்டாள். நானா தவறு செய்யவில்லை.",
@@ -2666,7 +1509,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 260,
+        "pair_index": 245,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : சும்மாயிருங்கள். சென்னைக்கு வந்து எங்கள் வீட்டில் கொஞ்சம் ஓய்வு எடுத்துக் கொள்ளலாம்.",
@@ -2688,7 +1531,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 263,
+        "pair_index": 248,
         "class": "other-punctuation",
         "canonical": {
           "text": "சமையல்காரன்: அம்மா / சின்னம்மா வர்றாங்க!",
@@ -2710,7 +1553,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 266,
+        "pair_index": 251,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை: குமுதா!(தழுவிக் கொள்ளல்)",
@@ -2732,7 +1575,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 268,
+        "pair_index": 253,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை: சொன்னால் தெரியுமா உனக்கு ?",
@@ -2754,7 +1597,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 269,
+        "pair_index": 254,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "குமுதா: சொல்லாமலே தெரியும். \" வாழு, வாழ விடு\" மன்னிக்கவும். தங்கள் பெயர் பாண்டியன்தானே!",
@@ -2776,7 +1619,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 270,
+        "pair_index": 255,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : ஆமாம்.",
@@ -2798,7 +1641,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 272,
+        "pair_index": 257,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி: ஆக்கும்... சௌந்தர பாண்டியன். ஆளைப்பாரு !...",
@@ -2820,7 +1663,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 275,
+        "pair_index": 259,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா : எத்தனை நாளைக்கு ஹோட்டலில் தங்கியிருப்பது. சீக்கிரம் ஒரு வீடு பாருங்கள்.",
@@ -2842,7 +1685,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 276,
+        "pair_index": 260,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : வீடு பார்ப்பது இருக்கட்டும் ..வா இன்றைக்காவது ஊரைச் சுற்றிப் பார்த்துவிட்டு வரலாம்.",
@@ -2864,7 +1707,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 278,
+        "pair_index": 262,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : ஆரம்பிப்போமே. ஏன் அவசரப்படுகிறாய். குடும்பத்துக்கும் சென்னையைச் சுற்றிப் பார்ப்பதற்கும் என்ன சம்பந்தம்?",
@@ -2886,7 +1729,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 280,
+        "pair_index": 264,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : சென்னையில் என்ன இருக்கிறதா? கண்காட்சி சாலையைப்பற்றி கதை கதையாகச் சொல்கிறார்கள். கதிரவனைப் பழிக்குமாம் கலங்கரை விளக்கம். மிருகக் காட்சி சாலையும்,மெரினா கடற்கரையும் பார்க்காத கண்கள் பாபக் கண்களாம். ம்...புறப்படு ! அன்புக்கரசி, அழகு மணி மாளிகையின் அலங்காரத் திருவுருவே. அழித்தெழுதா சித்திரமே. புறப்படு.",
@@ -2908,7 +1751,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 285,
+        "pair_index": 268,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா: புல்லாக மாறிவிடுவேன்....புலி பசித்தாலும் புல்லைத் தின்னாது !",
@@ -2930,7 +1773,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 287,
+        "pair_index": 269,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாமா: நீலக்கடல் நேர்த்தியான காட்சி !",
@@ -2952,7 +1795,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 288,
+        "pair_index": 270,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : இந்தக் கடல் திடீரென்று பொங்கிவிட்டால்..",
@@ -2974,7 +1817,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 292,
+        "pair_index": 273,
         "class": "whitespace-only",
         "canonical": {
           "text": "[தமயந்தி தூங்கும்போது நடுராத்திரியில் அவளை ஏமாற்றி விட்டு, வஞ்சித்து விட்டு சேலையில் பாதியை கிழித்துக்கொண்டு நளன் புறப்பட்டு ஓடிப் போனான் ! போனான், போனான், புண்ணியவதியைத் தவிக்கவிட்டுப் போனான். போயே போய்விட்டான்.]",
@@ -2996,7 +1839,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 297,
+        "pair_index": 277,
         "class": "whitespace-only",
         "canonical": {
           "text": "[பாமா பைத்தியக்காரி போலானாள். பரிதாபத்திற்குரியவளானாள். ஓடினாள், எங்கேயோ ஓடினாள், ஒரு முடிவு தேடி ஓடினாள். வழவழப்பான தார் ரோடு,வஞ்சிக்கப்பட்ட அவளுக்குப் பாதை காட்ட முடியவில்லை. மாலுமிகளுக்கு வழி காட்டும் தீபஸ்தம்பம் திக்கற்ற அவளுக்கு திசை காட்ட முடியவில்லை. கொந்தளிக்கும் கடல் குமுறி எழும் அவள் உள்ளத்தோடு போட்டிபோட முடியவில்லை. உறுமு-",
@@ -3018,7 +1861,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 298,
+        "pair_index": 278,
         "class": "whitespace-only",
         "canonical": {
           "text": "வது புலியல்ல. உலகம் உலகம்! அவள் வெறுத்துவிட்டு வந்த உற்றார் உறவினர் தாய் தந்தையர் வாழும் உலகம் ! அந்த உலகத்தின் முகத்திலே இனி அவள் விழிக்க முடியாது ! விழிக்க முடியாது ! விழிக்கவே முடியாது!]",
@@ -3040,7 +1883,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 301,
+        "pair_index": 280,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா: குண்டுமணி ! இன்னுமா டீ தயாராகவில்லை?",
@@ -3062,7 +1905,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 302,
+        "pair_index": 281,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "(கீழே இறங்கி வருகிறாள் - பூமாலை அங்கு வருகிறாள்)",
@@ -3084,7 +1927,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 303,
+        "pair_index": 282,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா: சின்னம்மா ! நீ அவருக்கு டீ அனுப்பச்சொல்லு. நான் போயி கேமராவுக்கு பிலிம் வாங்கிட்டு வர்றேன் ...",
@@ -3106,7 +1949,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 305,
+        "pair_index": 284,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை: குண்டுமணி இரு  ... நான் கொண்டுபோறேன் டீயை. நீ போய் வேலையைப் பாரு",
@@ -3128,7 +1971,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 306,
+        "pair_index": 285,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : சரிம்மா ...",
@@ -3150,7 +1993,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 308,
+        "pair_index": 287,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "குண்டுமணி: (தனக்குள்) பாண்டியனுக்கு உபசாரம் பண்றதுன்னா அம்மா முன்னாடி நிக்கிறாங்களே என்னா விஷயம். ஆங் சேசே ! அம்மா நல்லவங்க... ம் .. யாரு கண்டா. அப்பேர்பட்ட (சந்தேகம்) எப்பேர்பட்ட.. சரிசரி வேலைக்காரனுக்கு என்னா இதெல்லாம்...",
@@ -3172,7 +2015,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 311,
+        "pair_index": 289,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "குமுதா: நில்லுங்க சரியா-ஆங்- கொஞ்சம் சிரிங்க... கொஞ்சம் கொஞ்சம் ...ஸ்டடி பிளீஸ், ரைட் ... தேங்க்ஸ்...",
@@ -3194,7 +2037,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 315,
+        "pair_index": 293,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : படம் பிடிக்கிறேங்கிறேன்.",
@@ -3216,7 +2059,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 316,
+        "pair_index": 294,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "குமுதா: அதானே/ (வெட்கமுடன்)",
@@ -3238,7 +2081,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 317,
+        "pair_index": 295,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : (கேமராவை வாங்கி) ம்... ஸ்டடி பிளீஸ்....",
@@ -3260,7 +2103,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 319,
+        "pair_index": 297,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : இது என்னா இது !",
@@ -3282,7 +2125,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 321,
+        "pair_index": 299,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : ஏங்கண்ணு!",
@@ -3304,7 +2147,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 325,
+        "pair_index": 303,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா: போ சின்னம்மா! (சிணுங்கியபடி கேமராவை வாங்கிக்கொண்டு) சரி சின்னம்மா ! நீங்க ரெண்டுபேரும் நில்லுங்க நான் எடுக்கிறேன். (களங்கமில்லாமல்)",
@@ -3326,7 +2169,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 326,
+        "pair_index": 304,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : நானா.",
@@ -3348,7 +2191,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 327,
+        "pair_index": 305,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா : போய் நில்லு சின்னம்மா!",
@@ -3370,7 +2213,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 330,
+        "pair_index": 308,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "(குண்டுமணியின் சந்தோஷ கூச்சல்- குமுதா நடுங்கியபடி கேமராவைக் கீழே போட்டுவிடுகிறாள்)",
@@ -3392,7 +2235,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 331,
+        "pair_index": 309,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : ஏ...என்ன... என்ன?",
@@ -3414,7 +2257,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 332,
+        "pair_index": 310,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : (பேப்பரைக் காட்டி) குமுதாம்மா பாஸ் ! பாஸ் ! பாஸ்!",
@@ -3436,7 +2279,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 334,
+        "pair_index": 312,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : பாஸ் ! குமுதா நீ கெட்டிக்காரி!",
@@ -3458,7 +2301,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 336,
+        "pair_index": 314,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : குமுதா கங்ராஜுலேஷன்ஸ்...",
@@ -3480,7 +2323,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 338,
+        "pair_index": 316,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : (பத்திரிகையைக் காட்டி) இந்த பாருங்க நம்பரு. பதினாறு இருபத்தினாலு..",
@@ -3502,7 +2345,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 341,
+        "pair_index": 319,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : பொருத்தமான நம்பருதான்.",
@@ -3524,7 +2367,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 342,
+        "pair_index": 320,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : (அதட்டல்) ஏய்....சும்மா இரு ...",
@@ -3546,7 +2389,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 343,
+        "pair_index": 321,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : இல்லிங்க.குமுதாம்மா எண்ணும் பதினாறு வயசா மார்க்கண்டி மாதிரி இருக்கணுங்கிறேன்.",
@@ -3568,7 +2411,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 345,
+        "pair_index": 323,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : அப்ப ஊருக்குப் புறப்படலாமா!",
@@ -3590,7 +2433,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 346,
+        "pair_index": 324,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா : அவர்...",
@@ -3612,7 +2455,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 347,
+        "pair_index": 325,
         "class": "whitespace-only",
         "canonical": {
           "text": "குண்டுமணி : அவரைப்பத்தி நீங்க கவலைப்படவேண்டீதில்லைம்மா. இனிமே நம்ப விரட்டினாகூட அவர் நம்பளைவிட்டுப் போமாட்டாரு !",
@@ -3634,7 +2477,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 350,
+        "pair_index": 327,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : வாப்பா ! இரண்டு மூணு வாரமா ஏக ஜாலியா இருந்திருக்கும் life ..",
@@ -3656,7 +2499,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 351,
+        "pair_index": 328,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : பாவம்... சென்னையிலே குடும்பம் அமைத்து என்னை சம்சார சிறையிலே போடலாமென்று துடித்தாள் பாமா... எங்கே போனாளோ என்ன ஆனாளோ!....",
@@ -3678,7 +2521,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 352,
+        "pair_index": 329,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : ம்... சம்சாரமாவது ஒண்ணாவது மனுஷன் free-யா இருக்கணும், என்னாட்டம். நமக்கு உதாரணமாகத்தானே கடவுள் படைத்திருக்கிறான், மலருக்கு மலர் தாவுகிற ......",
@@ -3700,7 +2543,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 354,
+        "pair_index": 331,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : டே...",
@@ -3722,7 +2565,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 356,
+        "pair_index": 333,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : கம்பர் மகன் அம்பிகாபதி! சும்மாயிருடா முந்திரிக்கொட்டை!",
@@ -3744,7 +2587,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 360,
+        "pair_index": 337,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : என்னடா?",
@@ -3766,7 +2609,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 362,
+        "pair_index": 339,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன்: நமக்காமில்ல நமக்கு ! இவரும் சேந்துக்கிறாரு விஷயத்தை சொல்லு கழுதை!",
@@ -3788,7 +2631,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 363,
+        "pair_index": 340,
         "class": "whitespace-only",
         "canonical": {
           "text": "பையன் : மில் தொழிலாளிங்க சம்பள உயர்வுக்காக கிளர்ச்சி பண்றாங்க!...",
@@ -3810,7 +2653,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 364,
+        "pair_index": 341,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : அப்படியா? அப்ப நமக்கு சம்பந்தமில்லை.",
@@ -3832,7 +2675,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 366,
+        "pair_index": 343,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "பரந்தாமன் : ஆமாம்.... இன்றைக்கே எழுத ஆரம்பிக்கிறேன். பெயர் என்ன வைக்கலாம் -புஸ்தகத்துக்கு... ஆங்...சரி.... பாட்டாளியின் குரல்.",
@@ -3854,7 +2697,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 367,
+        "pair_index": 344,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : சபாஷ்! பாட்டாளியின் குரல். என்ன மூளை! என்ன மூளை!",
@@ -3876,7 +2719,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 368,
+        "pair_index": 345,
         "class": "whitespace-only",
         "canonical": {
           "text": "பையன் : முதல்ல என் குரலை கொஞ்சம் கவனிங்க!",
@@ -3898,7 +2741,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 369,
+        "pair_index": 346,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : என்னடா?",
@@ -3920,7 +2763,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 371,
+        "pair_index": 348,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : (கோபமாய்) டேய் ! மில் தொழிலாளிகளுக்காக புஸ்தகம் எழுதினா...",
@@ -3942,7 +2785,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 373,
+        "pair_index": 350,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : பெரிய தொழிலாளி இவுரு ! பரந்தாமா! நீ எழுத ஆரம்பிச்சுடு ! லாபத்திலே உனக்கு கால், எனக்கு முக்கால்.",
@@ -3964,7 +2807,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 375,
+        "pair_index": 352,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : அறை ! (அறைதல்)",
@@ -3986,7 +2829,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 377,
+        "pair_index": 354,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "(பாமாவின் தந்தை குணரத்னம் பூமாலையிடம் தன் மகளைப்பற்றி வருத்தமுடன் கூறிக்கொண்டிருக்கிறார்]",
@@ -4008,7 +2851,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 378,
+        "pair_index": 355,
         "class": "whitespace-only",
         "canonical": {
           "text": "குணரத்னம் : அவள் மாத்திரமா போனாள்.வீட்டை அடமானம் வச்சு, செஞ்சுப்போட்ட ஆயிரம் ரூபாய் நகையோடவும் போய்ட்டா!",
@@ -4030,7 +2873,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 380,
+        "pair_index": 357,
         "class": "whitespace-only",
         "canonical": {
           "text": "குணரத்னம் : (அதை வாங்கி) ஏன்? இதை நான் யாருக்குப் போட்டு அழகு பார்க்கப் போகிறேன். நீயே வச்சுக்க. (கீழே போட்டுவிட்டு) எனக்குத் துரோகம் பண்ணுனவுங்க தொலைஞ்சு போய்டுவாங்க !...",
@@ -4052,7 +2895,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 384,
+        "pair_index": 361,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : ஏன் இப்படிக் கீழே கிடக்கிறது. (எடுக்கிறான்) எல்லாம் பொன்னகைதானே?",
@@ -4074,7 +2917,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 391,
+        "pair_index": 368,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : ஏன் ! அந்தத் திரைமறைவிலே சுலபமாக ஏமாற்ற முடியுமென்று கருதுகிறாயா? பெண் இனத்தை மண்ணில் நெளியும் புழுக் கூட்டமாக மதித்துவிட்ட பித்தனே ! எங்கு போனாள் பாமா? சொல். எங்கே அவளைத் தவிக்கவிட்டாய்? எரிமலைமீது விளையாட வந்த அந்த ஏழைச் சிறுமியின் கதி என்னவாயிற்று. சொல்! சொல்ல மாட்டாயா பாவி ! எங்கே பாமா?",
@@ -4096,7 +2939,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 392,
+        "pair_index": 369,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : பரலோகத்தில் போய் தேடிப்பார் !",
@@ -4118,7 +2961,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 401,
+        "pair_index": 378,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : எட்டணாதான் அதோட மரியாதையா போ! நான்சன்ஸ்...",
@@ -4140,7 +2983,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 402,
+        "pair_index": 379,
         "class": "whitespace-only",
         "canonical": {
           "text": "கூலி : ஏன்ய்யா பெரிய மனுஷன் சின்ன வார்த்தையெல்லாம் பேசுரே. நான்சன்சாம்ல ...",
@@ -4162,7 +3005,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 405,
+        "pair_index": 382,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : தொழிலாளி. தொழிலாளியாம் தொழிலாளி ... ........",
@@ -4184,7 +3027,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 410,
+        "pair_index": 387,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : பேரு மட்டுமா ! இரண்டு நாள்ள 5000 காப்பி வித்திருக்கு ! அப்றம் என்ன?",
@@ -4206,7 +3049,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 412,
+        "pair_index": 389,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : யார் நீங்க !",
@@ -4228,7 +3071,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 413,
+        "pair_index": 390,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : தெரியலியா என்னை. நான்தான் தொழிலாளர் தலைவன். நான் ஏன் வந்திருக்கேன் தெரியுமில்ல....",
@@ -4250,7 +3093,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 414,
+        "pair_index": 391,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : என்னாங்க....",
@@ -4272,7 +3115,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 416,
+        "pair_index": 393,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : தொழிலாளி சம்பளம் ஜாஸ்தியா கேட்டா, அதை சிந்திச்சு பார்க்க..",
@@ -4294,7 +3137,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 417,
+        "pair_index": 394,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : இல்லிங்க, அவன் சம்பளம் கேக்கிலே. இந்த பேப்பர் பேலை தூக்கிட்டு வந்தான்",
@@ -4316,7 +3159,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 418,
+        "pair_index": 395,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : அது இல்லிங்க! நான் மில் தொழிலாளியை சொல்கிறேன்.",
@@ -4338,7 +3181,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 420,
+        "pair_index": 397,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : கருடா ! வாயால் கத்தி பயன் என்ன? பாட்டாளிகளின் குரல் பலம் பெறவேண்டுமானால், பெரிய கிளர்ச்சி நடத்தவேண்டும்..",
@@ -4360,7 +3203,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 421,
+        "pair_index": 398,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : அப்படிச் சொல்லுங்க...",
@@ -4382,7 +3225,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 422,
+        "pair_index": 399,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : இந்த நாட்டின் முதுகெலும்புகள் பாட்டாளிகள். ஒரு தேசத்தின் உயிரே தொழிலாளி வர்க்கம். அதைத் துவண்டுபோக விடக்கூடாது ! நான் கங்கணம் கட்டிவிட்டேன். தொழிலாளி விடுதலைப் போராட்டத்தை விரைவில் தொடங்க வேண்டும்.",
@@ -4404,7 +3247,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 423,
+        "pair_index": 400,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : சபாஷ் ! சபாஷ் ! தங்களைப்போன்ற உண்மையான உறுதி படைத்த வாலிபர்கள் இருந்தால் உலகத்துக்கே ஒரே நாளில் விமோசனம் பிறந்துவிடும். தாங்கள் எழுதிய பாட்டாளியின் குரல் படிக்கும்போது, படுகிழவனையும் பாலகனாக்குகிறது. கோழையையும் புலியாக்குகிறது. நாளையதினம் நடைபெறும் பொதுக்கூட்டத்திற்கு தாங்கள் தலைமை வகித்தாக வேண்டும்.",
@@ -4426,7 +3269,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 426,
+        "pair_index": 403,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : தொழிலாளர் என் தோழர்கள் ! அவர்கள் அன்புக்கட்டளையை நிறைவேற்றுகிறேன். இனி இந்த உலகத்தில் தொழிலாளி நினைத்ததெல்லாம் நடக்கவேண்டும்.",
@@ -4448,7 +3291,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 430,
+        "pair_index": 407,
         "class": "whitespace-only",
         "canonical": {
           "text": "கருடன் : சீ போடா! பெரிய உலக விஷயம் பேசிட்டு இருக்கும்போது...",
@@ -4470,7 +3313,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 435,
+        "pair_index": 412,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி : சகோதரர்களே ! நாமெல்லோரும் வெகு ஆவலோடு எதிர்பார்த்திருக்கும் தலைவர் பரந்தாமன் இன்னும் சிறிது நேரத்தில் வந்துவிடுவார். எல்லோரும் அமைதியாயிருங்கள் ! இன்றையதினம் புரட்சிகரமான திட்டங்கள் பல நிறைவேற்றப்பட இருக்கிறது. நாம் யாருக்கும் பயப்படப் போவதில்லை. அச்சமில்லை அச்சமில்லை அகிலமெல்லாம் எதிர்த்துவரினும் அச்சமில்லை.",
@@ -4492,7 +3335,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 443,
+        "pair_index": 420,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : தலைவர் அவர்களே ! (ஜனங்கள் சிரிப்பது )ஓகோ, நான்தான் தலைவரோ. மன்னிக்கவும். காடு வெட்டி கழனி திருத்தி காலையிலே மாடோட்டி கலப்பை யெடுத்துச் சென்றால் மாலையிலே வீடுதிரும்பும் மனமொடிந்த பாட்டாளியும், ரத்தத்தை வியர்வைக்குளமாக்கி,சித்தம்சோர்ந்து நித்த நித்தம் உழைக்கும் பஞ்சாலைத் தொழிலாளியும், புத்தம் புதிய வாழ்வு பெறவேண்டுமென்பதே என் நோக்கம் ... ஏழைகள் பசி என்று கூறினால் என் இருதயம் வெடித்துவிடும் போலிருக்கிறது. அவர்கள் கண்ணீர்விட்டால் என் ரத்தமெல்லாம் கொதிக்கிறது.நம் கோரிக்கைகளை ஏற்க மறுக்கும் அவர்களின் கொட்டமடக்க - உடனே வேலைநிறுத்தம். ஒட்டுமொத்தக் கூட்டாகப் புறப்பட வேண்டும் / வெற்றி நமதே! வெற்றி நமதே !",
@@ -4514,7 +3357,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 448,
+        "pair_index": 424,
         "class": "whitespace-only",
         "canonical": {
           "text": "பையன் : புத்தர், காந்தி",
@@ -4536,7 +3379,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 450,
+        "pair_index": 426,
         "class": "whitespace-only",
         "canonical": {
           "text": "பையன் : சேரன், சோழன்.... (திணறுவது)",
@@ -4558,7 +3401,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 451,
+        "pair_index": 427,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : உம். சொல்லு",
@@ -4580,7 +3423,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 459,
+        "pair_index": 433,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : சிந்தனைக்கு இடையூறு ஒன்றும் இல்லையே...",
@@ -4602,7 +3445,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 460,
+        "pair_index": 434,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : இல்லை, இல்லை....",
@@ -4624,7 +3467,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 462,
+        "pair_index": 436,
         "class": "whitespace-only",
         "canonical": {
           "text": "பாண்டியன் : மோனத்திருக்கும் முதிர் சோலையில், கானத்தால் களிப்பூட்டும்",
@@ -4646,7 +3489,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 463,
+        "pair_index": 437,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : வானம்பாடியின் வரவை எதிர்ப்பார்த்து ஏக்கமா? பாண்டியன்! சிரிக்கும் முல்லையும், சிங்காரக் கொல்லையும் உங்கள் சிந்தைக்கு விருந்தளிக்கப் போதவில்லை என்பதை உணர்ந்துதான் வானம்பாடி பறந்து வந்திருக்கிறது !",
@@ -4668,7 +3511,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 468,
+        "pair_index": 442,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : யார் இவன்?",
@@ -4690,7 +3533,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 470,
+        "pair_index": 444,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : சொல்லவேண்டாம் தெரிகிறது.இந்த அயோக்யனை வீட்டுக்குள்ளே யார் அனுமதித்தது?",
@@ -4712,7 +3555,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 471,
+        "pair_index": 445,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : (கோபமாக) பரந்தாமா..",
@@ -4734,7 +3577,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 472,
+        "pair_index": 446,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : அதட்டாதே ! நீ செய்ததும் ஒரு நல்ல காரியம்தான் ! இவனை நான் பலநாளாகத் தேடிக்கொண்டிருக்கிறேன்.",
@@ -4756,7 +3599,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 474,
+        "pair_index": 448,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : ஆ! பரிசு கொடுக்க. இந்தா பதிலுக்குப் பதில் வாங்கிக்கொள்!",
@@ -4778,7 +3621,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 476,
+        "pair_index": 450,
         "class": "whitespace-only",
         "canonical": {
           "text": "பரந்தாமன் : ஆ ...என்ன !...குமுதா!",
@@ -4800,7 +3643,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 490,
+        "pair_index": 462,
         "class": "page-attribution",
         "canonical": {
           "text": "பூமாலை: அதைக் கேட்க நான் இருக்கிறேனே! அவனை எனக்கு நேராகவே",
@@ -4822,7 +3665,7 @@
         "same_pdf": false
       },
       {
-        "pair_index": 492,
+        "pair_index": 464,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : உனக்கு ?",
@@ -4844,7 +3687,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 494,
+        "pair_index": 466,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : (திடுக்கிட்டு) காதலனா?",
@@ -4866,7 +3709,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 496,
+        "pair_index": 468,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : உன் காதலன்?",
@@ -4888,7 +3731,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 502,
+        "pair_index": 474,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : சே ! எவ்வளவு பெரிய தவறு செய்துவிட்டேன்! குமுதா",
@@ -4910,7 +3753,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 505,
+        "pair_index": 477,
         "class": "whitespace-only",
         "canonical": {
           "text": "குமுதா : பிறகென்ன நான் அன்பு காட்டியது தவறா?",
@@ -4932,7 +3775,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 508,
+        "pair_index": 480,
         "class": "whitespace-only",
         "canonical": {
           "text": "பூமாலை : விளங்க வேண்டாம் உனக்கு, விளங்கவே வேண்டாம்.",
@@ -4954,7 +3797,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 528,
+        "pair_index": 499,
         "class": "bracket-parenthesis",
         "canonical": {
           "text": "பாண்டியன்: (படத்தைப் பார்த்து) அப்பா ! எனக்கு கல்யாணமே வேண்டாமப்பா!\"",
@@ -4976,51 +3819,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 687,
-        "class": "page-attribution",
-        "canonical": {
-          "text": "காட்சி 44 )",
-          "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-          "file_line": 403,
-          "pdf": 57,
-          "printed": 49,
-          "scene": 44
-        },
-        "scene": {
-          "text": "காட்சி 44 )",
-          "path": "works/tirumbippaar/scenes/scene-44.md",
-          "file_line": 4,
-          "pdf": 58,
-          "printed": 50,
-          "scene": 44
-        },
-        "same_text": true,
-        "same_pdf": false
-      },
-      {
-        "pair_index": 758,
-        "class": "page-attribution",
-        "canonical": {
-          "text": "காட்சி 48",
-          "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
-          "file_line": 489,
-          "pdf": 62,
-          "printed": 54,
-          "scene": 48
-        },
-        "scene": {
-          "text": "காட்சி 48",
-          "path": "works/tirumbippaar/scenes/scene-48.md",
-          "file_line": 4,
-          "pdf": 63,
-          "printed": 55,
-          "scene": 48
-        },
-        "same_text": true,
-        "same_pdf": false
-      },
-      {
-        "pair_index": 793,
+        "pair_index": 746,
         "class": "ellipsis-punct-count",
         "canonical": {
           "text": "பரந்தாமன்: ஒகோ...... ஏன் குயிலு வார்த்தையை சொல்லியா கூவுது. என்னமோ கத்துது. அதையுந்தான் குயில் பாடுதுங்கிறான்.",
@@ -5042,7 +3841,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 817,
+        "pair_index": 770,
         "class": "whitespace-only",
         "canonical": {
           "text": "புண்யகோடி: (சாப்பிட்டுக் கொண்டே) பரந்தாமனைப் போல ஒரு நாணயமான தலைவனைப் பார்க்க முடியாது. நல்ல ஒழுக்கம்,நேர்மையான நடத்தை இவைகளுக்கெல்லாம் ஒரே ஒரு ஏக எடுத்துக்காட்டு நமது பரந்தாமனேதான்.",
@@ -5064,7 +3863,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 818,
+        "pair_index": 771,
         "class": "other-punctuation",
         "canonical": {
           "text": "தொழிலாளி ஒருவன்: நீங்க புகழ்ந்து பேசுறீங்க. உங்க புள்ளைதான் எழுதியிருக்கு 'போலித் தலைவன்'' என்று.",
@@ -5086,7 +3885,7 @@
         "same_pdf": true
       },
       {
-        "pair_index": 838,
+        "pair_index": 791,
         "class": "quote-dash-glyph",
         "canonical": {
           "text": "\"பயங்கரமான வழிப்பறி. லேடி டாக்டர் உஷா தேவியின் நெக்லஸ் பறிபோயிற்று \" - நேற்று இரவு கோவைக்குப் பக்கமுள்ள குனியமுத்தூர் கிராமத்திற்கு வைத்தியம் பார்க்கச் சென்று திரும்பிய, சிவசக்தி மில் முதலாளியின் புதல்வி லேடி டாக்டர் உஷாதேவியை சிலர் வழிமறித்து அவளுடைய ஐயாயிர ரூபாய் பெறுமானமுள்ள நெக்லஸை கொண்டுபோய் விட்டார்கள். போலீஸார் புலன் விசாரிக்கிறார்கள்.",
@@ -5106,50 +3905,6 @@
         },
         "same_text": false,
         "same_pdf": true
-      },
-      {
-        "pair_index": 1253,
-        "class": "page-attribution",
-        "canonical": {
-          "text": "காட்சி 82)",
-          "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-          "file_line": 115,
-          "pdf": 98,
-          "printed": 90,
-          "scene": 82
-        },
-        "scene": {
-          "text": "காட்சி 82)",
-          "path": "works/tirumbippaar/scenes/scene-82.md",
-          "file_line": 4,
-          "pdf": 99,
-          "printed": 91,
-          "scene": 82
-        },
-        "same_text": true,
-        "same_pdf": false
-      },
-      {
-        "pair_index": 1296,
-        "class": "page-attribution",
-        "canonical": {
-          "text": "காட்சி 84)",
-          "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
-          "file_line": 167,
-          "pdf": 101,
-          "printed": 93,
-          "scene": 84
-        },
-        "scene": {
-          "text": "காட்சி 84)",
-          "path": "works/tirumbippaar/scenes/scene-84.md",
-          "file_line": 4,
-          "pdf": 102,
-          "printed": 94,
-          "scene": 84
-        },
-        "same_text": true,
-        "same_pdf": false
       }
     ]
   }
