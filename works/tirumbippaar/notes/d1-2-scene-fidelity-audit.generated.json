@@ -3,7 +3,7 @@
   "audit": "D1.2 strict canonical/scene source-order fidelity",
   "authority": "controlling scan; neither canonical nor scene derivative is presumptively correct",
   "gate_definition": "exact trimmed-line identity for source-bearing non-heading scene lines; punctuation, ellipses, whitespace and quote/dash glyphs significant; page attribution audited separately",
-  "documented_target_aligned_pairs": 1342,
+  "documented_target_aligned_pairs": 1348,
   "gate": {
     "canonical_lines": 1352,
     "scene_lines": 1348,
@@ -33,7 +33,7 @@
         "tag": "delete",
         "canonical": [
           {
-            "text": "(கருடன் பதிப்பகம்",
+            "text": "[கருடன் பதிப்பகம்",
             "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
             "file_line": 55,
             "pdf": 38,
@@ -63,7 +63,7 @@
         "tag": "delete",
         "canonical": [
           {
-            "text": "(ஹோட்டல் அறை-பகல்",
+            "text": "[ஹோட்டல் அறை-பகல்",
             "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
             "file_line": 244,
             "pdf": 106,

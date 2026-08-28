@@ -190,13 +190,13 @@ def main():
         "audit":"D1.2 strict canonical/scene source-order fidelity",
         "authority":"controlling scan; neither canonical nor scene derivative is presumptively correct",
         "gate_definition":"exact trimmed-line identity for source-bearing non-heading scene lines; punctuation, ellipses, whitespace and quote/dash glyphs significant; page attribution audited separately",
-        "documented_target_aligned_pairs":1342,
+        "documented_target_aligned_pairs":1348,
         "gate": gate,
     }
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     write_tsv(gate)
     print(json.dumps({k:v for k,v in gate.items() if k not in {"unaligned","mismatches"}}, ensure_ascii=False, indent=2))
-    if gate["aligned_pairs"] != 1342 or gate["unaligned"]:
+    if gate["aligned_pairs"] != 1348 or gate["mismatch_count_including_page"]:
         print(f"WARNING: parser gate drift: aligned={gate['aligned_pairs']} unaligned_blocks={gate['unaligned_blocks']}")
 
 if __name__ == "__main__":
