@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-BUILD_VERSION = 4
+BUILD_VERSION = 5
 ROOT = Path(__file__).resolve().parents[4]
 WORK = ROOT / "works" / "tirumbippaar"
 TRANSLATIONS = WORK / "translations"
@@ -22,20 +22,20 @@ SONG_INVENTORY_PATH = WORK / "songs" / "inventory.json"
 OUT_DIR = WORK / "editions" / "en"
 
 SCENES = list(range(1, 94))
-EXPECTED_UNITS = 1321
+EXPECTED_UNITS = 1330
 EXPECTED_KINDS = {
-    "dialogue": 1047,
-    "stage-direction": 254,
+    "dialogue": 1049,
+    "stage-direction": 262,
     "song": 0,
     "song-reference": 7,
     "chant": 2,
-    "written-text": 11,
+    "written-text": 10,
 }
-EXPECTED_DIALOGUE_RECORDS = 1040
+EXPECTED_DIALOGUE_RECORDS = 1042
 EXPECTED_DIRECT_UNLABELLED = 7
 EXPECTED_CROSS_PAGE = 12
 SOURCE_SHA256 = "973b9c3f7b84d6a1902a4a472af8799c783bf1ec2d6cd015796fc1df1ce59682"
-UNIT_RE = re.compile(r"^tirumbippaar-en-s\d{3}-u\d{3}$")
+UNIT_RE = re.compile(r"^tirumbippaar-en-s(\d{3})-u\d{3}$")
 PLACEHOLDER_RE = re.compile(r"\b(?:TODO|TBD|FIXME)\b|\[\[\?\]\]|\{\{.+?\}\}", re.I)
 SYNTHETIC_END_RE = re.compile(r"^\s*\(Scene ends\.\)\s*$", re.I)
 
@@ -119,7 +119,7 @@ def render_markdown(records: list[dict[str, Any]]) -> str:
         "**Status:** complete-verified source-linked English derivative  ",
         "**English authority:** `works/tirumbippaar/translations/records/`  ",
         f"**Source scan SHA-256:** `{SOURCE_SHA256}`", "",
-        f"> Editorial note: This edition concatenates the {EXPECTED_UNITS:,} verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled. Structural stars are not converted into invented prose.", "",
+        f"> Editorial note: This edition concatenates the {EXPECTED_UNITS:,} verified English units in corrected source order without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled. Stable historical unit IDs may therefore appear out of numerical order where source-proven omitted material was later restored. Structural stars are not converted into invented prose.", "",
         "## Contents", "",
         *[f"- [Scene {scene}](#scene-{scene})" for scene in SCENES], "", "---", "",
     ]
@@ -169,7 +169,7 @@ def render_html(records: list[dict[str, Any]]) -> str:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tirumbippaar! — English Reader Edition</title>
 <style>body{{font-family:ui-serif,Georgia,"Times New Roman",serif;max-width:56rem;margin:auto;padding:2rem 1.25rem 5rem;line-height:1.65}}nav{{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0}}.scene{{border-top:1px solid;margin-top:2.5rem;padding-top:1rem}}.dialogue{{display:grid;grid-template-columns:minmax(5rem,8rem) 1fr;gap:.75rem}}.dialogue:not(:has(.speaker)){{display:block}}.speaker{{font-weight:700}}.stage{{font-style:italic}}.special{{margin:1rem 0 1rem 1rem;border-left:2px solid;padding-left:1rem}}@media(max-width:36rem){{.dialogue{{display:block}}.speaker{{display:block}}}}@media print{{nav,.back{{display:none}}.scene{{break-before:page}}}}</style>
-</head><body><h1>Tirumbippaar! — English Reader Edition</h1><p><strong>Tamil title:</strong> திரும்பிப்பார்!</p><p><strong>Status:</strong> complete-verified source-linked English derivative</p><p>This edition concatenates the {EXPECTED_UNITS:,} verified English units without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled.</p><h2 id="contents">Contents</h2><nav>{nav}</nav>{''.join(sections)}</body></html>\n'''
+</head><body><h1>Tirumbippaar! — English Reader Edition</h1><p><strong>Tamil title:</strong> திரும்பிப்பார்!</p><p><strong>Status:</strong> complete-verified source-linked English derivative</p><p>This edition concatenates the {EXPECTED_UNITS:,} verified English units in corrected source order without rewriting them. Exact Tamil speaker labels remain visible for labelled dialogue; source-unlabelled speech remains unlabelled.</p><h2 id="contents">Contents</h2><nav>{nav}</nav>{''.join(sections)}</body></html>\n'''
 
 
 def main() -> int:
@@ -178,10 +178,10 @@ def main() -> int:
     ensure(index.get("translation_units") == EXPECTED_UNITS, "Translation unit total differs from reader checkpoint")
     ensure(index.get("unit_status_counts") == {"draft":0,"review":0,"verified":EXPECTED_UNITS}, "Translation status totals differ")
     ensure(index.get("unit_kind_counts") == EXPECTED_KINDS, "Translation kind totals differ")
-    ensure(index.get("scenes_started") == SCENES and index.get("scenes_reviewed") == SCENES and index.get("scenes_verified") == SCENES, "Scene coverage differs from 1-93")
-    ensure(index.get("scenes_in_review") == [], "A scene remains in review")
+    ensure(index.get("source_reconciled_scenes") == SCENES, "Corrected-source scene coverage differs from 1-93")
     meta = index.get("scene_records")
     ensure(isinstance(meta, list) and [x.get("canonical_scene") for x in meta] == SCENES, "Scene record index is incomplete or unordered")
+    ensure(all(x.get("status") == "corrected-source-reconciled" for x in meta), "A scene record is not corrected-source-reconciled")
 
     dialogue_by_id: dict[str, dict[str, Any]] = {}
     dialogue_paths: list[Path] = []
@@ -216,6 +216,7 @@ def main() -> int:
         record = load_json(path)
         records.append(record)
         ensure(record.get("canonical_scene") == scene and record.get("scene_status", record.get("pilot_status")) == "verified", f"Scene {scene} record mismatch")
+        ensure(record.get("reconciliation_status") == "corrected-source-reconciled", f"Scene {scene} reconciliation status mismatch")
         units = record.get("units")
         ensure(isinstance(units, list) and record.get("unit_count") == len(units) == item.get("unit_count"), f"Scene {scene} unit_count mismatch")
         first_page = min(p["pdf_page"] for unit in units for p in unit["source"]["page_provenance"])
@@ -223,9 +224,10 @@ def main() -> int:
         previous_scene_page = first_page
         previous_unit_page = 0
 
-        for ordinal, unit in enumerate(units, 1):
+        for unit in units:
             uid = unit.get("id")
-            ensure(uid == f"tirumbippaar-en-s{scene:03d}-u{ordinal:03d}" and isinstance(uid, str) and UNIT_RE.match(uid), f"Scene {scene} unit {ordinal} id mismatch")
+            match = UNIT_RE.match(uid) if isinstance(uid, str) else None
+            ensure(match is not None and int(match.group(1)) == scene, f"Scene {scene} has malformed/cross-scene unit id {uid!r}")
             ensure(uid not in units_seen and unit.get("status") == "verified", f"Duplicate or unverified unit {uid}")
             units_seen.add(uid)
             kind = unit.get("kind")
@@ -294,22 +296,23 @@ def main() -> int:
 
 ## Verified checks
 
-- canonical scenes: **93/93** in source order;
-- English units: **{EXPECTED_UNITS:,}/{EXPECTED_UNITS:,} unique, sequential and verified**;
+- canonical scenes: **93/93** in corrected source order;
+- English units: **{EXPECTED_UNITS:,}/{EXPECTED_UNITS:,} unique and verified**;
 - status counts: **{EXPECTED_UNITS:,} verified / 0 review / 0 draft**;
-- kind counts: **1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song**;
-- immutable labelled dialogue records linked exactly once: **{len(dialogue_links)}/1,040**;
+- kind counts: **1,049 dialogue / 262 stage direction / 7 song-reference / 2 chant / 10 written-text / 0 full-song**;
+- immutable labelled dialogue records linked exactly once: **{len(dialogue_links)}/1,042**;
 - source-visible unlabelled spoken units retained without invented speaker/dialogue IDs: **{len(direct_seen)}**;
 - verified song/performance occurrence links cross-checked: **{len(occurrence_links)}**;
 - cross-page English units: **{len(cross_page)}**, exactly matching `translations/index.json`;
 - all provenance lies inside PDF **9–112** / printed **1–104**, with `printed = PDF - 8`;
+- stable historical English unit IDs are preserved even when recovered units make numeric IDs non-sequential in source order;
 - source-only structural stars do not survive as synthetic `(Scene ends.)` units;
 - reader Markdown and HTML contain every verified English unit exactly once;
 - no editorial placeholder token appears in reader text.
 
 ## Source-sensitive structures retained
 
-Scene 31 remains linked to `tirumbippaar-song-006` / `பாண்டியன் என் சொல்லை`. Scene 72 retains its verified source wording variants. Scene 90 retains the dying-breath transition. Scene 91 retains `பத்திரிகை News` as written text. Scene 93 retains final `வணக்கம்.` while the following `★` remains structural.
+Scene 41 retains its recovered dialogue links; scene 63 retains the stable split required by the immutable dialogue corpus; scene 80 retains its genuine cross-page units; scene 92 begins with its newspaper heading and Court setting before the judgment; scene 93 begins with its Jail setting and retains the final children/warders departure, `Vanakkam.`, and no synthetic star-end prose.
 
 The generator writes only inside `works/tirumbippaar/editions/en/` and does not modify canonical Tamil or structured source layers.
 """

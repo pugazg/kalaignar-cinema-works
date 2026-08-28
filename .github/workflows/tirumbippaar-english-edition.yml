@@ -35,6 +35,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Finalize reconciled translation checkpoint
+        run: python works/tirumbippaar/editions/en/sync_status.py --prepare-index
+
       - name: Run reader preflight diagnostics
         run: python works/tirumbippaar/editions/en/audit_probe.py
 
@@ -45,7 +48,7 @@ jobs:
         run: python works/tirumbippaar/editions/en/package.py
 
       - name: Synchronize derivative-status metadata
-        run: python works/tirumbippaar/editions/en/sync_status.py
+        run: python works/tirumbippaar/editions/en/sync_status.py --metadata
 
       - name: Commit generated reader package and synchronized metadata
         shell: bash
@@ -53,6 +56,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            works/tirumbippaar/translations/index.json \
             works/tirumbippaar/metadata.yaml \
             works/tirumbippaar/editions/en/reader-edition.md \
             works/tirumbippaar/editions/en/reader-edition.html \
