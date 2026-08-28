@@ -20,11 +20,11 @@ PDF 2 prints `உரிமையுடையது.` and `விலை ரூ. 0
 
 The user-supplied corrected `thirumbipaar.md` is the correction baseline for the 104 screenplay pages because it repairs systematic OCR / old-Tamil-glyph loss in the earlier repository transcription. The rendered scan remains the final authority whenever that Markdown is doubtful, conflicts with the printed page, or omits visible printed material.
 
-Printed spelling, punctuation, labels, old forms, English text, scene structure and physical page boundaries are preserved. Unlabelled speech is not assigned an invented speaker. Stable dialogue and English unit IDs are not renumbered merely to make later source-order repairs look sequential.
+Printed spelling, punctuation, labels, old forms, English text, scene structure and physical page boundaries are preserved. Unlabelled speech is not assigned an invented speaker. Stable dialogue, song-occurrence and English unit IDs are not renumbered merely to make later source-order repairs look sequential.
 
 ## Final reconciliation status
 
-The corrected source-critical pass is **complete**:
+The corrected source-critical pass and all source-authorized structured/publication derivatives are **complete**:
 
 - canonical Tamil: **PDF 9–112 / printed pp.1–104 — scan-closed**;
 - canonical batches: **5/5 reconciled**;
@@ -33,6 +33,8 @@ The corrected source-critical pass is **complete**:
 - scene 41: **38** labelled records after two source-proven omissions were added as `tirumbippaar-s041-d037` and `tirumbippaar-s041-d038`;
 - scene 43: legitimate **zero-dialogue** scene;
 - character/entity layer: **45 exact source labels / 39 verified entities or roles / 0 unresolved**;
+- song/performance inventory: **8/8 source-reconciled occurrences / 3 verified authorship / 5 evidence-limited unresolved**;
+- Tamil song-lyric derivative gate: **closed with 0 files because the booklet prints no complete lyric body for either named song**;
 - English source reconciliation: **93/93 scenes / 1,330 verified units / 1,042 of 1,042 labelled dialogue links**;
 - English reader QA: **PASS**;
 - deterministic EPUB 3 QA: **PASS**.
@@ -45,6 +47,7 @@ The reconciliation retained rather than normalized several source-sensitive stru
 
 - scene 41's recovered labelled dialogue without renumbering existing IDs;
 - scene 42 and scene 43 as separate source-supported segments;
+- song occurrence `tirumbippaar-song-007` belongs to scene **43**, where `கலப்படம் கலப்படம்` is printed; scene 42 is the spoken lead-in only;
 - scene 49's full `குயில் பாடுதுங்கிறான்` reading;
 - scene 69's printed `12½` clock;
 - scene 72's Paranthaman / `(திரையில் குரல்)` / `குரல்:` order;
@@ -54,6 +57,14 @@ The reconciliation retained rather than normalized several source-sensitive stru
 - scene 93's Jail setting, final children/warders departure direction, and `வணக்கம்.` without turning the closing `★` into invented prose.
 
 The final closure audit also synchronized three stale Part04 canonical strings with their already-correct derivatives: the stray `ஈ.` after `இதெல்லாம் சினிமா.` was removed, `ஏல்லாம்` was corrected to `எல்லாம்`, and `[புண்ணகோடி கதவைத் தட்டல்]` was corrected to `[புண்யகோடி கதவைத் தட்டல்]`.
+
+The song/performance reconciliation additionally synchronized stale source text in occurrences 001, 002 and 005, and moved occurrence 007 from the old scene-42 attribution to corrected scene 43 without changing its stable ID. No external catalog evidence was used to alter canonical Tamil or scene boundaries.
+
+## Song/performance gate
+
+The booklet contains eight inventoried song, singing or chant occurrences. Three named-song occurrences have item-level authorship evidence: `பாண்டியன் என் சொல்லை` is mapped to **பாரதிதாசன்**, while the `கலப்படம்` occurrence and its reprise are mapped to **கண்ணதாசன்**. Five occurrences remain unresolved because the booklet does not print enough identifying text or item-level credit to establish authorship safely.
+
+No complete lyric body for either named soundtrack song is printed in this booklet. Therefore **zero Tamil lyric-derivative files is the correct completed state**. Lyrics are not imported from catalog metadata, recordings, websites, streaming services, later editions or another song booklet. Reopen this track only if a new controlling source supplies printed lyrics or explicit item-level credits.
 
 ## Publication package
 
@@ -89,14 +100,14 @@ See `editions/en/QA_REPORT.md` and `editions/en/EPUB_QA_REPORT.md` for the gener
 - `scenes/` — scene derivatives
 - `dialogues/` — immutable labelled-dialogue records
 - `characters/` — exact-label inventory and entity mapping
-- `songs/` — song/performance occurrence and authorship evidence
+- `songs/` — corrected-source song/performance occurrence inventory and authorship evidence
 - `translations/` — corrected source-linked English records
 - `editions/en/` — deterministic reader and EPUB derivatives
 - `notes/md-reconciliation-audit.md` — source-critical reconciliation and closure ledger
 - `metadata.yaml` — machine-readable work status
 
-## Remaining separate work
+## Closure
 
-The source, structured, English and publication layers described above are closed. `song_tamil_derivatives` remains a separate **not-started** derivative track; the existing song-authorship evidence remains historical-complete at **8 occurrences dispositioned / 3 verified / 5 unresolved** and must not be expanded from outside material as though it were printed in this booklet.
+There is no remaining source-authorized Tirumbippaar derivative work in the current repository plan. The five unresolved song/chant authorship occurrences are **evidence-limited unresolved states, not pending guesses**. A future activity should reopen this work only when a new controlling source or explicit new publication/integration requirement is supplied.
 
 Future Reading Room or website integration should consume the verified structured repository data and must not alter canonical Tamil, exact speaker labels, stable IDs, page provenance or verified English text.
