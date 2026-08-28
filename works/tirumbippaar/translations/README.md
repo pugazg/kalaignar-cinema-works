@@ -30,24 +30,25 @@ The historical English pass had been recorded as **93 scenes / 1,321 verified un
 
 ## Current corrected-source reconciliation
 
-The ordinary 10-scene pass is now complete through **scene 51**. Scenes **1–51** are therefore contiguous `corrected-source-reconciled` coverage.
+The ordinary 10-scene pass is now complete through **scene 61**. Scenes **1–61** are therefore contiguous `corrected-source-reconciled` coverage.
 
-### Scenes 42–51 — latest 10-scene iteration
+### Scenes 52–61 — latest 10-scene iteration
 
 Representative repairs include:
 
-- **Scenes 42–43:** the written-song performance and printed `“கலப்படம் கலப்படம்”` refrain are restored to scene 43, where the corrected source places them. Scene 42 now contains only its own source-visible material. No absent lyrics are reconstructed.
-- **Scene 44:** `மந்தி` is restored as **monkey**, not the historical “minister”; `புகழ் தேடும் பூனைகள்` is restored as **cats seeking fame**, not cats in invented tiger skins. The source-unlabelled continuation remains unlabelled.
-- **Scene 45:** exact `உஷா` metadata is restored; `சமதர்மம். சமத்துவம்.` is retained as **“Egalitarianism. Equality.”**; the `மஞ்சம் / பஞ்சம் / லஞ்சம்` rhetoric preserves the owner-on-bed / toiler-in-famine contrast and **swimming in bribes**; `கைகால் அசையாது` restores both hands and legs.
-- **Scenes 46–47:** the revolver action is removed from the end of scene 46 and restored at the beginning of scene 47 as new unit `tirumbippaar-en-s047-u023`. Exact `பூமாலை` metadata is restored, and the flower-grove image no longer invents a cuckoo.
-- **Scene 48:** exact `புண்யகோடி` metadata is restored, `மேஸ்திரி` is translated as **foreman**, and `நான் சங்கத்துப் பக்கம் போய்ட்டு வர்றேன்` retains the movement/future-return sense.
-- **Scene 49:** exact `புண்யகோடி` metadata is restored; the direction indicates Radha; the source asks for **tea or coffee**; `பாடுமா?` is **“Can she sing?”**; and the cuckoo comparison is translated without inventing Kumudha.
-- **Scene 50:** corrected-source comparison found no material English wording change; its status has been advanced without gratuitous rewriting.
-- **Scene 51:** the complete labelled `tirumbippaar-s051-d001` utterance is consolidated into historical `u001`, including its internal directions and spoken continuation. Historical false split units `u002` and `u003` are removed. The difficult `சராசரங்கள்...` phrase is translated conservatively rather than completed from guesswork.
+- **Scene 52:** exact `புண்யகோடி` metadata is restored. `நாணயமான` is corrected from the false “motherly man” reading to an upright/honest leader; Pandiyan is restored as `பெரிய பகுத்தறிவுவாதி / இலட்சிய வீரன் / உண்மைத் தொண்டன்`; the social-reform list is translated from the actual source; and the rain joke now correctly says even rain making the town prosper would be rejected if cinema were to disappear.
+- **Scene 53:** `புஸ் வாணங்கள்` is corrected from the invented “trailing tiger's tail” metaphor to **dud fireworks**; the diamond/necklace wording is also brought back to the printed source.
+- **Scene 54:** corrected-source comparison found no material wording change; the newspaper block is retained and its reconciliation status is advanced.
+- **Scene 55:** exact `பூமாலை` metadata is restored; `கூடாதென்றா சொல்கிறேன்` is correctly a question rather than a prohibition; `உற்றார் உறவினர்` is restored as kith and kin; Paranthaman's `என்னை ஒருபோதும் காட்டிக் கொடுக்க மாட்டாயே` is restored as a direct appeal to Poomaalai; and the source-visible final `(பூமாலை போகிறாள்)` action is added as `tirumbippaar-en-s055-u016`.
+- **Scene 56:** exact `உஷா` metadata is restored; Paranthaman's first address to Usha is repaired; `அராஜகத்திற்கு ஆரம்பவிழா` is restored as an inaugural ceremony for lawlessness; and the false historical claim that friends had informed him where the necklace was is removed. The source instead has him infer that the stolen necklace must be in Pandiyan's house and urge an immediate police search.
+- **Scene 57:** exact `பூமாலை` metadata is restored; Poomaalai's `உண்மையைச் சொன்னா கோபமா?` is corrected; `எய்ட் செவன் சிக்ஸ்` is retained without inventing a different code; and the jeep-stage direction now correctly shows Poomaalai catching and embracing Kumudha as she runs after Pandiyan crying.
+- **Scene 58:** corrected-source comparison found no material wording change.
+- **Scenes 59–60:** the now-clear `எனக்கும் விடுதலையில்லாமலா போய்விடப் போகிறது` is translated rather than marked corrupt. The unsupported historical `(Kumudha leaves.)` unit is removed from scene 59 and restored at the source-proven beginning of scene 60 as new `tirumbippaar-en-s060-u016`. Scene 60 also restores exact `பூமாலை`, the sibling-affection comparison in `சகோதர வாஞ்சை`, and the direction of `முன்பே சொன்னாயே; காட்டிக் கொடு என்று`.
+- **Scene 61:** the unsupported historical `(Kumudha sobs.)` unit is removed. The corrected scene ends with the manager's order; the next scene separately begins with `(குமுதா நகருதல்)` and will be handled in the following batch.
 
-No historical dialogue-linked unit IDs were renumbered in this batch. The scene-42→43 song boundary and scene-46→47 revolver boundary are source-location corrections; scene 51 removes a false split rather than deleting source speech.
+No historical dialogue-linked unit IDs were renumbered in this batch. Source-proven new stage units use new IDs, while unsupported historical stage units are removed only where the corrected source proves they do not belong or places the action in a neighboring scene.
 
-The live English layer now contains **1,324 units**:
+The live English layer remains at **1,324 units**:
 
 - **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
 - **256 stage-direction units**;
@@ -56,7 +57,7 @@ The live English layer now contains **1,324 units**:
 - **10 written-text units**;
 - **0 reconstructed full-song units**.
 
-All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–51** are source-reconciled; scenes 52–93 still require corrected-source comparison.
+All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–61** are source-reconciled; scenes 62–93 still require corrected-source comparison.
 
 ## Cross-page English units
 
@@ -99,4 +100,4 @@ Seven translated song references remain linked to source occurrences `tirumbippa
 
 ## Next activity
 
-Continue the ordinary corrected-source English pass with **scenes 52–61 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
+Continue the ordinary corrected-source English pass with **scenes 62–71 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
