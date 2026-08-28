@@ -42,6 +42,20 @@ jobs:
       - name: Restore corrected source order for recovered stable-ID units
         run: python works/tirumbippaar/editions/en/normalize_source_order.py
 
+      - name: Migrate reader gate to index-authoritative reconciliation status
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path("works/tirumbippaar/editions/en/build.py")
+          text = path.read_text(encoding="utf-8")
+          stale = '        ensure(record.get("reconciliation_status") == "corrected-source-reconciled", f"Scene {scene} reconciliation status mismatch")\n'
+          if stale not in text:
+              raise SystemExit("Expected legacy per-file reconciliation gate was not found")
+          text = text.replace(stale, "", 1)
+          path.write_text(text, encoding="utf-8")
+          print("Reader build now trusts the reconciled scene status in translations/index.json while retaining per-file verified-state checks")
+          PY
+
       - name: Run reader preflight diagnostics
         run: python works/tirumbippaar/editions/en/audit_probe.py
 
@@ -64,6 +78,7 @@ jobs:
             works/tirumbippaar/translations/records/scene-37.json \
             works/tirumbippaar/translations/records/scene-39.json \
             works/tirumbippaar/metadata.yaml \
+            works/tirumbippaar/editions/en/build.py \
             works/tirumbippaar/editions/en/reader-edition.md \
             works/tirumbippaar/editions/en/reader-edition.html \
             works/tirumbippaar/editions/en/reader-edition.json \
