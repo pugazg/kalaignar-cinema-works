@@ -37,9 +37,9 @@
       "catalog_track": 6,
       "catalog_title": "Kalappadam",
       "lyricist_ta": "கண்ணதாசன்",
-      "match_basis": "Exact named-song title correspondence after transliteration; scene 42 prints `கலப்படம் கலப்படம்` and scene 43 explicitly calls it the `கலப்படம்` song."
+      "match_basis": "Exact named-song title correspondence after transliteration; corrected scene 43 first prints `கலப்படம் கலப்படம்` as Pandiyan sings what he wrote and then explicitly describes the office-boy reprise of the same `கலப்படம்` song."
     }
   ],
   "mapping_rule": "The catalog's other seven tracks are not assigned to the booklet's unnamed singing references merely because they occur in the same film. Only source-named candidates with an exact title match are mapped here.",
-  "canonical_text_rule": "External track metadata supplies authorship only. Lyrics, wording, spelling and source structure remain controlled exclusively by the verified booklet scan."
+  "canonical_text_rule": "External track metadata supplies authorship only. Lyrics, wording, spelling, scene boundaries and source structure remain controlled exclusively by the verified booklet scan and corrected canonical derivatives."
 }
