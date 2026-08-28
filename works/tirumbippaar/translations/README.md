@@ -30,32 +30,33 @@ The historical English pass had been recorded as **93 scenes / 1,321 verified un
 
 ## Current corrected-source reconciliation
 
-The ordinary 10-scene pass is now complete through **scene 71**. Scenes **1–71** are contiguous `corrected-source-reconciled` coverage.
+The ordinary 10-scene pass is now complete through **scene 81**. Scenes **1–81** are contiguous `corrected-source-reconciled` coverage.
 
-### Scenes 62–71 — latest 10-scene iteration
+### Scenes 72–81 — latest 10-scene iteration
 
-- **Scene 62:** restores the source-visible opening `(குமுதா நகருதல்)` as new `tirumbippaar-en-s062-u005`, exact `அம்மாமி` metadata, the omitted `கர்ப்ப ஸ்திரியை` pregnancy clause, and the explicit reference to nine daughters.
-- **Scene 63:** restores exact `புண்யகோடி`, preserves the unfinished `என்ன, உங்களைத்தானே...` without guessed completion, and repairs Garudan's final single printed utterance while retaining the deliberate stable `d020`/`d021` split. The old invented telephone-call reading is removed.
-- **Scenes 64–65:** corrected-source comparison found no material English wording change; both are advanced to `corrected-source-reconciled` without gratuitous rewriting.
-- **Scene 66:** restores exact `புண்யகோடி` and removes the invented **Socrates** reference. `சாக்ஷாத் புரட்சி அவதாரம்` is rendered as the **very embodiment of revolution**.
-- **Scene 67:** restores exact `புண்யகோடி`; Radha's source-printed dots remain dots rather than an invented vocalization; `சாப்ட்டு படுக்கணும்` restores the eat-and-go-to-bed meaning; and the gramophone/window directions follow the corrected source.
-- **Scene 68:** corrected-source comparison found no material wording change.
-- **Scene 69:** restores exact `புண்யகோடி`, corrects the stage action from Paranthaman covering Radha's cheek to covering her **eyes**, and retains the source's Indra–Gautama satire and arrest sequence without modernization.
-- **Scene 70:** restores Punyakodi naming in the English text and the source `அய்யோ` exclamation.
-- **Scene 71:** corrected-source comparison found no material wording change.
+- **Scene 72:** removes the false historical distinction between `அழித்தெழுதாச்` and `அழுத்தெழுதாச்`. The corrected source prints `அழித்தெழுதாச் சித்திரமே` in both linked utterances. The unclear colloquial opening before the one-rupee action is translated conservatively rather than expanded into an unsupported instruction about taking money.
+- **Scene 73:** corrected-source comparison found no material English wording change.
+- **Scene 74:** the court plea preserves the request for a warning and forgiveness without making the repeated `மன்னிப்புக் கேட்டுக்கொள்கிறேன்` sound like three separate forgiveness requests.
+- **Scene 75:** removes the unsupported addition of “confession” from `பாவ மன்னிப்புப் படலம்`; the source says a chapter/episode of pardon for sins.
+- **Scene 76:** restores exact `புண்யகோடி` and `பூமாலை`; gives the duplicated `என்னய்யா ஒதற்றே` one consistent rendering; restores the livelihood sense of the source dirt/food imagery; and leaves the unusual `நிழல் மாடு` conservative rather than guessing a normalization. The genuine PDF 91→92 dialogue remains one English unit.
+- **Scene 77:** restores exact `பூமாலை` and `உஷா`; preserves the unfinished `அவர்களை மறுபடியும்...` without supplying a missing action; renders `பிராயச்சித்தம்` as **atonement**; and restores the past-tense sense that the workers had worked for the mill owner.
+- **Scene 78:** corrected-source comparison found no material English wording change.
+- **Scene 79:** retains exact source speaker metadata `அவன் குரல்` rather than normalizing it to Pandiyan and corrects Poomaalai's English name.
+- **Scene 80:** restores exact `பூமாலை` and `உஷா`; corrects the stage action so Poomaalai **jumps up** rather than snores; restores `சூதும், சூழ்ச்சியும் சுகபோக வெறியும்` as deceit, intrigue and a frenzy for sensual pleasure; restores `பயங்கர மிருகமே` as **terrifying beast**; and keeps the difficult `அந்தியின் மொத்த வியாபாரியே` phrase explicitly unresolved rather than inventing a reading. The PDF 96→97 and 97→98 cross-page units remain intact.
+- **Scene 81:** restores the source-visible final `(ஓடுகிறான்)` as new `tirumbippaar-en-s081-u006` — `(He runs.)` — without renumbering any historical unit IDs.
 
-No historical dialogue-linked unit IDs were renumbered. The only net unit-count change in this batch is scene 62's source-proven opening stage direction.
+No historical dialogue-linked unit IDs were renumbered in this batch. The only net unit-count change is the source-proven final scene-81 stage direction.
 
-The live English layer now contains **1,325 units**:
+The live English layer now contains **1,326 units**:
 
 - **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
-- **257 stage-direction units**;
+- **258 stage-direction units**;
 - **7 song-reference units**;
 - **2 chant units**;
 - **10 written-text units**;
 - **0 reconstructed full-song units**.
 
-All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–71** are source-reconciled; scenes **72–93** still require corrected-source comparison.
+All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–81** are source-reconciled; scenes **82–93** still require corrected-source comparison.
 
 ## Cross-page English units
 
@@ -98,4 +99,4 @@ Seven translated song references remain linked to source occurrences `tirumbippa
 
 ## Next activity
 
-Continue the ordinary corrected-source English pass with **scenes 72–81 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
+Continue the ordinary corrected-source English pass with **scenes 82–91 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
