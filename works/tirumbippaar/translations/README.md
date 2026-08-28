@@ -30,33 +30,35 @@ The historical English pass had been recorded as **93 scenes / 1,321 verified un
 
 ## Current corrected-source reconciliation
 
-The ordinary 10-scene pass is now complete through **scene 81**. Scenes **1–81** are contiguous `corrected-source-reconciled` coverage.
+The ordinary source-order pass is now complete through **scene 91**. Scenes **1–91** are contiguous `corrected-source-reconciled` coverage.
 
-### Scenes 72–81 — latest 10-scene iteration
+### Scenes 82–91 — latest 10-scene iteration
 
-- **Scene 72:** removes the false historical distinction between `அழித்தெழுதாச்` and `அழுத்தெழுதாச்`. The corrected source prints `அழித்தெழுதாச் சித்திரமே` in both linked utterances. The unclear colloquial opening before the one-rupee action is translated conservatively rather than expanded into an unsupported instruction about taking money.
-- **Scene 73:** corrected-source comparison found no material English wording change.
-- **Scene 74:** the court plea preserves the request for a warning and forgiveness without making the repeated `மன்னிப்புக் கேட்டுக்கொள்கிறேன்` sound like three separate forgiveness requests.
-- **Scene 75:** removes the unsupported addition of “confession” from `பாவ மன்னிப்புப் படலம்`; the source says a chapter/episode of pardon for sins.
-- **Scene 76:** restores exact `புண்யகோடி` and `பூமாலை`; gives the duplicated `என்னய்யா ஒதற்றே` one consistent rendering; restores the livelihood sense of the source dirt/food imagery; and leaves the unusual `நிழல் மாடு` conservative rather than guessing a normalization. The genuine PDF 91→92 dialogue remains one English unit.
-- **Scene 77:** restores exact `பூமாலை` and `உஷா`; preserves the unfinished `அவர்களை மறுபடியும்...` without supplying a missing action; renders `பிராயச்சித்தம்` as **atonement**; and restores the past-tense sense that the workers had worked for the mill owner.
-- **Scene 78:** corrected-source comparison found no material English wording change.
-- **Scene 79:** retains exact source speaker metadata `அவன் குரல்` rather than normalizing it to Pandiyan and corrects Poomaalai's English name.
-- **Scene 80:** restores exact `பூமாலை` and `உஷா`; corrects the stage action so Poomaalai **jumps up** rather than snores; restores `சூதும், சூழ்ச்சியும் சுகபோக வெறியும்` as deceit, intrigue and a frenzy for sensual pleasure; restores `பயங்கர மிருகமே` as **terrifying beast**; and keeps the difficult `அந்தியின் மொத்த வியாபாரியே` phrase explicitly unresolved rather than inventing a reading. The PDF 96→97 and 97→98 cross-page units remain intact.
-- **Scene 81:** restores the source-visible final `(ஓடுகிறான்)` as new `tirumbippaar-en-s081-u006` — `(He runs.)` — without renumbering any historical unit IDs.
+- **Scene 82:** corrects the source phrase to `பண்பு கெட்ட வீணனே` in the note and restores `(பையன் எழுத)` as **the boy writes**, replacing the historical invented action that he gets up.
+- **Scene 83:** preserves the source's **சென்னை / Chennai** rather than substituting Madras, corrects the boy's `ஏங்க...` from “Where...” to a contextual “Why, sir...”, and renders `மறுமலர்ச்சி` as revival. The genuine PDF 100→101 written appeal remains one cross-page unit.
+- **Scene 84:** restores **Chennai**, separates Pandiyan's `ம்...` from the following printed `(வாங்கிக்கொண்டு போகிறான்)`, and adds that source-proven final action as new `tirumbippaar-en-s084-u008` without renumbering historical IDs.
+- **Scene 85:** restores **Chennai** in the visible address and fixes the order and repetition of Pandiyan's discovery: `என் குமுதா அகப்பட்டுவிட்டாள் !` precedes the four printed `குமுதா!` cries.
+- **Scene 86:** restores exact `புண்யகோடி` metadata and **Punyakodi** naming throughout the scene while preserving the collective `சாம்ப சதாசிவம்` begging chant as a chant rather than inventing an individual speaker.
+- **Scene 87:** restores exact `பூமாலை` / **Poomaalai** and removes the invented “All right...” response: the corrected source prints only `...` for Gundumani.
+- **Scene 88:** fixes the telegram pronoun: `தந்தி கொடுத்திருக்கிறாள்` is **“She's sent a telegram”**, not “He's sent a telegram.”
+- **Scene 89:** restores exact `பூமாலை` and corrects the source-context telegram reference to **“the telegram she sent.”**
+- **Scene 90:** restores exact `பூமாலை` / **Poomaalai**; restores Bama's `குமுதாவுக்கு வலைவீச` metaphor as **casting a net for Kumudha**; corrects Paranthaman's speech so **Poomaalai had already killed the old Paranthaman** rather than an invented third-person “they”; restores `அவசரப்பட்டு அறிவிழந்தேன்`; and adds the source-visible final `(பரந்தாமன் சாதல்)` as new `tirumbippaar-en-s090-u039`.
+- **Scene 91:** restores exact `உஷா`, **Poomaalai**, and the correct PDF 110 provenance for `ஆங்!`; the newspaper heading historically attached to this scene is removed because the corrected Tamil places it at the opening of scene 92.
 
-No historical dialogue-linked unit IDs were renumbered in this batch. The only net unit-count change is the source-proven final scene-81 stage direction.
+A necessary boundary spillover was made into **scene 92**: the source-visible `பத்திரிகை News / (அக்காள் தம்பியைக் கொன்றாள்)` block is now represented there as new `tirumbippaar-en-s092-u003`. Scene 92 is **not yet marked source-reconciled**; it remains part of the final 92–93 pass.
 
-The live English layer now contains **1,326 units**:
+No historical surviving translation-unit IDs were renumbered. Scene 84 and scene 90 each gain one source-proven stage-direction unit; the scene-91 newspaper unit is removed from the wrong scene and recreated under scene 92, so that boundary repair is unit-count neutral.
+
+The live English layer now contains **1,328 units**:
 
 - **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
-- **258 stage-direction units**;
+- **260 stage-direction units**;
 - **7 song-reference units**;
 - **2 chant units**;
 - **10 written-text units**;
 - **0 reconstructed full-song units**.
 
-All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–81** are source-reconciled; scenes **82–93** still require corrected-source comparison.
+All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–91** are source-reconciled; scenes **92–93** still require their final corrected-source comparison.
 
 ## Cross-page English units
 
@@ -99,4 +101,4 @@ Seven translated song references remain linked to source occurrences `tirumbippa
 
 ## Next activity
 
-Continue the ordinary corrected-source English pass with **scenes 82–91 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
+Complete the corrected-source English pass with **scenes 92–93 as the final two-scene iteration**. Reconcile both against the corrected Tamil scene/dialogue layer, preserve surviving historical unit IDs, retain the scene-92 newspaper boundary repaired in this batch, add only source-proven omitted material, and then run a whole-English-layer integrity audit before any reader/export/EPUB regeneration.
