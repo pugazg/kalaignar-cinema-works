@@ -1,148 +1,152 @@
 # திரும்பிப்பார்! — corrected Markdown reconciliation audit
 
-Status: **canonical, scene/dialogue, character/entity and English source reconciliation complete; publication derivatives pending deterministic rebuild/revalidation**
+Status: **complete — canonical Tamil, scene/dialogue, character/entity, English source reconciliation and deterministic publication derivatives verified**
 
-Date opened: 2026-08-26
+Date opened: 2026-08-26  
+Publication closure: 2026-08-28
 
-## Correction witness and authority
+## Authority
 
-The user supplied `thirumbipaar.md` as a corrected transcription specifically to repair OCR / old-Tamil-glyph errors remaining in the repository transcription.
+The user supplied `thirumbipaar.md` as a corrected transcription to repair OCR / old-Tamil-glyph errors remaining in the earlier repository text.
 
-For this reconciliation pass:
+Authority order for this pass:
 
-1. `thirumbipaar.md` is the **primary correction baseline**.
-2. `TVA_BOK_0014652_திரும்பிப்பார்.pdf` is the **final visual authority** when the Markdown is doubtful, appears to contain an extraction artefact, or visibly omits printed material.
-3. Earlier repository `verified` labels are historical workflow state, not proof that the Tamil reading was correct.
-4. Printed spelling, punctuation, labels, old forms, anomalies and physical page provenance are not silently modernized.
-5. Existing immutable dialogue IDs are preserved unless the source proves an omitted labelled utterance.
+1. `thirumbipaar.md` is the primary correction baseline.
+2. `TVA_BOK_0014652_திரும்பிப்பார்.pdf` is final visual authority for doubt, conflicts, extraction artefacts, punctuation, headings, physical page structure and visibly omitted material.
+3. Earlier repository `verified` labels are historical workflow state, not textual proof.
+4. Printed spelling, punctuation, labels, old forms, anomalies and page provenance are not silently modernized.
+5. Existing immutable dialogue and English unit IDs remain stable unless the source proves omitted material.
 
-The systematic error that triggered this pass included forms such as repository `பூமால்` where the corrected/source reading is `பூமாலை`, and repository `இல்ல` where the corrected/source reading is `இல்லை`.
+The supplied corrected Markdown covers all **104 Play Pages**, matching PDF **9–112 / printed pp.1–104**.
 
-## Input coverage
-
-The supplied corrected Markdown contains all **104 Play Pages**, matching PDF **9–112 / printed pp.1–104**. Extraction-review commentary embedded between its batches is not edition text and was excluded.
-
-## Completion table
+## Canonical and scene/dialogue closure
 
 | Range | Canonical Tamil | Scene/dialogue derivatives | Status |
 |---|---|---|---|
 | PDF 9–13 / pp.1–5 | reconciled | scenes 1–4 reconciled | complete |
 | PDF 14–35 / pp.6–27 | reconciled | scenes 5–29 reconciled | complete |
 | PDF 36–63 / pp.28–55 | reconciled | scene 29 continuation + scenes 30–48 reconciled | complete |
-| PDF 64–91 / pp.56–83 | reconciled, scan micro-cleanup applied, final three-string canonical sync complete | scenes 49–75 reconciled; scene 76 begins on p.83 and crosses into Part 05 | complete |
-| PDF 92–112 / pp.84–104 | reconciled and final PDF-112 scan omission restored | scenes 76–93 and all dialogue shards reconciled | complete |
+| PDF 64–91 / pp.56–83 | reconciled; scan micro-cleanup and final three-string sync applied | scenes 49–75 plus scene-76 start reconciled | complete |
+| PDF 92–112 / pp.84–104 | reconciled; final PDF-112 omission restored | scenes 76–93 reconciled | complete |
 
-## Scene 41 recovered records
-
-The corrected source proved that the old dialogue extraction omitted two explicitly labelled utterances. They were added without renumbering any prior ID:
+Scene 41's corrected source proved that two explicitly labelled utterances were absent from the historical extraction. They were added without renumbering prior IDs:
 
 - `tirumbippaar-s041-d037` — `பூமாலை`
 - `tirumbippaar-s041-d038` — `பரந்தாமன்`
 
-Existing `tirumbippaar-s041-d034` retained its ID and genuine PDF 56→57 / printed 48→49 cross-page provenance.
+Final scene-41 labelled-dialogue count: **38**. Final whole-work immutable labelled-dialogue count: **1,042**.
 
-Therefore:
+Scene 43 remains a legitimate zero-dialogue source scene. Genuine cross-page dialogue remains unsplit. Unlabelled source speech remains unlabelled.
 
-- scene 41 dialogue count = **38**
-- whole-work immutable labelled-dialogue total = **1,042**
-- no existing dialogue IDs were renumbered.
+## Part04 closure
 
-## Structural findings retained
+Scan adjudications retained include:
 
-- Scene 42 and scene 43 remain separate source-supported segments.
-- Scene 43 is legitimately **zero-dialogue**; its `கலப்படம்` performance/non-dialogue material remains in scene 43.
-- Unlabelled source speech in scenes such as 34 and 44 was not assigned an invented speaker.
-- Genuine cross-page dialogue records retain page provenance instead of being split or silently flattened.
+- scene 49 / PDF 65 — full `குயில் பாடுதுங்கிறான்`;
+- scene 69 / PDF 85 — clock `12½`;
+- scene 72 / PDF 88 — Paranthaman continuation, `(திரையில் குரல்)`, then labelled `குரல்:` in printed order;
+- scene 63 — genuine PDF 79→80 continuation.
 
-## Part 04 scan adjudications and canonical synchronization
-
-Part 04 / PDF 64–91 / printed pp.56–83 is closed at canonical and scene/dialogue layers. Scan-adjudicated cleanup includes:
-
-- scene 49 / PDF 65: full `குயில் பாடுதுங்கிறான்` reading;
-- scene 69 / PDF 85: clock preserved as `12½`;
-- scene 72 / PDF 88: Paranthaman continuation, `(திரையில் குரல்)`, and the labelled `குரல்:` performance restored in printed order.
-
-Scenes 49–75 were propagated with stable IDs and page provenance. Scene 63 retains the genuine PDF 79→80 cross-page `கொஞ்சங்-` / `கொஞ்சமா` record.
-
-The final whole-layer closure audit also rechecked three previously flagged micro-regressions. Their scene/dialogue derivatives were already correct, but the upstream Part04 canonical batch had retained stale forms. `transcription/parts/part-04-pdf-64-91.md` has now been synchronized exactly as follows:
+The final closure audit synchronized three stale upstream Part04 strings with their already-correct scene/dialogue derivatives:
 
 - `இதெல்லாம் சினிமா. ஈ. எப்ப ஒழியுமோ` → `இதெல்லாம் சினிமா. எப்ப ஒழியுமோ`
 - `ஏல்லாம் உன் தம்பியின்` → `எல்லாம் உன் தம்பியின்`
 - `[புண்ணகோடி கதவைத் தட்டல்]` → `[புண்யகோடி கதவைத் தட்டல்]`
 
-These are source-layer synchronization fixes only. They do **not** alter scene numbering, dialogue IDs, dialogue counts, character mappings or English unit IDs.
+No stable IDs or counts changed as a result.
 
-## Part 05 closure
+## Part05 closure
 
-Canonical Part 05 / PDF 92–112 / printed pp.84–104 was rebuilt from the corrected Markdown witness and reconciled through scene 93.
+PDF **92–112 / printed pp.84–104** is reconciled through scene 93. Representative repairs include exact `பூமாலை`, `புண்யகோடி`, `குண்டுமணி` and `உஷா` forms; scene 88's `தந்தி கொடுத்திருக்கிறாள்`; the scene-90 ending sequence; scene-91 source order; scene-92 newspaper lead-in; and scene-93 closing speech through `வணக்கம்.`.
 
-Important repairs include:
+Direct scan inspection of PDF 112 also recovered a final non-dialogue departure direction omitted from the Markdown witness. It is retained in both `scenes/scene-93.md` and canonical `transcription/parts/part-05-pdf-92-112.md` immediately before `வணக்கம்.`.
 
-- exact labels corrected from old derivative forms such as `பூமால்` / `ஊஷா` to `பூமாலை` / `உஷா`;
-- scene 87 retains the explicitly labelled `குண்டுமணி : ...` utterance under its existing stable record ID;
-- scene 88 restores `தந்தி கொடுத்திருக்கிறாள்` and keeps its following labelled Paranthaman continuation together;
-- scene 90 restores the corrected Bama/Paranthaman/Poomalai ending sequence across PDF 106–109 without changing IDs;
-- scene 91 restores source order around `முதலாளி: பாண்டியன்!` and `(பாண்டியன் பிரவேசம்)`;
-- scene 92 preserves its newspaper lead-in before the court material;
-- scene 93 restores corrected `பூமாலை` text through `வணக்கம்.`.
+## Character/entity closure
 
-Direct inspection of PDF 112 / printed p.104 also showed a final non-dialogue departure direction omitted by the Markdown witness. That scan-visible line is now retained in both `scenes/scene-93.md` and canonical `transcription/parts/part-05-pdf-92-112.md` immediately before `வணக்கம்.`.
+The character layer was regenerated after the immutable dialogue corpus stabilized at **1,042** records.
 
-## Character/entity regeneration
+Final totals:
 
-The historical character layer had been built against the pre-correction **1,040-record** dialogue set. After the Tamil layer stabilized at **1,042 records**, the character layer was regenerated without rewriting dialogue text or changing stable entity IDs where identity continuity remained valid.
-
-Reconciled character-layer totals:
-
-- dialogue records scanned: **1,042**
 - scenes scanned: **93**
-- distinct exact speaker labels: **45**
-- stable entities / role categories: **39**
-- verified labels: **45 / 45**
-- verified entities: **39 / 39**
-- review / unresolved labels or entities: **0**
+- dialogue records scanned: **1,042**
+- distinct exact source labels: **45**
+- stable entities / roles: **39**
+- verified labels: **45/45**
+- verified entities: **39/39**
+- review / unresolved: **0**
 
-Exact-label changes reflected in the regenerated inventory include `பூமாலை`, `புண்யகோடி`, `குண்டுமணி`, `உஷா`, `சமையல்காரன்`, `அம்மாமி`, and the two printed spacing variants `சப்- இன்ஸ்பெக்டர்` / `சப் - இன்ஸ்பெக்டர்`.
-
-The former `குணமணி` inventory form is no longer retained as a valid exact source label; corrected dialogue evidence resolves it to `குண்டுமணி`. The two sub-inspector spacing forms remain separate exact source labels but map to one unnamed sub-inspector role.
+Exact-label handling retains corrected forms such as `பூமாலை`, `புண்யகோடி`, `குண்டுமணி`, `உஷா`, `சமையல்காரன்`, `அம்மாமி`, and both printed sub-inspector spacing forms `சப்- இன்ஸ்பெக்டர்` / `சப் - இன்ஸ்பெக்டர்`.
 
 ## English source-reconciliation closure
 
-The English translation layer has now been reconciled against the corrected Tamil source for **all 93 scenes**.
+All **93 scenes** are corrected-source reconciled in English.
 
-Current English totals:
+Final English totals:
 
-- verified translation units: **1,330**
-- dialogue-kind units: **1,049** = 1,042 labelled dialogue links + 7 deliberately unlabelled source-spoken units
-- stage-direction units: **262**
-- song-reference units: **7**
-- chant units: **2**
-- written-text units: **10**
-- reconstructed full-song units: **0**
-- source-labelled dialogue IDs linked: **1,042 / 1,042**
+- verified units: **1,330**
+- dialogue-kind: **1,049** = 1,042 labelled dialogue links + 7 deliberately unlabelled source-spoken units
+- stage directions: **262**
+- song references: **7**
+- chants: **2**
+- written text: **10**
+- reconstructed full songs: **0**
+- labelled dialogue links: **1,042/1,042**
+- genuine cross-page English units: **12**
 
-Historical surviving English unit IDs were preserved. New IDs were introduced only for source-proven omitted units, including recovered settings/actions; unsupported historical units were removed only where the corrected source proved that they did not belong. The scene 91→92 newspaper-heading boundary and the source-visible Court/Jail settings in scenes 92–93 are now represented at their correct source locations.
+Historical surviving English unit IDs were preserved. Source-proven recovered settings/actions were added without renumbering surviving IDs.
 
-## Current synchronization boundary
+## Publication rebuild audit
 
-- **Corrected canonical coverage:** PDF **9–112 / printed pp.1–104** — all five parts.
-- **Canonical source layer:** **scan-closed and Part04 micro-sync complete**.
-- **Scene/dialogue corrected reconciliation:** **complete through scene 93 / end of work**.
-- **Immutable labelled-dialogue total:** **1,042**.
-- **Character/entity layer:** **complete-verified-reconciled — 45 labels / 39 entities**.
-- **English source-linked translation layer:** **complete — 93 / 93 scenes, 1,330 verified units, 1,042 / 1,042 labelled links**.
-- **Existing stable dialogue IDs:** preserved throughout, apart from the two source-proven omitted scene-41 additions described above.
+The deterministic publication rebuild exposed downstream metadata defects that the source reconciliation itself had not invalidated. Each was repaired without changing canonical Tamil or stable unit identity:
 
-## Remaining downstream work
+- malformed JSON in translation scenes **63** and **67** was repaired;
+- recovered carry-over stage directions in scenes **37** and **39** were restored to true source order while retaining their high stable IDs;
+- exact linked speaker metadata was synchronized from immutable dialogue records, including sub-inspector spacing variants;
+- stale English page provenance was source-adjudicated and corrected in scene **66**, scene **77**, and scene **82**;
+- publication tooling was updated from the historical **1,321-unit / 1,040-link** checkpoint to the current **1,330-unit / 1,042-link** checkpoint.
 
-The source-linked layers are now synchronized. The historical publication derivatives under `editions/en/` — Markdown reader, standalone HTML, machine-readable JSON, QA reports, manifests and EPUB package — must now be regenerated deterministically from the corrected English layer and revalidated. Until that workflow passes, those generated files should not be treated as the current publication release.
+The final preflight reported:
 
-## Next execution order
+- actual units: **1,330**
+- page regressions: **0**
+- duplicate English unit IDs: **0**
+- dialogue links: **1,042 unique / 1,042 immutable**
+- missing links: **0**
+- extra links: **0**
 
-1. Run the deterministic Tirumbippaar English publication workflow.
-2. Require reader QA to pass against all **93 scenes / 1,330 verified units / 1,042 labelled links**.
-3. Rebuild and validate the deterministic EPUB package.
-4. Synchronize work metadata from the validated publication outputs.
-5. Restore final archive-wide publication status only after the generated artifacts and manifests reproduce successfully.
+The reader build then passed:
 
-The old `104 verified / 0 review` statement remains historical audit status only; the corrected source, regenerated character layer and fully reconciled English layer supersede it for current textual correctness.
+- **93 scenes**
+- **1,330 verified units**
+- **1,042 dialogue links**
+- **12 cross-page units**
+- QA: **PASS**
+
+The deterministic EPUB 3 build also passed:
+
+- scenes: **93**
+- units: **1,330**
+- scene XHTML documents: **93**
+- ZIP members: **99**
+- bytes: **370,218**
+- SHA-256: `88bf02ac345926d02a3b6e25ea262c3f6aafe59383a620b2bb160cdd3fabbb31`
+- QA: **PASS**
+
+The generated release was committed by GitHub Actions as **`55bb983eb2959190f025250099793ab5efce2b9f`**.
+
+## Final synchronization boundary
+
+- canonical Tamil: **scan-closed, PDF 9–112 / pp.1–104**
+- scenes: **93/93 complete-verified-reconciled**
+- immutable labelled-dialogue corpus: **1,042**
+- character/entity layer: **45 labels / 39 entities / 0 unresolved**
+- English translation: **93/93 scenes / 1,330 verified units / 1,042/1,042 labelled links**
+- reader Markdown/HTML/JSON: **complete-verified, QA PASS**
+- EPUB 3 package: **complete-verified, QA PASS**
+- work metadata: **synchronized to the validated release**
+
+The old **104 verified / 0 review** first-pass transcription status and the old **1,321-unit / 1,040-link** English publication status are historical checkpoints only. The corrected source-critical and deterministic publication closure above supersedes them.
+
+## Separate remaining track
+
+`song_tamil_derivatives` remains a distinct not-started derivative track. Existing song authorship evidence remains historical-complete at 8 occurrences dispositioned / 3 verified / 5 unresolved. No unresolved attribution is promoted from outside knowledge.

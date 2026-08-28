@@ -2,61 +2,56 @@
 
 **Canonical authority:** corrected/scan-closed Tamil transcription, reconciled 93-scene derivatives, immutable **1,042-record** dialogue corpus, and regenerated character/entity layer  
 **Target language:** English (`en`)  
-**English source-reconciliation status:** **complete — all 93 scenes**  
-**Archive-wide status:** **canonical/scene/dialogue/character/English source layers synchronized; reader/export/EPUB rebuild pending**
+**Source reconciliation:** **complete — 93/93 scenes**  
+**Publication status:** **complete-verified — reader and deterministic EPUB QA PASS**
 
-This directory contains interpretive English derivatives. Nothing here repairs, normalizes, expands or overwrites the authoritative Tamil source.
-
-The historical English pass had been recorded as **93 scenes / 1,321 verified units / 1,040 labelled dialogue links**. The corrected Tamil work recovered two omitted scene-41 dialogue records and exposed multiple source-reading, speaker-label, unit-boundary and scene-boundary errors. The complete corrected-source English reconciliation now supersedes that historical state.
+This directory contains interpretive English derivatives. Nothing here repairs, normalizes or overwrites the authoritative Tamil source.
 
 ## Translation principles
 
-1. **Tamil remains authoritative.** English fluency is never evidence for changing the canonical Tamil.
-2. **Every source-labelled utterance is linked exactly once.** The immutable source corpus contains **1,042** labelled dialogue records.
-3. **Exact Tamil speaker labels stay exact metadata.** Character/entity mapping does not rewrite them.
-4. **Stage directions do not gain action.** Translate only what the corrected scene supplies.
-5. **Dialogue preserves rhetorical force.** Repetition, questions, code-switching, imagery and political/social rhetoric are not silently flattened.
-6. **Cross-page source units remain one English unit.** Genuine source-spanning units retain all page provenance.
-7. **Song/performance material is limited to what this booklet prints.** Do not import absent lyrics from external sources.
-8. **Unlabelled source material stays unlabelled.** Direct speech, letters, newspaper blocks, advertisements, chants and other source-visible material do not receive invented speakers or dialogue-record IDs.
-9. **The printed `★` is structural.** It is not translated into an invented `(Scene ends.)` unit.
-10. **Historical surviving translation-unit IDs are preserved.** New IDs were added only where the corrected source proved omitted material; unsupported historical units were removed only where the source proved they did not belong.
+1. Tamil remains authoritative; English fluency is never evidence for changing canonical Tamil.
+2. Every source-labelled utterance is linked exactly once to the immutable dialogue corpus.
+3. Exact Tamil speaker labels remain exact metadata, including printed spacing variants.
+4. Stage directions do not gain actions absent from the source.
+5. Repetition, questions, code-switching, imagery and rhetorical force are retained rather than silently flattened.
+6. Genuine cross-page source units remain one English unit with full provenance.
+7. Song/performance content is limited to what the booklet prints; absent lyrics are not reconstructed.
+8. Source-unlabelled speech stays unlabelled.
+9. Printed `★` separators are structural and are not translated into invented `(Scene ends.)` prose.
+10. Historical surviving English unit IDs remain stable. Source-proven recovered units may therefore appear out of numeric-ID order after their correct source position is restored.
 
-## Complete corrected-source reconciliation
+## Final corrected-source checkpoint
 
-Scenes **1–93** are now contiguous `corrected-source-reconciled` coverage.
+Scenes **1–93** are `corrected-source-reconciled` in `index.json`.
 
-The final pass closed **scenes 92–93**:
+The English layer contains **1,330 verified units**:
 
-- **Scene 92:** retains the source-boundary repair that moved `பத்திரிகை News / (அக்காள் தம்பியைக் கொன்றாள்)` out of scene 91 and into its actual scene-92 opening; restores the printed **Court** setting as new `tirumbippaar-en-s092-u004`; keeps both labelled dialogue links unchanged; and uses exact **Poomaalai** naming in the judgment.
-- **Scene 93:** restores exact `பூமாலை` speaker metadata and **Poomaalai** naming throughout; restores the printed **Jail** setting as new `tirumbippaar-en-s093-u013`; preserves the female-student passage, the final children/warders action, `வணக்கம்.`, and the structural closing star without inventing a scene-end translation unit.
+- **1,049 dialogue-kind** = 1,042 labelled dialogue links + 7 deliberately unlabelled source-spoken units;
+- **262 stage-direction**;
+- **7 song-reference**;
+- **2 chant**;
+- **10 written-text**;
+- **0 reconstructed full-song**.
 
-No surviving historical translation-unit IDs were renumbered in this final pass.
+All **1,042 / 1,042** immutable labelled-dialogue record IDs are linked exactly once. The seven source-visible unlabelled spoken units remain unlabelled. All 12 genuine cross-page English units remain intact.
 
-The reconciled English layer contains **1,330 verified units**:
+## Closure repairs retained
 
-- **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
-- **262 stage-direction units**;
-- **7 song-reference units**;
-- **2 chant units**;
-- **10 written-text units**;
-- **0 reconstructed full-song units**.
+The final source-reconciliation and publication QA passes preserved several nontrivial repairs:
 
-All **1,042 dialogue record IDs remain linked**. The seven direct source-unlabelled spoken units remain unlabelled, and all 12 genuine cross-page English units remain intact.
+- scene 41 links the two recovered labelled source utterances without renumbering earlier IDs;
+- scene 63 preserves the stable d020/d021 split and its PDF 79→80 continuation;
+- scenes 37 and 39 retain recovered carry-over stage directions at their true source positions even though their stable English IDs are numerically higher;
+- exact speaker-label metadata is synchronized to the immutable dialogue records, including `சப்- இன்ஸ்பெக்டர்` / `சப் - இன்ஸ்பெக்டர்` spacing variants;
+- stale English provenance was corrected where the reconciled scene source proves the page boundary, including scene 66, scene 77 and scene 82;
+- scene 92 begins with the newspaper heading and source-visible Court setting;
+- scene 93 begins with the source-visible Jail setting and retains the final children/warders departure, `வணக்கம்.`, and structural closing star without invented prose.
 
-## Canonical Part04 synchronization — closed
-
-The final whole-layer audit had identified three stale strings in `../transcription/parts/part-04-pdf-64-91.md` while the corresponding scene/dialogue derivatives were already correct. The canonical file has now been synchronized without changing scene structure or stable IDs:
-
-- `இதெல்லாம் சினிமா. ஈ. எப்ப ஒழியுமோ` → `இதெல்லாம் சினிமா. எப்ப ஒழியுமோ`
-- `ஏல்லாம் உன் தம்பியின்` → `எல்லாம் உன் தம்பியின்`
-- `[புண்ணகோடி கதவைத் தட்டல்]` → `[புண்யகோடி கதவைத் தட்டல்]`
-
-The canonical Part04 blocker is therefore **closed**. These corrections merely bring the upstream part file into agreement with the already-reconciled scene/dialogue source layer; they do not alter the immutable **1,042-record** dialogue total or any stable translation-unit IDs.
+The canonical Part04 three-string synchronization is also closed, so the upstream Tamil part file and its scene/dialogue derivatives agree.
 
 ## Cross-page English units
 
-The verified cross-page units remain:
+The verified cross-page units are:
 
 - `tirumbippaar-en-s001-u008` — PDF 9→10
 - `tirumbippaar-en-s026-u002` — PDF 31→32
@@ -83,12 +78,36 @@ These seven source-visible passages remain dialogue-kind units without invented 
 - `tirumbippaar-en-s088-u004`
 - `tirumbippaar-en-s091-u014`
 
-The six source scenes with no labelled dialogue records — **10, 11, 25, 26, 43 and 54** — remain represented from source-visible narrative/performance/written material.
+The six source scenes with no labelled dialogue records — **10, 11, 25, 26, 43 and 54** — remain represented only by source-visible narrative, performance or written material.
 
-## Reader/export status
+## Publication verification
 
-`../editions/en/` still contains the historical Markdown, standalone HTML and machine-readable JSON reader editions together with their earlier QA/manifest outputs. They remain **downstream-stale until the deterministic publication workflow rebuilds and revalidates them against the now-synchronized source and English layers**.
+The deterministic publication workflow has now rebuilt and revalidated the Markdown, HTML and JSON reader derivatives plus the EPUB 3 package.
 
-## Next activity
+Reader release gate:
 
-Run the deterministic Tirumbippaar English publication workflow to regenerate and revalidate the Markdown/HTML/JSON reader derivatives, EPUB package, QA reports, manifests and synchronized work metadata. Archive-wide publication closure can be declared only after that workflow passes.
+- scenes: **93/93**
+- English units: **1,330/1,330**
+- immutable dialogue links: **1,042/1,042**
+- page regressions: **0**
+- missing/extra dialogue links: **0 / 0**
+- synthetic star-end units: **0**
+- QA: **PASS**
+
+EPUB release gate:
+
+- scenes: **93/93**
+- units packaged exactly once: **1,330/1,330**
+- scene XHTML documents: **93**
+- ZIP members: **99**
+- bytes: **370,218**
+- SHA-256: `88bf02ac345926d02a3b6e25ea262c3f6aafe59383a620b2bb160cdd3fabbb31`
+- QA: **PASS**
+
+Generated publication commit: **`55bb983eb2959190f025250099793ab5efce2b9f`**.
+
+See `../editions/en/QA_REPORT.md`, `../editions/en/manifest.json`, `../editions/en/EPUB_QA_REPORT.md` and `../editions/en/package-manifest.json` for machine-checked release details.
+
+## Downstream use
+
+There is no remaining English source-reconciliation or publication rebuild batch. Downstream consumers should use these verified records or `../editions/en/reader-edition.json`; they must not derive replacement Tamil or speaker metadata from the English output.
