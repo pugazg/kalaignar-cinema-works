@@ -6,6 +6,7 @@ on:
       - audit/tirumbippaar-d1-2-scan-fidelity
     paths:
       - "works/tirumbippaar/tools/d1_2_scene_fidelity_audit.py"
+      - "works/tirumbippaar/notes/d1-2-scan-repairs.patch.gz.b64"
       - "works/tirumbippaar/transcription/parts/**"
       - "works/tirumbippaar/scenes/**"
       - ".github/workflows/tirumbippaar-d1-2-audit.yml"
@@ -25,8 +26,50 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Decode scan-adjudicated repair patch
+        run: |
+          base64 -d works/tirumbippaar/notes/d1-2-scan-repairs.patch.gz.b64 | gzip -d > /tmp/d1-2-scan-repairs.patch
+      - name: Apply scan-adjudicated D1.2 repairs
+        run: |
+          if git apply --check /tmp/d1-2-scan-repairs.patch; then
+            git apply /tmp/d1-2-scan-repairs.patch
+            echo "Applied D1.2 scan repair set"
+          elif git apply --reverse --check /tmp/d1-2-scan-repairs.patch; then
+            echo "D1.2 scan repair set is already applied"
+          else
+            echo "Repair patch is neither cleanly applicable nor already applied"
+            exit 1
+          fi
       - name: Generate strict canonical/scene audit report
         run: python works/tirumbippaar/tools/d1_2_scene_fidelity_audit.py
+      - name: Enforce zero unexplained textual/page mismatches
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("works/tirumbippaar/notes/d1-2-scene-fidelity-audit.generated.json")
+          gate = json.loads(p.read_text(encoding="utf-8"))["gate"]
+          assert gate["aligned_pairs"] == 1348, gate
+          assert gate["exact_text"] == 1348, gate
+          assert gate["exact_text_and_page"] == 1348, gate
+          assert gate["mismatch_count_including_page"] == 0, gate
+          assert gate["class_counts"] == {}, gate
+          assert gate["unaligned_blocks"] == 4, gate
+          expected = {
+              ("works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md", "[பூமாலை வீடு- பகல்"),
+              ("works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md", "(கருடன் பதிப்பகம்"),
+              ("works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md", "[குமுதா மதறாஸ் வீடு : ஹால்"),
+              ("works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md", "(ஹோட்டல் அறை-பகல்"),
+          }
+          actual = set()
+          for block in gate["unaligned"]:
+              assert block["tag"] == "delete" and not block["scene"], block
+              assert len(block["canonical"]) == 1, block
+              item = block["canonical"][0]
+              actual.add((item["path"], item["text"]))
+          assert actual == expected, (actual, expected)
+          print("D1.2 gate PASS: 1348/1348 exact text+page, 0 mismatches; four excluded structural location-header lines accounted for")
+          PY
       - name: Upload mismatch audit artifact
         uses: actions/upload-artifact@v4
         with:
@@ -41,16 +84,18 @@ jobs:
           name: tirumbippaar-d1-2-work-snapshot
           path: works/tirumbippaar
           if-no-files-found: error
-      - name: Commit generated audit report
+      - name: Commit scan repairs and generated audit report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            works/tirumbippaar/transcription/parts \
+            works/tirumbippaar/scenes \
             works/tirumbippaar/notes/d1-2-scene-fidelity-audit.generated.json \
             works/tirumbippaar/notes/d1-2-scene-fidelity-mismatches.generated.tsv
           if git diff --cached --quiet; then
-            echo "Audit report unchanged"
+            echo "D1.2 scan repairs and audit report are already committed"
           else
-            git commit -m "audit(tirumbippaar): generate D1.2 strict mismatch report [skip ci]"
+            git commit -m "fix(tirumbippaar): apply scan-adjudicated D1.2 fidelity repairs [skip ci]"
             git push
           fi
