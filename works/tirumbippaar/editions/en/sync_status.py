@@ -237,7 +237,7 @@ def sync_metadata() -> None:
     deterministic: true
     qa_status: PASS
   next_structured_derivative: null'''
-    pattern = re.compile(r"^  english_translation:\n.*?^  next_structured_derivative:.*$", re.M | re.S)
+    pattern = re.compile(r"^  english_translation:\n.*?^  next_structured_derivative:[^\n]*$", re.M | re.S)
     if not pattern.search(text):
         raise SystemExit("Could not locate English derivative metadata block")
     text = pattern.sub(english_block, text, count=1)
