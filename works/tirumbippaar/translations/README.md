@@ -31,48 +31,39 @@ The historical English pass had been recorded as **93 scenes / 1,321 verified un
 
 ## Current corrected-source reconciliation
 
-The ordinary scene-order pass has now been reconciled through **scene 30**. Scene **41** was reconciled earlier out of order because the Tamil correction pass proved two labelled utterances had been omitted there.
+The ordinary 10-scene pass has now reached **scene 40**. Because scene **41** was reconciled earlier after two labelled Tamil utterances were recovered there, the English corrected-source coverage is now contiguous through **scene 41**.
 
-### Scenes 1–30
+### Scenes 31–40 — latest 10-scene iteration
 
-Scenes **1–30** have been compared against the corrected scene/dialogue source and marked `corrected-source-reconciled`.
+Scenes **31–40** have been compared against the corrected scene/dialogue source and marked `corrected-source-reconciled`.
 
-Representative material corrections from the latest 10-scene iteration, scenes **21–30**, include:
+Representative corrections include:
 
-- scene 21 restores exact `சமையல்காரன்`, `பூமாலை` and `குண்டுமணி` metadata; `சின்னம்மா வர்றாங்க` is restored as an announcement that Chinnamma is coming, and Kumudha's printed `மன்னிக்கவும்` is retained;
-- scene 22 removes the false historical `Kannagi Salai` reading for `கண்காட்சி சாலை`, restores the lighthouse that `கதிரவனைப் பழிக்குமாம்`, translates `அழித்தெழுதா சித்திரமே` without the invented nectar image, and restores standalone `(புறப்படுதல்)` as new unit `u007`;
-- scenes 23–24 required no material English changes after corrected-source comparison;
-- scene 25 restores Nala as the third-person subject of the Damayanti narration rather than the historical first-person English;
-- scene 26 restores the beacon as one that guides **sailors** (`மாலுமிகள்`) and preserves the genuine PDF 31→32 narration span;
-- scene 27 restores exact Poomalai metadata and the tea-carrying action from its immediate source context without inventing a new action;
-- scene 28 restores exact Poomalai metadata, corrects the `d003` provenance to PDF 32 / printed 24, restores source order around Poomalai's entrance, preserves printed `மார்க்கண்டி` as **Markandi**, and corrects `நம்ப விரட்டினாகூட` to **even if we chase him away**;
-- scene 29 removes an invented `bee` from Garudan's unfinished flower-to-flower comparison, retains `பாட்டாளி` as **toiler**, and removes the unsupported final `(The boy cries.)` unit from scene 29;
-- scene 30 restores that exact `(பையன் அழுதல்)` action at the start of its proper scene, replacing the stale location-heading unit, and restores exact `குணரத்னம்` / `பூமாலை` metadata.
+- scene 31 required no material English wording change beyond advancing its corrected-source status;
+- scene 32 restores exact `புண்யகோடி` metadata, removes invented `Run...run` wording from `தொழிலாளி. தொழிலாளியாம் தொழிலாளி`, and restores `தொழிலாளி சம்பளம் ஜாஸ்தியா கேட்டா, அதை சிந்திச்சு பார்க்க` as a call to consider a worker's request for higher wages rather than an agitation reference;
+- scene 33 restores exact `புண்யகோடி`, corrects `நாமெல்லோரும்` from the unsupported “whole country” reading, removes invented red-paddy wording from Paranthaman's speech, and removes the cheers/Punyakodi-delight action that actually belongs at the beginning of scene 34;
+- scene 34 restores those opening cheers in their proper scene, adds the source-visible `[பூமாலை பிள்ளைகளுடன்!]` direction, restores `முகுந்தா`, separates the source-unlabelled `பாண்டியன்` answer without inventing a speaker or dialogue-record ID, and corrects `உதடுகள் முணுமுணுக்கின்றன` from the stale “Garudan murmurs” reading;
+- scene 35 restores exact `பூமாலை` metadata and repairs `கானத்தால்` as song/music rather than sight, preserves the difficult `தெரியவில்லை...` line conservatively, and restores `அதட்டாதே` as a rebuke against being snapped/scolded at rather than “don't interfere”;
+- scene 36 restores exact `பூமாலை`, corrects Kumudha's `ஏன் சின்னம்மா என்னை அடிச்சே`, restores her question about whether uncle may treat Pandiyan that way, preserves the unfinished `அவனை எனக்கு நேராகவே` without supplying a missing action, and removes the unsupported historical departure unit;
+- scene 37 restores exact `புண்யகோடி` throughout, improves the father/son wording around `பெத்து வளர்த்து பாதுகாத்து மனுஷனாக்கி`, and moves the source-visible `(போகிறாள்)` carry-over action from the end of scene 36 to the beginning of scene 37 as new unit `u051`;
+- scene 38 restores exact `பூமாலை`, corrects `குமுதா உங்களை அழைக்கிறாள்`, removes unsupported “melting heart” wording, restores the imperative force of `கண்ணீரைத் துடையுங்கள்`, and removes the historical walking action that belongs to the next scene;
+- scene 39 restores that `(பாண்டியன் நடக்கிறான் அவளுடன்)` action at the beginning of its proper scene as new unit `u026`, restores Punyakodi naming, renders `புண்யகோடியை மாற்றினால்தான்` as winning Punyakodi over, and removes the historical `(The two rise.)` action from the end of the scene;
+- scene 40 restores `(இருவரும் எழுதல்)` at the beginning of its proper scene as new unit `u006` and restores exact `புண்யகோடி` metadata.
 
-Earlier reconciled scenes 1–20 retain their corrected-source repairs, including the exact Poomalai/Punyakodi/Gundumani labels, scene-12 rhetorical and semantic corrections, scene-17 sorcerer/endearment sequence, and scene-20 corrected action and rhetoric.
+Earlier reconciled scenes **1–30** retain their corrected-source repairs. Scene **41** retains its recovered-source repair: `tirumbippaar-s041-d037` and `tirumbippaar-s041-d038` remain linked as `tirumbippaar-en-s041-u050` and `u051`, historical `u046` remains linked to corrected cross-page `d034`, and the source-visible Kumudha/Pandiyan departure direction remains `u052`.
 
-No historical dialogue-linked unit IDs were renumbered in scenes 1–30. Scene 22 adds only the source-proven omitted stage-direction unit `u007`; scene 29's unsupported historical `u028` is removed. The live total therefore remains unchanged.
+No historical dialogue-linked unit IDs were renumbered in scenes 31–40. Source-proven omitted actions were added with new IDs, while unsupported historical units were removed only where the corrected source located the action in a neighboring scene or proved it absent.
 
-### Scene 41 recovered-source repair
+The live English layer now contains **1,326 units**:
 
-The scene-41 English layer:
-
-- links recovered `tirumbippaar-s041-d037` (`பூமாலை`) and `tirumbippaar-s041-d038` (`பரந்தாமன்`) as new English units `tirumbippaar-en-s041-u050` and `tirumbippaar-en-s041-u051`;
-- preserves all historical translation-unit IDs instead of renumbering existing units;
-- keeps historical `tirumbippaar-en-s041-u046` linked to cross-page dialogue `tirumbippaar-s041-d034` and translates the corrected `அன்பைக் கேட்- / காமல் ஐஸ்வரியத்தைக் கேட்கும்...` reading;
-- adds the source-visible `(குமுதா போய்விடுகிறாள் பாண்டியனுடன்)` direction, missing from the historical English layer, as new unit `tirumbippaar-en-s041-u052`;
-- updates exact `பூமாலை` speaker metadata and Poomalai naming.
-
-The live English layer currently contains **1,324 units**:
-
-- **1,049 dialogue-kind units** = 1,042 labelled source dialogue links + 7 deliberately unlabelled source-spoken units;
-- **256 stage-direction units**;
+- **1,050 dialogue-kind units** = 1,042 labelled source dialogue links + 8 deliberately unlabelled source-spoken units;
+- **257 stage-direction units**;
 - **7 song-reference units**;
 - **2 chant units**;
 - **10 written-text units**;
 - **0 reconstructed full-song units**.
 
-All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes 1–30 and 41 are source-reconciled; the remaining historical scene files still require comparison against the corrected Tamil for exact source labels, wording, semantics and structure.
+All **1,042 dialogue record IDs are linked**. Link coverage is not the same as textual reconciliation: scenes **1–41** are source-reconciled; scenes 42–93 still require corrected-source comparison.
 
 ## Cross-page English units
 
@@ -93,10 +84,11 @@ The cross-page list remains structurally valid:
 
 ## Source-unlabelled spoken units
 
-These seven source-visible spoken passages remain `dialogue` units without invented speaker metadata or dialogue-record IDs:
+These eight source-visible spoken passages remain `dialogue` units without invented speaker metadata or dialogue-record IDs:
 
 - `tirumbippaar-en-s005-u026`
 - `tirumbippaar-en-s015-u018`
+- `tirumbippaar-en-s034-u012`
 - `tirumbippaar-en-s044-u004`
 - `tirumbippaar-en-s051-u003`
 - `tirumbippaar-en-s084-u002`
@@ -115,4 +107,4 @@ Seven historical translated song references remain linked to source occurrences 
 
 ## Next activity
 
-Continue the ordinary corrected-source English pass with **scenes 31–40 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
+Continue the ordinary corrected-source English pass with **scenes 42–51 as one 10-scene iteration**. Compare each existing English unit against the corrected scene/dialogue source, update exact speaker metadata and materially affected English wording, preserve historical unit IDs, add only source-proven omitted units, remove unsupported historical units only when the corrected source proves they do not belong, and keep reader/EPUB regeneration blocked until the English layer reaches a stable full-work boundary.
