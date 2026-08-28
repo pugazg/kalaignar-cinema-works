@@ -45,8 +45,22 @@ jobs:
           assert len(patch) == 145524, len(patch)
           assert hashlib.sha256(patch).hexdigest() == "adc30c64e964928d5a09b4b7b599ca5c98c3230c0e73fda58d5c3cf75d30b941"
           assert patch.startswith(b"--- a/works/tirumbippaar/")
+
+          # The locally assembled unified patch contained one transport-format
+          # defect at the EOF-only Part04 hunk: the removed and added copies of
+          # the final line were concatenated because the source file itself had
+          # no trailing newline. Repair only that patch syntax here; the Tamil
+          # text on both sides remains byte-for-byte identical.
+          text = patch.decode("utf-8")
+          old = "-புண்யகோடி: பதறாம என்ன பண்றது. சொந்த விஷயத்துக்காக புரட்சி பண்ணச் சொல்லி இவ்வளவு ஏழைகளோட+புண்யகோடி: பதறாம என்ன பண்றது. சொந்த விஷயத்துக்காக புரட்சி பண்ணச் சொல்லி இவ்வளவு ஏழைகளோட"
+          new = "-புண்யகோடி: பதறாம என்ன பண்றது. சொந்த விஷயத்துக்காக புரட்சி பண்ணச் சொல்லி இவ்வளவு ஏழைகளோட\n\\ No newline at end of file\n+புண்யகோடி: பதறாம என்ன பண்றது. சொந்த விஷயத்துக்காக புரட்சி பண்ணச் சொல்லி இவ்வளவு ஏழைகளோட"
+          assert text.count(old) == 1, text.count(old)
+          text = text.replace(old, new, 1)
+          patch = text.encode("utf-8")
+          assert len(patch) == 145553, len(patch)
+          assert hashlib.sha256(patch).hexdigest() == "05b6a3a8e8b6baa9feff0703539a6ea5847075d8aed4eddcf81ddfef586a94dd"
           Path("/tmp/d1-2-scan-repairs.patch").write_bytes(patch)
-          print("Verified D1.2 repair payload: 27,064 base64 chars -> 20,297 gzip bytes -> 145,524 patch bytes")
+          print("Verified and syntax-repaired D1.2 patch: 145,553 bytes")
           PY
       - name: Apply scan-adjudicated D1.2 repairs
         run: |
