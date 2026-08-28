@@ -3,7 +3,7 @@
 **Canonical authority:** corrected/scan-closed Tamil transcription, reconciled 93-scene derivatives, immutable **1,042-record** dialogue corpus, and regenerated character/entity layer  
 **Target language:** English (`en`)  
 **English source-reconciliation status:** **complete — all 93 scenes**  
-**Archive-wide status:** **blocked on three canonical Part04 synchronization fixes before reader/export regeneration**
+**Archive-wide status:** **canonical/scene/dialogue/character/English source layers synchronized; reader/export/EPUB rebuild pending**
 
 This directory contains interpretive English derivatives. Nothing here repairs, normalizes, expands or overwrites the authoritative Tamil source.
 
@@ -44,15 +44,15 @@ The reconciled English layer contains **1,330 verified units**:
 
 All **1,042 dialogue record IDs remain linked**. The seven direct source-unlabelled spoken units remain unlabelled, and all 12 genuine cross-page English units remain intact.
 
-## Closure-audit blocker — canonical Part04 synchronization
+## Canonical Part04 synchronization — closed
 
-The final whole-layer audit rechecked three previously flagged Part04 micro-regressions. The scene derivatives are already correct, but `../transcription/parts/part-04-pdf-64-91.md` still contains stale text in three places:
+The final whole-layer audit had identified three stale strings in `../transcription/parts/part-04-pdf-64-91.md` while the corresponding scene/dialogue derivatives were already correct. The canonical file has now been synchronized without changing scene structure or stable IDs:
 
-- `இதெல்லாம் சினிமா. ஈ. எப்ப ஒழியுமோ` → should match corrected scene 52: `இதெல்லாம் சினிமா. எப்ப ஒழியுமோ`
-- `ஏல்லாம் உன் தம்பியின்` → should match corrected scene 57: `எல்லாம் உன் தம்பியின்`
-- `[புண்ணகோடி கதவைத் தட்டல்]` → should match corrected scene 67: `[புண்யகோடி கதவைத் தட்டல்]`
+- `இதெல்லாம் சினிமா. ஈ. எப்ப ஒழியுமோ` → `இதெல்லாம் சினிமா. எப்ப ஒழியுமோ`
+- `ஏல்லாம் உன் தம்பியின்` → `எல்லாம் உன் தம்பியின்`
+- `[புண்ணகோடி கதவைத் தட்டல்]` → `[புண்யகோடி கதவைத் தட்டல்]`
 
-Because the canonical part file is upstream of the publication derivatives, **archive-wide closure and reader/export/EPUB regeneration remain blocked until these three canonical strings are synchronized and the closure audit is rerun**.
+The canonical Part04 blocker is therefore **closed**. These corrections merely bring the upstream part file into agreement with the already-reconciled scene/dialogue source layer; they do not alter the immutable **1,042-record** dialogue total or any stable translation-unit IDs.
 
 ## Cross-page English units
 
@@ -87,8 +87,8 @@ The six source scenes with no labelled dialogue records — **10, 11, 25, 26, 43
 
 ## Reader/export status
 
-`../editions/en/` still contains the historical Markdown, standalone HTML and machine-readable JSON reader editions together with their earlier QA/manifest outputs. They are **known-stale downstream derivatives** and must not yet be treated as synchronized with the completed English reconciliation.
+`../editions/en/` still contains the historical Markdown, standalone HTML and machine-readable JSON reader editions together with their earlier QA/manifest outputs. They remain **downstream-stale until the deterministic publication workflow rebuilds and revalidates them against the now-synchronized source and English layers**.
 
 ## Next activity
 
-Synchronize the three stale canonical strings in `../transcription/parts/part-04-pdf-64-91.md`, rerun the archive-wide closure audit, and only then regenerate and revalidate the English reader/export/EPUB layer.
+Run the deterministic Tirumbippaar English publication workflow to regenerate and revalidate the Markdown/HTML/JSON reader derivatives, EPUB package, QA reports, manifests and synchronized work metadata. Archive-wide publication closure can be declared only after that workflow passes.
