@@ -6,7 +6,7 @@ on:
       - audit/tirumbippaar-d1-2-scan-fidelity
     paths:
       - "works/tirumbippaar/tools/d1_2_scene_fidelity_audit.py"
-      - "works/tirumbippaar/notes/d1-2-scan-repairs.patch.gz.b64"
+      - "works/tirumbippaar/notes/d1-2-repair-chunks/**"
       - "works/tirumbippaar/transcription/parts/**"
       - "works/tirumbippaar/scenes/**"
       - ".github/workflows/tirumbippaar-d1-2-audit.yml"
@@ -26,9 +26,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Decode scan-adjudicated repair patch
+      - name: Decode scan-adjudicated repair patch from verified chunks
         run: |
-          base64 -d works/tirumbippaar/notes/d1-2-scan-repairs.patch.gz.b64 | gzip -d > /tmp/d1-2-scan-repairs.patch
+          python - <<'PY'
+          import base64
+          import gzip
+          import hashlib
+          from pathlib import Path
+
+          root = Path("works/tirumbippaar/notes/d1-2-repair-chunks")
+          parts = sorted(root.glob("part-*.b64"))
+          assert [p.name for p in parts] == [f"part-{i:02d}.b64" for i in range(1, 8)], [p.name for p in parts]
+          payload = "".join(p.read_text(encoding="ascii") for p in parts)
+          assert len(payload) == 27064, len(payload)
+          raw = base64.b64decode(payload, validate=True)
+          assert hashlib.sha256(raw).hexdigest() == "404a4ba11ba2df902ce8e3f76f890d45f8603fd1139462932721a61ced678833"
+          patch = gzip.decompress(raw)
+          assert len(patch) == 145524, len(patch)
+          assert hashlib.sha256(patch).hexdigest() == "adc30c64e964928d5a09b4b7b599ca5c98c3230c0e73fda58d5c3cf75d30b941"
+          assert patch.startswith(b"--- a/works/tirumbippaar/")
+          Path("/tmp/d1-2-scan-repairs.patch").write_bytes(patch)
+          print("Verified D1.2 repair payload: 27,064 base64 chars -> 20,297 gzip bytes -> 145,524 patch bytes")
+          PY
       - name: Apply scan-adjudicated D1.2 repairs
         run: |
           if git apply --check /tmp/d1-2-scan-repairs.patch; then
