@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """D1.2 canonical/scene strict-fidelity probe for Tirumbippaar.
 
-This is an audit helper only. It never treats either text layer as source
-truth; the controlling scan must adjudicate every reported difference.
+The gate compares source-bearing scene content, excluding scene-heading/location
+markup because the source and derivative legitimately encode those structural
+headers differently. It never treats either text layer as source truth: the
+controlling scan must adjudicate every reported difference.
 """
 from __future__ import annotations
 
@@ -33,17 +35,11 @@ class Line:
 
 def norm_word(s: str) -> str:
     s = unicodedata.normalize("NFC", s)
-    # Alignment key only: discard whitespace and punctuation/glyphs, preserve
-    # letters/digits from every script. This is NOT a textual equality rule.
     return "".join(ch for ch in s if ch.isalnum())
 
 
 def ws_fold(s: str) -> str:
     return re.sub(r"\s+", "", s)
-
-
-def punct_fold(s: str) -> str:
-    return "".join(ch for ch in s if ch.isalnum())
 
 
 def classify(a: str, b: str) -> str:
@@ -54,12 +50,10 @@ def classify(a: str, b: str) -> str:
     glyph_map = str.maketrans({"—":"-", "–":"-", "’":"'", "‘":"'", "“":"\"", "”":"\""})
     if ws_fold(a.translate(glyph_map)) == ws_fold(b.translate(glyph_map)):
         return "quote-dash-glyph"
-    # Bracket/parenthesis separately because these are structurally meaningful.
     bracket_chars = set("[](){}")
     if norm_word(a) == norm_word(b) and any(ch in bracket_chars for ch in a+b):
         return "bracket-parenthesis"
     if norm_word(a) == norm_word(b):
-        # Rough split of ellipsis/count from other punctuation.
         dots_a = re.sub(r"[^.]", "", a)
         dots_b = re.sub(r"[^.]", "", b)
         if dots_a != dots_b or "..." in a or "..." in b:
@@ -68,11 +62,27 @@ def classify(a: str, b: str) -> str:
     return "word-level"
 
 
-def parse_file(path: Path, scene_hint: int | None, *, include_stars: bool, include_title: bool) -> list[Line]:
+def is_split_location_header(display: str) -> bool:
+    """True for the structural location line sometimes stored after காட்சி N.
+
+    In this source those lines are open-bracket/open-parenthesis structures,
+    whereas a following stage direction is normally closed on the same line.
+    """
+    if not display or display[0] not in "[(":
+        return False
+    if ":" in display:
+        return False
+    if display[0] == "[":
+        return not display.endswith("]")
+    return not display.endswith(")")
+
+
+def parse_file(path: Path, scene_hint: int | None) -> list[Line]:
     out: list[Line] = []
     pdf = printed = None
     started = scene_hint is not None
     current_scene = scene_hint
+    after_scene_heading = False
     for i, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         m = SOURCE_RE.search(raw)
         if m:
@@ -84,31 +94,33 @@ def parse_file(path: Path, scene_hint: int | None, *, include_stars: bool, inclu
         s = raw.strip()
         if not s or s.startswith("<!--"):
             continue
-        # Strip markdown heading syntax but retain the printed heading text.
         display = re.sub(r"^#{1,6}\s+", "", s)
-        if not include_title and display == "திரும்பிப்பார்!":
-            continue
-        if not include_stars and display == "★":
+        if display in {"திரும்பிப்பார்!", "★"}:
             continue
         sm = SCENE_RE.search(display)
         if sm:
             current_scene = int(sm.group(1))
-        # Exclude non-source explanatory markdown accidentally present after
-        # the first anchor. Source files use only source text after anchors;
-        # this catches section headings if any appear.
+            after_scene_heading = True
+            # Scene heading/location structure is outside the 1,342-line text
+            # equality gate used in D1.1/D1.2.
+            continue
+        if after_scene_heading:
+            after_scene_heading = False
+            if is_split_location_header(display):
+                continue
         if display.startswith("Status:") or display.startswith("Source:") or display.startswith("SHA-256:"):
             continue
         out.append(Line(display, str(path.relative_to(ROOT)), i, pdf, printed, current_scene))
     return out
 
 
-def build(include_stars: bool, include_title: bool):
+def build():
     canonical: list[Line] = []
     for p in PARTS:
-        canonical += parse_file(p, None, include_stars=include_stars, include_title=include_title)
+        canonical += parse_file(p, None)
     scenes: list[Line] = []
     for n, p in enumerate(SCENES, 1):
-        scenes += parse_file(p, n, include_stars=include_stars, include_title=include_title)
+        scenes += parse_file(p, n)
 
     ak = [norm_word(x.text) for x in canonical]
     bk = [norm_word(x.text) for x in scenes]
@@ -126,11 +138,14 @@ def build(include_stars: bool, include_title: bool):
                 "scene": [asdict(x) | {"key":norm_word(x.text)} for x in scenes[j1:j2]],
             })
     mismatches = []
-    exact = 0
+    exact_text = 0
+    exact_text_and_page = 0
     for idx, (a,b) in enumerate(pairs, 1):
-        if a.text == b.text and a.pdf == b.pdf:
-            exact += 1
-            continue
+        if a.text == b.text:
+            exact_text += 1
+            if a.pdf == b.pdf:
+                exact_text_and_page += 1
+                continue
         cls = classify(a.text,b.text)
         if a.text == b.text and a.pdf != b.pdf:
             cls = "page-attribution"
@@ -146,13 +161,12 @@ def build(include_stars: bool, include_title: bool):
     for x in mismatches:
         counts[x["class"]] = counts.get(x["class"],0)+1
     return {
-        "include_stars": include_stars,
-        "include_title": include_title,
         "canonical_lines": len(canonical),
         "scene_lines": len(scenes),
         "aligned_pairs": len(pairs),
         "unaligned_blocks": len(unaligned),
-        "exact_text_and_page": exact,
+        "exact_text": exact_text,
+        "exact_text_and_page": exact_text_and_page,
         "mismatch_count_including_page": len(mismatches),
         "class_counts": counts,
         "unaligned": unaligned,
@@ -161,25 +175,18 @@ def build(include_stars: bool, include_title: bool):
 
 
 def main():
-    profiles = [
-        build(False, False),
-        build(True, False),
-        build(False, True),
-        build(True, True),
-    ]
-    # Prefer the profile matching the documented D1.1 gate of 1,342 aligned
-    # textual lines; otherwise preserve every profile for diagnosis.
-    chosen = next((p for p in profiles if p["aligned_pairs"] == 1342 and not p["unaligned"]), profiles[0])
+    gate = build()
     result = {
         "work_id":"tirumbippaar",
         "audit":"D1.2 strict canonical/scene source-order fidelity",
         "authority":"controlling scan; neither canonical nor scene derivative is presumptively correct",
-        "profiles_summary":[{k:v for k,v in p.items() if k not in {"unaligned","mismatches"}} for p in profiles],
-        "chosen_profile": chosen,
+        "gate_definition":"exact trimmed-line identity for 1,342 source-bearing non-heading scene lines; punctuation, ellipses, whitespace and quote/dash glyphs significant; page attribution audited separately",
+        "gate": gate,
     }
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-    print(json.dumps(result["profiles_summary"], ensure_ascii=False, indent=2))
-    print("chosen aligned", chosen["aligned_pairs"], "mismatches", len(chosen["mismatches"]), chosen["class_counts"])
+    print(json.dumps({k:v for k,v in gate.items() if k not in {"unaligned","mismatches"}}, ensure_ascii=False, indent=2))
+    if gate["aligned_pairs"] != 1342 or gate["unaligned"]:
+        raise SystemExit(f"D1.2 alignment gate drift: aligned={gate['aligned_pairs']} unaligned_blocks={gate['unaligned_blocks']}")
 
 if __name__ == "__main__":
     main()
