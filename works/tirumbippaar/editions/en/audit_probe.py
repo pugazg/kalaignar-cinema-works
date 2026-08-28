@@ -27,10 +27,17 @@ direct_dialogue: list[str] = []
 occurrences: list[str] = []
 scene_counts: dict[int, int] = {}
 seen_ids: set[str] = set()
+parse_errors: list[str] = []
 
 for scene in range(1, 94):
     path = TRANS / f"scene-{scene:02d}.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        msg = f"scene={scene} path={path.relative_to(ROOT)} error={exc}"
+        print("TRANSLATION_JSON_PARSE_ERROR", msg)
+        parse_errors.append(msg)
+        continue
     scene_units = data["units"]
     scene_counts[scene] = len(scene_units)
     units += len(scene_units)
@@ -66,7 +73,14 @@ for scene in range(1, 94):
 
 immutable_ids: list[str] = []
 for scene in range(1, 94):
-    data = json.loads((DIALOGUES / f"scene-{scene:02d}.json").read_text(encoding="utf-8"))
+    path = DIALOGUES / f"scene-{scene:02d}.json"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        msg = f"scene={scene} path={path.relative_to(ROOT)} error={exc}"
+        print("DIALOGUE_JSON_PARSE_ERROR", msg)
+        parse_errors.append(msg)
+        continue
     records = data if isinstance(data, list) else data.get("records", [])
     immutable_ids.extend(r["id"] for r in records)
 
@@ -84,3 +98,5 @@ print("song_occurrence_links=", occurrences)
 print("dialogue_links_count=", len(dialogue_links), "unique=", len(set(dialogue_links)), "immutable=", len(immutable_ids))
 print("missing_dialogue_links=", sorted(set(immutable_ids) - set(dialogue_links)))
 print("extra_dialogue_links=", sorted(set(dialogue_links) - set(immutable_ids)))
+if parse_errors:
+    raise SystemExit(f"JSON parse errors: {len(parse_errors)}")
