@@ -1,6 +1,6 @@
 {
   "work_id": "tirumbippaar",
-  "status": "complete-with-unresolved-authorship",
+  "status": "complete-verified-reconciled",
   "schema": "schema.json",
   "credits": "credits.json",
   "tracklist_evidence": "tracklist-evidence.json",
@@ -14,8 +14,11 @@
   "performance_references_without_printed_lyrics": 5,
   "standalone_chant_occurrences": 1,
   "full_lyric_blocks_printed_for_named_songs": 0,
+  "tamil_song_derivative_status": "closed-no-source-full-lyrics",
   "tamil_song_derivative_files_created": 0,
   "canonical_text_modified_by_external_evidence": false,
+  "source_reconciled": true,
+  "inventory_occurrence_scenes": [2, 6, 11, 14, 29, 31, 43],
   "late_source_correction": {
     "pdf_page": 38,
     "printed_page": 30,
@@ -24,6 +27,12 @@
     "verified_source_reading": "பாண்டியன் என் சொல்லை",
     "basis": "direct rendered-scan reinspection before authorship mapping; external catalog metadata was not used as the canonical text authority"
   },
+  "source_reconciliation_repairs": [
+    "tirumbippaar-song-001 source text synchronized from stale `பூமால்` to corrected `பூமாலை`.",
+    "tirumbippaar-song-002 source text synchronized to corrected `பாமா பாடிமுடிந்ததும் குடத்தை எடுத்துக்கொண்டு போகிறாள்`.",
+    "tirumbippaar-song-005 chant punctuation synchronized exactly to corrected scene 29.",
+    "tirumbippaar-song-007 retained its stable occurrence ID but moved from stale scene 42 attribution to corrected scene 43; tirumbippaar-song-008 remains the scene-43 reprise."
+  ],
   "verified_mappings": [
     {"occurrence": "tirumbippaar-song-006", "title_ta": "பாண்டியன் என் சொல்லை", "lyricist_ta": "பாரதிதாசன்"},
     {"occurrence": "tirumbippaar-song-007", "title_ta": "கலப்படம் கலப்படம்", "lyricist_ta": "கண்ணதாசன்"},
@@ -36,6 +45,6 @@
     "tirumbippaar-song-004",
     "tirumbippaar-song-005"
   ],
-  "song_tamil_derivative_gate": "No full lyric body for either source-named soundtrack song is printed in this booklet. Do not import lyrics from the catalog, audio, web pages or another song booklet. The unnamed performance references remain unresolved and the labour chant remains a canonical scene structure rather than being asserted as a soundtrack composition.",
-  "next_activity": "Begin English translation as a separate source-linked derivative layer, starting with a schema and a small verified pilot. Song/performance references must be translated only to the extent printed in the canonical scene text; do not supply absent lyrics."
+  "song_tamil_derivative_gate": "Closed with zero lyric-derivative files because this booklet prints no full lyric body for either source-named soundtrack song. Do not import lyrics from the catalog, audio, web pages, streaming services, later editions or another song booklet. The unnamed performance references remain unresolved and the labour chant remains a canonical scene structure rather than being asserted as a soundtrack composition.",
+  "next_activity": "No further Tamil song-text derivative is authorized from this controlling booklet. Reopen only if a new controlling source containing printed lyrics or explicit item-level credits is supplied; otherwise preserve the eight reconciled occurrence records and their evidence status."
 }
