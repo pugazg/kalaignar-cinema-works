@@ -35,6 +35,12 @@ jobs:
             works/tirumbippaar/notes/d1-2-scene-fidelity-audit.generated.json
             works/tirumbippaar/notes/d1-2-scene-fidelity-mismatches.generated.tsv
           if-no-files-found: error
+      - name: Upload Tirumbippaar work snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: tirumbippaar-d1-2-work-snapshot
+          path: works/tirumbippaar
+          if-no-files-found: error
       - name: Commit generated audit report
         run: |
           git config user.name "github-actions[bot]"
