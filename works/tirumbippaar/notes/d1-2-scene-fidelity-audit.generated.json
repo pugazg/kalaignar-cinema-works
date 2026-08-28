@@ -1,0 +1,80 @@
+{
+  "work_id": "tirumbippaar",
+  "audit": "D1.2 strict canonical/scene source-order fidelity",
+  "authority": "controlling scan; neither canonical nor scene derivative is presumptively correct",
+  "gate_definition": "exact trimmed-line identity for source-bearing non-heading scene lines; punctuation, ellipses, whitespace and quote/dash glyphs significant; page attribution audited separately",
+  "documented_target_aligned_pairs": 1342,
+  "gate": {
+    "canonical_lines": 1352,
+    "scene_lines": 1348,
+    "aligned_pairs": 1348,
+    "unaligned_blocks": 4,
+    "exact_text": 1348,
+    "exact_text_and_page": 1348,
+    "mismatch_count_including_page": 0,
+    "class_counts": {},
+    "unaligned": [
+      {
+        "tag": "delete",
+        "canonical": [
+          {
+            "text": "[பூமாலை வீடு- பகல்",
+            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
+            "file_line": 23,
+            "pdf": 36,
+            "printed": 28,
+            "scene": 30,
+            "key": "பமலவடபகல"
+          }
+        ],
+        "scene": []
+      },
+      {
+        "tag": "delete",
+        "canonical": [
+          {
+            "text": "(கருடன் பதிப்பகம்",
+            "path": "works/tirumbippaar/transcription/parts/part-03-pdf-36-63.md",
+            "file_line": 55,
+            "pdf": 38,
+            "printed": 30,
+            "scene": 32,
+            "key": "கரடனபதபபகம"
+          }
+        ],
+        "scene": []
+      },
+      {
+        "tag": "delete",
+        "canonical": [
+          {
+            "text": "[குமுதா மதறாஸ் வீடு : ஹால்",
+            "path": "works/tirumbippaar/transcription/parts/part-04-pdf-64-91.md",
+            "file_line": 49,
+            "pdf": 65,
+            "printed": 57,
+            "scene": 50,
+            "key": "கமதமதறஸவடஹல"
+          }
+        ],
+        "scene": []
+      },
+      {
+        "tag": "delete",
+        "canonical": [
+          {
+            "text": "(ஹோட்டல் அறை-பகல்",
+            "path": "works/tirumbippaar/transcription/parts/part-05-pdf-92-112.md",
+            "file_line": 244,
+            "pdf": 106,
+            "printed": 98,
+            "scene": 88,
+            "key": "ஹடடலஅறபகல"
+          }
+        ],
+        "scene": []
+      }
+    ],
+    "mismatches": []
+  }
+}
