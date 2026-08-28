@@ -9,6 +9,8 @@ The user-supplied corrected transcription is used as the primary correction witn
 
 <!-- source: pdf=14 printed=6 status=verified -->
 
+கருடன் : இல்லை பரந்தாமன்.
+
 பாண்டியன் : யாரது பரந்தாமன்?
 குரல் : பக்தா!
 பரந்தாமன்: ஏன் ஆத்திரப்படுகிறாய்? பதறுகிறாய்-பரந்தாமனை அழைத்த விஷயமென்ன? யார் இவன்?
