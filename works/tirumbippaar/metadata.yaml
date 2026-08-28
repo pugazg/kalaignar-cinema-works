@@ -72,8 +72,9 @@ structure:
   song_performance_candidates:
     - pdf_page: 57
       printed_page: 49
-      scenes: [42, 43]
+      scenes: [43]
       source_reference: "கலப்படம்"
+      note: "Corrected scene 42 is the spoken lead-in; the printed Pandiyan performance/refrain and office-boy reprise both occur in scene 43."
   additional_main_text_crop_or_duplicate_findings: []
 
 correction_reconciliation:
@@ -92,10 +93,11 @@ correction_reconciliation:
   scene_41_dialogue_records: 38
   recovered_scene_41_record_ids: ["tirumbippaar-s041-d037", "tirumbippaar-s041-d038"]
   character_entity_layer_status: complete-verified-reconciled
+  song_performance_layer_status: complete-verified-reconciled
   english_source_reconciliation_status: complete-verified
   english_publication_layer_status: complete-verified
   canonical_part04_micro_sync: complete
-  note: "Canonical Tamil, all 93 scene/dialogue derivatives, the 1,042-record immutable dialogue corpus, character/entity mappings and the 1,330-unit English layer are synchronized. Deterministic reader and EPUB QA also pass."
+  note: "Canonical Tamil, all 93 scene/dialogue derivatives, the 1,042-record immutable dialogue corpus, character/entity mappings, the source-reconciled 8-occurrence song/performance inventory and the 1,330-unit English layer are synchronized. Deterministic reader and EPUB QA also pass."
 
 transcription_progress:
   status: complete-verified-reconciled
@@ -131,7 +133,7 @@ transcription_progress:
   historical_verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Source reconciliation complete; deterministic English reader/EPUB publication package QA PASS."
+  next_action: "Source reconciliation complete; deterministic English reader/EPUB publication package QA PASS; song/performance derivative gate closed at the source-supported 8-occurrence inventory with zero lyric files."
 
 fidelity_audit:
   status: historical-complete-superseded-for-textual-correctness
@@ -293,7 +295,7 @@ structured_derivatives:
     dialogue_records_modified_since_last_build: false
     note: "Character/entity mappings are regenerated against the corrected 1,042-record dialogue corpus: 45 exact source labels map to 39 entities/roles with zero unresolved items."
   song_authorship_mapping:
-    status: historical-complete
+    status: complete-verified-reconciled
     path: "songs/index.json"
     schema: "songs/schema.json"
     readme: "songs/README.md"
@@ -301,13 +303,15 @@ structured_derivatives:
     tracklist_evidence: "songs/tracklist-evidence.json"
     inventory: "songs/inventory.json"
     candidate_occurrences: 8
+    inventory_occurrence_scenes: [2, 6, 11, 14, 29, 31, 43]
     verified_authorship_occurrences: 3
     review_authorship_occurrences: 0
     unresolved_authorship_occurrences: 5
     distinct_named_songs_mapped: 2
     full_lyric_blocks_printed_for_named_songs: 0
-    note: "The historical authorship gate remains recorded. Source corrections do not authorize importing external lyrics or using external metadata to repair canonical Tamil."
-  song_tamil_derivatives: not-started
+    tamil_song_derivative_files_created: 0
+    note: "All eight stable song/performance occurrences are synchronized to corrected scene text. Occurrence 007 is correctly located in scene 43, not scene 42. Three authorship mappings are verified from exact-title item evidence; five remain evidence-limited unresolved. No complete lyric body is printed in this booklet, so zero Tamil lyric-derivative files is the closed source-faithful state."
+  song_tamil_derivatives: closed-no-source-full-lyrics
   english_translation:
     status: complete-verified
     path: "translations/index.json"
@@ -376,8 +380,8 @@ status:
   scene_text_derivatives: complete-verified-reconciled
   dialogue_index: complete-verified-reconciled
   character_index: complete-verified-reconciled
-  song_authorship_mapping: historical-complete
-  song_tamil_derivatives: not-started
+  song_authorship_mapping: complete-verified-reconciled
+  song_tamil_derivatives: closed-no-source-full-lyrics
   english_translation: complete-verified
   english_reader_edition: complete-verified
   english_epub_package: complete-verified
