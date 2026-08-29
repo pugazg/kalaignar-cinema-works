@@ -51,13 +51,17 @@ jobs:
           stale_scene = '        ensure(record.get("canonical_scene") == scene and record.get("scene_status", record.get("pilot_status")) == "verified", f"Scene {scene} record mismatch")\n'
           new_scene = '        ensure(record.get("canonical_scene") == scene and record.get("scene_status", record.get("pilot_status")) in {"verified", "corrected-source-reconciled"}, f"Scene {scene} record mismatch")\n'
           stale_reconciliation = '        ensure(record.get("reconciliation_status") == "corrected-source-reconciled", f"Scene {scene} reconciliation status mismatch")\n'
-          if stale_scene not in text:
-              raise SystemExit("Expected legacy per-file scene-status gate was not found")
-          if stale_reconciliation not in text:
-              raise SystemExit("Expected legacy per-file reconciliation gate was not found")
-          text = text.replace(stale_scene, new_scene, 1)
-          text = text.replace(stale_reconciliation, "", 1)
-          path.write_text(text, encoding="utf-8")
+          already = new_scene in text and stale_scene not in text and stale_reconciliation not in text
+          if already:
+              print("Reader gates already index-authoritative; nothing to migrate.")
+          else:
+              if stale_scene not in text:
+                  raise SystemExit("Expected legacy per-file scene-status gate was not found")
+              if stale_reconciliation not in text:
+                  raise SystemExit("Expected legacy per-file reconciliation gate was not found")
+              text = text.replace(stale_scene, new_scene, 1)
+              text = text.replace(stale_reconciliation, "", 1)
+              path.write_text(text, encoding="utf-8")
           print("Reader build accepts both historical verified and corrected-source-reconciled scene markers while translations/index.json controls reconciliation coverage")
           PY
 
