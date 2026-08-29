@@ -1,9 +1,9 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=44 start_pdf=58 start_printed=50 canonical_part=part-03 -->
 <!-- source: pdf=58 printed=50 status=verified-reconciled -->
 
-### காட்சி 44 )
+### காட்சி 44]
 
-(மைதானம்
+[மைதானம்
 
 [அங்கே கூட்டத்தை தூரத்தில் நின்று கருடன் பார்க்கிறான். பாண்டியன் பேசுகிறான்.]
 

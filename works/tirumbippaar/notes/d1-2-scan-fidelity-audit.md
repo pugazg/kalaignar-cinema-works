@@ -107,11 +107,91 @@ direction that follows it, joining lines the scene derivative keeps separate. `s
 unchanged by this branch, so these are pre-existing modelling choices carried by `page_segments`, not drift.
 They are reported rather than silently "fixed".
 
-**Scene-location bracket typography, outside the canonical↔scene gate (18 cases).**
-`notes/scene-heading-audit.md` records a square-bracket location marker for scenes 36, 44, 45, 46, 48, 56,
-59, 62, 63, 64, 70, 71, 72, 75, 82, 83, 85 and 86, while *both* canonical and the scene derivative print `(`.
-Because the two layers agree, the D1.2 canonical↔scene gate does not flag them, and they are **not** changed
-here. The two scan checks performed for this branch (printed pp. 30 and 98) both showed `[`, and the same
-OCR `(`-for-`[` substitution was proven repeatedly during this audit, so these 18 are likely wrong in both
-layers. Resolving them requires a per-case scan adjudication of the scene-heading surface and belongs to a
-separate audit, not to this reconciliation.
+**Scene-location bracket typography — ADJUDICATED (18 of 18).**
+An earlier revision deferred these. They are now resolved, because D1.2 is the scan-fidelity phase and
+the canonical↔scene gate cannot see them: canonical and scene agreed on `(`, so no mismatch was raised.
+Each of the 18 was inspected individually on the controlling scan at 400dpi; no case was decided from
+the pattern of earlier cases, from the heading audit alone, or from neighbouring scenes.
+
+| scene | PDF | printed | scan | canonical before | scene before | after |
+|---|---|---|---|---|---|---|
+| 36 | 44 | 36 | `[` | `(` | `(` | `[` |
+| 44 | 58 | 50 | `[` | `(` | `(` | `[` |
+| 45 | 58 | 50 | `[` | `(` | `(` | `[` |
+| 46 | 60 | 52 | `[` | `(` | `(` | `[` |
+| 48 | 63 | 55 | `[` | `(` | `(` | `[` |
+| 56 | 70 | 62 | `[` | `(` | `(` | `[` |
+| 59 | 76 | 68 | `[` | `(` | `(` | `[` |
+| 62 | 79 | 71 | `[` | `(` | `(` | `[` |
+| 63 | 79 | 71 | `[` | `(` | `(` | `[` |
+| 64 | 81 | 73 | `[` | `(` | `(` | `[` |
+| 70 | 86 | 78 | `[` | `(` | `(` | `[` |
+| 71 | 87 | 79 | `[` | `(` | `(` | `[` |
+| 72 | 87 | 79 | `[` | `(` | `(` | `[` |
+| 75 | 90 | 82 | `[` | `(` | `(` | `[` |
+| 82 | 99 | 91 | `[` | `(` | `(` | `[` |
+| 83 | 100 | 92 | `[` | `(` | `(` | `[` |
+| 85 | 102 | 94 | `[` | `(` | `(` | `[` |
+| 86 | 103 | 95 | `[` | `(` | `(` | `[` |
+
+**18 checked · 18 corrected · 0 already correct · 0 unresolved.** Every scan reading was `[`; the
+unanimity is a result, not a rule that was applied. Scene 56 stores its location inside the Markdown
+heading rather than on its own line, and was corrected there.
+
+**Scene-number bracket — a second surface found while doing this.** 22 scene headings closed the scene
+number with `)` rather than `]`. The scan pages read for this pass show `]` for scenes 32, 44 and 56,
+and those three are corrected in canonical and scene. The remaining **19 are not changed**: they were
+not part of this adjudication and have no scan evidence yet. Deciding them from the three that were
+checked would be exactly the pattern-based reasoning this audit refuses. Printed p.36 additionally
+shows `காட்சி 36` with no closing bracket at all, which is preserved as printed.
+
+## Scene-5 provenance chain
+
+The restored line `கருடன் : இல்லை பரந்தாமன்.` sits under `pdf=14 printed=6` in the scene, but its
+dependent records still pointed at PDF 13 / printed 5:
+
+- `tirumbippaar-s005-d007` — corrected to `pdf_page: 14, printed_page: 6`;
+- `tirumbippaar-en-s005-u010` — corrected to `pdf_page: 14, printed_page: 6`.
+
+No unrelated PDF-13 record was moved.
+
+`tirumbippaar-s005-d004` also dropped the printed ellipsis: the scan at 600dpi shows
+`உண்மையான ஆசிரியர்......`, which canonical and the scene both carry, so the dialogue record was
+restoring-corrected to match. The note on `tirumbippaar-en-s005-u007` claimed the source "ends without
+added ellipsis after `ஆசிரியர்`", which is false; it now records what the page prints. The English text
+gains the visible unfinished cue, consistent with the 229 other units in this edition that end in an
+explicit ellipsis.
+
+## Provenance gates
+
+Text alone was not sufficient, so provenance is now gated separately.
+
+- **dialogue provenance** — 1,042 records paired with their scene utterances in source order:
+  943 label/page pairs verified directly, **0 page-provenance mismatches**.
+  Four records have no separately labelled scene line under a strict `label:` parser and were checked
+  individually: `s063-d021` (the documented split), `s081-d002` (`Echo`, a Latin label),
+  `s057-d036` (source prints the label with no colon) and `s086-d021` (source prints a semicolon after
+  the label). All four are present with their labels and their page provenance agrees.
+- **dialogue↔translation provenance** — every linked English unit checked against its dialogue record
+  for scene, page provenance and speaker label: **0 mismatches**. This gate is what catches the
+  scene-5 `d007`/`u010` class of bug.
+- **scene↔dialogue text** — 1,042 checked, 2 flagged, both the documented pre-existing scene-72
+  structural records; **0 unexplained**.
+
+Recorded, not changed: `tirumbippaar-s045-d013` carries the speaker label `பாண்டியன்` while the scene
+line prints `பாண்டியன்.` with a full stop before the colon. This predates D1.2 — it is the same on the
+post-D1.1 baseline `d4b394a7` — and the archive's label model has evidently treated the printed stop as
+punctuation rather than part of the label. Changing it would add a 46th entry to the 45-label character
+inventory, which is outside this reconciliation. Flagged for a separate decision.
+
+## Method statement
+
+No reading in this phase was decided by grammar, gender agreement, expected syntax, contextual
+plausibility, character identity or modern spelling. The controlling scan decided every case, and where
+the scan was the only authority the layer that disagreed with it was the one corrected. The
+user-confirmed reading `ஊஹும்` was not reopened: it stands at five occurrences each in the
+transcription, scene and dialogue layers, with `ஊஹூம்` absent from the work.
+
+Reader and EPUB artifacts remain **post-merge CI only** — `tirumbippaar-english-edition.yml` runs on
+push to `main`. No EPUB byte size or hash is asserted for this branch.
+

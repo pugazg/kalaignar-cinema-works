@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=32 start_pdf=38 start_printed=30 canonical_part=part-03 -->
 <!-- source: pdf=38 printed=30 status=verified-reconciled -->
 
-### காட்சி 32) [கருடன் பதிப்பகம்
+### காட்சி 32] [கருடன் பதிப்பகம்
 
 [பேப்பர் பேல் கட்டு தூக்கிவந்த கூலி ஆள் ஆத்திரத்தோடு]
 
