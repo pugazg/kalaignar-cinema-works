@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=39 start_pdf=50 start_printed=42 canonical_part=part-03 -->
 <!-- source: pdf=50 printed=42 status=verified-reconciled -->
 
-### காட்சி 39)
+### காட்சி 39]
 
 (பாண்டியன் நடக்கிறான் அவளுடன்)
 

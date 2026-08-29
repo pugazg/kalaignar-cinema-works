@@ -1,8 +1,8 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=83 start_pdf=100 start_printed=92 canonical_part=part-05 -->
 <!-- source: pdf=100 printed=92 status=verified-reconciled -->
 
-### காட்சி 83)
-(சென்னை ஹோட்டல்
+### காட்சி 83]
+[சென்னை ஹோட்டல்
 [ பரந்தாமன் எழுதுவது
 அவசர வேண்டுகோள்.
 அன்புள்ள குமுதாவுக்கு ! உன்னைப் பார்க்கவேண்டும் என்று துடிக்கிறேன். நடந்தவைகளை மறந்துவிட்டு

@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=47 start_pdf=61 start_printed=53 canonical_part=part-03 -->
 <!-- source: pdf=61 printed=53 status=verified-reconciled -->
 
-### காட்சி 47)
+### காட்சி 47]
 
 (மேஜையைத் திறந்து ரிவால்வாரை எடுக்கிறான்)
 

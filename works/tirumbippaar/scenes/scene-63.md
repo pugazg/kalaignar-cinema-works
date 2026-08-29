@@ -1,9 +1,9 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=63 start_pdf=79 start_printed=71 canonical_part=part-04 -->
 <!-- source: pdf=79 printed=71 status=verified-reconciled -->
 
-### காட்சி 63)
+### காட்சி 63]
 
-(கருடன் பதிப்பகம்
+[கருடன் பதிப்பகம்
 
 புண்யகோடி: எத்துக்காக இதெல்லாம் சொல்றேன்னா தொழிலாளர் கோரிக்கை கூடிய சீக்கிரம் நிறைவேறியாகணும். நம்மை நம்பிகிட்டு ஆயிரக் கணக்கான தொழிலாளிகள் இருக்காங்க!
 

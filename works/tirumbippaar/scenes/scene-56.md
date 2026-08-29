@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=56 start_pdf=70 start_printed=62 canonical_part=part-04 -->
 <!-- source: pdf=70 printed=62 status=verified-reconciled -->
 
-### காட்சி 56 ) (மில் முதலாளி வீடு
+### காட்சி 56] [மில் முதலாளி வீடு
 
 முதலாளி : உஷா ! இரவு நேரங்களில் வெளியில் போகாதே என்று சொன்னேனே ! கேட்டாயா! ஏழைகளுக்கு உதவி செய்கிறேன் என்று நீ போகிறாய்
 

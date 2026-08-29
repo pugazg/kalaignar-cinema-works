@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=43 start_pdf=57 start_printed=49 canonical_part=part-03 -->
 <!-- source: pdf=57 printed=49 status=verified-reconciled zero_dialogue=true -->
 
-### காட்சி 43).
+### காட்சி 43].
 
 (பாண்டியன் பாடுகிறான் எழுதியதை)
 

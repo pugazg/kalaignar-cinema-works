@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=55 start_pdf=69 start_printed=61 canonical_part=part-04 -->
 <!-- source: pdf=69 printed=61 status=verified-reconciled -->
 
-### காட்சி 55) [பூமாலை வீடு
+### காட்சி 55] [பூமாலை வீடு
 
 [பூமாலை ஊருக்குப் புறப்பட்டுக் கொண்டிருக்கிறாள். அங்கு வந்த பரந்தாமன்]
 

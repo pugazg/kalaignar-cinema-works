@@ -1,9 +1,9 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=48 start_pdf=63 start_printed=55 canonical_part=part-03 cross_part=true -->
 <!-- source: pdf=63 printed=55 status=verified-reconciled -->
 
-### காட்சி 48
+### காட்சி 48]
 
-(மில் வாசல்: ரோடு
+[மில் வாசல்: ரோடு
 
 [புண்யகோடியும் இரண்டு மூன்று தொழிலாளர்களும் பேசிக்கொண்டு வருகின்றனர்.)
 
