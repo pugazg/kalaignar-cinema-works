@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=74 start_pdf=90 start_printed=82 canonical_part=part-04 -->
 <!-- source: pdf=90 printed=82 status=verified-reconciled -->
 
-### காட்சி 74
+### காட்சி 74]
 
 [கோர்ட்
 

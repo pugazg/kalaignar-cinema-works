@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=41 start_pdf=52 start_printed=44 canonical_part=part-03 -->
 <!-- source: pdf=52 printed=44 status=verified-reconciled -->
 
-### காட்சி 41)
+### காட்சி 41]
 
 (பூமாலை வீடு
 

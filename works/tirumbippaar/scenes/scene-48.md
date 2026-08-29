@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=48 start_pdf=63 start_printed=55 canonical_part=part-03 cross_part=true -->
 <!-- source: pdf=63 printed=55 status=verified-reconciled -->
 
-### காட்சி 48
+### காட்சி 48]
 
 [மில் வாசல்: ரோடு
 

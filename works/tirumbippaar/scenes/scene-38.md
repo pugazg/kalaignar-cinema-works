@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=38 start_pdf=49 start_printed=41 canonical_part=part-03 -->
 <!-- source: pdf=49 printed=41 status=verified-reconciled -->
 
-### காட்சி 38)
+### காட்சி 38]
 
 [தெரு - இரவு
 

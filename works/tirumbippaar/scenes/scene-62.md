@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=62 start_pdf=79 start_printed=71 canonical_part=part-04 -->
 <!-- source: pdf=79 printed=71 status=verified-reconciled -->
 
-### காட்சி 62
+### காட்சி 62]
 
 (குமுதா நகருதல்)
 

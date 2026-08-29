@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=35 start_pdf=43 start_printed=35 canonical_part=part-03 -->
 <!-- source: pdf=43 printed=35 status=verified-reconciled -->
 
-### காட்சி 35)
+### காட்சி 35]
 
 (தோட்டம்- மாலை
 

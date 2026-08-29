@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=42 start_pdf=57 start_printed=49 canonical_part=part-03 -->
 <!-- source: pdf=57 printed=49 status=verified-reconciled -->
 
-### காட்சி 42)
+### காட்சி 42]
 
 (பூமாலை வீடு - மாடி அறை
 

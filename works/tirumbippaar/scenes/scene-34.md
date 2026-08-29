@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=34 start_pdf=42 start_printed=34 canonical_part=part-03 -->
 <!-- source: pdf=42 printed=34 status=verified-reconciled -->
 
-### காட்சி 34)
+### காட்சி 34]
 
 (கரகோஷம். புண்யகோடிக்கு ஒரே பூரிப்பு)
 

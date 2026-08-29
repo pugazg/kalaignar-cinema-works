@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=75 start_pdf=90 start_printed=82 canonical_part=part-04 -->
 <!-- source: pdf=90 printed=82 status=verified-reconciled -->
 
-### காட்சி 75)
+### காட்சி 75]
 
 [கருடன் பதிப்பகம்
 

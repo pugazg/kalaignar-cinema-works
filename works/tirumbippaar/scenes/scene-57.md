@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=57 start_pdf=71 start_printed=63 canonical_part=part-04 -->
 <!-- source: pdf=71 printed=63 status=verified-reconciled -->
 
-### காட்சி 57)
+### காட்சி 57]
 
 [சென்னையில் குமுதா வீடு
 

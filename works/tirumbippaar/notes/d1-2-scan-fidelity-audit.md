@@ -138,12 +138,52 @@ the pattern of earlier cases, from the heading audit alone, or from neighbouring
 unanimity is a result, not a rule that was applied. Scene 56 stores its location inside the Markdown
 heading rather than on its own line, and was corrected there.
 
-**Scene-number bracket — a second surface found while doing this.** 22 scene headings closed the scene
-number with `)` rather than `]`. The scan pages read for this pass show `]` for scenes 32, 44 and 56,
-and those three are corrected in canonical and scene. The remaining **19 are not changed**: they were
-not part of this adjudication and have no scan evidence yet. Deciding them from the three that were
-checked would be exactly the pattern-based reasoning this audit refuses. Printed p.36 additionally
-shows `காட்சி 36` with no closing bracket at all, which is preserved as printed.
+**Scene-number closing marker — ADJUDICATED (22 of 22).**
+A second surface, found while checking the location markers. An earlier revision corrected only the
+three with scan evidence and left 19 open. All are now closed, each inspected individually on the
+controlling scan at 400dpi.
+
+| scene | PDF | printed | scan | before | after |
+|---|---|---|---|---|---|
+| 30 | 36 | 28 | `]` | `)` | `]` |
+| 31 | 38 | 30 | `]` | `)` | `]` |
+| 33 | 41 | 33 | `]` | `)` | `]` |
+| 34 | 42 | 34 | `]` | `)` | `]` |
+| 35 | 43 | 35 | `]` | `)` | `]` |
+| 38 | 49 | 41 | `]` | `)` | `]` |
+| 39 | 50 | 42 | `]` | `)` | `]` |
+| 40 | 52 | 44 | `]` | `)` | `]` |
+| 41 | 52 | 44 | `]` | `)` | `]` |
+| 42 | 57 | 49 | `]` | `)` | `]` |
+| 43 | 57 | 49 | `].` | `).` | `].` |
+| 47 | 61 | 53 | `]` | `)` | `]` |
+| 55 | 69 | 61 | `]` | `)` | `]` |
+| 57 | 71 | 63 | `]` | `)` | `]` |
+| 63 | 79 | 71 | `]` | `)` | `]` |
+| 75 | 90 | 82 | `]` | `)` | `]` |
+| 82 | 99 | 91 | `]` | `)` | `]` |
+| 83 | 100 | 92 | `]` | `)` | `]` |
+| 84 | 102 | 94 | `]` | `)` | `]` |
+| 48 | 63 | 55 | `]` | *(none)* | `]` |
+| 62 | 79 | 71 | `]` | *(none)* | `]` |
+| 74 | 90 | 82 | `]` | *(none)* | `]` |
+
+**22 checked · 22 corrected · 0 already correct · 0 unresolved.** Scenes 32, 44 and 56 were resolved in
+the previous round and are not re-listed. Every reading was `]`; that is the result of twenty-two
+separate inspections, not a rule extended from the first three.
+
+Source anomalies are preserved rather than regularised: scene **5** prints `காட்சி 5[`, scene **36**
+prints `காட்சி 36` with **no** closing glyph, and scene **43** prints `காட்சி 43].` — bracket followed
+by a full stop.
+
+**Scene 45 speaker form — corrected on the user's direct PDF verification.**
+The user checked the controlling PDF: the source prints `பாண்டியன் : தொழிலாளர்கள்`, with **no** full
+stop after the speaker name. Canonical and the scene derivative both carried `பாண்டியன். :`; the stray
+stop is removed from both. The dialogue record `tirumbippaar-s045-d013` already held
+`speaker_label: "பாண்டியன்"` and is unchanged — it was correct all along, and the defect was in the
+layers above it. **No `பாண்டியன்.` label variant was created and the character inventory stays at 45
+exact source labels.** An earlier revision of this note flagged the record as the possible outlier;
+that reading is withdrawn.
 
 ## Scene-5 provenance chain
 
@@ -194,4 +234,30 @@ transcription, scene and dialogue layers, with `ஊஹூம்` absent from the
 
 Reader and EPUB artifacts remain **post-merge CI only** — `tirumbippaar-english-edition.yml` runs on
 push to `main`. No EPUB byte size or hash is asserted for this branch.
+
+## Final gate results (D1.2 closure)
+
+| gate | result |
+|---|---|
+| canonical↔scene | **1348/1348 exact text; 1348/1348 exact text + page; 0 mismatches** |
+| page attribution | **0** |
+| scene↔dialogue text | 1042 checked · 2 flagged · **0 unexplained** (both documented scene-72 structural records) |
+| scene↔dialogue provenance | **0 mismatches** |
+| dialogue↔translation provenance | **0 mismatches** (scene, page, speaker label) |
+| dialogue links | **1042 exactly once**, 0 duplicate, 0 orphan, 0 unlinked |
+| character source labels | **45** — no `பாண்டியன்.` variant exists |
+| translation/reader preflight | PASS |
+| heading markers | 18 location-opening + 22 scene-number closing · **0 unresolved** |
+
+Census: 104 canonical pages (83 `verified` + 21 `verified-reconciled`, 0 draft, 0 review,
+`printed = pdf − 8` with 0 violations) · 93 scenes · 1042 dialogue records · 1330 translation units.
+`ஊஹும்` stands at 5/5/5 across transcription, scenes and dialogues with **0 `ஊஹூம்` in live reading
+layers**; the only remaining occurrences of the superseded form are documentary, inside this note.
+
+Four scenes (57, 63, 81, 86) have one more dialogue record than a strict `label:` parser finds, because
+the source prints those labels without a colon, with a semicolon, or in Latin (`Echo`), and because
+scene 63 carries the deliberate `d020`/`d021` split. Each was checked individually; all are present with
+their labels and correct provenance.
+
+Reader and EPUB artifacts remain **post-merge CI only**; no EPUB hash is asserted for this branch.
 

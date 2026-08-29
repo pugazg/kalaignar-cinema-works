@@ -15,24 +15,24 @@ The `header / production label as printed` column preserves the source wording a
 | Scene | PDF | Printed | Header / production label as printed |
 |---:|---:|---:|---|
 | 1 | 9 | 1 | `[கோர்ட்` |
-| 2 | 10 | 2 | `[பூமால் வீடு—காலை நேரம்` |
+| 2 | 10 | 2 | `[பூமாலை வீடு—காலை நேரம்` |
 | 3 | 11 | 3 | `[Bath Room` |
-| 4 | 12 | 4 | `[பூமால் வீடு ஹால்` |
+| 4 | 12 | 4 | `[பூமாலை வீடு ஹால்` |
 | 5 | 13 | 5 | `[கருடன் பதிப்பகம், கோவை—முன் இரவு` |
 | 6 | 15 | 7 | `[குளக்கரையோரமுள்ள தென்னஞ்சோலை-பகல்` |
-| 7 | 17 | 9 | `[பூமால் வீடு-பகல்` |
-| 8 | 18 | 10 | `[பூமால் ஹால்` |
+| 7 | 17 | 9 | `[பூமாலை வீடு-பகல்` |
+| 8 | 18 | 10 | `[பூமாலை ஹால்` |
 | 9 | 18 | 10 | `[மாடியில் ஓர் அறை-பகல்` |
 | 10 | 18 | 10 | — |
 | 11 | 19 | 11 | `[ஆறு` |
-| 12 | 19 | 11 | `[பூமால் வீடு-பகல்` |
+| 12 | 19 | 11 | `[பூமாலை வீடு-பகல்` |
 | 13 | 21 | 13 | `[கருடன் பதிப்பகம்` |
 | 14 | 22 | 14 | `[ஸ்டேஜ்` |
 | 15 | 22 | 14 | `[புண்ணகோடி வீடு-இரவு` |
 | 16 | 24 | 16 | `[கருடன் பதிப்பகம்—பகல்` |
 | 17 | 24 | 16 | `[பாமா அறை—இரவு` |
 | 18 | 27 | 19 | `[பாண்டியன் அறை` |
-| 19 | 27 | 19 | `[பூமால் ஹால்—பகல்` |
+| 19 | 27 | 19 | `[பூமாலை ஹால்—பகல்` |
 | 20 | 28 | 20 | `[Rail Carriage—பகல்` |
 | 21 | 29 | 21 | `[சென்னை குமுதா வீடு—பகல்` |
 | 22 | 30 | 22 | `[ஹோட்டல் அறை` |
@@ -43,24 +43,24 @@ The `header / production label as printed` column preserves the source wording a
 | 27 | 32 | 24 | `[குமுதா வீடு—சென்னை` |
 | 28 | 32 | 24 | `[குமுதா வீடு—சென்னை` |
 | 29 | 34 | 26 | `[கருடன் பதிப்பகம்` |
-| 30 | 36 | 28 | `[பூமால் வீடு—பகல்` |
-| 31 | 38 | 30 | `[பூமால் வீடு` |
+| 30 | 36 | 28 | `[பூமாலை வீடு—பகல்` |
+| 31 | 38 | 30 | `[பூமாலை வீடு` |
 | 32 | 38 | 30 | `[கருடன் பதிப்பகம்` |
 | 33 | 41 | 33 | `[மில்` |
-| 34 | 42 | 34 | `[பூமால் பின்வீகளுடன்!]` |
+| 34 | 42 | 34 | `[பூமாலை பின்வீகளுடன்!]` |
 | 35 | 43 | 35 | `[கோட்டம்-மால்` |
 | 36 | 44 | 36 | `[ஒரு அறை` |
 | 37 | 46 | 38 | `[புண்ணகோடி வீடு` |
 | 38 | 49 | 41 | `[தெரு-இரவு` |
 | 39 | 50 | 42 | no same-line right label; immediately associated sub-label `[மில் முதலாளி அறை]` |
 | 40 | 52 | 44 | `[மில் Ext` |
-| 41 | 52 | 44 | `[பூமால் வீடு` |
-| 42 | 57 | 49 | `[பூமால் வீடு-மாடி அறை` |
+| 41 | 52 | 44 | `[பூமாலை வீடு` |
+| 42 | 57 | 49 | `[பூமாலை வீடு-மாடி அறை` |
 | 43 | 57 | 49 | `[கருடன் பதிப்பகம்-மால்` |
 | 44 | 58 | 50 | `[மைதானம்` |
 | 45 | 58 | 50 | `[மில் முதலாளி வீடு` |
 | 46 | 60 | 52 | `[கருடன் பதிப்பகம்` |
-| 47 | 61 | 53 | `[பூமால் வீடு. மாடி—இரவு` |
+| 47 | 61 | 53 | `[பூமாலை வீடு. மாடி—இரவு` |
 | 48 | 63 | 55 | `[மில் வாசல்: ரோடு` |
 | 49 | 64 | 56 | `[புண்ணகோடி வீடு.` |
 | 50 | 65 | 57 | `[குமுதா மதர்ஸ் வீடு: ஹால்` |
@@ -68,12 +68,12 @@ The `header / production label as printed` column preserves the source wording a
 | 52 | 67 | 59 | `[மில் கேண்டீன்` |
 | 53 | 68 | 60 | `[கருடன் பதிப்பகம்` |
 | 54 | 69 | 61 | `[Reading Room` |
-| 55 | 69 | 61 | `[பூமால் வீடு` |
+| 55 | 69 | 61 | `[பூமாலை வீடு` |
 | 56 | 70 | 62 | `[மில் முதலாளி வீடு` |
 | 57 | 71 | 63 | `[சென்னை குமுதா வீடு` |
 | 58 | 76 | 68 | `[News Paper Sheet` |
 | 59 | 76 | 68 | `[ஜெயில்` |
-| 60 | 77 | 69 | `[பூமால் வீடு` |
+| 60 | 77 | 69 | `[பூமாலை வீடு` |
 | 61 | 78 | 70 | `[டைப்ரைட்டிங் ஆபீஸ்` |
 | 62 | 79 | 71 | `[ஒரு வீட்டின் பின்புறம்` |
 | 63 | 79 | 71 | `[கருடன் பதிப்பகம்` |
@@ -89,18 +89,18 @@ The `header / production label as printed` column preserves the source wording a
 | 73 | 90 | 82 | `[ரோடு இரவு` |
 | 74 | 90 | 82 | `[கோர்ட்` |
 | 75 | 90 | 82 | `[கருடன் பதிப்பகம்` |
-| 76 | 91 | 83 | `[பூமால் வீடு` |
+| 76 | 91 | 83 | `[பூமாலை வீடு` |
 | 77 | 92 | 84 | `[மில் முதலாளி வீடு` |
 | 78 | 94 | 86 | `[ஜெயில்` |
 | 79 | 94 | 86 | `[குமுதா வீடு` |
-| 80 | 94 | 86 | `[பூமால் அறை` |
+| 80 | 94 | 86 | `[பூமாலை அறை` |
 | 81 | 98 | 90 | `[பாழடைந்த மண்டபம்` |
 | 82 | 99 | 91 | `[கருடன் பதிப்பகம்` |
 | 83 | 100 | 92 | `[சென்னை ஹோட்டல்` |
 | 84 | 102 | 94 | `[பிரசவ ஆஸ்பத்திரி` |
 | 85 | 102 | 94 | `[தெரு` |
 | 86 | 103 | 95 | `[வாட்ச்மேன் வீடு` |
-| 87 | 105 | 97 | `[பூமால் வீடு-கால்` |
+| 87 | 105 | 97 | `[பூமாலை வீடு-கால்` |
 | 88 | 105 | 97 | `[ஹோட்டல் ரூம்` |
 | 89 | 106 | 98 | `[ஹோட்டல் அறை-பகல்` |
 | 90 | 106 | 98 | `[பாமா வீடு` |
@@ -150,3 +150,23 @@ PDF 2 was re-inspected at high resolution. The lower imprint line visibly suppor
 - PDF-2 printer line: **partial source reading retained; cropped remainder unresolved**.
 
 The structural mapping gate remains **`verified`**. Canonical Tamil transcription is now also fully fidelity-verified across PDF **9–112 / printed pp.1–104**.
+
+## Scene-number closing marker — D1.2 adjudication
+
+The table above records the production/location label. The scene-number closing glyph is a separate
+source surface and was adjudicated in D1.2 directly against the controlling scan.
+
+All 19 headings that closed the number with `)` were inspected individually; every one prints `]`, and
+canonical and scene were corrected. Three further headings carried no closing glyph in the repository
+(scenes 48, 62, 74) while the scan prints `]`; those were corrected too. Scenes 32, 44 and 56 had been
+resolved the same way in the previous round.
+
+Source anomalies are preserved rather than regularised:
+
+- scene **5** prints `காட்சி 5[`;
+- scene **36** prints `காட்சி 36` with **no** closing glyph;
+- scene **43** prints `காட்சி 43].` — closing bracket followed by a full stop.
+
+The 17 location labels in the table that still read `பூமால்` have been updated to the scan-supported
+`பூமாலை`; they predated that correction and this document records the printed form.
+

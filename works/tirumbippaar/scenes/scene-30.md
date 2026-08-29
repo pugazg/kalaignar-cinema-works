@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=30 start_pdf=36 start_printed=28 canonical_part=part-03 -->
 <!-- source: pdf=36 printed=28 status=verified-reconciled -->
 
-### காட்சி 30) [பூமாலை வீடு- பகல்
+### காட்சி 30] [பூமாலை வீடு- பகல்
 
 (பையன் அழுதல்)
 

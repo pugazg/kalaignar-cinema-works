@@ -1,7 +1,7 @@
 <!-- derivative provenance: work=tirumbippaar canonical_scene=33 start_pdf=41 start_printed=33 canonical_part=part-03 -->
 <!-- source: pdf=41 printed=33 status=verified-reconciled -->
 
-### காட்சி 33) [மில்
+### காட்சி 33] [மில்
 
 [போலீஸ் 'பாரா'வோடு கூடிய ஆயிரக்கணக்கான தொழிலாளிகள் பரந்தாமனின் சொற்பொழிவுக்குக் காத்திருக்கின்றனர்]
 
