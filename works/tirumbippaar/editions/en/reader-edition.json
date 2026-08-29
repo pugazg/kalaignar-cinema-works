@@ -1731,10 +1731,10 @@
             ]
           },
           "translation": {
-            "english_text": "(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book",
+            "english_text": "(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book......",
             "mode": "prose-faithful",
             "notes": [
-              "The source utterance ends without added ellipsis after `ஆசிரியர்`; the English does not manufacture one."
+              "The source prints `உண்மையான ஆசிரியர்......`; the printed dots are carried into the English so the broken-off utterance stays visible, matching how unfinished utterances are rendered elsewhere in this edition. An earlier note wrongly said the source had no ellipsis here."
             ]
           }
         },
@@ -1807,8 +1807,8 @@
             "speaker_label": "கருடன்",
             "page_provenance": [
               {
-                "pdf_page": 13,
-                "printed_page": 5
+                "pdf_page": 14,
+                "printed_page": 6
               }
             ]
           },
@@ -2606,10 +2606,10 @@
             ]
           },
           "translation": {
-            "english_text": "I am going to put a noose around your neck too........",
+            "english_text": "To put a noose around your neck too.....",
             "mode": "prose-faithful",
             "notes": [
-              "The source's wordplay on `சுருக்கு` is retained literally so Paranthaman's next line can turn it toward the marriage cord."
+              "The source's wordplay on `சுருக்கு` is retained literally so Paranthaman's next line can turn it toward the marriage cord. The scan-adjudicated Tamil `சுருக்குப் போடப் .....` breaks off after the infinitive, so the English keeps the unfinished construction rather than supplying the finite verb the earlier reading assumed."
             ]
           }
         },
@@ -2716,10 +2716,10 @@
             ]
           },
           "translation": {
-            "english_text": "Why the doubt! (Putting a hand on her shoulder) We were introduced only yesterday. Today I touch you and play with you; are you afraid that tomorrow I may run away? Sweet-tongued one! Haven't you carefully noticed what I wrote in Illara Jothi?",
+            "english_text": "Why the doubt! (Putting a hand on her shoulder) Only yesterday he became acquainted. Today he touches and plays; are you afraid that tomorrow he may run away? Sweet-tongued one! Haven't you carefully noticed what I wrote in Illara Jothi?",
             "mode": "prose-faithful",
             "notes": [
-              "The corrected Tamil's sequence `நேற்று... இன்று... நாளை...` is retained explicitly; the book title remains transliterated without importing authorship claims into the speech."
+              "The corrected Tamil's sequence `நேற்று... இன்று... நாளை...` is retained explicitly. The scan-adjudicated forms `அறிமுகமானான்`, `விளையாடுகிறான்` and `ஓடிவிடுவானோ` are third person as printed and are rendered as such rather than normalised to first person; the closing `எழுதியிருக்கிறேன்` stays first person because the source prints it so. The book title remains transliterated without importing authorship claims into the speech."
             ]
           }
         },

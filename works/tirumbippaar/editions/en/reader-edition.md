@@ -332,7 +332,7 @@ Who are you...I feel I've seen you somewhere.... (suspiciously)
 
 <!-- unit:tirumbippaar-en-s005-u007; source:PDF 13 / printed 5 -->
 **பாண்டியன்**  
-(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book
+(Angrily) You may have forgotten. I am Pandiyan. Do you remember? (Showing the book in his hand) The true author of this book......
 
 <!-- unit:tirumbippaar-en-s005-u008; source:PDF 13 / printed 5 -->
 **கருடன்**  
@@ -342,7 +342,7 @@ No, no...but the cover says the author is Paranthaman!
 **பாண்டியன்**  
 What does the printing machine know of the injustice you commit? I am the one who thought and thought, turned all my red blood into sweat, bore the hardship and laboured for many days to write it—wouldn't I know who wrote it?
 
-<!-- unit:tirumbippaar-en-s005-u010; source:PDF 13 / printed 5 -->
+<!-- unit:tirumbippaar-en-s005-u010; source:PDF 14 / printed 6 -->
 **கருடன்**  
 No—Paranthaman.
 
@@ -454,7 +454,7 @@ The noose that fell on the pot slipped and fell around my neck,
 
 <!-- unit:tirumbippaar-en-s006-u006; source:PDF 16 / printed 8 -->
 **பரந்தாமன்**  
-I am going to put a noose around your neck too........
+To put a noose around your neck too.....
 
 <!-- unit:tirumbippaar-en-s006-u007; source:PDF 16 / printed 8 -->
 **பாமா**  
@@ -470,7 +470,7 @@ Won't all this end up as mere description?
 
 <!-- unit:tirumbippaar-en-s006-u010; source:PDF 16 / printed 8 -->
 **பரந்தாமன்**  
-Why the doubt! (Putting a hand on her shoulder) We were introduced only yesterday. Today I touch you and play with you; are you afraid that tomorrow I may run away? Sweet-tongued one! Haven't you carefully noticed what I wrote in Illara Jothi?
+Why the doubt! (Putting a hand on her shoulder) Only yesterday he became acquainted. Today he touches and plays; are you afraid that tomorrow he may run away? Sweet-tongued one! Haven't you carefully noticed what I wrote in Illara Jothi?
 
 <!-- unit:tirumbippaar-en-s006-u011; source:PDF 16 / printed 8 -->
 **பாமா**  

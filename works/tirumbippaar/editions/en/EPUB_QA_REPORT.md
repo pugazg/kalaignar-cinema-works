@@ -21,7 +21,7 @@
 ## Integrity
 
 - source scan SHA-256: `973b9c3f7b84d6a1902a4a472af8799c783bf1ec2d6cd015796fc1df1ce59682`
-- EPUB SHA-256: `88bf02ac345926d02a3b6e25ea262c3f6aafe59383a620b2bb160cdd3fabbb31`
-- EPUB bytes: **370218**
+- EPUB SHA-256: `955ce8adffe318ccbb5f77cb65afebb6951b7c7ac3091343adf2fd3dcb996ae0`
+- EPUB bytes: **370204**
 
 This package is a downstream publication derivative. Canonical Tamil, scene derivatives, dialogue records, character mappings and song inventory are not modified by packaging.

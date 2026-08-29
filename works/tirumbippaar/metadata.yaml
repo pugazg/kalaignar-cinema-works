@@ -93,11 +93,10 @@ correction_reconciliation:
   scene_41_dialogue_records: 38
   recovered_scene_41_record_ids: ["tirumbippaar-s041-d037", "tirumbippaar-s041-d038"]
   character_entity_layer_status: complete-verified-reconciled
-  song_performance_layer_status: complete-verified-reconciled
   english_source_reconciliation_status: complete-verified
   english_publication_layer_status: complete-verified
   canonical_part04_micro_sync: complete
-  note: "Canonical Tamil, all 93 scene/dialogue derivatives, the 1,042-record immutable dialogue corpus, character/entity mappings, the source-reconciled 8-occurrence song/performance inventory and the 1,330-unit English layer are synchronized. Deterministic reader and EPUB QA also pass."
+  note: "Canonical Tamil, all 93 scene/dialogue derivatives, the 1,042-record immutable dialogue corpus, character/entity mappings and the 1,330-unit English layer are synchronized. Deterministic reader and EPUB QA also pass."
 
 transcription_progress:
   status: complete-verified-reconciled
@@ -133,7 +132,7 @@ transcription_progress:
   historical_verified_printed_pages: "1-104"
   next_pdf_page: null
   next_printed_page: null
-  next_action: "Source reconciliation complete; deterministic English reader/EPUB publication package QA PASS; song/performance derivative gate closed at the source-supported 8-occurrence inventory with zero lyric files."
+  next_action: "Source reconciliation complete; deterministic English reader/EPUB publication package QA PASS."
 
 fidelity_audit:
   status: historical-complete-superseded-for-textual-correctness
@@ -365,8 +364,8 @@ structured_derivatives:
     translation_units: 1330
     scene_documents: 93
     zip_members: 99
-    byte_size: 370218
-    sha256: "88bf02ac345926d02a3b6e25ea262c3f6aafe59383a620b2bb160cdd3fabbb31"
+    byte_size: 370204
+    sha256: "955ce8adffe318ccbb5f77cb65afebb6951b7c7ac3091343adf2fd3dcb996ae0"
     deterministic: true
     qa_status: PASS
   next_structured_derivative: null
@@ -380,8 +379,8 @@ status:
   scene_text_derivatives: complete-verified-reconciled
   dialogue_index: complete-verified-reconciled
   character_index: complete-verified-reconciled
-  song_authorship_mapping: complete-verified-reconciled
-  song_tamil_derivatives: closed-no-source-full-lyrics
+  song_authorship_mapping: historical-complete
+  song_tamil_derivatives: not-started
   english_translation: complete-verified
   english_reader_edition: complete-verified
   english_epub_package: complete-verified
