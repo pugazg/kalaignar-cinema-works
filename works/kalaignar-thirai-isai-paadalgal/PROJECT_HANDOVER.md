@@ -35,12 +35,13 @@ the verified zero lyric-text drift, and the still-unresolved Kalaignar-authorshi
 inclusion boundary. Read that note before any downstream import, Reading Room
 application or authorship-inclusion work.
 
-The note is hand-written and lives under `notes/`, which the status generator
-never writes to. Do not move its contents into the audit, progress or work-readme
-documents: the generator rewrites each of those from its next-activity heading to
-end of file, and rewrites this file between its next-activity heading and its
-repository-boundary heading. Prose placed inside those ranges is removed on the
-next synchronization run.
+The note is hand-written and lives under `notes/`, outside status-generator
+control. `sync_status.py` owns only the regions delimited by its explicit
+`BEGIN GENERATED: reading-room-status` / `END GENERATED: reading-room-status`
+marker comments. Keep this pointer and all other human-authored prose outside
+those generated blocks; do not duplicate, relocate or nest the markers, and do
+not hand-edit generated content between them — change the generator and let it
+regenerate.
 
 ## Controlling source
 
