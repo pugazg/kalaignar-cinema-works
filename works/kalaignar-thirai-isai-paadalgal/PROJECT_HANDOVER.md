@@ -111,6 +111,26 @@ The payload uses film-first navigation (23 anthology film sections) with antholo
 
 **Site application status remains `not-applied`.** No separate Reading Room implementation repository has been modified by this project checkpoint.
 
+## Durable reconciliation record
+
+The cross-layer title/film metadata reconciliation completed before any Reading
+Room application is recorded in:
+
+`notes/READING_ROOM_TITLE_RECONCILIATION.md`
+
+It holds the five controlling-scan source adjudications, the three
+project-created English-title repairs, the work-specific title-authority rule,
+the verified zero lyric-text drift, and the still-unresolved Kalaignar-authorship
+inclusion boundary. Read that note before any downstream import, Reading Room
+application or authorship-inclusion work.
+
+The note is hand-written and lives under `notes/`, which the status generator
+never writes to. Do not move its contents into the audit, progress or work-readme
+documents: the generator rewrites each of those from its next-activity heading to
+end of file, and rewrites this file between its next-activity heading and its
+repository-boundary heading. Prose placed inside those ranges is removed on the
+next synchronization run.
+
 ## Exact next activity
 
 Apply the verified `integrations/reading-room/reading-room.json` payload in the separate Kalaignar Digital Library / Reading Room implementation repository only after that repository is explicitly authorized for modification. Preserve the source-faithful Tamil/English strings exactly; UI routing, cards, filters, search indexes and language switching remain presentation metadata.
