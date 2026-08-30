@@ -1,4 +1,4 @@
-# 007 — பேசும் யாழே பெண் மானே (சோகம்)
+# 007 — பேசும் யாழே பெண் மானே
 
 <!-- source: pdf=36 printed=36 anthology_song=007 status=verified -->
 

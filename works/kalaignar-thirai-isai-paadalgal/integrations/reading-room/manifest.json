@@ -1,0 +1,53 @@
+{
+  "work_id": "kalaignar-thirai-isai-paadalgal",
+  "integration": "reading-room",
+  "build_version": 1,
+  "status": "payload-complete-verified",
+  "site_application_status": "not-applied",
+  "deterministic": true,
+  "inputs": [
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.json",
+      "sha256": "f7b0143c8b02618ddb78f0d0b6c5c22ffb542ee1b230529442d8ab7026ead344",
+      "bytes": 354314
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/manifest.json",
+      "sha256": "ec07d967f4f21c1292e4bec3376b8b6a3a3a8c47dc10728a59caed2d5dcfad1c",
+      "bytes": 23051
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/index.json",
+      "sha256": "4f874a321466f24061808deb4add1f8bb91004170ef3ed0fffe3e2738101d918",
+      "bytes": 31253
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/songs/page-map.json",
+      "sha256": "04892e140ad776c9cbda012ccebd725667877117f935b61f85d23cad707b5287",
+      "bytes": 3280
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/translations/index.json",
+      "sha256": "f69a1cc391aad69f54c56e3f3c62bcbca651d54f058bd56cd732a102c933a4cf",
+      "bytes": 19604
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/build.py",
+      "sha256": "b2afc289f36f599e13416cf354d6f146f0e56f745ef087fdbea4deaf8fafaa66",
+      "bytes": 19056
+    }
+  ],
+  "outputs": [
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/reading-room.json",
+      "sha256": "8ec0e25f7fc1f1a9750d370ccbef5dd07caa66629a3dfacb8425bbeebd08fcce",
+      "bytes": 410660
+    },
+    {
+      "path": "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/QA_REPORT.md",
+      "sha256": "369ba39ee5dce7c3ef14e8c2aae61843e5d7dab387c4f2b2278c3e63ca38970e",
+      "bytes": 2514
+    }
+  ],
+  "manifest_note": "manifest.json intentionally does not hash itself to avoid a circular self-hash"
+}

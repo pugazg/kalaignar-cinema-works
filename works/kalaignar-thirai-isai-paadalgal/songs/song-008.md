@@ -1,4 +1,4 @@
-# 008 — வருவாய் வருவாய் வைபோக
+# 008 — வருவாய் வருவாய்...
 
 <!-- source: pdf=37 printed=37 anthology_song=008 status=verified -->
 
