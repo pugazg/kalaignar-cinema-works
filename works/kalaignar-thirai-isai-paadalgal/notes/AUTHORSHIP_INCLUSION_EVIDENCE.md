@@ -17,6 +17,14 @@ the proposed public inclusion set it produces. The machine-readable outputs are:
 > from every witness rather than one flattened statement per song, and the
 > inclusion set has been recomputed from the evidence. Any earlier statement
 > that this gate rested on the 2024 source alone is superseded by this note.
+>
+> **Second revision — owner publication decision.** The owner has since decided
+> that authorship certainty and public display eligibility are different
+> questions, and that the six unresolved அம்மையப்பன் lyrics should still
+> be shown in the Reading Room with their uncertainty disclosed. Section 8a
+> records that decision. The evidence and the authorship decisions below are
+> **unchanged**: 48 established, 6 unresolved. Any earlier statement that the
+> withheld songs are excluded from public display is superseded by section 8a.
 
 ## 1. Why this gate exists
 
@@ -233,6 +241,95 @@ The previous pass returned 46. The count was **recomputed from the evidence,
 not preserved**: songs 012 and 036 moved to `established-kalaignar` on 1989
 song-specific evidence, and `insufficient-evidence` fell to zero.
 
+## 8a. Owner publication decision — display is not authorship
+
+The owner has decided how this evidence is to be published. The decision changes
+no evidence and no authorship decision.
+
+| | Count |
+| --- | ---: |
+| Authorship **established** (Kalaignar) | **48** |
+| Authorship **unresolved** | **6** (013–018) |
+| **Publicly displayable** in the Reading Room | **54** |
+| May carry a positive Kalaignar-authorship claim | **48** |
+| Require an authorship-uncertainty notice | **6** (013–018) |
+
+### Why all 54 are displayable
+
+The controlling 2024 source presents its numbered corpus editorially as
+Kalaignar's film songs. Its front matter says so twice, in terms:
+
+> **PDF 12** — இன்று **கலைஞர் பெருமான் தமிழ்த் திரைப்படங்களுக்கு
+> எழுதிய பாடல்களை**த் தொகுக்க வைத்து கலைத்தமிழின்
+> கருணையும் எனக்குக் கிடைத்திருக்கிறது.
+
+> **PDF 16** — இதோ, கலைத்தாயை வாழ்வித்த **கலைஞர், படங்களுக்கு
+> எழுதிய பாடல்களின் தொகுப்பை** உங்கள் பார்வைக்குத்
+> தந்திருக்கிறேன். படியுங்கள். ரசியுங்கள்.
+> — நெல்லை ஜெயந்தா
+
+The purpose of the Reading Room is to represent that controlling source
+faithfully. All 54 numbered lyrics are part of its corpus, so all 54 are
+displayable as a source-backed collection.
+
+**This general editorial framing is not a song-level authorship finding, and it
+never overrides a source-internal exception.** It is exactly the framing that
+section 9 declined to treat as evidence for songs 013–018, and that has not
+changed.
+
+### Why அம்மையப்பன் is the exception
+
+The same source makes an explicit exception to its own framing. At PDF 43 the
+compiler prints one collective four-writer credit for the whole film and states
+that he reproduced all of that film's songs while being unable to establish
+which of them Kalaignar wrote. That caveat is source-internal and controls over
+the general front matter for these six songs.
+
+So the six are displayed, but they are **never publicly described as written by
+Kalaignar** — and equally never described as not his.
+
+### The rule, stated so downstream cannot misread it
+
+> **PUBLIC DISPLAY DOES NOT RESOLVE AUTHORSHIP.**
+> A song being displayable is not evidence that Kalaignar wrote it.
+
+Three separate record fields carry this, and the retired single `public_inclusion`
+boolean — which conflated the two questions — has been removed:
+
+- `public_display` — `true` for all 54;
+- `public_authorship_claim` — `true` only where the decision is `established-kalaignar`;
+- `authorship_notice_required` — `true` for any displayed song that is not established,
+  with `public_authorship_notice_group` naming the notice that must accompany it.
+
+The validator recomputes all three and fails if any of them drifts from the
+authorship decision, if a song is dropped from the display set, or if the retired
+boolean reappears.
+
+### The notice text
+
+Recorded in the register as notice group `ammayappan-unresolved`, covering songs
+013–018.
+
+**Tamil**
+
+> ஆசிரியர் குறிப்பு: 2024 தொகுப்பில் ‘அம்மையப்பன்’
+> திரைப்படத்தின் பாடல்கள் முழுமையாக இடம்பெற்றுள்ளன.
+> அவற்றில் எவை கலைஞர் எழுதியவை என்பதை உறுதிப்படுத்த
+> முடியவில்லை என்று தொகுப்பாசிரியர் குறிப்பிட்டுள்ளார். பாடல்
+> 012-க்கு தனித்த ஆதாரம் கிடைத்துள்ளது; பாடல்கள் 013–018-க்கு
+> தனிப்பட்ட பாடலாசிரியர் ஆதாரம் இதுவரை கிடைக்கவில்லை.
+
+**English**
+
+> Authorship note: The 2024 compilation includes all the songs from Ammayappan
+> and states that the compiler could not confirm which individual songs were
+> written by Kalaignar. Separate evidence establishes song 012; no song-specific
+> authorship evidence has been found for songs 013–018.
+
+A Reading Room surface that displays any song in this group must present this
+notice with it and must not present a Kalaignar-authorship claim for it. This is
+source metadata and a downstream contract only — **no page is built here.**
+
 ## 9. Song 012 — அம்மையப்பா அருள்புரிவாய் எல்லாம் உன் செயல்
 
 **Identity.** 1989 section 8, PDF 22–23, printed pp. 13–14. Its opening —
@@ -336,7 +433,9 @@ recorded as a source fact and is **not** negative evidence.
 
 All six remain `unresolved`. **Unresolved is not a finding that these songs are
 not Kalaignar's.** It is the absence of song-level evidence either way, and it
-is the state a stronger witness would change.
+is the state a stronger witness would change. Under the owner's publication
+decision (section 8a) all six are still **displayed**, carrying the authorship
+notice rather than an authorship claim.
 
 ## 12. Two title-match gaps, resolved on the lyric pages
 
@@ -426,9 +525,11 @@ validator computes the hash from the file and requires the manifest to match.
 ## 16. Status of this record
 
 The evidence gate is complete for all 54 numbered songs across both known
-witnesses. The proposed public inclusion set of **48** songs is a **proposal for
-independent review**; it has not been applied to any downstream edition,
-payload or Reading Room surface, and this work performs no such application.
+witnesses, and the owner's publication decision is recorded in section 8a.
+Authorship is established for **48** songs; **6** remain unresolved; **all 54**
+are displayable with the unresolved six carrying the notice above. Nothing here
+has been applied to any downstream edition, payload or Reading Room surface, and
+this work performs no such application.
 
 If a further witness is admitted later — a contemporary songbook, a film-era
 credit, a gramophone label — it enters as additional evidence items and the

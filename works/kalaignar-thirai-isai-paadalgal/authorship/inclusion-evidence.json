@@ -1,8 +1,8 @@
 {
   "work_id": "kalaignar-thirai-isai-paadalgal",
   "register": "kalaignar-authorship-inclusion-evidence",
-  "register_version": "2.0.0",
-  "status": "complete-54-song-cross-witness-pass",
+  "register_version": "3.0.0",
+  "status": "complete-54-song-cross-witness-pass-with-display-policy",
   "purpose": "Song-level Kalaignar-authorship evidence register for every numbered lyric in the controlling scan, holding structured evidence items from every inspected witness, and the evidence-backed proposed public inclusion set derived from them.",
   "controlling_source": {
     "identifier": "TVA_BOK_0065867",
@@ -33,7 +33,7 @@
     "unresolved": "The source leaves the lyricist undetermined for this song. Not a finding of non-authorship.",
     "insufficient-evidence": "No song-specific authorship evidence is present in the controlling source. Not a finding of non-authorship."
   },
-  "inclusion_rule": "A song enters the proposed public inclusion set if and only if at least one evidence item supports Kalaignar at evidence level A, B or C and no material conflict is declared. Level D never qualifies, whichever witness it comes from. unresolved and insufficient-evidence are never converted into “not Kalaignar”.",
+  "inclusion_rule": "Two independent determinations. AUTHORSHIP: the decision is established-kalaignar if and only if at least one evidence item supports Kalaignar at evidence level A, B or C and no material conflict is declared; level D never qualifies, whichever witness it comes from, and unresolved and insufficient-evidence are never converted into “not Kalaignar”. PUBLIC DISPLAY: every numbered lyric of the controlling source is displayable, and a displayed song whose authorship is not established carries an authorship-uncertainty notice instead of an authorship claim. Display eligibility is never evidence of authorship.",
   "scope_limits": [
     "This register adjudicates lyric authorship only, across the printed witnesses inspected.",
     "The 1989 volume is an earlier compilation witness, never a contemporary original-film credit.",
@@ -41,7 +41,8 @@
     "No authorship inference was drawn from theme, vocabulary, ideology, poetic style, chronology, or what sounds like Kalaignar.",
     "No date, venue, occasion, printed page number, song boundary, authorship or rights status has been supplied that the sources do not print.",
     "This register makes no rights or licensing determination.",
-    "Archival attribution_status is untouched: all 54 records remain anthology-attributed."
+    "Archival attribution_status is untouched: all 54 records remain anthology-attributed.",
+    "Public display eligibility is a publication decision, not an evidence finding, and resolves no authorship question."
   ],
   "counts": {
     "songs_registered": 54,
@@ -50,10 +51,12 @@
     "unresolved": 6,
     "insufficient_evidence": 0,
     "material_conflicts": 0,
-    "proposed_public_inclusion": 48,
     "evidence_items_total": 174,
     "evidence_items_2024": 108,
-    "evidence_items_1989": 66
+    "evidence_items_1989": 66,
+    "songs_displayable": 54,
+    "public_authorship_claim_positive": 48,
+    "authorship_notice_required": 6
   },
   "records": [
     {
@@ -67,7 +70,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -139,7 +145,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -197,7 +206,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -255,7 +267,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -327,7 +342,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -385,7 +403,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -443,7 +464,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -501,7 +525,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -560,7 +587,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -618,7 +648,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -676,7 +709,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -748,7 +784,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065773 (song-specific, level C). A later witness records uncertainty at film level rather than attributing the song to any other named writer; a source's declared inability to confirm is limiting evidence, not a competing attribution, and does not displace an explicit song-specific attribution.",
       "evidence_items": [
         {
@@ -820,7 +859,10 @@
       ],
       "material_conflict": false,
       "decision": "unresolved",
-      "public_inclusion": false,
+      "public_display": true,
+      "public_authorship_claim": false,
+      "authorship_notice_required": true,
+      "public_authorship_notice_group": "ammayappan-unresolved",
       "decision_basis": "No song-specific evidence at level A, B or C attributes this lyric to Kalaignar. The 2024 witness prints one collective four-writer credit for the whole film and states that it could not be confirmed which of the film's songs Kalaignar wrote. The 1989 witness includes this song within its collection-scoped authorship claim, which is positive but not song-specific (level D), and prints no editorial note naming Kalaignar for this song. The song therefore remains unresolved. Unresolved is not a finding that the song is not Kalaignar's; it is the absence of song-level evidence either way.",
       "evidence_items": [
         {
@@ -876,7 +918,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "unresolved",
-      "public_inclusion": false,
+      "public_display": true,
+      "public_authorship_claim": false,
+      "authorship_notice_required": true,
+      "public_authorship_notice_group": "ammayappan-unresolved",
       "decision_basis": "No song-specific evidence at level A, B or C attributes this lyric to Kalaignar. The 2024 witness prints one collective four-writer credit for the whole film and states that it could not be confirmed which of the film's songs Kalaignar wrote. This song is absent from the 1989 witness, which is a source fact and not negative evidence. The song therefore remains unresolved. Unresolved is not a finding that the song is not Kalaignar's; it is the absence of song-level evidence either way.",
       "evidence_items": [
         {
@@ -932,7 +977,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "unresolved",
-      "public_inclusion": false,
+      "public_display": true,
+      "public_authorship_claim": false,
+      "authorship_notice_required": true,
+      "public_authorship_notice_group": "ammayappan-unresolved",
       "decision_basis": "No song-specific evidence at level A, B or C attributes this lyric to Kalaignar. The 2024 witness prints one collective four-writer credit for the whole film and states that it could not be confirmed which of the film's songs Kalaignar wrote. This song is absent from the 1989 witness, which is a source fact and not negative evidence. The song therefore remains unresolved. Unresolved is not a finding that the song is not Kalaignar's; it is the absence of song-level evidence either way.",
       "evidence_items": [
         {
@@ -990,7 +1038,10 @@
       ],
       "material_conflict": false,
       "decision": "unresolved",
-      "public_inclusion": false,
+      "public_display": true,
+      "public_authorship_claim": false,
+      "authorship_notice_required": true,
+      "public_authorship_notice_group": "ammayappan-unresolved",
       "decision_basis": "No song-specific evidence at level A, B or C attributes this lyric to Kalaignar. The 2024 witness prints one collective four-writer credit for the whole film and states that it could not be confirmed which of the film's songs Kalaignar wrote. The 1989 witness includes this song within its collection-scoped authorship claim, which is positive but not song-specific (level D), and prints no editorial note naming Kalaignar for this song. The song therefore remains unresolved. Unresolved is not a finding that the song is not Kalaignar's; it is the absence of song-level evidence either way.",
       "evidence_items": [
         {
@@ -1046,7 +1097,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "unresolved",
-      "public_inclusion": false,
+      "public_display": true,
+      "public_authorship_claim": false,
+      "authorship_notice_required": true,
+      "public_authorship_notice_group": "ammayappan-unresolved",
       "decision_basis": "No song-specific evidence at level A, B or C attributes this lyric to Kalaignar. The 2024 witness prints one collective four-writer credit for the whole film and states that it could not be confirmed which of the film's songs Kalaignar wrote. This song is absent from the 1989 witness, which is a source fact and not negative evidence. The song therefore remains unresolved. Unresolved is not a finding that the song is not Kalaignar's; it is the absence of song-level evidence either way.",
       "evidence_items": [
         {
@@ -1104,7 +1158,10 @@
       ],
       "material_conflict": false,
       "decision": "unresolved",
-      "public_inclusion": false,
+      "public_display": true,
+      "public_authorship_claim": false,
+      "authorship_notice_required": true,
+      "public_authorship_notice_group": "ammayappan-unresolved",
       "decision_basis": "No song-specific evidence at level A, B or C attributes this lyric to Kalaignar. The 2024 witness prints one collective four-writer credit for the whole film and states that it could not be confirmed which of the film's songs Kalaignar wrote. The 1989 witness includes this song within its collection-scoped authorship claim, which is positive but not song-specific (level D), and prints no editorial note naming Kalaignar for this song. The song therefore remains unresolved. Unresolved is not a finding that the song is not Kalaignar's; it is the absence of song-level evidence either way.",
       "evidence_items": [
         {
@@ -1162,7 +1219,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1220,7 +1280,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1278,7 +1341,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1336,7 +1402,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1394,7 +1463,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1452,7 +1524,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1524,7 +1599,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1582,7 +1660,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1640,7 +1721,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1698,7 +1782,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1770,7 +1857,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1828,7 +1918,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1886,7 +1979,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -1958,7 +2054,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2016,7 +2115,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2074,7 +2176,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2132,7 +2237,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2190,7 +2298,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2262,7 +2373,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2334,7 +2448,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2406,7 +2523,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2462,7 +2582,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2520,7 +2643,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2578,7 +2704,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2650,7 +2779,10 @@
       ],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C); TVA_BOK_0065773 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2720,7 +2852,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2776,7 +2911,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2832,7 +2970,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2888,7 +3029,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -2944,7 +3088,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3000,7 +3147,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3056,7 +3206,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3112,7 +3265,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3168,7 +3324,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3224,7 +3383,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3280,7 +3442,10 @@
       "witness_1989_sections": [],
       "material_conflict": false,
       "decision": "established-kalaignar",
-      "public_inclusion": true,
+      "public_display": true,
+      "public_authorship_claim": true,
+      "authorship_notice_required": false,
+      "public_authorship_notice_group": null,
       "decision_basis": "Qualifying song-specific evidence attributes this lyric to Kalaignar: TVA_BOK_0065867 (song-specific, level C).",
       "evidence_items": [
         {
@@ -3441,5 +3606,61 @@
       "Else the decision is insufficient-evidence."
     ],
     "inclusion": "public_inclusion is true if and only if the decision is established-kalaignar and no material conflict is declared. The decision is a property of the record, not of any single evidence item: a record may hold positive items and limiting items at once."
-  }
+  },
+  "publication_policy": {
+    "decided_by": "work owner",
+    "summary": "Public display eligibility and authorship certainty are two different fields and are never collapsed into one. All 54 numbered lyrics of the controlling 2024 source are displayable in the Reading Room because they are that source's numbered corpus. Only the songs whose authorship is established may carry a positive Kalaignar-authorship claim; the rest are displayed with an explicit authorship-uncertainty notice.",
+    "general_editorial_scope_as_printed": {
+      "pdf_page_12": "இன்று கலைஞர் பெருமான் தமிழ்த் திரைப்படங்களுக்கு எழுதிய பாடல்களைத் தொகுக்க வைத்து கலைத்தமிழின் கருணையும் எனக்குக் கிடைத்திருக்கிறது.",
+      "pdf_page_16": "இதோ, கலைத்தாயை வாழ்வித்த கலைஞர், படங்களுக்கு எழுதிய பாடல்களின் தொகுப்பை உங்கள் பார்வைக்குத் தந்திருக்கிறேன். படியுங்கள். ரசியுங்கள்.",
+      "effect": "The controlling source presents its numbered corpus editorially as the songs Kalaignar wrote for films. This general editorial framing is what makes the whole numbered corpus displayable as a source-backed collection. It is NOT a song-level authorship finding and never overrides a source-internal exception."
+    },
+    "source_internal_exception": {
+      "film": "அம்மையப்பன்",
+      "song_ids": [
+        "kalaignar-song-013",
+        "kalaignar-song-014",
+        "kalaignar-song-015",
+        "kalaignar-song-016",
+        "kalaignar-song-017",
+        "kalaignar-song-018"
+      ],
+      "pdf_page": 43,
+      "effect": "The அம்மையப்பன் section is the explicit exception the source makes to its own general framing: the compiler states that he reproduced all of that film's songs while being unable to establish which of them Kalaignar wrote. The general front-matter framing must not be used to erase this caveat, and these songs are never promoted to established-kalaignar on the strength of it."
+    },
+    "rules": [
+      "public_display is true for all 54 numbered lyrics of the controlling source.",
+      "public_authorship_claim is true if and only if the authorship decision is established-kalaignar.",
+      "authorship_notice_required is true for any displayed song whose authorship decision is not established-kalaignar.",
+      "PUBLIC DISPLAY DOES NOT RESOLVE AUTHORSHIP. Displayability is never evidence of authorship and must never be read as one by any downstream consumer.",
+      "Songs 013-018 must never be publicly described as written by Kalaignar, and are never described as not Kalaignar's either."
+    ]
+  },
+  "public_authorship_notices": [
+    {
+      "group_id": "ammayappan-unresolved",
+      "film": "அம்மையப்பன்",
+      "song_ids": [
+        "kalaignar-song-013",
+        "kalaignar-song-014",
+        "kalaignar-song-015",
+        "kalaignar-song-016",
+        "kalaignar-song-017",
+        "kalaignar-song-018"
+      ],
+      "anthology_song_numbers": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "status": "unresolved-individual-authorship",
+      "notice_ta": "ஆசிரியர் குறிப்பு: 2024 தொகுப்பில் ‘அம்மையப்பன்’ திரைப்படத்தின் பாடல்கள் முழுமையாக இடம்பெற்றுள்ளன. அவற்றில் எவை கலைஞர் எழுதியவை என்பதை உறுதிப்படுத்த முடியவில்லை என்று தொகுப்பாசிரியர் குறிப்பிட்டுள்ளார். பாடல் 012-க்கு தனித்த ஆதாரம் கிடைத்துள்ளது; பாடல்கள் 013–018-க்கு தனிப்பட்ட பாடலாசிரியர் ஆதாரம் இதுவரை கிடைக்கவில்லை.",
+      "notice_en": "Authorship note: The 2024 compilation includes all the songs from Ammayappan and states that the compiler could not confirm which individual songs were written by Kalaignar. Separate evidence establishes song 012; no song-specific authorship evidence has been found for songs 013–018.",
+      "basis": "The 2024 compiler explicitly states his inability to confirm which அம்மையப்பன் songs Kalaignar wrote (PDF 43), printing one collective four-writer credit for the whole film. Song 012 is separately established from the 1989 witness's song-specific editorial note; songs 013-018 have no song-specific authorship evidence in either witness.",
+      "downstream_contract": "A Reading Room surface that displays any song in this group must present this notice with it, and must not present a Kalaignar-authorship claim for it. This is source metadata only; no page is built here."
+    }
+  ]
 }

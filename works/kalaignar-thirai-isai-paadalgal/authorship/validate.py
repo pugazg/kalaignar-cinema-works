@@ -4,12 +4,19 @@
 Checks that authorship/inclusion-evidence.json is a complete, internally
 consistent, song-level register over every numbered lyric in the controlling
 scan; that every record carries structured evidence items with full provenance
-from every inspected witness; that the decision and inclusion rules hold for
-every record independently of the stored values; that the 1989 cross-witness
-mapping agrees with the committed deduplication audit; that the archival
-attribution layer is untouched; and that authorship/public-inclusion.json is
-exactly the manifest derived from the register, pinning the register's own
-bytes and the source-main SHA the gate was adjudicated against.
+from every inspected witness; that the authorship rule and the separate
+public-display rules hold for every record independently of the stored values;
+that the 1989 cross-witness mapping agrees with the committed deduplication
+audit; that the archival attribution layer is untouched; and that
+authorship/public-inclusion.json is exactly the manifest derived from the
+register, pinning the register's own bytes and the source-main SHA the gate was
+adjudicated against.
+
+Authorship certainty and public display eligibility are two different fields.
+All 54 numbered lyrics are displayable; only the established ones may carry a
+positive Kalaignar-authorship claim, and every displayed song that is not
+established must carry an authorship-uncertainty notice. Display eligibility is
+never evidence of authorship.
 
 Exit codes (repository validator contract):
   0  success
@@ -35,6 +42,14 @@ METADATA_PATH = WORK / "metadata.yaml"
 DEDUP_PATH = WORK / "songs" / "SOURCE_WITNESS_0065773_DEDUP.md"
 
 EXPECTED_SONGS = 54
+# Owner-approved final data contract. A future evidence change must update these
+# deliberately; the validator will not let the corpus drift away from them silently.
+EXPECTED_ESTABLISHED = 48
+EXPECTED_UNRESOLVED = 6
+EXPECTED_DISPLAYABLE = 54
+EXPECTED_NOTICE_REQUIRED = 6
+NOTICE_SONG_NUMBERS = list(range(13, 19))
+NOTICE_GROUP = "ammayappan-unresolved"
 QUALIFYING_LEVELS = {"A", "B", "C"}
 LEVELS = {"A", "B", "C", "D"}
 DECISIONS = {"established-kalaignar", "established-other", "unresolved", "insufficient-evidence"}
@@ -88,7 +103,7 @@ def parse_dedup_map(text):
 
 
 def decide(items):
-    """Recompute decision, conflict and inclusion from evidence items alone."""
+    """Recompute the authorship decision and conflict from evidence items alone."""
     pos_k = [i for i in items
              if i.get("evidence_effect") == "supports-kalaignar" and i.get("evidence_level") in QUALIFYING_LEVELS]
     pos_o = [i for i in items
@@ -105,29 +120,38 @@ def decide(items):
         decision = "unresolved"
     else:
         decision = "insufficient-evidence"
-    return decision, conflict, decision == "established-kalaignar" and not conflict
+    return decision, conflict
 
 
 def derive_manifest(evidence, register_sha256):
-    included = [r for r in evidence["records"] if r["public_inclusion"]]
+    records = evidence["records"]
     counts = evidence["counts"]
+    displayable = [r for r in records if r["public_display"]]
+    established = [r for r in records if r["decision"] == "established-kalaignar"]
+    unresolved = [r for r in records if r["decision"] == "unresolved"]
+    notice = [r for r in records if r["authorship_notice_required"]]
     return {
         "work_id": evidence["work_id"],
-        "manifest": "kalaignar-authorship-public-inclusion",
+        "manifest": "kalaignar-authorship-and-display-contract",
         "manifest_version": evidence["register_version"],
         "derived_from": "authorship/inclusion-evidence.json",
         "derivation": (
-            "Every record in the evidence register whose public_inclusion is true, "
-            "in ascending anthology song number. This file is generated; edit the "
-            "evidence register and regenerate."
+            "Generated from the evidence register. Authorship certainty and public display "
+            "eligibility are separate fields and are listed separately below. This file is "
+            "generated; edit the evidence register and regenerate."
+        ),
+        "contract_note": (
+            "PUBLIC DISPLAY DOES NOT RESOLVE AUTHORSHIP. A song appearing in "
+            "displayable_song_ids is not thereby attributed to Kalaignar. Only "
+            "established_kalaignar_song_ids may carry a positive Kalaignar-authorship claim. "
+            "Songs in unresolved_authorship_song_ids are neither claimed as Kalaignar's nor "
+            "denied to him."
         ),
         "inclusion_rule": evidence["inclusion_rule"],
         "controlling_source_sha256": evidence["controlling_source"]["sha256"],
         "evidence_register_sha256": register_sha256,
         "source_main_sha": evidence["adjudicated_against_source_main_sha"],
-        "witness_sha256": {
-            w["identifier"]: w["sha256"] for w in evidence["witnesses"].values()
-        },
+        "witness_sha256": {w["identifier"]: w["sha256"] for w in evidence["witnesses"].values()},
         "decision_counts": {
             "established-kalaignar": counts["established_kalaignar"],
             "established-other": counts["established_other"],
@@ -136,17 +160,16 @@ def derive_manifest(evidence, register_sha256):
         },
         "material_conflicts": counts["material_conflicts"],
         "songs_registered": counts["songs_registered"],
-        "songs_included": len(included),
-        "songs_withheld": counts["songs_registered"] - len(included),
-        "withheld_note": (
-            "Songs absent from this manifest are withheld for want of song-level "
-            "evidence. Withholding is not a finding that the song is not Kalaignar's."
-        ),
-        "included_song_ids": [r["id"] for r in included],
-        "withheld": [
-            {"id": r["id"], "anthology_song_number": r["anthology_song_number"], "decision": r["decision"]}
-            for r in evidence["records"] if not r["public_inclusion"]
-        ],
+        "songs_displayable": len(displayable),
+        "songs_established_kalaignar": len(established),
+        "songs_unresolved_authorship": len(unresolved),
+        "songs_authorship_notice_required": len(notice),
+        "displayable_song_ids": [r["id"] for r in displayable],
+        "established_kalaignar_song_ids": [r["id"] for r in established],
+        "unresolved_authorship_song_ids": [r["id"] for r in unresolved],
+        "authorship_notice_required_song_ids": [r["id"] for r in notice],
+        "public_authorship_notices": evidence["public_authorship_notices"],
+        "archival_attribution_status": ARCHIVAL_STATUS,
     }
 
 
@@ -174,7 +197,8 @@ def main():
     if not dedup_map:
         cannot_validate("songs/SOURCE_WITNESS_0065773_DEDUP.md yielded no cross-witness mapping rows")
 
-    for key in ("records", "witnesses", "counts", "inclusion_rule", "adjudicated_against_source_main_sha"):
+    for key in ("records", "witnesses", "counts", "inclusion_rule", "adjudicated_against_source_main_sha",
+                "publication_policy", "public_authorship_notices"):
         if key not in evidence:
             cannot_validate(f"inclusion-evidence.json is missing required top-level key {key!r}")
     records = evidence["records"]
@@ -220,6 +244,27 @@ def main():
             f"songs/index.json attribution_status is no longer {ARCHIVAL_STATUS!r} for songs {stray}; "
             "this gate must not alter the archival attribution layer"
         )
+
+    # ----- declared public authorship notices ------------------------------
+    notice_groups = {}
+    for group in evidence.get("public_authorship_notices") or []:
+        gid = group.get("group_id")
+        if not gid:
+            errors.append("a public authorship notice group has no group_id")
+            continue
+        if gid in notice_groups:
+            errors.append(f"duplicate public authorship notice group {gid!r}")
+        for field in ("film", "song_ids", "status", "notice_ta", "notice_en", "basis"):
+            if not group.get(field):
+                errors.append(f"notice group {gid!r} is missing {field}")
+        notice_groups[gid] = set(group.get("song_ids") or [])
+    if NOTICE_GROUP not in notice_groups:
+        errors.append(f"the required authorship notice group {NOTICE_GROUP!r} is not declared")
+    else:
+        expected_ids = {f"kalaignar-song-{n:03d}" for n in NOTICE_SONG_NUMBERS}
+        if notice_groups[NOTICE_GROUP] != expected_ids:
+            errors.append(f"notice group {NOTICE_GROUP!r} covers {sorted(notice_groups[NOTICE_GROUP])}, "
+                          f"expected {sorted(expected_ids)}")
 
     seen = []
     for position, rec in enumerate(records, 1):
@@ -315,8 +360,8 @@ def main():
                 if not any(i.get("attribution_scope") == "not-present-in-witness" for i in items_1989):
                     errors.append(f"{tag}: absent from the 1989 witness but no absence item is recorded")
 
-        # Decision, conflict and inclusion are recomputed, never trusted.
-        decision, conflict, included = decide([i for i in items if isinstance(i, dict)])
+        # Authorship decision and conflict are recomputed, never trusted.
+        decision, conflict = decide([i for i in items if isinstance(i, dict)])
         if rec.get("decision") not in DECISIONS:
             errors.append(f"{tag}: unknown decision {rec.get('decision')!r}")
         elif rec.get("decision") != decision:
@@ -325,15 +370,37 @@ def main():
         if rec.get("material_conflict") is not conflict:
             errors.append(f"{tag}: material_conflict={rec.get('material_conflict')!r} contradicts its "
                           f"evidence items, which give {conflict}")
-        if not isinstance(rec.get("public_inclusion"), bool):
-            errors.append(f"{tag}: public_inclusion is not a boolean")
-        elif rec.get("public_inclusion") is not included:
-            errors.append(f"{tag}: public_inclusion={rec.get('public_inclusion')} contradicts the inclusion "
-                          f"rule, which gives {included}")
-        if rec.get("public_inclusion") and conflict:
-            errors.append(f"{tag}: included despite a declared material conflict")
-        if rec.get("public_inclusion") and rec.get("decision") in {"unresolved", "insufficient-evidence"}:
-            errors.append(f"{tag}: included while decided {rec.get('decision')!r}")
+        if "public_inclusion" in rec:
+            errors.append(f"{tag}: retired field public_inclusion is still present; authorship certainty and "
+                          "display eligibility must not share one boolean")
+
+        # Public display eligibility is independent of the authorship decision.
+        established = decision == "established-kalaignar" and not conflict
+        for field in ("public_display", "public_authorship_claim", "authorship_notice_required"):
+            if not isinstance(rec.get(field), bool):
+                errors.append(f"{tag}: {field} is missing or not a boolean")
+        if rec.get("public_display") is not True:
+            errors.append(f"{tag}: public_display is {rec.get('public_display')!r}; every numbered lyric of the "
+                          "controlling source is displayable under the owner's publication policy")
+        if rec.get("public_authorship_claim") is not established:
+            errors.append(f"{tag}: public_authorship_claim={rec.get('public_authorship_claim')!r} contradicts "
+                          f"the authorship decision {decision!r}")
+        if rec.get("public_authorship_claim") and not established:
+            errors.append(f"{tag}: carries a positive Kalaignar-authorship claim while decided {decision!r}")
+        expected_notice = bool(rec.get("public_display")) and not established
+        if rec.get("authorship_notice_required") is not expected_notice:
+            errors.append(f"{tag}: authorship_notice_required={rec.get('authorship_notice_required')!r} "
+                          f"contradicts the display/authorship rules, which give {expected_notice}")
+        group = rec.get("public_authorship_notice_group")
+        if expected_notice:
+            if not group:
+                errors.append(f"{tag}: requires an authorship notice but names no notice group")
+            elif group not in notice_groups:
+                errors.append(f"{tag}: names undeclared authorship notice group {group!r}")
+            elif rec.get("id") not in notice_groups[group]:
+                errors.append(f"{tag}: is not listed in the song_ids of notice group {group!r}")
+        elif group is not None:
+            errors.append(f"{tag}: requires no authorship notice but names notice group {group!r}")
 
         basis = rec.get("decision_basis")
         if not isinstance(basis, str) or len(basis.strip()) < 40:
@@ -359,11 +426,30 @@ def main():
         ("unresolved", tally["unresolved"]),
         ("insufficient_evidence", tally["insufficient-evidence"]),
         ("material_conflicts", sum(1 for r in records if r.get("material_conflict"))),
-        ("proposed_public_inclusion", sum(1 for r in records if r.get("public_inclusion"))),
+        ("songs_displayable", sum(1 for r in records if r.get("public_display"))),
+        ("public_authorship_claim_positive", sum(1 for r in records if r.get("public_authorship_claim"))),
+        ("authorship_notice_required", sum(1 for r in records if r.get("authorship_notice_required"))),
         ("evidence_items_total", item_total),
     ):
         if declared.get(key) != value:
             errors.append(f"counts.{key} is {declared.get(key)!r}, records give {value}")
+
+    # ----- owner-approved final data contract -------------------------------
+    for label, actual, expected in (
+        ("established-kalaignar", tally["established-kalaignar"], EXPECTED_ESTABLISHED),
+        ("unresolved", tally["unresolved"], EXPECTED_UNRESOLVED),
+        ("displayable", sum(1 for r in records if r.get("public_display")), EXPECTED_DISPLAYABLE),
+        ("authorship-notice-required", sum(1 for r in records if r.get("authorship_notice_required")),
+         EXPECTED_NOTICE_REQUIRED),
+        ("established-other", tally["established-other"], 0),
+        ("insufficient-evidence", tally["insufficient-evidence"], 0),
+    ):
+        if actual != expected:
+            errors.append(f"final data contract: {label} is {actual}, contract requires {expected}")
+    actual_notice = sorted(r["anthology_song_number"] for r in records if r.get("authorship_notice_required"))
+    if actual_notice != NOTICE_SONG_NUMBERS:
+        errors.append(f"final data contract: notice-required songs are {actual_notice}, "
+                      f"contract requires {NOTICE_SONG_NUMBERS}")
 
     # ----- derived manifest ------------------------------------------------
     try:
@@ -396,7 +482,10 @@ def main():
     print("decision_counts=", json.dumps(tally, ensure_ascii=False, sort_keys=True))
     print("material_conflicts=", sum(1 for r in records if r.get("material_conflict")))
     print("evidence_items=", item_total)
-    print("proposed_public_inclusion=", sum(1 for r in records if r.get("public_inclusion")))
+    print("songs_displayable=", sum(1 for r in records if r.get("public_display")))
+    print("public_authorship_claim_positive=", sum(1 for r in records if r.get("public_authorship_claim")))
+    print("authorship_notice_required=", sum(1 for r in records if r.get("authorship_notice_required")),
+          sorted(r["anthology_song_number"] for r in records if r.get("authorship_notice_required")))
     print("evidence_register_sha256=", register_sha256)
     print("source_main_sha=", evidence.get("adjudicated_against_source_main_sha"))
     print("manifest_mode=", "written" if write_mode else "verified")
