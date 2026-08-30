@@ -34,6 +34,7 @@ The three screenplay works remain at their completed checkpoints. The film-song 
 | Song/performance layer | 14/14 authorship verified | 3 verified / 5 unresolved | 1 verified / 1 review / 4 unresolved | 54/54 anthology-attributed lyric records verified |
 | English translation | 769 verified units | 1,321 verified units | 1,190 verified units | complete-verified — 54/54 songs |
 | English reader/export | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS | complete-verified, QA PASS — 54 songs / 1,105 lines-cues |
+| Reading Room payload | downstream | downstream | ready | complete-verified, QA PASS — 23 film groups / 54 songs; site not applied |
 | EPUB | not required | complete-verified, QA PASS | not required | not started/not required yet |
 | Required Tamil/source work remaining | none | none | none | none |
 
@@ -105,6 +106,6 @@ The cropped lower printer-imprint continuation on PDF 2 remains an intentional u
 
 No required Tamil/source transcription, Tamil fidelity, or English song-translation work remains for the anthology.
 
-The anthology English reader/export is **complete-verified with QA PASS**: 54/54 songs, 1,105/1,105 English lines-cues, all eight cross-page records, deterministic Markdown/HTML/JSON and an integrity manifest, with zero warnings/errors or text drift. No required repository-internal anthology activity remains; downstream Reading Room integration is ready.
+The anthology English reader/export is **complete-verified with QA PASS**. A deterministic Reading Room payload is also **complete-verified with QA PASS** at 23 film groups / 54 songs / 1,105 paired Tamil-English lines-cues / 8 cross-page songs, with zero warnings/errors or text drift. The separate public-site implementation remains not applied and requires explicit cross-repository authorization.
 
 Reading Room integration remains a separate downstream publication activity and is outside this repository-only audit unless explicitly requested.

@@ -75,10 +75,15 @@ The 1989 witness likewise supports anthology-level evidence for what it prints; 
 
 The 2024 anthology's `மந்திரிகுமாரி` editorial note mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
+## Reading Room integration payload
+
+A verified structured payload is now available at `integrations/reading-room/reading-room.json`, with QA in `integrations/reading-room/QA_REPORT.md` and deterministic hashes in `integrations/reading-room/manifest.json`.
+
+It contains **23 film groups / 54 songs / 1,105 paired Tamil-English lines-cues / 8 cross-page songs**, retaining exact archive IDs, source pages, item status history, printed credits where available and `anthology-attributed` state. QA reports **0 warnings / 0 errors / 0 Tamil or English text drift**.
+
+The payload is intended for structured-data consumption by the Kalaignar Digital Library / Reading Room. Search/navigation/language-switching are presentation concerns and must not rewrite stored Tamil or the source-faithful Kalaignar-language English.
+
 ## Next activity
 
-No additional parent `songs/` import remains from `TVA_BOK_0065773`; every one of its 40 numbered sections is already represented in the current verified song layer.
+The public Reading Room implementation itself remains `not-applied`. Apply this payload in the separate implementation repository only when that repository is explicitly authorized for modification.
 
-The completed **2024** source track remains ready for downstream Kalaignar Digital Library / Reading Room integration.
-
-If the 1989 witness is revisited later, treat that as a **separate textual-variant transcription/comparison project**. Do not create duplicate parent song records or overwrite verified 2024 song text merely to match the earlier witness.

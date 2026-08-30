@@ -93,18 +93,27 @@ The workflow integration commit observed on `main` was `0b8d833bf4696b30e7a0d1a1
 
 At the final explicit check in this chat, `integrations/reading-room/reading-room.json` was **not found on `main`**. Therefore do not claim that the integration-preparation gate has passed merely because builder/workflow code exists.
 
+## Reading Room integration payload checkpoint
+
+The downstream structured payload is **complete-verified** under `integrations/reading-room/`:
+
+- `reading-room.json` — 23 film groups, 54 songs, 1,105 paired lines-cues;
+- `QA_REPORT.md` — **PASS**;
+- `manifest.json` — deterministic input/output hashes;
+- `build.py` — deterministic payload builder;
+- `README.md` — integration contract and authority rules.
+
+Payload SHA-256: `8ec0e25f7fc1f1a9750d370ccbef5dd07caa66629a3dfacb8425bbeebd08fcce`.
+
+QA confirms zero song/translation/line ID duplication, zero anthology-order or film-group coverage drift, zero source-page drift, zero Tamil or English text drift, zero status/attribution drift, and **0 warnings / 0 errors**.
+
+The payload uses film-first navigation (23 anthology film sections) with anthology-song secondary navigation, preserves exact source IDs/page provenance, and keeps `anthology-attributed` distinct from original-film primary-source verification.
+
+**Site application status remains `not-applied`.** No separate Reading Room implementation repository has been modified by this project checkpoint.
+
 ## Exact next activity
 
-1. Inspect live `main`, recent commits and the latest GitHub Actions run for `.github/workflows/kalaignar-song-anthology-english-preflight.yml`.
-2. Check for all three generated outputs:
-   - `integrations/reading-room/reading-room.json`
-   - `integrations/reading-room/QA_REPORT.md`
-   - `integrations/reading-room/manifest.json`
-3. If absent, inspect the latest workflow job/steps/logs and diagnose the first failing step. Fix only the integration builder/workflow/status plumbing needed to make the deterministic gate pass.
-4. If present, verify QA **PASS**, **23/54/1,105**, exact `001–054` anthology order, `3 + 51` status history, `54 anthology-attributed`, all eight cross-page provenance arrays, source paths/IDs, and manifest integrity.
-5. Confirm repository status documents are synchronized by `sync_status.py` and contain no premature deployment claim.
-6. Once all checks pass, mark the **repository-internal Reading Room integration-preparation gate complete** and refresh `PROJECT_HANDOVER.md`, `CONTINUATION_GUIDELINES.md`, `NEXT_CHAT_PROMPT.md`, and relevant status files.
-7. Stop at the repository boundary unless the user explicitly brings the separate Reading Room implementation repository into scope.
+Apply the verified `integrations/reading-room/reading-room.json` payload in the separate Kalaignar Digital Library / Reading Room implementation repository only after that repository is explicitly authorized for modification. Preserve the source-faithful Tamil/English strings exactly; UI routing, cards, filters, search indexes and language switching remain presentation metadata.
 
 ## Repository boundary
 

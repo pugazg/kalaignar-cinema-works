@@ -145,6 +145,22 @@ reader_export:
   reading_room_integration: ready-after-reader-export-qa
   next_action: "Downstream Reading Room integration is ready; no required repository-internal transcription, translation, preflight, or reader/export work remains."
 
+reading_room_integration:
+  status: payload-complete-verified
+  payload_path: "integrations/reading-room/reading-room.json"
+  qa_report_path: "integrations/reading-room/QA_REPORT.md"
+  manifest_path: "integrations/reading-room/manifest.json"
+  build_script: "integrations/reading-room/build.py"
+  payload_sha256: "8ec0e25f7fc1f1a9750d370ccbef5dd07caa66629a3dfacb8425bbeebd08fcce"
+  film_groups: 23
+  songs: 54
+  line_cues: 1105
+  cross_page_songs: 8
+  warnings: 0
+  errors: 0
+  site_application_status: not-applied
+  next_action: "Apply the complete-verified payload in the separate Reading Room implementation repository only when that repository is explicitly authorized for modification."
+
 status:
   source_intake: complete
   full_pdf_song_page_scan: complete
@@ -154,3 +170,4 @@ status:
   english_translation: complete-verified
   english_reader_preflight: complete-pass
   reader_export: complete-verified
+  reading_room_payload: complete-verified
