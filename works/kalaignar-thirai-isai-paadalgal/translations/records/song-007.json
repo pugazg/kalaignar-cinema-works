@@ -8,8 +8,10 @@
   "source": {
     "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-007.md",
     "tamil_status": "verified",
-    "pdf_pages": [36],
-    "tamil_title": "பேசும் யாழே பெண் மானே (சோகம்)",
+    "pdf_pages": [
+      36
+    ],
+    "tamil_title": "பேசும் யாழே பெண் மானே",
     "film_title_ta": "நாம்",
     "attribution_status": "anthology-attributed"
   },

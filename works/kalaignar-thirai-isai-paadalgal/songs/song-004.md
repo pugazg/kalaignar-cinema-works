@@ -1,4 +1,4 @@
-# 004 — மாரி மகமாயி மாரி
+# 004 — மாரி மகமாயி மாரி மகமாயி
 
 <!-- source: pdf=33 printed=33 anthology_song=004 status=verified -->
 

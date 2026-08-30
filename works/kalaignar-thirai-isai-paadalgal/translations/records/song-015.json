@@ -8,8 +8,10 @@
   "source": {
     "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-015.md",
     "tamil_status": "verified",
-    "pdf_pages": [47],
-    "tamil_title": "காதல் துறையே புதுமைக் கனவே — சோக கீதம்",
+    "pdf_pages": [
+      47
+    ],
+    "tamil_title": "காதல் துறையே புதுமைக் கனவே (சோகம்)",
     "film_title_ta": "அம்மையப்பன்",
     "attribution_status": "anthology-attributed"
   },
@@ -36,8 +38,12 @@
         "ordinal": 2,
         "source_label": "(கா)",
         "english_label": "(Kaa — source refrain cue)",
-        "source_tamil_lines": ["(கா)"],
-        "english_lines": ["(Kaa — source refrain cue)"],
+        "source_tamil_lines": [
+          "(கா)"
+        ],
+        "english_lines": [
+          "(Kaa — source refrain cue)"
+        ],
         "notes": []
       },
       {
@@ -60,8 +66,12 @@
         "ordinal": 4,
         "source_label": "(கா)",
         "english_label": "(Kaa — source refrain cue)",
-        "source_tamil_lines": ["(கா)"],
-        "english_lines": ["(Kaa — source refrain cue)"],
+        "source_tamil_lines": [
+          "(கா)"
+        ],
+        "english_lines": [
+          "(Kaa — source refrain cue)"
+        ],
         "notes": []
       },
       {

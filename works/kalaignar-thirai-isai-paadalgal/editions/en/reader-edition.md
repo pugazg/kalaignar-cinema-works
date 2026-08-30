@@ -72,7 +72,7 @@
 ## 001 — He who labours for the village, di
 
 **Tamil title:** ஊருக்கு உழைப்பவண்டி  
-**Film:** மந்திரி குமாரி  
+**Film:** மந்திரிகுமாரி  
 **Source:** PDF 26  
 **Item status:** `pilot-verified`  
 **Attribution:** `anthology-attributed`  
@@ -276,7 +276,7 @@ Why were you born?
 <a id="song-004"></a>
 ## 004 — Mari Mahamayi, Mari Mahamayi
 
-**Tamil title:** மாரி மகமாயி மாரி  
+**Tamil title:** மாரி மகமாயி மாரி மகமாயி  
 **Film:** நாம்  
 **Source:** PDF 33  
 **Item status:** `verified`  
@@ -485,7 +485,7 @@ I am a flower without fragrance — without marriage — amma!
 <a id="song-007"></a>
 ## 007 — O speaking yaazh, O doe — lament
 
-**Tamil title:** பேசும் யாழே பெண் மானே (சோகம்)  
+**Tamil title:** பேசும் யாழே பெண் மானே  
 **Film:** நாம்  
 **Source:** PDF 36  
 **Item status:** `verified`  
@@ -545,7 +545,7 @@ Did you forget the affection that never changes — love?
 <a id="song-008"></a>
 ## 008 — Come, come... Vaibhoga Sundariye...
 
-**Tamil title:** வருவாய் வருவாய் வைபோக  
+**Tamil title:** வருவாய் வருவாய்...  
 **Film:** நாம்  
 **Source:** PDF 37  
 **Item status:** `verified`  
@@ -1017,7 +1017,7 @@ That dwells in the heart — come running.
 <a id="song-015"></a>
 ## 015 — O realm of love, O new dream — song of sorrow
 
-**Tamil title:** காதல் துறையே புதுமைக் கனவே — சோக கீதம்  
+**Tamil title:** காதல் துறையே புதுமைக் கனவே (சோகம்)  
 **Film:** அம்மையப்பன்  
 **Source:** PDF 47  
 **Item status:** `verified`  

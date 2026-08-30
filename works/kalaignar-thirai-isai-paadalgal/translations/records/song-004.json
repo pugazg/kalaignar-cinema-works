@@ -8,8 +8,10 @@
   "source": {
     "song_file": "works/kalaignar-thirai-isai-paadalgal/songs/song-004.md",
     "tamil_status": "verified",
-    "pdf_pages": [33],
-    "tamil_title": "மாரி மகமாயி மாரி",
+    "pdf_pages": [
+      33
+    ],
+    "tamil_title": "மாரி மகமாயி மாரி மகமாயி",
     "film_title_ta": "நாம்",
     "attribution_status": "anthology-attributed"
   },

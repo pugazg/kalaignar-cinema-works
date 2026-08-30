@@ -2,7 +2,8 @@
 
 <!-- source: pdf=26 printed=26 anthology_song=001 status=verified -->
 
-- film: `மந்திரி குமாரி`
+- film: `மந்திரிகுமாரி`
+- film title as printed on this lyric page: `மந்திரி குமாரி`
 - anthology film year: `1950`
 - music as printed: `ஜி.ராமநாதன்`
 - voice as printed: `பி.எஸ்.சுப்பையா`
