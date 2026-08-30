@@ -39,17 +39,41 @@ adjudicated in its own activity, recorded in:
 
 `notes/AUTHORSHIP_INCLUSION_EVIDENCE.md`
 
-That note explains the complete 54-song evidence gate, the evidence levels and
-decision vocabulary, the two withheld groups and why they are withheld, and the
-rule that `unresolved` and `insufficient-evidence` are never read as findings
-that a song is not Kalaignar's. Its machine-readable outputs are
-`authorship/inclusion-evidence.json`, `authorship/public-inclusion.json` and the
-fail-closed `authorship/validate.py`. The proposed public inclusion set is 46 of
-54 songs and is a proposal for independent review; it has not been applied to any
-edition, payload or Reading Room surface. All 54 records keep their
-`anthology-attributed` status — the register sits alongside that field and does
-not promote, downgrade or replace it. Read that note before any
-authorship-inclusion or public-selection work.
+That note explains the complete 54-song evidence gate across **both** known
+printed witnesses, the evidence levels and decision vocabulary, the withheld
+group and why it is withheld, and the rule that `unresolved` and
+`insufficient-evidence` are never read as findings that a song is not
+Kalaignar's.
+
+Witnesses adjudicated:
+
+- controlling 2024 `TVA_BOK_0065867` — per-film song lists with a per-song
+  lyricist column in 21 of 23 film sections;
+- earlier 1989 `TVA_BOK_0065773` — 40 numbered sections, no lyricist credit
+  anywhere, an explicit collection-scoped authorship claim in the compiler's
+  preface and the independent foreword, and song-specific editorial notes naming
+  கலைஞர் for 12 of those sections. Its 40 sections map to 39 current
+  records; 15 current songs are absent from it, which is a source fact and never
+  negative evidence.
+
+Current decisions: **48** `established-kalaignar`, **6** `unresolved`
+(013–018, அம்மையப்பன்), **0** `insufficient-evidence`, **0**
+`established-other`, **0** material conflicts. Proposed public inclusion set:
+**48 of 54**, a proposal for independent review that has not been applied to any
+edition, payload or Reading Room surface.
+
+Machine-readable outputs: `authorship/inclusion-evidence.json` (54 records, 174
+structured evidence items), `authorship/public-inclusion.json` (generated — do
+not hand-edit) and the fail-closed `authorship/validate.py`, which recomputes
+every decision and inclusion flag from the evidence items, re-parses the
+committed cross-witness mapping in `songs/SOURCE_WITNESS_0065773_DEDUP.md`,
+requires the manifest to pin the register's own SHA-256 and the source-main SHA
+the gate was adjudicated against, and fails if the archival attribution layer
+moves. Validator status: PASS.
+
+All 54 records keep their `anthology-attributed` status — the register sits
+alongside that field and does not promote, downgrade or replace it. Read that
+note before any authorship-inclusion or public-selection work.
 
 Both notes are hand-written and live under `notes/`, outside status-generator
 control. `sync_status.py` owns only the regions delimited by its explicit
