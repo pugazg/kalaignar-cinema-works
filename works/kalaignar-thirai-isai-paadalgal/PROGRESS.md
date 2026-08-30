@@ -67,6 +67,8 @@ Generated-output QA confirms **54/54 songs**, **1,105/1,105 English lines/cues**
 
 Kalaignar-language English is copied exactly from the verified records; the reader build performs no stylistic smoothing.
 
+<!-- BEGIN GENERATED: reading-room-status -->
+
 ## Reading Room integration payload
 
 A deterministic, source-linked Reading Room payload has been prepared under `integrations/reading-room/`.
@@ -91,4 +93,6 @@ The public-site implementation itself remains **not applied**; this repository h
 ## Next activity
 
 Apply the complete-verified payload in the separate Kalaignar Digital Library / Reading Room implementation repository **only when that repository is explicitly authorized for modification**. No Tamil, translation, reader/export or integration-payload text should be rewritten for UI convenience.
+
+<!-- END GENERATED: reading-room-status -->
 

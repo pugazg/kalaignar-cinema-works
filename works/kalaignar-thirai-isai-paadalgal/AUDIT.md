@@ -107,6 +107,8 @@ The preflight explicitly preserves the distinction between `pilot-verified` and 
 
 `editions/en/manifest.json` hashes **110 authoritative inputs** and the generated Markdown, HTML, JSON and QA report. Output SHA-256 values are recorded in `metadata.yaml`.
 
+<!-- BEGIN GENERATED: reading-room-status -->
+
 ## Reading Room integration payload gate
 
 **PASS — payload complete-verified; site application not applied.**
@@ -120,4 +122,6 @@ The downstream public-site repository has not been modified by this gate.
 ## Next activity
 
 Actual Reading Room site application is the only remaining downstream action. It requires explicit authorization for the separate implementation repository. The archive and integration payload must remain immutable inputs to that UI work.
+
+<!-- END GENERATED: reading-room-status -->
 

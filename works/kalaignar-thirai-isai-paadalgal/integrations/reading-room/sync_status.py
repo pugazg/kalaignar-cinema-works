@@ -33,27 +33,69 @@ if set(output_hashes) != {"reading-room.json", "QA_REPORT.md"}:
 
 
 def replace_idempotent(path: Path, old: str, new: str) -> None:
+    """Apply a targeted status swap once.
+
+    `new` is checked first on purpose. Several of these updates are append-style,
+    where `new` begins with the whole of `old` and adds a line or table row. If
+    `old` were tested first it would still match inside the already-updated text
+    and the addition would be appended again on every run.
+    """
     text = path.read_text(encoding="utf-8")
+    if new in text:
+        return
     if old in text:
         path.write_text(text.replace(old, new, 1), encoding="utf-8")
-        return
-    if new in text:
         return
     raise SystemExit(f"status synchronization text not found in {path.relative_to(ROOT)}")
 
 
+GENERATED_BEGIN = "<!-- BEGIN GENERATED: reading-room-status -->"
+GENERATED_END = "<!-- END GENERATED: reading-room-status -->"
+
+
 def replace_section(path: Path, start: str, end: str | None, new_section: str) -> None:
+    """Replace this script's generated block in `path`, idempotently.
+
+    Synchronization must satisfy ``F(F(x)) == F(x)``: a second run has to produce
+    no further diff. That requires boundaries the block does not itself reproduce,
+    so the block is delimited by explicit markers.
+
+    The earlier implementation anchored only on `start`, while every generated
+    block ends by re-emitting `start` as its own trailing heading. Each run then
+    found that copy inside the previously generated block and inserted the block
+    again ahead of it, so the generated sections grew by one copy per run.
+
+    A document with no markers yet is migrated once. That migration anchors on the
+    generated block's own first heading when it is already present, which also
+    collapses blocks duplicated by the earlier behaviour; otherwise it falls back
+    to `start`. Where the caller supplies `end`, the block stays bounded by it, so
+    hand-written prose outside the markers is never touched.
+    """
     text = path.read_text(encoding="utf-8")
-    start_pos = text.find(start)
+    block = f"{GENERATED_BEGIN}\n\n" + new_section.rstrip() + f"\n\n{GENERATED_END}\n\n"
+
+    begin_pos = text.find(GENERATED_BEGIN)
+    if begin_pos >= 0:
+        end_pos = text.find(GENERATED_END, begin_pos)
+        if end_pos < 0:
+            raise SystemExit(f"unterminated generated block in {path.relative_to(ROOT)}")
+        stop = end_pos + len(GENERATED_END)
+        while text[stop:stop + 1] == "\n":
+            stop += 1
+        if text[begin_pos:stop] == block:
+            return
+        path.write_text(text[:begin_pos] + block + text[stop:], encoding="utf-8")
+        return
+
+    generated_head = new_section.strip().split("\n", 1)[0].strip()
+    anchor = generated_head if generated_head and generated_head in text else start
+    start_pos = text.find(anchor)
     if start_pos < 0:
-        raise SystemExit(f"section {start!r} not found in {path.relative_to(ROOT)}")
-    end_pos = len(text) if end is None else text.find(end, start_pos + len(start))
+        raise SystemExit(f"section {anchor!r} not found in {path.relative_to(ROOT)}")
+    end_pos = len(text) if end is None else text.find(end, start_pos + len(anchor))
     if end_pos < 0:
         raise SystemExit(f"section end {end!r} not found in {path.relative_to(ROOT)}")
-    replacement = new_section.rstrip() + "\n\n"
-    if text[start_pos:end_pos] == replacement:
-        return
-    path.write_text(text[:start_pos] + replacement + text[end_pos:], encoding="utf-8")
+    path.write_text(text[:start_pos] + block + text[end_pos:], encoding="utf-8")
 
 
 registry_path = ROOT / "data" / "works.json"

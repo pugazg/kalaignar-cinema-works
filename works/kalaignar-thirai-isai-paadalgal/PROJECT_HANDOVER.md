@@ -22,6 +22,27 @@ Treat live GitHub `main` and current workflow state as authoritative over every 
 
 Then inspect live `main`, recent commits, and the latest workflow run before acting.
 
+## Durable reconciliation record
+
+The cross-layer title/film metadata reconciliation completed before any Reading
+Room application is recorded in:
+
+`notes/READING_ROOM_TITLE_RECONCILIATION.md`
+
+It holds the five controlling-scan source adjudications, the three
+project-created English-title repairs, the work-specific title-authority rule,
+the verified zero lyric-text drift, and the still-unresolved Kalaignar-authorship
+inclusion boundary. Read that note before any downstream import, Reading Room
+application or authorship-inclusion work.
+
+The note is hand-written and lives under `notes/`, outside status-generator
+control. `sync_status.py` owns only the regions delimited by its explicit
+`BEGIN GENERATED: reading-room-status` / `END GENERATED: reading-room-status`
+marker comments. Keep this pointer and all other human-authored prose outside
+those generated blocks; do not duplicate, relocate or nest the markers, and do
+not hand-edit generated content between them — change the generator and let it
+regenerate.
+
 ## Controlling source
 
 `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`
@@ -59,9 +80,14 @@ Exactly eight songs are cross-page and must retain complete provenance: `009` 38
 
 English preflight and deterministic reader/export are **complete-verified / PASS**. The reader contains **54 songs / 1,105 paired line cues / 0 warnings / 0 errors** at the completed checkpoint. Generated reader files must not be hand-edited; rebuild them from authoritative structured inputs.
 
-## Reading Room integration-preparation checkpoint
+## Historical pre-payload integration-preparation checkpoint
 
-Repository-internal Reading Room integration preparation has been implemented but its generated-output gate is **not yet recorded complete**.
+**Historical — superseded by the generated Reading Room status block below.** This
+section records an earlier checkpoint taken *before* the Reading Room payload was
+built and committed. Read current payload status from the generated block below
+and from live repository state, not from this section.
+
+At that earlier point, repository-internal Reading Room integration preparation had been implemented but its generated-output gate was **not yet recorded complete**.
 
 Implemented under `integrations/reading-room/`:
 
@@ -87,11 +113,15 @@ Expected payload invariants:
 
 `anthology-attributed` must not be promoted to primary-source-verified original-film authorship without separate upstream evidence.
 
-## Last known live checkpoint in this chat
+## Historical live checkpoint from an earlier chat
+
+**Historical — superseded by the generated Reading Room status block below.**
 
 The workflow integration commit observed on `main` was `0b8d833bf4696b30e7a0d1a16679105aa0c4c026` (`Build Reading Room payload after reader QA`). A subsequent workflow-related commit `b8f8565647d612e0a6e2e3e34bbf9c8fe7507e22` was also made during this activity. These are historical pointers only; the next chat must verify current `main` rather than assuming either is still HEAD.
 
-At the final explicit check in this chat, `integrations/reading-room/reading-room.json` was **not found on `main`**. Therefore do not claim that the integration-preparation gate has passed merely because builder/workflow code exists.
+At the final explicit check in that earlier chat, `integrations/reading-room/reading-room.json` was **not found on `main`**. That observation is **historical only**: the payload has since been built, committed and verified, and the generated block below records the current complete-verified status. The underlying caution still holds in general — builder or workflow code existing is not by itself evidence that a gate has passed — but it no longer describes this work's state.
+
+<!-- BEGIN GENERATED: reading-room-status -->
 
 ## Reading Room integration payload checkpoint
 
@@ -111,29 +141,11 @@ The payload uses film-first navigation (23 anthology film sections) with antholo
 
 **Site application status remains `not-applied`.** No separate Reading Room implementation repository has been modified by this project checkpoint.
 
-## Durable reconciliation record
-
-The cross-layer title/film metadata reconciliation completed before any Reading
-Room application is recorded in:
-
-`notes/READING_ROOM_TITLE_RECONCILIATION.md`
-
-It holds the five controlling-scan source adjudications, the three
-project-created English-title repairs, the work-specific title-authority rule,
-the verified zero lyric-text drift, and the still-unresolved Kalaignar-authorship
-inclusion boundary. Read that note before any downstream import, Reading Room
-application or authorship-inclusion work.
-
-The note is hand-written and lives under `notes/`, which the status generator
-never writes to. Do not move its contents into the audit, progress or work-readme
-documents: the generator rewrites each of those from its next-activity heading to
-end of file, and rewrites this file between its next-activity heading and its
-repository-boundary heading. Prose placed inside those ranges is removed on the
-next synchronization run.
-
 ## Exact next activity
 
 Apply the verified `integrations/reading-room/reading-room.json` payload in the separate Kalaignar Digital Library / Reading Room implementation repository only after that repository is explicitly authorized for modification. Preserve the source-faithful Tamil/English strings exactly; UI routing, cards, filters, search indexes and language switching remain presentation metadata.
+
+<!-- END GENERATED: reading-room-status -->
 
 ## Repository boundary
 
