@@ -31,11 +31,27 @@ Room application is recorded in:
 
 It holds the five controlling-scan source adjudications, the three
 project-created English-title repairs, the work-specific title-authority rule,
-the verified zero lyric-text drift, and the still-unresolved Kalaignar-authorship
-inclusion boundary. Read that note before any downstream import, Reading Room
-application or authorship-inclusion work.
+and the verified zero lyric-text drift. Read that note before any downstream
+import or Reading Room application.
 
-The note is hand-written and lives under `notes/`, outside status-generator
+The Kalaignar-authorship inclusion boundary it left open has since been
+adjudicated in its own activity, recorded in:
+
+`notes/AUTHORSHIP_INCLUSION_EVIDENCE.md`
+
+That note explains the complete 54-song evidence gate, the evidence levels and
+decision vocabulary, the two withheld groups and why they are withheld, and the
+rule that `unresolved` and `insufficient-evidence` are never read as findings
+that a song is not Kalaignar's. Its machine-readable outputs are
+`authorship/inclusion-evidence.json`, `authorship/public-inclusion.json` and the
+fail-closed `authorship/validate.py`. The proposed public inclusion set is 46 of
+54 songs and is a proposal for independent review; it has not been applied to any
+edition, payload or Reading Room surface. All 54 records keep their
+`anthology-attributed` status — the register sits alongside that field and does
+not promote, downgrade or replace it. Read that note before any
+authorship-inclusion or public-selection work.
+
+Both notes are hand-written and live under `notes/`, outside status-generator
 control. `sync_status.py` owns only the regions delimited by its explicit
 `BEGIN GENERATED: reading-room-status` / `END GENERATED: reading-room-status`
 marker comments. Keep this pointer and all other human-authored prose outside

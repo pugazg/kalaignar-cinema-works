@@ -1,0 +1,103 @@
+{
+  "work_id": "kalaignar-thirai-isai-paadalgal",
+  "manifest": "kalaignar-authorship-public-inclusion",
+  "manifest_version": "1.0.0",
+  "derived_from": "authorship/inclusion-evidence.json",
+  "derivation": "Every record in the evidence register whose public_inclusion is true, in ascending anthology song number. This file is generated; edit the evidence register and regenerate.",
+  "inclusion_rule": "A song enters the proposed public inclusion set if and only if its decision is established-kalaignar at evidence level A, B or C. Level D never qualifies. unresolved and insufficient-evidence are never converted into “not Kalaignar”.",
+  "controlling_source_sha256": "f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05",
+  "songs_registered": 54,
+  "songs_included": 46,
+  "songs_withheld": 8,
+  "withheld_note": "Songs absent from this manifest are withheld for want of song-level evidence. Withholding is not a finding that the song is not Kalaignar's.",
+  "included_song_ids": [
+    "kalaignar-song-001",
+    "kalaignar-song-002",
+    "kalaignar-song-003",
+    "kalaignar-song-004",
+    "kalaignar-song-005",
+    "kalaignar-song-006",
+    "kalaignar-song-007",
+    "kalaignar-song-008",
+    "kalaignar-song-009",
+    "kalaignar-song-010",
+    "kalaignar-song-011",
+    "kalaignar-song-019",
+    "kalaignar-song-020",
+    "kalaignar-song-021",
+    "kalaignar-song-022",
+    "kalaignar-song-023",
+    "kalaignar-song-024",
+    "kalaignar-song-025",
+    "kalaignar-song-026",
+    "kalaignar-song-027",
+    "kalaignar-song-028",
+    "kalaignar-song-029",
+    "kalaignar-song-030",
+    "kalaignar-song-031",
+    "kalaignar-song-032",
+    "kalaignar-song-033",
+    "kalaignar-song-034",
+    "kalaignar-song-035",
+    "kalaignar-song-037",
+    "kalaignar-song-038",
+    "kalaignar-song-039",
+    "kalaignar-song-040",
+    "kalaignar-song-041",
+    "kalaignar-song-042",
+    "kalaignar-song-043",
+    "kalaignar-song-044",
+    "kalaignar-song-045",
+    "kalaignar-song-046",
+    "kalaignar-song-047",
+    "kalaignar-song-048",
+    "kalaignar-song-049",
+    "kalaignar-song-050",
+    "kalaignar-song-051",
+    "kalaignar-song-052",
+    "kalaignar-song-053",
+    "kalaignar-song-054"
+  ],
+  "withheld": [
+    {
+      "id": "kalaignar-song-012",
+      "anthology_song_number": 12,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-013",
+      "anthology_song_number": 13,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-014",
+      "anthology_song_number": 14,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-015",
+      "anthology_song_number": 15,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-016",
+      "anthology_song_number": 16,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-017",
+      "anthology_song_number": 17,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-018",
+      "anthology_song_number": 18,
+      "decision": "unresolved"
+    },
+    {
+      "id": "kalaignar-song-036",
+      "anthology_song_number": 36,
+      "decision": "insufficient-evidence"
+    }
+  ]
+}

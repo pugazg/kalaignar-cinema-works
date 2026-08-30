@@ -11,7 +11,8 @@ removed the hand-written prose. That behaviour is by design; the record simply
 belonged somewhere the generator does not own.
 
 Read this note before any downstream import, Reading Room application, or
-authorship-inclusion work.
+authorship-inclusion work. For the authorship-inclusion question specifically,
+read `notes/AUTHORSHIP_INCLUSION_EVIDENCE.md` alongside it.
 
 ---
 
@@ -225,6 +226,15 @@ Determining the Kalaignar-authored inclusion set is a **separate pre-E1 gate**.
 It was deliberately not attempted here: no song was removed, no attribution
 status promoted or downgraded, and no public inclusion count is asserted by this
 record.
+
+**Since superseded in part.** That separate gate has since been performed as its
+own activity and is recorded in `notes/AUTHORSHIP_INCLUSION_EVIDENCE.md`, with
+machine-readable outputs under `authorship/`. The paragraphs above remain an
+accurate account of what *this* reconciliation did and did not do; read the
+authorship note for the current state of the inclusion question. That gate
+likewise changed no `attribution_status` field: all 54 records remain
+`anthology-attributed`, and the inclusion register sits alongside that status
+rather than replacing it.
 
 ---
 
