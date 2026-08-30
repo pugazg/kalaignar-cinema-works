@@ -75,6 +75,8 @@ The 1989 witness likewise supports anthology-level evidence for what it prints; 
 
 The 2024 anthology's `மந்திரிகுமாரி` editorial note mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
 
+<!-- BEGIN GENERATED: reading-room-status -->
+
 ## Reading Room integration payload
 
 A verified structured payload is now available at `integrations/reading-room/reading-room.json`, with QA in `integrations/reading-room/QA_REPORT.md` and deterministic hashes in `integrations/reading-room/manifest.json`.
@@ -86,4 +88,6 @@ The payload is intended for structured-data consumption by the Kalaignar Digital
 ## Next activity
 
 The public Reading Room implementation itself remains `not-applied`. Apply this payload in the separate implementation repository only when that repository is explicitly authorized for modification.
+
+<!-- END GENERATED: reading-room-status -->
 
