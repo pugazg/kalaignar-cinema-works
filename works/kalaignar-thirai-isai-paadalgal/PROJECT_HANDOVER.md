@@ -79,9 +79,14 @@ Exactly eight songs are cross-page and must retain complete provenance: `009` 38
 
 English preflight and deterministic reader/export are **complete-verified / PASS**. The reader contains **54 songs / 1,105 paired line cues / 0 warnings / 0 errors** at the completed checkpoint. Generated reader files must not be hand-edited; rebuild them from authoritative structured inputs.
 
-## Reading Room integration-preparation checkpoint
+## Historical pre-payload integration-preparation checkpoint
 
-Repository-internal Reading Room integration preparation has been implemented but its generated-output gate is **not yet recorded complete**.
+**Historical — superseded by the generated Reading Room status block below.** This
+section records an earlier checkpoint taken *before* the Reading Room payload was
+built and committed. Read current payload status from the generated block below
+and from live repository state, not from this section.
+
+At that earlier point, repository-internal Reading Room integration preparation had been implemented but its generated-output gate was **not yet recorded complete**.
 
 Implemented under `integrations/reading-room/`:
 
@@ -107,11 +112,13 @@ Expected payload invariants:
 
 `anthology-attributed` must not be promoted to primary-source-verified original-film authorship without separate upstream evidence.
 
-## Last known live checkpoint in this chat
+## Historical live checkpoint from an earlier chat
+
+**Historical — superseded by the generated Reading Room status block below.**
 
 The workflow integration commit observed on `main` was `0b8d833bf4696b30e7a0d1a16679105aa0c4c026` (`Build Reading Room payload after reader QA`). A subsequent workflow-related commit `b8f8565647d612e0a6e2e3e34bbf9c8fe7507e22` was also made during this activity. These are historical pointers only; the next chat must verify current `main` rather than assuming either is still HEAD.
 
-At the final explicit check in this chat, `integrations/reading-room/reading-room.json` was **not found on `main`**. Therefore do not claim that the integration-preparation gate has passed merely because builder/workflow code exists.
+At the final explicit check in that earlier chat, `integrations/reading-room/reading-room.json` was **not found on `main`**. That observation is **historical only**: the payload has since been built, committed and verified, and the generated block below records the current complete-verified status. The underlying caution still holds in general — builder or workflow code existing is not by itself evidence that a gate has passed — but it no longer describes this work's state.
 
 <!-- BEGIN GENERATED: reading-room-status -->
 
