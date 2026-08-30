@@ -319,13 +319,13 @@
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-007.json",
-      "sha256": "a00b04ef461897e21c9e6cd81b95dd16e10fbe7912b324f833815484f5b40523",
-      "bytes": 4837
+      "sha256": "1cd9957d99a6067e11e4438d0a3fb7c2a50f6a5db65c8a22ef6ff73eaefa9241",
+      "bytes": 4826
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-008.json",
-      "sha256": "3e2d92426217471c6d7240ddd5cdd33470229906c69d2f32b754699e832f8c5d",
-      "bytes": 4860
+      "sha256": "0b887103f4fcbac47317b6d3001166c11f40600067f1dd2afc7d3bafee55f1aa",
+      "bytes": 4838
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-009.json",
@@ -359,8 +359,8 @@
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-015.json",
-      "sha256": "9805d0568505d0247e231bd5dfb018e878b5af0fd9d9caf275eab452a4a3dadc",
-      "bytes": 4395
+      "sha256": "8945c204814a0abe88816733061c876964bba69b3b737b96ca2ea727f184de12",
+      "bytes": 4385
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/translations/records/song-016.json",
@@ -561,18 +561,18 @@
   "outputs": [
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.md",
-      "sha256": "e522f7cc1508667af511cff62c8c50520618c53a43b299ca5a63739d6eaa500a",
-      "bytes": 123993
+      "sha256": "30c807ede63949b5c600a6ab3a2d3cbe49eeb6f1b42f1dcd9538a0b3c9939b8c",
+      "bytes": 123907
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.html",
-      "sha256": "a330168a561cd80eb569d8d58a0f853d8fafa5d750f1cb23677bee8fc3f0da2d",
-      "bytes": 187817
+      "sha256": "690bea2680cdd6d0e6c0ab0eb4785d3cefebb319619e96a90915563ae96dda99",
+      "bytes": 187731
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.json",
-      "sha256": "e293d9df35930ba60bbb8987e7afeaea95befd124be182cb6ffa9db1f68bc90d",
-      "bytes": 354357
+      "sha256": "f7b0143c8b02618ddb78f0d0b6c5c22ffb542ee1b230529442d8ab7026ead344",
+      "bytes": 354314
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/QA_REPORT.md",

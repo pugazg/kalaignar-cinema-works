@@ -155,7 +155,16 @@ correction of a previously false audit.
 - English lyric-line changes: **0** — the aggregate SHA-256 over all 1,105
   stored English lines is unchanged, as is the aggregate over their paired
   Tamil, and every line ID is identical;
-- changed fields: **5**, all song-title or film-label metadata;
+- source-side adjudications: **5** metadata discrepancies — one film label
+  (`001`) and four canonical song titles (`004`, `007`, `008`, `015`);
+- project-created English-title derivatives refreshed: **3** (`007`, `008`,
+  `015`), re-derived from their corrected canonical Tamil titles after
+  independent review found they still carried the superseded wording.
+  `007` dropped a qualifier taken from the voice credit and now matches `005`,
+  which carries the identical Tamil title; `008` dropped a continuation taken
+  from the following lyric line; `015` renders the title's own `(சோகம்)` as a
+  parenthetical qualifier rather than restating the page context label
+  `சோக கீதம்`, which remains in the section layer;
 - corpus census unchanged: **23** films, **54** songs, **1,105** line-cues,
   **8** cross-page records, **3** pilot-verified / **51** verified,
   **54** `anthology-attributed`;

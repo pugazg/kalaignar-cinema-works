@@ -8,12 +8,12 @@
   "inputs": [
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/reader-edition.json",
-      "sha256": "e293d9df35930ba60bbb8987e7afeaea95befd124be182cb6ffa9db1f68bc90d",
-      "bytes": 354357
+      "sha256": "f7b0143c8b02618ddb78f0d0b6c5c22ffb542ee1b230529442d8ab7026ead344",
+      "bytes": 354314
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/editions/en/manifest.json",
-      "sha256": "b7351675a049128b12d8fadb9005040b544260c8b4f3fcfe6fce9281cbd58264",
+      "sha256": "ec07d967f4f21c1292e4bec3376b8b6a3a3a8c47dc10728a59caed2d5dcfad1c",
       "bytes": 23051
     },
     {
@@ -40,8 +40,8 @@
   "outputs": [
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/reading-room.json",
-      "sha256": "8cbfa4cf25ec0f8a07145d51d8fe2eaaec5324f3278898f713ffd3c4e3370c7e",
-      "bytes": 410703
+      "sha256": "8ec0e25f7fc1f1a9750d370ccbef5dd07caa66629a3dfacb8425bbeebd08fcce",
+      "bytes": 410660
     },
     {
       "path": "works/kalaignar-thirai-isai-paadalgal/integrations/reading-room/QA_REPORT.md",

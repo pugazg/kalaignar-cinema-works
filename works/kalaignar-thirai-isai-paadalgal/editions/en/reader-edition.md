@@ -17,15 +17,15 @@
 - [004 — Mari Mahamayi, Mari Mahamayi](#song-004)
 - [005 — O speaking yaazh, O doe](#song-005)
 - [006 — I am a flower without fragrance — without marriage — amma!](#song-006)
-- [007 — O speaking yaazh, O doe — lament](#song-007)
-- [008 — Come, come... Vaibhoga Sundariye...](#song-008)
+- [007 — O speaking yaazh, O doe](#song-007)
+- [008 — Come, come...](#song-008)
 - [009 — Let us lay out a new path](#song-009)
 - [010 — Long live, long live, long live, long live!](#song-010)
 - [011 — We need a heart that can bear anything](#song-011)
 - [012 — Ammaiyappa, grant your grace — all is your doing](#song-012)
 - [013 — Look at the blue sea, paappa...](#song-013)
 - [014 — O realm of love, O new dream](#song-014)
-- [015 — O realm of love, O new dream — song of sorrow](#song-015)
+- [015 — O realm of love, O new dream (sorrow)](#song-015)
 - [016 — O little new flower](#song-016)
 - [017 — Shattered is my love's living portrait](#song-017)
 - [018 — Why does the love-dove speak into the ear?](#song-018)
@@ -483,7 +483,7 @@ I am a flower without fragrance — without marriage — amma!
 ---
 
 <a id="song-007"></a>
-## 007 — O speaking yaazh, O doe — lament
+## 007 — O speaking yaazh, O doe
 
 **Tamil title:** பேசும் யாழே பெண் மானே  
 **Film:** நாம்  
@@ -543,7 +543,7 @@ Did you forget the affection that never changes — love?
 ---
 
 <a id="song-008"></a>
-## 008 — Come, come... Vaibhoga Sundariye...
+## 008 — Come, come...
 
 **Tamil title:** வருவாய் வருவாய்...  
 **Film:** நாம்  
@@ -1015,7 +1015,7 @@ That dwells in the heart — come running.
 ---
 
 <a id="song-015"></a>
-## 015 — O realm of love, O new dream — song of sorrow
+## 015 — O realm of love, O new dream (sorrow)
 
 **Tamil title:** காதல் துறையே புதுமைக் கனவே (சோகம்)  
 **Film:** அம்மையப்பன்  

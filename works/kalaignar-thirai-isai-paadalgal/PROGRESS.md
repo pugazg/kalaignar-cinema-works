@@ -57,9 +57,9 @@ The preflight does not rewrite Tamil or English. Kalaignar-language decisions al
 
 Generated under `editions/en/`:
 
-- `reader-edition.md` — **123,993 bytes**, SHA-256 `e522f7cc1508667af511cff62c8c50520618c53a43b299ca5a63739d6eaa500a`;
-- `reader-edition.html` — **187,817 bytes**, SHA-256 `a330168a561cd80eb569d8d58a0f853d8fafa5d750f1cb23677bee8fc3f0da2d`;
-- `reader-edition.json` — **354,357 bytes**, SHA-256 `e293d9df35930ba60bbb8987e7afeaea95befd124be182cb6ffa9db1f68bc90d`;
+- `reader-edition.md` — **123,907 bytes**, SHA-256 `30c807ede63949b5c600a6ab3a2d3cbe49eeb6f1b42f1dcd9538a0b3c9939b8c`;
+- `reader-edition.html` — **187,731 bytes**, SHA-256 `690bea2680cdd6d0e6c0ab0eb4785d3cefebb319619e96a90915563ae96dda99`;
+- `reader-edition.json` — **354,314 bytes**, SHA-256 `f7b0143c8b02618ddb78f0d0b6c5c22ffb542ee1b230529442d8ab7026ead344`;
 - `QA_REPORT.md` — generated-output QA **PASS**;
 - `manifest.json` — deterministic checkpoint across **110 authoritative inputs** and all publication outputs.
 
@@ -115,7 +115,16 @@ correction of a previously false audit.
 - English lyric-line changes: **0** — the aggregate SHA-256 over all 1,105
   stored English lines is unchanged, as is the aggregate over their paired
   Tamil, and every line ID is identical;
-- changed fields: **5**, all song-title or film-label metadata;
+- source-side adjudications: **5** metadata discrepancies — one film label
+  (`001`) and four canonical song titles (`004`, `007`, `008`, `015`);
+- project-created English-title derivatives refreshed: **3** (`007`, `008`,
+  `015`), re-derived from their corrected canonical Tamil titles after
+  independent review found they still carried the superseded wording.
+  `007` dropped a qualifier taken from the voice credit and now matches `005`,
+  which carries the identical Tamil title; `008` dropped a continuation taken
+  from the following lyric line; `015` renders the title's own `(சோகம்)` as a
+  parenthetical qualifier rather than restating the page context label
+  `சோக கீதம்`, which remains in the section layer;
 - corpus census unchanged: **23** films, **54** songs, **1,105** line-cues,
   **8** cross-page records, **3** pilot-verified / **51** verified,
   **54** `anthology-attributed`;
