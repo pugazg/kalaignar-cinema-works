@@ -2,9 +2,9 @@
 
 ## Scope
 
-This checkpoint completes the character/entity derivative for the **74 exact non-empty speaker labels** preserved in the completed verified dialogue layer.
+This checkpoint now records the **final fully unblocked character/entity derivative** for all exact non-empty speaker labels preserved in the corrected dialogue layer.
 
-Controlling derivative inputs:
+Controlling inputs:
 
 - `works/raja-rani/characters/labels-inventory.json`
 - `works/raja-rani/dialogues/index.json`
@@ -12,71 +12,90 @@ Controlling derivative inputs:
 - verified scene text under `works/raja-rani/scenes/`
 - source-visible PDF-9 cast roster as an outer-film identity anchor only
 
-The eight source-review-blocked archival scenes remain excluded from verified character evidence: `s011`, `s012`, `s013`, `s033`, `s039`, `s053`, `s054`, `s055`.
+There are no source-review-blocked scenes remaining.
 
-## Completion result
+## Final completion result
 
-- immutable dialogue records considered: **892/892**
-- eligible verified dialogue scenes: **50/50**
-- distinct exact source labels: **74**
-- exact labels dispositioned: **74/74**
-- entities / role categories / collectives: **42**
-- verified entities: **42**
+- immutable dialogue records considered: **1,071/1,071**
+- verified dialogue scenes: **58/58**
+- distinct exact source labels: **80**
+- exact labels dispositioned: **80/80**
+- entities / role categories / collectives: **44**
+- verified entities: **44**
 - review entities: **0**
 - unresolved entities: **0**
-- verified labels: **74**
+- verified labels: **80**
 - review labels: **0**
 - unresolved labels: **0**
-- dialogue records modified: **none**
+- dialogue records modified by entity mapping: **none**
 - output: `works/raja-rani/characters/entities.json`
+
+## Additions after final source unblocking
+
+The fully verified scenes added exact source labels that were absent from the original 50-scene mapping checkpoint:
+
+- `மனம்` — source-personified Rani internal role;
+- `நிழல்` — source-personified shadow / Leela role;
+- `ஞானக்கண் குரல்` — mapped to Gnanakannu using explicit remembered-voice context;
+- `ராஜாவின் குரல்` — mapped to Raja using explicit remembered-voice context;
+- `சமரசம் குரல்` — mapped to Samarasam using explicit voice label/context.
+
+The preceding source-correction campaign also preserved the one-off exact label `தர்யம்`, mapped to Thayammal without normalizing the immutable source string.
 
 ## Important context-sensitive decisions
 
 ### `ரா` is Rani, not Raja
 
-Spelling similarity was not used. In scene 45 the exact label `ரா` answers Raja's flower/pottu offer and includes feminine-stage-direction evidence such as `[அழுகிறாள்.]`. It therefore maps to the Rani entity. Raja's own exact source forms are `ராஜா`, `ராசா`, and `ராஜ`.
+In scene 45 the exact label `ரா` answers Raja's flower/pottu offer and belongs to Rani. Raja's distinct exact source forms are `ராஜா`, `ராசா`, `ராஜ`, plus remembered-voice label `ராஜாவின் குரல்`.
 
-### `தாய்` is Thayammal
+### `மனம்` and `நிழல்` remain dramatic roles
 
-Scene 52 removes what would otherwise be an abbreviation ambiguity: immediately before `தாய்:` the source stage direction says `(பாபு தயங்க. கீதாவின் தாய் உள்ளே இருந்து ஓடிவந்து)`. This establishes the `தாய்` label as Geetha's mother, joining the source forms `கீதாவின் தாய் தாயம்மாள்`, `தா`, `தாயம்`, and `தாயம்மாள்`.
+Scene 13 explicitly frames a `மனப் போராட்டம்`; these labels are personified internal/dramatic roles and are not silently collapsed into ordinary `ராணி` metadata.
+
+### `தாய்` / `தர்யம்` are Thayammal
+
+Scene 52 explicitly introduces Geetha's mother immediately before `தாய்:`. `தர்யம்` is the source-exact one-off scene-17 label resolved by correction audit. Both map downstream to Thayammal while the exact source labels remain unchanged.
 
 ### `சங்` is Sangaran
 
-Scene 57 explicitly introduces `(கரண்ட், சங்கரன், கண்ணம்மா மூவரும் வருதல்.)`; the subsequent `சங்:` utterance is therefore mapped to `சங்கரன்`.
+Scene 57 explicitly introduces Current, Sankaran and Kannamma before `சங்:`. The abbreviation is therefore source-secure.
 
-### `ரெள 2` remains a role label
+### `வேலை` remains context-sensitive
 
-Scene 7 states that several rowdies have planned to drug the tea, immediately followed by `ரெள 2:`. The downstream preferred role name is `ரெளடி 2`, but the immutable dialogue label remains exactly `ரெள 2`.
+The short label appears in more than one work/household setting, so the downstream entity remains a worker/servant role category rather than falsely asserting one physical individual.
 
-### `வேலை` is context-sensitive
+### `மன்` is not merged with `மன்னர்கள்`
 
-The exact short label `வேலை` appears in more than one household/work setting. It is therefore dispositioned as a verified **worker/servant role category**, together with the explicit role form `வேலைக்காரன்`, rather than falsely asserting one physical individual across every occurrence.
-
-### `மன்` is not silently merged with `மன்னர்கள்`
-
-The plural `மன்னர்கள்` is a collective. The scene-4 `மன்` utterance is dispositioned separately as an unnamed king role because the source context supports a single speaking king but does not identify which individual king it is.
+The plural source label is a collective; `மன்` is kept as a separate unnamed-king role.
 
 ## Embedded dramatic identities
 
-The archival mapping keeps nested-performance identities distinct from outer-film characters:
+Nested-performance identities remain distinct from outer-film characters:
 
-- `சேரன் செங்குட்டுவன்` section: சேரன் செங்குட்டுவன், வேண்மாள், வில்லவன், கனகர், விஜயர், கனக விஜயர், தமிழ்நாட்டுப் புலவர், மன்னர்கள், unnamed king, வீரர்கள் and the pre-performance voice;
-- `அகல்யா` rehearsal: அகல்யா, இந்திரன், முனிவர் and `ராமர் வேஷ ராமன்`;
-- `சாக்ரடீஸ்` drama: சாக்ரடீஸ், மெலிடஸ், அனிடஸ், கிரீட்டோ, நீதிபதி, சிறைக் காவலர் and மக்கள்.
+- `சேரன் செங்குட்டுவன்` section: Cheran Senguttuvan, Venmal, Villavan, Kanakar, Vijayar, Kanaka-Vijaya collective, Tamil poet, kings, unnamed king, warriors and opening voice;
+- `அகல்யா` rehearsal: Ahalya, Indra, sage and Rama-costume role;
+- `சாக்ரடீஸ்` drama: Socrates, Melitus, Anitus, Crito, judge, prison guard and people/audience.
 
-Outer-film Raja/Rani/Current/etc. remain their own entities even when they participate in rehearsals or staged-performance framing.
+## T055 / T056 referential correction
+
+Final screenplay QA removed five duplicate dialogue records from the old scene-55 derivative because they belonged exclusively to scene 56. The entity identities and 80-label coverage do not change, but all evidence pointers must refer to the current **1,071-record** corpus.
+
+In particular, any older support pointer to deleted `raja-rani-s055-d026`–`raja-rani-s055-d030` is obsolete. Rani's relevant flashback evidence is in `raja-rani-s056-d002` / `raja-rani-s056-d004`.
+
+Canonical Tamil pages were not changed.
 
 ## Integrity rules confirmed
 
-1. Every one of the **74** exact labels appears exactly once in the entity mapping's `source_labels` coverage.
-2. No dialogue `speaker_label`, delimiter, text, page provenance or record ID was changed.
+1. Every one of the **80** exact labels is covered by the downstream entity mapping.
+2. No dialogue `speaker_label`, delimiter, Tamil text, page provenance or valid record ID was changed by entity normalization.
 3. Similar spelling alone was never sufficient to merge labels.
-4. Role/collective dispositions are used where the source does not establish a named physical person.
-5. No blocked-scene wording was used to fill a character gap.
+4. Role/collective dispositions are used where source evidence does not establish a named physical person.
+5. No blocked-scene restriction remains; every evidence scene is source-verified.
 6. Character normalization exists only downstream in `characters/entities.json`.
+7. Supporting record IDs must exist in the corrected 1,071-record dialogue corpus.
 
-## Next gate
+## Disposition
 
-The character/entity derivative is complete. The next structured activity is the **song/performance inventory and item-level authorship gate**.
+**PASS — character/entity derivative complete: 80/80 labels, 44/44 verified entities / roles / collectives.**
 
-The source prints 11 numbered `பாட்டு` blocks in PDF 4–9 and a film-wide PDF-9 `பாடல்கள்:` roster, but that roster must **not** be promoted to item-level authorship. Each song/performance occurrence must be inventoried first; authorship is verified only where the source or a separately justified witness provides item-level evidence.
+The current production frontier is no longer character work. Preserve this layer while translating the 11 numbered front-matter songs into English.
