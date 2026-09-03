@@ -34,5 +34,5 @@
   "label_inventory_status": "complete-inventory",
   "entity_mapping_status": "complete-verified",
   "dialogue_records_modified": false,
-  "next_activity": "Continue Correction 005 downstream reconciliation: close the two bounded English-record fixes (scene 015 `கிரஷ்` and scene 017 exact `தர்யம்` metadata), then recheck affected song/performance links without changing unrelated authorship."
+  "next_activity": "No character reconciliation remains. Preserve 75/75 exact source-label coverage and 42 entities while English translation continues from verified scenes 19-23."
 }
