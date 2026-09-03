@@ -10,6 +10,8 @@ status:
   tamil_fidelity_gate: closed-with-source-limitations
   fidelity_gate_disposition_path: works/raja-rani/notes/tamil-fidelity-gate-disposition.md
   post_fidelity_corrections_path: works/raja-rani/notes/post-fidelity-corrections.md
+  correction_005_reconciliation: content-complete-qa-pass
+  correction_005_reconciliation_path: works/raja-rani/notes/correction-005-reconciliation.md
   fidelity_audit_through_pdf_page: 79
   fidelity_audited_source_pages: 79
   fidelity_verified_source_pages: 75
@@ -51,7 +53,7 @@ status:
   character_label_inventory: complete-inventory
   character_label_inventory_path: works/raja-rani/characters/labels-inventory.json
   character_label_inventory_checkpoint: works/raja-rani/notes/character-label-inventory.md
-  character_distinct_source_labels: 74
+  character_distinct_source_labels: 75
   character_entity_mapping: complete-verified
   character_entities_path: works/raja-rani/characters/entities.json
   character_mapping_checkpoint: works/raja-rani/notes/character-entity-mapping.md
@@ -59,7 +61,7 @@ status:
   character_verified_entities: 42
   character_review_entities: 0
   character_unresolved_entities: 0
-  character_verified_labels: 74
+  character_verified_labels: 75
   character_review_labels: 0
   character_unresolved_labels: 0
   song_authorship_mapping: complete-with-unresolved-authorship
@@ -84,22 +86,22 @@ status:
   translation_schema_path: works/raja-rani/translations/schema.json
   translation_index_path: works/raja-rani/translations/index.json
   translation_pilot_review_path: works/raja-rani/translations/PILOT_REVIEW.md
-  translation_latest_batch_review_path: works/raja-rani/translations/BATCH_006_010_REVIEW.md
+  translation_latest_batch_review_path: works/raja-rani/translations/BATCH_019_023_REVIEW.md
   translation_eligible_scenes: 50
   translation_blocked_scenes: 8
-  translation_scenes_verified: 10
-  translation_units: 234
-  translation_verified_units: 234
+  translation_scenes_verified: 20
+  translation_units: 483
+  translation_verified_units: 483
   translation_review_units: 0
   translation_draft_units: 0
-  translation_dialogue_source_records_linked: 203
-  translation_source_unlabelled_spoken_units: 4
-  translation_cross_page_units: 4
-  translation_song_performance_occurrences_linked: 1
-  translation_unit_kind_counts: {dialogue: 207, stage_direction: 24, song: 0, song_reference: 0, performance_cue: 1, chant: 0, written_text: 2}
+  translation_dialogue_source_records_linked: 424
+  translation_source_unlabelled_spoken_units: 8
+  translation_cross_page_units: 6
+  translation_song_performance_occurrences_linked: 2
+  translation_unit_kind_counts: {dialogue: 432, stage_direction: 47, song: 0, song_reference: 0, performance_cue: 2, chant: 0, written_text: 2}
   translation_front_matter_numbered_songs_expected: 11
   translation_front_matter_numbered_songs_started: 0
-  translation_next_scene_batch: "014-018"
+  translation_next_scene_batch: "024-028"
 scan_condition:
   notes:
     - pdf_page: 27
@@ -168,4 +170,6 @@ post_fidelity_corrections:
     finding: source-visible alternating "ராஜா:" / "ராசா:" dialogue labels were restored exactly from fresh rendered-scan reinspection before scene 040 derivation; distinct printed "ராஜா" forms remain unchanged
   - pdf_pages: [66]
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
-next_action: "Skip blocked Raja Rani scenes 011-013 and translate verified scenes 014-018 in source order. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
+  - campaign: correction-005
+    finding: user-led old-glyph comparison campaign was reconciled through canonical, scene, dialogue, character, song and existing English layers; durable reconciliation record is works/raja-rani/notes/correction-005-reconciliation.md
+next_action: "Translate verified Raja Rani scenes 024-028 in source order. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; scene 27 legitimately has zero immutable dialogue records; do not invent speakers, lyrics, scene endings or song authorship."
