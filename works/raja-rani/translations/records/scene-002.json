@@ -193,7 +193,9 @@
       "translation": {
         "english_text": "Hmm... you who have made loving service to your father your duty... From now on I will not be able to see, amma! I will not be able to see your guileless smile, amma!",
         "mode": "prose-faithful",
-        "notes": []
+        "notes": [
+          "Correction 005 source literally reads `கொண்டகை`; the English preserves the surrounding sentence sense without altering or silently correcting the Tamil source."
+        ]
       }
     },
     {
@@ -353,9 +355,11 @@
         ]
       },
       "translation": {
-        "english_text": "Hmm... going to work! How can I sit at home after sending such a young girl outside? This is a world with mountain pythons that swallow whole, and people who mock those who live with a conscience!",
+        "english_text": "Hmm... going to work! How can I sit at home after sending such a young girl outside? This is a world with mountain pythons that swallow whole, and monkeys that mock those who live with peace of mind!",
         "mode": "prose-faithful",
-        "notes": []
+        "notes": [
+          "Correction 005 changes the source to `மனச்சாந்தியோட ... மந்திகளும்`; the English follows those corrected meanings rather than the earlier conscience/people reading."
+        ]
       }
     },
     {
@@ -542,9 +546,11 @@
         ]
       },
       "translation": {
-        "english_text": "All right, Appa! I heard there is a job at a company. It may help if I go right now. Shall I go and see?",
+        "english_text": "All right, Appa! I heard there is a job at a company. It may help if I go right now. Shall I go see a ghost and come back, Appa?",
         "mode": "prose-faithful",
-        "notes": []
+        "notes": [
+          "Correction 005 canonical source literally reads `பேய்` (‘ghost’) in `நான் பேய் பார்த்துட்டு வரட்டுமாப்பா?`; retained in English rather than silently restoring `போய்` (‘go’)."
+        ]
       }
     },
     {
