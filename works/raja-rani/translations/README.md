@@ -91,6 +91,22 @@ Later-anthology Kalaignar-attributed numbered songs remain exactly **3, 5, 6, 7,
 
 Verified screenplay links remain song 3/scene 4, song 5/scene 16, song 8/scene 40. The song 11/scene 58 relation remains **review-level** only.
 
+## Reader/export and Reading Room downstream state
+
+The completed English screenplay and numbered-song records have passed deterministic whole-work publication QA.
+
+- bilingual reader/export: **complete-verified — QA PASS**;
+- reader preflight: **58/58 scenes, 1,236 units, 1,071/1,071 immutable links, 11/11 songs, 181/181 song line-cues**;
+- generated reader outputs: Markdown / standalone HTML / machine JSON + QA report + manifest;
+- Reading Room payload: **complete-verified — QA PASS**;
+- payload preserves 11 actual source-numbered songs separately from 58 archival-only screenplay navigation scenes;
+- site application: **not-applied**.
+
+Reader QA: `../editions/en/QA_REPORT.md`.  
+Reader manifest: `../editions/en/manifest.json`.  
+Reading Room QA: `../integrations/reading-room/QA_REPORT.md`.  
+Reading Room payload: `../integrations/reading-room/reading-room.json`.
+
 ## Next activity
 
-The English textual translation phase is complete. Build and QA a deterministic whole-work bilingual reader/export from the verified screenplay and numbered-song records, then prepare source-linked Reading Room integration data for `https://nenjukkuneethi.org/read`. Do not create another standalone PDF/EPUB by default.
+No required English/reader/integration-payload work remains in this repository. Apply the verified Reading Room payload only in the separate implementation repository when that repository is explicitly authorized for modification.

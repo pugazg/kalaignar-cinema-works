@@ -372,30 +372,27 @@ Always inspect current repository state.
 
 ## 13. Current high-level project checkpoint — 2026-09-03
 
-- **Parasakthi** — complete-verified canonical/structured English reader work; mature complex-numbering/mixed-song reference implementation.
+- **Parasakthi** — complete-verified canonical/structured English reader work.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
 - **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
-- **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil songs and 54/54 verified English songs; reader/export and Reading Room payload QA PASS.
-- **Manthiri Kumari** — source intake/structural mapping complete for the 14-page story-and-song booklet; canonical Tamil first pass remains the next source-processing phase.
-- **Raja Rani** — canonical/source layers fully verified; 58/58 scenes, 1,071 immutable dialogue records, 80/80 source labels, 44 entities; screenplay English complete at 1,236 units; all 11 numbered song bodies translated and QA-verified at 67 sections / 181 mapped line-cues. Authorship remains 5 later-anthology Kalaignar-attributed / 6 unresolved. The next Raja Rani activity is deterministic bilingual reader/export QA and Reading Room integration preparation.
+- **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
+- **Manthiri Kumari** — source intake/structural mapping complete for the 14-page story-and-song booklet; canonical Tamil first pass remains its next source-processing phase.
+- **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 
-`data/works.json`, root README and this master handover are intended to reflect the same active checkpoint; `docs/STATUS_CONSISTENCY_AUDIT.md` records the repository-level reconciliation.
+`data/works.json`, root README, work metadata/handover and this master handover are synchronized to this checkpoint.
 
 ---
 
-## 14. Exact next activity for the active Raja Rani work
+## 14. Raja Rani downstream disposition
 
-Build and validate a deterministic whole-work bilingual reader/export from the verified Raja Rani structured data.
+No required Raja Rani production work remains inside `pugazg/kalaignar-cinema-works`.
 
-Requirements:
+Its verified Reading Room payload is:
 
-1. consume the **58 verified screenplay translation records** and the separate **11 verified numbered-song translation records**;
-2. preserve archival scene IDs strictly as navigation, not source numbering;
-3. preserve the numbered songs as independent front-matter source structures rather than synthetic scenes;
-4. verify **1,236 screenplay units**, **1,071/1,071 immutable dialogue links**, **19 source-unlabelled spoken units**, **15 cross-page screenplay units**, and **181/181 song line-cue mappings**;
-5. preserve all four screenplay performance references and the review-level scene-58/song-11 link without upgrading it;
-6. generate deterministic reader outputs and QA/integrity records according to repository conventions;
-7. after reader QA passes, synchronize every work-local and repository-wide status mirror again before declaring the reader phase complete;
-8. prepare Reading Room integration payload/data only after that gate passes.
+`works/raja-rani/integrations/reading-room/reading-room.json`
 
-The goal is not speed alone. The goal is a repeatable archive where every later reader can trace each derivative back to the scanned edition and where no active status document points to obsolete work.
+Payload SHA-256: `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`.
+
+Only when the separate Kalaignar Digital Library / Reading Room implementation repository is explicitly authorized for modification should that payload be applied there. The public site must preserve source-numbered songs separately from archival-only screenplay scene navigation, retain provenance, and keep song authorship/performance-link evidence tiers unchanged.
+
+For repository-internal work, continue with another work's documented next activity rather than reopening Raja Rani solely to create an additional standalone format.

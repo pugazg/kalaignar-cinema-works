@@ -136,10 +136,26 @@ The English song phase retains unusual verified source forms, refrain cues, char
 - Tamil numbered songs: **complete-verified — 11/11**
 - English screenplay translation: **complete-verified — 58/58 scenes / 1,236 units / 1,071 links**
 - English numbered-song translation: **complete-verified — 11/11 / 67 sections / 181 line-cues**
-- whole-work bilingual reader/export: **not started**
-- Reading Room integration: **not started**
+- deterministic bilingual reader/export: **complete-verified — QA PASS**
+- Reading Room integration payload: **complete-verified — QA PASS**
+- Reading Room site application: **not applied**
 
-`data/works.json`, the root README, master handover and status audit are repository-wide mirrors and must be synchronized whenever this production checkpoint changes. They must not be allowed to override newer work-local indexes, and the phase is not considered durably closed until those mirrors have also been updated.
+Reader/export:
+
+- `editions/en/PREFLIGHT_QA_REPORT.md` — PASS over 200 authoritative inputs;
+- `editions/en/reader-edition.md` — 526,184 bytes;
+- `editions/en/reader-edition.html` — 675,121 bytes;
+- `editions/en/reader-edition.json` — 971,896 bytes;
+- `editions/en/QA_REPORT.md` — generated-output PASS;
+- `editions/en/manifest.json` — reproducibility hashes.
+
+Reading Room payload:
+
+- `integrations/reading-room/reading-room.json` — **974,510 bytes**, SHA-256 `{RR_PAYLOAD_SHA}`;
+- `integrations/reading-room/QA_REPORT.md` — PASS;
+- `integrations/reading-room/manifest.json` — site application explicitly `not-applied`.
+
+Repository-wide mirrors (`data/works.json`, root README, project handover and status audit) are synchronized to this same checkpoint.
 
 ## Source rules
 
@@ -154,6 +170,8 @@ The English song phase retains unusual verified source forms, refrain cues, char
 
 ## Next activity
 
-The source-linked bilingual text is complete. Build and QA a deterministic whole-work bilingual reader/export from the verified screenplay and numbered-song layers. Then prepare source-linked Reading Room integration data for `https://nenjukkuneethi.org/read`.
+No required Raja Rani work remains **inside `pugazg/kalaignar-cinema-works`**. The source archive, structured derivatives, English screenplay, numbered-song English layer, deterministic bilingual reader/export and Reading Room payload are complete-verified with QA PASS.
 
-Do not create a new standalone PDF or EPUB merely because translation is complete unless the user separately requests one or it serves a distinct archival/release purpose.
+The only downstream step is application of `integrations/reading-room/reading-room.json` in the **separate** Reading Room implementation repository. Do that only when modification of that repository is explicitly authorized. Until then, `site_application_status` remains `not-applied`.
+
+Do not create a standalone PDF or EPUB by default.

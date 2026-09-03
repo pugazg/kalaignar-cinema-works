@@ -139,8 +139,17 @@ Translation does not promote the five anthology attributions to original-film pr
 - canonical text changed by cross-witness or translation: **no**
 - dialogue records changed by song translation: **no**
 
+## Final downstream state
+
+The song/authorship evidence gate is unchanged and closed. Downstream completion now also includes:
+
+- 11/11 verified English numbered-song records;
+- deterministic whole-work bilingual reader/export — QA PASS;
+- deterministic Reading Room payload — QA PASS;
+- site application — `not-applied`.
+
+The five later-anthology Kalaignar attributions remain exactly songs 3, 5, 6, 7 and 8; the other six numbered-song lyricists remain unresolved; scene 58 → song 11 remains review-level.
+
 ## Next gate
 
-The song/authorship and numbered-song English phases are closed.
-
-The next Raja Rani repository activity is **deterministic whole-work bilingual reader/export QA**, combining the verified 58-scene screenplay translation with the separately structured 11 numbered-song translations while preserving their distinct source identities. Reading Room integration preparation follows only after that reader/export gate passes.
+No repository-internal song, translation, reader/export or Reading Room-payload work remains. External site application requires explicit authorization for the separate implementation repository.

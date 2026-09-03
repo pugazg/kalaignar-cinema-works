@@ -30,52 +30,28 @@ The preferred public reading destination for completed works is the **Kalaignar 
 
 ## ராஜா ராணி status
 
-The source `TVA_BOK_0017188_ராஜா_ராணி.pdf` is archived under `works/raja-rani/`. The source-led bilingual textual archive is now **complete-verified** through canonical Tamil, screenplay scene/dialogue/character derivatives, numbered-song Tamil derivatives, complete English screenplay translation and complete English numbered-song translation. The next repository-internal phase is deterministic whole-work bilingual reader/export QA.
+`TVA_BOK_0017188_ராஜா_ராணி.pdf` is now a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.
 
-- title leaf: **`ராஜா ராணி`**;
-- cover form: **`ராஜாராணி`**;
-- scan: **80 PDF pages**;
-- source SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`;
-- numbered front-matter songs: PDF **4–9**;
-- canonical screenplay/dialogue: PDF **10–79 / printed pp.9–78 — 70 pages**;
-- source-numbered screenplay scenes: **none**;
-- canonical source pages audited/verified: **79/79 / 79/79**;
-- review source pages: **0**;
-- screenplay pages verified: **70/70**;
-- archival scene segmentation: **58 source-supported navigation segments**;
-- scene-text derivatives: **58/58 complete-verified / 0 blocked**;
-- immutable dialogue index: **1,071 unique records / 58 scenes**;
-- zero-dialogue scenes: **16** — `s008`, `s010`, `s012`, `s014`, `s019`, `s020`, `s022`, `s027`, `s029`, `s030`, `s032`, `s037`, `s038`, `s042`, `s043`, `s048`;
-- dialogue cross-page records / tracked source-label delimiter anomalies: **12 / 3**;
-- character exact-label inventory: **80/80**;
-- character/entity index: **44 verified entities / role categories / collectives; 0 review / 0 unresolved**;
-- numbered source songs: **11 `பாட்டு` blocks; 11/11 complete-verified Tamil derivatives**;
-- screenplay singing references: **4**;
-- total song/singing occurrences inventoried: **15**;
-- numbered-song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved / 0 original-booklet item-level lyricist credits**;
-- English screenplay: **58/58 complete-verified / 1,236 units / 1,071/1,071 immutable dialogue links**;
-- English screenplay unit mix: **1,090 dialogue-kind / 137 stage direction / 4 performance cue / 5 written text**;
-- source-unlabelled English spoken units / cross-page English screenplay units: **19 / 15**;
-- English numbered songs: **11/11 complete-verified**;
-- numbered-song translation sections: **67**;
-- Tamil/English numbered-song line-cue mapping: **181/181**;
-- multi-page numbered-song English records: **4 — songs 2, 3, 8 and 10**;
-- whole-work bilingual reader/export: **not-started**;
-- Reading Room integration: **not-started**.
+- source scan: **80 PDF pages**; SHA-256 `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`;
+- verified canonical source pages: **79/79**;
+- verified screenplay pages: **70/70**;
+- archival scene derivatives: **58/58**, blocked 0;
+- immutable dialogue records: **1,071**;
+- exact source labels / entities: **80/80 / 44**;
+- numbered Tamil songs: **11/11**;
+- English screenplay: **58/58 scenes / 1,236 verified units / 1,071/1,071 dialogue links**;
+- English numbered songs: **11/11 / 67 sections / 181 Tamil-English line-cue mappings**;
+- song authorship: **5 later-anthology Kalaignar-attributed / 6 unresolved**;
+- deterministic bilingual reader/export: **complete-verified, QA PASS**;
+- reader outputs: Markdown / standalone HTML / machine JSON + QA report + manifest;
+- Reading Room payload: **complete-verified, QA PASS** — `974,510` bytes, SHA-256 `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`;
+- Reading Room site application: **not-applied**.
 
-Permanent source-review resolutions include PDF 27 `இரவெல்லாம்`, PDF 48 `வந்தனா` / `திடீர்னு`, PDF 57 `முன்னுக்கு பின் முரணாயிகிட்டே போவது?`, and PDF 74's `K. N. சங்கரன் ...` impression as a non-canonical ownership/library stamp rather than screenplay wording.
+The booklet prints **11 numbered front-matter songs but no numbered screenplay scenes**. Reader/integration data therefore preserves songs 1–11 as actual source numbering while `raja-rani-s001`–`s058` remain archival navigation only.
 
-The archive IDs `raja-rani-s001`–`raja-rani-s058` remain navigation-only and are not presented as source scene numbers. Source-unlabelled speech remains unlabelled; exact source labels and delimiter irregularities remain unnormalized in immutable records.
+Final QA also permanently removes the old T055/T056 duplicate derivative ownership: scene 55 has 25 immutable dialogue records, scene 56 has 5, and old duplicate `s055-d026`–`s055-d030` IDs are invalid.
 
-A final derivative QA also corrected T055/T056 ownership. An older scene-55 derivative had duplicated the complete `(முன்)` flashback owned by scene 56. The canonical pages were unchanged; scene 55 now has **25** dialogue records, scene 56 has **5**, and the unique corpus is **1,071**. Deleted duplicate IDs `s055-d026`–`s055-d030` must not be restored.
-
-The song gate keeps the PDF-9 six-name `பாடல்கள்:` roster film-wide rather than forcing it onto individual songs. The later verified `கலைஞர் திரை இசைப் பாடல்கள்` archive establishes item correspondence for songs **3, 5, 6, 7 and 8**, recorded at **`anthology-attributed`** tier to `மு. கருணாநிதி`; songs **1, 2, 4, 9, 10 and 11** remain unresolved. Later-witness wording never overwrites this booklet: Raja Rani song 8 retains `லீலா!...லாலீ!...அது போலீ!...` despite a different opening in the later anthology.
-
-Screenplay performance links remain independently dispositioned: song 3/scene 4, song 5/scene 16 and song 8/scene 40 are verified; scene 58's `(இருவரும் பாடுகிறார்கள்)` has only a **review-level** contextual link to song 11. Completing the English lyric bodies did not upgrade any authorship or performance-link tier.
-
-The English screenplay layer is fully closed at **58/58 scenes and 1,236 verified units**. Its 1,090 dialogue-kind units comprise 1,071 immutable labelled records plus 19 deliberately source-unlabelled spoken units. The dedicated numbered-song English layer under `works/raja-rani/translations/songs/` is also closed at **11/11 songs, 67 sections and 181/181 Tamil-to-English line/cue entries**. Difficult verified source forms and refrain cues remain documented rather than silently repaired through English.
-
-**Next:** build and QA a deterministic whole-work bilingual Raja Rani reader/export from the verified screenplay and numbered-song records, preserving the distinction between the 11 actually numbered source songs and the 58 archive-only screenplay navigation segments. After QA PASS, prepare source-linked Reading Room integration data for `https://nenjukkuneethi.org/read`. Do not create a new standalone PDF/EPUB by default.
+**Next:** no required Raja Rani work remains in this repository. Apply the verified Reading Room payload in the separate public-site implementation repository only when that repository is explicitly authorized for modification.
 
 ## மந்திரி குமாரி status
 

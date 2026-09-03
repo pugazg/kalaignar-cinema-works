@@ -85,6 +85,20 @@ Canonical PDF 30 contains the source divider and verified singing stage directio
 - `tamil/song-001.md` through `tamil/song-011.md`
 - English derivative: `../translations/songs/`
 
+## Final downstream state
+
+The source song/performance gate remains **complete with unresolved authorship** and its evidence tiers are unchanged:
+
+- Tamil numbered-song derivatives: **11/11 complete-verified**;
+- English numbered-song derivatives: **11/11 complete-verified**;
+- reader/export: **complete-verified — QA PASS**;
+- Reading Room payload: **complete-verified — QA PASS**;
+- site application: **not-applied**;
+- authorship: **5 later-anthology Kalaignar-attributed / 6 unresolved**;
+- screenplay performance relations: **3 verified / 1 review**.
+
+No later translation, reader or integration phase upgrades authorship or the scene-58/song-11 review relation.
+
 ## Next gate
 
-Tamil and English numbered-song text are complete. The next Raja Rani activity is deterministic whole-work bilingual reader/export QA followed by source-linked Reading Room integration preparation. Authorship remains an independent evidence layer and must retain the present 5-attributed / 6-unresolved disposition.
+No repository-internal song/performance work remains. Preserve this evidence state; apply the verified Reading Room payload externally only when that separate repository is explicitly authorized.

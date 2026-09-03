@@ -30,12 +30,28 @@
   ],
   "screenplay_performance_links": {
     "verified": [
-      {"occurrence": "raja-rani-song-perf-001", "linked_song": "raja-rani-song-003", "scene": 4},
-      {"occurrence": "raja-rani-song-perf-002", "linked_song": "raja-rani-song-005", "scene": 16},
-      {"occurrence": "raja-rani-song-perf-003", "linked_song": "raja-rani-song-008", "scene": 40}
+      {
+        "occurrence": "raja-rani-song-perf-001",
+        "linked_song": "raja-rani-song-003",
+        "scene": 4
+      },
+      {
+        "occurrence": "raja-rani-song-perf-002",
+        "linked_song": "raja-rani-song-005",
+        "scene": 16
+      },
+      {
+        "occurrence": "raja-rani-song-perf-003",
+        "linked_song": "raja-rani-song-008",
+        "scene": 40
+      }
     ],
     "review": [
-      {"occurrence": "raja-rani-song-perf-004", "linked_song": "raja-rani-song-011", "scene": 58}
+      {
+        "occurrence": "raja-rani-song-perf-004",
+        "linked_song": "raja-rani-song-011",
+        "scene": 58
+      }
     ]
   },
   "tamil_song_derivatives": "complete-verified",
@@ -58,5 +74,9 @@
     "finding": "The verified source stage direction `[ராணி “வேலையில்லாத் தொல்லையில்லை” என்று பாடிக் கொண்டிருக்கிறாள்.]` and its preceding source separator belong at the start of scene 16 but were omitted from the earlier scene derivative. The derivative is restored from canonical page 030 without changing dialogue records or fidelity totals."
   },
   "song_gate_disposition": "The source song section is fully represented as 11 verified Tamil song derivatives and 11 complete-verified source-linked English numbered-song records. Five numbered songs have later verified Kalaignar-anthology item correspondence and remain `anthology-attributed`; six remain unresolved because the source's six-name PDF-9 lyricist roster has no item-level mapping. English translation does not change authorship or screenplay-performance dispositions.",
-  "next_activity": "Build and QA the Raja Rani whole-work bilingual reader/export from the completed verified screenplay and numbered-song English layers, then prepare source-linked Reading Room integration data."
+  "next_activity": "No song/performance, song-translation, reader/export or repository-internal Reading Room payload work remains.",
+  "english_numbered_song_translation_verified": 11,
+  "reader_export": "complete-verified",
+  "reading_room_integration": "payload-complete-verified",
+  "reading_room_site_application": "not-applied"
 }

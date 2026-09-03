@@ -57,3 +57,8 @@ The song-11 → `raja-rani-song-perf-004` / scene-58 relation remains **review-l
 ## Next activity
 
 The numbered-song English phase is closed. Build and QA the deterministic Raja Rani whole-work bilingual reader/export from the completed screenplay and song layers, then prepare source-linked Reading Room integration data. Do not create a standalone PDF/EPUB by default.
+
+
+## Downstream completion
+
+The 11/11 verified song records are now included in the deterministic Raja Rani bilingual reader/export and Reading Room payload. Both downstream QA gates pass. Authorship/performance-link tiers remain unchanged, and site application remains `not-applied`.

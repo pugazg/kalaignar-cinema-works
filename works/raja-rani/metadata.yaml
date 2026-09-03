@@ -21,7 +21,7 @@ status:
   verified_tamil_pages: 70
   screenplay_fidelity_verified_pages: 70
   screenplay_fidelity_review_pages: 0
-  structured_derivatives: bilingual-text-complete-verified-reader-export-next
+  structured_derivatives: complete-verified-reader-and-reading-room-payload
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -113,8 +113,27 @@ status:
   translation_front_matter_numbered_song_source_line_cues: 181
   translation_front_matter_numbered_song_english_line_cues: 181
   translation_next_scene_batch: null
-  english_reader_export: not-started
-  reading_room_integration: not-started
+  english_reader_export: complete-verified
+  english_reader_directory: works/raja-rani/editions/en
+  english_reader_preflight: complete-pass
+  english_reader_preflight_path: works/raja-rani/editions/en/PREFLIGHT_QA_REPORT.md
+  english_reader_qa: PASS
+  english_reader_qa_path: works/raja-rani/editions/en/QA_REPORT.md
+  english_reader_manifest_path: works/raja-rani/editions/en/manifest.json
+  english_reader_authoritative_input_files: 200
+  english_reader_authoritative_input_sha256: 35cfc21e70eed9e0fb820c3df6a6a1c41fbddc21594f78b0cb5a799ab6a7efc2
+  english_reader_markdown_sha256: 6437a0a39cebbaf17ab63f76f7aef6f9f62eb3c4abbd07864974d47be20902c8
+  english_reader_html_sha256: c24ea9ab0f1ee77b3bc795b3134e4ad8bed78f00d6a8f896f9749052ff074ec6
+  english_reader_json_sha256: 76827d570f3079c04463e3142a9edf32f35c1497e2b820bfa467f8203d7441e2
+  reading_room_integration: payload-complete-verified
+  reading_room_payload_path: works/raja-rani/integrations/reading-room/reading-room.json
+  reading_room_payload_qa: PASS
+  reading_room_payload_qa_path: works/raja-rani/integrations/reading-room/QA_REPORT.md
+  reading_room_payload_manifest_path: works/raja-rani/integrations/reading-room/manifest.json
+  reading_room_payload_bytes: 974510
+  reading_room_payload_sha256: ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b
+  reading_room_payload_reader_input_sha256: 40bb6c42dfda5049a4e030ca5ace5536e1ea54e14ac91c4ff41cbb455ab18078
+  reading_room_site_application: not-applied
 scan_condition:
   notes: []
 resolved_during_fidelity_audit:
@@ -186,4 +205,4 @@ post_fidelity_corrections:
     finding: user direct-scan verdicts resolved the former PDF 27, 48, 57 and 74 limitations; all 79 canonical source pages and all 70 screenplay pages are now verified; durable record is works/raja-rani/notes/final-source-review-resolution.md
   - campaign: t055-t056-boundary-correction
     finding: final English QA found and removed duplicate derivative ownership of the `(முன்)` flashback; scene 055 now ends before T056, dialogue corpus is 1071 unique records, and canonical pages are unchanged
-next_action: "Build and QA a deterministic Raja Rani whole-work bilingual reader/export from the complete-verified screenplay and 11 numbered-song English layers, then prepare source-linked Reading Room integration data. Do not create a standalone PDF or EPUB by default."
+next_action: "No required Raja Rani repository-internal archival, translation, reader/export or Reading Room-payload work remains. The verified payload is ready for the separate Reading Room implementation repository only when that repository is explicitly authorized for modification; site application remains not-applied."

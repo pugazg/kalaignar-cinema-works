@@ -462,6 +462,7 @@ def sync_registry() -> None:
         raise RuntimeError("data/works.json must contain exactly one raja-rani entry")
     w = matches[0]
     sd = w.setdefault("structured_derivatives", {})
+    sd["reader_export"] = "complete-verified"
     sd["english_reader_edition"] = "complete-verified"
     sd["english_reader_edition_directory"] = "works/raja-rani/editions/en"
     sd["english_reader_preflight"] = "complete-pass"
@@ -633,11 +634,30 @@ def stale_assertions() -> None:
         "scene 1 / 50 eligible verified scenes",
         "892 immutable records",
     ]
-    for path in current_paths:
-        text = read(path)
-        for needle in forbidden:
-            if needle in text:
-                raise RuntimeError(f"stale current-state phrase remains in {path.relative_to(ROOT)}: {needle}")
+    registry_path = ROOT / "data" / "works.json"
+    registry = json.loads(read(registry_path))
+    matches = [work for work in registry if work.get("id") == "raja-rani"]
+    if len(matches) != 1:
+        raise RuntimeError("data/works.json must contain exactly one raja-rani entry during stale assertion")
+    raja_rani_text = json.dumps(matches[0], ensure_ascii=False)
+    registry_forbidden = [
+        '"reader_export": "not-started"',
+        '"reading_room_integration": "not-started"',
+    ]
+    for needle in registry_forbidden:
+        if needle in raja_rani_text:
+            raise RuntimeError(f"stale Raja Rani registry state remains: {needle}")
+
+    non_registry_forbidden = [needle for needle in forbidden if needle not in registry_forbidden]
+    for current_path in current_paths:
+        if current_path == registry_path:
+            continue
+        current_text = read(current_path)
+        for needle in non_registry_forbidden:
+            if needle in current_text:
+                raise RuntimeError(
+                    f"stale current-state phrase remains in {current_path.relative_to(ROOT)}: {needle}"
+                )
 
 
 def main() -> int:

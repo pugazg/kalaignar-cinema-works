@@ -26,6 +26,18 @@ The site must never display archival scene ordinals as if they were printed sour
 
 Tamil and English are both available. `ta`, `en`, and parallel display are presentation modes only; stored source/translation text must not be rewritten by the site.
 
+## Completion checkpoint
+
+Status: **payload-complete-verified — QA PASS**.
+
+- payload: `reading-room.json`;
+- payload bytes: **974,510**;
+- payload SHA-256: `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`;
+- QA: `QA_REPORT.md` — **PASS**;
+- site application: **not-applied**.
+
+The payload is ready for the separate public-site implementation repository when that repository is explicitly authorized for modification.
+
 ## Outputs
 
 - `build.py` — deterministic payload builder and validator;

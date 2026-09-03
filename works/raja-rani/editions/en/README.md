@@ -42,6 +42,20 @@ The numbered songs must not be converted into synthetic screenplay scenes.
 
 The T055/T056 correction is permanent: scene 55 owns 25 immutable dialogue records and scene 56 owns 5; deleted duplicate IDs `raja-rani-s055-d026`–`raja-rani-s055-d030` are invalid.
 
+## Completion checkpoint
+
+Status: **complete-verified — QA PASS**.
+
+- preflight authoritative inputs: **200**;
+- screenplay: **58/58 scenes / 1,236 units / 1,071 immutable links**;
+- numbered songs: **11/11 / 67 sections / 181 line-cues**;
+- generated Markdown SHA-256: `6437a0a39cebbaf17ab63f76f7aef6f9f62eb3c4abbd07864974d47be20902c8`;
+- generated HTML SHA-256: `c24ea9ab0f1ee77b3bc795b3134e4ad8bed78f00d6a8f896f9749052ff074ec6`;
+- generated JSON SHA-256: `76827d570f3079c04463e3142a9edf32f35c1497e2b820bfa467f8203d7441e2`;
+- generated-output QA: `QA_REPORT.md` — **PASS**.
+
+The separate Reading Room payload built from this reader is also QA-PASS under `../../integrations/reading-room/`.
+
 ## Outputs
 
 - `audit_probe.py` — whole-work preflight over screenplay + numbered songs;
