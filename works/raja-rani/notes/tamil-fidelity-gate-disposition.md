@@ -2,100 +2,92 @@
 
 ## Purpose
 
-This note records the visual-fidelity disposition for the supplied `TVA_BOK_0017188_ராஜா_ராணி.pdf` scan and subsequent source-backed resolutions.
+This note records the final visual-fidelity disposition for `TVA_BOK_0017188_ராஜா_ராணி.pdf` after the original full audit and all later direct-scan resolutions.
 
-The rendered scan remains the controlling source. OCR, film audio, subtitles, web quotations, later editions, memory and semantic reconstruction are not canonical evidence. A user's explicit direct-scan verdict controls that reviewed occurrence unless later stronger direct source evidence reopens it.
+The rendered scan remains the controlling source. OCR, comparison transcriptions, film audio, subtitles, web quotations, later editions, memory and semantic reconstruction are not canonical evidence. A user's explicit direct-scan verdict controls that reviewed occurrence unless later stronger direct source evidence reopens it.
 
-## Current audit coverage
+## Final audit coverage
 
-The canonical source-order layer has been visually audited in full:
+- canonical source range: **PDF 1–79 — 79/79 audited and verified**;
+- screenplay range: **PDF 10–79 / printed pp.9–78 — 70/70 audited and verified**;
+- review source pages: **0**;
+- review screenplay pages: **0**;
+- Tamil fidelity gate: **closed-verified**.
 
-- source-order canonical range: **PDF 1–79 — 79/79 pages audited**;
-- screenplay range: **PDF 10–79 / printed pp.9–78 — 70/70 pages audited**;
-- verified source pages: **76/79**;
-- review source pages: **3/79 — PDF 27, 57 and 74**;
-- verified screenplay pages: **67/70**;
-- review screenplay pages: **3/70 — PDF 27, 57 and 74**.
+The detailed final manual resolution record is `final-source-review-resolution.md`.
 
-The earlier targeted high-resolution review is documented in `visual-fidelity-targeted-review-001.md`.
+## Final direct-scan resolutions
 
-## Subsequent resolution — PDF 48 / printed p.47
+### PDF 27 / printed p.26
 
-PDF 48 was originally retained at review because two short spans in Raja's recollection immediately before `சமரசம் வீடு` were visually insecure. High-resolution work had already restored source-visible `ராசா:` variants and `எடுத்துகிட்டு`.
+The user's direct inspection verified:
 
-The user subsequently rechecked the controlling PDF directly and resolved the two remaining spans as:
+**`இரவெல்லாம்`**
 
-- **`வந்தனா`**
-- **`திடீர்னு`**
+Canonical context:
 
-The canonical passage is now retained as:
+`...ஐஸ்வரியவான் வீட்டுப் பெண் என்று நம்பிட்ட ராஜா--இரவெல்லாம் எங்கே போயிருந்தாயம்மா என்று கேள்வி கேட்கப் போகும் அப்பா...`
 
-`...நான் எடுத்துகிட்டு...ஒன்கிட்ட கொடுக்கிறதுக்கு வந்தனா? வந்தா திடீர்னு சமரசம் வீடு...`
+This resolved the former internal-monologue uncertainty and unblocked `s011`–`s013`.
 
-Disposition: **resolved by direct scan review; PDF 48 promoted to verified**.
+### PDF 48 / printed p.47
 
-This resolution unblocked `raja-rani-s033`. Its verified scene derivative and immutable dialogue shard have been created. Scene 33 contains **57 labelled dialogue records**, including one genuine PDF 48→49 cross-page record. No new exact speaker-label string or character entity was introduced.
+The user verified the two formerly insecure spans as:
 
-## Remaining review pages
+- `வந்தனா`
+- `திடீர்னு`
 
-### PDF 27 / printed p.26 — review retained
+This unblocked `s033`.
 
-The washed/faint word in Rani's internal monologue cannot yet be made sufficiently secure from the supplied scan. The canonical layer therefore retains the explicit uncertainty `⟦நீ?⟧` rather than inferring the word from grammar, context or another edition.
+### PDF 57 / printed p.56
 
-Disposition: **unresolved glyph uncertainty in supplied scan**.
+The user verified the exact final Samarasam phrase:
 
-### PDF 57 / printed p.56 — review retained
+**`முன்னுக்கு பின் முரணாயிகிட்டே போவது?`**
 
-Repeated enlarged inspection confirms the line begins `என்னடா இது, முன்னுக்கு பின்...`, but the following compact colloquial word group is still not sufficiently unambiguous for verified promotion. A plausible linguistic reading is not substituted for visual evidence.
+This unblocked `s039`.
 
-Disposition: **unresolved glyph uncertainty in supplied scan**.
+### PDF 74 / printed p.73
 
-### PDF 74 / printed p.73 — review retained
+The user verified that the `K. N. சங்கரன் ...` impression is a later non-canonical ownership/library stamp and can be ignored. It does not represent missing screenplay dialogue.
 
-A later ownership/address overprint beginning `K. N. சங்கரன்` physically overlaps original source printing in the upper-right region. Part of the original printing is physically obstructed in the supplied scan.
+Canonical sequence:
 
-The later overprint is non-canonical. Text hidden by it is not reconstructed from context, another edition, film audio, subtitles or OCR.
+`ஞான: நீ விதவை.`  
+`ராஜா: விதவை.`  
+`சாந்: வித்தாரக்கள்ளி! விநாசகாரி`  
+`பல குரல்கள்: விதவை! விதவை! விதவை! விதவை!`
 
-Disposition: **irreducible physical source obstruction in the supplied scan** unless a cleaner source image is later supplied.
+This unblocked `s053`–`s055`.
 
 ## Gate decision
 
-The visual-fidelity audit remains **complete-with-source-limitations**. The current bounded limitations are now only PDF **27, 57 and 74**.
+The earlier `closed-with-source-limitations` disposition is superseded. The fidelity gate is now **closed-verified** because every canonical source page in PDF 1–79 and every screenplay page in PDF 10–79 has a verified disposition.
 
-The Tamil fidelity gate is closed in the archival sense that the supplied scan has been fully audited and every unresolved source span is explicitly bounded rather than silently repaired. A later direct-scan resolution may promote an individual page without reopening unrelated verified material, as occurred with PDF 48.
-
-## Downstream eligibility policy
-
-Structured derivatives may use only verified Tamil source units.
-
-1. A scene-text derivative may be marked verified/complete only when all Tamil source material included in that derivative is verified.
-2. Scenes intersecting **PDF 27, 57 or 74** remain blocked for verified scene-text derivation until the affected source reading is resolved from stronger source evidence.
-3. Dialogue records may be created only from explicitly speaker-labelled utterances whose source text is verified.
-4. English translation may proceed only for corresponding verified Tamil scene material.
-5. Source-unlabelled speech remains unlabelled; no speaker is inferred merely to complete a derivative.
-6. Character/entity and song/performance work may use verified source evidence but must not treat unresolved page text as verified evidence.
-7. If stronger source evidence later resolves one of the remaining pages, update the canonical page first and explicitly reconcile only the affected downstream derivatives.
+This does not erase historical uncertainty. Earlier audit/review notes remain evidence of the process, but they must not be used to re-block scenes that were later resolved by direct scan review.
 
 ## Current downstream status
 
 - source intake: **complete**;
 - structural mapping: **complete**;
-- canonical Tamil first pass: **complete as draft**;
-- rendered-scan fidelity audit: **complete-with-source-limitations**;
-- page verification: **76 verified / 3 review**;
-- screenplay verification: **67 verified / 3 review**;
+- canonical Tamil: **79/79 verified source pages**;
+- screenplay verification: **70/70 verified**;
 - archival scene segments: **58**;
-- verified scene-text derivatives: **51 eligible / 7 blocked**;
-- immutable dialogue records: **949 across 51 eligible scenes**;
+- verified scene-text derivatives: **58/58**;
+- blocked scenes: **0**;
+- immutable dialogue records: **1,076 across 58 scenes**;
+- zero-dialogue scenes: **16**;
 - dialogue cross-page records: **12**;
-- exact speaker labels: **75/75**;
-- character entities / roles / collectives: **42**;
-- English translation production may include newly verified scene 33.
+- exact source labels: **80/80**;
+- verified entities / roles / collectives: **44**.
 
-## Current blocked scenes
+No scene remains blocked for English translation on source-fidelity grounds.
 
-- `s011`–`s013` — PDF 27;
-- `s039` — PDF 57;
-- `s053`–`s055` — PDF 74.
+## Permanent downstream policy
 
-Scene `s033` is **not blocked** anymore.
+1. Verified Tamil source remains authoritative.
+2. Exact source labels remain exact; do not normalize them in immutable dialogue metadata.
+3. Source-unlabelled speech remains unlabelled.
+4. Non-canonical stamps and ownership marks are not screenplay content.
+5. English translation does not become evidence for changing Tamil.
+6. If future direct scan evidence reopens a reading, update the canonical page first, record the evidence, then reconcile only affected derivatives.
