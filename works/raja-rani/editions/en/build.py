@@ -201,7 +201,8 @@ def validate_model() -> tuple[dict[str, Any], dict[str, Any], list[Path]]:
 
     ensure(scene_index.get("status") == "complete-verified", "Screenplay translation index is not complete-verified")
     ensure(scene_index.get("translation_units") == EXPECTED_SCREENPLAY_UNITS, "Screenplay unit total drifted")
-    ensure(scene_index.get("unit_kind_counts") == EXPECTED_KINDS, "Screenplay kind counts drifted")
+    index_kind_counts = scene_index.get("unit_kind_counts")
+    ensure(isinstance(index_kind_counts, dict) and all(index_kind_counts.get(k) == v for k, v in EXPECTED_KINDS.items()) and all(k in EXPECTED_KINDS or v == 0 for k, v in index_kind_counts.items()), "Screenplay kind counts drifted")
     ensure(scene_index.get("dialogue_source_records_linked") == EXPECTED_DIALOGUE_RECORDS, "Screenplay dialogue-link total drifted")
     ensure(scene_index.get("translation_eligible_scenes") == EXPECTED_SCENES and scene_index.get("translation_blocked_scenes") == 0, "Screenplay coverage drifted")
     ensure(scene_index.get("scenes_verified") == list(range(1, EXPECTED_SCENES + 1)), "Verified scene list is incomplete/out of order")

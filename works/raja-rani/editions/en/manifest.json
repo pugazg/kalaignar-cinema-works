@@ -1,0 +1,45 @@
+{
+  "work_id": "raja-rani",
+  "edition": "bilingual-reader",
+  "build_version": 1,
+  "status": "PASS",
+  "source_sha256": "26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4",
+  "authoritative_input_count": 200,
+  "authoritative_input_aggregate_sha256": "35cfc21e70eed9e0fb820c3df6a6a1c41fbddc21594f78b0cb5a799ab6a7efc2",
+  "checkpoint": {
+    "screenplay_scenes": 58,
+    "screenplay_units": 1236,
+    "screenplay_kind_counts": {
+      "stage-direction": 137,
+      "dialogue": 1090,
+      "performance-cue": 4,
+      "written-text": 5
+    },
+    "immutable_dialogue_links": 1071,
+    "source_unlabelled_spoken_units": 19,
+    "cross_page_screenplay_units": 15,
+    "screenplay_performance_occurrence_links": 4,
+    "numbered_songs": 11,
+    "numbered_song_sections": 67,
+    "numbered_song_line_cues": 181,
+    "cross_page_numbered_songs": 4,
+    "song_authorship_anthology_attributed": 5,
+    "song_authorship_unresolved": 6,
+    "song_performance_links_verified": 3,
+    "song_performance_links_review": 1
+  },
+  "outputs": {
+    "reader-edition.md": {
+      "bytes": 526184,
+      "sha256": "6437a0a39cebbaf17ab63f76f7aef6f9f62eb3c4abbd07864974d47be20902c8"
+    },
+    "reader-edition.html": {
+      "bytes": 675121,
+      "sha256": "c24ea9ab0f1ee77b3bc795b3134e4ad8bed78f00d6a8f896f9749052ff074ec6"
+    },
+    "reader-edition.json": {
+      "bytes": 971896,
+      "sha256": "76827d570f3079c04463e3142a9edf32f35c1497e2b820bfa467f8203d7441e2"
+    }
+  }
+}
