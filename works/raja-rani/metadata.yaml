@@ -14,22 +14,22 @@ status:
   correction_005_reconciliation_path: works/raja-rani/notes/correction-005-reconciliation.md
   fidelity_audit_through_pdf_page: 79
   fidelity_audited_source_pages: 79
-  fidelity_verified_source_pages: 75
-  fidelity_review_source_pages: 4
+  fidelity_verified_source_pages: 76
+  fidelity_review_source_pages: 3
   screenplay_fidelity_audited_pages: 70
-  verified_tamil_pages: 66
-  screenplay_fidelity_verified_pages: 66
-  screenplay_fidelity_review_pages: 4
+  verified_tamil_pages: 67
+  screenplay_fidelity_verified_pages: 67
+  screenplay_fidelity_review_pages: 3
   structured_derivatives: english-translation-in-progress-verified
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
   archival_scene_segments: 58
-  scene_text_eligible_segments: 50
-  scene_text_blocked_segments: 8
+  scene_text_eligible_segments: 51
+  scene_text_blocked_segments: 7
   scene_text_derivatives: complete-verified-only-with-review-exclusions
   scene_text_batching_policy: five-source-pages-per-iteration
-  scene_text_files_completed: 50
+  scene_text_files_completed: 51
   scene_text_files_remaining_eligible: 0
   scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-010.md
   scene_layer_completion_checkpoint: works/raja-rani/notes/scene-layer-completion-dialogue-initialization.md
@@ -37,12 +37,12 @@ status:
   dialogue_index: complete-verified-only-with-review-exclusions
   dialogue_index_path: works/raja-rani/dialogues/index.json
   dialogue_schema_path: works/raja-rani/dialogues/schema.json
-  dialogue_eligible_scenes: 50
-  dialogue_blocked_scenes: 8
-  dialogue_records: 892
-  dialogue_scenes_completed: 50
+  dialogue_eligible_scenes: 51
+  dialogue_blocked_scenes: 7
+  dialogue_records: 949
+  dialogue_scenes_completed: 51
   dialogue_zero_record_scenes: [8, 10, 14, 19, 20, 22, 27, 29, 30, 32, 37, 38, 42, 43, 48]
-  dialogue_cross_page_records: 11
+  dialogue_cross_page_records: 12
   dialogue_source_label_anomaly_records: 3
   dialogue_latest_batch: works/raja-rani/notes/dialogue-batch-006.md
   dialogue_next_scene_batch: null
@@ -88,8 +88,8 @@ status:
   translation_pilot_review_path: works/raja-rani/translations/PILOT_REVIEW.md
   translation_latest_batch_review_path: works/raja-rani/translations/BATCH_024_034_REVIEW.md
   translation_batch_policy: ten-eligible-verified-scenes-per-iteration
-  translation_eligible_scenes: 50
-  translation_blocked_scenes: 8
+  translation_eligible_scenes: 51
+  translation_blocked_scenes: 7
   translation_scenes_verified: 30
   translation_units: 715
   translation_verified_units: 715
@@ -102,15 +102,12 @@ status:
   translation_unit_kind_counts: {dialogue: 633, stage_direction: 78, song: 0, song_reference: 0, performance_cue: 2, chant: 0, written_text: 2}
   translation_front_matter_numbered_songs_expected: 11
   translation_front_matter_numbered_songs_started: 0
-  translation_next_scene_batch: "035-038,040-045"
+  translation_next_scene_batch: "033,035-038,040-044"
 scan_condition:
   notes:
     - pdf_page: 27
       printed_page: 26
       finding: faint/washed internal-monologue word remains unresolved as "⟦நீ?⟧"; page remains review
-    - pdf_page: 48
-      printed_page: 47
-      finding: two short spans immediately before "சமரசம் வீடு" remain explicit visual uncertainty; source-visible ராசா labels and "எடுத்துகிட்டு" have been restored; page remains review
     - pdf_page: 57
       printed_page: 56
       finding: line securely begins "என்னடா இது, முன்னுக்கு பின்..." but following compact colloquial word group remains unresolved after repeated high-resolution review; page remains review
@@ -129,6 +126,9 @@ resolved_during_fidelity_audit:
   - pdf_page: 42
     printed_page: 41
     finding: earlier "⟦புடி?⟧ புடாதே" resolved as printed "உடி புடாதே."; source-visible "ராசா:" / "ராஜ:" labels restored; page verified
+  - pdf_page: 48
+    printed_page: 47
+    finding: user direct-scan review resolved the two previously insecure spans before "சமரசம் வீடு" as "வந்தனா" and "திடீர்னு"; page is now verified and scene 33 is unblocked
   - pdf_page: 51
     printed_page: 50
     finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
@@ -173,4 +173,4 @@ post_fidelity_corrections:
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
   - campaign: correction-005
     finding: user-led old-glyph comparison campaign was reconciled through canonical, scene, dialogue, character, song and existing English layers; durable reconciliation record is works/raja-rani/notes/correction-005-reconciliation.md
-next_action: "Translate the next 10 eligible verified Raja Rani scenes: 035, 036, 037, 038, then 040-045; skip blocked scene 039. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
+next_action: "Translate the next 10 eligible verified Raja Rani scenes: 033, 035, 036, 037, 038, then 040-044; skip blocked scene 039. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
