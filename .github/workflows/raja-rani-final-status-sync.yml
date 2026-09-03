@@ -27,42 +27,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Make final-state synchronization idempotent
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("works/raja-rani/integrations/reading-room/sync_status.py")
-          text = path.read_text(encoding="utf-8")
-          marker = "RAJA RANI FINAL REPOSITORY STATUS SYNC: PASS (already synchronized)"
-          if marker not in text:
-              old = "def main() -> int:\n    sync_metadata()\n"
-              new = '''def main() -> int:
-              metadata_text = read(WORK / "metadata.yaml")
-              already_final = all(
-                  marker in metadata_text
-                  for marker in (
-                      "structured_derivatives: complete-verified-reader-and-reading-room-payload",
-                      "english_reader_export: complete-verified",
-                      "reading_room_integration: payload-complete-verified",
-                      "reading_room_site_application: not-applied",
-                  )
-              )
-              if already_final:
-                  stale_assertions()
-                  print("RAJA RANI FINAL REPOSITORY STATUS SYNC: PASS (already synchronized)")
-                  return 0
-
-              sync_metadata()
-          '''
-              if old not in text:
-                  raise SystemExit("main() synchronization anchor not found")
-              text = text.replace(old, new, 1)
-              path.write_text(text, encoding="utf-8")
-          PY
-
-      - name: Synchronize Raja Rani current status surfaces
+      - name: Synchronize or verify Raja Rani final status
         run: python works/raja-rani/integrations/reading-room/sync_status.py
 
       - name: Verify changes stay inside this repository
@@ -78,8 +43,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "Raja Rani status is already synchronized; nothing to commit."
+            echo "Raja Rani final state verified; nothing to commit."
           else
-            git commit -m "Make Raja Rani final status sync idempotent [skip ci]"
+            git commit -m "Synchronize Raja Rani completed repository status [skip ci]"
             git push origin HEAD:main
           fi
