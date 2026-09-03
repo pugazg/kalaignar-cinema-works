@@ -3,7 +3,7 @@
   "source": "dialogues/records/scene-###.json",
   "dialogue_records_scanned": 892,
   "observed_scenes_scanned": 50,
-  "distinct_speaker_labels": 74,
+  "distinct_speaker_labels": 75,
   "status": "complete-inventory",
   "labels": [
     {"speaker_label":"அகல்","scenes":[24]},
@@ -44,6 +44,7 @@
     {"speaker_label":"டாக்டர்","scenes":[1]},
     {"speaker_label":"தமிழ்நாட்டுப் புலவர்","scenes":[4]},
     {"speaker_label":"தா","scenes":[7]},
+    {"speaker_label":"தர்யம்","scenes":[17]},
     {"speaker_label":"தாயம்","scenes":[3,17]},
     {"speaker_label":"தாயம்மாள்","scenes":[3,17]},
     {"speaker_label":"தாய்","scenes":[52]},
