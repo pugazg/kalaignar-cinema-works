@@ -1,0 +1,338 @@
+{
+  "id": "raja-rani-song-en-003",
+  "song_id": "raja-rani-song-003",
+  "numbered_song_number": 3,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-003.md",
+    "tamil_status": "verified",
+    "pdf_pages": [5, 6],
+    "printed_pages": [4, 5],
+    "tamil_title": "வாங்க...வாங்க...வாங்க...எல்லோரும் இங்கே வாங்க",
+    "authorship_status": "anthology-attributed",
+    "lyricist_ta": "மு. கருணாநிதி",
+    "authorship_evidence_basis": "Later verified Kalaignar anthology item correspondence (`kalaignar-song-019`); this does not become original-booklet primary-source item credit.",
+    "performance_links": [
+      {"occurrence_id": "raja-rani-song-perf-001", "status": "verified", "scene": 4}
+    ]
+  },
+  "translation": {
+    "english_title": "Come... come... come... everyone, come here",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "வாங்க...வாங்க...வாங்க...எல்லோரும் இங்கே வாங்க",
+          "டிக்கெட்டு வாங்க...வாங்க...இன்றிரவு மிக நன்றிரவு",
+          "இணையில்லாத இன்ப இரவு"
+        ],
+        "english_lines": [
+          "Come... come... come... everyone, come here,",
+          "Buy your ticket... come... tonight is a very fine night,",
+          "A matchless night of delight."
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 2,
+        "source_label": "நிர். 1. ஒருவன்",
+        "english_label": "Customer 1 — a man",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["தரை ஒண்ணு!"],
+        "english_lines": ["One floor ticket!"],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["அரை ரூபா!"],
+        "english_lines": ["Half a rupee!"],
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["கொடு கொடு இந்தா!"],
+        "english_lines": ["Give it, give it—here!"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "தரை அரை ரூபா!...கரை படிந்த தரை அரை ரூபா",
+          "ரத்தக் கரை படிந்த தரை அரை ரூபா",
+          "வெற்றிலை பாக்கு கரை படிந்த தரை அரை ரூபா",
+          "(இன்றிரவு) (இன்றிரவு)"
+        ],
+        "english_lines": [
+          "The floor—half a rupee!... the stained floor—half a rupee,",
+          "The blood-stained floor—half a rupee,",
+          "The betel-and-areca-stained floor—half a rupee,",
+          "(Tonight) (Tonight)"
+        ],
+        "notes": ["The repeated `தரை / கரை` sound-play is kept as the source's comic chain of floor/stain images rather than replaced with a new English pun."]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "நிர். 2. ஒருவன்",
+        "english_label": "Customer 2 — a man",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["ஏம்மா இன்னிக்கு என்ன ட்ராமா?"],
+        "english_lines": ["Amma, what drama is on today?"],
+        "notes": []
+      },
+      {
+        "ordinal": 7,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["அட வெங்கட்ராமா க்யூவிலே நில்லு!"],
+        "english_lines": ["Hey, Venkatrama—stand in the queue!"],
+        "notes": ["The source's `ட்ராமா / வெங்கட்ராமா` comic echo is retained through the name rather than replaced with an invented English rhyme."]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "எப்படித் தெரியும் என்பேரு?",
+          "செப்படி வித்தை கற்றவளோ?"
+        ],
+        "english_lines": [
+          "How do you know my name?",
+          "Have you learned conjuring tricks?"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 9,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "தரை அரை ரூபா...பெஞ்சு ஒண்ணு பேக் பெஞ்சு",
+          "மூணு...ஏ...காலி! காலி...நாற்காலி",
+          "அஞ்சு ரூபா..."
+        ],
+        "english_lines": [
+          "Floor—half a rupee... one bench, back bench,",
+          "Three... eh... empty! Empty... a chair,",
+          "Five rupees..."
+        ],
+        "notes": ["The source's clipped seating-price patter and `காலி / நாற்காலி` sound chain are left structurally visible rather than regularized into a neat price table."]
+      },
+      {
+        "ordinal": 10,
+        "source_label": "நிர். 3. ஒருவன்",
+        "english_label": "Customer 3 — a man",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["கொஞ்ச ரூபா சொல்லு"],
+        "english_lines": ["Tell me a smaller price."],
+        "notes": []
+      },
+      {
+        "ordinal": 11,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["ஆ!"],
+        "english_lines": ["Ah!"],
+        "notes": []
+      },
+      {
+        "ordinal": 12,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "கொஞ்ச ரூபா சொல்லம்மா...கோகிலவாணி",
+          "அம்மா கோகிலவாணி அம்மா கோகிலவாணி"
+        ],
+        "english_lines": [
+          "Name a smaller price, amma... Kokilavani,",
+          "Amma Kokilavani, amma Kokilavani."
+        ],
+        "notes": ["`கோகிலவாணி` is retained as Kokilavani, preserving the source's musical/flattering address."]
+      },
+      {
+        "ordinal": 13,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "வஞ்சகனே போடா!...ஏடா...மூடா...",
+          "வீணே சாகாதேடா..."
+        ],
+        "english_lines": [
+          "Deceiver, get lost!... hey you... fool...",
+          "Don't die for nothing..."
+        ],
+        "notes": ["These are part of Rani's demonstration of the fiery dialogue heard in the play; the insults are not softened."]
+      },
+      {
+        "ordinal": 14,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["ஆ!"],
+        "english_lines": ["Ah!"],
+        "notes": []
+      },
+      {
+        "ordinal": 15,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [5],
+        "source_tamil_lines": [
+          "எங்க நாடகத்தில் இந்த வசனங்களை கேட்க",
+          "கொஞ்ச ரூபாயா? அஞ்சு ரூபாதா!",
+          "அழகான நாடகம் எழிலான காட்சிகள்",
+          "அனல் வீசும் பேச்சுகள்...ஆடல்...பாடல்",
+          "ஊடல்...கூடல் எல்லாம் காண இங்கே வாங்க..."
+        ],
+        "english_lines": [
+          "To hear these lines in our play,",
+          "A few rupees? Five rupees, that's all!",
+          "A beautiful play, lovely scenes,",
+          "Speeches that spit fire... dance... song,",
+          "Lovers' quarrels... unions—come here to see it all..."
+        ],
+        "notes": ["`ஊடல் / கூடல்` is translated as lovers' quarrel/union to retain the paired romantic contrast."]
+      },
+      {
+        "ordinal": 16,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [6],
+        "source_tamil_lines": [
+          "வாங்க டிக்கெட்டு வாங்க வாங்க",
+          "மூணு வயதுக்கு மேல் முழு சார்ஜு",
+          "இடம்மாறி உட்கார்ந்தால் டபுள் சார்ஜு",
+          "டர்னிங் சீனில் அடிக்கக்கூடாது டார்ச்சு (மூணு)"
+        ],
+        "english_lines": [
+          "Come, buy your ticket, come,",
+          "Above three years of age—full charge,",
+          "Change seats and it's double charge,",
+          "During the turning scene, don't shine a torch. (Moonu)"
+        ],
+        "notes": ["The source-visible English code-switching—charge, double charge, turning scene, torch—is retained.", "The parenthetical `(மூணு)` refrain cue is retained as `(Moonu)` without inventing omitted words."]
+      },
+      {
+        "ordinal": 17,
+        "source_label": "கிழவன்",
+        "english_label": "Old man",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ஐம்பத்து மூணுக்கு?"],
+        "english_lines": ["For fifty-three?"],
+        "notes": ["The source's age/number joke is preserved literally rather than explained inside the lyric."]
+      },
+      {
+        "ordinal": 18,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ஈஸி சேர்!..."],
+        "english_lines": ["Easy chair!..."],
+        "notes": []
+      },
+      {
+        "ordinal": 19,
+        "source_label": "ஒரு பெண்",
+        "english_label": "A woman",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ஏம்மா! பெண்களுக்குத் தனி இடம் உண்டா?"],
+        "english_lines": ["Amma! Is there a separate place for women?"],
+        "notes": []
+      },
+      {
+        "ordinal": 20,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["பிள்ளைகள் போட ஏணையும் உண்டு பீடா சிகரெட் பாக்கு வெத்திலை சோடா கலர் ஆரஞ்சு"],
+        "english_lines": ["There's even a cradle for putting the children in—beeda, cigarette, areca, betel, soda, colour, orange."],
+        "notes": ["The rapid source list of amenities/concessions is retained rather than normalized into modern categories."]
+      },
+      {
+        "ordinal": 21,
+        "source_label": "குள்ளன்",
+        "english_label": "Dwarf",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ப்ரீயா?"],
+        "english_lines": ["Free?"],
+        "notes": []
+      },
+      {
+        "ordinal": 22,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [6],
+        "source_tamil_lines": [
+          "அட.. ட்ரீயோ! ட்ரீயோ டேயன்னா!",
+          "முட்டன்னா டாவன்னா ள்ளன்னா போய்யா (மூணு)"
+        ],
+        "english_lines": [
+          "Ada... tree-yo! Tree-yo, dey-anna!",
+          "Mutta-anna, daava-anna, lla-anna—go away! (Moonu)"
+        ],
+        "notes": ["The verified source's deliberately comic/opaque sound-play is transliterated rather than silently rewritten into conventional Tamil or an invented English joke."]
+      },
+      {
+        "ordinal": 23,
+        "source_label": "நிர். 4 ஒருவன்",
+        "english_label": "Customer 4 — a man",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ஏம்மா அரை டிக்கட் உண்டா?"],
+        "english_lines": ["Amma, is there a half-ticket?"],
+        "notes": []
+      },
+      {
+        "ordinal": 24,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["யப்பா...உமக்கு முழு டிக்கட்டும் இல்லே!"],
+        "english_lines": ["Ayya... you don't even have a full ticket!"],
+        "notes": []
+      },
+      {
+        "ordinal": 25,
+        "source_label": "அவன்",
+        "english_label": "He",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ஏனாம்?"],
+        "english_lines": ["Why?"],
+        "notes": []
+      },
+      {
+        "ordinal": 26,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [6],
+        "source_tamil_lines": ["ஹவுஸ் புல்!"],
+        "english_lines": ["House full!"],
+        "notes": ["The source-visible English-derived punchline is retained directly."]
+      }
+    ],
+    "translator_notes": [
+      "Song 3 crosses PDF 5→6 and retains every source-labelled customer turn in source order.",
+      "The theatre-ticket patter, code-switching, insults, seating jokes and opaque sound-play are preserved rather than polished into a different comedy routine.",
+      "Authorship remains at later-anthology attribution tier; the English record does not promote it to original-booklet primary-source item credit.",
+      "The verified scene-4 performance link is retained without duplicating the full lyric into the screenplay translation."
+    ]
+  }
+}
