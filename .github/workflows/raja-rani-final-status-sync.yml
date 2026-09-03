@@ -32,15 +32,17 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
 
           path = Path("works/raja-rani/integrations/reading-room/sync_status.py")
           text = path.read_text(encoding="utf-8")
-          old = '''    for path in current_paths:
-              text = read(path)
-              for needle in forbidden:
-                  if needle in text:
-                      raise RuntimeError(f"stale current-state phrase remains in {path.relative_to(ROOT)}: {needle}")
-          '''
+          pattern = re.compile(
+              r'    for path in current_paths:\n'
+              r'        text = read\(path\)\n'
+              r'        for needle in forbidden:\n'
+              r'            if needle in text:\n'
+              r'                raise RuntimeError\(f"stale current-state phrase remains in \{path\.relative_to\(ROOT\)\}: \{needle\}"\)\n'
+          )
           new = '''    registry_path = ROOT / "data" / "works.json"
               registry = json.loads(read(registry_path))
               matches = [work for work in registry if work.get("id") == "raja-rani"]
@@ -66,9 +68,10 @@ jobs:
                               f"stale current-state phrase remains in {current_path.relative_to(ROOT)}: {needle}"
                           )
           '''
-          if old not in text:
-              raise SystemExit("expected stale_assertions block not found")
-          path.write_text(text.replace(old, new, 1), encoding="utf-8")
+          text, count = pattern.subn(new, text, count=1)
+          if count != 1:
+              raise SystemExit(f"expected one stale_assertions loop, found {count}")
+          path.write_text(text, encoding="utf-8")
           PY
 
       - name: Synchronize Raja Rani current status surfaces
