@@ -1,0 +1,72 @@
+{
+  "work_id": "raja-rani",
+  "target_language": "en",
+  "status": "complete-verified",
+  "mode": "semantic-poetic-source-faithful",
+  "schema": "schema.json",
+  "records_directory": "records",
+  "qa_report": "FINAL_NUMBERED_SONG_TRANSLATION_QA.md",
+  "numbered_songs_expected": 11,
+  "numbered_songs_verified": 11,
+  "numbered_songs_review": 0,
+  "numbered_songs_draft": 0,
+  "numbered_songs_not_started": 0,
+  "translation_sections": 67,
+  "source_tamil_line_cues": 181,
+  "english_line_cues": 181,
+  "cross_page_song_records": [
+    "raja-rani-song-en-002",
+    "raja-rani-song-en-003",
+    "raja-rani-song-en-008",
+    "raja-rani-song-en-010"
+  ],
+  "authorship": {
+    "anthology_attributed": 5,
+    "unresolved": 6,
+    "primary_source_item_level_credits": 0,
+    "kalaignar_attributed_song_ids": [
+      "raja-rani-song-003",
+      "raja-rani-song-005",
+      "raja-rani-song-006",
+      "raja-rani-song-007",
+      "raja-rani-song-008"
+    ],
+    "unresolved_song_ids": [
+      "raja-rani-song-001",
+      "raja-rani-song-002",
+      "raja-rani-song-004",
+      "raja-rani-song-009",
+      "raja-rani-song-010",
+      "raja-rani-song-011"
+    ],
+    "modified_by_translation": false
+  },
+  "screenplay_performance_links": {
+    "verified": [
+      {"occurrence_id": "raja-rani-song-perf-001", "song_id": "raja-rani-song-003", "scene": 4},
+      {"occurrence_id": "raja-rani-song-perf-002", "song_id": "raja-rani-song-005", "scene": 16},
+      {"occurrence_id": "raja-rani-song-perf-003", "song_id": "raja-rani-song-008", "scene": 40}
+    ],
+    "review": [
+      {"occurrence_id": "raja-rani-song-perf-004", "song_id": "raja-rani-song-011", "scene": 58}
+    ],
+    "modified_or_upgraded_by_translation": false
+  },
+  "records": [
+    {"id":"raja-rani-song-en-001","song_id":"raja-rani-song-001","file":"records/song-001.json","pdf_pages":[4],"sections":4,"source_tamil_line_cues":14,"english_line_cues":14,"status":"verified"},
+    {"id":"raja-rani-song-en-002","song_id":"raja-rani-song-002","file":"records/song-002.json","pdf_pages":[4,5],"sections":10,"source_tamil_line_cues":19,"english_line_cues":19,"status":"verified"},
+    {"id":"raja-rani-song-en-003","song_id":"raja-rani-song-003","file":"records/song-003.json","pdf_pages":[5,6],"sections":26,"source_tamil_line_cues":44,"english_line_cues":44,"status":"verified"},
+    {"id":"raja-rani-song-en-004","song_id":"raja-rani-song-004","file":"records/song-004.json","pdf_pages":[6],"sections":3,"source_tamil_line_cues":22,"english_line_cues":22,"status":"verified"},
+    {"id":"raja-rani-song-en-005","song_id":"raja-rani-song-005","file":"records/song-005.json","pdf_pages":[7],"sections":1,"source_tamil_line_cues":9,"english_line_cues":9,"status":"verified"},
+    {"id":"raja-rani-song-en-006","song_id":"raja-rani-song-006","file":"records/song-006.json","pdf_pages":[7],"sections":1,"source_tamil_line_cues":9,"english_line_cues":9,"status":"verified"},
+    {"id":"raja-rani-song-en-007","song_id":"raja-rani-song-007","file":"records/song-007.json","pdf_pages":[7],"sections":1,"source_tamil_line_cues":8,"english_line_cues":8,"status":"verified"},
+    {"id":"raja-rani-song-en-008","song_id":"raja-rani-song-008","file":"records/song-008.json","pdf_pages":[7,8],"sections":6,"source_tamil_line_cues":27,"english_line_cues":27,"status":"verified"},
+    {"id":"raja-rani-song-en-009","song_id":"raja-rani-song-009","file":"records/song-009.json","pdf_pages":[8],"sections":1,"source_tamil_line_cues":8,"english_line_cues":8,"status":"verified"},
+    {"id":"raja-rani-song-en-010","song_id":"raja-rani-song-010","file":"records/song-010.json","pdf_pages":[8,9],"sections":2,"source_tamil_line_cues":7,"english_line_cues":7,"status":"verified"},
+    {"id":"raja-rani-song-en-011","song_id":"raja-rani-song-011","file":"records/song-011.json","pdf_pages":[9],"sections":12,"source_tamil_line_cues":14,"english_line_cues":14,"status":"verified"}
+  ],
+  "canonical_tamil_modified": false,
+  "song_authorship_modified": false,
+  "screenplay_translation_modified": false,
+  "next_activity": "Build and QA the Raja Rani whole-work bilingual reader/export from the completed verified screenplay and numbered-song English layers, then prepare Reading Room integration data."
+}
