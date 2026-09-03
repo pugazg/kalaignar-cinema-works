@@ -32,7 +32,7 @@ The booklet prints **no numbered screenplay scenes**. Archive IDs `raja-rani-s00
 
 Canonical source-order layer: `pages/001.md`–`079.md`.
 
-The rendered-scan audit is now fully closed:
+The rendered-scan audit is fully closed:
 
 - audited source pages: **79/79**
 - verified source pages: **79/79**
@@ -41,7 +41,7 @@ The rendered-scan audit is now fully closed:
 - screenplay pages verified: **70/70**
 - Tamil fidelity gate: **closed-verified**
 
-The last source limitations were resolved by direct user inspection of the controlling PDF. Durable record: `notes/final-source-review-resolution.md`.
+Durable source-resolution record: `notes/final-source-review-resolution.md`.
 
 Final manual resolutions include:
 
@@ -54,25 +54,34 @@ The comparison files `r1.md`–`r4.md` were candidate-reading aids only. The use
 
 ## Correction 005
 
-The earlier old-glyph comparison campaign is reconciled through canonical Tamil, scenes, dialogue, character, song and pre-existing English layers. Durable record: `notes/correction-005-reconciliation.md`.
+The old-glyph comparison campaign is reconciled through canonical Tamil, scenes, dialogue, character, song and English layers. Durable record: `notes/correction-005-reconciliation.md`.
 
 Permanent examples include PDF 72 `சாக்ரடீசின்`, scene 17 exact source label `தர்யம்`, scene 34's corrected `ராணி` ownership occurrence, and the final PDF 76–79 manual adjudications.
 
 ## Scene / dialogue / character layers
 
-The source derivative layers now cover the entire screenplay:
+The source derivative layers cover the entire screenplay:
 
 - archival scene segments: **58**
 - verified scene-text derivatives: **58/58**
 - blocked scenes: **0**
-- immutable dialogue records: **1,076** across **58/58** scenes
+- unique immutable dialogue records: **1,071** across **58/58** scenes
 - zero-dialogue scenes: **16**
 - genuine cross-page dialogue records: **12**
 - tracked source-label/delimiter anomalies: **3**
 - exact source speaker labels: **80/80 dispositioned**
 - verified entities / roles / collectives: **44**
 
-The final source unblock added the scene/dialogue shards for `s011`–`s013`, `s039`, and `s053`–`s055`. The new exact labels `மனம்`, `நிழல்`, `ஞானக்கண் குரல்`, `ராஜாவின் குரல்`, and `சமரசம் குரல்` are preserved without normalization. `மனம்` and `நிழல்` remain source-personified dramatic roles; the three explicit voice labels map downstream to their established characters.
+### T055 / T056 boundary correction
+
+Final screenplay QA found that the earlier scene-55 derivative duplicated the complete `(முன்)` flashback that belongs to scene 56. The derivative boundary is now corrected:
+
+- scene 55: **25** immutable dialogue records;
+- scene 56: **5** immutable dialogue records;
+- corrected unique corpus: **1,071** records;
+- canonical page transcription: **unchanged**.
+
+This was a derivative ownership correction, not a source-text correction. See `translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`.
 
 ## Song/performance inventory and authorship gate
 
@@ -84,34 +93,35 @@ The final source unblock added the scene/dialogue shards for `s011`–`s013`, `s
 - unresolved lyricist: **6 — songs 1, 2, 4, 9, 10, 11**
 - original-booklet item-level lyricist credits: **0**
 
-Translation or source cleanup must not upgrade those authorship dispositions.
+Translation or source cleanup must not upgrade those authorship dispositions. Scene 58's link to song 11 remains review-level exactly as recorded in the song inventory.
 
-## English translation — in progress
+## English screenplay translation — complete
 
-Current checkpoint after `translations/BATCH_024_034_REVIEW.md`:
+Final QA: `translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`.
 
-- production policy: **10 verified untranslated scenes per iteration, in source order**;
-- verified scenes translated: **30/58**;
-- translated scenes: **1–10, 14–32, 34**;
-- verified English units: **715**;
-- immutable dialogue links in translated scenes: **622/622**;
-- unit mix: **633 dialogue / 78 stage direction / 2 performance cue / 2 written text**;
-- source-unlabelled spoken units: **11**;
-- cross-page English units: **6**;
-- front-matter numbered song translations started: **0/11**.
+- translated screenplay scenes: **58/58**
+- verified English units: **1,236**
+- immutable dialogue links: **1,071/1,071**
+- unit mix: **1,090 dialogue / 137 stage direction / 4 performance cue / 5 written text**
+- source-unlabelled spoken units: **19**
+- genuine cross-page English units: **15**
+- screenplay singing/performance occurrences represented: **4/4**
+- draft/review English screenplay units: **0**
 
-No source-blocked scene remains. Translation does not modify canonical Tamil, immutable dialogue IDs, character entities or song-authorship dispositions.
+The 1,090 dialogue-kind units comprise 1,071 immutable source-labelled records plus 19 deliberately source-unlabelled spoken units.
+
+English translation does not modify canonical Tamil, immutable source labels, character identities or song authorship.
 
 ## Current gate
 
 - source intake: **complete**
-- structural mapping: **complete**
 - canonical Tamil / fidelity: **complete-verified — 79/79 source pages**
 - scene segmentation: **complete — 58/58 verified**
-- dialogue layer: **complete — 1,076 records / 58 scenes**
+- dialogue layer: **complete — 1,071 unique records / 58 scenes**
 - character/entity layer: **complete-verified — 80/80 labels / 44 entities**
 - song/performance authorship derivative: **complete-with-unresolved-authorship — 15 occurrences**
-- English translation: **in-progress-verified — 30/58 scenes / 715 units**
+- English screenplay translation: **complete-verified — 58/58 scenes / 1,236 units / 1,071 links**
+- numbered front-matter song English translation: **not started — 0/11**
 
 `data/works.json` and the root README are shared repository mirrors and may lag this work-local checkpoint. Work-local indexes, metadata, reviews and Raja Rani handover are authoritative for production.
 
@@ -119,17 +129,22 @@ No source-blocked scene remains. Translation does not modify canonical Tamil, im
 
 - Rendered scan is controlling.
 - OCR and comparison transcriptions are navigation/candidate-reading aids only.
-- User direct-scan verdicts control the reviewed occurrences recorded above unless later direct scan evidence reopens them.
+- User direct-scan verdicts control reviewed occurrences unless later direct scan evidence reopens them.
 - Preserve occurrence-specific variants; no global normalization.
 - No invented speakers or source text.
 - Non-canonical stamps/ownership marks are not screenplay content.
 - Song authorship requires item-level evidence.
 - Translation never repairs or upgrades source/authorship evidence.
 
-## Next activity
+## Next activity — numbered songs
 
-Translate the next **10 verified untranslated scenes** in source order:
+Translate the **11 verified numbered front-matter song bodies**, songs 1–11 in source order, through a dedicated source-linked English song layer.
 
-`raja-rani-s011`, `s012`, `s013`, `s033`, `s035`, `s036`, `s037`, `s038`, `s039`, `s040`.
+For every song preserve:
 
-There is now **no blocked-scene skip**. Preserve exact immutable dialogue links and source labels, source-unlabelled speech, stage/performance structure and physical page crossings. Do not invent speakers, lyrics, scene endings or authorship.
+- verified Tamil lyric body and page provenance;
+- existing performance-link evidence only where already supported;
+- current authorship tier exactly;
+- source imagery, rhetoric and repetition through semantic-poetic English.
+
+Do **not** infer unresolved lyricists, import missing lyrics into screenplay cues, or modify canonical Tamil to improve English.
