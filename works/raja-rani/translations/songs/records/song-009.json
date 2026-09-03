@@ -1,0 +1,59 @@
+{
+  "id": "raja-rani-song-en-009",
+  "song_id": "raja-rani-song-009",
+  "numbered_song_number": 9,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-009.md",
+    "tamil_status": "verified",
+    "pdf_pages": [8],
+    "printed_pages": [7],
+    "tamil_title": "திருமணம் ஆகாத பெண்ணே",
+    "authorship_status": "unresolved",
+    "lyricist_ta": null,
+    "authorship_evidence_basis": "No item-level lyricist mapping is printed or established for song 9.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "Unmarried woman",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ரேடியோ பாடல்",
+        "english_label": "Radio song",
+        "pdf_pages": [8],
+        "source_tamil_lines": [
+          "திருமணம் ஆகாத பெண்ணே—உன்",
+          "நிலை தன்னை தீர்மானம் செய்திடு கண்ணே!— (திரு)",
+          "பொய்மொழி பேசி பலர் பெண் கொள்ள வந்திடுவார்",
+          "நல்ல விலை பேசுவார் நாளும் சுமந்து பெற்றோர்கள் (திரு)",
+          "புல்லென உன்னை மதிப்பார்—கண்ணில்",
+          "கல்யாண மாப்பிள்ளை யாரென்று காட்டார்",
+          "கண்ணே உனக்கொரு சேதி இந்தக்",
+          "கல்யாண தரகர்க்கு அஞ்சிடவேண்டாம் (திரு)"
+        ],
+        "english_lines": [
+          "Unmarried woman—your",
+          "Condition, decide it for yourself, dear!— (Thiru)",
+          "Speaking false words, many will come seeking to take a bride,",
+          "The parents who carried and bore you will bargain day after day for a good price. (Thiru)",
+          "They will value you like straw—and before your eyes,",
+          "Point out who is to be the wedding bridegroom,",
+          "Dear, here is a message for you—these",
+          "Marriage brokers need not be feared. (Thiru)"
+        ],
+        "notes": [
+          "The song's critique of marriage bargaining and brokerage is kept direct rather than softened into generic advice.",
+          "`புல்லென` is retained as the concrete comparison `like straw`.",
+          "The source refrain cue `(திரு)` is retained as `(Thiru)` rather than expanded."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The source explicitly labels this a radio song; that performance label is preserved.",
+      "Authorship remains unresolved."
+    ]
+  }
+}
