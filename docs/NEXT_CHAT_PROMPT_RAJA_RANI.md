@@ -45,17 +45,27 @@ Correction 005 is reconciled. Do **not** reopen the completed manual correction 
 
 Current synchronized source/derivative census:
 
-- dialogue: **892 records / 50 eligible scenes / 8 blocked**;
+- source pages: **76 verified / 3 review**;
+- screenplay pages: **67 verified / 3 review**;
+- dialogue: **949 records / 51 eligible scenes / 7 blocked / 12 cross-page records**;
 - character mapping: **75/75 exact labels / 42 entities**;
 - songs/performance: **11 numbered songs + 4 screenplay references = 15 occurrences**; authorship remains 5 later-anthology Kalaignar-attributed / 6 unresolved;
-- English translation: **30/50 eligible scenes / 715 verified units / 622/622 immutable dialogue links**.
+- English translation: **30/51 eligible scenes / 715 verified units / 622/622 immutable dialogue links in translated scenes**.
 
-Permanent source forms include PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, corrected scene-34 `ராணி` ownership, and the final manually adjudicated PDF 76–79 forms. Do not normalize or revert them.
+Permanent source forms include PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, corrected scene-34 `ராணி` ownership, final manually adjudicated PDF 76–79 forms, and PDF 48's newly resolved `வந்தனா` / `திடீர்னு`. Do not normalize or revert them.
 
-Review/source-limited pages remain PDF **27, 48, 57 and 74**. Blocked scenes remain:
+### PDF 48 / scene 33 is now resolved
+
+The user directly checked the rendered PDF and resolved both previously insecure spans immediately before `சமரசம் வீடு` as:
+
+- `வந்தனா`
+- `திடீர்னு`
+
+PDF 48 is now verified. `raja-rani-s033` is complete-verified with **57 immutable dialogue records** and one genuine PDF 48→49 cross-page record. It is no longer blocked.
+
+Review/source-limited pages now remain only PDF **27, 57 and 74**. Blocked scenes remain:
 
 - `s011`–`s013`;
-- `s033`;
 - `s039`;
 - `s053`–`s055`.
 
@@ -69,17 +79,17 @@ A blocked scene does **not** count toward the 10. Skip it and continue forward u
 
 Translate, in source order:
 
-1. `raja-rani-s035`
-2. `raja-rani-s036`
-3. `raja-rani-s037`
-4. `raja-rani-s038`
-5. **skip blocked `raja-rani-s039`**
-6. `raja-rani-s040`
-7. `raja-rani-s041`
-8. `raja-rani-s042`
-9. `raja-rani-s043`
-10. `raja-rani-s044`
-11. `raja-rani-s045`
+1. `raja-rani-s033`
+2. `raja-rani-s035`
+3. `raja-rani-s036`
+4. `raja-rani-s037`
+5. `raja-rani-s038`
+6. **skip blocked `raja-rani-s039`**
+7. `raja-rani-s040`
+8. `raja-rani-s041`
+9. `raja-rani-s042`
+10. `raja-rani-s043`
+11. `raja-rani-s044`
 
 This produces exactly **10 eligible translated scenes**.
 
@@ -104,7 +114,7 @@ Completed verified scenes:
 
 Totals:
 
-- scenes: **30/50**;
+- scenes: **30/51**;
 - translation units: **715 verified**;
 - dialogue units: **633**;
 - stage-direction units: **78**;
