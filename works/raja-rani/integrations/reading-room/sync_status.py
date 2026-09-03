@@ -661,6 +661,21 @@ def stale_assertions() -> None:
 
 
 def main() -> int:
+    metadata_text = read(WORK / "metadata.yaml")
+    already_final = all(
+        marker in metadata_text
+        for marker in (
+            "structured_derivatives: complete-verified-reader-and-reading-room-payload",
+            "english_reader_export: complete-verified",
+            "reading_room_integration: payload-complete-verified",
+            "reading_room_site_application: not-applied",
+        )
+    )
+    if already_final:
+        stale_assertions()
+        print("RAJA RANI FINAL REPOSITORY STATUS SYNC: PASS (already synchronized)")
+        return 0
+
     sync_metadata()
     sync_work_readme()
     sync_translation_readme()
