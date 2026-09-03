@@ -35,7 +35,10 @@ Read completely before changing anything:
 11. `works/raja-rani/notes/correction-005-reconciliation.md`
 12. `works/raja-rani/translations/README.md`
 13. `works/raja-rani/translations/index.json`
-14. the current batch's live Tamil scene files and immutable dialogue shards.
+14. `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`
+15. `works/raja-rani/songs/index.json`
+16. `works/raja-rani/songs/inventory.json`
+17. the verified Tamil song derivatives for the numbered-song batch.
 
 ## Permanent source rules
 
@@ -49,23 +52,21 @@ Read completely before changing anything:
 
 ## Final source-review state — fully closed
 
-There are now **no review/source-blocked pages or scenes**.
+There are **no review/source-blocked pages or scenes**.
 
-The final direct user scan verdicts are durable:
+Durable direct-scan verdicts include:
 
 - PDF 27: `இரவெல்லாம்`;
 - PDF 48: `வந்தனா`, `திடீர்னு`;
 - PDF 57: `முன்னுக்கு பின் முரணாயிகிட்டே போவது?`;
 - PDF 74: `K. N. சங்கரன் ...` is a non-canonical ownership/library stamp; canonical screenplay continues directly `ஞான: நீ விதவை.` → `ராஜா: விதவை.` → `சாந்: வித்தாரக்கள்ளி! விநாசகாரி`.
 
-Durable record: `works/raja-rani/notes/final-source-review-resolution.md`.
-
 Current source census:
 
 - verified source pages: **79/79**;
 - verified screenplay pages: **70/70**;
 - archival scenes: **58/58 verified**, blocked **0**;
-- immutable dialogue records: **1,076** across all 58 scenes;
+- unique immutable dialogue records: **1,071** across all 58 scenes;
 - zero-dialogue scenes: **16**;
 - genuine cross-page dialogue records: **12**;
 - exact speaker labels: **80/80**;
@@ -73,63 +74,76 @@ Current source census:
 - numbered songs: **11/11 Tamil derivatives**; screenplay singing refs **4**; total occurrences **15**;
 - song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved**.
 
-The final unblock added source scene/dialogue shards for `s011`–`s013`, `s039`, and `s053`–`s055`. Five new exact labels entered the complete dialogue census: `மனம்`, `நிழல்`, `ஞானக்கண் குரல்`, `ராஜாவின் குரல்`, and `சமரசம் குரல்`. `மனம்` and `நிழல்` are preserved as source-personified dramatic roles; the three explicit voice labels map downstream to established characters.
+## T055 / T056 boundary correction — closed
+
+Final English QA caught a derivative segmentation error: the older scene-55 derivative duplicated the complete `(முன்)` flashback that belongs to scene 56. This has been corrected without changing canonical page transcription.
+
+Final disposition:
+
+- scene 55 dialogue shard: **25 records**;
+- scene 56 dialogue shard: **5 records**;
+- corrected corpus dialogue census: **1,071**;
+- no duplicate T055 source IDs remain eligible for English linkage.
+
+Durable QA: `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`.
 
 ## Correction 005 — closed
 
-The late old-glyph/source correction campaign is reconciled through canonical Tamil, scenes, dialogue records, character labels/entities, affected song derivatives/metadata and the English records that existed during that gate. Durable record: `works/raja-rani/notes/correction-005-reconciliation.md`.
+The late old-glyph/source correction campaign is reconciled through canonical Tamil, scenes, dialogue records, character labels/entities, affected song derivatives/metadata and English. Durable record: `works/raja-rani/notes/correction-005-reconciliation.md`.
 
-Do not revert permanent forms such as PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, scene-34 corrected `ராணி` ownership, final PDF 76–79 manual adjudications, or any of the final source-review verdicts above.
+Do not revert permanent forms such as PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, scene-34 corrected `ராணி` ownership, final PDF 76–79 manual adjudications, or any final source-review verdict above.
 
-## English translation — current durable checkpoint
+## English screenplay translation — COMPLETE
 
-User production policy: **process 10 verified untranslated scenes per iteration in source order**.
+All **58/58 archival scenes** have verified English records.
 
-Completed verified translation scenes:
+Final totals:
 
-**1–10, 14–32, 34**
+- translated scenes: **58/58**;
+- verified English units: **1,236**;
+- immutable dialogue links: **1,071/1,071**;
+- source-unlabelled spoken units: **19**;
+- genuine cross-page English units: **15**;
+- screenplay performance/singing occurrences represented: **4/4**;
+- unit mix: **1,090 dialogue / 137 stage direction / 4 performance cue / 5 written text**;
+- draft/review screenplay units: **0**.
 
-Current totals after `BATCH_024_034_REVIEW.md`:
+Final content reviews:
 
-- translated scenes: **30 / 58**;
-- verified English units: **715**;
-- immutable dialogue links: **622 / 622 expected in translated scenes**;
-- source-unlabelled spoken units: **11**;
-- genuine cross-page translation units: **6**;
-- translated screenplay performance occurrences: **2**;
-- unit mix: **633 dialogue / 78 stage direction / 2 performance cue / 2 written text**;
-- front-matter numbered song translations started: **0/11**.
+- `works/raja-rani/translations/BATCH_011_040_REVIEW.md`
+- `works/raja-rani/translations/BATCH_041_058_REVIEW.md`
+- `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`
 
-The previous batch translated `s024`–`s032` plus `s034`. Scenes that were blocked at that historical checkpoint are now eligible; do not skip them.
+Do **not** reopen screenplay translation production merely because an older shared mirror says 30/58 or 715 units.
 
-## Exact next activity — 10 scenes
+## Numbered-song English translation — exact next activity
 
-Translate, in source order:
+The 11 front-matter numbered song bodies have verified Tamil derivatives but **0/11 English song translations**.
 
-1. `raja-rani-s011`
-2. `raja-rani-s012`
-3. `raja-rani-s013`
-4. `raja-rani-s033`
-5. `raja-rani-s035`
-6. `raja-rani-s036`
-7. `raja-rani-s037`
-8. `raja-rani-s038`
-9. `raja-rani-s039`
-10. `raja-rani-s040`
+Translate **songs 1–11 in source order** through a dedicated source-linked song translation layer.
 
-There is **no source-review skip**.
+For every numbered song:
 
-For every scene:
+- use the verified Tamil song derivative as textual authority;
+- preserve source PDF/printed-page provenance;
+- use semantic-poetic English, retaining image, rhetorical force, repetition and unusual source wording;
+- do not change canonical Tamil to improve the English;
+- keep screenplay performance links only where already supported by the song inventory;
+- never infer lyricist identity from translation, style or context;
+- preserve authorship tiers exactly.
 
-- link each explicitly labelled source utterance to its immutable dialogue record exactly once;
-- preserve exact `speaker_label` metadata;
-- keep source-unlabelled speech null-speaker/null-record;
-- keep stage directions/performance/written material as distinct source structures;
-- retain genuine physical page crossings in one unit with provenance/page segments;
-- do not invent speakers, lyrics, authorship or scene endings.
+Current authorship dispositions:
 
-After the 10 scenes are translated, create one batch review, verify exact cumulative counts, and synchronize translation index/README, metadata, work README, this handover and the next-chat prompt before starting another iteration.
+- **later-anthology Kalaignar-attributed:** songs **3, 5, 6, 7, 8**;
+- **unresolved lyricist:** songs **1, 2, 4, 9, 10, 11**;
+- original-booklet item-level lyricist credits: **0**.
+
+Scene 58's performance association with song 11 remains **review-level**. Do not upgrade it while translating the song body.
+
+Before defining the English song schema/files, inspect the live `songs/schema.json`, `songs/index.json`, `songs/inventory.json`, and existing Tamil derivative naming conventions. Do not force song translations into screenplay scene IDs.
+
+After all 11 numbered songs are translated, create a dedicated numbered-song English QA/review and only then mark the overall bilingual Raja Rani work complete.
 
 ## Shared repository mirrors
 
-`data/works.json` and root `README.md` may lag the work-local checkpoint. Do not let stale shared mirrors override the Raja Rani-local indexes/metadata/handover.
+`data/works.json` and root `README.md` may lag the work-local checkpoint. Do not let stale shared mirrors override Raja Rani-local indexes, metadata, reviews or this handover.
