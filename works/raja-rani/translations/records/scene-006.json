@@ -72,7 +72,7 @@
     {
       "id": "raja-rani-en-s006-u007", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
       "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d004", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேர", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
-      "translation": {"english_text": "Kuyilaluvam; mark it down! All these rocks are pages inscribed with Tamil valour! Victory alone is not enough, Villava; we must not let those wastrels go!", "mode": "prose-faithful", "notes": []}
+      "translation": {"english_text": "Kuyilaluvam; mark it down! All these rocks are pages inscribed with Tamil valour! Victory alone is not enough, Villava; we must not let those wastrels go!", "mode": "prose-faithful", "notes": ["The corrected Tamil source prints `அணைத்தும்`; the contextual collective sense is rendered as `all these rocks` without altering the canonical Tamil form."]}
     },
     {
       "id": "raja-rani-en-s006-u008", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
@@ -117,7 +117,7 @@
     {
       "id": "raja-rani-en-s006-u016", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
       "source": {"source_path": "works/raja-rani/dialogues/records/scene-006.json", "canonical_scene_path": "works/raja-rani/scenes/scene-006.md", "source_record_id": "raja-rani-s006-d012", "source_occurrence_id": null, "source_locator": null, "speaker_label": "சேர", "page_provenance": [{"pdf_page": 19, "printed_page": 18}]},
-      "translation": {"english_text": "We've found the right bulls to carry that stone! Kanaka—Vijaya! One vain word against Tamil valour—now lift the stone!", "mode": "prose-faithful", "notes": []}
+      "translation": {"english_text": "We've found the right bulls to carry that stone! Kanaka—Vijaya! You hurled a word at Tamil valour—now lift the stone!", "mode": "prose-faithful", "notes": ["Updated from the corrected source `வீசினாய் ஒரு சொல்`; the earlier `வீணாய்`-based reading is no longer used."]}
     },
     {
       "id": "raja-rani-en-s006-u017", "kind": "dialogue", "status": "verified", "target_language": "en", "scene_id": "raja-rani-s006", "archival_scene_ordinal": 6,
