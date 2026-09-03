@@ -1,0 +1,108 @@
+{
+  "id": "raja-rani-song-en-004",
+  "song_id": "raja-rani-song-004",
+  "numbered_song_number": 4,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-004.md",
+    "tamil_status": "verified",
+    "pdf_pages": [6],
+    "printed_pages": [5],
+    "tamil_title": "சிரிப்பு...... இதன் சிறப்பை சீர்தூக்கி பார்ப்பதே நமது பொருப்பு!...",
+    "authorship_status": "unresolved",
+    "lyricist_ta": null,
+    "authorship_evidence_basis": "No item-level lyricist mapping is printed or established for song 4.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "Laughter... it is our responsibility to weigh its distinction",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [6],
+        "source_tamil_lines": [
+          "சிரிப்பு...... இதன்",
+          "சிறப்பை சீர்தூக்கி பார்ப்பதே நமது பொருப்பு!...",
+          "கறுப்பா வெளுப்பா என்பதை எடுத்துக்",
+          "காட்டும் கண்ணாடி சிறப்பு! மனம் இது",
+          "களையை நீக்கி கவலையைப் போக்கி",
+          "மூளைக்குத் தரும் சுறுசுறுப்பு",
+          "துன்ப வாழ்விலும் இன்பம் காணும்",
+          "விந்தை புரிவது சிரிப்பு! இதைத்",
+          "துணையாய்க் கொள்ளும் மக்களின் முகத்தில்",
+          "துலங்கிடும் தனி செழிப்பு!"
+        ],
+        "english_lines": [
+          "Laughter...... its",
+          "Distinction—our responsibility is to weigh it and see!...",
+          "Whether one is dark or fair, to take it and",
+          "Show it—that is the mirror's distinction! This",
+          "Weeds the mind and drives away worry,",
+          "Giving the brain its liveliness,",
+          "Even in a life of sorrow, to discover joy—",
+          "That wonder is wrought by laughter! On the faces",
+          "Of people who take it as their companion,",
+          "A singular richness shines!"
+        ],
+        "notes": [
+          "The source's extended mirror/mind image is retained rather than reduced to a generic claim that laughter is healthy.",
+          "The verified source spelling `பொருப்பு` is not altered in Tamil; English renders the contextual sense as `responsibility`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [6],
+        "source_tamil_lines": [
+          "பாதையில் போகும் பெண்ணைப் பார்த்துப்",
+          "பல்லிளிப்பதும் ஒரு வகைச் சிரிப்பு அதன்",
+          "பலனாய் உடனே பரிசாய் கிடைப்பது",
+          "காதறுந்த பழஞ் செருப்பு"
+        ],
+        "english_lines": [
+          "Seeing a woman walking along the road,",
+          "To bare one's teeth in a grin is one kind of laughter; its",
+          "Immediate reward, received as a prize, is",
+          "An old slipper with its strap torn."
+        ],
+        "notes": ["The comic punishment image `காதறுந்த பழஞ் செருப்பு` is kept concrete as a strap-torn old slipper."]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [6],
+        "source_tamil_lines": [
+          "சிந்திக்கத் தெரிந்த மனித குலத்துக்கே",
+          "சொந்தமான கையிருப்பு!—வேறு",
+          "ஜீவராசிகள் செய்ய முடியாத",
+          "செயலாகும் இந்த சிரிப்பு!",
+          "இது—அதிகாரிகளின் ஆணவச் சிரிப்பு!",
+          "இது—அடங்கி நடப்பவன் அசட்டுச் சிரிப்பு!",
+          "இது—சதிகாரர்களின் சாகசச் சிரிப்பு!",
+          "இது—சங்கீதச் சிரிப்பு!"
+        ],
+        "english_lines": [
+          "A reserve belonging only to humankind, which knows how to think!—",
+          "Something other",
+          "Living creatures cannot perform—",
+          "This act called laughter!",
+          "This—the arrogant laughter of authorities!",
+          "This—the foolish laughter of one who walks submissively!",
+          "This—the daring laughter of conspirators!",
+          "This—musical laughter!"
+        ],
+        "notes": ["The final catalogue of social types is kept as a sequence of pointed labels rather than smoothed into prose."]
+      }
+    ],
+    "translator_notes": [
+      "The social satire and concrete comic images are preserved directly.",
+      "Authorship remains unresolved."
+    ]
+  }
+}
