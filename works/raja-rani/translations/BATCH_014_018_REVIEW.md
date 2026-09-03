@@ -47,6 +47,18 @@ The source-visible theatre/love dialogue and comic wordplay are translated witho
 
 The Current/current electricity-name joke is preserved. Exact source speaker-label alternation, including the PDF-35 `ராசா` labels, remains immutable metadata. The income-tax/fictitious-salary exchange is translated as printed without moral or factual supplementation.
 
+## Correction 005 post-batch reconciliation
+
+After the late source-correction campaign, this already-verified batch was re-audited against the corrected Tamil rather than regenerated wholesale.
+
+- scene 014: no English change required;
+- scene 015: `raja-rani-en-s015-u020` now preserves source `கிரஷ்` as `Crush` instead of the stale generic `refreshment`; unit ID, source record link and provenance are unchanged;
+- scene 016: corrected Tamil variants are semantic-neutral in the existing English; no record rewrite required;
+- scene 017: `raja-rani-en-s017-u017.source.speaker_label` now preserves the exact corrected source label `தர்யம்`; the other separate `தாயம்` occurrences remain unchanged;
+- scene 018: corrected Tamil variants do not alter the existing English sense.
+
+The batch census remains exactly **153 units / 135 immutable dialogue links**. No new scene, unit, dialogue link or page provenance was created by reconciliation.
+
 ## Cumulative translation status
 
 After this batch:
@@ -64,7 +76,7 @@ After this batch:
   - written-text: **2**
   - song / song-reference / chant: **0**
 
-No Tamil canonical, dialogue, character, or song-authorship record was modified by this translation batch.
+No Tamil canonical, dialogue, character, or song-authorship record was modified by this translation batch. Later Correction 005 reconciliation changed only already-derived source-linked fields needed to keep this English layer synchronized with the corrected source.
 
 ## Next activity
 
