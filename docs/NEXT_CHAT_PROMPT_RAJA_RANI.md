@@ -1,4 +1,4 @@
-# Next Chat Prompt — Raja Rani final manual fidelity corrections + reconciliation
+# Next Chat Prompt — Raja Rani English Translation Batch 019–023
 
 Continue directly in:
 
@@ -14,7 +14,7 @@ Controlling full source: `TVA_BOK_0017188_ராஜா_ராணி.pdf`
 
 Fetch live `main` first and preserve any newer durable state. Do not reset, repeat or overwrite later work because this prompt contains an older checkpoint.
 
-The source identity recorded in the repository is:
+Source identity:
 
 - PDF pages: **80**
 - SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`
@@ -34,60 +34,73 @@ Before any write, read completely:
 7. this `docs/NEXT_CHAT_PROMPT_RAJA_RANI.md`
 8. `works/raja-rani/README.md`
 9. `works/raja-rani/notes/post-fidelity-corrections.md`
+10. `works/raja-rani/notes/correction-005-reconciliation.md`
+11. `works/raja-rani/translations/README.md`
+12. `works/raja-rani/translations/index.json`
+13. the source scene files and dialogue shards for scenes 19–23.
 
-Then fetch the current live page files for the range being changed.
+## Correction 005 is reconciled
 
-## Latest correction checkpoint
+Do **not** reopen the completed late manual correction campaign merely because an older prompt or checkpoint says it was pending.
 
-The manually reviewed correction campaign has already updated pages **56–75**. The later page-72 clarification has also been applied:
+Current synchronized downstream census:
 
-`சாக்ரடீசன்` → **`சாக்ரடீசின்`**
+- dialogue: **892 records / 50 eligible scenes / 8 blocked**;
+- character mapping: **75/75 exact labels / 42 entities**;
+- songs/performance: **11 numbered songs + 4 screenplay references = 15 occurrences**; authorship remains 5 anthology-attributed / 6 unresolved;
+- English translation: **15/50 eligible scenes / 387 verified units / 338/338 immutable dialogue links**.
 
-Do not revert it.
+Permanent corrected forms include PDF 72 **`சாக்ரடீசின்`**, scene-17 exact label **`தர்யம்`**, and the final manually adjudicated PDF 76–79 forms recorded in `notes/correction-005-reconciliation.md`. Do not normalize or revert them.
 
-Pages **51–55** have user manual scan verdicts from the preceding chat, but they must still be explicitly checked during the final reconciliation rather than assumed synchronized.
+The bounded review/source-limited pages remain PDF **27, 48, 57 and 74**. Their blocked scenes remain excluded:
+
+- `s011`–`s013`;
+- `s033`;
+- `s039`;
+- `s053`–`s055`.
 
 ## EXACT NEXT ACTIVITY
 
-The user will supply or continue the **final 075–080 comparison/manual correction batch**.
+Translate verified archival scenes:
 
-Process that batch first.
+**`raja-rani-s019` through `raja-rani-s023`**
 
-Rules:
+in source order.
 
-- the user's manual scan verdict is authoritative for each disputed word;
-- `r*.md`, Repository text, OCR and PDF parsed text are candidate readings only;
-- old Tamil glyphs must be read from the rendered scan at high enlargement;
-- never choose a modern/familiar spelling merely because it seems more plausible;
-- preserve occurrence-specific spelling variants;
-- page 75 is intentionally overlapping with the prior batch, so re-check it if the new comparison contains it;
-- change only the approved words/forms;
-- do not import unrelated missing text, punctuation, formatting or OCR reconstruction;
-- preserve existing bounded review spans and the PDF-74 overprint limitation.
+For every scene:
 
-Commit the final 075–080 corrections before starting anything else.
+- use the verified Tamil scene derivative as the translation text authority;
+- link every source-labelled utterance to its immutable dialogue record exactly once;
+- preserve the exact source `speaker_label` in translation metadata;
+- keep source-unlabelled speech unlabelled with null speaker/source record rather than inferring ownership;
+- represent source-visible stage directions separately;
+- retain genuine cross-page units as one translation unit with page provenance / page segments;
+- represent written text as written text, not invented dialogue;
+- represent song/performance cues only to the extent printed and link to the song occurrence when the existing verified song layer supports it;
+- do not invent missing lyrics, speakers, scene endings or authorship;
+- do not modify canonical Tamil, scene text, immutable dialogue IDs or character entities merely to make English smoother.
 
-## THEN — MANDATORY RECONCILIATION
+## Current translation checkpoint
 
-After the final batch is updated, reconcile the correction campaign end to end before resuming translation.
+Verified translated scenes:
 
-At minimum:
+- scenes 1–10;
+- scenes 14–18.
 
-1. audit canonical pages against all user-approved comparison/manual verdicts, with special attention to **51–55** and the overlapping final page 75;
-2. determine every canonical span changed after downstream derivatives were generated;
-3. reconcile affected scene-text derivatives;
-4. reconcile affected immutable dialogue records without changing IDs unnecessarily; exact corrected speaker labels/text must propagate;
-5. update character exact-label/entity metadata only where affected;
-6. recheck any affected song/performance links without changing unrelated authorship decisions;
-7. verify any translation records that touch corrected source spans; do not expand translation until this gate closes;
-8. update/revalidate indexes, counts and QA reports;
-9. synchronize the work README, relevant audit/README/index files, `data/works.json`, and root README where needed;
-10. write a durable reconciliation note and mark affected downstream layers synchronized only after checks pass.
+Cumulative totals before Batch 019–023:
 
-The old next action — translating `raja-rani-s002`–`s005` — is **paused** until this reconciliation is complete.
+- scenes: **15/50**;
+- translation units: **387 verified**;
+- dialogue units: **346**;
+- stage-direction units: **37**;
+- performance-cue units: **2**;
+- written-text units: **2**;
+- immutable dialogue links: **338/338**;
+- source-unlabelled spoken units: **8**;
+- cross-page translation units: **4**.
 
-## Old-glyph lesson that must survive the fresh chat
+After completing scenes 19–23, create/update a `BATCH_019_023_REVIEW.md` review with exact batch and cumulative counts, then synchronize `translations/index.json`, `translations/README.md`, the work-level status, handover and this prompt before proceeding to another batch.
 
-The earlier assistant scan review produced many errors because OCR/parsed text and modern-spelling expectations biased interpretation of the old Tamil typeface. Do not repeat that method.
+## Old-glyph/source rule remains active
 
-When a token is disputed, zoom the scan and compare the actual glyphs. If still uncertain, mark uncertainty. Do not guess. Where the user has already manually reviewed a token and supplied its source form, preserve that explicit verdict exactly.
+If a source reading becomes disputed while translating, English fluency is not evidence for changing Tamil. Rendered scan evidence and already-recorded user manual verdicts control. Preserve occurrence-specific source forms and never silently modernize them.
