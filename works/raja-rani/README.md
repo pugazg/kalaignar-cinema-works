@@ -77,7 +77,7 @@ Rendered-scan visual audit:
 - audited screenplay pages: **70/70**
 - verified screenplay pages: **66/70**
 - review screenplay pages: **4/70**
-- Tamil fidelity gate: **closed-with-source-limitations**
+- Tamil fidelity gate: **closed-with-source-limitations, with a late manual correction/reconciliation cycle now open**
 
 Bounded source limitations:
 
@@ -97,7 +97,18 @@ Later source-backed reinspection restored surviving first-pass normalization err
 - PDF 58–59: exact source alternation of `ராஜா:` / `ராசா:` restored.
 - PDF 66: opening Raja/Gnanakkan continuation restored to source-visible `ராசா:`.
 
-Batches 009 and 010 reopened PDF 70–79; no further canonical correction was required in the verified source spans.
+A later user-led word/glyph comparison campaign has superseded the earlier assumption that no further verified-span corrections were required. The user manually reviewed disputed old-Tamil glyphs because OCR, parsed PDF text and assistant visual readings repeatedly preferred incorrect modern/familiar forms.
+
+Current late-correction checkpoint:
+
+- pages **56–70**: user-approved manual corrections applied;
+- pages **71–75**: user-approved manual corrections applied;
+- PDF 72: later clarification applied as **`சாக்ரடீசின்`**;
+- pages **51–55**: user manual verdicts exist but must still be checked against live canonical files during the final reconciliation;
+- final user **075–080** comparison/correction batch: pending in the next chat;
+- downstream reconciliation: intentionally blocked until that final batch is committed.
+
+The detailed record is `notes/post-fidelity-corrections.md`; continuation instructions are in `../../docs/HANDOVER_RAJA_RANI.md` and `../../docs/NEXT_CHAT_PROMPT_RAJA_RANI.md`.
 
 ## Scene segmentation / index
 
@@ -119,15 +130,15 @@ Blocked segments:
 - `s039` — PDF 57
 - `s053`, `s054`, `s055` — PDF 74
 
-## Scene-text derivatives — complete
+## Scene-text derivatives — pre-correction complete; reconciliation pending
 
-The verified scene-text derivative phase is **complete with review-source exclusions**.
+The verified scene-text derivative phase was complete with review-source exclusions **before** the late manual glyph/spelling correction campaign.
 
 Completed batch reports:
 
 - `notes/scene-text-batch-001.md` through `notes/scene-text-batch-010.md`
 
-Final totals:
+Pre-correction totals:
 
 - archival scene segments: **58**
 - eligible scene-text segments: **50**
@@ -143,13 +154,15 @@ The final Batch 010 resumed only after the blocked PDF-74 scene group at T056 on
 
 No wording from blocked `s053`–`s055` was imported into the final verified derivatives.
 
-During the song gate, one earlier non-dialogue derivative omission was corrected from verified canonical PDF 30: `scenes/scene-016.md` now includes the source separator plus `[ராணி “வேலையில்லாத் தொல்லையில்லை” என்று பாடிக் கொண்டிருக்கிறாள்.]` before the first labelled dialogue. Canonical Tamil, fidelity totals and immutable dialogue records are unchanged.
+During the song gate, one earlier non-dialogue derivative omission was corrected from verified canonical PDF 30: `scenes/scene-016.md` now includes the source separator plus `[ராணி “வேலையில்லாத் தொல்லையில்லை” என்று பாடிக் கொண்டிருக்கிறாள்.]` before the first labelled dialogue.
+
+Because canonical page wording has now changed after these derivatives were built, affected scene files are **reconciliation-pending** until the post-075–080 reconciliation explicitly compares them to the corrected page layer.
 
 ## Repository bookkeeping checkpoint
 
-The repository-level Raja Rani work record and root README are maintained as mirrors of the work-local phase state. Major phase checkpoints are recorded in `notes/scene-layer-completion-dialogue-initialization.md`, `notes/character-label-inventory.md`, `notes/character-entity-mapping.md`, and `notes/song-performance-authorship-gate.md`.
+The repository-level Raja Rani work record and root README were maintained as mirrors of the earlier work-local phase state. They must be synchronized again when the late manual correction/reconciliation gate closes. Major earlier phase checkpoints are recorded in `notes/scene-layer-completion-dialogue-initialization.md`, `notes/character-label-inventory.md`, `notes/character-entity-mapping.md`, and `notes/song-performance-authorship-gate.md`.
 
-## Dialogue index — complete for verified eligible scenes
+## Dialogue index — pre-correction complete; reconciliation pending
 
 The immutable dialogue layer is stored under `dialogues/`:
 
@@ -158,7 +171,7 @@ The immutable dialogue layer is stored under `dialogues/`:
 - `dialogues/index.json`
 - `dialogues/records/scene-###.json`
 
-Completed dialogue production:
+Completed dialogue production before the late correction campaign:
 
 - Batch 001: verified `scene-001.md` through `scene-010.md` — **203 records**
 - Batch 002: verified `scene-014.md` through `scene-023.md`, after blocked `s011`–`s013` — **221 records**
@@ -167,7 +180,7 @@ Completed dialogue production:
 - Batch 005: verified `scene-040.md` through `scene-052.md`, after blocked `s039` and stopping before blocked `s053`–`s055` — **165 records**
 - Batch 006: verified `scene-056.md` through `scene-058.md`, after blocked `s053`–`s055` — **30 records**
 
-Final dialogue state:
+Pre-correction dialogue state:
 
 - eligible verified scenes: **50**
 - blocked scenes: **8**
@@ -183,6 +196,8 @@ The no-inference rule remains active through the ending. In `s057`, standalone m
 
 The eight review-source-blocked archival scenes remain outside the dialogue layer. No unresolved or physically obscured source text was reconstructed simply to produce 58/58 dialogue shards.
 
+Late source-backed corrections may change dialogue text and/or exact `speaker_label` forms. Stable dialogue IDs should be preserved where the source unit remains the same, but affected records must be reconciled against corrected canonical pages before the dialogue layer is again called synchronized.
+
 Batch reports:
 
 - `notes/dialogue-batch-001.md`
@@ -192,9 +207,9 @@ Batch reports:
 - `notes/dialogue-batch-005.md`
 - `notes/dialogue-batch-006.md`
 
-## Character/entity index — complete-verified
+## Character/entity index — pre-correction complete; reconciliation conditional
 
-The character/entity derivative is complete under `characters/`:
+The character/entity derivative was complete under `characters/` before the late correction campaign:
 
 - immutable dialogue records considered: **892/892**;
 - eligible verified dialogue scenes: **50/50**;
@@ -221,6 +236,8 @@ Character files:
 Important context-sensitive mapping decisions are source-backed rather than spelling-driven. In particular, `ரா` in scene 45 maps to **Rani**, not Raja; the stage direction immediately before scene-52 `தாய்:` identifies her as **Geetha's mother / Thayammal**; and scene 57 explicitly introduces **Sangaran** before the `சங்:` label. The short `வேலை` label is represented as a context-sensitive worker/servant role category rather than one falsely continuous physical character.
 
 Embedded dramatic identities in `சேரன் செங்குட்டுவன்`, the `அகல்யா` rehearsal and `சாக்ரடீஸ்` remain distinct from outer-film identities. Exact dialogue labels and delimiters remain immutable.
+
+During reconciliation, re-run exact-label inventory only where corrected source speaker labels can affect it; do not rewrite unaffected entity mappings for style.
 
 ## Song/performance inventory and authorship gate — complete with unresolved authorship
 
@@ -253,13 +270,15 @@ Song files:
 - `songs/tamil/song-001.md` through `songs/tamil/song-011.md`
 - `notes/song-performance-authorship-gate.md`
 
-## English translation — pilot verified
+Only re-open song/performance links during reconciliation if a corrected canonical span actually touches one of those cues. Unrelated authorship decisions stay unchanged.
+
+## English translation — pilot verified, expansion paused
 
 The source-linked English layer is initialized under `translations/`.
 
 Pilot: `raja-rani-s001` / PDF 10 / printed p.9.
 
-- translation status: **pilot-verified**
+- translation status: **pilot-verified at the pre-correction checkpoint**
 - eligible verified scenes: **50**
 - blocked review-source scenes: **8**
 - scenes translated and verified: **1/50 eligible**
@@ -269,8 +288,6 @@ Pilot: `raja-rani-s001` / PDF 10 / printed p.9.
 - source-unlabelled spoken units in pilot: **0**
 - cross-page English units in pilot: **0**
 - song/performance units in pilot: **0**
-- canonical Tamil modified: **no**
-- scene/dialogue/character/song source layers modified by translation: **no**
 
 Files:
 
@@ -284,24 +301,30 @@ The pilot establishes source-faithful handling of the colloquial hospital exchan
 
 The 11 numbered front-matter song bodies are not forced into archive scene IDs. They will use a parallel song-linked English record set. Screenplay singing references remain scene units and may link `songs/index.json` only where the source-supported relation is secure.
 
+**Do not expand translation** until the final 075–080 correction batch and the downstream reconciliation are complete. The prior next action `raja-rani-s002`–`s005` is paused.
+
 ## Current gate
 
 - source intake: **complete**
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete as draft**
 - rendered-scan fidelity audit: **complete-with-source-limitations**
-- Tamil fidelity gate: **closed-with-source-limitations**
-- scene segmentation/index: **complete — 58 segments**
-- verified scene-text derivatives: **complete — 50/50 eligible; 8 blocked**
-- dialogue index: **complete — 50/50 eligible scenes; 892 records; 8 blocked scenes excluded**
-- character/entity index: **complete-verified — 74/74 labels; 42 verified entities/role categories/collectives**
-- song/performance authorship derivative: **complete-with-unresolved-authorship — 11 numbered songs, 4 screenplay references, 11/11 Tamil song derivatives**
-- English translation: **pilot-verified — 1/50 eligible scenes, 11/11 pilot units verified**
+- late manual glyph/spelling correction campaign: **in progress — 56–75 applied; 51–55 must be checked in reconciliation; final 075–080 pending**
+- post-correction downstream reconciliation: **not-started — mandatory immediately after final 075–080 update**
+- scene segmentation/index: **pre-correction complete — 58 segments**
+- verified scene-text derivatives: **pre-correction complete — reconciliation pending where affected**
+- dialogue index: **pre-correction complete — 892 records; reconciliation pending where affected**
+- character/entity index: **pre-correction complete-verified — recheck only if corrected labels affect inventory/mapping**
+- song/performance authorship derivative: **complete-with-unresolved-authorship — recheck only affected cues**
+- English translation: **pilot-verified, expansion paused until reconciliation closes**
 
 ## Source rules
 
 - The scan is the controlling source.
-- OCR is navigation assistance only.
+- OCR and parsed PDF text are navigation/comparison assistance only.
+- Old Tamil glyphs must be read at sufficient enlargement, glyph by glyph; do not let modern spelling expectations decide disputed forms.
+- A user's explicit manual verdict from direct scan review controls that reviewed occurrence unless later direct scan evidence reopens it.
+- Preserve occurrence-specific variants; no global normalization.
 - No silent correction or modernization.
 - No invented speakers.
 - Song authorship requires item-level evidence.
@@ -311,6 +334,10 @@ The 11 numbered front-matter song bodies are not forced into archive scene IDs. 
 
 ## Next activity
 
-Translate verified **`raja-rani-s002` through `raja-rani-s005`** in source order using the pilot rules.
+Continue in a fresh chat using `../../docs/NEXT_CHAT_PROMPT_RAJA_RANI.md`.
 
-Preserve exact immutable dialogue links and all source-visible stage/performance material. Source-unlabelled speech must remain unlabelled; decorative separators remain structural; page-crossing units remain single English units; no absent lyric or unresolved authorship may be invented.
+1. Apply the user's final **075–080** comparison/manual corrections first. Page 75 is an intentional overlap and must be rechecked if the new batch includes it.
+2. Then perform the mandatory end-to-end reconciliation described in `../../docs/HANDOVER_RAJA_RANI.md` and `notes/post-fidelity-corrections.md`.
+3. Reconcile pages **51–55** against the user's earlier manual verdicts during that gate; do not assume they are already synchronized.
+4. Propagate corrected canonical text only into affected scene/dialogue/character/song/translation derivatives, preserve stable IDs/provenance, revalidate counts, and synchronize repository metadata.
+5. Resume English translation only after the reconciliation is documented and passes.
