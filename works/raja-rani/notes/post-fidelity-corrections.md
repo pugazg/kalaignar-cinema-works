@@ -50,7 +50,47 @@ The opening label has therefore been restored to **`ராசா:`**. The runnin
 
 PDF 66 remains `verified`; no review page was promoted and no other wording was changed.
 
-## Downstream effect
+## Correction 005 — user-led old-glyph comparison campaign
+
+A later comparison campaign reopened canonical wording after the derivative layers had already been built. The user compared repository pages against `r1.md`, `r2.md` and `r3.md`, then manually inspected disputed words in the scan because the old Tamil typeface caused repeated OCR and assistant visual-reading errors.
+
+The durable lesson is that Repository text and comparison/OCR text are only candidate readings. For disputed old-typeface words, the rendered scan controls, and the user's explicit manual scan verdict for a reviewed token must not be overridden by OCR or modern-spelling expectations.
+
+Current correction state:
+
+- pages **1–25** and **26–50** received the earlier selectively approved comparison replacements;
+- pages **51–55** have user-supplied manual scan verdicts, but they are **not yet declared reconciled against live main** and must be checked in the final reconciliation;
+- pages **56–70** have had the user-approved manual verdicts applied directly to the canonical page files;
+- pages **71–75** have had the user-approved manual verdicts applied directly;
+- PDF 72 was subsequently corrected again from `சாக்ரடீசன்` to the user-verified **`சாக்ரடீசின்`**;
+- the user will complete a final **075–080** comparison/correction batch in the next chat.
+
+Occurrence-specific variation must remain occurrence-specific. The campaign has already demonstrated legitimate differing forms such as `சேர்ந்தாப்பிலே` / `சேந்தாப்பிலே` and `ஒன்ஸ்மோர்` / `ஒன்சுமோர்`; these are not global-normalization targets.
+
+Two explicitly resolved `Neither` cases in the applied range are:
+
+- PDF 59: **`நினைக்கிறேன்`**;
+- PDF 69: **`வீசும்`**.
+
+PDF 71 also received the separately resolved source form **`மாறினான்`**.
+
+### Reconciliation status after Correction 005
+
+The canonical corrections in this campaign post-date existing scene, dialogue, character and translation derivatives. Those downstream layers therefore cannot be assumed synchronized merely because they were previously marked complete/verified.
+
+**Reconciliation is intentionally deferred until the user's final 075–080 correction batch is applied.** After that batch, the archive must:
+
+1. reconcile all user-approved correction decisions against live canonical pages, especially pages 51–55 and the overlapping page 75;
+2. identify affected scene derivatives and update them from canonical text;
+3. reconcile affected dialogue records while preserving stable IDs/provenance and exact corrected speaker labels;
+4. re-evaluate character exact-label metadata only where speaker-label corrections affect it;
+5. recheck any affected song/performance links;
+6. verify any translation records touching changed source text;
+7. rerun relevant counts/consistency checks and synchronize work/project metadata.
+
+Until that reconciliation passes, English translation expansion is paused.
+
+## Downstream effect of Corrections 001–004
 
 - `scene-034.md` was generated after Correction 001 and therefore already follows the corrected PDF 49–50 labels.
 - `scene-035.md` has been reconciled so its PDF 53 portion now carries the restored `ராசா:` labels.
@@ -58,7 +98,9 @@ PDF 66 remains `verified`; no review page was promoted and no other wording was 
 - `scene-040.md` was generated only after Correction 003 and therefore preserves the exact alternating `ராஜா:` / `ராசா:` labels across PDF 58–59.
 - `scene-047.md` is generated only after Correction 004 and therefore carries the source-visible `ராசா:` continuation on PDF 66.
 
-No review page was promoted and the global fidelity counts remain unchanged:
+The earlier derivative synchronization statements above do **not** automatically cover Correction 005. Correction 005 requires the dedicated reconciliation described above.
+
+No review page is promoted merely by these spelling/glyph corrections. The bounded source limitations remain:
 
 - verified source pages: **75/79**;
 - review source pages: **4/79 — PDF 27, 48, 57, 74**;
