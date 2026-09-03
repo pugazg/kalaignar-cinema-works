@@ -12,7 +12,8 @@ For a new work, also read:
 2. `docs/ARCHIVAL_WORKFLOW.md`
 3. `docs/SOURCE_POLICY.md`
 4. `docs/TRANSCRIPTION_GUIDE.md`
-5. `docs/START_NEW_CINEMA_WORK_PROMPT.md`
+5. `docs/STATUS_CONSISTENCY_AUDIT.md`
+6. `docs/START_NEW_CINEMA_WORK_PROMPT.md`
 
 ---
 
@@ -30,7 +31,7 @@ Everything else—scene files, dialogue indexes, character mappings, song attrib
 
 ## 2. Mature reference implementations
 
-Two works currently provide the strongest reference patterns.
+Three screenplay works now provide complementary mature reference patterns.
 
 ### Parasakthi
 
@@ -62,7 +63,24 @@ Tirumbippaar demonstrates:
 - deterministic reader outputs and EPUB package QA;
 - explicit preference for Reading Room publication at `https://nenjukkuneethi.org/read` rather than unnecessary additional standalone packages.
 
-Use Tirumbippaar to understand the current mature pipeline and QA discipline. **Never reuse its text as authority for another film.**
+Use Tirumbippaar to understand the mature reader/export pipeline and QA discipline. **Never reuse its text as authority for another film.**
+
+### Raja Rani
+
+Raja Rani demonstrates:
+
+- old-typeface / glyph-sensitive source review in which OCR and comparison transcripts remain candidate readings only;
+- direct user scan verdicts preserved occurrence-by-occurrence;
+- late source corrections reconciled through canonical pages, scenes, immutable dialogue, character mapping, song metadata and English;
+- a fully unblocked **79/79 source-page / 70/70 screenplay-page** fidelity checkpoint;
+- **58/58 archival scene derivatives**, **1,071 unique immutable dialogue records**, **80/80 exact source labels** and **44 verified entities/roles/collectives**;
+- whole-screenplay English completion at **58/58 scenes / 1,236 verified units / 1,071 dialogue links**;
+- detection and repair of a derivative ownership error where scene 55 duplicated the `(முன்)` flashback belonging to scene 56, without altering canonical page text;
+- an independent numbered-song English layer for all **11/11** verified front-matter songs rather than forcing song bodies into screenplay scene IDs;
+- numbered-song translation QA at **67 sections / 181 Tamil-to-English line-cue mappings**, while preserving the existing 5 later-anthology Kalaignar attributions and 6 unresolved lyricists;
+- explicit synchronization of work-local state with `data/works.json`, root README and project-level documentation before a major phase is considered closed.
+
+Use Raja Rani to understand late-correction reconciliation, mixed screenplay/song translation architecture and repository-wide anti-staleness discipline. **Never reuse its text as authority for another film.**
 
 ---
 
@@ -83,6 +101,8 @@ For each new cinema work, proceed through these gates in order:
 11. **Whole-work reader QA/export**
 12. **Reading Room integration**
 13. **Optional standalone packaging/release only when separately useful/requested**
+
+**Repository-wide status synchronization is a completion gate at every major phase.** A phase is not closed merely because its content files exist.
 
 The detailed rules are in `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`.
 
@@ -155,17 +175,25 @@ A dialogue or translation unit crossing a page boundary remains one logical reco
 
 Do not turn `★` or similar separators into `(Scene ends.)` or other invented reader text.
 
-### I. Do not duplicate stage action
+### I. Do not duplicate derivative ownership
 
-Inline parenthetical action already represented within a dialogue should not be recreated as a separate standalone unit unless the source also prints it separately.
+Do not duplicate stage action or source passages across scene boundaries. Raja Rani's final QA showed that an entire flashback can be accidentally owned by two adjacent scene derivatives even when both files look internally plausible. Whole-work QA must check source-span ownership as well as per-file validity.
 
 ### J. Song authorship requires item-level evidence
 
 Story/dialogue credit is not lyric credit. A film-wide contributor list does not automatically identify a specific song's lyricist.
 
-### K. QA should fail loudly
+### K. Distinct source structures need distinct derivative identities
 
-The reader/export builder should reject missing links, duplicate IDs, source-order regressions, synthetic content and inconsistent provenance instead of silently producing output.
+A front-matter numbered song corpus should not be forced into screenplay scene IDs merely because screenplay translation already exists. Preserve the source's natural structure and link the layers explicitly.
+
+### L. QA should fail loudly
+
+The reader/export builder should reject missing links, duplicate IDs, duplicate source ownership, source-order regressions, synthetic content and inconsistent provenance instead of silently producing output.
+
+### M. Stale shared documents are a project defect
+
+A work-local index may be correct while root README, `data/works.json`, master handover or status audit still advertises an older checkpoint. Major-phase closure requires a repository-wide stale-state sweep and synchronization of every current mirror that could direct future work.
 
 ---
 
@@ -180,6 +208,7 @@ docs/
   TRANSCRIPTION_GUIDE.md
   CINEMA_WORKS_PROCESSING_GUIDE.md
   HANDOVER_KALAIGNAR_CINEMA_WORKS.md
+  STATUS_CONSISTENCY_AUDIT.md
   START_NEW_CINEMA_WORK_PROMPT.md
 
 data/
@@ -202,7 +231,7 @@ Authority order for text questions:
 
 1. rendered scan;
 2. verified canonical Tamil transcription;
-3. verified scene derivative;
+3. verified scene/song derivative;
 4. immutable dialogue/song/etc. structured records;
 5. translation;
 6. reader/export/package;
@@ -210,21 +239,32 @@ Authority order for text questions:
 
 A downstream layer must not silently repair an upstream layer.
 
+For **status/progress** questions, live work indexes and metadata control, but all current project mirrors should be synchronized before a phase is declared complete.
+
 ---
 
-## 7. Metadata synchronization
+## 7. Repository-wide synchronization gate
 
-At the end of a major phase, reconcile at least:
+At the end of every major phase, reconcile all relevant current surfaces before claiming completion.
+
+Minimum work-local surfaces:
 
 - `works/<work-id>/metadata.yaml`;
 - `works/<work-id>/README.md`;
+- the active layer's README/index/QA/audit files;
+- work-specific handover and next-chat prompt when they exist.
+
+Minimum repository-wide surfaces when the checkpoint materially changes:
+
 - `data/works.json`;
-- root `README.md` when the public project checkpoint changes;
-- the relevant layer's README/index/audit files.
+- root `README.md`;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` when the project checkpoint/reference lessons change;
+- `docs/STATUS_CONSISTENCY_AUDIT.md`;
+- any shared processing/translation guide whose reusable policy changed because of the completed work.
 
-Do not let counts drift between README text and machine-readable indexes.
+Before closure, perform a stale-state sweep for superseded counts, blocked/review statuses, prior next activities and obsolete completion language. Historical batch/checkpoint files may retain their dated historical state when clearly labelled as historical; active startup/status files may not.
 
-Where possible, derive generated status from authoritative indexes and validate with automated QA.
+Do not let counts drift between README text and machine-readable indexes. Where possible, derive generated status from authoritative indexes and validate with automated QA.
 
 ---
 
@@ -232,9 +272,10 @@ Where possible, derive generated status from authoritative indexes and validate 
 
 For a mature translation layer:
 
-- use scene-sharded translation records;
+- use scene-sharded translation records for screenplay material;
+- use separate source-linked song records for independently numbered song bodies;
 - keep stable unit IDs;
-- retain exact Tamil speaker labels as metadata;
+- retain exact Tamil speaker/turn labels as metadata;
 - link labelled dialogue to immutable dialogue IDs;
 - leave source-unlabelled speech unlabelled;
 - distinguish dialogue, stage direction, chant, song/song-reference, written text and other legitimate source structures;
@@ -244,7 +285,7 @@ For a mature translation layer:
 
 Before declaring translation complete, perform whole-work reconciliation rather than trusting batch counts.
 
-Reader/export outputs should be generated from verified structured translation records, not manually maintained copies.
+Reader/export outputs should be generated from verified structured translation records, not manually maintained copies. If a work contains both translated screenplay scenes and independently translated numbered songs, the reader/export model must include both without pretending the songs are source-numbered scenes.
 
 ---
 
@@ -256,9 +297,11 @@ The preferred public destination for completed works is:
 
 For cinema works:
 
-- use **scene-based navigation**;
+- use the work's natural navigation model;
+- for screenplays, use **scene-based navigation**;
+- expose separately numbered songs/verse as distinct source structures where present;
 - expose Tamil source text and English where verified;
-- support title/dialogue/full-text search;
+- support title/dialogue/full-text search as appropriate;
 - derive counts from repository checkpoints;
 - preserve source/page provenance behind the interface;
 - keep exact speaker labels and source order intact in archival data;
@@ -279,8 +322,8 @@ When the next activity is already documented:
 - continue without asking a redundant question;
 - choose a meaningful batch rather than one page by default;
 - inspect source and repository state first;
-- complete bookkeeping for the finished batch before claiming completion;
-- do not report a layer complete if index/README/metadata remain stale;
+- complete content QA **and repository-wide synchronization** for the finished phase before claiming completion;
+- do not report a layer complete if index/README/metadata/shared mirrors remain stale;
 - if a large scene/file read is truncated, fetch the missing range rather than summarizing unseen content;
 - report exact commits/checkpoints after writes.
 
@@ -321,35 +364,38 @@ It must contain:
 
 ### Historical handovers
 
-Older handovers such as Tirumbippaar's initial fidelity-audit handover are historical checkpoints. They do not override current `main` after later phases have completed.
+Older handovers are historical checkpoints. They do not override current `main` after later phases have completed.
 
 Always inspect current repository state.
 
 ---
 
-## 13. Current high-level project checkpoint
+## 13. Current high-level project checkpoint — 2026-09-03
 
-At the time this master handover was introduced:
+- **Parasakthi** — complete-verified canonical/structured English reader work; mature complex-numbering/mixed-song reference implementation.
+- **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
+- **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
+- **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil songs and 54/54 verified English songs; reader/export and Reading Room payload QA PASS.
+- **Manthiri Kumari** — source intake/structural mapping complete for the 14-page story-and-song booklet; canonical Tamil first pass remains the next source-processing phase.
+- **Raja Rani** — canonical/source layers fully verified; 58/58 scenes, 1,071 immutable dialogue records, 80/80 source labels, 44 entities; screenplay English complete at 1,236 units; all 11 numbered song bodies translated and QA-verified at 67 sections / 181 mapped line-cues. Authorship remains 5 later-anthology Kalaignar-attributed / 6 unresolved. The next Raja Rani activity is deterministic bilingual reader/export QA and Reading Room integration preparation.
 
-- **Parasakthi** has complete-verified canonical/structured English reader work and serves as a mature reference implementation.
-- **Tirumbippaar!** has complete-verified Tamil, scene/dialogue/character/song disposition, English translation, whole-work reader QA, and deterministic EPUB package QA.
-- Tirumbippaar's preferred public destination is now explicitly the Reading Room at `nenjukkuneethi.org/read`.
-- reusable project rules now live in `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`.
-
-Do not infer the status of a future work from these examples. Inspect that work independently.
+`data/works.json`, root README and this master handover are intended to reflect the same active checkpoint; `docs/STATUS_CONSISTENCY_AUDIT.md` records the repository-level reconciliation.
 
 ---
 
-## 14. Exact next activity for the overall project
+## 14. Exact next activity for the active Raja Rani work
 
-For the **next newly supplied Kalaignar cinema source**:
+Build and validate a deterministic whole-work bilingual reader/export from the verified Raja Rani structured data.
 
-1. use the reusable starter prompt;
-2. inspect the source scan and existing repository state;
-3. establish source identity/checksum and content boundaries;
-4. complete a full structural map;
-5. create/update the work skeleton and metadata;
-6. stop before canonical transcription unless the mapping gate is genuinely complete;
-7. set the next activity explicitly to canonical Tamil first-pass transcription.
+Requirements:
 
-The goal is not speed alone. The goal is a repeatable archive where every later reader can trace each derivative back to the scanned edition.
+1. consume the **58 verified screenplay translation records** and the separate **11 verified numbered-song translation records**;
+2. preserve archival scene IDs strictly as navigation, not source numbering;
+3. preserve the numbered songs as independent front-matter source structures rather than synthetic scenes;
+4. verify **1,236 screenplay units**, **1,071/1,071 immutable dialogue links**, **19 source-unlabelled spoken units**, **15 cross-page screenplay units**, and **181/181 song line-cue mappings**;
+5. preserve all four screenplay performance references and the review-level scene-58/song-11 link without upgrading it;
+6. generate deterministic reader outputs and QA/integrity records according to repository conventions;
+7. after reader QA passes, synchronize every work-local and repository-wide status mirror again before declaring the reader phase complete;
+8. prepare Reading Room integration payload/data only after that gate passes.
+
+The goal is not speed alone. The goal is a repeatable archive where every later reader can trace each derivative back to the scanned edition and where no active status document points to obsolete work.
