@@ -25,6 +25,7 @@ The scanned publication remains the controlling source at every stage.
 7. **Traceability is mandatory.** Every canonical page and every structured derivative must remain traceable to the scan.
 8. **Verification gates matter.** Do not build later layers on unverified Tamil.
 9. **The public reader is downstream.** `https://nenjukkuneethi.org/read` is the preferred public Reading Room for completed Kalaignar archive works; the website does not become a new source authority.
+10. **Later source corrections reopen derivative consistency.** If verified canonical Tamil is corrected after derivatives exist, affected downstream layers become `reconciliation-pending` until checked against the corrected source.
 
 ---
 
@@ -175,6 +176,20 @@ Where no printed page exists, omit that field rather than inventing one.
 
 OCR may assist navigation or first-pass comparison but is never canonical evidence. The rendered scan controls.
 
+### Old Tamil typeface / glyph-sensitive policy
+
+When the source uses older Tamil typeforms, treat Repository text, OCR, PDF parsed text and comparison transcriptions only as **candidate readings**. For every disputed token:
+
+- enlarge the rendered scan enough to distinguish the actual printed marks;
+- read character by character rather than from semantic expectation;
+- do not prefer a modern/familiar spelling merely because it looks more plausible;
+- explicitly compare easily confused consonants, vowel signs, pulli marks and ligatures;
+- preserve different printed forms occurrence by occurrence instead of applying a global replacement;
+- if the scan remains unclear after enlargement, keep the token under review;
+- if the user manually inspects the controlling scan and explicitly supplies the printed form, preserve that reviewed verdict for that occurrence unless later direct scan evidence reopens it.
+
+Agreement between OCR and a plausible word is not a visual-fidelity audit.
+
 ### Uncertainty
 
 Use the existing uncertainty notation from `TRANSCRIPTION_GUIDE.md`. Do not hide doubt with a plausible word from memory or another edition.
@@ -206,6 +221,24 @@ Maintain `notes/fidelity-audit.md` with batch checkpoints.
 A later scan-supported correction to verified Tamil is allowed, but it must be explicit. For consequential corrections, record the change in `notes/post-fidelity-corrections.md` rather than silently rewriting history.
 
 Do not let a translation interpretation drive a Tamil correction. Reopen the scan.
+
+### Mandatory downstream reconciliation after late canonical correction
+
+If canonical Tamil changes after scene/dialogue/character/song/translation/reader derivatives have already been produced:
+
+1. correct the canonical page first;
+2. mark every potentially affected downstream layer `reconciliation-pending`;
+3. finish the current bounded correction campaign before repeatedly regenerating derivatives, when the user has defined a final batch boundary;
+4. identify the exact changed source spans;
+5. reconcile only affected scene derivatives from canonical text;
+6. reconcile affected immutable dialogue records while preserving stable IDs and provenance where the source unit is unchanged;
+7. re-run exact speaker-label/character mapping checks only where corrected labels can affect them;
+8. recheck song/performance links only where corrected spans touch them;
+9. reconcile any translation/reader units that consume changed source text;
+10. revalidate counts/indexes and synchronize work/project metadata;
+11. document the reconciliation before downstream production resumes.
+
+A previously `complete` or `verified` derivative is not automatically synchronized with a later corrected canonical source.
 
 ---
 
@@ -325,7 +358,7 @@ Create standalone Tamil lyric files only when the source actually contains a com
 
 ## 13. English translation gate
 
-English translation starts only after the corresponding Tamil source unit is verified.
+English translation starts only after the corresponding Tamil source unit is verified and not reconciliation-pending.
 
 Translation rules:
 
@@ -470,6 +503,14 @@ At important checkpoints, keep a handover document that states:
 
 Do not let an old handover override current repository state. Always inspect current `main` first.
 
+When a late correction campaign spans chat windows, the handover must also state:
+
+- which source ranges have already been corrected;
+- which user-reviewed ranges remain unreconciled;
+- the exact final correction batch boundary;
+- which downstream layers are reconciliation-pending;
+- the requirement that reconciliation close before normal downstream work resumes.
+
 For onboarding an entirely new cinema work, use:
 
 - `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`
@@ -486,6 +527,7 @@ Recommended statuses:
 - `draft-complete`
 - `review`
 - `verified`
+- `reconciliation-pending`
 - `pilot-verified`
 - `complete`
 - `complete-verified`
@@ -503,6 +545,7 @@ A fully processed cinema work should, where supported by the source, have:
 - structural map verified;
 - complete canonical Tamil transcription;
 - complete visual fidelity audit;
+- no open post-fidelity correction reconciliation;
 - scene derivatives complete;
 - dialogue index complete;
 - character/entity labels dispositioned;
