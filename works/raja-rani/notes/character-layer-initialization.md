@@ -1,68 +1,65 @@
 # ராஜா ராணி — Character / Entity Layer Initialization
 
-## Purpose
+## Historical purpose
 
-This checkpoint opens the character/entity derivative phase after completion of the immutable dialogue layer.
+This note originally opened the character/entity derivative phase when only 50 source-eligible scenes and 892 immutable dialogue records were available. That initialization state is **historical**. Final source review later unblocked every screenplay scene, so the live character layer must be read from `characters/index.json`, `labels-inventory.json`, `entities.json`, and the synchronized final checkpoints.
 
-The character layer is interpretive metadata only. It must not modify canonical Tamil, verified scene derivatives or any field in the 892 immutable dialogue records.
+The character layer remains interpretive metadata only. It never authorizes changes to canonical Tamil, verified scene derivatives or exact dialogue `speaker_label` values.
 
-## Input gate
+## Final superseding input state
 
-Authoritative structured input:
+Authoritative structured input now consists of:
 
 - `dialogues/index.json`
 - `dialogues/records/scene-###.json`
 
-Dialogue completion state at initialization:
+Final dialogue state:
 
-- eligible verified scenes: **50**
-- processed eligible scenes: **50/50**
-- immutable labelled-dialogue records: **892**
-- blocked scenes: **8**
-- zero-record eligible scenes: **15**
-- cross-page dialogue records: **11**
-- tracked non-colon source-label/delimiter anomalies: **3**
+- verified scenes: **58/58**
+- blocked scenes: **0**
+- unique immutable labelled-dialogue records: **1,071**
+- zero-record scenes: **16**
+- genuine cross-page dialogue records: **12**
+- tracked source-label/delimiter anomalies: **3**
 
-Blocked scene IDs remain outside verified character evidence:
+The historical 892-record / 50-scene checkpoint must not be used as a current production count.
 
-`raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013`, `raja-rani-s033`, `raja-rani-s039`, `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055`.
+## Final character-layer result
 
-## Required order
+The initialization sequence was completed successfully:
 
-The processing guide requires **exact-label inventory first**.
+1. exact source-label inventory completed;
+2. final inventory after all source unblocking: **80 exact labels**;
+3. evidence-backed entity mapping completed;
+4. final mapping: **80/80 labels → 44 verified entities / roles / collectives**;
+5. review/unresolved labels and entities: **0**.
 
-Therefore this checkpoint creates the character-layer schema and control files but deliberately does **not** create entity mappings yet.
-
-Required next steps:
-
-1. scan all 892 immutable dialogue records;
-2. inventory every distinct exact non-empty `speaker_label`;
-3. record all eligible scene ordinals in which each label occurs;
-4. verify inventory coverage against the 892-record dialogue layer;
-5. only then create evidence-backed entity mappings.
-
-## Mapping discipline after inventory
-
-- Preserve source label variants exactly in the inventory.
-- Do not merge abbreviations merely because they resemble a longer name.
-- Reused labels may require context-role or unresolved dispositions.
-- Generic labels may remain roles or collectives.
-- Embedded `சேரன் செங்குட்டுவன்`, `அகல்யா நாடக ஒத்திகை`, and `சாக்ரடீஸ் (நாடகம்)` identities must remain source-context aware.
-- The verified PDF-9 cast roster may support principal outer-film identities, but it does not by itself authorize abbreviation merging.
-- `verified`, `review`, and `unresolved` dispositions remain available; uncertainty is not a completion failure.
-
-## Files created at this checkpoint
+Final control files:
 
 - `characters/schema.json`
 - `characters/README.md`
 - `characters/index.json`
+- `characters/labels-inventory.json`
+- `characters/entities.json`
+- `notes/character-label-inventory.md`
+- `notes/character-entity-mapping.md`
 
-`characters/labels-inventory.json` and `characters/entities.json` are intentionally absent until their respective gates are completed.
+## T055 / T056 later correction
 
-## Canonical/source effect
+Final screenplay QA removed five duplicate records that an earlier scene-55 derivative had copied from scene 56. The corrected dialogue corpus is **1,071** records. This did not add or remove a distinct speaker label/entity; it only changed duplicate derivative ownership. Canonical pages were unchanged.
 
-None. No dialogue record, scene derivative, canonical page or fidelity disposition was changed.
+Any historical count or evidence pointer in older commits must yield to the current live indexes.
 
-## Next activity
+## Permanent mapping discipline
 
-Complete the **892-record exact speaker-label inventory** and create `characters/labels-inventory.json` before any character/entity normalization is attempted.
+- preserve exact source label variants;
+- do not merge abbreviations by appearance alone;
+- generic labels may remain roles or collectives;
+- embedded `சேரன் செங்குட்டுவன்`, `அகல்யா`, and `சாக்ரடீஸ்` identities remain context-aware and distinct from outer-film characters;
+- `மனம்` / `நிழல்` remain source-personified roles;
+- source-exact `தர்யம்` remains unchanged in dialogue metadata;
+- normalization exists downstream only.
+
+## Current production frontier
+
+Character/entity work is complete. The current Raja Rani activity is the **English translation of the 11 verified numbered front-matter song bodies**. That phase must not modify character/dialogue data.
