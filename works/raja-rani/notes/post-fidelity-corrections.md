@@ -4,105 +4,141 @@
 
 Record source-backed corrections discovered after the full rendered-scan fidelity phase had already been closed-with-source-limitations.
 
-The controlling source remains `TVA_BOK_0017188_ராஜா_ராணி.pdf`. Corrections in this file are made only from direct reinspection of the rendered scan. They do not use OCR as authority, film audio, subtitles, web text, another edition or contextual reconstruction.
+The controlling source remains `TVA_BOK_0017188_ராஜா_ராணி.pdf`. Corrections in this file are accepted only from direct reinspection of the rendered scan or an explicit user verdict based on direct inspection of that controlling scan. OCR, film audio, subtitles, web text, later editions and contextual reconstruction are not canonical authority.
 
 ## Correction 001 — PDF 49–50 / printed pp.48–49
 
-During preparation of scene-text Batch 005, PDF 49 and PDF 50 were reopened against fresh high-resolution renders because their local page headers still carried stale `status=draft` bookkeeping despite the completed fidelity audit.
+During preparation of scene-text Batch 005, PDF 49 and PDF 50 were reopened against fresh high-resolution renders because their local page headers still carried stale bookkeeping.
 
-The recheck found a source-label normalization error that had survived the earlier first pass:
+The recheck found source-label normalization errors:
 
-- **PDF 49:** the scan prints dialogue label **`ராசா:`** throughout the page where the canonical page file had `ராஜா:`. All affected dialogue labels were restored to the source-visible `ராசா:` form.
-- **PDF 50:** the scan likewise prints **`ராசா:`** for Raja's dialogue labels on this page. Those labels were restored.
-- PDF 50 separately prints the stage-direction name as **`(ராஜா: ராணியின் படத்தைப் பார்த்துவிடுகிறான்.)`**. That source-visible `ராஜா` form is preserved and was **not** changed to `ராசா`.
+- **PDF 49:** source-visible dialogue label **`ராசா:`** was restored where the first pass had normalized it to `ராஜா:`.
+- **PDF 50:** the same source-visible **`ராசா:`** dialogue form was restored.
+- PDF 50 separately prints the stage-direction name as **`ராஜா`**; that distinct source form was preserved.
 
-The local page headers for PDF 49 and 50 were also reconciled to `status=verified`, consistent with the already completed full fidelity disposition. No other wording was changed in this correction.
+No unrelated wording was changed.
 
 ## Correction 002 — PDF 53 / printed p.52
 
-During preparation of scene-text Batch 006, the T036 boundary and surrounding PDF 53 text were reopened against the rendered scan before the carried-forward scene was emitted.
+The scan confirms:
 
-The scan shows that the first-pass canonical page had again normalized source-visible Raja forms:
+- dialogue labels print **`ராசா:`**, not normalized `ராஜா:`;
+- the T036 stage direction prints **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...)`**.
 
-- the dialogue labels on PDF 53 print **`ராசா:`**, not `ராஜா:`;
-- the T036 stage direction prints **`(ராசா, ராணியைக் கொண்டு வந்து விடுகிறான்...`**, not the normalized `(ராஜா, ராணியைக் கொண்டுவந்து விடுகிறான்...`.
-
-The canonical PDF 53 page has been restored accordingly. This correction is source-visible and does not alter the page's verified status or the global fidelity counts.
+The canonical page and downstream derivatives were reconciled accordingly.
 
 ## Correction 003 — PDF 58–59 / printed pp.57–58
 
-During preparation of scene-text Batch 007, the verified T040 span was reopened against fresh high-resolution renders before `scene-040.md` was emitted.
-
-The recheck found the same type of surviving speaker-label normalization while also confirming that the source deliberately alternates forms on these pages:
-
-- **PDF 58:** the first Raja dialogue after `[ராஜா பாடிக்கொண்டு வருகிறான்.]` prints **`ராசா:`**; the following `அது சரி...ராணி...` line prints **`ராஜா:`**; the next `நீ இருந்தாலும்...` line again prints **`ராசா:`**. The canonical page had normalized both `ராசா:` labels to `ராஜா:`; they are now restored without changing the genuinely printed `ராஜா:` occurrence or stage-direction form.
-- **PDF 59:** five Raja dialogue labels occur before T041. The source prints them in the sequence **`ராஜா:` / `ராசா:` / `ராஜா:` / `ராசா:` / `ராஜா:`**. The two `ராசா:` occurrences had been normalized and are now restored while the three source-visible `ராஜா:` labels remain unchanged.
-
-No other wording was changed in this correction. Both pages remain `verified`, and no review page was promoted.
+Fresh high-resolution review confirmed that the source deliberately alternates `ராஜா:` and `ராசா:` on these pages. Only the normalized occurrences were restored; genuinely printed `ராஜா:` labels and stage-direction forms were left unchanged.
 
 ## Correction 004 — PDF 66 / printed p.65
 
-During preparation of scene-text Batch 008, the T047→T050 source span was reopened against a fresh high-resolution render before the scene derivatives were emitted.
-
-The first dialogue label at the top of PDF 66 is visibly printed **`ராசா:`** in the continuation of the Raja/Gnanakkan exchange from PDF 65. The canonical page had normalized that label to `ராஜா:`.
-
-The opening label has therefore been restored to **`ராசா:`**. The running-text forms `ராஜா` elsewhere on the same page—including the bracketed Babu plot summary and Rani's instruction to Current—remain unchanged because the scan prints those forms distinctly.
-
-PDF 66 remains `verified`; no review page was promoted and no other wording was changed.
+The first dialogue label at the top of PDF 66 is visibly **`ராசா:`**. The canonical page had normalized it to `ராஜா:`. The dialogue label was restored while distinct running-text `ராஜா` forms on the same page were preserved.
 
 ## Correction 005 — user-led old-glyph comparison campaign
 
-A later comparison campaign reopened canonical wording after the derivative layers had already been built. The user compared repository pages against `r1.md`, `r2.md` and `r3.md`, then manually inspected disputed words in the scan because the old Tamil typeface caused repeated OCR and assistant visual-reading errors.
+A later comparison campaign reopened canonical wording after derivative layers had already been built. The user compared repository pages against `r1.md`, `r2.md`, `r3.md` and later comparison material, then manually inspected disputed words in the scan because the old Tamil typeface caused repeated OCR and visual-reading errors.
 
-The durable lesson is that Repository text and comparison/OCR text are only candidate readings. For disputed old-typeface words, the rendered scan controls, and the user's explicit manual scan verdict for a reviewed token must not be overridden by OCR or modern-spelling expectations.
+Permanent policy established by this campaign:
 
-Current correction state:
+- repository text and OCR/comparison text are candidate readings only;
+- rendered scan evidence controls disputed old-typeface glyphs;
+- the user's explicit manual scan verdict controls that reviewed occurrence unless later stronger direct source evidence reopens it;
+- occurrence-specific variation must remain occurrence-specific;
+- no global modernization or normalization.
 
-- pages **1–25** and **26–50** received the earlier selectively approved comparison replacements;
-- pages **51–55** have user-supplied manual scan verdicts, but they are **not yet declared reconciled against live main** and must be checked in the final reconciliation;
-- pages **56–70** have had the user-approved manual verdicts applied directly to the canonical page files;
-- pages **71–75** have had the user-approved manual verdicts applied directly;
-- PDF 72 was subsequently corrected again from `சாக்ரடீசன்` to the user-verified **`சாக்ரடீசின்`**;
-- the user will complete a final **075–080** comparison/correction batch in the next chat.
+The campaign was completed through the final PDF 075–080 comparison and its downstream reconciliation. The dedicated durable reconciliation record is:
 
-Occurrence-specific variation must remain occurrence-specific. The campaign has already demonstrated legitimate differing forms such as `சேர்ந்தாப்பிலே` / `சேந்தாப்பிலே` and `ஒன்ஸ்மோர்` / `ஒன்சுமோர்`; these are not global-normalization targets.
+`works/raja-rani/notes/correction-005-reconciliation.md`
 
-Two explicitly resolved `Neither` cases in the applied range are:
+Important retained source forms include:
 
-- PDF 59: **`நினைக்கிறேன்`**;
-- PDF 69: **`வீசும்`**.
+- PDF 59: **`நினைக்கிறேன்`** for the explicitly adjudicated Neither case;
+- PDF 69: **`வீசும்`** for the explicitly adjudicated Neither case;
+- PDF 71: **`மாறினான்`**;
+- PDF 72: **`சாக்ரடீசின்`**;
+- scene 17 exact source label: **`தர்யம்`**;
+- scene 34 corrected ownership occurrence: **`ராணி`**;
+- final manually adjudicated PDF 76–79 forms recorded in the reconciliation note.
 
-PDF 71 also received the separately resolved source form **`மாறினான்`**.
+Correction 005 downstream reconciliation has **passed**. English translation production is no longer paused by that campaign.
 
-### Reconciliation status after Correction 005
+## Correction 006 — PDF 48 / printed p.47 direct-scan resolution
 
-The canonical corrections in this campaign post-date existing scene, dialogue, character and translation derivatives. Those downstream layers therefore cannot be assumed synchronized merely because they were previously marked complete/verified.
+PDF 48 remained a bounded review page after the earlier fidelity gate because two short spans in Raja's recollection immediately before `சமரசம் வீடு` were visually insecure.
 
-**Reconciliation is intentionally deferred until the user's final 075–080 correction batch is applied.** After that batch, the archive must:
+A comparison extract suggested candidate readings, after which the user directly inspected the controlling PDF and authoritatively resolved the two spans as:
 
-1. reconcile all user-approved correction decisions against live canonical pages, especially pages 51–55 and the overlapping page 75;
-2. identify affected scene derivatives and update them from canonical text;
-3. reconcile affected dialogue records while preserving stable IDs/provenance and exact corrected speaker labels;
-4. re-evaluate character exact-label metadata only where speaker-label corrections affect it;
-5. recheck any affected song/performance links;
-6. verify any translation records touching changed source text;
-7. rerun relevant counts/consistency checks and synchronize work/project metadata.
+- **`வந்தனா`**
+- **`திடீர்னு`**
 
-Until that reconciliation passes, English translation expansion is paused.
+The canonical passage now reads:
 
-## Downstream effect of Corrections 001–004
+`...நான் எடுத்துகிட்டு...ஒன்கிட்ட கொடுக்கிறதுக்கு வந்தனா? வந்தா திடீர்னு சமரசம் வீடு...`
 
-- `scene-034.md` was generated after Correction 001 and therefore already follows the corrected PDF 49–50 labels.
-- `scene-035.md` has been reconciled so its PDF 53 portion now carries the restored `ராசா:` labels.
-- `scene-036.md` was generated only after Correction 002 and begins with the restored T036 stage-direction form.
-- `scene-040.md` was generated only after Correction 003 and therefore preserves the exact alternating `ராஜா:` / `ராசா:` labels across PDF 58–59.
-- `scene-047.md` is generated only after Correction 004 and therefore carries the source-visible `ராசா:` continuation on PDF 66.
+This is a direct source-backed resolution, not an OCR substitution.
 
-The earlier derivative synchronization statements above do **not** automatically cover Correction 005. Correction 005 requires the dedicated reconciliation described above.
+### Downstream propagation of Correction 006
 
-No review page is promoted merely by these spelling/glyph corrections. The bounded source limitations remain:
+The resolution has been propagated through:
 
-- verified source pages: **75/79**;
-- review source pages: **4/79 — PDF 27, 48, 57, 74**;
-- verified screenplay pages: **66/70**;
-- review screenplay pages: **4/70**.
+- `pages/048.md` — status promoted to `verified`;
+- `scenes/scene-033.md` — created as complete-verified;
+- `dialogues/records/scene-033.json` — **57 immutable labelled records**;
+- `scenes/index.json` and `dialogues/index.json`;
+- character label inventory and entity mapping;
+- `metadata.yaml` and work README;
+- translation eligibility/index/README;
+- Tamil fidelity disposition;
+- Raja Rani handover and next-chat prompt;
+- Correction 005 reconciliation state note.
+
+Scene 33 has one genuine PDF 48→49 cross-page dialogue record (`raja-rani-s033-d049`). The scene introduces no new exact speaker-label string and no new character entity.
+
+## Current source-fidelity census
+
+After Correction 006:
+
+- audited source pages: **79/79**;
+- verified source pages: **76/79**;
+- review source pages: **3/79 — PDF 27, 57, 74**;
+- audited screenplay pages: **70/70**;
+- verified screenplay pages: **67/70**;
+- review screenplay pages: **3/70**.
+
+Current blocked scenes are therefore only:
+
+- `s011`–`s013` — PDF 27;
+- `s039` — PDF 57;
+- `s053`–`s055` — PDF 74.
+
+`raja-rani-s033` is no longer blocked.
+
+## Current structured-derivative census
+
+- archival scene segments: **58**;
+- eligible verified scene derivatives: **51**;
+- blocked scene derivatives: **7**;
+- immutable dialogue records: **949**;
+- dialogue cross-page records: **12**;
+- exact source speaker labels: **75/75**;
+- character entities / roles / collectives: **42**;
+- English translation eligibility: **51 scenes**.
+
+## Current translation frontier
+
+The completed translation checkpoint remains **30/51 eligible scenes / 715 verified English units / 622/622 immutable dialogue links in translated scenes**.
+
+Per the user's 10-scene iteration rule, the next eligible translation batch is:
+
+`raja-rani-s033`, `s035`, `s036`, `s037`, `s038`, skip blocked `s039`, then `s040`, `s041`, `s042`, `s043`, `s044`.
+
+## Rule for future source corrections
+
+If new direct scan evidence changes a canonical reading:
+
+1. update the canonical page first;
+2. record the source-backed verdict here or in the appropriate dedicated audit note;
+3. reconcile only the affected scene/dialogue/character/song/translation derivatives;
+4. preserve stable IDs and page provenance wherever structure itself has not changed;
+5. update the current work-local census before resuming downstream production.
