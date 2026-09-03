@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil scene derivatives, immutable dialogue records, and the separately verified song/performance layer  
 **Target language:** English (`en`)  
-**Status:** **in-progress-verified — 15 / 50 eligible verified scenes; 387 verified units**
+**Status:** **in-progress-verified — 20 / 50 eligible verified scenes; 483 verified units**
 
 This directory contains the source-linked English derivative of `ராஜா ராணி`. Nothing here repairs, modernizes, expands or overwrites the Tamil source layers.
 
@@ -18,7 +18,8 @@ Eight archival scenes remain outside English production because they intersect r
 - `BATCH_002_005_REVIEW.md` — verified review for scenes 2–5.
 - `BATCH_006_010_REVIEW.md` — verified review for scenes 6–10.
 - `BATCH_014_018_REVIEW.md` — verified review for scenes 14–18.
-- `records/scene-001.json` through `records/scene-010.json`, plus `records/scene-014.json` through `records/scene-018.json` — verified scene records.
+- `BATCH_019_023_REVIEW.md` — verified review for scenes 19–23.
+- `records/scene-001.json` through `records/scene-010.json`, plus `records/scene-014.json` through `records/scene-023.json` — verified scene records, excluding blocked scenes 11–13.
 
 The 11 numbered front-matter song bodies remain source structures outside the screenplay scene segmentation. They will be translated through a parallel song-linked translation set rather than being forced into invented scene IDs. Screenplay song references/performance cues may link to `songs/index.json` through `source_occurrence_id` when source evidence supports that relation.
 
@@ -71,14 +72,28 @@ All **135/135** immutable dialogue records in scenes 14–18 are linked. Post-Co
 
 See `BATCH_014_018_REVIEW.md` for the detailed checkpoint.
 
+## Batch 019–023 coverage
+
+Verified scenes 19–23 add **96 verified units**:
+
+- dialogue: **86** — all **86/86** immutable dialogue records in scenes 21 and 23;
+- stage direction: **10**;
+- source-unlabelled spoken units: **0**;
+- performance cue / written text / song: **0**;
+- new genuine cross-page units: **2** — scene 21's pigeon stage direction across PDF 35→36 and immutable dialogue `raja-rani-s021-d048` across PDF 37→38.
+
+Scenes 19, 20 and 22 legitimately contain no immutable dialogue records and remain one source-parenthetical/stage unit each. Scene 21 retains the repeated `நீ` address as `nee`, exact source label variants, and the peace/quarrel signboard wordplay without normalizing Tamil. Scene 23 preserves source-visible `டேட்`, the playful `ட்ராமா, கீமா`, and the `பாடம்` / `பணம்` contrast.
+
+See `BATCH_019_023_REVIEW.md` for the detailed checkpoint.
+
 ## Current cumulative state
 
-- eligible verified scenes translated: **15/50**;
-- verified English units: **387**;
-- unit mix: **346 dialogue / 37 stage direction / 2 performance cues / 2 written text**;
-- immutable dialogue records linked in translated scenes: **338/338**;
+- eligible verified scenes translated: **20/50**;
+- verified English units: **483**;
+- unit mix: **432 dialogue / 47 stage direction / 2 performance cues / 2 written text**;
+- immutable dialogue records linked in translated scenes: **424/424**;
 - source-unlabelled spoken units: **8**;
-- cross-page English units: **4**;
+- cross-page English units: **6**;
 - translated screenplay song/performance occurrences: **2**;
 - front-matter numbered song translations started: **0/11**;
 - canonical Tamil modified by translation: **no**;
@@ -86,4 +101,4 @@ See `BATCH_014_018_REVIEW.md` for the detailed checkpoint.
 
 ## Next batch
 
-Translate verified `raja-rani-s019` through `raja-rani-s023` in source order. Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or authorship.
+Translate verified `raja-rani-s024` through `raja-rani-s028` in source order. Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings. Scene 27 legitimately has zero immutable dialogue records. Do not invent speakers, lyrics, scene endings or authorship.
