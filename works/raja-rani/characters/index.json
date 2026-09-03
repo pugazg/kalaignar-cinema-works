@@ -6,14 +6,13 @@
   "schema": "schema.json",
   "label_inventory": "labels-inventory.json",
   "entities": "entities.json",
-  "dialogue_records_source": 892,
-  "eligible_dialogue_scenes": 50,
-  "blocked_scene_count": 8,
+  "dialogue_records_source": 949,
+  "eligible_dialogue_scenes": 51,
+  "blocked_scene_count": 7,
   "blocked_scene_ids": [
     "raja-rani-s011",
     "raja-rani-s012",
     "raja-rani-s013",
-    "raja-rani-s033",
     "raja-rani-s039",
     "raja-rani-s053",
     "raja-rani-s054",
@@ -34,5 +33,5 @@
   "label_inventory_status": "complete-inventory",
   "entity_mapping_status": "complete-verified",
   "dialogue_records_modified": false,
-  "next_activity": "No character reconciliation remains. Preserve 75/75 exact source-label coverage and 42 entities while English translation continues from verified scenes 19-23."
+  "next_activity": "Preserve 75/75 exact source-label coverage and 42 entities while English translation continues. Scene 33 is now verified and eligible after the user resolved PDF 48 as `வந்தனா` and `திடீர்னு`."
 }
