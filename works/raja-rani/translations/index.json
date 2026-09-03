@@ -10,9 +10,9 @@
   "pilot_scene": "raja-rani-s001",
   "source_scene_numbering": "none-printed",
   "archival_scene_segments": 58,
-  "translation_eligible_scenes": 51,
-  "translation_blocked_scenes": 7,
-  "blocked_scene_ids": ["raja-rani-s011","raja-rani-s012","raja-rani-s013","raja-rani-s039","raja-rani-s053","raja-rani-s054","raja-rani-s055"],
+  "translation_eligible_scenes": 58,
+  "translation_blocked_scenes": 0,
+  "blocked_scene_ids": [],
   "scenes_started": [1,2,3,4,5,6,7,8,9,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34],
   "scenes_verified": [1,2,3,4,5,6,7,8,9,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34],
   "scenes_in_review": [],
@@ -71,6 +71,6 @@
     "notes":["All 9 immutable labelled dialogue records in scene 1 are linked exactly once.","The two source-visible stage directions are represented separately.","Exact source speaker-label forms are retained in metadata and not normalized.","No source-unlabelled speech, song text, decorative separator or invented scene-end prose was introduced.","The pilot does not alter canonical Tamil or any completed source derivative."]
   },
   "latest_batch": {"review":"BATCH_024_034_REVIEW.md","scenes":[24,25,26,27,28,29,30,31,32,34],"verified_units":232,"dialogue_links":198,"source_unlabelled_spoken_units":3,"stage_direction_units":31,"performance_cue_units":0,"written_text_units":0,"new_cross_page_units":0},
-  "next_scene_batch": [33,35,36,37,38,40,41,42,43,44],
-  "next_activity": "Translate the next 10 eligible verified scenes: 33, 35, 36, 37, 38, then 40-44; skip blocked scene 39. Scene 33 was newly unblocked after direct-scan resolution of PDF 48 as `வந்தனா` and `திடீர்னு`. Preserve exact dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or authorship."
+  "next_scene_batch": [11,12,13,33,35,36,37,38,39,40],
+  "next_activity": "Translate the next 10 verified scenes in source order: 11, 12, 13, 33, 35, 36, 37, 38, 39, 40. All 58 archival scenes are now source-verified; no scene needs to be skipped for source review. Preserve exact dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or authorship."
 }
