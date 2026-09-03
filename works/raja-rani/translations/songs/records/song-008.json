@@ -1,0 +1,156 @@
+{
+  "id": "raja-rani-song-en-008",
+  "song_id": "raja-rani-song-008",
+  "numbered_song_number": 8,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-008.md",
+    "tamil_status": "verified",
+    "pdf_pages": [7, 8],
+    "printed_pages": [6, 7],
+    "tamil_title": "லீலா!...லாலீ!...அது போலீ!...",
+    "authorship_status": "anthology-attributed",
+    "lyricist_ta": "மு. கருணாநிதி",
+    "authorship_evidence_basis": "Later verified Kalaignar anthology item correspondence (`kalaignar-song-023`); the materially different later-witness opening is not imported into this booklet's text.",
+    "performance_links": [
+      {"occurrence_id": "raja-rani-song-perf-003", "status": "verified", "scene": 40}
+    ]
+  },
+  "translation": {
+    "english_title": "Leela!... Laali!... that's poli!...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [7],
+        "source_tamil_lines": [
+          "லீலா!...லாலீ!...அது போலீ!...",
+          "கண்ணற்ற தகப்பனுக்கு பெண்ணாகப் பிறந்தவளே!",
+          "எண்ணற்ற பொய் சொல்லி என்னையே",
+          "மாற்றிய என் தங்கமே!",
+          "பூனை கண்ணை மூடிக்கொண்டால் பூலோகம் இருண்டு",
+          "போகுமோ? மியாவ் மியாவ்",
+          "வானை நோக்கித் திரையைப் போட்டால் வட்ட நிலாவும்",
+          "மறைந்து போகுமோ (கண்)"
+        ],
+        "english_lines": [
+          "Leela!... Laali!... that's poli—phony!...",
+          "Girl born as daughter to a father without sight!",
+          "My dear, who told countless lies and even",
+          "Turned me around!",
+          "If a cat closes its eyes, will the whole world grow",
+          "Dark? Meow, meow!",
+          "If a curtain is hung up toward the sky, will even the round moon",
+          "Disappear? (Kan)"
+        ],
+        "notes": [
+          "The opening `லீலா / லாலீ / போலீ` sound-play is kept visible; `போலி` is glossed through `phony` without replacing the Tamil pun.",
+          "The source refrain cue `(கண்)` is retained as `(Kan)` rather than expanded."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [8],
+        "source_tamil_lines": [
+          "கெட்டிக்காரன் பொய்யும் புரட்டும்",
+          "எட்டு நாளைக்கு—இந்தக்",
+          "கட்டிக் கரும்பின் பொய்யும் புரட்டும்",
+          "எத்தனை நாளைக்கு?...ஆ! (கண்)"
+        ],
+        "english_lines": [
+          "A clever fellow's lies and twists,",
+          "Last eight days—but this",
+          "Sugarcane bundle's lies and twists,",
+          "For how many days?... Ah! (Kan)"
+        ],
+        "notes": [
+          "The proverb-like `கெட்டிக்காரன்...எட்டு நாளைக்கு` construction is retained directly.",
+          "`கட்டிக் கரும்பு` is kept as the concrete sugarcane image rather than normalized to a generic term of affection."
+        ]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "வசனம்: ராணி",
+        "english_label": "Dialogue: Rani",
+        "pdf_pages": [8],
+        "source_tamil_lines": ["நான் ஒண்ணும் பொய் சொல்லலே எல்லாம் உண்மை தான்..."],
+        "english_lines": ["I didn't tell any lie at all—everything is true..."],
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_label": "பாட்டு: ராஜா",
+        "english_label": "Song: Raja",
+        "pdf_pages": [8],
+        "source_tamil_lines": [
+          "அரிச்சந்திரன் வீட்டுக்கு அடுத்த வீட்டுப் பெண்ணே!",
+          "அநியாயமாய் உண்மை சொல்வதிலே உனக்கு",
+          "அவனியிலே நிகர்யாரு கண்ணே!"
+        ],
+        "english_lines": [
+          "O girl from the house next door to Harishchandra's!",
+          "In telling the truth so outrageously, who",
+          "On this earth can equal you, dear?"
+        ],
+        "notes": ["The Harishchandra truthfulness reference and Raja's sarcasm are preserved rather than explained away."]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "வசனம்: ராணி",
+        "english_label": "Dialogue",
+        "pdf_pages": [8],
+        "source_tamil_lines": [
+          "ராணி: ராஜா!",
+          "ராஜா: ராணி!",
+          "ராணி: ஆ!...(வியப்பு)"
+        ],
+        "english_lines": [
+          "Rani: Raja!",
+          "Raja: Rani!",
+          "Rani: Ah!...(surprise)"
+        ],
+        "notes": ["The source-visible dialogue turn labels remain visible inside this interleaved song/dialogue block."]
+      },
+      {
+        "ordinal": 6,
+        "source_label": "பாட்டு: ராஜா",
+        "english_label": "Song: Raja",
+        "pdf_pages": [8],
+        "source_tamil_lines": [
+          "சீட்டுக் கட்டு ராணி போல சிக்கிவிட்டாய் பெண்மயிலே",
+          "வாட்டமே இல்லாமலே வாழலாம் பூங்குயிலே!",
+          "கிளாவர் ராணி! உனக்கு என்ன வேணுமின்னு கேளு...",
+          "ஆட்டின் ராணிபோல ஆடு டைமன் ராணிபோல ஆடு",
+          "அட இஸ்பேட் ராணி! ஏனிந்த சோகமோ?",
+          "என் மேல் என்ன கோபமோ?",
+          "உண்மை சொன்ன பாபமோ?",
+          "உன் மனதில் என்ன தாபமோ?"
+        ],
+        "english_lines": [
+          "Like the queen in a pack of cards, you've been caught, peahen,",
+          "We can live without distress, flower-cuckoo!",
+          "Queen of clubs! Ask for whatever you want...",
+          "Dance like the queen of the game; dance like the diamond queen,",
+          "Hey, queen of spades! Why this sorrow?",
+          "What anger do you have against me?",
+          "Is telling the truth the sin?",
+          "What yearning lies in your heart?"
+        ],
+        "notes": [
+          "The source's club/diamond/spade playing-card code-switching and Raja/Rani word-play are retained explicitly.",
+          "`ஆட்டின் ராணி` is rendered conservatively as `queen of the game`, preserving the card/play context."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "Song 8 crosses PDF 7→8 and preserves the source's unusual interleaving of lyric and dialogue.",
+      "The scene-40 performance link remains verified because the screenplay directly answers the numbered-song world-darkening image; no lyric body is duplicated into scene 40.",
+      "Authorship remains at later-anthology attribution tier, not original-booklet primary-source item credit."
+    ]
+  }
+}
