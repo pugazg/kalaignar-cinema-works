@@ -129,13 +129,16 @@ These pages can be valuable evidence but are not themselves lyric text.
 
 ## 7. Cross-linking existing cinema works
 
-When the anthology contains a song connected to an already archived film such as `works/parasakthi/`:
+When the anthology contains a song connected to an already archived film such as `works/parasakthi/` or `works/raja-rani/`:
 
 - add a cross-reference only after confirming the exact song/fragment;
 - do not overwrite the existing film booklet transcription;
 - do not copy the anthology lyric into the screenplay source layer;
 - document textual variants source-by-source;
-- preserve each edition as an independent textual witness.
+- preserve each edition as an independent textual witness;
+- keep the original-film work's authorship tier distinct from the anthology's attribution tier.
+
+A later anthology can support an `anthology-attributed` item correspondence in an earlier booklet without making that correspondence an original-film primary-source lyricist credit.
 
 ## 8. Verification gate
 
@@ -175,9 +178,13 @@ The default English goal is **source-faithful literary translation that retains 
 
 For structured translation records, preserve explicit links back to the verified Tamil song file and source PDF page(s). Where practical, map every Tamil lyric line/cue to an English line/cue so that translation QA can detect omissions.
 
+Before declaring a complete song corpus translated, run whole-corpus QA for song IDs, source links, page provenance, line/cue coverage, cross-page continuity and unchanged authorship tiers.
+
 ## 10. Major checkpoint synchronization
 
-After each major song batch, update at least:
+A song batch or full song corpus is not a closed phase until all active status mirrors are synchronized.
+
+After each major song batch, update the relevant work-local surfaces, including:
 
 - `works/<anthology-id>/songs/index.json` when Tamil/song status changes;
 - `works/<anthology-id>/translations/index.json` when English work exists;
@@ -185,6 +192,19 @@ After each major song batch, update at least:
 - `works/<anthology-id>/AUDIT.md`;
 - `works/<anthology-id>/metadata.yaml`;
 - `works/<anthology-id>/README.md`;
-- `data/works.json` when the repository-level checkpoint changes.
+- active translation/song README and whole-corpus QA files;
+- `PROJECT_HANDOVER.md` / `NEXT_CHAT_PROMPT.md` when present.
 
-At handover points, refresh `PROJECT_HANDOVER.md` with the exact next song number/page range or translation batch.
+When the repository-level checkpoint changes, also synchronize:
+
+- `data/works.json`;
+- root `README.md`;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` when the high-level project checkpoint or reusable lessons changed;
+- `docs/STATUS_CONSISTENCY_AUDIT.md`;
+- shared guides when the completed work established a reusable rule.
+
+At handover points, refresh the work handover with the exact next song number/page range, translation batch, reader/export gate or downstream integration activity.
+
+Before closure, perform a stale-state sweep for superseded song counts, obsolete draft/review status, stale authorship totals and old next activities. Historical batch reports may retain historical counts when clearly marked as historical; active status/startup documents may not.
+
+A correct translation corpus with stale active repository-wide mirrors remains **synchronization-incomplete**.
