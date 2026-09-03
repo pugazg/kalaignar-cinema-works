@@ -6,7 +6,7 @@
   "schema": "schema.json",
   "label_inventory": "labels-inventory.json",
   "entities": "entities.json",
-  "dialogue_records_source": 1076,
+  "dialogue_records_source": 1071,
   "eligible_dialogue_scenes": 58,
   "blocked_scene_count": 0,
   "blocked_scene_ids": [],
@@ -25,5 +25,5 @@
   "label_inventory_status": "complete-inventory",
   "entity_mapping_status": "complete-verified",
   "dialogue_records_modified": false,
-  "next_activity": "Preserve 80/80 exact source-label coverage and 44 verified entities while English translation continues across the now fully verified 58-scene screenplay."
+  "next_activity": "Preserve 80/80 exact source-label coverage and 44 verified entities while the separate English translation phase proceeds for the 11 numbered front-matter songs."
 }
