@@ -4,6 +4,8 @@ This guide governs English translation of verified Kalaignar song texts in `puga
 
 It supplements `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md` and the repository's source/transcription rules. The verified Tamil derivative remains authoritative; English is a separate source-linked layer.
 
+The guide applies both to dedicated song anthologies and to independently bounded/numbered song corpora embedded in another cinema publication, such as front-matter songs in a screenplay booklet.
+
 ## 1. Translation goal
 
 The target is **source-faithful literary English that retains Kalaignar's language, rhetoric and political-poetic force**. It is not a singable adaptation, modernization, paraphrase or rewrite.
@@ -36,12 +38,14 @@ Where the morphology itself is anomalous and a clean English rendering would imp
 
 ## 4. Structural fidelity
 
-- Retain anthology song number and film provenance.
+- Retain source song number and film/publication provenance.
 - Retain source page provenance.
 - Retain stanza order and refrain order.
 - Retain exact Tamil turn labels in source metadata; do not expand abbreviations or infer identities without evidence.
-- Keep performance labels such as `தொகையறா`, `பாட்டு`, `பல்லவி` source-visible. A transliterated English display label may accompany them, but the source label remains authoritative.
-- Prefer one English line per Tamil lyric line. Where syntax requires a different grouping, record the mapping explicitly and do not lose a source line.
+- Keep performance labels such as `தொகையறா`, `பாட்டு`, `பல்லவி`, `விருத்தம்`, `வசனம்` source-visible. A transliterated English display label may accompany them, but the source label remains authoritative.
+- Prefer one English line/cue per Tamil lyric line/cue. Where syntax requires a different grouping, record the mapping explicitly and do not lose a source line.
+- Preserve dialogue/song interleaving when a printed song block mixes spoken `வசனம்` and sung passages.
+- A separately numbered song body is not a screenplay scene. Do not invent scene IDs merely because the work also has scene-sharded translation.
 
 ## 5. Translation modes
 
@@ -62,16 +66,66 @@ Translation status and authorship status are separate.
 
 A song that is `anthology-attributed` may have a `verified` English translation while still remaining only `anthology-attributed` for authorship. English metadata must not imply `primary-source-verified` unless separate evidence supports that status.
 
+Likewise, a song whose lyricist is `unresolved` may still have a complete-verified translation. Translation must not infer authorship from style, political vocabulary, character identity, singer, scene context or similarity to another song.
+
+If a screenplay performance cue has only a `review`-level relationship to a numbered song, translating the numbered song does not upgrade that performance link.
+
 ## 7. Translation record gate
 
 Before a song translation becomes `verified`:
 
 - the Tamil song must already be verified;
-- every English line must map to visible Tamil source text;
+- every English line/cue must map to visible Tamil source text;
 - refrain and turn labels must be checked;
 - source page provenance must match the Tamil record;
 - no Tamil line may disappear through paraphrase;
 - no external lyric may be imported;
-- translation notes must identify any deliberate retention of culturally specific or source-anomalous wording.
+- translation notes must identify any deliberate retention of culturally specific or source-anomalous wording;
+- authorship metadata must remain at the source-supported tier;
+- performance links must remain at their pre-translation evidence tier.
 
 A first approved translation sample may use `pilot-verified`. Scaling to the rest of a corpus must follow the same voice decisions unless a later review explicitly changes the translation policy.
+
+## 8. Whole-corpus song QA
+
+Before declaring a numbered-song or anthology-song translation corpus complete, run a whole-set QA rather than relying only on per-song status.
+
+Verify at minimum:
+
+- expected song IDs are present exactly once and in source order;
+- every translated record points to the correct verified Tamil derivative;
+- every source page set matches the Tamil record/inventory;
+- all Tamil lines/cues are mapped exactly once unless an explicit many-to-one/one-to-many mapping is documented;
+- no external/unprinted lyric line appears;
+- source turn/performance labels are preserved;
+- cross-page songs retain full provenance;
+- authorship counts/statuses are unchanged by translation;
+- screenplay performance links are not silently promoted;
+- no song body has been forced into a synthetic screenplay scene identity.
+
+Raja Rani is the standing precedent for a mixed-work song gate: its 11 numbered front-matter songs are translated separately from the 58-scene screenplay, and final QA verifies **67 sections / 181 Tamil-to-English line-cue mappings** while preserving 5 later-anthology Kalaignar attributions, 6 unresolved lyricists and the review-level scene-58/song-11 relation.
+
+## 9. Completion and repository-wide synchronization gate
+
+A complete song corpus is not a closed project phase until its current status is synchronized beyond the translation records themselves.
+
+Update all relevant work-local surfaces:
+
+- song translation `index.json`;
+- song translation README;
+- final whole-corpus song QA/review;
+- work metadata and README;
+- work handover / next-chat prompt when present;
+- source song index/README when their `next_activity` or downstream-status fields change.
+
+When the work-level checkpoint changes, also synchronize repository-wide mirrors:
+
+- `data/works.json`;
+- root `README.md`;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` when the project checkpoint or reusable lessons change;
+- `docs/STATUS_CONSISTENCY_AUDIT.md`;
+- any shared guide whose reusable policy changed.
+
+Then sweep for obsolete `0/N`, pilot-only, blocked/review, prior-next-activity or old count language in **active** status/startup documents. Historical batch notes may retain historical counts when clearly identified as historical.
+
+Do not declare the song-translation phase complete while a current repository-wide mirror still says the corpus is not started or partially translated.
