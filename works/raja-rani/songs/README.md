@@ -31,7 +31,7 @@ The verified repository work `works/kalaignar-thirai-isai-paadalgal/` contains f
 
 These five are therefore dispositioned as **verified item correspondences / anthology-attributed to மு. கருணாநிதி**. This is deliberately not described as original-film primary-source item credit.
 
-The later witness is not a textual authority for this booklet. Edition differences remain visible. In particular, Raja Rani song 8 prints `சீலா!...லாலீ!...அது போலீ!...`, while the later anthology opens its corresponding item `வீணா!... வாலி!... அது போலி!...`; the Raja Rani reading remains unchanged.
+The later witness is not a textual authority for this booklet. Edition differences remain visible. In particular, Raja Rani song 8 prints `லீலா!...லாலீ!...அது போலீ!...`, while the later anthology opens its corresponding item `வீணா!... வாலி!... அது போலி!...`; the Raja Rani reading remains unchanged.
 
 The other six numbered blocks—1, 2, 4, 9, 10 and 11—remain **authorship unresolved** at this gate. No singer, character, soundtrack memory or film-wide roster order is used to guess a lyricist.
 
