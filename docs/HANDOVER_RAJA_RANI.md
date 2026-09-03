@@ -1,4 +1,4 @@
-# Raja Rani — Post-Correction-005 Handover
+# Raja Rani — English Translation Handover
 
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`  
@@ -6,11 +6,9 @@ Active work: `works/raja-rani/` — **ராஜா ராணி**
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first in every fresh chat. Preserve any newer durable state. Do not reset, repeat or reopen later completed work merely because this handover records an older checkpoint.
+Fetch live `main` first in every fresh chat. Preserve any newer durable state. Do not reset, repeat or reopen completed work merely because this handover records an older checkpoint.
 
 ## Controlling source
-
-Full source recorded by the repository:
 
 - filename: `TVA_BOK_0017188_ராஜா_ராணி.pdf`
 - PDF pages: **80**
@@ -18,7 +16,7 @@ Full source recorded by the repository:
 - canonical screenplay/dialogue range: PDF **10–79**, printed pp. **9–78**
 - PDF 80: unnumbered back cover
 
-Comparison extracts such as `r1.md`, `r2.md`, `r3.md`, `r4.md` and split PDFs are review aids only. The rendered source scan controls.
+Comparison extracts such as `r1.md`–`r4.md` and split PDFs are review aids only. The rendered source scan controls canonical Tamil.
 
 ## Mandatory startup in a fresh chat
 
@@ -36,133 +34,123 @@ Read completely before changing anything:
 10. `works/raja-rani/notes/correction-005-reconciliation.md`
 11. `works/raja-rani/translations/README.md`
 12. `works/raja-rani/translations/index.json`
+13. the current batch's Tamil scene files and immutable dialogue shards.
 
-## Source-fidelity rule that remains permanent
-
-The manual correction campaign exposed a systematic failure mode in old Tamil type: OCR, parsed PDF text and modern-spelling expectations can bias the reading.
-
-For this work:
+## Permanent source rules
 
 - rendered scan evidence controls disputed characters;
-- do not prefer a familiar/modern spelling because it appears linguistically more natural;
-- user-supplied manual scan verdicts remain authoritative for the reviewed occurrence unless later direct scan evidence reopens it;
-- preserve occurrence-specific variants;
+- OCR, parsed PDF text and comparison transcriptions are candidate readings only;
+- do not prefer modern/familiar spelling because it seems linguistically more natural;
+- preserve user-reviewed occurrence-specific source verdicts;
+- preserve exact source speaker-label variants;
+- source-unlabelled speech remains unlabelled;
 - no global normalization;
-- no silent reconstruction of obscured source text.
+- no silent reconstruction of obscured source text;
+- translation never repairs Tamil uncertainty or upgrades song authorship.
 
-The established source limitations remain PDF **27, 48, 57 and 74**. Their hidden or insecure wording stays unresolved.
-
-## Correction 005 — closed downstream reconciliation
-
-The late user-led manual source-correction campaign, including the final 075–080 comparison, has been propagated through every affected eligible downstream layer.
-
-### Canonical / scene / dialogue
-
-- canonical page corrections are committed through the end of PDF 79;
-- affected eligible scene derivatives were reconciled without rebuilding blocked review-source scenes;
-- immutable dialogue IDs and page provenance were retained;
-- dialogue corpus remains **892 records / 50 eligible scenes / 8 blocked scenes**;
-- cross-page dialogue records remain **11**;
-- tracked non-colon source-label anomalies remain **3**.
-
-Important corrected source forms that must not be reverted include:
-
-- PDF 52 `ராணி:` for `அந்தத் துணையும் உன் மாதிரி கிடைச்சால்ல நல்லா இருக்கும்.`;
-- PDF 72 `சாக்ரடீசின்`;
-- final corrected forms on PDFs 76–79, including `கண்ணழகி`, `கோகிலமே`, `மறுமணத்திற்குச்`, `பிழைச்சிடிச்சி`, `இதபாரு`, final `சரி`, `அந்தி`, `சிகப்பு`, while retaining the user-approved unchanged forms recorded in the correction note.
-
-Blocked scenes remain:
+The bounded source limitations remain PDF **27, 48, 57 and 74**. Their blocked archival scenes remain outside translation production:
 
 - `s011`–`s013` — PDF 27;
 - `s033` — PDF 48;
 - `s039` — PDF 57;
 - `s053`–`s055` — PDF 74.
 
-### Character/entity layer
+## Correction 005 — closed
 
-The one-off corrected exact speaker label `தர்யம்` in scene 17 is preserved as its own source label and maps to the existing Thayammal entity. The scene-34 Raja→Rani ownership correction introduces no new label or entity.
+The late user-led old-glyph/source-correction campaign has been reconciled through canonical Tamil, affected scene derivatives, immutable dialogue records, exact-label character metadata, affected song derivatives/metadata and all English records that existed at the time.
 
-Current verified character census:
+Durable record:
 
-- exact source labels: **75/75**;
-- entities / role categories / collectives: **42**;
-- unresolved labels/entities: **0**.
+`works/raja-rani/notes/correction-005-reconciliation.md`
 
-### Song/performance layer
+Important forms that must not be reverted include PDF 52 `ராணி:` for the corrected dialogue occurrence, PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, and the final user-adjudicated PDF 76–79 forms.
 
-Correction 005 source wording was propagated to the affected numbered-song derivatives and embedded source excerpts without changing authorship dispositions.
+Current source/derivative census:
 
-Current song census:
-
-- numbered song blocks / verified Tamil song derivatives: **11/11**;
+- verified source pages: **75/79**; review pages: **4/79**;
+- archival scene segments: **58**;
+- eligible verified scene derivatives: **50**; blocked: **8**;
+- immutable dialogue records: **892**;
+- dialogue cross-page records: **11**;
+- exact source speaker labels: **75/75**;
+- character entities / roles / collectives: **42**;
+- numbered songs / verified Tamil song derivatives: **11/11**;
 - screenplay singing references: **4**;
 - total song/performance occurrences: **15**;
-- numbered songs anthology-attributed to Kalaignar: **5** — songs 3, 5, 6, 7, 8;
-- numbered songs with unresolved lyricist: **6** — songs 1, 2, 4, 9, 10, 11;
-- original-booklet item-level lyricist credits: **0**.
+- numbered songs anthology-attributed to Kalaignar: **5** — 3, 5, 6, 7, 8;
+- numbered songs with unresolved lyricist: **6** — 1, 2, 4, 9, 10, 11.
 
-Performance links remain:
+## English translation — current durable checkpoint
 
-- scene 4 → song 3: verified;
-- scene 16 → song 5: verified;
-- scene 40 → song 8: verified;
-- scene 58 → song 11: review.
+Translation is source-linked and scene-sharded under `works/raja-rani/translations/`.
 
-### Existing English translation layer
+Completed verified scenes:
 
-All English records that existed when Correction 005 was reconciled were checked against corrected Tamil.
+**1–10, 14–23**
 
-Current verified translation coverage:
+Current totals after `BATCH_019_023_REVIEW.md`:
 
-- translated eligible scenes: **15 / 50** — scenes 1–10 and 14–18;
-- verified English units: **387**;
-- immutable dialogue links: **338 / 338 expected**;
+- translated eligible scenes: **20 / 50**;
+- verified English units: **483**;
+- immutable dialogue links: **424 / 424 expected**;
 - source-unlabelled spoken units: **8**;
-- cross-page translation units: **4**;
+- genuine cross-page translation units: **6**;
 - translated screenplay performance occurrences: **2**;
-- unit mix: **346 dialogue / 37 stage direction / 2 performance cue / 2 written text**.
+- unit mix: **432 dialogue / 47 stage direction / 2 performance cue / 2 written text**;
+- front-matter numbered song translations started: **0/11**.
 
-Specific post-correction English repairs already completed:
+Batch 019–023 added:
 
-- scene 15 `raja-rani-en-s015-u020`: source `கிரஷ்` is preserved as `Crush` rather than the superseded generic `refreshment`;
-- scene 17 `raja-rani-en-s017-u017`: exact source metadata label is `தர்யம்`; separate genuine `தாயம்` occurrences remain unchanged.
+- **96** verified units;
+- **86/86** immutable dialogue links;
+- **10** stage directions;
+- **2** new cross-page units;
+- **0** invented speakers/song units.
 
-No translation expansion occurred during the correction reconciliation itself.
+Batch-specific decisions:
 
-## QA / consistency checkpoint
+- scenes 19, 20 and 22 are stage-only source segments; no dialogue was manufactured;
+- scene 21 retains the repeated source `நீ` as `nee`, exact speaker-label variants, and the peace/quarrel signboard wordplay; its pigeon stage action crosses PDF 35→36 and `raja-rani-s021-d048` crosses PDF 37→38;
+- scene 23 preserves source-visible `டேட்`, `ட்ராமா, கீமா`, and the `பாடம்` / `பணம்` contrast.
 
-The post-correction structural census is internally consistent:
+Authoritative translation checkpoint files:
 
-- dialogue index: **892 / 50 eligible / 8 blocked**;
-- character index: **75/75 labels / 42 entities**;
-- song index: **11 numbered + 4 screenplay references = 15 occurrences; 5 verified-attribution + 6 unresolved**;
-- translation index: **15/50 scenes / 387 units / 338/338 dialogue links**.
-
-Translation scenes 1–10 account for **203** immutable dialogue records; scenes 14–18 account for **135**; together they equal the translation index's **338 expected and linked** records.
+- `works/raja-rani/translations/index.json`
+- `works/raja-rani/translations/README.md`
+- `works/raja-rani/translations/BATCH_019_023_REVIEW.md`
+- `works/raja-rani/translations/records/scene-019.json` through `scene-023.json`
 
 ## Exact next activity
 
-Resume normal source-linked English production with verified scenes:
+Translate verified archival scenes:
 
-**`raja-rani-s019` through `raja-rani-s023`**
+**`raja-rani-s024` through `raja-rani-s028`**
 
-Work in source order and preserve:
+Before creating English records, read the five live Tamil scene derivatives and their dialogue shards completely. Work in source order.
 
-- immutable dialogue record links and exact source labels;
+Preserve:
+
+- every immutable dialogue record exactly once with stable source record ID;
+- exact source `speaker_label` metadata;
 - source-unlabelled speech as null-speaker units;
-- stage/performance structure;
-- genuine physical page crossings and page-segment provenance;
-- song/performance references only to the extent printed.
+- stage directions, written material and performance structures as distinct unit kinds;
+- genuine cross-page source units as one English unit with physical provenance and page segments;
+- rhetoric, colloquial timing, code-switching and source irregularities.
 
-Do not invent speakers, lyrics, authorship, scene endings, or text from any blocked review-source page.
+Scene **27** legitimately has **zero immutable dialogue records**; do not manufacture dialogue from its non-dialogue source material.
 
-After translating scenes 19–23, create/update the corresponding batch review, translation index and translation README with exact cumulative counts before proceeding further.
+Do not invent speakers, lyrics, authorship, scene endings or text from review-source pages.
 
-## Durable reconciliation record
+After scenes 24–28 are translated:
 
-The correction campaign and its downstream reconciliation are recorded in:
+1. verify sequential unit IDs and exact dialogue-link coverage;
+2. record all new source-unlabelled and cross-page units;
+3. create `BATCH_024_028_REVIEW.md`;
+4. update `translations/index.json` and `translations/README.md` with exact cumulative counts;
+5. synchronize `works/raja-rani/metadata.yaml`, work README, this handover and `NEXT_CHAT_PROMPT_RAJA_RANI.md` before advancing.
 
-- `works/raja-rani/notes/post-fidelity-corrections.md`
-- `works/raja-rani/notes/correction-005-reconciliation.md`
+## Shared repository mirrors
 
-Canonical scan fidelity remains more important than derivative consistency: if future direct scan evidence corrects a canonical reading, change the source first and explicitly reconcile only the affected downstream material.
+`data/works.json` and root `README.md` are shared repository mirrors and may lag the work-local checkpoint. Do not let a stale shared mirror override the live Raja Rani indexes/metadata/handover. Update those shared files only when they can be safely rewritten without risking unrelated works.
+
+Canonical scan fidelity remains more important than derivative consistency. If future direct scan evidence changes canonical Tamil, correct the source first and explicitly reconcile only affected downstream material before continuing.
