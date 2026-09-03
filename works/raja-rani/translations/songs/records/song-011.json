@@ -1,0 +1,154 @@
+{
+  "id": "raja-rani-song-en-011",
+  "song_id": "raja-rani-song-011",
+  "numbered_song_number": 11,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-011.md",
+    "tamil_status": "verified",
+    "pdf_pages": [9],
+    "printed_pages": [8],
+    "tamil_title": "திரைபோட்டு நாமே மறைத்தாலும் காதலை",
+    "authorship_status": "unresolved",
+    "lyricist_ta": null,
+    "authorship_evidence_basis": "The original booklet's film-wide lyricist roster does not map this duet to an item-level lyricist.",
+    "performance_links": [
+      {"occurrence_id": "raja-rani-song-perf-004", "status": "review", "scene": 58}
+    ]
+  },
+  "translation": {
+    "english_title": "Even if we draw a curtain and hide our love",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": [
+          "திரைபோட்டு நாமே மறைத்தாலும் காதலை",
+          "தெளிவாக நாளை தெரியாமல் போகுமோ?"
+        ],
+        "english_lines": [
+          "Even if we ourselves draw a curtain and hide our love,",
+          "Will it fail to become clear tomorrow?"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 2,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [9],
+        "source_tamil_lines": [
+          "சரியான நேரம் கிடைக்காத போதிலே",
+          "திரைபோட்டுக் காப்பதே முறையாகும் வாழ்விலே"
+        ],
+        "english_lines": [
+          "When the right time has not yet come,",
+          "In life, the proper way is to guard it behind a curtain."
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["சரியான நேரம் என்னேரமோ!"],
+        "english_lines": ["And what time is the right time!"],
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["அலை மோதும் நெஞ்சம் நிலைகாணும் நேரமே!"],
+        "english_lines": ["The time when a wave-tossed heart finds steadiness!"],
+        "notes": []
+      },
+      {
+        "ordinal": 5,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["சந்தோஷம் காணவே தடை போடலாமோ?"],
+        "english_lines": ["Can one place an obstacle in the way of finding happiness?"],
+        "notes": []
+      },
+      {
+        "ordinal": 6,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["தவறாக என்னை எடை போடலாமோ?"],
+        "english_lines": ["Can you weigh and judge me wrongly?"],
+        "notes": ["The source's weighing image `எடை போடலாமோ` is retained rather than flattened to `misunderstand me`."
+        ]
+      },
+      {
+        "ordinal": 7,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["அரும்பான காதல் மலராகுமோ?"],
+        "english_lines": ["Will love that is still a bud become a flower?"],
+        "notes": []
+      },
+      {
+        "ordinal": 8,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["குறும்பான கேள்வி இது நியாயமாகுமோ?"],
+        "english_lines": ["This mischievous question—is it fair?"],
+        "notes": []
+      },
+      {
+        "ordinal": 9,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["கரும்பாக பேசும்!"],
+        "english_lines": ["Speak as sweetly as sugarcane!"],
+        "notes": ["The sugarcane sweetness image is kept concrete."]
+      },
+      {
+        "ordinal": 10,
+        "source_label": "ராணி",
+        "english_label": "Rani",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["என்னாசை ராஜா!"],
+        "english_lines": ["Ennaasai, Raja!"],
+        "notes": ["The verified joined form `என்னாசை` can carry more than one conversational parsing; it is transliterated rather than silently normalized."
+        ]
+      },
+      {
+        "ordinal": 11,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["உறவாகி இன்பம் காண்போம் ராணி..."],
+        "english_lines": ["Let us become joined in love and know joy, Rani..."],
+        "notes": []
+      },
+      {
+        "ordinal": 12,
+        "source_label": "ராஜா",
+        "english_label": "Raja",
+        "pdf_pages": [9],
+        "source_tamil_lines": ["ராணி;........(சரியான)"],
+        "english_lines": ["Rani;........ (Sariyaana)"],
+        "notes": ["The source closes with a parenthetical refrain cue rather than a fully reprinted line; the English does not invent the omitted continuation."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The Raja/Rani alternation is preserved turn by turn.",
+      "The scene-58 performance link remains review-level only; translation does not upgrade it to verified.",
+      "Authorship remains unresolved."
+    ]
+  }
+}
