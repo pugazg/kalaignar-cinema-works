@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Narrow Raja Rani registry stale assertion
+      - name: Scope Raja Rani synchronization assertions and registry fields
         shell: bash
         run: |
           python - <<'PY'
@@ -36,6 +36,8 @@ jobs:
 
           path = Path("works/raja-rani/integrations/reading-room/sync_status.py")
           text = path.read_text(encoding="utf-8")
+
+          # Keep the shared data/works.json stale check scoped only to the Raja Rani entry.
           pattern = re.compile(
               r'    for path in current_paths:\n'
               r'        text = read\(path\)\n'
@@ -71,6 +73,15 @@ jobs:
           text, count = pattern.subn(new, text, count=1)
           if count != 1:
               raise SystemExit(f"expected one stale_assertions loop, found {count}")
+
+          # Raja Rani already carried the older generic reader_export field in data/works.json.
+          # Update that field alongside the newer detailed reader metadata; no other work is touched.
+          anchor = '    sd["english_reader_edition"] = "complete-verified"\n'
+          if anchor not in text:
+              raise SystemExit("Raja Rani registry reader anchor not found")
+          if '    sd["reader_export"] = "complete-verified"\n' not in text:
+              text = text.replace(anchor, '    sd["reader_export"] = "complete-verified"\n' + anchor, 1)
+
           path.write_text(text, encoding="utf-8")
           PY
 
