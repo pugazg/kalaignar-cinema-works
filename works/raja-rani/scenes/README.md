@@ -1,22 +1,24 @@
 # ராஜா ராணி — scene derivatives
 
-**Stage:** verified scene-text derivatives complete with review-source exclusions  
+**Stage:** **complete-verified**  
 **Scene segmentation/index:** complete — **58 archival segments**  
-**Verified scene-text files:** **50 / 50 eligible**  
-**Blocked source-review segments:** **8**
+**Verified scene-text files:** **58/58**  
+**Blocked source-review segments:** **0**
 
-This directory is a derivative layer built from the canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
+This directory is a derivative layer built from canonical Tamil page files under `../pages/`. It does **not** replace, normalize or repair the canonical source layer.
 
 ## Canonical authority
 
 - Source: `TVA_BOK_0017188_ராஜா_ராணி.pdf`
 - Canonical screenplay: PDF **10–79** / printed pp. **9–78**
-- Tamil fidelity gate: **closed-with-source-limitations**
-- Verified screenplay pages: **66/70**
-- Review screenplay pages: **4/70 — PDF 27, 48, 57, 74**
-- Gate disposition: `../notes/tamil-fidelity-gate-disposition.md`
-- Post-fidelity corrections: `../notes/post-fidelity-corrections.md`
-- Segmentation audit: `../notes/scene-segmentation-audit.md`
+- Tamil fidelity gate: **closed-verified**
+- verified source pages: **79/79**
+- verified screenplay pages: **70/70**
+- review source pages: **0**
+- final source-review record: `../notes/final-source-review-resolution.md`
+- gate disposition: `../notes/tamil-fidelity-gate-disposition.md`
+- post-fidelity corrections: `../notes/post-fidelity-corrections.md`
+- segmentation audit: `../notes/scene-segmentation-audit.md`
 
 ## Scene-number policy
 
@@ -24,49 +26,29 @@ The booklet does **not** print numbered screenplay scenes.
 
 Therefore:
 
-- `raja-rani-s001` through `raja-rani-s058` are archive-only navigation identifiers;
-- their ordinals are not represented as source scene numbers;
-- `reader_label_ta` values in `index.json` are archival navigation labels, not invented source headings;
+- `raja-rani-s001`–`raja-rani-s058` are archive-only navigation identifiers;
+- their ordinals are not source scene numbers;
+- `reader_label_ta` in `index.json` is archival navigation, not an invented source heading;
 - page breaks alone are never scene boundaries.
 
-## Eligibility
+## Final source eligibility
 
-`index.json` records **58** source-supported archival scene segments.
+`index.json` records **58 source-supported archival scene segments** and all **58/58 are verified**.
 
-- **50** segments are eligible for verified scene-text extraction and all **50/50 are now complete**.
-- **8** segments remain blocked because their span intersects a review-source page.
+The former source-review blocks were resolved by direct scan review:
 
-Blocked scene IDs:
+- PDF 27 → `இரவெல்லாம்` — unblocked s011–s013;
+- PDF 48 → `வந்தனா`, `திடீர்னு` — unblocked s033;
+- PDF 57 → `முன்னுக்கு பின் முரணாயிகிட்டே போவது?` — unblocked s039;
+- PDF 74 → `K. N. சங்கரன் ...` identified as a non-canonical ownership/library stamp; canonical dialogue runs directly `ஞான: நீ விதவை.` → `ராஜா: விதவை.` → `சாந்: வித்தாரக்கள்ளி! விநாசகாரி` — unblocked s053–s055.
 
-- `raja-rani-s011`, `raja-rani-s012`, `raja-rani-s013` — intersect PDF 27
-- `raja-rani-s033` — intersects PDF 48
-- `raja-rani-s039` — intersects PDF 57
-- `raja-rani-s053`, `raja-rani-s054`, `raja-rani-s055` — intersect PDF 74
+There are no blocked scene IDs remaining.
 
-No verified scene-text file is created for a blocked scene until a stronger source resolves the affected page.
+## Historical extraction batches
 
-## Scene-text extraction history
+The original ten five-source-page extraction batches were produced while some source pages were still review-limited. Their reports remain valuable historical checkpoints, but their then-current blocked-scene statements are not current production state.
 
-Completed batches:
-
-- Batch 001: `scene-001.md` through `scene-010.md`
-- Batch 002: `scene-014.md` through `scene-023.md`
-- Batch 003: PDF **40–44**; completed `scene-024.md` through `scene-027.md`
-- Batch 004: PDF **45–49**; completed carried-forward `scene-028.md` and `scene-029.md` through `scene-032.md`; blocked `s033` remained absent
-- Batch 005: PDF **50–54**; completed carried-forward `scene-034.md` and `scene-035.md`; `s036` carried forward
-- Batch 006: PDF **55–59**; completed carried-forward `scene-036.md`, `scene-037.md` and `scene-038.md`; blocked `s039` remained absent
-- Batch 007: PDF **60–64**; resumed after blocked `s039`, completed `scene-040.md` through `scene-045.md`; `s046` carried forward
-- Batch 008: PDF **65–69**; completed carried-forward `scene-046.md`, then `scene-047.md` through `scene-050.md`; `s051` carried forward
-- Batch 009: PDF **70–74**; completed carried-forward `scene-051.md` and `scene-052.md`; stopped before blocked `s053`
-- Batch 010: PDF **75–79**; resumed only at T056 after the blocked PDF-74 scene group and completed final eligible `scene-056.md`, `scene-057.md` and `scene-058.md`
-
-Blocked `scene-011.md`–`scene-013.md`, `scene-033.md`, `scene-039.md` and `scene-053.md`–`scene-055.md` are intentionally absent because their archive segments intersect review-source pages.
-
-The five-source-page batching policy never emits a partial scene merely because an iteration boundary is reached, and it never fills or imports review-source text to force continuity.
-
-Post-fidelity rendered-scan rechecks restored source-visible Raja-label variation on PDF 49–50, PDF 53, PDF 58–59 and PDF 66. Batch 009 found no further canonical correction in PDF 70–73, and Batch 010 found no new canonical correction in the verified T056–T058 span on PDF 77–79.
-
-Batch reports:
+Reports:
 
 - `../notes/scene-text-batch-001.md`
 - `../notes/scene-text-batch-002.md`
@@ -79,13 +61,28 @@ Batch reports:
 - `../notes/scene-text-batch-009.md`
 - `../notes/scene-text-batch-010.md`
 
-Final scene-text totals:
+Later direct source review supplied the final seven previously blocked scene derivatives: s011–s013, s033, s039, s053–s055.
+
+## T055 / T056 derivative-boundary correction
+
+Final English QA found a scene-derivative ownership error independent of source fidelity: the older `scene-055.md` had continued beyond its declared `end_before=T056` boundary and duplicated the complete `(முன்)` flashback owned by `scene-056.md`.
+
+The scene layer is now corrected:
+
+- `scene-055.md` ends before `(முன்)`;
+- `scene-056.md` exclusively owns the flashback;
+- canonical page transcription is unchanged;
+- downstream dialogue census is **1,071** unique records rather than the provisional 1,076.
+
+See `../translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`.
+
+## Final scene-text totals
 
 - archival scene segments: **58**
-- eligible scene-text segments: **50**
-- completed verified scene-text files: **50**
-- remaining eligible scene-text files: **0**
-- blocked scene-text segments: **8**
+- source-eligible segments: **58**
+- completed verified scene-text files: **58**
+- blocked segments: **0**
+- remaining scene-text files: **0**
 
 ## Derivative rules
 
@@ -96,12 +93,13 @@ Each verified scene file:
 3. retains every canonical PDF/printed-page anchor occurring inside the scene;
 4. stops immediately before the next accepted transition in the segmentation audit;
 5. does not invent a speaker for source-unlabelled speech;
-6. does not repair or normalize the canonical page layer;
-7. is not produced when any part of the scene intersects PDF 27, 48, 57 or 74;
-8. is never emitted partially merely because a five-page iteration ends inside the scene.
+6. does not repair or normalize canonical pages;
+7. is never emitted partially merely because a processing iteration ends inside the scene.
 
-## Next activity
+## Downstream state
 
-Run a compact **scene-layer completion / repository-bookkeeping checkpoint**. Reconcile the pre-existing Raja Rani registry gap in `data/works.json` and the repository root README, verify that all 50 eligible scene files and 8 blocked IDs agree across work metadata/indexes, and then open the **dialogue index** phase.
+- dialogue layer: **complete-verified — 1,071 unique immutable records / 58 scenes**;
+- character layer: **complete-verified — 80/80 exact labels / 44 entities**;
+- English screenplay layer: **complete-verified — 58/58 scenes / 1,236 units / 1,071/1,071 links**.
 
-Dialogue extraction must use only explicitly speaker-labelled utterances from verified Tamil units. Source-unlabelled speech must remain unassigned.
+The current production frontier is the separate English translation of the **11 verified numbered front-matter song bodies**. Scene derivatives must remain unchanged during that phase unless direct source evidence explicitly reopens a source issue.
