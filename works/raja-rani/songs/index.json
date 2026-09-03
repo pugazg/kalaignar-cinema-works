@@ -41,13 +41,22 @@
   "tamil_song_derivatives": "complete-verified",
   "tamil_song_derivative_files": 11,
   "tamil_song_directory": "tamil",
+  "english_numbered_song_translation": "complete-verified",
+  "english_numbered_song_translation_index": "../translations/songs/index.json",
+  "english_numbered_song_translation_qa": "../translations/songs/FINAL_NUMBERED_SONG_TRANSLATION_QA.md",
+  "english_numbered_song_translation_files": 11,
+  "english_numbered_song_translation_sections": 67,
+  "english_numbered_song_source_line_cues": 181,
+  "english_numbered_song_english_line_cues": 181,
   "canonical_text_modified_by_cross_witness": false,
   "dialogue_records_modified": false,
+  "authorship_modified_by_translation": false,
+  "performance_links_modified_by_translation": false,
   "scene_derivative_correction": {
     "scene": 16,
     "source_page": 30,
     "finding": "The verified source stage direction `[ராணி “வேலையில்லாத் தொல்லையில்லை” என்று பாடிக் கொண்டிருக்கிறாள்.]` and its preceding source separator belong at the start of scene 16 but were omitted from the earlier scene derivative. The derivative is restored from canonical page 030 without changing dialogue records or fidelity totals."
   },
-  "song_gate_disposition": "The source song section is fully represented as 11 verified Tamil song derivatives. Five numbered songs have a later verified Kalaignar-anthology item correspondence and are recorded at `anthology-attributed` tier; six remain unresolved because the source's six-name PDF-9 lyricist roster has no item-level mapping. Correction 005 wording changes have been reconciled in the affected Tamil derivatives and source excerpts without changing authorship or performance-link dispositions.",
-  "next_activity": "No song/performance reconciliation remains. Preserve the current 11/4/15 inventory and authorship dispositions while English translation continues from verified scenes 19-23; translate front-matter song bodies only in their dedicated source-linked song translation phase."
+  "song_gate_disposition": "The source song section is fully represented as 11 verified Tamil song derivatives and 11 complete-verified source-linked English numbered-song records. Five numbered songs have later verified Kalaignar-anthology item correspondence and remain `anthology-attributed`; six remain unresolved because the source's six-name PDF-9 lyricist roster has no item-level mapping. English translation does not change authorship or screenplay-performance dispositions.",
+  "next_activity": "Build and QA the Raja Rani whole-work bilingual reader/export from the completed verified screenplay and numbered-song English layers, then prepare source-linked Reading Room integration data."
 }
