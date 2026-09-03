@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil scene derivatives, immutable dialogue records, and the separately verified song/performance layer  
 **Target language:** English (`en`)  
-**Status:** **in-progress-verified — scenes 1–10 / 50 eligible verified scenes; 234 verified units**
+**Status:** **in-progress-verified — 15 / 50 eligible verified scenes; 387 verified units**
 
 This directory contains the source-linked English derivative of `ராஜா ராணி`. Nothing here repairs, modernizes, expands or overwrites the Tamil source layers.
 
@@ -17,14 +17,15 @@ Eight archival scenes remain outside English production because they intersect r
 - `PILOT_REVIEW.md` — scene-1 fidelity/voice review and scaling rules.
 - `BATCH_002_005_REVIEW.md` — verified review for scenes 2–5.
 - `BATCH_006_010_REVIEW.md` — verified review for scenes 6–10.
-- `records/scene-001.json` through `records/scene-010.json` — verified scene records.
+- `BATCH_014_018_REVIEW.md` — verified review for scenes 14–18.
+- `records/scene-001.json` through `records/scene-010.json`, plus `records/scene-014.json` through `records/scene-018.json` — verified scene records.
 
 The 11 numbered front-matter song bodies remain source structures outside the screenplay scene segmentation. They will be translated through a parallel song-linked translation set rather than being forced into invented scene IDs. Screenplay song references/performance cues may link to `songs/index.json` through `source_occurrence_id` when source evidence supports that relation.
 
 ## Translation principles
 
 1. **Verified Tamil remains authoritative.** English fluency is never evidence for changing a Tamil reading.
-2. **Exact source speaker labels remain metadata.** Every source-labelled utterance links to its immutable dialogue record; labels such as `டாக்டர்` / `டாக்`, `ராஜா` / `ராசா` are not normalized in translation metadata.
+2. **Exact source speaker labels remain metadata.** Every source-labelled utterance links to its immutable dialogue record; labels such as `டாக்டர்` / `டாக்`, `ராஜா` / `ராசா`, and the source-exact scene-17 `தர்யம்` occurrence are not normalized in translation metadata.
 3. **Source-unlabelled speech remains unlabelled.** It may be preserved as a source-linked dialogue-kind unit with null `speaker_label` and null `source_record_id`; no speaker is invented.
 4. **Stage directions stay source-bounded.** Do not add action, motivation, identity or scene closure not printed in the verified scene derivative.
 5. **Rhetoric and colloquial force survive.** Repetition, hesitation, insults, rhetorical questions, comic timing, ellipses and abrupt syntax are retained when intelligible in English.
@@ -56,24 +57,33 @@ Scenes `raja-rani-s006` through `raja-rani-s010` add **125 verified units**:
 
 The batch links all **101/101** immutable dialogue records in scenes 6–10. Scenes 8 and 10 correctly have zero immutable dialogue records but retain their verified source-visible stage/narrative content.
 
-Scene 7 keeps Samarasam's rambling anti-war speech, the `டாட்டர்` / `டாக்டர்` daughter-doctor misunderstanding, and the exact long source label `கீதாவின் தாய் தாயம்மாள்` without normalizing the immutable dialogue metadata.
+## Batch 014–018 coverage
 
-Scene 9 preserves newspaper headlines and the Leela letter as written text, while four directly printed but source-unlabelled spoken spans remain null-speaker dialogue-kind units. The letter stays one source-linked unit across PDF **22→23**. The `படி` read/step joke, the `ராஜா` name/title misunderstanding and source-visible code-switching remain explicit.
+After skipping blocked scenes 11–13, verified scenes 14–18 add **153 verified units**:
 
-Current cumulative state:
+- dialogue-kind: **139** — 135 immutable dialogue links + 4 source-unlabelled spoken units;
+- stage direction: **13**;
+- performance cue: **1** — scene 16, linked to `raja-rani-song-perf-002`;
+- written text: **0**;
+- new genuine cross-page units: **0**.
 
-- eligible verified scenes translated: **10/50**;
-- verified English units: **234**;
-- unit mix: **207 dialogue / 24 stage direction / 1 performance cue / 2 written text**;
-- immutable dialogue records linked in completed scenes: **203/203**;
-- source-unlabelled spoken units: **4**;
+All **135/135** immutable dialogue records in scenes 14–18 are linked. Post-Correction-005 reconciliation also keeps scene 15's source borrowing `கிரஷ்` visible as `Crush` in English and preserves the one-off exact source speaker label `தர்யம்` on scene 17 unit `raja-rani-en-s017-u017`; other `தாயம்` occurrences remain unchanged because they are separate source occurrences.
+
+See `BATCH_014_018_REVIEW.md` for the detailed checkpoint.
+
+## Current cumulative state
+
+- eligible verified scenes translated: **15/50**;
+- verified English units: **387**;
+- unit mix: **346 dialogue / 37 stage direction / 2 performance cues / 2 written text**;
+- immutable dialogue records linked in translated scenes: **338/338**;
+- source-unlabelled spoken units: **8**;
 - cross-page English units: **4**;
-- translated screenplay song/performance occurrences: **1**;
-- canonical Tamil modified: **no**;
+- translated screenplay song/performance occurrences: **2**;
+- front-matter numbered song translations started: **0/11**;
+- canonical Tamil modified by translation: **no**;
 - scene/dialogue/character/song source derivatives modified by translation: **no**.
-
-See `BATCH_006_010_REVIEW.md` for the detailed checkpoint.
 
 ## Next batch
 
-Skip blocked `raja-rani-s011`–`raja-rani-s013` and translate verified `raja-rani-s014` through `raja-rani-s018` in source order. Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or authorship.
+Translate verified `raja-rani-s019` through `raja-rani-s023` in source order. Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or authorship.
