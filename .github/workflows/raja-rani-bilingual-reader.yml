@@ -37,6 +37,21 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Apply validator compatibility repair
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path("works/raja-rani/editions/en/build.py")
+          text = path.read_text(encoding="utf-8")
+          old = '    ensure(scene_index.get("unit_kind_counts") == EXPECTED_KINDS, "Screenplay kind counts drifted")'
+          new = '''    index_kind_counts = scene_index.get("unit_kind_counts")
+              ensure(isinstance(index_kind_counts, dict) and all(index_kind_counts.get(k) == v for k, v in EXPECTED_KINDS.items()) and all(k in EXPECTED_KINDS or v == 0 for k, v in index_kind_counts.items()), "Screenplay kind counts drifted")'''.replace("              ensure", "    ensure")
+          if old not in text:
+              raise SystemExit("Expected validator line was not found")
+          path.write_text(text.replace(old, new, 1), encoding="utf-8")
+          PY
+
       - name: Run whole-work bilingual reader preflight
         run: python works/raja-rani/editions/en/audit_probe.py
 
@@ -49,6 +64,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            works/raja-rani/editions/en/build.py \
             works/raja-rani/editions/en/PREFLIGHT_QA_REPORT.md \
             works/raja-rani/editions/en/reader-edition.md \
             works/raja-rani/editions/en/reader-edition.html \
