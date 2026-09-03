@@ -1,4 +1,4 @@
-# Raja Rani — English Translation Handover
+# Raja Rani — Bilingual Archive Handover
 
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`  
@@ -13,6 +13,7 @@ Fetch live `main` first in every fresh chat. Preserve any newer durable state. D
 - filename: `TVA_BOK_0017188_ராஜா_ராணி.pdf`
 - PDF pages: **80**
 - SHA-256: `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`
+- numbered front-matter songs: PDF **4–9**
 - canonical screenplay/dialogue range: PDF **10–79**, printed pp. **9–78**
 - PDF 80: unnumbered back cover
 
@@ -30,15 +31,18 @@ Read completely before changing anything:
 6. this handover
 7. `docs/NEXT_CHAT_PROMPT_RAJA_RANI.md`
 8. `works/raja-rani/README.md`
-9. `works/raja-rani/notes/final-source-review-resolution.md`
-10. `works/raja-rani/notes/post-fidelity-corrections.md`
-11. `works/raja-rani/notes/correction-005-reconciliation.md`
-12. `works/raja-rani/translations/README.md`
-13. `works/raja-rani/translations/index.json`
-14. `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`
-15. `works/raja-rani/songs/index.json`
-16. `works/raja-rani/songs/inventory.json`
-17. the verified Tamil song derivatives for the numbered-song batch.
+9. `works/raja-rani/metadata.yaml`
+10. `works/raja-rani/notes/final-source-review-resolution.md`
+11. `works/raja-rani/notes/post-fidelity-corrections.md`
+12. `works/raja-rani/notes/correction-005-reconciliation.md`
+13. `works/raja-rani/translations/README.md`
+14. `works/raja-rani/translations/index.json`
+15. `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`
+16. `works/raja-rani/translations/songs/index.json`
+17. `works/raja-rani/translations/songs/FINAL_NUMBERED_SONG_TRANSLATION_QA.md`
+18. `works/raja-rani/songs/index.json`
+19. `works/raja-rani/songs/inventory.json`
+20. repository-wide current mirrors: root `README.md`, `data/works.json`, `docs/STATUS_CONSISTENCY_AUDIT.md`.
 
 ## Permanent source rules
 
@@ -48,7 +52,8 @@ Read completely before changing anything:
 - source-unlabelled speech remains unlabelled;
 - non-canonical ownership/library stamps are not screenplay text;
 - no global normalization or silent reconstruction;
-- translation never repairs Tamil or upgrades song authorship.
+- translation never repairs Tamil or upgrades song authorship;
+- a major phase is not durably closed until both work-local and repository-wide current-status mirrors are synchronized.
 
 ## Final source-review state — fully closed
 
@@ -71,19 +76,21 @@ Current source census:
 - genuine cross-page dialogue records: **12**;
 - exact speaker labels: **80/80**;
 - entities / roles / collectives: **44**, all verified;
-- numbered songs: **11/11 Tamil derivatives**; screenplay singing refs **4**; total occurrences **15**;
+- numbered songs: **11/11 Tamil derivatives**;
+- screenplay singing refs: **4**;
+- total song/singing occurrences: **15**;
 - song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved**.
 
 ## T055 / T056 boundary correction — closed
 
-Final English QA caught a derivative segmentation error: the older scene-55 derivative duplicated the complete `(முன்)` flashback that belongs to scene 56. This has been corrected without changing canonical page transcription.
+Final English QA caught a derivative segmentation error: the older scene-55 derivative duplicated the complete `(முன்)` flashback that belongs to scene 56. This is corrected without changing canonical page transcription.
 
 Final disposition:
 
 - scene 55 dialogue shard: **25 records**;
 - scene 56 dialogue shard: **5 records**;
 - corrected corpus dialogue census: **1,071**;
-- no duplicate T055 source IDs remain eligible for English linkage.
+- deleted duplicate IDs `s055-d026`–`s055-d030` must not be restored.
 
 Durable QA: `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`.
 
@@ -95,10 +102,6 @@ Do not revert permanent forms such as PDF 72 `சாக்ரடீசின்`
 
 ## English screenplay translation — COMPLETE
 
-All **58/58 archival scenes** have verified English records.
-
-Final totals:
-
 - translated scenes: **58/58**;
 - verified English units: **1,236**;
 - immutable dialogue links: **1,071/1,071**;
@@ -106,44 +109,59 @@ Final totals:
 - genuine cross-page English units: **15**;
 - screenplay performance/singing occurrences represented: **4/4**;
 - unit mix: **1,090 dialogue / 137 stage direction / 4 performance cue / 5 written text**;
-- draft/review screenplay units: **0**.
+- draft/review screenplay units: **0/0**.
 
-Final content reviews:
+Final QA: `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`.
 
-- `works/raja-rani/translations/BATCH_011_040_REVIEW.md`
-- `works/raja-rani/translations/BATCH_041_058_REVIEW.md`
-- `works/raja-rani/translations/FINAL_SCREENPLAY_TRANSLATION_QA.md`
+## Numbered-song English translation — COMPLETE
 
-Do **not** reopen screenplay translation production merely because an older shared mirror says 30/58 or 715 units.
+Dedicated layer: `works/raja-rani/translations/songs/`.
 
-## Numbered-song English translation — exact next activity
+- numbered song bodies: **11/11 complete-verified**;
+- translation sections / source-turn groups: **67**;
+- Tamil source line/cue entries represented: **181**;
+- English line/cue entries represented: **181**;
+- multi-page song records: **4** — songs 2, 3, 8 and 10;
+- draft/review/not-started song records: **0/0/0**.
 
-The 11 front-matter numbered song bodies have verified Tamil derivatives but **0/11 English song translations**.
+Final QA: `works/raja-rani/translations/songs/FINAL_NUMBERED_SONG_TRANSLATION_QA.md`.
 
-Translate **songs 1–11 in source order** through a dedicated source-linked song translation layer.
-
-For every numbered song:
-
-- use the verified Tamil song derivative as textual authority;
-- preserve source PDF/printed-page provenance;
-- use semantic-poetic English, retaining image, rhetorical force, repetition and unusual source wording;
-- do not change canonical Tamil to improve the English;
-- keep screenplay performance links only where already supported by the song inventory;
-- never infer lyricist identity from translation, style or context;
-- preserve authorship tiers exactly.
-
-Current authorship dispositions:
+Authorship is unchanged:
 
 - **later-anthology Kalaignar-attributed:** songs **3, 5, 6, 7, 8**;
 - **unresolved lyricist:** songs **1, 2, 4, 9, 10, 11**;
 - original-booklet item-level lyricist credits: **0**.
 
-Scene 58's performance association with song 11 remains **review-level**. Do not upgrade it while translating the song body.
+Performance links are unchanged: songs 3/5/8 have verified screenplay links; song 11/scene 58 remains **review-level**.
 
-Before defining the English song schema/files, inspect the live `songs/schema.json`, `songs/index.json`, `songs/inventory.json`, and existing Tamil derivative naming conventions. Do not force song translations into screenplay scene IDs.
+## EXACT NEXT ACTIVITY — whole-work bilingual reader/export
 
-After all 11 numbered songs are translated, create a dedicated numbered-song English QA/review and only then mark the overall bilingual Raja Rani work complete.
+The source-linked bilingual textual content is complete. Do **not** reopen normal transcription or translation production.
 
-## Shared repository mirrors
+Build a deterministic Raja Rani bilingual reader/export from the verified structured records, following the mature repository reader pattern.
 
-`data/works.json` and root `README.md` may lag the work-local checkpoint. Do not let stale shared mirrors override Raja Rani-local indexes, metadata, reviews or this handover.
+Required gate:
+
+1. inspect current reader/export patterns from completed works such as Manohara/Parasakthi/Tirumbippaar without reusing their text;
+2. define the Raja Rani reader source set from verified scene translation records plus the 11 verified numbered-song translation records;
+3. preserve the source distinction between numbered front-matter songs and archive-only screenplay scene segmentation;
+4. verify all 58 scene records and 11 song records are represented exactly once;
+5. verify all 1,236 screenplay unit IDs exactly once and all 11 numbered-song English records exactly once;
+6. preserve 1,071/1,071 immutable dialogue linkage, 19 source-unlabelled spoken units, 15 cross-page screenplay units, 4 screenplay performance cues, and 4 multi-page numbered-song records;
+7. preserve source/page provenance and song authorship/performance-link tiers;
+8. generate only reproducible reader outputs supported by repository policy, normally Markdown/HTML/JSON + QA/manifest;
+9. after reader QA PASS, prepare source-linked Reading Room integration data for `https://nenjukkuneethi.org/read`;
+10. do not create a new standalone PDF/EPUB by default.
+
+## Repository-wide anti-staleness rule
+
+At every major Raja Rani checkpoint, synchronize all current production surfaces, not only `works/raja-rani/`:
+
+- work metadata/readmes/indexes/QA/handover;
+- `data/works.json`;
+- root `README.md`;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` when the project-level checkpoint changes;
+- `docs/STATUS_CONSISTENCY_AUDIT.md`;
+- any other current shared guide/status document whose instructions or counts are affected.
+
+Historical batch reviews may retain historical counts when they are explicitly presented as historical checkpoints. Current status mirrors must not remain stale.
