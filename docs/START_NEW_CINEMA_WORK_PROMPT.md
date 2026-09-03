@@ -29,14 +29,21 @@ Before making any repository change, read these documents completely:
 3. `docs/ARCHIVAL_WORKFLOW.md`
 4. `docs/SOURCE_POLICY.md`
 5. `docs/TRANSCRIPTION_GUIDE.md`
-6. repository root `README.md`
-7. `data/works.json`
+6. `docs/STATUS_CONSISTENCY_AUDIT.md`
+7. repository root `README.md`
+8. `data/works.json`
 
 Then inspect the current repository and confirm whether this work has already been started under the same title, an alternate title, another filename, or an existing `works/<id>/` directory.
 
 If work already exists, **continue it instead of creating duplicate files**. Read its work README, metadata, mapping, audits and current layer indexes before proceeding.
 
-Use **Parasakthi** and **Tirumbippaar!** only as workflow/reference implementations. Never use their Tamil or English text as a source for this new work.
+Use **Parasakthi**, **Tirumbippaar!**, and **Raja Rani** only as workflow/reference implementations. Never use their Tamil or English text as a source for this new work.
+
+Reference emphasis:
+
+- Parasakthi — complex source numbering / mixed verse handling;
+- Tirumbippaar — mature whole-work reader/export and package QA;
+- Raja Rani — glyph-sensitive adjudication, late-correction reconciliation, mixed screenplay + separately numbered songs, duplicate-boundary QA, and repository-wide synchronization.
 
 ## SOURCE AUTHORITY
 
@@ -88,6 +95,8 @@ A Kalaignar story/dialogue credit does **not** automatically establish lyric aut
 Do not assign song authorship from proximity or memory.
 
 If later external evidence is used for item-level authorship, document it separately and never use it to supply missing canonical lyrics.
+
+If the source contains an independently numbered song corpus outside the screenplay, preserve those song IDs as songs. Do not force them into archival scene IDs merely because a screenplay translation layer later exists.
 
 ## FIRST ACTIVITY — SOURCE INTAKE AND STRUCTURAL MAPPING
 
@@ -143,7 +152,12 @@ If the work is genuinely new, choose a stable lowercase ASCII work ID and create
 
 Add an initial work entry to `data/works.json`.
 
-Update the root `README.md` only as needed to register the new work and its actual intake status.
+Update the root `README.md` to register the new work and its actual intake status when the repository-level work list changes.
+
+If the new work materially changes the project checkpoint, also refresh:
+
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`;
+- `docs/STATUS_CONSISTENCY_AUDIT.md`.
 
 Do not create empty advanced layers merely for completeness. `scenes/`, `dialogues/`, `characters/`, `songs/`, `translations/` and `editions/` should be created only when their gate is reached.
 
@@ -173,6 +187,8 @@ The normal first checkpoint should be:
 - canonical transcription: not-started;
 - later derivatives: blocked/not-started.
 
+Before declaring the first activity complete, verify that work-local metadata, `data/works.json`, root README and any affected project-level status docs all describe that same checkpoint.
+
 Set the exact next activity to:
 
 > **Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors — followed later by a separate visual fidelity audit before any structured derivatives.**
@@ -197,21 +213,47 @@ The normal future sequence is:
 10. integration into `https://nenjukkuneethi.org/read` as the preferred public Reading Room;
 11. standalone PDF/EPUB/release packaging only when explicitly requested or independently useful.
 
+### Mandatory synchronization after every major future phase
+
+Do not report a phase complete until all relevant current mirrors have been reconciled.
+
+Work-local minimum:
+
+- work metadata/README;
+- active layer index/README/QA/audit;
+- work handover/next-chat prompt when present.
+
+Repository-wide minimum when the checkpoint changes:
+
+- `data/works.json`;
+- root `README.md`;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`;
+- `docs/STATUS_CONSISTENCY_AUDIT.md`;
+- any shared guide changed by a reusable lesson from the phase.
+
+Run a stale-state sweep for superseded counts, old blocked/review states and obsolete next activities before closure. Historical batch notes may retain historical counts if clearly labelled historical; active status/startup documents may not.
+
 ### Dialogue rule
 
 Only explicitly speaker-labelled utterances become immutable dialogue records. Source-unlabelled speech must remain unlabelled. A cross-page utterance remains one record with multi-page provenance.
+
+Whole-work QA must also catch accidental duplicate source-span ownership across adjacent scene derivatives.
 
 ### Translation rule
 
 Translation begins only from verified Tamil. Keep exact Tamil speaker labels as metadata, link labelled dialogue records exactly, preserve source-unlabelled speech without invented speakers, and never create absent lyrics or artificial `(Scene ends.)` text from decorative separators such as `★`.
 
+Separately numbered song bodies remain separate song translation records, not synthetic scenes.
+
 ### Reading Room rule
 
-For completed cinema works, prefer scene-based integration at:
+For completed cinema works, prefer integration at:
 
 `https://nenjukkuneethi.org/read`
 
 Use verified structured repository data for Tamil/English reading and search. Do not treat the website as a new textual authority.
+
+Preserve the work's natural source structures: screenplay scenes remain scenes; independently numbered songs remain songs/front-matter units.
 
 Do not automatically create a print-ready PDF or additional publication package when the web reader is the intended destination.
 
@@ -229,7 +271,7 @@ Report concisely but precisely:
 - song/performance/written-text structural findings;
 - scan defects or unresolved source questions;
 - work ID and repository paths created/updated;
-- files changed;
+- files changed, including repository-wide mirrors synchronized;
 - final `main` commit SHA;
 - exact next activity.
 
@@ -241,4 +283,4 @@ Do not claim anything as verified unless the scan/repository work actually suppo
 
 If a compact prompt is needed after the reusable docs already exist, use:
 
-> Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`, `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, and `docs/TRANSCRIPTION_GUIDE.md` completely. Use the attached new Kalaignar cinema PDF as the controlling source and work directly in `pugazg/kalaignar-cinema-works` on `main`. Inspect the repository first to avoid duplicates. In this first activity, inspect the entire scan, verify source identity/checksum/credits/edition and content bounds, complete the full structural map and initialize the work metadata/skeleton. Do not silently normalize Tamil, infer song authorship, or begin downstream derivatives before their gates. Stop after intake/mapping and set canonical Tamil first-pass transcription as the next activity. The eventual preferred public destination is `https://nenjukkuneethi.org/read`, with cinema works navigated by scene.
+> Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`, `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, `docs/TRANSCRIPTION_GUIDE.md`, and `docs/STATUS_CONSISTENCY_AUDIT.md` completely. Use the attached new Kalaignar cinema PDF as the controlling source and work directly in `pugazg/kalaignar-cinema-works` on `main`. Inspect the repository first to avoid duplicates. In this first activity, inspect the entire scan, verify source identity/checksum/credits/edition and content bounds, complete the full structural map and initialize the work metadata/skeleton. Do not silently normalize Tamil, infer song authorship, or begin downstream derivatives before their gates. Synchronize work-local state, `data/works.json`, root README and affected project-level status docs before claiming the checkpoint complete. Stop after intake/mapping and set canonical Tamil first-pass transcription as the next activity. The eventual preferred public destination is `https://nenjukkuneethi.org/read`, preserving each source's natural navigation structure.
