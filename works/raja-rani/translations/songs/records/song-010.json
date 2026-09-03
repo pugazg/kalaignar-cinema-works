@@ -1,0 +1,68 @@
+{
+  "id": "raja-rani-song-en-010",
+  "song_id": "raja-rani-song-010",
+  "numbered_song_number": 10,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-010.md",
+    "tamil_status": "verified",
+    "pdf_pages": [8, 9],
+    "printed_pages": [7, 8],
+    "tamil_title": "ஒரு சொல்லாலே வீணானதே",
+    "authorship_status": "unresolved",
+    "lyricist_ta": null,
+    "authorship_evidence_basis": "No item-level lyricist is printed for song 10; its Rani performance label does not establish lyric authorship.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "With a single word it was ruined",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "ராணியின் சோகப் பாடல்",
+        "english_label": "Rani's sad song",
+        "pdf_pages": [8],
+        "source_tamil_lines": [
+          "ஒரு சொல்லாலே வீணானதே...காதல் சுகமும் கனவானதே (ஒரு)",
+          "தேன்மொழி பேசும் மான்விழி மாதே",
+          "திருமணம் செய்வேன் என்றே...",
+          "சொன்னதை யெல்லாம் மறந்தும் ஏனோ துரையே",
+          "என் வாழ்வெல்லாம் மானில மேலே தேய்பிறை போலே (ஒரு)"
+        ],
+        "english_lines": [
+          "With a single word it was ruined... even love's joy became a dream. (Oru)",
+          "‘Doe-eyed maiden who speaks honeyed words,",
+          "I shall marry you,’—so you said...",
+          "Why, my lord, have you forgotten all that you said?",
+          "My whole life upon this earth is like the waning moon. (Oru)"
+        ],
+        "notes": [
+          "The source's remembered marriage promise is rendered as quoted speech without adding any wording beyond the two printed lines.",
+          "The verified source prints `மானில`; the English follows the contextual earth/world sense without changing the Tamil witness.",
+          "The refrain cue `(ஒரு)` is retained as `(Oru)`."
+        ]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "ராணியின் சோகப் பாடல்",
+        "english_label": "Rani's sad song",
+        "pdf_pages": [9],
+        "source_tamil_lines": [
+          "வாழ்வினில் பயனேது? வஞ்சகரெல்லாம் மலிந்ததனாலே",
+          "மங்கை என் வாழ்வெல்லாம் (ஒரு)"
+        ],
+        "english_lines": [
+          "What use is there in life, when deceivers have multiplied everywhere?",
+          "All my maiden life... (Oru)"
+        ],
+        "notes": ["The source closes with the compact/fragmentary `மங்கை என் வாழ்வெல்லாம்`; the English preserves that incompleteness rather than supplying a missing conclusion."]
+      }
+    ],
+    "translator_notes": [
+      "Song 10 crosses PDF 8→9 and remains one bounded numbered-song record.",
+      "Authorship remains unresolved."
+    ]
+  }
+}
