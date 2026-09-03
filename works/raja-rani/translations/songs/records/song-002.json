@@ -1,0 +1,165 @@
+{
+  "id": "raja-rani-song-en-002",
+  "song_id": "raja-rani-song-002",
+  "numbered_song_number": 2,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-002.md",
+    "tamil_status": "verified",
+    "pdf_pages": [4, 5],
+    "printed_pages": [4],
+    "tamil_title": "காணாத இன்பமெல்லாம் கண்டிடலாம் இங்கே",
+    "authorship_status": "unresolved",
+    "lyricist_ta": null,
+    "authorship_evidence_basis": "No item-level lyricist is printed for song 2; Geetha/Babu performance labels do not establish lyric authorship.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "All joys unseen can be seen here",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "கீதா",
+        "english_label": "Geetha",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "காணாத இன்பமெல்லாம் கண்டிடலாம் இங்கே",
+          "காண்பதும் உண்மை தானுங்க",
+          "எல்லாம் உண்மை தானுங்க—எங்கும் (கா)"
+        ],
+        "english_lines": [
+          "All joys unseen can be seen here,",
+          "What you see is true indeed,",
+          "Everything is true indeed—everywhere. (Kaa)"
+        ],
+        "notes": ["The source refrain cue `(கா)` is retained as `(Kaa)` rather than expanded."]
+      },
+      {
+        "ordinal": 2,
+        "source_label": "பாபு",
+        "english_label": "Babu",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "அழகோடு உறவாடும் மலர் நாணும் மேனி",
+          "இசை பாடும் வாணி வா என் கண்மணி"
+        ],
+        "english_lines": [
+          "A form that communes with beauty, making flowers blush,",
+          "Vani who sings music—come, my precious one."
+        ],
+        "notes": ["`வாணி` is retained as Vani, preserving the source's poetic/personified address rather than flattening it to a generic singer."]
+      },
+      {
+        "ordinal": 3,
+        "source_label": "கீதா",
+        "english_label": "Geetha",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "ஆஹா ஆசை பாருங்க",
+          "ஆஹா ஆசை பாரு அதுக்கு வேறு ஆளைப்பாரு நீதான்..."
+        ],
+        "english_lines": [
+          "Aha—just look at that desire!",
+          "Aha, look at that desire—for that, go find someone else, you..."
+        ],
+        "notes": ["The teasing spoken register is kept direct rather than formalized."]
+      },
+      {
+        "ordinal": 4,
+        "source_label": "பாபு",
+        "english_label": "Babu",
+        "pdf_pages": [4],
+        "source_tamil_lines": ["சாக சந் தானா ஓகோ எல்லாம் வேஷந்தானா"],
+        "english_lines": ["`Saaga santhaanaa?` Oh-ho—is it all only a disguise?"],
+        "notes": ["The verified source sequence `சாக சந் தானா` is opaque; it is transliterated rather than silently emended to a familiar phrase."]
+      },
+      {
+        "ordinal": 5,
+        "source_label": "கீதா",
+        "english_label": "Geetha",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "காண்பதும் உண்மை தானுங்க",
+          "எல்லாம் உண்மை தானுங்க (எங்கும்)"
+        ],
+        "english_lines": [
+          "What you see is true indeed,",
+          "Everything is true indeed—everywhere."
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 6,
+        "source_label": "கீதா",
+        "english_label": "Geetha",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "என்னைப்பாருங்க என் கண்ணைப் பாருங்க",
+          "பெண்களில் என்னைப்போலே பேரழகி இல்லீங்க!"
+        ],
+        "english_lines": [
+          "Look at me—look at my eyes,",
+          "Among women there is no great beauty like me!"
+        ],
+        "notes": []
+      },
+      {
+        "ordinal": 7,
+        "source_label": "பாபு",
+        "english_label": "Babu",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "ஆமாம் பூங்கொடி அலங்காரப் பொன்முடி",
+          "பாடும் குயிலும் நீ பவனி வரும் தென்றல் நீ"
+        ],
+        "english_lines": [
+          "Yes—flowering vine, adorned golden crown,",
+          "You are the singing cuckoo; you are the breeze that comes in procession."
+        ],
+        "notes": ["The compact chain of praise-images is retained rather than reduced to a generic compliment."]
+      },
+      {
+        "ordinal": 8,
+        "source_label": "கீதா",
+        "english_label": "Geetha",
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "ஓடும் உயிரோட்டம் நான்",
+          "ஓடும் உயிரோட்டம் ஒளி வீசும் புதுமை நிலா",
+          "நானே கயல்விழி மானே"
+        ],
+        "english_lines": [
+          "I am the flowing pulse of life,",
+          "The flowing pulse of life—a new moon shedding light,",
+          "I myself am the fish-eyed doe."
+        ],
+        "notes": ["The `கயல்விழி` fish-eye beauty image is preserved instead of replaced by a generic `beautiful-eyed` phrase."]
+      },
+      {
+        "ordinal": 9,
+        "source_label": "பாபு",
+        "english_label": "Babu",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["வாழ்வில் உன்னால் இன்பம் தானே"],
+        "english_lines": ["In life, joy comes through you alone."],
+        "notes": []
+      },
+      {
+        "ordinal": 10,
+        "source_label": "கீதா",
+        "english_label": "Geetha",
+        "pdf_pages": [5],
+        "source_tamil_lines": ["காண்பதும் உண்மை தானுங்க—எங்கும் (கா)"],
+        "english_lines": ["What you see is true indeed—everywhere. (Kaa)"],
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "The duet's exact source speaker labels are retained as metadata.",
+      "Song 2 crosses PDF 4→5 and remains one numbered-song translation record.",
+      "Authorship remains unresolved."
+    ]
+  }
+}
