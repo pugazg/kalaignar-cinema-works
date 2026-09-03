@@ -75,13 +75,18 @@ This does not erase historical uncertainty. Earlier audit/review notes remain ev
 - archival scene segments: **58**;
 - verified scene-text derivatives: **58/58**;
 - blocked scenes: **0**;
-- immutable dialogue records: **1,076 across 58 scenes**;
+- immutable dialogue records: **1,071 across 58 scenes**;
 - zero-dialogue scenes: **16**;
 - dialogue cross-page records: **12**;
 - exact source labels: **80/80**;
-- verified entities / roles / collectives: **44**.
+- verified entities / roles / collectives: **44**;
+- numbered front-matter songs: **11/11 verified Tamil derivatives**;
+- screenplay singing references: **4**;
+- screenplay English translation: **complete-verified — 58/58 scenes / 1,236 units / 1,071/1,071 immutable dialogue links**.
 
-No scene remains blocked for English translation on source-fidelity grounds.
+The corrected **1,071** dialogue census reflects the later derivative-only T055/T056 boundary repair: old scene 55 had duplicated the `(முன்)` flashback owned by scene 56. Canonical Tamil was unchanged; scene 55 now has 25 dialogue records and scene 56 has 5. Deleted duplicate IDs `s055-d026`–`s055-d030` must not be restored.
+
+No scene remains blocked on source-fidelity grounds. The remaining Raja Rani English activity is the dedicated source-linked translation of the **11 numbered front-matter song bodies**; song authorship and screenplay performance-link dispositions remain independent of translation status.
 
 ## Permanent downstream policy
 
@@ -91,3 +96,4 @@ No scene remains blocked for English translation on source-fidelity grounds.
 4. Non-canonical stamps and ownership marks are not screenplay content.
 5. English translation does not become evidence for changing Tamil.
 6. If future direct scan evidence reopens a reading, update the canonical page first, record the evidence, then reconcile only affected derivatives.
+7. A major phase is not closed until both work-local checkpoints and repository-wide status mirrors have been synchronized to the same live counts/state.
