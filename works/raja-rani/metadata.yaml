@@ -6,45 +6,46 @@ source:
   pages: 80
 status:
   canonical_first_pass: complete-draft
-  fidelity_audit: complete-with-source-limitations
-  tamil_fidelity_gate: closed-with-source-limitations
+  fidelity_audit: complete-verified
+  tamil_fidelity_gate: closed-verified
   fidelity_gate_disposition_path: works/raja-rani/notes/tamil-fidelity-gate-disposition.md
+  final_source_review_resolution_path: works/raja-rani/notes/final-source-review-resolution.md
   post_fidelity_corrections_path: works/raja-rani/notes/post-fidelity-corrections.md
   correction_005_reconciliation: content-complete-qa-pass
   correction_005_reconciliation_path: works/raja-rani/notes/correction-005-reconciliation.md
   fidelity_audit_through_pdf_page: 79
   fidelity_audited_source_pages: 79
-  fidelity_verified_source_pages: 76
-  fidelity_review_source_pages: 3
+  fidelity_verified_source_pages: 79
+  fidelity_review_source_pages: 0
   screenplay_fidelity_audited_pages: 70
-  verified_tamil_pages: 67
-  screenplay_fidelity_verified_pages: 67
-  screenplay_fidelity_review_pages: 3
+  verified_tamil_pages: 70
+  screenplay_fidelity_verified_pages: 70
+  screenplay_fidelity_review_pages: 0
   structured_derivatives: english-translation-in-progress-verified
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
   archival_scene_segments: 58
-  scene_text_eligible_segments: 51
-  scene_text_blocked_segments: 7
-  scene_text_derivatives: complete-verified-only-with-review-exclusions
+  scene_text_eligible_segments: 58
+  scene_text_blocked_segments: 0
+  scene_text_derivatives: complete-verified
   scene_text_batching_policy: five-source-pages-per-iteration
-  scene_text_files_completed: 51
+  scene_text_files_completed: 58
   scene_text_files_remaining_eligible: 0
-  scene_text_latest_batch: works/raja-rani/notes/scene-text-batch-010.md
-  scene_layer_completion_checkpoint: works/raja-rani/notes/scene-layer-completion-dialogue-initialization.md
+  scene_text_latest_batch: works/raja-rani/notes/final-source-review-resolution.md
+  scene_layer_completion_checkpoint: works/raja-rani/notes/final-source-review-resolution.md
   scene_derivative_song_gate_correction: works/raja-rani/scenes/scene-016.md
-  dialogue_index: complete-verified-only-with-review-exclusions
+  dialogue_index: complete-verified
   dialogue_index_path: works/raja-rani/dialogues/index.json
   dialogue_schema_path: works/raja-rani/dialogues/schema.json
-  dialogue_eligible_scenes: 51
-  dialogue_blocked_scenes: 7
-  dialogue_records: 949
-  dialogue_scenes_completed: 51
-  dialogue_zero_record_scenes: [8, 10, 14, 19, 20, 22, 27, 29, 30, 32, 37, 38, 42, 43, 48]
+  dialogue_eligible_scenes: 58
+  dialogue_blocked_scenes: 0
+  dialogue_records: 1076
+  dialogue_scenes_completed: 58
+  dialogue_zero_record_scenes: [8, 10, 12, 14, 19, 20, 22, 27, 29, 30, 32, 37, 38, 42, 43, 48]
   dialogue_cross_page_records: 12
   dialogue_source_label_anomaly_records: 3
-  dialogue_latest_batch: works/raja-rani/notes/dialogue-batch-006.md
+  dialogue_latest_batch: works/raja-rani/notes/final-source-review-resolution.md
   dialogue_next_scene_batch: null
   character_index: complete-verified
   character_index_path: works/raja-rani/characters/index.json
@@ -53,15 +54,15 @@ status:
   character_label_inventory: complete-inventory
   character_label_inventory_path: works/raja-rani/characters/labels-inventory.json
   character_label_inventory_checkpoint: works/raja-rani/notes/character-label-inventory.md
-  character_distinct_source_labels: 75
+  character_distinct_source_labels: 80
   character_entity_mapping: complete-verified
   character_entities_path: works/raja-rani/characters/entities.json
   character_mapping_checkpoint: works/raja-rani/notes/character-entity-mapping.md
-  character_entities: 42
-  character_verified_entities: 42
+  character_entities: 44
+  character_verified_entities: 44
   character_review_entities: 0
   character_unresolved_entities: 0
-  character_verified_labels: 75
+  character_verified_labels: 80
   character_review_labels: 0
   character_unresolved_labels: 0
   song_authorship_mapping: complete-with-unresolved-authorship
@@ -88,8 +89,8 @@ status:
   translation_pilot_review_path: works/raja-rani/translations/PILOT_REVIEW.md
   translation_latest_batch_review_path: works/raja-rani/translations/BATCH_024_034_REVIEW.md
   translation_batch_policy: ten-eligible-verified-scenes-per-iteration
-  translation_eligible_scenes: 51
-  translation_blocked_scenes: 7
+  translation_eligible_scenes: 58
+  translation_blocked_scenes: 0
   translation_scenes_verified: 30
   translation_units: 715
   translation_verified_units: 715
@@ -102,21 +103,15 @@ status:
   translation_unit_kind_counts: {dialogue: 633, stage_direction: 78, song: 0, song_reference: 0, performance_cue: 2, chant: 0, written_text: 2}
   translation_front_matter_numbered_songs_expected: 11
   translation_front_matter_numbered_songs_started: 0
-  translation_next_scene_batch: "033,035-038,040-044"
+  translation_next_scene_batch: "011-013,033,035-040"
 scan_condition:
-  notes:
-    - pdf_page: 27
-      printed_page: 26
-      finding: faint/washed internal-monologue word remains unresolved as "⟦நீ?⟧"; page remains review
-    - pdf_page: 57
-      printed_page: 56
-      finding: line securely begins "என்னடா இது, முன்னுக்கு பின்..." but following compact colloquial word group remains unresolved after repeated high-resolution review; page remains review
-    - pdf_page: 74
-      printed_page: 73
-      finding: later ownership/address overprint beginning "K. N. சங்கரன்" physically obscures upper-right source text; overprint is non-canonical and hidden source text is not reconstructed; classified as irreducible source obstruction in supplied scan
+  notes: []
 resolved_during_fidelity_audit:
   - pdf_page: 4
     finding: earlier "⟦சாக சந் தானா?⟧" resolved by high-resolution scan review as unusual printed "சாக சந் தானா"; page verified
+  - pdf_page: 27
+    printed_page: 26
+    finding: user direct-scan review resolved the former uncertainty as exact "இரவெல்லாம்"; page verified and scenes 011-013 unblocked
   - pdf_page: 34
     printed_page: 33
     finding: earlier "⟦கேவா?⟧ கலர்" resolved as "கேவா கலர்"; printed "வால்ட்" and "சேப்பு" restored; page verified
@@ -128,13 +123,16 @@ resolved_during_fidelity_audit:
     finding: earlier "⟦புடி?⟧ புடாதே" resolved as printed "உடி புடாதே."; source-visible "ராசா:" / "ராஜ:" labels restored; page verified
   - pdf_page: 48
     printed_page: 47
-    finding: user direct-scan review resolved the two previously insecure spans before "சமரசம் வீடு" as "வந்தனா" and "திடீர்னு"; page is now verified and scene 33 is unblocked
+    finding: user direct-scan review resolved the two previously insecure spans before "சமரசம் வீடு" as "வந்தனா" and "திடீர்னு"; page verified and scene 033 unblocked
   - pdf_page: 51
     printed_page: 50
     finding: earlier "⟦லச்சிருக்கானே?⟧" resolved from rendered scan as "வச்சிருக்கானே!"
   - pdf_page: 52
     printed_page: 51
     finding: earlier "⟦டைகர் ஓல்டன்?⟧" resolved as printed "டைகர் ஓல்டன்" while surrounding பயிட் forms remain unchanged; page verified
+  - pdf_page: 57
+    printed_page: 56
+    finding: user direct-scan review resolved the final Samarasam phrase as "முன்னுக்கு பின் முரணாயிகிட்டே போவது?"; page verified and scene 039 unblocked
   - pdf_page: 61
     printed_page: 60
     finding: first-pass "சிட்டு கட்டு" corrected from rendered scan to "சீட்டு கட்டு"
@@ -155,7 +153,7 @@ resolved_during_fidelity_audit:
     finding: source-unlabelled line "சாந்தம், பாத்தியா உன் தம்பி செஞ்ச வேலையை?" restored without inventing a speaker label; return from சாக்ரடீஸ் performance verified after Babu arrest
   - pdf_page: 74
     printed_page: 73
-    finding: earlier "⟦எது இன்னோரத்தில லெட்டர்?⟧" resolved as "எது இந்நேரத்தில லெட்டர்?"; page remains review because of physical overprint obstruction
+    finding: user direct-scan review confirmed the `K. N. சங்கரன் ...` impression is a non-canonical ownership/library stamp; canonical screenplay continues directly from "ராஜா: விதவை." to "சாந்: வித்தாரக்கள்ளி! விநாசகாரி"; page verified and scenes 053-055 unblocked
   - pdf_page: 77
     printed_page: 76
     finding: earlier "⟦விதவை தாப்பா?⟧" resolved as "கதவை தாப்பாபோட்டுட்டு"; page verified
@@ -173,4 +171,6 @@ post_fidelity_corrections:
     finding: opening dialogue label normalized as "ராஜா:" was restored from fresh rendered-scan reinspection to source-visible "ராசா:"; running-text "ராஜா" forms elsewhere on the page remain unchanged
   - campaign: correction-005
     finding: user-led old-glyph comparison campaign was reconciled through canonical, scene, dialogue, character, song and existing English layers; durable reconciliation record is works/raja-rani/notes/correction-005-reconciliation.md
-next_action: "Translate the next 10 eligible verified Raja Rani scenes: 033, 035, 036, 037, 038, then 040-044; skip blocked scene 039. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
+  - campaign: final-source-review-resolution
+    finding: user direct-scan verdicts resolved the former PDF 27, 48, 57 and 74 limitations; all 79 canonical source pages and all 70 screenplay pages are now verified; durable record is works/raja-rani/notes/final-source-review-resolution.md
+next_action: "Translate the next 10 verified Raja Rani scenes in source order: 011, 012, 013, 033, 035, 036, 037, 038, 039, 040. All 58 archival scenes are now source-verified; no scene needs to be skipped. Preserve exact immutable dialogue links, source-unlabelled speech, stage/performance structure and physical page crossings; do not invent speakers, lyrics, scene endings or song authorship."
