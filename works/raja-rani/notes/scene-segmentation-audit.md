@@ -14,15 +14,18 @@ The booklet does **not** print numbered screenplay scenes. Therefore:
 
 The rendered scan remains controlling. The canonical page layer supplies the verified transcription used to interpret the structural evidence.
 
-## Eligibility rule
+## Eligibility rule — current
 
-The full screenplay has been visually audited, but PDF **27, 48, 57 and 74** remain review because the supplied scan cannot support complete verification there.
+The full screenplay has been visually audited and is now fully source-verified. Former review pages PDF 27, 48, 57 and 74 were subsequently resolved by direct scan review, with `r1.md`–`r4.md` used only as candidate comparison aids where applicable.
 
-Under `tamil-fidelity-gate-disposition.md`:
+Permanent direct-scan resolutions include:
 
-- the structural scene index may cover the entire screenplay;
-- a verified scene-text derivative may be produced only when the complete scene span is supported by verified Tamil;
-- any scene intersecting PDF 27, 48, 57 or 74 is `blocked-source-review` for verified scene-text output.
+- PDF 27 / printed p.26: `இரவெல்லாம்`;
+- PDF 48 / printed p.47: `வந்தனா` and `திடீர்னு`;
+- PDF 57 / printed p.56: `முன்னுக்கு பின் முரணாயிகிட்டே போவது?`;
+- PDF 74 / printed p.73: the later `K. N. சங்கரன் ...` ownership/address stamp is non-canonical and ignored; the screenplay continues directly from `ராஜா: விதவை.` to `சாந்: வித்தாரக்கள்ளி! விநாசகாரி!`.
+
+Accordingly, all 58 archival scene segments are eligible for verified scene-text, dialogue and English-translation derivatives.
 
 ## Accepted source-order transitions
 
@@ -38,9 +41,9 @@ Under `tamil-fidelity-gate-disposition.md`:
 | T008 | `raja-rani-s008` | 21 | 20 | கலெக்ஷன் ரூம் — பாபுவின் முயற்சி | source parenthetical collection-room transition | eligible |
 | T009 | `raja-rani-s009` | 21 | 20 | ராஜாவின் கார் / வீடு — ராணி | following bracketed transition: Rani leaves, enters Raja's car, Raja reaches home | eligible |
 | T010 | `raja-rani-s010` | 25 | 24 | பாபு சமரசத்திடம் பணம் கேட்பது | source `—★—` + parenthetical transition | eligible |
-| T011 | `raja-rani-s011` | 25 | 24 | சாந்தம் வீடு — பணமாலை | distinct source `—0—` transition | **blocked-source-review (PDF 27)** |
-| T012 | `raja-rani-s012` | 27 | 26 | ராஜா ராணியை இறக்கிவிடுதல் | source `—★—` + drop-off stage direction | **blocked-source-review (PDF 27)** |
-| T013 | `raja-rani-s013` | 27 | 26 | ராணியின் மனப் போராட்டம் | source `—0—` + `(வீட்டை நோக்கிச் செல்லும் ராணியின் மனப் போராட்டம்)` | **blocked-source-review (PDF 27)** |
+| T011 | `raja-rani-s011` | 25 | 24 | சாந்தம் வீடு — பணமாலை | distinct source `—0—` transition | eligible |
+| T012 | `raja-rani-s012` | 27 | 26 | ராஜா ராணியை இறக்கிவிடுதல் | source `—★—` + drop-off stage direction | eligible |
+| T013 | `raja-rani-s013` | 27 | 26 | ராணியின் மனப் போராட்டம் | source `—0—` + `(வீட்டை நோக்கிச் செல்லும் ராணியின் மனப் போராட்டம்)` | eligible |
 | T014 | `raja-rani-s014` | 28 | 27 | ஞானக்கண் வீடு — இரவு வராத ராணி | source parenthetical home confrontation transition | eligible |
 | T015 | `raja-rani-s015` | 28 | 27 | ராஜாவின் எலக்ட்ரிக் ஸ்டோர் — டைப்பிஸ்ட் வேலை | source `[ராஜாவின் எலக்ட்ரிக் ஸ்டோரில்]` / `டைப்பிஸ்ட் தேவை` transition | eligible |
 | T016 | `raja-rani-s016` | 30 | 29 | ராணி வீடு — வேலை கிடைத்த செய்தி | source `—★—` transition back to home | eligible |
@@ -60,13 +63,13 @@ Under `tamil-fidelity-gate-disposition.md`:
 | T030 | `raja-rani-s030` | 46 | 45 | பாபு ரெளடிகளைத் தூண்டுதல் | second source `—★—` | eligible |
 | T031 | `raja-rani-s031` | 46 | 45 | படுக்கைப் புரட்சி — கலகம் | third source `—★—` + source stage block | eligible |
 | T032 | `raja-rani-s032` | 46 | 45 | சமரசம் கலகத்தை அமைதிப்படுத்த முயற்சி | fourth source `—★—` | eligible |
-| T033 | `raja-rani-s033` | 46 | 45 | ஆற்றங்கரை — ராஜா / ராணி | fifth source `—★—`; post-riot Raja/Rani exchange | **blocked-source-review (PDF 48)** |
+| T033 | `raja-rani-s033` | 46 | 45 | ஆற்றங்கரை — ராஜா / ராணி | fifth source `—★—`; post-riot Raja/Rani exchange | eligible |
 | T034 | `raja-rani-s034` | 49 | 48 | பாபு ராணி வீட்டில் ஏற முயற்சி / சண்டை | standalone `★` + parenthetical transition | eligible |
 | T035 | `raja-rani-s035` | 52 | 51 | எலக்ட்ரிக் ஸ்டோர் — சண்டை பின்விளைவு | source `—★—` | eligible |
 | T036 | `raja-rani-s036` | 53 | 52 | ராணி வீடு — பாபு மோதல் / சமரசம்–சாந்தம் | source `—★—` + Raja drops Rani / Babu appears | eligible |
 | T037 | `raja-rani-s037` | 56 | 55 | ராணியும் சமரசமும் ராணி வீடு செல்லுதல் | first of three source `—★—` transitions on PDF 56 | eligible |
 | T038 | `raja-rani-s038` | 56 | 55 | சமரசத்தை முதலாளி என ஞானக்கண்ணுவிடம் அறிமுகப்படுத்துதல் | second source `—★—` + parenthetical summary | eligible |
-| T039 | `raja-rani-s039` | 56 | 55 | சாந்தம்–ராஜா சந்தேகம் / சமரசம்–சமையல்காரன் | third source `—★—` | **blocked-source-review (PDF 57)** |
+| T039 | `raja-rani-s039` | 56 | 55 | சாந்தம்–ராஜா சந்தேகம் / சமரசம்–சமையல்காரன் | third source `—★—` | eligible |
 | T040 | `raja-rani-s040` | 58 | 57 | ராணியின் தனக்குள் உரை / ராஜா உண்மை அறிதல் | source `—★—` | eligible |
 | T041 | `raja-rani-s041` | 59 | 58 | சாந்தம்–சமையல்காரன் தவறான புரிதல் | source `—★—` | eligible |
 | T042 | `raja-rani-s042` | 61 | 60 | பாபுவை நாடகக் கம்பெனியில் சேர்க்க சாந்தம் முயற்சி | first of three source `—★—` transitions on PDF 61 | eligible |
@@ -80,9 +83,9 @@ Under `tamil-fidelity-gate-disposition.md`:
 | T050 | `raja-rani-s050` | 66 | 65 | சாக்ரடீஸ் — கிரேக்க வீதி | source `—★—` + `★ சாக்ரடீஸ் (நாடகம்) ★` + street heading | eligible |
 | T051 | `raja-rani-s051` | 67 | 66 | சாக்ரடீஸ் — நீதி மன்றம் | explicit `★ நீதி மன்றம் ★` heading | eligible |
 | T052 | `raja-rani-s052` | 70 | 69 | சாக்ரடீஸ் — சிறை | explicit `★ சிறை ★` heading | eligible |
-| T053 | `raja-rani-s053` | 73 | 72 | மனப் போராட்டம் | source `—★—` after Babu arrest + explicit `(மனப் போராட்டம்)` return to parent film | **blocked-source-review (PDF 74)** |
-| T054 | `raja-rani-s054` | 74 | 73 | சமரசம்–ராஜா / ராணியின் கடிதம் | first source `—★—` on PDF 74 | **blocked-source-review (PDF 74)** |
-| T055 | `raja-rani-s055` | 74 | 73 | சமரசம் ராணி வீடு / ராஜா வருகை / ராணி இறந்ததாக நினைவு | second source `—★—` on PDF 74 | **blocked-source-review (PDF 74)** |
+| T053 | `raja-rani-s053` | 73 | 72 | மனப் போராட்டம் | source `—★—` after Babu arrest + explicit `(மனப் போராட்டம்)` return to parent film | eligible |
+| T054 | `raja-rani-s054` | 74 | 73 | சமரசம்–ராஜா / ராணியின் கடிதம் | first source `—★—` on PDF 74 | eligible |
+| T055 | `raja-rani-s055` | 74 | 73 | சமரசம் ராணி வீடு / ராஜா வருகை / ராணி இறந்ததாக நினைவு | second source `—★—` on PDF 74 | eligible |
 | T056 | `raja-rani-s056` | 77 | 76 | `(முன்)` — சமரசம் தற்கொலையைத் தடுக்கிறது | explicit source flashback marker `(முன்)` | eligible |
 | T057 | `raja-rani-s057` | 77 | 76 | நிகழ்காலம் — ராணி உயிருடன் / குடும்ப சமரசம் | source `—★—` returning from the flashback | eligible |
 | T058 | `raja-rani-s058` | 79 | 78 | தோட்டம் — இறுதி ராஜா / ராணி | explicit `★ தோட்டம் ★` heading | eligible |
@@ -91,24 +94,22 @@ Under `tamil-fidelity-gate-disposition.md`:
 
 - source-numbered scenes: **none**;
 - archival navigation segments: **58**;
-- scene-text eligible segments: **50**;
-- blocked scene-text segments: **8**;
-- blocked IDs: **`raja-rani-s011`, `s012`, `s013`, `s033`, `s039`, `s053`, `s054`, `s055`**;
-- review-page causes: PDF **27, 48, 57, 74**.
+- scene-text eligible segments: **58**;
+- blocked scene-text segments: **0**;
+- blocked IDs: **none**;
+- review-page causes: **none remaining**.
 
-The source-visible transition-only segments are intentionally retained instead of being silently merged into neighbouring dialogue scenes. This preserves the booklet's own compressed dramatic bridges (for example PDF 35, PDF 46, PDF 56, PDF 61 and PDF 66) and allows later zero-dialogue scene records where the source itself supplies only a transition/stage block.
+The source-visible transition-only segments are intentionally retained instead of being silently merged into neighbouring dialogue scenes. This preserves the booklet's own compressed dramatic bridges (for example PDF 35, PDF 46, PDF 56, PDF 61 and PDF 66) and allows zero-dialogue scene records where the source itself supplies only a transition/stage block.
 
 ## Embedded-performance disposition
 
 - `raja-rani-s004`–`s006`: embedded `சேரன் செங்குட்டுவன்` performance;
 - `raja-rani-s024`: `அகல்யா நாடக ஒத்திகை` (the segment ends only at the next source separator on PDF 42, so the post-rehearsal troupe exchange remains within this source-bounded segment);
 - `raja-rani-s050`–`s052`: embedded `சாக்ரடீஸ் (நாடகம்)` performance, continuing through the first part of PDF 73;
-- `raja-rani-s053`: verified structural return to parent-film `(மனப் போராட்டம்)` after Babu's arrest;
+- `raja-rani-s053`: structural return to parent-film `(மனப் போராட்டம்)` after Babu's arrest;
 - `raja-rani-s056`: source-marked `(முன்)` flashback inside the finale.
 
 ## Separator ownership policy
-
-For future scene-text files:
 
 - a boundary separator belongs to structural provenance and is not expanded into prose;
 - do not create synthetic `(Scene ends.)` text;
@@ -118,8 +119,16 @@ For future scene-text files:
 
 ## Gate result
 
-The scene segmentation/index gate is **complete**. Scene-text derivation may now begin for the **50 eligible segments**. The eight blocked segments remain represented structurally in the index but must not be promoted to verified scene-text records until their underlying review page is resolved from a stronger source.
+The scene segmentation/index gate is **complete** and the scene-text layer is **58/58 complete-verified**. No source-review scene remains blocked.
+
+## Current downstream checkpoint
+
+- verified Tamil scene derivatives: **58/58**;
+- immutable dialogue records: **1,076 across 58 scenes**;
+- exact source speaker labels: **80/80 dispositioned**;
+- character entities / roles / collectives: **44**, all verified;
+- English translation remains in progress and may now use every archival scene.
 
 ## Next activity
 
-Create verified Tamil scene-text derivatives for the eligible archival segments in meaningful source-order batches, beginning with the opening eligible run and preserving cross-page utterances/stage directions intact. Do not generate scene-text files for the blocked IDs.
+Continue English translation in the user-requested **10-scene iterations**, preserving exact immutable dialogue links, source-unlabelled speech, stage/performance structure and genuine physical page crossings. The next source-order batch is `s011`, `s012`, `s013`, `s033`, `s035`, `s036`, `s037`, `s038`, `s039`, `s040`.
