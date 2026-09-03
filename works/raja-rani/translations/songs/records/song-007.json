@@ -1,0 +1,59 @@
+{
+  "id": "raja-rani-song-en-007",
+  "song_id": "raja-rani-song-007",
+  "numbered_song_number": 7,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-007.md",
+    "tamil_status": "verified",
+    "pdf_pages": [7],
+    "printed_pages": [6],
+    "tamil_title": "மணிப்புறா!...புது மணிப் புறா!...",
+    "authorship_status": "anthology-attributed",
+    "lyricist_ta": "மு. கருணாநிதி",
+    "authorship_evidence_basis": "Later verified Kalaignar anthology item correspondence (`kalaignar-song-022`); not original-booklet primary-source item credit.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "Jewel-dove!... new jewel-dove!...",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [7],
+        "source_tamil_lines": [
+          "மணிப்புறா!...புது மணிப் புறா!...புத்தப்",
+          "புது மணிப் புறா!...நானே தான் (மணி)",
+          "மேவிடும் அன்பால் தாவிடும் உன்பால் நெஞ்சம்",
+          "பூ விரித்து அழைக்குது மஞ்சம்",
+          "பூமானே வாராய் கொஞ்சம் (மணி)",
+          "ரோஜாக் கொல்லை முல்லைத் தோட்டம்",
+          "எந்தன் முகந்தானே ராஜா உமக்கு நான் தான் ராணி",
+          "தருவேன் சுகந்தானே! (மணி)"
+        ],
+        "english_lines": [
+          "Jewel-dove!... new jewel-dove!... brand-",
+          "New jewel-dove!... that is me alone. (Mani)",
+          "With love that longs for you, my heart leaps toward you,",
+          "The flower-spread bed calls out,",
+          "Flower-deer, come a little closer. (Mani)",
+          "A rose grove, a mullai garden,",
+          "That is my very face, Raja; for you, I alone am Rani,",
+          "I shall give you delight indeed! (Mani)"
+        ],
+        "notes": [
+          "The source refrain cue `(மணி)` is retained as `(Mani)` rather than expanded.",
+          "`முல்லை` remains `mullai` to preserve the specific flower/cultural image instead of flattening it to generic jasmine.",
+          "The compact source phrase `எந்தன் முகந்தானே` is rendered conservatively as `that is my very face` without altering the Tamil."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The romantic flower/bird/deer imagery and direct Raja/Rani word-play are retained.",
+      "Authorship remains at later-anthology attribution tier."
+    ]
+  }
+}
