@@ -1,0 +1,61 @@
+{
+  "id": "raja-rani-song-en-005",
+  "song_id": "raja-rani-song-005",
+  "numbered_song_number": 5,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-005.md",
+    "tamil_status": "verified",
+    "pdf_pages": [7],
+    "printed_pages": [6],
+    "tamil_title": "வேலையில்லாத தொல்லை",
+    "authorship_status": "anthology-attributed",
+    "lyricist_ta": "மு. கருணாநிதி",
+    "authorship_evidence_basis": "Later verified Kalaignar anthology item correspondence (`kalaignar-song-020`); not original-booklet primary-source item credit.",
+    "performance_links": [
+      {"occurrence_id": "raja-rani-song-perf-002", "status": "verified", "scene": 16}
+    ]
+  },
+  "translation": {
+    "english_title": "The trouble of unemployment",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "தாண்டவன் பாடல்",
+        "english_label": "Thandavan song",
+        "pdf_pages": [7],
+        "source_tamil_lines": [
+          "வேலையில்லாத தொல்லை காலை பனி போலே நீங்கி போனதே...",
+          "நான் எண்ணாத நல் வாழ்வுதான் தன்னால் வந்து சேர்ந்ததே.",
+          "இன்ப நன்னாளிதே செல்வ பொன்னாளிதே...",
+          "ஆஹா ஆனந்தம் ஆனந்தமே...",
+          "முன்பின் அறியாதார் உறவால் என் மனம் போலவே",
+          "நலமே நானடைந்தேன் அன்பின் உருவாகவே",
+          "எந்தன் துயர் நீங்கவே நன்மை தந்திட வந்தார் இன்றே",
+          "என்னை சீமாட்டி என்றெண்ணி ஏமாந்தாரே",
+          "ஆஹா விந்தையிதே..."
+        ],
+        "english_lines": [
+          "The trouble of unemployment has vanished like morning mist...",
+          "A good life I never imagined has come to me of its own accord.",
+          "This is a fine day of joy, a golden day of fortune...",
+          "Aha—bliss, bliss indeed...",
+          "Through the bond of one I had never known before, just as my heart wished,",
+          "I have found well-being—in the very form of love,",
+          "Today he came bringing goodness so that my sorrow might leave,",
+          "He was deceived, thinking me a lady of wealth,",
+          "Aha—what a wonder this is..."
+        ],
+        "notes": [
+          "`சீமாட்டி` is rendered as a lady of wealth/status, preserving the plot's class-mistaken-identity irony rather than modernizing it to a job title."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The scene-16 performance link is retained as verified; the screenplay translation continues to contain only the source-visible singing cue, not a duplicate lyric body.",
+      "Authorship remains at later-anthology attribution tier."
+    ]
+  }
+}
