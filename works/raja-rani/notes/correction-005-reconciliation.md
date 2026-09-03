@@ -56,16 +56,27 @@ The following remain blocked because they intersect the bounded review/source-li
 - scene 039 — PDF 57.
 - scenes 053–055 — PDF 74.
 
-## Existing English records reconciled
+## Existing English records reconciled / audited
 
 - English scene 001: verified wording remains valid; source-fidelity note synchronized to corrected Tamil.
 - English scenes 002–005: Correction 005 English reconciliation completed without changing scene IDs, unit IDs, dialogue links or counts. The historical batch remains **98 units / 93 immutable dialogue links**. Source-visible anomalies and opaque forms are documented rather than silently normalized.
 - English scene 006: affected PDF-19 source correction reconciled without adding new translation work.
+- English scenes 007–010: Correction 005 source changes were audited. Existing English wording remains semantically valid; no translation-record rewrite is required. Scene 009 retains the contextual English stage reading for source-exact `போர்வையை விளக்க` without changing the canonical Tamil.
+- English scene 014: no Correction 005 translation change required.
+- English scene 016: PDF 30–31 changes are semantic-neutral in English; no translation-record rewrite required.
+- English scene 018: PDF 33–35 changes were audited and the existing English sense remains valid; no translation-record rewrite required.
+
+## Exact English-record fixes still pending
+
+1. **English scene 015 — `raja-rani-en-s015-u020` / source `raja-rani-s015-d016`:** corrected PDF 29 reads `காப்பி, சோடா, கிரஷ்`. The existing English still says `coffee, soda, refreshment`. Replace only `refreshment` with source-visible `Crush` (or equivalent explicit source-bearing rendering) and retain unit ID/link/provenance.
+2. **English scene 017 — `raja-rani-en-s017-u017` / source `raja-rani-s017-d016`:** translation metadata still has `speaker_label: தாயம்`; corrected immutable source label is exact `தர்யம்`. Change only the source metadata label to `தர்யம்`; English text, unit ID, source record ID and page provenance remain unchanged.
+
+The connected GitHub contents action currently supports whole-file replacement only for these minified scene JSON shards. Do not risk reserializing unrelated units merely to hide these two bounded pending corrections; keep them explicit until a safe source-preserving write is made.
 
 ## Remaining reconciliation gates
 
-1. **Existing English scenes 007–010 and 014–018** must be checked against the corrected Tamil source units and reconciled only where the Tamil changed. Do not expand translation coverage during this gate.
-2. Reconcile affected character mappings where source-exact speaker ownership/labels changed. In particular, audit the source-exact `தர்யம்` occurrence from scene 017 rather than normalizing it silently.
+1. Apply the two bounded English-record fixes above, then re-run the scene 014–018 translation integrity check.
+2. Reconcile affected character mappings where source-exact speaker ownership/labels changed. In particular, audit the source-exact `தர்யம்` occurrence from scene 017 and the scene 034 `ராணி` ownership correction rather than normalizing silently.
 3. Recheck song/performance links only where Correction 005 touched a linked cue or performance span; leave unrelated song authorship unchanged.
 4. Re-run translation QA plus dialogue/index/count consistency checks against the reconciled corpus.
 5. Synchronize the work README, relevant indexes/audits/status files, `data/works.json`, root status metadata, handover and next-chat prompt only after the reconciliation gates pass.
@@ -75,6 +86,6 @@ The following remain blocked because they intersect the bounded review/source-li
 
 Live `main` immediately before this note update:
 
-`16f26334f0b2389ab330c6cf552fa188fb4bb805` — `raja-rani: record English batch 002-005 reconciliation`
+`fd4afc1c51b26bb1b92d1550b861dedef085de46` — `raja-rani: advance English reconciliation through scene 6`
 
 This SHA is only a checkpoint. Live `main` remains authoritative if it advances.
