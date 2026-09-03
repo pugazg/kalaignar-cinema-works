@@ -16,7 +16,7 @@ Fetch live `main` first in every fresh chat. Preserve any newer durable state. D
 - canonical screenplay/dialogue range: PDF **10–79**, printed pp. **9–78**
 - PDF 80: unnumbered back cover
 
-Comparison extracts and OCR are review/navigation aids only. The rendered source scan controls canonical Tamil.
+Comparison files `r1.md`–`r4.md`, OCR and parsed PDF text are candidate/navigation aids only. The rendered source scan and recorded direct user scan verdicts control canonical Tamil.
 
 ## Mandatory startup
 
@@ -30,11 +30,12 @@ Read completely before changing anything:
 6. this handover
 7. `docs/NEXT_CHAT_PROMPT_RAJA_RANI.md`
 8. `works/raja-rani/README.md`
-9. `works/raja-rani/notes/post-fidelity-corrections.md`
-10. `works/raja-rani/notes/correction-005-reconciliation.md`
-11. `works/raja-rani/translations/README.md`
-12. `works/raja-rani/translations/index.json`
-13. the current batch's live Tamil scene files and immutable dialogue shards.
+9. `works/raja-rani/notes/final-source-review-resolution.md`
+10. `works/raja-rani/notes/post-fidelity-corrections.md`
+11. `works/raja-rani/notes/correction-005-reconciliation.md`
+12. `works/raja-rani/translations/README.md`
+13. `works/raja-rani/translations/index.json`
+14. the current batch's live Tamil scene files and immutable dialogue shards.
 
 ## Permanent source rules
 
@@ -42,47 +43,47 @@ Read completely before changing anything:
 - OCR/parsed PDF/comparison text are candidate readings only;
 - preserve user-reviewed occurrence-specific source verdicts and exact source speaker labels;
 - source-unlabelled speech remains unlabelled;
+- non-canonical ownership/library stamps are not screenplay text;
 - no global normalization or silent reconstruction;
-- translation never repairs Tamil uncertainty or upgrades song authorship.
+- translation never repairs Tamil or upgrades song authorship.
 
-## Current bounded source limitations
+## Final source-review state — fully closed
 
-Only **three** review pages remain:
+There are now **no review/source-blocked pages or scenes**.
 
-- PDF 27 / printed p.26;
-- PDF 57 / printed p.56;
-- PDF 74 / printed p.73.
+The final direct user scan verdicts are durable:
 
-Blocked scenes are therefore now only `s011`–`s013`, `s039`, `s053`–`s055`.
+- PDF 27: `இரவெல்லாம்`;
+- PDF 48: `வந்தனா`, `திடீர்னு`;
+- PDF 57: `முன்னுக்கு பின் முரணாயிகிட்டே போவது?`;
+- PDF 74: `K. N. சங்கரன் ...` is a non-canonical ownership/library stamp; canonical screenplay continues directly `ஞான: நீ விதவை.` → `ராஜா: விதவை.` → `சாந்: வித்தாரக்கள்ளி! விநாசகாரி`.
 
-### PDF 48 / scene 33 — resolved
+Durable record: `works/raja-rani/notes/final-source-review-resolution.md`.
 
-The user directly rechecked PDF 48 and authoritatively resolved the two previously insecure spans immediately before `சமரசம் வீடு` as:
+Current source census:
 
-- `வந்தனா`
-- `திடீர்னு`
-
-PDF 48 is now **verified**. `raja-rani-s033` is now a complete verified scene derivative with **57 immutable dialogue records**, including one genuine PDF 48→49 cross-page record. It introduces no new exact speaker-label string or character entity.
-
-Current non-translation census:
-
-- verified source pages: **76/79**, review: **3/79**;
-- verified screenplay pages: **67/70**, review: **3/70**;
-- archival scenes: **58**; eligible verified: **51**; blocked: **7**;
-- immutable dialogue records: **949**; cross-page: **12**;
-- exact speaker labels: **75/75**; entities/roles/collectives: **42**;
-- numbered songs: **11/11 Tamil derivatives**; screenplay singing refs: **4**; total song/performance occurrences: **15**;
+- verified source pages: **79/79**;
+- verified screenplay pages: **70/70**;
+- archival scenes: **58/58 verified**, blocked **0**;
+- immutable dialogue records: **1,076** across all 58 scenes;
+- zero-dialogue scenes: **16**;
+- genuine cross-page dialogue records: **12**;
+- exact speaker labels: **80/80**;
+- entities / roles / collectives: **44**, all verified;
+- numbered songs: **11/11 Tamil derivatives**; screenplay singing refs **4**; total occurrences **15**;
 - song authorship: **5 later-anthology Kalaignar attributions / 6 unresolved**.
+
+The final unblock added source scene/dialogue shards for `s011`–`s013`, `s039`, and `s053`–`s055`. Five new exact labels entered the complete dialogue census: `மனம்`, `நிழல்`, `ஞானக்கண் குரல்`, `ராஜாவின் குரல்`, and `சமரசம் குரல்`. `மனம்` and `நிழல்` are preserved as source-personified dramatic roles; the three explicit voice labels map downstream to established characters.
 
 ## Correction 005 — closed
 
-The late source-correction campaign has been reconciled through canonical Tamil, scenes, dialogue records, character labels/entities, affected song derivatives/metadata and all English records that predated reconciliation. Durable record: `works/raja-rani/notes/correction-005-reconciliation.md`.
+The late old-glyph/source correction campaign is reconciled through canonical Tamil, scenes, dialogue records, character labels/entities, affected song derivatives/metadata and the English records that existed during that gate. Durable record: `works/raja-rani/notes/correction-005-reconciliation.md`.
 
-Do not revert permanent source forms such as PDF 52's corrected `ராணி:` occurrence, PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, the final manually adjudicated PDF 76–79 forms, or the newly resolved PDF-48 forms `வந்தனா` / `திடீர்னு`.
+Do not revert permanent forms such as PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, scene-34 corrected `ராணி` ownership, final PDF 76–79 manual adjudications, or any of the final source-review verdicts above.
 
 ## English translation — current durable checkpoint
 
-Production policy requested by the user: **process 10 eligible verified scenes per iteration**. When a blocked scene is encountered, skip it and keep counting eligible scenes until the iteration contains 10 translated scenes.
+User production policy: **process 10 verified untranslated scenes per iteration in source order**.
 
 Completed verified translation scenes:
 
@@ -90,7 +91,7 @@ Completed verified translation scenes:
 
 Current totals after `BATCH_024_034_REVIEW.md`:
 
-- translated eligible scenes: **30 / 51**;
+- translated scenes: **30 / 58**;
 - verified English units: **715**;
 - immutable dialogue links: **622 / 622 expected in translated scenes**;
 - source-unlabelled spoken units: **11**;
@@ -99,25 +100,24 @@ Current totals after `BATCH_024_034_REVIEW.md`:
 - unit mix: **633 dialogue / 78 stage direction / 2 performance cue / 2 written text**;
 - front-matter numbered song translations started: **0/11**.
 
-The previous 10-scene iteration translated `s024`–`s032` plus `s034`. Scene 33 was correctly skipped at that time because PDF 48 was still review; it is now the first scene in the next batch.
+The previous batch translated `s024`–`s032` plus `s034`. Scenes that were blocked at that historical checkpoint are now eligible; do not skip them.
 
-## Exact next activity — next 10 eligible scenes
+## Exact next activity — 10 scenes
 
-Translate in source order:
+Translate, in source order:
 
-1. `raja-rani-s033`
-2. `raja-rani-s035`
-3. `raja-rani-s036`
-4. `raja-rani-s037`
-5. `raja-rani-s038`
-6. **skip blocked `raja-rani-s039`**
-7. `raja-rani-s040`
-8. `raja-rani-s041`
-9. `raja-rani-s042`
-10. `raja-rani-s043`
-11. `raja-rani-s044`
+1. `raja-rani-s011`
+2. `raja-rani-s012`
+3. `raja-rani-s013`
+4. `raja-rani-s033`
+5. `raja-rani-s035`
+6. `raja-rani-s036`
+7. `raja-rani-s037`
+8. `raja-rani-s038`
+9. `raja-rani-s039`
+10. `raja-rani-s040`
 
-This is **10 eligible translated scenes** because s039 is excluded.
+There is **no source-review skip**.
 
 For every scene:
 
@@ -128,7 +128,7 @@ For every scene:
 - retain genuine physical page crossings in one unit with provenance/page segments;
 - do not invent speakers, lyrics, authorship or scene endings.
 
-After all 10 eligible scenes are translated, create one batch review, update exact cumulative counts, and synchronize translation index/README, metadata, work README, this handover and the next-chat prompt before starting another iteration.
+After the 10 scenes are translated, create one batch review, verify exact cumulative counts, and synchronize translation index/README, metadata, work README, this handover and the next-chat prompt before starting another iteration.
 
 ## Shared repository mirrors
 
