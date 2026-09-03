@@ -61,19 +61,20 @@ Canonical source-order page layer: `pages/001.md`–`079.md`.
 Rendered-scan audit:
 
 - audited source pages: **79/79**
-- verified source pages: **75**
-- review source pages: **4 — PDF 27, 48, 57, 74**
+- verified source pages: **76**
+- review source pages: **3 — PDF 27, 57, 74**
 - audited screenplay pages: **70/70**
-- verified screenplay pages: **66/70**
-- review screenplay pages: **4/70**
+- verified screenplay pages: **67/70**
+- review screenplay pages: **3/70**
 - Tamil fidelity gate: **closed-with-source-limitations**
 
-Bounded source limitations remain unchanged:
+Bounded source limitations now remain only:
 
 - PDF 27 / printed p.26: faint/washed internal-monologue word remains `⟦நீ?⟧`.
-- PDF 48 / printed p.47: two short spans before `சமரசம் வீடு` remain visually insecure.
 - PDF 57 / printed p.56: one compact colloquial group after `என்னடா இது, முன்னுக்கு பின்...` remains unresolved.
 - PDF 74 / printed p.73: later `K. N. சங்கரன்` ownership/address overprint physically obscures original source text; hidden text is not reconstructed.
+
+PDF 48 / printed p.47 is no longer a review page. User direct-scan review resolved the two previously insecure spans immediately before `சமரசம் வீடு` as **`வந்தனா`** and **`திடீர்னு`**.
 
 Detailed fidelity history is retained in the visual-audit notes, `notes/tamil-fidelity-gate-disposition.md`, and `notes/post-fidelity-corrections.md`.
 
@@ -90,17 +91,19 @@ Permanent examples include PDF 72 **`சாக்ரடீசின்`**, scene
 Source-supported segmentation and verified derivatives are complete with review-source exclusions:
 
 - archival scene segments: **58**
-- eligible verified scene-text segments: **50**
-- blocked source-review segments: **8**
-- completed verified scene-text files: **50/50 eligible**
-- immutable dialogue records: **892** across all 50 eligible scenes
+- eligible verified scene-text segments: **51**
+- blocked source-review segments: **7**
+- completed verified scene-text files: **51/51 eligible**
+- immutable dialogue records: **949** across all 51 eligible scenes
 - zero-dialogue scenes: **15**
-- genuine cross-page dialogue records: **11**
+- genuine cross-page dialogue records: **12**
 - tracked source-label/delimiter anomalies: **3**
 - exact source speaker labels: **75/75 dispositioned**
 - entities / roles / collectives: **42**, all verified
 
-Blocked scenes remain `s011`–`s013` (PDF 27), `s033` (PDF 48), `s039` (PDF 57), and `s053`–`s055` (PDF 74).
+Scene 33 is now complete-verified and contains **57 immutable dialogue records**, including one genuine PDF 48→49 cross-page record. It introduces no new speaker-label string or character entity.
+
+Blocked scenes now remain `s011`–`s013` (PDF 27), `s039` (PDF 57), and `s053`–`s055` (PDF 74).
 
 ## Song/performance inventory and authorship gate
 
@@ -123,7 +126,7 @@ Source-linked English translation is under `translations/`.
 Current checkpoint after `BATCH_024_034_REVIEW.md`:
 
 - production policy: **10 eligible verified scenes per iteration**, skipping blocked scenes while continuing the eligible-scene count;
-- eligible verified scenes translated: **30/50**;
+- eligible verified scenes translated: **30/51**;
 - translated scenes: **1–10, 14–32, 34**;
 - verified English units: **715**;
 - immutable dialogue links: **622/622 expected in translated scenes**;
@@ -133,7 +136,7 @@ Current checkpoint after `BATCH_024_034_REVIEW.md`:
 - translated screenplay song/performance occurrences: **2**;
 - front-matter numbered song translations started: **0/11**.
 
-The latest 10-scene iteration translated `s024`–`s032` plus `s034`, skipping blocked `s033`. It added **232 units / 198 immutable dialogue links / 3 source-unlabelled spoken units / 31 stage directions**. Scene 28 preserves its source-unlabelled bureau-search line, and scene 34 preserves both unlabelled spoken spans plus the corrected `raja-rani-s034-d060` source label `ராணி`.
+The latest 10-scene iteration translated `s024`–`s032` plus `s034`; scene 33 was correctly skipped because PDF 48 was still unresolved at that time. It added **232 units / 198 immutable dialogue links / 3 source-unlabelled spoken units / 31 stage directions**. Scene 33 is now the first eligible scene in the next translation iteration.
 
 Translation does not modify canonical Tamil, immutable dialogue IDs, character entities or song-authorship dispositions.
 
@@ -142,14 +145,14 @@ Translation does not modify canonical Tamil, immutable dialogue IDs, character e
 - source intake: **complete**
 - structural mapping: **complete**
 - canonical Tamil first pass: **complete**
-- rendered-scan fidelity audit: **complete-with-source-limitations**
+- rendered-scan fidelity audit: **complete-with-source-limitations — 76 verified / 3 review**
 - Correction 005 content reconciliation / QA: **PASS**
 - scene segmentation/index: **complete — 58 segments**
-- verified scene-text derivatives: **complete — 50 eligible / 8 blocked**
-- dialogue index: **complete — 892 records**
+- verified scene-text derivatives: **complete — 51 eligible / 7 blocked**
+- dialogue index: **complete — 949 records**
 - character/entity index: **complete-verified — 75 labels / 42 entities**
 - song/performance authorship derivative: **complete-with-unresolved-authorship — 15 occurrences**
-- English translation: **in-progress-verified — 30/50 scenes / 715 units**
+- English translation: **in-progress-verified — 30/51 scenes / 715 units**
 
 `data/works.json` and the root README are shared repository mirrors and may lag this work-local checkpoint. The work-local indexes, metadata, reviews and Raja Rani handover are authoritative for current production until those shared mirrors can be safely synchronized.
 
@@ -170,6 +173,6 @@ Translation does not modify canonical Tamil, immutable dialogue IDs, character e
 
 Process the next **10 eligible verified scenes** for English translation:
 
-`raja-rani-s035`, `s036`, `s037`, `s038`, skip blocked `s039`, then `s040`, `s041`, `s042`, `s043`, `s044`, `s045`.
+`raja-rani-s033`, `s035`, `s036`, `s037`, `s038`, skip blocked `s039`, then `s040`, `s041`, `s042`, `s043`, `s044`.
 
 Preserve exact immutable dialogue links and source labels, source-unlabelled speech, stage/performance structure and physical page crossings. Do not invent speakers, lyrics, scene endings or authorship.
