@@ -2,7 +2,7 @@
 
 **Canonical authority:** verified Tamil scene derivatives, immutable dialogue records, and the separately verified song/performance layer  
 **Target language:** English (`en`)  
-**Status:** **in-progress-verified — 20 / 50 eligible verified scenes; 483 verified units**
+**Status:** **in-progress-verified — 30 / 50 eligible verified scenes; 715 verified units**
 
 This directory contains the source-linked English derivative of `ராஜா ராணி`. Nothing here repairs, modernizes, expands or overwrites the Tamil source layers.
 
@@ -19,7 +19,8 @@ Eight archival scenes remain outside English production because they intersect r
 - `BATCH_006_010_REVIEW.md` — verified review for scenes 6–10.
 - `BATCH_014_018_REVIEW.md` — verified review for scenes 14–18.
 - `BATCH_019_023_REVIEW.md` — verified review for scenes 19–23.
-- `records/scene-001.json` through `records/scene-010.json`, plus `records/scene-014.json` through `records/scene-023.json` — verified scene records, excluding blocked scenes 11–13.
+- `BATCH_024_034_REVIEW.md` — verified 10-eligible-scene review for scenes 24–32 and 34, skipping blocked scene 33.
+- verified scene records currently cover scenes 1–10, 14–32 and 34; blocked scenes are absent by design.
 
 The 11 numbered front-matter song bodies remain source structures outside the screenplay scene segmentation. They will be translated through a parallel song-linked translation set rather than being forced into invented scene IDs. Screenplay song references/performance cues may link to `songs/index.json` through `source_occurrence_id` when source evidence supports that relation.
 
@@ -39,66 +40,43 @@ The 11 numbered front-matter song bodies remain source structures outside the sc
 12. **Written material remains written text.** Letters, newspaper matter and similar source blocks are not converted into dialogue merely because a character reads or reacts to them.
 13. **Embedded dramas remain structurally distinct.** `சேரன் செங்குட்டுவன்`, the `அகல்யா` rehearsal and `சாக்ரடீஸ்` identities and registers are not collapsed into outer-film identities.
 14. **Blocked review-source scenes stay blocked.** English translation does not become a vehicle for reconstructing PDF 27, 48, 57 or 74.
+15. **Production batch size is now 10 eligible verified scenes per iteration.** Skip blocked scenes and continue counting eligible scenes until 10 have been processed.
 
-## Pilot and Batch 002–005
+## Verified batch history
 
-The scene-1 pilot established the voice rules with **11 verified units / 9 immutable dialogue links**. Scenes 2–5 then added **98 verified units** and **93/93** dialogue links, including three genuine cross-page units and the verified scene-4 performance link to `raja-rani-song-perf-001`.
+- Pilot scene 1: **11 units / 9 dialogue links**.
+- Scenes 2–5: **98 units / 93 dialogue links**.
+- Scenes 6–10: **125 units / 101 dialogue links**, including four source-unlabelled spoken units, two written-text units and one new cross-page unit.
+- Scenes 14–18: **153 units / 135 dialogue links**, including four source-unlabelled spoken units and one performance cue.
+- Scenes 19–23: **96 units / 86 dialogue links / 10 stage directions**, with two new genuine cross-page units.
+- Ten-eligible-scene batch 24–34: **232 units / 198 dialogue links / 3 source-unlabelled spoken units / 31 stage directions**; blocked scene 33 was skipped.
 
-See `PILOT_REVIEW.md` and `BATCH_002_005_REVIEW.md`.
+See the corresponding `BATCH_*_REVIEW.md` files for exact source-fidelity decisions and per-scene counts.
 
-## Batch 006–010 coverage
+## Batch 024–034 fidelity highlights
 
-Scenes `raja-rani-s006` through `raja-rani-s010` add **125 verified units**:
-
-- dialogue-kind: **105** — 101 immutable dialogue links + 4 source-unlabelled spoken units;
-- stage direction: **18**;
-- written text: **2**;
-- new song/performance units: **0**;
-- new genuine cross-page units: **1** — the newspaper letter in scene 9, PDF 22→23.
-
-The batch links all **101/101** immutable dialogue records in scenes 6–10. Scenes 8 and 10 correctly have zero immutable dialogue records but retain their verified source-visible stage/narrative content.
-
-## Batch 014–018 coverage
-
-After skipping blocked scenes 11–13, verified scenes 14–18 add **153 verified units**:
-
-- dialogue-kind: **139** — 135 immutable dialogue links + 4 source-unlabelled spoken units;
-- stage direction: **13**;
-- performance cue: **1** — scene 16, linked to `raja-rani-song-perf-002`;
-- written text: **0**;
-- new genuine cross-page units: **0**.
-
-All **135/135** immutable dialogue records in scenes 14–18 are linked. Post-Correction-005 reconciliation also keeps scene 15's source borrowing `கிரஷ்` visible as `Crush` in English and preserves the one-off exact source speaker label `தர்யம்` on scene 17 unit `raja-rani-en-s017-u017`; other `தாயம்` occurrences remain unchanged because they are separate source occurrences.
-
-See `BATCH_014_018_REVIEW.md` for the detailed checkpoint.
-
-## Batch 019–023 coverage
-
-Verified scenes 19–23 add **96 verified units**:
-
-- dialogue: **86** — all **86/86** immutable dialogue records in scenes 21 and 23;
-- stage direction: **10**;
-- source-unlabelled spoken units: **0**;
-- performance cue / written text / song: **0**;
-- new genuine cross-page units: **2** — scene 21's pigeon stage direction across PDF 35→36 and immutable dialogue `raja-rani-s021-d048` across PDF 37→38.
-
-Scenes 19, 20 and 22 legitimately contain no immutable dialogue records and remain one source-parenthetical/stage unit each. Scene 21 retains the repeated `நீ` address as `nee`, exact source label variants, and the peace/quarrel signboard wordplay without normalizing Tamil. Scene 23 preserves source-visible `டேட்`, the playful `ட்ராமா, கீமா`, and the `பாடம்` / `பணம்` contrast.
-
-See `BATCH_019_023_REVIEW.md` for the detailed checkpoint.
+- Scene 24 preserves the embedded `அகல்யா` rehearsal's exact source-label variants and does not complete the quoted Tirukkural fragment or the source's incomplete curse wording.
+- Scene 28 leaves `இந்தா! அது வச்சு இருந்தேனே. அது எங்கே?` source-unlabelled rather than assigning a contextual speaker, and preserves the `கண்ணு` cattle/eye wordplay without changing Tamil.
+- Scene 31 contains only the three printed labelled utterances; fight and escape action remain stage directions.
+- Scene 34 leaves two printed unlabelled spoken spans unlabelled and preserves corrected `raja-rani-s034-d060` with exact speaker label `ராணி`.
 
 ## Current cumulative state
 
-- eligible verified scenes translated: **20/50**;
-- verified English units: **483**;
-- unit mix: **432 dialogue / 47 stage direction / 2 performance cues / 2 written text**;
-- immutable dialogue records linked in translated scenes: **424/424**;
-- source-unlabelled spoken units: **8**;
+- eligible verified scenes translated: **30/50**;
+- verified English units: **715**;
+- unit mix: **633 dialogue / 78 stage direction / 2 performance cues / 2 written text**;
+- immutable dialogue records linked in translated scenes: **622/622**;
+- source-unlabelled spoken units: **11**;
 - cross-page English units: **6**;
 - translated screenplay song/performance occurrences: **2**;
 - front-matter numbered song translations started: **0/11**;
 - canonical Tamil modified by translation: **no**;
 - scene/dialogue/character/song source derivatives modified by translation: **no**.
 
-## Next batch
+## Next 10-scene iteration
 
-Translate verified `raja-rani-s024` through `raja-rani-s028` in source order. Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings. Scene 27 legitimately has zero immutable dialogue records. Do not invent speakers, lyrics, scene endings or authorship.
+Translate the next **10 eligible verified scenes** in source order:
+
+`raja-rani-s035`, `s036`, `s037`, `s038`, then skip blocked `s039`, and continue with `s040`, `s041`, `s042`, `s043`, `s044`, `s045`.
+
+Preserve exact dialogue linkage, source-unlabelled speech, stage/performance structure and physical page crossings. Do not invent speakers, lyrics, scene endings or authorship.
