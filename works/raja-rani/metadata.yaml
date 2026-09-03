@@ -21,7 +21,7 @@ status:
   verified_tamil_pages: 70
   screenplay_fidelity_verified_pages: 70
   screenplay_fidelity_review_pages: 0
-  structured_derivatives: english-screenplay-translation-complete-verified
+  structured_derivatives: bilingual-text-complete-verified-reader-export-next
   scene_segmentation: complete
   scene_segmentation_audit_path: works/raja-rani/notes/scene-segmentation-audit.md
   scene_index_path: works/raja-rani/scenes/index.json
@@ -84,7 +84,7 @@ status:
   song_original_source_item_level_lyricist_credits: 0
   song_tamil_derivatives: complete-verified
   song_tamil_derivative_files: 11
-  english_translation: screenplay-complete-verified
+  english_translation: complete-verified
   translation_schema_path: works/raja-rani/translations/schema.json
   translation_index_path: works/raja-rani/translations/index.json
   translation_pilot_review_path: works/raja-rani/translations/PILOT_REVIEW.md
@@ -104,9 +104,17 @@ status:
   translation_song_performance_occurrences_linked: 4
   translation_unit_kind_counts: {dialogue: 1090, stage_direction: 137, song: 0, song_reference: 0, performance_cue: 4, chant: 0, written_text: 5}
   translation_front_matter_numbered_songs_expected: 11
-  translation_front_matter_numbered_songs_started: 0
-  translation_front_matter_numbered_songs_verified: 0
+  translation_front_matter_numbered_songs_started: 11
+  translation_front_matter_numbered_songs_verified: 11
+  translation_front_matter_numbered_songs_status: complete-verified
+  translation_front_matter_numbered_songs_index_path: works/raja-rani/translations/songs/index.json
+  translation_front_matter_numbered_songs_qa_path: works/raja-rani/translations/songs/FINAL_NUMBERED_SONG_TRANSLATION_QA.md
+  translation_front_matter_numbered_song_sections: 67
+  translation_front_matter_numbered_song_source_line_cues: 181
+  translation_front_matter_numbered_song_english_line_cues: 181
   translation_next_scene_batch: null
+  english_reader_export: not-started
+  reading_room_integration: not-started
 scan_condition:
   notes: []
 resolved_during_fidelity_audit:
@@ -178,4 +186,4 @@ post_fidelity_corrections:
     finding: user direct-scan verdicts resolved the former PDF 27, 48, 57 and 74 limitations; all 79 canonical source pages and all 70 screenplay pages are now verified; durable record is works/raja-rani/notes/final-source-review-resolution.md
   - campaign: t055-t056-boundary-correction
     finding: final English QA found and removed duplicate derivative ownership of the `(முன்)` flashback; scene 055 now ends before T056, dialogue corpus is 1071 unique records, and canonical pages are unchanged
-next_action: "Translate the 11 verified numbered front-matter song bodies in source order through a dedicated source-linked English song translation layer. Preserve exact Tamil lyric text, page provenance, existing performance relations and authorship tiers; do not infer unresolved lyricists."
+next_action: "Build and QA a deterministic Raja Rani whole-work bilingual reader/export from the complete-verified screenplay and 11 numbered-song English layers, then prepare source-linked Reading Room integration data. Do not create a standalone PDF or EPUB by default."
