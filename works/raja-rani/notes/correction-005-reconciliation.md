@@ -56,14 +56,15 @@ The following remain blocked because they intersect the bounded review/source-li
 - scene 039 — PDF 57.
 - scenes 053–055 — PDF 74.
 
-## Existing English records already reconciled
+## Existing English records reconciled
 
 - English scene 001: verified wording remains valid; source-fidelity note synchronized to corrected Tamil.
-- English scene 006: affected source correction reconciled without adding new translation work.
+- English scenes 002–005: Correction 005 English reconciliation completed without changing scene IDs, unit IDs, dialogue links or counts. The historical batch remains **98 units / 93 immutable dialogue links**. Source-visible anomalies and opaque forms are documented rather than silently normalized.
+- English scene 006: affected PDF-19 source correction reconciled without adding new translation work.
 
 ## Remaining reconciliation gates
 
-1. **Existing English scenes 002–005, 007–010 and 014–018** must be checked against the corrected Tamil source units and reconciled only where the Tamil changed. Do not expand translation coverage during this gate.
+1. **Existing English scenes 007–010 and 014–018** must be checked against the corrected Tamil source units and reconciled only where the Tamil changed. Do not expand translation coverage during this gate.
 2. Reconcile affected character mappings where source-exact speaker ownership/labels changed. In particular, audit the source-exact `தர்யம்` occurrence from scene 017 rather than normalizing it silently.
 3. Recheck song/performance links only where Correction 005 touched a linked cue or performance span; leave unrelated song authorship unchanged.
 4. Re-run translation QA plus dialogue/index/count consistency checks against the reconciled corpus.
@@ -72,8 +73,8 @@ The following remain blocked because they intersect the bounded review/source-li
 
 ## Current checkpoint
 
-Live `main` immediately before this note refresh:
+Live `main` immediately before this note update:
 
-`9a9109d02b1825db03a4eefd72da76ba1e8306c2` — `raja-rani: reconcile scene 23 dialogue records`
+`16f26334f0b2389ab330c6cf552fa188fb4bb805` — `raja-rani: record English batch 002-005 reconciliation`
 
 This SHA is only a checkpoint. Live `main` remains authoritative if it advances.
