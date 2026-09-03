@@ -1,4 +1,4 @@
-# Next Chat Prompt — Raja Rani English Translation Batch 019–023
+# Next Chat Prompt — Raja Rani English Translation — Next 10 Eligible Scenes
 
 Continue directly in:
 
@@ -37,70 +37,94 @@ Before any write, read completely:
 10. `works/raja-rani/notes/correction-005-reconciliation.md`
 11. `works/raja-rani/translations/README.md`
 12. `works/raja-rani/translations/index.json`
-13. the source scene files and dialogue shards for scenes 19–23.
+13. the live Tamil scene files and immutable dialogue shards for the next 10 eligible scenes.
 
-## Correction 005 is reconciled
+## Source/reconciliation state
 
-Do **not** reopen the completed late manual correction campaign merely because an older prompt or checkpoint says it was pending.
+Correction 005 is reconciled. Do **not** reopen the completed manual correction campaign merely because an older document says it was pending.
 
-Current synchronized downstream census:
+Current synchronized source/derivative census:
 
 - dialogue: **892 records / 50 eligible scenes / 8 blocked**;
 - character mapping: **75/75 exact labels / 42 entities**;
-- songs/performance: **11 numbered songs + 4 screenplay references = 15 occurrences**; authorship remains 5 anthology-attributed / 6 unresolved;
-- English translation: **15/50 eligible scenes / 387 verified units / 338/338 immutable dialogue links**.
+- songs/performance: **11 numbered songs + 4 screenplay references = 15 occurrences**; authorship remains 5 later-anthology Kalaignar-attributed / 6 unresolved;
+- English translation: **30/50 eligible scenes / 715 verified units / 622/622 immutable dialogue links**.
 
-Permanent corrected forms include PDF 72 **`சாக்ரடீசின்`**, scene-17 exact label **`தர்யம்`**, and the final manually adjudicated PDF 76–79 forms recorded in `notes/correction-005-reconciliation.md`. Do not normalize or revert them.
+Permanent source forms include PDF 72 `சாக்ரடீசின்`, scene-17 exact label `தர்யம்`, corrected scene-34 `ராணி` ownership, and the final manually adjudicated PDF 76–79 forms. Do not normalize or revert them.
 
-The bounded review/source-limited pages remain PDF **27, 48, 57 and 74**. Their blocked scenes remain excluded:
+Review/source-limited pages remain PDF **27, 48, 57 and 74**. Blocked scenes remain:
 
 - `s011`–`s013`;
 - `s033`;
 - `s039`;
 - `s053`–`s055`.
 
-## EXACT NEXT ACTIVITY
+## USER-REQUESTED BATCH POLICY
 
-Translate verified archival scenes:
+Process **10 eligible verified scenes in each translation iteration**.
 
-**`raja-rani-s019` through `raja-rani-s023`**
+A blocked scene does **not** count toward the 10. Skip it and continue forward until 10 eligible scenes have been translated.
 
-in source order.
+## EXACT NEXT ACTIVITY — 10 eligible scenes
+
+Translate, in source order:
+
+1. `raja-rani-s035`
+2. `raja-rani-s036`
+3. `raja-rani-s037`
+4. `raja-rani-s038`
+5. **skip blocked `raja-rani-s039`**
+6. `raja-rani-s040`
+7. `raja-rani-s041`
+8. `raja-rani-s042`
+9. `raja-rani-s043`
+10. `raja-rani-s044`
+11. `raja-rani-s045`
+
+This produces exactly **10 eligible translated scenes**.
 
 For every scene:
 
-- use the verified Tamil scene derivative as the translation text authority;
-- link every source-labelled utterance to its immutable dialogue record exactly once;
-- preserve the exact source `speaker_label` in translation metadata;
-- keep source-unlabelled speech unlabelled with null speaker/source record rather than inferring ownership;
+- use the verified Tamil scene derivative as translation authority;
+- link every explicitly source-labelled utterance to its immutable dialogue record exactly once;
+- preserve exact source `speaker_label` metadata;
+- keep source-unlabelled speech null-speaker/null-record instead of inferring ownership;
 - represent source-visible stage directions separately;
 - retain genuine cross-page units as one translation unit with page provenance / page segments;
-- represent written text as written text, not invented dialogue;
-- represent song/performance cues only to the extent printed and link to the song occurrence when the existing verified song layer supports it;
+- keep written text, chants and performance cues structurally distinct when present;
+- link song/performance occurrences only where the verified song layer supports the relation and only to the extent printed;
 - do not invent missing lyrics, speakers, scene endings or authorship;
-- do not modify canonical Tamil, scene text, immutable dialogue IDs or character entities merely to make English smoother.
+- do not modify canonical Tamil, scenes, immutable dialogue IDs, character entities or song authorship to make English smoother.
 
-## Current translation checkpoint
+## Current translation checkpoint before this iteration
 
-Verified translated scenes:
+Completed verified scenes:
 
-- scenes 1–10;
-- scenes 14–18.
+**1–10, 14–32, 34**
 
-Cumulative totals before Batch 019–023:
+Totals:
 
-- scenes: **15/50**;
-- translation units: **387 verified**;
-- dialogue units: **346**;
-- stage-direction units: **37**;
+- scenes: **30/50**;
+- translation units: **715 verified**;
+- dialogue units: **633**;
+- stage-direction units: **78**;
 - performance-cue units: **2**;
 - written-text units: **2**;
-- immutable dialogue links: **338/338**;
-- source-unlabelled spoken units: **8**;
-- cross-page translation units: **4**.
+- immutable dialogue links: **622/622**;
+- source-unlabelled spoken units: **11**;
+- cross-page translation units: **6**.
 
-After completing scenes 19–23, create/update a `BATCH_019_023_REVIEW.md` review with exact batch and cumulative counts, then synchronize `translations/index.json`, `translations/README.md`, the work-level status, handover and this prompt before proceeding to another batch.
+Latest review: `works/raja-rani/translations/BATCH_024_034_REVIEW.md`.
+
+After completing all 10 eligible scenes in this iteration:
+
+1. verify sequential unit IDs and exact dialogue-link coverage scene by scene;
+2. record all new source-unlabelled, cross-page, written/performance units;
+3. create one batch review for the 10 eligible scenes;
+4. synchronize `translations/index.json` and `translations/README.md` with exact cumulative counts;
+5. synchronize `works/raja-rani/metadata.yaml`, work README, handover and this prompt;
+6. set the following activity to the next 10 eligible verified scenes.
 
 ## Old-glyph/source rule remains active
 
-If a source reading becomes disputed while translating, English fluency is not evidence for changing Tamil. Rendered scan evidence and already-recorded user manual verdicts control. Preserve occurrence-specific source forms and never silently modernize them.
+If a source reading becomes disputed while translating, English fluency is not evidence for changing Tamil. Rendered scan evidence and already-recorded user manual verdicts control. Preserve occurrence-specific forms and never silently modernize them.
