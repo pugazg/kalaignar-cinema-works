@@ -1,0 +1,63 @@
+name: Raja Rani bilingual reader QA and build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "works/raja-rani/translations/index.json"
+      - "works/raja-rani/translations/records/**"
+      - "works/raja-rani/translations/songs/index.json"
+      - "works/raja-rani/translations/songs/records/**"
+      - "works/raja-rani/scenes/**"
+      - "works/raja-rani/dialogues/records/**"
+      - "works/raja-rani/songs/index.json"
+      - "works/raja-rani/songs/inventory.json"
+      - "works/raja-rani/songs/tamil/**"
+      - "works/raja-rani/editions/en/audit_probe.py"
+      - "works/raja-rani/editions/en/build.py"
+      - ".github/workflows/raja-rani-bilingual-reader.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  reader-qa-and-build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run whole-work bilingual reader preflight
+        run: python works/raja-rani/editions/en/audit_probe.py
+
+      - name: Build and validate deterministic bilingual reader exports
+        run: python works/raja-rani/editions/en/build.py
+
+      - name: Commit generated reader package
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            works/raja-rani/editions/en/PREFLIGHT_QA_REPORT.md \
+            works/raja-rani/editions/en/reader-edition.md \
+            works/raja-rani/editions/en/reader-edition.html \
+            works/raja-rani/editions/en/reader-edition.json \
+            works/raja-rani/editions/en/QA_REPORT.md \
+            works/raja-rani/editions/en/manifest.json
+          if git diff --cached --quiet; then
+            echo "Reader outputs are already reproducible; nothing to commit."
+          else
+            git commit -m "Build Raja Rani bilingual reader package [skip ci]"
+            git push
+          fi
