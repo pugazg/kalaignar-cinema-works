@@ -1,7 +1,7 @@
 {
   "work_id": "raja-rani",
-  "status": "reconciliation-pending",
-  "phase": "entity-mapping-reconciliation",
+  "status": "complete-verified",
+  "phase": "entity-mapping-complete",
   "dialogue_index": "../dialogues/index.json",
   "schema": "schema.json",
   "label_inventory": "labels-inventory.json",
@@ -24,15 +24,15 @@
   "verified_entities": 42,
   "review_entities": 0,
   "unresolved_entities": 0,
-  "verified_labels": 74,
-  "review_labels": 1,
+  "verified_labels": 75,
+  "review_labels": 0,
   "unresolved_labels": 0,
-  "review_source_labels": ["தர்யம்"],
+  "review_source_labels": [],
   "unresolved_source_labels": [],
-  "label_coverage": "74/75",
-  "remaining_unmapped_labels": 1,
+  "label_coverage": "75/75",
+  "remaining_unmapped_labels": 0,
   "label_inventory_status": "complete-inventory",
-  "entity_mapping_status": "correction-005-reconciliation-pending",
+  "entity_mapping_status": "complete-verified",
   "dialogue_records_modified": false,
-  "next_activity": "Map the new exact source label `தர்யம்` from scene 017 to the already verified தாயம்மாள் entity without normalizing the label; then restore complete 75/75 coverage. The scene-034 ராஜா→ராணி ownership correction introduces no new label or entity."
+  "next_activity": "Continue Correction 005 downstream reconciliation: close the two bounded English-record fixes (scene 015 `கிரஷ்` and scene 017 exact `தர்யம்` metadata), then recheck affected song/performance links without changing unrelated authorship."
 }
