@@ -1,0 +1,100 @@
+{
+  "id": "raja-rani-song-en-001",
+  "song_id": "raja-rani-song-001",
+  "numbered_song_number": 1,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-001.md",
+    "tamil_status": "verified",
+    "pdf_pages": [4],
+    "printed_pages": [],
+    "tamil_title": "ஆனந்த நிலை பெறுவோம்—எல்லோரும்",
+    "authorship_status": "unresolved",
+    "lyricist_ta": null,
+    "authorship_evidence_basis": "No item-level lyricist is printed for song 1; the PDF-9 lyricist roster is film-wide and unmapped.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "Let us attain a state of bliss—all of us",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "(1) ஆனந்த நிலை பெறுவோம்—எல்லோரும்",
+          "அன்புடனே சமாதானம் காணுவோம் (ஆ)"
+        ],
+        "english_lines": [
+          "(1) Let us attain a state of bliss—all of us,",
+          "With love, let us find peace. (Aa)"
+        ],
+        "notes": ["The source refrain cue `(ஆ)` is retained as `(Aa)` rather than expanded."]
+      },
+      {
+        "ordinal": 2,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "வீணான பேதங்களும்—பகை",
+          "விளையும் பொறாமைகளும்—நெஞ்சில்",
+          "வீணான பேதங்களும்—பகை",
+          "விளையும் பொறாமைகளும்—புவி",
+          "தனைநீங்கியே—சாந்தி தழைத்தோங்கியே (ஆ)"
+        ],
+        "english_lines": [
+          "Futile divisions—and enmity,",
+          "Jealousies that breed—in the heart,",
+          "Futile divisions—and enmity,",
+          "Jealousies that breed—upon the earth,",
+          "Let them depart—let peace flourish and grow. (Aa)"
+        ],
+        "notes": ["The repeated construction is preserved rather than compressed."]
+      },
+      {
+        "ordinal": 3,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "சாந்தம் சமரசம் போல் இணையாகவே",
+          "வாழ்ந்திடும் மாந்தரின் இல்லறம் தன்னிலே"
+        ],
+        "english_lines": [
+          "Like Santham and Samarasam, living together as a pair,",
+          "Within the household life of human beings—"
+        ],
+        "notes": ["The source-visible names Santham and Samarasam are preserved rather than translated into abstract concepts."]
+      },
+      {
+        "ordinal": 4,
+        "source_label": null,
+        "english_label": null,
+        "pdf_pages": [4],
+        "source_tamil_lines": [
+          "தீதான சந்தேகமே—உரு",
+          "வானால் எந்நாளிலுமே—பெரும்",
+          "தீதான சந்தேகமே—உரு",
+          "வானால் எந்நாளிலுமே—இன்பம்",
+          "காணாமலே—வாழ்வு வீணாகுமே (ஆ)"
+        ],
+        "english_lines": [
+          "If harmful suspicion takes—",
+          "Form, at any time—great,",
+          "If harmful suspicion takes—",
+          "Form, at any time—joy,",
+          "Will go unseen—and life will be wasted. (Aa)"
+        ],
+        "notes": ["The verified booklet splits `உரு / வானால்`; the English keeps the interrupted lineation visible without altering the Tamil."]
+      }
+    ],
+    "translator_notes": [
+      "Literary source-faithful translation; not a singable adaptation.",
+      "Authorship remains unresolved."
+    ]
+  }
+}
