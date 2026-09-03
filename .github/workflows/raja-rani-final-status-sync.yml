@@ -1,0 +1,50 @@
+name: Raja Rani final repository status sync
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/raja-rani-final-status-sync.yml"
+      - "works/raja-rani/integrations/reading-room/sync_status.py"
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Synchronize Raja Rani current status surfaces
+        run: python works/raja-rani/integrations/reading-room/sync_status.py
+
+      - name: Verify changes stay inside this repository
+        shell: bash
+        run: |
+          test "$(git remote get-url origin)" = "https://github.com/pugazg/kalaignar-cinema-works"
+          git status --short
+
+      - name: Commit synchronized status to this repository only
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Raja Rani status is already synchronized; nothing to commit."
+          else
+            git commit -m "Synchronize Raja Rani completed repository status [skip ci]"
+            git push origin HEAD:main
+          fi
