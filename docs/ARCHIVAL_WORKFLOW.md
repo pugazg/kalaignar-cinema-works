@@ -50,6 +50,12 @@ For each page:
 5. Add page anchors so the text remains traceable to PDF and printed pagination.
 6. Mark doubtful readings explicitly; do not guess.
 
+### Old-typeface rule
+
+When the source uses older Tamil typeforms, do not resolve disputed characters from OCR, parsed PDF text, modern spelling expectations or semantic plausibility. Enlarge the rendered scan and read the token glyph by glyph. Preserve occurrence-specific variants. If the glyph remains insecure, keep it under review instead of choosing the most familiar-looking word.
+
+A user's explicit manual verdict from direct inspection of the controlling scan is a source-review decision for that occurrence and must not be silently overridden by OCR or a prior assistant reading.
+
 ## 4. Fidelity audit
 
 A page may move to `verified` only after a separate visual comparison against the scan.
@@ -64,6 +70,14 @@ Audit checks include:
 - song/verse line breaks where meaningful;
 - page-boundary continuity.
 
+High-risk old-typeface disputes should be reviewed at sufficient enlargement. Agreement between OCR and a plausible reading is not by itself visual verification.
+
+### Post-fidelity correction rule
+
+A `verified` page can still receive a later source-backed correction. Record the correction explicitly.
+
+If derivative layers already exist when canonical Tamil changes, immediately mark the affected derivatives **reconciliation-pending**. Do not continue downstream production until the corrected source spans have been reconciled through every affected layer.
+
 ## 5. Structured derivatives
 
 Only after the underlying Tamil is verified may it be reorganized into:
@@ -77,6 +91,8 @@ Only after the underlying Tamil is verified may it be reorganized into:
 
 Derivatives must point back to canonical source pages and must never silently replace source wording.
 
+When canonical source text changes after derivative creation, reconcile affected derivatives from the corrected canonical text. Preserve stable IDs and provenance where the underlying source unit is unchanged; do not regenerate unrelated material merely for style.
+
 ## 6. Authorship gate for songs and mixed-credit material
 
 Cinema booklets may credit multiple lyricists or writers. A song appearing inside a Kalaignar-credited dialogue booklet is **not automatically a Kalaignar lyric**.
@@ -88,6 +104,8 @@ Song-specific files require an explicit authorship field with a source. If the b
 English translation is blocked until the corresponding Tamil transcription is `verified`.
 
 Translations are interpretive derivatives and must never be used to repair or retroactively normalize the Tamil source layer.
+
+If canonical Tamil is corrected after translation has started, pause translation expansion and reconcile every affected translated unit before resuming.
 
 ## 8. Publication and Reading Room integration
 
@@ -113,5 +131,6 @@ For **`திரும்பிப்பார்!`**, the intended Reading Room
 - `draft`
 - `review`
 - `verified`
+- `reconciliation-pending`
 
-A work may have separate statuses for mapping, transcription, fidelity review, song attribution, translation, reader integration, and publication derivatives.
+A work may have separate statuses for mapping, transcription, fidelity review, song attribution, translation, reader integration, and publication derivatives. A downstream layer that predates a later canonical correction may be `reconciliation-pending` even if its previous checkpoint was `complete` or `verified`.
