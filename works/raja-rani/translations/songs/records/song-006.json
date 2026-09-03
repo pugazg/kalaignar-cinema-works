@@ -1,0 +1,61 @@
+{
+  "id": "raja-rani-song-en-006",
+  "song_id": "raja-rani-song-006",
+  "numbered_song_number": 6,
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {
+    "tamil_song_file": "works/raja-rani/songs/tamil/song-006.md",
+    "tamil_status": "verified",
+    "pdf_pages": [7],
+    "printed_pages": [6],
+    "tamil_title": "ஆழிசூழ் உலகம் விடிந்த தென்று—என்",
+    "authorship_status": "anthology-attributed",
+    "lyricist_ta": "மு. கருணாநிதி",
+    "authorship_evidence_basis": "Later verified Kalaignar anthology item correspondence (`kalaignar-song-021`); not original-booklet primary-source item credit.",
+    "performance_links": []
+  },
+  "translation": {
+    "english_title": "Saying the ocean-girt world had dawned—",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_label": "விருத்தம்",
+        "english_label": "Viruttam",
+        "pdf_pages": [7],
+        "source_tamil_lines": [
+          "ஆழிசூழ் உலகம் விடிந்த தென்று—என்",
+          "ஆருயிர் மணவாளரை எழுப்பிவிட்டு",
+          "கோழிபோல் கொக்கரித்து என் கற்பையும்",
+          "கொத்திவிட்டாய் கொடியவனே! படுபாவி",
+          "ஊழிபோல் வந்திங்கு ஆடிவிட்டாய் உடைந்த",
+          "தாழிபோல் ஆகிவிட்டேன்—இனி",
+          "ஒரு கணம் இந்த உயிர் நில்லுமோ",
+          "கற்புக்கு இலக்கணம் சொல்லுமோ சொல்லுமோ...",
+          "எந்தன் உயிர் நில்லுமோ"
+        ],
+        "english_lines": [
+          "Saying the ocean-girt world had dawned—you",
+          "Woke my dearly beloved bridegroom,",
+          "Crowing like a rooster, even my chastity",
+          "You pecked away, cruel one! Great sinner!",
+          "You came here like the world-ending deluge and raged; like a broken",
+          "Earthen thaazhi I have become—now,",
+          "Will this life remain even for a moment?",
+          "Will it speak the grammar of chastity—will it, will it?...",
+          "Will my life remain?"
+        ],
+        "notes": [
+          "`ஊழி` is rendered with its catastrophic/world-ending force rather than as ordinary time.",
+          "`தாழி` is retained transliterated within `earthen thaazhi` because the specific vessel image is more precise than a generic `pot`.",
+          "The striking source metaphor `கற்புக்கு இலக்கணம்` is preserved as `the grammar of chastity` rather than paraphrased away."
+        ]
+      }
+    ],
+    "translator_notes": [
+      "The lament's violence, chastity language and broken-vessel imagery are preserved without euphemism.",
+      "Authorship remains at later-anthology attribution tier; the original booklet's wording remains controlling where witnesses differ."
+    ]
+  }
+}
