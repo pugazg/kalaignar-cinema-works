@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari English-translation completion checkpoint.**
+**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari bilingual-reader/export completion checkpoint.**
 
 ## Current work matrix
 
@@ -20,7 +20,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Tirumbippaar! | 104/104 canonical pages verified | 93/93 scenes / 1,040 dialogue records | 1,321 verified units | reader/export + deterministic EPUB QA PASS |
 | Manohara | 82/82 canonical pages verified | 57/57 scenes / 983 dialogue records | 1,190 verified units | reader/export QA PASS; Reading Room ready |
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
-| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | next: deterministic bilingual reader/export |
+| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader/export QA PASS; Reading Room payload next |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 
 ## Manthiri Kumari reconciliation checkpoint
@@ -53,10 +53,18 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - synthetic screenplay scene IDs created by translation: **0**;
 - external/unprinted lyric lines imported: **0**;
 - final translation QA: **PASS**;
-- deterministic bilingual reader/export: **ready / not-started**;
-- Reading Room integration: **blocked pending reader/export QA**.
+- deterministic bilingual reader/export: **complete-verified, QA PASS**;
+- reader navigation: **16 natural source structures — 1 story summary + 15 performance blocks**;
+- reader performance sections: **52**;
+- reader Tamil/English performance line-cues: **234 / 234**;
+- reader line/cue mismatches: **0**;
+- reader cross-page performance records: **7**;
+- reader preserves 1 confirmed anthology witness / 14 source-only blocks and 0 verified / 15 unresolved item-level lyricists;
+- canonical Tamil changed by reader construction: **no**;
+- synthetic screenplay scene IDs created by reader construction: **0**;
+- Reading Room integration payload: **ready / not-started**.
 
-The exact next repository-internal activity is to **build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures**, preserving the booklet's natural story-summary + performance navigation, page provenance, source-visible cues, cross-witness disposition and unresolved item-level lyric-authorship state. Do not invent screenplay scenes.
+The exact next repository-internal activity is to **prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader**, preserving the booklet's natural story-summary + 15-performance navigation, Tamil/English pairing, PDF-page provenance, source-visible cues, cross-witness disposition and unresolved item-level lyric-authorship state. Site application remains separate and must not be performed from this repository without explicit authorization for the implementation repository.
 
 ## Raja Rani final reconciliation
 
@@ -82,4 +90,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The Manthiri Kumari **English translation phase is closed and synchronized**: one continuous story-summary translation and all 15 source-linked performance translations are complete-verified, with whole-layer QA PASS and no source-authority or authorship drift. The next repository-internal phase is deterministic bilingual reader/export construction and QA. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
+The Manthiri Kumari **deterministic bilingual reader/export phase is closed and synchronized**: the complete-verified Tamil and English story-summary/performance structures are exposed through a 16-unit natural-source reader, with QA PASS across 52 performance sections and 234/234 Tamil-English line/cue mappings, no source-authority drift, no synthetic scenes and no authorship upgrades. The next repository-internal phase is Reading Room integration-payload preparation and QA. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
