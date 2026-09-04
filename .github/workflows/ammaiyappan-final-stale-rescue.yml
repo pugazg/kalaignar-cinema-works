@@ -1,0 +1,113 @@
+name: One-off Ammayappan master handover reconciliation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ammaiyappan-final-stale-rescue.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconcile Ammayappan master handover and validate active status
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          p = Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md')
+          text = p.read_text(encoding='utf-8')
+
+          old_summary = '`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` must remain synchronized to the active **Ammayappan 60/105 first-pass checkpoint**. Bounded part files currently cover PDF 15–64 while `full-text.md` is assembled through PDF 14; final part assembly is required before first-pass closure.'
+          new_summary = '`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan first-pass closure checkpoint: 105/105 draft pages, continuous `full-text.md` through PDF 109, assembly QA PASS, 116 unresolved first-pass readings, and 0/105 verified pages**. The separate rendered-scan visual fidelity audit is now the required next gate.'
+          if old_summary not in text:
+              raise RuntimeError('stale high-level synchronization paragraph not found')
+          text = text.replace(old_summary, new_summary, 1)
+
+          lines = [
+              '## 16. Ammayappan active checkpoint',
+              '',
+              'Work path: `works/ammaiyappan/`  ',
+              'Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`',
+              '',
+              '- source intake: **complete**;',
+              '- whole-scan inspection: **111/111 complete**;',
+              '- structural intake mapping: **verified — 58 heading/transition occurrences / 37 distinct forms**;',
+              '- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107 — 105 pages**;',
+              '- source-numbered scenes: **none**;',
+              '- locked scan reading: PDF 56 / p.54 = **`பழுதார் வீதி`**;',
+              '- user scan verdict: PDF 107 / p.105 = **`தூக்குமேடை`**, not `தாக்குமேடை`;',
+              '- canonical Tamil first pass: **draft-complete — 105/105 pages**;',
+              '- continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;',
+              '- first-pass assembly QA: **PASS — 105 exact source anchors / 0 missing / 0 duplicate**;',
+              '- open first-pass uncertainty markers: **116**;',
+              '- draft pages / verified pages: **105 / 0**;',
+              '- visual fidelity audit: **not-started**;',
+              '- scene/dialogue/character derivatives: **blocked pending verified Tamil**;',
+              '- English / reader / Reading Room integration: **blocked**.',
+              '',
+              'Exact next activity: **begin the separate rendered-scan visual fidelity audit at PDF 5 / logical printed p.3 and proceed in source order through PDF 109. Compare every assembled page directly against the controlling scan, adjudicate all 116 explicit uncertainty markers occurrence-by-occurrence, preserve locked source verdicts, and upgrade pages only after direct visual verification. Structured derivatives remain blocked until all 105 canonical pages pass the audit.**'
+          ]
+          replacement = '\n'.join(lines).rstrip() + '\n'
+          pattern = re.compile(r'(?ms)^## 16\. Ammayappan active checkpoint\n.*?(?=^## |\Z)')
+          text, n = pattern.subn(replacement, text, count=1)
+          if n != 1:
+              raise RuntimeError(f'Ammayappan section 16 count={n}')
+          p.write_text(text, encoding='utf-8')
+
+          active = [
+              Path('README.md'),
+              Path('data/works.json'),
+              Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'),
+              Path('docs/STATUS_CONSISTENCY_AUDIT.md'),
+              Path('works/ammaiyappan/README.md'),
+              Path('works/ammaiyappan/metadata.yaml'),
+              Path('works/ammaiyappan/PROJECT_HANDOVER.md'),
+              Path('works/ammaiyappan/transcription/README.md'),
+              Path('works/ammaiyappan/transcription/index.json'),
+              Path('works/ammaiyappan/transcription/ASSEMBLY_QA.md')
+          ]
+          stale = [
+              'Ammayappan 60/105 first-pass checkpoint',
+              'canonical Tamil first pass: **draft-in-progress — 60/105',
+              'canonical Tamil first pass: **draft-in-progress — 100/105',
+              'first-pass pages completed: **100 / 105**',
+              'next page: **PDF 105 / printed p.103**',
+              'full-text.md` assembled only through **PDF 14**',
+              'full_text_current_through_pdf_page: 14',
+              'canonical_tamil_first_pass_pages_completed": 60',
+              'canonical_tamil_open_uncertainty_markers": 48'
+          ]
+          problems = []
+          for path in active:
+              body = path.read_text(encoding='utf-8')
+              for phrase in stale:
+                  if phrase in body:
+                      problems.append((str(path), phrase))
+          if problems:
+              raise RuntimeError('stale active-state phrases remain: ' + repr(problems))
+          PY
+
+          rm -f '.github/workflows/ammaiyappan-final-stale-sweep.yml'
+          rm -f '.github/workflows/ammaiyappan-final-stale-rescue.yml'
+
+      - name: Commit reconciled master handover
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Finalize Ammayappan first-pass status synchronization'
+          git push origin HEAD:main
