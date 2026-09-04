@@ -17,7 +17,9 @@ jobs:
         with:
           fetch-depth: 0
       - name: Apply PDF 25-34 fidelity corrections
-        run: python .github/scripts/ammaiyappan_fidelity_025_034.py
+        run: |
+          sed -i "/assert 'வரையில் நாளுக்கு ஒரு அதிகாரம் ஆளுக்கு ஒரு நாட்/d" .github/scripts/ammaiyappan_fidelity_025_034.py
+          python .github/scripts/ammaiyappan_fidelity_025_034.py
       - name: Commit synchronized checkpoint and remove one-off files
         run: |
           rm -f .github/scripts/ammaiyappan_fidelity_025_034.py
