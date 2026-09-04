@@ -379,9 +379,9 @@ Always inspect current repository state.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
-- **Ammayappan** — new 111-page image-only screenplay/dialogue source `TVA_BOK_0064230`; source intake and whole-scan mapping complete; main body PDF 5–109 / logical printed pp.3–107; no printed scene numbers; 58 source-visible transition-heading occurrences / 37 distinct forms; user-reviewed PDF 107 / printed p.105 heading `தூக்குமேடை`; canonical Tamil first pass not-started.
+- **Ammayappan** — active 111-page image-only screenplay/dialogue source `TVA_BOK_0064230`; source intake and whole-scan mapping complete; main body PDF 5–109 / logical printed pp.3–107; no printed scene numbers; 58 source-visible transition-heading occurrences / 37 distinct forms; locked PDF 56 / printed p.54 heading `பழுதார் வீதி`; user-reviewed PDF 107 / printed p.105 heading `தூக்குமேடை`; canonical Tamil first pass **draft-in-progress at 60/105 pages, PDF 5–64 / logical pp.3–62**, with **48 open first-pass uncertainty markers**; next source page PDF 65 / printed p.63; visual fidelity audit not-started; structured derivatives remain blocked.
 
-`data/works.json`, root README, work metadata/README/mapping/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` must remain synchronized to the **Ammayappan intake / structural-mapping checkpoint** before canonical transcription is reported started.
+`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` must remain synchronized to the active **Ammayappan 60/105 first-pass checkpoint**. Bounded part files currently cover PDF 15–64 while `full-text.md` is assembled through PDF 14; final part assembly is required before first-pass closure.
 
 ---
 
@@ -429,8 +429,15 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
 - source-numbered scenes: **none**;
 - structural heading/transition occurrences: **58 / 37 distinct forms**;
+- locked scan reading: PDF 56 / p.54 = **`பழுதார் வீதி`**;
 - user scan verdict: PDF 107 / p.105 = **`தூக்குமேடை`**, not `தாக்குமேடை`;
-- canonical Tamil first pass: **not-started**;
+- canonical Tamil first pass: **draft-in-progress — 60/105 pages**;
+- completed range: **PDF 5–64 / logical pp.3–62**;
+- open first-pass uncertainty markers: **48**;
+- active first-pass authority: `works/ammaiyappan/transcription/index.json`;
+- bounded continuation parts: PDF 15–24, 25–34, 35–44, 45–54 and 55–64; `full-text.md` currently assembled through PDF 14;
+- PDF 64 ends inside marked quoted poetic material that continues onto PDF 65;
+- visual fidelity audit: **not-started**;
 - later derivatives: **blocked pending verified Tamil**.
 
-Exact next activity: **canonical Tamil first-pass transcription from PDF 5 / logical p.3 in meaningful source-order batches with stable page anchors; a separate rendered-scan fidelity audit must follow before scene/dialogue derivatives.**
+Exact next activity: **continue canonical Tamil first-pass transcription from PDF 65 / printed p.63 in a meaningful source-order batch with stable page anchors, preserving the PDF 64→65 continuation and visible uncertainty markers. Complete the full PDF 5–109 first pass and assemble all bounded parts into `full-text.md` before the separate rendered-scan fidelity audit and before scene/dialogue derivatives.**
