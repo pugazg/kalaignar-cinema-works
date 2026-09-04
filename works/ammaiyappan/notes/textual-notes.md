@@ -76,6 +76,28 @@ These notes record first-pass readings that remain intentionally uncertain. The 
 
 19. Muthayi's line contains `பாளையக்காரரின் ⟦சொத்துக்கணைப் பிடிக்கும்?⟧ சூதாட்டக்காரியாக`; the marked span remains under review.
 
+## First-pass batch 5 — PDF 35–44
+
+### PDF 35 / printed p.33
+
+20. Muthan's comparison after `குதிரைக் காரனும் நான்!` is presently `⟦கோபுர மேற்கலாம்?⟧ அவர்கள்!`. The old-type word group is not secure enough to normalize during first pass.
+
+### PDF 36 / printed p.34
+
+21. Vedalam's recruiting line after `பாளையக்காரர் அதிகாரம் தடுக்க முடியாது` is presently `⟦புகழ் வாய்ந்த வேல்...போர் வீரன் வேல்...?⟧`. Preserve the uncertain phrase for enlarged scan adjudication.
+
+### PDF 37 / printed p.35
+
+22. Maykkainathar's phrase before `போதனை செய்கிறார்களே இன்று` is presently `⟦வெறிநெறெல்லாம்?⟧`. The source-visible old-type sequence remains unresolved.
+
+### PDF 38 / printed p.36
+
+23. Bhoopathi's long mocking quotation beginning `ஹி...ஹி...ஹி...` and running through `இல்லையா சாமியாரே?` remains one marked span because several old-type words and punctuation joins are not secure enough for first-pass certainty.
+
+### PDF 40 / printed p.38
+
+24. Thirisangu's line after `கல்யாணம் பண்ணிக்கொண்டு` is presently `⟦மாடனூர் வீட்டை?⟧ எதிர்பார்த்துக் கிடக்க`. The marked word group must be reopened glyph by glyph during fidelity review.
+
 ## Locked source verdicts from intake
 
 These are not uncertainties:
