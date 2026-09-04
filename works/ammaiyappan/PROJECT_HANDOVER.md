@@ -77,19 +77,19 @@ Important adjudications:
 ## Canonical Tamil first pass — active
 
 - canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- completed first-pass range: **PDF 5–24 / logical pp.3–22**;
-- first-pass pages completed: **20 / 105**;
+- completed first-pass range: **PDF 5–34 / logical pp.3–32**;
+- first-pass pages completed: **30 / 105**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **11**;
+- open first-pass uncertainty markers: **19**;
 - uncertainty ledger: `notes/textual-notes.md`;
 - active progress/assembly authority: `transcription/index.json`;
 - assembled `full-text.md` currently reaches **PDF 14**;
-- bounded continuation part: `transcription/parts/pdf-015-024.md`;
-- next page: **PDF 25 / printed p.23**;
+- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`;
+- next page: **PDF 35 / printed p.33**;
 - visual fidelity audit: **not-started**.
 
-Batch 3, PDF 15–24, preserves the source transitions `சுகதேவன் அறை`, `திரிசங்கு வீட்டின் கொல்லைப்புறம்`, `பலதேவர் மாளிகை` and `ஆற்றங்கரை`. It also preserves the literal PDF 19→20 split `...அதா` / `வது காதல்...`. Three new first-pass uncertainties remain visible: one poetic/glyph sequence on PDF 19, one military epithet/name on PDF 21, and a quoted Kamba-Ramayanam passage on PDF 23. None is repaired from external textual familiarity.
+The PDF 25–34 batch preserves the source-visible transitions and speaker/action structure while keeping eight insecure old-typeface spans explicitly marked. No marked reading was repaired from context or external text.
 
 Before declaring the entire first pass complete, assemble every bounded part into `full-text.md` in exact source order and perform boundary loss/duplication QA.
 
@@ -98,7 +98,7 @@ Before declaring the entire first pass complete, assemble every bounded part int
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **draft-in-progress — 20/105**;
+- canonical Tamil first pass: **draft-in-progress — 30/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -115,4 +115,4 @@ Before declaring the entire first pass complete, assemble every bounded part int
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription at PDF 25 / printed p.23. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 35 / printed p.33. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
