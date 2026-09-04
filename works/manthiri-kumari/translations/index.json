@@ -1,0 +1,60 @@
+{
+  "work_id": "manthiri-kumari",
+  "layer": "english-translation",
+  "status": "complete-verified",
+  "target_language": "en",
+  "source_authority": "verified Tamil source-linked derivatives only",
+  "story_summary": {
+    "status": "verified",
+    "translation_id": "manthiri-kumari-story-summary-en-001",
+    "path": "story-summary.json",
+    "schema": "story-summary.schema.json",
+    "source_record_id": "manthiri-kumari-story-summary-001",
+    "source_pdf_pages": [3, 4, 5],
+    "logical_units": 13,
+    "cross_page_units": 1
+  },
+  "performances": {
+    "status": "complete-verified",
+    "schema": "performance.schema.json",
+    "expected_records": 15,
+    "verified_records": 15,
+    "source_pdf_pages": [6, 7, 8, 9, 10, 11, 12, 13],
+    "sections": 52,
+    "source_tamil_line_cues": 234,
+    "english_line_cues": 234,
+    "cross_page_records": [2, 4, 6, 7, 9, 11, 13],
+    "confirmed_existing_anthology_witnesses": 1,
+    "source_only_in_current_anthology": 14,
+    "item_level_authorship_verified": 0,
+    "item_level_authorship_unresolved": 15,
+    "records": [
+      {"id":"manthiri-kumari-performance-en-001","source_performance_id":"manthiri-kumari-performance-001","path":"performances/001.json","heading_ta":"தர்பார் நடனம்","heading_en":"Durbar Dance","pdf_pages":[6],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-002","source_performance_id":"manthiri-kumari-performance-002","path":"performances/002.json","heading_ta":"ராஜகுமாரி","heading_en":"Princess","pdf_pages":[6,7],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-003","source_performance_id":"manthiri-kumari-performance-003","path":"performances/003.json","heading_ta":"குமாரி கமலா நடனம்","heading_en":"Dance by Kumari Kamala","pdf_pages":[7],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-004","source_performance_id":"manthiri-kumari-performance-004","path":"performances/004.json","heading_ta":"மந்திரிகுமாரி","heading_en":"Manthirikumarī","pdf_pages":[7,8],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-005","source_performance_id":"manthiri-kumari-performance-005","path":"performances/005.json","heading_ta":"மந்திரிகுமாரி—பார்த்திபன்","heading_en":"Manthirikumarī—Parthiban","pdf_pages":[8],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-006","source_performance_id":"manthiri-kumari-performance-006","path":"performances/006.json","heading_ta":"குமாரி வனஜா நடனம்","heading_en":"Dance by Kumari Vanaja","pdf_pages":[8,9],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-007","source_performance_id":"manthiri-kumari-performance-007","path":"performances/007.json","heading_ta":"தளபதி பார்ட்டி கோரஸ்","heading_en":"Commander Party Chorus","pdf_pages":[9,10],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-008","source_performance_id":"manthiri-kumari-performance-008","path":"performances/008.json","heading_ta":"கற்பகம்—பூலோகம்","heading_en":"Karpagam—Poologam","pdf_pages":[10],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-009","source_performance_id":"manthiri-kumari-performance-009","path":"performances/009.json","heading_ta":"ராஜகுமாரி","heading_en":"Princess","pdf_pages":[10,11],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-010","source_performance_id":"manthiri-kumari-performance-010","path":"performances/010.json","heading_ta":"லலிதா—பத்மினி—ராகினி நடனம்","heading_en":"Lalitha—Padmini—Ragini Dance","pdf_pages":[11],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-011","source_performance_id":"manthiri-kumari-performance-011","path":"performances/011.json","heading_ta":"மாட்டுக்கார பையன்","heading_en":"Cowherd Boy","pdf_pages":[11,12],"status":"verified","authorship_status":"unresolved","cross_witness_status":"confirmed-existing-anthology-witness"},
+      {"id":"manthiri-kumari-performance-en-012","source_performance_id":"manthiri-kumari-performance-012","path":"performances/012.json","heading_ta":"மந்திரிகுமாரி—ராஜகுமாரி","heading_en":"Manthirikumarī—Rajakumarī","pdf_pages":[12],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-013","source_performance_id":"manthiri-kumari-performance-013","path":"performances/013.json","heading_ta":"பார்த்திபன்—மந்திரிகுமாரி","heading_en":"Parthiban—Manthirikumarī","pdf_pages":[12,13],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-014","source_performance_id":"manthiri-kumari-performance-014","path":"performances/014.json","heading_ta":"உழவன்—தொகையறா","heading_en":"Farmer—Thogaiyara","pdf_pages":[13],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"},
+      {"id":"manthiri-kumari-performance-en-015","source_performance_id":"manthiri-kumari-performance-015","path":"performances/015.json","heading_ta":"ராஜகுமாரி","heading_en":"Princess","pdf_pages":[13],"status":"verified","authorship_status":"unresolved","cross_witness_status":"source-only-in-current-anthology"}
+    ]
+  },
+  "qa": {
+    "missing_translation_records": [],
+    "duplicate_translation_ids": [],
+    "performance_line_mapping_mismatches": 0,
+    "synthetic_scene_ids_created": 0,
+    "canonical_tamil_changed": false,
+    "authorship_upgrades_from_translation": 0,
+    "source_page_coverage": "PDF 3-13 excluding credits-only PDF 2",
+    "result": "PASS"
+  },
+  "next_action": "Build and QA a deterministic bilingual reader/export layer from the complete-verified story-summary and 15 performance translation records, preserving the booklet's natural story-summary/performance navigation rather than synthetic screenplay scenes."
+}
