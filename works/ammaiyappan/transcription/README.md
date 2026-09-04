@@ -8,13 +8,13 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
 - canonical pages expected: **105**;
-- first-pass pages completed: **60 / 105**;
-- completed range: **PDF 5–64 / logical pp.3–62**;
+- first-pass pages completed: **70 / 105**;
+- completed range: **PDF 5–74 / logical pp.3–72**;
 - current state of completed pages: **draft**;
 - verified pages: **0**;
 - review pages: **0**;
-- open first-pass uncertain readings: **48**;
-- next source page: **PDF 65 / printed p.63**;
+- open first-pass uncertain readings: **87**;
+- next source page: **PDF 75 / printed p.73**;
 - full visual fidelity audit: **not-started**.
 
 PDF 5 has no visible printed folio. Its anchor therefore records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
@@ -29,6 +29,7 @@ PDF 5 has no visible printed folio. Its anchor therefore records `logical_printe
 - `parts/pdf-035-044.md` contains **PDF 35–44**;
 - `parts/pdf-045-054.md` contains **PDF 45–54**;
 - `parts/pdf-055-064.md` contains **PDF 55–64**;
+- `parts/pdf-065-074.md` contains **PDF 65–74** and is explicitly marked `draft-high-uncertainty` in the index;
 - before the full PDF 5–109 first pass is declared complete, all bounded part files must be assembled into `full-text.md` in exact source order and checked for boundary loss/duplication.
 
 This temporary part-file workflow avoids repeatedly rewriting an increasingly large canonical draft while preserving stable page provenance.
@@ -36,9 +37,9 @@ This temporary part-file workflow avoids repeatedly rewriting an increasingly la
 ## First-pass policy
 
 - source order only;
-- exact visible headings/speaker labels/stage directions;
+- exact visible headings/speaker labels/stage directions where secure;
 - no modernization or silent repair;
-- uncertain old-typeface tokens remain visibly marked with `⟦reading?⟧`;
+- uncertain old-typeface tokens remain visibly marked with `⟦reading?⟧` or an explicitly unresolved scan-backed span;
 - user-reviewed scan verdicts remain locked occurrence-by-occurrence;
 - no scene/dialogue/character derivative work until the whole canonical range has subsequently passed the separate fidelity audit.
 
@@ -80,10 +81,18 @@ Stored in `parts/pdf-045-054.md`. The batch preserves the source transitions `�
 
 Status: **draft complete for this batch**.
 
-Stored in `parts/pdf-055-064.md`. The batch preserves the source transitions `பழுதார் வீதி`, `திரிசங்கு வீடு`, `சுகதேவன் மாளிகை` and `பாசறை சமையல் கூடம்`. The locked intake reading `பழுதார் வீதி` is retained exactly. Nine new glyph-sensitive spans remain explicitly marked, including the quoted poetic material on PDF 64; its final marked fragment continues across the boundary into PDF 65 and must remain joined by provenance during later review.
+Stored in `parts/pdf-055-064.md`. The batch preserves the source transitions `பழுதார் வீதி`, `திரிசங்கு வீடு`, `சுகதேவன் மாளிகை` and `பாசறை சமையல் கூடம்`. The locked intake reading `பழுதார் வீதி` is retained exactly. Nine new glyph-sensitive spans remain explicitly marked, including the quoted poetic material on PDF 64; its final marked fragment continues across the boundary into PDF 65.
 
-Open first-pass readings needing later glyph-level adjudication are recorded in `../notes/textual-notes.md`. They do not block continuation of the first pass.
+## Batch 8 — PDF 65–74
+
+Status: **draft complete for coverage, high uncertainty**.
+
+Stored in `parts/pdf-065-074.md`. The batch preserves the verified structural transitions `கண்ணகி மாளிகை`, `வேங்கையூர் பாசறைச் சிறை`, `தனபதி மாளிகை`, `பாசறை சமையல் கூடம்` and the second `கண்ணகி மாளிகை`. It continues the quoted poetic material from PDF 64 and ends with a source-visible sentence continuing from PDF 74 into PDF 75.
+
+This batch required **39 new explicit uncertainty markers** because of dense old type, fast dialogue and a difficult quoted poetic continuation. Their batch-specific ledger is `../notes/textual-notes-pdf-065-074.md`; the older cumulative ledger through marker 48 remains `../notes/textual-notes.md`. No external literary text, film dialogue or semantic reconstruction was used to close those spans.
+
+Open first-pass readings do not block continuation of the first pass, but they do block any claim of verified Tamil until the separate full rendered-scan fidelity audit.
 
 ## Exact next activity
 
-Continue canonical Tamil first-pass transcription at **PDF 65 / printed p.63**, in a meaningful source-order batch with the same stable anchor and uncertainty policy. Do not start scene/dialogue derivatives.
+Continue canonical Tamil first-pass transcription at **PDF 75 / printed p.73**, preserving the PDF 74→75 continuation, in a meaningful source-order batch with the same stable anchor and uncertainty policy. Do not start scene/dialogue derivatives.
