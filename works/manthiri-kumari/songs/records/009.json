@@ -1,0 +1,37 @@
+{
+  "id": "manthiri-kumari-performance-009",
+  "sequence": 9,
+  "heading_ta": "ராஜகுமாரி",
+  "occurrence_kind": "character-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [10, 11],
+  "printed_pages_observed": [9, 10],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "text_ta": "எண்ணும் பொழுதில் இன்பம்—பெருகி என்\nஉள்ளம் மகிழலானேன்\nமாவீரர் பணியும் ஜெயதீரா\nஉலகினிலே இணையில்லா உமது புகழ் (என்)\nமாலை நன்னேரம் மாலை கொண்டே நான்\nஆருயிர் மோகனின் மேனியில் அணிவேன்"
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "text_ta": "மகிழ்ச்சியோடு நான் மார்புறத்தழுவி\nகலந்து வாழ்வில் என்றும் சுகமே காண்பேன் (என்)"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["(என்)"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Cross-page Rajakumari occurrence distinct from blocks 2 and 15."
+}
