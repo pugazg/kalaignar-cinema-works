@@ -20,10 +20,11 @@ Canonical range: **PDF 5–109 / logical printed pp.3–107 — 105 pages**
 |---|---:|---:|---:|---|
 | PDF 5–14 / logical pp.3–12 | 10 | 0 | 0 | verified |
 | PDF 15–24 / logical pp.13–22 | 10 | 0 | 0 | verified |
-| PDF 25–109 / logical pp.23–107 | 0 | 0 | 85 | pending |
-| **Total** | **20** | **0** | **85** | **in progress** |
+| PDF 25–34 / logical pp.23–32 | 10 | 0 | 0 | verified |
+| PDF 35–109 / logical pp.33–107 | 0 | 0 | 75 | pending |
+| **Total** | **30** | **0** | **75** | **in progress** |
 
-Open first-pass uncertainty markers after this audit checkpoint: **105** (markers **1–11 resolved**; markers **12–116 remain for later source-order review**).
+Open first-pass uncertainty markers after this audit checkpoint: **97** (markers **1–19 resolved**; markers **20–116 remain for later source-order review**).
 
 ## PDF 5–14 / logical pp.3–12 — verified
 
@@ -64,6 +65,25 @@ Other source-backed restorations in this batch include:
 
 No unresolved scan reading remains in PDF 5–24.
 
+## PDF 25–34 / logical pp.23–32 — verified
+
+All ten pages were compared directly against the rendered scan. Markers 12–19 were resolved from the printed glyphs and the canonical assembled text was corrected without rewriting the retained historical first-pass part file.
+
+Resolved marker readings:
+
+12. PDF 25: `மால் நன்னோரம்`
+13. PDF 25: `[திருக்கிட்டு]`
+14. PDF 26: `அகாதி`
+15. PDF 27: `மரத்தில் தொத்தி`
+16. PDF 30: `தகராறின் விளைவு`
+17. PDF 31: `காதல்புறு ... கன்றைநாடும் பசு ...`
+18. PDF 32: `கல்யாணமே வேண்டாம் என்று கன்னிப் பெண்ணை வாழ சங்கணம் கட்டிய நீங்கள் கண்ணு வாராய் என்று என்னை அழைக்கிறீர்கள்?...`
+19. PDF 34: `பாளையக்காரின் சொத்துக்களைப் பிடிக்கும்`
+
+Other scan-backed restorations include `நீ ஏன் இங்கெல்லாம்`, `ஈரேழு பதினறு லோகத்திலும்`, `வெளிப்பட்டபடி`, `கதைதான்`, `பிரியத்தை`, `வேங்கைநாட்டு`, `கைநீட்டி`, and `இன்று; நான் நாளை நீங்கள்`. The PDF 34→35 boundary was corrected from draft `நாட்ட` + `டாண்மை` to the source split `நாட்` + `டாண்மை`, preserving `நாட்டாண்மை` exactly across the page break.
+
+No unresolved scan reading remains in PDF 25–34.
+
 ## Exact next activity
 
-Continue the rendered-scan fidelity audit at **PDF 25 / logical printed p.23**, in source order. Adjudicate markers **12 onward** occurrence-by-occurrence and mark a page verified only after full-page visual comparison. Do not begin scene/dialogue/character derivatives yet.
+Continue the rendered-scan fidelity audit at **PDF 35 / logical printed p.33**, in source order. Adjudicate markers **20 onward** occurrence-by-occurrence and mark a page verified only after full-page visual comparison. Do not begin scene/dialogue/character derivatives yet.
