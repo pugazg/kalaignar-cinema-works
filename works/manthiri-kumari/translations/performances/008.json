@@ -1,0 +1,23 @@
+{
+  "id": "manthiri-kumari-performance-en-008",
+  "source_performance_id": "manthiri-kumari-performance-008",
+  "sequence": 8,
+  "heading_ta": "கற்பகம்—பூலோகம்",
+  "heading_en": "Karpagam—Poologam",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/008.json", "tamil_status": "complete-verified", "pdf_pages": [10], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": "கற்பகம்", "english_label": "Karpagam", "source_pdf_pages": [10], "source_tamil_lines": ["பெறக்கப்போகுது!—பாரு பொறக்கப்போகுது"], "english_lines": ["It's going to be born!—Look, it's going to be born."], "notes": []},
+      {"ordinal": 2, "source_label": "பூலோகம்", "english_label": "Poologam", "source_pdf_pages": [10], "source_tamil_lines": ["என்ன? எங்கே? யாருக்கு பொறக்கப்போகுது?"], "english_lines": ["What? Where? To whom is it going to be born?"], "notes": []},
+      {"ordinal": 3, "source_label": "கற்பகம்", "english_label": "Karpagam", "source_pdf_pages": [10], "source_tamil_lines": ["பத்துமாசம் சென்றவுடன் பாரு", "தெரியும் உனக்கும் எனக்கும்", "கொஞ்சி கொஞ்சி மகிழ்ந்து", "நாமும் குறையில்லாமே வாழ்ந்திருக்க (பெற)"], "english_lines": ["After ten months have passed, just watch—", "You and I will both know.", "Fondling and rejoicing,", "We too can live without want. (பெற)"], "notes": []},
+      {"ordinal": 4, "source_label": "பூலோகம்", "english_label": "Poologam", "source_pdf_pages": [10], "source_tamil_lines": ["(வசனம்) அப்படிச்சொல்லு"], "english_lines": ["(வசனம்) Say it that way."], "notes": ["The source-visible `வசனம்` cue is retained verbatim."]},
+      {"ordinal": 5, "source_label": "கற்பகம்", "english_label": "Karpagam", "source_pdf_pages": [10], "source_tamil_lines": ["(வசனம்) ஐய", "மூலைத்தெரு சோசியனை முந்தா நாளும் கேட்டேன்", "பத்துமாசம் போனால் நமக்கு", "பிறக்கும் நல்ல காலமின்னான்"], "english_lines": ["(வசனம்) Ayya,", "I asked the astrologer from Moolai Street the day before yesterday.", "He said that after ten months", "Good times will be born for us."], "notes": []},
+      {"ordinal": 6, "source_label": "பூலோகம்", "english_label": "Poologam", "source_pdf_pages": [10], "source_tamil_lines": ["ஏழரை நாட்டு சனியன் போலே", "எங்கம்மா இருக்கையில்", "எப்படி பெறக்கும் நல்லகாலம்"], "english_lines": ["With my mother here like seven-and-a-half-year Saturn,", "How can good times", "Ever be born?"], "notes": ["The astrological `ஏழரை நாட்டு சனியன்` image is preserved rather than generalized as mere bad luck."]},
+      {"ordinal": 7, "source_label": "கற்பகம்", "english_label": "Karpagam", "source_pdf_pages": [10], "source_tamil_lines": ["ஏழாமடத்தில் ராஜாவாம்", "எனக்கும் உனக்கும் கல்யாணம்", "எப்படியும் நடக்குமின்னு", "எடுத்துச்சொன்னான் சோசியன்", "பெறக்கப்போகுது—பாரு பெறக்கப்போகுது", "எப்படியும் பத்துமாசம்", "எனக்கும் உனக்கும் நல்லகாலம் (பெற)"], "english_lines": ["They say there is a king in the seventh house;", "Your marriage and mine", "Will somehow happen—", "That is what the astrologer clearly told me.", "It's going to be born—look, it's going to be born;", "In any case, ten months—", "Good times for you and me. (பெற)"], "notes": ["`ஏழாமடத்தில்` is read in its astrological context as the seventh house, without altering the verified Tamil form."]}
+    ],
+    "translator_notes": ["The comic double meaning around childbirth, ten months and the birth of `good times` is preserved.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
