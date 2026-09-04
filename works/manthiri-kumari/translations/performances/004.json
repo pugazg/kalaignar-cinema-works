@@ -1,0 +1,18 @@
+{
+  "id": "manthiri-kumari-performance-en-004",
+  "source_performance_id": "manthiri-kumari-performance-004",
+  "sequence": 4,
+  "heading_ta": "மந்திரிகுமாரி",
+  "heading_en": "Manthirikumarī",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/004.json", "tamil_status": "complete-verified", "pdf_pages": [7, 8], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [7], "source_tamil_lines": ["பெண்களினால் உயர்வாகிடுமே", "புவி வாழ்வது தானே", "வீரர் தம்மை நாட்டினுக்கீந்த", "விளங்கும் மேன்மையாலே (பெண்)"], "english_lines": ["Through women, the world is raised high;", "That is how the earth itself lives—", "Through the shining greatness", "Of giving heroes to the nation. (பெண்)"], "notes": []},
+      {"ordinal": 2, "source_label": null, "english_label": null, "source_pdf_pages": [8], "source_tamil_lines": ["கானில் வாழும் தவஞானி", "காவியமே புனையும் கவிஞன்—கலை", "ஆர்வத்தோடு வாழும் அறிஞன்—தமை", "நாட்டினுக்கே அளித்தோர் யாரே? (பெண்)", "தீர எண்ணித்துணிந்தே தான்", "காதலரை இங்கு தேர்ந்தெடுப்பார்—மகிழ்", "வோடு தியாக வாழ்வே வாழ்வார்—எது", "நேரிடினும் மனமே மாறார் (பெண்)"], "english_lines": ["The ascetic sage who lives in the forest,", "The poet who composes epics—the scholar", "Who lives with passion for art—", "Who gave them to the nation? (பெண்)", "Resolute, thinking and daring for themselves,", "They choose their lovers here—with joy,", "They live a life of sacrifice—whatever", "May come, their hearts do not change. (பெண்)"], "notes": ["The source's enjambed `கலை / ஆர்வத்தோடு` and `மகிழ் / வோடு` are represented without rewriting the Tamil lineation."]}
+    ],
+    "translator_notes": ["The source's argument about women, nation, love and sacrifice is kept direct and rhetorical.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
