@@ -1,0 +1,15 @@
+{
+  "id": "manthiri-kumari-performance-en-015",
+  "source_performance_id": "manthiri-kumari-performance-015",
+  "sequence": 15,
+  "heading_ta": "ராஜகுமாரி",
+  "heading_en": "Princess",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/015.json", "tamil_status": "complete-verified", "pdf_pages": [13], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [{"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [13], "source_tamil_lines": ["காதல் பலியாகி நீயும் தியாகத்தின் சின்னமாய்", "நாட்டினர் நெஞ்சிலே ஓவியமே ஆகினாய்!", "காண்பவர் யாருமே பெண்களின் தீரமே", "உணர்ந்திட நீயுமே ஓவியமே ஆகியே!", "தீயோன்மேல் காதல் கொண்டே இல்லற வாழ்விலே", "தீராத துயரம் கண்டாய் வீண்பழி மேவினாய்!", "தேசம் தன்னையே பாதுகாக்கவே", "நாதனைக் கொன்றுமே நீதி தனை நாட்டினாய்!", "நாட்டுக்கே பாடம் தன்னை போதிக்கும் தியாகச்சின்னம்", "நாளும் உன கல்லறை மீதில் நாங்களும் கண்ணீர் சிந்தி", "மலர்கள் தூவியே மானசீகமாய்!", "அன்பு செய்வதன்றியே கைமாறு வேறில்லையே!"], "english_lines": ["You too, sacrificed to love, became a symbol of sacrifice;", "You became a portrait in the hearts of the people!", "So that whoever beholds you may understand", "The courage of women, you became an image!", "Having loved a wicked man, within married life", "You saw unending sorrow and bore fruitless blame!", "To protect the nation itself,", "You killed your own lord and established justice!", "A symbol of sacrifice that teaches the whole country a lesson,", "Each day, upon your grave, we too shed tears,", "Scattering flowers there in spirit!", "There is no return we can offer except our love!"], "notes": ["`நாதன்` is rendered as `lord` in its husband/spouse sense without inserting a name not printed in the line."]}],
+    "translator_notes": ["The memorial/elegiac tone is preserved, including the movement from private love and sorrow to public justice and remembrance.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
