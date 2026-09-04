@@ -370,16 +370,16 @@ Always inspect current repository state.
 
 ---
 
-## 13. Current high-level project checkpoint — 2026-09-03
+## 13. Current high-level project checkpoint — 2026-09-04
 
 - **Parasakthi** — complete-verified canonical/structured English reader work.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
 - **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
-- **Manthiri Kumari** — source intake/structural mapping complete for the 14-page story-and-song booklet; canonical Tamil first pass remains its next source-processing phase.
+- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; post-fidelity user corrections reconciled; credits complete-verified; 15/15 performance blocks inventoried and cross-witness classified; continuous PDF 3–5 story-summary derivative is the next activity.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 
-`data/works.json`, root README, work metadata/handover and this master handover are synchronized to this checkpoint.
+The Manthiri Kumari work-local status surfaces, root README and this master handover have been advanced to the verified/corrected checkpoint. `data/works.json` and `docs/STATUS_CONSISTENCY_AUDIT.md` must agree with this state before the synchronization gate is closed.
 
 ---
 
