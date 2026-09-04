@@ -36,16 +36,16 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 ## Canonical Tamil first pass — in progress
 
 - canonical range: **PDF 5–109 / 105 pages**;
-- first-pass complete: **PDF 5–54 / logical pp.3–52 — 50/105 pages**;
+- first-pass complete: **PDF 5–64 / logical pp.3–62 — 60/105 pages**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- current first-pass uncertainty markers: **39**, documented in `notes/textual-notes.md`;
-- next page: **PDF 55 / printed p.53**;
+- current first-pass uncertainty markers: **48**, documented in `notes/textual-notes.md`;
+- next page: **PDF 65 / printed p.63**;
 - separate visual fidelity audit: **not-started**.
 
-`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts hold PDF 15–24, PDF 25–34, PDF 35–44 and PDF 45–54. These parts must be assembled into `full-text.md` before the whole first pass is closed.
+`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts hold PDF 15–24, PDF 25–34, PDF 35–44, PDF 45–54 and PDF 55–64. These parts must be assembled into `full-text.md` before the whole first pass is closed.
 
-The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`; unresolved old-type spans remain marked instead of being repaired from context. The PDF 45–54 batch continues the same source-first uncertainty policy and adds fifteen marked spans for later glyph-level adjudication.
+The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`; unresolved old-type spans remain marked instead of being repaired from context. The PDF 45–54 batch continued the same source-first uncertainty policy. PDF 55–64 adds nine marked spans, preserves the locked `பழுதார் வீதி` heading, and ends inside quoted poetic material whose final marked fragment continues onto PDF 65.
 
 ## Current status
 
@@ -56,7 +56,7 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 | Whole-scan inspection | complete — 111/111 pages |
 | Structural mapping | **verified** |
 | Source-numbered scenes | not applicable — none printed |
-| Canonical Tamil first pass | **draft-in-progress — 50/105 pages** |
+| Canonical Tamil first pass | **draft-in-progress — 60/105 pages** |
 | Visual fidelity audit | not-started |
 | Scene-text derivatives | blocked pending verified Tamil |
 | Dialogue index | blocked pending verified Tamil |
@@ -72,8 +72,9 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 - Do not manufacture source scene numbers.
 - Do not infer song lyric authorship from the film-level `கதை வசனம்` / `மு. கருணாநிதி` credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless later direct scan evidence reopens them.
+- PDF 56 / printed p.54 heading remains **`பழுதார் வீதி`**.
 - PDF 107 / printed p.105 heading is **`தூக்குமேடை`**; the rejected provisional reading `தாக்குமேடை` must not reappear.
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 55 / printed p.53 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
+**Continue canonical Tamil first-pass transcription from PDF 65 / printed p.63 in a meaningful source-order batch with stable page anchors. Preserve the cross-page continuation from PDF 64 and uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
