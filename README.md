@@ -55,7 +55,7 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 
 ## மந்திரி குமாரி status
 
-`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose canonical Tamil source layer and continuous story-summary derivative are now complete-verified.
+`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose source-appropriate Tamil archival structure is now complete-verified and ready for English translation.
 
 - source classification: **film story-and-song booklet**, not a full screenplay/dialogue book;
 - cover title: **`மந்திரி குமாரி`** under `மாடர்ன் தியேட்டர்ஸ்`;
@@ -69,22 +69,27 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 - source scene-numbering system: **none**;
 - canonical Tamil first pass: **complete — PDF 2–13**;
 - visual fidelity audit: **complete-verified — 12/12 canonical PDF pages, 0 unresolved readings**;
-- post-fidelity manual source corrections: **recorded and applied**;
-- later user-approved song/performance lexical corrections: **applied and reconciled**;
+- post-fidelity manual source corrections: **recorded, applied and reconciled**;
 - source subdivision form: **`தொகையறா`** where applicable;
 - credits derivative: **complete-verified**;
 - story-summary derivative: **complete-verified — PDF 3–5 / 3 source pages / 1 continuous record / 0 synthetic scene IDs / 0 immutable dialogue IDs**;
 - song/performance inventory: **15/15 complete**;
+- source-linked song/performance records: **15/15 complete-verified** — `songs/records/001.json` through `015.json`, indexed by `songs/index.json` and governed by `songs/schema.json`;
+- structured-record PDF coverage: **PDF 6–13, 8/8 pages**;
+- missing / duplicate performance record IDs: **0 / 0**;
+- exact headings, page segments, `தொகையறா` / `பாட்டு` subdivisions and source-visible speaker/performance cues: **preserved**;
 - cross-witness classification: **complete — 1 confirmed current-anthology witness / 14 source-only blocks**;
 - block-11 `மாட்டுக்கார பையன்` witness report: **complete-reconciled**;
-- item-level lyric authorship verified by this booklet: **0/15**; all 15 remain at the separate evidence gate;
-- source-linked structured records for the 15 performance blocks: **not-started — 0/15**;
+- booklet item-level lyric authorship verified: **0/15**;
+- item-level lyric authorship unresolved at this evidence tier: **15/15**;
+- canonical Tamil changed by structured-record creation: **no**;
+- synthetic screenplay scene IDs created for this source: **0**;
 - scene/dialogue derivatives: **not applicable as a full-work model from this source**;
-- English translation: **blocked until the 15 source-linked performance records are complete**.
+- English translation: **ready / not-started**.
 
-The booklet's story/dialogue credit is primary-source evidence for that authorship role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and has not been used to repair this booklet's canonical text.
+The booklet's story/dialogue credit is primary-source evidence for that authorship role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and has not been used to repair this booklet's canonical text. Unresolved item-level lyric authorship does not block translation and must remain unresolved in the English layer unless separately evidenced.
 
-**Next:** create source-linked structured records for all 15 PDF 6–13 performance blocks, preserving exact source headings, page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the current cross-witness dispositions and unresolved item-level lyric authorship unless separately evidenced.
+**Next:** begin source-linked English translation from the verified continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records, preserving source order, page provenance, source-visible cues and `தொகையறா` / `பாட்டு` distinctions. Do not convert this booklet into screenplay scenes or use translation to repair canonical Tamil.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
