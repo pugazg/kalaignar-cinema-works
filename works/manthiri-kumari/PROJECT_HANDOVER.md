@@ -21,139 +21,147 @@ Before changing this work, read completely:
 7. `works/manthiri-kumari/README.md`
 8. `works/manthiri-kumari/metadata.yaml`
 9. `works/manthiri-kumari/mapping.md`
-10. `works/manthiri-kumari/notes/INTAKE_AUDIT.md`
-11. `works/manthiri-kumari/notes/fidelity-audit.md`
-12. `works/manthiri-kumari/notes/post-fidelity-corrections.md`
-13. `works/manthiri-kumari/story-summary/index.json`
-14. `works/manthiri-kumari/songs/index.json`
-15. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
-16. `works/manthiri-kumari/translations/README.md`
-17. `works/manthiri-kumari/translations/index.json`
-18. `works/manthiri-kumari/translations/FINAL_TRANSLATION_QA.md`
-19. `works/manthiri-kumari/editions/bilingual/README.md`
-20. `works/manthiri-kumari/editions/bilingual/reader-edition.json`
-21. `works/manthiri-kumari/editions/bilingual/PREFLIGHT_QA_REPORT.md`
-22. `works/manthiri-kumari/editions/bilingual/QA_REPORT.md`
-23. `works/manthiri-kumari/editions/bilingual/manifest.json`
-24. `docs/SONG_TRANSLATION_GUIDE.md` when touching translated performance text.
+10. `works/manthiri-kumari/notes/fidelity-audit.md`
+11. `works/manthiri-kumari/notes/post-fidelity-corrections.md`
+12. `works/manthiri-kumari/story-summary/index.json`
+13. `works/manthiri-kumari/songs/index.json`
+14. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
+15. `works/manthiri-kumari/translations/index.json`
+16. `works/manthiri-kumari/translations/FINAL_TRANSLATION_QA.md`
+17. `works/manthiri-kumari/editions/bilingual/README.md`
+18. `works/manthiri-kumari/editions/bilingual/reader-edition.json`
+19. `works/manthiri-kumari/editions/bilingual/QA_REPORT.md`
+20. `works/manthiri-kumari/editions/bilingual/manifest.json`
+21. `works/manthiri-kumari/integrations/reading-room/README.md`
+22. `works/manthiri-kumari/integrations/reading-room/reading-room.json`
+23. `works/manthiri-kumari/integrations/reading-room/QA_REPORT.md`
+24. `works/manthiri-kumari/integrations/reading-room/manifest.json`
+25. `docs/SONG_TRANSLATION_GUIDE.md` when touching translated performance text.
 
 ## Controlling source
 
 `TVA_BOK_0026144_மந்திரி_குமாரி.pdf`
 
-- 14 physical PDF pages;
-- 579,782 bytes;
-- SHA-256 `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;
-- image-only scan;
-- rendered pages control canonical Tamil.
+- physical PDF pages: **14**;
+- bytes: **579,782**;
+- SHA-256: `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;
+- image-only scan; rendered pages control canonical Tamil.
 
 ## Source classification
 
 This is a **film story-and-song booklet**, not a full screenplay/dialogue transcript.
 
-- PDF 1: cover;
-- PDF 2: cast/production credits with direct `கதை, வசனம் : மு. கருணாநிதி` credit;
-- PDF 3–5: continuous prose `கதைச்சுருக்கம்`;
-- PDF 6–13: 15 separately headed song/performance blocks;
-- PDF 14: unrelated `அமரகவி` advertisement / paratext.
+- PDF 1 cover;
+- PDF 2 credits with `கதை, வசனம் : மு. கருணாநிதி`;
+- PDF 3–5 continuous prose `கதைச்சுருக்கம்`;
+- PDF 6–13 fifteen song/performance blocks;
+- PDF 14 unrelated `அமரகவி` advertisement.
 
 Do not create screenplay scenes or a film-wide dialogue index from this booklet.
 
-## Completed source/Tamil gates
+## Completed source / Tamil gates
 
 - source intake / whole-scan inspection: **complete, 14/14**;
 - structural map: **verified**;
 - canonical Tamil PDF 2–13: **complete-verified, 12/12 pages**;
 - unresolved canonical readings: **0**;
-- post-fidelity user scan corrections: **recorded, applied and reconciled**;
-- source subdivision wording: **`தொகையறா`** where applicable;
-- credits layer: **complete-verified**;
-- story-summary Tamil derivative: **complete-verified — 1 continuous record / PDF 3–5**;
-- song/performance Tamil records: **complete-verified — 15/15 / PDF 6–13**;
-- synthetic screenplay scene IDs in source-derived layers: **0**.
+- user post-fidelity scan corrections: **recorded, applied and reconciled**;
+- source subdivision form: **`தொகையறா`** where applicable;
+- credits: **complete-verified**;
+- story-summary Tamil: **1/1 complete-verified**;
+- performance Tamil records: **15/15 complete-verified**;
+- synthetic screenplay scene IDs: **0**.
 
 Canonical authority: `works/manthiri-kumari/transcription/full-text.md`.
 
 ## Authorship / cross-witness state
 
-- printed film-wide credit: `கதை, வசனம் : மு. கருணாநிதி` — story/dialogue only;
+- printed story/dialogue credit: `கதை, வசனம் : மு. கருணாநிதி`;
 - booklet item-level lyricists verified: **0/15**;
-- item-level lyricists unresolved: **15/15**;
-- confirmed current-anthology witness: **1/15**, `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001`;
-- source-only relative to the current anthology corpus: **14/15**;
-- later anthology used to repair this booklet's Tamil: **no**.
-
-Unresolved lyric authorship does not block translation, reader/export, or Reading Room preparation. It must remain unresolved downstream unless separately evidenced.
+- unresolved item-level lyricists: **15/15**;
+- confirmed current-anthology witness: **1/15**, block 11 `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001`;
+- source-only against current anthology: **14/15**;
+- later anthology used to repair booklet Tamil: **no**.
 
 ## English translation — complete-verified
 
-- story-summary English: **1/1**, **13** logical prose units, **1** cross-page unit;
-- performance English: **15/15**, **52** sections;
-- Tamil / English performance lines-cues: **234 / 234**;
-- line-mapping mismatches: **0**;
-- cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
-- missing / duplicate translation records: **0 / 0**;
-- authorship upgrades introduced by translation: **0**;
-- canonical Tamil changed by translation: **no**;
-- synthetic screenplay scene IDs created: **0**;
-- final translation QA: **PASS**.
+- story summary: **1/1 / 13 prose units / 1 cross-page unit**;
+- performances: **15/15 / 52 sections**;
+- Tamil / English line-cues: **234 / 234**;
+- mismatches: **0**;
+- cross-page performances: **002, 004, 006, 007, 009, 011, 013**;
+- authorship upgrades: **0**;
+- canonical Tamil changes: **0**;
+- final QA: **PASS**.
 
-Performance 13 permanently retains the evidence distinction between its printed heading `பார்த்திபன்—மந்திரிகுமாரி` and internal turn labels `பார்த்திபன்` / `அமுதவல்லி`; do not normalize that mismatch.
+Performance 13 must retain printed heading `பார்த்திபன்—மந்திரிகுமாரி` while its internal source turn labels remain `பார்த்திபன்` / `அமுதவல்லி`.
 
 ## Bilingual reader/export — complete-verified
 
 Directory: `works/manthiri-kumari/editions/bilingual/`
 
-Files:
-
-- `README.md`;
-- `build.py`;
-- `reader-edition.json`;
-- `reader-edition.md`;
-- `reader-edition.html`;
-- `PREFLIGHT_QA_REPORT.md`;
-- `QA_REPORT.md`;
-- `manifest.json`.
-
-Checkpoint:
-
-- navigation model: **story summary + 15 performance blocks**;
-- top-level source structures: **16/16**;
-- story-summary logical units: **13/13**;
-- performance records: **15/15**;
+- navigation: **1 story summary + 15 performances**;
+- top-level structures: **16/16**;
+- story-summary units: **13/13**;
 - performance sections: **52/52**;
 - Tamil / English performance line-cues: **234 / 234**;
 - line-pair mismatches: **0**;
-- cross-page performance records retained: **7/7**;
-- current-anthology disposition retained: **1 confirmed witness / 14 source-only**;
-- item-level lyric authorship retained: **0 verified / 15 unresolved**;
-- synthetic screenplay scene IDs introduced: **0**;
-- canonical Tamil changed by reader/export: **no**;
-- preflight QA: **PASS**;
-- whole-reader QA: **PASS**.
+- cross-page performance records: **7/7**;
+- item-level lyricists: **0 verified / 15 unresolved**;
+- synthetic scenes: **0**;
+- canonical Tamil changes: **0**;
+- preflight / final QA: **PASS / PASS**.
 
-The reader is deliberately source-linked: `reader-edition.json` names the verified translation records and the HTML renderer loads those records. It does not create a second independent bilingual text corpus.
+The reader is source-linked and is not a new textual authority.
+
+## Reading Room integration payload — complete-verified
+
+Directory: `works/manthiri-kumari/integrations/reading-room/`
+
+Files:
+
+- `reading-room.json` — source-linked composition payload;
+- `build.py` — deterministic validator;
+- `QA_REPORT.md` — QA PASS checkpoint;
+- `manifest.json` — integrity metadata;
+- `README.md` — integration contract.
+
+Checkpoint:
+
+- payload mode: **`source-linked-composition`**;
+- expected source-link targets: **32**;
+- story-summary units: **13**;
+- performance records / sections / line-cues: **15 / 52 / 234**;
+- confirmed anthology witness / source-only: **1 / 14**;
+- item-level lyricists: **0 verified / 15 unresolved**;
+- payload bytes: **15,704**;
+- payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`;
+- synthetic scenes: **0**;
+- canonical Tamil changes: **0**;
+- authorship upgrades: **0**;
+- QA: **PASS**;
+- site application: **not-applied**.
+
+The payload does not deploy the separate public-site repository. It supplies the source-linked composition/provenance contract that the Reading Room implementation must resolve.
 
 ## Source-authority boundaries
 
 - rendered scan controls canonical Tamil;
-- explicit user manual scan verdicts control their reviewed occurrences unless later direct scan evidence reopens them;
-- OCR, film audio, subtitles, web lyrics, memory and later anthology text must not repair this booklet silently;
-- translation and reader layers are downstream and must never repair canonical Tamil;
+- explicit user scan verdicts control their reviewed occurrences unless later direct scan evidence reopens them;
+- OCR, audio, subtitles, web lyrics, memory and later anthology text must not silently repair this booklet;
+- translation, reader and payload layers must never repair canonical Tamil;
 - item-level lyric authorship remains independently evidence-based;
-- archival record IDs are navigation only and are not source numbering.
+- performance ordinals are archival source-order navigation, not printed numbering.
 
 ## Current downstream state
 
+- Tamil / structured derivatives: **complete-verified**;
 - English translation: **complete-verified**;
-- deterministic bilingual reader/export: **complete-verified — QA PASS**;
-- Reading Room integration: **ready / not-started**;
-- screenplay scene derivatives / film-wide immutable dialogue index: **not applicable**.
+- bilingual reader/export: **complete-verified — QA PASS**;
+- Reading Room payload: **payload-complete-verified — QA PASS**;
+- Reading Room site application: **not-applied**;
+- screenplay scene/dialogue full-work model: **not applicable**.
 
-## Exact next activity
+## Exact next activity / disposition
 
-Proceed without redundant clarification:
-
-> **Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader. Preserve the booklet's natural `கதைச்சுருக்கம்` + 15-performance navigation, Tamil/English source pairing, PDF-page provenance, source-visible cues, the 1/15 cross-witness relationship, and 15/15 unresolved item-level lyricists. Do not invent screenplay scenes or upgrade authorship through presentation metadata.**
-
-At Reading Room payload completion, synchronize the integration QA/status plus `metadata.yaml`, work README/handover, `data/works.json`, root README, master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` before declaring the phase closed.
+> **No required repository-internal Manthiri Kumari work remains. Apply the verified source-linked Reading Room payload in the separate Reading Room implementation repository only when that repository is explicitly authorized for modification. Preserve story-summary + 15-performance navigation, page provenance, exact source labels/cues, the 1/15 witness relationship, and 15/15 unresolved item-level lyricists.**
