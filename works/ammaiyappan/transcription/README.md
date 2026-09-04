@@ -8,13 +8,13 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
 - canonical pages expected: **105**;
-- first-pass pages completed: **40 / 105**;
-- completed range: **PDF 5–44 / logical pp.3–42**;
+- first-pass pages completed: **50 / 105**;
+- completed range: **PDF 5–54 / logical pp.3–52**;
 - current state of completed pages: **draft**;
 - verified pages: **0**;
 - review pages: **0**;
-- open first-pass uncertain readings: **24**;
-- next source page: **PDF 45 / printed p.43**;
+- open first-pass uncertain readings: **39**;
+- next source page: **PDF 55 / printed p.53**;
 - full visual fidelity audit: **not-started**.
 
 PDF 5 has no visible printed folio. Its anchor therefore records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
@@ -27,6 +27,7 @@ PDF 5 has no visible printed folio. Its anchor therefore records `logical_printe
 - `parts/pdf-015-024.md` contains **PDF 15–24**;
 - `parts/pdf-025-034.md` contains **PDF 25–34**;
 - `parts/pdf-035-044.md` contains **PDF 35–44**;
+- `parts/pdf-045-054.md` contains **PDF 45–54**;
 - before the full PDF 5–109 first pass is declared complete, all bounded part files must be assembled into `full-text.md` in exact source order and checked for boundary loss/duplication.
 
 This temporary part-file workflow avoids repeatedly rewriting an increasingly large canonical draft while preserving stable page provenance.
@@ -68,8 +69,14 @@ Status: **draft complete for this batch after scan reconciliation**.
 
 Stored in `parts/pdf-035-044.md`. The batch preserves the transitions `மடாலயம்`, `அஞ்சல் மனை`, `தென்றல் மாளிகை` and `ஆற்றங்கரை சோலையோரம்`. Direct scan reconciliation restored the source-visible `தனபதி` label where the initial draft had incorrectly read `தளபதி`; five new uncertain spans remain explicitly marked.
 
+## Batch 6 — PDF 45–54
+
+Status: **draft complete for this batch**.
+
+Stored in `parts/pdf-045-054.md`. The batch preserves the source transitions `தென்றல் மாளிகை`, `தோட்டம்`, `அஞ்சல் மனை` and the return to `தென்றல் மாளிகை`. Fifteen new glyph-sensitive spans remain visibly marked rather than being reconstructed from semantic expectation.
+
 Open first-pass readings needing later glyph-level adjudication are recorded in `../notes/textual-notes.md`. They do not block continuation of the first pass.
 
 ## Exact next activity
 
-Continue canonical Tamil first-pass transcription at **PDF 45 / printed p.43**, in a meaningful source-order batch with the same stable anchor and uncertainty policy. Do not start scene/dialogue derivatives.
+Continue canonical Tamil first-pass transcription at **PDF 55 / printed p.53**, in a meaningful source-order batch with the same stable anchor and uncertainty policy. Do not start scene/dialogue derivatives.
