@@ -36,14 +36,14 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 ## Canonical Tamil first pass — in progress
 
 - canonical range: **PDF 5–109 / 105 pages**;
-- first-pass complete: **PDF 5–24 / logical pp.3–22 — 20/105 pages**;
+- first-pass complete: **PDF 5–34 / logical pp.3–32 — 30/105 pages**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- current first-pass uncertainty markers: **11**, documented in `notes/textual-notes.md`;
-- next page: **PDF 25 / printed p.23**;
+- current first-pass uncertainty markers: **19**, documented in `notes/textual-notes.md`;
+- next page: **PDF 35 / printed p.33**;
 - separate visual fidelity audit: **not-started**.
 
-`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; the bounded continuation `transcription/parts/pdf-015-024.md` holds PDF 15–24. These parts must be assembled into `full-text.md` before the whole first pass is closed.
+`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts hold PDF 15–24 and PDF 25–34. These parts must be assembled into `full-text.md` before the whole first pass is closed.
 
 ## Current status
 
@@ -54,7 +54,7 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 | Whole-scan inspection | complete — 111/111 pages |
 | Structural mapping | **verified** |
 | Source-numbered scenes | not applicable — none printed |
-| Canonical Tamil first pass | **draft-in-progress — 20/105 pages** |
+| Canonical Tamil first pass | **draft-in-progress — 30/105 pages** |
 | Visual fidelity audit | not-started |
 | Scene-text derivatives | blocked pending verified Tamil |
 | Dialogue index | blocked pending verified Tamil |
@@ -68,10 +68,10 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 - Do not silently modernize or normalize historical/colloquial Tamil.
 - Preserve exact printed speaker labels, punctuation, ellipses, repetition and stage directions.
 - Do not manufacture source scene numbers.
-- Do not infer song lyric authorship from the film-level `கதை வசனம் / மு. கருணாநிதி` credit.
+- Do not infer song lyric authorship from the film-level `கதை வசனம்` / `மு. கருணாநிதி` credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless later direct scan evidence reopens them.
 - PDF 107 / printed p.105 heading is **`தூக்குமேடை`**; the rejected provisional reading `தாக்குமேடை` must not reappear.
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 25 / printed p.23 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
+**Continue canonical Tamil first-pass transcription from PDF 35 / printed p.33 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
