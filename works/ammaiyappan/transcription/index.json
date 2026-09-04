@@ -1,0 +1,32 @@
+{
+  "work_id": "ammaiyappan",
+  "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
+  "status": "draft-in-progress",
+  "canonical_pdf_range": [5, 109],
+  "canonical_logical_printed_range": [3, 107],
+  "canonical_pages_expected": 105,
+  "first_pass_pages_completed": 20,
+  "first_pass_pdf_range_completed": [5, 24],
+  "first_pass_logical_printed_range_completed": [3, 22],
+  "draft_pages": 20,
+  "verified_pages": 0,
+  "review_pages": 0,
+  "open_uncertainty_markers": 11,
+  "assembly": {
+    "full_text_current_through_pdf": 14,
+    "full_text_path": "full-text.md",
+    "parts": [
+      {
+        "path": "parts/pdf-015-024.md",
+        "pdf_range": [15, 24],
+        "printed_range": [13, 22],
+        "status": "draft"
+      }
+    ],
+    "policy": "During first-pass growth, bounded part files may hold later source-order batches. Assemble them into full-text.md before declaring the complete first pass closed."
+  },
+  "fidelity_audit": "not-started",
+  "next_pdf_page": 25,
+  "next_printed_page": 23,
+  "next_action": "Continue canonical Tamil first-pass transcription from PDF 25 / printed p.23 in source order. Do not start scene/dialogue derivatives."
+}
