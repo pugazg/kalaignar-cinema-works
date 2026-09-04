@@ -210,7 +210,6 @@ docs/
   HANDOVER_KALAIGNAR_CINEMA_WORKS.md
   STATUS_CONSISTENCY_AUDIT.md
   START_NEW_CINEMA_WORK_PROMPT.md
-
 data/
   works.json
 works/<work-id>/
@@ -378,10 +377,10 @@ Always inspect current repository state.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
 - **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
-- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room payload preparation is the next activity.
+- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 
-`data/works.json`, root README, work metadata/README/mapping/handover, Manthiri Kumari source/translation/reader indexes and QA surfaces, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the **Manthiri Kumari bilingual reader/export completion checkpoint**.
+`data/works.json`, root README, work metadata/README/mapping/handover, Manthiri Kumari source/translation/reader/integration indexes and QA surfaces, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the **Manthiri Kumari Reading Room payload completion checkpoint**.
 
 ---
 
@@ -398,3 +397,20 @@ Payload SHA-256: `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c
 Only when the separate Kalaignar Digital Library / Reading Room implementation repository is explicitly authorized for modification should that payload be applied there. The public site must preserve source-numbered songs separately from archival-only screenplay scene navigation, retain provenance, and keep song authorship/performance-link evidence tiers unchanged.
 
 For repository-internal work, continue with another work's documented next activity rather than reopening Raja Rani solely to create an additional standalone format.
+
+---
+
+## 15. Manthiri Kumari downstream disposition
+
+No required Manthiri Kumari production work remains inside `pugazg/kalaignar-cinema-works`.
+
+Its verified Reading Room payload is:
+
+`works/manthiri-kumari/integrations/reading-room/reading-room.json`
+
+Payload size: **15,704 bytes**.  
+Payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`.
+
+The payload preserves **1 continuous story summary + 15 performance blocks**, source/page provenance, source-visible cues, the **1 confirmed current-anthology witness / 14 source-only** disposition, and the **0 verified / 15 unresolved** item-level lyric-authorship state. Performance ordinals remain archival source-order navigation rather than printed source numbering, and no screenplay scenes are invented.
+
+Only when the separate Kalaignar Digital Library / Reading Room implementation repository is explicitly authorized for modification should this payload be applied there. Site application status remains **not-applied**.
