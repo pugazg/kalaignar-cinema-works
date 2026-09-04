@@ -70,6 +70,14 @@ See `FINAL_TRANSLATION_QA.md` and `index.json`.
 - synthetic screenplay scene IDs created: **0**;
 - external/unprinted lyric lines imported: **0**.
 
+## Downstream reader/export
+
+The deterministic source-linked bilingual reader is now **complete-verified — QA PASS** under:
+
+`../editions/bilingual/`
+
+It preserves exactly **16** top-level source structures — **1** story summary plus **15** performance blocks — with **52** performance sections and **234/234** Tamil-English performance line/cues. It creates **0** synthetic screenplay scenes and preserves the **0 verified / 15 unresolved** item-level lyric-authorship state.
+
 ## Exact next activity
 
-> **Build and QA a deterministic bilingual reader/export layer from the complete-verified story-summary and 15 performance translations. Preserve the booklet's natural `கதைச்சுருக்கம்` + performance navigation, Tamil/English source pairing, page provenance, source-visible cues and unresolved lyric-authorship state. Do not invent screenplay scenes.**
+> **Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving the booklet's natural `கதைச்சுருக்கம்` + 15-performance navigation, Tamil/English pairing, page provenance, source-visible cues and unresolved item-level lyric authorship. Do not invent screenplay scenes or upgrade authorship through presentation metadata.**
