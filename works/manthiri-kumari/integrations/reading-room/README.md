@@ -38,8 +38,8 @@ The performance ordinals are archival navigation only, not printed numbering. No
 Status: **payload-complete-verified — QA PASS**.
 
 - payload mode: `source-linked-composition`;
-- payload bytes: **16,061**;
-- payload SHA-256: `2d4f0071b0faf463699255c29d10ae0c734a2d367c581ad469987a6a2f2bbb3d`;
+- payload bytes: **15,704**;
+- payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`;
 - site application: **not-applied**.
 
 The separate Reading Room implementation repository must be explicitly authorized before this payload is applied there.
