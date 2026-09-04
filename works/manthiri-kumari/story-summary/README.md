@@ -13,7 +13,8 @@ Status: **complete-verified**.
 ## Derivative files
 
 - `full-text.md` — verified PDF 3–5 synopsis text extracted from canonical Tamil with page anchors preserved;
-- `index.json` — one source-linked continuous-prose record covering PDF 3–5.
+- `index.json` — one source-linked continuous-prose record covering PDF 3–5;
+- `../translations/story-summary.json` — complete-verified source-linked English translation.
 
 ## Rules / QA
 
@@ -23,7 +24,7 @@ Status: **complete-verified**.
 - Do not create immutable dialogue records from reported or quoted synopsis speech.
 - Do not normalize or repair wording in this derivative independently of canonical Tamil.
 
-QA result:
+Tamil QA result:
 
 - source PDF pages represented: **3/3**;
 - continuous story-summary records: **1**;
@@ -31,6 +32,16 @@ QA result:
 - immutable dialogue IDs created: **0**;
 - canonical authority changed by derivative creation: **no**.
 
+English checkpoint:
+
+- story-summary translations: **1/1 complete-verified**;
+- logical prose translation units: **13**;
+- cross-page translation units: **1**, preserving the PDF 3→4 continuation;
+- synthetic scene IDs created by translation: **0**;
+- canonical Tamil changed by translation: **no**.
+
+See `../translations/index.json` and `../translations/FINAL_TRANSLATION_QA.md`.
+
 ## Next activity
 
-Create source-linked structured records for all **15** PDF 6–13 song/performance blocks while preserving exact source headings, `தொகையறா` / `பாட்டு` subdivisions, current cross-witness dispositions and unresolved item-level lyric authorship unless separately evidenced.
+Build and QA the **deterministic bilingual reader/export layer** from the complete-verified story-summary and 15 performance translations, preserving continuous-prose identity, natural booklet navigation and source/page provenance.
