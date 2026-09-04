@@ -6,7 +6,7 @@
   "source_status": "complete-verified",
   "pdf_pages": [6],
   "printed_pages_observed": [],
-  "canonical_source_file": "../transcription/full-text.md",
+  "canonical_source_file": "../../transcription/full-text.md",
   "source_segments": [
     {
       "pdf_page": 6,
@@ -19,13 +19,13 @@
   "cross_witness": {
     "status": "source-only-in-current-anthology",
     "anthology_record_id": null,
-    "evidence_reference": "cross-witness-comparison.md"
+    "evidence_reference": "../cross-witness-comparison.md"
   },
   "authorship": {
     "status": "unresolved",
     "lyricist_ta": null,
     "evidence_basis": "none",
-    "evidence_reference": "AUTHORSHIP_GATE.md",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
     "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
   },
   "notes": "Single-page dance/performance block."
