@@ -29,26 +29,27 @@ The rendered scan is the controlling source for this edition. The PDF is image-o
 
 The continuous interior pagination supports **logical printed page = PDF page - 2** for PDF 5–109. PDF 5 is therefore logical printed p.3 although its folio is suppressed; PDF 6 visibly carries printed p.4 and PDF 109 printed p.107.
 
-The booklet prints **no numbered scene sequence**. Instead it uses unnumbered location/transition headings, bracketed/parenthetical stage action, continuous dialogue and temporal/location transitions. The whole-scan audit records **58 source-visible structural heading/transition occurrences across 37 distinct printed forms**. These are evidence for later archival segmentation only; they are not source scene numbers.
+The booklet prints **no numbered scene sequence**. Instead it uses unnumbered location/transition headings, bracketed/parenthetical stage action, continuous dialogue and temporal/location transitions. The whole-scan intake audit records **58 structural heading/transition occurrences across 37 distinct printed forms**. Canonical transcription still preserves any additional source-visible local heading encountered on the page itself rather than suppressing it to fit the intake inventory.
 
 The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map is `mapping.md`.
 
 ## Canonical Tamil first pass — in progress
 
 - canonical range: **PDF 5–109 / 105 pages**;
-- first-pass complete: **PDF 5–84 / logical pp.3–82 — 80/105 pages**;
+- first-pass complete: **PDF 5–94 / logical pp.3–92 — 90/105 pages**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- current first-pass uncertainty markers: **97**;
+- current first-pass uncertainty markers: **107**;
 - older uncertainty ledger through marker 48: `notes/textual-notes.md`;
 - PDF 65–74 supplemental ledger for markers 49–87: `notes/textual-notes-pdf-065-074.md`;
 - PDF 75–84 supplemental ledger for markers 88–97: `notes/textual-notes-pdf-075-084.md`;
-- next page: **PDF 85 / printed p.83**;
+- PDF 85–94 supplemental ledger for markers 98–107: `notes/textual-notes-pdf-085-094.md`;
+- next page: **PDF 95 / printed p.93**;
 - separate visual fidelity audit: **not-started**.
 
-`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts now hold PDF 15–24, 25–34, 35–44, 45–54, 55–64, 65–74 and 75–84. These parts must be assembled into `full-text.md` before the whole first pass is closed.
+`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts now hold PDF 15–24, 25–34, 35–44, 45–54, 55–64, 65–74, 75–84 and 85–94. These parts must be assembled into `full-text.md` before the whole first pass is closed.
 
-The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`. PDF 55–64 preserves the locked `பழுதார் வீதி` heading and ends inside quoted poetic material. PDF 65–74 continues that material and remains explicitly classified as a **high-uncertainty first-pass draft** with 39 new markers. PDF 75–84 is substantially clearer, preserves the source transitions `தனபதி மாளிகை`, `அஞ்சல் மனை`, `பலதேவர் மாளிகை`, `தனவணிகர் வீடு`, and `அடைக்கலபுரி தேவாலயம்`, and adds 10 marked readings for later glyph review.
+The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`. PDF 55–64 preserves the locked `பழுதார் வீதி` heading and ends inside quoted poetic material. PDF 65–74 continues that material and remains explicitly classified as a **high-uncertainty first-pass draft** with 39 new markers. PDF 75–84 is substantially clearer and adds 10 marked readings. PDF 85–94 is also largely legible, adds 10 further markers, and preserves the source-visible transition sequence through `கூடாரம்`, `மண்டபம்`, `ஊரின் வெளிப்புறம்`, `அதே சமயம்`, `தனவணிகர் வீடு`, `சுமதி வீடு`, `வீட்டிற்குள்`, `வேதாளத்தின் ஆசிரமம்`, `சத்திரத்திற்குள்`, `கோவில் மண்டபம்`, `சத்திரம்`, and `வெளியே`.
 
 ## Current status
 
@@ -59,7 +60,7 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 | Whole-scan inspection | complete — 111/111 pages |
 | Structural mapping | **verified** |
 | Source-numbered scenes | not applicable — none printed |
-| Canonical Tamil first pass | **draft-in-progress — 80/105 pages** |
+| Canonical Tamil first pass | **draft-in-progress — 90/105 pages** |
 | Visual fidelity audit | not-started |
 | Scene-text derivatives | blocked pending verified Tamil |
 | Dialogue index | blocked pending verified Tamil |
@@ -81,4 +82,4 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 85 / printed p.83 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
+**Continue canonical Tamil first-pass transcription from PDF 95 / printed p.93 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
