@@ -1,0 +1,37 @@
+{
+  "id": "manthiri-kumari-performance-011",
+  "sequence": 11,
+  "heading_ta": "மாட்டுக்கார பையன்",
+  "occurrence_kind": "song-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [11, 12],
+  "printed_pages_observed": [10, 11],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "text_ta": "தொகையறா\n\nஊருக்கு உழைப்பவண்டி\nஒரு குற்றம் அறியானடி\nஉதைப்பட்டு சாவானடி—எருமைக்கண்ணுக்குட்டி\n\nபாட்டு\n\nநல்லதுக்கு காலமில்லே\nநடப்பதெல்லாம் வெளிப்பகட்டு\nசொல்லப்போனால் வெட்கக்கேடு—எருமைக்கண்ணுக்குட்டி"
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "text_ta": "தொகையறா\n\nஏச்சிப்பொழைக்கிறவன்\nஏழடுக்கு மாளிகையில்\nஎகத்தாளம் போடுறானே\nஅவன் பேச்சை மறுக்கிறவன்\nபிச்சை எடுக்கிறானே—எருமைக்கண்ணுக்குட்டி\n\nபாட்டு\n\nநாட்டுக்குத் தலைவனென்று நம்பும்படி பேசிவிட்டு\nவேணசெல்வம் வாரியே போவாரடி\nநாடுசெழிக்க யெண்ணி நாளெல்லாம் பாடுபடும்\nஏழைக்கிக்காலமில்லே எவனெவனோ வாழுகின்றார்—\nஎருமைக்கண்ணுக்குட்டி"
+    }
+  ],
+  "source_visible_subdivisions": ["தொகையறா", "பாட்டு", "தொகையறா", "பாட்டு"],
+  "source_visible_labels": [],
+  "cross_witness": {
+    "status": "confirmed-existing-anthology-witness",
+    "anthology_record_id": "kalaignar-song-001",
+    "evidence_reference": "../match-report-001-oorukku-uzhaippavandi.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet itself does not print an item-level lyricist. The later anthology correspondence is retained as a separate cross-witness layer and is not promoted here to original-booklet item-level authorship."
+  },
+  "notes": "Cross-page full lyric body; same underlying song as later anthology record kalaignar-song-001, but this booklet remains an independent canonical witness."
+}
