@@ -73,7 +73,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is a newly initialized **111-page image-only screenplay/dialogue booklet**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet**.
 
 - printed title: **`அம்மையப்பன்`**;
 - printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -85,10 +85,15 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - source-numbered scenes: **none**;
 - source-visible structural heading/transition occurrences: **58 / 37 distinct forms**;
 - user-reviewed PDF 107 / printed p.105 heading: **`தூக்குமேடை`**;
-- canonical Tamil first pass: **not-started**;
+- canonical Tamil first pass: **draft-in-progress — 30/105 pages**;
+- completed range: **PDF 5–34 / logical pp.3–32**;
+- open first-pass uncertainty markers: **19**;
+- current continuous `full-text.md`: through **PDF 14**;
+- bounded continuation parts: **PDF 15–24** and **PDF 25–34**;
+- visual fidelity audit: **not-started**;
 - structured derivatives / English / reader: **blocked pending verified Tamil**.
 
-**Next:** begin canonical Tamil first-pass transcription at PDF 5 / logical printed p.3, in meaningful source-order batches with stable page anchors; complete a separate visual fidelity audit before any scene/dialogue derivatives.
+**Next:** continue canonical Tamil first-pass transcription at **PDF 35 / printed p.33**, preserving stable page anchors and visible uncertainty markers. Assemble all bounded parts into `full-text.md` before first-pass closure; complete a separate full visual fidelity audit before any scene/dialogue derivatives.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
