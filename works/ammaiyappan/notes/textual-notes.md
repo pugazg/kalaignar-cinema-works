@@ -142,6 +142,35 @@ These notes record first-pass readings that remain intentionally uncertain. The 
 
 39. Vedalam's assurance after `எது நடந்தாலும் சரி.` is presently `⟦பொன் வாட்டும்?⟧`; the short phrase remains unresolved at first pass.
 
+## First-pass batch 7 — PDF 55–64
+
+### PDF 55 / printed p.53
+
+40. Muthan's final comparison before the page boundary presently includes `⟦தங்கள் திலகின் செந்தாமரை மொட்டுகளாக?⟧`. The old-type word group before `ஆக்கிவிடத் தீர்மானித்து விட்ட விடுதலை வீரர்கள்` is not secure enough to normalize.
+
+### PDF 58 / printed p.56
+
+41. Muthan's accusation contains `⟦கண்ணமற்றவனே?⟧`; retain the source-visible form for enlarged glyph review rather than silently choosing a familiar compound.
+
+### PDF 60 / printed p.58
+
+42. Thirisangu's mythological comparison begins `⟦அர்ச்சுனன் பாம்பரணை அல்லியை மணக்க?⟧`; the old-type phrase is uncertain and must not be repaired from an external version of the story.
+43. The continuation is presently `⟦வேலன் கிழவனணை வள்ளியை மணக்க?⟧`; preserve the complete marked phrase for the later fidelity pass.
+
+### PDF 61 / printed p.59
+
+44. Sukhadev's greeting after `நல்ல சமயத்தில்` is presently `⟦வந்தி ரப்பா நாதர் போல?⟧`; the word boundaries remain insecure.
+
+### PDF 62 / printed p.60
+
+45. Muthayi's botanical comparison begins `⟦மல்விகைக் கொடியின்?⟧ வேரை அறுத்து விட்டு`; the first word remains glyph-sensitive.
+
+### PDF 64 / printed p.62
+
+46. The opening of Muthan's quoted poem is retained as one uncertainty span: `⟦குடிசைகான்! ஒருபுறத்தில் கூரிய வேல், வாள் வரிசையாய் அமைத்திருக்கும்; வயத்தைப் பிடிப்பதற்கும் வெம்பகை முடிப்பதற்கும் வடித்து வைத்த படைக்கலம் போல் மின்னும் மிளிரும்...புலியின் குகையினிலே அழகில்லை......புதுமையல்ல!⟧`. Several old-type word forms and joins require direct glyph-level review.
+47. The next poem span is presently `⟦கிளியும் மெச்சிவிருப்பும் கிழவிக்கும் தன்மையும் தீல காட்டா மானத்தின் உரை விட்டார்; மறவன் மாவிலை! இல்லத்து வாயிலிலே கிண்ணைத்துச் சேரோடு வெல்லத்தைச் சிறிதுகலந்து வயிற்றுக்குள் வழியனுப்ப பொக்கை வாய்தனைத் திறந்து பிடியன்னம் பெடுத்துப் போட்டாள்; பெருநரைக் கிழவி பொறுத்தி...⟧`. Preserve the complete span rather than reconstructing it from literary expectation.
+48. The page-ending poem fragment is presently `⟦துயரம் ஆடுகையில் காய்களை வெட்டுவதுண்டு...களமும் அதுதான்...காயம்⟧`; the fragment continues on PDF 65 and remains intentionally unresolved at this boundary.
+
 ## Locked source verdicts from intake
 
 These are not uncertainties:
