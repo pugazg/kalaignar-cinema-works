@@ -20,21 +20,36 @@ Locked source verdicts:
 - PDF 56 / printed p.54: **`பழுதார் வீதி`**;
 - PDF 107 / printed p.105: **`தூக்குமேடை`**; rejected reading `தாக்குமேடை` must not reappear.
 
-## Canonical Tamil first pass — active
+## Canonical Tamil first pass — complete draft coverage
 
 - expected canonical pages: **105**;
-- completed first-pass range: **PDF 5–104 / printed pp.3–102**;
-- progress: **100/105 pages**;
-- completed-page state: **draft**;
+- completed first-pass range: **PDF 5–109 / printed pp.3–107**;
+- progress: **105/105 pages**;
+- first-pass state: **draft-complete**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **114**;
-- `full-text.md` assembled only through **PDF 14**;
-- bounded continuation parts cover **PDF 15–104**;
-- newest part: `transcription/parts/pdf-095-104.md`;
-- newest uncertainty ledger: `notes/textual-notes-pdf-095-104.md` for markers **108–114**;
+- open first-pass uncertainty markers: **116**;
+- final bounded source batch: `transcription/parts/pdf-105-109.md`;
+- final uncertainty ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**;
+- continuous assembled transcription: `transcription/full-text.md`, now through **PDF 109**;
+- assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
 - visual fidelity audit: **not-started**.
 
-The PDF 95–104 batch preserves the long source-visible political/social denunciation passages and the transitions `பாழ் மண்டபம்`, `வேங்கை நாட்டு அவைக்கூடம்`, `பூங்காவனம் அறை`, `முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்`, `சுமதி வீடு`, and `சிறைச்சாலை`. PDF 104 ends inside Muthan's speech; PDF 105 visibly continues it.
+The final batch preserves the PDF 104→105 continuation, the source-visible `வேங்கையூர்`, `நகரின் வீதி`, **`தூக்குமேடை`**, and `வெளியே` transitions, and closes the screenplay/dialogue body at PDF 109 / printed p.107. The final two insecure readings remain explicitly marked rather than reconstructed.
+
+## First-pass assembly QA
+
+The continuous draft was assembled from the existing PDF 5–14 `full-text.md` plus all bounded parts from PDF 15–109. Automated boundary QA records:
+
+- **105 / 105** page anchors present;
+- exact source-anchor order **PDF 5, 6, …, 109**;
+- missing anchors: **0**;
+- duplicate anchors: **0**;
+- bounded-part boundary presence: **PASS**;
+- locked `தூக்குமேடை`: **PASS**;
+- rejected `தாக்குமேடை`: **absent**;
+- visible unresolved first-pass spans: **116**.
+
+This closes only the **canonical Tamil first pass and assembly**. It does **not** upgrade any page to verified Tamil.
 
 ## Current status
 
@@ -42,15 +57,16 @@ The PDF 95–104 batch preserves the long source-visible political/social denunc
 |---|---|
 | Source intake | complete |
 | Whole-scan inspection | complete — 111/111 |
-| Structural mapping | verified |
-| Canonical Tamil first pass | **draft-in-progress — 100/105** |
-| Full-text assembly | pending after final 5 pages |
-| Boundary loss/duplication QA | pending after assembly |
-| Visual fidelity audit | not-started |
+| Structural mapping | verified intake map |
+| Canonical Tamil first pass | **draft-complete — 105/105** |
+| Full-text assembly | **complete — PDF 5–109** |
+| Boundary loss/duplication QA | **PASS** |
+| Visual fidelity audit | **not-started** |
+| Verified Tamil pages | **0/105** |
 | Scene/dialogue/character derivatives | blocked pending verified Tamil |
 | Song/performance authorship gate | not-started |
 | English translation / reader | blocked |
 
 ## Exact next activity
 
-**Complete the final first-pass batch PDF 105–109 / printed pp.103–107, beginning with the PDF 104→105 continuation and preserving the locked `தூக்குமேடை` heading on PDF 107. Then assemble every bounded part into `transcription/full-text.md` in exact source order and perform boundary loss/duplication QA before declaring first-pass closure. Do not start the separate visual fidelity audit or structured derivatives before that assembly checkpoint.**
+**Begin the separate rendered-scan visual fidelity audit across PDF 5–109. Review every page directly against the controlling scan, adjudicate the 116 explicit uncertainty markers occurrence-by-occurrence, preserve locked user-reviewed readings, and upgrade pages to verified only after page-level visual comparison. Do not start scene/dialogue/character derivatives until the complete canonical range passes that audit.**
