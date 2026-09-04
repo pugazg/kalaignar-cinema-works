@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>மந்திரி குமாரி / Manthiri Kumari — Bilingual Reader</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+body{max-width:1180px;margin:auto;padding:1.5rem}
+h1,h2,h3,h4{line-height:1.25}
+.meta{font-size:.92rem}
+.pair,.linepair{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:.4rem 0}
+.pair>div,.linepair>div{border:1px solid #ddd;padding:.65rem}
+article{margin:2rem 0}
+[lang="ta"]{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans Tamil",sans-serif}
+@media(max-width:760px){.pair,.linepair{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1><span lang="ta">மந்திரி குமாரி</span> / Manthiri Kumari</h1>
+<p>Source-linked bilingual archival reader. Natural navigation: story summary + 15 performance blocks.</p>
+<div id="reader">Loading verified source-linked records…</div>
+<script>
+const root=document.getElementById('reader');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pages=a=>(a||[]).join(', ');
+async function loadJSON(path){const r=await fetch(path);if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json();}
+async function render(){
+  const index=await loadJSON('reader-edition.json');
+  const story=await loadJSON(index.story_summary.translation_path);
+  let out=`<section><h2><span lang="ta">${esc(story.source.title_ta)}</span><br>${esc(story.translation.english_title)}</h2>`;
+  for(const u of story.translation.sections){
+    out+=`<article><h3>Summary unit ${String(u.ordinal).padStart(2,'0')} · PDF ${pages(u.source_pdf_pages)}</h3><div class="pair"><div lang="ta">${esc(u.source_tamil)}</div><div>${esc(u.english)}</div></div></article>`;
+  }
+  out+='</section><section><h2><span lang="ta">மந்திரி குமாரி—பாடல்கள்</span><br>Performances</h2>';
+  for(const item of index.performances){
+    const p=await loadJSON(item.translation_path);
+    out+=`<article><h3>${String(item.sequence).padStart(2,'0')}. <span lang="ta">${esc(p.heading_ta)}</span> / ${esc(p.heading_en)}</h3><p class="meta">PDF ${pages(p.source.pdf_pages)} · lyric authorship: ${esc(p.source.authorship_status)}</p>`;
+    for(const s of p.translation.sections){
+      const lab=s.source_label?` · <span lang="ta">${esc(s.source_label)}</span>${s.english_label?' / '+esc(s.english_label):''}`:'';
+      out+=`<h4>Section ${String(s.ordinal).padStart(2,'0')}${lab} · PDF ${pages(s.source_pdf_pages)}</h4>`;
+      for(let i=0;i<s.source_tamil_lines.length;i++)out+=`<div class="linepair"><div lang="ta">${esc(s.source_tamil_lines[i])}</div><div>${esc(s.english_lines[i])}</div></div>`;
+    }
+    out+='</article>';
+  }
+  out+='</section>';
+  root.innerHTML=out;
+}
+render().catch(e=>root.textContent='Reader load failed: '+e.message);
+</script>
+</body>
+</html>
