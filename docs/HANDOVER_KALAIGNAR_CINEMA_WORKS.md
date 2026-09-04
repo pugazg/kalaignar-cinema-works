@@ -381,7 +381,7 @@ Always inspect current repository state.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 - **Ammayappan** — 111-page image-only screenplay/dialogue source; source intake and whole-scan mapping complete; canonical Tamil first pass **draft-complete 105/105 across PDF 5–109 / logical pp.3–107**; continuous `full-text.md` assembled through PDF 109; assembly QA **PASS — 105 exact source anchors, 0 missing, 0 duplicate**; **116** explicit unresolved first-pass readings; verified Tamil **0/105**; separate rendered-scan visual fidelity audit is the exact next gate; structured derivatives remain blocked.
 
-`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` must remain synchronized to the active **Ammayappan 60/105 first-pass checkpoint**. Bounded part files currently cover PDF 15–64 while `full-text.md` is assembled through PDF 14; final part assembly is required before first-pass closure.
+`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan first-pass closure checkpoint: 105/105 draft pages, continuous `full-text.md` through PDF 109, assembly QA PASS, 116 unresolved first-pass readings, and 0/105 verified pages**. The separate rendered-scan visual fidelity audit is now the required next gate.
 
 ---
 
@@ -425,19 +425,18 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 - source intake: **complete**;
 - whole-scan inspection: **111/111 complete**;
-- structural mapping: **verified**;
-- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
+- structural intake mapping: **verified — 58 heading/transition occurrences / 37 distinct forms**;
+- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107 — 105 pages**;
 - source-numbered scenes: **none**;
-- structural heading/transition occurrences: **58 / 37 distinct forms**;
 - locked scan reading: PDF 56 / p.54 = **`பழுதார் வீதி`**;
 - user scan verdict: PDF 107 / p.105 = **`தூக்குமேடை`**, not `தாக்குமேடை`;
-- canonical Tamil first pass: **draft-in-progress — 60/105 pages**;
-- completed range: **PDF 5–64 / logical pp.3–62**;
-- open first-pass uncertainty markers: **48**;
-- active first-pass authority: `works/ammaiyappan/transcription/index.json`;
-- bounded continuation parts: PDF 15–24, 25–34, 35–44, 45–54 and 55–64; `full-text.md` currently assembled through PDF 14;
-- PDF 64 ends inside marked quoted poetic material that continues onto PDF 65;
+- canonical Tamil first pass: **draft-complete — 105/105 pages**;
+- continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
+- first-pass assembly QA: **PASS — 105 exact source anchors / 0 missing / 0 duplicate**;
+- open first-pass uncertainty markers: **116**;
+- draft pages / verified pages: **105 / 0**;
 - visual fidelity audit: **not-started**;
-- later derivatives: **blocked pending verified Tamil**.
+- scene/dialogue/character derivatives: **blocked pending verified Tamil**;
+- English / reader / Reading Room integration: **blocked**.
 
-Exact next activity: **continue canonical Tamil first-pass transcription from PDF 65 / printed p.63 in a meaningful source-order batch with stable page anchors, preserving the PDF 64→65 continuation and visible uncertainty markers. Complete the full PDF 5–109 first pass and assemble all bounded parts into `full-text.md` before the separate rendered-scan fidelity audit and before scene/dialogue derivatives.**
+Exact next activity: **begin the separate rendered-scan visual fidelity audit at PDF 5 / logical printed p.3 and proceed in source order through PDF 109. Compare every assembled page directly against the controlling scan, adjudicate all 116 explicit uncertainty markers occurrence-by-occurrence, preserve locked source verdicts, and upgrade pages only after direct visual verification. Structured derivatives remain blocked until all 105 canonical pages pass the audit.**
