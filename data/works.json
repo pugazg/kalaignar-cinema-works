@@ -752,25 +752,30 @@
         "rejected": "தாக்குமேடை"
       }
     ],
-    "canonical_tamil_transcription": "draft-in-progress",
-    "canonical_tamil_first_pass_complete": false,
+    "canonical_tamil_transcription": "draft-complete-awaiting-fidelity-audit",
+    "canonical_tamil_first_pass_complete": true,
     "canonical_tamil_pdf_pages": "5-109",
     "canonical_tamil_page_count": 105,
-    "canonical_tamil_first_pass_pages_completed": 60,
-    "canonical_tamil_first_pass_pdf_range_completed": "5-64",
-    "canonical_tamil_first_pass_printed_range_completed": "3-62",
-    "canonical_tamil_draft_pages": 60,
+    "canonical_tamil_first_pass_pages_completed": 105,
+    "canonical_tamil_first_pass_pdf_range_completed": "5-109",
+    "canonical_tamil_first_pass_printed_range_completed": "3-107",
+    "canonical_tamil_draft_pages": 105,
     "canonical_tamil_verified_pages": 0,
     "canonical_tamil_review_pages": 0,
-    "canonical_tamil_open_uncertainty_markers": 48,
+    "canonical_tamil_open_uncertainty_markers": 116,
     "canonical_tamil_index_path": "works/ammaiyappan/transcription/index.json",
-    "canonical_tamil_full_text_current_through_pdf_page": 14,
+    "canonical_tamil_full_text_current_through_pdf_page": 109,
     "canonical_tamil_part_files": [
       "works/ammaiyappan/transcription/parts/pdf-015-024.md",
       "works/ammaiyappan/transcription/parts/pdf-025-034.md",
       "works/ammaiyappan/transcription/parts/pdf-035-044.md",
       "works/ammaiyappan/transcription/parts/pdf-045-054.md",
-      "works/ammaiyappan/transcription/parts/pdf-055-064.md"
+      "works/ammaiyappan/transcription/parts/pdf-055-064.md",
+      "works/ammaiyappan/transcription/parts/pdf-065-074.md",
+      "works/ammaiyappan/transcription/parts/pdf-075-084.md",
+      "works/ammaiyappan/transcription/parts/pdf-085-094.md",
+      "works/ammaiyappan/transcription/parts/pdf-095-104.md",
+      "works/ammaiyappan/transcription/parts/pdf-105-109.md"
     ],
     "tamil_fidelity_audit": "not-started",
     "structured_derivatives": {
@@ -798,6 +803,8 @@
     "open_first_pass_uncertainty_markers": 116,
     "first_pass_assembly": "complete-pass",
     "first_pass_assembly_path": "works/ammaiyappan/transcription/full-text.md",
-    "first_pass_assembly_qa_path": "works/ammaiyappan/transcription/ASSEMBLY_QA.md"
+    "first_pass_assembly_qa_path": "works/ammaiyappan/transcription/ASSEMBLY_QA.md",
+    "canonical_tamil_assembly_status": "complete-pass",
+    "canonical_tamil_assembly_qa_path": "works/ammaiyappan/transcription/ASSEMBLY_QA.md"
   }
 ]
