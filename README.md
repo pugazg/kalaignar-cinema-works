@@ -71,6 +71,25 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 **Next:** no required repository-internal Manthiri Kumari work remains. Apply the verified payload in the separate Reading Room implementation repository only when that repository is explicitly authorized for modification.
 
+## அம்மையப்பன் status
+
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is a newly initialized **111-page image-only screenplay/dialogue booklet**.
+
+- printed title: **`அம்மையப்பன்`**;
+- printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
+- source SHA-256: `eda6468a57022b418f44851a0013b090469bc6f4be44a682487800658771720d`;
+- first edition: **`செப்டம்பர், 1954`**;
+- publisher: **`முரசொலி பதிப்பகம்`, `சென்னை-14`**;
+- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
+- structural mapping: **verified**;
+- source-numbered scenes: **none**;
+- source-visible structural heading/transition occurrences: **58 / 37 distinct forms**;
+- user-reviewed PDF 107 / printed p.105 heading: **`தூக்குமேடை`**;
+- canonical Tamil first pass: **not-started**;
+- structured derivatives / English / reader: **blocked pending verified Tamil**.
+
+**Next:** begin canonical Tamil first-pass transcription at PDF 5 / logical printed p.3, in meaningful source-order batches with stable page anchors; complete a separate visual fidelity audit before any scene/dialogue derivatives.
+
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
 The dedicated anthology work `works/kalaignar-thirai-isai-paadalgal/` is complete-verified for its numbered corpus.
@@ -123,7 +142,7 @@ Parasakthi has complete-verified canonical Tamil and source-linked English reade
 - dialogue records: **1,040**;
 - English: **1,321 verified units**;
 - reader/export: **QA PASS**;
-- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
+- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2cc0cdcc23c7f`.
 
 **Next:** no required Tirumbippaar repository-internal translation/reader/package work remains.
 
