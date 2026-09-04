@@ -14,6 +14,7 @@ Status: **complete-verified — 15/15 source-linked records**.
 - `cross-witness-comparison.md` — comparison against the later `கலைஞர் திரை இசைப் பாடல்கள்` corpus.
 - `match-report-001-oorukku-uzhaippavandi.md` — detailed block-11 witness comparison.
 - `AUTHORSHIP_GATE.md` — lyric-authorship evidence boundary.
+- `../translations/index.json` — complete-verified English translation index for the story summary and all 15 performance records.
 
 ## Record model
 
@@ -45,6 +46,21 @@ These record IDs are **archival navigation identifiers only**. The booklet itsel
 
 `source-only` means only that the current 54-song anthology has no corresponding record. It is not an authorship verdict.
 
+## English checkpoint
+
+The source-linked English layer is now **complete-verified**:
+
+- performance translations: **15/15**;
+- translation sections: **52**;
+- Tamil source lines/cues mapped: **234**;
+- English lines/cues mapped: **234**;
+- line-count mapping mismatches: **0**;
+- cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
+- translation-induced authorship upgrades: **0**;
+- canonical Tamil changed by translation: **no**.
+
+See `../translations/README.md`, `../translations/index.json` and `../translations/FINAL_TRANSLATION_QA.md`.
+
 ## Authority boundary
 
 The canonical Tamil remains `../transcription/full-text.md`. The JSON records are source-linked derivatives and must not be used to silently repair the canonical source layer.
@@ -53,9 +69,6 @@ The booklet's `கதை, வசனம் : மு. கருணாநிதி`
 
 ## Next activity
 
-Proceed to **source-linked English translation** from the completed verified source structures:
+Proceed to the **deterministic bilingual reader/export layer** from the completed verified Tamil and English story-summary/performance structures.
 
-1. the continuous PDF 3–5 story-summary record;
-2. the 15 PDF 6–13 performance records.
-
-Preserve the booklet's natural structure, page provenance, source-visible cues and unresolved lyric-authorship state. Do not convert this source into screenplay scenes.
+Preserve the booklet's natural story-summary + performance navigation, page provenance, source-visible cues and unresolved lyric-authorship state. Do not convert this source into screenplay scenes.
