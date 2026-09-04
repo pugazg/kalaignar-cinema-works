@@ -73,33 +73,25 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first-pass draft coverage is now complete and assembled.
 
 - printed title: **`அம்மையப்பன்`**;
 - printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
 - source SHA-256: `eda6468a57022b418f44851a0013b090469bc6f4be44a682487800658771720d`;
-- first edition: **`செப்டம்பர், 1954`**;
-- publisher: **`முரசொலி பதிப்பகம்`, `சென்னை-14`**;
-- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
+- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107 — 105 pages**;
 - structural mapping: **verified intake map**;
 - source-numbered scenes: **none**;
-- intake structural heading/transition inventory: **58 / 37 distinct forms**;
 - locked PDF 56 / printed p.54 heading: **`பழுதார் வீதி`**;
-- user-reviewed PDF 107 / printed p.105 heading: **`தூக்குமேடை`**;
-- canonical Tamil first pass: **draft-in-progress — 100/105 pages**;
-- completed range: **PDF 5–104 / logical pp.3–102**;
-- open first-pass uncertainty markers: **114**;
-- current continuous `full-text.md`: through **PDF 14**;
-- bounded continuation parts: **PDF 15–104**;
-- newest bounded part: **PDF 95–104**;
-- newest uncertainty ledger: markers **108–114**;
-- PDF 65–74 remains explicitly **draft-high-uncertainty**;
-- PDF 104 ends inside Muthan's speech and PDF 105 visibly continues it;
-- full-text assembly / boundary loss-duplication QA: **pending after final five pages**;
+- locked PDF 107 / printed p.105 heading: **`தூக்குமேடை`**; rejected `தாக்குமேடை` absent;
+- canonical Tamil first pass: **draft-complete — 105/105 pages**;
+- continuous `full-text.md`: **assembled through PDF 109**;
+- first-pass assembly QA: **PASS — 105 anchors, exact PDF 5→109 order, 0 missing, 0 duplicate**;
+- open first-pass uncertainty markers: **116**;
+- verified Tamil pages: **0/105**;
 - visual fidelity audit: **not-started**;
 - structured derivatives / English / reader: **blocked pending verified Tamil**.
 
-**Next:** complete **PDF 105–109 / printed pp.103–107**, preserving the PDF 104→105 continuation and the locked `தூக்குமேடை` heading. Then assemble every bounded part into `full-text.md` and run boundary loss/duplication QA before declaring the first pass closed. The separate full visual fidelity audit comes after assembly; structured derivatives remain blocked.
+**Next:** begin the separate rendered-scan visual fidelity audit at **PDF 5 / logical printed p.3**, proceed page-by-page through PDF 109, and adjudicate all **116** explicit uncertainty markers. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
