@@ -1,0 +1,131 @@
+id: ammaiyappan
+title_ta: "அம்மையப்பன்"
+source_title_ta: "அம்மையப்பன்"
+work_type: film
+source_type: printed_screenplay_dialogue_booklet
+
+credits_as_printed:
+  title_page:
+    role: "கதை வசனம்"
+    name: "மு. கருணாநிதி"
+
+source:
+  identifier: "TVA_BOK_0064230"
+  identifier_basis: "supplied archive filename"
+  filename: "TVA_BOK_0064230_அம்மையப்பன்.pdf"
+  pdf_pages: 111
+  byte_size: 154237539
+  sha256: "eda6468a57022b418f44851a0013b090469bc6f4be44a682487800658771720d"
+  scan_type: image_only
+  embedded_text_observed: false
+  ocr_authority: non_canonical_navigation_only
+  repository_binary_storage: not_committed
+  front_cover_pdf_page: 1
+  title_page_pdf_page: 3
+  edition_statement_pdf_page: 4
+  main_text_pdf_pages: "5-109"
+  back_matter_pdf_pages: "110-111"
+  missing_pages_observed: false
+  duplicate_pages_observed: false
+  content_critical_crop_observed: false
+  non_source_marks:
+    - pdf_page: 1
+      kind: library_or_archive_stamp
+      disposition: excluded_from_canonical_text
+    - pdf_page: 2
+      kind: donor_or_library_label
+      visible_text: "பேராசிரியர். தி.வ. மெய்கண்டார் அவர்களின் அன்பளிப்பு"
+      disposition: excluded_from_canonical_text
+
+publication_as_printed:
+  rights_line: "[ உரிமை பதிவு செய்யப் பட்டிருக்கிறது ]"
+  edition: "முதற் பதிப்பு"
+  publication_month_year: "செப்டம்பர், 1954"
+  publication_year: 1954
+  price: "விலை எட்டணா"
+  publisher_name: "முரசொலி பதிப்பகம்"
+  publisher_location: "சென்னை-14"
+  printer_line: "முரசொலி அச்சகம். 62 எஸ். பி. சன்னதி தெரு. ராயப்பேட்டை, சென்னை 14."
+
+structure:
+  structural_mapping: verified
+  mapping_path: "mapping.md"
+  transition_heading_audit_path: "notes/scene-heading-audit.md"
+  intake_audit_path: "notes/INTAKE_AUDIT.md"
+  main_text_pdf_pages: "5-109"
+  main_text_logical_printed_pages: "3-107"
+  printed_page_formula: "logical printed page = PDF page - 2 for PDF 5-109; PDF 5 folio suppressed, PDF 6 visibly 4, PDF 109 visibly 107"
+  source_numbered_scene_headings: false
+  source_numbered_scene_count: null
+  scene_number_gaps_observed: not_applicable
+  scene_number_repeats_observed: not_applicable
+  scene_number_out_of_order_observed: not_applicable
+  canonical_scene_numbering_introduced: false
+  structural_heading_occurrences: 58
+  distinct_structural_heading_forms: 37
+  user_reviewed_heading_verdicts:
+    - pdf_page: 107
+      logical_printed_page: 105
+      accepted: "தூக்குமேடை"
+      rejected: "தாக்குமேடை"
+  back_matter:
+    - pdf_page: 110
+      kind: advertisement_or_back_matter
+      disposition: excluded_from_canonical_screenplay
+    - pdf_page: 111
+      kind: advertisement_or_back_matter
+      disposition: excluded_from_canonical_screenplay
+
+source_authority:
+  rendered_scan_controls_canonical_tamil: true
+  filename_does_not_control_bibliographic_facts: true
+  user_manual_scan_verdicts_authoritative_for_reviewed_occurrences: true
+  external_audio_web_subtitles_later_editions_may_fill_text: false
+  song_authorship_inferred_from_story_dialogue_credit: false
+
+transcription_progress:
+  status: not-started
+  first_pass_complete: false
+  canonical_pdf_pages: "5-109"
+  canonical_logical_printed_pages: "3-107"
+  canonical_pages_total: 105
+  first_pass_pages_completed: 0
+  verified_pages: 0
+  draft_pages: 0
+  review_pages: 0
+  next_pdf_page: 5
+  next_logical_printed_page: 3
+  next_action: "Canonical Tamil first-pass transcription from PDF 5-109 in source order with stable PDF/logical-printed-page anchors; use meaningful batches and preserve exact source forms."
+
+fidelity_audit:
+  status: not-started
+  canonical_range_audit_complete: false
+  audited_pages: 0
+  unresolved_source_readings: null
+
+structured_derivatives:
+  scene_index: blocked-pending-verified-tamil
+  scene_text_derivatives: blocked-pending-verified-tamil
+  dialogue_index: blocked-pending-verified-tamil
+  character_index: blocked
+  song_authorship_mapping: not-started
+  english_translation: blocked
+  reader_export: blocked
+  reading_room_integration: blocked
+
+status:
+  duplicate_work_check: complete
+  source_intake: complete
+  whole_scan_inspection: complete
+  structural_mapping: verified
+  canonical_tamil_first_pass: not-started
+  visual_fidelity_audit: not-started
+  scene_derivatives: blocked
+  dialogue_index: blocked
+  character_index: blocked
+  song_authorship_gate: not-started
+  english_translation: blocked
+  reader_export: blocked
+  reading_room_integration: blocked
+
+next_action: "Canonical Tamil first-pass transcription from PDF 5-109 in source order with stable PDF/logical-printed-page anchors; followed later by a separate visual fidelity audit before any structured derivatives."
