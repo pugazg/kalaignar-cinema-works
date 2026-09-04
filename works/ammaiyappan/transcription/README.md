@@ -8,12 +8,13 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
 - canonical pages expected: **105**;
-- first-pass pages completed: **5 / 105**;
-- completed range: **PDF 5–9 / logical pp.3–7**;
+- first-pass pages completed: **10 / 105**;
+- completed range: **PDF 5–14 / logical pp.3–12**;
 - current state of completed pages: **draft**;
 - verified pages: **0**;
 - review pages: **0**;
-- next source page: **PDF 10 / printed p.8**;
+- open first-pass uncertain readings: **8**;
+- next source page: **PDF 15 / printed p.13**;
 - full visual fidelity audit: **not-started**.
 
 PDF 5 has no visible printed folio. Its anchor therefore records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
@@ -31,8 +32,14 @@ PDF 5 has no visible printed folio. Its anchor therefore records `logical_printe
 
 Status: **draft complete for this batch**.
 
+## Batch 2 — PDF 10–14
+
+Status: **draft complete for this batch**.
+
+This batch preserves the source headings `மாடம்`, `குதிரைக் கொட்டடி` and `வாள் பயிற்சிக் கூடம்`, plus page-boundary continuation of Maykainathar's speech from PDF 10 into PDF 11. Four new glyph-sensitive readings remain explicitly marked rather than guessed.
+
 Open first-pass readings needing later glyph-level adjudication are recorded in `../notes/textual-notes.md`. They do not block continuation of the first pass.
 
 ## Exact next activity
 
-Continue canonical Tamil first-pass transcription at **PDF 10 / printed p.8**, in a meaningful source-order batch with the same stable anchor and uncertainty policy.
+Continue canonical Tamil first-pass transcription at **PDF 15 / printed p.13**, in a meaningful source-order batch with the same stable anchor and uncertainty policy.
