@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-003",
+  "sequence": 3,
+  "heading_ta": "குமாரி கமலா நடனம்",
+  "occurrence_kind": "dance-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [7],
+  "printed_pages_observed": [6],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "text_ta": "இசைக்கலையே இனிதாமே மேலான\nகானத்திலே ஆனந்தம் பெற்றார் யாரே? (இசை)\n\nவானோர் பாலர் முதலாய்\nஒருயிர் இனமும் உளம் மயங்கும் கீத நாதம்\nதொனி கேட்டுமே—இன்னிசை\nதொனி கேட்டுமே பொல்லாத நாகமும்\nதன்னை மறந்தாடும் நிலை காணும் உலகினிலே (இசை)\nவீணையில் எழும் நாதமோடு புதுமையும்\nகூடிடவே குரலே தெளிவாய்\nமேலான இனிய ராக நயமுடன்—சுதியும்\nதாளம் நன்றிணைந்திடவே\nபாவமொடு தான் சொல்லும் எளிதாய்—பொருள்\nமேவும் இசைப்பாடல் தனைப்பாடினால்\nஇதயமீது உவகையே துள்ளிடவே\nகலையை யாவருமே புகழ்வாரே\nகிடைக்காததே சங்கீத ஞானமே\nவையமீதிலொரு நிதியாமே—புகலரிய (இசை)"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["(இசை)"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Dance/performance block with recurring source-visible இசை cue."
+}
