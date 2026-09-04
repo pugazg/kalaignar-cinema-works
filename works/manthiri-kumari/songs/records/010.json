@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-010",
+  "sequence": 10,
+  "heading_ta": "லலிதா—பத்மினி—ராகினி நடனம்",
+  "occurrence_kind": "dance-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [11],
+  "printed_pages_observed": [10],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "text_ta": "ஓ......ராஜா......ஓ......ராணி!\nமிக—ஏழை எளிய எங்க மனசு குளிர இந்த\nகுடிசை வழியே வாங்க!—(ஓ)\nஅழகு ராணியே!\nபுது—மனமே தருமா மலரே இதுதான் நீயே பார்\nமலரே இதுதான் நீயே பார்\nஒரு ஜோடி மாடப்புறா!\nஇணைபிரியோமே கூரைமீதிலே\nபாடுதுபாரே ஆசைகொண்டுதான்!......ஆ......\nஆசைக்கொள்ளாதே ஐயா எந்தன்மேலே\nகோவங்கொள்வாங்க இந்தராணி உன்மேலே\nமோகம் பொல்லாதே வேறே பெண்மேலே?\nராஜாத்தி பாரிதோ ரோசாப்பூ போலே......\nமீசை உள்ள ராஜா கள்ளத்தனமே\nகூடாது சாமி வீணே பேராசையாலே\nமோசம் செய்யாதே ஆகாதுதானே!\nவாலிபம் நில்லாதே எந்நாளும் தானே\nதீதெண்ணிடாதே கண்ணான என் வீரா!\nஊரெல்லாம் நீயே சென்றாலும் தானே\nஅம்மா போலே அழகு எங்கேயேனும் காணவும்\nஆகுமோ சாமி!\nஓ......ராசா எந்நாளும் இன்பமாகவே ஒன்றாய் வாழுவீரே!"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["(ஓ)"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Single-page dance/performance block."
+}
