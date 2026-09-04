@@ -2,7 +2,7 @@
 
 Source: `TVA_BOK_0026144_மந்திரி_குமாரி.pdf`  
 Source section: PDF **6–13**  
-Inventory status: **15/15 source blocks classified against the current Kalaignar song anthology corpus**
+Inventory status: **15/15 source blocks classified; 15/15 source-linked structured records complete-verified**
 
 The booklet prints performance blocks, not a simple numbered soundtrack list. Source structure is preserved before any authorship interpretation.
 
@@ -26,6 +26,31 @@ The booklet prints performance blocks, not a simple numbered soundtrack list. So
 | 14 | `உழவன்—தொகையறா` | 13 | `தொகையறா` followed by `பாட்டு` material | no existing anthology song record |
 | 15 | `ராஜகுமாரி` | 13 | song/performance; distinct source occurrence | no existing anthology song record |
 
+## Structured record layer
+
+Machine-readable records now exist under `records/001.json`–`records/015.json` with schema `schema.json` and index `index.json`.
+
+Each record preserves:
+
+- one stable archival ID;
+- exact printed heading;
+- complete verified Tamil split by source-page segment;
+- PDF and observed printed-page provenance;
+- source-visible `தொகையறா` / `பாட்டு` subdivisions;
+- source-visible speaker/performance cues;
+- current cross-witness disposition;
+- item-level authorship status.
+
+QA checkpoint:
+
+- expected/completed records: **15 / 15**;
+- missing/duplicate record IDs: **0 / 0**;
+- PDF coverage: **6–13, 8/8 pages represented**;
+- canonical Tamil changed by record creation: **no**;
+- synthetic screenplay scene IDs created: **0**.
+
+The record IDs are archival navigation only; the booklet itself does not number these blocks.
+
 ## Corpus comparison result
 
 The verified 54-song `கலைஞர் திரை இசைப் பாடல்கள்` index contains exactly one `மந்திரிகுமாரி` record: `kalaignar-song-001` (`ஊருக்கு உழைப்பவண்டி`). Consequently:
@@ -43,12 +68,22 @@ No item-level lyric authorship is assigned from the film-wide `கதை, வச
 
 For blocks 1–10 and 12–15, `source-only` means only **not represented in the current 54-song Kalaignar anthology corpus**. It does not establish positive or negative lyric authorship.
 
-Block 11 is linked as an existing textual witness, but the booklet's story/dialogue credit alone still does not establish its lyric authorship.
+Block 11 is linked as an existing textual witness, but the booklet's story/dialogue credit alone still does not establish its original-booklet item-level lyric authorship. The later anthology relationship remains a separately recorded evidence layer.
+
+Current authorship disposition in the 15 source-linked records:
+
+- booklet item-level lyricist verified: **0/15**;
+- unresolved at this evidence tier: **15/15**.
 
 ## Source-text correction note
 
-User-reviewed canonical source corrections now establish `தொகையறா` as the printed subdivision label and `தளபதி பார்ட்டி கோரஸ்` as block 7's exact heading. This inventory mirrors those verified source forms.
+User-reviewed canonical source corrections establish `தொகையறா` as the printed subdivision label and `தளபதி பார்ட்டி கோரஸ்` as block 7's exact heading. The inventory and all structured records mirror those verified source forms.
 
 ## Next gate
 
-After documenting the line-level textual variants for block 11, item-level authorship research may proceed separately. External evidence, if used, must be recorded as evidence and must never be used to supply or repair canonical booklet lyrics.
+The source-appropriate Tamil derivative structure is now complete. Proceed to **source-linked English translation** of:
+
+1. the continuous PDF 3–5 story-summary record; and
+2. all 15 PDF 6–13 song/performance records.
+
+Preserve the booklet's natural structure, source-page provenance, source-visible cues and unresolved lyric-authorship state. Do not manufacture screenplay scenes or use external evidence to repair canonical Tamil.
