@@ -55,7 +55,7 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 
 ## மந்திரி குமாரி status
 
-`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose canonical Tamil source layer is now complete-verified.
+`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose canonical Tamil source layer and continuous story-summary derivative are now complete-verified.
 
 - source classification: **film story-and-song booklet**, not a full screenplay/dialogue book;
 - cover title: **`மந்திரி குமாரி`** under `மாடர்ன் தியேட்டர்ஸ்`;
@@ -73,18 +73,18 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 - later user-approved song/performance lexical corrections: **applied and reconciled**;
 - source subdivision form: **`தொகையறா`** where applicable;
 - credits derivative: **complete-verified**;
-- story-summary derivative: **initialized; source-linked completion pending**;
+- story-summary derivative: **complete-verified — PDF 3–5 / 3 source pages / 1 continuous record / 0 synthetic scene IDs / 0 immutable dialogue IDs**;
 - song/performance inventory: **15/15 complete**;
 - cross-witness classification: **complete — 1 confirmed current-anthology witness / 14 source-only blocks**;
 - block-11 `மாட்டுக்கார பையன்` witness report: **complete-reconciled**;
 - item-level lyric authorship verified by this booklet: **0/15**; all 15 remain at the separate evidence gate;
-- source-linked structured records for the 15 performance blocks: **not-started**;
+- source-linked structured records for the 15 performance blocks: **not-started — 0/15**;
 - scene/dialogue derivatives: **not applicable as a full-work model from this source**;
-- English translation: **blocked until source-appropriate Tamil derivatives are complete**.
+- English translation: **blocked until the 15 source-linked performance records are complete**.
 
 The booklet's story/dialogue credit is primary-source evidence for that authorship role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and has not been used to repair this booklet's canonical text.
 
-**Next:** complete the source-linked continuous PDF 3–5 story-summary derivative from verified Tamil, preserving page provenance and prose structure; then create source-linked structured records for all 15 PDF 6–13 performance blocks without changing their cautious authorship/cross-witness dispositions.
+**Next:** create source-linked structured records for all 15 PDF 6–13 performance blocks, preserving exact source headings, page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the current cross-witness dispositions and unresolved item-level lyric authorship unless separately evidenced.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
