@@ -463,9 +463,23 @@
       "bilingual_reader_item_level_lyric_authorship_unresolved": 15,
       "bilingual_reader_synthetic_scene_ids_created": 0,
       "bilingual_reader_qa": "PASS",
-      "reading_room_integration": "ready-not-started"
+      "reading_room_integration": "payload-complete-verified",
+      "reading_room_payload_path": "works/manthiri-kumari/integrations/reading-room/reading-room.json",
+      "reading_room_payload_mode": "source-linked-composition",
+      "reading_room_payload_qa": "PASS",
+      "reading_room_payload_qa_report_path": "works/manthiri-kumari/integrations/reading-room/QA_REPORT.md",
+      "reading_room_payload_manifest_path": "works/manthiri-kumari/integrations/reading-room/manifest.json",
+      "reading_room_payload_validator_path": "works/manthiri-kumari/integrations/reading-room/build.py",
+      "reading_room_payload_source_link_targets": 32,
+      "reading_room_payload_story_summary_units": 13,
+      "reading_room_payload_performance_records": 15,
+      "reading_room_payload_performance_sections": 52,
+      "reading_room_payload_performance_line_cues": 234,
+      "reading_room_payload_bytes": 15704,
+      "reading_room_payload_sha256": "20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43",
+      "reading_room_site_application": "not-applied"
     },
-    "next_action": "Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving story-summary plus 15-performance navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes or upgrade authorship through presentation metadata."
+    "next_action": "No required repository-internal Manthiri Kumari work remains. Apply the verified source-linked Reading Room payload in the separate implementation repository only when explicitly authorized; preserve natural story-summary plus 15-performance navigation and all evidence tiers."
   },
   {
     "id": "raja-rani",
