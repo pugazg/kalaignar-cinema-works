@@ -55,7 +55,7 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 
 ## மந்திரி குமாரி status
 
-`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose source-appropriate Tamil and English archival structures are now complete-verified.
+`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose source-appropriate Tamil, English and deterministic bilingual reader layers are now complete-verified.
 
 - source classification: **film story-and-song booklet**, not a full screenplay/dialogue book;
 - cover title: **`மந்திரி குமாரி`** under `மாடர்ன் தியேட்டர்ஸ்`;
@@ -79,15 +79,18 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 - English performance translation: **15/15 complete-verified — 52 sections / 234 Tamil line-cues / 234 English line-cues / 0 mapping mismatches**;
 - cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
 - translation final QA: **PASS**;
-- authorship upgrades caused by translation: **0**;
-- canonical Tamil changed by translation: **no**;
+- deterministic bilingual reader/export: **complete-verified, QA PASS**;
+- reader navigation: **16 natural source structures — 1 story summary + 15 performance blocks**;
+- reader performance mapping: **52 sections / 234 Tamil line-cues / 234 English line-cues / 0 mismatches**;
+- reader outputs: **machine JSON / Markdown / standalone HTML + preflight QA + final QA + integrity manifest**;
+- authorship upgrades caused by translation/reader: **0**;
+- canonical Tamil changed by translation/reader: **no**;
 - synthetic screenplay scene IDs created: **0**;
-- deterministic bilingual reader/export: **ready / not-started**;
-- Reading Room integration: **blocked pending reader/export QA**.
+- Reading Room integration payload: **ready / not-started**.
 
-The booklet's story/dialogue credit is primary-source evidence for that role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and did not repair the booklet text. Translation likewise leaves all 15 item-level lyricists unresolved unless separate evidence is later added.
+The booklet's story/dialogue credit is primary-source evidence for that role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and did not repair the booklet text. Translation and reader construction likewise leave all 15 item-level lyricists unresolved unless separate evidence is later added.
 
-**Next:** build and QA a deterministic bilingual reader/export layer from the verified story-summary and 15 performance translations, preserving natural `கதைச்சுருக்கம்` + performance navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved lyric-authorship state. Do not invent screenplay scenes.
+**Next:** prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving the natural story-summary + 15-performance navigation, Tamil/English pairing, PDF-page provenance, source-visible cues, the 1/15 anthology relationship and 15/15 unresolved item-level lyricists. Site application remains a separate downstream action.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
