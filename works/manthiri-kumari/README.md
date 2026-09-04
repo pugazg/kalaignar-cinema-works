@@ -28,73 +28,86 @@ PDF creation metadata is scan metadata only and is not used as publication evide
 
 There is **no source scene-numbering system** and this booklet does not provide a full dialogue screenplay. Do not manufacture `scenes/` or a film-wide dialogue index from the prose synopsis.
 
-See `mapping.md` for the whole-source map and the exact 15-block heading sequence.
-
 ## Canonical Tamil checkpoint
 
-Canonical source-order Tamil for PDF **2–13** is stored in:
-
-`transcription/full-text.md`
-
-Current source status:
+Canonical source-order Tamil for PDF **2–13** is stored in `transcription/full-text.md`.
 
 - canonical Tamil first pass: **complete — PDF 2–13**;
 - visual fidelity audit: **complete-verified — 12/12 canonical PDF pages**;
-- canonical page anchors: **12/12 verified**;
 - unresolved canonical readings: **0**;
 - post-fidelity user scan review: **recorded and applied**;
-- later user-approved lexical/spelling campaign across the song/performance section: **applied and reconciled**;
-- source subdivision form: **`தொகையறா`** wherever printed/applicable in this work.
+- later user-approved lexical/spelling campaign: **applied and reconciled**;
+- source subdivision form: **`தொகையறா`** wherever printed/applicable.
 
-The initial audit history is retained in `notes/fidelity-audit.md`. Subsequent source-reviewed corrections are recorded in `notes/post-fidelity-corrections.md`. These later corrections refine verified canonical readings; they do not authorize normalization from OCR, film audio, web text or the later anthology.
+Correction history is preserved in `notes/fidelity-audit.md` and `notes/post-fidelity-corrections.md`.
 
-## Source-derived layers
+## Source-derived Tamil layers
 
 ### Credits
 
-`credits/credits.yaml` is **complete-verified from PDF 2** for the source-supported credit boundary:
+`credits/credits.yaml` is **complete-verified from PDF 2**.
 
-- `கதை, வசனம் : மு. கருணாநிதி` — primary-source verified for story/dialogue;
-- item-level lyric authorship — **not assigned from the film-wide credit**.
+The printed `கதை, வசனம் : மு. கருணாநிதி` establishes story/dialogue credit only; it does not automatically establish lyric authorship for the performance blocks.
 
 ### Story summary
 
-The continuous PDF **3–5** prose `கதைச்சுருக்கம்` derivative is **complete-verified**.
+The continuous PDF **3–5** prose derivative is **complete-verified**:
 
-- derivative text: `story-summary/full-text.md`;
-- machine index: `story-summary/index.json`;
-- source PDF pages represented: **3/3**;
-- continuous story-summary records: **1** — `manthiri-kumari-story-summary-001`;
-- synthetic screenplay scene IDs created: **0**;
-- immutable dialogue IDs created from synopsis speech: **0**;
-- canonical Tamil beneath it: **verified and unchanged by derivative creation**.
+- `story-summary/full-text.md`;
+- `story-summary/index.json`;
+- source pages: **3/3**;
+- records: **1 continuous-prose record**;
+- synthetic screenplay scene IDs: **0**;
+- immutable dialogue IDs manufactured from synopsis speech: **0**.
 
 ### Songs / performances
 
-The PDF **6–13** source-linked performance layer is now **complete-verified**.
+The PDF **6–13** source-linked performance layer is **complete-verified**:
 
-- performance inventory: **15/15 classified**;
-- structured-record schema: `songs/schema.json`;
-- machine index: `songs/index.json`;
-- source-linked records: **15/15 complete** — `songs/records/001.json` through `015.json`;
-- source PDF pages represented: **8/8 — PDF 6–13**;
+- `songs/schema.json`;
+- `songs/index.json`;
+- `songs/records/001.json` through `015.json`;
+- records: **15/15**;
+- source pages represented: **8/8 — PDF 6–13**;
 - missing / duplicate record IDs: **0 / 0**;
-- exact heading reconciliation: **complete**;
-- `தொகையறா` / `பாட்டு` subdivisions and source-visible speaker/performance cues: **preserved in the records**;
-- later-anthology cross-witness classification: **complete**;
-- confirmed existing anthology witness: **1/15** — record 011 `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`;
-- source-only blocks in the current 54-song anthology corpus: **14/15**;
-- duplicate parent anthology records created: **0**;
-- existing parent anthology lyrics modified: **0**;
-- block-11 line-level witness report: **complete-reconciled**;
-- booklet item-level lyricist credits: **0/15**;
-- item-level lyric authorship at this evidence tier: **15/15 unresolved**;
-- canonical Tamil changed by structured-record creation: **no**;
+- exact headings, `தொகையறா` / `பாட்டு` subdivisions and source-visible speaker/performance cues: **preserved**;
+- current-anthology witness: **1/15** — block 11 `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001`;
+- source-only relative to the current anthology: **14/15**;
+- booklet item-level lyric authorship: **0 verified / 15 unresolved**;
+- canonical Tamil changed by record creation: **no**;
 - synthetic screenplay scene IDs created: **0**.
 
-`source-only` means only that no corresponding record is present in the current anthology corpus; it is not a positive or negative lyric-authorship verdict.
+## English translation checkpoint
 
-The booklet-level authorship gate is complete at its available evidence tier. Future item-level authorship research may still upgrade individual records if independently supported; unresolved authorship does not block translation.
+The source-linked English layer under `translations/` is now **complete-verified**.
+
+### Story summary English
+
+- record: `translations/story-summary.json`;
+- schema: `translations/story-summary.schema.json`;
+- translated records: **1/1**;
+- logical prose units: **13**;
+- cross-page prose units: **1**;
+- translation mode: `semantic-source-faithful-prose`.
+
+### Performance English
+
+- records: `translations/performances/001.json` through `015.json`;
+- schema: `translations/performance.schema.json`;
+- index: `translations/index.json`;
+- final QA: `translations/FINAL_TRANSLATION_QA.md`;
+- translated performance records: **15/15**;
+- translation sections: **52**;
+- Tamil source lines/cues mapped: **234**;
+- English lines/cues mapped: **234**;
+- mapping mismatches: **0**;
+- cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
+- authorship upgrades caused by translation: **0**;
+- booklet item-level lyricist state after translation: **0 verified / 15 unresolved**;
+- canonical Tamil changed by translation: **no**;
+- synthetic screenplay scene IDs created: **0**.
+
+The English layer preserves source-visible cues and structural labels rather than flattening them. Performance 13 also preserves the source mismatch between the printed heading `பார்த்திபன்—மந்திரிகுமாரி` and its internal turn labels `பார்த்திபன்` / `அமுதவல்லி`.
 
 ## Current status
 
@@ -106,14 +119,15 @@ The booklet-level authorship gate is complete at its available evidence tier. Fu
 - visual fidelity audit: **complete**;
 - post-fidelity correction reconciliation: **complete**;
 - credits/cast derivative: **complete-verified**;
-- story-summary derivative: **complete-verified — 1 continuous record / 3 source pages**;
-- song/performance structured layer: **complete-verified — 15/15 records / PDF 6–13**;
+- story-summary Tamil derivative: **complete-verified**;
+- song/performance structured Tamil layer: **complete-verified — 15/15**;
 - song cross-witness comparison: **complete**;
-- song booklet-evidence authorship gate: **complete — 15/15 unresolved item-level lyricists**;
-- scene/dialogue derivatives: **not applicable from this source as a full-work model**;
-- English translation: **ready / not-started**;
-- reader/export and Reading Room integration: **blocked pending English translation**.
+- song booklet-evidence authorship gate: **complete-with-unresolved-item-authorship — 15 unresolved**;
+- English translation: **complete-verified**;
+- reader/export: **ready / not-started**;
+- Reading Room integration: **blocked pending reader/export QA**;
+- scene/dialogue full-work derivatives: **not applicable from this source**.
 
 ## Exact next activity
 
-> **Begin source-linked English translation from the completed verified source structures: the continuous PDF 3–5 story-summary record and the 15 PDF 6–13 song/performance records. Preserve source order, page provenance, performance/speaker cues, `தொகையறா` / `பாட்டு` distinctions and unresolved item-level lyric authorship. Do not convert this booklet into screenplay scenes, and do not use translation to repair canonical Tamil.**
+> **Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures. Preserve the booklet's natural `கதைச்சுருக்கம்` + performance navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship. Do not invent screenplay scenes.**
