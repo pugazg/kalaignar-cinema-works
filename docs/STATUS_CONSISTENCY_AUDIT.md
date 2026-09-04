@@ -6,11 +6,11 @@ Branch: `main`
 
 ## Scope
 
-This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all six registered works. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
+This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **seven registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
 
 ## Result
 
-**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari Reading Room payload completion checkpoint.**
+**PASS — current status mirrors synchronized across all seven works at the Ammayappan source-intake / structural-mapping checkpoint.**
 
 ## Current work matrix
 
@@ -22,6 +22,38 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
+| Ammayappan | source intake 111/111; structural map verified; Tamil first pass not-started | scene/dialogue/character blocked pending verified Tamil | blocked | blocked |
+
+## Ammayappan intake / structural-mapping checkpoint
+
+- source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`;
+- PDF pages: **111**;
+- byte size: **154,237,539**;
+- SHA-256: `eda6468a57022b418f44851a0013b090469bc6f4be44a682487800658771720d`;
+- scan type: **image-only**;
+- printed title: **`அம்மையப்பன்`**;
+- printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
+- publisher: **`முரசொலி பதிப்பகம்`, `சென்னை-14`**;
+- edition/date: **`முதற் பதிப்பு` / `செப்டம்பர், 1954`**;
+- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
+- pagination rule: **logical printed page = PDF page - 2** across PDF 5–109; PDF 5 folio suppressed, PDF 6 visibly p.4, PDF 109 visibly p.107;
+- PDF 110–111: **advertisement/back matter**, excluded from canonical screenplay;
+- source-numbered scenes: **none**;
+- structural heading/transition occurrences: **58**;
+- distinct printed heading forms: **37**;
+- transition ledger: `works/ammaiyappan/notes/scene-heading-audit.md`;
+- PDF 56 / printed p.54 glyph-sensitive heading: **`பழுதார் வீதி`**;
+- PDF 107 / printed p.105 user-reviewed heading: **`தூக்குமேடை`**; rejected provisional reading **`தாக்குமேடை`**;
+- missing main-text pages observed: **0**;
+- duplicate main-text pages observed: **0**;
+- content-critical crop observed: **0**;
+- canonical Tamil first pass: **not-started — 0/105 pages**;
+- visual fidelity audit: **not-started**;
+- scene / dialogue / character derivatives: **blocked pending verified Tamil**;
+- song/performance authorship gate: **not-started**;
+- English translation / reader / Reading Room integration: **blocked**.
+
+The exact next activity is **canonical Tamil first-pass transcription from PDF 5 / logical printed p.3, in meaningful source-order batches with stable PDF/logical-page anchors. A separate full rendered-scan fidelity audit must follow before any scene/dialogue derivatives.**
 
 ## Manthiri Kumari reconciliation checkpoint
 
@@ -101,4 +133,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The Manthiri Kumari **Reading Room payload phase is closed and synchronized**. The source-linked integration payload passes QA with **32 linked source/translation targets, 13 synopsis units, 15 performance blocks, 52 sections and 234 line-cues**, while preserving source/page provenance, the **1 confirmed anthology witness / 14 source-only** disposition, the **0 verified / 15 unresolved** item-level lyric-authorship state, and zero synthetic scenes or authorship upgrades. The committed payload is **15,704 bytes**, SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`. Site application remains **not-applied** and is a separate downstream action requiring explicit authorization for the implementation repository. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining.
+The **Ammayappan source-intake / structural-mapping phase is closed and synchronized**. All seven registered works are represented in the current project mirrors. Ammayappan has **111/111 pages inspected**, verified bibliographic/source bounds, **PDF 5–109 / logical pp.3–107** mapped as the screenplay body, **58 source-visible transition-heading occurrences / 37 distinct forms**, no printed scene numbering, and canonical Tamil explicitly **not-started**. The user-reviewed `தூக்குமேடை` reading is preserved. The next repository activity is Ammayappan canonical Tamil first-pass transcription; no structured derivative is unblocked until a later full visual fidelity audit verifies that Tamil.
