@@ -598,5 +598,46 @@
       "reading_room_site_application": "not-applied"
     },
     "next_action": "No required Raja Rani repository-internal work remains. Apply the complete-verified Reading Room payload in the separate implementation repository only when explicitly authorized; site application is not applied."
+  },
+  {
+    "id": "ammaiyappan",
+    "title_ta": "அம்மையப்பன்",
+    "source_title_ta": "அம்மையப்பன்",
+    "work_type": "film",
+    "source_type": "printed_screenplay_dialogue_booklet",
+    "source_identifier": "TVA_BOK_0064230",
+    "source_pdf_pages": 111,
+    "source_sha256": "eda6468a57022b418f44851a0013b090469bc6f4be44a682487800658771720d",
+    "story_dialogue_credit_as_printed": "கதை வசனம் / மு. கருணாநிதி",
+    "publication_year_as_printed": 1954,
+    "edition_statement_as_printed": "முதற் பதிப்பு / செப்டம்பர், 1954",
+    "publisher_as_printed": "முரசொலி பதிப்பகம் / சென்னை-14",
+    "main_text_pdf_pages": "5-109",
+    "main_text_logical_printed_pages": "3-107",
+    "structural_mapping": "verified",
+    "source_numbered_scene_headings": false,
+    "source_numbered_scene_count": null,
+    "structural_heading_occurrences": 58,
+    "distinct_structural_heading_forms": 37,
+    "user_reviewed_heading_verdicts": [
+      {"pdf_page": 107, "printed_page": 105, "accepted": "தூக்குமேடை", "rejected": "தாக்குமேடை"}
+    ],
+    "canonical_tamil_transcription": "not-started",
+    "canonical_tamil_first_pass_complete": false,
+    "canonical_tamil_pdf_pages": "5-109",
+    "canonical_tamil_page_count": 105,
+    "canonical_tamil_verified_pages": 0,
+    "canonical_tamil_review_pages": 0,
+    "tamil_fidelity_audit": "not-started",
+    "structured_derivatives": {
+      "scene_index": "blocked-pending-verified-tamil",
+      "dialogue_index": "blocked-pending-verified-tamil",
+      "character_index": "blocked",
+      "song_authorship_mapping": "not-started",
+      "english_translation": "blocked",
+      "reader_export": "blocked",
+      "reading_room_integration": "blocked"
+    },
+    "next_action": "Canonical Tamil first-pass transcription from PDF 5-109 in source order with stable PDF/logical-printed-page anchors; follow later with a separate rendered-scan visual fidelity audit before structured derivatives."
   }
 ]
