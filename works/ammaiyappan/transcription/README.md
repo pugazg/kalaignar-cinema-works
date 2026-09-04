@@ -8,16 +8,26 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
 - canonical pages expected: **105**;
-- first-pass pages completed: **10 / 105**;
-- completed range: **PDF 5–14 / logical pp.3–12**;
+- first-pass pages completed: **20 / 105**;
+- completed range: **PDF 5–24 / logical pp.3–22**;
 - current state of completed pages: **draft**;
 - verified pages: **0**;
 - review pages: **0**;
-- open first-pass uncertain readings: **8**;
-- next source page: **PDF 15 / printed p.13**;
+- open first-pass uncertain readings: **11**;
+- next source page: **PDF 25 / printed p.23**;
 - full visual fidelity audit: **not-started**.
 
 PDF 5 has no visible printed folio. Its anchor therefore records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
+
+## First-pass storage / assembly
+
+`index.json` is the active progress/assembly authority while the first pass is growing.
+
+- `full-text.md` currently contains the assembled continuous draft through **PDF 14**;
+- `parts/pdf-015-024.md` contains the next bounded source-order draft batch, **PDF 15–24**;
+- before the full PDF 5–109 first pass is declared complete, all bounded part files must be assembled into `full-text.md` in exact source order and checked for boundary loss/duplication.
+
+This temporary part-file workflow avoids repeatedly rewriting an increasingly large canonical draft while preserving stable page provenance.
 
 ## First-pass policy
 
@@ -36,10 +46,16 @@ Status: **draft complete for this batch**.
 
 Status: **draft complete for this batch**.
 
-This batch preserves the source headings `மாடம்`, `குதிரைக் கொட்டடி` and `வாள் பயிற்சிக் கூடம்`, plus page-boundary continuation of Maykainathar's speech from PDF 10 into PDF 11. Four new glyph-sensitive readings remain explicitly marked rather than guessed.
+This batch preserves the source headings `மாடம்`, `குதிரைக் கொட்டடி` and `வாள் பயிற்சிக் கூடம்`, plus page-boundary continuation of Maykainathar's speech from PDF 10 into PDF 11.
+
+## Batch 3 — PDF 15–24
+
+Status: **draft complete for this batch**.
+
+Stored in `parts/pdf-015-024.md`. The batch preserves the source transitions `சுகதேவன் அறை`, `திரிசங்கு வீட்டின் கொல்லைப்புறம்`, `பலதேவர் மாளிகை` and `ஆற்றங்கரை`, plus the source-visible cross-page split in Sukhadev's line from PDF 19 (`...அதா`) to PDF 20 (`வது காதல்...`). Three new glyph-sensitive/quoted-text readings remain visibly marked.
 
 Open first-pass readings needing later glyph-level adjudication are recorded in `../notes/textual-notes.md`. They do not block continuation of the first pass.
 
 ## Exact next activity
 
-Continue canonical Tamil first-pass transcription at **PDF 15 / printed p.13**, in a meaningful source-order batch with the same stable anchor and uncertainty policy.
+Continue canonical Tamil first-pass transcription at **PDF 25 / printed p.23**, in a meaningful source-order batch with the same stable anchor and uncertainty policy. Do not start scene/dialogue derivatives.
