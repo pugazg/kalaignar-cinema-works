@@ -116,7 +116,22 @@ English translation is **complete-verified** under `translations/`:
 - synthetic scene IDs: **0**;
 - canonical Tamil changed by translation: **no**.
 
-Source-visible structural/performance cues remain represented in the English records rather than being flattened away.
+## Bilingual reader/export layer
+
+Reader/export is **complete-verified — QA PASS** under `editions/bilingual/`.
+
+- navigation model: `story-summary-plus-performance-blocks`;
+- top-level source units: **16/16** — 1 story summary + 15 performances;
+- story-summary logical units: **13/13**;
+- performance sections: **52/52**;
+- Tamil / English performance line-cues: **234 / 234**;
+- line-pair mismatches: **0**;
+- cross-page performance records retained: **7/7**;
+- synthetic scene IDs: **0**;
+- canonical Tamil changed: **no**;
+- QA: **PASS**.
+
+The reader composition is `editions/bilingual/reader-edition.json`; the HTML surface loads only the verified translation records named there, so the reader does not become a competing textual authority.
 
 ## Authorship boundary
 
@@ -126,9 +141,9 @@ The booklet does **not** provide a source-visible item-level lyricist line for e
 
 - booklet item-level lyricists verified: **0/15**;
 - unresolved item-level lyricists: **15/15**;
-- translation-induced authorship upgrades: **0**.
+- translation/reader-induced authorship upgrades: **0**.
 
-Unresolved authorship does not block translation or reader construction; it must remain visible in downstream metadata unless separately evidenced.
+Unresolved authorship does not block translation, reader construction or Reading Room payload preparation; it must remain visible in downstream metadata unless separately evidenced.
 
 ## Known cross-witness relationship
 
@@ -157,9 +172,10 @@ The later anthology contains one current `மந்திரிகுமார�
 - song/performance Tamil records: **complete-verified — 15/15**;
 - booklet-evidence lyric-authorship gate: **complete-with-unresolved-item-authorship — 15 unresolved**;
 - English translation: **complete-verified**;
-- reader/export: **ready / not-started**;
+- bilingual reader/export: **complete-verified — QA PASS**;
+- Reading Room integration: **ready / not-started**;
 - scene/dialogue full-work model: **not supported by this booklet**.
 
 ## Exact next activity
 
-> **Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures. Preserve the booklet's natural story-summary + performance navigation, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship. Do not invent screenplay scenes.**
+> **Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader. Preserve the booklet's natural story-summary + 15-performance navigation, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship. Do not invent screenplay scenes or upgrade authorship through presentation metadata.**
