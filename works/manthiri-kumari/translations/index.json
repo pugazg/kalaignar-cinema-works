@@ -66,5 +66,16 @@
     "performance_english_line_cues": 234,
     "qa": "PASS"
   },
-  "next_action": "Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving story-summary plus 15-performance navigation and unresolved item-level lyric authorship."
+  "reading_room_integration": {
+    "status": "payload-complete-verified",
+    "payload_path": "../integrations/reading-room/reading-room.json",
+    "payload_mode": "source-linked-composition",
+    "qa_path": "../integrations/reading-room/QA_REPORT.md",
+    "manifest_path": "../integrations/reading-room/manifest.json",
+    "payload_bytes": 15704,
+    "payload_sha256": "20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43",
+    "site_application_status": "not-applied",
+    "qa": "PASS"
+  },
+  "next_action": "No required repository-internal Manthiri Kumari work remains. Apply the verified source-linked payload in the separate Reading Room implementation repository only when explicitly authorized."
 }
