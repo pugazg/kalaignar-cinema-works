@@ -59,12 +59,15 @@ The initial audit history is retained in `notes/fidelity-audit.md`. Subsequent s
 
 ### Story summary
 
-`story-summary/` is initialized for the continuous PDF **3–5** prose `கதைச்சுருக்கம்`.
+The continuous PDF **3–5** prose `கதைச்சுருக்கம்` derivative is **complete-verified**.
 
-- canonical Tamil beneath it: **verified**;
-- structured/source-linked derivative: **pending completion**;
-- screenplay-scene conversion: **not applicable**;
-- immutable dialogue extraction from reported speech: **not applicable**.
+- derivative text: `story-summary/full-text.md`;
+- machine index: `story-summary/index.json`;
+- source PDF pages represented: **3/3**;
+- continuous story-summary records: **1** — `manthiri-kumari-story-summary-001`;
+- synthetic screenplay scene IDs created: **0**;
+- immutable dialogue IDs created from synopsis speech: **0**;
+- canonical Tamil beneath it: **verified and unchanged by derivative creation**.
 
 ### Songs / performances
 
@@ -79,7 +82,8 @@ The booklet prints **15** separately headed source blocks across PDF **6–13**.
 - existing parent anthology lyrics modified: **0**;
 - block-11 line-level witness report: **reconciled after the user-approved lexical corrections**;
 - item-level lyric authorship verified from this booklet: **0/15**;
-- performance blocks requiring separate item-level evidence: **15/15**.
+- performance blocks requiring separate item-level evidence: **15/15**;
+- source-linked structured records for the 15 blocks: **not-started — 0/15**.
 
 `source-only` means only that no corresponding record is present in the current anthology corpus; it is not a positive or negative lyric-authorship verdict.
 
@@ -93,15 +97,15 @@ The booklet prints **15** separately headed source blocks across PDF **6–13**.
 - visual fidelity audit: **complete**;
 - post-fidelity correction reconciliation: **complete for currently existing affected derivatives**;
 - credits/cast derivative: **complete-verified**;
-- story-summary derivative: **initialized; completion pending**;
+- story-summary derivative: **complete-verified — 1 continuous record / 3 source pages**;
 - song/performance inventory: **15/15 complete**;
 - song cross-witness comparison: **complete**;
 - song item-level authorship gate: **initialized; 15 pending separate evidence**;
-- source-linked structured records for all 15 performance blocks: **not-started**;
+- source-linked structured records for all 15 performance blocks: **not-started — 0/15**;
 - scene/dialogue derivatives: **not applicable from this source as a full-work model**;
-- English translation: **blocked until the source-appropriate Tamil derivative structures are complete**;
+- English translation: **blocked until the 15 source-linked performance records are complete**;
 - reader/export and Reading Room integration: **blocked downstream**.
 
 ## Exact next activity
 
-> **Complete the source-linked continuous PDF 3–5 `கதைச்சுருக்கம்` derivative from the verified canonical Tamil, preserving PDF-page provenance and the booklet's prose structure. Do not manufacture screenplay scenes or immutable dialogue records. After that, create source-linked structured records for all 15 PDF 6–13 song/performance blocks while preserving the existing cautious authorship and cross-witness dispositions.**
+> **Create source-linked structured records for all 15 PDF 6–13 song/performance blocks from the verified canonical Tamil. Preserve exact source headings, PDF-page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the existing 1/15 cross-witness match and 14/15 source-only dispositions, and unresolved item-level lyric authorship unless separately evidenced. Then proceed to English translation only from the completed verified source-linked structures.**
