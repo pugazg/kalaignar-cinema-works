@@ -622,12 +622,23 @@
     "user_reviewed_heading_verdicts": [
       {"pdf_page": 107, "printed_page": 105, "accepted": "தூக்குமேடை", "rejected": "தாக்குமேடை"}
     ],
-    "canonical_tamil_transcription": "not-started",
+    "canonical_tamil_transcription": "draft-in-progress",
     "canonical_tamil_first_pass_complete": false,
     "canonical_tamil_pdf_pages": "5-109",
     "canonical_tamil_page_count": 105,
+    "canonical_tamil_first_pass_pages_completed": 30,
+    "canonical_tamil_first_pass_pdf_range_completed": "5-34",
+    "canonical_tamil_first_pass_printed_range_completed": "3-32",
+    "canonical_tamil_draft_pages": 30,
     "canonical_tamil_verified_pages": 0,
     "canonical_tamil_review_pages": 0,
+    "canonical_tamil_open_uncertainty_markers": 19,
+    "canonical_tamil_index_path": "works/ammaiyappan/transcription/index.json",
+    "canonical_tamil_full_text_current_through_pdf_page": 14,
+    "canonical_tamil_part_files": [
+      "works/ammaiyappan/transcription/parts/pdf-015-024.md",
+      "works/ammaiyappan/transcription/parts/pdf-025-034.md"
+    ],
     "tamil_fidelity_audit": "not-started",
     "structured_derivatives": {
       "scene_index": "blocked-pending-verified-tamil",
@@ -638,6 +649,6 @@
       "reader_export": "blocked",
       "reading_room_integration": "blocked"
     },
-    "next_action": "Canonical Tamil first-pass transcription from PDF 5-109 in source order with stable PDF/logical-printed-page anchors; follow later with a separate rendered-scan visual fidelity audit before structured derivatives."
+    "next_action": "Continue canonical Tamil first-pass transcription from PDF 35 / printed p.33 in source order with stable page anchors and visible uncertainty markers. Assemble all bounded parts into full-text.md before first-pass closure; perform a separate rendered-scan fidelity audit before structured derivatives."
   }
 ]
