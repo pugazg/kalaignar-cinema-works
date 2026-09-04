@@ -426,11 +426,26 @@
       "song_source_linked_record_pdf_pages": "6-13",
       "scene_index": "not-applicable-from-this-source",
       "dialogue_index": "not-applicable-from-this-source",
-      "english_translation": "ready-not-started",
-      "reader_export": "blocked-pending-english-translation",
-      "reading_room_integration": "blocked"
+      "english_translation": "complete-verified",
+      "translation_index_path": "works/manthiri-kumari/translations/index.json",
+      "translation_readme_path": "works/manthiri-kumari/translations/README.md",
+      "translation_final_qa_path": "works/manthiri-kumari/translations/FINAL_TRANSLATION_QA.md",
+      "translation_story_summary_path": "works/manthiri-kumari/translations/story-summary.json",
+      "translation_story_summary_logical_units": 13,
+      "translation_story_summary_cross_page_units": 1,
+      "translation_performance_records": 15,
+      "translation_performance_sections": 52,
+      "translation_tamil_line_cues": 234,
+      "translation_english_line_cues": 234,
+      "translation_line_mapping_mismatches": 0,
+      "translation_cross_page_performance_records": [2, 4, 6, 7, 9, 11, 13],
+      "translation_authorship_upgrades": 0,
+      "translation_canonical_tamil_changed": false,
+      "translation_synthetic_scene_ids_created": 0,
+      "reader_export": "ready-not-started",
+      "reading_room_integration": "blocked-pending-reader-export"
     },
-    "next_action": "Begin source-linked English translation from the completed verified source structures: the continuous PDF 3-5 story-summary record and the 15 PDF 6-13 song/performance records. Preserve source order, page provenance, performance/speaker cues, தொகையறா/பாட்டு distinctions and unresolved item-level lyric authorship; do not convert the booklet into screenplay scenes or use translation to repair canonical Tamil."
+    "next_action": "Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures, preserving natural booklet navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes."
   },
   {
     "id": "raja-rani",
