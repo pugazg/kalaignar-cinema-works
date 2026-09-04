@@ -1,0 +1,21 @@
+{
+  "id": "manthiri-kumari-performance-en-006",
+  "source_performance_id": "manthiri-kumari-performance-006",
+  "sequence": 6,
+  "heading_ta": "குமாரி வனஜா நடனம்",
+  "heading_en": "Dance by Kumari Vanaja",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/006.json", "tamil_status": "complete-verified", "pdf_pages": [8, 9], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [8], "source_tamil_lines": ["கண்ணடிச்சு யாரை நீயும் கண்ணி வைக்கப் பார்க்குறே", "கண்ணி வைக்கப் பார்க்குறே என்னையா ஏய்க்கிறே (கண்)", "என்னைக் கண்டு ஆசை கொண்டு ஏனோ சும்மா ஏங்குறே", "ஏனோ சும்மா ஏங்குறே எண்ணி எண்ணி வீங்குறே (கண்)"], "english_lines": ["Who are you winking at, trying to set a snare?", "Trying to set a snare—are you trying to fool me? (கண்)", "Seeing me and desiring me, why do you just pine?", "Why do you just pine, swelling as you think and think? (கண்)"], "notes": ["The colloquial teasing register is preserved rather than formalized."]},
+      {"ordinal": 2, "source_label": "தொகையறா", "english_label": "Thogaiyara", "source_pdf_pages": [9], "source_tamil_lines": ["மன்மத குஞ்சே! ஏ! மந்தியவதாரனே", "ஒன்முகம் தன்னையே ஒரு கண்ணாடியில் பாரேன்"], "english_lines": ["O Cupid's chick! Eh! Monkey-incarnation!", "Take that face of yours and look at it in a mirror!"], "notes": ["The mocking compounds are kept deliberately blunt."]},
+      {"ordinal": 3, "source_label": "பாட்டு", "english_label": "Paattu (song)", "source_pdf_pages": [9], "source_tamil_lines": ["கொல்லைக்காட்டு நரியைப் போலே பல்லைப் பல்லைக் காட்டுறே", "இல்லை ஒனக்கீடுமே இருச்சவாய் வீரரே", "நொள்ளைக் கண்ணும் யானைக்காதும் காண ரொம்ப ஜோரையா", "காண ரொம்ப ஜோரையா கண்ணாடியைப் பாரையா"], "english_lines": ["Like a fox from the fields, you bare tooth against tooth,", "There is none to equal you, O odd-mouthed warrior!", "Your squinting eye and elephant ears—what a grand sight, sir!", "What a grand sight indeed—look in the mirror, sir!"], "notes": ["The verified source form `இருச்சவாய்` is difficult; `odd-mouthed` is a conservative rendering within the surrounding mock-beauty catalogue, without changing the Tamil."]},
+      {"ordinal": 4, "source_label": "தொகையறா", "english_label": "Thogaiyara", "source_pdf_pages": [9], "source_tamil_lines": ["குண்டுசட்டி வயிறழகா குடமிளகா மூக்கழகா", "நண்டுக்கால் நடையழகா பாலைவனைத் தலையழகா"], "english_lines": ["Pot-bellied beauty, chilli-pepper-nosed beauty,", "Crab-legged gait, O beauty; desert-land head, O beauty!"], "notes": ["`பாலைவனைத்` is a verified unusual source form; the English preserves its desert-land image instead of substituting a guessed familiar insult."]},
+      {"ordinal": 5, "source_label": "பாட்டு", "english_label": "Paattu (song)", "source_pdf_pages": [9], "source_tamil_lines": ["ஒட்டகத்தைப் போல நீண்ட ஒல்லியான ரூபனே", "ஒன்னழகைக் காணவே கண்ணு ரெண்டும் போதுமா (என்)"], "english_lines": ["Tall and lean in form like a camel,", "Are two eyes enough just to behold your beauty? (என்)"], "notes": []}
+    ],
+    "translator_notes": ["This is a comic mock-beauty performance. Source insults and animal/body imagery are retained rather than softened.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
