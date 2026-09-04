@@ -77,19 +77,19 @@ Important adjudications:
 ## Canonical Tamil first pass — active
 
 - canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- completed first-pass range: **PDF 5–44 / logical pp.3–42**;
-- first-pass pages completed: **40 / 105**;
+- completed first-pass range: **PDF 5–54 / logical pp.3–52**;
+- first-pass pages completed: **50 / 105**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **24**;
+- open first-pass uncertainty markers: **39**;
 - uncertainty ledger: `notes/textual-notes.md`;
 - active progress/assembly authority: `transcription/index.json`;
 - assembled `full-text.md` currently reaches **PDF 14**;
-- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`, `transcription/parts/pdf-035-044.md`;
-- next page: **PDF 45 / printed p.43**;
+- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`, `transcription/parts/pdf-035-044.md`, `transcription/parts/pdf-045-054.md`;
+- next page: **PDF 55 / printed p.53**;
 - visual fidelity audit: **not-started**.
 
-The PDF 35–44 batch was visually reconciled against the controlling scan after the initial draft. Source-visible `தனபதி` labels were restored where the initial draft had misread `தளபதி`. Five insecure old-type spans remain explicitly marked; no marked reading was repaired from semantic expectation or external text.
+The PDF 35–44 batch was visually reconciled against the controlling scan after the initial draft. Source-visible `தனபதி` labels were restored where the initial draft had misread `தளபதி`. Five insecure old-type spans remain explicitly marked. The PDF 45–54 batch adds fifteen further marked spans; none was repaired from semantic expectation or external text.
 
 Before declaring the entire first pass complete, assemble every bounded part into `full-text.md` in exact source order and perform boundary loss/duplication QA.
 
@@ -98,7 +98,7 @@ Before declaring the entire first pass complete, assemble every bounded part int
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **draft-in-progress — 40/105**;
+- canonical Tamil first pass: **draft-in-progress — 50/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -115,4 +115,4 @@ Before declaring the entire first pass complete, assemble every bounded part int
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription at PDF 45 / printed p.43. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 55 / printed p.53. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
