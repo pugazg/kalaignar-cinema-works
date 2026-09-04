@@ -36,14 +36,14 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 ## Canonical Tamil first pass — in progress
 
 - canonical range: **PDF 5–109 / 105 pages**;
-- first-pass complete: **PDF 5–14 / logical pp.3–12 — 10/105 pages**;
+- first-pass complete: **PDF 5–24 / logical pp.3–22 — 20/105 pages**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- current first-pass uncertainty markers: **8**, documented in `notes/textual-notes.md`;
-- next page: **PDF 15 / printed p.13**;
+- current first-pass uncertainty markers: **11**, documented in `notes/textual-notes.md`;
+- next page: **PDF 25 / printed p.23**;
 - separate visual fidelity audit: **not-started**.
 
-Canonical text is stored in `transcription/full-text.md`. PDF 5 uses a logical-page anchor with the folio explicitly marked suppressed rather than pretending a printed numeral is visible.
+`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; the bounded continuation `transcription/parts/pdf-015-024.md` holds PDF 15–24. These parts must be assembled into `full-text.md` before the whole first pass is closed.
 
 ## Current status
 
@@ -54,7 +54,7 @@ Canonical text is stored in `transcription/full-text.md`. PDF 5 uses a logical-p
 | Whole-scan inspection | complete — 111/111 pages |
 | Structural mapping | **verified** |
 | Source-numbered scenes | not applicable — none printed |
-| Canonical Tamil first pass | **draft-in-progress — 10/105 pages** |
+| Canonical Tamil first pass | **draft-in-progress — 20/105 pages** |
 | Visual fidelity audit | not-started |
 | Scene-text derivatives | blocked pending verified Tamil |
 | Dialogue index | blocked pending verified Tamil |
@@ -74,4 +74,4 @@ Canonical text is stored in `transcription/full-text.md`. PDF 5 uses a logical-p
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 15 / printed p.13 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass is followed by a separate full visual fidelity audit.**
+**Continue canonical Tamil first-pass transcription from PDF 25 / printed p.23 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
