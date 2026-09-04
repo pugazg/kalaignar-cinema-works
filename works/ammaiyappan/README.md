@@ -36,16 +36,16 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 ## Canonical Tamil first pass — in progress
 
 - canonical range: **PDF 5–109 / 105 pages**;
-- first-pass complete: **PDF 5–44 / logical pp.3–42 — 40/105 pages**;
+- first-pass complete: **PDF 5–54 / logical pp.3–52 — 50/105 pages**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- current first-pass uncertainty markers: **24**, documented in `notes/textual-notes.md`;
-- next page: **PDF 45 / printed p.43**;
+- current first-pass uncertainty markers: **39**, documented in `notes/textual-notes.md`;
+- next page: **PDF 55 / printed p.53**;
 - separate visual fidelity audit: **not-started**.
 
-`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts hold PDF 15–24, PDF 25–34 and PDF 35–44. These parts must be assembled into `full-text.md` before the whole first pass is closed.
+`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts hold PDF 15–24, PDF 25–34, PDF 35–44 and PDF 45–54. These parts must be assembled into `full-text.md` before the whole first pass is closed.
 
-The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`; unresolved old-type spans remain marked instead of being repaired from context.
+The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`; unresolved old-type spans remain marked instead of being repaired from context. The PDF 45–54 batch continues the same source-first uncertainty policy and adds fifteen marked spans for later glyph-level adjudication.
 
 ## Current status
 
@@ -56,7 +56,7 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 | Whole-scan inspection | complete — 111/111 pages |
 | Structural mapping | **verified** |
 | Source-numbered scenes | not applicable — none printed |
-| Canonical Tamil first pass | **draft-in-progress — 40/105 pages** |
+| Canonical Tamil first pass | **draft-in-progress — 50/105 pages** |
 | Visual fidelity audit | not-started |
 | Scene-text derivatives | blocked pending verified Tamil |
 | Dialogue index | blocked pending verified Tamil |
@@ -76,4 +76,4 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 45 / printed p.43 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
+**Continue canonical Tamil first-pass transcription from PDF 55 / printed p.53 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
