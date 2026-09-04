@@ -1,0 +1,20 @@
+{
+  "id": "manthiri-kumari-performance-en-011",
+  "source_performance_id": "manthiri-kumari-performance-011",
+  "sequence": 11,
+  "heading_ta": "மாட்டுக்கார பையன்",
+  "heading_en": "Cowherd Boy",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/011.json", "tamil_status": "complete-verified", "pdf_pages": [11, 12], "cross_witness_status": "confirmed-existing-anthology-witness", "anthology_record_id": "kalaignar-song-001", "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": "தொகையறா", "english_label": "Thogaiyara", "source_pdf_pages": [11], "source_tamil_lines": ["ஊருக்கு உழைப்பவண்டி", "ஒரு குற்றம் அறியானடி", "உதைப்பட்டு சாவானடி—எருமைக்கண்ணுக்குட்டி"], "english_lines": ["He who labours for the village, di,", "Knows not a single wrong, di,", "Gets kicked and dies, di—buffalo calf."], "notes": ["The colloquial `டி` force is retained as `di`, following the repository's established translation precedent for the later anthology witness."]},
+      {"ordinal": 2, "source_label": "பாட்டு", "english_label": "Paattu (song)", "source_pdf_pages": [11], "source_tamil_lines": ["நல்லதுக்கு காலமில்லே", "நடப்பதெல்லாம் வெளிப்பகட்டு", "சொல்லப்போனால் வெட்கக்கேடு—எருமைக்கண்ணுக்குட்டி"], "english_lines": ["There is no time for what is good,", "Everything that happens is outward show,", "Say it plainly—it is a shame—buffalo calf."], "notes": ["The social accusation remains direct."]},
+      {"ordinal": 3, "source_label": "தொகையறா", "english_label": "Thogaiyara", "source_pdf_pages": [12], "source_tamil_lines": ["ஏச்சிப்பொழைக்கிறவன்", "ஏழடுக்கு மாளிகையில்", "எகத்தாளம் போடுறானே", "அவன் பேச்சை மறுக்கிறவன்", "பிச்சை எடுக்கிறானே—எருமைக்கண்ணுக்குட்டி"], "english_lines": ["The fellow who lives by jeering,", "In a seven-storey mansion,", "Struts and beats out his swagger;", "But the man who contradicts his word", "Is out begging—buffalo calf."], "notes": ["This booklet's verified `ஏச்சிப்பொழைக்கிறவன்` differs from the later anthology witness; it is translated from this booklet only and is not repaired from the anthology."]},
+      {"ordinal": 4, "source_label": "பாட்டு", "english_label": "Paattu (song)", "source_pdf_pages": [12], "source_tamil_lines": ["நாட்டுக்குத் தலைவனென்று நம்பும்படி பேசிவிட்டு", "வேணசெல்வம் வாரியே போவாரடி", "நாடுசெழிக்க யெண்ணி நாளெல்லாம் பாடுபடும்", "ஏழைக்கிக்காலமில்லே எவனெவனோ வாழுகின்றார்—", "எருமைக்கண்ணுக்குட்டி"], "english_lines": ["He talks until we believe him to be the leader of the land,", "Then scoops away all the wealth he wants, di;", "Thinking the country should prosper, the poor man labours all day,", "For the poor there is no good time; all sorts of fellows are thriving—", "Buffalo calf."], "notes": ["The verified joined form `வேணசெல்வம்` is rendered contextually without asserting a Tamil emendation.", "The political-social contrast is kept pointed rather than generalized."]}
+    ],
+    "translator_notes": ["The later anthology translation is only a style/cross-witness reference; this English record follows the corrected booklet witness line by line.", "Item-level lyric authorship remains unresolved in this booklet layer despite the known anthology witness.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
