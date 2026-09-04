@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all seven works at the Ammayappan canonical-Tamil first-pass closure: 105/105 draft pages assembled through PDF 109, assembly QA PASS, 116 open first-pass readings, visual fidelity audit next.**
+**PASS — current status mirrors synchronized across all seven works at the Ammayappan visual-fidelity checkpoint: first pass 105/105 assembled through PDF 109, PDF 5–24 visually verified (20/105), 85 draft pages, 0 review pages, and 105 open first-pass readings; next PDF 25 / logical p.23.**
 
 ## Current work matrix
 
@@ -22,7 +22,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete across PDF 5–109; assembly QA PASS; 116 open markers; 0 verified pages** | scene/dialogue/character blocked pending verified Tamil | blocked | blocked |
+| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; PDF 5–24 fidelity-verified (20/105); 85 draft; 105 open markers** | scene/dialogue/character blocked pending complete verified Tamil | blocked | blocked |
 
 ## Ammayappan canonical-Tamil first-pass closure checkpoint
 
@@ -36,19 +36,17 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - locked PDF 56 / printed p.54: **`பழுதார் வீதி`**;
 - locked PDF 107 / printed p.105: **`தூக்குமேடை`**; rejected `தாக்குமேடை` absent;
 - canonical Tamil first pass: **draft-complete — 105/105 pages**;
-- completed source range: **PDF 5–109 / logical printed pp.3–107**;
 - continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
 - assembly QA: `works/ammaiyappan/transcription/ASSEMBLY_QA.md` — **PASS**;
 - source anchors: **105 / exact PDF 5→109 order / 0 missing / 0 duplicate**;
-- bounded part boundary presence: **PASS**;
-- open first-pass uncertainty markers: **116**;
-- draft pages / verified pages: **105 / 0**;
-- visual fidelity audit: **not-started**;
-- scene / dialogue / character derivatives: **blocked pending verified Tamil**;
+- rendered-scan fidelity audit: **in-progress — PDF 5–24 / logical pp.3–22 verified**;
+- verified / draft / review pages: **20 / 85 / 0**;
+- open first-pass uncertainty markers: **105**;
+- scene / dialogue / character derivatives: **blocked pending complete verified Tamil**;
 - song/performance authorship gate: **not-started**;
 - English translation / reader / Reading Room integration: **blocked**.
 
-The canonical Tamil **first-pass transcription and assembly gate is closed**. This is not a source-fidelity verification. The exact next activity is the separate rendered-scan visual fidelity audit starting at **PDF 5 / logical printed p.3**, proceeding in source order through PDF 109 and adjudicating all **116** explicit uncertainty markers before structured derivatives are unblocked.
+The canonical Tamil first-pass transcription and assembly gate remains closed. The separate source-fidelity gate is now active. Exact next activity: **continue at PDF 25 / logical printed p.23**, compare the entire page directly against the controlling scan, and adjudicate remaining uncertainty markers in source order. Structured derivatives remain blocked until all 105 pages pass.
 
 ## Manthiri Kumari reconciliation checkpoint
 

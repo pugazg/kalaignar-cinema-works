@@ -73,7 +73,7 @@ source_authority:
   song_authorship_inferred_from_story_dialogue_credit: false
 
 transcription_progress:
-  status: draft-complete-awaiting-fidelity-audit
+  status: fidelity-audit-in-progress
   transcription_index_path: "transcription/index.json"
   transcription_path: "transcription/full-text.md"
   transcription_readme_path: "transcription/README.md"
@@ -138,20 +138,23 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  verified_pages: 0
-  draft_pages: 105
+  verified_pages: 20
+  draft_pages: 85
   review_pages: 0
-  open_first_pass_uncertainty_markers: 116
-  next_pdf_page: 5
-  next_logical_printed_page: 3
-  next_action: "Begin the separate rendered-scan visual fidelity audit at PDF 5 / logical printed p.3 and continue through PDF 109. Adjudicate all 116 explicit uncertainty markers occurrence-by-occurrence before any structured derivatives."
+  open_first_pass_uncertainty_markers: 105
+  next_pdf_page: 25
+  next_logical_printed_page: 23
+  next_action: "Continue the rendered-scan visual fidelity audit at PDF 25 / logical printed p.23; 20/105 pages are verified and 105 explicit first-pass readings remain unresolved."
 
 fidelity_audit:
-  status: not-started
+  status: in-progress
   canonical_range_audit_complete: false
-  audited_pages: 0
-  verified_pages: 0
-  unresolved_source_readings: 116
+  audited_pages: 20
+  verified_pages: 20
+  review_pages: 0
+  unresolved_source_readings: 105
+  verified_pdf_pages: "5-24"
+  verified_logical_printed_pages: "3-22"
 
 structured_derivatives:
   scene_index: blocked-pending-verified-tamil
@@ -171,7 +174,7 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: not-started
+  visual_fidelity_audit: in-progress-20-of-105
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -180,4 +183,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Begin the separate rendered-scan visual fidelity audit across PDF 5-109; resolve the 116 explicit first-pass uncertainties and verify all 105 canonical pages before starting structured derivatives."
+next_action: "Continue the rendered-scan visual fidelity audit at PDF 25 / logical printed p.23; resolve the remaining 105 explicit first-pass readings and verify all 105 canonical pages before starting structured derivatives."

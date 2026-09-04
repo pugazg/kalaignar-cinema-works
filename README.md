@@ -73,7 +73,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first-pass draft coverage is now complete and assembled.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first pass is complete and whose separate rendered-scan fidelity audit is now in progress.
 
 - printed title: **`அம்மையப்பன்`**;
 - printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -86,12 +86,12 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - canonical Tamil first pass: **draft-complete — 105/105 pages**;
 - continuous `full-text.md`: **assembled through PDF 109**;
 - first-pass assembly QA: **PASS — 105 anchors, exact PDF 5→109 order, 0 missing, 0 duplicate**;
-- open first-pass uncertainty markers: **116**;
-- verified Tamil pages: **0/105**;
-- visual fidelity audit: **not-started**;
-- structured derivatives / English / reader: **blocked pending verified Tamil**.
+- visual fidelity audit: **in-progress — PDF 5–24 / logical pp.3–22 verified**;
+- verified / draft / review pages: **20 / 85 / 0**;
+- open first-pass uncertainty markers: **105**;
+- structured derivatives / English / reader: **blocked pending complete verified Tamil**.
 
-**Next:** begin the separate rendered-scan visual fidelity audit at **PDF 5 / logical printed p.3**, proceed page-by-page through PDF 109, and adjudicate all **116** explicit uncertainty markers. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
+**Next:** continue the rendered-scan visual fidelity audit at **PDF 25 / logical printed p.23** and adjudicate the remaining **105** explicit first-pass uncertainty markers. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
