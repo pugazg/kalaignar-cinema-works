@@ -1,0 +1,54 @@
+name: One-off Ammayappan closure sync rescue
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ammaiyappan-first-pass-close-rescue.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Execute corrected closure synchronization
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          old = Path('.github/workflows/ammaiyappan-first-pass-close-sync.yml')
+          src = old.read_text(encoding='utf-8')
+          marker = "          python - <<'PY'\n"
+          start = src.index(marker) + len(marker)
+          end = src.index("\n          PY", start)
+          code = textwrap.dedent(src[start:end])
+          bad = "assert '105/105 draft-complete' in master_path.read_text(encoding='utf-8')"
+          good = "assert 'draft-complete 105/105' in master_path.read_text(encoding='utf-8')"
+          if bad not in code:
+              raise RuntimeError('expected closure assertion not found')
+          code = code.replace(bad, good, 1)
+          exec(compile(code, '<ammaiyappan-closure-sync>', 'exec'), {})
+          PY
+
+          rm -f '.github/workflows/ammaiyappan-first-pass-close-sync.yml'
+          rm -f '.github/workflows/ammaiyappan-first-pass-close-rescue.yml'
+
+      - name: Commit synchronized closure checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Synchronize Ammayappan first-pass closure'
+          git push origin HEAD:main
