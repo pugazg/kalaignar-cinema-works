@@ -1,0 +1,20 @@
+{
+  "id": "manthiri-kumari-performance-en-014",
+  "source_performance_id": "manthiri-kumari-performance-014",
+  "sequence": 14,
+  "heading_ta": "உழவன்—தொகையறா",
+  "heading_en": "Farmer—Thogaiyara",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/014.json", "tamil_status": "complete-verified", "pdf_pages": [13], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": "தொகையறா", "english_label": "Thogaiyara", "source_pdf_pages": [13], "source_tamil_lines": ["உபகாரம் செய்தவர்க்கே அபகாரம் செய்ய எண்ணும்", "முழுமோசக்காரன் தானே முடிவிலே நாசமாவான்"], "english_lines": ["The man who plots harm against the very one who helped him—", "Such a thorough scoundrel will be ruined in the end."], "notes": []},
+      {"ordinal": 2, "source_label": "பாட்டு", "english_label": "Paattu (song)", "source_pdf_pages": [13], "source_tamil_lines": ["அன்னம் இட்ட வீட்டிலே கன்னக்கோல் சாத்தவே", "எண்ணங்கொண்ட பாவிகள் மண்ணாய் போக நேருமே"], "english_lines": ["Those sinners who resolve to set a burglar's rod against the very house that fed them", "Will have to turn to dust."], "notes": ["`கன்னக்கோல்` is rendered as the burglar's rod/tool used to break into a house, preserving the betrayal image."]},
+      {"ordinal": 3, "source_label": "தொகையறா", "english_label": "Thogaiyara", "source_pdf_pages": [13], "source_tamil_lines": ["வேஷம் கண்டு மயங்கியே வீணாக ஆசைக்கொண்டு", "மோசமும் போன பின்னால் மன வேதனையடைவதாலே", "லாபமென்ன?"], "english_lines": ["Bewitched by a guise, desiring in vain,", "After the deception is past, if the heart is left in anguish,", "What profit is there?"], "notes": []},
+      {"ordinal": 4, "source_label": "பாட்டு", "english_label": "Paattu (song)", "source_pdf_pages": [13], "source_tamil_lines": ["பாலை ஊற்றிப் பாம்பை நாம் வளர்த்தாலும் நம்மையே", "கடிக்கத்தான் வந்திடும்—அதை அடிச்சே கொல்ல நேர்ந்திடும்"], "english_lines": ["Even if we rear a snake by pouring it milk, it will come", "Only to bite us—we will have to strike it dead."], "notes": ["The proverb-like snake-and-milk image is retained directly."]}
+    ],
+    "translator_notes": ["The source's moralizing images of betrayal, disguise and the milk-fed snake are translated concretely rather than abstracted.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
