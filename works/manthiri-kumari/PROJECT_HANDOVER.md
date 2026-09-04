@@ -24,9 +24,11 @@ Before changing this work, read completely:
 10. `works/manthiri-kumari/notes/INTAKE_AUDIT.md`
 11. `works/manthiri-kumari/notes/fidelity-audit.md`
 12. `works/manthiri-kumari/notes/post-fidelity-corrections.md`
-13. `works/manthiri-kumari/songs/performance-inventory.md`
-14. `works/manthiri-kumari/songs/cross-witness-comparison.md`
-15. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
+13. `works/manthiri-kumari/story-summary/README.md`
+14. `works/manthiri-kumari/story-summary/index.json`
+15. `works/manthiri-kumari/songs/performance-inventory.md`
+16. `works/manthiri-kumari/songs/cross-witness-comparison.md`
+17. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
 
 ## Controlling source
 
@@ -92,17 +94,24 @@ This is evidence for story/dialogue authorship only. It does **not** automatical
 
 ### Story summary
 
-Path: `works/manthiri-kumari/story-summary/`
+Status: **complete-verified**.
 
-Status: **initialized; structured/source-linked derivative completion pending**.
+Files:
 
-Rules:
+- `works/manthiri-kumari/story-summary/full-text.md`;
+- `works/manthiri-kumari/story-summary/index.json`;
+- `works/manthiri-kumari/story-summary/README.md`.
 
-- preserve the continuous PDF 3–5 prose structure;
-- preserve PDF-page provenance;
-- do not convert paragraphs into screenplay scenes;
-- do not manufacture immutable dialogue records from reported/quoted synopsis speech;
-- derive only from verified canonical Tamil.
+Checkpoint:
+
+- source PDF pages represented: **3/3 — PDF 3–5**;
+- source-linked records: **1**, `manthiri-kumari-story-summary-001`;
+- structure: **continuous prose**;
+- synthetic screenplay scene IDs: **0**;
+- immutable dialogue IDs from reported/quoted synopsis speech: **0**;
+- canonical Tamil changed by derivative creation: **no**.
+
+The derivative preserves source order, page provenance and the booklet's prose structure.
 
 ### Song/performance layer
 
@@ -116,7 +125,7 @@ Rules:
 - block-11 line-level comparison: **complete-reconciled after the latest lexical corrections**;
 - item-level lyric authorship verified by this booklet: **0/15**;
 - blocks requiring separate item-level evidence: **15/15**;
-- source-linked structured records for the 15 blocks: **not-started**.
+- source-linked structured records for the 15 blocks: **not-started — 0/15**.
 
 Relevant files:
 
@@ -138,7 +147,7 @@ Relevant files:
 
 - screenplay scene derivatives: **not applicable**;
 - film-wide immutable dialogue index: **not applicable**;
-- English translation: **blocked until the source-appropriate Tamil derivative structures are complete**;
+- English translation: **blocked until the 15 source-linked song/performance records are complete**;
 - reader/export: **blocked**;
 - Reading Room integration: **blocked downstream**.
 
@@ -146,6 +155,6 @@ Relevant files:
 
 Proceed without redundant clarification:
 
-> **Complete the source-linked continuous PDF 3–5 `கதைச்சுருக்கம்` derivative from verified canonical Tamil. Preserve source order and PDF-page provenance, and do not manufacture screenplay scenes or immutable dialogue records. Then create source-linked structured records for all 15 PDF 6–13 song/performance blocks while preserving the existing authorship and cross-witness dispositions.**
+> **Create source-linked structured records for all 15 PDF 6–13 song/performance blocks from verified canonical Tamil. Preserve exact source headings, PDF-page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the existing 1/15 cross-witness match and 14/15 source-only dispositions, and unresolved item-level lyric authorship unless separately evidenced. Then proceed to English translation only from the completed verified source-linked structures.**
 
-At the completion of each major derivative phase, synchronize work README/metadata/handover plus `data/works.json`, root README, master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` before declaring the phase closed.
+At the completion of the 15-record phase, synchronize work README/metadata/handover plus `data/works.json`, root README, master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` before declaring the phase closed.
