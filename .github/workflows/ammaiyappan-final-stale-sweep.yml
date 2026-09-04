@@ -1,0 +1,84 @@
+name: One-off Ammayappan final stale-state sweep
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ammaiyappan-final-stale-sweep.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Remove final stale Ammayappan checkpoint and validate active mirrors
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          master_path = Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md')
+          master = master_path.read_text(encoding='utf-8')
+          old = '`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` must remain synchronized to the active **Ammayappan 60/105 first-pass checkpoint**. Bounded part files currently cover PDF 15–64 while `full-text.md` is assembled through PDF 14; final part assembly is required before first-pass closure.'
+          new = '`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan first-pass closure checkpoint: 105/105 draft pages, continuous `full-text.md` through PDF 109, assembly QA PASS, 116 unresolved first-pass readings, and 0/105 verified pages**. The separate rendered-scan visual fidelity audit is now the required next gate.'
+          if old not in master:
+              raise RuntimeError('expected stale master paragraph not found')
+          master = master.replace(old, new, 1)
+          master_path.write_text(master, encoding='utf-8')
+
+          active = [
+              Path('README.md'),
+              Path('data/works.json'),
+              Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'),
+              Path('docs/STATUS_CONSISTENCY_AUDIT.md'),
+              Path('works/ammaiyappan/README.md'),
+              Path('works/ammaiyappan/metadata.yaml'),
+              Path('works/ammaiyappan/PROJECT_HANDOVER.md'),
+              Path('works/ammaiyappan/transcription/README.md'),
+              Path('works/ammaiyappan/transcription/index.json'),
+              Path('works/ammaiyappan/transcription/ASSEMBLY_QA.md')
+          ]
+          stale = [
+              'Ammayappan 60/105 first-pass checkpoint',
+              'canonical Tamil first pass: **draft-in-progress — 60/105',
+              'canonical Tamil first pass: **draft-in-progress — 100/105',
+              'first-pass pages completed: **100 / 105**',
+              'next page: **PDF 105 / printed p.103**',
+              'full-text.md` assembled only through **PDF 14**',
+              'full_text_current_through_pdf_page: 14'
+          ]
+          problems = []
+          for path in active:
+              text = path.read_text(encoding='utf-8')
+              for phrase in stale:
+                  if phrase in text:
+                      problems.append((str(path), phrase))
+          if problems:
+              raise RuntimeError('stale active-state phrases remain: ' + repr(problems))
+
+          idx = Path('works/ammaiyappan/transcription/index.json').read_text(encoding='utf-8')
+          assert '"first_pass_complete": true' in idx
+          assert '"first_pass_pages_completed": 105' in idx
+          assert '"open_uncertainty_markers": 116' in idx
+          assert '"full_text_current_through_pdf": 109' in idx
+          PY
+
+          rm -f '.github/workflows/ammaiyappan-final-stale-sweep.yml'
+
+      - name: Commit final synchronized state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Complete Ammayappan first-pass stale-state sweep'
+          git push origin HEAD:main
