@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-014",
+  "sequence": 14,
+  "heading_ta": "உழவன்—தொகையறா",
+  "occurrence_kind": "song-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [13],
+  "printed_pages_observed": [12],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "text_ta": "உபகாரம் செய்தவர்க்கே அபகாரம் செய்ய எண்ணும்\nமுழுமோசக்காரன் தானே முடிவிலே நாசமாவான்\n\nபாட்டு\n\nஅன்னம் இட்ட வீட்டிலே கன்னக்கோல் சாத்தவே\nஎண்ணங்கொண்ட பாவிகள் மண்ணாய் போக நேருமே\n\nதொகையறா\n\nவேஷம் கண்டு மயங்கியே வீணாக ஆசைக்கொண்டு\nமோசமும் போன பின்னால் மன வேதனையடைவதாலே\nலாபமென்ன?\n\nபாட்டு\n\nபாலை ஊற்றிப் பாம்பை நாம் வளர்த்தாலும் நம்மையே\nகடிக்கத்தான் வந்திடும்—அதை அடிச்சே கொல்ல நேர்ந்திடும்"
+    }
+  ],
+  "source_visible_subdivisions": ["பாட்டு", "தொகையறா", "பாட்டு"],
+  "source_visible_labels": [],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Heading itself contains தொகையறா; body also preserves the printed பாட்டு/தொகையறா subdivisions."
+}
