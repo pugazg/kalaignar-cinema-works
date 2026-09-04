@@ -36,5 +36,7 @@
     "synthetic_scene_ids_created": 0,
     "canonical_tamil_changed": false
   },
-  "next_action": "Begin source-linked English translation from the verified continuous story-summary record and the 15 verified song/performance records; preserve the booklet's natural structure and unresolved lyric-authorship state."
+  "english_translation_status": "complete-verified",
+  "english_translation_index": "../translations/index.json",
+  "next_action": "Build and QA the deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures, preserving natural booklet navigation and unresolved item-level lyric authorship."
 }
