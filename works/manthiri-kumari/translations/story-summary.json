@@ -1,0 +1,130 @@
+{
+  "id": "manthiri-kumari-story-summary-en-001",
+  "source_record_id": "manthiri-kumari-story-summary-001",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-source-faithful-prose",
+  "source": {
+    "record_path": "works/manthiri-kumari/story-summary/index.json",
+    "tamil_status": "complete-verified",
+    "pdf_pages": [3, 4, 5],
+    "title_ta": "“மந்திரி குமாரி”—கதைச்சுருக்கம்"
+  },
+  "translation": {
+    "english_title": "“Manthiri Kumari”—Story Summary",
+    "sections": [
+      {
+        "ordinal": 1,
+        "source_pdf_pages": [3],
+        "printed_pages_observed": [],
+        "source_tamil": "கொள்ளையடிப்பது அவனுக்கு ஒரு கலை. கொலை செய்வது சர்வ சாதாரண பொழுது போக்கு. இப்படி ஒரு கொடியவன் முல்லை நாட்டில் உலவுகிறான். மக்களின் தலைகளை பந்தாடுகிறான். நாட்டினரின் ஓலம் அரசன் சாந்தவர்மன் சபா மண்டபத்திற்கு எட்டுகிறது. சாந்தவர்மன் ஒரு உருட்டு சட்டி பொம்மை. ஆனால் நல்லவன். கள்வர்களை எட்டே நாளில் பிடிக்கவேண்டுமென்று ஆணையிடுகிறான். தளபதி வீரமோகனிடம் உத்திரவு நீட்டப்படுகிறது. ராஜகுரு இடையே தலையிட்டு வேள்வி செய்து கள்வர்களை வேக வைக்கலாமென்கிறார். வீரமோகனின் விவேக மொழிகளுக்கு முன் ராஜகுருவின் பேச்சு எடுபடவில்லை. மந்திரி நீதிதேவரும் ராஜகுருவின் யோசனைக்கு மறுப்புரை கூறுகிறார்.",
+        "english": "Robbery is an art to him. Murder is an utterly ordinary pastime. Such a cruel man roams the land of Mullai, playing ball with people's heads. The people's cries reach King Shanthavarman's audience hall. Shanthavarman is a roly-poly doll, but a good man. He orders that the thieves be caught within eight days, and the command is handed to Commander Veeramohan. Rajaguru intervenes, proposing a sacrificial rite to hasten the thieves' destruction. His words do not stand before Veeramohan's words of reason. Minister Neethidevar too rejects Rajaguru's proposal.",
+        "notes": ["`உருட்டு சட்டி பொம்மை` is retained through the concrete roly-poly-doll image rather than generalized as mere weakness."]
+      },
+      {
+        "ordinal": 2,
+        "source_pdf_pages": [3],
+        "printed_pages_observed": [],
+        "source_tamil": "நீதிதேவரின் மகள்தான் அழகே உருவெடுத்த அமுதவல்லி. அவளும் அரசன் மகள் ஜீவரேகாவும் ஆருயிர் தோழிகள். ஜீவரேகாவுக்கு ஒரு காதலன்......வீரமோகன். ஜீவாவும் மோகனும் நீல நிலவையும், வசந்த காலத்து தென்றலையும் வீணாக்குவதேயில்லை. அடிக்கடி இன்ப சந்திப்புகள்.",
+        "english": "Neethidevar's daughter is Amuthavalli, beauty itself made flesh. She and the king's daughter Jeevarekha are dearest friends. Jeevarekha has a lover......Veeramohan. Jeeva and Mohan never let the blue moonlight or the springtime breeze go to waste. Their blissful meetings are frequent.",
+        "notes": []
+      },
+      {
+        "ordinal": 3,
+        "source_pdf_pages": [3],
+        "printed_pages_observed": [],
+        "source_tamil": "ராஜகுருவின் மகன் பார்த்திபன். ஒரு நாள் மாலை ஜீவரேகாவை பார்த்துவிடுகிறான். அவள்மீது ஆசை வெறி அலைமோதுகிறது. நதிக்கரையில் தன்னை சந்திக்குமாறு ஓலை எழுதுகிறான். தன் தோழன் அப்பாவியிடம் ஓலையை கொடுத்து ராஜகுமாரியின் அந்தபுரத்தில் போடச்சொல்லுகிறான்.",
+        "english": "Parthiban is Rajaguru's son. One evening he happens to see Jeevarekha, and a frenzy of desire surges over him. He writes a palm-leaf message asking her to meet him on the riverbank. He gives the message to his friend Appavi and tells him to drop it inside the princess's inner quarters.",
+        "notes": []
+      },
+      {
+        "ordinal": 4,
+        "source_pdf_pages": [3, 4],
+        "printed_pages_observed": [3],
+        "source_tamil": "ஆனால் அங்கு...அந்த மடலை...மந்திரிகுமாரி பார்த்து விடுகிறாள். அவளுக்கு ஜீவரேகாவின் மீது சந்தேகமும், வெறுப்பும் உதயமாகிறது வீரமோகனையும்—பார்த்திபனையும் தன் வலைக்குள் போட்டுக்கொண்டு ஜீவரேகா கற்புக்கரசி போல் நடிப்பதாக அவள் தவறாக நினைக்கிறாள். அதை சோதிப்பதற்காக...மறுநாள் ஜீவரேகாவை தொடருகிறாள். ஜீவா வழக்கம்போல் வீரமோகனிடம் போகிறாள். அமுதவல்லியை பார்த்திபன் பார்த்து விடுகிறான். காம வேட்டைக்காரனை அவன் ஜீவரேகா வராத கவலையை மறந்து அமுதவல்லியிடம் சரசம் பேசி அவளை மயக்கி விடுகிறான். பார்த்திபனும் அமுதவல்லியும் இப்போது காதலர்கள்",
+        "english": "But there...that letter...is seen by Manthirikumarī. Suspicion and hatred of Jeevarekha arise in her. She wrongly imagines that Jeevarekha has caught both Veeramohan and Parthiban in her net while posing as a woman of chastity. To test this...the next day she follows Jeevarekha. Jeeva goes, as usual, to Veeramohan. Parthiban sees Amuthavalli. The lust-hunter in him forgets his disappointment that Jeevarekha did not come; he flirts with Amuthavalli and charms her. Parthiban and Amuthavalli are now lovers.",
+        "notes": [
+          "This logical paragraph crosses PDF 3→4 at the printed word break `அமுத` / `வல்லியை`; the translation keeps it as one source unit.",
+          "The source wording around `காம வேட்டைக்காரனை அவன்` is syntactically irregular; the English conveys the contextual relation without changing the verified Tamil."
+        ]
+      },
+      {
+        "ordinal": 5,
+        "source_pdf_pages": [4],
+        "printed_pages_observed": [3],
+        "source_tamil": "கள்ளர் கூட்டத்தை தேடிச்சென்ற வீரமோகன் கள்வர் தலைவனை பிடித்து விடுகிறான். யார் அந்தக்கள்வர் தலைவன்? தளபதி ஆச்சரியப்படுகிறான். ராஜகுருவின் மகன் பார்த்திபன்தான். அரசனின் சபா மண்டபத்தில் ஒரே குழப்பம் ராஜகுருவின் பசப்பு வார்த்தைகள்—பாகு மொழிகள் எதுவும் எடுபடவில்லை. மனக்குழப்பமடைந்த மன்னன் வழக்கு விசாரணையை மந்திரி நீதிதேவரிடம் ஒப்புவிக்கிறான் கருணையே உருவெடுத்த நீதிதேவர் காளி பக்தர். நீதி வழங்கும் பொறுப்பை தேவியிடம் அளித்து மன்றாடுகிறார். கள்வனின் காதலியான அமுதவல்லி காட்டாற்று வெள்ளத்திலகப்பட்ட துரும்பாகிறாள். துடிக்கிறாள். பார்த்திபன் விடுதலையடைந்து விட்டால் அவனை சீர் திருத்தி விடலாமென நம்புகிறாள். தந்தையிடம் கெஞ்சுகிறாள். சொந்த விஷயத்துக்காக கொள்கையை கொல்லாத நீதிதேவர் பார்த்திபனுக்கு தூக்கு தண்டனை விதிக்கிறார்.",
+        "english": "Veeramohan, who has gone in search of the band of robbers, captures their leader. Who is that leader? The commander is astonished: it is Parthiban, Rajaguru's son. Confusion fills the king's audience hall. None of Rajaguru's ingratiating words—his syrupy speech—has any effect. The troubled king entrusts the trial to Minister Neethidevar. Neethidevar, compassion incarnate, is a devotee of Kali. He places the burden of dispensing justice upon the goddess and pleads before her. Amuthavalli, the robber's beloved, becomes like a splinter caught in the flood of a wild river. She trembles. She believes that if Parthiban is released she can reform him, and she begs her father. Neethidevar, who will not kill principle for a personal matter, sentences Parthiban to death.",
+        "notes": ["The verified source form `வெள்ளத்திலகப்பட்ட` is unusual; the English retains the flood-and-splinter image without asserting a Tamil emendation."]
+      },
+      {
+        "ordinal": 6,
+        "source_pdf_pages": [4],
+        "printed_pages_observed": [3],
+        "source_tamil": "தேவியின் மீது பாரத்தை போட்டு பிரார்த்திக்க வரும்போது தேவியின் சிலைக்குப்பின்னாலிருந்து ஒரு குரல்—“பார்த்திபன் குற்றமற்றவன் அவனை விடுதலை செய்” என்று கிளம்புகிறது. நிதானமிழந்து நீதிதேவர் மன்னனிடம் ஓடுகிறார். தூக்கு மேடையில் சாவை தழுவ இருந்த பார்த்திபன் காப்பாற்றப்படுகிறான். வீரமோகனுக்கு ஒன்றுமே விளங்கவில்லை. தேவியாவது பேசுவதாவது என்று திகைக்கிறான். ராஜகுருவின் எண்ணப்படி வீரமோகன் நாடு கடத்தப்படுகிறான். பார்த்திபன் தளபதியாகிறான். அமுதவல்லிக்கும் கணவனாகிறான். நாடு கடத்தப்பட்ட வீரமோகனை ராஜகுரு மனங்கொண்டமட்டும் நையப்புடைத்துவிட்டு வருகிறார். இதன் காரணமாய் மன்னருக்கும் குருநாதருக்கும் மனக்கசப்பு வளர்கிறது. அந்த நிகழ்ச்சி குருநாதர் மனதில் பேராசைக்கனலை மூட்டுகிறது. தானே அரசனாக கனவு காண்கிறார். தீக்கண்ணன் என்ற துரோகி கிடைக்கிறான். அரசனைக் கொல்ல சூழ்ச்சி முடிவடைகிறது.",
+        "english": "When Neethidevar comes to pray, placing the burden upon the goddess, a voice rises from behind her statue: “Parthiban is innocent. Release him.” Losing his composure, Neethidevar runs to the king. Parthiban, who stood ready to embrace death on the gallows, is saved. Veeramohan cannot understand any of it. He is stunned at the thought of the goddess actually speaking. At Rajaguru's urging, Veeramohan is exiled from the country. Parthiban becomes commander—and Amuthavalli's husband. Rajaguru beats the exiled Veeramohan to his heart's content and returns. Because of this, bitterness grows between the king and the guru. The incident kindles a flame of greed in the guru's mind. He dreams of becoming king himself. A traitor named Theekkannan falls into his hands. The plot to kill the king is settled.",
+        "notes": []
+      },
+      {
+        "ordinal": 7,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "காதலனைத் தேடி ஜீவரேகா ஓடிவிடுகிறாள். அவளை இப்போதாவது தன் விருந்தாக்கிக்கொள்ள நினைத்த பார்த்திபன் அப்பாவியை விட்டு அவளை தன் குகைக்கு கொண்டு வரச் செய்கிறான். அவளுடைய கற்பு சூறையாடப்படும்போது சந்தேகமடைந்து, கணவனைப் பின் தொடர்ந்து குகைக்கு ஆண் உடையில் வந்த அமுதவல்லி குமுறுகிறாள். பார்த்திபனும் அமுதவல்லியும் தீப்பொறி பறக்க பேசுகிறார்கள். அமுதவல்லி ஜீவரேகாவைத் தன் வீட்டுக்கு அழைத்துச் செல்லுகிறாள். அமுதாவை பழிவாங்க பார்த்திபன் திட்டம் தீட்டுகிறான்.",
+        "english": "Jeevarekha runs off in search of her lover. Parthiban, now hoping at last to make her his feast, has Appavi bring her to his cave. As her chastity is being ravaged, Amuthavalli—grown suspicious, having followed her husband to the cave disguised as a man—cries out in anguish. Parthiban and Amuthavalli exchange words that fly like sparks. Amuthavalli takes Jeevarekha to her own home. Parthiban begins plotting revenge against Amutha.",
+        "notes": ["The source's predatory metaphor `தன் விருந்தாக்கிக்கொள்ள` is retained as `make her his feast` rather than softened."]
+      },
+      {
+        "ordinal": 8,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "ஜீவாவை இழந்த வீரமோகன் அவளை தேடி. அலைகிறான்",
+        "english": "Veeramohan, having lost Jeeva, wanders in search of her.",
+        "notes": ["The source punctuation after `தேடி.` is irregular; English punctuation is not used to imply a Tamil correction."]
+      },
+      {
+        "ordinal": 9,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "1. அமுதவல்லியைக் கொன்று விடும் நோக்கத்துடன் அவளிடம் சாகசம் பேசி மருத மலைக்கு அழைத்துப் போகிறான் பார்த்திபன்.",
+        "english": "1. Intending to kill Amuthavalli, Parthiban speaks adventurously to her and leads her to Marudha Hill.",
+        "notes": ["`சாகசம் பேசி` is kept close to its source wording rather than normalized into an unprinted familiar phrase."]
+      },
+      {
+        "ordinal": 10,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "2. இங்கே ஜீவரேகாவை தேடிக்கொண்டு அரண்மனைக்குள் நுழைகிறான் வீரமோகன்.",
+        "english": "2. Here, searching for Jeevarekha, Veeramohan enters the palace.",
+        "notes": []
+      },
+      {
+        "ordinal": 11,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "3. வசந்த மண்டபத்தில் உறங்கும் அரசனைக் கொல்ல ராஜகுரு கட்டாரியுடன் நுழைகிறான்.",
+        "english": "3. Rajaguru enters with a dagger to kill the king as he sleeps in the Vasantha Mandapam.",
+        "notes": []
+      },
+      {
+        "ordinal": 12,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "4. தோழியின் வீட்டில் துடிக்கும் உள்ளத்துடன் குழம்பிக் கிடக்கிறாள் ஜீவரேகா......",
+        "english": "4. At her friend's house, Jeevarekha lies distraught, her heart throbbing......",
+        "notes": []
+      },
+      {
+        "ordinal": 13,
+        "source_pdf_pages": [5],
+        "printed_pages_observed": [4],
+        "source_tamil": "இவர்களின் முடிவுதான் என்ன? பதில் திரை சொல்லும்",
+        "english": "What, then, will become of them? The screen will give the answer.",
+        "notes": []
+      }
+    ],
+    "translator_notes": [
+      "This is a source-faithful prose translation of the verified booklet synopsis, not a screenplay reconstruction.",
+      "Cross-page prose remains a single logical unit where the source sentence continues across a page break.",
+      "Verified unusual Tamil forms are interpreted conservatively in English and documented in notes; translation does not repair canonical Tamil."
+    ]
+  }
+}
