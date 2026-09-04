@@ -1,0 +1,40 @@
+{
+  "work_id": "manthiri-kumari",
+  "layer": "song-performance-records",
+  "status": "complete-verified",
+  "schema": "schema.json",
+  "canonical_source": "../transcription/full-text.md",
+  "source_pdf_pages": "6-13",
+  "record_count": 15,
+  "records": [
+    {"id":"manthiri-kumari-performance-001","path":"records/001.json","heading_ta":"தர்பார் நடனம்","pdf_pages":[6],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-002","path":"records/002.json","heading_ta":"ராஜகுமாரி","pdf_pages":[6,7],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-003","path":"records/003.json","heading_ta":"குமாரி கமலா நடனம்","pdf_pages":[7],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-004","path":"records/004.json","heading_ta":"மந்திரிகுமாரி","pdf_pages":[7,8],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-005","path":"records/005.json","heading_ta":"மந்திரிகுமாரி—பார்த்திபன்","pdf_pages":[8],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-006","path":"records/006.json","heading_ta":"குமாரி வனஜா நடனம்","pdf_pages":[8,9],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-007","path":"records/007.json","heading_ta":"தளபதி பார்ட்டி கோரஸ்","pdf_pages":[9,10],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-008","path":"records/008.json","heading_ta":"கற்பகம்—பூலோகம்","pdf_pages":[10],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-009","path":"records/009.json","heading_ta":"ராஜகுமாரி","pdf_pages":[10,11],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-010","path":"records/010.json","heading_ta":"லலிதா—பத்மினி—ராகினி நடனம்","pdf_pages":[11],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-011","path":"records/011.json","heading_ta":"மாட்டுக்கார பையன்","pdf_pages":[11,12],"cross_witness_status":"confirmed-existing-anthology-witness","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-012","path":"records/012.json","heading_ta":"மந்திரிகுமாரி—ராஜகுமாரி","pdf_pages":[12],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-013","path":"records/013.json","heading_ta":"பார்த்திபன்—மந்திரிகுமாரி","pdf_pages":[12,13],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-014","path":"records/014.json","heading_ta":"உழவன்—தொகையறா","pdf_pages":[13],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"},
+    {"id":"manthiri-kumari-performance-015","path":"records/015.json","heading_ta":"ராஜகுமாரி","pdf_pages":[13],"cross_witness_status":"source-only-in-current-anthology","authorship_status":"unresolved"}
+  ],
+  "qa": {
+    "expected_records": 15,
+    "completed_records": 15,
+    "missing_record_ids": [],
+    "duplicate_record_ids": [],
+    "canonical_pdf_pages_covered": [6,7,8,9,10,11,12,13],
+    "confirmed_existing_anthology_witnesses": 1,
+    "source_only_in_current_anthology": 14,
+    "booklet_item_level_lyricist_verified": 0,
+    "unresolved_item_level_authorship": 15,
+    "synthetic_scene_ids_created": 0,
+    "canonical_tamil_changed": false
+  },
+  "next_action": "Begin source-linked English translation from the verified continuous story-summary record and the 15 verified song/performance records; preserve the booklet's natural structure and unresolved lyric-authorship state."
+}
