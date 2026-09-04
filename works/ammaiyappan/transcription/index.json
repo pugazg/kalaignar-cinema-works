@@ -5,16 +5,17 @@
   "canonical_pdf_range": [5, 109],
   "canonical_logical_printed_range": [3, 107],
   "canonical_pages_expected": 105,
-  "first_pass_pages_completed": 70,
-  "first_pass_pdf_range_completed": [5, 74],
-  "first_pass_logical_printed_range_completed": [3, 72],
-  "draft_pages": 70,
+  "first_pass_pages_completed": 80,
+  "first_pass_pdf_range_completed": [5, 84],
+  "first_pass_logical_printed_range_completed": [3, 82],
+  "draft_pages": 80,
   "verified_pages": 0,
   "review_pages": 0,
-  "open_uncertainty_markers": 87,
+  "open_uncertainty_markers": 97,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
-    "../notes/textual-notes-pdf-065-074.md"
+    "../notes/textual-notes-pdf-065-074.md",
+    "../notes/textual-notes-pdf-075-084.md"
   ],
   "assembly": {
     "full_text_current_through_pdf": 14,
@@ -55,12 +56,18 @@
         "pdf_range": [65, 74],
         "printed_range": [63, 72],
         "status": "draft-high-uncertainty"
+      },
+      {
+        "path": "parts/pdf-075-084.md",
+        "pdf_range": [75, 84],
+        "printed_range": [73, 82],
+        "status": "draft"
       }
     ],
     "policy": "During first-pass growth, bounded part files may hold later source-order batches. Assemble them into full-text.md before declaring the complete first pass closed."
   },
   "fidelity_audit": "not-started",
-  "next_pdf_page": 75,
-  "next_printed_page": 73,
-  "next_action": "Continue canonical Tamil first-pass transcription from PDF 75 / printed p.73 in source order. Preserve the PDF 74→75 continuation and do not start scene/dialogue derivatives."
+  "next_pdf_page": 85,
+  "next_printed_page": 83,
+  "next_action": "Continue canonical Tamil first-pass transcription from PDF 85 / printed p.83 in source order. Do not start scene/dialogue derivatives."
 }
