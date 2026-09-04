@@ -23,6 +23,9 @@ Before changing this work, read completely:
 9. `works/ammaiyappan/mapping.md`
 10. `works/ammaiyappan/notes/INTAKE_AUDIT.md`
 11. `works/ammaiyappan/notes/scene-heading-audit.md`
+12. `works/ammaiyappan/transcription/README.md`
+13. `works/ammaiyappan/transcription/full-text.md`
+14. `works/ammaiyappan/notes/textual-notes.md`
 
 ## Controlling source
 
@@ -69,12 +72,26 @@ Important adjudications:
 - PDF 56 / p.54: `பழுதார் வீதி`;
 - PDF 107 / p.105: **`தூக்குமேடை`** — direct user scan verdict; reject `தாக்குமேடை`.
 
+## Canonical Tamil first pass — active
+
+- canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
+- completed first-pass range: **PDF 5–9 / logical pp.3–7**;
+- first-pass pages completed: **5 / 105**;
+- current completed-page state: **draft**;
+- verified pages: **0**;
+- open first-pass uncertainty markers: **4**;
+- uncertainty ledger: `notes/textual-notes.md`;
+- next page: **PDF 10 / printed p.8**;
+- visual fidelity audit: **not-started**.
+
+The first pass intentionally preserves uncertainty instead of guessing. Current open tokens are limited to PDF 6 and PDF 9 and are explicitly documented.
+
 ## Current phase
 
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **not-started**;
+- canonical Tamil first pass: **draft-in-progress — 5/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -87,7 +104,8 @@ Important adjudications:
 - OCR/audio/subtitles/web/later editions cannot repair canonical Tamil.
 - Story/dialogue credit is not item-level lyric credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless direct scan evidence explicitly reopens them.
+- Do not resolve the four current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
 
 ## Exact next activity
 
-> **Begin canonical Tamil first-pass transcription at PDF 5 / logical printed p.3. Work in meaningful source-order batches with stable PDF/printed-page anchors. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is complete, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 10 / printed p.8. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is complete, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
