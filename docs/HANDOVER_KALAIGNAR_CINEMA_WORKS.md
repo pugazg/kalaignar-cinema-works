@@ -287,6 +287,8 @@ Before declaring translation complete, perform whole-work reconciliation rather 
 
 Reader/export outputs should be generated from verified structured translation records, not manually maintained copies. If a work contains both translated screenplay scenes and independently translated numbered songs, the reader/export model must include both without pretending the songs are source-numbered scenes.
 
+For a source that is not scene-structured, such as `மந்திரி குமாரி`, the reader/export layer must preserve that natural source model. Its verified reader therefore uses **1 story-summary unit + 15 performance blocks**, not synthetic screenplay scenes.
+
 ---
 
 ## 9. Public Reading Room direction
@@ -376,10 +378,10 @@ Always inspect current repository state.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
 - **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
-- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation is complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs, with final QA PASS and no authorship upgrades or Tamil changes; deterministic bilingual reader/export is the next activity.
+- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room payload preparation is the next activity.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 
-`data/works.json`, root README, work metadata/README/mapping/handover, Manthiri Kumari source indexes and translation README/index/QA, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the **Manthiri Kumari English translation completion checkpoint**.
+`data/works.json`, root README, work metadata/README/mapping/handover, Manthiri Kumari source/translation/reader indexes and QA surfaces, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the **Manthiri Kumari bilingual reader/export completion checkpoint**.
 
 ---
 
