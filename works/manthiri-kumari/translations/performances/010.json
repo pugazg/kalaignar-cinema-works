@@ -1,0 +1,15 @@
+{
+  "id": "manthiri-kumari-performance-en-010",
+  "source_performance_id": "manthiri-kumari-performance-010",
+  "sequence": 10,
+  "heading_ta": "லலிதா—பத்மினி—ராகினி நடனம்",
+  "heading_en": "Lalitha—Padmini—Ragini Dance",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/010.json", "tamil_status": "complete-verified", "pdf_pages": [11], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [{"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [11], "source_tamil_lines": ["ஓ......ராஜா......ஓ......ராணி!", "மிக—ஏழை எளிய எங்க மனசு குளிர இந்த", "குடிசை வழியே வாங்க!—(ஓ)", "அழகு ராணியே!", "புது—மனமே தருமா மலரே இதுதான் நீயே பார்", "மலரே இதுதான் நீயே பார்", "ஒரு ஜோடி மாடப்புறா!", "இணைபிரியோமே கூரைமீதிலே", "பாடுதுபாரே ஆசைகொண்டுதான்!......ஆ......", "ஆசைக்கொள்ளாதே ஐயா எந்தன்மேலே", "கோவங்கொள்வாங்க இந்தராணி உன்மேலே", "மோகம் பொல்லாதே வேறே பெண்மேலே?", "ராஜாத்தி பாரிதோ ரோசாப்பூ போலே......", "மீசை உள்ள ராஜா கள்ளத்தனமே", "கூடாது சாமி வீணே பேராசையாலே", "மோசம் செய்யாதே ஆகாதுதானே!", "வாலிபம் நில்லாதே எந்நாளும் தானே", "தீதெண்ணிடாதே கண்ணான என் வீரா!", "ஊரெல்லாம் நீயே சென்றாலும் தானே", "அம்மா போலே அழகு எங்கேயேனும் காணவும்", "ஆகுமோ சாமி!", "ஓ......ராசா எந்நாளும் இன்பமாகவே ஒன்றாய் வாழுவீரே!"], "english_lines": ["Oh......Raja......Oh......Rani!", "Come by this hut, so that our very poor, humble hearts", "May be gladdened!—(ஓ)", "O beautiful queen!", "Will you grant a new heart, O flower? Look—this is you;", "O flower, this is you—look.", "A pair of roof-pigeons!", "Never parting, upon the rooftop,", "See how they sing, joined by desire!......Ah......", "Do not desire me, sir;", "This queen will be angry with you.", "Isn't desire for another woman wicked?", "Look at the queen, like a rose......", "Moustached Raja—such slyness!", "Do not, sir, out of useless greed;", "Do not deceive—wouldn't that be wrong!", "Youth never stays forever;", "Think no evil, my precious hero!", "Even if you wander through every town,", "Can you ever see beauty anywhere like Amma's,", "Sir?", "Oh......Raja, may you always live happily together!"], "notes": ["`அம்மா` is retained as `Amma` because the performance address is culturally loaded and the source does not require a single normalized English identity.", "The unusual `புது—மனமே தருமா மலரே...` wording is translated conservatively without repairing the Tamil."]}],
+    "translator_notes": ["The playful address, village imagery, moral teasing and repeated Raja/Rani framing are retained.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
