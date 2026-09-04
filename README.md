@@ -86,18 +86,20 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - intake structural heading/transition inventory: **58 / 37 distinct forms**;
 - locked PDF 56 / printed p.54 heading: **`பழுதார் வீதி`**;
 - user-reviewed PDF 107 / printed p.105 heading: **`தூக்குமேடை`**;
-- canonical Tamil first pass: **draft-in-progress — 90/105 pages**;
-- completed range: **PDF 5–94 / logical pp.3–92**;
-- open first-pass uncertainty markers: **107**;
+- canonical Tamil first pass: **draft-in-progress — 100/105 pages**;
+- completed range: **PDF 5–104 / logical pp.3–102**;
+- open first-pass uncertainty markers: **114**;
 - current continuous `full-text.md`: through **PDF 14**;
-- bounded continuation parts: **PDF 15–24, 25–34, 35–44, 45–54, 55–64, 65–74, 75–84 and 85–94**;
-- PDF 35–44 scan reconciliation: **complete for first-pass draft; `தனபதி` restored where initially misread as `தளபதி`**;
+- bounded continuation parts: **PDF 15–104**;
+- newest bounded part: **PDF 95–104**;
+- newest uncertainty ledger: markers **108–114**;
 - PDF 65–74 remains explicitly **draft-high-uncertainty**;
-- PDF 85–94 preserves source-visible local headings including `வீட்டிற்குள்` even where the intake structural ledger is narrower;
+- PDF 104 ends inside Muthan's speech and PDF 105 visibly continues it;
+- full-text assembly / boundary loss-duplication QA: **pending after final five pages**;
 - visual fidelity audit: **not-started**;
 - structured derivatives / English / reader: **blocked pending verified Tamil**.
 
-**Next:** continue canonical Tamil first-pass transcription at **PDF 95 / printed p.93** with stable page anchors and visible uncertainty markers. Assemble all bounded parts into `full-text.md` before first-pass closure; complete a separate full visual fidelity audit before any scene/dialogue derivatives.
+**Next:** complete **PDF 105–109 / printed pp.103–107**, preserving the PDF 104→105 continuation and the locked `தூக்குமேடை` heading. Then assemble every bounded part into `full-text.md` and run boundary loss/duplication QA before declaring the first pass closed. The separate full visual fidelity audit comes after assembly; structured derivatives remain blocked.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
