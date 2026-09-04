@@ -1,0 +1,32 @@
+{
+  "work_id": "manthiri-kumari",
+  "integration": "reading-room",
+  "status": "payload-complete-verified",
+  "schema_version": 1,
+  "payload_mode": "source-linked-composition",
+  "source_scan_sha256": "a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee",
+  "reader_path": "works/manthiri-kumari/editions/bilingual/reader-edition.json",
+  "source_link_targets_expected": 32,
+  "qa": {
+    "result": "PASS",
+    "story_summary_records": 1,
+    "story_summary_units": 13,
+    "performance_records": 15,
+    "performance_sections": 52,
+    "performance_line_cues": 234,
+    "performance_mapping_mismatches": 0,
+    "confirmed_existing_anthology_witnesses": 1,
+    "source_only_in_current_anthology": 14,
+    "item_level_lyric_authorship_verified": 0,
+    "item_level_lyric_authorship_unresolved": 15,
+    "synthetic_scene_ids_created": 0,
+    "canonical_tamil_changed": false,
+    "authorship_upgrades": 0
+  },
+  "payload": {
+    "path": "works/manthiri-kumari/integrations/reading-room/reading-room.json",
+    "bytes": 16061,
+    "sha256": "2d4f0071b0faf463699255c29d10ae0c734a2d367c581ad469987a6a2f2bbb3d"
+  },
+  "site_application_status": "not-applied"
+}
