@@ -28,14 +28,6 @@ source:
   missing_pages_observed: false
   duplicate_pages_observed: false
   content_critical_crop_observed: false
-  non_source_marks:
-    - pdf_page: 1
-      kind: library_or_archive_stamp
-      disposition: excluded_from_canonical_text
-    - pdf_page: 2
-      kind: donor_or_library_label
-      visible_text: "பேராசிரியர். தி.வ. மெய்கண்டார் அவர்களின் அன்பளிப்பு"
-      disposition: excluded_from_canonical_work_text
 
 publication_as_printed:
   rights_line: "[ உரிமை பதிவு செய்யப் பட்டிருக்கிறது ]"
@@ -57,9 +49,6 @@ structure:
   printed_page_formula: "logical printed page = PDF page - 2 for PDF 5-109; PDF 5 folio suppressed, PDF 6 visibly 4, PDF 109 visibly 107"
   source_numbered_scene_headings: false
   source_numbered_scene_count: null
-  scene_number_gaps_observed: not_applicable
-  scene_number_repeats_observed: not_applicable
-  scene_number_out_of_order_observed: not_applicable
   canonical_scene_numbering_introduced: false
   structural_heading_occurrences: 58
   distinct_structural_heading_forms: 37
@@ -93,13 +82,14 @@ transcription_progress:
     - "notes/textual-notes-pdf-065-074.md"
     - "notes/textual-notes-pdf-075-084.md"
     - "notes/textual-notes-pdf-085-094.md"
+    - "notes/textual-notes-pdf-095-104.md"
   first_pass_complete: false
   canonical_pdf_pages: "5-109"
   canonical_logical_printed_pages: "3-107"
   canonical_pages_total: 105
-  first_pass_pages_completed: 90
-  first_pass_pdf_pages: "5-94"
-  first_pass_logical_printed_pages: "3-92"
+  first_pass_pages_completed: 100
+  first_pass_pdf_pages: "5-104"
+  first_pass_logical_printed_pages: "3-102"
   full_text_current_through_pdf_page: 14
   bounded_part_files:
     - path: "transcription/parts/pdf-015-024.md"
@@ -134,13 +124,17 @@ transcription_progress:
       pdf_pages: "85-94"
       printed_pages: "83-92"
       status: draft
+    - path: "transcription/parts/pdf-095-104.md"
+      pdf_pages: "95-104"
+      printed_pages: "93-102"
+      status: draft
   verified_pages: 0
-  draft_pages: 90
+  draft_pages: 100
   review_pages: 0
-  open_first_pass_uncertainty_markers: 107
-  next_pdf_page: 95
-  next_logical_printed_page: 93
-  next_action: "Continue canonical Tamil first-pass transcription from PDF 95 / printed p.93 in a meaningful source-order batch with stable page anchors and visible uncertainty markers. Assemble all bounded part files into full-text.md before closing the complete first pass."
+  open_first_pass_uncertainty_markers: 114
+  next_pdf_page: 105
+  next_logical_printed_page: 103
+  next_action: "Complete the final first-pass batch PDF 105-109 / printed pp.103-107, preserving the PDF 104->105 continuation and locked PDF 107 heading தூக்குமேடை. Then assemble all bounded parts into full-text.md and run boundary loss/duplication QA before first-pass closure."
 
 fidelity_audit:
   status: not-started
@@ -163,7 +157,7 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_first_pass: draft-in-progress-90-of-105
+  canonical_tamil_first_pass: draft-in-progress-100-of-105
   visual_fidelity_audit: not-started
   scene_derivatives: blocked
   dialogue_index: blocked
@@ -173,4 +167,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Continue canonical Tamil first-pass transcription from PDF 95 / printed p.93; the full PDF 5-109 first pass and full-text assembly must finish before the separate visual fidelity audit and before any structured derivatives."
+next_action: "Complete PDF 105-109 first pass, then assemble full-text and perform boundary QA before declaring first-pass closure. Do not begin the separate visual fidelity audit or structured derivatives before assembly."
