@@ -45,6 +45,37 @@ These notes record first-pass readings that remain intentionally uncertain. The 
 
 11. Sukhadev's quoted Kamba-Ramayanam passage is retained as one uncertainty span: `⟦கோமுனியுடன் வரு கொண்டல் என்றபின் தாமரைக் கண்ணினன் என்ற தன்மையால்...ஆம்...அவனே கொல் என்று ஐய நீங்கினள்...வாடமேகலையி வளர்ந்தது...?⟧`. This must be resolved from the printed scan itself, not from a familiar external text of the verse.
 
+## First-pass batch 4 — PDF 25–34
+
+### PDF 25 / printed p.23
+
+12. Sukhadev's rhyming/poetic phrase is presently `⟦மால் நன்னோரம்?⟧.. சோலையின் ஓரம்...`; the first phrase remains glyph-sensitive.
+13. The short bracketed action immediately before PDF 26 is presently `[⟦திருக்கிட்டு?⟧]`; do not replace it from contextual expectation.
+
+### PDF 26 / printed p.24
+
+14. Muthan's response `தீர்ந்ததா ⟦அகாதி?⟧?` retains the final word as uncertain.
+
+### PDF 27 / printed p.25
+
+15. In the opening action paragraph, `⟦மரத்தில் தொத்தி?⟧ இருந்த` remains uncertain; the old-type glyph sequence must be rechecked directly.
+
+### PDF 30 / printed p.28
+
+16. Poongavanam's phrase `உங்கள் ⟦தகாரின் வினவு?⟧ என்ன ஆகி விட்டது தெரியுமா...?` remains an unresolved first-pass reading.
+
+### PDF 31 / printed p.29
+
+17. The narration/voice passage beginning after `பூங்காவனம் அறை` contains `⟦காதல்புர...கன்றைநாடும் பசு...?⟧`; retain the whole uncertain poetic span until enlarged scan review.
+
+### PDF 32 / printed p.30
+
+18. Muthan's long clause beginning `இளையராணி! உங்கள் தகுதிக்கு இது அழகல்ல...` is retained as `⟦கல்யாணமே வேண்டாம் என்று என்னைப் பெண்ணை வாழ சங்கலம் கட்டிய நீங்கள் கண்ணு வாராய் என்று என்னை அழைக்கிறீர்கள்?⟧`. Do not normalize the syntax during first pass.
+
+### PDF 34 / printed p.32
+
+19. Muthayi's line contains `பாளையக்காரரின் ⟦சொத்துக்கணைப் பிடிக்கும்?⟧ சூதாட்டக்காரியாக`; the marked span remains under review.
+
 ## Locked source verdicts from intake
 
 These are not uncertainties:
