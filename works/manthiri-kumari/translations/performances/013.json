@@ -1,0 +1,23 @@
+{
+  "id": "manthiri-kumari-performance-en-013",
+  "source_performance_id": "manthiri-kumari-performance-013",
+  "sequence": 13,
+  "heading_ta": "பார்த்திபன்—மந்திரிகுமாரி",
+  "heading_en": "Parthiban—Manthirikumarī",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/013.json", "tamil_status": "complete-verified", "pdf_pages": [12, 13], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [12], "source_tamil_lines": ["வாராய் நீ வாராய்", "போகுமிடம் வெகுதூரமில்லை நீ வாராய்"], "english_lines": ["Come, you come;", "The place we are going is not very far—come."], "notes": []},
+      {"ordinal": 2, "source_label": "அமுதவல்லி", "english_label": "Amuthavalli", "source_pdf_pages": [12], "source_tamil_lines": ["ஆஹா! மாருதம் வீசுவதாலே", "ஆனந்தம் பொங்குதே மனதிலே!"], "english_lines": ["Ah! As the breeze blows,", "Joy wells up in my heart!"], "notes": []},
+      {"ordinal": 3, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [12], "source_tamil_lines": ["இதனிலும் ஆனந்தம் அடைந்தே இயற்கையில்", "கலந்துயிர் விண்ணினைக் காண்பாய் அங்கே வாராய்"], "english_lines": ["You will find a joy greater even than this;", "Merging your life with nature, you will behold the heavens there—come."], "notes": ["The verified joined form `கலந்துயிர்` is translated conservatively without changing the Tamil."]},
+      {"ordinal": 4, "source_label": "அமுதவல்லி", "english_label": "Amuthavalli", "source_pdf_pages": [12], "source_tamil_lines": ["அமைதி நிலவுதே சாந்தம் தவழுதே!", "அழிவில்லா மோனநிலை சூழுதே!"], "english_lines": ["Peace prevails; tranquillity gently spreads!", "An imperishable state of silence surrounds us!"], "notes": []},
+      {"ordinal": 5, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [13], "source_tamil_lines": ["முடிவில்லா மோன நிலையை நீ—மலை", "முடிவில் காணுவாய் வாராய்"], "english_lines": ["That endless state of silence—you will", "See it at the mountain's end; come."], "notes": []},
+      {"ordinal": 6, "source_label": "அமுதவல்லி", "english_label": "Amuthavalli", "source_pdf_pages": [13], "source_tamil_lines": ["ஈடில்லா அழகை சிகரமீதிலே", "கண்டு இன்பமே கொள்வோம்!"], "english_lines": ["Upon the summit, let us behold matchless beauty", "And take delight!"], "notes": []},
+      {"ordinal": 7, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [13], "source_tamil_lines": ["இன்பமும் அடைந்தே இகம் மறந்தே", "வேறுலகம் காணுவாய் அங்கே!", "வாராய் நீ வாராய்", "புலியெனத் தொடர்ந்தே புதுமான் நீயே வாராய்"], "english_lines": ["Finding happiness and forgetting this world,", "You will behold another world there!", "Come, you come;", "I follow like a tiger—you, young deer, come!"], "notes": ["The predator/deer image in `புலியெனத் ... புதுமான்` is preserved because it is narratively charged and source-visible."]}
+    ],
+    "translator_notes": ["The printed heading names `மந்திரிகுமாரி`, while the source turn label inside the block is `அமுதவல்லி`; the translation preserves both exactly and does not normalize the mismatch.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
