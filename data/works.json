@@ -442,10 +442,30 @@
       "translation_authorship_upgrades": 0,
       "translation_canonical_tamil_changed": false,
       "translation_synthetic_scene_ids_created": 0,
-      "reader_export": "ready-not-started",
-      "reading_room_integration": "blocked-pending-reader-export"
+      "reader_export": "complete-verified",
+      "bilingual_reader_directory": "works/manthiri-kumari/editions/bilingual",
+      "bilingual_reader_composition_path": "works/manthiri-kumari/editions/bilingual/reader-edition.json",
+      "bilingual_reader_markdown_path": "works/manthiri-kumari/editions/bilingual/reader-edition.md",
+      "bilingual_reader_html_path": "works/manthiri-kumari/editions/bilingual/reader-edition.html",
+      "bilingual_reader_preflight_path": "works/manthiri-kumari/editions/bilingual/PREFLIGHT_QA_REPORT.md",
+      "bilingual_reader_qa_path": "works/manthiri-kumari/editions/bilingual/QA_REPORT.md",
+      "bilingual_reader_manifest_path": "works/manthiri-kumari/editions/bilingual/manifest.json",
+      "bilingual_reader_navigation_model": "story-summary-plus-performance-blocks",
+      "bilingual_reader_top_level_source_units": 16,
+      "bilingual_reader_story_summary_logical_units": 13,
+      "bilingual_reader_performance_records": 15,
+      "bilingual_reader_performance_sections": 52,
+      "bilingual_reader_tamil_line_cues": 234,
+      "bilingual_reader_english_line_cues": 234,
+      "bilingual_reader_line_mapping_mismatches": 0,
+      "bilingual_reader_cross_page_performance_records": [2, 4, 6, 7, 9, 11, 13],
+      "bilingual_reader_item_level_lyric_authorship_verified": 0,
+      "bilingual_reader_item_level_lyric_authorship_unresolved": 15,
+      "bilingual_reader_synthetic_scene_ids_created": 0,
+      "bilingual_reader_qa": "PASS",
+      "reading_room_integration": "ready-not-started"
     },
-    "next_action": "Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures, preserving natural booklet navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes."
+    "next_action": "Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving story-summary plus 15-performance navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes or upgrade authorship through presentation metadata."
   },
   {
     "id": "raja-rani",
