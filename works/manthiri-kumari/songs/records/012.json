@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-012",
+  "sequence": 12,
+  "heading_ta": "மந்திரிகுமாரி—ராஜகுமாரி",
+  "occurrence_kind": "labelled-duet",
+  "source_status": "complete-verified",
+  "pdf_pages": [12],
+  "printed_pages_observed": [11],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "text_ta": "மந்திரிகுமாரி: மனம்போல் வாழ்வு பெறுவோமே!\nஇணைந்தே நேசமுடன் எந்நாளும்\nநாம்—மகிழ்வோம் மெய்யன்பாலே\nஎன்னுயிர் நாதன் குணமே—மாறி\nநேர்மையாகினார் புவிமேல்!\n\nராஜகுமாரி: இந்த நாளுன் வாழ்வில் சுபதினமே!\nஇன்பமே கொள்ளுவோம்! (மனம்)\n\nமந்திரிகுமாரி: பெண் மனம் ஒன்றை நினைத்தால்—அதை\nதிண்ணமாக செய்து முடிப்பாள்!\n\nராஜகுமாரி: உயர் காதல் வாழ்வு......\nஉயர் காதல் வாழ்வு பெறத்துடிப்பாள்!\nஉண்மை சேர் அன்பினால் (மனம்)"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["மந்திரிகுமாரி", "ராஜகுமாரி", "(மனம்)"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Source-labelled duet/performance block."
+}
