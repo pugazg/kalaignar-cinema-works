@@ -13,215 +13,119 @@ The repository preserves source provenance, canonical transcription and derivati
 5. **Source and derivatives are separate.** English translation never overwrites Tamil.
 6. **Authorship is not inferred.** Mixed-credit material requires item-level evidence.
 7. **Rights are not assumed.** No repository-wide public-domain/open-license claim is made.
-8. **Current status mirrors must agree.** A major phase is not durably closed until work-local status and repository-wide current mirrors are synchronized; historical checkpoints may remain historical, but current README/registry/handover/audit surfaces must not be left stale.
+8. **Current status mirrors must agree.** A major phase is not durably closed until work-local status and repository-wide current mirrors are synchronized.
 
 ## Reusable onboarding for new cinema works
 
-For every newly supplied Kalaignar cinema source, use these project-level documents before work begins:
+Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, `docs/TRANSCRIPTION_GUIDE.md`, `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`, and `docs/START_NEW_CINEMA_WORK_PROMPT.md` before starting a new work.
 
-- `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` — the detailed mature workflow from source intake through Reading Room integration;
-- `docs/SONG_ANTHOLOGY_PROCESSING_GUIDE.md` — additional rules for compiled film-song/lyric anthologies;
-- `docs/SONG_TRANSLATION_GUIDE.md` — source-faithful English rules for retaining Kalaignar's language in song translation;
-- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` — project-level handover, reference implementations and lessons learned;
-- `docs/START_NEW_CINEMA_WORK_PROMPT.md` — copy-paste prompt for starting a new work safely;
-- `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, and `docs/TRANSCRIPTION_GUIDE.md` — baseline source/transcription rules.
-
-The preferred public reading destination for completed works is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Cinema works should normally be presented there by **scene**, using verified structured repository data. Standalone publication packages are secondary and should be created only when explicitly requested or independently useful. A source that is not actually scene-structured, such as a film story/song booklet, should retain its natural source structure rather than being forced into screenplay scenes.
+The preferred public reading destination is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Preserve each source's natural structure; do not force non-screenplay booklets into screenplay scenes.
 
 ## ராஜா ராணி status
 
-`TVA_BOK_0017188_ராஜா_ராணி.pdf` is now a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.
+`TVA_BOK_0017188_ராஜா_ராணி.pdf` is a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.
 
 - source scan: **80 PDF pages**; SHA-256 `26ecc026b89deafac94bb3b107ee7c5f361c68796c4a1cdf4d01ad7c1c0d31a4`;
-- verified canonical source pages: **79/79**;
-- verified screenplay pages: **70/70**;
-- archival scene derivatives: **58/58**, blocked 0;
+- verified source / screenplay pages: **79/79 / 70/70**;
+- scene derivatives: **58/58**;
 - immutable dialogue records: **1,071**;
-- exact source labels / entities: **80/80 / 44**;
-- numbered Tamil songs: **11/11**;
-- English screenplay: **58/58 scenes / 1,236 verified units / 1,071/1,071 dialogue links**;
-- English numbered songs: **11/11 / 67 sections / 181 Tamil-English line-cue mappings**;
-- song authorship: **5 later-anthology Kalaignar-attributed / 6 unresolved**;
-- deterministic bilingual reader/export: **complete-verified, QA PASS**;
-- reader outputs: Markdown / standalone HTML / machine JSON + QA report + manifest;
-- Reading Room payload: **complete-verified, QA PASS** — `974,510` bytes, SHA-256 `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`;
-- Reading Room site application: **not-applied**.
+- labels / entities: **80/80 / 44**;
+- English screenplay: **1,236 units**;
+- numbered songs: **11/11 / 181 Tamil-English line-cues**;
+- reader/export: **QA PASS**;
+- Reading Room payload: **QA PASS**, `974,510` bytes, SHA-256 `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`;
+- site application: **not-applied**.
 
-The booklet prints **11 numbered front-matter songs but no numbered screenplay scenes**. Reader/integration data therefore preserves songs 1–11 as actual source numbering while `raja-rani-s001`–`s058` remain archival navigation only.
-
-Final QA also permanently removes the old T055/T056 duplicate derivative ownership: scene 55 has 25 immutable dialogue records, scene 56 has 5, and old duplicate `s055-d026`–`s055-d030` IDs are invalid.
-
-**Next:** no required Raja Rani work remains in this repository. Apply the verified Reading Room payload in the separate public-site implementation repository only when that repository is explicitly authorized for modification.
+**Next:** no required Raja Rani repository-internal work remains; apply its payload in the separate Reading Room implementation repository only when explicitly authorized.
 
 ## மந்திரி குமாரி status
 
-`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose source-appropriate Tamil, English and deterministic bilingual reader layers are now complete-verified.
+`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose source-appropriate Tamil, English, bilingual reader and Reading Room integration payload are now complete-verified.
 
 - source classification: **film story-and-song booklet**, not a full screenplay/dialogue book;
-- cover title: **`மந்திரி குமாரி`** under `மாடர்ன் தியேட்டர்ஸ்`;
 - direct printed Kalaignar credit: **`கதை, வசனம் : மு. கருணாநிதி`**;
-- scan: **14 PDF pages**, **579,782 bytes**;
 - source SHA-256: `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;
-- PDF 2: cast/music/production credits;
-- PDF 3–5: continuous **`"மந்திரி குமாரி"—கதைச்சுருக்கம்`**;
-- PDF 6–13: **`மந்திரி குமாரி—பாடல்கள்`**, **15** separately headed song/performance blocks;
-- PDF 14: unrelated **`அமரகவி`** back-cover advertisement / paratext;
-- source scene-numbering system: **none**;
-- canonical Tamil: **complete-verified — PDF 2–13, 12/12 pages, 0 unresolved readings**;
-- post-fidelity manual source corrections: **recorded, applied and reconciled**;
-- source subdivision form: **`தொகையறா`** where applicable;
-- credits derivative: **complete-verified**;
-- story-summary Tamil derivative: **complete-verified — PDF 3–5 / 1 continuous record / 0 synthetic scene IDs / 0 immutable dialogue IDs**;
-- song/performance Tamil records: **15/15 complete-verified — PDF 6–13 / 8/8 pages / 0 missing or duplicate IDs**;
-- cross-witness classification: **1 confirmed current-anthology witness / 14 source-only blocks**;
+- canonical Tamil: **PDF 2–13, 12/12 pages complete-verified, 0 unresolved readings**;
+- post-fidelity source corrections: **recorded, applied and reconciled**;
+- story-summary Tamil derivative: **1/1 continuous record, PDF 3–5**;
+- song/performance Tamil records: **15/15 complete-verified, PDF 6–13**;
+- current-anthology relationship: **1 confirmed witness / 14 source-only blocks**;
 - booklet item-level lyric authorship: **0 verified / 15 unresolved**;
-- English story-summary translation: **1/1 complete-verified — 13 logical prose units / 1 cross-page unit**;
-- English performance translation: **15/15 complete-verified — 52 sections / 234 Tamil line-cues / 234 English line-cues / 0 mapping mismatches**;
-- cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
-- translation final QA: **PASS**;
-- deterministic bilingual reader/export: **complete-verified, QA PASS**;
-- reader navigation: **16 natural source structures — 1 story summary + 15 performance blocks**;
+- English story-summary translation: **1/1 / 13 logical units / 1 cross-page unit**;
+- English performance translation: **15/15 / 52 sections / 234 Tamil-English line-cues / 0 mismatches**;
+- bilingual reader/export: **complete-verified, QA PASS**;
+- reader navigation: **16 natural source structures — 1 story summary + 15 performances**;
 - reader performance mapping: **52 sections / 234 Tamil line-cues / 234 English line-cues / 0 mismatches**;
-- reader outputs: **machine JSON / Markdown / standalone HTML + preflight QA + final QA + integrity manifest**;
-- authorship upgrades caused by translation/reader: **0**;
-- canonical Tamil changed by translation/reader: **no**;
 - synthetic screenplay scene IDs created: **0**;
-- Reading Room integration payload: **ready / not-started**.
+- canonical Tamil changes caused by translation/reader/payload: **0**;
+- authorship upgrades caused by downstream layers: **0**;
+- Reading Room payload: **payload-complete-verified — QA PASS**;
+- payload mode: **`source-linked-composition`**;
+- payload source-link targets: **32**;
+- payload: `works/manthiri-kumari/integrations/reading-room/reading-room.json`;
+- payload bytes: **15,704**;
+- payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`;
+- Reading Room site application: **not-applied**.
 
-The booklet's story/dialogue credit is primary-source evidence for that role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and did not repair the booklet text. Translation and reader construction likewise leave all 15 item-level lyricists unresolved unless separate evidence is later added.
+The source-linked payload preserves the booklet's natural `கதைச்சுருக்கம்` + 15-performance navigation, PDF-page provenance, source-visible cues, the block-11 anthology witness, and the unresolved item-level lyricist state. Performance 13 retains the printed heading `பார்த்திபன்—மந்திரிகுமாரி` while its internal source labels remain `பார்த்திபன்` / `அமுதவல்லி`.
 
-**Next:** prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving the natural story-summary + 15-performance navigation, Tamil/English pairing, PDF-page provenance, source-visible cues, the 1/15 anthology relationship and 15/15 unresolved item-level lyricists. Site application remains a separate downstream action.
+**Next:** no required repository-internal Manthiri Kumari work remains. Apply the verified payload in the separate Reading Room implementation repository only when that repository is explicitly authorized for modification.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
-The dedicated film-song anthology work under `works/kalaignar-thirai-isai-paadalgal/` is being processed from the supplied source `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`.
+The dedicated anthology work `works/kalaignar-thirai-isai-paadalgal/` is complete-verified for its numbered corpus.
 
-- printed title: **`கலைஞர் திரை இசைப் பாடல்கள்`**;
-- compiler: **`நெல்லை ஜெயந்தா`**;
-- First Edition: **June 2024**;
-- publisher: **தமிழ்நாடு இயல் இசை நாடக மன்றம்**;
-- ISBN: **978-81-961205-2-8**;
-- physical source binary: **194 PDF pages**, 130,427,193 bytes;
+- source: `TVA_BOK_0065867_கலைஞர்_திரை_இசைப்_பாடல்கள்.pdf`;
 - source SHA-256: `f0beac14c33ffc73c0231bd54ca57ec4093eef6e85072bd68ce48f7b5e258b05`;
-- printed colophon statement: **`No of pages : 192`**;
-- structural mapping: **verified**;
-- full PDF song-page scan: **complete — 62 song-bearing / 132 ignored pages**;
-- numbered Tamil lyric corpus: PDF **24–130**;
-- film sections: **23/23 mapped**;
-- numbered songs: **54/54 inventoried (`001–054`)**;
-- Tamil song transcription: **54/54 complete-verified**;
-- Tamil fidelity audit: **complete — 0 draft / 0 review / 0 unresolved Tamil readings**;
-- default attribution status: **`anthology-attributed`** — this 2024 anthology's attribution is not silently promoted to original-film primary-source verification;
+- numbered songs: **54/54 Tamil complete-verified**;
 - English translation: **54/54 complete-verified**;
-- English pilot-verified: **3 (`001–003`)**;
-- English verified: **51 (`004–054`)**;
-- English draft/review/not-started: **0/0/0**;
-- English mode: **`semantic-poetic-source-faithful`**, retaining Kalaignar's language rather than producing a singable rewrite;
-- final English review: `works/kalaignar-thirai-isai-paadalgal/translations/BATCH_047_054_REVIEW.md`;
-- English reader/export: **complete-verified, QA PASS** — 54/54 songs, 1,105/1,105 English lines-cues, 8 cross-page records, deterministic Markdown/HTML/JSON + manifest;
-- Reading Room integration payload: **complete-verified, QA PASS** — 23 film groups / 54 songs / 1,105 paired lines-cues; site application not applied.
+- reader/export: **QA PASS**;
+- Reading Room payload: **QA PASS — 23 film groups / 54 songs / 1,105 paired line-cues**;
+- site application: **not-applied**.
 
-The PDF-specific workflow processes only actual numbered lyric pages or their direct continuations. All **54** numbered Tamil song files are visually verified. Cross-page verified records are `009`, `019`, `023`, `024`, `036`, `037`, `051`, and `052`. No missing lyric was imported from soundtrack memory, websites or alternate editions.
+The anthology attribution tier remains separate from original-film primary-source verification.
 
-The complete English corpus follows the same source discipline. Across all 54 songs it preserves Kalaignar's political and social rhetoric, repetition, concrete image chains, colloquial and folk speech, Tamil cultural vocabulary, performance terminology and difficult verified source forms instead of smoothing them into generic lyric English.
-
-The anthology's `மந்திரிகுமாரி` editorial note also mentions the censored/prohibited `ஆளப்பிறந்தவன் தமிழன் அவன்தானே`. Because its lyric is not printed as a numbered item, it remains an editorial note and is not inserted into the `001–054` corpus.
-
-**Next:** apply the verified Reading Room payload in the separate implementation repository only when that repository is explicitly authorized for modification.
+**Next:** apply the verified payload in the separate Reading Room implementation repository only when explicitly authorized.
 
 ## மனோகரா status
 
-The source `TVA_BOK_0010102_மனோகரா.pdf` has completed source intake, structural mapping, canonical Tamil verification, visual fidelity audit, scene derivation, immutable dialogue indexing, character/entity disposition, the song/performance authorship gate, and the complete source-linked English translation.
+`TVA_BOK_0010102_மனோகரா.pdf` has complete-verified Tamil, structured derivatives, English translation and reader/export.
 
-- source title: **`மனோகரா`**;
-- printed credit: **`திரைக்கதை வசனம்` / `மு. கருணாநிதி`**;
-- explicit edition statement: **`முதற்பதிப்பு : பிப்ரவரி 1954.`**;
-- scan: **90 PDF pages**;
-- source SHA-256: `87518fd8c290d7880aa2ddd9f2b5999c9d421d48fe1f02d61cf8e254393236a9`;
-- main screenplay/dialogue: PDF **7–88 / logical printed pp.6–87** — **82 canonical pages**;
-- source-numbered scene headings: **none printed**;
-- canonical Tamil: **82/82 pages complete-verified**;
-- visual fidelity audit: **complete — 82/82 pages, 0 unresolved source readings**;
-- archival scene index / scene-text derivatives: **57/57 complete-verified**;
-- dialogue index: **57/57 scenes, 983 immutable labelled-dialogue records, complete-verified**;
-- dialogue cross-page records / label anomalies: **13 / 8**;
-- sole zero-record dialogue scene: **`manohara-s024`**;
-- character/entity index: **complete-verified — 111/111 labels dispositioned into 37 entities/role categories; `வர்மா` remains the sole unresolved label**;
-- song/performance inventory: **6 source-visible occurrences; 1 verified / 1 review / 4 unresolved authorship**;
-- verified song authorship: **`பொழுது புலர்ந்தது` — சுரபி**;
-- Tamil song lyric derivative files: **0 — no complete lyric body is printed in this booklet**;
-- English translation: **complete-verified — 57/57 archival scenes, 1,190/1,190 verified source-linked units**;
-- English unit mix: **1,009 dialogue-kind / 173 stage direction / 6 song-reference / 1 chant / 1 written-text**;
-- immutable dialogue links in English: **983/983 exactly once**;
-- direct source-unlabelled spoken English units: **27**;
-- genuine cross-page English units: **17**;
-- translated source-visible song/performance occurrences: **6/6**.
+- canonical Tamil: **82/82 pages**;
+- archival scenes: **57/57**;
+- dialogue records: **983**;
+- character labels/entities: **111 / 37**;
+- English: **1,190/1,190 units**;
+- reader/export: **QA PASS**;
+- Reading Room integration: ready.
 
-The final requested English pass covered **`manohara-s046`–`manohara-s057`** and was checked directly against PDF **71–88 / logical printed pp.70–87**. It adds **267 verified units** and links all **216/216** immutable labelled dialogue records in those twelve scenes.
-
-The **Manohara English reader/export preflight now passes** across all 57 scene records and 1,190 verified units: 983/983 immutable dialogue links exactly once, 27 null-speaker spoken units, 17 cross-page units and all 6 song/performance links, with zero missing/extra/duplicate dialogue links, synthetic scene-end units, direct structural-star units, page-order regressions, unit-ID errors or provenance/scene-metadata errors.
-
-The deterministic **Manohara English reader/export package now passes generated-output QA**: Markdown, standalone HTML and machine-readable JSON each contain all 1,190 verified units exactly once, with an integrity manifest recording reproducible input/output hashes. No canonical Tamil or structured source derivative was changed.
-
-**Next:** integrate the verified Manohara English reader into the Kalaignar Digital Library / Reading Room, preserving the 57 scene IDs strictly as archival navigation rather than source numbering.
+**Next:** integrate the verified Manohara reader into the Reading Room while preserving its archival scene IDs as navigation rather than printed source numbering.
 
 ## Parasakthi status
 
-The canonical Tamil covers PDF **4–57 / printed pp.3–56** and is fully verified at **54/54 pages**. PDF 58 is back matter.
+Parasakthi has complete-verified canonical Tamil and source-linked English reader work.
 
-Completed source/Tamil derivatives:
-
+- canonical Tamil: **54/54 pages**;
 - scene layer: **46/46**;
-- dialogue index: **642 records, complete-verified**;
-- character index: **69/69 source labels disposed**;
-- song/verse occurrences: **14**;
-- song authorship: **14/14 verified**;
-- Tamil soundtrack files: **11/11 complete-verified**;
-- separate quoted verse: **1**.
+- dialogue index: **642 records**;
+- song/verse authorship: **14/14 verified**;
+- English: **769/769 units**;
+- reader/export: **QA PASS**.
 
-The source-linked English translation is **complete-verified for all 46 observed canonical scenes**: scenes **1–22, 24–33 and 35–48**. Canonical scenes **23 and 34 are absent** and correctly have no translation records.
-
-Final English totals are **769/769 verified units**: **641 dialogue / 114 stage direction / 13 song / 1 quoted verse**. A whole-work reader QA now also passes across all 769 units: **634 immutable dialogue-record links**, **14 song/verse occurrence links**, **16 cross-page units**, and **97 distinct source paths** were checked. Source-unlabelled dialogue/performance remains unlabelled rather than receiving invented speaker metadata.
-
-Publication-facing, provenance-safe English derivatives are generated under `works/parasakthi/editions/en/` as Markdown, standalone HTML and machine-readable JSON, with a generated QA report and deterministic integrity manifest. The active GitHub Actions workflow reruns the QA/build when its authoritative inputs change.
-
-No canonical Tamil, scene, dialogue, character, song or transcription derivative was modified by the English translation or reader-export work.
-
-**Next:** no required Parasakthi English translation or QA/export activity remains. For public access, future downstream work should prioritize integration into `https://nenjukkuneethi.org/read`; standalone packaging should be done only when separately requested or useful.
+**Next:** no required translation/reader activity remains; future public access should prioritize Reading Room integration.
 
 ## திரும்பிப்பார்! status
 
-The second screenplay is archived from `TVA_BOK_0014652_திரும்பிப்பார்.pdf`.
+`TVA_BOK_0014652_திரும்பிப்பார்.pdf` is complete-verified through deterministic reader/export and EPUB packaging.
 
-- explicit source edition statement: **`முதல் பதிப்பு: 1953`**;
-- scan: **112 PDF pages**;
-- main screenplay: PDF **9–112 / printed pp.1–104**;
-- scene-number pass: **93 scene starts, consecutively 1–93**;
-- source intake: **complete**;
-- structural mapping: **verified**;
-- scene-heading / structural-label audit: **93/93 dispositioned**;
-- canonical Tamil: **104 verified / 0 draft / 0 review**;
-- fidelity audit: **complete**;
-- scene index / scene-text derivatives: **93/93 complete**;
-- dialogue index: **1,040 records across 93 scene shards, complete**;
-- character index: **45/45 exact speaker labels dispositioned into 39 verified entities/role categories**;
-- song/performance inventory: **8 source-visible occurrences dispositioned**;
-- song authorship mapping: **3 verified occurrences / 5 unresolved occurrences**;
-- source-named songs with verified item-level authorship: **`பாண்டியன் என் சொல்லை` — பாரதிதாசன்; `கலப்படம்` — கண்ணதாசன்**;
-- Tamil song-lyric derivative files: **0**, because this booklet prints no complete lyric body for either source-named song;
-- English translation: **complete-verified — scenes 1–93, 1,321 verified source-linked units**;
-- English reader/export edition: **complete-verified — Markdown / HTML / JSON + QA report + integrity manifest**;
-- English EPUB 3 package: **complete-verified — deterministic package QA PASS**.
+- canonical Tamil: **104/104 pages**;
+- scenes: **93/93**;
+- dialogue records: **1,040**;
+- English: **1,321 verified units**;
+- reader/export: **QA PASS**;
+- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
 
-The completed English derivative is stored under `works/tirumbippaar/translations/`. Final totals are **1,321/1,321 verified units: 1,047 dialogue / 254 stage direction / 7 song-reference / 2 chant / 11 written-text / 0 full-song units**. All **1,040 immutable labelled dialogue records** are linked exactly once; seven additional source-visible spoken units remain deliberately unlabelled in metadata.
-
-The provenance-safe reader/export layer under `works/tirumbippaar/editions/en/` passes whole-work QA across **93 scenes / 1,321 units / 1,040 immutable dialogue links / 12 cross-page units**. It generates `reader-edition.md`, standalone `reader-edition.html`, machine-readable `reader-edition.json`, `QA_REPORT.md` and `manifest.json`.
-
-The same automated publication workflow builds `tirumbippaar-en.epub` as a deterministic **EPUB 3** package. EPUB QA confirms **93 scene XHTML documents**, every one of the **1,321 verified unit IDs exactly once**, **99 ZIP members**, complete TOC/OPF/spine coverage, and first/uncompressed exact `mimetype`. The package is **370,615 bytes** with SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
-
-No canonical Tamil, scene, dialogue, character or song-inventory layer was changed by the English translation, final reader reconciliation, reader export or EPUB packaging.
-
-**Next:** no required Tirumbippaar English translation, reader-export or EPUB-packaging activity remains. Its intended primary public destination is the scene-based Reading Room at `https://nenjukkuneethi.org/read`, using the verified Tamil/English structured data. Additional standalone packages are optional only when explicitly requested.
+**Next:** no required Tirumbippaar repository-internal translation/reader/package work remains.
 
 ## Status vocabulary
 
