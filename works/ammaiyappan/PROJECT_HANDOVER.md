@@ -75,23 +75,23 @@ Important adjudications:
 ## Canonical Tamil first pass — active
 
 - canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- completed first-pass range: **PDF 5–9 / logical pp.3–7**;
-- first-pass pages completed: **5 / 105**;
+- completed first-pass range: **PDF 5–14 / logical pp.3–12**;
+- first-pass pages completed: **10 / 105**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **4**;
+- open first-pass uncertainty markers: **8**;
 - uncertainty ledger: `notes/textual-notes.md`;
-- next page: **PDF 10 / printed p.8**;
+- next page: **PDF 15 / printed p.13**;
 - visual fidelity audit: **not-started**.
 
-The first pass intentionally preserves uncertainty instead of guessing. Current open tokens are limited to PDF 6 and PDF 9 and are explicitly documented.
+Batch 2, PDF 10–14, preserves the source headings `மாடம்`, `குதிரைக் கொட்டடி` and `வாள் பயிற்சிக் கூடம்`; Maykainathar's long speech is correctly page-anchored across the PDF 10→11 boundary. The new uncertainty markers are confined to direct old-type glyph questions and do not block continuation of the first pass.
 
 ## Current phase
 
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **draft-in-progress — 5/105**;
+- canonical Tamil first pass: **draft-in-progress — 10/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -104,8 +104,8 @@ The first pass intentionally preserves uncertainty instead of guessing. Current 
 - OCR/audio/subtitles/web/later editions cannot repair canonical Tamil.
 - Story/dialogue credit is not item-level lyric credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless direct scan evidence explicitly reopens them.
-- Do not resolve the four current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
+- Do not resolve the eight current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription at PDF 10 / printed p.8. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is complete, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 15 / printed p.13. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is complete, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
