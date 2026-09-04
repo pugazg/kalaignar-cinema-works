@@ -1,0 +1,15 @@
+{
+  "id": "manthiri-kumari-performance-en-003",
+  "source_performance_id": "manthiri-kumari-performance-003",
+  "sequence": 3,
+  "heading_ta": "குமாரி கமலா நடனம்",
+  "heading_en": "Dance by Kumari Kamala",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/003.json", "tamil_status": "complete-verified", "pdf_pages": [7], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [{"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [7], "source_tamil_lines": ["இசைக்கலையே இனிதாமே மேலான", "கானத்திலே ஆனந்தம் பெற்றார் யாரே? (இசை)", "வானோர் பாலர் முதலாய்", "ஒருயிர் இனமும் உளம் மயங்கும் கீத நாதம்", "தொனி கேட்டுமே—இன்னிசை", "தொனி கேட்டுமே பொல்லாத நாகமும்", "தன்னை மறந்தாடும் நிலை காணும் உலகினிலே (இசை)", "வீணையில் எழும் நாதமோடு புதுமையும்", "கூடிடவே குரலே தெளிவாய்", "மேலான இனிய ராக நயமுடன்—சுதியும்", "தாளம் நன்றிணைந்திடவே", "பாவமொடு தான் சொல்லும் எளிதாய்—பொருள்", "மேவும் இசைப்பாடல் தனைப்பாடினால்", "இதயமீது உவகையே துள்ளிடவே", "கலையை யாவருமே புகழ்வாரே", "கிடைக்காததே சங்கீத ஞானமே", "வையமீதிலொரு நிதியாமே—புகலரிய (இசை)"], "english_lines": ["The art of music itself is sweet and exalted;", "Who has not found joy in song? (இசை)", "From the heavenly ones and children onward,", "The sound of song enchants the heart of every living kind.", "At the mere sound—the sweet music;", "At the mere sound, even a vicious cobra", "Forgets itself and dances—see such a state in this world! (இசை)", "When newness joins the tone that rises from the veena,", "And the voice is clear,", "With the grace of a lofty, sweet raga—and shruti,", "And tala joining it in perfect measure,", "With bhava expressing with ease—the meaning", "That dwells within the song one sings,", "Joy leaps upon the heart;", "Everyone will praise the art.", "Knowledge of music is not easily won;", "It is a treasure upon the earth—beyond telling. (இசை)"], "notes": ["`வீணை`, `ராக`, `சுதி`, `தாளம்`, and the music-context `பாவம்` are rendered as veena, raga, shruti, tala, and bhava to preserve the technical musical register.", "The source cue `(இசை)` is retained verbatim."]}],
+    "translator_notes": ["The translation keeps the poem's technical music vocabulary rather than replacing it with flatter generic terms.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
