@@ -25,7 +25,9 @@
       "heading_en": "Durbar Dance",
       "translation_path": "../../translations/performances/001.json",
       "source_record_path": "../../songs/records/001.json",
-      "source_pdf_pages": [6],
+      "source_pdf_pages": [
+        6
+      ],
       "sections": 1,
       "line_cues": 21,
       "authorship_status": "unresolved",
@@ -37,7 +39,10 @@
       "heading_en": "Princess",
       "translation_path": "../../translations/performances/002.json",
       "source_record_path": "../../songs/records/002.json",
-      "source_pdf_pages": [6, 7],
+      "source_pdf_pages": [
+        6,
+        7
+      ],
       "sections": 2,
       "line_cues": 14,
       "authorship_status": "unresolved",
@@ -49,7 +54,9 @@
       "heading_en": "Dance by Kumari Kamala",
       "translation_path": "../../translations/performances/003.json",
       "source_record_path": "../../songs/records/003.json",
-      "source_pdf_pages": [7],
+      "source_pdf_pages": [
+        7
+      ],
       "sections": 1,
       "line_cues": 17,
       "authorship_status": "unresolved",
@@ -61,7 +68,10 @@
       "heading_en": "Manthirikumarī",
       "translation_path": "../../translations/performances/004.json",
       "source_record_path": "../../songs/records/004.json",
-      "source_pdf_pages": [7, 8],
+      "source_pdf_pages": [
+        7,
+        8
+      ],
       "sections": 2,
       "line_cues": 12,
       "authorship_status": "unresolved",
@@ -73,7 +83,9 @@
       "heading_en": "Manthirikumarī—Parthiban",
       "translation_path": "../../translations/performances/005.json",
       "source_record_path": "../../songs/records/005.json",
-      "source_pdf_pages": [8],
+      "source_pdf_pages": [
+        8
+      ],
       "sections": 9,
       "line_cues": 18,
       "authorship_status": "unresolved",
@@ -85,7 +97,10 @@
       "heading_en": "Dance by Kumari Vanaja",
       "translation_path": "../../translations/performances/006.json",
       "source_record_path": "../../songs/records/006.json",
-      "source_pdf_pages": [8, 9],
+      "source_pdf_pages": [
+        8,
+        9
+      ],
       "sections": 5,
       "line_cues": 14,
       "authorship_status": "unresolved",
@@ -97,7 +112,10 @@
       "heading_en": "Commander Party Chorus",
       "translation_path": "../../translations/performances/007.json",
       "source_record_path": "../../songs/records/007.json",
-      "source_pdf_pages": [9, 10],
+      "source_pdf_pages": [
+        9,
+        10
+      ],
       "sections": 2,
       "line_cues": 22,
       "authorship_status": "unresolved",
@@ -109,7 +127,9 @@
       "heading_en": "Karpagam—Poologam",
       "translation_path": "../../translations/performances/008.json",
       "source_record_path": "../../songs/records/008.json",
-      "source_pdf_pages": [10],
+      "source_pdf_pages": [
+        10
+      ],
       "sections": 7,
       "line_cues": 21,
       "authorship_status": "unresolved",
@@ -121,7 +141,10 @@
       "heading_en": "Princess",
       "translation_path": "../../translations/performances/009.json",
       "source_record_path": "../../songs/records/009.json",
-      "source_pdf_pages": [10, 11],
+      "source_pdf_pages": [
+        10,
+        11
+      ],
       "sections": 2,
       "line_cues": 8,
       "authorship_status": "unresolved",
@@ -133,7 +156,9 @@
       "heading_en": "Lalitha—Padmini—Ragini Dance",
       "translation_path": "../../translations/performances/010.json",
       "source_record_path": "../../songs/records/010.json",
-      "source_pdf_pages": [11],
+      "source_pdf_pages": [
+        11
+      ],
       "sections": 1,
       "line_cues": 22,
       "authorship_status": "unresolved",
@@ -145,7 +170,10 @@
       "heading_en": "Cowherd Boy",
       "translation_path": "../../translations/performances/011.json",
       "source_record_path": "../../songs/records/011.json",
-      "source_pdf_pages": [11, 12],
+      "source_pdf_pages": [
+        11,
+        12
+      ],
       "sections": 4,
       "line_cues": 16,
       "authorship_status": "unresolved",
@@ -157,7 +185,9 @@
       "heading_en": "Manthirikumarī—Rajakumarī",
       "translation_path": "../../translations/performances/012.json",
       "source_record_path": "../../songs/records/012.json",
-      "source_pdf_pages": [12],
+      "source_pdf_pages": [
+        12
+      ],
       "sections": 4,
       "line_cues": 12,
       "authorship_status": "unresolved",
@@ -169,7 +199,10 @@
       "heading_en": "Parthiban—Manthirikumarī",
       "translation_path": "../../translations/performances/013.json",
       "source_record_path": "../../songs/records/013.json",
-      "source_pdf_pages": [12, 13],
+      "source_pdf_pages": [
+        12,
+        13
+      ],
       "sections": 7,
       "line_cues": 16,
       "authorship_status": "unresolved",
@@ -181,7 +214,9 @@
       "heading_en": "Farmer—Thogaiyara",
       "translation_path": "../../translations/performances/014.json",
       "source_record_path": "../../songs/records/014.json",
-      "source_pdf_pages": [13],
+      "source_pdf_pages": [
+        13
+      ],
       "sections": 4,
       "line_cues": 9,
       "authorship_status": "unresolved",
@@ -193,7 +228,9 @@
       "heading_en": "Princess",
       "translation_path": "../../translations/performances/015.json",
       "source_record_path": "../../songs/records/015.json",
-      "source_pdf_pages": [13],
+      "source_pdf_pages": [
+        13
+      ],
       "sections": 1,
       "line_cues": 12,
       "authorship_status": "unresolved",
@@ -207,7 +244,15 @@
     "performance_tamil_line_cues": 234,
     "performance_english_line_cues": 234,
     "performance_mapping_mismatches": 0,
-    "cross_page_performance_records": [2, 4, 6, 7, 9, 11, 13],
+    "cross_page_performance_records": [
+      2,
+      4,
+      6,
+      7,
+      9,
+      11,
+      13
+    ],
     "confirmed_existing_anthology_witnesses": 1,
     "source_only_in_current_anthology": 14,
     "item_level_lyric_authorship_verified": 0,
