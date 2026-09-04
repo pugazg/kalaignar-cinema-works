@@ -77,19 +77,19 @@ Important adjudications:
 ## Canonical Tamil first pass — active
 
 - canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- completed first-pass range: **PDF 5–54 / logical pp.3–52**;
-- first-pass pages completed: **50 / 105**;
+- completed first-pass range: **PDF 5–64 / logical pp.3–62**;
+- first-pass pages completed: **60 / 105**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **39**;
+- open first-pass uncertainty markers: **48**;
 - uncertainty ledger: `notes/textual-notes.md`;
 - active progress/assembly authority: `transcription/index.json`;
 - assembled `full-text.md` currently reaches **PDF 14**;
-- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`, `transcription/parts/pdf-035-044.md`, `transcription/parts/pdf-045-054.md`;
-- next page: **PDF 55 / printed p.53**;
+- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`, `transcription/parts/pdf-035-044.md`, `transcription/parts/pdf-045-054.md`, `transcription/parts/pdf-055-064.md`;
+- next page: **PDF 65 / printed p.63**;
 - visual fidelity audit: **not-started**.
 
-The PDF 35–44 batch was visually reconciled against the controlling scan after the initial draft. Source-visible `தனபதி` labels were restored where the initial draft had misread `தளபதி`. Five insecure old-type spans remain explicitly marked. The PDF 45–54 batch adds fifteen further marked spans; none was repaired from semantic expectation or external text.
+The PDF 35–44 batch was visually reconciled against the controlling scan after the initial draft. Source-visible `தனபதி` labels were restored where the initial draft had misread `தளபதி`. The PDF 45–54 batch added fifteen marked spans. PDF 55–64 adds nine further marked spans, preserves the locked source heading `பழுதார் வீதி`, and ends inside quoted poetic material whose final marked fragment continues onto PDF 65. None of these uncertain readings was repaired from semantic expectation or external text.
 
 Before declaring the entire first pass complete, assemble every bounded part into `full-text.md` in exact source order and perform boundary loss/duplication QA.
 
@@ -98,7 +98,7 @@ Before declaring the entire first pass complete, assemble every bounded part int
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **draft-in-progress — 50/105**;
+- canonical Tamil first pass: **draft-in-progress — 60/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -111,8 +111,9 @@ Before declaring the entire first pass complete, assemble every bounded part int
 - OCR/audio/subtitles/web/later editions cannot repair canonical Tamil.
 - Story/dialogue credit is not item-level lyric credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless direct scan evidence explicitly reopens them.
+- Preserve the PDF 64 → PDF 65 quoted-poetry continuation; do not resolve it from an external literary witness during first pass.
 - Do not resolve the current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription at PDF 55 / printed p.53. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 65 / printed p.63. Preserve the cross-page poetic continuation from PDF 64 and work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
