@@ -9,7 +9,7 @@ This map is source-structural only. It does not treat the prose story summary as
 - physical PDF pages: **14**;
 - byte size: **579,782**;
 - SHA-256: `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;
-- image-only scan; rendered pages control future transcription;
+- image-only scan; rendered pages control canonical transcription;
 - cover title: `மந்திரி குமாரி` under `மாடர்ன் தியேட்டர்ஸ்`;
 - story/dialogue credit on PDF 2: `கதை, வசனம் : மு. கருணாநிதி`;
 - no explicit edition statement or publication year was observed.
@@ -19,23 +19,23 @@ This map is source-structural only. It does not treat the prose story summary as
 | PDF page(s) | Printed pagination | Structure | Disposition |
 |---|---|---|---|
 | 1 | none visible | illustrated cover — `மாடர்ன் தியேட்டர்ஸ்` / `மந்திரி குமாரி` | cover paratext |
-| 2 | none visible | cast, dance, music/playback, writer/director and production/printer credits | canonical source metadata / future credits layer |
-| 3 | none visible | `"மந்திரி குமாரி"—கதைச்சுருக்கம்` begins | canonical prose story summary |
-| 4 | `3` | story-summary continuation | canonical prose story summary |
-| 5 | `4` | story-summary conclusion | canonical prose story summary |
-| 6 | none visible | `மந்திரி குமாரி—பாடல்கள்` begins | canonical song/performance source text |
-| 7 | `6` | song/performance continuation | canonical song/performance source text |
-| 8 | `7` | song/performance continuation | canonical song/performance source text |
-| 9 | `8` | song/performance continuation | canonical song/performance source text |
-| 10 | `9` | song/performance continuation | canonical song/performance source text |
-| 11 | `10` | song/performance continuation | canonical song/performance source text |
-| 12 | `11` | song/performance continuation | canonical song/performance source text |
-| 13 | `12` | song/performance conclusion | canonical song/performance source text |
+| 2 | none visible | cast, dance, music/playback, writer/director and production/printer credits | canonical source metadata / credits layer |
+| 3 | none visible | `"மந்திரி குமாரி"—கதைச்சுருக்கம்` begins | verified canonical prose story summary |
+| 4 | `3` | story-summary continuation | verified canonical prose story summary |
+| 5 | `4` | story-summary conclusion | verified canonical prose story summary |
+| 6 | none visible | `மந்திரி குமாரி—பாடல்கள்` begins | verified canonical song/performance source text |
+| 7 | `6` | song/performance continuation | verified canonical song/performance source text |
+| 8 | `7` | song/performance continuation | verified canonical song/performance source text |
+| 9 | `8` | song/performance continuation | verified canonical song/performance source text |
+| 10 | `9` | song/performance continuation | verified canonical song/performance source text |
+| 11 | `10` | song/performance continuation | verified canonical song/performance source text |
+| 12 | `11` | song/performance continuation | verified canonical song/performance source text |
+| 13 | `12` | song/performance conclusion | verified canonical song/performance source text |
 | 14 | none visible | advertisement for `அமரகவி` | unrelated back-cover paratext; exclude from canonical Mandhiri Kumari text |
 
 ### Pagination note
 
-The visible numerals establish a continuous internal sequence around the unnumbered section-opening pages, but unprinted numerals are **not** promoted to source-visible pagination. Future anchors should therefore record only actually visible printed numbers and otherwise use the PDF page alone.
+The visible numerals establish a continuous internal sequence around the unnumbered section-opening pages, but unprinted numerals are **not** promoted to source-visible pagination. Canonical anchors therefore record only actually visible printed numbers and otherwise use the PDF page alone.
 
 ## Story-summary structure
 
@@ -43,8 +43,8 @@ PDF **3–5** is a continuous prose `கதைச்சுருக்கம்`
 
 - do not create source scene numbers from paragraph breaks;
 - do not turn quoted/reported speech inside the synopsis into a film-wide immutable dialogue index;
-- preserve it first as continuous canonical prose with page anchors;
-- a later story-summary derivative may be created only after Tamil fidelity verification.
+- preserve it as continuous canonical prose with page anchors;
+- any story-summary derivative must derive from the verified canonical Tamil.
 
 ## Song/performance section — exact heading sequence
 
@@ -58,7 +58,7 @@ The song/performance corpus runs PDF **6–13** and contains **15** separately h
 | 4 | `மந்திரிகுமாரி` | 7–8 | cross-page continuation; source includes `(பெண்)` cues |
 | 5 | `மந்திரிகுமாரி—பார்த்திபன்` | 8 | character-pair exchange |
 | 6 | `குமாரி வனஜா நடனம்` | 8–9 | cross-page dance/performance block with `தொகையறு` / `பாட்டு` structure |
-| 7 | `தளபதி பார்த்திபன் கோரஸ்` | 9–10 | cross-page chorus/performance block |
+| 7 | `தளபதி பார்ட்டி கோரஸ்` | 9–10 | cross-page chorus/performance block |
 | 8 | `கற்பகம்—பூலோகம்` | 10 | labelled character exchange with `வசனம்` / song cues |
 | 9 | `ராஜகுமாரி` | 10–11 | cross-page occurrence distinct from block 2 |
 | 10 | `லலிதா—பத்மினி—ராகினி நடனம்` | 11 | dance/performance block |
@@ -68,6 +68,8 @@ The song/performance corpus runs PDF **6–13** and contains **15** separately h
 | 14 | `உழவன்—தொகையறு` | 13 | `தொகையறு` followed by `பாட்டு` material |
 | 15 | `ராஜகுமாரி` | 13 | final printed performance block; distinct from blocks 2 and 9 |
 
+Block 7 was initially stored with a normalized/misread heading. The full visual fidelity audit confirmed the printed form **`தளபதி பார்ட்டி கோரஸ்`**; this map now follows the controlling scan.
+
 ## Authorship boundary
 
 PDF 2 directly verifies Kalaignar's **story/dialogue** credit: `கதை, வசனம் : மு. கருணாநிதி`.
@@ -75,14 +77,13 @@ PDF 2 directly verifies Kalaignar's **story/dialogue** credit: `கதை, வ�
 The booklet does **not** provide a source-visible item-level lyricist line for each of the 15 song/performance blocks. Therefore:
 
 - do not assign all printed songs to Kalaignar from the film-wide story/dialogue credit;
-- first transcribe and verify the booklet exactly;
-- then create a song/performance inventory with honest authorship states;
-- compare verified blocks against the existing `works/kalaignar-thirai-isai-paadalgal/songs/` corpus without creating duplicates;
+- retain honest item-level authorship states;
+- compare blocks against the existing `works/kalaignar-thirai-isai-paadalgal/songs/` corpus without creating duplicates;
 - external evidence, if later used for item-level lyric authorship, must be recorded separately and must never supply missing canonical text.
 
 ## Known cross-witness relationship
 
-The existing later anthology already contains Mandhiri Kumari material, including the `மாட்டுக்கார பையன்` song represented there as `ஊருக்கு உழைப்பவண்டி`. This source should later be compared as an **independent film-specific witness** after its own Tamil is verified. No existing later-anthology text is used to repair this booklet.
+The existing later anthology contains one current `மந்திரிகுமாரி` record corresponding to booklet block 11, `மாட்டுக்கார பையன்`, represented there as `ஊருக்கு உழைப்பவண்டி`. The booklet remains an **independent film-specific witness**. No later-anthology text was used to repair the canonical booklet transcription.
 
 ## Scan / paratext notes
 
@@ -95,11 +96,15 @@ The existing later anthology already contains Mandhiri Kumari material, includin
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **not-started**;
-- visual fidelity audit: **not-started**;
-- credits/story/song structured derivatives: **blocked**;
+- canonical Tamil transcription: **complete — PDF 2–13**;
+- visual fidelity audit: **complete-verified — 12/12 canonical PDF pages, 0 unresolved readings**;
+- credits layer: **source-verified**;
+- story-summary derivative: **initialized; source-appropriate completion pending**;
+- song/performance inventory and cross-witness classification: **15/15 complete; exact-heading reconciliation complete**;
 - scene/dialogue derivative model: **not supported by this booklet as a full screenplay**.
+
+See `notes/fidelity-audit.md` for the page-by-page correction record.
 
 ## Exact next activity
 
-> **Canonical Tamil first-pass transcription of PDF 2–13 from the rendered scan, in source order, with stable page anchors. Preserve PDF 1 and PDF 14 separately as cover/back-cover paratext. Follow with a separate full visual fidelity audit before any structured derivatives.**
+> **Complete/reconcile the source-appropriate structured derivatives from verified Tamil: credits/cast, the continuous PDF 3–5 story-summary derivative, and source-linked records for all 15 PDF 6–13 song/performance blocks. Preserve the existing cautious authorship and cross-witness dispositions. Then proceed to English translation only from verified source-linked structures.**
