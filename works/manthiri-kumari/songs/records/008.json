@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-008",
+  "sequence": 8,
+  "heading_ta": "கற்பகம்—பூலோகம்",
+  "occurrence_kind": "labelled-character-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [10],
+  "printed_pages_observed": [9],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "text_ta": "கற்பகம்: பெறக்கப்போகுது!—பாரு பொறக்கப்போகுது\nபூலோகம்: என்ன? எங்கே? யாருக்கு பொறக்கப்போகுது?\nகற்பகம்: பத்துமாசம் சென்றவுடன் பாரு\nதெரியும் உனக்கும் எனக்கும்\nகொஞ்சி கொஞ்சி மகிழ்ந்து\nநாமும் குறையில்லாமே வாழ்ந்திருக்க (பெற)\n\nபூலோகம்: (வசனம்) அப்படிச்சொல்லு\nகற்பகம்: (வசனம்) ஐய\nமூலைத்தெரு சோசியனை முந்தா நாளும் கேட்டேன்\nபத்துமாசம் போனால் நமக்கு\nபிறக்கும் நல்ல காலமின்னான்\n\nபூலோகம்: ஏழரை நாட்டு சனியன் போலே\nஎங்கம்மா இருக்கையில்\nஎப்படி பெறக்கும் நல்லகாலம்\n\nகற்பகம்: ஏழாமடத்தில் ராஜாவாம்\nஎனக்கும் உனக்கும் கல்யாணம்\nஎப்படியும் நடக்குமின்னு\nஎடுத்துச்சொன்னான் சோசியன்\nபெறக்கப்போகுது—பாரு பெறக்கப்போகுது\nஎப்படியும் பத்துமாசம்\nஎனக்கும் உனக்கும் நல்லகாலம் (பெற)"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["கற்பகம்", "பூலோகம்", "(வசனம்)", "(பெற)"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Labelled character exchange mixing வசனம் and song/performance cues."
+}
