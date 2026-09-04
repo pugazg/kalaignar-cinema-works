@@ -12,6 +12,10 @@
   "verified_pages": 0,
   "review_pages": 0,
   "open_uncertainty_markers": 87,
+  "uncertainty_note_paths": [
+    "../notes/textual-notes.md",
+    "../notes/textual-notes-pdf-065-074.md"
+  ],
   "assembly": {
     "full_text_current_through_pdf": 14,
     "full_text_path": "full-text.md",
