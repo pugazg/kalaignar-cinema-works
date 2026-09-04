@@ -5,76 +5,38 @@
   "canonical_pdf_range": [5, 109],
   "canonical_logical_printed_range": [3, 107],
   "canonical_pages_expected": 105,
-  "first_pass_pages_completed": 90,
-  "first_pass_pdf_range_completed": [5, 94],
-  "first_pass_logical_printed_range_completed": [3, 92],
-  "draft_pages": 90,
+  "first_pass_pages_completed": 100,
+  "first_pass_pdf_range_completed": [5, 104],
+  "first_pass_logical_printed_range_completed": [3, 102],
+  "draft_pages": 100,
   "verified_pages": 0,
   "review_pages": 0,
-  "open_uncertainty_markers": 107,
+  "open_uncertainty_markers": 114,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
     "../notes/textual-notes-pdf-065-074.md",
     "../notes/textual-notes-pdf-075-084.md",
-    "../notes/textual-notes-pdf-085-094.md"
+    "../notes/textual-notes-pdf-085-094.md",
+    "../notes/textual-notes-pdf-095-104.md"
   ],
   "assembly": {
     "full_text_current_through_pdf": 14,
     "full_text_path": "full-text.md",
     "parts": [
-      {
-        "path": "parts/pdf-015-024.md",
-        "pdf_range": [15, 24],
-        "printed_range": [13, 22],
-        "status": "draft"
-      },
-      {
-        "path": "parts/pdf-025-034.md",
-        "pdf_range": [25, 34],
-        "printed_range": [23, 32],
-        "status": "draft"
-      },
-      {
-        "path": "parts/pdf-035-044.md",
-        "pdf_range": [35, 44],
-        "printed_range": [33, 42],
-        "status": "draft"
-      },
-      {
-        "path": "parts/pdf-045-054.md",
-        "pdf_range": [45, 54],
-        "printed_range": [43, 52],
-        "status": "draft"
-      },
-      {
-        "path": "parts/pdf-055-064.md",
-        "pdf_range": [55, 64],
-        "printed_range": [53, 62],
-        "status": "draft"
-      },
-      {
-        "path": "parts/pdf-065-074.md",
-        "pdf_range": [65, 74],
-        "printed_range": [63, 72],
-        "status": "draft-high-uncertainty"
-      },
-      {
-        "path": "parts/pdf-075-084.md",
-        "pdf_range": [75, 84],
-        "printed_range": [73, 82],
-        "status": "draft"
-      },
-      {
-        "path": "parts/pdf-085-094.md",
-        "pdf_range": [85, 94],
-        "printed_range": [83, 92],
-        "status": "draft"
-      }
+      {"path":"parts/pdf-015-024.md","pdf_range":[15,24],"printed_range":[13,22],"status":"draft"},
+      {"path":"parts/pdf-025-034.md","pdf_range":[25,34],"printed_range":[23,32],"status":"draft"},
+      {"path":"parts/pdf-035-044.md","pdf_range":[35,44],"printed_range":[33,42],"status":"draft"},
+      {"path":"parts/pdf-045-054.md","pdf_range":[45,54],"printed_range":[43,52],"status":"draft"},
+      {"path":"parts/pdf-055-064.md","pdf_range":[55,64],"printed_range":[53,62],"status":"draft"},
+      {"path":"parts/pdf-065-074.md","pdf_range":[65,74],"printed_range":[63,72],"status":"draft-high-uncertainty"},
+      {"path":"parts/pdf-075-084.md","pdf_range":[75,84],"printed_range":[73,82],"status":"draft"},
+      {"path":"parts/pdf-085-094.md","pdf_range":[85,94],"printed_range":[83,92],"status":"draft"},
+      {"path":"parts/pdf-095-104.md","pdf_range":[95,104],"printed_range":[93,102],"status":"draft"}
     ],
     "policy": "During first-pass growth, bounded part files may hold later source-order batches. Assemble them into full-text.md before declaring the complete first pass closed."
   },
   "fidelity_audit": "not-started",
-  "next_pdf_page": 95,
-  "next_printed_page": 93,
-  "next_action": "Continue canonical Tamil first-pass transcription from PDF 95 / printed p.93 in source order. Do not start scene/dialogue derivatives."
+  "next_pdf_page": 105,
+  "next_printed_page": 103,
+  "next_action": "Continue the final canonical Tamil first-pass batch from PDF 105 / printed p.103 through PDF 109 / printed p.107, preserving the PDF 104→105 continuation. Then assemble all bounded parts into full-text.md and perform boundary loss/duplication QA before declaring first-pass closure. Do not start scene/dialogue derivatives."
 }
