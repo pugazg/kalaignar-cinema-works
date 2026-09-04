@@ -26,9 +26,10 @@ Before changing this work, read completely:
 12. `works/ammaiyappan/transcription/README.md`
 13. `works/ammaiyappan/transcription/index.json`
 14. `works/ammaiyappan/transcription/full-text.md`
-15. every bounded part listed by `transcription/index.json`
-16. `works/ammaiyappan/notes/textual-notes.md`
-17. every supplemental uncertainty ledger listed by `transcription/index.json`.
+15. `works/ammaiyappan/transcription/ASSEMBLY_QA.md`
+16. every bounded part retained by `transcription/index.json`
+17. `works/ammaiyappan/notes/textual-notes.md`
+18. every supplemental uncertainty ledger listed by `transcription/index.json`.
 
 ## Controlling source
 
@@ -51,37 +52,49 @@ Printed identity: `அம்மையப்பன்`; `கதை வசனம�
 - PDF 56 / p.54: **`பழுதார் வீதி`**;
 - PDF 107 / p.105: **`தூக்குமேடை`** — direct user verdict; reject `தாக்குமேடை`.
 
-## Canonical Tamil first pass — active
+## Canonical Tamil first pass — closed as draft coverage
 
-- expected: **105 pages**;
-- completed: **100/105**;
-- completed range: **PDF 5–104 / printed pp.3–102**;
-- state: **draft**, verified pages **0**;
-- open uncertainty markers: **114**;
-- newest part: `transcription/parts/pdf-095-104.md`;
-- newest ledger: `notes/textual-notes-pdf-095-104.md` for markers **108–114**;
-- `full-text.md` assembled only through **PDF 14**;
-- bounded parts cover **PDF 15–104**;
-- next page: **PDF 105 / printed p.103**;
+- expected canonical pages: **105**;
+- completed: **105/105**;
+- completed range: **PDF 5–109 / printed pp.3–107**;
+- state: **draft-complete**, verified pages **0**;
+- open uncertainty markers: **116**;
+- final part: `transcription/parts/pdf-105-109.md`;
+- final ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**;
+- continuous transcription: `transcription/full-text.md` assembled through **PDF 109**;
+- assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
 - visual fidelity audit: **not-started**.
 
-PDF 95–104 preserves the source transitions `பாழ் மண்டபம்`, `வேங்கை நாட்டு அவைக்கூடம்`, `பூங்காவனம் அறை`, `முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்`, `சுமதி வீடு`, and `சிறைச்சாலை`. It retains the long political/social denunciation passages as scan-controlled text. **PDF 104 ends inside Muthan's speech; PDF 105 visibly continues it.**
+The final PDF 105–109 batch preserves the PDF 104→105 continuation and the source-visible transitions `வேங்கையூர்`, `நகரின் வீதி`, locked `தூக்குமேடை`, and `வெளியே`. Two final insecure readings remain visibly marked rather than reconstructed.
 
-The earlier PDF 65–74 batch remains `draft-high-uncertainty`; no uncertainty marker is verified merely by being carried into assembly.
+The earlier PDF 65–74 batch remains `draft-high-uncertainty`; no uncertainty marker is verified merely by being carried into the assembled draft.
+
+## Assembly QA — PASS
+
+- source anchors: **105**;
+- exact anchor sequence: **PDF 5 through PDF 109**;
+- missing anchors: **0**;
+- duplicate anchors: **0**;
+- bounded-part boundary presence: **PASS**;
+- locked PDF 107 `தூக்குமேடை`: **PASS**;
+- rejected `தாக்குமேடை`: **absent**;
+- visible unresolved spans in assembled text: **116**.
+
+This closes the **first-pass transcription + assembly gate only**. It is not a source-fidelity verification.
 
 ## Phase gates
 
 - source intake: complete;
 - whole-scan inspection: complete 111/111;
 - structural intake map: verified;
-- canonical Tamil first pass: **draft-in-progress — 100/105**;
-- full-text assembly: pending;
-- boundary loss/duplication QA: pending;
-- visual fidelity audit: not-started;
-- scene/dialogue/character derivatives: blocked;
+- canonical Tamil first pass: **draft-complete — 105/105**;
+- full-text assembly: **complete-pass**;
+- boundary loss/duplication QA: **PASS**;
+- visual fidelity audit: **not-started — 0/105 verified**;
+- scene/dialogue/character derivatives: blocked pending verified Tamil;
 - song/performance authorship gate: not-started;
 - English / reader: blocked.
 
 ## Exact next activity
 
-> **Complete PDF 105–109 / printed pp.103–107 as the final first-pass batch, beginning with the PDF 104→105 continuation and preserving the locked `தூக்குமேடை` heading on PDF 107. Then assemble every bounded part into `transcription/full-text.md` in exact source order and perform boundary loss/duplication QA. Only after that assembly checkpoint may the canonical first pass be declared closed; the separate full rendered-scan visual fidelity audit comes next. Do not start structured derivatives yet.**
+> **Begin the separate rendered-scan visual fidelity audit at PDF 5 / logical printed p.3 and proceed in source order through PDF 109. Compare every page of `transcription/full-text.md` directly with the controlling scan, adjudicate all 116 explicit uncertainty markers occurrence-by-occurrence, preserve the locked source verdicts, and upgrade pages to verified only after direct page-level visual comparison. Do not start scene/dialogue/character derivatives until all 105 canonical pages pass the audit.**
