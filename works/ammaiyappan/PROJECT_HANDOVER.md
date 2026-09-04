@@ -24,8 +24,10 @@ Before changing this work, read completely:
 10. `works/ammaiyappan/notes/INTAKE_AUDIT.md`
 11. `works/ammaiyappan/notes/scene-heading-audit.md`
 12. `works/ammaiyappan/transcription/README.md`
-13. `works/ammaiyappan/transcription/full-text.md`
-14. `works/ammaiyappan/notes/textual-notes.md`
+13. `works/ammaiyappan/transcription/index.json`
+14. `works/ammaiyappan/transcription/full-text.md`
+15. `works/ammaiyappan/transcription/parts/` as listed by the index
+16. `works/ammaiyappan/notes/textual-notes.md`
 
 ## Controlling source
 
@@ -75,23 +77,28 @@ Important adjudications:
 ## Canonical Tamil first pass — active
 
 - canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- completed first-pass range: **PDF 5–14 / logical pp.3–12**;
-- first-pass pages completed: **10 / 105**;
+- completed first-pass range: **PDF 5–24 / logical pp.3–22**;
+- first-pass pages completed: **20 / 105**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **8**;
+- open first-pass uncertainty markers: **11**;
 - uncertainty ledger: `notes/textual-notes.md`;
-- next page: **PDF 15 / printed p.13**;
+- active progress/assembly authority: `transcription/index.json`;
+- assembled `full-text.md` currently reaches **PDF 14**;
+- bounded continuation part: `transcription/parts/pdf-015-024.md`;
+- next page: **PDF 25 / printed p.23**;
 - visual fidelity audit: **not-started**.
 
-Batch 2, PDF 10–14, preserves the source headings `மாடம்`, `குதிரைக் கொட்டடி` and `வாள் பயிற்சிக் கூடம்`; Maykainathar's long speech is correctly page-anchored across the PDF 10→11 boundary. The new uncertainty markers are confined to direct old-type glyph questions and do not block continuation of the first pass.
+Batch 3, PDF 15–24, preserves the source transitions `சுகதேவன் அறை`, `திரிசங்கு வீட்டின் கொல்லைப்புறம்`, `பலதேவர் மாளிகை` and `ஆற்றங்கரை`. It also preserves the literal PDF 19→20 split `...அதா` / `வது காதல்...`. Three new first-pass uncertainties remain visible: one poetic/glyph sequence on PDF 19, one military epithet/name on PDF 21, and a quoted Kamba-Ramayanam passage on PDF 23. None is repaired from external textual familiarity.
+
+Before declaring the entire first pass complete, assemble every bounded part into `full-text.md` in exact source order and perform boundary loss/duplication QA.
 
 ## Current phase
 
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **draft-in-progress — 10/105**;
+- canonical Tamil first pass: **draft-in-progress — 20/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -104,8 +111,8 @@ Batch 2, PDF 10–14, preserves the source headings `மாடம்`, `கு�
 - OCR/audio/subtitles/web/later editions cannot repair canonical Tamil.
 - Story/dialogue credit is not item-level lyric credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless direct scan evidence explicitly reopens them.
-- Do not resolve the eight current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
+- Do not resolve the current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription at PDF 15 / printed p.13. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is complete, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 25 / printed p.23. Work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
