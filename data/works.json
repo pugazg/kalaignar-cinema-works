@@ -11,23 +11,10 @@
     "main_text_printed_pages": "3-56",
     "structural_mapping": "verified",
     "scene_headings_observed": 46,
-    "headings_not_observed": [
-      23,
-      34
-    ],
+    "headings_not_observed": [23, 34],
     "canonical_scene_number_corrections": [
-      {
-        "pdf_page": 49,
-        "printed_page": 48,
-        "source_heading": 48,
-        "canonical_heading": 43
-      },
-      {
-        "pdf_page": 57,
-        "printed_page": 56,
-        "source_heading": 43,
-        "canonical_heading": 48
-      }
+      {"pdf_page": 49, "printed_page": 48, "source_heading": 48, "canonical_heading": 43},
+      {"pdf_page": 57, "printed_page": 56, "source_heading": 43, "canonical_heading": 48}
     ],
     "tamil_transcription": "verified",
     "tamil_first_pass_complete": true,
@@ -51,11 +38,7 @@
       "dialogue_index": "complete-verified",
       "dialogue_index_path": "works/parasakthi/dialogues/index.json",
       "dialogue_records": 642,
-      "dialogue_zero_record_scenes": [
-        26,
-        29,
-        48
-      ],
+      "dialogue_zero_record_scenes": [26, 29, 48],
       "character_index": "complete-verified",
       "character_index_path": "works/parasakthi/characters/index.json",
       "character_distinct_source_labels": 69,
@@ -66,13 +49,8 @@
       "character_verified_labels": 66,
       "character_review_labels": 1,
       "character_unresolved_labels": 2,
-      "character_review_source_labels": [
-        "ராக"
-      ],
-      "character_unresolved_source_labels": [
-        "நொண்டி",
-        "நொ"
-      ],
+      "character_review_source_labels": ["ராக"],
+      "character_unresolved_source_labels": ["நொண்டி", "நொ"],
       "song_authorship_mapping": "complete-verified",
       "song_index_path": "works/parasakthi/songs/index.json",
       "song_candidate_blocks": 14,
@@ -86,20 +64,12 @@
       "english_translation": "complete-verified",
       "translation_index_path": "works/parasakthi/translations/index.json",
       "translation_scenes_verified": 46,
-      "translation_absent_canonical_scenes": [
-        23,
-        34
-      ],
+      "translation_absent_canonical_scenes": [23, 34],
       "translation_units": 769,
       "translation_verified_units": 769,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 641,
-        "stage_direction": 114,
-        "song": 13,
-        "quoted_verse": 1
-      },
+      "translation_unit_kind_counts": {"dialogue": 641, "stage_direction": 114, "song": 13, "quoted_verse": 1},
       "translation_cross_page_units": 16,
       "english_reader_edition": "complete-verified",
       "english_reader_edition_directory": "works/parasakthi/editions/en",
@@ -110,15 +80,8 @@
       "english_reader_qa_source_paths": 97,
       "english_reader_qa_cross_page_units": 16,
       "next_structured_derivative": null,
-      "song_evidence_basis_counts": {
-        "anthology-attributed": 2,
-        "canonical-context-explicit": 1,
-        "external-source": 11
-      },
-      "song_kalaignar_attributed_occurrences": [
-        "parasakthi-song-002",
-        "parasakthi-song-004"
-      ],
+      "song_evidence_basis_counts": {"anthology-attributed": 2, "canonical-context-explicit": 1, "external-source": 11},
+      "song_kalaignar_attributed_occurrences": ["parasakthi-song-002", "parasakthi-song-004"],
       "song_cross_witness_source": "works/kalaignar-thirai-isai-paadalgal"
     },
     "next_action": null
@@ -152,14 +115,7 @@
     "total_canonical_pages": 104,
     "total_verified_pages": 104,
     "total_review_pages": 0,
-    "source_crop_notes": [
-      {
-        "pdf_page": 2,
-        "element": "lower_printer_imprint_line",
-        "visible_partial_reading": "சிட்டி பிரஸ், மதுரை ரோ…",
-        "status": "unresolved_source_crop"
-      }
-    ],
+    "source_crop_notes": [{"pdf_page": 2, "element": "lower_printer_imprint_line", "visible_partial_reading": "சிட்டி பிரஸ், மதுரை ரோ…", "status": "unresolved_source_crop"}],
     "structured_derivatives": {
       "scene_index": "complete",
       "scene_index_path": "works/tirumbippaar/scenes/index.json",
@@ -170,14 +126,7 @@
       "dialogue_index": "complete",
       "dialogue_index_path": "works/tirumbippaar/dialogues/index.json",
       "dialogue_records": 1040,
-      "dialogue_zero_record_scenes": [
-        10,
-        11,
-        25,
-        26,
-        43,
-        54
-      ],
+      "dialogue_zero_record_scenes": [10, 11, 25, 26, 43, 54],
       "dialogue_cross_page_records": 8,
       "character_index": "complete",
       "character_index_path": "works/tirumbippaar/characters/index.json",
@@ -203,13 +152,7 @@
       "translation_verified_units": 1321,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 1047,
-        "stage_direction": 254,
-        "song_reference": 7,
-        "chant": 2,
-        "written_text": 11
-      },
+      "translation_unit_kind_counts": {"dialogue": 1047, "stage_direction": 254, "song_reference": 7, "chant": 2, "written_text": 11},
       "translation_dialogue_source_records_linked": 1040,
       "translation_source_unlabelled_spoken_units": 7,
       "translation_cross_page_units": 12,
@@ -280,27 +223,16 @@
       "character_verified_labels": 110,
       "character_review_labels": 0,
       "character_unresolved_labels": 1,
-      "character_unresolved_source_labels": [
-        "வர்மா"
-      ],
+      "character_unresolved_source_labels": ["வர்மா"],
       "song_authorship_mapping": "complete-with-unresolved-authorship",
       "song_index_path": "works/manohara/songs/index.json",
       "song_candidate_occurrences": 6,
       "song_verified_authorship_occurrences": 1,
       "song_review_authorship_occurrences": 1,
       "song_unresolved_authorship_occurrences": 4,
-      "song_verified_occurrence_ids": [
-        "manohara-song-005"
-      ],
-      "song_review_occurrence_ids": [
-        "manohara-song-004"
-      ],
-      "song_unresolved_occurrence_ids": [
-        "manohara-song-001",
-        "manohara-song-002",
-        "manohara-song-003",
-        "manohara-song-006"
-      ],
+      "song_verified_occurrence_ids": ["manohara-song-005"],
+      "song_review_occurrence_ids": ["manohara-song-004"],
+      "song_unresolved_occurrence_ids": ["manohara-song-001", "manohara-song-002", "manohara-song-003", "manohara-song-006"],
       "song_tamil_derivatives": "not-started",
       "song_tamil_derivative_files": 0,
       "english_translation": "complete-verified",
@@ -310,13 +242,7 @@
       "translation_verified_units": 1190,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 1009,
-        "stage_direction": 173,
-        "song_reference": 6,
-        "chant": 1,
-        "written_text": 1
-      },
+      "translation_unit_kind_counts": {"dialogue": 1009, "stage_direction": 173, "song_reference": 6, "chant": 1, "written_text": 1},
       "translation_dialogue_source_records_linked": 983,
       "translation_source_unlabelled_spoken_units": 27,
       "translation_cross_page_units": 17,
@@ -395,11 +321,7 @@
     "english_translation_draft_files": 0,
     "english_translation_review_files": 0,
     "english_translation_not_started_files": 0,
-    "english_translation_pilot_song_ids": [
-      "kalaignar-song-001",
-      "kalaignar-song-002",
-      "kalaignar-song-003"
-    ],
+    "english_translation_pilot_song_ids": ["kalaignar-song-001", "kalaignar-song-002", "kalaignar-song-003"],
     "english_translation_verified_song_range": "004-054",
     "reader_export": "complete-verified",
     "next_action": "Apply the complete-verified Reading Room payload in the separate Reading Room implementation repository only when that repository is explicitly authorized for modification.",
@@ -460,19 +382,42 @@
     "back_cover_pdf_page": 14,
     "back_cover_disposition": "unrelated advertisement for அமரகவி",
     "source_numbered_scene_headings": false,
-    "canonical_tamil_transcription": "not-started",
-    "tamil_fidelity_audit": "not-started",
+    "canonical_tamil_transcription": "complete-verified",
+    "canonical_tamil_first_pass_complete": true,
+    "canonical_tamil_pdf_pages": "2-13",
+    "canonical_tamil_page_count": 12,
+    "canonical_tamil_verified_pages": 12,
+    "canonical_tamil_review_pages": 0,
+    "canonical_tamil_unresolved_readings": 0,
+    "tamil_fidelity_audit": "complete",
+    "post_fidelity_user_review": "applied",
+    "post_fidelity_reconciliation": "complete-for-existing-affected-derivatives",
+    "song_subdivision_form": "தொகையறா",
     "structured_derivatives": {
-      "credits_layer": "blocked",
-      "story_summary_derivative": "blocked",
-      "song_performance_inventory": "blocked",
-      "song_cross_witness_comparison": "blocked",
+      "credits_layer": "complete-verified",
+      "credits_layer_path": "works/manthiri-kumari/credits/credits.yaml",
+      "story_summary_derivative": "initialized-completion-pending",
+      "story_summary_path": "works/manthiri-kumari/story-summary/",
+      "song_performance_inventory": "complete-15-of-15",
+      "song_performance_inventory_path": "works/manthiri-kumari/songs/performance-inventory.md",
+      "song_cross_witness_comparison": "complete",
+      "song_cross_witness_comparison_path": "works/manthiri-kumari/songs/cross-witness-comparison.md",
+      "confirmed_existing_anthology_witnesses": 1,
+      "source_only_blocks_in_current_anthology": 14,
+      "song_block_11_match_report": "complete-reconciled",
+      "song_block_11_match_report_path": "works/manthiri-kumari/songs/match-report-001-oorukku-uzhaippavandi.md",
+      "song_authorship_gate": "initialized-15-pending-item-evidence",
+      "song_authorship_gate_path": "works/manthiri-kumari/songs/AUTHORSHIP_GATE.md",
+      "song_item_level_verified_from_booklet": 0,
+      "song_source_linked_records": "not-started",
+      "song_source_linked_records_expected": 15,
       "scene_index": "not-applicable-from-this-source",
       "dialogue_index": "not-applicable-from-this-source",
-      "english_translation": "blocked",
-      "reader_export": "blocked"
+      "english_translation": "blocked-pending-source-appropriate-tamil-derivatives",
+      "reader_export": "blocked",
+      "reading_room_integration": "blocked"
     },
-    "next_action": "Canonical Tamil first-pass transcription of PDF 2-13 from the rendered scan, in source order, with stable page anchors; preserve PDF 1 and 14 separately as paratext; then perform a separate full visual fidelity audit before derivatives."
+    "next_action": "Complete the source-linked continuous PDF 3-5 story-summary derivative from verified canonical Tamil with PDF-page provenance and no synthetic screenplay scenes/dialogue records; then create source-linked structured records for all 15 PDF 6-13 song/performance blocks while preserving existing authorship and cross-witness dispositions."
   },
   {
     "id": "raja-rani",
@@ -515,24 +460,7 @@
       "dialogue_records": 1071,
       "dialogue_scenes_completed": 58,
       "dialogue_scenes_expected": 58,
-      "dialogue_zero_record_scenes": [
-        8,
-        10,
-        12,
-        14,
-        19,
-        20,
-        22,
-        27,
-        29,
-        30,
-        32,
-        37,
-        38,
-        42,
-        43,
-        48
-      ],
+      "dialogue_zero_record_scenes": [8, 10, 12, 14, 19, 20, 22, 27, 29, 30, 32, 37, 38, 42, 43, 48],
       "dialogue_cross_page_records": 12,
       "dialogue_source_label_anomaly_records": 3,
       "dialogue_boundary_correction": "T055/T056 duplicate derivative ownership removed; scene55=25, scene56=5; canonical pages unchanged",
@@ -560,13 +488,7 @@
       "song_numbered_review_authorship": 0,
       "song_numbered_unresolved_authorship": 6,
       "song_original_source_item_level_lyricist_credits": 0,
-      "song_kalaignar_anthology_attributed_numbered_song_ids": [
-        3,
-        5,
-        6,
-        7,
-        8
-      ],
+      "song_kalaignar_anthology_attributed_numbered_song_ids": [3, 5, 6, 7, 8],
       "song_tamil_derivatives": "complete-verified",
       "song_tamil_derivative_files": 11,
       "english_translation": "complete-verified",
@@ -580,15 +502,7 @@
       "translation_verified_units": 1236,
       "translation_review_units": 0,
       "translation_draft_units": 0,
-      "translation_unit_kind_counts": {
-        "dialogue": 1090,
-        "stage_direction": 137,
-        "song": 0,
-        "song_reference": 0,
-        "performance_cue": 4,
-        "chant": 0,
-        "written_text": 5
-      },
+      "translation_unit_kind_counts": {"dialogue": 1090, "stage_direction": 137, "song": 0, "song_reference": 0, "performance_cue": 4, "chant": 0, "written_text": 5},
       "translation_dialogue_source_records_linked": 1071,
       "translation_source_unlabelled_spoken_units": 19,
       "translation_cross_page_units": 15,
