@@ -379,8 +379,9 @@ Always inspect current repository state.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
+- **Ammayappan** — new 111-page image-only screenplay/dialogue source `TVA_BOK_0064230`; source intake and whole-scan mapping complete; main body PDF 5–109 / logical printed pp.3–107; no printed scene numbers; 58 source-visible transition-heading occurrences / 37 distinct forms; user-reviewed PDF 107 / printed p.105 heading `தூக்குமேடை`; canonical Tamil first pass not-started.
 
-`data/works.json`, root README, work metadata/README/mapping/handover, Manthiri Kumari source/translation/reader/integration indexes and QA surfaces, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the **Manthiri Kumari Reading Room payload completion checkpoint**.
+`data/works.json`, root README, work metadata/README/mapping/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` must remain synchronized to the **Ammayappan intake / structural-mapping checkpoint** before canonical transcription is reported started.
 
 ---
 
@@ -414,3 +415,22 @@ Payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab
 The payload preserves **1 continuous story summary + 15 performance blocks**, source/page provenance, source-visible cues, the **1 confirmed current-anthology witness / 14 source-only** disposition, and the **0 verified / 15 unresolved** item-level lyric-authorship state. Performance ordinals remain archival source-order navigation rather than printed source numbering, and no screenplay scenes are invented.
 
 Only when the separate Kalaignar Digital Library / Reading Room implementation repository is explicitly authorized for modification should this payload be applied there. Site application status remains **not-applied**.
+
+---
+
+## 16. Ammayappan active checkpoint
+
+Work path: `works/ammaiyappan/`  
+Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
+
+- source intake: **complete**;
+- whole-scan inspection: **111/111 complete**;
+- structural mapping: **verified**;
+- main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
+- source-numbered scenes: **none**;
+- structural heading/transition occurrences: **58 / 37 distinct forms**;
+- user scan verdict: PDF 107 / p.105 = **`தூக்குமேடை`**, not `தாக்குமேடை`;
+- canonical Tamil first pass: **not-started**;
+- later derivatives: **blocked pending verified Tamil**.
+
+Exact next activity: **canonical Tamil first-pass transcription from PDF 5 / logical p.3 in meaningful source-order batches with stable page anchors; a separate rendered-scan fidelity audit must follow before scene/dialogue derivatives.**
