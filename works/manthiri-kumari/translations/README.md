@@ -2,82 +2,53 @@
 
 Source: `TVA_BOK_0026144_மந்திரி_குமாரி.pdf`  
 Target language: English  
-Status: **complete-verified**
+Status: **complete-verified — QA PASS**
 
 This layer translates only the **verified source-linked Tamil derivatives** of the Manthiri Kumari story-and-song booklet. It does not convert the booklet into a screenplay, infer absent lyric authorship, import external lyrics, or repair canonical Tamil through English interpretation.
 
-## Source structure translated
+## Translation checkpoint
 
 ### Story summary
 
-Source: verified continuous PDF **3–5** `கதைச்சுருக்கம்` derivative.
-
-- translation record: `story-summary.json`;
-- schema: `story-summary.schema.json`;
-- source-linked logical prose units: **13**;
-- cross-page prose units: **1** — the paragraph that crosses PDF 3→4;
-- synthetic screenplay scene IDs: **0**;
-- immutable dialogue IDs manufactured from synopsis speech: **0**;
-- mode: **`semantic-source-faithful-prose`**.
+- source: verified continuous PDF **3–5** `கதைச்சுருக்கம்`;
+- record: `story-summary.json`;
+- logical prose units: **13**;
+- cross-page units: **1**;
+- synthetic screenplay scene IDs: **0**.
 
 ### Songs / performances
 
-Source: the **15/15 complete-verified** PDF **6–13** performance records.
+- records: `performances/001.json`–`015.json`;
+- performance records: **15/15**;
+- sections: **52**;
+- Tamil source lines/cues: **234**;
+- English lines/cues: **234**;
+- mapping mismatches: **0**;
+- cross-page records: **002, 004, 006, 007, 009, 011, 013**.
 
-- translation records: `performances/001.json` through `performances/015.json`;
-- schema: `performance.schema.json`;
-- performance records translated: **15/15**;
-- translation sections: **52**;
-- Tamil source lines/cues mapped: **234**;
-- English lines/cues mapped: **234**;
-- line-count mapping mismatches: **0**;
-- cross-page performance records: **7** — blocks `002`, `004`, `006`, `007`, `009`, `011`, `013`;
-- mode: **`semantic-poetic-source-faithful`**.
+Source-visible `தொகையறா` / `பாட்டு`, `(வசனம்)` and refrain/performance cues remain represented. Performance 13 retains its printed heading `பார்த்திபன்—மந்திரிகுமாரி` while the internal turn labels remain `பார்த்திபன்` / `அமுதவல்லி`.
 
-The English layer preserves source-visible `தொகையறா` / `பாட்டு` subdivisions, `(வசனம்)` and other performance/refrain cues such as `(வாழ்)`, `(இசை)`, `(பெண்)`, `(கண்)`, `(என்)`, `(மனம்)` and `(பெற)` where present. Exact Tamil source/turn labels remain metadata; English display labels do not replace them.
+## Evidence boundary
 
-## Authorship and cross-witness boundary
-
-Translation does not change evidence status.
-
-- booklet item-level lyric authorship verified: **0/15**;
+- item-level lyric authorship verified: **0/15**;
 - item-level lyric authorship unresolved: **15/15**;
-- confirmed current-anthology witness: **1/15**, block 11 `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001`;
-- source-only relative to the current anthology corpus: **14/15**;
-- authorship upgrades caused by translation: **0**.
+- confirmed current-anthology witness: **1/15**, block 11 ↔ `kalaignar-song-001`;
+- source-only against the current anthology: **14/15**;
+- authorship upgrades caused by translation: **0**;
+- canonical Tamil changed by translation: **no**.
 
-For block 11, the later anthology translation is only a comparison/style precedent. The corrected booklet witness controls this translation and is not repaired from the anthology.
+## Downstream completion
 
-## Preserved source irregularities
+The deterministic bilingual reader under `../editions/bilingual/` is **complete-verified — QA PASS**.
 
-Translation notes explicitly retain or document difficult source forms instead of silently correcting them. Important examples include:
+The source-linked Reading Room composition under `../integrations/reading-room/` is also **payload-complete-verified — QA PASS**:
 
-- story-summary irregular forms and punctuation such as `வெள்ளத்திலகப்பட்ட`, `சாகசம் பேசி`, and `தேடி.`;
-- performance 5's anomalously positioned `[போடுதே.]`;
-- performance 6's unusual comic forms such as `இருச்சவாய்` and `பாலைவனைத்`;
-- performance 13's **printed heading `பார்த்திபன்—மந்திரிகுமாரி` while its source turn labels are `பார்த்திபன்` / `அமுதவல்லி`** — both are preserved without normalization.
+- payload mode: `source-linked-composition`;
+- source-link targets: **32**;
+- payload bytes: **15,704**;
+- payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`;
+- site application: **not-applied**.
 
-## QA
+## Next activity / disposition
 
-Whole-layer QA: **PASS**.
-
-See `FINAL_TRANSLATION_QA.md` and `index.json`.
-
-- missing translation records: **0**;
-- duplicate translation IDs: **0**;
-- performance line/cue mapping mismatches: **0**;
-- canonical Tamil changed by translation: **no**;
-- synthetic screenplay scene IDs created: **0**;
-- external/unprinted lyric lines imported: **0**.
-
-## Downstream reader/export
-
-The deterministic source-linked bilingual reader is now **complete-verified — QA PASS** under:
-
-`../editions/bilingual/`
-
-It preserves exactly **16** top-level source structures — **1** story summary plus **15** performance blocks — with **52** performance sections and **234/234** Tamil-English performance line/cues. It creates **0** synthetic screenplay scenes and preserves the **0 verified / 15 unresolved** item-level lyric-authorship state.
-
-## Exact next activity
-
-> **Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving the booklet's natural `கதைச்சுருக்கம்` + 15-performance navigation, Tamil/English pairing, page provenance, source-visible cues and unresolved item-level lyric authorship. Do not invent screenplay scenes or upgrade authorship through presentation metadata.**
+No required repository-internal translation, reader/export, or Reading Room-payload work remains. Apply the verified payload in the separate Reading Room implementation repository only when that repository is explicitly authorized.
