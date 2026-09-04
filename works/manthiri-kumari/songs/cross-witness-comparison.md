@@ -43,15 +43,15 @@ Therefore the booklet's 15 source blocks resolve as:
 | 3 | `குமாரி கமலா நடனம்` | 7 | source-only dance/performance block | unresolved at item level |
 | 4 | `மந்திரிகுமாரி` | 7–8 | source-only song/performance block | unresolved at item level |
 | 5 | `மந்திரிகுமாரி—பார்த்திபன்` | 8 | source-only character-pair performance | unresolved at item level |
-| 6 | `குமாரி வனஜா நடனம்` | 8–9 | source-only dance/performance block; `தொகையறு` / `பாட்டு` preserved | unresolved at item level |
-| 7 | `தளபதி பார்த்திபன் கோரஸ்` | 9–10 | source-only chorus/performance block | unresolved at item level |
+| 6 | `குமாரி வனஜா நடனம்` | 8–9 | source-only dance/performance block; `தொகையறா` / `பாட்டு` preserved | unresolved at item level |
+| 7 | `தளபதி பார்ட்டி கோரஸ்` | 9–10 | source-only chorus/performance block | unresolved at item level |
 | 8 | `கற்பகம்—பூலோகம்` | 10 | source-only labelled performance exchange | unresolved at item level |
 | 9 | `ராஜகுமாரி` | 10–11 | source-only song/performance block; distinct occurrence from block 2 | unresolved at item level |
 | 10 | `லலிதா—பத்மினி—ராகினி நடனம்` | 11 | source-only dance/performance block | unresolved at item level |
 | 11 | `மாட்டுக்கார பையன்` | 11–12 | **confirmed existing-song witness → `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`** | booklet itself does not establish lyric authorship |
 | 12 | `மந்திரிகுமாரி—ராஜகுமாரி` | 12 | source-only character-pair performance | unresolved at item level |
 | 13 | `பார்த்திபன்—மந்திரிகுமாரி` | 12–13 | source-only character-pair performance | unresolved at item level |
-| 14 | `உழவன்—தொகையறு` | 13 | source-only performance block; `தொகையறு` / `பாட்டு` preserved | unresolved at item level |
+| 14 | `உழவன்—தொகையறா` | 13 | source-only performance block; `தொகையறா` / `பாட்டு` preserved | unresolved at item level |
 | 15 | `ராஜகுமாரி` | 13 | source-only song/performance block; distinct occurrence from blocks 2 and 9 | unresolved at item level |
 
 ## Confirmed existing relationship — block 11
@@ -60,7 +60,7 @@ The `மாட்டுக்கார பையன்` block is the same underl
 
 `match-report-001-oorukku-uzhaippavandi.md`
 
-The two witnesses are not textually identical. The film booklet preserves earlier source-visible spellings/wording and performance subdivision forms; these differences are recorded in the match report rather than merged into either witness.
+The two witnesses are not textually identical. The film booklet preserves its own source-visible spellings/wording and performance subdivision forms; these differences are recorded in the match report rather than merged into either witness. The match report was reconciled after the 2026-09-04 user lexical source review.
 
 ## Important negative finding
 
@@ -79,4 +79,4 @@ They remain valuable film-booklet source material, but they must not be inserted
 
 ## Next activity
 
-Complete the line-level variant table for the single confirmed match (`மாட்டுக்கார பையன்` / `ஊருக்கு உழைப்பவண்டி`) and then move to the item-level song/performance authorship evidence gate without using soundtrack memory or film-wide credit as proof.
+Proceed to the item-level song/performance authorship evidence gate without using soundtrack memory or film-wide credit as proof. Preserve unresolved items as unresolved.
