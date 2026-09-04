@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-005",
+  "sequence": 5,
+  "heading_ta": "மந்திரிகுமாரி—பார்த்திபன்",
+  "occurrence_kind": "labelled-duet",
+  "source_status": "complete-verified",
+  "pdf_pages": [8],
+  "printed_pages_observed": [7],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "text_ta": "மந்திரிகுமாரி: உலவும் தென்றல் காற்றினிலே\nஓடமிதே நாம் மகிழ ஊஞ்சலாடுதே!\n\nபார்த்திபன்: அலைகள் வந்து மோதியே\nஆடியுன்றன் பாட்டுக்கென்றே தாளம்\n\nமந்திரிகுமாரி: உயர்ந்த மலையும் உமது அன்பின் [போடுதே.]\nஉயர்வை காட்டுதே!\n\nபார்த்திபன்: இதயம் அந்த மலைக்கு ஏது\nஅன்பைக் காட்டவே\n\nமந்திரிகுமாரி: தெளிந்த நீரைப்போன்ற தூய\nகாதல் கொண்டோம் நாம்!\n\nபார்த்திபன்: களங்கம் அதிலும் காணுவாய்\nகவனம் வைத்தே பார்!\n\nமந்திரிகுமாரி: குதர்க்கம் பேசி என்னை மயக்க\nஎங்கு கற்றீரோ?\n\nபார்த்திபன்: உனது கடைக்கண் பார்வை காட்டும்\nபாடம் தன்னிலே!\n\nஇருவரும்: உலக வாழ்க்கை ஆற்றினிலே\nகாதலெனும் தோணிதனில் ஊர்ந்துசெல்லுவோம்"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["மந்திரிகுமாரி", "பார்த்திபன்", "இருவரும்"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Source-labelled duet/performance block."
+}
