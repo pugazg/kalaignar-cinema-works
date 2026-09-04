@@ -55,7 +55,7 @@ Final QA also permanently removes the old T055/T056 duplicate derivative ownersh
 
 ## மந்திரி குமாரி status
 
-The source `TVA_BOK_0026144_மந்திரி_குமாரி.pdf` has completed source intake and whole-scan structural mapping under `works/manthiri-kumari/`.
+`TVA_BOK_0026144_மந்திரி_குமாரி.pdf` is a **14-page film story-and-song booklet** whose canonical Tamil source layer is now complete-verified.
 
 - source classification: **film story-and-song booklet**, not a full screenplay/dialogue book;
 - cover title: **`மந்திரி குமாரி`** under `மாடர்ன் தியேட்டர்ஸ்`;
@@ -63,18 +63,28 @@ The source `TVA_BOK_0026144_மந்திரி_குமாரி.pdf` has co
 - scan: **14 PDF pages**, **579,782 bytes**;
 - source SHA-256: `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;
 - PDF 2: cast/music/production credits;
-- PDF 3–5: **`"மந்திரி குமாரி"—கதைச்சுருக்கம்`**;
+- PDF 3–5: continuous **`"மந்திரி குமாரி"—கதைச்சுருக்கம்`**;
 - PDF 6–13: **`மந்திரி குமாரி—பாடல்கள்`**, **15** separately headed song/performance blocks;
 - PDF 14: unrelated **`அமரகவி`** back-cover advertisement / paratext;
 - source scene-numbering system: **none**;
-- canonical Tamil first pass: **not-started**;
-- visual fidelity audit: **not-started**;
-- credits/story/song derivatives: **blocked until verified Tamil**;
-- scene/dialogue derivatives: **not applicable as a full-work model from this source**.
+- canonical Tamil first pass: **complete — PDF 2–13**;
+- visual fidelity audit: **complete-verified — 12/12 canonical PDF pages, 0 unresolved readings**;
+- post-fidelity manual source corrections: **recorded and applied**;
+- later user-approved song/performance lexical corrections: **applied and reconciled**;
+- source subdivision form: **`தொகையறா`** where applicable;
+- credits derivative: **complete-verified**;
+- story-summary derivative: **initialized; source-linked completion pending**;
+- song/performance inventory: **15/15 complete**;
+- cross-witness classification: **complete — 1 confirmed current-anthology witness / 14 source-only blocks**;
+- block-11 `மாட்டுக்கார பையன்` witness report: **complete-reconciled**;
+- item-level lyric authorship verified by this booklet: **0/15**; all 15 remain at the separate evidence gate;
+- source-linked structured records for the 15 performance blocks: **not-started**;
+- scene/dialogue derivatives: **not applicable as a full-work model from this source**;
+- English translation: **blocked until source-appropriate Tamil derivatives are complete**.
 
-The booklet's story/dialogue credit is primary-source evidence for that authorship role but is **not** automatically item-level lyric authorship. After this source is independently transcribed and visually verified, its song/performance material can be compared against the existing later `கலைஞர் திரை இசைப் பாடல்கள்` corpus without creating duplicate song records.
+The booklet's story/dialogue credit is primary-source evidence for that authorship role but is **not** automatic item-level lyric authorship. The later `கலைஞர் திரை இசைப் பாடல்கள்` corpus remains a separate comparison witness and has not been used to repair this booklet's canonical text.
 
-**Next:** canonical Tamil first-pass transcription of PDF 2–13 in source order with stable page anchors, followed by a separate full visual fidelity audit before structured derivatives.
+**Next:** complete the source-linked continuous PDF 3–5 story-summary derivative from verified Tamil, preserving page provenance and prose structure; then create source-linked structured records for all 15 PDF 6–13 performance blocks without changing their cautious authorship/cross-witness dispositions.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
