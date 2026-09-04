@@ -26,9 +26,15 @@ Before changing this work, read completely:
 12. `works/manthiri-kumari/notes/post-fidelity-corrections.md`
 13. `works/manthiri-kumari/story-summary/README.md`
 14. `works/manthiri-kumari/story-summary/index.json`
-15. `works/manthiri-kumari/songs/performance-inventory.md`
-16. `works/manthiri-kumari/songs/cross-witness-comparison.md`
-17. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
+15. `works/manthiri-kumari/songs/README.md`
+16. `works/manthiri-kumari/songs/schema.json`
+17. `works/manthiri-kumari/songs/index.json`
+18. `works/manthiri-kumari/songs/performance-inventory.md`
+19. `works/manthiri-kumari/songs/cross-witness-comparison.md`
+20. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
+21. `works/manthiri-kumari/songs/match-report-001-oorukku-uzhaippavandi.md`
+
+For translation work, also read the repository's applicable English/song translation guidance before creating translation records.
 
 ## Controlling source
 
@@ -65,9 +71,8 @@ Do not create screenplay scenes or a film-wide dialogue index from the prose syn
 - canonical page anchors: **12/12 verified**;
 - unresolved canonical readings: **0**;
 - post-fidelity user scan corrections: **recorded and applied**;
-- later user-approved lexical/spelling campaign across PDF 6–13: **applied**;
-- source subdivision wording: **`தொகையறா`** in the applicable performance subdivisions/headings;
-- currently existing affected downstream song/cross-witness surfaces: **reconciled**.
+- later user-approved lexical/spelling campaign across PDF 6–13: **applied and reconciled**;
+- source subdivision wording: **`தொகையறா`** in the applicable performance subdivisions/headings.
 
 Authoritative canonical file:
 
@@ -111,28 +116,49 @@ Checkpoint:
 - immutable dialogue IDs from reported/quoted synopsis speech: **0**;
 - canonical Tamil changed by derivative creation: **no**.
 
-The derivative preserves source order, page provenance and the booklet's prose structure.
+### Song/performance structured layer
 
-### Song/performance layer
+Status: **complete-verified — 15/15 source-linked records**.
+
+Files:
+
+- `songs/README.md`;
+- `songs/schema.json`;
+- `songs/index.json`;
+- `songs/records/001.json`–`songs/records/015.json`;
+- `songs/performance-inventory.md`;
+- `songs/cross-witness-comparison.md`;
+- `songs/match-report-001-oorukku-uzhaippavandi.md`;
+- `songs/AUTHORSHIP_GATE.md`.
+
+Checkpoint:
 
 - source blocks: **15/15 inventoried and classified**;
-- exact heading reconciliation: **complete**;
-- source subdivision form: `தொகையறா` / `பாட்டு` where applicable;
-- current later-anthology match: **1/15**, `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`;
+- source-linked records: **15/15 complete-verified**;
+- record IDs: `manthiri-kumari-performance-001`–`015`;
+- source PDF coverage: **6–13, 8/8 pages**;
+- missing / duplicate record IDs: **0 / 0**;
+- exact source headings: **preserved**;
+- source-page segmentation: **preserved**;
+- `தொகையறா` / `பாட்டு` subdivisions: **preserved**;
+- speaker/performance cues: **preserved**;
+- synthetic screenplay scene IDs: **0**;
+- canonical Tamil changed by record creation: **no**;
+- current later-anthology match: **1/15**, record 011 `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`;
 - source-only blocks in the current 54-song anthology corpus: **14/15**;
 - duplicate anthology parent records created: **0**;
 - existing parent anthology lyrics modified: **0**;
-- block-11 line-level comparison: **complete-reconciled after the latest lexical corrections**;
+- block-11 line-level comparison: **complete-reconciled**.
+
+### Song authorship gate
+
+The booklet-evidence gate is complete at the evidence currently available:
+
 - item-level lyric authorship verified by this booklet: **0/15**;
-- blocks requiring separate item-level evidence: **15/15**;
-- source-linked structured records for the 15 blocks: **not-started — 0/15**.
+- unresolved item-level lyric authorship: **15/15**;
+- film-wide `கதை, வசனம்` credit promoted to lyric credit: **no**.
 
-Relevant files:
-
-- `songs/performance-inventory.md`
-- `songs/cross-witness-comparison.md`
-- `songs/match-report-001-oorukku-uzhaippavandi.md`
-- `songs/AUTHORSHIP_GATE.md`
+Unresolved lyric authorship does **not** block source-linked English translation. Future evidence may upgrade individual records without changing canonical Tamil.
 
 ## Source-authority boundaries
 
@@ -140,21 +166,22 @@ Relevant files:
 - explicit user manual scan verdicts control their reviewed occurrences unless later direct scan evidence reopens them;
 - OCR, film audio, subtitles, web lyrics, memory and later anthology text must not repair this booklet silently;
 - `கதை, வசனம் : மு. கருணாநிதி` is primary-source evidence for story/dialogue credit only;
-- item-level lyric authorship remains a separate evidence gate;
-- `source-only` against the later anthology means only “not represented in that corpus,” not positive or negative authorship.
+- item-level lyric authorship remains independently evidence-based;
+- `source-only` against the later anthology means only “not represented in that corpus,” not positive or negative authorship;
+- translation is downstream and must never repair canonical Tamil.
 
-## Current blocked/downstream layers
+## Current downstream state
 
 - screenplay scene derivatives: **not applicable**;
 - film-wide immutable dialogue index: **not applicable**;
-- English translation: **blocked until the 15 source-linked song/performance records are complete**;
-- reader/export: **blocked**;
+- English translation: **ready / not-started**;
+- reader/export: **blocked pending English translation**;
 - Reading Room integration: **blocked downstream**.
 
 ## Exact next activity
 
 Proceed without redundant clarification:
 
-> **Create source-linked structured records for all 15 PDF 6–13 song/performance blocks from verified canonical Tamil. Preserve exact source headings, PDF-page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the existing 1/15 cross-witness match and 14/15 source-only dispositions, and unresolved item-level lyric authorship unless separately evidenced. Then proceed to English translation only from the completed verified source-linked structures.**
+> **Begin source-linked English translation from the completed verified source structures: the continuous PDF 3–5 story-summary record and the 15 PDF 6–13 song/performance records. Preserve source order, page provenance, source-visible speaker/performance cues, `தொகையறா` / `பாட்டு` distinctions and unresolved item-level lyric authorship. Do not convert this booklet into screenplay scenes, and never use translation to repair canonical Tamil.**
 
-At the completion of the 15-record phase, synchronize work README/metadata/handover plus `data/works.json`, root README, master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` before declaring the phase closed.
+At the completion of each translation phase, synchronize work-local translation indexes/status plus `metadata.yaml`, work README/handover and the repository-wide mirrors before declaring completion.
