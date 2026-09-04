@@ -396,8 +396,13 @@
     "structured_derivatives": {
       "credits_layer": "complete-verified",
       "credits_layer_path": "works/manthiri-kumari/credits/credits.yaml",
-      "story_summary_derivative": "initialized-completion-pending",
-      "story_summary_path": "works/manthiri-kumari/story-summary/",
+      "story_summary_derivative": "complete-verified",
+      "story_summary_path": "works/manthiri-kumari/story-summary/full-text.md",
+      "story_summary_index_path": "works/manthiri-kumari/story-summary/index.json",
+      "story_summary_records": 1,
+      "story_summary_source_pdf_pages": 3,
+      "story_summary_scene_ids_created": 0,
+      "story_summary_dialogue_ids_created": 0,
       "song_performance_inventory": "complete-15-of-15",
       "song_performance_inventory_path": "works/manthiri-kumari/songs/performance-inventory.md",
       "song_cross_witness_comparison": "complete",
@@ -410,14 +415,15 @@
       "song_authorship_gate_path": "works/manthiri-kumari/songs/AUTHORSHIP_GATE.md",
       "song_item_level_verified_from_booklet": 0,
       "song_source_linked_records": "not-started",
+      "song_source_linked_records_completed": 0,
       "song_source_linked_records_expected": 15,
       "scene_index": "not-applicable-from-this-source",
       "dialogue_index": "not-applicable-from-this-source",
-      "english_translation": "blocked-pending-source-appropriate-tamil-derivatives",
+      "english_translation": "blocked-pending-song-source-linked-records",
       "reader_export": "blocked",
       "reading_room_integration": "blocked"
     },
-    "next_action": "Complete the source-linked continuous PDF 3-5 story-summary derivative from verified canonical Tamil with PDF-page provenance and no synthetic screenplay scenes/dialogue records; then create source-linked structured records for all 15 PDF 6-13 song/performance blocks while preserving existing authorship and cross-witness dispositions."
+    "next_action": "Create source-linked structured records for all 15 PDF 6-13 song/performance blocks from verified canonical Tamil, preserving exact source headings, PDF-page provenance, தொகையறா/பாட்டு subdivisions, performance/speaker cues, the existing 1/15 cross-witness match and 14/15 source-only dispositions, and unresolved item-level lyric authorship unless separately evidenced."
   },
   {
     "id": "raja-rani",
