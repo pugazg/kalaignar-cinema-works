@@ -32,6 +32,7 @@ source_authority:
   story_summary_is_screenplay_dialogue: false
   song_authorship_inferred_from_story_dialogue_credit: false
   external_audio_web_or_later_sources_may_fill_text: false
+  user_manual_scan_verdicts_authoritative_for_reviewed_occurrences: true
 
 structure:
   cover_pdf_page: 1
@@ -41,6 +42,7 @@ structure:
   back_cover_pdf_page: 14
   back_cover_disposition: "unrelated advertisement for அமரகவி; preserve as paratext, exclude from canonical work text"
   song_performance_blocks: 15
+  song_subdivision_form: "தொகையறா"
   source_numbered_scene_headings: false
   scene_system_supported_by_source: false
   full_screenplay_dialogue_supported_by_source: false
@@ -65,20 +67,78 @@ scan_condition:
     - "Text pages are legible at rendered resolution; no text-critical crop was observed during the 14-page structural pass."
     - "PDF 14 is a back-cover advertisement and not Mandhiri Kumari canonical text."
 
+canonical_tamil:
+  path: "works/manthiri-kumari/transcription/full-text.md"
+  pdf_pages: "2-13"
+  canonical_pdf_page_count: 12
+  first_pass_complete: true
+  status: complete-verified
+  verified_pdf_pages: 12
+  review_pdf_pages: 0
+  unresolved_readings: 0
+  fidelity_audit: complete
+  fidelity_audit_path: "works/manthiri-kumari/notes/fidelity-audit.md"
+  post_fidelity_corrections_path: "works/manthiri-kumari/notes/post-fidelity-corrections.md"
+  post_fidelity_user_review_applied: true
+  later_song_lexical_review_applied: true
+  affected_existing_derivatives_reconciled: true
+
+structured_derivatives:
+  credits_layer:
+    status: complete-verified
+    path: "works/manthiri-kumari/credits/credits.yaml"
+  story_summary:
+    status: initialized
+    source_pdf_pages: "3-5"
+    path: "works/manthiri-kumari/story-summary/"
+    screenplay_scene_model: not-applicable
+    immutable_dialogue_model: not-applicable
+  song_performance_inventory:
+    status: complete
+    blocks: 15
+    path: "works/manthiri-kumari/songs/performance-inventory.md"
+  song_cross_witness_comparison:
+    status: complete
+    path: "works/manthiri-kumari/songs/cross-witness-comparison.md"
+    confirmed_existing_anthology_witnesses: 1
+    source_only_blocks_in_current_anthology: 14
+    duplicate_parent_records_created: 0
+    parent_anthology_lyric_files_modified: 0
+  song_block_11_match_report:
+    status: complete-reconciled
+    path: "works/manthiri-kumari/songs/match-report-001-oorukku-uzhaippavandi.md"
+  song_authorship_gate:
+    status: initialized
+    path: "works/manthiri-kumari/songs/AUTHORSHIP_GATE.md"
+    booklet_item_level_verified: 0
+    requiring_separate_item_evidence: 15
+  song_source_linked_records:
+    status: not-started
+    expected_blocks: 15
+  scene_index: not-applicable-from-this-source
+  dialogue_index: not-applicable-from-this-source
+  english_translation: blocked-pending-source-appropriate-tamil-derivatives
+  reader_export: blocked
+  reading_room_integration: blocked
+
 status:
   duplicate_work_check: complete
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_first_pass: not-started
-  visual_fidelity_audit: not-started
-  credits_derivative: blocked
-  story_summary_derivative: blocked
-  song_performance_inventory: blocked
-  song_cross_witness_comparison: blocked
+  canonical_tamil_first_pass: complete
+  canonical_tamil: complete-verified
+  visual_fidelity_audit: complete
+  post_fidelity_reconciliation: complete-for-existing-affected-derivatives
+  credits_derivative: complete-verified
+  story_summary_derivative: initialized-completion-pending
+  song_performance_inventory: complete-15-of-15
+  song_cross_witness_comparison: complete
+  song_authorship_gate: initialized-15-pending-item-evidence
+  song_source_linked_records: not-started
   scene_derivatives: not-applicable-from-this-source
   dialogue_index: not-applicable-from-this-source
   english_translation: blocked
   reader_export: blocked
 
-next_action: "Canonical Tamil first-pass transcription of PDF 2-13 from the rendered scan, in source order, with stable page anchors; preserve PDF 1 and 14 separately as paratext; then perform a separate full visual fidelity audit before derivatives."
+next_action: "Complete the source-linked continuous PDF 3-5 story-summary derivative from verified canonical Tamil with PDF-page provenance and no synthetic screenplay scenes/dialogue records; then create source-linked structured records for all 15 PDF 6-13 song/performance blocks while preserving existing authorship and cross-witness dispositions."
