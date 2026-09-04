@@ -98,6 +98,50 @@ These notes record first-pass readings that remain intentionally uncertain. The 
 
 24. Thirisangu's line after `கல்யாணம் பண்ணிக்கொண்டு` is presently `⟦மாடனூர் வீட்டை?⟧ எதிர்பார்த்துக் கிடக்க`. The marked word group must be reopened glyph by glyph during fidelity review.
 
+## First-pass batch 6 — PDF 45–54
+
+### PDF 45 / printed p.43
+
+25. Sumathi's teasing line after `இப்போதுவந்து` is presently `⟦வர்ணிப்பார் பார்?⟧`. The old-type word boundary and ending are not secure enough to remove the marker.
+
+### PDF 46 / printed p.44
+
+26. Muthan's poetic address after `என் விழியில் சதிராடும்` is presently `⟦மாகமே?⟧`.
+27. Muthayi's question contains `வேங்கைபுரத்து ⟦வீரனுக?⟧ மாறினீர்கள்?`; preserve the colloquial/glyph-sensitive ending for later review.
+28. Muthan's explanation includes `⟦காகரத்துக் குருவிலே, கம்பிய தொளியிலே?⟧`; the entire phrase remains scan-sensitive and must not be reconstructed from meaning.
+29. Muthayi's comparison is presently `⟦கலத்து எழும் சித்திரமா?⟧`; preserve the marked source reading until enlargement-based adjudication.
+
+### PDF 47 / printed p.45
+
+30. Muthayi's defiant line contains `⟦அதைக் காட்டியாகிக் காட்டுகிறேன் அதோ, அந்த ஆடும் மாக்களவில்?⟧`; the marked span remains intentionally unresolved.
+
+### PDF 48 / printed p.46
+
+31. Vedalam's explanation about the accidental writing of `முத்தாயி` presently contains `அவன் கை ⟦பொய்ப்பிடும்போது?⟧`; the marked word is not secure.
+32. Velazhagan's line about rewarding a friend ends `அவனைத் ⟦தலைவனுக்கிவிட்டேன்?⟧`; preserve this first-pass uncertainty.
+
+### PDF 49 / printed p.47
+
+33. Velazhagan's insult/comparison before `...எலிபோல் பயப்படுகிறான் கோழை...` is presently `⟦ஆளப்பார் மில்போல் இருக்கிறான்?⟧`; the old-type phrase remains unresolved.
+
+### PDF 51 / printed p.49
+
+34. Velazhagan's command immediately before `ஏய், யாரங்கே!` is presently `⟦வேலழகன் உத்தா விடுகிறேன்?⟧`; preserve the uncertainty rather than regularizing the phrase.
+35. Vedalam's departing remark after `முன் ஜென்ம கர்ம வினை` is presently `⟦முடிகுடிய மண்ணையும் விட்டது?⟧`; reopen the complete phrase during fidelity review.
+
+### PDF 52 / printed p.50
+
+36. Sumathi's joking response `என்ன ⟦அவிர்த யோகமா?⟧` retains the marked expression because the printed old-type word is not secure.
+
+### PDF 53 / printed p.51
+
+37. Vedalam's lament is presently `⟦ஏழையின் குரல் எழுக்கு மாளிகையில் எப்படிக் கேட்கும்?⟧`; the middle word group remains glyph-sensitive.
+38. Velazhagan's question to Vedalam is presently `⟦என்ன மிலக்கிறீர்?⟧`; preserve this marked reading for later visual adjudication.
+
+### PDF 54 / printed p.52
+
+39. Vedalam's assurance after `எது நடந்தாலும் சரி.` is presently `⟦பொன் வாட்டும்?⟧`; the short phrase remains unresolved at first pass.
+
 ## Locked source verdicts from intake
 
 These are not uncertainties:
