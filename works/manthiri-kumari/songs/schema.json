@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manthiri-kumari-performance-record-schema",
+  "title": "Manthiri Kumari source-linked song/performance record",
+  "description": "Source-linked records for the 15 separately headed song/performance blocks in TVA_BOK_0026144. Canonical Tamil remains works/manthiri-kumari/transcription/full-text.md; records preserve page provenance, printed subdivisions/cues, cross-witness disposition, and separate lyric-authorship evidence state.",
+  "type": "object",
+  "required": [
+    "id",
+    "sequence",
+    "heading_ta",
+    "occurrence_kind",
+    "source_status",
+    "pdf_pages",
+    "printed_pages_observed",
+    "canonical_source_file",
+    "source_segments",
+    "source_visible_subdivisions",
+    "source_visible_labels",
+    "cross_witness",
+    "authorship",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^manthiri-kumari-performance-(?:00[1-9]|01[0-5])$"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 15
+    },
+    "heading_ta": {
+      "type": "string",
+      "minLength": 1
+    },
+    "occurrence_kind": {
+      "enum": [
+        "dance-performance",
+        "character-performance",
+        "labelled-duet",
+        "chorus-performance",
+        "labelled-character-performance",
+        "song-performance"
+      ]
+    },
+    "source_status": {
+      "const": "complete-verified"
+    },
+    "pdf_pages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 6,
+        "maximum": 13
+      }
+    },
+    "printed_pages_observed": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 6,
+        "maximum": 12
+      }
+    },
+    "canonical_source_file": {
+      "const": "../transcription/full-text.md"
+    },
+    "source_segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "pdf_page",
+          "printed_page",
+          "text_ta"
+        ],
+        "properties": {
+          "pdf_page": {
+            "type": "integer",
+            "minimum": 6,
+            "maximum": 13
+          },
+          "printed_page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 6,
+            "maximum": 12
+          },
+          "text_ta": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_visible_subdivisions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "தொகையறா",
+          "பாட்டு"
+        ]
+      }
+    },
+    "source_visible_labels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cross_witness": {
+      "type": "object",
+      "required": [
+        "status",
+        "anthology_record_id",
+        "evidence_reference"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "confirmed-existing-anthology-witness",
+            "source-only-in-current-anthology"
+          ]
+        },
+        "anthology_record_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_reference": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "authorship": {
+      "type": "object",
+      "required": [
+        "status",
+        "lyricist_ta",
+        "evidence_basis",
+        "evidence_reference",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "verified",
+            "review",
+            "unresolved"
+          ]
+        },
+        "lyricist_ta": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_basis": {
+          "enum": [
+            "printed-item-credit",
+            "anthology-attributed",
+            "external-item-evidence",
+            "none"
+          ]
+        },
+        "evidence_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
