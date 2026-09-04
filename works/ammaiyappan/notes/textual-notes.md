@@ -31,6 +31,20 @@ These notes record first-pass readings that remain intentionally uncertain. The 
 
 8. Muthan's line before `வாள் பயிற்சி கத்துகிட்டு` is presently `⟦இப்ப என்னு?⟧`. Preserve this occurrence-specific uncertainty until the glyph sequence is rechecked at fidelity-audit enlargement.
 
+## First-pass batch 3 — PDF 15–24
+
+### PDF 19 / printed p.17
+
+9. Sukhadev's cross-page line ends `இது வைத்தியமில் லாத வியாதி...⟦கண்ணெடு கண்ணோக் கொக்கின்?⟧ ... அதா`; the marked poetic/glyph sequence is not secure enough to normalize. PDF 20 visibly continues with `வது காதல்...`, so preserve the page split exactly.
+
+### PDF 21 / printed p.19
+
+10. Velazhagan's political/military line presently reads `⟦சிறுத்தை பூரான்?⟧ வேங்கை நகரின் மீது எப்போது பாயலாம்...`. The epithet/name remains under review; do not substitute a historically or semantically expected name.
+
+### PDF 23 / printed p.21
+
+11. Sukhadev's quoted Kamba-Ramayanam passage is retained as one uncertainty span: `⟦கோமுனியுடன் வரு கொண்டல் என்றபின் தாமரைக் கண்ணினன் என்ற தன்மையால்...ஆம்...அவனே கொல் என்று ஐய நீங்கினள்...வாடமேகலையி வளர்ந்தது...?⟧`. This must be resolved from the printed scan itself, not from a familiar external text of the verse.
+
 ## Locked source verdicts from intake
 
 These are not uncertainties:
