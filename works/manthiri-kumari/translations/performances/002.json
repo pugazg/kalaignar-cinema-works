@@ -1,0 +1,18 @@
+{
+  "id": "manthiri-kumari-performance-en-002",
+  "source_performance_id": "manthiri-kumari-performance-002",
+  "sequence": 2,
+  "heading_ta": "ராஜகுமாரி",
+  "heading_en": "Princess",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/002.json", "tamil_status": "complete-verified", "pdf_pages": [6, 7], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [6], "source_tamil_lines": ["ஆஹா ஹா ஹா வாழ்விலே ஓர் ஆனந்தம்", "இனி—பெறுவோம் நாமே நாளுமே ஓ மாரனே!", "யாழோடிசை போல் கூடியே (வாழ்)", "மா நதி மீதிலே தோணியுலாவியே", "காதலிசை பாடிடவே ஆசை அதிகமாகுதே!", "மா வீரனே வாராயே ஏகுவோம்!"], "english_lines": ["Ah ha ha! A joy within this life,", "From now on, let us gain it every day, O Māranē!", "Joined like the music of the yaazh (வாழ்)", "Roaming by boat upon the great river,", "My desire grows to sing the music of love!", "O great warrior, come—let us go!"], "notes": ["The vocative `மாரனே` is transliterated rather than normalized to a different familiar word.", "`யாழ்` is retained as `yaazh`, the Tamil stringed instrument."]},
+      {"ordinal": 2, "source_label": null, "english_label": null, "source_pdf_pages": [7], "source_tamil_lines": ["மாமோகனா யாரேனுமே காணாதுமே பூங்காவிலே", "மலைமேலே தாவும் முகில் போலவே", "ஓடியே நாம் ஆடியே (வாழ்)", "வானகமேவியே மாமதி மீதிலே", "நாமாடலாம் வாராயே நீயுமே", "வானோரிலும் மேலான உன் மீதிலேதான் மாலாகியே", "முகில் காண ஆடும் மயில் போலவே", "பாரீரிதோ நானாடுறேன் (வாழ்)"], "english_lines": ["O great charmer, with no one to see us in the flower garden,", "Like a cloud that leaps over the mountain,", "Let us run and dance (வாழ்)", "Ascending the heavens, upon the great moon,", "Let us dance—come, you too,", "Becoming a garland upon you, who are greater than the heavenly ones,", "Like a peacock that dances at the sight of clouds,", "Look—here I am dancing (வாழ்)"], "notes": ["The repeated `(வாழ்)` source cue is retained verbatim in the English line mapping rather than assigned an unverified expanded meaning."]}
+    ],
+    "translator_notes": ["The source's romantic celestial and landscape imagery is preserved directly.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
