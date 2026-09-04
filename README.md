@@ -84,17 +84,19 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - structural mapping: **verified**;
 - source-numbered scenes: **none**;
 - source-visible structural heading/transition occurrences: **58 / 37 distinct forms**;
+- locked PDF 56 / printed p.54 heading: **`பழுதார் வீதி`**;
 - user-reviewed PDF 107 / printed p.105 heading: **`தூக்குமேடை`**;
-- canonical Tamil first pass: **draft-in-progress — 50/105 pages**;
-- completed range: **PDF 5–54 / logical pp.3–52**;
-- open first-pass uncertainty markers: **39**;
+- canonical Tamil first pass: **draft-in-progress — 60/105 pages**;
+- completed range: **PDF 5–64 / logical pp.3–62**;
+- open first-pass uncertainty markers: **48**;
 - current continuous `full-text.md`: through **PDF 14**;
-- bounded continuation parts: **PDF 15–24, PDF 25–34, PDF 35–44 and PDF 45–54**;
+- bounded continuation parts: **PDF 15–24, PDF 25–34, PDF 35–44, PDF 45–54 and PDF 55–64**;
 - PDF 35–44 scan reconciliation: **complete for first-pass draft; `தனபதி` restored where initially misread as `தளபதி`**;
+- PDF 64 ends inside quoted poetic material whose marked fragment continues onto PDF 65;
 - visual fidelity audit: **not-started**;
 - structured derivatives / English / reader: **blocked pending verified Tamil**.
 
-**Next:** continue canonical Tamil first-pass transcription at **PDF 55 / printed p.53**, preserving stable page anchors and visible uncertainty markers. Assemble all bounded parts into `full-text.md` before first-pass closure; complete a separate full visual fidelity audit before any scene/dialogue derivatives.
+**Next:** continue canonical Tamil first-pass transcription at **PDF 65 / printed p.63**, preserving the PDF 64→65 continuation, stable page anchors and visible uncertainty markers. Assemble all bounded parts into `full-text.md` before first-pass closure; complete a separate full visual fidelity audit before any scene/dialogue derivatives.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
@@ -148,7 +150,7 @@ Parasakthi has complete-verified canonical Tamil and source-linked English reade
 - dialogue records: **1,040**;
 - English: **1,321 verified units**;
 - reader/export: **QA PASS**;
-- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
+- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2cc0cdcc23c7f`.
 
 **Next:** no required Tirumbippaar repository-internal translation/reader/package work remains.
 
