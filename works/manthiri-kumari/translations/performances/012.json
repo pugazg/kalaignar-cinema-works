@@ -1,0 +1,20 @@
+{
+  "id": "manthiri-kumari-performance-en-012",
+  "source_performance_id": "manthiri-kumari-performance-012",
+  "sequence": 12,
+  "heading_ta": "மந்திரிகுமாரி—ராஜகுமாரி",
+  "heading_en": "Manthirikumarī—Rajakumarī",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/012.json", "tamil_status": "complete-verified", "pdf_pages": [12], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": "மந்திரிகுமாரி", "english_label": "Manthirikumarī", "source_pdf_pages": [12], "source_tamil_lines": ["மனம்போல் வாழ்வு பெறுவோமே!", "இணைந்தே நேசமுடன் எந்நாளும்", "நாம்—மகிழ்வோம் மெய்யன்பாலே", "என்னுயிர் நாதன் குணமே—மாறி", "நேர்மையாகினார் புவிமேல்!"], "english_lines": ["Let us gain a life as our hearts desire!", "United in love, forever,", "We shall rejoice in true love;", "My beloved lord's nature has changed—", "He has become upright in this world!"], "notes": []},
+      {"ordinal": 2, "source_label": "ராஜகுமாரி", "english_label": "Rajakumarī", "source_pdf_pages": [12], "source_tamil_lines": ["இந்த நாளுன் வாழ்வில் சுபதினமே!", "இன்பமே கொள்ளுவோம்! (மனம்)"], "english_lines": ["This day is an auspicious day in your life!", "Let us embrace happiness! (மனம்)"], "notes": []},
+      {"ordinal": 3, "source_label": "மந்திரிகுமாரி", "english_label": "Manthirikumarī", "source_pdf_pages": [12], "source_tamil_lines": ["பெண் மனம் ஒன்றை நினைத்தால்—அதை", "திண்ணமாக செய்து முடிப்பாள்!"], "english_lines": ["If a woman's heart resolves upon one thing—", "She will surely bring it to completion!"], "notes": []},
+      {"ordinal": 4, "source_label": "ராஜகுமாரி", "english_label": "Rajakumarī", "source_pdf_pages": [12], "source_tamil_lines": ["உயர் காதல் வாழ்வு......", "உயர் காதல் வாழ்வு பெறத்துடிப்பாள்!", "உண்மை சேர் அன்பினால் (மனம்)"], "english_lines": ["A lofty life of love......", "She yearns to attain a lofty life of love!", "Through love joined with truth. (மனம்)"], "notes": []}
+    ],
+    "translator_notes": ["The source cue `(மனம்)` is retained verbatim; exact character labels remain source metadata.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
