@@ -39,19 +39,26 @@ The visible numerals establish a continuous internal sequence around the unnumbe
 
 ## Story-summary structure
 
-PDF **3–5** is a continuous prose `கதைச்சுருக்கம்`. It contains narrative references to film characters and events but is not printed as scene-by-scene screenplay/dialogue. Therefore:
+PDF **3–5** is a continuous prose `கதைச்சுருக்கம்`. It is not printed as scene-by-scene screenplay/dialogue.
+
+Rules:
 
 - do not create source scene numbers from paragraph breaks;
-- do not turn quoted/reported speech inside the synopsis into a film-wide immutable dialogue index;
-- preserve it as continuous canonical prose with page anchors;
-- any story-summary derivative must derive from the verified canonical Tamil.
+- do not turn quoted/reported speech into a film-wide immutable dialogue index;
+- preserve continuous prose and PDF-page provenance;
+- derive only from verified canonical Tamil.
 
-The source-linked derivative is complete at:
+Source-linked Tamil derivative:
 
-- `story-summary/full-text.md` — verified continuous PDF 3–5 text with page anchors;
-- `story-summary/index.json` — one continuous-prose record, `manthiri-kumari-story-summary-001`.
+- `story-summary/full-text.md`;
+- `story-summary/index.json`;
+- **3/3 source PDF pages / 1 continuous record / 0 synthetic scene IDs / 0 immutable dialogue IDs**.
 
-Story-summary QA: **3/3 source PDF pages represented, 1 record, 0 synthetic scene IDs, 0 immutable dialogue IDs**.
+English derivative:
+
+- `translations/story-summary.json`;
+- **1/1 translated record / 13 logical prose units / 1 cross-page unit**;
+- translation status: **complete-verified**.
 
 ## Song/performance section — exact heading sequence
 
@@ -71,58 +78,72 @@ The song/performance corpus runs PDF **6–13** and contains **15** separately h
 | 10 | `லலிதா—பத்மினி—ராகினி நடனம்` | 11 | dance/performance block |
 | 11 | `மாட்டுக்கார பையன்` | 11–12 | cross-page; explicitly contains `தொகையறா` and `பாட்டு` subdivisions |
 | 12 | `மந்திரிகுமாரி—ராஜகுமாரி` | 12 | character-pair exchange |
-| 13 | `பார்த்திபன்—மந்திரிகுமாரி` | 12–13 | cross-page character-pair exchange |
+| 13 | `பார்த்திபன்—மந்திரிகுமாரி` | 12–13 | cross-page character-pair exchange; internal turn labels are `பார்த்திபன்` / `அமுதவல்லி` and remain unnormalized |
 | 14 | `உழவன்—தொகையறா` | 13 | `தொகையறா` followed by `பாட்டு` material |
 | 15 | `ராஜகுமாரி` | 13 | final printed performance block; distinct from blocks 2 and 9 |
 
-Block 7 was initially stored with a normalized/misread heading. The full visual fidelity audit confirmed the printed form **`தளபதி பார்ட்டி கோரஸ்`**; this map follows the controlling scan.
+Block 7's verified printed heading is **`தளபதி பார்ட்டி கோரஸ்`**.
 
 ## Song/performance structured record layer
 
-The 15 blocks now have one-to-one source-linked machine records:
+The 15 blocks have one-to-one source-linked records:
 
 - schema: `songs/schema.json`;
 - index: `songs/index.json`;
 - records: `songs/records/001.json`–`songs/records/015.json`;
-- record IDs: `manthiri-kumari-performance-001`–`015`;
 - record count: **15/15**;
 - source PDF coverage: **6–13, 8/8 pages**;
 - missing/duplicate IDs: **0 / 0**;
 - canonical Tamil changed by derivative creation: **no**;
 - synthetic screenplay scene IDs created: **0**.
 
-These IDs are archival navigation only. The booklet does not number the performance blocks.
+The records preserve source-page segmentation, exact headings, `தொகையறா` / `பாட்டு` subdivisions and source-visible speaker/performance cues.
 
-The machine records preserve source-page segmentation, exact headings, `தொகையறா` / `பாட்டு` subdivisions and source-visible speaker/performance cues.
+## English song/performance translation layer
+
+English translation is **complete-verified** under `translations/`:
+
+- performance schema: `translations/performance.schema.json`;
+- translation index: `translations/index.json`;
+- performance records: `translations/performances/001.json`–`015.json`;
+- final QA: `translations/FINAL_TRANSLATION_QA.md`;
+- translated performance records: **15/15**;
+- sections: **52**;
+- Tamil source lines/cues: **234**;
+- English lines/cues: **234**;
+- line-mapping mismatches: **0**;
+- cross-page translated records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
+- synthetic scene IDs: **0**;
+- canonical Tamil changed by translation: **no**.
+
+Source-visible structural/performance cues remain represented in the English records rather than being flattened away.
 
 ## Authorship boundary
 
 PDF 2 directly verifies Kalaignar's **story/dialogue** credit: `கதை, வசனம் : மு. கருணாநிதி`.
 
-The booklet does **not** provide a source-visible item-level lyricist line for each of the 15 song/performance blocks. Therefore:
+The booklet does **not** provide a source-visible item-level lyricist line for each of the 15 performance blocks. Therefore:
 
-- do not assign all printed songs to Kalaignar from the film-wide story/dialogue credit;
-- retain honest item-level authorship states;
-- compare blocks against the existing `works/kalaignar-thirai-isai-paadalgal/songs/` corpus without creating duplicates;
-- external evidence, if later used for item-level lyric authorship, must be recorded separately and must never supply missing canonical text.
+- booklet item-level lyricists verified: **0/15**;
+- unresolved item-level lyricists: **15/15**;
+- translation-induced authorship upgrades: **0**.
 
-The booklet-evidence authorship gate is now complete at the available evidence tier: **0/15 item-level lyricists verified; 15/15 unresolved**. This unresolved state does not block source-linked English translation.
+Unresolved authorship does not block translation or reader construction; it must remain visible in downstream metadata unless separately evidenced.
 
 ## Known cross-witness relationship
 
-The existing later anthology contains one current `மந்திரிகுமாரி` record corresponding to booklet block 11, `மாட்டுக்கார பையன்`, represented there as `ஊருக்கு உழைப்பவண்டி`. The booklet remains an **independent film-specific witness**. No later-anthology text was used to repair the canonical booklet transcription.
-
-Cross-witness disposition remains:
+The later anthology contains one current `மந்திரிகுமாரி` record corresponding to booklet block 11, `மாட்டுக்கார பையன்`, represented there as `ஊருக்கு உழைப்பவண்டி`.
 
 - confirmed existing anthology witness: **1/15**;
-- source-only in the current anthology corpus: **14/15**.
+- source-only in the current anthology corpus: **14/15**;
+- later anthology text used to repair this booklet: **no**.
 
 ## Scan / paratext notes
 
 - PDF 1 has visible cover surface loss/abrasion, including a white damaged region at lower right; the title remains readable.
 - No missing or duplicated physical PDF page was observed in the 14-page pass.
 - No text-critical crop was observed on pages 2–13.
-- PDF 14 is clearly an advertisement for another film (`அமரகவி`) and remains source paratext only.
+- PDF 14 is an unrelated `அமரகவி` advertisement and remains paratext only.
 
 ## Gate status
 
@@ -132,15 +153,13 @@ Cross-witness disposition remains:
 - visual fidelity audit: **complete-verified — 12/12 canonical PDF pages, 0 unresolved readings**;
 - post-fidelity correction reconciliation: **complete**;
 - credits layer: **complete-verified**;
-- story-summary derivative: **complete-verified — 1 continuous record / PDF 3–5 / 0 synthetic scene IDs / 0 immutable dialogue IDs**;
-- song/performance inventory and cross-witness classification: **15/15 complete**;
-- source-linked structured song/performance records: **complete-verified — 15/15**;
-- booklet-evidence lyric-authorship gate: **complete — 15/15 unresolved item-level lyricists**;
-- scene/dialogue derivative model: **not supported by this booklet as a full screenplay**;
-- English translation: **ready / not-started**.
-
-See `notes/fidelity-audit.md` and `notes/post-fidelity-corrections.md` for the correction record, including user-reviewed lexical source verdicts.
+- story-summary Tamil derivative: **complete-verified**;
+- song/performance Tamil records: **complete-verified — 15/15**;
+- booklet-evidence lyric-authorship gate: **complete-with-unresolved-item-authorship — 15 unresolved**;
+- English translation: **complete-verified**;
+- reader/export: **ready / not-started**;
+- scene/dialogue full-work model: **not supported by this booklet**.
 
 ## Exact next activity
 
-> **Begin source-linked English translation from the completed verified source structures: the continuous PDF 3–5 story-summary record and the 15 PDF 6–13 song/performance records. Preserve source order, page provenance, performance/speaker cues, `தொகையறா` / `பாட்டு` distinctions and unresolved item-level lyric authorship. Do not convert the booklet into screenplay scenes, and do not use translation to repair canonical Tamil.**
+> **Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures. Preserve the booklet's natural story-summary + performance navigation, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship. Do not invent screenplay scenes.**
