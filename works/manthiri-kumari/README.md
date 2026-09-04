@@ -71,21 +71,30 @@ The continuous PDF **3–5** prose `கதைச்சுருக்கம்` 
 
 ### Songs / performances
 
-The booklet prints **15** separately headed source blocks across PDF **6–13**.
+The PDF **6–13** source-linked performance layer is now **complete-verified**.
 
 - performance inventory: **15/15 classified**;
+- structured-record schema: `songs/schema.json`;
+- machine index: `songs/index.json`;
+- source-linked records: **15/15 complete** — `songs/records/001.json` through `015.json`;
+- source PDF pages represented: **8/8 — PDF 6–13**;
+- missing / duplicate record IDs: **0 / 0**;
 - exact heading reconciliation: **complete**;
+- `தொகையறா` / `பாட்டு` subdivisions and source-visible speaker/performance cues: **preserved in the records**;
 - later-anthology cross-witness classification: **complete**;
-- confirmed existing anthology witness: **1/15** — `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`;
+- confirmed existing anthology witness: **1/15** — record 011 `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`;
 - source-only blocks in the current 54-song anthology corpus: **14/15**;
 - duplicate parent anthology records created: **0**;
 - existing parent anthology lyrics modified: **0**;
-- block-11 line-level witness report: **reconciled after the user-approved lexical corrections**;
-- item-level lyric authorship verified from this booklet: **0/15**;
-- performance blocks requiring separate item-level evidence: **15/15**;
-- source-linked structured records for the 15 blocks: **not-started — 0/15**.
+- block-11 line-level witness report: **complete-reconciled**;
+- booklet item-level lyricist credits: **0/15**;
+- item-level lyric authorship at this evidence tier: **15/15 unresolved**;
+- canonical Tamil changed by structured-record creation: **no**;
+- synthetic screenplay scene IDs created: **0**.
 
 `source-only` means only that no corresponding record is present in the current anthology corpus; it is not a positive or negative lyric-authorship verdict.
+
+The booklet-level authorship gate is complete at its available evidence tier. Future item-level authorship research may still upgrade individual records if independently supported; unresolved authorship does not block translation.
 
 ## Current status
 
@@ -95,17 +104,16 @@ The booklet prints **15** separately headed source blocks across PDF **6–13**.
 - structural mapping: **verified**;
 - canonical Tamil: **complete-verified, PDF 2–13**;
 - visual fidelity audit: **complete**;
-- post-fidelity correction reconciliation: **complete for currently existing affected derivatives**;
+- post-fidelity correction reconciliation: **complete**;
 - credits/cast derivative: **complete-verified**;
 - story-summary derivative: **complete-verified — 1 continuous record / 3 source pages**;
-- song/performance inventory: **15/15 complete**;
+- song/performance structured layer: **complete-verified — 15/15 records / PDF 6–13**;
 - song cross-witness comparison: **complete**;
-- song item-level authorship gate: **initialized; 15 pending separate evidence**;
-- source-linked structured records for all 15 performance blocks: **not-started — 0/15**;
+- song booklet-evidence authorship gate: **complete — 15/15 unresolved item-level lyricists**;
 - scene/dialogue derivatives: **not applicable from this source as a full-work model**;
-- English translation: **blocked until the 15 source-linked performance records are complete**;
-- reader/export and Reading Room integration: **blocked downstream**.
+- English translation: **ready / not-started**;
+- reader/export and Reading Room integration: **blocked pending English translation**.
 
 ## Exact next activity
 
-> **Create source-linked structured records for all 15 PDF 6–13 song/performance blocks from the verified canonical Tamil. Preserve exact source headings, PDF-page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the existing 1/15 cross-witness match and 14/15 source-only dispositions, and unresolved item-level lyric authorship unless separately evidenced. Then proceed to English translation only from the completed verified source-linked structures.**
+> **Begin source-linked English translation from the completed verified source structures: the continuous PDF 3–5 story-summary record and the 15 PDF 6–13 song/performance records. Preserve source order, page provenance, performance/speaker cues, `தொகையறா` / `பாட்டு` distinctions and unresolved item-level lyric authorship. Do not convert this booklet into screenplay scenes, and do not use translation to repair canonical Tamil.**
