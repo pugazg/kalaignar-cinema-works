@@ -1,0 +1,18 @@
+{
+  "id": "manthiri-kumari-performance-en-007",
+  "source_performance_id": "manthiri-kumari-performance-007",
+  "sequence": 7,
+  "heading_ta": "தளபதி பார்ட்டி கோரஸ்",
+  "heading_en": "Commander Party Chorus",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/007.json", "tamil_status": "complete-verified", "pdf_pages": [9, 10], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [9], "source_tamil_lines": ["அந்தி சாயிற நேரம்", "மந்தாரைச் செடி யோரம்", "ஒரு—அம்மாவைப் பார்த்து ஐயா", "அடிச்சாராம் கண்ணு—அவ", "சிரிச்சாளாம் பொண்ணு!", "கொக்கர கொக்கர கொக்கரக்கோன்னு", "குயிலைப்போல பாடிடுவா!—குயிலைப்........", "கொக்கரக்கோ கொக்கரக்கோ", "கொக்கர கொக்கர கொக்கரக்கோ", "பல்லாக்கு போல நெளிஞ்சு ஆடி", "பார்த்தவர் மனசை லாவிடுவா!—பார்த்தவர்........", "பப்பரபூ பப்பரபூ", "பப்பரபூ பப்பர பப்பரபூ", "தத்தித் தத்தி அன்னம் போல", "தாவியே நடையும் போட்டிடுவா!—தாவியே........", "டர்ரரடண் டர்ரரடண்", "டர்ரா டர்ரர டர்ரரடண்"], "english_lines": ["At the hour when dusk is falling,", "Beside the mandarai shrub,", "A man looked at a woman, sir—", "They say he winked at her—and", "The girl smiled!", "Kokkara kokkara kokkarakkōnnu,", "She will sing like a cuckoo!—the cuckoo........", "Kokkarakkō kokkarakkō,", "Kokkara kokkara kokkarakkō,", "Swaying and dancing like a palanquin,", "She will carry away the heart of whoever sees her!—whoever sees her........", "Papparabū papparabū,", "Papparabū pappara papparabū,", "Toddling, toddling, like a swan,", "She will set out in a leaping gait!—leaping........", "Darraraḍaṇ darraraḍaṇ,", "Darrā darrara darraraḍaṇ"], "notes": ["Nonsense/percussion syllables are transliterated rather than semantically rewritten."]},
+      {"ordinal": 2, "source_label": null, "english_label": null, "source_pdf_pages": [10], "source_tamil_lines": ["பக்காப் பொண்ணு ஐயாமேலே", "சொக்குப்பொடியும் தூவிட்டா!—சொக்குப்......", "தக்கிடஜம் தக்கிடஜம்", "தக்கிட தக்கிட தக்கிடஜம்", "அந்தி சாயிற நேரம்...சிரிச்சாளாம் பொண்ணு"], "english_lines": ["That first-rate girl, upon the gentleman,", "Has sprinkled her powder of enchantment!—enchantment......", "Thakkidajam thakkidajam,", "Thakkida thakkida thakkidajam,", "At dusk...the girl, they say, smiled."], "notes": ["`சொக்குப்பொடி` is kept as the concrete image of enchantment-powder."]}
+    ],
+    "translator_notes": ["The source heading combines Tamil and English loanwords; `Commander Party Chorus` is an English display gloss while the exact Tamil heading remains authoritative.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
