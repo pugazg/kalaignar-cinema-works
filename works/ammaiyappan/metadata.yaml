@@ -84,18 +84,24 @@ source_authority:
   song_authorship_inferred_from_story_dialogue_credit: false
 
 transcription_progress:
-  status: not-started
+  status: draft-in-progress
+  transcription_path: "transcription/full-text.md"
+  transcription_readme_path: "transcription/README.md"
+  textual_notes_path: "notes/textual-notes.md"
   first_pass_complete: false
   canonical_pdf_pages: "5-109"
   canonical_logical_printed_pages: "3-107"
   canonical_pages_total: 105
-  first_pass_pages_completed: 0
+  first_pass_pages_completed: 5
+  first_pass_pdf_pages: "5-9"
+  first_pass_logical_printed_pages: "3-7"
   verified_pages: 0
-  draft_pages: 0
+  draft_pages: 5
   review_pages: 0
-  next_pdf_page: 5
-  next_logical_printed_page: 3
-  next_action: "Canonical Tamil first-pass transcription from PDF 5-109 in source order with stable PDF/logical-printed-page anchors; use meaningful batches and preserve exact source forms."
+  open_first_pass_uncertainty_markers: 4
+  next_pdf_page: 10
+  next_logical_printed_page: 8
+  next_action: "Continue canonical Tamil first-pass transcription from PDF 10 / printed p.8 in a meaningful source-order batch with stable page anchors and visible uncertainty markers where the old type remains insecure."
 
 fidelity_audit:
   status: not-started
@@ -118,7 +124,7 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_first_pass: not-started
+  canonical_tamil_first_pass: draft-in-progress-5-of-105
   visual_fidelity_audit: not-started
   scene_derivatives: blocked
   dialogue_index: blocked
@@ -128,4 +134,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Canonical Tamil first-pass transcription from PDF 5-109 in source order with stable PDF/logical-printed-page anchors; followed later by a separate visual fidelity audit before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass transcription from PDF 10 / printed p.8; the full PDF 5-109 first pass must finish before the separate visual fidelity audit and before any structured derivatives."
