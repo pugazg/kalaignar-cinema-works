@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari bilingual-reader/export completion checkpoint.**
+**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari Reading Room payload completion checkpoint.**
 
 ## Current work matrix
 
@@ -20,7 +20,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Tirumbippaar! | 104/104 canonical pages verified | 93/93 scenes / 1,040 dialogue records | 1,321 verified units | reader/export + deterministic EPUB QA PASS |
 | Manohara | 82/82 canonical pages verified | 57/57 scenes / 983 dialogue records | 1,190 verified units | reader/export QA PASS; Reading Room ready |
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
-| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader/export QA PASS; Reading Room payload next |
+| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 
 ## Manthiri Kumari reconciliation checkpoint
@@ -59,12 +59,23 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - reader Tamil/English performance line-cues: **234 / 234**;
 - reader line/cue mismatches: **0**;
 - reader cross-page performance records: **7**;
-- reader preserves 1 confirmed anthology witness / 14 source-only blocks and 0 verified / 15 unresolved item-level lyricists;
+- reader preserves **1 confirmed anthology witness / 14 source-only blocks** and **0 verified / 15 unresolved** item-level lyricists;
 - canonical Tamil changed by reader construction: **no**;
 - synthetic screenplay scene IDs created by reader construction: **0**;
-- Reading Room integration payload: **ready / not-started**.
+- Reading Room integration payload: **complete-verified — QA PASS**;
+- payload mode: **source-linked-composition**;
+- payload path: `works/manthiri-kumari/integrations/reading-room/reading-room.json`;
+- payload source/translation targets: **32**;
+- payload story-summary units: **13**;
+- payload performance blocks / sections / line-cues: **15 / 52 / 234**;
+- payload bytes: **15,704**;
+- payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`;
+- payload QA errors / warnings: **0 / 0**;
+- payload authorship upgrades: **0**;
+- payload synthetic screenplay scene IDs: **0**;
+- Reading Room site application: **not-applied**.
 
-The exact next repository-internal activity is to **prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader**, preserving the booklet's natural story-summary + 15-performance navigation, Tamil/English pairing, PDF-page provenance, source-visible cues, cross-witness disposition and unresolved item-level lyric-authorship state. Site application remains separate and must not be performed from this repository without explicit authorization for the implementation repository.
+There is **no remaining required Manthiri Kumari repository-internal transcription, structured-derivative, translation, reader/export or Reading Room-payload work**. The only downstream action is to apply the verified payload in the separate Kalaignar Digital Library / Reading Room implementation repository when that repository is explicitly authorized for modification. The site must preserve the natural story-summary + 15-performance navigation, source/page provenance, source-visible cues, cross-witness disposition and unresolved item-level lyric-authorship state.
 
 ## Raja Rani final reconciliation
 
@@ -90,4 +101,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The Manthiri Kumari **deterministic bilingual reader/export phase is closed and synchronized**: the complete-verified Tamil and English story-summary/performance structures are exposed through a 16-unit natural-source reader, with QA PASS across 52 performance sections and 234/234 Tamil-English line/cue mappings, no source-authority drift, no synthetic scenes and no authorship upgrades. The next repository-internal phase is Reading Room integration-payload preparation and QA. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
+The Manthiri Kumari **Reading Room payload phase is closed and synchronized**. The source-linked integration payload passes QA with **32 linked source/translation targets, 13 synopsis units, 15 performance blocks, 52 sections and 234 line-cues**, while preserving source/page provenance, the **1 confirmed anthology witness / 14 source-only** disposition, the **0 verified / 15 unresolved** item-level lyric-authorship state, and zero synthetic scenes or authorship upgrades. The committed payload is **15,704 bytes**, SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`. Site application remains **not-applied** and is a separate downstream action requiring explicit authorization for the implementation repository. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining.
