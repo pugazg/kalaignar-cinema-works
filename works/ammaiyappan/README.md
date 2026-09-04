@@ -36,18 +36,19 @@ The detailed occurrence ledger is `notes/scene-heading-audit.md`. The source map
 ## Canonical Tamil first pass — in progress
 
 - canonical range: **PDF 5–109 / 105 pages**;
-- first-pass complete: **PDF 5–74 / logical pp.3–72 — 70/105 pages**;
+- first-pass complete: **PDF 5–84 / logical pp.3–82 — 80/105 pages**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- current first-pass uncertainty markers: **87**;
+- current first-pass uncertainty markers: **97**;
 - older uncertainty ledger through marker 48: `notes/textual-notes.md`;
 - PDF 65–74 supplemental ledger for markers 49–87: `notes/textual-notes-pdf-065-074.md`;
-- next page: **PDF 75 / printed p.73**;
+- PDF 75–84 supplemental ledger for markers 88–97: `notes/textual-notes-pdf-075-084.md`;
+- next page: **PDF 85 / printed p.83**;
 - separate visual fidelity audit: **not-started**.
 
-`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts now hold PDF 15–24, 25–34, 35–44, 45–54, 55–64 and 65–74. These parts must be assembled into `full-text.md` before the whole first pass is closed.
+`transcription/index.json` is the active first-pass progress/assembly authority. `transcription/full-text.md` currently holds the continuous draft through PDF 14; bounded continuation parts now hold PDF 15–24, 25–34, 35–44, 45–54, 55–64, 65–74 and 75–84. These parts must be assembled into `full-text.md` before the whole first pass is closed.
 
-The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`. PDF 55–64 preserves the locked `பழுதார் வீதி` heading and ends inside quoted poetic material. PDF 65–74 continues that material, preserves the verified transitions `கண்ணகி மாளிகை`, `வேங்கையூர் பாசறைச் சிறை`, `தனபதி மாளிகை`, `பாசறை சமையல் கூடம்`, and the second `கண்ணகி மாளிகை`, and is explicitly classified as a **high-uncertainty first-pass draft** with 39 new markers. PDF 74 ends in a sentence continuing onto PDF 75.
+The PDF 35–44 batch received a direct scan reconciliation after its initial draft. In particular, source-visible `தனபதி` labels were restored where the first draft had misread them as `தளபதி`. PDF 55–64 preserves the locked `பழுதார் வீதி` heading and ends inside quoted poetic material. PDF 65–74 continues that material and remains explicitly classified as a **high-uncertainty first-pass draft** with 39 new markers. PDF 75–84 is substantially clearer, preserves the source transitions `தனபதி மாளிகை`, `அஞ்சல் மனை`, `பலதேவர் மாளிகை`, `தனவணிகர் வீடு`, and `அடைக்கலபுரி தேவாலயம்`, and adds 10 marked readings for later glyph review.
 
 ## Current status
 
@@ -58,7 +59,7 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 | Whole-scan inspection | complete — 111/111 pages |
 | Structural mapping | **verified** |
 | Source-numbered scenes | not applicable — none printed |
-| Canonical Tamil first pass | **draft-in-progress — 70/105 pages** |
+| Canonical Tamil first pass | **draft-in-progress — 80/105 pages** |
 | Visual fidelity audit | not-started |
 | Scene-text derivatives | blocked pending verified Tamil |
 | Dialogue index | blocked pending verified Tamil |
@@ -80,4 +81,4 @@ The PDF 35–44 batch received a direct scan reconciliation after its initial dr
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription from PDF 75 / printed p.73 in a meaningful source-order batch with stable page anchors. Preserve the cross-page continuation from PDF 74 and uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
+**Continue canonical Tamil first-pass transcription from PDF 85 / printed p.83 in a meaningful source-order batch with stable page anchors. Preserve uncertain old-type readings visibly rather than guessing. Do not begin scene/dialogue derivatives until the complete first pass has been assembled and is followed by a separate full visual fidelity audit.**
