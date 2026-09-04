@@ -1,0 +1,37 @@
+{
+  "work_id": "manthiri-kumari",
+  "layer": "story-summary",
+  "status": "complete-verified",
+  "source": {
+    "filename": "TVA_BOK_0026144_மந்திரி_குமாரி.pdf",
+    "sha256": "a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee",
+    "pdf_pages": [3, 4, 5],
+    "printed_page_by_pdf": {
+      "3": null,
+      "4": 3,
+      "5": 4
+    }
+  },
+  "canonical_source_path": "works/manthiri-kumari/transcription/full-text.md",
+  "derivative_path": "works/manthiri-kumari/story-summary/full-text.md",
+  "records": [
+    {
+      "id": "manthiri-kumari-story-summary-001",
+      "title_ta": "“மந்திரி குமாரி”—கதைச்சுருக்கம்",
+      "structure": "continuous-prose",
+      "source_pdf_pages": [3, 4, 5],
+      "source_printed_pages_observed": [3, 4],
+      "status": "complete-verified",
+      "screenplay_scene_identity": null,
+      "immutable_dialogue_records": false
+    }
+  ],
+  "qa": {
+    "record_count": 1,
+    "source_pdf_page_count": 3,
+    "scene_ids_created": 0,
+    "dialogue_ids_created": 0,
+    "canonical_text_authority_changed": false
+  },
+  "next_action": "Create source-linked structured records for all 15 PDF 6-13 song/performance blocks while preserving exact source headings, தொகையறா/பாட்டு subdivisions, current cross-witness dispositions, and unresolved item-level lyric authorship unless separately evidenced."
+}
