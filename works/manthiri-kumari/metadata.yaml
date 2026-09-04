@@ -154,10 +154,33 @@ structured_derivatives:
     authorship_upgrades: 0
     canonical_tamil_changed: false
     synthetic_scene_ids_created: 0
+  bilingual_reader_export:
+    status: complete-verified
+    directory: "works/manthiri-kumari/editions/bilingual/"
+    composition_path: "works/manthiri-kumari/editions/bilingual/reader-edition.json"
+    markdown_path: "works/manthiri-kumari/editions/bilingual/reader-edition.md"
+    html_path: "works/manthiri-kumari/editions/bilingual/reader-edition.html"
+    preflight_path: "works/manthiri-kumari/editions/bilingual/PREFLIGHT_QA_REPORT.md"
+    qa_path: "works/manthiri-kumari/editions/bilingual/QA_REPORT.md"
+    manifest_path: "works/manthiri-kumari/editions/bilingual/manifest.json"
+    validator_path: "works/manthiri-kumari/editions/bilingual/build.py"
+    navigation_model: story-summary-plus-performance-blocks
+    top_level_source_units: 16
+    story_summary_logical_units: 13
+    performance_records: 15
+    performance_sections: 52
+    tamil_line_cues: 234
+    english_line_cues: 234
+    line_mapping_mismatches: 0
+    cross_page_performance_records: [2, 4, 6, 7, 9, 11, 13]
+    item_level_lyric_authorship_verified: 0
+    item_level_lyric_authorship_unresolved: 15
+    synthetic_scene_ids_created: 0
+    canonical_tamil_changed: false
+    qa: PASS
   scene_index: not-applicable-from-this-source
   dialogue_index: not-applicable-from-this-source
-  reader_export: ready-not-started
-  reading_room_integration: blocked-pending-reader-export
+  reading_room_integration: ready-not-started
 
 status:
   duplicate_work_check: complete
@@ -177,7 +200,7 @@ status:
   scene_derivatives: not-applicable-from-this-source
   dialogue_index: not-applicable-from-this-source
   english_translation: complete-verified
-  reader_export: ready-not-started
-  reading_room_integration: blocked-pending-reader-export
+  reader_export: complete-verified
+  reading_room_integration: ready-not-started
 
-next_action: "Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures. Preserve natural booklet navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes."
+next_action: "Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader. Preserve story-summary plus 15-performance navigation, Tamil/English pairing, page provenance, source-visible cues, current cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes or upgrade authorship through presentation metadata."
