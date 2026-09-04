@@ -1,0 +1,32 @@
+{
+  "id": "manthiri-kumari-performance-001",
+  "sequence": 1,
+  "heading_ta": "தர்பார் நடனம்",
+  "occurrence_kind": "dance-performance",
+  "source_status": "complete-verified",
+  "pdf_pages": [6],
+  "printed_pages_observed": [],
+  "canonical_source_file": "../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 6,
+      "printed_page": null,
+      "text_ta": "ஆதவன் உதித்தான்; தாமரை மலர்ந்தது!\nகாதலில் கலந்தது இரண்டும்!\nமாமலர் நாடி மகிழ்வுடனே\nமதுவுண்டு வண்டுகள் திரிவதைப்பார்!\n\nஆடுதே அழகாய்! அழகாய் ஆடுதே!\nஆரண்ய மீதினிலே மாமயில்கள் கூட்டமாய்\nஅகம் மிகக்களித்தே நடம்புரியும் எழில் பாரிதோ\nஅழகுறு தோகையும் விரித்தாடுது ஒயிலாகவே\nஆனந்தம் கொண்டேதான் கார்முகில் காணவே\nஅமைவுடன் சீர்பதம் பெயர்ந்தாடு மின்பக்காட்சி பார்!\nகான தனில் வாழும் மடமான்களினமே\nகாண அழகாக மிக சிங்காரமாய்\nகண்கவர் மருண்ட விழிப்பார்வையுடனே\nஒன்றாகவே துள்ளி உல்லாசமாய்\nஓடி விளையாடுகிற காட்சிதனைப்பார்!\nஏர் கலப்பை தோளிலேந்திய—உழவோர்\nஎருதை ஒட்டிக்கொண்டேதான்\nஏகிடும் காட்சி பார்!\nகஞ்சி கொண்டுபோகும் பெண்டீரும்—பயிர் வாழவே\nகழனியில் வேலை செய்வோரும்—அந்திப்போதிலே\nசேர்ந்து கைவீசியே திரும்பிடும் காட்சிதனைப்பார்"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": [],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Single-page dance/performance block."
+}
