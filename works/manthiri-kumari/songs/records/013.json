@@ -1,0 +1,37 @@
+{
+  "id": "manthiri-kumari-performance-013",
+  "sequence": 13,
+  "heading_ta": "பார்த்திபன்—மந்திரிகுமாரி",
+  "occurrence_kind": "labelled-duet",
+  "source_status": "complete-verified",
+  "pdf_pages": [12, 13],
+  "printed_pages_observed": [11, 12],
+  "canonical_source_file": "../../transcription/full-text.md",
+  "source_segments": [
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "text_ta": "பார்த்திபன்: வாராய் நீ வாராய்\nபோகுமிடம் வெகுதூரமில்லை நீ வாராய்\n\nஅமுதவல்லி: ஆஹா! மாருதம் வீசுவதாலே\nஆனந்தம் பொங்குதே மனதிலே!\n\nபார்த்திபன்: இதனிலும் ஆனந்தம் அடைந்தே இயற்கையில்\nகலந்துயிர் விண்ணினைக் காண்பாய் அங்கே வாராய்\n\nஅமுதவல்லி: அமைதி நிலவுதே சாந்தம் தவழுதே!\nஅழிவில்லா மோனநிலை சூழுதே!"
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "text_ta": "பார்த்திபன்: முடிவில்லா மோன நிலையை நீ—மலை\nமுடிவில் காணுவாய் வாராய்\n\nஅமுதவல்லி: ஈடில்லா அழகை சிகரமீதிலே\nகண்டு இன்பமே கொள்வோம்!\n\nபார்த்திபன்: இன்பமும் அடைந்தே இகம் மறந்தே\nவேறுலகம் காணுவாய் அங்கே!\nவாராய் நீ வாராய்\nபுலியெனத் தொடர்ந்தே புதுமான் நீயே வாராய்"
+    }
+  ],
+  "source_visible_subdivisions": [],
+  "source_visible_labels": ["பார்த்திபன்", "அமுதவல்லி"],
+  "cross_witness": {
+    "status": "source-only-in-current-anthology",
+    "anthology_record_id": null,
+    "evidence_reference": "../cross-witness-comparison.md"
+  },
+  "authorship": {
+    "status": "unresolved",
+    "lyricist_ta": null,
+    "evidence_basis": "none",
+    "evidence_reference": "../AUTHORSHIP_GATE.md",
+    "notes": "The booklet's film-wide `கதை, வசனம் : மு. கருணாநிதி` credit does not establish item-level lyric authorship for this block. Preserve unresolved unless separately evidenced."
+  },
+  "notes": "Cross-page labelled duet; the printed heading is preserved exactly even though the body labels the female voice as அமுதவல்லி."
+}
