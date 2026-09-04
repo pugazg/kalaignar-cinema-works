@@ -1,0 +1,23 @@
+{
+  "id": "manthiri-kumari-performance-en-001",
+  "source_performance_id": "manthiri-kumari-performance-001",
+  "sequence": 1,
+  "heading_ta": "தர்பார் நடனம்",
+  "heading_en": "Durbar Dance",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/001.json", "tamil_status": "complete-verified", "pdf_pages": [6], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [{
+      "ordinal": 1,
+      "source_label": null,
+      "english_label": null,
+      "source_pdf_pages": [6],
+      "source_tamil_lines": ["ஆதவன் உதித்தான்; தாமரை மலர்ந்தது!", "காதலில் கலந்தது இரண்டும்!", "மாமலர் நாடி மகிழ்வுடனே", "மதுவுண்டு வண்டுகள் திரிவதைப்பார்!", "ஆடுதே அழகாய்! அழகாய் ஆடுதே!", "ஆரண்ய மீதினிலே மாமயில்கள் கூட்டமாய்", "அகம் மிகக்களித்தே நடம்புரியும் எழில் பாரிதோ", "அழகுறு தோகையும் விரித்தாடுது ஒயிலாகவே", "ஆனந்தம் கொண்டேதான் கார்முகில் காணவே", "அமைவுடன் சீர்பதம் பெயர்ந்தாடு மின்பக்காட்சி பார்!", "கான தனில் வாழும் மடமான்களினமே", "காண அழகாக மிக சிங்காரமாய்", "கண்கவர் மருண்ட விழிப்பார்வையுடனே", "ஒன்றாகவே துள்ளி உல்லாசமாய்", "ஓடி விளையாடுகிற காட்சிதனைப்பார்!", "ஏர் கலப்பை தோளிலேந்திய—உழவோர்", "எருதை ஒட்டிக்கொண்டேதான்", "ஏகிடும் காட்சி பார்!", "கஞ்சி கொண்டுபோகும் பெண்டீரும்—பயிர் வாழவே", "கழனியில் வேலை செய்வோரும்—அந்திப்போதிலே", "சேர்ந்து கைவீசியே திரும்பிடும் காட்சிதனைப்பார்"],
+      "english_lines": ["The sun has risen; the lotus has bloomed!", "The two have mingled in love!", "Seeking the great flower, in delight,", "See the bees roam after drinking nectar!", "It dances beautifully! Beautifully it dances!", "Upon the forest ground, great peacocks gather in flocks,", "Their hearts brimming with joy—see the beauty of their dance!", "Their lovely plumage spreads as they dance with graceful sway,", "Filled with delight at the sight of the dark rain-cloud,", "See the sweet spectacle of measured steps unfolding in dance!", "The herds of shy deer that live in the forest,", "So lovely to behold, so full of charm,", "With captivating, startled-eyed glances,", "Leaping together in carefree joy,", "See the sight of them running and playing!", "Farmers with ploughs borne upon their shoulders—", "Driving their oxen along,", "See them go!", "Women carrying gruel—so that the crop may thrive,", "And those who work in the fields—at dusk,", "See them return together, arms swinging as they walk!"],
+      "notes": ["The nature-and-labour image sequence is kept concrete rather than condensed into a general pastoral summary."]
+    }],
+    "translator_notes": ["`தர்பார்` is rendered as the established loanword `Durbar`; this is a source-faithful literary translation, not a singable adaptation.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
