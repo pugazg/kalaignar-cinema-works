@@ -79,27 +79,12 @@ The PDF **6–13** source-linked performance layer is **complete-verified**:
 
 ## English translation checkpoint
 
-The source-linked English layer under `translations/` is now **complete-verified**.
+The source-linked English layer under `translations/` is **complete-verified — QA PASS**.
 
-### Story summary English
-
-- record: `translations/story-summary.json`;
-- schema: `translations/story-summary.schema.json`;
-- translated records: **1/1**;
-- logical prose units: **13**;
-- cross-page prose units: **1**;
-- translation mode: `semantic-source-faithful-prose`.
-
-### Performance English
-
-- records: `translations/performances/001.json` through `015.json`;
-- schema: `translations/performance.schema.json`;
-- index: `translations/index.json`;
-- final QA: `translations/FINAL_TRANSLATION_QA.md`;
-- translated performance records: **15/15**;
-- translation sections: **52**;
-- Tamil source lines/cues mapped: **234**;
-- English lines/cues mapped: **234**;
+- story-summary translation: **1/1**, **13** logical prose units, **1** cross-page unit;
+- performance translation records: **15/15**;
+- performance sections: **52**;
+- Tamil / English performance lines-cues: **234 / 234**;
 - mapping mismatches: **0**;
 - cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
 - authorship upgrades caused by translation: **0**;
@@ -108,6 +93,36 @@ The source-linked English layer under `translations/` is now **complete-verified
 - synthetic screenplay scene IDs created: **0**.
 
 The English layer preserves source-visible cues and structural labels rather than flattening them. Performance 13 also preserves the source mismatch between the printed heading `பார்த்திபன்—மந்திரிகுமாரி` and its internal turn labels `பார்த்திபன்` / `அமுதவல்லி`.
+
+## Bilingual reader/export checkpoint
+
+The deterministic source-linked reader under `editions/bilingual/` is **complete-verified — QA PASS**.
+
+- navigation model: **story summary + 15 performance blocks**;
+- top-level source structures: **16/16**;
+- story-summary logical units: **13/13**;
+- performance records: **15/15**;
+- performance sections: **52/52**;
+- Tamil / English performance line-cues: **234 / 234**;
+- line-pair mismatches: **0**;
+- cross-page performance records retained: **7/7**;
+- current-anthology witness disposition retained: **1 confirmed / 14 source-only**;
+- item-level lyric authorship retained: **0 verified / 15 unresolved**;
+- synthetic screenplay scene IDs introduced: **0**;
+- canonical Tamil changed by reader/export: **no**;
+- reader QA: **PASS**.
+
+Reader files:
+
+- `editions/bilingual/reader-edition.json` — machine composition authority;
+- `editions/bilingual/reader-edition.md` — human-readable source-order index;
+- `editions/bilingual/reader-edition.html` — source-linked bilingual HTML renderer;
+- `editions/bilingual/PREFLIGHT_QA_REPORT.md`;
+- `editions/bilingual/QA_REPORT.md`;
+- `editions/bilingual/manifest.json`;
+- `editions/bilingual/build.py` — deterministic validation gate.
+
+The reader remains source-linked to the verified translation records rather than creating another independent textual authority.
 
 ## Current status
 
@@ -124,10 +139,10 @@ The English layer preserves source-visible cues and structural labels rather tha
 - song cross-witness comparison: **complete**;
 - song booklet-evidence authorship gate: **complete-with-unresolved-item-authorship — 15 unresolved**;
 - English translation: **complete-verified**;
-- reader/export: **ready / not-started**;
-- Reading Room integration: **blocked pending reader/export QA**;
+- bilingual reader/export: **complete-verified — QA PASS**;
+- Reading Room integration: **ready / not-started**;
 - scene/dialogue full-work derivatives: **not applicable from this source**.
 
 ## Exact next activity
 
-> **Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance structures. Preserve the booklet's natural `கதைச்சுருக்கம்` + performance navigation, Tamil/English pairing, page provenance, source-visible cues, cross-witness dispositions and unresolved item-level lyric authorship. Do not invent screenplay scenes.**
+> **Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader. Preserve the booklet's natural `கதைச்சுருக்கம்` + 15-performance navigation, Tamil/English pairing, source/page provenance, source-visible cues, the 1/15 current-anthology witness disposition and the 0 verified / 15 unresolved item-level lyric-authorship state. Do not invent screenplay scenes or upgrade authorship through presentation metadata.**
