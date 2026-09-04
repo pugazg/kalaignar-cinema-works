@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari post-fidelity/correction checkpoint.**
+**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari story-summary completion checkpoint.**
 
 ## Current work matrix
 
@@ -20,7 +20,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Tirumbippaar! | 104/104 canonical pages verified | 93/93 scenes / 1,040 dialogue records | 1,321 verified units | reader/export + deterministic EPUB QA PASS |
 | Manohara | 82/82 canonical pages verified | 57/57 scenes / 983 dialogue records | 1,190 verified units | reader/export QA PASS; Reading Room ready |
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
-| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits complete-verified; story-summary derivative initialized; 15/15 performance blocks inventoried/cross-witness classified | blocked pending source-appropriate Tamil derivatives | next: continuous PDF 3–5 story-summary derivative |
+| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits complete-verified; PDF 3–5 story summary complete-verified as 1 continuous record; 15/15 performance blocks inventoried/cross-witness classified | blocked pending 15 source-linked performance records | next: 15 PDF 6–13 source-linked performance records |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 
 ## Manthiri Kumari reconciliation checkpoint
@@ -34,15 +34,15 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - source subdivision form: **`தொகையறா`** where applicable;
 - affected existing downstream performance/cross-witness surfaces: **reconciled**;
 - credits layer: **complete-verified**;
-- story-summary derivative: **initialized; completion pending**;
+- story-summary derivative: **complete-verified — PDF 3–5 / 3 source pages / 1 continuous record / 0 synthetic scene IDs / 0 immutable dialogue IDs**;
 - performance inventory: **15/15 complete**;
 - current anthology relationship: **1 confirmed existing witness / 14 source-only blocks**;
 - item-level lyric authorship verified from this booklet: **0/15**;
-- source-linked structured performance records: **not-started**;
+- source-linked structured performance records: **not-started — 0/15**;
 - scene/dialogue full-work model: **not applicable from this booklet**;
-- English translation: **blocked until the source-appropriate Tamil derivative structures are complete**.
+- English translation: **blocked until the 15 source-linked performance records are complete**.
 
-The exact next source-processing activity is the **continuous source-linked PDF 3–5 `கதைச்சுருக்கம்` derivative**, preserving PDF-page provenance and prose structure without manufacturing screenplay scenes or immutable dialogue records.
+The exact next source-processing activity is to **create source-linked structured records for all 15 PDF 6–13 song/performance blocks**, preserving exact source headings, PDF-page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the existing cross-witness dispositions and unresolved item-level lyric authorship unless separately evidenced.
 
 ## Raja Rani final reconciliation
 
@@ -54,7 +54,7 @@ The exact next source-processing activity is the **continuous source-linked PDF 
 - screenplay English: **58/58 scenes / 1,236 units / 1,071 links**;
 - numbered-song English: **11/11 / 67 sections / 181 Tamil-English line-cues**;
 - deterministic bilingual reader/export: **QA PASS** over **200 authoritative inputs**;
-- reader Markdown SHA-256: `6437a0a39cebbaf17f76f7aef6f9f62eb3c4abbd07864974d47be20902c8`;
+- reader Markdown SHA-256: `6437a0a39cebbaf17ab63f76f7aef6f9f62eb3c4abbd07864974d47be20902c8`;
 - reader HTML SHA-256: `c24ea9ab0f1ee77b3bc795b3134e4ad8bed78f00d6a8f896f9749052ff074ec6`;
 - reader JSON SHA-256: `76827d570f3079c04463e3142a9edf32f35c1497e2b820bfa467f8203d7441e2`;
 - Reading Room payload: **QA PASS**, **974,510 bytes**, SHA-256 `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`;
@@ -68,4 +68,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The prior Manthiri Kumari “Tamil first pass not started / derivatives blocked” status is obsolete. Current active mirrors now recognize the verified/corrected canonical Tamil checkpoint and route continuation to the PDF 3–5 story-summary derivative. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
+The Manthiri Kumari canonical Tamil and continuous PDF 3–5 story-summary phases are now closed and synchronized across active work-local and repository-wide status mirrors. The next repository-internal activity is the 15-record PDF 6–13 song/performance structured layer. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
