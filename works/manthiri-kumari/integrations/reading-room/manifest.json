@@ -25,8 +25,8 @@
   },
   "payload": {
     "path": "works/manthiri-kumari/integrations/reading-room/reading-room.json",
-    "bytes": 16061,
-    "sha256": "2d4f0071b0faf463699255c29d10ae0c734a2d367c581ad469987a6a2f2bbb3d"
+    "bytes": 15704,
+    "sha256": "20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43"
   },
   "site_application_status": "not-applied"
 }
