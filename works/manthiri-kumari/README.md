@@ -2,7 +2,7 @@
 
 Source-led archival work for the supplied film booklet **`மந்திரி குமாரி`**.
 
-This source is **not a full screenplay/dialogue book**. It is a compact film booklet containing production/cast credits, a prose `கதைச்சுருக்கம்`, and a substantial printed song/performance section. It must therefore be archived according to the structures the booklet actually prints rather than forced into a scene-based screenplay model.
+This source is **not a full screenplay/dialogue book**. It is a compact film booklet containing production/cast credits, a prose `கதைச்சுருக்கம்`, and a substantial printed song/performance section. It is archived according to the structures the booklet actually prints rather than forced into a scene-based screenplay model.
 
 ## Source
 
@@ -22,34 +22,86 @@ PDF creation metadata is scan metadata only and is not used as publication evide
 
 - PDF 1: illustrated cover;
 - PDF 2: cast, dance, music/playback and production credits;
-- PDF 3–5: **`"மந்திரி குமாரி"—கதைச்சுருக்கம்`** — prose story summary;
-- PDF 6–13: **`மந்திரி குமாரி—பாடல்கள்`** — **15** separately headed song/performance blocks, including dance, chorus, character-pair and `தொகையறு`/`பாட்டு` structures;
-- PDF 14: unrelated back-cover advertisement for **`அமரகவி`** — preserve as paratext/source evidence, exclude from canonical `மந்திரி குமாரி` work text.
+- PDF 3–5: **`"மந்திரி குமாரி"—கதைச்சுருக்கம்`** — continuous prose story summary;
+- PDF 6–13: **`மந்திரி குமாரி—பாடல்கள்`** — **15** separately headed song/performance blocks, including dance, chorus, character-pair and `தொகையறா`/`பாட்டு` structures;
+- PDF 14: unrelated back-cover advertisement for **`அமரகவி`** — preserved as paratext/source evidence and excluded from canonical `மந்திரி குமாரி` work text.
 
 There is **no source scene-numbering system** and this booklet does not provide a full dialogue screenplay. Do not manufacture `scenes/` or a film-wide dialogue index from the prose synopsis.
 
 See `mapping.md` for the whole-source map and the exact 15-block heading sequence.
 
-## Source relationship to the existing song anthology
+## Canonical Tamil checkpoint
 
-The repository already contains a later compiled `கலைஞர் திரை இசைப் பாடல்கள்` corpus. This film-specific booklet can later be used as an **independent earlier source witness** for Mandhiri Kumari material. Existing song records must not be duplicated merely because this booklet prints an earlier or differently segmented witness.
+Canonical source-order Tamil for PDF **2–13** is stored in:
 
-Cross-witness comparison is deliberately blocked until this booklet's Tamil text has completed first-pass transcription and a separate visual fidelity audit.
+`transcription/full-text.md`
+
+Current source status:
+
+- canonical Tamil first pass: **complete — PDF 2–13**;
+- visual fidelity audit: **complete-verified — 12/12 canonical PDF pages**;
+- canonical page anchors: **12/12 verified**;
+- unresolved canonical readings: **0**;
+- post-fidelity user scan review: **recorded and applied**;
+- later user-approved lexical/spelling campaign across the song/performance section: **applied and reconciled**;
+- source subdivision form: **`தொகையறா`** wherever printed/applicable in this work.
+
+The initial audit history is retained in `notes/fidelity-audit.md`. Subsequent source-reviewed corrections are recorded in `notes/post-fidelity-corrections.md`. These later corrections refine verified canonical readings; they do not authorize normalization from OCR, film audio, web text or the later anthology.
+
+## Source-derived layers
+
+### Credits
+
+`credits/credits.yaml` is **complete-verified from PDF 2** for the source-supported credit boundary:
+
+- `கதை, வசனம் : மு. கருணாநிதி` — primary-source verified for story/dialogue;
+- item-level lyric authorship — **not assigned from the film-wide credit**.
+
+### Story summary
+
+`story-summary/` is initialized for the continuous PDF **3–5** prose `கதைச்சுருக்கம்`.
+
+- canonical Tamil beneath it: **verified**;
+- structured/source-linked derivative: **pending completion**;
+- screenplay-scene conversion: **not applicable**;
+- immutable dialogue extraction from reported speech: **not applicable**.
+
+### Songs / performances
+
+The booklet prints **15** separately headed source blocks across PDF **6–13**.
+
+- performance inventory: **15/15 classified**;
+- exact heading reconciliation: **complete**;
+- later-anthology cross-witness classification: **complete**;
+- confirmed existing anthology witness: **1/15** — `மாட்டுக்கார பையன்` ↔ `kalaignar-song-001` / `ஊருக்கு உழைப்பவண்டி`;
+- source-only blocks in the current 54-song anthology corpus: **14/15**;
+- duplicate parent anthology records created: **0**;
+- existing parent anthology lyrics modified: **0**;
+- block-11 line-level witness report: **reconciled after the user-approved lexical corrections**;
+- item-level lyric authorship verified from this booklet: **0/15**;
+- performance blocks requiring separate item-level evidence: **15/15**.
+
+`source-only` means only that no corresponding record is present in the current anthology corpus; it is not a positive or negative lyric-authorship verdict.
 
 ## Current status
 
-- duplicate-work check: **complete — no existing `manthiri-kumari` work tree found**;
+- duplicate-work check: **complete**;
 - source intake: **complete**;
 - whole-scan inspection: **complete, 14/14 pages**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **not-started**;
-- visual fidelity audit: **not-started**;
-- credits/cast derivative: **blocked until verified Tamil**;
-- story-summary derivative/translation: **blocked until verified Tamil**;
-- song/performance inventory and cross-witness comparison: **blocked until verified Tamil**;
+- canonical Tamil: **complete-verified, PDF 2–13**;
+- visual fidelity audit: **complete**;
+- post-fidelity correction reconciliation: **complete for currently existing affected derivatives**;
+- credits/cast derivative: **complete-verified**;
+- story-summary derivative: **initialized; completion pending**;
+- song/performance inventory: **15/15 complete**;
+- song cross-witness comparison: **complete**;
+- song item-level authorship gate: **initialized; 15 pending separate evidence**;
+- source-linked structured records for all 15 performance blocks: **not-started**;
 - scene/dialogue derivatives: **not applicable from this source as a full-work model**;
-- English translation / reader integration: **blocked**.
+- English translation: **blocked until the source-appropriate Tamil derivative structures are complete**;
+- reader/export and Reading Room integration: **blocked downstream**.
 
 ## Exact next activity
 
-> **Canonical Tamil first-pass transcription of PDF 2–13 from the rendered scan, in source order, with stable page anchors. Preserve PDF 1 and PDF 14 separately as cover/back-cover paratext. After the first pass, perform a separate full visual fidelity audit before creating credits, story-summary, song/performance, translation or Reading Room derivatives.**
+> **Complete the source-linked continuous PDF 3–5 `கதைச்சுருக்கம்` derivative from the verified canonical Tamil, preserving PDF-page provenance and the booklet's prose structure. Do not manufacture screenplay scenes or immutable dialogue records. After that, create source-linked structured records for all 15 PDF 6–13 song/performance blocks while preserving the existing cautious authorship and cross-witness dispositions.**
