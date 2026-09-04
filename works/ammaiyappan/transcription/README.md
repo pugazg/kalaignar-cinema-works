@@ -8,13 +8,13 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
 - canonical pages expected: **105**;
-- first-pass pages completed: **90 / 105**;
-- completed range: **PDF 5–94 / logical pp.3–92**;
+- first-pass pages completed: **100 / 105**;
+- completed range: **PDF 5–104 / logical pp.3–102**;
 - current state of completed pages: **draft**;
 - verified pages: **0**;
 - review pages: **0**;
-- open first-pass uncertain readings: **107**;
-- next source page: **PDF 95 / printed p.93**;
+- open first-pass uncertain readings: **114**;
+- next source page: **PDF 105 / printed p.103**;
 - full visual fidelity audit: **not-started**.
 
 PDF 5 has no visible printed folio. Its anchor therefore records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
@@ -24,15 +24,10 @@ PDF 5 has no visible printed folio. Its anchor therefore records `logical_printe
 `index.json` is the active progress/assembly authority while the first pass is growing.
 
 - `full-text.md` currently contains the assembled continuous draft through **PDF 14**;
-- `parts/pdf-015-024.md` contains **PDF 15–24**;
-- `parts/pdf-025-034.md` contains **PDF 25–34**;
-- `parts/pdf-035-044.md` contains **PDF 35–44**;
-- `parts/pdf-045-054.md` contains **PDF 45–54**;
-- `parts/pdf-055-064.md` contains **PDF 55–64**;
-- `parts/pdf-065-074.md` contains **PDF 65–74** and is explicitly marked `draft-high-uncertainty` in the index;
-- `parts/pdf-075-084.md` contains **PDF 75–84**;
-- `parts/pdf-085-094.md` contains **PDF 85–94**;
-- before the full PDF 5–109 first pass is declared complete, all bounded part files must be assembled into `full-text.md` in exact source order and checked for boundary loss/duplication.
+- bounded parts contain **PDF 15–104** in consecutive source-order batches;
+- the newest part is `parts/pdf-095-104.md`;
+- `parts/pdf-065-074.md` remains explicitly `draft-high-uncertainty` in the index;
+- before the full PDF 5–109 first pass is declared complete, every bounded part must be assembled into `full-text.md` in exact source order and checked for boundary loss/duplication.
 
 This temporary part-file workflow avoids repeatedly rewriting an increasingly large canonical draft while preserving stable page provenance.
 
@@ -45,70 +40,24 @@ This temporary part-file workflow avoids repeatedly rewriting an increasingly la
 - user-reviewed scan verdicts remain locked occurrence-by-occurrence;
 - no scene/dialogue/character derivative work until the whole canonical range has subsequently passed the separate fidelity audit.
 
-## Batch 1 — PDF 5–9
+## Batch status
 
-Status: **draft complete for this batch**.
+- Batch 1 — PDF 5–9: draft complete.
+- Batch 2 — PDF 10–14: draft complete.
+- Batch 3 — PDF 15–24: draft complete; stored in `parts/pdf-015-024.md`.
+- Batch 4 — PDF 25–34: draft complete; stored in `parts/pdf-025-034.md`.
+- Batch 5 — PDF 35–44: draft complete after direct scan reconciliation; `தனபதி` restored where initially misread as `தளபதி`.
+- Batch 6 — PDF 45–54: draft complete.
+- Batch 7 — PDF 55–64: draft complete; preserves locked `பழுதார் வீதி` and the PDF 64→65 quoted-poetry boundary.
+- Batch 8 — PDF 65–74: coverage complete, **high uncertainty**; 39 batch markers.
+- Batch 9 — PDF 75–84: draft complete; 10 batch markers.
+- Batch 10 — PDF 85–94: draft complete; 10 batch markers; preserves source-visible transition sequence beyond the narrower intake inventory.
+- Batch 11 — PDF 95–104: draft complete; stored in `parts/pdf-095-104.md`; 7 batch markers numbered **108–114** in `../notes/textual-notes-pdf-095-104.md`.
 
-## Batch 2 — PDF 10–14
-
-Status: **draft complete for this batch**.
-
-This batch preserves the source headings `மாடம்`, `குதிரைக் கொட்டடி` and `வாள் பயிற்சிக் கூடம்`, plus page-boundary continuation of Maykainathar's speech from PDF 10 into PDF 11.
-
-## Batch 3 — PDF 15–24
-
-Status: **draft complete for this batch**.
-
-Stored in `parts/pdf-015-024.md`. The batch preserves the source transitions `சுகதேவன் அறை`, `திரிசங்கு வீட்டின் கொல்லைப்புறம்`, `பலதேவர் மாளிகை` and `ஆற்றங்கரை`, plus the source-visible cross-page split in Sukhadev's line from PDF 19 (`...அதா`) to PDF 20 (`வது காதல்...`).
-
-## Batch 4 — PDF 25–34
-
-Status: **draft complete for this batch**.
-
-Stored in `parts/pdf-025-034.md`. The batch preserves the source transitions `தென்றல் மாளிகை`, `பலதேவர் மாளிகை`, `குதிரைக் கொட்டடி`, `பூங்காவனம் அறை`, `திரிசங்கு வீடு` and `அஞ்சல் மனை`. Eight new glyph-sensitive/phrase readings remain visibly marked rather than guessed.
-
-## Batch 5 — PDF 35–44
-
-Status: **draft complete for this batch after scan reconciliation**.
-
-Stored in `parts/pdf-035-044.md`. The batch preserves the transitions `மடாலயம்`, `அஞ்சல் மனை`, `தென்றல் மாளிகை` and `ஆற்றங்கரை சோலையோரம்`. Direct scan reconciliation restored the source-visible `தனபதி` label where the initial draft had incorrectly read `தளபதி`; five new uncertain spans remain explicitly marked.
-
-## Batch 6 — PDF 45–54
-
-Status: **draft complete for this batch**.
-
-Stored in `parts/pdf-045-054.md`. The batch preserves the source transitions `தென்றல் மாளிகை`, `தோட்டம்`, `அஞ்சல் மனை` and the return to `தென்றல் மாளிகை`. Fifteen new glyph-sensitive spans remain visibly marked rather than being reconstructed from semantic expectation.
-
-## Batch 7 — PDF 55–64
-
-Status: **draft complete for this batch**.
-
-Stored in `parts/pdf-055-064.md`. The batch preserves the source transitions `பழுதார் வீதி`, `திரிசங்கு வீடு`, `சுகதேவன் மாளிகை` and `பாசறை சமையல் கூடம்`. The locked intake reading `பழுதார் வீதி` is retained exactly. Nine new glyph-sensitive spans remain explicitly marked, including the quoted poetic material on PDF 64; its final marked fragment continues across the boundary into PDF 65.
-
-## Batch 8 — PDF 65–74
-
-Status: **draft complete for coverage, high uncertainty**.
-
-Stored in `parts/pdf-065-074.md`. The batch preserves the verified structural transitions `கண்ணகி மாளிகை`, `வேங்கையூர் பாசறைச் சிறை`, `தனபதி மாளிகை`, `பாசறை சமையல் கூடம்` and the second `கண்ணகி மாளிகை`. It continues the quoted poetic material from PDF 64 and preserves the source-order boundary into PDF 75.
-
-This batch required **39 new explicit uncertainty markers** because of dense old type, fast dialogue and a difficult quoted poetic continuation. Their batch-specific ledger is `../notes/textual-notes-pdf-065-074.md`; the older cumulative ledger through marker 48 remains `../notes/textual-notes.md`. No external literary text, film dialogue or semantic reconstruction was used to close those spans.
-
-## Batch 9 — PDF 75–84
-
-Status: **draft complete for this batch**.
-
-Stored in `parts/pdf-075-084.md`. The batch preserves the source-visible transitions through `தனபதி மாளிகை`, `அஞ்சல் மனை`, `பலதேவர் மாளிகை`, `தனவணிகர் வீடு` and `அடைக்கலபுரி தேவாலயம்`. It required **10 new uncertainty markers**, numbered 88–97 in `../notes/textual-notes-pdf-075-084.md`; most prose/dialogue on these pages is directly legible from the rendered scan.
-
-## Batch 10 — PDF 85–94
-
-Status: **draft complete for this batch**.
-
-Stored in `parts/pdf-085-094.md`. This batch preserves the dense source-visible transition sequence `கூடாரம்`, `மண்டபம்`, `ஊரின் வெளிப்புறம்`, `அதே சமயம்`, `தனவணிகர் வீடு`, `சுமதி வீடு`, `வீட்டிற்குள்`, `வேதாளத்தின் ஆசிரமம்`, `சத்திரத்திற்குள்`, the second `சுமதி வீடு`, `கோவில் மண்டபம்`, `சத்திரம்`, and `வெளியே`. The first-pass transcription follows the rendered pages themselves even where the intake structural ledger uses a narrower transition inventory.
-
-This batch required **10 new uncertainty markers**, numbered 98–107 in `../notes/textual-notes-pdf-085-094.md`. Most dialogue is directly legible; uncertainty is confined to a handful of old-type compounds, action wording, and politically/punning phrased spans.
+Batch 11 includes the source transitions `பாழ் மண்டபம்`, `வேங்கை நாட்டு அவைக்கூடம்`, `பூங்காவனம் அறை`, `முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்`, `சுமதி வீடு`, and `சிறைச்சாலை`. It preserves the long source-visible political/social denunciation passages without silent normalization. **PDF 104 ends inside Muthan's speech and PDF 105 visibly continues that same speech.**
 
 Open first-pass readings do not block continuation of the first pass, but they do block any claim of verified Tamil until the separate full rendered-scan fidelity audit.
 
 ## Exact next activity
 
-Continue canonical Tamil first-pass transcription at **PDF 95 / printed p.93**, in a meaningful source-order batch with the same stable anchor and uncertainty policy. Do not start scene/dialogue derivatives.
+Complete the **final first-pass batch PDF 105–109 / printed pp.103–107**, beginning with the PDF 104→105 continuation and preserving the locked PDF 107 / printed p.105 heading `தூக்குமேடை`. Then assemble all bounded parts into `full-text.md` in exact source order and run boundary loss/duplication QA before declaring the canonical first pass closed. Do not start scene/dialogue derivatives or the fidelity audit before that assembly checkpoint.
