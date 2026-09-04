@@ -30,8 +30,8 @@ This QA covers the **source-linked composition payload** prepared for the Kalaig
 ## Integrity
 
 - payload mode: `source-linked-composition`;
-- `reading-room.json` bytes: **16,061**;
-- SHA-256: `2d4f0071b0faf463699255c29d10ae0c734a2d367c581ad469987a6a2f2bbb3d`;
+- `reading-room.json` bytes: **15,704**;
+- SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`;
 - canonical Tamil changed: **no**;
 - site application status: **not-applied**.
 
