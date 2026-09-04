@@ -85,15 +85,16 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - source-numbered scenes: **none**;
 - source-visible structural heading/transition occurrences: **58 / 37 distinct forms**;
 - user-reviewed PDF 107 / printed p.105 heading: **`தூக்குமேடை`**;
-- canonical Tamil first pass: **draft-in-progress — 30/105 pages**;
-- completed range: **PDF 5–34 / logical pp.3–32**;
-- open first-pass uncertainty markers: **19**;
+- canonical Tamil first pass: **draft-in-progress — 40/105 pages**;
+- completed range: **PDF 5–44 / logical pp.3–42**;
+- open first-pass uncertainty markers: **24**;
 - current continuous `full-text.md`: through **PDF 14**;
-- bounded continuation parts: **PDF 15–24** and **PDF 25–34**;
+- bounded continuation parts: **PDF 15–24, PDF 25–34 and PDF 35–44**;
+- PDF 35–44 scan reconciliation: **complete for first-pass draft; `தனபதி` restored where initially misread as `தளபதி`**;
 - visual fidelity audit: **not-started**;
 - structured derivatives / English / reader: **blocked pending verified Tamil**.
 
-**Next:** continue canonical Tamil first-pass transcription at **PDF 35 / printed p.33**, preserving stable page anchors and visible uncertainty markers. Assemble all bounded parts into `full-text.md` before first-pass closure; complete a separate full visual fidelity audit before any scene/dialogue derivatives.
+**Next:** continue canonical Tamil first-pass transcription at **PDF 45 / printed p.43**, preserving stable page anchors and visible uncertainty markers. Assemble all bounded parts into `full-text.md` before first-pass closure; complete a separate full visual fidelity audit before any scene/dialogue derivatives.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
