@@ -95,14 +95,8 @@ structured_derivatives:
     record_id: "manthiri-kumari-story-summary-001"
     text_path: "works/manthiri-kumari/story-summary/full-text.md"
     index_path: "works/manthiri-kumari/story-summary/index.json"
-    screenplay_scene_model: not-applicable
-    immutable_dialogue_model: not-applicable
     synthetic_scene_ids_created: 0
     immutable_dialogue_ids_created: 0
-  song_performance_inventory:
-    status: complete-verified
-    blocks: 15
-    path: "works/manthiri-kumari/songs/performance-inventory.md"
   song_performance_records:
     status: complete-verified
     schema_path: "works/manthiri-kumari/songs/schema.json"
@@ -118,14 +112,10 @@ structured_derivatives:
     canonical_tamil_changed: false
   song_cross_witness_comparison:
     status: complete
-    path: "works/manthiri-kumari/songs/cross-witness-comparison.md"
     confirmed_existing_anthology_witnesses: 1
     source_only_blocks_in_current_anthology: 14
     duplicate_parent_records_created: 0
     parent_anthology_lyric_files_modified: 0
-  song_block_11_match_report:
-    status: complete-reconciled
-    path: "works/manthiri-kumari/songs/match-report-001-oorukku-uzhaippavandi.md"
   song_authorship_gate:
     status: complete-with-unresolved-item-authorship
     path: "works/manthiri-kumari/songs/AUTHORSHIP_GATE.md"
@@ -135,15 +125,10 @@ structured_derivatives:
   english_translation:
     status: complete-verified
     index_path: "works/manthiri-kumari/translations/index.json"
-    readme_path: "works/manthiri-kumari/translations/README.md"
     final_qa_path: "works/manthiri-kumari/translations/FINAL_TRANSLATION_QA.md"
-    story_summary_record_path: "works/manthiri-kumari/translations/story-summary.json"
-    story_summary_schema_path: "works/manthiri-kumari/translations/story-summary.schema.json"
     story_summary_records: 1
     story_summary_logical_units: 13
     story_summary_cross_page_units: 1
-    performance_schema_path: "works/manthiri-kumari/translations/performance.schema.json"
-    performance_records_directory: "works/manthiri-kumari/translations/performances/"
     performance_records_expected: 15
     performance_records_verified: 15
     performance_sections: 52
@@ -158,12 +143,9 @@ structured_derivatives:
     status: complete-verified
     directory: "works/manthiri-kumari/editions/bilingual/"
     composition_path: "works/manthiri-kumari/editions/bilingual/reader-edition.json"
-    markdown_path: "works/manthiri-kumari/editions/bilingual/reader-edition.md"
-    html_path: "works/manthiri-kumari/editions/bilingual/reader-edition.html"
     preflight_path: "works/manthiri-kumari/editions/bilingual/PREFLIGHT_QA_REPORT.md"
     qa_path: "works/manthiri-kumari/editions/bilingual/QA_REPORT.md"
     manifest_path: "works/manthiri-kumari/editions/bilingual/manifest.json"
-    validator_path: "works/manthiri-kumari/editions/bilingual/build.py"
     navigation_model: story-summary-plus-performance-blocks
     top_level_source_units: 16
     story_summary_logical_units: 13
@@ -178,9 +160,32 @@ structured_derivatives:
     synthetic_scene_ids_created: 0
     canonical_tamil_changed: false
     qa: PASS
+  reading_room_integration:
+    status: payload-complete-verified
+    directory: "works/manthiri-kumari/integrations/reading-room/"
+    payload_path: "works/manthiri-kumari/integrations/reading-room/reading-room.json"
+    payload_mode: source-linked-composition
+    validator_path: "works/manthiri-kumari/integrations/reading-room/build.py"
+    qa_path: "works/manthiri-kumari/integrations/reading-room/QA_REPORT.md"
+    manifest_path: "works/manthiri-kumari/integrations/reading-room/manifest.json"
+    source_link_targets_expected: 32
+    story_summary_units: 13
+    performance_records: 15
+    performance_sections: 52
+    performance_line_cues: 234
+    confirmed_existing_anthology_witnesses: 1
+    source_only_in_current_anthology: 14
+    item_level_lyric_authorship_verified: 0
+    item_level_lyric_authorship_unresolved: 15
+    payload_bytes: 15704
+    payload_sha256: "20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43"
+    qa: PASS
+    site_application_status: not-applied
+    synthetic_scene_ids_created: 0
+    canonical_tamil_changed: false
+    authorship_upgrades: 0
   scene_index: not-applicable-from-this-source
   dialogue_index: not-applicable-from-this-source
-  reading_room_integration: ready-not-started
 
 status:
   duplicate_work_check: complete
@@ -193,7 +198,6 @@ status:
   post_fidelity_reconciliation: complete
   credits_derivative: complete-verified
   story_summary_derivative: complete-verified
-  song_performance_inventory: complete-15-of-15
   song_performance_records: complete-verified-15-of-15
   song_cross_witness_comparison: complete
   song_authorship_gate: complete-15-unresolved-item-level
@@ -201,6 +205,7 @@ status:
   dialogue_index: not-applicable-from-this-source
   english_translation: complete-verified
   reader_export: complete-verified
-  reading_room_integration: ready-not-started
+  reading_room_integration: payload-complete-verified
+  reading_room_site_application: not-applied
 
-next_action: "Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader. Preserve story-summary plus 15-performance navigation, Tamil/English pairing, page provenance, source-visible cues, current cross-witness dispositions and unresolved item-level lyric authorship; do not invent screenplay scenes or upgrade authorship through presentation metadata."
+next_action: "No required repository-internal Manthiri Kumari transcription, translation, reader/export or Reading Room-payload work remains. Apply the verified source-linked payload in the separate Reading Room implementation repository only when that repository is explicitly authorized; preserve natural story-summary plus 15-performance navigation and all evidence tiers."
