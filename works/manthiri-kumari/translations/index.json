@@ -56,5 +56,15 @@
     "source_page_coverage": "PDF 3-13 excluding credits-only PDF 2",
     "result": "PASS"
   },
-  "next_action": "Build and QA a deterministic bilingual reader/export layer from the complete-verified story-summary and 15 performance translation records, preserving the booklet's natural story-summary/performance navigation rather than synthetic screenplay scenes."
+  "reader_export": {
+    "status": "complete-verified",
+    "directory": "../editions/bilingual",
+    "navigation_model": "story-summary-plus-performance-blocks",
+    "top_level_source_units": 16,
+    "performance_sections": 52,
+    "performance_tamil_line_cues": 234,
+    "performance_english_line_cues": 234,
+    "qa": "PASS"
+  },
+  "next_action": "Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader, preserving story-summary plus 15-performance navigation and unresolved item-level lyric authorship."
 }
