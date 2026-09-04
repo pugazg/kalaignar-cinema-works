@@ -1,0 +1,25 @@
+{
+  "id": "manthiri-kumari-performance-en-005",
+  "source_performance_id": "manthiri-kumari-performance-005",
+  "sequence": 5,
+  "heading_ta": "மந்திரிகுமாரி—பார்த்திபன்",
+  "heading_en": "Manthirikumarī—Parthiban",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/005.json", "tamil_status": "complete-verified", "pdf_pages": [8], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": "மந்திரிகுமாரி", "english_label": "Manthirikumarī", "source_pdf_pages": [8], "source_tamil_lines": ["உலவும் தென்றல் காற்றினிலே", "ஓடமிதே நாம் மகிழ ஊஞ்சலாடுதே!"], "english_lines": ["In the wandering gentle breeze,", "This boat sways like a swing for our delight!"], "notes": []},
+      {"ordinal": 2, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [8], "source_tamil_lines": ["அலைகள் வந்து மோதியே", "ஆடியுன்றன் பாட்டுக்கென்றே தாளம்"], "english_lines": ["The waves come rushing and strike,", "Dancing, keeping time for your song."], "notes": []},
+      {"ordinal": 3, "source_label": "மந்திரிகுமாரி", "english_label": "Manthirikumarī", "source_pdf_pages": [8], "source_tamil_lines": ["உயர்ந்த மலையும் உமது அன்பின் [போடுதே.]", "உயர்வை காட்டுதே!"], "english_lines": ["Even the lofty mountain shows", "The height of your love!"], "notes": ["The bracketed source form `[போடுதே.]` is anomalously positioned in the verified Tamil; the translation does not silently assign it a repaired grammatical role."]},
+      {"ordinal": 4, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [8], "source_tamil_lines": ["இதயம் அந்த மலைக்கு ஏது", "அன்பைக் காட்டவே"], "english_lines": ["What heart does that mountain have,", "That it should show love?"], "notes": []},
+      {"ordinal": 5, "source_label": "மந்திரிகுமாரி", "english_label": "Manthirikumarī", "source_pdf_pages": [8], "source_tamil_lines": ["தெளிந்த நீரைப்போன்ற தூய", "காதல் கொண்டோம் நாம்!"], "english_lines": ["Pure as clear water", "Is the love that we share!"], "notes": []},
+      {"ordinal": 6, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [8], "source_tamil_lines": ["களங்கம் அதிலும் காணுவாய்", "கவனம் வைத்தே பார்!"], "english_lines": ["You will find a stain even in that—", "Look carefully!"], "notes": []},
+      {"ordinal": 7, "source_label": "மந்திரிகுமாரி", "english_label": "Manthirikumarī", "source_pdf_pages": [8], "source_tamil_lines": ["குதர்க்கம் பேசி என்னை மயக்க", "எங்கு கற்றீரோ?"], "english_lines": ["Where did you learn such sophistry", "To bewilder me?"], "notes": []},
+      {"ordinal": 8, "source_label": "பார்த்திபன்", "english_label": "Parthiban", "source_pdf_pages": [8], "source_tamil_lines": ["உனது கடைக்கண் பார்வை காட்டும்", "பாடம் தன்னிலே!"], "english_lines": ["In the lesson taught", "By your sidelong glance!"], "notes": []},
+      {"ordinal": 9, "source_label": "இருவரும்", "english_label": "Both", "source_pdf_pages": [8], "source_tamil_lines": ["உலக வாழ்க்கை ஆற்றினிலே", "காதலெனும் தோணிதனில் ஊர்ந்துசெல்லுவோம்"], "english_lines": ["Upon the river of worldly life,", "Let us travel in the boat called love."], "notes": []}
+    ],
+    "translator_notes": ["Exact Tamil turn labels are retained in metadata; the source-visible bracket anomaly is documented rather than repaired.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
