@@ -1,0 +1,18 @@
+{
+  "id": "manthiri-kumari-performance-en-009",
+  "source_performance_id": "manthiri-kumari-performance-009",
+  "sequence": 9,
+  "heading_ta": "ராஜகுமாரி",
+  "heading_en": "Princess",
+  "target_language": "en",
+  "status": "verified",
+  "mode": "semantic-poetic-source-faithful",
+  "source": {"record_path": "works/manthiri-kumari/songs/records/009.json", "tamil_status": "complete-verified", "pdf_pages": [10, 11], "cross_witness_status": "source-only-in-current-anthology", "anthology_record_id": null, "authorship_status": "unresolved"},
+  "translation": {
+    "sections": [
+      {"ordinal": 1, "source_label": null, "english_label": null, "source_pdf_pages": [10], "source_tamil_lines": ["எண்ணும் பொழுதில் இன்பம்—பெருகி என்", "உள்ளம் மகிழலானேன்", "மாவீரர் பணியும் ஜெயதீரா", "உலகினிலே இணையில்லா உமது புகழ் (என்)", "மாலை நன்னேரம் மாலை கொண்டே நான்", "ஆருயிர் மோகனின் மேனியில் அணிவேன்"], "english_lines": ["At the very thought, joy swells—and my", "Heart has begun to rejoice.", "O Jayadhira, before whom great heroes bow,", "Your fame has no equal in this world. (என்)", "At the auspicious evening hour, taking the garland, I", "Will place it upon my beloved Mohan."], "notes": ["`ஜெயதீரா` is preserved as the source vocative/name rather than replaced by an inferred modern form."]},
+      {"ordinal": 2, "source_label": null, "english_label": null, "source_pdf_pages": [11], "source_tamil_lines": ["மகிழ்ச்சியோடு நான் மார்புறத்தழுவி", "கலந்து வாழ்வில் என்றும் சுகமே காண்பேன் (என்)"], "english_lines": ["With joy I will embrace him to my breast,", "United in life, I will forever know happiness. (என்)"], "notes": []}
+    ],
+    "translator_notes": ["The marriage/garland imagery and repeated source cue `(என்)` are preserved.", "Item-level lyric authorship remains unresolved at this booklet-evidence tier; translation does not upgrade attribution."]
+  }
+}
