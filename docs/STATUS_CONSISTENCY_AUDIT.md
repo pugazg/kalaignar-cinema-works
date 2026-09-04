@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari story-summary completion checkpoint.**
+**PASS — current status mirrors synchronized across all six works at the Manthiri Kumari 15-record structured-derivative completion checkpoint.**
 
 ## Current work matrix
 
@@ -20,7 +20,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Tirumbippaar! | 104/104 canonical pages verified | 93/93 scenes / 1,040 dialogue records | 1,321 verified units | reader/export + deterministic EPUB QA PASS |
 | Manohara | 82/82 canonical pages verified | 57/57 scenes / 983 dialogue records | 1,190 verified units | reader/export QA PASS; Reading Room ready |
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
-| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits complete-verified; PDF 3–5 story summary complete-verified as 1 continuous record; 15/15 performance blocks inventoried/cross-witness classified | blocked pending 15 source-linked performance records | next: 15 PDF 6–13 source-linked performance records |
+| Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits complete-verified; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 complete-verified | ready / not-started | next: source-linked English translation |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 
 ## Manthiri Kumari reconciliation checkpoint
@@ -30,19 +30,27 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - canonical Tamil: **12/12 pages complete-verified**;
 - unresolved canonical readings: **0**;
 - direct user post-fidelity scan corrections: **recorded and applied**;
-- later user-approved lexical/spelling corrections across the song/performance section: **applied**;
+- later user-approved lexical/spelling corrections across the song/performance section: **applied and reconciled**;
 - source subdivision form: **`தொகையறா`** where applicable;
-- affected existing downstream performance/cross-witness surfaces: **reconciled**;
 - credits layer: **complete-verified**;
 - story-summary derivative: **complete-verified — PDF 3–5 / 3 source pages / 1 continuous record / 0 synthetic scene IDs / 0 immutable dialogue IDs**;
 - performance inventory: **15/15 complete**;
+- source-linked performance records: **15/15 complete-verified**;
+- performance record schema/index: **`works/manthiri-kumari/songs/schema.json` / `works/manthiri-kumari/songs/index.json`**;
+- performance source coverage: **PDF 6–13, 8/8 pages**;
+- missing / duplicate performance record IDs: **0 / 0**;
+- exact source headings, page segments, source-visible `தொகையறா` / `பாட்டு` subdivisions and speaker/performance cues: **preserved**;
 - current anthology relationship: **1 confirmed existing witness / 14 source-only blocks**;
-- item-level lyric authorship verified from this booklet: **0/15**;
-- source-linked structured performance records: **not-started — 0/15**;
+- duplicate parent anthology records created / parent anthology lyric files modified: **0 / 0**;
+- booklet item-level lyric authorship verified: **0/15**;
+- unresolved item-level lyric authorship at this evidence tier: **15/15**;
+- unresolved authorship blocks translation: **no**;
+- canonical Tamil changed by structured-record creation: **no**;
+- synthetic screenplay scene IDs created by the performance layer: **0**;
 - scene/dialogue full-work model: **not applicable from this booklet**;
-- English translation: **blocked until the 15 source-linked performance records are complete**.
+- English translation: **ready / not-started**.
 
-The exact next source-processing activity is to **create source-linked structured records for all 15 PDF 6–13 song/performance blocks**, preserving exact source headings, PDF-page provenance, `தொகையறா` / `பாட்டு` subdivisions, performance/speaker cues, the existing cross-witness dispositions and unresolved item-level lyric authorship unless separately evidenced.
+The exact next repository-internal activity is to **begin source-linked English translation from the verified continuous PDF 3–5 story-summary record and the 15 verified PDF 6–13 song/performance records**, preserving the booklet's natural structures, source-page provenance, source-visible cues and unresolved item-level lyric-authorship state. Translation must not be used to repair canonical Tamil.
 
 ## Raja Rani final reconciliation
 
@@ -68,4 +76,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The Manthiri Kumari canonical Tamil and continuous PDF 3–5 story-summary phases are now closed and synchronized across active work-local and repository-wide status mirrors. The next repository-internal activity is the 15-record PDF 6–13 song/performance structured layer. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
+The Manthiri Kumari **source-appropriate Tamil derivative phase is closed and synchronized**: credits are complete-verified, the continuous PDF 3–5 story summary is complete-verified, and all 15 PDF 6–13 song/performance source-linked records are complete-verified. The next repository-internal phase is source-linked English translation. Raja Rani continues to have no required repository-internal archival, translation, reader/export or Reading Room-payload work remaining; its payload is ready for the separate public-site implementation repository only when explicitly authorized.
