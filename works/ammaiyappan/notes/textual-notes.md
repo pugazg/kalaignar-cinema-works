@@ -16,6 +16,21 @@ These notes record first-pass readings that remain intentionally uncertain. The 
 
 4. Baladevar's line `உனக்கு அண்ணனைப் ⟦பிறந்து?⟧ விட்ட, விசேஷம் வேறு எனக்கு.` retains a marker on `பிறந்து` because the printed old-type token is visually unusual and should be adjudicated glyph by glyph during review rather than normalized by meaning.
 
+## First-pass batch 2 — PDF 10–14
+
+### PDF 10 / printed p.8
+
+5. In Maykainathar's catalogue of miraculous acts, the span is presently `கடலை வற்ற வைப்பர்; ⟦கசந்ததிலே?⟧ மிதந்திடுவர்`. The marked token remains glyph-sensitive and must be reopened during fidelity review.
+
+### PDF 13 / printed p.11
+
+6. Thirusangu's abusive line retains `⟦துப்புக்கீழே?⟧` because the old-type sequence is not secure enough for a source-faithful first-pass certainty.
+7. In `நீ குதிரை பார்த்துக் கொள்கிற லட்சணம் ⟦நன்றுயிருக்கிறது?⟧`, the marked colloquial form remains under review; do not modernize it to a more familiar spelling without direct scan adjudication.
+
+### PDF 14 / printed p.12
+
+8. Muthan's line before `வாள் பயிற்சி கத்துகிட்டு` is presently `⟦இப்ப என்னு?⟧`. Preserve this occurrence-specific uncertainty until the glyph sequence is rechecked at fidelity-audit enlargement.
+
 ## Locked source verdicts from intake
 
 These are not uncertainties:
