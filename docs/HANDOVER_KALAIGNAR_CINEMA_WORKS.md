@@ -376,10 +376,10 @@ Always inspect current repository state.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
 - **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
-- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; post-fidelity user corrections reconciled; credits complete-verified; 15/15 performance blocks inventoried and cross-witness classified; continuous PDF 3–5 story-summary derivative is the next activity.
+- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; post-fidelity user corrections reconciled; credits complete-verified; continuous PDF 3–5 story-summary derivative complete-verified as 1 source-linked record across 3 pages with 0 synthetic scene/dialogue IDs; 15/15 performance blocks inventoried and cross-witness classified; source-linked records for those 15 blocks are the next activity.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 
-The Manthiri Kumari work-local status surfaces, root README and this master handover have been advanced to the verified/corrected checkpoint. `data/works.json` and `docs/STATUS_CONSISTENCY_AUDIT.md` must agree with this state before the synchronization gate is closed.
+`data/works.json`, root README, work metadata/README/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the Manthiri Kumari story-summary completion checkpoint.
 
 ---
 
