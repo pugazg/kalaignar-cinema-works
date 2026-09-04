@@ -24,15 +24,18 @@ Before changing this work, read completely:
 10. `works/manthiri-kumari/notes/INTAKE_AUDIT.md`
 11. `works/manthiri-kumari/notes/fidelity-audit.md`
 12. `works/manthiri-kumari/notes/post-fidelity-corrections.md`
-13. `works/manthiri-kumari/story-summary/README.md`
-14. `works/manthiri-kumari/story-summary/index.json`
-15. `works/manthiri-kumari/songs/README.md`
-16. `works/manthiri-kumari/songs/index.json`
-17. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
-18. `works/manthiri-kumari/translations/README.md`
-19. `works/manthiri-kumari/translations/index.json`
-20. `works/manthiri-kumari/translations/FINAL_TRANSLATION_QA.md`
-21. `docs/SONG_TRANSLATION_GUIDE.md` when touching translated performance text.
+13. `works/manthiri-kumari/story-summary/index.json`
+14. `works/manthiri-kumari/songs/index.json`
+15. `works/manthiri-kumari/songs/AUTHORSHIP_GATE.md`
+16. `works/manthiri-kumari/translations/README.md`
+17. `works/manthiri-kumari/translations/index.json`
+18. `works/manthiri-kumari/translations/FINAL_TRANSLATION_QA.md`
+19. `works/manthiri-kumari/editions/bilingual/README.md`
+20. `works/manthiri-kumari/editions/bilingual/reader-edition.json`
+21. `works/manthiri-kumari/editions/bilingual/PREFLIGHT_QA_REPORT.md`
+22. `works/manthiri-kumari/editions/bilingual/QA_REPORT.md`
+23. `works/manthiri-kumari/editions/bilingual/manifest.json`
+24. `docs/SONG_TRANSLATION_GUIDE.md` when touching translated performance text.
 
 ## Controlling source
 
@@ -69,9 +72,7 @@ Do not create screenplay scenes or a film-wide dialogue index from this booklet.
 - song/performance Tamil records: **complete-verified — 15/15 / PDF 6–13**;
 - synthetic screenplay scene IDs in source-derived layers: **0**.
 
-Canonical authority:
-
-`works/manthiri-kumari/transcription/full-text.md`
+Canonical authority: `works/manthiri-kumari/transcription/full-text.md`.
 
 ## Authorship / cross-witness state
 
@@ -86,25 +87,9 @@ Unresolved lyric authorship does not block translation, reader/export, or Readin
 
 ## English translation — complete-verified
 
-Translation files:
-
-- `translations/README.md`;
-- `translations/index.json`;
-- `translations/FINAL_TRANSLATION_QA.md`;
-- `translations/story-summary.schema.json`;
-- `translations/story-summary.json`;
-- `translations/performance.schema.json`;
-- `translations/performances/001.json`–`015.json`.
-
-Checkpoint:
-
-- story-summary English records: **1/1**;
-- story-summary logical prose units: **13**;
-- story-summary cross-page units: **1**;
-- performance English records: **15/15**;
-- performance sections: **52**;
-- Tamil performance source lines/cues: **234**;
-- English performance lines/cues: **234**;
+- story-summary English: **1/1**, **13** logical prose units, **1** cross-page unit;
+- performance English: **15/15**, **52** sections;
+- Tamil / English performance lines-cues: **234 / 234**;
 - line-mapping mismatches: **0**;
 - cross-page translated performance records: **7** — `002`, `004`, `006`, `007`, `009`, `011`, `013`;
 - missing / duplicate translation records: **0 / 0**;
@@ -113,28 +98,62 @@ Checkpoint:
 - synthetic screenplay scene IDs created: **0**;
 - final translation QA: **PASS**.
 
-Source-visible cues and performance labels are preserved. Performance 13 permanently retains the evidence distinction between its printed heading `பார்த்திபன்—மந்திரிகுமாரி` and internal turn labels `பார்த்திபன்` / `அமுதவல்லி`; do not normalize that mismatch.
+Performance 13 permanently retains the evidence distinction between its printed heading `பார்த்திபன்—மந்திரிகுமாரி` and internal turn labels `பார்த்திபன்` / `அமுதவல்லி`; do not normalize that mismatch.
+
+## Bilingual reader/export — complete-verified
+
+Directory: `works/manthiri-kumari/editions/bilingual/`
+
+Files:
+
+- `README.md`;
+- `build.py`;
+- `reader-edition.json`;
+- `reader-edition.md`;
+- `reader-edition.html`;
+- `PREFLIGHT_QA_REPORT.md`;
+- `QA_REPORT.md`;
+- `manifest.json`.
+
+Checkpoint:
+
+- navigation model: **story summary + 15 performance blocks**;
+- top-level source structures: **16/16**;
+- story-summary logical units: **13/13**;
+- performance records: **15/15**;
+- performance sections: **52/52**;
+- Tamil / English performance line-cues: **234 / 234**;
+- line-pair mismatches: **0**;
+- cross-page performance records retained: **7/7**;
+- current-anthology disposition retained: **1 confirmed witness / 14 source-only**;
+- item-level lyric authorship retained: **0 verified / 15 unresolved**;
+- synthetic screenplay scene IDs introduced: **0**;
+- canonical Tamil changed by reader/export: **no**;
+- preflight QA: **PASS**;
+- whole-reader QA: **PASS**.
+
+The reader is deliberately source-linked: `reader-edition.json` names the verified translation records and the HTML renderer loads those records. It does not create a second independent bilingual text corpus.
 
 ## Source-authority boundaries
 
 - rendered scan controls canonical Tamil;
 - explicit user manual scan verdicts control their reviewed occurrences unless later direct scan evidence reopens them;
 - OCR, film audio, subtitles, web lyrics, memory and later anthology text must not repair this booklet silently;
-- translation is downstream and must never repair canonical Tamil;
+- translation and reader layers are downstream and must never repair canonical Tamil;
 - item-level lyric authorship remains independently evidence-based;
 - archival record IDs are navigation only and are not source numbering.
 
 ## Current downstream state
 
 - English translation: **complete-verified**;
-- deterministic bilingual reader/export: **ready / not-started**;
-- Reading Room integration: **blocked pending reader/export QA**;
+- deterministic bilingual reader/export: **complete-verified — QA PASS**;
+- Reading Room integration: **ready / not-started**;
 - screenplay scene derivatives / film-wide immutable dialogue index: **not applicable**.
 
 ## Exact next activity
 
 Proceed without redundant clarification:
 
-> **Build and QA a deterministic bilingual reader/export layer from the complete-verified Tamil and English story-summary/performance records. Preserve the booklet's natural `கதைச்சுருக்கம்` + performance navigation, Tamil/English source pairing, PDF-page provenance, source-visible cues, the 1/15 cross-witness relationship, and 15/15 unresolved item-level lyricists. Do not invent screenplay scenes.**
+> **Prepare and QA a provenance-safe Reading Room integration payload from the complete-verified bilingual reader. Preserve the booklet's natural `கதைச்சுருக்கம்` + 15-performance navigation, Tamil/English source pairing, PDF-page provenance, source-visible cues, the 1/15 cross-witness relationship, and 15/15 unresolved item-level lyricists. Do not invent screenplay scenes or upgrade authorship through presentation metadata.**
 
-At reader/export completion, synchronize work-local reader QA/index/status plus `metadata.yaml`, work README/handover, `data/works.json`, root README, master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` before declaring the phase closed.
+At Reading Room payload completion, synchronize the integration QA/status plus `metadata.yaml`, work README/handover, `data/works.json`, root README, master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` before declaring the phase closed.
