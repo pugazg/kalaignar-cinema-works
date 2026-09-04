@@ -85,6 +85,7 @@ source_authority:
 
 transcription_progress:
   status: draft-in-progress
+  transcription_index_path: "transcription/index.json"
   transcription_path: "transcription/full-text.md"
   transcription_readme_path: "transcription/README.md"
   textual_notes_path: "notes/textual-notes.md"
@@ -92,16 +93,22 @@ transcription_progress:
   canonical_pdf_pages: "5-109"
   canonical_logical_printed_pages: "3-107"
   canonical_pages_total: 105
-  first_pass_pages_completed: 10
-  first_pass_pdf_pages: "5-14"
-  first_pass_logical_printed_pages: "3-12"
+  first_pass_pages_completed: 20
+  first_pass_pdf_pages: "5-24"
+  first_pass_logical_printed_pages: "3-22"
+  full_text_current_through_pdf_page: 14
+  bounded_part_files:
+    - path: "transcription/parts/pdf-015-024.md"
+      pdf_pages: "15-24"
+      printed_pages: "13-22"
+      status: draft
   verified_pages: 0
-  draft_pages: 10
+  draft_pages: 20
   review_pages: 0
-  open_first_pass_uncertainty_markers: 8
-  next_pdf_page: 15
-  next_logical_printed_page: 13
-  next_action: "Continue canonical Tamil first-pass transcription from PDF 15 / printed p.13 in a meaningful source-order batch with stable page anchors and visible uncertainty markers where the old type remains insecure."
+  open_first_pass_uncertainty_markers: 11
+  next_pdf_page: 25
+  next_logical_printed_page: 23
+  next_action: "Continue canonical Tamil first-pass transcription from PDF 25 / printed p.23 in a meaningful source-order batch with stable page anchors and visible uncertainty markers where the old type remains insecure. Assemble all bounded part files into full-text.md before closing the complete first pass."
 
 fidelity_audit:
   status: not-started
@@ -124,7 +131,7 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_first_pass: draft-in-progress-10-of-105
+  canonical_tamil_first_pass: draft-in-progress-20-of-105
   visual_fidelity_audit: not-started
   scene_derivatives: blocked
   dialogue_index: blocked
@@ -134,4 +141,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Continue canonical Tamil first-pass transcription from PDF 15 / printed p.13; the full PDF 5-109 first pass must finish before the separate visual fidelity audit and before any structured derivatives."
+next_action: "Continue canonical Tamil first-pass transcription from PDF 25 / printed p.23; the full PDF 5-109 first pass and full-text assembly must finish before the separate visual fidelity audit and before any structured derivatives."
