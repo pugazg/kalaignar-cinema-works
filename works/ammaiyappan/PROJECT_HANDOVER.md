@@ -28,6 +28,7 @@ Before changing this work, read completely:
 14. `works/ammaiyappan/transcription/full-text.md`
 15. `works/ammaiyappan/transcription/parts/` as listed by the index
 16. `works/ammaiyappan/notes/textual-notes.md`
+17. any supplemental uncertainty ledger listed by `transcription/index.json`, currently `works/ammaiyappan/notes/textual-notes-pdf-065-074.md`
 
 ## Controlling source
 
@@ -77,19 +78,21 @@ Important adjudications:
 ## Canonical Tamil first pass — active
 
 - canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- completed first-pass range: **PDF 5–64 / logical pp.3–62**;
-- first-pass pages completed: **60 / 105**;
+- completed first-pass range: **PDF 5–74 / logical pp.3–72**;
+- first-pass pages completed: **70 / 105**;
 - current completed-page state: **draft**;
 - verified pages: **0**;
-- open first-pass uncertainty markers: **48**;
-- uncertainty ledger: `notes/textual-notes.md`;
+- open first-pass uncertainty markers: **87**;
+- older uncertainty ledger through marker 48: `notes/textual-notes.md`;
+- PDF 65–74 supplemental uncertainty ledger for markers 49–87: `notes/textual-notes-pdf-065-074.md`;
 - active progress/assembly authority: `transcription/index.json`;
 - assembled `full-text.md` currently reaches **PDF 14**;
-- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`, `transcription/parts/pdf-035-044.md`, `transcription/parts/pdf-045-054.md`, `transcription/parts/pdf-055-064.md`;
-- next page: **PDF 65 / printed p.63**;
+- bounded continuation parts: `transcription/parts/pdf-015-024.md`, `transcription/parts/pdf-025-034.md`, `transcription/parts/pdf-035-044.md`, `transcription/parts/pdf-045-054.md`, `transcription/parts/pdf-055-064.md`, `transcription/parts/pdf-065-074.md`;
+- the PDF 65–74 part is explicitly `draft-high-uncertainty`;
+- next page: **PDF 75 / printed p.73**;
 - visual fidelity audit: **not-started**.
 
-The PDF 35–44 batch was visually reconciled against the controlling scan after the initial draft. Source-visible `தனபதி` labels were restored where the initial draft had misread `தளபதி`. The PDF 45–54 batch added fifteen marked spans. PDF 55–64 adds nine further marked spans, preserves the locked source heading `பழுதார் வீதி`, and ends inside quoted poetic material whose final marked fragment continues onto PDF 65. None of these uncertain readings was repaired from semantic expectation or external text.
+The PDF 35–44 batch was visually reconciled against the controlling scan after the initial draft. Source-visible `தனபதி` labels were restored where the initial draft had misread `தளபதி`. PDF 55–64 preserves the locked source heading `பழுதார் வீதி` and ends inside quoted poetic material. PDF 65–74 continues that material and preserves the verified source transitions `கண்ணகி மாளிகை`, `வேங்கையூர் பாசறைச் சிறை`, `தனபதி மாளிகை`, `பாசறை சமையல் கூடம்`, and the second `கண்ணகி மாளிகை`. Because these ten pages contain dense old type, fast dialogue, and difficult quoted material, the batch carries **39 new explicit uncertainty markers** rather than semantic repairs. PDF 74 ends with a sentence continuing onto PDF 75.
 
 Before declaring the entire first pass complete, assemble every bounded part into `full-text.md` in exact source order and perform boundary loss/duplication QA.
 
@@ -98,7 +101,7 @@ Before declaring the entire first pass complete, assemble every bounded part int
 - source intake: **complete**;
 - whole-scan inspection: **complete 111/111**;
 - structural mapping: **verified**;
-- canonical Tamil first pass: **draft-in-progress — 60/105**;
+- canonical Tamil first pass: **draft-in-progress — 70/105**;
 - visual fidelity audit: **not-started**;
 - scene/dialogue/character derivatives: **blocked pending verified Tamil**;
 - song/performance authorship gate: **not-started**;
@@ -107,13 +110,13 @@ Before declaring the entire first pass complete, assemble every bounded part int
 ## Source-authority boundaries
 
 - Do not silently normalize old spelling or grammar.
-- Preserve exact speaker labels, stage directions, punctuation, repetitions and source transitions.
+- Preserve exact speaker labels, stage directions, punctuation, repetitions and source transitions where the scan supports them.
 - OCR/audio/subtitles/web/later editions cannot repair canonical Tamil.
 - Story/dialogue credit is not item-level lyric credit.
 - User-reviewed scan verdicts control their reviewed occurrences unless direct scan evidence explicitly reopens them.
-- Preserve the PDF 64 → PDF 65 quoted-poetry continuation; do not resolve it from an external literary witness during first pass.
-- Do not resolve the current uncertainty markers by semantic expectation; enlarge the scan during the later fidelity review.
+- Preserve the PDF 74 → PDF 75 continuation; do not resolve it from context alone.
+- The PDF 65–74 high-uncertainty markers require direct enlargement during the later fidelity review; do not reinterpret their draft placeholders as verified source wording.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription at PDF 65 / printed p.63. Preserve the cross-page poetic continuation from PDF 64 and work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
+> **Continue canonical Tamil first-pass transcription at PDF 75 / printed p.73. Preserve the cross-page continuation from PDF 74 and work in a meaningful source-order batch with stable PDF/printed-page anchors. Store later batches in bounded part files and keep `transcription/index.json` authoritative for coverage until final assembly. Do not start scene/dialogue derivatives yet. After the entire PDF 5–109 first pass is assembled, perform a separate full rendered-scan visual fidelity audit before structured derivatives.**
