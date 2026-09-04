@@ -100,9 +100,22 @@ structured_derivatives:
     synthetic_scene_ids_created: 0
     immutable_dialogue_ids_created: 0
   song_performance_inventory:
-    status: complete
+    status: complete-verified
     blocks: 15
     path: "works/manthiri-kumari/songs/performance-inventory.md"
+  song_performance_records:
+    status: complete-verified
+    schema_path: "works/manthiri-kumari/songs/schema.json"
+    index_path: "works/manthiri-kumari/songs/index.json"
+    records_directory: "works/manthiri-kumari/songs/records/"
+    completed_blocks: 15
+    expected_blocks: 15
+    missing_records: 0
+    duplicate_record_ids: 0
+    source_pdf_pages: "6-13"
+    source_pdf_page_count: 8
+    synthetic_scene_ids_created: 0
+    canonical_tamil_changed: false
   song_cross_witness_comparison:
     status: complete
     path: "works/manthiri-kumari/songs/cross-witness-comparison.md"
@@ -114,19 +127,16 @@ structured_derivatives:
     status: complete-reconciled
     path: "works/manthiri-kumari/songs/match-report-001-oorukku-uzhaippavandi.md"
   song_authorship_gate:
-    status: initialized
+    status: complete-with-unresolved-item-authorship
     path: "works/manthiri-kumari/songs/AUTHORSHIP_GATE.md"
     booklet_item_level_verified: 0
-    requiring_separate_item_evidence: 15
-  song_source_linked_records:
-    status: not-started
-    completed_blocks: 0
-    expected_blocks: 15
+    unresolved_item_level_records: 15
+    unresolved_authorship_blocks_translation: false
   scene_index: not-applicable-from-this-source
   dialogue_index: not-applicable-from-this-source
-  english_translation: blocked-pending-song-source-linked-records
-  reader_export: blocked
-  reading_room_integration: blocked
+  english_translation: ready-not-started
+  reader_export: blocked-pending-english-translation
+  reading_room_integration: blocked-pending-reader
 
 status:
   duplicate_work_check: complete
@@ -136,16 +146,16 @@ status:
   canonical_tamil_first_pass: complete
   canonical_tamil: complete-verified
   visual_fidelity_audit: complete
-  post_fidelity_reconciliation: complete-for-existing-affected-derivatives
+  post_fidelity_reconciliation: complete
   credits_derivative: complete-verified
   story_summary_derivative: complete-verified
   song_performance_inventory: complete-15-of-15
+  song_performance_records: complete-verified-15-of-15
   song_cross_witness_comparison: complete
-  song_authorship_gate: initialized-15-pending-item-evidence
-  song_source_linked_records: not-started-0-of-15
+  song_authorship_gate: complete-15-unresolved-item-level
   scene_derivatives: not-applicable-from-this-source
   dialogue_index: not-applicable-from-this-source
-  english_translation: blocked
+  english_translation: ready-not-started
   reader_export: blocked
 
-next_action: "Create source-linked structured records for all 15 PDF 6-13 song/performance blocks from verified canonical Tamil, preserving exact source headings, PDF-page provenance, தொகையறா/பாட்டு subdivisions, performance/speaker cues, the existing 1/15 cross-witness match and 14/15 source-only dispositions, and unresolved item-level lyric authorship unless separately evidenced."
+next_action: "Begin source-linked English translation from the completed verified source structures: the continuous PDF 3-5 story-summary record and the 15 PDF 6-13 song/performance records. Preserve source order, page provenance, performance/speaker cues, தொகையறா/பாட்டு distinctions and unresolved item-level lyric authorship; do not convert the booklet into screenplay scenes or use translation to repair canonical Tamil."
