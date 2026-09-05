@@ -1,0 +1,55 @@
+name: Ammayappan PDF 10 post-closure heading correction
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-post-closure-heading-correction.yml"
+      - "works/ammaiyappan/scripts/apply_post_closure_heading_correction.py"
+
+permissions:
+  contents: write
+
+jobs:
+  correct:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply source-supported correction
+        run: python works/ammaiyappan/scripts/apply_post_closure_heading_correction.py
+      - name: Validate local and whole-canonical invariants
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          p = Path('works/ammaiyappan/transcription/full-text.md')
+          t = p.read_text(encoding='utf-8')
+          s = re.search(r'<!-- source: pdf=10\b.*?status=verified -->', t).start()
+          e = re.search(r'<!-- source: pdf=11\b', t[s:]).start() + s
+          page = t[s:e]
+          assert '## மாடம்' in page
+          assert '## மடாலயம்' not in page
+          assert '## மடாலயம்' in t[e:]
+          anchors = re.findall(r'<!-- source: pdf=(\d+).*?status=verified -->', t)
+          assert list(map(int, anchors)) == list(range(5,110))
+          assert '⟦' not in t and '⟧' not in t
+          assert 'தூக்குமேடை' in t and 'தாக்குமேடை' not in t
+          print('POST-FIDELITY LOCAL RECHECK PASS')
+          PY
+          git status --short
+          test "$(git status --short | wc -l)" -eq 2
+      - name: Commit correction
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/transcription/full-text.md works/ammaiyappan/notes/post-fidelity-corrections.md
+          git commit -m "Correct Ammayappan PDF 10 heading to மாடம் [skip ci]"
+          git push origin HEAD:main
