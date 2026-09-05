@@ -9,26 +9,40 @@ Because this 1954 source contains frequent historical Tamil typeforms, a page is
 1. rendered-scan visual source-fidelity verification; and
 2. historical-Tamil-glyph verification under `../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `../notes/historical-glyph-audit.md`.
 
-## First-pass closure checkpoint
+## Current dual-gate checkpoint
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
 - canonical pages expected: **105**;
 - first-pass pages completed: **105 / 105**;
-- completed range: **PDF 5–109 / logical pp.3–107**;
 - first-pass status: **draft-complete**;
-- visual-fidelity-passed pages: **70/105**;
-- historical-glyph-cleared pages under the explicit new gate: **0/105 at gate introduction**;
-- final dual-gate verified pages: **0/105 at gate introduction**;
-- review pages: **0**;
+- visual-fidelity-passed pages: **70/105 — PDF 5–74**;
+- historical-glyph-passed pages: **70/105 — PDF 5–74**;
+- final dual-gate verified pages: **70/105 — PDF 5–74**;
+- current dual-gate review pages: **0** in the closed PDF 5–74 range;
+- remaining canonical pages: **35 — PDF 75–109**;
 - open first-pass uncertain readings: **29**;
 - continuous assembled transcription: `full-text.md` through **PDF 109**;
 - assembly QA: `ASSEMBLY_QA.md` — **PASS**;
-- full rendered-scan visual fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 passed (70/105)**;
-- historical Tamil glyph audit: **required across PDF 5–109 / all 105 pages**.
+- next source page: **PDF 75 / logical printed p.73**.
 
 PDF 5 has no visible printed folio. Its anchor records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
 
-The existing PDF 5–74 visual-fidelity result is retained as visual evidence, but those pages require a retrospective historical-glyph pass. For PDF 75–109, both audits must be performed together.
+## Retrospective historical-glyph synchronization — CLOSED
+
+PDF 5–74 had already passed visual fidelity before the explicit historical-glyph gate was introduced. The full range was re-inspected from the scan and then synchronized occurrence-by-occurrence.
+
+- retrospective source review: **70/70 pages complete**;
+- correction-bearing pages: **38**;
+- correction-free pages: **32**;
+- synchronization manifest: `../notes/historical-glyph-sync-manifest.json`;
+- synchronization report: `../notes/historical-glyph-sync-report.json`;
+- synchronization commit: `880978627191a122f55b50522d112d163faa7e10`;
+- synchronized logical occurrences across canonical/provenance surfaces: **97**;
+- global replacement used: **no**;
+- source whitespace/layout preserved: **yes**;
+- genuine same-edition controls on PDF **48, 62, 64 and 69**: **preserved / PASS**.
+
+Retained first-pass part files were updated only where the matching audited occurrence existed; placeholder-era omissions were not synthesized from `full-text.md`.
 
 ## Assembly result
 
@@ -67,22 +81,20 @@ This minimum set does not exhaust all historical typeform risks. Inspect other o
 
 Character identity must be established from enlarged/native source pixels. Use same-edition/same-font comparison for doubtful forms. OCR, semantic expectation and modern spelling are not proof. Do not global-replace suspected forms. A historical-glyph correction changes character identity only; it does not license spelling modernization.
 
-If a historical-glyph correction changes a page that already passed visual fidelity, recheck the corrected occurrence visually and record the correction in the work-level audit.
-
 ## Batch history
 
-- PDF 5–14: initial continuous draft.
-- PDF 15–24: draft complete.
-- PDF 25–34: draft complete.
-- PDF 35–44: draft complete after direct scan reconciliation; `தனபதி` restored where initially misread as `தளபதி`.
-- PDF 45–54: draft complete.
-- PDF 55–64: draft complete; preserves locked `பழுதார் வீதி` and the PDF 64→65 quoted-poetry boundary.
-- PDF 65–74: coverage complete, **high uncertainty**, with 39 batch markers.
-- PDF 75–84: draft complete, 10 batch markers.
-- PDF 85–94: draft complete, 10 batch markers; preserves source-visible local transitions beyond the narrower intake inventory.
-- PDF 95–104: draft complete, 7 batch markers numbered 108–114.
-- PDF 105–109: final draft batch complete, 2 batch markers numbered **115–116**; preserves the PDF 104→105 continuation and locked `தூக்குமேடை` heading.
+- PDF 5–14: initial continuous draft; now dual-gate verified.
+- PDF 15–24: first-pass draft retained as provenance; matching historical-glyph occurrences synchronized; canonical pages dual-gate verified.
+- PDF 25–34: same status.
+- PDF 35–44: same status; `தனபதி` remains restored where initially misread as `தளபதி`.
+- PDF 45–54: same status.
+- PDF 55–64: same status; preserves locked `பழுதார் வீதி` and PDF 64→65 quoted-poetry boundary.
+- PDF 65–74: canonical range now dual-gate verified after retrospective backfill; retained first-pass part remains a provenance artifact with its original uncertainty history.
+- PDF 75–84: draft complete, 10 batch markers; dual-gate verification pending.
+- PDF 85–94: draft complete, 10 batch markers; dual-gate verification pending.
+- PDF 95–104: draft complete, 7 batch markers numbered 108–114; dual-gate verification pending.
+- PDF 105–109: final draft batch complete, 2 batch markers numbered **115–116**; dual-gate verification pending; preserves the PDF 104→105 continuation and locked `தூக்குமேடை` heading.
 
 ## Exact next activity
 
-Continue at **PDF 75 / logical printed p.73** and perform **visual source-fidelity + historical-Tamil-glyph verification together**. Markers **88–116** remain unresolved on PDF 75–109. Before final Tamil closure, complete the retrospective historical-glyph audit for **PDF 5–74**. Structured derivatives stay blocked until both verification gates reach **105/105**.
+Resume at **PDF 75 / logical printed p.73** and perform **visual source-fidelity + historical-Tamil-glyph verification together**. Adjudicate markers **88–116** occurrence-by-occurrence. PDF 5–74 are closed and should not be reopened unless new direct source evidence requires a specific local correction. Structured derivatives stay blocked until both verification gates reach **105/105**.
