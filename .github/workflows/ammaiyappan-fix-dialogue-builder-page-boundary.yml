@@ -1,0 +1,82 @@
+name: Fix Ammayappan dialogue page-boundary direction state
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-fix-dialogue-builder-page-boundary.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fix-build-and-clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Patch unmatched square-direction handling at verified page boundary
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('works/ammaiyappan/scripts/build_dialogues.py')
+          s=p.read_text(encoding='utf-8')
+          old='''            current_page = anchor\n            # Blank padding around derivative page anchors is not source dialogue.\n'''
+          new='''            current_page = anchor\n            # A source-visible square direction may lack its closing bracket at the\n            # physical page edge (scene 008 / PDF 18 is the known case).  Never let\n            # that unmatched punctuation swallow labelled dialogue on the next\n            # verified page.  Same-page multiline square directions remain intact.\n            if in_square_direction:\n                in_square_direction = False\n                stats["stage_direction_square_page_boundary_close"] += 1\n            # Blank padding around derivative page anchors is not source dialogue.\n'''
+          assert old in s
+          s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Build dialogue layer
+        run: python works/ammaiyappan/scripts/build_dialogues.py
+      - name: Validate corrected build
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          idx=json.loads((root/'dialogues/index.json').read_text(encoding='utf-8'))
+          qa=json.loads((root/'notes/dialogue-index-qa.json').read_text(encoding='utf-8'))
+          pre=json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          files=sorted((root/'dialogues/records').glob('scene-*.json'))
+          records=[r for p in files for r in json.loads(p.read_text(encoding='utf-8'))]
+          assert len(files)==63
+          assert len(records)==910==idx['dialogue_record_count']==qa['immutable_dialogue_records']
+          assert idx['scene_record_counts']==pre['scene_dialogue_candidate_counts']
+          assert idx['distinct_exact_speaker_labels']==35
+          assert len(qa['reviewed_cross_page_candidates'])==19
+          assert len(qa['reviewed_dash_candidates'])==14
+          assert qa['source_scene_numbers_invented']==0
+          assert qa['speaker_alias_normalizations']==0
+          # Known source-specific regression guard: scene 008 must retain all 33 labels.
+          assert idx['scene_record_counts']['ammaiyappan-s008']==33
+          print(json.dumps({
+            'records':len(records),
+            'multi_page':idx['multi_page_dialogue_records'],
+            'owned_continuations':qa['owned_unlabelled_continuation_lines'],
+            'unowned_blocks':qa['unowned_ordinary_source_blocks'],
+            'unowned_lines':qa['unowned_ordinary_source_lines'],
+            'qa_status':qa['status']
+          },ensure_ascii=False))
+          PY
+      - name: Remove temporary diagnostic workflows and commit corrected builder plus generated layer
+        shell: bash
+        run: |
+          git rm .github/workflows/ammaiyappan-dialogue-diagnostic.yml
+          git rm .github/workflows/ammaiyappan-fix-dialogue-builder-page-boundary.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/scripts/build_dialogues.py \
+                  works/ammaiyappan/dialogues \
+                  works/ammaiyappan/notes/dialogue-index-qa.json \
+                  works/ammaiyappan/notes/dialogue-index-qa.md \
+                  works/ammaiyappan/notes/unlabelled-block-audit.json \
+                  works/ammaiyappan/notes/unlabelled-block-audit.md
+          git commit -m "Build Ammayappan immutable dialogue layer with page-boundary guard [skip ci]"
+          git push origin HEAD:main
