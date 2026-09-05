@@ -22,11 +22,25 @@ jobs:
           from pathlib import Path
           p = Path('.github/scripts/ammaiyappan_fidelity_035_044.py')
           s = p.read_text(encoding='utf-8')
-          old = '    m = rep(m, old, new, label)'
-          new = '    m = rep(m, old, new, label, 2 if label == "metadata verified" else 1)'
-          if s.count(old) != 1:
-              raise SystemExit(f'patch target count={s.count(old)}')
-          p.write_text(s.replace(old, new), encoding='utf-8')
+          patches = [
+              ('    m = rep(m, old, new, label)', '    m = rep(m, old, new, label, 2 if label == "metadata verified" else 1)'),
+              ("('open first-pass uncertainty markers: **97**;', 'open first-pass uncertainty markers: **92**;', 'root markers')", "('open first-pass uncertainty markers: **105**;', 'open first-pass uncertainty markers: **92**;', 'root markers')"),
+              ("('through PDF 34 / logical p.32 — 30/105 verified', 'through PDF 44 / logical p.42 — 40/105 verified', 'handover range')", "('through PDF 24 / logical p.22 — 30/105 verified', 'through PDF 44 / logical p.42 — 40/105 verified', 'handover range')"),
+              ("('PDF 5–34 visually verified (30/105), 75 draft pages, 0 review pages, and 97 unresolved first-pass readings', 'PDF 5–44 visually verified (40/105), 65 draft pages, 0 review pages, and 92 unresolved first-pass readings', 'handover checkpoint')", "('PDF 5–24 visually verified (30/105), 75 draft pages, 0 review pages, and 97 unresolved first-pass readings', 'PDF 5–44 visually verified (40/105), 65 draft pages, 0 review pages, and 92 unresolved first-pass readings', 'handover checkpoint')"),
+              ("('next source page is PDF 35 / logical p.33', 'next source page is PDF 45 / logical p.43', 'handover next')", "('next source page is PDF 25 / logical p.23', 'next source page is PDF 45 / logical p.43', 'handover next')"),
+              ("('PDF 5–34 visually verified (30/105), 75 draft pages, 0 review pages, and 97 open first-pass readings; next PDF 35 / logical p.33.', 'PDF 5–44 visually verified (40/105), 65 draft pages, 0 review pages, and 92 open first-pass readings; next PDF 45 / logical p.43.', 'status result')", "('PDF 5–24 visually verified (30/105), 75 draft pages, 0 review pages, and 97 open first-pass readings; next PDF 35 / logical p.33.', 'PDF 5–44 visually verified (40/105), 65 draft pages, 0 review pages, and 92 open first-pass readings; next PDF 45 / logical p.43.', 'status result')"),
+              ("('PDF 5–34 fidelity-verified (30/105); 75 draft; 97 open markers', 'PDF 5–44 fidelity-verified (40/105); 65 draft; 92 open markers', 'status matrix')", "('PDF 5–24 fidelity-verified (20/105); 85 draft; 105 open markers', 'PDF 5–44 fidelity-verified (40/105); 65 draft; 92 open markers', 'status matrix')"),
+          ]
+          for old, new in patches:
+              if s.count(old) != 1:
+                  raise SystemExit(f'patch target count={s.count(old)} for {old[:80]}')
+              s = s.replace(old, new)
+          needle = "    ('PDF 5–24 fidelity-verified (20/105); 85 draft; 105 open markers', 'PDF 5–44 fidelity-verified (40/105); 65 draft; 92 open markers', 'status matrix'),\n"
+          insert = needle + "    ('open first-pass uncertainty markers: **105**;', 'open first-pass uncertainty markers: **92**;', 'status open markers'),\n    ('continue at PDF 35 / logical printed p.33', 'continue at PDF 45 / logical printed p.43', 'status exact next'),\n"
+          if s.count(needle) != 1:
+              raise SystemExit('status insertion point missing')
+          s = s.replace(needle, insert)
+          p.write_text(s, encoding='utf-8')
           PY
           python .github/scripts/ammaiyappan_fidelity_035_044.py
       - name: Commit synchronized checkpoint and remove one-off files
