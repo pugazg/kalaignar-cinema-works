@@ -434,16 +434,18 @@ Only when the separate Kalaignar Digital Library / Reading Room implementation r
 Work path: `works/ammaiyappan/`  
 Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
-- canonical first pass: **105/105 draft-complete**, assembled through PDF 109;
-- assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- visual source fidelity: **90/105 — PDF 5–94 / logical pp.3–92 passed**;
-- historical-Tamil-glyph audit: **90/105 — PDF 5–94 / logical pp.3–92 passed**;
-- final dual-gate Tamil verified: **90/105**;
-- retrospective PDF 5–74 glyph backfill: **CLOSED**;
-- forward PDF 75–84: **PASS**;
-- forward PDF 85–94: **PASS**, commit `1911df2c97d45dfe07f1b9073bdf6368378ddf44`, report `works/ammaiyappan/notes/dual-gate-sync-report-pdf-085-094.json`;
-- remaining PDF 95–109: **15 pages**;
-- unresolved first-pass markers: **9 — markers 108–116**;
-- structured derivatives / English / reader: **blocked pending 105/105 dual-gate Tamil**.
+- source intake / whole-scan map: **complete**;
+- canonical first pass / assembly: **105/105 complete; assembly QA PASS**;
+- visual source fidelity: **105/105 PASS — PDF 5–109 / logical pp.3–107**;
+- historical-Tamil-glyph audit: **105/105 PASS**;
+- final dual-gate Tamil: **105/105 complete-verified**;
+- review pages / unresolved canonical markers: **0 / 0**;
+- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
+- locked headings: `பழுதார் வீதி` and `தூக்குமேடை`; rejected `தாக்குமேடை` absent;
+- scene-text derivatives: **READY — next phase**;
+- dialogue index: blocked pending scene-text closure;
+- character index: blocked pending dialogue-index closure;
+- song/performance authorship: not-started;
+- English / reader: blocked by derivative gate order.
 
-**Exact next activity:** resume at **PDF 95 / logical printed p.93** and perform visual source-fidelity + historical-Tamil-glyph verification together; adjudicate markers 108–116 only from source evidence.
+**Exact next activity:** build source-order scene-text derivatives from the verified canonical Tamil. Use `works/ammaiyappan/notes/scene-heading-audit.md` as the transition ledger, use archive-only scene/segment IDs because no printed scene numbers exist, preserve page anchors and exact source text, and run boundary-ownership QA before dialogue indexing.

@@ -70,92 +70,41 @@ Printed identity: `அம்மையப்பன்`; `கதை வசனம�
 
 The final PDF 105–109 batch preserves the PDF 104→105 continuation and the source-visible transitions `வேங்கையூர்`, `நகரின் வீதி`, locked `தூக்குமேடை`, and `வெளியே`. Two final insecure readings remain visibly marked rather than reconstructed.
 
-## Dual verification gate — current checkpoint
+## Dual verification gate — CLOSED
 
 A page is final Tamil verified only when **visual fidelity = pass** and **historical glyph audit = pass**.
 
-Current durable checkpoint:
+Final durable checkpoint:
 
-- visual-fidelity passed: **90/105 — PDF 5–94 / logical pp.3–72**;
-- historical-glyph passed: **90/105 — PDF 5–94 / logical pp.3–72**;
-- final dual-gate Tamil verified: **70/105**;
-- remaining range: **PDF 95–109 = 35 pages**;
-- next source page: **PDF 75 / logical printed p.73**.
+- visual-fidelity passed: **105/105 — PDF 5–109 / logical pp.3–107**;
+- historical-glyph passed: **105/105 — PDF 5–109 / logical pp.3–107**;
+- final dual-gate Tamil verified: **105/105**;
+- review pages: **0**;
+- canonical uncertainty markers: **0**;
+- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
+- PDF 95–104 report: `notes/dual-gate-sync-report-pdf-095-104.json` — **10/10 PASS**;
+- PDF 105–109 report: `notes/dual-gate-sync-report-pdf-105-109.json` — **5/5 PASS**;
+- final canonical range: **PDF 5–109 / logical pp.3–107**.
 
-### Retrospective PDF 5–74 historical-glyph backfill — CLOSED
-
-The PDF 5–74 range had already passed visual fidelity before the explicit historical-glyph gate was introduced. That entire 70-page range was therefore re-inspected from the rendered scan for historical Tamil typeforms.
-
-- source review: **70/70 complete**;
-- correction-free pages: **32**;
-- correction-bearing pages: **38**;
-- occurrence-specific synchronization: **complete**;
-- synchronization commit: `880978627191a122f55b50522d112d163faa7e10`;
-- sync report: `notes/historical-glyph-sync-report.json`;
-- synchronized logical occurrences across canonical/provenance surfaces: **97**;
-- global replacement: **not used**;
-- source whitespace/layout: **preserved**;
-- genuine same-edition control readings on PDF **48, 62, 64 and 69**: **preserved / PASS**;
-- retrospective sync-pending pages: **0**.
-
-Retained first-pass provenance files were synchronized only where the audited phrase actually existed. Older unresolved placeholder passages were not silently filled from the newer canonical layer.
-
-
-Forward dual-gate verification through PDF 84 is recorded by commit `0da97f94e829bef9b387bf59be580933b97ed122` and `notes/dual-gate-sync-report-pdf-075-084.json`.
-
-
-Forward dual-gate verification through PDF 94 is recorded by commit `1911df2c97d45dfe07f1b9073bdf6368378ddf44` and `notes/dual-gate-sync-report-pdf-085-094.json`.
-
-## Mandatory historical Tamil glyph gate
-
-`அம்மையப்பன்` contains frequent historical Tamil typeforms. The audit must follow `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `notes/historical-glyph-audit.md`.
-
-Minimum known families to inspect on every canonical page:
-
-`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
-
-This is a minimum set only. Remain alert for other old ligatures, faint vowel marks, worn type, broken ink and edition-specific forms.
-
-Rules:
-
-- identify historical character identity from enlarged/native source pixels;
-- prefer same-edition/same-font evidence for doubtful forms;
-- OCR, modern spelling expectation and semantic plausibility are not proof;
-- no global replacement;
-- preserve source wording and change only positively established character identity;
-- unresolved character identity keeps the page `needs-review`;
-- if a historical-glyph correction changes a page that previously passed visual fidelity, locally recheck that corrected occurrence and record the post-fidelity correction.
-
-## Assembly QA — PASS
-
-- source anchors: **105**;
-- exact anchor sequence: **PDF 5 through PDF 109**;
-- missing anchors: **0**;
-- duplicate anchors: **0**;
-- bounded-part boundary presence: **PASS**;
-- locked PDF 107 `தூக்குமேடை`: **PASS**;
-- rejected `தாக்குமேடை`: **absent**;
-- visible unresolved spans in assembled text: **116**.
-
-This closes the **first-pass transcription + assembly gate only**. Final Tamil remains open for PDF 95–109.
+The retrospective PDF 5–74 historical-glyph backfill and its occurrence-specific synchronization remain part of the audit history. Forward combined verification then closed PDF 75–109. No global historical-glyph replacement was used.
 
 ## Phase gates
 
 - source intake: complete;
 - whole-scan inspection: complete 111/111;
 - structural intake map: verified;
-- canonical Tamil first pass: **draft-complete — 105/105**;
+- canonical Tamil first pass: **complete — 105/105**;
 - full-text assembly: **complete-pass**;
 - boundary loss/duplication QA: **PASS**;
-- visual fidelity audit: **70/105 passed; next PDF 75 / logical p.73**;
-- historical Tamil glyph audit: **70/105 passed; next PDF 75 / logical p.73**;
-- final dual-gate Tamil verification: **70/105**;
-- PDF 5–74: **dual-gate verified — retrospective backfill and synchronization CLOSED**;
-- PDF 95–109: **visual-pending / glyph-pending — run both audits together**;
-- scene/dialogue/character derivatives: blocked pending 105/105 dual-gate verified Tamil;
+- visual fidelity audit: **complete — 105/105**;
+- historical Tamil glyph audit: **complete — 105/105**;
+- final dual-gate Tamil verification: **complete-verified — 105/105**;
+- scene-text derivatives: **READY — next phase**;
+- dialogue index: blocked pending scene-text derivative closure;
+- character index: blocked pending dialogue-index closure;
 - song/performance authorship gate: not-started;
-- English / reader: blocked.
+- English / reader: blocked by derivative gate order.
 
 ## Exact next activity
 
-> **Resume at PDF 95 / logical printed p.93. Perform visual source-fidelity verification and the full historical-Tamil-glyph audit together on every page from PDF 95–109, adjudicating markers 108–116 occurrence-by-occurrence. Do not reopen PDF 5–74 unless new direct source evidence requires a specific local correction. Do not start scene/dialogue/character derivatives, English translation or reader work until both gates reach 105/105 with no unresolved review pages.**
+> **Begin scene-text derivatives from `transcription/full-text.md`. Use `notes/scene-heading-audit.md` as the structural transition ledger, assign archive-only navigation IDs because the booklet prints no scene numbers, preserve all page anchors and exact source text, and run boundary-ownership QA before opening the dialogue-index phase.**

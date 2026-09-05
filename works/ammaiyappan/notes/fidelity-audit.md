@@ -1,11 +1,23 @@
-<!-- current-checkpoint: PDF 5-94 dual-gate verified; next PDF 95; verification commit 1911df2c97d45dfe07f1b9073bdf6368378ddf44 -->
-<!-- current-checkpoint: dual-gate verified PDF 5-84; next PDF 85; commit 0da97f94e829bef9b387bf59be580933b97ed122 -->
+<!-- current-checkpoint: PDF 5-109 dual-gate verified; canonical Tamil CLOSED; final verification commit 8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3 -->
 # அம்மையப்பன் — canonical Tamil visual fidelity audit
 
-Status: **in progress**.
+Status: **complete-pass — 105/105 canonical pages verified**.
 
 Controlling source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`  
 Canonical range: **PDF 5–109 / logical printed pp.3–107 — 105 pages**
+
+## Final closure — 2026-09-05
+
+- visual source fidelity: **105/105 PASS**;
+- historical-glyph companion gate: **105/105 PASS**;
+- review pages: **0**;
+- unresolved canonical readings: **0**;
+- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
+- PDF 95–104 batch report: `dual-gate-sync-report-pdf-095-104.json`;
+- PDF 105–109 batch report: `dual-gate-sync-report-pdf-105-109.json`;
+- structured scene-text derivative gate: **unblocked**.
+
+The historical batch sections below are retained as audit history. Earlier progress counts in those sections are historical checkpoints, not the current status.
 
 ## Audit rules
 

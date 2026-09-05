@@ -74,22 +74,23 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** using a mandatory dual Tamil gate: visual source fidelity + historical-Tamil-glyph verification.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` has **complete-verified canonical Tamil under the mandatory dual gate**.
 
-- canonical Tamil first pass: **105/105 draft-complete**;
-- assembly QA: **PASS — PDF 5–109, 105 anchors, 0 missing, 0 duplicate**;
-- visual source fidelity: **90/105 passed — PDF 5–94 / logical pp.3–92**;
-- historical Tamil glyph audit: **90/105 passed — PDF 5–94 / logical pp.3–92**;
-- final dual-gate Tamil verified: **90/105**;
-- retrospective historical-glyph backfill PDF 5–74: **CLOSED**;
-- forward dual-gate batches PDF 75–84 and PDF 85–94: **CLOSED / PASS**;
-- PDF 85–94 verification commit: `1911df2c97d45dfe07f1b9073bdf6368378ddf44`;
-- PDF 85–94 report: `works/ammaiyappan/notes/dual-gate-sync-report-pdf-085-094.json` — **10/10 pages, 0 markers remaining, canonical/provenance PASS**;
-- remaining: **PDF 95–109 = 15 pages**;
-- open first-pass uncertainty markers: **9 — markers 108–116**;
-- structured derivatives / English / reader: **blocked pending 105/105 dual-gate Tamil**.
+- canonical screenplay: **PDF 5–109 / logical pp.3–107 — 105/105 pages**;
+- assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
+- visual source fidelity: **105/105 PASS**;
+- historical Tamil glyph audit: **105/105 PASS**;
+- final dual-gate Tamil: **105/105 complete-verified**;
+- review pages: **0**;
+- unresolved canonical markers: **0**;
+- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
+- final batch reports: `works/ammaiyappan/notes/dual-gate-sync-report-pdf-095-104.json`, `works/ammaiyappan/notes/dual-gate-sync-report-pdf-105-109.json`;
+- scene-text derivatives: **READY**;
+- dialogue/character layers: blocked by normal derivative gate order;
+- English / reader: blocked by normal derivative gate order.
 
-**Next:** resume at **PDF 95 / logical printed p.93** with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 108–116 occurrence-by-occurrence.
+**Next:** build scene-text derivatives from verified canonical Tamil using source-visible transitions and archive-only navigation IDs; do not invent printed scene numbers.
+
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
 The dedicated anthology work `works/kalaignar-thirai-isai-paadalgal/` is complete-verified for its numbered corpus.

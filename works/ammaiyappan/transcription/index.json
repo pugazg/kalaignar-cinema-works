@@ -1,7 +1,7 @@
 {
   "work_id": "ammaiyappan",
   "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
-  "status": "dual-tamil-verification-in-progress",
+  "status": "complete-verified-dual-gate",
   "canonical_pdf_range": [
     5,
     109
@@ -22,11 +22,11 @@
     107
   ],
   "draft_pages": 105,
-  "verified_pages": 90,
-  "visual_fidelity_passed_pages": 90,
-  "historical_glyph_verified_pages": 90,
+  "verified_pages": 105,
+  "visual_fidelity_passed_pages": 105,
+  "historical_glyph_verified_pages": 105,
   "review_pages": 0,
-  "open_uncertainty_markers": 9,
+  "open_uncertainty_markers": 0,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
     "../notes/textual-notes-pdf-065-074.md",
@@ -154,7 +154,7 @@
           93,
           102
         ],
-        "status": "draft"
+        "status": "verified-dual-gate"
       },
       {
         "path": "parts/pdf-105-109.md",
@@ -166,31 +166,31 @@
           103,
           107
         ],
-        "status": "draft"
+        "status": "verified-dual-gate"
       }
     ],
     "policy": "The bounded part files are retained as provenance/audit artifacts. full-text.md is the complete continuous first-pass draft after exact source-anchor assembly QA."
   },
   "fidelity_audit": {
-    "status": "in-progress",
-    "canonical_range_audit_complete": false,
-    "audited_pages": 90,
-    "verified_pages": 90,
-    "unresolved_source_readings": 9,
+    "status": "complete-pass",
+    "canonical_range_audit_complete": true,
+    "audited_pages": 105,
+    "verified_pages": 105,
+    "unresolved_source_readings": 0,
     "review_pages": 0,
     "verified_pdf_range": [
       5,
-      94
+      109
     ],
     "verified_logical_printed_range": [
       3,
-      92
+      107
     ],
-    "next_pdf_page": 95,
-    "next_printed_page": 93
+    "next_pdf_page": null,
+    "next_printed_page": null
   },
   "historical_glyph_audit": {
-    "status": "in-progress-forward-combined-through-pdf-94",
+    "status": "complete-pass-canonical-range",
     "guide_path": "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "audit_path": "../notes/historical-glyph-audit.md",
     "sync_manifest_path": "../notes/historical-glyph-sync-manifest.json",
@@ -205,34 +205,34 @@
       "../notes/historical-glyph-audit-pdf-055-064.md",
       "../notes/historical-glyph-audit-pdf-065-074.md"
     ],
-    "canonical_range_audit_complete": false,
+    "canonical_range_audit_complete": true,
     "retrospective_backfill_source_review_complete": true,
     "retrospective_backfill_sync_complete": true,
-    "audited_pages": 90,
+    "audited_pages": 105,
     "reviewed_pdf_range": [
       5,
-      94
+      109
     ],
     "reviewed_logical_printed_range": [
       3,
-      92
+      107
     ],
-    "verified_pages": 90,
+    "verified_pages": 105,
     "verified_pdf_range": [
       5,
-      94
+      109
     ],
     "verified_logical_printed_range": [
       3,
-      92
+      107
     ],
-    "pending_pages": 15,
+    "pending_pages": 0,
     "review_pages": 0,
     "sync_pending_pdf_pages": [],
     "next_retrospective_pdf_page": null,
     "next_retrospective_printed_page": null,
-    "next_forward_pdf_page": 95,
-    "next_forward_printed_page": 93,
+    "next_forward_pdf_page": null,
+    "next_forward_printed_page": null,
     "retrospective_pdf_range": [
       5,
       74
@@ -266,21 +266,22 @@
   },
   "final_tamil_verification": {
     "policy": "visual-fidelity-and-historical-glyph-dual-gate",
-    "verified_pages": 90,
+    "verified_pages": 105,
     "verified_pdf_range": [
       5,
-      94
+      109
     ],
     "verified_logical_printed_range": [
       3,
-      92
+      107
     ],
     "review_pages": 0,
-    "pending_pages": 15,
+    "pending_pages": 0,
     "total_pages": 105,
-    "status": "in-progress"
+    "status": "complete-verified",
+    "verification_commit": "8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3"
   },
-  "next_pdf_page": 95,
-  "next_printed_page": 93,
-  "next_action": "Resume at PDF 95 / printed p.93 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 108-116 occurrence-by-occurrence. PDF 5-94 are closed as dual-gate verified."
+  "next_pdf_page": null,
+  "next_printed_page": null,
+  "next_action": "Begin scene-text derivatives from the 105/105 dual-gate verified canonical Tamil, using source-visible structural transitions as derivative boundaries and archive-only scene IDs; do not invent printed scene numbers."
 }

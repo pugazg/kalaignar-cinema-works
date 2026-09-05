@@ -35,10 +35,10 @@ Locked source verdicts:
 - first-pass state: **draft-complete**;
 - continuous assembled transcription: `transcription/full-text.md`, through **PDF 109**;
 - assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
-- open first-pass uncertainty markers: **9**;
+- open first-pass uncertainty markers: **0**;
 - final uncertainty ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**.
 
-The first-pass draft and assembly are complete, but final Tamil verification remains in progress.
+The first-pass draft, assembly, visual-fidelity audit and historical-glyph audit are complete. Canonical Tamil is **105/105 dual-gate verified**.
 
 ## Retrospective historical-glyph backfill — CLOSED through PDF 74
 
@@ -94,18 +94,19 @@ This closes only the **canonical Tamil first pass and assembly**. It does not cl
 | Source intake | complete |
 | Whole-scan inspection | complete — 111/111 |
 | Structural mapping | verified intake map |
-| Canonical Tamil first pass | **draft-complete — 105/105** |
+| Canonical Tamil first pass | **complete — 105/105** |
 | Full-text assembly | **complete — PDF 5–109** |
 | Boundary loss/duplication QA | **PASS** |
-| Visual fidelity audit | **90/105 passed — PDF 5–94** |
-| Historical Tamil glyph audit | **90/105 passed — PDF 5–94** |
-| Final dual-gate Tamil verification | **90/105 — PDF 5–94 closed** |
-| Retrospective PDF 5–74 glyph backfill | **CLOSED — source review + synchronization complete** |
-| PDF 95–109 | **15 pages pending — visual fidelity + glyph audit together** |
-| Scene/dialogue/character derivatives | blocked pending 105/105 dual-gate Tamil |
+| Visual fidelity audit | **complete — 105/105, PDF 5–109** |
+| Historical Tamil glyph audit | **complete — 105/105, PDF 5–109** |
+| Final dual-gate Tamil verification | **complete-verified — 105/105** |
+| Open canonical uncertainty markers | **0** |
+| Scene-text derivatives | **READY — next phase** |
+| Dialogue index | blocked until scene-text derivatives close |
+| Character index | blocked until dialogue index closes |
 | Song/performance authorship gate | not-started |
-| English translation / reader | blocked |
+| English translation / reader | blocked by derivative gate order |
 
 ## Exact next activity
 
-**Resume at PDF 95 / logical printed p.93.** From PDF 95–109, perform the rendered-scan **visual source-fidelity check and the complete historical-Tamil-glyph audit together on every page**. Adjudicate markers **108–116** occurrence-by-occurrence, preserve genuine old/colloquial forms when the source proves them, and never apply global replacement. Do not start structured derivatives, English translation or reader work until both gates reach **105/105** with no unresolved review pages.
+**Begin scene-text derivatives.** Build archive-only scene/segment IDs from the verified canonical Tamil using the source-visible transitions in `notes/scene-heading-audit.md`. Preserve source order, page anchors, exact headings, stage directions and speaker labels. Do **not** invent printed scene numbers. Run boundary-ownership QA before opening the dialogue-index phase.

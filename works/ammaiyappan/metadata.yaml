@@ -79,7 +79,7 @@ source_authority:
   historical_glyph_global_replacement_allowed: false
 
 transcription_progress:
-  status: dual-tamil-verification-in-progress
+  status: complete-verified-dual-gate
   transcription_index_path: "transcription/index.json"
   transcription_path: "transcription/full-text.md"
   transcription_readme_path: "transcription/README.md"
@@ -142,56 +142,56 @@ transcription_progress:
     - path: "transcription/parts/pdf-095-104.md"
       pdf_pages: "95-104"
       printed_pages: "93-102"
-      status: draft
+      status: verified-dual-gate
     - path: "transcription/parts/pdf-105-109.md"
       pdf_pages: "105-109"
       printed_pages: "103-107"
-      status: draft
-  visual_fidelity_passed_pages: 90
-  historical_glyph_verified_pages: 90
-  verified_pages: 90
+      status: verified-dual-gate
+  visual_fidelity_passed_pages: 105
+  historical_glyph_verified_pages: 105
+  verified_pages: 105
   draft_pages: 105
   review_pages: 0
-  open_first_pass_uncertainty_markers: 9
+  open_first_pass_uncertainty_markers: 0
   retrospective_historical_glyph_source_review_complete: true
   retrospective_historical_glyph_sync_complete: true
   retrospective_historical_glyph_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
-  next_pdf_page: 95
-  next_logical_printed_page: 93
-  next_action: "Resume at PDF 95 / logical printed p.93 with visual source-fidelity and historical-Tamil-glyph verification together; PDF 5-94 are closed as dual-gate verified."
+  next_pdf_page: null
+  next_logical_printed_page: null
+  next_action: "Begin scene-text derivatives from verified canonical Tamil; use source-visible transition boundaries and archive-only scene IDs."
 
 fidelity_audit:
   status: in-progress
-  canonical_range_audit_complete: false
+  canonical_range_audit_complete: true
   audited_pages: 90
-  verified_pages: 90
+  verified_pages: 105
   review_pages: 0
   unresolved_source_readings: 9
-  verified_pdf_pages: "5-94"
-  verified_logical_printed_pages: "3-92"
-  next_pdf_page: 95
-  next_logical_printed_page: 93
+  verified_pdf_pages: "5-109"
+  verified_logical_printed_pages: "3-107"
+  next_pdf_page: null
+  next_logical_printed_page: null
 
 historical_glyph_audit:
-  status: retrospective-complete-forward-combined-pending
+  status: complete-pass-canonical-range
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
   sync_manifest_path: "notes/historical-glyph-sync-manifest.json"
   sync_report_path: "notes/historical-glyph-sync-report.json"
-  canonical_range_audit_complete: false
+  canonical_range_audit_complete: true
   retrospective_source_review_complete: true
   retrospective_sync_complete: true
   retrospective_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
-  formally_verified_pages: 90
-  verified_pdf_pages: "5-94"
-  verified_logical_printed_pages: "3-92"
-  pending_pages: 15
+  formally_verified_pages: 105
+  verified_pdf_pages: "5-109"
+  verified_logical_printed_pages: "3-107"
+  pending_pages: 0
   review_pages: 0
   sync_pending_pages: 0
   retrospective_pdf_pages: "5-74"
   forward_combined_pdf_pages: "75-109"
-  next_pdf_page: 95
-  next_logical_printed_page: 93
+  next_pdf_page: null
+  next_logical_printed_page: null
   preserve_controls_passed: "48,62,64,69"
   minimum_known_families:
     - "ணா"
@@ -210,19 +210,19 @@ historical_glyph_audit:
 
 final_tamil_verification:
   policy: visual-fidelity-and-historical-glyph-dual-gate
-  verified_pages: 90
-  verified_pdf_pages: "5-94"
-  verified_logical_printed_pages: "3-92"
-  pending_pages: 15
+  verified_pages: 105
+  verified_pdf_pages: "5-109"
+  verified_logical_printed_pages: "3-107"
+  pending_pages: 0
   review_pages: 0
   total_pages: 105
   status: in-progress
 
 structured_derivatives:
-  scene_index: blocked-pending-dual-gate-verified-tamil
-  scene_text_derivatives: blocked-pending-dual-gate-verified-tamil
-  dialogue_index: blocked-pending-dual-gate-verified-tamil
-  character_index: blocked
+  scene_index: ready
+  scene_text_derivatives: ready
+  dialogue_index: blocked-pending-scene-text-derivatives-pending-scene-text-derivatives
+  character_index: blocked-pending-dialogue-index
   song_authorship_mapping: not-started
   english_translation: blocked
   reader_export: blocked
@@ -236,15 +236,15 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: in-progress-90-of-105
-  historical_glyph_audit: in-progress-90-of-105-forward-combined
-  final_tamil_verification: in-progress-90-of-105-dual-gate
-  scene_derivatives: blocked
-  dialogue_index: blocked
-  character_index: blocked
+  visual_fidelity_audit: complete-verified-105-of-105
+  historical_glyph_audit: complete-verified-105-of-105
+  final_tamil_verification: complete-verified-105-of-105-dual-gate
+  scene_derivatives: ready
+  dialogue_index: blocked-pending-scene-text-derivatives
+  character_index: blocked-pending-dialogue-index
   song_authorship_gate: not-started
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Resume at PDF 95 / logical printed p.93 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 108-116 occurrence-by-occurrence. PDF 5-94 are closed unless new direct source evidence requires a specific local correction. Structured derivatives remain blocked until both gates reach 105/105."
+next_action: "Begin scene-text derivatives from verified canonical Tamil; use source-visible transition boundaries and archive-only scene IDs. Do not invent printed scene numbers."
