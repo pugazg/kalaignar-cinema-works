@@ -17,7 +17,18 @@ jobs:
         with:
           fetch-depth: 0
       - name: Apply PDF 35-44 fidelity corrections
-        run: python .github/scripts/ammaiyappan_fidelity_035_044.py
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('.github/scripts/ammaiyappan_fidelity_035_044.py')
+          s = p.read_text(encoding='utf-8')
+          old = '    m = rep(m, old, new, label)'
+          new = '    m = rep(m, old, new, label, 2 if label == "metadata verified" else 1)'
+          if s.count(old) != 1:
+              raise SystemExit(f'patch target count={s.count(old)}')
+          p.write_text(s.replace(old, new), encoding='utf-8')
+          PY
+          python .github/scripts/ammaiyappan_fidelity_035_044.py
       - name: Commit synchronized checkpoint and remove one-off files
         run: |
           rm -f .github/scripts/ammaiyappan_fidelity_035_044.py
