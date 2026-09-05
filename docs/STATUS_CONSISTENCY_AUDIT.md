@@ -24,31 +24,19 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; visual fidelity 80/105; historical-glyph 80/105; final dual-gate verified 80/105** | scene/dialogue/character blocked pending 105/105 dual-gate verified Tamil | blocked | blocked | blocked |
 
-## Ammayappan dual-gate checkpoint after retrospective glyph closure
+## Ammayappan dual-gate checkpoint through PDF 94
 
-- source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`;
-- canonical Tamil first pass: **draft-complete — 105/105 pages**;
-- continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
-- assembly QA: **PASS — 105 anchors / exact PDF 5→109 / 0 missing / 0 duplicate**;
-- visual source fidelity: **80/105 passed — PDF 5–84 / logical pp.3–82**;
-- historical Tamil glyph gate: **80/105 passed — PDF 5–84 / logical pp.3–82**;
-- final dual-gate Tamil verification: **80/105**;
-- retrospective PDF 5–74 glyph source review: **70/70 complete**;
-- correction-bearing pages: **38**; correction-free pages: **32**;
-- occurrence-specific synchronization: **complete** — commit `880978627191a122f55b50522d112d163faa7e10`;
-- synchronization report: `works/ammaiyappan/notes/historical-glyph-sync-report.json`;
-- synchronized logical occurrences across canonical/provenance surfaces: **97**;
-- global replacement: **0**;
-- source whitespace/layout preserved: **yes**;
-- genuine controls PDF 48 / 62 / 64 / 69: **PASS / preserved**;
-- remaining range: **PDF 85–109 = 25 pages**;
-- open first-pass uncertainty markers: **29 — markers 98–116**;
-- structured derivatives / English / reader: **blocked until 105/105 dual-gate verified**.
+- canonical Tamil first pass: **105/105 draft-complete**;
+- visual source fidelity: **90/105 — PDF 5–94 passed**;
+- historical Tamil glyph gate: **90/105 — PDF 5–94 passed**;
+- final dual-gate Tamil verification: **90/105**;
+- PDF 85–94 verification: **PASS — 10/10**, commit `1911df2c97d45dfe07f1b9073bdf6368378ddf44`;
+- PDF 85–94 uncertainty markers: **98–107 closed; 0 remain in range**;
+- canonical/provenance agreement for PDF 85–94: **PASS**;
+- remaining: **PDF 95–109 = 15 pages / markers 108–116 = 9**;
+- derivatives / English / reader: **blocked until 105/105**.
 
-The minimum historical/reform-sensitive families remain `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. This is a minimum set only; source pixels and same-edition evidence control every character-identity decision.
-
-Exact next activity: **resume at PDF 85 / logical printed p.83 with visual source-fidelity and historical-Tamil-glyph verification together**. PDF 5–74 are closed unless new direct source evidence requires a specific local correction.
-
+Exact next activity: **PDF 95 / logical printed p.93** with both gates together.
 ## Manthiri Kumari reconciliation checkpoint
 
 - source: **14 PDF pages**, image-only, SHA-256 `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;

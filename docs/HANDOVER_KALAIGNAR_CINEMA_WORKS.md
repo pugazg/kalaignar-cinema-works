@@ -434,15 +434,16 @@ Only when the separate Kalaignar Digital Library / Reading Room implementation r
 Work path: `works/ammaiyappan/`  
 Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
-- canonical first pass: **105/105 draft-complete**;
+- canonical first pass: **105/105 draft-complete**, assembled through PDF 109;
 - assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- visual source-fidelity: **80/105 — PDF 5–84 / logical pp.3–82 passed**;
-- historical-Tamil-glyph audit: **80/105 — PDF 5–84 / logical pp.3–82 passed**;
-- final dual-gate Tamil verified: **80/105**;
-- retrospective glyph backfill: **PDF 5–74 CLOSED**;
-- forward PDF 75–84 combined audit: **10/10 PASS**, commit `0da97f94e829bef9b387bf59be580933b97ed122`;
-- remaining range: **PDF 85–109 = 25 pages**;
-- open first-pass uncertainty markers: **19 — markers 98–116**;
-- structured derivatives / English / reader: **blocked pending 105/105 dual-gate verified Tamil**.
+- visual source fidelity: **90/105 — PDF 5–94 / logical pp.3–92 passed**;
+- historical-Tamil-glyph audit: **90/105 — PDF 5–94 / logical pp.3–92 passed**;
+- final dual-gate Tamil verified: **90/105**;
+- retrospective PDF 5–74 glyph backfill: **CLOSED**;
+- forward PDF 75–84: **PASS**;
+- forward PDF 85–94: **PASS**, commit `1911df2c97d45dfe07f1b9073bdf6368378ddf44`, report `works/ammaiyappan/notes/dual-gate-sync-report-pdf-085-094.json`;
+- remaining PDF 95–109: **15 pages**;
+- unresolved first-pass markers: **9 — markers 108–116**;
+- structured derivatives / English / reader: **blocked pending 105/105 dual-gate Tamil**.
 
-**Exact next activity:** resume at **PDF 85 / logical printed p.83**, performing rendered-scan visual source-fidelity verification and the historical-Tamil-glyph audit together; adjudicate markers 98–116 only from source evidence.
+**Exact next activity:** resume at **PDF 95 / logical printed p.93** and perform visual source-fidelity + historical-Tamil-glyph verification together; adjudicate markers 108–116 only from source evidence.

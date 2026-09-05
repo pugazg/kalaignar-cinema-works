@@ -1,3 +1,4 @@
+<!-- current-checkpoint: PDF 5-94 dual-gate verified; next PDF 95; verification commit 1911df2c97d45dfe07f1b9073bdf6368378ddf44 -->
 <!-- current-checkpoint: dual-gate verified PDF 5-84; next PDF 85; commit 0da97f94e829bef9b387bf59be580933b97ed122 -->
 # அம்மையப்பன் — canonical Tamil visual fidelity audit
 

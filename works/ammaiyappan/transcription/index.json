@@ -22,11 +22,11 @@
     107
   ],
   "draft_pages": 105,
-  "verified_pages": 80,
-  "visual_fidelity_passed_pages": 80,
-  "historical_glyph_verified_pages": 80,
+  "verified_pages": 90,
+  "visual_fidelity_passed_pages": 90,
+  "historical_glyph_verified_pages": 90,
   "review_pages": 0,
-  "open_uncertainty_markers": 19,
+  "open_uncertainty_markers": 9,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
     "../notes/textual-notes-pdf-065-074.md",
@@ -142,7 +142,7 @@
           83,
           92
         ],
-        "status": "draft"
+        "status": "verified-dual-gate"
       },
       {
         "path": "parts/pdf-095-104.md",
@@ -174,23 +174,23 @@
   "fidelity_audit": {
     "status": "in-progress",
     "canonical_range_audit_complete": false,
-    "audited_pages": 80,
-    "verified_pages": 80,
-    "unresolved_source_readings": 19,
+    "audited_pages": 90,
+    "verified_pages": 90,
+    "unresolved_source_readings": 9,
     "review_pages": 0,
     "verified_pdf_range": [
       5,
-      84
+      94
     ],
     "verified_logical_printed_range": [
       3,
-      82
+      92
     ],
-    "next_pdf_page": 85,
-    "next_printed_page": 83
+    "next_pdf_page": 95,
+    "next_printed_page": 93
   },
   "historical_glyph_audit": {
-    "status": "in-progress-forward-combined-through-pdf-84",
+    "status": "in-progress-forward-combined-through-pdf-94",
     "guide_path": "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "audit_path": "../notes/historical-glyph-audit.md",
     "sync_manifest_path": "../notes/historical-glyph-sync-manifest.json",
@@ -208,31 +208,31 @@
     "canonical_range_audit_complete": false,
     "retrospective_backfill_source_review_complete": true,
     "retrospective_backfill_sync_complete": true,
-    "audited_pages": 80,
+    "audited_pages": 90,
     "reviewed_pdf_range": [
       5,
-      84
+      94
     ],
     "reviewed_logical_printed_range": [
       3,
-      82
+      92
     ],
-    "verified_pages": 80,
+    "verified_pages": 90,
     "verified_pdf_range": [
       5,
-      84
+      94
     ],
     "verified_logical_printed_range": [
       3,
-      82
+      92
     ],
-    "pending_pages": 25,
+    "pending_pages": 15,
     "review_pages": 0,
     "sync_pending_pdf_pages": [],
     "next_retrospective_pdf_page": null,
     "next_retrospective_printed_page": null,
-    "next_forward_pdf_page": 85,
-    "next_forward_printed_page": 83,
+    "next_forward_pdf_page": 95,
+    "next_forward_printed_page": 93,
     "retrospective_pdf_range": [
       5,
       74
@@ -266,21 +266,21 @@
   },
   "final_tamil_verification": {
     "policy": "visual-fidelity-and-historical-glyph-dual-gate",
-    "verified_pages": 80,
+    "verified_pages": 90,
     "verified_pdf_range": [
       5,
-      84
+      94
     ],
     "verified_logical_printed_range": [
       3,
-      82
+      92
     ],
     "review_pages": 0,
-    "pending_pages": 25,
+    "pending_pages": 15,
     "total_pages": 105,
     "status": "in-progress"
   },
-  "next_pdf_page": 85,
-  "next_printed_page": 83,
-  "next_action": "Resume at PDF 85 / printed p.83. Perform visual source-fidelity verification and the historical-Tamil-glyph audit together on every page, adjudicating markers 98-116 occurrence-by-occurrence. PDF 5-84 are closed as dual-gate verified; PDF 5-74 remain the completed retrospective glyph-backfill range."
+  "next_pdf_page": 95,
+  "next_printed_page": 93,
+  "next_action": "Resume at PDF 95 / printed p.93 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 108-116 occurrence-by-occurrence. PDF 5-94 are closed as dual-gate verified."
 }

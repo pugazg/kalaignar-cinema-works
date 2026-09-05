@@ -15,15 +15,15 @@ Because this 1954 source contains frequent historical Tamil typeforms, a page is
 - canonical pages expected: **105**;
 - first-pass pages completed: **105 / 105**;
 - first-pass status: **draft-complete**;
-- visual-fidelity-passed pages: **80/105 — PDF 5–84**;
-- historical-glyph-passed pages: **80/105 — PDF 5–84**;
-- final dual-gate verified pages: **80/105 — PDF 5–84**;
+- visual-fidelity-passed pages: **90/105 — PDF 5–94**;
+- historical-glyph-passed pages: **90/105 — PDF 5–94**;
+- final dual-gate verified pages: **90/105 — PDF 5–94**;
 - current dual-gate review pages: **0** in the closed PDF 5–74 range;
-- remaining canonical pages: **25 — PDF 85–109**;
-- open first-pass uncertain readings: **19**;
+- remaining canonical pages: **15 — PDF 95–109**;
+- open first-pass uncertain readings: **9**;
 - continuous assembled transcription: `full-text.md` through **PDF 109**;
 - assembly QA: `ASSEMBLY_QA.md` — **PASS**;
-- next source page: **PDF 85 / logical printed p.83**.
+- next source page: **PDF 95 / logical printed p.93**.
 
 PDF 5 has no visible printed folio. Its anchor records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
 
@@ -91,10 +91,10 @@ Character identity must be established from enlarged/native source pixels. Use s
 - PDF 55–64: same status; preserves locked `பழுதார் வீதி` and PDF 64→65 quoted-poetry boundary.
 - PDF 65–74: canonical range now dual-gate verified after retrospective backfill; retained first-pass part remains a provenance artifact with its original uncertainty history.
 - PDF 75–84: **dual-gate verified**; markers 88–97 resolved from the rendered scan; synchronization report `../notes/dual-gate-sync-report-pdf-075-084.json`.
-- PDF 85–94: draft complete, 10 batch markers; dual-gate verification pending.
+- PDF 85–94: **dual-gate verified**; markers 98–107 closed from the rendered scan; synchronization report `../notes/dual-gate-sync-report-pdf-085-094.json`.
 - PDF 95–104: draft complete, 7 batch markers numbered 108–114; dual-gate verification pending.
 - PDF 105–109: final draft batch complete, 2 batch markers numbered **115–116**; dual-gate verification pending; preserves the PDF 104→105 continuation and locked `தூக்குமேடை` heading.
 
 ## Exact next activity
 
-Resume at **PDF 85 / logical printed p.83** and perform **visual source-fidelity + historical-Tamil-glyph verification together**. Adjudicate markers **98–116** occurrence-by-occurrence. PDF 5–84 are closed and should not be reopened unless new direct source evidence requires a specific local correction. Structured derivatives stay blocked until both verification gates reach **105/105**.
+Resume at **PDF 95 / logical printed p.93** and perform **visual source-fidelity + historical-Tamil-glyph verification together**. Adjudicate markers **108–116** occurrence-by-occurrence. PDF 5–94 are closed and should not be reopened unless new direct source evidence requires a specific local correction. Structured derivatives stay blocked until both verification gates reach **105/105**.

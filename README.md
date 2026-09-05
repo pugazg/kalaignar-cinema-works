@@ -74,23 +74,22 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first pass is complete and whose Tamil verification uses a **dual gate: visual source fidelity + historical-Tamil-glyph verification**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** using a mandatory dual Tamil gate: visual source fidelity + historical-Tamil-glyph verification.
 
-- canonical Tamil first pass: **draft-complete — 105/105 pages**;
-- first-pass assembly QA: **PASS — 105 anchors, exact PDF 5→109 order, 0 missing, 0 duplicate**;
-- visual source-fidelity audit: **80/105 passed — PDF 5–84 / logical pp.3–82**;
-- historical Tamil glyph audit: **80/105 passed — PDF 5–84 / logical pp.3–82**;
-- final dual-gate Tamil verified: **80/105**;
-- retrospective historical-glyph backfill: **PDF 5–74 CLOSED**;
-- forward combined dual-gate batch PDF 75–84: **10/10 PASS**, commit `0da97f94e829bef9b387bf59be580933b97ed122`;
-- PDF 85–109: **25 pages pending**;
-- open first-pass uncertainty markers: **19 — markers 98–116**;
-- structured derivatives / English / reader: **blocked pending complete 105/105 dual-gate verified Tamil**.
+- canonical Tamil first pass: **105/105 draft-complete**;
+- assembly QA: **PASS — PDF 5–109, 105 anchors, 0 missing, 0 duplicate**;
+- visual source fidelity: **90/105 passed — PDF 5–94 / logical pp.3–92**;
+- historical Tamil glyph audit: **90/105 passed — PDF 5–94 / logical pp.3–92**;
+- final dual-gate Tamil verified: **90/105**;
+- retrospective historical-glyph backfill PDF 5–74: **CLOSED**;
+- forward dual-gate batches PDF 75–84 and PDF 85–94: **CLOSED / PASS**;
+- PDF 85–94 verification commit: `1911df2c97d45dfe07f1b9073bdf6368378ddf44`;
+- PDF 85–94 report: `works/ammaiyappan/notes/dual-gate-sync-report-pdf-085-094.json` — **10/10 pages, 0 markers remaining, canonical/provenance PASS**;
+- remaining: **PDF 95–109 = 15 pages**;
+- open first-pass uncertainty markers: **9 — markers 108–116**;
+- structured derivatives / English / reader: **blocked pending 105/105 dual-gate Tamil**.
 
-The historical-glyph pass follows `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`. No global historical-glyph replacement is permitted; source pixels and same-edition evidence control character identity.
-
-**Next:** resume at **PDF 85 / logical printed p.83** with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 98–116 occurrence-by-occurrence.
-
+**Next:** resume at **PDF 95 / logical printed p.93** with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 108–116 occurrence-by-occurrence.
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
 The dedicated anthology work `works/kalaignar-thirai-isai-paadalgal/` is complete-verified for its numbered corpus.

@@ -1,3 +1,4 @@
+<!-- current-checkpoint: PDF 5-94 dual-gate verified; next PDF 95; verification commit 1911df2c97d45dfe07f1b9073bdf6368378ddf44 -->
 # அம்மையப்பன் — Historical Tamil Glyph Audit
 
 ## Forward combined-gate checkpoint through PDF 84 — 2026-09-05
