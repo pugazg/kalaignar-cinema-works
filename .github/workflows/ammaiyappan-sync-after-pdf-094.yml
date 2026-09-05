@@ -1,0 +1,92 @@
+name: Ammayappan checkpoint after PDF 94
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/ammaiyappan-sync-after-pdf-094.yml"
+      - "works/ammaiyappan/scripts/sync_checkpoint_after_pdf_094.py"
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Synchronize checkpoint through PDF 94
+        run: python works/ammaiyappan/scripts/sync_checkpoint_after_pdf_094.py
+
+      - name: Verify changed paths
+        shell: bash
+        run: |
+          git status --short
+          python - <<'PY'
+          import subprocess
+          allowed = {
+              'works/ammaiyappan/transcription/index.json',
+              'works/ammaiyappan/metadata.yaml',
+              'works/ammaiyappan/README.md',
+              'works/ammaiyappan/PROJECT_HANDOVER.md',
+              'works/ammaiyappan/transcription/README.md',
+              'README.md',
+              'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md',
+              'docs/STATUS_CONSISTENCY_AUDIT.md',
+              'data/works.json',
+              'works/ammaiyappan/notes/fidelity-audit.md',
+              'works/ammaiyappan/notes/historical-glyph-audit.md',
+          }
+          changed = {
+              line[3:] for line in subprocess.check_output(['git', 'status', '--short'], text=True).splitlines()
+              if line.strip()
+          }
+          extra = changed - allowed
+          if extra:
+              raise SystemExit(f'unexpected changed paths: {sorted(extra)}')
+          required = {
+              'works/ammaiyappan/transcription/index.json',
+              'works/ammaiyappan/metadata.yaml',
+              'works/ammaiyappan/README.md',
+              'works/ammaiyappan/PROJECT_HANDOVER.md',
+              'works/ammaiyappan/transcription/README.md',
+              'README.md',
+              'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md',
+              'docs/STATUS_CONSISTENCY_AUDIT.md',
+              'data/works.json',
+          }
+          missing = required - changed
+          if missing:
+              raise SystemExit(f'expected status paths missing: {sorted(missing)}')
+          PY
+
+      - name: Commit synchronized status mirrors
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            works/ammaiyappan/transcription/index.json \
+            works/ammaiyappan/metadata.yaml \
+            works/ammaiyappan/README.md \
+            works/ammaiyappan/PROJECT_HANDOVER.md \
+            works/ammaiyappan/transcription/README.md \
+            README.md \
+            docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md \
+            docs/STATUS_CONSISTENCY_AUDIT.md \
+            data/works.json \
+            works/ammaiyappan/notes/fidelity-audit.md \
+            works/ammaiyappan/notes/historical-glyph-audit.md
+          git commit -m "Synchronize Ammayappan checkpoint through PDF 94 [skip ci]"
+          git push origin HEAD:main
