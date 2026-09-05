@@ -2,12 +2,12 @@
 
 Source-led archival work for `TVA_BOK_0064230_அம்மையப்பன்.pdf`. The rendered scan controls canonical Tamil; OCR, film audio, subtitles, web text and later editions are non-canonical.
 
-Because this 1954 source contains frequent historical Tamil typeforms, canonical Tamil now requires **two independent verification gates**:
+Because this 1954 source contains frequent historical Tamil typeforms, canonical Tamil requires **two independent verification gates**:
 
 1. complete visual source-fidelity comparison; and
 2. historical-Tamil-glyph verification under `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`.
 
-A page is final Tamil verified only when both gates pass. Work-level tracking is in `notes/historical-glyph-audit.md`.
+A page is final Tamil verified only when both gates pass. Work-level tracking is in `notes/historical-glyph-audit.md`; the completed retrospective correction synchronization is recorded by `notes/historical-glyph-sync-manifest.json` and `notes/historical-glyph-sync-report.json`.
 
 ## Source checkpoint
 
@@ -33,20 +33,30 @@ Locked source verdicts:
 - completed first-pass range: **PDF 5–109 / printed pp.3–107**;
 - progress: **105/105 pages**;
 - first-pass state: **draft-complete**;
-- visual-fidelity-passed pages: **70/105**;
-- historical-glyph-cleared pages under the explicit new gate: **0/105** at gate introduction;
-- final dual-gate Tamil verified pages: **0/105** at gate introduction;
-- open first-pass uncertainty markers: **29**;
-- final bounded source batch: `transcription/parts/pdf-105-109.md`;
-- final uncertainty ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**;
-- continuous assembled transcription: `transcription/full-text.md`, now through **PDF 109**;
+- continuous assembled transcription: `transcription/full-text.md`, through **PDF 109**;
 - assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
-- visual fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 passed (70/105)**;
-- historical Tamil glyph audit: **required for all 105 canonical pages**.
+- open first-pass uncertainty markers: **29**;
+- final uncertainty ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**.
 
-The existing PDF 5–74 visual-fidelity result remains valid as visual evidence, but those 70 pages require a retrospective historical-glyph pass before they can be considered final Tamil verified. For PDF 75–109, visual fidelity and historical-glyph verification must be performed together.
+The first-pass draft and assembly are complete, but final Tamil verification remains in progress.
 
-The final batch preserves the PDF 104→105 continuation, the source-visible `வேங்கையூர்`, `நகரின் வீதி`, **`தூக்குமேடை`**, and `வெளியே` transitions, and closes the screenplay/dialogue body at PDF 109 / printed p.107. The final two insecure readings remain explicitly marked rather than reconstructed.
+## Retrospective historical-glyph backfill — CLOSED through PDF 74
+
+The previously visual-passed PDF 5–74 range was re-inspected from the source for historical Tamil typeforms before forward verification resumed.
+
+- retrospective source review: **PDF 5–74 = 70/70 pages complete**;
+- pages requiring no historical-glyph correction: **32**;
+- pages with source-established correction sets: **38**;
+- correction synchronization: **complete**;
+- synchronization commit: `880978627191a122f55b50522d112d163faa7e10`;
+- synchronized logical occurrences across canonical/provenance surfaces: **97**;
+- global replacement used: **no**;
+- source whitespace/layout preserved by the synchronization pass: **yes**;
+- genuine same-edition control readings preserved on PDF **48, 62, 64 and 69**: **PASS**.
+
+The synchronization report is `notes/historical-glyph-sync-report.json`. Retained first-pass provenance was changed only where the matching audited occurrence existed; older unresolved placeholders were not silently filled from the newer canonical layer.
+
+Therefore **PDF 5–74 / logical pp.3–72 are now dual-gate verified: 70/105 pages**.
 
 ## Historical Tamil glyph gate
 
@@ -69,7 +79,7 @@ The continuous draft was assembled from the existing PDF 5–14 `full-text.md` p
 - rejected `தாக்குமேடை`: **absent**;
 - visible unresolved first-pass spans: **116**.
 
-This closes only the **canonical Tamil first pass and assembly**. It does **not** close the dual verification gate.
+This closes only the **canonical Tamil first pass and assembly**. It does not close the remaining PDF 75–109 dual verification.
 
 ## Current status
 
@@ -81,15 +91,15 @@ This closes only the **canonical Tamil first pass and assembly**. It does **not*
 | Canonical Tamil first pass | **draft-complete — 105/105** |
 | Full-text assembly | **complete — PDF 5–109** |
 | Boundary loss/duplication QA | **PASS** |
-| Visual fidelity audit | **in-progress — 70/105 passed** |
-| Historical Tamil glyph audit | **required — 0/105 formally cleared at gate introduction** |
-| Final dual-gate Tamil verification | **0/105 at gate introduction** |
-| PDF 5–74 | visual-pass / glyph-pending — retrospective glyph backfill required |
-| PDF 75–109 | visual-pending / glyph-pending — run both together |
-| Scene/dialogue/character derivatives | blocked pending dual-gate verified Tamil |
+| Visual fidelity audit | **70/105 passed — PDF 5–74** |
+| Historical Tamil glyph audit | **70/105 passed — PDF 5–74** |
+| Final dual-gate Tamil verification | **70/105 — PDF 5–74 closed** |
+| Retrospective PDF 5–74 glyph backfill | **CLOSED — source review + synchronization complete** |
+| PDF 75–109 | **35 pages pending — visual fidelity + glyph audit together** |
+| Scene/dialogue/character derivatives | blocked pending 105/105 dual-gate Tamil |
 | Song/performance authorship gate | not-started |
 | English translation / reader | blocked |
 
 ## Exact next activity
 
-**Continue at PDF 75 / logical printed p.73, but from this point every rendered-scan visual fidelity check must simultaneously perform the full historical-Tamil-glyph audit.** Adjudicate markers 88–116 occurrence-by-occurrence and inspect the complete known historical family set on every page. Before Tamil closure, perform the mandatory retrospective historical-glyph backfill for PDF 5–74. No structured derivative or English/reader work may treat the Tamil layer as verified until both gates reach **105/105**.
+**Resume at PDF 75 / logical printed p.73.** From PDF 75–109, perform the rendered-scan **visual source-fidelity check and the complete historical-Tamil-glyph audit together on every page**. Adjudicate markers **88–116** occurrence-by-occurrence, preserve genuine old/colloquial forms when the source proves them, and never apply global replacement. Do not start structured derivatives, English translation or reader work until both gates reach **105/105** with no unresolved review pages.
