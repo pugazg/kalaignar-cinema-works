@@ -26,13 +26,13 @@ Locked source verdicts:
 - completed first-pass range: **PDF 5–109 / printed pp.3–107**;
 - progress: **105/105 pages**;
 - first-pass state: **draft-complete**;
-- verified pages: **30**;
-- open first-pass uncertainty markers: **97**;
+- verified pages: **40**;
+- open first-pass uncertainty markers: **92**;
 - final bounded source batch: `transcription/parts/pdf-105-109.md`;
 - final uncertainty ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**;
 - continuous assembled transcription: `transcription/full-text.md`, now through **PDF 109**;
 - assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
-- visual fidelity audit: **in-progress — PDF 5–34 / logical pp.3–32 verified (30/105)**.
+- visual fidelity audit: **in-progress — PDF 5–44 / logical pp.3–42 verified (40/105)**.
 
 The final batch preserves the PDF 104→105 continuation, the source-visible `வேங்கையூர்`, `நகரின் வீதி`, **`தூக்குமேடை`**, and `வெளியே` transitions, and closes the screenplay/dialogue body at PDF 109 / printed p.107. The final two insecure readings remain explicitly marked rather than reconstructed.
 
@@ -61,12 +61,12 @@ This closes only the **canonical Tamil first pass and assembly**. It does **not*
 | Canonical Tamil first pass | **draft-complete — 105/105** |
 | Full-text assembly | **complete — PDF 5–109** |
 | Boundary loss/duplication QA | **PASS** |
-| Visual fidelity audit | **in-progress — 30/105 verified** |
-| Verified Tamil pages | **20/105** |
+| Visual fidelity audit | **in-progress — 40/105 verified** |
+| Verified Tamil pages | **40/105** |
 | Scene/dialogue/character derivatives | blocked pending verified Tamil |
 | Song/performance authorship gate | not-started |
 | English translation / reader | blocked |
 
 ## Exact next activity
 
-**Continue the rendered-scan visual fidelity audit at PDF 35 / logical printed p.33.** Resolve the remaining **97** explicit first-pass readings occurrence-by-occurrence, upgrade pages only after full-page direct scan comparison, and keep all structured derivatives blocked until the complete 105-page canonical range is verified.
+**Continue the rendered-scan visual fidelity audit at PDF 45 / logical printed p.43.** Resolve the remaining **92** explicit first-pass readings occurrence-by-occurrence, upgrade pages only after full-page direct scan comparison, and keep all structured derivatives blocked until the complete 105-page canonical range is verified.

@@ -759,10 +759,10 @@
     "canonical_tamil_first_pass_pages_completed": 105,
     "canonical_tamil_first_pass_pdf_range_completed": "5-109",
     "canonical_tamil_first_pass_printed_range_completed": "3-107",
-    "canonical_tamil_draft_pages": 75,
-    "canonical_tamil_verified_pages": 30,
+    "canonical_tamil_draft_pages": 65,
+    "canonical_tamil_verified_pages": 40,
     "canonical_tamil_review_pages": 0,
-    "canonical_tamil_open_uncertainty_markers": 97,
+    "canonical_tamil_open_uncertainty_markers": 92,
     "canonical_tamil_index_path": "works/ammaiyappan/transcription/index.json",
     "canonical_tamil_full_text_current_through_pdf_page": 109,
     "canonical_tamil_part_files": [
@@ -777,7 +777,7 @@
       "works/ammaiyappan/transcription/parts/pdf-095-104.md",
       "works/ammaiyappan/transcription/parts/pdf-105-109.md"
     ],
-    "tamil_fidelity_audit": "in-progress-30-of-105",
+    "tamil_fidelity_audit": "in-progress-40-of-105",
     "structured_derivatives": {
       "scene_index": "blocked-pending-verified-tamil",
       "dialogue_index": "blocked-pending-verified-tamil",
@@ -788,26 +788,26 @@
       "reading_room_integration": "blocked",
       "scene_text_derivatives": "blocked-pending-verified-tamil"
     },
-    "next_action": "Continue the rendered-scan visual fidelity audit at PDF 35 / logical printed p.33. Resolve the remaining 97 explicit first-pass readings before structured derivatives.",
+    "next_action": "Continue the rendered-scan visual fidelity audit at PDF 45 / logical printed p.43. Resolve the remaining 92 explicit first-pass readings before structured derivatives.",
     "tamil_transcription": "fidelity-audit-in-progress",
     "tamil_first_pass_complete": true,
     "tamil_transcription_through_pdf_page": 109,
     "tamil_transcription_through_logical_printed_page": 107,
-    "tamil_transcription_draft_pages": 75,
-    "tamil_transcription_verified_pages": 30,
+    "tamil_transcription_draft_pages": 65,
+    "tamil_transcription_verified_pages": 40,
     "tamil_transcription_review_pages": 0,
     "canonical_range_fidelity_audit_complete": false,
     "total_canonical_pages": 105,
-    "total_verified_pages": 30,
+    "total_verified_pages": 40,
     "total_review_pages": 0,
-    "open_first_pass_uncertainty_markers": 97,
+    "open_first_pass_uncertainty_markers": 92,
     "first_pass_assembly": "complete-pass",
     "first_pass_assembly_path": "works/ammaiyappan/transcription/full-text.md",
     "first_pass_assembly_qa_path": "works/ammaiyappan/transcription/ASSEMBLY_QA.md",
     "canonical_tamil_assembly_status": "complete-pass",
     "canonical_tamil_assembly_qa_path": "works/ammaiyappan/transcription/ASSEMBLY_QA.md",
-    "fidelity_audit_verified_pdf_pages": "5-34",
-    "fidelity_audit_verified_logical_printed_pages": "3-32",
-    "fidelity_audit_next_pdf_page": 35
+    "fidelity_audit_verified_pdf_pages": "5-44",
+    "fidelity_audit_verified_logical_printed_pages": "3-42",
+    "fidelity_audit_next_pdf_page": 45
   }
 ]

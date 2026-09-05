@@ -21,10 +21,11 @@ Canonical range: **PDF 5–109 / logical printed pp.3–107 — 105 pages**
 | PDF 5–14 / logical pp.3–12 | 10 | 0 | 0 | verified |
 | PDF 15–24 / logical pp.13–22 | 10 | 0 | 0 | verified |
 | PDF 25–34 / logical pp.23–32 | 10 | 0 | 0 | verified |
-| PDF 35–109 / logical pp.33–107 | 0 | 0 | 75 | pending |
-| **Total** | **30** | **0** | **75** | **in progress** |
+| PDF 35–44 / logical pp.33–42 | 10 | 0 | 0 | verified |
+| PDF 45–109 / logical pp.43–107 | 0 | 0 | 65 | pending |
+| **Total** | **40** | **0** | **65** | **in progress** |
 
-Open first-pass uncertainty markers after this audit checkpoint: **97** (markers **1–19 resolved**; markers **20–116 remain for later source-order review**).
+Open first-pass uncertainty markers after this audit checkpoint: **92** (markers **1–24 resolved**; markers **25–116 remain for later source-order review**).
 
 ## PDF 5–14 / logical pp.3–12 — verified
 
@@ -84,6 +85,24 @@ Other scan-backed restorations include `நீ ஏன் இங்கெல்�
 
 No unresolved scan reading remains in PDF 25–34.
 
+## PDF 35–44 / logical pp.33–42 — verified
+
+All ten pages were compared directly against the rendered scan. Markers 20–24 were resolved from the printed glyphs. PDF 41 also required restoration of a substantive first-pass omission; the missing printed lines were restored only from the scan. The retained bounded `parts/pdf-035-044.md` remains historical first-pass provenance and was not rewritten.
+
+Resolved marker readings:
+
+20. PDF 35: `கோபுர மேதைகளாம்`
+21. PDF 36: `புகழ் வாய்ந்த வேல்...போர் வீரன் வேல்...`
+22. PDF 37: `வெறிநெறெல்லாம்`
+23. PDF 38: `ஹி...ஹி...ஹி...வாளையும், வேலையும் தொடாதே—வைகுந்தவாசனை தொழு...கையிலே கேடயம் ஏந்தாதே—கைலாச நாதனின் திருநீறு ஏந்து...அது எங்கே இப்போது? வளைந்து போன தோள்களிலே வாகைமாலை ஏந்துங்கள்...அதற்காகக் கைகளிலே வேலேந்துங்கள்...இது எங்கே? எல்லாம் மாயை...மாயாஜாலம்...இல்லையா சாமியாரே?`
+24. PDF 40: `மாமனார் வீட்டை`
+
+Other scan-backed restorations include `திடகாத்திரமாய்`, `வேங்கைபுரத்தாரின்`, source `சேணையிலே`, PDF 37 `கைகளில் வாளேந்துங்கள்` / `திண் தோள்`, PDF 38 `உன்னை எது எதற்கெல்லாந்தான் பயன்படுத்துகிறார்கள்` / `அர்ச்சுனனை`, PDF 39 `திடீரென்று`, `பைகளைக்`, source-colloquial `இல்ல`, and `புறாக்கள்`, PDF 40 `அஞ்சல் மனைக்கு`, PDF 43 `சைன்யத்தில்`, and PDF 44 `பயப்படாமல்`.
+
+PDF 41 was restored to include the printed passage from `அந்தமகளை தகப்பன் பெயர் தெரியாத ஒரு மணமகனுக்கு...` through the subsequent discussion of `வைதீக மனம்`, `காவேரி`, `சீரும், சிறப்பும் சிங்கார மாளிகையும்`, and Thirisangu's final plea; those lines had been absent from the first-pass canonical assembly.
+
+No unresolved scan reading remains in PDF 35–44.
+
 ## Exact next activity
 
-Continue the rendered-scan fidelity audit at **PDF 35 / logical printed p.33**, in source order. Adjudicate markers **20 onward** occurrence-by-occurrence and mark a page verified only after full-page visual comparison. Do not begin scene/dialogue/character derivatives yet.
+Continue the rendered-scan fidelity audit at **PDF 45 / logical printed p.43**, in source order. Adjudicate markers **25 onward** occurrence-by-occurrence and mark a page verified only after full-page visual comparison. Do not begin scene/dialogue/character derivatives yet.
