@@ -14,10 +14,11 @@ The repository preserves source provenance, canonical transcription and derivati
 6. **Authorship is not inferred.** Mixed-credit material requires item-level evidence.
 7. **Rights are not assumed.** No repository-wide public-domain/open-license claim is made.
 8. **Current status mirrors must agree.** A major phase is not durably closed until work-local status and repository-wide current mirrors are synchronized.
+9. **Historical Tamil glyph identity must be decoded, not visually imitated.** For older-print sources, use `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` where historical typeforms occur.
 
 ## Reusable onboarding for new cinema works
 
-Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, `docs/TRANSCRIPTION_GUIDE.md`, `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`, and `docs/START_NEW_CINEMA_WORK_PROMPT.md` before starting a new work.
+Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` when older Tamil typeforms may occur, `docs/ARCHIVAL_WORKFLOW.md`, `docs/SOURCE_POLICY.md`, `docs/TRANSCRIPTION_GUIDE.md`, `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`, and `docs/START_NEW_CINEMA_WORK_PROMPT.md` before starting a new work.
 
 The preferred public reading destination is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Preserve each source's natural structure; do not force non-screenplay booklets into screenplay scenes.
 
@@ -73,7 +74,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first pass is complete and whose separate rendered-scan fidelity audit is now in progress.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first pass is complete and whose Tamil verification now uses a **dual gate: visual source fidelity + historical-Tamil-glyph verification**.
 
 - printed title: **`அம்மையப்பன்`**;
 - printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -86,12 +87,17 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - canonical Tamil first pass: **draft-complete — 105/105 pages**;
 - continuous `full-text.md`: **assembled through PDF 109**;
 - first-pass assembly QA: **PASS — 105 anchors, exact PDF 5→109 order, 0 missing, 0 duplicate**;
-- visual fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 verified (70/105)**;
-- verified / draft / review pages: **70 / 35 / 0**;
+- visual source-fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 passed (70/105)**;
+- historical Tamil glyph audit: **required for all 105 pages — 0/105 formally cleared at gate introduction**;
+- final dual-gate Tamil verified pages: **0/105 at gate introduction**;
+- PDF 5–74: **visual-pass / glyph-pending** — retrospective historical-glyph backfill required;
+- PDF 75–109: **visual-pending / glyph-pending** — both audits run together;
 - open first-pass uncertainty markers: **29**;
-- structured derivatives / English / reader: **blocked pending complete verified Tamil**.
+- structured derivatives / English / reader: **blocked pending complete dual-gate verified Tamil**.
 
-**Next:** audit **PDF 75 / logical printed p.73** and continue in source order; markers 88–116 remain unresolved. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
+The historical-glyph pass follows `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `works/ammaiyappan/notes/historical-glyph-audit.md`. The minimum known families checked occurrence-by-occurrence are `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`, while remaining alert for other old ligatures and edition-specific forms.
+
+**Next:** continue at **PDF 75 / logical printed p.73** with visual source-fidelity and historical-Tamil-glyph verification together; markers 88–116 remain unresolved. Before Tamil closure, complete the retrospective historical-glyph audit for PDF 5–74. Do not start scene/dialogue/character derivatives until both gates reach 105/105.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
