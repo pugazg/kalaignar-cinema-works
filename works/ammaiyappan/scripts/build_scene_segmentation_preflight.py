@@ -35,6 +35,16 @@ def logical_printed(pdf: int) -> int:
     return pdf - 2
 
 
+def structural_key(heading: str) -> str:
+    """Normalize intake-only terminal punctuation for reconciliation.
+
+    The canonical heading remains exact and is what derivatives preserve. The
+    earlier intake ledger occasionally omitted a source-visible terminal dot
+    (e.g. PDF 16 `சுகதேவன் அறை.`).
+    """
+    return heading.strip().rstrip(" .…")
+
+
 def main() -> None:
     text = FULL.read_text(encoding="utf-8")
     if "⟦" in text or "⟧" in text:
@@ -72,18 +82,34 @@ def main() -> None:
         if m:
             ledger.append({"pdf": int(m.group(1)), "printed": int(m.group(2)), "heading": m.group(3)})
 
-    # Occurrence-aware reconciliation. Match each ledger occurrence to the first
-    # unused canonical candidate with the same PDF + heading.
+    # Occurrence-aware reconciliation. Canonical punctuation controls derivatives;
+    # the older intake ledger is allowed to be terminal-punctuation-under-specified.
     unused = set(range(len(candidates)))
     ledger_matches = []
     ledger_missing = []
+    punctuation_variants = []
     for item in ledger:
-        hit = next((i for i in sorted(unused) if candidates[i]["pdf"] == item["pdf"] and candidates[i]["heading"] == item["heading"]), None)
+        hit = next(
+            (
+                i for i in sorted(unused)
+                if candidates[i]["pdf"] == item["pdf"]
+                and structural_key(candidates[i]["heading"]) == structural_key(item["heading"])
+            ),
+            None,
+        )
         if hit is None:
             ledger_missing.append(item)
         else:
             unused.remove(hit)
-            ledger_matches.append({**item, "boundary_id": candidates[hit]["boundary_id"]})
+            canonical = candidates[hit]
+            ledger_matches.append({**item, "boundary_id": canonical["boundary_id"], "canonical_heading": canonical["heading"]})
+            if canonical["heading"] != item["heading"]:
+                punctuation_variants.append({
+                    "pdf": item["pdf"],
+                    "ledger_heading": item["heading"],
+                    "canonical_heading": canonical["heading"],
+                    "disposition": "canonical-source-punctuation-controls",
+                })
     canonical_additions = [candidates[i] for i in sorted(unused)]
 
     # Ensure the first body transition owns the opening action. Before the first
@@ -106,7 +132,7 @@ def main() -> None:
     if not candidates or candidates[0]["pdf"] != 5:
         raise SystemExit("first canonical boundary is not on PDF 5")
 
-    # Every candidate will become one archive-only segment, starting at its heading
+    # Every candidate becomes one archive-only segment, starting at its heading
     # and ending immediately before the next candidate (or canonical EOF).
     for i, c in enumerate(candidates):
         nxt = candidates[i+1] if i + 1 < len(candidates) else None
@@ -126,6 +152,7 @@ def main() -> None:
         "intake_ledger_occurrences": len(ledger),
         "intake_ledger_matched": len(ledger_matches),
         "intake_ledger_missing_from_canonical": ledger_missing,
+        "intake_ledger_punctuation_variants": punctuation_variants,
         "canonical_heading_additions_beyond_intake": canonical_additions,
         "unexpected_preboundary_body_text": unexpected_preboundary,
         "segments_planned": len(candidates),
@@ -142,6 +169,10 @@ def main() -> None:
         f"- {c['boundary_id']} — PDF {c['pdf']} / logical p.{c['printed']}: `{c['heading']}`"
         for c in canonical_additions
     ) or "- none"
+    punctuation = "\n".join(
+        f"- PDF {x['pdf']}: intake `{x['ledger_heading']}` → canonical exact `{x['canonical_heading']}`; canonical source punctuation controls."
+        for x in punctuation_variants
+    ) or "- none"
 
     md = f"""# அம்மையப்பன் — scene segmentation preflight
 
@@ -154,18 +185,23 @@ Reconciliation reference: `notes/scene-heading-audit.md`.
 
 - canonical source-visible boundary headings found: **{len(candidates)}**;
 - earlier intake-ledger occurrences: **{len(ledger)}**;
-- intake occurrences matched in canonical text: **{len(ledger_matches)}/{len(ledger)}**;
+- intake occurrences reconciled in canonical text: **{len(ledger_matches)}/{len(ledger)}**;
 - intake occurrences missing from canonical text: **0**;
+- intake/canonical terminal-punctuation variants: **{len(punctuation_variants)}**;
 - canonical heading occurrences discovered beyond the earlier intake ledger: **{len(canonical_additions)}**;
 - screenplay text before first canonical boundary: **0 lines** (only title/wrapper/ornament material precedes it);
 - planned archive-only segments: **{len(candidates)}**;
 - printed source scene numbers: **none**.
 
-The earlier 58-occurrence intake map is not forced as the final derivative count. The verified canonical text controls later source-visible headings discovered during transcription.
+The earlier 58-occurrence intake map is not forced as the final derivative count. The verified canonical text controls source-visible headings discovered or corrected during transcription/fidelity work.
 
 ## Canonical additions beyond intake ledger
 
 {additions}
+
+## Intake/canonical punctuation reconciliation
+
+{punctuation}
 
 ## Segmentation policy
 
@@ -182,7 +218,7 @@ Each source-visible canonical heading begins one derivative segment. The segment
 This preflight establishes boundaries only; it does not alter canonical Tamil. Scene-file generation may proceed deterministically from this inventory. Before dialogue indexing opens, run whole-work boundary-ownership QA to prove that every canonical screenplay span belongs to exactly one intended scene derivative and no adjacent scene duplicates source text.
 """
     OUT_MD.write_text(md, encoding="utf-8")
-    print(json.dumps({"status":"PASS","boundaries":len(candidates),"intake":len(ledger),"canonical_additions":len(canonical_additions),"segments":len(candidates)}, ensure_ascii=False))
+    print(json.dumps({"status":"PASS","boundaries":len(candidates),"intake":len(ledger),"canonical_additions":len(canonical_additions),"punctuation_variants":len(punctuation_variants),"segments":len(candidates)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
