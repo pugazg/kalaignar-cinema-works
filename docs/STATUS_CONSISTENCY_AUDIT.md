@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**IN PROGRESS — Ammayappan now has a mandatory dual Tamil verification gate. The canonical first pass remains 105/105 assembled through PDF 109. Visual source fidelity has passed PDF 5–74 (70/105), but those 70 pages are historical-glyph-pending. Historical-Tamil-glyph verification is formally 0/105 at gate introduction. PDF 75–109 must receive both audits together, and PDF 5–74 require retrospective historical-glyph backfill before final Tamil closure.**
+**PASS — current status mirrors are synchronized to the Ammayappan dual Tamil verification checkpoint. The canonical first pass remains 105/105 assembled through PDF 109. Visual source fidelity has passed PDF 5–74 (70/105), but those 70 pages are historical-glyph-pending. Historical-Tamil-glyph verification is formally 0/105 at gate introduction, so final dual-gate Tamil verification is 0/105 at that checkpoint. PDF 75–109 must receive both audits together, and PDF 5–74 require retrospective historical-glyph backfill before final Tamil closure.**
 
 ## Current work matrix
 
