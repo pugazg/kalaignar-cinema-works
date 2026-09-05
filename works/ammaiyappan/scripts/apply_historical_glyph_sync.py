@@ -1,19 +1,11 @@
 #!/usr/bin/env python3
 """Apply the locked Ammayappan historical-glyph synchronization manifest.
 
-The script is deliberately page-scoped and idempotent. It never performs a
-work-wide Tamil replacement. Every manifest entry is resolved only inside the
-specified `<!-- source: pdf=N ... -->` block.
-
-Whitespace is treated as source layout for matching: line-wrap newlines and
-ordinary spaces are ignored while locating the exact Tamil/punctuation
-sequence, but the original canonical/provenance whitespace is reinserted at
-aligned character boundaries after the glyph-only replacement. This lets a
-manifest record a readable phrase while preserving the archival surface's
-existing line breaks and spacing exactly around the changed characters.
-
-Exit non-zero before writing anything if any expected old/new occurrence count,
-page anchor, provenance target, or preserve-control assertion is not satisfied.
+Every replacement is confined to its specified PDF source block. Whitespace is
+layout-only for matching but is preserved from the archival text. The script is
+idempotent, distinguishes a genuine old reading from an old-string substring
+inside an already-correct target, and validates the complete manifest before
+writing any transcription file.
 """
 
 from __future__ import annotations
@@ -29,7 +21,6 @@ WORK_ROOT = REPO_ROOT / "works" / "ammaiyappan"
 MANIFEST_PATH = WORK_ROOT / "notes" / "historical-glyph-sync-manifest.json"
 REPORT_PATH = WORK_ROOT / "notes" / "historical-glyph-sync-report.json"
 FULL_TEXT_PATH = WORK_ROOT / "transcription" / "full-text.md"
-
 ANCHOR_RE = re.compile(r"<!--\s*source:\s*pdf=(\d+)\b[^>]*-->")
 
 
@@ -42,12 +33,10 @@ class Match:
 
 
 def logical_text(raw: str) -> str:
-    """Return text with whitespace removed; punctuation and Tamil stay exact."""
     return "".join(ch for ch in raw if not ch.isspace())
 
 
 def logical_index_map(raw: str) -> list[int]:
-    """Map each non-whitespace logical character index to its raw index."""
     return [i for i, ch in enumerate(raw) if not ch.isspace()]
 
 
@@ -64,15 +53,24 @@ def find_logical_matches(raw: str, needle: str) -> list[Match]:
         if pos < 0:
             break
         end = pos + len(logical_needle)
-        raw_start = mapping[pos]
-        raw_end = mapping[end - 1] + 1
-        out.append(Match(pos, end, raw_start, raw_end))
+        out.append(Match(pos, end, mapping[pos], mapping[end - 1] + 1))
         start = end
     return out
 
 
+def standalone_old_matches(old_matches: list[Match], new_matches: list[Match]) -> list[Match]:
+    """Exclude old-string hits that lie wholly inside an already-correct target."""
+    return [
+        old
+        for old in old_matches
+        if not any(
+            new.logical_start <= old.logical_start and old.logical_end <= new.logical_end
+            for new in new_matches
+        )
+    ]
+
+
 def boundary_mapper(old: str, new: str):
-    """Return a function mapping old logical boundaries to new boundaries."""
     opcodes = difflib.SequenceMatcher(a=old, b=new, autojunk=False).get_opcodes()
 
     def map_pos(pos: int) -> int:
@@ -101,7 +99,6 @@ def boundary_mapper(old: str, new: str):
 
 
 def whitespace_runs(raw_match: str) -> list[tuple[int, str]]:
-    """Return source whitespace runs keyed by preceding logical char count."""
     runs: list[tuple[int, str]] = []
     logical_count = 0
     idx = 0
@@ -122,11 +119,8 @@ def replace_preserving_whitespace(raw_match: str, old: str, new: str) -> str:
     new_logical = logical_text(new)
     if logical_text(raw_match) != old_logical:
         raise AssertionError("raw match does not normalize to manifest source text")
-
-    runs = whitespace_runs(raw_match)
     map_pos = boundary_mapper(old_logical, new_logical)
-    mapped_runs = [(map_pos(pos), ws) for pos, ws in runs]
-
+    mapped_runs = [(map_pos(pos), ws) for pos, ws in whitespace_runs(raw_match)]
     pieces: list[str] = []
     last = 0
     for boundary, ws in mapped_runs:
@@ -142,9 +136,7 @@ def page_span(text: str, pdf: int) -> tuple[int, int]:
     anchors = list(ANCHOR_RE.finditer(text))
     for idx, match in enumerate(anchors):
         if int(match.group(1)) == pdf:
-            start = match.start()
-            end = anchors[idx + 1].start() if idx + 1 < len(anchors) else len(text)
-            return start, end
+            return match.start(), anchors[idx + 1].start() if idx + 1 < len(anchors) else len(text)
     raise ValueError(f"missing source anchor for PDF {pdf}")
 
 
@@ -153,19 +145,12 @@ def page_block(text: str, pdf: int) -> str:
     return text[start:end]
 
 
-def replace_page_occurrences(
-    text: str,
-    *,
-    pdf: int,
-    old: str,
-    new: str,
-    expected: int,
-    surface: str,
-) -> tuple[str, dict]:
+def replace_page_occurrences(text: str, *, pdf: int, old: str, new: str, expected: int, surface: str) -> tuple[str, dict]:
     start, end = page_span(text, pdf)
     block = text[start:end]
-    old_matches = find_logical_matches(block, old)
+    all_old = find_logical_matches(block, old)
     new_matches = find_logical_matches(block, new)
+    old_matches = standalone_old_matches(all_old, new_matches)
 
     if len(old_matches) == 0 and len(new_matches) == expected:
         return text, {
@@ -178,8 +163,8 @@ def replace_page_occurrences(
 
     if len(old_matches) != expected:
         raise ValueError(
-            f"PDF {pdf} {surface}: expected {expected} logical occurrence(s) of {old!r}; "
-            f"found {len(old_matches)} (new-form count={len(new_matches)})"
+            f"PDF {pdf} {surface}: expected {expected} standalone logical occurrence(s) of {old!r}; "
+            f"found {len(old_matches)} (all old-string hits={len(all_old)}, new-form count={len(new_matches)})"
         )
 
     mutable = block
@@ -188,9 +173,11 @@ def replace_page_occurrences(
         replacement = replace_preserving_whitespace(raw_match, old, new)
         mutable = mutable[:match.raw_start] + replacement + mutable[match.raw_end:]
 
-    if find_logical_matches(mutable, old):
-        raise ValueError(f"PDF {pdf} {surface}: old reading remains after replacement: {old!r}")
-    if len(find_logical_matches(mutable, new)) < expected:
+    post_new = find_logical_matches(mutable, new)
+    post_old = standalone_old_matches(find_logical_matches(mutable, old), post_new)
+    if post_old:
+        raise ValueError(f"PDF {pdf} {surface}: standalone old reading remains after replacement: {old!r}")
+    if len(post_new) < expected:
         raise ValueError(f"PDF {pdf} {surface}: target reading missing after replacement: {new!r}")
 
     return text[:start] + mutable + text[end:], {
@@ -227,45 +214,28 @@ def main() -> None:
 
     for page in manifest["pages"]:
         pdf = int(page["pdf"])
-        expected_targets: list[tuple[Path, str]] = [(FULL_TEXT_PATH, "canonical")]
+        targets: list[tuple[Path, str]] = [(FULL_TEXT_PATH, "canonical")]
         if page.get("part"):
             part_path = resolve_part_path(page["part"])
             if part_path not in working:
                 original[part_path] = load_utf8(part_path)
                 working[part_path] = original[part_path]
-            expected_targets.append((part_path, "provenance"))
+            targets.append((part_path, "provenance"))
 
-        page_report = {
-            "pdf": pdf,
-            "printed": page["printed"],
-            "replacement_count": len(page["replacements"]),
-            "replacements": [],
-        }
-
+        page_report = {"pdf": pdf, "printed": page["printed"], "replacement_count": len(page["replacements"]), "replacements": []}
         for replacement in page["replacements"]:
             old = replacement["from"]
             new = replacement["to"]
             expected = int(replacement.get("occurrences", 1))
-            replacement_report = {
-                "from": old,
-                "to": new,
-                "family": replacement["family"],
-                "expected_occurrences": expected,
-                "targets": [],
-            }
-            for target_path, surface in expected_targets:
-                updated, target_report = replace_page_occurrences(
-                    working[target_path],
-                    pdf=pdf,
-                    old=old,
-                    new=new,
-                    expected=expected,
-                    surface=surface,
+            rr = {"from": old, "to": new, "family": replacement["family"], "expected_occurrences": expected, "targets": []}
+            for target_path, surface in targets:
+                updated, tr = replace_page_occurrences(
+                    working[target_path], pdf=pdf, old=old, new=new, expected=expected, surface=surface
                 )
                 working[target_path] = updated
-                replacement_report["targets"].append(target_report)
-                total_applied += target_report["applied"]
-            page_report["replacements"].append(replacement_report)
+                rr["targets"].append(tr)
+                total_applied += tr["applied"]
+            page_report["replacements"].append(rr)
         report_pages.append(page_report)
 
     controls_report: list[dict] = []
@@ -275,15 +245,12 @@ def main() -> None:
         text = control["text"]
         count = len(find_logical_matches(page_block(canonical, pdf), text))
         if count != 1:
-            raise ValueError(
-                f"PDF {pdf} preserve-control mismatch: expected exactly 1 occurrence of {text!r}; found {count}"
-            )
+            raise ValueError(f"PDF {pdf} preserve-control mismatch: expected exactly 1 occurrence of {text!r}; found {count}")
         controls_report.append({"pdf": pdf, "text": text, "status": "preserved"})
 
     changed_files = [path for path in working if working[path] != original[path]]
     status = "synchronized" if changed_files else "already-synchronized"
 
-    # Write only after the complete manifest and all controls have validated.
     for path in changed_files:
         path.write_text(working[path], encoding="utf-8")
 
@@ -297,22 +264,16 @@ def main() -> None:
         "global_replacement_used": False,
         "whitespace_transparent_matching": True,
         "source_whitespace_preserved": True,
+        "prefix_target_safe": True,
         "canonical_and_provenance_required": True,
         "logical_occurrences_applied_across_surfaces": total_applied,
         "changed_files": [str(path.relative_to(REPO_ROOT)) for path in changed_files],
         "preserve_controls": controls_report,
         "pages": report_pages,
-        "post_sync_rule": "Each changed reading is the already source-established reading from the historical-glyph audit; matching ignores source-layout whitespace, replacement preserves that whitespace, and preserve-controls remain unchanged.",
+        "post_sync_rule": "All replacements are page-scoped audited glyph readings; source whitespace is preserved; old-string substrings inside correct targets do not count as unresolved old readings; preserve-controls remain unchanged."
     }
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-    print(json.dumps({
-        "status": status,
-        "changed_files": report["changed_files"],
-        "logical_occurrences_applied_across_surfaces": total_applied,
-        "pages": len(report_pages),
-        "controls": len(controls_report),
-    }, ensure_ascii=False, indent=2))
+    print(json.dumps({"status": status, "changed_files": report["changed_files"], "logical_occurrences_applied_across_surfaces": total_applied, "pages": len(report_pages), "controls": len(controls_report)}, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
