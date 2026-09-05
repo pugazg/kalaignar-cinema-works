@@ -1,0 +1,1188 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-verified",
+  "source_numbered_scenes": false,
+  "archive_scene_count": 63,
+  "canonical_tamil_gate": "105/105-dual-gate-complete-verified",
+  "boundary_preflight": "../notes/scene-segmentation-preflight.json",
+  "boundary_ownership_qa": "../notes/scene-boundary-ownership-qa.md",
+  "canonical_derivative_body_sha256": "602a5a4d584b10570bae66b31c91c3db5ec69859b0c5f41b03209358e9d05ad2",
+  "joined_scene_spans_sha256": "602a5a4d584b10570bae66b31c91c3db5ec69859b0c5f41b03209358e9d05ad2",
+  "scene_records": [
+    {
+      "scene_id": "ammaiyappan-s001",
+      "ordinal": 1,
+      "source_scene_number": null,
+      "boundary_id": "A001",
+      "heading": "மடாலய வெளிப்புறம்",
+      "start_pdf": 5,
+      "start_printed": 3,
+      "end_pdf": 7,
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "end_before_boundary_id": "A002",
+      "span_sha256": "8740cc62246655b61c67e2e696f604fe0caac3d018f6f28c1c21b4683f3b07c3",
+      "file": "scene-001.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s002",
+      "ordinal": 2,
+      "source_scene_number": null,
+      "boundary_id": "A002",
+      "heading": "அஞ்சல் மனை",
+      "start_pdf": 7,
+      "start_printed": 5,
+      "end_pdf": 9,
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "end_before_boundary_id": "A003",
+      "span_sha256": "9a3be148283b63a9474602ae9be6d48d2ba6f23bbdf73b873a9a34cbf4773ebe",
+      "file": "scene-002.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s003",
+      "ordinal": 3,
+      "source_scene_number": null,
+      "boundary_id": "A003",
+      "heading": "பூங்காவனம் அறை",
+      "start_pdf": 9,
+      "start_printed": 7,
+      "end_pdf": 10,
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "end_before_boundary_id": "A004",
+      "span_sha256": "40e6ad14bcf8b105b47cfe74bbb5de4f19283b8bd9f8bb6b992b19cd81632aeb",
+      "file": "scene-003.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s004",
+      "ordinal": 4,
+      "source_scene_number": null,
+      "boundary_id": "A004",
+      "heading": "மாடம்",
+      "start_pdf": 10,
+      "start_printed": 8,
+      "end_pdf": 13,
+      "pdf_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "end_before_boundary_id": "A005",
+      "span_sha256": "71a34a2f2daa1b8a0364302df3d0ba07dc3938fcc282f79083cd33df82e73fe0",
+      "file": "scene-004.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s005",
+      "ordinal": 5,
+      "source_scene_number": null,
+      "boundary_id": "A005",
+      "heading": "குதிரைக் கொட்டடி",
+      "start_pdf": 13,
+      "start_printed": 11,
+      "end_pdf": 14,
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "end_before_boundary_id": "A006",
+      "span_sha256": "d919c4eb29ab1eacfa814c60c0407c75925b60f165aa93f97b416d1855f6332c",
+      "file": "scene-005.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s006",
+      "ordinal": 6,
+      "source_scene_number": null,
+      "boundary_id": "A006",
+      "heading": "வாள் பயிற்சிக் கூடம்",
+      "start_pdf": 14,
+      "start_printed": 12,
+      "end_pdf": 16,
+      "pdf_pages": [
+        14,
+        15,
+        16
+      ],
+      "end_before_boundary_id": "A007",
+      "span_sha256": "61e95f24af5858264624184d13729fe9daa7b67d048bb768c2a2b61b5a5b7a67",
+      "file": "scene-006.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s007",
+      "ordinal": 7,
+      "source_scene_number": null,
+      "boundary_id": "A007",
+      "heading": "சுகதேவன் அறை.",
+      "start_pdf": 16,
+      "start_printed": 14,
+      "end_pdf": 18,
+      "pdf_pages": [
+        16,
+        17,
+        18
+      ],
+      "end_before_boundary_id": "A008",
+      "span_sha256": "51b32113ab90182ae1546ae1d9a4673f6261cbf0ed43a3a3e3bfa91eec22a961",
+      "file": "scene-007.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s008",
+      "ordinal": 8,
+      "source_scene_number": null,
+      "boundary_id": "A008",
+      "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+      "start_pdf": 18,
+      "start_printed": 16,
+      "end_pdf": 21,
+      "pdf_pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "end_before_boundary_id": "A009",
+      "span_sha256": "2ae2f759a265ddc47ddf5e8c6a521153a5848bdf3b23d50e49008b70f2829aaf",
+      "file": "scene-008.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s009",
+      "ordinal": 9,
+      "source_scene_number": null,
+      "boundary_id": "A009",
+      "heading": "பலதேவர் மாளிகை",
+      "start_pdf": 21,
+      "start_printed": 19,
+      "end_pdf": 22,
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "end_before_boundary_id": "A010",
+      "span_sha256": "3c3447c841d863536406d4bf59a4198a76fc55dab2bb34eac4d39fcd88c9c52c",
+      "file": "scene-009.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s010",
+      "ordinal": 10,
+      "source_scene_number": null,
+      "boundary_id": "A010",
+      "heading": "பலதேவர் மாளிகை",
+      "start_pdf": 22,
+      "start_printed": 20,
+      "end_pdf": 23,
+      "pdf_pages": [
+        22,
+        23
+      ],
+      "end_before_boundary_id": "A011",
+      "span_sha256": "0622529c83443cba4fa48b9af5df01b655400d1b25d084e07954eef690a606a7",
+      "file": "scene-010.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s011",
+      "ordinal": 11,
+      "source_scene_number": null,
+      "boundary_id": "A011",
+      "heading": "ஆற்றங்கரை",
+      "start_pdf": 23,
+      "start_printed": 21,
+      "end_pdf": 27,
+      "pdf_pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "end_before_boundary_id": "A012",
+      "span_sha256": "1b7e5a6c9d43b9787d484198f65e283a092416d4a214eabbceb2282f1fd5a339",
+      "file": "scene-011.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s012",
+      "ordinal": 12,
+      "source_scene_number": null,
+      "boundary_id": "A012",
+      "heading": "தென்றல் மாளிகை",
+      "start_pdf": 27,
+      "start_printed": 25,
+      "end_pdf": 28,
+      "pdf_pages": [
+        27,
+        28
+      ],
+      "end_before_boundary_id": "A013",
+      "span_sha256": "4190296ed9e8f268851f0f86d8ece5f7aa302698d4e745dd1193b7b6c86f2558",
+      "file": "scene-012.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s013",
+      "ordinal": 13,
+      "source_scene_number": null,
+      "boundary_id": "A013",
+      "heading": "பலதேவர் மாளிகை",
+      "start_pdf": 28,
+      "start_printed": 26,
+      "end_pdf": 29,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "end_before_boundary_id": "A014",
+      "span_sha256": "f6e9322872bc165a5a077d195efac3478c84a8201d0c10fe76bb57baab117671",
+      "file": "scene-013.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s014",
+      "ordinal": 14,
+      "source_scene_number": null,
+      "boundary_id": "A014",
+      "heading": "குதிரைக் கொட்டடி",
+      "start_pdf": 29,
+      "start_printed": 27,
+      "end_pdf": 31,
+      "pdf_pages": [
+        29,
+        30,
+        31
+      ],
+      "end_before_boundary_id": "A015",
+      "span_sha256": "d2f9c2fcffd7c209198a7fc7084cceb5991f4a68752537117d2b610f402f4b5f",
+      "file": "scene-014.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s015",
+      "ordinal": 15,
+      "source_scene_number": null,
+      "boundary_id": "A015",
+      "heading": "பூங்காவனம் அறை",
+      "start_pdf": 31,
+      "start_printed": 29,
+      "end_pdf": 33,
+      "pdf_pages": [
+        31,
+        32,
+        33
+      ],
+      "end_before_boundary_id": "A016",
+      "span_sha256": "c029518d2a4c881e64f87d5b9b5a166a9b5185270c146f3e7dd206337911dbe1",
+      "file": "scene-015.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s016",
+      "ordinal": 16,
+      "source_scene_number": null,
+      "boundary_id": "A016",
+      "heading": "திரிசங்கு வீடு",
+      "start_pdf": 33,
+      "start_printed": 31,
+      "end_pdf": 34,
+      "pdf_pages": [
+        33,
+        34
+      ],
+      "end_before_boundary_id": "A017",
+      "span_sha256": "ed06515395a142204dd8205750bc008e7e9f61b84d2165b0ec1d922b701f7033",
+      "file": "scene-016.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s017",
+      "ordinal": 17,
+      "source_scene_number": null,
+      "boundary_id": "A017",
+      "heading": "அஞ்சல் மனை",
+      "start_pdf": 34,
+      "start_printed": 32,
+      "end_pdf": 36,
+      "pdf_pages": [
+        34,
+        35,
+        36
+      ],
+      "end_before_boundary_id": "A018",
+      "span_sha256": "85773686cae2a04aa3cef43dae9ea816b054f30a3ccaf559598527d2d40ab92c",
+      "file": "scene-017.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s018",
+      "ordinal": 18,
+      "source_scene_number": null,
+      "boundary_id": "A018",
+      "heading": "மடாலயம்",
+      "start_pdf": 36,
+      "start_printed": 34,
+      "end_pdf": 39,
+      "pdf_pages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "end_before_boundary_id": "A019",
+      "span_sha256": "4fbe9e0f6b57b826e31599201dd65ad2b6c89b515942bb776c27db5c88ae5ca3",
+      "file": "scene-018.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s019",
+      "ordinal": 19,
+      "source_scene_number": null,
+      "boundary_id": "A019",
+      "heading": "அஞ்சல் மனை",
+      "start_pdf": 39,
+      "start_printed": 37,
+      "end_pdf": 42,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "end_before_boundary_id": "A020",
+      "span_sha256": "a58400ad8368c503fb56d0609bfa6c3c3678f9fa568a47bf95b793e6f12466b3",
+      "file": "scene-019.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s020",
+      "ordinal": 20,
+      "source_scene_number": null,
+      "boundary_id": "A020",
+      "heading": "தென்றல் மாளிகை",
+      "start_pdf": 42,
+      "start_printed": 40,
+      "end_pdf": 44,
+      "pdf_pages": [
+        42,
+        43,
+        44
+      ],
+      "end_before_boundary_id": "A021",
+      "span_sha256": "c93bd50e3b6e3a0ed9da5492d6c27227579eeb0895011fa5ad4641250f312a73",
+      "file": "scene-020.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s021",
+      "ordinal": 21,
+      "source_scene_number": null,
+      "boundary_id": "A021",
+      "heading": "ஆற்றங்கரை சோலையோரம்",
+      "start_pdf": 44,
+      "start_printed": 42,
+      "end_pdf": 48,
+      "pdf_pages": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "end_before_boundary_id": "A022",
+      "span_sha256": "11d3610bda86030a0d6ec4f769aba9b7dbeccca556ce676538dfc6a5e37bc65b",
+      "file": "scene-021.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s022",
+      "ordinal": 22,
+      "source_scene_number": null,
+      "boundary_id": "A022",
+      "heading": "தென்றல் மாளிகை",
+      "start_pdf": 48,
+      "start_printed": 46,
+      "end_pdf": 52,
+      "pdf_pages": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "end_before_boundary_id": "A023",
+      "span_sha256": "eb9dc34ae7e476aa7eadcefdeef13a50c6fb5f87a644d6cc53368c56cc1fe29a",
+      "file": "scene-022.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s023",
+      "ordinal": 23,
+      "source_scene_number": null,
+      "boundary_id": "A023",
+      "heading": "தோட்டம்",
+      "start_pdf": 52,
+      "start_printed": 50,
+      "end_pdf": 52,
+      "pdf_pages": [
+        52
+      ],
+      "end_before_boundary_id": "A024",
+      "span_sha256": "c4acb360f9de61381637c39050d5bbd9a5ac4bf85f3002bbdc53cf7fb49e90f3",
+      "file": "scene-023.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s024",
+      "ordinal": 24,
+      "source_scene_number": null,
+      "boundary_id": "A024",
+      "heading": "தென்றல் மாளிகை",
+      "start_pdf": 52,
+      "start_printed": 50,
+      "end_pdf": 54,
+      "pdf_pages": [
+        52,
+        53,
+        54
+      ],
+      "end_before_boundary_id": "A025",
+      "span_sha256": "081c753846b8074c737535ff17c9c34694fa7029f75740d75916911d4eb09269",
+      "file": "scene-024.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s025",
+      "ordinal": 25,
+      "source_scene_number": null,
+      "boundary_id": "A025",
+      "heading": "அஞ்சல் மனை",
+      "start_pdf": 54,
+      "start_printed": 52,
+      "end_pdf": 54,
+      "pdf_pages": [
+        54
+      ],
+      "end_before_boundary_id": "A026",
+      "span_sha256": "1f09edd1ef80c40275fc0b61f405138751bebd482f45116bad5f19051075c2b0",
+      "file": "scene-025.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s026",
+      "ordinal": 26,
+      "source_scene_number": null,
+      "boundary_id": "A026",
+      "heading": "தென்றல் மாளிகை",
+      "start_pdf": 54,
+      "start_printed": 52,
+      "end_pdf": 56,
+      "pdf_pages": [
+        54,
+        55,
+        56
+      ],
+      "end_before_boundary_id": "A027",
+      "span_sha256": "ac63bbb72a9bbf3899610973bf97e03a346ef60a3d59b08c7fb327d79bd87b5c",
+      "file": "scene-026.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s027",
+      "ordinal": 27,
+      "source_scene_number": null,
+      "boundary_id": "A027",
+      "heading": "பழுதார் வீதி",
+      "start_pdf": 56,
+      "start_printed": 54,
+      "end_pdf": 59,
+      "pdf_pages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "end_before_boundary_id": "A028",
+      "span_sha256": "813e0209a91591b96b161ec1580a8b2920a1f88daafb8625a13c4b939a447bcf",
+      "file": "scene-027.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s028",
+      "ordinal": 28,
+      "source_scene_number": null,
+      "boundary_id": "A028",
+      "heading": "திரிசங்கு வீடு",
+      "start_pdf": 59,
+      "start_printed": 57,
+      "end_pdf": 60,
+      "pdf_pages": [
+        59,
+        60
+      ],
+      "end_before_boundary_id": "A029",
+      "span_sha256": "4ec93520dca5848229550439b3c43a6fbf954dd3731e55d199b1f66b0a85a47e",
+      "file": "scene-028.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s029",
+      "ordinal": 29,
+      "source_scene_number": null,
+      "boundary_id": "A029",
+      "heading": "சுகதேவன் மாளிகை",
+      "start_pdf": 60,
+      "start_printed": 58,
+      "end_pdf": 63,
+      "pdf_pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "end_before_boundary_id": "A030",
+      "span_sha256": "c476f07c7b2419b3a9e341005426f18ca28730345f2ea6432c04da1d70a31e35",
+      "file": "scene-029.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s030",
+      "ordinal": 30,
+      "source_scene_number": null,
+      "boundary_id": "A030",
+      "heading": "பாசறை சமையல் கூடம்",
+      "start_pdf": 63,
+      "start_printed": 61,
+      "end_pdf": 66,
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "end_before_boundary_id": "A031",
+      "span_sha256": "a65f65972da57d4e7a230e44c2f1bbef7615d9a433a476ca4fa47e8f58ef02b4",
+      "file": "scene-030.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s031",
+      "ordinal": 31,
+      "source_scene_number": null,
+      "boundary_id": "A031",
+      "heading": "கண்ணகி மாளிகை",
+      "start_pdf": 66,
+      "start_printed": 64,
+      "end_pdf": 67,
+      "pdf_pages": [
+        66,
+        67
+      ],
+      "end_before_boundary_id": "A032",
+      "span_sha256": "d8390540116178c547a49a915556d3979856ed0d2601185f9dade8f3f14e8203",
+      "file": "scene-031.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s032",
+      "ordinal": 32,
+      "source_scene_number": null,
+      "boundary_id": "A032",
+      "heading": "வேங்கையூர் பாசறைச் சிறை",
+      "start_pdf": 67,
+      "start_printed": 65,
+      "end_pdf": 67,
+      "pdf_pages": [
+        67
+      ],
+      "end_before_boundary_id": "A033",
+      "span_sha256": "1c86889f6e1f9d5f1fe4fef6e7623d7713b731c1548278780b6e314598a63e8e",
+      "file": "scene-032.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s033",
+      "ordinal": 33,
+      "source_scene_number": null,
+      "boundary_id": "A033",
+      "heading": "தனபதி மாளிகை",
+      "start_pdf": 67,
+      "start_printed": 65,
+      "end_pdf": 70,
+      "pdf_pages": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "end_before_boundary_id": "A034",
+      "span_sha256": "0abde2df6112a388109006bdf27fd22e18dc3fb572fef226613293f7a4586de2",
+      "file": "scene-033.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s034",
+      "ordinal": 34,
+      "source_scene_number": null,
+      "boundary_id": "A034",
+      "heading": "பாசறை சமையல் கூடம்",
+      "start_pdf": 70,
+      "start_printed": 68,
+      "end_pdf": 70,
+      "pdf_pages": [
+        70
+      ],
+      "end_before_boundary_id": "A035",
+      "span_sha256": "525b39807e9c14b98fe720b8474b88b92be56e564acac0bb1daed0f1a4677e6c",
+      "file": "scene-034.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "ordinal": 35,
+      "source_scene_number": null,
+      "boundary_id": "A035",
+      "heading": "கண்ணகி மாளிகை",
+      "start_pdf": 70,
+      "start_printed": 68,
+      "end_pdf": 78,
+      "pdf_pages": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "end_before_boundary_id": "A036",
+      "span_sha256": "d106e895909cd977dae2cfa9aff2be91d28a9a4a66c13aa7e57ff21c7f648981",
+      "file": "scene-035.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s036",
+      "ordinal": 36,
+      "source_scene_number": null,
+      "boundary_id": "A036",
+      "heading": "தனபதி மாளிகை",
+      "start_pdf": 78,
+      "start_printed": 76,
+      "end_pdf": 80,
+      "pdf_pages": [
+        78,
+        79,
+        80
+      ],
+      "end_before_boundary_id": "A037",
+      "span_sha256": "de16a07f51d08f1d0d48e8c3072760285d6fdfc39320a93e884b98147ce30c02",
+      "file": "scene-036.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s037",
+      "ordinal": 37,
+      "source_scene_number": null,
+      "boundary_id": "A037",
+      "heading": "அஞ்சல் மனை",
+      "start_pdf": 80,
+      "start_printed": 78,
+      "end_pdf": 82,
+      "pdf_pages": [
+        80,
+        81,
+        82
+      ],
+      "end_before_boundary_id": "A038",
+      "span_sha256": "65f953370f71062d1b2c7318d29c026f0fc58caa2ed804315af7b8fd9b4c1b7a",
+      "file": "scene-037.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s038",
+      "ordinal": 38,
+      "source_scene_number": null,
+      "boundary_id": "A038",
+      "heading": "பலதேவர் மாளிகை",
+      "start_pdf": 82,
+      "start_printed": 80,
+      "end_pdf": 83,
+      "pdf_pages": [
+        82,
+        83
+      ],
+      "end_before_boundary_id": "A039",
+      "span_sha256": "d21539667bb9c5ec0e274c17e91944a1e73e681087b61d5e438534056f23c159",
+      "file": "scene-038.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s039",
+      "ordinal": 39,
+      "source_scene_number": null,
+      "boundary_id": "A039",
+      "heading": "தனவணிகர் வீடு",
+      "start_pdf": 83,
+      "start_printed": 81,
+      "end_pdf": 84,
+      "pdf_pages": [
+        83,
+        84
+      ],
+      "end_before_boundary_id": "A040",
+      "span_sha256": "71d18c885fcf20b25a3f87eae67067a145e2227c9008b3d3aa8a412b51a793ad",
+      "file": "scene-039.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s040",
+      "ordinal": 40,
+      "source_scene_number": null,
+      "boundary_id": "A040",
+      "heading": "அடைக்கலபுரி தேவாலயம்",
+      "start_pdf": 84,
+      "start_printed": 82,
+      "end_pdf": 85,
+      "pdf_pages": [
+        84,
+        85
+      ],
+      "end_before_boundary_id": "A041",
+      "span_sha256": "a7ca8c71101d58e29ca3dbefa2315ee9dfbb0337d7f88e0484ce9344777d3bcf",
+      "file": "scene-040.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s041",
+      "ordinal": 41,
+      "source_scene_number": null,
+      "boundary_id": "A041",
+      "heading": "கூடாரம்",
+      "start_pdf": 85,
+      "start_printed": 83,
+      "end_pdf": 86,
+      "pdf_pages": [
+        85,
+        86
+      ],
+      "end_before_boundary_id": "A042",
+      "span_sha256": "230ea67800b117aea7e695526b133eefc6af73b9f256b2c1ac9cb1d779467071",
+      "file": "scene-041.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s042",
+      "ordinal": 42,
+      "source_scene_number": null,
+      "boundary_id": "A042",
+      "heading": "மண்டபம்",
+      "start_pdf": 86,
+      "start_printed": 84,
+      "end_pdf": 86,
+      "pdf_pages": [
+        86
+      ],
+      "end_before_boundary_id": "A043",
+      "span_sha256": "1fbe4bc146ad9856e427c5b57e9b10d0a70bd8e41dd41a7cfc7a4ec446b409ef",
+      "file": "scene-042.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s043",
+      "ordinal": 43,
+      "source_scene_number": null,
+      "boundary_id": "A043",
+      "heading": "ஊரின் வெளிப்புறம்",
+      "start_pdf": 86,
+      "start_printed": 84,
+      "end_pdf": 86,
+      "pdf_pages": [
+        86
+      ],
+      "end_before_boundary_id": "A044",
+      "span_sha256": "e1c6a445148229df4ca762579faf02c51baf4f479f1dbf3ae78e3ee8e0847fe4",
+      "file": "scene-043.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s044",
+      "ordinal": 44,
+      "source_scene_number": null,
+      "boundary_id": "A044",
+      "heading": "அதே சமயம்",
+      "start_pdf": 86,
+      "start_printed": 84,
+      "end_pdf": 87,
+      "pdf_pages": [
+        86,
+        87
+      ],
+      "end_before_boundary_id": "A045",
+      "span_sha256": "6426d1e9d63b418a28f7593b3c6ccd8c5362d90e0e43e1accf36cca058ebdcaf",
+      "file": "scene-044.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s045",
+      "ordinal": 45,
+      "source_scene_number": null,
+      "boundary_id": "A045",
+      "heading": "தனவணிகர் வீடு",
+      "start_pdf": 87,
+      "start_printed": 85,
+      "end_pdf": 87,
+      "pdf_pages": [
+        87
+      ],
+      "end_before_boundary_id": "A046",
+      "span_sha256": "7ba3467944dde7b31a75b0fe02fcc086d2dc296e6c5d36706969fd1fe921ecaf",
+      "file": "scene-045.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s046",
+      "ordinal": 46,
+      "source_scene_number": null,
+      "boundary_id": "A046",
+      "heading": "சுமதி வீடு",
+      "start_pdf": 87,
+      "start_printed": 85,
+      "end_pdf": 87,
+      "pdf_pages": [
+        87
+      ],
+      "end_before_boundary_id": "A047",
+      "span_sha256": "f48ff7e44773ca605dd796aeef37e918fdc14e16595a77e09cdcaafbc633ae1c",
+      "file": "scene-046.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s047",
+      "ordinal": 47,
+      "source_scene_number": null,
+      "boundary_id": "A047",
+      "heading": "வீட்டிற்குள்",
+      "start_pdf": 87,
+      "start_printed": 85,
+      "end_pdf": 88,
+      "pdf_pages": [
+        87,
+        88
+      ],
+      "end_before_boundary_id": "A048",
+      "span_sha256": "fbfdbe7271ce092f14772f4e84f7572d85630ee6a0c58beed4a6363c60ebeb98",
+      "file": "scene-047.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s048",
+      "ordinal": 48,
+      "source_scene_number": null,
+      "boundary_id": "A048",
+      "heading": "வேதாளத்தின் ஆசிரமம்",
+      "start_pdf": 88,
+      "start_printed": 86,
+      "end_pdf": 88,
+      "pdf_pages": [
+        88
+      ],
+      "end_before_boundary_id": "A049",
+      "span_sha256": "b98d07525a488a086a367255bd926d05d503adfb40c2b7313c20b997ab9960b6",
+      "file": "scene-048.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s049",
+      "ordinal": 49,
+      "source_scene_number": null,
+      "boundary_id": "A049",
+      "heading": "சத்திரத்திற்குள்",
+      "start_pdf": 88,
+      "start_printed": 86,
+      "end_pdf": 89,
+      "pdf_pages": [
+        88,
+        89
+      ],
+      "end_before_boundary_id": "A050",
+      "span_sha256": "7504d0b320a80a30dfd1f8a6cc350b27f913ba2814e726a334a2efc20589ba76",
+      "file": "scene-049.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s050",
+      "ordinal": 50,
+      "source_scene_number": null,
+      "boundary_id": "A050",
+      "heading": "சுமதி வீடு",
+      "start_pdf": 89,
+      "start_printed": 87,
+      "end_pdf": 89,
+      "pdf_pages": [
+        89
+      ],
+      "end_before_boundary_id": "A051",
+      "span_sha256": "dfe7b5a30b06f446d706d78071e44ed3bef0b10363ea885ca811725117748dd4",
+      "file": "scene-050.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s051",
+      "ordinal": 51,
+      "source_scene_number": null,
+      "boundary_id": "A051",
+      "heading": "கோவில் மண்டபம்",
+      "start_pdf": 89,
+      "start_printed": 87,
+      "end_pdf": 90,
+      "pdf_pages": [
+        89,
+        90
+      ],
+      "end_before_boundary_id": "A052",
+      "span_sha256": "a56d2cb29af9616669dec13d52e737852836e011a9e3233334637ae2015a88bb",
+      "file": "scene-051.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s052",
+      "ordinal": 52,
+      "source_scene_number": null,
+      "boundary_id": "A052",
+      "heading": "சத்திரம்",
+      "start_pdf": 90,
+      "start_printed": 88,
+      "end_pdf": 93,
+      "pdf_pages": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "end_before_boundary_id": "A053",
+      "span_sha256": "175fb50ccbd4038fa1ab780e731553262a0bd8df710e5409b0b8d28a343712f6",
+      "file": "scene-052.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s053",
+      "ordinal": 53,
+      "source_scene_number": null,
+      "boundary_id": "A053",
+      "heading": "வெளியே",
+      "start_pdf": 93,
+      "start_printed": 91,
+      "end_pdf": 95,
+      "pdf_pages": [
+        93,
+        94,
+        95
+      ],
+      "end_before_boundary_id": "A054",
+      "span_sha256": "def96c8c397c62ec63550c43455afeec0db2d8621a6ee529b018fcc644fd7a95",
+      "file": "scene-053.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s054",
+      "ordinal": 54,
+      "source_scene_number": null,
+      "boundary_id": "A054",
+      "heading": "பாழ் மண்டபம்",
+      "start_pdf": 95,
+      "start_printed": 93,
+      "end_pdf": 96,
+      "pdf_pages": [
+        95,
+        96
+      ],
+      "end_before_boundary_id": "A055",
+      "span_sha256": "14ec4b7d0b5b8b5652d5c2b9148567421da132f29c54931b39a6c1080e46423b",
+      "file": "scene-054.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s055",
+      "ordinal": 55,
+      "source_scene_number": null,
+      "boundary_id": "A055",
+      "heading": "வேங்கை நாட்டு அவைக்கூடம்",
+      "start_pdf": 96,
+      "start_printed": 94,
+      "end_pdf": 96,
+      "pdf_pages": [
+        96
+      ],
+      "end_before_boundary_id": "A056",
+      "span_sha256": "e130a0f10a47b4e44e43cf848a48ce014113cb59a1a2bda78af53bd4e19937fb",
+      "file": "scene-055.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s056",
+      "ordinal": 56,
+      "source_scene_number": null,
+      "boundary_id": "A056",
+      "heading": "பூங்காவனம் அறை",
+      "start_pdf": 96,
+      "start_printed": 94,
+      "end_pdf": 101,
+      "pdf_pages": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "end_before_boundary_id": "A057",
+      "span_sha256": "5e637be53ed4b8705d08ff7cb3927550889fe0cf55eb51866b58c226cb6bce2e",
+      "file": "scene-056.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s057",
+      "ordinal": 57,
+      "source_scene_number": null,
+      "boundary_id": "A057",
+      "heading": "முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்",
+      "start_pdf": 101,
+      "start_printed": 99,
+      "end_pdf": 101,
+      "pdf_pages": [
+        101
+      ],
+      "end_before_boundary_id": "A058",
+      "span_sha256": "5054f29da6f200373c6a475373c412141adfe56a26658aebf325bd998fd6c048",
+      "file": "scene-057.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s058",
+      "ordinal": 58,
+      "source_scene_number": null,
+      "boundary_id": "A058",
+      "heading": "சுமதி வீடு",
+      "start_pdf": 101,
+      "start_printed": 99,
+      "end_pdf": 103,
+      "pdf_pages": [
+        101,
+        102,
+        103
+      ],
+      "end_before_boundary_id": "A059",
+      "span_sha256": "6e5226204bbd9673fd80325823f0ad9144a380fcb292f238f6290f1bf8a62cb7",
+      "file": "scene-058.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s059",
+      "ordinal": 59,
+      "source_scene_number": null,
+      "boundary_id": "A059",
+      "heading": "சிறைச்சாலை",
+      "start_pdf": 103,
+      "start_printed": 101,
+      "end_pdf": 106,
+      "pdf_pages": [
+        103,
+        104,
+        105,
+        106
+      ],
+      "end_before_boundary_id": "A060",
+      "span_sha256": "75807032f20f579c3d7cdd3713aa902ffca591346159feb54a3b96d908bb21e8",
+      "file": "scene-059.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s060",
+      "ordinal": 60,
+      "source_scene_number": null,
+      "boundary_id": "A060",
+      "heading": "வேங்கையூர்",
+      "start_pdf": 106,
+      "start_printed": 104,
+      "end_pdf": 107,
+      "pdf_pages": [
+        106,
+        107
+      ],
+      "end_before_boundary_id": "A061",
+      "span_sha256": "5c3141158366b98f9047ab62e6308ede7f0370bb94ce604c533b489b78828bce",
+      "file": "scene-060.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s061",
+      "ordinal": 61,
+      "source_scene_number": null,
+      "boundary_id": "A061",
+      "heading": "நகரின் வீதி",
+      "start_pdf": 107,
+      "start_printed": 105,
+      "end_pdf": 107,
+      "pdf_pages": [
+        107
+      ],
+      "end_before_boundary_id": "A062",
+      "span_sha256": "8439989c480032c05eb837fc650d40be62158f705eb3a207c5c36ff24235a7fb",
+      "file": "scene-061.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s062",
+      "ordinal": 62,
+      "source_scene_number": null,
+      "boundary_id": "A062",
+      "heading": "தூக்குமேடை",
+      "start_pdf": 107,
+      "start_printed": 105,
+      "end_pdf": 108,
+      "pdf_pages": [
+        107,
+        108
+      ],
+      "end_before_boundary_id": "A063",
+      "span_sha256": "3da020c9beba6abc31e59ccb8dc55f4cb2bb7f694a4129255b5d513c2e739bf4",
+      "file": "scene-062.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "ammaiyappan-s063",
+      "ordinal": 63,
+      "source_scene_number": null,
+      "boundary_id": "A063",
+      "heading": "வெளியே",
+      "start_pdf": 108,
+      "start_printed": 106,
+      "end_pdf": 109,
+      "pdf_pages": [
+        108,
+        109
+      ],
+      "end_before_boundary_id": null,
+      "span_sha256": "9bd3b2c851ce8d30b95587a46e83bb84125264367e4e3b57ff9762279e00a9cd",
+      "file": "scene-063.md",
+      "status": "verified-derivative"
+    }
+  ]
+}
