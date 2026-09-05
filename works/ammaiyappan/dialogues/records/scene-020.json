@@ -1,1 +1,498 @@
-[]
+[
+  {
+    "id": "ammaiyappan-s020-d001",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "குறும்பன்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "உம்...கையெழுத்து போட்டாகி விட்\nடது. நீ படையில் சேர்ந்து விட்டாய் என்று அர்த்தம்."
+  },
+  {
+    "id": "ammaiyappan-s020-d002",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "இனிமேல் விலகுவதாயிருந்தால் நூறு\nபொன் தண்டம் செலுத்த வேண்டும்."
+  },
+  {
+    "id": "ammaiyappan-s020-d003",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "ஆள்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "நான் எங்க விலகப் போறேன்!"
+  },
+  {
+    "id": "ammaiyappan-s020-d004",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "பெயர் என்ன?"
+  },
+  {
+    "id": "ammaiyappan-s020-d005",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "ஆள்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "சமாசம்!"
+  },
+  {
+    "id": "ammaiyappan-s020-d006",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "சண்டையில் சேருகிறாயா?"
+  },
+  {
+    "id": "ammaiyappan-s020-d007",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "ஆள்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "ஆமாம்."
+  },
+  {
+    "id": "ammaiyappan-s020-d008",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "குறும்பன்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "தகப்பனார் பெயர்?"
+  },
+  {
+    "id": "ammaiyappan-s020-d009",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "ஆள்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "தின தயாளர்; தாயார் அன்புக்கரசி."
+  },
+  {
+    "id": "ammaiyappan-s020-d010",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "கையெழுத்திடு!\n\n(தனபதி எழுந்து மற்றவர்கள் நோக்க\nஆள் வரிசை காட்டப்படுகிறது.)"
+  },
+  {
+    "id": "ammaiyappan-s020-d011",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 42,
+        "printed_page": 40
+      }
+    ],
+    "text": "சபாஷ்! வேதாளம்! இன்று நிறையத்தான்\nஆட்களைக் கொண்டு வந்திருக்கிறீர்."
+  },
+  {
+    "id": "ammaiyappan-s020-d012",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "ஆமாம்! முயற்சி உடையார் இகழ்ச்சி\nஅடையார் பிரபு."
+  },
+  {
+    "id": "ammaiyappan-s020-d013",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "இவன் மிகவும் தைரியசாலி."
+  },
+  {
+    "id": "ammaiyappan-s020-d014",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "அப்படியா! சைன்யத்தில் ஒரு சரியான\nஇடம் காத்திருக்கிறது."
+  },
+  {
+    "id": "ammaiyappan-s020-d015",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "இவனைப் பார்த்தீர்களா பிரபு? நூறு\nஅடி விழுந்தாலும் நொறுங்காத மண்டை. தலைக்கனம்\nஅதிகம்."
+  },
+  {
+    "id": "ammaiyappan-s020-d016",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "ஆள்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "அப்ப யுத்த மந்திரியாக்கூட வரலாம்."
+  },
+  {
+    "id": "ammaiyappan-s020-d017",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "இவனுடைய நெஞ்சுறுதி அபாரம்\nபிரபு."
+  },
+  {
+    "id": "ammaiyappan-s020-d018",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "யார் முத்தனா?"
+  },
+  {
+    "id": "ammaiyappan-s020-d019",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "முத்தன்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "ஆமாம்!"
+  },
+  {
+    "id": "ammaiyappan-s020-d020",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "நீ......"
+  },
+  {
+    "id": "ammaiyappan-s020-d021",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "முத்தன்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "படையில் சேர வந்திருக்கிறேன்."
+  },
+  {
+    "id": "ammaiyappan-s020-d022",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "பேஷ்! பேஷ்! பெருமை ததும்புது பிரபு\nஅவர்களே! இவன் மிகவும் நல்லவன். இவனையும்...முத்தா!\nவா...வா...கையொப்பமிடு."
+  },
+  {
+    "id": "ammaiyappan-s020-d023",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "உம்...இதிலே கையெழுத்துப் போடு."
+  },
+  {
+    "id": "ammaiyappan-s020-d024",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "பெயர் என்ன?"
+  },
+  {
+    "id": "ammaiyappan-s020-d025",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "முத்தன்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "முத்தன்."
+  },
+  {
+    "id": "ammaiyappan-s020-d026",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 43,
+        "printed_page": 41
+      }
+    ],
+    "text": "ம்...தகப்பனார் பெயர்?"
+  },
+  {
+    "id": "ammaiyappan-s020-d027",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "வேதாளம்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 44,
+        "printed_page": 42
+      }
+    ],
+    "text": "ம்...அது ஒன்றும் தேவையில்லை பிரபு."
+  },
+  {
+    "id": "ammaiyappan-s020-d028",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 44,
+        "printed_page": 42
+      }
+    ],
+    "text": "ஓ! தாயார் பெயராவது..."
+  },
+  {
+    "id": "ammaiyappan-s020-d029",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "முத்தன்",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 44,
+        "printed_page": 42
+      }
+    ],
+    "text": "தாயார் காவேரியம்மாள். இறந்து விட்\nடார்கள்."
+  },
+  {
+    "id": "ammaiyappan-s020-d030",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 44,
+        "printed_page": 42
+      }
+    ],
+    "text": "ம்...கையொப்பமிடு..."
+  },
+  {
+    "id": "ammaiyappan-s020-d031",
+    "archive_scene_id": "ammaiyappan-s020",
+    "archive_scene_ordinal": 20,
+    "source_scene_number": null,
+    "source_heading": "தென்றல் மாளிகை",
+    "speaker_label": "தனபதி",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 44,
+        "printed_page": 42
+      }
+    ],
+    "text": "என்ன? முத்தாயியா? ஹா...ஹா...ஹா...\nபயப்படாமல் போடு."
+  }
+]

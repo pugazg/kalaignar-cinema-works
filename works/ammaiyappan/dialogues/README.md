@@ -7,10 +7,10 @@ Authority: the **63/63 complete-verified archive-only scene derivatives**, thems
 ## Current build
 
 - archive scenes represented: **63/63**
-- immutable dialogue records: **910**
-- distinct exact speaker-label strings: **57**
-- multi-page immutable utterances: **24**
-- zero-dialogue scene files retained as empty arrays: **6**
+- immutable dialogue records: **1009**
+- distinct exact speaker-label strings: **62**
+- multi-page immutable utterances: **26**
+- zero-dialogue scene files retained as empty arrays: **3**
 - source scene numbers invented: **0**
 - alias/name normalization: **0**
 
