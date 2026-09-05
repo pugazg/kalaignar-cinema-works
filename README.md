@@ -1,6 +1,6 @@
 # Kalaignar Cinema Works
 
-A source-led archive of screenplay, dialogue, song, and related cinema writing credited to **Kalaignar M. Karunanidhi**.
+A source-led archive of screenplay, dialogue, song, and related cinema writing credited to **Kalaignar M. Karunanாநிதி**.
 
 The repository preserves source provenance, canonical transcription and derivative representations separately.
 
@@ -74,7 +74,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first pass is complete and whose Tamil verification now uses a **dual gate: visual source fidelity + historical-Tamil-glyph verification**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` is an active **111-page image-only screenplay/dialogue booklet** whose canonical Tamil first pass is complete and whose Tamil verification uses a **dual gate: visual source fidelity + historical-Tamil-glyph verification**.
 
 - printed title: **`அம்மையப்பன்`**;
 - printed credit: **`கதை வசனம்` / `மு. கருணாநிதி`**;
@@ -87,17 +87,20 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - canonical Tamil first pass: **draft-complete — 105/105 pages**;
 - continuous `full-text.md`: **assembled through PDF 109**;
 - first-pass assembly QA: **PASS — 105 anchors, exact PDF 5→109 order, 0 missing, 0 duplicate**;
-- visual source-fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 passed (70/105)**;
-- historical Tamil glyph audit: **required for all 105 pages — 0/105 formally cleared at gate introduction**;
-- final dual-gate Tamil verified pages: **0/105 at gate introduction**;
-- PDF 5–74: **visual-pass / glyph-pending** — retrospective historical-glyph backfill required;
-- PDF 75–109: **visual-pending / glyph-pending** — both audits run together;
-- open first-pass uncertainty markers: **29**;
-- structured derivatives / English / reader: **blocked pending complete dual-gate verified Tamil**.
+- visual source-fidelity audit: **70/105 passed — PDF 5–74 / logical pp.3–72**;
+- historical Tamil glyph audit: **70/105 passed — PDF 5–74 / logical pp.3–72**;
+- final dual-gate Tamil verified: **70/105**;
+- retrospective historical-glyph backfill for PDF 5–74: **CLOSED — source review + occurrence-specific synchronization complete**;
+- historical-glyph synchronization commit: `880978627191a122f55b50522d112d163faa7e10`;
+- synchronized logical occurrences across canonical/provenance surfaces: **97**;
+- global historical-glyph replacement used: **no**;
+- PDF 75–109: **35 pages pending — visual source fidelity + historical glyph audit together**;
+- open first-pass uncertainty markers: **29 — markers 88–116**;
+- structured derivatives / English / reader: **blocked pending complete 105/105 dual-gate verified Tamil**.
 
-The historical-glyph pass follows `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `works/ammaiyappan/notes/historical-glyph-audit.md`. The minimum known families checked occurrence-by-occurrence are `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`, while remaining alert for other old ligatures and edition-specific forms.
+The historical-glyph pass follows `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`, `works/ammaiyappan/notes/historical-glyph-audit.md`, the locked synchronization manifest and its generated report. The minimum known families checked occurrence-by-occurrence are `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`, while remaining alert for other old ligatures and edition-specific forms. Genuine same-edition controls on PDF 48, 62, 64 and 69 were explicitly preserved during synchronization.
 
-**Next:** continue at **PDF 75 / logical printed p.73** with visual source-fidelity and historical-Tamil-glyph verification together; markers 88–116 remain unresolved. Before Tamil closure, complete the retrospective historical-glyph audit for PDF 5–74. Do not start scene/dialogue/character derivatives until both gates reach 105/105.
+**Next:** resume at **PDF 75 / logical printed p.73** with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 88–116 occurrence-by-occurrence. PDF 5–74 are closed and should not be reopened unless new direct source evidence requires a specific local correction.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
