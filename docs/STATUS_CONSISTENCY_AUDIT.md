@@ -1,6 +1,6 @@
 # Kalaignar Cinema Works — Status Consistency Audit
 
-Audit date: 2026-09-04  
+Audit date: 2026-09-05  
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`
 
@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all seven works at the Ammayappan visual-fidelity checkpoint: first pass 105/105 assembled through PDF 109, PDF 5–74 visually verified (70/105), 35 draft pages, 0 review pages, and 29 open first-pass readings; next gate PDF 75 / logical p.73.**
+**IN PROGRESS — Ammayappan now has a mandatory dual Tamil verification gate. The canonical first pass remains 105/105 assembled through PDF 109. Visual source fidelity has passed PDF 5–74 (70/105), but those 70 pages are historical-glyph-pending. Historical-Tamil-glyph verification is formally 0/105 at gate introduction. PDF 75–109 must receive both audits together, and PDF 5–74 require retrospective historical-glyph backfill before final Tamil closure.**
 
 ## Current work matrix
 
@@ -22,7 +22,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; PDF 5–74 fidelity-verified (70/105); 35 draft; 29 open markers** | scene/dialogue/character blocked pending complete verified Tamil | blocked | blocked |
+| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; visual fidelity pass 70/105; historical-glyph pass 0/105 at gate introduction; final dual-gate verified 0/105** | scene/dialogue/character blocked pending dual-gate verified Tamil | blocked | blocked |
 
 ## Ammayappan canonical-Tamil first-pass closure checkpoint
 
@@ -39,14 +39,25 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
 - assembly QA: `works/ammaiyappan/transcription/ASSEMBLY_QA.md` — **PASS**;
 - source anchors: **105 / exact PDF 5→109 order / 0 missing / 0 duplicate**;
-- rendered-scan fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 verified**;
-- verified / draft / review pages: **70 / 35 / 0**;
+- rendered-scan visual fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 passed — 70/105**;
+- historical Tamil glyph audit: **mandatory for PDF 5–109 — 0/105 formally cleared at gate introduction**;
+- final dual-gate Tamil verified pages: **0/105 at gate introduction**;
+- PDF 5–74: **visual-pass / glyph-pending** — retrospective historical-glyph audit required;
+- PDF 75–109: **visual-pending / glyph-pending** — both audits must run together;
 - open first-pass uncertainty markers: **29**;
-- scene / dialogue / character derivatives: **blocked pending complete verified Tamil**;
+- scene / dialogue / character derivatives: **blocked pending complete dual-gate verified Tamil**;
 - song/performance authorship gate: **not-started**;
 - English translation / reader / Reading Room integration: **blocked**.
 
-The canonical Tamil first-pass transcription and assembly gate remains closed. The separate source-fidelity gate is active. Exact next activity: **audit PDF 75 / logical printed p.73 and continue in source order**. Structured derivatives remain blocked until all 105 pages pass.
+The canonical Tamil first-pass transcription and assembly gate remains closed. Tamil verification is now explicitly dual-gated by `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `works/ammaiyappan/notes/historical-glyph-audit.md`.
+
+The minimum known historical/reform-sensitive families that must be inspected occurrence-by-occurrence are:
+
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
+
+This is a minimum set only. Other old ligatures, faint vowel marks, worn/broken type and edition-specific forms remain in scope. Character identity must be supported by enlarged source pixels and same-edition comparison where needed; OCR, semantic expectation, modern spelling and global replacement are not authoritative.
+
+Exact next activity: **continue at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together**. Structured derivatives remain blocked until both gates reach 105/105. Before final Tamil closure, complete the retrospective historical-glyph pass for PDF 5–74.
 
 ## Manthiri Kumari reconciliation checkpoint
 
@@ -126,5 +137,6 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The current **Ammayappan canonical-Tamil first-pass closure is synchronized repository-wide**. Ammayappan has **111/111 source pages inspected**, a verified intake map for the **PDF 5–109 / logical pp.3–107** screenplay body, and **105/105 draft first-pass pages** assembled into one continuous `full-text.md`. Assembly QA is **PASS** with **105 exact page anchors, 0 missing and 0 duplicate**; the locked `பழுதார் வீதி` and `தூக்குமேடை` readings are preserved and rejected `தாக்குமேடை` is absent. There are **116 explicit unresolved first-pass readings** and **0/105 verified pages**. The next repository activity is the separate rendered-scan visual fidelity audit from **PDF 5**, and no structured derivative is unblocked until all 105 canonical pages pass that audit.
+The **Ammayappan first-pass transcription + assembly** remains complete, but the Tamil verification layer is intentionally reopened under a stricter dual-gate policy because the 1954 source contains extensive historical Tamil typeforms. Existing PDF 5–74 visual-fidelity evidence is preserved as **70/105 visual-pass**, not discarded. Those pages are **glyph-pending**, while PDF 75–109 are pending both gates. Final Tamil verification is therefore **0/105 at the moment the explicit historical-glyph gate is introduced**.
 
+The next repository activity is to continue from **PDF 75 / logical p.73** with both visual fidelity and historical-glyph verification on each page, then complete the mandatory retrospective historical-glyph backfill for PDF 5–74 before canonical Tamil closure or any structured derivative/translation release.
