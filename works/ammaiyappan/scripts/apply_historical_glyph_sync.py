@@ -2,10 +2,10 @@
 """Apply the locked Ammayappan historical-glyph synchronization manifest.
 
 Every replacement is confined to its specified PDF source block. Whitespace is
-layout-only for matching but is preserved from the archival text. The script is
-idempotent, distinguishes a genuine old reading from an old-string substring
-inside an already-correct target, and validates the complete manifest before
-writing any transcription file.
+layout-only for matching but is preserved from the archival text. Canonical
+occurrences are mandatory. A retained first-pass provenance occurrence is
+updated only when the audited phrase is actually present there; unresolved
+placeholders are never filled from the newer canonical layer.
 """
 
 from __future__ import annotations
@@ -59,7 +59,6 @@ def find_logical_matches(raw: str, needle: str) -> list[Match]:
 
 
 def standalone_old_matches(old_matches: list[Match], new_matches: list[Match]) -> list[Match]:
-    """Exclude old-string hits that lie wholly inside an already-correct target."""
     return [
         old
         for old in old_matches
@@ -145,12 +144,30 @@ def page_block(text: str, pdf: int) -> str:
     return text[start:end]
 
 
-def replace_page_occurrences(text: str, *, pdf: int, old: str, new: str, expected: int, surface: str) -> tuple[str, dict]:
+def replace_page_occurrences(
+    text: str,
+    *,
+    pdf: int,
+    old: str,
+    new: str,
+    expected: int,
+    surface: str,
+    allow_absent: bool = False,
+) -> tuple[str, dict]:
     start, end = page_span(text, pdf)
     block = text[start:end]
     all_old = find_logical_matches(block, old)
     new_matches = find_logical_matches(block, new)
     old_matches = standalone_old_matches(all_old, new_matches)
+
+    if allow_absent and len(old_matches) == 0 and len(new_matches) == 0:
+        return text, {
+            "surface": surface,
+            "status": "not-present-in-provenance",
+            "from_count_before": 0,
+            "to_count_before": 0,
+            "applied": 0,
+        }
 
     if len(old_matches) == 0 and len(new_matches) == expected:
         return text, {
@@ -214,23 +231,40 @@ def main() -> None:
 
     for page in manifest["pages"]:
         pdf = int(page["pdf"])
-        targets: list[tuple[Path, str]] = [(FULL_TEXT_PATH, "canonical")]
+        targets: list[tuple[Path, str, bool]] = [(FULL_TEXT_PATH, "canonical", False)]
         if page.get("part"):
             part_path = resolve_part_path(page["part"])
             if part_path not in working:
                 original[part_path] = load_utf8(part_path)
                 working[part_path] = original[part_path]
-            targets.append((part_path, "provenance"))
+            targets.append((part_path, "provenance", True))
 
-        page_report = {"pdf": pdf, "printed": page["printed"], "replacement_count": len(page["replacements"]), "replacements": []}
+        page_report = {
+            "pdf": pdf,
+            "printed": page["printed"],
+            "replacement_count": len(page["replacements"]),
+            "replacements": [],
+        }
         for replacement in page["replacements"]:
             old = replacement["from"]
             new = replacement["to"]
             expected = int(replacement.get("occurrences", 1))
-            rr = {"from": old, "to": new, "family": replacement["family"], "expected_occurrences": expected, "targets": []}
-            for target_path, surface in targets:
+            rr = {
+                "from": old,
+                "to": new,
+                "family": replacement["family"],
+                "expected_occurrences": expected,
+                "targets": [],
+            }
+            for target_path, surface, allow_absent in targets:
                 updated, tr = replace_page_occurrences(
-                    working[target_path], pdf=pdf, old=old, new=new, expected=expected, surface=surface
+                    working[target_path],
+                    pdf=pdf,
+                    old=old,
+                    new=new,
+                    expected=expected,
+                    surface=surface,
+                    allow_absent=allow_absent,
                 )
                 working[target_path] = updated
                 rr["targets"].append(tr)
@@ -245,12 +279,16 @@ def main() -> None:
         text = control["text"]
         count = len(find_logical_matches(page_block(canonical, pdf), text))
         if count != 1:
-            raise ValueError(f"PDF {pdf} preserve-control mismatch: expected exactly 1 occurrence of {text!r}; found {count}")
+            raise ValueError(
+                f"PDF {pdf} preserve-control mismatch: expected exactly 1 occurrence of {text!r}; found {count}"
+            )
         controls_report.append({"pdf": pdf, "text": text, "status": "preserved"})
 
     changed_files = [path for path in working if working[path] != original[path]]
     status = "synchronized" if changed_files else "already-synchronized"
 
+    # Nothing is written until every canonical page, available matching
+    # provenance occurrence, and preserve-control has validated.
     for path in changed_files:
         path.write_text(working[path], encoding="utf-8")
 
@@ -265,15 +303,22 @@ def main() -> None:
         "whitespace_transparent_matching": True,
         "source_whitespace_preserved": True,
         "prefix_target_safe": True,
-        "canonical_and_provenance_required": True,
+        "canonical_required": True,
+        "matching_provenance_only": True,
         "logical_occurrences_applied_across_surfaces": total_applied,
         "changed_files": [str(path.relative_to(REPO_ROOT)) for path in changed_files],
         "preserve_controls": controls_report,
         "pages": report_pages,
-        "post_sync_rule": "All replacements are page-scoped audited glyph readings; source whitespace is preserved; old-string substrings inside correct targets do not count as unresolved old readings; preserve-controls remain unchanged."
+        "post_sync_rule": "Canonical audited occurrences are mandatory. Matching retained provenance occurrences are synchronized; absent placeholder-era provenance phrases are left untouched. Source whitespace and preserve-controls remain unchanged."
     }
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"status": status, "changed_files": report["changed_files"], "logical_occurrences_applied_across_surfaces": total_applied, "pages": len(report_pages), "controls": len(controls_report)}, ensure_ascii=False, indent=2))
+    print(json.dumps({
+        "status": status,
+        "changed_files": report["changed_files"],
+        "logical_occurrences_applied_across_surfaces": total_applied,
+        "pages": len(report_pages),
+        "controls": len(controls_report),
+    }, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
