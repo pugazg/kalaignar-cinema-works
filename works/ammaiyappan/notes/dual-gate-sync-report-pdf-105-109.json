@@ -1,0 +1,281 @@
+{
+  "work_id": "ammaiyappan",
+  "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
+  "status": "complete-pass",
+  "pdf_range": [
+    105,
+    109
+  ],
+  "printed_range": [
+    103,
+    107
+  ],
+  "pages_verified": 5,
+  "page_scoped": true,
+  "global_replacement_used": false,
+  "source_whitespace_preserved_around_replacements": true,
+  "uncertainty_markers_remaining_in_range": 0,
+  "canonical_provenance_page_match": "PASS",
+  "logical_replacements_applied_across_surfaces": 24,
+  "changed_files": [
+    "works/ammaiyappan/transcription/full-text.md",
+    "works/ammaiyappan/transcription/parts/pdf-105-109.md",
+    "works/ammaiyappan/notes/textual-notes-pdf-105-109.md"
+  ],
+  "resolved_markers": {
+    "115": "மதுஊறும்",
+    "116": "அண்ணலின் விலங்கொடிப்போம்! பழுதாரை மீட்போம்! வாரீர்! தம்பி உடையான் படைக்கஞ்சான்! இப்படை தோற்கின் எப்படை ஜெயிக்கும்!...வாரீர்! வாரீர்!"
+  },
+  "pages": [
+    {
+      "pdf": 105,
+      "printed": 103,
+      "replacements": [
+        {
+          "from": "இந்தப் பன்பிலா மனிதர்",
+          "to": "இந்தப் பண்பிலா மனிதர்",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 106,
+      "printed": 104,
+      "replacements": [
+        {
+          "from": "⟦மதுவூறும்?/மதுஊறும்?⟧",
+          "to": "மதுஊறும்",
+          "basis": "marker-115-rendered-scan",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "உனக்கு நீதிக்கு—நியாயத்துக்கு",
+          "to": "உலகுக்கு நீதிக்கு—நியாயத்துக்கு",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "தாமரையைப் பார்த்த படி பேசுகிறான்",
+          "to": "தாமரையைப் பார்த்த படி பேசுகிறார்",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 107,
+      "printed": 105,
+      "replacements": [
+        {
+          "from": "என் மகன் எப்படியாவது விடுதலை செய்யுங்கள்",
+          "to": "என் மகனை எப்படியாவது விடுதலை செய்யுங்கள்",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "முத்தன் சாக வேண்டியது தானு?",
+          "to": "முத்தன் சாக வேண்டியது தானா?",
+          "basis": "historical-glyph-naa",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "என் மகன் சாகவேண்டியதுதானு?",
+          "to": "என் மகன் சாகவேண்டியதுதானா?",
+          "basis": "historical-glyph-naa",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 108,
+      "printed": 106,
+      "replacements": [
+        {
+          "from": "பண்டுடைய துறவிகளும்",
+          "to": "பண்புடைய துறவிகளும்",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 109,
+      "printed": 107,
+      "replacements": [
+        {
+          "from": "உங்களை எப்படி வெல்லாம் தவறாக",
+          "to": "உங்களை எப்படியெல்லாம் தவறாக",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "நீயும் உன் கணவனுப் பழுதார்",
+          "to": "நீயும் உன் கணவனும் பழுதார்",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "காப்பாற்ற புறறு வாள்!",
+          "to": "காப்பாற்ற சுழற்று வாள்!",
+          "basis": "visual-fidelity",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "⟦இறுதி பேரணி அழைப்பு: “அண்ணலின் ... / பழுதாரை மீட்போம்! வாரீர்! தம்பி ... இப்படை தோற்கின் எப்படை ஜெயிக்கும்!...வாரீர்! வாரீர்!” — நடுப்பகுதி பழைய அச்சில் முழுமையாகத் தெளிவில்லை.⟧",
+          "to": "அண்ணலின் விலங்கொடிப்போம்! பழுதாரை மீட்போம்! வாரீர்! தம்பி உடையான் படைக்கஞ்சான்! இப்படை தோற்கின் எப்படை ஜெயிக்கும்!...வாரீர்! வாரீர்!",
+          "basis": "marker-116-rendered-scan",
+          "occurrences": 1,
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canonical_tamil_dual_gate_complete": true,
+  "next_pdf_page": null,
+  "next_printed_page": null,
+  "next_action": "Synchronize all repository status mirrors to 105/105 dual-gate verified, then begin the next unblocked structured-derivative phase per project workflow."
+}

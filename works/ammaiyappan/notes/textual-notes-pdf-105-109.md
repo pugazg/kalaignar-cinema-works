@@ -1,13 +1,12 @@
-# அம்மையப்பன் — first-pass uncertainty ledger — PDF 105–109
+# அம்மையப்பன் — resolved uncertainty supplement — PDF 105–109
 
-Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`  
-Batch: **PDF 105–109 / printed pp.103–107**
+Controlling source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
-Rendered scan controls. These are unresolved first-pass readings only; they must be adjudicated from direct scan enlargement during the later visual fidelity audit and must not be silently reconstructed from OCR, film dialogue, web text, later editions, or semantic expectation.
+Status: **CLOSED / dual-gate verified**. Markers **115–116** were adjudicated from enlarged rendered-scan evidence. The user-reviewed PDF 107 heading remains `தூக்குமேடை`; rejected `தாக்குமேடை` remains absent.
 
-| Marker | PDF | Printed | First-pass span | Status |
-|---:|---:|---:|---|---|
-| 115 | 106 | 104 | `⟦மதுவூறும்?/மதுஊறும்?⟧` in Muthan's farewell speech | unresolved-glyph-reading |
-| 116 | 109 | 107 | closing rally call after `அனைவரும் புறப்படுங்கள்!...`; the middle wording before the clearly visible ending `இப்படை தோற்கின் எப்படை ஜெயிக்கும்!...வாரீர்! வாரீர்!` | unresolved-old-type-span |
+Resolved readings:
 
-The PDF 107 / printed p.105 structural heading is **`தூக்குமேடை`**, preserved under the prior user-reviewed source verdict. `தாக்குமேடை` remains rejected.
+- **115:** `மதுஊறும்`
+- **116:** `அண்ணலின் விலங்கொடிப்போம்! பழுதாரை மீட்போம்! வாரீர்! தம்பி உடையான் படைக்கஞ்சான்! இப்படை தோற்கின் எப்படை ஜெயிக்கும்!...வாரீர்! வாரீர்!`
+
+No `⟦…⟧` uncertainty marker remains in PDF 105–109. PDF 109 / printed p.107 closes the canonical screenplay/dialogue range.
