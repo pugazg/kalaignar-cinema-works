@@ -1,0 +1,104 @@
+name: Ammayappan final dual-gate closure
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/ammaiyappan-final-dual-gate-closure.yml"
+      - "works/ammaiyappan/scripts/finalize_dual_gate_closure.py"
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Finalize Ammayappan canonical Tamil closure
+        run: python works/ammaiyappan/scripts/finalize_dual_gate_closure.py
+
+      - name: Verify change scope and final state
+        shell: bash
+        run: |
+          git status --short
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          allowed = {
+              'README.md',
+              'data/works.json',
+              'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md',
+              'docs/STATUS_CONSISTENCY_AUDIT.md',
+              'works/ammaiyappan/PROJECT_HANDOVER.md',
+              'works/ammaiyappan/README.md',
+              'works/ammaiyappan/metadata.yaml',
+              'works/ammaiyappan/notes/FINAL_TAMIL_QA.md',
+              'works/ammaiyappan/notes/fidelity-audit.md',
+              'works/ammaiyappan/notes/historical-glyph-audit.md',
+              'works/ammaiyappan/transcription/README.md',
+              'works/ammaiyappan/transcription/index.json',
+          }
+          changed = {line[3:] for line in subprocess.check_output(['git','status','--short'], text=True).splitlines() if line.strip()}
+          extra = changed - allowed
+          if extra:
+              raise SystemExit(f'unexpected changed paths: {sorted(extra)}')
+          required = {
+              'works/ammaiyappan/notes/FINAL_TAMIL_QA.md',
+              'works/ammaiyappan/transcription/index.json',
+              'works/ammaiyappan/metadata.yaml',
+              'works/ammaiyappan/README.md',
+              'works/ammaiyappan/PROJECT_HANDOVER.md',
+              'README.md',
+              'data/works.json',
+              'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md',
+              'docs/STATUS_CONSISTENCY_AUDIT.md',
+          }
+          missing = required - changed
+          if missing:
+              raise SystemExit(f'expected closure mirrors missing: {sorted(missing)}')
+          idx = json.loads(Path('works/ammaiyappan/transcription/index.json').read_text(encoding='utf-8'))
+          assert idx['verified_pages'] == 105
+          assert idx['visual_fidelity_passed_pages'] == 105
+          assert idx['historical_glyph_verified_pages'] == 105
+          assert idx['open_uncertainty_markers'] == 0
+          assert idx['final_tamil_verification']['status'] == 'complete-verified'
+          full = Path('works/ammaiyappan/transcription/full-text.md').read_text(encoding='utf-8')
+          anchors = re.findall(r'<!-- source: pdf=(\d+).*?status=verified -->', full)
+          assert len(anchors) == 105 and list(map(int, anchors)) == list(range(5,110))
+          assert '⟦' not in full and '⟧' not in full
+          assert 'தூக்குமேடை' in full and 'தாக்குமேடை' not in full
+          print('FINAL QA PASS: 105/105 dual-gate verified; scene-text gate ready')
+          PY
+
+      - name: Commit final closure
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            README.md \
+            data/works.json \
+            docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md \
+            docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/ammaiyappan/PROJECT_HANDOVER.md \
+            works/ammaiyappan/README.md \
+            works/ammaiyappan/metadata.yaml \
+            works/ammaiyappan/notes/FINAL_TAMIL_QA.md \
+            works/ammaiyappan/notes/fidelity-audit.md \
+            works/ammaiyappan/notes/historical-glyph-audit.md \
+            works/ammaiyappan/transcription/README.md \
+            works/ammaiyappan/transcription/index.json
+          git commit -m "Close Ammayappan Tamil at 105 of 105 dual gate [skip ci]"
+          git push origin HEAD:main
