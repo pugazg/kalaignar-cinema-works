@@ -1,0 +1,65 @@
+name: Ammayappan build scene-text derivatives
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-build-scenes.yml"
+      - "works/ammaiyappan/scripts/build_scene_derivatives.py"
+
+permissions:
+  contents: write
+
+jobs:
+  build-scenes:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build verified scene derivatives
+        run: python works/ammaiyappan/scripts/build_scene_derivatives.py
+      - name: Validate scene layer
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('works/ammaiyappan')
+          idx = json.loads((root/'scenes/index.json').read_text(encoding='utf-8'))
+          assert idx['status'] == 'complete-verified'
+          assert idx['archive_scene_count'] == 63
+          assert idx['source_numbered_scenes'] is False
+          assert idx['canonical_derivative_body_sha256'] == idx['joined_scene_spans_sha256']
+          recs = idx['scene_records']
+          assert len(recs) == 63
+          assert [r['ordinal'] for r in recs] == list(range(1,64))
+          assert [r['scene_id'] for r in recs] == [f'ammaiyappan-s{i:03d}' for i in range(1,64)]
+          assert all(r['source_scene_number'] is None for r in recs)
+          assert all(r['status'] == 'verified-derivative' for r in recs)
+          files = sorted((root/'scenes').glob('scene-*.md'))
+          assert len(files) == 63
+          for f in files:
+              t = f.read_text(encoding='utf-8')
+              assert 'source_scene_number=none' in t
+              assert '⟦' not in t and '⟧' not in t
+          qa = (root/'notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
+          assert 'Status: **PASS**' in qa
+          assert 'gaps between consecutive derivative spans: **0**' in qa
+          assert 'overlaps between consecutive derivative spans: **0**' in qa
+          assert '105/105 — PDF 5–109' in qa
+          print('SCENE DERIVATIVE QA PASS: 63/63')
+          PY
+          git status --short
+      - name: Commit verified scene layer
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/scenes works/ammaiyappan/notes/scene-boundary-ownership-qa.md
+          git commit -m "Build Ammayappan 63 verified scene derivatives [skip ci]"
+          git push origin HEAD:main
