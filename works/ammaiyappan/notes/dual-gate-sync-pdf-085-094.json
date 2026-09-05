@@ -1,0 +1,125 @@
+{
+  "work_id": "ammaiyappan",
+  "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
+  "policy": "page-scoped-dual-gate-sync",
+  "pdf_range": [85, 94],
+  "printed_range": [83, 92],
+  "global_replacement_allowed": false,
+  "source_whitespace_policy": "preserve-existing-layout-around-character-identity-and-fidelity-corrections",
+  "pages": [
+    {
+      "pdf": 85,
+      "printed": 83,
+      "replacements": [
+        {"from":"⟦ஆரணங்குகளின்?⟧","to":"ஆரணங்குகளின்","basis":"marker-98-rendered-scan"},
+        {"from":"⟦தன் பயனை?⟧","to":"தன் பயனை","basis":"marker-99-rendered-scan"},
+        {"from":"⟦நார்மணியின்?⟧","to":"நாரீமணியின்","basis":"marker-100-rendered-scan"},
+        {"from":"இளப்பயதில்","to":"இளப்பவயதில்","basis":"visual-fidelity"}
+      ]
+    },
+    {
+      "pdf": 86,
+      "printed": 84,
+      "replacements": [
+        {"from":"கடற்கரையில் எத்தனையோ","to":"கடற்கரையிலே எத்தனையோ","basis":"visual-fidelity"},
+        {"from":"இல்ல அய்யா!","to":"இல்லை அய்யா!","basis":"historical-glyph-lai"}
+      ]
+    },
+    {
+      "pdf": 87,
+      "printed": 85,
+      "replacements": [
+        {"from":"⟦அவள் அணைத்து நடத்திக் கொண்டு செல்கிறாள்?⟧","to":"அவளை அணைத்து நடத்திக் கொண்டு செல்கிறாள்","basis":"marker-101-rendered-scan"},
+        {"from":"நான் போகவில்லையெனில்","to":"நான் போகவில்லையென்றால்","basis":"visual-fidelity"}
+      ]
+    },
+    {
+      "pdf": 88,
+      "printed": 86,
+      "replacements": [
+        {"from":"⟦அவனுக்குத் தூக்கி வாரிப் போடுகிறது?⟧","to":"அவனுக்கு தூக்கி வாரிப் போடுகிறது","basis":"marker-102-rendered-scan"},
+        {"from":"முத்தன் கூட ஒரு","to":"முத்தன்கூட ஒரு","basis":"visual-fidelity"},
+        {"from":"பட்டாளத்தைச் சேர்த்து கொண்டு","to":"பட்டாளத்தைச் சேர்த்துக் கொண்டு","basis":"visual-fidelity"}
+      ]
+    },
+    {
+      "pdf": 89,
+      "printed": 87,
+      "replacements": [
+        {"from":"தேடிஅலையும்","to":"தேடி அலையும்","basis":"visual-fidelity"},
+        {"from":"வீணுக என் பேசுகிறீர்?","to":"வீணுக ஏன் பேசுகிறீர்?","basis":"visual-fidelity"},
+        {"from":"சுந்தர மேனியாள் எப்படியாவது","to":"சுந்தர மேனியாளை எப்படியாவது","basis":"visual-fidelity"},
+        {"from":"மரணஸ்தையில்","to":"மரணவஸ்தையில்","basis":"visual-fidelity"},
+        {"from":"நீங்கள்தானு முத்தாயி?","to":"நீங்கள்தானா முத்தாயி?","basis":"historical-glyph-naa"},
+        {"from":"கைவிட்டுக் கத்துகின்றேன்","to":"கைவிட்டுக் கதறுகின்றேன்","basis":"visual-fidelity"},
+        {"from":"⟦சாதுவேடத்தில்?⟧","to":"சாதுவேடத்தில்","basis":"marker-103-rendered-scan"}
+      ]
+    },
+    {
+      "pdf": 90,
+      "printed": 88,
+      "replacements": [
+        {"from":"உன் காமக் குருவிலே","to":"உன் காமச் சூறாவளியிலே","basis":"visual-fidelity"},
+        {"from":"எழுத்துக்கு எழுத்து திக்கிறது","to":"எழுத்துக்கு எழுத்து தித்திக்கிறது","basis":"visual-fidelity"}
+      ]
+    },
+    {
+      "pdf": 91,
+      "printed": 89,
+      "replacements": [
+        {"from":"சாவு உன்னை விட்டுக் கோரமானதா?","to":"சாவு உன்னை விடக் கோரமானதா?","basis":"visual-fidelity"},
+        {"from":"என் தாங்கலிலே இருந்து","to":"என் கரங்களிலேயிருந்து","basis":"visual-fidelity"},
+        {"from":"அக்கிரமம் என்று அச்சாணியில்தான்","to":"அக்கிரமம் என்ற அச்சாணியில்தான்","basis":"visual-fidelity"},
+        {"from":"வீணுக அழிந்து போகாதே","to":"வீணே அழிந்து போகாதே","basis":"visual-fidelity"},
+        {"from":"கைகளில் படித்திருப்பாய்","to":"கதைகளில் படித்திருப்பாய்","basis":"visual-fidelity"},
+        {"from":"சிலப்பதிகாரத்து காலம்","to":"சிலப்பதிகாரத்துக் காலம்","basis":"visual-fidelity"}
+      ]
+    },
+    {
+      "pdf": 92,
+      "printed": 90,
+      "replacements": [
+        {"from":"⟦உன் மேடு விளையாடுகிறேன்?⟧","to":"உன்னோடு விளையாடுகிறேன்","basis":"marker-104-rendered-scan"},
+        {"from":"⟦பயமுறுத்தி வாழ்ந்த?⟧","to":"பயமுறுத்தி வாழ்ந்த","basis":"marker-105-pdf-92-to-93-boundary"}
+      ]
+    },
+    {
+      "pdf": 93,
+      "printed": 91,
+      "replacements": [
+        {"from":"⟦ஆட்சி பீடம் ஓடாசி, மேடாசி?⟧","to":"ஆட்சி பீடம் ஓடாகி, மேடாகி","basis":"marker-106-rendered-scan"},
+        {"from":"வேங்கை மாச்சென்றவர்களின்","to":"வேகமாகச் சென்றவர்களின்","basis":"visual-fidelity"},
+        {"from":"நன்றுகத் தெரிகிறது","to":"நன்றாகத் தெரிகிறது","basis":"historical-glyph-raa"},
+        {"from":"தயவர்களே—கத்திவீச்சத்திலே—⟦கண்ணுபற்ற செயல்களே?⟧—எதிர்த்து நிற்கும் போர்க்கருவி!","to":"கயவர்கள்—கத்திவீச்சுக்கள்—கண்ணியமற்ற செயல்கள்—எதிர்த்து நிற்கும் போர்க்கருவி!","basis":"marker-107-rendered-scan"}
+      ]
+    },
+    {
+      "pdf": 94,
+      "printed": 92,
+      "replacements": [
+        {"from":"குற்றவாளி இல்ல","to":"குற்றவாளி இல்லை","basis":"historical-glyph-lai"},
+        {"from":"ஒன்றுமில்ல","to":"ஒன்றுமில்லை","basis":"historical-glyph-lai"},
+        {"from":"வீரகாப்பியம் பேசுவித்து விட்டாயா","to":"வீரகாப்பியம் பேசவந்து விட்டாயா","basis":"visual-fidelity"},
+        {"from":"இதுதானு உன் மாளிகையில்","to":"இதுதானா உன் மாளிகையில்","basis":"historical-glyph-naa"}
+      ]
+    }
+  ],
+  "preserve_controls": [
+    {"pdf": 86, "text": "கண்ணுல மயக்கி", "basis": "source-colloquial-form"},
+    {"pdf": 94, "text": "சாகலையா?", "basis": "source-colloquial-form"}
+  ],
+  "resolved_markers": {
+    "98": "ஆரணங்குகளின்",
+    "99": "தன் பயனை",
+    "100": "நாரீமணியின்",
+    "101": "அவளை அணைத்து நடத்திக் கொண்டு செல்கிறாள்",
+    "102": "அவனுக்கு தூக்கி வாரிப் போடுகிறது",
+    "103": "சாதுவேடத்தில்",
+    "104": "உன்னோடு விளையாடுகிறேன்",
+    "105": "பயமுறுத்தி வாழ்ந்த / காலம் மலையேறி விட்டது",
+    "106": "ஆட்சி பீடம் ஓடாகி, மேடாகி",
+    "107": "கயவர்கள்—கத்திவீச்சுக்கள்—கண்ணியமற்ற செயல்கள்—எதிர்த்து நிற்கும் போர்க்கருவி"
+  },
+  "next_pdf_page_after_pass": 95,
+  "next_printed_page_after_pass": 93
+}
