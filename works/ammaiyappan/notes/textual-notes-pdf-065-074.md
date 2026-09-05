@@ -81,3 +81,14 @@ The older cumulative ledger through PDF 64 remains `textual-notes.md` with marke
 - cumulative open first-pass markers through PDF 74: **87**;
 - this is still a **draft first pass**, not a fidelity review;
 - the correct next source page is **PDF 75 / printed p.73**, beginning with the continuation of marker 87.
+
+
+## Fidelity disposition — PDF 65–74
+
+A later rendered-scan fidelity pass supersedes the first-pass uncertainty disposition without rewriting this historical ledger.
+
+- marker **49** remains unresolved on PDF 65 and keeps that page in `review`;
+- markers **50–87** are resolved directly from the rendered scan;
+- PDF **66–74** are verified after full-page transcription against the scan;
+- the old marker-87 note claiming a PDF 74→75 continuation is superseded: PDF 74 closes locally with `ஆபத்து காத்திருக்கிறது!`, and PDF 75 begins a new bracketed action;
+- the PDF 73→74 split `வைத்` + `திருந்த` is source-visible and retained.

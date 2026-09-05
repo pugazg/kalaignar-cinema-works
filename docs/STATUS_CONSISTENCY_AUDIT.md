@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors synchronized across all seven works at the Ammayappan visual-fidelity checkpoint: first pass 105/105 assembled through PDF 109, PDF 5–64 visually verified (60/105), 45 draft pages, 0 review pages, and 68 open first-pass readings; next PDF 65 / logical p.63.**
+**PASS — current status mirrors synchronized across all seven works at the Ammayappan visual-fidelity checkpoint: first pass 105/105 assembled through PDF 109, PDF 5–64 and PDF 66–74 visually verified (69/105), PDF 65 review, 35 draft pages, 1 review page, and 30 open first-pass readings; next gate PDF 65 / logical p.63 / marker 49.**
 
 ## Current work matrix
 
@@ -39,15 +39,14 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
 - assembly QA: `works/ammaiyappan/transcription/ASSEMBLY_QA.md` — **PASS**;
 - source anchors: **105 / exact PDF 5→109 order / 0 missing / 0 duplicate**;
-- rendered-scan fidelity audit: **in-progress — PDF 5–64 / logical pp.3–62 verified**;
-- verified / draft / review pages: **60 / 45 / 0**;
-- open first-pass uncertainty markers: **68**;
+- rendered-scan fidelity audit: **in-progress — PDF 5–64 and PDF 66–74 verified; PDF 65 / logical p.63 review**;
+- verified / draft / review pages: **69 / 35 / 1**;
+- open first-pass uncertainty markers: **30**;
 - scene / dialogue / character derivatives: **blocked pending complete verified Tamil**;
 - song/performance authorship gate: **not-started**;
 - English translation / reader / Reading Room integration: **blocked**.
 
-The canonical Tamil first-pass transcription and assembly gate remains closed. The separate source-fidelity gate is now active. Exact next activity: **continue at PDF 65 / logical printed p.63 and adjudicate the remaining 68 uncertainty markers in source order**. Structured derivatives remain blocked until all 105 pages pass.
-
+The canonical Tamil first-pass transcription and assembly gate remains closed. The separate source-fidelity gate is active. Exact next activity: **reopen PDF 65 / logical printed p.63 and adjudicate marker 49 from the rendered scan**. Do not continue to PDF 75 while PDF 65 remains review. Structured derivatives remain blocked until all 105 pages pass.
 ## Manthiri Kumari reconciliation checkpoint
 
 - source: **14 PDF pages**, image-only, SHA-256 `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;

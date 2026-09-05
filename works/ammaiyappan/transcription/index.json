@@ -21,10 +21,10 @@
     3,
     107
   ],
-  "draft_pages": 45,
-  "verified_pages": 60,
-  "review_pages": 0,
-  "open_uncertainty_markers": 68,
+  "draft_pages": 35,
+  "verified_pages": 69,
+  "review_pages": 1,
+  "open_uncertainty_markers": 30,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
     "../notes/textual-notes-pdf-065-074.md",
@@ -172,10 +172,10 @@
   "fidelity_audit": {
     "status": "in-progress",
     "canonical_range_audit_complete": false,
-    "audited_pages": 60,
-    "verified_pages": 60,
-    "unresolved_source_readings": 68,
-    "review_pages": 0,
+    "audited_pages": 70,
+    "verified_pages": 69,
+    "unresolved_source_readings": 30,
+    "review_pages": 1,
     "verified_pdf_range": [
       5,
       64
@@ -183,9 +183,27 @@
     "verified_logical_printed_range": [
       3,
       62
+    ],
+    "additional_verified_pdf_ranges": [
+      [
+        66,
+        74
+      ]
+    ],
+    "additional_verified_logical_printed_ranges": [
+      [
+        64,
+        72
+      ]
+    ],
+    "review_pdf_pages": [
+      65
+    ],
+    "review_logical_printed_pages": [
+      63
     ]
   },
   "next_pdf_page": 65,
   "next_printed_page": 63,
-  "next_action": "Continue the rendered-scan visual fidelity audit at PDF 65 / logical printed p.63. Resolve remaining first-pass uncertainties occurrence-by-occurrence; structured derivatives remain blocked until all 105 canonical pages are verified."
+  "next_action": "Reopen PDF 65 / logical printed p.63 and adjudicate the remaining long old-type poetic marker 49 from the rendered scan. PDF 5-64 and PDF 66-74 are verified; PDF 65 remains review. Do not continue to PDF 75 until marker 49 is source-clean; structured derivatives remain blocked until all 105 canonical pages are verified."
 }

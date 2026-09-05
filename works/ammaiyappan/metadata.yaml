@@ -138,23 +138,25 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  verified_pages: 60
-  draft_pages: 45
-  review_pages: 0
-  open_first_pass_uncertainty_markers: 68
+  verified_pages: 69
+  draft_pages: 35
+  review_pages: 1
+  open_first_pass_uncertainty_markers: 30
   next_pdf_page: 65
   next_logical_printed_page: 63
-  next_action: "Continue the rendered-scan visual fidelity audit at PDF 65 / logical printed p.63; 60/105 pages are verified and 68 explicit first-pass readings remain unresolved."
+  next_action: "Reopen PDF 65 / logical printed p.63 and adjudicate marker 49 from the rendered scan; PDF 5-64 and PDF 66-74 are verified, PDF 65 is review, and structured derivatives remain blocked until all 105 pages are verified."
 
 fidelity_audit:
   status: in-progress
   canonical_range_audit_complete: false
-  audited_pages: 60
-  verified_pages: 60
-  review_pages: 0
-  unresolved_source_readings: 68
-  verified_pdf_pages: "5-64"
-  verified_logical_printed_pages: "3-62"
+  audited_pages: 70
+  verified_pages: 69
+  review_pages: 1
+  unresolved_source_readings: 30
+  verified_pdf_pages: "5-64,66-74"
+  verified_logical_printed_pages: "3-62,64-72"
+  review_pdf_pages: "65"
+  review_logical_printed_pages: "63"
 
 structured_derivatives:
   scene_index: blocked-pending-verified-tamil
@@ -174,7 +176,7 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: in-progress-60-of-105
+  visual_fidelity_audit: in-progress-69-of-105-plus-1-review
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -183,4 +185,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Continue the rendered-scan visual fidelity audit at PDF 65 / logical printed p.63; resolve the remaining 68 explicit first-pass readings before structured derivatives."
+next_action: "Reopen PDF 65 / logical printed p.63 and adjudicate marker 49 from the rendered scan; do not continue to PDF 75 until PDF 65 is verified."
