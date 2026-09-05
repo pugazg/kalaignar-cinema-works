@@ -9,11 +9,12 @@ This document is the **project-level handover**. Work-specific handovers remain 
 For a new work, also read:
 
 1. `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`
-2. `docs/ARCHIVAL_WORKFLOW.md`
-3. `docs/SOURCE_POLICY.md`
-4. `docs/TRANSCRIPTION_GUIDE.md`
-5. `docs/STATUS_CONSISTENCY_AUDIT.md`
-6. `docs/START_NEW_CINEMA_WORK_PROMPT.md`
+2. `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` when older Tamil typeforms may occur
+3. `docs/ARCHIVAL_WORKFLOW.md`
+4. `docs/SOURCE_POLICY.md`
+5. `docs/TRANSCRIPTION_GUIDE.md`
+6. `docs/STATUS_CONSISTENCY_AUDIT.md`
+7. `docs/START_NEW_CINEMA_WORK_PROMPT.md`
 
 ---
 
@@ -92,19 +93,22 @@ For each new cinema work, proceed through these gates in order:
 2. **Structural mapping**
 3. **Canonical Tamil first pass**
 4. **Visual fidelity audit**
-5. **Scene-text derivatives**
-6. **Dialogue index**
-7. **Character/entity index**
-8. **Song/verse/performance authorship gate**
-9. **Tamil song derivative files only where full source text supports them**
-10. **English translation, if in scope**
-11. **Whole-work reader QA/export**
-12. **Reading Room integration**
-13. **Optional standalone packaging/release only when separately useful/requested**
+5. **Historical Tamil glyph audit when older typeforms may occur** — this is independent of visual fidelity and may require retrospective re-audit of previously visual-verified pages
+6. **Scene-text derivatives**
+7. **Dialogue index**
+8. **Character/entity index**
+9. **Song/verse/performance authorship gate**
+10. **Tamil song derivative files only where full source text supports them**
+11. **English translation, if in scope**
+12. **Whole-work reader QA/export**
+13. **Reading Room integration**
+14. **Optional standalone packaging/release only when separately useful/requested**
+
+For an older-print source that uses historical Tamil typeforms, canonical Tamil is not complete merely because the ordinary visual-fidelity gate passes. Follow `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`: identify character identity from source pixels, check the known reform-sensitive families occurrence-by-occurrence, avoid global replacement and spelling modernization, and leave unresolved identity under review.
 
 **Repository-wide status synchronization is a completion gate at every major phase.** A phase is not closed merely because its content files exist.
 
-The detailed rules are in `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`.
+The detailed rules are in `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, supplemented by the historical-glyph guide for applicable older sources.
 
 ---
 
@@ -138,6 +142,8 @@ Do not repair canonical text from:
 - familiar famous dialogue.
 
 If the scan does not support a reading, keep uncertainty visible.
+
+For historical Tamil typeforms, **read character identity, not modern visual resemblance**. A source-supported historical glyph should be encoded as its correct modern Unicode identity without modernizing the source word around it.
 
 ---
 
@@ -195,6 +201,10 @@ The reader/export builder should reject missing links, duplicate IDs, duplicate 
 
 A work-local index may be correct while root README, `data/works.json`, master handover or status audit still advertises an older checkpoint. Major-phase closure requires a repository-wide stale-state sweep and synchronization of every current mirror that could direct future work.
 
+### N. Historical Tamil glyphs require their own explicit pass
+
+Ordinary visual comparison can still misread an old metal-type glyph as the closest-looking modern character. For historical sources, explicitly decode glyph identity using enlarged/native source pixels and same-edition evidence. The known minimum families are `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. This is a minimum set only. A systematic historical-glyph issue discovered after pages were previously called verified requires retrospective audit of the affected coverage.
+
 ---
 
 ## 6. Repository architecture and authorities
@@ -206,6 +216,7 @@ docs/
   ARCHIVAL_WORKFLOW.md
   SOURCE_POLICY.md
   TRANSCRIPTION_GUIDE.md
+  HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md
   CINEMA_WORKS_PROCESSING_GUIDE.md
   HANDOVER_KALAIGNAR_CINEMA_WORKS.md
   STATUS_CONSISTENCY_AUDIT.md
@@ -371,7 +382,7 @@ Always inspect current repository state.
 
 ---
 
-## 13. Current high-level project checkpoint — 2026-09-04
+## 13. Current high-level project checkpoint — 2026-09-05
 
 - **Parasakthi** — complete-verified canonical/structured English reader work.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
@@ -379,9 +390,9 @@ Always inspect current repository state.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
-- **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; rendered-scan fidelity audit has **PDF 5–74 verified (70/105), 35 draft pages, 0 review pages, and 29 unresolved first-pass readings**; structured derivatives remain blocked.
+- **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; visual source-fidelity audit has **PDF 5–74 passed (70/105)**; historical-Tamil-glyph audit is now a separate mandatory gate and is **0/105 formally cleared at gate introduction**; final dual-gate verified pages **0/105**; PDF 5–74 require retrospective glyph backfill, PDF 75–109 require both audits together; 29 unresolved first-pass readings; structured derivatives remain blocked.
 
-`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–64 and PDF 66–74 verified (69/105), PDF 65 / logical p.63 review, 35 draft pages, and 30 unresolved first-pass readings**. The next gate is PDF 65 / logical p.63 / marker 49.
+The active Ammayappan work-local README, metadata, transcription README/index, project handover, historical-glyph audit, root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` now use the dual-gate terminology. `data/works.json` must not be treated as authoritative for the new dual-gate counts until its Ammayappan entry is synchronized.
 
 ---
 
@@ -426,13 +437,17 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - source intake / whole-scan map: **complete**;
 - canonical first pass: **105/105 draft-complete**, continuous `full-text.md` through PDF 109;
 - assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- fidelity audit verified range: **PDF 5–74 / logical pp.3–72 — 70/105 verified**;
-- review pages: **0**;
-- remaining draft pages: **35 — PDF 75–109**;
+- visual source-fidelity range: **PDF 5–74 / logical pp.3–72 — 70/105 passed**;
+- historical-Tamil-glyph audit: **mandatory — 0/105 formally cleared at gate introduction**;
+- final dual-gate Tamil verified: **0/105 at gate introduction**;
+- PDF 5–74 disposition: **visual-pass / glyph-pending** — retrospective historical-glyph backfill required;
+- PDF 75–109 disposition: **visual-pending / glyph-pending** — run both audits together;
 - open first-pass uncertainty markers: **29 — markers 88–116**;
 - PDF 65 marker 49 is scan-resolved; retained unusual forms include `மோழைக்குப்`, `கண்ணுளர்`, `மதுவும் சுருவும்`, and `கருத்தரியப்`;
 - PDF 73→74 source split `வைத்` + `திருந்த` is preserved; PDF 74 closes locally and does not continue into PDF 75;
 - locked source headings remain `பழுதார் வீதி` (PDF 56) and `தூக்குமேடை` (PDF 107; reject `தாக்குமேடை`);
-- structured derivatives / English / reader: **blocked pending 105/105 verified Tamil**.
+- historical-glyph authorities: `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `works/ammaiyappan/notes/historical-glyph-audit.md`;
+- minimum known audit families: `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`;
+- structured derivatives / English / reader: **blocked pending 105/105 dual-gate verified Tamil**.
 
-**Exact next activity:** audit **PDF 75 / logical printed p.73** and continue in source order through PDF 109; resolve markers 88–116 only from the rendered scan.
+**Exact next activity:** continue at **PDF 75 / logical printed p.73**, performing the rendered-scan visual source-fidelity audit and historical-Tamil-glyph audit together; resolve markers 88–116 only from source pixels. Before final Tamil closure, complete retrospective historical-glyph verification for PDF 5–74.
