@@ -1,0 +1,67 @@
+name: Ammayappan final dual-gate closure v3
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/ammaiyappan-final-dual-gate-closure-v3.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Finalize canonical Tamil closure
+        run: |
+          python works/ammaiyappan/scripts/finalize_dual_gate_closure_v2.py
+          rm -rf works/ammaiyappan/scripts/__pycache__
+      - name: Verify final state and change scope
+        shell: bash
+        run: |
+          git status --short
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          allowed = {
+            'README.md','data/works.json','docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md','docs/STATUS_CONSISTENCY_AUDIT.md',
+            'works/ammaiyappan/PROJECT_HANDOVER.md','works/ammaiyappan/README.md','works/ammaiyappan/metadata.yaml',
+            'works/ammaiyappan/notes/FINAL_TAMIL_QA.md','works/ammaiyappan/notes/fidelity-audit.md','works/ammaiyappan/notes/historical-glyph-audit.md',
+            'works/ammaiyappan/transcription/README.md','works/ammaiyappan/transcription/index.json'
+          }
+          changed = {x[3:] for x in subprocess.check_output(['git','status','--short'], text=True).splitlines() if x.strip()}
+          extra = changed - allowed
+          if extra: raise SystemExit(f'unexpected changed paths: {sorted(extra)}')
+          idx = json.loads(Path('works/ammaiyappan/transcription/index.json').read_text(encoding='utf-8'))
+          assert idx['verified_pages'] == idx['visual_fidelity_passed_pages'] == idx['historical_glyph_verified_pages'] == 105
+          assert idx['open_uncertainty_markers'] == 0
+          assert idx['final_tamil_verification']['status'] == 'complete-verified'
+          full = Path('works/ammaiyappan/transcription/full-text.md').read_text(encoding='utf-8')
+          anchors = re.findall(r'<!-- source: pdf=(\d+).*?status=verified -->', full)
+          assert list(map(int, anchors)) == list(range(5,110))
+          assert '⟦' not in full and '⟧' not in full
+          assert 'தூக்குமேடை' in full and 'தாக்குமேடை' not in full
+          qa = Path('works/ammaiyappan/notes/FINAL_TAMIL_QA.md').read_text(encoding='utf-8')
+          assert 'Status: **PASS**' in qa and '105/105' in qa
+          print('FINAL CLOSURE PASS')
+          PY
+      - name: Commit final closure
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/ammaiyappan/PROJECT_HANDOVER.md works/ammaiyappan/README.md works/ammaiyappan/metadata.yaml \
+            works/ammaiyappan/notes/FINAL_TAMIL_QA.md works/ammaiyappan/notes/fidelity-audit.md works/ammaiyappan/notes/historical-glyph-audit.md \
+            works/ammaiyappan/transcription/README.md works/ammaiyappan/transcription/index.json
+          git commit -m "Close Ammayappan Tamil at 105 of 105 dual gate [skip ci]"
+          git push origin HEAD:main
