@@ -57,13 +57,14 @@ For each page:
 | `visual-pass / glyph-pending` | visual fidelity passed earlier, but the explicit historical-glyph pass has not yet been completed |
 | `visual-pending / glyph-pending` | neither gate has yet passed |
 | `visual-pass / glyph-pass` | page is final Tamil verified |
+| `glyph-reviewed / sync-pending` | source pixels have established one or more historical-glyph corrections, but the corrections have not yet been synchronized into every canonical/provenance surface |
 | `needs-review` | either gate has unresolved source evidence |
 
 ## Coverage plan
 
 ### Forward combined audit
 
-Continue from **PDF 75 / logical printed p.73**. Every new visual-fidelity page from PDF 75 onward must simultaneously receive the historical-glyph audit. A page may be promoted to final Tamil verified only after both checks pass.
+Continue from **PDF 75 / logical printed p.73** only after the retrospective backfill through PDF 74 is complete and all backfill corrections are synchronized. Every new visual-fidelity page from PDF 75 onward must simultaneously receive the historical-glyph audit. A page may be promoted to final Tamil verified only after both checks pass.
 
 ### Retrospective backfill
 
@@ -77,7 +78,7 @@ No structured derivatives, English translation or reader release may treat the w
 ### PDF <n> / logical printed p.<n>
 
 - visual fidelity: `pass | pending | needs-review`
-- historical-glyph audit: `pass | pending | needs-review`
+- historical-glyph audit: `pass | pending | needs-review | reviewed-sync-pending`
 - full known family set checked: yes/no
 - historical families observed: `<families or none>`
 - corrections:
@@ -93,8 +94,232 @@ No structured derivatives, English translation or reader release may treat the w
 
 | PDF range | Logical printed range | Visual fidelity | Historical glyph audit | Final Tamil |
 |---|---|---|---|---|
-| 5–74 | 3–72 | pass — 70 pages | retrospective pass required | not yet dual-gate verified |
+| 5–74 | 3–72 | pass — 70 pages | retrospective pass required | not yet fully dual-gate verified |
 | 75–109 | 73–107 | pending — 35 pages | pending — run together with visual audit | pending |
+
+## Retrospective checkpoint 1 — PDF 1–24
+
+The audit was deliberately restarted from **PDF 1**, per source-review instruction.
+
+- PDF **1–4**: front matter inspected for typeface/reference evidence; these pages are outside the 105-page canonical screenplay count.
+- PDF **4** supplies especially clear same-edition reference forms in `விலை எட்டணா` for historical `லை` and `ணா`.
+- canonical pages source-reviewed for the historical-glyph gate: **PDF 5–24 = 20/105 pages**.
+- pages with no glyph correction required after complete family check: **PDF 7, 11, 12, 18, 21 = 5 pages**.
+- those five pages already hold the independent visual-fidelity pass and therefore qualify as `visual-pass / glyph-pass`.
+- pages with one or more positively established glyph corrections awaiting canonical/provenance synchronization: **PDF 5, 6, 8, 9, 10, 13, 14, 15, 16, 17, 19, 20, 22, 23, 24 = 15 pages**.
+- no global replacement was used. Every reading below was adjudicated occurrence-by-occurrence from the rendered scan, with same-edition comparison where needed.
+- next retrospective source page: **PDF 25 / printed p.23**.
+- PDF 75 forward visual-fidelity work remains blocked until the retrospective pass reaches PDF 74 and the resulting corrections are synchronized.
+
+### Same-edition reference findings
+
+- PDF 4 `விலை எட்டணா` gives clear historical `லை` / `ணா` shapes.
+- PDF 8 `சொன்னாரா?` supplies a clear historical `னா` comparison form.
+- PDF 11 `நன்று சொன்னீர்` supplies a true `று` comparison against the historical `றா` form encountered on PDF 13.
+- the source also contains genuine colloquial modern-looking `ணு`/`னு` sequences; therefore apparent `ணு` or `னு` was never converted merely from linguistic expectation.
+
+### PDF 5 / logical p.3
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `ஒன்றுமில்ல...` → `ஒன்றுமில்லை...` — historical `லை`
+  - `உன்னுடையதுதானு?` → `உன்னுடையதுதானா?` — historical `னா`
+- unresolved glyph clusters: none
+
+### PDF 6 / printed p.4
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `முத்தண்ணு` → `முத்தண்ணா` — historical `ணா`
+  - `சுகந்தானு?` → `சுகந்தானா?` — historical `னா`
+  - `அப்பாவையும் தானு!` → `அப்பாவையும் தானா!` — historical `னா`
+- unresolved glyph clusters: none
+
+### PDF 7 / printed p.5
+
+- visual fidelity: `pass`
+- historical-glyph audit: `pass`
+- full known family set checked: yes
+- corrections: none
+- unresolved glyph clusters: none
+- final Tamil status: `verified`
+
+### PDF 8 / printed p.6
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `இல்ல ஊதியம்...` → `இல்லை ஊதியம்...` — historical `லை`
+- note: source-visible `சொன்னாரா?` occurrences are already correctly decoded and serve as same-edition `னா` witnesses.
+- unresolved glyph clusters: none
+
+### PDF 9 / printed p.7
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `வழக்கம் தானே அண்ணு இது!...` → `வழக்கம் தானே அண்ணா இது!...` — historical `ணா`
+- unresolved glyph clusters: none
+
+### PDF 10 / printed p.8
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `பருவமோ இல்ல எனக்கு` → `பருவமோ இல்லை எனக்கு` — historical `லை`
+- unresolved glyph clusters: none
+
+### PDF 11 / printed p.9
+
+- visual fidelity: `pass`
+- historical-glyph audit: `pass`
+- full known family set checked: yes
+- corrections: none
+- same-edition witness: `நன்று சொன்னீர்` is a true `று` occurrence used to distinguish PDF 13 historical `றா`.
+- final Tamil status: `verified`
+
+### PDF 12 / printed p.10
+
+- visual fidelity: `pass`
+- historical-glyph audit: `pass`
+- full known family set checked: yes
+- corrections: none
+- final Tamil status: `verified`
+
+### PDF 13 / printed p.11
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `லட்சணம் நன்றுயிருக்கிறது` → `லட்சணம் நன்றாயிருக்கிறது` — historical `றா`
+- evidence: enlarged source pixels plus direct same-edition comparison with PDF 11 `நன்று`; only character identity changes, preserving the source's joined wording/sandhi.
+- unresolved glyph clusters: none
+
+### PDF 14 / printed p.12
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `இப்ப என்னு வாள் பயிற்சி` → `இப்ப என்னா வாள் பயிற்சி` — historical `னா`
+  - `வாள் வீரனு விடலாம்.` → `வாள் வீரனா விடலாம்.` — historical `னா`
+  - `என்ன! வாள் வீரனு?...` → `என்ன! வாள் வீரனா?...` — historical `னா`
+  - `பரவா இல்ல...` → `பரவா இல்லை...` — historical `லை`
+- evidence: the apparent `னு` form was compared directly with same-edition PDF 8 `சொன்னாரா?` and supports historical `னா` identity.
+- unresolved glyph clusters: none
+
+### PDF 15 / printed p.13
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `இலக்கணமே எனக்குத் தேவை இல்ல.` → `இலக்கணமே எனக்குத் தேவை இல்லை.` — historical `லை`
+- unresolved glyph clusters: none
+
+### PDF 16 / printed p.14
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `பரவா இல்ல முத்தா` → `பரவா இல்லை முத்தா` — historical `லை`
+  - `ஒன்றுமில்ல முத்தா` → `ஒன்றுமில்லை முத்தா` — historical `லை`
+  - `இல்ல தம்பி.` → `இல்லை தம்பி.` — historical `லை`
+  - `உயிரை வாங்குறானு?` → `உயிரை வாங்குறானா?` — historical `னா`
+  - `ஆணுகப் பிறக்கிறதோ?` → `ஆணாகப் பிறக்கிறதோ?` — historical `ணா`
+  - `இல்ல தம்பி இல்ல.` → `இல்லை தம்பி இல்லை.` — historical `லை` at both occurrences
+- unresolved glyph clusters: none
+
+### PDF 17 / printed p.15
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `அழைப்பதில்ல.` → `அழைப்பதில்லை.` — historical `லை`
+  - `இல்ல தம்பி.` → `இல்லை தம்பி.` — historical `லை`
+  - `சரிதானு?` → `சரிதானா?` — historical `னா`
+- unresolved glyph clusters: none
+
+### PDF 18 / printed p.16
+
+- visual fidelity: `pass`
+- historical-glyph audit: `pass`
+- full known family set checked: yes
+- corrections: none
+- unresolved glyph clusters: none
+- final Tamil status: `verified`
+
+### PDF 19 / printed p.17
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `யாருமில்ல...` → `யாருமில்லை...` — historical `லை`
+  - `சொல்லிவிட்டேனு என்ன?` → `சொல்லிவிட்டேனா என்ன?` — historical `னா`
+- unresolved glyph clusters: none
+
+### PDF 20 / printed p.18
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `இல்ல...இல்ல...மன்னிக்கவும்` → `இல்லை...இல்லை...மன்னிக்கவும்` — historical `லை` at both occurrences
+- unresolved glyph clusters: none
+
+### PDF 21 / printed p.19
+
+- visual fidelity: `pass`
+- historical-glyph audit: `pass`
+- full known family set checked: yes
+- corrections: none
+- source-visible forms such as `இல்லையா`, `இல்லையே`, `கண்ணப்ப`, and `நாயனாரோ` are already correctly decoded.
+- final Tamil status: `verified`
+
+### PDF 22 / printed p.20
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `அதெல்லாம் ஒன்றுமில்ல.` → `அதெல்லாம் ஒன்றுமில்லை.` — historical `லை`
+  - `இல்ல தம்பி...` → `இல்லை தம்பி...` — historical `லை`
+- unresolved glyph clusters: none
+
+### PDF 23 / printed p.21
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `அது இல்ல தம்பி-` → `அது இல்லை தம்பி-` — historical `லை`
+- unresolved glyph clusters: none
+
+### PDF 24 / printed p.22
+
+- visual fidelity: `pass`
+- historical-glyph audit: `reviewed-sync-pending`
+- full known family set checked: yes
+- corrections:
+  - `கண்ணுளா...` → `கண்ணா...` — historical `ணா`; the word crosses the source line boundary, with `கண்` at the line end and the historical `ணா` form at the next line start.
+- unresolved glyph clusters: none
+
+## Synchronization rule for checkpoint 1
+
+The fifteen correction-bearing pages above **must not** be counted as glyph-pass merely because the source reading has been established. Their canonical `full-text.md` occurrences and any retained provenance copy must first be corrected occurrence-by-occurrence, followed by a local visual recheck of every changed occurrence. Until then their status is `glyph-reviewed / sync-pending`.
+
+The five clean pages **7, 11, 12, 18, 21** require no canonical text change and can immediately retain the existing visual pass plus the new glyph pass.
 
 ## Release gate
 
