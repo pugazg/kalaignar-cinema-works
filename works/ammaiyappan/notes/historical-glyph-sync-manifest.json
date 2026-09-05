@@ -16,7 +16,7 @@
   "pages": [
     {"pdf":5,"printed":3,"part":null,"replacements":[{"from":"ஒன்றுமில்ல...","to":"ஒன்றுமில்லை...","family":"லை"},{"from":"உன்னுடையதுதானு?","to":"உன்னுடையதுதானா?","family":"னா"}]},
     {"pdf":6,"printed":4,"part":null,"replacements":[{"from":"முத்தண்ணு","to":"முத்தண்ணா","family":"ணா"},{"from":"சுகந்தானு?","to":"சுகந்தானா?","family":"னா"},{"from":"அப்பாவையும் தானு!","to":"அப்பாவையும் தானா!","family":"னா"}]},
-    {"pdf":8,"printed":6,"part":null,"replacements":[{"from":"இல்ல ஊதியம்...","to":"இல்லை ஊதியம்...","family":"லை"}]},
+    {"pdf":8,"printed":6,"part":null,"replacements":[{"from":"இல்ல ஊதியம்","to":"இல்லை ஊதியம்","family":"லை"}]},
     {"pdf":9,"printed":7,"part":null,"replacements":[{"from":"வழக்கம் தானே அண்ணு இது!...","to":"வழக்கம் தானே அண்ணா இது!...","family":"ணா"}]},
     {"pdf":10,"printed":8,"part":null,"replacements":[{"from":"பருவமோ இல்ல எனக்கு","to":"பருவமோ இல்லை எனக்கு","family":"லை"}]},
     {"pdf":13,"printed":11,"part":null,"replacements":[{"from":"லட்சணம் நன்றுயிருக்கிறது","to":"லட்சணம் நன்றாயிருக்கிறது","family":"றா"}]},
