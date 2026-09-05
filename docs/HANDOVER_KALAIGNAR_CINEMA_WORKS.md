@@ -437,17 +437,20 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - source intake / whole-scan map: **complete**;
 - canonical first pass: **105/105 draft-complete**, continuous `full-text.md` through PDF 109;
 - assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- visual source-fidelity range: **PDF 5–74 / logical pp.3–72 — 70/105 passed**;
-- historical-Tamil-glyph audit: **mandatory — 0/105 formally cleared at gate introduction**;
-- final dual-gate Tamil verified: **0/105 at gate introduction**;
-- PDF 5–74 disposition: **visual-pass / glyph-pending** — retrospective historical-glyph backfill required;
-- PDF 75–109 disposition: **visual-pending / glyph-pending** — run both audits together;
+- visual source-fidelity: **PDF 5–74 / logical pp.3–72 — 70/105 passed**;
+- historical-Tamil-glyph audit: **PDF 5–74 / logical pp.3–72 — 70/105 passed**;
+- final dual-gate Tamil verified: **70/105**;
+- retrospective PDF 5–74 historical-glyph source review: **CLOSED — 70/70**;
+- retrospective correction-bearing pages: **38**; correction-free pages: **32**;
+- occurrence-specific synchronization: **complete**, commit `880978627191a122f55b50522d112d163faa7e10`;
+- synchronized logical occurrences across canonical/provenance surfaces: **97**;
+- global replacement: **not used**; source whitespace/layout preserved;
+- genuine same-edition controls on PDF **48, 62, 64, 69**: **preserved / PASS**;
+- PDF 75–109 disposition: **35 pages pending — visual fidelity + historical glyph audit together**;
 - open first-pass uncertainty markers: **29 — markers 88–116**;
-- PDF 65 marker 49 is scan-resolved; retained unusual forms include `மோழைக்குப்`, `கண்ணுளர்`, `மதுவும் சுருவும்`, and `கருத்தரியப்`;
-- PDF 73→74 source split `வைத்` + `திருந்த` is preserved; PDF 74 closes locally and does not continue into PDF 75;
 - locked source headings remain `பழுதார் வீதி` (PDF 56) and `தூக்குமேடை` (PDF 107; reject `தாக்குமேடை`);
-- historical-glyph authorities: `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `works/ammaiyappan/notes/historical-glyph-audit.md`;
+- historical-glyph authorities: `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`, `works/ammaiyappan/notes/historical-glyph-audit.md`, `works/ammaiyappan/notes/historical-glyph-sync-manifest.json`, `works/ammaiyappan/notes/historical-glyph-sync-report.json`;
 - minimum known audit families: `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`;
 - structured derivatives / English / reader: **blocked pending 105/105 dual-gate verified Tamil**.
 
-**Exact next activity:** continue at **PDF 75 / logical printed p.73**, performing the rendered-scan visual source-fidelity audit and historical-Tamil-glyph audit together; resolve markers 88–116 only from source pixels. Before final Tamil closure, complete retrospective historical-glyph verification for PDF 5–74.
+**Exact next activity:** resume at **PDF 75 / logical printed p.73**, performing rendered-scan visual source-fidelity verification and the historical-Tamil-glyph audit together; adjudicate markers 88–116 only from source evidence. PDF 5–74 are closed unless new direct source evidence requires a specific local correction.

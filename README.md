@@ -1,6 +1,6 @@
 # Kalaignar Cinema Works
 
-A source-led archive of screenplay, dialogue, song, and related cinema writing credited to **Kalaignar M. Karunanாநிதி**.
+A source-led archive of screenplay, dialogue, song, and related cinema writing credited to **Kalaignar M. Karunanidhi**.
 
 The repository preserves source provenance, canonical transcription and derivative representations separately.
 

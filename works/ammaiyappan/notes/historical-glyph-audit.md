@@ -15,6 +15,22 @@ This work therefore has **two independent Tamil verification gates**:
 
 A canonical page is **final Tamil verified only when both gates pass**.
 
+## Current authoritative closure — 2026-09-05
+
+The retrospective historical-glyph pass for **PDF 5–74 / 70 canonical pages is CLOSED**.
+
+- visual fidelity: **70/105 — PDF 5–74 passed**;
+- historical glyph audit: **70/105 — PDF 5–74 passed**;
+- final dual-gate verified: **70/105**;
+- correction-bearing retrospective pages: **38**;
+- correction synchronization: **complete** — `880978627191a122f55b50522d112d163faa7e10`;
+- sync manifest/report: `historical-glyph-sync-manifest.json` / `historical-glyph-sync-report.json`;
+- global replacement used: **no**;
+- genuine controls on PDF 48, 62, 64 and 69: **preserved / PASS**;
+- next page: **PDF 75 / logical printed p.73**, with visual fidelity + historical glyph audit together.
+
+The older checkpoint sections below are retained as historical audit evidence. Their `sync-pending` language describes the state *before* commit `880978627191a122f55b50522d112d163faa7e10` and must not be used as the current work status.
+
 ## Current checkpoint when this gate was introduced
 
 - canonical screenplay pages: **105** — PDF **5–109** / logical printed pp. **3–107**;
