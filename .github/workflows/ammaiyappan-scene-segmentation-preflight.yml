@@ -1,0 +1,53 @@
+name: Ammayappan scene segmentation preflight
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/ammaiyappan-scene-segmentation-preflight.yml"
+      - "works/ammaiyappan/scripts/build_scene_segmentation_preflight.py"
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build segmentation preflight
+        run: python works/ammaiyappan/scripts/build_scene_segmentation_preflight.py
+      - name: Validate outputs
+        shell: bash
+        run: |
+          git status --short
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('works/ammaiyappan/notes/scene-segmentation-preflight.json').read_text(encoding='utf-8'))
+          assert p['status'] == 'PASS'
+          assert p['intake_ledger_occurrences'] == 58
+          assert p['intake_ledger_matched'] == 58
+          assert p['intake_ledger_missing_from_canonical'] == []
+          assert p['unexpected_preboundary_body_text'] == []
+          assert p['segments_planned'] == p['canonical_boundary_candidates']
+          assert p['boundaries'][0]['pdf'] == 5
+          assert p['boundaries'][0]['heading'] == 'மடாலய வெளிப்புறம்'
+          assert p['boundaries'][-1]['pdf'] <= 109
+          print(json.dumps({k:p[k] for k in ['canonical_boundary_candidates','intake_ledger_occurrences','canonical_heading_additions_beyond_intake','segments_planned']}, ensure_ascii=False, default=str))
+          PY
+      - name: Commit preflight
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/notes/scene-segmentation-preflight.md works/ammaiyappan/notes/scene-segmentation-preflight.json
+          git commit -m "Establish Ammayappan scene segmentation preflight [skip ci]"
+          git push origin HEAD:main
