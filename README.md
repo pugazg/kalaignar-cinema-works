@@ -86,12 +86,12 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - canonical Tamil first pass: **draft-complete — 105/105 pages**;
 - continuous `full-text.md`: **assembled through PDF 109**;
 - first-pass assembly QA: **PASS — 105 anchors, exact PDF 5→109 order, 0 missing, 0 duplicate**;
-- visual fidelity audit: **in-progress — PDF 5–63 / logical pp.3–61 verified; PDF 64 review**;
-- verified / draft / review pages: **59 / 45 / 1**;
-- open first-pass uncertainty markers: **69**;
+- visual fidelity audit: **in-progress — PDF 5–64 / logical pp.3–62 verified**;
+- verified / draft / review pages: **60 / 45 / 0**;
+- open first-pass uncertainty markers: **68**;
 - structured derivatives / English / reader: **blocked pending complete verified Tamil**.
 
-**Next:** reopen **PDF 64 / logical printed p.62** and resolve marker **47** from the scan. Do not advance to PDF 65 while PDF 64 remains review. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
+**Next:** continue the rendered-scan visual fidelity audit at **PDF 65 / logical printed p.63** and adjudicate the remaining **68** explicit first-pass uncertainty markers. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 

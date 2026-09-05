@@ -138,25 +138,23 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  verified_pages: 59
+  verified_pages: 60
   draft_pages: 45
-  review_pages: 1
-  open_first_pass_uncertainty_markers: 69
-  next_pdf_page: 64
-  next_logical_printed_page: 62
-  next_action: "Reopen PDF 64 / logical printed p.62 and resolve marker 47 from the rendered scan; PDF 5-63 are verified, PDF 64 is review, and structured derivatives remain blocked until all 105 pages are verified."
+  review_pages: 0
+  open_first_pass_uncertainty_markers: 68
+  next_pdf_page: 65
+  next_logical_printed_page: 63
+  next_action: "Continue the rendered-scan visual fidelity audit at PDF 65 / logical printed p.63; 60/105 pages are verified and 68 explicit first-pass readings remain unresolved."
 
 fidelity_audit:
   status: in-progress
   canonical_range_audit_complete: false
   audited_pages: 60
-  verified_pages: 59
-  review_pages: 1
-  unresolved_source_readings: 69
-  verified_pdf_pages: "5-63"
-  verified_logical_printed_pages: "3-61"
-  review_pdf_pages: "64"
-  review_logical_printed_pages: "62"
+  verified_pages: 60
+  review_pages: 0
+  unresolved_source_readings: 68
+  verified_pdf_pages: "5-64"
+  verified_logical_printed_pages: "3-62"
 
 structured_derivatives:
   scene_index: blocked-pending-verified-tamil
@@ -176,7 +174,7 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: in-progress-59-of-105-plus-1-review
+  visual_fidelity_audit: in-progress-60-of-105
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -185,4 +183,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Reopen PDF 64 / logical printed p.62 and resolve marker 47 from the rendered scan; do not advance to PDF 65 until PDF 64 is verified."
+next_action: "Continue the rendered-scan visual fidelity audit at PDF 65 / logical printed p.63; resolve the remaining 68 explicit first-pass readings before structured derivatives."

@@ -23,12 +23,11 @@ Canonical range: **PDF 5–109 / logical printed pp.3–107 — 105 pages**
 | PDF 25–34 / logical pp.23–32 | 10 | 0 | 0 | verified |
 | PDF 35–44 / logical pp.33–42 | 10 | 0 | 0 | verified |
 | PDF 45–54 / logical pp.43–52 | 10 | 0 | 0 | verified |
-| PDF 55–63 / logical pp.53–61 | 9 | 0 | 0 | verified |
-| PDF 64 / logical p.62 | 0 | 1 | 0 | review — marker 47 unresolved |
+| PDF 55–64 / logical pp.53–62 | 10 | 0 | 0 | verified |
 | PDF 65–109 / logical pp.63–107 | 0 | 0 | 45 | pending |
-| **Total** | **59** | **1** | **45** | **in progress** |
+| **Total** | **60** | **0** | **45** | **in progress** |
 
-Open first-pass uncertainty markers after this audit checkpoint: **69** (markers **1–46 and 48 resolved**; marker **47** plus markers **49–116** remain unresolved).
+Open first-pass uncertainty markers after this audit checkpoint: **68** (markers **1–48 resolved**; markers **49–116** remain unresolved).
 
 ## PDF 5–14 / logical pp.3–12 — verified
 
@@ -132,9 +131,9 @@ Other scan-backed restorations include PDF 45 `இப்போ வந்து` 
 
 No unresolved scan reading remains in PDF 45–54.
 
-## PDF 55–64 / logical pp.53–62 — 9 verified + 1 review
+## PDF 55–64 / logical pp.53–62 — verified
 
-PDF 55–63 were compared page-by-page against the rendered controlling scan and are source-clean after scan-backed correction. PDF 64 was also compared in full, but remains `review` because first-pass marker 47 contains an old-type sequence that is not secure enough to normalize from the scan. The historical bounded `parts/pdf-055-064.md` remains first-pass provenance and was not rewritten.
+PDF 55–64 were compared page-by-page against the rendered controlling scan and are source-clean after scan-backed correction. Marker 47 was resolved only after enlarged glyph-level review of PDF 64; no outside poem text was used. The historical bounded `parts/pdf-055-064.md` remains first-pass provenance and was not rewritten.
 
 Resolved marker readings:
 
@@ -145,12 +144,13 @@ Resolved marker readings:
 44. PDF 61: source-visible `வந்தி ரப்பா நாதர் போல`
 45. PDF 62: `மல்லிகைக் கொடியின்`
 46. PDF 64: `குடிசைகாண்! ஒருபுறத்தில் கூரிய வேல், வாள் வரிசையாய் அமைத்திருக்கும். வையத்தை பிடிப்பதற்கும் வெம்பகை முடிப்பதற்கும் வடித்து வைத்த படைக்கலம் போல் மின்னும் மிளிரும்...புலியின் குகையினிலே அழகில்லை......புதுமையல்ல!`
+47. PDF 64: `கிளியும் மெச்சிவிருப்பும் கிழவிக்கும் தன்மையும் துளி காட்டா மானத்தின் உறைவிடம்; மறவன் மாளிகை! இல்லத்து வாயிலிலே கிண்ணைத்துச் சோறோடு வெல்லத்தைச் சிறிதுகலந்து வயிற்றுக்குள் வழியனுப்ப பொக்கை வாய்தனைத் திறந்து பிடியன்னம் எடுத்துப் போட்டாள்; பெருநரைக் கிழவியொருத்தி...`
 48. PDF 64: `துயரம் ஆடுகையில் காய்கள் வெட்டுவதுண்டு...களமும் அதுதான்...காயம்`
 
-Marker **47** remains explicitly unresolved on PDF 64. No external poem text, OCR, film dialogue, or semantic reconstruction was used to fill it.
+Marker **47** is resolved from the enlarged PDF 64 scan. The decisive source-visible forms include `துளி காட்டா`, `உறைவிடம்; மறவன் மாளிகை!`, `கிண்ணைத்துச் சோறோடு`, `எடுத்துப் போட்டாள்`, and `பெருநரைக் கிழவியொருத்தி`. No external poem text, OCR, film dialogue, or semantic reconstruction was used.
 
 Other source-backed restorations in PDF 55–63 include `அபராதத்/அபராதப்`, `புத்தி சுவாதீனம் அற்றவனும்`, `அலங்கோலக் காட்சியல்ல`, `கத்திமுனைகளையும்`, `எங்களன்பிற்கு`, `ஆசைப்பட்டேனு`, `சொல்வதைக் கேள்`, `பலனில்ல`, `எப்போதாவது உணராமலா`, `இரத்தின ஒட்டியானம்`, `வரவும் இசைந்தாள்`, `பாவா இல்ல—பரவாயில்ல`, `முதல் தரமான வழி`, `சீக்கிரம்`, `நடக்கட்டும்`, `தவறுகளை மறந்துவிடு`, `ஆனந்தபுரம் என்ற ஊருக்குச்`, and `ஏதாவது`.
 
 ## Exact next activity
 
-Reopen **PDF 64 / logical printed p.62** and adjudicate marker **47** from the rendered scan. Do **not** advance the fidelity frontier to PDF 65 until PDF 64 is source-clean and verified. Do not begin scene/dialogue/character derivatives yet.
+Continue the rendered-scan fidelity audit at **PDF 65 / logical printed p.63**, in source order. Resolve markers **49 onward** occurrence-by-occurrence and keep structured derivatives blocked until all 105 canonical pages are verified.

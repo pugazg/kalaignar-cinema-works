@@ -379,9 +379,9 @@ Always inspect current repository state.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
-- **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; rendered-scan fidelity audit now has **PDF 5–63 verified (59/105), PDF 64 / logical p.62 in review, 45 draft pages, and 69 unresolved first-pass readings**; structured derivatives remain blocked.
+- **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; rendered-scan fidelity audit now has **PDF 5–64 verified (60/105), 45 draft pages, and 68 unresolved first-pass readings**; structured derivatives remain blocked.
 
-`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–63 verified (59/105), PDF 64 / logical p.62 review, 45 draft pages, and 69 unresolved first-pass readings**. The next gate is PDF 64 / logical p.62.
+`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–64 verified (60/105), 45 draft pages, and 68 unresolved first-pass readings**. The next source page is PDF 65 / logical p.63.
 
 ---
 
@@ -426,10 +426,10 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - source intake / whole-scan map: **complete**;
 - canonical first pass: **105/105 draft-complete**, continuous `full-text.md` through PDF 109;
 - assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- fidelity audit: **PDF 5–63 / logical pp.3–61 verified — 59/105**;
-- review: **PDF 64 / logical p.62 — marker 47 unresolved**;
+- fidelity audit: **PDF 5–64 / logical pp.3–62 verified — 60/105**;
+- review: **none**;
 - remaining draft pages: **45 — PDF 65–109**;
-- open first-pass uncertainty markers: **69**;
+- open first-pass uncertainty markers: **68**;
 - locked source headings remain `பழுதார் வீதி` (PDF 56) and `தூக்குமேடை` (PDF 107; reject `தாக்குமேடை`);
 - structured derivatives / English / reader: **blocked pending 105/105 verified Tamil**.
 
