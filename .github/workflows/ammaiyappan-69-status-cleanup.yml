@@ -1,0 +1,63 @@
+name: One-off Ammayappan 69-of-105 status cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ammaiyappan-69-status-cleanup.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reconcile remaining stale Ammayappan mirrors
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          master_p = Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md')
+          status_p = Path('docs/STATUS_CONSISTENCY_AUDIT.md')
+          root_p = Path('README.md')
+
+          master = master_p.read_text(encoding='utf-8')
+          old_master = '`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–64 verified (60/105), 45 draft pages, and 68 unresolved first-pass readings**. The next source page is PDF 65 / logical p.63.'
+          new_master = '`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–64 and PDF 66–74 verified (69/105), PDF 65 / logical p.63 review, 35 draft pages, and 30 unresolved first-pass readings**. The next gate is PDF 65 / logical p.63 / marker 49.'
+          if old_master not in master:
+              raise SystemExit('stale master sync paragraph not found')
+          master = master.replace(old_master, new_master, 1)
+          if 'PDF 5–64 verified (60/105)' in master:
+              raise SystemExit('stale 60/105 master phrase remains')
+          master_p.write_text(master, encoding='utf-8')
+
+          status = status_p.read_text(encoding='utf-8')
+          old_row = '| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; PDF 5–64 fidelity-verified (60/105); 45 draft; 68 open markers** | scene/dialogue/character blocked pending complete verified Tamil | blocked | blocked |'
+          new_row = '| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; PDF 5–64 and 66–74 fidelity-verified (69/105); PDF 65 review; 35 draft; 30 open markers** | scene/dialogue/character blocked pending complete verified Tamil | blocked | blocked |'
+          if old_row not in status:
+              raise SystemExit('stale status matrix row not found')
+          status = status.replace(old_row, new_row, 1)
+          if 'PDF 5–64 fidelity-verified (60/105)' in status:
+              raise SystemExit('stale 60/105 status matrix phrase remains')
+          status = status.replace('Structured derivatives remain blocked until all 105 pages pass.\n## Manthiri Kumari reconciliation checkpoint', 'Structured derivatives remain blocked until all 105 pages pass.\n\n## Manthiri Kumari reconciliation checkpoint', 1)
+          status_p.write_text(status, encoding='utf-8')
+
+          root = root_p.read_text(encoding='utf-8')
+          root = root.replace('until all 105 canonical pages are verified.\n## கலைஞர் திரை இசைப் பாடல்கள் status', 'until all 105 canonical pages are verified.\n\n## கலைஞர் திரை இசைப் பாடல்கள் status', 1)
+          root_p.write_text(root, encoding='utf-8')
+
+          print('PASS: remaining Ammayappan 69/105 shared-status contradictions removed')
+          PY
+      - name: Commit cleanup and remove one-off workflow
+        run: |
+          rm -f .github/workflows/ammaiyappan-69-status-cleanup.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Synchronize Ammayappan 69-of-105 status mirrors'
+          git push origin HEAD:main
