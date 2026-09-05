@@ -10,10 +10,10 @@
   "first_pass_pdf_range_completed": [5,109],
   "first_pass_logical_printed_range_completed": [3,107],
   "draft_pages": 105,
-  "verified_pages": 18,
+  "verified_pages": 22,
   "visual_fidelity_passed_pages": 70,
-  "historical_glyph_verified_pages": 18,
-  "review_pages": 22,
+  "historical_glyph_verified_pages": 22,
+  "review_pages": 28,
   "open_uncertainty_markers": 29,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
@@ -62,31 +62,32 @@
     "audit_path": "../notes/historical-glyph-audit.md",
     "batch_audit_paths": [
       "../notes/historical-glyph-audit-pdf-025-034.md",
-      "../notes/historical-glyph-audit-pdf-035-044.md"
+      "../notes/historical-glyph-audit-pdf-035-044.md",
+      "../notes/historical-glyph-audit-pdf-045-054.md"
     ],
     "canonical_range_audit_complete": false,
-    "audited_pages": 40,
-    "reviewed_pdf_range": [5,44],
-    "reviewed_logical_printed_range": [3,42],
-    "verified_pages": 18,
-    "verified_pdf_pages": [7,11,12,18,21,26,28,29,31,33,34,35,37,38,41,42,43,44],
-    "pending_pages": 87,
-    "review_pages": 22,
-    "sync_pending_pdf_pages": [5,6,8,9,10,13,14,15,16,17,19,20,22,23,24,25,27,30,32,36,39,40],
-    "next_retrospective_pdf_page": 45,
-    "next_retrospective_printed_page": 43,
+    "audited_pages": 50,
+    "reviewed_pdf_range": [5,54],
+    "reviewed_logical_printed_range": [3,52],
+    "verified_pages": 22,
+    "verified_pdf_pages": [7,11,12,18,21,26,28,29,31,33,34,35,37,38,41,42,43,44,47,48,52,53],
+    "pending_pages": 83,
+    "review_pages": 28,
+    "sync_pending_pdf_pages": [5,6,8,9,10,13,14,15,16,17,19,20,22,23,24,25,27,30,32,36,39,40,45,46,49,50,51,54],
+    "next_retrospective_pdf_page": 55,
+    "next_retrospective_printed_page": 53,
     "retrospective_pdf_range": [5,74],
     "forward_combined_pdf_range": [75,109],
     "minimum_known_families": ["ணா","ணை","ணொ","ணோ","லை","ளை","றா","றொ","றோ","னா","னை","னொ","னோ"]
   },
   "final_tamil_verification": {
     "policy": "visual-fidelity-and-historical-glyph-dual-gate",
-    "verified_pages": 18,
-    "review_pages": 22,
+    "verified_pages": 22,
+    "review_pages": 28,
     "total_pages": 105,
     "status": "in-progress"
   },
-  "next_pdf_page": 45,
-  "next_printed_page": 43,
-  "next_action": "Continue the retrospective historical-Tamil-glyph audit at PDF 45 / printed p.43 in source order. PDF 5-44 have been reviewed; 22 correction-bearing pages remain glyph-reviewed/sync-pending and must be synchronized occurrence-by-occurrence before they can pass the glyph gate. Do not resume PDF 75 visual-fidelity work until the retrospective glyph backfill reaches PDF 74 and its corrections are synchronized."
+  "next_pdf_page": 55,
+  "next_printed_page": 53,
+  "next_action": "Continue the retrospective historical-Tamil-glyph audit at PDF 55 / printed p.53 in source order. PDF 5-54 have been reviewed; 28 correction-bearing pages remain glyph-reviewed/sync-pending and must be synchronized occurrence-by-occurrence before they can pass the glyph gate. Do not resume PDF 75 visual-fidelity work until the retrospective glyph backfill reaches PDF 74 and its corrections are synchronized."
 }
