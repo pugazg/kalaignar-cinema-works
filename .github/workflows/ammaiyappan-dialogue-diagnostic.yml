@@ -1,0 +1,56 @@
+name: Ammayappan dialogue parser diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-dialogue-diagnostic.yml"
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compare preflight and structural parser scene counts
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          scenes=json.loads((root/'scenes/index.json').read_text(encoding='utf-8'))['scene_records']
+          pre=json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          D=re.compile(r'^(?P<label>[^:#\[\]<>\n]{1,60}?)\s+:\s+(?P<text>\S.*)$')
+          H=re.compile(r'^#{1,6}\s+')
+          seps={'★','★★★','* * *','---','***','___'}
+          total=0
+          for scene in scenes:
+              lines=(root/'scenes'/scene['file']).read_text(encoding='utf-8').splitlines()
+              in_sq=False; count=0; swallowed=[]; opens=[]
+              for no,raw in enumerate(lines,1):
+                  s=raw.strip()
+                  if not s: continue
+                  if s.startswith('<!--') and s.endswith('-->'): continue
+                  # Mirror current builder structural precedence.
+                  if in_sq:
+                      if D.match(s): swallowed.append((no,s))
+                      if s.endswith(']'): in_sq=False
+                      continue
+                  if s.startswith('['):
+                      if not s.endswith(']'):
+                          in_sq=True; opens.append((no,s))
+                      continue
+                  if H.match(s) or s in seps or (len(s)>=2 and s.startswith('(') and s.endswith(')')):
+                      continue
+                  if D.match(s): count+=1
+              total+=count
+              exp=pre['scene_dialogue_candidate_counts'][scene['scene_id']]
+              if count!=exp or swallowed or opens:
+                  print('SCENE',scene['scene_id'],'file',scene['file'],'expected',exp,'structural',count,'delta',count-exp)
+                  for x in opens: print('  OPEN_SQUARE',x)
+                  for x in swallowed: print('  SWALLOWED_DIALOGUE',x)
+          print('TOTAL structural',total,'expected',pre['explicit_colon_dialogue_candidates'],'delta',total-pre['explicit_colon_dialogue_candidates'])
+          PY
