@@ -92,6 +92,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - structured derivatives / English / reader: **blocked pending complete verified Tamil**.
 
 **Next:** reopen **PDF 65 / logical printed p.63** and adjudicate marker **49** from the scan. Do not continue to PDF 75 while PDF 65 remains review. Do not start scene/dialogue/character derivatives until all 105 canonical pages are verified.
+
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
 The dedicated anthology work `works/kalaignar-thirai-isai-paadalgal/` is complete-verified for its numbered corpus.

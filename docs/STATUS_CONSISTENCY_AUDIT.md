@@ -22,7 +22,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; PDF 5–64 fidelity-verified (60/105); 45 draft; 68 open markers** | scene/dialogue/character blocked pending complete verified Tamil | blocked | blocked |
+| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; PDF 5–64 and 66–74 fidelity-verified (69/105); PDF 65 review; 35 draft; 30 open markers** | scene/dialogue/character blocked pending complete verified Tamil | blocked | blocked |
 
 ## Ammayappan canonical-Tamil first-pass closure checkpoint
 
@@ -47,6 +47,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - English translation / reader / Reading Room integration: **blocked**.
 
 The canonical Tamil first-pass transcription and assembly gate remains closed. The separate source-fidelity gate is active. Exact next activity: **reopen PDF 65 / logical printed p.63 and adjudicate marker 49 from the rendered scan**. Do not continue to PDF 75 while PDF 65 remains review. Structured derivatives remain blocked until all 105 pages pass.
+
 ## Manthiri Kumari reconciliation checkpoint
 
 - source: **14 PDF pages**, image-only, SHA-256 `a64ac0b5ff4adca75d0860d9d52c5324f93f55da3b060cecb43743d0bbc696ee`;

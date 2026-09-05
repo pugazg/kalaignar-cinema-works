@@ -381,7 +381,7 @@ Always inspect current repository state.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 - **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; rendered-scan fidelity audit has **PDF 5–64 and PDF 66–74 verified (69/105), PDF 65 / logical p.63 in review, 35 draft pages, and 30 unresolved first-pass readings**; structured derivatives remain blocked.
 
-`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–64 verified (60/105), 45 draft pages, and 68 unresolved first-pass readings**. The next source page is PDF 65 / logical p.63.
+`data/works.json`, root README, work metadata/README/transcription index/handover, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the active **Ammayappan fidelity checkpoint: first pass 105/105 assembled, PDF 5–64 and PDF 66–74 verified (69/105), PDF 65 / logical p.63 review, 35 draft pages, and 30 unresolved first-pass readings**. The next gate is PDF 65 / logical p.63 / marker 49.
 
 ---
 
