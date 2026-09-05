@@ -39,8 +39,8 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
 - assembly QA: `works/ammaiyappan/transcription/ASSEMBLY_QA.md` — **PASS**;
 - source anchors: **105 / exact PDF 5→109 order / 0 missing / 0 duplicate**;
-- rendered-scan fidelity audit: **in-progress — PDF 5–34 / logical pp.3–32 verified**;
-- verified / draft / review pages: **30 / 75 / 0**;
+- rendered-scan fidelity audit: **in-progress — PDF 5–44 / logical pp.3–42 verified**;
+- verified / draft / review pages: **40 / 65 / 0**;
 - open first-pass uncertainty markers: **92**;
 - scene / dialogue / character derivatives: **blocked pending complete verified Tamil**;
 - song/performance authorship gate: **not-started**;
