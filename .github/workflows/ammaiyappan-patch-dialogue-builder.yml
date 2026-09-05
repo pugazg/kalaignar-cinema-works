@@ -1,0 +1,89 @@
+name: Patch Ammayappan dialogue builder
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-patch-dialogue-builder.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Patch durable builder and validator
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          b=Path('works/ammaiyappan/scripts/build_dialogues.py')
+          s=b.read_text(encoding='utf-8')
+          old='''            current_page = anchor\n            # Blank padding around derivative page anchors is not source dialogue.\n'''
+          new='''            current_page = anchor\n            # A source-visible square direction may lack its closing bracket at the\n            # physical page edge (scene 008 / PDF 18 is the known case). Never let\n            # that unmatched punctuation swallow labelled dialogue on the next\n            # verified page. Same-page multiline square directions remain intact.\n            if in_square_direction:\n                in_square_direction = False\n                stats["stage_direction_square_page_boundary_close"] += 1\n            # Blank padding around derivative page anchors is not source dialogue.\n'''
+          assert old in s
+          s=s.replace(old,new,1)
+          old2='assert len(label_counts) == preflight["distinct_exact_speaker_labels"] == 35'
+          assert old2 in s
+          s=s.replace(old2,'assert len(label_counts) == preflight["distinct_exact_speaker_labels"]',1)
+          b.write_text(s,encoding='utf-8')
+
+          w=Path('.github/workflows/ammaiyappan-build-dialogues.yml')
+          t=w.read_text(encoding='utf-8')
+          old3="""          assert idx['distinct_exact_speaker_labels'] == 35\n          assert qa['distinct_exact_speaker_labels'] == 35\n"""
+          new3="""          assert idx['distinct_exact_speaker_labels'] == pre['distinct_exact_speaker_labels']\n          assert qa['distinct_exact_speaker_labels'] == pre['distinct_exact_speaker_labels']\n"""
+          assert old3 in t
+          w.write_text(t.replace(old3,new3,1),encoding='utf-8')
+          PY
+      - name: Build immutable dialogue layer
+        run: python works/ammaiyappan/scripts/build_dialogues.py
+      - name: Validate source-preserving build
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          pre=json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          idx=json.loads((root/'dialogues/index.json').read_text(encoding='utf-8'))
+          qa=json.loads((root/'notes/dialogue-index-qa.json').read_text(encoding='utf-8'))
+          un=json.loads((root/'notes/unlabelled-block-audit.json').read_text(encoding='utf-8'))
+          files=sorted((root/'dialogues/records').glob('scene-*.json'))
+          records=[r for p in files for r in json.loads(p.read_text(encoding='utf-8'))]
+          assert len(files)==63
+          assert len(records)==pre['explicit_colon_dialogue_candidates']==910
+          assert idx['dialogue_record_count']==qa['immutable_dialogue_records']==910
+          assert idx['distinct_exact_speaker_labels']==qa['distinct_exact_speaker_labels']==pre['distinct_exact_speaker_labels']==57
+          expected={x['speaker_label']:x['count'] for x in pre['exact_speaker_labels']}
+          assert dict(Counter(r['speaker_label'] for r in records))==expected
+          assert idx['scene_record_counts']==pre['scene_dialogue_candidate_counts']
+          assert idx['scene_record_counts']['ammaiyappan-s008']==33
+          assert len(qa['reviewed_cross_page_candidates'])==19
+          assert len(qa['reviewed_dash_candidates'])==14
+          assert qa['source_scene_numbers_invented']==0
+          assert qa['speaker_alias_normalizations']==0
+          assert un['block_count']==qa['unowned_ordinary_source_blocks']
+          print(json.dumps({'records':len(records),'labels':idx['distinct_exact_speaker_labels'],'multi_page':idx['multi_page_dialogue_records'],'owned_continuations':qa['owned_unlabelled_continuation_lines'],'unowned_blocks':un['block_count'],'unowned_lines':un['source_line_count'],'qa_status':qa['status']},ensure_ascii=False))
+          PY
+      - name: Commit durable builder and generated dialogue layer
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/workflows/ammaiyappan-build-dialogues.yml \
+                  works/ammaiyappan/scripts/build_dialogues.py \
+                  works/ammaiyappan/dialogues \
+                  works/ammaiyappan/notes/dialogue-index-qa.json \
+                  works/ammaiyappan/notes/dialogue-index-qa.md \
+                  works/ammaiyappan/notes/unlabelled-block-audit.json \
+                  works/ammaiyappan/notes/unlabelled-block-audit.md
+          git commit -m "Build Ammayappan immutable dialogue layer and audits [skip ci]"
+          git push origin HEAD:main
