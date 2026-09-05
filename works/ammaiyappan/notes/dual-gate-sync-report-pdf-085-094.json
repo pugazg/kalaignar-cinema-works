@@ -1,0 +1,726 @@
+{
+  "work_id": "ammaiyappan",
+  "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
+  "status": "complete-pass",
+  "pdf_range": [
+    85,
+    94
+  ],
+  "printed_range": [
+    83,
+    92
+  ],
+  "pages_verified": 10,
+  "page_scoped": true,
+  "global_replacement_used": false,
+  "source_whitespace_preserved_around_replacements": true,
+  "uncertainty_markers_remaining_in_range": 0,
+  "canonical_provenance_page_match": "PASS",
+  "logical_replacements_applied_across_surfaces": 68,
+  "changed_files": [
+    "works/ammaiyappan/transcription/full-text.md",
+    "works/ammaiyappan/transcription/parts/pdf-085-094.md",
+    "works/ammaiyappan/notes/textual-notes-pdf-085-094.md"
+  ],
+  "preserve_controls": [
+    {
+      "pdf": 86,
+      "text": "கண்ணுல மயக்கி",
+      "status": "preserved"
+    },
+    {
+      "pdf": 94,
+      "text": "சாகலையா?",
+      "status": "preserved"
+    }
+  ],
+  "resolved_markers": {
+    "98": "ஆரணங்குகளின்",
+    "99": "தன் பயனை",
+    "100": "நாரீமணியின்",
+    "101": "அவளை அணைத்து நடத்திக் கொண்டு செல்கிறாள்",
+    "102": "அவனுக்கு தூக்கி வாரிப் போடுகிறது",
+    "103": "சாதுவேடத்தில்",
+    "104": "உன்னோடு விளையாடுகிறேன்",
+    "105": "பயமுறுத்தி வாழ்ந்த / காலம் மலையேறி விட்டது",
+    "106": "ஆட்சி பீடம் ஓடாகி, மேடாகி",
+    "107": "கயவர்கள்—கத்திவீச்சுக்கள்—கண்ணியமற்ற செயல்கள்—எதிர்த்து நிற்கும் போர்க்கருவி"
+  },
+  "pages": [
+    {
+      "pdf": 85,
+      "printed": 83,
+      "replacements": [
+        {
+          "from": "⟦ஆரணங்குகளின்?⟧",
+          "to": "ஆரணங்குகளின்",
+          "basis": "marker-98-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "⟦தன் பயனை?⟧",
+          "to": "தன் பயனை",
+          "basis": "marker-99-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "⟦நார்மணியின்?⟧",
+          "to": "நாரீமணியின்",
+          "basis": "marker-100-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "இளப்பயதில்",
+          "to": "இளப்பவயதில்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 86,
+      "printed": 84,
+      "replacements": [
+        {
+          "from": "கடற்கரையில் எத்தனையோ",
+          "to": "கடற்கரையிலே எத்தனையோ",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "இல்ல அய்யா!",
+          "to": "இல்லை அய்யா!",
+          "basis": "historical-glyph-lai",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 87,
+      "printed": 85,
+      "replacements": [
+        {
+          "from": "⟦அவள் அணைத்து நடத்திக் கொண்டு செல்கிறாள்?⟧",
+          "to": "அவளை அணைத்து நடத்திக் கொண்டு செல்கிறாள்",
+          "basis": "marker-101-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "நான் போகவில்லையெனில்",
+          "to": "நான் போகவில்லையென்றால்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 88,
+      "printed": 86,
+      "replacements": [
+        {
+          "from": "⟦அவனுக்குத் தூக்கி வாரிப் போடுகிறது?⟧",
+          "to": "அவனுக்கு தூக்கி வாரிப் போடுகிறது",
+          "basis": "marker-102-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "முத்தன் கூட ஒரு",
+          "to": "முத்தன்கூட ஒரு",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "already-synchronized",
+              "applied": 0
+            },
+            {
+              "surface": "provenance",
+              "status": "already-synchronized",
+              "applied": 0
+            }
+          ]
+        },
+        {
+          "from": "பட்டாளத்தைச் சேர்த்து கொண்டு",
+          "to": "பட்டாளத்தைச் சேர்த்துக் கொண்டு",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 89,
+      "printed": 87,
+      "replacements": [
+        {
+          "from": "தேடிஅலையும்",
+          "to": "தேடி அலையும்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "already-synchronized",
+              "applied": 0
+            },
+            {
+              "surface": "provenance",
+              "status": "already-synchronized",
+              "applied": 0
+            }
+          ]
+        },
+        {
+          "from": "வீணுக என் பேசுகிறீர்?",
+          "to": "வீணுக ஏன் பேசுகிறீர்?",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "சுந்தர மேனியாள் எப்படியாவது",
+          "to": "சுந்தர மேனியாளை எப்படியாவது",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "மரணஸ்தையில்",
+          "to": "மரணவஸ்தையில்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "நீங்கள்தானு முத்தாயி?",
+          "to": "நீங்கள்தானா முத்தாயி?",
+          "basis": "historical-glyph-naa",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "கைவிட்டுக் கத்துகின்றேன்",
+          "to": "கைவிட்டுக் கதறுகின்றேன்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "⟦சாதுவேடத்தில்?⟧",
+          "to": "சாதுவேடத்தில்",
+          "basis": "marker-103-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 90,
+      "printed": 88,
+      "replacements": [
+        {
+          "from": "உன் காமக் குருவிலே",
+          "to": "உன் காமச் சூறாவளியிலே",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "எழுத்துக்கு எழுத்து திக்கிறது",
+          "to": "எழுத்துக்கு எழுத்து தித்திக்கிறது",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 91,
+      "printed": 89,
+      "replacements": [
+        {
+          "from": "சாவு உன்னை விட்டுக் கோரமானதா?",
+          "to": "சாவு உன்னை விடக் கோரமானதா?",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "என் தாங்கலிலே இருந்து",
+          "to": "என் கரங்களிலேயிருந்து",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "அக்கிரமம் என்று அச்சாணியில்தான்",
+          "to": "அக்கிரமம் என்ற அச்சாணியில்தான்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "வீணுக அழிந்து போகாதே",
+          "to": "வீணே அழிந்து போகாதே",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "கைகளில் படித்திருப்பாய்",
+          "to": "கதைகளில் படித்திருப்பாய்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "சிலப்பதிகாரத்து காலம்",
+          "to": "சிலப்பதிகாரத்துக் காலம்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 92,
+      "printed": 90,
+      "replacements": [
+        {
+          "from": "⟦உன் மேடு விளையாடுகிறேன்?⟧",
+          "to": "உன்னோடு விளையாடுகிறேன்",
+          "basis": "marker-104-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "⟦பயமுறுத்தி வாழ்ந்த?⟧",
+          "to": "பயமுறுத்தி வாழ்ந்த",
+          "basis": "marker-105-pdf-92-to-93-boundary",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 93,
+      "printed": 91,
+      "replacements": [
+        {
+          "from": "⟦ஆட்சி பீடம் ஓடாசி, மேடாசி?⟧",
+          "to": "ஆட்சி பீடம் ஓடாகி, மேடாகி",
+          "basis": "marker-106-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "வேங்கை மாச்சென்றவர்களின்",
+          "to": "வேகமாகச் சென்றவர்களின்",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "நன்றுகத் தெரிகிறது",
+          "to": "நன்றாகத் தெரிகிறது",
+          "basis": "historical-glyph-raa",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "தயவர்களே—கத்திவீச்சத்திலே—⟦கண்ணுபற்ற செயல்களே?⟧—எதிர்த்து நிற்கும் போர்க்கருவி!",
+          "to": "கயவர்கள்—கத்திவீச்சுக்கள்—கண்ணியமற்ற செயல்கள்—எதிர்த்து நிற்கும் போர்க்கருவி!",
+          "basis": "marker-107-rendered-scan",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pdf": 94,
+      "printed": 92,
+      "replacements": [
+        {
+          "from": "குற்றவாளி இல்ல",
+          "to": "குற்றவாளி இல்லை",
+          "basis": "historical-glyph-lai",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "ஒன்றுமில்ல",
+          "to": "ஒன்றுமில்லை",
+          "basis": "historical-glyph-lai",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "வீரகாப்பியம் பேசுவித்து விட்டாயா",
+          "to": "வீரகாப்பியம் பேசவந்து விட்டாயா",
+          "basis": "visual-fidelity",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        },
+        {
+          "from": "இதுதானு உன் மாளிகையில்",
+          "to": "இதுதானா உன் மாளிகையில்",
+          "basis": "historical-glyph-naa",
+          "targets": [
+            {
+              "surface": "canonical",
+              "status": "synchronized",
+              "applied": 1
+            },
+            {
+              "surface": "provenance",
+              "status": "synchronized",
+              "applied": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "next_pdf_page": 95,
+  "next_printed_page": 93,
+  "next_action": "Continue at PDF 95 / printed p.93 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 108-114."
+}
