@@ -1,0 +1,110 @@
+name: Ammayappan immutable dialogue build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-build-dialogues.yml"
+      - "works/ammaiyappan/scripts/build_dialogues.py"
+      - "works/ammaiyappan/scenes/**"
+      - "works/ammaiyappan/notes/dialogue-index-preflight.json"
+
+permissions:
+  contents: write
+
+jobs:
+  build-dialogues:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build immutable dialogue layer
+        run: python works/ammaiyappan/scripts/build_dialogues.py
+      - name: Validate immutable dialogue build
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          root = Path('works/ammaiyappan')
+          idx = json.loads((root/'dialogues/index.json').read_text(encoding='utf-8'))
+          qa = json.loads((root/'notes/dialogue-index-qa.json').read_text(encoding='utf-8'))
+          pre = json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          unowned = json.loads((root/'notes/unlabelled-block-audit.json').read_text(encoding='utf-8'))
+
+          files = sorted((root/'dialogues/records').glob('scene-*.json'))
+          assert len(files) == 63, len(files)
+          arrays = [json.loads(p.read_text(encoding='utf-8')) for p in files]
+          records = [r for rows in arrays for r in rows]
+          assert idx['archive_scene_count'] == 63
+          assert idx['dialogue_record_count'] == 910 == len(records)
+          assert qa['explicit_source_labels_expected'] == 910
+          assert qa['immutable_dialogue_records'] == 910
+          assert qa['explicit_label_ownership'] == '910/910 exactly once'
+          assert idx['distinct_exact_speaker_labels'] == 35
+          assert qa['distinct_exact_speaker_labels'] == 35
+          assert qa['label_distribution_matches_preflight'] is True
+          assert len(qa['reviewed_cross_page_candidates']) == 19
+          assert all(x['decision'] == 'same-utterance-continuation-confirmed' for x in qa['reviewed_cross_page_candidates'])
+          assert len(qa['reviewed_dash_candidates']) == 14
+          assert all(x['decision'] == 'not-a-speaker-label' for x in qa['reviewed_dash_candidates'])
+          assert idx['source_numbered_scenes'] is False
+          assert qa['source_scene_numbers_invented'] == 0
+          assert qa['speaker_alias_normalizations'] == 0
+          assert all(r['source_scene_number'] is None for r in records)
+          assert len({r['id'] for r in records}) == 910
+          assert all(r['speaker_label'] for r in records)
+          assert all(r['text'] for r in records)
+          assert all(r['page_provenance'] for r in records)
+          assert all(5 <= p['pdf_page'] <= 109 for r in records for p in r['page_provenance'])
+          assert all(3 <= p['printed_page'] <= 107 for r in records for p in r['page_provenance'])
+
+          expected = {x['speaker_label']: x['count'] for x in pre['exact_speaker_labels']}
+          actual = Counter(r['speaker_label'] for r in records)
+          assert dict(actual) == expected
+          assert idx['scene_record_counts'] == pre['scene_dialogue_candidate_counts']
+          assert idx['zero_dialogue_scenes'] == pre['zero_explicit_dialogue_scenes']
+
+          multi = [r for r in records if len(r['page_provenance']) > 1]
+          assert idx['multi_page_dialogue_records'] == len(multi)
+          assert qa['multi_page_dialogue_records'] == len(multi)
+          assert all('page_segments' in r for r in multi)
+          assert all(r['text'] == '\n'.join(s['text'] for s in r['page_segments']) for r in multi)
+
+          assert unowned['block_count'] == qa['unowned_ordinary_source_blocks']
+          assert unowned['source_line_count'] == qa['unowned_ordinary_source_lines']
+          assert qa['status'] == ('review-required' if unowned['block_count'] else 'pass')
+          print('AMMAYAPPAN DIALOGUE BUILD VALID')
+          print(json.dumps({
+              'records': len(records),
+              'labels': len(actual),
+              'multi_page': len(multi),
+              'owned_continuation_lines': qa['owned_unlabelled_continuation_lines'],
+              'unowned_blocks': unowned['block_count'],
+              'unowned_lines': unowned['source_line_count'],
+              'qa_status': qa['status'],
+          }, ensure_ascii=False))
+          PY
+      - name: Commit generated dialogue layer and audits
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/dialogues \
+                  works/ammaiyappan/notes/dialogue-index-qa.json \
+                  works/ammaiyappan/notes/dialogue-index-qa.md \
+                  works/ammaiyappan/notes/unlabelled-block-audit.json \
+                  works/ammaiyappan/notes/unlabelled-block-audit.md
+          if git diff --cached --quiet; then
+            echo "No dialogue build changes to commit"
+            exit 0
+          fi
+          git commit -m "Build Ammayappan immutable dialogue layer [skip ci]"
+          git push origin HEAD:main
