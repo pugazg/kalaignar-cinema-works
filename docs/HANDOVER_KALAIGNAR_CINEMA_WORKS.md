@@ -272,7 +272,7 @@ Minimum repository-wide surfaces when the checkpoint materially changes:
 - `docs/STATUS_CONSISTENCY_AUDIT.md`;
 - any shared processing/translation guide whose reusable policy changed because of the completed work.
 
-Before closure, perform a stale-state sweep for superseded counts, blocked/review statuses, prior next activities and obsolete completion language. Historical batch/checkpoint files may retain their dated historical state when clearly labelled as historical; active startup/status files may not.
+Before closure, perform a stale-state sweep for superseded counts, blocked/review statuses, prior next activities and obsolete completion language. Historical batch/checkpoint files may retain their dated historical state when clearly labelled historical; active startup/status files may not.
 
 Do not let counts drift between README text and machine-readable indexes. Where possible, derive generated status from authoritative indexes and validate with automated QA.
 
@@ -392,7 +392,7 @@ Always inspect current repository state.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
 - **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; visual source-fidelity audit has **PDF 5–74 passed (70/105)**; historical-Tamil-glyph audit is now a separate mandatory gate and is **0/105 formally cleared at gate introduction**; final dual-gate verified pages **0/105**; PDF 5–74 require retrospective glyph backfill, PDF 75–109 require both audits together; 29 unresolved first-pass readings; structured derivatives remain blocked.
 
-The active Ammayappan work-local README, metadata, transcription README/index, project handover, historical-glyph audit, root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` now use the dual-gate terminology. `data/works.json` must not be treated as authoritative for the new dual-gate counts until its Ammayappan entry is synchronized.
+The active Ammayappan work-local README, metadata, transcription README/index, project handover, historical-glyph audit, `data/works.json`, root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the dual-gate terminology and counts.
 
 ---
 
