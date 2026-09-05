@@ -1,0 +1,68 @@
+{
+  "work_id": "ammaiyappan",
+  "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
+  "policy": "occurrence-specific-historical-glyph-sync",
+  "guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
+  "canonical_target": "../transcription/full-text.md",
+  "source_review_range": [5, 74],
+  "correction_bearing_pages": 38,
+  "rules": [
+    "Apply only the exact page-scoped replacements listed below.",
+    "Do not global-replace a Tamil sequence across the work.",
+    "After each changed occurrence, perform a local visual recheck against the controlling scan.",
+    "Preserve genuine same-edition nu/ṇu forms explicitly marked as controls.",
+    "A page becomes glyph-pass only after canonical/provenance synchronization and local recheck."
+  ],
+  "pages": [
+    {"pdf":5,"printed":3,"part":null,"replacements":[{"from":"ஒன்றுமில்ல...","to":"ஒன்றுமில்லை...","family":"லை"},{"from":"உன்னுடையதுதானு?","to":"உன்னுடையதுதானா?","family":"னா"}]},
+    {"pdf":6,"printed":4,"part":null,"replacements":[{"from":"முத்தண்ணு","to":"முத்தண்ணா","family":"ணா"},{"from":"சுகந்தானு?","to":"சுகந்தானா?","family":"னா"},{"from":"அப்பாவையும் தானு!","to":"அப்பாவையும் தானா!","family":"னா"}]},
+    {"pdf":8,"printed":6,"part":null,"replacements":[{"from":"இல்ல ஊதியம்...","to":"இல்லை ஊதியம்...","family":"லை"}]},
+    {"pdf":9,"printed":7,"part":null,"replacements":[{"from":"வழக்கம் தானே அண்ணு இது!...","to":"வழக்கம் தானே அண்ணா இது!...","family":"ணா"}]},
+    {"pdf":10,"printed":8,"part":null,"replacements":[{"from":"பருவமோ இல்ல எனக்கு","to":"பருவமோ இல்லை எனக்கு","family":"லை"}]},
+    {"pdf":13,"printed":11,"part":null,"replacements":[{"from":"லட்சணம் நன்றுயிருக்கிறது","to":"லட்சணம் நன்றாயிருக்கிறது","family":"றா"}]},
+    {"pdf":14,"printed":12,"part":null,"replacements":[{"from":"இப்ப என்னு வாள் பயிற்சி","to":"இப்ப என்னா வாள் பயிற்சி","family":"னா"},{"from":"வாள் வீரனு விடலாம்.","to":"வாள் வீரனா விடலாம்.","family":"னா"},{"from":"என்ன! வாள் வீரனு?...","to":"என்ன! வாள் வீரனா?...","family":"னா"},{"from":"பரவா இல்ல...","to":"பரவா இல்லை...","family":"லை"}]},
+
+    {"pdf":15,"printed":13,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"இலக்கணமே எனக்குத் தேவை இல்ல.","to":"இலக்கணமே எனக்குத் தேவை இல்லை.","family":"லை"}]},
+    {"pdf":16,"printed":14,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"பரவா இல்ல முத்தா","to":"பரவா இல்லை முத்தா","family":"லை"},{"from":"ஒன்றுமில்ல முத்தா","to":"ஒன்றுமில்லை முத்தா","family":"லை"},{"from":"இல்ல தம்பி.","to":"இல்லை தம்பி.","family":"லை","occurrences":1},{"from":"உயிரை வாங்குறானு?","to":"உயிரை வாங்குறானா?","family":"னா"},{"from":"ஆணுகப் பிறக்கிறதோ?","to":"ஆணாகப் பிறக்கிறதோ?","family":"ணா"},{"from":"இல்ல தம்பி இல்ல.","to":"இல்லை தம்பி இல்லை.","family":"லை"}]},
+    {"pdf":17,"printed":15,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"அழைப்பதில்ல.","to":"அழைப்பதில்லை.","family":"லை"},{"from":"இல்ல தம்பி.","to":"இல்லை தம்பி.","family":"லை"},{"from":"சரிதானு?","to":"சரிதானா?","family":"னா"}]},
+    {"pdf":19,"printed":17,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"யாருமில்ல...","to":"யாருமில்லை...","family":"லை"},{"from":"சொல்லிவிட்டேனு என்ன?","to":"சொல்லிவிட்டேனா என்ன?","family":"னா"}]},
+    {"pdf":20,"printed":18,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"இல்ல...இல்ல...மன்னிக்கவும்","to":"இல்லை...இல்லை...மன்னிக்கவும்","family":"லை"}]},
+    {"pdf":22,"printed":20,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"அதெல்லாம் ஒன்றுமில்ல.","to":"அதெல்லாம் ஒன்றுமில்லை.","family":"லை"},{"from":"இல்ல தம்பி...","to":"இல்லை தம்பி...","family":"லை"}]},
+    {"pdf":23,"printed":21,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"அது இல்ல தம்பி-","to":"அது இல்லை தம்பி-","family":"லை"}]},
+    {"pdf":24,"printed":22,"part":"../transcription/parts/pdf-015-024.md","replacements":[{"from":"கண்ணுளா...","to":"கண்ணா...","family":"ணா"}]},
+
+    {"pdf":25,"printed":23,"part":"../transcription/parts/pdf-025-034.md","replacements":[{"from":"நான் தான் பித்தனு யிற்றே.","to":"நான் தான் பித்தனா யிற்றே.","family":"னா"},{"from":"பித்தனுனும் என் முத்தனல்லவா?","to":"பித்தனானும் என் முத்தனல்லவா?","family":"னா"},{"from":"நீங்கள் தவறுக நினைக்காதீர்கள்","to":"நீங்கள் தவறாக நினைக்காதீர்கள்","family":"றா"}]},
+    {"pdf":27,"printed":25,"part":"../transcription/parts/pdf-025-034.md","replacements":[{"from":"நானு! அய்யோ! எனக்கு வாளைத் தூக்கக்கூட சக்தியில்லை.","to":"நானா! அய்யோ! எனக்கு வாளைத் தூக்கக்கூட சக்தியில்லை.","family":"னா"}]},
+    {"pdf":30,"printed":28,"part":"../transcription/parts/pdf-025-034.md","replacements":[{"from":"அழகிதானு?...","to":"அழகிதானா?...","family":"னா"},{"from":"உனக்கேற்ற சுந்தரிதானு?...","to":"உனக்கேற்ற சுந்தரிதானா?...","family":"னா"}]},
+    {"pdf":32,"printed":30,"part":"../transcription/parts/pdf-025-034.md","replacements":[{"from":"முத்தன் வருவானு என்ற ஆவல்","to":"முத்தன் வருவானா என்ற ஆவல்","family":"னா"},{"from":"என் கண்ணு; என் அருகே வா!...","to":"என் கண்ணா; என் அருகே வா!...","family":"ணா"},{"from":"முத்தா!...என் கண்ணு!...","to":"முத்தா!...என் கண்ணா!...","family":"ணா"}]},
+
+    {"pdf":36,"printed":34,"part":"../transcription/parts/pdf-035-044.md","replacements":[{"from":"இந்த உலகத்தில் பொருள் தேடவா வழி இல்ல...","to":"இந்த உலகத்தில் பொருள் தேடவா வழி இல்லை...","family":"லை"}]},
+    {"pdf":39,"printed":37,"part":"../transcription/parts/pdf-035-044.md","replacements":[{"from":"அரண்மனைக்கும், நான் வந்ததற்கும் தொடர்பே இல்ல...","to":"அரண்மனைக்கும், நான் வந்ததற்கும் தொடர்பே இல்லை...","family":"லை"},{"from":"முத்தா, இங்கு யாருமில்ல அல்லவா?","to":"முத்தா, இங்கு யாருமில்லை அல்லவா?","family":"லை"},{"from":"நான் வீசவும் இல்ல.","to":"நான் வீசவும் இல்லை.","family":"லை"},{"from":"அவள் விழவும் இல்ல...","to":"அவள் விழவும் இல்லை...","family":"லை"}]},
+    {"pdf":40,"printed":38,"part":"../transcription/parts/pdf-035-044.md","replacements":[{"from":"எந்த பித்துப் பிடித்த தகப்பனாவது ஒப்புக் கொள்வானு?","to":"எந்த பித்துப் பிடித்த தகப்பனாவது ஒப்புக் கொள்வானா?","family":"னா"},{"from":"நீயும் மனிதனுயிற்றே;","to":"நீயும் மனிதனாயிற்றே;","family":"னா"}]},
+
+    {"pdf":45,"printed":43,"part":"../transcription/parts/pdf-045-054.md","replacements":[{"from":"எனக்கொன்றும் கோபமில்ல.","to":"எனக்கொன்றும் கோபமில்லை.","family":"லை"}]},
+    {"pdf":46,"printed":44,"part":"../transcription/parts/pdf-045-054.md","replacements":[{"from":"என் முத்தனு?","to":"என் முத்தனா?","family":"னா","occurrences":2},{"from":"உன் முத்தனில்ல...","to":"உன் முத்தனில்லை...","family":"லை"},{"from":"முத்தன் பேசவில்ல;","to":"முத்தன் பேசவில்லை;","family":"லை"},{"from":"சேருவேனு நான்.","to":"சேருவேனா நான்.","family":"னா"},{"from":"பைத்தியக்காரத்தனந்தானு?","to":"பைத்தியக்காரத்தனந்தானா?","family":"னா"}]},
+    {"pdf":49,"printed":47,"part":"../transcription/parts/pdf-045-054.md","replacements":[{"from":"சந்தர்ப்பம் சரியில்ல,","to":"சந்தர்ப்பம் சரியில்லை,","family":"லை"},{"from":"சேருவதற்குக் கட்டாயமில்ல","to":"சேருவதற்குக் கட்டாயமில்லை","family":"லை"},{"from":"சேர்ந்துவிலகுவது உன் இஷ்டமில்ல.","to":"சேர்ந்துவிலகுவது உன் இஷ்டமில்லை.","family":"லை"}]},
+    {"pdf":50,"printed":48,"part":"../transcription/parts/pdf-045-054.md","replacements":[{"from":"நான் துரோகி இல்ல!","to":"நான் துரோகி இல்லை!","family":"லை"}]},
+    {"pdf":51,"printed":49,"part":"../transcription/parts/pdf-045-054.md","replacements":[{"from":"உமது சிபார்சுக்கு இங்கு இடமேயில்ல.","to":"உமது சிபார்சுக்கு இங்கு இடமேயில்லை.","family":"லை"}]},
+    {"pdf":54,"printed":52,"part":"../transcription/parts/pdf-045-054.md","replacements":[{"from":"முத்தா! இனி பயமில்ல.","to":"முத்தா! இனி பயமில்லை.","family":"லை"}]},
+
+    {"pdf":59,"printed":57,"part":"../transcription/parts/pdf-055-064.md","replacements":[{"from":"பொன்னுக்கு ஆசைப்பட்டேனு?","to":"பொன்னுக்கு ஆசைப்பட்டேனா?","family":"னா"},{"from":"நானு?","to":"நானா?","family":"னா"}]},
+    {"pdf":61,"printed":59,"part":"../transcription/parts/pdf-055-064.md","replacements":[{"from":"நான் என்ன ஆகவேண்டுமோ தெரியவில்லை ஐயே!","to":"நான் என்ன ஆகவேண்டுமோ தெரியவில்லையே!","family":"லை"}]},
+    {"pdf":64,"printed":62,"part":"../transcription/parts/pdf-055-064.md","replacements":[{"from":"ஆண்மகனு நீ தம்பி?","to":"ஆண்மகனா நீ தம்பி?","family":"னா"}]},
+
+    {"pdf":65,"printed":63,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"மணப்பந்தலிலும் அந்த மகிழ்ச்சி இல்ல...","to":"மணப்பந்தலிலும் அந்த மகிழ்ச்சி இல்லை...","family":"லை"}]},
+    {"pdf":66,"printed":64,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"ஆனால் நான் தான் தயார் இல்ல...","to":"ஆனால் நான் தான் தயார் இல்லை...","family":"லை"}]},
+    {"pdf":67,"printed":65,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"பூ!...இதுதானு? புளியம்பூ...","to":"பூ!...இதுதானா? புளியம்பூ...","family":"னா"}]},
+    {"pdf":70,"printed":68,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"என்னப்பா யாருமே காணவில்ல?","to":"என்னப்பா யாருமே காணவில்லை?","family":"லை"}]},
+    {"pdf":71,"printed":69,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"ஒன்றுமில்ல ...","to":"ஒன்றுமில்லை ...","family":"லை","occurrences":2}]},
+    {"pdf":73,"printed":71,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"சோறு தான் இல்ல என்பது போல் இருக்கிறதே!","to":"சோறு தான் இல்லை என்பது போல் இருக்கிறதே!","family":"லை"}]},
+    {"pdf":74,"printed":72,"part":"../transcription/parts/pdf-065-074.md","replacements":[{"from":"வராமல் இருப்பானு?...","to":"வராமல் இருப்பானா?...","family":"னா"}]}
+  ],
+  "preserve_controls": [
+    {"pdf":48,"text":"யோசிக்கிறானு முகமே சொல்லுதே பிரபு.","reason":"genuine same-edition னு; do not convert to னா"},
+    {"pdf":62,"text":"நான் செய்த தவறுகூட மறந்துவிடு","reason":"genuine று; do not convert to historical றா"},
+    {"pdf":64,"text":"வாழணும்னு தலையில் எழுதி இருக்கு!","reason":"genuine same-page ணு control"},
+    {"pdf":69,"text":"எனக்கேனு இப்போது இவ்வளவு அக்கறை என்று கருதுவாய்","reason":"genuine same-page/same-edition னு; preserve"}
+  ]
+}
