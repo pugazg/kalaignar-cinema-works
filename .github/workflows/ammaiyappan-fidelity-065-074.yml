@@ -16,6 +16,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Normalize stale handover wording for strict sync
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('works/ammaiyappan/PROJECT_HANDOVER.md')
+          s = p.read_text(encoding='utf-8')
+          old = '- visual fidelity audit: **in-progress — 60/105 verified; next PDF 65 / logical p.63**;'
+          new = '- visual fidelity audit: **in-progress — 60/105 verified**;'
+          if old not in s:
+              raise SystemExit('expected handover phase-gate wording not found')
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+          PY
       - name: Apply PDF 65-74 fidelity reconciliation
         run: python scripts/oneoff-ammaiyappan-fidelity-065-074.py
       - name: Commit checkpoint and remove one-off files
