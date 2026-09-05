@@ -1,7 +1,7 @@
 {
   "work_id": "ammaiyappan",
   "source": "TVA_BOK_0064230_அம்மையப்பன்.pdf",
-  "status": "fidelity-audit-in-progress",
+  "status": "dual-tamil-verification-in-progress",
   "canonical_pdf_range": [
     5,
     109
@@ -21,8 +21,10 @@
     3,
     107
   ],
-  "draft_pages": 35,
-  "verified_pages": 70,
+  "draft_pages": 105,
+  "verified_pages": 0,
+  "visual_fidelity_passed_pages": 70,
+  "historical_glyph_verified_pages": 0,
   "review_pages": 0,
   "open_uncertainty_markers": 29,
   "uncertainty_note_paths": [
@@ -185,7 +187,45 @@
       72
     ]
   },
+  "historical_glyph_audit": {
+    "status": "required-in-progress",
+    "guide_path": "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
+    "audit_path": "../notes/historical-glyph-audit.md",
+    "canonical_range_audit_complete": false,
+    "verified_pages": 0,
+    "pending_pages": 105,
+    "review_pages": 0,
+    "retrospective_pdf_range": [
+      5,
+      74
+    ],
+    "forward_combined_pdf_range": [
+      75,
+      109
+    ],
+    "minimum_known_families": [
+      "ணா",
+      "ணை",
+      "ணொ",
+      "ணோ",
+      "லை",
+      "ளை",
+      "றா",
+      "றொ",
+      "றோ",
+      "னா",
+      "னை",
+      "னொ",
+      "னோ"
+    ]
+  },
+  "final_tamil_verification": {
+    "policy": "visual-fidelity-and-historical-glyph-dual-gate",
+    "verified_pages": 0,
+    "total_pages": 105,
+    "status": "in-progress"
+  },
   "next_pdf_page": 75,
   "next_printed_page": 73,
-  "next_action": "Continue the rendered-scan visual fidelity audit at PDF 75 / logical printed p.73. PDF 5-74 are verified; 29 first-pass uncertainty markers remain on PDF 75-109. Structured derivatives remain blocked until all 105 canonical pages are verified."
+  "next_action": "Continue at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together. Complete retrospective historical-glyph audit for PDF 5-74 before final Tamil closure. Structured derivatives remain blocked until both gates reach 105/105."
 }
