@@ -44,6 +44,7 @@ structure:
   mapping_path: "mapping.md"
   transition_heading_audit_path: "notes/scene-heading-audit.md"
   intake_audit_path: "notes/INTAKE_AUDIT.md"
+  historical_glyph_audit_path: "notes/historical-glyph-audit.md"
   main_text_pdf_pages: "5-109"
   main_text_logical_printed_pages: "3-107"
   printed_page_formula: "logical printed page = PDF page - 2 for PDF 5-109; PDF 5 folio suppressed, PDF 6 visibly 4, PDF 109 visibly 107"
@@ -71,14 +72,18 @@ source_authority:
   user_manual_scan_verdicts_authoritative_for_reviewed_occurrences: true
   external_audio_web_subtitles_later_editions_may_fill_text: false
   song_authorship_inferred_from_story_dialogue_credit: false
+  historical_glyph_guide: "docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
+  historical_glyph_identity_must_be_source_pixel_supported: true
+  historical_glyph_global_replacement_allowed: false
 
 transcription_progress:
-  status: fidelity-audit-in-progress
+  status: dual-tamil-verification-in-progress
   transcription_index_path: "transcription/index.json"
   transcription_path: "transcription/full-text.md"
   transcription_readme_path: "transcription/README.md"
   assembly_qa_path: "transcription/ASSEMBLY_QA.md"
   textual_notes_path: "notes/textual-notes.md"
+  historical_glyph_audit_path: "notes/historical-glyph-audit.md"
   supplemental_textual_notes_paths:
     - "notes/textual-notes-pdf-065-074.md"
     - "notes/textual-notes-pdf-075-084.md"
@@ -138,13 +143,15 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  verified_pages: 70
-  draft_pages: 35
+  visual_fidelity_passed_pages: 70
+  historical_glyph_verified_pages: 0
+  verified_pages: 0
+  draft_pages: 105
   review_pages: 0
   open_first_pass_uncertainty_markers: 29
   next_pdf_page: 75
   next_logical_printed_page: 73
-  next_action: "Continue the rendered-scan visual fidelity audit at PDF 75 / logical printed p.73; PDF 5-74 are verified and 29 first-pass uncertainty markers remain on PDF 75-109."
+  next_action: "Continue at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together; complete retrospective historical-glyph backfill for PDF 5-74 before final Tamil closure."
 
 fidelity_audit:
   status: in-progress
@@ -156,10 +163,41 @@ fidelity_audit:
   verified_pdf_pages: "5-74"
   verified_logical_printed_pages: "3-72"
 
+historical_glyph_audit:
+  status: required-in-progress
+  guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
+  audit_path: "notes/historical-glyph-audit.md"
+  canonical_range_audit_complete: false
+  formally_verified_pages: 0
+  pending_pages: 105
+  review_pages: 0
+  retrospective_pdf_pages: "5-74"
+  forward_combined_pdf_pages: "75-109"
+  minimum_known_families:
+    - "ணா"
+    - "ணை"
+    - "ணொ"
+    - "ணோ"
+    - "லை"
+    - "ளை"
+    - "றா"
+    - "றொ"
+    - "றோ"
+    - "னா"
+    - "னை"
+    - "னொ"
+    - "னோ"
+
+final_tamil_verification:
+  policy: visual-fidelity-and-historical-glyph-dual-gate
+  verified_pages: 0
+  total_pages: 105
+  status: in-progress
+
 structured_derivatives:
-  scene_index: blocked-pending-verified-tamil
-  scene_text_derivatives: blocked-pending-verified-tamil
-  dialogue_index: blocked-pending-verified-tamil
+  scene_index: blocked-pending-dual-gate-verified-tamil
+  scene_text_derivatives: blocked-pending-dual-gate-verified-tamil
+  dialogue_index: blocked-pending-dual-gate-verified-tamil
   character_index: blocked
   song_authorship_mapping: not-started
   english_translation: blocked
@@ -175,6 +213,8 @@ status:
   full_text_assembly: complete-pass
   boundary_qa: pass
   visual_fidelity_audit: in-progress-70-of-105
+  historical_glyph_audit: required-0-of-105-at-gate-introduction
+  final_tamil_verification: in-progress-0-of-105-dual-gate
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -183,4 +223,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Continue the rendered-scan visual fidelity audit at PDF 75 / logical printed p.73; PDF 5-74 are verified and structured derivatives remain blocked until all 105 pages are verified."
+next_action: "Continue at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 88-116 occurrence-by-occurrence. Before Tamil closure, complete retrospective historical-glyph audit for PDF 5-74. Structured derivatives remain blocked until both gates reach 105/105."
