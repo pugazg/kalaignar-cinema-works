@@ -1,0 +1,116 @@
+name: Ammayappan dialogue rebuild 1009 once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-dialogue-rebuild-1009-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reconcile builder with authoritative preflight
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('works/ammaiyappan/scripts/build_dialogues.py')
+          s = p.read_text(encoding='utf-8')
+          replacements = [
+              (
+                  r'DIALOGUE_RE = re.compile(r"^(?P<label>[^:#\[\]<>\n]{1,60}?)\s+:\s+(?P<text>\S.*)$")',
+                  r'DIALOGUE_RE = re.compile(r"^(?P<label>[^:#\[\]<>\n]{1,60}?)\s*:\s*(?P<text>\S.*)$")'
+              ),
+              (
+                  'assert preflight["explicit_colon_dialogue_candidates"] == 910',
+                  'assert preflight["explicit_colon_dialogue_candidates"] > 0'
+              ),
+              (
+                  'assert len(all_records) == preflight["explicit_colon_dialogue_candidates"] == 910',
+                  'assert len(all_records) == preflight["explicit_colon_dialogue_candidates"]'
+              ),
+              (
+                  'assert len(cross_page_review) == 19',
+                  'assert len(cross_page_review) == len(preflight["cross_page_continuation_candidates"])'
+              ),
+              (
+                  'assert len(dash_review) == 14',
+                  'assert len(dash_review) == len(preflight["anomalous_delimiter_candidates"])'
+              ),
+          ]
+          for old, new in replacements:
+              assert old in s, old
+              s = s.replace(old, new, 1)
+          s = s.replace('One explicit ``speaker : text`` source line starts one immutable dialogue record.',
+                        'One explicit source line with a colon-delimited speaker label starts one immutable dialogue record.', 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Build corrected immutable dialogue layer
+        run: python works/ammaiyappan/scripts/build_dialogues.py
+      - name: Validate corrected source-preserving build
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          root = Path('works/ammaiyappan')
+          pre = json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          idx = json.loads((root/'dialogues/index.json').read_text(encoding='utf-8'))
+          qa = json.loads((root/'notes/dialogue-index-qa.json').read_text(encoding='utf-8'))
+          un = json.loads((root/'notes/unlabelled-block-audit.json').read_text(encoding='utf-8'))
+          files = sorted((root/'dialogues/records').glob('scene-*.json'))
+          records = [r for f in files for r in json.loads(f.read_text(encoding='utf-8'))]
+          assert len(files) == 63
+          assert len(records) == pre['explicit_colon_dialogue_candidates'] == 1009
+          assert idx['dialogue_record_count'] == qa['immutable_dialogue_records'] == 1009
+          assert idx['distinct_exact_speaker_labels'] == qa['distinct_exact_speaker_labels'] == pre['distinct_exact_speaker_labels'] == 62
+          assert idx['scene_record_counts'] == pre['scene_dialogue_candidate_counts']
+          assert idx['zero_dialogue_scenes'] == pre['zero_explicit_dialogue_scenes']
+          expected = {x['speaker_label']: x['count'] for x in pre['exact_speaker_labels']}
+          assert dict(Counter(r['speaker_label'] for r in records)) == expected
+          assert len(qa['reviewed_cross_page_candidates']) == len(pre['cross_page_continuation_candidates']) == 20
+          assert all(x['decision'] == 'same-utterance-continuation-confirmed' for x in qa['reviewed_cross_page_candidates'])
+          assert len(qa['reviewed_dash_candidates']) == len(pre['anomalous_delimiter_candidates']) == 14
+          assert all(x['decision'] == 'not-a-speaker-label' for x in qa['reviewed_dash_candidates'])
+          assert qa['source_scene_numbers_invented'] == 0
+          assert qa['speaker_alias_normalizations'] == 0
+          assert len({r['id'] for r in records}) == 1009
+          assert un['block_count'] == qa['unowned_ordinary_source_blocks']
+          assert un['source_line_count'] == qa['unowned_ordinary_source_lines']
+          print(json.dumps({
+              'records': len(records),
+              'labels': len(expected),
+              'cross_page': len(qa['reviewed_cross_page_candidates']),
+              'multi_page_records': idx['multi_page_dialogue_records'],
+              'owned_continuation_lines': qa['owned_unlabelled_continuation_lines'],
+              'unowned_blocks': un['block_count'],
+              'unowned_lines': un['source_line_count'],
+              'qa_status': qa['status']
+          }, ensure_ascii=False))
+          for b in un['blocks']:
+              print('UNOWNED', b['block_id'], b['archive_scene_id'], b['page_provenance'], repr(b['text'][:220]))
+          PY
+      - name: Commit corrected builder and regenerated dialogue layer
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/scripts/build_dialogues.py \
+                  works/ammaiyappan/dialogues \
+                  works/ammaiyappan/notes/dialogue-index-qa.json \
+                  works/ammaiyappan/notes/dialogue-index-qa.md \
+                  works/ammaiyappan/notes/unlabelled-block-audit.json \
+                  works/ammaiyappan/notes/unlabelled-block-audit.md
+          git commit -m "Rebuild Ammayappan immutable dialogue layer from 1009-label preflight [skip ci]"
+          git push origin HEAD:main
