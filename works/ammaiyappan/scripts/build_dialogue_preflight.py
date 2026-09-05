@@ -21,7 +21,7 @@ SOURCE_RE = re.compile(
     r"^<!-- source: pdf=(?P<pdf>\d+)"
     r"(?: printed=(?P<printed>\d+)| logical_printed=(?P<logical>\d+))?"
 )
-DIALOGUE_RE = re.compile(r"^(?P<label>[^:#\[\]<>\n]{1,60}?)\s+:\s+(?P<text>\S.*)$")
+DIALOGUE_RE = re.compile(r"^(?P<label>[^:#\[\]<>\n]{1,60}?)\s*:\s*(?P<text>\S.*)$")
 # Audit-only detector for likely label-like prefixes using a non-colon delimiter.
 ANOMALOUS_RE = re.compile(
     r"^(?P<label>[\u0B80-\u0BFF A-Za-z.]{1,24}?)\s*(?P<delimiter>[—–-])\s*(?P<text>\S.*)$"

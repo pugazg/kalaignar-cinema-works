@@ -7,40 +7,44 @@ This is a source-format inventory only. It does not normalize speaker labels and
 ## Coverage
 
 - verified scene derivatives scanned: **63/63**
-- explicit colon-labelled dialogue candidates: **910**
-- distinct exact speaker labels: **57**
-- zero-explicit-dialogue scenes: **6**
+- explicit colon-labelled dialogue candidates: **1009**
+- distinct exact speaker labels: **62**
+- zero-explicit-dialogue scenes: **3**
 - rejected colon-like metadata/heading lines: **0**
 - anomalous non-colon delimiter candidates requiring review: **14**
-- possible cross-page continuation candidates requiring review: **19**
+- possible cross-page continuation candidates requiring review: **20**
 
 ## Exact speaker-label inventory
 
 | Exact label | Candidate turns |
 |---|---:|
-| `முத்` | 170 |
+| `முத்` | 177 |
 | `சுக` | 92 |
-| `முத்தன்` | 75 |
+| `முத்தன்` | 91 |
 | `வேதா` | 64 |
-| `முத்தாயி` | 58 |
+| `முத்தாயி` | 63 |
 | `திரி` | 54 |
+| `வேதாளம்` | 44 |
+| `திரிசங்கு` | 42 |
 | `சுகதேவ்` | 41 |
 | `வேல` | 40 |
 | `வேலழகன்` | 35 |
 | `பூங்` | 34 |
-| `வேதாளம்` | 33 |
-| `திரிசங்கு` | 31 |
+| `வே` | 25 |
 | `பல` | 20 |
-| `வே` | 18 |
-| `பூபதி` | 15 |
-| `மாய்கை` | 15 |
-| `சுமதி` | 11 |
+| `பூபதி` | 20 |
+| `சுமதி` | 17 |
+| `மாய்கை` | 16 |
+| `தனபதி` | 15 |
 | `தன` | 10 |
 | `வீரன்` | 10 |
 | `சும` | 8 |
 | `சாமி` | 6 |
 | `பலதேவர்` | 6 |
 | `பூங்காவனம்` | 6 |
+| `மாய்க்கை நாதர்` | 6 |
+| `ஆள்` | 5 |
+| `குறும்பன்` | 4 |
 | `பூப` | 4 |
 | `குறு` | 3 |
 | `திரு` | 3 |
@@ -49,9 +53,8 @@ This is a source-format inventory only. It does not normalize speaker labels and
 | `வீரன் 1` | 3 |
 | `வீரர்கள்` | 3 |
 | `அர` | 2 |
-| `குறும்பன்` | 2 |
-| `தனபதி` | 2 |
 | `மாய்` | 2 |
+| `மாய்க்கை` | 2 |
 | `முத்தா` | 2 |
 | `வணி` | 2 |
 | `வீர` | 2 |
@@ -71,14 +74,16 @@ This is a source-format inventory only. It does not normalize speaker labels and
 | `நண்` | 1 |
 | `நண்பன்` | 1 |
 | `பறையடிப்பவன்` | 1 |
+| `மக்கள்` | 1 |
 | `மாப்பிள்ளை` | 1 |
+| `மாய்கைநாதர்` | 1 |
 | `வணிகர்` | 1 |
 | `வீரன் 3` | 1 |
 | `வீரன் 4` | 1 |
 
 ## Zero-explicit-dialogue scenes
 
-`ammaiyappan-s018`, `ammaiyappan-s019`, `ammaiyappan-s020`, `ammaiyappan-s032`, `ammaiyappan-s041`, `ammaiyappan-s061`
+`ammaiyappan-s032`, `ammaiyappan-s041`, `ammaiyappan-s061`
 
 ## Anomalous delimiter candidates
 
@@ -99,6 +104,7 @@ This is a source-format inventory only. It does not normalize speaker labels and
 
 ## Cross-page continuation candidates
 
+- `ammaiyappan-s004` 10→11 — label `மாய்கைநாதர்`; review lines 12 / 16 in `scene-004.md`.
 - `ammaiyappan-s008` 19→20 — label `சுக`; review lines 40 / 44 in `scene-008.md`.
 - `ammaiyappan-s021` 45→46 — label `முத்தன்`; review lines 68 / 72 in `scene-021.md`.
 - `ammaiyappan-s021` 46→47 — label `முத்தாயி`; review lines 86 / 90 in `scene-021.md`.

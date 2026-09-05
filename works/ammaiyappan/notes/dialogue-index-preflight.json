@@ -4,12 +4,12 @@
   "status": "review-ready",
   "scene_count": 63,
   "source_numbered_scenes": false,
-  "explicit_colon_dialogue_candidates": 910,
-  "distinct_exact_speaker_labels": 57,
+  "explicit_colon_dialogue_candidates": 1009,
+  "distinct_exact_speaker_labels": 62,
   "exact_speaker_labels": [
     {
       "speaker_label": "முத்",
-      "count": 170
+      "count": 177
     },
     {
       "speaker_label": "சுக",
@@ -17,7 +17,7 @@
     },
     {
       "speaker_label": "முத்தன்",
-      "count": 75
+      "count": 91
     },
     {
       "speaker_label": "வேதா",
@@ -25,11 +25,19 @@
     },
     {
       "speaker_label": "முத்தாயி",
-      "count": 58
+      "count": 63
     },
     {
       "speaker_label": "திரி",
       "count": 54
+    },
+    {
+      "speaker_label": "வேதாளம்",
+      "count": 44
+    },
+    {
+      "speaker_label": "திரிசங்கு",
+      "count": 42
     },
     {
       "speaker_label": "சுகதேவ்",
@@ -48,32 +56,28 @@
       "count": 34
     },
     {
-      "speaker_label": "வேதாளம்",
-      "count": 33
-    },
-    {
-      "speaker_label": "திரிசங்கு",
-      "count": 31
+      "speaker_label": "வே",
+      "count": 25
     },
     {
       "speaker_label": "பல",
       "count": 20
     },
     {
-      "speaker_label": "வே",
-      "count": 18
-    },
-    {
       "speaker_label": "பூபதி",
-      "count": 15
-    },
-    {
-      "speaker_label": "மாய்கை",
-      "count": 15
+      "count": 20
     },
     {
       "speaker_label": "சுமதி",
-      "count": 11
+      "count": 17
+    },
+    {
+      "speaker_label": "மாய்கை",
+      "count": 16
+    },
+    {
+      "speaker_label": "தனபதி",
+      "count": 15
     },
     {
       "speaker_label": "தன",
@@ -98,6 +102,18 @@
     {
       "speaker_label": "பூங்காவனம்",
       "count": 6
+    },
+    {
+      "speaker_label": "மாய்க்கை நாதர்",
+      "count": 6
+    },
+    {
+      "speaker_label": "ஆள்",
+      "count": 5
+    },
+    {
+      "speaker_label": "குறும்பன்",
+      "count": 4
     },
     {
       "speaker_label": "பூப",
@@ -132,15 +148,11 @@
       "count": 2
     },
     {
-      "speaker_label": "குறும்பன்",
-      "count": 2
-    },
-    {
-      "speaker_label": "தனபதி",
-      "count": 2
-    },
-    {
       "speaker_label": "மாய்",
+      "count": 2
+    },
+    {
+      "speaker_label": "மாய்க்கை",
       "count": 2
     },
     {
@@ -220,7 +232,15 @@
       "count": 1
     },
     {
+      "speaker_label": "மக்கள்",
+      "count": 1
+    },
+    {
       "speaker_label": "மாப்பிள்ளை",
+      "count": 1
+    },
+    {
+      "speaker_label": "மாய்கைநாதர்",
       "count": 1
     },
     {
@@ -237,9 +257,6 @@
     }
   ],
   "zero_explicit_dialogue_scenes": [
-    "ammaiyappan-s018",
-    "ammaiyappan-s019",
-    "ammaiyappan-s020",
     "ammaiyappan-s032",
     "ammaiyappan-s041",
     "ammaiyappan-s061"
@@ -248,7 +265,7 @@
     "ammaiyappan-s001": 31,
     "ammaiyappan-s002": 17,
     "ammaiyappan-s003": 10,
-    "ammaiyappan-s004": 23,
+    "ammaiyappan-s004": 25,
     "ammaiyappan-s005": 10,
     "ammaiyappan-s006": 14,
     "ammaiyappan-s007": 32,
@@ -261,11 +278,11 @@
     "ammaiyappan-s014": 23,
     "ammaiyappan-s015": 17,
     "ammaiyappan-s016": 9,
-    "ammaiyappan-s017": 3,
-    "ammaiyappan-s018": 0,
-    "ammaiyappan-s019": 0,
-    "ammaiyappan-s020": 0,
-    "ammaiyappan-s021": 28,
+    "ammaiyappan-s017": 20,
+    "ammaiyappan-s018": 16,
+    "ammaiyappan-s019": 22,
+    "ammaiyappan-s020": 31,
+    "ammaiyappan-s021": 39,
     "ammaiyappan-s022": 48,
     "ammaiyappan-s023": 7,
     "ammaiyappan-s024": 13,
@@ -330,6 +347,7 @@
       "சாமி",
       "பூபதி",
       "மாய்கை",
+      "மாய்கைநாதர்",
       "வேதாளம்"
     ],
     "ammaiyappan-s005": [
@@ -401,11 +419,29 @@
     ],
     "ammaiyappan-s017": [
       "நண்பன்",
+      "முத்",
+      "முத்தன்",
+      "வே",
+      "வேதாளம்"
+    ],
+    "ammaiyappan-s018": [
+      "தனபதி",
+      "பூபதி",
+      "மக்கள்",
+      "மாய்க்கை",
+      "மாய்க்கை நாதர்"
+    ],
+    "ammaiyappan-s019": [
+      "திரிசங்கு",
       "முத்தன்"
     ],
-    "ammaiyappan-s018": [],
-    "ammaiyappan-s019": [],
-    "ammaiyappan-s020": [],
+    "ammaiyappan-s020": [
+      "ஆள்",
+      "குறும்பன்",
+      "தனபதி",
+      "முத்தன்",
+      "வேதாளம்"
+    ],
     "ammaiyappan-s021": [
       "சுமதி",
       "முத்தன்",
@@ -818,6 +854,18 @@
   ],
   "cross_page_continuation_candidates": [
     {
+      "scene_id": "ammaiyappan-s004",
+      "scene_file": "scene-004.md",
+      "anchor_line": 14,
+      "from_pdf": 10,
+      "to_pdf": 11,
+      "speaker_label": "மாய்கைநாதர்",
+      "before": "மகான்களைப் பற்றி நேற்றுச் சொன்னேனல்லவா? மகான்கள் அடிக்கடித் தோன்றுவதில்லை. ஆனால் அப்படித் தோன்றும் மகான்களால் ஆகாதது எதுவுமே இல்லை...கடலை வற்ற வைப்பார்; கசந்திலே மிதந்திடுவர்...கடவுளுடன் பேசுவர்...கரும்பிலே கசப்புக் காட்டுவர்; காகத்தையும் கந்தர்வ கானம் எழுப்பச்",
+      "after": "செய்வர்...அத்தகைய அருட்சக்தி பெற்றவர்கள் அவர்கள். வீரர்கட்கும் விவேகிகட்கும் மண்ணிலே தான் புகழ்...ஆனால் மகான்கட்கோ விண்ணிலும் புகழ். ஆகவே தான் சொல்லுகிறேன். வாளையும் வேலையும் தொடாதே வைகுந்த வாசனைத் தொழு. கையிலே கேடயம் ஏந்தாதே. கைலாச நாதரின் திரு நீறை ஏந்து...நீ யார்? நான் யார்? தாய் தந்தை அண்ணன், தம்பி எல்லாம் வீண்; முடிவில் ஒரு பிடி மண்.",
+      "before_line": 12,
+      "after_line": 16
+    },
+    {
       "scene_id": "ammaiyappan-s008",
       "scene_file": "scene-008.md",
       "anchor_line": 42,
@@ -1049,9 +1097,9 @@
   "classification_counts": {
     "blank": 1519,
     "comment": 190,
-    "explicit_colon_dialogue": 910,
+    "explicit_colon_dialogue": 1009,
     "heading": 1,
-    "other": 622,
+    "other": 523,
     "separator": 6,
     "source_anchor": 167,
     "stage_direction_paren": 33,
