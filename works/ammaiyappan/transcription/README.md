@@ -4,6 +4,11 @@ Controlling source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotations and later editions are non-canonical.
 
+Because this 1954 source contains frequent historical Tamil typeforms, a page is final Tamil verified only after both:
+
+1. rendered-scan visual source-fidelity verification; and
+2. historical-Tamil-glyph verification under `../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `../notes/historical-glyph-audit.md`.
+
 ## First-pass closure checkpoint
 
 - canonical screenplay range: **PDF 5–109 / logical printed pp.3–107**;
@@ -11,14 +16,19 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 - first-pass pages completed: **105 / 105**;
 - completed range: **PDF 5–109 / logical pp.3–107**;
 - first-pass status: **draft-complete**;
-- verified pages: **70**;
+- visual-fidelity-passed pages: **70/105**;
+- historical-glyph-cleared pages under the explicit new gate: **0/105 at gate introduction**;
+- final dual-gate verified pages: **0/105 at gate introduction**;
 - review pages: **0**;
 - open first-pass uncertain readings: **29**;
 - continuous assembled transcription: `full-text.md` through **PDF 109**;
 - assembly QA: `ASSEMBLY_QA.md` — **PASS**;
-- full rendered-scan visual fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 verified (70/105)**.
+- full rendered-scan visual fidelity audit: **in-progress — PDF 5–74 / logical pp.3–72 passed (70/105)**;
+- historical Tamil glyph audit: **required across PDF 5–109 / all 105 pages**.
 
 PDF 5 has no visible printed folio. Its anchor records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
+
+The existing PDF 5–74 visual-fidelity result is retained as visual evidence, but those pages require a retrospective historical-glyph pass. For PDF 75–109, both audits must be performed together.
 
 ## Assembly result
 
@@ -45,7 +55,19 @@ The bounded part files remain useful source-order provenance and audit artifacts
 - no modernization or silent repair;
 - uncertain old-typeface tokens remain visibly marked with `⟦...⟧`;
 - user-reviewed scan verdicts remain locked occurrence-by-occurrence;
-- no scene/dialogue/character derivative work until the whole canonical range passes the separate fidelity audit.
+- no scene/dialogue/character derivative work until the whole canonical range passes the dual verification gate.
+
+## Historical Tamil glyph verification policy
+
+Minimum known families to inspect occurrence-by-occurrence on every canonical page:
+
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
+
+This minimum set does not exhaust all historical typeform risks. Inspect other old ligatures, faint vowel marks, broken or worn type, and edition-specific forms as encountered.
+
+Character identity must be established from enlarged/native source pixels. Use same-edition/same-font comparison for doubtful forms. OCR, semantic expectation and modern spelling are not proof. Do not global-replace suspected forms. A historical-glyph correction changes character identity only; it does not license spelling modernization.
+
+If a historical-glyph correction changes a page that already passed visual fidelity, recheck the corrected occurrence visually and record the correction in the work-level audit.
 
 ## Batch history
 
@@ -63,4 +85,4 @@ The bounded part files remain useful source-order provenance and audit artifacts
 
 ## Exact next activity
 
-Continue the **rendered-scan visual fidelity audit at PDF 75 / logical printed p.73**. PDF 5–74 are verified; markers **88–116** remain unresolved on PDF 75–109. Structured derivatives stay blocked until all 105 pages are verified.
+Continue at **PDF 75 / logical printed p.73** and perform **visual source-fidelity + historical-Tamil-glyph verification together**. Markers **88–116** remain unresolved on PDF 75–109. Before final Tamil closure, complete the retrospective historical-glyph audit for **PDF 5–74**. Structured derivatives stay blocked until both verification gates reach **105/105**.
