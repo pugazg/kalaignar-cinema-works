@@ -1,0 +1,63 @@
+name: Ammayappan checkpoint after PDF 84
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-sync-after-pdf-084.yml"
+      - "works/ammaiyappan/scripts/sync_checkpoint_after_pdf_084.py"
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize 80-of-105 checkpoint
+        run: python works/ammaiyappan/scripts/sync_checkpoint_after_pdf_084.py
+      - name: Verify intended scope
+        shell: bash
+        run: |
+          git status --short
+          python - <<'PY'
+          import subprocess
+          allowed = {
+            'README.md',
+            'data/works.json',
+            'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md',
+            'docs/STATUS_CONSISTENCY_AUDIT.md',
+            'works/ammaiyappan/README.md',
+            'works/ammaiyappan/PROJECT_HANDOVER.md',
+            'works/ammaiyappan/metadata.yaml',
+            'works/ammaiyappan/transcription/README.md',
+            'works/ammaiyappan/transcription/index.json',
+            'works/ammaiyappan/notes/textual-notes-pdf-075-084.md',
+            'works/ammaiyappan/notes/fidelity-audit.md',
+            'works/ammaiyappan/notes/historical-glyph-audit.md',
+          }
+          changed={line[3:] for line in subprocess.check_output(['git','status','--short'],text=True).splitlines() if line.strip()}
+          extra=changed-allowed
+          if extra:
+            raise SystemExit(f'unexpected paths: {sorted(extra)}')
+          if not changed:
+            raise SystemExit('expected checkpoint changes, found none')
+          PY
+      - name: Commit synchronized checkpoint
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/ammaiyappan/README.md works/ammaiyappan/PROJECT_HANDOVER.md works/ammaiyappan/metadata.yaml \
+            works/ammaiyappan/transcription/README.md works/ammaiyappan/transcription/index.json \
+            works/ammaiyappan/notes/textual-notes-pdf-075-084.md works/ammaiyappan/notes/fidelity-audit.md works/ammaiyappan/notes/historical-glyph-audit.md
+          git commit -m "Synchronize Ammayappan checkpoint through PDF 84 [skip ci]"
+          git push origin HEAD:main
