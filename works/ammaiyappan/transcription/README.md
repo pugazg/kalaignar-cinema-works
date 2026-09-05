@@ -11,12 +11,12 @@ The rendered scan controls. OCR, parsed text, film audio, subtitles, web quotati
 - first-pass pages completed: **105 / 105**;
 - completed range: **PDF 5–109 / logical pp.3–107**;
 - first-pass status: **draft-complete**;
-- verified pages: **40**;
+- verified pages: **50**;
 - review pages: **0**;
 - open first-pass uncertain readings: **92**;
 - continuous assembled transcription: `full-text.md` through **PDF 109**;
 - assembly QA: `ASSEMBLY_QA.md` — **PASS**;
-- full rendered-scan visual fidelity audit: **in-progress — PDF 5–44 / logical pp.3–42 verified (40/105)**.
+- full rendered-scan visual fidelity audit: **in-progress — PDF 5–54 / logical pp.3–52 verified (50/105)**.
 
 PDF 5 has no visible printed folio. Its anchor records `logical_printed=3` with `printed_folio=suppressed`; PDF 6 onward uses the visible printed page where present.
 
@@ -63,4 +63,4 @@ The bounded part files remain useful source-order provenance and audit artifacts
 
 ## Exact next activity
 
-Continue the **rendered-scan visual fidelity audit at PDF 45 / logical printed p.43**. Compare the entire page directly against the controlling scan, adjudicate remaining first-pass uncertainties occurrence-by-occurrence, and keep structured derivatives blocked until all 105 canonical pages are verified.
+Continue the **rendered-scan visual fidelity audit at PDF 55 / logical printed p.53**. Compare the entire page directly against the controlling scan, adjudicate remaining first-pass uncertainties occurrence-by-occurrence, and keep structured derivatives blocked until all 105 canonical pages are verified.

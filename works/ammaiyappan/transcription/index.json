@@ -21,10 +21,10 @@
     3,
     107
   ],
-  "draft_pages": 65,
-  "verified_pages": 40,
+  "draft_pages": 55,
+  "verified_pages": 50,
   "review_pages": 0,
-  "open_uncertainty_markers": 92,
+  "open_uncertainty_markers": 77,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
     "../notes/textual-notes-pdf-065-074.md",
@@ -172,20 +172,20 @@
   "fidelity_audit": {
     "status": "in-progress",
     "canonical_range_audit_complete": false,
-    "audited_pages": 40,
-    "verified_pages": 40,
-    "unresolved_source_readings": 92,
+    "audited_pages": 50,
+    "verified_pages": 50,
+    "unresolved_source_readings": 77,
     "review_pages": 0,
     "verified_pdf_range": [
       5,
-      44
+      54
     ],
     "verified_logical_printed_range": [
       3,
-      42
+      52
     ]
   },
-  "next_pdf_page": 45,
-  "next_printed_page": 43,
-  "next_action": "Continue the rendered-scan visual fidelity audit at PDF 45 / logical printed p.43. Resolve remaining first-pass uncertainties occurrence-by-occurrence and keep structured derivatives blocked until all 105 canonical pages are verified."
+  "next_pdf_page": 55,
+  "next_printed_page": 53,
+  "next_action": "Continue the rendered-scan visual fidelity audit at PDF 55 / logical printed p.53. Resolve remaining first-pass uncertainties occurrence-by-occurrence and keep structured derivatives blocked until all 105 canonical pages are verified."
 }

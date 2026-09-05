@@ -138,23 +138,23 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  verified_pages: 40
-  draft_pages: 65
+  verified_pages: 50
+  draft_pages: 55
   review_pages: 0
-  open_first_pass_uncertainty_markers: 92
-  next_pdf_page: 45
-  next_logical_printed_page: 43
-  next_action: "Continue the rendered-scan visual fidelity audit at PDF 45 / logical printed p.43; 40/105 pages are verified and 92 explicit first-pass readings remain unresolved."
+  open_first_pass_uncertainty_markers: 77
+  next_pdf_page: 55
+  next_logical_printed_page: 53
+  next_action: "Continue the rendered-scan visual fidelity audit at PDF 55 / logical printed p.53; 50/105 pages are verified and 77 explicit first-pass readings remain unresolved."
 
 fidelity_audit:
   status: in-progress
   canonical_range_audit_complete: false
-  audited_pages: 40
-  verified_pages: 40
+  audited_pages: 50
+  verified_pages: 50
   review_pages: 0
-  unresolved_source_readings: 92
-  verified_pdf_pages: "5-44"
-  verified_logical_printed_pages: "3-42"
+  unresolved_source_readings: 77
+  verified_pdf_pages: "5-54"
+  verified_logical_printed_pages: "3-52"
 
 structured_derivatives:
   scene_index: blocked-pending-verified-tamil
@@ -174,7 +174,7 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: in-progress-40-of-105
+  visual_fidelity_audit: in-progress-50-of-105
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -183,4 +183,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Continue the rendered-scan visual fidelity audit at PDF 45 / logical printed p.43; resolve the remaining 92 explicit first-pass readings and verify all 105 canonical pages before starting structured derivatives."
+next_action: "Continue the rendered-scan visual fidelity audit at PDF 55 / logical printed p.53; resolve the remaining 77 explicit first-pass readings and verify all 105 canonical pages before starting structured derivatives."

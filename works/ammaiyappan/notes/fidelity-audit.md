@@ -22,10 +22,11 @@ Canonical range: **PDF 5–109 / logical printed pp.3–107 — 105 pages**
 | PDF 15–24 / logical pp.13–22 | 10 | 0 | 0 | verified |
 | PDF 25–34 / logical pp.23–32 | 10 | 0 | 0 | verified |
 | PDF 35–44 / logical pp.33–42 | 10 | 0 | 0 | verified |
-| PDF 45–109 / logical pp.43–107 | 0 | 0 | 65 | pending |
-| **Total** | **40** | **0** | **65** | **in progress** |
+| PDF 45–54 / logical pp.43–52 | 10 | 0 | 0 | verified |
+| PDF 55–109 / logical pp.53–107 | 0 | 0 | 55 | pending |
+| **Total** | **50** | **0** | **55** | **in progress** |
 
-Open first-pass uncertainty markers after this audit checkpoint: **92** (markers **1–24 resolved**; markers **25–116 remain for later source-order review**).
+Open first-pass uncertainty markers after this audit checkpoint: **77** (markers **1–39 resolved**; markers **40–116 remain for later source-order review**).
 
 ## PDF 5–14 / logical pp.3–12 — verified
 
@@ -103,6 +104,32 @@ PDF 41 was restored to include the printed passage from `அந்தமகள�
 
 No unresolved scan reading remains in PDF 35–44.
 
+## PDF 45–54 / logical pp.43–52 — verified
+
+All ten pages were compared directly against the rendered scan. Markers 25–39 were resolved from the printed glyphs, including old-typeface forms that could not safely be inferred from modern visual expectation. The retained bounded `parts/pdf-045-054.md` remains historical first-pass provenance and was not rewritten.
+
+Resolved marker readings:
+
+25. PDF 45: `வர்ணிப்பார் பார்`
+26. PDF 46: `மாகமே`
+27. PDF 46: `வீரனாக`
+28. PDF 46: `காகரத்த குரலிலே, கம்பிய தொனியிலே`
+29. PDF 46: `கீற்று எழுதும் சித்திரமா?`
+30. PDF 47: `அதைக் காட்சியாக்கிக் காட்டுகிறேன் அதோ, அந்த ஆடும் மரக் கிளையில்`
+31. PDF 48: `கையொப்பமிடும்போது`
+32. PDF 48: `தலைவனாக்கிவிட்டேன்`
+33. PDF 49: `ஆளைப்பார் மல்லேபோல் இருக்கிறான்`
+34. PDF 51: `வேலழகன் உத்தரவு விடுகிறேன்`
+35. PDF 51: `முடி சூடிய மன்னனையும் விடாது`
+36. PDF 52: `அமிர்த யோகமா?`
+37. PDF 53: `ஏழையின் குரல் ஏழடுக்கு மாளிகையில் எப்படிக் கேட்கும்?`
+38. PDF 53: source-visible `என்ன மிலக்கிறீர்?`
+39. PDF 54: `பொன் வரட்டும்`
+
+Other scan-backed restorations include PDF 45 `இப்போ வந்து` / `அப்போ`, `கோபமில்ல`, `புருவத்துக்கருகே`, and `மறைந்து விடுகிறது`; PDF 46 source-colloquial `முத்தனில்ல` / `பேசவில்ல`, `ஏழை`, and `உன் தந்தைக்கு`; PDF 47 `விட்டேனே`; PDF 48 `தப்பல்`; PDF 49 `சரியில்ல`, `கட்டாயமில்ல`, `இஷ்டமில்ல`, and `தேகத்தை`; PDF 50 `துரோகி இல்ல`, `வெளியிலே`, and `பயல`; PDF 51 `இடமேயில்ல`, `தங்களுக்குத்`, `அய்யா`, and `இந்தக் குறும்பன்`; PDF 52 `கண்ணாளர்` and `பாளையக்காரிடம்`; PDF 53 the printed speaker abbreviation `வேலழ`; and PDF 54 `பயமில்ல`.
+
+No unresolved scan reading remains in PDF 45–54.
+
 ## Exact next activity
 
-Continue the rendered-scan fidelity audit at **PDF 45 / logical printed p.43**, in source order. Adjudicate markers **25 onward** occurrence-by-occurrence and mark a page verified only after full-page visual comparison. Do not begin scene/dialogue/character derivatives yet.
+Continue the rendered-scan fidelity audit at **PDF 55 / logical printed p.53**, in source order. Adjudicate markers **40 onward** occurrence-by-occurrence and mark a page verified only after full-page visual comparison. Do not begin scene/dialogue/character derivatives yet.
