@@ -93,20 +93,21 @@ This closes only the **canonical Tamil first pass and assembly**. It does not cl
 |---|---|
 | Source intake | complete |
 | Whole-scan inspection | complete — 111/111 |
-| Structural mapping | verified intake map |
-| Canonical Tamil first pass | **complete — 105/105** |
-| Full-text assembly | **complete — PDF 5–109** |
-| Boundary loss/duplication QA | **PASS** |
-| Visual fidelity audit | **complete — 105/105, PDF 5–109** |
-| Historical Tamil glyph audit | **complete — 105/105, PDF 5–109** |
-| Final dual-gate Tamil verification | **complete-verified — 105/105** |
+| Structural mapping | verified |
+| Canonical Tamil | **complete-verified — 105/105 dual gate** |
+| Visual fidelity | **105/105 PASS** |
+| Historical Tamil glyph audit | **105/105 PASS** |
 | Open canonical uncertainty markers | **0** |
-| Scene-text derivatives | **READY — next phase** |
-| Dialogue index | blocked until scene-text derivatives close |
-| Character index | blocked until dialogue index closes |
+| Scene segmentation preflight | **PASS — 63 boundaries** |
+| Scene-text derivatives | **complete-verified — 63/63** |
+| Boundary-ownership QA | **PASS — 0 gaps / 0 overlaps / 105 pages represented** |
+| Dialogue index | **READY — next phase** |
+| Character index | blocked pending dialogue-index closure |
 | Song/performance authorship gate | not-started |
 | English translation / reader | blocked by derivative gate order |
 
+Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
+
 ## Exact next activity
 
-**Begin scene-text derivatives.** Build archive-only scene/segment IDs from the verified canonical Tamil using the source-visible transitions in `notes/scene-heading-audit.md`. Preserve source order, page anchors, exact headings, stage directions and speaker labels. Do **not** invent printed scene numbers. Run boundary-ownership QA before opening the dialogue-index phase.
+**Begin dialogue indexing from `scenes/index.json` and the 63 verified scene files.** Preserve each source speaker label exactly as printed, record archive scene ID + PDF provenance for each speech turn, and keep character-name normalization/alias resolution for the later character-index phase.

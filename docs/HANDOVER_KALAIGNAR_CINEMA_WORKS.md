@@ -434,18 +434,17 @@ Only when the separate Kalaignar Digital Library / Reading Room implementation r
 Work path: `works/ammaiyappan/`  
 Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
-- source intake / whole-scan map: **complete**;
-- canonical first pass / assembly: **105/105 complete; assembly QA PASS**;
-- visual source fidelity: **105/105 PASS — PDF 5–109 / logical pp.3–107**;
-- historical-Tamil-glyph audit: **105/105 PASS**;
-- final dual-gate Tamil: **105/105 complete-verified**;
-- review pages / unresolved canonical markers: **0 / 0**;
-- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
-- locked headings: `பழுதார் வீதி` and `தூக்குமேடை`; rejected `தாக்குமேடை` absent;
-- scene-text derivatives: **READY — next phase**;
-- dialogue index: blocked pending scene-text closure;
-- character index: blocked pending dialogue-index closure;
+- canonical Tamil: **105/105 dual-gate complete-verified**;
+- unresolved canonical markers / review pages: **0 / 0**;
+- post-fidelity direct-scan correction: PDF 10 `மாடம்`, commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`;
+- scene segmentation preflight: **PASS — 63 boundaries**;
+- scene-text derivatives: **63/63 complete-verified**;
+- source-numbered scenes invented: **0**;
+- boundary ownership QA: **PASS — 0 gaps / 0 overlaps / 105 pages represented**;
+- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`;
+- dialogue index: **READY — next phase**;
+- character index: blocked pending dialogue closure;
 - song/performance authorship: not-started;
 - English / reader: blocked by derivative gate order.
 
-**Exact next activity:** build source-order scene-text derivatives from the verified canonical Tamil. Use `works/ammaiyappan/notes/scene-heading-audit.md` as the transition ledger, use archive-only scene/segment IDs because no printed scene numbers exist, preserve page anchors and exact source text, and run boundary-ownership QA before dialogue indexing.
+**Exact next activity:** build the dialogue index from `works/ammaiyappan/scenes/`, preserving exact source speaker labels plus scene/PDF provenance. Do not normalize character aliases in the dialogue phase. Run dialogue coverage QA before character indexing.

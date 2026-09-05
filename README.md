@@ -74,22 +74,21 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` has **complete-verified canonical Tamil under the mandatory dual gate**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` now has **closed canonical Tamil and closed scene-text derivatives**.
 
-- canonical screenplay: **PDF 5–109 / logical pp.3–107 — 105/105 pages**;
-- assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- visual source fidelity: **105/105 PASS**;
-- historical Tamil glyph audit: **105/105 PASS**;
-- final dual-gate Tamil: **105/105 complete-verified**;
-- review pages: **0**;
+- canonical Tamil: **105/105 dual-gate complete-verified**;
+- visual fidelity / historical-glyph audit: **105/105 / 105/105 PASS**;
 - unresolved canonical markers: **0**;
-- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
-- final batch reports: `works/ammaiyappan/notes/dual-gate-sync-report-pdf-095-104.json`, `works/ammaiyappan/notes/dual-gate-sync-report-pdf-105-109.json`;
-- scene-text derivatives: **READY**;
-- dialogue/character layers: blocked by normal derivative gate order;
-- English / reader: blocked by normal derivative gate order.
+- late PDF 10 heading correction: **`மாடம்`**, commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`;
+- canonical source-visible scene boundaries: **63**;
+- archive-only scene derivatives: **63/63 complete-verified**;
+- boundary ownership: **PASS — 0 gaps / 0 overlaps / 105 pages represented**;
+- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`;
+- dialogue index: **READY**;
+- character index: blocked pending dialogue index;
+- English / reader: blocked by derivative gate order.
 
-**Next:** build scene-text derivatives from verified canonical Tamil using source-visible transitions and archive-only navigation IDs; do not invent printed scene numbers.
+**Next:** build the dialogue index from the 63 verified scene files, preserving exact source speaker labels and page provenance.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 

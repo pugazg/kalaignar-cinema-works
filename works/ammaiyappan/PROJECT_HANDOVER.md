@@ -70,41 +70,36 @@ Printed identity: `அம்மையப்பன்`; `கதை வசனம�
 
 The final PDF 105–109 batch preserves the PDF 104→105 continuation and the source-visible transitions `வேங்கையூர்`, `நகரின் வீதி`, locked `தூக்குமேடை`, and `வெளியே`. Two final insecure readings remain visibly marked rather than reconstructed.
 
-## Dual verification gate — CLOSED
+## Canonical Tamil and scene-text derivatives — CLOSED
 
-A page is final Tamil verified only when **visual fidelity = pass** and **historical glyph audit = pass**.
+Canonical Tamil:
 
-Final durable checkpoint:
+- visual fidelity: **105/105 PASS**;
+- historical glyph audit: **105/105 PASS**;
+- final dual-gate Tamil: **105/105 complete-verified**;
+- unresolved canonical markers: **0**;
+- post-fidelity direct-scan correction: PDF 10 heading `மாடம்`, commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
-- visual-fidelity passed: **105/105 — PDF 5–109 / logical pp.3–107**;
-- historical-glyph passed: **105/105 — PDF 5–109 / logical pp.3–107**;
-- final dual-gate Tamil verified: **105/105**;
-- review pages: **0**;
-- canonical uncertainty markers: **0**;
-- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
-- PDF 95–104 report: `notes/dual-gate-sync-report-pdf-095-104.json` — **10/10 PASS**;
-- PDF 105–109 report: `notes/dual-gate-sync-report-pdf-105-109.json` — **5/5 PASS**;
-- final canonical range: **PDF 5–109 / logical pp.3–107**.
+Scene layer:
 
-The retrospective PDF 5–74 historical-glyph backfill and its occurrence-specific synchronization remain part of the audit history. Forward combined verification then closed PDF 75–109. No global historical-glyph replacement was used.
+- segmentation preflight: **PASS — 63 source-visible canonical boundaries**;
+- earlier intake ledger: **58/58 reconciled**;
+- canonical additions beyond intake: **5**;
+- archive-only scene files: **63/63 complete-verified**;
+- source scene numbers invented: **0**;
+- boundary ownership QA: **PASS — 0 gaps, 0 overlaps**;
+- canonical page representation: **105/105 — PDF 5–109**;
+- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`.
 
 ## Phase gates
 
-- source intake: complete;
-- whole-scan inspection: complete 111/111;
-- structural intake map: verified;
-- canonical Tamil first pass: **complete — 105/105**;
-- full-text assembly: **complete-pass**;
-- boundary loss/duplication QA: **PASS**;
-- visual fidelity audit: **complete — 105/105**;
-- historical Tamil glyph audit: **complete — 105/105**;
-- final dual-gate Tamil verification: **complete-verified — 105/105**;
-- scene-text derivatives: **READY — next phase**;
-- dialogue index: blocked pending scene-text derivative closure;
+- source/canonical Tamil gates: **closed**;
+- scene-text derivatives: **closed-verified**;
+- dialogue index: **READY — next phase**;
 - character index: blocked pending dialogue-index closure;
 - song/performance authorship gate: not-started;
 - English / reader: blocked by derivative gate order.
 
 ## Exact next activity
 
-> **Begin scene-text derivatives from `transcription/full-text.md`. Use `notes/scene-heading-audit.md` as the structural transition ledger, assign archive-only navigation IDs because the booklet prints no scene numbers, preserve all page anchors and exact source text, and run boundary-ownership QA before opening the dialogue-index phase.**
+> **Build the dialogue index from the 63 verified scene-text derivatives. Preserve the exact printed speaker label for every dialogue turn, attach archive scene ID and source PDF provenance, do not normalize aliases/character identities in this phase, and run dialogue coverage/ownership QA before opening character indexing.**

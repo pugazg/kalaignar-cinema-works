@@ -283,5 +283,14 @@
   },
   "next_pdf_page": null,
   "next_printed_page": null,
-  "next_action": "Begin scene-text derivatives from the 105/105 dual-gate verified canonical Tamil, using source-visible structural transitions as derivative boundaries and archive-only scene IDs; do not invent printed scene numbers."
+  "next_action": "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact speaker labels, archive scene IDs and page provenance.",
+  "post_fidelity_correction_commit": "a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9",
+  "structured_derivatives": {
+    "scene_text_derivatives": "complete-verified-63-of-63",
+    "scene_index_path": "../scenes/index.json",
+    "scene_boundary_ownership_qa_path": "../notes/scene-boundary-ownership-qa.md",
+    "scene_derivative_commit": "6a764137616879d08f5a1ff14431caafa87b11eb",
+    "dialogue_index": "ready",
+    "character_index": "blocked-pending-dialogue-index"
+  }
 }

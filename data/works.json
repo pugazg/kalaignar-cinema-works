@@ -742,7 +742,7 @@
     "structural_mapping": "verified",
     "source_numbered_scene_headings": false,
     "source_numbered_scene_count": null,
-    "structural_heading_occurrences": 58,
+    "structural_heading_occurrences": 63,
     "distinct_structural_heading_forms": 37,
     "user_reviewed_heading_verdicts": [
       {
@@ -796,7 +796,7 @@
       "reading_room_integration": "blocked",
       "scene_text_derivatives": "blocked-pending-dual-gate-verified-tamil"
     },
-    "next_action": "Begin scene-text derivatives from the 105/105 dual-gate verified canonical Tamil; use source-visible transition boundaries and archive-only IDs, then run boundary-ownership QA.",
+    "next_action": "Begin dialogue indexing from the 63 verified scene derivatives; preserve exact source speaker labels and scene/PDF provenance.",
     "tamil_transcription": "dual-tamil-verification-in-progress",
     "tamil_first_pass_complete": true,
     "tamil_transcription_through_pdf_page": 109,
@@ -834,8 +834,13 @@
     "forward_dual_gate_verification_commit": "0da97f94e829bef9b387bf59be580933b97ed122",
     "open_uncertainty_markers": 0,
     "final_tamil_verification_commit": "8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3",
-    "scene_text_derivatives": "ready",
-    "dialogue_index": "blocked-pending-scene-text-derivatives",
-    "character_index": "blocked-pending-dialogue-index"
+    "scene_text_derivatives": "complete-verified-63-of-63",
+    "dialogue_index": "ready",
+    "character_index": "blocked-pending-dialogue-index",
+    "scene_segmentation_preflight": "pass-63-boundaries",
+    "scene_count": 63,
+    "scene_boundary_ownership_qa": "pass-zero-gaps-zero-overlaps",
+    "scene_derivative_commit": "6a764137616879d08f5a1ff14431caafa87b11eb",
+    "post_fidelity_correction_commit": "a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9"
   }
 ]

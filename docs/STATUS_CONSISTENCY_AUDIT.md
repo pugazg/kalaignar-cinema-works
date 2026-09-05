@@ -22,23 +22,20 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | canonical Tamil **105/105 dual-gate complete-verified; 0 review; 0 unresolved** | scene-text derivatives READY; dialogue/character blocked by gate order | blocked | blocked |
+| Ammayappan | canonical Tamil **105/105 complete-verified** | scenes **63/63 complete-verified; boundary QA PASS** | dialogue READY | character blocked |
 
-## Ammayappan final dual-gate Tamil closure
+## Ammayappan canonical + scene derivative closure
 
-- canonical range: **PDF 5–109 / logical pp.3–107 — 105 pages**;
-- visual source fidelity: **105/105 PASS**;
-- historical Tamil glyph audit: **105/105 PASS**;
-- final dual-gate Tamil: **105/105 complete-verified**;
-- review pages: **0**;
-- unresolved canonical markers: **0**;
-- assembly: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- final verification commit: `8e8aef9a91dd6222944f81a8d1071f78ecfc5ca3`;
-- source locks: `பழுதார் வீதி`, `தூக்குமேடை`; `தாக்குமேடை` absent;
-- scene-text derivatives: **READY**;
-- next gate: scene segmentation/extraction + boundary-ownership QA.
+- canonical Tamil: **105/105 dual-gate complete-verified**;
+- PDF 10 post-fidelity correction: `மாடம்` — commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`;
+- canonical boundary inventory: **63 source-visible headings**;
+- scene derivatives: **63/63 complete-verified**;
+- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
+- canonical PDF representation: **105/105 — PDF 5–109**;
+- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`;
+- next gate: **dialogue index READY**.
 
-Repository-wide status synchronization for the canonical Tamil closure is **PASS** when this section, the work-local mirrors, `data/works.json`, and the root README all advertise this same 105/105 state.
+Repository-wide scene-closure status is **PASS** when this section, work-local mirrors, root README and `data/works.json` agree on 63/63 scenes and dialogue READY.
 
 ## Manthiri Kumari reconciliation checkpoint
 

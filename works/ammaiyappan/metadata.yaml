@@ -43,6 +43,8 @@ structure:
   structural_mapping: verified
   mapping_path: "mapping.md"
   transition_heading_audit_path: "notes/scene-heading-audit.md"
+  scene_segmentation_preflight_path: "notes/scene-segmentation-preflight.json"
+  scene_boundary_ownership_qa_path: "notes/scene-boundary-ownership-qa.md"
   intake_audit_path: "notes/INTAKE_AUDIT.md"
   historical_glyph_audit_path: "notes/historical-glyph-audit.md"
   historical_glyph_sync_manifest_path: "notes/historical-glyph-sync-manifest.json"
@@ -53,8 +55,8 @@ structure:
   source_numbered_scene_headings: false
   source_numbered_scene_count: null
   canonical_scene_numbering_introduced: false
-  structural_heading_occurrences: 58
-  distinct_structural_heading_forms: 37
+  structural_heading_occurrences: 63
+  distinct_structural_heading_forms: 41
   user_reviewed_heading_verdicts:
     - pdf_page: 107
       logical_printed_page: 105
@@ -158,15 +160,15 @@ transcription_progress:
   retrospective_historical_glyph_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Begin scene-text derivatives from verified canonical Tamil; use source-visible transition boundaries and archive-only scene IDs."
+  next_action: "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact speaker labels and scene/page provenance."
 
 fidelity_audit:
-  status: in-progress
+  status: complete-pass
   canonical_range_audit_complete: true
-  audited_pages: 90
+  audited_pages: 105
   verified_pages: 105
   review_pages: 0
-  unresolved_source_readings: 9
+  unresolved_source_readings: 0
   verified_pdf_pages: "5-109"
   verified_logical_printed_pages: "3-107"
   next_pdf_page: null
@@ -216,12 +218,16 @@ final_tamil_verification:
   pending_pages: 0
   review_pages: 0
   total_pages: 105
-  status: in-progress
+  status: complete-verified
+  post_fidelity_correction_commit: "a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9"
 
 structured_derivatives:
-  scene_index: ready
-  scene_text_derivatives: ready
-  dialogue_index: blocked-pending-scene-text-derivatives-pending-scene-text-derivatives
+  scene_index: complete-verified-63-of-63
+  scene_text_derivatives: complete-verified-63-of-63
+  scene_index_path: "scenes/index.json"
+  scene_boundary_ownership_qa_path: "notes/scene-boundary-ownership-qa.md"
+  scene_derivative_commit: "6a764137616879d08f5a1ff14431caafa87b11eb"
+  dialogue_index: ready
   character_index: blocked-pending-dialogue-index
   song_authorship_mapping: not-started
   english_translation: blocked
@@ -239,7 +245,7 @@ status:
   visual_fidelity_audit: complete-verified-105-of-105
   historical_glyph_audit: complete-verified-105-of-105
   final_tamil_verification: complete-verified-105-of-105-dual-gate
-  scene_derivatives: ready
+  scene_derivatives: complete-verified-63-of-63
   dialogue_index: blocked-pending-scene-text-derivatives
   character_index: blocked-pending-dialogue-index
   song_authorship_gate: not-started
@@ -247,4 +253,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Begin scene-text derivatives from verified canonical Tamil; use source-visible transition boundaries and archive-only scene IDs. Do not invent printed scene numbers."
+next_action: "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact source speaker labels, archive scene IDs and page provenance. Do not normalize character names yet."
