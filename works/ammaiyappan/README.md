@@ -26,13 +26,13 @@ Locked source verdicts:
 - completed first-pass range: **PDF 5–109 / printed pp.3–107**;
 - progress: **105/105 pages**;
 - first-pass state: **draft-complete**;
-- verified pages: **50**;
-- open first-pass uncertainty markers: **77**;
+- verified pages: **59**;
+- open first-pass uncertainty markers: **69**;
 - final bounded source batch: `transcription/parts/pdf-105-109.md`;
 - final uncertainty ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**;
 - continuous assembled transcription: `transcription/full-text.md`, now through **PDF 109**;
 - assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
-- visual fidelity audit: **in-progress — PDF 5–54 / logical pp.3–52 verified (50/105)**.
+- visual fidelity audit: **in-progress — PDF 5–63 / logical pp.3–61 verified (59/105); PDF 64 / logical p.62 review**.
 
 The final batch preserves the PDF 104→105 continuation, the source-visible `வேங்கையூர்`, `நகரின் வீதி`, **`தூக்குமேடை`**, and `வெளியே` transitions, and closes the screenplay/dialogue body at PDF 109 / printed p.107. The final two insecure readings remain explicitly marked rather than reconstructed.
 
@@ -61,12 +61,12 @@ This closes only the **canonical Tamil first pass and assembly**. It does **not*
 | Canonical Tamil first pass | **draft-complete — 105/105** |
 | Full-text assembly | **complete — PDF 5–109** |
 | Boundary loss/duplication QA | **PASS** |
-| Visual fidelity audit | **in-progress — 50/105 verified** |
-| Verified Tamil pages | **50/105** |
+| Visual fidelity audit | **in-progress — 59/105 verified + PDF 64 review** |
+| Verified Tamil pages | **59/105; 1 review** |
 | Scene/dialogue/character derivatives | blocked pending verified Tamil |
 | Song/performance authorship gate | not-started |
 | English translation / reader | blocked |
 
 ## Exact next activity
 
-**Continue the rendered-scan visual fidelity audit at PDF 55 / logical printed p.53.** Resolve the remaining **77** explicit first-pass readings occurrence-by-occurrence, upgrade pages only after full-page direct scan comparison, and keep all structured derivatives blocked until the complete 105-page canonical range is verified.
+**Reopen PDF 64 / logical printed p.62 and resolve marker 47 from the rendered scan.** PDF 5–63 are verified; PDF 64 remains review. Do not advance to PDF 65 or start structured derivatives until PDF 64 is source-clean and ultimately all 105 canonical pages are verified.
