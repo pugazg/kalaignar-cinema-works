@@ -1,0 +1,66 @@
+name: Ammayappan dialogue-index preflight
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-dialogue-preflight.yml"
+      - "works/ammaiyappan/scripts/build_dialogue_preflight.py"
+
+permissions:
+  contents: write
+
+jobs:
+  dialogue-preflight:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build source-format dialogue preflight
+        run: python works/ammaiyappan/scripts/build_dialogue_preflight.py
+      - name: Validate preflight outputs
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('works/ammaiyappan')
+          p = json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          assert p['work_id'] == 'ammaiyappan'
+          assert p['phase'] == 'dialogue-index-preflight'
+          assert p['status'] == 'review-ready'
+          assert p['scene_count'] == 63
+          assert p['source_numbered_scenes'] is False
+          assert p['explicit_colon_dialogue_candidates'] > 0
+          assert p['distinct_exact_speaker_labels'] > 0
+          assert len(p['scene_dialogue_candidate_counts']) == 63
+          assert sum(p['scene_dialogue_candidate_counts'].values()) == p['explicit_colon_dialogue_candidates']
+          assert p['colon_rejects'] == []
+          md = (root/'notes/dialogue-index-preflight.md').read_text(encoding='utf-8')
+          assert 'verified scene derivatives scanned: **63/63**' in md
+          print('DIALOGUE PREFLIGHT GENERATED')
+          print(json.dumps({k:p[k] for k in [
+              'explicit_colon_dialogue_candidates',
+              'distinct_exact_speaker_labels',
+              'zero_explicit_dialogue_scenes'
+          ]}, ensure_ascii=False))
+          print('anomalous=', len(p['anomalous_delimiter_candidates']))
+          print('cross_page=', len(p['cross_page_continuation_candidates']))
+          PY
+      - name: Commit dialogue preflight
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/notes/dialogue-index-preflight.json works/ammaiyappan/notes/dialogue-index-preflight.md
+          if git diff --cached --quiet; then
+            echo "No preflight changes to commit"
+            exit 0
+          fi
+          git commit -m "Build Ammayappan dialogue-index preflight [skip ci]"
+          git push origin HEAD:main
