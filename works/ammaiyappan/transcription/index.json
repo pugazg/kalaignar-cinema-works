@@ -22,10 +22,10 @@
     107
   ],
   "draft_pages": 105,
-  "verified_pages": 5,
+  "verified_pages": 11,
   "visual_fidelity_passed_pages": 70,
-  "historical_glyph_verified_pages": 5,
-  "review_pages": 15,
+  "historical_glyph_verified_pages": 11,
+  "review_pages": 19,
   "open_uncertainty_markers": 29,
   "uncertainty_note_paths": [
     "../notes/textual-notes.md",
@@ -50,122 +50,62 @@
     "parts_retained_for_provenance": [
       {
         "path": "parts/pdf-015-024.md",
-        "pdf_range": [
-          15,
-          24
-        ],
-        "printed_range": [
-          13,
-          22
-        ],
+        "pdf_range": [15,24],
+        "printed_range": [13,22],
         "status": "draft"
       },
       {
         "path": "parts/pdf-025-034.md",
-        "pdf_range": [
-          25,
-          34
-        ],
-        "printed_range": [
-          23,
-          32
-        ],
+        "pdf_range": [25,34],
+        "printed_range": [23,32],
         "status": "draft"
       },
       {
         "path": "parts/pdf-035-044.md",
-        "pdf_range": [
-          35,
-          44
-        ],
-        "printed_range": [
-          33,
-          42
-        ],
+        "pdf_range": [35,44],
+        "printed_range": [33,42],
         "status": "draft"
       },
       {
         "path": "parts/pdf-045-054.md",
-        "pdf_range": [
-          45,
-          54
-        ],
-        "printed_range": [
-          43,
-          52
-        ],
+        "pdf_range": [45,54],
+        "printed_range": [43,52],
         "status": "draft"
       },
       {
         "path": "parts/pdf-055-064.md",
-        "pdf_range": [
-          55,
-          64
-        ],
-        "printed_range": [
-          53,
-          62
-        ],
+        "pdf_range": [55,64],
+        "printed_range": [53,62],
         "status": "draft"
       },
       {
         "path": "parts/pdf-065-074.md",
-        "pdf_range": [
-          65,
-          74
-        ],
-        "printed_range": [
-          63,
-          72
-        ],
+        "pdf_range": [65,74],
+        "printed_range": [63,72],
         "status": "draft-high-uncertainty"
       },
       {
         "path": "parts/pdf-075-084.md",
-        "pdf_range": [
-          75,
-          84
-        ],
-        "printed_range": [
-          73,
-          82
-        ],
+        "pdf_range": [75,84],
+        "printed_range": [73,82],
         "status": "draft"
       },
       {
         "path": "parts/pdf-085-094.md",
-        "pdf_range": [
-          85,
-          94
-        ],
-        "printed_range": [
-          83,
-          92
-        ],
+        "pdf_range": [85,94],
+        "printed_range": [83,92],
         "status": "draft"
       },
       {
         "path": "parts/pdf-095-104.md",
-        "pdf_range": [
-          95,
-          104
-        ],
-        "printed_range": [
-          93,
-          102
-        ],
+        "pdf_range": [95,104],
+        "printed_range": [93,102],
         "status": "draft"
       },
       {
         "path": "parts/pdf-105-109.md",
-        "pdf_range": [
-          105,
-          109
-        ],
-        "printed_range": [
-          103,
-          107
-        ],
+        "pdf_range": [105,109],
+        "printed_range": [103,107],
         "status": "draft"
       }
     ],
@@ -178,66 +118,29 @@
     "verified_pages": 70,
     "unresolved_source_readings": 29,
     "review_pages": 0,
-    "verified_pdf_range": [
-      5,
-      74
-    ],
-    "verified_logical_printed_range": [
-      3,
-      72
-    ]
+    "verified_pdf_range": [5,74],
+    "verified_logical_printed_range": [3,72]
   },
   "historical_glyph_audit": {
     "status": "required-in-progress",
     "guide_path": "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "audit_path": "../notes/historical-glyph-audit.md",
+    "batch_audit_paths": [
+      "../notes/historical-glyph-audit-pdf-025-034.md"
+    ],
     "canonical_range_audit_complete": false,
-    "audited_pages": 20,
-    "reviewed_pdf_range": [
-      5,
-      24
-    ],
-    "reviewed_logical_printed_range": [
-      3,
-      22
-    ],
-    "verified_pages": 5,
-    "verified_pdf_pages": [
-      7,
-      11,
-      12,
-      18,
-      21
-    ],
-    "pending_pages": 100,
-    "review_pages": 15,
-    "sync_pending_pdf_pages": [
-      5,
-      6,
-      8,
-      9,
-      10,
-      13,
-      14,
-      15,
-      16,
-      17,
-      19,
-      20,
-      22,
-      23,
-      24
-    ],
-    "next_retrospective_pdf_page": 25,
-    "next_retrospective_printed_page": 23,
-    "retrospective_pdf_range": [
-      5,
-      74
-    ],
-    "forward_combined_pdf_range": [
-      75,
-      109
-    ],
+    "audited_pages": 30,
+    "reviewed_pdf_range": [5,34],
+    "reviewed_logical_printed_range": [3,32],
+    "verified_pages": 11,
+    "verified_pdf_pages": [7,11,12,18,21,26,28,29,31,33,34],
+    "pending_pages": 94,
+    "review_pages": 19,
+    "sync_pending_pdf_pages": [5,6,8,9,10,13,14,15,16,17,19,20,22,23,24,25,27,30,32],
+    "next_retrospective_pdf_page": 35,
+    "next_retrospective_printed_page": 33,
+    "retrospective_pdf_range": [5,74],
+    "forward_combined_pdf_range": [75,109],
     "minimum_known_families": [
       "ணா",
       "ணை",
@@ -256,12 +159,12 @@
   },
   "final_tamil_verification": {
     "policy": "visual-fidelity-and-historical-glyph-dual-gate",
-    "verified_pages": 5,
-    "review_pages": 15,
+    "verified_pages": 11,
+    "review_pages": 19,
     "total_pages": 105,
     "status": "in-progress"
   },
-  "next_pdf_page": 25,
-  "next_printed_page": 23,
-  "next_action": "Continue the retrospective historical-Tamil-glyph audit at PDF 25 / printed p.23 in source order. PDF 5-24 have been reviewed; 15 correction-bearing pages remain glyph-reviewed/sync-pending and must be synchronized occurrence-by-occurrence before they can pass the glyph gate. Do not resume PDF 75 visual-fidelity work until the retrospective glyph backfill reaches PDF 74 and its corrections are synchronized."
+  "next_pdf_page": 35,
+  "next_printed_page": 33,
+  "next_action": "Continue the retrospective historical-Tamil-glyph audit at PDF 35 / printed p.33 in source order. PDF 5-34 have been reviewed; 19 correction-bearing pages remain glyph-reviewed/sync-pending and must be synchronized occurrence-by-occurrence before they can pass the glyph gate. Do not resume PDF 75 visual-fidelity work until the retrospective glyph backfill reaches PDF 74 and its corrections are synchronized."
 }
