@@ -1,0 +1,30 @@
+name: One-off Ammayappan fidelity PDF 35-44
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ammaiyappan-fidelity-035-044.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply PDF 35-44 fidelity corrections
+        run: python .github/scripts/ammaiyappan_fidelity_035_044.py
+      - name: Commit synchronized checkpoint and remove one-off files
+        run: |
+          rm -f .github/scripts/ammaiyappan_fidelity_035_044.py
+          rm -f .github/workflows/ammaiyappan-fidelity-035-044.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Verify Ammayappan PDF 35-44 fidelity'
+          git push origin HEAD:main
