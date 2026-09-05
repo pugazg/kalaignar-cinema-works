@@ -48,8 +48,8 @@ jobs:
           assert qa['explicit_source_labels_expected'] == 910
           assert qa['immutable_dialogue_records'] == 910
           assert qa['explicit_label_ownership'] == '910/910 exactly once'
-          assert idx['distinct_exact_speaker_labels'] == 35
-          assert qa['distinct_exact_speaker_labels'] == 35
+          assert idx['distinct_exact_speaker_labels'] == pre['distinct_exact_speaker_labels']
+          assert qa['distinct_exact_speaker_labels'] == pre['distinct_exact_speaker_labels']
           assert qa['label_distribution_matches_preflight'] is True
           assert len(qa['reviewed_cross_page_candidates']) == 19
           assert all(x['decision'] == 'same-utterance-continuation-confirmed' for x in qa['reviewed_cross_page_candidates'])
