@@ -3,9 +3,9 @@
 
 Every replacement is confined to its specified PDF source block. Whitespace is
 layout-only for matching but is preserved from the archival text. Canonical
-occurrences are mandatory. A retained first-pass provenance occurrence is
-updated only when the audited phrase is actually present there; unresolved
-placeholders are never filled from the newer canonical layer.
+occurrences are mandatory. Retained first-pass provenance is synchronized only
+where matching audited occurrences actually exist: already-correct occurrences
+are preserved and placeholder-era omissions are never synthesized.
 """
 
 from __future__ import annotations
@@ -152,7 +152,7 @@ def replace_page_occurrences(
     new: str,
     expected: int,
     surface: str,
-    allow_absent: bool = False,
+    partial_ok: bool = False,
 ) -> tuple[str, dict]:
     start, end = page_span(text, pdf)
     block = text[start:end]
@@ -160,29 +160,37 @@ def replace_page_occurrences(
     new_matches = find_logical_matches(block, new)
     old_matches = standalone_old_matches(all_old, new_matches)
 
-    if allow_absent and len(old_matches) == 0 and len(new_matches) == 0:
-        return text, {
-            "surface": surface,
-            "status": "not-present-in-provenance",
-            "from_count_before": 0,
-            "to_count_before": 0,
-            "applied": 0,
-        }
-
-    if len(old_matches) == 0 and len(new_matches) == expected:
-        return text, {
-            "surface": surface,
-            "status": "already-synchronized",
-            "from_count_before": 0,
-            "to_count_before": expected,
-            "applied": 0,
-        }
-
-    if len(old_matches) != expected:
-        raise ValueError(
-            f"PDF {pdf} {surface}: expected {expected} standalone logical occurrence(s) of {old!r}; "
-            f"found {len(old_matches)} (all old-string hits={len(all_old)}, new-form count={len(new_matches)})"
-        )
+    if partial_ok:
+        if len(old_matches) + len(new_matches) > expected:
+            raise ValueError(
+                f"PDF {pdf} {surface}: provenance has more matching old/new occurrences than the "
+                f"manifest allows for {old!r}: old={len(old_matches)}, new={len(new_matches)}, expected={expected}"
+            )
+        apply_count = len(old_matches)
+        if apply_count == 0:
+            status = "already-synchronized" if len(new_matches) == expected else "not-present-or-partial-in-provenance"
+            return text, {
+                "surface": surface,
+                "status": status,
+                "from_count_before": 0,
+                "to_count_before": len(new_matches),
+                "applied": 0,
+            }
+    else:
+        if len(old_matches) == 0 and len(new_matches) == expected:
+            return text, {
+                "surface": surface,
+                "status": "already-synchronized",
+                "from_count_before": 0,
+                "to_count_before": expected,
+                "applied": 0,
+            }
+        if len(old_matches) != expected:
+            raise ValueError(
+                f"PDF {pdf} {surface}: expected {expected} standalone logical occurrence(s) of {old!r}; "
+                f"found {len(old_matches)} (all old-string hits={len(all_old)}, new-form count={len(new_matches)})"
+            )
+        apply_count = expected
 
     mutable = block
     for match in reversed(old_matches):
@@ -194,15 +202,21 @@ def replace_page_occurrences(
     post_old = standalone_old_matches(find_logical_matches(mutable, old), post_new)
     if post_old:
         raise ValueError(f"PDF {pdf} {surface}: standalone old reading remains after replacement: {old!r}")
-    if len(post_new) < expected:
+    if partial_ok:
+        if len(post_new) != len(new_matches) + apply_count:
+            raise ValueError(
+                f"PDF {pdf} {surface}: provenance target count did not increase by applied count for {new!r}"
+            )
+    elif len(post_new) < expected:
         raise ValueError(f"PDF {pdf} {surface}: target reading missing after replacement: {new!r}")
 
+    status = "synchronized" if not partial_ok or len(post_new) == expected else "synchronized-partial-provenance"
     return text[:start] + mutable + text[end:], {
         "surface": surface,
-        "status": "synchronized",
-        "from_count_before": expected,
+        "status": status,
+        "from_count_before": apply_count,
         "to_count_before": len(new_matches),
-        "applied": expected,
+        "applied": apply_count,
     }
 
 
@@ -256,7 +270,7 @@ def main() -> None:
                 "expected_occurrences": expected,
                 "targets": [],
             }
-            for target_path, surface, allow_absent in targets:
+            for target_path, surface, partial_ok in targets:
                 updated, tr = replace_page_occurrences(
                     working[target_path],
                     pdf=pdf,
@@ -264,7 +278,7 @@ def main() -> None:
                     new=new,
                     expected=expected,
                     surface=surface,
-                    allow_absent=allow_absent,
+                    partial_ok=partial_ok,
                 )
                 working[target_path] = updated
                 rr["targets"].append(tr)
@@ -287,8 +301,6 @@ def main() -> None:
     changed_files = [path for path in working if working[path] != original[path]]
     status = "synchronized" if changed_files else "already-synchronized"
 
-    # Nothing is written until every canonical page, available matching
-    # provenance occurrence, and preserve-control has validated.
     for path in changed_files:
         path.write_text(working[path], encoding="utf-8")
 
@@ -305,11 +317,12 @@ def main() -> None:
         "prefix_target_safe": True,
         "canonical_required": True,
         "matching_provenance_only": True,
+        "partial_provenance_supported": True,
         "logical_occurrences_applied_across_surfaces": total_applied,
         "changed_files": [str(path.relative_to(REPO_ROOT)) for path in changed_files],
         "preserve_controls": controls_report,
         "pages": report_pages,
-        "post_sync_rule": "Canonical audited occurrences are mandatory. Matching retained provenance occurrences are synchronized; absent placeholder-era provenance phrases are left untouched. Source whitespace and preserve-controls remain unchanged."
+        "post_sync_rule": "Canonical audited occurrences are mandatory. Every matching old provenance occurrence is synchronized, already-correct provenance is preserved, and absent placeholder-era occurrences are not synthesized. Source whitespace and preserve-controls remain unchanged."
     }
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({
