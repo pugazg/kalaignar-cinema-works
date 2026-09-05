@@ -1,0 +1,66 @@
+name: Ammayappan dialogue colon-spacing preflight once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-dialogue-colon-spacing-preflight-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Widen explicit colon syntax without normalizing source text
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('works/ammaiyappan/scripts/build_dialogue_preflight.py')
+          s = p.read_text(encoding='utf-8')
+          old = r'DIALOGUE_RE = re.compile(r"^(?P<label>[^:#\[\]<>\n]{1,60}?)\s+:\s+(?P<text>\S.*)$")'
+          new = r'DIALOGUE_RE = re.compile(r"^(?P<label>[^:#\[\]<>\n]{1,60}?)\s*:\s*(?P<text>\S.*)$")'
+          assert old in s
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+          PY
+      - name: Rebuild preflight from all 63 verified scenes
+        run: python works/ammaiyappan/scripts/build_dialogue_preflight.py
+      - name: Validate widened preflight
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('works/ammaiyappan')
+          p = json.loads((root/'notes/dialogue-index-preflight.json').read_text(encoding='utf-8'))
+          assert p['scene_count'] == 63
+          assert p['explicit_colon_dialogue_candidates'] > 910
+          assert p['distinct_exact_speaker_labels'] >= 57
+          assert p['colon_rejects'] == []
+          assert sum(p['scene_dialogue_candidate_counts'].values()) == p['explicit_colon_dialogue_candidates']
+          print(json.dumps({
+            'explicit_colon_dialogue_candidates': p['explicit_colon_dialogue_candidates'],
+            'distinct_exact_speaker_labels': p['distinct_exact_speaker_labels'],
+            'zero_explicit_dialogue_scenes': len(p['zero_explicit_dialogue_scenes']),
+            'dash_candidates': len(p['anomalous_delimiter_candidates']),
+            'cross_page_candidates': len(p['cross_page_continuation_candidates'])
+          }, ensure_ascii=False))
+          PY
+      - name: Commit only preflight script and regenerated audit
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/scripts/build_dialogue_preflight.py \
+                  works/ammaiyappan/notes/dialogue-index-preflight.json \
+                  works/ammaiyappan/notes/dialogue-index-preflight.md
+          git commit -m "Reconcile Ammayappan source colon spacing in dialogue preflight [skip ci]"
+          git push origin HEAD:main
