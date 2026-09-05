@@ -1,0 +1,30 @@
+name: One-off Ammayappan resolve PDF 65 marker 49
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ammaiyappan-resolve-marker49.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply PDF 65 marker 49 resolution
+        run: python scripts/oneoff-ammaiyappan-resolve-marker49.py
+      - name: Commit checkpoint and remove one-off files
+        run: |
+          rm -f scripts/oneoff-ammaiyappan-resolve-marker49.py
+          rm -f .github/workflows/ammaiyappan-resolve-marker49.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Resolve Ammayappan PDF 65 marker 49; verify through PDF 74'
+          git push origin HEAD:main
