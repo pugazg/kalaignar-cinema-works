@@ -61,7 +61,7 @@
   ],
   "preserve_controls": [
     {"pdf":48,"text":"யோசிக்கிறானு முகமே சொல்லுதே பிரபு.","reason":"genuine same-edition னு; do not convert to னா"},
-    {"pdf":62,"text":"நான் செய்த தவறுகூட மறந்துவிடு","reason":"genuine று; do not convert to historical றா"},
+    {"pdf":62,"text":"நான் செய்த தவறுகளை மறந்துவிடு","reason":"genuine று in தவறுகளை; do not convert to historical றா"},
     {"pdf":64,"text":"வாழணும்னு தலையில் எழுதி இருக்கு!","reason":"genuine same-page ணு control"},
     {"pdf":69,"text":"எனக்கேனு இப்போது இவ்வளவு அக்கறை என்று கருதுவாய்","reason":"genuine same-page/same-edition னு; preserve"}
   ]
