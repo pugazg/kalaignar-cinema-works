@@ -24,12 +24,11 @@ Canonical range: **PDF 5–109 / logical printed pp.3–107 — 105 pages**
 | PDF 35–44 / logical pp.33–42 | 10 | 0 | 0 | verified |
 | PDF 45–54 / logical pp.43–52 | 10 | 0 | 0 | verified |
 | PDF 55–64 / logical pp.53–62 | 10 | 0 | 0 | verified |
-| PDF 65 / logical p.63 | 0 | 1 | 0 | review — marker 49 unresolved |
-| PDF 66–74 / logical pp.64–72 | 9 | 0 | 0 | verified |
+| PDF 65–74 / logical pp.63–72 | 10 | 0 | 0 | verified |
 | PDF 75–109 / logical pp.73–107 | 0 | 0 | 35 | pending |
-| **Total** | **69** | **1** | **35** | **in progress** |
+| **Total** | **70** | **0** | **35** | **in progress** |
 
-Open first-pass uncertainty markers after this audit checkpoint: **30** (markers **1–48 and 50–87 resolved**; marker **49** plus markers **88–116** remain unresolved).
+Open first-pass uncertainty markers after this audit checkpoint: **29** (markers **1–87 resolved**; markers **88–116** remain unresolved).
 
 ## PDF 5–14 / logical pp.3–12 — verified
 
@@ -154,21 +153,18 @@ Marker **47** is resolved from the enlarged PDF 64 scan. The decisive source-vis
 Other source-backed restorations in PDF 55–63 include `அபராதத்/அபராதப்`, `புத்தி சுவாதீனம் அற்றவனும்`, `அலங்கோலக் காட்சியல்ல`, `கத்திமுனைகளையும்`, `எங்களன்பிற்கு`, `ஆசைப்பட்டேனு`, `சொல்வதைக் கேள்`, `பலனில்ல`, `எப்போதாவது உணராமலா`, `இரத்தின ஒட்டியானம்`, `வரவும் இசைந்தாள்`, `பாவா இல்ல—பரவாயில்ல`, `முதல் தரமான வழி`, `சீக்கிரம்`, `நடக்கட்டும்`, `தவறுகளை மறந்துவிடு`, `ஆனந்தபுரம் என்ற ஊருக்குச்`, and `ஏதாவது`.
 
 
-## PDF 65–74 / logical pp.63–72 — 9 verified + 1 review
+## PDF 65–74 / logical pp.63–72 — verified
 
-All ten pages were compared directly against the rendered controlling scan. PDF 65 remains `review` because marker 49 is the long old-type poetic continuation and is still not secure enough for a source-faithful transcription. The other two PDF 65 uncertainties and every uncertainty on PDF 66–74 were resolved from the printed pages.
+All ten pages were compared directly against the rendered controlling scan and are now source-clean. PDF 65 marker 49 was resolved only after enlarged glyph-level review; no external literary witness, OCR, film dialogue, subtitles, web text, or semantic reconstruction was used. The retained bounded `parts/pdf-065-074.md` remains historical first-pass provenance and was not rewritten.
 
-- **marker 49 — PDF 65:** remains unresolved; no external literary witness, OCR, film dialogue or semantic reconstruction may fill it.
-- **markers 50–51 — PDF 65:** resolved as the warriors' printed `தச்...தச்...தச்...` response and Muthan's question ending `அவைகளை மாற்றானின் காலடியில் மிதிக்க விடலாமா?`.
-- **markers 52–87 — PDF 66–74:** resolved by full-page direct scan transcription. The canonical page blocks were rebuilt from the rendered pages rather than from the first-pass summaries.
+Marker **49 — PDF 65** is resolved from the printed page as the full continuation beginning `மார்பிலா முதுகிலா என்றாள்! முதுகிலென்றான்...` and ending `வாளிங்கே...அவன் நாக்கெங்கே?`. Decisive source-visible forms retained exactly include `மோழைக்குப்`, `கண்ணுளர்`, `இமயவரம்பினிலே`, `மதுவும் சுருவும்`, `செறுமுனையில்`, and `கருத்தரியப்`.
 
-Important boundary corrections:
+Markers **50–51** remain resolved as `வீரர்கள் : தச்...தச்...தச்...` and Muthan's question ending `அவைகளை மாற்றானின் காலடியில் மிதிக்க விடலாமா?`. Markers **52–87** remain resolved by the earlier full-page direct scan transcription of PDF 66–74.
 
-- PDF 73→74 preserves the source split `வைத்` + `திருந்த`.
-- The first-pass note that marker 87 continues from PDF 74 into PDF 75 was incorrect. PDF 74 closes with `ஆபத்து காத்திருக்கிறது!`; PDF 75 begins a new bracketed action and is a fresh source unit.
+Boundary disposition remains unchanged: PDF 73→74 preserves the source split `வைத்` + `திருந்த`; PDF 74 closes locally with `ஆபத்து காத்திருக்கிறது!`, and PDF 75 begins a new bracketed action.
 
-No unresolved scan reading remains on PDF 66–74. PDF 65 remains the only review page in this audited range.
+No unresolved scan reading remains on PDF 65–74.
 
 ## Exact next activity
 
-Reopen **PDF 65 / logical printed p.63** and adjudicate **marker 49** from the rendered scan. PDF 5–64 and PDF 66–74 are verified; PDF 65 remains review. Do **not** continue to PDF 75 or begin structured derivatives until PDF 65 is source-clean.
+Continue the rendered-scan visual fidelity audit at **PDF 75 / logical printed p.73**. PDF 5–74 are verified; markers **88–116** remain unresolved on PDF 75–109. Structured derivatives remain blocked until all 105 canonical pages are verified.

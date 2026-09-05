@@ -138,25 +138,23 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  verified_pages: 69
+  verified_pages: 70
   draft_pages: 35
-  review_pages: 1
-  open_first_pass_uncertainty_markers: 30
-  next_pdf_page: 65
-  next_logical_printed_page: 63
-  next_action: "Reopen PDF 65 / logical printed p.63 and adjudicate marker 49 from the rendered scan; PDF 5-64 and PDF 66-74 are verified, PDF 65 is review, and structured derivatives remain blocked until all 105 pages are verified."
+  review_pages: 0
+  open_first_pass_uncertainty_markers: 29
+  next_pdf_page: 75
+  next_logical_printed_page: 73
+  next_action: "Continue the rendered-scan visual fidelity audit at PDF 75 / logical printed p.73; PDF 5-74 are verified and 29 first-pass uncertainty markers remain on PDF 75-109."
 
 fidelity_audit:
   status: in-progress
   canonical_range_audit_complete: false
   audited_pages: 70
-  verified_pages: 69
-  review_pages: 1
-  unresolved_source_readings: 30
-  verified_pdf_pages: "5-64,66-74"
-  verified_logical_printed_pages: "3-62,64-72"
-  review_pdf_pages: "65"
-  review_logical_printed_pages: "63"
+  verified_pages: 70
+  review_pages: 0
+  unresolved_source_readings: 29
+  verified_pdf_pages: "5-74"
+  verified_logical_printed_pages: "3-72"
 
 structured_derivatives:
   scene_index: blocked-pending-verified-tamil
@@ -176,7 +174,7 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: in-progress-69-of-105-plus-1-review
+  visual_fidelity_audit: in-progress-70-of-105
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -185,4 +183,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Reopen PDF 65 / logical printed p.63 and adjudicate marker 49 from the rendered scan; do not continue to PDF 75 until PDF 65 is verified."
+next_action: "Continue the rendered-scan visual fidelity audit at PDF 75 / logical printed p.73; PDF 5-74 are verified and structured derivatives remain blocked until all 105 pages are verified."
