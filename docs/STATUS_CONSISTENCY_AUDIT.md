@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — current status mirrors are synchronized to the Ammayappan retrospective historical-glyph closure. The canonical first pass remains 105/105 assembled through PDF 109. PDF 5–74 / logical pp.3–72 have passed both visual source fidelity and the historical-glyph gate, so final dual-gate Tamil verification is 70/105. The retrospective historical-glyph source review and occurrence-specific synchronization are closed; PDF 75–109 are the remaining 35 pages and must receive both audits together.**
+**PASS — current status mirrors are synchronized to the Ammayappan retrospective historical-glyph closure. The canonical first pass remains 105/105 assembled through PDF 109. PDF 5–84 / logical pp.3–82 have passed both visual source fidelity and the historical-glyph gate, so final dual-gate Tamil verification is 80/105. The retrospective historical-glyph source review and occurrence-specific synchronization are closed; PDF 85–109 are the remaining 25 pages and must receive both audits together.**
 
 ## Current work matrix
 
@@ -22,7 +22,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; visual fidelity 70/105; historical-glyph 70/105; final dual-gate verified 70/105** | scene/dialogue/character blocked pending 105/105 dual-gate verified Tamil | blocked | blocked | blocked |
+| Ammayappan | source intake 111/111; structural map verified; Tamil first pass **105/105 draft-complete; visual fidelity 80/105; historical-glyph 80/105; final dual-gate verified 80/105** | scene/dialogue/character blocked pending 105/105 dual-gate verified Tamil | blocked | blocked | blocked |
 
 ## Ammayappan dual-gate checkpoint after retrospective glyph closure
 
@@ -30,9 +30,9 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - canonical Tamil first pass: **draft-complete — 105/105 pages**;
 - continuous assembled transcription: `works/ammaiyappan/transcription/full-text.md` through **PDF 109**;
 - assembly QA: **PASS — 105 anchors / exact PDF 5→109 / 0 missing / 0 duplicate**;
-- visual source fidelity: **70/105 passed — PDF 5–74 / logical pp.3–72**;
-- historical Tamil glyph gate: **70/105 passed — PDF 5–74 / logical pp.3–72**;
-- final dual-gate Tamil verification: **70/105**;
+- visual source fidelity: **80/105 passed — PDF 5–84 / logical pp.3–82**;
+- historical Tamil glyph gate: **80/105 passed — PDF 5–84 / logical pp.3–82**;
+- final dual-gate Tamil verification: **80/105**;
 - retrospective PDF 5–74 glyph source review: **70/70 complete**;
 - correction-bearing pages: **38**; correction-free pages: **32**;
 - occurrence-specific synchronization: **complete** — commit `880978627191a122f55b50522d112d163faa7e10`;
@@ -41,13 +41,13 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 - global replacement: **0**;
 - source whitespace/layout preserved: **yes**;
 - genuine controls PDF 48 / 62 / 64 / 69: **PASS / preserved**;
-- remaining range: **PDF 75–109 = 35 pages**;
-- open first-pass uncertainty markers: **29 — markers 88–116**;
+- remaining range: **PDF 85–109 = 25 pages**;
+- open first-pass uncertainty markers: **29 — markers 98–116**;
 - structured derivatives / English / reader: **blocked until 105/105 dual-gate verified**.
 
 The minimum historical/reform-sensitive families remain `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. This is a minimum set only; source pixels and same-edition evidence control every character-identity decision.
 
-Exact next activity: **resume at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together**. PDF 5–74 are closed unless new direct source evidence requires a specific local correction.
+Exact next activity: **resume at PDF 85 / logical printed p.83 with visual source-fidelity and historical-Tamil-glyph verification together**. PDF 5–74 are closed unless new direct source evidence requires a specific local correction.
 
 ## Manthiri Kumari reconciliation checkpoint
 
@@ -127,4 +127,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-The **Ammayappan retrospective historical-glyph backfill is closed**. PDF 5–74 retain their prior visual-fidelity pass and now also pass the explicit historical-glyph gate after source review and deterministic occurrence-specific synchronization. Final dual-gate Tamil verification is therefore **70/105**. The remaining work is PDF **75–109**, where visual fidelity and historical-glyph verification must continue together before any structured derivative, English or reader release can begin.
+The **Ammayappan retrospective historical-glyph backfill is closed**. PDF 5–74 retain their prior visual-fidelity pass and now also pass the explicit historical-glyph gate after source review and deterministic occurrence-specific synchronization. Final dual-gate Tamil verification is therefore **80/105**. The remaining work is PDF **75–109**, where visual fidelity and historical-glyph verification must continue together before any structured derivative, English or reader release can begin.

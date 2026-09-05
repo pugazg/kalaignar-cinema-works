@@ -58,6 +58,9 @@ The synchronization report is `notes/historical-glyph-sync-report.json`. Retaine
 
 Therefore **PDF 5–74 / logical pp.3–72 are now dual-gate verified: 70/105 pages**.
 
+
+Forward dual-gate verification through PDF 84 is recorded by commit `0da97f94e829bef9b387bf59be580933b97ed122` and `notes/dual-gate-sync-report-pdf-075-084.json`.
+
 ## Historical Tamil glyph gate
 
 The minimum known reform-sensitive families to inspect occurrence-by-occurrence are:
@@ -79,7 +82,7 @@ The continuous draft was assembled from the existing PDF 5–14 `full-text.md` p
 - rejected `தாக்குமேடை`: **absent**;
 - visible unresolved first-pass spans: **116**.
 
-This closes only the **canonical Tamil first pass and assembly**. It does not close the remaining PDF 75–109 dual verification.
+This closes only the **canonical Tamil first pass and assembly**. It does not close the remaining PDF 85–109 dual verification.
 
 ## Current status
 
@@ -91,15 +94,15 @@ This closes only the **canonical Tamil first pass and assembly**. It does not cl
 | Canonical Tamil first pass | **draft-complete — 105/105** |
 | Full-text assembly | **complete — PDF 5–109** |
 | Boundary loss/duplication QA | **PASS** |
-| Visual fidelity audit | **70/105 passed — PDF 5–74** |
-| Historical Tamil glyph audit | **70/105 passed — PDF 5–74** |
-| Final dual-gate Tamil verification | **70/105 — PDF 5–74 closed** |
+| Visual fidelity audit | **80/105 passed — PDF 5–84** |
+| Historical Tamil glyph audit | **80/105 passed — PDF 5–84** |
+| Final dual-gate Tamil verification | **80/105 — PDF 5–84 closed** |
 | Retrospective PDF 5–74 glyph backfill | **CLOSED — source review + synchronization complete** |
-| PDF 75–109 | **35 pages pending — visual fidelity + glyph audit together** |
+| PDF 85–109 | **25 pages pending — visual fidelity + glyph audit together** |
 | Scene/dialogue/character derivatives | blocked pending 105/105 dual-gate Tamil |
 | Song/performance authorship gate | not-started |
 | English translation / reader | blocked |
 
 ## Exact next activity
 
-**Resume at PDF 75 / logical printed p.73.** From PDF 75–109, perform the rendered-scan **visual source-fidelity check and the complete historical-Tamil-glyph audit together on every page**. Adjudicate markers **88–116** occurrence-by-occurrence, preserve genuine old/colloquial forms when the source proves them, and never apply global replacement. Do not start structured derivatives, English translation or reader work until both gates reach **105/105** with no unresolved review pages.
+**Resume at PDF 85 / logical printed p.83.** From PDF 85–109, perform the rendered-scan **visual source-fidelity check and the complete historical-Tamil-glyph audit together on every page**. Adjudicate markers **98–116** occurrence-by-occurrence, preserve genuine old/colloquial forms when the source proves them, and never apply global replacement. Do not start structured derivatives, English translation or reader work until both gates reach **105/105** with no unresolved review pages.

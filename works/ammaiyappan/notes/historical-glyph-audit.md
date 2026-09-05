@@ -1,5 +1,15 @@
 # அம்மையப்பன் — Historical Tamil Glyph Audit
 
+## Forward combined-gate checkpoint through PDF 84 — 2026-09-05
+
+- visual fidelity passed: **80/105 — PDF 5–84 / logical pp.3–82**;
+- historical-glyph passed: **80/105 — PDF 5–84 / logical pp.3–82**;
+- final dual-gate verified: **80/105**;
+- PDF 75–84 combined audit: **10/10 PASS**, commit `0da97f94e829bef9b387bf59be580933b97ed122`;
+- markers **88–97 resolved**; open markers now **98–116 (19)**;
+- next page: **PDF 85 / logical printed p.83**;
+- retrospective glyph-backfill range remains **PDF 5–74** and is not redefined by this forward checkpoint.
+
 Controlling source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 Required guide: `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`

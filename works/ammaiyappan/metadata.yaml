@@ -134,7 +134,7 @@ transcription_progress:
     - path: "transcription/parts/pdf-075-084.md"
       pdf_pages: "75-84"
       printed_pages: "73-82"
-      status: draft
+      status: verified-dual-gate
     - path: "transcription/parts/pdf-085-094.md"
       pdf_pages: "85-94"
       printed_pages: "83-92"
@@ -147,30 +147,30 @@ transcription_progress:
       pdf_pages: "105-109"
       printed_pages: "103-107"
       status: draft
-  visual_fidelity_passed_pages: 70
-  historical_glyph_verified_pages: 70
-  verified_pages: 70
+  visual_fidelity_passed_pages: 80
+  historical_glyph_verified_pages: 80
+  verified_pages: 80
   draft_pages: 105
   review_pages: 0
-  open_first_pass_uncertainty_markers: 29
+  open_first_pass_uncertainty_markers: 19
   retrospective_historical_glyph_source_review_complete: true
   retrospective_historical_glyph_sync_complete: true
   retrospective_historical_glyph_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
-  next_pdf_page: 75
-  next_logical_printed_page: 73
-  next_action: "Resume at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together; PDF 5-74 are closed as dual-gate verified after retrospective source review and occurrence-specific synchronization."
+  next_pdf_page: 85
+  next_logical_printed_page: 83
+  next_action: "Resume at PDF 85 / logical printed p.83 with visual source-fidelity and historical-Tamil-glyph verification together; PDF 5-84 are closed as dual-gate verified, while PDF 5-74 remain the completed retrospective glyph-backfill range."
 
 fidelity_audit:
   status: in-progress
   canonical_range_audit_complete: false
-  audited_pages: 70
-  verified_pages: 70
+  audited_pages: 80
+  verified_pages: 80
   review_pages: 0
-  unresolved_source_readings: 29
-  verified_pdf_pages: "5-74"
-  verified_logical_printed_pages: "3-72"
-  next_pdf_page: 75
-  next_logical_printed_page: 73
+  unresolved_source_readings: 19
+  verified_pdf_pages: "5-84"
+  verified_logical_printed_pages: "3-82"
+  next_pdf_page: 85
+  next_logical_printed_page: 83
 
 historical_glyph_audit:
   status: retrospective-complete-forward-combined-pending
@@ -182,16 +182,16 @@ historical_glyph_audit:
   retrospective_source_review_complete: true
   retrospective_sync_complete: true
   retrospective_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
-  formally_verified_pages: 70
-  verified_pdf_pages: "5-74"
-  verified_logical_printed_pages: "3-72"
-  pending_pages: 35
+  formally_verified_pages: 80
+  verified_pdf_pages: "5-84"
+  verified_logical_printed_pages: "3-82"
+  pending_pages: 25
   review_pages: 0
   sync_pending_pages: 0
   retrospective_pdf_pages: "5-74"
   forward_combined_pdf_pages: "75-109"
-  next_pdf_page: 75
-  next_logical_printed_page: 73
+  next_pdf_page: 85
+  next_logical_printed_page: 83
   preserve_controls_passed: "48,62,64,69"
   minimum_known_families:
     - "ணா"
@@ -210,10 +210,10 @@ historical_glyph_audit:
 
 final_tamil_verification:
   policy: visual-fidelity-and-historical-glyph-dual-gate
-  verified_pages: 70
-  verified_pdf_pages: "5-74"
-  verified_logical_printed_pages: "3-72"
-  pending_pages: 35
+  verified_pages: 80
+  verified_pdf_pages: "5-84"
+  verified_logical_printed_pages: "3-82"
+  pending_pages: 25
   review_pages: 0
   total_pages: 105
   status: in-progress
@@ -236,9 +236,9 @@ status:
   canonical_tamil_first_pass: draft-complete-105-of-105
   full_text_assembly: complete-pass
   boundary_qa: pass
-  visual_fidelity_audit: in-progress-70-of-105
-  historical_glyph_audit: in-progress-70-of-105-retrospective-closed
-  final_tamil_verification: in-progress-70-of-105-dual-gate
+  visual_fidelity_audit: in-progress-80-of-105
+  historical_glyph_audit: in-progress-80-of-105-forward-combined
+  final_tamil_verification: in-progress-80-of-105-dual-gate
   scene_derivatives: blocked
   dialogue_index: blocked
   character_index: blocked
@@ -247,4 +247,4 @@ status:
   reader_export: blocked
   reading_room_integration: blocked
 
-next_action: "Resume at PDF 75 / logical printed p.73 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 88-116 occurrence-by-occurrence. PDF 5-74 are closed unless new direct source evidence requires a specific local correction. Structured derivatives remain blocked until both gates reach 105/105."
+next_action: "Resume at PDF 85 / logical printed p.83 with visual source-fidelity and historical-Tamil-glyph verification together; adjudicate markers 98-116 occurrence-by-occurrence. PDF 5-84 are closed unless new direct source evidence requires a specific local correction. Structured derivatives remain blocked until both gates reach 105/105."

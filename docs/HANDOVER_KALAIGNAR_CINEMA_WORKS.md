@@ -434,23 +434,15 @@ Only when the separate Kalaignar Digital Library / Reading Room implementation r
 Work path: `works/ammaiyappan/`  
 Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
-- source intake / whole-scan map: **complete**;
-- canonical first pass: **105/105 draft-complete**, continuous `full-text.md` through PDF 109;
+- canonical first pass: **105/105 draft-complete**;
 - assembly QA: **PASS — 105 anchors / 0 missing / 0 duplicate**;
-- visual source-fidelity: **PDF 5–74 / logical pp.3–72 — 70/105 passed**;
-- historical-Tamil-glyph audit: **PDF 5–74 / logical pp.3–72 — 70/105 passed**;
-- final dual-gate Tamil verified: **70/105**;
-- retrospective PDF 5–74 historical-glyph source review: **CLOSED — 70/70**;
-- retrospective correction-bearing pages: **38**; correction-free pages: **32**;
-- occurrence-specific synchronization: **complete**, commit `880978627191a122f55b50522d112d163faa7e10`;
-- synchronized logical occurrences across canonical/provenance surfaces: **97**;
-- global replacement: **not used**; source whitespace/layout preserved;
-- genuine same-edition controls on PDF **48, 62, 64, 69**: **preserved / PASS**;
-- PDF 75–109 disposition: **35 pages pending — visual fidelity + historical glyph audit together**;
-- open first-pass uncertainty markers: **29 — markers 88–116**;
-- locked source headings remain `பழுதார் வீதி` (PDF 56) and `தூக்குமேடை` (PDF 107; reject `தாக்குமேடை`);
-- historical-glyph authorities: `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`, `works/ammaiyappan/notes/historical-glyph-audit.md`, `works/ammaiyappan/notes/historical-glyph-sync-manifest.json`, `works/ammaiyappan/notes/historical-glyph-sync-report.json`;
-- minimum known audit families: `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`;
+- visual source-fidelity: **80/105 — PDF 5–84 / logical pp.3–82 passed**;
+- historical-Tamil-glyph audit: **80/105 — PDF 5–84 / logical pp.3–82 passed**;
+- final dual-gate Tamil verified: **80/105**;
+- retrospective glyph backfill: **PDF 5–74 CLOSED**;
+- forward PDF 75–84 combined audit: **10/10 PASS**, commit `0da97f94e829bef9b387bf59be580933b97ed122`;
+- remaining range: **PDF 85–109 = 25 pages**;
+- open first-pass uncertainty markers: **19 — markers 98–116**;
 - structured derivatives / English / reader: **blocked pending 105/105 dual-gate verified Tamil**.
 
-**Exact next activity:** resume at **PDF 75 / logical printed p.73**, performing rendered-scan visual source-fidelity verification and the historical-Tamil-glyph audit together; adjudicate markers 88–116 only from source evidence. PDF 5–74 are closed unless new direct source evidence requires a specific local correction.
+**Exact next activity:** resume at **PDF 85 / logical printed p.83**, performing rendered-scan visual source-fidelity verification and the historical-Tamil-glyph audit together; adjudicate markers 98–116 only from source evidence.
