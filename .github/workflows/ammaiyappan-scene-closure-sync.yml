@@ -1,0 +1,59 @@
+name: Ammayappan scene derivative closure sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-scene-closure-sync.yml"
+      - "works/ammaiyappan/scripts/sync_scene_derivative_closure.py"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize scene closure
+        run: python works/ammaiyappan/scripts/sync_scene_derivative_closure.py
+      - name: Validate synchronized gate state
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          meta = Path('works/ammaiyappan/metadata.yaml').read_text(encoding='utf-8')
+          assert 'scene_text_derivatives: complete-verified-63-of-63' in meta
+          assert 'dialogue_index: ready' in meta
+          assert 'status: complete-pass' in meta
+          assert 'audited_pages: 105' in meta
+          assert 'unresolved_source_readings: 0' in meta
+          idx = json.loads(Path('works/ammaiyappan/transcription/index.json').read_text(encoding='utf-8'))
+          assert idx['structured_derivatives']['scene_text_derivatives'] == 'complete-verified-63-of-63'
+          assert idx['structured_derivatives']['dialogue_index'] == 'ready'
+          reg = json.loads(Path('data/works.json').read_text(encoding='utf-8'))
+          w = next(x for x in reg if x.get('id') == 'ammaiyappan')
+          assert w['scene_count'] == 63
+          assert w['dialogue_index'] == 'ready'
+          assert '63/63 complete-verified' in Path('works/ammaiyappan/README.md').read_text(encoding='utf-8')
+          assert 'dialogue index: **READY' in Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
+          print('SCENE CLOSURE STATUS PASS')
+          PY
+          git status --short
+      - name: Commit status synchronization
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/ammaiyappan/PROJECT_HANDOVER.md works/ammaiyappan/README.md works/ammaiyappan/metadata.yaml \
+            works/ammaiyappan/transcription/index.json
+          git commit -m "Close Ammayappan 63 scene derivatives and open dialogue gate [skip ci]"
+          git push origin HEAD:main
