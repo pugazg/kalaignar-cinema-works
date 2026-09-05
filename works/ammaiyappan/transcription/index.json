@@ -60,6 +60,8 @@
     "status": "retrospective-source-review-complete-sync-pending",
     "guide_path": "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "audit_path": "../notes/historical-glyph-audit.md",
+    "sync_manifest_path": "../notes/historical-glyph-sync-manifest.json",
+    "sync_manifest_prepared": true,
     "batch_audit_paths": [
       "../notes/historical-glyph-audit-pdf-025-034.md",
       "../notes/historical-glyph-audit-pdf-035-044.md",
@@ -92,5 +94,5 @@
   },
   "next_pdf_page": 5,
   "next_printed_page": 3,
-  "next_action": "Retrospective historical-glyph source review for PDF 5-74 is complete. Synchronize the 38 correction-bearing pages occurrence-by-occurrence into canonical full-text.md and retained provenance part files, starting at PDF 5, with a local visual recheck of every changed occurrence. Do not resume PDF 75 forward visual-fidelity work until this synchronization closes."
+  "next_action": "Retrospective historical-glyph source review for PDF 5-74 is complete and a page-scoped synchronization manifest has been prepared. Apply the manifest occurrence-by-occurrence to canonical full-text.md and any retained provenance occurrence, starting at PDF 5, then locally recheck every changed occurrence. Do not resume PDF 75 forward visual-fidelity work until this synchronization closes."
 }
