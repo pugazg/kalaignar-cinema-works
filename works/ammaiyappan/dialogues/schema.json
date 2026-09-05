@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ammaiyappan-dialogue-record.schema.json",
+  "title": "Ammayappan dialogue record",
+  "type": "object",
+  "required": [
+    "id",
+    "archive_scene_id",
+    "archive_scene_ordinal",
+    "source_scene_number",
+    "source_heading",
+    "speaker_label",
+    "text",
+    "page_provenance",
+    "source_scene_file"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ammaiyappan-s[0-9]{3}-d[0-9]{3}$"
+    },
+    "archive_scene_id": {
+      "type": "string",
+      "pattern": "^ammaiyappan-s[0-9]{3}$"
+    },
+    "archive_scene_ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 63
+    },
+    "source_scene_number": {
+      "type": "null",
+      "description": "The booklet does not provide a complete printed scene-number system."
+    },
+    "source_heading": {
+      "type": "string",
+      "minLength": 1
+    },
+    "speaker_label": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact source label before the colon; never expanded or normalized."
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Verified utterance text after the source label, including unlabelled continuation text until a hard structural boundary. Cross-page segment texts are joined with one newline."
+    },
+    "page_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "pdf_page",
+          "printed_page"
+        ],
+        "properties": {
+          "pdf_page": {
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 109
+          },
+          "printed_page": {
+            "type": "integer",
+            "minimum": 3,
+            "maximum": 107
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "page_segments": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Present when one immutable utterance contains source text on more than one PDF page.",
+      "items": {
+        "type": "object",
+        "required": [
+          "pdf_page",
+          "printed_page",
+          "text"
+        ],
+        "properties": {
+          "pdf_page": {
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 109
+          },
+          "printed_page": {
+            "type": "integer",
+            "minimum": 3,
+            "maximum": 107
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_scene_file": {
+      "type": "string",
+      "pattern": "^scene-[0-9]{3}\\.md$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "page_provenance": {
+            "minItems": 2
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "page_segments"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": false
+}

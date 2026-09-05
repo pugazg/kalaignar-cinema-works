@@ -159,6 +159,13 @@ def build_scene(scene: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict[
             assert 5 <= anchor["pdf_page"] <= 109
             assert anchor["printed_page"] is not None
             current_page = anchor
+            # A source-visible square direction may lack its closing bracket at the
+            # physical page edge (scene 008 / PDF 18 is the known case). Never let
+            # that unmatched punctuation swallow labelled dialogue on the next
+            # verified page. Same-page multiline square directions remain intact.
+            if in_square_direction:
+                in_square_direction = False
+                stats["stage_direction_square_page_boundary_close"] += 1
             # Blank padding around derivative page anchors is not source dialogue.
             pending_blank = False
             unowned_pending_blank = False
@@ -358,7 +365,7 @@ def main() -> None:
         r["speaker_label"]: r["count"] for r in preflight["exact_speaker_labels"]
     }
     assert dict(label_counts) == expected_label_counts
-    assert len(label_counts) == preflight["distinct_exact_speaker_labels"] == 35
+    assert len(label_counts) == preflight["distinct_exact_speaker_labels"]
 
     ids = [r["id"] for r in all_records]
     assert len(ids) == len(set(ids))

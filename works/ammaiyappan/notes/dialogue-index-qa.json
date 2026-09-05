@@ -1,0 +1,1478 @@
+{
+  "work_id": "ammaiyappan",
+  "phase": "dialogue-index-qa",
+  "status": "review-required",
+  "scene_coverage": "63/63",
+  "explicit_source_labels_expected": 910,
+  "immutable_dialogue_records": 910,
+  "explicit_label_ownership": "910/910 exactly once",
+  "distinct_exact_speaker_labels": 57,
+  "label_distribution_matches_preflight": true,
+  "source_scene_numbers_invented": 0,
+  "speaker_alias_normalizations": 0,
+  "owned_unlabelled_continuation_lines": 217,
+  "unowned_ordinary_source_blocks": 37,
+  "unowned_ordinary_source_lines": 291,
+  "multi_page_dialogue_records": 24,
+  "reviewed_cross_page_candidates": [
+    {
+      "scene_id": "ammaiyappan-s008",
+      "from_pdf": 19,
+      "to_pdf": 20,
+      "speaker_label": "சுக",
+      "dialogue_id": "ammaiyappan-s008-d011",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s021",
+      "from_pdf": 45,
+      "to_pdf": 46,
+      "speaker_label": "முத்தன்",
+      "dialogue_id": "ammaiyappan-s021-d011",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s021",
+      "from_pdf": 46,
+      "to_pdf": 47,
+      "speaker_label": "முத்தாயி",
+      "dialogue_id": "ammaiyappan-s021-d018",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s022",
+      "from_pdf": 49,
+      "to_pdf": 50,
+      "speaker_label": "முத்தன்",
+      "dialogue_id": "ammaiyappan-s022-d026",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s024",
+      "from_pdf": 52,
+      "to_pdf": 53,
+      "speaker_label": "வேதாளம்",
+      "dialogue_id": "ammaiyappan-s024-d001",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s026",
+      "from_pdf": 55,
+      "to_pdf": 56,
+      "speaker_label": "முத்",
+      "dialogue_id": "ammaiyappan-s026-d010",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s027",
+      "from_pdf": 57,
+      "to_pdf": 58,
+      "speaker_label": "முத்தன்",
+      "dialogue_id": "ammaiyappan-s027-d017",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s029",
+      "from_pdf": 61,
+      "to_pdf": 62,
+      "speaker_label": "சுக",
+      "dialogue_id": "ammaiyappan-s029-d022",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s029",
+      "from_pdf": 62,
+      "to_pdf": 63,
+      "speaker_label": "திரி",
+      "dialogue_id": "ammaiyappan-s029-d035",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s033",
+      "from_pdf": 68,
+      "to_pdf": 69,
+      "speaker_label": "வேல",
+      "dialogue_id": "ammaiyappan-s033-d020",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "from_pdf": 71,
+      "to_pdf": 72,
+      "speaker_label": "திரி",
+      "dialogue_id": "ammaiyappan-s035-d014",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "from_pdf": 73,
+      "to_pdf": 74,
+      "speaker_label": "வேதா",
+      "dialogue_id": "ammaiyappan-s035-d034",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "from_pdf": 76,
+      "to_pdf": 77,
+      "speaker_label": "முத்",
+      "dialogue_id": "ammaiyappan-s035-d074",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "from_pdf": 77,
+      "to_pdf": 78,
+      "speaker_label": "முத்தன்",
+      "dialogue_id": "ammaiyappan-s035-d087",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s037",
+      "from_pdf": 80,
+      "to_pdf": 81,
+      "speaker_label": "வேதா",
+      "dialogue_id": "ammaiyappan-s037-d003",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s051",
+      "from_pdf": 89,
+      "to_pdf": 90,
+      "speaker_label": "சுக",
+      "dialogue_id": "ammaiyappan-s051-d002",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s052",
+      "from_pdf": 92,
+      "to_pdf": 93,
+      "speaker_label": "முத்",
+      "dialogue_id": "ammaiyappan-s052-d027",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s056",
+      "from_pdf": 99,
+      "to_pdf": 100,
+      "speaker_label": "பூங்",
+      "dialogue_id": "ammaiyappan-s056-d029",
+      "decision": "same-utterance-continuation-confirmed"
+    },
+    {
+      "scene_id": "ammaiyappan-s058",
+      "from_pdf": 101,
+      "to_pdf": 102,
+      "speaker_label": "முத்",
+      "dialogue_id": "ammaiyappan-s058-d006",
+      "decision": "same-utterance-continuation-confirmed"
+    }
+  ],
+  "reviewed_dash_candidates": [
+    {
+      "scene_id": "ammaiyappan-s011",
+      "pdf_page": 26,
+      "line": 103,
+      "raw": "தவறு...போம்மா-போகிறாயா இல்லையா? உம்...போ...",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s012",
+      "pdf_page": 27,
+      "line": 19,
+      "raw": "வருது—அதைப் படிக்கும் போது நீங்க பொறந்திருப்பீங்க",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s013",
+      "pdf_page": 29,
+      "line": 46,
+      "raw": "பாவம் அனாதை—அவன் எங்கு போவான்.",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s015",
+      "pdf_page": 32,
+      "line": 56,
+      "raw": "களே—அப்பேற்பட்ட தாங்களா இந்த அக்கிரமத்துக்குத்",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s016",
+      "pdf_page": 33,
+      "line": 9,
+      "raw": "இனிமேல்—; அரண்மனையில் மட்டுமல்ல—பாளையக்காரர்",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s016",
+      "pdf_page": 34,
+      "line": 34,
+      "raw": "கிறார்-நானும் கைநீட்டி வாங்கியிருக்கிறேன்-அன்றைக்குக்",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s017",
+      "pdf_page": 35,
+      "line": 35,
+      "raw": "காட்டாகவும் மாற்றுவ—ஏய்!...யாரப்பா நீங்கவெல்லாம், ம்...",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s017",
+      "pdf_page": 36,
+      "line": 92,
+      "raw": "நல்லவன் கேட்டுப் போகாதே—நான் போகிறேன்...பிரசங்",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s018",
+      "pdf_page": 38,
+      "line": 67,
+      "raw": "தொடாதே—வைகுந்தவாசனை தொழு...கையிலே கேட",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s018",
+      "pdf_page": 38,
+      "line": 68,
+      "raw": "யம் ஏந்தாதே—கைலாச நாதனின் திருநீறு ஏந்து...அது",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s026",
+      "pdf_page": 56,
+      "line": 37,
+      "raw": "என் நாடு—எனக்குத் தேன்கூடு—நீரோ தீக்காடு—சாக்காடு வரினும் சரியென்பேனே தவிர, பூக்காட்டில் புகுந்துவிட்ட புயலாம் உன்பின்னால் நான் நடக்க மாட்டேன்! சுந்தர பூமியின் பிரஜை நான்—அதைச் சுரண்டி வாழும் பிரபு நீர்; புத்தி சுவாதீனம் அற்றவனும் கூட ஒத்துக் கொள்ள மாட்டான், புலியைத் தொடர்ந்து மான் நடக்கலாம் என்று உமது புதிய திட்டத்தை—தத்துவத்தை!",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "pdf_page": 71,
+      "line": 22,
+      "raw": "மிகவும் அழகானவர்—உனக்குப் பிடித்தமானவர் என்று கூறுகிறாய்......",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s037",
+      "pdf_page": 81,
+      "line": 16,
+      "raw": "தான் என்ன—சுகதேவ், முத்தாயி இருவரும் தங்கள் காதல் சுற்றுப் பயணத்தை முடித்துக்கொண்டு விரைவில் வந்து விடுவார்கள்.",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "ammaiyappan-s056",
+      "pdf_page": 100,
+      "line": 96,
+      "raw": "நாள்—இரண்டு நாள் உலகத்தைப் பற்றிப் பேசினான். பிறகு உலகைப் படைத்தவனின் உத்தம குணங்களை விளக்கினான். கடவுள் அவதாரங்களும் காதல் லீலைகள் புரிந்ததாக வர்ணித்தான். மாயக் கண்ணன்—மன்மதன்—ரதி தேவி—மகேசன் பார்வதி—வள்ளி மணவாளன்—பிரம்மா. திலோத்தமை—மே னகா விசுவாமித்தான்—இப்படி எல்லாம் புராணக் கதைகள் சொன்னான்—போதை நிறைந்த இவன் வார்த்தைகள் என் புத்தியைத் தடுமாற வைத்து விட்டன...விவரிப்பானேன்—வீழ்ந்தேன்...வீழ்ந்தேன்...தமிழச்சி கட்டிக் காக்கும் கற்பு நெறியிலிருந்து வீழ்ந்தேன்...சந்நியாச சத்தை விட்டுவிடுகிறேன்—சம்சார வாழ்வு தொடங்குகிறேன் என்றான். கடைசியில் கருவிலே முத்தனும் வந்தான்! ஊர் கை கொட்டிச் சிரிக்கும் உன்னை மணந்தால் என்று காரணம் கூறி, என்னை கை விட்டு விட்டான்! முத்தனின் தந்தை இவன்! நான் தான் தாய்!",
+      "decision": "not-a-speaker-label"
+    }
+  ],
+  "zero_dialogue_scenes": [
+    "ammaiyappan-s018",
+    "ammaiyappan-s019",
+    "ammaiyappan-s020",
+    "ammaiyappan-s032",
+    "ammaiyappan-s041",
+    "ammaiyappan-s061"
+  ],
+  "per_scene": [
+    {
+      "scene_id": "ammaiyappan-s001",
+      "scene_file": "scene-001.md",
+      "dialogue_records": 31,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 31,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 38,
+        "explicit_dialogue_start": 31,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_square": 2,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s002",
+      "scene_file": "scene-002.md",
+      "dialogue_records": 17,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 4,
+      "explicit_dialogue_source_lines": 17,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 25,
+        "explicit_dialogue_start": 17,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 4,
+        "source_anchor": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s003",
+      "scene_file": "scene-003.md",
+      "dialogue_records": 10,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 10,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 16,
+        "explicit_dialogue_start": 10,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "separator": 1,
+        "source_anchor": 2,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s004",
+      "scene_file": "scene-004.md",
+      "dialogue_records": 23,
+      "unowned_blocks": 2,
+      "unowned_source_lines": 3,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 23,
+      "structural_source_lines": 7,
+      "classification_counts": {
+        "blank": 37,
+        "explicit_dialogue_start": 23,
+        "heading": 1,
+        "metadata_comment": 3,
+        "separator": 1,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 4,
+        "unowned_ordinary_text": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s005",
+      "scene_file": "scene-005.md",
+      "dialogue_records": 10,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 2,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 10,
+      "structural_source_lines": 5,
+      "classification_counts": {
+        "blank": 19,
+        "explicit_dialogue_start": 10,
+        "heading": 1,
+        "metadata_comment": 3,
+        "separator": 1,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 1,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s006",
+      "scene_file": "scene-006.md",
+      "dialogue_records": 14,
+      "unowned_blocks": 3,
+      "unowned_source_lines": 3,
+      "owned_unlabelled_continuation_lines": 4,
+      "explicit_dialogue_source_lines": 14,
+      "structural_source_lines": 9,
+      "classification_counts": {
+        "blank": 34,
+        "explicit_dialogue_start": 14,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 4,
+        "separator": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 4,
+        "stage_direction_square": 3,
+        "unowned_ordinary_text": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s007",
+      "scene_file": "scene-007.md",
+      "dialogue_records": 32,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 32,
+      "structural_source_lines": 5,
+      "classification_counts": {
+        "blank": 40,
+        "explicit_dialogue_start": 32,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_square": 4
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s008",
+      "scene_file": "scene-008.md",
+      "dialogue_records": 33,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 33,
+      "structural_source_lines": 7,
+      "classification_counts": {
+        "blank": 46,
+        "explicit_dialogue_start": 33,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "separator": 1,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 3,
+        "stage_direction_square_page_boundary_close": 1,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s009",
+      "scene_file": "scene-009.md",
+      "dialogue_records": 8,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 8,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 8,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s010",
+      "scene_file": "scene-010.md",
+      "dialogue_records": 10,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 2,
+      "explicit_dialogue_source_lines": 10,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 15,
+        "explicit_dialogue_start": 10,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 2,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s011",
+      "scene_file": "scene-011.md",
+      "dialogue_records": 35,
+      "unowned_blocks": 3,
+      "unowned_source_lines": 12,
+      "owned_unlabelled_continuation_lines": 30,
+      "explicit_dialogue_source_lines": 35,
+      "structural_source_lines": 12,
+      "classification_counts": {
+        "blank": 57,
+        "explicit_dialogue_start": 35,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 30,
+        "source_anchor": 5,
+        "stage_direction_square": 11,
+        "unowned_ordinary_text": 12
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s012",
+      "scene_file": "scene-012.md",
+      "dialogue_records": 16,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 27,
+      "explicit_dialogue_source_lines": 16,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 20,
+        "explicit_dialogue_start": 16,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 27,
+        "source_anchor": 2,
+        "stage_direction_square": 1,
+        "stage_direction_square_continuation": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s013",
+      "scene_file": "scene-013.md",
+      "dialogue_records": 14,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 15,
+      "explicit_dialogue_source_lines": 14,
+      "structural_source_lines": 7,
+      "classification_counts": {
+        "blank": 20,
+        "explicit_dialogue_start": 14,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 15,
+        "source_anchor": 2,
+        "stage_direction_square": 3,
+        "stage_direction_square_continuation": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s014",
+      "scene_file": "scene-014.md",
+      "dialogue_records": 23,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 2,
+      "owned_unlabelled_continuation_lines": 29,
+      "explicit_dialogue_source_lines": 23,
+      "structural_source_lines": 10,
+      "classification_counts": {
+        "blank": 33,
+        "explicit_dialogue_start": 23,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 29,
+        "source_anchor": 3,
+        "stage_direction_square": 4,
+        "stage_direction_square_continuation": 5,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s015",
+      "scene_file": "scene-015.md",
+      "dialogue_records": 17,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 32,
+      "explicit_dialogue_source_lines": 17,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 26,
+        "explicit_dialogue_start": 17,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 32,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s016",
+      "scene_file": "scene-016.md",
+      "dialogue_records": 9,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 28,
+      "explicit_dialogue_source_lines": 9,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 15,
+        "explicit_dialogue_start": 9,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 28,
+        "source_anchor": 2,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s017",
+      "scene_file": "scene-017.md",
+      "dialogue_records": 3,
+      "unowned_blocks": 3,
+      "unowned_source_lines": 44,
+      "owned_unlabelled_continuation_lines": 4,
+      "explicit_dialogue_source_lines": 3,
+      "structural_source_lines": 6,
+      "classification_counts": {
+        "blank": 33,
+        "explicit_dialogue_start": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 4,
+        "source_anchor": 3,
+        "stage_direction_square": 5,
+        "unowned_ordinary_text": 44
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s018",
+      "scene_file": "scene-018.md",
+      "dialogue_records": 0,
+      "unowned_blocks": 3,
+      "unowned_source_lines": 63,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 0,
+      "structural_source_lines": 13,
+      "classification_counts": {
+        "blank": 26,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 4,
+        "stage_direction_square": 4,
+        "stage_direction_square_continuation": 8,
+        "stage_direction_square_page_boundary_close": 1,
+        "unowned_ordinary_text": 63
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s019",
+      "scene_file": "scene-019.md",
+      "dialogue_records": 0,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 90,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 0,
+      "structural_source_lines": 7,
+      "classification_counts": {
+        "blank": 32,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 4,
+        "stage_direction_square": 2,
+        "stage_direction_square_continuation": 4,
+        "unowned_ordinary_text": 90
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s020",
+      "scene_file": "scene-020.md",
+      "dialogue_records": 0,
+      "unowned_blocks": 9,
+      "unowned_source_lines": 45,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 0,
+      "structural_source_lines": 22,
+      "classification_counts": {
+        "blank": 46,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_square": 10,
+        "stage_direction_square_continuation": 11,
+        "unowned_ordinary_text": 45
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s021",
+      "scene_file": "scene-021.md",
+      "dialogue_records": 28,
+      "unowned_blocks": 2,
+      "unowned_source_lines": 17,
+      "owned_unlabelled_continuation_lines": 3,
+      "explicit_dialogue_source_lines": 28,
+      "structural_source_lines": 5,
+      "classification_counts": {
+        "blank": 52,
+        "explicit_dialogue_start": 28,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 3,
+        "source_anchor": 5,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 1,
+        "stage_direction_square_continuation": 1,
+        "unowned_ordinary_text": 17
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s022",
+      "scene_file": "scene-022.md",
+      "dialogue_records": 48,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 48,
+      "structural_source_lines": 8,
+      "classification_counts": {
+        "blank": 62,
+        "explicit_dialogue_start": 48,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 5,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 5
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s023",
+      "scene_file": "scene-023.md",
+      "dialogue_records": 7,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 7,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s024",
+      "scene_file": "scene-024.md",
+      "dialogue_records": 13,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 13,
+      "structural_source_lines": 4,
+      "classification_counts": {
+        "blank": 21,
+        "explicit_dialogue_start": 13,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 3,
+        "stage_direction_square": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s025",
+      "scene_file": "scene-025.md",
+      "dialogue_records": 7,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 7,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s026",
+      "scene_file": "scene-026.md",
+      "dialogue_records": 13,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 13,
+      "structural_source_lines": 4,
+      "classification_counts": {
+        "blank": 22,
+        "explicit_dialogue_start": 13,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 3,
+        "stage_direction_square": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s027",
+      "scene_file": "scene-027.md",
+      "dialogue_records": 25,
+      "unowned_blocks": 2,
+      "unowned_source_lines": 3,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 25,
+      "structural_source_lines": 12,
+      "classification_counts": {
+        "blank": 45,
+        "explicit_dialogue_start": 25,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 4,
+        "stage_direction_square": 11,
+        "unowned_ordinary_text": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s028",
+      "scene_file": "scene-028.md",
+      "dialogue_records": 11,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 11,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 15,
+        "explicit_dialogue_start": 11,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s029",
+      "scene_file": "scene-029.md",
+      "dialogue_records": 42,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 2,
+      "explicit_dialogue_source_lines": 42,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 50,
+        "explicit_dialogue_start": 42,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 2,
+        "source_anchor": 4,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s030",
+      "scene_file": "scene-030.md",
+      "dialogue_records": 16,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 8,
+      "explicit_dialogue_source_lines": 16,
+      "structural_source_lines": 5,
+      "classification_counts": {
+        "blank": 35,
+        "explicit_dialogue_start": 16,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 8,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 3,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s031",
+      "scene_file": "scene-031.md",
+      "dialogue_records": 7,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 7,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s032",
+      "scene_file": "scene-032.md",
+      "dialogue_records": 0,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 0,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s033",
+      "scene_file": "scene-033.md",
+      "dialogue_records": 30,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 2,
+      "explicit_dialogue_source_lines": 30,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 39,
+        "explicit_dialogue_start": 30,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 2,
+        "source_anchor": 4,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s034",
+      "scene_file": "scene-034.md",
+      "dialogue_records": 4,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 4,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 6,
+        "explicit_dialogue_start": 4,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s035",
+      "scene_file": "scene-035.md",
+      "dialogue_records": 91,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 4,
+      "explicit_dialogue_source_lines": 91,
+      "structural_source_lines": 15,
+      "classification_counts": {
+        "blank": 120,
+        "explicit_dialogue_start": 91,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 4,
+        "source_anchor": 9,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 12,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s036",
+      "scene_file": "scene-036.md",
+      "dialogue_records": 23,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 23,
+      "structural_source_lines": 7,
+      "classification_counts": {
+        "blank": 33,
+        "explicit_dialogue_start": 23,
+        "heading": 1,
+        "metadata_comment": 3,
+        "separator": 1,
+        "source_anchor": 3,
+        "stage_direction_square": 5
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s037",
+      "scene_file": "scene-037.md",
+      "dialogue_records": 16,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 16,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 21,
+        "explicit_dialogue_start": 16,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s038",
+      "scene_file": "scene-038.md",
+      "dialogue_records": 8,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 8,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 12,
+        "explicit_dialogue_start": 8,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s039",
+      "scene_file": "scene-039.md",
+      "dialogue_records": 16,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 16,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 21,
+        "explicit_dialogue_start": 16,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s040",
+      "scene_file": "scene-040.md",
+      "dialogue_records": 17,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 17,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 23,
+        "explicit_dialogue_start": 17,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s041",
+      "scene_file": "scene-041.md",
+      "dialogue_records": 0,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 0,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 5,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_square": 1,
+        "stage_direction_square_page_boundary_close": 1,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s042",
+      "scene_file": "scene-042.md",
+      "dialogue_records": 6,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 6,
+      "structural_source_lines": 4,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 6,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s043",
+      "scene_file": "scene-043.md",
+      "dialogue_records": 1,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 1,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 4,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s044",
+      "scene_file": "scene-044.md",
+      "dialogue_records": 1,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 1,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 6,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s045",
+      "scene_file": "scene-045.md",
+      "dialogue_records": 5,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 5,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 8,
+        "explicit_dialogue_start": 5,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s046",
+      "scene_file": "scene-046.md",
+      "dialogue_records": 6,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 6,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 9,
+        "explicit_dialogue_start": 6,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s047",
+      "scene_file": "scene-047.md",
+      "dialogue_records": 5,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 5,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 8,
+        "explicit_dialogue_start": 5,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s048",
+      "scene_file": "scene-048.md",
+      "dialogue_records": 6,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 6,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 10,
+        "explicit_dialogue_start": 6,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s049",
+      "scene_file": "scene-049.md",
+      "dialogue_records": 3,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 3,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 6,
+        "explicit_dialogue_start": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s050",
+      "scene_file": "scene-050.md",
+      "dialogue_records": 9,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 9,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 14,
+        "explicit_dialogue_start": 9,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 2,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s051",
+      "scene_file": "scene-051.md",
+      "dialogue_records": 4,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 4,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 9,
+        "explicit_dialogue_start": 4,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 2,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s052",
+      "scene_file": "scene-052.md",
+      "dialogue_records": 33,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 33,
+      "structural_source_lines": 9,
+      "classification_counts": {
+        "blank": 47,
+        "explicit_dialogue_start": 33,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 6
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s053",
+      "scene_file": "scene-053.md",
+      "dialogue_records": 17,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 17,
+      "structural_source_lines": 4,
+      "classification_counts": {
+        "blank": 25,
+        "explicit_dialogue_start": 17,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s054",
+      "scene_file": "scene-054.md",
+      "dialogue_records": 2,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 2,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 7,
+        "explicit_dialogue_start": 2,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s055",
+      "scene_file": "scene-055.md",
+      "dialogue_records": 1,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 1,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 3,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s056",
+      "scene_file": "scene-056.md",
+      "dialogue_records": 33,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 4,
+      "explicit_dialogue_source_lines": 33,
+      "structural_source_lines": 9,
+      "classification_counts": {
+        "blank": 52,
+        "explicit_dialogue_start": 33,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 4,
+        "source_anchor": 6,
+        "stage_direction_parenthetical": 5,
+        "stage_direction_square": 3
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s057",
+      "scene_file": "scene-057.md",
+      "dialogue_records": 3,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 3,
+      "structural_source_lines": 1,
+      "classification_counts": {
+        "blank": 5,
+        "explicit_dialogue_start": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s058",
+      "scene_file": "scene-058.md",
+      "dialogue_records": 11,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 4,
+      "explicit_dialogue_source_lines": 11,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 21,
+        "explicit_dialogue_start": 11,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 4,
+        "source_anchor": 3,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s059",
+      "scene_file": "scene-059.md",
+      "dialogue_records": 14,
+      "unowned_blocks": 1,
+      "unowned_source_lines": 1,
+      "owned_unlabelled_continuation_lines": 1,
+      "explicit_dialogue_source_lines": 14,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 25,
+        "explicit_dialogue_start": 14,
+        "heading": 1,
+        "metadata_comment": 4,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 4,
+        "stage_direction_square": 2,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s060",
+      "scene_file": "scene-060.md",
+      "dialogue_records": 7,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 7,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s061",
+      "scene_file": "scene-061.md",
+      "dialogue_records": 0,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 0,
+      "structural_source_lines": 2,
+      "classification_counts": {
+        "blank": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s062",
+      "scene_file": "scene-062.md",
+      "dialogue_records": 4,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 0,
+      "explicit_dialogue_source_lines": 4,
+      "structural_source_lines": 4,
+      "classification_counts": {
+        "blank": 10,
+        "explicit_dialogue_start": 4,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "ammaiyappan-s063",
+      "scene_file": "scene-063.md",
+      "dialogue_records": 12,
+      "unowned_blocks": 0,
+      "unowned_source_lines": 0,
+      "owned_unlabelled_continuation_lines": 5,
+      "explicit_dialogue_source_lines": 12,
+      "structural_source_lines": 3,
+      "classification_counts": {
+        "blank": 18,
+        "explicit_dialogue_start": 12,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 5,
+        "source_anchor": 2,
+        "stage_direction_square": 2
+      }
+    }
+  ],
+  "next_gate": "character/entity index remains BLOCKED until unlabelled-block audit is source-role reviewed and dialogue QA status becomes pass"
+}
