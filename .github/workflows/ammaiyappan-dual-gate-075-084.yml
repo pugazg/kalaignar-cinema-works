@@ -1,0 +1,71 @@
+name: Ammayappan dual-gate PDF 75-84
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/ammaiyappan-dual-gate-075-084.yml"
+      - "works/ammaiyappan/scripts/apply_dual_gate_sync_075_084.py"
+      - "works/ammaiyappan/notes/dual-gate-sync-pdf-075-084.json"
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply PDF 75-84 dual-gate manifest
+        run: python works/ammaiyappan/scripts/apply_dual_gate_sync_075_084.py
+
+      - name: Verify change scope
+        shell: bash
+        run: |
+          git status --short
+          python - <<'PY'
+          import subprocess
+          allowed = {
+              'works/ammaiyappan/transcription/full-text.md',
+              'works/ammaiyappan/transcription/parts/pdf-075-084.md',
+              'works/ammaiyappan/notes/dual-gate-sync-report-pdf-075-084.json',
+          }
+          changed = {
+              line[3:] for line in subprocess.check_output(['git', 'status', '--short'], text=True).splitlines()
+              if line.strip()
+          }
+          extra = changed - allowed
+          if extra:
+              raise SystemExit(f'unexpected changed paths: {sorted(extra)}')
+          required = {
+              'works/ammaiyappan/transcription/full-text.md',
+              'works/ammaiyappan/transcription/parts/pdf-075-084.md',
+              'works/ammaiyappan/notes/dual-gate-sync-report-pdf-075-084.json',
+          }
+          missing = required - changed
+          if missing:
+              raise SystemExit(f'expected changed paths missing: {sorted(missing)}')
+          PY
+
+      - name: Commit verified PDF 75-84 text
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            works/ammaiyappan/transcription/full-text.md \
+            works/ammaiyappan/transcription/parts/pdf-075-084.md \
+            works/ammaiyappan/notes/dual-gate-sync-report-pdf-075-084.json
+          git commit -m "Verify Ammayappan PDF 75-84 dual gate [skip ci]"
+          git push origin HEAD:main
