@@ -1,0 +1,46 @@
+name: Naam first-pass synchronization
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'works/naam/**'
+      - '.github/workflows/naam-first-pass-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Synchronize PDF 5-9 checkpoint
+        run: python works/naam/scripts/sync_first_pass_005_009.py
+
+      - name: Validate JSON
+        run: |
+          python -m json.tool data/works.json >/dev/null
+          python -m json.tool works/naam/transcription/index.json >/dev/null
+
+      - name: Commit synchronized mirrors
+        run: |
+          if git diff --quiet; then
+            echo 'No synchronization changes needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md
+          git commit -m 'Synchronize Naam first pass through PDF 9 [skip ci]'
+          git push
