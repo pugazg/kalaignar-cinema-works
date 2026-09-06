@@ -132,9 +132,9 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 40/63 / 979 units**; next bounded batch **41–45**.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 45/63 / 1,000 units**; next bounded batch **46–50**.
 
-Current active mirrors use the corrected Ammayappan 1,025-unit source authority and scene-40 English checkpoint.
+Current active mirrors use the corrected Ammayappan 1,025-unit source authority and scene-45 English checkpoint.
 
 ---
 
@@ -158,30 +158,33 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` are exact non-colon source forms.
 
-### English through scene 40
+### English through scene 45
 
-- verified scenes: **40/63**;
-- verified units: **979**;
-- dialogue: **840** = **826 explicit + 14 source-role supplements**;
-- stage/action: **136**;
+- verified scenes: **45/63**;
+- verified units: **1,000**;
+- dialogue: **853** = **839 explicit + 14 source-role supplements**;
+- stage/action: **144**;
 - standalone song-reference: **2**;
 - japa: **1**;
-- cross-page: **22**;
+- cross-page: **23**;
 - unique occurrence links: **4** — `ammaiyappan-song-001` through `ammaiyappan-song-004`;
 - frozen Tamil/dialogue/character/song files modified by English: **no**;
 - reader/export: blocked pending complete English.
 
-### Batch 36–40 safeguards
+### Batch 41–45 safeguards
 
-Batch 36–40 is **90/90 verified units**: **80 explicit dialogue + 0 supplements + 9 stage/action + 1 japa**. The sole new cross-page unit is scene 37 `ammaiyappan-s037-d003` across PDF 80→81.
+Batch 41–45 is **21/21 verified units**: **13 explicit dialogue + 0 supplements + 8 stage/action**. The sole new cross-page unit is scene 41 `ammaiyappan-en-s041-u001` across PDF 85→86 / printed 83→84.
 
-- Scene 36 preserves exact `தன` labels; record-aware character identity does not rewrite them. The structural `* * *` is not prose. Merchant dialogue `d008` keeps its embedded child-cry action and `ஆராரோ...`; the closed song inventory does not authorize a separate occurrence there.
-- Scene 38 preserves source-owned embedded actions and the printed `குறவன்` social/community label rather than euphemizing it.
-- Scene 39's Purananuru mention stays a rhetorical reference only; no external poem is imported.
-- Scene 40 `ammaiyappan-song-004` is **character japa, not a soundtrack song**. English represents the opening `முத்தாயி` japa/nishta performance cue once as a `japa` unit and keeps the separately printed labelled `முத்தாயி...முத்தாயி...` token in immutable dialogue `d002`, linked to the same occurrence. No title, lyric body or lyricist is inferred.
-- Frozen scene-40 forms such as `சுக வார்த்தியினைக்`, `இஞ்ஞானி`, `தன் பயனை`, `தச்சு...தச்சு...` and `செய்யவேண்டிய அகமெல்லாம்` are handled by bounded notes/context rather than upstream repair.
+- Scene 41 is action-only; the storm/tree-fall sequence stays one source-owned stage span and no dialogue is invented.
+- Scene 42 preserves the source-elliptical Vedalam `மாயப் பிசாசு` line as dialogue; it is not upgraded into a song/verse occurrence. Exact `வணிகர்` / `வணி` labels and frozen `இல்ல ை` spacing remain source provenance.
+- Scene 43 preserves exact `தன` source ownership rather than rewriting it from downstream character resolution.
+- Scene 44 keeps source-owned `(பார்க்கிறாள்)` inside Sumathi's immutable dialogue record.
+- Scene 45 preserves exact label variants and the source `சீமான் இனம்` class accusation without euphemizing it.
+- The closed source-role layer contributes **0 supplements** in scenes 41–45; the closed song/performance inventory contributes **0 retained occurrences** there.
 
-**Exact next activity:** translate and source-review archival scenes **41–45** from the frozen verified derivatives. The closed source-role layer has **no supplements** in scenes 41–45 and the closed song/performance inventory has **no retained occurrence** in that range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not modify frozen source evidence.
+Earlier safeguards remain active. In particular, scene 40 `ammaiyappan-song-004` remains **character japa, not a soundtrack song**; no title, lyric body or lyricist is inferred.
+
+**Exact next activity:** translate and source-review archival scenes **46–50** from the frozen verified derivatives. The closed source-role layer contains `ammaiyappan-s050-r001` in scene 50; retain it as `source-context-attributed` provenance rather than manufacturing a printed speaker label. The closed song/performance inventory has **no retained occurrence** in scenes 46–50. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not modify frozen source evidence.
 
 ---
 
