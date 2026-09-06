@@ -1,0 +1,34 @@
+{
+  "work_id": "naam",
+  "source": "TVA_BOK_0064201_நாம்.pdf",
+  "status": "partial-first-pass",
+  "canonical_pdf_range": [5, 71],
+  "canonical_pages_expected": 67,
+  "first_pass_complete": false,
+  "first_pass_pages_completed": 5,
+  "first_pass_pdf_range_completed": [5, 9],
+  "draft_pages": 5,
+  "verified_pages": 0,
+  "visual_fidelity_passed_pages": 0,
+  "historical_glyph_checked_pages": 5,
+  "historical_glyph_verified_pages": 0,
+  "review_pages": 5,
+  "open_uncertainty_markers": 2,
+  "current_through_pdf": 9,
+  "current_through_printed_page": 9,
+  "pdf_5_printed_page_number_visible": false,
+  "parts": [
+    {
+      "path": "parts/pdf-005-009.md",
+      "pdf_range": [5, 9],
+      "printed_range": [null, 9],
+      "status": "draft-needs-review",
+      "historical_glyph_status": "checked-first-pass",
+      "open_uncertainties": 2
+    }
+  ],
+  "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
+  "historical_glyph_audit": "../notes/historical-glyph-audit.md",
+  "next_batch_pdf_range": [10, 14],
+  "next_action": "Continue canonical Tamil first-pass transcription with PDF 10-14, preserving source order and page anchors and performing the page-level historical-glyph first-pass. Do not mark pages verified until the later separate visual-fidelity and final historical-glyph gates pass."
+}
