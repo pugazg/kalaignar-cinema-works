@@ -89,18 +89,18 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 45/63 — 1,000/1,000 current units**;
-- current English dialogue coverage: **839 explicit records + 14 source-role supplements = 853 dialogue units**;
-- current English stage/action units: **144**;
+- English translation: **verified through scene 50/63 — 1,035/1,035 current units**;
+- current English dialogue coverage: **868 explicit records + 15 source-role supplements = 883 dialogue units**;
+- current English stage/action units: **149**;
 - current English song-reference units: **2**;
 - current English japa units: **1**;
 - current English cross-page units: **23**;
 - retained source-only occurrence links translated so far: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
 - reader/export: blocked pending complete English.
 
-Batch 41–45 adds **21 verified units**: 13 explicit dialogue links, 0 source-role supplements and 8 stage/action units. Scene 41 is action-only and preserves the storm/tree-fall span as one cross-page unit. Scene 42 keeps the source-elliptical Vedalam line as dialogue instead of manufacturing song/verse evidence. Scene 43 preserves exact `தன`; scene 44 keeps `(பார்க்கிறாள்)` inside Sumathi's immutable dialogue; and scene 45 preserves the source's `சீமான் இனம்` class accusation without euphemism.
+Batch 46–50 adds **35 verified units**: 29 explicit dialogue links, 1 source-role supplement and 5 stage/action units. Scene 47 preserves the `குறும்பு` / `கரும்பு` sound-play. Scene 48 keeps source-owned parenthetical cues inside immutable dialogue and preserves the `வேதாளம் ... முருங்க மரம்` image. Scene 49 preserves liberation rhetoric and frozen forms without Tamil repair. Scene 50 links `ammaiyappan-s050-r001` once as Sukhadev `source-context-attributed` speech without manufacturing a printed label. The closed song/performance inventory has no retained occurrence in scenes 46–50.
 
-**Next:** translate and source-review archival scenes **46–50** from the frozen verified derivatives. The closed source-role layer contains `ammaiyappan-s050-r001` in scene 50; keep it source-context-attributed rather than manufacturing a printed label. The closed song/performance inventory has no retained occurrence in scenes 46–50.
+**Next:** translate and source-review archival scenes **51–55** from the frozen verified derivatives. The closed source-role layer has no supplement and the closed song/performance inventory has no retained occurrence in that range. Preserve exact Tamil speaker/page ownership and keep cross-page units whole.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
