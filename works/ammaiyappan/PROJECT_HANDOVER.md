@@ -62,6 +62,7 @@ Before changing this work, read completely:
 31. `works/ammaiyappan/translations/schema.json`
 32. `works/ammaiyappan/translations/index.json`
 33. `works/ammaiyappan/translations/PILOT_REVIEW.md`
+34. completed `works/ammaiyappan/translations/BATCH_*_REVIEW.md` files
 
 Also inspect any newer work-local audit/status file added after this handover.
 
@@ -119,7 +120,7 @@ Scene layer:
 - dialogue index: **complete-source-role-resolved — 1,025/1,025 downstream units**;
 - character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,025 units**;
 - song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
-- English translation: **pilot-verified — scene 1/63; 34/34 units**;
+- English translation: **verified through scene 5/63 — 108/108 current units**;
 - reader/export: **blocked pending complete English**.
 
 ## Dialogue-index closure — FINAL QA PASS, post-correction authority
@@ -185,20 +186,30 @@ Current files:
 
 - `translations/schema.json` — locked scene/unit schema;
 - `translations/preflight.json` — authority and pilot preflight;
-- `translations/records/scene-001.json` — verified pilot;
+- `translations/records/scene-001.json`–`scene-005.json` — verified translations through scene 5;
 - `translations/PILOT_REVIEW.md` — voice and integrity decisions;
+- `translations/BATCH_002_005_REVIEW.md` — first post-pilot batch QA;
 - `translations/index.json` — active translation checkpoint.
 
-Pilot scene 1 (`மடாலய வெளிப்புறம்`) is **verified at 34/34 units**:
+Cumulative verified checkpoint through scene 5:
 
-- explicit dialogue links: **31/31**;
-- stage/action units: **3**;
-- source-role supplements: **0**;
-- song/performance occurrence links: **0**;
-- cross-page units: **0**.
+- verified scenes: **5/63**;
+- verified units: **108**;
+- dialogue units: **95** = **93 explicit immutable dialogue links + 2 source-role supplements**;
+- stage/action units: **13**;
+- cross-page units: **1**;
+- source-visible song/performance occurrence links so far: **0**;
+- canonical Tamil/dialogue/character/song evidence changed by English: **no**.
+
+Batch 2–5 preserves both exceptional source delimiters in provenance:
+
+- scene 3 `பூங் ; ...` → `ammaiyappan-s003-r001`;
+- scene 5 `திரு; ...` → `ammaiyappan-s005-r001`.
+
+The scene-4 Maykainatha discourse crossing PDF 10–11 remains one logical English unit with both page-provenance entries.
 
 Translation must preserve archive scene ID and PDF/printed-page provenance, exact Tamil speaker labels, source-role origin, structural distinctions, rhetoric/register, and the closed song/performance evidence. It must not alter canonical Tamil or immutable dialogue evidence.
 
 ## Exact next activity
 
-> **Translate and source-review archival scenes 2–5 using the verified scene-1 pilot as the voice template. Preserve scene 3 `பூங் ;` and scene 5 `திரு;` as source-explicit non-colon dialogue provenance, keep cross-page source units whole, and synchronize the translation index/README/QA after the batch.**
+> **Translate and source-review archival scenes 6–10. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation. Use `songs/inventory.json` for those source structures, translate only what the booklet actually prints, preserve dialogue/source-role provenance, and do not reconstruct absent lyrics or verse.**
