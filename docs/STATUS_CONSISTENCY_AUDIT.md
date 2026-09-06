@@ -1,6 +1,6 @@
 # Kalaignar Cinema Works — Status Consistency Audit
 
-Audit date: 2026-09-05  
+Audit date: 2026-09-06  
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`
 
@@ -10,7 +10,9 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS — Ammayappan canonical Tamil is closed at 105/105 under both visual-fidelity and historical-Tamil-glyph gates, with 0 review pages and 0 unresolved canonical markers. Scene-text derivatives are now the active unblocked phase.**
+**PASS for Ammayappan's source/structured authority — canonical Tamil is 105/105 dual-gate complete-verified; scene derivatives are 63/63; dialogue authority is 1,009 explicit + 16 source-role supplements = 1,025 downstream units; character/entity coverage is 1,025/1,025 and 62/62 exact labels. English translation is active with a verified scene-1 pilot (34/34 units).**
+
+The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct பூங்காவனம் dialogue unit. Its semicolon is preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
 ## Current work matrix
 
@@ -22,20 +24,62 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | canonical Tamil **105/105 complete-verified** | scenes **63/63 complete-verified; boundary QA PASS** | dialogue READY | character blocked |
+| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **pilot verified — scene 1/63 / 34 units** | reader blocked pending complete English |
 
-## Ammayappan canonical + scene derivative closure
+## Ammayappan current checkpoint
+
+### Frozen source/Tamil authority
 
 - canonical Tamil: **105/105 dual-gate complete-verified**;
 - PDF 10 post-fidelity correction: `மாடம்` — commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`;
-- canonical boundary inventory: **63 source-visible headings**;
+- canonical source-visible boundary inventory: **63**;
 - scene derivatives: **63/63 complete-verified**;
 - boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
 - canonical PDF representation: **105/105 — PDF 5–109**;
-- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`;
-- next gate: **dialogue index READY**.
+- unresolved canonical markers / review pages: **0 / 0**.
 
-Repository-wide scene-closure status is **PASS** when this section, work-local mirrors, root README and `data/works.json` agree on 63/63 scenes and dialogue READY.
+### Dialogue and character authority
+
+- explicit colon-labelled records: **1,009**;
+- source-role supplements: **16**;
+- downstream dialogue units: **1,025**;
+- exact source labels: **62**;
+- unresolved source-role blocks: **0**;
+- alias normalization in source dialogue evidence: **0**;
+- source punctuation normalization: **0**;
+- character/entity index: **26/26 verified entities**;
+- exact-label coverage: **62/62**;
+- downstream dialogue-unit coverage: **1,025/1,025**;
+- record-aware labels: `முத்`, `தன`;
+- `முத்`: **80 முத்தன் / 97 முத்தாயி**;
+- `தன`: **1 தனபதி / 9 தனவணிகர்**.
+
+The earlier 1,024-unit / 15-supplement checkpoint is historical. Active current-status surfaces must use 1,025 / 16.
+
+### Song/performance gate
+
+- candidate hits reviewed: **64/64**;
+- retained source-visible occurrences: **5**;
+- unresolved authorship occurrences: **3**;
+- source-attributed literary quotation occurrences: **1**;
+- authorship-not-applicable japa occurrences: **1**;
+- complete named song lyric blocks printed: **0**;
+- standalone Tamil lyric files: **0**;
+- external item-level evidence used: **no**.
+
+### English translation gate
+
+- schema/preflight: established;
+- source numbering invented: **0**;
+- pilot scene: `ammaiyappan-s001` (`மடாலய வெளிப்புறம்`), PDF 5–7 / printed pp.3–5;
+- verified pilot units: **34/34**;
+- explicit dialogue links: **31/31**;
+- stage/action units: **3**;
+- source-role supplements in pilot: **0**;
+- cross-page pilot units: **0**;
+- canonical Tamil/dialogue/character/song evidence changed by English: **no**.
+
+**Next translation batch:** archival scenes **2–5**.
 
 ## Manthiri Kumari reconciliation checkpoint
 
@@ -115,4 +159,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan canonical Tamil is **complete-verified — 105/105 dual-gate PASS**. The canonical source layer is closed unless new direct scan evidence reopens a specific occurrence. The next repository phase is **scene-text derivatives**, followed by dialogue and character indexing under the normal gate order.
+Ammayappan's canonical Tamil and structured source-derived layers are **closed and synchronized to the corrected 1,025-unit authority**. English translation is active under the verified scene-sharded schema. The current bounded activity is **translate and source-review archival scenes 2–5**, then update translation QA/index/status without changing frozen Tamil evidence.
