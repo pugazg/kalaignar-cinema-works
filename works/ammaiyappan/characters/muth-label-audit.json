@@ -1,0 +1,2620 @@
+{
+  "work_id": "ammaiyappan",
+  "phase": "character-ambiguity-audit-muth",
+  "status": "review-ready",
+  "exact_label": "முத்",
+  "record_count": 177,
+  "scene_count": 27,
+  "scenes": [
+    {
+      "scene": 1,
+      "heading": "மடாலய வெளிப்புறம்",
+      "muth_count": 6,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 6,
+        "சுகதேவ்": 8,
+        "நண்": 1,
+        "பலதேவர்": 1,
+        "மாய்கை": 9,
+        "முத்": 6
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s001-d002",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஒன்றுமில்லை...",
+          "pages": [
+            {
+              "pdf_page": 5,
+              "printed_page": 3
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s001-d005",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "இப்போது நீங்கள் காணப்போகும்...இந்தப் படம் என் லட்சியக் கனவு...இன்ப விடிவெள்ளி...இரண்டொரு வாரங்களுக்கு முன் நீங்கள் பார்த்த படம் இந்தப் படத்தின் இன்னொரு பிரதி—முற்றுப் பெறாத சித்திரம்...",
+          "pages": [
+            {
+              "pdf_page": 5,
+              "printed_page": 3
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s001-d007",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஆமாம் முன்னது கை தவறிப்போய் களவாடப்பட்டு விட்டது....! நான் வேறு எழுதிக் கொண்டேன். அது...இது...",
+          "pages": [
+            {
+              "pdf_page": 5,
+              "printed_page": 3
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s001-d009",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "உம்; இல்லாததைப்பற்றிப் பேசவானேன்.",
+          "pages": [
+            {
+              "pdf_page": 6,
+              "printed_page": 4
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s001-d011",
+          "prev_label": "சுக",
+          "next_label": "நண்",
+          "text_preview": "ஊர் கூடம்.",
+          "pages": [
+            {
+              "pdf_page": 6,
+              "printed_page": 4
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s001-d013",
+          "prev_label": "நண்",
+          "next_label": "மாய்கை",
+          "text_preview": "இது என்ன சுந்திர பூமியா சுகமாயிருக்க? சுகவாசி இதோ இந்த மடத்துக்குள்ளே இருக்கிறார் மாய்கைநாத சாமியார்.",
+          "pages": [
+            {
+              "pdf_page": 6,
+              "printed_page": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "heading": "குதிரைக் கொட்டடி",
+      "muth_count": 5,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "திரு": 4,
+        "முத்": 5,
+        "வீர": 2
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s005-d001",
+          "prev_label": null,
+          "next_label": "திரு",
+          "text_preview": "ஏன்...அவனை அடிக்கிறீர்கள்......",
+          "pages": [
+            {
+              "pdf_page": 13,
+              "printed_page": 11
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s005-d003",
+          "prev_label": "திரு",
+          "next_label": "திரு",
+          "text_preview": "பசி பொறுக்காமல் இந்தப் பசிப் பையன் கொஞ்சம் கொள்ளை சாப்பிட்டு விட்டால் அது திருட்டா? உலகத்தில் யார் யாரோ எதை எதையோ திருடுகிறார்கள்...",
+          "pages": [
+            {
+              "pdf_page": 13,
+              "printed_page": 11
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s005-d005",
+          "prev_label": "திரு",
+          "next_label": "திரு",
+          "text_preview": "நான் கொடுக்காவிட்டாலும். அந்தக் காலம் வந்துதான் போகிறது. இந்தா தம்பி நீ ஓடிப்போ......",
+          "pages": [
+            {
+              "pdf_page": 13,
+              "printed_page": 11
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s005-d008",
+          "prev_label": "வீர",
+          "next_label": "வீர",
+          "text_preview": "யாரது! குமார ராஜாவா? அது சரி!......",
+          "pages": [
+            {
+              "pdf_page": 14,
+              "printed_page": 12
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s005-d010",
+          "prev_label": "வீர",
+          "next_label": "திரு",
+          "text_preview": "இளவரசன், குமாரராஜன்!...இவன் வேறல்ல புதுப் புது பட்டமா அள்ளி வீசுகிறான்......எப்பா கொஞ்சம் தகுதி பார்த்து கொட்டப்பா பட்டத்தை; ஏது...இப்ப என்னா வாள் பயிற்சி கத்துகிட்டு பழுதாருக்கு விடுதலை வாங்கித் தரப் போகிறாருக்கும்......பெரிய வீராதி வீரா...சரி...சரி...போ...இத",
+          "pages": [
+            {
+              "pdf_page": 14,
+              "printed_page": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "heading": "வாள் பயிற்சிக் கூடம்",
+      "muth_count": 4,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "(திகிலுடன்) முத்": 1,
+        "சுக": 9,
+        "பூங்": 3,
+        "முத்": 4
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s006-d002",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஓ...வாள் வீரனா விடலாம்.",
+          "pages": [
+            {
+              "pdf_page": 14,
+              "printed_page": 12
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s006-d004",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "அடடே தவறி வந்துவிட்டது. பரவா இல்லை...வாள் வீரர் அனுமாரைப் பற்றி கேள்விப் பட்டிருப்பீர்களே?......",
+          "pages": [
+            {
+              "pdf_page": 14,
+              "printed_page": 12
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s006-d007",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "இருங்கள் இது போர் செய்யும் இலக்கணமே அல்ல......",
+          "pages": [
+            {
+              "pdf_page": 15,
+              "printed_page": 13
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s006-d013",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "யுவராணி என் ஒரு மாதிரி இருக்கிறீர்கள்...",
+          "pages": [
+            {
+              "pdf_page": 16,
+              "printed_page": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 8,
+      "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+      "muth_count": 6,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 3,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 7,
+        "திரி": 15,
+        "திரிசங்கு": 1,
+        "திருசங்கு": 2,
+        "முத்": 6,
+        "முத்தாயி": 3
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s008-d002",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "என்னப்பா?......",
+          "pages": [
+            {
+              "pdf_page": 19,
+              "printed_page": 17
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s008-d004",
+          "prev_label": "திரி",
+          "next_label": "சுக",
+          "text_preview": "வணக்கம் !...",
+          "pages": [
+            {
+              "pdf_page": 19,
+              "printed_page": 17
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s008-d020",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "என்னப்பா! போய்விட்டாரா அந்த மனிதர்?...",
+          "pages": [
+            {
+              "pdf_page": 20,
+              "printed_page": 18
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s008-d022",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "இல்லை...இல்லை...மன்னிக்கவும்; தவறிச் சொல்லி விட்டேன்...",
+          "pages": [
+            {
+              "pdf_page": 20,
+              "printed_page": 18
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s008-d024",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "இளவரசர்...ம்...மோசமான வாலிபன்...",
+          "pages": [
+            {
+              "pdf_page": 20,
+              "printed_page": 18
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s008-d026",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "உணர முடியாத அளவுக்கு இந்த உத்தமரின் அறிவு ஊசி முனையைவிடச் சிறியது போலும்! இல்லையா அப்பா?...",
+          "pages": [
+            {
+              "pdf_page": 21,
+              "printed_page": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 14,
+      "heading": "குதிரைக் கொட்டடி",
+      "muth_count": 8,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 6,
+        "திரி": 2,
+        "பூங்": 7,
+        "முத்": 8
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s014-d002",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "இளையராணி! என்னவேண்டும் தங்களுக்கு?...",
+          "pages": [
+            {
+              "pdf_page": 29,
+              "printed_page": 27
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d004",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "ஆமாம் ராணி...ஏதோ ஆத்திரத்தில்....",
+          "pages": [
+            {
+              "pdf_page": 29,
+              "printed_page": 27
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d006",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "(திகைப்பு; மெளனம்...)",
+          "pages": [
+            {
+              "pdf_page": 30,
+              "printed_page": 28
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d008",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "அம்மணி!....",
+          "pages": [
+            {
+              "pdf_page": 30,
+              "printed_page": 28
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d010",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "இளையராணி!...",
+          "pages": [
+            {
+              "pdf_page": 30,
+              "printed_page": 28
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d017",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "நன்றி...",
+          "pages": [
+            {
+              "pdf_page": 30,
+              "printed_page": 28
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d019",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஏன்!...இனிமேல் சொல்ல 'ஓ' கிடை\nயாதா?...மாலையைப் பிய்த்து விடுவேன் என்று சொல்லுமே!",
+          "pages": [
+            {
+              "pdf_page": 31,
+              "printed_page": 29
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s014-d023",
+          "prev_label": "பூங்",
+          "next_label": null,
+          "text_preview": "என் வாழ்க்கையே குழப்பமாகி விட்டது...",
+          "pages": [
+            {
+              "pdf_page": 31,
+              "printed_page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 15,
+      "heading": "பூங்காவனம் அறை",
+      "muth_count": 8,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "குரல்": 1,
+        "பூங்": 8,
+        "முத்": 8
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s015-d003",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "ஏன் கூப்பிட்டீர்கள்?...",
+          "pages": [
+            {
+              "pdf_page": 32,
+              "printed_page": 30
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d005",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "வேண்டாம் இங்கேயே இருக்கிறேன்...",
+          "pages": [
+            {
+              "pdf_page": 32,
+              "printed_page": 30
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d007",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "ஆ!...",
+          "pages": [
+            {
+              "pdf_page": 32,
+              "printed_page": 30
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d009",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "இளையராணி! உங்கள் தகுதிக்கு இது அழ\nகல்ல...கல்யாணமே வேண்டாம் என்று கன்னிப் பெண்\nணை வாழ சங்கணம் கட்டிய நீங்கள் கண்ணு வாராய் என்று\nஎன்னை அழைக்கிறீர்கள்?...",
+          "pages": [
+            {
+              "pdf_page": 32,
+              "printed_page": 30
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d011",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "போதும் யுவராணி! ஞாபகமில்லையா உங்க\nளுக்கு?...என் தாயார் என்னைத்தனியே விட்டுவிட்டு அரண்\nமனை வேலைக்கே கவனிக்கும் போது—சிறுவனை விளை\nயாடிய என்னை சீவி சிங்காரித்து வாரி அணைத்து மகிழ்வீர்\nகளே—அப்பேற்பட்ட தாங்களா இந்த அக்கிரமத்துக்குத்\nதுணிந்து விட்டீர்கள்...",
+          "pages": [
+            {
+              "pdf_page": 32,
+              "printed_page": 30
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d013",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "கேட்க வேண்டாம்...கோமானின் தங்கை\nநீங்கள்...ம்...நானோ குதிரைக்காரன் ... ராஜாபர்த்துரஹரி\nகதைதான் அம்மா கேள்விப்பட்டிருக்கிறேன்...இது அதை\nவிட வேடிக்கையாக இருக்கிறது...",
+          "pages": [
+            {
+              "pdf_page": 33,
+              "printed_page": 31
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d015",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "சரி சரி...இனியும் நான் இங்கே இருந்தால்,\nஅடங்கிக் கிடந்து இவ்வாறு அலமோதும் உங்கள் ஆசை\nவெள்ளத்திலே எங்கேயோ ஒரு ஆபத்தான மூலைக்கு\nஅடித்துச் செல்லப்படுவேன்...ம்...இந்த அடங்காத\nபிரியத்தை உங்களே அடைய முடியாமல் தவித்து பிரமச்\nசரிய விரதம் பூண்டிருக்கும்...வேங்கைநாட்டு ",
+          "pages": [
+            {
+              "pdf_page": 33,
+              "printed_page": 31
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s015-d017",
+          "prev_label": "பூங்",
+          "next_label": null,
+          "text_preview": "கூடாது...பூங்காவனத்திலே புயல் புகுந்து விட்\nடது, அதை எதிர்த்து நிற்க என்னால் முடியாதம்மா முடி\nயாது; வருகிறேன்!",
+          "pages": [
+            {
+              "pdf_page": 33,
+              "printed_page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 17,
+      "heading": "அஞ்சல் மனை",
+      "muth_count": 7,
+      "full_muthan_count": 4,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "நண்பன்": 1,
+        "முத்": 7,
+        "முத்தன்": 4,
+        "வே": 7,
+        "வேதாளம்": 3
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s017-d007",
+          "prev_label": "வேதாளம்",
+          "next_label": "வே",
+          "text_preview": "ஒரு வேலையும் கிடைக்கவில்லை...",
+          "pages": [
+            {
+              "pdf_page": 35,
+              "printed_page": 33
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s017-d009",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "கொஞ்சம் பொறுங்கள்.",
+          "pages": [
+            {
+              "pdf_page": 35,
+              "printed_page": 33
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s017-d011",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "திருடவா?...",
+          "pages": [
+            {
+              "pdf_page": 36,
+              "printed_page": 34
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s017-d013",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "பலதேவரை ஒரேயடியாக அடித்து வீழ்த்தி\nவிடலாம்; இல்லையா?...",
+          "pages": [
+            {
+              "pdf_page": 36,
+              "printed_page": 34
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s017-d015",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "என்ன? படையிலா?!...",
+          "pages": [
+            {
+              "pdf_page": 36,
+              "printed_page": 34
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s017-d017",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "போதும்...போதும்...நம்மை அடிமைப்\nபடுத்தி இருக்கும் ஆதிக்கக்காரரின் சேணையிலே நான். சே!\nஅதைவிட சாகலாம்!",
+          "pages": [
+            {
+              "pdf_page": 36,
+              "printed_page": 34
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s017-d019",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "சாமியார்! செய்வார். சண்டையில் சாகப்\nபோவது அவர் அல்லவே...அதனால்!",
+          "pages": [
+            {
+              "pdf_page": 36,
+              "printed_page": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 24,
+      "heading": "தென்றல் மாளிகை",
+      "muth_count": 3,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "முத்": 3,
+        "வே": 1,
+        "வேதா": 5,
+        "வேதாளம்": 1,
+        "வேலழ": 2,
+        "வேலழகன்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s024-d008",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "ஐயா! எனக்கு ஒரு உதவி செய்கிறீர்களா?",
+          "pages": [
+            {
+              "pdf_page": 53,
+              "printed_page": 51
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s024-d010",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "என்னிடம் கொடுக்கச் சொல்லி நூறு பொன் வரும். அதை வாங்கி கட்டி எப்படியாவது என்னை விடுதலை செய்து விடுங்கள்.",
+          "pages": [
+            {
+              "pdf_page": 53,
+              "printed_page": 51
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s024-d012",
+          "prev_label": "வேதா",
+          "next_label": "வே",
+          "text_preview": "கட்டாயம் வரும்.",
+          "pages": [
+            {
+              "pdf_page": 54,
+              "printed_page": 52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 26,
+      "heading": "தென்றல் மாளிகை",
+      "muth_count": 5,
+      "full_muthan_count": 1,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "முத்": 5,
+        "முத்தன்": 1,
+        "வேதா": 1,
+        "வேல": 5,
+        "வேலழகன்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s026-d003",
+          "prev_label": "வேலழகன்",
+          "next_label": "வேல",
+          "text_preview": "என்ன! ஏன் இப்படி கொடுமை புரிகிறீர்கள்? உங்கள் அபராதத் தொகையை வாங்கிக்கொண்டு என்னை விடுதலை செய்யவேண்டியதுதானே நியாயம்?",
+          "pages": [
+            {
+              "pdf_page": 55,
+              "printed_page": 53
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s026-d005",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "என்னை இப்படி சிறையிலே அடைத்து வைத்தால் எப்படி செலுத்த முடியும் உங்கள் அபராதத்தை? வெளியில் விடுங்கள்...விரைவில் கொண்டு வருகிறேன்.",
+          "pages": [
+            {
+              "pdf_page": 55,
+              "printed_page": 53
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s026-d007",
+          "prev_label": "வேல",
+          "next_label": "வேதா",
+          "text_preview": "(வேதாளத்திடம்) என்ன ஆயிற்று? கிடைத்ததா? வந்து சேர்ந்ததா?",
+          "pages": [
+            {
+              "pdf_page": 55,
+              "printed_page": 53
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s026-d010",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "நடக்கமாட்டேன்! ரத்தச் சகதியிலே தங்கள் தலைகளே செந்தாமரை மொட்டுகளாக ஆக்கிவிடத் தீர்மானித்து விட்ட விடுதலை வீரர்கள், ஆதிக்க வெறியர்களின் பின்னால் ஆடுபோல் நடக்கமாட்டார்கள்! பழுதார்\nஎன் நாடு—எனக்குத் தேன்கூடு—நீரோ தீக்காடு—சாக்காடு வரினும் சரியென்பேனே தவிர, பூக்காட",
+          "pages": [
+            {
+              "pdf_page": 55,
+              "printed_page": 53
+            },
+            {
+              "pdf_page": 56,
+              "printed_page": 54
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s026-d012",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "என்ன?",
+          "pages": [
+            {
+              "pdf_page": 56,
+              "printed_page": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 27,
+      "heading": "பழுதார் வீதி",
+      "muth_count": 7,
+      "full_muthan_count": 7,
+      "full_muthayi_count": 1,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "குறு": 3,
+        "திரிசங்கு": 1,
+        "முத்": 7,
+        "முத்தன்": 7,
+        "முத்தாயி": 1,
+        "வேதா": 3,
+        "வேல": 4,
+        "வேலழகன்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s027-d006",
+          "prev_label": "வேதா",
+          "next_label": "குறு",
+          "text_preview": "அய்யா...அய்யா!...நீங்கள் வேங்கை நாட்டு வீரர்தானே?",
+          "pages": [
+            {
+              "pdf_page": 57,
+              "printed_page": 55
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s027-d008",
+          "prev_label": "குறு",
+          "next_label": "குறு",
+          "text_preview": "அவரை விடுதலை செய்து விட்டார்களா?...",
+          "pages": [
+            {
+              "pdf_page": 57,
+              "printed_page": 55
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s027-d010",
+          "prev_label": "குறு",
+          "next_label": "குறு",
+          "text_preview": "முத்தன்!",
+          "pages": [
+            {
+              "pdf_page": 57,
+              "printed_page": 55
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s027-d012",
+          "prev_label": "குறு",
+          "next_label": "முத்தன்",
+          "text_preview": "ஆ!...என்ன?...",
+          "pages": [
+            {
+              "pdf_page": 57,
+              "printed_page": 55
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s027-d014",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "அத்தான்!...",
+          "pages": [
+            {
+              "pdf_page": 57,
+              "printed_page": 55
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s027-d016",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "அத்தான்...அத்தான்!...என்னைத்தான் இப்படிச் செய்து விட்டார்கள்?...நான் அவ்வளவு சொல்லியும் கேட்கவில்லையே!...ஐயோ, அத்தான்...இந்த அலங்கோலக் காட்சியை நான் காணவேண்டுமென்று எத்தனை நாளாகக் காத்திருந்தீர்கள் அத்தான்?...",
+          "pages": [
+            {
+              "pdf_page": 57,
+              "printed_page": 55
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s027-d024",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தாயி",
+          "text_preview": "அத்தான்...அத்தான்...அய்யா!...நல்வர்களே, அவரை விட்டுவிடுங்கள்! என் இருதயத்தின் நட்சத்திரத்தை எடுத்துக்கொண்டு போகாதீர்கள்!...சாவாலும் பிரிக்க முடியாத எங்களன்பிற்கு என்ன பாவம் காணப்போகிறீர்கள்? வேண்டாம்; என் உயிரை எனக்குத் திருப்பிக் கொடுத்து விடுங்கள்! அய்யா...அ",
+          "pages": [
+            {
+              "pdf_page": 59,
+              "printed_page": 57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 28,
+      "heading": "திரிசங்கு வீடு",
+      "muth_count": 4,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 2,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சும": 4,
+        "சுமதி": 1,
+        "முத்": 4,
+        "முத்தாயி": 2
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s028-d003",
+          "prev_label": "சுமதி",
+          "next_label": "சும",
+          "text_preview": "பாவி! வேண்டுமென்று கேட்டிருந்தால் நூறு என்ன, ஐநூறு பொன் எப்படியாவது தேடித் தந்திருப்பேனே......",
+          "pages": [
+            {
+              "pdf_page": 59,
+              "printed_page": 57
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s028-d005",
+          "prev_label": "சும",
+          "next_label": "சும",
+          "text_preview": "இன்னும் புரியும்படியாக சொல்லவேண்டுமா? நன்றாக நடிக்கிறாய், நாடகக்காரி! கேவலம் நூறு பொன்னுக்கு ஆசைப்பட்டு கூறு போட்டு விட்டாயே எங்கள் காதல்!",
+          "pages": [
+            {
+              "pdf_page": 59,
+              "printed_page": 57
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s028-d007",
+          "prev_label": "சும",
+          "next_label": "சும",
+          "text_preview": "கிடைக்கவில்லை-கிடைத்ததை வாயில் போட்டுக் கொண்டாய்.",
+          "pages": [
+            {
+              "pdf_page": 60,
+              "printed_page": 58
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s028-d009",
+          "prev_label": "சும",
+          "next_label": "சும",
+          "text_preview": "பேசியது போதும். பேசியும் பலனில்ல. போ...போய்விடு...உம்...போய்விடு பாவி...போ......",
+          "pages": [
+            {
+              "pdf_page": 60,
+              "printed_page": 58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 29,
+      "heading": "சுகதேவன் மாளிகை",
+      "muth_count": 10,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 10,
+        "சுகதேவ்": 1,
+        "திரி": 13,
+        "திரிசங்கு": 2,
+        "முத்": 10,
+        "வேதா": 5,
+        "வேதாளம்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s029-d024",
+          "prev_label": "திரிசங்கு",
+          "next_label": "திரி",
+          "text_preview": "காரணமா கேட்கிறீர்கள்?",
+          "pages": [
+            {
+              "pdf_page": 62,
+              "printed_page": 60
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d026",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "அப்பா! போதும்! [அழுகிறாள்]",
+          "pages": [
+            {
+              "pdf_page": 62,
+              "printed_page": 60
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d028",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "மல்லிகைக் கொடியின் வேரை அறுத்து விட்டு அதன் மலருக்கு நீர் ஊற்றி என்னப்பா பயன்?",
+          "pages": [
+            {
+              "pdf_page": 62,
+              "printed_page": 60
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d030",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "ஒளிக்குப் பக்கத்திலே இருந்தாலும் நிழல் இருளாகத்தானே இருக்கும். உற்சாக நிகழ்ச்சிகள் எவ்வளவு இருந்தாலும் என் உடைந்த உள்ளத்திற்கு மருந்தேது தந்தையே?",
+          "pages": [
+            {
+              "pdf_page": 62,
+              "printed_page": 60
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d032",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "அப்பா! அப்பா!",
+          "pages": [
+            {
+              "pdf_page": 62,
+              "printed_page": 60
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d034",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "என்னப்பா சொல்கிறீர்கள்?",
+          "pages": [
+            {
+              "pdf_page": 62,
+              "printed_page": 60
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d036",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "ஆகா! அவர்கள் சுயநலம் என் சோகத்தைத் துடைத்துவிட்டது.",
+          "pages": [
+            {
+              "pdf_page": 63,
+              "printed_page": 61
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d038",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "வந்துவிடுவாரா அவர்?",
+          "pages": [
+            {
+              "pdf_page": 63,
+              "printed_page": 61
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d040",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "அப்பா! என்னையே என்னால் நம்பமுடியவில்லையே! இன்பமான செய்தியைக் கொண்டுவந்த உங்களை வணங்குகிறேன். நான் ஏதாவது வேகத்தில் பேசியிருந்தால் என்னை மன்னித்து விடுங்கள் அப்பா.",
+          "pages": [
+            {
+              "pdf_page": 63,
+              "printed_page": 61
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s029-d042",
+          "prev_label": "திரி",
+          "next_label": null,
+          "text_preview": "வேறு என்ன வேலையப்பா அதைவிட எனக்கு?",
+          "pages": [
+            {
+              "pdf_page": 63,
+              "printed_page": 61
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 30,
+      "heading": "பாசறை சமையல் கூடம்",
+      "muth_count": 6,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "முத்": 6,
+        "வீரன்": 1,
+        "வீரன் 1": 1,
+        "வீரன் 2": 1,
+        "வீரன் 3": 1,
+        "வீரன் 4": 1,
+        "வீரர்கள்": 3,
+        "வேல": 3
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s030-d002",
+          "prev_label": "வீரன் 1",
+          "next_label": "வீரன் 2",
+          "text_preview": "உம்...பழுதாரில் சுதந்திர ராஜ்யத்தை சமைக்க வேண்டிய நீங்கள்...பகைவனின் ஊரில் உணவு சமைத்துக் கொண்டிருக்கிறீர்கள்......",
+          "pages": [
+            {
+              "pdf_page": 63,
+              "printed_page": 61
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s030-d005",
+          "prev_label": "வீரன் 3",
+          "next_label": "வீரன் 4",
+          "text_preview": "பெற்ற நேரத்தை குறைகூறாதே தம்பி!...நாமெல்லாம்—விடுதலை வீரர்களாய் வாழவேண்டும் என்ற கவலை நமது தாய்மார்களுக்கு ஏற்பட்டவில்லை...உம்...அதெல்லாம் புறநானூற்றுத் தாய்மார்கள் வாழ்ந்த காலத்தில்...",
+          "pages": [
+            {
+              "pdf_page": 64,
+              "printed_page": 62
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s030-d007",
+          "prev_label": "வீரன் 4",
+          "next_label": "வீரர்கள்",
+          "text_preview": "தமிழகத்துத் தாய்மார்களின் வீரக்காதை அது...அதைப்பற்றி எளிய நடையில் நானே எழுதியவைத் திருக்கிறேன் ஒரு கவிதை...சொல்கிறேன் கேள்....\n\nகுடிசைகாண்! ஒருபுறத்தில் கூரிய வேல், வாள் வரிசையாய் அமைத்திருக்கும். வையத்தை பிடிப்பதற்கும் வெம்பகை முடிப்பதற்கும் வடித்து வைத்த படை",
+          "pages": [
+            {
+              "pdf_page": 64,
+              "printed_page": 62
+            },
+            {
+              "pdf_page": 65,
+              "printed_page": 63
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s030-d009",
+          "prev_label": "வீரர்கள்",
+          "next_label": "வீரர்கள்",
+          "text_preview": "இப்போது சொல்லுங்கள்...மானமும், வீரமும் எவ்வளவு மதிப்பு வாய்ந்தவை...அவைகளை மாற்றானின் காலடியில் மிதிக்க விடலாமா?",
+          "pages": [
+            {
+              "pdf_page": 65,
+              "printed_page": 63
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s030-d011",
+          "prev_label": "வீரர்கள்",
+          "next_label": "வீரன்",
+          "text_preview": "அப்படியானால் பழுதாரை விடுவிக்க என் தலைமையில் ஒன்று சேருங்கள்.",
+          "pages": [
+            {
+              "pdf_page": 65,
+              "printed_page": 63
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s030-d015",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "சிறைச்சாலை!...புரட்சிக் கவிதை புரியாதே உமக்கு!...அறிவீர்...மாங்குயில் கூவிடும் பூஞ்சோலை...எமை மாட்ட நினைக்கும் சிறைச்சாலை...",
+          "pages": [
+            {
+              "pdf_page": 66,
+              "printed_page": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 33,
+      "heading": "தனபதி மாளிகை",
+      "muth_count": 4,
+      "full_muthan_count": 1,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "குறும்பன்": 1,
+        "முத்": 4,
+        "முத்தன்": 1,
+        "வீரன்": 1,
+        "வேதா": 7,
+        "வேதாளம்": 1,
+        "வேல": 14,
+        "வேலழகன்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s033-d019",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "அய்யா! திடமென்று மாறிவிட்டீர்களே...நான் திக்கற்றவன் என்பதை எப்படி உணர்ந்தீர்கள்?......தெய்வமும் வந்து சொல்லி இருக்க முடியாதே!",
+          "pages": [
+            {
+              "pdf_page": 68,
+              "printed_page": 66
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s033-d021",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "ஆகா! சிறப்பான கருத்து இந்த இடத்திலேயும் முளைக்கிறது, சேற்றிலே செந்தாமரை முளைப்பதைப் போல...",
+          "pages": [
+            {
+              "pdf_page": 69,
+              "printed_page": 67
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s033-d023",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "உண்மையாகவா?...",
+          "pages": [
+            {
+              "pdf_page": 69,
+              "printed_page": 67
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s033-d025",
+          "prev_label": "வேல",
+          "next_label": "வேதாளம்",
+          "text_preview": "மிகவும் நன்றி உடையவனய்யா நான்...",
+          "pages": [
+            {
+              "pdf_page": 69,
+              "printed_page": 67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 34,
+      "heading": "பாசறை சமையல் கூடம்",
+      "muth_count": 1,
+      "full_muthan_count": 1,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "முத்": 1,
+        "முத்தன்": 1,
+        "வீரன்": 2
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s034-d003",
+          "prev_label": "வீரன்",
+          "next_label": "வீரன்",
+          "text_preview": "நீங்களும் எப்படியாவது இங்கிருந்து தப்பி என்னிடம் வந்து விடுங்கள். பிறகு எல்லோரும் சேர்ந்து பழுதார் விடுதலைக்கு பாடுபடுவோம். வாட்டமா நான்?",
+          "pages": [
+            {
+              "pdf_page": 70,
+              "printed_page": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 35,
+      "heading": "கண்ணகி மாளிகை",
+      "muth_count": 35,
+      "full_muthan_count": 7,
+      "full_muthayi_count": 3,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 14,
+        "சுகதேவ்": 1,
+        "திரி": 18,
+        "திரிசங்கு": 2,
+        "முத்": 35,
+        "முத்தன்": 7,
+        "முத்தாயி": 3,
+        "வேதா": 12
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s035-d003",
+          "prev_label": "திரிசங்கு",
+          "next_label": "திரி",
+          "text_preview": "ஆமாம் ...திருமணத்திற்கான ஏற்பாடுகள் எல்லாம்...",
+          "pages": [
+            {
+              "pdf_page": 70,
+              "printed_page": 68
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d005",
+          "prev_label": "திரி",
+          "next_label": "முத்",
+          "text_preview": "ஆமாம்....ஆமாம்...அந்த சுகதேவ...",
+          "pages": [
+            {
+              "pdf_page": 71,
+              "printed_page": 69
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d006",
+          "prev_label": "முத்",
+          "next_label": "சுக",
+          "text_preview": "அப்பா...என்ன உளறுகிறீர்கள்...!",
+          "pages": [
+            {
+              "pdf_page": 71,
+              "printed_page": 69
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d012",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "உங்கள் மனத்திற்கு தாப்படும் விலை! உங்கள் மகள் மீது வீசப்படும் வலை!...",
+          "pages": [
+            {
+              "pdf_page": 71,
+              "printed_page": 69
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d016",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "பல முறை உனக்கு நான் இளநீர் வழங்கி இருக்கிறேன்; ஒரு முறை உன் தலையில் விழுகிறேன் என்று தென்னைமரம் சொல்வதற்கும், நீங்கள் சொல்வதற்கும் என்னப்பா வித்தியாசம்?...",
+          "pages": [
+            {
+              "pdf_page": 72,
+              "printed_page": 70
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d029",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "ஊர் சிரிக்கிறது; நான் அழுகிறேன்...",
+          "pages": [
+            {
+              "pdf_page": 73,
+              "printed_page": 71
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d031",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "மீள்வதற்கு வாய்ப்பா!...",
+          "pages": [
+            {
+              "pdf_page": 73,
+              "printed_page": 71
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d033",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "என்ன சொல்கிறீர்கள்?....",
+          "pages": [
+            {
+              "pdf_page": 73,
+              "printed_page": 71
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d035",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "ஆ!...என் முத்தன் விடுதலை யடைந்து விட்டாரா?",
+          "pages": [
+            {
+              "pdf_page": 74,
+              "printed_page": 72
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d037",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "அய்யா! நீங்கள் பல்லாண்டு வாழ்க!",
+          "pages": [
+            {
+              "pdf_page": 74,
+              "printed_page": 72
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d039",
+          "prev_label": "வேதா",
+          "next_label": "வேதா",
+          "text_preview": "அவர் வருவாரா?...",
+          "pages": [
+            {
+              "pdf_page": 74,
+              "printed_page": 72
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d042",
+          "prev_label": "முத்தாயி",
+          "next_label": "முத்",
+          "text_preview": "வேதாளம்! விஷப்பாம்பு அவன்! முத்தாயி, எப்படியாவது சுகதேவனை நீ இங்கே வரும்படி செய்ய வேண்டும்.",
+          "pages": [
+            {
+              "pdf_page": 74,
+              "printed_page": 72
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d043",
+          "prev_label": "முத்",
+          "next_label": "முத்",
+          "text_preview": "சுகதேவனா? ஏன்?",
+          "pages": [
+            {
+              "pdf_page": 74,
+              "printed_page": 72
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d044",
+          "prev_label": "முத்",
+          "next_label": "திரி",
+          "text_preview": "ஏன் தெரியுமா? நாம் இப்போது வெளியேறுவது என்பதென்றால் சாதாரணமல்ல, நம்மைச்சுற்றி ஆபத்து காத்திருக்கிறது!",
+          "pages": [
+            {
+              "pdf_page": 74,
+              "printed_page": 72
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d046",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "தூக்கம் வரவில்லையப்பா!... யோசனையில் ஆழ்ந்திருக்கிறேன்.",
+          "pages": [
+            {
+              "pdf_page": 75,
+              "printed_page": 73
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d048",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "அந்த வேதாளம் வந்து எனக்கு அறிவு புகட்டிவிட்டார்...இத்தனை நாளும் புத்திகெட்டுப் போய் அந்த முத்தனை நம்பி இருந்தேன்...",
+          "pages": [
+            {
+              "pdf_page": 75,
+              "printed_page": 73
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d050",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "அப்பா ஒரு உதவி செய்வீர்களா?...",
+          "pages": [
+            {
+              "pdf_page": 75,
+              "printed_page": 73
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d052",
+          "prev_label": "திரி",
+          "next_label": "திரி",
+          "text_preview": "காலையில் எனக்கும் சுகதேவருக்கும் திருமணம், இப்போது நான் அவரை சந்தித்து சில விஷயங்கள் பேசவேண்டும்! அவரைப் பார்க்க வேண்டும் என்று மனமும் துடிக்கிறது...",
+          "pages": [
+            {
+              "pdf_page": 75,
+              "printed_page": 73
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d056",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஒரு சேதி பேசவேண்டும்.",
+          "pages": [
+            {
+              "pdf_page": 75,
+              "printed_page": 73
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d058",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "இந்தக் கிண்டல் எல்லாம் செய்யக் கூடாது...",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d060",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஆண் பெண் சமத்துவத்தைப்பற்றி தங்கள் அபிப்ராயம் என்ன?",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d062",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஆகா...சுருக்கமாகச் சொல்லிவிட்டார்கள், சிக்கலான பெரும் விஷயத்தை!...உங்களேஅடை யும் பாக்கியம் பெற்ற பெண் அதிர்ஷ்டசாலிதான்—இன்னும் ஒன்று கேட்க வேண்டும்.",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d064",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "அதை நான் கேட்டு நீங்கள் உடனே சொல்ல முடியாது. நீண்ட நேரம் பேசவேண்டும்.",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d066",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "அருமையான நிலவு — இருவரும் ஆற்றங்கரைப் பக்கம் போய் சுவையான க்கதைகள் பேசுவோமே!",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d068",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "உஸ்...தொட்டுக்கூடாது...அதெல்லாம் நாளைக்கு! வாருங்கள் போகலாம்...",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d070",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஆணும் பெண்ணும் சமம் என்கிறீர்களே, நீங்கள் பெண் உடையிலும், நான் ஆண் உடையிலும்...",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d072",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "பார்த்தீர்களா! பெண் என்றால் இழிவு...",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d074",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "யாருக்கும் தெரியாமல் ரகசியமாகத்தானே போகப் போகிறோம்? நீங்களும் நானும் ஓர் உயிரும் ஈருடலும் என்ற போது, நீங்கள் என் ஆடைகளையும் நான்\nஉங்கள் ஆடைகளையும் அணிந்து கொள்வதில் என்ன தவறு?...",
+          "pages": [
+            {
+              "pdf_page": 76,
+              "printed_page": 74
+            },
+            {
+              "pdf_page": 77,
+              "printed_page": 75
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d079",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்",
+          "text_preview": "ஆ!...",
+          "pages": [
+            {
+              "pdf_page": 77,
+              "printed_page": 75
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d080",
+          "prev_label": "முத்",
+          "next_label": "முத்தன்",
+          "text_preview": "அதுதான்—நமது அடுத்த திட்டம் என்ன?",
+          "pages": [
+            {
+              "pdf_page": 77,
+              "printed_page": 75
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d082",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "என்ன இது?...",
+          "pages": [
+            {
+              "pdf_page": 77,
+              "printed_page": 75
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d084",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "சரி...கல்யாணமாகிவிட்டது...இனிமேல்?...",
+          "pages": [
+            {
+              "pdf_page": 77,
+              "printed_page": 75
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d086",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "குடும்பம், காட்டிலேயே நடத்துவதா?...",
+          "pages": [
+            {
+              "pdf_page": 77,
+              "printed_page": 75
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d088",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "உம்...",
+          "pages": [
+            {
+              "pdf_page": 78,
+              "printed_page": 76
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s035-d090",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "குறும்பு!",
+          "pages": [
+            {
+              "pdf_page": 78,
+              "printed_page": 76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 36,
+      "heading": "தனபதி மாளிகை",
+      "muth_count": 6,
+      "full_muthan_count": 1,
+      "full_muthayi_count": 1,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 2,
+        "தன": 8,
+        "தனபதி": 2,
+        "பறையடிப்பவன்": 1,
+        "முத்": 6,
+        "முத்தன்": 1,
+        "முத்தாயி": 1,
+        "வணி": 1,
+        "வேல": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s036-d010",
+          "prev_label": "தன",
+          "next_label": "தன",
+          "text_preview": "ஏதாவது வேலை தேடறதுக்காக...",
+          "pages": [
+            {
+              "pdf_page": 80,
+              "printed_page": 78
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s036-d012",
+          "prev_label": "தன",
+          "next_label": "தன",
+          "text_preview": "அப்போ!...நாங்க புருஷன் பெஞ்சாதி சாமி...",
+          "pages": [
+            {
+              "pdf_page": 80,
+              "printed_page": 78
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s036-d016",
+          "prev_label": "தன",
+          "next_label": "தன",
+          "text_preview": "ஓ!...",
+          "pages": [
+            {
+              "pdf_page": 80,
+              "printed_page": 78
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s036-d018",
+          "prev_label": "தன",
+          "next_label": "தன",
+          "text_preview": "குழந்தைகூட என்கிட்ட தாவுதே...வாடா கண்ணு!......",
+          "pages": [
+            {
+              "pdf_page": 80,
+              "printed_page": 78
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s036-d020",
+          "prev_label": "தன",
+          "next_label": "தன",
+          "text_preview": "சரி...",
+          "pages": [
+            {
+              "pdf_page": 80,
+              "printed_page": 78
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s036-d022",
+          "prev_label": "தன",
+          "next_label": "முத்தன்",
+          "text_preview": "என் பேரு பொன்னி...அவரு...",
+          "pages": [
+            {
+              "pdf_page": 80,
+              "printed_page": 78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 39,
+      "heading": "தனவணிகர் வீடு",
+      "muth_count": 7,
+      "full_muthan_count": 1,
+      "full_muthayi_count": 4,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "தோழ 2": 1,
+        "தோழன் 1": 1,
+        "தோழன் 2": 1,
+        "தோழன் 3": 1,
+        "முத்": 7,
+        "முத்தன்": 1,
+        "முத்தாயி": 4
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s039-d005",
+          "prev_label": "தோழன் 3",
+          "next_label": "தோழ 2",
+          "text_preview": "மக்கள் எங்கெங்கே தங்கள் கவனத்தை செலுத்துகிறார்களோ, அத்தகைய எல்லாத் துறைகளிலும் நமது கருத்தைப் பரப்ப வேண்டும்...",
+          "pages": [
+            {
+              "pdf_page": 83,
+              "printed_page": 81
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s039-d007",
+          "prev_label": "தோழ 2",
+          "next_label": "முத்",
+          "text_preview": "நீங்கள் போங்கள்...மற்றவைகளை கவனிக்க நான் வருகிறேன்...",
+          "pages": [
+            {
+              "pdf_page": 83,
+              "printed_page": 81
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s039-d008",
+          "prev_label": "முத்",
+          "next_label": "முத்தாயி",
+          "text_preview": "முத்தாயி...!",
+          "pages": [
+            {
+              "pdf_page": 83,
+              "printed_page": 81
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s039-d010",
+          "prev_label": "முத்தாயி",
+          "next_label": "முத்தாயி",
+          "text_preview": "விடுதலைப் போருக்கு ஆரம்பம்! அவர்கள் என் தோழர்கள்...பழுதார் விடுதலையடைய இது போல ஒரு படையே சேர்க்கிறேன்...",
+          "pages": [
+            {
+              "pdf_page": 83,
+              "printed_page": 81
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s039-d012",
+          "prev_label": "முத்தாயி",
+          "next_label": "முத்தாயி",
+          "text_preview": "பைத்தியம்! பயமா?...புறநானூறு சிரிக்கப் போகிறது உன்னைப் பார்த்து!...",
+          "pages": [
+            {
+              "pdf_page": 83,
+              "printed_page": 81
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s039-d014",
+          "prev_label": "முத்தாயி",
+          "next_label": "முத்தாயி",
+          "text_preview": "பிறகென்ன-விடுதலை வீரனுக்கு விருந்தா வைப்பார்கள்?...இத பார்...இந்தக் குழந்தைகூட என்னையே பார்க்கிறது...டேய்!...இதுபோல நமக்கு ஒன்று....",
+          "pages": [
+            {
+              "pdf_page": 83,
+              "printed_page": 81
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s039-d016",
+          "prev_label": "முத்தாயி",
+          "next_label": null,
+          "text_preview": "ஆ...அப்படியா? நீ சொல்லவில்லையே என்னிடம்...",
+          "pages": [
+            {
+              "pdf_page": 84,
+              "printed_page": 82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 45,
+      "heading": "தனவணிகர் வீடு",
+      "muth_count": 2,
+      "full_muthan_count": 1,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "தன": 1,
+        "தனவணிகர்": 1,
+        "முத்": 2,
+        "முத்தன்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s045-d003",
+          "prev_label": "தனவணிகர்",
+          "next_label": "தன",
+          "text_preview": "பொன்னி எங்கே?",
+          "pages": [
+            {
+              "pdf_page": 87,
+              "printed_page": 85
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s045-d005",
+          "prev_label": "தன",
+          "next_label": null,
+          "text_preview": "மறந்து விட்டீர்கள்! எங்களைப் போன்ற ஏழைகள் மட்டுமல்ல; உங்கள் சீமான் இனம், இரக்க மனமும் ஒரு பண்பையே மறந்து பலநாளாயிற்று.",
+          "pages": [
+            {
+              "pdf_page": 87,
+              "printed_page": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 47,
+      "heading": "வீட்டிற்குள்",
+      "muth_count": 2,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 1,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சும": 2,
+        "முத்": 2,
+        "முத்தாயி": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s047-d003",
+          "prev_label": "சும",
+          "next_label": "சும",
+          "text_preview": "கல்யாணமானதும் உன்னுடைய குறும்புப் பேச்செல்லாம் எங்கேயோ ஓடி ஒளிந்துவிட்டதே...",
+          "pages": [
+            {
+              "pdf_page": 88,
+              "printed_page": 86
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s047-d005",
+          "prev_label": "சும",
+          "next_label": null,
+          "text_preview": "உம், சரி சரி...உன்னுடையவனைப் பற்றியே பேசிக் கொண்டிருக்காதே...கொஞ்சம் என்னுடைய வரையும் கவனி...",
+          "pages": [
+            {
+              "pdf_page": 88,
+              "printed_page": 86
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 50,
+      "heading": "சுமதி வீடு",
+      "muth_count": 4,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுகதேவ்": 1,
+        "முத்": 4,
+        "வே": 5
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s050-d002",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "யாரய்யா நீங்கள்?...என்ன வேண்டும்?...",
+          "pages": [
+            {
+              "pdf_page": 89,
+              "printed_page": 87
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s050-d004",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "ஏன்!...என்ன விசேஷம்?",
+          "pages": [
+            {
+              "pdf_page": 89,
+              "printed_page": 87
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s050-d006",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "ஆ!...அத்தான்!...",
+          "pages": [
+            {
+              "pdf_page": 89,
+              "printed_page": 87
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s050-d008",
+          "prev_label": "வே",
+          "next_label": "வே",
+          "text_preview": "அய்யா!...அவர் எங்கே இருக்கிறார்? என்னை அழைத்துப் போங்கள்...",
+          "pages": [
+            {
+              "pdf_page": 89,
+              "printed_page": 87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 51,
+      "heading": "கோவில் மண்டபம்",
+      "muth_count": 1,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 3,
+        "முத்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s051-d003",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "ஆ! எங்கே?",
+          "pages": [
+            {
+              "pdf_page": 90,
+              "printed_page": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 52,
+      "heading": "சத்திரம்",
+      "muth_count": 13,
+      "full_muthan_count": 2,
+      "full_muthayi_count": 1,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "குறும்பன்": 1,
+        "முத்": 13,
+        "முத்தன்": 2,
+        "முத்தாயி": 1,
+        "வேதா": 1,
+        "வேல": 14,
+        "வேலழகன்": 1
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s052-d002",
+          "prev_label": "வேதா",
+          "next_label": "வேலழகன்",
+          "text_preview": "...ஆ!...",
+          "pages": [
+            {
+              "pdf_page": 90,
+              "printed_page": 88
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d004",
+          "prev_label": "வேலழகன்",
+          "next_label": "வேல",
+          "text_preview": "தளபதி வேலழகன்! நாடு காக்க வேண்டிய நீங்கள் இப்படி நடந்தொரு நாடோடியாய் விட்டீர்கள்...வேண்டாம். நான் உங்கள் சகோதரி...",
+          "pages": [
+            {
+              "pdf_page": 90,
+              "printed_page": 88
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d006",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "சீ!...விடு என்னை! வெட்கங்கெட்டவனே!...விஷப்புயலே! உன் காமச் சூறாவளியிலே கவிழ்ந்து விடும் மரமல்ல நான்...",
+          "pages": [
+            {
+              "pdf_page": 90,
+              "printed_page": 88
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d008",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "நெருங்காதே!...",
+          "pages": [
+            {
+              "pdf_page": 90,
+              "printed_page": 88
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d010",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "கொன்று விடுவாய்! அவ்வளவுதானே?...சாவுக்குப் பயப்பட்டமாட்டேன்! சாவு உன்னை விடக் கோரமானதா? இல்லை...இல்லை...ஒருக்காலுமில்லை!",
+          "pages": [
+            {
+              "pdf_page": 91,
+              "printed_page": 89
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d012",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "என்னை விட்டுவிடு, அக்கிரமக்காரா!...",
+          "pages": [
+            {
+              "pdf_page": 91,
+              "printed_page": 89
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d014",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "வீணே அழிந்து போகாதே; விலகி நில்...",
+          "pages": [
+            {
+              "pdf_page": 91,
+              "printed_page": 89
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d016",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "வேலும் வாளும் தாங்கி போரிடும் வீரத்திலவனே! ஒரு பெண்ணிடத்தில் இப்படிக் கோழைத்தனமாக நடந்து கொள்ளாதே...",
+          "pages": [
+            {
+              "pdf_page": 92,
+              "printed_page": 90
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d018",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "விட்டுவிடு என்னை...",
+          "pages": [
+            {
+              "pdf_page": 92,
+              "printed_page": 90
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d020",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "சீ! (அறைகிறாள்)",
+          "pages": [
+            {
+              "pdf_page": 92,
+              "printed_page": 90
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d025",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "என் வாழ்க்கையோடு விளையாடுகிற உன் னோடு விளையாடுகிறேன்!",
+          "pages": [
+            {
+              "pdf_page": 92,
+              "printed_page": 90
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d027",
+          "prev_label": "வேல",
+          "next_label": "வேல",
+          "text_preview": "ஆஹா ஹா!...உன் சுட்டுவிரல் என்னை சுட்டு தியுமா?—இல்ல, நான் தான் என்ன கண்ணைப் பார்த்திராமா சுக்குநூறாக்கிவிட...பயமுறுத்தி வாழ்ந்த\nகாலம் மலையேறி விட்டது படைத்தலைவரே! இனி பண்புடையோர் மட்டுமே வாழ்வதற்கு இடமளிக்கும் பகுத்தறிவுக் காலம் வந்து கொண்டிருக்கிறது. என் பகை ",
+          "pages": [
+            {
+              "pdf_page": 92,
+              "printed_page": 90
+            },
+            {
+              "pdf_page": 93,
+              "printed_page": 91
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s052-d032",
+          "prev_label": "முத்தாயி",
+          "next_label": "குறும்பன்",
+          "text_preview": "முத்தாயி!...",
+          "pages": [
+            {
+              "pdf_page": 93,
+              "printed_page": 91
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 53,
+      "heading": "வெளியே",
+      "muth_count": 7,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுக": 10,
+        "முத்": 7
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s053-d004",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "(மூர்ச்சை தெளிந்து) நீங்கள் சோலைக் குற்றவாளியா?",
+          "pages": [
+            {
+              "pdf_page": 94,
+              "printed_page": 92
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s053-d006",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "அய்யோ என் காதல் தெய்வமே! உங்கள் கைகளிலே...",
+          "pages": [
+            {
+              "pdf_page": 94,
+              "printed_page": 92
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s053-d008",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "பாவி! நீ ஒருத்தன் வந்து விட்டாயா?...",
+          "pages": [
+            {
+              "pdf_page": 94,
+              "printed_page": 92
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s053-d010",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "இப்போது நீ என்ன சொல்கிறாய்?",
+          "pages": [
+            {
+              "pdf_page": 94,
+              "printed_page": 92
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s053-d012",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "அட அயோக்கியா!...வேதனையின் விளிம்பிலே நிற்கும் என்னிடம் வீரகாப்பியம் பேசவந்து விட்டாயா, நீ ஒருவன்? இதுதானா உன் மாளிகையில் கற்றுக் கொடுத்த பாடம்? போ...வெளியே! உம் போகிறாயா இல்லையா?...",
+          "pages": [
+            {
+              "pdf_page": 94,
+              "printed_page": 92
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s053-d014",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "சக்ரவர்த்தித் திருமகன்! உம்...உனக்குக் கண்ணில்லை...மனித உணர்ச்சி இல்லை...பெண் பழி பொல்லாது என்பார்களே. அதை நீ படித்ததில்லை?...",
+          "pages": [
+            {
+              "pdf_page": 94,
+              "printed_page": 92
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s053-d016",
+          "prev_label": "சுக",
+          "next_label": "சுக",
+          "text_preview": "உம்...நான் தயாராக இருக்கிறேன்...இந்த சரீரம்தானே உனக்கு வேண்டும்?...என் மேனியின் மெறுகிலேதானே நீ மயங்கிவிட்டாய்?.....உம்...அழகைப் பார்த்துக் கொள் என்னை! யாரோ சொன்ன வார்த்தை உடல்தான் அழுக்குப்பட்டது; உள்ளம் அழுக்குப்படவில்லை என்று! அப்படியல்ல நான்...என் கற்பை உன",
+          "pages": [
+            {
+              "pdf_page": 95,
+              "printed_page": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 58,
+      "heading": "சுமதி வீடு",
+      "muth_count": 3,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 2,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "சுகதேவ்": 1,
+        "பூங்": 2,
+        "பூங்காவனம்": 1,
+        "மாய்": 2,
+        "முத்": 3,
+        "முத்தாயி": 2
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s058-d004",
+          "prev_label": "பூங்",
+          "next_label": "பூங்",
+          "text_preview": "தொடாதீர்கள் என்னை!",
+          "pages": [
+            {
+              "pdf_page": 101,
+              "printed_page": 99
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s058-d006",
+          "prev_label": "பூங்",
+          "next_label": "மாய்",
+          "text_preview": "மகன்! இன்னொரு முறை சொல்லாதீர்கள்...உங்கள் மாளிகை கெளரவம் மண்ணாகிவிடும். வெட்கமில்லா உங்களுக்கு...முத்தனை உங்கள் மகன் என்று சொல்லிக் கொள்ள?...தாயாம் தாய்!...நாயைப் போல் மகன் நடத்தப் பட்டபோது வாயை மூடிக் கொண்டிருந்த தாய்!...பசியால் மகன் வாடிய சேதியை ருசியோடு கேட",
+          "pages": [
+            {
+              "pdf_page": 101,
+              "printed_page": 99
+            },
+            {
+              "pdf_page": 102,
+              "printed_page": 100
+            },
+            {
+              "pdf_page": 103,
+              "printed_page": 101
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s058-d008",
+          "prev_label": "மாய்",
+          "next_label": "மாய்",
+          "text_preview": "சாமியார் நடையில் பேசும் தத்துவார்த்தமா?...சொர்க்கலோகத்தில் சுகமாக இருப்பார் என் முத்தன் என்கிறீரா?...பூவுடல்தான் அழியும்; புகழுடல் அழியாது என்று கூறுகிறீரா!...",
+          "pages": [
+            {
+              "pdf_page": 103,
+              "printed_page": 101
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 59,
+      "heading": "சிறைச்சாலை",
+      "muth_count": 7,
+      "full_muthan_count": 8,
+      "full_muthayi_count": 0,
+      "muthaa_count": 0,
+      "all_scene_labels": {
+        "முத்": 7,
+        "முத்தன்": 8
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s059-d001",
+          "prev_label": null,
+          "next_label": "முத்தன்",
+          "text_preview": "அத்தான்!...",
+          "pages": [
+            {
+              "pdf_page": 103,
+              "printed_page": 101
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s059-d003",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "அத்தான்! நம்மை யாரும் பிரிக்கவே முடியாது—நானும் உங்கள் பின்னாலேயே வருவேன்......",
+          "pages": [
+            {
+              "pdf_page": 104,
+              "printed_page": 102
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s059-d005",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "எதுவானாலும் கேட்கிறேன்...",
+          "pages": [
+            {
+              "pdf_page": 104,
+              "printed_page": 102
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s059-d007",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "ஆ!...நான் வாழ முடியாதவள் அத்தான்—இனி நான் வாழக்கூடாது...",
+          "pages": [
+            {
+              "pdf_page": 104,
+              "printed_page": 102
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s059-d009",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "புலிக் காட்டில் மான் வாழ முடியுமா அத்தான்?...",
+          "pages": [
+            {
+              "pdf_page": 105,
+              "printed_page": 103
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s059-d011",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "அத்தான்....",
+          "pages": [
+            {
+              "pdf_page": 105,
+              "printed_page": 103
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s059-d013",
+          "prev_label": "முத்தன்",
+          "next_label": "முத்தன்",
+          "text_preview": "அத்தான்...",
+          "pages": [
+            {
+              "pdf_page": 105,
+              "printed_page": 103
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 63,
+      "heading": "வெளியே",
+      "muth_count": 6,
+      "full_muthan_count": 0,
+      "full_muthayi_count": 0,
+      "muthaa_count": 2,
+      "all_scene_labels": {
+        "பூங்": 2,
+        "பூபதி": 2,
+        "முத்": 6,
+        "முத்தா": 2
+      },
+      "muth_records": [
+        {
+          "record_id": "ammaiyappan-s063-d001",
+          "prev_label": null,
+          "next_label": "முத்தா",
+          "text_preview": "முத்தாயி! முத்தாயி!...",
+          "pages": [
+            {
+              "pdf_page": 108,
+              "printed_page": 106
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s063-d003",
+          "prev_label": "முத்தா",
+          "next_label": "பூங்",
+          "text_preview": "கண்மணி!...",
+          "pages": [
+            {
+              "pdf_page": 108,
+              "printed_page": 106
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s063-d005",
+          "prev_label": "பூங்",
+          "next_label": "பூபதி",
+          "text_preview": "இளவராணி...",
+          "pages": [
+            {
+              "pdf_page": 109,
+              "printed_page": 107
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s063-d007",
+          "prev_label": "பூபதி",
+          "next_label": "முத்தா",
+          "text_preview": "ஆ...",
+          "pages": [
+            {
+              "pdf_page": 109,
+              "printed_page": 107
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s063-d009",
+          "prev_label": "முத்தா",
+          "next_label": "பூங்",
+          "text_preview": "தாயா?....அம்மா!...உங்களை எப்படி யெல்லாம் தவறாக நினைத்து விட்டேன்—என்னை மன்னித்து விடுங்கள் அம்மா! மன்னித்து விடுங்கள்!...",
+          "pages": [
+            {
+              "pdf_page": 109,
+              "printed_page": 107
+            }
+          ]
+        },
+        {
+          "record_id": "ammaiyappan-s063-d012",
+          "prev_label": "பூபதி",
+          "next_label": null,
+          "text_preview": "அறிவேன் அய்யா!\n\nகாதலிலே கனியுதலிலே\nகளம் போகும் பேச்சு!...\nகணவனுக்கும் மனைவிக்கும்\nதாயகமே மூச்சு!...\n\nஅருமைத் தோழர்களே! அன்புத் தம்பிமார்களே!...அனைவரும் புறப்படுங்கள்!...   அண்ணலின் விலங்கொடிப்ப ோம்! பழுதாரை மீட்போம்! வாரீர்! தம்பி உடையான்படைக்கஞ்சான்! இப்படை த",
+          "pages": [
+            {
+              "pdf_page": 109,
+              "printed_page": 107
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "policy": "No global identity mapping for `முத்` until each occurrence is dispositioned from verified scene context."
+}
