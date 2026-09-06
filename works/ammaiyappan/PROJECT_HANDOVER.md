@@ -83,6 +83,7 @@ Printed identity: `அம்மையப்பன்`; `கதை வசனம�
 
 - source-numbered scenes: **none**;
 - canonical source-visible boundaries used by the scene derivative layer: **63**;
+- distinct verified heading forms in the current derivative mapping: **41**;
 - archive scene ordinals are derivative navigation only;
 - preserve additional source-visible local headings found during transcription even if an earlier intake ledger is narrower;
 - PDF 56 / p.54: **`பழுதார் வீதி`**;
@@ -120,7 +121,7 @@ Scene layer:
 - dialogue index: **complete-source-role-resolved — 1,025/1,025 downstream units**;
 - character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,025 units**;
 - song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
-- English translation: **verified through scene 5/63 — 108/108 current units**;
+- English translation: **verified through scene 10/63 — 225/225 current units**;
 - reader/export: **blocked pending complete English**.
 
 ## Dialogue-index closure — FINAL QA PASS, post-correction authority
@@ -186,30 +187,32 @@ Current files:
 
 - `translations/schema.json` — locked scene/unit schema;
 - `translations/preflight.json` — authority and pilot preflight;
-- `translations/records/scene-001.json`–`scene-005.json` — verified translations through scene 5;
+- `translations/records/scene-001.json`–`scene-010.json` — verified translations through scene 10;
 - `translations/PILOT_REVIEW.md` — voice and integrity decisions;
 - `translations/BATCH_002_005_REVIEW.md` — first post-pilot batch QA;
+- `translations/BATCH_006_010_REVIEW.md` — second batch QA including source-only performance/verse linkage;
 - `translations/index.json` — active translation checkpoint.
 
-Cumulative verified checkpoint through scene 5:
+Cumulative verified checkpoint through scene 10:
 
-- verified scenes: **5/63**;
-- verified units: **108**;
-- dialogue units: **95** = **93 explicit immutable dialogue links + 2 source-role supplements**;
-- stage/action units: **13**;
-- cross-page units: **1**;
-- source-visible song/performance occurrence links so far: **0**;
+- verified scenes: **10/63**;
+- verified units: **225**;
+- dialogue units: **196** = **190 explicit immutable dialogue links + 6 source-role supplements**;
+- stage/action units: **28**;
+- standalone song-reference units: **1**;
+- cross-page units: **2**;
+- source-visible song/performance occurrence links so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-Batch 2–5 preserves both exceptional source delimiters in provenance:
+Batch 6–10 establishes these reusable decisions:
 
-- scene 3 `பூங் ; ...` → `ammaiyappan-s003-r001`;
-- scene 5 `திரு; ...` → `ammaiyappan-s005-r001`.
-
-The scene-4 Maykainatha discourse crossing PDF 10–11 remains one logical English unit with both page-provenance entries.
+- scene 6 preserves three context-attributed supplements and does not split immutable records merely because they contain embedded source action;
+- scene 7 translates only the source cue that the Muthan–Muthayi love-song performance is ending; no title, lyrics or authorship are invented;
+- scene 8 preserves its PDF 19→20 utterance as one cross-page unit and leaves the fragmentary quotation fragmentary;
+- scene 10 keeps the Kambar-attributed quotation inside immutable dialogue record `ammaiyappan-s010-d010`, with `ammaiyappan-song-002` linked as occurrence provenance rather than duplicated as a second verse record.
 
 Translation must preserve archive scene ID and PDF/printed-page provenance, exact Tamil speaker labels, source-role origin, structural distinctions, rhetoric/register, and the closed song/performance evidence. It must not alter canonical Tamil or immutable dialogue evidence.
 
 ## Exact next activity
 
-> **Translate and source-review archival scenes 6–10. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation. Use `songs/inventory.json` for those source structures, translate only what the booklet actually prints, preserve dialogue/source-role provenance, and do not reconstruct absent lyrics or verse.**
+> **Translate and source-review archival scenes 11–15. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence.**
