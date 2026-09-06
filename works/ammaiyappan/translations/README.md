@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 60 / 63; 1,188/1,188 current units verified**
+**Status:** **complete-verified — archival scenes 63 / 63; 1,210/1,210 units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -209,19 +209,37 @@ Scenes 56–60 add **82 verified units**:
 
 Scene 56 keeps Boopathi's recollection and Poongavanam's confession whole across their page boundaries, preserves the source-bounded painting phrase and translates the printed mythological sequence without external completion. Scene 58 keeps Muthayi's three-page denunciation as one immutable unit, preserves `mannaangatti`, `Self-Respect`, and the bitter `freedom`/death rhetoric without softening it. Scene 59 retains `ammaiyappan-s059-r001` as source-context-attributed Muthan speech; `ammaiyappan-s059-d014` owns the printed request for “that love song we used to sing together,” while a separate `song-reference` unit owns the distinct bracketed performance cue. Both link `ammaiyappan-song-005`; no title, lyric body or authorship is reconstructed and the unnamed occurrence is not merged with another unnamed song identity. Scene 60 keeps the golden-lotus/fragrance comparison and renders `விடுதலை விரும்பி` as `seeker of freedom`. Detailed QA is in `BATCH_056_060_REVIEW.md`.
 
-## Cumulative English status through scene 60
+### Batch — scenes 61–63
 
-- verified scenes: **60/63**;
-- verified units: **1,188**;
-- dialogue units: **1,009** = **993 explicit dialogue records + 16 source-role supplements**;
-- stage/action units: **175**;
+Scenes 61–63 add **22 verified units**:
+
+- explicit dialogue links: **16/16**;
+- source-role supplements: **0**;
+- stage/action units: **6**;
+- song-reference / literary-verse / japa / written-text units: **0**;
+- cross-page logical units: **0**;
+- retained source-only song/performance occurrences encountered: **0**;
+- decorative stars translated as prose: **0**.
+
+Scene 61 is action-only: Muthan's friends create the rescue diversion and the masked-prisoner substitution is not prematurely identified. Scene 62 preserves the masked-prisoner revelation, Sukhadev's deliberately halting explanation, Maappillaithaasar's atonement speech and the source's final `speech ends; life ends` parallel without external expansion. Scene 63 preserves the mother-recognition sequence, exact `முத்` / `முத்தா` provenance, `Aththan` and `Amma` register shifts, the liberation rhetoric and the closing four-line stanza inside immutable dialogue record `ammaiyappan-s063-d012`; no separate literary-verse occurrence is invented. Frozen `அண்ணலின் விலங்கொடிப்ப ோம்` retains `Annal` as a source term rather than receiving an unsupported stronger gloss. Detailed QA is in `BATCH_061_063_REVIEW.md`.
+
+## Final cumulative English status
+
+- verified scenes: **63/63**;
+- verified units: **1,210**;
+- dialogue units: **1,025** = **1,009 explicit dialogue records + 16 source-role supplements**;
+- stage/action units: **181**;
 - standalone song-reference units: **3**;
 - japa units: **1**;
+- standalone literary-verse units: **0**;
+- written-text units: **0**;
 - cross-page units: **28**;
-- unique song/performance occurrence links: **5** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`, `ammaiyappan-song-005`;
+- unique song/performance occurrence links: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
+Whole-work source/linkage reconciliation is **PASS** in `FINAL_TRANSLATION_QA.md`. All 1,009 explicit dialogue records and all 16 closed source-role supplements are linked exactly once; all five retained song/performance occurrences are represented without reconstructing absent lyrics/title/authorship; archival scene IDs remain navigation derivatives only.
+
 ## Next
 
-Translate and source-review the final archival scenes **61–63** from the frozen verified derivatives. Reconfirm live closed source-role and song/performance evidence before writing, preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not alter frozen source evidence. After scene 63, perform whole-work English reconciliation before starting reader/export work.
+Proceed to **whole-work English reader/export preflight** generated from the complete-verified structured translation. Preserve the full 1,025-unit dialogue authority, all 28 cross-page units, all five source-visible occurrence links, exact Tamil speaker-label provenance and archive-only scene numbering. Do not maintain an independent manual reader copy.
