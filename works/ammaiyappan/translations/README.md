@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 10 / 63; 225/225 current units verified**
+**Status:** **verified through archival scene 15 / 63; 355/355 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -68,18 +68,31 @@ Scenes 6–10 add **117 verified units**:
 
 Scene 7 translates only the printed cue that the Muthan–Muthayi love-song performance is ending; no absent title or lyric body is reconstructed. Scene 10 keeps the Kambar-attributed fragment inside its immutable Sukhadev dialogue record and links the source-only occurrence without duplicating source ownership. Detailed QA is in `BATCH_006_010_REVIEW.md`.
 
-## Cumulative English status through scene 10
+### Batch — scenes 11–15
 
-- verified scenes: **10/63**;
-- verified units: **225**;
-- dialogue units: **196** = **190 explicit dialogue records + 6 source-role supplements**;
-- stage/action units: **28**;
+Scenes 11–15 add **130 verified units**:
+
+- explicit dialogue links: **105/105**;
+- source-role supplements: **2/2** — both in scene 11;
+- stage/action units: **23**;
+- song/performance occurrence links: **0**;
+- cross-page logical units: **1** — scene 15 `குரல்` record across PDF 31–32;
+- decorative stars translated as prose: **0**.
+
+Scene 11 preserves `ammaiyappan-s011-r001` and `ammaiyappan-s011-r002` as context-attributed provenance rather than inventing printed speaker labels. Scene 15 keeps its opening `குரல்` record whole across the page boundary and does not externally repair the fragmentary source wording. Detailed QA is in `BATCH_011_015_REVIEW.md`.
+
+## Cumulative English status through scene 15
+
+- verified scenes: **15/63**;
+- verified units: **355**;
+- dialogue units: **303** = **295 explicit dialogue records + 8 source-role supplements**;
+- stage/action units: **51**;
 - standalone song-reference units: **1**;
-- cross-page units: **2**;
-- song/performance occurrence links: **2**;
+- cross-page units: **3**;
+- song/performance occurrence links: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **11–15**. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence.
+Translate and source-review archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.
