@@ -32,69 +32,30 @@ Everything else—scene files, dialogue indexes, character mappings, song attrib
 
 ## 2. Mature reference implementations
 
-Three screenplay works now provide complementary mature reference patterns.
-
 ### Parasakthi
 
-Parasakthi demonstrates:
-
-- non-trivial scene-number anomalies that must be documented rather than casually normalized;
-- complete Tamil fidelity verification;
-- scene/dialogue/character/song derivative layers;
-- song/verse authorship mapping;
-- complete source-linked English translation;
-- whole-work reader QA and reproducible Markdown/HTML/JSON outputs;
-- preservation of source-unlabelled performance/dialogue outside a simplistic speaker model.
-
-Use Parasakthi to understand complex numbering and mixed song/verse handling. **Never reuse its text as authority for another film.**
+Parasakthi demonstrates non-trivial scene-number anomalies, complete Tamil fidelity verification, scene/dialogue/character/song layers, source-linked English translation, whole-work reader QA and preservation of source-unlabelled material outside a simplistic speaker model. Use it for complex numbering and mixed song/verse handling, never as textual authority for another work.
 
 ### Tirumbippaar!
 
-Tirumbippaar demonstrates:
-
-- full-scan structural mapping before transcription;
-- 93-scene scene-heading audit;
-- 104-page visual Tamil fidelity audit;
-- post-fidelity scan corrections recorded explicitly;
-- immutable 1,040-record dialogue indexing;
-- character label/entity mapping without normalizing dialogue labels;
-- cautious song/performance authorship with unresolved occurrences left unresolved;
-- complete source-linked English translation;
-- whole-work reader reconciliation that caught synthetic scene endings, source-order drift and duplicate stage actions;
-- deterministic reader outputs and EPUB package QA;
-- explicit preference for Reading Room publication at `https://nenjukkuneethi.org/read` rather than unnecessary additional standalone packages.
-
-Use Tirumbippaar to understand the mature reader/export pipeline and QA discipline. **Never reuse its text as authority for another film.**
+Tirumbippaar demonstrates full-scan mapping, 104-page fidelity audit, explicit post-fidelity correction history, immutable 1,040-record dialogue indexing, character mapping without rewriting labels, cautious song authorship, 1,321-unit English translation, whole-work reader reconciliation and deterministic EPUB QA. It also establishes the preference for Reading Room publication over unnecessary duplicate standalone packages.
 
 ### Raja Rani
 
-Raja Rani demonstrates:
-
-- old-typeface / glyph-sensitive source review in which OCR and comparison transcripts remain candidate readings only;
-- direct user scan verdicts preserved occurrence-by-occurrence;
-- late source corrections reconciled through canonical pages, scenes, immutable dialogue, character mapping, song metadata and English;
-- a fully unblocked **79/79 source-page / 70/70 screenplay-page** fidelity checkpoint;
-- **58/58 archival scene derivatives**, **1,071 unique immutable dialogue records**, **80/80 exact source labels** and **44 verified entities/roles/collectives**;
-- whole-screenplay English completion at **58/58 scenes / 1,236 verified units / 1,071 dialogue links**;
-- detection and repair of a derivative ownership error where scene 55 duplicated the `(முன்)` flashback belonging to scene 56, without altering canonical page text;
-- an independent numbered-song English layer for all **11/11** verified front-matter songs rather than forcing song bodies into screenplay scene IDs;
-- numbered-song translation QA at **67 sections / 181 Tamil-to-English line-cue mappings**, while preserving the existing 5 later-anthology Kalaignar attributions and 6 unresolved lyricists;
-- explicit synchronization of work-local state with `data/works.json`, root README and project-level documentation before a major phase is considered closed.
-
-Use Raja Rani to understand late-correction reconciliation, mixed screenplay/song translation architecture and repository-wide anti-staleness discipline. **Never reuse its text as authority for another film.**
+Raja Rani demonstrates old-typeface source review, direct user scan verdicts, late-correction reconciliation through every dependent layer, **79/79 source pages / 70/70 screenplay pages**, **58/58 scene derivatives**, **1,071 immutable dialogue records**, **80/80 exact labels / 44 entities**, **1,236 screenplay English units**, and a separate **11/11 numbered-song / 181 line-cue** English layer. Its whole-work QA caught duplicated derivative ownership across scene 55/56 without changing canonical page text. It is also the clearest precedent for repository-wide anti-staleness synchronization.
 
 ---
 
 ## 3. Current reusable workflow
 
-For each new cinema work, proceed through these gates in order:
+For each cinema work, proceed through these gates in order:
 
 1. **Source intake**
 2. **Structural mapping**
 3. **Canonical Tamil first pass**
 4. **Visual fidelity audit**
-5. **Historical Tamil glyph audit when older typeforms may occur** — this is independent of visual fidelity and may require retrospective re-audit of previously visual-verified pages
-6. **Scene-text derivatives**
+5. **Historical Tamil glyph audit where applicable**
+6. **Scene/source-structure derivatives**
 7. **Dialogue index**
 8. **Character/entity index**
 9. **Song/verse/performance authorship gate**
@@ -102,114 +63,74 @@ For each new cinema work, proceed through these gates in order:
 11. **English translation, if in scope**
 12. **Whole-work reader QA/export**
 13. **Reading Room integration**
-14. **Optional standalone packaging/release only when separately useful/requested**
+14. **Optional standalone packaging only when separately useful/requested**
 
-For an older-print source that uses historical Tamil typeforms, canonical Tamil is not complete merely because the ordinary visual-fidelity gate passes. Follow `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`: identify character identity from source pixels, check the known reform-sensitive families occurrence-by-occurrence, avoid global replacement and spelling modernization, and leave unresolved identity under review.
+For older print, canonical Tamil is not complete merely because ordinary visual fidelity passes. Follow the historical-glyph guide occurrence by occurrence; never global-replace or modernize spelling merely because an old glyph resembles a modern character.
 
-**Repository-wide status synchronization is a completion gate at every major phase.** A phase is not closed merely because its content files exist.
-
-The detailed rules are in `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, supplemented by the historical-glyph guide for applicable older sources.
+**Repository-wide status synchronization is a completion gate at every major phase.**
 
 ---
 
 ## 4. Source authority rules that must survive every handover
 
-Do not silently modernize, correct, normalize, reconstruct or improve the Tamil.
+Preserve source-supported historical/colloquial spelling, punctuation, exact speaker labels, scene-heading irregularities, repetition, unusual grammar, typographical forms, code-switching, stage directions, song/performance structures and embedded texts.
 
-Preserve source-supported:
+Do not repair canonical text from OCR, subtitles, film audio, web quotations, later editions, existing translations, memory or familiar dialogue. If the scan does not support a reading, keep uncertainty visible.
 
-- historical/colloquial spelling;
-- punctuation and ellipses;
-- exact speaker labels;
-- scene-heading irregularities;
-- repetition;
-- unusual grammar;
-- typographical forms;
-- English code-switching;
-- stage directions;
-- song/performance structures;
-- printed letters/news/advertisements/other embedded text.
-
-Do not repair canonical text from:
-
-- OCR;
-- subtitles;
-- film audio;
-- web quotations;
-- later editions;
-- existing translations;
-- memory;
-- familiar famous dialogue.
-
-If the scan does not support a reading, keep uncertainty visible.
-
-For historical Tamil typeforms, **read character identity, not modern visual resemblance**. A source-supported historical glyph should be encoded as its correct modern Unicode identity without modernizing the source word around it.
+For historical Tamil typeforms, **read character identity, not modern visual resemblance**. Encode the proven historical character identity in modern Unicode without modernizing the surrounding source word.
 
 ---
 
 ## 5. Important lessons learned
 
 ### A. Inspect the scan, not the filename
-
-The filename may identify the item but does not establish edition, title-page wording, credits, pagination or even exact content boundaries.
+The filename does not establish edition, title-page wording, credits, pagination or exact content bounds.
 
 ### B. Map the whole source before transcribing
+Whole-source mapping prevents wrong page formulas, missing sections and premature scene assumptions.
 
-A full-scan map prevents incorrect page formulas, missing sections and premature scene assumptions.
+### C. Never trust progress metadata without physical coverage
+A claimed range is not complete until every underlying page/unit actually exists.
 
-### C. Never trust progress metadata without checking physical coverage
+### D. Verified text can still be corrected—but only from source evidence
+Record consequential post-verification corrections explicitly and reconcile dependent derivatives before continuing.
 
-Tirumbippaar exposed an early storage gap even though a claimed range appeared complete. Verify that every claimed page is actually present in stored transcription.
-
-### D. Verified text can still be corrected—but only from the scan
-
-If later derivative work exposes a suspicious reading, reopen the rendered scan. Record substantive post-verification corrections explicitly.
-
-### E. Scene numbering is not always clean
-
-Do not force a neat sequence onto printed anomalies. Source numbering and any canonical disposition are separate pieces of evidence.
+### E. Scene numbering may be irregular or absent
+Do not invent neat printed numbering. Archive-only navigation IDs must remain derivative metadata.
 
 ### F. Unlabelled speech is not labelled dialogue
-
-Do not manufacture a speaker ID because context makes the speaker obvious. The dialogue index should represent what the source explicitly labels.
+Context may support a downstream role disposition, but it must not create a printed speaker label in immutable evidence.
 
 ### G. Cross-page utterances stay single units
-
-A dialogue or translation unit crossing a page boundary remains one logical record with multi-page provenance.
+Retain one logical record with multi-page provenance.
 
 ### H. Decorative separators are not prose
-
-Do not turn `★` or similar separators into `(Scene ends.)` or other invented reader text.
+Never translate `★` into invented scene-ending text.
 
 ### I. Do not duplicate derivative ownership
-
-Do not duplicate stage action or source passages across scene boundaries. Raja Rani's final QA showed that an entire flashback can be accidentally owned by two adjacent scene derivatives even when both files look internally plausible. Whole-work QA must check source-span ownership as well as per-file validity.
+Whole-work QA must detect duplicated source spans across adjacent derivative owners.
 
 ### J. Song authorship requires item-level evidence
-
-Story/dialogue credit is not lyric credit. A film-wide contributor list does not automatically identify a specific song's lyricist.
+Story/dialogue credit is not lyric credit.
 
 ### K. Distinct source structures need distinct derivative identities
-
-A front-matter numbered song corpus should not be forced into screenplay scene IDs merely because screenplay translation already exists. Preserve the source's natural structure and link the layers explicitly.
+Do not force independently numbered songs or non-scene booklet structures into screenplay scene IDs.
 
 ### L. QA should fail loudly
-
-The reader/export builder should reject missing links, duplicate IDs, duplicate source ownership, source-order regressions, synthetic content and inconsistent provenance instead of silently producing output.
+Missing links, duplicate IDs/ownership, order drift, synthetic content and inconsistent provenance should block closure.
 
 ### M. Stale shared documents are a project defect
+Work-local indexes, `data/works.json`, root README, master handover and status audit must agree before a major phase is closed.
 
-A work-local index may be correct while root README, `data/works.json`, master handover or status audit still advertises an older checkpoint. Major-phase closure requires a repository-wide stale-state sweep and synchronization of every current mirror that could direct future work.
+### N. Historical Tamil glyphs require their own pass
+At minimum inspect `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`, while remaining alert for edition-specific forms and damaged type.
 
-### N. Historical Tamil glyphs require their own explicit pass
-
-Ordinary visual comparison can still misread an old metal-type glyph as the closest-looking modern character. For historical sources, explicitly decode glyph identity using enlarged/native source pixels and same-edition evidence. The known minimum families are `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. This is a minimum set only. A systematic historical-glyph issue discovered after pages were previously called verified requires retrospective audit of the affected coverage.
+### O. Source-only performance evidence stays source-only in English
+A cue that a song is being sung does not authorize importing absent lyrics. A literary fragment embedded in an immutable dialogue record should be linked to its occurrence evidence without duplicating the same source span as a second translation unit.
 
 ---
 
 ## 6. Repository architecture and authorities
-
-Common authoritative locations:
 
 ```text
 docs/
@@ -240,192 +161,120 @@ works/<work-id>/
 Authority order for text questions:
 
 1. rendered scan;
-2. verified canonical Tamil transcription;
-3. verified scene/song derivative;
+2. verified canonical Tamil;
+3. verified scene/song/source-structure derivative;
 4. immutable dialogue/song/etc. structured records;
 5. translation;
 6. reader/export/package;
 7. website presentation.
 
-A downstream layer must not silently repair an upstream layer.
-
-For **status/progress** questions, live work indexes and metadata control, but all current project mirrors should be synchronized before a phase is declared complete.
+A downstream layer must never silently repair an upstream layer.
 
 ---
 
 ## 7. Repository-wide synchronization gate
 
-At the end of every major phase, reconcile all relevant current surfaces before claiming completion.
+At the end of every major phase, reconcile at minimum:
 
-Minimum work-local surfaces:
-
+### Work-local
 - `works/<work-id>/metadata.yaml`;
 - `works/<work-id>/README.md`;
-- the active layer's README/index/QA/audit files;
-- work-specific handover and next-chat prompt when they exist.
+- active layer README/index/QA/audit files;
+- work-specific handover and next-chat prompt.
 
-Minimum repository-wide surfaces when the checkpoint materially changes:
-
+### Repository-wide
 - `data/works.json`;
 - root `README.md`;
-- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md` when the project checkpoint/reference lessons change;
+- `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`;
 - `docs/STATUS_CONSISTENCY_AUDIT.md`;
-- any shared processing/translation guide whose reusable policy changed because of the completed work.
+- any shared guide whose reusable policy changed.
 
-Before closure, perform a stale-state sweep for superseded counts, blocked/review statuses, prior next activities and obsolete completion language. Historical batch/checkpoint files may retain their dated historical state when clearly labelled historical; active startup/status files may not.
-
-Do not let counts drift between README text and machine-readable indexes. Where possible, derive generated status from authoritative indexes and validate with automated QA.
+Then sweep for superseded counts, obsolete blocked/review states and stale next activities. Historical checkpoint files may retain historical numbers when clearly labelled historical.
 
 ---
 
 ## 8. Translation and reader architecture
 
-For a mature translation layer:
+For mature screenplay translation:
 
-- use scene-sharded translation records for screenplay material;
-- use separate source-linked song records for independently numbered song bodies;
-- keep stable unit IDs;
-- retain exact Tamil speaker/turn labels as metadata;
+- use scene-sharded translation records;
+- retain stable unit IDs and exact Tamil speaker labels;
 - link labelled dialogue to immutable dialogue IDs;
-- leave source-unlabelled speech unlabelled;
-- distinguish dialogue, stage direction, chant, song/song-reference, written text and other legitimate source structures;
-- retain page provenance;
-- keep cross-page source units whole;
+- retain source-role origin for context-attributed supplements without creating printed labels;
+- preserve stage directions, written text, chants, performance cues and other source structures distinctly;
+- keep page provenance and cross-page logical units intact;
+- link song/performance occurrence evidence without duplicating source ownership;
 - preserve source irregularity honestly.
 
 Before declaring translation complete, perform whole-work reconciliation rather than trusting batch counts.
 
-Reader/export outputs should be generated from verified structured translation records, not manually maintained copies. If a work contains both translated screenplay scenes and independently translated numbered songs, the reader/export model must include both without pretending the songs are source-numbered scenes.
-
-For a source that is not scene-structured, such as `மந்திரி குமாரி`, the reader/export layer must preserve that natural source model. Its verified reader therefore uses **1 story-summary unit + 15 performance blocks**, not synthetic screenplay scenes.
+Reader/export outputs must be generated from verified structured translation, not manually maintained copies. Non-scene sources such as `மந்திரி குமாரி` must keep their natural model: its reader uses **1 story-summary unit + 15 performance blocks**, not synthetic scenes.
 
 ---
 
 ## 9. Public Reading Room direction
 
-The preferred public destination for completed works is:
+Preferred public destination:
 
 **`https://nenjukkuneethi.org/read` — Kalaignar Digital Library / Reading Room**
 
-For cinema works:
-
-- use the work's natural navigation model;
-- for screenplays, use **scene-based navigation**;
-- expose separately numbered songs/verse as distinct source structures where present;
-- expose Tamil source text and English where verified;
-- support title/dialogue/full-text search as appropriate;
-- derive counts from repository checkpoints;
-- preserve source/page provenance behind the interface;
-- keep exact speaker labels and source order intact in archival data;
-- treat collection cards, summaries, icons, filters and search indexes as presentation metadata only.
-
-Do not automatically create a print-ready PDF or another standalone EPUB after the reader layer is complete. Create additional packages only when the user explicitly requests them or they serve a distinct release/archive purpose.
-
-Existing reproducible packages may remain in the repository.
+Use each work's natural navigation model, expose verified Tamil/English where supported, preserve page/source provenance and exact source order, and treat search/filter/card metadata purely as presentation. Do not automatically create another PDF/EPUB merely because reader work is complete.
 
 ---
 
 ## 10. Working style for future chats
 
-The user frequently continues a project by saying **“Proceed with next activity.”**
+When the user says **“Proceed with next activity”** and the next action is already documented:
 
-When the next activity is already documented:
-
-- continue without asking a redundant question;
-- choose a meaningful batch rather than one page by default;
-- inspect source and repository state first;
-- complete content QA **and repository-wide synchronization** for the finished phase before claiming completion;
-- do not report a layer complete if index/README/metadata/shared mirrors remain stale;
-- if a large scene/file read is truncated, fetch the missing range rather than summarizing unseen content;
+- continue without redundant questions;
+- fetch live `main` first;
+- choose a meaningful bounded batch;
+- inspect authoritative source/derivative state before writing;
+- complete content QA and repository-wide synchronization before claiming the batch complete;
+- if a large source read is truncated, fetch the missing range rather than summarizing unseen content;
 - report exact commits/checkpoints after writes.
 
-A genuine source ambiguity can justify a pause; routine workflow continuation does not.
+A genuine source ambiguity can justify pausing; routine workflow continuation does not.
 
 ---
 
 ## 11. Starting a new cinema work
 
-Use `docs/START_NEW_CINEMA_WORK_PROMPT.md`.
-
-The first activity should normally stop after **source intake + full structural mapping + initial repository skeleton/status synchronization**.
-
-Do not rush directly into large-scale transcription before the map is verified.
-
-If the repository already contains the work, abandon the new-work initialization path and continue the existing state instead.
+Use `docs/START_NEW_CINEMA_WORK_PROMPT.md`. Normally stop the first new-work activity after source intake, full structural mapping and initial skeleton/status synchronization. If the work already exists, continue its live state instead.
 
 ---
 
 ## 12. Work-specific handovers
 
-A work-specific handover should be created/refreshed when a project becomes lengthy or is likely to move to another chat.
+A work-specific handover should preserve repository/branch, source identity/checksum, exact bounds, current phase, closed counts, unresolved items, source anomalies, cross-page cases, authoritative files, immutable layers, exact next activity and startup order.
 
-It must contain:
-
-- repository/branch;
-- source filename and SHA-256;
-- exact source bounds;
-- current phase;
-- completed gates and counts;
-- unresolved items;
-- known scan/source anomalies;
-- cross-page/cross-part special cases;
-- authoritative files;
-- layers that must remain immutable;
-- exact next activity;
-- startup order.
-
-### Historical handovers
-
-Older handovers are historical checkpoints. They do not override current `main` after later phases have completed.
-
-Always inspect current repository state.
+Older handovers are historical checkpoints and never override newer live `main`.
 
 ---
 
 ## 13. Current high-level project checkpoint — 2026-09-06
 
 - **Parasakthi** — complete-verified canonical/structured English reader work.
-- **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
-- **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records and 1,190 English units; deterministic reader/export QA PASS; Reading Room integration ready.
+- **Tirumbippaar!** — complete-verified Tamil, structured derivatives, English translation, reader QA and deterministic EPUB QA.
+- **Manohara** — complete-verified Tamil, 57/57 scenes, 983 dialogue records, 1,190 English units; reader/export QA PASS; Reading Room ready.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
-- **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
-- **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate closed at **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 5/63 / 108 units**; next bounded batch scenes **6–10**.
+- **Manthiri Kumari** — 12/12 canonical PDF 2–13 pages; 1 story-summary record + 15 performance records; English 13 prose units + 15/15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricists remain 0 verified / 15 unresolved; site not applied.
+- **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS; site not applied.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 10/63 / 225 units**; next bounded batch **11–15**.
 
-Ammayappan's active work-local README, metadata and handover plus translation index/QA, root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` use the post-correction 1,025-unit authority and the scene-5 English checkpoint. Historical checkpoint prose may retain prior counts only when clearly historical.
+Current active mirrors use the post-correction 1,025-unit authority and scene-10 English checkpoint.
 
 ---
 
 ## 14. Raja Rani downstream disposition
 
-No required Raja Rani production work remains inside `pugazg/kalaignar-cinema-works`.
-
-Its verified Reading Room payload is:
-
-`works/raja-rani/integrations/reading-room/reading-room.json`
-
-Payload SHA-256: `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`.
-
-Only when the separate Kalaignar Digital Library / Reading Room implementation repository is explicitly authorized for modification should that payload be applied there. The public site must preserve source-numbered songs separately from archival-only screenplay scene navigation, retain provenance, and keep song authorship/performance-link evidence tiers unchanged.
-
-For repository-internal work, continue with another work's documented next activity rather than reopening Raja Rani solely to create an additional standalone format.
+No required Raja Rani production work remains in this repository. Its verified Reading Room payload is `works/raja-rani/integrations/reading-room/reading-room.json`, SHA-256 `ab1058cb5a22ba78e68938f50efc586cc53eb07ef544bdf3919bb3c4b8c46c9b`. Apply it only in the separate Reading Room implementation repository when explicitly authorized.
 
 ---
 
 ## 15. Manthiri Kumari downstream disposition
 
-No required Manthiri Kumari production work remains inside `pugazg/kalaignar-cinema-works`.
-
-Its verified Reading Room payload is:
-
-`works/manthiri-kumari/integrations/reading-room/reading-room.json`
-
-Payload size: **15,704 bytes**.  
-Payload SHA-256: `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`.
-
-The payload preserves **1 continuous story summary + 15 performance blocks**, source/page provenance, source-visible cues, the **1 confirmed current-anthology witness / 14 source-only** disposition, and the **0 verified / 15 unresolved** item-level lyric-authorship state. Performance ordinals remain archival source-order navigation rather than printed source numbering, and no screenplay scenes are invented.
-
-Only when the separate Kalaignar Digital Library / Reading Room implementation repository is explicitly authorized for modification should this payload be applied there. Site application status remains **not-applied**.
+No required Manthiri Kumari production work remains here. Its verified payload is `works/manthiri-kumari/integrations/reading-room/reading-room.json`, **15,704 bytes**, SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`. Preserve its natural story-summary + 15-performance navigation and unresolved authorship tiers when the separate Reading Room implementation is authorized.
 
 ---
 
@@ -436,28 +285,31 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 - canonical Tamil: **105/105 dual-gate complete-verified**;
 - unresolved canonical markers / review pages: **0 / 0**;
-- post-fidelity direct-scan correction: PDF 10 `மாடம்`, commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`;
-- scene segmentation preflight: **PASS — 63 boundaries**;
-- scene-text derivatives: **63/63 complete-verified**;
-- source-numbered scenes invented: **0**;
-- boundary ownership QA: **PASS — 0 gaps / 0 overlaps / 105 pages represented**;
-- dialogue index: **complete-source-role-resolved — 1,009 explicit + 16 supplements = 1,025 downstream units**;
+- PDF 10 source correction: `மாடம்`, commit `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`;
+- scene segmentation: **PASS — 63 boundaries / 63/63 derivatives**;
+- distinct current heading forms: **41**;
+- boundary ownership: **PASS — 0 gaps / 0 overlaps / 105 pages**;
+- dialogue index: **1,009 explicit + 16 supplements = 1,025 downstream units**;
 - exact source speaker labels: **62**;
-- unresolved source-role blocks: **0**;
+- source-role unresolved: **0**;
 - source punctuation normalization: **0**;
-- character/entity index: **complete-verified-reconciled — 26 entities / 62/62 labels / 1,025/1,025 units**;
-- record-aware labels: `முத்` and `தன`;
-- song/performance authorship: **complete-verified-source-only — 64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
-- English translation: **verified through archival scene 5/63 / 108/108 current units**;
-- English dialogue units through scene 5: **95 = 93 explicit links + 2 source-role supplements**;
-- English stage/action units: **13**;
-- English cross-page units: **1**;
+- character/entity layer: **26 entities / 62/62 labels / 1,025/1,025 units**;
+- song/performance source gate: **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
+- English translation: **scene 10/63 / 225 verified units**;
+- English dialogue coverage: **190 explicit + 6 source-role supplements = 196 dialogue units**;
+- English stage/action units: **28**;
+- English song-reference units: **1**;
+- English cross-page units: **2**;
+- source-only occurrences linked in English: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - reader/export: blocked pending complete English.
 
-Post-closure source-delimiter authority:
+Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` are preserved as exact non-colon source forms.
 
-- scene 3 `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct பூங்காவனம் dialogue supplement;
-- scene 5 `திரு; ...` remains source-explicit non-colon dialogue;
-- both semicolons are preserved; neither is normalized to `:`.
+Batch 6–10 source safeguards:
 
-**Exact next activity:** translate and source-review archival scenes **6–10**. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation. Use `songs/inventory.json`, translate only source-visible material, preserve all source/page/dialogue provenance, create no prose for decorative `★`, and do not reconstruct absent lyrics or verse.
+- scene 6 retains all three context-attributed source-role supplements and does not split locked dialogue spans merely because source action is embedded;
+- scene 7 translates only the printed Muthan–Muthayi performance cue, with no absent lyric/title/authorship reconstruction;
+- scene 8 keeps its PDF 19→20 utterance as one logical cross-page unit and does not repair the fragmentary quotation externally;
+- scene 10 keeps the Kambar-attributed fragment inside `ammaiyappan-s010-d010` and links `ammaiyappan-song-002` without duplicate ownership.
+
+**Exact next activity:** translate and source-review archival scenes **11–15**. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, create no prose for decorative `★`, and do not modify frozen source evidence.
