@@ -89,17 +89,17 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 15/63 — 355/355 current units**;
-- current English dialogue coverage: **295 explicit records + 8 source-role supplements**;
-- current English stage/action units: **51**;
-- current English song-reference units: **1**;
-- current English cross-page units: **3**;
-- retained source-only occurrence links translated so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+- English translation: **verified through scene 20/63 — 477/477 current units**;
+- current English dialogue coverage: **393 explicit records + 10 source-role supplements = 403 dialogue units**;
+- current English stage/action units: **72**;
+- current English song-reference units: **2**;
+- current English cross-page units: **7**;
+- retained source-only occurrence links translated so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - reader/export: blocked pending complete English.
 
-Scene 11 preserves both closed source-context-attributed supplements without manufacturing printed labels. Scene 15 keeps the `குரல்` record whole across PDF 31–32 with page-segment provenance. The closed song inventory has no retained occurrence in scenes 11–15.
+Batch 16–20 preserves both closed source-context-attributed supplements in scene 17, keeps four new cross-page logical units intact, and translates scene 19 `ammaiyappan-song-003` only as the printed cue that Muthan is singing. No absent title, lyrics or authorship are reconstructed.
 
-**Next:** translate and source-review archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and translate only the source-visible singing-performance cue in scene 19 (`ammaiyappan-song-003`); do not reconstruct a song title or lyrics.
+**Next:** translate and source-review archival scenes **21–25** from the frozen verified derivatives. Preserve exact Tamil speaker labels/source-role provenance and page ownership; keep cross-page units whole; consult the closed song/performance inventory before introducing any performance unit.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
