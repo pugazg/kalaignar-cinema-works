@@ -101,14 +101,14 @@ Character identity is an English aid only; exact Tamil labels remain provenance 
 
 Do not promote `கதை வசனம் / மு. கருணாநிதி` into lyric authorship and do not import absent lyrics from film audio, websites, subtitles, later editions or memory.
 
-## English translation — ACTIVE through scene 45
+## English translation — ACTIVE through scene 50
 
 Current verified checkpoint:
 
-- scenes: **45/63**;
-- verified units: **1,000/1,000**;
-- dialogue units: **853** = **839 explicit immutable dialogue links + 14 source-role supplements**;
-- stage/action units: **144**;
+- scenes: **50/63**;
+- verified units: **1,035/1,035**;
+- dialogue units: **883** = **868 explicit immutable dialogue links + 15 source-role supplements**;
+- stage/action units: **149**;
 - standalone song-reference units: **2**;
 - japa units: **1**;
 - cross-page units: **23**;
@@ -116,27 +116,27 @@ Current verified checkpoint:
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**;
 - reader/export: **blocked pending complete English**.
 
-Current files include `translations/records/scene-001.json`–`scene-045.json`, all prior batch reviews, `BATCH_041_045_REVIEW.md`, and `translations/index.json`.
+Current files include `translations/records/scene-001.json`–`scene-050.json`, all prior batch reviews, `BATCH_046_050_REVIEW.md`, and `translations/index.json`.
 
-## Batch 41–45 safeguards
+## Batch 46–50 safeguards
 
-Batch 41–45 is **21/21 verified units**:
+Batch 46–50 is **35/35 verified units**:
 
-- 13 explicit dialogue links;
-- 0 source-role supplements;
-- 8 separate stage/action units;
-- 1 cross-page unit — scene 41 `ammaiyappan-en-s041-u001` across PDF 85→86 / printed 83→84;
+- 29 explicit dialogue links;
+- 1 source-role supplement — `ammaiyappan-s050-r001`;
+- 5 separate stage/action units;
+- 0 cross-page units;
 - 0 retained song/performance occurrences;
 - 0 frozen source files modified.
 
 Important decisions:
 
-- scene 41 is action-only; the storm/tree-fall sequence remains one cross-page stage unit and no dialogue is invented;
-- scene 42's elliptical `பெண்ணை வந்தொரு மாயப் பிசாசு...` line remains immutable Vedalam dialogue; no song/verse occurrence is manufactured;
-- scene 42 preserves exact `வணிகர்` / `வணி` labels and does not repair frozen `இல்ல ை` spacing upstream;
-- scene 43 preserves exact source label `தன`; record-aware merchant identity does not rewrite provenance;
-- scene 44 keeps source-owned `(பார்க்கிறாள்)` inside Sumathi's immutable dialogue rather than splitting it into a separate action;
-- scene 45 preserves exact `முத்தன்` / `முத்` / `தனவணிகர்` / `தன` labels and the source's `சீமான் இனம்` class accusation without euphemizing it.
+- scene 46 preserves exact `சுக` / `வே` source labels and does not add motive beyond Vedalam's printed promise;
+- scene 47 preserves `குறும்பு` / `கரும்பு` through transliteration plus gloss, and frozen `என்னுடைய வரையும்` is handled contextually without Tamil repair;
+- scene 48 retains `nishta`, keeps `(தனக்குள்)` and `(ஓடுகிறான்.)` inside their immutable dialogue records, and preserves the `வேதாளம் மறுபடியும் முருங்க மரம் ஏறுகிறது` image rather than replacing it with an unrelated English idiom;
+- scene 49 preserves the liberation-force rhetoric, frozen `சேர்த்து க்கொண்டு` / `வீணுக`, and treats `சுகம்` by immediate sense without forcing a name substitution;
+- scene 50 preserves `அத்தான்` as `Aththan`; `ammaiyappan-s050-r001` remains `source-context-attributed` Sukhadev speech after the source cue and is not promoted to a printed label;
+- the closed song/performance inventory has no retained occurrence in scenes 46–50.
 
 Earlier safeguards remain active, including scene-40 japa occurrence handling: `ammaiyappan-song-004` is a character japa cue, not a soundtrack song, and no title/lyrics/authorship are reconstructed.
 
@@ -144,4 +144,4 @@ Translation must preserve archive scene ID, PDF/printed-page provenance, exact s
 
 ## Exact next activity
 
-> **Fetch live `main`; confirm the English checkpoint is 45/63 scenes and 1,000 verified units; then translate and source-review archival scenes 46–50 from the frozen verified derivatives. Inspect the closed source-role layer: scene 50 contains `ammaiyappan-s050-r001`, which must remain `source-context-attributed` provenance and must not become a manufactured printed speaker label. The closed song/performance inventory has no retained occurrence in scenes 46–50. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page units whole, and do not modify frozen Tamil/dialogue/character/song evidence. After the batch synchronize translation/work/repository status mirrors and refresh this handover and `NEXT_CHAT_PROMPT.md`.**
+> **Fetch live `main`; confirm the English checkpoint is 50/63 scenes and 1,035 verified units; then translate and source-review archival scenes 51–55 from the frozen verified derivatives. The closed source-role layer has no supplement in scenes 51–55 and the closed song/performance inventory has no retained occurrence in that range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page units whole, and do not modify frozen Tamil/dialogue/character/song evidence. After the batch synchronize translation/work/repository status mirrors and refresh this handover and `NEXT_CHAT_PROMPT.md`.**
