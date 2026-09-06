@@ -1,0 +1,98 @@
+name: Ammayappan semicolon boundary reconcile once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-semicolon-reconcile-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reconcile missed semicolon speaker boundary
+        run: |
+          python works/ammaiyappan/scripts/reconcile_semicolon_speaker_boundary.py
+      - name: Validate dialogue, character and English pilot state
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          d=root/'dialogues'; c=root/'characters'; t=root/'translations'; n=root/'notes'
+          rows=json.loads((d/'records/scene-003.json').read_text(encoding='utf-8'))
+          assert rows[0]['id']=='ammaiyappan-s003-d001'
+          assert rows[0]['speaker_label']=='பல'
+          assert rows[0]['text']=='பூங்காவனம்-பூங்காவனம்.......'
+          supp=json.loads((d/'source-role-resolved-records.json').read_text(encoding='utf-8'))
+          assert len(supp)==16
+          new=[x for x in supp if x['id']=='ammaiyappan-s003-r001']
+          assert len(new)==1
+          assert new[0]['speaker_label']=='பூங்'
+          assert new[0]['source_delimiter']==';'
+          assert new[0]['text']=='என்ன அண்ணா...என்ன விசேஷம்.......'
+          fi=json.loads((d/'final-index.json').read_text(encoding='utf-8'))
+          assert fi['explicit_colon_dialogue_records']==1009
+          assert fi['source_role_resolved_dialogue_records']==16
+          assert fi['total_dialogue_units_for_downstream_indexing']==1025
+          assert fi['explicit_exact_speaker_labels']==62
+          qa=json.loads((n/'dialogue-final-qa.json').read_text(encoding='utf-8'))
+          assert qa['status']=='pass' and qa['total_dialogue_units']==1025
+          ci=json.loads((c/'index.json').read_text(encoding='utf-8'))
+          assert ci['dialogue_records_source']==1025
+          assert ci['dialogue_unit_coverage']=='1025/1025'
+          assert ci['entity_count']==26 and ci['distinct_source_labels']==62
+          li=json.loads((c/'labels-inventory.json').read_text(encoding='utf-8'))
+          poong=next(x for x in li['labels'] if x['speaker_label']=='பூங்')
+          assert poong['record_count']==35
+          ent=json.loads((c/'entities.json').read_text(encoding='utf-8'))
+          pe=next(x for x in ent['entities'] if x['id']=='ammaiyappan-char-poongavanam')
+          assert pe['dialogue_record_count']==41
+          assert json.loads((c/'record-aware-dispositions.json').read_text(encoding='utf-8'))['record_aware_record_count']==187
+          ti=json.loads((t/'index.json').read_text(encoding='utf-8'))
+          assert ti['status']=='pilot-verified' and ti['scenes_verified']==[1] and ti['translation_units']==34
+          pre=json.loads((t/'preflight.json').read_text(encoding='utf-8'))
+          assert pre['authority']['dialogue_final_index']=='1025-downstream-units-complete-source-role-resolved'
+          audit=json.loads((n/'dialogue-semicolon-delimiter-reconciliation.json').read_text(encoding='utf-8'))
+          assert audit['status']=='complete-pass'
+          assert audit['canonical_tamil_changed'] is False
+          assert audit['existing_dialogue_record_ids_renumbered'] is False
+          print('AMMAYAPPAN SEMICOLON RECONCILIATION PASS — 1009 + 16 = 1025')
+          PY
+          grep -F '1,025/1,025 downstream units' works/ammaiyappan/README.md
+          grep -F 'pilot-verified — scene 1/63, 34/34 pilot units' works/ammaiyappan/README.md
+          grep -F 'source_role_supplements: 16' works/ammaiyappan/metadata.yaml
+          grep -F 'complete-source-role-resolved-1025-of-1025' works/ammaiyappan/metadata.yaml
+      - name: Commit reconciled derivative state
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/dialogues \
+                  works/ammaiyappan/characters \
+                  works/ammaiyappan/notes/dialogue-final-qa.json \
+                  works/ammaiyappan/notes/dialogue-semicolon-delimiter-reconciliation.json \
+                  works/ammaiyappan/translations \
+                  works/ammaiyappan/scripts/build_character_preflight.py \
+                  works/ammaiyappan/scripts/build_character_entities.py \
+                  works/ammaiyappan/scripts/build_english_translation_pilot.py \
+                  works/ammaiyappan/README.md \
+                  works/ammaiyappan/PROJECT_HANDOVER.md \
+                  works/ammaiyappan/metadata.yaml \
+                  data/works.json
+          if git diff --cached --quiet; then
+            echo "No reconciliation changes"
+          else
+            git commit -m "Reconcile Ammayappan semicolon speaker boundary [skip ci]"
+            git push origin HEAD:main
+          fi
