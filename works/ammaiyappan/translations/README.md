@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 25 / 63; 608/608 current units verified**
+**Status:** **verified through archival scene 30 / 63; 738/738 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -109,18 +109,32 @@ Scenes 21–25 add **131 verified units**:
 
 Scene 21 keeps source-irregular forms such as `மாகமே`, `காகரத்த` and `கம்பிய` visible through transliteration/notes rather than silently repairing them. Scene 22 preserves political rhetoric, exact source ownership and the `வால்` / `வாள்` wordplay. Scene 23 retains the `அமிர்த யோகம்` / `ராகு காலம்` contrast. Scene 24 preserves exact abbreviated labels and the frozen `மிலக்கிறீர்` / `திலங்கர்` forms without altering source evidence. Detailed QA is in `BATCH_021_025_REVIEW.md`.
 
-## Cumulative English status through scene 25
+### Batch — scenes 26–30
 
-- verified scenes: **25/63**;
-- verified units: **608**;
-- dialogue units: **517** = **507 explicit dialogue records + 10 source-role supplements**;
-- stage/action units: **89**;
+Scenes 26–30 add **130 verified units**:
+
+- explicit dialogue links: **107/107**;
+- source-role supplements: **3/3** — two in scene 27 and one in scene 30;
+- stage/action units: **20**;
+- standalone song/verse/japa/performance units: **0**;
+- cross-page logical units: **5** — scenes 26, 27, 29 (two) and 30;
+- retained source-only song/performance occurrences encountered: **0**;
+- decorative stars translated as prose: **0**.
+
+Live `dialogues/source-role-resolved-records.json` corrected the stale prior handoff assumption that scenes 26–30 had no supplements: `ammaiyappan-s027-r001`, `ammaiyappan-s027-r002` and `ammaiyappan-s030-r001` are already-closed source-context-attributed records and are linked without inventing printed speaker labels. Scene 30 keeps Muthan's self-described Purananuru poem inside immutable dialogue record `ammaiyappan-s030-d007`; it is translated semantically/poetically as source-owned dialogue, not split into a new literary-verse derivative or supplemented from an external text. Detailed QA is in `BATCH_026_030_REVIEW.md`.
+
+## Cumulative English status through scene 30
+
+- verified scenes: **30/63**;
+- verified units: **738**;
+- dialogue units: **627** = **614 explicit dialogue records + 13 source-role supplements**;
+- stage/action units: **109**;
 - standalone song-reference units: **2**;
-- cross-page units: **11**;
+- cross-page units: **16**;
 - song/performance occurrence links: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **26–30** from the frozen verified derivatives. The closed source-role layer has no supplements in scenes 26–30, and the closed song/performance inventory has no retained occurrence in this range. Preserve exact Tamil speaker labels and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
+Translate and source-review archival scenes **31–35** from the frozen verified derivatives. The closed source-role layer contains **one** supplement in this range — `ammaiyappan-s035-r001`; the closed song/performance inventory contains **no retained occurrence** in scenes 31–35. Preserve exact Tamil speaker labels, source-role origin and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
