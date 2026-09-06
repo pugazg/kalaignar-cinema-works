@@ -1,0 +1,29 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-verified-reconciled",
+  "dialogue_index": "../dialogues/final-index.json",
+  "schema": "schema.json",
+  "label_inventory": "labels-inventory.json",
+  "record_aware_dispositions": "record-aware-dispositions.json",
+  "entities": "entities.json",
+  "dialogue_records_source": 1024,
+  "distinct_source_labels": 62,
+  "entity_count": 26,
+  "verified_entities": 26,
+  "review_entities": 0,
+  "unresolved_entities": 0,
+  "verified_labels": 62,
+  "review_labels": 0,
+  "unresolved_labels": 0,
+  "record_aware_labels": [
+    "முத்",
+    "தன"
+  ],
+  "record_aware_records": 187,
+  "label_coverage": "62/62",
+  "dialogue_unit_coverage": "1024/1024",
+  "remaining_unmapped_labels": 0,
+  "remaining_unmapped_records": 0,
+  "dialogue_records_modified": false,
+  "next_activity": "Open English translation/reconciliation only after synchronizing work-level handover/status to this completed character/entity layer."
+}

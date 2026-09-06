@@ -1,0 +1,937 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-verified",
+  "distinct_source_labels": 62,
+  "labels": [
+    {
+      "speaker_label": "(திகிலுடன்) முத்",
+      "record_count": 1,
+      "scenes": [
+        6
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-muthan"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "அர",
+      "record_count": 2,
+      "scenes": [
+        60
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-vengai-king"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "அரச",
+      "record_count": 1,
+      "scenes": [
+        60
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-vengai-king"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "ஆள்",
+      "record_count": 5,
+      "scenes": [
+        20
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-recruit-man-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "குரல்",
+      "record_count": 1,
+      "scenes": [
+        15
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-voice-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "குறு",
+      "record_count": 3,
+      "scenes": [
+        27
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-kurumban"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "குறும்பன்",
+      "record_count": 4,
+      "scenes": [
+        20,
+        33,
+        52
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-kurumban"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சக்கரவர்த்தி",
+      "record_count": 1,
+      "scenes": [
+        55
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-vengai-king"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சாமி",
+      "record_count": 6,
+      "scenes": [
+        4,
+        56
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சாமியார்",
+      "record_count": 1,
+      "scenes": [
+        56
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சுக",
+      "record_count": 95,
+      "scenes": [
+        1,
+        6,
+        8,
+        14,
+        29,
+        31,
+        35,
+        36,
+        40,
+        42,
+        46,
+        48,
+        51,
+        53,
+        54,
+        56,
+        62
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-sukhadev"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சுகதேவ்",
+      "record_count": 42,
+      "scenes": [
+        1,
+        7,
+        10,
+        11,
+        13,
+        29,
+        31,
+        35,
+        50,
+        56,
+        58
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-sukhadev"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சும",
+      "record_count": 8,
+      "scenes": [
+        25,
+        28,
+        47
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-sumathi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "சுமதி",
+      "record_count": 17,
+      "scenes": [
+        7,
+        21,
+        23,
+        25,
+        28,
+        44
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-sumathi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தன",
+      "record_count": 10,
+      "scenes": [
+        36,
+        43,
+        45
+      ],
+      "mapping_mode": "record-aware",
+      "entity_ids": [
+        "ammaiyappan-char-thanapathi",
+        "ammaiyappan-char-thanavanigar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தனபதி",
+      "record_count": 15,
+      "scenes": [
+        18,
+        20,
+        36
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-thanapathi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தனவணிகர்",
+      "record_count": 1,
+      "scenes": [
+        45
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-thanavanigar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தள",
+      "record_count": 1,
+      "scenes": [
+        49
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-velazhagan"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "திரி",
+      "record_count": 55,
+      "scenes": [
+        8,
+        14,
+        29,
+        35,
+        37
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-tirisangu"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "திரிசங்கு",
+      "record_count": 45,
+      "scenes": [
+        7,
+        8,
+        10,
+        11,
+        13,
+        16,
+        19,
+        27,
+        29,
+        35,
+        37
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-tirisangu"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "திரு",
+      "record_count": 4,
+      "scenes": [
+        5
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-tirisangu"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "திருசங்கு",
+      "record_count": 3,
+      "scenes": [
+        8,
+        10
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-tirisangu"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தோழ 2",
+      "record_count": 1,
+      "scenes": [
+        39
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-comrade-2-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தோழன் 1",
+      "record_count": 1,
+      "scenes": [
+        39
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-comrade-1-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தோழன் 2",
+      "record_count": 1,
+      "scenes": [
+        39
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-comrade-2-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "தோழன் 3",
+      "record_count": 1,
+      "scenes": [
+        39
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-comrade-3-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "நண்",
+      "record_count": 1,
+      "scenes": [
+        1
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-friend-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "நண்பன்",
+      "record_count": 1,
+      "scenes": [
+        17
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-friend-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பறையடிப்பவன்",
+      "record_count": 1,
+      "scenes": [
+        36
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-drummer-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பல",
+      "record_count": 20,
+      "scenes": [
+        3,
+        38,
+        56
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-baladevar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பலதேவர்",
+      "record_count": 6,
+      "scenes": [
+        1,
+        9,
+        38
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-baladevar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பூங்",
+      "record_count": 34,
+      "scenes": [
+        3,
+        6,
+        14,
+        15,
+        56,
+        58,
+        60,
+        62,
+        63
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-poongavanam"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பூங்காவனம்",
+      "record_count": 6,
+      "scenes": [
+        13,
+        58,
+        60
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-poongavanam"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பூப",
+      "record_count": 4,
+      "scenes": [
+        56
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-poobathi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "பூபதி",
+      "record_count": 20,
+      "scenes": [
+        4,
+        18,
+        56,
+        60,
+        62,
+        63
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-poobathi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மக்கள்",
+      "record_count": 1,
+      "scenes": [
+        18
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-people-collective"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மாப்பிள்ளை",
+      "record_count": 1,
+      "scenes": [
+        62
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மாய்",
+      "record_count": 2,
+      "scenes": [
+        58
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மாய்கை",
+      "record_count": 16,
+      "scenes": [
+        1,
+        4
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மாய்கைநாதர்",
+      "record_count": 1,
+      "scenes": [
+        4
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மாய்க்கை",
+      "record_count": 2,
+      "scenes": [
+        18
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "மாய்க்கை நாதர்",
+      "record_count": 6,
+      "scenes": [
+        18
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-maykainathar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "முத்",
+      "record_count": 177,
+      "scenes": [
+        1,
+        5,
+        6,
+        8,
+        14,
+        15,
+        17,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        39,
+        45,
+        47,
+        50,
+        51,
+        52,
+        53,
+        58,
+        59,
+        63
+      ],
+      "mapping_mode": "record-aware",
+      "entity_ids": [
+        "ammaiyappan-char-muthan",
+        "ammaiyappan-char-muthayi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "முத்தன்",
+      "record_count": 95,
+      "scenes": [
+        2,
+        7,
+        11,
+        17,
+        19,
+        20,
+        21,
+        22,
+        26,
+        27,
+        33,
+        34,
+        35,
+        36,
+        39,
+        45,
+        52,
+        59
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-muthan"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "முத்தா",
+      "record_count": 2,
+      "scenes": [
+        63
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-muthayi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "முத்தாயி",
+      "record_count": 63,
+      "scenes": [
+        7,
+        8,
+        11,
+        16,
+        21,
+        23,
+        27,
+        28,
+        35,
+        36,
+        39,
+        47,
+        52,
+        58
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-muthayi"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "ராணி",
+      "record_count": 3,
+      "scenes": [
+        13,
+        56
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-queen"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வணி",
+      "record_count": 2,
+      "scenes": [
+        36,
+        42
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-thanavanigar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வணிகர்",
+      "record_count": 1,
+      "scenes": [
+        42
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-thanavanigar"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீர",
+      "record_count": 2,
+      "scenes": [
+        5
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warrior-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீரன்",
+      "record_count": 10,
+      "scenes": [
+        12,
+        22,
+        30,
+        33,
+        34
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warrior-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீரன் 1",
+      "record_count": 3,
+      "scenes": [
+        30,
+        57
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warrior-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீரன் 2",
+      "record_count": 2,
+      "scenes": [
+        30,
+        57
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warrior-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீரன் 3",
+      "record_count": 1,
+      "scenes": [
+        30
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warrior-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீரன் 4",
+      "record_count": 1,
+      "scenes": [
+        30
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warrior-role"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வீரர்கள்",
+      "record_count": 3,
+      "scenes": [
+        30
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-warriors-collective"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வே",
+      "record_count": 25,
+      "scenes": [
+        17,
+        24,
+        40,
+        46,
+        48,
+        49,
+        50
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-vedalam"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வேதா",
+      "record_count": 64,
+      "scenes": [
+        2,
+        24,
+        25,
+        26,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        38,
+        40,
+        42,
+        52,
+        54
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-vedalam"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வேதாளம்",
+      "record_count": 45,
+      "scenes": [
+        4,
+        12,
+        17,
+        20,
+        22,
+        24,
+        25,
+        29,
+        31,
+        33,
+        37,
+        38,
+        40,
+        42
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-vedalam"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வேல",
+      "record_count": 41,
+      "scenes": [
+        26,
+        27,
+        30,
+        33,
+        36,
+        52
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-velazhagan"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வேலழ",
+      "record_count": 2,
+      "scenes": [
+        24
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-velazhagan"
+      ],
+      "unresolved_record_count": 0
+    },
+    {
+      "speaker_label": "வேலழகன்",
+      "record_count": 35,
+      "scenes": [
+        9,
+        12,
+        22,
+        24,
+        26,
+        27,
+        33,
+        52
+      ],
+      "mapping_mode": "global",
+      "entity_ids": [
+        "ammaiyappan-char-velazhagan"
+      ],
+      "unresolved_record_count": 0
+    }
+  ]
+}

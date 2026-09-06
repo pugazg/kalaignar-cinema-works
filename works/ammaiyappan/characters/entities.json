@@ -1,0 +1,896 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-verified-reconciled",
+  "source_label_inventory": "labels-inventory.json",
+  "dialogue_index": "../dialogues/final-index.json",
+  "record_aware_dispositions": "record-aware-dispositions.json",
+  "dialogue_records_source": 1024,
+  "distinct_source_labels": 62,
+  "entity_count": 26,
+  "verified_entity_count": 26,
+  "review_entity_count": 0,
+  "unresolved_entity_count": 0,
+  "verified_label_count": 62,
+  "review_label_count": 0,
+  "unresolved_label_count": 0,
+  "record_aware_label_count": 2,
+  "record_aware_record_count": 187,
+  "coverage_note": "All 1,024 downstream dialogue units and all 62 exact source speaker labels have a verified disposition. `முத்` and `தன` are record-aware; no dialogue evidence is rewritten.",
+  "entities": [
+    {
+      "id": "ammaiyappan-char-muthan",
+      "preferred_name_ta": "முத்தன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "(திகிலுடன்) முத்",
+        "முத்தன்"
+      ],
+      "record_aware_source_labels": [
+        "முத்"
+      ],
+      "observed_source_labels": [
+        "(திகிலுடன்) முத்",
+        "முத்",
+        "முத்தன்"
+      ],
+      "scenes": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11,
+        14,
+        15,
+        17,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        27,
+        30,
+        33,
+        34,
+        35,
+        36,
+        39,
+        45,
+        51,
+        52,
+        59,
+        63
+      ],
+      "dialogue_record_count": 176,
+      "record_aware_record_count": 80,
+      "supporting_records": [
+        "ammaiyappan-s001-d002",
+        "ammaiyappan-s001-d005",
+        "ammaiyappan-s001-d007"
+      ],
+      "notes": "Central character. Exact label `முத்` is record-aware because the same shorthand is also used for முத்தாயி."
+    },
+    {
+      "id": "ammaiyappan-char-muthayi",
+      "preferred_name_ta": "முத்தாயி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "முத்தா",
+        "முத்தாயி"
+      ],
+      "record_aware_source_labels": [
+        "முத்"
+      ],
+      "observed_source_labels": [
+        "முத்",
+        "முத்தா",
+        "முத்தாயி"
+      ],
+      "scenes": [
+        7,
+        8,
+        11,
+        16,
+        21,
+        23,
+        27,
+        28,
+        29,
+        35,
+        36,
+        39,
+        47,
+        50,
+        52,
+        53,
+        58,
+        59,
+        63
+      ],
+      "dialogue_record_count": 162,
+      "record_aware_record_count": 97,
+      "supporting_records": [
+        "ammaiyappan-s007-d025",
+        "ammaiyappan-s007-d027",
+        "ammaiyappan-s007-d029"
+      ],
+      "notes": "Central character. Scene 63 establishes source label `முத்தா` as முத்தாயி; exact label `முத்` is record-aware."
+    },
+    {
+      "id": "ammaiyappan-char-sukhadev",
+      "preferred_name_ta": "சுகதேவ்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "சுக",
+        "சுகதேவ்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "சுக",
+        "சுகதேவ்"
+      ],
+      "scenes": [
+        1,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        29,
+        31,
+        35,
+        36,
+        40,
+        42,
+        46,
+        48,
+        50,
+        51,
+        53,
+        54,
+        56,
+        58,
+        62
+      ],
+      "dialogue_record_count": 137,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s001-d001",
+        "ammaiyappan-s001-d003",
+        "ammaiyappan-s001-d004"
+      ],
+      "notes": "Recurring prince character; abbreviated and full labels are contextually continuous."
+    },
+    {
+      "id": "ammaiyappan-char-sumathi",
+      "preferred_name_ta": "சுமதி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "சும",
+        "சுமதி"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "சும",
+        "சுமதி"
+      ],
+      "scenes": [
+        7,
+        21,
+        23,
+        25,
+        28,
+        44,
+        47
+      ],
+      "dialogue_record_count": 25,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s007-d024",
+        "ammaiyappan-s007-d026",
+        "ammaiyappan-s007-d028"
+      ],
+      "notes": "Recurring named character; abbreviated and full labels are contextually continuous."
+    },
+    {
+      "id": "ammaiyappan-char-thanapathi",
+      "preferred_name_ta": "தனபதி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "தனபதி"
+      ],
+      "record_aware_source_labels": [
+        "தன"
+      ],
+      "observed_source_labels": [
+        "தன",
+        "தனபதி"
+      ],
+      "scenes": [
+        18,
+        20,
+        36
+      ],
+      "dialogue_record_count": 16,
+      "record_aware_record_count": 1,
+      "supporting_records": [
+        "ammaiyappan-s018-d003",
+        "ammaiyappan-s018-d005",
+        "ammaiyappan-s020-d002"
+      ],
+      "notes": "Recurring named/title character. Exact label `தன` is record-aware because it is also reused for தனவணிகர்."
+    },
+    {
+      "id": "ammaiyappan-char-thanavanigar",
+      "preferred_name_ta": "தனவணிகர்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "தனவணிகர்",
+        "வணி",
+        "வணிகர்"
+      ],
+      "record_aware_source_labels": [
+        "தன"
+      ],
+      "observed_source_labels": [
+        "தன",
+        "தனவணிகர்",
+        "வணி",
+        "வணிகர்"
+      ],
+      "scenes": [
+        36,
+        42,
+        43,
+        45
+      ],
+      "dialogue_record_count": 13,
+      "record_aware_record_count": 9,
+      "supporting_records": [
+        "ammaiyappan-s036-d008",
+        "ammaiyappan-s036-d009",
+        "ammaiyappan-s036-d011"
+      ],
+      "notes": "The same merchant with the child recurs across scenes 36, 42, 43 and 45. Exact label `தன` is record-aware because scene 36 also uses it once for தனபதி."
+    },
+    {
+      "id": "ammaiyappan-char-tirisangu",
+      "preferred_name_ta": "திரிசங்கு",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "திரி",
+        "திரிசங்கு",
+        "திரு",
+        "திருசங்கு"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "திரி",
+        "திரிசங்கு",
+        "திரு",
+        "திருசங்கு"
+      ],
+      "scenes": [
+        5,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        16,
+        19,
+        27,
+        29,
+        35,
+        37
+      ],
+      "dialogue_record_count": 107,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s005-d002",
+        "ammaiyappan-s005-d004",
+        "ammaiyappan-s005-d006"
+      ],
+      "notes": "Recurring character. The source varies abbreviation/spelling and includes the exceptional `திரு; ...` delimiter; dialogue evidence remains unchanged."
+    },
+    {
+      "id": "ammaiyappan-char-baladevar",
+      "preferred_name_ta": "பலதேவர்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "பல",
+        "பலதேவர்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "பல",
+        "பலதேவர்"
+      ],
+      "scenes": [
+        1,
+        3,
+        9,
+        38,
+        56
+      ],
+      "dialogue_record_count": 26,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s001-d029",
+        "ammaiyappan-s003-d001",
+        "ammaiyappan-s003-d002"
+      ],
+      "notes": "Recurring pாளையக்காரர் character; abbreviated/full labels are continuous."
+    },
+    {
+      "id": "ammaiyappan-char-poongavanam",
+      "preferred_name_ta": "பூங்காவனம்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "பூங்",
+        "பூங்காவனம்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "பூங்",
+        "பூங்காவனம்"
+      ],
+      "scenes": [
+        3,
+        6,
+        13,
+        14,
+        15,
+        56,
+        58,
+        60,
+        62,
+        63
+      ],
+      "dialogue_record_count": 40,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s003-d003",
+        "ammaiyappan-s003-d005",
+        "ammaiyappan-s003-d007"
+      ],
+      "notes": "Recurring named character; abbreviated/full labels are continuous."
+    },
+    {
+      "id": "ammaiyappan-char-poobathi",
+      "preferred_name_ta": "பூபதி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "பூப",
+        "பூபதி"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "பூப",
+        "பூபதி"
+      ],
+      "scenes": [
+        4,
+        18,
+        56,
+        60,
+        62,
+        63
+      ],
+      "dialogue_record_count": 24,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s004-d003",
+        "ammaiyappan-s004-d005",
+        "ammaiyappan-s004-d007"
+      ],
+      "notes": "Recurring physician character; abbreviated/full labels are continuous."
+    },
+    {
+      "id": "ammaiyappan-char-maykainathar",
+      "preferred_name_ta": "மாய்கைநாதர் / மாப்பிள்ளைதாசு",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "சாமி",
+        "சாமியார்",
+        "மாப்பிள்ளை",
+        "மாய்",
+        "மாய்கை",
+        "மாய்கைநாதர்",
+        "மாய்க்கை",
+        "மாய்க்கை நாதர்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "சாமி",
+        "சாமியார்",
+        "மாப்பிள்ளை",
+        "மாய்",
+        "மாய்கை",
+        "மாய்கைநாதர்",
+        "மாய்க்கை",
+        "மாய்க்கை நாதர்"
+      ],
+      "scenes": [
+        1,
+        4,
+        18,
+        56,
+        58,
+        62
+      ],
+      "dialogue_record_count": 35,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s001-d014",
+        "ammaiyappan-s001-d016",
+        "ammaiyappan-s001-d018"
+      ],
+      "notes": "One recurring ascetic character across source spelling/abbreviation forms. Scenes 61–62 identify the later மாப்பிள்ளைதாசு/மாப்பிள்ளை form as the same சாமியார்; no dialogue label is rewritten."
+    },
+    {
+      "id": "ammaiyappan-char-vedalam",
+      "preferred_name_ta": "வேதாளம்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "வே",
+        "வேதா",
+        "வேதாளம்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "வே",
+        "வேதா",
+        "வேதாளம்"
+      ],
+      "scenes": [
+        2,
+        4,
+        12,
+        17,
+        20,
+        22,
+        24,
+        25,
+        26,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        38,
+        40,
+        42,
+        46,
+        48,
+        49,
+        50,
+        52,
+        54
+      ],
+      "dialogue_record_count": 134,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s002-d001",
+        "ammaiyappan-s002-d003",
+        "ammaiyappan-s002-d005"
+      ],
+      "notes": "Recurring character; source contexts establish `வே` here as வேதாளம்."
+    },
+    {
+      "id": "ammaiyappan-char-velazhagan",
+      "preferred_name_ta": "வேலழகன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "தள",
+        "வேல",
+        "வேலழ",
+        "வேலழகன்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "தள",
+        "வேல",
+        "வேலழ",
+        "வேலழகன்"
+      ],
+      "scenes": [
+        9,
+        12,
+        22,
+        24,
+        26,
+        27,
+        30,
+        33,
+        36,
+        49,
+        52
+      ],
+      "dialogue_record_count": 79,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s009-d002",
+        "ammaiyappan-s009-d004",
+        "ammaiyappan-s009-d006"
+      ],
+      "notes": "Recurring commander character. Scene 49 establishes `தள` as the தளபதி வேலழகன்."
+    },
+    {
+      "id": "ammaiyappan-char-kurumban",
+      "preferred_name_ta": "குறும்பன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "குறு",
+        "குறும்பன்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "குறு",
+        "குறும்பன்"
+      ],
+      "scenes": [
+        20,
+        27,
+        33,
+        52
+      ],
+      "dialogue_record_count": 7,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s020-d001",
+        "ammaiyappan-s020-d008",
+        "ammaiyappan-s027-d007"
+      ],
+      "notes": "Recurring subordinate character; abbreviated/full labels are continuous."
+    },
+    {
+      "id": "ammaiyappan-char-vengai-king",
+      "preferred_name_ta": "வேங்கை நாட்டு மன்னன்",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "அர",
+        "அரச",
+        "சக்கரவர்த்தி"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "அர",
+        "அரச",
+        "சக்கரவர்த்தி"
+      ],
+      "scenes": [
+        55,
+        60
+      ],
+      "dialogue_record_count": 4,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s055-d001",
+        "ammaiyappan-s060-d003",
+        "ammaiyappan-s060-d005"
+      ],
+      "notes": "Unnamed Vengai ruler. Scene 55 uses `சக்கரவர்த்தி`; scene 60 uses `அரச`/`அர` for the same ruler."
+    },
+    {
+      "id": "ammaiyappan-char-queen",
+      "preferred_name_ta": "பலதேவர் மனைவி / ராணி",
+      "entity_type": "character",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "ராணி"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "ராணி"
+      ],
+      "scenes": [
+        13,
+        56
+      ],
+      "dialogue_record_count": 3,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s013-d006",
+        "ammaiyappan-s013-d013",
+        "ammaiyappan-s056-d007"
+      ],
+      "notes": "Unnamed recurring wife of பலதேவர் and mother of சுகதேவ்; source scene 13 explicitly identifies this relationship."
+    },
+    {
+      "id": "ammaiyappan-char-recruit-man-role",
+      "preferred_name_ta": "ஆள்",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "ஆள்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "ஆள்"
+      ],
+      "scenes": [
+        20
+      ],
+      "dialogue_record_count": 5,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s020-d003",
+        "ammaiyappan-s020-d005",
+        "ammaiyappan-s020-d007"
+      ],
+      "notes": "Generic recruit/man label reused for more than one person in the enlistment scene; this is a role category, not one continuing individual."
+    },
+    {
+      "id": "ammaiyappan-char-voice-role",
+      "preferred_name_ta": "குரல்",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "குரல்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "குரல்"
+      ],
+      "scenes": [
+        15
+      ],
+      "dialogue_record_count": 1,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s015-d001"
+      ],
+      "notes": "Source-visible voice/performance label; no unsupported human identity is imposed."
+    },
+    {
+      "id": "ammaiyappan-char-friend-role",
+      "preferred_name_ta": "நண்பன்",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "நண்",
+        "நண்பன்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "நண்",
+        "நண்பன்"
+      ],
+      "scenes": [
+        1,
+        17
+      ],
+      "dialogue_record_count": 2,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s001-d012",
+        "ammaiyappan-s017-d002"
+      ],
+      "notes": "Generic friend label/category across Muthan's friend groups; grouping does not assert one physical person."
+    },
+    {
+      "id": "ammaiyappan-char-comrade-1-role",
+      "preferred_name_ta": "தோழன் 1",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "தோழன் 1"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "தோழன் 1"
+      ],
+      "scenes": [
+        39
+      ],
+      "dialogue_record_count": 1,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s039-d002"
+      ],
+      "notes": "Source-numbered unnamed comrade role."
+    },
+    {
+      "id": "ammaiyappan-char-comrade-2-role",
+      "preferred_name_ta": "தோழன் 2",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "தோழ 2",
+        "தோழன் 2"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "தோழ 2",
+        "தோழன் 2"
+      ],
+      "scenes": [
+        39
+      ],
+      "dialogue_record_count": 2,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s039-d003",
+        "ammaiyappan-s039-d006"
+      ],
+      "notes": "Source-numbered unnamed comrade role; `தோழ 2` is the same numbered role within scene 39."
+    },
+    {
+      "id": "ammaiyappan-char-comrade-3-role",
+      "preferred_name_ta": "தோழன் 3",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "தோழன் 3"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "தோழன் 3"
+      ],
+      "scenes": [
+        39
+      ],
+      "dialogue_record_count": 1,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s039-d004"
+      ],
+      "notes": "Source-numbered unnamed comrade role."
+    },
+    {
+      "id": "ammaiyappan-char-drummer-role",
+      "preferred_name_ta": "பறையடிப்பவன்",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "பறையடிப்பவன்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "பறையடிப்பவன்"
+      ],
+      "scenes": [
+        36
+      ],
+      "dialogue_record_count": 1,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s036-d007"
+      ],
+      "notes": "Unnamed public-announcement/drummer role."
+    },
+    {
+      "id": "ammaiyappan-char-warrior-role",
+      "preferred_name_ta": "வீரன்",
+      "entity_type": "role",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "வீர",
+        "வீரன்",
+        "வீரன் 1",
+        "வீரன் 2",
+        "வீரன் 3",
+        "வீரன் 4"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "வீர",
+        "வீரன்",
+        "வீரன் 1",
+        "வீரன் 2",
+        "வீரன் 3",
+        "வீரன் 4"
+      ],
+      "scenes": [
+        5,
+        12,
+        22,
+        30,
+        33,
+        34,
+        57
+      ],
+      "dialogue_record_count": 19,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s005-d007",
+        "ammaiyappan-s005-d009",
+        "ammaiyappan-s012-d001"
+      ],
+      "notes": "Generic/numbered warrior labels grouped as a role category; this does not assert that every occurrence is one soldier."
+    },
+    {
+      "id": "ammaiyappan-char-people-collective",
+      "preferred_name_ta": "மக்கள்",
+      "entity_type": "collective",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "மக்கள்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "மக்கள்"
+      ],
+      "scenes": [
+        18
+      ],
+      "dialogue_record_count": 1,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s018-d002"
+      ],
+      "notes": "Collective source label."
+    },
+    {
+      "id": "ammaiyappan-char-warriors-collective",
+      "preferred_name_ta": "வீரர்கள்",
+      "entity_type": "collective",
+      "status": "verified",
+      "confidence": "high",
+      "global_source_labels": [
+        "வீரர்கள்"
+      ],
+      "record_aware_source_labels": [],
+      "observed_source_labels": [
+        "வீரர்கள்"
+      ],
+      "scenes": [
+        30
+      ],
+      "dialogue_record_count": 3,
+      "record_aware_record_count": 0,
+      "supporting_records": [
+        "ammaiyappan-s030-d008",
+        "ammaiyappan-s030-d010",
+        "ammaiyappan-s030-d013"
+      ],
+      "notes": "Collective source label, kept distinct from singular warrior-role records."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ammaiyappan-character-index-schema",
+  "title": "Ammayappan character/entity derivative",
+  "description": "Verified derivative mapping exact dialogue labels and record-aware reused shorthands to stable entities/role categories. Dialogue records remain immutable.",
+  "type": "object",
+  "required": [
+    "work_id",
+    "status",
+    "entities"
+  ],
+  "properties": {
+    "work_id": {
+      "const": "ammaiyappan"
+    },
+    "status": {
+      "enum": [
+        "in-progress",
+        "complete-verified-reconciled"
+      ]
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "preferred_name_ta",
+          "entity_type",
+          "status",
+          "confidence",
+          "global_source_labels",
+          "record_aware_source_labels",
+          "scenes",
+          "dialogue_record_count",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^ammaiyappan-char-[a-z0-9-]+$"
+          },
+          "preferred_name_ta": {
+            "type": "string",
+            "minLength": 1
+          },
+          "entity_type": {
+            "enum": [
+              "character",
+              "role",
+              "collective",
+              "unresolved"
+            ]
+          },
+          "status": {
+            "enum": [
+              "verified",
+              "review",
+              "unresolved"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "global_source_labels": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "record_aware_source_labels": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "scenes": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 63
+            }
+          },
+          "dialogue_record_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
