@@ -1,7 +1,7 @@
 {
   "work_id": "ammaiyappan",
   "target_language": "en",
-  "status": "pilot-verified",
+  "status": "verified-through-scene-005",
   "schema": "schema.json",
   "readme": "README.md",
   "preflight": "preflight.json",
@@ -10,22 +10,18 @@
   "pilot_scene": "ammaiyappan-s001",
   "source_scene_numbering": "none-printed",
   "scenes_expected": 63,
-  "scenes_started": [
-    1
-  ],
-  "scenes_verified": [
-    1
-  ],
+  "scenes_started": [1, 2, 3, 4, 5],
+  "scenes_verified": [1, 2, 3, 4, 5],
   "scenes_in_review": [],
-  "translation_units": 34,
+  "translation_units": 108,
   "unit_status_counts": {
     "draft": 0,
     "review": 0,
-    "verified": 34
+    "verified": 108
   },
   "unit_kind_counts": {
-    "dialogue": 31,
-    "stage-direction": 3,
+    "dialogue": 95,
+    "stage-direction": 13,
     "song-reference": 0,
     "literary-verse": 0,
     "japa": 0,
@@ -38,19 +34,53 @@
       "path": "records/scene-001.json",
       "unit_count": 34,
       "status": "verified"
+    },
+    {
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "path": "records/scene-002.json",
+      "unit_count": 17,
+      "status": "verified"
+    },
+    {
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "path": "records/scene-003.json",
+      "unit_count": 12,
+      "status": "verified"
+    },
+    {
+      "scene_id": "ammaiyappan-s004",
+      "archival_scene_ordinal": 4,
+      "path": "records/scene-004.json",
+      "unit_count": 30,
+      "status": "verified"
+    },
+    {
+      "scene_id": "ammaiyappan-s005",
+      "archival_scene_ordinal": 5,
+      "path": "records/scene-005.json",
+      "unit_count": 15,
+      "status": "verified"
     }
   ],
-  "dialogue_source_records_expected_in_completed_scenes": 31,
-  "dialogue_source_records_linked": 31,
-  "source_role_supplement_records_linked": 0,
-  "cross_page_translation_units": [],
+  "dialogue_source_records_expected_in_completed_scenes": 93,
+  "dialogue_source_records_linked": 93,
+  "source_role_supplement_records_linked": 2,
+  "cross_page_translation_units": [
+    "ammaiyappan-en-s004-u002"
+  ],
   "translated_song_performance_occurrences": [],
   "source_visible_structural_stars_translated": 0,
   "completed_batches": [
-    "pilot scene 1"
+    "pilot scene 1",
+    "scenes 2-5"
   ],
-  "next_scene_batch": "2-5",
-  "next_activity": "Translate and source-review archival scenes 2-5 using the verified pilot voice rules; preserve exact dialogue/source-role provenance and closed song/performance evidence.",
+  "batch_review_paths": [
+    "BATCH_002_005_REVIEW.md"
+  ],
+  "next_scene_batch": "6-10",
+  "next_activity": "Translate and source-review archival scenes 6-10. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation; translate only source-visible material and preserve all source/dialogue provenance.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
