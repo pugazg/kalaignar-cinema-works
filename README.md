@@ -74,7 +74,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` now has **closed canonical Tamil and closed scene-text derivatives**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` has **closed canonical Tamil, closed structured derivatives, and active verified English translation**.
 
 - canonical Tamil: **105/105 dual-gate complete-verified**;
 - visual fidelity / historical-glyph audit: **105/105 / 105/105 PASS**;
@@ -83,12 +83,16 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - canonical source-visible scene boundaries: **63**;
 - archive-only scene derivatives: **63/63 complete-verified**;
 - boundary ownership: **PASS — 0 gaps / 0 overlaps / 105 pages represented**;
-- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`;
-- dialogue index: **READY**;
-- character index: blocked pending dialogue index;
-- English / reader: blocked by derivative gate order.
+- explicit colon-labelled dialogue records: **1,009**;
+- source-role supplements: **16**;
+- downstream dialogue units: **1,025**;
+- character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
+- post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
+- song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
+- English translation: **pilot verified — scene 1/63 / 34 verified units**;
+- reader/export: blocked pending complete English.
 
-**Next:** build the dialogue index from the 63 verified scene files, preserving exact source speaker labels and page provenance.
+**Next:** translate and source-review archival scenes **2–5** using the verified scene-1 pilot voice rules and exact source/dialogue provenance.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
