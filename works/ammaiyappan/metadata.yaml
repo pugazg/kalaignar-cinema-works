@@ -266,8 +266,24 @@ structured_derivatives:
   english_translation_cross_page_units: 28
   english_translation_song_performance_occurrence_links: 5
   english_translation_next_scene_batch: null
-  reader_export: not-started-pending-preflight
-  reading_room_integration: blocked-pending-reader-export
+  english_reader_preflight: complete-pass
+  english_reader_preflight_report_path: "editions/en/PREFLIGHT_QA_REPORT.md"
+  english_reader_preflight_script_path: "editions/en/audit_probe.py"
+  english_reader_preflight_workflow_path: "../../.github/workflows/ammaiyappan-english-reader-preflight.yml"
+  english_reader_preflight_workflow_run_id: 34025680568
+  english_reader_preflight_head_commit: "ae554f92faf7a9b0f4005c42cc28c8b3e8e95d36"
+  english_reader_preflight_dialogue_links_missing: 0
+  english_reader_preflight_dialogue_links_extra: 0
+  english_reader_preflight_dialogue_links_duplicate: 0
+  english_reader_preflight_cross_page_errors: 0
+  english_reader_preflight_occurrence_identity_errors: 0
+  english_reader_preflight_synthetic_scene_end_units: 0
+  english_reader_preflight_structural_star_units: 0
+  english_reader_preflight_page_order_regressions: 0
+  english_reader_preflight_unit_id_errors: 0
+  english_reader_preflight_provenance_errors: 0
+  reader_export: ready-after-preflight
+  reading_room_integration: blocked-pending-reader-export-generation-and-qa
 
 status:
   duplicate_work_check: complete
@@ -285,7 +301,7 @@ status:
   character_entity_index: complete-verified-reconciled-26-entities-62-labels-1025-units
   song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
   english_translation: complete-verified-63-of-63-1210-units
-  reader_export: not-started-pending-preflight
-  reading_room_integration: blocked-pending-reader-export
+  reader_export: ready-after-preflight
+  reading_room_integration: blocked-pending-reader-export-generation-and-qa
 
-next_action: "Run whole-work English reader/export preflight from the complete-verified 63-scene translation. Generate reader/export from verified structured records rather than an independent manual copy; preserve archival scene IDs as navigation only, exact source provenance, all 1,025 dialogue units, all 28 cross-page units and all five source-visible occurrence links."
+next_action: "Generate deterministic English reader/export derivatives from the complete-verified structured translation in Markdown, standalone HTML and machine-readable JSON; preserve all 1,210 units, 1,025 dialogue/source-role links, 28 cross-page units, five occurrence identities / seven source-span links, exact provenance and archive-only scene numbering. Then run generated-output QA and write an integrity manifest before Reading Room integration."

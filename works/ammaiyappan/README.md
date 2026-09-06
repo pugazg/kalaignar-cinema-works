@@ -120,7 +120,8 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
 | English translation | **complete-verified — 63/63 scenes / 1,210 units; final reconciliation PASS** |
-| Reader/export | **not started — next production phase is reader/export preflight** |
+| English reader/export preflight | **complete-pass — 63 scenes / 1,210 units / 1,025 dialogue links** |
+| Reader/export generation | **ready / not started** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
@@ -143,6 +144,10 @@ Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`, `translations/BA
 
 Final batch 61–63 adds **22** verified units: **16** explicit dialogue links and **6** stage/action units. Scene 61 remains action-only and does not identify the masked substitute before the next scene reveals him. Scene 62 preserves the masked-prisoner revelation, Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the final `speech ends; life ends` parallel. Scene 63 preserves `Aththan` / `Amma` register shifts, mother-recognition and liberation rhetoric; its four-line closing stanza remains inside immutable dialogue record `ammaiyappan-s063-d012`, and frozen `அண்ணலின் விலங்கொடிப்ப ோம்` retains `Annal` as a source term rather than receiving an unsupported stronger gloss.
 
+## Reader/export preflight — PASS
+
+The executable whole-work gate passed across **63/63 scene records and 1,210/1,210 verified units**. It independently confirmed all **1,009 explicit dialogue records + 16 source-role supplements = 1,025/1,025 dialogue links exactly once**, all **28** cross-page units, and all **5** retained occurrence identities across **7** intentionally distinct source-span links. Missing/extra/duplicate dialogue links, provenance errors, page regressions, unit-ID errors, structural-star prose units and synthetic scene-end units are all **0**. See `editions/en/PREFLIGHT_QA_REPORT.md`.
+
 ## Exact next activity
 
-**Run whole-work English reader/export preflight from the complete-verified 63-scene structured translation. Generate reader/export from the verified records rather than maintaining an independent manual copy. Preserve archive scene IDs as navigation only, exact source provenance, all 1,025 dialogue units, all 28 cross-page units and all five source-visible occurrence links.**
+**Generate deterministic English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON from the verified structured translation. Preserve all 1,210 units, exact Tamil speaker-label/source-role provenance, all 28 cross-page units, the five occurrence identities/seven source-span links, and archive-only scene numbering. Then run generated-output QA and write an integrity manifest before Reading Room integration.**

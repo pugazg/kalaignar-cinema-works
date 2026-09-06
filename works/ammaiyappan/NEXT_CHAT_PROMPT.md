@@ -96,7 +96,8 @@ Final verified English checkpoint:
 - unique source-visible song/performance occurrence links: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**;
 - whole-work source/linkage reconciliation: **PASS** — `translations/FINAL_TRANSLATION_QA.md`;
-- reader/export: **not started; whole-work reader/export preflight is next**.
+- reader/export preflight: **complete-pass** — workflow run **34025680568** at `ae554f92faf7a9b0f4005c42cc28c8b3e8e95d36`;
+- reader/export generation: **ready / not started**.
 
 ## FINAL BATCH 61–63 LOCKED DECISIONS
 
@@ -158,7 +159,9 @@ Before further changes, read the current versions of:
 22. `works/ammaiyappan/translations/PILOT_REVIEW.md`
 23. all completed `works/ammaiyappan/translations/BATCH_*_REVIEW.md` files
 24. `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`
-25. verified translation records `scene-001.json`–`scene-063.json` as needed for the reader/export preflight.
+25. `works/ammaiyappan/editions/en/PREFLIGHT_QA_REPORT.md`
+26. `works/ammaiyappan/editions/en/audit_probe.py`
+27. verified translation records `scene-001.json`–`scene-063.json` as needed for reader/export generation and QA.
 
 Also inspect any newer Ammaiyappan reader/export or audit/status file added after this prompt.
 
@@ -177,6 +180,4 @@ Unless live `main` contains newer explicit source-backed evidence, do not redo:
 
 If downstream work exposes a genuine source defect, isolate it as a post-closure correction and repair only the smallest affected derivative chain with dependent QA.
 
-## EXACT NEXT ACTIVITY
-
-> **Fetch live `main`; confirm English translation is complete-verified at 63/63 scenes and 1,210 units with `translations/FINAL_TRANSLATION_QA.md` PASS. Then run whole-work English reader/export preflight from the verified structured translation. The reader must be generated from the translation records rather than maintained as an independent manual copy. Verify one-to-one preservation of all 1,210 translation units, all 1,025 dialogue units, all 28 cross-page units, all five source-visible occurrence links, exact Tamil speaker-label/source-role provenance, and archive-only scene numbering. Do not alter frozen Tamil/dialogue/character/song evidence. Record the preflight QA before building reader outputs; if preflight passes, synchronize work/repository status mirrors and make reader/export construction the next activity.**
+> **Fetch live `main`; confirm English translation remains complete-verified at 63/63 scenes / 1,210 units and `editions/en/PREFLIGHT_QA_REPORT.md` is PASS. Then build deterministic English reader/export derivatives directly from the verified translation records — Markdown, standalone HTML and machine-readable JSON — never an independent manual copy. Preserve every one of the 1,210 translation units, all 1,025 dialogue/source-role links, all 28 cross-page units with page segments, all five occurrence identities across seven intentional source-span links, exact Tamil speaker-label/source-role provenance and archive-only scene numbering. Do not alter frozen Tamil/dialogue/character/song evidence. After generation run whole-work generated-output QA, write an integrity manifest, synchronize all current mirrors, and only then consider Reading Room integration.**

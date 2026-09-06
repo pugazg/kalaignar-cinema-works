@@ -118,7 +118,8 @@ Final whole-work checkpoint:
 - unique source-visible song/performance occurrence links: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**;
 - whole-work English reconciliation: **PASS** — `translations/FINAL_TRANSLATION_QA.md`;
-- reader/export: **not started; preflight is the next production phase**.
+- reader/export preflight: **complete-pass — executable GitHub Actions gate**;
+- reader/export generation: **ready / not started**.
 
 The English dialogue census now exactly equals the closed downstream source authority: **1,009 explicit + 16 supplements = 1,025/1,025**.
 
@@ -161,6 +162,10 @@ Earlier safeguards remain active, including exact semicolon provenance in scenes
 
 This PASS is source/linkage reconciliation. It does not claim an executable JSON-schema validator or CI run unless separately executed and recorded.
 
+## Reader/export preflight — PASS
+
+Executable workflow `.github/workflows/ammaiyappan-english-reader-preflight.yml` passed at run **34025680568** / head `ae554f92faf7a9b0f4005c42cc28c8b3e8e95d36`. The probe verified **63/63 scene records, 1,210/1,210 units, 1,025/1,025 dialogue/source-role links exactly once, 28 cross-page units, five occurrence identities across seven intentional source-span links, exact speaker-label/source-role provenance, and archive-only scene numbering**, with zero audit errors or warnings. Full record: `editions/en/PREFLIGHT_QA_REPORT.md`.
+
 ## Exact next activity
 
-> **Fetch live `main`; confirm English translation is complete-verified at 63/63 scenes and 1,210 units with `FINAL_TRANSLATION_QA.md` PASS. Then run whole-work English reader/export preflight from the verified structured translation. Generate the reader/export from the translation records rather than maintaining an independent manual copy. Preserve archive scene IDs as navigation only, exact Tamil speaker-label provenance, all 1,025 dialogue units, all 28 cross-page units and all five source-visible occurrence links. Do not alter frozen Tamil/dialogue/character/song evidence. After preflight, record its QA and synchronize work/repository status mirrors before building reader outputs.**
+> **Fetch live `main`; preserve the complete-verified English translation and reader/export preflight PASS. Build deterministic publication-facing English reader/export derivatives from the verified translation records — Markdown, standalone HTML and machine-readable JSON — without maintaining an independent manual copy. Preserve all 1,210 units, all 1,025 dialogue/source-role links, all 28 cross-page units, all five occurrence identities/seven source-span links, exact Tamil speaker-label/source-role provenance and archive-only scene numbering. Then run generated-output QA and write an integrity manifest before Reading Room integration. Do not alter frozen Tamil/dialogue/character/song evidence.**

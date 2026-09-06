@@ -240,6 +240,10 @@ Scene 61 is action-only: Muthan's friends create the rescue diversion and the ma
 
 Whole-work source/linkage reconciliation is **PASS** in `FINAL_TRANSLATION_QA.md`. All 1,009 explicit dialogue records and all 16 closed source-role supplements are linked exactly once; all five retained song/performance occurrences are represented without reconstructing absent lyrics/title/authorship; archival scene IDs remain navigation derivatives only.
 
+## Reader/export preflight — PASS
+
+The executable whole-work gate passed across all **63 scene records / 1,210 verified units**. It confirmed **1,025/1,025 dialogue/source-role links exactly once**, all **28** cross-page units with matching page segments, exact Tamil speaker-label/source-role provenance, all **5** retained occurrence identities across **7** intentional source-span links, and archive-only scene numbering. It found **0** missing/extra/duplicate dialogue links, provenance errors, page regressions, unit-ID errors, synthetic scene-end units or direct structural-star prose units. See `../editions/en/PREFLIGHT_QA_REPORT.md`.
+
 ## Next
 
-Proceed to **whole-work English reader/export preflight** generated from the complete-verified structured translation. Preserve the full 1,025-unit dialogue authority, all 28 cross-page units, all five source-visible occurrence links, exact Tamil speaker-label provenance and archive-only scene numbering. Do not maintain an independent manual reader copy.
+Generate deterministic publication-facing **Markdown, standalone HTML and machine-readable JSON** directly from the verified structured translation, then run generated-output QA and write an integrity manifest before Reading Room integration. Do not maintain an independent manual reader copy.

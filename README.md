@@ -98,11 +98,14 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - English cross-page units: **28**;
 - retained source-only occurrence links translated: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
 - whole-work English reconciliation: **PASS** — `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`;
-- reader/export: **not started; reader/export preflight is next**.
+- reader/export preflight: **complete-pass — executable 63-scene / 1,210-unit integrity gate**;
+- reader/export generation: **ready / not started**.
 
 Final batch 61–63 adds **22 verified units**: **16 explicit dialogue links + 6 stage/action units**, with no source-role supplement, retained song/performance occurrence or new cross-page unit. Scene 61 remains action-only and does not identify the masked substitute before scene 62. Scene 62 preserves the masked-prisoner revelation, Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the final `speech ends; life ends` parallel without external expansion. Scene 63 preserves the `Aththan` / `Amma` register, mother-recognition and liberation rhetoric; its closing stanza remains owned by immutable dialogue `ammaiyappan-s063-d012` rather than becoming a synthetic verse occurrence.
 
-**Next:** run whole-work English reader/export preflight from the complete-verified structured translation. Generate the reader/export from the verified records rather than maintaining an independent manual copy; preserve all 1,025 dialogue units, all 28 cross-page units, all five occurrence links and archive-only scene numbering.
+The **Ammayappan English reader/export preflight now passes** across all 63 scene records and 1,210 verified units: 1,025/1,025 dialogue/source-role links exactly once, 28 cross-page units, and all five retained occurrence identities across seven intentional source-span links, with zero missing/extra/duplicate dialogue links, provenance errors, page regressions, unit-ID errors, synthetic scene-end units or direct structural-star prose units.
+
+**Next:** generate deterministic English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON, then run generated-output QA and write an integrity manifest before Reading Room integration.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
