@@ -3,9 +3,9 @@
   "phase": "character-entity-preflight",
   "status": "review-ready",
   "dialogue_authority": "../dialogues/final-index.json",
-  "dialogue_units_scanned": 1024,
+  "dialogue_units_scanned": 1025,
   "explicit_dialogue_units": 1009,
-  "source_role_supplement_units": 15,
+  "source_role_supplement_units": 16,
   "distinct_labels_across_downstream_units": 62,
   "distinct_explicit_colon_labels": 62,
   "supplement_labels": [
@@ -14,6 +14,7 @@
     "திரி",
     "திரிசங்கு",
     "திரு",
+    "பூங்",
     "முத்தன்",
     "வேதாளம்",
     "வேல"
@@ -967,7 +968,7 @@
           "record_id": "ammaiyappan-s003-d001",
           "scene": 3,
           "heading": "பூங்காவனம் அறை",
-          "text_preview": "பூங்காவனம்-பூங்காவனம்.......\n\nபூங் ; என்ன அண்ணா...என்ன விசேஷம்......."
+          "text_preview": "பூங்காவனம்-பூங்காவனம்......."
         },
         {
           "record_id": "ammaiyappan-s003-d002",
@@ -1025,7 +1026,7 @@
     },
     {
       "speaker_label": "பூங்",
-      "record_count": 34,
+      "record_count": 35,
       "scene_count": 9,
       "scenes": [
         3,
@@ -1039,7 +1040,8 @@
         63
       ],
       "record_origins": {
-        "explicit-colon": 34
+        "explicit-colon": 34,
+        "source-explicit-noncolon-delimiter": 1
       },
       "sample_records": [
         "ammaiyappan-s003-d003",

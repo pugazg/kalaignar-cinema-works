@@ -6,7 +6,7 @@
   "label_inventory": "labels-inventory.json",
   "record_aware_dispositions": "record-aware-dispositions.json",
   "entities": "entities.json",
-  "dialogue_records_source": 1024,
+  "dialogue_records_source": 1025,
   "distinct_source_labels": 62,
   "entity_count": 26,
   "verified_entities": 26,
@@ -21,10 +21,9 @@
   ],
   "record_aware_records": 187,
   "label_coverage": "62/62",
-  "dialogue_unit_coverage": "1024/1024",
+  "dialogue_unit_coverage": "1025/1025",
   "remaining_unmapped_labels": 0,
   "remaining_unmapped_records": 0,
   "dialogue_records_modified": false,
-  "next_activity": "Begin English translation/reconciliation from the frozen verified Tamil, scene, dialogue, and character/entity layers.",
-  "status_synchronized": true
+  "next_activity": "Open English translation/reconciliation only after synchronizing work-level handover/status to this completed character/entity layer."
 }

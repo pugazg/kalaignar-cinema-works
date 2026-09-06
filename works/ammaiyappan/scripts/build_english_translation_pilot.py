@@ -293,7 +293,7 @@ def main() -> None:
         "authority": {
             "canonical_tamil": "105/105-dual-gate-complete-verified",
             "scene_derivatives": "63/63-complete-verified",
-            "dialogue_final_index": "1024-downstream-units-complete-source-role-resolved",
+            "dialogue_final_index": f"{json.loads((DIALOGUES / 'final-index.json').read_text(encoding='utf-8'))['total_dialogue_units_for_downstream_indexing']}-downstream-units-complete-source-role-resolved",
             "exact_source_speaker_labels": 62,
             "character_entity_index": "26-entities-complete-verified-reconciled",
             "song_performance_gate": "complete-verified-source-only",

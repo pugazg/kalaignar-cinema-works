@@ -2,9 +2,9 @@
 
 Status: **REVIEW READY**
 
-- dialogue units scanned: **1024**
+- dialogue units scanned: **1025**
 - explicit colon-labelled units: **1009**
-- source-role-resolved supplements: **15**
+- source-role-resolved supplements: **16**
 - distinct labels across downstream units: **62**
 
 ## Exact label inventory
@@ -40,7 +40,7 @@ Status: **REVIEW READY**
 - `பறையடிப்பவன்` — 1 records / 1 scenes — scenes [36]
 - `பல` — 20 records / 3 scenes — scenes [3, 38, 56]
 - `பலதேவர்` — 6 records / 3 scenes — scenes [1, 9, 38]
-- `பூங்` — 34 records / 9 scenes — scenes [3, 6, 14, 15, 56, 58, 60, 62, 63]
+- `பூங்` — 35 records / 9 scenes — scenes [3, 6, 14, 15, 56, 58, 60, 62, 63]
 - `பூங்காவனம்` — 6 records / 3 scenes — scenes [13, 58, 60]
 - `பூப` — 4 records / 1 scenes — scenes [56]
 - `பூபதி` — 20 records / 6 scenes — scenes [4, 18, 56, 60, 62, 63]

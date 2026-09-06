@@ -1,20 +1,20 @@
 # அம்மையப்பன் — character/entity index
 
 **Stage:** structured derivatives  
-**Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, and the complete 1,024-unit dialogue layer  
-**Character/entity status:** **COMPLETE VERIFIED RECONCILED — 62/62 exact labels, 1,024/1,024 dialogue units**
+**Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, and the complete 1,025-unit dialogue layer  
+**Character/entity status:** **COMPLETE VERIFIED RECONCILED — 62/62 exact labels, 1,025/1,025 dialogue units**
 
 This directory maps the immutable dialogue evidence to stable characters, unnamed roles, or collective categories. It never rewrites, normalizes, or relabels dialogue records.
 
 ## Completion summary
 
-- downstream dialogue units: **1,024**
+- downstream dialogue units: **1,025**
 - exact source speaker labels: **62**
 - stable entities / role categories: **26**
 - verified entities: **26**
 - unresolved entities: **0**
 - verified label coverage: **62/62**
-- dialogue-unit coverage: **1,024/1,024**
+- dialogue-unit coverage: **1,025/1,025**
 - record-aware exact labels: **2** — `முத்`, `தன`
 - record-aware units: **187**
 - unresolved record dispositions: **0**

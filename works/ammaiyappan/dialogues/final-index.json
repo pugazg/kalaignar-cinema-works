@@ -3,8 +3,8 @@
   "status": "complete-source-role-resolved",
   "explicit_colon_dialogue_records": 1009,
   "explicit_exact_speaker_labels": 62,
-  "source_role_resolved_dialogue_records": 15,
-  "total_dialogue_units_for_downstream_indexing": 1024,
+  "source_role_resolved_dialogue_records": 16,
+  "total_dialogue_units_for_downstream_indexing": 1025,
   "non_dialogue_resolved_source_units": 6,
   "raw_unlabelled_blocks_reviewed": 20,
   "unresolved_source_role_blocks": 0,
@@ -17,5 +17,6 @@
   "non_dialogue_exclusions": "../notes/non-dialogue-source-role-exclusions.json",
   "character_entity_gate": "complete-verified-reconciled",
   "character_entity_index": "../characters/index.json",
-  "next_activity": "Begin English translation/reconciliation from frozen verified Tamil and completed structured derivatives."
+  "next_activity": "Begin English translation/reconciliation from frozen verified Tamil and completed structured derivatives.",
+  "semicolon_boundary_correction": "scene-003 `பூங் ;` separated from preceding Baladevar record; source delimiter preserved"
 }

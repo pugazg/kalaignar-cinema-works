@@ -68,11 +68,11 @@ def main():
 
     explicit, supplements = load_records()
     assert len(explicit) == 1009
-    assert len(supplements) == 15
+    assert len(supplements) == final_index['source_role_resolved_dialogue_records']
     rows = explicit + supplements
-    assert len(rows) == 1024
-    assert len({r["id"] for r in rows}) == 1024
-    assert final_index["total_dialogue_units_for_downstream_indexing"] == 1024
+    expected_total = final_index['total_dialogue_units_for_downstream_indexing']
+    assert len(rows) == expected_total
+    assert len({r['id'] for r in rows}) == expected_total
 
     observed_labels = {r["speaker_label"] for r in rows}
     preflight_labels = {x["speaker_label"] for x in preflight["inventory"]}
@@ -122,8 +122,8 @@ def main():
         by_entity[key].append((r, row))
         by_label[label].append(row)
 
-    assert len(dispositions) == 1024
-    assert len({x["record_id"] for x in dispositions}) == 1024
+    assert len(dispositions) == expected_total
+    assert len({x['record_id'] for x in dispositions}) == expected_total
 
     muth_counts = Counter(x["entity_key"] for x in dispositions if x["source_speaker_label"] == "முத்")
     assert muth_counts == Counter({"muthan": 80, "muthayi": 97}), muth_counts
@@ -176,7 +176,7 @@ def main():
         })
 
     assert len(entities) == 26
-    assert sum(x["dialogue_record_count"] for x in entities) == 1024
+    assert sum(x["dialogue_record_count"] for x in entities) == expected_total
 
     shared = {
         label: sorted({x["entity_id"] for x in by_label[label]})
@@ -206,7 +206,7 @@ def main():
         "source_label_inventory": "labels-inventory.json",
         "dialogue_index": "../dialogues/final-index.json",
         "record_aware_dispositions": "record-aware-dispositions.json",
-        "dialogue_records_source": 1024,
+        "dialogue_records_source": expected_total,
         "distinct_source_labels": 62,
         "entity_count": 26,
         "verified_entity_count": 26,
@@ -217,7 +217,7 @@ def main():
         "unresolved_label_count": 0,
         "record_aware_label_count": 2,
         "record_aware_record_count": 187,
-        "coverage_note": "All 1,024 downstream dialogue units and all 62 exact source speaker labels have a verified disposition. `முத்` and `தன` are record-aware; no dialogue evidence is rewritten.",
+        "coverage_note": f"All {expected_total:,} downstream dialogue units and all 62 exact source speaker labels have a verified disposition. `முத்` and `தன` are record-aware; no dialogue evidence is rewritten.",
         "entities": entities,
     }
 
@@ -263,7 +263,7 @@ def main():
         "label_inventory": "labels-inventory.json",
         "record_aware_dispositions": "record-aware-dispositions.json",
         "entities": "entities.json",
-        "dialogue_records_source": 1024,
+        "dialogue_records_source": expected_total,
         "distinct_source_labels": 62,
         "entity_count": 26,
         "verified_entities": 26,
@@ -275,7 +275,7 @@ def main():
         "record_aware_labels": ["முத்", "தன"],
         "record_aware_records": 187,
         "label_coverage": "62/62",
-        "dialogue_unit_coverage": "1024/1024",
+        "dialogue_unit_coverage": f"{expected_total}/{expected_total}",
         "remaining_unmapped_labels": 0,
         "remaining_unmapped_records": 0,
         "dialogue_records_modified": False,
@@ -335,6 +335,8 @@ This directory maps the immutable dialogue evidence to stable characters, unname
 Synchronize the work-level handover/status to this closure, then open the English translation/reconciliation layer. Tamil dialogue evidence remains frozen unless a new source-backed correction is independently established.
 """
 
+    readme = readme.replace("1,024", f"{expected_total:,}")
+
     (C / "schema.json").write_text(json.dumps(schema, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (C / "labels-inventory.json").write_text(json.dumps({"work_id": "ammaiyappan", "status": "complete-verified", "distinct_source_labels": 62, "labels": label_inventory}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (C / "record-aware-dispositions.json").write_text(json.dumps(record_aware, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -343,7 +345,7 @@ Synchronize the work-level handover/status to this closure, then open the Englis
     (C / "README.md").write_text(readme, encoding="utf-8")
 
     print(json.dumps({
-        "dialogue_units": 1024,
+        "dialogue_units": expected_total,
         "labels": 62,
         "entities": 26,
         "record_aware_records": 187,

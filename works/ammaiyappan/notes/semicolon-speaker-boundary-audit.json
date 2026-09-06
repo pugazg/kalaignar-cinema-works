@@ -1,0 +1,23 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-pass",
+  "scope": "all 63 verified scene derivatives",
+  "semicolon_candidates_scanned": 46,
+  "true_source_speaker_semicolon_forms": [
+    "scene-003 `பூங் ;`",
+    "scene-005 `திரு;`"
+  ],
+  "already_correct_before_audit": [
+    "scene-005 `திரு;`"
+  ],
+  "corrected_by_this_pass": [
+    "scene-003 `பூங் ;`"
+  ],
+  "canonical_tamil_modified": false,
+  "source_punctuation_normalized": false,
+  "dialogue_explicit_colon_records": 1009,
+  "source_role_supplements": 16,
+  "downstream_dialogue_units": 1025,
+  "character_coverage": "1025/1025",
+  "remaining_unresolved": 0
+}

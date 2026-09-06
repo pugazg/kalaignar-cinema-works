@@ -21,8 +21,8 @@ def main():
     scenes=json.loads((S/'index.json').read_text(encoding='utf-8'))['scene_records']
     explicit,supp=load_records()
     assert len(explicit)==1009
-    assert len(supp)==15
-    assert fi['total_dialogue_units_for_downstream_indexing']==1024
+    assert len(supp)==fi['source_role_resolved_dialogue_records']
+    assert len(explicit)+len(supp)==fi['total_dialogue_units_for_downstream_indexing']
 
     rows=[]
     for r in explicit:
@@ -49,7 +49,7 @@ def main():
             'page_provenance':r['page_provenance'],
             'text_preview':r['text'][:180],
         })
-    assert len(rows)==1024
+    assert len(rows)==fi['total_dialogue_units_for_downstream_indexing']
 
     by_label=defaultdict(list)
     for r in rows: by_label[r['speaker_label']].append(r)

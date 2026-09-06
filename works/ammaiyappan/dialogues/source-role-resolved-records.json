@@ -1,5 +1,24 @@
 [
   {
+    "id": "ammaiyappan-s003-r001",
+    "archive_scene_id": "ammaiyappan-s003",
+    "archive_scene_ordinal": 3,
+    "source_scene_number": null,
+    "source_scene_file": "scene-003.md",
+    "source_block_id": "ammaiyappan-s003-semicolon-001",
+    "speaker_label": "பூங்",
+    "speaker_label_origin": "source-explicit-noncolon-delimiter",
+    "source_delimiter": ";",
+    "text": "என்ன அண்ணா...என்ன விசேஷம்.......",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 7
+      }
+    ],
+    "attribution_basis": "verified scene text prints exact source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......`; preserve semicolon and separate it from preceding Baladevar utterance"
+  },
+  {
     "id": "ammaiyappan-s005-r001",
     "archive_scene_id": "ammaiyappan-s005",
     "archive_scene_ordinal": 5,
