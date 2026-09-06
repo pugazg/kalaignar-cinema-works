@@ -17,6 +17,7 @@ on:
       - "works/ammaiyappan/editions/en/reader-edition.json"
       - "works/ammaiyappan/editions/en/manifest.json"
       - "works/ammaiyappan/integrations/reading-room/build.py"
+      - "works/ammaiyappan/integrations/reading-room/sync_status.py"
       - ".github/workflows/ammaiyappan-reading-room-payload.yml"
 
 permissions:
@@ -40,18 +41,31 @@ jobs:
       - name: Re-run whole-work English reader preflight
         run: python works/ammaiyappan/editions/en/audit_probe.py
 
+      - name: Synchronize completed Reading Room payload status
+        run: python works/ammaiyappan/integrations/reading-room/sync_status.py
+
       - name: Rebuild deterministic English reader checkpoint
         run: python works/ammaiyappan/editions/en/build.py
 
-      - name: Build and validate Reading Room payload
+      - name: Rebuild and validate Reading Room payload
         run: python works/ammaiyappan/integrations/reading-room/build.py
 
-      - name: Commit verified payload and refreshed reader manifest
+      - name: Commit verified payload and synchronized status
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            README.md \
+            data/works.json \
+            docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md \
+            docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/ammaiyappan/README.md \
+            works/ammaiyappan/PROJECT_HANDOVER.md \
+            works/ammaiyappan/NEXT_CHAT_PROMPT.md \
+            works/ammaiyappan/metadata.yaml \
+            works/ammaiyappan/translations/README.md \
+            works/ammaiyappan/translations/index.json \
             works/ammaiyappan/editions/en/reader-edition.md \
             works/ammaiyappan/editions/en/reader-edition.html \
             works/ammaiyappan/editions/en/reader-edition.json \
@@ -62,8 +76,8 @@ jobs:
             works/ammaiyappan/integrations/reading-room/QA_REPORT.md \
             works/ammaiyappan/integrations/reading-room/manifest.json
           if git diff --cached --quiet; then
-            echo "Reading Room payload and reader checkpoint are already reproducible; nothing to commit."
+            echo "Reading Room payload and status mirrors are already reproducible; nothing to commit."
           else
-            git commit -m "Build Ammayappan Reading Room payload [skip ci]"
+            git commit -m "Complete Ammayappan Reading Room payload [skip ci]"
             git push
           fi
