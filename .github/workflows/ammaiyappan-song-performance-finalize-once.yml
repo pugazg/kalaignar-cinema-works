@@ -1,0 +1,78 @@
+name: Ammayappan song performance finalize once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-song-performance-finalize-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Finalize song and performance gate
+        run: |
+          python works/ammaiyappan/scripts/finalize_song_performance_gate.py
+      - name: Validate finalized gate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=Path('works/ammaiyappan/songs')
+          idx=json.loads((s/'index.json').read_text(encoding='utf-8'))
+          inv=json.loads((s/'inventory.json').read_text(encoding='utf-8'))
+          cand=json.loads((s/'candidate-disposition.json').read_text(encoding='utf-8'))
+          credits=json.loads((s/'credits.json').read_text(encoding='utf-8'))
+          assert idx['status']=='complete-verified-source-only'
+          assert idx['authorship_gate']=='closed-with-evidence-limited-unresolved-occurrences'
+          assert idx['candidate_hits_reviewed']==64
+          assert idx['source_visible_occurrences']==5
+          assert idx['unresolved_authorship_occurrences']==3
+          assert idx['source_attributed_literary_quotation_occurrences']==1
+          assert idx['authorship_not_applicable_occurrences']==1
+          assert idx['full_named_song_lyric_blocks_printed']==0
+          assert idx['standalone_tamil_lyric_files_authorized']==0
+          assert idx['standalone_tamil_lyric_files_created']==0
+          assert idx['external_item_level_evidence_used'] is False
+          assert idx['canonical_tamil_changed'] is False
+          assert idx['english_translation_gate']=='ready'
+          assert inv['occurrence_count']==5
+          assert len(inv['occurrences'])==5
+          assert all(x['printed_lyric_body'] is False for x in inv['occurrences'])
+          assert all(x['standalone_tamil_lyric_derivative_authorized'] is False for x in inv['occurrences'])
+          assert cand['preflight_candidate_count']==64
+          assert cand['retained_candidate_hits']==6
+          assert cand['retained_occurrence_count']==5
+          assert cand['non_occurrence_candidate_hits']==58
+          assert len(cand['dispositions'])==64
+          assert credits['lyric_credit_present_in_controlling_booklet'] is False
+          assert credits['external_item_level_evidence_used'] is False
+          assert credits['canonical_tamil_changed_by_authorship_work'] is False
+          print('AMMAYAPPAN SONG/PERFORMANCE GATE VALID — 64/64 candidates; 5 occurrences; 0 full lyric bodies; English gate READY')
+          PY
+      - name: Commit finalized gate
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/songs/credits.json \
+                  works/ammaiyappan/songs/inventory.json \
+                  works/ammaiyappan/songs/candidate-disposition.json \
+                  works/ammaiyappan/songs/index.json \
+                  works/ammaiyappan/songs/schema.json \
+                  works/ammaiyappan/songs/README.md
+          if git diff --cached --quiet; then
+            echo "No song/performance gate changes"
+          else
+            git commit -m "Finalize Ammayappan song performance gate [skip ci]"
+            git push origin HEAD:main
+          fi
