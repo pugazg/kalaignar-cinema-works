@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ammaiyappan-song-performance-schema",
+  "title": "Ammayappan song/performance occurrence inventory",
+  "type": "object",
+  "required": [
+    "work_id",
+    "status",
+    "occurrence_count",
+    "occurrences"
+  ],
+  "properties": {
+    "work_id": {
+      "const": "ammaiyappan"
+    },
+    "status": {
+      "type": "string"
+    },
+    "occurrence_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "occurrences": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

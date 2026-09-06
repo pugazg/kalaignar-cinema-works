@@ -1,0 +1,18 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-verified-source-only",
+  "authorship_gate": "closed-with-evidence-limited-unresolved-occurrences",
+  "candidate_hits_reviewed": 64,
+  "source_visible_occurrences": 5,
+  "unresolved_authorship_occurrences": 3,
+  "source_attributed_literary_quotation_occurrences": 1,
+  "authorship_not_applicable_occurrences": 1,
+  "full_named_song_lyric_blocks_printed": 0,
+  "standalone_tamil_lyric_files_authorized": 0,
+  "standalone_tamil_lyric_files_created": 0,
+  "external_item_level_evidence_used": false,
+  "canonical_tamil_changed": false,
+  "english_translation_gate": "ready",
+  "source_rule": "Translate only the performance references, visible fragment, japa token and cues actually printed. Do not reconstruct absent lyrics.",
+  "next_activity": "Begin source-linked English translation using the verified Tamil/dialogue/character layers and this closed song/performance gate."
+}

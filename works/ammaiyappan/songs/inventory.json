@@ -1,0 +1,125 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-source-reconciled",
+  "canonical_authority": "verified 105/105 Tamil and 63/63 scene derivatives",
+  "occurrence_count": 5,
+  "occurrences": [
+    {
+      "id": "ammaiyappan-song-001",
+      "archive_scene_id": "ammaiyappan-s007",
+      "archive_scene_ordinal": 7,
+      "source_scene_file": "scene-007.md",
+      "page_provenance": [
+        {
+          "pdf_page": 18,
+          "printed_page": 16
+        }
+      ],
+      "occurrence_kind": "song-performance-reference",
+      "performers_source_visible": [
+        "முத்தன்",
+        "முத்தாயி"
+      ],
+      "source_visible_text": "[முத்தன்-முத்தாயி காதல் கீதம் பாட்டு முடியும் தருவாயில் சுமதி தன் இடையில் இருபுறங்களிலும் இரண்டு குடம் தண்ணீருடன் வருகிறாள். குடங்களை தூரத்தில் வைத்துவிட்டு முத்தன், முத்தாயி இருவரையும் பார்த்து தன் இரு கண்களையும் பொத்திக் கொண்டு அவர்களிடம் வந்து]",
+      "source_visible_title": null,
+      "printed_lyric_body": false,
+      "authorship_status": "unresolved-source-does-not-attribute",
+      "attributed_author_ta": null,
+      "standalone_tamil_lyric_derivative_authorized": false,
+      "notes": "The source says the Muthan–Muthayi love song is ending, but prints neither a title nor lyric lines. Do not import soundtrack lyrics or infer lyricist from story/dialogue credit."
+    },
+    {
+      "id": "ammaiyappan-song-002",
+      "archive_scene_id": "ammaiyappan-s010",
+      "archive_scene_ordinal": 10,
+      "source_scene_file": "scene-010.md",
+      "page_provenance": [
+        {
+          "pdf_page": 23,
+          "printed_page": 21
+        }
+      ],
+      "occurrence_kind": "quoted-literary-verse-fragment",
+      "performers_source_visible": [],
+      "source_visible_lead_in": "சுகதேவ் : அய்யய்யோ! முக்கால் வாசி ராமாயணமே அது தான், ஆஹா! கவிச்சக்கரவர்த்தி கம்பர் காதலைப் பற்றி எப்படி வாணித்திருக்கிறார் தெரியுமா... ஒரு பாட்டு கேளு திரிசங்கு...",
+      "source_visible_text": "கோமுனியுடன் வரு கொண்டல் என்றபின் தாமரைக் கண்ணினன் என்ற தன்மையால்...ஆம்...அவனே கொல் என்று ஐய நீங்கினள்...வாமமேகலையி வளர்ந்தது...",
+      "source_visible_title": null,
+      "printed_lyric_body": false,
+      "authorship_status": "source-attributed-literary-quotation",
+      "attributed_author_ta": "கம்பர்",
+      "standalone_tamil_lyric_derivative_authorized": false,
+      "notes": "Immediate source dialogue attributes the quotation to Kambar. It is retained as a partial literary verse quotation, not upgraded into a soundtrack-song credit or reconstructed full verse."
+    },
+    {
+      "id": "ammaiyappan-song-003",
+      "archive_scene_id": "ammaiyappan-s019",
+      "archive_scene_ordinal": 19,
+      "source_scene_file": "scene-019.md",
+      "page_provenance": [
+        {
+          "pdf_page": 39,
+          "printed_page": 37
+        }
+      ],
+      "occurrence_kind": "singing-performance-cue",
+      "performers_source_visible": [
+        "முத்தன்"
+      ],
+      "source_visible_text": "[முத்தன் பாடிக் கொண்டிருக்கும்போது அஞ்ச\nலோடி ஏதோ பைகளைக் தூக்கிக் கொண்டு\nவெளியே போகிறான் திரிசங்கு வருகிறான்.]",
+      "source_visible_title": null,
+      "printed_lyric_body": false,
+      "authorship_status": "unresolved-source-does-not-attribute",
+      "attributed_author_ta": null,
+      "standalone_tamil_lyric_derivative_authorized": false,
+      "notes": "The stage direction establishes that Muthan is singing, but the booklet prints no song title or lyric body at this occurrence."
+    },
+    {
+      "id": "ammaiyappan-song-004",
+      "archive_scene_id": "ammaiyappan-s040",
+      "archive_scene_ordinal": 40,
+      "source_scene_file": "scene-040.md",
+      "page_provenance": [
+        {
+          "pdf_page": 84,
+          "printed_page": 82
+        }
+      ],
+      "occurrence_kind": "japa-performance-cue",
+      "performers_source_visible": [
+        "சுகதேவ்"
+      ],
+      "source_visible_text": "[இளந்துறவி சுகதேவ், \"முத்தாயி\" ஜபத்துடன் நிஷ்டை இருக்கிறான். அப்போது துறவி வேடத்துடன் வேதாளம் வருகிறான்]",
+      "source_visible_spoken_token": "முத்தாயி...முத்தாயி...",
+      "source_visible_title": null,
+      "printed_lyric_body": false,
+      "authorship_status": "not-applicable-character-japa",
+      "attributed_author_ta": null,
+      "standalone_tamil_lyric_derivative_authorized": false,
+      "notes": "This is a source-visible character japa/performance cue, not a soundtrack-song authorship claim. The spoken `முத்தாயி` remains linked through the dialogue layer where labelled."
+    },
+    {
+      "id": "ammaiyappan-song-005",
+      "archive_scene_id": "ammaiyappan-s059",
+      "archive_scene_ordinal": 59,
+      "source_scene_file": "scene-059.md",
+      "page_provenance": [
+        {
+          "pdf_page": 106,
+          "printed_page": 104
+        }
+      ],
+      "occurrence_kind": "song-request-and-performance-cue",
+      "performers_source_visible": [
+        "முத்தாயி"
+      ],
+      "source_visible_lead_in": "கடைசியாக ஒன்று கேட்கிறேன் முத்தாயி; கடைசியாக ஒன்று கேட்கிறேன்! நாம் இருவரும் சேர்ந்து பாடுவோமே அந்தக் காதல் பாட்டு, அதை இனிமேல் எங்கு கேட்கப்போகிறேன்; எங்கே அதை ஒரு தடவை பாடு!... கண்ணே பாடு! நீ பாடாவிட்டால் உன் காதலன் நிம்மதியாக சாகமாட்டான்...பாடு கண்ணே, பாடு!",
+      "source_visible_text": "[அவள் பாடுகிறாள் அழுது கொண்டே. அவன் நடந்து கொண்டே இருக்கிறான் தூக்குமேடை நோக்கி]",
+      "source_visible_title": null,
+      "printed_lyric_body": false,
+      "authorship_status": "unresolved-source-does-not-attribute",
+      "attributed_author_ta": null,
+      "standalone_tamil_lyric_derivative_authorized": false,
+      "notes": "The source refers to `that love song we used to sing together` and shows Muthayi singing, but prints no title or lyric body. It may refer back to the recurring Muthan–Muthayi love-song performance, but the archive does not merge unnamed song identities without stronger source evidence."
+    }
+  ]
+}
