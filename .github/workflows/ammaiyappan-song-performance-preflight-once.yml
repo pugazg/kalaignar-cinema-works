@@ -1,0 +1,52 @@
+name: Ammayappan song performance preflight once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-song-performance-preflight-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build source-visible performance preflight
+        run: |
+          python works/ammaiyappan/scripts/build_song_performance_preflight.py
+      - name: Validate preflight
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('works/ammaiyappan/songs/performance-preflight.json').read_text(encoding='utf-8'))
+          assert p['status']=='review-ready'
+          assert p['scene_files_scanned']==63
+          assert p['candidate_count']==len(p['candidates'])
+          assert p['policy']['candidate_match_is_not_song_authorship_evidence'] is True
+          assert p['policy']['story_dialogue_credit_does_not_establish_lyric_authorship'] is True
+          assert p['policy']['external_lyrics_may_not_fill_absent_source_text'] is True
+          assert len({x['candidate_id'] for x in p['candidates']})==p['candidate_count']
+          print('AMMAYAPPAN SONG/PERFORMANCE PREFLIGHT VALID',p['candidate_count'])
+          PY
+      - name: Commit preflight
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/songs/performance-preflight.json \
+                  works/ammaiyappan/songs/performance-preflight.md
+          if git diff --cached --quiet; then
+            echo "No preflight changes"
+          else
+            git commit -m "Add Ammayappan song performance preflight [skip ci]"
+            git push origin HEAD:main
+          fi
