@@ -49,8 +49,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 |---|---:|---:|---:|---:|---|
 | PDF 5–9 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 10–14 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 15–71 | 57 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **10** | **0** | **10** | **partial-first-pass** |
+| PDF 15–19 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 20–71 | 52 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **15** | **0** | **15** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -62,19 +63,39 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
-## Source-irregular forms retained during PDF 10–14
+## PDF 15–19 scan-backed textual reconciliation
 
-- PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass; no semantic normalization is used as proof of another reading.
-- PDF 13 `கீல்வலிக்கார தங்கையன்` is preserved source-faithfully.
-- PDF 14 visibly prints `வாலாம்` twice; this remains `வாலாம்` rather than being normalized to `வரலாம்`.
+Direct enlarged-pixel comparison corrected five local first-pass readings:
 
-These are textual-fidelity decisions, not global historical-glyph substitution rules.
+- PDF 15 `எல்லோருக்கும்` — not `எல்லோருக்குமே`;
+- PDF 15 `உருண்டோடிடுமே` — the printed `மே` is retained;
+- PDF 17 `அவன் கை வலி` — not `அவனே கை வலி`;
+- PDF 19 `என்னே` — not `என்ன`;
+- PDF 19 `என் மருமகளும்` — not `என் மருமகனும்`.
+
+These are local source-fidelity corrections, not historical-family substitution rules. PDF 15–19 was nevertheless checked page-by-page for the full mandatory family set.
+
+## Source-irregular forms retained
+
+- PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass;
+- PDF 13 `கீல்வலிக்கார தங்கையன்` is preserved source-faithfully;
+- PDF 14 visibly prints `வாலாம்` twice;
+- PDF 15 `பிரேமா வாகவர்` remains as printed;
+- PDF 17's extended labour/tax rhetoric remains source-controlled;
+- PDF 19 `சோபிதத்தை`, `கானல் மாடுமே`, and `காதியின்` remain unmodernized first-pass readings.
+
+## Performance evidence affecting later gates
+
+- PDF 16 / `காட்சி 7` contains an explicit `[பாட்டு]` witness with three numbered sections. The booklet's PDF 4 item-level credit identifies **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. No outside lyric witness was used.
+- PDF 18 / `காட்சி 8` contains a source-visible lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. Its authorship remains unadjudicated.
+
+These observations are structural/source evidence only and do not bypass the canonical dual gate.
 
 ## Open source questions affecting the cumulative draft
 
-- PDF 5: one physically damaged introductory line remains unresolved; secure surrounding text is retained and the damaged span is marked explicitly in the canonical draft.
-- PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved; the approximate visible cluster is retained only inside an uncertainty marker.
-- PDF 10–14 introduced **0 new explicit uncertainty markers**.
+- PDF 5: one physically damaged introductory line remains unresolved;
+- PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved;
+- PDF 10–19 introduced **0 new explicit uncertainty markers**.
 
 Neither open issue is being guessed from context.
 
@@ -88,4 +109,4 @@ Neither open issue is being guessed from context.
 
 ## Next activity
 
-Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 15–19**. Do not mark PDF 5–14 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.
+Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 20–24**. Do not mark PDF 5–19 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.
