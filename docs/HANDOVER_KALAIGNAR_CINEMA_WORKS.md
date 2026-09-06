@@ -390,9 +390,9 @@ Always inspect current repository state.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate closed at **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **pilot verified — scene 1/63 / 34/34 units**; next bounded batch scenes **2–5**.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate closed at **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 5/63 / 108 units**; next bounded batch scenes **6–10**.
 
-Ammayappan's active work-local README, metadata and handover plus root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` use the post-correction 1,025-unit authority. Historical checkpoint prose may retain prior counts only when clearly historical.
+Ammayappan's active work-local README, metadata and handover plus translation index/QA, root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` use the post-correction 1,025-unit authority and the scene-5 English checkpoint. Historical checkpoint prose may retain prior counts only when clearly historical.
 
 ---
 
@@ -448,7 +448,10 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - character/entity index: **complete-verified-reconciled — 26 entities / 62/62 labels / 1,025/1,025 units**;
 - record-aware labels: `முத்` and `தன`;
 - song/performance authorship: **complete-verified-source-only — 64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
-- English translation: **pilot verified — archival scene 1/63 / 34/34 units**;
+- English translation: **verified through archival scene 5/63 / 108/108 current units**;
+- English dialogue units through scene 5: **95 = 93 explicit links + 2 source-role supplements**;
+- English stage/action units: **13**;
+- English cross-page units: **1**;
 - reader/export: blocked pending complete English.
 
 Post-closure source-delimiter authority:
@@ -457,4 +460,4 @@ Post-closure source-delimiter authority:
 - scene 5 `திரு; ...` remains source-explicit non-colon dialogue;
 - both semicolons are preserved; neither is normalized to `:`.
 
-**Exact next activity:** translate and source-review archival scenes **2–5** using `works/ammaiyappan/translations/records/scene-001.json` and `translations/PILOT_REVIEW.md` as the voice/structure precedent. Preserve exact Tamil labels and dialogue/source-role provenance, keep cross-page source units whole, create no prose for decorative `★`, and synchronize translation index/README/QA after the batch.
+**Exact next activity:** translate and source-review archival scenes **6–10**. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation. Use `songs/inventory.json`, translate only source-visible material, preserve all source/page/dialogue provenance, create no prose for decorative `★`, and do not reconstruct absent lyrics or verse.
