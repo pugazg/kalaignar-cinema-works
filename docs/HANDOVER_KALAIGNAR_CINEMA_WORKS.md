@@ -382,7 +382,7 @@ Always inspect current repository state.
 
 ---
 
-## 13. Current high-level project checkpoint — 2026-09-05
+## 13. Current high-level project checkpoint — 2026-09-06
 
 - **Parasakthi** — complete-verified canonical/structured English reader work.
 - **Tirumbippaar!** — complete-verified Tamil, scene/dialogue/character/song disposition, English translation, reader QA and deterministic EPUB package QA.
@@ -390,9 +390,9 @@ Always inspect current repository state.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 14-page story-and-song booklet; canonical Tamil PDF 2–13 complete-verified at 12/12 pages with 0 unresolved readings; credits, 1 continuous PDF 3–5 story-summary record and all 15 PDF 6–13 performance records complete-verified; cross-witness disposition remains 1 confirmed current-anthology witness / 14 source-only and booklet item-level lyricists remain 0 verified / 15 unresolved; English translation complete-verified at 1 story-summary record / 13 prose units plus 15/15 performance records / 52 sections / 234 Tamil-English line-cue pairs; deterministic bilingual reader/export complete-verified with QA PASS over 16 natural source structures and 234/234 paired performance line-cues; Reading Room integration payload complete-verified with QA PASS, source-linked composition mode, 32 linked source/translation targets, 15,704-byte payload and SHA-256 `20a0db293b936757e7d01def336252f28543337f319dfae6ad7bf5ae886bab43`; site application not applied.
 - **Raja Rani** — 79/79 source pages and 70/70 screenplay pages verified; 58/58 scene derivatives; 1,071 immutable dialogue records; 80/80 labels / 44 entities; screenplay English 58/58 at 1,236 units; numbered-song English 11/11 at 67 sections / 181 mapped line-cues; deterministic bilingual reader/export QA PASS; Reading Room payload QA PASS; site application not applied.
-- **Ammayappan** — 111-page image-only screenplay/dialogue source; first pass **105/105** assembled with QA PASS; visual source-fidelity audit has **PDF 5–74 passed (70/105)**; historical-Tamil-glyph audit is now a separate mandatory gate and is **0/105 formally cleared at gate introduction**; final dual-gate verified pages **0/105**; PDF 5–74 require retrospective glyph backfill, PDF 75–109 require both audits together; 29 unresolved first-pass readings; structured derivatives remain blocked.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate closed at **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **pilot verified — scene 1/63 / 34/34 units**; next bounded batch scenes **2–5**.
 
-The active Ammayappan work-local README, metadata, transcription README/index, project handover, historical-glyph audit, `data/works.json`, root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` are synchronized to the dual-gate terminology and counts.
+Ammayappan's active work-local README, metadata and handover plus root README, this master handover and `docs/STATUS_CONSISTENCY_AUDIT.md` use the post-correction 1,025-unit authority. Historical checkpoint prose may retain prior counts only when clearly historical.
 
 ---
 
@@ -441,10 +441,20 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - scene-text derivatives: **63/63 complete-verified**;
 - source-numbered scenes invented: **0**;
 - boundary ownership QA: **PASS — 0 gaps / 0 overlaps / 105 pages represented**;
-- scene derivative commit: `6a764137616879d08f5a1ff14431caafa87b11eb`;
-- dialogue index: **READY — next phase**;
-- character index: blocked pending dialogue closure;
-- song/performance authorship: not-started;
-- English / reader: blocked by derivative gate order.
+- dialogue index: **complete-source-role-resolved — 1,009 explicit + 16 supplements = 1,025 downstream units**;
+- exact source speaker labels: **62**;
+- unresolved source-role blocks: **0**;
+- source punctuation normalization: **0**;
+- character/entity index: **complete-verified-reconciled — 26 entities / 62/62 labels / 1,025/1,025 units**;
+- record-aware labels: `முத்` and `தன`;
+- song/performance authorship: **complete-verified-source-only — 64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
+- English translation: **pilot verified — archival scene 1/63 / 34/34 units**;
+- reader/export: blocked pending complete English.
 
-**Exact next activity:** build the dialogue index from `works/ammaiyappan/scenes/`, preserving exact source speaker labels plus scene/PDF provenance. Do not normalize character aliases in the dialogue phase. Run dialogue coverage QA before character indexing.
+Post-closure source-delimiter authority:
+
+- scene 3 `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct பூங்காவனம் dialogue supplement;
+- scene 5 `திரு; ...` remains source-explicit non-colon dialogue;
+- both semicolons are preserved; neither is normalized to `:`.
+
+**Exact next activity:** translate and source-review archival scenes **2–5** using `works/ammaiyappan/translations/records/scene-001.json` and `translations/PILOT_REVIEW.md` as the voice/structure precedent. Preserve exact Tamil labels and dialogue/source-role provenance, keep cross-page source units whole, create no prose for decorative `★`, and synchronize translation index/README/QA after the batch.
