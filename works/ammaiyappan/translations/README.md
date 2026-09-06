@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 20 / 63; 477/477 current units verified**
+**Status:** **verified through archival scene 25 / 63; 608/608 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -95,18 +95,32 @@ Scenes 16–20 add **122 verified units**:
 
 Scene 17 preserves both context-attributed supplements without inventing printed speaker labels. Scene 18 keeps the source-irregular Maykkai Nadhar record containing the extra `பூபதி:` token intact. Scene 19 translates only the printed cue that Muthan is singing and does not reconstruct a title or lyrics. Scene 20 retains mixed source-owned parenthetical actions inside their immutable dialogue records. Detailed QA is in `BATCH_016_020_REVIEW.md`.
 
-## Cumulative English status through scene 20
+### Batch — scenes 21–25
 
-- verified scenes: **20/63**;
-- verified units: **477**;
-- dialogue units: **403** = **393 explicit dialogue records + 10 source-role supplements**;
-- stage/action units: **72**;
+Scenes 21–25 add **131 verified units**:
+
+- explicit dialogue links: **114/114**;
+- source-role supplements: **0**;
+- stage/action units: **17**;
+- song/verse/japa/performance units: **0**;
+- cross-page logical units: **4** — two in scene 21, one in scene 22 and one in scene 24;
+- retained source-only song/performance occurrences encountered: **0**;
+- decorative stars translated as prose: **0**.
+
+Scene 21 keeps source-irregular forms such as `மாகமே`, `காகரத்த` and `கம்பிய` visible through transliteration/notes rather than silently repairing them. Scene 22 preserves political rhetoric, exact source ownership and the `வால்` / `வாள்` wordplay. Scene 23 retains the `அமிர்த யோகம்` / `ராகு காலம்` contrast. Scene 24 preserves exact abbreviated labels and the frozen `மிலக்கிறீர்` / `திலங்கர்` forms without altering source evidence. Detailed QA is in `BATCH_021_025_REVIEW.md`.
+
+## Cumulative English status through scene 25
+
+- verified scenes: **25/63**;
+- verified units: **608**;
+- dialogue units: **517** = **507 explicit dialogue records + 10 source-role supplements**;
+- stage/action units: **89**;
 - standalone song-reference units: **2**;
-- cross-page units: **7**;
+- cross-page units: **11**;
 - song/performance occurrence links: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **21–25** from the frozen verified derivatives. Preserve exact Tamil speaker labels, source-role origin and page provenance; keep cross-page units whole; consult the closed song/performance inventory before introducing any verse, song, japa or performance unit; do not alter frozen source evidence.
+Translate and source-review archival scenes **26–30** from the frozen verified derivatives. The closed source-role layer has no supplements in scenes 26–30, and the closed song/performance inventory has no retained occurrence in this range. Preserve exact Tamil speaker labels and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
