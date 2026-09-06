@@ -1,0 +1,108 @@
+name: Ammayappan Muth label audit once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-muth-label-audit-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build exact Muth shorthand context audit
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import defaultdict, Counter
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          rows=[]
+          for p in sorted((root/'dialogues/records').glob('scene-*.json')):
+              rows += json.loads(p.read_text(encoding='utf-8'))
+          rows += json.loads((root/'dialogues/source-role-resolved-records.json').read_text(encoding='utf-8'))
+          scenes=json.loads((root/'scenes/index.json').read_text(encoding='utf-8'))['scene_records']
+          scene_head={x['ordinal']:x['heading'] for x in scenes}
+          by_scene=defaultdict(list)
+          for r in rows: by_scene[r['archive_scene_ordinal']].append(r)
+          out=[]
+          for scene in sorted({r['archive_scene_ordinal'] for r in rows if r['speaker_label']=='முத்'}):
+              rs=by_scene[scene]
+              label_counts=Counter(r['speaker_label'] for r in rs)
+              m=[r for r in rs if r['speaker_label']=='முத்']
+              seq=[]
+              for i,r in enumerate(rs):
+                  if r['speaker_label']!='முத்': continue
+                  prev=rs[i-1]['speaker_label'] if i else None
+                  nxt=rs[i+1]['speaker_label'] if i+1<len(rs) else None
+                  seq.append({
+                      'record_id':r['id'],
+                      'prev_label':prev,
+                      'next_label':nxt,
+                      'text_preview':r['text'][:260],
+                      'pages':r['page_provenance']
+                  })
+              out.append({
+                  'scene':scene,
+                  'heading':scene_head[scene],
+                  'muth_count':len(m),
+                  'full_muthan_count':label_counts.get('முத்தன்',0),
+                  'full_muthayi_count':label_counts.get('முத்தாயி',0),
+                  'muthaa_count':label_counts.get('முத்தா',0),
+                  'all_scene_labels':dict(sorted(label_counts.items())),
+                  'muth_records':seq
+              })
+          doc={
+              'work_id':'ammaiyappan',
+              'phase':'character-ambiguity-audit-muth',
+              'status':'review-ready',
+              'exact_label':'முத்',
+              'record_count':sum(x['muth_count'] for x in out),
+              'scene_count':len(out),
+              'scenes':out,
+              'policy':'No global identity mapping for `முத்` until each occurrence is dispositioned from verified scene context.'
+          }
+          (root/'characters/muth-label-audit.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          md=['# அம்மையப்பன் — `முத்` exact-label ambiguity audit','',
+              'Status: **REVIEW READY**','',
+              f"- exact-label records: **{doc['record_count']}**",f"- scenes: **{doc['scene_count']}**",'',
+              '`முத்` is not globally normalized. Each record must resolve to முத்தன் or முத்தாயி from its verified scene context.','']
+          for x in out:
+              md += [f"## Scene {x['scene']:03d} — {x['heading']}",'',
+                     f"`முத்`: {x['muth_count']} | `முத்தன்`: {x['full_muthan_count']} | `முத்தாயி`: {x['full_muthayi_count']} | `முத்தா`: {x['muthaa_count']}",'']
+              for r in x['muth_records']:
+                  md.append(f"- `{r['record_id']}` — prev `{r['prev_label']}` / next `{r['next_label']}` — {r['text_preview']}")
+              md.append('')
+          (root/'characters/muth-label-audit.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          print(json.dumps([{
+              'scene':x['scene'],'heading':x['heading'],'muth':x['muth_count'],
+              'muthan':x['full_muthan_count'],'muthayi':x['full_muthayi_count'],'muthaa':x['muthaa_count']
+          } for x in out],ensure_ascii=False))
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('works/ammaiyappan/characters/muth-label-audit.json').read_text(encoding='utf-8'))
+          assert p['record_count']==177
+          assert p['scene_count']==27
+          assert sum(x['muth_count'] for x in p['scenes'])==177
+          print('AMMAYAPPAN MUTH LABEL AUDIT VALID')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/characters/muth-label-audit.json works/ammaiyappan/characters/muth-label-audit.md
+          git commit -m "Add Ammayappan Muth shorthand ambiguity audit [skip ci]"
+          git push origin HEAD:main
