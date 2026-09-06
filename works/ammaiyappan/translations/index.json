@@ -1,0 +1,59 @@
+{
+  "work_id": "ammaiyappan",
+  "target_language": "en",
+  "status": "pilot-verified",
+  "schema": "schema.json",
+  "readme": "README.md",
+  "preflight": "preflight.json",
+  "pilot_review": "PILOT_REVIEW.md",
+  "record_directory": "records",
+  "pilot_scene": "ammaiyappan-s001",
+  "source_scene_numbering": "none-printed",
+  "scenes_expected": 63,
+  "scenes_started": [
+    1
+  ],
+  "scenes_verified": [
+    1
+  ],
+  "scenes_in_review": [],
+  "translation_units": 34,
+  "unit_status_counts": {
+    "draft": 0,
+    "review": 0,
+    "verified": 34
+  },
+  "unit_kind_counts": {
+    "dialogue": 31,
+    "stage-direction": 3,
+    "song-reference": 0,
+    "literary-verse": 0,
+    "japa": 0,
+    "written-text": 0
+  },
+  "scene_records": [
+    {
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "path": "records/scene-001.json",
+      "unit_count": 34,
+      "status": "verified"
+    }
+  ],
+  "dialogue_source_records_expected_in_completed_scenes": 31,
+  "dialogue_source_records_linked": 31,
+  "source_role_supplement_records_linked": 0,
+  "cross_page_translation_units": [],
+  "translated_song_performance_occurrences": [],
+  "source_visible_structural_stars_translated": 0,
+  "completed_batches": [
+    "pilot scene 1"
+  ],
+  "next_scene_batch": "2-5",
+  "next_activity": "Translate and source-review archival scenes 2-5 using the verified pilot voice rules; preserve exact dialogue/source-role provenance and closed song/performance evidence.",
+  "canonical_tamil_modified": false,
+  "scene_files_modified": false,
+  "dialogue_records_modified": false,
+  "character_index_modified": false,
+  "song_inventory_modified": false
+}

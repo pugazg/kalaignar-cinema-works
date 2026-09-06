@@ -1,0 +1,1000 @@
+{
+  "work_id": "ammaiyappan",
+  "target_language": "en",
+  "scene_id": "ammaiyappan-s001",
+  "archival_scene_ordinal": 1,
+  "source_scene_number": null,
+  "pilot_status": "verified",
+  "scene_status": "verified",
+  "unit_count": 34,
+  "units": [
+    {
+      "id": "ammaiyappan-en-s001-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/scenes/scene-001.md",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening action prose before the first labelled utterance."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A coach arrives and stops. Baladevar, the queen and the others get down and go inside. Muthan, who drove the coach, also gets down. He takes the horse. A picture falls from it. Sukhadev notices.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`அவன் குதிரையை எடுக்கிறான்` is kept conservatively as `He takes the horse`; no extra action such as tying or leading it away is added."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுக",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey—Mutha! What picture is this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Nothing...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுக",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey!... Just show me; let me see...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/scenes/scene-001.md",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 2,
+          "description": "Bracketed action immediately after Sukhadev asks to see the picture."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[He shows it.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுக",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh!... Mutha! I remember seeing a picture like this somewhere two or three weeks ago!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What you are about to see... this picture is my dream of an ideal... the dawn-star of joy... The picture you saw a week or two ago was another copy of this picture—an unfinished drawing...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's `லட்சியக் கனவு / இன்ப விடிவெள்ளி` image sequence is preserved rather than compressed into a plain description of the portrait."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுக",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh-ho! Was that yours too?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 3
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes. The earlier one slipped from my hand and was stolen....! I drew another one. That... this...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுக",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right; all right, Mutha. If there were a woman in this world like the one in this picture, I would be the one to marry her.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hm; why talk about something that does not exist.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுக",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "True enough—what people talk about in this world is what does not exist... All right, aren't you coming to the monastery?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Village meeting.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source is an abrupt two-word fragment, `ஊர் கூடம்.`; the English remains equally elliptical."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/scenes/scene-001.md",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 3,
+          "description": "Bracketed entrance cue after Muthan's `ஊர் கூடம்.` reply."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Muthan's friends arrive.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நண்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, Muthanna, all well?",
+        "mode": "prose-faithful",
+        "notes": [
+          "`முத்தண்ணா` is retained as `Muthanna`; `சுகந்தானா?` is rendered as the colloquial `all well?`."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, is this some land of freedom for us to live in comfort? The man of comfort is right inside this monastery—Maykainatha Swami.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified Tamil prints `சுந்திர பூமி`; the English carries the evident freedom/comfort wordplay without altering that Tamil reading.",
+          "The second `சுக` image is retained as `man of comfort`, keeping the satirical wordplay before Maykainatha Swami is named."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "May Ammaiyappan's grace reach the entire universe... O servants of the servants! O devotees filled with love!....... If you have questions of doubt, ask and gain clarity........",
+        "mode": "prose-faithful",
+        "notes": [
+          "The devotional proclamation and extended pauses are preserved; `அய்ய வினைகள்` is translated by sense as questions of doubt without repairing the Tamil source."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Swami, what does `Ammaiyappan` mean.........",
+        "mode": "prose-faithful",
+        "notes": [
+          "The title-name `Ammaiyappan` is retained because the following exchange turns on its Tamil `Amma/Appa` wordplay."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Goodness, don't you understand even this, Prince? This palaiyakkarar Baladevar here is your...",
+        "mode": "prose-faithful",
+        "notes": [
+          "`பாளையக்கார` is retained as `palaiyakkarar`, a source-specific political/feudal title, rather than flattened to a generic `lord`."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Father!......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Right, and she.......?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mother!.......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma...... Appa...... Ammaiyappa.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The Tamil mother/father wordplay is preserved by transliteration; replacing it with a fully English compound would erase the title's sound-play."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh! Then is it my mother and father whose hides you are wearing!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's satirical `தோலத் தரிப்பது` image is translated literally rather than doctrinally softened."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Listen: just as you have an Ammaiyappan, the people of the world too have an Ammaiyappan.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where are they, I wonder?—",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They cannot be seen by the eye!—",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "When we, their children, can be seen by the eye, shouldn't the parents be visible too?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Wrong!... Those divine parents cannot be seen—they are formless—possessed of the power to create and destroy all the cosmic spheres... bearers of a thousand names... praised in many an invocatory verse... this world and the next, pleasure and pain... pillar and speck... there... here... shining everywhere... What, Sukhadev... has your confusion ended?...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's accumulating devotional catalogue and paired fragments are preserved rather than reorganized into systematic theology.",
+          "`பாயிரம்` is rendered as `invocatory verse` for readability while retaining its literary function."
+        ]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is only now beginning.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh, Ammaiyappa—",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பலதேவர்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sukhadev, don't ask mischievous questions like this; trying to trip up holy men in this way is a great sin......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சுகதேவ்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No, Father, I only asked because I did not know. I take it back.......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s001-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s001",
+      "archival_scene_ordinal": 1,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-001.md",
+        "source_record_id": "ammaiyappan-s001-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாய்கை",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Good.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

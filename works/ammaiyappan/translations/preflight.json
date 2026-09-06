@@ -1,0 +1,49 @@
+{
+  "work_id": "ammaiyappan",
+  "target_language": "en",
+  "status": "complete-pass-pilot-unblocked",
+  "authority": {
+    "canonical_tamil": "105/105-dual-gate-complete-verified",
+    "scene_derivatives": "63/63-complete-verified",
+    "dialogue_final_index": "1024-downstream-units-complete-source-role-resolved",
+    "exact_source_speaker_labels": 62,
+    "character_entity_index": "26-entities-complete-verified-reconciled",
+    "song_performance_gate": "complete-verified-source-only",
+    "source_visible_song_performance_occurrences": 5,
+    "full_named_song_lyric_blocks_printed": 0
+  },
+  "source_scene_numbering": "none-printed",
+  "archive_scene_count": 63,
+  "translation_policy": {
+    "scene_sharded": true,
+    "exact_tamil_speaker_labels_preserved_as_metadata": true,
+    "immutable_dialogue_ids_linked": true,
+    "source_role_origin_preserved": true,
+    "source_unlabelled_speech_must_not_gain_invented_speaker": true,
+    "cross_page_source_units_remain_single_translation_units": true,
+    "decorative_stars_create_no_translation_units": true,
+    "absent_song_lyrics_must_not_be_reconstructed": true,
+    "canonical_tamil_may_not_be_changed_by_translation": true
+  },
+  "pilot": {
+    "scene_id": "ammaiyappan-s001",
+    "archive_scene_ordinal": 1,
+    "source_pdf_pages": [
+      5,
+      6,
+      7
+    ],
+    "logical_printed_pages": [
+      3,
+      4,
+      5
+    ],
+    "explicit_dialogue_records_expected": 31,
+    "source_role_supplement_records_expected": 0,
+    "stage_direction_units_expected": 3,
+    "song_performance_occurrence_links_expected": 0,
+    "total_translation_units_expected": 34,
+    "cross_page_translation_units_expected": 0
+  },
+  "next_action": "Translate and source-review archival scenes 2-5 using the verified pilot voice rules; preserve exact dialogue/source-role provenance and closed song/performance evidence."
+}
