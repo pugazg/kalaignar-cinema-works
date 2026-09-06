@@ -301,7 +301,21 @@ structured_derivatives:
   english_reader_html_sha256: "c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a"
   english_reader_json_sha256: "a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3"
   english_reader_qa_sha256: "f23ec5952808e6229219aa7f3cff4b020d1d77e46203d9d54a8ca6f77cc9f14c"
-  reading_room_integration: ready-after-reader-export-qa
+  reading_room_integration: payload-complete-verified
+  reading_room_payload_path: "integrations/reading-room/reading-room.json"
+  reading_room_payload_qa_report_path: "integrations/reading-room/QA_REPORT.md"
+  reading_room_payload_manifest_path: "integrations/reading-room/manifest.json"
+  reading_room_payload_sha256: "f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c"
+  reading_room_payload_bytes: 1551865
+  reading_room_payload_scenes: 63
+  reading_room_payload_tamil_scene_texts: 63
+  reading_room_payload_english_units: 1210
+  reading_room_payload_dialogue_source_links: 1025
+  reading_room_payload_cross_page_units: 28
+  reading_room_payload_occurrence_identities: 5
+  reading_room_payload_occurrence_source_span_links: 7
+  reading_room_payload_qa_status: PASS
+  reading_room_site_application_status: not-applied
 
 status:
   duplicate_work_check: complete
@@ -320,6 +334,6 @@ status:
   song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
   english_translation: complete-verified-63-of-63-1210-units
   reader_export: complete-verified
-  reading_room_integration: ready-after-reader-export-qa
+  reading_room_integration: payload-complete-verified
 
-next_action: "Create and QA the source-linked Ammayappan Reading Room integration payload from the complete-verified reader/translation structures. Preserve archive-only scene numbering, exact source provenance, dialogue/source-role distinctions and all five occurrence identities; do not reconstruct absent lyrics, titles or authorship."
+next_action: "No required Ammayappan repository-internal production work remains. Apply the complete-verified Reading Room payload in the separate implementation repository only when explicitly authorized; site application is not applied."

@@ -98,7 +98,7 @@ Final verified English checkpoint:
 - whole-work source/linkage reconciliation: **PASS** — `translations/FINAL_TRANSLATION_QA.md`;
 - reader/export preflight: **complete-pass** — workflow run **34025680568** at `ae554f92faf7a9b0f4005c42cc28c8b3e8e95d36`;
 - reader/export generation: **complete-verified — Markdown / HTML / JSON / manifest; generated-output QA PASS**;
-- Reading Room integration: **ready for payload construction/QA**.
+- Reading Room payload: **complete-verified — QA PASS**, SHA-256 `f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c`; site application **not-applied**.
 
 ## FINAL BATCH 61–63 LOCKED DECISIONS
 
@@ -185,4 +185,4 @@ Unless live `main` contains newer explicit source-backed evidence, do not redo:
 
 If downstream work exposes a genuine source defect, isolate it as a post-closure correction and repair only the smallest affected derivative chain with dependent QA.
 
-> **Fetch live `main`; confirm English translation remains complete-verified at 63/63 scenes / 1,210 units, `editions/en/PREFLIGHT_QA_REPORT.md` is PASS, and the deterministic reader/export package is complete-verified with `editions/en/QA_REPORT.md` + `manifest.json` PASS. Then create and QA the source-linked Ammayappan Reading Room integration payload from the verified reader/translation structures. Preserve all 1,210 units, all 1,025 dialogue/source-role links, all 28 cross-page units, all five occurrence identities across seven intentional source-span links, exact Tamil speaker-label/source-role provenance, page provenance and archive-only scene numbering. Do not alter frozen Tamil/dialogue/character/song evidence and do not reconstruct absent lyrics, titles or authorship. Synchronize all current mirrors after payload QA; separate-site application remains a later explicit step.**
+> **Fetch live `main`; preserve all complete-verified Ammayappan Tamil, structured, English, reader/export and Reading Room payload layers. Confirm `integrations/reading-room/QA_REPORT.md` and `manifest.json` remain PASS. No required repository-internal production work remains. Do not apply the payload to the separate Reading Room implementation repository unless explicitly authorized. If external application is authorized later, preserve archive-only scene numbering, exact Tamil speaker/source-role/page provenance, all 1,210 English units, all 1,025 dialogue/source-role links, all 28 cross-page units and all five occurrence identities across seven source-span links; never reconstruct absent lyrics, titles or authorship.**

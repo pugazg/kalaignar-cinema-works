@@ -162,6 +162,14 @@ Output SHA-256 values:
 
 `editions/en/manifest.json` records deterministic authoritative-input and output hashes. Reader generation changed **no** canonical Tamil, scene, dialogue/source-role, character or song/performance evidence.
 
+## Reading Room payload — PASS
+
+The deterministic source-linked Reading Room payload is **complete-verified** under `integrations/reading-room/`. It carries **63/63 Tamil scene texts**, all **1,210** verified English units, **1,025/1,025** dialogue/source-role links, all **28** cross-page units, and all **5 occurrence identities / 7 intentional source-span links**. Exact Tamil speaker-label origins are retained: **1,009** source-explicit colon labels, **2** source-explicit semicolon delimiters, and **14** source-context-attributed supplements.
+
+Payload SHA-256: `f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c`; bytes: **1,551,865**. `integrations/reading-room/QA_REPORT.md` records **PASS** and `manifest.json` records reproducibility hashes. The source booklet prints no scene numbers; all 63 scene ordinals remain archive navigation only. No absent lyric, title or authorship is reconstructed.
+
+The separate Reading Room/public-site repository was **not modified**.
+
 ## Exact next activity
 
-**Create and QA the source-linked Ammayappan Reading Room integration payload from the complete-verified reader/translation structures. Preserve the 63 scene IDs strictly as archive navigation, exact page/source provenance, all dialogue/source-role distinctions and all five source-visible occurrence identities; do not reconstruct absent lyrics, titles or authorship.**
+**No required Ammayappan repository-internal production work remains. Apply the complete-verified payload in the separate Reading Room implementation repository only when explicitly authorized; site application remains `not-applied`.**

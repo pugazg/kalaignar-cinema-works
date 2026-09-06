@@ -24,7 +24,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
-| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export **QA PASS**; Reading Room ready |
+| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 
 ## Ammayappan current checkpoint
 
@@ -98,7 +98,11 @@ The separate **reader/export preflight is executable and PASS**: workflow `.gith
 
 The deterministic **reader/export package is complete-verified with generated-output QA PASS**. Markdown, standalone HTML and machine-readable JSON each preserve all **1,210** verified units exactly once; all **1,025** dialogue/source-role links, **28** cross-page units and **5 occurrence identities / 7 source-span links** reconcile to the structured translation. Output SHA-256 values: Markdown `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549`, HTML `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a`, JSON `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3`. `works/ammaiyappan/editions/en/manifest.json` records deterministic input/output hashes. Frozen source layers modified by reader generation: **0**.
 
-**Next production phase:** create and QA the source-linked Ammayappan Reading Room integration payload from the complete-verified reader/translation structures.
+**Next production phase:** no repository-internal Ammayappan production phase remains; separate-site application requires explicit authorization and is currently not-applied.
+
+## Ammayappan Reading Room payload — PASS
+
+The deterministic source-linked payload is complete-verified at `works/ammaiyappan/integrations/reading-room/reading-room.json`: **63 Tamil scene texts / 1,210 verified English units / 1,025 dialogue-source links / 28 cross-page units / 5 occurrence identities across 7 source spans**. Payload SHA-256 `f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c`; QA is PASS. Exact speaker-label/source-role provenance remains **1,009 colon + 2 source-semicolon + 14 context-attributed**. Site application is **not-applied**, and no frozen source layer was modified.
 
 ## Stable downstream checkpoints for other works
 
@@ -112,4 +116,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan's canonical Tamil and structured source-derived layers remain **closed at the corrected 1,025-unit authority**. English translation is **complete-verified at 63/63 scenes / 1,210 units**, final source/linkage reconciliation is PASS, and the executable reader/export preflight is now **PASS**. The next bounded activity is **source-linked Reading Room payload construction and QA**.
+Ammayappan's canonical Tamil and structured source-derived layers remain **closed at the corrected 1,025-unit authority**. English translation is **complete-verified at 63/63 scenes / 1,210 units**, final source/linkage reconciliation is PASS, and the executable reader/export preflight is now **PASS**. The source-linked Reading Room payload is now **complete-verified / QA PASS**; separate-site application remains **not-applied** and requires explicit authorization.

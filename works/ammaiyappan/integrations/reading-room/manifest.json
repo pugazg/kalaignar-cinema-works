@@ -10,7 +10,7 @@
     "works/ammaiyappan/editions/en/manifest.json"
   ],
   "authoritative_input_files": 130,
-  "authoritative_input_aggregate_sha256": "fb9f14207546f88a65dc1e09785d82ca1053ec6cfaf67e7df0d27f2cc325238c",
+  "authoritative_input_aggregate_sha256": "32cb7da80c989574011fa23fbbc419a055ebc210e89d09464f42937d19e85b15",
   "checkpoint": {
     "screenplay_scenes": 63,
     "tamil_scene_texts": 63,

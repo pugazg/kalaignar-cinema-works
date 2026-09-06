@@ -100,13 +100,15 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - whole-work English reconciliation: **PASS** — `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`;
 - reader/export preflight: **complete-pass — executable 63-scene / 1,210-unit integrity gate**;
 - reader/export generation: **complete-verified — Markdown / HTML / JSON / manifest; generated-output QA PASS**;
-- Reading Room integration: **ready after reader/export QA**.
+- Reading Room payload: **complete-verified — QA PASS; site application not-applied**.
 
 Final batch 61–63 adds **22 verified units**: **16 explicit dialogue links + 6 stage/action units**, with no source-role supplement, retained song/performance occurrence or new cross-page unit. Scene 61 remains action-only and does not identify the masked substitute before scene 62. Scene 62 preserves the masked-prisoner revelation, Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the final `speech ends; life ends` parallel without external expansion. Scene 63 preserves the `Aththan` / `Amma` register, mother-recognition and liberation rhetoric; its closing stanza remains owned by immutable dialogue `ammaiyappan-s063-d012` rather than becoming a synthetic verse occurrence.
 
 The **Ammayappan English reader/export package now passes generated-output QA**. Markdown, standalone HTML and machine-readable JSON each preserve all 1,210 verified units exactly once, all 1,025 dialogue/source-role links, all 28 cross-page units and all five occurrence identities across seven intentional source-span links. The integrity manifest records deterministic authoritative-input and output hashes. Output SHA-256 values are `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549` (Markdown), `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a` (HTML) and `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3` (JSON). No frozen Tamil or structured source evidence was modified.
 
-**Next:** create and QA the source-linked Ammayappan Reading Room integration payload; preserve the 63 scene IDs strictly as archive navigation and retain all source-provenance/authorship limits.
+The **Ammayappan Reading Room payload now passes QA**: 63 Tamil scene texts, all 1,210 verified English units, 1,025 dialogue/source-role links, 28 cross-page units and all 5 occurrence identities / 7 source-span links. Payload SHA-256 `f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c`. The separate site repository has not been modified.
+
+**Next:** apply the verified payload in the separate Reading Room implementation repository only when explicitly authorized; site application remains not-applied.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 

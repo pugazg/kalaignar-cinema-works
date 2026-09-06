@@ -250,4 +250,8 @@ The deterministic publication-facing derivatives are complete under `../editions
 
 Output SHA-256 values are `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549` (Markdown), `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a` (HTML) and `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3` (JSON). The deterministic integrity manifest and QA report are in `../editions/en/`.
 
-**Next:** create and QA the source-linked Ammayappan Reading Room integration payload from these complete-verified structures; preserve archive-only scene numbering and all source-evidence tiers.
+## Reading Room payload — PASS
+
+The deterministic source-linked payload at `../integrations/reading-room/reading-room.json` is **complete-verified / QA PASS**. It preserves 63 Tamil scene texts, all **1,210** verified English units, all **1,025** dialogue/source-role links, all **28** cross-page units, and all **5 occurrence identities / 7 source-span links**. Payload SHA-256: `f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c`. Site application remains **not-applied**.
+
+**Next:** no repository-internal Ammayappan production step is required; apply the payload to the separate Reading Room implementation only when explicitly authorized.

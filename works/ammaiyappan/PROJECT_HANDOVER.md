@@ -170,6 +170,10 @@ Executable workflow `.github/workflows/ammaiyappan-english-reader-preflight.yml`
 
 The deterministic reader/export package is complete-verified under `editions/en/`. Markdown, standalone HTML and machine-readable JSON each preserve all **1,210** units exactly once. `QA_REPORT.md` records generated-output PASS and `manifest.json` records deterministic input/output hashes. Exact **1,025/1,025** dialogue/source-role linkage, all **28** cross-page units and all **5 occurrence identities / 7 source-span links** are preserved. Output SHA-256 values: Markdown `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549`, HTML `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a`, JSON `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3`. Frozen source layers modified: **0**.
 
+## Reading Room payload — PASS
+
+`integrations/reading-room/reading-room.json` is complete-verified with payload QA PASS: **63 Tamil scene texts / 1,210 English units / 1,025 dialogue-source links / 28 cross-page units / 5 occurrence identities across 7 source spans**. Payload SHA-256 `f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c`. The site application status is **not-applied**; no separate implementation repository was changed.
+
 ## Exact next activity
 
-> **Fetch live `main`; preserve the complete-verified Tamil/structured/English/reader layers. Create and QA the source-linked Ammayappan Reading Room integration payload from the verified reader/translation structures. Preserve the 63 scene IDs as archive-only navigation, exact page/source provenance, all dialogue/source-role distinctions and all five source-visible occurrence identities; do not reconstruct absent lyrics, titles or authorship. Synchronize all mirrors after payload QA before any separate-site application.**
+> **Fetch live `main`; preserve all closed Ammayappan source, translation, reader and Reading Room payload layers. No required repository-internal production work remains. Apply the complete-verified payload to the separate Reading Room implementation repository only when explicitly authorized; until then keep site application `not-applied`.**
