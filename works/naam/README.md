@@ -6,17 +6,17 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **partial first pass — PDF 5–9 / 5 of 67 pages**;
+- canonical Tamil transcription: **partial first pass — PDF 5–14 / 10 of 67 pages**;
 - canonical Tamil verified pages: **0**;
 - visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **partial first pass — 5 pages checked / 0 final-verified**;
+- historical-Tamil-glyph audit: **partial first pass — 10 pages checked / 0 final-verified**;
 - open source uncertainty markers: **2**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
-Current batch: `transcription/parts/pdf-005-009.md`  
-Current textual notes: `notes/textual-notes-pdf-005-009.md`
+Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`  
+Current textual notes: `notes/textual-notes-pdf-010-014.md`
 
 ## Controlling source
 
@@ -57,17 +57,19 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–9** has now been transcribed as a source-order draft. It covers the opening of `காட்சி 1`, the rain/Mari performance, `காட்சி 2`, and the opening of `காட்சி 3`.
+PDF **5–14** has now been transcribed as source-order draft material in two five-page batches. The current layer reaches through the opening of `காட்சி 6`.
 
 Safeguards:
 
 - PDF 5 has no invented printed-page number;
 - exact speaker labels, stage directions, source colloquial forms, punctuation and verse lineation are retained;
-- the rain/Mari song block remains part of the canonical source text; this phase does **not** adjudicate lyric authorship;
+- the rain/Mari song block remains canonical source text; this phase does **not** adjudicate lyric authorship;
 - PDF 6 `அவளை` is treated as a historical-`ளை` glyph-decoding case;
 - PDF 6 `சூரியனால்` was checked against the historical `னா` family;
+- PDF 11 `கண்ணாடிச்` is a positive `ணா`-family first-pass case;
+- PDF 12 `தளிர்ச்சிருக்கே`, PDF 13 `கீல்வலிக்கார தங்கையன்`, and PDF 14 `வாலாம்` are retained as source-visible forms rather than silently regularized;
 - two source uncertainties remain explicit rather than guessed: a damaged introductory line on PDF 5 and one unclear montage word on PDF 9;
-- no page in this batch is called verified yet.
+- **0** of the ten first-pass pages are called verified yet.
 
 ## Song / verse / performance structures mapped at intake
 
@@ -107,4 +109,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 10–14, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+**Continue canonical Tamil first-pass transcription with PDF 15–19, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
