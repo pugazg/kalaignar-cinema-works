@@ -22,6 +22,22 @@ Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/HISTORICAL_TAMIL_GLYPH_TRANS
 
 The preferred public reading destination is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Preserve each source's natural structure; do not force non-screenplay booklets into screenplay scenes.
 
+## நாம் status
+
+`TVA_BOK_0064201_நாம்.pdf` is the **active newly onboarded cinema source**. Intake and full structural mapping are complete; canonical Tamil has not started.
+
+- source: **72 PDF pages**, image-only; SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
+- visible title / author: **நாம் / மு. கருணாநிதி**;
+- source-visible organization: **ஆசீர்வாதபுரம் ஆதிதிராவிட நல உரிமைச் சங்கத்தார்**;
+- front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
+- visible printed numerals: **6–71** on PDF 6–71; PDF 5 opens the screenplay without a securely visible printed numeral;
+- source-numbered scenes: **45 — காட்சி 1–45**, sequential with no observed gap/repeat/out-of-order number;
+- PDF 4 credit safeguard: broad `கதை, வசனம், பாடல்... மு. கருணாநிதி`, with the explicit item exception `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.`;
+- canonical Tamil / visual fidelity / historical-glyph audit: **not-started / not-started / not-started**;
+- old-type transcription is bound to `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` with page-level dual-gate verification.
+
+**Next:** Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives.
+
 ## ராஜா ராணி status
 
 `TVA_BOK_0017188_ராஜா_ராணி.pdf` is a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.

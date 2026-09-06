@@ -6,11 +6,11 @@ Branch: `main`
 
 ## Scope
 
-This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **seven registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
+This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **eight registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
 
 ## Result
 
-**PASS for Ammayappan's source/structured authority and complete English translation.** Canonical Tamil is **105/105 dual-gate complete-verified**; scene derivatives are **63/63**; dialogue authority is **1,009 explicit + 16 source-role supplements = 1,025 downstream units**; character/entity coverage is **1,025/1,025** and **62/62 exact labels**. English translation is now **complete-verified at 63/63 archival scenes / 1,210 units**, with whole-work source/linkage reconciliation PASS.
+**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified through its Reading Room payload. **Naam / நாம்** is newly registered with source intake and whole-scan structural mapping complete: 72-page image-only source, 45 sequential source-numbered scenes, canonical Tamil not-started, and a mandatory historical-glyph dual gate before downstream derivatives.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -25,6 +25,21 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
+| Naam / நாம் | source intake + map complete; canonical Tamil not-started | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
+
+## Naam current checkpoint
+
+- work: `works/naam/`;
+- source: `TVA_BOK_0064201_நாம்.pdf`, **72 pages / image-only**, SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
+- source intake / full scan inspection / structural map: **complete / complete / verified**;
+- front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
+- scene headings: **45 / காட்சி 1–45**, no observed gap/repeat/out-of-order numbering;
+- canonical Tamil / visual fidelity / historical-glyph audit: **not-started / not-started / not-started**;
+- the 13 historical glyph families must be checked page-by-page from the rendered source; no global replacements or spelling modernization;
+- PDF 4's item-level `ஆயிரம் தெய்வங்கள்` → `பாரதியார்` credit is preserved as a later authorship-gate constraint;
+- downstream scene/dialogue/character/song/English layers remain blocked until verified Tamil.
+
+**Next production phase:** Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives.
 
 ## Ammayappan current checkpoint
 
@@ -116,4 +131,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan's canonical Tamil and structured source-derived layers remain **closed at the corrected 1,025-unit authority**. English translation is **complete-verified at 63/63 scenes / 1,210 units**, final source/linkage reconciliation is PASS, and the executable reader/export preflight is now **PASS**. The source-linked Reading Room payload is now **complete-verified / QA PASS**; separate-site application remains **not-applied** and requires explicit authorization.
+Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is now the active production work with intake and the 45-scene structural map complete and canonical Tamil still not-started. Its next gate is source-order canonical Tamil first pass with mandatory page-level historical-glyph checks; no downstream derivative is authorized before verified Tamil. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
