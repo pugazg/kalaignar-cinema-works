@@ -20,7 +20,7 @@ A page is final Tamil verified only when both gates pass. Work-level tracking is
 - main screenplay/dialogue: **PDF 5–109 / logical printed pp.3–107**;
 - PDF 110–111: advertisement/back matter, excluded from canonical screenplay.
 
-The booklet prints no numbered scene sequence. Whole-scan intake mapping records **58 structural heading/transition occurrences / 37 distinct forms**; canonical transcription additionally preserves any local source-visible heading encountered on the rendered page.
+The booklet prints no numbered scene sequence. Current verified derivative mapping records **63 source-visible structural boundaries / 41 distinct heading forms**; archive scene ordinals are navigation derivatives only.
 
 Locked source verdicts:
 
@@ -119,22 +119,23 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Dialogue index | **complete-source-role-resolved — 1,025/1,025 downstream units (1,009 explicit + 16 supplements)** |
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
-| English translation / reader | **verified through scene 5/63 — 108/108 current units; reader blocked pending complete English** |
+| English translation / reader | **verified through scene 10/63 — 225/225 current units; reader blocked pending complete English** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
-## English checkpoint through scene 5
+## English checkpoint through scene 10
 
-- verified scenes: **5/63**;
-- verified English units: **108**;
-- dialogue units: **95** = **93 explicit dialogue records + 2 source-role supplements**;
-- stage/action units: **13**;
-- cross-page English units: **1**;
-- song/performance occurrence links encountered so far: **0**;
+- verified scenes: **10/63**;
+- verified English units: **225**;
+- dialogue units: **196** = **190 explicit dialogue records + 6 source-role supplements**;
+- stage/action units: **28**;
+- standalone song-reference units: **1**;
+- cross-page English units: **2**;
+- song/performance occurrence links encountered so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - frozen Tamil/dialogue/character/song evidence modified by English: **no**.
 
-Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`. Scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain source-explicit non-colon provenance in English metadata.
+Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md` and `translations/BATCH_006_010_REVIEW.md`. Scene 7 preserves only the printed Muthan–Muthayi performance cue; scene 10 links only the printed Kambar-attributed fragment, with no absent lyric or verse reconstruction.
 
 ## Exact next activity
 
-**Translate and source-review archival scenes 6–10. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation. Translate only source-visible material, preserve all dialogue/source-role provenance, and do not reconstruct absent lyrics or verse.**
+**Translate and source-review archival scenes 11–15. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence.**
