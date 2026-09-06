@@ -9,12 +9,12 @@ Fetch live `main` first and preserve newer durable work.
 Current durable checkpoint when this prompt was prepared:
 
 - source intake / mapping: **complete / verified**;
-- canonical Tamil first pass: **PDF 5–9 / 5 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–14 / 10 of 67 pages**;
 - verified pages: **0**;
-- historical-glyph first-pass checked: **5/67**;
+- historical-glyph first-pass checked: **10/67**;
 - historical-glyph final verified: **0/67**;
 - open uncertainty markers: **2**;
-- next batch: **PDF 10–14**.
+- next batch: **PDF 15–19**.
 
 ## Controlling source
 
@@ -47,25 +47,31 @@ Read completely before changing canonical text:
 9. `works/naam/transcription/README.md`
 10. `works/naam/transcription/index.json`
 11. `works/naam/transcription/parts/pdf-005-009.md`
-12. `works/naam/notes/textual-notes-pdf-005-009.md`
-13. `works/naam/notes/historical-glyph-audit.md`
-14. `works/naam/PROJECT_HANDOVER.md`
+12. `works/naam/transcription/parts/pdf-010-014.md`
+13. `works/naam/notes/textual-notes-pdf-005-009.md`
+14. `works/naam/notes/textual-notes-pdf-010-014.md`
+15. `works/naam/notes/historical-glyph-audit.md`
+16. `works/naam/PROJECT_HANDOVER.md`
 
-## Frozen first-pass batch PDF 5–9
+## Frozen first-pass batches PDF 5–14
 
-Do not redo or silently rewrite PDF 5–9 merely because this prompt is copied into a new chat. Preserve the durable draft unless new direct scan evidence resolves an existing uncertainty.
+Do not redo or silently rewrite PDF 5–14 merely because this prompt is copied into a new chat. Preserve the durable drafts unless new direct scan evidence resolves an existing uncertainty.
 
-Known open uncertainties:
+Known open uncertainties remain exactly **2**:
 
 1. PDF 5 — one physically damaged introductory line below `காட்சி 1`;
 2. PDF 9 — one unclear word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)`.
 
-PDF 6 contains two explicit glyph-decoding precedents:
+Historical/source precedents already established:
 
-- `அவளை` — historical `ளை` identity;
-- `சூரியனால்` — historical `னா` family checked before Unicode encoding.
+- PDF 6 `அவளை` — historical `ளை` identity;
+- PDF 6 `சூரியனால்` — historical `னா` family checked before Unicode encoding;
+- PDF 11 `கண்ணாடிச்` — positive `ணா`-family first-pass case;
+- PDF 12 `தளிர்ச்சிருக்கே` — retained as source-visible wording, not normalized;
+- PDF 13 `கீல்வலிக்கார தங்கையன்` — retained as printed;
+- PDF 14 `வாலாம்` — printed twice and preserved, not silently corrected to `வரலாம்`.
 
-These are character-identity decisions only, not permission for global replacement or spelling normalization.
+These are source-specific decisions only, not permission for global replacement or spelling normalization.
 
 ## Historical glyph requirement
 
@@ -77,12 +83,14 @@ Read character identity rather than modern visual resemblance. Compare same-edit
 
 Do not mark a page `verified` until both normal visual fidelity and historical-glyph verification have passed; first-pass transcription remains a distinct phase.
 
-## Credit safeguard
+## Credit safeguard — important in next batch
 
-PDF 4 broadly credits `கதை, வசனம், பாடல்... மு. கருணாநிதி` but separately credits `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.` Preserve that item-level exception. Do not infer authorship of other song/verse blocks merely from proximity or memory.
+PDF 4 broadly credits `கதை, வசனம், பாடல்... மு. கருணாநிதி` but separately credits `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.`
+
+The next batch includes **PDF 16 / காட்சி 7**, where the source prints `[பாட்டு]` for this item. Preserve the booklet's exact lyric text and lineation and the **Bharathiyar item-level credit**. Do not use outside versions of the poem/song to repair, extend or normalize the booklet witness.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription with PDF 10–14, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+> **Continue canonical Tamil first-pass transcription with PDF 15–19, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
 
 Use a meaningful bounded batch. Preserve `காட்சி` headings, exact speaker labels, stage directions, punctuation, ellipses, verse lineation, code-switching and source irregularities. Pencil margin numbers are annotations, not source text.
