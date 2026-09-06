@@ -25,5 +25,6 @@
   "remaining_unmapped_labels": 0,
   "remaining_unmapped_records": 0,
   "dialogue_records_modified": false,
-  "next_activity": "Open English translation/reconciliation only after synchronizing work-level handover/status to this completed character/entity layer."
+  "next_activity": "Begin English translation/reconciliation from the frozen verified Tamil, scene, dialogue, and character/entity layers.",
+  "status_synchronized": true
 }

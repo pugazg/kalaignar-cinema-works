@@ -85,7 +85,7 @@ The continuous draft was assembled from the existing PDF 5–14 `full-text.md` p
 - rejected `தாக்குமேடை`: **absent**;
 - visible unresolved first-pass spans: **116**.
 
-This closes only the **canonical Tamil first pass and assembly**. It does not close the remaining PDF 95–109 dual verification.
+Canonical Tamil, scene segmentation, dialogue indexing, and character/entity indexing are now closed. The next derivative phase is English translation/reconciliation.
 
 ## Current status
 
@@ -101,13 +101,13 @@ This closes only the **canonical Tamil first pass and assembly**. It does not cl
 | Scene segmentation preflight | **PASS — 63 boundaries** |
 | Scene-text derivatives | **complete-verified — 63/63** |
 | Boundary-ownership QA | **PASS — 0 gaps / 0 overlaps / 105 pages represented** |
-| Dialogue index | **READY — next phase** |
-| Character index | blocked pending dialogue-index closure |
+| Dialogue index | **complete-source-role-resolved — 1,024/1,024 downstream units** |
+| Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,024 units** |
 | Song/performance authorship gate | not-started |
-| English translation / reader | blocked by derivative gate order |
+| English translation / reader | **READY — next phase** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
 ## Exact next activity
 
-**Begin dialogue indexing from `scenes/index.json` and the 63 verified scene files.** Preserve each source speaker label exactly as printed, record archive scene ID + PDF provenance for each speech turn, and keep character-name normalization/alias resolution for the later character-index phase.
+**Begin English translation/reconciliation from the frozen 105/105 Tamil source plus the completed scene, dialogue, and character/entity derivatives.** Preserve source structure and exact Tamil linkage; do not modify canonical Tamil or dialogue evidence unless a new source-backed correction is independently established.

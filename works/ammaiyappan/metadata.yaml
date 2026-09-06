@@ -160,7 +160,7 @@ transcription_progress:
   retrospective_historical_glyph_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact speaker labels and scene/page provenance."
+  next_action: "Begin English translation/reconciliation from the frozen verified Tamil plus completed scene/dialogue/character derivatives."
 
 fidelity_audit:
   status: complete-pass
@@ -227,12 +227,24 @@ structured_derivatives:
   scene_index_path: "scenes/index.json"
   scene_boundary_ownership_qa_path: "notes/scene-boundary-ownership-qa.md"
   scene_derivative_commit: "6a764137616879d08f5a1ff14431caafa87b11eb"
-  dialogue_index: ready
-  character_index: blocked-pending-dialogue-index
+  dialogue_index: complete-source-role-resolved-1024-of-1024
+  dialogue_index_path: "dialogues/final-index.json"
+  explicit_colon_records: 1009
+  source_role_supplements: 15
+  exact_source_speaker_labels: 62
+  character_entity_index: complete-verified-reconciled
+  character_entity_index_path: "characters/index.json"
+  entity_count: 26
+  verified_entities: 26
+  record_aware_labels: 2
+  record_aware_records: 187
+  unresolved_entities: 0
+  unresolved_records: 0
+  dialogue_records_modified_by_character_layer: false
   song_authorship_mapping: not-started
-  english_translation: blocked
-  reader_export: blocked
-  reading_room_integration: blocked
+  english_translation: ready-next-phase
+  reader_export: blocked-pending-english
+  reading_room_integration: blocked-pending-english
 
 status:
   duplicate_work_check: complete
@@ -246,11 +258,11 @@ status:
   historical_glyph_audit: complete-verified-105-of-105
   final_tamil_verification: complete-verified-105-of-105-dual-gate
   scene_derivatives: complete-verified-63-of-63
-  dialogue_index: blocked-pending-scene-text-derivatives
-  character_index: blocked-pending-dialogue-index
+  dialogue_index: complete-source-role-resolved-1024-of-1024
+  character_entity_index: complete-verified-reconciled-26-entities-62-labels-1024-units
   song_authorship_gate: not-started
-  english_translation: blocked
-  reader_export: blocked
-  reading_room_integration: blocked
+  english_translation: ready-next-phase
+  reader_export: blocked-pending-english
+  reading_room_integration: blocked-pending-english
 
-next_action: "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact source speaker labels, archive scene IDs and page provenance. Do not normalize character names yet."
+next_action: "Begin English translation/reconciliation from the frozen verified Tamil plus completed scene/dialogue/character evidence layers; preserve exact source provenance."

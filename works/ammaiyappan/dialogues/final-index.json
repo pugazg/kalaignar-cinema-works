@@ -15,5 +15,7 @@
   "source_role_supplement": "source-role-resolved-records.json",
   "source_role_review": "../notes/unlabelled-source-role-review.json",
   "non_dialogue_exclusions": "../notes/non-dialogue-source-role-exclusions.json",
-  "character_entity_gate": "unlocked"
+  "character_entity_gate": "complete-verified-reconciled",
+  "character_entity_index": "../characters/index.json",
+  "next_activity": "Begin English translation/reconciliation from frozen verified Tamil and completed structured derivatives."
 }

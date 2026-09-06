@@ -95,14 +95,14 @@ Scene layer:
 
 - source/canonical Tamil gates: **closed**;
 - scene-text derivatives: **closed-verified**;
-- dialogue index: **READY — next phase**;
-- character index: blocked pending dialogue-index closure;
+- dialogue index: **complete-source-role-resolved — 1,024/1,024 downstream units**;
+- character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,024 units**;
 - song/performance authorship gate: not-started;
-- English / reader: blocked by derivative gate order.
+- English / reader: **READY — next phase**.
 
 ## Exact next activity
 
-> **Build the dialogue index from the 63 verified scene-text derivatives. Preserve the exact printed speaker label for every dialogue turn, attach archive scene ID and source PDF provenance, do not normalize aliases/character identities in this phase, and run dialogue coverage/ownership QA before opening character indexing.**
+> **Begin English translation/reconciliation from the closed Tamil/scene/dialogue/character evidence layers. Keep exact Tamil provenance and source structure; do not reopen canonical Tamil or dialogue evidence without new scan-backed authority.**
 
 
 ## Dialogue-index closure — FINAL QA PASS
@@ -124,4 +124,28 @@ Scene layer:
 
 ### Exact next activity
 
-> **Build the character/entity index from `dialogues/final-index.json`, the 1009 explicit dialogue records, the 15 source-role-resolved dialogue supplements, and the 63 verified scene derivatives. Preserve every exact speaker label as provenance; perform alias/entity reconciliation only in the new character/entity layer, never by rewriting the dialogue records.**
+> **Begin English translation/reconciliation from the closed Tamil/scene/dialogue/character evidence layers. Use `characters/index.json` only as a derivative identity aid; exact Tamil/dialogue labels remain the provenance authority.**
+
+## Character/entity closure — FINAL QA PASS
+
+- downstream dialogue units dispositioned: **1,024/1,024**;
+- exact source speaker labels dispositioned: **62/62**;
+- stable entities / role categories: **26**;
+- verified entities: **26**;
+- review entities: **0**;
+- unresolved entities: **0**;
+- record-aware exact labels: **2** — `முத்`, `தன`;
+- record-aware units: **187**;
+- `முத்`: **80 → முத்தன் / 97 → முத்தாயி**;
+- `தன`: **1 → தனபதி / 9 → தனவணிகர்**;
+- dialogue records modified by character reconciliation: **no**;
+- character index: `characters/index.json`;
+- complete entities: `characters/entities.json`;
+- exact-label disposition: `characters/labels-inventory.json`;
+- record-aware assignments: `characters/record-aware-dispositions.json`;
+- character/entity build commit: `e670816876c4f02c0bebe283c2c9bfc0de93fcc9`.
+
+### Exact next activity
+
+> **Begin English translation/reconciliation. Translate only from the frozen verified Tamil evidence, preserve scene/dialogue provenance, and use the character/entity layer to resolve identity without normalizing the Tamil source.**
+
