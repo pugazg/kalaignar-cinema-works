@@ -11,11 +11,7 @@ Active work: `works/ammaiyappan/` — **அம்மையப்பன்**
 
 Fetch live `main` first and preserve newer durable work. Never reset, repeat, or reopen completed phases because this copied prompt contains an older checkpoint.
 
-Last confirmed live checkpoint immediately before this prompt refresh:
-
-`c04fd6fe89341b983a954670c026620b9c84b5c8` — **`Fix Tirumbippaar package checksum in root status`**
-
-If `main` has advanced, the newer state controls.
+If `main` has advanced beyond the checkpoint recorded when this prompt was refreshed, the newer state controls.
 
 ## CONTROLLING SOURCE
 
@@ -97,30 +93,34 @@ Authoritative translation files include:
 - `translations/PILOT_REVIEW.md`
 - `translations/BATCH_002_005_REVIEW.md`
 - `translations/BATCH_006_010_REVIEW.md`
-- `translations/records/scene-001.json` through `scene-010.json`
+- `translations/BATCH_011_015_REVIEW.md`
+- `translations/records/scene-001.json` through `scene-015.json`
 
 Current verified English checkpoint:
 
-- scenes verified: **10/63**;
-- verified units: **225**;
-- dialogue units: **196** = **190 explicit dialogue records + 6 source-role supplements**;
-- stage/action units: **28**;
+- scenes verified: **15/63**;
+- verified units: **355**;
+- dialogue units: **303** = **295 explicit dialogue records + 8 source-role supplements**;
+- stage/action units: **51**;
 - standalone song-reference units: **1**;
-- cross-page units: **2**;
-- source-only song/performance occurrence links encountered through scene 10: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+- cross-page units: **3**;
+- source-only song/performance occurrence links encountered through scene 15: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-Batch 6–10 specifically establishes:
+Batch 11–15 specifically establishes:
 
-- scene 6: all three context-attributed source-role supplements are preserved; immutable records containing embedded source action are not split merely for schema neatness;
-- scene 7: `ammaiyappan-song-001` translates only the source cue that the Muthan–Muthayi love-song performance is ending; the booklet prints no title or lyric body, so none is reconstructed;
-- scene 8: `ammaiyappan-s008-d011` remains one cross-page English unit across PDF 19→20, and its fragmentary quotation is not externally repaired;
-- scene 10: `ammaiyappan-song-002` is the Kambar-attributed literary fragment embedded inside immutable dialogue record `ammaiyappan-s010-d010`; the occurrence is linked inside that same dialogue unit rather than duplicated as a second verse unit.
+- scene 11: `ammaiyappan-s011-r001` and `ammaiyappan-s011-r002` remain source-context-attributed supplements; neither becomes a printed speaker label;
+- scene 11: the final fight narration, including the embedded warning to Muthan, remains scene narration rather than duplicate immutable dialogue;
+- scene 15: `ammaiyappan-s015-d001` (`குரல்`) remains one cross-page English unit across PDF 31→32 with both page segments;
+- difficult frozen forms such as `பாரிக்கா`, `மால் நன்னோரம்`, `அகாதி`, `திருக்கிட்டு` and the fragmentary scene-15 opening are not silently repaired;
+- the closed source-only song inventory has no retained occurrence in scenes 11–15.
 
-The earlier source-delimiter safeguards remain active:
+Earlier safeguards remain active:
 
 - scene 3 `பூங் ; ...` → source-explicit non-colon provenance;
-- scene 5 `திரு; ...` → source-explicit non-colon provenance.
+- scene 5 `திரு; ...` → source-explicit non-colon provenance;
+- scene 7 `ammaiyappan-song-001` → printed performance cue only, no absent title/lyrics;
+- scene 10 `ammaiyappan-song-002` → Kambar-attributed printed fragment linked inside its immutable dialogue record, no duplicate verse unit.
 
 ## MANDATORY STARTUP
 
@@ -148,9 +148,8 @@ Before further changes, read the current versions of:
 20. `works/ammaiyappan/translations/index.json`
 21. `works/ammaiyappan/translations/schema.json`
 22. `works/ammaiyappan/translations/PILOT_REVIEW.md`
-23. `works/ammaiyappan/translations/BATCH_002_005_REVIEW.md`
-24. `works/ammaiyappan/translations/BATCH_006_010_REVIEW.md`
-25. verified translation records already completed through scene 10.
+23. all completed `works/ammaiyappan/translations/BATCH_*_REVIEW.md` files
+24. verified translation records already completed through scene 15.
 
 Also inspect any newer Ammaiyappan audit/status file added after this prompt.
 
@@ -182,10 +181,10 @@ Unless live `main` contains newer explicit source-backed evidence, do not redo:
 - `முத்` / `தன` identity audits;
 - character/entity reconciliation;
 - song/performance source-authorship gate;
-- already verified English scenes 1–10.
+- already verified English scenes 1–15.
 
 If English work exposes a genuine source defect, isolate it as a post-closure correction and repair only the smallest affected derivative chain with dependent QA.
 
 ## EXACT NEXT ACTIVITY
 
-> **Fetch live `main`; confirm the English checkpoint is 10/63 scenes and 225 verified units; then translate and source-review archival scenes 11–15. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page units whole, create no prose for decorative `★`, and after the batch synchronize `translations/index.json`, translation QA, work-local status, `data/works.json`, root/master status mirrors, this prompt, and report the new live HEAD.**
+> **Fetch live `main`; confirm the English checkpoint is 15/63 scenes and 355 verified units; then translate and source-review archival scenes 16–20. Preserve the two closed source-role supplements in scene 17. Scene 19 contains `ammaiyappan-song-003`, a source-visible cue that Muthan is singing; translate only that printed cue and do not reconstruct a title or lyric body. Keep exact speaker/page provenance and cross-page units whole. After the batch synchronize `translations/index.json`, translation QA, work-local status, `data/works.json`, root/master status mirrors, this prompt, and report the new live HEAD.**
