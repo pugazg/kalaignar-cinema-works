@@ -1,0 +1,140 @@
+name: Ammayappan Muth dispositions once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-muth-dispositions-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  disposition:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build record-level dispositions
+        shell: bash
+        run: |
+          cat > works/ammaiyappan/scripts/build_muth_record_dispositions.py <<'PY'
+          #!/usr/bin/env python3
+          from __future__ import annotations
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          ROOT=Path(__file__).resolve().parents[1]
+          D=ROOT/'dialogues'
+          C=ROOT/'characters'
+
+          MUTHAN_SCENES={1,5,6,14,15,17,24,26,30,33,34,39,45,51,63}
+          MUTHAYI_SCENES={8,27,28,29,47,50,53,58,59}
+          MIXED_DEFAULT={35:'muthayi',36:'muthayi',52:'muthayi'}
+          MUTHAN_EXCEPTIONS={
+              'ammaiyappan-s035-d042','ammaiyappan-s035-d044',
+              'ammaiyappan-s036-d010','ammaiyappan-s036-d012',
+              'ammaiyappan-s052-d025','ammaiyappan-s052-d027','ammaiyappan-s052-d033',
+          }
+
+          def main():
+              rows=[]
+              for p in sorted((D/'records').glob('scene-*.json')):
+                  rows += json.loads(p.read_text(encoding='utf-8'))
+              rows += json.loads((D/'source-role-resolved-records.json').read_text(encoding='utf-8'))
+              targets=[r for r in rows if r['speaker_label']=='முத்']
+              assert len(targets)==177
+              out=[]
+              for r in targets:
+                  scene=r['archive_scene_ordinal']
+                  rid=r['id']
+                  if scene in MUTHAN_SCENES:
+                      entity='muthan'; basis='scene-level identity continuity'
+                  elif scene in MUTHAYI_SCENES:
+                      entity='muthayi'; basis='scene-level identity continuity'
+                  elif scene in MIXED_DEFAULT:
+                      if rid in MUTHAN_EXCEPTIONS:
+                          entity='muthan'; basis='mixed-scene turn-by-turn source context override'
+                      else:
+                          entity=MIXED_DEFAULT[scene]; basis='mixed-scene turn-by-turn source context default'
+                  else:
+                      raise AssertionError((rid,scene))
+                  out.append({
+                      'record_id':rid,
+                      'source_speaker_label':'முத்',
+                      'archive_scene_id':r['archive_scene_id'],
+                      'archive_scene_ordinal':scene,
+                      'entity_key':entity,
+                      'preferred_name_ta':'முத்தன்' if entity=='muthan' else 'முத்தாயி',
+                      'basis':basis,
+                      'dialogue_record_modified':False,
+                  })
+              c=Counter(x['entity_key'] for x in out)
+              assert c=={'muthayi':97,'muthan':80}, c
+              assert len({x['record_id'] for x in out})==177
+              assert {x['record_id'] for x in out if x['archive_scene_ordinal']==35 and x['entity_key']=='muthan'}=={'ammaiyappan-s035-d042','ammaiyappan-s035-d044'}
+              assert {x['record_id'] for x in out if x['archive_scene_ordinal']==36 and x['entity_key']=='muthan'}=={'ammaiyappan-s036-d010','ammaiyappan-s036-d012'}
+              assert {x['record_id'] for x in out if x['archive_scene_ordinal']==52 and x['entity_key']=='muthan'}=={'ammaiyappan-s052-d025','ammaiyappan-s052-d027','ammaiyappan-s052-d033'}
+              doc={
+                  'work_id':'ammaiyappan',
+                  'phase':'record-aware-speaker-disposition',
+                  'status':'complete-verified',
+                  'exact_source_label':'முத்',
+                  'source_record_count':177,
+                  'resolved_record_count':177,
+                  'unresolved_record_count':0,
+                  'entity_counts':dict(sorted(c.items())),
+                  'policy':'The exact dialogue speaker_label `முத்` is never rewritten. This derivative maps each immutable record to an entity from verified scene/turn context.',
+                  'mixed_scene_overrides':{
+                      '35':sorted(x for x in MUTHAN_EXCEPTIONS if '-s035-' in x),
+                      '36':sorted(x for x in MUTHAN_EXCEPTIONS if '-s036-' in x),
+                      '52':sorted(x for x in MUTHAN_EXCEPTIONS if '-s052-' in x),
+                  },
+                  'dispositions':out,
+              }
+              C.mkdir(exist_ok=True)
+              (C/'muth-record-dispositions.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              md=['# அம்மையப்பன் — `முத்` record dispositions','',
+                  'Status: **COMPLETE VERIFIED — 177/177**','',
+                  '- `முத்` → முத்தன்: **80** records',
+                  '- `முத்` → முத்தாயி: **97** records',
+                  '- unresolved: **0**','',
+                  'The immutable dialogue label remains exactly `முத்`; this file is a derivative identity disposition only.','',
+                  '## Mixed-scene record overrides','',
+                  '- scene 35 → முத்தன் only: `d042`, `d044`; all other `முத்` → முத்தாயி.',
+                  '- scene 36 → முத்தன் only: `d010`, `d012`; all other `முத்` → முத்தாயி.',
+                  '- scene 52 → முத்தன் only: `d025`, `d027`, `d033`; all other `முத்` → முத்தாயி.','']
+              (C/'muth-record-dispositions.md').write_text('\n'.join(md),encoding='utf-8')
+              print(json.dumps({'resolved':177,'muthan':80,'muthayi':97,'unresolved':0},ensure_ascii=False))
+          if __name__=='__main__': main()
+          PY
+          chmod +x works/ammaiyappan/scripts/build_muth_record_dispositions.py
+          python works/ammaiyappan/scripts/build_muth_record_dispositions.py
+      - name: Validate dispositions
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          p=json.loads(Path('works/ammaiyappan/characters/muth-record-dispositions.json').read_text(encoding='utf-8'))
+          assert p['status']=='complete-verified'
+          assert p['resolved_record_count']==177 and p['unresolved_record_count']==0
+          assert Counter(x['entity_key'] for x in p['dispositions'])=={'muthayi':97,'muthan':80}
+          assert all(x['source_speaker_label']=='முத்' and x['dialogue_record_modified'] is False for x in p['dispositions'])
+          print('AMMAYAPPAN MUTH RECORD DISPOSITIONS PASS')
+          PY
+      - name: Commit dispositions
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/scripts/build_muth_record_dispositions.py \
+                  works/ammaiyappan/characters/muth-record-dispositions.json \
+                  works/ammaiyappan/characters/muth-record-dispositions.md
+          git commit -m "Resolve Ammayappan Muth shorthand by record [skip ci]"
+          git push origin HEAD:main
