@@ -67,23 +67,26 @@ canonical_tamil:
   index_path: "transcription/index.json"
   status: partial-first-pass
   pages_expected: 67
-  first_pass_pages_completed: 5
-  first_pass_pdf_range_completed: "5-9"
-  first_pass_current_through_pdf: 9
-  first_pass_current_through_printed_page: 9
-  draft_pages: 5
+  first_pass_pages_completed: 10
+  first_pass_pdf_range_completed: "5-14"
+  first_pass_current_through_pdf: 14
+  first_pass_current_through_printed_page: 14
+  draft_pages: 10
   verified_pages: 0
-  review_pages: 5
+  review_pages: 10
   open_uncertainty_markers: 2
-  current_batch_path: "transcription/parts/pdf-005-009.md"
-  textual_notes_path: "notes/textual-notes-pdf-005-009.md"
+  completed_batch_paths:
+    - "transcription/parts/pdf-005-009.md"
+    - "transcription/parts/pdf-010-014.md"
+  current_batch_path: "transcription/parts/pdf-010-014.md"
+  current_textual_notes_path: "notes/textual-notes-pdf-010-014.md"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
   status: partial-first-pass
   main_text_pages_expected: 67
-  pages_checked: 5
+  pages_checked: 10
   pages_verified: 0
   known_families:
     - "ணா"
@@ -136,9 +139,9 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_transcription: partial-first-pass-through-pdf-009
+  canonical_tamil_transcription: partial-first-pass-through-pdf-014
   visual_fidelity_audit: not-started
-  historical_glyph_audit: partial-first-pass-through-pdf-009
+  historical_glyph_audit: partial-first-pass-through-pdf-014
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -153,4 +156,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Continue canonical Tamil first-pass transcription with PDF 10-14, preserving source order and stable page anchors and performing page-level historical-glyph checks. Keep all pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
+next_action: "Continue canonical Tamil first-pass transcription with PDF 15-19, preserving source order and stable page anchors and performing page-level historical-glyph checks. Keep all pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
