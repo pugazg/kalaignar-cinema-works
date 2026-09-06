@@ -1,0 +1,2175 @@
+{
+  "work_id": "ammaiyappan",
+  "phase": "character-entity-preflight",
+  "status": "review-ready",
+  "dialogue_authority": "../dialogues/final-index.json",
+  "dialogue_units_scanned": 1024,
+  "explicit_dialogue_units": 1009,
+  "source_role_supplement_units": 15,
+  "distinct_labels_across_downstream_units": 62,
+  "distinct_explicit_colon_labels": 62,
+  "supplement_labels": [
+    "சுக",
+    "சுகதேவ்",
+    "திரி",
+    "திரிசங்கு",
+    "திரு",
+    "முத்தன்",
+    "வேதாளம்",
+    "வேல"
+  ],
+  "labels_new_only_in_supplement": [],
+  "inventory": [
+    {
+      "speaker_label": "(திகிலுடன்) முத்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        6
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s006-d011"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s006-d011",
+          "scene": 6,
+          "heading": "வாள் பயிற்சிக் கூடம்",
+          "text_preview": "இளையராணி..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "அர",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        60
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s060-d005",
+        "ammaiyappan-s060-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s060-d005",
+          "scene": 60,
+          "heading": "வேங்கையூர்",
+          "text_preview": "பூங்காவனம்! நான் உன்மீது வைத்திருந்த அன்புக்காக மட்டுமே முத்தனை விடுவிக்கலாம். ஆனால் முத்தன் வேங்கை நாட்டின் விரோதி!...விடுதலை விரும்பி!... அவனை விடுவிக்க சட்டம் கிடையாது......"
+        },
+        {
+          "record_id": "ammaiyappan-s060-d007",
+          "scene": 60,
+          "heading": "வேங்கையூர்",
+          "text_preview": "கவலைப்படாதே! முத்தன் இதுவரையில் என் இதயத்திலே குடியிருந்தவளின் மகன் என்பதற்காக விடுதலை செய்யப்படுகிறான்!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "அரச",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        60
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s060-d003"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s060-d003",
+          "scene": 60,
+          "heading": "வேங்கையூர்",
+          "text_preview": "புரிந்து கொண்டேன் பூங்காவனம்! இந்தக் காரணத்தை நீ முன்பே வெளியிட்டிருந்தால், என்னுடைய வாழ்க்கை எவ்வளவோ நிம்மதியாக இருந்திருக்கும்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஆள்",
+      "record_count": 5,
+      "scene_count": 1,
+      "scenes": [
+        20
+      ],
+      "record_origins": {
+        "explicit-colon": 5
+      },
+      "sample_records": [
+        "ammaiyappan-s020-d003",
+        "ammaiyappan-s020-d005",
+        "ammaiyappan-s020-d007",
+        "ammaiyappan-s020-d009",
+        "ammaiyappan-s020-d016"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s020-d003",
+          "scene": 20,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "நான் எங்க விலகப் போறேன்!"
+        },
+        {
+          "record_id": "ammaiyappan-s020-d005",
+          "scene": 20,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "சமாசம்!"
+        },
+        {
+          "record_id": "ammaiyappan-s020-d007",
+          "scene": 20,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "ஆமாம்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "குரல்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        15
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s015-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s015-d001",
+          "scene": 15,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "இங்கென்ன வாழ்கிறது! இங்கேயும் குழப்\nபம்தான்! காதல்புறு ... கன்றைநாடும் பசு ... மான்தோல்\nவேங்கை! எத்துணைச் சிறப்பான கருத்து கலையின் அழகே\nஅழகு...அந்தக் கருத்துக் கலைகள் அவளுக்கு ஒரு "
+        }
+      ]
+    },
+    {
+      "speaker_label": "குறு",
+      "record_count": 3,
+      "scene_count": 1,
+      "scenes": [
+        27
+      ],
+      "record_origins": {
+        "explicit-colon": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s027-d007",
+        "ammaiyappan-s027-d009",
+        "ammaiyappan-s027-d011"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s027-d007",
+          "scene": 27,
+          "heading": "பழுதார் வீதி",
+          "text_preview": "ஆமாம்...என்ன வேண்டும்?..."
+        },
+        {
+          "record_id": "ammaiyappan-s027-d009",
+          "scene": 27,
+          "heading": "பழுதார் வீதி",
+          "text_preview": "யாரை?"
+        },
+        {
+          "record_id": "ammaiyappan-s027-d011",
+          "scene": 27,
+          "heading": "பழுதார் வீதி",
+          "text_preview": "ஓ!...விடுதலை செய்து விட்டார்களே!...அவனை விடுதலை செய்து, பிரமாதமான மரியாதைகளோடு அதோ அழைத்து வருகிறார்கள்!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "குறும்பன்",
+      "record_count": 4,
+      "scene_count": 3,
+      "scenes": [
+        20,
+        33,
+        52
+      ],
+      "record_origins": {
+        "explicit-colon": 4
+      },
+      "sample_records": [
+        "ammaiyappan-s020-d001",
+        "ammaiyappan-s020-d008",
+        "ammaiyappan-s033-d002",
+        "ammaiyappan-s052-d033"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s020-d001",
+          "scene": 20,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "உம்...கையெழுத்து போட்டாகி விட்\nடது. நீ படையில் சேர்ந்து விட்டாய் என்று அர்த்தம்."
+        },
+        {
+          "record_id": "ammaiyappan-s020-d008",
+          "scene": 20,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "தகப்பனார் பெயர்?"
+        },
+        {
+          "record_id": "ammaiyappan-s033-d002",
+          "scene": 33,
+          "heading": "தனபதி மாளிகை",
+          "text_preview": "வேதாளம் வந்திருக்கிறான்..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "சக்கரவர்த்தி",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        55
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s055-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s055-d001",
+          "scene": 55,
+          "heading": "வேங்கை நாட்டு அவைக்கூடம்",
+          "text_preview": "தளபதி வேலழகர்...கொலை செய்யப் பட்டார்...வேங்கை நாட்டுக்குப் பெருத்த அவமானம்! படையில் இருந்து ஓடியதும் அல்லாமல், படைத்தலைவரையும் கொன்று விட்டான்...அந்தப் பாதகனை விட்டுக் கூடாது! உடனே"
+        }
+      ]
+    },
+    {
+      "speaker_label": "சாமி",
+      "record_count": 6,
+      "scene_count": 2,
+      "scenes": [
+        4,
+        56
+      ],
+      "record_origins": {
+        "explicit-colon": 6
+      },
+      "sample_records": [
+        "ammaiyappan-s004-d016",
+        "ammaiyappan-s004-d018",
+        "ammaiyappan-s004-d020",
+        "ammaiyappan-s004-d022",
+        "ammaiyappan-s004-d024"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s004-d016",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "விஷம்—விஷம்!!......"
+        },
+        {
+          "record_id": "ammaiyappan-s004-d018",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "வெகுமதியா? என்ன பூபதி."
+        },
+        {
+          "record_id": "ammaiyappan-s004-d020",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "புதையல்?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "சாமியார்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        56
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s056-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s056-d001",
+          "scene": 56,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "எனக் கென்னமோ, சுகதேவ் திரும்பி வருவது சந்தேகமாகிவிட்டது. விதி நம் விழிகளையும் மூடி விடும்...சுகதேவ் எதிரே நின்றால்கூட நம் பார்வைக்கு திரைபோட்டு விடும் பயங்கர சக்தி வாய்ந்தது அந்த வ"
+        }
+      ]
+    },
+    {
+      "speaker_label": "சுக",
+      "record_count": 95,
+      "scene_count": 17,
+      "scenes": [
+        1,
+        6,
+        8,
+        14,
+        29,
+        31,
+        35,
+        36,
+        40,
+        42,
+        46,
+        48,
+        51,
+        53,
+        54,
+        56,
+        62
+      ],
+      "record_origins": {
+        "explicit-colon": 92,
+        "source-context-attributed": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s001-d001",
+        "ammaiyappan-s001-d003",
+        "ammaiyappan-s001-d004",
+        "ammaiyappan-s001-d006",
+        "ammaiyappan-s001-d008"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s001-d001",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "ஏ!—முத்தா! என்ன படம் இது?"
+        },
+        {
+          "record_id": "ammaiyappan-s001-d003",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "ஏ!...சும்மா காட்டு; பார்க்கலாம்..."
+        },
+        {
+          "record_id": "ammaiyappan-s001-d004",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "அடேடே!...முத்தா! நான் இதுமாதிரி ஒரு படம் இரண்டு மூன்று வாரங்களுக்கு முன்னால் எங்கேயோ பார்த்தது போலே ஞாபகம்!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "சுகதேவ்",
+      "record_count": 42,
+      "scene_count": 11,
+      "scenes": [
+        1,
+        7,
+        10,
+        11,
+        13,
+        29,
+        31,
+        35,
+        50,
+        56,
+        58
+      ],
+      "record_origins": {
+        "explicit-colon": 41,
+        "source-context-attributed": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s001-d015",
+        "ammaiyappan-s001-d017",
+        "ammaiyappan-s001-d019",
+        "ammaiyappan-s001-d021",
+        "ammaiyappan-s001-d023"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s001-d015",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "அம்மையப்பன் என்பதற்கு அர்த்தம் என்ன ஸ்வாமி........."
+        },
+        {
+          "record_id": "ammaiyappan-s001-d017",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "அப்பா!......"
+        },
+        {
+          "record_id": "ammaiyappan-s001-d019",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "அம்மா!......."
+        }
+      ]
+    },
+    {
+      "speaker_label": "சும",
+      "record_count": 8,
+      "scene_count": 3,
+      "scenes": [
+        25,
+        28,
+        47
+      ],
+      "record_origins": {
+        "explicit-colon": 8
+      },
+      "sample_records": [
+        "ammaiyappan-s025-d004",
+        "ammaiyappan-s025-d006",
+        "ammaiyappan-s028-d004",
+        "ammaiyappan-s028-d006",
+        "ammaiyappan-s028-d008"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s025-d004",
+          "scene": 25,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "அவரை நான் பார்க்க வேண்டுமே."
+        },
+        {
+          "record_id": "ammaiyappan-s025-d006",
+          "scene": 25,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "அதைத்தான் கொண்டு வந்திருக்கிறேன்...இதோ இதை தயவு செய்து அவரிடம் கொடுக்க முடியுமா?..."
+        },
+        {
+          "record_id": "ammaiyappan-s028-d004",
+          "scene": 28,
+          "heading": "திரிசங்கு வீடு",
+          "text_preview": "என்ன—நீ என்ன சொல்லுகிறாய்?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "சுமதி",
+      "record_count": 17,
+      "scene_count": 6,
+      "scenes": [
+        7,
+        21,
+        23,
+        25,
+        28,
+        44
+      ],
+      "record_origins": {
+        "explicit-colon": 17
+      },
+      "sample_records": [
+        "ammaiyappan-s007-d024",
+        "ammaiyappan-s007-d026",
+        "ammaiyappan-s007-d028",
+        "ammaiyappan-s007-d030",
+        "ammaiyappan-s021-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s007-d024",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "முத்தாயி! போகலாமா?"
+        },
+        {
+          "record_id": "ammaiyappan-s007-d026",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "கார்யமாகத்தான். நேரமாகிறது. வா போகலாம்"
+        },
+        {
+          "record_id": "ammaiyappan-s007-d028",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "அந்த உத்திரவுமட்டும் அங்கே கிடைக்காது."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தன",
+      "record_count": 10,
+      "scene_count": 3,
+      "scenes": [
+        36,
+        43,
+        45
+      ],
+      "record_origins": {
+        "explicit-colon": 10
+      },
+      "sample_records": [
+        "ammaiyappan-s036-d006",
+        "ammaiyappan-s036-d009",
+        "ammaiyappan-s036-d011",
+        "ammaiyappan-s036-d013",
+        "ammaiyappan-s036-d015"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s036-d006",
+          "scene": 36,
+          "heading": "தனபதி மாளிகை",
+          "text_preview": "முட்டாள்! வெளியில் சொல்லாமல் ஓடு இதை விட்டு..."
+        },
+        {
+          "record_id": "ammaiyappan-s036-d009",
+          "scene": 36,
+          "heading": "தனபதி மாளிகை",
+          "text_preview": "யார்? யார்...நீங்க? என்ன வேணும்? உங்களுக்கு ஒண்ணும் பிச்சைபோட என்னால் முடியாது...நான் கைக்குழந்தைக்காரன்..."
+        },
+        {
+          "record_id": "ammaiyappan-s036-d011",
+          "scene": 36,
+          "heading": "தனபதி மாளிகை",
+          "text_preview": "அண்ணனும், தங்கச்சியும் பொறப்பட்டீங்களா?......."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தனபதி",
+      "record_count": 15,
+      "scene_count": 3,
+      "scenes": [
+        18,
+        20,
+        36
+      ],
+      "record_origins": {
+        "explicit-colon": 15
+      },
+      "sample_records": [
+        "ammaiyappan-s018-d003",
+        "ammaiyappan-s018-d005",
+        "ammaiyappan-s020-d002",
+        "ammaiyappan-s020-d004",
+        "ammaiyappan-s020-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s018-d003",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "மிகவும் நன்றி செலுத்துகிறேன்."
+        },
+        {
+          "record_id": "ammaiyappan-s018-d005",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "தங்களைப் போன்ற மடாதிபர்கள் நாட்டுத்\nதொண்டு செய்யக் கிளம்பி விட்டால் இரண்டு உலகு\nவெளிச்ச மடைந்துவிடும். பின்னர் சந்திக்கிறேன். வரு\nகிறேன்."
+        },
+        {
+          "record_id": "ammaiyappan-s020-d002",
+          "scene": 20,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "இனிமேல் விலகுவதாயிருந்தால் நூறு\nபொன் தண்டம் செலுத்த வேண்டும்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தனவணிகர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        45
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s045-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s045-d002",
+          "scene": 45,
+          "heading": "தனவணிகர் வீடு",
+          "text_preview": "நான் போகவில்லையென்றால் குழந்தை அவ்வளவுதான். காற்றில் மரக்கிளை முறிந்து விழுந்து..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தள",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        49
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s049-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s049-d002",
+          "scene": 49,
+          "heading": "சத்திரத்திற்குள்",
+          "text_preview": "அதிருக்கட்டும் - வேதாளம்! சுகம் எங்கே என்று தேடிஅலையும் என்னிடம் விடுதலைப் பட்டாளத்தைப் பற்றி இப்போது வீணுக ஏன் பேசுகிறீர்? முதலில் அந்த சுந்தர மேனியாளை எப்படியாவது கொண்டு வா!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "திரி",
+      "record_count": 55,
+      "scene_count": 5,
+      "scenes": [
+        8,
+        14,
+        29,
+        35,
+        37
+      ],
+      "record_origins": {
+        "explicit-colon": 54,
+        "source-context-attributed": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s008-d001",
+        "ammaiyappan-s008-d003",
+        "ammaiyappan-s008-d006",
+        "ammaiyappan-s008-d008",
+        "ammaiyappan-s008-d010"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s008-d001",
+          "scene": 8,
+          "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+          "text_preview": "முத்தாயி!...முத்தாயி!"
+        },
+        {
+          "record_id": "ammaiyappan-s008-d003",
+          "scene": 8,
+          "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+          "text_preview": "ஏங்கம்மா போயிட்டே? உன்னை நான் எங்கெல்லாம் தேடறது...யாரு வந்திருக்கான்னு பாரு ... தம்பி வாங்க. சீ...சீ...உன்னையாரு கூப்பிட்டது...?"
+        },
+        {
+          "record_id": "ammaiyappan-s008-d006",
+          "scene": 8,
+          "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+          "text_preview": "பார்த்த உடனேயே இப்படி பரிகாசம் செய்யலாமா தம்பி நீங்கள்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "திரிசங்கு",
+      "record_count": 45,
+      "scene_count": 11,
+      "scenes": [
+        7,
+        8,
+        10,
+        11,
+        13,
+        16,
+        19,
+        27,
+        29,
+        35,
+        37
+      ],
+      "record_origins": {
+        "explicit-colon": 42,
+        "source-context-attributed": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s007-d002",
+        "ammaiyappan-s007-d004",
+        "ammaiyappan-s007-d006",
+        "ammaiyappan-s007-d008",
+        "ammaiyappan-s007-d010"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s007-d002",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "இல்ல ைதம்பி. எனக்குத்தான்."
+        },
+        {
+          "record_id": "ammaiyappan-s007-d004",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "அவன் ஒரு வேலையற்றவன். பொழுது விடிந்தால் என் உயிரை வாங்குவதே அவனுக்கு வேலை."
+        },
+        {
+          "record_id": "ammaiyappan-s007-d006",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "அதை என் தம்பி கேட்டறிங்க. எனக்கு ஒரு மருமகப் பயல் இருக்கிறான். அவனுக்குப் பெண் வேண்டுமாம்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "திரு",
+      "record_count": 4,
+      "scene_count": 1,
+      "scenes": [
+        5
+      ],
+      "record_origins": {
+        "explicit-colon": 3,
+        "source-explicit-noncolon-delimiter": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s005-d002",
+        "ammaiyappan-s005-d004",
+        "ammaiyappan-s005-d006",
+        "ammaiyappan-s005-r001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s005-d002",
+          "scene": 5,
+          "heading": "குதிரைக் கொட்டடி",
+          "text_preview": "நீ வந்துட்டியா—சிபார்சுக்கு...முத்தா—நீ குதிரை பார்த்துக் கொள்கிற லட்சணம் நன்றாயிருக்கிறது திருட்டுப்பய பிள்ளைகள் எல்லாம் அரண்மனைக் குள்ளேயே வந்துட்டுதுங்க திருடுரத்துக்கு!"
+        },
+        {
+          "record_id": "ammaiyappan-s005-d004",
+          "scene": 5,
+          "heading": "குதிரைக் கொட்டடி",
+          "text_preview": "சரிதான் பாளையக்காரர் சொத்தை நீயே பசி காரர்களுக்கு பங்கு போட்டு கொடுத்திடுவே போலிருக்கு."
+        },
+        {
+          "record_id": "ammaiyappan-s005-d006",
+          "scene": 5,
+          "heading": "குதிரைக் கொட்டடி",
+          "text_preview": "காவேரி எவ்வளவு நல்லவ, அவ வயத்திலே வந்து இப்படி ஒரு புள்ளே பொறந்துதே!......"
+        }
+      ]
+    },
+    {
+      "speaker_label": "திருசங்கு",
+      "record_count": 3,
+      "scene_count": 2,
+      "scenes": [
+        8,
+        10
+      ],
+      "record_origins": {
+        "explicit-colon": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s008-d031",
+        "ammaiyappan-s008-d033",
+        "ammaiyappan-s010-d003"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s008-d031",
+          "scene": 8,
+          "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+          "text_preview": "ஜாக்கிரதை—காதில் விழுந்தால் கண்ணைப் பிடுங்கி விடுவார்."
+        },
+        {
+          "record_id": "ammaiyappan-s008-d033",
+          "scene": 8,
+          "heading": "திரிசங்கு வீட்டின் கொல்லைப்புறம்.",
+          "text_preview": "சீ! பேச்சுக்குப் பேச்சு பதில் பேசிக் கொண்டு."
+        },
+        {
+          "record_id": "ammaiyappan-s010-d003",
+          "scene": 10,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "முத்தாயி சொல்லுது தம்பி, உங்க நடையிலே ஒரு வீரம் இருக்கிறதாம்-கண் பார்வையிலே ஒரு கம்பீரம் இருக்கிறதாம்-பேச்சிலே இனிமை இருக்கிறதாம்-கையிலே என்னமோ இருக்குதுன்னு சொல்லுச்சே."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தோழ 2",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        39
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s039-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s039-d006",
+          "scene": 39,
+          "heading": "தனவணிகர் வீடு",
+          "text_preview": "ஆங்!...அண்ண ாசொல்வதுதான் சரி!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தோழன் 1",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        39
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s039-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s039-d002",
+          "scene": 39,
+          "heading": "தனவணிகர் வீடு",
+          "text_preview": "மக்கள் மனதை மாற்றுவதென்றால்..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தோழன் 2",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        39
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s039-d003"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s039-d003",
+          "scene": 39,
+          "heading": "தனவணிகர் வீடு",
+          "text_preview": "யோசித்தால் நடக்காது...செயலில் இறங்க வேண்டும்..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தோழன் 3",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        39
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s039-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s039-d004",
+          "scene": 39,
+          "heading": "தனவணிகர் வீடு",
+          "text_preview": "ஆமாம்...அதுதான் என் அபிப்பிராயமும்..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "நண்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        1
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s001-d012"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s001-d012",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "என்ன முத்தண்ணா சுகந்தானா?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "நண்பன்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        17
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s017-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s017-d002",
+          "scene": 17,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "இதற்கு வேறு என்னதான் வழி...?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பறையடிப்பவன்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        36
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s036-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s036-d007",
+          "scene": 36,
+          "heading": "தனபதி மாளிகை",
+          "text_preview": "இதனால் சகலமான பேர்களுக்கும் தெரிவிப்பது என்னவென்றால்,...வேங்கைநாட்டுப் படையிலே இருந்து முத்தன் என்பவன் தப்பி ஓடிவிட்டான்...அவன் அடையாளமாவது—அரும்பு மீசை—அழகான வாலிபன்—சிகப்பு நிறம்"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பல",
+      "record_count": 20,
+      "scene_count": 3,
+      "scenes": [
+        3,
+        38,
+        56
+      ],
+      "record_origins": {
+        "explicit-colon": 20
+      },
+      "sample_records": [
+        "ammaiyappan-s003-d001",
+        "ammaiyappan-s003-d002",
+        "ammaiyappan-s003-d004",
+        "ammaiyappan-s003-d006",
+        "ammaiyappan-s003-d008"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s003-d001",
+          "scene": 3,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "பூங்காவனம்-பூங்காவனம்.......\n\nபூங் ; என்ன அண்ணா...என்ன விசேஷம்......."
+        },
+        {
+          "record_id": "ammaiyappan-s003-d002",
+          "scene": 3,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "விசேஷமா! உனக்கு அண்ணனைப் பிறந்து விட்டு, விசேஷம் வேறு எனக்கு. இதோ பார் வேங்கை நாட்டரசன் ஓலையனுப்பி இருக்கிறான்......"
+        },
+        {
+          "record_id": "ammaiyappan-s003-d004",
+          "scene": 3,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "திருமணமா? அதைத்தான் அவன் மறந்து விட்டானே...இப்போது வந்திருக்கும் ஓலை...அரை லட்சம் பொன்னுக்கு...அவசர உத்திரவு. கப்பம் கட்டித்தீர வேண்டும் பூங்காவனம்...கப்பம் கட்டித் தீரவேண்டும்..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "பலதேவர்",
+      "record_count": 6,
+      "scene_count": 3,
+      "scenes": [
+        1,
+        9,
+        38
+      ],
+      "record_origins": {
+        "explicit-colon": 6
+      },
+      "sample_records": [
+        "ammaiyappan-s001-d029",
+        "ammaiyappan-s009-d001",
+        "ammaiyappan-s009-d003",
+        "ammaiyappan-s009-d005",
+        "ammaiyappan-s009-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s001-d029",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "சுகதேவ் இப்படி எல்லாம் குறும்புத் தனமாக கேள்விகளை கேட்டாதே; மகான்களை இப்படி யெல்லாம் மடக்குவது மகாபாபம்......"
+        },
+        {
+          "record_id": "ammaiyappan-s009-d001",
+          "scene": 9,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "ஆயிரக் கணக்கிலே படை வீரர்கள் இருக்கும் போது, வீர தளபதி வேலழகர் நீங்கள் இருக்கும் போது; வேங்கை நகரத்து அரசர் யாருக்காகப் பயந்து கொண்டு படையை இன்னும் பெருக்குகிறார்?"
+        },
+        {
+          "record_id": "ammaiyappan-s009-d003",
+          "scene": 9,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "என்னால் இயன்றதைச் செய்யக்காத்துக் கிடக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "பூங்",
+      "record_count": 34,
+      "scene_count": 9,
+      "scenes": [
+        3,
+        6,
+        14,
+        15,
+        56,
+        58,
+        60,
+        62,
+        63
+      ],
+      "record_origins": {
+        "explicit-colon": 34
+      },
+      "sample_records": [
+        "ammaiyappan-s003-d003",
+        "ammaiyappan-s003-d005",
+        "ammaiyappan-s003-d007",
+        "ammaiyappan-s003-d009",
+        "ammaiyappan-s006-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s003-d003",
+          "scene": 3,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "எப்போதும் போல என் திருமணத்தைப் பற்றித்தானே......"
+        },
+        {
+          "record_id": "ammaiyappan-s003-d005",
+          "scene": 3,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "வழக்கம் தானே அண்ணா இது!..."
+        },
+        {
+          "record_id": "ammaiyappan-s003-d007",
+          "scene": 3,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "அதற்காக...என் அபிப்பிராயத்தை மாற்றிக் கொள்ள முடியுமா?......"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பூங்காவனம்",
+      "record_count": 6,
+      "scene_count": 3,
+      "scenes": [
+        13,
+        58,
+        60
+      ],
+      "record_origins": {
+        "explicit-colon": 6
+      },
+      "sample_records": [
+        "ammaiyappan-s013-d004",
+        "ammaiyappan-s013-d008",
+        "ammaiyappan-s013-d010",
+        "ammaiyappan-s013-d012",
+        "ammaiyappan-s058-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s013-d004",
+          "scene": 13,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "என்ன! முத்தனை விலக்கவா? ஏன்?\nஎதற்காக?"
+        },
+        {
+          "record_id": "ammaiyappan-s013-d008",
+          "scene": 13,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "அதைப் பெருமையாகச் சொல்லிக்\nகொள்கிறாயா? ஏழையை அடிப்பதில் ஒரு உற்சாகமா\nஉனக்கு?"
+        },
+        {
+          "record_id": "ammaiyappan-s013-d010",
+          "scene": 13,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "சுகதேவ்! முத்தனை விலக்க வேண்\nடாம். அவனுக்கு நம்மைத் தவிர வேறுயார் இருக்கிறார்கள்?\nபாவம் அனாதை—அவன் எங்கு போவான்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "பூப",
+      "record_count": 4,
+      "scene_count": 1,
+      "scenes": [
+        56
+      ],
+      "record_origins": {
+        "explicit-colon": 4
+      },
+      "sample_records": [
+        "ammaiyappan-s056-d021",
+        "ammaiyappan-s056-d024",
+        "ammaiyappan-s056-d031",
+        "ammaiyappan-s056-d033"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s056-d021",
+          "scene": 56,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "தயவு செய்து என்னை அந்தப் பின்புறத்து படிக்கட்டுகளின் பக்கம் அழைத்துப் போங்கள்!"
+        },
+        {
+          "record_id": "ammaiyappan-s056-d024",
+          "scene": 56,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "படிகள் எண்ணினேன்—அதோடு பழைய நிகழ்ச்சி ஒன்றையும் எண்ணினேன்...\n\nஆகா! நன்றாக ஞாபகம் இருக்கிறது—இப்போது நடப்பதுபோல் இதோ, எல்லாம் என் கண்முன்னே அப்படியே காட்சியாகின்றன! அந்தக் காட்சியை "
+        },
+        {
+          "record_id": "ammaiyappan-s056-d031",
+          "scene": 56,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "ஹ...ஹ...ஹ!...பற்றற்ற துறவிகள் புரட்சியைக்கூட நாடமாட்டார்களாம்—நீரோ பூங்காவனத்தையே நாடி இருக்கிறீர்...ஹ...ஹ...ஹ!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பூபதி",
+      "record_count": 20,
+      "scene_count": 6,
+      "scenes": [
+        4,
+        18,
+        56,
+        60,
+        62,
+        63
+      ],
+      "record_origins": {
+        "explicit-colon": 20
+      },
+      "sample_records": [
+        "ammaiyappan-s004-d003",
+        "ammaiyappan-s004-d005",
+        "ammaiyappan-s004-d007",
+        "ammaiyappan-s004-d015",
+        "ammaiyappan-s004-d017"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s004-d003",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "ஆமாம்!"
+        },
+        {
+          "record_id": "ammaiyappan-s004-d005",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "ஒன்று சொன்னீர். அதுவும் நன்று சொன்னீர். உண்மை; உள்ளங்கை நெல்லிக்கனி..."
+        },
+        {
+          "record_id": "ammaiyappan-s004-d007",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "நிச்சயமாகப் பயன்பட்டது. இருபது ஆண்டு இடைவிடாத அலச்சல் வீண் போகவில்லை—மாயத்தாலும் மந்திரத்தாலும் தீர்க்க முடியாதவைகளை மருத்துவத்தால் தீர்க்கலாம் என்ற உண்மையை......"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மக்கள்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        18
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s018-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s018-d002",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "அம்மையப்பா! அம்மையப்பா!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாப்பிள்ளை",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        62
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s062-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s062-d004",
+          "scene": 62,
+          "heading": "தூக்குமேடை",
+          "text_preview": "யாரும் ஆச்சரியப்படவேண்டாம்! நானே தேடிக்கொண்ட முடிவுதான் இது. என் குற்றங்களுக்கு பிராயச்சித்தம் செய்து கொண்டேன். என் மகனுக்காக நான் செய்யும் முதலும், கடைசியுமான தியாகம் இதுதான்! பட்"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாய்",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        58
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s058-d007",
+        "ammaiyappan-s058-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s058-d007",
+          "scene": 58,
+          "heading": "சுமதி வீடு",
+          "text_preview": "முத்தாயி! முத்தன் சாகமாட்டான்..."
+        },
+        {
+          "record_id": "ammaiyappan-s058-d009",
+          "scene": 58,
+          "heading": "சுமதி வீடு",
+          "text_preview": "இல்லை! பலதேவர் சக்கரவர்த்தியை சந்திக்கப் போயிருக்கிறார்—முத்தனுக்கு விடுதலை கட்டாயம் கிடைத்துவிடும்!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாய்கை",
+      "record_count": 16,
+      "scene_count": 2,
+      "scenes": [
+        1,
+        4
+      ],
+      "record_origins": {
+        "explicit-colon": 16
+      },
+      "sample_records": [
+        "ammaiyappan-s001-d014",
+        "ammaiyappan-s001-d016",
+        "ammaiyappan-s001-d018",
+        "ammaiyappan-s001-d020",
+        "ammaiyappan-s001-d022"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s001-d014",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "அகில ஜெகத்திற்கும் அம்மையப்பன் அருள் சித்திக் கட்டும்...அடியார்க்கு அடியார்களே! அன்பு நிறைந்த பக்தர்களே!.......அய்ய வினைகள் ஏதேனும் இருப்பின் கேட்டுத் தெளிவு பெறுக........"
+        },
+        {
+          "record_id": "ammaiyappan-s001-d016",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "அடடா, இதுவா புரிய வில்லை—இளவரசே. இதோ இருக்கும் பாளையக்கார பலதேவர் உமக்கு..."
+        },
+        {
+          "record_id": "ammaiyappan-s001-d018",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "சரி, அவர்கள்.......?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாய்கைநாதர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        4
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s004-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s004-d001",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "மகான்களைப் பற்றி நேற்றுச் சொன்னேனல்லவா? மகான்கள் அடிக்கடித் தோன்றுவதில்லை. ஆனால் அப்படித் தோன்றும் மகான்களால் ஆகாதது எதுவுமே இல்லை...கடலை வற்ற வைப்பார்; கசந்திலே மிதந்திடுவர்...கடவ"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாய்க்கை",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        18
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s018-d004",
+        "ammaiyappan-s018-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s018-d004",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "கடமையைச் செய்தேன்."
+        },
+        {
+          "record_id": "ammaiyappan-s018-d006",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "அம்மையப்பா! அருள் நெறிவாழ்க."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாய்க்கை நாதர்",
+      "record_count": 6,
+      "scene_count": 1,
+      "scenes": [
+        18
+      ],
+      "record_origins": {
+        "explicit-colon": 6
+      },
+      "sample_records": [
+        "ammaiyappan-s018-d001",
+        "ammaiyappan-s018-d007",
+        "ammaiyappan-s018-d009",
+        "ammaiyappan-s018-d011",
+        "ammaiyappan-s018-d013"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s018-d001",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "அன்பர்களே! இதுவரை தனபதி\nவேலழகர் படையின் பயன்கள் பற்றி அறியதோர் உரை\nநிகழ்த்தினார். நானும் அதைத்தான் சொல்லப்போகிறேன்.\nபகவான் பரந்தாமனே பார்த்திபனை பாரதப் போரில்\nகலந்து கொள்ளச் சொல்லி"
+        },
+        {
+          "record_id": "ammaiyappan-s018-d007",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "என்ன பூபதி! நீ இன்னும் போக\nவில்லையா?"
+        },
+        {
+          "record_id": "ammaiyappan-s018-d009",
+          "scene": 18,
+          "heading": "மடாலயம்",
+          "text_preview": "பூபதி! போதும், போய்வாரும்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "முத்",
+      "record_count": 177,
+      "scene_count": 27,
+      "scenes": [
+        1,
+        5,
+        6,
+        8,
+        14,
+        15,
+        17,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        39,
+        45,
+        47,
+        50,
+        51,
+        52,
+        53,
+        58,
+        59,
+        63
+      ],
+      "record_origins": {
+        "explicit-colon": 177
+      },
+      "sample_records": [
+        "ammaiyappan-s001-d002",
+        "ammaiyappan-s001-d005",
+        "ammaiyappan-s001-d007",
+        "ammaiyappan-s001-d009",
+        "ammaiyappan-s001-d011"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s001-d002",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "ஒன்றுமில்லை..."
+        },
+        {
+          "record_id": "ammaiyappan-s001-d005",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "இப்போது நீங்கள் காணப்போகும்...இந்தப் படம் என் லட்சியக் கனவு...இன்ப விடிவெள்ளி...இரண்டொரு வாரங்களுக்கு முன் நீங்கள் பார்த்த படம் இந்தப் படத்தின் இன்னொரு பிரதி—முற்றுப் பெறாத சித்திர"
+        },
+        {
+          "record_id": "ammaiyappan-s001-d007",
+          "scene": 1,
+          "heading": "மடாலய வெளிப்புறம்",
+          "text_preview": "ஆமாம் முன்னது கை தவறிப்போய் களவாடப்பட்டு விட்டது....! நான் வேறு எழுதிக் கொண்டேன். அது...இது..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "முத்தன்",
+      "record_count": 95,
+      "scene_count": 18,
+      "scenes": [
+        2,
+        7,
+        11,
+        17,
+        19,
+        20,
+        21,
+        22,
+        26,
+        27,
+        33,
+        34,
+        35,
+        36,
+        39,
+        45,
+        52,
+        59
+      ],
+      "record_origins": {
+        "explicit-colon": 91,
+        "source-context-attributed": 4
+      },
+      "sample_records": [
+        "ammaiyappan-s002-d002",
+        "ammaiyappan-s002-d004",
+        "ammaiyappan-s002-d006",
+        "ammaiyappan-s002-d008",
+        "ammaiyappan-s002-d010"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s002-d002",
+          "scene": 2,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "மாய்கை நாதஸ்வாமிகளுக்கு சரியான வேட்டைதான் போலிருக்கிறது."
+        },
+        {
+          "record_id": "ammaiyappan-s002-d004",
+          "scene": 2,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "காணிக்கை!... ஆமாம் உழைக்காமல் கிடைக்கிற ஊதியத்துக்கு அப்படியும் ஒருபெயர் உண்டு ..."
+        },
+        {
+          "record_id": "ammaiyappan-s002-d006",
+          "scene": 2,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "நான் சாமியாரைச் சொன்னால் தங்களுக்கு ஏன் கோபம் வருகிறது"
+        }
+      ]
+    },
+    {
+      "speaker_label": "முத்தா",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        63
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s063-d002",
+        "ammaiyappan-s063-d008"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s063-d002",
+          "scene": 63,
+          "heading": "வெளியே",
+          "text_preview": "அத்தான்!..."
+        },
+        {
+          "record_id": "ammaiyappan-s063-d008",
+          "scene": 63,
+          "heading": "வெளியே",
+          "text_preview": "ஆமாம் அத்தான்! அவர்கள்தான் உங்கள் தாய்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "முத்தாயி",
+      "record_count": 63,
+      "scene_count": 14,
+      "scenes": [
+        7,
+        8,
+        11,
+        16,
+        21,
+        23,
+        27,
+        28,
+        35,
+        36,
+        39,
+        47,
+        52,
+        58
+      ],
+      "record_origins": {
+        "explicit-colon": 63
+      },
+      "sample_records": [
+        "ammaiyappan-s007-d025",
+        "ammaiyappan-s007-d027",
+        "ammaiyappan-s007-d029",
+        "ammaiyappan-s007-d032",
+        "ammaiyappan-s008-d028"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s007-d025",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "என்ன சுமதி! கண்ணை மூடிக்கொண்டாய்?"
+        },
+        {
+          "record_id": "ammaiyappan-s007-d027",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "போய் வாட்டுமா?"
+        },
+        {
+          "record_id": "ammaiyappan-s007-d029",
+          "scene": 7,
+          "heading": "சுகதேவன் அறை.",
+          "text_preview": "ஏது உன் தோழி பெரிய கைக்காரிதான் போலிருக்கு."
+        }
+      ]
+    },
+    {
+      "speaker_label": "ராணி",
+      "record_count": 3,
+      "scene_count": 2,
+      "scenes": [
+        13,
+        56
+      ],
+      "record_origins": {
+        "explicit-colon": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s013-d006",
+        "ammaiyappan-s013-d013",
+        "ammaiyappan-s056-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s013-d006",
+          "scene": 13,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "என்ன?"
+        },
+        {
+          "record_id": "ammaiyappan-s013-d013",
+          "scene": 13,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "சுகதேவ்! சும்மா இரு."
+        },
+        {
+          "record_id": "ammaiyappan-s056-d007",
+          "scene": 56,
+          "heading": "பூங்காவனம் அறை",
+          "text_preview": "வந்து விட்டாயா செல்வமே!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வணி",
+      "record_count": 2,
+      "scene_count": 2,
+      "scenes": [
+        36,
+        42
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s036-d008",
+        "ammaiyappan-s042-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s036-d008",
+          "scene": 36,
+          "heading": "தனபதி மாளிகை",
+          "text_preview": "பாத்தியாடா கண்ணு! டம்...டமா...டமா...ஓடிப்போனவனே நீ புடிச்சு தாரியா?......[குழந்தை அழுகிறது.] ஏ!...அழக்கூடாது...அன்புக் காட்சி...அழகு மணி மாளிகையின் அலங்காரத் திரு உருவே...அழித் தெழ"
+        },
+        {
+          "record_id": "ammaiyappan-s042-d004",
+          "scene": 42,
+          "heading": "மண்டபம்",
+          "text_preview": "இல்ல ைஅய்யா! வழக்கம்போல என் குழந்தையைத் தூக்கிக் கொண்டு கடற்கரைக்கு வந்தாள் வேலைக்காரி..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வணிகர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        42
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s042-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s042-d002",
+          "scene": 42,
+          "heading": "மண்டபம்",
+          "text_preview": "அய்யா...அய்யா! ஒரு பெண்ணையும் குழந்தையையும் பார்த்தீர்களா அய்யா?..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீர",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        5
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s005-d007",
+        "ammaiyappan-s005-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s005-d007",
+          "scene": 5,
+          "heading": "குதிரைக் கொட்டடி",
+          "text_preview": "முத்தா!...வாள் வித்தை கற்றுக் கொள்ள—குமார ராஜா வருகிறார்......."
+        },
+        {
+          "record_id": "ammaiyappan-s005-d009",
+          "scene": 5,
+          "heading": "குதிரைக் கொட்டடி",
+          "text_preview": "ஆமாம்! இளவரசன் சுகதேவ்......"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீரன்",
+      "record_count": 10,
+      "scene_count": 5,
+      "scenes": [
+        12,
+        22,
+        30,
+        33,
+        34
+      ],
+      "record_origins": {
+        "explicit-colon": 10
+      },
+      "sample_records": [
+        "ammaiyappan-s012-d001",
+        "ammaiyappan-s012-d003",
+        "ammaiyappan-s012-d005",
+        "ammaiyappan-s012-d006",
+        "ammaiyappan-s022-d008"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s012-d001",
+          "scene": 12,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "வாங்க...வாங்க...நீங்க தானே வேதாளம்?"
+        },
+        {
+          "record_id": "ammaiyappan-s012-d003",
+          "scene": 12,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "அது என்ன, வேதாளம் என்று பெயர் வச்\nசிருக்கீங்க. உங்க அப்பா, அம்மா விக்கிரமாதித்தன் கதை\nபடிக்கிறது உண்டா?"
+        },
+        {
+          "record_id": "ammaiyappan-s012-d005",
+          "scene": 12,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "விக்கிரமாதித்தன் கதையிலே ஒரு வேதாளம்\nவருது—அதைப் படிக்கும் போது நீங்க பொறந்திருப்பீங்க\nஅதனாலே உங்களுக்கு வேதாளம்னு பேரு வச்சிருப்பாங்க.\nநல்ல வேளையா கிஷ்கிந்தா காண்டம் படிக்கும்போது"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீரன் 1",
+      "record_count": 3,
+      "scene_count": 2,
+      "scenes": [
+        30,
+        57
+      ],
+      "record_origins": {
+        "explicit-colon": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s030-d001",
+        "ammaiyappan-s057-d001",
+        "ammaiyappan-s057-d003"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s030-d001",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "முத்தண்ணே!...வாண்ணே வா!"
+        },
+        {
+          "record_id": "ammaiyappan-s057-d001",
+          "scene": 57,
+          "heading": "முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்",
+          "text_preview": "தோழர்களே! எப்படியும் முத்தண்ணனை விடுவிக்க வேண்டும்."
+        },
+        {
+          "record_id": "ammaiyappan-s057-d003",
+          "scene": 57,
+          "heading": "முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்",
+          "text_preview": "தூக்குமேடையை தூள் தூளாக்கியாவது முத்தண்ணனை விடுவிப்போம்...வாருங்கள்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீரன் 2",
+      "record_count": 2,
+      "scene_count": 2,
+      "scenes": [
+        30,
+        57
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s030-d003",
+        "ammaiyappan-s057-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s030-d003",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "உம்...என்ன பண்றது?...நம்ம அம்மா நம்மை பெற்ற நேரம் அப்படி!"
+        },
+        {
+          "record_id": "ammaiyappan-s057-d002",
+          "scene": 57,
+          "heading": "முத்தனின் தோழர்கள் பேசிக் கொண்டிருத்தல்",
+          "text_preview": "அந்த இலட்சிய வீரனை மீட்பதற்காக நான் என் உயிரையும் தியாகம் செய்யக் காத்திருக்கிறேன்..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீரன் 3",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        30
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s030-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s030-d004",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "அடிமையாய் வாழணும்னு தலையில் எழுதி இருக்கு!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீரன் 4",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        30
+      ],
+      "record_origins": {
+        "explicit-colon": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s030-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s030-d006",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "புறநானூறு...புறநானூறுன்னு அடிக்கடி சொல்றியே அது என்ன அண்ணே?..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வீரர்கள்",
+      "record_count": 3,
+      "scene_count": 1,
+      "scenes": [
+        30
+      ],
+      "record_origins": {
+        "explicit-colon": 3
+      },
+      "sample_records": [
+        "ammaiyappan-s030-d008",
+        "ammaiyappan-s030-d010",
+        "ammaiyappan-s030-d013"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s030-d008",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "தச்...தச்...தச்..."
+        },
+        {
+          "record_id": "ammaiyappan-s030-d010",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "கூடாது!...கூடாது!"
+        },
+        {
+          "record_id": "ammaiyappan-s030-d013",
+          "scene": 30,
+          "heading": "பாசறை சமையல் கூடம்",
+          "text_preview": "தயார்.\n\nநான் தயார்.\n\nநானும் தயார்.\n\nநானும் தயார்...."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வே",
+      "record_count": 25,
+      "scene_count": 7,
+      "scenes": [
+        17,
+        24,
+        40,
+        46,
+        48,
+        49,
+        50
+      ],
+      "record_origins": {
+        "explicit-colon": 25
+      },
+      "sample_records": [
+        "ammaiyappan-s017-d008",
+        "ammaiyappan-s017-d010",
+        "ammaiyappan-s017-d012",
+        "ammaiyappan-s017-d014",
+        "ammaiyappan-s017-d016"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s017-d008",
+          "scene": 17,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "ஆமாம்!.... இனிமேலும் கிடைக்காது...\nஅதற்காக..."
+        },
+        {
+          "record_id": "ammaiyappan-s017-d010",
+          "scene": 17,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "ஏ. முத்தா! புத்தியற்ற வாலிபனே! இந்த\nஉலகத்தில் பொருள் தேடவா வழி இல்லை..."
+        },
+        {
+          "record_id": "ammaiyappan-s017-d012",
+          "scene": 17,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "சே! ஆள் திடகாத்திரமாய் இருக்கிறாய்...\nதேகத்தில் நல்ல வலு இருக்கிறது..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வேதா",
+      "record_count": 64,
+      "scene_count": 15,
+      "scenes": [
+        2,
+        24,
+        25,
+        26,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        38,
+        40,
+        42,
+        52,
+        54
+      ],
+      "record_origins": {
+        "explicit-colon": 64
+      },
+      "sample_records": [
+        "ammaiyappan-s002-d001",
+        "ammaiyappan-s002-d003",
+        "ammaiyappan-s002-d005",
+        "ammaiyappan-s002-d007",
+        "ammaiyappan-s002-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s002-d001",
+          "scene": 2,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "மாய்கை நாதஸ்வாமிகள்......\n\nமாய்கை நாதஸ்வாமிகள்......\n\nமாய்கை நாதஸ்வாமிகள்......"
+        },
+        {
+          "record_id": "ammaiyappan-s002-d003",
+          "scene": 2,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "எல்லாம் பக்தர்கள் அனுப்பும் காணிக்கைகள் ......"
+        },
+        {
+          "record_id": "ammaiyappan-s002-d005",
+          "scene": 2,
+          "heading": "அஞ்சல் மனை",
+          "text_preview": "அடா—அடா—அடா இவ்வளவு பெரிய உண்மையை எங்கேயப்பா நீ கற்றுக் கொண்டாய். நீ படிக்கிற பதினெட்டு சித்தர் சொன்னாரா? ... குதம்பை சித்தர் சொன்னாரா?\n\nமுத்தா ஆரம்பித்து விடாதே உன் அதிமேதாவித் தன"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வேதாளம்",
+      "record_count": 45,
+      "scene_count": 14,
+      "scenes": [
+        4,
+        12,
+        17,
+        20,
+        22,
+        24,
+        25,
+        29,
+        31,
+        33,
+        37,
+        38,
+        40,
+        42
+      ],
+      "record_origins": {
+        "explicit-colon": 44,
+        "source-context-attributed": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s004-d009",
+        "ammaiyappan-s004-d011",
+        "ammaiyappan-s004-d013",
+        "ammaiyappan-s012-d002",
+        "ammaiyappan-s012-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s004-d009",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "ஸ்வாமி நமஸ்தே"
+        },
+        {
+          "record_id": "ammaiyappan-s004-d011",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "ஸ்வாமிகளுக்கு காணிக்கைகள் வந்திருக்கிறது நிறைய. அதை எடுத்து வந்தேன்..."
+        },
+        {
+          "record_id": "ammaiyappan-s004-d013",
+          "scene": 4,
+          "heading": "மாடம்",
+          "text_preview": "கணக்கற்ற பொன் நாணயங்கள்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வேல",
+      "record_count": 41,
+      "scene_count": 6,
+      "scenes": [
+        26,
+        27,
+        30,
+        33,
+        36,
+        52
+      ],
+      "record_origins": {
+        "explicit-colon": 40,
+        "source-context-attributed": 1
+      },
+      "sample_records": [
+        "ammaiyappan-s026-d004",
+        "ammaiyappan-s026-d006",
+        "ammaiyappan-s026-d009",
+        "ammaiyappan-s026-d011",
+        "ammaiyappan-s026-d013"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s026-d004",
+          "scene": 26,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "அபராதப் பணம்—அரைக்காசுக்கு வழியற்ற உன்னிடம் எது அபராதப் பணம்? ஹ...ஹ...ஹ..."
+        },
+        {
+          "record_id": "ammaiyappan-s026-d006",
+          "scene": 26,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "முடியாது—இங்கே வரவேண்டும்! இப்போது வந்தாலும் சரி; உன்னை விட்டுவிடுவேன்."
+        },
+        {
+          "record_id": "ammaiyappan-s026-d009",
+          "scene": 26,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "சேவல் கூவவில்லையே என்று செங்கதிரோன் காத்திருப்பதில்லை. கடமையை நான் செய்ய வேண்டும்—இல்லையேல் காவலன் சீறுவார்...ம்...புறப்பட வேண்டும். விடுதலை வீரனே! நீயும் நட பின்னால்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "வேலழ",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        24
+      ],
+      "record_origins": {
+        "explicit-colon": 2
+      },
+      "sample_records": [
+        "ammaiyappan-s024-d004",
+        "ammaiyappan-s024-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s024-d004",
+          "scene": 24,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "ஹா...ஹா...மன்னிப்பதா? இதோ பாரும் அரசாங்க உத்தரவை. இதுவரை சேர்ந்துள்ள படைவீரர்களோடு நான் உடனே திலங்கருக்குப் புறப்படவேண்டு மென்று கட்டளை பிறப்பித்துள்ளார் மன்னவர். இன்றே புறப்படவேண்"
+        },
+        {
+          "record_id": "ammaiyappan-s024-d006",
+          "scene": 24,
+          "heading": "தென்றல் மாளிகை",
+          "text_preview": "ஆமாம்! ஆனால் தண்டப்பணம் நூறு பொன் வந்துவிட்டால் இவன் விடுதலை பெறலாம்...ஹூம்...இவனுக்கேது நூறு பொன்...குப்பையில் கிடப்பவன்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வேலழகன்",
+      "record_count": 35,
+      "scene_count": 8,
+      "scenes": [
+        9,
+        12,
+        22,
+        24,
+        26,
+        27,
+        33,
+        52
+      ],
+      "record_origins": {
+        "explicit-colon": 35
+      },
+      "sample_records": [
+        "ammaiyappan-s009-d002",
+        "ammaiyappan-s009-d004",
+        "ammaiyappan-s009-d006",
+        "ammaiyappan-s009-d008",
+        "ammaiyappan-s012-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "ammaiyappan-s009-d002",
+          "scene": 9,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "படையைப் பெருக்குவது பயத்திற்காக அல்ல...பாதுகாப்புக்காக பலதேவரே. சிறுத்தை யூரான் வேங்கை நகரின் மீது எப்போது பாயலாம், எந்தக் காரணம் கிடைக்கும் களம் அமைக்க என்று காத்துக் கிடக்கிறான்."
+        },
+        {
+          "record_id": "ammaiyappan-s009-d004",
+          "scene": 9,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "நீர் செய்வீர். ஆனால் உமது ஊர் மக்களுக்கு வேங்கை புறத்து படையிலே சேர்வதென்றால் வெறுப்பாய்த் தானிருக்கும். ஏனெனில் அவர்களே அடிமையாகி வைத்திருக்கும் அரசனன்றே அவர்?"
+        },
+        {
+          "record_id": "ammaiyappan-s009-d006",
+          "scene": 9,
+          "heading": "பலதேவர் மாளிகை",
+          "text_preview": "சரி! நான் தங்களிடத்துக்குச் செல்ல வேண்டும்."
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "dialogue_records_modified": false,
+    "global_label_merge_requires_identity_continuity": true,
+    "record_aware_disposition_required_when_one_exact_label_is_reused_for_multiple_entities": true,
+    "generic_roles_must_not_be_forced_into_named_characters": true,
+    "source_punctuation_preserved": true
+  },
+  "next_action": "Review every exact label and determine whether global label disposition is safe; for any context-reused label, create record-aware dispositions before entity assembly."
+}
