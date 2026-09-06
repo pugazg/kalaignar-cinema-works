@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+D=ROOT/'dialogues'
+C=ROOT/'characters'
+MUTHAN_SCENES={1,5,6,14,15,17,24,26,30,33,34,39,45,51,63}
+MUTHAYI_SCENES={8,27,28,29,47,50,53,58,59}
+MIXED_DEFAULT={35:'muthayi',36:'muthayi',52:'muthayi'}
+MUTHAN_EXCEPTIONS={
+    'ammaiyappan-s035-d042','ammaiyappan-s035-d044',
+    'ammaiyappan-s036-d010','ammaiyappan-s036-d012',
+    'ammaiyappan-s052-d025','ammaiyappan-s052-d027','ammaiyappan-s052-d032',
+}
+
+def main():
+    rows=[]
+    for p in sorted((D/'records').glob('scene-*.json')):
+        rows += json.loads(p.read_text(encoding='utf-8'))
+    rows += json.loads((D/'source-role-resolved-records.json').read_text(encoding='utf-8'))
+    targets=[r for r in rows if r['speaker_label']=='முத்']
+    assert len(targets)==177
+    target_ids={r['id'] for r in targets}
+    assert MUTHAN_EXCEPTIONS <= target_ids
+    out=[]
+    for r in targets:
+        scene=r['archive_scene_ordinal']; rid=r['id']
+        if scene in MUTHAN_SCENES:
+            entity='muthan'; basis='scene-level identity continuity'
+        elif scene in MUTHAYI_SCENES:
+            entity='muthayi'; basis='scene-level identity continuity'
+        elif scene in MIXED_DEFAULT:
+            if rid in MUTHAN_EXCEPTIONS:
+                entity='muthan'; basis='mixed-scene turn-by-turn source context override'
+            else:
+                entity=MIXED_DEFAULT[scene]; basis='mixed-scene turn-by-turn source context default'
+        else:
+            raise AssertionError((rid,scene))
+        out.append({
+            'record_id':rid,
+            'source_speaker_label':'முத்',
+            'archive_scene_id':r['archive_scene_id'],
+            'archive_scene_ordinal':scene,
+            'entity_key':entity,
+            'preferred_name_ta':'முத்தன்' if entity=='muthan' else 'முத்தாயி',
+            'basis':basis,
+            'dialogue_record_modified':False,
+        })
+    c=Counter(x['entity_key'] for x in out)
+    assert c=={'muthayi':97,'muthan':80}, c
+    assert len({x['record_id'] for x in out})==177
+    expected_mixed={
+        35:{'ammaiyappan-s035-d042','ammaiyappan-s035-d044'},
+        36:{'ammaiyappan-s036-d010','ammaiyappan-s036-d012'},
+        52:{'ammaiyappan-s052-d025','ammaiyappan-s052-d027','ammaiyappan-s052-d032'},
+    }
+    for scene, expected in expected_mixed.items():
+        actual={x['record_id'] for x in out if x['archive_scene_ordinal']==scene and x['entity_key']=='muthan'}
+        assert actual==expected,(scene,actual,expected)
+    doc={
+        'work_id':'ammaiyappan','phase':'record-aware-speaker-disposition','status':'complete-verified',
+        'exact_source_label':'முத்','source_record_count':177,'resolved_record_count':177,'unresolved_record_count':0,
+        'entity_counts':dict(sorted(c.items())),
+        'policy':'The exact dialogue speaker_label `முத்` is never rewritten. This derivative maps each immutable record to an entity from verified scene/turn context.',
+        'mixed_scene_muthan_overrides':{str(k):sorted(v) for k,v in expected_mixed.items()},
+        'dispositions':out,
+    }
+    C.mkdir(exist_ok=True)
+    (C/'muth-record-dispositions.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    md=['# அம்மையப்பன் — `முத்` record dispositions','',
+        'Status: **COMPLETE VERIFIED — 177/177**','',
+        '- `முத்` → முத்தன்: **80** records','- `முத்` → முத்தாயி: **97** records','- unresolved: **0**','',
+        'The immutable dialogue label remains exactly `முத்`; this file is a derivative identity disposition only.','',
+        '## Mixed-scene record overrides','',
+        '- scene 35 → முத்தன் only: `d042`, `d044`; all other `முத்` → முத்தாயி.',
+        '- scene 36 → முத்தன் only: `d010`, `d012`; all other `முத்` → முத்தாயி.',
+        '- scene 52 → முத்தன் only: `d025`, `d027`, `d032`; all other `முத்` → முத்தாயி.','']
+    (C/'muth-record-dispositions.md').write_text('\n'.join(md),encoding='utf-8')
+    print(json.dumps({'resolved':177,'muthan':80,'muthayi':97,'unresolved':0},ensure_ascii=False))
+if __name__=='__main__': main()
