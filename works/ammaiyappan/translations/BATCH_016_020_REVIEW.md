@@ -65,7 +65,7 @@ The batch preserves several source-owned mixed-content records without splitting
 - scene 18 `ammaiyappan-s018-d015` remains labelled `மாய்க்கை நாதர்` even though its frozen text itself begins with the extra token `பூபதி:`; the English note records the irregularity instead of silently reassigning it;
 - scene 19 `ammaiyappan-s019-d018` retains its embedded `[அழுதபடி]` cue inside the dialogue unit;
 - scene 20 `ammaiyappan-s020-d010` retains its embedded parenthetical action showing Thanapathi rise and the line of men;
-- scene 20 `ammaiyappan-s014`-style exact-label abbreviations are not expanded in source metadata; English naming does not alter Tamil provenance.
+- scene 20 exact-label abbreviations are not expanded in source metadata; English naming does not alter Tamil provenance.
 
 ## Source-form preservation
 
