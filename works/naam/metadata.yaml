@@ -67,26 +67,27 @@ canonical_tamil:
   index_path: "transcription/index.json"
   status: partial-first-pass
   pages_expected: 67
-  first_pass_pages_completed: 10
-  first_pass_pdf_range_completed: "5-14"
-  first_pass_current_through_pdf: 14
-  first_pass_current_through_printed_page: 14
-  draft_pages: 10
+  first_pass_pages_completed: 15
+  first_pass_pdf_range_completed: "5-19"
+  first_pass_current_through_pdf: 19
+  first_pass_current_through_printed_page: 19
+  draft_pages: 15
   verified_pages: 0
-  review_pages: 10
+  review_pages: 15
   open_uncertainty_markers: 2
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
     - "transcription/parts/pdf-010-014.md"
-  current_batch_path: "transcription/parts/pdf-010-014.md"
-  current_textual_notes_path: "notes/textual-notes-pdf-010-014.md"
+    - "transcription/parts/pdf-015-019.md"
+  current_batch_path: "transcription/parts/pdf-015-019.md"
+  current_textual_notes_path: "notes/textual-notes-pdf-015-019.md"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
   status: partial-first-pass
   main_text_pages_expected: 67
-  pages_checked: 10
+  pages_checked: 15
   pages_verified: 0
   known_families:
     - "ணா"
@@ -105,8 +106,8 @@ historical_glyph:
   verification_policy: visual-fidelity-and-historical-glyph-dual-gate
 
 mapped_source_visible_performance_structures:
-  status: intake-candidates-only
-  high_confidence_blocks: 5
+  status: intake-plus-first-pass-candidates
+  high_confidence_blocks: 6
   blocks:
     - pdf_pages: "16"
       scene: 7
@@ -114,6 +115,12 @@ mapped_source_visible_performance_structures:
       source_marker: "[பாட்டு]"
       item_title: "ஆயிரம் தெய்வங்கள்"
       item_author_as_printed: "பாரதியார்"
+    - pdf_pages: "18"
+      scene: 8
+      form: lyrical-duet-block
+      opening: "பேசும் யாழே பெண் மானே"
+      source_roles: "குமரன் / மீனு / இருவர்"
+      authorship: not-adjudicated
     - pdf_pages: "35-36"
       scene: 21
       form: lyrical-block
@@ -139,9 +146,9 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_transcription: partial-first-pass-through-pdf-014
+  canonical_tamil_transcription: partial-first-pass-through-pdf-019
   visual_fidelity_audit: not-started
-  historical_glyph_audit: partial-first-pass-through-pdf-014
+  historical_glyph_audit: partial-first-pass-through-pdf-019
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -156,4 +163,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Continue canonical Tamil first-pass transcription with PDF 15-19, preserving source order and stable page anchors and performing page-level historical-glyph checks. Keep all pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
+next_action: "Continue canonical Tamil first-pass transcription with PDF 20-24, preserving source order and stable page anchors and performing page-level historical-glyph checks. Keep all pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
