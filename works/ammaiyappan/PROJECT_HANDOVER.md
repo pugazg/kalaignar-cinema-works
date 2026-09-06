@@ -97,7 +97,7 @@ Scene layer:
 - scene-text derivatives: **closed-verified**;
 - dialogue index: **complete-source-role-resolved — 1,024/1,024 downstream units**;
 - character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,024 units**;
-- song/performance authorship gate: not-started;
+- song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
 - English / reader: **READY — next phase**.
 
 ## Exact next activity
@@ -148,4 +148,24 @@ Scene layer:
 ### Exact next activity
 
 > **Begin English translation/reconciliation. Translate only from the frozen verified Tamil evidence, preserve scene/dialogue provenance, and use the character/entity layer to resolve identity without normalizing the Tamil source.**
+
+## Song / verse / performance authorship closure — FINAL SOURCE GATE
+
+- preflight candidate hits reviewed: **64/64**;
+- retained source-visible occurrences: **5**;
+- unresolved authorship occurrences: **3**;
+- source-attributed literary quotation occurrences: **1**;
+- authorship-not-applicable japa occurrences: **1**;
+- complete named song lyric bodies printed by the booklet: **0**;
+- standalone Tamil lyric files authorized / created: **0 / 0**;
+- external item-level evidence used: **no**;
+- canonical Tamil changed by this gate: **no**;
+- source inventory: `songs/index.json`, `songs/inventory.json`, `songs/candidate-disposition.json`, `songs/credits.json`;
+- gate commit: `d51e3151a3fff218d8e942fc91e6eb837c1d487c`.
+
+The booklet's printed `கதை வசனம் / மு. கருணாநிதி` credit is not promoted into lyric authorship. English may translate only the source-visible performance references, literary fragment, japa token and cues; absent song lyrics must not be reconstructed from film audio, websites, subtitles, later editions or memory.
+
+### Exact next activity
+
+> **Begin source-linked English translation/reconciliation from the frozen Tamil and completed derivative evidence layers. Preserve scene/dialogue/character provenance and translate only source-visible song/performance material.**
 

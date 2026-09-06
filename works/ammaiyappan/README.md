@@ -103,11 +103,11 @@ Canonical Tamil, scene segmentation, dialogue indexing, and character/entity ind
 | Boundary-ownership QA | **PASS — 0 gaps / 0 overlaps / 105 pages represented** |
 | Dialogue index | **complete-source-role-resolved — 1,024/1,024 downstream units** |
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,024 units** |
-| Song/performance authorship gate | not-started |
+| Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
 | English translation / reader | **READY — next phase** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
 ## Exact next activity
 
-**Begin English translation/reconciliation from the frozen 105/105 Tamil source plus the completed scene, dialogue, and character/entity derivatives.** Preserve source structure and exact Tamil linkage; do not modify canonical Tamil or dialogue evidence unless a new source-backed correction is independently established.
+**Begin source-linked English translation/reconciliation from the frozen 105/105 Tamil source plus the completed scene, dialogue, character/entity, and song/performance evidence layers.** Preserve source structure and exact Tamil linkage; translate only source-visible song/performance material and do not reconstruct absent lyrics.

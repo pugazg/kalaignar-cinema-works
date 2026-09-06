@@ -241,7 +241,13 @@ structured_derivatives:
   unresolved_entities: 0
   unresolved_records: 0
   dialogue_records_modified_by_character_layer: false
-  song_authorship_mapping: not-started
+  song_authorship_mapping: complete-verified-source-only
+  song_index_path: "songs/index.json"
+  song_candidate_hits_reviewed: 64
+  song_source_visible_occurrences: 5
+  song_unresolved_authorship_occurrences: 3
+  song_full_named_lyric_blocks_printed: 0
+  song_standalone_tamil_lyric_files: 0
   english_translation: ready-next-phase
   reader_export: blocked-pending-english
   reading_room_integration: blocked-pending-english
@@ -260,9 +266,9 @@ status:
   scene_derivatives: complete-verified-63-of-63
   dialogue_index: complete-source-role-resolved-1024-of-1024
   character_entity_index: complete-verified-reconciled-26-entities-62-labels-1024-units
-  song_authorship_gate: not-started
+  song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
   english_translation: ready-next-phase
   reader_export: blocked-pending-english
   reading_room_integration: blocked-pending-english
 
-next_action: "Begin English translation/reconciliation from the frozen verified Tamil plus completed scene/dialogue/character evidence layers; preserve exact source provenance."
+next_action: "Begin source-linked English translation/reconciliation from the frozen verified Tamil plus completed scene/dialogue/character/song-performance evidence layers; do not reconstruct absent lyrics."
