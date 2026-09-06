@@ -1,0 +1,287 @@
+{
+  "work_id": "ammaiyappan",
+  "target_language": "en",
+  "scene_id": "ammaiyappan-s003",
+  "archival_scene_ordinal": 3,
+  "source_scene_number": null,
+  "scene_status": "verified",
+  "unit_count": 12,
+  "units": [
+    {
+      "id": "ammaiyappan-en-s003-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/scenes/scene-003.md",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {"kind": "scene-stage-direction", "ordinal": 1, "description": "Opening bracketed action after the decorative star."},
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "[Poongavanam is gathering fruit for Muthan.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பல",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "Poongavanam—Poongavanam.......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/source-role-resolved-records.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-r001",
+        "source_occurrence_id": null,
+        "source_locator": {"kind": "source-explicit-noncolon-dialogue", "ordinal": 1, "description": "Exact source form begins `பூங் ;`; the semicolon is evidence and is not normalized."},
+        "speaker_label": "பூங்",
+        "speaker_label_origin": "source-explicit-noncolon-delimiter",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "What is it, brother... what is the news?.......",
+        "mode": "prose-faithful",
+        "notes": ["This is the post-closure scene-3 source-role supplement. The Tamil evidence remains the exact semicolon form `பூங் ; ...`; English metadata does not convert it into a colon-labelled source record."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பல",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "News! After being born with a brother like me, what other news could I have? Look—the king of Vengai has sent a palm-leaf message......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூங்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "As always, it is about my marriage, isn't it?......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பல",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "Marriage? He has forgotten that now... The message that has come now... is for fifty thousand gold coins... an urgent order. The tribute must be paid, Poongavanam... the tribute must be paid...",
+        "mode": "prose-faithful",
+        "notes": ["`அரை லட்சம்` is rendered numerically by sense as fifty thousand, without changing the Tamil source wording."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூங்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "This is nothing unusual, is it, brother!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பல",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 8}]
+      },
+      "translation": {
+        "english_text": "Usual? Poongavanam, think.... If you had agreed to marry that ruler of Vengaipuram, how many lakhs of gold would have remained with us over these fifteen years? I have poured it out and wept, into the seat of that tyrant's rule......",
+        "mode": "prose-faithful",
+        "notes": ["`லட்சம்` is retained as `lakhs` here because the speaker's accumulation is rhetorical rather than a single amount needing conversion."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூங்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 8}]
+      },
+      "translation": {
+        "english_text": "For that... can I change my opinion?......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பல",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 8}]
+      },
+      "translation": {
+        "english_text": "Opinion—what a grand opinion!.... For years the king of Vengai city tried to marry you and in the end took a vow of celibacy.... And you hate him......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூங்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 8}]
+      },
+      "translation": {
+        "english_text": "Brother... this is neither the time nor the age for me to talk of marriage... Please let me live in peace... I don't want that wretched marriage talk! I absolutely do not want it.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s003-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s003",
+      "archival_scene_ordinal": 3,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-003.md",
+        "source_record_id": "ammaiyappan-s003-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பல",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 10, "printed_page": 8}]
+      },
+      "translation": {
+        "english_text": "By crying and crying like this, you've ruined Pazhuthar itself... What use is there in talking to you......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
