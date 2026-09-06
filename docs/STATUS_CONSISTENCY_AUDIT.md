@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for Ammayappan's source/structured authority — canonical Tamil is 105/105 dual-gate complete-verified; scene derivatives are 63/63; dialogue authority is 1,009 explicit + 16 source-role supplements = 1,025 downstream units; character/entity coverage is 1,025/1,025 and 62/62 exact labels. English translation is verified through scene 10/63 at 225/225 current units.**
+**PASS for Ammayappan's source/structured authority — canonical Tamil is 105/105 dual-gate complete-verified; scene derivatives are 63/63; dialogue authority is 1,009 explicit + 16 source-role supplements = 1,025 downstream units; character/entity coverage is 1,025/1,025 and 62/62 exact labels. English translation is verified through scene 15/63 at 355/355 current units.**
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct பூங்காவனம் dialogue unit. Its semicolon is preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -24,7 +24,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **verified through scene 10/63 / 225 units** | reader blocked pending complete English |
+| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **verified through scene 15/63 / 355 units** | reader blocked pending complete English |
 
 ## Ammayappan current checkpoint
 
@@ -72,21 +72,24 @@ The earlier 1,024-unit / 15-supplement checkpoint is historical. Active current-
 
 - schema/preflight: established;
 - source numbering invented: **0**;
-- verified scenes: **10/63**;
-- verified English units: **225**;
-- explicit dialogue links: **190/190**;
-- source-role supplement links: **6/6**;
-- stage/action units: **28**;
+- verified scenes: **15/63**;
+- verified English units: **355**;
+- explicit dialogue links: **295/295**;
+- source-role supplement links: **8/8**;
+- stage/action units: **51**;
 - standalone song-reference units: **1**;
-- cross-page units: **2**;
-- source-visible song/performance occurrence links encountered through scene 10: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+- cross-page units: **3**;
+- source-visible song/performance occurrence links encountered through scene 15: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - scene-3 `பூங் ; ...` supplement: preserved as source-explicit non-colon provenance;
 - scene-5 `திரு; ...` supplement: preserved as source-explicit non-colon provenance;
 - scene-7 unnamed Muthan–Muthayi performance: cue only; no lyric/title/authorship reconstruction;
 - scene-10 Kambar occurrence: fragment kept inside immutable dialogue record `ammaiyappan-s010-d010`; no duplicate verse ownership;
+- scene-11 context-attributed supplements `ammaiyappan-s011-r001` / `r002`: preserved without manufacturing printed labels;
+- scene-15 `குரல்` record: kept whole across PDF 31→32 with page-segment provenance;
+- retained song/performance occurrences in scenes 11–15: **0**;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-**Next translation batch:** archival scenes **11–15**. Preserve the closed source-role supplements in scene 11 and exact Tamil speaker/page provenance.
+**Next translation batch:** archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.
 
 ## Manthiri Kumari reconciliation checkpoint
 
@@ -166,4 +169,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan's canonical Tamil and structured source-derived layers are **closed and synchronized to the corrected 1,025-unit authority**. English translation is verified through **scene 10/63 at 225 current units**. The current bounded activity is **translate and source-review archival scenes 11–15**, then update translation QA/index/status without changing frozen Tamil evidence.
+Ammayappan's canonical Tamil and structured source-derived layers are **closed and synchronized to the corrected 1,025-unit authority**. English translation is verified through **scene 15/63 at 355 current units**. The current bounded activity is **translate and source-review archival scenes 16–20**, preserving scene-17 source-role supplements and the scene-19 source-only singing cue without changing frozen Tamil evidence.
