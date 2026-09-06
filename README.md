@@ -89,17 +89,17 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 20/63 — 477/477 current units**;
-- current English dialogue coverage: **393 explicit records + 10 source-role supplements = 403 dialogue units**;
-- current English stage/action units: **72**;
+- English translation: **verified through scene 25/63 — 608/608 current units**;
+- current English dialogue coverage: **507 explicit records + 10 source-role supplements = 517 dialogue units**;
+- current English stage/action units: **89**;
 - current English song-reference units: **2**;
-- current English cross-page units: **7**;
+- current English cross-page units: **11**;
 - retained source-only occurrence links translated so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - reader/export: blocked pending complete English.
 
-Batch 16–20 preserves both closed source-context-attributed supplements in scene 17, keeps four new cross-page logical units intact, and translates scene 19 `ammaiyappan-song-003` only as the printed cue that Muthan is singing. No absent title, lyrics or authorship are reconstructed.
+Batch 21–25 adds **131 verified units**: 114 explicit dialogue links, 17 stage/action units, no source-role supplements and no song/verse/japa/performance units. Four new cross-page logical units remain intact; source irregularities and exact source-label variants are preserved rather than normalized.
 
-**Next:** translate and source-review archival scenes **21–25** from the frozen verified derivatives. Preserve exact Tamil speaker labels/source-role provenance and page ownership; keep cross-page units whole; consult the closed song/performance inventory before introducing any performance unit.
+**Next:** translate and source-review archival scenes **26–30** from the frozen verified derivatives. The closed source-role layer has no supplements and the closed song/performance inventory has no retained occurrence in scenes 26–30. Preserve exact Tamil speaker labels and page ownership; keep cross-page units whole.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
