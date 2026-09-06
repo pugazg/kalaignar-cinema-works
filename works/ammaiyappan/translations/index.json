@@ -1,7 +1,7 @@
 {
   "work_id": "ammaiyappan",
   "target_language": "en",
-  "status": "verified-through-scene-010",
+  "status": "verified-through-scene-015",
   "schema": "schema.json",
   "readme": "README.md",
   "preflight": "preflight.json",
@@ -10,18 +10,18 @@
   "pilot_scene": "ammaiyappan-s001",
   "source_scene_numbering": "none-printed",
   "scenes_expected": 63,
-  "scenes_started": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-  "scenes_verified": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "scenes_started": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "scenes_verified": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
   "scenes_in_review": [],
-  "translation_units": 225,
+  "translation_units": 355,
   "unit_status_counts": {
     "draft": 0,
     "review": 0,
-    "verified": 225
+    "verified": 355
   },
   "unit_kind_counts": {
-    "dialogue": 196,
-    "stage-direction": 28,
+    "dialogue": 303,
+    "stage-direction": 51,
     "song-reference": 1,
     "literary-verse": 0,
     "japa": 0,
@@ -37,14 +37,20 @@
     {"scene_id":"ammaiyappan-s007","archival_scene_ordinal":7,"path":"records/scene-007.json","unit_count":36,"status":"verified"},
     {"scene_id":"ammaiyappan-s008","archival_scene_ordinal":8,"path":"records/scene-008.json","unit_count":39,"status":"verified"},
     {"scene_id":"ammaiyappan-s009","archival_scene_ordinal":9,"path":"records/scene-009.json","unit_count":8,"status":"verified"},
-    {"scene_id":"ammaiyappan-s010","archival_scene_ordinal":10,"path":"records/scene-010.json","unit_count":10,"status":"verified"}
+    {"scene_id":"ammaiyappan-s010","archival_scene_ordinal":10,"path":"records/scene-010.json","unit_count":10,"status":"verified"},
+    {"scene_id":"ammaiyappan-s011","archival_scene_ordinal":11,"path":"records/scene-011.json","unit_count":49,"status":"verified"},
+    {"scene_id":"ammaiyappan-s012","archival_scene_ordinal":12,"path":"records/scene-012.json","unit_count":17,"status":"verified"},
+    {"scene_id":"ammaiyappan-s013","archival_scene_ordinal":13,"path":"records/scene-013.json","unit_count":17,"status":"verified"},
+    {"scene_id":"ammaiyappan-s014","archival_scene_ordinal":14,"path":"records/scene-014.json","unit_count":28,"status":"verified"},
+    {"scene_id":"ammaiyappan-s015","archival_scene_ordinal":15,"path":"records/scene-015.json","unit_count":19,"status":"verified"}
   ],
-  "dialogue_source_records_expected_in_completed_scenes": 190,
-  "dialogue_source_records_linked": 190,
-  "source_role_supplement_records_linked": 6,
+  "dialogue_source_records_expected_in_completed_scenes": 295,
+  "dialogue_source_records_linked": 295,
+  "source_role_supplement_records_linked": 8,
   "cross_page_translation_units": [
     "ammaiyappan-en-s004-u002",
-    "ammaiyappan-en-s008-u015"
+    "ammaiyappan-en-s008-u015",
+    "ammaiyappan-en-s015-u001"
   ],
   "translated_song_performance_occurrences": [
     "ammaiyappan-song-001",
@@ -54,14 +60,16 @@
   "completed_batches": [
     "pilot scene 1",
     "scenes 2-5",
-    "scenes 6-10"
+    "scenes 6-10",
+    "scenes 11-15"
   ],
   "batch_review_paths": [
     "BATCH_002_005_REVIEW.md",
-    "BATCH_006_010_REVIEW.md"
+    "BATCH_006_010_REVIEW.md",
+    "BATCH_011_015_REVIEW.md"
   ],
-  "next_scene_batch": "11-15",
-  "next_activity": "Translate and source-review archival scenes 11-15. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and page provenance, and do not modify frozen source evidence.",
+  "next_scene_batch": "16-20",
+  "next_activity": "Translate and source-review archival scenes 16-20. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by ammaiyappan-song-003; do not reconstruct a song title or lyrics.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
