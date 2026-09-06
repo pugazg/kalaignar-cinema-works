@@ -89,10 +89,13 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **pilot verified — scene 1/63 / 34 verified units**;
+- English translation: **verified through scene 5/63 — 108/108 current units**;
+- current English dialogue coverage: **93 explicit records + 2 source-role supplements**;
+- current English stage/action units: **13**;
+- current English cross-page units: **1**;
 - reader/export: blocked pending complete English.
 
-**Next:** translate and source-review archival scenes **2–5** using the verified scene-1 pilot voice rules and exact source/dialogue provenance.
+**Next:** translate and source-review archival scenes **6–10**. Scene 7 contains the first retained source-only performance occurrence and scene 10 contains the Kambar-attributed literary quotation; no absent lyrics/verse may be reconstructed.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
