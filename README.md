@@ -89,17 +89,18 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 35/63 — 889/889 current units**;
-- current English dialogue coverage: **746 explicit records + 14 source-role supplements = 760 dialogue units**;
-- current English stage/action units: **127**;
+- English translation: **verified through scene 40/63 — 979/979 current units**;
+- current English dialogue coverage: **826 explicit records + 14 source-role supplements = 840 dialogue units**;
+- current English stage/action units: **136**;
 - current English song-reference units: **2**;
-- current English cross-page units: **21**;
-- retained source-only occurrence links translated so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
+- current English japa units: **1**;
+- current English cross-page units: **22**;
+- retained source-only occurrence links translated so far: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
 - reader/export: blocked pending complete English.
 
-Batch 31–35 adds **151 verified units**: 132 explicit dialogue links, 1 already-closed source-role supplement and 18 stage/action units. Five new cross-page logical units remain intact. Scene 32 remains action-only without invented speech; scene 34 preserves frozen `வாட்டமா நான்?` rather than silently repairing it; scene 35 preserves exact-label/source-role ownership, gender-equality and Ardhanarishvara rhetoric, disguise/cross-dressing, the mistaken abduction, ring exchange and Rama/Sita/Lakshmana forest-life humour without changing frozen evidence.
+Batch 36–40 adds **90 verified units**: 80 explicit dialogue links, 0 source-role supplements, 9 stage/action units and 1 source-visible japa unit. Scene 37 contributes the batch's sole new cross-page unit. Scene 36 keeps `ஆராரோ` inside its immutable merchant dialogue because the closed song inventory does not authorize it as a separate occurrence. Scene 40 represents `ammaiyappan-song-004` only as the printed Sukhadev japa/nishta cue plus the separately printed labelled `முத்தாயி...முத்தாயி...` token; it is not promoted into a soundtrack song or lyric authorship claim.
 
-**Next:** translate and source-review archival scenes **36–40** from the frozen verified derivatives. Inspect the live source-role layer and `songs/inventory.json` before writing; scene **40** contains a retained source-visible song/performance occurrence and only booklet-supported material may be represented. Preserve exact Tamil speaker/source-role/page ownership and keep cross-page units whole.
+**Next:** translate and source-review archival scenes **41–45** from the frozen verified derivatives. The closed source-role layer has no supplements and the closed song/performance inventory has no retained occurrence in that range. Preserve exact Tamil speaker/page ownership and keep cross-page units whole.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
