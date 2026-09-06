@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 30 / 63; 738/738 current units verified**
+**Status:** **verified through archival scene 35 / 63; 889/889 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -123,18 +123,32 @@ Scenes 26–30 add **130 verified units**:
 
 Live `dialogues/source-role-resolved-records.json` corrected the stale prior handoff assumption that scenes 26–30 had no supplements: `ammaiyappan-s027-r001`, `ammaiyappan-s027-r002` and `ammaiyappan-s030-r001` are already-closed source-context-attributed records and are linked without inventing printed speaker labels. Scene 30 keeps Muthan's self-described Purananuru poem inside immutable dialogue record `ammaiyappan-s030-d007`; it is translated semantically/poetically as source-owned dialogue, not split into a new literary-verse derivative or supplemented from an external text. Detailed QA is in `BATCH_026_030_REVIEW.md`.
 
-## Cumulative English status through scene 30
+### Batch — scenes 31–35
 
-- verified scenes: **30/63**;
-- verified units: **738**;
-- dialogue units: **627** = **614 explicit dialogue records + 13 source-role supplements**;
-- stage/action units: **109**;
+Scenes 31–35 add **151 verified units**:
+
+- explicit dialogue links: **132/132**;
+- source-role supplements: **1/1** — `ammaiyappan-s035-r001`;
+- stage/action units: **18**;
+- standalone song/verse/japa/performance units: **0**;
+- cross-page logical units: **5** — scene 33 (one) and scene 35 (four);
+- retained source-only song/performance occurrences encountered: **0**;
+- decorative stars translated as prose: **0**.
+
+Scene 32 is an action-only source segment and correctly creates no dialogue. Scene 33 preserves the conscience/worm/peacock cross-page metaphor, embedded arrival/clothes-fetching actions and only the printed Layla–Majnun/Qays reference. Scene 34 leaves frozen `வாட்டமா நான்?` visible by transliteration rather than guessing a repair. Scene 35 preserves the single context-attributed Tirisangu supplement, exact `முத்` labels, the source-owned `திரி` record whose rhetoric addresses `அப்பா`, gender-equality/Ardhanarishvara rhetoric, cross-dressing, ring exchange, retail/wholesale wordplay and Rama/Sita/Lakshmana forest-life humour without altering frozen evidence. Detailed QA is in `BATCH_031_035_REVIEW.md`.
+
+## Cumulative English status through scene 35
+
+- verified scenes: **35/63**;
+- verified units: **889**;
+- dialogue units: **760** = **746 explicit dialogue records + 14 source-role supplements**;
+- stage/action units: **127**;
 - standalone song-reference units: **2**;
-- cross-page units: **16**;
+- cross-page units: **21**;
 - song/performance occurrence links: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **31–35** from the frozen verified derivatives. The closed source-role layer contains **one** supplement in this range — `ammaiyappan-s035-r001`; the closed song/performance inventory contains **no retained occurrence** in scenes 31–35. Preserve exact Tamil speaker labels, source-role origin and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
+Translate and source-review archival scenes **36–40** from the frozen verified derivatives. Inspect the live closed source-role layer before writing and consult `songs/inventory.json`; archival scene **40** contains a retained source-visible song/performance occurrence and must be represented only to the extent supported by the booklet. Preserve exact Tamil speaker labels, source-role origin and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
