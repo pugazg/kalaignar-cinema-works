@@ -48,8 +48,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | Range | Pages expected | Glyph first-pass checked | Dual-gate verified | Needs review | Status |
 |---|---:|---:|---:|---:|---|
 | PDF 5–9 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 10–71 | 62 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **5** | **0** | **5** | **partial-first-pass** |
+| PDF 10–14 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 15–71 | 57 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **10** | **0** | **10** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -57,15 +58,25 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 |---:|:---:|---|---|---|---|---|
 | 6 | 6 | apparent bare-`ள்` surface in `அவள்...` cluster | `அவளை` | `ளை` | enlarged source cluster + same-word syntax; old `ளை` identity | draft-supported |
 | 6 | 6 | old `னா` form in `சூரியனால்` | `சூரியனால்` | `னா` | enlarged source pixels; family explicitly checked before Unicode encoding | draft-supported |
+| 11 | 11 | old-form cluster in `கண்ணாடிச்` | `கண்ணாடிச்` | `ணா` | enlarged source pixels; positive family occurrence | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
-## Open source questions affecting this batch
+## Source-irregular forms retained during PDF 10–14
+
+- PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass; no semantic normalization is used as proof of another reading.
+- PDF 13 `கீல்வலிக்கார தங்கையன்` is preserved source-faithfully.
+- PDF 14 visibly prints `வாலாம்` twice; this remains `வாலாம்` rather than being normalized to `வரலாம்`.
+
+These are textual-fidelity decisions, not global historical-glyph substitution rules.
+
+## Open source questions affecting the cumulative draft
 
 - PDF 5: one physically damaged introductory line remains unresolved; secure surrounding text is retained and the damaged span is marked explicitly in the canonical draft.
 - PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved; the approximate visible cluster is retained only inside an uncertainty marker.
+- PDF 10–14 introduced **0 new explicit uncertainty markers**.
 
-Neither issue is being guessed from context.
+Neither open issue is being guessed from context.
 
 ## Source-specific cautions
 
@@ -73,8 +84,8 @@ Neither issue is being guessed from context.
 - many pages contain later handwritten pencil numbers/marks near the upper-right margin; these are not printed Tamil and must not enter the canonical layer;
 - fading, bleed-through and broken ink require same-edition comparison rather than silent normalization;
 - PDF 5 has no securely visible printed page numeral; glyph decisions and pagination decisions remain separate;
-- source-colloquial forms encountered in PDF 5–9 remain source-faithful and are not standardized during glyph decoding.
+- source-colloquial and source-irregular forms remain source-faithful and are not standardized during glyph decoding.
 
 ## Next activity
 
-Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 10–14**. Do not mark PDF 5–9 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.
+Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 15–19**. Do not mark PDF 5–14 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.
