@@ -119,23 +119,23 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Dialogue index | **complete-source-role-resolved — 1,025/1,025 downstream units (1,009 explicit + 16 supplements)** |
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
-| English translation / reader | **verified through scene 10/63 — 225/225 current units; reader blocked pending complete English** |
+| English translation / reader | **verified through scene 15/63 — 355/355 current units; reader blocked pending complete English** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
-## English checkpoint through scene 10
+## English checkpoint through scene 15
 
-- verified scenes: **10/63**;
-- verified English units: **225**;
-- dialogue units: **196** = **190 explicit dialogue records + 6 source-role supplements**;
-- stage/action units: **28**;
+- verified scenes: **15/63**;
+- verified English units: **355**;
+- dialogue units: **303** = **295 explicit dialogue records + 8 source-role supplements**;
+- stage/action units: **51**;
 - standalone song-reference units: **1**;
-- cross-page English units: **2**;
+- cross-page English units: **3**;
 - song/performance occurrence links encountered so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - frozen Tamil/dialogue/character/song evidence modified by English: **no**.
 
-Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md` and `translations/BATCH_006_010_REVIEW.md`. Scene 7 preserves only the printed Muthan–Muthayi performance cue; scene 10 links only the printed Kambar-attributed fragment, with no absent lyric or verse reconstruction.
+Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`, `translations/BATCH_006_010_REVIEW.md` and `translations/BATCH_011_015_REVIEW.md`. Scene 11 preserves both closed source-context supplements; scene 15 preserves the cross-page `குரல்` record as one logical English unit. No source-only song/performance occurrence falls in scenes 11–15.
 
 ## Exact next activity
 
-**Translate and source-review archival scenes 11–15. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence.**
+**Translate and source-review archival scenes 16–20. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.**
