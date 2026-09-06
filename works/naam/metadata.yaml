@@ -1,0 +1,141 @@
+id: naam
+title_ta: "நாம்"
+source_title_ta: "நாம்"
+work_type: film
+source_type: printed_screenplay_dialogue_booklet
+
+source:
+  identifier: TVA_BOK_0064201
+  original_filename: "TVA_BOK_0064201_நாம்.pdf"
+  pdf_pages: 72
+  byte_size: 115948588
+  sha256: "0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad"
+  text_layer: image-only
+  controlling_source: rendered-scan
+  repository_binary_stored: false
+
+credits_as_printed:
+  author: "மு. கருணாநிதி"
+  story_dialogue_song: "கதை, வசனம், பாடல்... மு. கருணாநிதி"
+  specific_song_credit:
+    title: "ஆயிரம் தெய்வங்கள்"
+    author: "பாரதியார்"
+    credit_pdf_page: 4
+    song_body_pdf_page: 16
+  producer: "தயாரிப்பாளர் ஜூபிடர் & மேகலா பிக்சர்ஸ்"
+
+publication_as_visible:
+  organization: "ஆசீர்வாதபுரம் ஆதிதிராவிட நல உரிமைச் சங்கத்தார்"
+  user_supplied_publisher_label: "திராவிட நல உரிமைச் சங்கம்"
+  printer: "அச்சிட்டது ஆதி பிரஸ், சென்னை—12."
+  price: "0-8-0"
+  publication_year_as_printed: null
+  edition_statement_as_printed: null
+  publication_year_status: not-located-in-scan
+  edition_statement_status: not-located-in-scan
+
+source_structure:
+  front_matter_pdf_pages: "1-4"
+  main_text_pdf_pages: "5-71"
+  main_text_page_count: 67
+  back_matter_pdf_pages: "72"
+  visible_printed_page_numbers: "6-71"
+  pdf_5_printed_page_number_visible: false
+  printed_page_mapping:
+    - pdf_pages: "6-71"
+      printed_pages: "6-71"
+      relation: one-to-one-visible
+  source_numbered_scene_headings: true
+  scene_heading_count: 45
+  scene_heading_range: "1-45"
+  scene_number_gaps_observed: []
+  scene_number_repeats_observed: []
+  scene_number_out_of_order_observed: []
+  mapping_path: "mapping.md"
+
+scan_condition:
+  front_matter_physical_damage: true
+  pdf_2_severely_degraded: true
+  old_tamil_typeface: true
+  fading_broken_ink_bleedthrough: true
+  handwritten_margin_marks_present: true
+  handwritten_margin_marks_are_source_text: false
+  missing_pages_detected: false
+  duplicate_pages_detected: false
+
+historical_glyph:
+  guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
+  audit_path: "notes/historical-glyph-audit.md"
+  status: not-started
+  main_text_pages_expected: 67
+  pages_checked: 0
+  pages_verified: 0
+  known_families:
+    - "ணா"
+    - "ணை"
+    - "ணொ"
+    - "ணோ"
+    - "லை"
+    - "ளை"
+    - "றா"
+    - "றொ"
+    - "றோ"
+    - "னா"
+    - "னை"
+    - "னொ"
+    - "னோ"
+  verification_policy: visual-fidelity-and-historical-glyph-dual-gate
+
+mapped_source_visible_performance_structures:
+  status: intake-candidates-only
+  high_confidence_blocks: 5
+  blocks:
+    - pdf_pages: "16"
+      scene: 7
+      form: explicit-song
+      source_marker: "[பாட்டு]"
+      item_title: "ஆயிரம் தெய்வங்கள்"
+      item_author_as_printed: "பாரதியார்"
+    - pdf_pages: "35-36"
+      scene: 21
+      form: lyrical-block
+      opening: "மணமில்லா மலர் நானம்மா!"
+      authorship: not-adjudicated
+    - pdf_pages: "49-50"
+      scene: 31
+      form: lyrical-block
+      source_cue: "(பேதம்)"
+      authorship: not-adjudicated
+    - pdf_pages: "59-60"
+      scene_relation: between-scenes-36-and-37
+      form: poetic-song-like-blocks
+      authorship: not-adjudicated
+    - pdf_pages: "64"
+      scene: 39
+      form: background-song
+      source_marker: "பின்னணிப் பாடல்"
+      authorship: not-adjudicated
+
+status:
+  duplicate_work_check: complete-no-existing-work
+  source_intake: complete
+  whole_scan_inspection: complete
+  structural_mapping: verified
+  canonical_tamil_transcription: not-started
+  visual_fidelity_audit: not-started
+  historical_glyph_audit: not-started
+  scene_derivatives: blocked-pending-verified-tamil
+  dialogue_index: blocked-pending-verified-tamil
+  character_entity_index: blocked-pending-dialogue-layer
+  song_authorship_gate: blocked-pending-verified-tamil
+  english_translation: blocked-pending-verified-tamil-and-derivatives
+  reader_export: not-started
+  reading_room_integration: not-started
+
+user_supplied_context: >-
+  பகுத்தறிவு இயக்கத்தைக் கதைத் தலைவனாகக் கொண்டு கலைஞர் அவர்களின்
+  திரைக்கதை வசனத்தில் உருவான திரைப்படம். முழுக்க முழுக்கத் தொழிலாளி
+  வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
+  புகுத்தியும் எழுதப்பட்டது.
+
+next_action: "Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives."
