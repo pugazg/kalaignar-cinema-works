@@ -83,7 +83,7 @@ The continuous draft was assembled from the existing PDF 5–14 `full-text.md` p
 - rejected `தாக்குமேடை`: **absent**;
 - visible unresolved first-pass spans: **116**.
 
-Canonical Tamil, scene segmentation, dialogue indexing, character/entity indexing, and the source-only song/performance gate are now closed. English translation is active.
+Canonical Tamil, scene segmentation, dialogue indexing, character/entity indexing, and the source-only song/performance gate are now closed. English translation is also complete-verified.
 
 ## Post-closure dialogue-boundary correction
 
@@ -119,26 +119,30 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Dialogue index | **complete-source-role-resolved — 1,025/1,025 downstream units (1,009 explicit + 16 supplements)** |
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
-| English translation / reader | **verified through scene 60/63 — 1,188/1,188 current units; reader blocked pending complete English** |
+| English translation | **complete-verified — 63/63 scenes / 1,210 units; final reconciliation PASS** |
+| Reader/export | **not started — next production phase is reader/export preflight** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
-## English checkpoint through scene 60
+## English translation — complete
 
-- verified scenes: **60/63**;
-- verified English units: **1,188**;
-- dialogue units: **1,009** = **993 explicit dialogue records + 16 source-role supplements**;
-- stage/action units: **175**;
+- verified scenes: **63/63**;
+- verified English units: **1,210**;
+- dialogue units: **1,025** = **1,009 explicit dialogue records + 16 source-role supplements**;
+- stage/action units: **181**;
 - standalone song-reference units: **3**;
 - japa units: **1**;
+- standalone literary-verse units: **0**;
+- written-text units: **0**;
 - cross-page English units: **28**;
-- unique song/performance occurrence links encountered so far: **5** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`, `ammaiyappan-song-005`;
-- frozen Tamil/dialogue/character/song evidence modified by English: **no**.
+- unique song/performance occurrence links: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
+- frozen Tamil/dialogue/character/song evidence modified by English: **no**;
+- whole-work English reconciliation: **PASS** — `translations/FINAL_TRANSLATION_QA.md`.
 
-Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`, `translations/BATCH_006_010_REVIEW.md`, `translations/BATCH_011_015_REVIEW.md`, `translations/BATCH_016_020_REVIEW.md`, `translations/BATCH_021_025_REVIEW.md`, `translations/BATCH_026_030_REVIEW.md`, `translations/BATCH_031_035_REVIEW.md`, `translations/BATCH_036_040_REVIEW.md`, `translations/BATCH_041_045_REVIEW.md`, `translations/BATCH_046_050_REVIEW.md`, `translations/BATCH_051_055_REVIEW.md` and `translations/BATCH_056_060_REVIEW.md`.
+Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`, `translations/BATCH_006_010_REVIEW.md`, `translations/BATCH_011_015_REVIEW.md`, `translations/BATCH_016_020_REVIEW.md`, `translations/BATCH_021_025_REVIEW.md`, `translations/BATCH_026_030_REVIEW.md`, `translations/BATCH_031_035_REVIEW.md`, `translations/BATCH_036_040_REVIEW.md`, `translations/BATCH_041_045_REVIEW.md`, `translations/BATCH_046_050_REVIEW.md`, `translations/BATCH_051_055_REVIEW.md`, `translations/BATCH_056_060_REVIEW.md` and `translations/BATCH_061_063_REVIEW.md`.
 
-Batch 56–60 adds **82** verified units: **68** explicit dialogue links, **1** source-role supplement, **12** stage/action units and **1** song-reference unit. Three explicit records remain whole across page boundaries: scene 56 `ammaiyappan-en-s056-u031`, scene 56 `ammaiyappan-en-s056-u037`, and scene 58 `ammaiyappan-en-s058-u006`. Scene 56 preserves Boopathi's cross-page recollection and Poongavanam's confession without repairing frozen Tamil or expanding the printed mythological sequence. Scene 58 preserves Muthayi's sustained anti-prestige/religious-hypocrisy denunciation, `Self-Respect` register and three-page source ownership. Scene 59 keeps `ammaiyappan-s059-r001` as `source-context-attributed` Muthan speech, and links `ammaiyappan-song-005` only to the printed request and separate performance cue; no absent title, lyric body or authorship is reconstructed and no unnamed-song identity is merged without stronger evidence. Scene 60 preserves the golden-lotus metaphor and renders `விடுதலை விரும்பி` as `seeker of freedom`.
+Final batch 61–63 adds **22** verified units: **16** explicit dialogue links and **6** stage/action units. Scene 61 remains action-only and does not identify the masked substitute before the next scene reveals him. Scene 62 preserves the masked-prisoner revelation, Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the final `speech ends; life ends` parallel. Scene 63 preserves `Aththan` / `Amma` register shifts, mother-recognition and liberation rhetoric; its four-line closing stanza remains inside immutable dialogue record `ammaiyappan-s063-d012`, and frozen `அண்ணலின் விலங்கொடிப்ப ோம்` retains `Annal` as a source term rather than receiving an unsupported stronger gloss.
 
 ## Exact next activity
 
-**Translate and source-review the final archival scenes 61–63 from the frozen verified derivatives. Reconfirm the live closed source-role and song/performance layers before writing, preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not alter frozen source evidence. After scene 63, perform whole-work English reconciliation before starting reader/export work.**
+**Run whole-work English reader/export preflight from the complete-verified 63-scene structured translation. Generate reader/export from the verified records rather than maintaining an independent manual copy. Preserve archive scene IDs as navigation only, exact source provenance, all 1,025 dialogue units, all 28 cross-page units and all five source-visible occurrence links.**
