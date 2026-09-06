@@ -282,8 +282,26 @@ structured_derivatives:
   english_reader_preflight_page_order_regressions: 0
   english_reader_preflight_unit_id_errors: 0
   english_reader_preflight_provenance_errors: 0
-  reader_export: ready-after-preflight
-  reading_room_integration: blocked-pending-reader-export-generation-and-qa
+  reader_export: complete-verified
+  english_reader_edition_path: "editions/en"
+  english_reader_build_script_path: "editions/en/build.py"
+  english_reader_qa_report_path: "editions/en/QA_REPORT.md"
+  english_reader_manifest_path: "editions/en/manifest.json"
+  english_reader_markdown_path: "editions/en/reader-edition.md"
+  english_reader_html_path: "editions/en/reader-edition.html"
+  english_reader_json_path: "editions/en/reader-edition.json"
+  english_reader_translation_units: 1210
+  english_reader_dialogue_source_links: 1025
+  english_reader_cross_page_units: 28
+  english_reader_occurrence_identities: 5
+  english_reader_occurrence_source_span_links: 7
+  english_reader_qa_status: PASS
+  english_reader_deterministic: true
+  english_reader_markdown_sha256: "50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549"
+  english_reader_html_sha256: "c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a"
+  english_reader_json_sha256: "a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3"
+  english_reader_qa_sha256: "f23ec5952808e6229219aa7f3cff4b020d1d77e46203d9d54a8ca6f77cc9f14c"
+  reading_room_integration: ready-after-reader-export-qa
 
 status:
   duplicate_work_check: complete
@@ -301,7 +319,7 @@ status:
   character_entity_index: complete-verified-reconciled-26-entities-62-labels-1025-units
   song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
   english_translation: complete-verified-63-of-63-1210-units
-  reader_export: ready-after-preflight
-  reading_room_integration: blocked-pending-reader-export-generation-and-qa
+  reader_export: complete-verified
+  reading_room_integration: ready-after-reader-export-qa
 
-next_action: "Generate deterministic English reader/export derivatives from the complete-verified structured translation in Markdown, standalone HTML and machine-readable JSON; preserve all 1,210 units, 1,025 dialogue/source-role links, 28 cross-page units, five occurrence identities / seven source-span links, exact provenance and archive-only scene numbering. Then run generated-output QA and write an integrity manifest before Reading Room integration."
+next_action: "Create and QA the source-linked Ammayappan Reading Room integration payload from the complete-verified reader/translation structures. Preserve archive-only scene numbering, exact source provenance, dialogue/source-role distinctions and all five occurrence identities; do not reconstruct absent lyrics, titles or authorship."

@@ -99,13 +99,14 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - retained source-only occurrence links translated: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
 - whole-work English reconciliation: **PASS** — `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`;
 - reader/export preflight: **complete-pass — executable 63-scene / 1,210-unit integrity gate**;
-- reader/export generation: **ready / not started**.
+- reader/export generation: **complete-verified — Markdown / HTML / JSON / manifest; generated-output QA PASS**;
+- Reading Room integration: **ready after reader/export QA**.
 
 Final batch 61–63 adds **22 verified units**: **16 explicit dialogue links + 6 stage/action units**, with no source-role supplement, retained song/performance occurrence or new cross-page unit. Scene 61 remains action-only and does not identify the masked substitute before scene 62. Scene 62 preserves the masked-prisoner revelation, Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the final `speech ends; life ends` parallel without external expansion. Scene 63 preserves the `Aththan` / `Amma` register, mother-recognition and liberation rhetoric; its closing stanza remains owned by immutable dialogue `ammaiyappan-s063-d012` rather than becoming a synthetic verse occurrence.
 
-The **Ammayappan English reader/export preflight now passes** across all 63 scene records and 1,210 verified units: 1,025/1,025 dialogue/source-role links exactly once, 28 cross-page units, and all five retained occurrence identities across seven intentional source-span links, with zero missing/extra/duplicate dialogue links, provenance errors, page regressions, unit-ID errors, synthetic scene-end units or direct structural-star prose units.
+The **Ammayappan English reader/export package now passes generated-output QA**. Markdown, standalone HTML and machine-readable JSON each preserve all 1,210 verified units exactly once, all 1,025 dialogue/source-role links, all 28 cross-page units and all five occurrence identities across seven intentional source-span links. The integrity manifest records deterministic authoritative-input and output hashes. Output SHA-256 values are `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549` (Markdown), `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a` (HTML) and `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3` (JSON). No frozen Tamil or structured source evidence was modified.
 
-**Next:** generate deterministic English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON, then run generated-output QA and write an integrity manifest before Reading Room integration.
+**Next:** create and QA the source-linked Ammayappan Reading Room integration payload; preserve the 63 scene IDs strictly as archive navigation and retain all source-provenance/authorship limits.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 

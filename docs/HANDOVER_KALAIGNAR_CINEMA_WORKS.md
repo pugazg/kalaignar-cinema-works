@@ -132,7 +132,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**, whole-work reconciliation PASS; executable reader/export preflight **PASS**; deterministic reader/export generation is next.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export **complete-verified with generated-output QA PASS**; Reading Room payload is next.
 
 Current active mirrors use the corrected Ammayappan 1,025-unit source authority and complete English checkpoint.
 
@@ -172,7 +172,8 @@ Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...`
 - frozen Tamil/dialogue/character/song files modified by English: **no**;
 - whole-work source/linkage reconciliation: **PASS** — `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`;
 - reader/export preflight: **complete-pass**;
-- reader/export generation: **ready / not started**.
+- reader/export generation: **complete-verified — generated-output QA PASS**;
+- Reading Room integration: **ready for payload construction/QA**.
 
 ### Final batch 61–63 safeguards
 
@@ -205,7 +206,11 @@ The PASS is source/linkage reconciliation; it does not claim an executable JSON-
 
 Workflow `.github/workflows/ammaiyappan-english-reader-preflight.yml` passed at run **34025680568** / head `ae554f92faf7a9b0f4005c42cc28c8b3e8e95d36`. It verified all **63 scenes / 1,210 units / 1,025 dialogue-source links / 28 cross-page units / five occurrence identities across seven intentional source-span links** with zero errors or warnings.
 
-**Exact next activity:** generate deterministic English reader/export derivatives from the verified structured translation in Markdown, standalone HTML and machine-readable JSON. Preserve archive scene IDs as navigation only, exact Tamil speaker-label/source-role provenance, all **1,210** units, all **1,025** dialogue links, all **28** cross-page units and all **5** occurrence identities / **7** intentional source-span links. Then run generated-output QA and write an integrity manifest before Reading Room integration. Do not modify frozen source evidence.
+### Reader/export package — PASS
+
+`works/ammaiyappan/editions/en/` contains deterministic Markdown, standalone HTML and machine-readable JSON plus `QA_REPORT.md` and `manifest.json`. Generated-output QA confirms all **1,210** verified units exactly once in each export, all **1,025** dialogue/source-role links, all **28** cross-page units and all **5 occurrence identities / 7 source-span links**. Output SHA-256 values are `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549` (Markdown), `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a` (HTML) and `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3` (JSON). No frozen source evidence was modified.
+
+**Exact next activity:** create and QA the source-linked Ammayappan Reading Room integration payload from the complete-verified reader/translation structures. Preserve the 63 scene IDs strictly as archive navigation, exact source/page provenance, all speaker-label/source-role distinctions and all five occurrence identities; never reconstruct absent lyrics, titles or authorship.
 
 ---
 

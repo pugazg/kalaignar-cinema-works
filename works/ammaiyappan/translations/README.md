@@ -244,6 +244,10 @@ Whole-work source/linkage reconciliation is **PASS** in `FINAL_TRANSLATION_QA.md
 
 The executable whole-work gate passed across all **63 scene records / 1,210 verified units**. It confirmed **1,025/1,025 dialogue/source-role links exactly once**, all **28** cross-page units with matching page segments, exact Tamil speaker-label/source-role provenance, all **5** retained occurrence identities across **7** intentional source-span links, and archive-only scene numbering. It found **0** missing/extra/duplicate dialogue links, provenance errors, page regressions, unit-ID errors, synthetic scene-end units or direct structural-star prose units. See `../editions/en/PREFLIGHT_QA_REPORT.md`.
 
-## Next
+## Reader/export package — PASS
 
-Generate deterministic publication-facing **Markdown, standalone HTML and machine-readable JSON** directly from the verified structured translation, then run generated-output QA and write an integrity manifest before Reading Room integration. Do not maintain an independent manual reader copy.
+The deterministic publication-facing derivatives are complete under `../editions/en/`: Markdown, standalone HTML and machine-readable JSON each contain all **1,210** verified English units exactly once. Generated-output QA confirms exact **1,025/1,025** dialogue/source-role linkage, all **28** cross-page units, and all **5** occurrence identities across **7** intentional source-span links. Source-context-attributed labels remain explicitly contextual in presentation and the two source-semicolon records are not converted into printed-colon labels.
+
+Output SHA-256 values are `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549` (Markdown), `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a` (HTML) and `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3` (JSON). The deterministic integrity manifest and QA report are in `../editions/en/`.
+
+**Next:** create and QA the source-linked Ammayappan Reading Room integration payload from these complete-verified structures; preserve archive-only scene numbering and all source-evidence tiers.

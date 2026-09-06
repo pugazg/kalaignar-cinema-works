@@ -121,7 +121,8 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
 | English translation | **complete-verified — 63/63 scenes / 1,210 units; final reconciliation PASS** |
 | English reader/export preflight | **complete-pass — 63 scenes / 1,210 units / 1,025 dialogue links** |
-| Reader/export generation | **ready / not started** |
+| Reader/export generation | **complete-verified — Markdown / HTML / JSON / manifest; generated-output QA PASS** |
+| Reading Room integration | **ready after reader/export QA** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
@@ -148,6 +149,19 @@ Final batch 61–63 adds **22** verified units: **16** explicit dialogue links a
 
 The executable whole-work gate passed across **63/63 scene records and 1,210/1,210 verified units**. It independently confirmed all **1,009 explicit dialogue records + 16 source-role supplements = 1,025/1,025 dialogue links exactly once**, all **28** cross-page units, and all **5** retained occurrence identities across **7** intentionally distinct source-span links. Missing/extra/duplicate dialogue links, provenance errors, page regressions, unit-ID errors, structural-star prose units and synthetic scene-end units are all **0**. See `editions/en/PREFLIGHT_QA_REPORT.md`.
 
+## Reader/export package — PASS
+
+The deterministic English reader/export package is now **complete-verified** under `editions/en/`. Markdown, standalone HTML and machine-readable JSON each preserve all **1,210** verified units exactly once. Generated-output QA confirms **1,025/1,025 dialogue/source-role links exactly once**, all **28** cross-page units, and all **5** occurrence identities across **7** intentional source-span links. Source-semicolon records retain semicolon provenance, while context-attributed supplements are visibly contextual rather than presented as printed labels.
+
+Output SHA-256 values:
+
+- Markdown: `50fb3baf33c3b249ce32dba5947fe73871f5ef36d18f41807d2ad3ed3d3fb549`;
+- HTML: `c8fba94766a4082d5288bcd5f9ff63bde863d942f7b9aaf824a3a1c5bcc0f22a`;
+- JSON: `a72b758d397a909cb9004fd9e34ffedcc4bb72027d29d11aec994df6b4ea4ce3`;
+- QA report: `f23ec5952808e6229219aa7f3cff4b020d1d77e46203d9d54a8ca6f77cc9f14c`.
+
+`editions/en/manifest.json` records deterministic authoritative-input and output hashes. Reader generation changed **no** canonical Tamil, scene, dialogue/source-role, character or song/performance evidence.
+
 ## Exact next activity
 
-**Generate deterministic English reader/export derivatives in Markdown, standalone HTML and machine-readable JSON from the verified structured translation. Preserve all 1,210 units, exact Tamil speaker-label/source-role provenance, all 28 cross-page units, the five occurrence identities/seven source-span links, and archive-only scene numbering. Then run generated-output QA and write an integrity manifest before Reading Room integration.**
+**Create and QA the source-linked Ammayappan Reading Room integration payload from the complete-verified reader/translation structures. Preserve the 63 scene IDs strictly as archive navigation, exact page/source provenance, all dialogue/source-role distinctions and all five source-visible occurrence identities; do not reconstruct absent lyrics, titles or authorship.**

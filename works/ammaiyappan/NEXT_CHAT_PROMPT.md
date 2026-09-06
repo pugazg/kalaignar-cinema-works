@@ -13,7 +13,7 @@ Fetch live `main` first and preserve newer durable work. Never reset, repeat or 
 
 Last confirmed live checkpoint immediately before this prompt refresh:
 
-`4bb6db80eaa497e41eb394b3b4ba286b7b0f9e43` — **`Advance master handover through Ammayappan complete English`**
+`80a386c6b828da75dd247c5934471cc4ffb37309` — **`Reader/export build workflow checkpoint before status synchronization`**
 
 If `main` has advanced, the newer state controls.
 
@@ -97,7 +97,8 @@ Final verified English checkpoint:
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**;
 - whole-work source/linkage reconciliation: **PASS** — `translations/FINAL_TRANSLATION_QA.md`;
 - reader/export preflight: **complete-pass** — workflow run **34025680568** at `ae554f92faf7a9b0f4005c42cc28c8b3e8e95d36`;
-- reader/export generation: **ready / not started**.
+- reader/export generation: **complete-verified — Markdown / HTML / JSON / manifest; generated-output QA PASS**;
+- Reading Room integration: **ready for payload construction/QA**.
 
 ## FINAL BATCH 61–63 LOCKED DECISIONS
 
@@ -161,7 +162,11 @@ Before further changes, read the current versions of:
 24. `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`
 25. `works/ammaiyappan/editions/en/PREFLIGHT_QA_REPORT.md`
 26. `works/ammaiyappan/editions/en/audit_probe.py`
-27. verified translation records `scene-001.json`–`scene-063.json` as needed for reader/export generation and QA.
+27. `works/ammaiyappan/editions/en/build.py`
+28. `works/ammaiyappan/editions/en/QA_REPORT.md`
+29. `works/ammaiyappan/editions/en/manifest.json`
+30. `works/ammaiyappan/editions/en/reader-edition.json`
+31. verified translation records `scene-001.json`–`scene-063.json` as needed for Reading Room payload construction and QA.
 
 Also inspect any newer Ammaiyappan reader/export or audit/status file added after this prompt.
 
@@ -180,4 +185,4 @@ Unless live `main` contains newer explicit source-backed evidence, do not redo:
 
 If downstream work exposes a genuine source defect, isolate it as a post-closure correction and repair only the smallest affected derivative chain with dependent QA.
 
-> **Fetch live `main`; confirm English translation remains complete-verified at 63/63 scenes / 1,210 units and `editions/en/PREFLIGHT_QA_REPORT.md` is PASS. Then build deterministic English reader/export derivatives directly from the verified translation records — Markdown, standalone HTML and machine-readable JSON — never an independent manual copy. Preserve every one of the 1,210 translation units, all 1,025 dialogue/source-role links, all 28 cross-page units with page segments, all five occurrence identities across seven intentional source-span links, exact Tamil speaker-label/source-role provenance and archive-only scene numbering. Do not alter frozen Tamil/dialogue/character/song evidence. After generation run whole-work generated-output QA, write an integrity manifest, synchronize all current mirrors, and only then consider Reading Room integration.**
+> **Fetch live `main`; confirm English translation remains complete-verified at 63/63 scenes / 1,210 units, `editions/en/PREFLIGHT_QA_REPORT.md` is PASS, and the deterministic reader/export package is complete-verified with `editions/en/QA_REPORT.md` + `manifest.json` PASS. Then create and QA the source-linked Ammayappan Reading Room integration payload from the verified reader/translation structures. Preserve all 1,210 units, all 1,025 dialogue/source-role links, all 28 cross-page units, all five occurrence identities across seven intentional source-span links, exact Tamil speaker-label/source-role provenance, page provenance and archive-only scene numbering. Do not alter frozen Tamil/dialogue/character/song evidence and do not reconstruct absent lyrics, titles or authorship. Synchronize all current mirrors after payload QA; separate-site application remains a later explicit step.**
