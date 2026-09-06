@@ -1,0 +1,67 @@
+name: Ammayappan song gate status once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-song-gate-status-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize song/performance closure status
+        run: |
+          python works/ammaiyappan/scripts/sync_song_performance_closure_status.py
+      - name: Validate synchronized state
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          song=json.loads((root/'songs/index.json').read_text(encoding='utf-8'))
+          assert song['status']=='complete-verified-source-only'
+          assert song['candidate_hits_reviewed']==64
+          assert song['source_visible_occurrences']==5
+          assert song['standalone_tamil_lyric_files_created']==0
+          readme=(root/'README.md').read_text(encoding='utf-8')
+          hand=(root/'PROJECT_HANDOVER.md').read_text(encoding='utf-8')
+          meta=(root/'metadata.yaml').read_text(encoding='utf-8')
+          assert '| Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |' in readme
+          assert '## Song / verse / performance authorship closure — FINAL SOURCE GATE' in hand
+          assert 'song_authorship_mapping: complete-verified-source-only' in meta
+          assert 'song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files' in meta
+          works=json.loads(Path('data/works.json').read_text(encoding='utf-8'))
+          w=[x for x in works if x.get('id')=='ammaiyappan']
+          assert len(w)==1
+          sd=w[0]['structured_derivatives']
+          assert sd['song_authorship_mapping']=='complete-verified-source-only'
+          assert sd['song_source_visible_occurrences']==5
+          assert sd['song_tamil_derivative_files']==0
+          assert sd['next_structured_derivative']=='english-translation'
+          print('AMMAYAPPAN SONG GATE STATUS VALID — ENGLISH READY')
+          PY
+      - name: Commit synchronized status
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/README.md \
+                  works/ammaiyappan/PROJECT_HANDOVER.md \
+                  works/ammaiyappan/metadata.yaml \
+                  data/works.json
+          if git diff --cached --quiet; then
+            echo "No status changes"
+          else
+            git commit -m "Synchronize Ammayappan song performance closure status [skip ci]"
+            git push origin HEAD:main
+          fi
