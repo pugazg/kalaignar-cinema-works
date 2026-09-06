@@ -8,6 +8,23 @@ Work path: `works/ammaiyappan/`
 
 Treat live GitHub `main` and the rendered controlling scan as authoritative over copied checkpoints. Preserve newer durable work; do not reset or repeat completed phases because an older prompt says otherwise.
 
+## Current authority — post-closure dialogue correction
+
+The scene-3 source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct பூங்காவனம் dialogue unit with its source semicolon preserved. It is represented in `dialogues/source-role-resolved-records.json` and must not be swallowed into the preceding பலதேவர் utterance.
+
+Current downstream structured authority:
+
+- explicit colon-labelled dialogue records: **1,009**;
+- source-role-resolved dialogue supplements: **16**;
+- downstream dialogue units: **1,025**;
+- exact source speaker-label strings: **62**;
+- unresolved source-role blocks: **0**;
+- source punctuation normalization: **0**;
+- character/entity coverage: **1,025/1,025**;
+- exact-label coverage: **62/62**.
+
+The other preserved source-explicit non-colon form is scene 5 `திரு; ...`. Neither semicolon may be normalized to a colon.
+
 ## Mandatory startup
 
 Before changing this work, read completely:
@@ -20,20 +37,33 @@ Before changing this work, read completely:
 6. `docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md`
 7. `docs/STATUS_CONSISTENCY_AUDIT.md`
 8. `works/ammaiyappan/README.md`
-9. `works/ammaiyappan/metadata.yaml`
-10. `works/ammaiyappan/mapping.md`
-11. `works/ammaiyappan/notes/INTAKE_AUDIT.md`
-12. `works/ammaiyappan/notes/scene-heading-audit.md`
-13. `works/ammaiyappan/notes/historical-glyph-audit.md`
-14. `works/ammaiyappan/notes/historical-glyph-sync-manifest.json`
-15. `works/ammaiyappan/notes/historical-glyph-sync-report.json`
-16. `works/ammaiyappan/transcription/README.md`
-17. `works/ammaiyappan/transcription/index.json`
-18. `works/ammaiyappan/transcription/full-text.md`
-19. `works/ammaiyappan/transcription/ASSEMBLY_QA.md`
-20. every bounded part retained by `transcription/index.json`
-21. `works/ammaiyappan/notes/textual-notes.md`
-22. every supplemental uncertainty ledger listed by `transcription/index.json`.
+9. `works/ammaiyappan/PROJECT_HANDOVER.md`
+10. `works/ammaiyappan/NEXT_CHAT_PROMPT.md`
+11. `works/ammaiyappan/metadata.yaml`
+12. `works/ammaiyappan/transcription/index.json`
+13. `works/ammaiyappan/transcription/full-text.md`
+14. `works/ammaiyappan/notes/FINAL_TAMIL_QA.md`
+15. `works/ammaiyappan/scenes/index.json`
+16. `works/ammaiyappan/notes/scene-boundary-ownership-qa.md`
+17. `works/ammaiyappan/dialogues/final-index.json`
+18. `works/ammaiyappan/dialogues/source-role-resolved-records.json`
+19. `works/ammaiyappan/notes/dialogue-final-qa.json`
+20. `works/ammaiyappan/characters/index.json`
+21. `works/ammaiyappan/characters/entities.json`
+22. `works/ammaiyappan/characters/labels-inventory.json`
+23. `works/ammaiyappan/characters/record-aware-dispositions.json`
+24. `works/ammaiyappan/characters/muth-record-dispositions.json`
+25. `works/ammaiyappan/songs/index.json`
+26. `works/ammaiyappan/songs/inventory.json`
+27. `works/ammaiyappan/songs/candidate-disposition.json`
+28. `works/ammaiyappan/songs/credits.json`
+29. `works/ammaiyappan/translations/README.md`
+30. `works/ammaiyappan/translations/preflight.json`
+31. `works/ammaiyappan/translations/schema.json`
+32. `works/ammaiyappan/translations/index.json`
+33. `works/ammaiyappan/translations/PILOT_REVIEW.md`
+
+Also inspect any newer work-local audit/status file added after this handover.
 
 ## Controlling source
 
@@ -51,24 +81,15 @@ Printed identity: `அம்மையப்பன்`; `கதை வசனம�
 ## Structural/source locks
 
 - source-numbered scenes: **none**;
-- intake structural heading/transition occurrences: **58 / 37 distinct forms**;
-- preserve additional source-visible local headings found during transcription even if the intake ledger is narrower;
+- canonical source-visible boundaries used by the scene derivative layer: **63**;
+- archive scene ordinals are derivative navigation only;
+- preserve additional source-visible local headings found during transcription even if an earlier intake ledger is narrower;
 - PDF 56 / p.54: **`பழுதார் வீதி`**;
 - PDF 107 / p.105: **`தூக்குமேடை`** — direct user verdict; reject `தாக்குமேடை`.
 
-## Canonical Tamil first pass — closed as draft coverage
+## Historical first-pass checkpoint
 
-- expected canonical pages: **105**;
-- completed: **105/105**;
-- completed range: **PDF 5–109 / printed pp.3–107**;
-- state: **draft-complete**;
-- continuous transcription: `transcription/full-text.md` assembled through **PDF 109**;
-- assembly QA: `transcription/ASSEMBLY_QA.md` — **PASS**;
-- open uncertainty markers: **29**;
-- final part: `transcription/parts/pdf-105-109.md`;
-- final ledger: `notes/textual-notes-pdf-105-109.md` for markers **115–116**.
-
-The final PDF 105–109 batch preserves the PDF 104→105 continuation and the source-visible transitions `வேங்கையூர்`, `நகரின் வீதி`, locked `தூக்குமேடை`, and `வெளியே`. Two final insecure readings remain visibly marked rather than reconstructed.
+The original first-pass campaign covered all **105/105** canonical pages and retained bounded provenance files. Earlier first-pass uncertainty counts and draft labels in historical audit prose describe that campaign and do not override the final Tamil authority below.
 
 ## Canonical Tamil and scene-text derivatives — CLOSED
 
@@ -95,40 +116,34 @@ Scene layer:
 
 - source/canonical Tamil gates: **closed**;
 - scene-text derivatives: **closed-verified**;
-- dialogue index: **complete-source-role-resolved — 1,024/1,024 downstream units**;
-- character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,024 units**;
+- dialogue index: **complete-source-role-resolved — 1,025/1,025 downstream units**;
+- character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,025 units**;
 - song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
-- English / reader: **READY — next phase**.
+- English translation: **pilot-verified — scene 1/63; 34/34 units**;
+- reader/export: **blocked pending complete English**.
 
-## Exact next activity
+## Dialogue-index closure — FINAL QA PASS, post-correction authority
 
-> **Begin English translation/reconciliation from the closed Tamil/scene/dialogue/character evidence layers. Keep exact Tamil provenance and source structure; do not reopen canonical Tamil or dialogue evidence without new scan-backed authority.**
-
-
-## Dialogue-index closure — FINAL QA PASS
-
-- explicit colon-labelled records: **1009**;
+- explicit colon-labelled records: **1,009**;
 - exact source speaker-label strings: **62**;
 - reviewed cross-page continuation candidates: **20/20 PASS**;
-- source-role residual review: **20/20 complete**;
-- source-role-resolved dialogue supplements: **15**;
+- source-role residual review: **complete**;
+- source-role-resolved dialogue supplements: **16**;
 - non-dialogue resolved source units: **6**;
-- downstream dialogue units: **1024**;
+- downstream dialogue units: **1,025**;
 - unresolved source-role blocks: **0**;
 - source scene numbers invented: **0**;
 - alias normalization: **0**;
 - source punctuation normalization: **0**;
-- exceptional source delimiter `திரு; ...`: preserved exactly;
-- final QA: `notes/dialogue-final-qa.json` — **PASS**;
-- character/entity index gate: **UNLOCKED**.
+- exceptional source delimiters `பூங் ; ...` and `திரு; ...`: preserved exactly;
+- final authority: `dialogues/final-index.json` plus `dialogues/source-role-resolved-records.json`;
+- final QA: `notes/dialogue-final-qa.json` plus the explicit post-closure semicolon repair history.
 
-### Exact next activity
+The scene-3 semicolon correction increased the earlier closure checkpoint from 1,024 to **1,025** downstream units and from 15 to **16** supplements. Historical commits/audit prose may record the earlier checkpoint, but active status must use the corrected totals.
 
-> **Begin English translation/reconciliation from the closed Tamil/scene/dialogue/character evidence layers. Use `characters/index.json` only as a derivative identity aid; exact Tamil/dialogue labels remain the provenance authority.**
+## Character/entity closure — FINAL QA PASS, post-correction authority
 
-## Character/entity closure — FINAL QA PASS
-
-- downstream dialogue units dispositioned: **1,024/1,024**;
+- downstream dialogue units dispositioned: **1,025/1,025**;
 - exact source speaker labels dispositioned: **62/62**;
 - stable entities / role categories: **26**;
 - verified entities: **26**;
@@ -142,12 +157,9 @@ Scene layer:
 - character index: `characters/index.json`;
 - complete entities: `characters/entities.json`;
 - exact-label disposition: `characters/labels-inventory.json`;
-- record-aware assignments: `characters/record-aware-dispositions.json`;
-- character/entity build commit: `e670816876c4f02c0bebe283c2c9bfc0de93fcc9`.
+- record-aware assignments: `characters/record-aware-dispositions.json`.
 
-### Exact next activity
-
-> **Begin English translation/reconciliation. Translate only from the frozen verified Tamil evidence, preserve scene/dialogue provenance, and use the character/entity layer to resolve identity without normalizing the Tamil source.**
+Use this layer only as an identity aid in English. Exact Tamil source labels remain the provenance authority.
 
 ## Song / verse / performance authorship closure — FINAL SOURCE GATE
 
@@ -165,7 +177,28 @@ Scene layer:
 
 The booklet's printed `கதை வசனம் / மு. கருணாநிதி` credit is not promoted into lyric authorship. English may translate only the source-visible performance references, literary fragment, japa token and cues; absent song lyrics must not be reconstructed from film audio, websites, subtitles, later editions or memory.
 
-### Exact next activity
+## English translation — ACTIVE
 
-> **Begin source-linked English translation/reconciliation from the frozen Tamil and completed derivative evidence layers. Preserve scene/dialogue/character provenance and translate only source-visible song/performance material.**
+The English layer reuses the repository's mature scene-sharded, source-linked convention.
 
+Current files:
+
+- `translations/schema.json` — locked scene/unit schema;
+- `translations/preflight.json` — authority and pilot preflight;
+- `translations/records/scene-001.json` — verified pilot;
+- `translations/PILOT_REVIEW.md` — voice and integrity decisions;
+- `translations/index.json` — active translation checkpoint.
+
+Pilot scene 1 (`மடாலய வெளிப்புறம்`) is **verified at 34/34 units**:
+
+- explicit dialogue links: **31/31**;
+- stage/action units: **3**;
+- source-role supplements: **0**;
+- song/performance occurrence links: **0**;
+- cross-page units: **0**.
+
+Translation must preserve archive scene ID and PDF/printed-page provenance, exact Tamil speaker labels, source-role origin, structural distinctions, rhetoric/register, and the closed song/performance evidence. It must not alter canonical Tamil or immutable dialogue evidence.
+
+## Exact next activity
+
+> **Translate and source-review archival scenes 2–5 using the verified scene-1 pilot as the voice template. Preserve scene 3 `பூங் ;` and scene 5 `திரு;` as source-explicit non-colon dialogue provenance, keep cross-page source units whole, and synchronize the translation index/README/QA after the batch.**
