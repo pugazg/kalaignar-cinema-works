@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for Ammayappan's source/structured authority — canonical Tamil is 105/105 dual-gate complete-verified; scene derivatives are 63/63; dialogue authority is 1,009 explicit + 16 source-role supplements = 1,025 downstream units; character/entity coverage is 1,025/1,025 and 62/62 exact labels. English translation is active with a verified scene-1 pilot (34/34 units).**
+**PASS for Ammayappan's source/structured authority — canonical Tamil is 105/105 dual-gate complete-verified; scene derivatives are 63/63; dialogue authority is 1,009 explicit + 16 source-role supplements = 1,025 downstream units; character/entity coverage is 1,025/1,025 and 62/62 exact labels. English translation is verified through scene 5/63 at 108/108 current units.**
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct பூங்காவனம் dialogue unit. Its semicolon is preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -24,7 +24,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Kalaignar Thirai Isai Paadalgal | 54/54 numbered Tamil songs verified | 54 song records | 54/54 songs / 1,105 line-cues | reader/export + Reading Room payload QA PASS; site not applied |
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; PDF 3–5 story summary 1/1; PDF 6–13 performance records 15/15 | complete-verified — 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogue records / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 song line-cues | bilingual reader QA PASS + Reading Room payload QA PASS; site not applied |
-| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **pilot verified — scene 1/63 / 34 units** | reader blocked pending complete English |
+| Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **verified through scene 5/63 / 108 units** | reader blocked pending complete English |
 
 ## Ammayappan current checkpoint
 
@@ -71,15 +71,18 @@ The earlier 1,024-unit / 15-supplement checkpoint is historical. Active current-
 
 - schema/preflight: established;
 - source numbering invented: **0**;
-- pilot scene: `ammaiyappan-s001` (`மடாலய வெளிப்புறம்`), PDF 5–7 / printed pp.3–5;
-- verified pilot units: **34/34**;
-- explicit dialogue links: **31/31**;
-- stage/action units: **3**;
-- source-role supplements in pilot: **0**;
-- cross-page pilot units: **0**;
+- verified scenes: **5/63**;
+- verified English units: **108**;
+- explicit dialogue links: **93/93**;
+- source-role supplement links: **2/2**;
+- stage/action units: **13**;
+- cross-page units: **1**;
+- source-visible song/performance links encountered through scene 5: **0**;
+- scene-3 `பூங் ; ...` supplement: preserved as source-explicit non-colon provenance;
+- scene-5 `திரு; ...` supplement: preserved as source-explicit non-colon provenance;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-**Next translation batch:** archival scenes **2–5**.
+**Next translation batch:** archival scenes **6–10**. Scene 7 reaches the first retained source-only performance occurrence and scene 10 reaches the Kambar-attributed literary quotation.
 
 ## Manthiri Kumari reconciliation checkpoint
 
@@ -159,4 +162,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan's canonical Tamil and structured source-derived layers are **closed and synchronized to the corrected 1,025-unit authority**. English translation is active under the verified scene-sharded schema. The current bounded activity is **translate and source-review archival scenes 2–5**, then update translation QA/index/status without changing frozen Tamil evidence.
+Ammayappan's canonical Tamil and structured source-derived layers are **closed and synchronized to the corrected 1,025-unit authority**. English translation is verified through **scene 5/63 at 108 current units**. The current bounded activity is **translate and source-review archival scenes 6–10**, then update translation QA/index/status without changing frozen Tamil evidence.
