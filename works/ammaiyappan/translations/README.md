@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 35 / 63; 889/889 current units verified**
+**Status:** **verified through archival scene 40 / 63; 979/979 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -16,7 +16,7 @@ The booklet prints **no scene numbers**. Translation IDs such as `ammaiyappan-en
 4. Preserve source-role provenance for context-attributed and source-explicit non-colon dialogue supplements; do not turn a derivative attribution or semicolon delimiter into a printed colon label.
 5. Stage directions stay source-bounded; no action, identity or motivation is added for smoothness.
 6. Cross-page source units remain one translation unit with page provenance/segments.
-7. Decorative `★` remains structural and does not become invented prose.
+7. Decorative `★` / `* * *` remains structural and does not become invented prose.
 8. The closed song/performance gate controls English: translate only the five source-visible occurrences when encountered, and never reconstruct absent lyrics.
 9. The booklet's `கதை வசனம் / மு. கருணாநிதி` credit is not upgraded into lyric authorship.
 10. Cultural/register terms may remain transliterated when substitution would erase source force; consequential choices go in unit notes.
@@ -137,18 +137,34 @@ Scenes 31–35 add **151 verified units**:
 
 Scene 32 is an action-only source segment and correctly creates no dialogue. Scene 33 preserves the conscience/worm/peacock cross-page metaphor, embedded arrival/clothes-fetching actions and only the printed Layla–Majnun/Qays reference. Scene 34 leaves frozen `வாட்டமா நான்?` visible by transliteration rather than guessing a repair. Scene 35 preserves the single context-attributed Tirisangu supplement, exact `முத்` labels, the source-owned `திரி` record whose rhetoric addresses `அப்பா`, gender-equality/Ardhanarishvara rhetoric, cross-dressing, ring exchange, retail/wholesale wordplay and Rama/Sita/Lakshmana forest-life humour without altering frozen evidence. Detailed QA is in `BATCH_031_035_REVIEW.md`.
 
-## Cumulative English status through scene 35
+### Batch — scenes 36–40
 
-- verified scenes: **35/63**;
-- verified units: **889**;
-- dialogue units: **760** = **746 explicit dialogue records + 14 source-role supplements**;
-- stage/action units: **127**;
+Scenes 36–40 add **90 verified units**:
+
+- explicit dialogue links: **80/80**;
+- source-role supplements: **0**;
+- stage/action units: **9**;
+- japa units: **1** — scene 40 `ammaiyappan-song-004` source-visible cue;
+- standalone song-reference / literary-verse / written-text units: **0**;
+- cross-page logical units: **1** — scene 37 across PDF 80–81;
+- retained source-only song/performance occurrences encountered: **1/1** — `ammaiyappan-song-004`;
+- decorative stars translated as prose: **0**.
+
+Scene 36 preserves the mistaken-abduction/disguise sequence, exact `தன` labels, the structural `* * *`, and the merchant's embedded child-cry/`ஆராரோ` span without manufacturing a song occurrence that the closed inventory does not authorize. Scene 37 keeps its one cross-page Vedalam record whole. Scene 38 preserves source-owned embedded actions and Vedalam's food-chain rhetoric, retaining `Kuravan` as the source social/community label rather than euphemizing it. Scene 39 preserves liberation rhetoric and treats Purananuru as a source rhetorical reference only. Scene 40 represents `ammaiyappan-song-004` as source-visible character japa: one japa cue unit plus the separately printed labelled `முத்தாயி...முத்தாயி...` dialogue span linked to the same occurrence; no soundtrack title, lyric body or authorship is inferred. Detailed QA is in `BATCH_036_040_REVIEW.md`.
+
+## Cumulative English status through scene 40
+
+- verified scenes: **40/63**;
+- verified units: **979**;
+- dialogue units: **840** = **826 explicit dialogue records + 14 source-role supplements**;
+- stage/action units: **136**;
 - standalone song-reference units: **2**;
-- cross-page units: **21**;
-- song/performance occurrence links: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
+- japa units: **1**;
+- cross-page units: **22**;
+- unique song/performance occurrence links: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **36–40** from the frozen verified derivatives. Inspect the live closed source-role layer before writing and consult `songs/inventory.json`; archival scene **40** contains a retained source-visible song/performance occurrence and must be represented only to the extent supported by the booklet. Preserve exact Tamil speaker labels, source-role origin and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
+Translate and source-review archival scenes **41–45** from the frozen verified derivatives. The closed source-role layer has **no supplements** in scenes 41–45 and the closed song/performance inventory has **no retained occurrence** in that range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
