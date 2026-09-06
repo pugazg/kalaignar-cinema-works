@@ -119,10 +119,22 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Dialogue index | **complete-source-role-resolved — 1,025/1,025 downstream units (1,009 explicit + 16 supplements)** |
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
-| English translation / reader | **pilot verified — scene 1/63; 34/34 units; next batch 2–5** |
+| English translation / reader | **verified through scene 5/63 — 108/108 current units; reader blocked pending complete English** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
+## English checkpoint through scene 5
+
+- verified scenes: **5/63**;
+- verified English units: **108**;
+- dialogue units: **95** = **93 explicit dialogue records + 2 source-role supplements**;
+- stage/action units: **13**;
+- cross-page English units: **1**;
+- song/performance occurrence links encountered so far: **0**;
+- frozen Tamil/dialogue/character/song evidence modified by English: **no**.
+
+Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`. Scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain source-explicit non-colon provenance in English metadata.
+
 ## Exact next activity
 
-**Translate and source-review archival scenes 2–5 using the verified scene-1 English pilot as the voice template. Preserve exact Tamil dialogue/source-role provenance, including scene 3 `பூங் ;` and scene 5 `திரு;`, and do not reconstruct absent song lyrics.**
+**Translate and source-review archival scenes 6–10. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation. Translate only source-visible material, preserve all dialogue/source-role provenance, and do not reconstruct absent lyrics or verse.**
