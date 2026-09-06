@@ -58,9 +58,7 @@ The synchronization report is `notes/historical-glyph-sync-report.json`. Retaine
 
 Therefore **PDF 5–74 / logical pp.3–72 are now dual-gate verified: 70/105 pages**.
 
-
 Forward dual-gate verification through PDF 84 is recorded by commit `0da97f94e829bef9b387bf59be580933b97ed122` and `notes/dual-gate-sync-report-pdf-075-084.json`.
-
 
 Forward dual-gate verification through PDF 94 is recorded by commit `1911df2c97d45dfe07f1b9073bdf6368378ddf44` and `notes/dual-gate-sync-report-pdf-085-094.json`.
 
@@ -85,7 +83,24 @@ The continuous draft was assembled from the existing PDF 5–14 `full-text.md` p
 - rejected `தாக்குமேடை`: **absent**;
 - visible unresolved first-pass spans: **116**.
 
-Canonical Tamil, scene segmentation, dialogue indexing, and character/entity indexing are now closed. The next derivative phase is English translation/reconciliation.
+Canonical Tamil, scene segmentation, dialogue indexing, character/entity indexing, and the source-only song/performance gate are now closed. English translation is active.
+
+## Post-closure dialogue-boundary correction
+
+The verified scene-3 source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` is a distinct **பூங்காவனம்** dialogue unit. The exact semicolon delimiter is preserved in `dialogues/source-role-resolved-records.json` and must not be normalized or swallowed into the preceding பலதேவர் utterance.
+
+Current structured authority after that correction:
+
+- explicit colon-labelled dialogue records: **1,009**;
+- source-role-resolved dialogue supplements: **16**;
+- downstream dialogue units: **1,025**;
+- exact source speaker-label strings: **62**;
+- unresolved source-role blocks: **0**;
+- character/entity dialogue coverage: **1,025/1,025**;
+- exact-label coverage: **62/62**;
+- source punctuation normalizations: **0**.
+
+The other preserved source-explicit non-colon form remains scene 5 `திரு; ...`; neither semicolon is normalized to a colon.
 
 ## Current status
 
@@ -101,13 +116,13 @@ Canonical Tamil, scene segmentation, dialogue indexing, and character/entity ind
 | Scene segmentation preflight | **PASS — 63 boundaries** |
 | Scene-text derivatives | **complete-verified — 63/63** |
 | Boundary-ownership QA | **PASS — 0 gaps / 0 overlaps / 105 pages represented** |
-| Dialogue index | **complete-source-role-resolved — 1,024/1,024 downstream units** |
-| Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,024 units** |
+| Dialogue index | **complete-source-role-resolved — 1,025/1,025 downstream units (1,009 explicit + 16 supplements)** |
+| Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
-| English translation / reader | **READY — next phase** |
+| English translation / reader | **pilot verified — scene 1/63; 34/34 units; next batch 2–5** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
 ## Exact next activity
 
-**Begin source-linked English translation/reconciliation from the frozen 105/105 Tamil source plus the completed scene, dialogue, character/entity, and song/performance evidence layers.** Preserve source structure and exact Tamil linkage; translate only source-visible song/performance material and do not reconstruct absent lyrics.
+**Translate and source-review archival scenes 2–5 using the verified scene-1 English pilot as the voice template. Preserve exact Tamil dialogue/source-role provenance, including scene 3 `பூங் ;` and scene 5 `திரு;`, and do not reconstruct absent song lyrics.**
