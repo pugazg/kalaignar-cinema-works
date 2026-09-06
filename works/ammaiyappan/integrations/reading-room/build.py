@@ -59,6 +59,7 @@ EXPECTED_SPEAKER_ORIGINS = {
 }
 PLACEHOLDER_RE = re.compile(r"\b(?:TODO|TBD|FIXME)\b|\[\[\?\]\]|\{\{.+?\}\}", re.I)
 COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
+HEADING_RE = re.compile(r"^#{1,6}\s+(.+?)\s*$")
 
 
 class QAError(RuntimeError):
@@ -99,12 +100,14 @@ def extract_tamil_scene(path: Path) -> tuple[str, str]:
     heading = None
     heading_index = None
     for i, line in enumerate(lines):
-        if line.startswith("### "):
-            heading = line[4:].strip()
+        match = HEADING_RE.match(line.strip())
+        if match:
+            heading = match.group(1).strip()
             heading_index = i
             break
     ensure(isinstance(heading, str) and heading, f"Missing Tamil scene heading in {path.relative_to(ROOT)}")
-    body_lines = lines[(heading_index or 0) + 1 :]
+    ensure(isinstance(heading_index, int), f"Missing Tamil scene heading position in {path.relative_to(ROOT)}")
+    body_lines = lines[heading_index + 1 :]
     while body_lines and not body_lines[0].strip():
         body_lines.pop(0)
     while body_lines and not body_lines[-1].strip():
