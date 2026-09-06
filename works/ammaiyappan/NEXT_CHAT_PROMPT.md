@@ -13,7 +13,7 @@ Fetch live `main` first and preserve newer durable work. Never reset, repeat, or
 
 Last confirmed live checkpoint immediately before this prompt refresh:
 
-`44c9998a40441794926d7ecd50bc8fd9a3a97f0d` — **`Advance status audit through Ammayappan English scene 25`**
+`79224cc97ba7ec8948cba774d457abca2781b971` — **`Reconcile Ammayappan registry through English scene 30`**
 
 If `main` has advanced, the newer state controls.
 
@@ -85,27 +85,31 @@ Authoritative translation files now include:
 - `translations/BATCH_011_015_REVIEW.md`
 - `translations/BATCH_016_020_REVIEW.md`
 - `translations/BATCH_021_025_REVIEW.md`
-- `translations/records/scene-001.json` through `scene-025.json`
+- `translations/BATCH_026_030_REVIEW.md`
+- `translations/records/scene-001.json` through `scene-030.json`
 
 Current verified English checkpoint:
 
-- scenes verified: **25/63**;
-- verified units: **608**;
-- dialogue units: **517** = **507 explicit dialogue records + 10 source-role supplements**;
-- stage/action units: **89**;
+- scenes verified: **30/63**;
+- verified units: **738**;
+- dialogue units: **627** = **614 explicit dialogue records + 13 source-role supplements**;
+- stage/action units: **109**;
 - standalone song-reference units: **2**;
-- cross-page units: **11**;
-- source-only song/performance occurrence links encountered through scene 25: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
+- cross-page units: **16**;
+- source-only song/performance occurrence links encountered through scene 30: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-Batch 21–25 specifically establishes:
+Batch 26–30 specifically establishes:
 
-- scene 21: `ammaiyappan-s021-d022` and `ammaiyappan-s021-d029` stay whole across their page boundaries; frozen `மாகமே`, `காகரத்த`, `கம்பிய` are not silently repaired;
-- scene 22: `ammaiyappan-s022-d026` stays whole across PDF 49→50; political rhetoric, `வால்` / `வாள்` wordplay, embedded address cues and source `ஆழ்வார்` are preserved without importing external interpretation;
-- scene 23: `அமிர்த யோகம்` / `ராகு காலம்` remains a source contrast; `(தனக்குள்)` stays inside its immutable dialogue unit;
-- scene 24: `ammaiyappan-s024-d001` stays whole across PDF 52→53; exact source-label variants remain provenance; frozen `மிலக்கிறீர்` and `திலங்கர்` are not changed in source evidence;
-- scene 25: exact abbreviated labels `வேதா` / `சும` remain source metadata;
-- the closed song/performance inventory has **no retained occurrence in scenes 21–25**.
+- the old scene-25 prompt incorrectly stated that scenes 26–30 had no source-role supplements; live `dialogues/source-role-resolved-records.json` is authoritative and contains `ammaiyappan-s027-r001`, `ammaiyappan-s027-r002` and `ammaiyappan-s030-r001`;
+- all three remain `source-context-attributed` provenance and are not promoted into printed colon-labelled records;
+- scene 26: `ammaiyappan-s026-d010` stays whole across PDF 55→56; political metaphor and frozen source irregularity are preserved without upstream repair;
+- scene 27: `ammaiyappan-s027-d017` stays whole across PDF 57→58; `ammaiyappan-s027-d022` remains one Velazhagan-labelled immutable record despite its embedded slap cue/additional printed tokens; both context-attributed supplements remain distinct derivative provenance;
+- scene 28: the Muthayi–Sumathi money accusation preserves exact label variants and source register;
+- scene 29: `ammaiyappan-s029-d022` and `ammaiyappan-s029-d035` stay whole across page boundaries; source-owned embedded actions remain in their records; ritual/register terms and frozen comic irregularity are not normalized upstream;
+- scene 30: `ammaiyappan-s030-d007` stays one cross-page dialogue record and contains Muthan's self-described Purananuru poem; the English uses source-bounded semantic-poetic translation but does not create duplicate literary-verse ownership or import external Purananuru text/attribution;
+- scene 30: `ammaiyappan-s030-r001` preserves the final unlabelled Velazhagan threat as source-context-attributed provenance;
+- the closed song/performance inventory has **no retained occurrence in scenes 26–30**.
 
 Earlier safeguards remain active: source semicolon provenance in scenes 3 and 5; scene-7 unnamed performance cue only; scene-10 Kambar fragment linked inside its immutable dialogue record; scene-11 context-attributed supplements; scene-15 cross-page `குரல்` record; scene-17 context-attributed supplements; scene-19 source-only singing cue.
 
@@ -136,7 +140,7 @@ Before further changes, read the current versions of:
 21. `works/ammaiyappan/translations/schema.json`
 22. `works/ammaiyappan/translations/PILOT_REVIEW.md`
 23. all completed `works/ammaiyappan/translations/BATCH_*_REVIEW.md` files
-24. verified translation records already completed through scene 25.
+24. verified translation records already completed through scene 30.
 
 Also inspect any newer Ammaiyappan audit/status file added after this prompt.
 
@@ -168,10 +172,10 @@ Unless live `main` contains newer explicit source-backed evidence, do not redo:
 - `முத்` / `தன` identity audits;
 - character/entity reconciliation;
 - song/performance source-authorship gate;
-- already verified English scenes 1–25.
+- already verified English scenes 1–30.
 
 If English work exposes a genuine source defect, isolate it as a post-closure correction and repair only the smallest affected derivative chain with dependent QA.
 
 ## EXACT NEXT ACTIVITY
 
-> **Fetch live `main`; confirm the English checkpoint is 25/63 scenes and 608 verified units; then translate and source-review archival scenes 26–30 from the frozen verified derivatives. The closed source-role layer has no supplements in scenes 26–30 and the closed song/performance inventory has no retained occurrence in this range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not modify frozen Tamil/dialogue/character/song evidence. After the batch synchronize `translations/index.json`, translation QA, work-local status, `data/works.json`, root/master status mirrors, this prompt, and report the new live HEAD.**
+> **Fetch live `main`; confirm the English checkpoint is 30/63 scenes and 738 verified units; then translate and source-review archival scenes 31–35 from the frozen verified derivatives. The closed source-role layer contains one supplement in this range — `ammaiyappan-s035-r001`; the closed song/performance inventory has no retained occurrence in scenes 31–35. Preserve exact Tamil speaker labels, source-role origin and PDF/printed-page provenance, keep cross-page source units whole, and do not modify frozen Tamil/dialogue/character/song evidence. After the batch synchronize `translations/index.json`, translation QA, work-local status, `data/works.json`, root/master status mirrors, this prompt, and report the new live HEAD.**
