@@ -1,0 +1,91 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete",
+  "unit_count": 6,
+  "units": [
+    {
+      "source_block_id": "ammaiyappan-s001-u001",
+      "archive_scene_id": "ammaiyappan-s001",
+      "source_scene_file": "scene-001.md",
+      "page_provenance": [
+        {
+          "pdf_page": 5,
+          "printed_page": 3
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "text": "ஒரு கோச் வந்து நிற்கிறது. பலதேவர், ராணி, எல்லோரும் இறங்கி உள்ளே செல்கின்றனர். கோச்சை ஓட்டிவந்த முத்தனும் இறங்குகிறான். அவன் குதிரையை எடுக்கிறான். அதிலிருந்து படம் ஒன்று விழுகிறது. சுகதேவ் கண்டு விடுகிறான்.",
+      "basis": "source prose describes coach arrival and character actions; no speech turn"
+    },
+    {
+      "source_block_id": "ammaiyappan-s005-u001",
+      "archive_scene_id": "ammaiyappan-s005",
+      "source_scene_file": "scene-005.md",
+      "page_provenance": [
+        {
+          "pdf_page": 13,
+          "printed_page": 11
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "text": "குதிரை கொள் தின்று கொண்டிருக்கிறது. ஒரு பையன் மெள்ள மெள்ள திருட்டுவிழி விழித்துக் கொண்டு அந்தப் பக்கம் வருகிறான்...பிறகு கொள்ளுப்பையில் கையை விட்டு, கொள்ளை எடுத்து அவனும் சாப்பிடுகிறான்...அப்போது திருசங்கு அங்கு வருகிறான்...பையனின் தலையில் ஒரு அடிவிழுகிறது...",
+      "basis": "action portion of mixed source block before the semicolon-labelled speech"
+    },
+    {
+      "source_block_id": "ammaiyappan-s011-u003",
+      "archive_scene_id": "ammaiyappan-s011",
+      "source_scene_file": "scene-011.md",
+      "page_provenance": [
+        {
+          "pdf_page": 27,
+          "printed_page": 25
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "text": "சுகதேவின் தொப்பி மேலே சென்று விழுகிறது.\nமுத்தனின் அடியால் கீழே விழுகிறான் சுகதேவ்.\nபின் எழுந்து திரிசங்கு வைத்திருக்கும் கைத்\nதடியை வீரத்தோடு வாங்கி முத்தனைத் தாக்கு\nவதுபோல் சென்று மரத்தில் தொத்தி இருந்த\nதன் குல்லாவை எடுத்துக் கொண்டு முத்த\nனிடம் 'ஏய் முத்தா' ஜாக்கிரதை; ஜாக்கிரதடா\nஎன்று தண்ணீரில் வீழ்ந்து விடுகிறான்.",
+      "basis": "source prose narrates the fight and embeds quoted words inside narration rather than as a standalone speaker-labelled turn"
+    },
+    {
+      "source_block_id": "ammaiyappan-s014-u001",
+      "archive_scene_id": "ammaiyappan-s014",
+      "source_scene_file": "scene-014.md",
+      "page_provenance": [
+        {
+          "pdf_page": 29,
+          "printed_page": 27
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "text": "முத்தன், வாளை சரிபார்த்துக் கொண்டிருக்\nகிறான். அங்கே பூங்காவனம் வருகிறாள்....",
+      "basis": "source prose describes முத்தன் checking the sword and பூங்காவனம் arriving"
+    },
+    {
+      "source_block_id": "ammaiyappan-s018-u001",
+      "archive_scene_id": "ammaiyappan-s018",
+      "source_scene_file": "scene-018.md",
+      "page_provenance": [
+        {
+          "pdf_page": 38,
+          "printed_page": 36
+        }
+      ],
+      "classification": "non_dialogue_stage_direction_continuation",
+      "text": "திருக்கிறார். அவரைக் கண்ட மாய்க்கை நாதர்\nதிடுக்கிட்டு]",
+      "basis": "this is the second-page continuation of the square-bracket stage direction beginning on PDF 37 and ending with “]” on PDF 38"
+    },
+    {
+      "source_block_id": "ammaiyappan-s041-u001",
+      "archive_scene_id": "ammaiyappan-s041",
+      "source_scene_file": "scene-041.md",
+      "page_provenance": [
+        {
+          "pdf_page": 86,
+          "printed_page": 84
+        }
+      ],
+      "classification": "non_dialogue_stage_direction_continuation",
+      "text": "மழை பொழிகிறது. குழந்தையுடன் ஓடி வருகிறாள்!...ஆடிக்கொண்டிருந்த மரம் ஒன்று முறிகிறது. முறிந்த மரத்தடியில் முத்தாயி சிக்கி விடுகிறாள். குழந்தை தனியாக பிரிந்து விடுகிறது]",
+      "basis": "this is the PDF 86 continuation of the square-bracket storm/action direction begun on PDF 85"
+    }
+  ]
+}

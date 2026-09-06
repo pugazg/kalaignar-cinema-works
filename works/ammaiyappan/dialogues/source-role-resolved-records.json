@@ -1,0 +1,287 @@
+[
+  {
+    "id": "ammaiyappan-s005-r001",
+    "archive_scene_id": "ammaiyappan-s005",
+    "archive_scene_ordinal": 5,
+    "source_scene_number": null,
+    "source_scene_file": "scene-005.md",
+    "source_block_id": "ammaiyappan-s005-u001",
+    "speaker_label": "திரு",
+    "speaker_label_origin": "source-explicit-noncolon-delimiter",
+    "source_delimiter": ";",
+    "text": "திருட்டுக் கழுதை, யாருடா நீ! என்னடா முழிக்கிறே—துப்புகிறே...ம...துப்பு...இனிமேல் வருவியா இங்கே ஆங...",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 11
+      }
+    ],
+    "attribution_basis": "block begins with source action prose, then exact source form “திரு; …”; the same scene later prints “திரு : …”; preserve semicolon and do not normalize it"
+  },
+  {
+    "id": "ammaiyappan-s006-r001",
+    "archive_scene_id": "ammaiyappan-s006",
+    "archive_scene_ordinal": 6,
+    "source_scene_number": null,
+    "source_scene_file": "scene-006.md",
+    "source_block_id": "ammaiyappan-s006-u001",
+    "speaker_label": "சுக",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "ம்....இவருகிட்டயா நடக்கும்.",
+    "page_provenance": [
+      {
+        "pdf_page": 15,
+        "printed_page": 13
+      }
+    ],
+    "attribution_basis": "preceding explicit சுக turn continues around the parenthetical sword-fight cue; no intervening speaker is introduced"
+  },
+  {
+    "id": "ammaiyappan-s006-r002",
+    "archive_scene_id": "ammaiyappan-s006",
+    "archive_scene_ordinal": 6,
+    "source_scene_number": null,
+    "source_scene_file": "scene-006.md",
+    "source_block_id": "ammaiyappan-s006-u002",
+    "speaker_label": "சுக",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "ஏப்...இரு...இரு எங்காவது படாத இடத்தில் பட்டு உயிர் போய்விடப் போகிறது...கொண்டா அதை...",
+    "page_provenance": [
+      {
+        "pdf_page": 15,
+        "printed_page": 13
+      }
+    ],
+    "attribution_basis": "continues the same sword-practice exchange after “(மீண்டும் சண்டை)”; no intervening speaker is introduced"
+  },
+  {
+    "id": "ammaiyappan-s006-r003",
+    "archive_scene_id": "ammaiyappan-s006",
+    "archive_scene_ordinal": 6,
+    "source_scene_number": null,
+    "source_scene_file": "scene-006.md",
+    "source_block_id": "ammaiyappan-s006-u003",
+    "speaker_label": "சுக",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "இந்தா...இதைப்பிடி...இப்போது பார்ப்போம் யார் ஜெயிப்பது என்று...",
+    "page_provenance": [
+      {
+        "pdf_page": 15,
+        "printed_page": 13
+      }
+    ],
+    "attribution_basis": "immediately follows explicit “சுக : டேய்...நீ போ,” and the cue “(முத்தனிடம்)”; the cue identifies the addressee, not a new speaker"
+  },
+  {
+    "id": "ammaiyappan-s008-r001",
+    "archive_scene_id": "ammaiyappan-s008",
+    "archive_scene_ordinal": 8,
+    "source_scene_number": null,
+    "source_scene_file": "scene-008.md",
+    "source_block_id": "ammaiyappan-s008-u001",
+    "speaker_label": "திரி",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "நீங்க வாங்க தம்பி!...வெட்கப் படாதேம்மா...யாருமில்லை...இளவரசர் சுகதேவ் இவர்தான்.",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 17
+      }
+    ],
+    "attribution_basis": "preceding explicit திரி turn is interrupted only by the source cue announcing the goat and சுகதேவ் arrival; the unlabelled line continues his invitation"
+  },
+  {
+    "id": "ammaiyappan-s011-r001",
+    "archive_scene_id": "ammaiyappan-s011",
+    "archive_scene_ordinal": 11,
+    "source_scene_number": null,
+    "source_scene_file": "scene-011.md",
+    "source_block_id": "ammaiyappan-s011-u001",
+    "speaker_label": "முத்தன்",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "என்ன முத்தாயி சிரிக்கிறாய்?",
+    "page_provenance": [
+      {
+        "pdf_page": 24,
+        "printed_page": 22
+      }
+    ],
+    "attribution_basis": "preceding explicit முத்தன் turn is followed by “[சிரிக்கிறாள்]”; the unlabelled question responds directly to that laugh"
+  },
+  {
+    "id": "ammaiyappan-s011-r002",
+    "archive_scene_id": "ammaiyappan-s011",
+    "archive_scene_ordinal": 11,
+    "source_scene_number": null,
+    "source_scene_file": "scene-011.md",
+    "source_block_id": "ammaiyappan-s011-u002",
+    "speaker_label": "திரிசங்கு",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "கடவுளே! என் பெண்ணின் மானத்தைக் காப்பாற்\nறினாய்...உனக்கு கோடி நமஸ்காரம்...இளவரசே! பார்த்தீர்\nகளா இவன் அக்கிரமத்தை...",
+    "page_provenance": [
+      {
+        "pdf_page": 26,
+        "printed_page": 24
+      }
+    ],
+    "attribution_basis": "preceding explicit திரிசங்கு turn sends முத்தாயி away; after “[முத்தாயி போகிறாள் கலங்கியபடி]” the prayer/address continues from him"
+  },
+  {
+    "id": "ammaiyappan-s017-r001",
+    "archive_scene_id": "ammaiyappan-s017",
+    "archive_scene_ordinal": 17,
+    "source_scene_number": null,
+    "source_scene_file": "scene-017.md",
+    "source_block_id": "ammaiyappan-s017-u001",
+    "speaker_label": "முத்தன்",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "சிரித்துப் பயனில்லை நண்பர்களே—சிந்திக்க வேண்டும்,\nசிலந்திக்கூடாக மாறிவிட்ட நம் பழுதாரை சிங்காரப் பூக்\nகாடாக மாற்ற வேண்டும்!...",
+    "page_provenance": [
+      {
+        "pdf_page": 35,
+        "printed_page": 33
+      }
+    ],
+    "attribution_basis": "preceding explicit முத்தன் political speech is interrupted only by “[நண்பர்கள் சிரிக்கிறார்கள்...]”; the next lines directly address those friends"
+  },
+  {
+    "id": "ammaiyappan-s017-r002",
+    "archive_scene_id": "ammaiyappan-s017",
+    "archive_scene_ordinal": 17,
+    "source_scene_number": null,
+    "source_scene_file": "scene-017.md",
+    "source_block_id": "ammaiyappan-s017-u002",
+    "speaker_label": "வேதாளம்",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "ஏ....முத்தா! முதல்ல என் வாடகையைக் கொடு....",
+    "page_provenance": [
+      {
+        "pdf_page": 35,
+        "printed_page": 33
+      }
+    ],
+    "attribution_basis": "preceding explicit வேதாளம் turn sends the others away; after “[போகிறார்கள்]” he immediately addresses முத்தன்"
+  },
+  {
+    "id": "ammaiyappan-s027-r001",
+    "archive_scene_id": "ammaiyappan-s027",
+    "archive_scene_ordinal": 27,
+    "source_scene_number": null,
+    "source_scene_file": "scene-027.md",
+    "source_block_id": "ammaiyappan-s027-u001",
+    "speaker_label": "முத்தன்",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "சிரிப்புகள்!...சிரிப்புகள்!...நன்றாகச் சிரிப்புகள்!...உரக்க உரக்கச் சிரிப்புகள்!...\n\nசித்திரச் சோலையிலே சிலந்திவலை பின்னிவிட்ட வேலழகன் கும்பலே...வீணர்களின் கூட்டமே...நன்றாகச் சிரிப்புகள்!...ஹா...ஹா...",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 56
+      }
+    ],
+    "attribution_basis": "preceding explicit முத்தன் denunciation is followed by “[சிரிக்கிறார்கள்]”; the unlabelled lines sarcastically answer that laughter and continue his address"
+  },
+  {
+    "id": "ammaiyappan-s027-r002",
+    "archive_scene_id": "ammaiyappan-s027",
+    "archive_scene_ordinal": 27,
+    "source_scene_number": null,
+    "source_scene_file": "scene-027.md",
+    "source_block_id": "ammaiyappan-s027-u002",
+    "speaker_label": "திரிசங்கு",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "மானங்கெட்ட பெண்ணே!",
+    "page_provenance": [
+      {
+        "pdf_page": 59,
+        "printed_page": 57
+      }
+    ],
+    "attribution_basis": "immediately preceding source cue is “[திரிசங்கு வருகிறான்.]”; the following insult is addressed to his daughter before her labelled response"
+  },
+  {
+    "id": "ammaiyappan-s030-r001",
+    "archive_scene_id": "ammaiyappan-s030",
+    "archive_scene_ordinal": 30,
+    "source_scene_number": null,
+    "source_scene_file": "scene-030.md",
+    "source_block_id": "ammaiyappan-s030-u001",
+    "speaker_label": "வேல",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "பழுதார் வாழும் பூச்சிகளே! புழுக்களே!...புலியை இடறுகிறீர்கள்—ஜாக்கிரதை;...'இம்' என்றால் சிறைவாசம்; 'ஏன்' என்றால் வனவாசம்!",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 64
+      }
+    ],
+    "attribution_basis": "preceding explicit வேல threat continues after “[இழுத்து உள்ளே தள்ளுகிறான்.]”; the stage-direction subject remains வேலழகன் and no new speaker appears"
+  },
+  {
+    "id": "ammaiyappan-s035-r001",
+    "archive_scene_id": "ammaiyappan-s035",
+    "archive_scene_ordinal": 35,
+    "source_scene_number": null,
+    "source_scene_file": "scene-035.md",
+    "source_block_id": "ammaiyappan-s035-u001",
+    "speaker_label": "திரிசங்கு",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "மிகவும் அழகானவர்—உனக்குப் பிடித்தமானவர் என்று கூறுகிறாய்......",
+    "page_provenance": [
+      {
+        "pdf_page": 71,
+        "printed_page": 69
+      }
+    ],
+    "attribution_basis": "source cue explicitly says திரிசங்கு sees சுகதேவ் arriving; the next unlabelled line is his face-saving remark, not a continuation of the preceding முத்தாயி label"
+  },
+  {
+    "id": "ammaiyappan-s050-r001",
+    "archive_scene_id": "ammaiyappan-s050",
+    "archive_scene_ordinal": 50,
+    "source_scene_number": null,
+    "source_scene_file": "scene-050.md",
+    "source_block_id": "ammaiyappan-s050-u001",
+    "speaker_label": "சுகதேவ்",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "ஆகா! என்காதலியை இந்தக் காதகனல்லவா அழைத்துப் போகிறான்? நிராயுதபாணியாகிய நான் எப்படி நேரடி நடவடிக்கை எடுக்க முடியும்?...ம்...பார்க்கலாம்...",
+    "page_provenance": [
+      {
+        "pdf_page": 89,
+        "printed_page": 87
+      }
+    ],
+    "attribution_basis": "immediately preceding source cue says arriving சுகதேவ் sees முத்தாயி leave with வேதாளம்; the following unlabelled monologue is his reaction"
+  },
+  {
+    "id": "ammaiyappan-s059-r001",
+    "archive_scene_id": "ammaiyappan-s059",
+    "archive_scene_ordinal": 59,
+    "source_scene_number": null,
+    "source_scene_file": "scene-059.md",
+    "source_block_id": "ammaiyappan-s059-u001",
+    "speaker_label": "முத்தன்",
+    "speaker_label_origin": "source-context-attributed",
+    "source_delimiter": null,
+    "text": "அந்த பாம்புகள் வாழலாம், பைங்கொடியே! நீ வாழக் கூடாதா?... அழுதாரும் அழகுத் திருநகரை பழுதாராக்கி பொன்னையும், பொருளையும் சுரண்டியது போதாதென்று, மண்ணையும் அடிமை கொண்ட மகோன்மத்தனும் வேங்கை நாட்டான் வாழ்கிறான், எடுபிடிகளோடு, ஏராளமானச் செல்வாக்கோடும்! கப்பம் கட்டுவோர்—காவடி தூக்குவோர்—கட்டியம் கூறுவோர்—கால் கழுவிப் பிழைப்போர்—களிப்போடுதான் வாழ்கிறார்கள் கண்ணழகி, இந்தக் காசினியில்!... நிலாப் பதுமையே! நீ மட்டும் வாழக் கூடாது என்று யார் சொன்னது?",
+    "page_provenance": [
+      {
+        "pdf_page": 105,
+        "printed_page": 103
+      }
+    ],
+    "attribution_basis": "verified derivative explicitly records that the PDF 104 speech continues on PDF 105; no new speaker intervenes"
+  }
+]

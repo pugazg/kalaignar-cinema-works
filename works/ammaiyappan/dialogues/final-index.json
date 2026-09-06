@@ -1,0 +1,19 @@
+{
+  "work_id": "ammaiyappan",
+  "status": "complete-source-role-resolved",
+  "explicit_colon_dialogue_records": 1009,
+  "explicit_exact_speaker_labels": 62,
+  "source_role_resolved_dialogue_records": 15,
+  "total_dialogue_units_for_downstream_indexing": 1024,
+  "non_dialogue_resolved_source_units": 6,
+  "raw_unlabelled_blocks_reviewed": 20,
+  "unresolved_source_role_blocks": 0,
+  "source_scene_numbers_invented": 0,
+  "speaker_alias_normalizations": 0,
+  "source_punctuation_normalizations": 0,
+  "explicit_layer_index": "index.json",
+  "source_role_supplement": "source-role-resolved-records.json",
+  "source_role_review": "../notes/unlabelled-source-role-review.json",
+  "non_dialogue_exclusions": "../notes/non-dialogue-source-role-exclusions.json",
+  "character_entity_gate": "unlocked"
+}

@@ -103,3 +103,25 @@ Scene layer:
 ## Exact next activity
 
 > **Build the dialogue index from the 63 verified scene-text derivatives. Preserve the exact printed speaker label for every dialogue turn, attach archive scene ID and source PDF provenance, do not normalize aliases/character identities in this phase, and run dialogue coverage/ownership QA before opening character indexing.**
+
+
+## Dialogue-index closure — FINAL QA PASS
+
+- explicit colon-labelled records: **1009**;
+- exact source speaker-label strings: **62**;
+- reviewed cross-page continuation candidates: **20/20 PASS**;
+- source-role residual review: **20/20 complete**;
+- source-role-resolved dialogue supplements: **15**;
+- non-dialogue resolved source units: **6**;
+- downstream dialogue units: **1024**;
+- unresolved source-role blocks: **0**;
+- source scene numbers invented: **0**;
+- alias normalization: **0**;
+- source punctuation normalization: **0**;
+- exceptional source delimiter `திரு; ...`: preserved exactly;
+- final QA: `notes/dialogue-final-qa.json` — **PASS**;
+- character/entity index gate: **UNLOCKED**.
+
+### Exact next activity
+
+> **Build the character/entity index from `dialogues/final-index.json`, the 1009 explicit dialogue records, the 15 source-role-resolved dialogue supplements, and the 63 verified scene derivatives. Preserve every exact speaker label as provenance; perform alias/entity reconciliation only in the new character/entity layer, never by rewriting the dialogue records.**

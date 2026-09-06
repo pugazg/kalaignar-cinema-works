@@ -1,0 +1,15 @@
+{
+  "work_id": "ammaiyappan",
+  "phase": "dialogue-final-qa",
+  "status": "pass",
+  "explicit_colon_records": 1009,
+  "source_role_resolved_dialogue_records": 15,
+  "total_dialogue_units": 1024,
+  "source_role_blocks_reviewed": "20/20",
+  "unresolved_source_role_blocks": 0,
+  "non_dialogue_source_units": 6,
+  "source_scene_numbers_invented": 0,
+  "speaker_alias_normalizations": 0,
+  "source_punctuation_normalizations": 0,
+  "character_entity_gate": "unlocked"
+}

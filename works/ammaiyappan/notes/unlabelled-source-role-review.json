@@ -1,0 +1,339 @@
+{
+  "work_id": "ammaiyappan",
+  "phase": "unlabelled-source-role-review",
+  "status": "complete",
+  "authority": "63 complete-verified scene derivatives plus the raw 20-block unlabelled audit",
+  "input_blocks": 20,
+  "input_source_lines": 35,
+  "resolved_blocks": 20,
+  "unresolved_blocks": 0,
+  "classification_counts": {
+    "non_dialogue_action_narrative": 3,
+    "mixed_action_plus_semicolon_label_exception": 1,
+    "contextual_dialogue_continuation": 11,
+    "non_dialogue_stage_direction_continuation": 2,
+    "contextual_dialogue_stage_cue_attribution": 3
+  },
+  "review": [
+    {
+      "block_id": "ammaiyappan-s001-u001",
+      "archive_scene_id": "ammaiyappan-s001",
+      "source_scene_file": "scene-001.md",
+      "page_provenance": [
+        {
+          "pdf_page": 5,
+          "printed_page": 3
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "speaker_label": null,
+      "source_delimiter": null,
+      "basis": "source prose describes coach arrival and character actions; no speech turn",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s005-u001",
+      "archive_scene_id": "ammaiyappan-s005",
+      "source_scene_file": "scene-005.md",
+      "page_provenance": [
+        {
+          "pdf_page": 13,
+          "printed_page": 11
+        }
+      ],
+      "classification": "mixed_action_plus_semicolon_label_exception",
+      "speaker_label": "திரு",
+      "source_delimiter": ";",
+      "basis": "block begins with source action prose, then exact source form “திரு; …”; the same scene later prints “திரு : …”; preserve semicolon and do not normalize it",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s006-u001",
+      "archive_scene_id": "ammaiyappan-s006",
+      "source_scene_file": "scene-006.md",
+      "page_provenance": [
+        {
+          "pdf_page": 15,
+          "printed_page": 13
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "சுக",
+      "source_delimiter": null,
+      "basis": "preceding explicit சுக turn continues around the parenthetical sword-fight cue; no intervening speaker is introduced",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s006-u002",
+      "archive_scene_id": "ammaiyappan-s006",
+      "source_scene_file": "scene-006.md",
+      "page_provenance": [
+        {
+          "pdf_page": 15,
+          "printed_page": 13
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "சுக",
+      "source_delimiter": null,
+      "basis": "continues the same sword-practice exchange after “(மீண்டும் சண்டை)”; no intervening speaker is introduced",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s006-u003",
+      "archive_scene_id": "ammaiyappan-s006",
+      "source_scene_file": "scene-006.md",
+      "page_provenance": [
+        {
+          "pdf_page": 15,
+          "printed_page": 13
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "சுக",
+      "source_delimiter": null,
+      "basis": "immediately follows explicit “சுக : டேய்...நீ போ,” and the cue “(முத்தனிடம்)”; the cue identifies the addressee, not a new speaker",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s008-u001",
+      "archive_scene_id": "ammaiyappan-s008",
+      "source_scene_file": "scene-008.md",
+      "page_provenance": [
+        {
+          "pdf_page": 19,
+          "printed_page": 17
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "திரி",
+      "source_delimiter": null,
+      "basis": "preceding explicit திரி turn is interrupted only by the source cue announcing the goat and சுகதேவ் arrival; the unlabelled line continues his invitation",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s011-u001",
+      "archive_scene_id": "ammaiyappan-s011",
+      "source_scene_file": "scene-011.md",
+      "page_provenance": [
+        {
+          "pdf_page": 24,
+          "printed_page": 22
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "முத்தன்",
+      "source_delimiter": null,
+      "basis": "preceding explicit முத்தன் turn is followed by “[சிரிக்கிறாள்]”; the unlabelled question responds directly to that laugh",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s011-u002",
+      "archive_scene_id": "ammaiyappan-s011",
+      "source_scene_file": "scene-011.md",
+      "page_provenance": [
+        {
+          "pdf_page": 26,
+          "printed_page": 24
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "திரிசங்கு",
+      "source_delimiter": null,
+      "basis": "preceding explicit திரிசங்கு turn sends முத்தாயி away; after “[முத்தாயி போகிறாள் கலங்கியபடி]” the prayer/address continues from him",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s011-u003",
+      "archive_scene_id": "ammaiyappan-s011",
+      "source_scene_file": "scene-011.md",
+      "page_provenance": [
+        {
+          "pdf_page": 27,
+          "printed_page": 25
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "speaker_label": null,
+      "source_delimiter": null,
+      "basis": "source prose narrates the fight and embeds quoted words inside narration rather than as a standalone speaker-labelled turn",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s014-u001",
+      "archive_scene_id": "ammaiyappan-s014",
+      "source_scene_file": "scene-014.md",
+      "page_provenance": [
+        {
+          "pdf_page": 29,
+          "printed_page": 27
+        }
+      ],
+      "classification": "non_dialogue_action_narrative",
+      "speaker_label": null,
+      "source_delimiter": null,
+      "basis": "source prose describes முத்தன் checking the sword and பூங்காவனம் arriving",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s017-u001",
+      "archive_scene_id": "ammaiyappan-s017",
+      "source_scene_file": "scene-017.md",
+      "page_provenance": [
+        {
+          "pdf_page": 35,
+          "printed_page": 33
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "முத்தன்",
+      "source_delimiter": null,
+      "basis": "preceding explicit முத்தன் political speech is interrupted only by “[நண்பர்கள் சிரிக்கிறார்கள்...]”; the next lines directly address those friends",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s017-u002",
+      "archive_scene_id": "ammaiyappan-s017",
+      "source_scene_file": "scene-017.md",
+      "page_provenance": [
+        {
+          "pdf_page": 35,
+          "printed_page": 33
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "வேதாளம்",
+      "source_delimiter": null,
+      "basis": "preceding explicit வேதாளம் turn sends the others away; after “[போகிறார்கள்]” he immediately addresses முத்தன்",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s018-u001",
+      "archive_scene_id": "ammaiyappan-s018",
+      "source_scene_file": "scene-018.md",
+      "page_provenance": [
+        {
+          "pdf_page": 38,
+          "printed_page": 36
+        }
+      ],
+      "classification": "non_dialogue_stage_direction_continuation",
+      "speaker_label": null,
+      "source_delimiter": null,
+      "basis": "this is the second-page continuation of the square-bracket stage direction beginning on PDF 37 and ending with “]” on PDF 38",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s027-u001",
+      "archive_scene_id": "ammaiyappan-s027",
+      "source_scene_file": "scene-027.md",
+      "page_provenance": [
+        {
+          "pdf_page": 58,
+          "printed_page": 56
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "முத்தன்",
+      "source_delimiter": null,
+      "basis": "preceding explicit முத்தன் denunciation is followed by “[சிரிக்கிறார்கள்]”; the unlabelled lines sarcastically answer that laughter and continue his address",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s027-u002",
+      "archive_scene_id": "ammaiyappan-s027",
+      "source_scene_file": "scene-027.md",
+      "page_provenance": [
+        {
+          "pdf_page": 59,
+          "printed_page": 57
+        }
+      ],
+      "classification": "contextual_dialogue_stage_cue_attribution",
+      "speaker_label": "திரிசங்கு",
+      "source_delimiter": null,
+      "basis": "immediately preceding source cue is “[திரிசங்கு வருகிறான்.]”; the following insult is addressed to his daughter before her labelled response",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s030-u001",
+      "archive_scene_id": "ammaiyappan-s030",
+      "source_scene_file": "scene-030.md",
+      "page_provenance": [
+        {
+          "pdf_page": 66,
+          "printed_page": 64
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "வேல",
+      "source_delimiter": null,
+      "basis": "preceding explicit வேல threat continues after “[இழுத்து உள்ளே தள்ளுகிறான்.]”; the stage-direction subject remains வேலழகன் and no new speaker appears",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s035-u001",
+      "archive_scene_id": "ammaiyappan-s035",
+      "source_scene_file": "scene-035.md",
+      "page_provenance": [
+        {
+          "pdf_page": 71,
+          "printed_page": 69
+        }
+      ],
+      "classification": "contextual_dialogue_stage_cue_attribution",
+      "speaker_label": "திரிசங்கு",
+      "source_delimiter": null,
+      "basis": "source cue explicitly says திரிசங்கு sees சுகதேவ் arriving; the next unlabelled line is his face-saving remark, not a continuation of the preceding முத்தாயி label",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s041-u001",
+      "archive_scene_id": "ammaiyappan-s041",
+      "source_scene_file": "scene-041.md",
+      "page_provenance": [
+        {
+          "pdf_page": 86,
+          "printed_page": 84
+        }
+      ],
+      "classification": "non_dialogue_stage_direction_continuation",
+      "speaker_label": null,
+      "source_delimiter": null,
+      "basis": "this is the PDF 86 continuation of the square-bracket storm/action direction begun on PDF 85",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s050-u001",
+      "archive_scene_id": "ammaiyappan-s050",
+      "source_scene_file": "scene-050.md",
+      "page_provenance": [
+        {
+          "pdf_page": 89,
+          "printed_page": 87
+        }
+      ],
+      "classification": "contextual_dialogue_stage_cue_attribution",
+      "speaker_label": "சுகதேவ்",
+      "source_delimiter": null,
+      "basis": "immediately preceding source cue says arriving சுகதேவ் sees முத்தாயி leave with வேதாளம்; the following unlabelled monologue is his reaction",
+      "status": "source-role-resolved"
+    },
+    {
+      "block_id": "ammaiyappan-s059-u001",
+      "archive_scene_id": "ammaiyappan-s059",
+      "source_scene_file": "scene-059.md",
+      "page_provenance": [
+        {
+          "pdf_page": 105,
+          "printed_page": 103
+        }
+      ],
+      "classification": "contextual_dialogue_continuation",
+      "speaker_label": "முத்தன்",
+      "source_delimiter": null,
+      "basis": "verified derivative explicitly records that the PDF 104 speech continues on PDF 105; no new speaker intervenes",
+      "status": "source-role-resolved"
+    }
+  ]
+}
