@@ -1,0 +1,38 @@
+name: Ammayappan semicolon speaker diagnostic once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-semicolon-speaker-diagnostic-once.yml"
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scan verified scene text for semicolon-delimited speaker candidates
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          root=Path('works/ammaiyappan/scenes')
+          # Short leading token + semicolon at the start of a source content line.
+          rx=re.compile(r'^\s*([^#<\[\(\*][^;\n]{0,32}?)\s*;\s*(\S.*)$')
+          rows=[]
+          for p in sorted(root.glob('scene-*.md')):
+              for n,line in enumerate(p.read_text(encoding='utf-8').splitlines(),1):
+                  m=rx.match(line)
+                  if not m: continue
+                  label=m.group(1).strip(); text=m.group(2).strip()
+                  rows.append({'scene_file':p.name,'line':n,'candidate_label':label,'text':text})
+          print(json.dumps({'candidate_count':len(rows),'candidates':rows},ensure_ascii=False,indent=2))
+          # The two already-visible source forms must be found; this is a diagnostic, not yet a disposition.
+          labels=[r['candidate_label'] for r in rows]
+          assert 'திரு' in labels, labels
+          assert 'பூங்' in labels, labels
+          PY
