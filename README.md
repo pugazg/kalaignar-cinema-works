@@ -89,13 +89,17 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 5/63 — 108/108 current units**;
-- current English dialogue coverage: **93 explicit records + 2 source-role supplements**;
-- current English stage/action units: **13**;
-- current English cross-page units: **1**;
+- English translation: **verified through scene 10/63 — 225/225 current units**;
+- current English dialogue coverage: **190 explicit records + 6 source-role supplements**;
+- current English stage/action units: **28**;
+- current English song-reference units: **1**;
+- current English cross-page units: **2**;
+- retained source-only occurrence links translated so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - reader/export: blocked pending complete English.
 
-**Next:** translate and source-review archival scenes **6–10**. Scene 7 contains the first retained source-only performance occurrence and scene 10 contains the Kambar-attributed literary quotation; no absent lyrics/verse may be reconstructed.
+Scene 7 translates only the printed cue that the Muthan–Muthayi love-song performance is ending; no title or lyric body is reconstructed. Scene 10 links the Kambar-attributed printed fragment inside its immutable Sukhadev dialogue record without duplicating source ownership.
+
+**Next:** translate and source-review archival scenes **11–15**, preserving the closed source-role supplements in scene 11 and all exact speaker/page provenance.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
@@ -149,7 +153,7 @@ Parasakthi has complete-verified canonical Tamil and source-linked English reade
 - dialogue records: **1,040**;
 - English: **1,321 verified units**;
 - reader/export: **QA PASS**;
-- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
+- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2cc0cdcc23c7f`.
 
 **Next:** no required Tirumbippaar repository-internal translation/reader/package work remains.
 
