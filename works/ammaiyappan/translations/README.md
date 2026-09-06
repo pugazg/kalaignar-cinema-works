@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 50 / 63; 1,035/1,035 current units verified**
+**Status:** **verified through archival scene 55 / 63; 1,106/1,106 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -180,19 +180,33 @@ Scenes 46–50 add **35 verified units**:
 
 Scene 47 preserves the `குறும்பு` / `கரும்பு` sound-play and frozen `என்னுடைய வரையும்` without repairing Tamil. Scene 48 retains `nishta`, keeps `(தனக்குள்)` and `(ஓடுகிறான்.)` inside their immutable dialogue records, and preserves the source's `வேதாளம் ... முருங்க மரம்` image literally. Scene 49 keeps the liberation-force rhetoric and treats frozen `வீணுக` contextually without source repair. Scene 50 links the unlabelled Sukhadev reaction exactly once through `ammaiyappan-s050-r001` as `source-context-attributed`; no printed label is manufactured. Detailed QA is in `BATCH_046_050_REVIEW.md`.
 
-## Cumulative English status through scene 50
+### Batch — scenes 51–55
 
-- verified scenes: **50/63**;
-- verified units: **1,035**;
-- dialogue units: **883** = **868 explicit dialogue records + 15 source-role supplements**;
-- stage/action units: **149**;
+Scenes 51–55 add **71 verified units**:
+
+- explicit dialogue links: **57/57**;
+- source-role supplements: **0**;
+- stage/action units: **14**;
+- song-reference / literary-verse / japa / written-text units: **0**;
+- cross-page logical units: **2** — scene 51 `ammaiyappan-en-s051-u003` and scene 52 `ammaiyappan-en-s052-u032`;
+- retained source-only song/performance occurrences encountered: **0**;
+- decorative stars translated as prose: **0**.
+
+Scene 51 keeps Sukhadev's cross-page warning whole. Scene 52 preserves source-owned coercive rhetoric without euphemism, keeps embedded actions inside their immutable dialogue records, treats the printed literary references as references only, retains uncertain `காப்பாரியிலே` by transliteration, and keeps the second cross-page record whole. Scene 53 preserves the source's bitterly sarcastic sexual-violence rhetoric, `ஊடல்` register, frozen `வெள்ளாட்டி` as `vellatti`, and the irregular final marriage phrase without upstream repair. Scene 54 keeps `நாமார்க்கும் குடியல்லோம்: நமனை அஞ்சோம்!` embedded in Vedalam's dialogue rather than creating a new literary-verse occurrence. Scene 55 renders the source's immediate execution order without adding procedure. Detailed QA is in `BATCH_051_055_REVIEW.md`.
+
+## Cumulative English status through scene 55
+
+- verified scenes: **55/63**;
+- verified units: **1,106**;
+- dialogue units: **940** = **925 explicit dialogue records + 15 source-role supplements**;
+- stage/action units: **163**;
 - standalone song-reference units: **2**;
 - japa units: **1**;
-- cross-page units: **23**;
+- cross-page units: **25**;
 - unique song/performance occurrence links: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **51–55** from the frozen verified derivatives. The closed source-role layer has **no supplement** in scenes 51–55 and the closed song/performance inventory has **no retained occurrence** in that range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
+Translate and source-review archival scenes **56–60** from the frozen verified derivatives. The closed source-role layer contains one supplement in this range — `ammaiyappan-s059-r001` — and the closed song/performance inventory contains retained occurrence `ammaiyappan-song-005` in scene 59. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, link the occurrence only to source-visible material, and do not reconstruct absent lyrics, title or authorship.
