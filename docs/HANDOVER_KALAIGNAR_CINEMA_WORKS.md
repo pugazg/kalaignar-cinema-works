@@ -132,9 +132,9 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 60/63 / 1,188 units**; next bounded batch **61–63**, then whole-work English reconciliation.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**, whole-work reconciliation PASS; reader/export preflight is next.
 
-Current active mirrors use the corrected Ammayappan 1,025-unit source authority and scene-60 English checkpoint.
+Current active mirrors use the corrected Ammayappan 1,025-unit source authority and complete English checkpoint.
 
 ---
 
@@ -158,34 +158,49 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` are exact non-colon source forms.
 
-### English through scene 60
+### English translation — complete
 
-- verified scenes: **60/63**;
-- verified units: **1,188**;
-- dialogue: **1,009** = **993 explicit + 16 source-role supplements**;
-- stage/action: **175**;
+- verified scenes: **63/63**;
+- verified units: **1,210**;
+- dialogue: **1,025** = **1,009 explicit + 16 source-role supplements**;
+- stage/action: **181**;
 - standalone song-reference: **3**;
 - japa: **1**;
+- standalone literary-verse / written-text: **0 / 0**;
 - cross-page: **28**;
-- unique occurrence links: **5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
+- unique occurrence links: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
 - frozen Tamil/dialogue/character/song files modified by English: **no**;
-- reader/export: blocked pending final scenes and whole-work English reconciliation.
+- whole-work source/linkage reconciliation: **PASS** — `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`;
+- reader/export: **not started; preflight next**.
 
-### Batch 56–60 safeguards
+### Final batch 61–63 safeguards
 
-Batch 56–60 is **82/82 verified units**: **68 explicit dialogue + 1 supplement + 12 stage/action + 1 song-reference**. New cross-page units are `ammaiyappan-en-s056-u031`, `ammaiyappan-en-s056-u037`, and `ammaiyappan-en-s058-u006`.
+Batch 61–63 is **22/22 verified units**: **16 explicit dialogue + 0 supplements + 6 stage/action**. It adds no cross-page unit and encounters no retained song/performance occurrence.
 
-- Scene 56 keeps Boopathi's recollection and Poongavanam's confession whole across their page boundaries; source-bounded painting/mythological material is not externally completed or silently repaired.
-- Scene 58 keeps Muthayi's three-page denunciation whole and preserves its palace-prestige, religious-hypocrisy and **Self-Respect** rhetoric without softening.
-- Scene 59 keeps `ammaiyappan-s059-r001` as `source-context-attributed` Muthan speech. It is not manufactured as a printed label or merged into immutable `d008`.
-- Scene 59 `ammaiyappan-s059-d014` owns the printed request for “that love song we used to sing together”; a separate `song-reference` unit owns the distinct bracketed cue that Muthayi sings through tears while Muthan walks toward the gallows. Both link `ammaiyappan-song-005`.
-- No title, lyric body or authorship is reconstructed for `ammaiyappan-song-005`, and it is not merged with an earlier unnamed song identity without stronger evidence.
-- Scene 60 preserves the golden-lotus/fragrance metaphor and renders `விடுதலை விரும்பி` as **seeker of freedom**.
+- Scene 61 remains action-only; the rescue/masked-substitute sequence creates no invented speech and does not identify the substitute before scene 62.
+- Scene 62 preserves Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the source's `speech ends; life ends` parallel without external expansion.
+- Scene 63 preserves exact `முத்` / `முத்தா` provenance, **Aththan**, the recognition shift **Princess → Amma**, **Karmaveeran**, and the movement from family reunion to Pazhuthar / motherland liberation.
+- Scene 63's closing four-line stanza remains inside immutable dialogue `ammaiyappan-s063-d012`; no synthetic literary-verse or song occurrence is created.
+- Frozen `அண்ணலின் விலங்கொடிப்ப ோம்` retains `Annal` as a source term rather than receiving an unsupported stronger gloss or silent Tamil normalization.
+- The compact martial saying is kept source-bounded and is not replaced by an external proverb text.
 - No frozen Tamil/dialogue/character/song evidence was modified.
 
-Earlier safeguards remain active, including scene 40 `ammaiyappan-song-004` as **character japa, not a soundtrack song**.
+### Final English reconciliation
 
-**Exact next activity:** translate and source-review the final archival scenes **61–63** from the frozen verified derivatives. Reconfirm live closed source-role and song/performance evidence before writing, preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not modify frozen source evidence. After scene 63, perform whole-work English reconciliation before starting reader/export work.
+`translations/FINAL_TRANSLATION_QA.md` records **PASS**:
+
+- all 63 scene records present;
+- all **1,009** immutable explicit dialogue records linked exactly once;
+- all **16** closed source-role supplements linked exactly once with original provenance;
+- all **181** separately owned stage/action spans retained source-bounded;
+- all **28** cross-page units remain whole;
+- all **5** retained source-visible occurrences represented without reconstructing absent lyrics/title/authorship;
+- structural stars translated as prose: **0**;
+- frozen source layers modified: **0**.
+
+The PASS is source/linkage reconciliation; it does not claim an executable JSON-schema validator or CI run unless separately executed and recorded.
+
+**Exact next activity:** run whole-work English reader/export preflight from the verified structured translation. Generate reader/export from the records rather than maintaining an independent manual copy; preserve archive scene IDs as navigation only, exact Tamil speaker-label provenance, all **1,025** dialogue units, all **28** cross-page units and all **5** source-visible occurrence links. Do not modify frozen source evidence.
 
 ---
 
