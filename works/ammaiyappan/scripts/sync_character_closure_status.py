@@ -24,7 +24,7 @@ def main():
     assert char_idx["unresolved_entities"] == 0
     assert char_idx["remaining_unmapped_records"] == 0
 
-    # Work README
+    # Work README.
     p = ROOT / "README.md"
     text = p.read_text(encoding="utf-8")
     text = replace_once(
@@ -44,7 +44,7 @@ def main():
     )
     p.write_text(text, encoding="utf-8")
 
-    # Work handover
+    # Work handover.
     p = ROOT / "PROJECT_HANDOVER.md"
     text = p.read_text(encoding="utf-8")
     old_gates = """- dialogue index: **READY — next phase**;
@@ -97,48 +97,97 @@ def main():
         text = text.rstrip() + closure + "\n"
     p.write_text(text, encoding="utf-8")
 
-    # Metadata: move next action and add structured derivative checkpoint.
+    # Metadata — replace the already-existing stale structured-derivative/status block.
     p = ROOT / "metadata.yaml"
     text = p.read_text(encoding="utf-8")
     text = replace_once(
         text,
         '  next_action: "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact speaker labels and scene/page provenance."',
         '  next_action: "Begin English translation/reconciliation from the frozen verified Tamil plus completed scene/dialogue/character derivatives."',
-        "metadata next action",
+        "metadata transcription next action",
     )
-    marker = "\nfidelity_audit:\n"
-    block = """
-structured_derivatives:
-  scene_index:
-    status: complete-verified
-    path: "scenes/index.json"
-    archive_scene_count: 63
-  dialogue_index:
-    status: complete-source-role-resolved
-    path: "dialogues/final-index.json"
-    explicit_colon_records: 1009
-    source_role_supplements: 15
-    downstream_dialogue_units: 1024
-    exact_source_speaker_labels: 62
-    unresolved_source_role_blocks: 0
-  character_entity_index:
-    status: complete-verified-reconciled
-    path: "characters/index.json"
-    entity_count: 26
-    verified_entities: 26
-    exact_source_labels: 62
-    record_aware_labels: 2
-    record_aware_records: 187
-    unresolved_entities: 0
-    unresolved_records: 0
-    dialogue_records_modified: false
-  next_action: "Begin English translation/reconciliation; preserve exact Tamil/source provenance and keep canonical evidence frozen."
-
+    old_structured = """structured_derivatives:
+  scene_index: complete-verified-63-of-63
+  scene_text_derivatives: complete-verified-63-of-63
+  scene_index_path: "scenes/index.json"
+  scene_boundary_ownership_qa_path: "notes/scene-boundary-ownership-qa.md"
+  scene_derivative_commit: "6a764137616879d08f5a1ff14431caafa87b11eb"
+  dialogue_index: ready
+  character_index: blocked-pending-dialogue-index
+  song_authorship_mapping: not-started
+  english_translation: blocked
+  reader_export: blocked
+  reading_room_integration: blocked
 """
-    if "structured_derivatives:" not in text:
-        if marker not in text:
-            raise AssertionError("metadata insertion marker missing")
-        text = text.replace(marker, "\n" + block + "fidelity_audit:\n", 1)
+    new_structured = """structured_derivatives:
+  scene_index: complete-verified-63-of-63
+  scene_text_derivatives: complete-verified-63-of-63
+  scene_index_path: "scenes/index.json"
+  scene_boundary_ownership_qa_path: "notes/scene-boundary-ownership-qa.md"
+  scene_derivative_commit: "6a764137616879d08f5a1ff14431caafa87b11eb"
+  dialogue_index: complete-source-role-resolved-1024-of-1024
+  dialogue_index_path: "dialogues/final-index.json"
+  explicit_colon_records: 1009
+  source_role_supplements: 15
+  exact_source_speaker_labels: 62
+  character_entity_index: complete-verified-reconciled
+  character_entity_index_path: "characters/index.json"
+  entity_count: 26
+  verified_entities: 26
+  record_aware_labels: 2
+  record_aware_records: 187
+  unresolved_entities: 0
+  unresolved_records: 0
+  dialogue_records_modified_by_character_layer: false
+  song_authorship_mapping: not-started
+  english_translation: ready-next-phase
+  reader_export: blocked-pending-english
+  reading_room_integration: blocked-pending-english
+"""
+    text = replace_once(text, old_structured, new_structured, "metadata structured derivatives")
+    old_status = """status:
+  duplicate_work_check: complete
+  source_intake: complete
+  whole_scan_inspection: complete
+  structural_mapping: verified
+  canonical_tamil_first_pass: draft-complete-105-of-105
+  full_text_assembly: complete-pass
+  boundary_qa: pass
+  visual_fidelity_audit: complete-verified-105-of-105
+  historical_glyph_audit: complete-verified-105-of-105
+  final_tamil_verification: complete-verified-105-of-105-dual-gate
+  scene_derivatives: complete-verified-63-of-63
+  dialogue_index: blocked-pending-scene-text-derivatives
+  character_index: blocked-pending-dialogue-index
+  song_authorship_gate: not-started
+  english_translation: blocked
+  reader_export: blocked
+  reading_room_integration: blocked
+
+next_action: "Begin dialogue indexing from the 63/63 verified scene-text derivatives; preserve exact source speaker labels, archive scene IDs and page provenance. Do not normalize character names yet."
+"""
+    new_status = """status:
+  duplicate_work_check: complete
+  source_intake: complete
+  whole_scan_inspection: complete
+  structural_mapping: verified
+  canonical_tamil_first_pass: draft-complete-105-of-105
+  full_text_assembly: complete-pass
+  boundary_qa: pass
+  visual_fidelity_audit: complete-verified-105-of-105
+  historical_glyph_audit: complete-verified-105-of-105
+  final_tamil_verification: complete-verified-105-of-105-dual-gate
+  scene_derivatives: complete-verified-63-of-63
+  dialogue_index: complete-source-role-resolved-1024-of-1024
+  character_entity_index: complete-verified-reconciled-26-entities-62-labels-1024-units
+  song_authorship_gate: not-started
+  english_translation: ready-next-phase
+  reader_export: blocked-pending-english
+  reading_room_integration: blocked-pending-english
+
+next_action: "Begin English translation/reconciliation from the frozen verified Tamil plus completed scene/dialogue/character evidence layers; preserve exact source provenance."
+"""
+    text = replace_once(text, old_status, new_status, "metadata status and next action")
     p.write_text(text, encoding="utf-8")
 
     # Dialogue final index: close character gate, no dialogue records touched.
