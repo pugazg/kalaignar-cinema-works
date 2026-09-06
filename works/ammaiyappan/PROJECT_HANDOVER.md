@@ -89,10 +89,6 @@ Printed identity: `அம்மையப்பன்`; `கதை வசனம�
 - PDF 56 / p.54: **`பழுதார் வீதி`**;
 - PDF 107 / p.105: **`தூக்குமேடை`** — direct user verdict; reject `தாக்குமேடை`.
 
-## Historical first-pass checkpoint
-
-The original first-pass campaign covered all **105/105** canonical pages and retained bounded provenance files. Earlier first-pass uncertainty counts and draft labels in historical audit prose describe that campaign and do not override the final Tamil authority below.
-
 ## Canonical Tamil and scene-text derivatives — CLOSED
 
 Canonical Tamil:
@@ -121,7 +117,7 @@ Scene layer:
 - dialogue index: **complete-source-role-resolved — 1,025/1,025 downstream units**;
 - character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,025 units**;
 - song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
-- English translation: **verified through scene 15/63 — 355/355 current units**;
+- English translation: **verified through scene 20/63 — 477/477 current units**;
 - reader/export: **blocked pending complete English**.
 
 ## Dialogue-index closure — FINAL QA PASS, post-correction authority
@@ -155,11 +151,7 @@ The scene-3 semicolon correction increased the earlier closure checkpoint from 1
 - record-aware units: **187**;
 - `முத்`: **80 → முத்தன் / 97 → முத்தாயி**;
 - `தன`: **1 → தனபதி / 9 → தனவணிகர்**;
-- dialogue records modified by character reconciliation: **no**;
-- character index: `characters/index.json`;
-- complete entities: `characters/entities.json`;
-- exact-label disposition: `characters/labels-inventory.json`;
-- record-aware assignments: `characters/record-aware-dispositions.json`.
+- dialogue records modified by character reconciliation: **no**.
 
 Use this layer only as an identity aid in English. Exact Tamil source labels remain the provenance authority.
 
@@ -173,48 +165,47 @@ Use this layer only as an identity aid in English. Exact Tamil source labels rem
 - complete named song lyric bodies printed by the booklet: **0**;
 - standalone Tamil lyric files authorized / created: **0 / 0**;
 - external item-level evidence used: **no**;
-- canonical Tamil changed by this gate: **no**;
-- source inventory: `songs/index.json`, `songs/inventory.json`, `songs/candidate-disposition.json`, `songs/credits.json`;
-- gate commit: `d51e3151a3fff218d8e942fc91e6eb837c1d487c`.
+- canonical Tamil changed by this gate: **no**.
 
-The booklet's printed `கதை வசனம் / மு. கருணாநிதி` credit is not promoted into lyric authorship. English may translate only the source-visible performance references, literary fragment, japa token and cues; absent song lyrics must not be reconstructed from film audio, websites, subtitles, later editions or memory.
+The booklet's printed `கதை வசனம் / மு. கருணாநிதி` credit is not promoted into lyric authorship. English may translate only source-visible performance references, literary fragments, japa tokens and cues; absent song lyrics must not be reconstructed from film audio, websites, subtitles, later editions or memory.
 
 ## English translation — ACTIVE
 
-The English layer reuses the repository's mature scene-sharded, source-linked convention.
-
-Current files:
+Current files include:
 
 - `translations/schema.json` — locked scene/unit schema;
 - `translations/preflight.json` — authority and pilot preflight;
-- `translations/records/scene-001.json`–`scene-015.json` — verified translations through scene 15;
-- `translations/PILOT_REVIEW.md` — voice and integrity decisions;
-- `translations/BATCH_002_005_REVIEW.md` — first post-pilot batch QA;
-- `translations/BATCH_006_010_REVIEW.md` — second batch QA including source-only performance/verse linkage;
-- `translations/BATCH_011_015_REVIEW.md` — third batch QA including scene-11 supplements and scene-15 cross-page ownership;
+- `translations/records/scene-001.json`–`scene-020.json` — verified translations through scene 20;
+- `translations/PILOT_REVIEW.md`;
+- `translations/BATCH_002_005_REVIEW.md`;
+- `translations/BATCH_006_010_REVIEW.md`;
+- `translations/BATCH_011_015_REVIEW.md`;
+- `translations/BATCH_016_020_REVIEW.md`;
 - `translations/index.json` — active translation checkpoint.
 
-Cumulative verified checkpoint through scene 15:
+Cumulative verified checkpoint through scene 20:
 
-- verified scenes: **15/63**;
-- verified units: **355**;
-- dialogue units: **303** = **295 explicit immutable dialogue links + 8 source-role supplements**;
-- stage/action units: **51**;
-- standalone song-reference units: **1**;
-- cross-page units: **3**;
-- source-visible song/performance occurrence links so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+- verified scenes: **20/63**;
+- verified units: **477**;
+- dialogue units: **403** = **393 explicit immutable dialogue links + 10 source-role supplements**;
+- stage/action units: **72**;
+- standalone song-reference units: **2**;
+- cross-page units: **7**;
+- source-visible song/performance occurrence links so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-Batch 11–15 establishes these additional decisions:
+Batch 16–20 establishes these additional decisions:
 
-- scene 11 preserves `ammaiyappan-s011-r001` and `ammaiyappan-s011-r002` as source-context-attributed supplements without manufacturing printed labels;
-- scene 11's final fight narration, including its embedded warning, remains scene-narrative ownership rather than duplicated dialogue;
-- scene 15 `ammaiyappan-s015-d001` remains one cross-page unit across PDF 31→32 with both page segments;
-- ambiguous frozen forms such as `பாரிக்கா`, `மால் நன்னோரம்`, `அகாதி`, `திருக்கிட்டு` and the fragmentary scene-15 opening are not silently repaired;
-- the closed song inventory has no retained occurrence in scenes 11–15, so the batch introduces no song/performance links.
+- scene 16 keeps `ammaiyappan-s016-d005` whole across PDF 33→34 and does not silently repair frozen forms such as `திரித்திர நாராயணனிடம்`;
+- scene 17 preserves `ammaiyappan-s017-r001` and `ammaiyappan-s017-r002` as source-context-attributed supplements without manufacturing printed labels;
+- scene 17 keeps `ammaiyappan-s017-d003` whole across PDF 34→35;
+- scene 18 keeps its cross-page stage direction whole and preserves the immutable `மாய்க்கை நாதர்` record whose frozen text itself begins with the extra `பூபதி:` token;
+- scene 19 links `ammaiyappan-song-003` exactly once as a source-only singing cue; no title, lyric body or authorship is reconstructed;
+- scene 19 keeps `ammaiyappan-s019-d015` whole across PDF 40→41;
+- scene 20 preserves source-owned parenthetical action inside immutable dialogue records rather than splitting ownership for schema neatness.
 
 Translation must preserve archive scene ID and PDF/printed-page provenance, exact Tamil speaker labels, source-role origin, structural distinctions, rhetoric/register, and the closed song/performance evidence. It must not alter canonical Tamil or immutable dialogue evidence.
 
 ## Exact next activity
 
-> **Translate and source-review archival scenes 16–20. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.**
+> **Translate and source-review archival scenes 21–25 from the frozen verified derivatives. Preserve exact Tamil speaker labels, source-role origin and PDF/printed-page provenance, keep cross-page units whole, consult `songs/inventory.json` before introducing any verse/song/japa/performance unit, and do not modify frozen source evidence.**
