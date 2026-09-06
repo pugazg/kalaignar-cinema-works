@@ -1,0 +1,70 @@
+name: Ammayappan character closure status v2 once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-character-closure-status-v2-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize work-level character closure status
+        run: |
+          python works/ammaiyappan/scripts/sync_character_closure_status.py
+      - name: Validate synchronized state
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('works/ammaiyappan')
+          char=json.loads((root/'characters/index.json').read_text(encoding='utf-8'))
+          dial=json.loads((root/'dialogues/final-index.json').read_text(encoding='utf-8'))
+          readme=(root/'README.md').read_text(encoding='utf-8')
+          hand=(root/'PROJECT_HANDOVER.md').read_text(encoding='utf-8')
+          meta=(root/'metadata.yaml').read_text(encoding='utf-8')
+          assert char['status']=='complete-verified-reconciled'
+          assert char['status_synchronized'] is True
+          assert char['dialogue_unit_coverage']=='1024/1024'
+          assert char['label_coverage']=='62/62'
+          assert char['unresolved_entities']==0
+          assert char['remaining_unmapped_records']==0
+          assert dial['character_entity_gate']=='complete-verified-reconciled'
+          assert dial['character_entity_index']=='../characters/index.json'
+          assert '| Dialogue index | **complete-source-role-resolved — 1,024/1,024 downstream units** |' in readme
+          assert '| Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,024 units** |' in readme
+          assert '| English translation / reader | **READY — next phase** |' in readme
+          assert '## Character/entity closure — FINAL QA PASS' in hand
+          assert 'dialogue_index: complete-source-role-resolved-1024-of-1024' in meta
+          assert 'character_entity_index: complete-verified-reconciled' in meta
+          assert 'entity_count: 26' in meta
+          assert 'english_translation: ready-next-phase' in meta
+          assert 'character_entity_index: complete-verified-reconciled-26-entities-62-labels-1024-units' in meta
+          print('AMMAYAPPAN STATUS SYNC VALID — English translation gate READY')
+          PY
+      - name: Commit synchronized status
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/README.md \
+                  works/ammaiyappan/PROJECT_HANDOVER.md \
+                  works/ammaiyappan/metadata.yaml \
+                  works/ammaiyappan/dialogues/final-index.json \
+                  works/ammaiyappan/characters/index.json
+          if git diff --cached --quiet; then
+            echo "No status changes"
+          else
+            git commit -m "Synchronize Ammayappan character closure status [skip ci]"
+            git push origin HEAD:main
+          fi
