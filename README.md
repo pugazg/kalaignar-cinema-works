@@ -89,17 +89,17 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 25/63 — 608/608 current units**;
-- current English dialogue coverage: **507 explicit records + 10 source-role supplements = 517 dialogue units**;
-- current English stage/action units: **89**;
+- English translation: **verified through scene 30/63 — 738/738 current units**;
+- current English dialogue coverage: **614 explicit records + 13 source-role supplements = 627 dialogue units**;
+- current English stage/action units: **109**;
 - current English song-reference units: **2**;
-- current English cross-page units: **11**;
+- current English cross-page units: **16**;
 - retained source-only occurrence links translated so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - reader/export: blocked pending complete English.
 
-Batch 21–25 adds **131 verified units**: 114 explicit dialogue links, 17 stage/action units, no source-role supplements and no song/verse/japa/performance units. Four new cross-page logical units remain intact; source irregularities and exact source-label variants are preserved rather than normalized.
+Batch 26–30 adds **130 verified units**: 107 explicit dialogue links, 3 already-closed source-role supplements and 20 stage/action units. Five new cross-page logical units remain intact. Live source-role authority corrected the stale prior handoff assumption that the batch contained no supplements. Scene 30's Purananuru poem remains inside its immutable dialogue record rather than becoming a duplicate standalone verse derivative; no external text is imported.
 
-**Next:** translate and source-review archival scenes **26–30** from the frozen verified derivatives. The closed source-role layer has no supplements and the closed song/performance inventory has no retained occurrence in scenes 26–30. Preserve exact Tamil speaker labels and page ownership; keep cross-page units whole.
+**Next:** translate and source-review archival scenes **31–35** from the frozen verified derivatives. The closed source-role layer contains one supplement in that range — `ammaiyappan-s035-r001`; the closed song/performance inventory contains no retained occurrence in scenes 31–35. Preserve exact Tamil speaker/source-role/page ownership and keep cross-page units whole.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
