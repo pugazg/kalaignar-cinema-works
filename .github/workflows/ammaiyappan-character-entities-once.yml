@@ -1,0 +1,81 @@
+name: Ammayappan character entities once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ammaiyappan-character-entities-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build complete character entity layer
+        run: |
+          python works/ammaiyappan/scripts/build_character_entities.py
+      - name: Validate complete character entity layer
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          c=Path('works/ammaiyappan/characters')
+          idx=json.loads((c/'index.json').read_text(encoding='utf-8'))
+          ent=json.loads((c/'entities.json').read_text(encoding='utf-8'))
+          lab=json.loads((c/'labels-inventory.json').read_text(encoding='utf-8'))
+          ra=json.loads((c/'record-aware-dispositions.json').read_text(encoding='utf-8'))
+          assert idx['status']=='complete-verified-reconciled'
+          assert idx['dialogue_records_source']==1024
+          assert idx['distinct_source_labels']==62
+          assert idx['entity_count']==26
+          assert idx['verified_entities']==26
+          assert idx['unresolved_entities']==0
+          assert idx['verified_labels']==62
+          assert idx['unresolved_labels']==0
+          assert idx['label_coverage']=='62/62'
+          assert idx['dialogue_unit_coverage']=='1024/1024'
+          assert idx['record_aware_labels']==['முத்','தன']
+          assert idx['record_aware_records']==187
+          assert idx['remaining_unmapped_labels']==0
+          assert idx['remaining_unmapped_records']==0
+          assert idx['dialogue_records_modified'] is False
+          assert ent['dialogue_records_source']==1024
+          assert len(ent['entities'])==26
+          assert sum(x['dialogue_record_count'] for x in ent['entities'])==1024
+          assert all(x['status']=='verified' for x in ent['entities'])
+          assert lab['distinct_source_labels']==62
+          assert len(lab['labels'])==62
+          assert sum(x['record_count'] for x in lab['labels'])==1024
+          assert all(x['unresolved_record_count']==0 for x in lab['labels'])
+          assert ra['record_aware_record_count']==187
+          assert ra['unresolved_record_count']==0
+          assert len(ra['dispositions'])==187
+          assert ra['label_entity_counts']['முத்']=={'muthan':80,'muthayi':97}
+          assert ra['label_entity_counts']['தன']=={'thanapathi':1,'thanavanigar':9}
+          print('AMMAYAPPAN CHARACTER ENTITY LAYER VALID — 1024/1024; 62/62; 26 entities; 0 unresolved')
+          PY
+      - name: Commit complete character entity layer
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/ammaiyappan/characters/schema.json \
+                  works/ammaiyappan/characters/labels-inventory.json \
+                  works/ammaiyappan/characters/record-aware-dispositions.json \
+                  works/ammaiyappan/characters/entities.json \
+                  works/ammaiyappan/characters/index.json \
+                  works/ammaiyappan/characters/README.md
+          if git diff --cached --quiet; then
+            echo "No character entity changes"
+          else
+            git commit -m "Complete Ammayappan character entity index [skip ci]"
+            git push origin HEAD:main
+          fi
