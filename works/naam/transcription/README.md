@@ -1,0 +1,49 @@
+# நாம் — Canonical Tamil Transcription
+
+Controlling source: `TVA_BOK_0064201_நாம்.pdf`
+
+## Current checkpoint
+
+- canonical range expected: **PDF 5–71 / 67 pages**;
+- first-pass completed: **PDF 5–9 / 5 pages**;
+- current first-pass status: **partial-first-pass**;
+- verified pages: **0**;
+- separate visual-fidelity audit: **not-started**;
+- historical-glyph pages checked during first pass: **5/67**;
+- historical-glyph final verified pages: **0/67**;
+- open source uncertainty markers: **2**;
+- current batch: `parts/pdf-005-009.md`;
+- index: `index.json`.
+
+The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
+
+## Source anchors
+
+- PDF 5: screenplay opening / `காட்சி 1`; printed numeral is not securely visible, so no printed-page value is manufactured;
+- PDF 6–9: visible printed numerals 6–9, one-to-one with the PDF pages.
+
+## Historical glyph handling
+
+Binding guide: `../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`.
+
+Every page is inspected at enlarged/native resolution for at least:
+
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
+
+Examples from the first batch:
+
+- PDF 6 `அவளை`: historical `ளை` identity was decoded rather than copying the apparent modern-lookalike shape;
+- PDF 6 `சூரியனால்`: the `னா` family was explicitly checked before Unicode transcription.
+
+No global replacement is permitted. Source spelling, colloquial forms, punctuation, ellipses, labels and verse lineation remain source-controlled.
+
+## Open uncertainties in PDF 5–9
+
+1. PDF 5: part of the opening introductory prose line is physically damaged / too unclear for a responsible reading.
+2. PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unclear; the draft records the visible approximate cluster rather than silently normalizing it.
+
+These remain explicit in `parts/pdf-005-009.md` and will be revisited during later visual fidelity review or earlier if clearer same-edition evidence resolves them.
+
+## Next activity
+
+**Continue the first-pass canonical Tamil transcription with PDF 10–14, preserving source order, stable page anchors and page-level historical-glyph checks.** Do not mark the completed first-pass pages verified yet.
