@@ -260,9 +260,9 @@ Older handovers are historical checkpoints and never override newer live `main`.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 12/12 canonical PDF 2–13 pages; 1 story-summary record + 15 performance records; English 13 prose units + 15/15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricists remain 0 verified / 15 unresolved; site not applied.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS; site not applied.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 10/63 / 225 units**; next bounded batch **11–15**.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 15/63 / 355 units**; next bounded batch **16–20**.
 
-Current active mirrors use the post-correction 1,025-unit authority and scene-10 English checkpoint.
+Current active mirrors use the post-correction 1,025-unit authority and scene-15 English checkpoint.
 
 ---
 
@@ -295,21 +295,22 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - source punctuation normalization: **0**;
 - character/entity layer: **26 entities / 62/62 labels / 1,025/1,025 units**;
 - song/performance source gate: **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
-- English translation: **scene 10/63 / 225 verified units**;
-- English dialogue coverage: **190 explicit + 6 source-role supplements = 196 dialogue units**;
-- English stage/action units: **28**;
+- English translation: **scene 15/63 / 355 verified units**;
+- English dialogue coverage: **295 explicit + 8 source-role supplements = 303 dialogue units**;
+- English stage/action units: **51**;
 - English song-reference units: **1**;
-- English cross-page units: **2**;
+- English cross-page units: **3**;
 - source-only occurrences linked in English: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - reader/export: blocked pending complete English.
 
 Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` are preserved as exact non-colon source forms.
 
-Batch 6–10 source safeguards:
+Batch 11–15 source safeguards:
 
-- scene 6 retains all three context-attributed source-role supplements and does not split locked dialogue spans merely because source action is embedded;
-- scene 7 translates only the printed Muthan–Muthayi performance cue, with no absent lyric/title/authorship reconstruction;
-- scene 8 keeps its PDF 19→20 utterance as one logical cross-page unit and does not repair the fragmentary quotation externally;
-- scene 10 keeps the Kambar-attributed fragment inside `ammaiyappan-s010-d010` and links `ammaiyappan-song-002` without duplicate ownership.
+- scene 11 retains both context-attributed source-role supplements (`ammaiyappan-s011-r001`, `ammaiyappan-s011-r002`) without inventing printed labels;
+- scene 11 keeps the final fight narration, including its embedded warning, as scene narration rather than duplicate dialogue ownership;
+- scene 15 keeps `ammaiyappan-s015-d001` as one cross-page `குரல்` unit across PDF 31→32 with page-segment provenance;
+- irregular/fragmentary forms are not silently normalized for English fluency;
+- the closed song inventory contains no retained occurrence in scenes 11–15.
 
-**Exact next activity:** translate and source-review archival scenes **11–15**. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, create no prose for decorative `★`, and do not modify frozen source evidence.
+**Exact next activity:** translate and source-review archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.
