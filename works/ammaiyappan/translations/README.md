@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 40 / 63; 979/979 current units verified**
+**Status:** **verified through archival scene 45 / 63; 1,000/1,000 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -152,19 +152,33 @@ Scenes 36–40 add **90 verified units**:
 
 Scene 36 preserves the mistaken-abduction/disguise sequence, exact `தன` labels, the structural `* * *`, and the merchant's embedded child-cry/`ஆராரோ` span without manufacturing a song occurrence that the closed inventory does not authorize. Scene 37 keeps its one cross-page Vedalam record whole. Scene 38 preserves source-owned embedded actions and Vedalam's food-chain rhetoric, retaining `Kuravan` as the source social/community label rather than euphemizing it. Scene 39 preserves liberation rhetoric and treats Purananuru as a source rhetorical reference only. Scene 40 represents `ammaiyappan-song-004` as source-visible character japa: one japa cue unit plus the separately printed labelled `முத்தாயி...முத்தாயி...` dialogue span linked to the same occurrence; no soundtrack title, lyric body or authorship is inferred. Detailed QA is in `BATCH_036_040_REVIEW.md`.
 
-## Cumulative English status through scene 40
+### Batch — scenes 41–45
 
-- verified scenes: **40/63**;
-- verified units: **979**;
-- dialogue units: **840** = **826 explicit dialogue records + 14 source-role supplements**;
-- stage/action units: **136**;
+Scenes 41–45 add **21 verified units**:
+
+- explicit dialogue links: **13/13**;
+- source-role supplements: **0**;
+- stage/action units: **8**;
+- song-reference / literary-verse / japa / written-text units: **0**;
+- cross-page logical units: **1** — scene 41 action span across PDF 85–86 / printed 83–84;
+- retained source-only song/performance occurrences encountered: **0**;
+- decorative stars translated as prose: **0**.
+
+Scene 41 is action-only and preserves the storm/tree-fall sequence as one cross-page stage unit. Scene 42 keeps the source-elliptical Vedalam `மாயப் பிசாசு` line as dialogue rather than inventing a verse/song occurrence, while preserving exact merchant label variants. Scene 43 preserves exact `தன` provenance. Scene 44 keeps source-owned `(பார்க்கிறாள்)` inside Sumathi's immutable dialogue. Scene 45 preserves the `சீமான் இனம்` class accusation without euphemism. Detailed QA is in `BATCH_041_045_REVIEW.md`.
+
+## Cumulative English status through scene 45
+
+- verified scenes: **45/63**;
+- verified units: **1,000**;
+- dialogue units: **853** = **839 explicit dialogue records + 14 source-role supplements**;
+- stage/action units: **144**;
 - standalone song-reference units: **2**;
 - japa units: **1**;
-- cross-page units: **22**;
+- cross-page units: **23**;
 - unique song/performance occurrence links: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **41–45** from the frozen verified derivatives. The closed source-role layer has **no supplements** in scenes 41–45 and the closed song/performance inventory has **no retained occurrence** in that range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
+Translate and source-review archival scenes **46–50** from the frozen verified derivatives. The closed source-role layer contains one supplement in this range — `ammaiyappan-s050-r001` — and the closed song/performance inventory has **no retained occurrence** in scenes 46–50. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page source units whole, and do not alter frozen source evidence.
