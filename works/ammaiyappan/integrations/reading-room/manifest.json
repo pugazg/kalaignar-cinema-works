@@ -1,0 +1,46 @@
+{
+  "work_id": "ammaiyappan",
+  "integration": "reading-room",
+  "build_version": 1,
+  "status": "PASS",
+  "site_application_status": "not-applied",
+  "source_sha256": "eda6468a57022b418f44851a0013b090469bc6f4be44a682487800658771720d",
+  "reader_input_paths": [
+    "works/ammaiyappan/editions/en/reader-edition.json",
+    "works/ammaiyappan/editions/en/manifest.json"
+  ],
+  "authoritative_input_files": 130,
+  "authoritative_input_aggregate_sha256": "fb9f14207546f88a65dc1e09785d82ca1053ec6cfaf67e7df0d27f2cc325238c",
+  "checkpoint": {
+    "screenplay_scenes": 63,
+    "tamil_scene_texts": 63,
+    "english_units": 1210,
+    "dialogue_source_links": 1025,
+    "explicit_dialogue_records": 1009,
+    "source_role_supplements": 16,
+    "stage_action_units": 181,
+    "song_reference_units": 3,
+    "japa_units": 1,
+    "cross_page_units": 28,
+    "occurrence_identities": 5,
+    "occurrence_source_span_links": 7,
+    "speaker_origin_source_explicit_colon": 1009,
+    "speaker_origin_source_explicit_noncolon_delimiter": 2,
+    "speaker_origin_source_context_attributed": 14
+  },
+  "output": {
+    "path": "works/ammaiyappan/integrations/reading-room/reading-room.json",
+    "bytes": 1551865,
+    "sha256": "f00efb816edf08b43702a3a1a9d71ed9cc54fd1a803b8881bc6e2c6466de1f8c"
+  },
+  "qa_report": {
+    "path": "works/ammaiyappan/integrations/reading-room/QA_REPORT.md",
+    "bytes": 1978,
+    "sha256": "0b7de25c6b6f34d9afce621cb07d4d408a742f515ca3559c6754a23dd496467c"
+  },
+  "readme": {
+    "path": "works/ammaiyappan/integrations/reading-room/README.md",
+    "bytes": 1794,
+    "sha256": "0daee07c3e006c9524f9fc11416485cb8affc75bbc178b95c392114d1b92e19c"
+  }
+}
