@@ -1,0 +1,402 @@
+{
+  "work_id": "ammaiyappan",
+  "target_language": "en",
+  "scene_id": "ammaiyappan-s002",
+  "archival_scene_ordinal": 2,
+  "source_scene_number": null,
+  "scene_status": "verified",
+  "unit_count": 17,
+  "units": [
+    {
+      "id": "ammaiyappan-en-s002-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 7, "printed_page": 5}]
+      },
+      "translation": {
+        "english_text": "Maykainatha Swami......\n\nMaykainatha Swami......\n\nMaykainatha Swami......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 7, "printed_page": 5}]
+      },
+      "translation": {
+        "english_text": "Looks as though Maykainatha Swami has had quite a haul.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 7, "printed_page": 5}]
+      },
+      "translation": {
+        "english_text": "They are all offerings sent by devotees......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 7, "printed_page": 5}]
+      },
+      "translation": {
+        "english_text": "Offerings!... Yes—there is a name like that too for wages received without working...",
+        "mode": "prose-faithful",
+        "notes": ["The satire equates devotional offerings with unearned wages; the English keeps that barb explicit."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "Well—well—well! Where did you learn such a great truth? Did one of those Eighteen Siddhars you read say it?... Did Kudambai Siddhar say it?\n\nMutha, don't start your super-intellectual sermon......",
+        "mode": "prose-faithful",
+        "notes": ["The second paragraph remains inside the same immutable Vetha dialogue record, exactly as the verified dialogue layer models it."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "Why do you get angry when I say something about the swami?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "Hey, Mutha! This is the post office. People come here and go from here... Your babbling like this is dangerous for me... I knew something like this would happen; that is why I hesitated so much to rent you that room in my house....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "All right—all right—I've shut my mouth...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "Not enough!... Tuck your tail in too...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "What is this—the Ramayana? Ravana's court?......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "All right, why are you standing here? Aren't you going to the palace to groom the horse?......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "Why—are you afraid that if I stay here I'll keep talking about something or other?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "No. Shouldn't you work properly at the place that pays you wages? That's why I said it.... You're a good boy—go ruin yourself however you like. My duty matters to me. Only don't say anything about the swami. He isn't a choultry loafer like you; he is a saint renowned throughout the world.",
+        "mode": "prose-faithful",
+        "notes": ["`சத்திரத்துப் பேர்வழி` is rendered as `choultry loafer` to retain the period social insult rather than smoothing it into a generic `vagabond`."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 8, "printed_page": 6}]
+      },
+      "translation": {
+        "english_text": "A saint renowned throughout the world! It seems even such a great saint has not gained the power to win freedom for this Pazhuthar, which remains enslaved...?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "Why should he care about the freedom of Pazhuthar?... Is he a man of narrow vision like you? His broad aim is for people to gain deliverance from this sinful world and go to the other world... 'Freedom for Pazhuthar'—some freedom!......\n\nLet the younger queen Poongavanam marry the ruler of Vengai today; tomorrow Pazhuthar will have its freedom.",
+        "mode": "prose-faithful",
+        "notes": ["The contrast between political `விடுதலை` and religious deliverance is preserved rather than harmonized into one register."]
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "முத்தன்",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "Is an unwilling marriage the price to be paid for freedom?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "ammaiyappan-en-s002-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "ammaiyappan-s002",
+      "archival_scene_ordinal": 2,
+      "source": {
+        "source_path": "works/ammaiyappan/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/ammaiyappan/scenes/scene-002.md",
+        "source_record_id": "ammaiyappan-s002-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வேதா",
+        "speaker_label_origin": "source-explicit-colon",
+        "page_provenance": [{"pdf_page": 9, "printed_page": 7}]
+      },
+      "translation": {
+        "english_text": "All right—all right—I can't talk to you! Ah, great freedom fighter!... See to your work... I'm coming.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
