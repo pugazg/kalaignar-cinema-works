@@ -30,7 +30,7 @@ for path in required:
 
 metadata = (WORK / "metadata.yaml").read_text(encoding="utf-8")
 for needle in [
-    f'    sha256: "{SOURCE_SHA}"',
+    f'  sha256: "{SOURCE_SHA}"',
     "  structural_mapping: verified",
     "  canonical_tamil_transcription: not-started",
     "  historical_glyph_audit: not-started",
