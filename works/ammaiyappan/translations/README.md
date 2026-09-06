@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 5 / 63; 108/108 current units verified**
+**Status:** **verified through archival scene 10 / 63; 225/225 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -54,17 +54,32 @@ The batch explicitly preserves both exceptional source delimiters encountered he
 
 Neither semicolon is normalized in the Tamil evidence layer. Detailed QA and translation decisions are in `BATCH_002_005_REVIEW.md`.
 
-## Cumulative English status through scene 5
+### Batch — scenes 6–10
 
-- verified scenes: **5/63**;
-- verified units: **108**;
-- dialogue units: **95** = **93 explicit dialogue records + 2 source-role supplements**;
-- stage/action units: **13**;
-- cross-page units: **1**;
-- song/performance occurrence links: **0**;
+Scenes 6–10 add **117 verified units**:
+
+- explicit dialogue links: **97/97**;
+- source-role supplements: **4/4**;
+- stage/action units: **15**;
+- standalone song-reference units: **1**;
+- cross-page logical units: **1** — scene 8 across PDF 19–20;
+- retained source-only song/verse occurrences encountered: **2/2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+- decorative stars translated as prose: **0**.
+
+Scene 7 translates only the printed cue that the Muthan–Muthayi love-song performance is ending; no absent title or lyric body is reconstructed. Scene 10 keeps the Kambar-attributed fragment inside its immutable Sukhadev dialogue record and links the source-only occurrence without duplicating source ownership. Detailed QA is in `BATCH_006_010_REVIEW.md`.
+
+## Cumulative English status through scene 10
+
+- verified scenes: **10/63**;
+- verified units: **225**;
+- dialogue units: **196** = **190 explicit dialogue records + 6 source-role supplements**;
+- stage/action units: **28**;
+- standalone song-reference units: **1**;
+- cross-page units: **2**;
+- song/performance occurrence links: **2**;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **6–10**. Scene 7 contains the first retained source-only song/performance occurrence and scene 10 contains the Kambar-attributed literary quotation; translate only material actually printed in the closed source evidence.
+Translate and source-review archival scenes **11–15**. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence.
