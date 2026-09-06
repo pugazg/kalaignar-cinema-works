@@ -14,10 +14,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - whole scan inspected: **72/72 PDF pages**;
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
-- canonical Tamil: **partial first pass — PDF 5–14 / 10 of 67 pages**;
+- canonical Tamil: **partial first pass — PDF 5–19 / 15 of 67 pages**;
 - canonical Tamil verified: **0/67**;
 - visual fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **10/67**;
+- historical-glyph first-pass checked: **15/67**;
 - historical-glyph final verified: **0/67**;
 - open source uncertainty markers: **2**;
 - downstream structured/English/reader layers: **blocked/not-started**.
@@ -28,8 +28,10 @@ Current canonical files:
 - `transcription/README.md`;
 - `transcription/parts/pdf-005-009.md`;
 - `transcription/parts/pdf-010-014.md`;
+- `transcription/parts/pdf-015-019.md`;
 - `notes/textual-notes-pdf-005-009.md`;
 - `notes/textual-notes-pdf-010-014.md`;
+- `notes/textual-notes-pdf-015-019.md`;
 - `notes/historical-glyph-audit.md`.
 
 ## Source identity
@@ -64,39 +66,27 @@ Handwritten pencil marks/numbers are later annotations, not canonical text.
 
 ### PDF 5–9
 
-Coverage:
-
-- PDF 5: opening `காட்சி 1`, introductory prose and opening village/Mari dialogue;
-- PDF 6–7: Mari/rain discussion and performance; `காட்சி 2` begins on PDF 7;
-- PDF 8: continuation of `காட்சி 2`, then `காட்சி 3` begins;
-- PDF 9: continuation of `காட்சி 3` and montage/action paragraph.
-
-Locked first-pass safeguards:
-
+- opening `காட்சி 1` through early `காட்சி 3`;
+- PDF 6 `அவளை` is a historical-`ளை` decoding precedent;
+- PDF 6 `சூரியனால்` was checked against `னா`;
 - PDF 5 has no invented printed-page number;
-- exact source labels, parentheticals, stage directions, colloquial forms, punctuation, ellipses and verse lineation are preserved;
-- PDF 6 `அவளை` is recorded as a historical-`ளை` glyph-decoding case;
-- PDF 6 `சூரியனால்` was explicitly checked against the historical `னா` family;
-- the rain/Mari song text remains canonical source text but receives **no item-level authorship adjudication at this phase**.
-
-Open source uncertainties retained:
-
-1. PDF 5 — one physically damaged introductory line below `காட்சி 1`;
-2. PDF 9 — one unclear word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)`.
+- open source uncertainties: damaged PDF 5 introductory span + one unclear PDF 9 montage word.
 
 ### PDF 10–14
 
-This second five-page batch continues through the opening of `காட்சி 6`.
+- continues through the opening of `காட்சி 6`;
+- PDF 11 `கண்ணாடிச்` is a positive `ணா` first-pass case;
+- PDF 12 `தளிர்ச்சிருக்கே`, PDF 13 `கீல்வலிக்கார தங்கையன்`, and PDF 14 `வாலாம்` remain source-visible forms;
+- PDF 10–14 introduced **0** new explicit uncertainty markers.
 
-Source decisions:
+### PDF 15–19
 
-- PDF 10 lower action was resolved at enlarged pixels as `நாராயணி மறு வினாடி மாடியிலிருந்து கீழே உருட்டி விடப்படுகிறாள்.`;
-- PDF 11 `கண்ணாடிச்` is logged as a positive `ணா`-family first-pass case;
-- PDF 12's unusual `தளிர்ச்சிருக்கே` is retained as source-visible wording, not normalized;
-- PDF 13 `கீல்வலிக்கார தங்கையன்` and `கொம்பேறி மூக்கன்` are retained without lexical modernization;
-- PDF 14 visibly prints `வாலாம்` twice; the canonical draft does not silently change it to `வரலாம்`;
-- PDF 10–14 introduced **0 new explicit uncertainty markers**;
-- no page in either completed batch is marked verified.
+- continues through `காட்சி 7`, `காட்சி 8`, and the opening of `காட்சி 9`;
+- this batch was rechecked against enlarged source pixels before synchronization;
+- five local first-pass readings were corrected from the scan: PDF 15 `எல்லோருக்கும்`; PDF 15 `உருண்டோடிடுமே`; PDF 17 `அவன் கை வலி`; PDF 19 `என்னே`; PDF 19 `என் மருமகளும்`;
+- PDF 15 `பிரேமா வாகவர்`, PDF 17's extended labour/tax rhetoric, and PDF 19 `சோபிதத்தை` / `காதியின்` remain unmodernized source readings;
+- PDF 15–19 introduced **0** new explicit uncertainty markers;
+- all 15 first-pass pages remain **draft / needs-review**, not verified.
 
 ## Historical Tamil glyph rule
 
@@ -110,20 +100,17 @@ Decode historical character identity, then encode modern Unicode identity; do no
 
 A page is not finally verified until both visual fidelity and historical-glyph gates pass.
 
-## High-confidence performance structures already mapped
+## Performance / lyric evidence now source-confirmed
 
-- PDF 16 / scene 7 — `[பாட்டு]`, `ஆயிரம் தெய்வங்கள்`, source-author `பாரதியார்`;
-- PDF 35–36 / scene 21 — lyrical block beginning `மணமில்லா மலர் நானம்மா!`;
-- PDF 49–50 / scene 31 — lyrical block with `(பேதம்)` cues;
-- PDF 59–60 — poetic/song-like blocks between scenes 36 and 37;
-- PDF 64 / scene 39 — `பின்னணிப் பாடல்`.
+- PDF 16 / scene 7 — explicit `[பாட்டு]`, three numbered sections. PDF 4 identifies the item as **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. Only the booklet witness is transcribed; no outside lyric text is used.
+- PDF 18 / scene 8 — source-visible lyrical duet beginning `பேசும் யாழே பெண் மானே`, lineated under `குமரன்`, `மீனு`, and `இருவர்`; authorship remains **not adjudicated**.
+- PDF 15 `ஓரிடந்தனிலே...` remains a dialogue-owned quoted fragment, not a reconstructed standalone song.
+- Later mapped structures remain PDF 35–36 / scene 21, PDF 49–50 / scene 31, PDF 59–60 between scenes 36–37, and PDF 64 / scene 39.
 
-Only the first item currently has an item-specific author credit from the booklet. Other authorship/classification remains open until verified canonical text and the later song/performance gate.
+No unprinted title, missing lyric body or authorship may be reconstructed from outside sources.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription with PDF 15–19, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+> **Continue canonical Tamil first-pass transcription with PDF 20–24, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
 
-PDF 16 enters the already-mapped `காட்சி 7` explicit `[பாட்டு]` block whose item-level booklet credit is `ஆயிரம் தெய்வங்கள்` — `பாரதியார்`. Transcribe only what the scan prints; preserve the specific credit safeguard and do not use outside lyrics to fill or alter the booklet text.
-
-Do not reopen PDF 5–14 merely because a copied prompt is older unless new source evidence resolves an existing uncertainty.
+Do not reopen PDF 5–19 merely because a copied prompt is older unless new direct scan evidence resolves an existing uncertainty or demonstrates a concrete transcription error.
