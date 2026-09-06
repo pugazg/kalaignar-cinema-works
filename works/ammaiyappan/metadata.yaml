@@ -251,18 +251,18 @@ structured_derivatives:
   song_unresolved_authorship_occurrences: 3
   song_full_named_lyric_blocks_printed: 0
   song_standalone_tamil_lyric_files: 0
-  english_translation: verified-through-scene-050
+  english_translation: verified-through-scene-055
   english_translation_index_path: "translations/index.json"
-  english_translation_scenes_verified: 50
-  english_translation_units_verified: 1035
-  english_translation_explicit_dialogue_links: 868
+  english_translation_scenes_verified: 55
+  english_translation_units_verified: 1106
+  english_translation_explicit_dialogue_links: 925
   english_translation_source_role_supplements: 15
-  english_translation_stage_action_units: 149
+  english_translation_stage_action_units: 163
   english_translation_song_reference_units: 2
   english_translation_japa_units: 1
-  english_translation_cross_page_units: 23
+  english_translation_cross_page_units: 25
   english_translation_song_performance_occurrence_links: 4
-  english_translation_next_scene_batch: "51-55"
+  english_translation_next_scene_batch: "56-60"
   reader_export: blocked-pending-english
   reading_room_integration: blocked-pending-english
 
@@ -281,8 +281,8 @@ status:
   dialogue_index: complete-source-role-resolved-1025-of-1025
   character_entity_index: complete-verified-reconciled-26-entities-62-labels-1025-units
   song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
-  english_translation: verified-through-scene-050-50-of-63-1035-units
+  english_translation: verified-through-scene-055-55-of-63-1106-units
   reader_export: blocked-pending-english
   reading_room_integration: blocked-pending-english
 
-next_action: "Translate and source-review archival scenes 51-55 from the frozen verified derivatives; the closed source-role layer has no supplement in scenes 51-55 and the closed song/performance inventory has no retained occurrence in that range; preserve exact Tamil speaker labels and page provenance, keep cross-page source units whole, and do not alter frozen source evidence."
+next_action: "Translate and source-review archival scenes 56-60 from the frozen verified derivatives; the closed source-role layer contains `ammaiyappan-s059-r001` in scene 59 and the closed song/performance inventory contains retained occurrence `ammaiyappan-song-005` in scene 59; preserve exact Tamil speaker labels and page provenance, keep cross-page source units whole, link the occurrence only to source-visible material, and do not alter frozen source evidence or reconstruct absent lyrics, title or authorship."
