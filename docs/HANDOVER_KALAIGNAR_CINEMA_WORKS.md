@@ -133,7 +133,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
-- **Naam / நாம்** — active new work; 72-page image-only scan; intake complete; 45 source-numbered scenes mapped sequentially; canonical Tamil not-started; historical-glyph dual gate mandatory. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+- **Naam / நாம்** — active work; intake/map complete; canonical Tamil first pass **PDF 5–9 / 5 of 67**; glyph first-pass **5/67**; verified **0/67**; 2 open source uncertainties; next PDF 10–14. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
 
 Ammayappan remains closed at its complete-verified checkpoint. The current active production work is **Naam / நாம்**, beginning canonical Tamil only after its completed source-intake and structural-mapping gate.
 
@@ -144,19 +144,24 @@ Ammayappan remains closed at its complete-verified checkpoint. The current activ
 Work: `works/naam/`  
 Source: `TVA_BOK_0064201_நாம்.pdf`
 
-- source intake / whole-scan inspection: **complete / 72/72**;
+- intake / whole-scan map: **complete / verified**;
 - source SHA-256: `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
-- source is **image-only**;
-- source-visible organization: `ஆசீர்வாதபுரம் ஆதிதிராவிட நல உரிமைச் சங்கத்தார்`;
-- screenplay range: **PDF 5–71 / 67 pages**; front matter PDF 1–4; back matter PDF 72;
-- visible printed numerals: **6–71** on PDF 6–71; no printed numeral is asserted for PDF 5;
-- scene map: **காட்சி 1–45**, sequential; no observed gaps/repeats/out-of-order numbers;
-- specific source credit safeguard: `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.` survives the broad `கதை, வசனம், பாடல்... மு. கருணாநிதி` credit;
-- canonical Tamil: **not-started**;
-- historical-glyph audit: **not-started**, mandatory from the first page using the 13-family source-pixel method;
-- structured derivatives / translation / reader: **blocked/not-started**.
+- screenplay range: **PDF 5–71 / 67 pages**;
+- source-numbered scenes: **காட்சி 1–45**, sequential;
+- canonical Tamil first pass: **PDF 5–9 / 5 of 67 pages**;
+- canonical verified pages: **0**;
+- visual-fidelity audit: **not-started**;
+- historical-glyph first-pass checked / final verified: **5/67 / 0/67**;
+- open source uncertainties: **2**;
+- current batch: `works/naam/transcription/parts/pdf-005-009.md`;
+- source notes: `works/naam/notes/textual-notes-pdf-005-009.md`;
+- PDF 6 glyph precedents: `அவளை` (`ளை`) and `சூரியனால்` (`னா` checked);
+- no first-pass page is yet `verified`;
+- structured derivatives / English / reader remain blocked.
 
-**Exact next activity:** Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives.
+Open source questions are deliberately retained: the physically damaged PDF 5 introductory line and one unclear word in the PDF 9 montage/action paragraph.
+
+**Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 10–14, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 
 ---
 

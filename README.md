@@ -24,20 +24,21 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## நாம் status
 
-`TVA_BOK_0064201_நாம்.pdf` is the **active newly onboarded cinema source**. Intake and full structural mapping are complete; canonical Tamil has not started.
+`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake and the 45-scene structural map are complete; canonical Tamil first-pass transcription is now in progress.
 
 - source: **72 PDF pages**, image-only; SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
-- visible title / author: **நாம் / மு. கருணாநிதி**;
-- source-visible organization: **ஆசீர்வாதபுரம் ஆதிதிராவிட நல உரிமைச் சங்கத்தார்**;
 - front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
-- visible printed numerals: **6–71** on PDF 6–71; PDF 5 opens the screenplay without a securely visible printed numeral;
-- source-numbered scenes: **45 — காட்சி 1–45**, sequential with no observed gap/repeat/out-of-order number;
-- PDF 4 credit safeguard: broad `கதை, வசனம், பாடல்... மு. கருணாநிதி`, with the explicit item exception `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.`;
-- canonical Tamil / visual fidelity / historical-glyph audit: **not-started / not-started / not-started**;
-- old-type transcription is bound to `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` with page-level dual-gate verification.
+- source-numbered scenes: **45 — காட்சி 1–45**, sequential;
+- canonical Tamil first pass: **PDF 5–9 / 5 of 67 pages**;
+- current first-pass batch: `works/naam/transcription/parts/pdf-005-009.md`;
+- verified pages: **0**; separate visual-fidelity audit: **not-started**;
+- historical-glyph first-pass checked: **5/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2** — damaged PDF 5 intro line + one PDF 9 montage word;
+- PDF 6 precedents: `அவளை` (`ளை` identity) and `சூரியனால்` (`னா` family checked);
+- PDF 4 item-level credit safeguard remains `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.`;
+- downstream derivatives remain blocked pending verified Tamil.
 
-**Next:** Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives.
-
+**Next:** Continue canonical Tamil first-pass transcription with PDF 10–14, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 ## ராஜா ராணி status
 
 `TVA_BOK_0017188_ராஜா_ராணி.pdf` is a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.
