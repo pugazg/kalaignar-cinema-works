@@ -1,0 +1,33 @@
+name: Ammayappan English reader preflight
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "works/ammaiyappan/translations/index.json"
+      - "works/ammaiyappan/translations/records/**"
+      - "works/ammaiyappan/dialogues/records/**"
+      - "works/ammaiyappan/dialogues/source-role-resolved-records.json"
+      - "works/ammaiyappan/songs/inventory.json"
+      - "works/ammaiyappan/editions/en/audit_probe.py"
+      - ".github/workflows/ammaiyappan-english-reader-preflight.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  reader-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run whole-work English reader/export preflight
+        run: python works/ammaiyappan/editions/en/audit_probe.py
