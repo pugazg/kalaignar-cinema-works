@@ -34,15 +34,15 @@ Everything else—scene files, dialogue indexes, character mappings, song attrib
 
 ### Parasakthi
 
-Parasakthi demonstrates non-trivial scene-number anomalies, complete Tamil fidelity verification, scene/dialogue/character/song layers, source-linked English translation, whole-work reader QA and preservation of source-unlabelled material outside a simplistic speaker model. Use it for complex numbering and mixed song/verse handling, never as textual authority for another work.
+Parasakthi demonstrates non-trivial scene-number anomalies, complete Tamil fidelity verification, scene/dialogue/character/song layers, source-linked English translation, whole-work reader QA and preservation of source-unlabelled material outside a simplistic speaker model.
 
 ### Tirumbippaar!
 
-Tirumbippaar demonstrates full-scan mapping, 104-page fidelity audit, explicit post-fidelity correction history, immutable 1,040-record dialogue indexing, character mapping without rewriting labels, cautious song authorship, 1,321-unit English translation, whole-work reader reconciliation and deterministic EPUB QA. It also establishes the preference for Reading Room publication over unnecessary duplicate standalone packages.
+Tirumbippaar demonstrates full-scan mapping, 104-page fidelity audit, immutable 1,040-record dialogue indexing, cautious song authorship, 1,321-unit English translation, whole-work reader reconciliation and deterministic EPUB QA.
 
 ### Raja Rani
 
-Raja Rani demonstrates old-typeface source review, direct user scan verdicts, late-correction reconciliation through every dependent layer, **79/79 source pages / 70/70 screenplay pages**, **58/58 scene derivatives**, **1,071 immutable dialogue records**, **80/80 exact labels / 44 entities**, **1,236 screenplay English units**, and a separate **11/11 numbered-song / 181 line-cue** English layer. Its whole-work QA caught duplicated derivative ownership across scene 55/56 without changing canonical page text. It is also the clearest precedent for repository-wide anti-staleness synchronization.
+Raja Rani demonstrates old-typeface source review, direct user scan verdicts, late-correction reconciliation through every dependent layer, **79/79 source pages / 70/70 screenplay pages**, **58/58 scene derivatives**, **1,071 immutable dialogue records**, **80/80 exact labels / 44 entities**, **1,236 screenplay English units**, and a separate **11/11 numbered-song / 181 line-cue** English layer. Its whole-work QA caught duplicated derivative ownership across scene 55/56 without changing canonical page text.
 
 ---
 
@@ -127,6 +127,9 @@ At minimum inspect `ணா / ணை / ணொ / ணோ / லை / ளை / றா
 
 ### O. Source-only performance evidence stays source-only in English
 A cue that a song is being sung does not authorize importing absent lyrics. A literary fragment embedded in an immutable dialogue record should be linked to its occurrence evidence without duplicating the same source span as a second translation unit.
+
+### P. Mixed-content immutable source records stay intact
+If a closed dialogue record owns a parenthetical action or an irregular embedded label/token, English should preserve that ownership and document the irregularity rather than splitting or silently reassigning source evidence for schema neatness.
 
 ---
 
@@ -260,9 +263,9 @@ Older handovers are historical checkpoints and never override newer live `main`.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 12/12 canonical PDF 2–13 pages; 1 story-summary record + 15 performance records; English 13 prose units + 15/15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricists remain 0 verified / 15 unresolved; site not applied.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS; site not applied.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 15/63 / 355 units**; next bounded batch **16–20**.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 20/63 / 477 units**; next bounded batch **21–25**.
 
-Current active mirrors use the post-correction 1,025-unit authority and scene-15 English checkpoint.
+Current active mirrors use the post-correction 1,025-unit authority and scene-20 English checkpoint.
 
 ---
 
@@ -295,22 +298,22 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - source punctuation normalization: **0**;
 - character/entity layer: **26 entities / 62/62 labels / 1,025/1,025 units**;
 - song/performance source gate: **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
-- English translation: **scene 15/63 / 355 verified units**;
-- English dialogue coverage: **295 explicit + 8 source-role supplements = 303 dialogue units**;
-- English stage/action units: **51**;
-- English song-reference units: **1**;
-- English cross-page units: **3**;
-- source-only occurrences linked in English: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+- English translation: **scene 20/63 / 477 verified units**;
+- English dialogue coverage: **393 explicit + 10 source-role supplements = 403 dialogue units**;
+- English stage/action units: **72**;
+- English song-reference units: **2**;
+- English cross-page units: **7**;
+- source-only occurrences linked in English: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - reader/export: blocked pending complete English.
 
 Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` are preserved as exact non-colon source forms.
 
-Batch 11–15 source safeguards:
+Batch 16–20 source safeguards:
 
-- scene 11 retains both context-attributed source-role supplements (`ammaiyappan-s011-r001`, `ammaiyappan-s011-r002`) without inventing printed labels;
-- scene 11 keeps the final fight narration, including its embedded warning, as scene narration rather than duplicate dialogue ownership;
-- scene 15 keeps `ammaiyappan-s015-d001` as one cross-page `குரல்` unit across PDF 31→32 with page-segment provenance;
-- irregular/fragmentary forms are not silently normalized for English fluency;
-- the closed song inventory contains no retained occurrence in scenes 11–15.
+- scene 17 retains both context-attributed source-role supplements (`ammaiyappan-s017-r001`, `ammaiyappan-s017-r002`) without inventing printed labels;
+- four new cross-page units retain one logical owner across their page boundaries;
+- scene 18 preserves the immutable source-irregular Maykkai Nadhar dialogue record instead of silently reassigning the extra `பூபதி:` token;
+- scene 19 translates `ammaiyappan-song-003` only as the source-visible singing cue; no title, lyric body or authorship is reconstructed;
+- scene 20 keeps embedded action inside immutable source dialogue records where that record owns it.
 
-**Exact next activity:** translate and source-review archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.
+**Exact next activity:** translate and source-review archival scenes **21–25** from frozen verified derivatives; preserve exact speaker/source-role/page provenance, keep cross-page units whole, consult `songs/inventory.json` before introducing any performance/verse unit, and do not modify frozen source evidence.
