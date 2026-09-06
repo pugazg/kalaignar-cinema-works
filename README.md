@@ -89,18 +89,18 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 55/63 — 1,106/1,106 current units**;
-- current English dialogue coverage: **925 explicit records + 15 source-role supplements = 940 dialogue units**;
-- current English stage/action units: **163**;
-- current English song-reference units: **2**;
+- English translation: **verified through scene 60/63 — 1,188/1,188 current units**;
+- current English dialogue coverage: **993 explicit records + 16 source-role supplements = 1,009 dialogue units**;
+- current English stage/action units: **175**;
+- current English song-reference units: **3**;
 - current English japa units: **1**;
-- current English cross-page units: **25**;
-- retained source-only occurrence links translated so far: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
-- reader/export: blocked pending complete English.
+- current English cross-page units: **28**;
+- retained source-only occurrence links translated so far: **5** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`, `ammaiyappan-song-005`;
+- reader/export: blocked pending final scenes and whole-work English reconciliation.
 
-Batch 51–55 adds **71 verified units**: 57 explicit dialogue links, 0 source-role supplements and 14 stage/action units. Scene 51 and scene 52 each contribute one cross-page unit. Scene 52 preserves coercive rhetoric without euphemism, keeps embedded source-owned actions inside immutable dialogue, retains uncertain `காப்பாரியிலே` by transliteration and preserves `கடமை, கண்ணியம், கட்டுப்பாடு` as a rhetorical triad. Scene 53 preserves `ஊடல்`, frozen `வெள்ளாட்டி` and its bitterly sarcastic sexual-coercion rhetoric without upstream repair. Scene 54 keeps `நாமார்க்கும் குடியல்லோம்: நமனை அஞ்சோம்!` inside Vedalam's dialogue rather than manufacturing a literary-verse occurrence. Scene 55 preserves the immediate execution order without adding procedure.
+Batch 56–60 adds **82 verified units**: 68 explicit dialogue links, 1 source-role supplement, 12 stage/action units and 1 song-reference unit. Scene 56 keeps two cross-page source records whole; scene 58 keeps Muthayi's three-page Self-Respect denunciation as one immutable record. Scene 59 preserves `ammaiyappan-s059-r001` as context-attributed Muthan speech and links `ammaiyappan-song-005` only to its distinct printed request and performance cue, without reconstructing a title, lyric body or authorship or merging unnamed song identities. Scene 60 preserves the golden-lotus metaphor and the political force of `விடுதலை விரும்பி` as `seeker of freedom`.
 
-**Next:** translate and source-review archival scenes **56–60** from the frozen verified derivatives. Scene 59 contains closed source-role supplement `ammaiyappan-s059-r001` and retained source-visible occurrence `ammaiyappan-song-005`; keep the supplement context-attributed and link only the source-visible song request/performance cue without reconstructing absent lyrics, title or authorship.
+**Next:** translate and source-review the final archival scenes **61–63**. After scene 63, perform whole-work English reconciliation before starting reader/export work.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
