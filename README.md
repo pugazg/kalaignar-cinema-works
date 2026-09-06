@@ -74,7 +74,7 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 
 ## அம்மையப்பன் status
 
-`TVA_BOK_0064230_அம்மையப்பன்.pdf` has **closed canonical Tamil, closed structured derivatives, and active verified English translation**.
+`TVA_BOK_0064230_அம்மையப்பன்.pdf` now has **closed canonical Tamil, closed structured derivatives, and complete-verified English translation with whole-work reconciliation PASS**.
 
 - canonical Tamil: **105/105 dual-gate complete-verified**;
 - visual fidelity / historical-glyph audit: **105/105 / 105/105 PASS**;
@@ -89,18 +89,20 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 60/63 — 1,188/1,188 current units**;
-- current English dialogue coverage: **993 explicit records + 16 source-role supplements = 1,009 dialogue units**;
-- current English stage/action units: **175**;
-- current English song-reference units: **3**;
-- current English japa units: **1**;
-- current English cross-page units: **28**;
-- retained source-only occurrence links translated so far: **5** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`, `ammaiyappan-song-005`;
-- reader/export: blocked pending final scenes and whole-work English reconciliation.
+- English translation: **complete-verified — 63/63 archival scenes / 1,210 units**;
+- English dialogue coverage: **1,009 explicit records + 16 source-role supplements = 1,025 dialogue units**;
+- English stage/action units: **181**;
+- English song-reference units: **3**;
+- English japa units: **1**;
+- English standalone literary-verse / written-text units: **0 / 0**;
+- English cross-page units: **28**;
+- retained source-only occurrence links translated: **5/5** — `ammaiyappan-song-001` through `ammaiyappan-song-005`;
+- whole-work English reconciliation: **PASS** — `works/ammaiyappan/translations/FINAL_TRANSLATION_QA.md`;
+- reader/export: **not started; reader/export preflight is next**.
 
-Batch 56–60 adds **82 verified units**: 68 explicit dialogue links, 1 source-role supplement, 12 stage/action units and 1 song-reference unit. Scene 56 keeps two cross-page source records whole; scene 58 keeps Muthayi's three-page Self-Respect denunciation as one immutable record. Scene 59 preserves `ammaiyappan-s059-r001` as context-attributed Muthan speech and links `ammaiyappan-song-005` only to its distinct printed request and performance cue, without reconstructing a title, lyric body or authorship or merging unnamed song identities. Scene 60 preserves the golden-lotus metaphor and the political force of `விடுதலை விரும்பி` as `seeker of freedom`.
+Final batch 61–63 adds **22 verified units**: **16 explicit dialogue links + 6 stage/action units**, with no source-role supplement, retained song/performance occurrence or new cross-page unit. Scene 61 remains action-only and does not identify the masked substitute before scene 62. Scene 62 preserves the masked-prisoner revelation, Sukhadev's halting explanation, Maappillaithaasar's atonement speech and the final `speech ends; life ends` parallel without external expansion. Scene 63 preserves the `Aththan` / `Amma` register, mother-recognition and liberation rhetoric; its closing stanza remains owned by immutable dialogue `ammaiyappan-s063-d012` rather than becoming a synthetic verse occurrence.
 
-**Next:** translate and source-review the final archival scenes **61–63**. After scene 63, perform whole-work English reconciliation before starting reader/export work.
+**Next:** run whole-work English reader/export preflight from the complete-verified structured translation. Generate the reader/export from the verified records rather than maintaining an independent manual copy; preserve all 1,025 dialogue units, all 28 cross-page units, all five occurrence links and archive-only scene numbering.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
