@@ -6,11 +6,17 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **not-started**;
+- canonical Tamil transcription: **partial first pass — PDF 5–9 / 5 of 67 pages**;
+- canonical Tamil verified pages: **0**;
 - visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **not-started**;
+- historical-Tamil-glyph audit: **partial first pass — 5 pages checked / 0 final-verified**;
+- open source uncertainty markers: **2**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
+
+Current transcription index: `transcription/index.json`  
+Current batch: `transcription/parts/pdf-005-009.md`  
+Current textual notes: `notes/textual-notes-pdf-005-009.md`
 
 ## Controlling source
 
@@ -48,6 +54,20 @@ The Bharathiyar item-level credit is a source-specific exception and must surviv
 - full scene-start map: `mapping.md`.
 
 Handwritten pencil numbers and marks near upper-right margins are later annotations and are not printed pagination or canonical text.
+
+## Canonical Tamil first-pass checkpoint
+
+PDF **5–9** has now been transcribed as a source-order draft. It covers the opening of `காட்சி 1`, the rain/Mari performance, `காட்சி 2`, and the opening of `காட்சி 3`.
+
+Safeguards:
+
+- PDF 5 has no invented printed-page number;
+- exact speaker labels, stage directions, source colloquial forms, punctuation and verse lineation are retained;
+- the rain/Mari song block remains part of the canonical source text; this phase does **not** adjudicate lyric authorship;
+- PDF 6 `அவளை` is treated as a historical-`ளை` glyph-decoding case;
+- PDF 6 `சூரியனால்` was checked against the historical `னா` family;
+- two source uncertainties remain explicit rather than guessed: a damaged introductory line on PDF 5 and one unclear montage word on PDF 9;
+- no page in this batch is called verified yet.
 
 ## Song / verse / performance structures mapped at intake
 
@@ -87,4 +107,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives.**
+**Continue canonical Tamil first-pass transcription with PDF 10–14, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
