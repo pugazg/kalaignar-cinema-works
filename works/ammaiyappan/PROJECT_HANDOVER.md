@@ -117,7 +117,7 @@ Scene layer:
 - dialogue index: **complete-source-role-resolved — 1,025/1,025 downstream units**;
 - character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,025 units**;
 - song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
-- English translation: **verified through scene 20/63 — 477/477 current units**;
+- English translation: **verified through scene 25/63 — 608/608 current units**;
 - reader/export: **blocked pending complete English**.
 
 ## Dialogue-index closure — FINAL QA PASS, post-correction authority
@@ -158,7 +158,7 @@ Use this layer only as an identity aid in English. Exact Tamil source labels rem
 ## Song / verse / performance authorship closure — FINAL SOURCE GATE
 
 - preflight candidate hits reviewed: **64/64**;
-- retained source-visible occurrences: **5**;
+- retained source-visible occurrences: **5**, in archival scenes **7, 10, 19, 40 and 59**;
 - unresolved authorship occurrences: **3**;
 - source-attributed literary quotation occurrences: **1**;
 - authorship-not-applicable japa occurrences: **1**;
@@ -175,37 +175,37 @@ Current files include:
 
 - `translations/schema.json` — locked scene/unit schema;
 - `translations/preflight.json` — authority and pilot preflight;
-- `translations/records/scene-001.json`–`scene-020.json` — verified translations through scene 20;
+- `translations/records/scene-001.json`–`scene-025.json` — verified translations through scene 25;
 - `translations/PILOT_REVIEW.md`;
 - `translations/BATCH_002_005_REVIEW.md`;
 - `translations/BATCH_006_010_REVIEW.md`;
 - `translations/BATCH_011_015_REVIEW.md`;
 - `translations/BATCH_016_020_REVIEW.md`;
+- `translations/BATCH_021_025_REVIEW.md`;
 - `translations/index.json` — active translation checkpoint.
 
-Cumulative verified checkpoint through scene 20:
+Cumulative verified checkpoint through scene 25:
 
-- verified scenes: **20/63**;
-- verified units: **477**;
-- dialogue units: **403** = **393 explicit immutable dialogue links + 10 source-role supplements**;
-- stage/action units: **72**;
+- verified scenes: **25/63**;
+- verified units: **608**;
+- dialogue units: **517** = **507 explicit immutable dialogue links + 10 source-role supplements**;
+- stage/action units: **89**;
 - standalone song-reference units: **2**;
-- cross-page units: **7**;
+- cross-page units: **11**;
 - source-visible song/performance occurrence links so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-Batch 16–20 establishes these additional decisions:
+Batch 21–25 establishes these additional decisions:
 
-- scene 16 keeps `ammaiyappan-s016-d005` whole across PDF 33→34 and does not silently repair frozen forms such as `திரித்திர நாராயணனிடம்`;
-- scene 17 preserves `ammaiyappan-s017-r001` and `ammaiyappan-s017-r002` as source-context-attributed supplements without manufacturing printed labels;
-- scene 17 keeps `ammaiyappan-s017-d003` whole across PDF 34→35;
-- scene 18 keeps its cross-page stage direction whole and preserves the immutable `மாய்க்கை நாதர்` record whose frozen text itself begins with the extra `பூபதி:` token;
-- scene 19 links `ammaiyappan-song-003` exactly once as a source-only singing cue; no title, lyric body or authorship is reconstructed;
-- scene 19 keeps `ammaiyappan-s019-d015` whole across PDF 40→41;
-- scene 20 preserves source-owned parenthetical action inside immutable dialogue records rather than splitting ownership for schema neatness.
+- scene 21 keeps `ammaiyappan-s021-d022` and `ammaiyappan-s021-d029` whole across their page boundaries; frozen forms `மாகமே`, `காகரத்த` and `கம்பிய` are not silently repaired;
+- scene 22 keeps `ammaiyappan-s022-d026` whole across PDF 49→50, preserves the `வால்` / `வாள்` wordplay, and does not externally interpret `ஆழ்வார்` beyond transliteration;
+- scene 23 preserves the `அமிர்த யோகம்` / `ராகு காலம்` contrast and keeps `(தனக்குள்)` within its immutable dialogue ownership;
+- scene 24 keeps `ammaiyappan-s024-d001` whole across PDF 52→53, preserves exact abbreviated source labels, and does not alter frozen `மிலக்கிறீர்` or `திலங்கர்` source evidence;
+- scene 25 preserves exact abbreviated labels `வேதா` / `சும` rather than normalizing them in source metadata;
+- the closed song/performance inventory has **no retained occurrence in scenes 21–25**, so the batch introduces no song/verse/japa/performance unit.
 
 Translation must preserve archive scene ID and PDF/printed-page provenance, exact Tamil speaker labels, source-role origin, structural distinctions, rhetoric/register, and the closed song/performance evidence. It must not alter canonical Tamil or immutable dialogue evidence.
 
 ## Exact next activity
 
-> **Translate and source-review archival scenes 21–25 from the frozen verified derivatives. Preserve exact Tamil speaker labels, source-role origin and PDF/printed-page provenance, keep cross-page units whole, consult `songs/inventory.json` before introducing any verse/song/japa/performance unit, and do not modify frozen source evidence.**
+> **Translate and source-review archival scenes 26–30 from the frozen verified derivatives. The closed source-role layer has no supplements in scenes 26–30, and the closed song/performance inventory has no retained occurrence in this range. Preserve exact Tamil speaker labels and PDF/printed-page provenance, keep cross-page units whole, and do not modify frozen source evidence.**
