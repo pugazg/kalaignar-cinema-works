@@ -1,7 +1,7 @@
 {
   "work_id": "ammaiyappan",
   "target_language": "en",
-  "status": "verified-through-scene-020",
+  "status": "verified-through-scene-025",
   "schema": "schema.json",
   "readme": "README.md",
   "preflight": "preflight.json",
@@ -10,18 +10,18 @@
   "pilot_scene": "ammaiyappan-s001",
   "source_scene_numbering": "none-printed",
   "scenes_expected": 63,
-  "scenes_started": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-  "scenes_verified": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "scenes_started": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+  "scenes_verified": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
   "scenes_in_review": [],
-  "translation_units": 477,
+  "translation_units": 608,
   "unit_status_counts": {
     "draft": 0,
     "review": 0,
-    "verified": 477
+    "verified": 608
   },
   "unit_kind_counts": {
-    "dialogue": 403,
-    "stage-direction": 72,
+    "dialogue": 517,
+    "stage-direction": 89,
     "song-reference": 2,
     "literary-verse": 0,
     "japa": 0,
@@ -47,10 +47,15 @@
     {"scene_id":"ammaiyappan-s017","archival_scene_ordinal":17,"path":"records/scene-017.json","unit_count":27,"status":"verified"},
     {"scene_id":"ammaiyappan-s018","archival_scene_ordinal":18,"path":"records/scene-018.json","unit_count":20,"status":"verified"},
     {"scene_id":"ammaiyappan-s019","archival_scene_ordinal":19,"path":"records/scene-019.json","unit_count":24,"status":"verified"},
-    {"scene_id":"ammaiyappan-s020","archival_scene_ordinal":20,"path":"records/scene-020.json","unit_count":41,"status":"verified"}
+    {"scene_id":"ammaiyappan-s020","archival_scene_ordinal":20,"path":"records/scene-020.json","unit_count":41,"status":"verified"},
+    {"scene_id":"ammaiyappan-s021","archival_scene_ordinal":21,"path":"records/scene-021.json","unit_count":42,"status":"verified"},
+    {"scene_id":"ammaiyappan-s022","archival_scene_ordinal":22,"path":"records/scene-022.json","unit_count":55,"status":"verified"},
+    {"scene_id":"ammaiyappan-s023","archival_scene_ordinal":23,"path":"records/scene-023.json","unit_count":9,"status":"verified"},
+    {"scene_id":"ammaiyappan-s024","archival_scene_ordinal":24,"path":"records/scene-024.json","unit_count":16,"status":"verified"},
+    {"scene_id":"ammaiyappan-s025","archival_scene_ordinal":25,"path":"records/scene-025.json","unit_count":9,"status":"verified"}
   ],
-  "dialogue_source_records_expected_in_completed_scenes": 393,
-  "dialogue_source_records_linked": 393,
+  "dialogue_source_records_expected_in_completed_scenes": 507,
+  "dialogue_source_records_linked": 507,
   "source_role_supplement_records_linked": 10,
   "cross_page_translation_units": [
     "ammaiyappan-en-s004-u002",
@@ -59,7 +64,11 @@
     "ammaiyappan-en-s016-u005",
     "ammaiyappan-en-s017-u004",
     "ammaiyappan-en-s018-u009",
-    "ammaiyappan-en-s019-u016"
+    "ammaiyappan-en-s019-u016",
+    "ammaiyappan-en-s021-u025",
+    "ammaiyappan-en-s021-u032",
+    "ammaiyappan-en-s022-u028",
+    "ammaiyappan-en-s024-u002"
   ],
   "translated_song_performance_occurrences": [
     "ammaiyappan-song-001",
@@ -72,16 +81,18 @@
     "scenes 2-5",
     "scenes 6-10",
     "scenes 11-15",
-    "scenes 16-20"
+    "scenes 16-20",
+    "scenes 21-25"
   ],
   "batch_review_paths": [
     "BATCH_002_005_REVIEW.md",
     "BATCH_006_010_REVIEW.md",
     "BATCH_011_015_REVIEW.md",
-    "BATCH_016_020_REVIEW.md"
+    "BATCH_016_020_REVIEW.md",
+    "BATCH_021_025_REVIEW.md"
   ],
-  "next_scene_batch": "21-25",
-  "next_activity": "Translate and source-review archival scenes 21-25 from the frozen verified derivatives. Preserve exact Tamil speaker labels, source-role origin and page provenance; keep cross-page units whole; consult songs/inventory.json before introducing any verse, song, japa or performance unit; do not alter frozen source evidence.",
+  "next_scene_batch": "26-30",
+  "next_activity": "Translate and source-review archival scenes 26-30 from the frozen verified derivatives. Preserve exact Tamil speaker labels, source-role origin and page provenance; keep cross-page units whole; consult songs/inventory.json before introducing any verse, song, japa or performance unit; do not alter frozen source evidence.",
   "canonical_tamil_modified": false,
   "scene_files_modified": false,
   "dialogue_records_modified": false,
