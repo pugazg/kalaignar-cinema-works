@@ -160,7 +160,7 @@ transcription_progress:
   retrospective_historical_glyph_sync_commit: "880978627191a122f55b50522d112d163faa7e10"
   next_pdf_page: null
   next_logical_printed_page: null
-  next_action: "Continue verified English translation from the frozen Tamil and completed structured derivatives."
+  next_action: "Canonical Tamil and English translation are closed; proceed to reader/export preflight from verified structured derivatives."
 
 fidelity_audit:
   status: complete-pass
@@ -251,20 +251,23 @@ structured_derivatives:
   song_unresolved_authorship_occurrences: 3
   song_full_named_lyric_blocks_printed: 0
   song_standalone_tamil_lyric_files: 0
-  english_translation: verified-through-scene-060
+  english_translation: complete-verified
   english_translation_index_path: "translations/index.json"
-  english_translation_scenes_verified: 60
-  english_translation_units_verified: 1188
-  english_translation_explicit_dialogue_links: 993
+  english_translation_final_qa_path: "translations/FINAL_TRANSLATION_QA.md"
+  english_translation_scenes_verified: 63
+  english_translation_units_verified: 1210
+  english_translation_explicit_dialogue_links: 1009
   english_translation_source_role_supplements: 16
-  english_translation_stage_action_units: 175
+  english_translation_stage_action_units: 181
   english_translation_song_reference_units: 3
   english_translation_japa_units: 1
+  english_translation_literary_verse_units: 0
+  english_translation_written_text_units: 0
   english_translation_cross_page_units: 28
   english_translation_song_performance_occurrence_links: 5
-  english_translation_next_scene_batch: "61-63"
-  reader_export: blocked-pending-english
-  reading_room_integration: blocked-pending-english
+  english_translation_next_scene_batch: null
+  reader_export: not-started-pending-preflight
+  reading_room_integration: blocked-pending-reader-export
 
 status:
   duplicate_work_check: complete
@@ -281,8 +284,8 @@ status:
   dialogue_index: complete-source-role-resolved-1025-of-1025
   character_entity_index: complete-verified-reconciled-26-entities-62-labels-1025-units
   song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
-  english_translation: verified-through-scene-060-60-of-63-1188-units
-  reader_export: blocked-pending-english
-  reading_room_integration: blocked-pending-english
+  english_translation: complete-verified-63-of-63-1210-units
+  reader_export: not-started-pending-preflight
+  reading_room_integration: blocked-pending-reader-export
 
-next_action: "Translate and source-review final archival scenes 61-63 from the frozen verified derivatives; reconfirm live closed source-role and song/performance evidence before writing, preserve exact Tamil speaker labels and page provenance, keep cross-page source units whole, and do not alter frozen source evidence. After scene 63, perform whole-work English reconciliation before starting reader/export work."
+next_action: "Run whole-work English reader/export preflight from the complete-verified 63-scene translation. Generate reader/export from verified structured records rather than an independent manual copy; preserve archival scene IDs as navigation only, exact source provenance, all 1,025 dialogue units, all 28 cross-page units and all five source-visible occurrence links."
