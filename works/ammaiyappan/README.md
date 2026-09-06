@@ -119,25 +119,26 @@ The other preserved source-explicit non-colon form remains scene 5 `திரு
 | Dialogue index | **complete-source-role-resolved — 1,025/1,025 downstream units (1,009 explicit + 16 supplements)** |
 | Character/entity index | **complete-verified-reconciled — 26 entities / 62 labels / 1,025 units** |
 | Song/performance authorship gate | **complete-verified-source-only — 5 source-visible occurrences / 0 standalone lyric files** |
-| English translation / reader | **verified through scene 35/63 — 889/889 current units; reader blocked pending complete English** |
+| English translation / reader | **verified through scene 40/63 — 979/979 current units; reader blocked pending complete English** |
 
 Late source correction before scene generation: PDF 10 heading `மடாலயம்` → **`மாடம்`**, direct-scan verified and recorded in `notes/post-fidelity-corrections.md`; no derivative regeneration was needed because scene files did not yet exist. Post-fidelity correction commit: `a38601a0961e8e3035a9aa1c7b6fa3c73c419ed9`.
 
-## English checkpoint through scene 35
+## English checkpoint through scene 40
 
-- verified scenes: **35/63**;
-- verified English units: **889**;
-- dialogue units: **760** = **746 explicit dialogue records + 14 source-role supplements**;
-- stage/action units: **127**;
+- verified scenes: **40/63**;
+- verified English units: **979**;
+- dialogue units: **840** = **826 explicit dialogue records + 14 source-role supplements**;
+- stage/action units: **136**;
 - standalone song-reference units: **2**;
-- cross-page English units: **21**;
-- song/performance occurrence links encountered so far: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
+- japa units: **1**;
+- cross-page English units: **22**;
+- unique song/performance occurrence links encountered so far: **4** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`, `ammaiyappan-song-004`;
 - frozen Tamil/dialogue/character/song evidence modified by English: **no**.
 
-Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`, `translations/BATCH_006_010_REVIEW.md`, `translations/BATCH_011_015_REVIEW.md`, `translations/BATCH_016_020_REVIEW.md`, `translations/BATCH_021_025_REVIEW.md`, `translations/BATCH_026_030_REVIEW.md` and `translations/BATCH_031_035_REVIEW.md`.
+Batch QA is recorded in `translations/BATCH_002_005_REVIEW.md`, `translations/BATCH_006_010_REVIEW.md`, `translations/BATCH_011_015_REVIEW.md`, `translations/BATCH_016_020_REVIEW.md`, `translations/BATCH_021_025_REVIEW.md`, `translations/BATCH_026_030_REVIEW.md`, `translations/BATCH_031_035_REVIEW.md` and `translations/BATCH_036_040_REVIEW.md`.
 
-Batch 31–35 adds **151** verified units: **132** explicit dialogue links, **1** already-closed source-role supplement and **18** stage/action units. Five new cross-page logical units remain whole. Scene 32 remains action-only with no invented speech; scene 34 preserves frozen `வாட்டமா நான்?` by transliteration; scene 35 retains exact source-label ownership, the context-attributed Tirisangu supplement, gender-equality/Ardhanarishvara rhetoric, disguise/cross-dressing, ring exchange and Rama/Sita/Lakshmana humour without changing frozen evidence.
+Batch 36–40 adds **90** verified units: **80** explicit dialogue links, **0** source-role supplements, **9** stage/action units and **1** japa unit. The only new cross-page unit is scene 37 d003. Scene 36 preserves the `ஆராரோ` span inside its immutable merchant dialogue without inventing a song occurrence. Scene 40 links `ammaiyappan-song-004` only to the source-visible Sukhadev japa cue and separately printed `முத்தாயி...முத்தாயி...` dialogue token; it creates no soundtrack title, lyric body or authorship claim.
 
 ## Exact next activity
 
-**Translate and source-review archival scenes 36–40 from the frozen verified derivatives. Inspect the live closed source-role layer before writing and consult `songs/inventory.json`; archival scene 40 contains a retained source-visible song/performance occurrence and must be represented only to the extent supported by the booklet. Preserve exact Tamil speaker labels, source-role origin and page provenance, keep cross-page units whole, and do not alter frozen source evidence.**
+**Translate and source-review archival scenes 41–45 from the frozen verified derivatives. The closed source-role layer has no supplements in scenes 41–45 and the closed song/performance inventory has no retained occurrence in that range. Preserve exact Tamil speaker labels and page provenance, keep cross-page source units whole, and do not alter frozen source evidence.**
