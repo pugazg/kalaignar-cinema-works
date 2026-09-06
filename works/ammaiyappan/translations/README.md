@@ -2,7 +2,7 @@
 
 **Canonical authority:** 105/105 dual-gate verified Tamil, 63/63 verified scene derivatives, **1,009 explicit dialogue records + 16 source-role supplements = 1,025 downstream units**, reconciled 26-entity / 62-label character layer, and the closed source-only song/performance gate  
 **Target language:** English (`en`)  
-**Status:** **verified through archival scene 15 / 63; 355/355 current units verified**
+**Status:** **verified through archival scene 20 / 63; 477/477 current units verified**
 
 This layer is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -81,18 +81,32 @@ Scenes 11–15 add **130 verified units**:
 
 Scene 11 preserves `ammaiyappan-s011-r001` and `ammaiyappan-s011-r002` as context-attributed provenance rather than inventing printed speaker labels. Scene 15 keeps its opening `குரல்` record whole across the page boundary and does not externally repair the fragmentary source wording. Detailed QA is in `BATCH_011_015_REVIEW.md`.
 
-## Cumulative English status through scene 15
+### Batch — scenes 16–20
 
-- verified scenes: **15/63**;
-- verified units: **355**;
-- dialogue units: **303** = **295 explicit dialogue records + 8 source-role supplements**;
-- stage/action units: **51**;
-- standalone song-reference units: **1**;
-- cross-page units: **3**;
-- song/performance occurrence links: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
+Scenes 16–20 add **122 verified units**:
+
+- explicit dialogue links: **98/98**;
+- source-role supplements: **2/2** — both in scene 17;
+- stage/action units: **21**;
+- standalone song-reference units: **1** — scene 19 `ammaiyappan-song-003`;
+- cross-page logical units: **4** — scenes 16, 17, 18 and 19;
+- retained source-only song/performance occurrences encountered: **1/1** — `ammaiyappan-song-003`;
+- decorative stars translated as prose: **0**.
+
+Scene 17 preserves both context-attributed supplements without inventing printed speaker labels. Scene 18 keeps the source-irregular Maykkai Nadhar record containing the extra `பூபதி:` token intact. Scene 19 translates only the printed cue that Muthan is singing and does not reconstruct a title or lyrics. Scene 20 retains mixed source-owned parenthetical actions inside their immutable dialogue records. Detailed QA is in `BATCH_016_020_REVIEW.md`.
+
+## Cumulative English status through scene 20
+
+- verified scenes: **20/63**;
+- verified units: **477**;
+- dialogue units: **403** = **393 explicit dialogue records + 10 source-role supplements**;
+- stage/action units: **72**;
+- standalone song-reference units: **2**;
+- cross-page units: **7**;
+- song/performance occurrence links: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - canonical Tamil changes: **0**;
 - dialogue/character/song evidence changes: **0**.
 
 ## Next
 
-Translate and source-review archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.
+Translate and source-review archival scenes **21–25** from the frozen verified derivatives. Preserve exact Tamil speaker labels, source-role origin and page provenance; keep cross-page units whole; consult the closed song/performance inventory before introducing any verse, song, japa or performance unit; do not alter frozen source evidence.
