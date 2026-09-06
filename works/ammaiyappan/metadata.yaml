@@ -251,14 +251,17 @@ structured_derivatives:
   song_unresolved_authorship_occurrences: 3
   song_full_named_lyric_blocks_printed: 0
   song_standalone_tamil_lyric_files: 0
-  english_translation: verified-through-scene-005
+  english_translation: verified-through-scene-010
   english_translation_index_path: "translations/index.json"
-  english_translation_scenes_verified: 5
-  english_translation_units_verified: 108
-  english_translation_explicit_dialogue_links: 93
-  english_translation_source_role_supplements: 2
-  english_translation_cross_page_units: 1
-  english_translation_next_scene_batch: "6-10"
+  english_translation_scenes_verified: 10
+  english_translation_units_verified: 225
+  english_translation_explicit_dialogue_links: 190
+  english_translation_source_role_supplements: 6
+  english_translation_stage_action_units: 28
+  english_translation_song_reference_units: 1
+  english_translation_cross_page_units: 2
+  english_translation_song_performance_occurrence_links: 2
+  english_translation_next_scene_batch: "11-15"
   reader_export: blocked-pending-english
   reading_room_integration: blocked-pending-english
 
@@ -277,8 +280,8 @@ status:
   dialogue_index: complete-source-role-resolved-1025-of-1025
   character_entity_index: complete-verified-reconciled-26-entities-62-labels-1025-units
   song_authorship_gate: complete-verified-source-only-64-reviewed-5-occurrences-0-lyric-files
-  english_translation: verified-through-scene-005-5-of-63-108-units
+  english_translation: verified-through-scene-010-10-of-63-225-units
   reader_export: blocked-pending-english
   reading_room_integration: blocked-pending-english
 
-next_action: "Translate and source-review archival scenes 6-10; scene 7 contains the first retained source-only song/performance occurrence and scene 10 the Kambar-attributed literary quotation."
+next_action: "Translate and source-review archival scenes 11-15; preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence."
