@@ -94,6 +94,20 @@ def main() -> None:
         "    assert len(dispositions) == 1024\n    assert len({x[\"record_id\"] for x in dispositions}) == 1024\n",
         "    assert len(dispositions) == expected_total\n    assert len({x['record_id'] for x in dispositions}) == expected_total\n",
     )
+    s = s.replace(
+        '    assert sum(x["dialogue_record_count"] for x in entities) == 1024\n',
+        '    assert sum(x["dialogue_record_count"] for x in entities) == expected_total\n',
+    )
+    s = s.replace('"dialogue_records_source": 1024,', '"dialogue_records_source": expected_total,')
+    s = s.replace('"dialogue_unit_coverage": "1024/1024",', '"dialogue_unit_coverage": f"{expected_total}/{expected_total}",')
+    s = s.replace('"dialogue_units": 1024,', '"dialogue_units": expected_total,')
+    s = s.replace(
+        '"coverage_note": "All 1,024 downstream dialogue units and all 62 exact source speaker labels have a verified disposition. `முத்` and `தன` are record-aware; no dialogue evidence is rewritten.",',
+        '"coverage_note": f"All {expected_total:,} downstream dialogue units and all 62 exact source speaker labels have a verified disposition. `முத்` and `தன` are record-aware; no dialogue evidence is rewritten.",',
+    )
+    marker = '    (C / "schema.json").write_text('
+    assert marker in s
+    s = s.replace(marker, '    readme = readme.replace("1,024", f"{expected_total:,}")\n\n' + marker, 1)
     be.write_text(s, encoding="utf-8")
 
     subprocess.run(["python", str(bp)], check=True)
