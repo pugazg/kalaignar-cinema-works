@@ -121,7 +121,7 @@ Scene layer:
 - dialogue index: **complete-source-role-resolved — 1,025/1,025 downstream units**;
 - character/entity index: **complete-verified-reconciled — 26 entities / 62 exact labels / 1,025 units**;
 - song/performance authorship gate: **complete-verified-source-only — 64/64 candidates reviewed; 5 retained occurrences; 0 standalone lyric files**;
-- English translation: **verified through scene 10/63 — 225/225 current units**;
+- English translation: **verified through scene 15/63 — 355/355 current units**;
 - reader/export: **blocked pending complete English**.
 
 ## Dialogue-index closure — FINAL QA PASS, post-correction authority
@@ -187,32 +187,34 @@ Current files:
 
 - `translations/schema.json` — locked scene/unit schema;
 - `translations/preflight.json` — authority and pilot preflight;
-- `translations/records/scene-001.json`–`scene-010.json` — verified translations through scene 10;
+- `translations/records/scene-001.json`–`scene-015.json` — verified translations through scene 15;
 - `translations/PILOT_REVIEW.md` — voice and integrity decisions;
 - `translations/BATCH_002_005_REVIEW.md` — first post-pilot batch QA;
 - `translations/BATCH_006_010_REVIEW.md` — second batch QA including source-only performance/verse linkage;
+- `translations/BATCH_011_015_REVIEW.md` — third batch QA including scene-11 supplements and scene-15 cross-page ownership;
 - `translations/index.json` — active translation checkpoint.
 
-Cumulative verified checkpoint through scene 10:
+Cumulative verified checkpoint through scene 15:
 
-- verified scenes: **10/63**;
-- verified units: **225**;
-- dialogue units: **196** = **190 explicit immutable dialogue links + 6 source-role supplements**;
-- stage/action units: **28**;
+- verified scenes: **15/63**;
+- verified units: **355**;
+- dialogue units: **303** = **295 explicit immutable dialogue links + 8 source-role supplements**;
+- stage/action units: **51**;
 - standalone song-reference units: **1**;
-- cross-page units: **2**;
+- cross-page units: **3**;
 - source-visible song/performance occurrence links so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - canonical Tamil/dialogue/character/song evidence changed by English: **no**.
 
-Batch 6–10 establishes these reusable decisions:
+Batch 11–15 establishes these additional decisions:
 
-- scene 6 preserves three context-attributed supplements and does not split immutable records merely because they contain embedded source action;
-- scene 7 translates only the source cue that the Muthan–Muthayi love-song performance is ending; no title, lyrics or authorship are invented;
-- scene 8 preserves its PDF 19→20 utterance as one cross-page unit and leaves the fragmentary quotation fragmentary;
-- scene 10 keeps the Kambar-attributed quotation inside immutable dialogue record `ammaiyappan-s010-d010`, with `ammaiyappan-song-002` linked as occurrence provenance rather than duplicated as a second verse record.
+- scene 11 preserves `ammaiyappan-s011-r001` and `ammaiyappan-s011-r002` as source-context-attributed supplements without manufacturing printed labels;
+- scene 11's final fight narration, including its embedded warning, remains scene-narrative ownership rather than duplicated dialogue;
+- scene 15 `ammaiyappan-s015-d001` remains one cross-page unit across PDF 31→32 with both page segments;
+- ambiguous frozen forms such as `பாரிக்கா`, `மால் நன்னோரம்`, `அகாதி`, `திருக்கிட்டு` and the fragmentary scene-15 opening are not silently repaired;
+- the closed song inventory has no retained occurrence in scenes 11–15, so the batch introduces no song/performance links.
 
 Translation must preserve archive scene ID and PDF/printed-page provenance, exact Tamil speaker labels, source-role origin, structural distinctions, rhetoric/register, and the closed song/performance evidence. It must not alter canonical Tamil or immutable dialogue evidence.
 
 ## Exact next activity
 
-> **Translate and source-review archival scenes 11–15. Preserve the closed source-role supplements in scene 11, exact Tamil speaker labels and PDF/printed-page provenance, and do not modify frozen source evidence.**
+> **Translate and source-review archival scenes 16–20. Preserve the two closed source-role supplements in scene 17 and, in scene 19, translate only the source-visible singing-performance cue represented by `ammaiyappan-song-003`; do not reconstruct a song title or lyrics.**
