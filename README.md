@@ -29,16 +29,19 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - source: **72 PDF pages**, image-only; SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
 - front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
 - source-numbered scenes: **45 — காட்சி 1–45**, sequential;
-- canonical Tamil first pass: **PDF 5–14 / 10 of 67 pages**;
-- completed first-pass batches: `works/naam/transcription/parts/pdf-005-009.md`, `works/naam/transcription/parts/pdf-010-014.md`;
+- canonical Tamil first pass: **PDF 5–24 / 20 of 67 pages**;
+- completed first-pass batches: `works/naam/transcription/parts/pdf-005-009.md`, `works/naam/transcription/parts/pdf-010-014.md`, `works/naam/transcription/parts/pdf-015-019.md`, `works/naam/transcription/parts/pdf-020-024.md`;
 - verified pages: **0**; separate visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **10/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–14 adds none;
-- source-fidelity precedents now include PDF 11 `கண்ணாடிச்`, PDF 12 `தளிர்ச்சிருக்கே`, PDF 13 `கீல்வலிக்கார தங்கையன்`, and PDF 14 `வாலாம்` retained as printed;
-- PDF 4 item-level credit safeguard remains `பாட்டு 'ஆயிரம் தெய்வங்கள்'—பாரதியார்.`; PDF 16 in the next batch reaches that explicit `[பாட்டு]` witness;
+- historical-glyph first-pass checked: **20/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–24 adds none;
+- PDF 21 `நீதானா...?` is a source-backed historical-`னா` decoding; the apparent modern-lookalike `நீதானு...?` is rejected;
+- PDF 20–24 retains source-period forms including `போறு ஞானம்!`, `மாடெல்லே`, `பாலிலா`, `தூர பந்து`, `மட்டாக`, and `கெளரவம்`;
+- PDF 16 / காட்சி 7 preserves the explicit `[பாட்டு]` booklet witness for `ஆயிரம் தெய்வங்கள்`, item-level credited on PDF 4 to **பாரதியார்**;
+- PDF 18 / காட்சி 8 preserves the lineated lyrical duet beginning `பேசும் யாழே பெண் மானே`; authorship remains **not adjudicated**;
+- PDF 20–24 introduces no newly distinct standalone song/lyric block;
 - downstream derivatives remain blocked pending verified Tamil.
 
-**Next:** Continue canonical Tamil first-pass transcription with PDF 15–19, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Next:** Continue canonical Tamil first-pass transcription with PDF 25–29, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 ## ராஜா ராணி status
 
 `TVA_BOK_0017188_ராஜா_ராணி.pdf` is a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.

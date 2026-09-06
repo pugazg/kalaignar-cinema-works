@@ -133,7 +133,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
-- **Naam / நாம்** — active work; intake/map complete; canonical Tamil first pass **PDF 5–14 / 10 of 67**; glyph first-pass **10/67**; verified **0/67**; 2 carried source uncertainties; next PDF 15–19. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+- **Naam / நாம்** — active work; intake/map complete; canonical Tamil first pass **PDF 5–24 / 20 of 67**; glyph first-pass **20/67**; verified **0/67**; 2 carried source uncertainties; PDF 21 `நீதானா...?` historical-`னா` decoding recorded; next PDF 25–29. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
 
 Ammayappan remains closed at its complete-verified checkpoint. The current active production work is **Naam / நாம்**, beginning canonical Tamil only after its completed source-intake and structural-mapping gate.
 
@@ -148,23 +148,22 @@ Source: `TVA_BOK_0064201_நாம்.pdf`
 - source SHA-256: `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
 - screenplay range: **PDF 5–71 / 67 pages**;
 - source-numbered scenes: **காட்சி 1–45**, sequential;
-- canonical Tamil first pass: **PDF 5–14 / 10 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–24 / 20 of 67 pages**;
 - canonical verified pages: **0**;
 - visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked / final verified: **10/67 / 0/67**;
+- historical-glyph first-pass checked / final verified: **20/67 / 0/67**;
 - open source uncertainties: **2**, both inherited from PDF 5/9;
-- current batch: `works/naam/transcription/parts/pdf-010-014.md`;
-- current source notes: `works/naam/notes/textual-notes-pdf-010-014.md`;
-- source-fidelity precedents: PDF 11 `கண்ணாடிச்` (`ணா`), PDF 12 `தளிர்ச்சிருக்கே`, PDF 13 `கீல்வலிக்கார தங்கையன்`, PDF 14 `வாலாம்` retained as printed;
+- current batch: `works/naam/transcription/parts/pdf-020-024.md`;
+- current source notes: `works/naam/notes/textual-notes-pdf-020-024.md`;
+- PDF 21 `நீதானா...?` is source-backed historical `னா`; apparent `நீதானு...?` is rejected;
+- PDF 20–24 preserves `போறு ஞானம்!`, `மாடெல்லே`, standalone `எங்கம்மா?`, `தூர பந்து`, `மட்டாக`, `கெளரவம்` and exact scene-heading variation `காட்சி-10.` / `காட்சி 11`;
+- PDF 20–24 adds no new uncertainty marker and no newly distinct standalone lyric/song block;
 - no first-pass page is yet `verified`;
 - structured derivatives / English / reader remain blocked.
 
-The next batch **PDF 15–19** enters PDF 16 / காட்சி 7's explicit `[பாட்டு]` witness. Preserve the booklet's item-level `ஆயிரம் தெய்வங்கள்` — `பாரதியார்` credit and do not use an outside lyric text to repair or extend the scan.
-
-**Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 15–19, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 25–29, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 
 ---
-
 ## 9. Ammayappan closed checkpoint
 
 Work: `works/ammaiyappan/`  
