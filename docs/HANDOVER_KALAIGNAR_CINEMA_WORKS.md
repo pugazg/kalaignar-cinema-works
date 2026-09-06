@@ -261,9 +261,9 @@ Older handovers are historical checkpoints and never override newer live `main`.
 - **Kalaignar Thirai Isai Paadalgal** — 54/54 verified Tamil and English songs; reader/export and Reading Room payload QA PASS; site not applied.
 - **Manthiri Kumari** — 12/12 canonical PDF 2–13 pages; 1 story-summary record + 15 performance records; English 13 prose units + 15/15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricists remain 0 verified / 15 unresolved; site not applied.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS; site not applied.
-- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 25/63 / 608 units**; next bounded batch **26–30**.
+- **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; source-only song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **verified through scene 30/63 / 738 units**; next bounded batch **31–35**.
 
-Current active mirrors use the post-correction 1,025-unit authority and scene-25 English checkpoint.
+Current active mirrors use the post-correction 1,025-unit authority and scene-30 English checkpoint.
 
 ---
 
@@ -296,23 +296,23 @@ Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 - source punctuation normalization: **0**;
 - character/entity layer: **26 entities / 62/62 labels / 1,025/1,025 units**;
 - song/performance source gate: **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**;
-- English translation: **scene 25/63 / 608 verified units**;
-- English dialogue coverage: **507 explicit + 10 source-role supplements = 517 dialogue units**;
-- English stage/action units: **89**;
+- English translation: **scene 30/63 / 738 verified units**;
+- English dialogue coverage: **614 explicit + 13 source-role supplements = 627 dialogue units**;
+- English stage/action units: **109**;
 - English song-reference units: **2**;
-- English cross-page units: **11**;
+- English cross-page units: **16**;
 - source-only occurrences linked in English: **3** — `ammaiyappan-song-001`, `ammaiyappan-song-002`, `ammaiyappan-song-003`;
 - reader/export: blocked pending complete English.
 
 Post-closure delimiter authority remains unchanged: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` are preserved as exact non-colon source forms.
 
-Batch 21–25 source safeguards:
+Batch 26–30 source safeguards:
 
-- scene 21 retains two cross-page immutable dialogue records and does not silently repair frozen forms `மாகமே`, `காகரத்த` or `கம்பிய`;
-- scene 22 keeps its cross-page political speech whole, preserves the `வால்` / `வாள்` wordplay and does not import external interpretation for `ஆழ்வார்`;
-- scene 23 preserves the `அமிர்த யோகம்` / `ராகு காலம்` contrast and its source-owned internal aside;
-- scene 24 retains exact source-label abbreviations, the cross-page opening record and frozen `மிலக்கிறீர்` / `திலங்கர்` evidence;
-- scene 25 retains the exact `வேதா` / `சும` labels rather than normalizing source metadata;
-- the closed song/performance gate has **0 retained occurrences in scenes 21–25**.
+- live source-role authority supersedes the stale prior handoff statement: scene 27 has `ammaiyappan-s027-r001` / `r002` and scene 30 has `ammaiyappan-s030-r001`; all remain context-attributed provenance, not invented printed labels;
+- five cross-page immutable records remain single logical owners: scene 26 d010, scene 27 d017, scene 29 d022/d035 and scene 30 d007;
+- scene 27 preserves immutable d022 ownership despite its embedded action/additional source tokens;
+- scene 29 keeps embedded source-owned actions and frozen comic/irregular wording without upstream repair;
+- scene 30 keeps the self-described Purananuru poem inside immutable d007 and translates it only from the frozen source text, with no external reconstruction or duplicate verse ownership;
+- the closed song/performance gate has **0 retained occurrences in scenes 26–30**.
 
-**Exact next activity:** translate and source-review archival scenes **26–30** from frozen verified derivatives. The closed source-role layer has no supplements in scenes 26–30 and the closed song/performance inventory has no retained occurrence in this range. Preserve exact speaker/page provenance, keep cross-page units whole, and do not modify frozen source evidence.
+**Exact next activity:** translate and source-review archival scenes **31–35** from frozen verified derivatives. The closed source-role layer contains one supplement in this range — `ammaiyappan-s035-r001`; the closed song/performance inventory has no retained occurrence in scenes 31–35. Preserve exact speaker/source-role/page provenance, keep cross-page units whole, and do not modify frozen source evidence.
