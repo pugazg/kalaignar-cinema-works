@@ -13,7 +13,6 @@ on:
       - "works/ammaiyappan/songs/inventory.json"
       - "works/ammaiyappan/editions/en/audit_probe.py"
       - "works/ammaiyappan/editions/en/build.py"
-      - "works/ammaiyappan/editions/en/sync_status.py"
       - ".github/workflows/ammaiyappan-english-reader-build.yml"
 
 permissions:
@@ -40,32 +39,19 @@ jobs:
       - name: Build and validate deterministic reader exports
         run: python works/ammaiyappan/editions/en/build.py
 
-      - name: Synchronize completed reader/export status
-        run: python works/ammaiyappan/editions/en/sync_status.py
-
-      - name: Commit generated reader package and synchronized status
+      - name: Commit generated reader package
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
-            README.md \
-            data/works.json \
-            docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md \
-            docs/STATUS_CONSISTENCY_AUDIT.md \
-            works/ammaiyappan/README.md \
-            works/ammaiyappan/PROJECT_HANDOVER.md \
-            works/ammaiyappan/NEXT_CHAT_PROMPT.md \
-            works/ammaiyappan/metadata.yaml \
-            works/ammaiyappan/translations/README.md \
-            works/ammaiyappan/translations/index.json \
             works/ammaiyappan/editions/en/reader-edition.md \
             works/ammaiyappan/editions/en/reader-edition.html \
             works/ammaiyappan/editions/en/reader-edition.json \
             works/ammaiyappan/editions/en/QA_REPORT.md \
             works/ammaiyappan/editions/en/manifest.json
           if git diff --cached --quiet; then
-            echo "Reader exports and status are already reproducible; nothing to commit."
+            echo "Reader exports are already reproducible; nothing to commit."
           else
             git commit -m "Build Ammayappan English reader package [skip ci]"
             git push
