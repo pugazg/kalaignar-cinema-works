@@ -13,7 +13,7 @@ Fetch live `main` first and preserve newer durable work. Never reset, repeat, or
 
 Last confirmed live checkpoint immediately before this prompt refresh:
 
-`bafccb565cc5992b56bf60a595da1af8732e392f` — **`Advance master handover through Ammayappan English scene 20`**
+`4f6b630a1d1af98a4f018fe21d7d7a89c9c41367` — **`Fix Ammayappan batch 16-20 QA wording`**
 
 If `main` has advanced, the newer state controls.
 
