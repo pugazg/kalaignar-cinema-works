@@ -89,17 +89,17 @@ The source-linked payload preserves the booklet's natural `கதைச்சு
 - character/entity index: **26 entities / 62 exact labels / 1,025/1,025 dialogue-unit coverage**;
 - post-closure source delimiter repairs: scene 3 `பூங் ; ...` and scene 5 `திரு; ...` remain exact non-colon source forms;
 - song/performance authorship gate: **64/64 candidates reviewed / 5 retained source-visible occurrences / 0 standalone lyric files**;
-- English translation: **verified through scene 10/63 — 225/225 current units**;
-- current English dialogue coverage: **190 explicit records + 6 source-role supplements**;
-- current English stage/action units: **28**;
+- English translation: **verified through scene 15/63 — 355/355 current units**;
+- current English dialogue coverage: **295 explicit records + 8 source-role supplements**;
+- current English stage/action units: **51**;
 - current English song-reference units: **1**;
-- current English cross-page units: **2**;
+- current English cross-page units: **3**;
 - retained source-only occurrence links translated so far: **2** — `ammaiyappan-song-001`, `ammaiyappan-song-002`;
 - reader/export: blocked pending complete English.
 
-Scene 7 translates only the printed cue that the Muthan–Muthayi love-song performance is ending; no title or lyric body is reconstructed. Scene 10 links the Kambar-attributed printed fragment inside its immutable Sukhadev dialogue record without duplicating source ownership.
+Scene 11 preserves both closed source-context-attributed supplements without manufacturing printed labels. Scene 15 keeps the `குரல்` record whole across PDF 31–32 with page-segment provenance. The closed song inventory has no retained occurrence in scenes 11–15.
 
-**Next:** translate and source-review archival scenes **11–15**, preserving the closed source-role supplements in scene 11 and all exact speaker/page provenance.
+**Next:** translate and source-review archival scenes **16–20**. Preserve the two closed source-role supplements in scene 17 and translate only the source-visible singing-performance cue in scene 19 (`ammaiyappan-song-003`); do not reconstruct a song title or lyrics.
 
 ## கலைஞர் திரை இசைப் பாடல்கள் status
 
