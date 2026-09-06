@@ -153,7 +153,7 @@ Parasakthi has complete-verified canonical Tamil and source-linked English reade
 - dialogue records: **1,040**;
 - English: **1,321 verified units**;
 - reader/export: **QA PASS**;
-- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2cc0cdcc23c7f`.
+- EPUB 3: **QA PASS**, SHA-256 `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
 
 **Next:** no required Tirumbippaar repository-internal translation/reader/package work remains.
 
