@@ -51,8 +51,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 10–14 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 15–19 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 20–24 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 25–71 | 47 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **20** | **0** | **20** | **partial-first-pass** |
+| PDF 25–29 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 30–71 | 42 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **25** | **0** | **25** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -62,6 +63,10 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 6 | 6 | old `னா` form in `சூரியனால்` | `சூரியனால்` | `னா` | enlarged source pixels; family explicitly checked before Unicode encoding | draft-supported |
 | 11 | 11 | old-form cluster in `கண்ணாடிச்` | `கண்ணாடிச்` | `ணா` | enlarged source pixels; positive family occurrence | draft-supported |
 | 21 | 21 | modern-lookalike `நீதானு...?` | `நீதானா...?` | `னா` | enlarged source pixels + binding guide's same-family precedent (`மட்டுந்தானு?` → `மட்டுந்தானா?`) | draft-supported |
+| 26 | 26 | old-form `லை` cluster in `அலைந்தான்` | `அலைந்தான்` | `லை` | enlarged source pixels + same-edition family comparison | draft-supported |
+| 27 | 27 | historical `ணை` cluster | `சாணைக்கல்லிலே` / `சாணைக்கல்லை` | `ணை` | enlarged source pixels; both same-page occurrences checked | draft-supported |
+| 28 | 28 | historical `லை` / `னா` shapes in phrase | `காதலை நான்` | `லை` / `னா` | enlarged source pixels + same-edition family comparison | draft-supported |
+| 29 | 29 | historical `ணா` cluster in payment wording | `அணா` | `ணா` | enlarged source pixels; repeated source occurrence | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -89,6 +94,21 @@ These are local source-fidelity corrections, not historical-family substitution 
 
 The non-glyph items above are textual-fidelity decisions and do not create replacement rules.
 
+## PDF 25–29 glyph/text findings
+
+- PDF 26 `அலைந்தான்` is a source-backed historical-`லை` decoding;
+- PDF 27 `சாணைக்கல்லிலே` and `சாணைக்கல்லை` are checked historical-`ணை` cases;
+- PDF 28 `காதலை நான்` was checked specifically against historical `லை` / `னா` forms;
+- PDF 29 `அணா` is a positive historical-`ணா` case, visible in the payment exchange;
+- PDF 25 source speaker forms `சஞ்சீவி` / `சஞ்` remain as printed;
+- PDF 26 retains `தயாரப்பட்ட விஷம்`, `மதோன்மத்த வம்சத்தின்`, `மண்ணுங்கட்டியாவது`, `சுத்தப் பைத்தியக்காரனு`;
+- PDF 27 retains `உயில் ஒரு வாள்!`, `ஏராளமான சம்பத்துகள்`, `ஏமாற்றத்தையும் ஏணிப்படியாக்கிக்`;
+- PDF 28 retains `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, and the source-unlabeled dialogue continuations;
+- PDF 29 retains `காண்டிராக்ட்காரன்`;
+- PDF 25–29 introduced **0 new explicit uncertainty markers**.
+
+The non-glyph items above are source-fidelity decisions and do not create replacement rules.
+
 ## Source-irregular forms retained
 
 - PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass;
@@ -97,13 +117,14 @@ The non-glyph items above are textual-fidelity decisions and do not create repla
 - PDF 15 `பிரேமா வாகவர்` remains as printed;
 - PDF 17's extended labour/tax rhetoric remains source-controlled;
 - PDF 19 `சோபிதத்தை`, `கானல் மாடுமே`, and `காதியின்` remain unmodernized first-pass readings;
-- PDF 20–24 source-irregular/period wording remains as documented in `textual-notes-pdf-020-024.md`.
+- PDF 20–24 source-irregular/period wording remains as documented in `textual-notes-pdf-020-024.md`;
+- PDF 25–29 source-irregular/period wording remains as documented in `textual-notes-pdf-025-029.md`.
 
 ## Performance evidence affecting later gates
 
 - PDF 16 / `காட்சி 7` contains an explicit `[பாட்டு]` witness with three numbered sections. The booklet's PDF 4 item-level credit identifies **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. No outside lyric witness was used.
 - PDF 18 / `காட்சி 8` contains a source-visible lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. Its authorship remains unadjudicated.
-- PDF 20–24 introduces no newly distinct standalone lyric/song structure.
+- PDF 20–29 introduces no newly distinct standalone lyric/song structure.
 
 These observations are structural/source evidence only and do not bypass the canonical dual gate.
 
@@ -111,7 +132,7 @@ These observations are structural/source evidence only and do not bypass the can
 
 - PDF 5: one physically damaged introductory line remains unresolved;
 - PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved;
-- PDF 10–24 introduced **0 new explicit uncertainty markers**.
+- PDF 10–29 introduced **0 new explicit uncertainty markers**.
 
 Neither open issue is being guessed from context.
 
@@ -125,4 +146,4 @@ Neither open issue is being guessed from context.
 
 ## Next activity
 
-Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 25–29**. Do not mark PDF 5–24 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.
+Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 30–34**. Do not mark PDF 5–29 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.

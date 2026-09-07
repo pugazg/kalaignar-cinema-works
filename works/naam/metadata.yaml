@@ -67,28 +67,29 @@ canonical_tamil:
   index_path: "transcription/index.json"
   status: partial-first-pass
   pages_expected: 67
-  first_pass_pages_completed: 20
-  first_pass_pdf_range_completed: "5-24"
-  first_pass_current_through_pdf: 24
-  first_pass_current_through_printed_page: 24
-  draft_pages: 20
+  first_pass_pages_completed: 25
+  first_pass_pdf_range_completed: "5-29"
+  first_pass_current_through_pdf: 29
+  first_pass_current_through_printed_page: 29
+  draft_pages: 25
   verified_pages: 0
-  review_pages: 20
+  review_pages: 25
   open_uncertainty_markers: 2
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
     - "transcription/parts/pdf-010-014.md"
     - "transcription/parts/pdf-015-019.md"
     - "transcription/parts/pdf-020-024.md"
-  current_batch_path: "transcription/parts/pdf-020-024.md"
-  current_textual_notes_path: "notes/textual-notes-pdf-020-024.md"
+    - "transcription/parts/pdf-025-029.md"
+  current_batch_path: "transcription/parts/pdf-025-029.md"
+  current_textual_notes_path: "notes/textual-notes-pdf-025-029.md"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
   status: partial-first-pass
   main_text_pages_expected: 67
-  pages_checked: 20
+  pages_checked: 25
   pages_verified: 0
   known_families:
     - "ணா"
@@ -110,10 +111,24 @@ historical_glyph:
     apparent: "நீதானு...?"
     source_supported_unicode: "நீதானா...?"
     family: "னா"
+  batch_025_029_consequential_decodings:
+    - pdf_page: 26
+      source_supported_unicode: "அலைந்தான்"
+      family: "லை"
+    - pdf_page: 27
+      source_supported_unicode: "சாணைக்கல்லிலே"
+      family: "ணை"
+    - pdf_page: 28
+      source_supported_unicode: "காதலை நான்"
+      family: "லை / னா"
+    - pdf_page: 29
+      source_supported_unicode: "அணா"
+      family: "ணா"
 
 mapped_source_visible_performance_structures:
   status: intake-plus-first-pass-candidates
   high_confidence_blocks: 6
+  pdf_25_29_new_performance_structures: 0
   blocks:
     - pdf_pages: "16"
       scene: 7
@@ -152,9 +167,9 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_transcription: partial-first-pass-through-pdf-024
+  canonical_tamil_transcription: partial-first-pass-through-pdf-029
   visual_fidelity_audit: not-started
-  historical_glyph_audit: partial-first-pass-through-pdf-024
+  historical_glyph_audit: partial-first-pass-through-pdf-029
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -169,4 +184,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Continue canonical Tamil first-pass transcription with PDF 25-29, preserving source order and stable page anchors and performing page-level historical-glyph checks. Keep all pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
+next_action: "Continue canonical Tamil first-pass transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."

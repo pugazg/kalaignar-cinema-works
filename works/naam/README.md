@@ -6,17 +6,17 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **partial first pass — PDF 5–24 / 20 of 67 pages**;
+- canonical Tamil transcription: **partial first pass — PDF 5–29 / 25 of 67 pages**;
 - canonical Tamil verified pages: **0**;
 - visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **partial first pass — 20 pages checked / 0 final-verified**;
+- historical-Tamil-glyph audit: **partial first pass — 25 pages checked / 0 final-verified**;
 - open source uncertainty markers: **2**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
-Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`  
-Current textual notes: `notes/textual-notes-pdf-020-024.md`
+Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`  
+Current textual notes: `notes/textual-notes-pdf-025-029.md`
 
 ## Controlling source
 
@@ -57,7 +57,7 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–24** has now been transcribed as source-order draft material in four five-page batches. The current layer continues `காட்சி 9`, contains `காட்சி-10.`, and opens `காட்சி 11`.
+PDF **5–29** has now been transcribed as source-order draft material in five five-page batches. The newest batch contains `காட்சி 12`, `காட்சி 13`, and opens `காட்சி 14`.
 
 Safeguards:
 
@@ -68,10 +68,14 @@ Safeguards:
 - PDF 11 `கண்ணாடிச்` is a positive `ணா`-family first-pass case;
 - scan-backed reconciliation of PDF 15–19 corrected `எல்லோருக்கும்`, `உருண்டோடிடுமே`, `அவன் கை வலி`, `என்னே`, and `என் மருமகளும்`;
 - PDF 21 `நீதானா...?` is a historical-`னா` decoding: the old glyph can resemble `நீதானு...?`, but the source-supported Unicode identity is `நீதானா...?`;
-- source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, and PDF 24 `கெளரவம்` remain unmodernized;
+- PDF 26 `அலைந்தான்` is source-backed `லை`;
+- PDF 27 `சாணைக்கல்லிலே` / `சாணைக்கல்லை` are checked historical-`ணை` cases;
+- PDF 28 `காதலை நான்` is checked against historical `லை` / `னா` forms;
+- PDF 29 `அணா` is a positive historical-`ணா` case;
+- source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, PDF 24 `கெளரவம்`, and PDF 25–29 `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, `காண்டிராக்ட்காரன்` remain unmodernized;
 - two source uncertainties remain explicit rather than guessed: a damaged introductory line on PDF 5 and one unclear montage word on PDF 9;
-- PDF 20–24 adds **0** new uncertainty markers;
-- **0** of the twenty first-pass pages are called verified yet.
+- PDF 10–29 adds **0** new uncertainty markers;
+- **0** of the twenty-five first-pass pages are called verified yet.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -84,7 +88,7 @@ High-confidence source-visible structures now include:
 5. PDF 59–60 — two poetic/song-like blocks between காட்சி 36 and காட்சி 37;
 6. PDF 64 / காட்சி 39 — explicit **`பின்னணிப் பாடல்`** block.
 
-PDF 15 also contains the quoted fragment `ஓரிடந்தனிலே...`; it remains dialogue-owned and is not promoted to a reconstructed standalone song. PDF 20–24 introduces no newly distinct standalone lyric/song block.
+PDF 15 also contains the quoted fragment `ஓரிடந்தனிலே...`; it remains dialogue-owned and is not promoted to a reconstructed standalone song. PDF 20–29 introduces no newly distinct standalone lyric/song block.
 
 These structures remain source candidates until verified canonical transcription and the later song/performance gate. No missing lyrics or authorship will be reconstructed from outside sources.
 
@@ -114,4 +118,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 25–29, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+**Continue canonical Tamil first-pass transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**

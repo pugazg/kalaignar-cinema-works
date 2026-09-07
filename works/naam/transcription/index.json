@@ -5,17 +5,17 @@
   "canonical_pdf_range": [5, 71],
   "canonical_pages_expected": 67,
   "first_pass_complete": false,
-  "first_pass_pages_completed": 20,
-  "first_pass_pdf_range_completed": [5, 24],
-  "draft_pages": 20,
+  "first_pass_pages_completed": 25,
+  "first_pass_pdf_range_completed": [5, 29],
+  "draft_pages": 25,
   "verified_pages": 0,
   "visual_fidelity_passed_pages": 0,
-  "historical_glyph_checked_pages": 20,
+  "historical_glyph_checked_pages": 25,
   "historical_glyph_verified_pages": 0,
-  "review_pages": 20,
+  "review_pages": 25,
   "open_uncertainty_markers": 2,
-  "current_through_pdf": 24,
-  "current_through_printed_page": 24,
+  "current_through_pdf": 29,
+  "current_through_printed_page": 29,
   "pdf_5_printed_page_number_visible": false,
   "parts": [
     {
@@ -49,10 +49,18 @@
       "status": "draft-needs-review",
       "historical_glyph_status": "checked-first-pass",
       "open_uncertainties": 0
+    },
+    {
+      "path": "parts/pdf-025-029.md",
+      "pdf_range": [25, 29],
+      "printed_range": [25, 29],
+      "status": "draft-needs-review",
+      "historical_glyph_status": "checked-first-pass",
+      "open_uncertainties": 0
     }
   ],
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
-  "next_batch_pdf_range": [25, 29],
-  "next_action": "Continue canonical Tamil first-pass transcription with PDF 25-29, preserving source order and page anchors and performing the page-level historical-glyph first-pass. Do not mark pages verified until the later separate visual-fidelity and final historical-glyph gates pass."
+  "next_batch_pdf_range": [30, 34],
+  "next_action": "Continue canonical Tamil first-pass transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
 }
