@@ -14,10 +14,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - whole scan inspected: **72/72 PDF pages**;
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
-- canonical Tamil: **partial first pass — PDF 5–44 / 40 of 67 pages**;
+- canonical Tamil: **partial first pass — PDF 5–49 / 45 of 67 pages**;
 - canonical Tamil verified: **0/67**;
 - visual fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **40/67**;
+- historical-glyph first-pass checked: **45/67**;
 - historical-glyph final verified: **0/67**;
 - open source uncertainty markers: **2**;
 - downstream structured/English/reader layers: **blocked/not-started**.
@@ -34,6 +34,7 @@ Current canonical files:
 - `transcription/parts/pdf-030-034.md`;
 - `transcription/parts/pdf-035-039.md`;
 - `transcription/parts/pdf-040-044.md`;
+- `transcription/parts/pdf-045-049.md`;
 - `notes/textual-notes-pdf-005-009.md`;
 - `notes/textual-notes-pdf-010-014.md`;
 - `notes/textual-notes-pdf-015-019.md`;
@@ -42,6 +43,7 @@ Current canonical files:
 - `notes/textual-notes-pdf-030-034.md`;
 - `notes/textual-notes-pdf-035-039.md`;
 - `notes/textual-notes-pdf-040-044.md`;
+- `notes/textual-notes-pdf-045-049.md`;
 - `notes/historical-glyph-audit.md`.
 
 ## Source identity
@@ -145,6 +147,15 @@ Handwritten pencil marks/numbers are later annotations, not canonical text.
 - PDF 40–44 introduces **0** new uncertainty markers and no new standalone lyric/song block;
 - all 40 first-pass pages remain **draft / needs-review**, not verified.
 
+### PDF 45–49
+
+- opens scenes 28–30 and opens scene 31 on PDF 49;
+- PDF 45 `கொன்றாய்` is checked historical `றா`; PDF 48–49 `என்னை` is checked historical `னை`; PDF 49 `மணாளன்` is checked historical `ணா`; PDF 49 `கேளேனோ` is checked historical `னோ`;
+- source colloquial/period forms including `பொய் சொல்லுறியே!`, `பொய்பிரச்சாரம்`, `கண்ணங்கரேனு`, `இரணமாச்சி`, and `சண்டாளா` remain source-controlled;
+- PDF 49 opens the mapped scene-31 lyrical witness; only the booklet text is preserved and PDF 50 continues the same source block;
+- PDF 45–49 introduces **0** new uncertainty markers;
+- all 45 first-pass pages remain **draft / needs-review**, not verified.
+
 ## Historical Tamil glyph rule
 
 Read `../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `notes/historical-glyph-audit.md` before canonical work.
@@ -169,4 +180,4 @@ No unprinted title, missing lyric body or authorship may be reconstructed from o
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription with PDF 45–49, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 49 opens the already mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+> **Continue canonical Tamil first-pass transcription with PDF 50–54, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 50 continues the mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
