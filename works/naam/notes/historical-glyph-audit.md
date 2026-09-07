@@ -53,8 +53,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 20–24 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 25–29 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 30–34 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 35–71 | 37 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **30** | **0** | **30** | **partial-first-pass** |
+| PDF 35–39 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 40–71 | 32 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **35** | **0** | **35** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -73,6 +74,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 32 | 32 | historical `னை` clusters | `அவனை` / `ஜமீனையே` | `னை` | enlarged source pixels | draft-supported |
 | 34 | 34 | historical `ளை` cluster | `அவளை` | `ளை` | enlarged source pixels | draft-supported |
 | 34 | 34 | historical `ணை` cluster | `பஞ்சணை` | `ணை` | enlarged source pixels | draft-supported |
+| 35 | 35 | historical `னா` cluster | `நானம்மா` | `னா` | enlarged source pixels | draft-supported |
+| 37 | 37 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
+| 39 | 39 | historical `னோ` cluster | `எமனோடு` | `னோ` | enlarged source pixels + same-edition family comparison | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -126,6 +130,14 @@ The non-glyph items above are source-fidelity decisions and do not create replac
 
 The non-glyph items above are source-fidelity decisions and do not create replacement rules.
 
+## PDF 35–39 glyph/text findings
+
+- PDF 35 `நானம்மா` is checked historical `னா`;
+- PDF 37 `உன்னை` is checked historical `னை`;
+- PDF 39 `எமனோடு` is checked historical `னோ`;
+- the PDF 35–36 scene-21 lyric is preserved as printed with lineation and without outside reconstruction or authorship inference;
+- PDF 35–39 introduced **0 new explicit uncertainty markers**.
+
 ## Source-irregular forms retained
 
 - PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass;
@@ -141,7 +153,7 @@ The non-glyph items above are source-fidelity decisions and do not create replac
 
 - PDF 16 / `காட்சி 7` contains an explicit `[பாட்டு]` witness with three numbered sections. The booklet's PDF 4 item-level credit identifies **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. No outside lyric witness was used.
 - PDF 18 / `காட்சி 8` contains a source-visible lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. Its authorship remains unadjudicated.
-- PDF 20–34 introduces no newly distinct standalone lyric/song structure.
+- PDF 20–34 introduces no newly distinct standalone lyric/song structure; PDF 35–36 contains the mapped scene-21 lyrical witness.
 
 These observations are structural/source evidence only and do not bypass the canonical dual gate.
 
@@ -149,7 +161,7 @@ These observations are structural/source evidence only and do not bypass the can
 
 - PDF 5: one physically damaged introductory line remains unresolved;
 - PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved;
-- PDF 10–34 introduced **0 new explicit uncertainty markers**.
+- PDF 10–39 introduced **0 new explicit uncertainty markers**.
 
 Neither open issue is being guessed from context.
 
@@ -163,4 +175,4 @@ Neither open issue is being guessed from context.
 
 ## Next activity
 
-Continue canonical Tamil first-pass transcription with PDF 35–39, preserving source order, stable page anchors, page-level historical-glyph checks, and the PDF 35–36 / scene-21 lyrical block exactly as printed. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+Continue canonical Tamil first-pass transcription with PDF 40–44, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.

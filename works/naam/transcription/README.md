@@ -5,15 +5,15 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 ## Current checkpoint
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
-- first-pass completed: **PDF 5–34 / 30 pages**;
+- first-pass completed: **PDF 5–39 / 35 pages**;
 - current first-pass status: **partial-first-pass**;
 - verified pages: **0**;
 - separate visual-fidelity audit: **not-started**;
-- historical-glyph pages checked during first pass: **30/67**;
+- historical-glyph pages checked during first pass: **35/67**;
 - historical-glyph final verified pages: **0/67**;
 - open source uncertainty markers: **2**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`;
-- current batch: `parts/pdf-030-034.md`;
+- current batch: `parts/pdf-035-039.md`;
 - index: `index.json`.
 
 The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
@@ -21,7 +21,7 @@ The first pass is deliberately not the verification gate. A page remains draft/n
 ## Source anchors
 
 - PDF 5: screenplay opening / `காட்சி 1`; printed numeral is not securely visible, so no printed-page value is manufactured;
-- PDF 6–34: visible printed numerals 6–34, one-to-one with the PDF pages.
+- PDF 6–39: visible printed numerals 6–39, one-to-one with the PDF pages.
 
 ## Historical glyph handling
 
@@ -105,6 +105,19 @@ Source-specific decisions include:
 
 See `../notes/textual-notes-pdf-030-034.md` for the batch decision log.
 
+## PDF 35–39 source decisions
+
+The seventh batch completes `காட்சி 20`, contains the full `காட்சி 21` lyrical witness across PDF 35–36, contains `காட்சி 22–23`, and opens/continues source heading `காட்சி-24.`.
+
+- PDF 35–36 preserves only the booklet witness beginning `மணமில்லா மலர் நானம்மா!`; no title or authorship is inferred.
+- PDF 35 `நானம்மா` is a checked historical-`னா` case.
+- PDF 37 `உன்னை` is a checked historical-`னை` case.
+- PDF 39 `எமனோடு` is a checked historical-`னோ` case.
+- Source-period wording such as `படாடோப பனிக்காற்றும்`, `சூழ்ச்சி வெயிலும்`, `மமதை மழையும்` remains unmodernized.
+- PDF 35–39 introduced **0 new explicit uncertainty markers**.
+
+See `../notes/textual-notes-pdf-035-039.md` for the batch decision log.
+
 ## Performance / lyric evidence encountered so far
 
 - PDF 16 / `காட்சி 7` visibly prints `[பாட்டு]` followed by the three numbered booklet verses of **`ஆயிரம் தெய்வங்கள்`**. PDF 4 specifically credits this item to **பாரதியார்**; no outside lyric source was used.
@@ -119,8 +132,8 @@ The cumulative explicit uncertainty count remains **2**:
 1. PDF 5: part of the opening introductory prose line is physically damaged / too unclear for a responsible reading.
 2. PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unclear; the draft records the visible approximate cluster rather than silently normalizing it.
 
-PDF 10–34 introduced **0 new explicit uncertainty markers**.
+PDF 10–39 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 35–39, preserving source order, stable page anchors, page-level historical-glyph checks, and the PDF 35–36 / scene-21 lyrical block exactly as printed. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+**Continue canonical Tamil first-pass transcription with PDF 40–44, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
