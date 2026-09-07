@@ -29,17 +29,18 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - source: **72 PDF pages**, image-only; SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
 - front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
 - source-numbered scenes: **45 — காட்சி 1–45**, sequential;
-- canonical Tamil first pass: **PDF 5–39 / 35 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–44 / 40 of 67 pages**;
 - verified pages: **0**; separate visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **35/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–39 adds none;
-- newest batch: `works/naam/transcription/parts/pdf-035-039.md`;
-- PDF 31 `தவறான` / `இவனை`, PDF 32 `அவனை` / `ஜமீனையே`, and PDF 34 `அவளை` / `பஞ்சணை` were checked against the historical-glyph families;
-- PDF 35–36 preserves the mapped scene-21 lyrical witness; PDF 35–39 adds no new uncertainty marker;
-- PDF 39 `எமனோடு` is a checked historical `னோ` case;
+- historical-glyph first-pass checked: **40/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–44 adds none;
+- newest batch: `works/naam/transcription/parts/pdf-040-044.md`;
+- PDF 40/41/43/44 `உன்னை` / `குமரனை` and PDF 42 `மண்ணைவாரிப்` were checked against historical `னை` / `ணை`;
+- PDF 40–44 adds no new uncertainty marker and no new standalone lyric/song block;
+- PDF 49 opens the next mapped scene-31 lyrical-block safeguard;
 - downstream derivatives remain blocked pending verified Tamil.
 
-**Next:** Continue canonical Tamil first-pass transcription with PDF 40–44, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Next:** Continue canonical Tamil first-pass transcription with PDF 45–49, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 49 opens the already mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+
 ## ராஜா ராணி status
 
 `TVA_BOK_0017188_ராஜா_ராணி.pdf` is a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.

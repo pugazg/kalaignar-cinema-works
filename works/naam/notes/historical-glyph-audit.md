@@ -54,8 +54,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 25–29 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 30–34 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 35–39 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 40–71 | 32 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **35** | **0** | **35** | **partial-first-pass** |
+| PDF 40–44 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 45–71 | 27 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **40** | **0** | **40** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -77,6 +78,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 35 | 35 | historical `னா` cluster | `நானம்மா` | `னா` | enlarged source pixels | draft-supported |
 | 37 | 37 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
 | 39 | 39 | historical `னோ` cluster | `எமனோடு` | `னோ` | enlarged source pixels + same-edition family comparison | draft-supported |
+| 40 | 40 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
+| 42 | 42 | historical `ணை` cluster | `மண்ணைவாரிப்` | `ணை` | enlarged source pixels | draft-supported |
+| 43 | 43 | historical `னை` cluster | `குமரனை` | `னை` | enlarged source pixels | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -138,6 +142,13 @@ The non-glyph items above are source-fidelity decisions and do not create replac
 - the PDF 35–36 scene-21 lyric is preserved as printed with lineation and without outside reconstruction or authorship inference;
 - PDF 35–39 introduced **0 new explicit uncertainty markers**.
 
+## PDF 40–44 glyph/text findings
+
+- PDF 40/41/43/44 `உன்னை` / `குமரனை` are checked historical `னை`;
+- PDF 42 `மண்ணைவாரிப்` is checked historical `ணை`;
+- source-period/colloquial readings `கோவேரிக் கழுதைக்கு`, `ஆவேஷ மூச்சால்`, `விட்டானுக்கும்?`, `மண்டேகங்கள்`, `நாய்க்குட்டி`, and `மாத்திரை முன்னேற்ற ஆஸ்பத்திரியை` remain unmodernized;
+- PDF 40–44 introduced **0 new explicit uncertainty markers** and no new standalone lyric/song block.
+
 ## Source-irregular forms retained
 
 - PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass;
@@ -147,13 +158,14 @@ The non-glyph items above are source-fidelity decisions and do not create replac
 - PDF 17's extended labour/tax rhetoric remains source-controlled;
 - PDF 19 `சோபிதத்தை`, `கானல் மாடுமே`, and `காதியின்` remain unmodernized first-pass readings;
 - PDF 20–24 source-irregular/period wording remains as documented in `textual-notes-pdf-020-024.md`;
-- PDF 25–29 source-irregular/period wording remains as documented in `textual-notes-pdf-025-029.md`.
+- PDF 25–29 source-irregular/period wording remains as documented in `textual-notes-pdf-025-029.md`;
+- PDF 40–44 source-irregular/period wording remains as documented in `textual-notes-pdf-040-044.md`.
 
 ## Performance evidence affecting later gates
 
 - PDF 16 / `காட்சி 7` contains an explicit `[பாட்டு]` witness with three numbered sections. The booklet's PDF 4 item-level credit identifies **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. No outside lyric witness was used.
 - PDF 18 / `காட்சி 8` contains a source-visible lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. Its authorship remains unadjudicated.
-- PDF 20–34 introduces no newly distinct standalone lyric/song structure; PDF 35–36 contains the mapped scene-21 lyrical witness.
+- PDF 20–34 introduces no newly distinct standalone lyric/song structure; PDF 35–36 contains the mapped scene-21 lyrical witness; PDF 40–44 adds no new standalone lyric/song structure.
 
 These observations are structural/source evidence only and do not bypass the canonical dual gate.
 
@@ -161,7 +173,7 @@ These observations are structural/source evidence only and do not bypass the can
 
 - PDF 5: one physically damaged introductory line remains unresolved;
 - PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved;
-- PDF 10–39 introduced **0 new explicit uncertainty markers**.
+- PDF 10–44 introduced **0 new explicit uncertainty markers**.
 
 Neither open issue is being guessed from context.
 
@@ -175,4 +187,5 @@ Neither open issue is being guessed from context.
 
 ## Next activity
 
-Continue canonical Tamil first-pass transcription with PDF 40–44, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+Continue canonical Tamil first-pass transcription with PDF 45–49, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 49 opens the already mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+

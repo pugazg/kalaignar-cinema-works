@@ -5,15 +5,15 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 ## Current checkpoint
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
-- first-pass completed: **PDF 5–39 / 35 pages**;
+- first-pass completed: **PDF 5–44 / 40 pages**;
 - current first-pass status: **partial-first-pass**;
 - verified pages: **0**;
 - separate visual-fidelity audit: **not-started**;
-- historical-glyph pages checked during first pass: **35/67**;
+- historical-glyph pages checked during first pass: **40/67**;
 - historical-glyph final verified pages: **0/67**;
 - open source uncertainty markers: **2**;
-- completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`;
-- current batch: `parts/pdf-035-039.md`;
+- completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
+- current batch: `parts/pdf-040-044.md`;
 - index: `index.json`.
 
 The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
@@ -21,7 +21,7 @@ The first pass is deliberately not the verification gate. A page remains draft/n
 ## Source anchors
 
 - PDF 5: screenplay opening / `காட்சி 1`; printed numeral is not securely visible, so no printed-page value is manufactured;
-- PDF 6–39: visible printed numerals 6–39, one-to-one with the PDF pages.
+- PDF 6–44: visible printed numerals 6–44, one-to-one with the PDF pages.
 
 ## Historical glyph handling
 
@@ -42,6 +42,7 @@ Examples established so far:
 - PDF 28 `காதலை நான்`: checked against historical `லை` / `னா` forms;
 - PDF 29 `அணா`: positive historical `ணா` case.
 
+- PDF 40/41/43/44 `உன்னை` / `குமரனை`: checked historical `னை`; PDF 42 `மண்ணைவாரிப்`: checked historical `ணை`;
 No global replacement is permitted. Source spelling, colloquial forms, punctuation, ellipses, labels and verse lineation remain source-controlled.
 
 ## PDF 15–19 source reconciliation
@@ -118,12 +119,26 @@ The seventh batch completes `காட்சி 20`, contains the full `கா�
 
 See `../notes/textual-notes-pdf-035-039.md` for the batch decision log.
 
+## PDF 40–44 source decisions
+
+The eighth batch continues `காட்சி-24.`, contains `காட்சி 25`, `காட்சி 26`, and `காட்சி 27`, and ends within scene 27.
+
+- PDF 40 preserves `கோவேரிக் கழுதைக்கு` and the confrontation rhetoric; `உன்னை` is checked historical `னை`.
+- PDF 41 preserves `ஆவேஷ மூச்சால்`, the rights rhetoric, and the source hut-burning stage directions; `உன்னை` is checked historical `னை`.
+- PDF 42 opens scene 25; `மண்ணைவாரிப்` is checked historical `ணை`; source `விவாக சப முகூர்த்தத்துக்கு` and `விட்டானுக்கும்?` remain unmodernized; scene 26 opens later on the page.
+- PDF 43 opens scene 27 and preserves the extended `பாவம்` rhetoric including source `மண்டேகங்கள்`; `உன்னைப்` / `குமரனை` are checked historical `னை`.
+- PDF 44 preserves Maathirai's `நாய்க்குட்டி` / notice / medical wordplay and `மாத்திரை முன்னேற்ற ஆஸ்பத்திரியை`; `உன்னை` is checked historical `னை`.
+- PDF 40–44 introduces **0 new explicit uncertainty markers** and no newly distinct standalone lyric/song block.
+
+See `../notes/textual-notes-pdf-040-044.md` for the batch decision log.
+
 ## Performance / lyric evidence encountered so far
 
 - PDF 16 / `காட்சி 7` visibly prints `[பாட்டு]` followed by the three numbered booklet verses of **`ஆயிரம் தெய்வங்கள்`**. PDF 4 specifically credits this item to **பாரதியார்**; no outside lyric source was used.
 - PDF 18 / `காட்சி 8` contains a source-confirmed lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. It has no item-level author credit on that page and remains **authorship not adjudicated**.
 - PDF 15's quoted `ஓரிடந்தனிலே...` fragment remains dialogue-owned and is not promoted into a reconstructed standalone song.
 - PDF 20–34 introduces no newly distinct standalone song/lyric block.
+- PDF 35–36 preserves the mapped scene-21 lyrical witness; PDF 40–44 adds no new standalone lyric/song block.
 
 ## Open uncertainties
 
@@ -132,8 +147,8 @@ The cumulative explicit uncertainty count remains **2**:
 1. PDF 5: part of the opening introductory prose line is physically damaged / too unclear for a responsible reading.
 2. PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unclear; the draft records the visible approximate cluster rather than silently normalizing it.
 
-PDF 10–39 introduced **0 new explicit uncertainty markers**.
+PDF 10–44 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 40–44, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+**Continue canonical Tamil first-pass transcription with PDF 45–49, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 49 opens the already mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
