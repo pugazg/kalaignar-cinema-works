@@ -5,17 +5,17 @@
   "canonical_pdf_range": [5, 71],
   "canonical_pages_expected": 67,
   "first_pass_complete": false,
-  "first_pass_pages_completed": 40,
-  "first_pass_pdf_range_completed": [5, 44],
-  "draft_pages": 40,
+  "first_pass_pages_completed": 45,
+  "first_pass_pdf_range_completed": [5, 49],
+  "draft_pages": 45,
   "verified_pages": 0,
   "visual_fidelity_passed_pages": 0,
-  "historical_glyph_checked_pages": 40,
+  "historical_glyph_checked_pages": 45,
   "historical_glyph_verified_pages": 0,
-  "review_pages": 40,
+  "review_pages": 45,
   "open_uncertainty_markers": 2,
-  "current_through_pdf": 44,
-  "current_through_printed_page": 44,
+  "current_through_pdf": 49,
+  "current_through_printed_page": 49,
   "pdf_5_printed_page_number_visible": false,
   "parts": [
     {"path":"parts/pdf-005-009.md","pdf_range":[5,9],"printed_range":[null,9],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":2},
@@ -25,10 +25,11 @@
     {"path":"parts/pdf-025-029.md","pdf_range":[25,29],"printed_range":[25,29],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":0},
     {"path":"parts/pdf-030-034.md","pdf_range":[30,34],"printed_range":[30,34],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":0},
     {"path":"parts/pdf-035-039.md","pdf_range":[35,39],"printed_range":[35,39],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":0},
-    {"path":"parts/pdf-040-044.md","pdf_range":[40,44],"printed_range":[40,44],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":0}
+    {"path":"parts/pdf-040-044.md","pdf_range":[40,44],"printed_range":[40,44],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":0},
+    {"path":"parts/pdf-045-049.md","pdf_range":[45,49],"printed_range":[45,49],"status":"draft-needs-review","historical_glyph_status":"checked-first-pass","open_uncertainties":0}
   ],
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
-  "next_batch_pdf_range": [45, 49],
-  "next_action": "Continue canonical Tamil first-pass transcription with PDF 45–49, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 49 opens the already mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
+  "next_batch_pdf_range": [50, 54],
+  "next_action": "Continue canonical Tamil first-pass transcription with PDF 50–54, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 50 continues the mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass."
 }
