@@ -25,26 +25,28 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | intake/map complete; first pass **PDF 5–24 / 20 of 67**, 0 verified | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
+| Naam / நாம் | intake/map complete; first pass **PDF 5–29 / 25 of 67**, 0 verified | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
 
 ## Naam current checkpoint
 
 - work: `works/naam/`;
 - source: `TVA_BOK_0064201_நாம்.pdf`, **72 pages / image-only**, SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
 - source intake / structural mapping: **complete / verified**;
-- canonical Tamil first pass: **PDF 5–24 / 20 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–29 / 25 of 67 pages**;
 - verified pages / visual-fidelity passed: **0 / 0**;
-- historical-glyph first-pass checked / final verified: **20 / 0**;
+- historical-glyph first-pass checked / final verified: **25 / 0**;
 - open uncertainty markers: **2**, both carried from PDF 5/9;
-- current draft: `works/naam/transcription/parts/pdf-020-024.md`;
-- current notes: `works/naam/notes/textual-notes-pdf-020-024.md`;
-- PDF 21 `நீதானா...?` is a historical-`னா` source decoding; `நீதானு...?` is not accepted;
-- exact source forms include `போறு ஞானம்!`, `மாடெல்லே`, standalone `எங்கம்மா?`, `தூர பந்து`, `மட்டாக`, and `கெளரவம்`;
-- PDF 20–24 adds no new uncertainty marker and no new standalone lyric/song block;
-- PDF 16 Bharathiyar item evidence and PDF 18 unadjudicated lyrical-duet evidence remain unchanged;
+- current draft: `works/naam/transcription/parts/pdf-025-029.md`;
+- current source notes: `works/naam/notes/textual-notes-pdf-025-029.md`;
+- PDF 26 `அலைந்தான்` is a source-backed `லை` decoding;
+- PDF 27 `சாணைக்கல்லிலே` / `சாணைக்கல்லை` are checked `ணை` cases;
+- PDF 28 `காதலை நான்` is checked against historical `லை` / `னா` forms;
+- PDF 29 `அணா` is a positive `ணா` case;
+- source irregulars `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, and `காண்டிராக்ட்காரன்` remain source-controlled;
+- PDF 25–29 introduces no new explicit uncertainty and no new standalone song/lyric block;
 - downstream scene/dialogue/character/song/English layers remain blocked until verified Tamil.
 
-**Next production phase:** Continue canonical Tamil first-pass transcription with PDF 25–29, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Next production phase:** Continue canonical Tamil first-pass transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 ## Ammayappan current checkpoint
 
 ### Frozen source/Tamil authority
