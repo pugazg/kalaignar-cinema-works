@@ -52,8 +52,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 15–19 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 20–24 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 25–29 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 30–71 | 42 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **25** | **0** | **25** | **partial-first-pass** |
+| PDF 30–34 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 35–71 | 37 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **30** | **0** | **30** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -67,6 +68,11 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 27 | 27 | historical `ணை` cluster | `சாணைக்கல்லிலே` / `சாணைக்கல்லை` | `ணை` | enlarged source pixels; both same-page occurrences checked | draft-supported |
 | 28 | 28 | historical `லை` / `னா` shapes in phrase | `காதலை நான்` | `லை` / `னா` | enlarged source pixels + same-edition family comparison | draft-supported |
 | 29 | 29 | historical `ணா` cluster in payment wording | `அணா` | `ணா` | enlarged source pixels; repeated source occurrence | draft-supported |
+| 31 | 31 | historical `றா` cluster | `தவறான` | `றா` | enlarged source pixels | draft-supported |
+| 31 | 31 | historical `னை` cluster | `இவனை` | `னை` | enlarged source pixels | draft-supported |
+| 32 | 32 | historical `னை` clusters | `அவனை` / `ஜமீனையே` | `னை` | enlarged source pixels | draft-supported |
+| 34 | 34 | historical `ளை` cluster | `அவளை` | `ளை` | enlarged source pixels | draft-supported |
+| 34 | 34 | historical `ணை` cluster | `பஞ்சணை` | `ணை` | enlarged source pixels | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -109,6 +115,17 @@ The non-glyph items above are textual-fidelity decisions and do not create repla
 
 The non-glyph items above are source-fidelity decisions and do not create replacement rules.
 
+## PDF 30–34 glyph/text findings
+
+- PDF 31 `தவறான` is a source-backed historical-`றா` decoding;
+- PDF 31 `இவனை` and PDF 32 `அவனை` / `ஜமீனையே` are checked historical-`னை` cases;
+- PDF 34 `அவளை` is a checked historical-`ளை` case;
+- PDF 34 `பஞ்சணை` is a checked historical-`ணை` case;
+- PDF 32 source `குற்ற மாச்சுதுங்களே...`, PDF 33 source `மாத்திரை` / `தைலம்`, and PDF 34 source `அங்கே மீனு இருந்தாள்` remain unmodernized first-pass readings;
+- PDF 30–34 introduced **0 new explicit uncertainty markers**.
+
+The non-glyph items above are source-fidelity decisions and do not create replacement rules.
+
 ## Source-irregular forms retained
 
 - PDF 12 `தளிர்ச்சிருக்கே` is retained as source-visible wording at first pass;
@@ -124,7 +141,7 @@ The non-glyph items above are source-fidelity decisions and do not create replac
 
 - PDF 16 / `காட்சி 7` contains an explicit `[பாட்டு]` witness with three numbered sections. The booklet's PDF 4 item-level credit identifies **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. No outside lyric witness was used.
 - PDF 18 / `காட்சி 8` contains a source-visible lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. Its authorship remains unadjudicated.
-- PDF 20–29 introduces no newly distinct standalone lyric/song structure.
+- PDF 20–34 introduces no newly distinct standalone lyric/song structure.
 
 These observations are structural/source evidence only and do not bypass the canonical dual gate.
 
@@ -132,7 +149,7 @@ These observations are structural/source evidence only and do not bypass the can
 
 - PDF 5: one physically damaged introductory line remains unresolved;
 - PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unresolved;
-- PDF 10–29 introduced **0 new explicit uncertainty markers**.
+- PDF 10–34 introduced **0 new explicit uncertainty markers**.
 
 Neither open issue is being guessed from context.
 
@@ -146,4 +163,4 @@ Neither open issue is being guessed from context.
 
 ## Next activity
 
-Continue the historical-glyph first-pass concurrently with **canonical Tamil PDF 30–34**. Do not mark PDF 5–29 verified merely because their first-pass text now exists; the separate visual-fidelity and final historical-glyph gates are still open.
+Continue canonical Tamil first-pass transcription with PDF 35–39, preserving source order, stable page anchors, page-level historical-glyph checks, and the PDF 35–36 / scene-21 lyrical block exactly as printed. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.

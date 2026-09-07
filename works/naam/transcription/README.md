@@ -5,15 +5,15 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 ## Current checkpoint
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
-- first-pass completed: **PDF 5–29 / 25 pages**;
+- first-pass completed: **PDF 5–34 / 30 pages**;
 - current first-pass status: **partial-first-pass**;
 - verified pages: **0**;
 - separate visual-fidelity audit: **not-started**;
-- historical-glyph pages checked during first pass: **25/67**;
+- historical-glyph pages checked during first pass: **30/67**;
 - historical-glyph final verified pages: **0/67**;
 - open source uncertainty markers: **2**;
-- completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`;
-- current batch: `parts/pdf-025-029.md`;
+- completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`;
+- current batch: `parts/pdf-030-034.md`;
 - index: `index.json`.
 
 The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
@@ -21,7 +21,7 @@ The first pass is deliberately not the verification gate. A page remains draft/n
 ## Source anchors
 
 - PDF 5: screenplay opening / `காட்சி 1`; printed numeral is not securely visible, so no printed-page value is manufactured;
-- PDF 6–29: visible printed numerals 6–29, one-to-one with the PDF pages.
+- PDF 6–34: visible printed numerals 6–34, one-to-one with the PDF pages.
 
 ## Historical glyph handling
 
@@ -89,12 +89,28 @@ Source-specific decisions include:
 
 See `../notes/textual-notes-pdf-025-029.md` for the batch decision log.
 
+## PDF 30–34 source decisions
+
+The sixth batch continues `காட்சி 14`, contains `காட்சி 15–19`, and opens `காட்சி 20`.
+
+Source-specific decisions include:
+
+- PDF 30 retains `பேசிக் கிடாததே தவறு!`, `கூலி கேட்டா உதையா!`, and the boxing-fighter transition;
+- PDF 31 `தவறான` is a checked historical-`றா` case and `இவனை` is checked historical `னை`;
+- PDF 32 preserves `குற்ற மாச்சுதுங்களே...`; `அவனை` / `ஜமீனையே` are checked historical `னை`;
+- PDF 32→33 preserves the physical cross-page split `சொந்த` / `மாக்குவேன்.`;
+- PDF 33 preserves abbreviated role labels `ஜீவா`, `கும`, `மாத்` and source `மாத்திரை` / `தைலம்`;
+- PDF 34 preserves the unlabeled `எல்லோரும் இருங்கள்!...`, source `அங்கே மீனு இருந்தாள்`, `அவளை`, and `பஞ்சணை`;
+- PDF 30–34 introduced **0 new explicit uncertainty markers** and no new standalone song/lyric block.
+
+See `../notes/textual-notes-pdf-030-034.md` for the batch decision log.
+
 ## Performance / lyric evidence encountered so far
 
 - PDF 16 / `காட்சி 7` visibly prints `[பாட்டு]` followed by the three numbered booklet verses of **`ஆயிரம் தெய்வங்கள்`**. PDF 4 specifically credits this item to **பாரதியார்**; no outside lyric source was used.
 - PDF 18 / `காட்சி 8` contains a source-confirmed lineated lyrical duet labelled `குமரன்`, `மீனு`, and `இருவர்`, beginning `பேசும் யாழே பெண் மானே`. It has no item-level author credit on that page and remains **authorship not adjudicated**.
 - PDF 15's quoted `ஓரிடந்தனிலே...` fragment remains dialogue-owned and is not promoted into a reconstructed standalone song.
-- PDF 20–29 introduces no newly distinct standalone song/lyric block.
+- PDF 20–34 introduces no newly distinct standalone song/lyric block.
 
 ## Open uncertainties
 
@@ -103,8 +119,8 @@ The cumulative explicit uncertainty count remains **2**:
 1. PDF 5: part of the opening introductory prose line is physically damaged / too unclear for a responsible reading.
 2. PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unclear; the draft records the visible approximate cluster rather than silently normalizing it.
 
-PDF 10–29 introduced **0 new explicit uncertainty markers**.
+PDF 10–34 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
-**Continue the first-pass canonical Tamil transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks.** Do not mark the completed first-pass pages verified yet.
+**Continue canonical Tamil first-pass transcription with PDF 35–39, preserving source order, stable page anchors, page-level historical-glyph checks, and the PDF 35–36 / scene-21 lyrical block exactly as printed. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**

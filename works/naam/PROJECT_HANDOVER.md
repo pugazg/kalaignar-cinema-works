@@ -14,10 +14,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - whole scan inspected: **72/72 PDF pages**;
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
-- canonical Tamil: **partial first pass — PDF 5–29 / 25 of 67 pages**;
+- canonical Tamil: **partial first pass — PDF 5–34 / 30 of 67 pages**;
 - canonical Tamil verified: **0/67**;
 - visual fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **25/67**;
+- historical-glyph first-pass checked: **30/67**;
 - historical-glyph final verified: **0/67**;
 - open source uncertainty markers: **2**;
 - downstream structured/English/reader layers: **blocked/not-started**.
@@ -31,11 +31,13 @@ Current canonical files:
 - `transcription/parts/pdf-015-019.md`;
 - `transcription/parts/pdf-020-024.md`;
 - `transcription/parts/pdf-025-029.md`;
+- `transcription/parts/pdf-030-034.md`;
 - `notes/textual-notes-pdf-005-009.md`;
 - `notes/textual-notes-pdf-010-014.md`;
 - `notes/textual-notes-pdf-015-019.md`;
 - `notes/textual-notes-pdf-020-024.md`;
 - `notes/textual-notes-pdf-025-029.md`;
+- `notes/textual-notes-pdf-030-034.md`;
 - `notes/historical-glyph-audit.md`.
 
 ## Source identity
@@ -113,6 +115,16 @@ Handwritten pencil marks/numbers are later annotations, not canonical text.
 - PDF 25–29 introduced **0** new explicit uncertainty markers and no newly distinct standalone lyric/song block;
 - all 25 first-pass pages remain **draft / needs-review**, not verified.
 
+### PDF 30–34
+
+- continues scene 14, contains scenes 15–19, and opens scene 20;
+- PDF 31 `தவறான` is checked historical `றா`; `இவனை` is checked historical `னை`;
+- PDF 32 `அவனை` / `ஜமீனையே` are checked historical `னை`; the physical cross-page `சொந்த` / `மாக்குவேன்.` boundary is preserved;
+- PDF 33 preserves source `மாத்திரை` / `தைலம்` and abbreviated role labels;
+- PDF 34 preserves unlabeled speech, `அங்கே மீனு இருந்தாள்`, historical `அவளை` (`ளை`) and `பஞ்சணை` (`ணை`);
+- PDF 30–34 introduces **0** new uncertainty markers and no new standalone lyric/song block;
+- all 30 first-pass pages remain **draft / needs-review**, not verified.
+
 ## Historical Tamil glyph rule
 
 Read `../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `notes/historical-glyph-audit.md` before canonical work.
@@ -130,13 +142,11 @@ A page is not finally verified until both visual fidelity and historical-glyph g
 - PDF 16 / scene 7 — explicit `[பாட்டு]`, three numbered sections. PDF 4 identifies the item as **`ஆயிரம் தெய்வங்கள்` — பாரதியார்**. Only the booklet witness is transcribed; no outside lyric text is used.
 - PDF 18 / scene 8 — source-visible lyrical duet beginning `பேசும் யாழே பெண் மானே`, lineated under `குமரன்`, `மீனு`, and `இருவர்`; authorship remains **not adjudicated**.
 - PDF 15 `ஓரிடந்தனிலே...` remains a dialogue-owned quoted fragment, not a reconstructed standalone song.
-- PDF 20–29 introduces no newly distinct standalone song/lyric block.
+- PDF 20–34 introduces no newly distinct standalone song/lyric block.
 - Later mapped structures remain PDF 35–36 / scene 21, PDF 49–50 / scene 31, PDF 59–60 between scenes 36–37, and PDF 64 / scene 39.
 
 No unprinted title, missing lyric body or authorship may be reconstructed from outside sources.
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
-
-Do not reopen PDF 5–29 merely because a copied prompt is older unless new direct scan evidence resolves an existing uncertainty or demonstrates a concrete transcription error.
+> **Continue canonical Tamil first-pass transcription with PDF 35–39, preserving source order, stable page anchors, page-level historical-glyph checks, and the PDF 35–36 / scene-21 lyrical block exactly as printed. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**

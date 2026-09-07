@@ -29,19 +29,17 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - source: **72 PDF pages**, image-only; SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
 - front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
 - source-numbered scenes: **45 — காட்சி 1–45**, sequential;
-- canonical Tamil first pass: **PDF 5–29 / 25 of 67 pages**;
-- completed first-pass batches: `works/naam/transcription/parts/pdf-005-009.md`, `works/naam/transcription/parts/pdf-010-014.md`, `works/naam/transcription/parts/pdf-015-019.md`, `works/naam/transcription/parts/pdf-020-024.md`, `works/naam/transcription/parts/pdf-025-029.md`;
+- canonical Tamil first pass: **PDF 5–34 / 30 of 67 pages**;
 - verified pages: **0**; separate visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **25/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–29 adds none;
-- PDF 26 `அலைந்தான்` is source-backed `லை`; PDF 27 `சாணைக்கல்லிலே` / `சாணைக்கல்லை` are `ணை`; PDF 28 `காதலை நான்` checks `லை` / `னா`; PDF 29 `அணா` is a positive `ணா` case;
-- PDF 25–29 retains source-period/colloquial forms including `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, and `காண்டிராக்ட்காரன்`;
-- PDF 16 / காட்சி 7 preserves the explicit `[பாட்டு]` booklet witness for `ஆயிரம் தெய்வங்கள்`, item-level credited on PDF 4 to **பாரதியார்**;
-- PDF 18 / காட்சி 8 preserves the lineated lyrical duet beginning `பேசும் யாழே பெண் மானே`; authorship remains **not adjudicated**;
-- PDF 25–29 introduces no newly distinct standalone song/lyric block;
+- historical-glyph first-pass checked: **30/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–34 adds none;
+- newest batch: `works/naam/transcription/parts/pdf-030-034.md`;
+- PDF 31 `தவறான` / `இவனை`, PDF 32 `அவனை` / `ஜமீனையே`, and PDF 34 `அவளை` / `பஞ்சணை` were checked against the historical-glyph families;
+- PDF 30–34 introduces no newly distinct standalone song/lyric block;
+- PDF 35–36 / காட்சி 21 is the next mapped lyrical-block safeguard;
 - downstream derivatives remain blocked pending verified Tamil.
 
-**Next:** Continue canonical Tamil first-pass transcription with PDF 30–34, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Next:** Continue canonical Tamil first-pass transcription with PDF 35–39, preserving source order, stable page anchors, page-level historical-glyph checks, and the PDF 35–36 / scene-21 lyrical block exactly as printed. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 ## ராஜா ராணி status
 
 `TVA_BOK_0017188_ராஜா_ராணி.pdf` is a **complete-verified bilingual archival work with deterministic reader/export and Reading Room payload QA PASS**.
