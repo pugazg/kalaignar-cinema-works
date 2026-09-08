@@ -27,13 +27,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 `TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake/map and first-pass Tamil are complete; dual-gate verification is in progress.
 
 - first pass: **67/67 COMPLETE**;
-- dual-gate verified / visual-fidelity: **57/67 / 57/67**;
-- historical-glyph first-pass / final: **67/67 / 60/67**;
+- dual-gate verified / visual-fidelity: **62/67 / 62/67**;
+- historical-glyph first-pass / final: **67/67 / 65/67**;
 - open source holds: **3** — PDF 5, PDF 10, PDF 24;
-- current audit: `works/naam/notes/verification-audit-pdf-060-064.md`;
+- current audit: `works/naam/notes/verification-audit-pdf-065-069.md`;
 - derivatives / English remain blocked pending verified Tamil.
 
-**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 65–69. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–64 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 65–69 covers the late scene sequence through the opening portion of காட்சி-45; PDF 69 ends mid-Kumaran utterance that continues on PDF 70. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
 
 ## ராஜா ராணி status
 

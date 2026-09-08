@@ -59,9 +59,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 50–54 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 55–59 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 60–64 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 65–69 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **57** | **10** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **62** | **5** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -115,13 +115,13 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 64 | 64 | historical `ளை` cluster misread lexically in first pass | `விளைவிக்காதீர்கள்` | `ளை` | enlarged source pixels + cross-page sentence context; source glyph positively resolved | **final-verified** |
 | 64 | 64 | historical `னா / னை` clusters in closing parenthetical | `குமரனால்` / `குமரனை` | `னா / னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
 
-| 65 | 65 | historical `னா` clusters | `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` | `னா` | enlarged source pixels | draft-supported |
-| 65 | 65 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
-| 66 | 66 | historical `ணா` cluster | `காலணா` | `ணா` | enlarged source pixels | draft-supported |
-| 66 | 66 | historical `லை` cluster | `காலை` | `லை` | enlarged source pixels | draft-supported |
-| 67 | 67 | historical `னை` cluster | `மனைவி` | `னை` | enlarged source pixels | draft-supported |
-| 68 | 68 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | draft-supported |
-| 69 | 69 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
+| 65 | 65 | historical `னா` clusters | `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` | `னா` | enlarged source pixels | **final-verified** |
+| 65 | 65 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | **final-verified** |
+| 66 | 66 | historical `ணா` cluster | `காலணா` | `ணா` | enlarged source pixels | **final-verified** |
+| 66 | 66 | historical `லை` cluster | `காலை` | `லை` | enlarged source pixels | **final-verified** |
+| 67 | 67 | historical `னை` cluster | `மனைவி` | `னை` | enlarged source pixels | **final-verified** |
+| 68 | 68 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | **final-verified** |
+| 69 | 69 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | **final-verified** |
 
 | 70 | 70 | historical `லை` clusters | `சிறைச்சாலை` / `மலையப்பன்` | `லை` | enlarged source pixels | draft-supported |
 | 70 | 70 | historical `னா` cluster | `குமரனால்` | `னா` | enlarged source pixels | draft-supported |
@@ -373,4 +373,14 @@ Next final audit range: **PDF 60–64**.
 - no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
 - details: `verification-audit-pdf-060-064.md`.
 
-Next final audit range: **PDF 65–69**.
+## PDF 65–69 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- direct scan corrections are confined to PDF 68: `உன்னிடம் இருந்தது?` → `உன்னிடமா இருந்தது?` and `அவமதிக் கொண்டிருக்கிறாள்` → `அவமதிக்கொண்டிருக்கிறாள்`;
+- final glyph cases include PDF 65 `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` (`னா`) and `அண்ணுமலை` (`லை`); PDF 66 `காலணா` (`ணா`) / `காலை` (`லை`); PDF 67 `மனைவி` (`னை`); PDF 68 `உயிலை` (`லை`); PDF 69 `உன்னை` (`னை`);
+- PDF 66 source anomaly `உன்மீனு` remains exact; PDF 69 closes mid-utterance at `படித்தால் பாவம் என்று உன்`;
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-065-069.md`.
+
+Next final audit range: **PDF 70–71**.

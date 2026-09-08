@@ -7,10 +7,10 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 - canonical range expected: **PDF 5–71 / 67 pages**;
 - first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
 - current first-pass status: **complete / verification pending**;
-- verified pages: **57**;
-- separate visual-fidelity audit: **in progress — 57/67 passed**;
+- verified pages: **62**;
+- separate visual-fidelity audit: **in progress — 62/67 passed**;
 - historical-glyph pages checked during first pass: **67/67**;
-- historical-glyph final verified pages: **60/67**;
+- historical-glyph final verified pages: **65/67**;
 - open source uncertainty markers: **3**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
 - current/final batch: `parts/pdf-070-071.md`;
@@ -191,6 +191,10 @@ The tenth batch completes the scene-31 lyrical witness, continues the Meenu / Ma
 
 See `../notes/textual-notes-pdf-050-054.md` for the batch decision log.
 
+## Verification audit — PDF 65–69
+
+PDF 65–69 are **5/5 VERIFIED** after direct rendered-source comparison. Two corrections are confined to PDF 68: `உன்னிடம் இருந்தது?` → `உன்னிடமா இருந்தது?`, and `அவமதிக் கொண்டிருக்கிறாள்` → `அவமதிக்கொண்டிருக்கிறாள்`. Historical-glyph final positives are `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` (`னா`), `அண்ணுமலை` / `காலை` / `உயிலை` (`லை`), `காலணா` (`ணா`), and `மனைவி` / `உன்னை` (`னை`). PDF 69 ends at `படித்தால் பாவம் என்று உன்` and must continue on PDF 70. Current totals: visual **62/67**, glyph-final **65/67**, dual-gate verified **62/67**, open uncertainties **3**. Detailed log: `../notes/verification-audit-pdf-065-069.md`.
+
 ## PDF 70–71 source decisions
 
 The final remainder completes source `காட்சி-45` and closes the screenplay.
@@ -225,4 +229,4 @@ PDF 10–71 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
-**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 65–69. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–64 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 65–69 covers the late scene sequence through the opening portion of காட்சி-45; PDF 69 ends mid-Kumaran utterance that continues on PDF 70. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**

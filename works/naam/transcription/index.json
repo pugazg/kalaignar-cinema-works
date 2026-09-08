@@ -13,12 +13,12 @@
     5,
     71
   ],
-  "draft_pages": 10,
-  "verified_pages": 57,
-  "visual_fidelity_passed_pages": 57,
+  "draft_pages": 5,
+  "verified_pages": 62,
+  "visual_fidelity_passed_pages": 62,
   "historical_glyph_checked_pages": 67,
-  "historical_glyph_verified_pages": 60,
-  "review_pages": 10,
+  "historical_glyph_verified_pages": 65,
+  "review_pages": 5,
   "open_uncertainty_markers": 3,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
@@ -202,8 +202,8 @@
         65,
         69
       ],
-      "status": "draft-needs-review",
-      "historical_glyph_status": "checked-first-pass",
+      "status": "verified",
+      "historical_glyph_status": "verified-final",
       "open_uncertainties": 0
     },
     {
@@ -224,5 +224,5 @@
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 65–69. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–64 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 65–69 covers the late scene sequence through the opening portion of காட்சி-45; PDF 69 ends mid-Kumaran utterance that continues on PDF 70. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
 }
