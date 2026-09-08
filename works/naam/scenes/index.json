@@ -1,0 +1,851 @@
+{
+  "work_id": "naam",
+  "status": "complete-verified",
+  "source_numbered_scenes": true,
+  "source_scene_count": 45,
+  "source_scene_number_range": [
+    1,
+    45
+  ],
+  "canonical_tamil_gate": "67/67-dual-gate-complete-verified",
+  "boundary_ownership_qa": "../notes/scene-boundary-ownership-qa.md",
+  "canonical_scene_region_sha256": "787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146",
+  "joined_scene_spans_sha256": "787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146",
+  "unique_pdf_pages_represented": 67,
+  "cross_page_scene_count": 34,
+  "same_page_additional_scene_starts": 11,
+  "scene_records": [
+    {
+      "scene_id": "naam-s001",
+      "ordinal": 1,
+      "source_scene_number": 1,
+      "heading": "காட்சி 1",
+      "start_pdf": 5,
+      "start_printed": null,
+      "end_pdf": 7,
+      "end_printed": 7,
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "end_before_scene_id": "naam-s002",
+      "span_sha256": "f62a8205bfcb7619471b512b6e4c18a5dcd66fe2d7480bd1a1336414d2289f1a",
+      "file": "scene-001.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s002",
+      "ordinal": 2,
+      "source_scene_number": 2,
+      "heading": "காட்சி 2",
+      "start_pdf": 7,
+      "start_printed": 7,
+      "end_pdf": 8,
+      "end_printed": 8,
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "end_before_scene_id": "naam-s003",
+      "span_sha256": "82b93d0e6a1567b3faefb0cc029afec8bea64840a39baf52aa896f161e2252cd",
+      "file": "scene-002.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s003",
+      "ordinal": 3,
+      "source_scene_number": 3,
+      "heading": "காட்சி 3",
+      "start_pdf": 8,
+      "start_printed": 8,
+      "end_pdf": 11,
+      "end_printed": 11,
+      "pdf_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "end_before_scene_id": "naam-s004",
+      "span_sha256": "9f84c75227585e92f692314622a3f3c1d0e4b94d05327bb7eee651443e2a0d41",
+      "file": "scene-003.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s004",
+      "ordinal": 4,
+      "source_scene_number": 4,
+      "heading": "காட்சி 4",
+      "start_pdf": 11,
+      "start_printed": 11,
+      "end_pdf": 13,
+      "end_printed": 13,
+      "pdf_pages": [
+        11,
+        12,
+        13
+      ],
+      "end_before_scene_id": "naam-s005",
+      "span_sha256": "d90a1d67f8eaf25c2405e309adea9df422990ab396e275526ee653e709653754",
+      "file": "scene-004.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s005",
+      "ordinal": 5,
+      "source_scene_number": 5,
+      "heading": "காட்சி 5",
+      "start_pdf": 13,
+      "start_printed": 13,
+      "end_pdf": 14,
+      "end_printed": 14,
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "end_before_scene_id": "naam-s006",
+      "span_sha256": "89f5680c2a14adc3ca7a3f82221ef83480aeae8deee612fc45a11f5bd68c2697",
+      "file": "scene-005.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s006",
+      "ordinal": 6,
+      "source_scene_number": 6,
+      "heading": "காட்சி 6",
+      "start_pdf": 14,
+      "start_printed": 14,
+      "end_pdf": 16,
+      "end_printed": 16,
+      "pdf_pages": [
+        14,
+        15,
+        16
+      ],
+      "end_before_scene_id": "naam-s007",
+      "span_sha256": "70a8f48b42a8f8d6490ff03f4d4f1ae31cdcf8f1f0196d009f4fe82813bfc03e",
+      "file": "scene-006.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s007",
+      "ordinal": 7,
+      "source_scene_number": 7,
+      "heading": "காட்சி 7",
+      "start_pdf": 16,
+      "start_printed": 16,
+      "end_pdf": 17,
+      "end_printed": 17,
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "end_before_scene_id": "naam-s008",
+      "span_sha256": "528d2c72d48adc7889313922be8ef6804ab60604eaf45f62c1fee74075989dea",
+      "file": "scene-007.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s008",
+      "ordinal": 8,
+      "source_scene_number": 8,
+      "heading": "காட்சி 8.",
+      "start_pdf": 17,
+      "start_printed": 17,
+      "end_pdf": 19,
+      "end_printed": 19,
+      "pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "end_before_scene_id": "naam-s009",
+      "span_sha256": "bc268fad8e55b64ab1413e211ec62252684670575067f812ff5b7c1ea84b0447",
+      "file": "scene-008.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s009",
+      "ordinal": 9,
+      "source_scene_number": 9,
+      "heading": "காட்சி 9.",
+      "start_pdf": 19,
+      "start_printed": 19,
+      "end_pdf": 21,
+      "end_printed": 21,
+      "pdf_pages": [
+        19,
+        20,
+        21
+      ],
+      "end_before_scene_id": "naam-s010",
+      "span_sha256": "71b5acdc6f96e668f795746cf96308709d943c84809e8117d544bdcf5feb24fb",
+      "file": "scene-009.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s010",
+      "ordinal": 10,
+      "source_scene_number": 10,
+      "heading": "காட்சி-10.",
+      "start_pdf": 21,
+      "start_printed": 21,
+      "end_pdf": 24,
+      "end_printed": 24,
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "end_before_scene_id": "naam-s011",
+      "span_sha256": "d4966b9c384b2010bba506722c7ea8b5af9685d0d997f303c893dff7679d7a79",
+      "file": "scene-010.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s011",
+      "ordinal": 11,
+      "source_scene_number": 11,
+      "heading": "காட்சி 11",
+      "start_pdf": 24,
+      "start_printed": 24,
+      "end_pdf": 25,
+      "end_printed": 25,
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "end_before_scene_id": "naam-s012",
+      "span_sha256": "7e4e3519f5ec9f1414bc262425745dd204955d9fb0667fb858ade6c3c0d63190",
+      "file": "scene-011.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s012",
+      "ordinal": 12,
+      "source_scene_number": 12,
+      "heading": "காட்சி 12",
+      "start_pdf": 25,
+      "start_printed": 25,
+      "end_pdf": 25,
+      "end_printed": 25,
+      "pdf_pages": [
+        25
+      ],
+      "end_before_scene_id": "naam-s013",
+      "span_sha256": "cac4f22223c86068857ee8aaeb8285c45dc709a001f033a043ec5b570e819907",
+      "file": "scene-012.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s013",
+      "ordinal": 13,
+      "source_scene_number": 13,
+      "heading": "காட்சி 13",
+      "start_pdf": 25,
+      "start_printed": 25,
+      "end_pdf": 29,
+      "end_printed": 29,
+      "pdf_pages": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "end_before_scene_id": "naam-s014",
+      "span_sha256": "e7311c9ab61d6b17501e75e6d6d3871bd1ff1cb9a0b62a7857a19d6d452af28a",
+      "file": "scene-013.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s014",
+      "ordinal": 14,
+      "source_scene_number": 14,
+      "heading": "காட்சி 14",
+      "start_pdf": 29,
+      "start_printed": 29,
+      "end_pdf": 31,
+      "end_printed": 31,
+      "pdf_pages": [
+        29,
+        30,
+        31
+      ],
+      "end_before_scene_id": "naam-s015",
+      "span_sha256": "07e15ce03437c1e62bd5e4e39b5da9954b7d651bdbd9b8c85a053c191cfd1d9b",
+      "file": "scene-014.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s015",
+      "ordinal": 15,
+      "source_scene_number": 15,
+      "heading": "காட்சி 15",
+      "start_pdf": 31,
+      "start_printed": 31,
+      "end_pdf": 31,
+      "end_printed": 31,
+      "pdf_pages": [
+        31
+      ],
+      "end_before_scene_id": "naam-s016",
+      "span_sha256": "1828983df1ed2ed9244d45e6498d3cea8481101cbe91f8eef0e45f92e8f6667e",
+      "file": "scene-015.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s016",
+      "ordinal": 16,
+      "source_scene_number": 16,
+      "heading": "காட்சி 16",
+      "start_pdf": 31,
+      "start_printed": 31,
+      "end_pdf": 32,
+      "end_printed": 32,
+      "pdf_pages": [
+        31,
+        32
+      ],
+      "end_before_scene_id": "naam-s017",
+      "span_sha256": "11dbb088aca67a5117ddc9070344b26383c36077a9a8c121f278d0b6f9a67cb7",
+      "file": "scene-016.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s017",
+      "ordinal": 17,
+      "source_scene_number": 17,
+      "heading": "காட்சி 17.",
+      "start_pdf": 32,
+      "start_printed": 32,
+      "end_pdf": 33,
+      "end_printed": 33,
+      "pdf_pages": [
+        32,
+        33
+      ],
+      "end_before_scene_id": "naam-s018",
+      "span_sha256": "b9c9077900a8ff22faae396bc6b62eac8863601ef065619ddee3762209645cf0",
+      "file": "scene-017.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s018",
+      "ordinal": 18,
+      "source_scene_number": 18,
+      "heading": "காட்சி 18.",
+      "start_pdf": 33,
+      "start_printed": 33,
+      "end_pdf": 34,
+      "end_printed": 34,
+      "pdf_pages": [
+        33,
+        34
+      ],
+      "end_before_scene_id": "naam-s019",
+      "span_sha256": "f9e7cc2e3914604b62c6c6bec9281d4bbb28aacdd0d5db752cd88dffc1f8d0e7",
+      "file": "scene-018.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s019",
+      "ordinal": 19,
+      "source_scene_number": 19,
+      "heading": "காட்சி 19.",
+      "start_pdf": 34,
+      "start_printed": 34,
+      "end_pdf": 34,
+      "end_printed": 34,
+      "pdf_pages": [
+        34
+      ],
+      "end_before_scene_id": "naam-s020",
+      "span_sha256": "d68a4015520054d314ca3651d6dc5e6e265b42257730777e7d077c7b5ce2e056",
+      "file": "scene-019.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s020",
+      "ordinal": 20,
+      "source_scene_number": 20,
+      "heading": "காட்சி 20.",
+      "start_pdf": 34,
+      "start_printed": 34,
+      "end_pdf": 35,
+      "end_printed": 35,
+      "pdf_pages": [
+        34,
+        35
+      ],
+      "end_before_scene_id": "naam-s021",
+      "span_sha256": "f570a543af76e0aef76eb5c463471420aa259750ad59c5b5f0fe0561d178135e",
+      "file": "scene-020.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s021",
+      "ordinal": 21,
+      "source_scene_number": 21,
+      "heading": "காட்சி 21.",
+      "start_pdf": 35,
+      "start_printed": 35,
+      "end_pdf": 36,
+      "end_printed": 36,
+      "pdf_pages": [
+        35,
+        36
+      ],
+      "end_before_scene_id": "naam-s022",
+      "span_sha256": "90f0b0b6d5eba0e46b72d6df516d62e691bc7654a3e9437ee55ceed369987b6f",
+      "file": "scene-021.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s022",
+      "ordinal": 22,
+      "source_scene_number": 22,
+      "heading": "காட்சி 22.",
+      "start_pdf": 36,
+      "start_printed": 36,
+      "end_pdf": 38,
+      "end_printed": 38,
+      "pdf_pages": [
+        36,
+        37,
+        38
+      ],
+      "end_before_scene_id": "naam-s023",
+      "span_sha256": "f11c0fc2b9146cacfbe9c9f980534974590113c68219f0689492c5498fe2627f",
+      "file": "scene-022.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s023",
+      "ordinal": 23,
+      "source_scene_number": 23,
+      "heading": "காட்சி 23.",
+      "start_pdf": 38,
+      "start_printed": 38,
+      "end_pdf": 38,
+      "end_printed": 38,
+      "pdf_pages": [
+        38
+      ],
+      "end_before_scene_id": "naam-s024",
+      "span_sha256": "b4cb5e203eea98a7b307df4c15ee1cd792e632a1ae2c07f1394d8f3a9379b7a6",
+      "file": "scene-023.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s024",
+      "ordinal": 24,
+      "source_scene_number": 24,
+      "heading": "காட்சி-24.",
+      "start_pdf": 38,
+      "start_printed": 38,
+      "end_pdf": 42,
+      "end_printed": 42,
+      "pdf_pages": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "end_before_scene_id": "naam-s025",
+      "span_sha256": "a09f5864a977c5763b9d2d97ec7ad0a3c4f76c1c33204f517dcad1162f651990",
+      "file": "scene-024.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s025",
+      "ordinal": 25,
+      "source_scene_number": 25,
+      "heading": "காட்சி 25.",
+      "start_pdf": 42,
+      "start_printed": 42,
+      "end_pdf": 42,
+      "end_printed": 42,
+      "pdf_pages": [
+        42
+      ],
+      "end_before_scene_id": "naam-s026",
+      "span_sha256": "c946933276119c9b6a5c3fdca8ac4bef2e4a969998e9e953935c89ba48d9d88c",
+      "file": "scene-025.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s026",
+      "ordinal": 26,
+      "source_scene_number": 26,
+      "heading": "காட்சி 26",
+      "start_pdf": 42,
+      "start_printed": 42,
+      "end_pdf": 43,
+      "end_printed": 43,
+      "pdf_pages": [
+        42,
+        43
+      ],
+      "end_before_scene_id": "naam-s027",
+      "span_sha256": "3327f0293bc1dca4f0343deb93c241c7df6b0b03e76a6f0ad4911141a237936c",
+      "file": "scene-026.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s027",
+      "ordinal": 27,
+      "source_scene_number": 27,
+      "heading": "காட்சி 27",
+      "start_pdf": 43,
+      "start_printed": 43,
+      "end_pdf": 45,
+      "end_printed": 45,
+      "pdf_pages": [
+        43,
+        44,
+        45
+      ],
+      "end_before_scene_id": "naam-s028",
+      "span_sha256": "6d455eee3648d5ad0db1a71473bf95663d766de17f81c7489290614ed62ae9e3",
+      "file": "scene-027.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s028",
+      "ordinal": 28,
+      "source_scene_number": 28,
+      "heading": "காட்சி 28.",
+      "start_pdf": 45,
+      "start_printed": 45,
+      "end_pdf": 45,
+      "end_printed": 45,
+      "pdf_pages": [
+        45
+      ],
+      "end_before_scene_id": "naam-s029",
+      "span_sha256": "2e70282f5231be9242a11c3a3f78c0756428d6c57e628332b8697f209d30463f",
+      "file": "scene-028.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s029",
+      "ordinal": 29,
+      "source_scene_number": 29,
+      "heading": "காட்சி 29.",
+      "start_pdf": 45,
+      "start_printed": 45,
+      "end_pdf": 47,
+      "end_printed": 47,
+      "pdf_pages": [
+        45,
+        46,
+        47
+      ],
+      "end_before_scene_id": "naam-s030",
+      "span_sha256": "64e62b95d61c6537ec6bc2494f03fb96a6bbb354e7daf5e6797a252b482771af",
+      "file": "scene-029.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s030",
+      "ordinal": 30,
+      "source_scene_number": 30,
+      "heading": "காட்சி 30,",
+      "start_pdf": 47,
+      "start_printed": 47,
+      "end_pdf": 49,
+      "end_printed": 49,
+      "pdf_pages": [
+        47,
+        48,
+        49
+      ],
+      "end_before_scene_id": "naam-s031",
+      "span_sha256": "7fda09d18746c620d42d2b5bce380672237f1e5a13bf7f218672dd832d020692",
+      "file": "scene-030.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s031",
+      "ordinal": 31,
+      "source_scene_number": 31,
+      "heading": "காட்சி-31",
+      "start_pdf": 49,
+      "start_printed": 49,
+      "end_pdf": 52,
+      "end_printed": 52,
+      "pdf_pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "end_before_scene_id": "naam-s032",
+      "span_sha256": "0b8b983542a00b70f658d912bf24d9f17f8c1e83e1916bbcbbdae963ccda86eb",
+      "file": "scene-031.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s032",
+      "ordinal": 32,
+      "source_scene_number": 32,
+      "heading": "காட்சி-32",
+      "start_pdf": 52,
+      "start_printed": 52,
+      "end_pdf": 54,
+      "end_printed": 54,
+      "pdf_pages": [
+        52,
+        53,
+        54
+      ],
+      "end_before_scene_id": "naam-s033",
+      "span_sha256": "c7d322ba72c2a08c25041fb9040ef8a6ab299598a138f465346508ce0df82ba6",
+      "file": "scene-032.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s033",
+      "ordinal": 33,
+      "source_scene_number": 33,
+      "heading": "காட்சி 33",
+      "start_pdf": 54,
+      "start_printed": 54,
+      "end_pdf": 56,
+      "end_printed": 56,
+      "pdf_pages": [
+        54,
+        55,
+        56
+      ],
+      "end_before_scene_id": "naam-s034",
+      "span_sha256": "bbe88183e8231d26b4afe92037e4d0a4c8a1737210a24ab07ce03a25e7b8162a",
+      "file": "scene-033.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s034",
+      "ordinal": 34,
+      "source_scene_number": 34,
+      "heading": "காட்சி 34",
+      "start_pdf": 56,
+      "start_printed": 56,
+      "end_pdf": 58,
+      "end_printed": 58,
+      "pdf_pages": [
+        56,
+        57,
+        58
+      ],
+      "end_before_scene_id": "naam-s035",
+      "span_sha256": "7a54d87546a4f21ae55f3264980357a1fa6ccf49cca62e2a59ad6372346e8d6d",
+      "file": "scene-034.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s035",
+      "ordinal": 35,
+      "source_scene_number": 35,
+      "heading": "காட்சி 35",
+      "start_pdf": 58,
+      "start_printed": 58,
+      "end_pdf": 58,
+      "end_printed": 58,
+      "pdf_pages": [
+        58
+      ],
+      "end_before_scene_id": "naam-s036",
+      "span_sha256": "6f8bf1d66581ccf443308adc50221214127a7b9ca8549518d673866d33ef0d84",
+      "file": "scene-035.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s036",
+      "ordinal": 36,
+      "source_scene_number": 36,
+      "heading": "காட்சி 36",
+      "start_pdf": 58,
+      "start_printed": 58,
+      "end_pdf": 60,
+      "end_printed": 60,
+      "pdf_pages": [
+        58,
+        59,
+        60
+      ],
+      "end_before_scene_id": "naam-s037",
+      "span_sha256": "5f6588109671ec5da7443209b7e279c08b7625334ecb98bcc428a52c6579d1fc",
+      "file": "scene-036.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s037",
+      "ordinal": 37,
+      "source_scene_number": 37,
+      "heading": "காட்சி 37",
+      "start_pdf": 60,
+      "start_printed": 60,
+      "end_pdf": 60,
+      "end_printed": 60,
+      "pdf_pages": [
+        60
+      ],
+      "end_before_scene_id": "naam-s038",
+      "span_sha256": "60c7f6cf1516011e3bd6e974301764c2f47faf2443068db91ee3c0a1c0cdeab8",
+      "file": "scene-037.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s038",
+      "ordinal": 38,
+      "source_scene_number": 38,
+      "heading": "காட்சி 38",
+      "start_pdf": 60,
+      "start_printed": 60,
+      "end_pdf": 62,
+      "end_printed": 62,
+      "pdf_pages": [
+        60,
+        61,
+        62
+      ],
+      "end_before_scene_id": "naam-s039",
+      "span_sha256": "a3a206cfe30f9ec1a54deeb88e227930c3e9a1376617f44da434d0ad7447e042",
+      "file": "scene-038.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s039",
+      "ordinal": 39,
+      "source_scene_number": 39,
+      "heading": "காட்சி 39",
+      "start_pdf": 62,
+      "start_printed": 62,
+      "end_pdf": 65,
+      "end_printed": 65,
+      "pdf_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "end_before_scene_id": "naam-s040",
+      "span_sha256": "40c96b18ad182dda70738cfbe344d2e02109f7ebbda096607514f8e6dafff5ac",
+      "file": "scene-039.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s040",
+      "ordinal": 40,
+      "source_scene_number": 40,
+      "heading": "காட்சி 40",
+      "start_pdf": 65,
+      "start_printed": 65,
+      "end_pdf": 65,
+      "end_printed": 65,
+      "pdf_pages": [
+        65
+      ],
+      "end_before_scene_id": "naam-s041",
+      "span_sha256": "c98d45dff56d57ede36ce71388b5ff9d4a2ddbd6cb6200b5381cb6b303f4aebb",
+      "file": "scene-040.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s041",
+      "ordinal": 41,
+      "source_scene_number": 41,
+      "heading": "காட்சி 41",
+      "start_pdf": 65,
+      "start_printed": 65,
+      "end_pdf": 67,
+      "end_printed": 67,
+      "pdf_pages": [
+        65,
+        66,
+        67
+      ],
+      "end_before_scene_id": "naam-s042",
+      "span_sha256": "86b4879626d6fd0521da21f4c83a34acf271e191ddf586a3b969ce0e55e6885e",
+      "file": "scene-041.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s042",
+      "ordinal": 42,
+      "source_scene_number": 42,
+      "heading": "காட்சி 42",
+      "start_pdf": 67,
+      "start_printed": 67,
+      "end_pdf": 67,
+      "end_printed": 67,
+      "pdf_pages": [
+        67
+      ],
+      "end_before_scene_id": "naam-s043",
+      "span_sha256": "5d57f5428337c3ac4ed269beb860623ed94c4f0810796953509eb39e1ed7179c",
+      "file": "scene-042.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s043",
+      "ordinal": 43,
+      "source_scene_number": 43,
+      "heading": "காட்சி 43",
+      "start_pdf": 67,
+      "start_printed": 67,
+      "end_pdf": 68,
+      "end_printed": 68,
+      "pdf_pages": [
+        67,
+        68
+      ],
+      "end_before_scene_id": "naam-s044",
+      "span_sha256": "c433f0d412c025dac0bb85a4048a04341405d5bf39f1e0d8542404130ea8739a",
+      "file": "scene-043.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s044",
+      "ordinal": 44,
+      "source_scene_number": 44,
+      "heading": "காட்சி-44",
+      "start_pdf": 68,
+      "start_printed": 68,
+      "end_pdf": 68,
+      "end_printed": 68,
+      "pdf_pages": [
+        68
+      ],
+      "end_before_scene_id": "naam-s045",
+      "span_sha256": "16ed48bf1b7f068c307cd2326f32967f376332641d04bcf1f93b77be14dbf02c",
+      "file": "scene-044.md",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "naam-s045",
+      "ordinal": 45,
+      "source_scene_number": 45,
+      "heading": "காட்சி-45",
+      "start_pdf": 68,
+      "start_printed": 68,
+      "end_pdf": 71,
+      "end_printed": 71,
+      "pdf_pages": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "end_before_scene_id": null,
+      "span_sha256": "259ef06e61826e53c2a719e67afbadbe3a51a5855d355df809bdaacb401d24f5",
+      "file": "scene-045.md",
+      "status": "verified-derivative"
+    }
+  ],
+  "next_action": "Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections."
+}

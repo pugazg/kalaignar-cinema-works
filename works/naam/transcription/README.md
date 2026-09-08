@@ -242,4 +242,11 @@ Final status: **67/67 visual PASS; 67/67 historical-glyph final PASS; 67/67 dual
 
 ## Next activity
 
-**Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.**
+**Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.**
+
+
+## Downstream scene derivative closure
+
+Scene-text derivatives are now **45/45 COMPLETE-VERIFIED** with boundary ownership QA PASS. Canonical Tamil remains unchanged and authoritative. See `../scenes/index.json` and `../notes/scene-boundary-ownership-qa.md`.
+
+**Next:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.

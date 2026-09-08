@@ -1,6 +1,6 @@
 # நாம் — source intake and structural map
 
-Status: **verified structural mapping; canonical Tamil first-pass complete / verification pending**
+Status: **verified structural mapping; canonical Tamil complete-verified; scene derivatives 45/45 complete-verified**
 
 Controlling source: `TVA_BOK_0064201_நாம்.pdf`  
 Source identifier: `TVA_BOK_0064201`  
@@ -140,4 +140,4 @@ For every main-text page PDF 5–71:
 
 ## Exact next activity
 
-**Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.**
+**Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.**

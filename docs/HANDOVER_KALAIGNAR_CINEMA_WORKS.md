@@ -133,7 +133,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
-- **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; visual / glyph-final / dual-gate **67/67 / 67/67 / 67/67**; open source uncertainties **0**; scene derivatives next.
+- **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scene derivatives **45/45 COMPLETE-VERIFIED**; boundary ownership QA **PASS**; dialogue index next.
 
 Ammayappan remains closed at its complete-verified checkpoint. The current active production work is **Naam / நாம்**, beginning canonical Tamil only after its completed source-intake and structural-mapping gate.
 
@@ -150,9 +150,9 @@ Source: `TVA_BOK_0064201_நாம்.pdf`
 - open source uncertainties: **0**;
 - user manual source verdicts: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, PDF 24 `கெளரவம் தேடி`;
 - final audit: `works/naam/notes/canonical-closure-user-manual.md`;
-- scene derivatives: **not-started / ready**; English remains downstream.
+- scene derivatives: **45/45 COMPLETE-VERIFIED**; boundary ownership QA **PASS — 0 gaps / 0 overlaps**; dialogue index next; English remains downstream.
 
-**Exact next activity:** Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.
+**Exact next activity:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.
 
 ## 9. Ammayappan closed checkpoint
 

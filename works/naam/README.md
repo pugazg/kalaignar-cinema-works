@@ -11,7 +11,7 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - visual fidelity audit: **67/67 PASS / COMPLETE**;
 - historical-Tamil-glyph audit: **67/67 final-verified / COMPLETE**;
 - open source uncertainty markers: **0**;
-- scene derivatives: **not-started / ready**;
+- scene derivatives: **45/45 COMPLETE-VERIFIED; boundary ownership QA PASS**;
 - dialogue / character / song derivatives: **blocked by normal gate order after scenes**;
 - English translation / reader / Reading Room: **not-started**.
 
@@ -31,6 +31,20 @@ Current textual notes: `notes/textual-notes-pdf-070-071.md`
 - visible author: **மு. கருணாநிதி**.
 
 The rendered scan is the controlling textual authority. The source PDF itself is not stored in this repository.
+
+
+## Scene-text derivative checkpoint
+
+- source-numbered scenes: **45/45 COMPLETE-VERIFIED**;
+- exact sequence: **காட்சி 1–45**;
+- canonical PDF representation: **67/67 pages, PDF 5–71**;
+- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
+- scene index: `scenes/index.json`;
+- QA: `notes/scene-boundary-ownership-qa.md`;
+- canonical scene-region / joined scene-span SHA-256: `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` / `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` — **MATCH**;
+- canonical Tamil changed by derivative generation: **0**.
+
+**Next:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.
 
 ## Source-visible publication / credit evidence
 
@@ -106,7 +120,7 @@ Safeguards:
 - final audit: `notes/canonical-closure-user-manual.md`;
 - no downstream derivative reconciliation required because derivatives had not yet started.
 
-**Next:** Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.
+**Next:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.
 
 ## Song / verse / performance structures mapped or confirmed so far
 

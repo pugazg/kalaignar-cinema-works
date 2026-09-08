@@ -350,6 +350,17 @@ mapped_source_visible_performance_structures:
       source_marker: "பின்னணிப் பாடல்"
       authorship: not-adjudicated
 
+structured_derivatives:
+  scene_index_path: "scenes/index.json"
+  scene_text_derivatives: complete-verified
+  source_numbered_scene_count: 45
+  scene_text_files_completed: 45
+  boundary_ownership_qa_path: "notes/scene-boundary-ownership-qa.md"
+  boundary_ownership_qa: PASS
+  canonical_scene_region_sha256: "787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146"
+  joined_scene_spans_sha256: "787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146"
+  dialogue_index: not-started
+
 status:
   duplicate_work_check: complete-no-existing-work
   source_intake: complete
@@ -358,10 +369,10 @@ status:
   canonical_tamil_transcription: complete-verified-67-of-67
   visual_fidelity_audit: complete-67-of-67-pass
   historical_glyph_audit: complete-final-verified-67-of-67
-  scene_derivatives: not-started-ready
-  dialogue_index: blocked-pending-scene-derivatives
+  scene_derivatives: complete-verified-45-of-45
+  dialogue_index: ready-next
   character_entity_index: blocked-pending-dialogue-layer
-  song_authorship_gate: blocked-pending-scene-dialogue-character-layers
+  song_authorship_gate: blocked-pending-dialogue-character-layers
   english_translation: blocked-pending-structured-derivatives-and-song-gate
   reader_export: not-started
   reading_room_integration: not-started
@@ -372,4 +383,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections."
+next_action: "Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections."
