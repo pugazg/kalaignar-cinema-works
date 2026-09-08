@@ -53,7 +53,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 20–24 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF24 hold |
 | PDF 25–29 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 30–34 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 35–39 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 35–39 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 40–44 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 45–49 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 50–54 | 5 | 5 | 0 | 5 | partial-first-pass |
@@ -61,7 +61,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **27** | **40** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **32** | **35** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -84,9 +84,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 32 | 32 | historical `னை` clusters | `அவனை` / `ஜமீனையே` | `னை` | enlarged source pixels | **final-verified** |
 | 34 | 34 | historical `ளை` cluster | `அவளை` | `ளை` | enlarged source pixels | **final-verified** |
 | 34 | 34 | historical `ணை` cluster | `பஞ்சணை` | `ணை` | enlarged source pixels | **final-verified** |
-| 35 | 35 | historical `னா` cluster | `நானம்மா` | `னா` | enlarged source pixels | draft-supported |
-| 37 | 37 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
-| 39 | 39 | historical `னோ` cluster | `எமனோடு` | `னோ` | enlarged source pixels + same-edition family comparison | draft-supported |
+| 35 | 35 | historical `னா` cluster | `நானம்மா` | `னா` | enlarged source pixels | **final-verified** |
+| 37 | 37 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | **final-verified** |
+| 39 | 39 | historical `னோ` cluster | `எமனோடு` | `னோ` | enlarged source pixels + same-edition family comparison | **final-verified** |
 | 40 | 40 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
 | 42 | 42 | historical `ணை` cluster | `மண்ணைவாரிப்` | `ணை` | enlarged source pixels | draft-supported |
 | 43 | 43 | historical `னை` cluster | `குமரனை` | `னை` | enlarged source pixels | draft-supported |
@@ -304,3 +304,13 @@ Next final audit range: **PDF 30–34**.
 - details: `verification-audit-pdf-030-034.md`.
 
 Next final audit range: **PDF 35–39**.
+
+## PDF 35–39 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- scan corrections include PDF 37 `ஆச்சி` / `சரியாய்போச்சிங்க` / `வெளியூருக்கெல்லாம்` / `ஆள`, PDF 38 `மட்டம் தட்ட`, and PDF 39 `பைத்தியம்` / `தெளியும்` / `ஹூம்`;
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-035-039.md`.
+
+Next final audit range: **PDF 40–44**.
