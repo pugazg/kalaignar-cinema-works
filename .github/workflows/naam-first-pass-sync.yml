@@ -25,11 +25,15 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Synchronize PDF 15-19 verification core
-        run: python works/naam/scripts/sync_verification_015_019_core.py
-
-      - name: Synchronize PDF 15-19 status mirrors
-        run: python works/naam/scripts/sync_verification_015_019_mirrors.py
+      - name: Synchronize PDF 15-19 checkpoint when pending
+        run: |
+          VERIFIED=$(python -c "import json; print(json.load(open('works/naam/transcription/index.json'))['verified_pages'])")
+          if [ "$VERIFIED" = "8" ]; then
+            python works/naam/scripts/sync_verification_015_019_core.py
+            python works/naam/scripts/sync_verification_015_019_mirrors.py
+          else
+            echo "PDF 15-19 synchronization already closed or superseded (verified_pages=$VERIFIED)."
+          fi
 
       - name: Validate JSON
         run: |
