@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** has first pass **67/67 COMPLETE**, dual-gate verification **13/67**, visual-fidelity **13/67**, historical-glyph final **15/67**, and **2 physical-source holds** (PDF 5 and PDF 10). PDF 15–19 is fully verified and adds no uncertainty.
+**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** has first pass **67/67 COMPLETE**, dual-gate verification **17/67**, visual-fidelity **17/67**, historical-glyph final **20/67**, and **3 source-obscuration holds** (PDF 5, PDF 10, PDF 24). PDF 20–23 are verified; PDF 24 is held only at the ink/mark-obscured post-`தே` span.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -25,19 +25,19 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | first pass 67/67 COMPLETE; dual-gate 13/67; 2 physical holds | 45 scenes mapped; derivatives blocked | not-started | not-started |
+| Naam / நாம் | first pass 67/67 COMPLETE; dual-gate 17/67; 3 source holds | 45 scenes mapped; derivatives blocked | not-started | not-started |
 
 ## Naam current checkpoint
 
 - first pass: **67/67 COMPLETE**;
-- dual-gate verified / visual-fidelity: **13/67 / 13/67**;
-- historical-glyph first-pass / final: **67/67 / 15/67**;
-- open source holds: **2** — PDF 5 and PDF 10;
-- PDF 15–19: **5/5 VERIFIED**;
-- current audit: `works/naam/notes/verification-audit-pdf-015-019.md`;
+- dual-gate verified / visual-fidelity: **17/67 / 17/67**;
+- historical-glyph first-pass / final: **67/67 / 20/67**;
+- open source holds: **3** — PDF 5, PDF 10, PDF 24;
+- PDF 20–23: **4/4 VERIFIED**; PDF 24: glyph-final PASS / lexical HOLD;
+- current audit: `works/naam/notes/verification-audit-pdf-020-024.md`;
 - downstream layers remain blocked.
 
-**Next production phase:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 20–24. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9 or PDF 11–19 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+**Next production phase:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 25–29. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
 
 ## Ammayappan current checkpoint
 
@@ -129,4 +129,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is active with first pass **67/67 COMPLETE**, dual-gate **13/67**, visual **13/67**, glyph-final **15/67**, and source-damage holds on PDF 5 and PDF 10. Next verification batch: **PDF 20–24**.
+Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is active with first pass **67/67 COMPLETE**, dual-gate **17/67**, visual **17/67**, glyph-final **20/67**, and source holds on PDF 5, PDF 10 and PDF 24. Next verification batch: **PDF 25–29**.

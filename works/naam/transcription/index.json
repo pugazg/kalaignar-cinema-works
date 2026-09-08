@@ -13,13 +13,13 @@
     5,
     71
   ],
-  "draft_pages": 54,
-  "verified_pages": 13,
-  "visual_fidelity_passed_pages": 13,
+  "draft_pages": 50,
+  "verified_pages": 17,
+  "visual_fidelity_passed_pages": 17,
   "historical_glyph_checked_pages": 67,
-  "historical_glyph_verified_pages": 15,
-  "review_pages": 54,
-  "open_uncertainty_markers": 2,
+  "historical_glyph_verified_pages": 20,
+  "review_pages": 50,
+  "open_uncertainty_markers": 3,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
   "pdf_5_printed_page_number_visible": false,
@@ -76,9 +76,9 @@
         20,
         24
       ],
-      "status": "draft-needs-review",
-      "historical_glyph_status": "checked-first-pass",
-      "open_uncertainties": 0
+      "status": "mixed-pdf20-23-verified-pdf24-needs-review",
+      "historical_glyph_status": "verified-final",
+      "open_uncertainties": 1
     },
     {
       "path": "parts/pdf-025-029.md",
@@ -224,5 +224,5 @@
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 20–24. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9 or PDF 11–19 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 25–29. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
 }

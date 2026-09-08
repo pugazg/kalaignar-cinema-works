@@ -27,13 +27,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 `TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake/map and first-pass Tamil are complete; dual-gate verification is in progress.
 
 - first pass: **67/67 COMPLETE**;
-- dual-gate verified / visual-fidelity: **13/67 / 13/67**;
-- historical-glyph first-pass / final: **67/67 / 15/67**;
-- open source holds: **2** — PDF 5 and PDF 10;
-- current audit: `works/naam/notes/verification-audit-pdf-015-019.md`;
+- dual-gate verified / visual-fidelity: **17/67 / 17/67**;
+- historical-glyph first-pass / final: **67/67 / 20/67**;
+- open source holds: **3** — PDF 5, PDF 10, PDF 24;
+- current audit: `works/naam/notes/verification-audit-pdf-020-024.md`;
 - derivatives / English remain blocked pending verified Tamil.
 
-**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 20–24. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9 or PDF 11–19 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 25–29. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
 
 ## ராஜா ராணி status
 

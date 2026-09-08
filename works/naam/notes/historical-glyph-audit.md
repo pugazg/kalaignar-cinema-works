@@ -50,7 +50,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 5–9 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF5 hold |
 | PDF 10–14 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF10 hold |
 | PDF 15–19 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 20–24 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 20–24 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF24 hold |
 | PDF 25–29 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 30–34 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 35–39 | 5 | 5 | 0 | 5 | partial-first-pass |
@@ -61,7 +61,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **13** | **54** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **17** | **50** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -73,7 +73,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 15 | 15 | historical `றா` cluster | `வாறேன்` | `றா` | enlarged source pixels; occurrence-specific final review | **final-verified** |
 | 16 | 16 | historical `னை` clusters | `காடனை` / `வேடனை` | `னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
 | 18 | 18 | historical `னை` cluster | `தன்னை` | `னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
-| 21 | 21 | modern-lookalike `நீதானு...?` | `நீதானா...?` | `னா` | enlarged source pixels + binding guide's same-family precedent (`மட்டுந்தானு?` → `மட்டுந்தானா?`) | draft-supported |
+| 21 | 21 | modern-lookalike `நீதானு...?` | `நீதானா...?` | `னா` | enlarged source pixels + binding guide's same-family precedent (`மட்டுந்தானு?` → `மட்டுந்தானா?`) | **final-verified** |
 | 26 | 26 | old-form `லை` cluster in `அலைந்தான்` | `அலைந்தான்` | `லை` | enlarged source pixels + same-edition family comparison | draft-supported |
 | 27 | 27 | historical `ணை` cluster | `சாணைக்கல்லிலே` / `சாணைக்கல்லை` | `ணை` | enlarged source pixels; both same-page occurrences checked | draft-supported |
 | 28 | 28 | historical `லை` / `னா` shapes in phrase | `காதலை நான்` | `லை` / `னா` | enlarged source pixels + same-edition family comparison | draft-supported |
@@ -273,3 +273,13 @@ Next final audit range: **PDF 15–19**.
 - details: `verification-audit-pdf-015-019.md`.
 
 Next final audit range: **PDF 20–24**.
+
+## PDF 20–24 final dual-gate audit
+
+- historical-glyph final: **5/5 PASS**;
+- visual-fidelity: **PDF 20–23 PASS / PDF 24 HOLD**;
+- PDF 21 `நீதானா...?` is final-verified historical `னா`;
+- PDF 24 hold is caused by a later dark mark obscuring the printed glyph after visible `தே`, not by historical-glyph ambiguity;
+- details: `verification-audit-pdf-020-024.md`.
+
+Next final audit range: **PDF 25–29**.

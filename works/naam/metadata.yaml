@@ -71,10 +71,10 @@ canonical_tamil:
   first_pass_pdf_range_completed: "5-71"
   first_pass_current_through_pdf: 71
   first_pass_current_through_printed_page: 71
-  draft_pages: 54
-  verified_pages: 13
-  review_pages: 54
-  open_uncertainty_markers: 2
+  draft_pages: 50
+  verified_pages: 17
+  review_pages: 50
+  open_uncertainty_markers: 3
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
     - "transcription/parts/pdf-010-014.md"
@@ -94,19 +94,21 @@ canonical_tamil:
   current_textual_notes_path: "notes/textual-notes-pdf-070-071.md"
 
 verification_progress:
-  current_audit_path: "notes/verification-audit-pdf-015-019.md"
-  visual_fidelity_passed_pages: 13
-  historical_glyph_final_verified_pages: 15
-  dual_gate_verified_pages: 13
+  current_audit_path: "notes/verification-audit-pdf-020-024.md"
+  visual_fidelity_passed_pages: 17
+  historical_glyph_final_verified_pages: 20
+  dual_gate_verified_pages: 17
   held_pages:
     - pdf_page: 5
       reason: "physically damaged left beginning of introductory line"
     - pdf_page: 10
       reason: "physically damaged right-edge ending in Malaiyappan speech"
+    - pdf_page: 24
+      reason: "later dark ink/mark obscures the printed character immediately after visible தே in scene 11"
   resolved_uncertainties:
     - pdf_page: 9
       reading: "குறுக்கொடிய"
-  next_pdf_range: "20-24"
+  next_pdf_range: "25-29"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
@@ -114,7 +116,7 @@ historical_glyph:
   status: final-verification-in-progress
   main_text_pages_expected: 67
   pages_checked: 67
-  pages_verified: 15
+  pages_verified: 20
   known_families:
     - "ணா"
     - "ணை"
@@ -313,8 +315,8 @@ status:
   whole_scan_inspection: complete
   structural_mapping: verified
   canonical_tamil_transcription: first-pass-complete-through-pdf-071
-  visual_fidelity_audit: in-progress-through-pdf-019-13-of-67-pass
-  historical_glyph_audit: final-verification-in-progress-15-of-67
+  visual_fidelity_audit: in-progress-through-pdf-024-17-of-67-pass
+  historical_glyph_audit: final-verification-in-progress-20-of-67
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -329,4 +331,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 20–24. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9 or PDF 11–19 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 25–29. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
