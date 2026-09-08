@@ -55,13 +55,13 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 30–34 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 35–39 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 40–44 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 45–49 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 45–49 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 50–54 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 55–59 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **37** | **30** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **42** | **25** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -91,9 +91,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 42 | 42 | historical `ணை` cluster | `மண்ணைவாரிப்` | `ணை` | enlarged source pixels | **final-verified** |
 | 43 | 43 | historical `னை` cluster | `குமரனை` | `னை` | enlarged source pixels | **final-verified** |
 | 44 | 44 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
-| 45 | 45 | historical `றா` cluster | `கொன்றாய்` | `றா` | enlarged source pixels | draft-supported |
-| 48 | 48 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
-| 49 | 49 | historical `ணா` cluster | `மணாளன்` | `ணா` | enlarged source pixels | draft-supported |
+| 45 | 45 | historical `றா` cluster | `கொன்றாய்` | `றா` | enlarged source pixels | **final-verified** |
+| 48 | 48 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | **final-verified** |
+| 49 | 49 | historical `ணா` cluster | `மணாளன்` | `ணா` | enlarged source pixels | **final-verified** |
 | 49 | 49 | historical `னோ` cluster | `கேளேனோ` | `னோ` | enlarged source pixels + same-edition PDF 39 comparison | draft-supported |
 | 51 | 51 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
 | 52 | 52 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | draft-supported |
@@ -325,3 +325,14 @@ Next final audit range: **PDF 40–44**.
 - details: `verification-audit-pdf-040-044.md`.
 
 Next final audit range: **PDF 45–49**.
+
+## PDF 45–49 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- scan corrections include PDF 45 `என் காரியம் செய்தாய்?` / `சொல்லுகிறியே`, PDF 46 `வாசல்லே` / `அவனை நம்பிப் பிரயோஜனம் இல்லே`, PDF 47 `எப்படிய்யா`, PDF 48 `கட்டுகள்` / `சதி செய்துவிட்டாய்` / `கேடுகெட்டவனே` / `பால் வடியும்` / `வடிகிறது`, and PDF 49 `இதயம் இல்லாதவனே`;
+- final glyph cases include `கொன்றாய்` (`றா`), `என்னை` (`னை`), `மணாளன்` (`ணா`) and `கேளேனோ` (`னோ`);
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-045-049.md`.
+
+Next final audit range: **PDF 50–54**.

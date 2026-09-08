@@ -71,9 +71,9 @@ canonical_tamil:
   first_pass_pdf_range_completed: "5-71"
   first_pass_current_through_pdf: 71
   first_pass_current_through_printed_page: 71
-  draft_pages: 30
-  verified_pages: 37
-  review_pages: 30
+  draft_pages: 25
+  verified_pages: 42
+  review_pages: 25
   open_uncertainty_markers: 3
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
@@ -94,10 +94,10 @@ canonical_tamil:
   current_textual_notes_path: "notes/textual-notes-pdf-070-071.md"
 
 verification_progress:
-  current_audit_path: "notes/verification-audit-pdf-040-044.md"
-  visual_fidelity_passed_pages: 37
-  historical_glyph_final_verified_pages: 40
-  dual_gate_verified_pages: 37
+  current_audit_path: "notes/verification-audit-pdf-045-049.md"
+  visual_fidelity_passed_pages: 42
+  historical_glyph_final_verified_pages: 45
+  dual_gate_verified_pages: 42
   held_pages:
     - pdf_page: 5
       reason: "physically damaged left beginning of introductory line"
@@ -108,7 +108,7 @@ verification_progress:
   resolved_uncertainties:
     - pdf_page: 9
       reading: "குறுக்கொடிய"
-  next_pdf_range: "45-49"
+  next_pdf_range: "50-54"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
@@ -116,7 +116,7 @@ historical_glyph:
   status: final-verification-in-progress
   main_text_pages_expected: 67
   pages_checked: 67
-  pages_verified: 40
+  pages_verified: 45
   known_families:
     - "ணா"
     - "ணை"
@@ -315,8 +315,8 @@ status:
   whole_scan_inspection: complete
   structural_mapping: verified
   canonical_tamil_transcription: first-pass-complete-through-pdf-071
-  visual_fidelity_audit: in-progress-through-pdf-044-37-of-67-pass
-  historical_glyph_audit: final-verification-in-progress-40-of-67
+  visual_fidelity_audit: in-progress-through-pdf-049-42-of-67-pass
+  historical_glyph_audit: final-verification-in-progress-45-of-67
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -331,4 +331,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 45–49. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–44 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 50–54. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–49 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 50 continues the scene-31 booklet lyric witness; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
