@@ -7,7 +7,7 @@ Status: **first-pass source notes; canonical pages remain draft / needs-review**
 ## PDF 50
 
 - Continues and closes the source-visible `காட்சி-31` lyrical witness opened on PDF 49.
-- Preserve the printed `(பேதம்)` cues and lineation only; no outside lyric continuation, title or authorship is inferred.
+- Preserve the verified printed `(பேசும்)` cues and lineation only; no outside lyric continuation, title or authorship is inferred.
 - Source-visible lyric lines include `தனியாய் விழித்தீரோ`, `மீளாசோகம் மீட்டிடும் யாழானேன்`, `தீரா துன்பம் தீட்டிய ஏடானேன்`, and `மாறு பாசமதனை மறந்தீரோ நேசம்....`.
 - After the lyric, Meenu sees Kumaran's burned face and faints; Malaiyappan arrives while Kumaran remains hidden.
 - Sanjeevi's source-period child description is preserved, including `சிறுவிழிகாட்டி-குறுநகைபுரிந்து-தனிமை போட்டு—தமிழ்மொழி பேசி தவழ்ந்து விளையாட`.
@@ -34,7 +34,7 @@ Status: **first-pass source notes; canonical pages remain draft / needs-review**
 - Continues `காட்சி-32`.
 - Preserve Maathirai's long comic ghost-rumour account and source colloquialisms rather than standardizing them.
 - `அண்ணுமலை` remains the source speaker label and is another positive historical-`லை` occurrence.
-- Source wording `இந்த மூட்டாள் பயல் சிநேகிதன்—சங்கரமூர்த்தி!` is retained from enlarged direct reading.
+- Final verification corrects the source wording to `இந்த மூட்டாள் பயல் சிநேகிதன்—சங்காரமூர்த்தி!`; enlarged direct pixels control.
 - No standalone lyric/song structure occurs on this page.
 
 ## PDF 54

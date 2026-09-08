@@ -56,12 +56,12 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 35–39 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 40–44 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 45–49 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 50–54 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 50–54 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 55–59 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **42** | **25** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **47** | **20** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -95,11 +95,12 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 48 | 48 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | **final-verified** |
 | 49 | 49 | historical `ணா` cluster | `மணாளன்` | `ணா` | enlarged source pixels | **final-verified** |
 | 49 | 49 | historical `னோ` cluster | `கேளேனோ` | `னோ` | enlarged source pixels + same-edition PDF 39 comparison | draft-supported |
-| 51 | 51 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
-| 52 | 52 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | draft-supported |
+| 51 | 51 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | **final-verified** |
+| 52 | 52 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | **final-verified** |
 | 52 | 52 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
-| 53 | 53 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
-| 54 | 54 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | draft-supported |
+| 53 | 53 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | **final-verified** |
+| 53 | 53 | historical `றா` cluster | `வாற` | `றா` | enlarged source pixels; occurrence-specific final review | **final-verified** |
+| 54 | 54 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | **final-verified** |
 
 | 55 | 55 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | draft-supported |
 | 57 | 57 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
@@ -336,3 +337,15 @@ Next final audit range: **PDF 45–49**.
 - details: `verification-audit-pdf-045-049.md`.
 
 Next final audit range: **PDF 50–54**.
+
+## PDF 50–54 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- scan corrections include PDF 50 `(பேசும்)` refrain cues, PDF 51 `எஜமான்` / source role `மலைய`, PDF 52 `மலையங்களா தான்` / `கவலையே இல்லே`, PDF 53 `விறுவிறுத்துப்போச்சி` / `வாற` / `வீட்டுக் கதவை` / `சங்காரமூர்த்தி`, and PDF 54 `காப்பாற்றுவதையே` / `பிறக்கும்குழந்தை` / stage-direction `உயில்` / `பத்திரமாகவைச்சிரு`;
+- final glyph cases include `என்னை` (`னை`), `மலையங்களா` / `அண்ணுமலை` (`லை`) and `வாற` (`றா`);
+- scene-31 metadata cue synchronized from stale `(பேதம்)` to verified `(பேசும்)`;
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-050-054.md`.
+
+Next final audit range: **PDF 55–59**.
