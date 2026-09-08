@@ -12,7 +12,8 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - historical-Tamil-glyph audit: **67/67 final-verified / COMPLETE**;
 - open source uncertainty markers: **0**;
 - scene derivatives: **45/45 COMPLETE-VERIFIED; boundary ownership QA PASS**;
-- dialogue / character / song derivatives: **blocked by normal gate order after scenes**;
+- dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **ready-next**; song derivatives remain downstream;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
@@ -44,7 +45,20 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - canonical scene-region / joined scene-span SHA-256: `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` / `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` — **MATCH**;
 - canonical Tamil changed by derivative generation: **0**.
 
-**Next:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.
+**Next:** Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.
+
+## Immutable dialogue checkpoint
+
+- source scenes represented: **45/45**;
+- immutable explicit dialogue records: **590**;
+- distinct exact speaker labels: **45**;
+- multi-page dialogue records: **8**;
+- source-unlabelled speaker inference: **0**;
+- QA: `notes/dialogue-index-qa.json` — **PASS**;
+- dialogue index: `dialogues/index.json`;
+- canonical Tamil / scene text modified by this phase: **0 / 0**.
+
+**Next:** Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.
 
 ## Source-visible publication / credit evidence
 
@@ -120,7 +134,7 @@ Safeguards:
 - final audit: `notes/canonical-closure-user-manual.md`;
 - no downstream derivative reconciliation required because derivatives had not yet started.
 
-**Next:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.
+**Next:** Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.
 
 ## Song / verse / performance structures mapped or confirmed so far
 

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "naam-s041-d001",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "நீதிபதி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 65,
+        "printed_page": 65
+      },
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "இருதரப்பு வாதங்களைக் கொண்டும்-சாட்சிகளையும் ஆராயும்போது குமரன் புரட்சிக்காரன், பலாத்கார வாதி, கடவுள் நிந்திப்பவன் என்று தெரியவில்லை. மக்களை படிக்கச் சொல்லுவது, ஏகமனதான கடவுளை கும்பிடுவது\nஇதுபோன்ற காரியங்கள் புரட்சிக்காரனுக்கோ, பலாத்கார வாதியாகவோ இருந்துவிட முடியாது! ஜமீன் ஒழிக்க சர்க்கார் நடவடிக்கை எடுத்துவரும் இந்நாளில் குமரன் ஜமீன்தாரின் அட்டகாசங்களை அடக்கவே பாடு பட்டிருக்கிறான். ஆகவே...குமரன் குற்றமற்ற நிலையில் விடுதலை செய்யப்படுகிறது.",
+    "page_segments": [
+      {
+        "pdf_page": 65,
+        "printed_page": 65,
+        "text": "இருதரப்பு வாதங்களைக் கொண்டும்-சாட்சிகளையும் ஆராயும்போது குமரன் புரட்சிக்காரன், பலாத்கார வாதி, கடவுள் நிந்திப்பவன் என்று தெரியவில்லை. மக்களை படிக்கச் சொல்லுவது, ஏகமனதான கடவுளை கும்பிடுவது"
+      },
+      {
+        "pdf_page": 66,
+        "printed_page": 66,
+        "text": "இதுபோன்ற காரியங்கள் புரட்சிக்காரனுக்கோ, பலாத்கார வாதியாகவோ இருந்துவிட முடியாது! ஜமீன் ஒழிக்க சர்க்கார் நடவடிக்கை எடுத்துவரும் இந்நாளில் குமரன் ஜமீன்தாரின் அட்டகாசங்களை அடக்கவே பாடு பட்டிருக்கிறான். ஆகவே...குமரன் குற்றமற்ற நிலையில் விடுதலை செய்யப்படுகிறது."
+      }
+    ]
+  },
+  {
+    "id": "naam-s041-d002",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "அய்யா......காலணா......போடுங்கய்யா"
+  },
+  {
+    "id": "naam-s041-d003",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "ஆ...இது யார் குழந்தை?"
+  },
+  {
+    "id": "naam-s041-d004",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "என் குழந்தை தானய்யா!"
+  },
+  {
+    "id": "naam-s041-d005",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "அய்யோ...என் மீனு விபச்சாரி! என் மீனு விபச்சாரி!"
+  },
+  {
+    "id": "naam-s041-d006",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "ஜீவானந்தர்",
+    "source_delimiter": "—",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "குமரன்! குமரன்!"
+  },
+  {
+    "id": "naam-s041-d007",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "ஆ...என் குமரா! குமரன்...குமரன்..."
+  },
+  {
+    "id": "naam-s041-d008",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "சீ...தொடாதே காலை!"
+  },
+  {
+    "id": "naam-s041-d009",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "குமரன்! இது என் குழந்தை அல்ல! இக் குழந்தையைப்பற்றி கடிதத்தில் என்ன எழுதி இருக்கிறது என்று பாருங்கள்!"
+  },
+  {
+    "id": "naam-s041-d010",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "மீனு...சுந்தரி...சுந்தரி...மீனு...நம்குழந்தை-\n\nகுழந்தை முத்து என்னிடம்தான் இருக்கிறான் மீனு"
+  },
+  {
+    "id": "naam-s041-d011",
+    "scene_id": "naam-s041",
+    "scene_ordinal": 41,
+    "source_scene_number": 41,
+    "source_heading": "காட்சி 41",
+    "speaker_label": "உன்மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 66
+      }
+    ],
+    "text": "ஆ...என் குழந்தையா......"
+  }
+]

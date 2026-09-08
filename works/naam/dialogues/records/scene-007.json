@@ -1,0 +1,121 @@
+[
+  {
+    "id": "naam-s007-d001",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "ஆமா...இந்த ஆட்டுக்கு மாலை போட்டு எங்கே கொண்டு போறீங்க?"
+  },
+  {
+    "id": "naam-s007-d002",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "மாத்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "மாலை போட்ட ஆட்டை எங்கேப்பா கொண்டு போவாங்க? மாட சாமிக்கு பலி கொடுக்கத்தான்."
+  },
+  {
+    "id": "naam-s007-d003",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "கும",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "மாத்திரை! நீயுமா கூடப்போறே?"
+  },
+  {
+    "id": "naam-s007-d004",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "மாத்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "என்ன பண்றது? ஊரோடே வாழணுமே! நானும் போயித் தொலையிறேன்."
+  },
+  {
+    "id": "naam-s007-d005",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "ஏய்யா...கடவுள் பெயரைச் சொல்லி இந்த வாயில்லாத ஜீவனை கொல்லப் போறீங்களே......"
+  },
+  {
+    "id": "naam-s007-d006",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "ஒருவன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "ஏம்பா ... அப்போ ... நீ கடவுளே இல்லேங்கிறியா?"
+  },
+  {
+    "id": "naam-s007-d007",
+    "scene_id": "naam-s007",
+    "scene_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 16,
+        "printed_page": 16
+      }
+    ],
+    "text": "கடவுளே நான் இல்லேங்கலே...கடவுள்......"
+  }
+]

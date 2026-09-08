@@ -1,0 +1,796 @@
+{
+  "work_id": "naam",
+  "phase": "dialogue-index-qa",
+  "status": "PASS",
+  "scene_coverage": "45/45",
+  "explicit_source_labels_expected": 590,
+  "immutable_dialogue_records": 590,
+  "explicit_label_ownership": "590/590 exactly once",
+  "distinct_exact_speaker_labels": 45,
+  "label_distribution_matches_preflight": true,
+  "delimiter_distribution_matches_preflight": true,
+  "speaker_alias_normalizations": 0,
+  "inferred_unlabelled_speakers": 0,
+  "unlabelled_blocks_preserved": 39,
+  "multi_page_dialogue_records": 8,
+  "reviewed_alternate_delimiter_dialogues": [
+    {
+      "scene_id": "naam-s041",
+      "scene_file": "scene-041.md",
+      "line": 26,
+      "speaker_label": "ஜீவானந்தர்",
+      "delimiter": "—",
+      "text": "குமரன்! குமரன்!",
+      "pdf_page": 66,
+      "printed_page": 66,
+      "parse_kind": "reviewed-alternate-delimiter",
+      "raw": "ஜீவானந்தர் — குமரன்! குமரன்!",
+      "decision": "explicit-speaker-label-occurrence"
+    }
+  ],
+  "reviewed_non_speaker_dash_candidates": [
+    {
+      "scene_id": "naam-s001",
+      "scene_file": "scene-001.md",
+      "line": 60,
+      "pdf_page": 6,
+      "printed_page": 6,
+      "label_candidate": "சூரியனால் கடல் நீரும்",
+      "delimiter": "—",
+      "text": "மேகமாகுமே",
+      "raw": "சூரியனால் கடல் நீரும்—மேகமாகுமே",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s003",
+      "scene_file": "scene-003.md",
+      "line": 72,
+      "pdf_page": 10,
+      "printed_page": 10,
+      "label_candidate": "வேலைக்காரன்",
+      "delimiter": "—",
+      "text": "வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு",
+      "raw": "வேலைக்காரன்—வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_file": "scene-007.md",
+      "line": 29,
+      "pdf_page": 16,
+      "printed_page": 16,
+      "label_candidate": "அலையும் அறிவிலிகாள்",
+      "delimiter": "—",
+      "text": "பல",
+      "raw": "அலையும் அறிவிலிகாள்—பல",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_file": "scene-007.md",
+      "line": 36,
+      "pdf_page": 16,
+      "printed_page": 16,
+      "label_candidate": "மயங்கு மதியிலிகாள்",
+      "delimiter": "—",
+      "text": "எத",
+      "raw": "மயங்கு மதியிலிகாள்—எத",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_file": "scene-007.md",
+      "line": 43,
+      "pdf_page": 16,
+      "printed_page": 16,
+      "label_candidate": "வெறுங்கதைகள் சேர்த்துப்",
+      "delimiter": "—",
+      "text": "பல",
+      "raw": "வெறுங்கதைகள் சேர்த்துப்—பல",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_file": "scene-029.md",
+      "line": 46,
+      "pdf_page": 46,
+      "printed_page": 46,
+      "label_candidate": "ஹா",
+      "delimiter": "-",
+      "text": "ம்...பிரேமா...",
+      "raw": "ஹா-ம்...பிரேமா...",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_file": "scene-029.md",
+      "line": 52,
+      "pdf_page": 46,
+      "printed_page": 46,
+      "label_candidate": "குமரனும்",
+      "delimiter": "—",
+      "text": "மீனுவும் திடீரென்று சந்தித்து விட்டால்...?",
+      "raw": "குமரனும்—மீனுவும் திடீரென்று சந்தித்து விட்டால்...?",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_file": "scene-036.md",
+      "line": 24,
+      "pdf_page": 59,
+      "printed_page": 59,
+      "label_candidate": "புதியதோர் பாதை வகுப்போம்",
+      "delimiter": "—",
+      "text": "நாம்—கெட்ட",
+      "raw": "புதியதோர் பாதை வகுப்போம்—நாம்—கெட்ட",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_file": "scene-036.md",
+      "line": 31,
+      "pdf_page": 59,
+      "printed_page": 59,
+      "label_candidate": "விஞ்ஞானப் பேரறிவினில்",
+      "delimiter": "—",
+      "text": "உழுதே",
+      "raw": "விஞ்ஞானப் பேரறிவினில்—உழுதே",
+      "decision": "not-a-speaker-label"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_file": "scene-039.md",
+      "line": 58,
+      "pdf_page": 64,
+      "printed_page": 64,
+      "label_candidate": "சோதனையாலே வாடாதே",
+      "delimiter": "—",
+      "text": "நீ வாடாதே",
+      "raw": "சோதனையாலே வாடாதே—நீ வாடாதே",
+      "decision": "not-a-speaker-label"
+    }
+  ],
+  "non_speaker_colon_cues_excluded": 21,
+  "zero_dialogue_scenes": [
+    "naam-s037"
+  ],
+  "per_scene": [
+    {
+      "scene_id": "naam-s001",
+      "dialogue_records": 14,
+      "unlabelled_blocks": 5,
+      "classification_counts": {
+        "blank": 32,
+        "explicit_dialogue_start": 14,
+        "heading": 5,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 3,
+        "unowned_ordinary_text": 22
+      }
+    },
+    {
+      "scene_id": "naam-s002",
+      "dialogue_records": 13,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 19,
+        "explicit_dialogue_start": 13,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 2
+      }
+    },
+    {
+      "scene_id": "naam-s003",
+      "dialogue_records": 30,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 52,
+        "explicit_dialogue_start": 30,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 4,
+        "stage_direction_curly": 2,
+        "stage_direction_parenthetical": 12,
+        "stage_direction_square": 1,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "naam-s004",
+      "dialogue_records": 29,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 39,
+        "explicit_dialogue_start": 29,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 4,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "naam-s005",
+      "dialogue_records": 13,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 17,
+        "explicit_dialogue_start": 13,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "naam-s006",
+      "dialogue_records": 16,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 23,
+        "explicit_dialogue_start": 16,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 2
+      }
+    },
+    {
+      "scene_id": "naam-s007",
+      "dialogue_records": 7,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 19,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 1,
+        "unowned_ordinary_text": 15
+      }
+    },
+    {
+      "scene_id": "naam-s008",
+      "dialogue_records": 13,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 34,
+        "explicit_dialogue_start": 13,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 19,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 3,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "naam-s009",
+      "dialogue_records": 20,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 34,
+        "explicit_dialogue_start": 20,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 2,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 6,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "naam-s010",
+      "dialogue_records": 44,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 62,
+        "explicit_dialogue_start": 44,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 11,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "naam-s011",
+      "dialogue_records": 3,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 6,
+        "explicit_dialogue_start": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "naam-s012",
+      "dialogue_records": 5,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 5,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 3
+      }
+    },
+    {
+      "scene_id": "naam-s013",
+      "dialogue_records": 38,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 52,
+        "explicit_dialogue_start": 38,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 5,
+        "stage_direction_parenthetical": 5,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "naam-s014",
+      "dialogue_records": 29,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 38,
+        "explicit_dialogue_start": 29,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 4,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "naam-s015",
+      "dialogue_records": 5,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 8,
+        "explicit_dialogue_start": 5,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 1
+      }
+    },
+    {
+      "scene_id": "naam-s016",
+      "dialogue_records": 6,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 9,
+        "explicit_dialogue_start": 6,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2
+      }
+    },
+    {
+      "scene_id": "naam-s017",
+      "dialogue_records": 14,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 21,
+        "explicit_dialogue_start": 14,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 2,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "naam-s018",
+      "dialogue_records": 8,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 15,
+        "explicit_dialogue_start": 8,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 3,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "naam-s019",
+      "dialogue_records": 1,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 9,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 3,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "naam-s020",
+      "dialogue_records": 4,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 11,
+        "explicit_dialogue_start": 4,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 2
+      }
+    },
+    {
+      "scene_id": "naam-s021",
+      "dialogue_records": 7,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 18,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 2,
+        "unowned_ordinary_text": 17
+      }
+    },
+    {
+      "scene_id": "naam-s022",
+      "dialogue_records": 10,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 19,
+        "explicit_dialogue_start": 10,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 3,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "naam-s023",
+      "dialogue_records": 8,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 15,
+        "explicit_dialogue_start": 8,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 4
+      }
+    },
+    {
+      "scene_id": "naam-s024",
+      "dialogue_records": 35,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 45,
+        "explicit_dialogue_start": 35,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 5,
+        "stage_direction_parenthetical": 3
+      }
+    },
+    {
+      "scene_id": "naam-s025",
+      "dialogue_records": 8,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 13,
+        "explicit_dialogue_start": 8,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 2
+      }
+    },
+    {
+      "scene_id": "naam-s026",
+      "dialogue_records": 1,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 5,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 1
+      }
+    },
+    {
+      "scene_id": "naam-s027",
+      "dialogue_records": 18,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 28,
+        "explicit_dialogue_start": 18,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 2,
+        "stage_direction_square": 1,
+        "unowned_ordinary_text": 2
+      }
+    },
+    {
+      "scene_id": "naam-s028",
+      "dialogue_records": 1,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 5,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 1,
+        "stage_direction_square": 1
+      }
+    },
+    {
+      "scene_id": "naam-s029",
+      "dialogue_records": 20,
+      "unlabelled_blocks": 3,
+      "classification_counts": {
+        "blank": 36,
+        "explicit_dialogue_start": 20,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 6,
+        "stage_direction_square": 1,
+        "unowned_ordinary_text": 4
+      }
+    },
+    {
+      "scene_id": "naam-s030",
+      "dialogue_records": 11,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 27,
+        "explicit_dialogue_start": 11,
+        "heading": 1,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 8,
+        "unowned_ordinary_text": 3
+      }
+    },
+    {
+      "scene_id": "naam-s031",
+      "dialogue_records": 31,
+      "unlabelled_blocks": 3,
+      "classification_counts": {
+        "blank": 46,
+        "explicit_dialogue_start": 31,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 7,
+        "unowned_ordinary_text": 7
+      }
+    },
+    {
+      "scene_id": "naam-s032",
+      "dialogue_records": 13,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 17,
+        "explicit_dialogue_start": 13,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3
+      }
+    },
+    {
+      "scene_id": "naam-s033",
+      "dialogue_records": 17,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 29,
+        "explicit_dialogue_start": 17,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 7,
+        "unowned_ordinary_text": 1
+      }
+    },
+    {
+      "scene_id": "naam-s034",
+      "dialogue_records": 11,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 24,
+        "explicit_dialogue_start": 11,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 6,
+        "unowned_ordinary_text": 17
+      }
+    },
+    {
+      "scene_id": "naam-s035",
+      "dialogue_records": 3,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 7,
+        "explicit_dialogue_start": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 2
+      }
+    },
+    {
+      "scene_id": "naam-s036",
+      "dialogue_records": 4,
+      "unlabelled_blocks": 2,
+      "classification_counts": {
+        "blank": 15,
+        "explicit_dialogue_start": 4,
+        "heading": 3,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 2,
+        "unowned_ordinary_text": 37
+      }
+    },
+    {
+      "scene_id": "naam-s037",
+      "dialogue_records": 0,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 3,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 1
+      }
+    },
+    {
+      "scene_id": "naam-s038",
+      "dialogue_records": 16,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 23,
+        "explicit_dialogue_start": 16,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 3
+      }
+    },
+    {
+      "scene_id": "naam-s039",
+      "dialogue_records": 13,
+      "unlabelled_blocks": 4,
+      "classification_counts": {
+        "blank": 29,
+        "explicit_dialogue_start": 13,
+        "heading": 2,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 1,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 8,
+        "unowned_ordinary_text": 13
+      }
+    },
+    {
+      "scene_id": "naam-s040",
+      "dialogue_records": 8,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 10,
+        "explicit_dialogue_start": 8,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1
+      }
+    },
+    {
+      "scene_id": "naam-s041",
+      "dialogue_records": 11,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 21,
+        "explicit_dialogue_start": 11,
+        "heading": 1,
+        "metadata_comment": 3,
+        "non_speaker_colon_cue": 1,
+        "owned_unlabelled_continuation": 2,
+        "reviewed_alternate_delimiter_start": 1,
+        "source_anchor": 3,
+        "stage_direction_parenthetical": 3
+      }
+    },
+    {
+      "scene_id": "naam-s042",
+      "dialogue_records": 7,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 10,
+        "explicit_dialogue_start": 7,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 1
+      }
+    },
+    {
+      "scene_id": "naam-s043",
+      "dialogue_records": 6,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 13,
+        "explicit_dialogue_start": 6,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 2,
+        "stage_direction_parenthetical": 4
+      }
+    },
+    {
+      "scene_id": "naam-s044",
+      "dialogue_records": 1,
+      "unlabelled_blocks": 0,
+      "classification_counts": {
+        "blank": 5,
+        "explicit_dialogue_start": 1,
+        "heading": 1,
+        "metadata_comment": 3,
+        "source_anchor": 1,
+        "stage_direction_parenthetical": 2
+      }
+    },
+    {
+      "scene_id": "naam-s045",
+      "dialogue_records": 18,
+      "unlabelled_blocks": 1,
+      "classification_counts": {
+        "blank": 32,
+        "explicit_dialogue_start": 18,
+        "heading": 2,
+        "metadata_comment": 3,
+        "owned_unlabelled_continuation": 2,
+        "source_anchor": 4,
+        "stage_direction_parenthetical": 5,
+        "unowned_ordinary_text": 2
+      }
+    }
+  ],
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "next_gate": "character/entity index ready"
+}

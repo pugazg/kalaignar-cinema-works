@@ -2,12 +2,12 @@
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/naam/`. Live `main` is authoritative.
 
-Canonical Tamil is **COMPLETE-VERIFIED: 67/67 dual-gate, 0 open uncertainties**. Scene-text derivatives are now **45/45 COMPLETE-VERIFIED** for source-numbered **காட்சி 1–45**, with `works/naam/notes/scene-boundary-ownership-qa.md` = **PASS — 0 gaps / 0 overlaps / PDF 5–71 represented**. Canonical Tamil was not changed by scene generation.
+Canonical Tamil is **67/67 COMPLETE-VERIFIED**. Scene-text derivatives are **45/45 COMPLETE-VERIFIED** with boundary ownership QA PASS. Immutable dialogue indexing is now **COMPLETE-VERIFIED: 590 records across 45/45 scenes, 45 distinct exact source-label strings, 8 multi-page utterances, dialogue QA PASS, 0 speaker-label normalization, 0 inferred source-unlabelled speakers**.
 
-Scene index: `works/naam/scenes/index.json`.
+Dialogue index: `works/naam/dialogues/index.json`. QA: `works/naam/notes/dialogue-index-qa.json`. Source-unlabelled blocks remain preserved separately in `works/naam/notes/unlabelled-block-audit.json`.
 
-Controlling source: `TVA_BOK_0064201_நாம்.pdf`, 72 pages, SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+Do not alter canonical Tamil, scene text or immutable dialogue records except for later source-supported corrections.
 
 ## Exact next activity
 
-> **Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.**
+> **Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.**

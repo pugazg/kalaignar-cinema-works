@@ -31,9 +31,10 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - final manual-source readings: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, PDF 24 `கெளரவம் தேடி`;
 - final canonical audit: `works/naam/notes/canonical-closure-user-manual.md`;
 - scene derivatives: **45/45 COMPLETE-VERIFIED; boundary ownership QA PASS**;
+- dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
 - English remains downstream of scene/dialogue/character/song gates.
 
-**Next:** Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.
+**Next:** Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.
 
 ## ராஜா ராணி status
 

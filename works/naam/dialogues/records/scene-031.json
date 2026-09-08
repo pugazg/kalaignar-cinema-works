@@ -1,0 +1,529 @@
+[
+  {
+    "id": "naam-s031-d001",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "மீனு...மீனு .."
+  },
+  {
+    "id": "naam-s031-d002",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "யாரது...? குமரன்..."
+  },
+  {
+    "id": "naam-s031-d003",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "(மீனுவின் கையை பிடித்து பார்த்துவிட்டு) சரிதான்..."
+  },
+  {
+    "id": "naam-s031-d004",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்லயப்பன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "என்ன சரிதான்...?"
+  },
+  {
+    "id": "naam-s031-d005",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்சீவி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "ஒண்ணு மில்லே...இந்த மாளிகையிலே மழலை மொழி கேட்டு ரொம்ப நாளாச்சிலே..."
+  },
+  {
+    "id": "naam-s031-d006",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்லயப்பன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "அப்படின்னு?"
+  },
+  {
+    "id": "naam-s031-d007",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்சீவி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "சிறுவிழிகாட்டி-குறுநகைபுரிந்து-தனிமை போட்டு—தமிழ்மொழி பேசி தவழ்ந்து விளையாட உங்களுக்கு ஒரு மருமகனே...மருமகளோ...பிறக்கப்போகுது... மீனு...கொப்பம்..."
+  },
+  {
+    "id": "naam-s031-d008",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "அடி பாவி..."
+  },
+  {
+    "id": "naam-s031-d009",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "ஞானம்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "அட கடவுளே..."
+  },
+  {
+    "id": "naam-s031-d010",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "எல்லாம் அவன் செயல்."
+  },
+  {
+    "id": "naam-s031-d011",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 50,
+        "printed_page": 50
+      }
+    ],
+    "text": "சண்டாளி! அவமானச்சின்னமே...ஊரார் நகைக்க வாழ்ந்த எனக்கு ஊழல் தேடிவிட்டாயே. உன்னை அங்கம் அங்கமாக வெட்டிப்போட்டாலும் ஆறாது என் ஆத்திரம்."
+  },
+  {
+    "id": "naam-s031-d012",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "ஏன்...துடிக்கிறீர்? இப்போது என்ன நடந்து விட்டது?"
+  },
+  {
+    "id": "naam-s031-d013",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "இனியும் வேறு என்ன நடக்கவேண்டும்? எஜமான் நமஸ்காரம் என்று என்னை எப்படிப்பட்டவர்களெல்லாம் வணங்கி வாழ...இழிவை உண்டாக்கிவிட்டாயே...விபசாரி!"
+  },
+  {
+    "id": "naam-s031-d014",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "நான் விபசாரியல்ல! முறைப்படி காதலித்தவன் மூலமானதொரு கனவை ஏற்றேன். அவன் தந்த வைர சிலையை என் வயிற்றிலே வளர்க்கிறேன்."
+  },
+  {
+    "id": "naam-s031-d015",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "காதலன்...கணவன்...மீனு..."
+  },
+  {
+    "id": "naam-s031-d016",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "சீறிப்பாயும் ஜமீன்தாரே...நீர் சிரித்து மகிழும் சிம்மாசனம் யாருடையது என்று எனக்குத் தெரியும்."
+  },
+  {
+    "id": "naam-s031-d017",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "எனக்கும் தெரியுமடி."
+  },
+  {
+    "id": "naam-s031-d018",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "கயவன் காட்டிய கண்கட்டி வித்தையில் ஜமீன்தாரரானீர்!"
+  },
+  {
+    "id": "naam-s031-d019",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "உன் ஆசை நாயகனின் எண்ணமெல்லாம் தகர்ந்துவிட்டது—தணலாகப் போய்விட்டது."
+  },
+  {
+    "id": "naam-s031-d020",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "தணலாகவில்லை—வெறும் கனவு! அந்த உயில் இன்னும் சாம்பலாகி விடவில்லை!"
+  },
+  {
+    "id": "naam-s031-d021",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மலைய",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "சாம்பலாகவில்லையா? எங்கே இருக்கிறது? கொடு..."
+  },
+  {
+    "id": "naam-s031-d022",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "“அந்த உயில் இன்னும் சாம்பலாகிவிடவில்லை” ஹா-ம்...இங்க வாங்க..."
+  },
+  {
+    "id": "naam-s031-d023",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "மீனுவைக் கொல்லுவதால் உங்களுக்கு என்ன பிரயோசனம்? ஜெயிலுக்குப் போகலாம், அவ்வளவுதான்!"
+  },
+  {
+    "id": "naam-s031-d024",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "இந்த அவமானத்தை எப்படி போக்குகிறது?"
+  },
+  {
+    "id": "naam-s031-d025",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 51,
+        "printed_page": 51
+      }
+    ],
+    "text": "மானமாவது? அவமானமாவது? நான் சொல்லுகிறபடி செய்யுங்கள்..."
+  },
+  {
+    "id": "naam-s031-d026",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 52,
+        "printed_page": 52
+      }
+    ],
+    "text": "சொல் கேக்கிறம்..."
+  },
+  {
+    "id": "naam-s031-d027",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 52,
+        "printed_page": 52
+      }
+    ],
+    "text": "மீனுவிடம் பிரசவத்துக்கு மலையங்களா தான் சரியான இடம் என்று சொல்லி—மீனுவை மலையங்களாவுக்கு அழைத்துச் செல்லவேண்டும்! குழந்தை பிறந்தவுடன் குழந்தையைக் கொன்றுவிடவேண்டும்."
+  },
+  {
+    "id": "naam-s031-d028",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 52,
+        "printed_page": 52
+      }
+    ],
+    "text": "குழந்தையைக் கொல்வதா?"
+  },
+  {
+    "id": "naam-s031-d029",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 52,
+        "printed_page": 52
+      }
+    ],
+    "text": "என் யோசனைப்படி கேட்டு நடவுங்கள்! குழந்தையைக் கொன்றுவிட்டால் கவலையே இல்லே."
+  },
+  {
+    "id": "naam-s031-d030",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 52,
+        "printed_page": 52
+      }
+    ],
+    "text": "உயில் அவளிடம் இருக்கிறதாமே..."
+  },
+  {
+    "id": "naam-s031-d031",
+    "scene_id": "naam-s031",
+    "scene_ordinal": 31,
+    "source_scene_number": 31,
+    "source_heading": "காட்சி-31",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-031.md",
+    "page_provenance": [
+      {
+        "pdf_page": 52,
+        "printed_page": 52
+      }
+    ],
+    "text": "சும்மா சொல்லுவாள்...அப்படி இருந்தாலும் குமரன் இல்லாமல் அதை வைத்துக்கொண்டு அவள் என்ன செய்யமுடியும்? பயப்படாமல் செய்யுங்கள்! நான் இருக்கிறேன்."
+  }
+]

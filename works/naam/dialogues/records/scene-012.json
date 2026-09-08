@@ -1,0 +1,87 @@
+[
+  {
+    "id": "naam-s012-d001",
+    "scene_id": "naam-s012",
+    "scene_ordinal": 12,
+    "source_scene_number": 12,
+    "source_heading": "காட்சி 12",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-012.md",
+    "page_provenance": [
+      {
+        "pdf_page": 25,
+        "printed_page": 25
+      }
+    ],
+    "text": "வைத்தியரே...சீக்கிரம் வாங்க வைத்தியரே..."
+  },
+  {
+    "id": "naam-s012-d002",
+    "scene_id": "naam-s012",
+    "scene_ordinal": 12,
+    "source_scene_number": 12,
+    "source_heading": "காட்சி 12",
+    "speaker_label": "சஞ்சீவி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-012.md",
+    "page_provenance": [
+      {
+        "pdf_page": 25,
+        "printed_page": 25
+      }
+    ],
+    "text": "என்ன குமரா? யாரு! நாராயணியா..."
+  },
+  {
+    "id": "naam-s012-d003",
+    "scene_id": "naam-s012",
+    "scene_ordinal": 12,
+    "source_scene_number": 12,
+    "source_heading": "காட்சி 12",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-012.md",
+    "page_provenance": [
+      {
+        "pdf_page": 25,
+        "printed_page": 25
+      }
+    ],
+    "text": "என்ன வைத்தியரே."
+  },
+  {
+    "id": "naam-s012-d004",
+    "scene_id": "naam-s012",
+    "scene_ordinal": 12,
+    "source_scene_number": 12,
+    "source_heading": "காட்சி 12",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-012.md",
+    "page_provenance": [
+      {
+        "pdf_page": 25,
+        "printed_page": 25
+      }
+    ],
+    "text": "(மெளனம்)"
+  },
+  {
+    "id": "naam-s012-d005",
+    "scene_id": "naam-s012",
+    "scene_ordinal": 12,
+    "source_scene_number": 12,
+    "source_heading": "காட்சி 12",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-012.md",
+    "page_provenance": [
+      {
+        "pdf_page": 25,
+        "printed_page": 25
+      }
+    ],
+    "text": "அம்மா..."
+  }
+]

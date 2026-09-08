@@ -253,3 +253,19 @@ No downstream derivative existed at closure, so reconciliation is not required.
 ## Exact next activity
 
 > **Begin Phase 6 dialogue indexing from the 45/45 complete-verified scene derivatives. Inventory every explicit source speaker label exactly as printed, create immutable dialogue records in scene/source order with PDF provenance, keep cross-page labelled utterances as one logical record, leave source-unlabelled speech unlabelled, and run whole-work dialogue coverage QA before starting the character/entity index. Do not alter canonical Tamil or scene text except for later source-supported corrections.**
+
+
+## Immutable dialogue closure checkpoint
+
+- dialogue index: **COMPLETE-VERIFIED**;
+- source scenes covered: **45/45**;
+- immutable dialogue records: **590**;
+- distinct exact speaker labels: **45**;
+- multi-page dialogue records: **8**;
+- source-unlabelled blocks: **39 preserved unlabelled; 0 inferred speakers**;
+- QA: `notes/dialogue-index-qa.json` — **PASS**;
+- canonical Tamil / scene derivative modifications: **0 / 0**.
+
+## Exact next activity
+
+> **Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.**

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "naam-s016-d001",
+    "scene_id": "naam-s016",
+    "scene_ordinal": 16,
+    "source_scene_number": 16,
+    "source_heading": "காட்சி 16",
+    "speaker_label": "கந்தசாமி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-016.md",
+    "page_provenance": [
+      {
+        "pdf_page": 31,
+        "printed_page": 31
+      }
+    ],
+    "text": "சபாஷ்! வெகு நாளாக எதிர் பார்த்திருந்த சான்ஸ் கிடைத்துவிட்டது. பயில்வான் பரமசிவம்! குமரா! நீ இவனை மட்டும் தோற்கடித்து விட்டால் நீதான் குத்துச் சண்டை இராசா!"
+  },
+  {
+    "id": "naam-s016-d002",
+    "scene_id": "naam-s016",
+    "scene_ordinal": 16,
+    "source_scene_number": 16,
+    "source_heading": "காட்சி 16",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-016.md",
+    "page_provenance": [
+      {
+        "pdf_page": 31,
+        "printed_page": 31
+      }
+    ],
+    "text": "எங்கே? எப்போ...?"
+  },
+  {
+    "id": "naam-s016-d003",
+    "scene_id": "naam-s016",
+    "scene_ordinal": 16,
+    "source_scene_number": 16,
+    "source_heading": "காட்சி 16",
+    "speaker_label": "கந்தசாமி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-016.md",
+    "page_provenance": [
+      {
+        "pdf_page": 31,
+        "printed_page": 31
+      }
+    ],
+    "text": "எல்லாம் ஒங்க சொந்த ஊரில்தான்! ஜமீன்தார் மல்லயப்பர் இல்லே...அவருதான் ஏற்பாடு செய்திருக்கிறார்."
+  },
+  {
+    "id": "naam-s016-d004",
+    "scene_id": "naam-s016",
+    "scene_ordinal": 16,
+    "source_scene_number": 16,
+    "source_heading": "காட்சி 16",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-016.md",
+    "page_provenance": [
+      {
+        "pdf_page": 31,
+        "printed_page": 31
+      }
+    ],
+    "text": "ஆ...மல்லயப்பரா?"
+  },
+  {
+    "id": "naam-s016-d005",
+    "scene_id": "naam-s016",
+    "scene_ordinal": 16,
+    "source_scene_number": 16,
+    "source_heading": "காட்சி 16",
+    "speaker_label": "கந்தசாமி",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-016.md",
+    "page_provenance": [
+      {
+        "pdf_page": 31,
+        "printed_page": 31
+      }
+    ],
+    "text": "ஏன்...? சம்மதம் என்று எழுதிவிடவா?"
+  },
+  {
+    "id": "naam-s016-d006",
+    "scene_id": "naam-s016",
+    "scene_ordinal": 16,
+    "source_scene_number": 16,
+    "source_heading": "காட்சி 16",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-016.md",
+    "page_provenance": [
+      {
+        "pdf_page": 31,
+        "printed_page": 31
+      }
+    ],
+    "text": "சரி!"
+  }
+]

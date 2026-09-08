@@ -1,0 +1,682 @@
+{
+  "work_id": "naam",
+  "phase": "unlabelled-block-audit",
+  "status": "complete-preserved-unlabelled",
+  "authority": "45/45 complete-verified scene derivatives",
+  "block_count": 39,
+  "policy": "Ordinary source text without an active explicit speaker label is preserved here and never assigned to a dialogue speaker by inference.",
+  "blocks": [
+    {
+      "scene_id": "naam-s001",
+      "scene_ordinal": 1,
+      "source_scene_number": 1,
+      "source_heading": "காட்சி 1",
+      "source_scene_file": "scene-001.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 5,
+          "printed_page": null
+        }
+      ],
+      "text": "மறுமலர்ச்சி எண்ணம் கொண்ட வாலிபன் குமரன்\n\nஅவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.\n\nஅன்னையின் வேண்டுகோள்படி அவன் வெளியூர் புறப்பட்டான். வரும் வழியில்........\n\nஒரு கிராமத்தில் மாரிக்கு பூஜை நடந்து கொண்டிருக்கிறது. அப்போது குமரன் அவனது அன்னையுடன் வருகிறான். எதிரே வந்த கிராமத்தில் ஒருவரான ஜீவானந்தர் குமரனை சந்திக்கிறார்.",
+      "block_id": "naam-s001-u001"
+    },
+    {
+      "scene_id": "naam-s001",
+      "scene_ordinal": 1,
+      "source_scene_number": 1,
+      "source_heading": "காட்சி 1",
+      "source_scene_file": "scene-001.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 6,
+          "printed_page": 6
+        }
+      ],
+      "text": "மாரி மகமாயி மாரி மகமாயி\nஆயி எங்கள் காளியம்மா\nமாரி மகமாயி மாரி மகமாயி\nஏழை நாங்கள் எல்லோரும் வாழ\nமாத மும்மாரி பொழியணும் தாயே.",
+      "block_id": "naam-s001-u002"
+    },
+    {
+      "scene_id": "naam-s001",
+      "scene_ordinal": 1,
+      "source_scene_number": 1,
+      "source_heading": "காட்சி 1",
+      "source_scene_file": "scene-001.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 6,
+          "printed_page": 6
+        }
+      ],
+      "text": "சூரியனால் கடல் நீரும்—மேகமாகுமே\nமாறியதால் வேகத்திலே\nமழையும் பொழியுமா...",
+      "block_id": "naam-s001-u003"
+    },
+    {
+      "scene_id": "naam-s001",
+      "scene_ordinal": 1,
+      "source_scene_number": 1,
+      "source_heading": "காட்சி 1",
+      "source_scene_file": "scene-001.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 7,
+          "printed_page": 7
+        }
+      ],
+      "text": "சொல்றேன் கேளு...\nவிஞ்ஞானம் புதிதாக மாறுது பாராய்\nகொடும்பாவி அருளாலே பெய்யுமாம் ஜோராய்\nமானம் சாஞ்சா நாமெல்லோரும் வாடிடுவோம்\nதன்னாலே வா......",
+      "block_id": "naam-s001-u004"
+    },
+    {
+      "scene_id": "naam-s001",
+      "scene_ordinal": 1,
+      "source_scene_number": 1,
+      "source_heading": "காட்சி 1",
+      "source_scene_file": "scene-001.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 7,
+          "printed_page": 7
+        }
+      ],
+      "text": "திரி சூலி நீலி எங்கள் மாரி மகமாயி\nவரி கொடுக்க முடியாமல்\nவாடுறோம் தாயே...\nஓங்கார ரூபிணி மாரி மகமாயி\nஎங்கள் குறை தீர்த்து விடு",
+      "block_id": "naam-s001-u005"
+    },
+    {
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source_heading": "காட்சி 3",
+      "source_scene_file": "scene-003.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        }
+      ],
+      "text": "நாராயணி! வீட்டை ஒழுங்காக பார்த்துக்கொள். உன் வீடு மாதிரி.",
+      "block_id": "naam-s003-u001"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source_heading": "காட்சி 7",
+      "source_scene_file": "scene-007.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        }
+      ],
+      "text": "1.\n\nஆயிரம் தெய்வங்கள் உண்டென்று தேடி\nஅலையும் அறிவிலிகாள்—பல\nலாயிரம் வேதம் அறிவொன்றே தெய்வம\nஎனக் கேளீரோ\n\n2.\n\nமாடனைக் காடனை வேடனைப் போற்றி\nமயங்கு மதியிலிகாள்—எத\nனூடுநின்றோங்கும் அறிவொன்றே தெய்வமென்\nறோதியறியீரோ\n\n3.\n\nமெள்ளப் பலதெய்வம் கூட்டி வளர்த்து\nவெறுங்கதைகள் சேர்த்துப்—பல\nகள்ள மதங்கள் பரப்புதற் கோர்முறை\nகாட்டவும் வல்லீரோ.",
+      "block_id": "naam-s007-u001"
+    },
+    {
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source_heading": "காட்சி 8.",
+      "source_scene_file": "scene-008.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        }
+      ],
+      "text": "இரவு நேரம் குமரன் தூங்கிக் கொண்டிருக்கும்போது மீனு யாருக்கும் தெரியாமல் குமரனை சந்தித்துப் பேச வருகிறாள். நாயின் பாதுகாப்பிலே காதலி காதலனைக் கண்டு பேசுவதில் என்ன தவறு இருக்கிறது?",
+      "block_id": "naam-s008-u001"
+    },
+    {
+      "scene_id": "naam-s010",
+      "scene_ordinal": 10,
+      "source_scene_number": 10,
+      "source_heading": "காட்சி-10.",
+      "source_scene_file": "scene-010.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 22,
+          "printed_page": 22
+        }
+      ],
+      "text": "எங்கம்மா?",
+      "block_id": "naam-s010-u001"
+    },
+    {
+      "scene_id": "naam-s010",
+      "scene_ordinal": 10,
+      "source_scene_number": 10,
+      "source_heading": "காட்சி-10.",
+      "source_scene_file": "scene-010.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 24,
+          "printed_page": 24
+        }
+      ],
+      "text": "குமரன் தனது தாயுடன் வைத்தியரிடம் போகிறான்.",
+      "block_id": "naam-s010-u002"
+    },
+    {
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source_heading": "காட்சி 13",
+      "source_scene_file": "scene-013.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 28,
+          "printed_page": 28
+        }
+      ],
+      "text": "என் பிரேமா...இவ்வளவு நேரம்?",
+      "block_id": "naam-s013-u001"
+    },
+    {
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source_heading": "காட்சி 13",
+      "source_scene_file": "scene-013.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 28,
+          "printed_page": 28
+        }
+      ],
+      "text": "வேண்டாம்! இங்கே கொண்டுவா. (சாப்பிட்டுக் கொண்டே) ஜமீன் சொத்துக்கு அவன் அதிபதி! இறந்து போன ஜமீன்தார் மகன் குமரன். சொந்த மனைவி கிடையாது! ஆசை நாயகியின் மகன்! சொத்துக்கள் எல்லாம் குமரனுக்கு எழுதப்பட்டுவிட்டன. அந்த உயிலுக்குத்தான் ஆதாரம் தேடுகிறான்.",
+      "block_id": "naam-s013-u002"
+    },
+    {
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source_heading": "காட்சி 17.",
+      "source_scene_file": "scene-017.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 33,
+          "printed_page": 33
+        }
+      ],
+      "text": "ஜீவானந்தரே! இதை எல்லோருக்கும் பங்கிட்டுக் கொடுங்கள்! உங்கள் புதுமை உள்ளங்கள் எனக்கு அளித்த பரிசு இது.",
+      "block_id": "naam-s017-u001"
+    },
+    {
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source_heading": "காட்சி 18.",
+      "source_scene_file": "scene-018.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 34,
+          "printed_page": 34
+        }
+      ],
+      "text": "எல்லோரும் இருங்கள்! நான் என் தாயார் வீட்டுக்குப் போய் வருகிறேன்! பிறகு சந்திப்போம்.",
+      "block_id": "naam-s018-u001"
+    },
+    {
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source_heading": "காட்சி 19.",
+      "source_scene_file": "scene-019.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 34,
+          "printed_page": 34
+        }
+      ],
+      "text": "“குமரா! எப்படியாவது அந்த உயில் கண்டு பிடித்து விடு”",
+      "block_id": "naam-s019-u001"
+    },
+    {
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source_heading": "காட்சி 19.",
+      "source_scene_file": "scene-019.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 34,
+          "printed_page": 34
+        }
+      ],
+      "text": "“வழக்கு நடத்த பணம் தேவை! பிறகு உயிலைத் தேடு”",
+      "block_id": "naam-s019-u002"
+    },
+    {
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source_heading": "காட்சி 21.",
+      "source_scene_file": "scene-021.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 35,
+          "printed_page": 35
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": 36
+        }
+      ],
+      "text": "மணமில்லா மலர் நானம்மா!\nமாதர் உலகில் வாழ்வே அறியா\nமணமில்லா மலர் நானம்மா!\n\nஒடிந்து வீண நாதமே இனியேது\nஇடியிதோ வீழ்ந்தே பூங்கா அழிந்ததே\nமணமில்லா மலர் நானம்மா!\n\nவாழ்விலே விஷமே வீசியே மறைந்ததால்\nமணமில்லா மலர் நானம்மா!\n\nவாடிடும் கொடியானேன்\nசூறாவளிக் காற்றிலே\nமகரந்த இதழ்மீது மாசு தோய்ந்து மூடிய\nமணமில்லா மலர் நானம்மா!\nஇன்பச் சுடர் காணேனே\nஇருள் வீட்டில் தனியானேன்\nதுன்பப் புயல் அலை மோதி\nசோக வாழ்வுச் சோலையில்\nமணமில்லா மலர் நானம்மா!",
+      "page_segments": [
+        {
+          "pdf_page": 35,
+          "printed_page": 35,
+          "text": "மணமில்லா மலர் நானம்மா!\nமாதர் உலகில் வாழ்வே அறியா\nமணமில்லா மலர் நானம்மா!\n\nஒடிந்து வீண நாதமே இனியேது\nஇடியிதோ வீழ்ந்தே பூங்கா அழிந்ததே\nமணமில்லா மலர் நானம்மா!\n\nவாழ்விலே விஷமே வீசியே மறைந்ததால்\nமணமில்லா மலர் நானம்மா!\n\nவாடிடும் கொடியானேன்\nசூறாவளிக் காற்றிலே\nமகரந்த இதழ்மீது மாசு தோய்ந்து மூடிய\nமணமில்லா மலர் நானம்மா!"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": 36,
+          "text": "இன்பச் சுடர் காணேனே\nஇருள் வீட்டில் தனியானேன்\nதுன்பப் புயல் அலை மோதி\nசோக வாழ்வுச் சோலையில்\nமணமில்லா மலர் நானம்மா!"
+        }
+      ],
+      "block_id": "naam-s021-u001"
+    },
+    {
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source_heading": "காட்சி 22.",
+      "source_scene_file": "scene-022.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 37,
+          "printed_page": 37
+        }
+      ],
+      "text": "பிரேமா! முதலில் உயில் கொடுக்க சஞ்சீவி ஏமாளி அல்ல! திருமணம்—பிறகு உயில்.",
+      "block_id": "naam-s022-u001"
+    },
+    {
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source_heading": "காட்சி 22.",
+      "source_scene_file": "scene-022.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 37,
+          "printed_page": 37
+        }
+      ],
+      "text": "உயில்! உல்லாச ஓடையிலே உன்னை உலவ விடும் படகு!",
+      "block_id": "naam-s022-u002"
+    },
+    {
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source_heading": "காட்சி 27",
+      "source_scene_file": "scene-027.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 44,
+          "printed_page": 44
+        }
+      ],
+      "text": "அதோ...மாத்திரைதான் வர்றான் போலிருக்கு! இங்கேயே இரு!",
+      "block_id": "naam-s027-u001"
+    },
+    {
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source_heading": "காட்சி 27",
+      "source_scene_file": "scene-027.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 44,
+          "printed_page": 44
+        }
+      ],
+      "text": "டேய்! மாத்திரை..நீ இன்னியிலிருந்து வேலைக்கு வர வேண்டாம்!",
+      "block_id": "naam-s027-u002"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source_heading": "காட்சி 29.",
+      "source_scene_file": "scene-029.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 46
+        }
+      ],
+      "text": "“பிரேமா...காதல்...பிரேமா குமரனை வெறுக்க வேண்டும்! மீனு...குமரனை மறக்க வேண்டும். அவன் எங்கே பிசாசா சுத்திக்கிட்டு இருக்கானோ...”",
+      "block_id": "naam-s029-u001"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source_heading": "காட்சி 29.",
+      "source_scene_file": "scene-029.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 46
+        }
+      ],
+      "text": "ஹா-ம்...பிரேமா...",
+      "block_id": "naam-s029-u002"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source_heading": "காட்சி 29.",
+      "source_scene_file": "scene-029.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 46
+        }
+      ],
+      "text": "ஆத்திரத்தில் பேசிவிட்டேன்......நீ குமரன் மீது கொண்டுள்ள காதல் நான் கெடுத்து விட விரும்பவில்லை! நீ குமரனை மணக்க வேண்டுமானால் மீனு குமரனை மறக்க வேண்டும். அப்படித்தானே...\n\nகுமரனும்—மீனுவும் திடீரென்று சந்தித்து விட்டால்...?",
+      "block_id": "naam-s029-u003"
+    },
+    {
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source_heading": "காட்சி 30,",
+      "source_scene_file": "scene-030.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 48,
+          "printed_page": 48
+        }
+      ],
+      "text": "“எப்படி இரணமாச்சி...?”\n\n“அவசரப்பட்டு கட்டை அவிழ்த்திட்டான்”",
+      "block_id": "naam-s030-u001"
+    },
+    {
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source_heading": "காட்சி 30,",
+      "source_scene_file": "scene-030.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49
+        }
+      ],
+      "text": "பிரேமா...உன் அப்பன் என்னை எவ்வளவு அழகாக்கி விட்டான் பார்! இப்போது காதலிக்கிறாயா என்னை? காதல் காதல் என்று கதை அளந்தாயே!...என் காலில் விழுந்து கதறினாயே! இப்போது காதலிக்கிறாயா என்னை? முத்தமிடுகிறாயா என் முகத்திலே? அணைத்து மகிழ்கிறாயா இந்த அலங்கோலத்தை? காதலி! காதலி! மணாளன் கேட்கிறான்—மாப்பிள்ளை பிடித்துவிட்டதா உனக்கு? பிரேமா...நீ இப்போது என்னை விரும்பமாட்டாய்...நீ வெறும் அழகை காதலித்தவள்! என் உள்ளத்தை காதலிப்பவள் ஒருத்தி இருக்கிறாள்! அவள் தான் என்...மீனு...மீனு...மீனு!",
+      "block_id": "naam-s030-u002"
+    },
+    {
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source_heading": "காட்சி-31",
+      "source_scene_file": "scene-031.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49
+        }
+      ],
+      "text": "பேசும் யாழே பெண் மானே\n\nவீசும் தென்றல் நீ தானே",
+      "block_id": "naam-s031-u001"
+    },
+    {
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source_heading": "காட்சி-31",
+      "source_scene_file": "scene-031.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49
+        },
+        {
+          "pdf_page": 50,
+          "printed_page": 50
+        }
+      ],
+      "text": "தளா தீச்சுழலில்\nதனியாய் விழித்தீரோ\nமீளாசோகம் மீட்டிடும் யாழானேன்",
+      "page_segments": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "text": "தளா தீச்சுழலில்"
+        },
+        {
+          "pdf_page": 50,
+          "printed_page": 50,
+          "text": "தனியாய் விழித்தீரோ\nமீளாசோகம் மீட்டிடும் யாழானேன்"
+        }
+      ],
+      "block_id": "naam-s031-u002"
+    },
+    {
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source_heading": "காட்சி-31",
+      "source_scene_file": "scene-031.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 50,
+          "printed_page": 50
+        }
+      ],
+      "text": "பாழும் பேயாக பாரினில் அல்லவோ\nதீரா துன்பம் தீட்டிய ஏடானேன்",
+      "block_id": "naam-s031-u003"
+    },
+    {
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source_heading": "காட்சி 33",
+      "source_scene_file": "scene-033.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 55,
+          "printed_page": 55
+        }
+      ],
+      "text": "அவ்வளவையும் உன் மடியில் கழுத்திலே போட்டு உன்னை மகாராணியாக்குவேன்...வா என்னோட......ராசாத்தி மாதிரி வாழலாம்...",
+      "block_id": "naam-s033-u001"
+    },
+    {
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source_heading": "காட்சி 34",
+      "source_scene_file": "scene-034.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 56,
+          "printed_page": 56
+        }
+      ],
+      "text": "கிராம வாசிகள்\n\nஹா ஹா! வருவாய் வருவாய்......\nவைபோக சுந்தரியே......\nசைபோக செளந்தரியே!\nசைரந்திரியே...கண்ணே...வருவாய்...\nகீசகன் ஆசைகொண்ட கிச்சிலிப் பழமடி நீ...\nகாச நோய்போல வந்து காதலுக்கு மருந்தடி நீ...\nஆண்மகா மம்முதா ஆசைகொண்ட கீசகா!\nகீசகா! கீசகா!\nகீசகா...........டேய்...\nஇறுக்குத்தனமாய் வந்து மீசையை\nமுறுக்கி விட்ட குரங்கே! பெரிய குரங்கே!\nஎட்டுத் திக்கும் நடுநடுங்க\nமுரசு கொட்டும் பீமசேனனிடம்\nவாலாட்டமா...?\nவாலாட்டமா...?",
+      "block_id": "naam-s034-u001"
+    },
+    {
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source_heading": "காட்சி 34",
+      "source_scene_file": "scene-034.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 58,
+          "printed_page": 58
+        }
+      ],
+      "text": "குழந்தைகளைவிட கோழைகள் நாம்! இளமையிலே ஓடக்கூடிய விசுவாச இரத்தம்! வீர இரத்தம் பலியிடப்படுகிறது! ஏதால்? மூட நம்பிக்கை என்னும் பேயால்.",
+      "block_id": "naam-s034-u002"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source_heading": "காட்சி 36",
+      "source_scene_file": "scene-036.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 59,
+          "printed_page": 59
+        }
+      ],
+      "text": "புதியதோர் பாதை வகுப்போம்—நாம்—கெட்ட\nபோரிடும் பாதையை சாய்ப்போம் நாம்......\nநித்தம் உழைத்தே உயர்வோம் நாம்—\nநெறி தவறாமல் வாழ்வோம் நாம்—\nஅருஞ்ஞானப் பாரம் வெளியையே—நல்\nஅறிவாகும் ஏர் முனையிலே...\nஅறிவாகும் ஏர் முனையிலே...\nவிஞ்ஞானப் பேரறிவினில்—உழுதே\nமெய்ஞ்ஞானம் காண்பவர்கள் நாம்!",
+      "block_id": "naam-s036-u001"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source_heading": "காட்சி 36",
+      "source_scene_file": "scene-036.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 59,
+          "printed_page": 59
+        },
+        {
+          "pdf_page": 60,
+          "printed_page": 60
+        }
+      ],
+      "text": "வாழ்க வாழ்க வாழ்க வாழ்கவே\nஅருமை மிகுந்த எங்கள் அறிஞர்\nஅண்ணா வாழ்கவே\nகுமர அண்ணா வாழ்கவே.\nபெருமை பேசும் மனிதரெல்லாம்\nஎதற்கெடுத்தாலும் எருமை போல\nதலையசைப்பதை உரிமைக்காக\nஎதிர்த்து நிற்கும்\nஅண்ணா வாழ்கவே\nஎங்கள் அண்ணா வாழ்கவே.\nபுழுவாகத் துடிக்கின்ற ஏழை\nகழுகாகப் பறக்கின்ற சீமான்—இந்தப்\nபொல்லாத பேதங்கள் எல்லாம்\nஇல்லாத பொன்னுடைமைச் செய்தார்—அந்த\nஅண்ணா வாழ்கவே\nகுமர அண்ணா வாழ்கவே-\nஎலியாக வாழ்கின்ற விதவை\nபுலியாக தருகின்ற இளமை\nபுலியாக பாய்கின்ற பழமை\nமலிவாகப் போன இக்கொடுமை\nமாற்றிடும் அண்ணா வாழ்கவே !\nகுமர அண்ணா வாழ்கவே.\nசில சில இடங்களில் பணத்தோட்டம்—அது\nசெல்வக் குமரி...கோட்டம்! இப்படிப்\nபலபல கருத்துக்கள் சொல்லும் தேனாறு\nபகுத்தறிவூட்டும் லட்சிய வரலாறு—\nஅண்ணா வாழ்கவே\nகுமர அண்ணா வாழ்கவே.",
+      "page_segments": [
+        {
+          "pdf_page": 59,
+          "printed_page": 59,
+          "text": "வாழ்க வாழ்க வாழ்க வாழ்கவே\nஅருமை மிகுந்த எங்கள் அறிஞர்\nஅண்ணா வாழ்கவே\nகுமர அண்ணா வாழ்கவே.\nபெருமை பேசும் மனிதரெல்லாம்\nஎதற்கெடுத்தாலும் எருமை போல\nதலையசைப்பதை உரிமைக்காக\nஎதிர்த்து நிற்கும்\nஅண்ணா வாழ்கவே\nஎங்கள் அண்ணா வாழ்கவே."
+        },
+        {
+          "pdf_page": 60,
+          "printed_page": 60,
+          "text": "புழுவாகத் துடிக்கின்ற ஏழை\nகழுகாகப் பறக்கின்ற சீமான்—இந்தப்\nபொல்லாத பேதங்கள் எல்லாம்\nஇல்லாத பொன்னுடைமைச் செய்தார்—அந்த\nஅண்ணா வாழ்கவே\nகுமர அண்ணா வாழ்கவே-\nஎலியாக வாழ்கின்ற விதவை\nபுலியாக தருகின்ற இளமை\nபுலியாக பாய்கின்ற பழமை\nமலிவாகப் போன இக்கொடுமை\nமாற்றிடும் அண்ணா வாழ்கவே !\nகுமர அண்ணா வாழ்கவே.\nசில சில இடங்களில் பணத்தோட்டம்—அது\nசெல்வக் குமரி...கோட்டம்! இப்படிப்\nபலபல கருத்துக்கள் சொல்லும் தேனாறு\nபகுத்தறிவூட்டும் லட்சிய வரலாறு—\nஅண்ணா வாழ்கவே\nகுமர அண்ணா வாழ்கவே."
+        }
+      ],
+      "block_id": "naam-s036-u002"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_ordinal": 39,
+      "source_scene_number": 39,
+      "source_heading": "காட்சி 39",
+      "source_scene_file": "scene-039.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 64,
+          "printed_page": 64
+        }
+      ],
+      "text": "எதையும் தாங்கும் இதயம் வேண்டும்\nபகையும் பழியும் பாம்பெனத் தீண்டும்—உலகில்\nஎதையும் தாங்கும் இதயம் வேண்டும்",
+      "block_id": "naam-s039-u001"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_ordinal": 39,
+      "source_scene_number": 39,
+      "source_heading": "காட்சி 39",
+      "source_scene_file": "scene-039.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 64,
+          "printed_page": 64
+        }
+      ],
+      "text": "சாக்ரடீஸ் வாழ்வினைப் பார்\nசாகாத காந்தி முடிவையுமே பார்\nவேதனையாலே வீழாதே\nசோதனையாலே வாடாதே—நீ வாடாதே",
+      "block_id": "naam-s039-u002"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_ordinal": 39,
+      "source_scene_number": 39,
+      "source_heading": "காட்சி 39",
+      "source_scene_file": "scene-039.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 64,
+          "printed_page": 64
+        }
+      ],
+      "text": "தேனினும் வாழ்வே தேளாய் மாறும்\nபோர்முனைச் சாவே பொதுவாழ்வில் இன்பம்\nஆணவம் சீறலாம், ராணுவம் பாயலாம்\nசீற்றத்தைக் கண்டு சிதறாதே—உளம் சிதறாதே\nதூற்றலைக் கேட்டுத் துவளாதே—பகை.........",
+      "block_id": "naam-s039-u003"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_ordinal": 39,
+      "source_scene_number": 39,
+      "source_heading": "காட்சி 39",
+      "source_scene_file": "scene-039.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 64,
+          "printed_page": 64
+        }
+      ],
+      "text": "வணக்கம்.",
+      "block_id": "naam-s039-u004"
+    },
+    {
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source_heading": "காட்சி-45",
+      "source_scene_file": "scene-045.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 71,
+          "printed_page": 71
+        }
+      ],
+      "text": "“ உலகைத்திருத்தும் உத்தமர்களுக் கெல்லாம் இது தான் முடிவா?”\n\nஇதை மாற்றி அமைப்பது யார்?",
+      "block_id": "naam-s045-u001"
+    }
+  ]
+}

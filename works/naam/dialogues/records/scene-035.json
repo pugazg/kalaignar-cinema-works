@@ -1,0 +1,53 @@
+[
+  {
+    "id": "naam-s035-d001",
+    "scene_id": "naam-s035",
+    "scene_ordinal": 35,
+    "source_scene_number": 35,
+    "source_heading": "காட்சி 35",
+    "speaker_label": "மாத்திரை",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-035.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 58
+      }
+    ],
+    "text": "ஏன்... குமார வருத்தமா இருக்கே... சொல்லமாட்டே? சொல்லாட்டி மறுபடியும் பிசாசு பிரசாரம் செய்ய ஆரம்பிச்சுடுவேன்."
+  },
+  {
+    "id": "naam-s035-d002",
+    "scene_id": "naam-s035",
+    "scene_ordinal": 35,
+    "source_scene_number": 35,
+    "source_heading": "காட்சி 35",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-035.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 58
+      }
+    ],
+    "text": "நம்புவாங்களா?"
+  },
+  {
+    "id": "naam-s035-d003",
+    "scene_id": "naam-s035",
+    "scene_ordinal": 35,
+    "source_scene_number": 35,
+    "source_heading": "காட்சி 35",
+    "speaker_label": "மாத்திரை",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-035.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 58
+      }
+    ],
+    "text": "இந்த ஜனங்க எதையும் நம்புவாங்கப்பா! அப்பேர்ப்பட்ட இராமலிங்க சுவாமியே சொன்னாரு—பேய், பிசாசு. இல்லேன்னு....கேட்டாங்களா?"
+  }
+]

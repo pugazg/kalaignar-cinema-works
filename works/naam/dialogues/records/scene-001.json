@@ -1,0 +1,240 @@
+[
+  {
+    "id": "naam-s001-d001",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 5,
+        "printed_page": null
+      }
+    ],
+    "text": "ஹூம்...என்னங்க அது கொண்டாட்டம்...?"
+  },
+  {
+    "id": "naam-s001-d002",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "ஜீவானந்தர்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 5,
+        "printed_page": null
+      }
+    ],
+    "text": "கொண்டாட்டம் ஒண்ணுமில்லையப்பா... நம்ம திண்டாட்டத்தைப் போக்க தேவிக்கு பூஜை நடத்துறோம்."
+  },
+  {
+    "id": "naam-s001-d003",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 5,
+        "printed_page": null
+      }
+    ],
+    "text": "பூஜையா......!"
+  },
+  {
+    "id": "naam-s001-d004",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "ஜீவா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 5,
+        "printed_page": null
+      }
+    ],
+    "text": "ஊரிலே மழை இல்லாமல் விளைச்சல் இல்லை. விளைச்சல் இல்லாமல் ஜமீனுக்கு வரி கொடுக்க சக்தி இல்லை. அதனால் மாரியாத்தாளுக்கு பூசை நடத்துகிறோம்."
+  },
+  {
+    "id": "naam-s001-d005",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 5,
+        "printed_page": null
+      }
+    ],
+    "text": "ஓ...ஹோ...அய்யா...ஜாக்கிரதை! பூஜை அதிகமாகி புயலும் மழையும் சேர்ந்து வந்திடப் போகுது."
+  },
+  {
+    "id": "naam-s001-d006",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "ஜீவா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 5,
+        "printed_page": null
+      }
+    ],
+    "text": "என்னப்பா பண்றது ஜனங்கள் எப்படிப் போறாங்களோ; அப்படித் தானே நாமும் போகணும்."
+  },
+  {
+    "id": "naam-s001-d007",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "உங்கள் கண்ணீரைக் கண்டு கருணை காட்டாத மாரி—பன்னீரில் மயங்கி விடுவாள் என்றால்...நீங்கள் அவளை ஏமாற்றுகிறீர்கள் என்று தானே அர்த்தம்."
+  },
+  {
+    "id": "naam-s001-d008",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "ஜீவா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "அதுவும் சரிதான்! நீ சொல்வதும் உண்மைதான்! ஆமா...நீங்க யாரு? எந்த ஊரு?"
+  },
+  {
+    "id": "naam-s001-d009",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "நாராயணி",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "(குமரனின் தாய்) நாங்க வெளியூர். சஞ்சீவி வைத்தியரை பார்க்கணும்னு வந்தோம். அவரு வீடு......"
+  },
+  {
+    "id": "naam-s001-d010",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "ஜீவா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "சஞ்சீவி வைத்தியரா......? அவரு வீட்டிலே தான் இருப்பாரு! இல்லைன்னா விஷமூலிகை தயாரிக்கிற குடிசை ஒண்ணு இருக்கு! அங்கே இருந்தாலும் இருப்பாரு! எதுக்கும் கொஞ்சம் அப்படிப் போயி விசாரித்துப் பாருங்க."
+  },
+  {
+    "id": "naam-s001-d011",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "வாரேமுங்க! (ஜீவானந்தர் போய் விடுகிறார்.)"
+  },
+  {
+    "id": "naam-s001-d012",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "எம்பா...அங்கே இப்படி பேச்சுப் பேசித்தானே இந்த ஊருக்கு வந்தோம். இங்கேயும் வந்தவங்க—போனவங்க கிட்ட என் வம்பு பேசுறே?"
+  },
+  {
+    "id": "naam-s001-d013",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "வம்பு இல்லேம்மா...சிறு விளக்கம், மழைக்கும்—மாரிக்கும் உள்ள தொடர்பைப் பற்றி......!"
+  },
+  {
+    "id": "naam-s001-d014",
+    "scene_id": "naam-s001",
+    "scene_ordinal": 1,
+    "source_scene_number": 1,
+    "source_heading": "காட்சி 1",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 6
+      }
+    ],
+    "text": "சரி...சரி...வா போகலாம்."
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "naam-s003-d001",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்ல",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 8
+      }
+    ],
+    "text": "வா...சஞ்சீவி! ஹூம்...என்ன விசேஷம்......"
+  },
+  {
+    "id": "naam-s003-d002",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 8
+      }
+    ],
+    "text": "ஜமீன்தாரை பார்த்து விட்டுப் போகலாம்னு வந்தேன்...சும்மா வருவேனா?"
+  },
+  {
+    "id": "naam-s003-d003",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்ல",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 8
+      }
+    ],
+    "text": "இவங்க யாரு?"
+  },
+  {
+    "id": "naam-s003-d004",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "சஞ்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 8
+      }
+    ],
+    "text": "இவங்க எனக்கு தெரிஞ்சவங்க! உங்க வீட்டிலே ஏதாவது வேலை கிடைக்குமான்னு......"
+  },
+  {
+    "id": "naam-s003-d005",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்ல",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 8
+      }
+    ],
+    "text": "ஹூம் எனக்கும் ஒரு வேலைக்காரி தேவைதான்! டேய் அண்ணாமலை! இவங்களை அம்மாகிட்டே அழைச்சிக்கிட்டுப் போ!"
+  },
+  {
+    "id": "naam-s003-d006",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்ல",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "ஹூம்......அப்புறம்......"
+  },
+  {
+    "id": "naam-s003-d007",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "ஞானம்",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "(ஜமீன்தார் மனைவி) மீனு...மீனு..."
+  },
+  {
+    "id": "naam-s003-d008",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "(மல்லயப்பரின் தங்கை) என்ன அண்ணி?"
+  },
+  {
+    "id": "naam-s003-d009",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "ஞா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "நம்ம வீட்டுக்கு புதுவேலைக்காரி வந்திருக்காங்க."
+  },
+  {
+    "id": "naam-s003-d010",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "சந்தேகமா? இனிமேல் இது என் வீடுதான்!"
+  },
+  {
+    "id": "naam-s003-d011",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "ஞா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "மீனு......வேலைகளைச் சொல்."
+  },
+  {
+    "id": "naam-s003-d012",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "வாங்க! வந்ததும் வராததுமா உங்களுக்கு என்ன வேலை?"
+  },
+  {
+    "id": "naam-s003-d013",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "ஆமா...நீங்க ஜமீன்தாருக்கு என்ன வேணும்?"
+  },
+  {
+    "id": "naam-s003-d014",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மீனு",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 9,
+        "printed_page": 9
+      }
+    ],
+    "text": "தங்கை!"
+  },
+  {
+    "id": "naam-s003-d015",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "இதை நீ கண்ணுலேயா பார்க்கணும்?"
+  },
+  {
+    "id": "naam-s003-d016",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "ஞா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "அடியே நாராயணி! அங்கே என்னடி மகனோடே குலாவுறே? சீக்கிரம் வாடி!"
+  },
+  {
+    "id": "naam-s003-d017",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "டேய்...எங்கடா அந்த சோம்பேறி? இன்னுமா ஸ்டேஷன்லே இருந்து வர்றான்?"
+  },
+  {
+    "id": "naam-s003-d018",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "தண்டச்சோறு! என்னடா தாமதம்? எதுடா குடம்?"
+  },
+  {
+    "id": "naam-s003-d019",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "அம்மா தண்ணி கொண்டு வந்தாங்க...உதவியா"
+  },
+  {
+    "id": "naam-s003-d020",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "சீ...! நீ இங்கே வேலை பார்க்கிற வரைக்கும்\n\nவேலைக்காரன்—வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு"
+  },
+  {
+    "id": "naam-s003-d021",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "ஞா",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "வெட்கம் கெட்ட நாயே...அவ்வளவு அலட்சியமென்னடி? ஒரு குடம் தூக்கிவர உடம்பு இடம் கொடுக்கலையோ பாவம் புது இல்...துண்டு போச்சி......"
+  },
+  {
+    "id": "naam-s003-d022",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "குடத்தை நான் உடைக்கலே...குடத்தை உருட்டி விட்டது......"
+  },
+  {
+    "id": "naam-s003-d023",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "ஞா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 10
+      }
+    ],
+    "text": "சீ...தப்பு பண்ணறது பண்ணிவிட்டு தவறை அவர் தலையிலா தூக்கிப் போடுறே?"
+  },
+  {
+    "id": "naam-s003-d024",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "அம்மா......"
+  },
+  {
+    "id": "naam-s003-d025",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "நாரா",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "எனக்கு ஒன்றும் இல்லே...நீ போயி வேலையைப்பாரு!"
+  },
+  {
+    "id": "naam-s003-d026",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "டேய்...அங்கே என்னடா கூத்தாடுறே...வாடா இங்கே...பெட்டியை இறடா...சீக்கிரம் இறடா..."
+  },
+  {
+    "id": "naam-s003-d027",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "(கண்ணாடிச் சாமான்கள் உடைந்திருப்பதைக் கண்டு . கடுஞ்சினம் கொண்டு) என்னடா இது? என்னடா உடைச்சே?"
+  },
+  {
+    "id": "naam-s003-d028",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "கும",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "அம்மா......"
+  },
+  {
+    "id": "naam-s003-d029",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "அம்மா. (ஆணவத்துடன்) நீ இங்கு அடிமை வேலைக்கு வந்தாய்! அம்மா—மகன் என்ற பாசம் கூடாதுன்னு எத்தனை தடவையடா சொல்றது?"
+  },
+  {
+    "id": "naam-s003-d030",
+    "scene_id": "naam-s003",
+    "scene_ordinal": 3,
+    "source_scene_number": 3,
+    "source_heading": "காட்சி 3",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-003.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 11
+      }
+    ],
+    "text": "டேய். போயி வைத்தியரை கூட்டிக் கிட்டு வாடா...போடா சீக்கிரம்......"
+  }
+]

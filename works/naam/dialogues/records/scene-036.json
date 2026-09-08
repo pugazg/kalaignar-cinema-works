@@ -1,0 +1,70 @@
+[
+  {
+    "id": "naam-s036-d001",
+    "scene_id": "naam-s036",
+    "scene_ordinal": 36,
+    "source_scene_number": 36,
+    "source_heading": "காட்சி 36",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-036.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 58
+      }
+    ],
+    "text": "ஜீவானந்தரே! தலைவிதியை காரணம் காட்டி மக்கள் தரித்திரத்தில் தள்ளுவது தவறு. மக்களை மக்களாக்கி எதற்கு அடிமையாகாமல் தடுப்பதுதான் சீர்திருத்தம்!"
+  },
+  {
+    "id": "naam-s036-d002",
+    "scene_id": "naam-s036",
+    "scene_ordinal": 36,
+    "source_scene_number": 36,
+    "source_heading": "காட்சி 36",
+    "speaker_label": "ஜீவானந்தர்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-036.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 58
+      }
+    ],
+    "text": "அந்த வேலையை இன்றே ஆரம்பிப்போம்."
+  },
+  {
+    "id": "naam-s036-d003",
+    "scene_id": "naam-s036",
+    "scene_ordinal": 36,
+    "source_scene_number": 36,
+    "source_heading": "காட்சி 36",
+    "speaker_label": "குமரன்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-036.md",
+    "page_provenance": [
+      {
+        "pdf_page": 59,
+        "printed_page": 59
+      }
+    ],
+    "text": "மீனு இருந்தால் எவ்வளவோ உதவியாக இருந்திருக்கும்."
+  },
+  {
+    "id": "naam-s036-d004",
+    "scene_id": "naam-s036",
+    "scene_ordinal": 36,
+    "source_scene_number": 36,
+    "source_heading": "காட்சி 36",
+    "speaker_label": "ஜீவானந்தர்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-036.md",
+    "page_provenance": [
+      {
+        "pdf_page": 59,
+        "printed_page": 59
+      }
+    ],
+    "text": "மீனு ஜமீன்தாருடன் அமெரிக்காவுக்குத் தான் போயிருப்பாள்."
+  }
+]

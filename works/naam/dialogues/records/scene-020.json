@@ -1,0 +1,86 @@
+[
+  {
+    "id": "naam-s020-d001",
+    "scene_id": "naam-s020",
+    "scene_ordinal": 20,
+    "source_scene_number": 20,
+    "source_heading": "காட்சி 20.",
+    "speaker_label": "மல்ல",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 34,
+        "printed_page": 34
+      },
+      {
+        "pdf_page": 35,
+        "printed_page": 35
+      }
+    ],
+    "text": "ஞானம்! நான் படுத்திருக்கிறேனே பஞ்சணை! நீ உடுத்தி இருக்கிறாயே பட்டுச் சேலை! இதற்கெல்லாம்\nசொந்தக்காரன் இன்னும் உயிருடன் தான் உலவுகிறான். அவன் ஒழிந்தால் தான் எனக்கு நிம்மதி.",
+    "page_segments": [
+      {
+        "pdf_page": 34,
+        "printed_page": 34,
+        "text": "ஞானம்! நான் படுத்திருக்கிறேனே பஞ்சணை! நீ உடுத்தி இருக்கிறாயே பட்டுச் சேலை! இதற்கெல்லாம்"
+      },
+      {
+        "pdf_page": 35,
+        "printed_page": 35,
+        "text": "சொந்தக்காரன் இன்னும் உயிருடன் தான் உலவுகிறான். அவன் ஒழிந்தால் தான் எனக்கு நிம்மதி."
+      }
+    ]
+  },
+  {
+    "id": "naam-s020-d002",
+    "scene_id": "naam-s020",
+    "scene_ordinal": 20,
+    "source_scene_number": 20,
+    "source_heading": "காட்சி 20.",
+    "speaker_label": "ஞானம்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 35,
+        "printed_page": 35
+      }
+    ],
+    "text": "ஒழிந்து விடுவான்!"
+  },
+  {
+    "id": "naam-s020-d003",
+    "scene_id": "naam-s020",
+    "scene_ordinal": 20,
+    "source_scene_number": 20,
+    "source_heading": "காட்சி 20.",
+    "speaker_label": "மல்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 35,
+        "printed_page": 35
+      }
+    ],
+    "text": "எப்படி ஒழிவான்? நீ மாத்திரம் நிதானமாக அந்த விஷத்தை கொடுத்திருந்தால் அவன் அன்றே ஒழிந்திருப்பான்."
+  },
+  {
+    "id": "naam-s020-d004",
+    "scene_id": "naam-s020",
+    "scene_ordinal": 20,
+    "source_scene_number": 20,
+    "source_heading": "காட்சி 20.",
+    "speaker_label": "ஞானம்",
+    "source_delimiter": ":-",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 35,
+        "printed_page": 35
+      }
+    ],
+    "text": "நான் என்ன செய்வேன்? மீனு அவனுக்கு வைத்திருந்த பாலில் தான் விஷத்தை கலந்தேன். அதை அவன் அவனது தாய்க்கு கொடுப்பான் என்று எனக்குத் தெரியுமா!"
+  }
+]

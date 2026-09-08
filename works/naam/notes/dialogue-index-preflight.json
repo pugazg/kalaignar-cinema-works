@@ -1,14 +1,15 @@
 {
   "work_id": "naam",
   "phase": "dialogue-index-preflight",
-  "status": "review-ready",
+  "status": "review-complete-ready-to-build",
   "scene_count": 45,
   "source_numbered_scenes": true,
-  "explicit_dialogue_candidates": 594,
-  "distinct_exact_speaker_labels": 47,
+  "explicit_dialogue_candidates": 590,
+  "distinct_exact_speaker_labels": 45,
   "delimiter_distribution": {
-    ":": 17,
-    ":-": 577
+    ":": 16,
+    ":-": 573,
+    "—": 1
   },
   "exact_speaker_labels": [
     {
@@ -84,6 +85,10 @@
       "count": 7
     },
     {
+      "speaker_label": "ஜீவானந்தர்",
+      "count": 6
+    },
+    {
       "speaker_label": "ஞானம்",
       "count": 6
     },
@@ -102,14 +107,6 @@
     {
       "speaker_label": "ஜீவானந்த",
       "count": 5
-    },
-    {
-      "speaker_label": "ஜீவானந்தர்",
-      "count": 5
-    },
-    {
-      "speaker_label": "(இடம்",
-      "count": 4
     },
     {
       "speaker_label": "பூசாரி",
@@ -153,10 +150,6 @@
     },
     {
       "speaker_label": "உன்மீனு",
-      "count": 1
-    },
-    {
-      "speaker_label": "கடிதத்தில்",
       "count": 1
     },
     {
@@ -233,16 +226,16 @@
     "naam-s027": 18,
     "naam-s028": 1,
     "naam-s029": 20,
-    "naam-s030": 12,
+    "naam-s030": 11,
     "naam-s031": 31,
     "naam-s032": 13,
-    "naam-s033": 18,
+    "naam-s033": 17,
     "naam-s034": 11,
     "naam-s035": 3,
-    "naam-s036": 5,
+    "naam-s036": 4,
     "naam-s037": 0,
     "naam-s038": 16,
-    "naam-s039": 14,
+    "naam-s039": 13,
     "naam-s040": 8,
     "naam-s041": 11,
     "naam-s042": 7,
@@ -421,7 +414,6 @@
       "பெண்"
     ],
     "naam-s030": [
-      "(இடம்",
       "குமரன்",
       "சஞ்சீவி",
       "பிரேமா",
@@ -446,7 +438,6 @@
       "மாத்திரை"
     ],
     "naam-s033": [
-      "(இடம்",
       "சஞ்",
       "திருடன்",
       "மீனு"
@@ -463,7 +454,6 @@
       "மாத்திரை"
     ],
     "naam-s036": [
-      "(இடம்",
       "குமரன்",
       "ஜீவானந்தர்"
     ],
@@ -475,7 +465,6 @@
       "மலையப்பன்"
     ],
     "naam-s039": [
-      "(இடம்",
       "குமரன்",
       "சப் இன்ஸ்.",
       "மக்கள்",
@@ -489,8 +478,8 @@
     ],
     "naam-s041": [
       "உன்மீனு",
-      "கடிதத்தில்",
       "குமரன்",
+      "ஜீவானந்தர்",
       "நீதிபதி",
       "மீனு"
     ],
@@ -640,6 +629,61 @@
       "pdf_page": 45,
       "raw": "இடம் :- சஞ்சீவி வீடு",
       "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s030",
+      "scene_file": "scene-030.md",
+      "line": 8,
+      "pdf_page": 47,
+      "raw": "(இடம் :—வைத்தியர் வீடு)",
+      "reason": "stage/location line beginning with structural punctuation"
+    },
+    {
+      "scene_id": "naam-s033",
+      "scene_file": "scene-033.md",
+      "line": 8,
+      "pdf_page": 54,
+      "raw": "(இடம் :-மலையங்களா)",
+      "reason": "stage/location line beginning with structural punctuation"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_file": "scene-036.md",
+      "line": 8,
+      "pdf_page": 58,
+      "raw": "(இடம்:-ரோடு)",
+      "reason": "stage/location line beginning with structural punctuation"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_file": "scene-039.md",
+      "line": 14,
+      "pdf_page": 62,
+      "raw": "(இடம் :- மலையப்பனின் மாளிகை வாசல்)",
+      "reason": "stage/location line beginning with structural punctuation"
+    },
+    {
+      "scene_id": "naam-s041",
+      "scene_file": "scene-041.md",
+      "line": 34,
+      "pdf_page": 66,
+      "raw": "கடிதத்தில் :- \"இக்கடிதத்தைக் காணும் கருணை உள்ளம் படைத்தவர்களே...மேல் ஜாதிக்காரனின் காதலை நம்பிக் கைவிடப்பட்டவளின் கடைசி ஆசையை நிறைவேற்றுங்கள். இந்தக் குழந்தையை எப்படியாவது காப்பாற்றுங்கள்.\" இப்படிக்கு—சுந்தரி.",
+      "reason": "known non-speaker colon label"
+    }
+  ],
+  "reviewed_alternate_delimiter_dialogues": [
+    {
+      "scene_id": "naam-s041",
+      "scene_file": "scene-041.md",
+      "line": 26,
+      "speaker_label": "ஜீவானந்தர்",
+      "delimiter": "—",
+      "text": "குமரன்! குமரன்!",
+      "pdf_page": 66,
+      "printed_page": 66,
+      "parse_kind": "reviewed-alternate-delimiter",
+      "raw": "ஜீவானந்தர் — குமரன்! குமரன்!",
+      "decision": "explicit-speaker-label-occurrence"
     }
   ],
   "anomalous_delimiter_candidates": [
@@ -652,7 +696,8 @@
       "label_candidate": "சூரியனால் கடல் நீரும்",
       "delimiter": "—",
       "text": "மேகமாகுமே",
-      "raw": "சூரியனால் கடல் நீரும்—மேகமாகுமே"
+      "raw": "சூரியனால் கடல் நீரும்—மேகமாகுமே",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s003",
@@ -663,7 +708,8 @@
       "label_candidate": "வேலைக்காரன்",
       "delimiter": "—",
       "text": "வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு",
-      "raw": "வேலைக்காரன்—வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு"
+      "raw": "வேலைக்காரன்—வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s007",
@@ -674,7 +720,8 @@
       "label_candidate": "அலையும் அறிவிலிகாள்",
       "delimiter": "—",
       "text": "பல",
-      "raw": "அலையும் அறிவிலிகாள்—பல"
+      "raw": "அலையும் அறிவிலிகாள்—பல",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s007",
@@ -685,7 +732,8 @@
       "label_candidate": "மயங்கு மதியிலிகாள்",
       "delimiter": "—",
       "text": "எத",
-      "raw": "மயங்கு மதியிலிகாள்—எத"
+      "raw": "மயங்கு மதியிலிகாள்—எத",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s007",
@@ -696,7 +744,8 @@
       "label_candidate": "வெறுங்கதைகள் சேர்த்துப்",
       "delimiter": "—",
       "text": "பல",
-      "raw": "வெறுங்கதைகள் சேர்த்துப்—பல"
+      "raw": "வெறுங்கதைகள் சேர்த்துப்—பல",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s029",
@@ -707,7 +756,8 @@
       "label_candidate": "ஹா",
       "delimiter": "-",
       "text": "ம்...பிரேமா...",
-      "raw": "ஹா-ம்...பிரேமா..."
+      "raw": "ஹா-ம்...பிரேமா...",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s029",
@@ -718,7 +768,8 @@
       "label_candidate": "குமரனும்",
       "delimiter": "—",
       "text": "மீனுவும் திடீரென்று சந்தித்து விட்டால்...?",
-      "raw": "குமரனும்—மீனுவும் திடீரென்று சந்தித்து விட்டால்...?"
+      "raw": "குமரனும்—மீனுவும் திடீரென்று சந்தித்து விட்டால்...?",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s036",
@@ -729,7 +780,8 @@
       "label_candidate": "புதியதோர் பாதை வகுப்போம்",
       "delimiter": "—",
       "text": "நாம்—கெட்ட",
-      "raw": "புதியதோர் பாதை வகுப்போம்—நாம்—கெட்ட"
+      "raw": "புதியதோர் பாதை வகுப்போம்—நாம்—கெட்ட",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s036",
@@ -740,7 +792,8 @@
       "label_candidate": "விஞ்ஞானப் பேரறிவினில்",
       "delimiter": "—",
       "text": "உழுதே",
-      "raw": "விஞ்ஞானப் பேரறிவினில்—உழுதே"
+      "raw": "விஞ்ஞானப் பேரறிவினில்—உழுதே",
+      "decision": "not-a-speaker-label"
     },
     {
       "scene_id": "naam-s039",
@@ -751,27 +804,17 @@
       "label_candidate": "சோதனையாலே வாடாதே",
       "delimiter": "—",
       "text": "நீ வாடாதே",
-      "raw": "சோதனையாலே வாடாதே—நீ வாடாதே"
-    },
-    {
-      "scene_id": "naam-s041",
-      "scene_file": "scene-041.md",
-      "line": 26,
-      "pdf_page": 66,
-      "printed_page": 66,
-      "label_candidate": "ஜீவானந்தர்",
-      "delimiter": "—",
-      "text": "குமரன்! குமரன்!",
-      "raw": "ஜீவானந்தர் — குமரன்! குமரன்!"
+      "raw": "சோதனையாலே வாடாதே—நீ வாடாதே",
+      "decision": "not-a-speaker-label"
     }
   ],
   "classification_counts": {
     "blank": 1006,
-    "colon_reject": 16,
+    "colon_reject": 21,
     "comment": 135,
-    "explicit_dialogue": 594,
+    "explicit_dialogue": 590,
     "heading": 53,
-    "other": 181,
+    "other": 180,
     "source_anchor": 111,
     "stage_direction_curly": 2,
     "stage_direction_paren": 146,
@@ -779,8 +822,13 @@
   },
   "policy": {
     "authority": "45/45 complete-verified source-numbered scene derivatives",
-    "speaker_label": "exact source text before : or :-; no normalization",
-    "delimiter": "source delimiter is structural and not copied into utterance text",
+    "speaker_label": "exact source label; no normalization",
+    "standard_delimiters": [
+      ":",
+      ":-"
+    ],
+    "reviewed_alternate_delimiter": "one occurrence only: scene 41 `ஜீவானந்தர் — குமரன்! குமரன்!`",
+    "non_speaker_colon_cues": "location/stage cues and `கடிதத்தில்` remain non-dialogue source structures",
     "unlabelled_speech": "left unlabelled; never assigned by inference",
     "page_break": "provenance boundary, not utterance boundary",
     "character_alias_resolution": "deferred to character/entity index"
