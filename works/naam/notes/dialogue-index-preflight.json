@@ -1,0 +1,788 @@
+{
+  "work_id": "naam",
+  "phase": "dialogue-index-preflight",
+  "status": "review-ready",
+  "scene_count": 45,
+  "source_numbered_scenes": true,
+  "explicit_dialogue_candidates": 594,
+  "distinct_exact_speaker_labels": 47,
+  "delimiter_distribution": {
+    ":": 17,
+    ":-": 577
+  },
+  "exact_speaker_labels": [
+    {
+      "speaker_label": "கும",
+      "count": 102
+    },
+    {
+      "speaker_label": "குமரன்",
+      "count": 62
+    },
+    {
+      "speaker_label": "சஞ்",
+      "count": 49
+    },
+    {
+      "speaker_label": "மீனு",
+      "count": 47
+    },
+    {
+      "speaker_label": "மல்",
+      "count": 44
+    },
+    {
+      "speaker_label": "சஞ்சீவி",
+      "count": 35
+    },
+    {
+      "speaker_label": "மலையப்பன்",
+      "count": 24
+    },
+    {
+      "speaker_label": "நாரா",
+      "count": 23
+    },
+    {
+      "speaker_label": "பிரே",
+      "count": 22
+    },
+    {
+      "speaker_label": "பிரேமா",
+      "count": 22
+    },
+    {
+      "speaker_label": "மாத்",
+      "count": 14
+    },
+    {
+      "speaker_label": "மாத்திரை",
+      "count": 14
+    },
+    {
+      "speaker_label": "பீமசேனன்",
+      "count": 13
+    },
+    {
+      "speaker_label": "அண்ணுமலை",
+      "count": 11
+    },
+    {
+      "speaker_label": "ஞா",
+      "count": 11
+    },
+    {
+      "speaker_label": "கந்தசாமி",
+      "count": 10
+    },
+    {
+      "speaker_label": "மல்லயப்ப",
+      "count": 9
+    },
+    {
+      "speaker_label": "மல்லயப்பர்",
+      "count": 7
+    },
+    {
+      "speaker_label": "ஞானம்",
+      "count": 6
+    },
+    {
+      "speaker_label": "மல்ல",
+      "count": 6
+    },
+    {
+      "speaker_label": "ஒருவன்",
+      "count": 5
+    },
+    {
+      "speaker_label": "ஜீவா",
+      "count": 5
+    },
+    {
+      "speaker_label": "ஜீவானந்த",
+      "count": 5
+    },
+    {
+      "speaker_label": "ஜீவானந்தர்",
+      "count": 5
+    },
+    {
+      "speaker_label": "(இடம்",
+      "count": 4
+    },
+    {
+      "speaker_label": "பூசாரி",
+      "count": 4
+    },
+    {
+      "speaker_label": "மல்லயப்பன்",
+      "count": 4
+    },
+    {
+      "speaker_label": "ஒரு",
+      "count": 3
+    },
+    {
+      "speaker_label": "திருடன்",
+      "count": 3
+    },
+    {
+      "speaker_label": "பரமசிவம்",
+      "count": 3
+    },
+    {
+      "speaker_label": "சப் இன்ஸ்.",
+      "count": 2
+    },
+    {
+      "speaker_label": "தங்",
+      "count": 2
+    },
+    {
+      "speaker_label": "நாராயணி",
+      "count": 2
+    },
+    {
+      "speaker_label": "புரோகிதர்",
+      "count": 2
+    },
+    {
+      "speaker_label": "மற்றொரு",
+      "count": 2
+    },
+    {
+      "speaker_label": "உன்மீனு",
+      "count": 1
+    },
+    {
+      "speaker_label": "கடிதத்தில்",
+      "count": 1
+    },
+    {
+      "speaker_label": "தங்கையன்",
+      "count": 1
+    },
+    {
+      "speaker_label": "நீதிபதி",
+      "count": 1
+    },
+    {
+      "speaker_label": "பெண்",
+      "count": 1
+    },
+    {
+      "speaker_label": "பெரியவர்",
+      "count": 1
+    },
+    {
+      "speaker_label": "மக்கள்",
+      "count": 1
+    },
+    {
+      "speaker_label": "மற்றொருவன்",
+      "count": 1
+    },
+    {
+      "speaker_label": "மற்றொருவர்",
+      "count": 1
+    },
+    {
+      "speaker_label": "மலைய",
+      "count": 1
+    },
+    {
+      "speaker_label": "மலையப்பர்",
+      "count": 1
+    },
+    {
+      "speaker_label": "வந்தவர்",
+      "count": 1
+    }
+  ],
+  "zero_explicit_dialogue_scenes": [
+    "naam-s037"
+  ],
+  "scene_dialogue_candidate_counts": {
+    "naam-s001": 14,
+    "naam-s002": 13,
+    "naam-s003": 30,
+    "naam-s004": 29,
+    "naam-s005": 13,
+    "naam-s006": 16,
+    "naam-s007": 7,
+    "naam-s008": 13,
+    "naam-s009": 20,
+    "naam-s010": 44,
+    "naam-s011": 3,
+    "naam-s012": 5,
+    "naam-s013": 38,
+    "naam-s014": 29,
+    "naam-s015": 5,
+    "naam-s016": 6,
+    "naam-s017": 14,
+    "naam-s018": 8,
+    "naam-s019": 1,
+    "naam-s020": 4,
+    "naam-s021": 7,
+    "naam-s022": 10,
+    "naam-s023": 8,
+    "naam-s024": 35,
+    "naam-s025": 8,
+    "naam-s026": 1,
+    "naam-s027": 18,
+    "naam-s028": 1,
+    "naam-s029": 20,
+    "naam-s030": 12,
+    "naam-s031": 31,
+    "naam-s032": 13,
+    "naam-s033": 18,
+    "naam-s034": 11,
+    "naam-s035": 3,
+    "naam-s036": 5,
+    "naam-s037": 0,
+    "naam-s038": 16,
+    "naam-s039": 14,
+    "naam-s040": 8,
+    "naam-s041": 11,
+    "naam-s042": 7,
+    "naam-s043": 6,
+    "naam-s044": 1,
+    "naam-s045": 18
+  },
+  "scene_distinct_labels": {
+    "naam-s001": [
+      "கும",
+      "குமரன்",
+      "ஜீவா",
+      "ஜீவானந்தர்",
+      "நாரா",
+      "நாராயணி"
+    ],
+    "naam-s002": [
+      "கும",
+      "சஞ்",
+      "சஞ்சீவி",
+      "நாரா",
+      "நாராயணி"
+    ],
+    "naam-s003": [
+      "கும",
+      "சஞ்",
+      "ஞா",
+      "ஞானம்",
+      "நாரா",
+      "மல்",
+      "மல்ல",
+      "மீனு"
+    ],
+    "naam-s004": [
+      "கும",
+      "சஞ்",
+      "தங்",
+      "தங்கையன்",
+      "பிரே",
+      "பிரேமா",
+      "மாத்"
+    ],
+    "naam-s005": [
+      "சஞ்",
+      "மல்"
+    ],
+    "naam-s006": [
+      "கும",
+      "பிரே",
+      "மாத்"
+    ],
+    "naam-s007": [
+      "ஒருவன்",
+      "கும",
+      "மாத்"
+    ],
+    "naam-s008": [
+      "கும",
+      "குமரன்",
+      "மல்",
+      "மீனு"
+    ],
+    "naam-s009": [
+      "கும",
+      "ஞா",
+      "நாரா",
+      "மல்",
+      "மல்ல",
+      "மல்லயப்ப"
+    ],
+    "naam-s010": [
+      "கும",
+      "குமரன்",
+      "ஞா",
+      "நாரா",
+      "மல்லயப்ப",
+      "மீனு"
+    ],
+    "naam-s011": [
+      "ஞா",
+      "மல்லயப்ப"
+    ],
+    "naam-s012": [
+      "கும",
+      "சஞ்",
+      "சஞ்சீவி"
+    ],
+    "naam-s013": [
+      "கும",
+      "குமரன்",
+      "சஞ்சீவி",
+      "ஜீவானந்த",
+      "பிரேமா",
+      "பெரியவர்",
+      "மற்றொரு",
+      "மற்றொருவர்"
+    ],
+    "naam-s014": [
+      "கந்தசாமி",
+      "குமரன்",
+      "பீமசேனன்"
+    ],
+    "naam-s015": [
+      "ஞானம்",
+      "மல்லயப்பர்"
+    ],
+    "naam-s016": [
+      "கந்தசாமி",
+      "குமரன்"
+    ],
+    "naam-s017": [
+      "ஒருவன்",
+      "கும",
+      "குமரன்",
+      "ஜீவா",
+      "ஜீவானந்தர்",
+      "பரமசிவம்",
+      "மல்லயப்பர்"
+    ],
+    "naam-s018": [
+      "கும",
+      "மாத்"
+    ],
+    "naam-s019": [
+      "கும"
+    ],
+    "naam-s020": [
+      "ஞானம்",
+      "மல்",
+      "மல்ல"
+    ],
+    "naam-s021": [
+      "கும",
+      "மீனு"
+    ],
+    "naam-s022": [
+      "சஞ்",
+      "பிரே",
+      "மாத்"
+    ],
+    "naam-s023": [
+      "கும",
+      "பிரே",
+      "பிரேமா"
+    ],
+    "naam-s024": [
+      "கும",
+      "குமரன்",
+      "மல்",
+      "மல்லயப்பன்"
+    ],
+    "naam-s025": [
+      "சஞ்",
+      "சஞ்சீவி",
+      "பிரேமா"
+    ],
+    "naam-s026": [
+      "மலையப்பர்"
+    ],
+    "naam-s027": [
+      "குமரன்",
+      "சஞ்",
+      "சஞ்சீவி",
+      "பிரே",
+      "பிரேமா",
+      "மாத்திரை"
+    ],
+    "naam-s028": [
+      "மீனு"
+    ],
+    "naam-s029": [
+      "கும",
+      "சஞ்",
+      "சஞ்சீவி",
+      "பிரேமா",
+      "பெண்"
+    ],
+    "naam-s030": [
+      "(இடம்",
+      "குமரன்",
+      "சஞ்சீவி",
+      "பிரேமா",
+      "வந்தவர்"
+    ],
+    "naam-s031": [
+      "குமரன்",
+      "சஞ்",
+      "சஞ்சீவி",
+      "ஞானம்",
+      "மலைய",
+      "மல்",
+      "மல்லயப்பன்",
+      "மீனு"
+    ],
+    "naam-s032": [
+      "அண்ணுமலை",
+      "ஒரு",
+      "ஒருவன்",
+      "மற்றொருவன்",
+      "மாத்",
+      "மாத்திரை"
+    ],
+    "naam-s033": [
+      "(இடம்",
+      "சஞ்",
+      "திருடன்",
+      "மீனு"
+    ],
+    "naam-s034": [
+      "அண்ணுமலை",
+      "ஒருவன்",
+      "குமரன்",
+      "ஜீவானந்தர்",
+      "மாத்திரை"
+    ],
+    "naam-s035": [
+      "குமரன்",
+      "மாத்திரை"
+    ],
+    "naam-s036": [
+      "(இடம்",
+      "குமரன்",
+      "ஜீவானந்தர்"
+    ],
+    "naam-s037": [],
+    "naam-s038": [
+      "அண்ணுமலை",
+      "புரோகிதர்",
+      "பூசாரி",
+      "மலையப்பன்"
+    ],
+    "naam-s039": [
+      "(இடம்",
+      "குமரன்",
+      "சப் இன்ஸ்.",
+      "மக்கள்",
+      "மலையப்பன்"
+    ],
+    "naam-s040": [
+      "அண்ணுமலை",
+      "சஞ்சீவி",
+      "பூசாரி",
+      "மலையப்பன்"
+    ],
+    "naam-s041": [
+      "உன்மீனு",
+      "கடிதத்தில்",
+      "குமரன்",
+      "நீதிபதி",
+      "மீனு"
+    ],
+    "naam-s042": [
+      "குமரன்",
+      "மீனு"
+    ],
+    "naam-s043": [
+      "குமரன்",
+      "சஞ்சீவி",
+      "மலையப்பன்"
+    ],
+    "naam-s044": [
+      "குமரன்"
+    ],
+    "naam-s045": [
+      "குமரன்",
+      "மலையப்பன்",
+      "மீனு"
+    ]
+  },
+  "colon_rejects": [
+    {
+      "scene_id": "naam-s002",
+      "scene_file": "scene-002.md",
+      "line": 8,
+      "pdf_page": 7,
+      "raw": "இடம் :- சஞ்சீவி வைத்தியரின் குடிசை",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s003",
+      "scene_file": "scene-003.md",
+      "line": 8,
+      "pdf_page": 8,
+      "raw": "இடம் :- மல்லயப்பர் மாளிகை",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s004",
+      "scene_file": "scene-004.md",
+      "line": 8,
+      "pdf_page": 11,
+      "raw": "இடம் :- வைத்தியர் வீடு.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s005",
+      "scene_file": "scene-005.md",
+      "line": 8,
+      "pdf_page": 13,
+      "raw": "இடம் :- மல்லயப்பர் மாளிகை",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s006",
+      "scene_file": "scene-006.md",
+      "line": 8,
+      "pdf_page": 14,
+      "raw": "இடம் :- வைத்தியர் வீடு",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s009",
+      "scene_file": "scene-009.md",
+      "line": 10,
+      "pdf_page": 19,
+      "raw": "இடம் :- ரோடு",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s009",
+      "scene_file": "scene-009.md",
+      "line": 20,
+      "pdf_page": 19,
+      "raw": "இடம் :- மாளிகை வாசல்",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s012",
+      "scene_file": "scene-012.md",
+      "line": 8,
+      "pdf_page": 25,
+      "raw": "இடம் :- வைத்தியர் குடிசை.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s013",
+      "scene_file": "scene-013.md",
+      "line": 8,
+      "pdf_page": 25,
+      "raw": "இடம் :- நாராயணியின் கல்லறை.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s019",
+      "scene_file": "scene-019.md",
+      "line": 8,
+      "pdf_page": 34,
+      "raw": "இடம் :—கல்லறை.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s020",
+      "scene_file": "scene-020.md",
+      "line": 8,
+      "pdf_page": 34,
+      "raw": "இடம் :—மல்லயப்பர் மாளிகை.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s021",
+      "scene_file": "scene-021.md",
+      "line": 8,
+      "pdf_page": 35,
+      "raw": "இடம் :—கல்லறை.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s023",
+      "scene_file": "scene-023.md",
+      "line": 8,
+      "pdf_page": 38,
+      "raw": "இடம் :—குமரனது குடிசை.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s024",
+      "scene_file": "scene-024.md",
+      "line": 8,
+      "pdf_page": 38,
+      "raw": "இடம் :- மல்லயப்பனின் மாளிகை",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s027",
+      "scene_file": "scene-027.md",
+      "line": 8,
+      "pdf_page": 43,
+      "raw": "இடம்:—சஞ்சீவி வீடு.",
+      "reason": "known non-speaker colon label"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_file": "scene-029.md",
+      "line": 8,
+      "pdf_page": 45,
+      "raw": "இடம் :- சஞ்சீவி வீடு",
+      "reason": "known non-speaker colon label"
+    }
+  ],
+  "anomalous_delimiter_candidates": [
+    {
+      "scene_id": "naam-s001",
+      "scene_file": "scene-001.md",
+      "line": 60,
+      "pdf_page": 6,
+      "printed_page": 6,
+      "label_candidate": "சூரியனால் கடல் நீரும்",
+      "delimiter": "—",
+      "text": "மேகமாகுமே",
+      "raw": "சூரியனால் கடல் நீரும்—மேகமாகுமே"
+    },
+    {
+      "scene_id": "naam-s003",
+      "scene_file": "scene-003.md",
+      "line": 72,
+      "pdf_page": 10,
+      "printed_page": 10,
+      "label_candidate": "வேலைக்காரன்",
+      "delimiter": "—",
+      "text": "வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு",
+      "raw": "வேலைக்காரன்—வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்குடா...அடுக்குடான்னு"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_file": "scene-007.md",
+      "line": 29,
+      "pdf_page": 16,
+      "printed_page": 16,
+      "label_candidate": "அலையும் அறிவிலிகாள்",
+      "delimiter": "—",
+      "text": "பல",
+      "raw": "அலையும் அறிவிலிகாள்—பல"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_file": "scene-007.md",
+      "line": 36,
+      "pdf_page": 16,
+      "printed_page": 16,
+      "label_candidate": "மயங்கு மதியிலிகாள்",
+      "delimiter": "—",
+      "text": "எத",
+      "raw": "மயங்கு மதியிலிகாள்—எத"
+    },
+    {
+      "scene_id": "naam-s007",
+      "scene_file": "scene-007.md",
+      "line": 43,
+      "pdf_page": 16,
+      "printed_page": 16,
+      "label_candidate": "வெறுங்கதைகள் சேர்த்துப்",
+      "delimiter": "—",
+      "text": "பல",
+      "raw": "வெறுங்கதைகள் சேர்த்துப்—பல"
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_file": "scene-029.md",
+      "line": 46,
+      "pdf_page": 46,
+      "printed_page": 46,
+      "label_candidate": "ஹா",
+      "delimiter": "-",
+      "text": "ம்...பிரேமா...",
+      "raw": "ஹா-ம்...பிரேமா..."
+    },
+    {
+      "scene_id": "naam-s029",
+      "scene_file": "scene-029.md",
+      "line": 52,
+      "pdf_page": 46,
+      "printed_page": 46,
+      "label_candidate": "குமரனும்",
+      "delimiter": "—",
+      "text": "மீனுவும் திடீரென்று சந்தித்து விட்டால்...?",
+      "raw": "குமரனும்—மீனுவும் திடீரென்று சந்தித்து விட்டால்...?"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_file": "scene-036.md",
+      "line": 24,
+      "pdf_page": 59,
+      "printed_page": 59,
+      "label_candidate": "புதியதோர் பாதை வகுப்போம்",
+      "delimiter": "—",
+      "text": "நாம்—கெட்ட",
+      "raw": "புதியதோர் பாதை வகுப்போம்—நாம்—கெட்ட"
+    },
+    {
+      "scene_id": "naam-s036",
+      "scene_file": "scene-036.md",
+      "line": 31,
+      "pdf_page": 59,
+      "printed_page": 59,
+      "label_candidate": "விஞ்ஞானப் பேரறிவினில்",
+      "delimiter": "—",
+      "text": "உழுதே",
+      "raw": "விஞ்ஞானப் பேரறிவினில்—உழுதே"
+    },
+    {
+      "scene_id": "naam-s039",
+      "scene_file": "scene-039.md",
+      "line": 58,
+      "pdf_page": 64,
+      "printed_page": 64,
+      "label_candidate": "சோதனையாலே வாடாதே",
+      "delimiter": "—",
+      "text": "நீ வாடாதே",
+      "raw": "சோதனையாலே வாடாதே—நீ வாடாதே"
+    },
+    {
+      "scene_id": "naam-s041",
+      "scene_file": "scene-041.md",
+      "line": 26,
+      "pdf_page": 66,
+      "printed_page": 66,
+      "label_candidate": "ஜீவானந்தர்",
+      "delimiter": "—",
+      "text": "குமரன்! குமரன்!",
+      "raw": "ஜீவானந்தர் — குமரன்! குமரன்!"
+    }
+  ],
+  "classification_counts": {
+    "blank": 1006,
+    "colon_reject": 16,
+    "comment": 135,
+    "explicit_dialogue": 594,
+    "heading": 53,
+    "other": 181,
+    "source_anchor": 111,
+    "stage_direction_curly": 2,
+    "stage_direction_paren": 146,
+    "stage_direction_square": 11
+  },
+  "policy": {
+    "authority": "45/45 complete-verified source-numbered scene derivatives",
+    "speaker_label": "exact source text before : or :-; no normalization",
+    "delimiter": "source delimiter is structural and not copied into utterance text",
+    "unlabelled_speech": "left unlabelled; never assigned by inference",
+    "page_break": "provenance boundary, not utterance boundary",
+    "character_alias_resolution": "deferred to character/entity index"
+  }
+}
