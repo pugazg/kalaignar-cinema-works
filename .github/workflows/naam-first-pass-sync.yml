@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit dialogue preflight
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo 'No dialogue-preflight changes needed.'
             exit 0
           fi
