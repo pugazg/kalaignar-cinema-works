@@ -15,7 +15,7 @@ EXPECTED_STARTS = {
     41:65, 42:67, 43:67, 44:68, 45:68,
 }
 SOURCE_RE = re.compile(r'<!--\s*source:\s*pdf=(\d+)(?:\s+printed=([^\s>]+))?[^>]*-->')
-SCENE_RE = re.compile(r'^##\s+காட்சி\s*-?\s*(\d+)\.?\s*$', re.M)
+SCENE_RE = re.compile(r'^##\s+காட்சி\s*-?\s*(\d+)[\.,]?\s*$', re.M)
 PART_RE = re.compile(r'^pdf-(\d{3})-(\d{3})\.md$')
 PHASE5 = ('Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. '
           'Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, '
@@ -154,7 +154,7 @@ Status: **COMPLETE-VERIFIED — 45/45 source-numbered scenes**
 Canonical authority: `../transcription/` — **67/67 complete-verified**  
 Boundary ownership QA: `../notes/scene-boundary-ownership-qa.md` — **PASS**
 
-These files are derivatives of the verified canonical Tamil, not independent textual authorities. The source prints **காட்சி 1–45** sequentially, so derivative ordinals and source scene numbers are identical. Exact source heading forms such as `காட்சி-10.` remain unchanged inside the scene files.
+These files are derivatives of the verified canonical Tamil, not independent textual authorities. The source prints **காட்சி 1–45** sequentially, so derivative ordinals and source scene numbers are identical. Exact source heading forms such as `காட்சி-10.` and `காட்சி 30,` remain unchanged inside the scene files.
 
 ## Integrity
 
