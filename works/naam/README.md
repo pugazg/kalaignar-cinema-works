@@ -105,7 +105,16 @@ Safeguards:
 - PDF 71 preserves the source quotation spacing and final `நாம்`;
 - detailed audit: `notes/verification-audit-pdf-070-071.md`.
 
-**Next:** targeted hold-resolution for PDF 5, PDF 10 and PDF 24.
+## Source-obscuration hold-resolution audit — PDF 5 / 10 / 24
+
+- **3/3 re-inspected; 0 resolved; 3 retained**;
+- PDF 5 remains a physical-loss hold; direct source reinspection corrected `ஒன்றியின வேண்டுகோள்படி` → `அன்னையின் வேண்டுகோள்படி`;
+- PDF 10 remains a physical right-edge-loss hold after visible `வரைக்…`;
+- PDF 24 remains an ink/mark-obscuration hold after visible `கெளரவம் தே`;
+- detailed audit: `notes/source-obscuration-hold-resolution.md`;
+- counters remain visual/dual **64/67**, glyph-final **67/67 COMPLETE**, open holds **3**.
+
+**Next:** deliberate documented hold-policy decision for these three irrecoverable lacunae.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -148,4 +157,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.**
+**Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.**

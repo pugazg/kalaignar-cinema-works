@@ -94,7 +94,9 @@ canonical_tamil:
   current_textual_notes_path: "notes/textual-notes-pdf-070-071.md"
 
 verification_progress:
-  current_audit_path: "notes/verification-audit-pdf-070-071.md"
+  current_audit_path: "notes/source-obscuration-hold-resolution.md"
+  hold_resolution_audit_path: "notes/source-obscuration-hold-resolution.md"
+  hold_resolution_status: completed-3-retained
   visual_fidelity_passed_pages: 64
   historical_glyph_final_verified_pages: 67
   dual_gate_verified_pages: 64
@@ -108,7 +110,7 @@ verification_progress:
   resolved_uncertainties:
     - pdf_page: 9
       reading: "குறுக்கொடிய"
-  next_pdf_range: "5,10,24"
+  next_pdf_range: null
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
@@ -365,4 +367,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made."
+next_action: "Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated."

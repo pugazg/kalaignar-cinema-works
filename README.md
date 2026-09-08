@@ -33,7 +33,7 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - current audit: `works/naam/notes/verification-audit-pdf-070-071.md`;
 - derivatives / English remain blocked pending canonical hold resolution.
 
-**Next:** Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.
+**Next:** Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.
 
 ## ராஜா ராணி status
 

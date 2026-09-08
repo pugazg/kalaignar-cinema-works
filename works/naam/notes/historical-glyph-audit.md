@@ -399,3 +399,8 @@ Next final audit range: **PDF 70–71**.
 Historical-glyph final verification is now **67/67 COMPLETE**. The canonical dual gate remains **64/67** only because the three visual/source-obscuration holds remain.
 
 Next activity: targeted hold-resolution audit for **PDF 5, PDF 10 and PDF 24**.
+
+
+## Source-obscuration hold-resolution audit
+
+The targeted re-audit of PDF 5, PDF 10 and PDF 24 leaves all three source-obscuration holds unresolved. These are **not historical-glyph failures**: the historical-glyph gate remains **67/67 COMPLETE / final-verified**. The remaining block is source visibility / physical witness completeness only. See `source-obscuration-hold-resolution.md`.

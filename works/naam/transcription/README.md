@@ -6,9 +6,9 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
 - first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
-- current first-pass status: **complete / verification pending**;
+- current first-pass status: **complete; normal-range verification complete; source-lacuna policy pending**;
 - verified pages: **64**;
-- separate visual-fidelity audit: **in progress — 64/67 passed; 3 source holds remain**;
+- separate visual-fidelity audit: **64/67 passed; 3 source holds retained after targeted enlarged-source re-audit**;
 - historical-glyph pages checked during first pass: **67/67**;
 - historical-glyph final verified pages: **67/67 — COMPLETE**;
 - open source uncertainty markers: **3**;
@@ -234,3 +234,10 @@ PDF 70–71 are **2/2 VERIFIED** after direct source comparison. PDF 70 correcti
 ## Next activity
 
 **Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.**
+
+
+## Targeted source-obscuration hold-resolution audit
+
+PDF 5, PDF 10 and PDF 24 were separately re-inspected at enlarged/native resolution using only the controlling scan. **0/3 holds resolved; 3/3 retained.** PDF 5 also received one source-visible correction: `ஒன்றியின வேண்டுகோள்படி` → `அன்னையின் வேண்டுகோள்படி`. PDF 10's right-edge continuation and PDF 24's post-`தே` covered cluster remain unreadable and are not reconstructed. See `../notes/source-obscuration-hold-resolution.md`.
+
+**Next:** Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.
