@@ -25,8 +25,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Synchronize PDF 5-9 verification checkpoint
-        run: python works/naam/scripts/sync_verification_005_009.py
+      - name: Synchronize PDF 10-14 verification checkpoint
+        run: python works/naam/scripts/sync_verification_010_014.py
 
       - name: Validate JSON
         run: |
@@ -42,5 +42,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Verify Naam PDF 6-9 and hold PDF 5 [skip ci]'
+          git commit -m 'Verify Naam PDF 11-14 and hold PDF 10 [skip ci]'
           git push
