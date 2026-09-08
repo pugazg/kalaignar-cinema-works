@@ -7,10 +7,10 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 - canonical range expected: **PDF 5–71 / 67 pages**;
 - first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
 - current first-pass status: **complete / verification pending**;
-- verified pages: **32**;
-- separate visual-fidelity audit: **in progress — 32/67 passed**;
+- verified pages: **37**;
+- separate visual-fidelity audit: **in progress — 37/67 passed**;
 - historical-glyph pages checked during first pass: **67/67**;
-- historical-glyph final verified pages: **35/67**;
+- historical-glyph final verified pages: **40/67**;
 - open source uncertainty markers: **3**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
 - current/final batch: `parts/pdf-070-071.md`;
@@ -156,6 +156,10 @@ The eighth batch continues `காட்சி-24.`, contains `காட்ச�
 
 See `../notes/textual-notes-pdf-040-044.md` for the batch decision log.
 
+## Verification audit — PDF 40–44
+
+PDF 40–44 are **5/5 VERIFIED** after direct source comparison. Corrections include PDF 40 `விதியற்றவனே`; PDF 41 `விளைவு`; PDF 42 `உயிலைகொடுத்தவுடன்`, `விவாக சுப`; PDF 43 `மண்டூகங்கள்`; PDF 44 `இல்லே`, `போட்டி ஆஸ்பத்திரி`. Current totals: visual **37/67**, glyph-final **40/67**, dual-gate verified **37/67**, open uncertainties **3**. Detailed log: `../notes/verification-audit-pdf-040-044.md`.
+
 ## PDF 45–49 source decisions
 
 The ninth batch opens `காட்சி 28.`, `காட்சி 29.`, and source `காட்சி 30,`, then opens `காட்சி-31` and the mapped lyrical block on PDF 49.
@@ -217,4 +221,4 @@ PDF 10–71 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
-**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 40–44. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–39 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 45–49. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–44 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
