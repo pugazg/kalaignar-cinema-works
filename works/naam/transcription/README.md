@@ -5,15 +5,15 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 ## Current checkpoint
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
-- first-pass completed: **PDF 5–64 / 60 pages**;
+- first-pass completed: **PDF 5–69 / 65 pages**;
 - current first-pass status: **partial-first-pass**;
 - verified pages: **0**;
 - separate visual-fidelity audit: **not-started**;
-- historical-glyph pages checked during first pass: **60/67**;
+- historical-glyph pages checked during first pass: **65/67**;
 - historical-glyph final verified pages: **0/67**;
 - open source uncertainty markers: **2**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
-- current batch: `parts/pdf-060-064.md`;
+- current batch: `parts/pdf-065-069.md`;
 - index: `index.json`.
 
 The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
@@ -21,7 +21,7 @@ The first pass is deliberately not the verification gate. A page remains draft/n
 ## Source anchors
 
 - PDF 5: screenplay opening / `காட்சி 1`; printed numeral is not securely visible, so no printed-page value is manufactured;
-- PDF 6–64: visible printed numerals 6–64, one-to-one with the PDF pages.
+- PDF 6–69: visible printed numerals 6–69, one-to-one with the PDF pages.
 
 ## Historical glyph handling
 
@@ -175,8 +175,12 @@ The cumulative explicit uncertainty count remains **2**:
 1. PDF 5: part of the opening introductory prose line is physically damaged / too unclear for a responsible reading.
 2. PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unclear; the draft records the visible approximate cluster rather than silently normalizing it.
 
-PDF 10–64 introduced **0 new explicit uncertainty markers**.
+PDF 10–69 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
 **Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.**
+
+## PDF 65–69 source decisions
+
+The thirteenth batch contains source scenes 40–45 and ends mid-dialogue in scene 45. PDF 65 checks `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` (`னா`) and `அண்ணுமலை` (`லை`); PDF 66 checks `காலணா` (`ணா`) and `காலை` (`லை`) and preserves `உன்மீனு`; PDF 67 checks `மனைவி` (`னை`); PDF 68 checks `உயிலை` (`லை`); PDF 69 checks `உன்னை` (`னை`) and ends at `படித்தால் பாவம் என்று உன்`. PDF 65–69 adds no new uncertainty marker or distinct performance structure. See `../notes/textual-notes-pdf-065-069.md`.

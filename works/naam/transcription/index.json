@@ -8,20 +8,20 @@
   ],
   "canonical_pages_expected": 67,
   "first_pass_complete": false,
-  "first_pass_pages_completed": 60,
+  "first_pass_pages_completed": 65,
   "first_pass_pdf_range_completed": [
     5,
-    64
+    69
   ],
-  "draft_pages": 60,
+  "draft_pages": 65,
   "verified_pages": 0,
   "visual_fidelity_passed_pages": 0,
-  "historical_glyph_checked_pages": 60,
+  "historical_glyph_checked_pages": 65,
   "historical_glyph_verified_pages": 0,
-  "review_pages": 60,
+  "review_pages": 65,
   "open_uncertainty_markers": 2,
-  "current_through_pdf": 64,
-  "current_through_printed_page": 64,
+  "current_through_pdf": 69,
+  "current_through_printed_page": 69,
   "pdf_5_printed_page_number_visible": false,
   "parts": [
     {
@@ -191,13 +191,27 @@
       "status": "draft-needs-review",
       "historical_glyph_status": "checked-first-pass",
       "open_uncertainties": 0
+    },
+    {
+      "path": "parts/pdf-065-069.md",
+      "pdf_range": [
+        65,
+        69
+      ],
+      "printed_range": [
+        65,
+        69
+      ],
+      "status": "draft-needs-review",
+      "historical_glyph_status": "checked-first-pass",
+      "open_uncertainties": 0
     }
   ],
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [
-    65,
-    69
+    70,
+    71
   ],
-  "next_action": "Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates."
+  "next_action": "Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification."
 }

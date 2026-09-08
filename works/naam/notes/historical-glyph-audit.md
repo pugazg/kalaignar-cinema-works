@@ -59,8 +59,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 50–54 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 55–59 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 65–71 | 7 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **60** | **0** | **60** | **partial-first-pass** |
+| PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 70–71 | 2 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **65** | **0** | **65** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -105,6 +106,14 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 62 | 62 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
 | 62 | 62 | historical `னை` cluster | `ஜமீனை` | `னை` | enlarged source pixels | draft-supported |
 | 64 | 64 | historical `னா` cluster | `வாடினான்` | `னா` | enlarged source pixels | draft-supported |
+
+| 65 | 65 | historical `னா` clusters | `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` | `னா` | enlarged source pixels | draft-supported |
+| 65 | 65 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
+| 66 | 66 | historical `ணா` cluster | `காலணா` | `ணா` | enlarged source pixels | draft-supported |
+| 66 | 66 | historical `லை` cluster | `காலை` | `லை` | enlarged source pixels | draft-supported |
+| 67 | 67 | historical `னை` cluster | `மனைவி` | `னை` | enlarged source pixels | draft-supported |
+| 68 | 68 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | draft-supported |
+| 69 | 69 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 

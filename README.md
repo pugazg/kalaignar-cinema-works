@@ -26,15 +26,15 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 `TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake and the 45-scene structural map are complete; canonical Tamil first-pass transcription is in progress.
 
-- canonical Tamil first pass: **PDF 5–64 / 60 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–69 / 65 of 67 pages**;
 - verified pages: **0**; visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **60/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–64 adds none;
-- newest batch: `works/naam/transcription/parts/pdf-060-064.md`;
-- PDF 59–60 and PDF 64 performance/lyric witnesses remain booklet-only; no outside reconstruction/authorship inference;
+- historical-glyph first-pass checked: **65/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–69 adds none;
+- newest batch: `works/naam/transcription/parts/pdf-065-069.md`;
+- PDF 69 ends mid-Kumaran dialogue in scene 45; PDF 70 continues the same source unit;
 - downstream derivatives and English remain blocked pending verified Tamil.
 
-**Next:** Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.
+**Next:** Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.
 
 ## ராஜா ராணி status
 

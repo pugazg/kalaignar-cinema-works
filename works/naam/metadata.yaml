@@ -67,13 +67,13 @@ canonical_tamil:
   index_path: "transcription/index.json"
   status: partial-first-pass
   pages_expected: 67
-  first_pass_pages_completed: 60
-  first_pass_pdf_range_completed: "5-64"
-  first_pass_current_through_pdf: 64
-  first_pass_current_through_printed_page: 64
-  draft_pages: 60
+  first_pass_pages_completed: 65
+  first_pass_pdf_range_completed: "5-69"
+  first_pass_current_through_pdf: 69
+  first_pass_current_through_printed_page: 69
+  draft_pages: 65
   verified_pages: 0
-  review_pages: 60
+  review_pages: 65
   open_uncertainty_markers: 2
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
@@ -88,15 +88,15 @@ canonical_tamil:
     - "transcription/parts/pdf-050-054.md"
     - "transcription/parts/pdf-055-059.md"
     - "transcription/parts/pdf-060-064.md"
-  current_batch_path: "transcription/parts/pdf-060-064.md"
-  current_textual_notes_path: "notes/textual-notes-pdf-060-064.md"
+  current_batch_path: "transcription/parts/pdf-065-069.md"
+  current_textual_notes_path: "notes/textual-notes-pdf-065-069.md"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
   status: partial-first-pass
   main_text_pages_expected: 67
-  pages_checked: 60
+  pages_checked: 65
   pages_verified: 0
   known_families:
     - "ணா"
@@ -201,9 +201,30 @@ historical_glyph:
       source_supported_unicode: "மலையங்களா"
       family: "லை"
 
+  batch_065_069_consequential_decodings:
+    - pdf_page: 65
+      source_supported_unicode: "மனிதனாகுகிறதும் / மனிதனாகுவதும்"
+      family: "னா"
+    - pdf_page: 65
+      source_supported_unicode: "அண்ணுமலை"
+      family: "லை"
+    - pdf_page: 66
+      source_supported_unicode: "காலணா / காலை"
+      family: "ணா / லை"
+    - pdf_page: 67
+      source_supported_unicode: "மனைவி"
+      family: "னை"
+    - pdf_page: 68
+      source_supported_unicode: "உயிலை"
+      family: "லை"
+    - pdf_page: 69
+      source_supported_unicode: "உன்னை"
+      family: "னை"
+
 mapped_source_visible_performance_structures:
   status: intake-plus-first-pass-candidates
   high_confidence_blocks: 6
+  pdf_65_69_new_performance_structures: 0
   pdf_35_39_new_performance_structures: 1
   pdf_40_44_new_performance_structures: 0
   pdf_45_49_new_performance_structures: 1
@@ -246,9 +267,9 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_transcription: partial-first-pass-through-pdf-064
+  canonical_tamil_transcription: partial-first-pass-through-pdf-069
   visual_fidelity_audit: not-started
-  historical_glyph_audit: partial-first-pass-through-pdf-064
+  historical_glyph_audit: partial-first-pass-through-pdf-069
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -263,4 +284,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates."
+next_action: "Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification."

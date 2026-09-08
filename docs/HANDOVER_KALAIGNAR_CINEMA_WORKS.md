@@ -133,7 +133,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
-- **Naam / நாம்** — active work; intake/map complete; canonical Tamil first pass **PDF 5–64 / 60 of 67**; glyph first-pass **60/67**; verified **0/67**; 2 carried source uncertainties; next PDF 65–69. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+- **Naam / நாம்** — active work; intake/map complete; canonical Tamil first pass **PDF 5–69 / 65 of 67**; glyph first-pass **65/67**; verified **0/67**; 2 carried source uncertainties; final first-pass remainder PDF 70–71. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
 
 Ammayappan remains closed at its complete-verified checkpoint. The current active production work is **Naam / நாம்**, beginning canonical Tamil only after its completed source-intake and structural-mapping gate.
 
@@ -145,16 +145,16 @@ Work: `works/naam/`
 Source: `TVA_BOK_0064201_நாம்.pdf`
 
 - intake / whole-scan map: **complete / verified**;
-- canonical Tamil first pass: **PDF 5–64 / 60 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–69 / 65 of 67 pages**;
 - canonical verified pages: **0**; visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked / final verified: **60/67 / 0/67**;
+- historical-glyph first-pass checked / final verified: **65/67 / 0/67**;
 - open source uncertainties: **2**, both inherited from PDF 5/9;
-- current batch: `works/naam/transcription/parts/pdf-060-064.md`;
-- current source notes: `works/naam/notes/textual-notes-pdf-060-064.md`;
-- PDF 59–60 and PDF 64 performance/lyric witnesses remain source-only;
+- current batch: `works/naam/transcription/parts/pdf-065-069.md`;
+- current source notes: `works/naam/notes/textual-notes-pdf-065-069.md`;
+- PDF 69 ends mid-Kumaran dialogue at `படித்தால் பாவம் என்று உன்`; PDF 70 continues the same source unit;
 - structured derivatives / English / reader remain blocked.
 
-**Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.
+**Exact next activity:** Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.
 
 ## 9. Ammayappan closed checkpoint
 

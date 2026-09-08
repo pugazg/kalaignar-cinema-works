@@ -6,17 +6,17 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **partial first pass — PDF 5–64 / 60 of 67 pages**;
+- canonical Tamil transcription: **partial first pass — PDF 5–69 / 65 of 67 pages**;
 - canonical Tamil verified pages: **0**;
 - visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **partial first pass — 60 pages checked / 0 final-verified**;
+- historical-Tamil-glyph audit: **partial first pass — 65 pages checked / 0 final-verified**;
 - open source uncertainty markers: **2**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
-Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`  
-Current textual notes: `notes/textual-notes-pdf-060-064.md`
+Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`, `transcription/parts/pdf-065-069.md`  
+Current textual notes: `notes/textual-notes-pdf-065-069.md`
 
 ## Controlling source
 
@@ -57,7 +57,7 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–64** has now been transcribed as source-order draft material in twelve five-page batches. The newest batch continues `காட்சி-24.`, contains `காட்சி 25–27`, and ends within `காட்சி 27`.
+PDF **5–69** has now been transcribed as source-order draft material in thirteen five-page batches. The newest batch contains `காட்சி 40–45` and ends mid-dialogue in `காட்சி-45` on PDF 69; PDF 70 continues the same Kumaran utterance.
 
 Safeguards:
 
@@ -79,13 +79,16 @@ Safeguards:
 - PDF 45 `கொன்றாய்` is checked historical `றா`; PDF 48–49 `என்னை` is checked historical `னை`; PDF 49 `மணாளன்` is checked historical `ணா`; PDF 49 `கேளேனோ` is checked historical `னோ`;
 - PDF 51 `என்னை` is checked historical `னை`; PDF 52/54 `மலையங்களா` and PDF 52–53 `அண்ணுமலை` are checked historical `லை`;
 - PDF 50 completes the mapped scene-31 lyrical witness from the booklet only; PDF 52 opens `காட்சி-32`, and PDF 54 opens `காட்சி 33`;
+- PDF 65–69 `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்`, `காலணா`, `காலை`, `மனைவி`, `உயிலை`, and `உன்னை` were checked against occurrence-specific historical families;
+- PDF 65 opens `காட்சி 40` and `காட்சி 41`; PDF 67 opens `காட்சி 42` and `காட்சி 43`; PDF 68 opens `காட்சி-44` and `காட்சி-45`; PDF 69 ends mid-Kumaran dialogue and PDF 70 must continue the same utterance;
+- PDF 65–69 adds no new distinct song/lyric/performance structure and introduces **0 new explicit uncertainty markers**;
 - PDF 49 / `காட்சி-31` opens the mapped lyrical witness beginning `பேசும் யாழே பெண் மானே`; only the booklet text is preserved and PDF 50 continues the same source block;
 - PDF 40–44 retains source-period/colloquial forms including `கோவேரிக் கழுதைக்கு`, `ஆவேஷ மூச்சால்`, `விட்டானுக்கும்?`, `மண்டேகங்கள்`, `நாய்க்குட்டி`, and `மாத்திரை முன்னேற்ற ஆஸ்பத்திரியை`;
 - PDF 35–36 / `காட்சி 21` preserves the booklet's complete lineated lyrical witness beginning `மணமில்லா மலர் நானம்மா!`; authorship remains not adjudicated;
 - source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, PDF 24 `கெளரவம்`, and PDF 25–29 `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, `காண்டிராக்ட்காரன்` remain unmodernized;
 - two source uncertainties remain explicit rather than guessed: a damaged introductory line on PDF 5 and one unclear montage word on PDF 9;
-- PDF 10–64 adds **0** new uncertainty markers;
-- **0** of the sixty first-pass pages are called verified yet.
+- PDF 10–69 adds **0** new uncertainty markers;
+- **0** of the sixty-five first-pass pages are called verified yet.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -128,4 +131,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.**
+**Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.**
