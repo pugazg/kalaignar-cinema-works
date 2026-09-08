@@ -47,10 +47,10 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 
 | Range | Pages expected | Glyph first-pass checked | Dual-gate verified | Needs review | Status |
 |---|---:|---:|---:|---:|---|
-| PDF 5–9 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF5 hold |
-| PDF 10–14 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF10 hold |
+| PDF 5–9 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
+| PDF 10–14 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 15–19 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 20–24 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF24 hold |
+| PDF 20–24 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 25–29 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 30–34 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 35–39 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
@@ -61,7 +61,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 60–64 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 65–69 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 70–71 | 2 | 2 | 2 | 0 | final-audit: 2 verified |
-| **Total** | **67** | **67** | **64** | **3** | **historical-glyph-final-complete / visual-holds-remain** |
+| **Total** | **67** | **67** | **67** | **0** | **dual-gate-complete-verified** |
 
 ## First-pass findings / correction log
 
@@ -404,3 +404,8 @@ Next activity: targeted hold-resolution audit for **PDF 5, PDF 10 and PDF 24**.
 ## Source-obscuration hold-resolution audit
 
 The targeted re-audit of PDF 5, PDF 10 and PDF 24 leaves all three source-obscuration holds unresolved. These are **not historical-glyph failures**: the historical-glyph gate remains **67/67 COMPLETE / final-verified**. The remaining block is source visibility / physical witness completeness only. See `source-obscuration-hold-resolution.md`.
+
+
+## Final canonical closure by manual source verdict
+
+Historical-glyph final verification was already **67/67 COMPLETE**. The remaining visual/source holds on PDF 5, PDF 10 and PDF 24 were resolved on 2026-09-08 by the user's explicit manual inspection of the controlling scan. Final whole-work dual-gate status is therefore **67/67 COMPLETE-VERIFIED / 0 needs-review**. See `canonical-closure-user-manual.md`.

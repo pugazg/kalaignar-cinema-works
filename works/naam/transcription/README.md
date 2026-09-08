@@ -6,14 +6,12 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
 - first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
-- current first-pass status: **complete; normal-range verification complete; source-lacuna policy pending**;
-- verified pages: **64**;
-- separate visual-fidelity audit: **64/67 passed; 3 source holds retained after targeted enlarged-source re-audit**;
-- historical-glyph pages checked during first pass: **67/67**;
-- historical-glyph final verified pages: **67/67 — COMPLETE**;
-- open source uncertainty markers: **3**;
-- completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
-- current/final batch: `parts/pdf-070-071.md`;
+- canonical Tamil status: **COMPLETE-VERIFIED**;
+- verified pages: **67/67**;
+- visual-fidelity audit: **67/67 PASS / COMPLETE**;
+- historical-glyph pages checked / final verified: **67/67 / 67/67 COMPLETE**;
+- open source uncertainty markers: **0**;
+- canonical closure audit: `../notes/canonical-closure-user-manual.md`;
 - index: `index.json`.
 
 The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
@@ -236,8 +234,12 @@ PDF 70–71 are **2/2 VERIFIED** after direct source comparison. PDF 70 correcti
 **Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.**
 
 
-## Targeted source-obscuration hold-resolution audit
+## Final canonical closure — user manual controlling-scan verdicts
 
-PDF 5, PDF 10 and PDF 24 were separately re-inspected at enlarged/native resolution using only the controlling scan. **0/3 holds resolved; 3/3 retained.** PDF 5 also received one source-visible correction: `ஒன்றியின வேண்டுகோள்படி` → `அன்னையின் வேண்டுகோள்படி`. PDF 10's right-edge continuation and PDF 24's post-`தே` covered cluster remain unreadable and are not reconstructed. See `../notes/source-obscuration-hold-resolution.md`.
+The three former source-obscuration holds are resolved: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, and PDF 24 `கெளரவம் தேடி`. These are recorded occurrence-specific user manual verdicts on the controlling scan, not inferred completions.
 
-**Next:** Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.
+Final status: **67/67 visual PASS; 67/67 historical-glyph final PASS; 67/67 dual-gate COMPLETE-VERIFIED; 0 open uncertainty markers**. See `../notes/canonical-closure-user-manual.md`.
+
+## Next activity
+
+**Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.**

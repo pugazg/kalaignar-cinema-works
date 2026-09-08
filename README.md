@@ -24,16 +24,16 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## நாம் status
 
-`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake/map and first-pass Tamil are complete; normal-range dual-gate verification is complete except for three explicit source-obscuration holds.
+`TVA_BOK_0064201_நாம்.pdf` now has **complete-verified canonical Tamil**. The user's manual controlling-scan review resolved the three former source-obscuration holds.
 
-- first pass: **67/67 COMPLETE**;
-- dual-gate verified / visual-fidelity: **64/67 / 64/67**;
-- historical-glyph first-pass / final: **67/67 / 67/67 COMPLETE**;
-- open source holds: **3** — PDF 5, PDF 10, PDF 24;
-- current audit: `works/naam/notes/verification-audit-pdf-070-071.md`;
-- derivatives / English remain blocked pending canonical hold resolution.
+- canonical Tamil / visual / glyph-final / dual-gate: **67/67 / 67/67 / 67/67 / 67/67 COMPLETE**;
+- open source uncertainties: **0**;
+- final manual-source readings: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, PDF 24 `கெளரவம் தேடி`;
+- final canonical audit: `works/naam/notes/canonical-closure-user-manual.md`;
+- scene derivatives: **not-started / ready**;
+- English remains downstream of scene/dialogue/character/song gates.
 
-**Next:** Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.
+**Next:** Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.
 
 ## ராஜா ராணி status
 

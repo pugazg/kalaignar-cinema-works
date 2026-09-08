@@ -3,11 +3,12 @@
 Source: `TVA_BOK_0064201_நாம்.pdf`  
 Range: **PDF 5–9**  
 Audit mode: **dual gate — rendered-pixel lexical fidelity + occurrence-specific historical-glyph verification**  
-Result: **PDF 6–9 PASS / VERIFIED; PDF 5 HOLD; 4/5 dual-gate verified**.
+Result: **PDF 6–9 PASS / VERIFIED; PDF 5 HOLD; 4/5 dual-gate verified**.  
+**Final amendment:** the held page was subsequently resolved by the user's manual controlling-scan verdict; final batch status is **5/5 VERIFIED**.
 
 The rendered scan is controlling. No OCR, film audio, subtitles, later edition, web text or semantic reconstruction is used as textual authority.
 
-## PDF 5 — HOLD
+## PDF 5 — HOLD — INITIAL HOLD, SUPERSEDED
 
 The page was compared throughout against enlarged/native source pixels. The ordinary dialogue and narration are readable enough for source-level correction, but the first scene-introduction line remains physically damaged at the left edge. The surviving pixels support the visible tail:
 
@@ -96,3 +97,8 @@ Repository-wide checkpoint after synchronization should therefore be:
 ## Next activity
 
 Proceed with the separate visual-fidelity and final historical-glyph verification audit for **PDF 10–14**. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 absent genuinely new direct-source evidence; PDF 5 remains an explicit source-damage hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+
+
+## Final user-manual source closure amendment
+
+On 2026-09-08, the user manually inspected the controlling scan and supplied the exact reviewed reading for PDF 5: **`அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`**. Under the binding cinema-work processing guide, this manual source verdict supersedes the earlier assistant-side inability to recover the obscured characters. PDF 5 is now **VERIFIED**, this batch is **5/5 dual-gate VERIFIED**, and the current whole-work status is recorded in `canonical-closure-user-manual.md`.

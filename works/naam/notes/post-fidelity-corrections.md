@@ -22,3 +22,16 @@ The same source-pixel sweep reconfirmed all corrections already made in the veri
 Historical-glyph-sensitive occurrences touched by the corrective sweep were rechecked occurrence-specifically, including `கத்தலை` (`லை`), `மலையப்பனின்` (`லை`), and `மக்களை` (`ளை`). No global replacement or spelling modernization was used.
 
 No structured derivative, English translation, or reader layer existed at this point, so downstream reconciliation was not required. The durable counters remain visual-fidelity **57/67**, historical-glyph final **60/67**, dual-gate verified **57/67**, with source holds only on PDF 5, PDF 10 and PDF 24.
+
+
+## 2026-09-08 — final user-manual source closure
+
+After the assistant-side source-obscuration audit retained PDF 5, PDF 10 and PDF 24 as holds, the user manually inspected the controlling scan and supplied exact printed readings. The binding processing guide explicitly permits this occurrence-specific manual source verdict.
+
+| PDF | Earlier canonical state | Final reviewed reading |
+|---:|---|---|
+| 5 | explicit damaged-line lacuna | `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.` |
+| 10 | `வரைக்` + explicit right-edge lacuna | `நீ இங்கே வேலை பார்க்கிற வரைக்கும்` |
+| 24 | `கெளரவம் தே` + explicit ink/mark lacuna | `கெளரவம் தேடி` |
+
+No downstream structured derivative, English translation or reader existed, so no derivative reconciliation is required. After these three manual source verdicts, canonical Tamil is **67/67 dual-gate COMPLETE-VERIFIED with 0 unresolved source markers**.

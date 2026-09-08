@@ -3,7 +3,8 @@
 Source: `TVA_BOK_0064201_நாம்.pdf`  
 Range: **PDF 20–24**  
 Audit mode: **dual gate — rendered-pixel lexical fidelity + occurrence-specific historical-glyph verification**  
-Result: **PDF 20–23 PASS / VERIFIED; PDF 24 HOLD; 4/5 dual-gate verified**.
+Result: **PDF 20–23 PASS / VERIFIED; PDF 24 HOLD; 4/5 dual-gate verified**.  
+**Final amendment:** the held page was subsequently resolved by the user's manual controlling-scan verdict; final batch status is **5/5 VERIFIED**.
 
 The rendered scan is controlling. No OCR, film audio, subtitles, later edition, web text or semantic reconstruction is textual authority.
 
@@ -23,7 +24,7 @@ Direct source comparison establishes source-joined **`பார்க்கவ�
 
 Corrections: `வெளியிட்டுப் போகிறேன்` → **`வெளியிட்டுப்போகிறேன்`**; `அந்த உயிரை கண்டு பிடித்து விடு` → **`அந்த உயிலை கண்டுபிடித்து விடு`**. Source irregular forms `தூர பந்து`, `மட்டாக`, `காலராவா? ஜன்னியா?` remain unchanged. Historical-glyph final review: **PASS**.
 
-## PDF 24 — HOLD
+## PDF 24 — HOLD — INITIAL HOLD, SUPERSEDED
 
 Direct comparison corrects `தவறு ஒன்றும் இல்லை` → **`தவறு ஒன்றும் இல்லே`** and `இன்னும் என்ன புரிந்து கொள்ளவில்லையா?` → **`இன்னும் என்னை புரிந்து கொள்ளவில்லையா?`**.
 
@@ -51,3 +52,8 @@ Repository-wide checkpoint after synchronization: first pass **67/67 COMPLETE**;
 ## Next activity
 
 Proceed with dual-gate verification for **PDF 25–29**. Do not reopen verified PDF 6–9 or PDF 11–23 absent new direct-source evidence. Keep PDF 5, PDF 10 and PDF 24 as explicit source-obscuration holds. Structured derivatives and English remain blocked until verified Tamil closes.
+
+
+## Final user-manual source closure amendment
+
+On 2026-09-08, the user manually inspected the controlling scan and supplied the exact reviewed reading for PDF 24: **`கெளரவம் தேடி`**. Under the binding cinema-work processing guide, this manual source verdict supersedes the earlier assistant-side inability to recover the obscured characters. PDF 24 is now **VERIFIED**, this batch is **5/5 dual-gate VERIFIED**, and the current whole-work status is recorded in `canonical-closure-user-manual.md`.

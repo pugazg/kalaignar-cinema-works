@@ -43,3 +43,10 @@ Repository checkpoint remains:
 ## Next activity
 
 Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.
+
+
+## Final superseding disposition — user manual controlling-scan verdicts
+
+The `0 resolved / 3 retained` result above records the earlier assistant-side enlarged-source reinspection only. It is **superseded for current canonical status** by the user's manual inspection of the controlling scan on 2026-09-08. The user supplied: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, and PDF 24 `கெளரவம் தேடி`.
+
+Per `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, these explicit manual controlling-scan verdicts are accepted for the reviewed occurrences. All three holds are now **RESOLVED**. See `canonical-closure-user-manual.md`.

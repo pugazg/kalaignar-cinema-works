@@ -2,16 +2,20 @@
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/naam/`. Live `main` is authoritative.
 
-Current durable checkpoint: first pass **67/67 COMPLETE**; visual-fidelity **64/67**; historical-glyph final **67/67 COMPLETE**; dual-gate verified **64/67** (PDF 6–9, PDF 11–23, PDF 25–71). The targeted enlarged/native source-obscuration re-audit is **COMPLETE: 3/3 reinspected, 0 resolved, 3 retained** — PDF 5 physical left-start loss, PDF 10 physical right-edge loss, PDF 24 post-`தே` ink/mark coverage.
+Canonical Tamil is now **COMPLETE-VERIFIED: 67/67 visual-fidelity PASS; 67/67 historical-glyph final PASS; 67/67 dual-gate VERIFIED; 0 open source uncertainties**.
 
-PDF 5 additionally has a direct visible-text correction: `ஒன்றியின வேண்டுகோள்படி` → **`அன்னையின் வேண்டுகோள்படி`**. Do not restore the missing PDF 5 prefix, the PDF 10 continuation after visible `வரைக்…`, or PDF 24 as `தேடி` without a better witness.
+The three former holds were closed by the user's manual inspection of the controlling scan on 2026-09-08:
+
+- PDF 5: `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`
+- PDF 10: `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`
+- PDF 24: `கெளரவம் தேடி`
+
+PDF 5 also retains the earlier correction `அன்னையின் வேண்டுகோள்படி`. These are occurrence-specific manual controlling-scan verdicts under `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`; do not reopen them absent genuinely new direct source evidence.
 
 Controlling source: `TVA_BOK_0064201_நாம்.pdf`, 72 pages, SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
 
-Latest audit: `works/naam/notes/source-obscuration-hold-resolution.md`.
-
-Structured derivatives and English remain blocked.
+Final canonical audit: `works/naam/notes/canonical-closure-user-manual.md`.
 
 ## Exact next activity
 
-> **Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.**
+> **Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.**

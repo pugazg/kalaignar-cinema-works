@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** has first pass **67/67 COMPLETE**, dual-gate verification **64/67**, visual-fidelity **64/67**, historical-glyph final **67/67 COMPLETE**, and **3 source-obscuration holds** (PDF 5, PDF 10, PDF 24). PDF 70–71 is fully verified and adds no uncertainty.
+**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** now has canonical Tamil **67/67 COMPLETE-VERIFIED**, visual-fidelity **67/67 PASS**, historical-glyph final **67/67 COMPLETE**, dual-gate **67/67**, and **0 open source uncertainties** after three user manual controlling-scan verdicts.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -25,20 +25,18 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | first pass 67/67 COMPLETE; dual-gate 64/67; 3 source holds | 45 scenes mapped; derivatives blocked | not-started | not-started |
+| Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | 45 scenes mapped; scene derivatives ready/not-started | not-started | not-started |
 
 ## Naam current checkpoint
 
-- first pass: **67/67 COMPLETE**;
-- dual-gate verified / visual-fidelity: **64/67 / 64/67**;
-- historical-glyph first-pass / final: **67/67 / 67/67 COMPLETE**;
-- open source holds: **3** — PDF 5, PDF 10, PDF 24;
-- PDF 70–71: **2/2 VERIFIED**;
-- current audit: `works/naam/notes/verification-audit-pdf-070-071.md`;
-- downstream layers remain blocked.
-- targeted source-obscuration re-audit: **3/3 retained**; audit `works/naam/notes/source-obscuration-hold-resolution.md`.
+- canonical Tamil: **67/67 COMPLETE-VERIFIED**;
+- visual-fidelity / historical-glyph final / dual-gate: **67/67 / 67/67 / 67/67**;
+- open source uncertainties: **0**;
+- manual controlling-scan verdicts: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, PDF 24 `கெளரவம் தேடி`;
+- final audit: `works/naam/notes/canonical-closure-user-manual.md`;
+- structured scene derivatives: **not-started / ready**.
 
-**Next production phase:** Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.
+**Next production phase:** Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.
 
 ## Ammayappan current checkpoint
 
@@ -130,4 +128,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is active with first pass **67/67 COMPLETE**, dual-gate **64/67**, visual **64/67**, glyph-final **67/67 COMPLETE**, and source holds on PDF 5, PDF 10 and PDF 24. Next activity: targeted hold resolution for those three pages.
+Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** now has canonical Tamil **67/67 COMPLETE-VERIFIED with 0 open source uncertainties**. The next production phase is scene-text derivative construction for source-numbered காட்சி 1–45 with boundary-ownership QA.

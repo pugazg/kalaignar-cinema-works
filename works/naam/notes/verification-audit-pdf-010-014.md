@@ -3,11 +3,12 @@
 Source: `TVA_BOK_0064201_நாம்.pdf`  
 Range: **PDF 10–14**  
 Audit mode: **dual gate — rendered-pixel lexical fidelity + occurrence-specific historical-glyph verification**  
-Result: **PDF 11–14 PASS / VERIFIED; PDF 10 HOLD; 4/5 dual-gate verified**.
+Result: **PDF 11–14 PASS / VERIFIED; PDF 10 HOLD; 4/5 dual-gate verified**.  
+**Final amendment:** the held page was subsequently resolved by the user's manual controlling-scan verdict; final batch status is **5/5 VERIFIED**.
 
 The rendered scan is controlling. No OCR, film audio, subtitles, later edition, web text or semantic reconstruction is used as textual authority.
 
-## PDF 10 — HOLD
+## PDF 10 — HOLD — INITIAL HOLD, SUPERSEDED
 
 The page was reviewed at enlarged/native resolution. Most of the page is directly readable, but the physical right edge of the Malaiyappan speech is missing. The source positively preserves only the beginning of the damaged word through:
 
@@ -112,3 +113,8 @@ Repository-wide checkpoint after synchronization should therefore be:
 ## Next activity
 
 Proceed with the separate visual-fidelity and final historical-glyph verification audit for **PDF 15–19**. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 or PDF 11–14 absent genuinely new direct-source evidence. PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+
+
+## Final user-manual source closure amendment
+
+On 2026-09-08, the user manually inspected the controlling scan and supplied the exact reviewed reading for PDF 10: **`நீ இங்கே வேலை பார்க்கிற வரைக்கும்`**. Under the binding cinema-work processing guide, this manual source verdict supersedes the earlier assistant-side inability to recover the obscured characters. PDF 10 is now **VERIFIED**, this batch is **5/5 dual-gate VERIFIED**, and the current whole-work status is recorded in `canonical-closure-user-manual.md`.

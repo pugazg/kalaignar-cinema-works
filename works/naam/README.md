@@ -6,12 +6,13 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **first pass complete — PDF 5–71 / 67 of 67 pages; verification pending**;
-- canonical Tamil verified pages: **64/67**;
-- visual fidelity audit: **in progress — 64/67 pages passed; 3 source holds remain**;
-- historical-Tamil-glyph audit: **final verification complete — 67/67 final-verified**;
-- open source uncertainty markers: **3**;
-- scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
+- canonical Tamil transcription: **67/67 COMPLETE-VERIFIED**;
+- canonical Tamil verified pages: **67/67**;
+- visual fidelity audit: **67/67 PASS / COMPLETE**;
+- historical-Tamil-glyph audit: **67/67 final-verified / COMPLETE**;
+- open source uncertainty markers: **0**;
+- scene derivatives: **not-started / ready**;
+- dialogue / character / song derivatives: **blocked by normal gate order after scenes**;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
@@ -57,7 +58,7 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–71 / 67 of 67 pages** has now been transcribed in source order. The first-pass gate is complete and the dual-gate verification pass is in progress: **64/67** pages are now verified; PDF 5, PDF 10 and PDF 24 remain explicit source-obscuration holds.
+PDF **5–71 / 67 of 67 pages** is transcribed and **67/67 dual-gate COMPLETE-VERIFIED**. The three former source-obscuration holds on PDF 5, PDF 10 and PDF 24 were closed by recorded user manual controlling-scan verdicts; open source uncertainty is now **0**.
 
 Safeguards:
 
@@ -90,31 +91,22 @@ Safeguards:
 - PDF 40–44 retains source-period/colloquial forms including `கோவேரிக் கழுதைக்கு`, `ஆவேஷ மூச்சால்`, `விட்டானுக்கும்?`, `மண்டேகங்கள்`, `நாய்க்குட்டி`, and `மாத்திரை முன்னேற்ற ஆஸ்பத்திரியை`;
 - PDF 35–36 / `காட்சி 21` preserves the booklet's complete lineated lyrical witness beginning `மணமில்லா மலர் நானம்மா!`; authorship remains not adjudicated;
 - source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, PDF 24 `கெளரவம்`, and PDF 25–29 `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, `காண்டிராக்ட்காரன்` remain unmodernized;
-- three source uncertainties remain explicit rather than guessed: the damaged introductory beginning on PDF 5, the damaged right-edge word ending on PDF 10, and the ink/mark-obscured post-`தே` glyph on PDF 24; PDF 9 is resolved as `குறுக்கொடிய`;
-- PDF 10 adds one physical-source-damage uncertainty; PDF 24 adds one ink/mark-obscuration uncertainty; the other reviewed pages add none;
-- **64/67** canonical pages are dual-gate VERIFIED: PDF 6–9, PDF 11–23 and PDF 25–71.
+- the three former holds are now resolved by user manual controlling-scan verdicts: PDF 5 `அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`, PDF 10 `நீ இங்கே வேலை பார்க்கிற வரைக்கும்`, PDF 24 `கெளரவம் தேடி`;
+- **67/67** canonical pages are dual-gate VERIFIED.
 
-## Verification audit — through PDF 71
+## Canonical Tamil closure — user manual source verdicts
 
-- PDF 6–9, PDF 11–23 and PDF 25–71: **dual-gate VERIFIED — 64/67 total**;
-- PDF 5 / PDF 10: **HOLD** for physical source loss; PDF 24: **HOLD** for later ink/mark obscuring the post-`தே` printed glyph;
-- visual-fidelity passed: **64/67**; historical-glyph final verified: **67/67 COMPLETE**;
-- open source uncertainties: **3** — PDF 5, PDF 10, PDF 24;
-- PDF 70–71: **2/2 VERIFIED**, no new uncertainty;
-- direct PDF 70 corrections: `உயிர்...உயிர்...` → `உயிர் ... உயிர் ...`; `இன்று அதே` → `இன்று, அதே`; `என்ன கெடுதி` → `என்னகெடுதி`; `என் சொத்துக்களை` → `என் சொத்துக்கள்`;
-- PDF 71 preserves the source quotation spacing and final `நாம்`;
-- detailed audit: `notes/verification-audit-pdf-070-071.md`.
+- PDF 5: **`அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.`**;
+- PDF 10: **`நீ இங்கே வேலை பார்க்கிற வரைக்கும்`**;
+- PDF 24: **`கெளரவம் தேடி`**;
+- authority basis: explicit user manual inspection of the controlling scan, permitted by the binding cinema-work processing guide;
+- canonical Tamil: **67/67 COMPLETE-VERIFIED**;
+- visual / historical-glyph / dual-gate: **67/67 / 67/67 / 67/67**;
+- open source uncertainties: **0**;
+- final audit: `notes/canonical-closure-user-manual.md`;
+- no downstream derivative reconciliation required because derivatives had not yet started.
 
-## Source-obscuration hold-resolution audit — PDF 5 / 10 / 24
-
-- **3/3 re-inspected; 0 resolved; 3 retained**;
-- PDF 5 remains a physical-loss hold; direct source reinspection corrected `ஒன்றியின வேண்டுகோள்படி` → `அன்னையின் வேண்டுகோள்படி`;
-- PDF 10 remains a physical right-edge-loss hold after visible `வரைக்…`;
-- PDF 24 remains an ink/mark-obscuration hold after visible `கெளரவம் தே`;
-- detailed audit: `notes/source-obscuration-hold-resolution.md`;
-- counters remain visual/dual **64/67**, glyph-final **67/67 COMPLETE**, open holds **3**.
-
-**Next:** deliberate documented hold-policy decision for these three irrecoverable lacunae.
+**Next:** Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -157,4 +149,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.**
+**Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.**

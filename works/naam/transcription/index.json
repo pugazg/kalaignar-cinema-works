@@ -1,7 +1,7 @@
 {
   "work_id": "naam",
   "source": "TVA_BOK_0064201_நாம்.pdf",
-  "status": "verification-in-progress",
+  "status": "complete-verified",
   "canonical_pdf_range": [
     5,
     71
@@ -13,13 +13,13 @@
     5,
     71
   ],
-  "draft_pages": 3,
-  "verified_pages": 64,
-  "visual_fidelity_passed_pages": 64,
+  "draft_pages": 0,
+  "verified_pages": 67,
+  "visual_fidelity_passed_pages": 67,
   "historical_glyph_checked_pages": 67,
   "historical_glyph_verified_pages": 67,
-  "review_pages": 3,
-  "open_uncertainty_markers": 3,
+  "review_pages": 0,
+  "open_uncertainty_markers": 0,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
   "pdf_5_printed_page_number_visible": false,
@@ -34,9 +34,9 @@
         null,
         9
       ],
-      "status": "mixed-pdf5-needs-review-pdf6-9-verified",
+      "status": "verified",
       "historical_glyph_status": "verified-final",
-      "open_uncertainties": 1
+      "open_uncertainties": 0
     },
     {
       "path": "parts/pdf-010-014.md",
@@ -48,9 +48,9 @@
         10,
         14
       ],
-      "status": "mixed-pdf10-needs-review-pdf11-14-verified",
+      "status": "verified",
       "historical_glyph_status": "verified-final",
-      "open_uncertainties": 1
+      "open_uncertainties": 0
     },
     {
       "path": "parts/pdf-015-019.md",
@@ -76,9 +76,9 @@
         20,
         24
       ],
-      "status": "mixed-pdf20-23-verified-pdf24-needs-review",
+      "status": "verified",
       "historical_glyph_status": "verified-final",
-      "open_uncertainties": 1
+      "open_uncertainties": 0
     },
     {
       "path": "parts/pdf-025-029.md",
@@ -224,7 +224,25 @@
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Make a deliberate documented hold-policy decision for the three irrecoverable source-obscuration lacunae on PDF 5, PDF 10 and PDF 24. Do not invent or restore any missing text. Decide whether the canonical Tamil layer may be closed as source-faithful VERIFIED-WITH-LACUNAE, with the three explicit unreadable spans permanently preserved, or whether the work must remain verification-in-progress until a better witness is supplied. Do not start structured derivatives or English until that policy decision is recorded and propagated.",
+  "next_action": "Begin Phase 5 scene-text derivatives from the fully verified canonical Tamil. Create one derivative for each source-numbered காட்சி 1–45 in source order, preserve exact source headings, page provenance and cross-page/cross-part continuity, and run scene-boundary ownership QA before proceeding to the dialogue index. Do not alter canonical Tamil except for later source-supported corrections.",
   "hold_resolution_audit": "../notes/source-obscuration-hold-resolution.md",
-  "hold_resolution_status": "completed-3-retained"
+  "hold_resolution_status": "resolved-3-by-user-manual-scan-verdict",
+  "canonical_closure_audit": "../notes/canonical-closure-user-manual.md",
+  "manual_source_verdicts": [
+    {
+      "pdf_page": 5,
+      "reading": "அவனை தொலைத்துவிட சில துரோகிகள் கிளம்பினர்.",
+      "basis": "user-manual-controlling-scan-verdict"
+    },
+    {
+      "pdf_page": 10,
+      "reading": "நீ இங்கே வேலை பார்க்கிற வரைக்கும்",
+      "basis": "user-manual-controlling-scan-verdict"
+    },
+    {
+      "pdf_page": 24,
+      "reading": "கெளரவம் தேடி",
+      "basis": "user-manual-controlling-scan-verdict"
+    }
+  ]
 }
