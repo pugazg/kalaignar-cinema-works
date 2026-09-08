@@ -1,4 +1,4 @@
-name: Naam structured-derivative synchronization
+name: Naam dialogue preflight synchronization
 
 on:
   push:
@@ -25,49 +25,42 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build scene-text derivatives when pending
+      - name: Build dialogue preflight when pending
         run: |
-          STATUS=$(python -c "import json; print(json.load(open('works/naam/transcription/index.json'))['status'])")
-          if [ "$STATUS" != "complete-verified" ]; then
-            echo "Canonical Tamil is not closed: $STATUS"
-            exit 1
-          fi
-          if [ ! -f works/naam/scenes/index.json ]; then
-            python works/naam/scripts/build_scenes.py
-          else
-            echo "Naam scene derivatives already built or superseded."
-          fi
-
-      - name: Validate scene derivative gate
-        run: |
-          python -m json.tool data/works.json >/dev/null
-          python -m json.tool works/naam/transcription/index.json >/dev/null
-          python -m json.tool works/naam/scenes/index.json >/dev/null
           python - <<'PY'
           import json
-          from pathlib import Path
-          d=json.load(open('works/naam/scenes/index.json'))
-          assert d['status']=='complete-verified'
-          assert d['source_scene_count']==45
-          assert d['source_scene_number_range']==[1,45]
-          assert d['unique_pdf_pages_represented']==67
-          assert d['canonical_scene_region_sha256']==d['joined_scene_spans_sha256']
-          files=list(Path('works/naam/scenes').glob('scene-*.md'))
-          assert len(files)==45, len(files)
-          qa=Path('works/naam/notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
-          assert 'Result: **PASS**' in qa
-          assert 'source text gaps / overlaps: **0 / 0**;' in qa
-          assert 'canonical Tamil modified by this derivative phase: **0**.' in qa
+          s=json.load(open('works/naam/scenes/index.json'))
+          assert s['status']=='complete-verified'
+          assert s['source_scene_count']==45
+          PY
+          if [ ! -f works/naam/notes/dialogue-index-preflight.json ]; then
+            python works/naam/scripts/build_dialogue_preflight.py
+          else
+            echo 'Naam dialogue preflight already exists or is superseded.'
+          fi
+
+      - name: Validate dialogue preflight
+        run: |
+          python -m json.tool works/naam/notes/dialogue-index-preflight.json >/dev/null
+          python - <<'PY'
+          import json
+          d=json.load(open('works/naam/notes/dialogue-index-preflight.json'))
+          assert d['status']=='review-ready'
+          assert d['scene_count']==45
+          assert d['source_numbered_scenes'] is True
+          assert d['explicit_dialogue_candidates'] > 0
+          assert len(d['scene_dialogue_candidate_counts'])==45
+          assert d['distinct_exact_speaker_labels'] > 0
           PY
 
-      - name: Commit synchronized mirrors
+      - name: Commit dialogue preflight
         run: |
           if git diff --quiet; then
-            echo 'No synchronization changes needed.'
+            echo 'No dialogue-preflight changes needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Build Naam scene derivatives [skip ci]'
+          git add works/naam/notes/dialogue-index-preflight.json works/naam/notes/dialogue-index-preflight.md
+          git commit -m 'Inventory Naam dialogue labels [skip ci]'
           git push
