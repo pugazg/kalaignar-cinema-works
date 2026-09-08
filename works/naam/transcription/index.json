@@ -13,13 +13,13 @@
     5,
     71
   ],
-  "draft_pages": 63,
-  "verified_pages": 4,
-  "visual_fidelity_passed_pages": 4,
+  "draft_pages": 59,
+  "verified_pages": 8,
+  "visual_fidelity_passed_pages": 8,
   "historical_glyph_checked_pages": 67,
-  "historical_glyph_verified_pages": 5,
-  "review_pages": 63,
-  "open_uncertainty_markers": 1,
+  "historical_glyph_verified_pages": 10,
+  "review_pages": 59,
+  "open_uncertainty_markers": 2,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
   "pdf_5_printed_page_number_visible": false,
@@ -48,9 +48,9 @@
         10,
         14
       ],
-      "status": "draft-needs-review",
-      "historical_glyph_status": "checked-first-pass",
-      "open_uncertainties": 0
+      "status": "mixed-pdf10-needs-review-pdf11-14-verified",
+      "historical_glyph_status": "verified-final",
+      "open_uncertainties": 1
     },
     {
       "path": "parts/pdf-015-019.md",
@@ -224,5 +224,5 @@
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 10–14. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 absent genuinely new direct-source evidence; PDF 5 remains an explicit source-damage hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 15–19. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 or PDF 11–14 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
 }

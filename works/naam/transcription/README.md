@@ -7,10 +7,10 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 - canonical range expected: **PDF 5–71 / 67 pages**;
 - first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
 - current first-pass status: **complete / verification pending**;
-- verified pages: **4**;
-- separate visual-fidelity audit: **not-started**;
+- verified pages: **8**;
+- separate visual-fidelity audit: **in progress — 8/67 passed**;
 - historical-glyph pages checked during first pass: **67/67**;
-- historical-glyph final verified pages: **5/67**;
+- historical-glyph final verified pages: **10/67**;
 - open source uncertainty markers: **2**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
 - current/final batch: `parts/pdf-070-071.md`;
@@ -44,6 +44,10 @@ Examples established so far:
 
 - PDF 40/41/43/44 `உன்னை` / `குமரனை`: checked historical `னை`; PDF 42 `மண்ணைவாரிப்`: checked historical `ணை`;
 No global replacement is permitted. Source spelling, colloquial forms, punctuation, ellipses, labels and verse lineation remain source-controlled.
+
+## Verification audit — PDF 10–14
+
+PDF 11–14 are VERIFIED after direct rendered-page comparison and final historical-glyph review. PDF 10 remains on physical-source-damage hold because the right edge removes the ending of the word after visible `வரைக்…`; no completion is inferred. Current totals: visual **8/67**, glyph-final **10/67**, dual-gate verified **8/67**, open uncertainties **2**. Detailed log: `../notes/verification-audit-pdf-010-014.md`.
 
 ## PDF 15–19 source reconciliation
 
@@ -193,16 +197,4 @@ PDF 10–71 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.**
-
-## PDF 65–69 source decisions
-
-The thirteenth batch contains source scenes 40–45 and ends mid-dialogue in scene 45. PDF 65 checks `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` (`னா`) and `அண்ணுமலை` (`லை`); PDF 66 checks `காலணா` (`ணா`) and `காலை` (`லை`) and preserves `உன்மீனு`; PDF 67 checks `மனைவி` (`னை`); PDF 68 checks `உயிலை` (`லை`); PDF 69 checks `உன்னை` (`னை`) and ends at `படித்தால் பாவம் என்று உன்`. PDF 65–69 adds no new uncertainty marker or distinct performance structure. See `../notes/textual-notes-pdf-065-069.md`.
-
-## Verification progress
-
-PDF 5–9 final dual-gate audit is recorded at `../notes/verification-audit-pdf-005-009.md`. PDF 6–9 are VERIFIED; PDF 5 remains on physical-source-damage hold. Current totals: visual **4/67**, glyph-final **5/67**, dual-gate verified **4/67**, open uncertainty **1**.
-
-## Next activity
-
-**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 10–14. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 absent genuinely new direct-source evidence; PDF 5 remains an explicit source-damage hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 15–19. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 or PDF 11–14 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
