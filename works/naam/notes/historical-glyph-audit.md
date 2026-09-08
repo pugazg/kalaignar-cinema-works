@@ -52,7 +52,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 15–19 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 20–24 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF24 hold |
 | PDF 25–29 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 30–34 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 30–34 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 35–39 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 40–44 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 45–49 | 5 | 5 | 0 | 5 | partial-first-pass |
@@ -61,7 +61,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **22** | **45** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **27** | **40** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -79,11 +79,11 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 27 | 27 | historical `ணை` cluster | `சாணைக்கல்லிலே` / `சாணைக்கல்லை` | `ணை` | enlarged source pixels; both same-page occurrences checked | **final-verified** |
 | 28 | 28 | historical `லை` / `னா` shapes in phrase | `காதலை நான்` | `லை` / `னா` | enlarged source pixels + same-edition family comparison | **final-verified** |
 | 29 | 29 | historical `ணா` cluster in payment wording | `அணா` | `ணா` | enlarged source pixels; repeated source occurrence | **final-verified** |
-| 31 | 31 | historical `றா` cluster | `தவறான` | `றா` | enlarged source pixels | draft-supported |
-| 31 | 31 | historical `னை` cluster | `இவனை` | `னை` | enlarged source pixels | draft-supported |
-| 32 | 32 | historical `னை` clusters | `அவனை` / `ஜமீனையே` | `னை` | enlarged source pixels | draft-supported |
-| 34 | 34 | historical `ளை` cluster | `அவளை` | `ளை` | enlarged source pixels | draft-supported |
-| 34 | 34 | historical `ணை` cluster | `பஞ்சணை` | `ணை` | enlarged source pixels | draft-supported |
+| 31 | 31 | historical `றா` cluster | `தவறான` | `றா` | enlarged source pixels | **final-verified** |
+| 31 | 31 | historical `னை` cluster | `இவனை` | `னை` | enlarged source pixels | **final-verified** |
+| 32 | 32 | historical `னை` clusters | `அவனை` / `ஜமீனையே` | `னை` | enlarged source pixels | **final-verified** |
+| 34 | 34 | historical `ளை` cluster | `அவளை` | `ளை` | enlarged source pixels | **final-verified** |
+| 34 | 34 | historical `ணை` cluster | `பஞ்சணை` | `ணை` | enlarged source pixels | **final-verified** |
 | 35 | 35 | historical `னா` cluster | `நானம்மா` | `னா` | enlarged source pixels | draft-supported |
 | 37 | 37 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
 | 39 | 39 | historical `னோ` cluster | `எமனோடு` | `னோ` | enlarged source pixels + same-edition family comparison | draft-supported |
@@ -294,3 +294,13 @@ Next final audit range: **PDF 25–29**.
 - details: `verification-audit-pdf-025-029.md`.
 
 Next final audit range: **PDF 30–34**.
+
+## PDF 30–34 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- consequential scan corrections: PDF 30 `ஜனங்கள்` / `இல்லாமே` / `போயிடு வாங்க`; PDF 32 `இருப்பவனை`; PDF 33 `ஜரிகைத்` / `இன்பலோகத்தை`; PDF 34 `இதற்கெல்லாம்`;
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-030-034.md`.
+
+Next final audit range: **PDF 35–39**.
