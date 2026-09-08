@@ -60,8 +60,8 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 55–59 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 60–64 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 65–69 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **62** | **5** | **final-verification-in-progress** |
+| PDF 70–71 | 2 | 2 | 2 | 0 | final-audit: 2 verified |
+| **Total** | **67** | **67** | **64** | **3** | **historical-glyph-final-complete / visual-holds-remain** |
 
 ## First-pass findings / correction log
 
@@ -123,11 +123,11 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 68 | 68 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | **final-verified** |
 | 69 | 69 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | **final-verified** |
 
-| 70 | 70 | historical `லை` clusters | `சிறைச்சாலை` / `மலையப்பன்` | `லை` | enlarged source pixels | draft-supported |
-| 70 | 70 | historical `னா` cluster | `குமரனால்` | `னா` | enlarged source pixels | draft-supported |
-| 70 | 70 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
-| 70 | 70 | historical `றா` cluster | `வருகிறாள்` | `றா` | enlarged source pixels | draft-supported |
-| 71 | 71 | historical `ளை` cluster | `உங்களை` | `ளை` | enlarged source pixels | draft-supported |
+| 70 | 70 | historical `லை` clusters | `சிறைச்சாலை` / `மலையப்பன்` | `லை` | enlarged source pixels | **final-verified** |
+| 70 | 70 | historical `னா` cluster | `குமரனால்` | `னா` | enlarged source pixels | **final-verified** |
+| 70 | 70 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | **final-verified** |
+| 70 | 70 | historical `றா` cluster | `வருகிறாள்` | `றா` | enlarged source pixels | **final-verified** |
+| 71 | 71 | historical `ளை` cluster | `உங்களை` | `ளை` | enlarged source pixels | **final-verified** |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -384,3 +384,18 @@ Next final audit range: **PDF 60–64**.
 - details: `verification-audit-pdf-065-069.md`.
 
 Next final audit range: **PDF 70–71**.
+
+
+## PDF 70–71 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **2/2 PASS / 2/2 PASS**;
+- dual-gate canonical: **2/2 VERIFIED**;
+- PDF 70 scan corrections: `உயிர்...உயிர்...` → `உயிர் ... உயிர் ...`; `இன்று அதே` → `இன்று, அதே`; `என்ன கெடுதி` → `என்னகெடுதி`; `என் சொத்துக்களை` → `என் சொத்துக்கள்`;
+- PDF 71 preserves the printed opening-space after the quotation mark in `“ உலகைத்திருத்தும் ...` and the closing `நாம்`;
+- final glyph cases: PDF 70 `சிறைச்சாலை` / `மலையப்பன்` (`லை`), `குமரனால்` (`னா`), `என்னை` (`னை`), `வருகிறாள்` (`றா`); PDF 71 `உங்களை` (`ளை`);
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-070-071.md`.
+
+Historical-glyph final verification is now **67/67 COMPLETE**. The canonical dual gate remains **64/67** only because the three visual/source-obscuration holds remain.
+
+Next activity: targeted hold-resolution audit for **PDF 5, PDF 10 and PDF 24**.

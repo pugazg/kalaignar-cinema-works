@@ -71,9 +71,9 @@ canonical_tamil:
   first_pass_pdf_range_completed: "5-71"
   first_pass_current_through_pdf: 71
   first_pass_current_through_printed_page: 71
-  draft_pages: 5
-  verified_pages: 62
-  review_pages: 5
+  draft_pages: 3
+  verified_pages: 64
+  review_pages: 3
   open_uncertainty_markers: 3
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
@@ -94,10 +94,10 @@ canonical_tamil:
   current_textual_notes_path: "notes/textual-notes-pdf-070-071.md"
 
 verification_progress:
-  current_audit_path: "notes/verification-audit-pdf-065-069.md"
-  visual_fidelity_passed_pages: 62
-  historical_glyph_final_verified_pages: 65
-  dual_gate_verified_pages: 62
+  current_audit_path: "notes/verification-audit-pdf-070-071.md"
+  visual_fidelity_passed_pages: 64
+  historical_glyph_final_verified_pages: 67
+  dual_gate_verified_pages: 64
   held_pages:
     - pdf_page: 5
       reason: "physically damaged left beginning of introductory line"
@@ -108,15 +108,15 @@ verification_progress:
   resolved_uncertainties:
     - pdf_page: 9
       reading: "குறுக்கொடிய"
-  next_pdf_range: "70-71"
+  next_pdf_range: "5,10,24"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
-  status: final-verification-in-progress
+  status: complete-final-verified
   main_text_pages_expected: 67
   pages_checked: 67
-  pages_verified: 65
+  pages_verified: 67
   known_families:
     - "ணா"
     - "ணை"
@@ -349,8 +349,8 @@ status:
   whole_scan_inspection: complete
   structural_mapping: verified
   canonical_tamil_transcription: first-pass-complete-through-pdf-071
-  visual_fidelity_audit: in-progress-through-pdf-069-62-of-67-pass
-  historical_glyph_audit: final-verification-in-progress-65-of-67
+  visual_fidelity_audit: in-progress-with-source-holds-64-of-67-pass
+  historical_glyph_audit: complete-final-verified-67-of-67
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -365,4 +365,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+next_action: "Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made."

@@ -24,16 +24,16 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## நாம் status
 
-`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake/map and first-pass Tamil are complete; dual-gate verification is in progress.
+`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake/map and first-pass Tamil are complete; normal-range dual-gate verification is complete except for three explicit source-obscuration holds.
 
 - first pass: **67/67 COMPLETE**;
-- dual-gate verified / visual-fidelity: **62/67 / 62/67**;
-- historical-glyph first-pass / final: **67/67 / 65/67**;
+- dual-gate verified / visual-fidelity: **64/67 / 64/67**;
+- historical-glyph first-pass / final: **67/67 / 67/67 COMPLETE**;
 - open source holds: **3** — PDF 5, PDF 10, PDF 24;
-- current audit: `works/naam/notes/verification-audit-pdf-065-069.md`;
-- derivatives / English remain blocked pending verified Tamil.
+- current audit: `works/naam/notes/verification-audit-pdf-070-071.md`;
+- derivatives / English remain blocked pending canonical hold resolution.
 
-**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+**Next:** Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.
 
 ## ராஜா ராணி status
 

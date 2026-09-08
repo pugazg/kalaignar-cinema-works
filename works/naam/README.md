@@ -7,9 +7,9 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - source intake: **complete**;
 - structural mapping: **verified**;
 - canonical Tamil transcription: **first pass complete — PDF 5–71 / 67 of 67 pages; verification pending**;
-- canonical Tamil verified pages: **62/67**;
-- visual fidelity audit: **in progress — 62/67 pages passed**;
-- historical-Tamil-glyph audit: **first pass complete — 67/67 checked / 65/67 final-verified**;
+- canonical Tamil verified pages: **64/67**;
+- visual fidelity audit: **in progress — 64/67 pages passed; 3 source holds remain**;
+- historical-Tamil-glyph audit: **final verification complete — 67/67 final-verified**;
 - open source uncertainty markers: **3**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
@@ -57,7 +57,7 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–71 / 67 of 67 pages** has now been transcribed in source order. The first-pass gate is complete and the dual-gate verification pass is in progress: **62/67** pages are now verified; PDF 5, PDF 10 and PDF 24 remain explicit source-obscuration holds.
+PDF **5–71 / 67 of 67 pages** has now been transcribed in source order. The first-pass gate is complete and the dual-gate verification pass is in progress: **64/67** pages are now verified; PDF 5, PDF 10 and PDF 24 remain explicit source-obscuration holds.
 
 Safeguards:
 
@@ -92,19 +92,20 @@ Safeguards:
 - source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, PDF 24 `கெளரவம்`, and PDF 25–29 `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, `காண்டிராக்ட்காரன்` remain unmodernized;
 - three source uncertainties remain explicit rather than guessed: the damaged introductory beginning on PDF 5, the damaged right-edge word ending on PDF 10, and the ink/mark-obscured post-`தே` glyph on PDF 24; PDF 9 is resolved as `குறுக்கொடிய`;
 - PDF 10 adds one physical-source-damage uncertainty; PDF 24 adds one ink/mark-obscuration uncertainty; the other reviewed pages add none;
-- **62/67** canonical pages are dual-gate VERIFIED: PDF 6–9, PDF 11–23 and PDF 25–69.
+- **64/67** canonical pages are dual-gate VERIFIED: PDF 6–9, PDF 11–23 and PDF 25–71.
 
-## Verification audit — through PDF 69
+## Verification audit — through PDF 71
 
-- PDF 6–9, PDF 11–23 and PDF 25–69: **dual-gate VERIFIED — 62/67 total**;
+- PDF 6–9, PDF 11–23 and PDF 25–71: **dual-gate VERIFIED — 64/67 total**;
 - PDF 5 / PDF 10: **HOLD** for physical source loss; PDF 24: **HOLD** for later ink/mark obscuring the post-`தே` printed glyph;
-- visual-fidelity passed: **62/67**; historical-glyph final verified: **65/67**;
+- visual-fidelity passed: **64/67**; historical-glyph final verified: **67/67 COMPLETE**;
 - open source uncertainties: **3** — PDF 5, PDF 10, PDF 24;
-- PDF 65–69: **5/5 VERIFIED**, no new uncertainty;
-- direct PDF 68 corrections: `உன்னிடம் இருந்தது?` → `உன்னிடமா இருந்தது?`; `அவமதிக் கொண்டிருக்கிறாள்` → `அவமதிக்கொண்டிருக்கிறாள்`;
-- detailed audit: `notes/verification-audit-pdf-065-069.md`.
+- PDF 70–71: **2/2 VERIFIED**, no new uncertainty;
+- direct PDF 70 corrections: `உயிர்...உயிர்...` → `உயிர் ... உயிர் ...`; `இன்று அதே` → `இன்று, அதே`; `என்ன கெடுதி` → `என்னகெடுதி`; `என் சொத்துக்களை` → `என் சொத்துக்கள்`;
+- PDF 71 preserves the source quotation spacing and final `நாம்`;
+- detailed audit: `notes/verification-audit-pdf-070-071.md`.
 
-**Next verification range:** PDF 70–71.
+**Next:** targeted hold-resolution for PDF 5, PDF 10 and PDF 24.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -147,4 +148,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+**Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.**

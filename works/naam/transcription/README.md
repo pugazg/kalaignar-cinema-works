@@ -7,10 +7,10 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 - canonical range expected: **PDF 5–71 / 67 pages**;
 - first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
 - current first-pass status: **complete / verification pending**;
-- verified pages: **62**;
-- separate visual-fidelity audit: **in progress — 62/67 passed**;
+- verified pages: **64**;
+- separate visual-fidelity audit: **in progress — 64/67 passed; 3 source holds remain**;
 - historical-glyph pages checked during first pass: **67/67**;
-- historical-glyph final verified pages: **65/67**;
+- historical-glyph final verified pages: **67/67 — COMPLETE**;
 - open source uncertainty markers: **3**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
 - current/final batch: `parts/pdf-070-071.md`;
@@ -227,6 +227,10 @@ The cumulative explicit uncertainty count remains **2**:
 
 PDF 10–71 introduced **0 new explicit uncertainty markers**.
 
+## Verification audit — PDF 70–71
+
+PDF 70–71 are **2/2 VERIFIED** after direct source comparison. PDF 70 corrections: `உயிர்...உயிர்...` → `உயிர் ... உயிர் ...`; `இன்று அதே` → `இன்று, அதே`; `என்ன கெடுதி` → `என்னகெடுதி`; `என் சொத்துக்களை` → `என் சொத்துக்கள்`. PDF 71 preserves the source-visible opening quote spacing and closes with final `நாம்`. Current totals: visual **64/67**, glyph-final **67/67 COMPLETE**, dual-gate verified **64/67**, open uncertainties **3**. Detailed log: `../notes/verification-audit-pdf-070-071.md`.
+
 ## Next activity
 
-**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+**Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.**

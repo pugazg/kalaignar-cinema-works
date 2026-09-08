@@ -13,12 +13,12 @@
     5,
     71
   ],
-  "draft_pages": 5,
-  "verified_pages": 62,
-  "visual_fidelity_passed_pages": 62,
+  "draft_pages": 3,
+  "verified_pages": 64,
+  "visual_fidelity_passed_pages": 64,
   "historical_glyph_checked_pages": 67,
-  "historical_glyph_verified_pages": 65,
-  "review_pages": 5,
+  "historical_glyph_verified_pages": 67,
+  "review_pages": 3,
   "open_uncertainty_markers": 3,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
@@ -216,13 +216,13 @@
         70,
         71
       ],
-      "status": "draft-needs-review",
-      "historical_glyph_status": "checked-first-pass",
+      "status": "verified",
+      "historical_glyph_status": "verified-final",
       "open_uncertainties": 0
     }
   ],
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+  "next_action": "Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made."
 }

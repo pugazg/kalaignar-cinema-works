@@ -15,10 +15,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
 - canonical Tamil first pass: **COMPLETE — PDF 5–71 / 67 of 67 pages; verification pending**;
-- canonical Tamil verified: **62/67**;
-- visual fidelity audit: **in progress — 62/67 passed**;
+- canonical Tamil verified: **64/67**;
+- visual fidelity audit: **in progress — 64/67 passed; 3 source holds remain**;
 - historical-glyph first-pass checked: **67/67**;
-- historical-glyph final verified: **65/67**;
+- historical-glyph final verified: **67/67 COMPLETE**;
 - open source uncertainty markers: **3**;
 - downstream structured/English/reader layers: **blocked/not-started**.
 
@@ -68,6 +68,7 @@ Current canonical files:
 - `notes/verification-audit-pdf-055-059.md`.
 - `notes/verification-audit-pdf-060-064.md`.
 - `notes/verification-audit-pdf-065-069.md`.
+- `notes/verification-audit-pdf-070-071.md`.
 
 ## Source identity
 
@@ -222,14 +223,14 @@ No unprinted title, missing lyric body or authorship may be reconstructed from o
 - PDF 70–71 introduces **0** new uncertainty markers and no new distinct performance structure;
 - canonical Tamil first pass and historical-glyph first-pass coverage are now **67/67**, but verified pages remain **0/67**.
 
-## Verification checkpoint through PDF 69
+## Verification checkpoint through PDF 71
 
-- PDF 6–9, PDF 11–23 and PDF 25–69: **VERIFIED — 62/67 total**;
+- PDF 6–9, PDF 11–23 and PDF 25–71: **VERIFIED — 64/67 total**;
 - PDF 5 / PDF 10 remain physical-source-damage holds; PDF 24 remains a later-ink/mark source-obscuration hold;
-- visual-fidelity: **62/67**; glyph-final: **65/67**; dual-gate: **62/67**;
+- visual-fidelity: **64/67**; glyph-final: **67/67 COMPLETE**; dual-gate: **64/67**;
 - open source uncertainties: **3**;
-- PDF 65–69 is fully verified and adds no uncertainty; PDF 68 has two direct source corrections (`உன்னிடமா`, `அவமதிக்கொண்டிருக்கிறாள்`).
+- PDF 70–71 is fully verified and adds no uncertainty.
 
 ## Exact next activity
 
-> **Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 70–71. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–69 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 70 continues the same scene-45 Kumaran utterance that ends PDF 69 at `படித்தால் பாவம் என்று உன்`; preserve the physical page boundary without duplication or invented completion. PDF 71 closes the canonical main-text range. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+> **Perform a targeted source-obscuration hold-resolution audit for PDF 5, PDF 10 and PDF 24 using only the controlling scan at enlarged/native resolution. Do not reconstruct missing or obscured text from grammar, OCR, film audio, subtitles, another edition, web text or memory. Re-evaluate each hold separately; if the controlling pixels still do not expose the characters, retain the hold and document the unreadable span explicitly. Do not start structured derivatives or English until the canonical Tamil gate is fully verified or a deliberate documented hold-policy decision is made.**
