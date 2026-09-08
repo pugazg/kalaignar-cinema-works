@@ -65,15 +65,15 @@ scan_condition:
 
 canonical_tamil:
   index_path: "transcription/index.json"
-  status: partial-first-pass
+  status: first-pass-complete-verification-pending
   pages_expected: 67
-  first_pass_pages_completed: 65
-  first_pass_pdf_range_completed: "5-69"
-  first_pass_current_through_pdf: 69
-  first_pass_current_through_printed_page: 69
-  draft_pages: 65
+  first_pass_pages_completed: 67
+  first_pass_pdf_range_completed: "5-71"
+  first_pass_current_through_pdf: 71
+  first_pass_current_through_printed_page: 71
+  draft_pages: 67
   verified_pages: 0
-  review_pages: 65
+  review_pages: 67
   open_uncertainty_markers: 2
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
@@ -88,15 +88,17 @@ canonical_tamil:
     - "transcription/parts/pdf-050-054.md"
     - "transcription/parts/pdf-055-059.md"
     - "transcription/parts/pdf-060-064.md"
-  current_batch_path: "transcription/parts/pdf-065-069.md"
-  current_textual_notes_path: "notes/textual-notes-pdf-065-069.md"
+    - "transcription/parts/pdf-065-069.md"
+    - "transcription/parts/pdf-070-071.md"
+  current_batch_path: "transcription/parts/pdf-070-071.md"
+  current_textual_notes_path: "notes/textual-notes-pdf-070-071.md"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
   audit_path: "notes/historical-glyph-audit.md"
-  status: partial-first-pass
+  status: first-pass-complete-final-verification-pending
   main_text_pages_expected: 67
-  pages_checked: 65
+  pages_checked: 67
   pages_verified: 0
   known_families:
     - "ணா"
@@ -221,10 +223,28 @@ historical_glyph:
       source_supported_unicode: "உன்னை"
       family: "னை"
 
+  batch_070_071_consequential_decodings:
+    - pdf_page: 70
+      source_supported_unicode: "சிறைச்சாலை / மலையப்பன்"
+      family: "லை"
+    - pdf_page: 70
+      source_supported_unicode: "குமரனால்"
+      family: "னா"
+    - pdf_page: 70
+      source_supported_unicode: "என்னை"
+      family: "னை"
+    - pdf_page: 70
+      source_supported_unicode: "வருகிறாள்"
+      family: "றா"
+    - pdf_page: 71
+      source_supported_unicode: "உங்களை"
+      family: "ளை"
+
 mapped_source_visible_performance_structures:
   status: intake-plus-first-pass-candidates
   high_confidence_blocks: 6
   pdf_65_69_new_performance_structures: 0
+  pdf_70_71_new_performance_structures: 0
   pdf_35_39_new_performance_structures: 1
   pdf_40_44_new_performance_structures: 0
   pdf_45_49_new_performance_structures: 1
@@ -267,9 +287,9 @@ status:
   source_intake: complete
   whole_scan_inspection: complete
   structural_mapping: verified
-  canonical_tamil_transcription: partial-first-pass-through-pdf-069
+  canonical_tamil_transcription: first-pass-complete-through-pdf-071
   visual_fidelity_audit: not-started
-  historical_glyph_audit: partial-first-pass-through-pdf-069
+  historical_glyph_audit: first-pass-complete-through-pdf-071
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -284,4 +304,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification."
+next_action: "Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil."

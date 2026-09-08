@@ -1,27 +1,27 @@
 {
   "work_id": "naam",
   "source": "TVA_BOK_0064201_நாம்.pdf",
-  "status": "partial-first-pass",
+  "status": "first-pass-complete-verification-pending",
   "canonical_pdf_range": [
     5,
     71
   ],
   "canonical_pages_expected": 67,
-  "first_pass_complete": false,
-  "first_pass_pages_completed": 65,
+  "first_pass_complete": true,
+  "first_pass_pages_completed": 67,
   "first_pass_pdf_range_completed": [
     5,
-    69
+    71
   ],
-  "draft_pages": 65,
+  "draft_pages": 67,
   "verified_pages": 0,
   "visual_fidelity_passed_pages": 0,
-  "historical_glyph_checked_pages": 65,
+  "historical_glyph_checked_pages": 67,
   "historical_glyph_verified_pages": 0,
-  "review_pages": 65,
+  "review_pages": 67,
   "open_uncertainty_markers": 2,
-  "current_through_pdf": 69,
-  "current_through_printed_page": 69,
+  "current_through_pdf": 71,
+  "current_through_printed_page": 71,
   "pdf_5_printed_page_number_visible": false,
   "parts": [
     {
@@ -205,13 +205,24 @@
       "status": "draft-needs-review",
       "historical_glyph_status": "checked-first-pass",
       "open_uncertainties": 0
+    },
+    {
+      "path": "parts/pdf-070-071.md",
+      "pdf_range": [
+        70,
+        71
+      ],
+      "printed_range": [
+        70,
+        71
+      ],
+      "status": "draft-needs-review",
+      "historical_glyph_status": "checked-first-pass",
+      "open_uncertainties": 0
     }
   ],
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
-  "next_batch_pdf_range": [
-    70,
-    71
-  ],
-  "next_action": "Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification."
+  "next_batch_pdf_range": [],
+  "next_action": "Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil."
 }

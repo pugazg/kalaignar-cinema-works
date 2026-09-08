@@ -1,6 +1,6 @@
 # நாம் — Historical Tamil Glyph Audit
 
-Status: **partial-first-pass**  
+Status: **first-pass-complete / final-verification-pending**  
 Canonical source range: **PDF 5–71 — 67 pages**  
 Binding guide: `../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`
 
@@ -60,8 +60,8 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 55–59 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 70–71 | 2 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **65** | **0** | **65** | **partial-first-pass** |
+| PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
+| **Total** | **67** | **67** | **0** | **67** | **first-pass-complete / final-verification-pending** |
 
 ## First-pass findings / correction log
 
@@ -114,6 +114,12 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 67 | 67 | historical `னை` cluster | `மனைவி` | `னை` | enlarged source pixels | draft-supported |
 | 68 | 68 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | draft-supported |
 | 69 | 69 | historical `னை` cluster | `உன்னை` | `னை` | enlarged source pixels | draft-supported |
+
+| 70 | 70 | historical `லை` clusters | `சிறைச்சாலை` / `மலையப்பன்` | `லை` | enlarged source pixels | draft-supported |
+| 70 | 70 | historical `னா` cluster | `குமரனால்` | `னா` | enlarged source pixels | draft-supported |
+| 70 | 70 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
+| 70 | 70 | historical `றா` cluster | `வருகிறாள்` | `றா` | enlarged source pixels | draft-supported |
+| 71 | 71 | historical `ளை` cluster | `உங்களை` | `ளை` | enlarged source pixels | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -231,3 +237,7 @@ Neither open issue is being guessed from context.
 
 Continue canonical Tamil first-pass transcription with PDF 55–59, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 59 reaches the first of the already mapped poetic/song-like blocks between scenes 36 and 37; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 
+
+## First-pass closure
+
+All **67/67 canonical pages (PDF 5–71)** have completed occurrence-specific historical-glyph first-pass inspection. This is not final glyph verification: all pages remain review-pending until paired visual-fidelity comparison closes the dual gate. The two source uncertainties remain explicit at PDF 5 and PDF 9.

@@ -6,17 +6,17 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **partial first pass — PDF 5–69 / 65 of 67 pages**;
+- canonical Tamil transcription: **first pass complete — PDF 5–71 / 67 of 67 pages; verification pending**;
 - canonical Tamil verified pages: **0**;
 - visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **partial first pass — 65 pages checked / 0 final-verified**;
+- historical-Tamil-glyph audit: **first pass complete — 67/67 checked / 0 final-verified**;
 - open source uncertainty markers: **2**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
-Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`, `transcription/parts/pdf-065-069.md`  
-Current textual notes: `notes/textual-notes-pdf-065-069.md`
+Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`, `transcription/parts/pdf-065-069.md`, `transcription/parts/pdf-070-071.md`  
+Current textual notes: `notes/textual-notes-pdf-070-071.md`
 
 ## Controlling source
 
@@ -57,7 +57,7 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–69** has now been transcribed as source-order draft material in thirteen five-page batches. The newest batch contains `காட்சி 40–45` and ends mid-dialogue in `காட்சி-45` on PDF 69; PDF 70 continues the same Kumaran utterance.
+PDF **5–71 / 67 of 67 pages** has now been transcribed in source order. The first-pass gate is complete; all pages remain draft/needs-review until the separate visual-fidelity and final historical-glyph verification gates close.
 
 Safeguards:
 
@@ -82,13 +82,16 @@ Safeguards:
 - PDF 65–69 `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்`, `காலணா`, `காலை`, `மனைவி`, `உயிலை`, and `உன்னை` were checked against occurrence-specific historical families;
 - PDF 65 opens `காட்சி 40` and `காட்சி 41`; PDF 67 opens `காட்சி 42` and `காட்சி 43`; PDF 68 opens `காட்சி-44` and `காட்சி-45`; PDF 69 ends mid-Kumaran dialogue and PDF 70 must continue the same utterance;
 - PDF 65–69 adds no new distinct song/lyric/performance structure and introduces **0 new explicit uncertainty markers**;
+- PDF 70–71 completes `காட்சி-45`; PDF 70 continues the PDF 69 utterance without a repeated speaker label and PDF 70→71 preserves the physical `சொந்த` / `மாக்குகிறேன்!` cross-page continuation;
+- PDF 70 preserves source-visible `பத்தரை மாத்துத் தங்கம்!`; PDF 71 closes with `(குமரன் உயிரை இழக்கிறான்)`, `“உலகைத்திருத்தும் உத்தமர்களுக் கெல்லாம் இது தான் முடிவா?”`, `இதை மாற்றி அமைப்பது யார்?`, and final `நாம்`;
+- PDF 70–71 adds **0** new uncertainty markers and no new distinct song/lyric/performance structure; historical-glyph first-pass coverage is now **67/67**;
 - PDF 49 / `காட்சி-31` opens the mapped lyrical witness beginning `பேசும் யாழே பெண் மானே`; only the booklet text is preserved and PDF 50 continues the same source block;
 - PDF 40–44 retains source-period/colloquial forms including `கோவேரிக் கழுதைக்கு`, `ஆவேஷ மூச்சால்`, `விட்டானுக்கும்?`, `மண்டேகங்கள்`, `நாய்க்குட்டி`, and `மாத்திரை முன்னேற்ற ஆஸ்பத்திரியை`;
 - PDF 35–36 / `காட்சி 21` preserves the booklet's complete lineated lyrical witness beginning `மணமில்லா மலர் நானம்மா!`; authorship remains not adjudicated;
 - source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, PDF 24 `கெளரவம்`, and PDF 25–29 `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, `காண்டிராக்ட்காரன்` remain unmodernized;
 - two source uncertainties remain explicit rather than guessed: a damaged introductory line on PDF 5 and one unclear montage word on PDF 9;
-- PDF 10–69 adds **0** new uncertainty markers;
-- **0** of the sixty-five first-pass pages are called verified yet.
+- PDF 10–71 adds **0** new uncertainty markers;
+- **0** of the sixty-seven canonical pages are called verified yet.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -131,4 +134,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.**
+**Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.**

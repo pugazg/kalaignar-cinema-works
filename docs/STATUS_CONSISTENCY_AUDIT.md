@@ -25,22 +25,22 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | intake/map complete; first pass **PDF 5–69 / 65 of 67**, 0 verified | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
+| Naam / நாம் | intake/map complete; first pass **PDF 5–71 / 67 of 67 COMPLETE**, 0 verified | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
 
 ## Naam current checkpoint
 
+- work: `works/naam/`;
 - source intake / structural mapping: **complete / verified**;
-- canonical Tamil first pass: **PDF 5–69 / 65 of 67 pages**;
+- canonical Tamil first pass: **COMPLETE — PDF 5–71 / 67 of 67 pages**;
 - verified pages / visual-fidelity passed: **0 / 0**;
-- historical-glyph first-pass checked / final verified: **65 / 0**;
+- historical-glyph first-pass checked / final verified: **67 / 0**;
 - open uncertainty markers: **2**, both carried from PDF 5/9;
-- current draft: `works/naam/transcription/parts/pdf-065-069.md`;
-- current source notes: `works/naam/notes/textual-notes-pdf-065-069.md`;
-- PDF 65–69 introduces no new explicit uncertainty and no new distinct song/lyric/performance structure;
-- PDF 69 ends mid-Kumaran dialogue at `படித்தால் பாவம் என்று உன்`; PDF 70 continues the same source unit;
+- final draft: `works/naam/transcription/parts/pdf-070-071.md`;
+- final source notes: `works/naam/notes/textual-notes-pdf-070-071.md`;
+- PDF 70–71 introduces no new explicit uncertainty and no new distinct song/lyric/performance structure;
 - downstream scene/dialogue/character/song/English layers remain blocked until verified Tamil.
 
-**Next production phase:** Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.
+**Next production phase:** Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.
 
 ## Ammayappan current checkpoint
 
@@ -132,4 +132,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is the active production work with intake/map complete and canonical Tamil first pass at **PDF 5–69 / 65 of 67 pages**, **0 verified pages**, historical-glyph first-pass **65/67**, and **2 carried source uncertainties**. The final first-pass remainder is PDF 70–71. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is the active production work with intake/map complete and canonical Tamil first pass **COMPLETE at PDF 5–71 / 67 of 67 pages**, **0 verified pages**, historical-glyph first-pass **67/67**, and **2 carried source uncertainties**. The next phase is visual-fidelity plus final historical-glyph verification. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.

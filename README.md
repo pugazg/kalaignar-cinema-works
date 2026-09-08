@@ -24,17 +24,16 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## நாம் status
 
-`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake and the 45-scene structural map are complete; canonical Tamil first-pass transcription is in progress.
+`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake and the 45-scene structural map are complete; canonical Tamil first-pass transcription is now **complete**.
 
-- canonical Tamil first pass: **PDF 5–69 / 65 of 67 pages**;
-- verified pages: **0**; visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **65/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–69 adds none;
-- newest batch: `works/naam/transcription/parts/pdf-065-069.md`;
-- PDF 69 ends mid-Kumaran dialogue in scene 45; PDF 70 continues the same source unit;
-- downstream derivatives and English remain blocked pending verified Tamil.
+- canonical Tamil first pass: **PDF 5–71 / 67 of 67 pages — COMPLETE**;
+- verified pages: **0/67**; visual-fidelity audit: **not-started**;
+- historical-glyph first-pass checked: **67/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–71 adds none;
+- final batch: `works/naam/transcription/parts/pdf-070-071.md`;
+- first-pass source layer is frozen pending verification; downstream derivatives and English remain blocked.
 
-**Next:** Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.
+**Next:** Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.
 
 ## ராஜா ராணி status
 

@@ -5,15 +5,15 @@ Controlling source: `TVA_BOK_0064201_நாம்.pdf`
 ## Current checkpoint
 
 - canonical range expected: **PDF 5–71 / 67 pages**;
-- first-pass completed: **PDF 5–69 / 65 pages**;
-- current first-pass status: **partial-first-pass**;
+- first-pass completed: **PDF 5–71 / 67 pages — COMPLETE**;
+- current first-pass status: **complete / verification pending**;
 - verified pages: **0**;
 - separate visual-fidelity audit: **not-started**;
-- historical-glyph pages checked during first pass: **65/67**;
+- historical-glyph pages checked during first pass: **67/67**;
 - historical-glyph final verified pages: **0/67**;
 - open source uncertainty markers: **2**;
 - completed batches: `parts/pdf-005-009.md`, `parts/pdf-010-014.md`, `parts/pdf-015-019.md`, `parts/pdf-020-024.md`, `parts/pdf-025-029.md`, `parts/pdf-030-034.md`, `parts/pdf-035-039.md`;
-- current batch: `parts/pdf-065-069.md`;
+- current/final batch: `parts/pdf-070-071.md`;
 - index: `index.json`.
 
 The first pass is deliberately not the verification gate. A page remains draft/needs-review until direct source comparison and the historical-Tamil-glyph gate both close.
@@ -21,7 +21,7 @@ The first pass is deliberately not the verification gate. A page remains draft/n
 ## Source anchors
 
 - PDF 5: screenplay opening / `காட்சி 1`; printed numeral is not securely visible, so no printed-page value is manufactured;
-- PDF 6–69: visible printed numerals 6–69, one-to-one with the PDF pages.
+- PDF 6–71: visible printed numerals 6–71, one-to-one with the PDF pages.
 
 ## Historical glyph handling
 
@@ -159,6 +159,20 @@ The tenth batch completes the scene-31 lyrical witness, continues the Meenu / Ma
 
 See `../notes/textual-notes-pdf-050-054.md` for the batch decision log.
 
+## PDF 70–71 source decisions
+
+The final remainder completes source `காட்சி-45` and closes the screenplay.
+
+- PDF 70 directly continues PDF 69's Kumaran utterance at `பரம்பரை வேதம் எழுதி வைத்திருப்பதால்!`; no duplicate label or invented boundary is introduced.
+- PDF 70 preserves `பத்தரை மாத்துத் தங்கம்!` as printed and retains the fight / final-address sequence.
+- PDF 70→71 remains one logical Kumaran utterance across `என் சொத்துக்களை மக்களுக்கு சொந்த` / `மாக்குகிறேன்!`.
+- PDF 71 preserves `வாழ்க சுயமரியாதை, வெல்க பகுத்தறிவு.`, Kumaran's death, the unlabeled closing question, `இதை மாற்றி அமைப்பது யார்?`, and final `நாம்`.
+- Historical-family representatives include PDF 70 `சிறைச்சாலை` / `மலையப்பன்` (`லை`), `குமரனால்` (`னா`), `என்னை` (`னை`), `வருகிறாள்` (`றா`), and PDF 71 `உங்களை` (`ளை`).
+- PDF 70–71 introduces **0 new explicit uncertainty markers** and no newly distinct song/lyric/performance structure.
+- First-pass coverage is **67/67 pages**; verified coverage remains **0/67** pending the separate dual-gate audit.
+
+See `../notes/textual-notes-pdf-070-071.md` for the final-batch decision log.
+
 ## Performance / lyric evidence encountered so far
 
 - PDF 16 / `காட்சி 7` visibly prints `[பாட்டு]` followed by the three numbered booklet verses of **`ஆயிரம் தெய்வங்கள்`**. PDF 4 specifically credits this item to **பாரதியார்**; no outside lyric source was used.
@@ -175,7 +189,7 @@ The cumulative explicit uncertainty count remains **2**:
 1. PDF 5: part of the opening introductory prose line is physically damaged / too unclear for a responsible reading.
 2. PDF 9: one word in the montage/action paragraph after `(நாட்கள் பல கடந்தன)` remains unclear; the draft records the visible approximate cluster rather than silently normalizing it.
 
-PDF 10–69 introduced **0 new explicit uncertainty markers**.
+PDF 10–71 introduced **0 new explicit uncertainty markers**.
 
 ## Next activity
 

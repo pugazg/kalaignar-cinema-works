@@ -1,6 +1,6 @@
 # நாம் — source intake and structural map
 
-Status: **verified structural mapping; canonical Tamil not-started**
+Status: **verified structural mapping; canonical Tamil first-pass complete / verification pending**
 
 Controlling source: `TVA_BOK_0064201_நாம்.pdf`  
 Source identifier: `TVA_BOK_0064201`  
@@ -135,9 +135,9 @@ For every main-text page PDF 5–71:
 - source intake: **complete**;
 - whole-scan inspection: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil: **not-started**;
+- canonical Tamil first pass: **complete — PDF 5–71 / 67 of 67; verification pending**;
 - downstream derivatives: **blocked pending verified Tamil**.
 
 ## Exact next activity
 
-**Canonical Tamil first-pass transcription from the rendered scan, in source order, with stable page anchors and page-level historical-glyph checks — followed later by a separate visual fidelity audit before any structured derivatives.**
+**Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.**

@@ -14,10 +14,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - whole scan inspected: **72/72 PDF pages**;
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
-- canonical Tamil: **partial first pass — PDF 5–69 / 65 of 67 pages**;
+- canonical Tamil first pass: **COMPLETE — PDF 5–71 / 67 of 67 pages; verification pending**;
 - canonical Tamil verified: **0/67**;
 - visual fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **65/67**;
+- historical-glyph first-pass checked: **67/67**;
 - historical-glyph final verified: **0/67**;
 - open source uncertainty markers: **2**;
 - downstream structured/English/reader layers: **blocked/not-started**.
@@ -39,6 +39,7 @@ Current canonical files:
 - `transcription/parts/pdf-055-059.md`;
 - `transcription/parts/pdf-060-064.md`;
 - `transcription/parts/pdf-065-069.md`;
+- `transcription/parts/pdf-070-071.md`;
 - `notes/textual-notes-pdf-005-009.md`;
 - `notes/textual-notes-pdf-010-014.md`;
 - `notes/textual-notes-pdf-015-019.md`;
@@ -52,6 +53,7 @@ Current canonical files:
 - `notes/textual-notes-pdf-055-059.md`;
 - `notes/textual-notes-pdf-060-064.md`;
 - `notes/textual-notes-pdf-065-069.md`;
+- `notes/textual-notes-pdf-070-071.md`;
 - `notes/historical-glyph-audit.md`.
 
 ## Source identity
@@ -197,3 +199,12 @@ No unprinted title, missing lyric body or authorship may be reconstructed from o
 ## Exact next activity
 
 > **Complete the canonical Tamil first pass with the final remainder PDF 70–71, beginning by continuing the same scene-45 Kumaran dialogue that ends PDF 69 at `படித்தால் பாவம் என்று உன்`. Preserve source order, stable page anchors and page-level historical-glyph checks. Keep both pages draft/needs-review. After PDF 71, synchronize and close the first-pass gate, then begin the separate visual-fidelity audit; English translation remains blocked until the Tamil canonical layer passes both visual-fidelity and final historical-glyph verification.**
+
+### PDF 70–71
+
+- final first-pass remainder; completes `காட்சி-45` and closes the screenplay;
+- PDF 70 directly continues the PDF 69 Kumaran utterance and preserves source `பத்தரை மாத்துத் தங்கம்!`;
+- PDF 70→71 preserves the cross-page `சொந்த` / `மாக்குகிறேன்!` continuation as one logical utterance;
+- PDF 71 closes with `(குமரன் உயிரை இழக்கிறான்)`, `“உலகைத்திருத்தும் உத்தமர்களுக் கெல்லாம் இது தான் முடிவா?”`, `இதை மாற்றி அமைப்பது யார்?`, and final `நாம்`;
+- PDF 70–71 introduces **0** new uncertainty markers and no new distinct performance structure;
+- canonical Tamil first pass and historical-glyph first-pass coverage are now **67/67**, but verified pages remain **0/67**.
