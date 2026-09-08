@@ -1,4 +1,4 @@
-name: Naam verification synchronization
+name: Naam structured-derivative synchronization
 
 on:
   push:
@@ -25,19 +25,39 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Synchronize user manual canonical closure when pending
+      - name: Build scene-text derivatives when pending
         run: |
           STATUS=$(python -c "import json; print(json.load(open('works/naam/transcription/index.json'))['status'])")
           if [ "$STATUS" != "complete-verified" ]; then
-            python works/naam/scripts/sync_user_manual_hold_closure.py
+            echo "Canonical Tamil is not closed: $STATUS"
+            exit 1
+          fi
+          if [ ! -f works/naam/scenes/index.json ]; then
+            python works/naam/scripts/build_scenes.py
           else
-            echo "Naam canonical Tamil already complete-verified or superseded."
+            echo "Naam scene derivatives already built or superseded."
           fi
 
-      - name: Validate JSON
+      - name: Validate scene derivative gate
         run: |
           python -m json.tool data/works.json >/dev/null
           python -m json.tool works/naam/transcription/index.json >/dev/null
+          python -m json.tool works/naam/scenes/index.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.load(open('works/naam/scenes/index.json'))
+          assert d['status']=='complete-verified'
+          assert d['source_scene_count']==45
+          assert d['source_scene_number_range']==[1,45]
+          assert d['unique_pdf_pages_represented']==67
+          assert d['canonical_scene_region_sha256']==d['joined_scene_spans_sha256']
+          files=list(Path('works/naam/scenes').glob('scene-*.md'))
+          assert len(files)==45, len(files)
+          qa=Path('works/naam/notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
+          assert 'Result: **PASS**' in qa
+          assert '0 gaps / 0 overlaps' in qa
+          PY
 
       - name: Commit synchronized mirrors
         run: |
@@ -48,5 +68,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Close Naam canonical Tamil from manual source verdicts [skip ci]'
+          git commit -m 'Build Naam scene derivatives [skip ci]'
           git push
