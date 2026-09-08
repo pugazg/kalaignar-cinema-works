@@ -24,16 +24,16 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## நாம் status
 
-`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake and the 45-scene structural map are complete; canonical Tamil first-pass transcription is now **complete**.
+`TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake/map and first-pass Tamil are complete; dual-gate verification is in progress.
 
-- canonical Tamil first pass: **PDF 5–71 / 67 of 67 pages — COMPLETE**;
-- verified pages: **0/67**; visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **67/67**; final glyph-verified: **10/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–71 adds none;
-- final batch: `works/naam/transcription/parts/pdf-070-071.md`;
-- first-pass source layer is frozen pending verification; downstream derivatives and English remain blocked.
+- first pass: **67/67 COMPLETE**;
+- dual-gate verified / visual-fidelity: **13/67 / 13/67**;
+- historical-glyph first-pass / final: **67/67 / 15/67**;
+- open source holds: **2** — PDF 5 and PDF 10;
+- current audit: `works/naam/notes/verification-audit-pdf-015-019.md`;
+- derivatives / English remain blocked pending verified Tamil.
 
-**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 15–19. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 or PDF 11–14 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 20–24. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9 or PDF 11–19 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
 
 ## ராஜா ராணி status
 

@@ -49,7 +49,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 |---|---:|---:|---:|---:|---|
 | PDF 5–9 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF5 hold |
 | PDF 10–14 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF10 hold |
-| PDF 15–19 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 15–19 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 20–24 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 25–29 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 30–34 | 5 | 5 | 0 | 5 | partial-first-pass |
@@ -61,7 +61,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **8** | **59** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **13** | **54** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -70,6 +70,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 6 | 6 | apparent bare-`ள்` surface in `அவள்...` cluster | `அவளை` | `ளை` | enlarged source cluster + same-word syntax; old `ளை` identity | **final-verified** |
 | 6 | 6 | old `னா` form in `சூரியனால்` | `சூரியனால்` | `னா` | enlarged source pixels; family explicitly checked before Unicode encoding | **final-verified** |
 | 11 | 11 | old-form cluster in `கண்ணாடிச்` | `கண்ணாடிச்` | `ணா` | enlarged source pixels; positive family occurrence | **final-verified** |
+| 15 | 15 | historical `றா` cluster | `வாறேன்` | `றா` | enlarged source pixels; occurrence-specific final review | **final-verified** |
+| 16 | 16 | historical `னை` clusters | `காடனை` / `வேடனை` | `னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
+| 18 | 18 | historical `னை` cluster | `தன்னை` | `னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
 | 21 | 21 | modern-lookalike `நீதானு...?` | `நீதானா...?` | `னா` | enlarged source pixels + binding guide's same-family precedent (`மட்டுந்தானு?` → `மட்டுந்தானா?`) | draft-supported |
 | 26 | 26 | old-form `லை` cluster in `அலைந்தான்` | `அலைந்தான்` | `லை` | enlarged source pixels + same-edition family comparison | draft-supported |
 | 27 | 27 | historical `ணை` cluster | `சாணைக்கல்லிலே` / `சாணைக்கல்லை` | `ணை` | enlarged source pixels; both same-page occurrences checked | draft-supported |
@@ -261,3 +264,12 @@ Next final audit range: **PDF 10–14**.
 - full decision log: `verification-audit-pdf-010-014.md`.
 
 Next final audit range: **PDF 15–19**.
+
+## PDF 15–19 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- no new uncertainty; PDF 5 and PDF 10 remain the only source-damage holds;
+- details: `verification-audit-pdf-015-019.md`.
+
+Next final audit range: **PDF 20–24**.

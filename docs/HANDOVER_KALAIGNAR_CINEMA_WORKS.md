@@ -133,7 +133,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Manthiri Kumari** — 12/12 canonical pages; one story-summary derivative + 15 performance records; English 13 story-summary units + 15 performances / 52 sections / 234 paired line-cues; bilingual reader and Reading Room payload QA PASS; item-level lyricist state remains 0 verified / 15 unresolved.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
-- **Naam / நாம்** — active work; intake/map complete; canonical Tamil first pass **COMPLETE — PDF 5–71 / 67 of 67**; glyph first-pass **67/67**; verified **8/67**; 2 carried source uncertainties; visual-fidelity/final-glyph verification next. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+- **Naam / நாம்** — active work; first pass **67/67 COMPLETE**; dual-gate **13/67**; visual **13/67**; glyph-final **15/67**; physical holds PDF 5 / PDF 10; downstream blocked.
 
 Ammayappan remains closed at its complete-verified checkpoint. The current active production work is **Naam / நாம்**, beginning canonical Tamil only after its completed source-intake and structural-mapping gate.
 
@@ -144,18 +144,14 @@ Ammayappan remains closed at its complete-verified checkpoint. The current activ
 Work: `works/naam/`  
 Source: `TVA_BOK_0064201_நாம்.pdf`
 
-- intake / whole-scan map: **complete / verified**;
-- canonical Tamil first pass: **COMPLETE — PDF 5–71 / 67 of 67 pages**;
-- canonical verified pages: **0/67**;
-- visual-fidelity audit: **in progress — 8/67 passed**;
-- historical-glyph first-pass checked / final verified: **67/67 / 10/67**;
-- open source uncertainties: **2**, both inherited from PDF 5/9;
-- final batch: `works/naam/transcription/parts/pdf-070-071.md`;
-- final source notes: `works/naam/notes/textual-notes-pdf-070-071.md`;
-- PDF 70–71 completes scene 45 and the screenplay; no new uncertainty or distinct performance structure was added;
-- structured derivatives / English / reader remain blocked pending verified Tamil.
+- intake / map / first pass: **complete / verified / 67/67 COMPLETE**;
+- dual-gate verified / visual-fidelity: **13/67 / 13/67**;
+- historical-glyph first-pass / final: **67/67 / 15/67**;
+- open source holds: **2** — PDF 5 and PDF 10;
+- current audit: `works/naam/notes/verification-audit-pdf-015-019.md`;
+- structured derivatives / English / reader remain blocked.
 
-**Exact next activity:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 15–19. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 or PDF 11–14 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
+**Exact next activity:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 20–24. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9 or PDF 11–19 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain explicit physical-source-damage holds. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
 
 ## 9. Ammayappan closed checkpoint
 
