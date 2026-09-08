@@ -58,10 +58,10 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 45–49 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 50–54 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 55–59 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
-| PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 60–64 | 5 | 5 | 5 | 0 | final-audit: 5 verified |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **52** | **15** | **final-verification-in-progress** |
+| **Total** | **67** | **67** | **57** | **10** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
@@ -107,11 +107,13 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 59 | 59 | historical `றா` cluster | `தவறாமல்` | `றா` | enlarged source pixels | **final-verified** |
 | 59 | 59 | historical `னை` cluster | `முனையிலே` | `னை` | enlarged source pixels | **final-verified** |
 | 59 | 59 | historical `ணா` cluster | `அண்ணா` | `ணா` | enlarged source pixels + same-edition comparison | **final-verified** |
-| 60 | 60 | historical `ணா` cluster | `அண்ணா` | `ணா` | enlarged source pixels | draft-supported |
-| 61 | 61 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
-| 62 | 62 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
-| 62 | 62 | historical `னை` cluster | `ஜமீனை` | `னை` | enlarged source pixels | draft-supported |
-| 64 | 64 | historical `னா` cluster | `வாடினான்` | `னா` | enlarged source pixels | draft-supported |
+| 60 | 60 | historical `ணா` cluster | `அண்ணா` | `ணா` | enlarged source pixels | **final-verified** |
+| 61 | 61 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | **final-verified** |
+| 62 | 62 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | **final-verified** |
+| 62 | 62 | historical `னை` cluster | `ஜமீனை` | `னை` | enlarged source pixels | **final-verified** |
+| 64 | 64 | historical `னா` cluster | `வாடினான்` | `னா` | enlarged source pixels | **final-verified** |
+| 64 | 64 | historical `ளை` cluster misread lexically in first pass | `விளைவிக்காதீர்கள்` | `ளை` | enlarged source pixels + cross-page sentence context; source glyph positively resolved | **final-verified** |
+| 64 | 64 | historical `னா / னை` clusters in closing parenthetical | `குமரனால்` / `குமரனை` | `னா / னை` | enlarged source pixels; occurrence-specific final review | **final-verified** |
 
 | 65 | 65 | historical `னா` clusters | `மனிதனாகுகிறதும்` / `மனிதனாகுவதும்` | `னா` | enlarged source pixels | draft-supported |
 | 65 | 65 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
@@ -361,3 +363,14 @@ Next final audit range: **PDF 55–59**.
 - details: `verification-audit-pdf-055-059.md`.
 
 Next final audit range: **PDF 60–64**.
+
+## PDF 60–64 final dual-gate audit
+
+- visual-fidelity / historical-glyph final: **5/5 PASS / 5/5 PASS**;
+- dual-gate canonical: **5/5 VERIFIED**;
+- direct scan corrections include PDF 60 `புழுவாகத்`, `புலியாக தருகின்ற`, `பணத்தோட்டம்`; PDF 61 `கெடுத்துட்டான்`; PDF 62 `கண்ணீர்த்துளி`; PDF 63 `இதை யெல்லாம்`, `ஆச்சரியக்குறி தான்`, `கேள்விக் குறியாக`, `கேள்விக் குறிக்கும்`, `அறிவாளுக்கும்`; and PDF 64 `விளைவிக்காதீர்கள்`, `அதே குமரனை`;
+- final glyph cases include PDF 60 `அண்ணா` (`ணா`), PDF 61–62 `அண்ணுமலை` (`லை`), PDF 62 `ஜமீனை` (`னை`), and PDF 64 `விளைவிக்காதீர்கள்` (`ளை`), `வாடினான்` / `குமரனால்` (`னா`), `குமரனை` (`னை`);
+- no new uncertainty; PDF 5, PDF 10 and PDF 24 remain the only source-obscuration holds;
+- details: `verification-audit-pdf-060-064.md`.
+
+Next final audit range: **PDF 65–69**.

@@ -71,9 +71,9 @@ canonical_tamil:
   first_pass_pdf_range_completed: "5-71"
   first_pass_current_through_pdf: 71
   first_pass_current_through_printed_page: 71
-  draft_pages: 15
-  verified_pages: 52
-  review_pages: 15
+  draft_pages: 10
+  verified_pages: 57
+  review_pages: 10
   open_uncertainty_markers: 3
   completed_batch_paths:
     - "transcription/parts/pdf-005-009.md"
@@ -94,10 +94,10 @@ canonical_tamil:
   current_textual_notes_path: "notes/textual-notes-pdf-070-071.md"
 
 verification_progress:
-  current_audit_path: "notes/verification-audit-pdf-055-059.md"
-  visual_fidelity_passed_pages: 52
-  historical_glyph_final_verified_pages: 55
-  dual_gate_verified_pages: 52
+  current_audit_path: "notes/verification-audit-pdf-060-064.md"
+  visual_fidelity_passed_pages: 57
+  historical_glyph_final_verified_pages: 60
+  dual_gate_verified_pages: 57
   held_pages:
     - pdf_page: 5
       reason: "physically damaged left beginning of introductory line"
@@ -108,7 +108,7 @@ verification_progress:
   resolved_uncertainties:
     - pdf_page: 9
       reading: "குறுக்கொடிய"
-  next_pdf_range: "60-64"
+  next_pdf_range: "65-69"
 
 historical_glyph:
   guide_path: "../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md"
@@ -116,7 +116,7 @@ historical_glyph:
   status: final-verification-in-progress
   main_text_pages_expected: 67
   pages_checked: 67
-  pages_verified: 55
+  pages_verified: 60
   known_families:
     - "ணா"
     - "ணை"
@@ -247,6 +247,23 @@ historical_glyph:
       source_supported_unicode: "அண்ணா"
       family: "ணா"
 
+  batch_060_064_consequential_decodings:
+    - pdf_page: 60
+      source_supported_unicode: "அண்ணா"
+      family: "ணா"
+    - pdf_page: 61
+      source_supported_unicode: "அண்ணுமலை"
+      family: "லை"
+    - pdf_page: 62
+      source_supported_unicode: "அண்ணுமலை / ஜமீனை"
+      family: "லை / னை"
+    - pdf_page: 64
+      source_supported_unicode: "விளைவிக்காதீர்கள்"
+      family: "ளை"
+    - pdf_page: 64
+      source_supported_unicode: "வாடினான் / குமரனால் / குமரனை"
+      family: "னா / னை"
+
   batch_065_069_consequential_decodings:
     - pdf_page: 65
       source_supported_unicode: "மனிதனாகுகிறதும் / மனிதனாகுவதும்"
@@ -332,8 +349,8 @@ status:
   whole_scan_inspection: complete
   structural_mapping: verified
   canonical_tamil_transcription: first-pass-complete-through-pdf-071
-  visual_fidelity_audit: in-progress-through-pdf-059-52-of-67-pass
-  historical_glyph_audit: final-verification-in-progress-55-of-67
+  visual_fidelity_audit: in-progress-through-pdf-064-57-of-67-pass
+  historical_glyph_audit: final-verification-in-progress-60-of-67
   scene_derivatives: blocked-pending-verified-tamil
   dialogue_index: blocked-pending-verified-tamil
   character_entity_index: blocked-pending-dialogue-layer
@@ -348,4 +365,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 60–64. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–59 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 60 continues the numbered booklet performance witness begun on PDF 59 and PDF 64 contains the already mapped பின்னணிப் பாடல் witness; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+next_action: "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 65–69. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–64 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 65–69 covers the late scene sequence through the opening portion of காட்சி-45; PDF 69 ends mid-Kumaran utterance that continues on PDF 70. Preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
