@@ -15,11 +15,11 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
 - canonical Tamil first pass: **COMPLETE — PDF 5–71 / 67 of 67 pages; verification pending**;
-- canonical Tamil verified: **0/67**;
-- visual fidelity audit: **not-started**;
+- canonical Tamil verified: **4/67**;
+- visual fidelity audit: **in progress — 4/67 passed**;
 - historical-glyph first-pass checked: **67/67**;
-- historical-glyph final verified: **0/67**;
-- open source uncertainty markers: **2**;
+- historical-glyph final verified: **5/67**;
+- open source uncertainty markers: **1**;
 - downstream structured/English/reader layers: **blocked/not-started**.
 
 Current canonical files:
@@ -55,6 +55,7 @@ Current canonical files:
 - `notes/textual-notes-pdf-065-069.md`;
 - `notes/textual-notes-pdf-070-071.md`;
 - `notes/historical-glyph-audit.md`.
+- `notes/verification-audit-pdf-005-009.md`.
 
 ## Source identity
 

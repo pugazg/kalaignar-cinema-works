@@ -7,10 +7,10 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - source intake: **complete**;
 - structural mapping: **verified**;
 - canonical Tamil transcription: **first pass complete — PDF 5–71 / 67 of 67 pages; verification pending**;
-- canonical Tamil verified pages: **0**;
-- visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **first pass complete — 67/67 checked / 0 final-verified**;
-- open source uncertainty markers: **2**;
+- canonical Tamil verified pages: **4/67**;
+- visual fidelity audit: **in progress — 4/67 pages passed**;
+- historical-Tamil-glyph audit: **first pass complete — 67/67 checked / 5/67 final-verified**;
+- open source uncertainty markers: **1**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
 
@@ -93,6 +93,17 @@ Safeguards:
 - PDF 10–71 adds **0** new uncertainty markers;
 - **0** of the sixty-seven canonical pages are called verified yet.
 
+## Verification audit — PDF 5–9
+
+- PDF 6–9: **dual-gate VERIFIED**;
+- PDF 5: **HOLD** for one physically damaged introductory-line beginning;
+- visual-fidelity passed: **4/67**; historical-glyph final verified: **5/67**; canonical dual-gate verified: **4/67**;
+- PDF 9 uncertainty resolved as `குறுக்கொடிய`; cumulative open uncertainties are now **1**;
+- scan-backed lexical corrections include PDF 5 `ஒண்ணுமில்லையப்பா` / `பூசை`, PDF 8 `உல்லாசத்திலே`, and PDF 9 `வந்திருக்காங்க`, `ஆரஞ்சுப்பழம்`, `பாட்டாளி`, `காதல்`;
+- detailed log: `notes/verification-audit-pdf-005-009.md`.
+
+**Next verification range:** PDF 10–14.
+
 ## Song / verse / performance structures mapped or confirmed so far
 
 High-confidence source-visible structures now include:
@@ -134,4 +145,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.**
+**Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 10–14. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 absent genuinely new direct-source evidence; PDF 5 remains an explicit source-damage hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**

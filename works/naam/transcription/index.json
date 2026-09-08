@@ -1,7 +1,7 @@
 {
   "work_id": "naam",
   "source": "TVA_BOK_0064201_நாம்.pdf",
-  "status": "first-pass-complete-verification-pending",
+  "status": "verification-in-progress",
   "canonical_pdf_range": [
     5,
     71
@@ -13,13 +13,13 @@
     5,
     71
   ],
-  "draft_pages": 67,
-  "verified_pages": 0,
-  "visual_fidelity_passed_pages": 0,
+  "draft_pages": 63,
+  "verified_pages": 4,
+  "visual_fidelity_passed_pages": 4,
   "historical_glyph_checked_pages": 67,
-  "historical_glyph_verified_pages": 0,
-  "review_pages": 67,
-  "open_uncertainty_markers": 2,
+  "historical_glyph_verified_pages": 5,
+  "review_pages": 63,
+  "open_uncertainty_markers": 1,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
   "pdf_5_printed_page_number_visible": false,
@@ -34,9 +34,9 @@
         null,
         9
       ],
-      "status": "draft-needs-review",
-      "historical_glyph_status": "checked-first-pass",
-      "open_uncertainties": 2
+      "status": "mixed-pdf5-needs-review-pdf6-9-verified",
+      "historical_glyph_status": "verified-final",
+      "open_uncertainties": 1
     },
     {
       "path": "parts/pdf-010-014.md",
@@ -224,5 +224,5 @@
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil."
+  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 10–14. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 absent genuinely new direct-source evidence; PDF 5 remains an explicit source-damage hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
 }

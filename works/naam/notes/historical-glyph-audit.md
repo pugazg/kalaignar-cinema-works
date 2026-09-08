@@ -1,6 +1,6 @@
 # நாம் — Historical Tamil Glyph Audit
 
-Status: **first-pass-complete / final-verification-pending**  
+Status: **final-verification-in-progress**  
 Canonical source range: **PDF 5–71 — 67 pages**  
 Binding guide: `../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`
 
@@ -47,7 +47,7 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 
 | Range | Pages expected | Glyph first-pass checked | Dual-gate verified | Needs review | Status |
 |---|---:|---:|---:|---:|---|
-| PDF 5–9 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 5–9 | 5 | 5 | 4 | 1 | final-audit: 4 verified / PDF5 hold |
 | PDF 10–14 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 15–19 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 20–24 | 5 | 5 | 0 | 5 | partial-first-pass |
@@ -61,14 +61,14 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 65–69 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 70–71 | 2 | 2 | 0 | 2 | first-pass-complete |
-| **Total** | **67** | **67** | **0** | **67** | **first-pass-complete / final-verification-pending** |
+| **Total** | **67** | **67** | **4** | **63** | **final-verification-in-progress** |
 
 ## First-pass findings / correction log
 
 | PDF | Printed page | Earlier/apparent reading | Source-supported Unicode reading | Historical family | Evidence | Status |
 |---:|:---:|---|---|---|---|---|
-| 6 | 6 | apparent bare-`ள்` surface in `அவள்...` cluster | `அவளை` | `ளை` | enlarged source cluster + same-word syntax; old `ளை` identity | draft-supported |
-| 6 | 6 | old `னா` form in `சூரியனால்` | `சூரியனால்` | `னா` | enlarged source pixels; family explicitly checked before Unicode encoding | draft-supported |
+| 6 | 6 | apparent bare-`ள்` surface in `அவள்...` cluster | `அவளை` | `ளை` | enlarged source cluster + same-word syntax; old `ளை` identity | **final-verified** |
+| 6 | 6 | old `னா` form in `சூரியனால்` | `சூரியனால்` | `னா` | enlarged source pixels; family explicitly checked before Unicode encoding | **final-verified** |
 | 11 | 11 | old-form cluster in `கண்ணாடிச்` | `கண்ணாடிச்` | `ணா` | enlarged source pixels; positive family occurrence | draft-supported |
 | 21 | 21 | modern-lookalike `நீதானு...?` | `நீதானா...?` | `னா` | enlarged source pixels + binding guide's same-family precedent (`மட்டுந்தானு?` → `மட்டுந்தானா?`) | draft-supported |
 | 26 | 26 | old-form `லை` cluster in `அலைந்தான்` | `அலைந்தான்` | `லை` | enlarged source pixels + same-edition family comparison | draft-supported |
@@ -241,3 +241,13 @@ Continue canonical Tamil first-pass transcription with PDF 55–59, preserving s
 ## First-pass closure
 
 All **67/67 canonical pages (PDF 5–71)** have completed occurrence-specific historical-glyph first-pass inspection. This is not final glyph verification: all pages remain review-pending until paired visual-fidelity comparison closes the dual gate. The two source uncertainties remain explicit at PDF 5 and PDF 9.
+
+## PDF 5–9 final dual-gate audit
+
+- historical-glyph final PASS: **PDF 5–9 / 5 of 5**;
+- visual-fidelity PASS: **PDF 6–9 / 4 pages**;
+- PDF 5 remains held only for a physically missing lexical beginning, not for unresolved historical-glyph identity;
+- PDF 9 historical/lexical reinspection resolves `குறுக்கொடிய` and confirms source `காதல்`;
+- full decision log: `verification-audit-pdf-005-009.md`.
+
+Next final audit range: **PDF 10–14**.

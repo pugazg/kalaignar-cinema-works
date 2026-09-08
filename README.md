@@ -28,12 +28,12 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - canonical Tamil first pass: **PDF 5–71 / 67 of 67 pages — COMPLETE**;
 - verified pages: **0/67**; visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **67/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–71 adds none;
+- historical-glyph first-pass checked: **67/67**; final glyph-verified: **5/67**;
+- open source uncertainty markers: **1**, both carried from PDF 5/9; PDF 10–71 adds none;
 - final batch: `works/naam/transcription/parts/pdf-070-071.md`;
 - first-pass source layer is frozen pending verification; downstream derivatives and English remain blocked.
 
-**Next:** Begin the separate visual-fidelity and final historical-glyph verification audit with PDF 5–9. Compare every canonical token against enlarged source pixels, preserve source irregularity, and adjudicate the two carried source uncertainties only when direct scan evidence positively supports a reading. Mark a page verified only when both the visual-fidelity and occurrence-specific historical-glyph gates pass; keep any unresolved page/reason explicit. Structured derivatives and English translation remain blocked until verified Tamil.
+**Next:** Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 10–14. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen PDF 6–9 absent genuinely new direct-source evidence; PDF 5 remains an explicit source-damage hold. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.
 
 ## ராஜா ராணி status
 
