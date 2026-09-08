@@ -25,12 +25,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Synchronize source-obscuration hold audit when pending
+      - name: Synchronize user manual canonical closure when pending
         run: |
-          if [ ! -f works/naam/notes/source-obscuration-hold-resolution.md ]; then
-            python works/naam/scripts/sync_hold_resolution.py
+          STATUS=$(python -c "import json; print(json.load(open('works/naam/transcription/index.json'))['status'])")
+          if [ "$STATUS" != "complete-verified" ]; then
+            python works/naam/scripts/sync_user_manual_hold_closure.py
           else
-            echo "Source-obscuration hold audit already closed or superseded."
+            echo "Naam canonical Tamil already complete-verified or superseded."
           fi
 
       - name: Validate JSON
@@ -47,5 +48,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Record Naam source-obscuration hold audit [skip ci]'
+          git commit -m 'Close Naam canonical Tamil from manual source verdicts [skip ci]'
           git push
