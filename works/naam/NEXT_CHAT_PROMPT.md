@@ -2,12 +2,12 @@
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/naam/`. Live `main` is authoritative.
 
-Current durable checkpoint: first pass **67/67 COMPLETE**; visual-fidelity **47/67**; historical-glyph final **50/67**; dual-gate verified **47/67** (PDF 6–9, PDF 11–23, PDF 25–54); open source holds **3** — PDF 5, PDF 10, PDF 24. PDF 9 is resolved as `குறுக்கொடிய`. PDF 24 scene 11 remains directly readable only through visible `கெளரவம் தே… இருப்பது`; do not restore `தேடி` without new direct-source evidence. Scene-31 refrain cue on PDF 50 is verified as `(பேசும்)`, not stale first-pass `(பேதம்)`. Structured derivatives and English remain blocked.
+Current durable checkpoint: first pass **67/67 COMPLETE**; visual-fidelity **52/67**; historical-glyph final **55/67**; dual-gate verified **52/67** (PDF 6–9, PDF 11–23, PDF 25–59); open source holds **3** — PDF 5, PDF 10, PDF 24. PDF 9 is resolved as `குறுக்கொடிய`. PDF 24 scene 11 remains directly readable only through visible `கெளரவம் தே… இருப்பது`; do not restore `தேடி` without new direct-source evidence. Structured derivatives and English remain blocked.
 
 Controlling source: `TVA_BOK_0064201_நாம்.pdf`, 72 pages, SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
 
-Detailed current audit: `works/naam/notes/verification-audit-pdf-050-054.md`.
+Detailed current audit: `works/naam/notes/verification-audit-pdf-055-059.md`.
 
 ## Exact next activity
 
-> **Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 55–59. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–54 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 59 reaches the already mapped poetic/song-like booklet witness between scenes 36 and 37; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+> **Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 60–64. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–59 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 60 continues the numbered booklet performance witness begun on PDF 59 and PDF 64 contains the already mapped பின்னணிப் பாடல் witness; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**

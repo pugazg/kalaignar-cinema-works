@@ -15,10 +15,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
 - canonical Tamil first pass: **COMPLETE — PDF 5–71 / 67 of 67 pages; verification pending**;
-- canonical Tamil verified: **47/67**;
-- visual fidelity audit: **in progress — 47/67 passed**;
+- canonical Tamil verified: **52/67**;
+- visual fidelity audit: **in progress — 52/67 passed**;
 - historical-glyph first-pass checked: **67/67**;
-- historical-glyph final verified: **50/67**;
+- historical-glyph final verified: **55/67**;
 - open source uncertainty markers: **3**;
 - downstream structured/English/reader layers: **blocked/not-started**.
 
@@ -65,6 +65,7 @@ Current canonical files:
 - `notes/verification-audit-pdf-040-044.md`.
 - `notes/verification-audit-pdf-045-049.md`.
 - `notes/verification-audit-pdf-050-054.md`.
+- `notes/verification-audit-pdf-055-059.md`.
 
 ## Source identity
 
@@ -219,14 +220,14 @@ No unprinted title, missing lyric body or authorship may be reconstructed from o
 - PDF 70–71 introduces **0** new uncertainty markers and no new distinct performance structure;
 - canonical Tamil first pass and historical-glyph first-pass coverage are now **67/67**, but verified pages remain **0/67**.
 
-## Verification checkpoint through PDF 54
+## Verification checkpoint through PDF 59
 
-- PDF 6–9, PDF 11–23 and PDF 25–54: **VERIFIED — 47/67 total**;
+- PDF 6–9, PDF 11–23 and PDF 25–59: **VERIFIED — 52/67 total**;
 - PDF 5 / PDF 10 remain physical-source-damage holds; PDF 24 remains a later-ink/mark source-obscuration hold;
-- visual-fidelity: **47/67**; glyph-final: **50/67**; dual-gate: **47/67**;
+- visual-fidelity: **52/67**; glyph-final: **55/67**; dual-gate: **52/67**;
 - open source uncertainties: **3**;
-- PDF 50–54 is fully verified and adds no uncertainty; scene-31 refrain cue is verified as `(பேசும்)`.
+- PDF 55–59 is fully verified and adds no uncertainty.
 
 ## Exact next activity
 
-> **Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 55–59. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–54 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 59 reaches the already mapped poetic/song-like booklet witness between scenes 36 and 37; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**
+> **Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 60–64. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–59 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 60 continues the numbered booklet performance witness begun on PDF 59 and PDF 64 contains the already mapped பின்னணிப் பாடல் witness; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete.**

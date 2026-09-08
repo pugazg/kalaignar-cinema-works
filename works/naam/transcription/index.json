@@ -13,12 +13,12 @@
     5,
     71
   ],
-  "draft_pages": 20,
-  "verified_pages": 47,
-  "visual_fidelity_passed_pages": 47,
+  "draft_pages": 15,
+  "verified_pages": 52,
+  "visual_fidelity_passed_pages": 52,
   "historical_glyph_checked_pages": 67,
-  "historical_glyph_verified_pages": 50,
-  "review_pages": 20,
+  "historical_glyph_verified_pages": 55,
+  "review_pages": 15,
   "open_uncertainty_markers": 3,
   "current_through_pdf": 71,
   "current_through_printed_page": 71,
@@ -174,8 +174,8 @@
         55,
         59
       ],
-      "status": "draft-needs-review",
-      "historical_glyph_status": "checked-first-pass",
+      "status": "verified",
+      "historical_glyph_status": "verified-final",
       "open_uncertainties": 0
     },
     {
@@ -224,5 +224,5 @@
   "historical_glyph_guide": "../../../docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
   "historical_glyph_audit": "../notes/historical-glyph-audit.md",
   "next_batch_pdf_range": [],
-  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 55–59. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–54 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 59 reaches the already mapped poetic/song-like booklet witness between scenes 36 and 37; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
+  "next_action": "Proceed with the separate visual-fidelity and final historical-glyph verification audit for PDF 60–64. Preserve source irregularity and mark a page verified only after both gates pass. Do not reopen already verified PDF 6–9, PDF 11–23 or PDF 25–59 absent genuinely new direct-source evidence; PDF 5 and PDF 10 remain physical-source-damage holds and PDF 24 remains an ink/mark-overprint hold. PDF 60 continues the numbered booklet performance witness begun on PDF 59 and PDF 64 contains the already mapped பின்னணிப் பாடல் witness; preserve only the printed source. Structured derivatives and English translation remain blocked until the verified Tamil gate is complete."
 }
