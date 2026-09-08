@@ -26,19 +26,15 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 `TVA_BOK_0064201_நாம்.pdf` is the **active cinema source**. Intake and the 45-scene structural map are complete; canonical Tamil first-pass transcription is in progress.
 
-- source: **72 PDF pages**, image-only; SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
-- front matter / screenplay / back matter: **PDF 1–4 / 5–71 / 72**;
-- source-numbered scenes: **45 — காட்சி 1–45**, sequential;
-- canonical Tamil first pass: **PDF 5–54 / 50 of 67 pages**;
-- verified pages: **0**; separate visual-fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **50/67**; final glyph-verified: **0/67**;
-- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–54 adds none;
-- newest batch: `works/naam/transcription/parts/pdf-050-054.md`;
-- PDF 45 `கொன்றாய்`, PDF 48–49 `என்னை`, PDF 49 `மணாளன்`, and PDF 49 `கேளேனோ` were checked against historical `றா` / `னை` / `ணா` / `னோ`;
-- PDF 49 opens the mapped scene-31 lyrical witness; PDF 50 continues it, with no outside lyric or authorship inference;
-- downstream derivatives remain blocked pending verified Tamil.
+- canonical Tamil first pass: **PDF 5–64 / 60 of 67 pages**;
+- verified pages: **0**; visual-fidelity audit: **not-started**;
+- historical-glyph first-pass checked: **60/67**; final glyph-verified: **0/67**;
+- open source uncertainty markers: **2**, both carried from PDF 5/9; PDF 10–64 adds none;
+- newest batch: `works/naam/transcription/parts/pdf-060-064.md`;
+- PDF 59–60 and PDF 64 performance/lyric witnesses remain booklet-only; no outside reconstruction/authorship inference;
+- downstream derivatives and English remain blocked pending verified Tamil.
 
-**Next:** Continue canonical Tamil first-pass transcription with PDF 55–59, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 59 reaches the first of the already mapped poetic/song-like blocks between scenes 36 and 37; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Next:** Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.
 
 ## ராஜா ராணி status
 

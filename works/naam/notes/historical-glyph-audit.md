@@ -57,8 +57,10 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 40–44 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 45–49 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 50–54 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 55–71 | 17 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **50** | **0** | **50** | **partial-first-pass** |
+| PDF 55–59 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 60–64 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 65–71 | 7 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **60** | **0** | **60** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -92,6 +94,17 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 52 | 52 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
 | 53 | 53 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
 | 54 | 54 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | draft-supported |
+
+| 55 | 55 | historical `லை` cluster | `உயிலை` | `லை` | enlarged source pixels | draft-supported |
+| 57 | 57 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
+| 59 | 59 | historical `றா` cluster | `தவறாமல்` | `றா` | enlarged source pixels | draft-supported |
+| 59 | 59 | historical `னை` cluster | `முனையிலே` | `னை` | enlarged source pixels | draft-supported |
+| 59 | 59 | historical `ணா` cluster | `அண்ணா` | `ணா` | enlarged source pixels + same-edition comparison | draft-supported |
+| 60 | 60 | historical `ணா` cluster | `அண்ணா` | `ணா` | enlarged source pixels | draft-supported |
+| 61 | 61 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
+| 62 | 62 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
+| 62 | 62 | historical `னை` cluster | `ஜமீனை` | `னை` | enlarged source pixels | draft-supported |
+| 64 | 64 | historical `னா` cluster | `வாடினான்` | `னா` | enlarged source pixels | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 

@@ -14,10 +14,10 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - whole scan inspected: **72/72 PDF pages**;
 - structural mapping: **verified**;
 - source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
-- canonical Tamil: **partial first pass — PDF 5–54 / 50 of 67 pages**;
+- canonical Tamil: **partial first pass — PDF 5–64 / 60 of 67 pages**;
 - canonical Tamil verified: **0/67**;
 - visual fidelity audit: **not-started**;
-- historical-glyph first-pass checked: **50/67**;
+- historical-glyph first-pass checked: **60/67**;
 - historical-glyph final verified: **0/67**;
 - open source uncertainty markers: **2**;
 - downstream structured/English/reader layers: **blocked/not-started**.
@@ -36,6 +36,8 @@ Current canonical files:
 - `transcription/parts/pdf-040-044.md`;
 - `transcription/parts/pdf-045-049.md`;
 - `transcription/parts/pdf-050-054.md`;
+- `transcription/parts/pdf-055-059.md`;
+- `transcription/parts/pdf-060-064.md`;
 - `transcription/parts/pdf-050-054.md`;
 - `transcription/parts/pdf-050-054.md`;
 - `transcription/parts/pdf-050-054.md`;
@@ -50,6 +52,8 @@ Current canonical files:
 - `notes/textual-notes-pdf-040-044.md`;
 - `notes/textual-notes-pdf-045-049.md`;
 - `notes/textual-notes-pdf-050-054.md`;
+- `notes/textual-notes-pdf-055-059.md`;
+- `notes/textual-notes-pdf-060-064.md`;
 - `notes/textual-notes-pdf-050-054.md`;
 - `notes/textual-notes-pdf-050-054.md`;
 - `notes/textual-notes-pdf-050-054.md`;
@@ -198,4 +202,4 @@ No unprinted title, missing lyric body or authorship may be reconstructed from o
 
 ## Exact next activity
 
-> **Continue canonical Tamil first-pass transcription with PDF 55–59, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 59 reaches the first of the already mapped poetic/song-like blocks between scenes 36 and 37; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+> **Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.**

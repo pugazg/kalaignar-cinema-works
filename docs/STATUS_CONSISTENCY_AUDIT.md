@@ -1,6 +1,6 @@
 # Kalaignar Cinema Works — Status Consistency Audit
 
-Audit date: 2026-09-06  
+Audit date: 2026-09-08  
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`
 
@@ -25,30 +25,23 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | intake/map complete; first pass **PDF 5–54 / 50 of 67**, 0 verified | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
+| Naam / நாம் | intake/map complete; first pass **PDF 5–64 / 60 of 67**, 0 verified | 45 source-numbered scenes mapped; derivatives blocked | not-started | not-started |
 
 ## Naam current checkpoint
 
-- work: `works/naam/`;
-- source: `TVA_BOK_0064201_நாம்.pdf`, **72 pages / image-only**, SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`;
 - source intake / structural mapping: **complete / verified**;
-- canonical Tamil first pass: **PDF 5–54 / 50 of 67 pages**;
+- canonical Tamil first pass: **PDF 5–64 / 60 of 67 pages**;
 - verified pages / visual-fidelity passed: **0 / 0**;
-- historical-glyph first-pass checked / final verified: **50 / 0**;
+- historical-glyph first-pass checked / final verified: **60 / 0**;
 - open uncertainty markers: **2**, both carried from PDF 5/9;
-- current draft: `works/naam/transcription/parts/pdf-050-054.md`;
-- current source notes: `works/naam/notes/textual-notes-pdf-050-054.md`;
-- PDF 26 `அலைந்தான்` is a source-backed `லை` decoding;
-- PDF 27 `சாணைக்கல்லிலே` / `சாணைக்கல்லை` are checked `ணை` cases;
-- PDF 28 `காதலை நான்` is checked against historical `லை` / `னா` forms;
-- PDF 29 `அணா` is a positive `ணா` case;
-- source irregulars `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, and `காண்டிராக்ட்காரன்` remain source-controlled;
-- PDF 25–29 introduces no new explicit uncertainty and no new standalone song/lyric block;
-- PDF 40–44 introduces no new explicit uncertainty and no new standalone song/lyric block;
-- PDF 42 `மண்ணைவாரிப்` is checked historical `ணை`; PDF 40/41/43/44 `உன்னை` / `குமரனை` are checked historical `னை`;
+- current draft: `works/naam/transcription/parts/pdf-060-064.md`;
+- current source notes: `works/naam/notes/textual-notes-pdf-060-064.md`;
+- PDF 55–64 introduces no new explicit uncertainty;
+- PDF 59–60 and PDF 64 preserve booklet-only performance/lyric evidence;
 - downstream scene/dialogue/character/song/English layers remain blocked until verified Tamil.
 
-**Next production phase:** Continue canonical Tamil first-pass transcription with PDF 55–59, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 59 reaches the first of the already mapped poetic/song-like blocks between scenes 36 and 37; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+**Next production phase:** Continue canonical Tamil first-pass transcription with PDF 65–69, preserving source order, stable page anchors and page-level historical-glyph checks. Keep all first-pass pages draft/needs-review. Do not begin English translation until the Tamil canonical layer passes the separate visual-fidelity and final historical-glyph verification gates.
+
 ## Ammayappan current checkpoint
 
 ### Frozen source/Tamil authority
@@ -139,4 +132,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is the active production work with intake/map complete and canonical Tamil first pass at **PDF 5–54 / 50 of 67 pages**, **0 verified pages**, historical-glyph first-pass **50/67**, and **2 carried source uncertainties**. The next batch is PDF 55–59. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
+Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** is the active production work with intake/map complete and canonical Tamil first pass at **PDF 5–64 / 60 of 67 pages**, **0 verified pages**, historical-glyph first-pass **60/67**, and **2 carried source uncertainties**. The next batch is PDF 65–69. Source SHA-256 `0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad`.
