@@ -56,7 +56,8 @@ jobs:
           assert len(files)==45, len(files)
           qa=Path('works/naam/notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
           assert 'Result: **PASS**' in qa
-          assert '0 gaps / 0 overlaps' in qa
+          assert 'source text gaps / overlaps: **0 / 0**;' in qa
+          assert 'canonical Tamil modified by this derivative phase: **0**.' in qa
           PY
 
       - name: Commit synchronized mirrors
