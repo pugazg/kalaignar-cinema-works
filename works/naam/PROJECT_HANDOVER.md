@@ -36,6 +36,7 @@ Current canonical files:
 - `transcription/parts/pdf-040-044.md`;
 - `transcription/parts/pdf-045-049.md`;
 - `transcription/parts/pdf-050-054.md`;
+- `transcription/parts/pdf-050-054.md`;
 - `notes/textual-notes-pdf-005-009.md`;
 - `notes/textual-notes-pdf-010-014.md`;
 - `notes/textual-notes-pdf-015-019.md`;
@@ -45,6 +46,7 @@ Current canonical files:
 - `notes/textual-notes-pdf-035-039.md`;
 - `notes/textual-notes-pdf-040-044.md`;
 - `notes/textual-notes-pdf-045-049.md`;
+- `notes/textual-notes-pdf-050-054.md`;
 - `notes/textual-notes-pdf-050-054.md`;
 - `notes/historical-glyph-audit.md`.
 
