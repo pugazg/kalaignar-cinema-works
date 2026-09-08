@@ -56,8 +56,9 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | PDF 35–39 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 40–44 | 5 | 5 | 0 | 5 | partial-first-pass |
 | PDF 45–49 | 5 | 5 | 0 | 5 | partial-first-pass |
-| PDF 50–71 | 22 | 0 | 0 | 0 | not-started |
-| **Total** | **67** | **45** | **0** | **45** | **partial-first-pass** |
+| PDF 50–54 | 5 | 5 | 0 | 5 | partial-first-pass |
+| PDF 55–71 | 17 | 0 | 0 | 0 | not-started |
+| **Total** | **67** | **50** | **0** | **50** | **partial-first-pass** |
 
 ## First-pass findings / correction log
 
@@ -86,6 +87,11 @@ Until both gates are complete, no structured scene/dialogue/character/song deriv
 | 48 | 48 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
 | 49 | 49 | historical `ணா` cluster | `மணாளன்` | `ணா` | enlarged source pixels | draft-supported |
 | 49 | 49 | historical `னோ` cluster | `கேளேனோ` | `னோ` | enlarged source pixels + same-edition PDF 39 comparison | draft-supported |
+| 51 | 51 | historical `னை` cluster | `என்னை` | `னை` | enlarged source pixels | draft-supported |
+| 52 | 52 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | draft-supported |
+| 52 | 52 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
+| 53 | 53 | historical `லை` name ending | `அண்ணுமலை` | `லை` | enlarged source pixels | draft-supported |
+| 54 | 54 | historical `லை` place-name | `மலையங்களா` | `லை` | enlarged source pixels | draft-supported |
 
 These findings decode character identity only. They do not authorize spelling modernization elsewhere.
 
@@ -201,5 +207,5 @@ Neither open issue is being guessed from context.
 
 ## Next activity
 
-Continue canonical Tamil first-pass transcription with PDF 50–54, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 50 continues the mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
+Continue canonical Tamil first-pass transcription with PDF 55–59, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 59 reaches the first of the already mapped poetic/song-like blocks between scenes 36 and 37; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.
 

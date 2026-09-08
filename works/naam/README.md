@@ -6,17 +6,17 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 
 - source intake: **complete**;
 - structural mapping: **verified**;
-- canonical Tamil transcription: **partial first pass — PDF 5–49 / 45 of 67 pages**;
+- canonical Tamil transcription: **partial first pass — PDF 5–54 / 50 of 67 pages**;
 - canonical Tamil verified pages: **0**;
 - visual fidelity audit: **not-started**;
-- historical-Tamil-glyph audit: **partial first pass — 45 pages checked / 0 final-verified**;
+- historical-Tamil-glyph audit: **partial first pass — 50 pages checked / 0 final-verified**;
 - open source uncertainty markers: **2**;
 - scene/dialogue/character/song derivatives: **blocked until verified canonical Tamil**;
 - English translation / reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
-Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`  
-Current textual notes: `notes/textual-notes-pdf-045-049.md`
+Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`  
+Current textual notes: `notes/textual-notes-pdf-050-054.md`
 
 ## Controlling source
 
@@ -57,7 +57,7 @@ Handwritten pencil numbers and marks near upper-right margins are later annotati
 
 ## Canonical Tamil first-pass checkpoint
 
-PDF **5–49** has now been transcribed as source-order draft material in nine five-page batches. The newest batch continues `காட்சி-24.`, contains `காட்சி 25–27`, and ends within `காட்சி 27`.
+PDF **5–54** has now been transcribed as source-order draft material in ten five-page batches. The newest batch continues `காட்சி-24.`, contains `காட்சி 25–27`, and ends within `காட்சி 27`.
 
 Safeguards:
 
@@ -77,13 +77,15 @@ Safeguards:
 - PDF 35 `நானம்மா` is checked historical `னா`; PDF 37 `உன்னை` is checked historical `னை`; PDF 39 `எமனோடு` is checked historical `னோ`;
 - PDF 40/41/43/44 `உன்னை` / `குமரனை` are checked historical `னை`; PDF 42 `மண்ணைவாரிப்` is checked historical `ணை`;
 - PDF 45 `கொன்றாய்` is checked historical `றா`; PDF 48–49 `என்னை` is checked historical `னை`; PDF 49 `மணாளன்` is checked historical `ணா`; PDF 49 `கேளேனோ` is checked historical `னோ`;
+- PDF 51 `என்னை` is checked historical `னை`; PDF 52/54 `மலையங்களா` and PDF 52–53 `அண்ணுமலை` are checked historical `லை`;
+- PDF 50 completes the mapped scene-31 lyrical witness from the booklet only; PDF 52 opens `காட்சி-32`, and PDF 54 opens `காட்சி 33`;
 - PDF 49 / `காட்சி-31` opens the mapped lyrical witness beginning `பேசும் யாழே பெண் மானே`; only the booklet text is preserved and PDF 50 continues the same source block;
 - PDF 40–44 retains source-period/colloquial forms including `கோவேரிக் கழுதைக்கு`, `ஆவேஷ மூச்சால்`, `விட்டானுக்கும்?`, `மண்டேகங்கள்`, `நாய்க்குட்டி`, and `மாத்திரை முன்னேற்ற ஆஸ்பத்திரியை`;
 - PDF 35–36 / `காட்சி 21` preserves the booklet's complete lineated lyrical witness beginning `மணமில்லா மலர் நானம்மா!`; authorship remains not adjudicated;
 - source-irregular forms such as PDF 20 `போறு ஞானம்!`, PDF 21 `மாடெல்லே`, PDF 22 `பாலிலா`, PDF 23 `தூர பந்து` / `மட்டாக`, PDF 24 `கெளரவம்`, and PDF 25–29 `மண்ணுங்கட்டியாவது`, `ஏணிப்படியாக்கிக்`, `லஷ்மி`, `ஜமீன்தாரணி யாக்க`, `காண்டிராக்ட்காரன்` remain unmodernized;
 - two source uncertainties remain explicit rather than guessed: a damaged introductory line on PDF 5 and one unclear montage word on PDF 9;
-- PDF 10–49 adds **0** new uncertainty markers;
-- **0** of the forty-five first-pass pages are called verified yet.
+- PDF 10–54 adds **0** new uncertainty markers;
+- **0** of the fifty first-pass pages are called verified yet.
 
 ## Song / verse / performance structures mapped or confirmed so far
 
@@ -96,7 +98,7 @@ High-confidence source-visible structures now include:
 5. PDF 59–60 — two poetic/song-like blocks between காட்சி 36 and காட்சி 37;
 6. PDF 64 / காட்சி 39 — explicit **`பின்னணிப் பாடல்`** block.
 
-PDF 15 also contains the quoted fragment `ஓரிடந்தனிலே...`; it remains dialogue-owned and is not promoted to a reconstructed standalone song. PDF 20–34 introduces no newly distinct standalone lyric/song block; PDF 35–36 contains the already mapped scene-21 lyrical block; PDF 40–44 adds no new standalone lyric/song block; PDF 49 opens the mapped scene-31 lyrical block.
+PDF 15 also contains the quoted fragment `ஓரிடந்தனிலே...`; it remains dialogue-owned and is not promoted to a reconstructed standalone song. PDF 20–34 introduces no newly distinct standalone lyric/song block; PDF 35–36 contains the already mapped scene-21 lyrical block; PDF 40–44 adds no new standalone lyric/song block; PDF 49 opens the mapped scene-31 lyrical block; PDF 50 completes it without outside reconstruction.
 
 These structures remain source candidates until verified canonical transcription and the later song/performance gate. No missing lyrics or authorship will be reconstructed from outside sources.
 
@@ -126,4 +128,4 @@ The user describes the film as making the rationalist movement its central prota
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 50–54, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 50 continues the mapped scene-31 lyrical block; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
+**Continue canonical Tamil first-pass transcription with PDF 55–59, preserving source order, stable page anchors and page-level historical-glyph checks. PDF 59 reaches the first of the already mapped poetic/song-like blocks between scenes 36 and 37; preserve only the booklet witness and do not infer missing lyrics or authorship. Keep all first-pass pages draft/needs-review until the later separate visual-fidelity and final historical-glyph gates pass.**
