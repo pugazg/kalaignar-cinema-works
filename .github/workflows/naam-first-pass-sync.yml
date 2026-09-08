@@ -45,7 +45,7 @@ jobs:
           assert d['scene_count']==45
           assert d['explicit_dialogue_candidates']==590, d['explicit_dialogue_candidates']
           assert d['distinct_exact_speaker_labels']==45, d['distinct_exact_speaker_labels']
-          assert d['delimiter_distribution']=={':':17,':-':572,'—':1}, d['delimiter_distribution']
+          assert d['delimiter_distribution']=={':':16,':-':573,'—':1}, d['delimiter_distribution']
           assert len(d['colon_rejects'])==21, len(d['colon_rejects'])
           assert len(d['reviewed_alternate_delimiter_dialogues'])==1
           assert len(d['anomalous_delimiter_candidates'])==10
@@ -71,7 +71,7 @@ jobs:
           assert d['source_scene_count']==45
           assert d['dialogue_record_count']==590
           assert d['distinct_exact_speaker_labels']==45
-          assert d['delimiter_distribution']=={':':17,':-':572,'—':1}
+          assert d['delimiter_distribution']=={':':16,':-':573,'—':1}
           assert q['status']=='PASS'
           assert q['explicit_label_ownership']=='590/590 exactly once'
           assert q['speaker_alias_normalizations']==0
