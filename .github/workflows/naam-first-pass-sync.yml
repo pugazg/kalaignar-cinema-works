@@ -26,7 +26,7 @@ jobs:
           python-version: '3.12'
 
       - name: Close PDF 70-71 first-pass checkpoint
-        run: python works/naam/scripts/sync_first_pass_070_071.py
+        run: python works/naam/scripts/sync_first_pass_070_071_v2.py
 
       - name: Validate JSON
         run: |
