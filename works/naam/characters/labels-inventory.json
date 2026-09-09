@@ -1,0 +1,664 @@
+[
+  {
+    "speaker_label": "அண்ணுமலை",
+    "record_count": 11,
+    "scenes": [
+      32,
+      34,
+      38,
+      40
+    ],
+    "entity_id": "naam-char-annumalai",
+    "entity_key": "annumalai",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "உன்மீனு",
+    "record_count": 1,
+    "scenes": [
+      41
+    ],
+    "entity_id": "naam-char-meenu",
+    "entity_key": "meenu",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஒரு",
+    "record_count": 3,
+    "scenes": [
+      32
+    ],
+    "entity_id": "naam-char-oru-role",
+    "entity_key": "oru-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஒருவன்",
+    "record_count": 5,
+    "scenes": [
+      7,
+      17,
+      32,
+      34
+    ],
+    "entity_id": "naam-char-oruvan-role",
+    "entity_key": "oruvan-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "கந்தசாமி",
+    "record_count": 10,
+    "scenes": [
+      14,
+      16
+    ],
+    "entity_id": "naam-char-kandasami",
+    "entity_key": "kandasami",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "கும",
+    "record_count": 102,
+    "scenes": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      17,
+      18,
+      19,
+      21,
+      23,
+      24,
+      29
+    ],
+    "entity_id": "naam-char-kumaran",
+    "entity_key": "kumaran",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "குமரன்",
+    "record_count": 62,
+    "scenes": [
+      1,
+      8,
+      10,
+      13,
+      14,
+      16,
+      17,
+      24,
+      27,
+      30,
+      31,
+      34,
+      35,
+      36,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "entity_id": "naam-char-kumaran",
+    "entity_key": "kumaran",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "சஞ்",
+    "record_count": 49,
+    "scenes": [
+      2,
+      3,
+      4,
+      5,
+      12,
+      22,
+      25,
+      27,
+      29,
+      31,
+      33
+    ],
+    "entity_id": "naam-char-sanjeevi",
+    "entity_key": "sanjeevi",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "சஞ்சீவி",
+    "record_count": 35,
+    "scenes": [
+      2,
+      12,
+      13,
+      25,
+      27,
+      29,
+      30,
+      31,
+      40,
+      43
+    ],
+    "entity_id": "naam-char-sanjeevi",
+    "entity_key": "sanjeevi",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "சப் இன்ஸ்.",
+    "record_count": 2,
+    "scenes": [
+      39
+    ],
+    "entity_id": "naam-char-sub-inspector-role",
+    "entity_key": "sub-inspector-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஜீவா",
+    "record_count": 5,
+    "scenes": [
+      1,
+      17
+    ],
+    "entity_id": "naam-char-jeevanandar",
+    "entity_key": "jeevanandar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஜீவானந்த",
+    "record_count": 5,
+    "scenes": [
+      13
+    ],
+    "entity_id": "naam-char-jeevanandar",
+    "entity_key": "jeevanandar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஜீவானந்தர்",
+    "record_count": 6,
+    "scenes": [
+      1,
+      17,
+      34,
+      36,
+      41
+    ],
+    "entity_id": "naam-char-jeevanandar",
+    "entity_key": "jeevanandar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஞா",
+    "record_count": 11,
+    "scenes": [
+      3,
+      9,
+      10,
+      11
+    ],
+    "entity_id": "naam-char-gnanam",
+    "entity_key": "gnanam",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ஞானம்",
+    "record_count": 6,
+    "scenes": [
+      3,
+      15,
+      20,
+      31
+    ],
+    "entity_id": "naam-char-gnanam",
+    "entity_key": "gnanam",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "தங்",
+    "record_count": 2,
+    "scenes": [
+      4
+    ],
+    "entity_id": "naam-char-thangaiyan",
+    "entity_key": "thangaiyan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "தங்கையன்",
+    "record_count": 1,
+    "scenes": [
+      4
+    ],
+    "entity_id": "naam-char-thangaiyan",
+    "entity_key": "thangaiyan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "திருடன்",
+    "record_count": 3,
+    "scenes": [
+      33
+    ],
+    "entity_id": "naam-char-thief-role",
+    "entity_key": "thief-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "நாரா",
+    "record_count": 23,
+    "scenes": [
+      1,
+      2,
+      3,
+      9,
+      10
+    ],
+    "entity_id": "naam-char-narayani",
+    "entity_key": "narayani",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "நாராயணி",
+    "record_count": 2,
+    "scenes": [
+      1,
+      2
+    ],
+    "entity_id": "naam-char-narayani",
+    "entity_key": "narayani",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "நீதிபதி",
+    "record_count": 1,
+    "scenes": [
+      41
+    ],
+    "entity_id": "naam-char-judge-role",
+    "entity_key": "judge-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பரமசிவம்",
+    "record_count": 3,
+    "scenes": [
+      17
+    ],
+    "entity_id": "naam-char-paramasivam",
+    "entity_key": "paramasivam",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பிரே",
+    "record_count": 22,
+    "scenes": [
+      4,
+      6,
+      22,
+      23,
+      27
+    ],
+    "entity_id": "naam-char-prema",
+    "entity_key": "prema",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பிரேமா",
+    "record_count": 22,
+    "scenes": [
+      4,
+      13,
+      23,
+      25,
+      27,
+      29,
+      30
+    ],
+    "entity_id": "naam-char-prema",
+    "entity_key": "prema",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பீமசேனன்",
+    "record_count": 13,
+    "scenes": [
+      14
+    ],
+    "entity_id": "naam-char-bheemasenan",
+    "entity_key": "bheemasenan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "புரோகிதர்",
+    "record_count": 2,
+    "scenes": [
+      38
+    ],
+    "entity_id": "naam-char-purohithar-role",
+    "entity_key": "purohithar-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பூசாரி",
+    "record_count": 4,
+    "scenes": [
+      38,
+      40
+    ],
+    "entity_id": "naam-char-poosari-role",
+    "entity_key": "poosari-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பெண்",
+    "record_count": 1,
+    "scenes": [
+      29
+    ],
+    "entity_id": "naam-char-woman-role",
+    "entity_key": "woman-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பெரியவர்",
+    "record_count": 1,
+    "scenes": [
+      13
+    ],
+    "entity_id": "naam-char-elder-role",
+    "entity_key": "elder-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மக்கள்",
+    "record_count": 1,
+    "scenes": [
+      39
+    ],
+    "entity_id": "naam-char-makkal-collective",
+    "entity_key": "makkal-collective",
+    "entity_type": "collective",
+    "mapping_mode": "collective-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மற்றொரு",
+    "record_count": 2,
+    "scenes": [
+      13
+    ],
+    "entity_id": "naam-char-mattroru-role",
+    "entity_key": "mattroru-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மற்றொருவன்",
+    "record_count": 1,
+    "scenes": [
+      32
+    ],
+    "entity_id": "naam-char-mattroruvan-role",
+    "entity_key": "mattroruvan-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மற்றொருவர்",
+    "record_count": 1,
+    "scenes": [
+      13
+    ],
+    "entity_id": "naam-char-mattroruvar-role",
+    "entity_key": "mattroruvar-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மலைய",
+    "record_count": 1,
+    "scenes": [
+      31
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மலையப்பன்",
+    "record_count": 24,
+    "scenes": [
+      38,
+      39,
+      40,
+      43,
+      45
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மலையப்பர்",
+    "record_count": 1,
+    "scenes": [
+      26
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மல்",
+    "record_count": 44,
+    "scenes": [
+      3,
+      5,
+      8,
+      9,
+      20,
+      24,
+      31
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மல்ல",
+    "record_count": 6,
+    "scenes": [
+      3,
+      9,
+      20
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மல்லயப்ப",
+    "record_count": 9,
+    "scenes": [
+      9,
+      10,
+      11
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மல்லயப்பன்",
+    "record_count": 4,
+    "scenes": [
+      24,
+      31
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மல்லயப்பர்",
+    "record_count": 7,
+    "scenes": [
+      15,
+      17
+    ],
+    "entity_id": "naam-char-mallayappan",
+    "entity_key": "mallayappan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மாத்",
+    "record_count": 14,
+    "scenes": [
+      4,
+      6,
+      7,
+      18,
+      22,
+      32
+    ],
+    "entity_id": "naam-char-mathirai",
+    "entity_key": "mathirai",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மாத்திரை",
+    "record_count": 14,
+    "scenes": [
+      27,
+      32,
+      34,
+      35
+    ],
+    "entity_id": "naam-char-mathirai",
+    "entity_key": "mathirai",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மீனு",
+    "record_count": 47,
+    "scenes": [
+      3,
+      8,
+      10,
+      21,
+      28,
+      31,
+      33,
+      41,
+      42,
+      45
+    ],
+    "entity_id": "naam-char-meenu",
+    "entity_key": "meenu",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "வந்தவர்",
+    "record_count": 1,
+    "scenes": [
+      30
+    ],
+    "entity_id": "naam-char-vanthavar-role",
+    "entity_key": "vanthavar-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  }
+]

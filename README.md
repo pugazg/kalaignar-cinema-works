@@ -32,10 +32,12 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - final canonical audit: `works/naam/notes/canonical-closure-user-manual.md`;
 - scene derivatives: **45/45 COMPLETE-VERIFIED; boundary ownership QA PASS**;
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
 - English remains downstream of scene/dialogue/character/song gates.
 
-**Next:** Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.
+**Next:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
 
 ## ராஜா ராணி status
 

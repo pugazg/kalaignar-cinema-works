@@ -1,0 +1,671 @@
+[
+  {
+    "id": "naam-char-annumalai",
+    "preferred_name_ta": "அண்ணுமலை",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "அண்ணுமலை"
+    ],
+    "scenes": [
+      32,
+      34,
+      38,
+      40
+    ],
+    "dialogue_record_count": 11,
+    "supporting_records": [
+      "naam-s032-d005",
+      "naam-s032-d010",
+      "naam-s032-d012"
+    ],
+    "notes": "Named recurring character. Scene 3 narrative also prints `அண்ணாமலை`; the immutable dialogue label `அண்ணுமலை` is preserved exactly and is not rewritten."
+  },
+  {
+    "id": "naam-char-meenu",
+    "preferred_name_ta": "மீனு",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "உன்மீனு",
+      "மீனு"
+    ],
+    "scenes": [
+      3,
+      8,
+      10,
+      21,
+      28,
+      31,
+      33,
+      41,
+      42,
+      45
+    ],
+    "dialogue_record_count": 48,
+    "supporting_records": [
+      "naam-s003-d008",
+      "naam-s003-d012",
+      "naam-s003-d014"
+    ],
+    "notes": "Recurring character. `உன்மீனு` is the source-explicit scene-41 label anomaly and maps here only in the separate entity layer; the dialogue record remains unchanged."
+  },
+  {
+    "id": "naam-char-kandasami",
+    "preferred_name_ta": "கந்தசாமி",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "கந்தசாமி"
+    ],
+    "scenes": [
+      14,
+      16
+    ],
+    "dialogue_record_count": 10,
+    "supporting_records": [
+      "naam-s014-d004",
+      "naam-s014-d006",
+      "naam-s014-d008"
+    ],
+    "notes": "Named recurring character in scenes 14 and 16."
+  },
+  {
+    "id": "naam-char-kumaran",
+    "preferred_name_ta": "குமரன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "கும",
+      "குமரன்"
+    ],
+    "scenes": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23,
+      24,
+      27,
+      29,
+      30,
+      31,
+      34,
+      35,
+      36,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "dialogue_record_count": 164,
+    "supporting_records": [
+      "naam-s001-d001",
+      "naam-s001-d003",
+      "naam-s001-d005"
+    ],
+    "notes": "Central character; abbreviated and full labels are continuous across the work."
+  },
+  {
+    "id": "naam-char-sanjeevi",
+    "preferred_name_ta": "சஞ்சீவி",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சஞ்",
+      "சஞ்சீவி"
+    ],
+    "scenes": [
+      2,
+      3,
+      4,
+      5,
+      12,
+      13,
+      22,
+      25,
+      27,
+      29,
+      30,
+      31,
+      33,
+      40,
+      43
+    ],
+    "dialogue_record_count": 84,
+    "supporting_records": [
+      "naam-s002-d002",
+      "naam-s002-d004",
+      "naam-s002-d006"
+    ],
+    "notes": "Recurring வைத்தியர் character; abbreviated and full labels are continuous."
+  },
+  {
+    "id": "naam-char-jeevanandar",
+    "preferred_name_ta": "ஜீவானந்தர்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஜீவா",
+      "ஜீவானந்த",
+      "ஜீவானந்தர்"
+    ],
+    "scenes": [
+      1,
+      13,
+      17,
+      34,
+      36,
+      41
+    ],
+    "dialogue_record_count": 16,
+    "supporting_records": [
+      "naam-s001-d002",
+      "naam-s001-d004",
+      "naam-s001-d006"
+    ],
+    "notes": "Recurring character; abbreviated/truncated/full source labels are continuous."
+  },
+  {
+    "id": "naam-char-gnanam",
+    "preferred_name_ta": "ஞானம்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஞா",
+      "ஞானம்"
+    ],
+    "scenes": [
+      3,
+      9,
+      10,
+      11,
+      15,
+      20,
+      31
+    ],
+    "dialogue_record_count": 17,
+    "supporting_records": [
+      "naam-s003-d007",
+      "naam-s003-d009",
+      "naam-s003-d011"
+    ],
+    "notes": "Recurring character identified in scene 3 as the ஜமீன்தார்'s wife; abbreviated/full labels are continuous."
+  },
+  {
+    "id": "naam-char-thangaiyan",
+    "preferred_name_ta": "தங்கையன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "தங்",
+      "தங்கையன்"
+    ],
+    "scenes": [
+      4
+    ],
+    "dialogue_record_count": 3,
+    "supporting_records": [
+      "naam-s004-d007",
+      "naam-s004-d009",
+      "naam-s004-d011"
+    ],
+    "notes": "Scene 4 explicitly establishes the full name before the abbreviated label."
+  },
+  {
+    "id": "naam-char-narayani",
+    "preferred_name_ta": "நாராயணி",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "நாரா",
+      "நாராயணி"
+    ],
+    "scenes": [
+      1,
+      2,
+      3,
+      9,
+      10
+    ],
+    "dialogue_record_count": 25,
+    "supporting_records": [
+      "naam-s001-d009",
+      "naam-s001-d012",
+      "naam-s001-d014"
+    ],
+    "notes": "Recurring character; abbreviated/full labels are continuous."
+  },
+  {
+    "id": "naam-char-bheemasenan",
+    "preferred_name_ta": "பீமசேனன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பீமசேனன்"
+    ],
+    "scenes": [
+      14
+    ],
+    "dialogue_record_count": 13,
+    "supporting_records": [
+      "naam-s014-d001",
+      "naam-s014-d003",
+      "naam-s014-d005"
+    ],
+    "notes": "Named character."
+  },
+  {
+    "id": "naam-char-prema",
+    "preferred_name_ta": "பிரேமா",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பிரே",
+      "பிரேமா"
+    ],
+    "scenes": [
+      4,
+      6,
+      13,
+      22,
+      23,
+      25,
+      27,
+      29,
+      30
+    ],
+    "dialogue_record_count": 44,
+    "supporting_records": [
+      "naam-s004-d002",
+      "naam-s004-d004",
+      "naam-s004-d006"
+    ],
+    "notes": "Recurring character; scene 4 identifies her as the வைத்தியர்'s daughter; abbreviated/full labels are continuous."
+  },
+  {
+    "id": "naam-char-paramasivam",
+    "preferred_name_ta": "பரமசிவம்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பரமசிவம்"
+    ],
+    "scenes": [
+      17
+    ],
+    "dialogue_record_count": 3,
+    "supporting_records": [
+      "naam-s017-d002",
+      "naam-s017-d004",
+      "naam-s017-d006"
+    ],
+    "notes": "Named character."
+  },
+  {
+    "id": "naam-char-mallayappan",
+    "preferred_name_ta": "மல்லயப்பன் / மலையப்பன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மலைய",
+      "மலையப்பன்",
+      "மலையப்பர்",
+      "மல்",
+      "மல்ல",
+      "மல்லயப்ப",
+      "மல்லயப்பன்",
+      "மல்லயப்பர்"
+    ],
+    "scenes": [
+      3,
+      5,
+      8,
+      9,
+      10,
+      11,
+      15,
+      17,
+      20,
+      24,
+      26,
+      31,
+      38,
+      39,
+      40,
+      43,
+      45
+    ],
+    "dialogue_record_count": 96,
+    "supporting_records": [
+      "naam-s003-d001",
+      "naam-s003-d003",
+      "naam-s003-d005"
+    ],
+    "notes": "One recurring ஜமீன்தார் character across source abbreviation, honorific and spelling variants. Scene 3 links `மல்ல`, `மல்லயப்பர்` and `மல்லயப்பன்`; later scenes use `மலையப்பர்` / `மலையப்பன்`. No source label is normalized upstream."
+  },
+  {
+    "id": "naam-char-mathirai",
+    "preferred_name_ta": "மாத்திரை",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மாத்",
+      "மாத்திரை"
+    ],
+    "scenes": [
+      4,
+      6,
+      7,
+      18,
+      22,
+      27,
+      32,
+      34,
+      35
+    ],
+    "dialogue_record_count": 28,
+    "supporting_records": [
+      "naam-s004-d022",
+      "naam-s006-d010",
+      "naam-s006-d012"
+    ],
+    "notes": "Scene 4 explicitly introduces மாத்திரை as the வைத்தியர்'s worker; abbreviated/full labels are continuous."
+  },
+  {
+    "id": "naam-char-oru-role",
+    "preferred_name_ta": "ஒரு",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஒரு"
+    ],
+    "scenes": [
+      32
+    ],
+    "dialogue_record_count": 3,
+    "supporting_records": [
+      "naam-s032-d003",
+      "naam-s032-d006",
+      "naam-s032-d008"
+    ],
+    "notes": "Generic source role label. Grouping is categorical and does not assert one physical person across turns."
+  },
+  {
+    "id": "naam-char-oruvan-role",
+    "preferred_name_ta": "ஒருவன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஒருவன்"
+    ],
+    "scenes": [
+      7,
+      17,
+      32,
+      34
+    ],
+    "dialogue_record_count": 5,
+    "supporting_records": [
+      "naam-s007-d006",
+      "naam-s017-d009",
+      "naam-s032-d001"
+    ],
+    "notes": "Generic male role reused across multiple scenes; entity is a role category, not one continuing individual."
+  },
+  {
+    "id": "naam-char-sub-inspector-role",
+    "preferred_name_ta": "சப் இன்ஸ்.",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சப் இன்ஸ்."
+    ],
+    "scenes": [
+      39
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "naam-s039-d008",
+      "naam-s039-d012"
+    ],
+    "notes": "Unnamed sub-inspector role; no unsupported personal name is supplied."
+  },
+  {
+    "id": "naam-char-thief-role",
+    "preferred_name_ta": "திருடன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "திருடன்"
+    ],
+    "scenes": [
+      33
+    ],
+    "dialogue_record_count": 3,
+    "supporting_records": [
+      "naam-s033-d012",
+      "naam-s033-d014",
+      "naam-s033-d016"
+    ],
+    "notes": "Unnamed thief role/category; grouping does not assert a single person beyond source context."
+  },
+  {
+    "id": "naam-char-judge-role",
+    "preferred_name_ta": "நீதிபதி",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "நீதிபதி"
+    ],
+    "scenes": [
+      41
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s041-d001"
+    ],
+    "notes": "Unnamed judge role."
+  },
+  {
+    "id": "naam-char-poosari-role",
+    "preferred_name_ta": "பூசாரி",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பூசாரி"
+    ],
+    "scenes": [
+      38,
+      40
+    ],
+    "dialogue_record_count": 4,
+    "supporting_records": [
+      "naam-s038-d006",
+      "naam-s038-d011",
+      "naam-s040-d002"
+    ],
+    "notes": "Unnamed priest role/category."
+  },
+  {
+    "id": "naam-char-woman-role",
+    "preferred_name_ta": "பெண்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பெண்"
+    ],
+    "scenes": [
+      29
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s029-d020"
+    ],
+    "notes": "Unnamed woman role."
+  },
+  {
+    "id": "naam-char-elder-role",
+    "preferred_name_ta": "பெரியவர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பெரியவர்"
+    ],
+    "scenes": [
+      13
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s013-d012"
+    ],
+    "notes": "Unnamed elder role."
+  },
+  {
+    "id": "naam-char-purohithar-role",
+    "preferred_name_ta": "புரோகிதர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "புரோகிதர்"
+    ],
+    "scenes": [
+      38
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "naam-s038-d007",
+      "naam-s038-d009"
+    ],
+    "notes": "Unnamed priest/purohit role/category."
+  },
+  {
+    "id": "naam-char-mattroru-role",
+    "preferred_name_ta": "மற்றொரு",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மற்றொரு"
+    ],
+    "scenes": [
+      13
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "naam-s013-d015",
+      "naam-s013-d017"
+    ],
+    "notes": "Source-generic 'another' role; not forced into a named identity."
+  },
+  {
+    "id": "naam-char-mattroruvan-role",
+    "preferred_name_ta": "மற்றொருவன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மற்றொருவன்"
+    ],
+    "scenes": [
+      32
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s032-d002"
+    ],
+    "notes": "Source-generic 'another man' role; not forced into a named identity."
+  },
+  {
+    "id": "naam-char-mattroruvar-role",
+    "preferred_name_ta": "மற்றொருவர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மற்றொருவர்"
+    ],
+    "scenes": [
+      13
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s013-d013"
+    ],
+    "notes": "Source-generic 'another person' role; not forced into a named identity."
+  },
+  {
+    "id": "naam-char-vanthavar-role",
+    "preferred_name_ta": "வந்தவர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "வந்தவர்"
+    ],
+    "scenes": [
+      30
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s030-d002"
+    ],
+    "notes": "Unnamed arriving-person role; no identity inference is imposed."
+  },
+  {
+    "id": "naam-char-makkal-collective",
+    "preferred_name_ta": "மக்கள்",
+    "entity_type": "collective",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மக்கள்"
+    ],
+    "scenes": [
+      39
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "naam-s039-d001"
+    ],
+    "notes": "Collective source label."
+  }
+]

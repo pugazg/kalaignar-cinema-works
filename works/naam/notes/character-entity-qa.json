@@ -1,0 +1,77 @@
+{
+  "work_id": "naam",
+  "phase": "character-entity-qa",
+  "status": "PASS",
+  "dialogue_records_expected": 590,
+  "dialogue_records_mapped": 590,
+  "dialogue_record_coverage": "590/590 exactly once",
+  "distinct_source_labels_expected": 45,
+  "distinct_source_labels_mapped": 45,
+  "source_label_coverage": "45/45",
+  "entity_count": 28,
+  "entity_type_counts": {
+    "character": 14,
+    "collective": 1,
+    "role": 13
+  },
+  "unresolved_labels": 0,
+  "unresolved_records": 0,
+  "named_alias_groups": {
+    "குமரன்": [
+      "கும",
+      "குமரன்"
+    ],
+    "சஞ்சீவி": [
+      "சஞ்",
+      "சஞ்சீவி"
+    ],
+    "மீனு": [
+      "மீனு",
+      "உன்மீனு"
+    ],
+    "மல்லயப்பன் / மலையப்பன்": [
+      "மல்",
+      "மல்ல",
+      "மல்லயப்ப",
+      "மல்லயப்பர்",
+      "மல்லயப்பன்",
+      "மலைய",
+      "மலையப்பர்",
+      "மலையப்பன்"
+    ],
+    "நாராயணி": [
+      "நாரா",
+      "நாராயணி"
+    ],
+    "பிரேமா": [
+      "பிரே",
+      "பிரேமா"
+    ],
+    "மாத்திரை": [
+      "மாத்",
+      "மாத்திரை"
+    ],
+    "ஞானம்": [
+      "ஞா",
+      "ஞானம்"
+    ],
+    "ஜீவானந்தர்": [
+      "ஜீவா",
+      "ஜீவானந்த",
+      "ஜீவானந்தர்"
+    ],
+    "தங்கையன்": [
+      "தங்",
+      "தங்கையன்"
+    ]
+  },
+  "generic_role_policy": "Role-category mappings preserve source labels without asserting one continuing physical person across generic occurrences.",
+  "source_anomaly_labels_preserved": [
+    "உன்மீனு"
+  ],
+  "record_aware_dispositions_required": 0,
+  "dialogue_records_modified": 0,
+  "scene_text_modified": 0,
+  "canonical_tamil_modified": 0,
+  "next_gate": "song/performance/authorship gate ready"
+}

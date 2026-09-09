@@ -268,4 +268,21 @@ No downstream derivative existed at closure, so reconciliation is not required.
 
 ## Exact next activity
 
-> **Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance, map label variants to character/entity IDs only in a separate alias layer, keep generic roles and source anomalies explicit, and run whole-work label/entity coverage QA before the song/authorship gate. Do not rewrite canonical Tamil, scene text, or dialogue records.**
+> **Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.**
+
+
+## Character/entity closure checkpoint
+
+- character/entity index: **COMPLETE-VERIFIED**;
+- source labels: **45/45 mapped**;
+- dialogue records: **590/590 mapped exactly once**;
+- entities: **28** — 14 named / 13 role / 1 collective;
+- unresolved labels / records: **0 / 0**;
+- generic labels remain role categories; no unsupported identity merge;
+- `உன்மீனு` remains unchanged in the dialogue layer and maps to `மீனு` only downstream;
+- QA: `notes/character-entity-qa.json` — **PASS**;
+- canonical Tamil / scene / dialogue modifications: **0 / 0 / 0**.
+
+## Exact next activity
+
+> **Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.**
