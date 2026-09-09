@@ -12,11 +12,11 @@
   "supplementary_credit_pdf_pages": "88-89",
   "back_cover_pdf_page": 90,
   "status": "in-progress-draft",
-  "first_pass_pages_completed": 25,
-  "first_pass_pdf_range_completed": "4-28",
-  "first_pass_current_through_pdf": 28,
-  "first_pass_current_through_printed": 27,
-  "draft_pages": 25,
+  "first_pass_pages_completed": 30,
+  "first_pass_pdf_range_completed": "4-33",
+  "first_pass_current_through_pdf": 33,
+  "first_pass_current_through_printed": 32,
+  "draft_pages": 30,
   "visual_verified_pages": 0,
   "historical_glyph_verified_pages": 0,
   "final_visual_verified_pages": 0,
@@ -24,183 +24,38 @@
   "historical_glyph_first_pass_checked_pages": 10,
   "historical_glyph_final_verified_pages": 0,
   "page_records": [
-    {
-      "pdf_page": 4,
-      "printed_page": null,
-      "kind": "foreword",
-      "status": "draft",
-      "path": "pages/004.md"
-    },
-    {
-      "pdf_page": 5,
-      "printed_page": null,
-      "kind": "foreword",
-      "status": "draft",
-      "path": "pages/005.md"
-    },
-    {
-      "pdf_page": 6,
-      "printed_page": 5,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/006.md"
-    },
-    {
-      "pdf_page": 7,
-      "printed_page": 6,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/007.md"
-    },
-    {
-      "pdf_page": 8,
-      "printed_page": 7,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/008.md"
-    },
-    {
-      "pdf_page": 9,
-      "printed_page": 8,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/009.md"
-    },
-    {
-      "pdf_page": 10,
-      "printed_page": 9,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/010.md"
-    },
-    {
-      "pdf_page": 11,
-      "printed_page": 10,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/011.md"
-    },
-    {
-      "pdf_page": 12,
-      "printed_page": 11,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/012.md"
-    },
-    {
-      "pdf_page": 13,
-      "printed_page": 12,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/013.md"
-    },
-    {
-      "pdf_page": 14,
-      "printed_page": 13,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/014.md"
-    },
-    {
-      "pdf_page": 15,
-      "printed_page": 14,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/015.md"
-    },
-    {
-      "pdf_page": 16,
-      "printed_page": 15,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/016.md"
-    },
-    {
-      "pdf_page": 17,
-      "printed_page": 16,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/017.md"
-    },
-    {
-      "pdf_page": 18,
-      "printed_page": 17,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/018.md"
-    },
-    {
-      "pdf_page": 19,
-      "printed_page": 18,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/019.md"
-    },
-    {
-      "pdf_page": 20,
-      "printed_page": 19,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/020.md"
-    },
-    {
-      "pdf_page": 21,
-      "printed_page": 20,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/021.md"
-    },
-    {
-      "pdf_page": 22,
-      "printed_page": 21,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/022.md"
-    },
-    {
-      "pdf_page": 23,
-      "printed_page": 22,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/023.md"
-    },
-    {
-      "pdf_page": 24,
-      "printed_page": 23,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/024.md"
-    },
-    {
-      "pdf_page": 25,
-      "printed_page": 24,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/025.md"
-    },
-    {
-      "pdf_page": 26,
-      "printed_page": 25,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/026.md"
-    },
-    {
-      "pdf_page": 27,
-      "printed_page": 26,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/027.md"
-    },
-    {
-      "pdf_page": 28,
-      "printed_page": 27,
-      "kind": "screenplay",
-      "status": "draft",
-      "path": "pages/028.md"
-    }
+    {"pdf_page": 4, "printed_page": null, "kind": "foreword", "status": "draft", "path": "pages/004.md"},
+    {"pdf_page": 5, "printed_page": null, "kind": "foreword", "status": "draft", "path": "pages/005.md"},
+    {"pdf_page": 6, "printed_page": 5, "kind": "screenplay", "status": "draft", "path": "pages/006.md"},
+    {"pdf_page": 7, "printed_page": 6, "kind": "screenplay", "status": "draft", "path": "pages/007.md"},
+    {"pdf_page": 8, "printed_page": 7, "kind": "screenplay", "status": "draft", "path": "pages/008.md"},
+    {"pdf_page": 9, "printed_page": 8, "kind": "screenplay", "status": "draft", "path": "pages/009.md"},
+    {"pdf_page": 10, "printed_page": 9, "kind": "screenplay", "status": "draft", "path": "pages/010.md"},
+    {"pdf_page": 11, "printed_page": 10, "kind": "screenplay", "status": "draft", "path": "pages/011.md"},
+    {"pdf_page": 12, "printed_page": 11, "kind": "screenplay", "status": "draft", "path": "pages/012.md"},
+    {"pdf_page": 13, "printed_page": 12, "kind": "screenplay", "status": "draft", "path": "pages/013.md"},
+    {"pdf_page": 14, "printed_page": 13, "kind": "screenplay", "status": "draft", "path": "pages/014.md"},
+    {"pdf_page": 15, "printed_page": 14, "kind": "screenplay", "status": "draft", "path": "pages/015.md"},
+    {"pdf_page": 16, "printed_page": 15, "kind": "screenplay", "status": "draft", "path": "pages/016.md"},
+    {"pdf_page": 17, "printed_page": 16, "kind": "screenplay", "status": "draft", "path": "pages/017.md"},
+    {"pdf_page": 18, "printed_page": 17, "kind": "screenplay", "status": "draft", "path": "pages/018.md"},
+    {"pdf_page": 19, "printed_page": 18, "kind": "screenplay", "status": "draft", "path": "pages/019.md"},
+    {"pdf_page": 20, "printed_page": 19, "kind": "screenplay", "status": "draft", "path": "pages/020.md"},
+    {"pdf_page": 21, "printed_page": 20, "kind": "screenplay", "status": "draft", "path": "pages/021.md"},
+    {"pdf_page": 22, "printed_page": 21, "kind": "screenplay", "status": "draft", "path": "pages/022.md"},
+    {"pdf_page": 23, "printed_page": 22, "kind": "screenplay", "status": "draft", "path": "pages/023.md"},
+    {"pdf_page": 24, "printed_page": 23, "kind": "screenplay", "status": "draft", "path": "pages/024.md"},
+    {"pdf_page": 25, "printed_page": 24, "kind": "screenplay", "status": "draft", "path": "pages/025.md"},
+    {"pdf_page": 26, "printed_page": 25, "kind": "screenplay", "status": "draft", "path": "pages/026.md"},
+    {"pdf_page": 27, "printed_page": 26, "kind": "screenplay", "status": "draft", "path": "pages/027.md"},
+    {"pdf_page": 28, "printed_page": 27, "kind": "screenplay", "status": "draft", "path": "pages/028.md"},
+    {"pdf_page": 29, "printed_page": 28, "kind": "screenplay", "status": "draft", "path": "pages/029.md"},
+    {"pdf_page": 30, "printed_page": 29, "kind": "screenplay", "status": "draft", "path": "pages/030.md"},
+    {"pdf_page": 31, "printed_page": 30, "kind": "screenplay", "status": "draft", "path": "pages/031.md"},
+    {"pdf_page": 32, "printed_page": 31, "kind": "screenplay", "status": "draft", "path": "pages/032.md"},
+    {"pdf_page": 33, "printed_page": 32, "kind": "screenplay", "status": "draft", "path": "pages/033.md"}
   ],
   "batch_size_source_pages": 5,
-  "next_batch_pdf_pages": "29-33",
-  "next_action": "Continue first-pass transcription with PDF 29–33 in source order, keep all pages draft, commit/push that five-page batch, and repeat until PDF 90. Do not begin visual verification until first-pass coverage reaches PDF 90; after first pass, run five-page visual verification through the PDF, then five-page historical-glyph verification, then final full visual verification."
+  "next_batch_pdf_pages": "34-38",
+  "next_action": "Continue first-pass transcription with PDF 34–38 in source order, keep all pages draft, commit/push that five-page batch, and repeat until PDF 90. Do not begin visual verification until first-pass coverage reaches PDF 90; after first pass, run five-page visual verification through the PDF, then five-page historical-glyph verification, then final full visual verification."
 }
