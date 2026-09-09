@@ -1,0 +1,111 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s044",
+  "scene_ordinal": 44,
+  "source_scene_number": 44,
+  "scene_status": "verified",
+  "unit_count": 3,
+  "units": [
+    {
+      "id": "naam-en-s044-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s044",
+      "scene_ordinal": 44,
+      "source_scene_number": 44,
+      "source": {
+        "source_path": "works/naam/scenes/scene-044.md",
+        "canonical_scene_path": "works/naam/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Temple puja; Kumaran arrives with will."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Puja is going on in the temple. Kumaran arrives with the will.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s044-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s044",
+      "scene_ordinal": 44,
+      "source_scene_number": 44,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/naam/scenes/scene-044.md",
+        "source_record_id": "naam-s044-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Elders! Victory! We do not need the grace of this Kali Baba to drive away our `kamavinai`! My will... your life has been found.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified source form `காமவினை` is semantically difficult here; English retains it as `kamavinai` rather than silently repairing Tamil."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s044-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s044",
+      "scene_ordinal": 44,
+      "source_scene_number": 44,
+      "source": {
+        "source_path": "works/naam/scenes/scene-044.md",
+        "canonical_scene_path": "works/naam/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Crowd attacks Kumaran in temple."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran is attacked by the people—in the temple.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

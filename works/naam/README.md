@@ -15,7 +15,7 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
 - character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
 - song/performance/authorship gate: **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED / QA PASS; 1 source-attributed + 6 unresolved item-level authorships**;
-- English translation: **35/45 VERIFIED — 680 units / 506 dialogue links / 5 of 7 performance records / 84 performance mappings / 1 chant (16 mappings)**; reader / Reading Room: **not-started**.
+- English translation: **45/45 SCENE LAYER VERIFIED — 797 units / 590/590 dialogue links / 7 of 7 performance records / 138 performance mappings / 1 chant (16 mappings); whole-work reconciliation READY-NEXT**; reader / Reading Room: **blocked until reconciliation PASS**.
 
 Current transcription index: `transcription/index.json`  
 Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`, `transcription/parts/pdf-065-069.md`, `transcription/parts/pdf-070-071.md`  
@@ -46,7 +46,7 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - canonical scene-region / joined scene-span SHA-256: `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` / `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` — **MATCH**;
 - canonical Tamil changed by derivative generation: **0**.
 
-**Next:** Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.
+**Next:** Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation.
 
 ## Immutable dialogue checkpoint
 
@@ -287,3 +287,18 @@ The user describes the film as making the rationalist movement its central prota
 - closed upstream-layer changes: **0**.
 
 **Next:** Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.
+
+
+## English scenes 36–45 final-batch checkpoint
+
+- English scene layer: **45/45 VERIFIED**;
+- cumulative units: **797**;
+- immutable dialogue links: **590/590**;
+- source-unlabelled speech retained without inferred labels: **20**;
+- translated performance records: **7/7**;
+- performance line/cue mappings: **138**;
+- source-local chant: **1 / 16 mappings**;
+- whole-work reconciliation: **READY-NEXT**;
+- closed upstream-layer changes: **0**.
+
+**Next:** Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation.

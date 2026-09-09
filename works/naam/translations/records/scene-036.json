@@ -1,0 +1,559 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s036",
+  "scene_ordinal": 36,
+  "source_scene_number": 36,
+  "scene_status": "verified",
+  "unit_count": 7,
+  "units": [
+    {
+      "id": "naam-en-s036-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/scenes/scene-036.md",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Location: road.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s036-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": "naam-s036-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Jeevanandar! It is wrong to cite fate as the reason and push people into poverty. Reform is to make people truly people and prevent them from becoming slaves to anything!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s036-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": "naam-s036-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்தர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let us begin that work today itself.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s036-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": "naam-s036-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If Meenu were here, she would have been of great help.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s036-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": "naam-s036-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்தர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu must have gone to America with the zamindar.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s036-u006",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/scenes/scene-036.md",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-005",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 1,
+          "description": "Nearby source-visible cue for `naam-perf-005`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran and Jeevanandar engage in village service.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The cue is linked to the retained two-block performance occurrence; item-level authorship remains unresolved."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s036-u007",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s036",
+      "scene_ordinal": 36,
+      "source_scene_number": 36,
+      "source": {
+        "source_path": "works/naam/songs/records/naam-perf-005.md",
+        "canonical_scene_path": "works/naam/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-005",
+        "source_locator": {
+          "kind": "retained-performance-record",
+          "ordinal": 1,
+          "description": "Complete source-visible retained performance body."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 60,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "7    Kumaran, villagers",
+          "Let us lay out a new path—we—",
+          "let us bring down the evil path of conflict......",
+          "Let us rise through daily labour—",
+          "Let us live without straying from the path—",
+          "The burden of rare wisdom, out in the field—at the good",
+          "ploughshare that is knowledge...",
+          "at the ploughshare that is knowledge...",
+          "ploughing with the great knowledge of science—",
+          "we are those who discover true wisdom!",
+          "8    Mathirai",
+          "Long live, long live, long live, long live!",
+          "Our precious scholar,",
+          "long live Anna!",
+          "Long live brother Kumara!",
+          "All the men who speak of greatness,",
+          "at everything, like buffaloes,",
+          "their head-nodding—for rights,",
+          "he stands opposing it;",
+          "long live Anna!",
+          "Long live our Anna!",
+          "The poor man writhing like a worm,",
+          "the lord who flies like an eagle—these",
+          "wicked distinctions, all of them,",
+          "he made into a golden commonwealth without them—that",
+          "Anna, long live!",
+          "Long live brother Kumara—",
+          "the widow who lives like a mouse,",
+          "youth that gives like a tiger,",
+          "old tradition that pounces like a tiger,",
+          "this cruelty that has become commonplace,",
+          "long live the Anna who will change it!",
+          "Long live brother Kumara!",
+          "In a few places, `Panathottam`—that",
+          "`Selvak Kumari... Kottam!` Like this,",
+          "a honey-stream speaking many, many ideas,",
+          "an idealist history that nourishes rationalism—",
+          "long live Anna!",
+          "Long live brother Kumara!"
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "role-cue",
+            "pdf_page": 59,
+            "tamil": "7    குமரன், கிராமவாசிகள்",
+            "english": "7    Kumaran, villagers"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "புதியதோர் பாதை வகுப்போம்—நாம்—கெட்ட",
+            "english": "Let us lay out a new path—we—"
+          },
+          {
+            "ordinal": 3,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "போரிடும் பாதையை சாய்ப்போம் நாம்......",
+            "english": "let us bring down the evil path of conflict......"
+          },
+          {
+            "ordinal": 4,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "நித்தம் உழைத்தே உயர்வோம் நாம்—",
+            "english": "Let us rise through daily labour—"
+          },
+          {
+            "ordinal": 5,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "நெறி தவறாமல் வாழ்வோம் நாம்—",
+            "english": "Let us live without straying from the path—"
+          },
+          {
+            "ordinal": 6,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "அருஞ்ஞானப் பாரம் வெளியையே—நல்",
+            "english": "The burden of rare wisdom, out in the field—at the good"
+          },
+          {
+            "ordinal": 7,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "அறிவாகும் ஏர் முனையிலே...",
+            "english": "ploughshare that is knowledge..."
+          },
+          {
+            "ordinal": 8,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "அறிவாகும் ஏர் முனையிலே...",
+            "english": "at the ploughshare that is knowledge..."
+          },
+          {
+            "ordinal": 9,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "விஞ்ஞானப் பேரறிவினில்—உழுதே",
+            "english": "ploughing with the great knowledge of science—"
+          },
+          {
+            "ordinal": 10,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "மெய்ஞ்ஞானம் காண்பவர்கள் நாம்!",
+            "english": "we are those who discover true wisdom!"
+          },
+          {
+            "ordinal": 11,
+            "kind": "role-cue",
+            "pdf_page": 59,
+            "tamil": "8    மாத்திரை",
+            "english": "8    Mathirai"
+          },
+          {
+            "ordinal": 12,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "வாழ்க வாழ்க வாழ்க வாழ்கவே",
+            "english": "Long live, long live, long live, long live!"
+          },
+          {
+            "ordinal": 13,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "அருமை மிகுந்த எங்கள் அறிஞர்",
+            "english": "Our precious scholar,"
+          },
+          {
+            "ordinal": 14,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "அண்ணா வாழ்கவே",
+            "english": "long live Anna!"
+          },
+          {
+            "ordinal": 15,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "குமர அண்ணா வாழ்கவே.",
+            "english": "Long live brother Kumara!"
+          },
+          {
+            "ordinal": 16,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "பெருமை பேசும் மனிதரெல்லாம்",
+            "english": "All the men who speak of greatness,"
+          },
+          {
+            "ordinal": 17,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "எதற்கெடுத்தாலும் எருமை போல",
+            "english": "at everything, like buffaloes,"
+          },
+          {
+            "ordinal": 18,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "தலையசைப்பதை உரிமைக்காக",
+            "english": "their head-nodding—for rights,"
+          },
+          {
+            "ordinal": 19,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "எதிர்த்து நிற்கும்",
+            "english": "he stands opposing it;"
+          },
+          {
+            "ordinal": 20,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "அண்ணா வாழ்கவே",
+            "english": "long live Anna!"
+          },
+          {
+            "ordinal": 21,
+            "kind": "lyric-line",
+            "pdf_page": 59,
+            "tamil": "எங்கள் அண்ணா வாழ்கவே.",
+            "english": "Long live our Anna!"
+          },
+          {
+            "ordinal": 22,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "புழுவாகத் துடிக்கின்ற ஏழை",
+            "english": "The poor man writhing like a worm,"
+          },
+          {
+            "ordinal": 23,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "கழுகாகப் பறக்கின்ற சீமான்—இந்தப்",
+            "english": "the lord who flies like an eagle—these"
+          },
+          {
+            "ordinal": 24,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "பொல்லாத பேதங்கள் எல்லாம்",
+            "english": "wicked distinctions, all of them,"
+          },
+          {
+            "ordinal": 25,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "இல்லாத பொன்னுடைமைச் செய்தார்—அந்த",
+            "english": "he made into a golden commonwealth without them—that"
+          },
+          {
+            "ordinal": 26,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "அண்ணா வாழ்கவே",
+            "english": "Anna, long live!"
+          },
+          {
+            "ordinal": 27,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "குமர அண்ணா வாழ்கவே-",
+            "english": "Long live brother Kumara—"
+          },
+          {
+            "ordinal": 28,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "எலியாக வாழ்கின்ற விதவை",
+            "english": "the widow who lives like a mouse,"
+          },
+          {
+            "ordinal": 29,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "புலியாக தருகின்ற இளமை",
+            "english": "youth that gives like a tiger,"
+          },
+          {
+            "ordinal": 30,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "புலியாக பாய்கின்ற பழமை",
+            "english": "old tradition that pounces like a tiger,"
+          },
+          {
+            "ordinal": 31,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "மலிவாகப் போன இக்கொடுமை",
+            "english": "this cruelty that has become commonplace,"
+          },
+          {
+            "ordinal": 32,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "மாற்றிடும் அண்ணா வாழ்கவே !",
+            "english": "long live the Anna who will change it!"
+          },
+          {
+            "ordinal": 33,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "குமர அண்ணா வாழ்கவே.",
+            "english": "Long live brother Kumara!"
+          },
+          {
+            "ordinal": 34,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "சில சில இடங்களில் பணத்தோட்டம்—அது",
+            "english": "In a few places, `Panathottam`—that"
+          },
+          {
+            "ordinal": 35,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "செல்வக் குமரி...கோட்டம்! இப்படிப்",
+            "english": "`Selvak Kumari... Kottam!` Like this,"
+          },
+          {
+            "ordinal": 36,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "பலபல கருத்துக்கள் சொல்லும் தேனாறு",
+            "english": "a honey-stream speaking many, many ideas,"
+          },
+          {
+            "ordinal": 37,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "பகுத்தறிவூட்டும் லட்சிய வரலாறு—",
+            "english": "an idealist history that nourishes rationalism—"
+          },
+          {
+            "ordinal": 38,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "அண்ணா வாழ்கவே",
+            "english": "long live Anna!"
+          },
+          {
+            "ordinal": 39,
+            "kind": "lyric-line",
+            "pdf_page": 60,
+            "tamil": "குமர அண்ணா வாழ்கவே.",
+            "english": "Long live brother Kumara!"
+          }
+        ],
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Translated only from source-visible Tamil retained in `naam-perf-005`.",
+          "Item-level authorship remains unresolved; the broad PDF-4 credit is not promoted.",
+          "The two source-numbered role blocks remain one retained performance occurrence; role cues 7 and 8 are mapped explicitly.",
+          "Source-irregular or title-like forms such as `அருஞ்ஞானப் பாரம்`, `புலியாக தருகின்ற இளமை`, `பணத்தோட்டம்`, and `செல்வக் குமரி...கோட்டம்` are translated conservatively or transliterated rather than repaired."
+        ]
+      }
+    }
+  ]
+}

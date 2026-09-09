@@ -2,7 +2,7 @@
 
 **Canonical authority:** 67/67 dual-gate verified Tamil, 45/45 verified source-numbered scenes, 590 immutable dialogue records, complete 28-entity character layer, and reconciled 7/7 source-visible song/performance records  
 **Target language:** English (`en`)  
-**Status:** **verified through source scene 35 / 45; 680 units**
+**Status:** **scene layer 45/45 verified; whole-work reconciliation ready-next**
 
 This is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -39,9 +39,9 @@ The pilot establishes the initial English voice: preserve rationalist satire, co
 
 Detailed pilot decisions and integrity checks are in `PILOT_REVIEW.md`; machine-readable checks are in `pilot-qa.json`.
 
-## Next batch
+## Next gate
 
-Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.
+Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation.
 
 ## Batch — source scenes 2–5
 
@@ -49,9 +49,9 @@ Scenes 2–5 are **VERIFIED** as **110 units** with **85/85 immutable dialogue l
 
 Cumulative English state is now **5/45 verified scenes / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated / 23 song mappings**.
 
-## Next batch
+## Next gate
 
-Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.
+Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation.
 
 ## Verified batch — scenes 6–15
 
@@ -87,3 +87,16 @@ Production cadence remains **10 source scenes per iteration**.
 - new song/performance mappings: **10**;
 - scene-local chant: **1 unit / 16 mappings / no song occurrence or authorship inference**;
 - upstream rewrites: **0**.
+
+## Verified final batch — scenes 36–45
+
+- source scenes: **10 / scenes 36–45**;
+- units: **117**;
+- immutable dialogue links: **84/84**; cumulative **590/590**;
+- source-unlabelled speech: **1 / inferred speakers 0**; cumulative **20**;
+- performance occurrences: **2/2 — `naam-perf-005`, `naam-perf-006`**; cumulative **7/7**;
+- new performance mappings: **54**; cumulative **138**;
+- written text: **2 units**;
+- upstream rewrites: **0**.
+
+The scene-sharded English layer is **45/45 complete**. Whole-work translation reconciliation must PASS before final `complete-verified` status or reader/export generation.

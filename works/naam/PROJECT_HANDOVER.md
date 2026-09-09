@@ -391,3 +391,20 @@ A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and fo
 ## Current exact next activity
 
 > **Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.**
+
+
+## English scenes 36–45 final-batch checkpoint
+
+- English scene layer: **45/45 VERIFIED**;
+- cumulative units: **797**;
+- immutable dialogue links: **590/590**;
+- source-unlabelled speech retained: **20 / inferred labels 0**;
+- performance records translated: **7/7**;
+- performance line/cue mappings: **138**;
+- scene-local chant: **1 / 16 mappings**;
+- whole-work English reconciliation: **READY-NEXT**;
+- upstream source-layer changes caused by English: **0**.
+
+## Current exact next activity
+
+> **Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation.**

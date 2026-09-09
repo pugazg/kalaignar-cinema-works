@@ -1,0 +1,593 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s038",
+  "scene_ordinal": 38,
+  "source_scene_number": 38,
+  "scene_status": "verified",
+  "unit_count": 19,
+  "units": [
+    {
+      "id": "naam-en-s038-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey! Annumalai! What arrogance has got into these village fellows! I've come back from America. Not one fellow is here to welcome me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What's America, sir? Even if you came from heaven, they wouldn't care! Progress is running wild! The whole populace listens only to Kumaran's words.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran! Go and bring them here!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who, sir?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The priest, the purohit, the physician—every one of them.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/scenes/scene-038.md",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Annumalai leaves to summon the others."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Annumalai leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூசாரி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "People who were like frogs in a well... he ruined them by making them read newspapers and books.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புரோகிதர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Once they start reading—isn't it just like starting to wake up!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Fools; after leaving it alone all these days, you come complaining only now. I am here—and my money is here.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புரோகிதர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bhagavan is here too.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... priest... you go along too.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூசாரி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your command!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/scenes/scene-038.md",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Reading room and school dismantled."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(By the villain's order, the reading room and the school are dismantled.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey! Tear down the entrance of our mansion!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tear it down?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This huge mansion isn't here merely for my status, you slack-jawed fool! Tear it down! I'm telling you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, sir.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": "naam-s038-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go to town and bring the police! Go by cart...... you must return quickly within two hours!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s038-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s038",
+      "scene_ordinal": 38,
+      "source_scene_number": 38,
+      "source": {
+        "source_path": "works/naam/scenes/scene-038.md",
+        "canonical_scene_path": "works/naam/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Annumalai leaves to bring the police."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Annumalai leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

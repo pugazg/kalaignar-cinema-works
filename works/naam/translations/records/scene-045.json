@@ -1,0 +1,803 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s045",
+  "scene_ordinal": 45,
+  "source_scene_number": 45,
+  "scene_status": "verified",
+  "unit_count": 25,
+  "units": [
+    {
+      "id": "naam-en-s045-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening assault and Kumaran arrival."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Malayappan is humiliating Meenu—while Meenu is being assaulted in the house—Kumaran arrives.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey Kumara! Your final hour has drawn near.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran takes Meenu out."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran carries Meenu outside.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hand over that will respectfully!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Malayappa! They say a tiger told a hunter, ‘Put down that bow and arrow! Then I will hunt you.’ You are an even more ridiculous man than that!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Will you give it? Or not?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who are you to ask? Who am I to give? This is the people's property!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The people! Fool! They are not your people now! They are bullets flying at you from Malayappan's gun!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That is exactly why I say—the gun must be smashed and thrown away.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara! You have laid your head on the sacrificial altar.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kill me! But, cruel man, do not think that killing a man will destroy an ideology!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your idea will be smashed to a hundred pieces!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 69
+          },
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You have read only one half of history! You may have gathered the bones of those smashed to pieces—written down the accounts of those who suffered and shed tears—but you have not read the chapter of revolution that rose on the foundation of those teardrops! Not because your eyesight is defective! Because your ancestral scripture has written that reading is a sin! Set fire if you will, attack treacherously if you will! Let bees sting like scorpions if they will! Let prison open its mouth and welcome us if it will! Shave our heads if you will! Commit brutality if you will! This is a rationalist principle that cannot be destroyed! Ten-and-a-half-touch gold!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`பத்தரை மாத்துத் தங்கம்` is retained closely as `ten-and-a-half-touch gold`, a source purity image, rather than replaced by a modern abstraction."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s045-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Leave it! Otherwise this very house will become your cremation ground.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Fight, child rescue and fatal collapse."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A fight breaks out between them. The priest standing outside runs away. Kumaran carries the child and comes out. Malayappan, struck by Kumaran, collapses. This is Kumaran's last breath.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Life ... life ... for me, who brought a charter of rights, a charter of death? Look, that day you stopped these policemen from arresting me. Today, those same policemen have come to save me from you. What harm have I done to you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu comes to dying Kumaran."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu enters.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "As I am about to give up my life, I ask one last help from you. You have love for me.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will do anything. Kumaran!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You must live.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am one who cannot live, Kumaran!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-045.json",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": "naam-s045-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 70
+          },
+          {
+            "pdf_page": 71,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not for yourself! For the children! Jeevanandar! I make my properties the property of the people! I alone am dying. But my ideas have not died. They will not die... with that satisfaction in my heart, I leave you. Long live self-respect; may rationalism triumph.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran dies."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran loses his life.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s045-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Source-unlabelled block `naam-s045-u001`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "“Is this the end for all the noble people who reform the world?”\n\nWho will reshape this?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The closing rhetorical questions have no explicit source speaker label or delimiter; no speaker identity is inferred."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s045-u025",
+      "kind": "written-text",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s045",
+      "scene_ordinal": 45,
+      "source_scene_number": 45,
+      "source": {
+        "source_path": "works/naam/scenes/scene-045.md",
+        "canonical_scene_path": "works/naam/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "closing-title",
+          "ordinal": 1,
+          "description": "Closing source title `நாம்`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Naam (We)",
+        "mode": "prose-faithful",
+        "notes": [
+          "Retained as closing title text; no synthetic “Scene ends” prose is added."
+        ]
+      }
+    }
+  ]
+}

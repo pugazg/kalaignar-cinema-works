@@ -1,0 +1,255 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s042",
+  "scene_ordinal": 42,
+  "source_scene_number": 42,
+  "scene_status": "verified",
+  "unit_count": 8,
+  "units": [
+    {
+      "id": "naam-en-s042-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Have you seen my Meenu? She went blind so that she would not have to see this cruel face.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I have become a sinner who cannot see the child's face! Muthu... what do you look like? Are you fair like your father? Looking at my disguise, do I seem like a beggar to you? I am not a beggar! A zamindar's wife! Your father is the zamindar!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu...... I never sought that needless crown! I wanted to make all property common property. But...... that desire fell into the fire and its life turned to ash.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It has not turned to ash. It is alive.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is alive?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... it is with the physician.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-042.json",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": "naam-s042-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Jeevanandar! The people have got a new life!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s042-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s042",
+      "scene_ordinal": 42,
+      "source_scene_number": 42,
+      "source": {
+        "source_path": "works/naam/scenes/scene-042.md",
+        "canonical_scene_path": "works/naam/scenes/scene-042.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran runs to recover the will."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran runs to the physician to seize the will.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

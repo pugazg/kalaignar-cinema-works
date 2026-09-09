@@ -1,0 +1,327 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s043",
+  "scene_ordinal": 43,
+  "source_scene_number": 43,
+  "scene_status": "verified",
+  "unit_count": 10,
+  "units": [
+    {
+      "id": "naam-en-s043-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/scenes/scene-043.md",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Location—road.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-043.json",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": "naam-s043-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where is the will? Where is the will?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-043.json",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": "naam-s043-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The will? What is there with me, man?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-043.json",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": "naam-s043-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Will you give it or not?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/scenes/scene-043.md",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran takes the will."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran seizes the will from the physician.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/scenes/scene-043.md",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Sanjeevi reports to Malayappan."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Sanjeevi comes to Malayappan.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-043.json",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": "naam-s043-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Sanjeevi?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-043.json",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": "naam-s043-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The matter is ruined! Kumaran snatched the will from me.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-043.json",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": "naam-s043-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The will? It was with you all these days? Traitor.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s043-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s043",
+      "scene_ordinal": 43,
+      "source_scene_number": 43,
+      "source": {
+        "source_path": "works/naam/scenes/scene-043.md",
+        "canonical_scene_path": "works/naam/scenes/scene-043.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Malayappan kills Sanjeevi."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Sanjeevi is killed by Malayappan.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

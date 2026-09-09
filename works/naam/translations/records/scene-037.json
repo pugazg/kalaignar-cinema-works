@@ -1,0 +1,45 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s037",
+  "scene_ordinal": 37,
+  "source_scene_number": 37,
+  "scene_status": "verified",
+  "unit_count": 1,
+  "units": [
+    {
+      "id": "naam-en-s037-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s037",
+      "scene_ordinal": 37,
+      "source_scene_number": 37,
+      "source": {
+        "source_path": "works/naam/scenes/scene-037.md",
+        "canonical_scene_path": "works/naam/scenes/scene-037.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Entire zero-dialogue source scene."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After being released from prison, Meenu is about to kill herself when she hears a child's cry and lifts the child. Storm, thunder, lightning and rain all arrive together. Both of Meenu's eyes strike the spear that stood before the temple.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

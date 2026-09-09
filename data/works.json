@@ -937,7 +937,7 @@
     "historical_glyph_audit": "complete-final-verified-67-of-67",
     "historical_glyph_guide_path": "docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "historical_glyph_audit_path": "works/naam/notes/historical-glyph-audit.md",
-    "next_action": "Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.",
+    "next_action": "Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation.",
     "canonical_tamil_first_pass_pages_completed": 67,
     "canonical_tamil_first_pass_pdf_range_completed": "5-71",
     "canonical_tamil_first_pass_current_through_pdf": 71,
@@ -1047,20 +1047,21 @@
       "song_performance_authorship_unresolved": 5,
       "song_performance_qa": "PASS",
       "song_performance_qa_path": "works/naam/notes/song-performance-qa.json",
-      "english_translation": "in-progress-verified-through-scene-035",
+      "english_translation": "scene-layer-complete-verified-45-of-45-whole-work-reconciliation-next",
       "song_performance_gate": "complete-verified-source-only-reconciled",
       "source_attributed_performance_records": 1,
       "unresolved_item_level_authorship_records": 6,
-      "english_translation_verified_scenes": 35,
-      "english_translation_units": 680,
-      "english_dialogue_links_verified": 506,
-      "english_performance_records_translated": 5,
-      "english_song_line_cue_mappings_verified": 84,
+      "english_translation_verified_scenes": 45,
+      "english_translation_units": 797,
+      "english_dialogue_links_verified": 590,
+      "english_performance_records_translated": 7,
+      "english_song_line_cue_mappings_verified": 138,
       "english_translation_index_path": "works/naam/translations/index.json",
-      "english_source_unlabelled_speech_units": 19,
+      "english_source_unlabelled_speech_units": 20,
       "english_iteration_scene_batch_size": 10,
       "english_chant_units_verified": 1,
-      "english_chant_line_cue_mappings_verified": 16
+      "english_chant_line_cue_mappings_verified": 16,
+      "english_whole_work_reconciliation": "ready-next"
     }
   }
 ]

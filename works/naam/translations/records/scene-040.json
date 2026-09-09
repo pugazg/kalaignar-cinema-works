@@ -1,0 +1,251 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s040",
+  "scene_ordinal": 40,
+  "source_scene_number": 40,
+  "scene_status": "verified",
+  "unit_count": 8,
+  "units": [
+    {
+      "id": "naam-en-s040-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The people's intelligence has grown dull! It has changed to the point where they cannot tell the difference between a man and a cow! From now on Malayappar is not merely a zamindar! He is one who can rule this whole world! A man becoming God, and God becoming man, is all propaganda!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூசாரி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Master!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, priest?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பூசாரி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I have a son. His name is Kali Baba! He'll be about ten. If he gives green leaves saying they're for every medicinal herb, there'll be good income.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kali Baba! Will they believe it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Didn't I tell you! God becoming man and man becoming God is all propaganda.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Half that income to the Amman temple, half to the zamindar!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s040-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s040",
+      "scene_ordinal": 40,
+      "source_scene_number": 40,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/naam/scenes/scene-040.md",
+        "source_record_id": "naam-s040-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right! Do exactly that!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

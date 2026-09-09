@@ -1,0 +1,487 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s041",
+  "scene_ordinal": 41,
+  "source_scene_number": 41,
+  "scene_status": "verified",
+  "unit_count": 15,
+  "units": [
+    {
+      "id": "naam-en-s041-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/scenes/scene-041.md",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Opening quoted source synopsis."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(\"Kumaran case verdict. Kumaran's forceful argument. The people are eager to know the verdict.\")",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நீதிபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 65
+          },
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "After considering the arguments of both sides and examining the witnesses, Kumaran does not appear to be a revolutionary, an advocate of violence, or a reviler of God. Telling people to read, worshipping one God—such acts cannot make one a revolutionary or an advocate of violence! In these days when the government itself is taking steps to abolish zamindari, Kumaran has only struggled to restrain the zamindar's outrages. Therefore... Kumaran is released as not guilty.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/scenes/scene-041.md",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran exits court and encounters blind Meenu."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(As Kumaran comes out after his release... blind Meenu appears as a beggar.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sir...... a quarter anna...... please give, sir.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`காலணா` is retained as the historical coin denomination `quarter anna`; no modernization to decimal currency."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s041-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... whose child is this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is my child, sir!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo... my Meenu a prostitute! My Meenu a prostitute!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்தர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": "—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran! Kumaran!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... my Kumara! Kumaran... Kumaran...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tch... don't touch my feet!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran! This is not my child! Look at what is written in the letter about this child!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u012",
+      "kind": "written-text",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/scenes/scene-041.md",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "written-text",
+          "ordinal": 1,
+          "description": "Source cue `கடிதத்தில் :-` and quoted letter body."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "“Compassionate hearts who see this letter... fulfill the last wish of a woman abandoned after trusting the love of an upper-caste man. Somehow save this child.” Thus—Sundari.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The cue is written-text, not a speaker label; no dialogue ID or character is invented."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s041-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu... Sundari... Sundari... Meenu... our child—\n\nour child Muthu is with me, Meenu.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s041-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": "naam-s041-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உன்மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... my child......",
+        "mode": "prose-faithful",
+        "notes": [
+          "Exact Tamil source speaker label is the anomalous `உன்மீனு`; the English record does not normalize that label."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s041-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s041",
+      "scene_ordinal": 41,
+      "source_scene_number": 41,
+      "source": {
+        "source_path": "works/naam/scenes/scene-041.md",
+        "canonical_scene_path": "works/naam/scenes/scene-041.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran leads Meenu away."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran takes Meenu away.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
