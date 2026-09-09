@@ -1,0 +1,191 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s016",
+  "scene_ordinal": 16,
+  "source_scene_number": 16,
+  "scene_status": "verified",
+  "unit_count": 6,
+  "units": [
+    {
+      "id": "naam-en-s016-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s016",
+      "scene_ordinal": 16,
+      "source_scene_number": 16,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/naam/scenes/scene-016.md",
+        "source_record_id": "naam-s016-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bravo! The chance we had been waiting for so long has arrived. Boxer Paramasivam! Kumara! If you defeat this man, you will be the king of boxing!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s016-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s016",
+      "scene_ordinal": 16,
+      "source_scene_number": 16,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/naam/scenes/scene-016.md",
+        "source_record_id": "naam-s016-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where? When...?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s016-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s016",
+      "scene_ordinal": 16,
+      "source_scene_number": 16,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/naam/scenes/scene-016.md",
+        "source_record_id": "naam-s016-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Everything is in your own village! Zamindar Mallayappar... he is the one who has arranged it.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s016-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s016",
+      "scene_ordinal": 16,
+      "source_scene_number": 16,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/naam/scenes/scene-016.md",
+        "source_record_id": "naam-s016-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... Mallayappar?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s016-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s016",
+      "scene_ordinal": 16,
+      "source_scene_number": 16,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/naam/scenes/scene-016.md",
+        "source_record_id": "naam-s016-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why...? Shall I write back that you agree?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s016-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s016",
+      "scene_ordinal": 16,
+      "source_scene_number": 16,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/naam/scenes/scene-016.md",
+        "source_record_id": "naam-s016-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

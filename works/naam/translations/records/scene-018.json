@@ -1,0 +1,393 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s018",
+  "scene_ordinal": 18,
+  "source_scene_number": 18,
+  "scene_status": "verified",
+  "unit_count": 12,
+  "units": [
+    {
+      "id": "naam-en-s018-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come on! Don't be shy!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Mathirai!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Without telling you... how could I get hold of you... I didn't even know your address.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified colloquial form `சிக்கணமா` is irregular; English keeps the immediate sense without altering the Tamil."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s018-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell me what it is, Mathirai.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He has become my father-in-law (Jeevanandar), and I've become his son-in-law! My wife is Thailam!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's medicine-name wordplay `மாத்திரை / தைலம்` is retained through the names Mathirai / Thailam rather than flattened."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s018-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... Mathirai—Thailam! That's very good!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Even if the horoscopes don't match, by medicinal method it's a very good match.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": "naam-s018-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then...... I give this to you as a gift.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/scenes/scene-018.md",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran steps out."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran steps out.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/scenes/scene-018.md",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Printed speech between two Kumaran exit directions has no source speaker label."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Everyone, stay here! I'm going to my mother's house and will return! We'll meet later.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The surrounding action suggests Kumaran, but the source supplies no explicit dialogue label; no speaker is manufactured."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s018-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/scenes/scene-018.md",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran leaves."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s018-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s018",
+      "scene_ordinal": 18,
+      "source_scene_number": 18,
+      "source": {
+        "source_path": "works/naam/scenes/scene-018.md",
+        "canonical_scene_path": "works/naam/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Crowd acclamation."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A cry of ‘Long live Kumaran’ rises from the crowd.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

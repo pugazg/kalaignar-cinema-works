@@ -358,3 +358,20 @@ A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and fo
 ## Current exact next activity
 
 > **Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.**
+
+
+## English scenes 16–25 closure checkpoint
+
+- cumulative verified English scenes: **25/45**;
+- cumulative units: **501**;
+- immutable dialogue links: **380**;
+- source-unlabelled speech retained: **10 / inferred labels 0**;
+- performance records translated: **4/7**;
+- performance line/cue mappings: **74**;
+- upstream source-layer changes caused by English: **0**.
+
+**User iteration directive:** 10 source scenes per English iteration; final remainder may be smaller.
+
+## Current exact next activity
+
+> **Translate and verify source-numbered scenes 26–35 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-004` in scene 31 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.**

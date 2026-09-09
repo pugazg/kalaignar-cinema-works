@@ -1,0 +1,506 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s021",
+  "scene_ordinal": 21,
+  "source_scene_number": 21,
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "naam-en-s021-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/scenes/scene-021.md",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: graveyard.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u002",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/songs/records/naam-perf-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-003",
+        "source_locator": {
+          "kind": "retained-performance-record",
+          "ordinal": 3,
+          "description": "Full source-visible Meenu lyrical block across PDF 35–36."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "I am a flower without fragrance, Amma!",
+          "Knowing nothing of life in the world of women,",
+          "I am a flower without fragrance, Amma!",
+          "The veena is broken—what music remains now?",
+          "Here the thunderbolt has fallen—the flower garden is destroyed.",
+          "I am a flower without fragrance, Amma!",
+          "Because poison was cast into my life and vanished,",
+          "I am a flower without fragrance, Amma!",
+          "I have become a withering creeper",
+          "in the wind of a cyclone.",
+          "Stain has soaked and covered the nectar-bearing petal,",
+          "I am a flower without fragrance, Amma!",
+          "I see no flame of joy,",
+          "I am alone in a house of darkness,",
+          "Waves of a storm of sorrow batter me,",
+          "in the grove of a life of grief,",
+          "I am a flower without fragrance, Amma!"
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மணமில்லா மலர் நானம்மா!",
+            "english": "I am a flower without fragrance, Amma!"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மாதர் உலகில் வாழ்வே அறியா",
+            "english": "Knowing nothing of life in the world of women,"
+          },
+          {
+            "ordinal": 3,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மணமில்லா மலர் நானம்மா!",
+            "english": "I am a flower without fragrance, Amma!"
+          },
+          {
+            "ordinal": 4,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "ஒடிந்து வீண நாதமே இனியேது",
+            "english": "The veena is broken—what music remains now?"
+          },
+          {
+            "ordinal": 5,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "இடியிதோ வீழ்ந்தே பூங்கா அழிந்ததே",
+            "english": "Here the thunderbolt has fallen—the flower garden is destroyed."
+          },
+          {
+            "ordinal": 6,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மணமில்லா மலர் நானம்மா!",
+            "english": "I am a flower without fragrance, Amma!"
+          },
+          {
+            "ordinal": 7,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "வாழ்விலே விஷமே வீசியே மறைந்ததால்",
+            "english": "Because poison was cast into my life and vanished,"
+          },
+          {
+            "ordinal": 8,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மணமில்லா மலர் நானம்மா!",
+            "english": "I am a flower without fragrance, Amma!"
+          },
+          {
+            "ordinal": 9,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "வாடிடும் கொடியானேன்",
+            "english": "I have become a withering creeper"
+          },
+          {
+            "ordinal": 10,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "சூறாவளிக் காற்றிலே",
+            "english": "in the wind of a cyclone."
+          },
+          {
+            "ordinal": 11,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மகரந்த இதழ்மீது மாசு தோய்ந்து மூடிய",
+            "english": "Stain has soaked and covered the nectar-bearing petal,"
+          },
+          {
+            "ordinal": 12,
+            "kind": "lyric-line",
+            "pdf_page": 35,
+            "tamil": "மணமில்லா மலர் நானம்மா!",
+            "english": "I am a flower without fragrance, Amma!"
+          },
+          {
+            "ordinal": 13,
+            "kind": "lyric-line",
+            "pdf_page": 36,
+            "tamil": "இன்பச் சுடர் காணேனே",
+            "english": "I see no flame of joy,"
+          },
+          {
+            "ordinal": 14,
+            "kind": "lyric-line",
+            "pdf_page": 36,
+            "tamil": "இருள் வீட்டில் தனியானேன்",
+            "english": "I am alone in a house of darkness,"
+          },
+          {
+            "ordinal": 15,
+            "kind": "lyric-line",
+            "pdf_page": 36,
+            "tamil": "துன்பப் புயல் அலை மோதி",
+            "english": "Waves of a storm of sorrow batter me,"
+          },
+          {
+            "ordinal": 16,
+            "kind": "lyric-line",
+            "pdf_page": 36,
+            "tamil": "சோக வாழ்வுச் சோலையில்",
+            "english": "in the grove of a life of grief,"
+          },
+          {
+            "ordinal": 17,
+            "kind": "lyric-line",
+            "pdf_page": 36,
+            "tamil": "மணமில்லா மலர் நானம்மா!",
+            "english": "I am a flower without fragrance, Amma!"
+          }
+        ],
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Translated only from the source-visible Tamil retained in `naam-perf-003`.",
+          "Source role is Meenu, established by the retained performance record and the following printed cue; no synthetic dialogue speaker label is created.",
+          "Item-level authorship remains unresolved; the broad PDF-4 credit is not promoted."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s021-u003",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/scenes/scene-021.md",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-003",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 1,
+          "description": "Source-visible cue establishing Meenu as the singer and Kumaran arriving."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu is singing sorrowfully. Kumaran comes there.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "This cue is source-visible and does not upgrade the unresolved item-level authorship."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s021-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran...... (Don't cry, Meenu)...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Forgive me, Meenu! Yes... how do you come alone in this darkness? Should you be coming like this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I shouldn't, of course! But... until now, my aunt's grave has been the only comfort for my withered heart.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is your heart still withered?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The beauty within shows on the face...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": "naam-s021-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come... let me see.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s021-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s021",
+      "scene_ordinal": 21,
+      "source_scene_number": 21,
+      "source": {
+        "source_path": "works/naam/scenes/scene-021.md",
+        "canonical_scene_path": "works/naam/scenes/scene-021.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu smiles after Kumaran asks to see her face."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu smiles.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

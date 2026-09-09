@@ -1,0 +1,421 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s023",
+  "scene_ordinal": 23,
+  "source_scene_number": 23,
+  "scene_status": "verified",
+  "unit_count": 13,
+  "units": [
+    {
+      "id": "naam-en-s023-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/scenes/scene-023.md",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Kumaran's hut.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/scenes/scene-023.md",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Night-time setting."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Night.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/scenes/scene-023.md",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema throws the will; Kumaran wakes."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Prema throws the will onto Kumaran. The sleeping Kumaran springs up quickly.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The will... the will... my life!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Quietly...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prema... you brought it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who else would bring it, Zamindar?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm not a zamindar! A servant of the people—a worker for the people! I won't forget this help, sister!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sister......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/scenes/scene-023.md",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Movement to the grave."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Near the grave.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma! I've found the will! The wealth you wandered searching for has been found! The buried treasure has come into my hands. I'm going right now to that wicked man.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": "naam-s023-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s023-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s023",
+      "scene_ordinal": 23,
+      "source_scene_number": 23,
+      "source": {
+        "source_path": "works/naam/scenes/scene-023.md",
+        "canonical_scene_path": "works/naam/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran sets out to confront and humble Mallayappan."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran sets out to bring Mallayappan down.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

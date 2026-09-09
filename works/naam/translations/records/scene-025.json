@@ -1,0 +1,353 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s025",
+  "scene_ordinal": 25,
+  "source_scene_number": 25,
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "naam-en-s025-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mad girl! In one moment you've ruined the plan I had laid!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Forgive me, Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Did you harm me that you need my forgiveness? You've thrown earth on your own head.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He said there would be no marriage without the will, Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "And now, the moment you gave him the will, has he fixed a date for the auspicious wedding hour?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He hasn't fixed a date!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then... does that mean the marriage is settled? Go away somehow...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/scenes/scene-025.md",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Door knock."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[There is a knock at the door.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": "naam-s025-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who's that? Go and see, Prema...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/scenes/scene-025.md",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema opens the door."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(She opens the door.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s025-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s025",
+      "scene_ordinal": 25,
+      "source_scene_number": 25,
+      "source": {
+        "source_path": "works/naam/scenes/scene-025.md",
+        "canonical_scene_path": "works/naam/scenes/scene-025.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Burned Kumaran enters and falls."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Kumaran enters with his body burned and collapses.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

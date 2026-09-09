@@ -1,0 +1,487 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s022",
+  "scene_ordinal": 22,
+  "source_scene_number": 22,
+  "scene_status": "verified",
+  "unit_count": 15,
+  "units": [
+    {
+      "id": "naam-en-s022-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran isn't stubborn about anything... it's all because of you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prema...... Kumaran will marry only you—don't worry! Prema! I'll go and make the arrangements too. Stay safe at home! Hey, Mathirai! We are the ones giving medicine to that Kannan's mother, aren't we...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, sir.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What happened!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "She's recovered, sir! They say they've sent people out to other towns as well!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified line about sending people to other towns is translated literally; its exact referent is not expanded beyond the source."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s022-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh...... go harness the cart!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/scenes/scene-022.md",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Mathirai exits."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After Mathirai leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/scenes/scene-022.md",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Printed speech after Mathirai leaves has no source speaker label."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prema! Sanjeevi is no fool to hand over the will first! Marriage—then the will.",
+        "mode": "prose-faithful",
+        "notes": [
+          "Context points strongly to Sanjeevi, but the source prints no explicit speaker label or delimiter; speaker metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s022-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What if you deceive me after the marriage......?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Nectar of the gods that comes without asking! A zamindar's mansion that comes without effort! Doesn't my daughter need these? Look here......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/scenes/scene-022.md",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "The will is taken out and held in hand."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Holding the will in his hand.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/scenes/scene-022.md",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Printed speech while holding the will has no source speaker label."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The will! A boat that will let you roam along the stream of pleasure!",
+        "mode": "prose-faithful",
+        "notes": [
+          "Context points strongly to Sanjeevi, but the source prints no explicit speaker label or delimiter; speaker metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s022-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You won't lose the will! He won't lose his promise! In the end I alone must lose my love.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": "naam-s022-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Love... is it greater than this will? More valuable than this mansion? Prema! Watch—the storm is going to fall at your feet. Careful! Don't even move your lips to anyone!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s022-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s022",
+      "scene_ordinal": 22,
+      "source_scene_number": 22,
+      "source": {
+        "source_path": "works/naam/scenes/scene-022.md",
+        "canonical_scene_path": "works/naam/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Sanjeevi leaves; Prema carries the will to Kumaran."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The physician puts the will away at home and leaves town. Prema takes the will to Kumaran.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

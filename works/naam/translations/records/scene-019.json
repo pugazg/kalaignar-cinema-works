@@ -1,0 +1,251 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s019",
+  "scene_ordinal": 19,
+  "source_scene_number": 19,
+  "scene_status": "verified",
+  "unit_count": 7,
+  "units": [
+    {
+      "id": "naam-en-s019-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/scenes/scene-019.md",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: graveyard.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s019-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/scenes/scene-019.md",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Quoted remembered speech followed by a source parenthetical identifying Narayani."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara! Somehow find that will.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source identifies this as Narayani's plea in a following parenthetical, but does not print an explicit dialogue label or delimiter; speaker metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s019-u003",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/scenes/scene-019.md",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Source parenthetical identifying the preceding remembered speech."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(This is Narayani's plea.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s019-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/scenes/scene-019.md",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Quoted remembered speech followed by a source parenthetical identifying the physician voice."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Money is needed to conduct the case! Then search for the will.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source identifies this as the physician's voice in a following parenthetical, but does not print an explicit dialogue label or delimiter; speaker metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s019-u005",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/scenes/scene-019.md",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Source parenthetical identifying the preceding remembered speech."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(This is the physician's voice.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s019-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-019.json",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": "naam-s019-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I've found the money. The will... yes, in Mallayappar's mansion... Meenu was there... oh... conspirator... why should I even look at her? The will... otherwise, life......",
+        "mode": "prose-faithful",
+        "notes": [
+          "The closing `உயில்... இல்லாவிட்டால் உயிர்` is deliberately kept elliptical rather than expanded into an object not printed in the source."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s019-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s019",
+      "scene_ordinal": 19,
+      "source_scene_number": 19,
+      "source": {
+        "source_path": "works/naam/scenes/scene-019.md",
+        "canonical_scene_path": "works/naam/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran runs toward the mansion in search of the will."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran runs toward Mallayappar's mansion to steal the will.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

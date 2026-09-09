@@ -1,0 +1,539 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s017",
+  "scene_ordinal": 17,
+  "source_scene_number": 17,
+  "scene_status": "verified",
+  "unit_count": 17,
+  "units": [
+    {
+      "id": "naam-en-s017-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What did you think the boxing match was for? To entertain the villagers? Is that our work? That dog must be killed!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பரமசிவம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is killing such an easy matter? I'll defeat him.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What I want is not to crown you with a victory garland as the greatest of warriors—I want him killed.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பரமசிவம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If that's so...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Fight by foul means!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பரமசிவம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "But fighting that way in boxing is an offence under the law...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The law! It will surrender to me! I have the courage to save a man standing on the gallows! Sin, merit, honesty, justice, mercy, law, society—none of these work on me. Act accordingly, Paramasivam! You must kill him! I want my heart cooled by seeing it.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/scenes/scene-017.md",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Boxing contest and village welcome."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A boxing match takes place between Kumaran and Paramasivam. Paramasivam is defeated. The villagers welcome Kumaran.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How am I to thank you for your love and your cheering?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஒருவன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother! Only today have we seen happiness. Hunger, starvation, blows and kicks—that is all there is here!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 32
+          },
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What can I do? If only that will comes into my hands, I will make this entire zamindari yours. The zari cap will not rule you! The whip-rider will not drive you! A flick of that jungle king's eye will no longer be an order!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்தர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "For the poor there is a special comfort in imagining a world of happiness.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Jeevanandar! This is not the heaven devotees imagine! It can be achieved if we strive! It can happen if we will it! To attain it, you don't need a forehead full of sacred ash! Clarity in the heart—and a commitment to honesty—are enough.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let us await—that good day.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-017.json",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": "naam-s017-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The good day will not come toward us! We must walk until our legs ache toward it.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/scenes/scene-017.md",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran brings clothes for distribution."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran brings clothes.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s017-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s017",
+      "scene_ordinal": 17,
+      "source_scene_number": 17,
+      "source": {
+        "source_path": "works/naam/scenes/scene-017.md",
+        "canonical_scene_path": "works/naam/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Printed speech after the clothes direction has no source speaker label."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Jeevanandar! Distribute these among everyone! This is the gift your progressive hearts gave me.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immediate stage direction points to Kumaran, but the source prints no dialogue label or delimiter; speaker metadata remains unassigned."
+        ]
+      }
+    }
+  ]
+}

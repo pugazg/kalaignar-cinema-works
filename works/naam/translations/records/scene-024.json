@@ -1,0 +1,1203 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s024",
+  "scene_ordinal": 24,
+  "source_scene_number": 24,
+  "scene_status": "verified",
+  "unit_count": 39,
+  "units": [
+    {
+      "id": "naam-en-s024-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/scenes/scene-024.md",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Mallayappan's mansion.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Interim Zamindar, greetings! Why are you stunned? The man who should have come bowing and calling you master—has somehow come like this... are you wondering what nonsense I'm babbling?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, Kumara! (Grinding his teeth)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Grinding your teeth—and glaring—will be no use from now on.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't speak without respect!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Respect! From now on you'll have to buy it for a price! Leave the mansion before respect itself is lost!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Those who oppose me are left with nothing but bones!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Even those bones will not remain for arrogant men like you who fight Yama! The bones you left behind... those bones themselves have become spears and come to oppose you!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara! Don't talk like a madman!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The zamindar himself has caught janni, afflicted by the frosty wind of pomp—the sun of intrigue—and the rain of arrogance. Yes, I am mad! Because I don't have a heart that clears!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`ஜன்னி` is retained as `janni` rather than silently forced into a modern medical diagnosis."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s024-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you babbling?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Did I run here so eagerly just to babble!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm not saying it! This will says that the purana of your divine games is over! I've come to tear to shreds the curtain you hung before the townspeople. What do you say? Hmm... leave respectfully!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara...! Don't stumble against a sleeping tiger!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran has set his sights on the mule living inside that tiger skin!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`கோவேரிக் கழுதை` is rendered as `mule` within the source's animal-image insult; the verified Tamil remains untouched."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s024-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara! Don't speak!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A corpse doesn't speak!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm going to kill you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I've heard those same words—in this same mansion—so many times. With those same words, so many bungalows have been levelled to the ground.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am Malayappan!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No doubt!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Keep your display of valour for the boxing ring.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is my house!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That's exactly where you're wrong!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What's the difference? You man without fate! Wandering spendthrift! If I show loyalty to this fellow as an old servant—giving him the zamindari, property, house and home—the fool doesn't even know how to behave with respect?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Malayappa! I'll say it plainly! I'm going to settle my vengeance on you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't be afraid... not now! I'll wait.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara! You must know by heart the list of those who have crumpled at the movement of my little finger!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It's because I know it by heart that I haven't forgotten, fool—listen! Parasites like you have been blown away by the furious breath of workers! Here... is the cry of rights that will bring an end to the durbar of your jungle king, hunted by the people of the land! The sledgehammer that will strike you down! What do you say? Why do you stare? Yield that came without sweating! Pleasure that came without hardship! Ecstasy that came without labour! How can you leave all that behind? It will be a little hard! Are you trembling because your 'right' is being snatched away?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The worker/rights rhetoric and repeated unearned-wealth imagery are kept direct rather than neutralized into summary."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s024-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d032",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Even if I die, I'll order that even my corpse be buried here. If you have a right, don't come here roaring and babbling!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d033",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Didn't your feet walk on the hearts of the poor, making them a cotton mattress? Wasn't the groan of the poor man's heart music to you? Aren't you the one who squeezed the blood of the helpless like grape juice and drank it! We'll meet before the law!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u035",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d034",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go! Go away! Don't stand here!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u036",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": "naam-s024-d035",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm going. This is your last voice of authority.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u037",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/scenes/scene-024.md",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran leaves after the confrontation."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u038",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/scenes/scene-024.md",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Malayappan plans arson."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Malayappan plans to set fire to Kumaran's hut.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s024-u039",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s024",
+      "scene_ordinal": 24,
+      "source_scene_number": 24,
+      "source": {
+        "source_path": "works/naam/scenes/scene-024.md",
+        "canonical_scene_path": "works/naam/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran's hut burns."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The hut catches fire and burns.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

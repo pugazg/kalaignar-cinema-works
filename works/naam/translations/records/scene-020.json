@@ -1,0 +1,237 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s020",
+  "scene_ordinal": 20,
+  "source_scene_number": 20,
+  "scene_status": "verified",
+  "unit_count": 7,
+  "units": [
+    {
+      "id": "naam-en-s020-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/scenes/scene-020.md",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Mallayappar's mansion.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s020-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/scenes/scene-020.md",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Night-time setting."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Night.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s020-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": "naam-s020-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்ல",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 34
+          },
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Gnanam! This silk mattress I lie on! That silk sari you wear! The owner of all this is still alive and roaming. Only when he is gone will I have peace.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s020-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": "naam-s020-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He'll be gone!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s020-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": "naam-s020-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How will he be gone? If only you had calmly given him that poison, he would have been gone that very day.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s020-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": "naam-s020-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What could I do? I mixed the poison into the milk Meenu had kept for him. How was I to know he would give it to his mother!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s020-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s020",
+      "scene_ordinal": 20,
+      "source_scene_number": 20,
+      "source": {
+        "source_path": "works/naam/scenes/scene-020.md",
+        "canonical_scene_path": "works/naam/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran overhears the poisoning explanation and leaves."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Hearing this, Kumaran realizes that Meenu is innocent and leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

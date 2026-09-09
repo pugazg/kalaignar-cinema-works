@@ -2,7 +2,7 @@
 
 **Canonical authority:** 67/67 dual-gate verified Tamil, 45/45 verified source-numbered scenes, 590 immutable dialogue records, complete 28-entity character layer, and reconciled 7/7 source-visible song/performance records  
 **Target language:** English (`en`)  
-**Status:** **verified through source scene 15 / 45; 363 units**
+**Status:** **verified through source scene 25 / 45; 501 units**
 
 This is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -41,7 +41,7 @@ Detailed pilot decisions and integrity checks are in `PILOT_REVIEW.md`; machine-
 
 ## Next batch
 
-Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
+Translate and verify source-numbered scenes 26–35 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-004` in scene 31 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
 
 ## Batch — source scenes 2–5
 
@@ -51,7 +51,7 @@ Cumulative English state is now **5/45 verified scenes / 131 units / 99 immutabl
 
 ## Next batch
 
-Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
+Translate and verify source-numbered scenes 26–35 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-004` in scene 31 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
 
 ## Verified batch — scenes 6–15
 
@@ -64,3 +64,15 @@ Translate and verify source-numbered scenes 16–25 as the next 10-scene English
 - upstream rewrites: **0**.
 
 The continuing production cadence is **10 source scenes per iteration**.
+
+## Verified batch — scenes 16–25
+
+- source scenes: **10 / scenes 16–25**;
+- units: **138**;
+- immutable dialogue links: **101/101**;
+- source-unlabelled speech: **6 / inferred speakers 0**;
+- performance occurrences: **1/1 — `naam-perf-003`**;
+- new lyric-line mappings: **17**;
+- upstream rewrites: **0**.
+
+Production cadence remains **10 source scenes per iteration**.
