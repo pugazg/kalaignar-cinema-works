@@ -1,4 +1,4 @@
-name: Naam dialogue-index synchronization
+name: Naam character-entity preflight synchronization
 
 on:
   push:
@@ -25,72 +25,46 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Rebuild reviewed dialogue preflight
+      - name: Validate immutable dialogue authority
         run: |
           python - <<'PY'
           import json
-          s=json.load(open('works/naam/scenes/index.json'))
-          assert s['status']=='complete-verified'
-          assert s['source_scene_count']==45
-          PY
-          python works/naam/scripts/build_dialogue_preflight.py
-
-      - name: Validate reviewed dialogue preflight
-        run: |
-          python -m json.tool works/naam/notes/dialogue-index-preflight.json >/dev/null
-          python - <<'PY'
-          import json
-          d=json.load(open('works/naam/notes/dialogue-index-preflight.json'))
-          assert d['status']=='review-complete-ready-to-build'
-          assert d['scene_count']==45
-          assert d['explicit_dialogue_candidates']==590, d['explicit_dialogue_candidates']
-          assert d['distinct_exact_speaker_labels']==45, d['distinct_exact_speaker_labels']
-          assert d['delimiter_distribution']=={':':16,':-':573,'—':1}, d['delimiter_distribution']
-          assert len(d['colon_rejects'])==21, len(d['colon_rejects'])
-          assert len(d['reviewed_alternate_delimiter_dialogues'])==1
-          assert len(d['anomalous_delimiter_candidates'])==10
-          assert d['zero_explicit_dialogue_scenes']==['naam-s037']
-          PY
-
-      - name: Build immutable dialogue layer
-        run: python works/naam/scripts/build_dialogues.py
-
-      - name: Validate dialogue layer and QA
-        run: |
-          python -m json.tool works/naam/dialogues/index.json >/dev/null
-          python -m json.tool works/naam/dialogues/schema.json >/dev/null
-          python -m json.tool works/naam/notes/dialogue-index-qa.json >/dev/null
-          python -m json.tool works/naam/notes/unlabelled-block-audit.json >/dev/null
-          python -m json.tool data/works.json >/dev/null
-          python - <<'PY'
-          import json
-          from pathlib import Path
           d=json.load(open('works/naam/dialogues/index.json'))
           q=json.load(open('works/naam/notes/dialogue-index-qa.json'))
           assert d['status']=='complete-verified'
-          assert d['source_scene_count']==45
           assert d['dialogue_record_count']==590
           assert d['distinct_exact_speaker_labels']==45
-          assert d['delimiter_distribution']=={':':16,':-':573,'—':1}
           assert q['status']=='PASS'
           assert q['explicit_label_ownership']=='590/590 exactly once'
           assert q['speaker_alias_normalizations']==0
-          assert q['inferred_unlabelled_speakers']==0
-          files=sorted(Path('works/naam/dialogues/records').glob('scene-*.json'))
-          assert len(files)==45, len(files)
-          total=sum(len(json.load(open(p))) for p in files)
-          assert total==590, total
-          assert json.load(open('works/naam/dialogues/records/scene-037.json'))==[]
           PY
 
-      - name: Commit dialogue closure
+      - name: Build character-entity preflight
+        run: python works/naam/scripts/build_character_preflight.py
+
+      - name: Validate character-entity preflight
+        run: |
+          python -m json.tool works/naam/characters/labels-preflight.json >/dev/null
+          python - <<'PY'
+          import json
+          p=json.load(open('works/naam/characters/labels-preflight.json'))
+          assert p['status']=='review-ready'
+          assert p['dialogue_units_scanned']==590
+          assert p['distinct_exact_source_labels']==45
+          assert len(p['inventory'])==45
+          assert sum(x['record_count'] for x in p['inventory'])==590
+          assert p['policy']['dialogue_records_modified'] is False
+          assert p['policy']['source_speaker_labels_immutable'] is True
+          PY
+
+      - name: Commit character preflight
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo 'No dialogue-index changes needed.'
+            echo 'No character-preflight changes needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Build Naam immutable dialogue index [skip ci]'
+          git add works/naam/characters/labels-preflight.json works/naam/characters/labels-preflight.md
+          git commit -m 'Inventory Naam character labels [skip ci]'
           git push
