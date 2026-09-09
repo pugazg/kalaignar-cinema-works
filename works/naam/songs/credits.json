@@ -1,0 +1,20 @@
+{
+  "work_id": "naam",
+  "broad_credit": {
+    "pdf_page": 4,
+    "text": "கதை, வசனம், பாடல்... மு. கருணாநிதி",
+    "scope_policy": "Preserved exactly as a work-level printed credit; not automatically promoted to item-level authorship."
+  },
+  "specific_item_credit": {
+    "pdf_page": 4,
+    "title": "ஆயிரம் தெய்வங்கள்",
+    "author_as_printed": "பாரதியார்",
+    "song_body_pdf_page": 16,
+    "precedence": "The specific item-level printed credit controls this occurrence and is not overridden by the broad work-level credit."
+  },
+  "remaining_performance_records": {
+    "count": 5,
+    "authorship_status": "unresolved-item-level",
+    "policy": "No item-level author credit has been established from the controlling booklet for these records; do not infer one from the broad work-level credit."
+  }
+}
