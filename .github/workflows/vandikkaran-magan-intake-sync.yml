@@ -1,0 +1,82 @@
+name: Vandikkaran Magan intake synchronization
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'works/vandikkaran-magan/**'
+      - '.github/scripts/vandikkaran_magan_intake_sync.py'
+      - '.github/workflows/vandikkaran-magan-intake-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate intake evidence
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          m=Path('works/vandikkaran-magan/metadata.yaml').read_text(encoding='utf-8')
+          for x in [
+            'pdf_pages: 90',
+            'byte_size: 26391039',
+            'sha256: 03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253',
+            'observed_scene_heading_occurrences: 70',
+            'canonical_tamil_first_pass: not-started',
+          ]: assert x in m,x
+          a=Path('works/vandikkaran-magan/notes/scene-heading-audit.md').read_text(encoding='utf-8')
+          assert '70' in a and '45-46' in a and '53-சி' in a
+          assert Path('works/vandikkaran-magan/mapping.md').exists()
+          PY
+
+      - name: Synchronize repository checkpoint
+        run: python .github/scripts/vandikkaran_magan_intake_sync.py
+
+      - name: Validate synchronized state
+        run: |
+          python -m json.tool data/works.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.load(open('data/works.json'))
+          assert len(data)==9
+          x=next(i for i in data if i.get('id')=='vandikkaran-magan')
+          assert x['structural_mapping']=='complete-verified'
+          assert x['scene_heading_occurrences_observed']==70
+          assert x['canonical_tamil_first_pass']=='not-started'
+          root=Path('README.md').read_text(encoding='utf-8')
+          hand=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
+          audit=Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
+          assert '## வண்டிக்காரன் மகன் status' in root
+          assert '<!-- Vandikkaran Magan intake current -->' in hand
+          assert '<!-- Vandikkaran Magan intake current -->' in audit
+          assert 'all **nine registered works**' in audit
+          PY
+
+      - name: Commit synchronized intake checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md
+          if git diff --cached --quiet; then
+            echo 'No synchronization changes required.'
+          else
+            git commit -m 'Synchronize Vandikkaran Magan intake checkpoint [skip ci]'
+            git push
+          fi
