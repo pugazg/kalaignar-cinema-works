@@ -389,14 +389,16 @@ structured_derivatives:
   song_performance_authorship_resolved: 1
   song_performance_authorship_unresolved: 6
   song_performance_qa_path: "notes/song-performance-qa.json"
-  english_translation: scene-layer-complete-verified-45-of-45-whole-work-reconciliation-next
+  english_translation: complete-verified
   english_translation_index_path: "translations/index.json"
   english_translation_verified_scenes: 45
   english_translation_unit_count: 797
   english_dialogue_links_verified: 590
   english_performance_records_translated: 7
   english_song_line_cue_mappings_verified: 138
-  english_whole_work_reconciliation: ready-next
+  english_whole_work_reconciliation: PASS
+  english_whole_work_reconciliation_qa_path: "translations/whole-work-reconciliation.json"
+  english_reader_export: ready-next
   english_chant_units_verified: 1
   english_chant_line_cue_mappings_verified: 16
   english_pilot_qa_path: "translations/pilot-qa.json"
@@ -413,8 +415,8 @@ status:
   dialogue_index: complete-verified-590-records
   character_entity_index: complete-verified-28-entities
   song_authorship_gate: complete-verified-source-only-reconciled-7-of-7
-  english_translation: in-progress-verified-25-of-45
-  reader_export: not-started
+  english_translation: complete-verified-45-of-45
+  reader_export: ready-next
   reading_room_integration: not-started
 
 user_supplied_context: >-
@@ -423,4 +425,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Run whole-work English translation reconciliation and closure QA across source scenes 1–45 before building the reader/export layer. Verify every translated unit is source-ordered and unique; all 590 immutable dialogue records are linked exactly once; source-unlabelled speech remains unassigned; all seven retained song/performance records are translated without authorship upgrades; the scene-34 chant remains a distinct chant; cross-page provenance and written-text/stage ownership are exact; no duplicate source-span ownership, synthetic scene-end prose, placeholder text, or upstream Tamil/scene/dialogue/character/song-source mutation exists. If and only if that whole-work gate passes, mark English translation complete-verified and begin Phase 10 whole-work reader/export generation."
+next_action: "Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested."

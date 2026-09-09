@@ -10,64 +10,20 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 
 ## Current checkpoint
 
-- source intake: **complete**;
-- whole scan inspected: **72/72 PDF pages**;
-- structural mapping: **verified**;
-- source-numbered scenes: **45 / காட்சி 1–45**, sequential with no observed gaps/repeats/out-of-order numbers;
+- source intake / scan / mapping: **complete / 72/72 / verified**;
 - canonical Tamil: **67/67 COMPLETE-VERIFIED**;
-- visual fidelity: **67/67 PASS / COMPLETE**;
-- historical-glyph final: **67/67 COMPLETE**;
-- open source uncertainty markers: **0**;
-- scene derivatives: **not-started / ready**;
-- dialogue / character / song / English / reader layers: **not-started, subject to normal gate order**.
+- scene derivatives: **45/45 COMPLETE-VERIFIED / QA PASS**;
+- dialogue index: **590 records / COMPLETE-VERIFIED / QA PASS**;
+- character/entity: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED**;
+- song/performance: **7/7 COMPLETE-VERIFIED-SOURCE-ONLY / 1 source-attributed + 6 unresolved**;
+- English: **45/45 COMPLETE-VERIFIED / 797 units / 590/590 dialogue links / 20 unlabelled with 0 inferred speakers / 7/7 performances / 138 mappings / 1 chant (16 mappings) / whole-work QA PASS**;
+- reader/export: **READY-NEXT**; Reading Room integration: **not-started**.
 
-Current canonical files:
+Authoritative English closure: `translations/index.json`, `translations/whole-work-reconciliation.json`, `translations/WHOLE_WORK_RECONCILIATION.md`, and `translations/records/scene-001.json`–`scene-045.json`.
 
-- `transcription/index.json`;
-- `transcription/README.md`;
-- `transcription/parts/pdf-005-009.md`;
-- `transcription/parts/pdf-010-014.md`;
-- `transcription/parts/pdf-015-019.md`;
-- `transcription/parts/pdf-020-024.md`;
-- `transcription/parts/pdf-025-029.md`;
-- `transcription/parts/pdf-030-034.md`;
-- `transcription/parts/pdf-035-039.md`;
-- `transcription/parts/pdf-040-044.md`;
-- `transcription/parts/pdf-045-049.md`;
-- `transcription/parts/pdf-050-054.md`;
-- `transcription/parts/pdf-055-059.md`;
-- `transcription/parts/pdf-060-064.md`;
-- `transcription/parts/pdf-065-069.md`;
-- `transcription/parts/pdf-070-071.md`;
-- `notes/textual-notes-pdf-005-009.md`;
-- `notes/textual-notes-pdf-010-014.md`;
-- `notes/textual-notes-pdf-015-019.md`;
-- `notes/textual-notes-pdf-020-024.md`;
-- `notes/textual-notes-pdf-025-029.md`;
-- `notes/textual-notes-pdf-030-034.md`;
-- `notes/textual-notes-pdf-035-039.md`;
-- `notes/textual-notes-pdf-040-044.md`;
-- `notes/textual-notes-pdf-045-049.md`;
-- `notes/textual-notes-pdf-050-054.md`;
-- `notes/textual-notes-pdf-055-059.md`;
-- `notes/textual-notes-pdf-060-064.md`;
-- `notes/textual-notes-pdf-065-069.md`;
-- `notes/textual-notes-pdf-070-071.md`;
-- `notes/historical-glyph-audit.md`.
-- `notes/verification-audit-pdf-005-009.md`.
-- `notes/verification-audit-pdf-010-014.md`.
-- `notes/verification-audit-pdf-015-019.md`.
-- `notes/verification-audit-pdf-020-024.md`.
-- `notes/verification-audit-pdf-025-029.md`.
-- `notes/verification-audit-pdf-030-034.md`.
-- `notes/verification-audit-pdf-035-039.md`.
-- `notes/verification-audit-pdf-040-044.md`.
-- `notes/verification-audit-pdf-045-049.md`.
-- `notes/verification-audit-pdf-050-054.md`.
-- `notes/verification-audit-pdf-055-059.md`.
-- `notes/verification-audit-pdf-060-064.md`.
-- `notes/verification-audit-pdf-065-069.md`.
-- `notes/verification-audit-pdf-070-071.md`.
+## Current exact next activity
+
+> **Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested.**
 
 ## Source identity
 

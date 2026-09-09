@@ -1,0 +1,113 @@
+{
+  "work_id": "naam",
+  "phase": "english-translation-whole-work-reconciliation",
+  "status": "PASS",
+  "source_scenes_expected": 45,
+  "source_scenes_verified": 45,
+  "translation_units_expected": 797,
+  "translation_units_verified": 797,
+  "unit_ids_unique_and_sequential": true,
+  "source_order_failures": [],
+  "kind_counts": {
+    "chant": 1,
+    "dialogue": 610,
+    "narrative": 35,
+    "performance-cue": 6,
+    "song": 6,
+    "stage-direction": 137,
+    "written-text": 2
+  },
+  "stage_or_narrative_units": 172,
+  "immutable_dialogue_records_expected": 590,
+  "immutable_dialogue_records_linked": 590,
+  "immutable_dialogue_ids_unique": true,
+  "dialogue_source_order_exact": true,
+  "source_unlabelled_speech_units": 20,
+  "source_unlabelled_speaker_assignments": 0,
+  "source_unlabelled_units_supported_by_audit_scene_page": 20,
+  "source_unlabelled_units_with_explicit_audit_block_id": 10,
+  "retained_performance_records_expected": 7,
+  "retained_performance_records_translated": 7,
+  "performance_occurrence_order": [
+    "naam-perf-007",
+    "naam-perf-001",
+    "naam-perf-002",
+    "naam-perf-003",
+    "naam-perf-004",
+    "naam-perf-005",
+    "naam-perf-006"
+  ],
+  "performance_line_cue_mappings": 138,
+  "performance_mapping_counts": {
+    "naam-perf-007": 23,
+    "naam-perf-001": 12,
+    "naam-perf-002": 22,
+    "naam-perf-003": 17,
+    "naam-perf-004": 10,
+    "naam-perf-005": 39,
+    "naam-perf-006": 15
+  },
+  "specific_source_authorship_preserved": {
+    "naam-perf-001": "பாரதியார்"
+  },
+  "unsupported_authorship_upgrades": 0,
+  "source_local_chant_units": [
+    "naam-en-s034-u002"
+  ],
+  "source_local_chant_line_cue_mappings": 16,
+  "source_local_chant_promoted_to_performance_inventory": false,
+  "written_text_units": [
+    "naam-en-s041-u012",
+    "naam-en-s045-u025"
+  ],
+  "cross_page_translation_units": [
+    "naam-en-s001-u021",
+    "naam-en-s008-u009",
+    "naam-en-s017-u011",
+    "naam-en-s020-u003",
+    "naam-en-s021-u002",
+    "naam-en-s030-u016",
+    "naam-en-s031-u002",
+    "naam-en-s036-u007",
+    "naam-en-s039-u017",
+    "naam-en-s041-u002",
+    "naam-en-s045-u013",
+    "naam-en-s045-u022"
+  ],
+  "cross_page_unit_count": 12,
+  "provenance_out_of_scene_bounds": [],
+  "reviewed_nonduplicate_locator_collisions": [
+    [
+      "naam-en-s019-u003",
+      "naam-en-s019-u005"
+    ]
+  ],
+  "duplicate_non_dialogue_source_owners": [],
+  "placeholder_hits": [],
+  "synthetic_scene_end_hits": [],
+  "batch_qa_status": {
+    "pilot-qa.json": "PASS",
+    "batch-002-005-qa.json": "PASS",
+    "batch-006-015-qa.json": "PASS",
+    "batch-016-025-qa.json": "PASS",
+    "batch-026-035-qa.json": "PASS",
+    "batch-036-045-qa.json": "PASS"
+  },
+  "upstream_integrity_before": {
+    "works/naam/transcription": "fbe0e435cb54d6ebc09cb554943b7f8c63d5a71151327be669387f675ef05b0d",
+    "works/naam/scenes": "43f681dbe245bea061f23c250321bb03c060dae3c2bccce144a3c8421ec16fbb",
+    "works/naam/dialogues": "359dcb1befae881ef9f2956e7eace281f0ed91d8507359d0bac24124bf314d1d",
+    "works/naam/characters": "b31535cd105df51e0b4b217707a36e54f237e59fa71622df78d574a17eba14ab",
+    "works/naam/songs/records": "768329ed07220702aeda9e64f218bd39fb020cea3fbd004dd187f64a19533bbc"
+  },
+  "upstream_integrity_after": {
+    "works/naam/transcription": "fbe0e435cb54d6ebc09cb554943b7f8c63d5a71151327be669387f675ef05b0d",
+    "works/naam/scenes": "43f681dbe245bea061f23c250321bb03c060dae3c2bccce144a3c8421ec16fbb",
+    "works/naam/dialogues": "359dcb1befae881ef9f2956e7eace281f0ed91d8507359d0bac24124bf314d1d",
+    "works/naam/characters": "b31535cd105df51e0b4b217707a36e54f237e59fa71622df78d574a17eba14ab",
+    "works/naam/songs/records": "768329ed07220702aeda9e64f218bd39fb020cea3fbd004dd187f64a19533bbc"
+  },
+  "upstream_source_layers_modified": false,
+  "reader_export_gate": "READY-NEXT",
+  "next_activity": "Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested."
+}
