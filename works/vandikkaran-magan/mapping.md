@@ -154,13 +154,13 @@ Rules:
 - source intake: **COMPLETE**;
 - structural mapping: **COMPLETE-VERIFIED for source boundaries / pagination / scene-heading sequence**;
 - scene-heading inventory: **71/71 observed heading occurrences mapped**;
-- canonical Tamil first pass: **IN PROGRESS through PDF 83**;
-- visual fidelity audit: **NOT-STARTED**;
-- historical-glyph full audit: **NOT-STARTED**;
+- canonical Tamil first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
+- visual fidelity audit: **IN PROGRESS — PDF 4–23 / 20 of 87 visually verified**;
+- historical-glyph full audit: **NOT-STARTED** under the mandatory phase order;
 - structured derivatives: **BLOCKED**;
 - song/performance authorship gate: **NOT-STARTED**;
 - English translation / reader / Reading Room: **NOT-STARTED**.
 
 ## Exact next activity
 
-**Continue canonical Tamil first-pass transcription with PDF 84–88, then PDF 89–90, preserving stable page anchors and source-visible scene-heading forms, speaker labels, directions, songs/performance text, punctuation and irregularities exactly. First-pass pages remain draft until the separate visual-fidelity and historical-glyph verification phases.**
+**Visually verify PDF 24–28 directly against the controlling scan as the next five-page batch. Correct source discrepancies without silent normalization, mark those five records `visual-verified`, update the transcription index to 25/87, commit/push the batch, and continue with PDF 29–33. Dedicated historical-glyph verification remains blocked until the visual pass reaches PDF 90.**
