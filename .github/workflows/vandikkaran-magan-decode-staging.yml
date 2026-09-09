@@ -1,0 +1,83 @@
+name: Vandikkaran Magan decode staged first-pass candidates
+
+on:
+  push:
+    branches:
+      - research/vandikkaran-magan-decode-staging-20260909
+    paths:
+      - '.github/workflows/vandikkaran-magan-decode-staging.yml'
+      - '.github/data/vandikkaran-magan-firstpass/chunk-01.txt'
+      - '.github/data/vandikkaran-magan-firstpass/chunk-02.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  decode:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Decode without executing payload
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import base64, bz2, hashlib, json
+
+          root = Path('.github/data/vandikkaran-magan-firstpass')
+          parts = []
+          sizes = {}
+          for name in ('chunk-01.txt', 'chunk-02.txt'):
+              s = (root / name).read_text(encoding='ascii').strip()
+              sizes[name] = len(s)
+              parts.append(s)
+
+          encoded = ''.join(parts)
+          raw = base64.b85decode(encoded)
+          assert raw.startswith(b'BZh9'), raw[:8]
+          decoded = bz2.decompress(raw)
+          text = decoded.decode('utf-8')
+
+          (root / 'decoded-payload.txt').write_text(text, encoding='utf-8')
+
+          manifest = {
+              'encoding': 'python-base85',
+              'compression': 'bzip2',
+              'chunk_character_lengths': sizes,
+              'encoded_character_length': len(encoded),
+              'compressed_byte_length': len(raw),
+              'decoded_byte_length': len(decoded),
+              'decoded_sha256': hashlib.sha256(decoded).hexdigest(),
+              'decoded_utf8': True,
+              'decoded_line_count': text.count('\n') + (1 if text else 0),
+              'decoded_prefix': text[:200],
+          }
+          try:
+              obj = json.loads(text)
+          except Exception:
+              manifest['json_valid'] = False
+          else:
+              manifest['json_valid'] = True
+              manifest['json_top_level_type'] = type(obj).__name__
+              if isinstance(obj, dict):
+                  manifest['json_keys'] = list(obj.keys())[:50]
+              elif isinstance(obj, list):
+                  manifest['json_item_count'] = len(obj)
+          (root / 'decoded-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit decoded inspection artifacts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/data/vandikkaran-magan-firstpass/decoded-payload.txt .github/data/vandikkaran-magan-firstpass/decoded-manifest.json
+          git commit -m 'Decode Vandikkaran Magan staged first-pass candidates [skip ci]'
+          git push
