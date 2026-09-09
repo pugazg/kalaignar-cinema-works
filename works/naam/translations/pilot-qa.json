@@ -1,0 +1,46 @@
+{
+  "work_id": "naam",
+  "phase": "english-translation-pilot-qa",
+  "status": "PASS",
+  "scene_id": "naam-s001",
+  "source_scene_number": 1,
+  "source_pdf_pages": [5, 6, 7],
+  "translation_units": 21,
+  "unit_type_counts": {
+    "narrative": 4,
+    "dialogue": 14,
+    "stage-direction": 1,
+    "performance-cue": 1,
+    "song": 1
+  },
+  "immutable_dialogue_records_expected": 14,
+  "immutable_dialogue_records_linked": 14,
+  "dialogue_coverage": "14/14 exactly once",
+  "missing_dialogue_links": 0,
+  "duplicate_dialogue_links": 0,
+  "exact_tamil_speaker_labels_preserved": true,
+  "source_delimiters_preserved_as_metadata": true,
+  "inferred_unlabelled_speakers": 0,
+  "performance_occurrences_expected": ["naam-perf-007"],
+  "performance_occurrences_linked": ["naam-perf-007"],
+  "performance_coverage": "1/1",
+  "song_line_cue_mappings_expected": 23,
+  "song_line_cue_mappings_present": 23,
+  "song_line_cue_coverage": "23/23",
+  "cross_page_units": [
+    {
+      "unit_id": "naam-en-s001-u021",
+      "pdf_pages": [6, 7]
+    }
+  ],
+  "authorship_status_changed_by_translation": false,
+  "naam_perf_007_item_level_authorship": "unresolved-item-level",
+  "specific_bharathiyar_credit_preserved_only_for": "naam-perf-001",
+  "external_or_unprinted_lyrics_imported": false,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "song_source_records_modified_by_translation": 0,
+  "next_gate": "scenes 2-5 translation batch ready"
+}
