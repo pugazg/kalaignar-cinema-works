@@ -6,7 +6,7 @@ Branch: `main`
 
 ## Scope
 
-This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **eight registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
+This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **nine registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
 
 ## Result
 
@@ -26,6 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
+| Vandikkaran Magan / வண்டிக்காரன் மகன் | intake + structural map **complete-verified**; canonical Tamil not started | 70 observed source scene headings mapped; derivatives blocked | not-started | not-started |
 
 ## Naam current checkpoint
 
@@ -165,3 +166,7 @@ Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நா�
 
 <!-- Naam Phase 10 current -->
 **Naam Phase 10 current:** reader/export **COMPLETE-VERIFIED / QA PASS** — 45 source-numbered scenes / 797 English units / 590 immutable dialogue links / 7 retained performances / 138 performance mappings / 1 distinct chant (16 mappings) / 12 cross-page units. Reading Room payload **PAYLOAD-COMPLETE-VERIFIED / QA PASS**, SHA-256 `9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825`, site application **not-applied**. No PDF/EPUB was generated. **Next:** No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.
+
+
+<!-- Vandikkaran Magan intake current -->
+**Current active work:** **வண்டிக்காரன் மகன்**. Source intake and structural mapping are synchronized **COMPLETE-VERIFIED**: 90-page image-only 1978 first-edition source, screenplay PDF 6–87 / printed pp.5–86, and **70 observed source scene-heading occurrences** including suffix insertions and combined `45-46`. Canonical Tamil is **NOT-STARTED** and every downstream derivative remains blocked/not-started. The source-visible film-level lyric credit `பாடல்கள்: கவிஞர் வாலி` is metadata only until the item-level song/performance gate. **Next:** Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.

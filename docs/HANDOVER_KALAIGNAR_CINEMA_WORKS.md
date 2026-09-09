@@ -134,8 +134,9 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
 - **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45**; dialogues **590**; characters **28 / 45/45 / 590/590**; song/performance gate **7/7 reconciled**; English **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated**.
+- **Vandikkaran Magan / வண்டிக்காரன் மகன்** — 90-page 1978 first-edition source; intake + structural map complete-verified; 70 source scene-heading occurrences mapped; canonical Tamil not started.
 
-Ammayappan remains closed at its complete-verified checkpoint. The current active production work is **Naam / நாம்**, beginning canonical Tamil only after its completed source-intake and structural-mapping gate.
+Ammayappan remains closed at its complete-verified checkpoint. **Naam / நாம் is closed through reader/export and Reading Room payload QA PASS. The current active production work is வண்டிக்காரன் மகன், whose source intake and structural-mapping gate are now complete-verified; canonical Tamil is next.**
 
 ---
 
@@ -276,3 +277,17 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 
 <!-- Naam Phase 10 current -->
 **Naam Phase 10 current:** reader/export **COMPLETE-VERIFIED / QA PASS** — 45 source-numbered scenes / 797 English units / 590 immutable dialogue links / 7 retained performances / 138 performance mappings / 1 distinct chant (16 mappings) / 12 cross-page units. Reading Room payload **PAYLOAD-COMPLETE-VERIFIED / QA PASS**, SHA-256 `9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825`, site application **not-applied**. No PDF/EPUB was generated. **Next:** No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.
+
+
+<!-- Vandikkaran Magan intake current -->
+## வண்டிக்காரன் மகன் active checkpoint
+
+- source: `TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` — **90 pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`**;
+- printed source roles: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
+- first edition: **1978**; publisher: **கனி பதிப்பகம், சென்னை-34.**;
+- structure: PDF 4–5 foreword; PDF 6–87 screenplay/dialogue; PDF 88–89 film credits; PDF 90 back cover;
+- scene-heading mapping: **70/70 observed occurrences**, including 15 suffix insertions and combined `45-46`;
+- canonical Tamil: **NOT-STARTED**; later derivatives: **BLOCKED**;
+- source film credits include `பாடல்கள்: கவிஞர் வாலி`; item-level occurrence mapping remains deferred to the song gate.
+
+**Exact next activity:** Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.

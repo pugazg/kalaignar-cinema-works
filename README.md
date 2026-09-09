@@ -22,6 +22,22 @@ Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/HISTORICAL_TAMIL_GLYPH_TRANS
 
 The preferred public reading destination is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Preserve each source's natural structure; do not force non-screenplay booklets into screenplay scenes.
 
+## வண்டிக்காரன் மகன் status
+
+`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is the new active cinema-work source.
+
+- source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`**;
+- source credits: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
+- publisher / edition: **`கனி பதிப்பகம்`, `சென்னை-34.` / `முதற் பதிப்பு : 1978`**;
+- source boundaries: **PDF 4–5 foreword / PDF 6–87 screenplay-dialogue / PDF 88–89 film credits**;
+- screenplay pagination: **printed = PDF − 1 / printed pp.5–86**;
+- scene-heading mapping: **70 observed occurrences / COMPLETE-VERIFIED**;
+- numbering structure: base **1–56**, **15 suffix insertions**, combined printed **`45-46`**;
+- canonical Tamil / fidelity / structured derivatives: **NOT-STARTED / NOT-STARTED / BLOCKED**;
+- historical-glyph workflow: **mandatory prospectively from first pass**.
+
+**Next:** Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.
+
 ## நாம் status
 
 `TVA_BOK_0064201_நாம்.pdf` now has **complete-verified canonical Tamil**. The user's manual controlling-scan review resolved the three former source-obscuration holds.
