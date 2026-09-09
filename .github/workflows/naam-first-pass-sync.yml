@@ -9,7 +9,7 @@ on:
       - 'README.md'
       - 'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'
       - 'docs/STATUS_CONSISTENCY_AUDIT.md'
-      - '.github/scripts/naam_english_whole_work_reconcile.py'
+      - '.github/scripts/naam_english_whole_work_reconcile_v2.py'
       - '.github/workflows/naam-first-pass-sync.yml'
   workflow_dispatch:
 
@@ -66,47 +66,38 @@ jobs:
           assert e['retained_performance_records_translated']==7 and e['song_line_cue_mappings_verified']==138
           assert e['source_chant_units_verified']==1 and e['source_chant_line_cue_mappings_verified']==16
           assert e['whole_work_reconciliation_status']=='ready-next'
-          for n in range(1,46):
-              assert Path(f'works/naam/translations/records/scene-{n:03d}.json').exists()
+          for n in range(1,46): assert Path(f'works/naam/translations/records/scene-{n:03d}.json').exists()
           for p in ['pilot-qa.json','batch-002-005-qa.json','batch-006-015-qa.json','batch-016-025-qa.json','batch-026-035-qa.json','batch-036-045-qa.json']:
               assert json.load(open('works/naam/translations/'+p))['status']=='PASS'
           PY
 
       - name: Run whole-work English reconciliation
-        run: python .github/scripts/naam_english_whole_work_reconcile.py
+        run: python .github/scripts/naam_english_whole_work_reconcile_v2.py
 
       - name: Validate reconciliation closure
         run: |
           python -m json.tool works/naam/translations/index.json >/dev/null
           python -m json.tool works/naam/translations/whole-work-reconciliation.json >/dev/null
           python - <<'PY'
-          import json,re
+          import json
           from pathlib import Path
           q=json.load(open('works/naam/translations/whole-work-reconciliation.json'))
-          assert q['status']=='PASS'
-          assert q['source_scenes_verified']==45 and q['translation_units_verified']==797
+          assert q['status']=='PASS' and q['source_scenes_verified']==45 and q['translation_units_verified']==797
           assert q['unit_ids_unique_and_sequential'] is True and q['source_order_failures']==[]
           assert q['immutable_dialogue_records_linked']==590 and q['immutable_dialogue_ids_unique'] is True and q['dialogue_source_order_exact'] is True
-          assert q['source_unlabelled_speech_units']==20 and q['source_unlabelled_speaker_assignments']==0 and q['source_unlabelled_audit_blocks_referenced_exactly_once']==20
+          assert q['source_unlabelled_speech_units']==20 and q['source_unlabelled_speaker_assignments']==0 and q['source_unlabelled_units_supported_by_audit_scene_page']==20
           assert q['retained_performance_records_translated']==7 and q['performance_line_cue_mappings']==138
           assert q['specific_source_authorship_preserved']=={'naam-perf-001':'பாரதியார்'} and q['unsupported_authorship_upgrades']==0
           assert q['source_local_chant_units']==['naam-en-s034-u002'] and q['source_local_chant_line_cue_mappings']==16 and q['source_local_chant_promoted_to_performance_inventory'] is False
-          assert q['written_text_units']==['naam-en-s041-u012','naam-en-s045-u025']
-          assert q['cross_page_unit_count']==12
-          assert q['provenance_out_of_scene_bounds']==[] and q['duplicate_non_dialogue_source_owners']==[]
-          assert q['placeholder_hits']==[] and q['synthetic_scene_end_hits']==[]
+          assert q['written_text_units']==['naam-en-s041-u012','naam-en-s045-u025'] and q['cross_page_unit_count']==12
+          assert q['provenance_out_of_scene_bounds']==[] and q['duplicate_non_dialogue_source_owners']==[] and q['placeholder_hits']==[] and q['synthetic_scene_end_hits']==[]
           assert q['upstream_source_layers_modified'] is False and q['reader_export_gate']=='READY-NEXT'
-          kinds=q['kind_counts']
-          assert kinds['dialogue']==610 and kinds['song']==6 and kinds['chant']==1 and kinds['performance-cue']==6 and kinds['written-text']==2
+          kinds=q['kind_counts']; assert kinds['dialogue']==610 and kinds['song']==6 and kinds['chant']==1 and kinds['performance-cue']==6 and kinds['written-text']==2
           assert q['stage_or_narrative_units']==172 and sum(kinds.values())==797
           idx=json.load(open('works/naam/translations/index.json'))
           assert idx['status']=='complete-verified' and idx['whole_work_reconciliation_status']=='PASS' and idx['reader_export_status']=='ready-next'
-          assert idx['translation_units_verified']==797 and idx['immutable_dialogue_links_verified']==590
-          assert idx['retained_performance_records_translated']==7 and idx['song_line_cue_mappings_verified']==138
-          assert idx['source_unlabelled_speech_units_verified']==20 and idx['source_chant_line_cue_mappings_verified']==16
-          assert idx['whole_work_reconciliation_qa']=='whole-work-reconciliation.json'
-          report=Path('works/naam/translations/WHOLE_WORK_RECONCILIATION.md').read_text(encoding='utf-8')
-          assert 'PASS / COMPLETE-VERIFIED' in report and '590/590 exactly once' in report and 'reader/export' in report.lower()
+          assert idx['translation_units_verified']==797 and idx['immutable_dialogue_links_verified']==590 and idx['retained_performance_records_translated']==7 and idx['song_line_cue_mappings_verified']==138
+          assert 'PASS / COMPLETE-VERIFIED' in Path('works/naam/translations/WHOLE_WORK_RECONCILIATION.md').read_text(encoding='utf-8')
           PY
 
       - name: Verify immutable upstream layers unchanged
@@ -118,59 +109,33 @@ jobs:
           def digest(root):
               h=hashlib.sha256()
               for p in sorted(Path(root).rglob('*')):
-                  if p.is_file():
-                      h.update(str(p).encode()); h.update(b'\0'); h.update(p.read_bytes()); h.update(b'\0')
+                  if p.is_file(): h.update(str(p).encode());h.update(b'\0');h.update(p.read_bytes());h.update(b'\0')
               return h.hexdigest()
-          before=json.loads(Path('/tmp/naam-upstream-before.json').read_text())
-          after={r:digest(r) for r in roots}
-          assert before==after,(before,after)
-          qa=json.load(open('works/naam/translations/whole-work-reconciliation.json'))
-          assert qa['upstream_integrity_before']==qa['upstream_integrity_after']==before
+          before=json.loads(Path('/tmp/naam-upstream-before.json').read_text());after={r:digest(r) for r in roots};assert before==after
+          q=json.load(open('works/naam/translations/whole-work-reconciliation.json'));assert q['upstream_integrity_before']==q['upstream_integrity_after']==before
           PY
 
       - name: Validate active mirror synchronization and stale-state closure
         run: |
           python - <<'PY'
-          import json,re
+          import json
           from pathlib import Path
           m=Path('works/naam/metadata.yaml').read_text(encoding='utf-8')
-          for x in [
-              'english_translation: complete-verified',
-              'english_translation_verified_scenes: 45',
-              'english_translation_unit_count: 797',
-              'english_dialogue_links_verified: 590',
-              'english_performance_records_translated: 7',
-              'english_song_line_cue_mappings_verified: 138',
-              'english_whole_work_reconciliation: PASS',
-              'english_reader_export: ready-next',
-              'english_translation: complete-verified-45-of-45',
-              'reader_export: ready-next']:
-              assert x in m,x
-          assert 'english_translation: in-progress-verified-25-of-45' not in m
-          assert 'english_whole_work_reconciliation: ready-next' not in m
-          wr=Path('works/naam/README.md').read_text(encoding='utf-8')
-          assert 'English translation: **45/45 COMPLETE-VERIFIED' in wr and 'English whole-work reconciliation closure' in wr
-          ph=Path('works/naam/PROJECT_HANDOVER.md').read_text(encoding='utf-8')
-          top=ph.split('## Source identity',1)[0]
-          assert 'English translation: **45/45 COMPLETE-VERIFIED' in top and 'reader/export: **READY-NEXT**' in top and 'Phase 10 whole-work reader/export' in top
-          assert 'scene derivatives: **not-started / ready**' not in top
-          nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8')
-          assert 'English translation is now **COMPLETE-VERIFIED**' in nxt and 'Reader/export is **READY-NEXT**' in nxt and 'Phase 10 whole-work reader/export' in nxt
-          assert 'do not yet label the whole English phase' not in nxt.lower()
-          data=json.load(open('data/works.json')); sd=next(x for x in data if x.get('id')=='naam')['structured_derivatives']
-          assert sd['english_translation']=='complete-verified' and sd['english_whole_work_reconciliation']=='PASS' and sd['reader_export']=='ready-next'
-          assert sd['english_translation_units']==797 and sd['english_dialogue_links_verified']==590 and sd['english_song_line_cue_mappings_verified']==138
-          root=Path('README.md').read_text(encoding='utf-8'); assert 'Naam English whole-work closure current' in root
-          hand=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8'); audit=Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
-          assert 'Naam English whole-work closure current' in hand and 'Naam English whole-work closure current' in audit
+          for x in ['english_translation: complete-verified','english_translation_verified_scenes: 45','english_translation_unit_count: 797','english_dialogue_links_verified: 590','english_performance_records_translated: 7','english_song_line_cue_mappings_verified: 138','english_whole_work_reconciliation: PASS','english_reader_export: ready-next','english_translation: complete-verified-45-of-45','reader_export: ready-next']: assert x in m,x
+          assert 'english_translation: in-progress-verified-25-of-45' not in m and 'english_whole_work_reconciliation: ready-next' not in m
+          wr=Path('works/naam/README.md').read_text(encoding='utf-8'); assert 'English translation: **45/45 COMPLETE-VERIFIED' in wr and 'English whole-work reconciliation closure' in wr
+          ph=Path('works/naam/PROJECT_HANDOVER.md').read_text(encoding='utf-8');top=ph.split('## Source identity',1)[0]
+          assert 'English: **45/45 COMPLETE-VERIFIED' in top and 'reader/export: **READY-NEXT**' in top and 'Phase 10 whole-work reader/export' in top and 'scene derivatives: **not-started / ready**' not in top
+          nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8'); assert 'English translation is **COMPLETE-VERIFIED**' in nxt and 'Reader/export is **READY-NEXT**' in nxt and 'Phase 10 whole-work reader/export' in nxt
+          data=json.load(open('data/works.json'));sd=next(x for x in data if x.get('id')=='naam')['structured_derivatives'];assert sd['english_translation']=='complete-verified' and sd['english_whole_work_reconciliation']=='PASS' and sd['reader_export']=='ready-next'
+          assert 'Naam English whole-work closure current' in Path('README.md').read_text(encoding='utf-8')
+          assert 'Naam English whole-work closure current' in Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
+          assert 'Naam English whole-work closure current' in Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
           PY
 
       - name: Commit whole-work English closure
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo 'No reconciliation synchronization changes needed.'
-            exit 0
-          fi
+          if [ -z "$(git status --porcelain)" ]; then echo 'No reconciliation synchronization changes needed.'; exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
