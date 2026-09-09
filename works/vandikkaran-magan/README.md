@@ -54,8 +54,8 @@ Do not interleave phases.
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
-- visual verification: **IN PROGRESS — PDF 4–28 / 25 of 87 VERIFIED**;
-- remaining visual-verification pages: **62**;
+- visual verification: **IN PROGRESS — PDF 4–33 / 30 of 87 VERIFIED**;
+- remaining visual-verification pages: **57**;
 - historical-glyph verification: **NOT-STARTED** under the mandatory phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
@@ -64,12 +64,11 @@ Do not interleave phases.
 
 ## Latest five-page visual batch
 
-- PDF **24–28 / printed 23–27** visually verified against enlarged source pixels;
-- source-controlled corrections include `இங்கேயிருந்தபடியே`, missing `சாரி மிஸ்டர் விங்கன்`, `காளிங் / காளிங்கன்` forms, and `சைகை காட்டி`;
-- PDF 27 preserves source heading **`காட்சி—14 எ`** and the two-line location `ஜமீன் மாளிகை / காளிங்கன் அறைக்கு வெளியே`;
-- PDF 28 preserves scene **15** and corrected dialogue including `மூடு கிரியேட் ஆகும்`;
+- PDF **29–33 / printed 28–32** visually verified against enlarged source pixels;
+- source-controlled corrections include `காளிங்கன்`, `ஒரு இடத்துல நிக்க முடியல்ல`, source `டீச்சரம்மா`, `காளிங் / காளிங்கா`, and `ஒதுங்க`;
+- PDF 29 preserves scene **16** and **16 எ**; PDF 30 begins scene **17**; PDF 31 begins scene **18**; PDF 33 begins scene **19**;
 - all five page records are now `visual-verified`.
 
 ## Exact next activity
 
-> **Visually verify PDF 29–33 against the controlling scan as the next five-page batch; correct every source discrepancy without silent normalization; mark those five records `visual-verified`; update `transcription/index.json` to 30/87; commit/push the batch; then continue with PDF 34–38. Do not begin dedicated historical-glyph verification until visual verification reaches PDF 90.**
+> **Visually verify PDF 34–38 against the controlling scan as the next five-page batch; correct every source discrepancy without silent normalization; mark those five records `visual-verified`; update `transcription/index.json` to 35/87; commit/push the batch; then continue with PDF 39–43. Do not begin dedicated historical-glyph verification until visual verification reaches PDF 90.**
