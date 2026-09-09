@@ -12,11 +12,11 @@
   "supplementary_credit_pdf_pages": "88-89",
   "back_cover_pdf_page": 90,
   "status": "in-progress-draft",
-  "first_pass_pages_completed": 15,
-  "first_pass_pdf_range_completed": "4-18",
-  "first_pass_current_through_pdf": 18,
-  "first_pass_current_through_printed": 17,
-  "draft_pages": 15,
+  "first_pass_pages_completed": 20,
+  "first_pass_pdf_range_completed": "4-23",
+  "first_pass_current_through_pdf": 23,
+  "first_pass_current_through_printed": 22,
+  "draft_pages": 20,
   "visual_verified_pages": 0,
   "historical_glyph_verified_pages": 0,
   "final_visual_verified_pages": 0,
@@ -24,23 +24,148 @@
   "historical_glyph_first_pass_checked_pages": 10,
   "historical_glyph_final_verified_pages": 0,
   "page_records": [
-    {"pdf_page":4,"printed_page":null,"kind":"foreword","status":"draft","path":"pages/004.md"},
-    {"pdf_page":5,"printed_page":null,"kind":"foreword","status":"draft","path":"pages/005.md"},
-    {"pdf_page":6,"printed_page":5,"kind":"screenplay","status":"draft","path":"pages/006.md"},
-    {"pdf_page":7,"printed_page":6,"kind":"screenplay","status":"draft","path":"pages/007.md"},
-    {"pdf_page":8,"printed_page":7,"kind":"screenplay","status":"draft","path":"pages/008.md"},
-    {"pdf_page":9,"printed_page":8,"kind":"screenplay","status":"draft","path":"pages/009.md"},
-    {"pdf_page":10,"printed_page":9,"kind":"screenplay","status":"draft","path":"pages/010.md"},
-    {"pdf_page":11,"printed_page":10,"kind":"screenplay","status":"draft","path":"pages/011.md"},
-    {"pdf_page":12,"printed_page":11,"kind":"screenplay","status":"draft","path":"pages/012.md"},
-    {"pdf_page":13,"printed_page":12,"kind":"screenplay","status":"draft","path":"pages/013.md"},
-    {"pdf_page":14,"printed_page":13,"kind":"screenplay","status":"draft","path":"pages/014.md"},
-    {"pdf_page":15,"printed_page":14,"kind":"screenplay","status":"draft","path":"pages/015.md"},
-    {"pdf_page":16,"printed_page":15,"kind":"screenplay","status":"draft","path":"pages/016.md"},
-    {"pdf_page":17,"printed_page":16,"kind":"screenplay","status":"draft","path":"pages/017.md"},
-    {"pdf_page":18,"printed_page":17,"kind":"screenplay","status":"draft","path":"pages/018.md"}
+    {
+      "pdf_page": 4,
+      "printed_page": null,
+      "kind": "foreword",
+      "status": "draft",
+      "path": "pages/004.md"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": null,
+      "kind": "foreword",
+      "status": "draft",
+      "path": "pages/005.md"
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/006.md"
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/007.md"
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/008.md"
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/009.md"
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/010.md"
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/011.md"
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/012.md"
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/013.md"
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/014.md"
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/015.md"
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 15,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/016.md"
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 16,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/017.md"
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 17,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/018.md"
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 18,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/019.md"
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 19,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/020.md"
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 20,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/021.md"
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 21,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/022.md"
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 22,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/023.md"
+    }
   ],
   "batch_size_source_pages": 5,
-  "next_batch_pdf_pages": "19-23",
-  "next_action": "Continue canonical Tamil first-pass transcription with PDF 19–23 in source order, keep all pages draft, commit/push that batch, and continue until PDF 90. Do not begin visual verification or historical-glyph verification until first-pass coverage reaches PDF 90."
+  "next_batch_pdf_pages": "24-28",
+  "next_action": "Continue canonical Tamil first-pass transcription with PDF 24–28 in source order, keep all pages draft, commit/push that batch, and continue until PDF 90. Do not begin visual verification or historical-glyph verification until first-pass coverage reaches PDF 90."
 }
