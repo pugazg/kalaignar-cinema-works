@@ -53,9 +53,9 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 observed headings**;
-- first-pass transcription: **IN PROGRESS — PDF 4–38 / 35 of 87 scoped source pages DRAFT**;
-- screenplay drafted through: **PDF 38 / printed 37**;
-- page states: **35 draft**;
+- first-pass transcription: **IN PROGRESS — PDF 4–43 / 40 of 87 scoped source pages DRAFT**;
+- screenplay drafted through: **PDF 43 / printed 42**;
+- page states: **40 draft**;
 - open first-pass uncertainty markers: **0 recorded**;
 - visual verification: **NOT-STARTED**;
 - historical-glyph verification: **NOT-STARTED** under the current user-directed phase order;
@@ -65,11 +65,11 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 ## Latest five-page batch
 
-- PDF **34–38 / printed 33–37** drafted;
-- scene `19` continues on PDF 34; scene starts encountered: `20`, `20-எ`;
-- PDF 36–37 contains the source-visible `விங்கன் — கோகிலா காதல் கீதம்` block;
+- PDF **39–43 / printed 38–42** drafted;
+- scene starts encountered: `21`, `22`, `22-எ`, `23`, `24`;
+- scene `24` continues through PDF 43;
 - all five records remain `draft` pending the later verification phases.
 
 ## Exact next activity
 
-> **Continue first-pass transcription with PDF 39–43 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**
+> **Continue first-pass transcription with PDF 44–48 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**
