@@ -1,0 +1,90 @@
+title: வண்டிக்காரன் மகன்
+work_id: vandikkaran-magan
+work_type: film
+source_type: printed_screenplay_dialogue_booklet
+source:
+  filename: TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf
+  identifier: TVA_BOK_0062961
+  identifier_basis: supplied_archive_filename
+  pdf_pages: 90
+  byte_size: 26391039
+  sha256: 03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253
+  form: image-only-scan
+source_identity:
+  title_as_printed: வண்டிக்காரன் மகன்
+  original_story_credit_as_printed: மூலக்கதை அண்ணா
+  screenplay_dialogue_credit_as_printed: திரைக்கதை-வசனம் கலைஞர்
+  publisher_as_printed: கனி பதிப்பகம்
+  publisher_location_as_printed: சென்னை-34.
+  edition_statement_as_printed: "முதற் பதிப்பு : 1978"
+  publication_year_as_printed: 1978
+  price_as_printed: "விலை ரூ. 1-50"
+  printer_as_printed: "அச்சிட்டோர்: முரசொலி அச்சகம் சென்னை - 600 034."
+film_credit_matter:
+  pdf_pages: 88-89
+  story_credit_as_printed: அறிஞர் அண்ணா
+  screenplay_dialogue_credit_as_printed: கலைஞர்
+  songs_credit_as_printed: கவிஞர் வாலி
+  music_credit_as_printed: எம். எஸ். விஸ்வநாதன்
+  song_credit_disposition: film-level-source-credit-item-level-occurrence-mapping-deferred
+source_boundaries:
+  front_cover_pdf_page: 1
+  title_credit_pdf_page: 2
+  edition_price_printer_pdf_page: 3
+  foreword_pdf_pages: 4-5
+  screenplay_pdf_pages: 6-87
+  screenplay_printed_pages: 5-86
+  film_credits_pdf_pages: 88-89
+  back_cover_pdf_page: 90
+  screenplay_pagination_formula: printed_page=pdf_page-1
+structural_mapping:
+  status: complete-verified-source-boundaries-and-scene-heading-sequence
+  mapping_path: works/vandikkaran-magan/mapping.md
+  scene_heading_audit_path: works/vandikkaran-magan/notes/scene-heading-audit.md
+  source_numbered_scene_headings: true
+  observed_scene_heading_occurrences: 70
+  unsuffixed_or_combined_headings: 55
+  suffix_insert_headings: 15
+  base_number_range: 1-56
+  combined_heading: 45-46
+  inserted_suffix_labels:
+    - 10-எ
+    - 14-எ
+    - 16-எ
+    - 20-எ
+    - 22-எ
+    - 24-எ
+    - 24-பி
+    - 24-சி
+    - 24-டி
+    - 29-எ
+    - 33-எ
+    - 42-எ
+    - 53-எ
+    - 53-பி
+    - 53-சி
+  internal_location_subheadings_present: true
+  song_performance_structures_present: true
+historical_glyph_policy:
+  required: true
+  guide: docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md
+  audit_families: "ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ"
+  occurrence_by_occurrence_only: true
+user_catalogue_context:
+  status: contextual-not-canonical-source-text
+  note: user supplied title/author/publisher/edition metadata and a descriptive paragraph; source-visible identity controls repository metadata where roles differ
+status:
+  source_intake: complete
+  structural_mapping: complete-verified
+  scene_heading_audit: complete-70-of-70-observed
+  canonical_tamil_first_pass: not-started
+  visual_fidelity_audit: not-started
+  historical_glyph_full_audit: not-started
+  scene_text_derivatives: blocked
+  dialogue_index: blocked
+  character_entity_index: blocked
+  song_performance_authorship_gate: not-started
+  english_translation: not-started
+  reader_export: not-started
+  reading_room_integration: not-started
+next_action: "Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes."
