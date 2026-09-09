@@ -1,39 +1,228 @@
-name: Naam Phase 10 bootstrap
+name: Naam Phase 10 reader and Reading Room payload
 
 on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/naam-first-pass-sync.yml'
+      - 'works/naam/editions/en/**'
+      - 'works/naam/integrations/reading-room/**'
       - '.github/scripts/naam_phase10_sync.py'
+      - '.github/workflows/naam-first-pass-sync.yml'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  checkpoint:
+  phase10:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-24.04
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Snapshot immutable source and English-record layers
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          roots=[
+            'works/naam/transcription',
+            'works/naam/scenes',
+            'works/naam/dialogues',
+            'works/naam/characters',
+            'works/naam/songs',
+            'works/naam/translations/records',
+          ]
+          def digest(root):
+              h=hashlib.sha256()
+              for p in sorted(Path(root).rglob('*')):
+                  if p.is_file():
+                      h.update(str(p).encode()); h.update(b'\0'); h.update(p.read_bytes()); h.update(b'\0')
+              return h.hexdigest()
+          Path('/tmp/naam-phase10-immutable-before.json').write_text(json.dumps({r:digest(r) for r in roots},indent=2),encoding='utf-8')
+          PY
+
       - name: Validate Phase 10 entry gate
         run: |
           python - <<'PY'
           import json
+          from pathlib import Path
           e=json.load(open('works/naam/translations/index.json'))
           q=json.load(open('works/naam/translations/whole-work-reconciliation.json'))
-          assert e['status']=='complete-verified'
-          assert e['verified_scenes']==45
-          assert e['translation_units_verified']==797
-          assert e['immutable_dialogue_links_verified']==590
-          assert e['retained_performance_records_translated']==7
-          assert e['reader_export_status']=='ready-next'
-          assert q['status']=='PASS'
-          assert q['reader_export_gate']=='READY-NEXT'
-          print('Naam Phase 10 entry gate ready.')
+          s=json.load(open('works/naam/scenes/index.json'))
+          d=json.load(open('works/naam/dialogues/index.json'))
+          c=json.load(open('works/naam/characters/index.json'))
+          songs=json.load(open('works/naam/songs/inventory.json'))
+          assert e['status']=='complete-verified' and e['verified_scenes']==45
+          assert e['translation_units_verified']==797 and e['immutable_dialogue_links_verified']==590
+          assert e['retained_performance_records_translated']==7 and e['song_line_cue_mappings_verified']==138
+          assert e.get('reader_export_status') in ('ready-next','complete-verified')
+          assert q['status']=='PASS' and q['reader_export_gate']=='READY-NEXT'
+          assert s['status']=='complete-verified' and s['source_scene_count']==45
+          assert d['dialogue_record_count']==590 and c['dialogue_record_coverage']=='590/590'
+          assert songs['coverage']=='7/7'
+          assert next(x for x in songs['records'] if x['id']=='naam-perf-001')['author_as_printed']=='பாரதியார்'
+          for n in range(1,46):
+              assert Path(f'works/naam/translations/records/scene-{n:03d}.json').exists()
+              assert Path(f'works/naam/scenes/scene-{n:03d}.md').exists()
+              assert Path(f'works/naam/dialogues/records/scene-{n:03d}.json').exists()
           PY
+
+      - name: Build deterministic reader/export
+        run: python works/naam/editions/en/build.py
+
+      - name: Build source-linked Reading Room payload
+        run: python works/naam/integrations/reading-room/build.py
+
+      - name: Synchronize Phase 10 status mirrors
+        run: python .github/scripts/naam_phase10_sync.py
+
+      - name: Rebuild against synchronized authoritative status
+        run: |
+          python works/naam/editions/en/build.py
+          python works/naam/integrations/reading-room/build.py
+          python .github/scripts/naam_phase10_sync.py
+
+      - name: Validate reader/export generated-output QA
+        run: |
+          python -m json.tool works/naam/editions/en/reader-edition.json >/dev/null
+          python -m json.tool works/naam/editions/en/manifest.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.load(open('works/naam/editions/en/reader-edition.json'))
+          m=json.load(open('works/naam/editions/en/manifest.json'))
+          assert r['status']=='complete-verified' and r['scene_count']==45 and r['translation_units']==797
+          assert r['immutable_dialogue_links']==590 and r['source_unlabelled_speech_units']==20
+          assert r['retained_performance_records']==['naam-perf-007','naam-perf-001','naam-perf-002','naam-perf-003','naam-perf-004','naam-perf-005','naam-perf-006']
+          assert r['performance_line_cue_mappings']==138 and r['source_local_chant_line_cue_mappings']==16
+          assert r['scene_navigation_is_source_numbering'] is True
+          assert [s['source_scene_number'] for s in r['scenes']]==list(range(1,46))
+          ids=[u['id'] for s in r['scenes'] for u in s['units']]
+          assert len(ids)==len(set(ids))==797
+          links=[u['source']['source_record_id'] for s in r['scenes'] for u in s['units'] if u['source']['source_record_id']]
+          assert len(links)==len(set(links))==590
+          assert m['status']=='complete-verified' and m['qa_status']=='PASS' and m['translation_units']==797 and m['immutable_dialogue_links']==590
+          assert m['reading_room_gate']=='READY-NEXT'
+          md=Path('works/naam/editions/en/reader-edition.md').read_text(encoding='utf-8')
+          ht=Path('works/naam/editions/en/reader-edition.html').read_text(encoding='utf-8')
+          assert md.count('<!-- unit:')==797 and ht.count('data-unit-id="')==797
+          assert 'PASS / COMPLETE-VERIFIED' in Path('works/naam/editions/en/QA_REPORT.md').read_text(encoding='utf-8')
+          PY
+
+      - name: Validate Reading Room payload QA
+        run: |
+          python -m json.tool works/naam/integrations/reading-room/reading-room.json >/dev/null
+          python -m json.tool works/naam/integrations/reading-room/manifest.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.load(open('works/naam/integrations/reading-room/reading-room.json'))
+          m=json.load(open('works/naam/integrations/reading-room/manifest.json'))
+          assert p['integration_status']=='payload-complete-verified' and p['site_application_status']=='not-applied'
+          assert p['work']['source_scene_count']==45 and p['work']['english_unit_count']==797 and p['work']['immutable_dialogue_links']==590
+          assert p['navigation']['scene_numbers']==list(range(1,46))
+          assert p['navigation']['scene_numbering_origin']=='printed-source'
+          assert p['navigation']['screenplay_scene_numbers_are_source_numbers'] is True
+          assert p['navigation']['screenplay_scene_navigation_is_editorial'] is False
+          assert p['language_presentation']['default']=='ta' and p['language_presentation']['available']==['ta','en','parallel']
+          assert len(p['performance_inventory'])==7 and p['authorship']['source_attributed']=={'naam-perf-001':'பாரதியார்'}
+          assert p['source_local_chant']['unit_id']=='naam-en-s034-u002' and p['source_local_chant']['line_cue_mappings']==16 and p['source_local_chant']['promoted_to_performance_inventory'] is False
+          assert len(p['scenes'])==45 and all(s['tamil_text'].strip() for s in p['scenes'])
+          ids=[u['id'] for s in p['scenes'] for u in s['english_units']]
+          assert len(ids)==len(set(ids))==797
+          links=[u['source_record_id'] for s in p['scenes'] for u in s['english_units'] if u['source_record_id']]
+          assert len(links)==len(set(links))==590
+          assert m['status']=='payload-complete-verified' and m['qa_status']=='PASS' and m['site_application_status']=='not-applied'
+          assert m['scene_count']==45 and m['english_units']==797 and m['immutable_dialogue_links']==590
+          assert m['performance_line_cue_mappings']==138 and m['source_local_chant_line_cue_mappings']==16
+          assert 'PASS / PAYLOAD-COMPLETE-VERIFIED' in Path('works/naam/integrations/reading-room/QA_REPORT.md').read_text(encoding='utf-8')
+          PY
+
+      - name: Verify immutable source and English-record layers unchanged
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          roots=[
+            'works/naam/transcription',
+            'works/naam/scenes',
+            'works/naam/dialogues',
+            'works/naam/characters',
+            'works/naam/songs',
+            'works/naam/translations/records',
+          ]
+          def digest(root):
+              h=hashlib.sha256()
+              for p in sorted(Path(root).rglob('*')):
+                  if p.is_file():
+                      h.update(str(p).encode()); h.update(b'\0'); h.update(p.read_bytes()); h.update(b'\0')
+              return h.hexdigest()
+          before=json.loads(Path('/tmp/naam-phase10-immutable-before.json').read_text())
+          after={r:digest(r) for r in roots}
+          assert before==after,(before,after)
+          PY
+
+      - name: Validate synchronized Phase 10 closure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          e=json.load(open('works/naam/translations/index.json'))
+          assert e['reader_export_status']=='complete-verified'
+          assert e['reading_room_payload_status']=='payload-complete-verified'
+          assert e['reading_room_site_application']=='not-applied'
+          m=Path('works/naam/metadata.yaml').read_text(encoding='utf-8')
+          for x in [
+            'english_reader_export: complete-verified',
+            'english_reader_qa: PASS',
+            'reading_room_payload: payload-complete-verified',
+            'reading_room_site_application: not-applied',
+            'reader_export: complete-verified',
+            'reading_room_integration: payload-complete-verified-site-not-applied',
+          ]: assert x in m,x
+          wr=Path('works/naam/README.md').read_text(encoding='utf-8')
+          assert 'Phase 10 reader/export + Reading Room closure' in wr and 'site not-applied' in wr
+          nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8')
+          assert 'Phase 10 is **CLOSED**' in nxt and 'public-site application: **not-applied**' in nxt
+          ph=Path('works/naam/PROJECT_HANDOVER.md').read_text(encoding='utf-8')
+          assert 'reader/export: **COMPLETE-VERIFIED / QA PASS**' in ph and '## Phase 10 closure evidence' in ph
+          data=json.load(open('data/works.json'))
+          item=next(x for x in data if x.get('id')=='naam'); sd=item['structured_derivatives']
+          assert sd['reader_export']=='complete-verified' and sd['english_reader_qa']=='PASS'
+          assert sd['reading_room_integration']=='payload-complete-verified' and sd['reading_room_site_application']=='not-applied'
+          assert sd['next_structured_derivative'] is None
+          for p in ['README.md','docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md','docs/STATUS_CONSISTENCY_AUDIT.md']:
+              t=Path(p).read_text(encoding='utf-8'); assert '<!-- Naam Phase 10 current -->' in t
+          PY
+
+      - name: Commit Phase 10 verified reader and payload
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            README.md \
+            data/works.json \
+            docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md \
+            docs/STATUS_CONSISTENCY_AUDIT.md \
+            works/naam/README.md \
+            works/naam/PROJECT_HANDOVER.md \
+            works/naam/NEXT_CHAT_PROMPT.md \
+            works/naam/metadata.yaml \
+            works/naam/translations/index.json \
+            works/naam/editions/en \
+            works/naam/integrations/reading-room
+          if git diff --cached --quiet; then
+            echo 'Naam Phase 10 outputs and status mirrors are already reproducible; nothing to commit.'
+          else
+            git commit -m 'Complete Naam Phase 10 reader and Reading Room payload [skip ci]'
+            git push
+          fi
