@@ -10,7 +10,7 @@ on:
       - 'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'
       - 'docs/STATUS_CONSISTENCY_AUDIT.md'
       - '.github/scripts/naam_english_whole_work_reconcile_v2.py'
-      - '.github/scripts/naam_reconcile_diag.py'
+      - '.github/scripts/naam_english_whole_work_reconcile_v3.py'
       - '.github/workflows/naam-first-pass-sync.yml'
   workflow_dispatch:
 
@@ -62,11 +62,8 @@ jobs:
           for p in ['pilot-qa.json','batch-002-005-qa.json','batch-006-015-qa.json','batch-016-025-qa.json','batch-026-035-qa.json','batch-036-045-qa.json']: assert json.load(open('works/naam/translations/'+p))['status']=='PASS'
           PY
 
-      - name: Print reconciliation diagnostics
-        run: python .github/scripts/naam_reconcile_diag.py
-
-      - name: Run whole-work English reconciliation
-        run: python .github/scripts/naam_english_whole_work_reconcile_v2.py
+      - name: Run reviewed whole-work English reconciliation
+        run: python .github/scripts/naam_english_whole_work_reconcile_v3.py
 
       - name: Validate reconciliation closure
         run: |
@@ -82,10 +79,11 @@ jobs:
           assert q['retained_performance_records_translated']==7 and q['performance_line_cue_mappings']==138 and q['specific_source_authorship_preserved']=={'naam-perf-001':'பாரதியார்'} and q['unsupported_authorship_upgrades']==0
           assert q['source_local_chant_units']==['naam-en-s034-u002'] and q['source_local_chant_line_cue_mappings']==16 and q['source_local_chant_promoted_to_performance_inventory'] is False
           assert q['written_text_units']==['naam-en-s041-u012','naam-en-s045-u025'] and q['cross_page_unit_count']==12
+          assert q['reviewed_nonduplicate_locator_collisions']==[['naam-en-s019-u003','naam-en-s019-u005']]
           assert q['provenance_out_of_scene_bounds']==[] and q['duplicate_non_dialogue_source_owners']==[] and q['placeholder_hits']==[] and q['synthetic_scene_end_hits']==[] and q['upstream_source_layers_modified'] is False and q['reader_export_gate']=='READY-NEXT'
           kinds=q['kind_counts']; assert kinds['dialogue']==610 and kinds['song']==6 and kinds['chant']==1 and kinds['performance-cue']==6 and kinds['written-text']==2 and q['stage_or_narrative_units']==172 and sum(kinds.values())==797
           idx=json.load(open('works/naam/translations/index.json')); assert idx['status']=='complete-verified' and idx['whole_work_reconciliation_status']=='PASS' and idx['reader_export_status']=='ready-next' and idx['translation_units_verified']==797 and idx['immutable_dialogue_links_verified']==590 and idx['retained_performance_records_translated']==7 and idx['song_line_cue_mappings_verified']==138
-          assert 'PASS / COMPLETE-VERIFIED' in Path('works/naam/translations/WHOLE_WORK_RECONCILIATION.md').read_text(encoding='utf-8')
+          report=Path('works/naam/translations/WHOLE_WORK_RECONCILIATION.md').read_text(encoding='utf-8'); assert 'PASS / COMPLETE-VERIFIED' in report and 'distinct source parentheticals' in report
           PY
 
       - name: Verify immutable upstream layers unchanged
