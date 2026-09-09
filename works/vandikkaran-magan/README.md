@@ -12,7 +12,7 @@ Controlling source: `TVA_BOK_0062961_வண்டிக்காரன்_மக
 - SHA-256: `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`;
 - image-only scan; source pixels are canonical authority.
 
-Do not silently modernize spelling, punctuation, speaker labels, scene numbering, performance structures, or historical Tamil character identity.
+Do not silently modernize spelling, punctuation, speaker labels, scene numbering, performance structures, or historical Tamil character identity. Use only the attached controlling PDF for source verification unless the user explicitly requests an external comparison.
 
 ## Verified source boundaries
 
@@ -30,7 +30,7 @@ For PDF 6–87, **printed page = PDF page − 1**.
 
 ## Structural mapping checkpoint
 
-The source has **71 observed scene-heading occurrences**. Preserve inserted suffix headings, the combined `45-46` heading, multiple scene starts on one source page, and internal location captions exactly as printed. The source-visible `53-டி` heading starts at PDF 83 / printed p.82. See `mapping.md` and `notes/scene-heading-audit.md`.
+The source has **71 observed scene-heading occurrences**. Preserve inserted suffix headings, the combined `45-46` heading, multiple scene starts on one source page, and internal location captions exactly as printed. See `mapping.md` and `notes/scene-heading-audit.md`.
 
 ## Historical Tamil glyph rule
 
@@ -54,8 +54,8 @@ Do not interleave phases.
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
-- visual verification: **IN PROGRESS — PDF 4–23 / 20 of 87 VERIFIED**;
-- remaining visual-verification pages: **67**;
+- visual verification: **IN PROGRESS — PDF 4–28 / 25 of 87 VERIFIED**;
+- remaining visual-verification pages: **62**;
 - historical-glyph verification: **NOT-STARTED** under the mandatory phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
@@ -64,13 +64,12 @@ Do not interleave phases.
 
 ## Latest five-page visual batch
 
-- PDF **19–23 / printed 18–22** visually verified directly against enlarged scan pixels;
-- first-pass OCR-like substitutions were corrected extensively rather than merely changing page status;
-- PDF 19 source heading is **`காட்சி 10-எ`**;
-- PDF 20 begins scene **11**;
-- PDF 22 begins scene **12** (`ஜமீன் மாளிகை-பல பகுதிகள்`) and later preserves `கோகிலா அறை` as an internal location caption, not a new scene;
+- PDF **24–28 / printed 23–27** visually verified against enlarged source pixels;
+- source-controlled corrections include `இங்கேயிருந்தபடியே`, missing `சாரி மிஸ்டர் விங்கன்`, `காளிங் / காளிங்கன்` forms, and `சைகை காட்டி`;
+- PDF 27 preserves source heading **`காட்சி—14 எ`** and the two-line location `ஜமீன் மாளிகை / காளிங்கன் அறைக்கு வெளியே`;
+- PDF 28 preserves scene **15** and corrected dialogue including `மூடு கிரியேட் ஆகும்`;
 - all five page records are now `visual-verified`.
 
 ## Exact next activity
 
-> **Visually verify PDF 24–28 against the controlling scan as the next five-page batch; correct every source discrepancy without silent normalization; mark those five records `visual-verified`; update `transcription/index.json` to 25/87; commit/push the batch; then continue with PDF 29–33. Do not begin dedicated historical-glyph verification until visual verification reaches PDF 90.**
+> **Visually verify PDF 29–33 against the controlling scan as the next five-page batch; correct every source discrepancy without silent normalization; mark those five records `visual-verified`; update `transcription/index.json` to 30/87; commit/push the batch; then continue with PDF 34–38. Do not begin dedicated historical-glyph verification until visual verification reaches PDF 90.**
