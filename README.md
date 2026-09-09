@@ -36,9 +36,9 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
 - character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
 - song/performance/authorship gate: **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED / QA PASS / 1 source-attributed + 6 unresolved item-level authorships**;
-- English translation: **scene 1/45 PILOT-VERIFIED — 21 units / 14 dialogue links / 1 of 7 performance records / 23 song mappings**.
+- English translation: **5/45 VERIFIED — 131 units / 99 immutable dialogue links / 1 of 7 performance records / 23 song mappings**.
 
-**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
+**Next:** Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.
 
 ## ராஜா ராணி status
 

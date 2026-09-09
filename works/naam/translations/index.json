@@ -1,17 +1,21 @@
 {
   "work_id": "naam",
   "target_language": "en",
-  "status": "pilot-verified",
+  "status": "in-progress-verified-through-scene-005",
   "source_scene_count": 45,
-  "verified_scenes": 1,
+  "verified_scenes": 5,
   "verified_scene_ids": [
-    "naam-s001"
+    "naam-s001",
+    "naam-s002",
+    "naam-s003",
+    "naam-s004",
+    "naam-s005"
   ],
-  "translation_units_verified": 21,
+  "translation_units_verified": 131,
   "immutable_dialogue_records_total": 590,
-  "immutable_dialogue_links_verified": 14,
+  "immutable_dialogue_links_verified": 99,
   "scene_001_dialogue_coverage": "14/14",
-  "stage_or_narrative_units_verified": 5,
+  "stage_or_narrative_units_verified": 29,
   "performance_cue_units_verified": 1,
   "song_units_verified": 1,
   "retained_performance_records_total": 7,
@@ -32,5 +36,8 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers."
+  "next_activity": "Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.",
+  "source_unlabelled_speech_units_verified": 1,
+  "batch_002_005_review": "BATCH_002_005_REVIEW.md",
+  "batch_002_005_qa": "batch-002-005-qa.json"
 }

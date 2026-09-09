@@ -1,0 +1,439 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s005",
+  "scene_ordinal": 5,
+  "source_scene_number": 5,
+  "scene_status": "verified",
+  "unit_count": 14,
+  "units": [
+    {
+      "id": "naam-en-s005-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/scenes/scene-005.md",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Mallayappar's mansion.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, Sanjeevi...... come... come. You don't visit our house very often......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why shouldn't I come... only, a house should not be in a condition where doctors have to visit often.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Must you come to our house only to see illness? You may come to eat a feast too, Sanjeevi!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We may... and what we eat......",
+        "mode": "prose-faithful",
+        "notes": [
+          "The unusual verified source form `வாலாம்` is translated conservatively from immediate context without altering the Tamil."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s005-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What we eat is your food anyway.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sanjeevi! You are a very grateful man. But... in that one matter, I simply cannot trust you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "In what...? In medicine?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ha... hmm... in that, you're an extraordinary hero! Just hand that life over to me. My worry will end.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't worry! Only if that life exists can I give it, right?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then who has it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s005-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It... is very secret! Don't go reading signs into it! There is no need for agitation! Trust Sanjeevi......!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The unusual verified form `சங்கேதப் படாதீர்கள்` is rendered conservatively as `Don't go reading signs into it`; it is not silently normalized to a different Tamil word."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s005-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s005",
+      "scene_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/naam/scenes/scene-005.md",
+        "source_record_id": "naam-s005-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... where is Kumaran? Has he gone to graze the cattle?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

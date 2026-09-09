@@ -389,11 +389,11 @@ structured_derivatives:
   song_performance_authorship_resolved: 1
   song_performance_authorship_unresolved: 6
   song_performance_qa_path: "notes/song-performance-qa.json"
-  english_translation: pilot-verified
+  english_translation: in-progress-verified-through-scene-005
   english_translation_index_path: "translations/index.json"
-  english_translation_verified_scenes: 1
-  english_translation_unit_count: 21
-  english_dialogue_links_verified: 14
+  english_translation_verified_scenes: 5
+  english_translation_unit_count: 131
+  english_dialogue_links_verified: 99
   english_performance_records_translated: 1
   english_song_line_cue_mappings_verified: 23
   english_pilot_qa_path: "translations/pilot-qa.json"
@@ -410,7 +410,7 @@ status:
   dialogue_index: complete-verified-590-records
   character_entity_index: complete-verified-28-entities
   song_authorship_gate: complete-verified-source-only-reconciled-7-of-7
-  english_translation: pilot-verified-1-of-45
+  english_translation: in-progress-verified-5-of-45
   reader_export: not-started
   reading_room_integration: not-started
 
@@ -420,4 +420,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers."
+next_action: "Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers."

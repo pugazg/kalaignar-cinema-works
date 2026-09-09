@@ -1,0 +1,1465 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s003",
+  "scene_ordinal": 3,
+  "source_scene_number": 3,
+  "scene_status": "verified",
+  "unit_count": 46,
+  "units": [
+    {
+      "id": "naam-en-s003-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Mallayappar's mansion.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்ல",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come... Sanjeevi! Hmm... what's the special matter......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I came thinking I'd see the zamindar before leaving... would I come for nothing?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்ல",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who are these people?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They're people I know! I was wondering whether there might be some work for them in your house......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்ல",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm, I do need a maid! Hey, Annamalai! Take them to Madam!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 2,
+          "description": "Source action before Mallayappar resumes speaking."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The servant is taken along.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "Tamil leaves the acting subject implicit; English preserves that ambiguity with a passive construction."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s003-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்ல",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm...... and then......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 3,
+          "description": "Explicit scene-change direction within source scene 3."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The scene changes.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The zamindar's wife) Meenu... Meenu...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Mallayappan's younger sister) What is it, sister-in-law?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A new maid has come to our house.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 4,
+          "description": "Bracketed look-direction before unlabelled speech."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Looking at Narayani]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 5,
+          "description": "Source speech has no printed speaker label and remains unassigned."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Narayani! Keep the house in order. As though it were your own home.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The printed source supplies no speaker label or delimiter for this utterance. It is translated as speech but deliberately remains unassigned and unlinked to the immutable labelled-dialogue index."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s003-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Any doubt? From now on this is my home!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu...... tell her the work.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 6,
+          "description": "Transition after Gnanam exits."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After Gnanam leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come! You've barely arrived—what work do you have already?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... what are you to the zamindar?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "His younger sister!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u021",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 7,
+          "description": "Explicit passage-of-time direction."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Many days pass.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u022",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 8,
+          "description": "Long courtship/labour montage on PDF 9."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran's mother comes carrying a water pot. Kumaran, kurukkodi—has been chopping firewood, sweating. Exhausted, he sits down—idli arrives—he delights. Next an orange arrives—he is comforted. Milk comes for the labourer Kumaran—he is enraptured. In this way, through things carrying the flavour of love, Meenu conveyed her feelings to Kumaran. Finally, the two together lifted that beautiful flower-pot, their faces blossoming into smiles.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified source form `குறுக்கொடிய` is not silently repaired; it is retained as `kurukkodi` within the English stage-direction unit."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s003-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 9,
+          "description": "Kumaran sees Narayani and runs to help."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(As Kumaran pulls the box-cart along, he sees his mother carrying a water pot and runs to help.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you have to see this with your own eyes?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, Narayani! What are you doing there, fondling your son? Come quickly!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... where is that lazy fellow? Is he still coming back from the station?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u027",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 10,
+          "description": "Kumaran returns with cart and water pot."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran pulls the cart in—with the water pot.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Useless eater! Why are you late? What's that pot?",
+        "mode": "prose-faithful",
+        "notes": [
+          "`தண்டச்சோறு` is retained as a harsh class-inflected insult (`useless eater`) rather than softened."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s003-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma brought water... I was helping her.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tch...! As long as you work here, a servant is only a servant! If you start talking mother-and-son affection... dirt will fall into your rice. Careful! Hmm, take the boxes and stack them... stack them, I said.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u031",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 11,
+          "description": "Parallel-action brace block."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "{ Mallayappan torments Kumaran—on one side / Gnanam scolds Narayani—on the other. }",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Shameless dog... why are you so careless? Couldn't your body bear carrying even one pot, poor thing? Puthu il... thundu poachchi......",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified source fragment `புது இல்...துண்டு போச்சி` is irregular/unclear; it is carried by conservative transliteration (`Puthu il... thundu poachchi`) rather than silently emended."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s003-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I didn't break the pot... it got rolled over......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tch... after doing wrong, are you putting the blame on him?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u035",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 12,
+          "description": "Gnanam strikes Narayani; Narayani falls/rolls down."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Saying this, Gnanam strikes Narayani. The next moment Narayani is sent rolling down from the upper floor.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u036",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 13,
+          "description": "Kumaran drops the box and runs."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Seeing this, Kumaran drops the box and runs over.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u037",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u038",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Nothing's happened to me... go and do your work!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u039",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... what show are you putting on there... come here... unload the box... unload it quickly...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u040",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 14,
+          "description": "Kumaran unloads the box."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran unloads the box.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u041",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Seeing the glassware broken, in fierce anger) What's this? What have you broken?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u042",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u043",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma. (Arrogantly) You came here for slave labour! How many times do I have to tell you that this mother-son affection is not allowed?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u044",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 15,
+          "description": "Whipping and sprained-hand action."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Mallayappar beats Kumaran with a whip. Narayani writhes; Mallayappar's hand is sprained.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u045",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": "naam-s003-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey. Go and bring the doctor... go quickly......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s003-u046",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s003",
+      "scene_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/naam/scenes/scene-003.md",
+        "canonical_scene_path": "works/naam/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 16,
+          "description": "Kumaran leaves to fetch the physician."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran goes to the physician.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

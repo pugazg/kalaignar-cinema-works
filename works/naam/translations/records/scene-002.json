@@ -1,0 +1,503 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s002",
+  "scene_ordinal": 2,
+  "source_scene_number": 2,
+  "scene_status": "verified",
+  "unit_count": 16,
+  "units": [
+    {
+      "id": "naam-en-s002-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/scenes/scene-002.md",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Sanjeevi the physician's hut.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is it fate, doctor, that we should leave a cruel man to enjoy the wealth piled up, while my son and I wander like blind people though we have eyes......?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Vedavalli......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Shh...... Kumaran doesn't know.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm... Narayani... today's zamindar, Mallayappan, doesn't know you. That's fine... Kumaran too must take a job there for a few days.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A job?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Only then will our aim be fulfilled! You may even discover there the life that lies hidden! Kumaran too will learn the ways and customs of the zamindari!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran doesn't like rich households! It was because he spoke of reform in that town that his life came under threat—and we came to this town.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "For now he can talk about every reform and every principle! Later, once the zamindari comes to him, he'll forget them all in that life of pleasure! Narayani... remember what I told you!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாராயணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara... Kumara...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/scenes/scene-002.md",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 2,
+          "description": "Kumaran enters after Narayani calls him."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran enters.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Amma! Finished talking all your secrets?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara! They say we're going to get work at the zamindar's house!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Work! At the zamindar's house?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": "naam-s002-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "நாரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You must accept what I tell you!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s002-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s002",
+      "scene_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/naam/scenes/scene-002.md",
+        "canonical_scene_path": "works/naam/scenes/scene-002.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 3,
+          "description": "Closing departure direction."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The three set out for Zamindar Mallayappar.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "work_id": "naam",
+  "phase": "english-translation-batch-002-005-qa",
+  "status": "PASS",
+  "source_scenes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "translation_units": 110,
+  "immutable_dialogue_records_expected": 85,
+  "immutable_dialogue_records_linked": 85,
+  "dialogue_coverage": "85/85 exactly once",
+  "missing_dialogue_links": 0,
+  "duplicate_dialogue_links": 0,
+  "exact_tamil_speaker_labels_preserved": true,
+  "source_delimiters_preserved_as_metadata": true,
+  "source_unlabelled_speech_units": 1,
+  "inferred_unlabelled_speakers": 0,
+  "performance_occurrences_expected": [],
+  "performance_occurrences_linked": [],
+  "performance_coverage": "0/0",
+  "cross_page_translation_units": [],
+  "scene_results": [
+    {
+      "scene_id": "naam-s002",
+      "source_scene_number": 2,
+      "translation_units": 16,
+      "immutable_dialogue_records_expected": 13,
+      "immutable_dialogue_records_linked": 13,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_expected": [],
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s003",
+      "source_scene_number": 3,
+      "translation_units": 46,
+      "immutable_dialogue_records_expected": 30,
+      "immutable_dialogue_records_linked": 30,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 1,
+      "performance_occurrences_expected": [],
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s004",
+      "source_scene_number": 4,
+      "translation_units": 34,
+      "immutable_dialogue_records_expected": 29,
+      "immutable_dialogue_records_linked": 29,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_expected": [],
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s005",
+      "source_scene_number": 5,
+      "translation_units": 14,
+      "immutable_dialogue_records_expected": 13,
+      "immutable_dialogue_records_linked": 13,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_expected": [],
+      "performance_occurrences_linked": []
+    }
+  ],
+  "authorship_status_changed_by_translation": false,
+  "external_or_unprinted_lyrics_imported": false,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "song_source_records_modified_by_translation": 0,
+  "next_gate": "scenes 6-10 translation batch ready"
+}

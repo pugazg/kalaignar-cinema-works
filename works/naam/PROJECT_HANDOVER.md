@@ -326,3 +326,18 @@ A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and fo
 ## Current exact next activity
 
 > **Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.**
+
+
+<!-- Naam English scenes 2-5 current -->
+## English scenes 2–5 verified checkpoint
+
+- English verified scenes: **5/45**;
+- verified English units: **131**;
+- immutable dialogue links: **99**;
+- scenes 2–5 batch: **110 units / 85/85 labelled-dialogue links**;
+- source-unlabelled speech in batch: **1**, deliberately unassigned;
+- translated performance records: **1/7** cumulative;
+- song mappings: **23/23** cumulative;
+- upstream source-layer modifications: **0**.
+
+**Current exact next activity:** Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.
