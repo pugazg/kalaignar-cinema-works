@@ -1,11 +1,11 @@
-name: Naam English scenes 2-5 verification
+name: Naam English scenes 6-15 verification
 
 on:
   push:
     branches: [main]
     paths:
       - 'works/naam/**'
-      - '.github/scripts/naam_english_batch_002_005.py'
+      - '.github/scripts/naam_english_batch_006_015.py'
       - '.github/workflows/naam-first-pass-sync.yml'
   workflow_dispatch:
 
@@ -41,7 +41,7 @@ jobs:
           Path('/tmp/naam-upstream-before.json').write_text(json.dumps({r:digest(r) for r in roots}),encoding='utf-8')
           PY
 
-      - name: Validate source gates and verified pilot
+      - name: Validate source gates and verified through scene 5
         run: |
           python - <<'PY'
           import json
@@ -52,43 +52,46 @@ jobs:
           c=json.load(open('works/naam/characters/index.json'))
           p=json.load(open('works/naam/songs/index.json'))
           e=json.load(open('works/naam/translations/index.json'))
-          q=json.load(open('works/naam/translations/pilot-qa.json'))
           assert t['status']=='complete-verified' and t['verified_pages']==67
           assert s['status']=='complete-verified' and s['source_scene_count']==45
           assert d['status']=='complete-verified' and d['dialogue_record_count']==590
           assert c['status']=='complete-verified' and c['dialogue_record_coverage']=='590/590'
           assert p['retained_performance_records']==7 and p['source_attributed_authorship_records']==1
           assert p['unresolved_item_level_authorship_records']==6
-          assert e['status']=='pilot-verified' and e['verified_scenes']==1 and e['translation_units_verified']==21
-          assert e['immutable_dialogue_links_verified']==14 and e['retained_performance_records_translated']==1
-          assert q['status']=='PASS' and q['dialogue_coverage']=='14/14 exactly once'
-          for n,count in [(2,13),(3,30),(4,29),(5,13)]:
+          assert e['status']=='in-progress-verified-through-scene-005'
+          assert e['verified_scenes']==5 and e['translation_units_verified']==131
+          assert e['immutable_dialogue_links_verified']==99
+          counts={6:16,7:7,8:13,9:20,10:44,11:3,12:5,13:38,14:29,15:5}
+          for n,count in counts.items():
               src=json.load(open(f'works/naam/dialogues/records/scene-{n:03d}.json'))
               assert len(src)==count
               assert Path(f'works/naam/scenes/scene-{n:03d}.md').exists()
+          inv=json.load(open('works/naam/songs/inventory.json'))
+          byid={x['id']:x for x in inv['records']}
+          assert byid['naam-perf-001']['author_as_printed']=='பாரதியார்'
+          assert byid['naam-perf-002']['authorship_status']=='unresolved-item-level'
           PY
 
-      - name: Build and synchronize scenes 2-5 English batch
-        run: python .github/scripts/naam_english_batch_002_005.py
+      - name: Build and synchronize scenes 6-15 English batch
+        run: python .github/scripts/naam_english_batch_006_015.py
 
       - name: Validate generated batch and linkage
         run: |
           python -m json.tool works/naam/translations/index.json >/dev/null
-          python -m json.tool works/naam/translations/batch-002-005-qa.json >/dev/null
+          python -m json.tool works/naam/translations/batch-006-015-qa.json >/dev/null
           python -m json.tool data/works.json >/dev/null
-          for n in 002 003 004 005; do python -m json.tool works/naam/translations/records/scene-$n.json >/dev/null; done
+          for n in 006 007 008 009 010 011 012 013 014 015; do python -m json.tool works/naam/translations/records/scene-$n.json >/dev/null; done
           python - <<'PY'
           import json
-          expected={2:(16,13),3:(46,30),4:(34,29),5:(14,13)}
-          total_units=0; total_links=0; unlabelled=0
-          for n,(units_expected,dialogs_expected) in expected.items():
+          expected={6:16,7:7,8:13,9:20,10:44,11:3,12:5,13:38,14:29,15:5}
+          total_links=0; total_units=0; unlabelled=[]; occ=[]; maps=0; cross=[]
+          for n,dialogs_expected in expected.items():
               tr=json.load(open(f'works/naam/translations/records/scene-{n:03d}.json'))
               src=json.load(open(f'works/naam/dialogues/records/scene-{n:03d}.json'))
               assert tr['scene_status']=='verified' and tr['source_scene_number']==n
-              assert tr['unit_count']==units_expected and len(tr['units'])==units_expected
               ids=[u['id'] for u in tr['units']]
-              assert ids==[f'naam-en-s{n:03d}-u{i:03d}' for i in range(1,units_expected+1)]
-              assert len(ids)==len(set(ids))
+              assert ids==[f'naam-en-s{n:03d}-u{i:03d}' for i in range(1,len(ids)+1)]
+              assert len(ids)==len(set(ids))==tr['unit_count']
               linked=[u['source']['source_record_id'] for u in tr['units'] if u['source']['source_record_id']]
               assert linked==[r['id'] for r in src] and len(linked)==dialogs_expected
               byid={r['id']:r for r in src}
@@ -100,24 +103,37 @@ jobs:
                       assert u['source']['speaker_label']==r['speaker_label']
                       assert u['source']['source_delimiter']==r['source_delimiter']
                       assert u['source']['page_provenance']==r['page_provenance']
-                  assert u['source']['source_occurrence_id'] is None
-              unlabelled += sum(1 for u in tr['units'] if u['kind']=='dialogue' and u['source']['source_record_id'] is None)
-              total_units += tr['unit_count']; total_links += len(linked)
-          assert total_units==110 and total_links==85 and unlabelled==1
-          qa=json.load(open('works/naam/translations/batch-002-005-qa.json'))
-          assert qa['status']=='PASS' and qa['translation_units']==110
-          assert qa['dialogue_coverage']=='85/85 exactly once'
-          assert qa['source_unlabelled_speech_units']==1 and qa['inferred_unlabelled_speakers']==0
-          assert qa['performance_coverage']=='0/0' and qa['cross_page_translation_units']==[]
+                  else:
+                      assert u['source']['speaker_label'] is None and u['source']['source_delimiter'] is None
+                  o=u['source']['source_occurrence_id']
+                  if o and o not in occ: occ.append(o)
+                  maps += len(u['translation'].get('line_map',[]))
+                  if len(u['source']['page_provenance'])>1: cross.append(u['id'])
+                  if u['kind']=='dialogue' and rid is None: unlabelled.append(u['id'])
+              total_links+=len(linked); total_units+=tr['unit_count']
+          assert total_links==180
+          assert unlabelled==['naam-en-s010-u022','naam-en-s013-u034','naam-en-s013-u037']
+          assert set(occ)=={'naam-perf-001','naam-perf-002'}
+          assert maps==34
+          qa=json.load(open('works/naam/translations/batch-006-015-qa.json'))
+          assert qa['status']=='PASS' and qa['translation_units']==total_units
+          assert qa['dialogue_coverage']=='180/180 exactly once'
+          assert qa['source_unlabelled_speech_units']==3 and qa['inferred_unlabelled_speakers']==0
+          assert qa['performance_coverage']=='2/2' and qa['performance_line_cue_mappings']==34
+          assert qa['specific_bharathiyar_attribution_preserved_for']=='naam-perf-001'
+          assert qa['naam_perf_002_authorship']=='unresolved-item-level'
           assert qa['authorship_status_changed_by_translation'] is False
           assert qa['external_or_unprinted_lyrics_imported'] is False
           idx=json.load(open('works/naam/translations/index.json'))
-          assert idx['status']=='in-progress-verified-through-scene-005'
-          assert idx['verified_scenes']==5 and idx['verified_scene_ids']==[f'naam-s{i:03d}' for i in range(1,6)]
-          assert idx['translation_units_verified']==131 and idx['immutable_dialogue_links_verified']==99
-          assert idx['source_unlabelled_speech_units_verified']==1
-          assert idx['retained_performance_records_translated']==1 and idx['song_line_cue_mappings_verified']==23
-          assert 'scenes 6–10' in idx['next_activity']
+          assert idx['status']=='in-progress-verified-through-scene-015'
+          assert idx['verified_scenes']==15 and idx['verified_scene_ids']==[f'naam-s{i:03d}' for i in range(1,16)]
+          assert idx['translation_units_verified']==131+total_units
+          assert idx['immutable_dialogue_links_verified']==279
+          assert idx['source_unlabelled_speech_units_verified']==4
+          assert idx['retained_performance_records_translated']==3
+          assert idx['song_line_cue_mappings_verified']==57
+          assert idx['iteration_scene_batch_size']==10
+          assert 'scenes 16–25' in idx['next_activity']
           PY
 
       - name: Verify upstream layers unchanged
@@ -142,37 +158,40 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          idx=json.load(open('works/naam/translations/index.json'))
+          u=idx['translation_units_verified']
           m=Path('works/naam/metadata.yaml').read_text(encoding='utf-8')
-          assert 'english_translation: in-progress-verified-5-of-45' in m
-          assert 'english_translation_verified_scenes: 5' in m
-          assert 'english_translation_unit_count: 131' in m
-          assert 'english_dialogue_links_verified: 99' in m
-          assert 'english_performance_records_translated: 1' in m
-          assert 'english_song_line_cue_mappings_verified: 23' in m
+          assert 'english_translation: in-progress-verified-15-of-45' in m
+          assert 'english_translation_verified_scenes: 15' in m
+          assert f'english_translation_unit_count: {u}' in m
+          assert 'english_dialogue_links_verified: 279' in m
+          assert 'english_performance_records_translated: 3' in m
+          assert 'english_song_line_cue_mappings_verified: 57' in m
           wr=Path('works/naam/README.md').read_text(encoding='utf-8')
-          assert 'English translation: **5/45 VERIFIED' in wr and 'English scenes 2–5 checkpoint' in wr
-          root=Path('README.md').read_text(encoding='utf-8')
-          assert 'English translation: **5/45 VERIFIED' in root
+          assert 'English translation: **15/45 VERIFIED' in wr and 'English scenes 6–15 checkpoint' in wr
           nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8')
-          assert 'VERIFIED THROUGH SOURCE SCENE 5' in nxt and 'source-numbered scenes 6–10' in nxt
+          assert 'VERIFIED THROUGH SOURCE SCENE 15' in nxt and 'source-numbered scenes 16–25' in nxt and '10 source scenes' in nxt
+          root=Path('README.md').read_text(encoding='utf-8')
+          assert 'English translation: **15/45 VERIFIED' in root
           hand=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
-          assert 'Naam English scenes 2-5 current' in hand and 'English **5/45 verified' in hand
           audit=Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
-          assert 'Naam English scenes 2-5 current' in audit and '5/45 verified / 131 units' in audit
-          data=json.load(open('data/works.json')); n=next(x for x in data if x.get('id')=='naam')
-          sd=n['structured_derivatives']
-          assert sd['english_translation_verified_scenes']==5 and sd['english_translation_units']==131
-          assert sd['english_dialogue_links_verified']==99 and sd['english_source_unlabelled_speech_units']==1
+          assert 'Naam English scenes 6-15 current' in hand and '15/45 verified' in hand
+          assert 'Naam English scenes 6-15 current' in audit and '15/45 verified' in audit
+          data=json.load(open('data/works.json')); n=next(x for x in data if x.get('id')=='naam'); sd=n['structured_derivatives']
+          assert sd['english_translation_verified_scenes']==15 and sd['english_translation_units']==u
+          assert sd['english_dialogue_links_verified']==279 and sd['english_source_unlabelled_speech_units']==4
+          assert sd['english_performance_records_translated']==3 and sd['english_song_line_cue_mappings_verified']==57
+          assert sd['english_iteration_scene_batch_size']==10
           PY
 
-      - name: Commit verified scenes 2-5 batch
+      - name: Commit verified scenes 6-15 batch
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo 'No scenes 2-5 synchronization changes needed.'
+            echo 'No scenes 6-15 synchronization changes needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Verify Naam English scenes 2-5 [skip ci]'
+          git commit -m 'Verify Naam English scenes 6-15 [skip ci]'
           git push
