@@ -1,0 +1,24 @@
+{
+  "schema": "naam-song-performance-record-v1",
+  "record_id_pattern": "^naam-perf-[0-9]{3}$",
+  "required_fields": [
+    "id",
+    "source_pdf_pages",
+    "source_scene_number",
+    "form",
+    "authorship_status",
+    "record_path"
+  ],
+  "authorship_status_values": [
+    "source-attributed",
+    "unresolved-item-level"
+  ],
+  "policy": {
+    "canonical_text_authority": "../transcription/",
+    "scene_text_authority": "../scenes/",
+    "authorship_requires_item_level_evidence": true,
+    "broad_work_credit_does_not_override_specific_item_credit": true,
+    "missing_lyrics_may_not_be_reconstructed": true,
+    "source_wording_lineation_roles_and_cues_are_preserved": true
+  }
+}
