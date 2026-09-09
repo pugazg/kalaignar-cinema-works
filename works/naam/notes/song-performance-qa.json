@@ -1,0 +1,28 @@
+{
+  "work_id": "naam",
+  "phase": "song-performance-authorship-qa",
+  "status": "PASS",
+  "mapped_structures_expected": 6,
+  "retained_records": 6,
+  "coverage": "6/6",
+  "full_or_clearly_bounded_tamil_derivatives": 6,
+  "source_attributed_authorship_records": 1,
+  "unresolved_item_level_authorship_records": 5,
+  "specific_item_credit": {
+    "record_id": "naam-perf-001",
+    "title": "ஆயிரம் தெய்வங்கள்",
+    "author_as_printed": "பாரதியார்",
+    "credit_pdf_page": 4,
+    "body_pdf_page": 16,
+    "preserved": true
+  },
+  "broad_pdf4_credit": "கதை, வசனம், பாடல்... மு. கருணாநிதி",
+  "broad_kalaignar_credit_overrode_specific_credit": false,
+  "broad_kalaignar_credit_promoted_to_other_item_level_authorship": false,
+  "source_wording_lineation_role_cues_preserved": true,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "next_gate": "english translation ready"
+}
