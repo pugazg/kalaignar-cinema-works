@@ -1,0 +1,465 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s007",
+  "scene_ordinal": 7,
+  "source_scene_number": 7,
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "naam-en-s007-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/scenes/scene-007.md",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening goat-sacrifice procession."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Many people arrive holding a goat; Mathirai is one among them.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... where are you taking this goat after putting a garland on it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where else would they take a garlanded goat, son? To sacrifice it to the Maada deity.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mathirai! You're going along too?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What can I do? I have to live with the village! So I'll go along and get it over with.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, sir... in God's name you're going to kill this voiceless creature......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஒருவன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, son... then... are you saying there is no God at all?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": "naam-s007-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I didn't say there is no God... God......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s007-u009",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/scenes/scene-007.md",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-001",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 1,
+          "description": "Explicit `[பாட்டு]` marker."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Song]",
+        "mode": "prose-faithful",
+        "notes": [
+          "This occurrence carries the specific source-printed item attribution `பாரதியார்` from PDF 4."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s007-u010",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/songs/records/naam-perf-001.md",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-001",
+        "source_locator": {
+          "kind": "retained-performance-record",
+          "ordinal": 1,
+          "description": "Full source-visible `ஆயிரம் தெய்வங்கள்` lyric body."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "1.",
+          "Seeking, saying there are a thousand gods,",
+          "you fools who wander—through many",
+          "thousands of Vedas, that knowledge alone is God,",
+          "have you not heard?",
+          "2.",
+          "Praising Maadan, Kaadan and Vedan,",
+          "you witless ones who wander in delusion—within whatever",
+          "stands and rises, that knowledge alone is God—",
+          "have you not learned what was proclaimed?",
+          "3.",
+          "Slowly gathering and nurturing many gods,",
+          "adding empty tales—and many",
+          "false religions to spread—can you devise a method",
+          "and show it?"
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "ஆயிரம் தெய்வங்கள் உண்டென்று தேடி",
+            "english": "Seeking, saying there are a thousand gods,"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "அலையும் அறிவிலிகாள்—பல",
+            "english": "you fools who wander—through many"
+          },
+          {
+            "ordinal": 3,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "லாயிரம் வேதம் அறிவொன்றே தெய்வம",
+            "english": "thousands of Vedas, that knowledge alone is God,"
+          },
+          {
+            "ordinal": 4,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "எனக் கேளீரோ",
+            "english": "have you not heard?"
+          },
+          {
+            "ordinal": 5,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "மாடனைக் காடனை வேடனைப் போற்றி",
+            "english": "Praising Maadan, Kaadan and Vedan,"
+          },
+          {
+            "ordinal": 6,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "மயங்கு மதியிலிகாள்—எத",
+            "english": "you witless ones who wander in delusion—within whatever"
+          },
+          {
+            "ordinal": 7,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "னூடுநின்றோங்கும் அறிவொன்றே தெய்வமென்",
+            "english": "stands and rises, that knowledge alone is God—"
+          },
+          {
+            "ordinal": 8,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "றோதியறியீரோ",
+            "english": "have you not learned what was proclaimed?"
+          },
+          {
+            "ordinal": 9,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "மெள்ளப் பலதெய்வம் கூட்டி வளர்த்து",
+            "english": "Slowly gathering and nurturing many gods,"
+          },
+          {
+            "ordinal": 10,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "வெறுங்கதைகள் சேர்த்துப்—பல",
+            "english": "adding empty tales—and many"
+          },
+          {
+            "ordinal": 11,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "கள்ள மதங்கள் பரப்புதற் கோர்முறை",
+            "english": "false religions to spread—can you devise a method"
+          },
+          {
+            "ordinal": 12,
+            "kind": "lyric-line",
+            "pdf_page": 16,
+            "tamil": "காட்டவும் வல்லீரோ.",
+            "english": "and show it?"
+          }
+        ],
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Translated only from the source-visible Tamil retained in `naam-perf-001`.",
+          "Specific item-level source attribution preserved: பாரதியார்.",
+          "The unusual printed line breaks are mapped line-by-line rather than repaired from an external edition."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s007-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s007",
+      "scene_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/naam/scenes/scene-007.md",
+        "canonical_scene_path": "works/naam/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Action immediately after the song."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(At once they untie the goat and drive it away.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

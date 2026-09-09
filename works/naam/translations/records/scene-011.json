@@ -1,0 +1,101 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s011",
+  "scene_ordinal": 11,
+  "source_scene_number": 11,
+  "scene_status": "verified",
+  "unit_count": 3,
+  "units": [
+    {
+      "id": "naam-en-s011-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s011",
+      "scene_ordinal": 11,
+      "source_scene_number": 11,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-011.json",
+        "canonical_scene_path": "works/naam/scenes/scene-011.md",
+        "source_record_id": "naam-s011-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்ப",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu...! It looks very fine that you have gone searching for honour for your brother.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s011-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s011",
+      "scene_ordinal": 11,
+      "source_scene_number": 11,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-011.json",
+        "canonical_scene_path": "works/naam/scenes/scene-011.md",
+        "source_record_id": "naam-s011-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Leave aside searching for honour. Couldn't she at least avoid searching for disgrace?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s011-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s011",
+      "scene_ordinal": 11,
+      "source_scene_number": 11,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-011.json",
+        "canonical_scene_path": "works/naam/scenes/scene-011.md",
+        "source_record_id": "naam-s011-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்ப",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu... to protect my self-respect, I won't even see you as my sister. Be careful!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

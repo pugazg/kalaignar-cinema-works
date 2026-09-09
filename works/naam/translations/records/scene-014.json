@@ -1,0 +1,1053 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s014",
+  "scene_ordinal": 14,
+  "source_scene_number": 14,
+  "scene_status": "verified",
+  "unit_count": 34,
+  "units": [
+    {
+      "id": "naam-en-s014-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/scenes/scene-014.md",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening Chennai labour setting."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran works as a labourer in Chennai.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, brother! Come here! Will you carry this box for me?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh—",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Lift it... onto your head...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/scenes/scene-014.md",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Source location bracket."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Kandasamy's house]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hello... only now you're coming?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... hey... put the box and bedding inside. Hmm... has that Sathya Seelan arrived?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He's arrived.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I saw on the way here. The advertising is really grand.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Bheemasenan! I'm a contractor! I have no notion at all of saving money. (An orange is also placed before him.) Eat!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Never mind... you really are Kandasamy through and through.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sir... sir...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who is it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The man who carried the load here.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh... ho... I forgot. Here, one anna.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "One anna!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then how much do you want?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Give me whatever you think is fair.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My first mistake was talking to this fellow at all! Hey... go away respectfully.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I carried it such a long way.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Talking back too, are you? Hey... are you going? Want a kick?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A kick for asking for my wage!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... take what you're given and go.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What—the kick?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... are you going now or not?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Some people are bloated with money; some are bloated with flesh!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... what did you say? What did you say? ...Kandasamy stops him.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u028",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/scenes/scene-014.md",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Boxing fight begins."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A fight breaks out between Kumaran and Bheemasenan.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Bheemasenan! If you start boxing right now, people will watch and leave without buying tickets. For me, collection means collection.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let go, Mr. Kandasamy! These fellows shouldn't be let off so easily.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u031",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/scenes/scene-014.md",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran wins fight."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran wins.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கந்தசாமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Bheemasenan! You're very tired—poor man, take some rest—I'll be right back.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s014-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": "naam-s014-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பீமசேனன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Never mind... he's really battered my hand.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source verb in `என் கையை வேறிலே சுமட்டிக் கிட்டான்` is unusual; English renders the immediate injury sense conservatively."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s014-u034",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s014",
+      "scene_ordinal": 14,
+      "source_scene_number": 14,
+      "source": {
+        "source_path": "works/naam/scenes/scene-014.md",
+        "canonical_scene_path": "works/naam/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Closing transformation."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran, who came as a labourer, becomes a boxer.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

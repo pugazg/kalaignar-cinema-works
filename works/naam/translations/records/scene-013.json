@@ -1,0 +1,1429 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s013",
+  "scene_ordinal": 13,
+  "source_scene_number": 13,
+  "scene_status": "verified",
+  "unit_count": 46,
+  "units": [
+    {
+      "id": "naam-en-s013-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Narayani's grave.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்த",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come... I have no place where I can ask you to sit and receive you. This is the house I built for my mother—sit here.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்த",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara... will the dead return because we grieve?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I know that too. But how am I to finish the work they left behind?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்த",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You're deeply shaken.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm not shaken! I've taken an oath of duty. I am a rich man... I am a zamindar....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்த",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What—you're a rich man?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't be afraid! I am a rich man! But... not all rich people have to be bad. Do you know what killed my mother? Not the disease the doctors name... not the fate the Vedantists speak of... poison prepared in the camp of the cruel... that killed my mother.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்த",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "...Poison!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes. Poison... it turned my mother, who kept preaching ‘peace... peace,’ into a tomb. On that tomb Mallayappan's blood must pour down like rain! The eyes of that intoxicated clan must be plucked out and scattered like flowers. Amma... Kumaran will not rest until he fulfils the promise he gave you! He must answer these trembling hands! I will not leave that traitor alive! Revenge for revenge...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Search montage begins."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(He decided to take revenge. He questioned many people about the will...)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Elder... is there no favourable answer?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெரியவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I know nothing about any will.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மற்றொருவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A will, or a lump of mud—what difference?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Haven't you even heard of such a will?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மற்றொரு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I've only heard of it.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What did you hear, sir?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மற்றொரு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, who are you? You look completely mad... asking questions right in the middle of the game...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified colloquial sentence is irregular; English preserves its immediate sense as a taunting dismissal rather than inventing a repaired Tamil source."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s013-u020",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Search montage ends in ridicule."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran wandered; everywhere the echo was ‘madman.’)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Near the grave) Amma... they say I'm mad, Amma... am I mad, Amma...?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They will say you're mad, Kumara! Even I cannot believe your new history; how will others believe it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... don't you know that such a will was written?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I know a will was written. You can see stars falling in the sky! But finding where one fell—that's the hard part.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Wherever it is, fine! Just tell me the place.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They won't have put it on display in a crystal hall! Who knows in what snake-filled wilderness it is hiding...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Snake forest—underground tunnel! Just tell me the place, doctor.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A will is a sword! It has to be sharpened on the whetstone called law. Only then can you meet Mallayappan on the battlefield called the court. An ordinary man cannot buy this whetstone! Vast resources are needed! Don't infer from this advice that I know where the will is.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Doctor... is disappointment the only answer?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Those who know tact will turn even disappointment into a ladder. You need money to conduct a case! Then search for the will.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u031",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran exits after Sanjeevi advice."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u032",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema enters."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Prema enters.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Printed `என் பிரேமா...இவ்வளவு நேரம்?` has no source speaker label."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Prema... so late?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immediate context suggests Sanjeevi, but the source prints no label; the English layer therefore remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s013-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Lakshmi came along on the way, Appa... yes... they say Kumaran is wandering about crying ‘will, will’... what is it, Appa?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u035",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bring it quickly... I'm hungry.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u036",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema carries food inside."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(She goes inside with the food.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u037",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/scenes/scene-013.md",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Long printed speech after food direction has no source speaker label."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! Bring it here. (While eating) He is the heir to the zamindari property! Kumaran is the late zamindar's son. There was no lawful wife! He is the son of a beloved consort! All the properties were written over to Kumaran. He is searching for evidence of that will.",
+        "mode": "prose-faithful",
+        "notes": [
+          "Context strongly points to Sanjeevi, but no source label is printed; no speaker is manufactured in metadata."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s013-u038",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Evidence...? (To herself) The zamindar's son?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u039",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... a doctor treated the dead zamindar. That doctor hid the will.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u040",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d032",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying, Appa? Who is that cruel man?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u041",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d033",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not a cruel man! A man greedy to make his daughter the zamindarani.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u042",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d034",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who is that greedy man?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u043",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d035",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prema's father.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u044",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d036",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... you! Have you told him this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u045",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d037",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Foolish girl! Don't rush! Do you know I approve of the love you have for Kumaran? He must marry you without looking down on you as poor. Then the lawsuit—after that Kumaran becomes zamindar! You become zamindarani!!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s013-u046",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s013",
+      "scene_ordinal": 13,
+      "source_scene_number": 13,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-013.json",
+        "canonical_scene_path": "works/naam/scenes/scene-013.md",
+        "source_record_id": "naam-s013-d038",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah...! My Kumaran is a zamindar! My beloved is a zamindar!!!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

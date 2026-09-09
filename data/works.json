@@ -937,7 +937,7 @@
     "historical_glyph_audit": "complete-final-verified-67-of-67",
     "historical_glyph_guide_path": "docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "historical_glyph_audit_path": "works/naam/notes/historical-glyph-audit.md",
-    "next_action": "Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.",
+    "next_action": "Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.",
     "canonical_tamil_first_pass_pages_completed": 67,
     "canonical_tamil_first_pass_pdf_range_completed": "5-71",
     "canonical_tamil_first_pass_current_through_pdf": 71,
@@ -1047,17 +1047,18 @@
       "song_performance_authorship_unresolved": 5,
       "song_performance_qa": "PASS",
       "song_performance_qa_path": "works/naam/notes/song-performance-qa.json",
-      "english_translation": "in-progress-verified-through-scene-005",
+      "english_translation": "in-progress-verified-through-scene-015",
       "song_performance_gate": "complete-verified-source-only-reconciled",
       "source_attributed_performance_records": 1,
       "unresolved_item_level_authorship_records": 6,
-      "english_translation_verified_scenes": 5,
-      "english_translation_units": 131,
-      "english_dialogue_links_verified": 99,
-      "english_performance_records_translated": 1,
-      "english_song_line_cue_mappings_verified": 23,
+      "english_translation_verified_scenes": 15,
+      "english_translation_units": 363,
+      "english_dialogue_links_verified": 279,
+      "english_performance_records_translated": 3,
+      "english_song_line_cue_mappings_verified": 57,
       "english_translation_index_path": "works/naam/translations/index.json",
-      "english_source_unlabelled_speech_units": 1
+      "english_source_unlabelled_speech_units": 4,
+      "english_iteration_scene_batch_size": 10
     }
   }
 ]

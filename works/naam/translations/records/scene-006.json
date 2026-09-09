@@ -1,0 +1,593 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s006",
+  "scene_ordinal": 6,
+  "source_scene_number": 6,
+  "scene_status": "verified",
+  "unit_count": 19,
+  "units": [
+    {
+      "id": "naam-en-s006-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/scenes/scene-006.md",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: the physician's house.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you looking for, Prema?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa said there's a good medicine! If it's applied for pain or wounds, he says it will heal at once. That's what I'm looking for.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No need, Prema... use the medicine you already have! Why should you trouble yourself?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No matter how much trouble I take for you, I don't mind......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If everyone in the world had this loving heart......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What would it be like? Can everyone be a Prema? It's the gardener who worries about a beautiful flowering plant. Would cattle worry about it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Good thing... you reminded me... I'd completely forgotten. I have to drive the cattle out. Otherwise that zamindar will shout! I'm going.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why... like this... don't you need even a little rest?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You're crazy! In this world, rest for the poor means 'laziness.'",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/scenes/scene-006.md",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran exits and Mathirai enters."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran leaves. Mathirai comes from the opposite direction.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "‘In one place... in a world without you... it would keep rolling... pa......’",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Mathirai?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I chased him and chased him, and finally tied that body-oil onto his head and came back.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo... poor fellow......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My running wasn't the sin... I paid one rupee and bought that oil and took it to him—that was the sin.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... Mathirai!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": "naam-s006-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyayyo... the puppy will die.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s006-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s006",
+      "scene_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/naam/scenes/scene-006.md",
+        "canonical_scene_path": "works/naam/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Closing visual direction."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Prema stands looking in the direction Kumaran went.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

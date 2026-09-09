@@ -1,0 +1,171 @@
+{
+  "work_id": "naam",
+  "phase": "english-translation-batch-006-015-qa",
+  "status": "PASS",
+  "source_scenes": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "translation_units": 232,
+  "immutable_dialogue_records_expected": 180,
+  "immutable_dialogue_records_linked": 180,
+  "dialogue_coverage": "180/180 exactly once",
+  "missing_dialogue_links": 0,
+  "duplicate_dialogue_links": 0,
+  "exact_tamil_speaker_labels_preserved": true,
+  "source_delimiters_preserved_as_metadata": true,
+  "source_unlabelled_speech_units": 3,
+  "source_unlabelled_unit_ids": [
+    "naam-en-s010-u021",
+    "naam-en-s013-u033",
+    "naam-en-s013-u037"
+  ],
+  "inferred_unlabelled_speakers": 0,
+  "performance_occurrences_expected": [
+    "naam-perf-001",
+    "naam-perf-002"
+  ],
+  "performance_occurrences_linked": [
+    "naam-perf-001",
+    "naam-perf-002"
+  ],
+  "performance_coverage": "2/2",
+  "performance_line_cue_mappings": 34,
+  "specific_bharathiyar_attribution_preserved_for": "naam-perf-001",
+  "naam_perf_002_authorship": "unresolved-item-level",
+  "cross_page_translation_units": [
+    "naam-en-s008-u009"
+  ],
+  "scene_results": [
+    {
+      "scene_id": "naam-s006",
+      "source_scene_number": 6,
+      "translation_units": 19,
+      "immutable_dialogue_records_expected": 16,
+      "immutable_dialogue_records_linked": 16,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s007",
+      "source_scene_number": 7,
+      "translation_units": 11,
+      "immutable_dialogue_records_expected": 7,
+      "immutable_dialogue_records_linked": 7,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": [
+        "naam-perf-001"
+      ]
+    },
+    {
+      "scene_id": "naam-s008",
+      "source_scene_number": 8,
+      "translation_units": 17,
+      "immutable_dialogue_records_expected": 13,
+      "immutable_dialogue_records_linked": 13,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": [
+        "naam-perf-002"
+      ]
+    },
+    {
+      "scene_id": "naam-s009",
+      "source_scene_number": 9,
+      "translation_units": 30,
+      "immutable_dialogue_records_expected": 20,
+      "immutable_dialogue_records_linked": 20,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s010",
+      "source_scene_number": 10,
+      "translation_units": 57,
+      "immutable_dialogue_records_expected": 44,
+      "immutable_dialogue_records_linked": 44,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 1,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s011",
+      "source_scene_number": 11,
+      "translation_units": 3,
+      "immutable_dialogue_records_expected": 3,
+      "immutable_dialogue_records_linked": 3,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s012",
+      "source_scene_number": 12,
+      "translation_units": 9,
+      "immutable_dialogue_records_expected": 5,
+      "immutable_dialogue_records_linked": 5,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s013",
+      "source_scene_number": 13,
+      "translation_units": 46,
+      "immutable_dialogue_records_expected": 38,
+      "immutable_dialogue_records_linked": 38,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 2,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s014",
+      "source_scene_number": 14,
+      "translation_units": 34,
+      "immutable_dialogue_records_expected": 29,
+      "immutable_dialogue_records_linked": 29,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": []
+    },
+    {
+      "scene_id": "naam-s015",
+      "source_scene_number": 15,
+      "translation_units": 6,
+      "immutable_dialogue_records_expected": 5,
+      "immutable_dialogue_records_linked": 5,
+      "missing_dialogue_links": 0,
+      "duplicate_dialogue_links": 0,
+      "source_unlabelled_speech_units": 0,
+      "performance_occurrences_linked": []
+    }
+  ],
+  "authorship_status_changed_by_translation": false,
+  "external_or_unprinted_lyrics_imported": false,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "song_source_records_modified_by_translation": 0,
+  "next_gate": "scenes 16-25 translation batch ready; 10 scenes per iteration"
+}

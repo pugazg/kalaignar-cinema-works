@@ -1,31 +1,44 @@
 {
   "work_id": "naam",
   "target_language": "en",
-  "status": "in-progress-verified-through-scene-005",
+  "status": "in-progress-verified-through-scene-015",
   "source_scene_count": 45,
-  "verified_scenes": 5,
+  "verified_scenes": 15,
   "verified_scene_ids": [
     "naam-s001",
     "naam-s002",
     "naam-s003",
     "naam-s004",
-    "naam-s005"
+    "naam-s005",
+    "naam-s006",
+    "naam-s007",
+    "naam-s008",
+    "naam-s009",
+    "naam-s010",
+    "naam-s011",
+    "naam-s012",
+    "naam-s013",
+    "naam-s014",
+    "naam-s015"
   ],
-  "translation_units_verified": 131,
+  "translation_units_verified": 363,
   "immutable_dialogue_records_total": 590,
-  "immutable_dialogue_links_verified": 99,
+  "immutable_dialogue_links_verified": 279,
   "scene_001_dialogue_coverage": "14/14",
-  "stage_or_narrative_units_verified": 29,
-  "performance_cue_units_verified": 1,
-  "song_units_verified": 1,
+  "stage_or_narrative_units_verified": 76,
+  "performance_cue_units_verified": 2,
+  "song_units_verified": 2,
   "retained_performance_records_total": 7,
-  "retained_performance_records_translated": 1,
+  "retained_performance_records_translated": 3,
   "translated_performance_record_ids": [
-    "naam-perf-007"
+    "naam-perf-007",
+    "naam-perf-001",
+    "naam-perf-002"
   ],
-  "song_line_cue_mappings_verified": 23,
+  "song_line_cue_mappings_verified": 57,
   "cross_page_translation_units": [
-    "naam-en-s001-u021"
+    "naam-en-s001-u021",
+    "naam-en-s008-u009"
   ],
   "authorship_state_changed_by_translation": false,
   "canonical_tamil_changed_by_translation": false,
@@ -36,8 +49,11 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.",
-  "source_unlabelled_speech_units_verified": 1,
+  "next_activity": "Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.",
+  "source_unlabelled_speech_units_verified": 4,
   "batch_002_005_review": "BATCH_002_005_REVIEW.md",
-  "batch_002_005_qa": "batch-002-005-qa.json"
+  "batch_002_005_qa": "batch-002-005-qa.json",
+  "batch_006_015_review": "BATCH_006_015_REVIEW.md",
+  "batch_006_015_qa": "batch-006-015-qa.json",
+  "iteration_scene_batch_size": 10
 }

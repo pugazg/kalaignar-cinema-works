@@ -2,7 +2,7 @@
 
 **Canonical authority:** 67/67 dual-gate verified Tamil, 45/45 verified source-numbered scenes, 590 immutable dialogue records, complete 28-entity character layer, and reconciled 7/7 source-visible song/performance records  
 **Target language:** English (`en`)  
-**Status:** **in progress — source scenes 1–5 / 45 verified; 131 units**
+**Status:** **verified through source scene 15 / 45; 363 units**
 
 This is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -41,8 +41,7 @@ Detailed pilot decisions and integrity checks are in `PILOT_REVIEW.md`; machine-
 
 ## Next batch
 
-Translate and verify source-numbered scenes **2–5** as the first bounded post-pilot batch, using the same source-linking and voice rules.
-
+Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
 
 ## Batch — source scenes 2–5
 
@@ -52,4 +51,16 @@ Cumulative English state is now **5/45 verified scenes / 131 units / 99 immutabl
 
 ## Next batch
 
-Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.
+Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
+
+## Verified batch — scenes 6–15
+
+- source scenes: **10 / scenes 6–15**;
+- units: **232**;
+- immutable dialogue links: **180/180**;
+- source-unlabelled speech: **3 / inferred speakers 0**;
+- performance occurrences: **2/2 — `naam-perf-001`, `naam-perf-002`**;
+- new line/cue mappings: **34**;
+- upstream rewrites: **0**.
+
+The continuing production cadence is **10 source scenes per iteration**.

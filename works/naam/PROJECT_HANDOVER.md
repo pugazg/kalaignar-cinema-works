@@ -341,3 +341,20 @@ A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and fo
 - upstream source-layer modifications: **0**.
 
 **Current exact next activity:** Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.
+
+
+## English scenes 6–15 closure checkpoint
+
+- cumulative verified English scenes: **15/45**;
+- cumulative units: **363**;
+- immutable dialogue links: **279**;
+- source-unlabelled speech retained: **4 / inferred labels 0**;
+- performance records translated: **3/7**;
+- performance line/cue mappings: **57**;
+- upstream source-layer changes caused by English: **0**.
+
+**User iteration directive:** 10 source scenes per English iteration; final remainder may be smaller.
+
+## Current exact next activity
+
+> **Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.**

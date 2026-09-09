@@ -1,15 +1,17 @@
 # Next Chat Prompt — நாம்
 
-Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/naam/`. Live `main` is authoritative.
+Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/naam/`. **Live `main` is authoritative.**
 
-Canonical Tamil is **67/67 COMPLETE-VERIFIED**. Scenes are **45/45 COMPLETE-VERIFIED**. Dialogue indexing is **590 immutable records / QA PASS**. Character/entity indexing is **28 entities / 45/45 labels / 590/590 records / QA PASS**. Song/performance gating is **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED**, with `ஆயிரம் தெய்வங்கள்` → `பாரதியார்` as the only item-level source attribution and six unresolved item-level authorships.
+Canonical Tamil is **67/67 COMPLETE-VERIFIED**; scenes **45/45 COMPLETE-VERIFIED**; dialogue index **590 immutable records / QA PASS**; character/entity layer **28 entities / 45/45 labels / 590/590 records / QA PASS**; song/performance gate **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED**.
 
-English translation is **VERIFIED THROUGH SOURCE SCENE 5: 5/45 scenes, 131 units, 99 immutable dialogue links, 1/7 performance records translated, 23/23 song role/line mappings**. Scenes 2–5 add **110 units / 85/85 immutable dialogue links / one source-unlabelled speech unit deliberately left unassigned / 0 performance records / 0 cross-page units**. No source or structured layer was rewritten.
+English translation is **VERIFIED THROUGH SOURCE SCENE 15**: **15/45 scenes**, **363 units**, **279 immutable dialogue links**, **4 source-unlabelled speech units with 0 inferred speaker labels**, **3/7 performance records translated**, and **57 performance line/cue mappings**. `naam-perf-001` retains the specific source attribution **பாரதியார்**; `naam-perf-002` remains unresolved at item level.
 
-English index: `works/naam/translations/index.json`; records: `works/naam/translations/records/scene-001.json`–`scene-005.json`; pilot review: `works/naam/translations/PILOT_REVIEW.md`; batch review: `works/naam/translations/BATCH_002_005_REVIEW.md`; batch QA: `works/naam/translations/batch-002-005-qa.json`.
+User directive: **process 10 source scenes in each English-translation iteration**. Only the final remainder may contain fewer than 10.
 
-Do not alter closed Tamil or structured layers except for later direct source-supported corrections.
+Current English files: `translations/index.json`, `translations/BATCH_006_015_REVIEW.md`, `translations/batch-006-015-qa.json`, and `translations/records/scene-001.json` through `scene-015.json`.
+
+Do not alter closed Tamil or structured source layers except for later direct source-supported corrections.
 
 ## Exact next activity
 
-> **Translate and verify source-numbered scenes 6–10 as the next bounded English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-001` in scene 7 with its specific `பாரதியார்` attribution and `naam-perf-002` in scene 8 with unresolved item-level authorship; and do not alter closed Tamil or structured source layers.**
+> **Translate and verify source-numbered scenes 16–25 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-003` in scene 21 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.**

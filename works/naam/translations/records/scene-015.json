@@ -1,0 +1,195 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s015",
+  "scene_ordinal": 15,
+  "source_scene_number": 15,
+  "scene_status": "verified",
+  "unit_count": 6,
+  "units": [
+    {
+      "id": "naam-en-s015-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s015",
+      "scene_ordinal": 15,
+      "source_scene_number": 15,
+      "source": {
+        "source_path": "works/naam/scenes/scene-015.md",
+        "canonical_scene_path": "works/naam/scenes/scene-015.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening news-spread montage."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(News that Kumaran has become a boxer spreads through the whole village, reaches Mathirai, and finally reaches Mallayappan too.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s015-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s015",
+      "scene_ordinal": 15,
+      "source_scene_number": 15,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-015.json",
+        "canonical_scene_path": "works/naam/scenes/scene-015.md",
+        "source_record_id": "naam-s015-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sabash! Boxer Govindan—horrible death! Opposing wrestler arrested for fighting by foul means.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s015-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s015",
+      "scene_ordinal": 15,
+      "source_scene_number": 15,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-015.json",
+        "canonical_scene_path": "works/naam/scenes/scene-015.md",
+        "source_record_id": "naam-s015-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who... Kumaran?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s015-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s015",
+      "scene_ordinal": 15,
+      "source_scene_number": 15,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-015.json",
+        "canonical_scene_path": "works/naam/scenes/scene-015.md",
+        "source_record_id": "naam-s015-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! The man who is going to kill Kumaran won't be arrested! Gnanam! I'm going to arrange a boxing match in our village. A fight between Kumaran—and another man! I'll turn that other man into Yama and have him kill Kumaran.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s015-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s015",
+      "scene_ordinal": 15,
+      "source_scene_number": 15,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-015.json",
+        "canonical_scene_path": "works/naam/scenes/scene-015.md",
+        "source_record_id": "naam-s015-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who is that other man?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s015-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s015",
+      "scene_ordinal": 15,
+      "source_scene_number": 15,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-015.json",
+        "canonical_scene_path": "works/naam/scenes/scene-015.md",
+        "source_record_id": "naam-s015-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The wrestler! Paramasivam.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

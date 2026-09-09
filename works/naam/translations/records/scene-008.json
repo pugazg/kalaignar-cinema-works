@@ -1,0 +1,709 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s008",
+  "scene_ordinal": 8,
+  "source_scene_number": 8,
+  "scene_status": "verified",
+  "unit_count": 17,
+  "units": [
+    {
+      "id": "naam-en-s008-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/scenes/scene-008.md",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Opening source narration."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "At night, while Kumaran is asleep, Meenu comes secretly, without anyone knowing, to meet and speak with him. What is wrong in a lover meeting her beloved and talking under a dog's protection?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/scenes/scene-008.md",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "The lovers are alone."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The two are alone.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Has your brother fallen asleep?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He's asleep! Yes... are you going tomorrow for the tax collection?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't you know? Tomorrow your brother is going to collect taxes! Look at this cruelty, Meenu... with no seasonal rain, hunger and famine are dancing with their hair loose... and your brother is going out to collect tax—tax collection.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother gets angry because he knows you talk like this!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 17
+          },
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come with me tomorrow and see—you'll feel that burning pain too. A man will say he has no way to pay the tax—your brother will beat him until his own arm aches. Eyes robbed of light—dried lips—sunken stomachs... these are in those broken huts. Sobs and hiccups for those forsaken people—their sorrowing voice will sound like the notes of a veena to these sightless men. A pauper will writhe with hunger—a child without milk will scream... a heart without compassion, a nature without sight, deeds without dignity: these are in your brother's durbar...... He will call Mukhari 'Mohanam.' He will call a funeral lament a graceful song... Meenu... you often say, ‘God will save us’—those destitute people too will cry that a thousand times... he will beat them... until blood drips from their bodies... cries of ‘Ayyo’... can this deed be borne...? They will curl up before the whirling whip... amid all this, your brother's chariot of authority is going to parade through the street of the working people... come and see... come and see... look... look......",
+        "mode": "prose-faithful",
+        "notes": [
+          "The long PDF 17–18 speech keeps the source's class rhetoric, musical references `முகாரி / மோகனம்`, repeated cries and whip imagery rather than smoothing them into neutral exposition."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s008-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... what's that noise there?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/scenes/scene-008.md",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu hides when Mallayappar calls out."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu runs and hides.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/scenes/scene-008.md",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Conversation resumes after Mallayappar leaves."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After Mallayappar leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You're lighting firecrackers in front of a haystack.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Firecrackers, is this? Meenu......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s008-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d011",
+        "source_occurrence_id": "naam-perf-002",
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough... enough... don't start again.\n\nKumaran:\n\nO speaking yaazh, doe-eyed maiden,\nYou are the breeze that blows.\n\nMeenu:\n\nO blue sky, can you forget yourself\nAnd praise the moon?\n\nKumaran:\n\nO beauty! Tamil epic,\nAn unpainted painting—\n\nMeenu:\n\nSpeaking words of delight again and again,\nCasting loving glances again and again.",
+        "mode": "prose-faithful",
+        "notes": [
+          "This immutable dialogue record owns part of `naam-perf-002`; the English performance link is attached here so the printed span is not duplicated in a separate song unit."
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "குமரன் :",
+            "english": "Kumaran:"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "பேசும் யாழே பெண் மானே",
+            "english": "O speaking yaazh, doe-eyed maiden,"
+          },
+          {
+            "ordinal": 3,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "வீசும் தென்றல் நீ தானே.",
+            "english": "You are the breeze that blows."
+          },
+          {
+            "ordinal": 4,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "மீனு :",
+            "english": "Meenu:"
+          },
+          {
+            "ordinal": 5,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "நீல வானே தன்னை மறந்து",
+            "english": "O blue sky, can you forget yourself"
+          },
+          {
+            "ordinal": 6,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "நிலவினைப் புகழ்ந்திடலாமோ.",
+            "english": "And praise the moon?"
+          },
+          {
+            "ordinal": 7,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "குமரன் :",
+            "english": "Kumaran:"
+          },
+          {
+            "ordinal": 8,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "எழிலே! தமிழ்க் காவியமே",
+            "english": "O beauty! Tamil epic,"
+          },
+          {
+            "ordinal": 9,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "எழுதாத ஓவியமே—",
+            "english": "An unpainted painting—"
+          },
+          {
+            "ordinal": 10,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "மீனு :",
+            "english": "Meenu:"
+          },
+          {
+            "ordinal": 11,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "இன்ப மொழி பேசி பேசி",
+            "english": "Speaking words of delight again and again,"
+          },
+          {
+            "ordinal": 12,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "அன்புப் பார்வை வீசி வீசி.",
+            "english": "Casting loving glances again and again."
+          }
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s008-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d012",
+        "source_occurrence_id": "naam-perf-002",
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "O speaking yaazh, doe-eyed maiden—",
+        "mode": "prose-faithful",
+        "notes": [
+          "This immutable dialogue record owns part of `naam-perf-002`; the English performance link is attached here so the printed span is not duplicated in a separate song unit."
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "குமரன் :",
+            "english": "Kumaran:"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "பேசும் யாழே பெண் மானே—",
+            "english": "O speaking yaazh, doe-eyed maiden—"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s008-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s008",
+      "scene_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/naam/scenes/scene-008.md",
+        "source_record_id": "naam-s008-d013",
+        "source_occurrence_id": "naam-perf-002",
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If I am the yaazh, then you are surely its music.\n\nKumaran:\n\nThere are differences within music;\nWe need none between us.\n\nBoth:\n\nA life of love is the juice of ripe fruit,\nThe delight of women and valiant men.",
+        "mode": "prose-faithful",
+        "notes": [
+          "This immutable dialogue record owns part of `naam-perf-002`; the English performance link is attached here so the printed span is not duplicated in a separate song unit."
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "மீனு :",
+            "english": "Meenu:"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "யாழே நானென்றால் நாதம் நீர்தானே",
+            "english": "If I am the yaazh, then you are surely its music."
+          },
+          {
+            "ordinal": 3,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "குமரன் :",
+            "english": "Kumaran:"
+          },
+          {
+            "ordinal": 4,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "நாதத்தில் பேதம் உண்டு",
+            "english": "There are differences within music;"
+          },
+          {
+            "ordinal": 5,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "நமக்கது வேண்டாமே.",
+            "english": "We need none between us."
+          },
+          {
+            "ordinal": 6,
+            "kind": "role-cue",
+            "pdf_page": 18,
+            "tamil": "இருவர் :",
+            "english": "Both:"
+          },
+          {
+            "ordinal": 7,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "காதல் வாழ்வே கனி ரசமே",
+            "english": "A life of love is the juice of ripe fruit,"
+          },
+          {
+            "ordinal": 8,
+            "kind": "lyric-line",
+            "pdf_page": 18,
+            "tamil": "மாதர் மறவர் உல்லாசமே.",
+            "english": "The delight of women and valiant men."
+          }
+        ]
+      }
+    }
+  ]
+}

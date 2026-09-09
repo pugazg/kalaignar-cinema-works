@@ -1,0 +1,297 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s012",
+  "scene_ordinal": 12,
+  "source_scene_number": 12,
+  "scene_status": "verified",
+  "unit_count": 9,
+  "units": [
+    {
+      "id": "naam-en-s012-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/scenes/scene-012.md",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: the physician's hut.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": "naam-s012-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Doctor... come quickly, doctor...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": "naam-s012-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Kumara? Who is it! Narayani...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/scenes/scene-012.md",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Physician examines Narayani."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The physician takes Narayani's hand and examines her.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": "naam-s012-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, doctor?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": "naam-s012-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Silence)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": "naam-s012-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/scenes/scene-012.md",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Source confirms poison lethality through chicken."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The chicken lying on the floor also loses its life.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s012-u009",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s012",
+      "scene_ordinal": 12,
+      "source_scene_number": 12,
+      "source": {
+        "source_path": "works/naam/scenes/scene-012.md",
+        "canonical_scene_path": "works/naam/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Source parenthetical lament."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Poor thing...)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
