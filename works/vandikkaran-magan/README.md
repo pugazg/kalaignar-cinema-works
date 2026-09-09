@@ -30,7 +30,7 @@ For PDF 6–87, **printed page = PDF page − 1**.
 
 ## Structural mapping checkpoint
 
-The source has **70 observed scene-heading occurrences**. Preserve inserted suffix headings, the combined `45-46` heading, multiple scene starts on one source page, and internal location captions exactly as printed. See `mapping.md` and `notes/scene-heading-audit.md`.
+The source has **71 observed scene-heading occurrences**. Preserve inserted suffix headings, the combined `45-46` heading, multiple scene starts on one source page, and internal location captions exactly as printed. The source-visible `53-டி` heading starts at PDF 83 / printed p.82 and corrects the earlier 70-heading inventory. See `mapping.md` and `notes/scene-heading-audit.md`.
 
 ## Historical Tamil glyph rule
 
@@ -52,10 +52,10 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 ## Current status
 
 - source intake: **COMPLETE**;
-- structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 observed headings**;
-- first-pass transcription: **IN PROGRESS — PDF 4–78 / 75 of 87 scoped source pages DRAFT**;
-- screenplay drafted through: **PDF 78 / printed 77**;
-- page states: **75 draft**;
+- structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
+- first-pass transcription: **IN PROGRESS — PDF 4–83 / 80 of 87 scoped source pages DRAFT**;
+- screenplay drafted through: **PDF 83 / printed 82**;
+- page states: **80 draft**;
 - open first-pass uncertainty markers: **0 recorded**;
 - visual verification: **NOT-STARTED**;
 - historical-glyph verification: **NOT-STARTED** under the current user-directed phase order;
@@ -65,12 +65,12 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 ## Latest five-page batch
 
-- PDF **74–78 / printed 73–77** drafted;
-- PDF 74 closes the source-visible child-celebration song from scene `48`;
-- scene starts encountered: `49`, `50`, `51`, `52`;
-- PDF 78 begins scene `52` / source-visible `ஜமீன் மாளிகை-கோகிலா அறை` / `இரவு` sequence;
+- PDF **79–83 / printed 78–82** drafted;
+- scene `52` continues through PDF 80;
+- PDF 81 contains scene starts `53`, `53-எ`, `53-பி`, `53-சி`;
+- PDF 83 begins source-visible `காட்சி -- 53 டி`, correcting the earlier structural inventory;
 - all five records remain `draft` pending the later verification phases.
 
 ## Exact next activity
 
-> **Continue first-pass transcription with PDF 79–83 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**
+> **Continue first-pass transcription with PDF 84–88 (five source pages), keep all five page records draft, commit/push the five-page batch, then finish the first pass with PDF 89–90. Do not begin visual verification yet.**

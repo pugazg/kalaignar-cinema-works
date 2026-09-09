@@ -9,6 +9,10 @@ This inventory records the source-visible identifying scene number/suffix and it
 
 Printed-page values below use the verified main-range relation **printed = PDF − 1**.
 
+## Corrective finding during first pass
+
+The first-pass transcription of PDF 83 exposed a source-visible **`காட்சி -- 53 டி`** heading. It was absent from the earlier 70-heading map. The controlling scan therefore establishes **71 observed scene-heading occurrences**, with `53-டி` starting at PDF 83 / printed p.82.
+
 | Occurrence | Source scene label | PDF start | Printed start |
 |---:|---|---:|---:|
 | 1 | `1` | 6 | 5 |
@@ -78,24 +82,25 @@ Printed-page values below use the verified main-range relation **printed = PDF �
 | 65 | `53-எ` | 81 | 80 |
 | 66 | `53-பி` | 81 | 80 |
 | 67 | `53-சி` | 81 | 80 |
-| 68 | `54` | 85 | 84 |
-| 69 | `55` | 86 | 85 |
-| 70 | `56` | 87 | 86 |
+| 68 | `53-டி` | 83 | 82 |
+| 69 | `54` | 85 | 84 |
+| 70 | `55` | 86 | 85 |
+| 71 | `56` | 87 | 86 |
 
 ## Sequence findings
 
-- observed heading occurrences: **70**;
+- observed heading occurrences: **71**;
 - unsuffixed/combined headings: **55**;
-- suffix insertions: **15**;
+- suffix insertions: **16**;
 - numerical range represented: **1–56**;
 - combined source heading: **`45-46`**;
-- suffix insertions: `10-எ`, `14-எ`, `16-எ`, `20-எ`, `22-எ`, `24-எ`, `24-பி`, `24-சி`, `24-டி`, `29-எ`, `33-எ`, `42-எ`, `53-எ`, `53-பி`, `53-சி`;
+- suffix insertions: `10-எ`, `14-எ`, `16-எ`, `20-எ`, `22-எ`, `24-எ`, `24-பி`, `24-சி`, `24-டி`, `29-எ`, `33-எ`, `42-எ`, `53-எ`, `53-பி`, `53-சி`, `53-டி`;
 - repeated PDF start pages are source-supported: multiple numbered scenes begin on the same printed page;
 - no synthetic scene 45 or scene 46 should be created merely to force a simple numeric sequence before the derivative boundary gate decides how the **printed combined `45-46` structure** is represented.
 
 ## Typography examples that must remain occurrence-specific
 
-The scan visibly varies heading punctuation/spacing. Examples observed during mapping include forms equivalent to:
+The scan visibly varies heading punctuation/spacing. Examples observed during mapping/canonical first pass include forms equivalent to:
 
 - `காட்சி 10-எ`;
 - `காட்சி—14 எ` / source spacing at PDF 27;
@@ -104,9 +109,10 @@ The scan visibly varies heading punctuation/spacing. Examples observed during ma
 - `காட்சி -- 42`;
 - `காட்சி — 42-எ`;
 - `காட்சி-44` and the combined `காட்சி-45-46`;
-- four distinct scene starts on PDF 81: `53`, `53-எ`, `53-பி`, `53-சி`.
+- four distinct scene starts on PDF 81: `53`, `53-எ`, `53-பி`, `53-சி`;
+- source-visible `காட்சி -- 53 டி` on PDF 83.
 
-These examples are structural observations, not permission to normalize the exact glyph/punctuation form. Canonical transcription will copy each printed occurrence from source pixels.
+These examples are structural observations, not permission to normalize the exact glyph/punctuation form. Canonical transcription must copy each printed occurrence from source pixels.
 
 ## Internal location-caption safeguard
 
@@ -114,4 +120,4 @@ A location caption does not automatically imply a new scene number. PDF 22, for 
 
 ## Gate disposition
 
-This audit closes the **scene-heading identity/start-page mapping gate**. It does not verify the full lexical content of every location caption or any dialogue. Those remain canonical-transcription and visual-fidelity work.
+This audit closes the **scene-heading identity/start-page mapping gate** at **71/71 observed headings**. It does not verify the full lexical content of every location caption or any dialogue. Those remain canonical-transcription and visual-fidelity work.

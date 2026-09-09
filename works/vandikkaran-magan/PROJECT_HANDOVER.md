@@ -27,7 +27,7 @@ Work: `works/vandikkaran-magan/`
 
 Main screenplay pagination: **printed = PDF − 1**.
 
-`notes/scene-heading-audit.md` records **70 observed scene-heading occurrences**. Preserve suffix insertions, source-specific heading punctuation/spacing, the combined `45-46` heading, multiple scene starts on one page, and internal location captions without normalization.
+`notes/scene-heading-audit.md` records **71 observed scene-heading occurrences**. The source-visible `53-டி` at PDF 83 / printed p.82 corrects the earlier 70-heading inventory. Preserve suffix insertions, source-specific heading punctuation/spacing, the combined `45-46` heading, multiple scene starts on one page, and internal location captions without normalization.
 
 ## User-directed phase order — mandatory
 
@@ -47,9 +47,9 @@ No global replacement; inspect source pixels occurrence by occurrence.
 ## Durable checkpoint
 
 - intake: **COMPLETE**;
-- structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 headings**;
-- first-pass transcription: **PDF 4–78 / 75 of 87 scoped pages DRAFT**;
-- screenplay drafted through: **PDF 78 / printed 77**;
+- structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
+- first-pass transcription: **PDF 4–83 / 80 of 87 scoped pages DRAFT**;
+- screenplay drafted through: **PDF 83 / printed 82**;
 - first-pass uncertainty markers: **0 recorded**;
 - visual verification: **0 pages / NOT-STARTED**;
 - historical-glyph verification: **0 pages / NOT-STARTED** under current phase order;
@@ -59,12 +59,12 @@ No global replacement; inspect source pixels occurrence by occurrence.
 
 ## Latest five-page batch
 
-- PDF **74–78 / printed 73–77** drafted and committed;
-- PDF 74 closes the source-visible child-celebration song from scene `48`;
-- scene starts: `49`, `50`, `51`, `52`;
-- PDF 78 begins the source-visible `ஜமீன் மாளிகை-கோகிலா அறை` / `இரவு` sequence under scene `52`;
+- PDF **79–83 / printed 78–82** drafted and committed;
+- scene `52` continues through PDF 80;
+- PDF 81 begins `53`, `53-எ`, `53-பி`, `53-சி`;
+- PDF 83 begins source-visible `53-டி`; this is now part of the structural inventory;
 - all five records remain `draft` pending the later verification phases.
 
 ## Exact next activity
 
-> **Transcribe PDF 79–83 directly from the controlling scan as one five-page first-pass batch; preserve visible text, page boundaries, scene headings, labels, directions and irregular forms; keep all records draft; commit/push the batch; then continue the same first-pass cycle toward PDF 90.**
+> **Transcribe PDF 84–88 directly from the controlling scan as one five-page first-pass batch; preserve visible text, page boundaries, scene headings, labels, directions and irregular forms; keep all records draft; commit/push the batch; then finish first-pass coverage with PDF 89–90.**

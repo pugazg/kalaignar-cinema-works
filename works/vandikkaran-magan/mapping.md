@@ -67,26 +67,26 @@ Do not project this formula onto unnumbered cover/title/credit pages.
 
 ## Scene-heading system
 
-The source does **not** print a simple one-heading-per-number sequence. Whole-scan review identified **70 source-visible scene-heading occurrences**.
+Corrective first-pass review at PDF 83 establishes **71 source-visible scene-heading occurrences**. The earlier mapping omitted source-visible `53-டி`.
 
 - base numerical range represented: **1–56**;
 - unsuffixed/combined heading occurrences: **55**;
-- inserted suffix heading occurrences: **15**;
+- inserted suffix heading occurrences: **16**;
 - the source prints **`45-46` as one combined heading** rather than separate scene-45 and scene-46 headings;
 - multiple scene starts can occur on one source page;
 - internal location captions can occur within a numbered scene and must not be promoted into synthetic scene numbers.
 
 ### Observed source-heading sequence
 
-`1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10-எ, 11, 12, 13, 14, 14-எ, 15, 16, 16-எ, 17, 18, 19, 20, 20-எ, 21, 22, 22-எ, 23, 24, 24-எ, 24-பி, 24-சி, 24-டி, 25, 26, 27, 28, 29, 29-எ, 30, 31, 32, 33, 33-எ, 34, 35, 36, 37, 38, 39, 40, 41, 42, 42-எ, 43, 44, 45-46, 47, 48, 49, 50, 51, 52, 53, 53-எ, 53-பி, 53-சி, 54, 55, 56`
+`1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10-எ, 11, 12, 13, 14, 14-எ, 15, 16, 16-எ, 17, 18, 19, 20, 20-எ, 21, 22, 22-எ, 23, 24, 24-எ, 24-பி, 24-சி, 24-டி, 25, 26, 27, 28, 29, 29-எ, 30, 31, 32, 33, 33-எ, 34, 35, 36, 37, 38, 39, 40, 41, 42, 42-எ, 43, 44, 45-46, 47, 48, 49, 50, 51, 52, 53, 53-எ, 53-பி, 53-சி, 53-டி, 54, 55, 56`
 
-The inventory token above records the identifying number/suffix. Canonical Tamil must later reproduce the **complete printed heading, punctuation/dash form and location caption exactly as visible on each occurrence**.
+The inventory token above records the identifying number/suffix. Canonical Tamil must reproduce the **complete printed heading, punctuation/dash form and location caption exactly as visible on each occurrence**.
 
 See `notes/scene-heading-audit.md` for PDF/printed-page starts.
 
 ## Representative source-visible location headings
 
-These examples establish that location text is structurally meaningful but does not always create a new numbered scene:
+Examples establishing structurally meaningful source location text include:
 
 - scene 1 / PDF 6: `ஜமீன்மாளிகை வெளிப்புறம்`;
 - scene 3 / PDF 9: `ஜமீன் தேவாலயம் வாயில்.`;
@@ -108,7 +108,8 @@ These examples establish that location text is structurally meaningful but does 
 - scene 50 / PDF 76: `அந்தரங்க மாளிகை`;
 - scene 51 / PDF 76: `கோயில் வாசல்`;
 - scene 52 / PDF 78: two-line `ஜமீன் மாளிகை-கோகிலா அறை / இரவு`;
-- scene 53 / PDF 81: two-line `ஜமீன் அந்தரங்க மாளிகை / ஆடம்பர அறை`.
+- scene 53 / PDF 81: two-line `ஜமீன் அந்தரங்க மாளிகை / ஆடம்பர அறை`;
+- scene 53-டி / PDF 83: source-visible inserted scene heading before the குடிசைப் பகுதி fire sequence.
 
 This is not a claim that every location caption has already been lexically verified for release. Exact heading/location transcription remains part of canonical page work and later visual verification.
 
@@ -126,7 +127,7 @@ Additional candidates may emerge during page-by-page canonical transcription. **
 
 ## Historical Tamil glyph disposition
 
-The typeface shows older Tamil forms and therefore requires the project historical-glyph workflow from the first transcription pass onward.
+The typeface shows older Tamil forms and therefore requires the project historical-glyph workflow.
 
 Mandatory families:
 
@@ -148,16 +149,12 @@ Rules:
 - PDF 1 is a photographic/color front cover; PDF 90 is a photographic/color back cover.
 - No handwritten or ownership mark is to be treated as printed canonical text merely because it appears on a scan.
 
-## User-supplied catalogue context
-
-The user's descriptive paragraph about Anna's original story and the film's theme is preserved as **catalogue/context information**, not copied into canonical transcription. The scan's printed role statements control primary-source metadata.
-
 ## Gate status
 
 - source intake: **COMPLETE**;
 - structural mapping: **COMPLETE-VERIFIED for source boundaries / pagination / scene-heading sequence**;
-- scene-heading inventory: **70/70 observed heading occurrences mapped**;
-- canonical Tamil first pass: **NOT-STARTED**;
+- scene-heading inventory: **71/71 observed heading occurrences mapped**;
+- canonical Tamil first pass: **IN PROGRESS through PDF 83**;
 - visual fidelity audit: **NOT-STARTED**;
 - historical-glyph full audit: **NOT-STARTED**;
 - structured derivatives: **BLOCKED**;
@@ -166,4 +163,4 @@ The user's descriptive paragraph about Anna's original story and the film's them
 
 ## Exact next activity
 
-**Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, with stable page anchors and prospective historical-glyph checks on every page. Preserve source scene-heading forms, speaker labels, directions, songs/performance text, punctuation and irregularities exactly; mark uncertainty rather than guessing. First-pass pages remain draft/needs-review until a separate visual-fidelity + historical-glyph verification pass closes them.**
+**Continue canonical Tamil first-pass transcription with PDF 84–88, then PDF 89–90, preserving stable page anchors and source-visible scene-heading forms, speaker labels, directions, songs/performance text, punctuation and irregularities exactly. First-pass pages remain draft until the separate visual-fidelity and historical-glyph verification phases.**
