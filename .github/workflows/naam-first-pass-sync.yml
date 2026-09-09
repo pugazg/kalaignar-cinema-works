@@ -1,4 +1,4 @@
-name: Naam song candidate re-audit
+name: Naam song gate reconciliation
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  audit:
+  reconcile:
     runs-on: ubuntu-24.04
     steps:
       - name: Check out repository
@@ -25,38 +25,55 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate closed source layers
+      - name: Validate re-audit and new source record
         run: |
           python - <<'PY'
           import json
-          d=json.load(open('works/naam/dialogues/index.json'))
-          c=json.load(open('works/naam/characters/index.json'))
-          assert d['status']=='complete-verified' and d['dialogue_record_count']==590
-          assert c['status']=='complete-verified' and c['dialogue_record_coverage']=='590/590'
-          PY
-
-      - name: Re-audit song and performance markers
-        run: python works/naam/scripts/audit_song_candidates.py
-
-      - name: Validate audit output
-        run: |
-          python -m json.tool works/naam/notes/song-candidate-recheck.json >/dev/null
-          python - <<'PY'
-          import json
+          from pathlib import Path
           a=json.load(open('works/naam/notes/song-candidate-recheck.json'))
           assert a['scene_files_scanned']==45
-          assert a['status']=='review-required'
-          assert a['scenes_with_marker_hits'] >= 1
+          assert any(r['scene_file']=='scene-001.md' and any(h['text']=='(பாட்டு)' for h in r['hits']) for r in a['rows'])
+          assert Path('works/naam/songs/records/naam-perf-007.md').exists()
+          s=Path('works/naam/scenes/scene-001.md').read_text(encoding='utf-8')
+          assert '(பாட்டு)' in s and '### எல்லோரும்' in s and '### ஆண்' in s and '### பெண்' in s
           PY
 
-      - name: Commit audit
+      - name: Reconcile song gate
+        run: python works/naam/scripts/reconcile_song_gate_scene001.py
+
+      - name: Validate reconciled gate
+        run: |
+          python -m json.tool works/naam/songs/index.json >/dev/null
+          python -m json.tool works/naam/songs/inventory.json >/dev/null
+          python -m json.tool works/naam/notes/song-performance-qa.json >/dev/null
+          python -m json.tool data/works.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          i=json.load(open('works/naam/songs/index.json'))
+          v=json.load(open('works/naam/songs/inventory.json'))
+          q=json.load(open('works/naam/notes/song-performance-qa.json'))
+          assert i['retained_performance_records']==7
+          assert i['unresolved_item_level_authorship_records']==6
+          assert i['source_attributed_authorship_records']==1
+          assert i['english_translation_gate']=='ready'
+          assert v['coverage']=='7/7' and len(v['records'])==7
+          assert [x['id'] for x in v['records']][0]=='naam-perf-007'
+          assert q['coverage']=='7/7' and q['status']=='PASS'
+          assert len(list(Path('works/naam/songs/records').glob('naam-perf-*.md')))==7
+          m=Path('works/naam/metadata.yaml').read_text(encoding='utf-8')
+          assert 'high_confidence_blocks: 7' in m
+          assert 'record_id: "naam-perf-007"' in m
+          PY
+
+      - name: Commit reconciliation
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo 'No audit changes needed.'
+            echo 'No reconciliation changes needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add works/naam/notes/song-candidate-recheck.json works/naam/notes/song-candidate-recheck.md
-          git commit -m 'Re-audit Naam song performance candidates [skip ci]'
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
+          git commit -m 'Reconcile Naam song gate to seven records [skip ci]'
           git push
