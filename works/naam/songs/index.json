@@ -1,6 +1,6 @@
 {
   "work_id": "naam",
-  "status": "complete-verified-source-only",
+  "status": "complete-verified-source-only-reconciled",
   "authorship_gate": "closed-with-evidence-limited-unresolved-occurrences",
   "mapped_source_visible_structures": 7,
   "retained_performance_records": 7,
@@ -14,7 +14,7 @@
     "credit_pdf_page": 4,
     "body_pdf_page": 16
   },
-  "broad_credit_policy": "PDF 4 `கதை, வசனம், பாடல்... மு. கருணாநிதி` is preserved but is not used to infer item-level authorship for the other five structures.",
+  "broad_credit_policy": "PDF 4 `கதை, வசனம், பாடல்... மு. கருணாநிதி` is preserved but is not used to infer item-level authorship for the other six retained performance records.",
   "inventory": "inventory.json",
   "credits": "credits.json",
   "schema": "schema.json",
