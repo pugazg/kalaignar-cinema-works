@@ -1,0 +1,1959 @@
+{
+  "work_id": "naam",
+  "phase": "character-entity-preflight",
+  "status": "review-ready",
+  "dialogue_authority": "../dialogues/index.json",
+  "dialogue_units_scanned": 590,
+  "distinct_exact_source_labels": 45,
+  "inventory": [
+    {
+      "speaker_label": "அண்ணுமலை",
+      "record_count": 11,
+      "scene_count": 4,
+      "scenes": [
+        32,
+        34,
+        38,
+        40
+      ],
+      "delimiter_distribution": {
+        ":-": 11
+      },
+      "sample_records": [
+        "naam-s032-d005",
+        "naam-s032-d010",
+        "naam-s032-d012",
+        "naam-s034-d003",
+        "naam-s034-d005"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s032-d005",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            52
+          ],
+          "text_preview": "அம்பாள் கோவிலுக்கு பூஜைபோட்டு—பிரார்த்தனை செய்தால் சரியாப்போகும்."
+        },
+        {
+          "record_id": "naam-s032-d010",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            53
+          ],
+          "text_preview": "டேய்...கிண்டலாபண்றே?"
+        },
+        {
+          "record_id": "naam-s032-d012",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            53
+          ],
+          "text_preview": "டேய்! இவன் பேச்சை நம்பாதீங்க ஊர் உருப்படாது."
+        }
+      ]
+    },
+    {
+      "speaker_label": "உன்மீனு",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        41
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s041-d011"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s041-d011",
+          "scene": 41,
+          "source_heading": "காட்சி 41",
+          "pdf_pages": [
+            66
+          ],
+          "text_preview": "ஆ...என் குழந்தையா......"
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஒரு",
+      "record_count": 3,
+      "scene_count": 1,
+      "scenes": [
+        32
+      ],
+      "delimiter_distribution": {
+        ":-": 3
+      },
+      "sample_records": [
+        "naam-s032-d003",
+        "naam-s032-d006",
+        "naam-s032-d008"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s032-d003",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            52
+          ],
+          "text_preview": "ஏ...குட்டி...வண்டியிலே கொஞ்சம் வேப்பிலையை சொருகு...ஊரெல்லாம் பிசாசு பயமா இருக்கு..."
+        },
+        {
+          "record_id": "naam-s032-d006",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            53
+          ],
+          "text_preview": "நேத்து இராத்திரி எங்க வீட்டு கூரையிலே வந்து கூ...கூ...ன்னு கத்துச்சி!"
+        },
+        {
+          "record_id": "naam-s032-d008",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            53
+          ],
+          "text_preview": "அட...சட சடன்னு எறங்கி போச்சப்பா..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஒருவன்",
+      "record_count": 5,
+      "scene_count": 4,
+      "scenes": [
+        7,
+        17,
+        32,
+        34
+      ],
+      "delimiter_distribution": {
+        ":-": 5
+      },
+      "sample_records": [
+        "naam-s007-d006",
+        "naam-s017-d009",
+        "naam-s032-d001",
+        "naam-s032-d004",
+        "naam-s034-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s007-d006",
+          "scene": 7,
+          "source_heading": "காட்சி 7",
+          "pdf_pages": [
+            16
+          ],
+          "text_preview": "ஏம்பா ... அப்போ ... நீ கடவுளே இல்லேங்கிறியா?"
+        },
+        {
+          "record_id": "naam-s017-d009",
+          "scene": 17,
+          "source_heading": "காட்சி 17.",
+          "pdf_pages": [
+            32
+          ],
+          "text_preview": "தம்பி! இன்னிக்குத்தான் நாங்க சந்தோஷத்தைக் கண்டிருக்கிறோம். பசி, பட்டினி, அடி, உதை இவைகள்தான் இங்கு!"
+        },
+        {
+          "record_id": "naam-s032-d001",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            52
+          ],
+          "text_preview": "இருட்டு பேய் இனிமேல் திரும்பக்கூடாதப்பா! பிசாசு அடிச்சிடும்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "கந்தசாமி",
+      "record_count": 10,
+      "scene_count": 2,
+      "scenes": [
+        14,
+        16
+      ],
+      "delimiter_distribution": {
+        ":-": 10
+      },
+      "sample_records": [
+        "naam-s014-d004",
+        "naam-s014-d006",
+        "naam-s014-d008",
+        "naam-s014-d011",
+        "naam-s014-d021"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s014-d004",
+          "scene": 14,
+          "source_heading": "காட்சி 14",
+          "pdf_pages": [
+            29
+          ],
+          "text_preview": "ஹல்லோ...இப்போதான் வர்றீங்களா?"
+        },
+        {
+          "record_id": "naam-s014-d006",
+          "scene": 14,
+          "source_heading": "காட்சி 14",
+          "pdf_pages": [
+            29
+          ],
+          "text_preview": "வந்தாச்சி."
+        },
+        {
+          "record_id": "naam-s014-d008",
+          "scene": 14,
+          "source_heading": "காட்சி 14",
+          "pdf_pages": [
+            29
+          ],
+          "text_preview": "மிஸ்டர் பீமசேனன்! நான் ஒரு காண்டிராக்ட்காரன்! பணத்தை மிச்சம் பண்ணணுங்குற அபிப்பிராயமே எனக்கு கிடையாது. (ஆரஞ்சுப்பழமும் வைக்கப்படுகிறது) சாப்பிடுங்க!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "கும",
+      "record_count": 102,
+      "scene_count": 18,
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24,
+        29
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 101
+      },
+      "sample_records": [
+        "naam-s001-d003",
+        "naam-s001-d005",
+        "naam-s001-d007",
+        "naam-s001-d011",
+        "naam-s001-d013"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s001-d003",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            5
+          ],
+          "text_preview": "பூஜையா......!"
+        },
+        {
+          "record_id": "naam-s001-d005",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            5
+          ],
+          "text_preview": "ஓ...ஹோ...அய்யா...ஜாக்கிரதை! பூஜை அதிகமாகி புயலும் மழையும் சேர்ந்து வந்திடப் போகுது."
+        },
+        {
+          "record_id": "naam-s001-d007",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            6
+          ],
+          "text_preview": "உங்கள் கண்ணீரைக் கண்டு கருணை காட்டாத மாரி—பன்னீரில் மயங்கி விடுவாள் என்றால்...நீங்கள் அவளை ஏமாற்றுகிறீர்கள் என்று தானே அர்த்தம்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "குமரன்",
+      "record_count": 62,
+      "scene_count": 20,
+      "scenes": [
+        1,
+        8,
+        10,
+        13,
+        14,
+        16,
+        17,
+        24,
+        27,
+        30,
+        31,
+        34,
+        35,
+        36,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 61
+      },
+      "sample_records": [
+        "naam-s001-d001",
+        "naam-s008-d012",
+        "naam-s010-d013",
+        "naam-s010-d022",
+        "naam-s010-d027"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s001-d001",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            5
+          ],
+          "text_preview": "ஹூம்...என்னங்க அது கொண்டாட்டம்...?"
+        },
+        {
+          "record_id": "naam-s008-d012",
+          "scene": 8,
+          "source_heading": "காட்சி 8.",
+          "pdf_pages": [
+            18
+          ],
+          "text_preview": "பேசும் யாழே பெண் மானே—"
+        },
+        {
+          "record_id": "naam-s010-d013",
+          "scene": 10,
+          "source_heading": "காட்சி-10.",
+          "pdf_pages": [
+            22
+          ],
+          "text_preview": "முதல்லே நீ குடி."
+        }
+      ]
+    },
+    {
+      "speaker_label": "சஞ்",
+      "record_count": 49,
+      "scene_count": 11,
+      "scenes": [
+        2,
+        3,
+        4,
+        5,
+        12,
+        22,
+        25,
+        27,
+        29,
+        31,
+        33
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 48
+      },
+      "sample_records": [
+        "naam-s002-d004",
+        "naam-s002-d006",
+        "naam-s002-d008",
+        "naam-s003-d002",
+        "naam-s003-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s002-d004",
+          "scene": 2,
+          "source_heading": "காட்சி 2",
+          "pdf_pages": [
+            7
+          ],
+          "text_preview": "ஹூம்...நாராயணி...இன்றைய ஜமீன்தார் மல்லயப்பனுக்கு உன்னைத் தெரியாது. நியாயம்...குமரனும் சில நாள் அங்கேயே வேலைக்கு அமரவேண்டும்."
+        },
+        {
+          "record_id": "naam-s002-d006",
+          "scene": 2,
+          "source_heading": "காட்சி 2",
+          "pdf_pages": [
+            7
+          ],
+          "text_preview": "அப்படியானால் தான் நமது இலட்சியம் நிறைவேறும்! மறைந்து கிடக்கும் உயிரையும் நீ அங்கேயே கண்டு பிடிக்கவும் கூடும்! குமரனுக்கும் ஜமீன் பழக்க வழக்கங்கள் பாடமாகும்!"
+        },
+        {
+          "record_id": "naam-s002-d008",
+          "scene": 2,
+          "source_heading": "காட்சி 2",
+          "pdf_pages": [
+            8
+          ],
+          "text_preview": "இப்போது எல்லா சீர்திருத்தமும், கொள்கைகளும் பேசலாம்! பிறகு ஜமீன் கிடைத்து விட்டால் அந்த உல்லாசத்திலே அவற்றை எல்லாம் மறந்து விடுவான்! நாராயணி...நான் சொன்னது ஞாபகமிருக்கட்டும்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "சஞ்சீவி",
+      "record_count": 35,
+      "scene_count": 10,
+      "scenes": [
+        2,
+        12,
+        13,
+        25,
+        27,
+        29,
+        30,
+        31,
+        40,
+        43
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 34
+      },
+      "sample_records": [
+        "naam-s002-d002",
+        "naam-s012-d002",
+        "naam-s013-d019",
+        "naam-s013-d021",
+        "naam-s013-d023"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s002-d002",
+          "scene": 2,
+          "source_heading": "காட்சி 2",
+          "pdf_pages": [
+            7
+          ],
+          "text_preview": "வேதவல்லி......"
+        },
+        {
+          "record_id": "naam-s012-d002",
+          "scene": 12,
+          "source_heading": "காட்சி 12",
+          "pdf_pages": [
+            25
+          ],
+          "text_preview": "என்ன குமரா? யாரு! நாராயணியா..."
+        },
+        {
+          "record_id": "naam-s013-d019",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            27
+          ],
+          "text_preview": "பைத்தியம் என்றுதான் சொல்லுவார்கள் குமரா! நானே உன் புது வரலாற்றை நம்ப முடியவில்லை மற்றவர்கள் எப்படி நம்புவார்கள்?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "சப் இன்ஸ்.",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        39
+      ],
+      "delimiter_distribution": {
+        ":-": 2
+      },
+      "sample_records": [
+        "naam-s039-d008",
+        "naam-s039-d012"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s039-d008",
+          "scene": 39,
+          "source_heading": "காட்சி 39",
+          "pdf_pages": [
+            63
+          ],
+          "text_preview": "குமரன் கிராமத்தின் அமைதியைக் கருதி உம்மை கைது செய்கிறோம்!"
+        },
+        {
+          "record_id": "naam-s039-d012",
+          "scene": 39,
+          "source_heading": "காட்சி 39",
+          "pdf_pages": [
+            63
+          ],
+          "text_preview": "குமரன்! நீர் குற்றமற்றவராக இருக்கலாம். ஆனால், ஜமீன்தார் தந்துள்ள சாட்சியங்களிலிருந்து உம்மை கைது செய்ய வேண்டியிருக்கிறது. உண்மைகள் கோர்ட்டில் வந்து நிரூபித்துக் கொள்ளலாம். அது வரைய"
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஜீவா",
+      "record_count": 5,
+      "scene_count": 2,
+      "scenes": [
+        1,
+        17
+      ],
+      "delimiter_distribution": {
+        ":-": 5
+      },
+      "sample_records": [
+        "naam-s001-d004",
+        "naam-s001-d006",
+        "naam-s001-d008",
+        "naam-s001-d010",
+        "naam-s017-d013"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s001-d004",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            5
+          ],
+          "text_preview": "ஊரிலே மழை இல்லாமல் விளைச்சல் இல்லை. விளைச்சல் இல்லாமல் ஜமீனுக்கு வரி கொடுக்க சக்தி இல்லை. அதனால் மாரியாத்தாளுக்கு பூசை நடத்துகிறோம்."
+        },
+        {
+          "record_id": "naam-s001-d006",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            5
+          ],
+          "text_preview": "என்னப்பா பண்றது ஜனங்கள் எப்படிப் போறாங்களோ; அப்படித் தானே நாமும் போகணும்."
+        },
+        {
+          "record_id": "naam-s001-d008",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            6
+          ],
+          "text_preview": "அதுவும் சரிதான்! நீ சொல்வதும் உண்மைதான்! ஆமா...நீங்க யாரு? எந்த ஊரு?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஜீவானந்த",
+      "record_count": 5,
+      "scene_count": 1,
+      "scenes": [
+        13
+      ],
+      "delimiter_distribution": {
+        ":-": 5
+      },
+      "sample_records": [
+        "naam-s013-d001",
+        "naam-s013-d003",
+        "naam-s013-d005",
+        "naam-s013-d007",
+        "naam-s013-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s013-d001",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            25
+          ],
+          "text_preview": "குமரா..."
+        },
+        {
+          "record_id": "naam-s013-d003",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            25
+          ],
+          "text_preview": "குமரா...வருந்தினால் செத்தவர்கள் வந்து விடுவார்களா?"
+        },
+        {
+          "record_id": "naam-s013-d005",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            25
+          ],
+          "text_preview": "ரொம்பவும் கலங்கி இருக்கிறாய்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஜீவானந்தர்",
+      "record_count": 6,
+      "scene_count": 5,
+      "scenes": [
+        1,
+        17,
+        34,
+        36,
+        41
+      ],
+      "delimiter_distribution": {
+        ":-": 5,
+        "—": 1
+      },
+      "sample_records": [
+        "naam-s001-d002",
+        "naam-s017-d011",
+        "naam-s034-d007",
+        "naam-s036-d002",
+        "naam-s036-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s001-d002",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            5
+          ],
+          "text_preview": "கொண்டாட்டம் ஒண்ணுமில்லையப்பா... நம்ம திண்டாட்டத்தைப் போக்க தேவிக்கு பூஜை நடத்துறோம்."
+        },
+        {
+          "record_id": "naam-s017-d011",
+          "scene": 17,
+          "source_heading": "காட்சி 17.",
+          "pdf_pages": [
+            33
+          ],
+          "text_preview": "ஏழைகள் இன்பலோகத்தை கற்பனை செய்வதில் தனி ஆறுதல்."
+        },
+        {
+          "record_id": "naam-s034-d007",
+          "scene": 34,
+          "source_heading": "காட்சி 34",
+          "pdf_pages": [
+            57
+          ],
+          "text_preview": "மாத்திரை! எப்பா இந்த வம்பு? நீ தான் நிரூபிச்சிக் காட்டேன்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஞா",
+      "record_count": 11,
+      "scene_count": 4,
+      "scenes": [
+        3,
+        9,
+        10,
+        11
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 10
+      },
+      "sample_records": [
+        "naam-s003-d009",
+        "naam-s003-d011",
+        "naam-s003-d016",
+        "naam-s003-d021",
+        "naam-s003-d023"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s003-d009",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            9
+          ],
+          "text_preview": "நம்ம வீட்டுக்கு புதுவேலைக்காரி வந்திருக்காங்க."
+        },
+        {
+          "record_id": "naam-s003-d011",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            9
+          ],
+          "text_preview": "மீனு......வேலைகளைச் சொல்."
+        },
+        {
+          "record_id": "naam-s003-d016",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            10
+          ],
+          "text_preview": "அடியே நாராயணி! அங்கே என்னடி மகனோடே குலாவுறே? சீக்கிரம் வாடி!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "ஞானம்",
+      "record_count": 6,
+      "scene_count": 4,
+      "scenes": [
+        3,
+        15,
+        20,
+        31
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 5
+      },
+      "sample_records": [
+        "naam-s003-d007",
+        "naam-s015-d002",
+        "naam-s015-d004",
+        "naam-s020-d002",
+        "naam-s020-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s003-d007",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            9
+          ],
+          "text_preview": "(ஜமீன்தார் மனைவி) மீனு...மீனு..."
+        },
+        {
+          "record_id": "naam-s015-d002",
+          "scene": 15,
+          "source_heading": "காட்சி 15",
+          "pdf_pages": [
+            31
+          ],
+          "text_preview": "யாரு...குமரனு?"
+        },
+        {
+          "record_id": "naam-s015-d004",
+          "scene": 15,
+          "source_heading": "காட்சி 15",
+          "pdf_pages": [
+            31
+          ],
+          "text_preview": "யார் அந்த இன்னொருவன்?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "தங்",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        4
+      ],
+      "delimiter_distribution": {
+        ":": 2
+      },
+      "sample_records": [
+        "naam-s004-d009",
+        "naam-s004-d011"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s004-d009",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            12
+          ],
+          "text_preview": "கொஞ்சம் உடம்பு எண்ணெய் வேணும்."
+        },
+        {
+          "record_id": "naam-s004-d011",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            12
+          ],
+          "text_preview": "பணம் கொண்டு வந்திருக்கேன்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "தங்கையன்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        4
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s004-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s004-d007",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            12
+          ],
+          "text_preview": "வைத்தியர் இல்லே?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "திருடன்",
+      "record_count": 3,
+      "scene_count": 1,
+      "scenes": [
+        33
+      ],
+      "delimiter_distribution": {
+        ":-": 3
+      },
+      "sample_records": [
+        "naam-s033-d012",
+        "naam-s033-d014",
+        "naam-s033-d016"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s033-d012",
+          "scene": 33,
+          "source_heading": "காட்சி 33",
+          "pdf_pages": [
+            55
+          ],
+          "text_preview": "ஏய்...நில்லு"
+        },
+        {
+          "record_id": "naam-s033-d014",
+          "scene": 33,
+          "source_heading": "காட்சி 33",
+          "pdf_pages": [
+            55
+          ],
+          "text_preview": "யாரா? இந்த அழகான உடல் கிணற்றிலே தள்ளி சாகப்போறியே...உனக்கு அறிவு இல்லே..."
+        },
+        {
+          "record_id": "naam-s033-d016",
+          "scene": 33,
+          "source_heading": "காட்சி 33",
+          "pdf_pages": [
+            55
+          ],
+          "text_preview": "நீ பேச வேண்டாம்! வா என்னோட! என் மேலே நம்பிக்கை இல்லையா உனக்கு? இந்தா பாரு!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "நாரா",
+      "record_count": 23,
+      "scene_count": 5,
+      "scenes": [
+        1,
+        2,
+        3,
+        9,
+        10
+      ],
+      "delimiter_distribution": {
+        ":": 4,
+        ":-": 19
+      },
+      "sample_records": [
+        "naam-s001-d012",
+        "naam-s001-d014",
+        "naam-s002-d001",
+        "naam-s002-d003",
+        "naam-s002-d005"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s001-d012",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            6
+          ],
+          "text_preview": "எம்பா...அங்கே இப்படி பேச்சுப் பேசித்தானே இந்த ஊருக்கு வந்தோம். இங்கேயும் வந்தவங்க—போனவங்க கிட்ட என் வம்பு பேசுறே?"
+        },
+        {
+          "record_id": "naam-s001-d014",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            6
+          ],
+          "text_preview": "சரி...சரி...வா போகலாம்."
+        },
+        {
+          "record_id": "naam-s002-d001",
+          "scene": 2,
+          "source_heading": "காட்சி 2",
+          "pdf_pages": [
+            7
+          ],
+          "text_preview": "குவிந்து கிடக்கும் செல்வத்தை ஒரு கொடியவன் அனுபவிக்க விட்டு விட்டு, நானும்—என் மகனும் கண் இருந்தும் குருடர்களாக அலைய வேண்டுமென்பது விதியா வைத்தியரே......?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "நாராயணி",
+      "record_count": 2,
+      "scene_count": 2,
+      "scenes": [
+        1,
+        2
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s001-d009",
+        "naam-s002-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s001-d009",
+          "scene": 1,
+          "source_heading": "காட்சி 1",
+          "pdf_pages": [
+            6
+          ],
+          "text_preview": "(குமரனின் தாய்) நாங்க வெளியூர். சஞ்சீவி வைத்தியரை பார்க்கணும்னு வந்தோம். அவரு வீடு......"
+        },
+        {
+          "record_id": "naam-s002-d009",
+          "scene": 2,
+          "source_heading": "காட்சி 2",
+          "pdf_pages": [
+            8
+          ],
+          "text_preview": "குமரா...குமரா...!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "நீதிபதி",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        41
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s041-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s041-d001",
+          "scene": 41,
+          "source_heading": "காட்சி 41",
+          "pdf_pages": [
+            65,
+            66
+          ],
+          "text_preview": "இருதரப்பு வாதங்களைக் கொண்டும்-சாட்சிகளையும் ஆராயும்போது குமரன் புரட்சிக்காரன், பலாத்கார வாதி, கடவுள் நிந்திப்பவன் என்று தெரியவில்லை. மக்களை படிக்கச் சொல்லுவது, ஏகமனதான கடவுளை கும்ப"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பரமசிவம்",
+      "record_count": 3,
+      "scene_count": 1,
+      "scenes": [
+        17
+      ],
+      "delimiter_distribution": {
+        ":-": 3
+      },
+      "sample_records": [
+        "naam-s017-d002",
+        "naam-s017-d004",
+        "naam-s017-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s017-d002",
+          "scene": 17,
+          "source_heading": "காட்சி 17.",
+          "pdf_pages": [
+            32
+          ],
+          "text_preview": "கொல்றதுன்னு லேசான காரியங்களா? தோற்கடிச்சுட்றேன்."
+        },
+        {
+          "record_id": "naam-s017-d004",
+          "scene": 17,
+          "source_heading": "காட்சி 17.",
+          "pdf_pages": [
+            32
+          ],
+          "text_preview": "அப்படி என்றால்..."
+        },
+        {
+          "record_id": "naam-s017-d006",
+          "scene": 17,
+          "source_heading": "காட்சி 17.",
+          "pdf_pages": [
+            32
+          ],
+          "text_preview": "குத்துச் சண்டை சட்டப்படி குற்ற மாச்சுதுங்களே..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "பிரே",
+      "record_count": 22,
+      "scene_count": 5,
+      "scenes": [
+        4,
+        6,
+        22,
+        23,
+        27
+      ],
+      "delimiter_distribution": {
+        ":": 1,
+        ":-": 21
+      },
+      "sample_records": [
+        "naam-s004-d004",
+        "naam-s004-d006",
+        "naam-s004-d008",
+        "naam-s004-d010",
+        "naam-s004-d012"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s004-d004",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            12
+          ],
+          "text_preview": "அய்யோ...இரத்தம் இரத்தமா தளிர்ச்சிருக்கே"
+        },
+        {
+          "record_id": "naam-s004-d006",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            12
+          ],
+          "text_preview": "இதோ கூப்பிட்றேன் ஏ அப்பா...சீக்கிரம் வாங்கோ...”"
+        },
+        {
+          "record_id": "naam-s004-d008",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            12
+          ],
+          "text_preview": "இல்லே."
+        }
+      ]
+    },
+    {
+      "speaker_label": "பிரேமா",
+      "record_count": 22,
+      "scene_count": 7,
+      "scenes": [
+        4,
+        13,
+        23,
+        25,
+        27,
+        29,
+        30
+      ],
+      "delimiter_distribution": {
+        ":-": 22
+      },
+      "sample_records": [
+        "naam-s004-d002",
+        "naam-s013-d028",
+        "naam-s013-d030",
+        "naam-s013-d032",
+        "naam-s013-d034"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s004-d002",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            11
+          ],
+          "text_preview": "(வைத்தியரின் மகள் — கதவைத் திறந்து) வாங்க! ஆ...இதென்ன அக்கிரமம்..."
+        },
+        {
+          "record_id": "naam-s013-d028",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            28
+          ],
+          "text_preview": "வழியிலே லக்ஷ்மி வந்தாப்பா...ஆமா...குமரன் ஏதோ உயில் உயில்னு அலையிறாராமே...அது என்னப்பா?"
+        },
+        {
+          "record_id": "naam-s013-d030",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            28
+          ],
+          "text_preview": "ஆதாரமா...(தனக்குள்) ஜமீன்தாரின் மகனா?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பீமசேனன்",
+      "record_count": 13,
+      "scene_count": 1,
+      "scenes": [
+        14
+      ],
+      "delimiter_distribution": {
+        ":-": 13
+      },
+      "sample_records": [
+        "naam-s014-d001",
+        "naam-s014-d003",
+        "naam-s014-d005",
+        "naam-s014-d007",
+        "naam-s014-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s014-d001",
+          "scene": 14,
+          "source_heading": "காட்சி 14",
+          "pdf_pages": [
+            29
+          ],
+          "text_preview": "டேய் தம்பி! இங்கே வா! இந்தப் பெட்டியை தூக்கிட்டு வர்றியா?"
+        },
+        {
+          "record_id": "naam-s014-d003",
+          "scene": 14,
+          "source_heading": "காட்சி 14",
+          "pdf_pages": [
+            29
+          ],
+          "text_preview": "தூக்கு...தலையிலே..."
+        },
+        {
+          "record_id": "naam-s014-d005",
+          "scene": 14,
+          "source_heading": "காட்சி 14",
+          "pdf_pages": [
+            29
+          ],
+          "text_preview": "ஆமா...டேய்...பெட்டி படுக்கையைக் கொண்டு உள்ளே வை ஹூம்...அவன் சத்திய சீலன் வந்தாச்சா?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "புரோகிதர்",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        38
+      ],
+      "delimiter_distribution": {
+        ":-": 2
+      },
+      "sample_records": [
+        "naam-s038-d007",
+        "naam-s038-d009"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s038-d007",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            61
+          ],
+          "text_preview": "படிக்க ஆரம்பித்தாலே—விழிக்க ஆரம்பித்தது மாதிரிதானே!"
+        },
+        {
+          "record_id": "naam-s038-d009",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            61
+          ],
+          "text_preview": "பகவானும் இருக்கான்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "பூசாரி",
+      "record_count": 4,
+      "scene_count": 2,
+      "scenes": [
+        38,
+        40
+      ],
+      "delimiter_distribution": {
+        ":-": 4
+      },
+      "sample_records": [
+        "naam-s038-d006",
+        "naam-s038-d011",
+        "naam-s040-d002",
+        "naam-s040-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s038-d006",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            61
+          ],
+          "text_preview": "கிணத்துத் தவளையா இருந்தவங்களே...பேப்பர், புத்தகம் படிக்கவைச்சி கெடுத்துட்டான்."
+        },
+        {
+          "record_id": "naam-s038-d011",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            61
+          ],
+          "text_preview": "உத்தரவு!"
+        },
+        {
+          "record_id": "naam-s040-d002",
+          "scene": 40,
+          "source_heading": "காட்சி 40",
+          "pdf_pages": [
+            65
+          ],
+          "text_preview": "எசமான்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பெண்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        29
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s029-d020"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s029-d020",
+          "scene": 29,
+          "source_heading": "காட்சி 29.",
+          "pdf_pages": [
+            47
+          ],
+          "text_preview": "கண்ணங்கரேனு வந்திச்சாம்! காலைக் காணோம்! காவக்கார அண்ணே சப்தம் போட்டுச்சாம்! காத்துப்போல பறந்துச்சாம்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "பெரியவர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        13
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s013-d012"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s013-d012",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            26
+          ],
+          "text_preview": "உயில் விஷயமாக எனக்கு ஒன்றும் தெரியாது."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மக்கள்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        39
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s039-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s039-d001",
+          "scene": 39,
+          "source_heading": "காட்சி 39",
+          "pdf_pages": [
+            62
+          ],
+          "text_preview": "அநியாயம்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மற்றொரு",
+      "record_count": 2,
+      "scene_count": 1,
+      "scenes": [
+        13
+      ],
+      "delimiter_distribution": {
+        ":-": 2
+      },
+      "sample_records": [
+        "naam-s013-d015",
+        "naam-s013-d017"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s013-d015",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            26
+          ],
+          "text_preview": "கேள்விதான்."
+        },
+        {
+          "record_id": "naam-s013-d017",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            26
+          ],
+          "text_preview": "அட, யாருங்காணும் சுத்தப் பைத்தியக்காரனு இருக்கே...ஆட்டத்திலே கேள்வின்னு..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மற்றொருவன்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        32
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s032-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s032-d002",
+          "scene": 32,
+          "source_heading": "காட்சி-32",
+          "pdf_pages": [
+            52
+          ],
+          "text_preview": "ஆமா...ஆமா...அதுவும் இலேசான பிசாசா? குத்துச்சண்டை தெரிஞ்ச பிசாசு!..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மற்றொருவர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        13
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s013-d013"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s013-d013",
+          "scene": 13,
+          "source_heading": "காட்சி 13",
+          "pdf_pages": [
+            26
+          ],
+          "text_preview": "உயிலாவது மண்ணுங்கட்டியாவது."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மலைய",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        31
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s031-d021"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s031-d021",
+          "scene": 31,
+          "source_heading": "காட்சி-31",
+          "pdf_pages": [
+            51
+          ],
+          "text_preview": "சாம்பலாகவில்லையா? எங்கே இருக்கிறது? கொடு..."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மலையப்பன்",
+      "record_count": 24,
+      "scene_count": 5,
+      "scenes": [
+        38,
+        39,
+        40,
+        43,
+        45
+      ],
+      "delimiter_distribution": {
+        ":-": 24
+      },
+      "sample_records": [
+        "naam-s038-d001",
+        "naam-s038-d003",
+        "naam-s038-d005",
+        "naam-s038-d008",
+        "naam-s038-d010"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s038-d001",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            60
+          ],
+          "text_preview": "டேய்! அண்ணுமலை! என்னடா திமிர் இந்த ஊருப்பயல்களுக்கு! நான் அமெரிக்காவில் இருந்து வந்திருக்கிறேன். வரவேற்கிறதுக்கு ஒரு பயலும் காணோம்!"
+        },
+        {
+          "record_id": "naam-s038-d003",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            61
+          ],
+          "text_preview": "குமரன்! போய் கூட்டிவாடா!"
+        },
+        {
+          "record_id": "naam-s038-d005",
+          "scene": 38,
+          "source_heading": "காட்சி 38",
+          "pdf_pages": [
+            61
+          ],
+          "text_preview": "பூசாரி, புரோகிதர். வைத்தியர் எல்லோரையுமே."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மலையப்பர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        26
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s026-d001"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s026-d001",
+          "scene": 26,
+          "source_heading": "காட்சி 26",
+          "pdf_pages": [
+            42
+          ],
+          "text_preview": "ஞானம்! ஞானம்! கேட்டாயா ஒரு சந்தோஷமான செய்தி! குமரன் ஒழிந்தான்...வீட்டோடு எரிந்து சாம்பலாகி விட்டான்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மல்",
+      "record_count": 44,
+      "scene_count": 7,
+      "scenes": [
+        3,
+        5,
+        8,
+        9,
+        20,
+        24,
+        31
+      ],
+      "delimiter_distribution": {
+        ":-": 44
+      },
+      "sample_records": [
+        "naam-s003-d017",
+        "naam-s003-d018",
+        "naam-s003-d020",
+        "naam-s003-d026",
+        "naam-s003-d027"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s003-d017",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            10
+          ],
+          "text_preview": "டேய்...எங்கடா அந்த சோம்பேறி? இன்னுமா ஸ்டேஷன்லே இருந்து வர்றான்?"
+        },
+        {
+          "record_id": "naam-s003-d018",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            10
+          ],
+          "text_preview": "தண்டச்சோறு! என்னடா தாமதம்? எதுடா குடம்?"
+        },
+        {
+          "record_id": "naam-s003-d020",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            10
+          ],
+          "text_preview": "சீ...! நீ இங்கே வேலை பார்க்கிற வரைக்கும்\n\nவேலைக்காரன்—வேலைக்காரன்தான்! அம்மா...பிள்ளை பாசமெல்லாம் பேசினே...சோத்திலே மண்ணு விழுந்து விடும். ஜாக்கிரதை! ஹூம் பெட்டியை கொண்டுபோயி அடுக்"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மல்ல",
+      "record_count": 6,
+      "scene_count": 3,
+      "scenes": [
+        3,
+        9,
+        20
+      ],
+      "delimiter_distribution": {
+        ":-": 6
+      },
+      "sample_records": [
+        "naam-s003-d001",
+        "naam-s003-d003",
+        "naam-s003-d005",
+        "naam-s003-d006",
+        "naam-s009-d012"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s003-d001",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            8
+          ],
+          "text_preview": "வா...சஞ்சீவி! ஹூம்...என்ன விசேஷம்......"
+        },
+        {
+          "record_id": "naam-s003-d003",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            8
+          ],
+          "text_preview": "இவங்க யாரு?"
+        },
+        {
+          "record_id": "naam-s003-d005",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            8
+          ],
+          "text_preview": "ஹூம் எனக்கும் ஒரு வேலைக்காரி தேவைதான்! டேய் அண்ணாமலை! இவங்களை அம்மாகிட்டே அழைச்சிக்கிட்டுப் போ!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மல்லயப்ப",
+      "record_count": 9,
+      "scene_count": 3,
+      "scenes": [
+        9,
+        10,
+        11
+      ],
+      "delimiter_distribution": {
+        ":-": 9
+      },
+      "sample_records": [
+        "naam-s009-d014",
+        "naam-s009-d016",
+        "naam-s009-d018",
+        "naam-s009-d020",
+        "naam-s010-d029"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s009-d014",
+          "scene": 9,
+          "source_heading": "காட்சி 9.",
+          "pdf_pages": [
+            20
+          ],
+          "text_preview": "விபரமாகச் சொல் ஞானம்!"
+        },
+        {
+          "record_id": "naam-s009-d016",
+          "scene": 9,
+          "source_heading": "காட்சி 9.",
+          "pdf_pages": [
+            20
+          ],
+          "text_preview": "இரகசியம்...இரகசியம் அந்த உயில்தான்...ஞானம்! இவள் நாராயணி அல்ல—வேலைக்காரி வேஷத்திலே வேதவல்லி! விடக்கூடாது இவர்களை—விபரீதம் ஏற்பட்டு விடும்."
+        },
+        {
+          "record_id": "naam-s009-d018",
+          "scene": 9,
+          "source_heading": "காட்சி 9.",
+          "pdf_pages": [
+            20
+          ],
+          "text_preview": "போறு ஞானம்! இவர்களை விடக்கூடாது! ஞானம் இதோ பார்!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மல்லயப்பன்",
+      "record_count": 4,
+      "scene_count": 2,
+      "scenes": [
+        24,
+        31
+      ],
+      "delimiter_distribution": {
+        ":-": 4
+      },
+      "sample_records": [
+        "naam-s024-d002",
+        "naam-s024-d004",
+        "naam-s031-d004",
+        "naam-s031-d006"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s024-d002",
+          "scene": 24,
+          "source_heading": "காட்சி-24.",
+          "pdf_pages": [
+            39
+          ],
+          "text_preview": "டேய் குமரா! (பல்லைக் கடித்தல்)"
+        },
+        {
+          "record_id": "naam-s024-d004",
+          "scene": 24,
+          "source_heading": "காட்சி-24.",
+          "pdf_pages": [
+            39
+          ],
+          "text_preview": "மரியாதை தவறிப் பேசாதே!"
+        },
+        {
+          "record_id": "naam-s031-d004",
+          "scene": 31,
+          "source_heading": "காட்சி-31",
+          "pdf_pages": [
+            50
+          ],
+          "text_preview": "என்ன சரிதான்...?"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மல்லயப்பர்",
+      "record_count": 7,
+      "scene_count": 2,
+      "scenes": [
+        15,
+        17
+      ],
+      "delimiter_distribution": {
+        ":-": 7
+      },
+      "sample_records": [
+        "naam-s015-d001",
+        "naam-s015-d003",
+        "naam-s015-d005",
+        "naam-s017-d001",
+        "naam-s017-d003"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s015-d001",
+          "scene": 15,
+          "source_heading": "காட்சி 15",
+          "pdf_pages": [
+            31
+          ],
+          "text_preview": "சபாஷ்! குத்துச் சண்டை கோவிந்தன் கோர மரணம்! தவறான முறையில் சண்டை செய்ததாக எதிரி பயில்வான் கைது."
+        },
+        {
+          "record_id": "naam-s015-d003",
+          "scene": 15,
+          "source_heading": "காட்சி 15",
+          "pdf_pages": [
+            31
+          ],
+          "text_preview": "இல்லை! குமரன் கொல்லப் போகிறவன் கைதாவ மாட்டான்! ஞானம்! நமது ஊரில் ஒரு குத்துச் சண்டைப் போட்டிக்கு ஏற்பாடு செய்யப் போகிறேன். குமரனுக்கும்—இன்னொருவனுக்கும் சண்டை! அந்த இன்னொருவனை எமனா"
+        },
+        {
+          "record_id": "naam-s015-d005",
+          "scene": 15,
+          "source_heading": "காட்சி 15",
+          "pdf_pages": [
+            31
+          ],
+          "text_preview": "பயில்வான்! பரமசிவம்"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாத்",
+      "record_count": 14,
+      "scene_count": 6,
+      "scenes": [
+        4,
+        6,
+        7,
+        18,
+        22,
+        32
+      ],
+      "delimiter_distribution": {
+        ":-": 14
+      },
+      "sample_records": [
+        "naam-s004-d022",
+        "naam-s006-d010",
+        "naam-s006-d012",
+        "naam-s006-d014",
+        "naam-s006-d016"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s004-d022",
+          "scene": 4,
+          "source_heading": "காட்சி 4",
+          "pdf_pages": [
+            13
+          ],
+          "text_preview": "(வைத்தியரது வேலைக்காரன்) இப்போ எதுங்க முக்கியம்? அவன் கோபிக்கக் கூடாதுங்குறதா? பணமா?"
+        },
+        {
+          "record_id": "naam-s006-d010",
+          "scene": 6,
+          "source_heading": "காட்சி 6",
+          "pdf_pages": [
+            15
+          ],
+          "text_preview": "“ஓரிடந்தனிலே...நீ யில்லா துலகினிலே...உருண்டோடிடுமே...ப......”"
+        },
+        {
+          "record_id": "naam-s006-d012",
+          "scene": 6,
+          "source_heading": "காட்சி 6",
+          "pdf_pages": [
+            15
+          ],
+          "text_preview": "ஓட ஓட துரத்தி அந்த உடம்பு எண்ணெயை அவன் தலையிலேயே கட்டிட்டு வந்துட்டேன்."
+        }
+      ]
+    },
+    {
+      "speaker_label": "மாத்திரை",
+      "record_count": 14,
+      "scene_count": 4,
+      "scenes": [
+        27,
+        32,
+        34,
+        35
+      ],
+      "delimiter_distribution": {
+        ":-": 14
+      },
+      "sample_records": [
+        "naam-s027-d010",
+        "naam-s027-d012",
+        "naam-s027-d014",
+        "naam-s027-d016",
+        "naam-s032-d007"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s027-d010",
+          "scene": 27,
+          "source_heading": "காட்சி 27",
+          "pdf_pages": [
+            44
+          ],
+          "text_preview": "அய்யய்யோ ......நாய்க்குட்டி எங்கே போவுங்க?"
+        },
+        {
+          "record_id": "naam-s027-d012",
+          "scene": 27,
+          "source_heading": "காட்சி 27",
+          "pdf_pages": [
+            44
+          ],
+          "text_preview": "நாய்க்குட்டி செத்துப் போவுங்க."
+        },
+        {
+          "record_id": "naam-s027-d014",
+          "scene": 27,
+          "source_heading": "காட்சி 27",
+          "pdf_pages": [
+            44
+          ],
+          "text_preview": "நாய்க்குட்டி போறதுன்னு ஒரு மாத நோட்டீஸ் கொடுக்கணுங்க!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "மீனு",
+      "record_count": 47,
+      "scene_count": 10,
+      "scenes": [
+        3,
+        8,
+        10,
+        21,
+        28,
+        31,
+        33,
+        41,
+        42,
+        45
+      ],
+      "delimiter_distribution": {
+        ":": 2,
+        ":-": 45
+      },
+      "sample_records": [
+        "naam-s003-d008",
+        "naam-s003-d012",
+        "naam-s003-d014",
+        "naam-s008-d002",
+        "naam-s008-d004"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s003-d008",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            9
+          ],
+          "text_preview": "(மல்லயப்பரின் தங்கை) என்ன அண்ணி?"
+        },
+        {
+          "record_id": "naam-s003-d012",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            9
+          ],
+          "text_preview": "வாங்க! வந்ததும் வராததுமா உங்களுக்கு என்ன வேலை?"
+        },
+        {
+          "record_id": "naam-s003-d014",
+          "scene": 3,
+          "source_heading": "காட்சி 3",
+          "pdf_pages": [
+            9
+          ],
+          "text_preview": "தங்கை!"
+        }
+      ]
+    },
+    {
+      "speaker_label": "வந்தவர்",
+      "record_count": 1,
+      "scene_count": 1,
+      "scenes": [
+        30
+      ],
+      "delimiter_distribution": {
+        ":-": 1
+      },
+      "sample_records": [
+        "naam-s030-d002"
+      ],
+      "samples": [
+        {
+          "record_id": "naam-s030-d002",
+          "scene": 30,
+          "source_heading": "காட்சி 30,",
+          "pdf_pages": [
+            47
+          ],
+          "text_preview": "திடீர்னு அவசரப்பட்டு கட்டை அவிழ்த்து விட்டான்."
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "dialogue_records_modified": false,
+    "source_speaker_labels_immutable": true,
+    "alias_mapping_separate_from_dialogue_layer": true,
+    "global_named_label_merge_requires_identity_continuity": true,
+    "generic_roles_must_not_be_forced_into_named_characters": true,
+    "role_categories_do_not_assert_one_physical_person_across_occurrences": true,
+    "source_anomalies_remain_visible": true
+  },
+  "next_action": "Review all 45 exact source labels, map supported named-label variants only in a separate entity layer, retain generic/collective labels as role entities, and require 590/590 record coverage with zero dialogue rewrites."
+}
