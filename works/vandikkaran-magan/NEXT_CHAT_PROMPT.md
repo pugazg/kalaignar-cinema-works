@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / first pass PDF 49–53
+# Next Chat Prompt — வண்டிக்காரன் மகன் / first pass PDF 54–58
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **Live `main` is authoritative.**
 
@@ -25,8 +25,8 @@ Do not interleave phases.
 
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 observed headings**;
-- first-pass transcription: **IN PROGRESS — PDF 4–48 / 45 of 87 scoped pages DRAFT**;
-- screenplay drafted through: **PDF 48 / printed 47**;
+- first-pass transcription: **IN PROGRESS — PDF 4–53 / 50 of 87 scoped pages DRAFT**;
+- screenplay drafted through: **PDF 53 / printed 52**;
 - visual verification: **NOT-STARTED**;
 - historical-glyph verification: **NOT-STARTED** under current phase order;
 - final visual verification: **NOT-STARTED**;
@@ -34,4 +34,4 @@ Do not interleave phases.
 
 ## Exact next activity
 
-> **Process PDF 49–53 as the next five-page first-pass transcription batch. Use the scan itself as authority, preserve source-visible text and structure without silent normalization, keep all five pages draft, update `transcription/index.json`, commit/push the batch to `main`, and then continue to PDF 54–58 in the same first-pass cycle.**
+> **Process PDF 54–58 as the next five-page first-pass transcription batch. Use the scan itself as authority, preserve source-visible text and structure without silent normalization, keep all five pages draft, update `transcription/index.json`, commit/push the batch to `main`, and then continue to PDF 59–63 in the same first-pass cycle.**
