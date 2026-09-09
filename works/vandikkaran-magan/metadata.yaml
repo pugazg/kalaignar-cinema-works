@@ -77,7 +77,21 @@ status:
   source_intake: complete
   structural_mapping: complete-verified
   scene_heading_audit: complete-70-of-70-observed
-  canonical_tamil_first_pass: not-started
+  canonical_tamil_first_pass: in-progress-draft-5-of-84
+  canonical_tamil_first_pass_pages_completed: 5
+  canonical_tamil_first_pass_pdf_range_completed: 4-8
+  canonical_tamil_first_pass_current_through_pdf: 8
+  canonical_tamil_first_pass_current_through_printed: 7
+  canonical_tamil_total_pages: 84
+  canonical_tamil_draft_pages: 5
+  canonical_tamil_verified_pages: 0
+  canonical_tamil_review_pages: 0
+  canonical_tamil_open_uncertainty_markers: 0
+  canonical_tamil_index_path: works/vandikkaran-magan/transcription/index.json
+  canonical_tamil_batch_size_source_pages: 5
+  historical_glyph_first_pass_checked_pages: 5
+  historical_glyph_final_verified_pages: 0
+  historical_glyph_audit_path: works/vandikkaran-magan/notes/historical-glyph-audit.md
   visual_fidelity_audit: not-started
   historical_glyph_full_audit: not-started
   scene_text_derivatives: blocked
@@ -87,4 +101,4 @@ status:
   english_translation: not-started
   reader_export: not-started
   reading_room_integration: not-started
-next_action: "Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes."
+next_action: "Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet."

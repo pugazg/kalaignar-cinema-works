@@ -79,12 +79,24 @@ Use `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`. Never global-replace. 
 - source intake: **COMPLETE**;
 - structural mapping: **COMPLETE-VERIFIED for source boundaries and scene-heading sequence**;
 - scene-heading audit: **70/70 observed heading occurrences mapped**;
-- canonical Tamil: **NOT-STARTED**;
+- canonical Tamil first pass: **IN PROGRESS — PDF 4–8 / 5 of 84 DRAFT**;
 - visual-fidelity audit: **NOT-STARTED**;
-- historical-glyph full-work audit: **NOT-STARTED**;
+- historical-glyph prospective first-pass check: **5/5 drafted pages PASS; final full-work audit NOT-STARTED**;
 - scene/dialogue/character/song derivatives: **BLOCKED / NOT-STARTED**;
 - English / reader / Reading Room: **NOT-STARTED**.
 
 ## Exact next activity
 
-> **Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.**
+> **Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.**
+
+## Canonical first-pass checkpoint — PDF 4–8
+
+- first-pass canonical pages: **5/84**;
+- PDF range: **4–8**;
+- screenplay drafted through: **PDF 8 / printed 7**;
+- page states: **5 draft / 0 verified / 0 review**;
+- open uncertainty markers: **0**;
+- prospective historical-glyph check: **5/5**;
+- structured derivatives remain **blocked**.
+
+**Next:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.

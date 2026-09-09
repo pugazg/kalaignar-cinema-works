@@ -291,3 +291,16 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 - source film credits include `பாடல்கள்: கவிஞர் வாலி`; item-level occurrence mapping remains deferred to the song gate.
 
 **Exact next activity:** Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.
+
+
+<!-- Vandikkaran Magan first pass current -->
+## வண்டிக்காரன் மகன் active first-pass checkpoint
+
+- intake / structural map: **COMPLETE / COMPLETE-VERIFIED**;
+- canonical Tamil first pass: **PDF 4–8 / 5 of 84 DRAFT**;
+- screenplay drafted through **PDF 8 / printed 7**;
+- historical-glyph prospective check: **5/5 PASS**, final verification **0/84**;
+- visual fidelity: **not-started**;
+- derivatives: **blocked**.
+
+**Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.

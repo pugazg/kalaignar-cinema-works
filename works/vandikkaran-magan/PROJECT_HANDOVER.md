@@ -89,3 +89,17 @@ No global replacement. Source pixels control.
 ## Exact next activity
 
 > **Begin canonical Tamil first-pass transcription from PDF 4 onward in source order. Create stable page records/anchors; transcribe only visible source text; preserve the foreword, scene headings, labels, directions, embedded performance text, punctuation and irregular forms; run prospective historical-glyph checks on every page; keep uncertain readings explicit; and leave all first-pass pages draft/needs-review until a later independent visual-fidelity + glyph-verification gate.**
+
+
+<!-- canonical first pass 004-008 -->
+## Canonical Tamil first-pass checkpoint
+
+- canonical scope: **PDF 4–87 / 84 pages**;
+- drafted: **PDF 4–8 / 5 pages**;
+- screenplay drafted through **PDF 8 / printed 7**;
+- page states: **5 draft / 0 verified / 0 review**;
+- first-pass uncertainty markers: **0**;
+- historical-glyph prospective check: **PASS 5/5**, final verification **0/84**;
+- derivatives: **blocked**.
+
+**Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.

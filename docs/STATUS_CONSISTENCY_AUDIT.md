@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Vandikkaran Magan / வண்டிக்காரன் மகன் | intake + structural map **complete-verified**; canonical Tamil not started | 70 observed source scene headings mapped; derivatives blocked | not-started | not-started |
+| Vandikkaran Magan / வண்டிக்காரன் மகன் | intake + map complete-verified; canonical first pass **5/84 draft** | 70 observed scene headings; derivatives blocked | not-started | not-started |
 
 ## Naam current checkpoint
 
@@ -170,3 +170,7 @@ Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நா�
 
 <!-- Vandikkaran Magan intake current -->
 **Current active work:** **வண்டிக்காரன் மகன்**. Source intake and structural mapping are synchronized **COMPLETE-VERIFIED**: 90-page image-only 1978 first-edition source, screenplay PDF 6–87 / printed pp.5–86, and **70 observed source scene-heading occurrences** including suffix insertions and combined `45-46`. Canonical Tamil is **NOT-STARTED** and every downstream derivative remains blocked/not-started. The source-visible film-level lyric credit `பாடல்கள்: கவிஞர் வாலி` is metadata only until the item-level song/performance gate. **Next:** Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.
+
+
+<!-- Vandikkaran Magan first pass current -->
+**Current active work:** **வண்டிக்காரன் மகன்** — canonical Tamil first pass now **PDF 4–8 / 5 of 84 DRAFT**, screenplay through PDF 8 / printed 7, **0** uncertainty markers, historical-glyph prospective check **5/5 PASS**, verified pages **0**, derivatives blocked. **Next:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.

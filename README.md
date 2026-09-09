@@ -33,10 +33,10 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - screenplay pagination: **printed = PDF − 1 / printed pp.5–86**;
 - scene-heading mapping: **70 observed occurrences / COMPLETE-VERIFIED**;
 - numbering structure: base **1–56**, **15 suffix insertions**, combined printed **`45-46`**;
-- canonical Tamil / fidelity / structured derivatives: **NOT-STARTED / NOT-STARTED / BLOCKED**;
-- historical-glyph workflow: **mandatory prospectively from first pass**.
+- canonical Tamil first pass / fidelity / structured derivatives: **PDF 4–8 / 5 of 84 DRAFT / NOT-STARTED / BLOCKED**;
+- historical-glyph workflow: **prospective PASS for PDF 4–8 / 5 drafted pages; final verification not-started**.
 
-**Next:** Begin canonical Tamil first-pass transcription from PDF 4 onward in source order, preserving front matter and screenplay exactly with stable PDF/printed-page anchors. Use the historical-glyph guide prospectively on every page, keep uncertain readings explicit, and do not call pages verified during first pass. No structured derivative work begins until the later separate visual-fidelity + historical-glyph verification gate closes.
+**Next:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.
 
 ## நாம் status
 
@@ -236,3 +236,7 @@ Translation status is independent of source-transcription verification status.
 
 <!-- Naam Phase 10 current -->
 **Naam Phase 10 current:** reader/export **COMPLETE-VERIFIED / QA PASS** — 45 source-numbered scenes / 797 English units / 590 immutable dialogue links / 7 retained performances / 138 performance mappings / 1 distinct chant (16 mappings) / 12 cross-page units. Reading Room payload **PAYLOAD-COMPLETE-VERIFIED / QA PASS**, SHA-256 `9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825`, site application **not-applied**. No PDF/EPUB was generated. **Next:** No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.
+
+
+<!-- Vandikkaran Magan first pass current -->
+**வண்டிக்காரன் மகன் current:** canonical Tamil first pass **PDF 4–8 / 5 of 84 DRAFT**, screenplay through PDF 8 / printed 7; open uncertainty markers **0**; prospective historical-glyph check **5/5 PASS**; verified pages **0**; derivatives **blocked**. **Next:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.
