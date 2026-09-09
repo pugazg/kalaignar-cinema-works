@@ -1,4 +1,4 @@
-name: Naam song gate reconciliation
+name: Naam English pilot synchronization
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  reconcile:
+  verify-pilot:
     runs-on: ubuntu-24.04
     steps:
       - name: Check out repository
@@ -25,55 +25,169 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate re-audit and new source record
+      - name: Snapshot closed upstream layers
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          roots=['works/naam/transcription','works/naam/scenes','works/naam/dialogues','works/naam/characters','works/naam/songs/records']
+          def digest(root):
+              h=hashlib.sha256()
+              for p in sorted(Path(root).rglob('*')):
+                  if p.is_file():
+                      h.update(str(p).encode()); h.update(b'\0'); h.update(p.read_bytes()); h.update(b'\0')
+              return h.hexdigest()
+          Path('/tmp/naam-upstream-before.json').write_text(json.dumps({r:digest(r) for r in roots}),encoding='utf-8')
+          PY
+
+      - name: Validate reconciled source gates
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          a=json.load(open('works/naam/notes/song-candidate-recheck.json'))
-          assert a['scene_files_scanned']==45
-          assert any(r['scene_file']=='scene-001.md' and any(h['text']=='(பாட்டு)' for h in r['hits']) for r in a['rows'])
+          t=json.load(open('works/naam/transcription/index.json'))
+          s=json.load(open('works/naam/scenes/index.json'))
+          d=json.load(open('works/naam/dialogues/index.json'))
+          c=json.load(open('works/naam/characters/index.json'))
+          p=json.load(open('works/naam/songs/index.json'))
+          v=json.load(open('works/naam/songs/inventory.json'))
+          assert t['status']=='complete-verified' and t['verified_pages']==67
+          assert s['status']=='complete-verified' and s['source_scene_count']==45
+          assert d['status']=='complete-verified' and d['dialogue_record_count']==590
+          assert c['status']=='complete-verified' and c['dialogue_record_coverage']=='590/590'
+          assert p['retained_performance_records']==7
+          assert p['source_attributed_authorship_records']==1
+          assert p['unresolved_item_level_authorship_records']==6
+          assert v['coverage']=='7/7' and len(v['records'])==7
+          byid={x['id']:x for x in v['records']}
+          assert byid['naam-perf-001']['author_as_printed']=='பாரதியார்'
+          assert byid['naam-perf-007']['authorship_status']=='unresolved-item-level'
           assert Path('works/naam/songs/records/naam-perf-007.md').exists()
-          s=Path('works/naam/scenes/scene-001.md').read_text(encoding='utf-8')
-          assert '(பாட்டு)' in s and '### எல்லோரும்' in s and '### ஆண்' in s and '### பெண்' in s
           PY
 
-      - name: Reconcile song gate
-        run: python works/naam/scripts/reconcile_song_gate_scene001.py
-
-      - name: Validate reconciled gate
+      - name: Validate English pilot records and linkage
         run: |
-          python -m json.tool works/naam/songs/index.json >/dev/null
-          python -m json.tool works/naam/songs/inventory.json >/dev/null
-          python -m json.tool works/naam/notes/song-performance-qa.json >/dev/null
+          python -m json.tool works/naam/translations/schema.json >/dev/null
+          python -m json.tool works/naam/translations/index.json >/dev/null
+          python -m json.tool works/naam/translations/pilot-qa.json >/dev/null
+          python -m json.tool works/naam/translations/records/scene-001.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          tr=json.load(open('works/naam/translations/records/scene-001.json'))
+          idx=json.load(open('works/naam/translations/index.json'))
+          qa=json.load(open('works/naam/translations/pilot-qa.json'))
+          src=json.load(open('works/naam/dialogues/records/scene-001.json'))
+          assert tr['work_id']=='naam' and tr['target_language']=='en'
+          assert tr['scene_id']=='naam-s001' and tr['source_scene_number']==1
+          assert tr['pilot_status']=='verified' and tr['scene_status']=='verified'
+          assert tr['unit_count']==21 and len(tr['units'])==21
+          ids=[u['id'] for u in tr['units']]
+          assert len(ids)==len(set(ids))==21
+          assert ids==[f'naam-en-s001-u{i:03d}' for i in range(1,22)]
+          dialogs=[u for u in tr['units'] if u['kind']=='dialogue']
+          assert len(dialogs)==14
+          expected=[x['id'] for x in src]
+          linked=[u['source']['source_record_id'] for u in dialogs]
+          assert linked==expected
+          assert len(set(linked))==14
+          byid={x['id']:x for x in src}
+          for u in dialogs:
+              r=byid[u['source']['source_record_id']]
+              assert u['source']['speaker_label']==r['speaker_label']
+              assert u['source']['source_delimiter']==r['source_delimiter']
+              assert u['source']['page_provenance']==r['page_provenance']
+          assert sum(u['kind']=='narrative' for u in tr['units'])==4
+          assert sum(u['kind']=='stage-direction' for u in tr['units'])==1
+          cues=[u for u in tr['units'] if u['kind']=='performance-cue']
+          songs=[u for u in tr['units'] if u['kind']=='song']
+          assert len(cues)==len(songs)==1
+          assert cues[0]['source']['source_occurrence_id']=='naam-perf-007'
+          assert songs[0]['source']['source_occurrence_id']=='naam-perf-007'
+          assert songs[0]['source']['page_provenance']==[{'pdf_page':6,'printed_page':6},{'pdf_page':7,'printed_page':7}]
+          line_map=songs[0]['translation']['line_map']
+          assert len(line_map)==23
+          assert [x['ordinal'] for x in line_map]==list(range(1,24))
+          assert {x['pdf_page'] for x in line_map}=={6,7}
+          perf_text=Path('works/naam/songs/records/naam-perf-007.md').read_text(encoding='utf-8')
+          assert all(x['tamil'] in perf_text for x in line_map)
+          assert all(u['source']['speaker_label'] is None for u in tr['units'] if u['kind']!='dialogue')
+          assert idx['status']=='pilot-verified' and idx['verified_scenes']==1 and idx['translation_units_verified']==21
+          assert idx['immutable_dialogue_links_verified']==14
+          assert idx['retained_performance_records_total']==7 and idx['retained_performance_records_translated']==1
+          assert idx['song_line_cue_mappings_verified']==23
+          assert qa['status']=='PASS' and qa['dialogue_coverage']=='14/14 exactly once'
+          assert qa['performance_coverage']=='1/1' and qa['song_line_cue_coverage']=='23/23'
+          assert qa['authorship_status_changed_by_translation'] is False
+          assert qa['external_or_unprinted_lyrics_imported'] is False
+          PY
+
+      - name: Synchronize English pilot checkpoint
+        run: |
+          python works/naam/scripts/sync_english_pilot_scene001.py
+          python works/naam/scripts/normalize_english_pilot_mirrors.py
+
+      - name: Verify upstream layers unchanged
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          roots=['works/naam/transcription','works/naam/scenes','works/naam/dialogues','works/naam/characters','works/naam/songs/records']
+          def digest(root):
+              h=hashlib.sha256()
+              for p in sorted(Path(root).rglob('*')):
+                  if p.is_file():
+                      h.update(str(p).encode()); h.update(b'\0'); h.update(p.read_bytes()); h.update(b'\0')
+              return h.hexdigest()
+          before=json.loads(Path('/tmp/naam-upstream-before.json').read_text())
+          after={r:digest(r) for r in roots}
+          assert before==after,(before,after)
+          PY
+
+      - name: Validate synchronized active mirrors
+        run: |
           python -m json.tool data/works.json >/dev/null
           python - <<'PY'
-          import json
+          import json,re
           from pathlib import Path
-          i=json.load(open('works/naam/songs/index.json'))
-          v=json.load(open('works/naam/songs/inventory.json'))
-          q=json.load(open('works/naam/notes/song-performance-qa.json'))
-          assert i['retained_performance_records']==7
-          assert i['unresolved_item_level_authorship_records']==6
-          assert i['source_attributed_authorship_records']==1
-          assert i['english_translation_gate']=='ready'
-          assert v['coverage']=='7/7' and len(v['records'])==7
-          assert [x['id'] for x in v['records']][0]=='naam-perf-007'
-          assert q['coverage']=='7/7' and q['status']=='PASS'
-          assert len(list(Path('works/naam/songs/records').glob('naam-perf-*.md')))==7
+          idx=json.load(open('works/naam/translations/index.json'))
+          assert idx['status']=='pilot-verified' and idx['verified_scenes']==1
+          assert 'scenes 2–5' in idx['next_activity']
           m=Path('works/naam/metadata.yaml').read_text(encoding='utf-8')
-          assert 'high_confidence_blocks: 7' in m
-          assert 'record_id: "naam-perf-007"' in m
+          assert 'retained_records: 7' in m
+          assert 'song_performance_record_count: 7' in m
+          assert 'song_performance_authorship_unresolved: 6' in m
+          assert 'song_authorship_gate: complete-verified-source-only-reconciled-7-of-7' in m
+          assert 'english_translation: pilot-verified-1-of-45' in m
+          assert 'english_translation_unit_count: 21' in m
+          assert 'english_dialogue_links_verified: 14' in m
+          assert 'english_performance_records_translated: 1' in m
+          assert 'english_song_line_cue_mappings_verified: 23' in m
+          assert 'reconciled-7-of-7-reconciled' not in m
+          assert 'scene-1-pilot-scene-1-pilot' not in m
+          wr=Path('works/naam/README.md').read_text(encoding='utf-8')
+          assert '7/7 COMPLETE-VERIFIED-SOURCE-ONLY' in wr
+          assert 'scene 1/45 PILOT-VERIFIED' in wr
+          assert '**6/6 retained**' not in wr
+          root=Path('README.md').read_text(encoding='utf-8')
+          assert 'song/performance/authorship gate: **7/7 COMPLETE-VERIFIED-SOURCE-ONLY' in root
+          assert 'English translation: **scene 1/45 PILOT-VERIFIED' in root
+          hand=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
+          assert 'song/performance gate **7/7 COMPLETE-VERIFIED-SOURCE-ONLY' in hand
+          audit=Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
+          assert 'song/performance 7/7 reconciled QA PASS' in audit
+          nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8')
+          assert 'source-numbered scenes 2–5' in nxt
           PY
 
-      - name: Commit reconciliation
+      - name: Commit English pilot closure
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo 'No reconciliation changes needed.'
+            echo 'No English pilot synchronization changes needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Reconcile Naam song gate to seven records [skip ci]'
+          git commit -m 'Verify Naam English pilot scene 1 [skip ci]'
           git push
