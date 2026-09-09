@@ -1,0 +1,161 @@
+{
+  "work_id": "naam",
+  "audit": "song-performance-candidate-recheck-before-english",
+  "status": "review-required",
+  "scene_files_scanned": 45,
+  "scenes_with_marker_hits": 9,
+  "rows": [
+    {
+      "scene_file": "scene-001.md",
+      "hits": [
+        {
+          "line": 48,
+          "text": "(பாட்டு)",
+          "reasons": [
+            "performance-word"
+          ]
+        },
+        {
+          "line": 50,
+          "text": "### எல்லோரும்",
+          "reasons": [
+            "level3-heading"
+          ]
+        },
+        {
+          "line": 58,
+          "text": "### ஆண்",
+          "reasons": [
+            "level3-heading"
+          ]
+        },
+        {
+          "line": 66,
+          "text": "### பெண்",
+          "reasons": [
+            "level3-heading"
+          ]
+        },
+        {
+          "line": 74,
+          "text": "### எல்லோரும்",
+          "reasons": [
+            "level3-heading"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-007.md",
+      "hits": [
+        {
+          "line": 24,
+          "text": "[பாட்டு]",
+          "reasons": [
+            "performance-word"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-008.md",
+      "hits": [
+        {
+          "line": 24,
+          "text": "கும :- நாளைக்கு நீ என்னுடன் வந்து பார்—அந்த வயிற்றெரிச்சல் உனக்கும் தெரியும். வரி கொடுக்க வழி இல்லை என்பான்—அவன் கை வலி எடுக்கும் வரை அடிப்பான் உன் அண்ணன். ஒளி இழந்த கண்கள்—உலர்ந்த உதடுகள்—ஒட்டிய வயிறு...இவைகள் அந்த ஓட்டைக் குடிசையிலே. விம்மலும், விக்கலும் அந்த விதியற்றவருக்கு—விசார குரல் வீணையின் நாதமாக இருக்கும் இந்த விழியற்றவருக்கு. பசியால் பத்துவான் பஞ்சை—பால் இல்லாக் குழந்தை வீறிட்டழும்...கருணை இழந்த நெஞ்சம், கண் இழந்த தன்மை, கண்ணிய மற்ற செயல் இவைகள் உன் தமையனின் தர்பாரிலே......முகாரியை மோகனம் என்பான். ஒப்பாரியை ஒய்யார கீதம் என்பான்...மீனு...நீ அடிக்கடி",
+          "reasons": [
+            "performance-word"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-021.md",
+      "hits": [
+        {
+          "line": 34,
+          "text": "(மீனு சோகத்துடன் பாடிக் கொண்டிருக்கிறாள். குமரன் அங்கு வருகிறான்.)",
+          "reasons": [
+            "performance-word"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-024.md",
+      "hits": [
+        {
+          "line": 80,
+          "text": "கும :- ஏழைகளின் நெஞ்சை பஞ்ச மெத்தையாக்கி அதிலே நடந்தல்லவா உனது பாதம்! ஏழையின் இதயக் குமுறல் அல்லவா உனக்கு கீதம்! திக்கற்றவர்களின் இரத்தத்தை திராட்சை இரசமென பிழிந்து குடித்தவனல்லவா நீ! சந்திப்போம் சட்டத்துக்கு முன்னால்!",
+          "reasons": [
+            "performance-word"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-027.md",
+      "hits": [
+        {
+          "line": 14,
+          "text": "சஞ்சீவி :- ஹா-ம் ......காதல், காதல் என்று கதை சொன்னாயே...இப்போது என்ன செய்வாய்? அதோ கேட்கிறது யார் காதல் கீதம்.",
+          "reasons": [
+            "performance-word"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-031.md",
+      "hits": [
+        {
+          "line": 8,
+          "text": "(மீனு பாடிக்கொண்டிருக்கிறாள்)",
+          "reasons": [
+            "performance-word"
+          ]
+        },
+        {
+          "line": 14,
+          "text": "கேளேனோ இனிமேல் இதுபோல் கீதம்.... (பேசும்)",
+          "reasons": [
+            "performance-word"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-036.md",
+      "hits": [
+        {
+          "line": 22,
+          "text": "### 7    குமரன், கிராமவாசிகள்",
+          "reasons": [
+            "level3-heading"
+          ]
+        },
+        {
+          "line": 34,
+          "text": "### 8    மாத்திரை",
+          "reasons": [
+            "level3-heading"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_file": "scene-039.md",
+      "hits": [
+        {
+          "line": 48,
+          "text": "## பின்னணிப் பாடல்",
+          "reasons": [
+            "performance-word",
+            "background-song-heading"
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Mechanical candidate scan only. A hit is not automatically a retained performance occurrence; review against verified scene text and the closed inventory."
+}
