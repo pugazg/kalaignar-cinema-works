@@ -309,12 +309,12 @@ historical_glyph:
       family: "ளை"
 
 mapped_source_visible_performance_structures:
-  status: complete-verified-source-only
+  status: complete-verified-source-only-reconciled
   high_confidence_blocks: 7
   pdf_005_009_performance_structures: 1
-  retained_records: 6
+  retained_records: 7
   source_attributed_authorship_records: 1
-  unresolved_item_level_authorship_records: 5
+  unresolved_item_level_authorship_records: 6
   index_path: "songs/index.json"
   qa_path: "notes/song-performance-qa.json"
   pdf_65_69_new_performance_structures: 0
@@ -383,12 +383,20 @@ structured_derivatives:
   character_entity_label_coverage: "45/45"
   character_entity_record_coverage: "590/590"
   character_entity_qa_path: "notes/character-entity-qa.json"
-  song_performance_index: complete-verified-source-only
+  song_performance_index: complete-verified-source-only-reconciled
   song_performance_index_path: "songs/index.json"
-  song_performance_record_count: 6
+  song_performance_record_count: 7
   song_performance_authorship_resolved: 1
-  song_performance_authorship_unresolved: 5
+  song_performance_authorship_unresolved: 6
   song_performance_qa_path: "notes/song-performance-qa.json"
+  english_translation: pilot-verified
+  english_translation_index_path: "translations/index.json"
+  english_translation_verified_scenes: 1
+  english_translation_unit_count: 21
+  english_dialogue_links_verified: 14
+  english_performance_records_translated: 1
+  english_song_line_cue_mappings_verified: 23
+  english_pilot_qa_path: "translations/pilot-qa.json"
 
 status:
   duplicate_work_check: complete-no-existing-work
@@ -401,8 +409,8 @@ status:
   scene_derivatives: complete-verified-45-of-45
   dialogue_index: complete-verified-590-records
   character_entity_index: complete-verified-28-entities
-  song_authorship_gate: complete-verified-source-only-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7-reconciled-7-of-7
-  english_translation: ready-next-scene-1-pilot-scene-1-pilot-scene-1-pilot-scene-1-pilot-scene-1-pilot-scene-1-pilot-scene-1-pilot-scene-1-pilot-scene-1-pilot
+  song_authorship_gate: complete-verified-source-only-reconciled-7-of-7
+  english_translation: pilot-verified-1-of-45
   reader_export: not-started
   reading_room_integration: not-started
 
@@ -412,4 +420,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers."
+next_action: "Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers."

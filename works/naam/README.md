@@ -14,8 +14,8 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - scene derivatives: **45/45 COMPLETE-VERIFIED; boundary ownership QA PASS**;
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
 - character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
-- song/performance/authorship gate: **6/6 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS; 1 source-attributed + 5 unresolved item-level authorships**;
-- English translation: **ready-next**; reader / Reading Room: **not-started**.
+- song/performance/authorship gate: **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED / QA PASS; 1 source-attributed + 6 unresolved item-level authorships**;
+- English translation: **scene 1/45 PILOT-VERIFIED — 21 units / 14 dialogue links / 1 performance / 23 song mappings**; reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
 Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`, `transcription/parts/pdf-065-069.md`, `transcription/parts/pdf-070-071.md`  
@@ -46,7 +46,7 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - canonical scene-region / joined scene-span SHA-256: `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` / `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` — **MATCH**;
 - canonical Tamil changed by derivative generation: **0**.
 
-**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Immutable dialogue checkpoint
 
@@ -59,7 +59,7 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - dialogue index: `dialogues/index.json`;
 - canonical Tamil / scene text modified by this phase: **0 / 0**.
 
-**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Character/entity closure checkpoint
 
@@ -72,19 +72,19 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - QA: `notes/character-entity-qa.json` — **PASS**;
 - upstream text/dialogue modifications: **0**.
 
-**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Song / performance / authorship closure checkpoint
 
-- mapped source-visible performance structures: **6/6 retained**;
-- clearly bounded Tamil performance derivatives: **6**;
+- mapped source-visible performance structures: **7/7 retained — reconciled**;
+- clearly bounded Tamil performance derivatives: **7**;
 - item-level authorship resolved from source: **1** — `ஆயிரம் தெய்வங்கள்` → `பாரதியார்` (PDF 4 credit; body PDF 16);
-- unresolved item-level authorship: **5**;
+- unresolved item-level authorship: **6**;
 - broad PDF 4 `கதை, வசனம், பாடல்... மு. கருணாநிதி` credit is preserved but not promoted to unsupported item-level attributions;
 - QA: `notes/song-performance-qa.json` — **PASS**;
 - upstream canonical / scene / dialogue / character modifications: **0 / 0 / 0 / 0**.
 
-**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Song/performance reconciliation before English
 
@@ -95,6 +95,22 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - authorship: **1 source-attributed / 6 unresolved item-level**;
 - existing `naam-perf-001`–`006` IDs preserved unchanged;
 - upstream Tamil / scene / dialogue / character modifications: **0**.
+
+## English translation pilot checkpoint
+
+- source scene: **1/45 VERIFIED**;
+- translation units: **21**;
+- immutable dialogue links: **14/14 exactly once**;
+- narrative / stage-direction units: **4 / 1**;
+- performance cue / full-song units: **1 / 1**;
+- translated performance occurrence: **`naam-perf-007`**;
+- Tamil→English song role/line mappings: **23/23**;
+- cross-page English units: **1** (`naam-en-s001-u021`, PDF 6–7);
+- inferred source-unlabelled speakers: **0**;
+- authorship upgrades: **0**;
+- upstream source-layer modifications caused by English: **0**.
+
+**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Source-visible publication / credit evidence
 
@@ -170,7 +186,7 @@ Safeguards:
 - final audit: `notes/canonical-closure-user-manual.md`;
 - no downstream derivative reconciliation required because derivatives had not yet started.
 
-**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+**Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Song / verse / performance structures mapped or confirmed so far
 

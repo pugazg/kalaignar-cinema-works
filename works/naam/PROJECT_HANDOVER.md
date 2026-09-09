@@ -309,3 +309,20 @@ A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and fo
 ## Exact next activity
 
 > **Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.**
+
+
+## English pilot closure checkpoint
+
+- source scene translated/verified: **1/45**;
+- English units: **21**;
+- immutable dialogue links: **14/14**;
+- performance occurrence translated: **`naam-perf-007` / 1 of 7**;
+- song role/line mappings: **23/23**;
+- cross-page English units: **1**;
+- source-unlabelled speaker inference: **0**;
+- authorship upgrades: **0**;
+- upstream source-layer changes caused by translation: **0**.
+
+## Current exact next activity
+
+> **Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.**

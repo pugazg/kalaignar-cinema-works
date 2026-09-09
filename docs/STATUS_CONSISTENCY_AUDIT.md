@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** has canonical Tamil **67/67 COMPLETE-VERIFIED** and scene-text derivatives **45/45 COMPLETE-VERIFIED** with boundary ownership QA **PASS — 0 gaps / 0 overlaps**. Dialogue indexing is the next gate.
+**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** has canonical Tamil **67/67 COMPLETE-VERIFIED** and scene-text derivatives **45/45 COMPLETE-VERIFIED** with boundary ownership QA **PASS — 0 gaps / 0 overlaps**. Naam is now through a verified English scene-1 pilot after all Tamil and structured gates, including the reconciled 7/7 song/performance gate.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -25,7 +25,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 6/6 QA PASS** | English translation next | not-started |
+| Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 entities; song/performance 7/7 reconciled QA PASS** | **scene 1/45 PILOT-VERIFIED; 21 units; 14 dialogue links; 1/7 performances** | not-started |
 
 ## Naam current checkpoint
 
@@ -36,7 +36,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 - final audit: `works/naam/notes/canonical-closure-user-manual.md`;
 - structured scene derivatives: **45/45 COMPLETE-VERIFIED**; boundary ownership QA **PASS — 0 gaps / 0 overlaps**; canonical PDF pages represented **67/67**.
 
-**Next production phase:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+**Next production phase:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
 
 ## Ammayappan current checkpoint
 
@@ -133,3 +133,7 @@ Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நா�
 
 <!-- Naam song gate reconciled 7/7 -->
 **Naam current structured checkpoint:** song/performance gate **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED** after the pre-English 45-scene sweep restored scene-1 PDF 6–7 `(பாட்டு)` as append-only `naam-perf-007`; 1 item-level source attribution (`ஆயிரம் தெய்வங்கள்` → `பாரதியார்`), 6 unresolved item-level authorships. **Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+
+
+<!-- Naam English pilot current -->
+**Naam / நாம் current:** English translation **scene 1/45 PILOT-VERIFIED — 21 units / 14 dialogue links / 1 of 7 performance records / 23 song mappings**; song/performance gate **7/7 reconciled**; no source-layer rewrites. **Next:** Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; and use only the reconciled seven-record song/performance layer for performance links. Do not alter closed Tamil or structured source layers.
