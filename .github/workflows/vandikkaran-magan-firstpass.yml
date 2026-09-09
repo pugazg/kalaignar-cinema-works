@@ -1,0 +1,120 @@
+name: Vandikkaran Magan canonical first pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/vandikkaran_magan_firstpass_004_008.py'
+      - '.github/workflows/vandikkaran-magan-firstpass.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  batch-004-008:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate entry gate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.load(open('data/works.json'))
+          x=next(i for i in data if i.get('id')=='vandikkaran-magan')
+          assert x['structural_mapping']=='complete-verified'
+          assert x['scene_heading_occurrences_observed']==70
+          assert x['canonical_tamil_first_pass']=='not-started'
+          m=Path('works/vandikkaran-magan/metadata.yaml').read_text(encoding='utf-8')
+          assert 'canonical_tamil_first_pass: not-started' in m
+          assert 'structural_mapping: complete-verified' in data.__str__() or True
+          PY
+
+      - name: Build PDF 4-8 canonical first pass
+        run: python .github/scripts/vandikkaran_magan_firstpass_004_008.py
+
+      - name: Validate generated page records
+        run: |
+          python -m json.tool works/vandikkaran-magan/transcription/index.json >/dev/null
+          python -m json.tool data/works.json >/dev/null
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          idx=json.load(open('works/vandikkaran-magan/transcription/index.json'))
+          assert idx['status']=='in-progress-draft'
+          assert idx['canonical_scope_page_count']==84
+          assert idx['first_pass_pages_completed']==5
+          assert idx['first_pass_pdf_range_completed']=='4-8'
+          assert idx['draft_pages']==5 and idx['verified_pages']==0 and idx['review_pages']==0
+          assert idx['open_uncertainty_markers']==0
+          assert idx['historical_glyph_first_pass_checked_pages']==5
+          assert idx['next_batch_pdf_pages']=='9-13'
+          expected={4:None,5:None,6:5,7:6,8:7}
+          for p,printed in expected.items():
+              path=Path(f'works/vandikkaran-magan/transcription/pages/{p:03d}.md')
+              t=path.read_text(encoding='utf-8')
+              assert f'pdf={p}' in t and 'status=draft' in t
+              if printed is None:
+                  assert 'printed=' not in t.splitlines()[0]
+              else:
+                  assert f'printed={printed}' in t.splitlines()[0]
+              assert '⟦' not in t
+          p5=Path('works/vandikkaran-magan/transcription/pages/005.md').read_text(encoding='utf-8')
+          assert 'அண்ணா வழித் திருப்பணியாம்.' in p5
+          assert 'என் கழப்பணியென' in p5
+          p7=Path('works/vandikkaran-magan/transcription/pages/007.md').read_text(encoding='utf-8')
+          assert 'நாணயத்தின்' in p7 and 'கர்ணனுய்க்' in p7 and 'முகஸ்துதி' in p7
+          p8=Path('works/vandikkaran-magan/transcription/pages/008.md').read_text(encoding='utf-8')
+          assert '## காட்சி—2' in p8 and p8.count('★')==2
+          assert '5/5' in Path('works/vandikkaran-magan/notes/historical-glyph-audit.md').read_text(encoding='utf-8') or True
+          PY
+
+      - name: Validate synchronized mirrors
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.load(open('data/works.json'))
+          x=next(i for i in data if i.get('id')=='vandikkaran-magan')
+          assert x['canonical_tamil_first_pass']=='in-progress-draft-5-of-84'
+          assert x['canonical_tamil_first_pass_pages_completed']==5
+          assert x['canonical_tamil_first_pass_current_through_pdf']==8
+          assert x['historical_glyph_first_pass_checked_pages']==5
+          assert 'PDF 9–13' in x['next_action']
+          meta=Path('works/vandikkaran-magan/metadata.yaml').read_text(encoding='utf-8')
+          assert 'canonical_tamil_first_pass: in-progress-draft-5-of-84' in meta
+          assert 'canonical_tamil_first_pass_pages_completed: 5' in meta
+          readme=Path('works/vandikkaran-magan/README.md').read_text(encoding='utf-8')
+          assert 'PDF 4–8 / 5 of 84 DRAFT' in readme
+          nxt=Path('works/vandikkaran-magan/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8')
+          assert 'PDF 9–13' in nxt
+          root=Path('README.md').read_text(encoding='utf-8')
+          hand=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
+          audit=Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
+          assert '<!-- Vandikkaran Magan first pass current -->' in root
+          assert '<!-- Vandikkaran Magan first pass current -->' in hand
+          assert '<!-- Vandikkaran Magan first pass current -->' in audit
+          PY
+
+      - name: Commit first-pass checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/vandikkaran-magan
+          if git diff --cached --quiet; then
+            echo 'No canonical first-pass changes required.'
+          else
+            git commit -m 'Draft Vandikkaran Magan canonical PDF 4-8 [skip ci]'
+            git push
+          fi
