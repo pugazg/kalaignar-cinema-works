@@ -93,7 +93,7 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested.",
+  "next_activity": "No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.",
   "source_unlabelled_speech_units_verified": 20,
   "batch_002_005_review": "BATCH_002_005_REVIEW.md",
   "batch_002_005_qa": "batch-002-005-qa.json",
@@ -112,7 +112,7 @@
   "whole_work_reconciliation_status": "PASS",
   "whole_work_reconciliation_qa": "whole-work-reconciliation.json",
   "whole_work_reconciliation_report": "WHOLE_WORK_RECONCILIATION.md",
-  "reader_export_status": "ready-next",
+  "reader_export_status": "complete-verified",
   "whole_work_kind_counts": {
     "chant": 1,
     "dialogue": 610,
@@ -121,5 +121,12 @@
     "song": 6,
     "stage-direction": 137,
     "written-text": 2
-  }
+  },
+  "reader_export_directory": "../editions/en",
+  "reader_export_qa": "../editions/en/QA_REPORT.md",
+  "reader_export_manifest": "../editions/en/manifest.json",
+  "reading_room_payload_status": "payload-complete-verified",
+  "reading_room_payload_path": "../integrations/reading-room/reading-room.json",
+  "reading_room_payload_qa": "../integrations/reading-room/QA_REPORT.md",
+  "reading_room_site_application": "not-applied"
 }

@@ -937,7 +937,7 @@
     "historical_glyph_audit": "complete-final-verified-67-of-67",
     "historical_glyph_guide_path": "docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "historical_glyph_audit_path": "works/naam/notes/historical-glyph-audit.md",
-    "next_action": "Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested.",
+    "next_action": "No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.",
     "canonical_tamil_first_pass_pages_completed": 67,
     "canonical_tamil_first_pass_pdf_range_completed": "5-71",
     "canonical_tamil_first_pass_current_through_pdf": 71,
@@ -1013,7 +1013,7 @@
       "scene_records": 0,
       "scene_text_derivatives": "complete-verified",
       "scene_text_files_completed": 45,
-      "next_structured_derivative": "english-translation",
+      "next_structured_derivative": null,
       "scene_index_path": "works/naam/scenes/index.json",
       "source_numbered_scene_records": 45,
       "scene_boundary_ownership_qa": "PASS",
@@ -1063,7 +1063,22 @@
       "english_chant_line_cue_mappings_verified": 16,
       "english_whole_work_reconciliation": "PASS",
       "english_whole_work_reconciliation_qa_path": "works/naam/translations/whole-work-reconciliation.json",
-      "reader_export": "ready-next"
+      "reader_export": "complete-verified",
+      "english_reader_edition_directory": "works/naam/editions/en",
+      "english_reader_qa": "PASS",
+      "english_reader_qa_units": 797,
+      "english_reader_qa_dialogue_links": 590,
+      "english_reader_qa_source_unlabelled_speech_units": 20,
+      "english_reader_qa_cross_page_units": 12,
+      "english_reader_qa_performance_records": 7,
+      "english_reader_json_sha256": "3043e1cd515d4e1bb8298ffb99709db5e3d9cc1a46bccdcaad9972692363e656",
+      "reading_room_integration": "payload-complete-verified",
+      "reading_room_payload_path": "works/naam/integrations/reading-room/reading-room.json",
+      "reading_room_payload_qa_report_path": "works/naam/integrations/reading-room/QA_REPORT.md",
+      "reading_room_payload_manifest_path": "works/naam/integrations/reading-room/manifest.json",
+      "reading_room_payload_sha256": "9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825",
+      "reading_room_payload_bytes": 965215,
+      "reading_room_site_application": "not-applied"
     }
   }
 ]

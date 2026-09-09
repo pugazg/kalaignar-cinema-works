@@ -17,13 +17,24 @@ Fetch live `main` before every continuation. Preserve any newer durable work. Th
 - character/entity: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED**;
 - song/performance: **7/7 COMPLETE-VERIFIED-SOURCE-ONLY / 1 source-attributed + 6 unresolved**;
 - English: **45/45 COMPLETE-VERIFIED / 797 units / 590/590 dialogue links / 20 unlabelled with 0 inferred speakers / 7/7 performances / 138 mappings / 1 chant (16 mappings) / whole-work QA PASS**;
-- reader/export: **READY-NEXT**; Reading Room integration: **not-started**.
+- reader/export: **COMPLETE-VERIFIED / QA PASS**; Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED / QA PASS**; site application: **not-applied**.
 
 Authoritative English closure: `translations/index.json`, `translations/whole-work-reconciliation.json`, `translations/WHOLE_WORK_RECONCILIATION.md`, and `translations/records/scene-001.json`–`scene-045.json`.
 
 ## Current exact next activity
 
-> **Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested.**
+> **No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.**
+
+## Phase 10 closure evidence
+
+- reader: `editions/en/reader-edition.md`, `.html`, `.json`;
+- reader QA / manifest: `editions/en/QA_REPORT.md`, `editions/en/manifest.json` — **PASS / complete-verified**;
+- reader JSON SHA-256: `3043e1cd515d4e1bb8298ffb99709db5e3d9cc1a46bccdcaad9972692363e656`;
+- Reading Room payload: `integrations/reading-room/reading-room.json`;
+- payload QA / manifest: `integrations/reading-room/QA_REPORT.md`, `integrations/reading-room/manifest.json` — **PASS / payload-complete-verified**;
+- payload SHA-256: `9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825`;
+- site application: **not-applied**;
+- no PDF/EPUB/publication package created.
 
 ## Source identity
 

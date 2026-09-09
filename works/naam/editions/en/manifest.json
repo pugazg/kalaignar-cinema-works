@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "work_id": "naam",
+  "build_version": 1,
+  "status": "complete-verified",
+  "qa_status": "PASS",
+  "source_scan_sha256": "0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad",
+  "source_scene_numbering": "printed-1-45",
+  "scene_count": 45,
+  "translation_units": 797,
+  "unit_kind_counts": {
+    "dialogue": 610,
+    "narrative": 35,
+    "performance-cue": 6,
+    "song": 6,
+    "stage-direction": 137,
+    "written-text": 2,
+    "chant": 1
+  },
+  "immutable_dialogue_links": 590,
+  "source_unlabelled_speech_units": 20,
+  "retained_performance_records": [
+    "naam-perf-007",
+    "naam-perf-001",
+    "naam-perf-002",
+    "naam-perf-003",
+    "naam-perf-004",
+    "naam-perf-005",
+    "naam-perf-006"
+  ],
+  "performance_line_cue_mappings": 138,
+  "source_local_chant_line_cue_mappings": 16,
+  "cross_page_units": [
+    "naam-en-s001-u021",
+    "naam-en-s008-u009",
+    "naam-en-s017-u011",
+    "naam-en-s020-u003",
+    "naam-en-s021-u002",
+    "naam-en-s030-u016",
+    "naam-en-s031-u002",
+    "naam-en-s036-u007",
+    "naam-en-s039-u017",
+    "naam-en-s041-u002",
+    "naam-en-s045-u013",
+    "naam-en-s045-u022"
+  ],
+  "authoritative_input_file_count": 139,
+  "authoritative_input_aggregate_sha256": "e612c905c34b86a14720c2dc3d018cddff7139585e161629acef585c2de24c5b",
+  "closed_source_layer_hashes": {
+    "works/naam/transcription": "fbe0e435cb54d6ebc09cb554943b7f8c63d5a71151327be669387f675ef05b0d",
+    "works/naam/scenes": "43f681dbe245bea061f23c250321bb03c060dae3c2bccce144a3c8421ec16fbb",
+    "works/naam/dialogues": "359dcb1befae881ef9f2956e7eace281f0ed91d8507359d0bac24124bf314d1d",
+    "works/naam/characters": "b31535cd105df51e0b4b217707a36e54f237e59fa71622df78d574a17eba14ab",
+    "works/naam/songs/records": "768329ed07220702aeda9e64f218bd39fb020cea3fbd004dd187f64a19533bbc"
+  },
+  "outputs": {
+    "reader-edition.md": {
+      "sha256": "d343d529d869a1616bb077a793755edd3d1ee8baaa758247d8fac34f644e7973",
+      "bytes": 174938
+    },
+    "reader-edition.html": {
+      "sha256": "bbbd29af3903f08124b8336d28869298be812b591fd38e936162486cc919e527",
+      "bytes": 281182
+    },
+    "reader-edition.json": {
+      "sha256": "3043e1cd515d4e1bb8298ffb99709db5e3d9cc1a46bccdcaad9972692363e656",
+      "bytes": 952751
+    },
+    "QA_REPORT.md": {
+      "sha256": "35e13b386a0d44e562920ed4731c237d0c18f115bcf4f4e455d6ff50e96f717e",
+      "bytes": 1238
+    }
+  },
+  "reader_json_sha256": "3043e1cd515d4e1bb8298ffb99709db5e3d9cc1a46bccdcaad9972692363e656",
+  "reading_room_gate": "READY-NEXT"
+}

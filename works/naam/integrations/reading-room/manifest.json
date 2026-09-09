@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "work_id": "naam",
+  "build_version": 1,
+  "status": "payload-complete-verified",
+  "qa_status": "PASS",
+  "site_application_status": "not-applied",
+  "source_scan_sha256": "0f7a54882eb6a5a8f83b29060c771ef18dee2b9e108c8797184de2b97c30b7ad",
+  "reader_manifest_sha256": "7c37553947440d443388c96cd5304aae01a0890115a33f5045cd84c43111f344",
+  "reader_json_sha256": "3043e1cd515d4e1bb8298ffb99709db5e3d9cc1a46bccdcaad9972692363e656",
+  "authoritative_input_file_count": 48,
+  "authoritative_input_aggregate_sha256": "d83fcd051b60a56a0007924edab5cc8358be24c3a3bacc150d9ea8e466246d4d",
+  "scene_count": 45,
+  "english_units": 797,
+  "immutable_dialogue_links": 590,
+  "source_unlabelled_speech_units": 20,
+  "retained_performance_records": [
+    "naam-perf-007",
+    "naam-perf-001",
+    "naam-perf-002",
+    "naam-perf-003",
+    "naam-perf-004",
+    "naam-perf-005",
+    "naam-perf-006"
+  ],
+  "performance_line_cue_mappings": 138,
+  "source_local_chant_line_cue_mappings": 16,
+  "written_text_units": [
+    "naam-en-s041-u012",
+    "naam-en-s045-u025"
+  ],
+  "cross_page_units": [
+    "naam-en-s001-u021",
+    "naam-en-s008-u009",
+    "naam-en-s017-u011",
+    "naam-en-s020-u003",
+    "naam-en-s021-u002",
+    "naam-en-s030-u016",
+    "naam-en-s031-u002",
+    "naam-en-s036-u007",
+    "naam-en-s039-u017",
+    "naam-en-s041-u002",
+    "naam-en-s045-u013",
+    "naam-en-s045-u022"
+  ],
+  "payload": {
+    "path": "works/naam/integrations/reading-room/reading-room.json",
+    "sha256": "9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825",
+    "bytes": 965215
+  },
+  "qa_report": {
+    "sha256": "6989040e8771b9bc5572b250cc6627e5b40e739e4c483ce3c746550823416393",
+    "bytes": 1050
+  }
+}

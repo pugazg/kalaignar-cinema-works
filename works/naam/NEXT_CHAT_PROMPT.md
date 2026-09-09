@@ -2,14 +2,26 @@
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/naam/`. **Live `main` is authoritative.**
 
-Canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45 COMPLETE-VERIFIED**; dialogue index **590 immutable records / QA PASS**; character/entity **28 entities / 45/45 labels / 590/590 records / QA PASS**; song/performance **7/7 COMPLETE-VERIFIED-SOURCE-ONLY**.
+Canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45 COMPLETE-VERIFIED**; dialogue index **590 immutable records / QA PASS**; character/entity **28 entities / 45/45 labels / 590/590 records / QA PASS**; song/performance **7/7 COMPLETE-VERIFIED-SOURCE-ONLY**; English **45/45 / 797 units / COMPLETE-VERIFIED / whole-work QA PASS**.
 
-English translation is **COMPLETE-VERIFIED** after whole-work reconciliation: **45/45 scenes, 797 units, 590/590 immutable dialogue links, 20 source-unlabelled speech units with 0 inferred speakers, 7/7 retained performances, 138 performance mappings, 1 distinct scene-34 chant / 16 mappings, 2 written-text units, 12 cross-page units**. `translations/whole-work-reconciliation.json` is **PASS**.
+Phase 10 is **CLOSED**:
 
-Authorship remains source-honest: `naam-perf-001` → **பாரதியார்**; the other six remain unresolved item-level. Scene 34's chant is not a `naam-perf-*` record; scene 41 `கடிதத்தில் :-` remains written text, `ஜீவானந்தர் —` retains its source em dash, and `உன்மீனு` remains the exact source label; scene 45's closing rhetorical questions remain source-unlabelled.
+- reader/export: **COMPLETE-VERIFIED / QA PASS**;
+- `editions/en/reader-edition.md`, `.html`, `.json`;
+- reader JSON SHA-256 `3043e1cd515d4e1bb8298ffb99709db5e3d9cc1a46bccdcaad9972692363e656`;
+- **797/797** verified English units rendered exactly once;
+- **590/590** immutable dialogue links preserved;
+- **20** source-unlabelled speech units / 0 inferred speakers;
+- **7/7** retained performances / **138** mappings;
+- scene-34 chant **1 / 16 mappings**, still outside the performance inventory;
+- **2** written-text / **12** cross-page units;
+- Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED / QA PASS**;
+- payload SHA-256 `9b97493b820ebd42c822b5fbdc53beda8dbe1d61103a1c9d2abb06a552bcf825`;
+- public-site application: **not-applied**;
+- no PDF or EPUB generated.
 
-Reader/export is **READY-NEXT**. Closed Tamil, scene, dialogue, character, song-source and English records are immutable downstream inputs.
+All Tamil, scene, dialogue, character, song-source and English scene-record layers remain immutable downstream authority.
 
 ## Exact next activity
 
-> **Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested.**
+> **No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested.**

@@ -398,7 +398,19 @@ structured_derivatives:
   english_song_line_cue_mappings_verified: 138
   english_whole_work_reconciliation: PASS
   english_whole_work_reconciliation_qa_path: "translations/whole-work-reconciliation.json"
-  english_reader_export: ready-next
+  english_reader_export: complete-verified
+  english_reader_edition_directory: "editions/en"
+  english_reader_qa: PASS
+  english_reader_qa_units: 797
+  english_reader_qa_dialogue_links: 590
+  english_reader_qa_source_unlabelled_speech_units: 20
+  english_reader_qa_cross_page_units: 12
+  english_reader_qa_performance_records: 7
+  reading_room_payload: payload-complete-verified
+  reading_room_payload_path: "integrations/reading-room/reading-room.json"
+  reading_room_payload_qa_path: "integrations/reading-room/QA_REPORT.md"
+  reading_room_payload_manifest_path: "integrations/reading-room/manifest.json"
+  reading_room_site_application: not-applied
   english_chant_units_verified: 1
   english_chant_line_cue_mappings_verified: 16
   english_pilot_qa_path: "translations/pilot-qa.json"
@@ -416,8 +428,8 @@ status:
   character_entity_index: complete-verified-28-entities
   song_authorship_gate: complete-verified-source-only-reconciled-7-of-7
   english_translation: complete-verified-45-of-45
-  reader_export: ready-next
-  reading_room_integration: not-started
+  reader_export: complete-verified
+  reading_room_integration: payload-complete-verified-site-not-applied
 
 user_supplied_context: >-
   பகுத்தறிவு இயக்கத்தைக் கதைத் தலைவனாகக் கொண்டு கலைஞர் அவர்களின்
@@ -425,4 +437,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Begin Phase 10 whole-work reader/export generation from the complete-verified Tamil and English structured layers. Build deterministic Markdown, standalone HTML, machine-readable JSON, reader QA, and an integrity manifest; verify all 45 source scenes appear exactly once in canonical order and all 797 verified English units render exactly once; preserve all 590 immutable dialogue links, the seven retained performance records, the distinct scene-34 chant, written text, source-unlabelled speech, exact cross-page provenance, and source-page linkage; prohibit duplicate source-span ownership, synthetic scene-end prose, placeholder/editorial leakage, or upstream source-layer mutation. After reader QA passes, prepare structured data for Kalaignar Digital Library / Reading Room integration. Do not create a PDF, EPUB, or other publication package unless separately requested."
+next_action: "No required repository-internal processing remains for நாம். Reader/export and the source-linked Reading Room payload are complete-verified with QA PASS. Keep Tamil, scene, dialogue, character, song-source and English records closed. Apply `works/naam/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; before applying it, fetch that repository's live state and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here. Do not create a PDF, EPUB or other publication package unless separately requested."
