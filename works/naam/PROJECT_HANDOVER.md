@@ -300,3 +300,12 @@ No downstream derivative existed at closure, so reconciliation is not required.
 ## Exact next activity
 
 > **Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.**
+
+
+## Song/performance pre-English reconciliation
+
+A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and found one omitted explicit source performance: scene 1, PDF 6–7, `(பாட்டு)` with role cues `எல்லோரும் / ஆண் / பெண் / எல்லோரும்`. It is retained as append-only `naam-perf-007`; existing IDs 001–006 remain stable. Reconciled coverage is **7/7**, with **1 source-attributed** item (`ஆயிரம் தெய்வங்கள்` → `பாரதியார்`) and **6 unresolved** item-level authorships. No upstream source layer changed.
+
+## Exact next activity
+
+> **Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.**

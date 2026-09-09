@@ -1,11 +1,34 @@
 {
   "work_id": "naam",
   "status": "complete-verified-source-only",
-  "mapped_source_visible_structures": 6,
+  "mapped_source_visible_structures": 7,
   "records": [
     {
+      "id": "naam-perf-007",
+      "source_pdf_pages": [
+        6,
+        7
+      ],
+      "source_scene_number": 1,
+      "form": "explicit-song",
+      "source_marker": "(பாட்டு)",
+      "source_role_cues": [
+        "எல்லோரும்",
+        "ஆண்",
+        "பெண்",
+        "எல்லோரும்"
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "record_path": "records/naam-perf-007.md",
+      "full_or_clearly_bounded_body": true,
+      "late_inventory_reconciliation": "identified by whole-work marker re-audit before English; existing IDs retained"
+    },
+    {
       "id": "naam-perf-001",
-      "source_pdf_pages": [16],
+      "source_pdf_pages": [
+        16
+      ],
       "source_scene_number": 7,
       "form": "explicit-song",
       "source_marker": "[பாட்டு]",
@@ -19,10 +42,16 @@
     },
     {
       "id": "naam-perf-002",
-      "source_pdf_pages": [18],
+      "source_pdf_pages": [
+        18
+      ],
       "source_scene_number": 8,
       "form": "lyrical-duet-block",
-      "source_role_cues": ["குமரன்", "மீனு", "இருவர்"],
+      "source_role_cues": [
+        "குமரன்",
+        "மீனு",
+        "இருவர்"
+      ],
       "authorship_status": "unresolved-item-level",
       "author_as_printed": null,
       "record_path": "records/naam-perf-002.md",
@@ -30,10 +59,15 @@
     },
     {
       "id": "naam-perf-003",
-      "source_pdf_pages": [35, 36],
+      "source_pdf_pages": [
+        35,
+        36
+      ],
       "source_scene_number": 21,
       "form": "lyrical-block",
-      "source_role_cues": ["மீனு"],
+      "source_role_cues": [
+        "மீனு"
+      ],
       "performance_cue": "(மீனு சோகத்துடன் பாடிக் கொண்டிருக்கிறாள். குமரன் அங்கு வருகிறான்.)",
       "authorship_status": "unresolved-item-level",
       "author_as_printed": null,
@@ -42,11 +76,16 @@
     },
     {
       "id": "naam-perf-004",
-      "source_pdf_pages": [49, 50],
+      "source_pdf_pages": [
+        49,
+        50
+      ],
       "source_scene_number": 31,
       "form": "lyrical-block",
       "source_marker": "(பேசும்)",
-      "source_role_cues": ["மீனு"],
+      "source_role_cues": [
+        "மீனு"
+      ],
       "performance_cue": "(மீனு பாடிக்கொண்டிருக்கிறாள்)",
       "authorship_status": "unresolved-item-level",
       "author_as_printed": null,
@@ -55,11 +94,17 @@
     },
     {
       "id": "naam-perf-005",
-      "source_pdf_pages": [59, 60],
+      "source_pdf_pages": [
+        59,
+        60
+      ],
       "source_scene_number": 36,
       "scene_relation": "between-scenes-36-and-37",
       "form": "numbered-poetic-song-like-blocks",
-      "source_role_cues": ["7    குமரன், கிராமவாசிகள்", "8    மாத்திரை"],
+      "source_role_cues": [
+        "7    குமரன், கிராமவாசிகள்",
+        "8    மாத்திரை"
+      ],
       "authorship_status": "unresolved-item-level",
       "author_as_printed": null,
       "record_path": "records/naam-perf-005.md",
@@ -67,7 +112,9 @@
     },
     {
       "id": "naam-perf-006",
-      "source_pdf_pages": [64],
+      "source_pdf_pages": [
+        64
+      ],
       "source_scene_number": 39,
       "form": "background-song",
       "source_marker": "பின்னணிப் பாடல்",
@@ -78,12 +125,13 @@
       "full_or_clearly_bounded_body": true
     }
   ],
-  "coverage": "6/6",
+  "coverage": "7/7",
   "source_attributed_authorship_records": 1,
-  "unresolved_item_level_authorship_records": 5,
+  "unresolved_item_level_authorship_records": 6,
   "policy": {
     "broad_pdf4_credit": "கதை, வசனம், பாடல்... மு. கருணாநிதி",
     "specific_credit_precedence": "ஆயிரம் தெய்வங்கள் -> பாரதியார்",
-    "other_item_level_authorship_inferred": false
+    "other_item_level_authorship_inferred": false,
+    "late_inventory_reconciliation": "scene 1 explicit `(பாட்டு)` added as naam-perf-007 without renumbering existing stable IDs"
   }
 }

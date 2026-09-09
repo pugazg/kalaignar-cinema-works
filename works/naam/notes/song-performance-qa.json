@@ -2,12 +2,12 @@
   "work_id": "naam",
   "phase": "song-performance-authorship-qa",
   "status": "PASS",
-  "mapped_structures_expected": 6,
-  "retained_records": 6,
-  "coverage": "6/6",
-  "full_or_clearly_bounded_tamil_derivatives": 6,
+  "mapped_structures_expected": 7,
+  "retained_records": 7,
+  "coverage": "7/7",
+  "full_or_clearly_bounded_tamil_derivatives": 7,
   "source_attributed_authorship_records": 1,
-  "unresolved_item_level_authorship_records": 5,
+  "unresolved_item_level_authorship_records": 6,
   "specific_item_credit": {
     "record_id": "naam-perf-001",
     "title": "ஆயிரம் தெய்வங்கள்",
@@ -24,5 +24,6 @@
   "scene_text_modified": 0,
   "dialogue_records_modified": 0,
   "character_entity_mappings_modified": 0,
-  "next_gate": "english translation ready"
+  "next_gate": "english translation ready",
+  "late_inventory_reconciliation": "PASS — scene 1 `(பாட்டு)` restored as naam-perf-007; 45-scene marker re-audit found no other omitted explicit performance structure requiring a new record"
 }
