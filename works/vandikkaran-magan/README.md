@@ -14,24 +14,6 @@ Controlling source: `TVA_BOK_0062961_வண்டிக்காரன்_மக
 
 The supplied scan controls this represented edition. Do not silently modernize spelling, punctuation, speaker labels, scene numbering, performance structures, or historical Tamil character identity.
 
-## Printed source identity
-
-PDF 2 visibly prints:
-
-- `வண்டிக்காரன் மகன்`;
-- `மூலக்கதை அண்ணா`;
-- `திரைக்கதை-வசனம் கலைஞர்`;
-- `கனி பதிப்பகம்`;
-- `சென்னை-34.`
-
-PDF 3 visibly prints:
-
-- `முதற் பதிப்பு : 1978`;
-- `விலை ரூ. 1-50`;
-- `அச்சிட்டோர்: முரசொலி அச்சகம் சென்னை - 600 034.`
-
-PDF 88–89 contains film-credit matter. PDF 90 is the back cover.
-
 ## Verified source boundaries
 
 | PDF pages | Disposition |
@@ -71,9 +53,9 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 observed headings**;
-- first-pass transcription: **IN PROGRESS — PDF 4–33 / 30 of 87 scoped source pages DRAFT**;
-- screenplay drafted through: **PDF 33 / printed 32**;
-- page states: **30 draft**;
+- first-pass transcription: **IN PROGRESS — PDF 4–38 / 35 of 87 scoped source pages DRAFT**;
+- screenplay drafted through: **PDF 38 / printed 37**;
+- page states: **35 draft**;
 - open first-pass uncertainty markers: **0 recorded**;
 - visual verification: **NOT-STARTED**;
 - historical-glyph verification: **NOT-STARTED** under the current user-directed phase order;
@@ -83,10 +65,11 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 ## Latest five-page batch
 
-- PDF **29–33 / printed 28–32** drafted;
-- scene starts encountered: `16`, `16-எ`, `17`, `18`, `19`;
+- PDF **34–38 / printed 33–37** drafted;
+- scene `19` continues on PDF 34; scene starts encountered: `20`, `20-எ`;
+- PDF 36–37 contains the source-visible `விங்கன் — கோகிலா காதல் கீதம்` block;
 - all five records remain `draft` pending the later verification phases.
 
 ## Exact next activity
 
-> **Continue first-pass transcription with PDF 34–38 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**
+> **Continue first-pass transcription with PDF 39–43 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**
