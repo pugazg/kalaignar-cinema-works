@@ -1,0 +1,29 @@
+{
+  "work_id": "naam",
+  "status": "complete-verified-source-only",
+  "authorship_gate": "closed-with-evidence-limited-unresolved-occurrences",
+  "mapped_source_visible_structures": 6,
+  "retained_performance_records": 6,
+  "full_or_clearly_bounded_tamil_derivatives": 6,
+  "source_attributed_authorship_records": 1,
+  "unresolved_item_level_authorship_records": 5,
+  "specific_source_attribution": {
+    "record_id": "naam-perf-001",
+    "title": "ஆயிரம் தெய்வங்கள்",
+    "author_as_printed": "பாரதியார்",
+    "credit_pdf_page": 4,
+    "body_pdf_page": 16
+  },
+  "broad_credit_policy": "PDF 4 `கதை, வசனம், பாடல்... மு. கருணாநிதி` is preserved but is not used to infer item-level authorship for the other five structures.",
+  "inventory": "inventory.json",
+  "credits": "credits.json",
+  "schema": "schema.json",
+  "records_directory": "records/",
+  "qa": "../notes/song-performance-qa.json",
+  "canonical_tamil_changed": false,
+  "scene_text_changed": false,
+  "dialogue_records_changed": false,
+  "character_entity_mappings_changed": false,
+  "english_translation_gate": "ready",
+  "next_activity": "Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers."
+}
