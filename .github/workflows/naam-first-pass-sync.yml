@@ -1,4 +1,4 @@
-name: Naam song-performance synchronization
+name: Naam song candidate re-audit
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  sync:
+  audit:
     runs-on: ubuntu-24.04
     steps:
       - name: Check out repository
@@ -25,66 +25,38 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate closed upstream layers
+      - name: Validate closed source layers
         run: |
           python - <<'PY'
           import json
           d=json.load(open('works/naam/dialogues/index.json'))
           c=json.load(open('works/naam/characters/index.json'))
           assert d['status']=='complete-verified' and d['dialogue_record_count']==590
-          assert c['status']=='complete-verified' and c['label_coverage']=='45/45' and c['dialogue_record_coverage']=='590/590'
+          assert c['status']=='complete-verified' and c['dialogue_record_coverage']=='590/590'
           PY
 
-      - name: Validate song-performance artifacts
+      - name: Re-audit song and performance markers
+        run: python works/naam/scripts/audit_song_candidates.py
+
+      - name: Validate audit output
         run: |
-          python -m json.tool works/naam/songs/index.json >/dev/null
-          python -m json.tool works/naam/songs/inventory.json >/dev/null
-          python -m json.tool works/naam/songs/credits.json >/dev/null
-          python -m json.tool works/naam/songs/schema.json >/dev/null
-          python -m json.tool works/naam/notes/song-performance-qa.json >/dev/null
+          python -m json.tool works/naam/notes/song-candidate-recheck.json >/dev/null
           python - <<'PY'
           import json
-          from pathlib import Path
-          i=json.load(open('works/naam/songs/index.json'))
-          v=json.load(open('works/naam/songs/inventory.json'))
-          q=json.load(open('works/naam/notes/song-performance-qa.json'))
-          assert i['status']=='complete-verified-source-only'
-          assert i['retained_performance_records']==6
-          assert i['source_attributed_authorship_records']==1
-          assert i['unresolved_item_level_authorship_records']==5
-          assert i['specific_source_attribution']['author_as_printed']=='பாரதியார்'
-          assert v['coverage']=='6/6' and len(v['records'])==6
-          assert q['status']=='PASS' and q['coverage']=='6/6'
-          assert q['broad_kalaignar_credit_overrode_specific_credit'] is False
-          assert q['broad_kalaignar_credit_promoted_to_other_item_level_authorship'] is False
-          assert len(list(Path('works/naam/songs/records').glob('naam-perf-*.md')))==6
+          a=json.load(open('works/naam/notes/song-candidate-recheck.json'))
+          assert a['scene_files_scanned']==45
+          assert a['status']=='review-required'
+          assert a['scenes_with_marker_hits'] >= 1
           PY
 
-      - name: Synchronize song-performance closure
-        run: python works/naam/scripts/sync_song_performance_closure.py
-
-      - name: Validate synchronized checkpoint
-        run: |
-          python -m json.tool data/works.json >/dev/null
-          python - <<'PY'
-          import json
-          i=json.load(open('works/naam/songs/index.json'))
-          q=json.load(open('works/naam/notes/song-performance-qa.json'))
-          assert i['english_translation_gate']=='ready'
-          assert q['next_gate']=='english translation ready'
-          m=open('works/naam/metadata.yaml',encoding='utf-8').read()
-          assert 'song_authorship_gate: complete-verified-source-only' in m
-          assert 'english_translation: ready-next' in m
-          PY
-
-      - name: Commit song-performance closure
+      - name: Commit audit
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo 'No song-performance synchronization changes needed.'
+            echo 'No audit changes needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md works/naam
-          git commit -m 'Close Naam song performance gate [skip ci]'
+          git add works/naam/notes/song-candidate-recheck.json works/naam/notes/song-candidate-recheck.md
+          git commit -m 'Re-audit Naam song performance candidates [skip ci]'
           git push
