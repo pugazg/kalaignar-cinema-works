@@ -35,9 +35,10 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
 - character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
-- English remains downstream of scene/dialogue/character/song gates.
+- song/performance/authorship gate: **6/6 retained source-visible structures / QA PASS / 1 source-attributed + 5 unresolved item-level authorships**;
+- English translation: **ready-next**.
 
-**Next:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
+**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
 
 ## ராஜா ராணி status
 

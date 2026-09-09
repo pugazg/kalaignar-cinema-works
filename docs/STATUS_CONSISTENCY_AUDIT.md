@@ -25,7 +25,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Manthiri Kumari | PDF 2–13 canonical Tamil complete-verified; 12/12 pages; 0 unresolved | credits; story summary 1/1; performance records 15/15 | 13 prose units + 15/15 performances / 52 sections / 234 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
-| Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogues; 28 character/entities; all QA PASS** | song/authorship gate next | not-started |
+| Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 6/6 QA PASS** | English translation next | not-started |
 
 ## Naam current checkpoint
 
@@ -36,7 +36,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 - final audit: `works/naam/notes/canonical-closure-user-manual.md`;
 - structured scene derivatives: **45/45 COMPLETE-VERIFIED**; boundary ownership QA **PASS — 0 gaps / 0 overlaps**; canonical PDF pages represented **67/67**.
 
-**Next production phase:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
+**Next production phase:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
 
 ## Ammayappan current checkpoint
 

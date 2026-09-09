@@ -268,7 +268,7 @@ No downstream derivative existed at closure, so reconciliation is not required.
 
 ## Exact next activity
 
-> **Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.**
+> **Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.**
 
 
 ## Character/entity closure checkpoint
@@ -285,4 +285,18 @@ No downstream derivative existed at closure, so reconciliation is not required.
 
 ## Exact next activity
 
-> **Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.**
+> **Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.**
+
+
+## Song/performance/authorship closure checkpoint
+
+- status: **COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
+- mapped structures / retained records: **6 / 6**;
+- item-level source attribution: **1 resolved / 5 unresolved**;
+- `ஆயிரம் தெய்வங்கள்` remains specifically credited to **பாரதியார்** from PDF 4;
+- broad Kalaignar story/dialogue/song credit is not used to overwrite that specific credit or infer the other five items;
+- upstream source/derivative rewrites: **0**.
+
+## Exact next activity
+
+> **Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.**

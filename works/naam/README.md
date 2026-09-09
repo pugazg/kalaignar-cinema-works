@@ -14,8 +14,8 @@ Source-first archival workspace for the Kalaignar cinema work **நாம்**.
 - scene derivatives: **45/45 COMPLETE-VERIFIED; boundary ownership QA PASS**;
 - dialogue index: **590 immutable records / COMPLETE-VERIFIED / QA PASS**;
 - character/entity index: **28 entities / 45/45 labels / 590/590 records / COMPLETE-VERIFIED / QA PASS**;
-- song/performance/authorship gate: **ready-next**;
-- English translation / reader / Reading Room: **not-started**.
+- song/performance/authorship gate: **6/6 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS; 1 source-attributed + 5 unresolved item-level authorships**;
+- English translation: **ready-next**; reader / Reading Room: **not-started**.
 
 Current transcription index: `transcription/index.json`  
 Completed batches: `transcription/parts/pdf-005-009.md`, `transcription/parts/pdf-010-014.md`, `transcription/parts/pdf-015-019.md`, `transcription/parts/pdf-020-024.md`, `transcription/parts/pdf-025-029.md`, `transcription/parts/pdf-030-034.md`, `transcription/parts/pdf-035-039.md`, `transcription/parts/pdf-040-044.md`, `transcription/parts/pdf-045-049.md`, `transcription/parts/pdf-050-054.md`, `transcription/parts/pdf-055-059.md`, `transcription/parts/pdf-060-064.md`, `transcription/parts/pdf-065-069.md`, `transcription/parts/pdf-070-071.md`  
@@ -46,7 +46,7 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - canonical scene-region / joined scene-span SHA-256: `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` / `787695af1e3d5c3dae28085b76558df9efae73fe239c39e802989442fa593146` — **MATCH**;
 - canonical Tamil changed by derivative generation: **0**.
 
-**Next:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
+**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
 
 ## Immutable dialogue checkpoint
 
@@ -59,7 +59,7 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - dialogue index: `dialogues/index.json`;
 - canonical Tamil / scene text modified by this phase: **0 / 0**.
 
-**Next:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
+**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
 
 ## Character/entity closure checkpoint
 
@@ -72,7 +72,19 @@ The rendered scan is the controlling textual authority. The source PDF itself is
 - QA: `notes/character-entity-qa.json` — **PASS**;
 - upstream text/dialogue modifications: **0**.
 
-**Next:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
+**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
+
+## Song / performance / authorship closure checkpoint
+
+- mapped source-visible performance structures: **6/6 retained**;
+- clearly bounded Tamil performance derivatives: **6**;
+- item-level authorship resolved from source: **1** — `ஆயிரம் தெய்வங்கள்` → `பாரதியார்` (PDF 4 credit; body PDF 16);
+- unresolved item-level authorship: **5**;
+- broad PDF 4 `கதை, வசனம், பாடல்... மு. கருணாநிதி` credit is preserved but not promoted to unsupported item-level attributions;
+- QA: `notes/song-performance-qa.json` — **PASS**;
+- upstream canonical / scene / dialogue / character modifications: **0 / 0 / 0 / 0**.
+
+**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
 
 ## Source-visible publication / credit evidence
 
@@ -148,7 +160,7 @@ Safeguards:
 - final audit: `notes/canonical-closure-user-manual.md`;
 - no downstream derivative reconciliation required because derivatives had not yet started.
 
-**Next:** Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings.
+**Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
 
 ## Song / verse / performance structures mapped or confirmed so far
 

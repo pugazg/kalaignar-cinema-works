@@ -309,8 +309,13 @@ historical_glyph:
       family: "ளை"
 
 mapped_source_visible_performance_structures:
-  status: verified-canonical-candidates-awaiting-song-gate
+  status: complete-verified-source-only
   high_confidence_blocks: 6
+  retained_records: 6
+  source_attributed_authorship_records: 1
+  unresolved_item_level_authorship_records: 5
+  index_path: "songs/index.json"
+  qa_path: "notes/song-performance-qa.json"
   pdf_65_69_new_performance_structures: 0
   pdf_70_71_new_performance_structures: 0
   pdf_35_39_new_performance_structures: 1
@@ -370,6 +375,12 @@ structured_derivatives:
   character_entity_label_coverage: "45/45"
   character_entity_record_coverage: "590/590"
   character_entity_qa_path: "notes/character-entity-qa.json"
+  song_performance_index: complete-verified-source-only
+  song_performance_index_path: "songs/index.json"
+  song_performance_record_count: 6
+  song_performance_authorship_resolved: 1
+  song_performance_authorship_unresolved: 5
+  song_performance_qa_path: "notes/song-performance-qa.json"
 
 status:
   duplicate_work_check: complete-no-existing-work
@@ -382,8 +393,8 @@ status:
   scene_derivatives: complete-verified-45-of-45
   dialogue_index: complete-verified-590-records
   character_entity_index: complete-verified-28-entities
-  song_authorship_gate: ready-next
-  english_translation: blocked-pending-structured-derivatives-and-song-gate
+  song_authorship_gate: complete-verified-source-only
+  english_translation: ready-next
   reader_export: not-started
   reading_room_integration: not-started
 
@@ -393,4 +404,4 @@ user_supplied_context: >-
   வர்க்கத்தினுடைய குரலை முதன்மைப்படுத்தியும் பகுத்தறிவுச் சிந்தனையைப்
   புகுத்தியும் எழுதப்பட்டது.
 
-next_action: "Begin Phase 8 song/performance/authorship gating from the six mapped source-visible performance structures. Preserve booklet wording, lineation, role cues and source-visible credits; adjudicate authorship only where explicit source evidence supports it. Keep PDF 16 `ஆயிரம் தெய்வங்கள்` credited to `பாரதியார்` despite the broad PDF 4 Kalaignar `பாடல்` credit, and do not infer authorship for the remaining blocks without source evidence. Run whole-work song/performance coverage QA before opening English translation. Do not rewrite canonical Tamil, scene text, immutable dialogue records, or character/entity mappings."
+next_action: "Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all six retained performance structures from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other five authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md` for performance units, run whole-work scene/unit/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers."
