@@ -8,15 +8,15 @@
   "screenplay_pdf_pages": "6-87",
   "screenplay_printed_pages": "5-86",
   "status": "in-progress-draft",
-  "first_pass_pages_completed": 5,
-  "first_pass_pdf_range_completed": "4-8",
-  "first_pass_current_through_pdf": 8,
-  "first_pass_current_through_printed": 7,
-  "draft_pages": 5,
+  "first_pass_pages_completed": 10,
+  "first_pass_pdf_range_completed": "4-13",
+  "first_pass_current_through_pdf": 13,
+  "first_pass_current_through_printed": 12,
+  "draft_pages": 10,
   "verified_pages": 0,
   "review_pages": 0,
   "open_uncertainty_markers": 0,
-  "historical_glyph_first_pass_checked_pages": 5,
+  "historical_glyph_first_pass_checked_pages": 10,
   "historical_glyph_final_verified_pages": 0,
   "page_records": [
     {
@@ -53,9 +53,44 @@
       "kind": "screenplay",
       "status": "draft",
       "path": "pages/008.md"
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/009.md"
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/010.md"
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/011.md"
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/012.md"
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "kind": "screenplay",
+      "status": "draft",
+      "path": "pages/013.md"
     }
   ],
   "batch_size_source_pages": 5,
-  "next_batch_pdf_pages": "9-13",
-  "next_action": "Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet."
+  "next_batch_pdf_pages": "14-18",
+  "next_action": "Continue canonical Tamil first-pass transcription with PDF 14–18 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet."
 }
