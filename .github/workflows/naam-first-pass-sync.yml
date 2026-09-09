@@ -125,7 +125,6 @@ jobs:
           assert idx['immutable_dialogue_links_verified']==590 and idx['source_unlabelled_speech_units_verified']==20
           assert idx['retained_performance_records_translated']==7 and idx['song_line_cue_mappings_verified']==138
           assert idx['whole_work_reconciliation_status']=='ready-next'
-          # All 590 immutable dialogue IDs now appear exactly once and in source order.
           linked_all=[]; src_all=[]
           for n in range(1,46):
               tr=json.load(open(f'works/naam/translations/records/scene-{n:03d}.json'))
@@ -160,7 +159,7 @@ jobs:
           for x in ['english_translation: scene-layer-complete-verified-45-of-45-whole-work-reconciliation-next','english_translation_verified_scenes: 45','english_translation_unit_count: 797','english_dialogue_links_verified: 590','english_performance_records_translated: 7','english_song_line_cue_mappings_verified: 138','english_whole_work_reconciliation: ready-next']:
               assert x in m
           assert 'English translation: **45/45 SCENE LAYER VERIFIED' in Path('works/naam/README.md').read_text(encoding='utf-8')
-          nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8'); assert '45/45 VERIFIED' in nxt and 'whole-work English reconciliation' in nxt
+          nxt=Path('works/naam/NEXT_CHAT_PROMPT.md').read_text(encoding='utf-8'); assert '45/45 VERIFIED' in nxt and 'Whole-work English reconciliation' in nxt
           assert 'English translation: **45/45 scene layer VERIFIED' in Path('README.md').read_text(encoding='utf-8')
           hand=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8'); audit=Path('docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
           assert 'Naam English scenes 36-45 current' in hand and 'Naam English scenes 36-45 current' in audit
