@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Decode without executing payload
+      - name: Recover partial payload without executing it
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -42,42 +42,43 @@ jobs:
           encoded = ''.join(parts)
           raw = base64.b85decode(encoded)
           assert raw.startswith(b'BZh9'), raw[:8]
-          decoded = bz2.decompress(raw)
-          text = decoded.decode('utf-8')
+          dec = bz2.BZ2Decompressor()
+          decoded = dec.decompress(raw)
+          text = decoded.decode('utf-8', errors='ignore')
+          recovered = text.encode('utf-8')
 
-          (root / 'decoded-payload.txt').write_text(text, encoding='utf-8')
+          (root / 'decoded-partial.txt').write_text(text, encoding='utf-8')
 
           manifest = {
               'encoding': 'python-base85',
               'compression': 'bzip2',
+              'stream_complete': dec.eof,
               'chunk_character_lengths': sizes,
               'encoded_character_length': len(encoded),
-              'compressed_byte_length': len(raw),
-              'decoded_byte_length': len(decoded),
-              'decoded_sha256': hashlib.sha256(decoded).hexdigest(),
-              'decoded_utf8': True,
-              'decoded_line_count': text.count('\n') + (1 if text else 0),
-              'decoded_prefix': text[:200],
+              'compressed_byte_length_available': len(raw),
+              'decoded_byte_length_recovered': len(decoded),
+              'decoded_utf8_byte_length_written': len(recovered),
+              'terminal_non_utf8_bytes_discarded': len(decoded) - len(recovered),
+              'decoded_partial_sha256': hashlib.sha256(recovered).hexdigest(),
+              'decoded_line_count_recovered': text.count('\n') + (1 if text else 0),
+              'decoded_prefix': text[:300],
+              'decoded_suffix': text[-300:],
           }
           try:
               obj = json.loads(text)
           except Exception:
-              manifest['json_valid'] = False
+              manifest['partial_text_is_complete_json'] = False
           else:
-              manifest['json_valid'] = True
+              manifest['partial_text_is_complete_json'] = True
               manifest['json_top_level_type'] = type(obj).__name__
-              if isinstance(obj, dict):
-                  manifest['json_keys'] = list(obj.keys())[:50]
-              elif isinstance(obj, list):
-                  manifest['json_item_count'] = len(obj)
           (root / 'decoded-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           print(json.dumps(manifest, ensure_ascii=False, indent=2))
           PY
 
-      - name: Commit decoded inspection artifacts
+      - name: Commit recovered inspection artifacts
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .github/data/vandikkaran-magan-firstpass/decoded-payload.txt .github/data/vandikkaran-magan-firstpass/decoded-manifest.json
-          git commit -m 'Decode Vandikkaran Magan staged first-pass candidates [skip ci]'
+          git add .github/data/vandikkaran-magan-firstpass/decoded-partial.txt .github/data/vandikkaran-magan-firstpass/decoded-manifest.json
+          git commit -m 'Recover Vandikkaran Magan staged first-pass partial payload [skip ci]'
           git push
