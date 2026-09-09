@@ -53,9 +53,9 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 observed headings**;
-- first-pass transcription: **IN PROGRESS — PDF 4–73 / 70 of 87 scoped source pages DRAFT**;
-- screenplay drafted through: **PDF 73 / printed 72**;
-- page states: **70 draft**;
+- first-pass transcription: **IN PROGRESS — PDF 4–78 / 75 of 87 scoped source pages DRAFT**;
+- screenplay drafted through: **PDF 78 / printed 77**;
+- page states: **75 draft**;
 - open first-pass uncertainty markers: **0 recorded**;
 - visual verification: **NOT-STARTED**;
 - historical-glyph verification: **NOT-STARTED** under the current user-directed phase order;
@@ -65,12 +65,12 @@ Do not start a later phase before the preceding phase reaches the end of the PDF
 
 ## Latest five-page batch
 
-- PDF **69–73 / printed 68–72** drafted;
-- scene `42-எ` continues on PDF 69;
-- scene starts encountered: `43`, `44`, `45-46`, `47`, `48`;
-- PDF 73 continues the source-visible child-celebration song from scene `48`;
+- PDF **74–78 / printed 73–77** drafted;
+- PDF 74 closes the source-visible child-celebration song from scene `48`;
+- scene starts encountered: `49`, `50`, `51`, `52`;
+- PDF 78 begins scene `52` / source-visible `ஜமீன் மாளிகை-கோகிலா அறை` / `இரவு` sequence;
 - all five records remain `draft` pending the later verification phases.
 
 ## Exact next activity
 
-> **Continue first-pass transcription with PDF 74–78 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**
+> **Continue first-pass transcription with PDF 79–83 (five source pages), keep all five page records draft, commit/push the five-page batch, and continue the same cycle toward PDF 90. Do not begin visual verification yet.**

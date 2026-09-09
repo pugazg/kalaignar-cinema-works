@@ -48,8 +48,8 @@ No global replacement; inspect source pixels occurrence by occurrence.
 
 - intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 70 headings**;
-- first-pass transcription: **PDF 4–73 / 70 of 87 scoped pages DRAFT**;
-- screenplay drafted through: **PDF 73 / printed 72**;
+- first-pass transcription: **PDF 4–78 / 75 of 87 scoped pages DRAFT**;
+- screenplay drafted through: **PDF 78 / printed 77**;
 - first-pass uncertainty markers: **0 recorded**;
 - visual verification: **0 pages / NOT-STARTED**;
 - historical-glyph verification: **0 pages / NOT-STARTED** under current phase order;
@@ -59,12 +59,12 @@ No global replacement; inspect source pixels occurrence by occurrence.
 
 ## Latest five-page batch
 
-- PDF **69–73 / printed 68–72** drafted and committed;
-- scene `42-எ` continues on PDF 69;
-- scene starts: `43`, `44`, `45-46`, `47`, `48`;
-- PDF 73 continues the source-visible child-celebration song from scene `48`;
+- PDF **74–78 / printed 73–77** drafted and committed;
+- PDF 74 closes the source-visible child-celebration song from scene `48`;
+- scene starts: `49`, `50`, `51`, `52`;
+- PDF 78 begins the source-visible `ஜமீன் மாளிகை-கோகிலா அறை` / `இரவு` sequence under scene `52`;
 - all five records remain `draft` pending the later verification phases.
 
 ## Exact next activity
 
-> **Transcribe PDF 74–78 directly from the controlling scan as one five-page first-pass batch; preserve visible text, page boundaries, scene headings, labels, directions and irregular forms; keep all records draft; commit/push the batch; then continue the same first-pass cycle toward PDF 90.**
+> **Transcribe PDF 79–83 directly from the controlling scan as one five-page first-pass batch; preserve visible text, page boundaries, scene headings, labels, directions and irregular forms; keep all records draft; commit/push the batch; then continue the same first-pass cycle toward PDF 90.**
