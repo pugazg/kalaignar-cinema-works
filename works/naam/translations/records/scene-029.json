@@ -1,0 +1,991 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s029",
+  "scene_ordinal": 29,
+  "source_scene_number": 29,
+  "scene_status": "verified",
+  "unit_count": 31,
+  "units": [
+    {
+      "id": "naam-en-s029-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Sanjeevi's house.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Didn't I send it to you because I thought you'd keep the will safe! Shouldn't you have gone to court with the will; instead you went to him and did my business? Yes... at least now have you kept the will safe?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Will... will... life...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes! Life indeed... where have you kept it;",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The will... it must have burned in the fire and turned to ash, doctor!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Look, son... you're lying even to me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கும",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Otherwise it must have fallen into Malayappan's hands.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Sanjeevi and Prema alone."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Sanjeevi and Prema are alone.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prema...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "From now on you must forget Kumaran.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, Appa...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Must I say it plainly? From now on he can't even set foot at the zamindar's doorstep! There's no use trusting him anymore! Forget him!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa... you give explanations for sin, don't you... I'm ready to commit as many such sins as needed! It is enough if I get him!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Angrily) Tch...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema leaves before the conscience block."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After Prema leaves.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s029-u001`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "“Prema... love... Prema must hate Kumaran! Meenu... must forget Kumaran. Where is he roaming around like a demon...”",
+        "mode": "prose-faithful",
+        "notes": [
+          "Printed as a quoted inner/conscience utterance without an explicit speaker label; metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s029-u018",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Source parenthetical identifying the preceding text as the physician's conscience."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(This is the physician's conscience.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s029-u002`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm... Prema...",
+        "mode": "prose-faithful",
+        "notes": [
+          "No source speaker label or delimiter is printed."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s029-u020",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema re-enters."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Prema enters.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s029-u003`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I spoke in anger...... I don't want to destroy the love you have for Kumaran! If you are to marry Kumaran, Meenu must forget Kumaran. Isn't that so...\n\nIf Kumaran and Meenu suddenly meet...?",
+        "mode": "prose-faithful",
+        "notes": [
+          "Context may suggest Sanjeevi, but the source prints no speaker label; no identity is manufactured."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s029-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Aren't we the ones who won't let him go outside...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We won't let him... if, despite us, they happen to meet... you must spread a false story for this.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Propaganda?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes! Say Kumaran has turned into a demon. That he roams as a ghost...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Will people believe it if we call a man a demon, Appa?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Many people in this world would have died merely seeing trees and plants move! Tell one woman that Kumaran has turned into a demon! That's enough—the whole world will know!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u028",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Internal scene change."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The scene changes.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u029",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Riverbank source location."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Riverbank.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": "naam-s029-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It came pitch-black, they say! Couldn't see its legs! The watchman shouted, they say! It flew like the wind!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s029-u031",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s029",
+      "scene_ordinal": 29,
+      "source_scene_number": 29,
+      "source": {
+        "source_path": "works/naam/scenes/scene-029.md",
+        "canonical_scene_path": "works/naam/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Women spread the ghost rumour."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(In this way the women spread the ghost publicity.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

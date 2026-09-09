@@ -2,7 +2,7 @@
 
 **Canonical authority:** 67/67 dual-gate verified Tamil, 45/45 verified source-numbered scenes, 590 immutable dialogue records, complete 28-entity character layer, and reconciled 7/7 source-visible song/performance records  
 **Target language:** English (`en`)  
-**Status:** **verified through source scene 25 / 45; 501 units**
+**Status:** **verified through source scene 35 / 45; 680 units**
 
 This is a source-linked English derivative. It does not repair, normalize, expand or overwrite the verified Tamil.
 
@@ -41,7 +41,7 @@ Detailed pilot decisions and integrity checks are in `PILOT_REVIEW.md`; machine-
 
 ## Next batch
 
-Translate and verify source-numbered scenes 26–35 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-004` in scene 31 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
+Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.
 
 ## Batch — source scenes 2–5
 
@@ -51,7 +51,7 @@ Cumulative English state is now **5/45 verified scenes / 131 units / 99 immutabl
 
 ## Next batch
 
-Translate and verify source-numbered scenes 26–35 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-004` in scene 31 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.
+Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.
 
 ## Verified batch — scenes 6–15
 
@@ -76,3 +76,14 @@ The continuing production cadence is **10 source scenes per iteration**.
 - upstream rewrites: **0**.
 
 Production cadence remains **10 source scenes per iteration**.
+
+## Verified batch — scenes 26–35
+
+- source scenes: **10 / scenes 26–35**;
+- units: **179**;
+- immutable dialogue links: **126/126**;
+- source-unlabelled speech: **9 / inferred speakers 0**;
+- performance occurrence: **1/1 — `naam-perf-004`**;
+- new song/performance mappings: **10**;
+- scene-local chant: **1 unit / 16 mappings / no song occurrence or authorship inference**;
+- upstream rewrites: **0**.

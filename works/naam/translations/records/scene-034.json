@@ -1,0 +1,752 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s034",
+  "scene_ordinal": 34,
+  "source_scene_number": 34,
+  "scene_status": "verified",
+  "unit_count": 19,
+  "units": [
+    {
+      "id": "naam-en-s034-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening night direction."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 56,
+            "printed_page": 56
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Night.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u002",
+      "kind": "chant",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-chant",
+          "ordinal": 1,
+          "description": "Unlabelled audit block `naam-s034-u001`; villagers/street-play chant."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 56,
+            "printed_page": 56
+          }
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "Villagers",
+          "Ha ha! Come, come......",
+          "O Vaibhoga Sundari......",
+          "Saibhoga Soundariye!",
+          "O Sairandhri... dear one... come...",
+          "You are the kichili fruit Kichaka desired...",
+          "You came like tuberculosis, yet you are medicine for love, girl...",
+          "Aanmagaa Mammudhaa, desire-struck Kichaka!",
+          "Kichaka! Kichaka!",
+          "Kichaka........... hey...",
+          "You monkey who came stiffly and",
+          "twirled your moustache! Big monkey!",
+          "With all eight directions trembling,",
+          "before Bhimasena whose war-drum thunders,",
+          "will you wag your tail...?",
+          "wag your tail...?"
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "role-cue",
+            "pdf_page": 56,
+            "tamil": "கிராம வாசிகள்",
+            "english": "Villagers"
+          },
+          {
+            "ordinal": 2,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "ஹா ஹா! வருவாய் வருவாய்......",
+            "english": "Ha ha! Come, come......"
+          },
+          {
+            "ordinal": 3,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "வைபோக சுந்தரியே......",
+            "english": "O Vaibhoga Sundari......"
+          },
+          {
+            "ordinal": 4,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "சைபோக செளந்தரியே!",
+            "english": "Saibhoga Soundariye!"
+          },
+          {
+            "ordinal": 5,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "சைரந்திரியே...கண்ணே...வருவாய்...",
+            "english": "O Sairandhri... dear one... come..."
+          },
+          {
+            "ordinal": 6,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "கீசகன் ஆசைகொண்ட கிச்சிலிப் பழமடி நீ...",
+            "english": "You are the kichili fruit Kichaka desired..."
+          },
+          {
+            "ordinal": 7,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "காச நோய்போல வந்து காதலுக்கு மருந்தடி நீ...",
+            "english": "You came like tuberculosis, yet you are medicine for love, girl..."
+          },
+          {
+            "ordinal": 8,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "ஆண்மகா மம்முதா ஆசைகொண்ட கீசகா!",
+            "english": "Aanmagaa Mammudhaa, desire-struck Kichaka!"
+          },
+          {
+            "ordinal": 9,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "கீசகா! கீசகா!",
+            "english": "Kichaka! Kichaka!"
+          },
+          {
+            "ordinal": 10,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "கீசகா...........டேய்...",
+            "english": "Kichaka........... hey..."
+          },
+          {
+            "ordinal": 11,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "இறுக்குத்தனமாய் வந்து மீசையை",
+            "english": "You monkey who came stiffly and"
+          },
+          {
+            "ordinal": 12,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "முறுக்கி விட்ட குரங்கே! பெரிய குரங்கே!",
+            "english": "twirled your moustache! Big monkey!"
+          },
+          {
+            "ordinal": 13,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "எட்டுத் திக்கும் நடுநடுங்க",
+            "english": "With all eight directions trembling,"
+          },
+          {
+            "ordinal": 14,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "முரசு கொட்டும் பீமசேனனிடம்",
+            "english": "before Bhimasena whose war-drum thunders,"
+          },
+          {
+            "ordinal": 15,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "வாலாட்டமா...?",
+            "english": "will you wag your tail...?"
+          },
+          {
+            "ordinal": 16,
+            "kind": "chant-line",
+            "pdf_page": 56,
+            "tamil": "வாலாட்டமா...?",
+            "english": "wag your tail...?"
+          }
+        ],
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "The processing guide requires chants to remain distinct from full songs and ordinary dialogue.",
+          "This scene-local street-play chant is not one of the seven retained song/performance occurrence records; no `naam-perf-*` ID or authorship claim is invented.",
+          "Names and difficult forms such as `வைபோக`, `சைபோக`, and `ஆண்மகா மம்முதா` are kept by conservative transliteration rather than Tamil repair."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s034-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Street-play interruption and Mathirai's realization."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 56,
+            "printed_page": 56
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(While the street play is going on, Kumaran arrives. The people see his terrible face and run in fear. Mathirai's wife is among them! Kumaran asks Mathirai to come treat him. Mathirai refuses; Kumaran carries Mathirai away. Finally Mathirai realizes Kumaran is human and runs to the people.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Temple puja."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 56,
+            "printed_page": 56
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Puja is going on in the temple.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 56,
+            "printed_page": 56
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey...... fools! Who is the demon?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஒருவன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 56,
+            "printed_page": 56
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This fellow is the demon!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't let him go!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is a demon enslaved to the zamindari! This is a demon (the priest) that deceives the people! Bigger than both is the zamindar demon!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't believe his talk!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Believe his talk! The village will prosper! Kumaran isn't a demon ..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜீவானந்தர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mathirai! What's this quarrel? You prove it yourself.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This man too... neither one thing nor the other. I'll prove it now, watch. (goes)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அண்ணுமலை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He's run away...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran appears before the crowd."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran arrives; many are afraid.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": "naam-s034-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 57,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why are you afraid? I am not a ghost! There is no such thing as a ghost! The traits attributed to ghosts roam only in human society! We who lived on a land where warriors moved... we who lived on the soil of rational thinkers... are we to become slaves to mere imaginary tales—to fabricated stories spun by mischief-makers? Lose our reason? Sacrifice our manhood? The one who betrayed his people for spittle-money is a ghost! The hypocrite who made his own life a pleasure-garden is a ghost! The one who lives by cheating and exploiting is a ghost! Friends... think.... Am I the ghost? Is there not even one brave person among you?",
+        "mode": "prose-faithful",
+        "notes": [
+          "`எச்சில் பணம்` is kept close as `spittle-money` to retain the source insult instead of silently substituting a modern political term."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s034-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "A child approaches Kumaran."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A small boy goes up to Kumaran.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s034-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s034-u002`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We are cowards even compared with children! The loyal blood that should run in youth! Heroic blood is being sacrificed! By what? By the ghost called superstition.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The sentence continues Kumaran's argument contextually but has no repeated printed speaker label; metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s034-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s034",
+      "scene_ordinal": 34,
+      "source_scene_number": 34,
+      "source": {
+        "source_path": "works/naam/scenes/scene-034.md",
+        "canonical_scene_path": "works/naam/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Crowd cheers Kumaran."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A cry of “Long live Kumaran” rises from the crowd.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

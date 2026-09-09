@@ -1,0 +1,1207 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s031",
+  "scene_ordinal": 31,
+  "source_scene_number": 31,
+  "scene_status": "verified",
+  "unit_count": 36,
+  "units": [
+    {
+      "id": "naam-en-s031-u001",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/scenes/scene-031.md",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-004",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 1,
+          "description": "Source-visible cue for `naam-perf-004`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu is singing.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level authorship remains unresolved."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s031-u002",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/songs/records/naam-perf-004.md",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": "naam-perf-004",
+        "source_locator": {
+          "kind": "retained-performance-record",
+          "ordinal": 1,
+          "description": "Full source-visible scene-31 lyrical body."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          },
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "O speaking yaazh, doe-eyed maiden,",
+          "You alone are the breeze that blows.",
+          "Shall I never again hear a song like this.... (spoken)",
+          "In the thalaa fire-whirl,",
+          "did you wake alone?",
+          "I became a yaazh that plays irredeemable sorrow.",
+          "We lived by undying love—love... (spoken)",
+          "As a desolate ghost upon this earth, is it not...",
+          "I became a page inscribed with endless sorrow.",
+          "Have you forgotten that answering affection, beloved.... (spoken)"
+        ],
+        "line_map": [
+          {
+            "ordinal": 1,
+            "kind": "lyric-line",
+            "pdf_page": 49,
+            "tamil": "பேசும் யாழே பெண் மானே",
+            "english": "O speaking yaazh, doe-eyed maiden,"
+          },
+          {
+            "ordinal": 2,
+            "kind": "lyric-line",
+            "pdf_page": 49,
+            "tamil": "வீசும் தென்றல் நீ தானே",
+            "english": "You alone are the breeze that blows."
+          },
+          {
+            "ordinal": 3,
+            "kind": "lyric-line",
+            "pdf_page": 49,
+            "tamil": "கேளேனோ இனிமேல் இதுபோல் கீதம்.... (பேசும்)",
+            "english": "Shall I never again hear a song like this.... (spoken)"
+          },
+          {
+            "ordinal": 4,
+            "kind": "lyric-line",
+            "pdf_page": 49,
+            "tamil": "தளா தீச்சுழலில்",
+            "english": "In the thalaa fire-whirl,"
+          },
+          {
+            "ordinal": 5,
+            "kind": "lyric-line",
+            "pdf_page": 50,
+            "tamil": "தனியாய் விழித்தீரோ",
+            "english": "did you wake alone?"
+          },
+          {
+            "ordinal": 6,
+            "kind": "lyric-line",
+            "pdf_page": 50,
+            "tamil": "மீளாசோகம் மீட்டிடும் யாழானேன்",
+            "english": "I became a yaazh that plays irredeemable sorrow."
+          },
+          {
+            "ordinal": 7,
+            "kind": "lyric-line",
+            "pdf_page": 50,
+            "tamil": "மாளா காதலினால் வாழ்ந்தோமே காதல்...        (பேசும்)",
+            "english": "We lived by undying love—love... (spoken)"
+          },
+          {
+            "ordinal": 8,
+            "kind": "lyric-line",
+            "pdf_page": 50,
+            "tamil": "பாழும் பேயாக பாரினில் அல்லவோ",
+            "english": "As a desolate ghost upon this earth, is it not..."
+          },
+          {
+            "ordinal": 9,
+            "kind": "lyric-line",
+            "pdf_page": 50,
+            "tamil": "தீரா துன்பம் தீட்டிய ஏடானேன்",
+            "english": "I became a page inscribed with endless sorrow."
+          },
+          {
+            "ordinal": 10,
+            "kind": "lyric-line",
+            "pdf_page": 50,
+            "tamil": "மாறு பாசமதனை மறந்தீரோ நேசம்....        (பேசும்)",
+            "english": "Have you forgotten that answering affection, beloved.... (spoken)"
+          }
+        ],
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Translated only from the source-visible Tamil retained in `naam-perf-004`.",
+          "Item-level authorship remains unresolved; the broad PDF-4 credit is not promoted.",
+          "The difficult verified source form `தளா` is retained by transliteration as `thalaa` rather than silently repaired.",
+          "Embedded `(பேசும்)` cues are retained as `(spoken)` inside the corresponding mapped lyric lines."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s031-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu... Meenu ..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who is it...? Kumaran...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/scenes/scene-031.md",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu faints; Mallayappan arrives; Kumaran hides."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu sees Kumaran's terrible face and faints—Mallayappan arrives. Kumaran stands hidden behind a screen.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After examining Meenu's hand) That's right...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is right...?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Nothing... it's been a long time since this mansion heard a baby's prattle...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்லயப்பன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meaning?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Showing little eyes—smiling a tiny smile—dispelling loneliness—speaking Tamil, crawling and playing, a grandson... or granddaughter... is going to be born to you... Meenu... is with child...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The verified source form around `மீனு...கொப்பம்...` is irregular; English gives only the immediate pregnancy sense without repairing Tamil."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s031-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You wretch...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஞானம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh God...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It's all his doing.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Chandali! Emblem of disgrace... you have brought scandal to me, who lived with the townspeople bowing before me. Even if I cut you limb from limb, my rage won't cool.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why... are you trembling? What has happened now?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What else need happen? People of every kind lived bowing to me saying ‘Master, namaskaram’... and you have brought me disgrace... harlot!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm not a harlot! I embraced a dream through a man I loved properly. I am growing in my womb the diamond statue he gave me.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Lover... husband... Meenu...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Raging zamindar... I know to whom the throne on which you sit laughing belongs.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I know too, girl.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You became zamindar through a villain's blindfold trick!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All your lover's plans have shattered—gone to embers.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not to embers—only a dream! That will still hasn't turned to ash!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலைய",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It hasn't turned to ash? Where is it? Give it...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "‘That will still hasn't turned to ash.’ Hmm... come here...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u026",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/scenes/scene-031.md",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Sanjeevi and Mallayappan confer alone."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Sanjeevi and Mallayappan are alone.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What benefit is there to you in killing Meenu? You can go to jail, that's all!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How do I wipe away this disgrace?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Honour? Disgrace? Do as I tell you...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell me, I'm listening...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell Meenu that Malayangala is the right place for childbirth—and take her to Malayangala! As soon as the baby is born, kill the baby.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u032",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/scenes/scene-031.md",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran overhears the plan."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran hears this.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kill the baby?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Listen and act according to my plan! Once the baby is killed, there'll be no worry.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u035",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They say she has the will...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s031-u036",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s031",
+      "scene_ordinal": 31,
+      "source_scene_number": 31,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/naam/scenes/scene-031.md",
+        "source_record_id": "naam-s031-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "She's only saying that... Even if she does, without Kumaran what can she do with it? Do it without fear! I am here.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

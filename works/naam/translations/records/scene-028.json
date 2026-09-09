@@ -1,0 +1,109 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s028",
+  "scene_ordinal": 28,
+  "source_scene_number": 28,
+  "scene_status": "verified",
+  "unit_count": 3,
+  "units": [
+    {
+      "id": "naam-en-s028-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s028",
+      "scene_ordinal": 28,
+      "source_scene_number": 28,
+      "source": {
+        "source_path": "works/naam/scenes/scene-028.md",
+        "canonical_scene_path": "works/naam/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location parenthetical."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Location: Kumaran's burned-to-ashes hut.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s028-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s028",
+      "scene_ordinal": 28,
+      "source_scene_number": 28,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/naam/scenes/scene-028.md",
+        "source_record_id": "naam-s028-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How did you kill his life? Ruinous fire... sacrificial fire... couldn't you at least have shown his charred corpse to my eyes? Was that much your hunger? Aunt... your beloved son is gone... he will never return, Aunt... (she cries)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s028-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s028",
+      "scene_ordinal": 28,
+      "source_scene_number": 28,
+      "source": {
+        "source_path": "works/naam/scenes/scene-028.md",
+        "canonical_scene_path": "works/naam/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu finds the will."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 45
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(At this moment Meenu picks up the will lying on the ground.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

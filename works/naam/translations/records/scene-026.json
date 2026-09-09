@@ -1,0 +1,75 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s026",
+  "scene_ordinal": 26,
+  "source_scene_number": 26,
+  "scene_status": "verified",
+  "unit_count": 2,
+  "units": [
+    {
+      "id": "naam-en-s026-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s026",
+      "scene_ordinal": 26,
+      "source_scene_number": 26,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/naam/scenes/scene-026.md",
+        "source_record_id": "naam-s026-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மலையப்பர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Gnanam! Gnanam! Did you hear the happy news? Kumaran is finished... burned with his house and reduced to ashes.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s026-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s026",
+      "scene_ordinal": 26,
+      "source_scene_number": 26,
+      "source": {
+        "source_path": "works/naam/scenes/scene-026.md",
+        "canonical_scene_path": "works/naam/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu faints after hearing Kumaran is said to be dead."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(On hearing this, Meenu faints.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

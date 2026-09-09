@@ -1,0 +1,761 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s027",
+  "scene_ordinal": 27,
+  "source_scene_number": 27,
+  "scene_status": "verified",
+  "unit_count": 24,
+  "units": [
+    {
+      "id": "naam-en-s027-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/scenes/scene-027.md",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location line."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Location: Sanjeevi's house.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Meenu... Meenu... Meenu...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm...... you told tales of love, love... what will you do now? There—whose love song is that we hear?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa... what I did was wrong... forgive me, Appa...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't cry, Prema... I struggled only because I wanted you to be happy.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa... will he survive?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Looking at you only makes me laugh.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Looking at him makes me feel pity.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Pity! If they had looked at pity, many frogs could never have seen mansions and lofty towers! Look at Malayappan! How did he get this luxuriant life? Because he never even thought of pity! Defeat is the first step laid toward victory! If you are to get Kumaran, Kumaran must forget Meenu. Meenu thinks Kumaran is dead.... We must not let Kumaran outside! No one else must know Kumaran is alive! Understand? At least in this, be careful!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`மண்டூகங்கள்` is retained as the source's frog image rather than replacing the satire with a smoother abstraction."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s027-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/scenes/scene-027.md",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Mathirai knocks."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Mathirai knocks on the door.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/scenes/scene-027.md",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s027-u001`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There... looks like Mathirai is the one coming! Stay right here!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label or delimiter; no speaker identity is assigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s027-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/scenes/scene-027.md",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Sanjeevi opens the door."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Opening the door.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/scenes/scene-027.md",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s027-u002`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey! Mathirai... from today, don't come to work!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label or delimiter; no speaker identity is assigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s027-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyayyo...... what will happen to the puppy, sir?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm telling you firmly... don't come to work anymore.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The puppy will die, sir.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go away properly!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If the puppy has to go, you must give one month's notice, sir!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Say you don't like me! Don't say you don't trust me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Say you don't like me! Don't say you don't trust me! Did I give cholera medicine to a fever patient? Did I give diarrhoea medicine to a cholera patient? I know my work too! I'll start a rival hospital! Not one patient will come to you! You'll have to become the patient yourself! Doctor Sanjeevi, look forward soon to Mathirai Progressive Hospital!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u022",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/scenes/scene-027.md",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Mathirai leaves."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Mathirai leaves.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரே",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Poor Mathirai, Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s027-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s027",
+      "scene_ordinal": 27,
+      "source_scene_number": 27,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-027.json",
+        "canonical_scene_path": "works/naam/scenes/scene-027.md",
+        "source_record_id": "naam-s027-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I already told you about pity... Even Mathirai must not know Kumaran is alive! Now think... how completely one must forget pity!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

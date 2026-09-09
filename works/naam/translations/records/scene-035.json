@@ -1,0 +1,169 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s035",
+  "scene_ordinal": 35,
+  "source_scene_number": 35,
+  "scene_status": "verified",
+  "unit_count": 5,
+  "units": [
+    {
+      "id": "naam-en-s035-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s035",
+      "scene_ordinal": 35,
+      "source_scene_number": 35,
+      "source": {
+        "source_path": "works/naam/scenes/scene-035.md",
+        "canonical_scene_path": "works/naam/scenes/scene-035.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Mathirai plays with Kumaran's child."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Mathirai cuddles Kumaran's child.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s035-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s035",
+      "scene_ordinal": 35,
+      "source_scene_number": 35,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-035.json",
+        "canonical_scene_path": "works/naam/scenes/scene-035.md",
+        "source_record_id": "naam-s035-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why... Kumara, you look troubled... won't you tell me? If you don't, I'll start spreading ghost stories again.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s035-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s035",
+      "scene_ordinal": 35,
+      "source_scene_number": 35,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-035.json",
+        "canonical_scene_path": "works/naam/scenes/scene-035.md",
+        "source_record_id": "naam-s035-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Will they believe it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s035-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s035",
+      "scene_ordinal": 35,
+      "source_scene_number": 35,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-035.json",
+        "canonical_scene_path": "works/naam/scenes/scene-035.md",
+        "source_record_id": "naam-s035-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மாத்திரை",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "These people will believe anything, man! Even such a great Ramalinga Swami said—there are no ghosts, demons.... did they listen?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s035-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s035",
+      "scene_ordinal": 35,
+      "source_scene_number": 35,
+      "source": {
+        "source_path": "works/naam/scenes/scene-035.md",
+        "canonical_scene_path": "works/naam/scenes/scene-035.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema returns after recognizing her wrongdoing."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(At that moment Prema comes to Kumaran, realizing her wrongdoing—and she is raising the child.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

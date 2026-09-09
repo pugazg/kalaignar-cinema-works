@@ -375,3 +375,19 @@ A whole-work marker sweep before Phase 9 scanned all 45 scene derivatives and fo
 ## Current exact next activity
 
 > **Translate and verify source-numbered scenes 26–35 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units and stage/narrative ownership; translate only source-visible performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-004` in scene 31 with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; only a final remainder may contain fewer scenes.**
+
+
+## English scenes 26–35 closure checkpoint
+
+- cumulative verified English scenes: **35/45**;
+- cumulative units: **680**;
+- immutable dialogue links: **506**;
+- source-unlabelled speech retained: **19 / inferred labels 0**;
+- performance records translated: **5/7**;
+- performance line/cue mappings: **84**;
+- source-local chant: **1 / 16 mappings**, no song/performance ID or authorship inference;
+- upstream source-layer changes caused by English: **0**.
+
+## Current exact next activity
+
+> **Translate and verify source-numbered scenes 36–45 as the next 10-scene English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; preserve source order, page provenance, cross-page units, chants and stage/narrative ownership; translate only source-visible song/performance text authorized by the reconciled seven-record song/performance layer, including `naam-perf-005` in/after scene 36 and `naam-perf-006` in scene 39, both with unresolved item-level authorship; do not alter closed Tamil or structured source layers. Continue with 10 source scenes per iteration; this is the final 10-scene translation batch.**

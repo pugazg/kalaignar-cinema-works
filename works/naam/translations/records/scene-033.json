@@ -1,0 +1,795 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s033",
+  "scene_ordinal": 33,
+  "source_scene_number": 33,
+  "scene_status": "verified",
+  "unit_count": 25,
+  "units": [
+    {
+      "id": "naam-en-s033-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location parenthetical."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Location: Malayangala.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Doctor! I hope coming to this Malayangala isn't some trick to kill the baby...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Shiva, Shiva! Infanticide... saving lives is my profession... would I even think of that destructive deed?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother won't agree to raise the child!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Here... I am here... Prema is here! Like a child born to me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Whatever... this child is Kumaran's child! Kumaran wasn't blessed to see it......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... he is the ghost, isn't he... that will? Shouldn't someone keep it safely?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is safe, doctor!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Here......! (she gives the will)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... you've brought it in your hand at a time of childbirth; if it falls into your brother's hands it'll be dangerous!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Meenu hands over the will."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu gives the will to the physician.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm! No... you keep it safely yourself! Yes... if it is in my medicine box, no one will ever look!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Sanjeevi secures the will by deception."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The physician speaks cunningly and gets the will from Meenu.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Time passes."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Many days pass.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Birth, rescue of the child, Meenu's departure and attempted suicide."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Meenu gives birth to a child. But the child is not killed according to the physician's plan. Kumaran carries the child away. Heartbroken, Meenu leaves Malayangala bungalow. As she is about to fall into a well and kill herself, a thief arrives.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "திருடன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... stop.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who are you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "திருடன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who? You're going to throw this beautiful body into a well and die... don't you have any sense...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sir... I can't speak!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "திருடன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't speak! Come with me! Don't you trust me? Look at this!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u022",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "The thief displays stolen jewels."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(He shows the jewels he has stolen.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s033-u001`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'll heap all of it into your lap and around your neck and make you a queen... come with me...... we can live like a princess...",
+        "mode": "prose-faithful",
+        "notes": [
+          "Context points to the thief, but the source prints no explicit speaker label; metadata stays unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s033-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-033.json",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": "naam-s033-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மீனு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... let go of me... I'm determined to die.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s033-u025",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s033",
+      "scene_ordinal": 33,
+      "source_scene_number": 33,
+      "source": {
+        "source_path": "works/naam/scenes/scene-033.md",
+        "canonical_scene_path": "works/naam/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "The thief flees and Meenu is arrested with the jewels."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 55
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The thief pressures Meenu to come with him. She refuses. When a police party arrives between them, the thief drops the jewels and runs away. Meenu is made into the thief and dragged away by the police.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

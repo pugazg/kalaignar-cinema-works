@@ -1,0 +1,693 @@
+{
+  "work_id": "naam",
+  "target_language": "en",
+  "scene_id": "naam-s030",
+  "scene_ordinal": 30,
+  "source_scene_number": 30,
+  "scene_status": "verified",
+  "unit_count": 21,
+  "units": [
+    {
+      "id": "naam-en-s030-u001",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-location",
+          "ordinal": 1,
+          "description": "Source location parenthetical."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Location: the physician's house.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How did this happen?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "வந்தவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He suddenly got impatient and loosened the bandage.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Apply this black ointment! Go... go... even after the wound heals, disfigurement is disfigurement.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`கருப்பை` is rendered conservatively as a black ointment/medicine from the immediate wound-treatment context; Tamil is unchanged."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s030-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Visitor leaves and Sanjeevi thinks."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(After the visitor leaves, Sanjeevi thinks.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s030-u001`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "“How did the wound happen...?”\n\n“He got impatient and loosened the bandage.”",
+        "mode": "prose-faithful",
+        "notes": [
+          "Two quoted remembered lines are preserved together exactly as the unlabelled-block audit groups them; no speaker labels are inferred."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s030-u007",
+      "kind": "narrative",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-narrative",
+          "ordinal": 1,
+          "description": "Source parenthetical decision."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The physician decides to remove the bandages placed on Kumaran.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumara, get up...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, doctor...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How many days can you suffer like this? I'm going to remove the bandages.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Bandages removed before the wound heals."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(He removes them. As he does, the wound has not healed, and Kumaran cries out, unable to bear the pain.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(With delight) I won't forget your help, doctor...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran sees the burned face in a mirror."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran sees his burned face in a mirror. He screams like a man possessed. Kumaran's face is more terrifying than a tiger's face.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo... ayyo...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சஞ்சீவி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kumaran! Don't panic...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "குமரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 48
+          },
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Chandala... you've conspired and made me a terrifying man... disfigurement... utter disfigurement... Look at my face! Sinner, I can't even bear to look at myself... why did you torture me? Tell me, cheat... you saw my face before... now look, wretch... why did you have this wicked thought? You are crueler than that fire! Where is my eye? Where is my eye? A milk-soft face... blood runs down that milk-soft face... a face more terrible than a leprosy patient's. You people cannot bear even to look at a crushed flower... who will look at a face charred, flesh torn and hanging in strips? Heartless man... merciless murderer... you could have strangled my throat and killed me... Amma... Amma... look at your Kumaran; look at the cheek you kissed... Amma",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's harsh self-description, leprosy comparison and repeated bodily imagery are translated directly rather than softened."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s030-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Prema enters."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Prema enters.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": "naam-s030-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பிரேமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah... Kumaran... what happened? Let me see your face.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran reveals the face to Prema."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Kumaran shows his face. Prema is shocked.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "naam-en-s030-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 1,
+          "description": "Unlabelled block `naam-s030-u002`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prema... look how beautiful your father has made me! Do you love me now? You spun stories about love, love!... you fell at my feet and wailed! Do you love me now? Will you kiss my face? Will you embrace and delight in this wreck? Love me! Love me! The bridegroom asks—do you like your groom? Prema... you won't want me now... you loved only beauty! There is one woman who loves my heart! She is my... Meenu... Meenu... Meenu!",
+        "mode": "prose-faithful",
+        "notes": [
+          "Although the surrounding action identifies Kumaran contextually, the printed block has no explicit dialogue label; metadata remains unassigned."
+        ]
+      }
+    },
+    {
+      "id": "naam-en-s030-u021",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "naam-s030",
+      "scene_ordinal": 30,
+      "source_scene_number": 30,
+      "source": {
+        "source_path": "works/naam/scenes/scene-030.md",
+        "canonical_scene_path": "works/naam/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Kumaran exits shouting for Meenu."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 49,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Crying “Meenu... Meenu...,” Kumaran leaves the physician's house.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
