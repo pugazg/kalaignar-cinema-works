@@ -1,0 +1,19 @@
+{
+  "encoding": "python-base85",
+  "compression": "bzip2",
+  "stream_complete": false,
+  "chunk_character_lengths": {
+    "chunk-01.txt": 9200,
+    "chunk-02.txt": 9200
+  },
+  "encoded_character_length": 18400,
+  "compressed_byte_length_available": 14720,
+  "decoded_byte_length_recovered": 0,
+  "decoded_utf8_byte_length_written": 0,
+  "terminal_non_utf8_bytes_discarded": 0,
+  "decoded_partial_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "decoded_line_count_recovered": 0,
+  "decoded_prefix": "",
+  "decoded_suffix": "",
+  "partial_text_is_complete_json": false
+}
