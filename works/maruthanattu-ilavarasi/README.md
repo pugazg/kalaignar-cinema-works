@@ -1,0 +1,43 @@
+# மருதநாட்டு இளவரசி
+
+Source-led archival workspace for the scanned **`மருதநாட்டு இளவரசி`** திரை வசனம் booklet.
+
+## Source authority
+
+Controlling source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. The uploaded scan is canonical authority and is not committed to the repository.
+
+Visible source evidence:
+
+- title: **`மருதநாட்டு இளவரசி`**;
+- recurring body header: **`மருதநாட்டு இளவரசி—திரை வசனம்`**;
+- printed credit on PDF 2: **`வசனம் : மு. கருணாநிதி.`**;
+- cover imprint/issuing line: **`வியந்தமிழ்ப் பாசறை, கோவில்பட்டி.`**;
+- cover price: **`விலை அணா 3.`**;
+- explicit edition statement: **not observed**;
+- explicit publication year: **not observed**.
+
+Library/user ownership stamps, handwriting and later marginal marks are non-source and must not enter canonical transcription.
+
+## Intake / mapping checkpoint
+
+- source intake: **COMPLETE**;
+- structural mapping: **COMPLETE-VERIFIED**;
+- PDF 1: cover, no printed page number;
+- PDF 2–22: main திரை வசனம் body;
+- visible printed numerals: **2–21 on PDF 3–22**;
+- logical body pagination: **PDF 2–22 ↔ printed 1–21**, with logical `printed = PDF - 1`; PDF 2's numeral `1` is not visibly printed and is recorded only as the logical continuation of the uninterrupted sequence;
+- source-numbered headings observed: **8** — `காட்சி 2.`, `காட்சி 3.`, `காட்சி 4.`, `காட்சி 5.`, `காட்சி 6.`, `காட்சி 8.`, `காட்சி 9.`, `காட்சி 10.`;
+- no printed `காட்சி 1.` heading is visible before `காட்சி 2.`; PDF 2–4 therefore remains an **unnumbered opening source segment**, not an inferred scene 1;
+- printed scene-number gap: **`காட்சி 7.` not observed**; do not repair or renumber it;
+- scene 8 carries **`(ராஜ தர்பார்)`**;
+- scene 10 carries **`பலி பீடம்.`**;
+- PDF 4 contains a printed `* * *` structural separator;
+- PDF 22 ends with **`நலம்!`** and a decorative star; no separate back-cover scan follows;
+- no clearly bounded song/lyric/chant block was observed during the full-scan structural pass;
+- historical Tamil typeforms are present and the historical-glyph gate is mandatory.
+
+Canonical Tamil transcription has **not started**. No structured derivative layer is authorized yet.
+
+## Exact next activity
+
+> **Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.**

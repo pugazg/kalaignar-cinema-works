@@ -22,6 +22,21 @@ Read `docs/CINEMA_WORKS_PROCESSING_GUIDE.md`, `docs/HISTORICAL_TAMIL_GLYPH_TRANS
 
 The preferred public reading destination is the **Kalaignar Digital Library / Reading Room at `https://nenjukkuneethi.org/read`**. Preserve each source's natural structure; do not force non-screenplay booklets into screenplay scenes.
 
+## மருதநாட்டு இளவரசி status
+
+`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` is a newly initialized **22-page image-only திரை வசனம் source** with source intake and structural mapping complete-verified.
+
+- printed credit: **`வசனம் : மு. கருணாநிதி.`**;
+- cover imprint: **`வியந்தமிழ்ப் பாசறை, கோவில்பட்டி.`**; price **`விலை அணா 3.`**;
+- explicit edition/year: **not observed / not observed**;
+- body: **PDF 2–22 / logical printed 1–21**; visible numerals 2–21 on PDF 3–22;
+- opening PDF 2–4 remains **unnumbered**; no source `காட்சி 1.` heading is invented;
+- numbered headings observed: **8 — 2,3,4,5,6,8,9,10**; source `காட்சி 7.` not observed;
+- historical Tamil glyph gate: **required**;
+- canonical Tamil: **NOT STARTED**; later derivatives **BLOCKED**.
+
+**Next:** Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.
+
 ## வண்டிக்காரன் மகன் status
 
 `TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is now a **complete-verified Tamil + structured + English reader + Reading Room payload archival work**.

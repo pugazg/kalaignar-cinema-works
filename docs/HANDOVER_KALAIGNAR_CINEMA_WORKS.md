@@ -135,6 +135,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
 - **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45**; dialogues **590**; characters **28 / 45/45 / 590/590**; song/performance gate **7/7 reconciled**; English **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated**.
 - **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; scenes **72/72**; dialogues **773 / 38 labels / reconciled QA PASS**; characters **32 / 38/38 / 773/773**; song/performance **9/9 source-only QA PASS**; English **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 source-unlabelled / 58 cross-page / 9/9 performance identities**; reader/export **QA PASS**; Reading Room payload **QA PASS — 1,610,402 bytes / `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**; site not applied.
+- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — source intake **COMPLETE**, structural mapping **COMPLETE-VERIFIED**; 22-page image-only booklet / body PDF 2–22; printed credit `வசனம் : மு. கருணாநிதி.`; observed source headings 2,3,4,5,6,8,9,10 with unnumbered opening PDF 2–4 and missing source heading 7; canonical Tamil not started; historical-glyph gate required.
 
 Ammayappan and Naam remain closed at their recorded checkpoints. **Vandikkaran Magan now has no required repository-internal production phase remaining: source/Tamil, structured derivatives, English translation, deterministic reader/export and source-linked Reading Room payload are complete-verified / QA PASS. The separate Reading Room site remains not-applied and requires explicit authorization before modification.**
 
@@ -304,3 +305,24 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 - derivatives: **blocked**.
 
 **Exact next activity:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.
+
+
+---
+
+## 11. மருதநாட்டு இளவரசி active checkpoint
+
+Work: `works/maruthanattu-ilavarasi/`
+Source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf`
+
+- intake: **COMPLETE**;
+- mapping: **COMPLETE-VERIFIED**;
+- source: **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**;
+- body: **PDF 2–22 / logical printed 1–21**;
+- printed credit: **`வசனம் : மு. கருணாநிதி.`**;
+- source headings: **2,3,4,5,6,8,9,10**;
+- opening PDF 2–4 unnumbered; `காட்சி 7.` not observed;
+- historical-glyph gate: **required**;
+- canonical Tamil: **NOT STARTED**;
+- later derivatives: **BLOCKED**.
+
+**Exact next activity:** Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.

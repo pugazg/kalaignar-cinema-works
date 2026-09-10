@@ -6,7 +6,7 @@ Branch: `main`
 
 ## Scope
 
-This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **nine registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
+This audit reconciles current repository-wide status mirrors with the authoritative work checkpoints for all **ten registered works**. `data/works.json`, root README, project handover and active work-local metadata/handovers must agree before a major phase is considered closed.
 
 ## Result
 
@@ -26,6 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
+| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **intake + mapping complete-verified; canonical Tamil not started** | headings **2,3,4,5,6,8,9,10**; opening unnumbered; scene 7 absent | not-started | not-started |
 | Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **reader/export + Reading Room payload QA PASS; site not applied** |
 
 ## Vandikkaran Magan current checkpoint
@@ -147,3 +148,18 @@ A major phase is not complete while an active current-status document still adve
 ## Conclusion
 
 Vandikkaran Magan repository-internal production is closed through Reading Room payload QA PASS; separate-site application remains not-applied and requires explicit authorization.
+
+
+## Maruthanattu Ilavarasi current checkpoint
+
+- source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**;
+- source intake / structural mapping: **COMPLETE / COMPLETE-VERIFIED**;
+- body: **PDF 2–22 / logical printed 1–21**; visible printed numerals 2–21;
+- credit: **`வசனம் : மு. கருணாநிதி.`**;
+- observed numbered scene headings: **8 — 2,3,4,5,6,8,9,10**;
+- PDF 2–4 unnumbered opening; no synthetic scene 1; source `காட்சி 7.` not observed;
+- historical-glyph workflow: **required**;
+- canonical Tamil / visual fidelity / final glyph audit: **NOT STARTED / NOT STARTED / NOT STARTED**;
+- later derivatives: **BLOCKED**.
+
+**Next production phase:** Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.

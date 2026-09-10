@@ -1243,5 +1243,57 @@
     "total_verified_pages": 87,
     "total_review_pages": 0,
     "tamil_transcription_through_printed_page": 86
+  },
+  {
+    "id": "maruthanattu-ilavarasi",
+    "title_ta": "மருதநாட்டு இளவரசி",
+    "source_title_ta": "மருதநாட்டு இளவரசி",
+    "work_type": "film",
+    "source_type": "printed_screenplay_dialogue_booklet",
+    "source_identifier": "TVA_BOK_0065774",
+    "source_pdf_pages": 22,
+    "source_byte_size": 9330870,
+    "source_sha256": "8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f",
+    "credit_as_printed": "வசனம் : மு. கருணாநிதி.",
+    "cover_imprint_as_printed": "வியந்தமிழ்ப் பாசறை, கோவில்பட்டி.",
+    "cover_price_as_printed": "விலை அணா 3.",
+    "publication_year_as_printed": null,
+    "edition_statement_as_printed": null,
+    "cover_pdf_pages": "1",
+    "main_text_pdf_pages": "2-22",
+    "main_text_logical_printed_pages": "1-21",
+    "visible_printed_page_numbers": "2-21",
+    "body_pagination_formula": "logical printed = PDF - 1",
+    "structural_mapping": "complete-verified",
+    "source_numbered_scene_headings": true,
+    "scene_headings_observed": 8,
+    "scene_ids_observed": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8",
+      "9",
+      "10"
+    ],
+    "scene_number_gaps_observed": [
+      7
+    ],
+    "opening_unnumbered_segment_pdf_pages": "2-4",
+    "canonical_tamil_transcription": "not-started",
+    "canonical_tamil_first_pass_pages_completed": 0,
+    "canonical_tamil_total_body_pages": 21,
+    "historical_glyph_audit": "required-not-started",
+    "structured_derivatives": {
+      "scene_index": "not-started",
+      "dialogue_index": "not-started",
+      "character_index": "not-started",
+      "song_performance_gate": "not-started",
+      "english_translation": "not-started",
+      "reader_export": "not-started",
+      "reading_room_integration": "not-started"
+    },
+    "next_action": "Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close."
   }
 ]
