@@ -1,0 +1,1261 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s001",
+  "scene_ordinal": 1,
+  "source_scene_id": "1",
+  "pilot_status": "verified",
+  "scene_status": "verified",
+  "unit_count": 40,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s001-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source location caption `ஜமீன்மாளிகை வெளிப்புறம்`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Exterior of the zamindar’s palace.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Opening crowd and Kalingarayan entrance."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A crowd of townspeople has gathered... They are talking among themselves in a constant murmur.... With a loud cry of “Silence!”, Kalingarayan opens the door and comes out...)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, Kalingarayar has arrived! The Zamindar will be here soon!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "The crowd turns toward the entrance."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Everyone looks toward the entrance—the zamindar arrives.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஒருவன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Zamindar Jambuling Bhoopathi!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Long live!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is this wild crowd—“long live, long live, long live the sword” and all that! Properly, nicely, in keeping with our shastras and customs, will you shout, “Jai! Jai! to Zamindar Jambuling Bhoopathi”?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஒருவன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "To Zamindar Jambuling Bhoopathi...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Jai!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Namaskaram to the elders! Blessings to the young!... Kalingaraya!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My lord!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hear their grievances!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "As you command, my lord...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Petition handover and prostration."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(A woman hands a petition to the zamindar—he receives it kindly—and the woman falls at the zamindar’s feet in reverence.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Get up... get up... All of you fall at my feet and worship me; what am I—a saint? A maharishi? A mahatma?... No! But one thing: you are not bowing at the feet of Zamindar Jambulingam!... You are touching and worshipping the feet of dharma! The feet of justice—the feet of integrity! What do you say, Kalingaraya?... Am I right?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who else can say it? We have to say it ourselves!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to the woman who fell at his feet) What is your grievance, dear?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பெண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My husband drinks arrack all the time... he has brought the family to ruin!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Alas! Alas! Should womankind shed tears? And that too before my eyes? I simply cannot bear the tears of womankind... Kalinga!... Summon this lady’s husband and give him the proper order!... (to the woman) Don’t worry, mother!... It is our responsibility to reform your husband... Kalinga! One more order—and it must take effect immediately. Not even the smell of liquor should be allowed within the boundaries of our estate.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Only within our boundaries, right!... We can enforce that.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_lines": [
+          "Even if the rains fail, Pari’s generosity never fails!",
+          "Kumanan was ready even to give his head!",
+          "Karna gave away as a gift",
+          "all the righteous deeds he had done! As Pari—as Kumanan—",
+          "as Karna, long live the munificent lord who gives!...",
+          "Long live!...."
+        ],
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "The six printed Tamil lines remain one immutable dialogue-linked translation unit; they are not promoted to a song/performance occurrence."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalinga!: Who is that man?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A Tamil poet, sir!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You can tell from the flattery itself!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don’t say that about all poets! There are poets who stand firm... and there are poets who keep time to suit the occasion!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalinga... don’t hurt the poet’s feelings! Poet! What do you want?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Here... my wife died, leaving me with this girl, Poongodi!... I am struggling with a motherless child!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(lifting the child) Oh, poor thing!... She is like a little golden doll... Child... Have you got a cold, dear?... (wipes her nose.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u029",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Stage portion of a mixed source block before unlabelled speech."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The people look on in amazement; the child is handed back to the poet.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source does not explicitly name the actor handing the child back in this unlabelled block; the English does not infer one."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 6,
+          "description": "Unlabelled speech following the mixed stage cue."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Poet! Don’t worry. Every month, money will be sent from the estate to raise and educate this child. Leave your address with Manager Kalingarayan before you go...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this utterance; it remains unassigned and is not linked to an immutable dialogue record."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Thank you, sir, thank you!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u032",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Petitions accumulate with Kalinga."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Petitions pile up with Kalinga.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalinga! Is the carriage ready?.... Where is the coachman?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, Sadaiya!... Sadaiya!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u035",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Sadaiyan enters carrying Uma."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Sadaiyan runs in carrying Uma.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u036",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Master... the carriage is ready!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u037",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa! I’ll come too, Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u038",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma! No, dear... go and play... Appa will go to the temple and come back!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u039",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-001.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": "vandikkaran-magan-s001-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Children shouldn’t go to the temple!... Come, dear, come with me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s001-u040",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s001",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-001.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 9,
+          "description": "Scene-closing carriage departure."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The zamindar comes and sits in the carriage. Sadaiyan climbs onto the carriage and drives—the carriage departs.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
