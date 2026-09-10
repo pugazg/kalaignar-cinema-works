@@ -1,0 +1,27 @@
+name: Vandikkaran Magan English scenes 2-5 once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-translation-batch-002-005-once.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and verify scenes 2-5 English translations
+        run: python works/vandikkaran-magan/scripts/build_translation_batch_002_005.py
+      - name: Commit verified translation batch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/vm-translation-batch-002-005-once.yml
+          git add works/vandikkaran-magan/translations works/vandikkaran-magan/scripts/build_translation_batch_002_005.py .github/workflows/vm-translation-batch-002-005-once.yml
+          git commit -m 'Verify Vandikkaran Magan English scenes 2-5 [skip ci]'
+          git push
