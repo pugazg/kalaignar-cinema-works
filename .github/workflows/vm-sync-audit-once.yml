@@ -1,0 +1,18 @@
+name: Vandikkaran Magan stale-state audit once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-sync-audit-once.yml']
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find stale active state
+        run: |
+          echo '--- 744 occurrences ---'
+          grep -RIn --exclude='*.pyc' --exclude-dir='.git' '744' works/vandikkaran-magan data/works.json README.md docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md || true
+          echo '--- old pilot/next-activity occurrences ---'
+          grep -RIn --exclude='*.pyc' --exclude-dir='.git' -E 'Begin a bounded English-translation pilot|English translation: \*\*READY-NEXT|english_translation: ready-next|scene ordinals 2–5|Translate and verify archive scene ordinals 2–5|character/entity indexing|song/performance authorship' works/vandikkaran-magan data/works.json README.md docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md || true
