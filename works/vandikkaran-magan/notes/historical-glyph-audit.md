@@ -61,3 +61,24 @@ Every occurrence of the mandated historical-glyph families on PDF 9–13 was ind
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**;
 - next dedicated batch: **PDF 14–18**.
+
+### Batch 3 — PDF 14–18 — PASS / 15 of 87
+
+Every occurrence of the mandated historical-glyph families on PDF 14–18 was independently re-read from enlarged controlling-source pixels. The source shapes resolve to the Unicode identities already present in the visual-verified transcription. No ordinary spelling, punctuation, scene structure, or performance layout was reopened.
+
+| PDF | Printed | Target-family evidence re-read from source | Result |
+|---:|:---:|---|---|
+| 14 | 13 | `மாப்பிள்ளை`, `பிள்ளைங்க` (`ளை`); `கல்லை`, `நிழலை`, `நிழலைக்கூட`, `விரலையும்` (`லை`); `அவனைத்`, `அவனைக்` (`னை`) | PASS — no glyph correction |
+| 15 | 14 | `குழந்தைகளை` (`ளை`); `தலைமயிரைப்`, `தலைமுடியைப்`, `மயிலை` (`லை`); `அவளை`, `காளை`, `அவளைத்` (`ளை`) | PASS — no glyph correction |
+| 16 | 15 | `கவலைப்படாதே`, `தலையை` (`லை`); `உன்னைக்`, `உன்னை` (`னை`); `சொன்னாய்` (`னா`) | PASS — no glyph correction |
+| 17 | 16 | `கண்ணாடியை` (`ணா`); repeated `லீனா` (`னா`); `அவளைப்` (`ளை`) | PASS — no glyph correction |
+| 18 | 17 | `சரியில்லை` (`லை`); `எத்தனை` (`னை`) | PASS — no glyph correction |
+
+### Batch 3 disposition
+
+- dedicated pages verified: **15 / 87**;
+- contiguous dedicated range: **PDF 4–18**;
+- source-supported glyph-identity corrections to canonical page text in this batch: **0**;
+- cumulative canonical glyph corrections in the dedicated phase: **0**;
+- unresolved glyph holds: **0**;
+- next dedicated batch: **PDF 19–23**.
