@@ -31,7 +31,9 @@ jobs:
           assert idx['total_scenes']==72
           assert idx['canonical_scene_body_sha256']==idx['joined_scene_spans_sha256']
           qa=Path('works/vandikkaran-magan/notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
-          assert '72/72' in qa and '0 gaps' in qa and '0 overlaps' in qa
+          assert '72/72' in qa
+          assert 'gaps between consecutive scene spans: **0**' in qa
+          assert 'overlaps between consecutive scene spans: **0**' in qa
           print('scene closure validation PASS')
           PY
       - name: Commit synchronized checkpoints
