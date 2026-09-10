@@ -33,6 +33,7 @@ jobs:
           for name in ['build_character_preflight.py','build_characters.py','build_song_performance_index.py']:
               p=Path('works/vandikkaran-magan/scripts')/name
               s=p.read_text(encoding='utf-8')
+              s=s.replace("assert idx['status'] == 'complete-verified'", "assert idx['status'] in {'complete-verified','complete-verified-reconciled'}")
               s=s.replace('744/744','773/773').replace('== 744','== 773').replace('= 744','= 773').replace("'744 complete-verified immutable records'", "'773 complete-verified reconciled immutable records'").replace('**744 records / 38 exact source speaker labels**','**773 records / 38 exact source speaker labels**').replace('**744/744**','**773/773**').replace('all_744_dialogue_records_mapped_once','all_773_dialogue_records_mapped_once').replace('entity_counts_sum_to_744','entity_counts_sum_to_773').replace("print('PASS: 744/744 dialogue records; 38/38 exact labels inventoried')", "print('PASS: 773/773 dialogue records; 38/38 exact labels inventoried')").replace("print('PASS: character/entity index 38/38 labels, 744/744 records, 32 entities (15 character / 14 role / 3 collective)')", "print('PASS: character/entity index 38/38 labels, 773/773 records, 32 entities (15 character / 14 role / 3 collective)')")
               p.write_text(s,encoding='utf-8')
           PY
