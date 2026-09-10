@@ -5,13 +5,13 @@
   "transcription_scope_pdf_pages": "2-22",
   "transcription_scope_page_count": 21,
   "status": "first-pass-in-progress",
-  "first_pass_pages_completed": 5,
-  "first_pass_pdf_range_completed": "2-6",
-  "first_pass_current_through_pdf": 6,
-  "first_pass_current_through_logical_printed": 5,
-  "draft_pages": 5,
+  "first_pass_pages_completed": 10,
+  "first_pass_pdf_range_completed": "2-11",
+  "first_pass_current_through_pdf": 11,
+  "first_pass_current_through_logical_printed": 10,
+  "draft_pages": 10,
   "visual_verified_pages": 0,
-  "historical_glyph_first_pass_checked_pages": 5,
+  "historical_glyph_first_pass_checked_pages": 10,
   "historical_glyph_final_verified_pages": 0,
   "open_uncertainty_markers": 0,
   "page_records": [
@@ -49,15 +49,52 @@
       "pdf_page": 6,
       "printed_page": 5,
       "kind": "screenplay",
-      "source_scene_ids": [
-        "2",
-        "3"
-      ],
+      "source_scene_ids": ["2", "3"],
       "status": "draft",
       "path": "pages/006.md"
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "kind": "screenplay",
+      "source_scene_id": "3",
+      "status": "draft",
+      "path": "pages/007.md"
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "kind": "screenplay",
+      "source_scene_ids": ["3", "4", "5"],
+      "status": "draft",
+      "path": "pages/008.md"
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "kind": "screenplay",
+      "source_scene_ids": ["5", "6"],
+      "status": "draft",
+      "path": "pages/009.md"
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "kind": "screenplay",
+      "source_scene_id": "6",
+      "status": "draft",
+      "path": "pages/010.md"
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "kind": "screenplay",
+      "source_scene_ids": ["6", "7"],
+      "status": "draft",
+      "path": "pages/011.md"
     }
   ],
   "batch_size_source_pages": 5,
-  "next_batch_pdf_pages": "7-11",
-  "next_action": "Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
+  "next_batch_pdf_pages": "12-16",
+  "next_action": "Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
 }
