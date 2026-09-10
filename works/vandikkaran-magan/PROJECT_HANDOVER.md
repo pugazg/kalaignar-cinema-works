@@ -51,27 +51,26 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **PDF 4–63 / 60 of 87 COMPLETE-VERIFIED**;
-- visually verified contiguous range: **PDF 4–63**;
-- pages still awaiting visual verification: **27**;
+- visual verification: **PDF 4–68 / 65 of 87 COMPLETE-VERIFIED**;
+- visually verified contiguous range: **PDF 4–68**;
+- pages still awaiting visual verification: **22**;
 - historical-glyph verification: **0 / NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Latest visual-verification batch — PDF 59–63
+## Latest visual-verification batch — PDF 64–68
 
 - all five pages were re-read directly from enlarged source pixels;
-- PDF 59 restores `சேலைத் தலைப்பை` and source `மாமக் களஞ்சியத்தில்`;
-- PDF 60 restores `கனவன் கட்டளையாம்மா?` and source-connected `ஆடு!—நல்ல`;
-- PDF 61 restores `தூங்கி யிருந்தால்`, `சிறு நரி ஆட்டும் வாலே!`, `வேணுமோ`, `வச்சிகிட்டு`, and `நல்லாத் தின்னுட்டு`;
-- PDF 62 restores `என்னமாப்பிள்ளை`, `வில்லாவளைக்கப்`, `வெற்றிபெறத் தான்`, `என்றும்போல்`, and `கடையேழு வள்ளல்களே`;
-- PDF 63 restores `ஜால்ராப் புலவர்`, `மறந்துட்டீங்க?`, `மாரோடு மார்`, `பொண்ணும்மா`, and stage-direction `பலரும்`;
-- scene starts in the batch are `33-எ`, `34`, `35`, `36`, `37`, and `38`;
+- PDF 64 restores `ஜமீன்தார் பெருமையின் பொக்கிஷம்`, `ஜம்புலிங்க பூபதியின்`, `கிளிஞ்சலைக்`, and `உண்மையை உணர்த்த`;
+- PDF 65 was re-read against source and retains the source dialogue/scene-40 wording with `visual-verified` status;
+- PDF 66 restores `சண்டாளப்பயல்` and `தங்கள் வரவை நோக்கித்`;
+- PDF 67 restores `நான் சொன்னால் நீங்கள்`, `இவனைத்`, `யாருமில்ல`, `எதிரே நின்று நிறுத்துகிறான்`, and `தயவு செய்து என்னோடு வாருங்கள்`;
+- PDF 68 restores `தடதடவென`, `பேச்சைக் கேட்டது`, `அளவுக்கு மீறிப்`, and `இப்ப என்ன சொல்றே`;
 - all five records are now `visual-verified`;
 - dedicated historical-glyph verification remains NOT-STARTED.
 
 ## Exact next activity
 
-> **Visually verify PDF 64–68 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 65/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 69–73. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
+> **Visually verify PDF 69–73 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 70/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 74–78. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**

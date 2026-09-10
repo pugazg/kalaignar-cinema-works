@@ -84,8 +84,8 @@ status:
   canonical_tamil_first_pass_current_through_pdf: 90
   canonical_tamil_first_pass_current_through_printed: 86
   canonical_tamil_total_pages: 87
-  canonical_tamil_draft_pages: 27
-  canonical_tamil_verified_pages: 60
+  canonical_tamil_draft_pages: 22
+  canonical_tamil_verified_pages: 65
   canonical_tamil_review_pages: 0
   canonical_tamil_open_uncertainty_markers: 0
   canonical_tamil_index_path: works/vandikkaran-magan/transcription/index.json
@@ -93,7 +93,7 @@ status:
   historical_glyph_first_pass_checked_pages: 10
   historical_glyph_final_verified_pages: 0
   historical_glyph_audit_path: works/vandikkaran-magan/notes/historical-glyph-audit.md
-  visual_fidelity_audit: in-progress-60-of-87-through-pdf-63
+  visual_fidelity_audit: in-progress-65-of-87-through-pdf-68
   historical_glyph_full_audit: not-started
   scene_text_derivatives: blocked
   dialogue_index: blocked
@@ -102,4 +102,4 @@ status:
   english_translation: not-started
   reader_export: not-started
   reading_room_integration: not-started
-next_action: "Continue visual verification with PDF 64–68 against the controlling scan as the next five-page batch; correct source discrepancies without silent normalization; mark those five records visual-verified; update the transcription index to 65/87; commit/push the batch; then continue with PDF 69–73. Dedicated historical-glyph verification remains blocked until visual verification reaches PDF 90."
+next_action: "Continue visual verification with PDF 69–73 against the controlling scan as the next five-page batch; correct source discrepancies without silent normalization; mark those five records visual-verified; update the transcription index to 70/87; commit/push the batch; then continue with PDF 74–78. Dedicated historical-glyph verification remains blocked until visual verification reaches PDF 90."
