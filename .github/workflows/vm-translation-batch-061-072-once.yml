@@ -1,0 +1,42 @@
+name: Vandikkaran Magan final English scenes 61-72 once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-translation-batch-061-072-once.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and verify final English scenes 61-72
+        run: python works/vandikkaran-magan/scripts/build_translation_batch_061_072.py
+      - name: Verify final translation gates
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          W=Path('works/vandikkaran-magan')
+          idx=json.loads((W/'translations'/'index.json').read_text(encoding='utf-8'))
+          qa=json.loads((W/'translations'/'batch-061-072-qa.json').read_text(encoding='utf-8'))
+          assert qa['status']=='PASS' and qa['verified_scenes']==12
+          assert qa['immutable_dialogue_records_expected']==qa['immutable_dialogue_records_linked']==105
+          assert qa['inferred_speaker_assignments']==0 and qa['source_page_provenance_fallbacks']==0
+          assert idx['status']=='complete-verified' and idx['verified_scenes']==72
+          assert idx['immutable_dialogue_records_linked']==773 and idx['performance_occurrence_links']==9
+          for n in range(61,73):
+              obj=json.loads((W/'translations'/'records'/f'scene-{n:03d}.json').read_text(encoding='utf-8'))
+              assert obj['scene_status']=='verified' and obj['scene_ordinal']==n
+          print('final-translation-gate-pass')
+          PY
+      - name: Commit final verified translation batch
+        run: |
+          rm -f .github/workflows/vm-translation-batch-061-072-once.yml
+          rm -f .github/data/vm_translation_sourcepack_061_072.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Complete Vandikkaran Magan English translation [skip ci]'
+          git push origin main
