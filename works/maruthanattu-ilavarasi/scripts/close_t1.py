@@ -636,6 +636,12 @@ curr2 = '''## Maruthanattu Ilavarasi current checkpoint
 '''
 sp.write_text(st[:pos2]+curr2+'\n', encoding='utf-8')
 
+# Normalize touched prose controls for git diff --check.
+for _p in [hp, sp]:
+    _s = _p.read_text(encoding='utf-8')
+    _s = "\n".join(line.rstrip() for line in _s.splitlines()).rstrip() + "\n"
+    _p.write_text(_s, encoding='utf-8')
+
 # Integrity checks before commit.
 idx2 = json.loads(idxp.read_text(encoding='utf-8'))
 assert idx2['status'] == 'first-pass-complete-draft'
