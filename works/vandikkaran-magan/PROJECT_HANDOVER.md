@@ -27,15 +27,13 @@ Use only the attached controlling PDF for source verification unless the user ex
 - PDF 88–89 — film credits;
 - PDF 90 — back cover.
 
-Main screenplay pagination: **printed = PDF − 1**.
-
-`notes/scene-heading-audit.md` records **71 observed scene-heading occurrences**. Preserve suffix insertions, source-specific heading punctuation/spacing, the combined `45-46` heading, multiple scene starts on one page, and internal location captions without normalization.
+Main screenplay pagination: **printed = PDF − 1**. `notes/scene-heading-audit.md` records **71 observed scene-heading occurrences**; preserve source heading punctuation/spacing, suffix insertions, the combined `45-46` heading, multiple scene starts on one page, and internal location captions without normalization.
 
 ## Mandatory user-directed phase order
 
 1. First-pass transcription — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
 2. Visual verification — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
-3. Historical-glyph verification — **10 pages per iteration from PDF 24 onward; commit/push every batch; repeat through PDF 90.**
+3. Historical-glyph verification — **15 pages per iteration from PDF 34 onward; commit/push every batch; repeat through PDF 90.**
 4. Final visual verification — **full-work final source pass.**
 
 Do not interleave phases.
@@ -54,24 +52,25 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - visually verified contiguous range: **PDF 4–90**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **PDF 4–33 / 30 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **57**;
+- dedicated historical-glyph verification: **PDF 4–48 / 45 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **42**;
+- active dedicated glyph batch size: **15 source pages**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Dedicated historical-glyph batch 5 — PDF 24–33
+## Dedicated historical-glyph batch 6 — PDF 34–48
 
-- first user-authorized **10-page** dedicated glyph iteration;
-- all ten pages were independently re-read against the controlling scan under the dedicated gate;
+- first user-authorized **15-page** dedicated glyph iteration;
+- all fifteen pages were independently re-read against the controlling scan under the dedicated gate;
 - every occurrence of the mandated glyph families was checked occurrence by occurrence;
-- representative source confirmations include `காலையிலே`, `பரவாயில்லை`, `மனுஷனைக்`, `வயசானவனு`, `கண்ணாயிரம்`, `கண்ணைத்`, `என்னைப்பன்`, `தலைமயிரைப்`, `என்னையா`, `அவனைத்தடுத்து`, `வயசான`, `காலை`, `குதிரைகளைப்`, `உன்னையும்`, `இன்னொரு`, `நொண்டியபடியே`, `இன்னைக்கு`, `அவனைப்பிடிச்சு`, `குடிகாரனை`, `பிள்ளை`, `தகப்பனை`, and repeated `பச்சிலை` forms;
+- representative source confirmations include `காளிங்கராயனைக்`, `அவனைத்`, `கலைச்சிட்டே`, `விங்கனை`, `பிள்ளையாரப்பா`, `விளையாட்டே`, `மாலை`, `சேலை`, `முத்தாடினான்`, `பிடிக்கவேணா`, `என்னை`, `காலையில`, `தலையணையையும்`, `யானை`, `மிருகங்களைப்`, `ஆணை`, `கண்ணைத்`, `தவளை`, `பஜனை`, `வீணை`, `தாலாட்டினாள்`, `பிள்ளையும்`, `அணிவிக்கிறான்`, and `ஆனானோ`;
 - canonical page-text glyph corrections in this batch: **0**;
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 34–43 as the next ten-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 40/87 and next batch PDF 44–53; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
+> **Run dedicated historical-glyph verification on PDF 49–63 as the next fifteen-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 60/87 and next batch PDF 64–78; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
