@@ -1,0 +1,29 @@
+name: Vandikkaran Magan character index build once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-build-characters-once.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build character/entity index
+        run: python works/vandikkaran-magan/scripts/build_characters.py
+      - name: Verify upstream layers unchanged
+        run: git diff --exit-code -- works/vandikkaran-magan/dialogues works/vandikkaran-magan/scenes works/vandikkaran-magan/transcription
+      - name: Commit verified character layer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/vm-build-characters-once.yml
+          git add -A
+          git commit -m 'Build Vandikkaran Magan verified character index [skip ci]'
+          git push
