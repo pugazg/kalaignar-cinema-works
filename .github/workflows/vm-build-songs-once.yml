@@ -1,0 +1,27 @@
+name: Vandikkaran Magan song performance build once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-build-songs-once.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and verify song/performance layer
+        run: python works/vandikkaran-magan/scripts/build_song_performance_index.py
+      - name: Commit source-only performance layer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/vm-build-songs-once.yml
+          git add -A
+          git commit -m 'Build Vandikkaran Magan verified song performance layer [skip ci]'
+          git push
