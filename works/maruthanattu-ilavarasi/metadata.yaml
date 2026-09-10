@@ -34,12 +34,12 @@ historical_glyph_policy: required
 historical_glyph_guide_path: docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md
 historical_glyph_audit_path: works/maruthanattu-ilavarasi/notes/historical-glyph-audit.md
 canonical_tamil_transcription: first-pass-in-progress
-canonical_tamil_first_pass_pages_completed: 10
-canonical_tamil_first_pass_pdf_range_completed: "2-11"
-canonical_tamil_first_pass_current_through_pdf: 11
-canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/pages/011.md
+canonical_tamil_first_pass_pages_completed: 15
+canonical_tamil_first_pass_pdf_range_completed: "2-16"
+canonical_tamil_first_pass_current_through_pdf: 16
+canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/pages/016.md
 canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: not-started
-historical_glyph_audit: first-pass-in-progress-10-of-21
+historical_glyph_audit: first-pass-in-progress-15-of-21
 structured_derivatives: blocked
-next_action: "Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
+next_action: "Canonical Tamil first-pass transcription for PDF 17–21 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
