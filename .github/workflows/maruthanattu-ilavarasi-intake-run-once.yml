@@ -1,0 +1,51 @@
+name: Maruthanattu Ilavarasi intake runner
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/maruthanattu-ilavarasi-intake-run-once.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build intake checkpoint
+        run: python .github/scripts/maruthanattu_ilavarasi_intake.py
+      - name: Verify checkpoint
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path('.')
+          work=root/'works/maruthanattu-ilavarasi'
+          required=['README.md','metadata.yaml','mapping.md','PROJECT_HANDOVER.md','NEXT_CHAT_PROMPT.md','notes/source-intake.md','notes/historical-glyph-audit.md']
+          for rel in required:
+              assert (work/rel).exists(), rel
+          rows=json.loads((root/'data/works.json').read_text(encoding='utf-8'))
+          row=next(x for x in rows if x.get('id')=='maruthanattu-ilavarasi')
+          assert row['source_pdf_pages']==22
+          assert row['source_byte_size']==9330870
+          assert row['source_sha256']=='8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f'
+          assert row['scene_ids_observed']==['2','3','4','5','6','8','9','10']
+          assert row['scene_number_gaps_observed']==[7]
+          assert row['canonical_tamil_transcription']=='not-started'
+          assert '## மருதநாட்டு இளவரசி status' in (root/'README.md').read_text(encoding='utf-8')
+          assert 'Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி' in (root/'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md').read_text(encoding='utf-8')
+          assert 'all **ten registered works**' in (root/'docs/STATUS_CONSISTENCY_AUDIT.md').read_text(encoding='utf-8')
+          print('Maruthanattu Ilavarasi intake synchronization: PASS')
+          PY
+          git diff --check
+      - name: Commit checkpoint
+        run: |
+          rm .github/workflows/maruthanattu-ilavarasi-intake-run-once.yml
+          rm -f .github/workflows/maruthanattu-ilavarasi-intake-once.yml
+          rm -f .github/scripts/maruthanattu_ilavarasi_intake.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Initialize Maruthanattu Ilavarasi archival intake [skip ci]'
+          git pull --rebase origin main
+          git push origin main
