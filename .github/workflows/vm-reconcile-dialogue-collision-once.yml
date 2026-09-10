@@ -15,8 +15,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Reconcile immutable dialogue authority
-        run: python works/vandikkaran-magan/scripts/reconcile_dialogue_structural_collisions.py
+      - name: Repair reconciliation-script scope and reconcile immutable dialogue authority
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('works/vandikkaran-magan/scripts/reconcile_dialogue_structural_collisions.py')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace('            nonlocal active\n', '            global active\n').replace('        nonlocal active\n', '        global active\n')
+          p.write_text(s,encoding='utf-8')
+          PY
+          python works/vandikkaran-magan/scripts/reconcile_dialogue_structural_collisions.py
       - name: Reconcile character and song builders and downstream layers
         run: |
           python - <<'PY'
