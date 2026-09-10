@@ -1,0 +1,136 @@
+name: Repair3 and build Vandikkaran Magan English scenes 41-60 once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-translation-batch-041-060-repair3-once.yml']
+permissions:
+  contents: write
+jobs:
+  repair-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply source-faithful translation segmentation repairs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          # Scene 54 and 55.
+          p=Path('works/vandikkaran-magan/scripts/translation_batch_041_060_data_c.py')
+          s=p.read_text(encoding='utf-8')
+          replacements=[
+          ("""54: [
+          {'text':'Entrance to the estate temple.','locator_kind':'location-caption'},
+          {'text':'(Vingan, Kannaayiram, the poet and elders of the town arrive at the temple entrance. A guard stands blocking them.)'},
+          {'text':'(Vingan pushes the guard.)'},
+          {'text':'(Vingan lifts and throws aside the guard who blocks him. Vingan, the others, Kannaayiram and the poet pound on the door and ram it hard. The door opens. Everyone enters.)'}
+          ],""",
+          """54: [
+          {'text':'Entrance to the estate temple.','locator_kind':'location-caption'},
+          {'text':'(Vingan, Kannaayiram, the poet and the town elders run up... Sadaiyan follows a little behind them... Vingan comes near the door.)'},
+          {'text':'(The guard extends a spear-like implement in his hand across the way.)'},
+          {'text':'(Vingan pushes the guard.)'},
+          {'text':'(Vingan lifts and throws aside the guard who blocks him. Vingan, the others, Kannaayiram and the poet pound on the door and ram it hard. The door opens. Everyone enters.)'}
+          ],"""),
+          ("""55: [
+          {'kind':'performance-cue','occurrence_id':'vandikkaran-magan-perf-007','text':'Interior of the temple. (The poet’s daughter Poongodi sits bent forward as a bride; a bridegroom sits beside her. Mantra sound — wedding dais — those who see it stand astonished.)'},
+          {'text':'(One by one everyone leaves. Sadaiyan goes with them. The poet and Vingan remain.)'},
+          {'text':'(Vingan leaves quickly.)'},
+          {'text':'(After he leaves, the door is closed.)'},
+          {'text':'(The poet goes and touches her—the corpse of Poongodi falls down without the bowed head rising.)'},
+          {'kind':'source-unlabelled','text':'(Looking at the zamindar) You sinner! Did you kill her?...'},
+          {'text':'(He takes the standing lamp and is about to stab the zamindar with it. The man who had been dressed as an Iyer removes and throws away the sacred thread and headpiece, then stabs the poet in the stomach with a knife. The poet cries out and collapses.)'}
+          ]""",
+          """55: [
+          {'text':'Interior of the temple.','locator_kind':'location-caption'},
+          {'kind':'performance-cue','occurrence_id':'vandikkaran-magan-perf-007','text':'(The poet’s daughter Poongodi sits bent forward as a bride; a bridegroom sits beside her. Mantra sound — wedding dais — those who see it stand astonished.)'},
+          {'text':'(One by one everyone leaves. Sadaiyan goes with them. The poet and Vingan remain.)'},
+          {'text':'(Vingan leaves quickly.)'},
+          {'text':'(After he leaves, the door is closed.)'},
+          {'text':'(The poet goes and touches her—the corpse of Poongodi falls down without the bowed head rising.)'},
+          {'kind':'source-unlabelled','text':'(Looking at the zamindar) You sinner! Did you kill her?...'},
+          {'text':'(He takes the standing lamp and is about to stab the zamindar with it. The man who had been dressed as an Iyer removes and throws away the sacred thread and headpiece, then stabs the poet in the stomach with a knife. The poet cries out and collapses.)'}
+          ]""")]
+          for old,new in replacements:
+              assert old in s
+              s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # Scene 60 dialogue/song boundary and exact visible-line counts.
+          p=Path('works/vandikkaran-magan/scripts/translation_batch_041_060_data_d.py')
+          s=p.read_text(encoding='utf-8')
+          reps=[
+          ('"Little அணிப்புள்ளே; little coconut-palm one;\\nlittle parrot; little hill one;\\nabove all of them,\\nwhat kind of child is this?\\nTell the child to dance!",','"Little அணிப்புள்ளே; little coconut-palm one;",'),
+          ("""{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},
+          {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},""",
+          """{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},
+          {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['Little parrot; little hill one;','Above all of them,','What kind of child is this?','Tell the child to dance!']},
+          {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},"""),
+          ("{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['The lotus has liquor within;','the jasmine lives in the wild—','in the thorn-filled settlement','this child was born! — Every','hut here knows it!']},",
+           "{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['The lotus has liquor within;','the jasmine lives in the wild—','in the thorn-filled settlement','this child was born! — Here','every hut in the settlement','knows it!']},"),
+          ("{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['To bring the high place and the low place','together into one place,','this child came','as the cause! — No one','else has done this deed!']},",
+           "{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['To bring the high place and the low place','together in one place,','this child came','as the cause! — This','deed no one else','has done!']},")]
+          for old,new in reps:
+              assert old in s, old
+              s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # Scene 60 mixed labelled block: immutable d001 covers the first source line; remaining four lines are song body.
+          p=Path('works/vandikkaran-magan/scripts/build_translation_batch_041_060.py')
+          s=p.read_text(encoding='utf-8')
+          old="""def source_blocks(n):
+              text=(S/f'scene-{n:03d}.md').read_text(encoding='utf-8')
+              parts=[b.strip() for b in re.split(r'\\n[ \\t]*\\n',text) if b.strip()]
+              return [b for b in parts if not b.startswith('<!-- derivative provenance:') and not b.startswith('## ') and b!='★']
+          """
+          new="""def source_blocks(n):
+              text=(S/f'scene-{n:03d}.md').read_text(encoding='utf-8')
+              parts=[b.strip() for b in re.split(r'\\n[ \\t]*\\n',text) if b.strip()]
+              blocks=[b for b in parts if not b.startswith('<!-- derivative provenance:') and not b.startswith('## ') and b!='★']
+              if n==60:
+                  expanded=[]
+                  marker='ஒருவன்:—அணிப்புள்ளே; தென்னம் புள்ளே;\\n'
+                  for b in blocks:
+                      if b.startswith(marker):
+                          first,rest=b.split('\\n',1)
+                          expanded.extend([first,rest])
+                      else:
+                          expanded.append(b)
+                  blocks=expanded
+              return blocks
+          """
+          assert old in s
+          p.write_text(s.replace(old,new,1),encoding='utf-8')
+          PY
+      - name: Build and verify English scenes 41-60
+        run: python works/vandikkaran-magan/scripts/build_translation_batch_041_060.py
+      - name: Verify batch gates
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          W=Path('works/vandikkaran-magan')
+          idx=json.loads((W/'translations'/'index.json').read_text(encoding='utf-8'))
+          qa=json.loads((W/'translations'/'batch-041-060-qa.json').read_text(encoding='utf-8'))
+          assert qa['status']=='PASS' and qa['verified_scenes']==20
+          assert qa['immutable_dialogue_records_expected']==qa['immutable_dialogue_records_linked']==156
+          assert qa['inferred_speaker_assignments']==0 and qa['source_page_provenance_fallbacks']==0
+          assert idx['verified_scenes']==60
+          for n in range(41,61):
+              obj=json.loads((W/'translations'/'records'/f'scene-{n:03d}.json').read_text(encoding='utf-8'))
+              assert obj['scene_status']=='verified'
+          print(json.dumps({'PASS':True,'batch_units':qa['verified_units'],'verified_scenes':60},ensure_ascii=False))
+          PY
+      - name: Commit verified batch
+        run: |
+          rm -f .github/workflows/vm-translation-batch-041-060-repair3-once.yml
+          rm -f .github/workflows/vm-translation-batch-041-060-repair2-once.yml
+          rm -f .github/workflows/vm-translation-batch-041-060-repair-once.yml
+          rm -f .github/workflows/vm-translation-batch-041-060-once.yml
+          rm -f .github/data/vm_translation_sourcepack_041_060.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Build Vandikkaran Magan English scenes 41-60 [skip ci]'
+          git push origin main
