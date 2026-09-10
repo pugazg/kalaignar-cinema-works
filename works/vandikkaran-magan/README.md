@@ -8,37 +8,21 @@ Controlling source: `TVA_BOK_0062961_வண்டிக்காரன்_மக
 
 ## Current verified state
 
-- source boundaries: PDF 4–5 foreword / PDF 6–87 screenplay-dialogue / PDF 88–89 film credits / PDF 90 back cover;
-- canonical Tamil source records: **87/87 COMPLETE-VERIFIED**;
+- canonical Tamil source records: **87/87 COMPLETE-VERIFIED / 0 unresolved**;
 - visual / historical-glyph / final-visual gates: **87/87 / 87/87 / 87/87 PASS**;
-- unresolved source/glyph markers: **0**;
-- source-visible scene headings: **72/72 COMPLETE-VERIFIED**;
-- suffix insertions: **17**, including corrected inventory item `4-எ` on PDF 10;
-- combined source heading: **`45-46`**;
-- scene-text derivatives: **72/72 COMPLETE-VERIFIED**;
-- boundary ownership: **PASS — PDF 6–87 represented once, 0 gaps / 0 overlaps / 0 duplicate ownership**.
+- source-visible scene headings / scene derivatives: **72/72 / 72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — PDF 6–87 represented once, 0 gaps / 0 overlaps / 0 duplicate ownership**;
+- immutable dialogue index: **744 records / 38 exact source labels / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **32 entities — 15 named characters / 14 roles / 3 collectives / 38/38 labels / 744/744 dialogue records / QA PASS**;
+- song/performance layer: **9/9 source-visible occurrences / COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
+- bounded Tamil lyric/performance bodies: **6**; cue-only non-lyric occurrences: **3**;
+- item-level lyric authorship: **0 source-attributed / 6 unresolved-item-level**;
+- PDF 88 film-level `பாடல்கள்: கவிஞர் வாலி` credit: **preserved as metadata, not promoted item-by-item**;
+- English translation: **READY-NEXT**;
+- reader/export / Reading Room: **BLOCKED pending English closure**.
 
-See `notes/scene-heading-audit.md`, `scenes/index.json`, `scenes/README.md`, and `notes/scene-boundary-ownership-qa.md`.
-
-## Downstream gates
-
-- dialogue index: **COMPLETE-VERIFIED — 744 immutable records / QA PASS**;
-- exact source speaker labels: **38**;
-- delimiter distribution: **`:—` 736 / `:` 8**;
-- zero-dialogue scenes: **15**;
-- cross-page dialogue records: **3**, each retained as one immutable record;
-- unlabelled source blocks assigned a speaker: **0**;
-- reviewed anomalous non-colon candidates promoted to dialogue: **0/16**;
-- character/entity index: **COMPLETE-VERIFIED — 32 entities / 38/38 exact labels / 744/744 dialogue records / QA PASS**;
-- entity types: **15 named characters / 14 roles / 3 collectives**;
-- character mapping review / unresolved: **0 / 0**;
-- song/performance authorship: **READY-NEXT**;
-- English translation: **BLOCKED**;
-- reader/export / Reading Room: **BLOCKED**.
-
-See `dialogues/index.json`, `characters/index.json`, `characters/README.md`, `notes/dialogue-index-qa.json`, and `notes/character-index-qa.json`.
+See `songs/index.json`, `songs/inventory.json`, `songs/credits.json`, `notes/song-performance-cue-preflight.json`, and `notes/song-performance-qa.json`.
 
 ## Exact next activity
 
-> **Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.**
-
+> **Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.**

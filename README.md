@@ -26,17 +26,17 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 `TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is the current active cinema-work source.
 
-- source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253` / first edition 1978**;
-- source credits: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
 - canonical Tamil: **87/87 COMPLETE-VERIFIED / 0 open uncertainties**;
 - scenes: **72/72 COMPLETE-VERIFIED / boundary QA PASS**;
-- immutable dialogues: **744 records / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
-- character/entity index: **32 entities / 15 characters / 14 roles / 3 collectives / COMPLETE-VERIFIED / QA PASS**;
-- character coverage: **38/38 labels / 744/744 dialogue records / 0 unmapped / 0 unresolved**;
-- song/performance authorship: **READY-NEXT**;
-- English and reader layers: **gated downstream**.
+- immutable dialogues: **744 / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **32 entities / 38/38 labels / 744/744 records / COMPLETE-VERIFIED / QA PASS**;
+- song/performance gate: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
+- bounded Tamil bodies / cue-only records: **6 / 3**;
+- item-level lyric authorship: **0 source-attributed / 6 unresolved**; PDF 88 `பாடல்கள்: கவிஞர் வாலி` remains film-level metadata only;
+- English translation: **READY-NEXT**;
+- reader/export and Reading Room: **gated downstream**.
 
-**Next:** Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.
+**Next:** Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.
 
 
 ## நாம் status

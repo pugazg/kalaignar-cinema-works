@@ -36,9 +36,16 @@ Observed identifying sequence:
 
 Exact source typography and start pages are recorded in `notes/scene-heading-audit.md`; scene ownership is fixed by `scenes/index.json`.
 
-## Song / performance safeguard
+## Song / performance derivative gate
 
-Performance/lyric structures remain embedded in their canonical scene spans. Film-level lyricist metadata does not authorize item-level attribution or reconstruction of missing lyrics. The dedicated authorship gate remains downstream of dialogue and character/entity indexing.
+- source-visible occurrences: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
+- full or clearly bounded Tamil bodies: **6** — source scenes `10`, `20`, `24-சி`, `36`, `48`, `53-சி`;
+- cue-only / non-lyric performance records: **3** — source scenes `7`, `32`, `42-எ`;
+- item-level source-attributed lyric authorship: **0**;
+- unresolved item-level lyric authorship: **6**;
+- PDF 88 `பாடல்கள்: கவிஞர் வாலி`: preserved as film-level metadata only, not promoted to item-level authorship;
+- missing chant/lyric text reconstructed: **0**;
+- canonical Tamil / scene / dialogue / character mappings changed by this layer: **0**.
 
 ## Historical-glyph / source gates
 
@@ -73,4 +80,4 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 
 ## Exact next activity
 
-**Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.**
+**Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.**
