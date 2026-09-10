@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / visual verification PDF 69–73
+# Next Chat Prompt — வண்டிக்காரன் மகன் / visual verification PDF 74–78
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -27,8 +27,8 @@ Do not interleave phases.
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **IN PROGRESS — PDF 4–68 / 65 of 87 COMPLETE-VERIFIED**;
-- remaining visual pages: **22**;
+- visual verification: **IN PROGRESS — PDF 4–73 / 70 of 87 COMPLETE-VERIFIED**;
+- remaining visual pages: **17**;
 - historical-glyph verification: **NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13 are not the dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
@@ -36,8 +36,8 @@ Do not interleave phases.
 
 ## Latest batch
 
-PDF **64–68 / printed 63–67** was visually verified directly from enlarged source pixels. Source-controlled corrections include `ஜமீன்தார் பெருமையின் பொக்கிஷம்`, `ஜம்புலிங்க பூபதியின்`, `கிளிஞ்சலைக்`, `உண்மையை உணர்த்த`, `சண்டாளப்பயல்`, `வரவை நோக்கித்`, `நான் சொன்னால் நீங்கள்`, `இவனைத்`, `யாருமில்ல`, `எதிரே நின்று நிறுத்துகிறான்`, `தயவு செய்து என்னோடு வாருங்கள்`, `தடதடவென`, `பேச்சைக் கேட்டது`, `அளவுக்கு மீறிப்`, and `இப்ப என்ன சொல்றே`. Historical-glyph-specific closure remains deferred.
+PDF **69–73 / printed 68–72** was visually verified directly from enlarged source pixels. Source-controlled corrections include `எங்கும் காண முடியாத கருணை வடிவமடா`, `வேலையாப்போச்சு`, `பூணூலைக்`, `வீறிட்டுச் சாய்கிறார்`, `புறப்பட்டிருக்கிறார்கள்`, `விடைகொடுத்தனுப்புங்கள்`, `தட்டாம`, `பிடிச்சுட்டுதா`, `இடம்தான்`, `உம்!..காலில்`, `உட்கார்ந்தபடியிருந்து`, `எல்லாப் புகப் பழக`, `மயிலக்காள`, and `செய்தால்தான்`. The PDF 73 song/performance block was preserved from the source without using this phase to close historical-glyph identity. Scene starts in the batch are `43`, `44`, `45-46`, `47`, and `48`.
 
 ## Exact next activity
 
-> **Process PDF 69–73 as the next five-page visual-verification batch. Compare each existing page record word-for-word and structure-for-structure with the controlling scan; correct source discrepancies without silent modernization; keep historical-glyph-specific closure for the later dedicated phase; mark all five pages `visual-verified`; update `transcription/index.json` to 70/87 and next batch PDF 74–78; commit/push the five-page batch to `main`; then synchronize checkpoint docs.**
+> **Process PDF 74–78 as the next five-page visual-verification batch. Compare each existing page record word-for-word and structure-for-structure with the controlling scan; correct source discrepancies without silent modernization; keep historical-glyph-specific closure for the later dedicated phase; mark all five pages `visual-verified`; update `transcription/index.json` to 75/87 and next batch PDF 79–83; commit/push the five-page batch to `main`; then synchronize checkpoint docs.**

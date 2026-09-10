@@ -6,10 +6,10 @@ The rendered scan is the controlling source. First-pass transcription is complet
 
 - transcription scope: **PDF 4–90 / 87 pages**;
 - first pass: **87/87 COMPLETE**;
-- visual verification: **PDF 4–68 / 65 of 87 COMPLETE-VERIFIED**;
-- remaining visual-verification pages: **22**;
-- page records PDF 4–68: `visual-verified`;
-- page records PDF 69–90: `draft` pending visual verification;
+- visual verification: **PDF 4–73 / 70 of 87 COMPLETE-VERIFIED**;
+- remaining visual-verification pages: **17**;
+- page records PDF 4–73: `visual-verified`;
+- page records PDF 74–90: `draft` pending visual verification;
 - open uncertainty markers: **0 recorded**;
 - dedicated historical-glyph verification: **0/87 / NOT-STARTED**;
 - legacy prospective glyph checks on PDF 4–13: **10 pages**, not equivalent to the later dedicated glyph phase;
@@ -20,8 +20,8 @@ The visual pass must use source pixels directly and may correct first-pass OCR-l
 
 ## Latest verified batch
 
-PDF **64–68** is complete. Notable source corrections include `ஜமீன்தார் பெருமையின் பொக்கிஷம்`, `ஜம்புலிங்க பூபதியின்`, `கிளிஞ்சலைக்`, `உண்மையை உணர்த்த`, `சண்டாளப்பயல்`, `வரவை நோக்கித்`, `நான் சொன்னால் நீங்கள்`, `இவனைத்`, `யாருமில்ல`, `எதிரே நின்று நிறுத்துகிறான்`, `தயவு செய்து என்னோடு வாருங்கள்`, `தடதடவென`, `பேச்சைக் கேட்டது`, `அளவுக்கு மீறிப்`, and `இப்ப என்ன சொல்றே`.
+PDF **69–73** is complete. Notable source corrections include `எங்கும் காண முடியாத கருணை வடிவமடா`, `வேலையாப்போச்சு`, `பூணூலைக்`, `வீறிட்டுச் சாய்கிறார்`, `புறப்பட்டிருக்கிறார்கள்`, `விடைகொடுத்தனுப்புங்கள்`, `தட்டாம`, `பிடிச்சுட்டுதா`, `இடம்தான்`, `உம்!..காலில்`, `உட்கார்ந்தபடியிருந்து`, `எல்லாப் புகப் பழக`, `மயிலக்காள`, and `செய்தால்தான்`. PDF 73 retains the source-visible song/performance block; historical-glyph-specific closure remains deferred.
 
 ## Next
 
-Visually verify PDF **69–73** against the controlling scan, mark those five records `visual-verified`, update `index.json` to **70/87**, commit/push the five-page batch, and continue with PDF 74–78. Dedicated historical-glyph verification remains blocked until visual verification reaches PDF 90.
+Visually verify PDF **74–78** against the controlling scan, mark those five records `visual-verified`, update `index.json` to **75/87**, commit/push the five-page batch, and continue with PDF 79–83. Dedicated historical-glyph verification remains blocked until visual verification reaches PDF 90.
