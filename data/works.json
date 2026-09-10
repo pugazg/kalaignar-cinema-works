@@ -1119,8 +1119,8 @@
     "scene_suffix_insertions": 17,
     "historical_glyph_guide_path": "docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md",
     "canonical_tamil_first_pass": "complete-87-of-87",
-    "visual_fidelity_audit": "not-started",
-    "historical_glyph_audit": "prospective-first-pass-5-pages-final-not-started",
+    "visual_fidelity_audit": "complete-87-of-87-through-pdf-90",
+    "historical_glyph_audit": "complete-87-of-87-through-pdf-90",
     "structured_derivatives": {
       "scene_text_derivatives": "complete-verified",
       "dialogue_index": "complete-verified",
@@ -1150,10 +1150,10 @@
       "character_index": "ready-next"
     },
     "next_action": "Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.",
-    "canonical_tamil_scope_pdf_pages": "4-87",
-    "canonical_tamil_total_pages": 84,
-    "canonical_tamil_first_pass_pages_completed": 5,
-    "canonical_tamil_first_pass_pdf_range_completed": "4-8",
+    "canonical_tamil_scope_pdf_pages": "4-90",
+    "canonical_tamil_total_pages": 87,
+    "canonical_tamil_first_pass_pages_completed": 87,
+    "canonical_tamil_first_pass_pdf_range_completed": "4-90",
     "canonical_tamil_first_pass_current_through_pdf": 90,
     "canonical_tamil_first_pass_current_through_printed": 86,
     "canonical_tamil_draft_pages": 0,
@@ -1176,6 +1176,7 @@
     "canonical_range_fidelity_audit_complete": true,
     "total_canonical_pages": 87,
     "total_verified_pages": 87,
-    "total_review_pages": 0
+    "total_review_pages": 0,
+    "tamil_transcription_through_printed_page": 86
   }
 ]
