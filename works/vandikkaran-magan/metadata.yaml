@@ -42,12 +42,13 @@ structural_mapping:
   mapping_path: works/vandikkaran-magan/mapping.md
   scene_heading_audit_path: works/vandikkaran-magan/notes/scene-heading-audit.md
   source_numbered_scene_headings: true
-  observed_scene_heading_occurrences: 71
+  observed_scene_heading_occurrences: 72
   unsuffixed_or_combined_headings: 55
-  suffix_insert_headings: 16
+  suffix_insert_headings: 17
   base_number_range: 1-56
   combined_heading: 45-46
   inserted_suffix_labels:
+    - 4-எ
     - 10-எ
     - 14-எ
     - 16-எ
@@ -78,7 +79,7 @@ user_catalogue_context:
 status:
   source_intake: complete
   structural_mapping: complete-verified
-  scene_heading_audit: complete-71-of-71-observed
+  scene_heading_audit: complete-72-of-72-observed
   canonical_tamil_first_pass: complete-87-of-87
   canonical_tamil_first_pass_pages_completed: 87
   canonical_tamil_first_pass_pdf_range_completed: 4-90
@@ -104,11 +105,11 @@ status:
   final_visual_verified_pdf_range_completed: 4-90
   final_visual_corrections: 0
   final_visual_audit_path: works/vandikkaran-magan/notes/final-visual-audit.md
-  scene_text_derivatives: ready-next
-  dialogue_index: blocked-pending-scene-layer
+  scene_text_derivatives: complete-verified-72-of-72
+  dialogue_index: ready-next
   character_entity_index: blocked
   song_performance_authorship_gate: blocked
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
-next_action: "Build scene-text derivatives from the closed verified screenplay PDF 6–87 using all 71 observed source scene-heading occurrences. Create scenes/index.json and one derivative per observed/canonical scene disposition; preserve exact source headings, location captions, source order and page anchors; assemble cross-page scenes without duplicate ownership; keep decorative stars structural; exclude PDF 4–5 foreword and PDF 88–90 credits/back cover from synthetic scenes; run whole-work boundary-ownership QA with 0 gaps/overlaps; commit/push; then synchronize work-local and repository-wide checkpoints before starting the dialogue index."
+next_action: "Build and verify the immutable dialogue index from the 72 complete-verified scene derivatives. Extract only explicit source speaker-labelled utterances; preserve exact speaker labels, dialogue text, scene identity, PDF/printed provenance and cross-page ownership; leave unlabelled speech unassigned; run whole-work uniqueness/coverage QA; commit/push; then synchronize mirrors before character/entity indexing."

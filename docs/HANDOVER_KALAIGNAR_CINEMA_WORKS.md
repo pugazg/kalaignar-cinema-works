@@ -124,7 +124,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 
 ---
 
-## 7. Current high-level project checkpoint — 2026-09-06
+## 7. Current high-level project checkpoint — 2026-09-10
 
 - **Parasakthi** — complete-verified canonical/structured English reader work.
 - **Tirumbippaar!** — complete-verified Tamil, structured derivatives, English translation, reader QA and deterministic EPUB QA. EPUB SHA-256 remains `17b9422cf2bf9cd30c90829a2dbd18115e20b8bd1cf7e5bb9da2cc0cdcc23c7f`.
@@ -134,9 +134,9 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Raja Rani** — 79/79 source pages, 70/70 screenplay pages, 58/58 scene derivatives, 1,071 dialogues, 80 labels / 44 entities, 1,236 screenplay English units, 11/11 numbered songs / 181 line-cues; reader and Reading Room payload QA PASS.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
 - **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45**; dialogues **590**; characters **28 / 45/45 / 590/590**; song/performance gate **7/7 reconciled**; English **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated**.
-- **Vandikkaran Magan / வண்டிக்காரன் மகன்** — 90-page 1978 first-edition source; intake + structural map complete-verified; 70 source scene-heading occurrences mapped; canonical Tamil not started.
+- **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; source-visible scene headings **72/72**; scene derivatives **72/72 COMPLETE-VERIFIED**; boundary ownership **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps**; dialogue index **READY-NEXT**.
 
-Ammayappan remains closed at its complete-verified checkpoint. **Naam / நாம் is closed through reader/export and Reading Room payload QA PASS. The current active production work is வண்டிக்காரன் மகன், whose source intake and structural-mapping gate are now complete-verified; canonical Tamil is next.**
+Ammayappan and Naam remain closed at their recorded checkpoints. **The current active production work is வண்டிக்காரன் மகன்: canonical Tamil and all source gates are closed, its corrected 72-scene derivative layer is COMPLETE-VERIFIED with boundary QA PASS, and immutable dialogue indexing is READY-NEXT.**
 
 ---
 

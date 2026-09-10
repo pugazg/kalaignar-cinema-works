@@ -8,65 +8,43 @@ Work: `works/vandikkaran-magan/`
 
 ## Controlling source
 
-`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf`
+`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` — **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253` / first edition 1978 / image-only**. Source pixels control canonical Tamil; do not substitute web text, film audio, OCR, later editions or memory.
 
-- PDF pages: **90**;
-- bytes: **26,391,039**;
-- SHA-256: `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`;
-- image-only first-edition scan; rendered source pixels control canonical Tamil.
+## Closed source authority
 
-Use only the controlling scan for source-text adjudication unless the user explicitly asks for external comparison.
-
-## Verified source structure
-
-- PDF 1 — front cover;
-- PDF 2 — title / writer / publisher credits;
-- PDF 3 — edition / price / printer;
 - PDF 4–5 — `கலைஞரின் முன்னுரை`;
 - PDF 6–87 — screenplay/dialogue, printed pp.5–86;
 - PDF 88–89 — film credits;
-- PDF 90 — back cover.
+- PDF 90 — back cover;
+- canonical source pages: **87/87 — PDF 4–90**;
+- visual verification: **87/87 COMPLETE**;
+- historical-glyph verification: **87/87 COMPLETE / 0 holds**;
+- final full visual verification: **87/87 PASS / 0 final corrections**;
+- open uncertainty markers: **0**.
 
-For the screenplay range, **printed page = PDF page − 1**.
+## Structural / scene authority
 
-`notes/scene-heading-audit.md` records **71 observed source scene-heading occurrences**. Preserve all printed irregularities, suffix insertions, the combined `45-46` heading, multiple scene starts on a page, location captions and exact heading punctuation/spacing.
+The corrected source-visible scene inventory is **72/72**, after derivative QA exposed the previously omitted but already canonical PDF 10 heading `காட்சி — 4 எ.` (`4-எ`). The sequence spans base numbers 1–56, **17 suffix insertions**, and the source-combined `45-46` heading. `notes/scene-heading-audit.md` is the current mapping record.
 
-Observed identifying sequence:
+Scene-text derivatives are **72/72 COMPLETE-VERIFIED** in `scenes/`. Boundary ownership QA is **PASS**:
 
-`1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10-எ, 11, 12, 13, 14, 14-எ, 15, 16, 16-எ, 17, 18, 19, 20, 20-எ, 21, 22, 22-எ, 23, 24, 24-எ, 24-பி, 24-சி, 24-டி, 25, 26, 27, 28, 29, 29-எ, 30, 31, 32, 33, 33-எ, 34, 35, 36, 37, 38, 39, 40, 41, 42, 42-எ, 43, 44, 45-46, 47, 48, 49, 50, 51, 52, 53, 53-எ, 53-பி, 53-சி, 53-டி, 54, 55, 56`.
+- screenplay coverage: **82/82 pages — PDF 6–87**;
+- gaps: **0**;
+- overlaps: **0**;
+- duplicate source ownership: **0**;
+- joined scene-span SHA-256 equals canonical scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`.
 
-## Source gates — CLOSED
-
-- source intake: **COMPLETE**;
-- structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
-- canonical first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **COMPLETE — PDF 4–90 / 87 of 87**;
-- dedicated historical-glyph verification: **COMPLETE — PDF 4–90 / 87 of 87**;
-- cumulative canonical glyph corrections: **0**;
-- unresolved glyph holds: **0**;
-- final full visual verification: **COMPLETE / PASS — PDF 4–90 / 87 of 87**;
-- final-pass canonical corrections: **0**;
-- draft pages / open uncertainty markers: **0 / 0**.
-
-Final source-pass evidence is recorded in `notes/final-visual-audit.md`. Canonical Tamil is now a closed upstream authority for derivative construction.
-
-## Historical Tamil glyph rule
-
-The dedicated gate is closed, but its rule survives any later source correction:
-
-`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
-
-Never global-replace. A closed glyph verdict can be reopened only by direct contradictory evidence from the controlling scan.
+PDF 4–5 and PDF 88–90 are deliberately outside the scene layer. No canonical Tamil was rewritten by scene construction.
 
 ## Derivative gate state
 
-- scene-text derivatives: **READY-NEXT / NOT-STARTED**;
-- dialogue index: **BLOCKED until scene layer + boundary QA close**;
-- character/entity index: **BLOCKED**;
+- scene-text derivatives: **COMPLETE-VERIFIED — 72/72 / QA PASS**;
+- dialogue index: **READY-NEXT**;
+- character/entity index: **BLOCKED pending dialogue closure**;
 - song/performance authorship gate: **BLOCKED**;
 - English translation: **BLOCKED**;
 - reader/export / Reading Room: **BLOCKED**.
 
 ## Exact next activity
 
-> **Build the scene-text derivative layer for the complete verified screenplay PDF 6–87 using all 71 observed/canonical source scene dispositions. Create `scenes/index.json` plus one scene file per observed scene disposition; preserve exact source headings, location captions, source order and page anchors; assemble cross-page scenes without duplicate ownership; keep `★` separators structural; do not create scenes from PDF 4–5 or PDF 88–90; and run whole-work boundary-ownership QA proving 0 gaps / 0 overlaps before closing the scene gate. Commit/push the scene layer, then synchronize work-local and repository-wide mirrors.**
+> **Build the immutable dialogue index from the 72 complete-verified scene derivatives. Only explicitly speaker-labelled source utterances become dialogue records. Preserve exact Tamil `speaker_label`, exact dialogue text, source scene ID, PDF/printed-page provenance, and cross-page ownership; keep one labelled utterance crossing a page as one record; leave unlabelled speech unassigned; allow legitimate zero-dialogue scenes; validate that each extracted dialogue span is owned exactly once with no invented speakers or normalized labels; commit/push the dialogue layer; then synchronize all active status mirrors before opening character/entity indexing.**

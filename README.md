@@ -24,19 +24,18 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## வண்டிக்காரன் மகன் status
 
-`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is the new active cinema-work source.
+`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is the current active cinema-work source.
 
-- source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`**;
+- source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253` / first edition 1978**;
 - source credits: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
-- publisher / edition: **`கனி பதிப்பகம்`, `சென்னை-34.` / `முதற் பதிப்பு : 1978`**;
-- source boundaries: **PDF 4–5 foreword / PDF 6–87 screenplay-dialogue / PDF 88–89 film credits**;
-- screenplay pagination: **printed = PDF − 1 / printed pp.5–86**;
-- scene-heading mapping: **70 observed occurrences / COMPLETE-VERIFIED**;
-- numbering structure: base **1–56**, **15 suffix insertions**, combined printed **`45-46`**;
-- canonical Tamil first pass / fidelity / structured derivatives: **PDF 4–8 / 5 of 84 DRAFT / NOT-STARTED / BLOCKED**;
-- historical-glyph workflow: **prospective PASS for PDF 4–8 / 5 drafted pages; final verification not-started**.
+- canonical Tamil source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90 / 0 open uncertainties**;
+- scene-heading inventory: **72/72 COMPLETE-VERIFIED**, including recovered inventory item `4-எ` at PDF 10; base 1–56, 17 suffix insertions, combined `45-46`;
+- scene derivatives: **72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
+- dialogue index: **READY-NEXT**;
+- character/entity, song/performance, English and reader layers: **gated downstream**.
 
-**Next:** Continue canonical Tamil first-pass transcription with PDF 9–13 (five source pages) in source order. Preserve exact source scene headings, speaker labels, punctuation, stage directions and page boundaries; keep every page draft during first pass; inspect the historical Tamil glyph families prospectively occurrence by occurrence from enlarged source pixels; record any uncertainty explicitly; and do not begin visual-fidelity verification or structured derivatives yet.
+**Next:** Build the immutable dialogue index from the 72 verified scene derivatives. Extract only explicitly speaker-labelled utterances, preserve exact labels/text and page provenance, merge cross-page continuations, leave unlabelled speech unassigned, run whole-work uniqueness/coverage QA, then synchronize mirrors before character/entity indexing.
 
 ## நாம் status
 

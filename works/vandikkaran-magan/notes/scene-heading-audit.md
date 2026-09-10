@@ -1,17 +1,19 @@
 # வண்டிக்காரன் மகன் — Scene-heading audit
 
 **Controlling source:** `TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf`  
-**Audit status:** **COMPLETE for observed scene-heading identity + start-page mapping**
+**Audit status:** **COMPLETE-VERIFIED — 72/72 source-visible scene-heading occurrences mapped**
 
 ## Audit rule
 
-This inventory records the source-visible identifying scene number/suffix and its start page. It does **not** normalize the complete printed heading typography. During canonical transcription, preserve each occurrence's exact `காட்சி` wording, hyphen/dash/spacing form and adjacent location caption from the rendered source.
+This inventory records each source-visible identifying scene label and its start page. It does **not** normalize the complete printed heading typography. Canonical transcription and scene derivatives preserve each occurrence's exact `காட்சி` wording, dash/spacing form, punctuation and adjacent location caption.
 
-Printed-page values below use the verified main-range relation **printed = PDF − 1**.
+For screenplay PDF 6–87, **printed page = PDF page − 1**.
 
-## Corrective finding during first pass
+## Corrective findings
 
-The first-pass transcription of PDF 83 exposed a source-visible **`காட்சி -- 53 டி`** heading. It was absent from the earlier 70-heading map. The controlling scan therefore establishes **71 observed scene-heading occurrences**, with `53-டி` starting at PDF 83 / printed p.82.
+- First-pass review of PDF 83 exposed source-visible `காட்சி -- 53 டி`, increasing the earlier inventory to 71.
+- Scene-derivative boundary QA then exposed one further stale inventory omission already present in the closed canonical source layer: PDF 10 contains source-visible `காட்சி — 4 எ.`. It is a genuine scene boundary and is retained as source scene ID `4-எ`.
+- Therefore the authoritative inventory is **72 observed headings**, not 71. No canonical Tamil was changed by this correction; only structural inventory/derivative mirrors were reconciled.
 
 | Occurrence | Source scene label | PDF start | Printed start |
 |---:|---|---:|---:|
@@ -19,105 +21,92 @@ The first-pass transcription of PDF 83 exposed a source-visible **`காட்�
 | 2 | `2` | 8 | 7 |
 | 3 | `3` | 9 | 8 |
 | 4 | `4` | 9 | 8 |
-| 5 | `5` | 12 | 11 |
-| 6 | `6` | 13 | 12 |
-| 7 | `7` | 13 | 12 |
-| 8 | `8` | 16 | 15 |
-| 9 | `9` | 17 | 16 |
-| 10 | `10` | 18 | 17 |
-| 11 | `10-எ` | 19 | 18 |
-| 12 | `11` | 20 | 19 |
-| 13 | `12` | 22 | 21 |
-| 14 | `13` | 24 | 23 |
-| 15 | `14` | 25 | 24 |
-| 16 | `14-எ` | 27 | 26 |
-| 17 | `15` | 28 | 27 |
-| 18 | `16` | 29 | 28 |
-| 19 | `16-எ` | 29 | 28 |
-| 20 | `17` | 30 | 29 |
-| 21 | `18` | 31 | 30 |
-| 22 | `19` | 33 | 32 |
-| 23 | `20` | 35 | 34 |
-| 24 | `20-எ` | 37 | 36 |
-| 25 | `21` | 39 | 38 |
-| 26 | `22` | 40 | 39 |
-| 27 | `22-எ` | 40 | 39 |
-| 28 | `23` | 42 | 41 |
-| 29 | `24` | 42 | 41 |
-| 30 | `24-எ` | 44 | 43 |
-| 31 | `24-பி` | 44 | 43 |
-| 32 | `24-சி` | 46 | 45 |
-| 33 | `24-டி` | 47 | 46 |
-| 34 | `25` | 48 | 47 |
-| 35 | `26` | 50 | 49 |
-| 36 | `27` | 51 | 50 |
-| 37 | `28` | 52 | 51 |
-| 38 | `29` | 53 | 52 |
-| 39 | `29-எ` | 55 | 54 |
-| 40 | `30` | 55 | 54 |
-| 41 | `31` | 55 | 54 |
-| 42 | `32` | 56 | 55 |
-| 43 | `33` | 58 | 57 |
-| 44 | `33-எ` | 59 | 58 |
-| 45 | `34` | 59 | 58 |
-| 46 | `35` | 60 | 59 |
-| 47 | `36` | 60 | 59 |
-| 48 | `37` | 61 | 60 |
-| 49 | `38` | 62 | 61 |
-| 50 | `39` | 64 | 63 |
-| 51 | `40` | 65 | 64 |
-| 52 | `41` | 66 | 65 |
-| 53 | `42` | 67 | 66 |
-| 54 | `42-எ` | 68 | 67 |
-| 55 | `43` | 70 | 69 |
-| 56 | `44` | 71 | 70 |
-| 57 | `45-46` | 71 | 70 |
-| 58 | `47` | 72 | 71 |
-| 59 | `48` | 72 | 71 |
-| 60 | `49` | 75 | 74 |
-| 61 | `50` | 76 | 75 |
-| 62 | `51` | 76 | 75 |
-| 63 | `52` | 78 | 77 |
-| 64 | `53` | 81 | 80 |
-| 65 | `53-எ` | 81 | 80 |
-| 66 | `53-பி` | 81 | 80 |
-| 67 | `53-சி` | 81 | 80 |
-| 68 | `53-டி` | 83 | 82 |
-| 69 | `54` | 85 | 84 |
-| 70 | `55` | 86 | 85 |
-| 71 | `56` | 87 | 86 |
+| 5 | `4-எ` | 10 | 9 |
+| 6 | `5` | 12 | 11 |
+| 7 | `6` | 13 | 12 |
+| 8 | `7` | 13 | 12 |
+| 9 | `8` | 16 | 15 |
+| 10 | `9` | 17 | 16 |
+| 11 | `10` | 18 | 17 |
+| 12 | `10-எ` | 19 | 18 |
+| 13 | `11` | 20 | 19 |
+| 14 | `12` | 22 | 21 |
+| 15 | `13` | 24 | 23 |
+| 16 | `14` | 25 | 24 |
+| 17 | `14-எ` | 27 | 26 |
+| 18 | `15` | 28 | 27 |
+| 19 | `16` | 29 | 28 |
+| 20 | `16-எ` | 29 | 28 |
+| 21 | `17` | 30 | 29 |
+| 22 | `18` | 31 | 30 |
+| 23 | `19` | 33 | 32 |
+| 24 | `20` | 35 | 34 |
+| 25 | `20-எ` | 37 | 36 |
+| 26 | `21` | 39 | 38 |
+| 27 | `22` | 40 | 39 |
+| 28 | `22-எ` | 40 | 39 |
+| 29 | `23` | 42 | 41 |
+| 30 | `24` | 42 | 41 |
+| 31 | `24-எ` | 44 | 43 |
+| 32 | `24-பி` | 44 | 43 |
+| 33 | `24-சி` | 46 | 45 |
+| 34 | `24-டி` | 47 | 46 |
+| 35 | `25` | 48 | 47 |
+| 36 | `26` | 50 | 49 |
+| 37 | `27` | 51 | 50 |
+| 38 | `28` | 52 | 51 |
+| 39 | `29` | 53 | 52 |
+| 40 | `29-எ` | 55 | 54 |
+| 41 | `30` | 55 | 54 |
+| 42 | `31` | 55 | 54 |
+| 43 | `32` | 56 | 55 |
+| 44 | `33` | 58 | 57 |
+| 45 | `33-எ` | 59 | 58 |
+| 46 | `34` | 59 | 58 |
+| 47 | `35` | 60 | 59 |
+| 48 | `36` | 60 | 59 |
+| 49 | `37` | 61 | 60 |
+| 50 | `38` | 62 | 61 |
+| 51 | `39` | 64 | 63 |
+| 52 | `40` | 65 | 64 |
+| 53 | `41` | 66 | 65 |
+| 54 | `42` | 67 | 66 |
+| 55 | `42-எ` | 68 | 67 |
+| 56 | `43` | 70 | 69 |
+| 57 | `44` | 71 | 70 |
+| 58 | `45-46` | 71 | 70 |
+| 59 | `47` | 72 | 71 |
+| 60 | `48` | 72 | 71 |
+| 61 | `49` | 75 | 74 |
+| 62 | `50` | 76 | 75 |
+| 63 | `51` | 76 | 75 |
+| 64 | `52` | 78 | 77 |
+| 65 | `53` | 81 | 80 |
+| 66 | `53-எ` | 81 | 80 |
+| 67 | `53-பி` | 81 | 80 |
+| 68 | `53-சி` | 81 | 80 |
+| 69 | `53-டி` | 83 | 82 |
+| 70 | `54` | 85 | 84 |
+| 71 | `55` | 86 | 85 |
+| 72 | `56` | 87 | 86 |
 
 ## Sequence findings
 
-- observed heading occurrences: **71**;
+- observed heading occurrences: **72**;
 - unsuffixed/combined headings: **55**;
-- suffix insertions: **16**;
+- suffix insertions: **17**;
 - numerical range represented: **1–56**;
 - combined source heading: **`45-46`**;
-- suffix insertions: `10-எ`, `14-எ`, `16-எ`, `20-எ`, `22-எ`, `24-எ`, `24-பி`, `24-சி`, `24-டி`, `29-எ`, `33-எ`, `42-எ`, `53-எ`, `53-பி`, `53-சி`, `53-டி`;
+- suffix insertions: `4-எ`, `10-எ`, `14-எ`, `16-எ`, `20-எ`, `22-எ`, `24-எ`, `24-பி`, `24-சி`, `24-டி`, `29-எ`, `33-எ`, `42-எ`, `53-எ`, `53-பி`, `53-சி`, `53-டி`;
 - repeated PDF start pages are source-supported: multiple numbered scenes begin on the same printed page;
-- no synthetic scene 45 or scene 46 should be created merely to force a simple numeric sequence before the derivative boundary gate decides how the **printed combined `45-46` structure** is represented.
+- no synthetic scene 45 or scene 46 is created: the printed combined `45-46` remains one source disposition.
 
-## Typography examples that must remain occurrence-specific
+## Typography safeguards
 
-The scan visibly varies heading punctuation/spacing. Examples observed during mapping/canonical first pass include forms equivalent to:
+Exact printed heading typography remains in canonical pages and scene derivatives. The structural ID list is navigation metadata only and is not permission to normalize dash form, spacing or punctuation.
 
-- `காட்சி 10-எ`;
-- `காட்சி—14 எ` / source spacing at PDF 27;
-- `காட்சி 24-எ` and `காட்சி-24-பி` on the same PDF page;
-- `காட்சி-24 சி` / `காட்சி-24 டி`;
-- `காட்சி -- 42`;
-- `காட்சி — 42-எ`;
-- `காட்சி-44` and the combined `காட்சி-45-46`;
-- four distinct scene starts on PDF 81: `53`, `53-எ`, `53-பி`, `53-சி`;
-- source-visible `காட்சி -- 53 டி` on PDF 83.
-
-These examples are structural observations, not permission to normalize the exact glyph/punctuation form. Canonical transcription must copy each printed occurrence from source pixels.
-
-## Internal location-caption safeguard
-
-A location caption does not automatically imply a new scene number. PDF 22, for example, begins numbered scene 12 and later contains `கோகிலா அறை` as an internal location caption without a new `காட்சி` number. Scene-derivative work must respect this distinction after Tamil verification.
+An internal location caption does not automatically create a scene. PDF 22, for example, begins scene 12 and later contains `கோகிலா அறை` without a new `காட்சி` heading.
 
 ## Gate disposition
 
-This audit closes the **scene-heading identity/start-page mapping gate** at **71/71 observed headings**. It does not verify the full lexical content of every location caption or any dialogue. Those remain canonical-transcription and visual-fidelity work.
+**PASS — 72/72 source-visible headings are mapped.** `scenes/index.json` and `notes/scene-boundary-ownership-qa.md` independently close the scene derivative gate with 72/72 derivatives, exact ordered-span reconstruction, and 0 gaps / 0 overlaps.

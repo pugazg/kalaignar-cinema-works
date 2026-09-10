@@ -1,6 +1,6 @@
 # Kalaignar Cinema Works — Status Consistency Audit
 
-Audit date: 2026-09-08  
+Audit date: 2026-09-10  
 Repository: `pugazg/kalaignar-cinema-works`  
 Branch: `main`
 
@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified. **Naam / நாம்** has canonical Tamil **67/67 COMPLETE-VERIFIED** and scene-text derivatives **45/45 COMPLETE-VERIFIED** with boundary ownership QA **PASS — 0 gaps / 0 overlaps**. Naam is now through a verified English scene-1 pilot after all Tamil and structured gates, including the reconciled 7/7 song/performance gate.
+**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is now closed through its 72/72 source-led scene derivative gate with boundary ownership QA PASS; dialogue indexing is READY-NEXT. Ammayappan remains complete-verified. **Naam / நாம்** has canonical Tamil **67/67 COMPLETE-VERIFIED** and scene-text derivatives **45/45 COMPLETE-VERIFIED** with boundary ownership QA **PASS — 0 gaps / 0 overlaps**. Naam is now through a verified English scene-1 pilot after all Tamil and structured gates, including the reconciled 7/7 song/performance gate.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -26,7 +26,18 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Vandikkaran Magan / வண்டிக்காரன் மகன் | intake + map complete-verified; canonical first pass **5/84 draft** | 70 observed scene headings; derivatives blocked | not-started | not-started |
+| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scene derivatives; boundary QA PASS — 0 gaps / 0 overlaps** | not-started | not-started |
+
+## Vandikkaran Magan current checkpoint
+
+- canonical Tamil / visual / historical-glyph / final visual: **87/87 / 87/87 / 87/87 / 87/87 COMPLETE-PASS**;
+- source-visible scene-heading inventory: **72/72**, with PDF 10 `காட்சி — 4 எ.` correcting the stale 71-heading inventory;
+- scene derivatives: **72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
+- canonical/joined scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
+- dialogue index: **READY-NEXT**.
+
+**Next production phase:** build and verify immutable dialogue records from explicit source speaker labels only; preserve exact text/provenance and cross-page ownership; leave unlabelled speech unassigned; run whole-work uniqueness/coverage QA; then synchronize mirrors before character/entity indexing.
 
 ## Naam current checkpoint
 
@@ -129,8 +140,7 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Ammayappan remains closed through Reading Room payload QA PASS. **Naam / நாம்** now has canonical Tamil **67/67 COMPLETE-VERIFIED with 0 open source uncertainties**. The next production phase is scene-text derivative construction for source-numbered காட்சி 1–45 with boundary-ownership QA.
-
+Vandikkaran Magan is the active production work. Its canonical Tamil/source gates and **72/72 scene derivative layer are COMPLETE-VERIFIED with boundary QA PASS**. **Next: immutable dialogue indexing from explicit source speaker labels only.**
 
 <!-- Naam song gate reconciled 7/7 -->
 **Naam current structured checkpoint:** song/performance gate **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED** after the pre-English 45-scene sweep restored scene-1 PDF 6–7 `(பாட்டு)` as append-only `naam-perf-007`; 1 item-level source attribution (`ஆயிரம் தெய்வங்கள்` → `பாரதியார்`), 6 unresolved item-level authorships. **Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.
