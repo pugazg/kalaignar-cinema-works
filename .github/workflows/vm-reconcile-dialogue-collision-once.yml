@@ -15,25 +15,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Diagnose source-labelled action-only rows
-        run: |
-          python - <<'PY'
-          import json,re
-          from pathlib import Path
-          p=Path('works/vandikkaran-magan/notes/dialogue-structural-collision-audit.json')
-          rows=json.loads(p.read_text(encoding='utf-8'))['collisions']
-          rx=re.compile(r'^(?:\([^\n]*\)|\[[^\n]*\]|\{[^\n]*\})$')
-          pure=[x for x in rows if rx.fullmatch(x['text'].strip())]
-          print('PURE_ACTION_COUNT',len(pure))
-          for x in pure: print(x['pdf_page'],x['speaker_label'],x['raw'])
-          PY
-      - name: Repair reconciliation-script scope and reconcile immutable dialogue authority
+      - name: Repair classifier and reconcile immutable dialogue authority
         run: |
           python - <<'PY'
           from pathlib import Path
           p=Path('works/vandikkaran-magan/scripts/reconcile_dialogue_structural_collisions.py')
           s=p.read_text(encoding='utf-8')
           s=s.replace('            nonlocal active\n', '            global active\n').replace('        nonlocal active\n', '        global active\n')
+          s=s.replace("PURE_ACTION_RE = re.compile(r'^(?:\\([^\\n]*\\)|\\[[^\\n]*\\]|\\{[^\\n]*\\})$')", "PURE_ACTION_RE = re.compile(r'^(?:\\([^()\\n]*\\)|\\[[^\\[\\]\\n]*\\]|\\{[^{}\\n]*\\})$')")
           p.write_text(s,encoding='utf-8')
           PY
           python works/vandikkaran-magan/scripts/reconcile_dialogue_structural_collisions.py
