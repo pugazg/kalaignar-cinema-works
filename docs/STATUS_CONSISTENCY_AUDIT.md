@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Vandikkaran Magan English translation is **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS** at **1,181 units / 773 immutable dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 verified performance occurrence identities**. Its deterministic English reader/export is also **COMPLETE-VERIFIED / QA PASS** with every verified translation unit rendered exactly once in Markdown and HTML and round-tripped exactly once in JSON. Reader authoritative-input aggregate SHA-256 is `5d94ea51126757f3e0151250d9857a9045434897817ca02ffb72082cac6b1ee8`. All closed Tamil/scene/dialogue/character/song authorities remain unchanged.
+**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is complete-verified through its deterministic source-linked Reading Room payload: **72/72 scenes / 1,181 English units / 773 immutable dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 performance identities**. Reader/export QA and Reading Room payload QA both PASS. Payload SHA-256 is `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba` (1,610,402 bytes). All closed Tamil/scene/dialogue/character/song/translation/reader authorities remain unchanged and the separate site is not applied.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **English reader/export QA PASS; Reading Room ready-next** |
+| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **reader/export + Reading Room payload QA PASS; site not applied** |
 
 ## Vandikkaran Magan current checkpoint
 
@@ -34,16 +34,17 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 - scene derivatives: **72/72 COMPLETE-VERIFIED / boundary QA PASS**;
 - reconciled immutable dialogue index: **773 / 38 exact labels / COMPLETE-VERIFIED-RECONCILED / QA PASS**;
 - character/entity index: **32 entities / 38/38 labels / 773/773 records / COMPLETE-VERIFIED / QA PASS**;
-- song/performance layer: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- item-level source-attributed lyricists: **0**; unresolved item-level lyric authorships: **6**;
-- English translation: **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS — 1,181 units / 773 immutable dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 unique performance occurrence identities**;
-- final English batch: **61–72 / PASS — 172 units / 105 immutable dialogue links / 6 source-unlabelled spoken units / perf-009 linked / 0 provenance fallbacks**;
-- deterministic English reader/export: **COMPLETE-VERIFIED / QA PASS** — all 1,181 units exactly once in Markdown/HTML and exact JSON round-trip;
-- reader output SHA-256: Markdown `1acd577e7b5e42b5b4f9c09e40668e7b01daa82b6b150fc02caddfa74e14e41a`, HTML `7a23b8f0f8b35692dd15f10708b87f857c8b4c2b3c82ce104ac9926853015330`, JSON `d7d9736b80a33d6d85bc911d0fe815219e1c6bf8d93d725fc4f3b56d9c1ad7ab`;
-- upstream canonical Tamil / scene / dialogue-record / character-mapping / song-record mutation from English/reader phases: **0**.
+- song/performance layer: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS** — 6 bounded bodies + 3 cue-only;
+- item-level lyric authorship: **0 source-attributed / 6 unresolved / 3 not-applicable**;
+- English translation: **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS — 1,181 units / 773 links / 27 source-unlabelled / 58 cross-page / 9/9 performance identities**;
+- deterministic English reader/export: **COMPLETE-VERIFIED / QA PASS**;
+- source-linked Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED / QA PASS**;
+- payload: `works/vandikkaran-magan/integrations/reading-room/reading-room.json` — **1,610,402 bytes / SHA-256 `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**;
+- payload authoritative-input aggregate: **150 files / SHA-256 `f76205e7994d53ce41b8554dc3f5597370e968abdadf43821e99a7e5a6850de0`**;
+- site application: **not-applied**;
+- upstream source/translation/reader mutation from payload generation: **0**.
 
-**Next production phase:** Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized.
-
+**Next production phase:** No required repository-internal `வண்டிக்காரன் மகன்` production work remains. Keep canonical Tamil, scene, reconciled immutable dialogue, character/entity, song/performance, English translation, reader/export and Reading Room payload layers closed. Apply `works/vandikkaran-magan/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; fetch its live state first and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here.
 ## Naam current checkpoint
 
 - canonical Tamil: **67/67 COMPLETE-VERIFIED**;
@@ -145,4 +146,4 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Vandikkaran Magan is the active production work. Its source/Tamil, 72-scene, reconciled 773-dialogue, 32-entity, 9-occurrence song/performance, 72-scene English translation and deterministic reader/export authorities are closed with QA PASS. **Next: build and verify the source-linked Reading Room payload inside this repository; do not apply it to the separate site without explicit authorization.**
+Vandikkaran Magan repository-internal production is closed through Reading Room payload QA PASS; separate-site application remains not-applied and requires explicit authorization.

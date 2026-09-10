@@ -78,8 +78,13 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 - unmapped labels / dialogue records: **0 / 0**;
 - dialogue/source labels rewritten: **0**.
 
+## Downstream closure
+
+- English translation: **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS**;
+- deterministic English reader/export: **COMPLETE-VERIFIED / QA PASS**;
+- source-linked Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED / QA PASS — 1,610,402 bytes / SHA-256 `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**;
+- separate site application: **not-applied**.
+
 ## Exact next activity
 
-English translation is now **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS** at **1,181 units / 773 immutable dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 verified performance occurrence identities**. The deterministic English reader/export is **COMPLETE-VERIFIED / QA PASS** under `editions/en/`.
-
-**Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized.**
+**No required repository-internal `வண்டிக்காரன் மகன்` production work remains. Keep canonical Tamil, scene, reconciled immutable dialogue, character/entity, song/performance, English translation, reader/export and Reading Room payload layers closed. Apply `works/vandikkaran-magan/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; fetch its live state first and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here.**

@@ -24,21 +24,21 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## வண்டிக்காரன் மகன் status
 
-`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` now has a **complete-verified Tamil + structured + English reader checkpoint**.
+`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is now a **complete-verified Tamil + structured + English reader + Reading Room payload archival work**.
 
 - canonical Tamil: **87/87 COMPLETE-VERIFIED / 0 open uncertainties**;
 - scenes: **72/72 COMPLETE-VERIFIED / boundary QA PASS**;
 - reconciled immutable dialogues: **773 / 38 exact labels / COMPLETE-VERIFIED-RECONCILED / QA PASS**;
 - character/entity index: **32 entities / 38/38 labels / 773/773 records / COMPLETE-VERIFIED / QA PASS**;
 - song/performance gate: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- item-level lyric authorship: **0 source-attributed / 6 unresolved**; PDF 88 `பாடல்கள்: கவிஞர் வாலி` remains film-level metadata only;
+- item-level lyric authorship: **0 source-attributed / 6 unresolved / 3 not-applicable**; PDF 88 `பாடல்கள்: கவிஞர் வாலி` remains film-level metadata only;
 - English translation: **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS — 1,181 units / 773 dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 performance occurrences**;
-- deterministic English reader/export: **COMPLETE-VERIFIED / QA PASS** — Markdown / HTML / JSON / manifest under `works/vandikkaran-magan/editions/en/`;
-- reader input aggregate SHA-256: `5d94ea51126757f3e0151250d9857a9045434897817ca02ffb72082cac6b1ee8`;
-- Reading Room payload: **READY-NEXT / site not modified**.
+- deterministic English reader/export: **COMPLETE-VERIFIED / QA PASS**;
+- Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED / QA PASS — 1,610,402 bytes / SHA-256 `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**;
+- Reading Room payload authoritative-input aggregate: **150 files / SHA-256 `f76205e7994d53ce41b8554dc3f5597370e968abdadf43821e99a7e5a6850de0`**;
+- site application: **not-applied**.
 
-**Next:** Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized.
-
+**Next:** No required repository-internal `வண்டிக்காரன் மகன்` production work remains. Keep canonical Tamil, scene, reconciled immutable dialogue, character/entity, song/performance, English translation, reader/export and Reading Room payload layers closed. Apply `works/vandikkaran-magan/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; fetch its live state first and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here.
 ## நாம் status
 
 `TVA_BOK_0064201_நாம்.pdf` now has **complete-verified canonical Tamil**. The user's manual controlling-scan review resolved the three former source-obscuration holds.

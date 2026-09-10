@@ -162,5 +162,12 @@ status:
   english_reader_qa_cross_page_units: 58
   english_reader_qa_song_occurrence_links: 9
   english_reader_manifest_path: works/vandikkaran-magan/editions/en/manifest.json
-  reading_room_integration: ready-next
-next_action: "Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized."
+  reading_room_integration: payload-complete-verified
+  reading_room_payload_path: works/vandikkaran-magan/integrations/reading-room/reading-room.json
+  reading_room_qa: PASS
+  reading_room_qa_path: works/vandikkaran-magan/integrations/reading-room/QA_REPORT.md
+  reading_room_manifest_path: works/vandikkaran-magan/integrations/reading-room/manifest.json
+  reading_room_payload_bytes: 1610402
+  reading_room_payload_sha256: 1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba
+  reading_room_site_application: not-applied
+next_action: "No required repository-internal `வண்டிக்காரன் மகன்` production work remains. Keep canonical Tamil, scene, reconciled immutable dialogue, character/entity, song/performance, English translation, reader/export and Reading Room payload layers closed. Apply `works/vandikkaran-magan/integrations/reading-room/reading-room.json` in the separate Kalaignar Digital Library / Reading Room implementation repository only when that repository is explicitly authorized for modification; fetch its live state first and use a fail-closed importer pinned to this verified payload/manifest. Site application remains not-applied here."

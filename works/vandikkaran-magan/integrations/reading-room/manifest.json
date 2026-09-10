@@ -1,0 +1,48 @@
+{
+  "work_id": "vandikkaran-magan",
+  "integration": "reading-room",
+  "build_version": 1,
+  "status": "PASS",
+  "site_application_status": "not-applied",
+  "source_sha256": "03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253",
+  "reader_input_paths": [
+    "works/vandikkaran-magan/editions/en/reader-edition.json",
+    "works/vandikkaran-magan/editions/en/manifest.json"
+  ],
+  "authoritative_input_files": 150,
+  "authoritative_input_aggregate_sha256": "f76205e7994d53ce41b8554dc3f5597370e968abdadf43821e99a7e5a6850de0",
+  "checkpoint": {
+    "screenplay_scenes": 72,
+    "tamil_scene_texts": 72,
+    "english_units": 1181,
+    "dialogue_units": 800,
+    "immutable_dialogue_links": 773,
+    "source_unlabelled_spoken_units": 27,
+    "stage_direction_units": 316,
+    "performance_cue_units": 10,
+    "song_units": 53,
+    "written_text_units": 2,
+    "cross_page_units": 58,
+    "performance_occurrence_identities": 9,
+    "performance_linked_units": 66,
+    "bounded_tamil_performance_bodies": 6,
+    "cue_only_non_lyric_performances": 3,
+    "source_attributed_item_level_lyric_authorships": 0,
+    "unresolved_item_level_lyric_authorships": 6
+  },
+  "output": {
+    "path": "works/vandikkaran-magan/integrations/reading-room/reading-room.json",
+    "bytes": 1610402,
+    "sha256": "1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba"
+  },
+  "qa_report": {
+    "path": "works/vandikkaran-magan/integrations/reading-room/QA_REPORT.md",
+    "bytes": 2140,
+    "sha256": "03fb747b7014aed7aabc70434ba32a930bcda503891c222f7d2fe553772a0558"
+  },
+  "readme": {
+    "path": "works/vandikkaran-magan/integrations/reading-room/README.md",
+    "bytes": 2130,
+    "sha256": "77910971c055be1c8b26eda4261d1a070dc83514fd47f0c529fd66f85e56b809"
+  }
+}
