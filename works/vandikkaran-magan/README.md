@@ -34,20 +34,20 @@ The source has **71 observed scene-heading occurrences**. Preserve inserted suff
 
 ## Historical Tamil glyph rule
 
-The dedicated historical-glyph phase must inspect occurrence by occurrence:
+The completed dedicated historical-glyph phase inspected occurrence by occurrence:
 
 `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
-Use `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`. Never global-replace. Source pixels control.
+See `notes/historical-glyph-audit.md`. Never global-replace. Source pixels control.
 
 ## User-directed processing sequence
 
-1. **First-pass transcription:** 5 PDF pages → commit/push → repeat through PDF 90.
-2. **Visual verification:** 5 PDF pages → commit/push → repeat through PDF 90.
-3. **Historical-glyph verification:** **15 PDF pages per iteration from PDF 34 onward; final remainder may be shorter** → commit/push → repeat through PDF 90.
-4. **Final visual verification:** full-work final source check.
+1. **First-pass transcription:** COMPLETE.
+2. **Visual verification:** COMPLETE.
+3. **Historical-glyph verification:** COMPLETE / PASS.
+4. **Final visual verification:** NEXT — full-work final source check.
 
-Do not interleave phases.
+Do not interleave closed phases.
 
 ## Current status
 
@@ -56,21 +56,19 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - remaining visual-verification pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–78 / 75 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **12**;
-- active dedicated glyph batch size: **15 source pages**;
+- dedicated historical-glyph verification: **COMPLETE / PASS — PDF 4–90 / 87 of 87 VERIFIED**;
 - cumulative dedicated glyph corrections: **0**;
 - unresolved glyph holds: **0**;
-- final visual verification: **NOT-STARTED**;
+- final visual verification: **NOT-STARTED — 0 / 87**;
 - open uncertainty markers: **0 recorded**;
-- structured derivatives / English / reader work: **BLOCKED**.
+- structured derivatives / English / reader work: **BLOCKED** pending final visual closure.
 
-## Latest dedicated historical-glyph batch
+## Final dedicated historical-glyph batch
 
-PDF **64–78** is complete as a 15-page dedicated glyph iteration. Representative confirmed forms include `மாப்பிள்ளை`, `கிளிஞ்சலைக்`, `உன்னை`, `ஆணையிட்டுச்`, `கலைச்சுக்`, `கண்ணாயிரம்`, `பெண்ணைத்`, `பின்னையிட்ட`, `அன்னையிட்ட`, `சொன்னால்`, `கல்யாணம்`, `காவலனைத்`, `திருவிளையாடலைப்`, `கருணை`, `மணலைக்`, `சாய்கிறார்`, `மாப்பிள்ளே`, `வயிற்றுப்பிள்ளையா`, `வேலை`, `கண்ணைக்`, `அவளைப்`, `காளை`, `சொன்னா`, `கண்ணைத்`, `அத்தனைக்கும்`, `ஆலையில்`, `யானைத்`, `பேரப்பிள்ளே`, `காளையைப்`, `நாளைக்கு`, `உங்களையா`, `இல்லையே`, `உன்னையும்`, and `மனைவிக்கு`.
+PDF **79–90** closed the dedicated glyph phase. Representative confirmed forms include `மனைவிக்குத்`, `கண்ணைத்`, `மண்ணைத்`, `சதிவேலைக்கு`, `உங்களைப்`, `உங்களைச்`, `அவளை`, `காலையில்`, `பொன்னாடம்`, `கண்ணாயிரம்`, `காளையை`, `காளிங்கராயனை`, `அரிவாள்மனையை`, `எத்தனையோ`, `சிலையைத்`, `கயிறாக`, `வளைப்பாயோ`, `எரிமலை`, `பிள்ளை`, `அன்னையைக்`, `அணைச்சு`, `வேலை`, `இல்லை`, `தானியங்களைப்`, `காளையைக்`, `மாலை`, `அண்ணா`, and `கலைஞர்`.
 
-Canonical page-text glyph corrections in this batch: **0**. Cumulative dedicated glyph corrections: **0**. Unresolved glyph holds: **0**.
+Canonical page-text glyph corrections in the final batch: **0**. Cumulative dedicated glyph corrections: **0**. Unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 79–90 as the final twelve-page remainder. Inspect every target-family occurrence directly against enlarged source pixels, record source evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 87/87 and close the glyph phase, commit/push, then transition to final full visual verification.**
+> **Run final full visual verification across PDF 4–90 against the controlling scan. Re-read the complete scoped work for final source fidelity; make only direct-source-supported corrections; confirm all scene/credit/performance structures and closed glyph identities; then mark final visual verification 87/87 COMPLETE/PASS and synchronize checkpoint docs before unblocking derivatives.**
