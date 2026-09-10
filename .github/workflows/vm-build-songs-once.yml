@@ -15,8 +15,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build and verify song/performance layer
-        run: python works/vandikkaran-magan/scripts/build_song_performance_index.py
+      - name: Repair QA assertion and build layer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('works/vandikkaran-magan/scripts/build_song_performance_index.py')
+          s = p.read_text(encoding='utf-8')
+          bad = "assert all(qa['checks'].values()) except qa['checks']['film_level_vali_credit_promoted_to_item_level'] is False"
+          good = "assert qa['checks']['film_level_vali_credit_promoted_to_item_level'] is False\nassert all(v for k, v in qa['checks'].items() if k != 'film_level_vali_credit_promoted_to_item_level')"
+          assert bad in s
+          p.write_text(s.replace(bad, good), encoding='utf-8')
+          PY
+          python works/vandikkaran-magan/scripts/build_song_performance_index.py
       - name: Commit source-only performance layer
         run: |
           git config user.name 'github-actions[bot]'
