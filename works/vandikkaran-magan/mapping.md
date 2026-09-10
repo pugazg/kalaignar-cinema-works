@@ -114,7 +114,7 @@ Examples establishing structurally meaningful source location text include:
 - scene 55 / PDF 86: `ஜமீன்தார் அந்தரங்க மாளிகை / வெளிப்புறம்`;
 - scene 56 / PDF 87: `சடையன் வீடு`.
 
-The full visual pass is now complete, including exact source heading/location verification through the closing scenes.
+The full visual pass is complete, including exact source heading/location verification through the closing scenes.
 
 ## Song / performance structures at mapping stage
 
@@ -130,7 +130,7 @@ Additional candidates may emerge during later dedicated gates. **No final occurr
 
 ## Historical Tamil glyph disposition
 
-The typeface shows older Tamil forms and therefore requires the project historical-glyph workflow.
+The typeface shows older Tamil forms and therefore required the project historical-glyph workflow.
 
 Mandatory families:
 
@@ -145,7 +145,7 @@ Rules:
 - preserve source spelling/grammar/punctuation after glyph identity is decoded;
 - keep unresolved clusters explicit rather than guessing.
 
-Dedicated historical-glyph verification is now complete through PDF **78**: PDF 4–8, 9–13, 14–18, 19–23, PDF 24–33, PDF 34–48, PDF 49–63, and PDF 64–78 all PASS. The active dedicated-glyph cadence is **15 source pages per iteration**, with final remainder PDF 79–90. Cumulative canonical glyph corrections: **0**; unresolved glyph holds: **0**. The old prospective `நாணயத்தின்` → `ணா` example remains withdrawn because that word does not contain the `ணா` family.
+Dedicated historical-glyph verification is **COMPLETE / PASS through PDF 90 — 87/87 scoped pages**. Batches PDF 4–8, 9–13, 14–18, 19–23, 24–33, 34–48, 49–63, 64–78, and final remainder 79–90 all PASS. Cumulative canonical glyph corrections: **0**; unresolved glyph holds: **0**. The old prospective `நாணயத்தின்` → `ணா` example remains withdrawn because that word does not contain the `ணா` family.
 
 ## Scan condition / defects
 
@@ -162,12 +162,14 @@ Dedicated historical-glyph verification is now complete through PDF **78**: PDF 
 - scene-heading inventory: **71/71 observed heading occurrences mapped**;
 - canonical Tamil first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual fidelity audit: **COMPLETE — PDF 4–90 / 87 of 87 visually verified**;
-- historical-glyph full audit: **IN PROGRESS — PDF 4–78 / 75 of 87 verified**;
-- active historical-glyph batch size: **15 source pages**;
+- historical-glyph full audit: **COMPLETE / PASS — PDF 4–90 / 87 of 87 verified**;
+- cumulative glyph corrections: **0**;
+- unresolved glyph holds: **0**;
+- final full visual verification: **NOT-STARTED**;
 - structured derivatives: **BLOCKED**;
 - song/performance authorship gate: **NOT-STARTED**;
 - English translation / reader / Reading Room: **NOT-STARTED**.
 
 ## Exact next activity
 
-**Complete the dedicated historical-glyph audit with PDF 79–90 as the final twelve-page remainder. Inspect the mandatory glyph families occurrence by occurrence against enlarged source pixels, record evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph-identity corrections, update the dedicated glyph counters to 87/87 and close the glyph audit, commit/push, then transition to final full visual verification.**
+**Run the final full visual verification across PDF 4–90. Re-read every scoped page against the controlling scan, confirm source wording, punctuation, headings, location captions, performance layout, credit matter, directly visible back-cover text, and the already-closed glyph identities; make only direct-source-supported corrections; then mark final visual verification 87/87 COMPLETE/PASS and synchronize all checkpoint docs before unblocking derivatives.**
