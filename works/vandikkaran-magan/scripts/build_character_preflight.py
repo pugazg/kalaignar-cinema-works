@@ -45,8 +45,8 @@ for label in sorted(by_label):
         for p in r['page_provenance']:
             if p['pdf_page'] not in pdf_pages:
                 pdf_pages.append(p['pdf_page'])
-        scene_file = r['source_scene_file']
-        srows = scene_records[scene_file]
+        dialogue_scene_file = r['source_scene_file'].replace('.md', '.json')
+        srows = scene_records[dialogue_scene_file]
         pos = next(i for i, x in enumerate(srows) if x['id'] == r['id'])
         prev_r = srows[pos-1] if pos > 0 else None
         next_r = srows[pos+1] if pos+1 < len(srows) else None
