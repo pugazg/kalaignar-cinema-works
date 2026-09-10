@@ -1,0 +1,38 @@
+name: Vandikkaran Magan English scenes 41-60 once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-translation-batch-041-060-once.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and verify English scenes 41-60
+        run: |
+          python works/vandikkaran-magan/scripts/build_translation_batch_041_060.py
+      - name: Verify generated JSON parses
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          W=Path('works/vandikkaran-magan')
+          for p in [W/'translations'/'index.json', W/'translations'/'batch-041-060-qa.json']:
+              json.loads(p.read_text(encoding='utf-8'))
+          for n in range(41,61):
+              obj=json.loads((W/'translations'/'records'/f'scene-{n:03d}.json').read_text(encoding='utf-8'))
+              assert obj['scene_status']=='verified' and obj['scene_ordinal']==n
+          print('generated-json-parse-pass')
+          PY
+      - name: Commit verified batch
+        run: |
+          rm -f .github/workflows/vm-translation-batch-041-060-once.yml
+          rm -f .github/data/vm_translation_sourcepack_041_060.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Build Vandikkaran Magan English scenes 41-60 [skip ci]'
+          git push origin main
