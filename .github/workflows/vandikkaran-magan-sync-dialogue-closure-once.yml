@@ -1,0 +1,194 @@
+name: Vandikkaran Magan sync dialogue closure once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vandikkaran-magan-sync-dialogue-closure-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize dialogue closure
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, re
+
+          R = Path('.')
+          W = R / 'works/vandikkaran-magan'
+          D = json.loads((W/'dialogues/index.json').read_text(encoding='utf-8'))
+          assert D['status'] == 'complete-verified'
+          assert D['dialogue_record_count'] == 744
+          assert D['distinct_exact_speaker_labels'] == 38
+          assert D['multi_page_dialogue_records'] == 3
+          assert len(D['zero_dialogue_scenes']) == 15
+          assert D['delimiter_distribution'] == {':': 8, ':—': 736}
+
+          NEXT = ('Begin character/entity indexing from the complete-verified 744-record dialogue layer. '
+                  'Inventory all 38 exact source speaker labels first; preserve every label in immutable dialogue provenance; '
+                  'map spelling/abbreviation variants only in a separate interpretive alias layer when source/context supports the relationship; '
+                  'keep generic roles, voices and collectives explicit; run 38/38 label and 744/744 dialogue-record coverage QA; '
+                  'then synchronize checkpoints before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes or dialogue records.')
+
+          def replace(path, old, new, label):
+              p=Path(path); t=p.read_text(encoding='utf-8')
+              if old not in t: raise SystemExit(f'missing {label}: {old!r}')
+              p.write_text(t.replace(old,new), encoding='utf-8')
+
+          # Close the reviewed preflight and keep builder reproducible.
+          p=W/'notes/dialogue-index-preflight.json'; pre=json.loads(p.read_text(encoding='utf-8'))
+          assert pre['explicit_dialogue_candidates']==744 and len(pre['anomalous_delimiter_candidates'])==16 and len(pre['cross_page_continuation_candidates'])==3
+          pre['status']='review-complete'
+          pre['review_summary']={
+              'explicit_candidates_accepted':744,
+              'anomalous_non_colon_candidates_reviewed':16,
+              'anomalous_non_colon_candidates_promoted':0,
+              'cross_page_candidates_reviewed':3,
+              'cross_page_candidates_retained_as_single_records':3,
+              'colon_only_records_reviewed':8,
+              'colon_only_disposition':'explicit speaker label with delimiter : and complete source text —',
+              'unlabelled_source_blocks_assigned_speakers':0
+          }
+          p.write_text(json.dumps(pre,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          p=W/'notes/dialogue-index-preflight.md'; t=p.read_text(encoding='utf-8')
+          t=t.replace('Status: **REVIEW READY**','Status: **REVIEW COMPLETE**')
+          t=re.sub(r'## Gate\n\n.*?\n?$', '''## Review disposition
+
+- all **744** explicit labelled candidates accepted as immutable-dialogue starts;
+- all **16** non-colon anomaly candidates reviewed as punctuation/verse fragments and excluded from dialogue starts;
+- all **3** cross-page candidates retained as one dialogue record each;
+- all **8** colon-only cases are source-explicit dialogue records whose complete text is `—`;
+- source-unlabelled blocks assigned a speaker: **0**.
+
+**PASS — preflight review is closed and `dialogues/` is COMPLETE-VERIFIED.**
+''',t,flags=re.S)
+          p.write_text(t,encoding='utf-8')
+
+          replace(W/'scripts/build_dialogues.py', 'assert preflight["status"] == "review-ready" and preflight["scene_count"] == 72', 'assert preflight["status"] in {"review-ready", "review-complete"} and preflight["scene_count"] == 72', 'builder status')
+
+          # Work-local status mirrors.
+          replace(W/'README.md', '- dialogue index: **READY-NEXT**;\n- character/entity index: **BLOCKED pending dialogue closure**;', '- dialogue index: **744 immutable records / COMPLETE-VERIFIED / QA PASS**;\n- exact source speaker labels / cross-page records / zero-dialogue scenes: **38 / 3 / 15**;\n- character/entity index: **READY-NEXT**;', 'README gates')
+          p=W/'README.md'; t=p.read_text(encoding='utf-8'); t=re.sub(r'## Exact next activity\n\n.*?\n?$', '## Exact next activity\n\n'+NEXT+'\n', t, flags=re.S); p.write_text(t,encoding='utf-8')
+
+          replace(W/'PROJECT_HANDOVER.md', '- dialogue index: **READY-NEXT**;\n- character/entity index: **BLOCKED pending dialogue closure**;', '- dialogue index: **744 immutable records / COMPLETE-VERIFIED / QA PASS**;\n- exact source speaker labels: **38**; delimiter distribution: **`:—` 736 / `:` 8**;\n- cross-page dialogue records: **3**; zero-dialogue scenes: **15**;\n- anomalous non-colon candidates promoted: **0/16**; inferred-speaker assignments: **0**;\n- character/entity index: **READY-NEXT**;', 'handover gates')
+          p=W/'PROJECT_HANDOVER.md'; t=p.read_text(encoding='utf-8'); t=re.sub(r'## Exact next activity\n\n> \*\*.*?\*\*\n?$', '## Exact next activity\n\n> **'+NEXT+'**\n', t, flags=re.S); p.write_text(t,encoding='utf-8')
+
+          (W/'NEXT_CHAT_PROMPT.md').write_text(f'''# Next Chat Prompt — வண்டிக்காரன் மகன் / character-entity index
+
+Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
+
+## Durable closed state
+
+- controlling source: `TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` — 90 pages / first edition 1978 / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`;
+- canonical Tamil: **87/87 COMPLETE-VERIFIED**;
+- source-visible scene headings / derivatives: **72/72 / 72/72 COMPLETE-VERIFIED**;
+- scene boundary QA: **PASS — 0 gaps / 0 overlaps / 82/82 screenplay pages**;
+- immutable dialogue index: **744 records / COMPLETE-VERIFIED / QA PASS**;
+- exact source speaker labels: **38**;
+- delimiter distribution: **`:—` 736 / `:` 8**;
+- cross-page dialogue records: **3**;
+- zero-dialogue scenes: **15**;
+- anomalous non-colon candidates promoted to dialogue: **0/16**;
+- source-unlabelled blocks assigned a speaker: **0**.
+
+The eight `:` records are genuine source-labelled turns whose complete dialogue text is `—`. The three cross-page records remain single turns across PDF 48→49 (`சடையன்`), PDF 68→69 (`சடையன்`) and PDF 85→86 (`விங்கன்`).
+
+Do not reopen or rewrite the closed Tamil, scene or dialogue layers.
+
+## Exact next activity
+
+> **{NEXT}**
+''',encoding='utf-8')
+
+          replace(W/'metadata.yaml', '  dialogue_index: ready-next\n  character_entity_index: blocked', '  dialogue_index: complete-verified-744-records\n  dialogue_record_count: 744\n  dialogue_distinct_exact_speaker_labels: 38\n  dialogue_cross_page_records: 3\n  dialogue_zero_record_scenes: 15\n  dialogue_qa_path: works/vandikkaran-magan/notes/dialogue-index-qa.json\n  character_entity_index: ready-next', 'metadata status')
+          p=W/'metadata.yaml'; t=p.read_text(encoding='utf-8'); t=re.sub(r'^next_action: .*$', 'next_action: '+json.dumps(NEXT,ensure_ascii=False), t, flags=re.M); p.write_text(t,encoding='utf-8')
+
+          replace(W/'mapping.md', '- dialogue index: **READY-NEXT**;', '- dialogue index: **744 immutable records / COMPLETE-VERIFIED / QA PASS**;\n- exact speaker labels / cross-page records / zero-dialogue scenes: **38 / 3 / 15**;\n- character/entity index: **READY-NEXT**;', 'mapping status')
+          p=W/'mapping.md'; t=p.read_text(encoding='utf-8'); t=re.sub(r'## Exact next activity\n\n.*?\n?$', '## Exact next activity\n\n**'+NEXT+'**\n',t,flags=re.S); p.write_text(t,encoding='utf-8')
+
+          replace(W/'scenes/README.md', 'Scene-text derivatives are **COMPLETE-VERIFIED**. Dialogue indexing may now open. Character/entity indexing remains blocked until dialogue indexing closes.', 'Scene-text derivatives remain **COMPLETE-VERIFIED**. The downstream immutable dialogue layer is now **744 records / COMPLETE-VERIFIED / QA PASS**. Character/entity indexing is READY-NEXT.', 'scene README downstream')
+          p=W/'transcription/README.md'; t=p.read_text(encoding='utf-8'); t=re.sub(r'## Downstream state\n\n.*?\n?$|## Next\n\n.*?\n?$', '## Downstream state\n\nThe 72/72 scene layer remains COMPLETE-VERIFIED. The immutable dialogue index is now **744 records / COMPLETE-VERIFIED / QA PASS**, with 38 exact source labels and 3 cross-page records. Character/entity indexing is READY-NEXT; canonical Tamil remains closed.\n',t,flags=re.S); p.write_text(t,encoding='utf-8')
+
+          # Registry.
+          p=R/'data/works.json'; works=json.loads(p.read_text(encoding='utf-8')); entry=next(x for x in works if x.get('id')=='vandikkaran-magan')
+          entry['scene_headings_observed']=72; entry['tamil_transcription']='complete-verified'; entry['tamil_first_pass_complete']=True; entry['tamil_transcription_verified_pages']=87; entry['tamil_transcription_draft_pages']=0; entry['tamil_fidelity_audit']='complete'
+          sd=entry.setdefault('structured_derivatives',{})
+          sd.update({'scene_index':'complete-verified','scene_index_path':'works/vandikkaran-magan/scenes/index.json','scene_records':72,'scene_text_derivatives':'complete-verified','scene_text_files_completed':72,'dialogue_index':'complete-verified','dialogue_index_path':'works/vandikkaran-magan/dialogues/index.json','dialogue_records':744,'dialogue_distinct_source_labels':38,'dialogue_cross_page_records':3,'dialogue_zero_record_scenes':D['zero_dialogue_source_scene_ids'],'character_index':'ready-next','next_structured_derivative':'character-entity-index'})
+          entry['next_action']=NEXT
+          p.write_text(json.dumps(works,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Root README active section.
+          p=R/'README.md'; t=p.read_text(encoding='utf-8')
+          section='''## வண்டிக்காரன் மகன் status
+
+`TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf` is the current active cinema-work source.
+
+- source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253` / first edition 1978**;
+- canonical Tamil: **87/87 COMPLETE-VERIFIED / 0 open source uncertainties**;
+- scene headings / derivatives: **72/72 / 72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps**;
+- immutable dialogue index: **744 records / COMPLETE-VERIFIED / QA PASS**;
+- exact labels / cross-page records / zero-dialogue scenes: **38 / 3 / 15**;
+- anomalous non-colon candidates promoted / inferred-speaker assignments: **0/16 / 0**;
+- character/entity index: **READY-NEXT**;
+- song/performance, English and reader layers: **gated downstream**.
+
+**Next:** '''+NEXT+'\n'
+          t2,n=re.subn(r'## வண்டிக்காரன் மகன் status\n.*?(?=\n## நாம் status)',section+'\n',t,flags=re.S)
+          assert n==1,n; p.write_text(t2,encoding='utf-8')
+
+          # Master handover high-level active checkpoint.
+          p=R/'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'; t=p.read_text(encoding='utf-8')
+          t,n=re.subn(r'- \*\*Vandikkaran Magan / வண்டிக்காரன் மகன்\*\* — .*', '- **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; scenes **72/72 COMPLETE-VERIFIED / boundary QA PASS**; immutable dialogues **744 COMPLETE-VERIFIED / 38 exact labels / 3 cross-page / 15 zero-dialogue scenes**; character/entity indexing **READY-NEXT**.',t,count=1)
+          assert n==1,n
+          t=re.sub(r'Ammayappan and Naam remain closed at their recorded checkpoints\. \*\*The current active production work is வண்டிக்காரன் மகன்:.*?\*\*', 'Ammayappan and Naam remain closed at their recorded checkpoints. **The current active production work is வண்டிக்காரன் மகன்: canonical Tamil and 72/72 scenes are closed; its 744-record immutable dialogue layer is COMPLETE-VERIFIED / QA PASS; character/entity indexing is READY-NEXT.**',t,count=1)
+          p.write_text(t,encoding='utf-8')
+
+          # Status consistency audit: result, matrix row, dedicated checkpoint.
+          p=R/'docs/STATUS_CONSISTENCY_AUDIT.md'; t=p.read_text(encoding='utf-8')
+          t=t.replace('**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is now closed through its 72/72 source-led scene derivative gate with boundary ownership QA PASS; dialogue indexing is READY-NEXT.', '**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is now closed through its immutable dialogue gate: 72/72 scenes, 744 dialogue records, 38 exact labels, 3 cross-page records and dialogue QA PASS; character/entity indexing is READY-NEXT.')
+          t,n=re.subn(r'\| Vandikkaran Magan / வண்டிக்காரன் மகன் \|.*', '| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 744 immutable dialogues / 38 exact labels / dialogue QA PASS** | not-started | not-started |',t,count=1); assert n==1,n
+          block='''## Vandikkaran Magan current checkpoint
+
+- canonical Tamil / visual / historical-glyph / final visual: **87/87 / 87/87 / 87/87 / 87/87 COMPLETE-PASS**;
+- source-visible scene-heading inventory: **72/72**;
+- scene derivatives: **72/72 COMPLETE-VERIFIED / boundary QA PASS — 0 gaps / 0 overlaps**;
+- immutable dialogue index: **744 records COMPLETE-VERIFIED / QA PASS**;
+- exact source speaker labels: **38**;
+- delimiter distribution: **`:—` 736 / `:` 8**;
+- cross-page dialogue records: **3**;
+- zero-dialogue scenes: **15**;
+- reviewed anomalous non-colon candidates promoted to dialogue: **0/16**;
+- source-unlabelled blocks assigned a speaker: **0**;
+- character/entity index: **READY-NEXT**.
+
+**Next production phase:** '''+NEXT+'''\n
+'''
+          t,n=re.subn(r'## Vandikkaran Magan current checkpoint\n.*?(?=## Naam current checkpoint)',block,t,flags=re.S); assert n==1,n
+          p.write_text(t,encoding='utf-8')
+
+          print(json.dumps({'dialogues':744,'labels':38,'cross_page':3,'zero_scenes':15,'next':'character-entity-index'},ensure_ascii=False))
+          PY
+      - name: Commit synchronized checkpoint
+        shell: bash
+        run: |
+          rm .github/workflows/vandikkaran-magan-sync-dialogue-closure-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Sync Vandikkaran Magan dialogue closure [skip ci]"
+          git push origin HEAD:main
