@@ -51,27 +51,27 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **PDF 4–58 / 55 of 87 COMPLETE-VERIFIED**;
-- visually verified contiguous range: **PDF 4–58**;
-- pages still awaiting visual verification: **32**;
+- visual verification: **PDF 4–63 / 60 of 87 COMPLETE-VERIFIED**;
+- visually verified contiguous range: **PDF 4–63**;
+- pages still awaiting visual verification: **27**;
 - historical-glyph verification: **0 / NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Latest visual-verification batch — PDF 54–58
+## Latest visual-verification batch — PDF 59–63
 
 - all five pages were re-read directly from enlarged source pixels;
-- PDF 54 restores `ஒட்டிக்கொள்வதா?`, `கெளரவத்தைச்`, `வச்சுட்டியே`, `பழைய காலமல்ல`, `தெரிவிக்க`, and `கெளரவத்துக்குப்`;
-- PDF 55 preserves the duplicated source phrase `செத்துட்டான், செத்துட்டான்னு` and restores scene-31 `காளிங்கன்`;
-- PDF 56 restores `ஜமீன்தார் வீட்டுப் பொண்ணுன்னு`, `விபரங்களை`, and `கெளரவக்கொடி`;
-- PDF 57 restores `அவுங்க`, `என்ற உணர்வுகளே`, and `தடையேதும்`;
-- PDF 58 restores `பளபளப்பான`, `தான் நின்ற`, and `இலட்சியபுரிப் பயணம்`;
-- scene starts in the batch are `29-எ`, `30`, `31`, `32`, and `33`;
+- PDF 59 restores `சேலைத் தலைப்பை` and source `மாமக் களஞ்சியத்தில்`;
+- PDF 60 restores `கனவன் கட்டளையாம்மா?` and source-connected `ஆடு!—நல்ல`;
+- PDF 61 restores `தூங்கி யிருந்தால்`, `சிறு நரி ஆட்டும் வாலே!`, `வேணுமோ`, `வச்சிகிட்டு`, and `நல்லாத் தின்னுட்டு`;
+- PDF 62 restores `என்னமாப்பிள்ளை`, `வில்லாவளைக்கப்`, `வெற்றிபெறத் தான்`, `என்றும்போல்`, and `கடையேழு வள்ளல்களே`;
+- PDF 63 restores `ஜால்ராப் புலவர்`, `மறந்துட்டீங்க?`, `மாரோடு மார்`, `பொண்ணும்மா`, and stage-direction `பலரும்`;
+- scene starts in the batch are `33-எ`, `34`, `35`, `36`, `37`, and `38`;
 - all five records are now `visual-verified`;
 - dedicated historical-glyph verification remains NOT-STARTED.
 
 ## Exact next activity
 
-> **Visually verify PDF 59–63 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 60/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 64–68. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
+> **Visually verify PDF 64–68 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 65/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 69–73. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
