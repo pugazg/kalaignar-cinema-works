@@ -1,0 +1,25 @@
+name: Vandikkaran Magan song cue preflight once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-song-cue-preflight-once.yml']
+permissions:
+  contents: write
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python works/vandikkaran-magan/scripts/build_song_performance_cue_preflight.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/vm-song-cue-preflight-once.yml
+          git add -A
+          git commit -m 'Build Vandikkaran Magan song cue preflight [skip ci]'
+          git push
