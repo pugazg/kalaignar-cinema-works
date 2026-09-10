@@ -1,0 +1,807 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s069",
+  "scene_ordinal": 69,
+  "source_scene_id": "53-டி",
+  "scene_status": "verified",
+  "unit_count": 25,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s069-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (குடிசைப் பகுதியில் தீ பரவியவாறு இருக்கிறது - தீப்பந்தமுடன் ஓடுகிற காளிங்கராயனை மரகதம் பிடித்துக் கொண்டு-அங்கு கிடந்த ஒரு அரிவாள்மனையை ஓங்கி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Fire is spreading through the hut quarter. Maragatham catches Kalingarayan running with a flaming torch and raises a vegetable cutter lying there....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell the truth!.... Who told you to commit this cruelty?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo! Don't kill me!... Your old lover, the zamindar, ordered it!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (அரிவாள் மனைக்கட்டையாலடிக்கப்போக அதற்குள் ஆட்கள் ஓடிவந்து காளிங்கராயனைத் தூக்குகின்றனர்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Before she can strike him with the wooden base of the cutter, men run up and lift Kalingarayan away.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The zamindar!... The zamindar!.... Was all of this his doing?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஆட்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Leave him to us, Amma; we'll take care of him.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (எரிகின்ற ஒரு குடிசையில் காளிங்கராயனை ஆட்கள் தூக்கிப் போடுதல். கோகிலா குழந்தையுடன் ஓடிவரும்போது... அவள் உடையில் தீ பிடிக்கிறது.. எரியும் மரத"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The men lift Kalingarayan and throw him into a burning hut. As Kokila runs in carrying the baby, her clothes catch fire. A burning piece of wood falls on her..... Kokila comes out with burn wounds, holding the baby high in both hands. Uma runs in screaming, “My child!.. My child!”...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila! (she screams)......",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!.. You've come? Here, take your child!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (உமா, குழந்தையை வாங்கிக் கொள்கிறாள்.. கோகிலா கீழே சாய்கிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma takes the baby. Kokila collapses.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma! Don't think wrongly about me or about your husband!... It is true that I loved Vingan first! But after he became yours... neither of our hearts... ever had such a thought again!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!......!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (மரகதம் ஓடிவந்து ‘கோகிலா’ எனக் கதறுகிறாள்!)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Maragatham runs up crying “Kokila!”)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma!... My life is over.... From now on Uma is your own daughter! Here—this is your grandchild!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 83,
+            "printed_page": 82
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma!... Amma!!... Vingan!... (She reaches to take his hand and dies.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila! Kokila!... Have you gone, child!?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u018",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (குடிசைவாசிகள் கூட்டம் கூடிவிடுகிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The hut-dwellers gather around.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 7,
+          "description": "Source block 7: தம்பி!..என் கோகிலாவைத் தீ விழுங்கிட்டுது!..இல்ல! அந்தத் தீயவன் ஜம்புலிங்க பூபதி விழுங்கிட்டான்! எந்தப் பெண்ணுக்காக இதுவரையில் உயிர் வாழ்ந்தே"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Brother!.. Fire has swallowed my Kokila!.. No! That evil man Jambuling Bhoopathi swallowed her! The girl for whose sake I lived all these years; the girl whose life I wanted to blossom and spread fragrance.... for whose sake I kept the mysteries of this estate palace hidden; the girl for whose sake I wandered like a living corpse without even saying who I was—now that very girl is gone, what is left for me? Who is Jambuling Bhoopathi, whom this whole town thinks is a noble man?... A drunkard!.... A murderer!... A robber!... A scoundrel!... A lust-crazed man!... A human beast who treats a crowd of maidens as merchandise!... This Maragatham was made the bedchamber doll of that human beast! Kokila is the child born to the two of us!... Now that you are gone, what do I have left? This very moment I am leaving for his private palace! There is a Goddess statue there in what is called the temple; turn it and inside is that criminal’s pleasure chamber! He ruined the lives of so many young women; he ordered even the huts where the poor live to be set on fire and planned to burn us alive. I will take revenge for revenge!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 8,
+          "description": "Source block 8: (ஆவேசமாக) பழிக்குப் பழி வாங்குகிறேன்!..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "(furiously) I will take revenge for revenge!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma!... You don't need to do that, Amma! That's what I have been waiting for!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 9,
+          "description": "Source block 9: (சடையனிடம்) அப்பா!.... இப்போதாவது உங்கள் தெய்வம் - கலியுகக் கடவுள்... அந்த ஜமீன்தாரின் உண்மை உருவம் உங்களுக்குத் தெரிகிறதா?..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "(to Sadaiyan) Appa!.... At least now can you see the true form of your god—the god of the Kali age—that zamindar?..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother!.... My eyelids that had been tightly shut have opened....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-069.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": "vandikkaran-magan-s069-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, Jambuling Bhoopathi!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s069-u025",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-069.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 10,
+          "description": "Source block 10: (விங்கன் ஓடுகிறான் மற்றவர்கள் பின் தொடருதல்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 84,
+            "printed_page": 83
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan runs; the others follow.)"
+      }
+    }
+  ]
+}

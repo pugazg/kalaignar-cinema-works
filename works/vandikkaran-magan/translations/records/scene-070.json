@@ -1,0 +1,363 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s070",
+  "scene_ordinal": 70,
+  "source_scene_id": "54",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s070-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன்தாரின் அந்தரங்க மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "The zamindar's private palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன், கம்பீரமாக நுழைகிறான்... விங்கன், சிலையைத் திருப்பி உள்ளே நுழைதல். வீறு மடி மீது படுத்திருந்த ஜமீன்தார் திடுக்கிட்டு எழுந்து....)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan enters majestically... He turns the statue and goes inside. The zamindar, who had been lying with Veeru on his lap, starts up in shock....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Vingan!... You?... Are you still alive?.... (Veeru runs away.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am not Vingan; I am Vingan's spirit!... Zamindar sir! You are the one who believes in the soul—that soul has come.... The spirit of Vingan, who was burned and melted into a corpse in the hut you set ablaze!... It has come in ghostly form to show this demon... to the town!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why this pointless talk? Where have you come? Why have you come?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "When I said, ‘The illusion will lift and the people will know the truth,’ you mocked me: ‘An attempt to twist sand into rope!’ Now I have come after twisting a rope out of sand! Not an empty rope—a hanging rope fit for you! When I said I would tear away your disguise, you jeered, ‘Will you bend the sky into a bow?’ Now I have come not to bend the sky, but to bend your honour itself! You warned me, ‘Don't play the snake-charmer's pipe while standing on a volcano!’ I have already smashed that ‘volcano man,’ bone from sinew, and come here!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (ஜமீன்தாரின் சட்டையைப் பிடித்தபடி விங்கன் இருக்க)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan grips the zamindar by the shirt.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, da—have you gone mad?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 85,
+            "printed_page": 84
+          },
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I didn't go mad today! That day in my childhood, when in a children's game I tied the thaali around your daughter's neck and you beat me—that very day I went mad! You shoved aside my mother when she stopped you from beating me, the mother who embraced and protected me with care, and tore open the body of the woman who gave birth to me.... Sinner! Blood gushed from the womb in which I had lived; if the vow I took then, with that blood as witness, is called madness!... Until that madness is quenched, I have no other work! No other work!....",
+        "mode": "prose-faithful",
+        "notes": [
+          "This cross-page source speech contains compressed/irregular wording around the mother-protection action. English preserves the evident source action without changing the closed Tamil record."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-070.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": "vandikkaran-magan-s070-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s070-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s070",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-070.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (இருவரிடையே சண்டை - ஜமீன்தார் ஆட்கள் சூழ்கிறார்கள் - சண்டை—ஆட்கள் அடிபட்டு விழுதல்—கண்ணாயிரம், மரகதம், உமா, சடையன், குடிசைவாசிகள் வருதல்—ஜமீ"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The two fight. The zamindar’s men surround them. Fighting—the men are beaten down. Kannaayiram, Maragatham, Uma, Sadaiyan and the hut-dwellers arrive. The zamindar runs outside.)"
+      }
+    }
+  ]
+}

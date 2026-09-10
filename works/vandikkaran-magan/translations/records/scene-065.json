@@ -1,0 +1,115 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s065",
+  "scene_ordinal": 65,
+  "source_scene_id": "53",
+  "scene_status": "verified",
+  "unit_count": 3,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s065-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s065",
+      "scene_ordinal": 65,
+      "source_scene_id": "53",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-065.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-065.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் அந்தரங்க மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Zamindar's private palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s065-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s065",
+      "scene_ordinal": 65,
+      "source_scene_id": "53",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-065.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-065.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 2,
+          "description": "Source block 2: ஆடம்பர அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Opulent room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s065-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s065",
+      "scene_ordinal": 65,
+      "source_scene_id": "53",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-065.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-065.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (விங்; ஜமீன்தாரின் கிளாசில் மதுவை ஊற்றுகிறார்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The closed Tamil derivative reads `விங்;`; English retains that source form rather than silently resolving it to a person or role."
+        ],
+        "english_text": "(`Ving;` pours liquor into the zamindar’s glass.)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s062",
+  "scene_ordinal": 62,
+  "source_scene_id": "50",
+  "scene_status": "verified",
+  "unit_count": 9,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s062-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: அந்தரங்க மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Private palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-062.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": "vandikkaran-magan-s062-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That is not a bull!... It is Kaalan! Yama!... A terrible weapon Vingan has sharpened and kept ready to avenge himself on me!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 2,
+          "description": "Source block 2: விங்கன் வசிக்கிறானே குடிசைப்பகுதி அதற்குத் தீ வைத்தால்... விங்கன்... அந்தக் காளைமாடு.. எல்லாமே வெந்து கருகிப் போவார்கள்!..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "If the hut quarter where Vingan lives is set on fire... Vingan... that bull... all of them will burn and be charred!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-062.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": "vandikkaran-magan-s062-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Our girl Uma is there, isn't she?... Won't she too be scorched in the fire?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-062.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": "vandikkaran-magan-s062-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Before setting fire to that hut quarter... Uma must be separated from Vingan. I have a plan for that too!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-062.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": "vandikkaran-magan-s062-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Goodness! Plans keep springing and springing from this brain!... What kind of brain is this?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-062.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": "vandikkaran-magan-s062-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The responsibility for carrying out that plan is yours!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சுற்றுமுற்றும் பார்த்து காளிங்கன் காதில் ரகசியமாகச் சொல்லுகிறார்... சுவாரஸ்யமாக காளிங்கன் அந்த ரகசியத்தைக் கேட்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Looking around, the zamindar whispers the secret into Kalingan’s ear... Kalingan listens to it with keen interest.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s062-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-062.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-062.md",
+        "source_record_id": "vandikkaran-magan-s062-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes! Yes!... Is today Friday?... Kokila will certainly come to the Murugan temple. I'll take care of it...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

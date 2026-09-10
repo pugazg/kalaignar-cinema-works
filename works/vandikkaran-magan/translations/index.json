@@ -1,9 +1,9 @@
 {
   "work_id": "vandikkaran-magan",
   "target_language": "en",
-  "status": "verified-through-scene-060",
+  "status": "complete-verified",
   "total_scene_derivatives": 72,
-  "verified_scenes": 60,
+  "verified_scenes": 72,
   "verified_scene_ordinals": [
     1,
     2,
@@ -64,7 +64,19 @@
     57,
     58,
     59,
-    60
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
   ],
   "verified_source_scene_ids": [
     "1",
@@ -126,20 +138,32 @@
     "44",
     "45-46",
     "47",
-    "48"
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "53-எ",
+    "53-பி",
+    "53-சி",
+    "53-டி",
+    "54",
+    "55",
+    "56"
   ],
-  "translation_units": 1009,
+  "translation_units": 1181,
   "unit_kind_counts": {
-    "dialogue": 689,
-    "performance-cue": 8,
-    "song": 44,
-    "stage-direction": 267,
-    "written-text": 1
+    "dialogue": 800,
+    "performance-cue": 10,
+    "song": 53,
+    "stage-direction": 316,
+    "written-text": 2
   },
-  "immutable_dialogue_records_linked": 668,
-  "source_unlabelled_spoken_units": 21,
-  "performance_linked_units": 55,
-  "performance_occurrence_links": 8,
+  "immutable_dialogue_records_linked": 773,
+  "source_unlabelled_spoken_units": 27,
+  "performance_linked_units": 66,
+  "performance_occurrence_links": 9,
   "performance_occurrence_ids_linked": [
     "vandikkaran-magan-perf-001",
     "vandikkaran-magan-perf-002",
@@ -148,14 +172,16 @@
     "vandikkaran-magan-perf-005",
     "vandikkaran-magan-perf-006",
     "vandikkaran-magan-perf-007",
-    "vandikkaran-magan-perf-008"
+    "vandikkaran-magan-perf-008",
+    "vandikkaran-magan-perf-009"
   ],
-  "cross_page_units": 46,
-  "batch_size_scenes": 20,
+  "cross_page_units": 58,
+  "latest_batch_size_scenes": 12,
   "schema": "schema.json",
   "records_directory": "records/",
   "pilot_qa": "pilot-qa.json",
-  "latest_batch_qa": "batch-041-060-qa.json",
-  "latest_batch_review": "BATCH_041_060_REVIEW.md",
-  "next_activity": "Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities."
+  "latest_batch_qa": "batch-061-072-qa.json",
+  "latest_batch_review": "BATCH_061_072_REVIEW.md",
+  "final_translation_qa": "FINAL_TRANSLATION_QA.md",
+  "next_activity": "Build and verify the deterministic whole-work English reader/export layer from the 72 verified scene translations. Require every verified translation unit exactly once, all 773 immutable dialogue links complete and unique, all cross-page provenance preserved, all verified song/performance links valid, no synthetic star-derived prose or placeholders, and no mutation of closed Tamil, scene, dialogue, character or song authorities."
 }

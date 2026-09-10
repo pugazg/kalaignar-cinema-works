@@ -1,0 +1,65 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "english-translation-final-batch-061-072",
+  "status": "PASS",
+  "batch_size_scenes": 12,
+  "scene_ordinals": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "source_scene_ids": [
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "53-எ",
+    "53-பி",
+    "53-சி",
+    "53-டி",
+    "54",
+    "55",
+    "56"
+  ],
+  "verified_scenes": 12,
+  "verified_units": 172,
+  "unit_kind_counts": {
+    "dialogue": 111,
+    "performance-cue": 2,
+    "song": 9,
+    "stage-direction": 49,
+    "written-text": 1
+  },
+  "immutable_dialogue_records_expected": 105,
+  "immutable_dialogue_records_linked": 105,
+  "source_unlabelled_spoken_units": 6,
+  "inferred_speaker_assignments": 0,
+  "performance_linked_units": 11,
+  "performance_occurrence_ids_linked": [
+    "vandikkaran-magan-perf-009"
+  ],
+  "unique_performance_occurrence_links": 1,
+  "source_page_provenance_fallbacks": 0,
+  "checks": {
+    "all_12_target_scenes_present_in_source_order": true,
+    "all_batch_immutable_dialogue_records_linked_exactly_once": true,
+    "cross_page_dialogue_records_preserved_as_single_translation_units": true,
+    "source_unlabelled_speech_kept_unassigned_and_unlinked": true,
+    "source_scene_53_ci_dance_song_linked_to_verified_perf_009_only": true,
+    "item_level_song_authorship_left_unresolved": true,
+    "structural_star_translated_as_prose": false,
+    "synthetic_scene_end_prose_added": false,
+    "closed_tamil_scene_dialogue_character_song_records_modified_by_translation": false
+  },
+  "next_activity": "Build and verify the deterministic whole-work English reader/export layer from the 72 verified scene translations. Require every verified translation unit exactly once, all 773 immutable dialogue links complete and unique, all cross-page provenance preserved, all verified song/performance links valid, no synthetic star-derived prose or placeholders, and no mutation of closed Tamil, scene, dialogue, character or song authorities."
+}

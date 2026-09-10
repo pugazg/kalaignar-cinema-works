@@ -1,0 +1,45 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s067",
+  "scene_ordinal": 67,
+  "source_scene_id": "53-பி",
+  "scene_status": "verified",
+  "unit_count": 1,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s067-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s067",
+      "scene_ordinal": 67,
+      "source_scene_id": "53-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-067.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-067.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (ஜமீன்தார் புகைபிடிக்க தீக்குச்சியைக் கொளுத்துதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar lights a match to smoke.)"
+      }
+    }
+  ]
+}

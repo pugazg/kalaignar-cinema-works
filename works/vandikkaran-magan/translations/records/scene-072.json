@@ -1,0 +1,115 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s072",
+  "scene_ordinal": 72,
+  "source_scene_id": "56",
+  "scene_status": "verified",
+  "unit_count": 3,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s072-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s072",
+      "scene_ordinal": 72,
+      "source_scene_id": "56",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-072.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-072.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: சடையன் வீடு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Sadaiyan’s house."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s072-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s072",
+      "scene_ordinal": 72,
+      "source_scene_id": "56",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-072.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-072.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன், உமா, சடையன், குழந்தை, மரகதம்; கண்ணாயிரம் இருக்கிறார்கள்.... விங்கன், தாயின் படத்திற்கு மாலை அணிவிக்கிறான். உமா கோகிலா படத்திற்கு ம"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan, Uma, Sadaiyan, the child, Maragatham and Kannaayiram are there.... Vingan garlands his mother’s portrait. Uma garlands Kokila’s portrait.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s072-u003",
+      "kind": "written-text",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s072",
+      "scene_ordinal": 72,
+      "source_scene_id": "56",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-072.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-072.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "written-text",
+          "ordinal": 3,
+          "description": "Source block 3: வணக்கம்."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Closing source text `வணக்கம்.` is retained as the Tamil cultural salutation in transliteration rather than expanded into a synthetic ending."
+        ],
+        "english_text": "Vanakkam."
+      }
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s071",
+  "scene_ordinal": 71,
+  "source_scene_id": "55",
+  "scene_status": "verified",
+  "unit_count": 18,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s071-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன்தார் அந்தரங்க மாளிகை வெளிப்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior of the zamindar's private palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஜமீன்தார் ஓடிவருகிறார். — விங்கன், மரகதம், உமா, சடையன், குடிசைவாசிகள், ஊரார் பின் தொடர்தல்—ஓடிவந்த ஜமீன்தார் எதிரில் காளை முறைதவறி நிற்பதைப"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar runs out. Vingan, Maragatham, Uma, Sadaiyan, the hut-dwellers and townspeople follow. The fleeing zamindar sees the bull standing directly in his path.... He trembles. He runs; the bull chases him....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Vingan!.... Ayyo, save me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell the truth!.... You were the one who pushed my mother onto the bull's horn and killed her, weren't you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes.... It was me!?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You hoarded food grain that should have benefited the people, starved them, and made black money through illicit trafficking—isn't that true?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It's true!.... It's true!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You raped the poet's daughter and had both the poet and his daughter killed—isn't that true?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It's true! It's true! Sadaiya! At least you save me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 86,
+            "printed_page": 85
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother! Forgive a man who has realized his wrong and wants to reform! Save Zamindar ayya!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A filthy heart! A reign of outrage! Unjust deeds! You, shaped as the very form of deceit from all these... hid behind an outward disguise and fooled this town into calling you holy man, virtuous man, noble man, yogi—isn't that true?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Everything is true!... Forgive me, Vingan!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (விங்கன் பாய்ந்து சென்று மாட்டைப் பிடித்துத் தள்ளிவிடல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan leaps forward, catches the bull and pushes it aside.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It isn't enough if I forgive you, ayya. Come... Ask forgiveness from everyone standing here....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (ஜமீன்தார் ஸ்தம்பித்து நிற்கிறார்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar stands frozen.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 5,
+          "description": "Source block 5: உம்!.... ஏன் தயக்கம்!.... எல்லோரிடமும் மன்னிப்புக் கேட்க வெட்கமாக இருக்கிறதா?..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Hmm!.... Why hesitate!.... Are you ashamed to ask everyone for forgiveness?..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (கூட்டத்தில் ஒருவன் கையில் கத்தியிருப்பதைப் பார்த்த ஜமீன்தார்; அதைப் பிடுங்கி விங்கனை வெட்டப்போகிறார்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar sees a knife in the hand of a man in the crowd, snatches it and tries to slash Vingan.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s071-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-071.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-071.md",
+        "source_record_id": "vandikkaran-magan-s071-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 87,
+            "printed_page": 86
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "She cries, ‘Aththan!’ Before that can go further, Kannaayiram lets the bull loose; the bull charges the zamindar. The zamindar lies in a flood of blood.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable source record is labelled `உமா` but includes narration after her cry. English keeps the entire source record as one dialogue-linked unit rather than repartitioning the closed dialogue authority."
+        ]
+      }
+    }
+  ]
+}

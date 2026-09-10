@@ -1,0 +1,725 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s063",
+  "scene_ordinal": 63,
+  "source_scene_id": "51",
+  "scene_status": "verified",
+  "unit_count": 23,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s063-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: கோயில் வாசல்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Temple entrance."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கோயிலுக்குள்ளேயிருந்து பூஜைக் கூடையுடன், வெளியே வந்து கொண்டிருக்கிறாள் கோகிலா... அப்போது விங்கன் வருகிறான்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila comes out of the temple carrying a worship basket... Vingan arrives then...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Are you well?... How is Uma?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What's wrong with her—she's fine!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 76,
+            "printed_page": 75
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I haven't even been able to come and see the baby!... Amma said that only tomorrow, after telling the zamindar... we should go see the baby!... How is the baby?... Does it have your mischief?... Does it look like Uma?... Fair?... Dark?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You're going to come and see for yourself anyway; you'll know when you see... Leave that aside!... Kokila!... Why did you send someone asking me to come here urgently?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Me, send for you?... No—no, not at all!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, Kokila... A man came and said you had sent word—that's why I came running in such a hurry...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That's strange!... I never sent word through anyone!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (குதிரை வரும் குளம்படிச் சப்தம்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The sound of approaching horse-hooves.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm... Some mischief has happened here! Kalingan is coming.. If he sees you and me together, he'll make up a story. I'll come later, Kokila!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (விங்கன் அங்கிருந்து சென்று... ஒரு மண்டபத்திற்குப் பின்புறம்போய் நின்று கவனிக்கிறான். கோகிலா போய்க் கொண்டிருக்கிறாள்... காளிங்கன் குதிரையைக்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan leaves, goes behind a pavilion and stands watching. Kokila walks on... Kalingan brings his horse up and stops near her...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!.. Where are you going? Why walk?... Get on the horse... come!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No... no... I know the way to the palace!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You don't understand even the slightest hint; if a man calls a woman, surely he calls her out of desire... don't you know even that?.. I'm not going to bite and eat you!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Manager sir!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why call me by my job and say 'Manager'! Call me 'Hello, my dear Aththan'!.. Or... 'my dear Papa'... No need for 'uncle'... let it be Aththan!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Behave with respect!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, Kokila, stop!... I'm calling you and you keep walking away!... I'll keep you in my heart and worship you!... Come to my mansion!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u021",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (கையைத் தொட்டிழுக்கிறான்... அவள் திருப்பிக்கொண்டு பூக்கூடை சிதறிக்கீழ்விழ, அவனை அறைந்துவிட்டுப் போகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He catches her hand and pulls. She turns; the flower basket scatters and falls. She slaps him and walks away.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-063.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": "vandikkaran-magan-s063-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go! Go!... You escaped in daylight... Can you escape at night? I'm coming... you'll get what's coming to you!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s063-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s063",
+      "scene_ordinal": 63,
+      "source_scene_id": "51",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-063.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (காளிங்கன் போக — விங்கன் ஒரு முடிவிற்கு வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 77,
+            "printed_page": 76
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kalingan leaves; Vingan comes to a decision.)"
+      }
+    }
+  ]
+}

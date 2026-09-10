@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 DIALOGUE_TRANSLATIONS = {
+65: {},
+66: {},
+67: {},
+68: {},
+72: {},
 69: {
 'vandikkaran-magan-s069-d001': "Tell the truth!.... Who told you to commit this cruelty?....",
 'vandikkaran-magan-s069-d002': "Ayyo! Don't kill me!... Your old lover, the zamindar, ordered it!",

@@ -1,0 +1,561 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s068",
+  "scene_ordinal": 68,
+  "source_scene_id": "53-சி",
+  "scene_status": "verified",
+  "unit_count": 13,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s068-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (குடிசைப் பகுதியில் தீப்பந்தங்கள் காளிங்கன் முன்னிலையில் அவன் ஆட்களால் எறியப்படுகின்றன......)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(In the hut quarter, Kalingan’s men throw flaming torches under his supervision......)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u002",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 2,
+          "description": "Source block 2: (நடனம் ஒருபுறம் - நாசம் ஒரு புறம் மாறி மாறிக் காட்சிகளாகின்றன.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_text": "(Dance on one side—destruction on the other; the images alternate.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u003",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 3,
+          "description": "Source block 3: (அழகி ஒன்று நடனமாட ஜமீன்தார் ரசித்தல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_text": "(A beautiful woman dances while the zamindar watches with pleasure.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u004",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 4,
+          "description": "Source block 4: ஒரு பக்கம் நெருப்பு! மறு பக்கம் நிலவு! இந்த பக்கம் கொண்டது இளமையின் — அழகே அழகு!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Fire on one side!",
+          "Moonlight on the other!",
+          "On this side there is",
+          "youth’s—",
+          "beauty, sheer beauty!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u005",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 5,
+          "description": "Source block 5: வல்லினம், மெல்லினம்— இரண்டும் திரண்டு கலந்து புரண்டு வளர்ந்த பெண்ணது!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Hard consonants, soft consonants—",
+          "both gathered,",
+          "mingled and rolled together,",
+          "that woman’s form grew!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u006",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 6,
+          "description": "Source block 6: வில்லினம், வேலினம்— இரண்டும் தெரிந்து வளர்ந்து குழைந்து மலர்ந்த கண்ணது!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The kind of the bow, the kind of the spear—",
+          "knowing both,",
+          "growing and blending,",
+          "those eyes blossomed!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u007",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 7,
+          "description": "Source block 7: இடையினம் ஒரு கொடி போலே! படர்ந்திட வரும் மடி மேலே! மதுக்குடம் அல்லவோ! பெண்ணுக்குக் கண்ணு! உன் முன்னழகு தள்ளாடுது!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "A waist like a vine!",
+          "spreading over the lap!",
+          "Is it not a jar of wine!",
+          "Woman, your eyes! Your",
+          "front beauty sways!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u008",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 8,
+          "description": "Source block 8: — ஒரு பக்கம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— On one side"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u009",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 9,
+          "description": "Source block 9: காலையில் சூரியன் கிழக்கில் உதிக்கும் வரைக்கும் நமக்கு இனிக்கும் உல்லாசமே!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Until the morning sun",
+          "rises in the east,",
+          "for us",
+          "pleasure keeps sweetening!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u010",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 10,
+          "description": "Source block 10: காமனின் சாஸ்திரம் உடம்பில் வரைந்து இருட்டில் விரைந்து படிக்கும் ஒய்யாரமே!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Cupid's scripture",
+          "drawn upon the body,",
+          "swiftly in the dark",
+          "an elegant reading!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u011",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 11,
+          "description": "Source block 11: அழகிய மலர் இவள் மேனி! அருகினில் ஒரு இசைத்தேனி! அற்புதம் இல்லையோ! அன்றாடும் மன்னு! உன் பொன்னாடம் வந்தாடலா?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Her body is a lovely flower!",
+          "Beside it, a honeybee of music!",
+          "Is it not a wonder!",
+          "O king who rules each day! Shall your",
+          "golden garment come and dance?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u012",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-009",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 12,
+          "description": "Source block 12: — ஒரு பக்கம்."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 81,
+            "printed_page": 80
+          },
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— On one side."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s068-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-068.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 13,
+          "description": "Source block 13: (குடிசை மக்கள் அங்குமிங்கும் அலறித்துடித்து ஓடுகிறார்கள். விழுகிறார்கள்.... குழந்தைகள் நெருப்பில் கருகுகின்றன. அல்லோலகல்லோலப்படுகிறது. விங்க"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 82,
+            "printed_page": 81
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The hut-dwellers scream and run in every direction. They fall.... Children are scorched in the fire. Chaos reigns. Vingan rescues those who have fallen into the flames. Kannaayiram too rescues people writhing in distress. Kokila and Maragatham run carrying the baby. Vingan unties the bull, gives it to Kannaayiram and sends him away to save it... Now Kokila is running alone with the baby. Maragatham is rescuing the poor people there from the fire.)"
+      }
+    }
+  ]
+}

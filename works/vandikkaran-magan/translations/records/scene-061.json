@@ -1,0 +1,481 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s061",
+  "scene_ordinal": 61,
+  "source_scene_id": "49",
+  "scene_status": "verified",
+  "unit_count": 15,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s061-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: விங்கன் குடிசை வெளிப்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior of Vingan's hut."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: பாடல் முடிய... ஜமீன்தார், காளிங்கராயனும் அங்கே வருகின்றனர்."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "As the song ends, the zamindar and Kalingarayan arrive there."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (ஜமீன்தார் குழந்தையை மகிழ்ச்சியுடன் தூக்குதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar happily lifts the baby.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalinga! Take all that inside!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey! Take all those things inside the hut, fellows!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What's all this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Just some things for the baby... a gold rattle!... a ruby feeding cup!... a cradle made of genuine ivory!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! No!... None of that belongs here!.... A cloth cradle!... a tin rattle!.. a conch-shell feeding cup!.. That's enough for the child in our house!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Son-in-law!... Whatever else may be true... this is the grandchild of Zamindar Jambuling Bhoopathi!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(taking the baby and looking closely) I don't see anything like that written on the forehead!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The son-in-law is teasing!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (அப்போது அங்கு கட்டப்பட்டிருக்கும் காளை மாடு ஜமீன்தாரைப் பார்க்கிறது—மைதானத்தில் முட்டிய உருவம் போல் காளைக்குத் தெரிகிறது—உடனே காளை, சீறிப்ப"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Then the bull tied there sees the zamindar. To the bull he appears like the figure it gored in the training ground; at once the bull surges forward, snorting. The zamindar stares at it in shock.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is this bull, child?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-061.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": "vandikkaran-magan-s061-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He is the one raising it, Appa... He says he's raising it for some idealistic purpose... I worship it every day!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s061-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-061.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (ஜமீன்தார் காளிங்கனைப் பார்க்கிறார் திகிலோடு.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 75,
+            "printed_page": 74
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar looks at Kalingan in terror.)"
+      }
+    }
+  ]
+}
