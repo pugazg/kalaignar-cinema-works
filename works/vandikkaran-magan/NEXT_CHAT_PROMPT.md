@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / final full visual verification PDF 4–90
+# Next Chat Prompt — வண்டிக்காரன் மகன் / scene-text derivatives
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -11,37 +11,34 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 - SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253`;
 - image-only scan;
 - first edition 1978;
-- the attached PDF itself is the source authority. Do not query external websites unless the user explicitly asks for comparison.
+- source pixels remain canonical authority.
 
-## Mandatory user workflow
-
-1. First-pass transcription — **COMPLETE**.
-2. Visual verification — **COMPLETE**.
-3. Historical-glyph verification — **COMPLETE / PASS**.
-4. Final visual verification — **NEXT / full-work final source pass**.
-
-Do not interleave closed phases. Reopen a closed phase only if the final visual pass itself exposes a genuine direct-source contradiction.
-
-## Durable state
+## Closed source gates
 
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
-- first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
-- draft pages: **0**;
-- dedicated historical-glyph verification: **COMPLETE / PASS — PDF 4–90 / 87 of 87 VERIFIED**;
-- cumulative canonical glyph corrections: **0**;
-- unresolved glyph holds: **0**;
-- final visual verification: **NOT-STARTED — 0 / 87**;
-- open uncertainty markers: **0**;
-- derivatives: **BLOCKED** pending final visual closure.
+- canonical first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
+- visual verification: **COMPLETE — PDF 4–90 / 87 of 87**;
+- dedicated historical-glyph verification: **COMPLETE — PDF 4–90 / 87 of 87 / 0 holds**;
+- final full visual verification: **COMPLETE / PASS — PDF 4–90 / 87 of 87**;
+- final-pass canonical corrections: **0**;
+- draft pages / open uncertainty markers: **0 / 0**.
 
-## Latest dedicated glyph batch
+The canonical source layer is now closed. Do not reopen it from stale prompts. A later canonical change is allowed only if new direct evidence from the same controlling scan proves a genuine source discrepancy; any such change must trigger downstream reconciliation.
 
-PDF **79–90 / final 12-page remainder** was re-read directly from the controlling source. Every occurrence of the mandated families `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was checked occurrence by occurrence. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
+## Source structure that must control derivatives
 
-Representative confirmations include `மனைவிக்குத் / கண்ணைத் / மண்ணைத் / சதிவேலைக்கு`; `உங்களைப் / உங்களைச் / அவளை`; `காலையில் / பொன்னாடம் / கண்ணாயிரம் / காளையை`; `காளிங்கராயனை / அரிவாள்மனையை / அவனை`; `எத்தனையோ`; `சிலையைத் / கயிறாக / வளைப்பாயோ / எரிமலை / பிள்ளை / அன்னையைக்`; `அணைச்சு / வேலை / இல்லை / காளை / தானியங்களைப்`; `காளையைக் / மாலை`; film-credit `அண்ணா / கலைஞர்`; and final credit-page `அண்ணா`.
+- PDF 4–5 — `கலைஞரின் முன்னுரை` — front matter, **not a scene**;
+- PDF 6–87 — screenplay/dialogue, printed pp.5–86;
+- PDF 88–89 — film credits, **not scenes**;
+- PDF 90 — back cover, **not a scene**;
+- observed scene-heading occurrences: **71**;
+- base number range: **1–56**;
+- source prints combined heading **`45-46`**;
+- inserted suffix headings: `10-எ`, `14-எ`, `16-எ`, `20-எ`, `22-எ`, `24-எ`, `24-பி`, `24-சி`, `24-டி`, `29-எ`, `33-எ`, `42-எ`, `53-எ`, `53-பி`, `53-சி`, `53-டி`.
+
+Use `mapping.md` and `notes/scene-heading-audit.md` as structural authorities. Preserve complete printed heading form, punctuation/dash form, location captions, source order and page provenance. Decorative `★` separators are structural, not prose.
 
 ## Exact next activity
 
-> **Run the final full visual verification across PDF 4–90 as the full-work closing source pass. Re-read every scoped page record against the controlling scan, confirm source wording, punctuation, speaker labels, scene headings, location captions, song/performance layout, credit matter, directly visible back-cover text, and already-closed historical-glyph identities. Make only direct-source-supported corrections; do not silently modernize or normalize. When the full pass is complete, update `transcription/index.json` to `final_visual_verified_pages: 87`, mark the final visual phase COMPLETE/PASS, synchronize all checkpoint docs, and only then consider unblocking structured derivatives.**
+> **Build the complete scene-text derivative layer from the closed verified canonical screenplay PDF 6–87. Create `scenes/index.json` and one scene derivative for each of the 71 observed/canonical source scene dispositions. Preserve exact source headings, location captions, speaker/stage text and page anchors; assemble scenes that span pages without duplicating source spans; do not create synthetic scenes for PDF 4–5 or PDF 88–90; and run whole-work boundary-ownership QA proving the screenplay source is represented once with 0 gaps / 0 overlaps. Commit/push the scene layer, then synchronize work-local and repository-wide status mirrors before starting the dialogue index.**

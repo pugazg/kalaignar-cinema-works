@@ -1,29 +1,32 @@
 # வண்டிக்காரன் மகன் — canonical Tamil transcription
 
-The rendered scan is the controlling source. First-pass transcription, full visual verification, and dedicated historical-glyph verification are complete. The project is now at the final full visual-verification phase.
+The rendered scan is the controlling source. The canonical source layer is now closed after all required source gates.
 
 ## Current checkpoint
 
 - transcription scope: **PDF 4–90 / 87 pages**;
 - first pass: **87/87 COMPLETE**;
-- visual verification: **PDF 4–90 / 87 of 87 COMPLETE-VERIFIED**;
-- remaining visual-verification pages: **0**;
-- page records PDF 4–90: `visual-verified`;
-- draft page records: **0**;
-- open uncertainty markers: **0 recorded**;
-- dedicated historical-glyph verification: **PDF 4–90 / 87 of 87 COMPLETE / PASS**;
+- visual verification: **87/87 COMPLETE — PDF 4–90**;
+- dedicated historical-glyph verification: **87/87 COMPLETE — PDF 4–90**;
+- final full visual verification: **87/87 COMPLETE / PASS — PDF 4–90**;
+- final-pass canonical corrections: **0**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
-- final visual verification: **NOT-STARTED — 0 / 87**.
+- draft page records: **0**;
+- open uncertainty markers: **0**;
+- page records PDF 4–90 remain `visual-verified` canonical source records.
 
-The dedicated glyph phase inspected the mandated families `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` occurrence by occurrence against source pixels and is now closed. Do not reopen it unless the final visual pass exposes a genuine direct-source contradiction.
+The final source-pass audit is recorded at `../notes/final-visual-audit.md`; historical-glyph evidence remains at `../notes/historical-glyph-audit.md`.
 
-## Final dedicated glyph batch
+## Source boundaries
 
-PDF **79–90** completed the phase. Representative confirmations include `மனைவிக்குத் / கண்ணைத் / மண்ணைத் / சதிவேலைக்கு`, `உங்களைப் / உங்களைச் / அவளை`, `காலையில் / பொன்னாடம் / கண்ணாயிரம் / காளையை`, `காளிங்கராயனை / அரிவாள்மனையை / அவனை`, `எத்தனையோ`, `சிலையைத் / கயிறாக / வளைப்பாயோ / எரிமலை / பிள்ளை / அன்னையைக்`, `அணைச்சு / வேலை / இல்லை / காளை / தானியங்களைப்`, `காளையைக் / மாலை`, and film-credit `அண்ணா / கலைஞர்`.
+- PDF 4–5 — foreword/front matter;
+- PDF 6–87 — screenplay/dialogue, printed pp.5–86;
+- PDF 88–89 — film credits;
+- PDF 90 — back cover.
 
-No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
+Only PDF 6–87 participates in the screenplay scene-text derivative layer. Do not synthesize scenes for the foreword, film credits or back cover.
 
 ## Next
 
-Run the **final full visual verification across PDF 4–90**. Re-read every scoped page against the controlling scan, make only direct-source-supported corrections, confirm source structure and the closed glyph identities, then update `index.json` to **final_visual_verified_pages: 87**, mark the final visual phase COMPLETE/PASS, synchronize checkpoint docs, and only then consider unblocking derivatives.
+Build `../scenes/index.json` and one scene derivative for each of the **71 observed source scene-heading occurrences** using the closed canonical screenplay. Preserve exact headings, source order, page anchors and cross-page continuity; avoid duplicate ownership; keep decorative stars structural; and run boundary-ownership QA proving **0 gaps / 0 overlaps** before the scene layer is closed.
