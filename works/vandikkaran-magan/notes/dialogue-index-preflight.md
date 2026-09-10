@@ -1,8 +1,8 @@
 # வண்டிக்காரன் மகன் — dialogue-index preflight
 
-Status: **REVIEW READY**
+Status: **REVIEW COMPLETE / DIALOGUE GATE CLOSED**
 
-This preflight inventories source-explicit dialogue syntax from the closed canonical screenplay/72-scene layer. It does not normalize speaker labels and does not yet create immutable dialogue records.
+This preflight inventories source-explicit dialogue syntax from the closed canonical screenplay/72-scene layer. Its review is now closed; the resulting immutable dialogue layer contains 744 complete-verified records. Exact source labels were not normalized.
 
 ## Coverage
 
@@ -91,6 +91,14 @@ This preflight inventories source-explicit dialogue syntax from the closed canon
 - scene `42-எ` `சடையன்` — PDF 68→69 / delimiter `:—`
 - scene `54` `விங்கன்` — PDF 85→86 / delimiter `:—`
 
-## Gate
+## Review disposition
 
-Review every anomalous delimiter, cross-page candidate and unlabelled block before immutable dialogue generation. Character/entity alias normalization remains out of scope.
+- explicit labelled candidates accepted: **744/744**;
+- exact source speaker labels retained without normalization: **38/38**;
+- anomalous non-colon candidates reviewed: **16/16** — all are source-visible punctuation/verse fragments and **0** were promoted to dialogue;
+- direct-scan anomaly review pages: **PDF 18, 36, 46–47, 60, 73**;
+- cross-page candidates reviewed: **3/3** — source scenes `25` (PDF 48→49), `42-எ` (PDF 68→69), and `54` (PDF 85→86) each remain one immutable record with page segments;
+- preflight unlabelled ordinary blocks: **148** — all remain governed by the no-inference rule; source-unlabelled blocks assigned a speaker: **0**;
+- duplicate dialogue IDs / speaker-label normalizations: **0 / 0**.
+
+**PASS — preflight review is closed. `dialogues/` is COMPLETE-VERIFIED / QA PASS; character/entity indexing is READY-NEXT.**

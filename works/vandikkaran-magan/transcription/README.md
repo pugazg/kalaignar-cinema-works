@@ -12,6 +12,8 @@ The rendered scan is the controlling source. The canonical source layer is close
 
 Only PDF 6–87 participates in the screenplay scene layer. Scene construction is now **72/72 COMPLETE-VERIFIED**, including canonical PDF 10 heading `காட்சி — 4 எ.` (`4-எ`), with boundary QA **PASS — 82/82 pages, 0 gaps, 0 overlaps**.
 
-## Next
+## Downstream state
 
-The immutable dialogue index is **READY-NEXT**. Extract only explicit speaker-labelled utterances from the verified scene layer; preserve exact label/text and page provenance; merge cross-page continuations into one record; leave unlabelled speech unassigned; and validate whole-work uniqueness/coverage before opening character/entity indexing.
+The immutable dialogue index is now **COMPLETE-VERIFIED — 744 records / 38 exact source labels / QA PASS**. Three labelled utterances crossing page boundaries remain single dialogue records; 15 scenes legitimately contain zero labelled dialogue; no source-unlabelled block was assigned a speaker. Canonical Tamil remains closed.
+
+**Next:** Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.

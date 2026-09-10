@@ -1,7 +1,7 @@
 {
   "work_id": "vandikkaran-magan",
   "phase": "dialogue-index-preflight",
-  "status": "review-ready",
+  "status": "review-complete",
   "authority": "72/72 complete-verified source-led scene derivatives backed by canonical PDF 6-87",
   "scene_count": 72,
   "explicit_dialogue_candidates": 744,
@@ -10776,5 +10776,39 @@
     "unlabelled_text": "never assigned a speaker by inference",
     "stage_song_written_text": "not dialogue starts unless the source explicitly labels a speaker",
     "character_alias_resolution": "deferred to character/entity indexing"
+  },
+  "review_summary": {
+    "explicit_labelled_candidates_accepted": 744,
+    "anomalous_non_colon_candidates_reviewed": 16,
+    "anomalous_non_colon_candidates_promoted": 0,
+    "cross_page_candidates_reviewed": 3,
+    "cross_page_candidates_retained_as_single_records": 3,
+    "preflight_unlabelled_blocks_reviewed_under_no-inference-rule": 148,
+    "source_unlabelled_blocks_assigned_a_speaker": 0,
+    "duplicate_dialogue_ids": 0,
+    "speaker_label_normalizations": 0,
+    "direct_scan_review_pages_for_anomalous_non_colon_candidates": [
+      18,
+      36,
+      46,
+      47,
+      60,
+      73
+    ],
+    "direct_scan_review_page_pairs_for_cross_page_records": [
+      [
+        48,
+        49
+      ],
+      [
+        68,
+        69
+      ],
+      [
+        85,
+        86
+      ]
+    ],
+    "result": "PASS"
   }
 }

@@ -171,7 +171,7 @@ def main() -> None:
     scene_index = json.loads((SCENES / "index.json").read_text(encoding="utf-8"))
     preflight = json.loads((NOTES / "dialogue-index-preflight.json").read_text(encoding="utf-8"))
     assert scene_index["status"] == "complete-verified" and scene_index["total_scenes"] == 72
-    assert preflight["status"] == "review-ready" and preflight["scene_count"] == 72
+    assert preflight["status"] in {"review-ready", "review-complete"} and preflight["scene_count"] == 72
     scenes = scene_index["scenes"]
     assert len(scenes) == 72
     assert preflight["explicit_dialogue_candidates"] == 744

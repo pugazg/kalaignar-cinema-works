@@ -52,6 +52,16 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 - canonical scene-body and joined derivative SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
 - non-scene PDF 4–5 and PDF 88–90 excluded.
 
+## Dialogue derivative gate
+
+- immutable dialogue records: **744 / COMPLETE-VERIFIED / QA PASS**;
+- exact source speaker labels: **38**;
+- zero-dialogue scenes: **15**;
+- cross-page dialogue records: **3**;
+- anomalous non-colon candidates promoted: **0/16**;
+- source-unlabelled blocks assigned a speaker: **0**;
+- canonical Tamil / scene files changed by dialogue construction: **0**.
+
 ## Exact next activity
 
-**Build and verify immutable dialogue records from the 72 closed scene derivatives, using only explicit source speaker labels; preserve exact labels/text and provenance, merge cross-page labelled utterances, leave unlabelled speech unassigned, and run whole-work uniqueness/coverage QA before character/entity indexing opens.**
+**Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.**
