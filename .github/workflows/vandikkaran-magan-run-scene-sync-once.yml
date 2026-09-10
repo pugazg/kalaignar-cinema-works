@@ -1,0 +1,48 @@
+name: Vandikkaran Magan run scene checkpoint sync once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vandikkaran-magan-run-scene-sync-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run scene checkpoint synchronizer
+        run: python works/vandikkaran-magan/scripts/sync_scene_checkpoint.py
+      - name: Validate scene closure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          idx=json.loads(Path('works/vandikkaran-magan/scenes/index.json').read_text(encoding='utf-8'))
+          assert idx['status']=='complete-verified'
+          assert idx['total_scenes']==72
+          assert idx['canonical_scene_body_sha256']==idx['joined_scene_spans_sha256']
+          qa=Path('works/vandikkaran-magan/notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
+          assert '72/72' in qa and '0 gaps' in qa and '0 overlaps' in qa
+          print('scene closure validation PASS')
+          PY
+      - name: Commit synchronized checkpoints
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add works/vandikkaran-magan README.md data/works.json docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md
+          if git diff --cached --quiet; then
+            echo "No checkpoint changes to commit"
+          else
+            git commit -m "Sync Vandikkaran Magan scene derivative closure [skip ci]"
+            git push origin HEAD:main
+          fi
