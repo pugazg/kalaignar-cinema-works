@@ -40,3 +40,24 @@ All occurrences of the mandated families on these five pages were re-read direct
 - audit-only correction: the old prospective `நாணயத்தின்` → `ணா` example is withdrawn because `நாணயத்தின்` does not contain the `ணா` family;
 - unresolved glyph holds: **0**;
 - next dedicated batch: **PDF 9–13**.
+
+### Batch 2 — PDF 9–13 — PASS / 10 of 87
+
+Every occurrence of the mandated historical-glyph families on PDF 9–13 was independently re-read from enlarged controlling-source pixels. The historical shapes consistently resolve to the Unicode identities already present in the visual-verified transcription. No ordinary wording, punctuation, scene structure, or source spelling was reopened.
+
+| PDF | Printed | Target-family evidence re-read from source | Result |
+|---:|:---:|---|---|
+| 9 | 8 | `முன்னால்` (`னா`); `வளைத்து` (`ளை`); `சிலை`, `சிலையை` (`லை`); `வேலைகளைப்` (`லை / ளை`); `வெளியேறுகிறான்` (`றா`) | PASS — no glyph correction |
+| 10 | 9 | `கட்டிலை` (`லை`); `கருணை` (`ணை`); `இன்னைக்கு` (`னை`); `நுழைகிறார்`, `படுத்திருக்கிறாள்`, `தருகிறாள்` (`றா`) | PASS — no glyph correction |
+| 11 | 10 | `இணைந்து`, `தலையணைக்குக்` (`ணை`); `கண்ணாளா`, `மூணாவது` (`ணா`); `இருக்கிறோம்` (`றோ`); `அவளைத்`, `விளையாடிய` (`ளை`); `உன்னை` (`னை`) | PASS — no glyph correction |
+| 12 | 11 | `என்னை` (`னை`); `போகிறோம்` (`றோ`); `நிலைதடுமாறி`, `காலையும்` (`லை`); `சுக்குநூறாப்` (`றா`); `அனாதையா`, `அனாதை` (`னா`) | PASS — no glyph correction |
+| 13 | 12 | `பானை` (`னை`); `நாளைக்கு`, `விளையாடலாம்` (`ளை`); `சொன்னா` (`னா`); `மற்றொரு` (`றொ`); `கண்ணாமூச்சி` (`ணா`); `விளையாடுகிறார்கள்` (`ளை / றா`) | PASS — no glyph correction |
+
+### Batch 2 disposition
+
+- dedicated pages verified: **10 / 87**;
+- contiguous dedicated range: **PDF 4–13**;
+- source-supported glyph-identity corrections to canonical page text in this batch: **0**;
+- cumulative canonical glyph corrections in the dedicated phase: **0**;
+- unresolved glyph holds: **0**;
+- next dedicated batch: **PDF 14–18**.
