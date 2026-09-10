@@ -1,0 +1,4510 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "character-entity-preflight",
+  "status": "review-ready",
+  "dialogue_authority": "744 complete-verified immutable records",
+  "dialogue_records_scanned": 744,
+  "distinct_exact_speaker_labels": 38,
+  "labels": [
+    {
+      "speaker_label": "ஆட்கள்",
+      "record_count": 2,
+      "scene_ids": [
+        "vandikkaran-magan-s053",
+        "vandikkaran-magan-s069"
+      ],
+      "source_scene_ids": [
+        "41",
+        "53-டி"
+      ],
+      "pdf_pages": [
+        67,
+        83
+      ],
+      "neighbor_label_counts": {
+        "கண்ணாயிரம்": 1,
+        "விங்கன்": 1,
+        "மரகதம்": 1,
+        "உமா": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s053-d002",
+          "scene_id": "vandikkaran-magan-s053",
+          "source_scene_id": "41",
+          "speaker_label": "ஆட்கள்",
+          "text": "டேய்!...பொடியா!....நீ எங்க ஜமீன்தாரைப்பத்தியா தப்புப் பிரச்சாரம் பண்ணுறே?...இதோ இந்தத் தீயிலே குளிச்சு சாவு!...",
+          "page_provenance": [
+            {
+              "pdf_page": 67,
+              "printed_page": 66
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s053-d001",
+            "speaker_label": "கண்ணாயிரம்",
+            "text": "தீ! தீ!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s053-d003",
+            "speaker_label": "விங்கன்",
+            "text": "(ஊராரிடம்) வாங்கப்பா வாங்க! நான் சொன்னால் நீங்கள் நம்பமாட்டீர்கள்!...யாரோ புலவர் மகளாம்; பூங்கொடியென்ற பருவ மங்கையாம்...அவளை ஜமீன்தார், ஆட்களைவைத்து தூக்கிக் கொண்டு போய் விட்டார் என்ற உண்மையை—இந்தக் கண்ணாயிரம் சொல்லிவிட்டான். அதற்காக...இவனைத் தீவிட்டுப் பொசுக்குமாறு ஜமீன்தார் உத்தரவு..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s069-d004",
+          "scene_id": "vandikkaran-magan-s069",
+          "source_scene_id": "53-டி",
+          "speaker_label": "ஆட்கள்",
+          "text": "நீங்க விட்டுடுங்கம்மா அவனை நாங்க, பாத்துக்கிறோம்.",
+          "page_provenance": [
+            {
+              "pdf_page": 83,
+              "printed_page": 82
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s069-d003",
+            "speaker_label": "மரகதம்",
+            "text": "ஜமீன்தார்!... ஜமீன்தார்!.... எல்லாம் அவர் வேலைதானு?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s069-d005",
+            "speaker_label": "உமா",
+            "text": "கோகிலா! (என அலறுகிறாள்)......"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "இன்னொருவன்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s008"
+      ],
+      "source_scene_ids": [
+        "7"
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "neighbor_label_counts": {
+        "மற்றொரு சிறுவன்": 1,
+        "ஒரு சிறுமி": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d003",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "இன்னொருவன்",
+          "text": "கண்ணாமூச்சி வேணும் — கலியாண வெளையாட்டு",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d002",
+            "speaker_label": "மற்றொரு சிறுவன்",
+            "text": "கண்ணாமூச்சி!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d004",
+            "speaker_label": "ஒரு சிறுமி",
+            "text": "அப்படின்னு யாரு பொண்ணு?... யாரு மாப்பிள்ளை...?"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "உமா",
+      "record_count": 96,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s008",
+        "vandikkaran-magan-s012",
+        "vandikkaran-magan-s013",
+        "vandikkaran-magan-s020",
+        "vandikkaran-magan-s021",
+        "vandikkaran-magan-s024",
+        "vandikkaran-magan-s026",
+        "vandikkaran-magan-s028",
+        "vandikkaran-magan-s030",
+        "vandikkaran-magan-s031",
+        "vandikkaran-magan-s032",
+        "vandikkaran-magan-s034",
+        "vandikkaran-magan-s037",
+        "vandikkaran-magan-s038",
+        "vandikkaran-magan-s039",
+        "vandikkaran-magan-s044",
+        "vandikkaran-magan-s047",
+        "vandikkaran-magan-s050",
+        "vandikkaran-magan-s055",
+        "vandikkaran-magan-s056",
+        "vandikkaran-magan-s057",
+        "vandikkaran-magan-s058",
+        "vandikkaran-magan-s061",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s069",
+        "vandikkaran-magan-s071"
+      ],
+      "source_scene_ids": [
+        "1",
+        "7",
+        "10-எ",
+        "11",
+        "16-எ",
+        "17",
+        "20",
+        "21",
+        "22-எ",
+        "24",
+        "24-எ",
+        "24-பி",
+        "24-டி",
+        "27",
+        "28",
+        "29",
+        "33",
+        "35",
+        "38",
+        "42-எ",
+        "43",
+        "44",
+        "45-46",
+        "49",
+        "52",
+        "53-டி",
+        "55"
+      ],
+      "pdf_pages": [
+        8,
+        13,
+        19,
+        20,
+        21,
+        29,
+        30,
+        31,
+        35,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        51,
+        52,
+        53,
+        54,
+        58,
+        59,
+        60,
+        63,
+        64,
+        69,
+        70,
+        71,
+        72,
+        75,
+        78,
+        79,
+        80,
+        83,
+        87
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 102,
+        "ஜமீன்தார்": 34,
+        "கோகிலா": 17,
+        "லிங்கன்": 12,
+        "மரகதம்": 4,
+        "உமா": 4,
+        "சடையன்": 1,
+        "மற்றொரு சிறுவன்": 1,
+        "ஜம்பு": 1,
+        "விங்கன் குரல்": 1,
+        "ஜமீன்": 1,
+        "காளிங்க": 1,
+        "ஆட்கள்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d028",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "உமா",
+          "text": "அப்பா! நானும் கூட வரேம்ப்பா!",
+          "page_provenance": [
+            {
+              "pdf_page": 8,
+              "printed_page": 7
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d027",
+            "speaker_label": "சடையன்",
+            "text": "எஜமான்...வண்டி தயாருங்க!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d029",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "உமா! வேண்டாம்மா...நீ போயி விளையாடு... அப்பா கோயிலுக்குப் போயிட்டு வரேன்!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d001",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "உமா",
+          "text": "ஏ, இன்னைக்கு என்ன விளையாட்டு விளையாடலாம்?",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d002",
+            "speaker_label": "மற்றொரு சிறுவன்",
+            "text": "கண்ணாமூச்சி!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d001",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "உமா",
+          "text": "(கோபமாக) ஏய்! உடம்பு எப்படியிருக்கு!",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d002",
+            "speaker_label": "லிங்கன்",
+            "text": "(முண்டாசைத் தட்டி) நல்லாத்தான் இருக்கு!..பாத்தா தெரியலே; தெருவிலே போறவங்களையெல்லாம் உடல்நலம் விசாரிக்கிறீங்களே...நீங்க என்ன டாக்டரம்மாவா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d003",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "உமா",
+          "text": "(மேலும் கோபமாக) ஆங்?",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d002",
+            "speaker_label": "லிங்கன்",
+            "text": "(முண்டாசைத் தட்டி) நல்லாத்தான் இருக்கு!..பாத்தா தெரியலே; தெருவிலே போறவங்களையெல்லாம் உடல்நலம் விசாரிக்கிறீங்களே...நீங்க என்ன டாக்டரம்மாவா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d004",
+            "speaker_label": "மரகதம்",
+            "text": "டாக்டரம்மாக்கள் எல்லாம் இப்படித்தான் சவுக்கை வச்சிகிட்டு விசாரிப்பாங்களா?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d006",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "உமா",
+          "text": "கேலியும் கிண்டலும் கிடக்கட்டும்...முதல்ல சவுக்கைக் கொடு!",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d005",
+            "speaker_label": "லிங்கன்",
+            "text": "நோயாளிகள் கிடைக்காம லோ-லோன்னு அலையுற டாக்டரம்மாக்கள்ளாம் இப்படித்தான் விசாரிப்பாங்க?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d007",
+            "speaker_label": "லிங்கன்",
+            "text": "சவுக்கை கொடுக்கட்டுமா? இல்லை; சவுக்கால கொடுக்கட்டுமா?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d008",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "உமா",
+          "text": "என்ன சொன்னே?",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d007",
+            "speaker_label": "லிங்கன்",
+            "text": "சவுக்கை கொடுக்கட்டுமா? இல்லை; சவுக்கால கொடுக்கட்டுமா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d009",
+            "speaker_label": "மரகதம்",
+            "text": "தம்பியோவ்! கொஞ்சம் மரியாதையாப் பேசுங்க! யாகாவாராயினும் நா காக்க!.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஊர்ப்பெரியவர்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s055"
+      ],
+      "source_scene_ids": [
+        "42-எ"
+      ],
+      "pdf_pages": [
+        69
+      ],
+      "neighbor_label_counts": {
+        "சடையன்": 1,
+        "ஜமீன்தார்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s055-d005",
+          "scene_id": "vandikkaran-magan-s055",
+          "source_scene_id": "42-எ",
+          "speaker_label": "ஊர்ப்பெரியவர்",
+          "text": "(விங்கனிடம்) இந்தப் புண்ணியவான் மேலே புழுதி வாரித் தூற்றுறதே உன் வேலையாப்போச்சு!..உன் பேச்சைக் கேட்டு நாங்களும் பைத்தியக்காரனு ஆயிட்டோம்..எஜமான் எங்களை மன்னிச்சிடுங்க!...",
+          "page_provenance": [
+            {
+              "pdf_page": 69,
+              "printed_page": 68
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s055-d004",
+            "speaker_label": "சடையன்",
+            "text": "(விங்கனிடம் ஜமீன்தாரைக் காட்டி) என்னப்பா, இப்ப என்ன சொல்றே?...என் தெய்வத்தின் திருவிளையாடலைப் பாத்தியா?...அவசரமும் ஆத்திரமும் உன்\nஅறிவை மறைச்சிட்டே இருக்கு!..இந்தக் கலியுகத்திலே எங்கும் காண முடியாத கருணை வடிவமடா இது!..இப்படாவது காலில் விழுந்து மன்னிப்புக்கேளு!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s055-d006",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "மனிதன் மனிதன் மன்னிப்பதா?..வேண்டாம்! தேவையில்லை!..முதல்ல உங்களை நீங்க திருத்திக்குங்க! அப்புறம் என்னைப் புரிஞ்சுக்குங்க, எல்லோரும் போய் வாருங்கள்!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "எல்லோரும்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s008"
+      ],
+      "source_scene_ids": [
+        "7"
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "neighbor_label_counts": {
+        "ஒருவன்": 1,
+        "ஜமீன்தார்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d008",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "எல்லோரும்",
+          "text": "முடியாது! முடியாது!... நீதான் மாப்பிள்ளை!...",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d007",
+            "speaker_label": "ஒருவன்",
+            "text": "அப்ப சரி... உமாதான் பொண்ணு! — சொக்கலிங்கம் தான் மாப்பிள்ளே!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "வண்டிக்காரப் பயலுக்குப் பொறந்த கழுதை!... நீ ஜமீன்தார் ஜம்புலிங்க பூபதியின் மகளுக்கா தாலி கட்டப் போகிறாய்?..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஒரு சிறுமி",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s008"
+      ],
+      "source_scene_ids": [
+        "7"
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "neighbor_label_counts": {
+        "இன்னொருவன்": 1,
+        "ஒருவன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d004",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "ஒரு சிறுமி",
+          "text": "அப்படின்னு யாரு பொண்ணு?... யாரு மாப்பிள்ளை...?",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d003",
+            "speaker_label": "இன்னொருவன்",
+            "text": "கண்ணாமூச்சி வேணும் — கலியாண வெளையாட்டு"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d005",
+            "speaker_label": "ஒருவன்",
+            "text": "நீ தான் பொண்ணு!..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஒருத்தி",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s060"
+      ],
+      "source_scene_ids": [
+        "48"
+      ],
+      "pdf_pages": [
+        73
+      ],
+      "neighbor_label_counts": {
+        "ஒருவன்": 1,
+        "விங்கன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s060-d002",
+          "scene_id": "vandikkaran-magan-s060",
+          "source_scene_id": "48",
+          "speaker_label": "ஒருத்தி",
+          "text": "ஒரு\nஆத்தா மடி சுமந்த\nசின்னப்புள்ளே!- தொட்டுப்\nபாத்தா கைமணக்கும்\nவண்ணப்புள்ளே!",
+          "page_provenance": [
+            {
+              "pdf_page": 73,
+              "printed_page": 72
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s060-d001",
+            "speaker_label": "ஒருவன்",
+            "text": "அணிப்புள்ளே; தென்னம் புள்ளே;"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s060-d003",
+            "speaker_label": "விங்கன்",
+            "text": "—"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஒருவன்",
+      "record_count": 5,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s008",
+        "vandikkaran-magan-s060"
+      ],
+      "source_scene_ids": [
+        "1",
+        "7",
+        "48"
+      ],
+      "pdf_pages": [
+        6,
+        14,
+        73
+      ],
+      "neighbor_label_counts": {
+        "மக்கள்": 3,
+        "சிறுமி": 2,
+        "காளிங்": 1,
+        "ஒரு சிறுமி": 1,
+        "எல்லோரும்": 1,
+        "ஒருத்தி": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d002",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஒருவன்",
+          "text": "ஜமீன்தார் ஜம்புலிங்க பூபதி!",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d001",
+            "speaker_label": "மக்கள்",
+            "text": "ஏ, காளிங்கராயர் வந்துட்டாரு!.. ஜமீன்தாரய்யா வந்துடுவாரு!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d003",
+            "speaker_label": "மக்கள்",
+            "text": "வாழ்க!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d005",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஒருவன்",
+          "text": "ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு...",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d004",
+            "speaker_label": "காளிங்",
+            "text": "என்னடா காட்டுக்கூட்டம்...வாழ்க...வாழ்க...வாள் வாழ்கன்னு!... அழகா... நல்லா நம்ப சாஸ்திரத்துக்கு சம்பிரதாயத்துக்கு எத்தப்படி... ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு ஜே! ஜே!.. என்று கோஷம் போடுவீங்களா?.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d006",
+            "speaker_label": "மக்கள்",
+            "text": "ஜே!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d005",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "ஒருவன்",
+          "text": "நீ தான் பொண்ணு!...",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d004",
+            "speaker_label": "ஒரு சிறுமி",
+            "text": "அப்படின்னு யாரு பொண்ணு?... யாரு மாப்பிள்ளை...?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d006",
+            "speaker_label": "சிறுமி",
+            "text": "நான் மாட்டேன்... இதோ உமாதான் பொண்ணு மாதிரி இருக்கா!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d007",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "ஒருவன்",
+          "text": "அப்ப சரி... உமாதான் பொண்ணு! — சொக்கலிங்கம் தான் மாப்பிள்ளே!..",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d006",
+            "speaker_label": "சிறுமி",
+            "text": "நான் மாட்டேன்... இதோ உமாதான் பொண்ணு மாதிரி இருக்கா!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d008",
+            "speaker_label": "எல்லோரும்",
+            "text": "முடியாது! முடியாது!... நீதான் மாப்பிள்ளை!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s060-d001",
+          "scene_id": "vandikkaran-magan-s060",
+          "source_scene_id": "48",
+          "speaker_label": "ஒருவன்",
+          "text": "அணிப்புள்ளே; தென்னம் புள்ளே;",
+          "page_provenance": [
+            {
+              "pdf_page": 73,
+              "printed_page": 72
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s060-d002",
+            "speaker_label": "ஒருத்தி",
+            "text": "ஒரு\nஆத்தா மடி சுமந்த\nசின்னப்புள்ளே!- தொட்டுப்\nபாத்தா கைமணக்கும்\nவண்ணப்புள்ளே!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஒருவர்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s050"
+      ],
+      "source_scene_ids": [
+        "38"
+      ],
+      "pdf_pages": [
+        62
+      ],
+      "neighbor_label_counts": {
+        "மக்கள்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s050-d006",
+          "scene_id": "vandikkaran-magan-s050",
+          "source_scene_id": "38",
+          "speaker_label": "ஒருவர்",
+          "text": "ஜமீன்தார் ஐம்புலிங்க பூபதிக்கு",
+          "page_provenance": [
+            {
+              "pdf_page": 62,
+              "printed_page": 61
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s050-d005",
+            "speaker_label": "மக்கள்",
+            "text": "வாழ்க!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s050-d007",
+            "speaker_label": "மக்கள்",
+            "text": "ஜே!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "கடைக்",
+      "record_count": 3,
+      "scene_ids": [
+        "vandikkaran-magan-s052"
+      ],
+      "source_scene_ids": [
+        "40"
+      ],
+      "pdf_pages": [
+        65,
+        66
+      ],
+      "neighbor_label_counts": {
+        "கண்ணாயிரம்": 2,
+        "புலவர்": 2,
+        "ஜமீன்தார்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s052-d002",
+          "scene_id": "vandikkaran-magan-s052",
+          "source_scene_id": "40",
+          "speaker_label": "கடைக்",
+          "text": "நான் மாத்திரமா மாட்டுறேன்....இந்த ஊர் பூரா இந்தப் புண்ணியவானுடைய படத்தை மாட்டுறாங்க!.களஞ்சியத்தில் இருக்கிற தானியத்தைப் பூராவும் தர்மம் பண்ணின வள்ளலாச்சே!...அவரு படத்தை மாட்டாம, உன் படத்தையா மாட்டுவேன்...",
+          "page_provenance": [
+            {
+              "pdf_page": 65,
+              "printed_page": 64
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s052-d001",
+            "speaker_label": "கண்ணாயிரம்",
+            "text": "என்னய்யா முதலாளி! படம் மாட்டுறே படம்!?."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s052-d003",
+            "speaker_label": "புலவர்",
+            "text": "(கடைக்காரன், கண்ணாயிரம்! மற்றும் அங்குள்ளோரைப் பார்த்து) அய்யா!...என் மகப் பூங்கொடியைப் பார்த்தீங்களா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s052-d008",
+          "scene_id": "vandikkaran-magan-s052",
+          "source_scene_id": "40",
+          "speaker_label": "கடைக்",
+          "text": "(கண்ணாயிரத்திடம்) ஏ, கண்ணாயிரம்!...ஜமீன்தாரைப்பத்தி என்ன சொன்னே?...என்ன சொன்னே?...",
+          "page_provenance": [
+            {
+              "pdf_page": 65,
+              "printed_page": 64
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s052-d007",
+            "speaker_label": "புலவர்",
+            "text": "நீங்க யாரும் பாக்கலியா?...பூங்கொடி!...அம்மா பூங்கொடி!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s052-d009",
+            "speaker_label": "கண்ணாயிரம்",
+            "text": "நீ படம்வச்சு கும்பிடுறியே! அவன் ஒருபாம்புன்னு பொறுக்கின்னு சொன்னேனே!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s052-d011",
+          "scene_id": "vandikkaran-magan-s052",
+          "source_scene_id": "40",
+          "speaker_label": "கடைக்",
+          "text": "இந்தப் பய கண்ணாயிரம்...ஜமீன்தார் அய்யாவைப் பத்தித் தாறுமாறாப் பேசுறான்!...யாரோ பூங்கொடியுங்கிற பெண்ணும்!...அதை நீங்க...",
+          "page_provenance": [
+            {
+              "pdf_page": 66,
+              "printed_page": 65
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s052-d010",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என்னப்பா இது...ம்?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s052-d012",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "உஸ்....போதும்!...அதற்காக அவனே அடிக்கிறதா?...யார் எது வேண்டுமானாலும் பேசட்டும், எனக்குக் கோபமே வராது!...பாவம்விட்டு விடுங்கள்!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "கண்ணாயிரத்தின் குரல்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s016"
+      ],
+      "source_scene_ids": [
+        "14"
+      ],
+      "pdf_pages": [
+        25
+      ],
+      "neighbor_label_counts": {
+        "காளிங்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d001",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "கண்ணாயிரத்தின் குரல்",
+          "text": "கண்ணைத் திறக்காம குடிக்கிறீங்களே எஜமான்! கொஞ்சம் கண்ணைத்திறந்து பார்த்தாத்தானே எதிரிலே மீனு... கோழி... இதெல்லாம் நல்லா சாப்பிடலாம்.",
+          "page_provenance": [
+            {
+              "pdf_page": 25,
+              "printed_page": 24
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d002",
+            "speaker_label": "காளிங்",
+            "text": "மடையா!... மகான்கள் தவம் பண்ணும்போது கண்ணைத் திறப்பாங்களாடா?"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "கண்ணாயிரம்",
+      "record_count": 11,
+      "scene_ids": [
+        "vandikkaran-magan-s016",
+        "vandikkaran-magan-s018",
+        "vandikkaran-magan-s052",
+        "vandikkaran-magan-s053",
+        "vandikkaran-magan-s058"
+      ],
+      "source_scene_ids": [
+        "14",
+        "15",
+        "40",
+        "41",
+        "45-46"
+      ],
+      "pdf_pages": [
+        25,
+        26,
+        27,
+        29,
+        65,
+        66,
+        71
+      ],
+      "neighbor_label_counts": {
+        "காளிங்": 8,
+        "புலவர்": 4,
+        "விங்கன்": 3,
+        "கடைக்": 2,
+        "ஜமீன்தார்": 1,
+        "ஆட்கள்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d003",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "கண்ணாயிரம்",
+          "text": "மாட்டாங்க!",
+          "page_provenance": [
+            {
+              "pdf_page": 25,
+              "printed_page": 24
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s016-d002",
+            "speaker_label": "காளிங்",
+            "text": "மடையா!... மகான்கள் தவம் பண்ணும்போது கண்ணைத் திறப்பாங்களாடா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d004",
+            "speaker_label": "காளிங்",
+            "text": "ஏன் தெரியுமா?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d005",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "கண்ணாயிரம்",
+          "text": "சொல்லுங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 26,
+              "printed_page": 25
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s016-d004",
+            "speaker_label": "காளிங்",
+            "text": "ஏன் தெரியுமா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d006",
+            "speaker_label": "காளிங்",
+            "text": "அப்பதாண்டா சொர்க்கம் தெரியும்!.. என்னைப்பன் சொக்கலிங்கம் காட்சி கொடுப்பான்!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d018",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "கண்ணாயிரம்",
+          "text": "ஒண்ணுமில்ல... ஒரு துளி குடிச்சதுக்கே நான் இவ்வளவு அடி வாங்குறேனே!... நீங்க அவ்வளவு குடிக்கிறீங்களே; எவ்வளவு அடி வாங்கப் போறீங்களோன்னு நினைச்சு சிரிக்கிறேன்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 27,
+              "printed_page": 26
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s016-d017",
+            "speaker_label": "காளிங்",
+            "text": "என்னடா... அடிச்சுகிட்டே இருக்கேன்?... நீ, சிரிச்சுகிட்டே இருக்கே!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d019",
+            "speaker_label": "காளிங்",
+            "text": "எதிர்த்தா பேசுற?... கழுதை!... என்னையா எதிர்த்து பேசுற?.. இனிமே நீ சிரிக்க முடியாது... அழப் போற! உன்னை வேலையைவிட்டு டிஸ்மிஸ் பண்ணிட்டேன். போ வெளியே!... கெட் அவுட்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d020",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "கண்ணாயிரம்",
+          "text": "ரொம்ப நன்றி!.. வர்றேன்...",
+          "page_provenance": [
+            {
+              "pdf_page": 27,
+              "printed_page": 26
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s016-d019",
+            "speaker_label": "காளிங்",
+            "text": "எதிர்த்தா பேசுற?... கழுதை!... என்னையா எதிர்த்து பேசுற?.. இனிமே நீ சிரிக்க முடியாது... அழப் போற! உன்னை வேலையைவிட்டு டிஸ்மிஸ் பண்ணிட்டேன். போ வெளியே!... கெட் அவுட்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d021",
+            "speaker_label": "காளிங்",
+            "text": "போறவன் எல்லாம் திட்டிட்டுப் போறான்; இவன் ஒருத்தன்தான் நன்றி சொல்லிட்டுப் போறான்... போடா!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s018-d014",
+          "scene_id": "vandikkaran-magan-s018",
+          "source_scene_id": "15",
+          "speaker_label": "கண்ணாயிரம்",
+          "text": "இது மாத்திரமா?... வாங்க!... இன்னம் எவ்வளவோ ரகசியம் இருக்கு — சொல்றேன்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 29,
+              "printed_page": 28
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s018-d013",
+            "speaker_label": "விங்கன்",
+            "text": "கண்ணாயிரம்!.. மரகதம்மா — ஜமீன்தார் உறவிலே ஏதோ மர்மம் இருக்குதுலே!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s018-d015",
+            "speaker_label": "விங்கன்",
+            "text": "சரி... சரி... வா!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s052-d001",
+          "scene_id": "vandikkaran-magan-s052",
+          "source_scene_id": "40",
+          "speaker_label": "கண்ணாயிரம்",
+          "text": "என்னய்யா முதலாளி! படம் மாட்டுறே படம்!?.",
+          "page_provenance": [
+            {
+              "pdf_page": 65,
+              "printed_page": 64
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s052-d002",
+            "speaker_label": "கடைக்",
+            "text": "நான் மாத்திரமா மாட்டுறேன்....இந்த ஊர் பூரா இந்தப் புண்ணியவானுடைய படத்தை மாட்டுறாங்க!.களஞ்சியத்தில் இருக்கிற தானியத்தைப் பூராவும் தர்மம் பண்ணின வள்ளலாச்சே!...அவரு படத்தை மாட்டாம, உன் படத்தையா மாட்டுவேன்..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "காளிங்",
+      "record_count": 45,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s013",
+        "vandikkaran-magan-s015",
+        "vandikkaran-magan-s016",
+        "vandikkaran-magan-s018",
+        "vandikkaran-magan-s022",
+        "vandikkaran-magan-s041",
+        "vandikkaran-magan-s043",
+        "vandikkaran-magan-s049",
+        "vandikkaran-magan-s050"
+      ],
+      "source_scene_ids": [
+        "1",
+        "11",
+        "13",
+        "14",
+        "15",
+        "18",
+        "30",
+        "32",
+        "37",
+        "38"
+      ],
+      "pdf_pages": [
+        6,
+        7,
+        8,
+        20,
+        21,
+        24,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        55,
+        56,
+        57,
+        61,
+        62,
+        63
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 24,
+        "விங்கன்": 14,
+        "மரகதம்": 11,
+        "காளிங்": 8,
+        "கண்ணாயிரம்": 8,
+        "சடையன்": 6,
+        "புலவர்": 5,
+        "மக்கள்": 4,
+        "லிங்கன்": 2,
+        "புரோகிதர்": 2,
+        "ஒருவன்": 1,
+        "கண்ணாயிரத்தின் குரல்": 1,
+        "ஜமீன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d004",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "காளிங்",
+          "text": "என்னடா காட்டுக்கூட்டம்...வாழ்க...வாழ்க...வாள் வாழ்கன்னு!... அழகா... நல்லா நம்ப சாஸ்திரத்துக்கு சம்பிரதாயத்துக்கு எத்தப்படி... ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு ஜே! ஜே!.. என்று கோஷம் போடுவீங்களா?..",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d003",
+            "speaker_label": "மக்கள்",
+            "text": "வாழ்க!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d005",
+            "speaker_label": "ஒருவன்",
+            "text": "ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d008",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "காளிங்",
+          "text": "பிரபு!",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d007",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "பெரியவர்களுக்கு நமஸ்காரம்!.. சிறியவர்களுக்கு ஆசீர்வாதம்!... காளிங்கராயா!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "இவர்களின் குறைகளைக் கேள்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d010",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "காளிங்",
+          "text": "உத்தரவு பிரபு...",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "இவர்களின் குறைகளைக் கேள்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d011",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "எழுந்திருங்கள்...எழுந்திருங்கள்...நீங்கள் எல்லாம் என் காலில் விழுந்து வணங்குகிறீர்களே; நான் என்ன மகானு? மகரிஷியா? மகாத்மாவா?.. இல்லை! ஆனால் ஒன்று நீங்கள் விழுந்து வணங்குவது ஜமீன்தார் ஜம்புலிங்கத்தின் காலில் இல்லை!... தர்மத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! நீதியின் காலை — நாணயத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! என்ன காளிங்கராயா?...நான் சொல்வது சரிதானு?.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d012",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "காளிங்",
+          "text": "வேற யார் சொல்ல முடியும் — நாமே சொல்லிக்க வேண்டியதுதான்!",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d011",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "எழுந்திருங்கள்...எழுந்திருங்கள்...நீங்கள் எல்லாம் என் காலில் விழுந்து வணங்குகிறீர்களே; நான் என்ன மகானு? மகரிஷியா? மகாத்மாவா?.. இல்லை! ஆனால் ஒன்று நீங்கள் விழுந்து வணங்குவது ஜமீன்தார் ஜம்புலிங்கத்தின் காலில் இல்லை!... தர்மத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! நீதியின் காலை — நாணயத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! என்ன காளிங்கராயா?...நான் சொல்வது சரிதானு?.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d013",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(காலில் விழுந்த பெண்ணிடம்) உன் குறை என்னம்மா?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d016",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "காளிங்",
+          "text": "நம்ம எல்லைக்குள்தானே!... அதை அமுல்படுத்திடலாம்.",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d015",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஐயகோ! ஐயகோ! தாய்க்குலம் கண்ணீர் வடிப்பதா? அதுவும் என் எதிரிலா? தாய்க்குலத்தின் கண்ணீரை என்னால் தாங்கிக் கொள்ளவே முடியவில்லை... காளிங்கா!... இந்தப் பெண்மணியின் கணவனைக் கூப்பிட்டு... கிரமமாக உத்தரவிடு!.. (பெண்ணை நோக்கி) கவலைப்படாதே அம்மா!.. உன் புருஷனைத் திருத்துவதுதான் பொறுப்பு... காளிங்கா! அதோடு இன்னொரு கட்டளை - உடனே அமுலாக வேண்டும். நமது ஜமீன் எல்லைக்குள் மதுவின் வாடையே அடிக்கக்கூடாது."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d017",
+            "speaker_label": "புலவர்",
+            "text": "மாரி பொய்த்தாலும் பாரியின் கொடை பொய்க்காது!\nதலையைக் கொடுக்கவும் தயாரான குமணன்!\nதான்செய்த தர்மங்களையெல்லாம் கொடையாகக்\nகொடுத்தான் கர்ணன்! பாரியாய் — குமணனாய் —\nகர்ணனாய்க் காட்டியளிக்கும் வள்ளலே வாழ்க!...\nவாழ்க!...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d020",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "காளிங்",
+          "text": "முகஸ்துதி பண்ணும் போதே தெரியுதே!..",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d019",
+            "speaker_label": "புலவர்",
+            "text": "ஒரு தமிழ்ப்புலவன் ஐயா!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d021",
+            "speaker_label": "புலவர்",
+            "text": "எல்லாப் புலவர்களையும் அப்படிச் சொல்லாதீர்கள்! உறுதியோடு இருக்கிற புலவர்களும் இருக்காங்க... சமயத்துக்குத் தக்கபடி தாளம் போடுகிற புலவர்களும் இருக்காங்க!.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "காளிங்க",
+      "record_count": 18,
+      "scene_ids": [
+        "vandikkaran-magan-s052",
+        "vandikkaran-magan-s061",
+        "vandikkaran-magan-s062",
+        "vandikkaran-magan-s063",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s069"
+      ],
+      "source_scene_ids": [
+        "40",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53-டி"
+      ],
+      "pdf_pages": [
+        66,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        83
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 12,
+        "விங்கன்": 9,
+        "கோகிலா": 7,
+        "காளிங்க": 2,
+        "மரகதம்": 2,
+        "உமா": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s052-d014",
+          "scene_id": "vandikkaran-magan-s052",
+          "source_scene_id": "40",
+          "speaker_label": "காளிங்க",
+          "text": "தீப்பந்தத்தாலே பொசுக்கி...சாம்பலாக்கிடுறேன்...சண்டாளப்பயல்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 66,
+              "printed_page": 65
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s052-d013",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா!....அந்தக் கண்ணாயிரத்தை மக்களுக்கு நேரா மன்னிச்சுட்டேன்...ஆனால்...இன்றைக்கு இராத்திரியே அவனத் தீர்த்துக் கட்ட ஏற்பாடு செய்!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s052-d015",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "சபாஷ்!...ம்...பூங்கொடி தயாராக இருக்காளா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s052-d016",
+          "scene_id": "vandikkaran-magan-s052",
+          "source_scene_id": "40",
+          "speaker_label": "காளிங்க",
+          "text": "பூஜைக்கு வந்த மலர்!..தங்கள் வரவை நோக்கித் தயாரா இருக்கு!...",
+          "page_provenance": [
+            {
+              "pdf_page": 66,
+              "printed_page": 65
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s052-d015",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "சபாஷ்!...ம்...பூங்கொடி தயாராக இருக்காளா?..."
+          },
+          "next_dialogue": null
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s061-d002",
+          "scene_id": "vandikkaran-magan-s061",
+          "source_scene_id": "49",
+          "speaker_label": "காளிங்க",
+          "text": "டேய்! அந்த சாமான்களே எல்லாம் குடிசைக்குள்ளே கொண்டு போயி வையுங்கடா.!",
+          "page_provenance": [
+            {
+              "pdf_page": 75,
+              "printed_page": 74
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s061-d001",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா! அதையெல்லாம் உள்ளே கொண்டு போய் வை!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s061-d003",
+            "speaker_label": "விங்கன்",
+            "text": "என்ன இதெல்லாம்?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s061-d004",
+          "scene_id": "vandikkaran-magan-s061",
+          "source_scene_id": "49",
+          "speaker_label": "காளிங்க",
+          "text": "சும்மா குழந்தைக்கு... தங்க கிலுகிலுப்பை!... மாணிக்கப் பாலாடை!... அசல் யானைத் தந்தத்திலே செஞ்ச தொட்டில்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 75,
+              "printed_page": 74
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s061-d003",
+            "speaker_label": "விங்கன்",
+            "text": "என்ன இதெல்லாம்?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s061-d005",
+            "speaker_label": "விங்கன்",
+            "text": "வேண்டாம்! வேண்டாம்!... இதெல்லாம் இங்கே ஒட்டாது!.... துணியில ஒரு தொட்டில்!... டீன் ஒலியில ஒரு கிலுகிலுப்பை!.. சங்கிலே ஒரு பாலாடை!.. அது போதும் எங்க வீட்டு குழந்தைக்கு!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s061-d008",
+          "scene_id": "vandikkaran-magan-s061",
+          "source_scene_id": "49",
+          "speaker_label": "காளிங்க",
+          "text": "மாப்பிளே...கிண்டல் பண்றாரு!...",
+          "page_provenance": [
+            {
+              "pdf_page": 75,
+              "printed_page": 74
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s061-d007",
+            "speaker_label": "விங்கன்",
+            "text": "(குழந்தையை வாங்கி... உற்றுப் பார்த்து) அப்படி ஒண்ணும் நெத்தியிலே எழுதலியே!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s061-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஏதம்மா இந்தக்காளைமாடு?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s062-d002",
+          "scene_id": "vandikkaran-magan-s062",
+          "source_scene_id": "50",
+          "speaker_label": "காளிங்க",
+          "text": "நம்ப பொண்ணு உமா அங்கே இருக்கே...? அது ஏம் தீயில கருகிடுமே!..",
+          "page_provenance": [
+            {
+              "pdf_page": 76,
+              "printed_page": 75
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s062-d001",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அது காளைமாடு அல்ல!... காலன்! எமன்!... என்னைப் பழிக்குப் பழிதீர்க்க அந்த விங்கன் கூர்தீட்டி வைத்திருக்கும் பயங்கர ஆயுதம்!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s062-d003",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அந்தக் குடிசைப்பகுதிக்கு தீவைப்பதற்கு முன்... விங்கனிடமிருந்து உமாவைப் பிரித்துவிட வேண்டும். அதற்கும் திட்டம் வைத்திருக்கிறேன்!..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "காவலன்",
+      "record_count": 2,
+      "scene_ids": [
+        "vandikkaran-magan-s054"
+      ],
+      "source_scene_ids": [
+        "42"
+      ],
+      "pdf_pages": [
+        68
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 3
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s054-d002",
+          "scene_id": "vandikkaran-magan-s054",
+          "source_scene_id": "42",
+          "speaker_label": "காவலன்",
+          "text": "ஜமீன்தாரய்யா உத்திரவில்லாமல்...யாரையும் உள்ளே விட முடியாது...",
+          "page_provenance": [
+            {
+              "pdf_page": 68,
+              "printed_page": 67
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s054-d001",
+            "speaker_label": "விங்கன்",
+            "text": "ஏய், வழிவிடு! கதவைத் திற!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s054-d003",
+            "speaker_label": "விங்கன்",
+            "text": "முட்டாளே! ஜமீன்தாரின் காமவெறிக்கு ஆளாகி உள்ளே அழுதுகொண்டிருக்கிற பெண்ணுக்கு நீ தந்தையாக இருந்தால்..அப்போது உள்ளே நுழைய உத்திரவை எதிர்பார்க்கமாட்டாய்! உடைத்தெறிவாய் இந்தக் கதவை! ம்..விடு..என்னை!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s054-d004",
+          "scene_id": "vandikkaran-magan-s054",
+          "source_scene_id": "42",
+          "speaker_label": "காவலன்",
+          "text": "முடியாது! (தடுத்தல்).",
+          "page_provenance": [
+            {
+              "pdf_page": 68,
+              "printed_page": 67
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s054-d003",
+            "speaker_label": "விங்கன்",
+            "text": "முட்டாளே! ஜமீன்தாரின் காமவெறிக்கு ஆளாகி உள்ளே அழுதுகொண்டிருக்கிற பெண்ணுக்கு நீ தந்தையாக இருந்தால்..அப்போது உள்ளே நுழைய உத்திரவை எதிர்பார்க்கமாட்டாய்! உடைத்தெறிவாய் இந்தக் கதவை! ம்..விடு..என்னை!"
+          },
+          "next_dialogue": null
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "கோகிலா",
+      "record_count": 64,
+      "scene_ids": [
+        "vandikkaran-magan-s013",
+        "vandikkaran-magan-s014",
+        "vandikkaran-magan-s020",
+        "vandikkaran-magan-s023",
+        "vandikkaran-magan-s024",
+        "vandikkaran-magan-s025",
+        "vandikkaran-magan-s036",
+        "vandikkaran-magan-s037",
+        "vandikkaran-magan-s039",
+        "vandikkaran-magan-s040",
+        "vandikkaran-magan-s063",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s069"
+      ],
+      "source_scene_ids": [
+        "11",
+        "12",
+        "16-எ",
+        "19",
+        "20",
+        "20-எ",
+        "26",
+        "27",
+        "29",
+        "29-எ",
+        "51",
+        "52",
+        "53-டி"
+      ],
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        36,
+        37,
+        38,
+        50,
+        51,
+        53,
+        55,
+        76,
+        77,
+        78,
+        83
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 33,
+        "மரகதம்": 30,
+        "உமா": 17,
+        "லிங்கன்": 16,
+        "ஜமீன்தார்": 8,
+        "காளிங்க": 7,
+        "கோகிலா": 6
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s013-d016",
+          "scene_id": "vandikkaran-magan-s013",
+          "source_scene_id": "11",
+          "speaker_label": "கோகிலா",
+          "text": "உமா!...",
+          "page_provenance": [
+            {
+              "pdf_page": 21,
+              "printed_page": 20
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s013-d015",
+            "speaker_label": "மரகதம்",
+            "text": "வணக்கம்."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s013-d017",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "இதுதான் கோகிலா..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s013-d022",
+          "scene_id": "vandikkaran-magan-s013",
+          "source_scene_id": "11",
+          "speaker_label": "கோகிலா",
+          "text": "(லிங்கனிடம்) வர்றீங்களா?...",
+          "page_provenance": [
+            {
+              "pdf_page": 21,
+              "printed_page": 20
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s013-d021",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "கோகிலா! மிஸ்டர் லிங்கனை அழைத்துக்கொண்டு போய், நமது மாளிகை முழுதும் சுற்றிக்காட்டு!..."
+          },
+          "next_dialogue": null
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s014-d001",
+          "scene_id": "vandikkaran-magan-s014",
+          "source_scene_id": "12",
+          "speaker_label": "கோகிலா",
+          "text": "வாங்க! வாங்க! வாங்க! இது புலி! உயிர்ப்புலின்னு நினைச்சுக்காதீங்க; செத்துப்போன புலி!...இந்தப் புலி போட்ட அட்டகாசத்தைத் தாங்காம ஜனங்கள்ளாம் ஓடியாந்து ஜமீன்தாருகிட்ட முறையிட்டாங்களாம். உடனே ஜமீன்தாரு, எடுத்தாரு துப்பாக்கியை! சென்றாரு காட்டுக்கு!...கொன்றாரு புலியை! கொண்டு வந்து இங்கே மாட்டியிருக்கு தலையை!...",
+          "page_provenance": [
+            {
+              "pdf_page": 22,
+              "printed_page": 21
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s014-d002",
+            "speaker_label": "லிங்கன்",
+            "text": "இந்த ஜமீன்தாரா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s014-d003",
+          "scene_id": "vandikkaran-magan-s014",
+          "source_scene_id": "12",
+          "speaker_label": "கோகிலா",
+          "text": "சொல்றதுக்குள்ளே அவசரப்படுறீங்களே; இந்த ஜமீன்தாரோட அப்பாவோட அப்பா—அதாவது தாத்தா!...இதோ, மான் தலை!...மான் வேட்டையிலே இப்ப இருக்கிற ஜமீன்தார் ரொம்ப கெட்டிக்காரரு!...நூறு மைல் வேகத்திலே ஓடுற மான்களை; நம்ப ஜமீன்தாரு நூற்றி அம்பது மைல் வேகத்திலே போயி வேட்டையாடி வீழ்த்துவாரு!...வாங்க!",
+          "page_provenance": [
+            {
+              "pdf_page": 22,
+              "printed_page": 21
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s014-d002",
+            "speaker_label": "லிங்கன்",
+            "text": "இந்த ஜமீன்தாரா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s014-d004",
+            "speaker_label": "லிங்கன்",
+            "text": "ஓ!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s014-d005",
+          "scene_id": "vandikkaran-magan-s014",
+          "source_scene_id": "12",
+          "speaker_label": "கோகிலா",
+          "text": "இதான் என் ரூம்.. (உள்ளே அழைத்து வந்து) முதன் முதல்ல என் ரூமுக்கு வந்திருக்கீங்க..இந்தாங்க ஆப்பிள்!...(லிங்கன் வாங்கிக்கொள்கிறான்) அருமையான காஷ்மீர் ஆப்பிள்!...என்பேர்தான் உங்களுக்குத் தெரியும்..கோகிலா! எங்க அம்மாவைத்தான் உமாவோட வழியிலேயே பாத்துட்டீங்க!...உமாவுக்கு டீச்சரம்மான்னு அறிமுகப் படுத்தினாங்களே; அந்த மரகதம்மாவோட பொண்ணுதான் நான்!. நான் பிறந்தோன்ன எங்கப்பா; அம்மாகிட்ட சண்டை போட்டுகிட்டு, கப்பலேறி வெளிநாட்டுக்குப் போயிட்டாராம்..நான் பிறந்த நேரம் எப்படி பாத்தீங்களா?...நான் பிறந்த நட்சத்திரம் அஸ்வதி — பரணி — கார்த்திகை — ரோகிணி...அப்படிம்பாங்களே; இருபத்தேழு நட்சத்திரம்..அதில ஒரு நட்சத்திரம்!...லக்னம் என்னன்னா...மேஷம்-ரிஷபம்-மீனம்-கும்பம்-சிம்மம்-கடகம்-தனுசு-விருச்சிகம்...",
+          "page_provenance": [
+            {
+              "pdf_page": 22,
+              "printed_page": 21
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s014-d004",
+            "speaker_label": "லிங்கன்",
+            "text": "ஓ!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s014-d006",
+            "speaker_label": "லிங்கன்",
+            "text": "(மேசையிலிருந்து ஒரு கிளிப்பை எடுத்து) போதும்!...போதும்!...அம்மா...எங்கே, உதட்டைக் கொஞ்சம்... (தன் உதட்டைக் குவித்துக் காட்டுதல்) இப்படி வச்சுக்க, பார்க்கலாம்..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s014-d007",
+          "scene_id": "vandikkaran-magan-s014",
+          "source_scene_id": "12",
+          "speaker_label": "கோகிலா",
+          "text": "எப்படி? இப்படியா?",
+          "page_provenance": [
+            {
+              "pdf_page": 23,
+              "printed_page": 22
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s014-d006",
+            "speaker_label": "லிங்கன்",
+            "text": "(மேசையிலிருந்து ஒரு கிளிப்பை எடுத்து) போதும்!...போதும்!...அம்மா...எங்கே, உதட்டைக் கொஞ்சம்... (தன் உதட்டைக் குவித்துக் காட்டுதல்) இப்படி வச்சுக்க, பார்க்கலாம்..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s014-d008",
+            "speaker_label": "லிங்கன்",
+            "text": "என்னை ஒரு வார்த்தைகூடப் பேசவிடாம நீ பாட்டுக்குப் பேசிக்கிட்டே இருக்கியே...ஊம்!..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "சடையன்",
+      "record_count": 42,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s007",
+        "vandikkaran-magan-s008",
+        "vandikkaran-magan-s015",
+        "vandikkaran-magan-s022",
+        "vandikkaran-magan-s023",
+        "vandikkaran-magan-s035",
+        "vandikkaran-magan-s043",
+        "vandikkaran-magan-s051",
+        "vandikkaran-magan-s053",
+        "vandikkaran-magan-s055",
+        "vandikkaran-magan-s056",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s069",
+        "vandikkaran-magan-s071"
+      ],
+      "source_scene_ids": [
+        "1",
+        "6",
+        "7",
+        "13",
+        "18",
+        "19",
+        "25",
+        "32",
+        "39",
+        "41",
+        "42-எ",
+        "43",
+        "52",
+        "53-டி",
+        "55"
+      ],
+      "pdf_pages": [
+        8,
+        13,
+        15,
+        16,
+        24,
+        25,
+        32,
+        33,
+        48,
+        49,
+        57,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        79,
+        80,
+        84,
+        86
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 38,
+        "ஜமீன்தார்": 14,
+        "சடையன்": 8,
+        "காளிங்": 6,
+        "சொக்க": 6,
+        "சொர்ணம்": 2,
+        "உமா": 1,
+        "முனியன்": 1,
+        "ஊர்ப்பெரியவர்": 1,
+        "மரகதம்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d027",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "சடையன்",
+          "text": "எஜமான்...வண்டி தயாருங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 8,
+              "printed_page": 7
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d026",
+            "speaker_label": "காளிங்",
+            "text": "டேய் சடையா!...சடையா!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d028",
+            "speaker_label": "உமா",
+            "text": "அப்பா! நானும் கூட வரேம்ப்பா!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d003",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சடையன்",
+          "text": "சொ..ணம்!.. நம்ம பையன் பேசுறதைக் கேட்டியா?",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d002",
+            "speaker_label": "சொக்க",
+            "text": "வேணும்மா வேணும்! இந்தப் பழயது என்னைக்கும் கிடைக்கும்...பாதாம் அல்வா ஒரு நாளைக்குத்தான் கிடைக்கும்..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d004",
+            "speaker_label": "சொர்ணம்",
+            "text": "சின்னப்புள்ளே பேசா இருந்தாலும் சிந்திக்க வைக்கிற பேச்சுங்க!...நம்பளப் போல பாட்டாளிங்களுக்கு பழயசோறுதான் பாதாம் அல்வா, பஞ்சாமிர்தம் எல்லாமே — இல்லீங்களா?...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d005",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சடையன்",
+          "text": "என்ன அப்படிசொல்லிட்டே!... நம்ப பையன் பாதாம் அல்வாவுக்கு ஆசைப்படுறான்னு, ஜமீன்தாரய்யா கிட்ட ஒரு வார்த்தை சொன்னா போதும். அப்படியே பாதாம் அல்வா தட்டையே அனுப்பிச்சிடுவாரு!....",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d004",
+            "speaker_label": "சொர்ணம்",
+            "text": "சின்னப்புள்ளே பேசா இருந்தாலும் சிந்திக்க வைக்கிற பேச்சுங்க!...நம்பளப் போல பாட்டாளிங்களுக்கு பழயசோறுதான் பாதாம் அல்வா, பஞ்சாமிர்தம் எல்லாமே — இல்லீங்களா?...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d006",
+            "speaker_label": "சொக்க",
+            "text": "எம்மோ!...எப்போ!...நான் விளையாடப்போறேன்!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d019",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சடையன்",
+          "text": "சொர்ணம்...! சொர்ணம்...!",
+          "page_provenance": [
+            {
+              "pdf_page": 15,
+              "printed_page": 14
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d018",
+            "speaker_label": "சொக்க",
+            "text": "அம்மா! அம்மா!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d020",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(சமாளித்தல்) ஐயோ, சொர்ணம்! அந்தப் பக்கமா போனே!.. அது துஷ்டக் காளையாச்சே!.. அதைக் கொண்டாந்து குதிரை லாயத்துல கட்டினது யாரு?.. சொர்ணம்!.. சொர்ணம்!!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d024",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சடையன்",
+          "text": "(அவனைத் தடுத்து) பாவிப்பயலே!.. எங்க எஜமானையா குற்றம் சொல்றே?..",
+          "page_provenance": [
+            {
+              "pdf_page": 16,
+              "printed_page": 15
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d023",
+            "speaker_label": "சொக்க",
+            "text": "நீ மனுஷன் இல்லே!.. நீ தான் மாடு!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d025",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "சடையா! இதுதான்—பழியோரிடம் பாவமோரிடம் என்பாங்களே—அது!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d026",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சடையன்",
+          "text": "அவர் நம்ப தெய்வம் மாதிரி! அவரைப்பத்தி நீ ஏதாவது சொன்னே உன் நாக்கு அழுகிப் போய்டும்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 16,
+              "printed_page": 15
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d025",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "சடையா! இதுதான்—பழியோரிடம் பாவமோரிடம் என்பாங்களே—அது!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d027",
+            "speaker_label": "சொக்க",
+            "text": "இல்லப்பா.. இல்லே!—இவன்தான் எங்கம்மாவைக் கொன்னான்!... இவனை சும்மா விடக்கூடாது!..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "சடையன் குரல்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s023"
+      ],
+      "source_scene_ids": [
+        "19"
+      ],
+      "pdf_pages": [
+        33
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s023-d001",
+          "scene_id": "vandikkaran-magan-s023",
+          "source_scene_id": "19",
+          "speaker_label": "சடையன் குரல்",
+          "text": "“எஜமான் என்னை நம்புங்க... நீங்க அடிச்சாலும் உதைத்தாலும் இந்த அரண்மனை சோத்தை தின்னுகிட்டு கிடக்கிற நன்றியுள்ள நாய்ங்க நான்!”",
+          "page_provenance": [
+            {
+              "pdf_page": 33,
+              "printed_page": 32
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s023-d002",
+            "speaker_label": "விங்கன்",
+            "text": "நீங்களா?..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "சிறுமி",
+      "record_count": 2,
+      "scene_ids": [
+        "vandikkaran-magan-s008",
+        "vandikkaran-magan-s059"
+      ],
+      "source_scene_ids": [
+        "7",
+        "47"
+      ],
+      "pdf_pages": [
+        14,
+        72
+      ],
+      "neighbor_label_counts": {
+        "ஒருவன்": 2,
+        "விங்கன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d006",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சிறுமி",
+          "text": "நான் மாட்டேன்... இதோ உமாதான் பொண்ணு மாதிரி இருக்கா!...",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d005",
+            "speaker_label": "ஒருவன்",
+            "text": "நீ தான் பொண்ணு!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d007",
+            "speaker_label": "ஒருவன்",
+            "text": "அப்ப சரி... உமாதான் பொண்ணு! — சொக்கலிங்கம் தான் மாப்பிள்ளே!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s059-d002",
+          "scene_id": "vandikkaran-magan-s059",
+          "source_scene_id": "47",
+          "speaker_label": "சிறுமி",
+          "text": "அண்ணே! அண்ணே!...உமா அக்காளுக்கு குழந்தை பொறந்திருக்கு!...குழந்தை...",
+          "page_provenance": [
+            {
+              "pdf_page": 72,
+              "printed_page": 71
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s059-d001",
+            "speaker_label": "விங்கன்",
+            "text": "பலே! அப்படித்தான்!....கண்ணாயிரம்!..பழகி விட்டது காளை!...இனி அடுத்தது பழக வாங்கும் பாடம்!...."
+          },
+          "next_dialogue": null
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "சொக்",
+      "record_count": 6,
+      "scene_ids": [
+        "vandikkaran-magan-s006"
+      ],
+      "source_scene_ids": [
+        "5"
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "neighbor_label_counts": {
+        "டேவிட்": 11
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d002",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "சொக்",
+          "text": "நான் யாருங்கிறது அப்புறம் இருக்கட்டும்...இன்னேரம் நான் வந்து இங்கே ஒளிஞ்சிருக்கலேன்னு...நீங்க கீழே விழுந்து சுக்குநூறாப் போயிருப்பீங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d001",
+            "speaker_label": "டேவிட்",
+            "text": "ஹூ~ ஆர் யூ? யார் நீ?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d003",
+            "speaker_label": "டேவிட்",
+            "text": "ஓ...ஐ ஸீ!..நான் பாத்ரூமுக்குப் போனேன்..பாய்!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d004",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "சொக்",
+          "text": "பாத்ரூமுக்குப் போறேன்னுட்டு பரமண்டலத்துக்கே போயிருப்பீங்க!..இது..கீழே இறங்குகிற கதவுசார்...கதவு!...",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d003",
+            "speaker_label": "டேவிட்",
+            "text": "ஓ...ஐ ஸீ!..நான் பாத்ரூமுக்குப் போனேன்..பாய்!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d005",
+            "speaker_label": "டேவிட்",
+            "text": "(சிரித்தபடி) குட்பாய்!..வெரிகுட் பாய்!...உன்பேர் என்ன தம்பி?.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d006",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "சொக்",
+          "text": "சொக்கலிங்கம்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d005",
+            "speaker_label": "டேவிட்",
+            "text": "(சிரித்தபடி) குட்பாய்!..வெரிகுட் பாய்!...உன்பேர் என்ன தம்பி?.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d007",
+            "speaker_label": "டேவிட்",
+            "text": "குட்!...குட்!...பாய்! நீ எப்படி இங்க வந்தே?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d008",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "சொக்",
+          "text": "நான் பொறந்த ஊரை விட்டே ஓடியாந்துட்டேன்!..?",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d007",
+            "speaker_label": "டேவிட்",
+            "text": "குட்!...குட்!...பாய்! நீ எப்படி இங்க வந்தே?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d009",
+            "speaker_label": "டேவிட்",
+            "text": "உனக்கு அப்பா அம்மா யாருமே இல்லையா? நீ ஒரு அனாதையா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d010",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "சொக்",
+          "text": "அனாதை இல்ல சார்...நான் ஓடியாந்து இங்க ஒளிஞ்சதே ஒரு பெரிய கதை சார்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d009",
+            "speaker_label": "டேவிட்",
+            "text": "உனக்கு அப்பா அம்மா யாருமே இல்லையா? நீ ஒரு அனாதையா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d011",
+            "speaker_label": "டேவிட்",
+            "text": "ஓ...!ம்.... சொல்லு, சொல்லு!...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d012",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "சொக்",
+          "text": "அப்பா மடியிலே உக்காந்துக்குவேன்!.. அம்மாதான் எனக்குச் சோறு ஊட்டுவாங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d011",
+            "speaker_label": "டேவிட்",
+            "text": "ஓ...!ம்.... சொல்லு, சொல்லு!...."
+          },
+          "next_dialogue": null
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "சொக்க",
+      "record_count": 9,
+      "scene_ids": [
+        "vandikkaran-magan-s007",
+        "vandikkaran-magan-s008",
+        "vandikkaran-magan-s009"
+      ],
+      "source_scene_ids": [
+        "6",
+        "7",
+        "8"
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "neighbor_label_counts": {
+        "சடையன்": 6,
+        "சொர்ணம்": 4,
+        "ஜமீன்தார்": 4,
+        "டேவிட்": 4
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d002",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சொக்க",
+          "text": "வேணும்மா வேணும்! இந்தப் பழயது என்னைக்கும் கிடைக்கும்...பாதாம் அல்வா ஒரு நாளைக்குத்தான் கிடைக்கும்...",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d001",
+            "speaker_label": "சொர்ணம்",
+            "text": "ஏங்க...நம்ம ஜமீன்தாரய்யா பொண்ணுக்கு தினம் பாதாம் அல்வாவா கொடுக்கிறீங்களாமே... அதில ஒரு நாளைக்கு ஒண்ணு வாங்கிட்டு வந்து...நம்ப பையனுக்கு கொடுங்களேன்!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d003",
+            "speaker_label": "சடையன்",
+            "text": "சொ..ணம்!.. நம்ம பையன் பேசுறதைக் கேட்டியா?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d006",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சொக்க",
+          "text": "எம்மோ!...எப்போ!...நான் விளையாடப்போறேன்!",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d005",
+            "speaker_label": "சடையன்",
+            "text": "என்ன அப்படிசொல்லிட்டே!... நம்ப பையன் பாதாம் அல்வாவுக்கு ஆசைப்படுறான்னு, ஜமீன்தாரய்யா கிட்ட ஒரு வார்த்தை சொன்னா போதும். அப்படியே பாதாம் அல்வா தட்டையே அனுப்பிச்சிடுவாரு!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d007",
+            "speaker_label": "சொர்ணம்",
+            "text": "சரிடா கண்ணு சீக்கிரம் விளையாடிட்டு வந்து.. கால் கையை கழுவிட்டு...படிடாம்மா..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d010",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சொக்க",
+          "text": "அம்மா! அம்மா!",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "வண்டிக்காரப் பயலுக்குப் பொறந்த கழுதை!... நீ ஜமீன்தார் ஜம்புலிங்க பூபதியின் மகளுக்கா தாலி கட்டப் போகிறாய்?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d011",
+            "speaker_label": "சொர்ணம்",
+            "text": "எஜமான்! எஜமான்! அவனை அடிக்காதீங்க!... எஜமான், அடிக்காதீங்க!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d018",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சொக்க",
+          "text": "அம்மா! அம்மா!...",
+          "page_provenance": [
+            {
+              "pdf_page": 15,
+              "printed_page": 14
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d017",
+            "speaker_label": "சொர்ணம்",
+            "text": "எஜமான்!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d019",
+            "speaker_label": "சடையன்",
+            "text": "சொர்ணம்...! சொர்ணம்...!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d021",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சொக்க",
+          "text": "அப்பா! அம்மாவைக் கொன்றது இந்த ஜமீன்தார் தாம்பா!",
+          "page_provenance": [
+            {
+              "pdf_page": 15,
+              "printed_page": 14
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d020",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(சமாளித்தல்) ஐயோ, சொர்ணம்! அந்தப் பக்கமா போனே!.. அது துஷ்டக் காளையாச்சே!.. அதைக் கொண்டாந்து குதிரை லாயத்துல கட்டினது யாரு?.. சொர்ணம்!.. சொர்ணம்!!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d022",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அட தெய்வமே—சடையா! இவன் பொய்சொல்றான்.. மாடு முட்டுனதை மனுஷன் மேலே சொல்றான்."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d023",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சொக்க",
+          "text": "நீ மனுஷன் இல்லே!.. நீ தான் மாடு!..",
+          "page_provenance": [
+            {
+              "pdf_page": 16,
+              "printed_page": 15
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d022",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அட தெய்வமே—சடையா! இவன் பொய்சொல்றான்.. மாடு முட்டுனதை மனுஷன் மேலே சொல்றான்."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d024",
+            "speaker_label": "சடையன்",
+            "text": "(அவனைத் தடுத்து) பாவிப்பயலே!.. எங்க எஜமானையா குற்றம் சொல்றே?.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "சொர்ணம்",
+      "record_count": 9,
+      "scene_ids": [
+        "vandikkaran-magan-s007",
+        "vandikkaran-magan-s008"
+      ],
+      "source_scene_ids": [
+        "6",
+        "7"
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        15
+      ],
+      "neighbor_label_counts": {
+        "சொர்ணம்": 6,
+        "சொக்க": 4,
+        "ஜமீன்தார்": 4,
+        "சடையன்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d001",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சொர்ணம்",
+          "text": "ஏங்க...நம்ம ஜமீன்தாரய்யா பொண்ணுக்கு தினம் பாதாம் அல்வாவா கொடுக்கிறீங்களாமே... அதில ஒரு நாளைக்கு ஒண்ணு வாங்கிட்டு வந்து...நம்ப பையனுக்கு கொடுங்களேன்!....",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d002",
+            "speaker_label": "சொக்க",
+            "text": "வேணும்மா வேணும்! இந்தப் பழயது என்னைக்கும் கிடைக்கும்...பாதாம் அல்வா ஒரு நாளைக்குத்தான் கிடைக்கும்..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d004",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சொர்ணம்",
+          "text": "சின்னப்புள்ளே பேசா இருந்தாலும் சிந்திக்க வைக்கிற பேச்சுங்க!...நம்பளப் போல பாட்டாளிங்களுக்கு பழயசோறுதான் பாதாம் அல்வா, பஞ்சாமிர்தம் எல்லாமே — இல்லீங்களா?....",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d003",
+            "speaker_label": "சடையன்",
+            "text": "சொ..ணம்!.. நம்ம பையன் பேசுறதைக் கேட்டியா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d005",
+            "speaker_label": "சடையன்",
+            "text": "என்ன அப்படிசொல்லிட்டே!... நம்ப பையன் பாதாம் அல்வாவுக்கு ஆசைப்படுறான்னு, ஜமீன்தாரய்யா கிட்ட ஒரு வார்த்தை சொன்னா போதும். அப்படியே பாதாம் அல்வா தட்டையே அனுப்பிச்சிடுவாரு!...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d007",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சொர்ணம்",
+          "text": "சரிடா கண்ணு சீக்கிரம் விளையாடிட்டு வந்து.. கால் கையை கழுவிட்டு...படிடாம்மா...",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d006",
+            "speaker_label": "சொக்க",
+            "text": "எம்மோ!...எப்போ!...நான் விளையாடப்போறேன்!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s007-d008",
+            "speaker_label": "சொர்ணம்",
+            "text": "(சடையனிடம்—சாப்பாட்டு சாமான்களை எடுத்து வைத்தவாறு) ஏங்க!...நானும்...குதிரை லாயத்துக்குப் போயி, கூட்டிப் பெருக்கிட்டு வர்றேன்..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s007-d008",
+          "scene_id": "vandikkaran-magan-s007",
+          "source_scene_id": "6",
+          "speaker_label": "சொர்ணம்",
+          "text": "(சடையனிடம்—சாப்பாட்டு சாமான்களை எடுத்து வைத்தவாறு) ஏங்க!...நானும்...குதிரை லாயத்துக்குப் போயி, கூட்டிப் பெருக்கிட்டு வர்றேன்...",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s007-d007",
+            "speaker_label": "சொர்ணம்",
+            "text": "சரிடா கண்ணு சீக்கிரம் விளையாடிட்டு வந்து.. கால் கையை கழுவிட்டு...படிடாம்மா..."
+          },
+          "next_dialogue": null
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d011",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சொர்ணம்",
+          "text": "எஜமான்! எஜமான்! அவனை அடிக்காதீங்க!... எஜமான், அடிக்காதீங்க!...",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d010",
+            "speaker_label": "சொக்க",
+            "text": "அம்மா! அம்மா!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d012",
+            "speaker_label": "சொர்ணம்",
+            "text": "ஐயையோ! விடுங்க எஜமான் அவனை!... அவனைக் கொன்னுடாதீங்க!... ஏதோ, பிள்ளைங்க விளையாட்டா செஞ்ச வேடிக்கையை... நீங்க... விபரீதமா எடுத்துக் கிட்டு..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d012",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "சொர்ணம்",
+          "text": "ஐயையோ! விடுங்க எஜமான் அவனை!... அவனைக் கொன்னுடாதீங்க!... ஏதோ, பிள்ளைங்க விளையாட்டா செஞ்ச வேடிக்கையை... நீங்க... விபரீதமா எடுத்துக் கிட்டு...",
+          "page_provenance": [
+            {
+              "pdf_page": 14,
+              "printed_page": 13
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d011",
+            "speaker_label": "சொர்ணம்",
+            "text": "எஜமான்! எஜமான்! அவனை அடிக்காதீங்க!... எஜமான், அடிக்காதீங்க!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d013",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "விளையாட்டா? ஹா!... ஹா!... ஜமீன் ஜம்புலிங்க பூபதியின் மகள் உமாவோட நிழல் இருக்குதே நிழல்; அந்த நிழலைக்கூட இவன் விளையாட்டாத் தொட்டா.. இந்தப் பரதேசிப் பயலோட பத்து விரலையும் வெட்டிப் பந்தாடிடுவேன்!..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஜமீன்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s050"
+      ],
+      "source_scene_ids": [
+        "38"
+      ],
+      "pdf_pages": [
+        63
+      ],
+      "neighbor_label_counts": {
+        "காளிங்": 1,
+        "உமா": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s050-d017",
+          "scene_id": "vandikkaran-magan-s050",
+          "source_scene_id": "38",
+          "speaker_label": "ஜமீன்",
+          "text": "என்ன உமா?",
+          "page_provenance": [
+            {
+              "pdf_page": 63,
+              "printed_page": 62
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s050-d016",
+            "speaker_label": "காளிங்",
+            "text": "புரிகிறது பிரபு...புரிகிறது! புலவரே..வாரும்!...அம்மா பூங்கொடி வா!...நீ அதிர்ஷ்டக்காரப் பொண்ணும்மா! ஜமீன்பார்வை உன்மேலே விழுந்தாச்சு..இனிமேதான் இருக்குது வா!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s050-d018",
+            "speaker_label": "உமா",
+            "text": "அப்பா!...அத்தான் சார்பாக, இந்தப் பிறந்தநாள் பரிசை உங்களுக்கு வழங்குகிறேன்!..."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஜமீன்தார்",
+      "record_count": 127,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s004",
+        "vandikkaran-magan-s005",
+        "vandikkaran-magan-s008",
+        "vandikkaran-magan-s010",
+        "vandikkaran-magan-s013",
+        "vandikkaran-magan-s022",
+        "vandikkaran-magan-s026",
+        "vandikkaran-magan-s039",
+        "vandikkaran-magan-s041",
+        "vandikkaran-magan-s043",
+        "vandikkaran-magan-s047",
+        "vandikkaran-magan-s049",
+        "vandikkaran-magan-s050",
+        "vandikkaran-magan-s052",
+        "vandikkaran-magan-s055",
+        "vandikkaran-magan-s056",
+        "vandikkaran-magan-s061",
+        "vandikkaran-magan-s062",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s070",
+        "vandikkaran-magan-s071"
+      ],
+      "source_scene_ids": [
+        "1",
+        "4",
+        "4-எ",
+        "7",
+        "9",
+        "11",
+        "18",
+        "21",
+        "29",
+        "30",
+        "32",
+        "35",
+        "37",
+        "38",
+        "40",
+        "42-எ",
+        "43",
+        "49",
+        "50",
+        "52",
+        "54",
+        "55"
+      ],
+      "pdf_pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        31,
+        32,
+        39,
+        40,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        66,
+        68,
+        69,
+        70,
+        75,
+        76,
+        79,
+        80,
+        81,
+        85,
+        86,
+        87
+      ],
+      "neighbor_label_counts": {
+        "மரகதம்": 41,
+        "விங்கன்": 40,
+        "உமா": 34,
+        "காளிங்": 24,
+        "சடையன்": 14,
+        "புலவர்": 12,
+        "லீனா": 12,
+        "காளிங்க": 12,
+        "ஜமீன்தார்": 8,
+        "கோகிலா": 8,
+        "லிங்கன்": 6,
+        "சொக்க": 4,
+        "சொர்ணம்": 4,
+        "தரகர்": 3,
+        "மக்கள்": 2,
+        "பெண்": 2,
+        "கடைக்": 2,
+        "எல்லோரும்": 1,
+        "கண்ணாயிரம்": 1,
+        "ஊர்ப்பெரியவர்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d007",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஜமீன்தார்",
+          "text": "பெரியவர்களுக்கு நமஸ்காரம்!.. சிறியவர்களுக்கு ஆசீர்வாதம்!... காளிங்கராயா!...",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d006",
+            "speaker_label": "மக்கள்",
+            "text": "ஜே!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d008",
+            "speaker_label": "காளிங்",
+            "text": "பிரபு!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d009",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஜமீன்தார்",
+          "text": "இவர்களின் குறைகளைக் கேள்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d008",
+            "speaker_label": "காளிங்",
+            "text": "பிரபு!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d010",
+            "speaker_label": "காளிங்",
+            "text": "உத்தரவு பிரபு..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d011",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஜமீன்தார்",
+          "text": "எழுந்திருங்கள்...எழுந்திருங்கள்...நீங்கள் எல்லாம் என் காலில் விழுந்து வணங்குகிறீர்களே; நான் என்ன மகானு? மகரிஷியா? மகாத்மாவா?.. இல்லை! ஆனால் ஒன்று நீங்கள் விழுந்து வணங்குவது ஜமீன்தார் ஜம்புலிங்கத்தின் காலில் இல்லை!... தர்மத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! நீதியின் காலை — நாணயத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! என்ன காளிங்கராயா?...நான் சொல்வது சரிதானு?..",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d010",
+            "speaker_label": "காளிங்",
+            "text": "உத்தரவு பிரபு..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d012",
+            "speaker_label": "காளிங்",
+            "text": "வேற யார் சொல்ல முடியும் — நாமே சொல்லிக்க வேண்டியதுதான்!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d013",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஜமீன்தார்",
+          "text": "(காலில் விழுந்த பெண்ணிடம்) உன் குறை என்னம்மா?",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d012",
+            "speaker_label": "காளிங்",
+            "text": "வேற யார் சொல்ல முடியும் — நாமே சொல்லிக்க வேண்டியதுதான்!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d014",
+            "speaker_label": "பெண்",
+            "text": "என் புருஷன் சதாநேரமும் சாராயத்தைக் குடிச்சிட்டு.. குடும்பத்தைக் குட்டிச் சுவராக்கிட்டாருங்க!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d015",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஜமீன்தார்",
+          "text": "ஐயகோ! ஐயகோ! தாய்க்குலம் கண்ணீர் வடிப்பதா? அதுவும் என் எதிரிலா? தாய்க்குலத்தின் கண்ணீரை என்னால் தாங்கிக் கொள்ளவே முடியவில்லை... காளிங்கா!... இந்தப் பெண்மணியின் கணவனைக் கூப்பிட்டு... கிரமமாக உத்தரவிடு!.. (பெண்ணை நோக்கி) கவலைப்படாதே அம்மா!.. உன் புருஷனைத் திருத்துவதுதான் பொறுப்பு... காளிங்கா! அதோடு இன்னொரு கட்டளை - உடனே அமுலாக வேண்டும். நமது ஜமீன் எல்லைக்குள் மதுவின் வாடையே அடிக்கக்கூடாது.",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d014",
+            "speaker_label": "பெண்",
+            "text": "என் புருஷன் சதாநேரமும் சாராயத்தைக் குடிச்சிட்டு.. குடும்பத்தைக் குட்டிச் சுவராக்கிட்டாருங்க!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d016",
+            "speaker_label": "காளிங்",
+            "text": "நம்ம எல்லைக்குள்தானே!... அதை அமுல்படுத்திடலாம்."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d018",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "ஜமீன்தார்",
+          "text": "காளிங்கா!: அப்பா யாரு?...",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d017",
+            "speaker_label": "புலவர்",
+            "text": "மாரி பொய்த்தாலும் பாரியின் கொடை பொய்க்காது!\nதலையைக் கொடுக்கவும் தயாரான குமணன்!\nதான்செய்த தர்மங்களையெல்லாம் கொடையாகக்\nகொடுத்தான் கர்ணன்! பாரியாய் — குமணனாய் —\nகர்ணனாய்க் காட்டியளிக்கும் வள்ளலே வாழ்க!...\nவாழ்க!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d019",
+            "speaker_label": "புலவர்",
+            "text": "ஒரு தமிழ்ப்புலவன் ஐயா!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "ஜம்பு",
+      "record_count": 5,
+      "scene_ids": [
+        "vandikkaran-magan-s029",
+        "vandikkaran-magan-s030"
+      ],
+      "source_scene_ids": [
+        "23",
+        "24"
+      ],
+      "pdf_pages": [
+        42,
+        43
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 8,
+        "உமா": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s029-d002",
+          "scene_id": "vandikkaran-magan-s029",
+          "source_scene_id": "23",
+          "speaker_label": "ஜம்பு",
+          "text": "சார்! சார்! நீங்களா? வாங்க-வாங்க-அம்மா யாரு?.. சாருக்குக் கல்யாணம் ஆயிட்டுதா?..என்ன சார் எனக்கு ஒரு பத்திரிகைகூட அனுப்பலே!..",
+          "page_provenance": [
+            {
+              "pdf_page": 42,
+              "printed_page": 41
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s029-d001",
+            "speaker_label": "விங்கன்",
+            "text": "உமா, இதான் டேவிட் துரை பங்களா!..கோடை காலத்தில் இங்கதான் வந்து தங்குவார்..நான்கூட வந்திருக்கேன்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s029-d003",
+            "speaker_label": "விங்கன்",
+            "text": "(ஜம்புவின் வாயைப் பொத்தி)...ஏ, ஏ!..சும்மா இரு!..உமா!..நீ உள்ளே போ!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s029-d004",
+          "scene_id": "vandikkaran-magan-s029",
+          "source_scene_id": "23",
+          "speaker_label": "ஜம்பு",
+          "text": "சார்!..உங்களுக்கு ரொம்பப் பொருத்தம் சார்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 42,
+              "printed_page": 41
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s029-d003",
+            "speaker_label": "விங்கன்",
+            "text": "(ஜம்புவின் வாயைப் பொத்தி)...ஏ, ஏ!..சும்மா இரு!..உமா!..நீ உள்ளே போ!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s029-d005",
+            "speaker_label": "விங்கன்",
+            "text": "சரி! சரி!..சாவிக்கொத்தை என்கிட்டே கொடுத்துட்டு...சாப்பாட்டுக்கு முதல்ல ஏற்பாடு பண்ணு!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s029-d006",
+          "scene_id": "vandikkaran-magan-s029",
+          "source_scene_id": "23",
+          "speaker_label": "ஜம்பு",
+          "text": "இப்பவே ரெண்டு கோழி அடிக்கிறேன்!",
+          "page_provenance": [
+            {
+              "pdf_page": 42,
+              "printed_page": 41
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s029-d005",
+            "speaker_label": "விங்கன்",
+            "text": "சரி! சரி!..சாவிக்கொத்தை என்கிட்டே கொடுத்துட்டு...சாப்பாட்டுக்கு முதல்ல ஏற்பாடு பண்ணு!"
+          },
+          "next_dialogue": null
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s030-d015",
+          "scene_id": "vandikkaran-magan-s030",
+          "source_scene_id": "24",
+          "speaker_label": "ஜம்பு",
+          "text": "என்ன சார்! இந்த குளிர்லே இங்கே படுத்திருக்கீங்க? உள்ளேதானே ஹீட்டர் இருக்கு!",
+          "page_provenance": [
+            {
+              "pdf_page": 43,
+              "printed_page": 42
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s030-d014",
+            "speaker_label": "உமா",
+            "text": "பல்வெல்லாம் தட தடன்னு தந்தியடிக்குமா? இந்தாங்க!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s030-d016",
+            "speaker_label": "விங்கன்",
+            "text": "உம்!..உள்ளே இருக்கிற ஹீட்டர் சூடு ரொம்ப அதிகமா இருக்கு! அதான் வெளியே படுத்திருக்கேன்! போய்யா! நீ ஒருத்தன்!..போய்! வாய்யா இங்கே! எனக்கு ஒரு உதவி பண்ணியா?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s030-d017",
+          "scene_id": "vandikkaran-magan-s030",
+          "source_scene_id": "24",
+          "speaker_label": "ஜம்பு",
+          "text": "என்ன உதவி? உள்ளே போறதுக்கா?",
+          "page_provenance": [
+            {
+              "pdf_page": 43,
+              "printed_page": 42
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s030-d016",
+            "speaker_label": "விங்கன்",
+            "text": "உம்!..உள்ளே இருக்கிற ஹீட்டர் சூடு ரொம்ப அதிகமா இருக்கு! அதான் வெளியே படுத்திருக்கேன்! போய்யா! நீ ஒருத்தன்!..போய்! வாய்யா இங்கே! எனக்கு ஒரு உதவி பண்ணியா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s030-d018",
+            "speaker_label": "விங்கன்",
+            "text": "யானைமாதிரியே இருக்கு! கத்து!...கத்து!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "டேவிட்",
+      "record_count": 10,
+      "scene_ids": [
+        "vandikkaran-magan-s006",
+        "vandikkaran-magan-s009"
+      ],
+      "source_scene_ids": [
+        "5",
+        "8"
+      ],
+      "pdf_pages": [
+        12,
+        16
+      ],
+      "neighbor_label_counts": {
+        "சொக்": 11,
+        "சொக்க": 4,
+        "டேவிட்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d001",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "டேவிட்",
+          "text": "ஹூ~ ஆர் யூ? யார் நீ?",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d002",
+            "speaker_label": "சொக்",
+            "text": "நான் யாருங்கிறது அப்புறம் இருக்கட்டும்...இன்னேரம் நான் வந்து இங்கே ஒளிஞ்சிருக்கலேன்னு...நீங்க கீழே விழுந்து சுக்குநூறாப் போயிருப்பீங்க!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d003",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "டேவிட்",
+          "text": "ஓ...ஐ ஸீ!..நான் பாத்ரூமுக்குப் போனேன்..பாய்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d002",
+            "speaker_label": "சொக்",
+            "text": "நான் யாருங்கிறது அப்புறம் இருக்கட்டும்...இன்னேரம் நான் வந்து இங்கே ஒளிஞ்சிருக்கலேன்னு...நீங்க கீழே விழுந்து சுக்குநூறாப் போயிருப்பீங்க!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d004",
+            "speaker_label": "சொக்",
+            "text": "பாத்ரூமுக்குப் போறேன்னுட்டு பரமண்டலத்துக்கே போயிருப்பீங்க!..இது..கீழே இறங்குகிற கதவுசார்...கதவு!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d005",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "டேவிட்",
+          "text": "(சிரித்தபடி) குட்பாய்!..வெரிகுட் பாய்!...உன்பேர் என்ன தம்பி?..",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d004",
+            "speaker_label": "சொக்",
+            "text": "பாத்ரூமுக்குப் போறேன்னுட்டு பரமண்டலத்துக்கே போயிருப்பீங்க!..இது..கீழே இறங்குகிற கதவுசார்...கதவு!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d006",
+            "speaker_label": "சொக்",
+            "text": "சொக்கலிங்கம்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d007",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "டேவிட்",
+          "text": "குட்!...குட்!...பாய்! நீ எப்படி இங்க வந்தே?",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d006",
+            "speaker_label": "சொக்",
+            "text": "சொக்கலிங்கம்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d008",
+            "speaker_label": "சொக்",
+            "text": "நான் பொறந்த ஊரை விட்டே ஓடியாந்துட்டேன்!..?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d009",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "டேவிட்",
+          "text": "உனக்கு அப்பா அம்மா யாருமே இல்லையா? நீ ஒரு அனாதையா?...",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d008",
+            "speaker_label": "சொக்",
+            "text": "நான் பொறந்த ஊரை விட்டே ஓடியாந்துட்டேன்!..?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d010",
+            "speaker_label": "சொக்",
+            "text": "அனாதை இல்ல சார்...நான் ஓடியாந்து இங்க ஒளிஞ்சதே ஒரு பெரிய கதை சார்!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s006-d011",
+          "scene_id": "vandikkaran-magan-s006",
+          "source_scene_id": "5",
+          "speaker_label": "டேவிட்",
+          "text": "ஓ...!ம்.... சொல்லு, சொல்லு!....",
+          "page_provenance": [
+            {
+              "pdf_page": 12,
+              "printed_page": 11
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s006-d010",
+            "speaker_label": "சொக்",
+            "text": "அனாதை இல்ல சார்...நான் ஓடியாந்து இங்க ஒளிஞ்சதே ஒரு பெரிய கதை சார்!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s006-d012",
+            "speaker_label": "சொக்",
+            "text": "அப்பா மடியிலே உக்காந்துக்குவேன்!.. அம்மாதான் எனக்குச் சோறு ஊட்டுவாங்க!.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "தரகர்",
+      "record_count": 2,
+      "scene_ids": [
+        "vandikkaran-magan-s039"
+      ],
+      "source_scene_ids": [
+        "29"
+      ],
+      "pdf_pages": [
+        53
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 3
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s039-d001",
+          "scene_id": "vandikkaran-magan-s039",
+          "source_scene_id": "29",
+          "speaker_label": "தரகர்",
+          "text": "(தாய், தந்தை இருவரையும் காட்டியவாறு) இவர்தான் மாப்பிள்ளையோட தாயார், தகப்பனார்!..உங்க பெண் உமாவுக்கு ரொம்ப பொருத்தமானவரு மாப்பிள்ளை! படிப்போ ஐ.சி.எஸ்..பதவியோ கலெக்டர் பதவி!..",
+          "page_provenance": [
+            {
+              "pdf_page": 53,
+              "printed_page": 52
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s039-d002",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "கிருஷ்ணபுரம் ஜமீன்...சந்திரகிரி ஜமீன்...அங்கிருந்தெல்லாம் ஆள் மேல ஆள் வருது...உமாவைப் பெண் கேட்டு! அப்படி ஒரு ஜமீன்தார் வீட்டுக்குத்தான் சம்பந்தி ஆக முடியுமே தவிர..இப்படி கலெக்டர் தாசில்தார்—மிராசுதார்—மிட்டாதார்ன்னு...யாரையும் அழைச்சுகிட்டு வராதீர்! இது உமக்கு முதல்தடவையும் கடைசித் தடவையும்..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s039-d003",
+          "scene_id": "vandikkaran-magan-s039",
+          "source_scene_id": "29",
+          "speaker_label": "தரகர்",
+          "text": "வர்றேங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 53,
+              "printed_page": 52
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s039-d002",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "கிருஷ்ணபுரம் ஜமீன்...சந்திரகிரி ஜமீன்...அங்கிருந்தெல்லாம் ஆள் மேல ஆள் வருது...உமாவைப் பெண் கேட்டு! அப்படி ஒரு ஜமீன்தார் வீட்டுக்குத்தான் சம்பந்தி ஆக முடியுமே தவிர..இப்படி கலெக்டர் தாசில்தார்—மிராசுதார்—மிட்டாதார்ன்னு...யாரையும் அழைச்சுகிட்டு வராதீர்! இது உமக்கு முதல்தடவையும் கடைசித் தடவையும்..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s039-d004",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ம்!....."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "புரோகிதர்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s043"
+      ],
+      "source_scene_ids": [
+        "32"
+      ],
+      "pdf_pages": [
+        56
+      ],
+      "neighbor_label_counts": {
+        "காளிங்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s043-d003",
+          "scene_id": "vandikkaran-magan-s043",
+          "source_scene_id": "32",
+          "speaker_label": "புரோகிதர்",
+          "text": "கெட்டி மேளம்! கெட்டி மேளம்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 56,
+              "printed_page": 55
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s043-d002",
+            "speaker_label": "காளிங்",
+            "text": "என்ன என்ன செய்யச் சொல்றீங்க? இந்தப்பெண்ணுக்கு இவன்தான் புருஷன்னு...பிறக்கும் போதே பிரம்மதேவன் எங்கேயோ எழுதிப் போட்டுட்டான்...அதை மாத்த நம்மளால முடியுங்களா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s043-d004",
+            "speaker_label": "காளிங்",
+            "text": "மாப்பிள்ளே!...உக்காந்துகிட்டே கட்டுங்க!...ஜமீன்தார் வீட்டுப் பொண்ணுன்னு பயந்துகிட்டு மரியாதையா நின்னு தாலிகட்டப் போறீங்களா?"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "புலவர்",
+      "record_count": 15,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s050",
+        "vandikkaran-magan-s052",
+        "vandikkaran-magan-s053",
+        "vandikkaran-magan-s055"
+      ],
+      "source_scene_ids": [
+        "1",
+        "38",
+        "40",
+        "41",
+        "42-எ"
+      ],
+      "pdf_pages": [
+        7,
+        8,
+        63,
+        65,
+        67,
+        68,
+        69
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 12,
+        "காளிங்": 5,
+        "புலவர்": 4,
+        "கண்ணாயிரம்": 4,
+        "விங்கன்": 3,
+        "கடைக்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d017",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "புலவர்",
+          "text": "மாரி பொய்த்தாலும் பாரியின் கொடை பொய்க்காது!\nதலையைக் கொடுக்கவும் தயாரான குமணன்!\nதான்செய்த தர்மங்களையெல்லாம் கொடையாகக்\nகொடுத்தான் கர்ணன்! பாரியாய் — குமணனாய் —\nகர்ணனாய்க் காட்டியளிக்கும் வள்ளலே வாழ்க!...\nவாழ்க!....",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d016",
+            "speaker_label": "காளிங்",
+            "text": "நம்ம எல்லைக்குள்தானே!... அதை அமுல்படுத்திடலாம்."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d018",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா!: அப்பா யாரு?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d019",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "புலவர்",
+          "text": "ஒரு தமிழ்ப்புலவன் ஐயா!",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d018",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா!: அப்பா யாரு?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d020",
+            "speaker_label": "காளிங்",
+            "text": "முகஸ்துதி பண்ணும் போதே தெரியுதே!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d021",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "புலவர்",
+          "text": "எல்லாப் புலவர்களையும் அப்படிச் சொல்லாதீர்கள்! உறுதியோடு இருக்கிற புலவர்களும் இருக்காங்க... சமயத்துக்குத் தக்கபடி தாளம் போடுகிற புலவர்களும் இருக்காங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d020",
+            "speaker_label": "காளிங்",
+            "text": "முகஸ்துதி பண்ணும் போதே தெரியுதே!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d022",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா...புலவர் மனதைப் புண்படுத்தாதே! புலவரே! உங்களுக்கு என்ன வேணும்?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d023",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "புலவர்",
+          "text": "இதோ... இந்தப் பெண் பூங்கொடியை விட்டுவிட்டு என் மனைவி இறந்துவிட்டாள்!... தாயில்லாக் குழந்தையை வச்சிகிட்டு நான் தவிக்கிறேன்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 8,
+              "printed_page": 7
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d022",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா...புலவர் மனதைப் புண்படுத்தாதே! புலவரே! உங்களுக்கு என்ன வேணும்?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d024",
+            "speaker_label": "புலவர்",
+            "text": "நன்றி ஐயா நன்றி!...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d024",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "புலவர்",
+          "text": "நன்றி ஐயா நன்றி!....",
+          "page_provenance": [
+            {
+              "pdf_page": 8,
+              "printed_page": 7
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d023",
+            "speaker_label": "புலவர்",
+            "text": "இதோ... இந்தப் பெண் பூங்கொடியை விட்டுவிட்டு என் மனைவி இறந்துவிட்டாள்!... தாயில்லாக் குழந்தையை வச்சிகிட்டு நான் தவிக்கிறேன்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d025",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "காளிங்கா! வண்டி தயாரா?.... எங்கே வண்டிக்காரன்?...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s050-d010",
+          "scene_id": "vandikkaran-magan-s050",
+          "source_scene_id": "38",
+          "speaker_label": "புலவர்",
+          "text": "வணக்கம். வாழ்க பல்லாண்டு!...பிறந்த நாள் பரிசு வேண்டி சமுகம் வந்துள்ளேன்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 63,
+              "printed_page": 62
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s050-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஓ..புலவரா?..செளக்கியமா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s050-d011",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஓ..அப்படியா? (பூங்கொடியைப் பார்த்து) இதுயார்?"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "பெண்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s001"
+      ],
+      "source_scene_ids": [
+        "1"
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d014",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "பெண்",
+          "text": "என் புருஷன் சதாநேரமும் சாராயத்தைக் குடிச்சிட்டு.. குடும்பத்தைக் குட்டிச் சுவராக்கிட்டாருங்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 7,
+              "printed_page": 6
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d013",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(காலில் விழுந்த பெண்ணிடம்) உன் குறை என்னம்மா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d015",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஐயகோ! ஐயகோ! தாய்க்குலம் கண்ணீர் வடிப்பதா? அதுவும் என் எதிரிலா? தாய்க்குலத்தின் கண்ணீரை என்னால் தாங்கிக் கொள்ளவே முடியவில்லை... காளிங்கா!... இந்தப் பெண்மணியின் கணவனைக் கூப்பிட்டு... கிரமமாக உத்தரவிடு!.. (பெண்ணை நோக்கி) கவலைப்படாதே அம்மா!.. உன் புருஷனைத் திருத்துவதுதான் பொறுப்பு... காளிங்கா! அதோடு இன்னொரு கட்டளை - உடனே அமுலாக வேண்டும். நமது ஜமீன் எல்லைக்குள் மதுவின் வாடையே அடிக்கக்கூடாது."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "மக்கள்",
+      "record_count": 6,
+      "scene_ids": [
+        "vandikkaran-magan-s001",
+        "vandikkaran-magan-s050"
+      ],
+      "source_scene_ids": [
+        "1",
+        "38"
+      ],
+      "pdf_pages": [
+        6,
+        62
+      ],
+      "neighbor_label_counts": {
+        "காளிங்": 4,
+        "ஒருவன்": 3,
+        "ஜமீன்தார்": 2,
+        "ஒருவர்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d001",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "மக்கள்",
+          "text": "ஏ, காளிங்கராயர் வந்துட்டாரு!.. ஜமீன்தாரய்யா வந்துடுவாரு!..",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": null,
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d002",
+            "speaker_label": "ஒருவன்",
+            "text": "ஜமீன்தார் ஜம்புலிங்க பூபதி!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d003",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "மக்கள்",
+          "text": "வாழ்க!...",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d002",
+            "speaker_label": "ஒருவன்",
+            "text": "ஜமீன்தார் ஜம்புலிங்க பூபதி!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d004",
+            "speaker_label": "காளிங்",
+            "text": "என்னடா காட்டுக்கூட்டம்...வாழ்க...வாழ்க...வாள் வாழ்கன்னு!... அழகா... நல்லா நம்ப சாஸ்திரத்துக்கு சம்பிரதாயத்துக்கு எத்தப்படி... ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு ஜே! ஜே!.. என்று கோஷம் போடுவீங்களா?.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s001-d006",
+          "scene_id": "vandikkaran-magan-s001",
+          "source_scene_id": "1",
+          "speaker_label": "மக்கள்",
+          "text": "ஜே!",
+          "page_provenance": [
+            {
+              "pdf_page": 6,
+              "printed_page": 5
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s001-d005",
+            "speaker_label": "ஒருவன்",
+            "text": "ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s001-d007",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "பெரியவர்களுக்கு நமஸ்காரம்!.. சிறியவர்களுக்கு ஆசீர்வாதம்!... காளிங்கராயா!..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s050-d003",
+          "scene_id": "vandikkaran-magan-s050",
+          "source_scene_id": "38",
+          "speaker_label": "மக்கள்",
+          "text": "வாழ்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 62,
+              "printed_page": 61
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s050-d002",
+            "speaker_label": "காளிங்",
+            "text": "நாமம்!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s050-d004",
+            "speaker_label": "காளிங்",
+            "text": "நாமம்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s050-d005",
+          "scene_id": "vandikkaran-magan-s050",
+          "source_scene_id": "38",
+          "speaker_label": "மக்கள்",
+          "text": "வாழ்க!..",
+          "page_provenance": [
+            {
+              "pdf_page": 62,
+              "printed_page": 61
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s050-d004",
+            "speaker_label": "காளிங்",
+            "text": "நாமம்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s050-d006",
+            "speaker_label": "ஒருவர்",
+            "text": "ஜமீன்தார் ஐம்புலிங்க பூபதிக்கு"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s050-d007",
+          "scene_id": "vandikkaran-magan-s050",
+          "source_scene_id": "38",
+          "speaker_label": "மக்கள்",
+          "text": "ஜே!",
+          "page_provenance": [
+            {
+              "pdf_page": 62,
+              "printed_page": 61
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s050-d006",
+            "speaker_label": "ஒருவர்",
+            "text": "ஜமீன்தார் ஐம்புலிங்க பூபதிக்கு"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s050-d008",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(கண்களை அகலத் திறந்து) காளிங்கா! யாரது?.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "மரகதம்",
+      "record_count": 62,
+      "scene_ids": [
+        "vandikkaran-magan-s005",
+        "vandikkaran-magan-s012",
+        "vandikkaran-magan-s013",
+        "vandikkaran-magan-s018",
+        "vandikkaran-magan-s022",
+        "vandikkaran-magan-s025",
+        "vandikkaran-magan-s035",
+        "vandikkaran-magan-s036",
+        "vandikkaran-magan-s039",
+        "vandikkaran-magan-s040",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s069"
+      ],
+      "source_scene_ids": [
+        "4-எ",
+        "10-எ",
+        "11",
+        "15",
+        "18",
+        "20-எ",
+        "25",
+        "26",
+        "29",
+        "29-எ",
+        "52",
+        "53-டி"
+      ],
+      "pdf_pages": [
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        28,
+        29,
+        31,
+        37,
+        38,
+        49,
+        50,
+        54,
+        55,
+        79,
+        80,
+        83,
+        84
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 41,
+        "கோகிலா": 30,
+        "விங்கன்": 15,
+        "காளிங்": 11,
+        "லிங்கன்": 7,
+        "மரகதம்": 6,
+        "உமா": 4,
+        "காளிங்க": 2,
+        "சடையன்": 1,
+        "ஆட்கள்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s005-d002",
+          "scene_id": "vandikkaran-magan-s005",
+          "source_scene_id": "4-எ",
+          "speaker_label": "மரகதம்",
+          "text": "எவ்வளவு நேரம் காத்திருக்கிறேன் தெரியுமா?...",
+          "page_provenance": [
+            {
+              "pdf_page": 10,
+              "printed_page": 9
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s005-d001",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(கட்டிலை நோக்கி கொஞ்சு மொழியில்) மரகதம்!... தூக்கமா? ஆகா!..நீ திரும்பிப் படுத்திருக்கும் அழகே, தெவிட்டாத பேரழகு!..(அருகே சென்று) உறக்கமா? ஊடலா?... உயிர் போகுதடி உன் ஒளிமுகத்தைக் காணுமல்!...என் கரும்புவல்லி! கொஞ்சம் திருப்பு!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s005-d003",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என் காணமயிலேக் கட்டித்தழுவ நானும்தான் துடித்துப் பறந்தேன்...அதற்குள் கருணை மனுக்களோடு ஒரு கழுதைக் கூட்டம்..வழக்கம்போல்..ஜமீன் மாளிகை வாசலில்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s005-d004",
+          "scene_id": "vandikkaran-magan-s005",
+          "source_scene_id": "4-எ",
+          "speaker_label": "மரகதம்",
+          "text": "விரட்டியடித்துவிட்டு விரைவில் வருவதுதானே!... இங்கு நான் விரகதாபத்தால் வெந்துதான் போகிறேன் போங்கள்!",
+          "page_provenance": [
+            {
+              "pdf_page": 10,
+              "printed_page": 9
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s005-d003",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என் காணமயிலேக் கட்டித்தழுவ நானும்தான் துடித்துப் பறந்தேன்...அதற்குள் கருணை மனுக்களோடு ஒரு கழுதைக் கூட்டம்..வழக்கம்போல்..ஜமீன் மாளிகை வாசலில்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s005-d005",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(விலகிக்கொண்டு) மரகதம்! என் கையைத் தொடாதே! கொஞ்சம்..என் கைக்கு \"டெட்டால்\" ஊற்று!... (வாஷ்பேசினிடம் சென்று) யாரோ ஒரு புலவனும்—அவன் குழந்தைக்கு மூக்கு சிந்திவிட்டேன்..சனியன்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s005-d006",
+          "scene_id": "vandikkaran-magan-s005",
+          "source_scene_id": "4-எ",
+          "speaker_label": "மரகதம்",
+          "text": "அப்புறம் இன்னைக்கு யார் யார் குறையைத் தீர்த்தீங்க?....",
+          "page_provenance": [
+            {
+              "pdf_page": 10,
+              "printed_page": 9
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s005-d005",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(விலகிக்கொண்டு) மரகதம்! என் கையைத் தொடாதே! கொஞ்சம்..என் கைக்கு \"டெட்டால்\" ஊற்று!... (வாஷ்பேசினிடம் சென்று) யாரோ ஒரு புலவனும்—அவன் குழந்தைக்கு மூக்கு சிந்திவிட்டேன்..சனியன்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s005-d007",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஒரு கிழவிக்கு அவள் உயிரோடு இருக்கிறவரை மாதாந்திர உதவிப் பணம் நூறு ரூபாய்."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s005-d008",
+          "scene_id": "vandikkaran-magan-s005",
+          "source_scene_id": "4-எ",
+          "speaker_label": "மரகதம்",
+          "text": "அவ்வளவு ரூபாயா!...",
+          "page_provenance": [
+            {
+              "pdf_page": 10,
+              "printed_page": 9
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s005-d007",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "ஒரு கிழவிக்கு அவள் உயிரோடு இருக்கிறவரை மாதாந்திர உதவிப் பணம் நூறு ரூபாய்."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s005-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அந்தக் கிழம் ஒருமாதங்கூட உயிரோட இருக்காது!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s005-d010",
+          "scene_id": "vandikkaran-magan-s005",
+          "source_scene_id": "4-எ",
+          "speaker_label": "மரகதம்",
+          "text": "ம்..அப்புறம்..ஏதாவது புதிய உத்திரவு...",
+          "page_provenance": [
+            {
+              "pdf_page": 10,
+              "printed_page": 9
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s005-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அந்தக் கிழம் ஒருமாதங்கூட உயிரோட இருக்காது!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s005-d011",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "நம் ஜமீனுக்குள் மதுவின் வாடையே இனிமேல் அடிக்கக் கூடாதுன்னு புதுஉத்தரவு போட்டிருக்கேன்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s005-d013",
+          "scene_id": "vandikkaran-magan-s005",
+          "source_scene_id": "4-எ",
+          "speaker_label": "மரகதம்",
+          "text": "நீங்களே இரட்டை மனிதர்தானே!...",
+          "page_provenance": [
+            {
+              "pdf_page": 11,
+              "printed_page": 10
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s005-d012",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "மரகதம்..நீயும் கொஞ்சம்..(கிளாசை அவள் உதட்டில் வைக்கிறார். அவள் பருகுகிறாள். அதே கிளாசை ஜமீன்தார் பருகியவாறு) மதுவின் சுவையும்—மரகதத்தின் இதழின் சுவையும்—இரண்டும் இணைந்து எனக்கு இரட்டை—போதை அளிக்கிறது.. ஆகா!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s005-d014",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "இடிச்சன்னு..கிண்டலா பண்றே?.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "மற்றொரு சிறுவன்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s008"
+      ],
+      "source_scene_ids": [
+        "7"
+      ],
+      "pdf_pages": [
+        13
+      ],
+      "neighbor_label_counts": {
+        "உமா": 1,
+        "இன்னொருவன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s008-d002",
+          "scene_id": "vandikkaran-magan-s008",
+          "source_scene_id": "7",
+          "speaker_label": "மற்றொரு சிறுவன்",
+          "text": "கண்ணாமூச்சி!...",
+          "page_provenance": [
+            {
+              "pdf_page": 13,
+              "printed_page": 12
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s008-d001",
+            "speaker_label": "உமா",
+            "text": "ஏ, இன்னைக்கு என்ன விளையாட்டு விளையாடலாம்?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s008-d003",
+            "speaker_label": "இன்னொருவன்",
+            "text": "கண்ணாமூச்சி வேணும் — கலியாண வெளையாட்டு"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "முனியன்",
+      "record_count": 1,
+      "scene_ids": [
+        "vandikkaran-magan-s035"
+      ],
+      "source_scene_ids": [
+        "25"
+      ],
+      "pdf_pages": [
+        49
+      ],
+      "neighbor_label_counts": {
+        "சடையன்": 1,
+        "விங்கன்": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s035-d015",
+          "scene_id": "vandikkaran-magan-s035",
+          "source_scene_id": "25",
+          "speaker_label": "முனியன்",
+          "text": "(வெளியில் நின்றவாறு) ஜமீன்தார் எஜமான் அவசரமா கூப்பிடுறாரு! தேவாலயத்துக்குப் போகணுமாம்...வண்டி கட்டச் சொல்றாரு!..",
+          "page_provenance": [
+            {
+              "pdf_page": 49,
+              "printed_page": 48
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s035-d014",
+            "speaker_label": "சடையன்",
+            "text": "(உள்ளிருந்து) என்ன முனியா? என்ன?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s035-d016",
+            "speaker_label": "விங்கன்",
+            "text": "(அதற்குள் பழையது சாப்பிட்டு கைகழுவி எழுந்து மரகதத்திடம்) அம்மா..அடிக்கடி ஜமீன்தார் தேவாலயத்துக்குப் போறாரே; அங்க அப்படி என்ன விசேஷம்?"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "லிங்கன்",
+      "record_count": 23,
+      "scene_ids": [
+        "vandikkaran-magan-s012",
+        "vandikkaran-magan-s013",
+        "vandikkaran-magan-s014"
+      ],
+      "source_scene_ids": [
+        "10-எ",
+        "11",
+        "12"
+      ],
+      "pdf_pages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "neighbor_label_counts": {
+        "கோகிலா": 16,
+        "உமா": 12,
+        "மரகதம்": 7,
+        "ஜமீன்தார்": 6,
+        "காளிங்": 2,
+        "லிங்கன்": 2
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d002",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "லிங்கன்",
+          "text": "(முண்டாசைத் தட்டி) நல்லாத்தான் இருக்கு!..பாத்தா தெரியலே; தெருவிலே போறவங்களையெல்லாம் உடல்நலம் விசாரிக்கிறீங்களே...நீங்க என்ன டாக்டரம்மாவா?...",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d001",
+            "speaker_label": "உமா",
+            "text": "(கோபமாக) ஏய்! உடம்பு எப்படியிருக்கு!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d003",
+            "speaker_label": "உமா",
+            "text": "(மேலும் கோபமாக) ஆங்?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d005",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "லிங்கன்",
+          "text": "நோயாளிகள் கிடைக்காம லோ-லோன்னு அலையுற டாக்டரம்மாக்கள்ளாம் இப்படித்தான் விசாரிப்பாங்க?",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d004",
+            "speaker_label": "மரகதம்",
+            "text": "டாக்டரம்மாக்கள் எல்லாம் இப்படித்தான் சவுக்கை வச்சிகிட்டு விசாரிப்பாங்களா?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d006",
+            "speaker_label": "உமா",
+            "text": "கேலியும் கிண்டலும் கிடக்கட்டும்...முதல்ல சவுக்கைக் கொடு!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d007",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "லிங்கன்",
+          "text": "சவுக்கை கொடுக்கட்டுமா? இல்லை; சவுக்கால கொடுக்கட்டுமா?",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d006",
+            "speaker_label": "உமா",
+            "text": "கேலியும் கிண்டலும் கிடக்கட்டும்...முதல்ல சவுக்கைக் கொடு!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d008",
+            "speaker_label": "உமா",
+            "text": "என்ன சொன்னே?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d010",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "லிங்கன்",
+          "text": "நா, காக்கிறது இருக்கட்டும் இவ்வளவு வேகமா போனா..தெருவில்போறவுங்க உயிரை யாரு காக்கிறது?",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d009",
+            "speaker_label": "மரகதம்",
+            "text": "தம்பியோவ்! கொஞ்சம் மரியாதையாப் பேசுங்க! யாகாவாராயினும் நா காக்க!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d011",
+            "speaker_label": "உமா",
+            "text": "அதைக் கேக்க நீங்க யாரு?"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d012",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "லிங்கன்",
+          "text": "நான் யாருன்னு ஒரே வரியிலே சொல்ல முடியாது!... எனக்கும் கொஞ்சம் இடம் கொடுத்தீங்கன்னு உட்கார்ந்துகிட்டு விவரமா சொல்வேன்!",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d011",
+            "speaker_label": "உமா",
+            "text": "அதைக் கேக்க நீங்க யாரு?"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d013",
+            "speaker_label": "மரகதம்",
+            "text": "தம்பி! நீங்க இந்த ஊரு இளைய ஜமீன்தாரணியோட பேசுறீங்கங்கிறது ஞாபகமிருக்கட்டும்!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s012-d014",
+          "scene_id": "vandikkaran-magan-s012",
+          "source_scene_id": "10-எ",
+          "speaker_label": "லிங்கன்",
+          "text": "ஓ! ஜமீன்தாரணியா? (திகைப்பு — மரகதத்திடம்) நீங்க யாரு? இவுங்க டாட்டரா?",
+          "page_provenance": [
+            {
+              "pdf_page": 19,
+              "printed_page": 18
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s012-d013",
+            "speaker_label": "மரகதம்",
+            "text": "தம்பி! நீங்க இந்த ஊரு இளைய ஜமீன்தாரணியோட பேசுறீங்கங்கிறது ஞாபகமிருக்கட்டும்!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s012-d015",
+            "speaker_label": "மரகதம்",
+            "text": "டாட்டரா?... போச்சுடா!... தம்பி? நீங்க என்ன எனக்கு ஐஸ் வைக்கிறீங்களா? எனக்கே இதாட்டம் ஒரு டாட்டர் இருக்கு! நான் இந்த சின்ன ராணிக்கு டீச்சரம்மா!"
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "லீனா",
+      "record_count": 6,
+      "scene_ids": [
+        "vandikkaran-magan-s010"
+      ],
+      "source_scene_ids": [
+        "9"
+      ],
+      "pdf_pages": [
+        17
+      ],
+      "neighbor_label_counts": {
+        "ஜமீன்தார்": 12
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s010-d002",
+          "scene_id": "vandikkaran-magan-s010",
+          "source_scene_id": "9",
+          "speaker_label": "லீனா",
+          "text": "நீங்க இந்த ஊருக்கே ஜமீன்தாரு — நீங்க எப்படி இருந்தா என்னங்க?...",
+          "page_provenance": [
+            {
+              "pdf_page": 17,
+              "printed_page": 16
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s010-d001",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(ஒருத்தியிடம்) வனிதா! (கண்ணாடியை உற்றுப் பார்த்து) இதோ இரண்டு வெள்ளை ரோமம் தெரியுது பாரு.. இதையும் கறுப்பாக்கு!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s010-d003",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "லீனா!.. உனக்கு ஒண்ணுமே தெரியமாட்டேங்குதே!.. உருவத்திலே கவர்ச்சி—ஊருக்கு உபதேசம் பண்றதிலே ஒரு தனிப் பயிற்சி—இந்த இரண்டும்தான்.. எனக்கு மூலதனம்!.. அதில் தனி கவனம் செலுத்தவேண்டாமா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s010-d004",
+          "scene_id": "vandikkaran-magan-s010",
+          "source_scene_id": "9",
+          "speaker_label": "லீனா",
+          "text": "நீங்க பெரிய ஆளுங்க!...",
+          "page_provenance": [
+            {
+              "pdf_page": 17,
+              "printed_page": 16
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s010-d003",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "லீனா!.. உனக்கு ஒண்ணுமே தெரியமாட்டேங்குதே!.. உருவத்திலே கவர்ச்சி—ஊருக்கு உபதேசம் பண்றதிலே ஒரு தனிப் பயிற்சி—இந்த இரண்டும்தான்.. எனக்கு மூலதனம்!.. அதில் தனி கவனம் செலுத்தவேண்டாமா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s010-d005",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(லீனா கையில் ரிசீவரைப் பார்த்துவிட்டு) லீனா!.. என்ன கையிலே ரிசீவரை வச்சுக்கிட்டே..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s010-d006",
+          "scene_id": "vandikkaran-magan-s010",
+          "source_scene_id": "9",
+          "speaker_label": "லீனா",
+          "text": "அடடே! மறந்துட்டேங்க!... (போனில் வைத்துவிட்டு) உங்க மன்மத முகத்தைப் பாத்தா எல்லாமே மறந்து போகுது!... ஆமாம்... யாரு போன் பண்ணுனாங்க?..",
+          "page_provenance": [
+            {
+              "pdf_page": 17,
+              "printed_page": 16
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s010-d005",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "(லீனா கையில் ரிசீவரைப் பார்த்துவிட்டு) லீனா!.. என்ன கையிலே ரிசீவரை வச்சுக்கிட்டே..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s010-d007",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அதுவா.. டேவிட் துரைன்னு ஒரு வெள்ளைக்கார கோடீஸ்வரன்! அவரு, லிங்கன்னு ஒருத்தனை என்கிட்ட செகரட்டரி வேலைக்கு அனுப்புறேன்னாரு.. பேரு நல்லா இருக்குல்லே.. லிங்கன்...!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s010-d008",
+          "scene_id": "vandikkaran-magan-s010",
+          "source_scene_id": "9",
+          "speaker_label": "லீனா",
+          "text": "நல்லா இருக்கு.. நான்கூட ஒரு சேதி சொல்லப் போறேன்—அதுகூட உங்களுக்கு நல்லா இருக்கும்!...",
+          "page_provenance": [
+            {
+              "pdf_page": 17,
+              "printed_page": 16
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s010-d007",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "அதுவா.. டேவிட் துரைன்னு ஒரு வெள்ளைக்கார கோடீஸ்வரன்! அவரு, லிங்கன்னு ஒருத்தனை என்கிட்ட செகரட்டரி வேலைக்கு அனுப்புறேன்னாரு.. பேரு நல்லா இருக்குல்லே.. லிங்கன்...!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s010-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என்ன லீனா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s010-d010",
+          "scene_id": "vandikkaran-magan-s010",
+          "source_scene_id": "9",
+          "speaker_label": "லீனா",
+          "text": "(நாணத்துடன் நாணிக்கோணி) நான்.. இப்ப.. ரெண்டு மாசம்.. முழுகாம இருக்கேன்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 17,
+              "printed_page": 16
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s010-d009",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என்ன லீனா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s010-d011",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என்ன கர்ப்பமா?... (தந்திரமாக) ஏன் லீனா என்னைப் பத்தியோ—உன்னைப் பத்தியோ ரகசியம் தெரிஞ்சவங்க.. உனக்கு வேண்டியவர்கள் யாராவது வெளியில இருக்காங்களா?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s010-d012",
+          "scene_id": "vandikkaran-magan-s010",
+          "source_scene_id": "9",
+          "speaker_label": "லீனா",
+          "text": "இல்லீங்க! கடவுளைத்தவிர வேற யாருக்கும் எதுவும் தெரியாதுங்க!",
+          "page_provenance": [
+            {
+              "pdf_page": 17,
+              "printed_page": 16
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s010-d011",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "என்ன கர்ப்பமா?... (தந்திரமாக) ஏன் லீனா என்னைப் பத்தியோ—உன்னைப் பத்தியோ ரகசியம் தெரிஞ்சவங்க.. உனக்கு வேண்டியவர்கள் யாராவது வெளியில இருக்காங்களா?..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s010-d013",
+            "speaker_label": "ஜமீன்தார்",
+            "text": "கடவுளுக்குத் தெரிஞ்சா பரவாயில்லை!.. லீனா.. கிட்ட வாயேன்!.."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "விங்கன்",
+      "record_count": 159,
+      "scene_ids": [
+        "vandikkaran-magan-s014",
+        "vandikkaran-magan-s015",
+        "vandikkaran-magan-s016",
+        "vandikkaran-magan-s018",
+        "vandikkaran-magan-s020",
+        "vandikkaran-magan-s021",
+        "vandikkaran-magan-s022",
+        "vandikkaran-magan-s023",
+        "vandikkaran-magan-s024",
+        "vandikkaran-magan-s026",
+        "vandikkaran-magan-s028",
+        "vandikkaran-magan-s029",
+        "vandikkaran-magan-s030",
+        "vandikkaran-magan-s031",
+        "vandikkaran-magan-s032",
+        "vandikkaran-magan-s034",
+        "vandikkaran-magan-s035",
+        "vandikkaran-magan-s038",
+        "vandikkaran-magan-s043",
+        "vandikkaran-magan-s044",
+        "vandikkaran-magan-s046",
+        "vandikkaran-magan-s049",
+        "vandikkaran-magan-s051",
+        "vandikkaran-magan-s053",
+        "vandikkaran-magan-s054",
+        "vandikkaran-magan-s055",
+        "vandikkaran-magan-s056",
+        "vandikkaran-magan-s057",
+        "vandikkaran-magan-s058",
+        "vandikkaran-magan-s059",
+        "vandikkaran-magan-s060",
+        "vandikkaran-magan-s061",
+        "vandikkaran-magan-s063",
+        "vandikkaran-magan-s064",
+        "vandikkaran-magan-s069",
+        "vandikkaran-magan-s070",
+        "vandikkaran-magan-s071"
+      ],
+      "source_scene_ids": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16-எ",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22-எ",
+        "23",
+        "24",
+        "24-எ",
+        "24-பி",
+        "24-டி",
+        "25",
+        "28",
+        "32",
+        "33",
+        "34",
+        "37",
+        "39",
+        "41",
+        "42",
+        "42-எ",
+        "43",
+        "44",
+        "45-46",
+        "47",
+        "48",
+        "49",
+        "51",
+        "52",
+        "53-டி",
+        "54",
+        "55"
+      ],
+      "pdf_pages": [
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        50,
+        52,
+        56,
+        57,
+        58,
+        59,
+        61,
+        62,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        84,
+        85,
+        86,
+        87
+      ],
+      "neighbor_label_counts": {
+        "உமா": 102,
+        "ஜமீன்தார்": 40,
+        "சடையன்": 38,
+        "கோகிலா": 33,
+        "மரகதம்": 15,
+        "காளிங்": 14,
+        "விங்கன்": 12,
+        "காளிங்க": 9,
+        "ஜம்பு": 8,
+        "கண்ணாயிரம்": 3,
+        "புலவர்": 3,
+        "காவலன்": 3,
+        "விங்கன் குரல்": 2,
+        "சடையன் குரல்": 1,
+        "முனியன்": 1,
+        "ஆட்கள்": 1,
+        "சிறுமி": 1,
+        "ஒருத்தி": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s014-d019",
+          "scene_id": "vandikkaran-magan-s014",
+          "source_scene_id": "12",
+          "speaker_label": "விங்கன்",
+          "text": "I see..! தினமும் காலையிலே குதிரை சவாரி செய்வாங்களா?",
+          "page_provenance": [
+            {
+              "pdf_page": 24,
+              "printed_page": 23
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s014-d018",
+            "speaker_label": "கோகிலா",
+            "text": "குளிக்கிறதை மறந்துட்டீங்களே!.. குளிச்ச டிரஸ் போட்டுகிட்டு குதிரை சவாரி செய்யாம இருக்கிறதே இல்லே!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s014-d020",
+            "speaker_label": "கோகிலா",
+            "text": "ஆமாம்..இதோ!..உமா சவாரி செய்ற குதிரையை இங்கேயிருந்தபடியே காட்டுறேன்!..(ஜன்னல் திரையை விலக்கி) அதோ!..வண்டிக்கார சடையன் குளிப்பாட்டுறான் பாருங்க...அந்தக் குதிரைதான்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s015-d002",
+          "scene_id": "vandikkaran-magan-s015",
+          "source_scene_id": "13",
+          "speaker_label": "விங்கன்",
+          "text": "பரவாயில்லை!... பரவாயில்லை!..",
+          "page_provenance": [
+            {
+              "pdf_page": 24,
+              "printed_page": 23
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s015-d001",
+            "speaker_label": "சடையன்",
+            "text": "(விங்கனிடம் ஓடிவந்து..) அடேடேடே!...தெரியாமப் பட்டுப் போச்சுங்க... மன்னிச்சிடுங்க!"
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s015-d003",
+            "speaker_label": "காளிங்",
+            "text": "டே, முட்டாள்! சடையா!... குதிரையைக் குளிப்பாட்டுடான்னு... மனுஷனைக் குளிப்பாட்டுறே நீ! யார் இந்த மனுஷன்? தெரியுமா உனக்கு?...ஜமீன்தார் புது செகரட்டரி!.. படிச்சவர்!.. பணக்காரர்! சாரி மிஸ்டர் விங்கன்!.. டே, சடையா!... மிஸ்டர் விங்கனோட பூட்சை சுத்தமாத் துடை!... ம்... துடைடா... டர்ட்டி பெல்லோ!...."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s015-d004",
+          "scene_id": "vandikkaran-magan-s015",
+          "source_scene_id": "13",
+          "speaker_label": "விங்கன்",
+          "text": "அய்யோ... வேண்டாம்!.. உங்க வயசு என்னு! என் வயசு என்னு!.. எங்கப்பா வயது உங்களுக்கு, நீங்க போயி இந்த வேலை செய்றதாவது...",
+          "page_provenance": [
+            {
+              "pdf_page": 25,
+              "printed_page": 24
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s015-d003",
+            "speaker_label": "காளிங்",
+            "text": "டே, முட்டாள்! சடையா!... குதிரையைக் குளிப்பாட்டுடான்னு... மனுஷனைக் குளிப்பாட்டுறே நீ! யார் இந்த மனுஷன்? தெரியுமா உனக்கு?...ஜமீன்தார் புது செகரட்டரி!.. படிச்சவர்!.. பணக்காரர்! சாரி மிஸ்டர் விங்கன்!.. டே, சடையா!... மிஸ்டர் விங்கனோட பூட்சை சுத்தமாத் துடை!... ம்... துடைடா... டர்ட்டி பெல்லோ!...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s015-d005",
+            "speaker_label": "காளிங்",
+            "text": "வயசாவது ஒண்ணாவது... பிச்சைக்காரன் பூரா வயசானவனு வர்றான். அவனெல்லாம் அப்பன் வயசுன்னு கட்டிக்கிட்டு அழுதா நம்ப கதி என்ன ஆகுறது? இதுலதான் நாட்டுல மழை பெய்யாம, குட்டிச் சுவரா போகுது! என்ன அர்த்தமில்லாமப் பேசுறீங்க? நாம் எல்லாம் ஜமீன்தார் வர்க்கம். ஜமீன்தார் கடவுளுடைய பிரதிநிதி! நான் அவருடைய பிரதிநிதி!! இவங்களெல்லாம் வேலைக்காரப் பசங்க! நீங்க என்ன அவுங்க சாதியா?... டே, சடையா! என்ன பிரசங்கம் கேட்டுகிட்டு இருக்கே!... துடைடா பூட்சை! அவரைத் தொடாதே, பூட்சை மட்டும் தொடை!"
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s015-d007",
+          "scene_id": "vandikkaran-magan-s015",
+          "source_scene_id": "13",
+          "speaker_label": "விங்கன்",
+          "text": "வேண்டாம் ஐயா! வேண்டாம்!",
+          "page_provenance": [
+            {
+              "pdf_page": 25,
+              "printed_page": 24
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s015-d006",
+            "speaker_label": "சடையன்",
+            "text": "இதோ எஜமான்..."
+          },
+          "next_dialogue": null
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d008",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "விங்கன்",
+          "text": "நோ! நோ!.. நான் அதைக் கையால தொட்டது கூட கிடையாது!...",
+          "page_provenance": [
+            {
+              "pdf_page": 26,
+              "printed_page": 25
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s016-d007",
+            "speaker_label": "காளிங்",
+            "text": "அடேடே...செகரட்டரி விங்கன்... வாங்க! வாங்க!... சொக்கலிங்கத்தைப் பத்திச் சொல்லு செகரட்டரி விங்கன் வந்துட்டாரு டேய், கண்ணாயிரம்!... அய்யாவுக்கு ஊத்துடா!.. விஸ்கியா? பிராந்தியா? ஜின்னு? ரம்மா?...."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d009",
+            "speaker_label": "காளிங்",
+            "text": "தொட வேண்டாம்!.. நீங்க பேசாம வாயைத் திறந்துகிட்டு உட்கார்ந்திருங்க!.. நாங்க ஊத்திடறோம்!.."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s016-d010",
+          "scene_id": "vandikkaran-magan-s016",
+          "source_scene_id": "14",
+          "speaker_label": "விங்கன்",
+          "text": "ஆமா... உங்க ஜமீன்ல யாரும் குடிக்கக்கூடாதுன்னு சட்டம் கொண்டு வந்திருக்கீங்க!.. நீங்க பாட்டல் பாட்டலா முழுங்கிறீங்களே!",
+          "page_provenance": [
+            {
+              "pdf_page": 26,
+              "printed_page": 25
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s016-d009",
+            "speaker_label": "காளிங்",
+            "text": "தொட வேண்டாம்!.. நீங்க பேசாம வாயைத் திறந்துகிட்டு உட்கார்ந்திருங்க!.. நாங்க ஊத்திடறோம்!.."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s016-d011",
+            "speaker_label": "காளிங்",
+            "text": "சட்டம் ஏழைகளுக்குத்தான் போட்டிருக்கு! அதிகாரத்துல இருக்கிறவங்களுக்கு அல்ல. தெரியுமா? டேய் கண்ணாயிரம் நீ ஊத்துடா."
+          }
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    },
+    {
+      "speaker_label": "விங்கன் குரல்",
+      "record_count": 2,
+      "scene_ids": [
+        "vandikkaran-magan-s032",
+        "vandikkaran-magan-s034"
+      ],
+      "source_scene_ids": [
+        "24-பி",
+        "24-டி"
+      ],
+      "pdf_pages": [
+        45,
+        48
+      ],
+      "neighbor_label_counts": {
+        "விங்கன்": 2,
+        "உமா": 1
+      },
+      "examples": [
+        {
+          "dialogue_id": "vandikkaran-magan-s032-d002",
+          "scene_id": "vandikkaran-magan-s032",
+          "source_scene_id": "24-பி",
+          "speaker_label": "விங்கன் குரல்",
+          "text": "சபாஷ்!...ஆரம்பமே பிரமாதம்...எக்ஸ்லெண்ட்!..",
+          "page_provenance": [
+            {
+              "pdf_page": 45,
+              "printed_page": 44
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s032-d001",
+            "speaker_label": "விங்கன்",
+            "text": "அடடா! தச்! தச்!...தச்!..."
+          },
+          "next_dialogue": {
+            "id": "vandikkaran-magan-s032-d003",
+            "speaker_label": "உமா",
+            "text": "என்னது...எக்ஸ்லெண்ட்?..."
+          }
+        },
+        {
+          "dialogue_id": "vandikkaran-magan-s034-d007",
+          "scene_id": "vandikkaran-magan-s034",
+          "source_scene_id": "24-டி",
+          "speaker_label": "விங்கன் குரல்",
+          "text": "திட்டமில்ல!.. இது நான் மேற்கொண்ட சபதம்!... எடுத்துக் கொண்ட சூளுரை!",
+          "page_provenance": [
+            {
+              "pdf_page": 48,
+              "printed_page": 47
+            }
+          ],
+          "previous_dialogue": {
+            "id": "vandikkaran-magan-s034-d006",
+            "speaker_label": "விங்கன்",
+            "text": "திட்டமில்ல உமா!"
+          },
+          "next_dialogue": null
+        }
+      ],
+      "mapping_status": "unadjudicated"
+    }
+  ],
+  "policy": {
+    "dialogue_records_modified": false,
+    "exact_source_labels_preserved": true,
+    "alias_mapping_is_interpretive_metadata_only": true,
+    "generic_roles_collectives_and_voices_not_auto_collapsed": true
+  }
+}
