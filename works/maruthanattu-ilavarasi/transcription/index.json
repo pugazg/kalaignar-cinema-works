@@ -5,13 +5,13 @@
   "transcription_scope_pdf_pages": "2-22",
   "transcription_scope_page_count": 21,
   "status": "first-pass-in-progress",
-  "first_pass_pages_completed": 10,
-  "first_pass_pdf_range_completed": "2-11",
-  "first_pass_current_through_pdf": 11,
-  "first_pass_current_through_logical_printed": 10,
-  "draft_pages": 10,
+  "first_pass_pages_completed": 15,
+  "first_pass_pdf_range_completed": "2-16",
+  "first_pass_current_through_pdf": 16,
+  "first_pass_current_through_logical_printed": 15,
+  "draft_pages": 15,
   "visual_verified_pages": 0,
-  "historical_glyph_first_pass_checked_pages": 10,
+  "historical_glyph_first_pass_checked_pages": 15,
   "historical_glyph_final_verified_pages": 0,
   "open_uncertainty_markers": 0,
   "page_records": [
@@ -92,9 +92,49 @@
       "source_scene_ids": ["6", "7"],
       "status": "draft",
       "path": "pages/011.md"
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "kind": "screenplay",
+      "source_scene_id": "7",
+      "status": "draft",
+      "path": "pages/012.md"
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "kind": "screenplay",
+      "source_scene_ids": ["7", "8"],
+      "status": "draft",
+      "path": "pages/013.md"
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "kind": "screenplay",
+      "source_scene_id": "8",
+      "status": "draft",
+      "path": "pages/014.md"
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "kind": "screenplay",
+      "source_scene_id": "8",
+      "status": "draft",
+      "path": "pages/015.md"
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 15,
+      "kind": "screenplay",
+      "source_scene_id": "8",
+      "status": "draft",
+      "path": "pages/016.md"
     }
   ],
   "batch_size_source_pages": 5,
-  "next_batch_pdf_pages": "12-16",
-  "next_action": "Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
+  "next_batch_pdf_pages": "17-21",
+  "next_action": "Canonical Tamil first-pass transcription for PDF 17–21 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
 }
