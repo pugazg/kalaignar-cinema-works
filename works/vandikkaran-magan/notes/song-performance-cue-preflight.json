@@ -1,7 +1,7 @@
 {
   "work_id": "vandikkaran-magan",
   "phase": "song-performance-cue-preflight",
-  "status": "review-ready",
+  "status": "review-complete",
   "terms": [
     "பாட்டு",
     "பாடல்",
@@ -522,5 +522,43 @@
       ]
     }
   ],
-  "note": "Navigation preflight only. Keyword hits are not automatically song/performance records; source-structure review controls."
+  "note": "Navigation preflight only. Keyword hits are not automatically song/performance records; source-structure review controls.",
+  "review_summary": {
+    "candidate_pdf_pages_reviewed": 25,
+    "retained_source_visible_occurrences": 9,
+    "full_or_clearly_bounded_lyric_occurrences": 6,
+    "cue_only_non_lyric_performance_occurrences": 3,
+    "continuation_pages_added_by_boundary_review": [
+      61,
+      74
+    ],
+    "page_disposition": {
+      "13": "lexical-false-positive-sappattu",
+      "14": "retained-perf-001",
+      "18": "retained-perf-002",
+      "19": "end-cue-for-perf-002-not-new-occurrence",
+      "23": "lexical-idiom-not-performance",
+      "24": "lexical-false-positive-kulippatturan",
+      "34": "lexical-idiom-not-performance",
+      "36": "retained-perf-003",
+      "37": "continuation-and-end-cue-perf-003",
+      "42": "lexical-false-positive-sappattukku",
+      "45": "simile-japam-not-performance",
+      "46": "retained-perf-004",
+      "47": "continuation-and-end-cue-perf-004",
+      "56": "retained-perf-005-cue-only",
+      "58": "metaphorical-isai-not-performance",
+      "60": "retained-perf-006",
+      "68": "retained-perf-007-cue-only",
+      "72": "performance-context-perf-008",
+      "73": "retained-lyric-body-perf-008",
+      "75": "end-cue-for-perf-008-not-new-occurrence",
+      "81": "retained-perf-009",
+      "82": "continuation-perf-009",
+      "86": "lexical-false-positive-kaappattun",
+      "88": "film-credit-metadata-not-occurrence",
+      "89": "film-credit-metadata-not-occurrence"
+    },
+    "item_level_authorship_inferred_from_pdf88_film_credit": false
+  }
 }

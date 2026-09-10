@@ -495,6 +495,9 @@ qa={
     'credit_evidence':{'pdf_88_song_credit':'பாடல்கள்: கவிஞர் வாலி','pdf_88_music_credit':'இசை: எம். எஸ். விஸ்வநாதன்','item_specific_lyricist_lines_found':0},
     'next_activity':index['next_activity']
 }
-assert all(qa['checks'].values()) except qa['checks']['film_level_vali_credit_promoted_to_item_level'] is False
+positive_checks = ['character_gate_complete_verified','all_expanded_cue_preflight_pages_reviewed','source_order_record_ids_unique','every_record_has_scene_and_page_provenance','bounded_body_records_have_page_segments','cue_only_records_do_not_manufacture_lyrics']
+negative_checks = ['film_level_vali_credit_promoted_to_item_level','canonical_tamil_changed','scene_text_changed','dialogue_records_changed','character_entity_mappings_changed']
+assert all(qa['checks'][k] for k in positive_checks)
+assert not any(qa['checks'][k] for k in negative_checks)
 (N/'song-performance-qa.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('PASS: 9/9 performance occurrences; 6 bounded bodies; 3 cue-only; 6 item-level authorships unresolved; 0 inferred from film-level credit')

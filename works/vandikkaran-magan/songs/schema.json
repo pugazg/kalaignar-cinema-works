@@ -1,0 +1,29 @@
+{
+  "schema": "vandikkaran-magan-song-performance-record-v1",
+  "record_id_pattern": "^vandikkaran-magan-perf-[0-9]{3}$",
+  "required_fields": [
+    "id",
+    "source_pdf_pages",
+    "source_scene_id",
+    "scene_ordinal",
+    "form",
+    "authorship_status",
+    "record_path",
+    "full_or_clearly_bounded_body"
+  ],
+  "authorship_status_values": [
+    "source-attributed",
+    "unresolved-item-level",
+    "not-applicable-non-lyric-performance"
+  ],
+  "policy": {
+    "canonical_text_authority": "../transcription/",
+    "scene_text_authority": "../scenes/",
+    "character_entity_authority": "../characters/",
+    "authorship_requires_item_level_evidence": true,
+    "film_level_lyricist_credit_is_not_item_level_mapping": true,
+    "missing_lyrics_may_not_be_reconstructed": true,
+    "source_wording_lineation_roles_cues_and_page_boundaries_are_preserved": true,
+    "cue_only_performance_occurrences_remain_inventory_records_without_manufactured_lyrics": true
+  }
+}

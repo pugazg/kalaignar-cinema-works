@@ -1,0 +1,34 @@
+{
+  "work_id": "vandikkaran-magan",
+  "film_level_song_credit": {
+    "pdf_page": 88,
+    "text": "பாடல்கள்: கவிஞர் வாலி",
+    "scope_policy": "Preserved as film-level source metadata; not automatically promoted to item-level authorship for any of the six printed lyric/performance bodies."
+  },
+  "music_credit": {
+    "pdf_page": 88,
+    "text": "இசை: எம். எஸ். விஸ்வநாதன்"
+  },
+  "dance_credit": {
+    "pdf_page": 89,
+    "text": "நடனம் : தாரா அண்ணா மதுரை ரகு"
+  },
+  "playback_heading_as_printed": "பின்னணி :",
+  "playback_pdf_page": 89,
+  "playback_names_as_printed": [
+    "டி. எம். சௌந்தரராஜன்",
+    "சீர்காழி கோவிந்தராஜன்",
+    "கோவை செளந்தரராஜன்",
+    "எஸ். பி பாலசுப்பிரமணியம்",
+    "வாணி ஜெயராம், எல். ஆர். ஈஸ்வரி"
+  ],
+  "item_level_song_authorship": {
+    "source_attributed_records": 0,
+    "unresolved_item_level_records": 6,
+    "policy": "The controlling booklet supplies no item-specific lyricist line for these six bodies. Do not infer `கவிஞர் வாலி` at item level from PDF 88 alone."
+  },
+  "non_lyric_performance_records": {
+    "count": 3,
+    "authorship_status": "not-applicable-non-lyric-performance"
+  }
+}

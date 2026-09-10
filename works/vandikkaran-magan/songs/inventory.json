@@ -1,0 +1,302 @@
+{
+  "work_id": "vandikkaran-magan",
+  "status": "complete-verified-source-only",
+  "mapped_source_visible_occurrences": 9,
+  "records": [
+    {
+      "id": "vandikkaran-magan-perf-001",
+      "source_pdf_pages": [
+        14
+      ],
+      "source_scene_id": "7",
+      "form": "ritual-play-music-and-chant-cue",
+      "source_marker": "டும் டும்! பீப்பி பீப்பி!...",
+      "source_role_cues": [],
+      "performance_cues": [
+        "(என்று மேளதாளம் வாசிக்க ஆரம்பித்து விடுகின்றனர். உமாவையும், சொக்கலிங்கத்தையும் ஒரு பலகையில் உட்கார வைக்கின்றனர். மந்திரங்கள் ஜபிக்கின்றனர்..... சொக்கலிங்கத்தின் தலையில் ஒரு மாப்பிள்ளை முண்டாசு கட்டுகின்றனர். அவன் கையில் ஒரு கயிற்றில் ஒரு சிறு கல்லை எடுத்து முடிந்து, உமா கழுத்தில் கட்டச் சொல்லுகின்றனர். அவன், கயிற்றை உமா கழுத்தில் கட்டப் போகும்போது ஜமீன்தாரின் கரம் அவன் கையைத் தட்டிவிட்டு, அந்தக் கயிற்றைப் பிடுங்குகிறது...)"
+      ],
+      "authorship_status": "not-applicable-non-lyric-performance",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": false,
+      "notes": "Children begin mock wedding music and chant mantras; the source prints no chant text beyond the onomatopoeic music fragment.",
+      "scene_ordinal": 8,
+      "scene_path": "scenes/scene-008.md",
+      "record_path": "records/vandikkaran-magan-perf-001.md"
+    },
+    {
+      "id": "vandikkaran-magan-perf-002",
+      "source_pdf_pages": [
+        18
+      ],
+      "source_scene_id": "10",
+      "form": "explicit-song",
+      "source_marker": "(பெரியவனான லிங்கன் பாட்டுப்பாடி வருதல்.)",
+      "source_incipit": "ஒருநாடகம் நடக்குது நாட்டிலே! — அதை",
+      "source_role_cues": [
+        "லிங்கன்"
+      ],
+      "performance_cues": [
+        "(பெரியவனான லிங்கன் பாட்டுப்பாடி வருதல்.)",
+        "(லிங்கனின் இலட்சிய கீதம் முடிவதற்கும் உமா, ஓட்டிவரும் சாரட் வண்டி அவனை மிக வேகமாக நெருங்குவதற்கும் சரியாக இருக்கிறது. உமாவின் கையிலுள்ள சாட்டையை லிங்கன் பிடுங்குகிறான்.)"
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": true,
+      "notes": "PDF 19 calls the just-finished performance `லிங்கனின் இலட்சிய கீதம்`; that end cue is context, not a second occurrence.",
+      "scene_ordinal": 11,
+      "scene_path": "scenes/scene-011.md",
+      "record_path": "records/vandikkaran-magan-perf-002.md",
+      "source_text_sha256": "62a3eb3096d166643d6f64ae686cf9dda2dea3ee8fa61dd80bb3087f8e1f0964",
+      "page_segments": [
+        {
+          "pdf_page": 18,
+          "printed_page": 17
+        }
+      ]
+    },
+    {
+      "id": "vandikkaran-magan-perf-003",
+      "source_pdf_pages": [
+        36,
+        37
+      ],
+      "source_scene_id": "20",
+      "form": "labelled-love-song-duet",
+      "source_marker": "(விங்கன் — கோகிலா காதல் கீதம்)",
+      "source_incipit": "மேடையில் ஆடிடும்",
+      "source_role_cues": [
+        "விங்கன்",
+        "கோகிலா"
+      ],
+      "performance_cues": [
+        "(விங்கன் — கோகிலா காதல் கீதம்)",
+        "(கோகிலா-விங்கன் கனவு கீதம் முடிகிறது. கோகிலா ரூபாய் நாணயத்தையே உற்று நோக்கியவாறு இருக்கிறாள். மரகதம் பின்னிருந்தவாறு தோளைத் தொடுகிறாள்.)"
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": true,
+      "notes": "Speaker-labelled sung turns remain exact source text; their dialogue-layer identity is not rewritten by this performance derivative.",
+      "scene_ordinal": 24,
+      "scene_path": "scenes/scene-024.md",
+      "record_path": "records/vandikkaran-magan-perf-003.md",
+      "source_text_sha256": "9eaef7537eec6edce352cc41a4783c595c8b7d638ed770da826e71153f71a490",
+      "page_segments": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        },
+        {
+          "pdf_page": 37,
+          "printed_page": 36
+        }
+      ]
+    },
+    {
+      "id": "vandikkaran-magan-perf-004",
+      "source_pdf_pages": [
+        46,
+        47
+      ],
+      "source_scene_id": "24-சி",
+      "form": "explicit-song",
+      "source_marker": "(விங்கன் பாட்டு)",
+      "source_incipit": "கார்த்திகை மாதம் கார்காலம்!",
+      "source_role_cues": [
+        "விங்கன்"
+      ],
+      "performance_cues": [
+        "(விங்கன் பாட்டு)",
+        "(இருவரும் காதலில் மயங்கு கின்றனர் — விங்கன் பிடியில் உமா விழுகிறாள்!)"
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": true,
+      "notes": "The parenthetical after the final refrain is retained as the end/context cue and excluded from lyric body.",
+      "scene_ordinal": 33,
+      "scene_path": "scenes/scene-033.md",
+      "record_path": "records/vandikkaran-magan-perf-004.md",
+      "source_text_sha256": "296f5429dbf1d85bbe0b14a1f25c17c30b9748a45f39d81a373e3f62ee6381bb",
+      "page_segments": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        },
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ]
+    },
+    {
+      "id": "vandikkaran-magan-perf-005",
+      "source_pdf_pages": [
+        56
+      ],
+      "source_scene_id": "32",
+      "form": "wedding-music-cue",
+      "source_marker": "புரோகிதர்:—கெட்டி மேளம்! கெட்டி மேளம்!..",
+      "source_role_cues": [
+        "புரோகிதர்"
+      ],
+      "performance_cues": [
+        "(உமாவை மணக்கோலத்தில் மரகதமும், கோகிலாவும் அழைத்து வருதல். மணமக்கள் மணமேடையில் அமருதல்! புரோகிதர் தாலியை எடுத்து விங்கன் கையில் தருதல்...)",
+        "புரோகிதர்:—கெட்டி மேளம்! கெட்டி மேளம்!.."
+      ],
+      "authorship_status": "not-applicable-non-lyric-performance",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": false,
+      "notes": "Source requests `கெட்டி மேளம்`; no lyric body is printed, so no standalone Tamil lyric is manufactured.",
+      "scene_ordinal": 43,
+      "scene_path": "scenes/scene-043.md",
+      "record_path": "records/vandikkaran-magan-perf-005.md"
+    },
+    {
+      "id": "vandikkaran-magan-perf-006",
+      "source_pdf_pages": [
+        60,
+        61
+      ],
+      "source_scene_id": "36",
+      "form": "explicit-public-song",
+      "source_marker": "(விங்கன் ஊர்மக்களிடையே பாடுகிறான்)",
+      "source_incipit": "உழைக்கும் இனமே!",
+      "source_role_cues": [
+        "விங்கன்",
+        "ஊர்மக்கள்"
+      ],
+      "performance_cues": [
+        "(விங்கன் ஊர்மக்களிடையே பாடுகிறான்)"
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": true,
+      "notes": "Song continues onto PDF 61 and ends at the source star before scene 37.",
+      "scene_ordinal": 48,
+      "scene_path": "scenes/scene-048.md",
+      "record_path": "records/vandikkaran-magan-perf-006.md",
+      "source_text_sha256": "d29c722774bb76d9412340930240bf3d1cad85e0127d4fb1ad7df3281aa5fcd2",
+      "page_segments": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        },
+        {
+          "pdf_page": 61,
+          "printed_page": 60
+        }
+      ]
+    },
+    {
+      "id": "vandikkaran-magan-perf-007",
+      "source_pdf_pages": [
+        68
+      ],
+      "source_scene_id": "42-எ",
+      "form": "wedding-mantra-sound-cue",
+      "source_marker": "மந்திர ஒலி",
+      "source_role_cues": [],
+      "performance_cues": [
+        "(புலவர் மகள் பூங்கொடி மணமகளாகக் குனிந்தவாறு உட்கார்ந்திருக்கிறாள்...அருகே மணமகன் உட்கார்ந்திருக்கிறான்...மந்திர ஒலி - மணமேடை - இதனைக் கண்டவர்கள் வியந்து நிற்கிறார்கள்.)"
+      ],
+      "authorship_status": "not-applicable-non-lyric-performance",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": false,
+      "notes": "The source specifies mantra sound but prints no mantra text.",
+      "scene_ordinal": 55,
+      "scene_path": "scenes/scene-055.md",
+      "record_path": "records/vandikkaran-magan-perf-007.md"
+    },
+    {
+      "id": "vandikkaran-magan-perf-008",
+      "source_pdf_pages": [
+        72,
+        73,
+        74
+      ],
+      "source_scene_id": "48",
+      "form": "celebration-song-and-dance",
+      "source_marker": "(பாட்டு)",
+      "source_incipit": "ஊரைத் திருத்த - ஒரு",
+      "source_role_cues": [
+        "இள மகளிர்",
+        "வாலிபர்",
+        "ஒருவன்",
+        "ஒருத்தி",
+        "விங்கன்"
+      ],
+      "performance_cues": [
+        "(குடிசைப்பகுதி மக்கள், விங்கன், உமா முதலியோர் ஆடிப் பாடி குழந்தைக்கு விழா எடுக்கிறார்கள்...",
+        "பாட்டின் இடையே சடையன், வண்டியோட்டி, ஜமீன்தாரும் காளிங்கனும் வருகிறார்கள்...",
+        "குடிசைப் பகுதியே விழாக் கோலமாக இருக்கிறது....இள மகளிர், வாலிபர் — அனைவரும் பாடியும் ஆடியும் குழந்தையை வாழ்த்துதல்.)",
+        "(பாட்டு)",
+        "பாடல் முடிய... ஜமீன்தார், காளிங்கராயனும் அங்கே வருகின்றனர்."
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": true,
+      "notes": "Performance context starts on PDF 72; printed lyric body is PDF 73-74; PDF 75 explicitly says `பாடல் முடிய` and is only the end cue.",
+      "scene_ordinal": 60,
+      "scene_path": "scenes/scene-060.md",
+      "record_path": "records/vandikkaran-magan-perf-008.md",
+      "source_text_sha256": "20ab43231453ca0e94c3f7a4cb25faea7db6f07c44ee82a237c2eda912ee5d73",
+      "page_segments": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        },
+        {
+          "pdf_page": 74,
+          "printed_page": 73
+        }
+      ]
+    },
+    {
+      "id": "vandikkaran-magan-perf-009",
+      "source_pdf_pages": [
+        81,
+        82
+      ],
+      "source_scene_id": "53-சி",
+      "form": "lyrical-dance-performance",
+      "source_marker": null,
+      "source_incipit": "ஒரு பக்கம் நெருப்பு!",
+      "source_role_cues": [
+        "அழகி ஒன்று"
+      ],
+      "performance_cues": [
+        "(நடனம் ஒருபுறம் - நாசம் ஒரு புறம் மாறி மாறிக் காட்சிகளாகின்றன.)",
+        "(அழகி ஒன்று நடனமாட ஜமீன்தார் ரசித்தல்.)",
+        "(குடிசை மக்கள் அங்குமிங்கும் அலறித்துடித்து ஓடுகிறார்கள். விழுகிறார்கள்.... குழந்தைகள் நெருப்பில் கருகுகின்றன. அல்லோலகல்லோலப்படுகிறது. விங்கன் நெருப்பில் விழுந்தவர்களைக் காப்பாற்றுகிறான். கண்ணாயிரமும் அவதிப்பட்டுத் துடிப்பவர்களைக் காப்பாற்றுகிறான். கோகிலாவும் மரகதமும் குழந்தையைத் தூக்கிக்கொண்டு ஓடுகிறார்கள். விங்கன் காளையை அவிழ்த்துக் கண்ணாயிரத்திடம் கொடுத்து, அதைக் காப்பாற்றும்படி விரட்டுகிறான்... இப்போது கோகிலா, குழந்தையுடன் தனியாக ஓடிக்கொண்டிருக்கிறாள். மரகதம் அங்குள்ள ஏழைபாழைகளை நெருப்பிலிருந்து காப்பாற்றிக் கொண்டிருக்கிறாள்.)"
+      ],
+      "authorship_status": "unresolved-item-level",
+      "author_as_printed": null,
+      "full_or_clearly_bounded_body": true,
+      "notes": "Film credits list a `நடனக்காரி`, but the booklet does not item-link that cast credit to this `அழகி ஒன்று`; no performer identity is inferred here.",
+      "scene_ordinal": 68,
+      "scene_path": "scenes/scene-068.md",
+      "record_path": "records/vandikkaran-magan-perf-009.md",
+      "source_text_sha256": "9bcb4a808711f4da517bd1c77cd0be4f37bc8d86e03fe2857594e1f2bf07ca9d",
+      "page_segments": [
+        {
+          "pdf_page": 81,
+          "printed_page": 80
+        },
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ]
+    }
+  ],
+  "coverage": "9/9",
+  "full_or_clearly_bounded_tamil_derivatives": 6,
+  "cue_only_non_lyric_records": 3,
+  "source_attributed_authorship_records": 0,
+  "unresolved_item_level_authorship_records": 6,
+  "policy": {
+    "film_level_pdf88_song_credit": "பாடல்கள்: கவிஞர் வாலி",
+    "item_level_authorship_inferred": false,
+    "cue_only_records_do_not_generate_missing_lyrics": true,
+    "preflight_review": "../notes/song-performance-cue-preflight.json"
+  }
+}

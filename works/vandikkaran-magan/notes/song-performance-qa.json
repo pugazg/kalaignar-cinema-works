@@ -1,0 +1,97 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "song-performance-authorship-gate",
+  "status": "PASS",
+  "source_visible_occurrences_expected": 9,
+  "source_visible_occurrences_mapped": 9,
+  "full_or_clearly_bounded_tamil_bodies": 6,
+  "cue_only_non_lyric_occurrences": 3,
+  "source_attributed_item_level_authorship": 0,
+  "unresolved_item_level_authorship": 6,
+  "not_applicable_non_lyric_authorship": 3,
+  "record_ids": [
+    "vandikkaran-magan-perf-001",
+    "vandikkaran-magan-perf-002",
+    "vandikkaran-magan-perf-003",
+    "vandikkaran-magan-perf-004",
+    "vandikkaran-magan-perf-005",
+    "vandikkaran-magan-perf-006",
+    "vandikkaran-magan-perf-007",
+    "vandikkaran-magan-perf-008",
+    "vandikkaran-magan-perf-009"
+  ],
+  "source_scene_ids": [
+    "7",
+    "10",
+    "20",
+    "24-சி",
+    "32",
+    "36",
+    "42-எ",
+    "48",
+    "53-சி"
+  ],
+  "bounded_body_source_scenes": [
+    "10",
+    "20",
+    "24-சி",
+    "36",
+    "48",
+    "53-சி"
+  ],
+  "cue_only_source_scenes": [
+    "7",
+    "32",
+    "42-எ"
+  ],
+  "lexical_preflight_candidate_pages_reviewed": [
+    13,
+    14,
+    18,
+    19,
+    23,
+    24,
+    34,
+    36,
+    37,
+    42,
+    45,
+    46,
+    47,
+    56,
+    58,
+    60,
+    68,
+    72,
+    73,
+    75,
+    81,
+    82,
+    86,
+    88,
+    89
+  ],
+  "continuation_pages_added_by_boundary_review": [
+    61,
+    74
+  ],
+  "checks": {
+    "character_gate_complete_verified": true,
+    "all_expanded_cue_preflight_pages_reviewed": true,
+    "source_order_record_ids_unique": true,
+    "every_record_has_scene_and_page_provenance": true,
+    "bounded_body_records_have_page_segments": true,
+    "cue_only_records_do_not_manufacture_lyrics": true,
+    "film_level_vali_credit_promoted_to_item_level": false,
+    "canonical_tamil_changed": false,
+    "scene_text_changed": false,
+    "dialogue_records_changed": false,
+    "character_entity_mappings_changed": false
+  },
+  "credit_evidence": {
+    "pdf_88_song_credit": "பாடல்கள்: கவிஞர் வாலி",
+    "pdf_88_music_credit": "இசை: எம். எஸ். விஸ்வநாதன்",
+    "item_specific_lyricist_lines_found": 0
+  },
+  "next_activity": "Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes."
+}
