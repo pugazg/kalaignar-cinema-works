@@ -34,7 +34,7 @@ The source has **71 observed scene-heading occurrences**. Preserve inserted suff
 
 ## Historical Tamil glyph rule
 
-The later dedicated historical-glyph phase must inspect occurrence by occurrence:
+The dedicated historical-glyph phase must inspect occurrence by occurrence:
 
 `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
@@ -54,22 +54,22 @@ Do not interleave phases.
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
-- visual verification: **IN PROGRESS — PDF 4–83 / 80 of 87 VERIFIED**;
-- remaining visual-verification pages: **7**;
-- historical-glyph verification: **NOT-STARTED** under the mandatory phase order;
-- legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later dedicated glyph phase;
+- visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
+- remaining visual-verification pages: **0**;
+- dedicated historical-glyph verification: **NOT-STARTED — 0/87**;
+- legacy prospective glyph checks from drafting do not close the dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - structured derivatives / English / reader work: **BLOCKED**.
 
-## Latest five-page visual batch
+## Final visual batches
 
-- PDF **79–83 / printed 78–82** visually verified against enlarged source pixels;
-- notable source corrections include `ஏண்டா`, `கண்ணைத் திறக்கிறது ரொம்பகஷ்டம்`, `ஆனா ஒரு நாளுக்குத் திறக்கத்தான் போகிறேன்`, `இவ்வளவுநாளா`, `ஜம்புலிங்க`, `ஊரே வளர்ந்துச்சு`, `உங்களைப் போல`, `உங்களைச்`, `யாருக்கென்று`, `ஓட்டைக் குடிசைப்`, `கட்டளைப்படி`, `அழகி ஒன்று`, `அரிவாள் மனைக்கட்டையாலடிக்கப்போக`, `ஆனபிறகு`, and `ஏற்பட்டதில்லே`;
-- PDF 81 source scene starts `53`, `53 எ`, `53 பி`, and `53 சி` were preserved with their printed dash forms; PDF 83 preserves `53 டி`;
-- PDF 82 preserves the source-visible song/performance and fire sequence;
-- all five page records are now `visual-verified`.
+- PDF **84–88** completed the last full five-page visual batch;
+- PDF **89–90** completed the final remainder;
+- notable source corrections include `மர்மங்களே`, `உத்தமர்னு`, `எத்தனையோ`, `இறுக மூடிக்கிடந்த`, `பேயுருவில்`, `தணியுமட்டும்`, `சூழ்கிறார்கள்`, `கள்ளக் கடத்தல்`, `புனிதர்-புண்ணியர்-உத்தமர்-யோகியர்னு`, `ஏன் தயக்கம்`, and `காளையைக் கட்டவிழ்த்து விடவே`;
+- source scene-heading dash forms `காட்சி - 54`, `காட்சி - 55`, and `காட்சி - 56` were restored;
+- PDF 88–89 film credits and PDF 90 visible back-cover text were visually verified directly from the scan.
 
 ## Exact next activity
 
-> **Visually verify PDF 84–88 against the controlling scan as the next five-page batch; correct every source discrepancy without silent normalization; mark those five records `visual-verified`; update `transcription/index.json` to 85/87; commit/push the batch; then continue with PDF 89–90. Do not begin dedicated historical-glyph verification until visual verification reaches PDF 90.**
+> **Begin dedicated historical-glyph verification with PDF 4–8. Inspect the mandated glyph families occurrence by occurrence from enlarged source pixels, record the evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 5/87 and next batch PDF 9–13, commit/push, and continue in five-page batches through PDF 90. Final full visual verification remains blocked until that glyph phase is complete.**

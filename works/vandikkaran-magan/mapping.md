@@ -109,9 +109,12 @@ Examples establishing structurally meaningful source location text include:
 - scene 51 / PDF 76: `கோயில் வாசல்`;
 - scene 52 / PDF 78: two-line `ஜமீன் மாளிகை-கோகிலா அறை / இரவு`;
 - scene 53 / PDF 81: two-line `ஜமீன் அந்தரங்க மாளிகை / ஆடம்பர அறை`;
-- scene 53-டி / PDF 83: source-visible inserted scene heading before the குடிசைப் பகுதி fire sequence.
+- scene 53-டி / PDF 83: source-visible inserted scene heading before the குடிசைப் பகுதி fire sequence;
+- scene 54 / PDF 85: `ஜமீன்தாரின் அந்தரங்க மாளிகை`;
+- scene 55 / PDF 86: `ஜமீன்தார் அந்தரங்க மாளிகை / வெளிப்புறம்`;
+- scene 56 / PDF 87: `சடையன் வீடு`.
 
-This is not a claim that every location caption has already been lexically verified for release. Exact heading/location transcription remains part of canonical page work and later visual verification.
+The full visual pass is now complete, including exact source heading/location verification through the closing scenes.
 
 ## Song / performance structures at mapping stage
 
@@ -123,7 +126,7 @@ The scan clearly contains source-visible performance/lyric structures. Mapping-s
 - PDF 73–74: substantial multi-page song/performance block;
 - PDF 81 / scene `53-சி`: performance/lyric material begins.
 
-Additional candidates may emerge during page-by-page canonical transcription. **No final occurrence count or item-level lyric authorship is asserted at intake.** The source-visible film credit `பாடல்கள்: கவிஞர் வாலி` is recorded separately and will be reconciled against the occurrence inventory only at the later authorship gate.
+Additional candidates may emerge during later dedicated gates. **No final occurrence count or item-level lyric authorship is asserted here.** The source-visible film credit `பாடல்கள்: கவிஞர் வாலி` is recorded separately and will be reconciled against the occurrence inventory only at the later authorship gate.
 
 ## Historical Tamil glyph disposition
 
@@ -147,6 +150,7 @@ Rules:
 - Whole-scan mapping identified **90 complete PDF pages** and did not identify a missing or duplicated complete page.
 - The source has ordinary age/contrast/wear variation and occasional tight text edges; canonical transcription must rely on enlarged rendered pixels.
 - PDF 1 is a photographic/color front cover; PDF 90 is a photographic/color back cover.
+- PDF 90 contains a physical/scan obstruction over part of the bottom publisher area; only directly visible text is canonicalized.
 - No handwritten or ownership mark is to be treated as printed canonical text merely because it appears on a scan.
 
 ## Gate status
@@ -155,12 +159,12 @@ Rules:
 - structural mapping: **COMPLETE-VERIFIED for source boundaries / pagination / scene-heading sequence**;
 - scene-heading inventory: **71/71 observed heading occurrences mapped**;
 - canonical Tamil first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual fidelity audit: **IN PROGRESS — PDF 4–83 / 80 of 87 visually verified**;
-- historical-glyph full audit: **NOT-STARTED** under the mandatory phase order;
+- visual fidelity audit: **COMPLETE — PDF 4–90 / 87 of 87 visually verified**;
+- historical-glyph full audit: **NOT-STARTED — 0/87** under the mandatory phase order;
 - structured derivatives: **BLOCKED**;
 - song/performance authorship gate: **NOT-STARTED**;
 - English translation / reader / Reading Room: **NOT-STARTED**.
 
 ## Exact next activity
 
-**Visually verify PDF 84–88 directly against the controlling scan as the next five-page batch. Correct source discrepancies without silent normalization, mark those five records `visual-verified`, update the transcription index to 85/87, commit/push the batch, and continue with PDF 89–90. Dedicated historical-glyph verification remains blocked until the visual pass reaches PDF 90.**
+**Begin the dedicated historical-glyph audit with PDF 4–8 as the first five-page batch. Inspect the mandatory glyph families occurrence by occurrence against enlarged source pixels, record evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph-identity corrections, update the dedicated glyph counters to 5/87 and next batch PDF 9–13, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph audit is complete.**
