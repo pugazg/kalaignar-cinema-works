@@ -17,8 +17,11 @@ jobs:
           python-version: '3.12'
       - name: Synchronize character closure
         run: python works/vandikkaran-magan/scripts/sync_character_closure.py
-      - name: Verify closed source layers unchanged
-        run: git diff --exit-code -- works/vandikkaran-magan/transcription works/vandikkaran-magan/scenes works/vandikkaran-magan/dialogues
+      - name: Verify closed source content unchanged
+        run: |
+          git diff --exit-code -- works/vandikkaran-magan/transcription
+          git diff --exit-code -- works/vandikkaran-magan/scenes/index.json works/vandikkaran-magan/scenes/scene-*.md
+          git diff --exit-code -- works/vandikkaran-magan/dialogues/index.json works/vandikkaran-magan/dialogues/schema.json works/vandikkaran-magan/dialogues/records
       - name: Commit synchronized checkpoint
         run: |
           git config user.name 'github-actions[bot]'
@@ -27,3 +30,4 @@ jobs:
           git add -A
           git commit -m 'Synchronize Vandikkaran Magan character closure [skip ci]'
           git push
+# retry: status/readme mirrors may change, closed source content may not
