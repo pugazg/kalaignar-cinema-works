@@ -80,6 +80,6 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 
 ## Exact next activity
 
-English translation is now **60/72 VERIFIED / QA PASS**.
+English translation is now **72/72 COMPLETE-VERIFIED / WHOLE-WORK QA PASS** at **1,181 units / 773 immutable dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 verified performance occurrence identities**. The deterministic English reader/export is **COMPLETE-VERIFIED / QA PASS** under `editions/en/`.
 
-**Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.**
+**Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized.**

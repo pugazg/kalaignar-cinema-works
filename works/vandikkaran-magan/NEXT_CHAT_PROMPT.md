@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / final English scenes 61–72
+# Next Chat Prompt — வண்டிக்காரன் மகன் / Reading Room payload
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -13,17 +13,15 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 - reconciled immutable dialogues: **773 / 38 exact labels / QA PASS** — 744 legacy IDs preserved + 29 append-only repairs;
 - characters/entities: **32 / 38/38 labels / 773/773 records / QA PASS**;
 - song/performance: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- English translation: **60/72 scenes VERIFIED / QA PASS — 1009 units / 668 immutable dialogue links / 21 source-unlabelled spoken units / 8 verified performance occurrences linked**;
-- verified archive scene ordinals: **1–60**;
-- latest English batch QA: `translations/batch-041-060-qa.json` — **PASS / 20 scenes / 269 units / 156 of 156 immutable dialogue links / 0 inferred speakers / 0 provenance fallbacks**;
-- remaining English work: **archive scenes 61–72 / 12 scenes**.
+- English translation: **72/72 COMPLETE-VERIFIED / 1,181 units / 773 immutable dialogue links / 27 source-unlabelled spoken units / 58 cross-page units / 9/9 verified performance occurrence identities / 0 inferred speakers**;
+- final English QA: `translations/FINAL_TRANSLATION_QA.md` — **PASS**;
+- reader/export: **COMPLETE-VERIFIED / QA PASS** under `editions/en/`;
+- reader manifest: `editions/en/manifest.json`, authoritative-input aggregate `5d94ea51126757f3e0151250d9857a9045434897817ca02ffb72082cac6b1ee8`;
+- reader SHA-256: Markdown `1acd577e7b5e42b5b4f9c09e40668e7b01daa82b6b150fc02caddfa74e14e41a`, HTML `7a23b8f0f8b35692dd15f10708b87f857c8b4c2b3c82ce104ac9926853015330`, JSON `d7d9736b80a33d6d85bc911d0fe815219e1c6bf8d93d725fc4f3b56d9c1ad7ab`;
+- Reading Room payload: **not built**; separate Reading Room implementation repository: **not authorized by this checkpoint**.
 
-Do not reopen or rewrite closed canonical Tamil, scene derivatives, reconciled immutable dialogue records, character/entity mappings, or song/performance records without new direct contradictory source evidence.
-
-## Translation rules
-
-Follow `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` Phase 13 and `docs/SONG_TRANSLATION_GUIDE.md` for verified performance material. Translate only verified source units. Preserve source order, PDF/printed provenance, exact Tamil speaker labels as metadata and immutable dialogue-ID linkage. Source-unlabelled speech remains unassigned. Keep stage directions, written text, songs/performance cues and source-unlabelled speech structurally distinct. Do not invent speakers, missing lyrics, item-level authorship, or synthetic scene-end prose. Preserve a cross-page source unit as one translation unit with all source pages in its provenance.
+Do not reopen or rewrite closed canonical Tamil, scene derivatives, reconciled immutable dialogue records, character/entity mappings, song/performance records, English translation records or verified reader outputs without new direct contradictory source evidence.
 
 ## Exact next activity
 
-> **Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.**
+> **Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized.**

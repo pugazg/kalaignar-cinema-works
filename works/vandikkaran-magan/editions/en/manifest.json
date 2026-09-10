@@ -1,0 +1,58 @@
+{
+  "work_id": "vandikkaran-magan",
+  "edition": "english-reader",
+  "status": "complete-verified",
+  "build_version": 1,
+  "generator": "works/vandikkaran-magan/editions/en/build.py",
+  "source_scan_sha256": "03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253",
+  "translation_authority": "works/vandikkaran-magan/translations/records",
+  "authoritative_input_files": 221,
+  "authoritative_input_aggregate_sha256": "5d94ea51126757f3e0151250d9857a9045434897817ca02ffb72082cac6b1ee8",
+  "archive_scenes": 72,
+  "translation_units": 1181,
+  "unit_kind_counts": {
+    "dialogue": 800,
+    "performance-cue": 10,
+    "song": 53,
+    "stage-direction": 316,
+    "written-text": 2
+  },
+  "immutable_dialogue_records_linked": 773,
+  "source_unlabelled_spoken_units": 27,
+  "cross_page_units": 58,
+  "performance_linked_units": 66,
+  "performance_occurrence_ids_linked": [
+    "vandikkaran-magan-perf-001",
+    "vandikkaran-magan-perf-002",
+    "vandikkaran-magan-perf-003",
+    "vandikkaran-magan-perf-004",
+    "vandikkaran-magan-perf-005",
+    "vandikkaran-magan-perf-006",
+    "vandikkaran-magan-perf-007",
+    "vandikkaran-magan-perf-008",
+    "vandikkaran-magan-perf-009"
+  ],
+  "qa_status": "PASS",
+  "outputs": {
+    "reader-edition.md": {
+      "sha256": "1acd577e7b5e42b5b4f9c09e40668e7b01daa82b6b150fc02caddfa74e14e41a",
+      "bytes": 258198
+    },
+    "reader-edition.html": {
+      "sha256": "7a23b8f0f8b35692dd15f10708b87f857c8b4c2b3c82ce104ac9926853015330",
+      "bytes": 374285
+    },
+    "reader-edition.json": {
+      "sha256": "d7d9736b80a33d6d85bc911d0fe815219e1c6bf8d93d725fc4f3b56d9c1ad7ab",
+      "bytes": 1521372
+    },
+    "PREFLIGHT_QA_REPORT.md": {
+      "sha256": "5ca01336e12ec17b07570879a7afd10a21c7aaaf44b7bce10b249f4b532b5875",
+      "bytes": 870
+    },
+    "QA_REPORT.md": {
+      "sha256": "f0aa1a1d4f7831bba4d414f9a3915901dd183e1efcabb89550659440bcfb66f3",
+      "bytes": 1346
+    }
+  }
+}

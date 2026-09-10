@@ -17,10 +17,6 @@ Variant and voice mappings exist only here as interpretive metadata. `லிங�
 
 ## Downstream
 
-Song/performance is closed at 9/9 source-visible occurrences; English translation is verified through archive scene 5.
+Song/performance is closed at 9/9 source-visible occurrences; English translation is **72/72 COMPLETE-VERIFIED**, and deterministic English reader/export is **COMPLETE-VERIFIED / QA PASS**. This character/entity layer was not rewritten by either downstream phase.
 
-**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.
-
-## Next
-
-English translation is verified through archive scene **60/72**. Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.
+**Next:** Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized.

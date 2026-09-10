@@ -137,17 +137,30 @@ status:
   song_performance_unresolved_item_level_authorship: 6
   song_performance_qa: PASS
   song_performance_qa_path: works/vandikkaran-magan/notes/song-performance-qa.json
-  english_translation: verified-through-scene-060
+  english_translation: complete-verified
   english_translation_index_path: works/vandikkaran-magan/translations/index.json
-  english_translation_verified_scenes: 60
+  english_translation_verified_scenes: 72
   english_translation_batch_size_scenes: 20
-  english_translation_units: 1009
-  english_translation_unit_kind_counts: dialogue=689,performance-cue=8,song=44,stage-direction=267,written-text=1
-  english_translation_immutable_dialogue_links: 668
-  english_translation_source_unlabelled_spoken_units: 21
-  english_translation_performance_occurrence_links: 8
-  english_translation_latest_batch_qa_path: works/vandikkaran-magan/translations/batch-041-060-qa.json
-  english_translation_latest_batch_review_path: works/vandikkaran-magan/translations/BATCH_041_060_REVIEW.md
-  reader_export: blocked
-  reading_room_integration: blocked
-next_action: "Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities."
+  english_translation_units: 1181
+  english_translation_unit_kind_counts: dialogue=800,performance-cue=10,song=53,stage-direction=316,written-text=2
+  english_translation_immutable_dialogue_links: 773
+  english_translation_source_unlabelled_spoken_units: 27
+  english_translation_performance_occurrence_links: 9
+  english_translation_cross_page_units: 58
+  english_translation_latest_batch_qa_path: works/vandikkaran-magan/translations/batch-061-072-qa.json
+  english_translation_latest_batch_review_path: works/vandikkaran-magan/translations/BATCH_061_072_REVIEW.md
+  english_translation_final_qa_path: works/vandikkaran-magan/translations/FINAL_TRANSLATION_QA.md
+  reader_export: complete-verified
+  english_reader_preflight: complete-pass
+  english_reader_preflight_report_path: works/vandikkaran-magan/editions/en/PREFLIGHT_QA_REPORT.md
+  english_reader_edition_directory: works/vandikkaran-magan/editions/en
+  english_reader_qa: PASS
+  english_reader_qa_path: works/vandikkaran-magan/editions/en/QA_REPORT.md
+  english_reader_qa_units: 1181
+  english_reader_qa_dialogue_links: 773
+  english_reader_qa_source_unlabelled_spoken_units: 27
+  english_reader_qa_cross_page_units: 58
+  english_reader_qa_song_occurrence_links: 9
+  english_reader_manifest_path: works/vandikkaran-magan/editions/en/manifest.json
+  reading_room_integration: ready-next
+next_action: "Build and verify the deterministic source-linked Reading Room payload for `வண்டிக்காரன் மகன்` from the closed 72-scene Tamil/source structure and the complete-verified 1,181-unit English reader/export. Preserve source scene IDs and PDF/printed provenance; retain all 773 immutable dialogue links, 27 source-unlabelled spoken units, 58 cross-page units and all 9 verified song/performance occurrence identities; preserve unresolved item-level lyric authorship; do not modify closed Tamil, scene, dialogue, character, song/performance or translation authorities; and do not modify the separate Reading Room implementation repository unless explicitly authorized."

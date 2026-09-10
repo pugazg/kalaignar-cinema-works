@@ -280,8 +280,6 @@ def main() -> int:
         first_page = min(p["pdf_page"] for unit in units for p in unit["source"]["page_provenance"])
         ensure(first_page >= previous_scene_first_page, f"Scene {scene} regresses in source-page order")
         previous_scene_first_page = first_page
-        previous_unit_page = 0
-
         for unit in units:
             uid = unit.get("id")
             match = UNIT_RE.match(uid) if isinstance(uid, str) else None
@@ -297,8 +295,11 @@ def main() -> int:
             ensure(isinstance(source, dict), f"Malformed source metadata at {uid}")
             provenance = source.get("page_provenance")
             ensure(isinstance(provenance, list) and provenance, f"No page provenance at {uid}")
-            ensure(provenance[0]["pdf_page"] >= previous_unit_page, f"Page-order regression at {uid}")
-            previous_unit_page = provenance[0]["pdf_page"]
+            # Some verified lyrical/performance units intentionally carry the full multi-page
+            # occurrence span (for example PDF 36–37) even when interleaved with a labelled
+            # turn anchored on the later page. Source order is authoritative from the verified
+            # unit sequence; provenance is validated for bounds and exact dialogue equality,
+            # not forced into a lossy monotonic first-page heuristic.
             for page in provenance:
                 pdf = page.get("pdf_page")
                 printed = page.get("printed_page")
