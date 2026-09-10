@@ -11,21 +11,21 @@ The rendered scan is the controlling source. First-pass transcription and the fu
 - page records PDF 4–90: `visual-verified`;
 - draft page records: **0**;
 - open uncertainty markers: **0 recorded**;
-- dedicated historical-glyph verification: **PDF 4–63 / 60 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **27**;
+- dedicated historical-glyph verification: **PDF 4–78 / 75 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **12**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
 - final visual verification: **NOT-STARTED**;
-- active dedicated glyph batch size: **15 source pages per iteration**.
+- active dedicated glyph batch size: **15 source pages per iteration; final remainder may be shorter**.
 
 The dedicated glyph phase must use enlarged source pixels and inspect only the mandated historical Tamil glyph families occurrence by occurrence. Never global-replace or normalize surrounding source language.
 
 ## Latest dedicated glyph batch
 
-PDF **49–63** is complete. Every target-family occurrence on those fifteen pages was re-read against the controlling scan. Representative confirmations include `சடையனை / விங்கனைப்`, `வீட்டுப்பிள்ளை / மாப்பிள்ளை / தலையா`, `என்னைத் / தலைப்பகுதி`, `புண்ணை / அன்னைக்கே`, `தகப்பனார் / வலைவிரிப்பார்த்து / தலைமயிரைப்`, `சொன்னாய் / இலை / காலை`, `உன்னை / மகளைப் / விங்கனைத்`, `தோல்விகளையும் / அவளைப்`, `சேலைத் / பூனையைவிட / உன்னால / கண்ணாயிரமும்`, `கட்டளையாம்மா / தன்னை`, `கலைந்தால் / தானியங்களை / எத்தனையாவது`, `முன்னால் / வில்லாவளைக்கப் / மாப்பிள்ளை`, and `பதினைந்து / விலையுயர்ந்த / நூறாவது`.
+PDF **64–78** is complete. Every target-family occurrence on those fifteen pages was re-read against the controlling scan. Representative confirmations include `மாப்பிள்ளை / கிளிஞ்சலைக் / உன்னை`, `ஆணையிட்டுச் / கலைச்சுக் / கண்ணாயிரம் / பெண்ணைத்`, `பின்னையிட்ட / அன்னையிட்ட`, `சொன்னால் / கல்யாணம்`, `காவலனைத் / திருவிளையாடலைப்`, `கருணை / மணலைக் / சாய்கிறார்`, `மாப்பிள்ளே / வயிற்றுப்பிள்ளையா / வேலை`, `கண்ணைக் / அவளைப் / காளை`, `சொன்னா`, `கண்ணைத் / அத்தனைக்கும்`, `ஆலையில்`, `யானைத் / பேரப்பிள்ளே / காளையைப்`, `நாளைக்கு`, `உங்களையா / இல்லையே / உன்னையும்`, and `மனைவிக்கு`.
 
 No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
 ## Next
 
-Run dedicated historical-glyph verification on PDF **64–78** as the next fifteen-page batch. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **75/87**, set the final remainder to PDF **79–90**, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.
+Run dedicated historical-glyph verification on PDF **79–90** as the final twelve-page remainder. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **87/87**, close the historical-glyph phase, commit/push, then transition to final full visual verification.
