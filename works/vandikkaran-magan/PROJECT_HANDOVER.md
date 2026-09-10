@@ -51,27 +51,26 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **PDF 4–78 / 75 of 87 COMPLETE-VERIFIED**;
-- visually verified contiguous range: **PDF 4–78**;
-- pages still awaiting visual verification: **12**;
+- visual verification: **PDF 4–83 / 80 of 87 COMPLETE-VERIFIED**;
+- visually verified contiguous range: **PDF 4–83**;
+- pages still awaiting visual verification: **7**;
 - historical-glyph verification: **0 / NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Latest visual-verification batch — PDF 74–78
+## Latest visual-verification batch — PDF 79–83
 
 - all five pages were re-read directly from enlarged source pixels;
-- PDF 74 preserves the continuation of the source-visible song/performance block without using this phase to close historical-glyph identity;
-- PDF 75 restores source `சங்கிலே`;
-- PDF 76 restores source `போய்ப் பாத்துட்டு`;
-- PDF 77 restores `தெரிஞ்சுக்கிடுவேன்`, `இல்லியே`, `விஷமத்தனம்`, `உத்தியோகத்தைச்`, and stage-direction `திருப்பிக்கொண்டு`;
-- PDF 78 restores source-spaced `இந்த நேரத்தில்` and `கவனிச்சுக்கிட்டுத் தானிருந்தேன்`;
-- scene starts in the batch are `49`, `50`, `51`, and `52`;
+- PDF 79 restores `ஏண்டா`, `கண்ணைத் திறக்கிறது ரொம்பகஷ்டம்`, `ஆனா ஒரு நாளுக்குத் திறக்கத்தான் போகிறேன்`, `இவ்வளவுநாளா`, and `ஜம்புலிங்க`;
+- PDF 80 restores `ஊரே வளர்ந்துச்சு`, `உங்களைப் போல`, and `உங்களைச்`;
+- PDF 81 restores `யாருக்கென்று`, `ஓட்டைக் குடிசைப்`, source heading dash forms for `53 / 53 எ / 53 பி / 53 சி`, `கட்டளைப்படி`, and `அழகி ஒன்று`;
+- PDF 82 preserves the source-visible song/performance and fire-sequence text;
+- PDF 83 restores `அரிவாள் மனைக்கட்டையாலடிக்கப்போக`, `ஆனபிறகு`, and `ஏற்பட்டதில்லே`, with source `53 டி` preserved;
 - all five records are now `visual-verified`;
 - dedicated historical-glyph verification remains NOT-STARTED.
 
 ## Exact next activity
 
-> **Visually verify PDF 79–83 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 80/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 84–88. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
+> **Visually verify PDF 84–88 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 85/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 89–90. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
