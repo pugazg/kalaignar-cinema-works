@@ -1124,8 +1124,8 @@
     "structured_derivatives": {
       "scene_text_derivatives": "complete-verified",
       "dialogue_index": "complete-verified",
-      "character_entity_index": "blocked",
-      "song_performance_authorship_gate": "not-started",
+      "character_entity_index": "ready-next",
+      "song_performance_authorship_gate": "blocked",
       "english_translation": "not-started",
       "reader_export": "not-started",
       "reading_room_integration": "not-started",
