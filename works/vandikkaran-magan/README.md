@@ -56,8 +56,8 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - remaining visual-verification pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–18 / 15 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **72**;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–23 / 20 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **67**;
 - legacy prospective glyph checks from drafting do not close the dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
@@ -65,10 +65,10 @@ Do not interleave phases.
 
 ## Latest dedicated historical-glyph batch
 
-PDF **14–18** is complete under the dedicated glyph gate. Representative confirmed forms include `மாப்பிள்ளை`, `பிள்ளைங்க`, `கல்லை`, `நிழலை`, `அவனைத்`, `குழந்தைகளை`, `தலைமயிரைப்`, `மயிலை`, `காளை`, `கவலைப்படாதே`, `உன்னைக்`, `உன்னை`, `சொன்னாய்`, `கண்ணாடியை`, `லீனா`, `அவளைப்`, `சரியில்லை`, and `எத்தனை`.
+PDF **19–23** is complete under the dedicated glyph gate. Representative confirmed forms include `போறவங்களையெல்லாம்`, `இளைய`, `இல்லை`, `அலையுற`, `போனா`, `எவனாயிருந்தாலும்`, `பண்ணினார்`, `லிங்கனை`, `தலையை`, `சென்றாரு`, `கொன்றாரு`, `உன்னைக்`, `பெண்ணா`, `இளையராணி`, `மாலை`, and `காலையில`.
 
 Canonical page-text glyph corrections in this batch: **0**. Cumulative dedicated glyph corrections: **0**. Unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 19–23 as the next five-page batch. Inspect every target-family occurrence directly against enlarged source pixels, record source evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 20/87 and next batch PDF 24–28, commit/push, and continue through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.**
+> **Run dedicated historical-glyph verification on PDF 24–28 as the next five-page batch. Inspect every target-family occurrence directly against enlarged source pixels, record source evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 25/87 and next batch PDF 29–33, commit/push, and continue through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.**
