@@ -15,6 +15,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Diagnose source-labelled action-only rows
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          p=Path('works/vandikkaran-magan/notes/dialogue-structural-collision-audit.json')
+          rows=json.loads(p.read_text(encoding='utf-8'))['collisions']
+          rx=re.compile(r'^(?:\([^\n]*\)|\[[^\n]*\]|\{[^\n]*\})$')
+          pure=[x for x in rows if rx.fullmatch(x['text'].strip())]
+          print('PURE_ACTION_COUNT',len(pure))
+          for x in pure: print(x['pdf_page'],x['speaker_label'],x['raw'])
+          PY
       - name: Repair reconciliation-script scope and reconcile immutable dialogue authority
         run: |
           python - <<'PY'
