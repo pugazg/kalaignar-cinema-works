@@ -103,3 +103,30 @@ Every occurrence of the mandated historical-glyph families on PDF 19–23 was in
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**;
 - next dedicated batch: **PDF 24–28**.
+
+### Batch 5 — PDF 24–33 — PASS / 30 of 87
+
+Per the user's revised cadence, the dedicated historical-glyph phase now proceeds in **10-page iterations**. Every occurrence of the mandated historical-glyph families on PDF 24–33 was re-read against enlarged controlling-source pixels. The source shapes resolve to the Unicode identities already present in the visual-verified transcription. No ordinary wording, punctuation, scene structure, or performance layout was reopened.
+
+| PDF | Printed | Target-family evidence re-read from source | Result |
+|---:|:---:|---|---|
+| 24 | 23 | `காலையிலே`, `பரவாயில்லை` (`லை`); `மனுஷனைக்` (`னை`) | PASS — no glyph correction |
+| 25 | 24 | `வயசானவனு` (`னா`); `கண்ணாயிரம்` (`ணா`); `கண்ணைத்`, `கண்ணைத்திறந்து` (`ணை`) | PASS — no glyph correction |
+| 26 | 25 | `கண்ணாயிரம்` (`ணா`); `என்னைப்பன்` (`னை`); `கண்ணை` (`ணை`) | PASS — no glyph correction |
+| 27 | 26 | `கண்ணாயிரம்` (`ணா`); `தலைமயிரைப்` (`லை`); `என்னையா`, `உன்னை`, `அவனைத்தடுத்து`, `காளிங்கனைப்` (`னை`) | PASS — no glyph correction |
+| 28 | 27 | `வயசான` (`னா`); complete page re-read for remaining target families | PASS — no glyph correction |
+| 29 | 28 | `காலை` (`லை`); `குதிரைகளைப்` (`ளை`) | PASS — no glyph correction |
+| 30 | 29 | `உன்னையும்` (`னை`); `இன்னொரு` (`னொ`) | PASS — no glyph correction |
+| 31 | 30 | `இன்னொரு` (`னொ`); `நொண்டியபடியே` (`ணொ`); `இன்னைக்கு` (`னை`) | PASS — no glyph correction |
+| 32 | 31 | `அவனைப்பிடிச்சு`, `குடிகாரனை`, `உன்னை`, `தகப்பனை` (`னை`); `பிள்ளை`, `பிள்ளைமேலயா`, `பிள்ளையோ` (`ளை`) | PASS — no glyph correction |
+| 33 | 32 | repeated `பச்சிலைச்சாறு / பச்சிலையைப் / பச்சிலை` (`லை`) | PASS — no glyph correction |
+
+### Batch 5 disposition
+
+- dedicated pages verified: **30 / 87**;
+- contiguous dedicated range: **PDF 4–33**;
+- source-supported glyph-identity corrections to canonical page text in this batch: **0**;
+- cumulative canonical glyph corrections in the dedicated phase: **0**;
+- unresolved glyph holds: **0**;
+- dedicated batch size from this point forward: **10 source pages per iteration**;
+- next dedicated batch: **PDF 34–43**.
