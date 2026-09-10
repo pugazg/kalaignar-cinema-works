@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / final dedicated historical-glyph verification PDF 79–90
+# Next Chat Prompt — வண்டிக்காரன் மகன் / final full visual verification PDF 4–90
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -15,12 +15,12 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 
 ## Mandatory user workflow
 
-1. First-pass transcription — 5 pages, commit/push, repeat through PDF 90.
-2. Visual verification — 5 pages, commit/push, repeat through PDF 90.
-3. Historical-glyph verification — **15 pages per iteration from PDF 34 onward; final remainder may be shorter**, commit/push, repeat through PDF 90.
-4. Final visual verification — full-work final source pass.
+1. First-pass transcription — **COMPLETE**.
+2. Visual verification — **COMPLETE**.
+3. Historical-glyph verification — **COMPLETE / PASS**.
+4. Final visual verification — **NEXT / full-work final source pass**.
 
-Do not interleave phases.
+Do not interleave closed phases. Reopen a closed phase only if the final visual pass itself exposes a genuine direct-source contradiction.
 
 ## Durable state
 
@@ -29,28 +29,19 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–78 / 75 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **12**;
+- dedicated historical-glyph verification: **COMPLETE / PASS — PDF 4–90 / 87 of 87 VERIFIED**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
-- final visual verification: **NOT-STARTED**;
+- final visual verification: **NOT-STARTED — 0 / 87**;
 - open uncertainty markers: **0**;
-- derivatives: **BLOCKED**.
+- derivatives: **BLOCKED** pending final visual closure.
 
 ## Latest dedicated glyph batch
 
-PDF **64–78** was independently re-read as a 15-page dedicated historical-glyph iteration. Every occurrence of the mandated families was checked directly against controlling-source pixels. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
+PDF **79–90 / final 12-page remainder** was re-read directly from the controlling source. Every occurrence of the mandated families `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was checked occurrence by occurrence. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
-Representative confirmations include `மாப்பிள்ளை / கிளிஞ்சலைக் / உன்னை`; `ஆணையிட்டுச் / கலைச்சுக் / கண்ணாயிரம் / பெண்ணைத்`; `பின்னையிட்ட / அன்னையிட்ட`; `சொன்னால் / கல்யாணம்`; `காவலனைத் / திருவிளையாடலைப்`; `கருணை / மணலைக் / சாய்கிறார்`; `மாப்பிள்ளே / வயிற்றுப்பிள்ளையா / வேலை / பெண்ணை`; `கண்ணைக் / அவளைப் / காளை`; `சொன்னா`; `கண்ணைத் / அத்தனைக்கும்`; `ஆலையில்`; `யானைத் / பேரப்பிள்ளே / காளையைப்`; `நாளைக்கு`; `உங்களையா / இல்லையே / உன்னையும்`; and `மனைவிக்கு`.
-
-## Dedicated historical-glyph rule
-
-Mandatory families:
-
-`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
-
-Inspect enlarged source pixels occurrence by occurrence. Never global-replace. Decode glyph identity first, then preserve source spelling, grammar, punctuation, and layout. Do not reopen ordinary visual-fidelity decisions unless glyph inspection itself proves a source discrepancy.
+Representative confirmations include `மனைவிக்குத் / கண்ணைத் / மண்ணைத் / சதிவேலைக்கு`; `உங்களைப் / உங்களைச் / அவளை`; `காலையில் / பொன்னாடம் / கண்ணாயிரம் / காளையை`; `காளிங்கராயனை / அரிவாள்மனையை / அவனை`; `எத்தனையோ`; `சிலையைத் / கயிறாக / வளைப்பாயோ / எரிமலை / பிள்ளை / அன்னையைக்`; `அணைச்சு / வேலை / இல்லை / காளை / தானியங்களைப்`; `காளையைக் / மாலை`; film-credit `அண்ணா / கலைஞர்`; and final credit-page `அண்ணா`.
 
 ## Exact next activity
 
-> **Process PDF 79–90 as the final twelve-page dedicated historical-glyph remainder. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 87/87 and close the historical-glyph phase, commit/push the remainder to `main`, then synchronize checkpoint docs and transition to final full visual verification.**
+> **Run the final full visual verification across PDF 4–90 as the full-work closing source pass. Re-read every scoped page record against the controlling scan, confirm source wording, punctuation, speaker labels, scene headings, location captions, song/performance layout, credit matter, directly visible back-cover text, and already-closed historical-glyph identities. Make only direct-source-supported corrections; do not silently modernize or normalize. When the full pass is complete, update `transcription/index.json` to `final_visual_verified_pages: 87`, mark the final visual phase COMPLETE/PASS, synchronize all checkpoint docs, and only then consider unblocking structured derivatives.**
