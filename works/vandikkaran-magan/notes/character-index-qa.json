@@ -1,0 +1,81 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "character-entity-index",
+  "status": "PASS",
+  "dialogue_records_expected": 744,
+  "dialogue_records_mapped": 744,
+  "distinct_exact_source_labels_expected": 38,
+  "distinct_exact_source_labels_mapped": 38,
+  "entities": 32,
+  "entity_type_counts": {
+    "collective": 3,
+    "character": 15,
+    "role": 14
+  },
+  "verified_entities": 32,
+  "review_entities": 0,
+  "unresolved_entities": 0,
+  "unmapped_labels": [],
+  "unmapped_dialogue_records": [],
+  "duplicate_dialogue_record_dispositions": 0,
+  "dialogue_records_modified": false,
+  "named_variant_merges": {
+    "காளிங்கராயன்": [
+      "காளிங்",
+      "காளிங்க"
+    ],
+    "சொக்கலிங்கம்": [
+      "சொக்",
+      "சொக்க"
+    ],
+    "ஜம்புலிங்க பூபதி": [
+      "ஜமீன்",
+      "ஜமீன்தார்"
+    ]
+  },
+  "source_explicit_voice_aliases": {
+    "கண்ணாயிரம்": [
+      "கண்ணாயிரத்தின் குரல்"
+    ],
+    "சடையன்": [
+      "சடையன் குரல்"
+    ],
+    "விங்கன்": [
+      "விங்கன் குரல்"
+    ]
+  },
+  "generic_labels_kept_categorical": [
+    "ஆட்கள்",
+    "இன்னொருவன்",
+    "ஊர்ப்பெரியவர்",
+    "எல்லோரும்",
+    "ஒரு சிறுமி",
+    "ஒருத்தி",
+    "ஒருவன்",
+    "ஒருவர்",
+    "கடைக்",
+    "காவலன்",
+    "சிறுமி",
+    "தரகர்",
+    "புரோகிதர்",
+    "புலவர்",
+    "பெண்",
+    "மக்கள்",
+    "மற்றொரு சிறுவன்"
+  ],
+  "distinct_named_characters_kept_separate": [
+    "ஜம்பு / ஜம்புலிங்க பூபதி",
+    "லிங்கன் / விங்கன்"
+  ],
+  "checks": {
+    "dialogue_gate_complete_verified": true,
+    "all_38_exact_labels_inventoried": true,
+    "all_38_exact_labels_mapped_once": true,
+    "all_744_dialogue_records_mapped_once": true,
+    "entity_counts_sum_to_744": true,
+    "generic_roles_collectives_not_promoted_to_named_people": true,
+    "named_voice_labels_linked_only_by_source_explicit_possessive_identity": true,
+    "upstream_dialogue_mutation_required": false
+  },
+  "next_activity": "Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings."
+}

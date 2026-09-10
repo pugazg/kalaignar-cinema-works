@@ -1,0 +1,43 @@
+{
+  "work_id": "vandikkaran-magan",
+  "status": "complete-verified",
+  "dialogue_index": "../dialogues/index.json",
+  "schema": "schema.json",
+  "label_preflight": "labels-preflight.json",
+  "label_inventory": "labels-inventory.json",
+  "record_dispositions": "record-dispositions.json",
+  "entities": "entities.json",
+  "qa": "../notes/character-index-qa.json",
+  "dialogue_records_source": 744,
+  "distinct_source_labels": 38,
+  "entity_count": 32,
+  "entity_type_counts": {
+    "collective": 3,
+    "character": 15,
+    "role": 14
+  },
+  "verified_entities": 32,
+  "review_entities": 0,
+  "unresolved_entities": 0,
+  "verified_labels": 38,
+  "review_labels": 0,
+  "unresolved_labels": 0,
+  "label_coverage": "38/38",
+  "dialogue_record_coverage": "744/744",
+  "remaining_unmapped_labels": 0,
+  "remaining_unmapped_records": 0,
+  "record_aware_labels": [],
+  "dialogue_records_modified": false,
+  "source_variant_labels_preserved": [
+    "காளிங்",
+    "காளிங்க",
+    "சொக்",
+    "சொக்க",
+    "ஜமீன்",
+    "ஜமீன்தார்",
+    "கண்ணாயிரத்தின் குரல்",
+    "சடையன் குரல்",
+    "விங்கன் குரல்"
+  ],
+  "next_activity": "Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings."
+}

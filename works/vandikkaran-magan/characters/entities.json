@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "vandikkaran-magan-char-aadkal-collective",
+    "preferred_name_ta": "ஆட்கள்",
+    "entity_type": "collective",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஆட்கள்"
+    ],
+    "scenes": [
+      53,
+      69
+    ],
+    "source_scene_ids": [
+      "41",
+      "53-டி"
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "vandikkaran-magan-s053-d002",
+      "vandikkaran-magan-s069-d004"
+    ],
+    "notes": "Generic source collective; grouping is categorical and does not assert one fixed group across scenes."
+  },
+  {
+    "id": "vandikkaran-magan-char-david",
+    "preferred_name_ta": "டேவிட்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "டேவிட்"
+    ],
+    "scenes": [
+      6,
+      9
+    ],
+    "source_scene_ids": [
+      "5",
+      "8"
+    ],
+    "dialogue_record_count": 10,
+    "supporting_records": [
+      "vandikkaran-magan-s006-d001",
+      "vandikkaran-magan-s006-d003",
+      "vandikkaran-magan-s006-d005"
+    ],
+    "notes": "Named character; scene 5 stage direction identifies டேவிட்துரை."
+  },
+  {
+    "id": "vandikkaran-magan-char-ellorum-collective",
+    "preferred_name_ta": "எல்லோரும்",
+    "entity_type": "collective",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "எல்லோரும்"
+    ],
+    "scenes": [
+      8
+    ],
+    "source_scene_ids": [
+      "7"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s008-d008"
+    ],
+    "notes": "Generic source collective; no individual identities are inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-innoruvan-role",
+    "preferred_name_ta": "இன்னொருவன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "இன்னொருவன்"
+    ],
+    "scenes": [
+      8
+    ],
+    "source_scene_ids": [
+      "7"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s008-d003"
+    ],
+    "notes": "Generic source role; no named identity is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-jambu",
+    "preferred_name_ta": "ஜம்பு",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஜம்பு"
+    ],
+    "scenes": [
+      29,
+      30
+    ],
+    "source_scene_ids": [
+      "23",
+      "24"
+    ],
+    "dialogue_record_count": 5,
+    "supporting_records": [
+      "vandikkaran-magan-s029-d002",
+      "vandikkaran-magan-s029-d004",
+      "vandikkaran-magan-s029-d006"
+    ],
+    "notes": "Named character at டேவிட் துரை’s bungalow; kept distinct from ஜம்புலிங்க பூபதி."
+  },
+  {
+    "id": "vandikkaran-magan-char-jambulingam-boopathi",
+    "preferred_name_ta": "ஜம்புலிங்க பூபதி",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஜமீன்",
+      "ஜமீன்தார்"
+    ],
+    "scenes": [
+      1,
+      4,
+      5,
+      8,
+      10,
+      13,
+      22,
+      26,
+      39,
+      41,
+      43,
+      47,
+      49,
+      50,
+      52,
+      55,
+      56,
+      61,
+      62,
+      64,
+      70,
+      71
+    ],
+    "source_scene_ids": [
+      "38",
+      "1",
+      "4",
+      "4-எ",
+      "7",
+      "9",
+      "11",
+      "18",
+      "21",
+      "29",
+      "30",
+      "32",
+      "35",
+      "37",
+      "40",
+      "42-எ",
+      "43",
+      "49",
+      "50",
+      "52",
+      "54",
+      "55"
+    ],
+    "dialogue_record_count": 128,
+    "supporting_records": [
+      "vandikkaran-magan-s050-d017",
+      "vandikkaran-magan-s001-d007",
+      "vandikkaran-magan-s001-d009"
+    ],
+    "notes": "Scene 38 uses source label `ஜமீன்` for the same father addressed by உமா as `அப்பா`; scene 1 supplies the full name `ஜமீன்தார் ஜம்புலிங்க பூபதி`. Scene 1 explicitly prints `ஜமீன்தார் ஜம்புலிங்க பூபதி`; the role-form speaker label remains immutable in dialogue."
+  },
+  {
+    "id": "vandikkaran-magan-char-kaavalan-role",
+    "preferred_name_ta": "காவலன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "காவலன்"
+    ],
+    "scenes": [
+      54
+    ],
+    "source_scene_ids": [
+      "42"
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "vandikkaran-magan-s054-d002",
+      "vandikkaran-magan-s054-d004"
+    ],
+    "notes": "Generic guard role; no named identity is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-kadaikaran-role",
+    "preferred_name_ta": "கடைக்காரன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "கடைக்"
+    ],
+    "scenes": [
+      52
+    ],
+    "source_scene_ids": [
+      "40"
+    ],
+    "dialogue_record_count": 3,
+    "supporting_records": [
+      "vandikkaran-magan-s052-d002",
+      "vandikkaran-magan-s052-d008",
+      "vandikkaran-magan-s052-d011"
+    ],
+    "notes": "Source abbreviation `கடைக்` is retained in dialogue; scene 40 context explicitly identifies the role as `கடைக்காரன்`."
+  },
+  {
+    "id": "vandikkaran-magan-char-kalingarayan",
+    "preferred_name_ta": "காளிங்கராயன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "காளிங்",
+      "காளிங்க"
+    ],
+    "scenes": [
+      1,
+      13,
+      15,
+      16,
+      18,
+      22,
+      41,
+      43,
+      49,
+      50,
+      52,
+      61,
+      62,
+      63,
+      64,
+      69
+    ],
+    "source_scene_ids": [
+      "1",
+      "11",
+      "13",
+      "14",
+      "15",
+      "18",
+      "30",
+      "32",
+      "37",
+      "38",
+      "40",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53-டி"
+    ],
+    "dialogue_record_count": 63,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d004",
+      "vandikkaran-magan-s001-d008",
+      "vandikkaran-magan-s001-d010"
+    ],
+    "notes": "Scene 1 names `காளிங்கராயன்` in the stage direction and addresses him as `காளிங்கராயா`; abbreviated source label `காளிங்` is retained. Later source label variant for the same காளிங்கராயன் established in scene 1; exact source label is retained."
+  },
+  {
+    "id": "vandikkaran-magan-char-kannayiram",
+    "preferred_name_ta": "கண்ணாயிரம்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "கண்ணாயிரத்தின் குரல்",
+      "கண்ணாயிரம்"
+    ],
+    "scenes": [
+      16,
+      18,
+      52,
+      53,
+      58
+    ],
+    "source_scene_ids": [
+      "14",
+      "15",
+      "40",
+      "41",
+      "45-46"
+    ],
+    "dialogue_record_count": 12,
+    "supporting_records": [
+      "vandikkaran-magan-s016-d001",
+      "vandikkaran-magan-s016-d003",
+      "vandikkaran-magan-s016-d005"
+    ],
+    "notes": "Source label explicitly identifies this as கண்ணாயிரம்’s voice; the voice label remains unchanged upstream. Named recurring character."
+  },
+  {
+    "id": "vandikkaran-magan-char-kokila",
+    "preferred_name_ta": "கோகிலா",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "கோகிலா"
+    ],
+    "scenes": [
+      13,
+      14,
+      20,
+      23,
+      24,
+      25,
+      36,
+      37,
+      39,
+      40,
+      63,
+      64,
+      69
+    ],
+    "source_scene_ids": [
+      "11",
+      "12",
+      "16-எ",
+      "19",
+      "20",
+      "20-எ",
+      "26",
+      "27",
+      "29",
+      "29-எ",
+      "51",
+      "52",
+      "53-டி"
+    ],
+    "dialogue_record_count": 64,
+    "supporting_records": [
+      "vandikkaran-magan-s013-d016",
+      "vandikkaran-magan-s013-d022",
+      "vandikkaran-magan-s014-d001"
+    ],
+    "notes": "Named recurring character."
+  },
+  {
+    "id": "vandikkaran-magan-char-leena",
+    "preferred_name_ta": "லீனா",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "லீனா"
+    ],
+    "scenes": [
+      10
+    ],
+    "source_scene_ids": [
+      "9"
+    ],
+    "dialogue_record_count": 6,
+    "supporting_records": [
+      "vandikkaran-magan-s010-d002",
+      "vandikkaran-magan-s010-d004",
+      "vandikkaran-magan-s010-d006"
+    ],
+    "notes": "Named recurring character."
+  },
+  {
+    "id": "vandikkaran-magan-char-lingan",
+    "preferred_name_ta": "லிங்கன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "லிங்கன்"
+    ],
+    "scenes": [
+      12,
+      13,
+      14
+    ],
+    "source_scene_ids": [
+      "10-எ",
+      "11",
+      "12"
+    ],
+    "dialogue_record_count": 23,
+    "supporting_records": [
+      "vandikkaran-magan-s012-d002",
+      "vandikkaran-magan-s012-d005",
+      "vandikkaran-magan-s012-d007"
+    ],
+    "notes": "Named recurring character; source context treats லிங்கன் as distinct from விங்கன், so the two are not collapsed."
+  },
+  {
+    "id": "vandikkaran-magan-char-makkal-collective",
+    "preferred_name_ta": "மக்கள்",
+    "entity_type": "collective",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மக்கள்"
+    ],
+    "scenes": [
+      1,
+      50
+    ],
+    "source_scene_ids": [
+      "1",
+      "38"
+    ],
+    "dialogue_record_count": 6,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d001",
+      "vandikkaran-magan-s001-d003",
+      "vandikkaran-magan-s001-d006"
+    ],
+    "notes": "Generic source collective; no individual identities are inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-maragatham",
+    "preferred_name_ta": "மரகதம்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மரகதம்"
+    ],
+    "scenes": [
+      5,
+      12,
+      13,
+      18,
+      22,
+      25,
+      35,
+      36,
+      39,
+      40,
+      64,
+      69
+    ],
+    "source_scene_ids": [
+      "4-எ",
+      "10-எ",
+      "11",
+      "15",
+      "18",
+      "20-எ",
+      "25",
+      "26",
+      "29",
+      "29-எ",
+      "52",
+      "53-டி"
+    ],
+    "dialogue_record_count": 62,
+    "supporting_records": [
+      "vandikkaran-magan-s005-d002",
+      "vandikkaran-magan-s005-d004",
+      "vandikkaran-magan-s005-d006"
+    ],
+    "notes": "Named recurring character."
+  },
+  {
+    "id": "vandikkaran-magan-char-mattroru-siruvan-role",
+    "preferred_name_ta": "மற்றொரு சிறுவன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மற்றொரு சிறுவன்"
+    ],
+    "scenes": [
+      8
+    ],
+    "source_scene_ids": [
+      "7"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s008-d002"
+    ],
+    "notes": "Generic source child role; kept separate from other generic child labels."
+  },
+  {
+    "id": "vandikkaran-magan-char-muniyan",
+    "preferred_name_ta": "முனியன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "முனியன்"
+    ],
+    "scenes": [
+      35
+    ],
+    "source_scene_ids": [
+      "25"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s035-d015"
+    ],
+    "notes": "Named character."
+  },
+  {
+    "id": "vandikkaran-magan-char-oorperiyavar-role",
+    "preferred_name_ta": "ஊர்ப்பெரியவர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஊர்ப்பெரியவர்"
+    ],
+    "scenes": [
+      55
+    ],
+    "source_scene_ids": [
+      "42-எ"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s055-d005"
+    ],
+    "notes": "Generic source community-elder role; no personal name is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-oru-sirumi-role",
+    "preferred_name_ta": "ஒரு சிறுமி",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஒரு சிறுமி"
+    ],
+    "scenes": [
+      8
+    ],
+    "source_scene_ids": [
+      "7"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s008-d004"
+    ],
+    "notes": "Generic source role; preserved separately from `சிறுமி`."
+  },
+  {
+    "id": "vandikkaran-magan-char-oruthi-role",
+    "preferred_name_ta": "ஒருத்தி",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஒருத்தி"
+    ],
+    "scenes": [
+      60
+    ],
+    "source_scene_ids": [
+      "48"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s060-d002"
+    ],
+    "notes": "Generic source female role; no personal identity is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-oruvan-role",
+    "preferred_name_ta": "ஒருவன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஒருவன்"
+    ],
+    "scenes": [
+      1,
+      8,
+      60
+    ],
+    "source_scene_ids": [
+      "1",
+      "7",
+      "48"
+    ],
+    "dialogue_record_count": 5,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d002",
+      "vandikkaran-magan-s001-d005",
+      "vandikkaran-magan-s008-d005"
+    ],
+    "notes": "Generic source male role reused contextually; entity is a role category, not one continuing individual."
+  },
+  {
+    "id": "vandikkaran-magan-char-oruvar-role",
+    "preferred_name_ta": "ஒருவர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ஒருவர்"
+    ],
+    "scenes": [
+      50
+    ],
+    "source_scene_ids": [
+      "38"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s050-d006"
+    ],
+    "notes": "Generic source role; no personal identity is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-pen-role",
+    "preferred_name_ta": "பெண்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பெண்"
+    ],
+    "scenes": [
+      1
+    ],
+    "source_scene_ids": [
+      "1"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d014"
+    ],
+    "notes": "Generic source female role; no personal identity is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-pulavar-role",
+    "preferred_name_ta": "புலவர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "புலவர்"
+    ],
+    "scenes": [
+      1,
+      50,
+      52,
+      53,
+      55
+    ],
+    "source_scene_ids": [
+      "1",
+      "38",
+      "40",
+      "41",
+      "42-எ"
+    ],
+    "dialogue_record_count": 15,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d017",
+      "vandikkaran-magan-s001-d019",
+      "vandikkaran-magan-s001-d021"
+    ],
+    "notes": "Recurring unnamed poet/father role; no personal name is supplied by the source dialogue layer."
+  },
+  {
+    "id": "vandikkaran-magan-char-purohithar-role",
+    "preferred_name_ta": "புரோகிதர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "புரோகிதர்"
+    ],
+    "scenes": [
+      43
+    ],
+    "source_scene_ids": [
+      "32"
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "vandikkaran-magan-s043-d003"
+    ],
+    "notes": "Generic priest role; no personal name is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-sadaiyan",
+    "preferred_name_ta": "சடையன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சடையன்",
+      "சடையன் குரல்"
+    ],
+    "scenes": [
+      1,
+      7,
+      8,
+      15,
+      22,
+      23,
+      35,
+      43,
+      51,
+      53,
+      55,
+      56,
+      64,
+      69,
+      71
+    ],
+    "source_scene_ids": [
+      "1",
+      "6",
+      "7",
+      "13",
+      "18",
+      "19",
+      "25",
+      "32",
+      "39",
+      "41",
+      "42-எ",
+      "43",
+      "52",
+      "53-டி",
+      "55"
+    ],
+    "dialogue_record_count": 43,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d027",
+      "vandikkaran-magan-s007-d003",
+      "vandikkaran-magan-s007-d005"
+    ],
+    "notes": "Named recurring character. Source label explicitly identifies this as சடையன்’s voice; the voice label remains unchanged upstream."
+  },
+  {
+    "id": "vandikkaran-magan-char-sirumi-role",
+    "preferred_name_ta": "சிறுமி",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சிறுமி"
+    ],
+    "scenes": [
+      8,
+      59
+    ],
+    "source_scene_ids": [
+      "7",
+      "47"
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "vandikkaran-magan-s008-d006",
+      "vandikkaran-magan-s059-d002"
+    ],
+    "notes": "Generic source role; preserved separately from `ஒரு சிறுமி`."
+  },
+  {
+    "id": "vandikkaran-magan-char-sokkalingam",
+    "preferred_name_ta": "சொக்கலிங்கம்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சொக்",
+      "சொக்க"
+    ],
+    "scenes": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "source_scene_ids": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dialogue_record_count": 15,
+    "supporting_records": [
+      "vandikkaran-magan-s006-d002",
+      "vandikkaran-magan-s006-d004",
+      "vandikkaran-magan-s006-d006"
+    ],
+    "notes": "Scene 5 stage direction names சிறுவன் சொக்கலிங்கம் and `சொக்` self-identifies as `சொக்கலிங்கம்`; exact abbreviated label is retained. Scene 6 stage direction identifies the child as சொக்கலிங்கம் while dialogue uses `சொக்க`; exact source label is retained."
+  },
+  {
+    "id": "vandikkaran-magan-char-sornam",
+    "preferred_name_ta": "சொர்ணம்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சொர்ணம்"
+    ],
+    "scenes": [
+      7,
+      8
+    ],
+    "source_scene_ids": [
+      "6",
+      "7"
+    ],
+    "dialogue_record_count": 9,
+    "supporting_records": [
+      "vandikkaran-magan-s007-d001",
+      "vandikkaran-magan-s007-d004",
+      "vandikkaran-magan-s007-d007"
+    ],
+    "notes": "Named recurring character."
+  },
+  {
+    "id": "vandikkaran-magan-char-tharagar-role",
+    "preferred_name_ta": "தரகர்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "தரகர்"
+    ],
+    "scenes": [
+      39
+    ],
+    "source_scene_ids": [
+      "29"
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "vandikkaran-magan-s039-d001",
+      "vandikkaran-magan-s039-d003"
+    ],
+    "notes": "Generic broker role; no personal name is inferred."
+  },
+  {
+    "id": "vandikkaran-magan-char-uma",
+    "preferred_name_ta": "உமா",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "உமா"
+    ],
+    "scenes": [
+      1,
+      8,
+      12,
+      13,
+      20,
+      21,
+      24,
+      26,
+      28,
+      30,
+      31,
+      32,
+      34,
+      37,
+      38,
+      39,
+      44,
+      47,
+      50,
+      55,
+      56,
+      57,
+      58,
+      61,
+      64,
+      69,
+      71
+    ],
+    "source_scene_ids": [
+      "1",
+      "7",
+      "10-எ",
+      "11",
+      "16-எ",
+      "17",
+      "20",
+      "21",
+      "22-எ",
+      "24",
+      "24-எ",
+      "24-பி",
+      "24-டி",
+      "27",
+      "28",
+      "29",
+      "33",
+      "35",
+      "38",
+      "42-எ",
+      "43",
+      "44",
+      "45-46",
+      "49",
+      "52",
+      "53-டி",
+      "55"
+    ],
+    "dialogue_record_count": 96,
+    "supporting_records": [
+      "vandikkaran-magan-s001-d028",
+      "vandikkaran-magan-s008-d001",
+      "vandikkaran-magan-s012-d001"
+    ],
+    "notes": "Named recurring character; exact source label is retained."
+  },
+  {
+    "id": "vandikkaran-magan-char-vingan",
+    "preferred_name_ta": "விங்கன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "விங்கன்",
+      "விங்கன் குரல்"
+    ],
+    "scenes": [
+      14,
+      15,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      38,
+      43,
+      44,
+      46,
+      49,
+      51,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      63,
+      64,
+      69,
+      70,
+      71
+    ],
+    "source_scene_ids": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16-எ",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22-எ",
+      "23",
+      "24",
+      "24-எ",
+      "24-பி",
+      "24-டி",
+      "25",
+      "28",
+      "32",
+      "33",
+      "34",
+      "37",
+      "39",
+      "41",
+      "42",
+      "42-எ",
+      "43",
+      "44",
+      "45-46",
+      "47",
+      "48",
+      "49",
+      "51",
+      "52",
+      "53-டி",
+      "54",
+      "55"
+    ],
+    "dialogue_record_count": 161,
+    "supporting_records": [
+      "vandikkaran-magan-s014-d019",
+      "vandikkaran-magan-s015-d002",
+      "vandikkaran-magan-s015-d004"
+    ],
+    "notes": "Named recurring character. Source label explicitly identifies this as விங்கன்’s voice; the voice label remains unchanged upstream."
+  }
+]
