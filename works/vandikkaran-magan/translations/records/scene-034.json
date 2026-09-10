@@ -1,0 +1,287 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s034",
+  "scene_ordinal": 34,
+  "source_scene_id": "24-டி",
+  "scene_status": "verified",
+  "unit_count": 9,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s034-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (உமா, விம்மி விம்மியழுது கொண்டிருக்கிறாள்....அழுகுரல் கேட்டு, விங்கன் அவளருகே செல்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma is sobbing and crying.... Hearing her crying, Vingan goes near her.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!... Uma!.... (lifting her chin with his hand) Don't cry; you must not cry!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You may be happy if you like.... After all, your plot has succeeded, hasn't it?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(with a faint smile) Plot! Uma!... The word 'sathi' has a frightening meaning when it stands alone. Join 'pati' to sathi and make 'sathipathi'... and it takes on a sacred meaning!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source makes a Tamil wordplay between `சதி` (plot/conspiracy, and in the compound invoked here a wife-related form) and `பதி` (husband/lord). The English retains the source terms rather than manufacturing an unrelated pun."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "However it happened... you have made me party to an unforgivable wrong!...(She cries.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't worry!.. I will protect the secret of what has happened between us so that no one knows!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You planned this and ruined me, and now you say you will protect the secret!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There was no plan, Uma!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s034-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s034",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-034.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-034.md",
+        "source_record_id": "vandikkaran-magan-s034-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன் குரல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 48,
+            "printed_page": 47
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There was no plan!.. This was a vow I undertook!... An oath I took!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

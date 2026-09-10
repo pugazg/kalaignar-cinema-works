@@ -1,0 +1,973 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s039",
+  "scene_ordinal": 39,
+  "source_scene_id": "29",
+  "scene_status": "verified",
+  "unit_count": 31,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s039-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (தரகர், மாப்பிள்ளை வீட்டார்—ஜமீன்தார் காரம் ததும்ப அமர்ந்திருக்கிறார்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The marriage broker and the prospective bridegroom's family are present; the zamindar sits bristling with severity.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "தரகர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(indicating the mother and father) These are the bridegroom's mother and father!.. The bridegroom is a very suitable match for your daughter Uma! His education is I.C.S.; his post is Collector!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Krishnapuram estate... Chandragiri estate... people keep coming from all those places asking for Uma's hand! I can become related only to a zamindar family like that; don't bring me collectors, tahsildars, mirasdars, mittadars and whoever else! This is the first and last time for you...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "தரகர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'll take leave!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm!.....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (போகிறார்கள். ஜமீன்தார் திரும்புகிறார்—கோகிலா வருகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(They leave. The zamindar turns; Kokila enters.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 4,
+          "description": "Source block 4: கேட்டியா கோகிலா...உமாவைப் பெண் கேட்க யாரோ கலெக்டர் வீட்டாம் கலெக்டர்!..கண்டிப்பா சொல்லி துரத்திட்டேன்..மாட மாளிகை, கூட கோபுரம் உள்ள ஒரு ஜமீன"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Did you hear, Kokila... Some Collector’s family, it seems, came asking for Uma’s hand—a Collector! I spoke firmly and sent them away.. I told them that only from an estate family with mansions and towers could a bridegroom come for her! What, was I right?..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes! What you said is one hundred percent right!... A bridegroom has come for the estate family with mansions and towers!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(agitated) What? What are you saying?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Secretary Vingan... your future son-in-law!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(slapping Kokila on the cheek) Shut your mouth! Because you failed in trying to cast your net for Vingan, are you making up a story like this to put the blame on him and have him driven away?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm not trying to make up a story! I want to see Vingan tie the thaali around Uma's neck!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't stand here.. go! Go away!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (அவளின் தலைமயிரைப் பிடித்துத் தள்ளுகிறார்; அப்போது உமா ஓடிவந்து...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He grabs her by the hair and pushes her away; at that moment Uma runs in...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 53,
+            "printed_page": 52
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa! Don't do anything to her!... She is only telling you what happened!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! She is saying what cannot happen; she is saying what must not happen!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(falling at his feet) Appa! Only Vingan can become my husband.. No one can stop that!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What did you say?... A discarded leaf-plate sticking to the finial of a temple tower?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source uses the caste/status image `எச்சில் இலை கோபுரத்துக் கலசத்தில் ஒட்டிக்கொள்வதா?`; English preserves the discarded-leaf/temple-finial metaphor without softening its contempt."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am the discarded food now!.. I belong only to him!..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source continues the degrading `எச்சில்` metaphor with `எச்சில் பண்டம்`; English preserves the image rather than normalizing it."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It will not happen even in a dream!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your family prestige will not prevail!.. I am pregnant now, Appa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa!.. Forgive me!.. Please marry me to him!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(confused) Ayyo!.. Uma.. Uma.. You have made the honour of the zamindar family a laughing-stock in the street, child!.. Is sandalwood to be dissolved in rosewater? (Or dissolved and sprinkled in sewer water?)...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The parenthetical contrast between rosewater and sewer water is preserved as printed; the source sentence itself is rhetorically irregular."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u026",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (மரகதம் வந்தபடி)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Maragatham enters.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Zamindar ayya!.. This is not the old age!.. Fifteen years ago, a man could give an innocent woman a child and she might shrink away, unable to tell the town whose child it was. What has happened now is an entirely new story!.. A story about the chastity of a famous zamindar family! To hide this from the town and protect your honour from damage, there is only one path—the Vingan–Uma marriage!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(in anguish) Do you say so too?.. We don't even know who that Vingan is?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Whoever he is, what does it matter?.. From now on he is your son-in-law!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(falling at his feet and holding his legs) Yes, Appa! Forgive me, Appa..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s039-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-039.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-039.md",
+        "source_record_id": "vandikkaran-magan-s039-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 54,
+            "printed_page": 53
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, child! Let it happen as it is written on your head!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

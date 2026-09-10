@@ -1,0 +1,1326 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s024",
+  "scene_ordinal": 24,
+  "source_scene_id": "20",
+  "scene_status": "verified",
+  "unit_count": 36,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s024-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: நீச்சல் குளத்தோட்டம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Swimming-pool garden."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கோகிலா, உமா நீச்சல் குளக்கரையில் அமர்ந்திருப்பதைப் பார்க்கிறாள். உமா, நீரில் விங்கனின் உருவத்தைப் பார்த்தல்.... கற்பனையாக...அந்த நினைவில் ல"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila sees Uma sitting beside the pool. Uma is gazing at Vingan’s image in the water, in imagination.... As she is absorbed in that thought, Kokila comes near and calls “Uma”; Uma at once breaks from her reverie and composes herself.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh-ho... I understand! I understand!... Uma!... Why did you disturb the picture of memory you had written on the water?... Who was it? Madam Damayanti! Who is that Nala? Shakuntala! Who is that Dushyanta?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go away, Kokila...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!... Uma!... Do not hide it from me! I know everything!.. For the past few days you...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!... My heart is aching to tell you... but...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What?... Who?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What do you think of our secretary Vingan...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (கோகிலா முகமாற்றம்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila’s expression changes.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 4,
+          "description": "Source block 4: அவர் நம்ப ஜமீன் அந்தஸ்துக்கு சமமான அந்தஸ்து உள்ளவரா இருப்பாரா?...இல்லே...சாதாரணமான குடும்பத்தைச் சேர்ந்தவரா இருப்பாரா?... விங்கனை நான் விரும"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Would he be a man of status equal to our estate?... Or would he belong to an ordinary family?... I love Vingan!... But if I learn that he belongs to an ordinary family... the very next moment... I will tear him out of my heart and throw him away!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why make it so difficult? Let us toss heads or tails and see what sort of man he is!... (taking a one-rupee coin from inside her jacket) If heads falls, he is from a great family... if the flower side falls... an ordinary family... all right?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (உமா, மெளனமாகப் புன்னகை புரிகிறாள். கோகிலா நாணயத்தைச் சுண்டி விடுதல்...தலைப் பக்கம் விழுகிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma smiles silently. Kokila flips the coin... it falls heads.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 6,
+          "description": "Source block 6: ஆ! தலை! தலை!..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Ah! Heads! Heads!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (உமா, சிரித்தவாறு, \"போடி\" என நாணிக்கோணி ஓடுகிறாள்..)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma laughs, says “Go away,” and runs off shyly.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 8,
+          "description": "Source block 8: பிள்ளையாரப்பா! இந்தத் தடவை பூ விழ நீ தான் அருள் புரியணும்!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Pillaiyarappa! This time you must bless me so that the flower side falls!"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 9,
+          "description": "Source block 9: (கோகிலாவின் மன அலைகள் பேசுகின்றன — திரும்பி வந்து நாணயத்தை எடுத்து சுண்டுகிறாள்...இப்போது 'பூ' விழுகிறது...'பூ' பக்கமும் கோகிலா முகமும் மாறி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 35,
+            "printed_page": 34
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila’s thoughts speak. She turns back, picks up the coin and flips it... now the “flower” side falls. The flower side and Kokila’s face alternate in the image... She picks up the coin and looks at the head side... that head"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 10,
+          "description": "Source block 10: ஜார்ஜ் மன்னர் தலையாக இருக்கிறது. அந்தத் தலை விங்கன் தலையாக மாறுகிறது...நினைவு அலைகள்.."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "is King George’s head. The head changes into Vingan’s head... waves of imagination..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u018",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 11,
+          "description": "Source block 11: (விங்கன் — கோகிலா காதல் கீதம்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_text": "(Vingan — Kokila love song.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u020",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 12,
+          "description": "Source block 12: மேடையில் ஆடிடும் மெல்லிய பூங்காற்றே! — நீ ஆடையில் ஆடினால் மன்மதன் விளையாட்டே! மேனகை போலொரு பூங்கையை புதுப்பாட்டே! — உன் மேனியின் சாயலோ ஆனந்த"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Dancing upon the stage,",
+          "O gentle flower-breeze! — if you",
+          "dance upon her dress,",
+          "it is Manmatha’s play!",
+          "A woman like Menaka,",
+          "a new song in the flower-garden! — Is your",
+          "body’s radiance",
+          "a fountain of delight!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u022",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 13,
+          "description": "Source block 13: பழுக்கப் பழுக்க-ரசம் பிழியப் பிழியப்-பழம் உள்ளூரக் கள்ளூறத் தள்ளாடுமோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Ripening and ripening — the juice,",
+          "pressed and pressed — the fruit,",
+          "with liquor welling within,",
+          "will it stagger?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u023",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 14,
+          "description": "Source block 14: குடிக்கக் குடிக்க மனம் மிதக்க மிதக்க தினம் வண்டாட்டம் கொண்டாட்டம் உண்டாகுமோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Drinking and drinking, the heart",
+          "floating and floating each day,",
+          "like a beetle in revelry — will",
+          "celebration arise?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u024",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 15,
+          "description": "Source block 15: ஓடை மீது ஓடும் நீர் வேண்டும்! உறவில் நாடும் ஒருவன் நீ வேண்டும்! — மேடையில்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Upon a stream,",
+          "flowing water is needed!",
+          "In love I seek",
+          "you as the one man I need! — Upon the stage"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u026",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 16,
+          "description": "Source block 16: ஓடிய ஓடிய இடை நெளிய நெளிய நடை, உல்லாசப் பல்லாக்கின் ஊர்கோலமோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The waist, running and running,",
+          "the gait, swaying and swaying —",
+          "is it the procession",
+          "of a pleasure-palanquin?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u027",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 17,
+          "description": "Source block 17: நெருங்க நெருங்க மெல்ல ஒதுங்க ஒதுங்க எண்ணும் ஊடல்கள் யுவராணி ஒப்பாரமோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "As I draw nearer and nearer, slowly,",
+          "thinking to withdraw and withdraw,",
+          "these feigned quarrels, princess —",
+          "are they pageantry?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u028",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 18,
+          "description": "Source block 18: மாலை இடலாமோ? மஞ்சம் வரலாமோ? சேலை தொடலாமோ? கைகள் படலாமோ? — மேடையில்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "May I place the garland?",
+          "May the bedchamber come?",
+          "May I touch the sari?",
+          "May hands fall upon it? — Upon the stage"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u030",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 19,
+          "description": "Source block 19: நழுவ நழுவ எண்ணத் தழுவத் தழுவ வரும் வித்தைகள் கண்ணே! உன் வெள்ளோட்டமோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Thinking to slip away and slip away,",
+          "yet coming to embrace and embrace —",
+          "these tricks, my dear! are they",
+          "your trial run?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u032",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 20,
+          "description": "Source block 20: மயக்கி மயக்கிப் பின்பு மறைத்து மறைத்து வைத்தல்— அன்பே! உன் செல்வாக்கின் அடையாளமோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Enchanting again and again, then",
+          "hiding it away and away —",
+          "beloved! is this",
+          "the mark of your influence?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u034",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 21,
+          "description": "Source block 21: காதல் விளையாடக் காவல் இடையாதோ?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "When love comes out to play,",
+          "will no guard come between?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u035",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-024.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": "vandikkaran-magan-s024-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record preserves only the source-visible Tamil turn label and dash; the lyric body immediately following it is translated separately as a source-linked song unit."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s024-u036",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-024.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-003",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 22,
+          "description": "Source block 22: காவல் தடைபோட்டால் ஆவல் மீறுதோ? — மேடையில்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 36,
+            "printed_page": 35
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "If the guard sets up a barrier,",
+          "will longing overflow? — Upon the stage"
+        ]
+      }
+    }
+  ]
+}

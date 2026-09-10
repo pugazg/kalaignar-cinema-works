@@ -1,0 +1,663 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s038",
+  "scene_ordinal": 38,
+  "source_scene_id": "28",
+  "scene_status": "verified",
+  "unit_count": 21,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s038-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: தோட்டத்துக்குளம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Garden pond."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன் புறாக்களில் ஒன்றைப் பிடித்து தன் முகத்தருகே கொண்டுவந்து ரசித்தல்—பிறகு அதனைத் தூக்கி எறிந்து பறக்க விடுகிறான்...பறந்த புறா, தூக்கி "
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan catches one of the pigeons, brings it close to his face and admires it—then tosses it up and lets it fly. Carried by the force of the throw, the flying pigeon scratches with its claw the forehead of Uma, who is arriving wearing cooling glasses. She pushes the pigeon away and feels her forehead.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh dear, Uma.. did your forehead get scratched?... Where?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (நெற்றியைப் பார்க்கிறான். அவள் முகத்தை இருகைகளால் பிடித்தபடி.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He examines her forehead, holding her face in both hands.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(sadly) The pigeon scratched only my forehead!... But you have scratched right into my heart!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That is only a small wound! Hasn't it healed yet? Our literature says that women have a special pleasure in looking again and again at such wounds and nursing a silent hurt!..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source invokes a literary commonplace about repeatedly contemplating wounds and an `ஊமைப் புண்` (silent/hidden hurt); English stays close to that figurative sense."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The result of that pleasure has driven me to the very edge of suffering!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The mistake the two of us made..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There was no mistake... You were the ember!.. I was the wax!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I wasn't any ember!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right.. I was the ember!.. You were the wax!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(angrily and emotionally) It is because I was wax that I melted away!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You melted that very day; why are you melting again now!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I have not merely melted away; I am standing here carrying a life too!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(normally) Uma!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am pregnant.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Pregnant!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-038.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": "vandikkaran-magan-s038-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bravo!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u020",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (சிரிக்கிறான்—பெருஞ்சிரிப்பு - வெற்றிச்சிரிப்பு—அந்தச் சிரிப்பு ஒலியில் புறாக்களும்—பறவைகளும்—வாத்துக்களும் சிறகடித்து சத்தமிட்டவாறு சிதறுகி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He laughs—a great laugh, a laugh of victory. At the sound, pigeons, birds and ducks flap noisily and scatter. The sound of his laughter and the noise of the scattering birds mingle together. Kokila watches all this from hiding.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s038-u021",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s038",
+      "scene_ordinal": 38,
+      "source_scene_id": "28",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-038.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "structural-caption",
+          "ordinal": 5,
+          "description": "Source block 5: (இடை வேளை)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 52,
+            "printed_page": 51
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Interval.)"
+      }
+    }
+  ]
+}

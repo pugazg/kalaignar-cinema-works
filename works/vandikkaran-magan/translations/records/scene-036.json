@@ -1,0 +1,389 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s036",
+  "scene_ordinal": 36,
+  "source_scene_id": "26",
+  "scene_status": "verified",
+  "unit_count": 12,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s036-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: கோகிலா அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Kokila’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! So the suspicion is cleared up! Then Vingan belongs to an ordinary family?.. He is not a son of a great household? Amma! Are you really telling the truth?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What more do you want—should I slap my hand and swear it to you?... Should I light camphor and put it out at the Kaliamman temple? If he were a boy from a high-status family... could he mix so naturally in Sadaiyan's house?... Would he feel like eating old rice?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then... Uma will give him to me. Her ideal... is a bridegroom whose status is no lower than hers, isn't it!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (மேசை டிராயரைத் திறந்து காசை எடுத்து...பூவா தலையா போட்டுப் பார்த்துக்கொள்கிறாள். 'பூ' விழுகிறது...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She opens the desk drawer, takes out the coin and tosses it heads-or-flower. The “flower” side falls...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma, what you said is really true!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 3,
+          "description": "Source block 3: இப்பவேபோய்..உமாகிட்ட இந்தச் சேதியைச் சொல்லி.."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "I will go right now.. tell Uma this news and.."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell Uma and...?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "With her help itself I am going to arrange for the Vingan–Kokila marriage to take place!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 50,
+            "printed_page": 49
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-036.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": "vandikkaran-magan-s036-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo!... Don't stop me, Amma!... I can't contain my happiness, Amma... I feel as though I'm walking upside down... I'm going, Amma!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s036-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-036.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (கோகிலா ஓடுகிறாள். நாணயத்தைக் கையில் தூக்கி எறிந்து பிடித்தவாறு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila runs out, tossing the coin in her hand and catching it.)"
+      }
+    }
+  ]
+}

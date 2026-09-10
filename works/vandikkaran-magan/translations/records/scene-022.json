@@ -1,0 +1,913 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s022",
+  "scene_ordinal": 22,
+  "source_scene_id": "18",
+  "scene_status": "verified",
+  "unit_count": 29,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s022-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன்மாளிகை வெளிப்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior of the estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (உமாவும் விங்கனும் நடந்து வர மரகதம் ஓடிவந்து)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma and Vingan walk in; Maragatham runs up.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Just a little, just a little.... Only tiny scratches!... (comfortingly, looking at Vingan) No serious wound at all, brother!....",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source turns `பெருங்காயம்` from “serious wound” into a pun on asafoetida in the following reply; English preserves the switch explicitly."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Teacher madam! In such a huge estate palace there is no asafoetida? You come and tell the secretary there is no asafoetida, no tamarind.... Tell the cooks!...",
+        "mode": "prose-faithful",
+        "notes": [
+          "This reply exploits the Tamil homonym/pun `பெருங்காயம்` (serious wound / asafoetida)."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother is making fun of me!:::",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (மரகதம் உமாவை அழைத்துக் கொண்டுவர)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Maragatham leads Uma away.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma! Come, child. Change your dress and let us put medicine on the wound!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (என்று அழைத்துப் போகிறாள்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She takes her away.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, Sadaiya? Why did our horse, which has never done this before, run wild today?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Would it happen without a reason? (Noticing Kalingan arriving and holding up the empty rum bottle).... He put rum into the horse.. and it started leaping wildly!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying, Kalinga?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What am I saying? He drank half of it! He gave the rest to the horse! That scoundrel is right here. Do you know who he is?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (எல்லோருடைய முகத்திலும் யார்? யார்? என்ற கேள்வி)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Every face carries the question: who? who?)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who is that scoundrel?::: Tell me who committed such an outrage in the stable under my care; I will catch him and... whip him!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not one, not two.... He deserves a thousand lashes! You pretend not to know?.. This fellow is the scoundrel! (pointing at Sadaiyan.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "God above! Master! I swear I do not drink!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Whoever it is... I will never forgive a drunkard!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That is your principle!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I swear on the child I fathered! I have no drinking habit at all!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What child do you have, da? He disappeared, didn't he! Who knows where he is begging now? You swear on that child? What a great man of truth you are!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Master!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (சவுக்கால் அடிக்க கையை ஓங்குதல். விங்கன் பாய்ந்து சவுக்கடியைத் தன் முதுகில் வாங்கிக்கொள்ளுதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(A hand is raised to strike with the whip. Vingan leaps in and takes the whip-blow on his own back.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo!... Secretary brother!.... For the sake of somebody's son, you took the beating meant for me!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is wrong to punish a father who has sworn on his own child!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(lowering the whip) Secretary, move aside! You servant dog! The blow meant for you landed on him! Hey! Bring the surgeon. I will not spare you. Today... hey!.. (raising his hand to slap him)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hush.... Kalinga!.... Enough...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-022.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": "vandikkaran-magan-s022-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(falling at the zamindar's feet) Master!... Believe me! Even if you beat me and kick me, I am a faithful dog that lives eating this palace's food!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s022-u029",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-022.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (விங்கன் உணர்ச்சிவயப்படுகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 32,
+            "printed_page": 31
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan is overcome with emotion.)"
+      }
+    }
+  ]
+}

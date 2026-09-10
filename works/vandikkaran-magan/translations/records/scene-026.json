@@ -1,0 +1,695 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s026",
+  "scene_ordinal": 26,
+  "source_scene_id": "21",
+  "scene_status": "verified",
+  "unit_count": 22,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s026-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை ஜமீன்தார் அலுவலக அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace — the zamindar's office room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஜமீன்தார், விங்கன் இருவரும் — பெரிய பெரிய கணக்குப் பேரேடுகளை அடுக்கிவைத்து, அவைகளைப் புரட்டிக்கொண்டிருக்கிறார்கள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar and Vingan sit with large account ledgers stacked before them, turning through the pages.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Vingan!.. Which account did you say does not tally!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "In our estate villages the farmers have paid the entire kist they owe!.. There is an account for that!.. But... the stock of food grain we have is very low...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The food grain will be low in the accounts!.. It will be correct in our granary!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then... could we give the grain that is going to spoil in the granary to the poor and destitute!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Very well said, Mr. Vingan!... None of the grain in the granary will spoil.. It will turn straight into money!.. And into black money at that!.. Vingan! These are secrets of our estate!.. The key must be guarded carefully!.. And...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (அப்போது உமா வருகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(At that moment Uma comes in.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa! Appa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma dear, what is it, child?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa! I am going to our estate today and will come back tomorrow!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go and come back, child!.. Do not set out alone on horseback!.. Take my carriage!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Appa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (திரும்புகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She turns.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!.. Do not set off driving the carriage yourself either!.. Take coachman Sadaiyan with you!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Get ready for the journey!.. I will send Sadaiyan!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Appa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (எனக்கூறிவிட்டு உமா போய்விடுகிறாள் குதித்துக்கொண்டு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 39,
+            "printed_page": 38
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Saying so, Uma skips away.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Vingan!.. Send word to our coachman Sadaiyan and tell him to go to the estate with Uma!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-026.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": "vandikkaran-magan-s026-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh yes!.. Okay!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s026-u022",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s026",
+      "scene_ordinal": 26,
+      "source_scene_id": "21",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-026.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (ஜமீன்தார் போய்விடுகிறார். விங்கன் முகத்தில் மாற்றம்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar leaves. Vingan’s expression changes.)"
+      }
+    }
+  ]
+}

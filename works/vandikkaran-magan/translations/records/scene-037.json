@@ -1,0 +1,357 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s037",
+  "scene_ordinal": 37,
+  "source_scene_id": "27",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s037-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: உமா அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Uma’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கையில் நாணயத்தை தூக்கி எறிந்து பிடித்தவாறு குதூகலமாக வரும் கோகிலா)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila comes in joyfully, tossing the coin in her hand and catching it.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma! Uma!... I've found out the truth!... In the heads-or-flower toss, heads falling was wrong!... The flower side falling is what was correct!... You have given him to me!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (பேச்சை முடிப்பதற்குள், உமா வாஷ்பேசினில் வாந்தி எடுப்பதை கோகிலா பார்த்து அதிர்ச்சி...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Before Kokila can finish speaking, she sees Uma vomiting into the washbasin and is shocked...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!... What is wrong with your body?... Why are you vomiting?.. What did you eat?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!... In my haste, forgetting even myself, I drank nectar!.. It has turned into poison for me, dear!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What are you saying?... I don't understand anything!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If I don't tell you the truth, whom else am I going to tell!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell me, Uma!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-037.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": "vandikkaran-magan-s037-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "When I went to see the estate.. somehow... that Vingan too... came there... Until then I had thought manliness was only a sign of courage and valour!... But in the adventure performed by his manliness, the firmness of my womanhood shattered beyond recognition, Kokila!... shattered beyond recognition!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s037-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s037",
+      "scene_ordinal": 37,
+      "source_scene_id": "27",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-037.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (கோகிலா திகைப்பு — அவள் கையிலிருந்த நாணயம் விழுந்து உருண்டு, தலைப்பகுதி மேலே தெரிகிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 51,
+            "printed_page": 50
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila is stunned. The coin in her hand falls and rolls, coming to rest with the head side showing.)"
+      }
+    }
+  ]
+}

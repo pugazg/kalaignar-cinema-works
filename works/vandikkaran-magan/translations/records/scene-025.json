@@ -1,0 +1,717 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s025",
+  "scene_ordinal": 25,
+  "source_scene_id": "20-எ",
+  "scene_status": "verified",
+  "unit_count": 23,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s025-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (கோகிலா-விங்கன் கனவு கீதம் முடிகிறது. கோகிலா ரூபாய் நாணயத்தையே உற்று நோக்கியவாறு இருக்கிறாள். மரகதம் பின்னிருந்தவாறு தோளைத் தொடுகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "This is an end/context cue for the already-linked `vandikkaran-magan-perf-003`; it does not create a second performance occurrence."
+        ],
+        "english_text": "(The Kokila–Vingan dream song ends. Kokila is still staring fixedly at the one-rupee coin. Maragatham comes from behind and touches her shoulder.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(in a daze, holding Maragatham's hand) Vingan!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Vingan? Has the illness that must come arrived at the age when it must come?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(suddenly) Amma! At what age did that illness come to you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (மரகதம் சிரிக்கிறது — சுதாரித்து)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Maragatham laughs, then composes herself.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tch! What a truly guileless girl I have given birth to!.. Yes... Kokila! What is the matter.. love?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma, you tell me a prophecy! Will Vingan become mine? Or will Uma get him?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh-ho! So this has become a competitive race too?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, Amma!.. If he has a status suitable for her family, Uma says she will marry him...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 37,
+            "printed_page": 36
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "And if not, you said you are ready, is that it?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I did not exactly say it, Amma... I have been thinking it!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let it remain a thought—do not get too close!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma! How can I tell you my state of mind exactly as it is?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If you cannot say it, write it out in detail!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "And will you take it and give it to him, Amma!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I must take it and give it? In the old days they spoke of sending the swan as a messenger!... Now are you asking me to conduct the 'send-the-swan' embassy?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma! Then what about my love... what am I to do?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Put it in the pickle jar for a few days!... It will not spoil!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Pickle it... what is it, a mango? A lemon?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am telling you not to hurry precisely so there will be no need for mangoes or lemons!..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The mango/lemon line carries a colloquial pregnancy-craving innuendo; English keeps the concrete fruits without expanding the implication beyond the source."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Amma!... You, about him...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-025.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": "vandikkaran-magan-s025-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will begin the investigation. Until then, you be a little patient!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s025-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s025",
+      "scene_ordinal": 25,
+      "source_scene_id": "20-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-025.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (கோகிலா தாயைத் தழுவிக் கொள்ளுதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 38,
+            "printed_page": 37
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila embraces her mother.)"
+      }
+    }
+  ]
+}

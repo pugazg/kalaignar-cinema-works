@@ -1,0 +1,323 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s031",
+  "scene_ordinal": 31,
+  "source_scene_id": "24-எ",
+  "scene_status": "verified",
+  "unit_count": 10,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s031-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (உள்ளே உமா பயந்து நடுங்குதல். விங்கனும் ஜம்புவும் வெளியே பல மிருகங்களைப் போலக் கத்துதல். உமா பயந்து, எழுந்து வருகிறாள். விங்கன் ஜம்புவை மறைத"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Inside, Uma trembles with fear. Outside, Vingan and Jambu make the cries of several animals. Frightened, Uma gets up and comes out. Vingan hides Jambu and signals him to keep making the sounds; Jambu does so, while Vingan lies down. Uma opens the door and comes outside. Vingan pretends to be asleep; when she throws the end of her sari over him, he cries out and gets up.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All the animals are roaring like this!... Aren't you afraid at all?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why should I be afraid? I am not afraid of anything!—If a tiger comes, it will tear me apart with its mouth. If an elephant comes, one stamp will finish me. If any bones are left, the wolves will eat them and go!... Why are you worrying? You go lie down and sleep!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (உமா போகிறாள். ஜம்புவிடம் கத்தும்படி விங்கன் சைகை காட்ட—ஜம்பு யானைபோல் கத்த—உமா அலறியடித்து ஓடி வந்து விங்கனைக் கட்டிக்கொள்கிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma goes away. Vingan signals Jambu to roar; Jambu trumpets like an elephant. Uma screams, runs back and clings to Vingan.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Please come inside and sleep!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uh-uh!... A man staying in the same room when a woman is alone? That would not be dharma.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is not dharma for a woman either to let a man die without knowing it. Are you coming inside to sleep right now or not?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-031.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": "vandikkaran-magan-s031-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If you put it that way, there is justice in that too! I will come and sleep there so that no blame at all falls on you!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s031-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s031",
+      "scene_ordinal": 31,
+      "source_scene_id": "24-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-031.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (இருவரும் உள்ளே போக ஜம்பு மகிழ்தல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The two go inside; Jambu is delighted.)"
+      }
+    }
+  ]
+}

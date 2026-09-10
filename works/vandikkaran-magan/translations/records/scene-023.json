@@ -1,0 +1,1069 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s023",
+  "scene_ordinal": 23,
+  "source_scene_id": "19",
+  "scene_status": "verified",
+  "unit_count": 34,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s023-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை விங்கன் அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace — Vingan’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (சடையன், ஜமீன்தார் காலில் விழுந்து பேசிய வார்த்தைகள் ஒலித்துக் கொண்டிருக்கின்றன.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Sadaiyan’s words, spoken while falling at the zamindar’s feet, continue to echo.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன் குரல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Master, believe me... Even if you beat me and kick me, I am a faithful dog that lives eating this palace's food!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (விங்கன் இதழ்கள் “அப்பா” என முணுமுணுக்கின்றன; கண்கலங்கி சட்டையைக் கழற்றி, தோள்பட்டையின் பின்புறத்தில் பட்டுள்ள சவுக்கடி காயத்தைப் பார்க்கிறா"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan’s lips murmur “Appa”; his eyes fill with tears. He removes his shirt and looks at the whip wound on the back of his shoulder.... He is about to apply some medicine when Sadaiyan’s hand applies green-leaf juice to the wound. Vingan turns asking “Who?” and finds Sadaiyan before him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Secretary brother!.... For the sake of this coachman fellow.... you got hurt, brother!... Put this medicinal leaf on it and the wound will heal at once....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (விங்கன் சடையன் கையிலிருக்கும் பச்சிலைச் சாறு கிண்ணத்தைப் பார்த்தல்... பச்சிலைச்சாறு கிண்ணத்தைப் பிடித்திருக்கும் சடையன் கைவிரலில் ரத்தம் கச"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan looks at the bowl of herbal juice in Sadaiyan’s hand. Blood is oozing from one of the fingers holding the bowl.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, there is blood on your finger....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That?... A thorn pricked me while I was plucking the medicinal leaf for you!... That is nothing, brother!.. Put the medicine on!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Put it on!... Let blood mingle with blood!... Smear the blood oozing from your finger on my wound too! There can be no finer medicine than that!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother!... What are you saying?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The blood of working people is itself like medicine, isn't it!... That is what I meant. You go!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (சடையன் மகிழ்ச்சியை வெளிப்படுத்தி மருந்தைப் போட்டுவிட்டு...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Sadaiyan shows his happiness and applies the medicine...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right... I am going!... Forgive me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (குனிந்து குனி வணங்கி கைகூப்புதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 33,
+            "printed_page": 32
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He bows repeatedly with folded hands.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh!... Please, none of this!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (சடையனின் கையைப் பிடித்துத் தடுத்தல், சடையன், உணர்ச்சி மிகுதியுடன் போகிறான்.... அவன் போனதும் கோகிலா, ஒரு மருந்துக் கிண்ணத்துடன் வருகிறாள். அ"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan catches Sadaiyan’s hand and stops him. Sadaiyan leaves deeply moved. After he goes, Kokila arrives carrying a bowl of medicine, watching Sadaiyan depart.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come, Kokila!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Source block 8: (விங்கன் தோள்புறத்தைப் பார்த்து)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Looking at Vingan’s shoulder.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh dear... That Sadaiyan beat me to it and applied medicine before I came! I brought such a wonderful herb.... Do you know how soothing it would be if this herb touched your wound?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Soothing? To whom?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "To you, of course—who else, me? (She laughs.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why are you laughing?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "When you tease me, won't I laugh?... Leave that aside.. After all the trouble I took to pluck, grind and squeeze this medicine, what am I to do with it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then do one thing! Call Kalingarayan and ask him to give me another stroke of the whip (showing the other shoulder), on this side! Then your medicine need not go to waste—we can put it on that wound!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalingarayan!..... If he ever hits you again, I will snatch the whip and whip him back myself!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then I will take this medicine and rub it on his wounds myself!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "By the way, what is your native place? Your mother and father.....? Are they mittadars? Mirasdars? How much estate land do you have?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why do you ask like that...? This earth-sphere... the solar sphere... the lunar sphere—these are our ancestral property!.. As if that were not enough, I am negotiating a price for Mars too!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mars?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm!.. A woman's mouth is 'sevvaai' too, isn't it!..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source jokes on `செவ்வாய்`, which can evoke both Mars and red lips/mouth; the English retains the Tamil word in the note-level sense rather than inventing a new joke."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then... as I thought... you are only an ordinary human being!... Aren't you?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u033",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 9,
+          "description": "Source block 9: (கோகிலா சிரித்துக் கொண்டே ஓடி விடுகிறாள்....)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila laughs and runs away....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s023-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-023.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-023.md",
+        "source_record_id": "vandikkaran-magan-s023-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 34,
+            "printed_page": 33
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to himself) A girl without deceit or guile!.... She simply laughs with an open heart... talks... runs... What an innocent girl!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

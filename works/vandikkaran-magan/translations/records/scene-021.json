@@ -1,0 +1,349 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s021",
+  "scene_ordinal": 21,
+  "source_scene_id": "17",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s021-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (கட்டுக்கடங்காமல் உமாவின் குதிரை செல்கிறது. உமாவின் முகத்தில் அச்சம்! சில சமயங்களில் அலறல்! விங்கன் தன் குதிரையைத் தட்டிவிட்டு உமாவைக் காப்ப"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma’s horse races on beyond control. Fear shows on Uma’s face; at moments she cries out. Vingan urges his own horse forward and pursues her to save her. At last he takes a shortcut, rides alongside Uma’s horse and lifts her bodily away..... The two tumble and roll on the ground. Uma’s horse keeps running.... Unable to bear the pain in her body, Uma moans, “Ayyo! Appa! Amma!”)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo! Did you hurt your leg? Your hand?.. Your face? Your back? (He feels Uma to check her...) ",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is all this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No!... If your back had been hurt, your spine might have broken.... I only asked so I could give first aid. In danger, there is no sin.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Thank you very much for your help!.... Even so, if you had saved me without touching me, I would have praised you much more!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tch! Tch!.... In the hurry I forgot to bring a rope with me!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If you had brought a rope?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I would have looped it around the neck and thrown it over the running horse... stopped the horse just like that! I would have saved you without touching you too!.... Surely another chance will come!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh! You want this to happen to me once again?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-021.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": "vandikkaran-magan-s021-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No, no! Nothing like that..... I want to take you home safely. That is all I want! Slowly... I must not touch you, yet I must save you! Come! Come!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s021-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s021",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-021.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (இருவரும் நடந்து வருதல். உமா நொண்டியபடியே வருகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 31,
+            "printed_page": 30
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The two walk back. Uma comes limping.)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s040",
+  "scene_ordinal": 40,
+  "source_scene_id": "29-எ",
+  "scene_status": "verified",
+  "unit_count": 7,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s040-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: கோகிலா அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Kokila’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s040-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கோகிலா அழுது கொண்டு ஓடிவர மரகதம் வருகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila comes running in tears; Maragatham enters.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s040-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": "vandikkaran-magan-s040-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!.. I had built castles in my heart about seeing you in bridal dress...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s040-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": "vandikkaran-magan-s040-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Even if you don't see your daughter in bridal dress...? You are going to see your student... my dearest friend Uma in it, aren't you, Amma!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s040-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": "vandikkaran-magan-s040-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s040-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-040.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": "vandikkaran-magan-s040-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma!!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s040-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s040",
+      "scene_ordinal": 40,
+      "source_scene_id": "29-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-040.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (இருவரும் கண்கலங்கத் தழுவிக் கொள்ளுதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Both embrace each other with tears in their eyes.)"
+      }
+    }
+  ]
+}

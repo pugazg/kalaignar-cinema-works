@@ -1,0 +1,579 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s033",
+  "scene_ordinal": 33,
+  "source_scene_id": "24-சி",
+  "scene_status": "verified",
+  "unit_count": 13,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s033-u001",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 1,
+          "description": "Source block 1: (விங்கன் பாட்டு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_text": "(Vingan’s song.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u002",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 2,
+          "description": "Source block 2: கார்த்திகை மாதம் கார்காலம்! கங்குலில் எங்கும் பனிமூட்டம் — உடல் வேர்த்திட நின்றுள் பருவச்சீலை! அதை வேடிக்கைப் பார்த்தது பள்ளியறை!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "It is Karthigai month, the rainy season!",
+          "Mist lies everywhere in the night — the body",
+          "stood sweating beneath its season’s sari! The",
+          "bedchamber watched it as a spectacle!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u003",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 3,
+          "description": "Source block 3: படுத்தாள்; புரண்டாள்; உறக்கமில்லை! சுகம் எடுக்கவும் கொடுக்கவும் ஒருத்தனில்லை!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "She lay down; she rolled over;",
+          "there was no sleep! Pleasure",
+          "to take and to give —",
+          "there was no one!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u004",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 4,
+          "description": "Source block 4: மடல் கொண்ட வாழை உடல் கொண்ட பாவை! இடைகொள்ளவில்லை அவள் கொண்ட சேலை! அவள் வந்த பின்பு அதற்கென்ன வேலை?"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "A plantain bearing its sheath,",
+          "a maiden bearing a body!",
+          "Her sari could not",
+          "contain her waist!",
+          "After she came,",
+          "what work had it there?"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u005",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 5,
+          "description": "Source block 5: வந்தான்; சேர்ந்தேன் தந்தான்! — செவ் வாய் மீது ஓயாமல் முத்தாடினான்! வண்ணம் கொஞ்சும் அன்னம்! தன் பூமணி போதைகள் கொண்டாடினாள்!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "He came; I joined him;",
+          "he gave! — Upon the red",
+          "mouth he kissed without pause!",
+          "The swan that toys",
+          "with colour! In her",
+          "flower-jewel intoxications she revelled!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u006",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 6,
+          "description": "Source block 6: படுத்தாள்! புரண்டாள்! உறக்கமில்லை! சுகம் எடுக்கவும் கொடுக்கவும் தடுக்கவில்லை!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "She lay down! She rolled over! There was no sleep!",
+          "To take and give pleasure, there was no restraint!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u007",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 7,
+          "description": "Source block 7: நீர் கொண்ட மேகம் நிலம் வந்து சேர அவள் கொண்ட பூமி குளிர் கொண்டு ஆற கோடி கொண்ட பூவில் மதுவெல்லாம் ஊற — முன்னும் பின்னும் மின்னும் — பொன் பாலேற"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The water-bearing cloud",
+          "came down to the earth;",
+          "the earth she bore",
+          "cooled and settled;",
+          "in the flower of a crore petals",
+          "all the nectar steeped —",
+          "before and behind,",
+          "gleaming — in a golden",
+          "river of milk, in bliss,",
+          "she bathed!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u008",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 8,
+          "description": "Source block 8: மெத்தை — தத்தும் தத்தை; தன் தாபங்கள் தாளாமல் போராடினாள்! (படுத்தாள்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The mattress — the bouncing",
+          "parrot-woman; unable",
+          "to bear her longings,",
+          "she struggled! (She lay down.)"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u009",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 9,
+          "description": "Source block 9: ஸ்வரம் கொண்ட வீணை அவன் கொண்டு மீட்ட; உளம் எங்கும் நல்ல உயிர் நாதம் கேட்க; உறவென்ற ராகம்; அரங்கேற்றம் ஆக—"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The veena holding melody",
+          "he took and plucked;",
+          "through all the heart a fine",
+          "living resonance sounded;",
+          "the raga called union",
+          "came to the stage —"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u010",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 10,
+          "description": "Source block 10: இன்பம் என்னும் சந்தம் — தன் பாட்டாகப் பூங்கோதை தாலாட்டினாள்!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The rhythm called",
+          "pleasure — as her",
+          "song, the flower-maiden",
+          "sang a lullaby!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u011",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-004",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 11,
+          "description": "Source block 11: இன்னும் இன்னும் என்று—தன் காதாரத் தான் கேட்கப் பாராட்டினாள்! (படுத்தாள்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 46,
+            "printed_page": 45
+          },
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "“More, more,”",
+          "she said — to hear it",
+          "to her full,",
+          "she praised him! (She lay down.)"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u012",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 12,
+          "description": "Source block 12: (இருவரும் காதலில் மயங்கு கின்றனர் — விங்கன் பிடியில் உமா விழுகிறாள்!)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The two are intoxicated with love—Uma falls into Vingan’s embrace!)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s033-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-033.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "structural-caption",
+          "ordinal": 13,
+          "description": "Source block 13: [பொழுது விடிகிறது]"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 47,
+            "printed_page": 46
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "[Day breaks.]"
+      }
+    }
+  ]
+}

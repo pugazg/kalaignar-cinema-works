@@ -1,0 +1,633 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s028",
+  "scene_ordinal": 28,
+  "source_scene_id": "22-எ",
+  "scene_status": "verified",
+  "unit_count": 20,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s028-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sadaiya! Light the lamp!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (அதுவரையில் கம்பளிச் சட்டையுடன் வண்டி ஓட்டிக்கொண்டிருந்த விங்கன், தீக்குச்சியைப் பொருத்த அந்த ஒளியில் அவன் முகத்தைக்கண்டு உமா, வியப்பும் திக"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Until then Vingan has been driving the carriage in a woollen coat. He strikes a match; in that light Uma sees his face and is astonished and startled.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How did you come? What happened to Sadaiyan?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I too wanted to look around the estate!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "For that... (Uma gets down from the carriage) What kind of game is all this? You are behaving without knowing my nature?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (இந்தப் பேச்சுக்கிடையே வண்டியின் லாந்தர் விளக்கு ஏற்றப்படுகிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(During this exchange the carriage lantern is lit.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, if you do not like it... I will go back right now... (He starts to get down and leave.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Very proper indeed.. Will you leave me alone to suffer in the dark?... (turning toward the road) Oh dear... we have even taken the wrong road!... Light the lamp!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (என்று விளக்கை எடுத்துக்கொண்டு கீழே இறங்கி, அங்குள்ள மைல் கல்லைப் பார்க்கிறாள்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She takes the lamp, gets down and looks at the milestone there...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u010",
+      "kind": "written-text",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "written-text",
+          "ordinal": 4,
+          "description": "Source block 4: “டேவிட் துரை எஸ்டேட் பங்களாவுக்குப் போகும் வழி!” — என்று போர்டில் விளக்கின் உதவியால் எழுத்துக்களைப் படிக்கிறாள்."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "“Way to David Durai’s estate bungalow!” — she reads the letters on the sign by the light of the lamp."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 5,
+          "description": "Source block 5: நம்ம ஜமீன் எஸ்டேட்டுக்குப் போற வழியை இருபது மைலுக்கு அப்பாலேயே தவற விட்டாச்சு!..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "We missed the road to our estate twenty miles back!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Whose fault is it that no one showed the way?.. I am new!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What do we do now?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What do we do?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We will just have to sit here until daybreak!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm! We can sit here. But it is a frightening forest! I will suggest one way.. David Durai, who introduced me to your father, has a bungalow right here!.. Very nearby!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It is written right on this stone!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We can go there and stay for the night!.. In the morning we can return to the estate!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s028-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-028.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-028.md",
+        "source_record_id": "vandikkaran-magan-s028-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 41,
+            "printed_page": 40
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Get into the carriage!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

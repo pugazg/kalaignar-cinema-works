@@ -1,0 +1,811 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s032",
+  "scene_ordinal": 32,
+  "source_scene_id": "24-பி",
+  "scene_status": "verified",
+  "unit_count": 25,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s032-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: டேவிட் மலைப்பங்களா உட்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Interior of David’s hill bungalow."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன் விசிலடித்தபடி உள்ளே வந்து புத்தக அலமாரியிலிருந்து ஒரு புத்தகத்தை எடுக்கிறான். உமா கட்டிலில் படுத்திருக்கிறாள். விங்கன் உமாவைப் பார்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan comes in whistling and takes a book from the bookcase. Uma is lying on the bed. Vingan looks at Uma.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 44,
+            "printed_page": 43
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh dear! Tch! Tch!... Tch!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (உமா கட்டிலில் படுத்திருக்கிறாள். கண்ணைத் திறந்து பார்க்கிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma lies on the bed and opens her eyes.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 4,
+          "description": "Source block 4: ஆஹா! ஆஹா!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Aha! Aha!"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (உமா பார்த்தல்...திரும்பிப் படுத்தல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma looks... then turns over and lies facing away.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன் குரல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bravo!... The beginning itself is splendid... excellent!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (உமாவின் முதுகுப்புறம் இந்தக் குரல் ஒலிக்கிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(This voice sounds from behind Uma.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is... excellent?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The rear part is splendid!... I mean, the latter part of this story is very good!... I was not talking to you!... I am reading and enjoying it by myself!..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The Tamil jokes on `பின்பகுதி`, meaning the latter/rear part; English preserves both senses as closely as possible without adding a new source claim."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you always read a book upside down?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am always more interested in knowing the ending! I read the beginning of the story only afterward...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What book is it—at least tell me that!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uh-uh!... I must not tell you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is a sex story...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (விங்கன் புத்தகத்தை முணுமுணுவென்று மந்திரம் ஜபிப்பதைப் போல் படித்துக்கொண்டிருக்கிறான்...சிரிக்கிறான் — ஓகோ! ஓகோ!! என்கிறான்—பொறுத்துப் பொறுத"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan keeps reading the book in a low mumble as though chanting a mantra... He laughs—says “Oh-ho! Oh-ho!!” Uma endures it for a while and then looks at him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You are mumbling the mantra like a frog in the rainy season—why not read a little louder?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Can I read a sex story like a Margazhi-month bhajan, loudly enough for everyone's ears to hear?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u020",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Source block 8: (புத்தகத்தில் கண்ணைப் பாய்ச்சி)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He fixes his eyes on the book.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 9,
+          "description": "Source block 9: அதிலும் இந்த இடம் இருக்கே....ஆகா! ஆகா! என்ன சுவை! என்ன சுவை! தேன் கலந்து, பால் கலந்து, செங்கரும்புச் சாறு கலந்து, என் ஊன் கலந்து, உயிர் கலந்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "And this part here.... Aha! Aha! What flavour! What flavour! Honey mixed, milk mixed, red-sugarcane juice mixed, my flesh mixed, life mixed—a sweetness that never cloys!"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That is exactly what I am asking you to read—or give it here; I will read it myself.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 10,
+          "description": "Source block 10: (எனப் புத்தகத்தைப் பிடுங்கத் தாவிப் போகிறாள்—புத்தகத்தை அவளிடம் தராமல்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Saying so, she springs forward to snatch the book—he does not give it to her...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-032.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": "vandikkaran-magan-s032-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Good heavens! How angry you get. Do you know what is written in this? I will read it—listen!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s032-u025",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-032.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 11,
+          "description": "Source block 11: (விங்கன் பேசுகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 45,
+            "printed_page": 44
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan speaks.)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s030",
+  "scene_ordinal": 30,
+  "source_scene_id": "24",
+  "scene_status": "verified",
+  "unit_count": 25,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s030-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: டேவிட் மலைப்பங்களா உட்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Interior of David’s hill bungalow."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கனுக்கு முன்பு, உள்ளே வந்த உமா, அந்த அறையில் உள்ள கனல் அடுப்புக்கருகே சென்று குளிர் காய்ந்து கொண்டிருக்கும்போது விங்கன் உள்ளே நுழைகிறான"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma, who entered before Vingan, warms herself beside the coal stove in the room. Vingan enters.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, Uma, are you very cold?... Shall I make you a hot cup of tea?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I do not want anything!... I am not hungry or anything!... I only want to lie down and sleep!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (விங்கன் சுற்றுமுற்றும் பார்க்கிறான். ஒருகட்டில், ஒருரெண்டு சேர், நாற்காலிகள் மட்டுமே இருக்கின்றன.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan looks around. There is only one bed, one or two chairs and stools.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh dear.. There is only one bed too!.. All right, never mind.. You sleep on the bed!... I will stretch myself out on this sofa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! No! No... no!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why? Then you sleep on the sofa and I will sleep on the bed.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No!... That is not what I meant!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(pretending guilelessly not to understand) Then both of us will sleep on the same bed!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Shut up!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, yes, that would not look very good, would it... All right, Uma, you decide—who sleeps on the bed? Who sleeps on the sofa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There is no problem at all. I will sleep on the bed in here! You sleep outside on the veranda!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo.. outside?.. If I sleep there all my bones will shiver and rattle!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All your bones will shiver and rattle... ah!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes!... All my teeth will chatter like a telegraph!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your teeth will chatter like a telegraph? Here!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u018",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (என்று விங்கனிடம் கம்பளியையும் தலையணையையும் உமா கொடுக்கிறாள். விங்கன் வெளியிலே வந்து கட்டிலை விரிக்கிறான். ஜம்பு வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Saying this, Uma gives Vingan a blanket and pillow. Vingan comes outside and makes up a bed. Jambu arrives.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜம்பு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, sir! You are lying here in this cold? There is a heater inside, isn't there!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm!.. The heater inside is much too hot! That is why I am sleeping outside! Go, man! You are something else!.. Go! Come here! Will you do me a favour?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜம்பு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What favour? To get you inside?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u022",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (ஜம்புவின் காதில் விங்கன் ஏதோ சொல்ல அவன் சிரிக்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan whispers something in Jambu’s ear; Jambu laughs.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (உமா உள்ளே படுத்திருக்க யானை பிளிறும் சப்தம் கேட்டு பயப்படுகிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma lies inside. Hearing the trumpeting sound of an elephant, she becomes frightened.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-030.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": "vandikkaran-magan-s030-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "It sounds like an elephant! Roar!... Roar!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s030-u025",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s030",
+      "scene_ordinal": 30,
+      "source_scene_id": "24",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-030.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (ஜம்பு கத்துதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 43,
+            "printed_page": 42
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Jambu roars.)"
+      }
+    }
+  ]
+}

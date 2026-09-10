@@ -1,0 +1,45 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s027",
+  "scene_ordinal": 27,
+  "source_scene_id": "22",
+  "scene_status": "verified",
+  "unit_count": 1,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s027-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s027",
+      "scene_ordinal": 27,
+      "source_scene_id": "22",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-027.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-027.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (பல பகுதிகளில் வண்டி போய்க்கொண்டிருக்கிறது. உமா, ஏதோ ஒரு புத்தகத்தை வண்டியில் படித்துக்கொண்டு போகிறாள். பொழுது போய்க்கொண்டே இருக்கிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 40,
+            "printed_page": 39
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The carriage keeps travelling through several places. Uma rides along reading some book in the carriage. Time keeps passing.)"
+      }
+    }
+  ]
+}

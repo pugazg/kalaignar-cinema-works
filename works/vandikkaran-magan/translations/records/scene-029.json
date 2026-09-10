@@ -1,0 +1,363 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s029",
+  "scene_ordinal": 29,
+  "source_scene_id": "23",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s029-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: டேவிட் பங்களா வெளிப்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior of David’s bungalow."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (வண்டி நிற்கிறது...இருவரும் இறங்குதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The carriage stops... Both get down.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": "vandikkaran-magan-s029-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma, this is David Durai's bungalow!.. In summer he comes and stays here.. I have come here too!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (கேட்டைத் திறந்து காம்பவுண்டுக்குள் வந்தவாறு...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(They open the gate and enter the compound...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 4,
+          "description": "Source block 4: ஜம்பு! ஜம்பு!..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Jambu! Jambu!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (வேலைக்கார ஜம்பு ஓடிவருதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Servant Jambu comes running.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": "vandikkaran-magan-s029-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜம்பு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sir! Sir! Is it you? Come, come—who is madam?.. Have you got married, sir?.. What, sir, you did not even send me an invitation!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": "vandikkaran-magan-s029-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(covering Jambu's mouth) Hey, hey!.. Keep quiet!.. Uma!.. You go inside!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": "vandikkaran-magan-s029-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜம்பு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sir!.. You two are a very good match, sir!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": "vandikkaran-magan-s029-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right! All right!.. Give me the bunch of keys... and first arrange some food!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s029-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-029.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-029.md",
+        "source_record_id": "vandikkaran-magan-s029-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜம்பு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 42,
+            "printed_page": 41
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will slaughter two chickens right now!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
