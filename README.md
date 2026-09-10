@@ -28,16 +28,16 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253` / first edition 1978**;
 - source credits: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
-- canonical Tamil source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90 / 0 open uncertainties**;
-- scene-heading inventory: **72/72 COMPLETE-VERIFIED**, including source scene `4-எ` at PDF 10; base 1–56, 17 suffix insertions, combined `45-46`;
-- scene derivatives: **72/72 COMPLETE-VERIFIED**;
-- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
-- immutable dialogue index: **744 records / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
-- dialogue safeguards: **15 zero-dialogue scenes / 3 cross-page records / 0 unlabelled speaker assignments / 0 of 16 reviewed non-colon candidates promoted**;
-- character/entity index: **READY-NEXT**;
-- song/performance, English and reader layers: **gated downstream**.
+- canonical Tamil: **87/87 COMPLETE-VERIFIED / 0 open uncertainties**;
+- scenes: **72/72 COMPLETE-VERIFIED / boundary QA PASS**;
+- immutable dialogues: **744 records / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **32 entities / 15 characters / 14 roles / 3 collectives / COMPLETE-VERIFIED / QA PASS**;
+- character coverage: **38/38 labels / 744/744 dialogue records / 0 unmapped / 0 unresolved**;
+- song/performance authorship: **READY-NEXT**;
+- English and reader layers: **gated downstream**.
 
-**Next:** Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.
+**Next:** Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.
+
 
 ## நாம் status
 

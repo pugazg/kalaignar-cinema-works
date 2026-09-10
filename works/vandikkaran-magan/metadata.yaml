@@ -117,9 +117,19 @@ status:
   dialogue_unlabelled_speaker_assignments: 0
   dialogue_qa: PASS
   dialogue_qa_path: works/vandikkaran-magan/notes/dialogue-index-qa.json
-  character_entity_index: ready-next
-  song_performance_authorship_gate: blocked
+  character_entity_index: complete-verified
+  character_entity_index_path: works/vandikkaran-magan/characters/index.json
+  character_entity_count: 32
+  character_entity_type_counts: character=15,role=14,collective=3
+  character_exact_source_labels: 38
+  character_label_coverage: 38/38
+  character_dialogue_record_coverage: 744/744
+  character_unmapped_labels: 0
+  character_unmapped_records: 0
+  character_qa: PASS
+  character_qa_path: works/vandikkaran-magan/notes/character-index-qa.json
+  song_performance_authorship_gate: ready-next
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
-next_action: "Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records."
+next_action: "Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings."

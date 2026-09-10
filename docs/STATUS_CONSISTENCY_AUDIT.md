@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is now closed through immutable dialogue indexing: **744 records / 38 exact source labels / QA PASS**, with 15 legitimate zero-dialogue scenes, 3 cross-page records preserved whole, 0 unlabelled speaker assignments, and 0/16 reviewed non-colon candidates promoted. Character/entity indexing is READY-NEXT. Ammayappan and the other recorded work checkpoints remain preserved.
+**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is now closed through character/entity indexing: **32 entities / 38/38 exact labels / 744/744 dialogue records / QA PASS**, with **0 unmapped labels, 0 unmapped records, 0 review entities and 0 unresolved entities**. Song/performance authorship is READY-NEXT. Ammayappan and the other recorded work checkpoints remain preserved.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -26,26 +26,22 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 744 dialogue records / 38 exact labels; QA PASS** | not-started | not-started |
+| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 744 dialogues / 38 labels; 32 character/entities / character QA PASS** | not-started | not-started |
 
 ## Vandikkaran Magan current checkpoint
 
 - canonical Tamil / visual / historical-glyph / final visual: **87/87 / 87/87 / 87/87 / 87/87 COMPLETE-PASS**;
 - source-visible scene-heading inventory: **72/72**, including PDF 10 `காட்சி — 4 எ.` / source scene `4-எ`;
-- scene derivatives: **72/72 COMPLETE-VERIFIED**;
-- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
-- canonical/joined scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
-- immutable dialogue index: **744 records / 38 exact source labels / COMPLETE-VERIFIED / QA PASS**;
-- delimiters: **`:—` 736 / `:` 8**;
-- zero-dialogue scenes: **15**;
-- cross-page dialogue records: **3** — source scenes `25`, `42-எ`, `54`;
-- reviewed anomalous non-colon candidates promoted: **0/16**;
-- unlabelled source blocks assigned a speaker: **0**;
-- duplicate dialogue IDs / speaker-label normalizations: **0 / 0**;
-- canonical Tamil or scene files modified by dialogue build: **0**;
-- character/entity index: **READY-NEXT**.
+- scene derivatives: **72/72 COMPLETE-VERIFIED / boundary ownership QA PASS**;
+- immutable dialogue index: **744 records / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
+- character/entity index: **32 entities / 15 characters / 14 roles / 3 collectives / COMPLETE-VERIFIED / QA PASS**;
+- character label / dialogue coverage: **38/38 / 744/744**;
+- character unmapped labels / records: **0 / 0**;
+- character review / unresolved entities: **0 / 0**;
+- upstream canonical Tamil / scene / dialogue mutation from character indexing: **0**;
+- song/performance authorship: **READY-NEXT**.
 
-**Next production phase:** Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.
+**Next production phase:** Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.
 
 ## Naam current checkpoint
 

@@ -62,6 +62,15 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 - source-unlabelled blocks assigned a speaker: **0**;
 - canonical Tamil / scene files changed by dialogue construction: **0**.
 
+## Character/entity derivative gate
+
+- exact source labels mapped: **38/38**;
+- immutable dialogue records mapped: **744/744**;
+- entities: **32 — 15 characters / 14 roles / 3 collectives**;
+- verified / review / unresolved entities: **32 / 0 / 0**;
+- unmapped labels / dialogue records: **0 / 0**;
+- dialogue/source labels rewritten: **0**.
+
 ## Exact next activity
 
-**Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.**
+**Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.**

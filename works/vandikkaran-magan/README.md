@@ -29,14 +29,16 @@ See `notes/scene-heading-audit.md`, `scenes/index.json`, `scenes/README.md`, and
 - cross-page dialogue records: **3**, each retained as one immutable record;
 - unlabelled source blocks assigned a speaker: **0**;
 - reviewed anomalous non-colon candidates promoted to dialogue: **0/16**;
-- character/entity index: **READY-NEXT**;
-- song/performance authorship: **BLOCKED pending character/entity closure**;
+- character/entity index: **COMPLETE-VERIFIED — 32 entities / 38/38 exact labels / 744/744 dialogue records / QA PASS**;
+- entity types: **15 named characters / 14 roles / 3 collectives**;
+- character mapping review / unresolved: **0 / 0**;
+- song/performance authorship: **READY-NEXT**;
 - English translation: **BLOCKED**;
 - reader/export / Reading Room: **BLOCKED**.
 
-See `dialogues/index.json`, `dialogues/README.md`, `notes/unlabelled-block-audit.json`, and `notes/dialogue-index-qa.json`.
+See `dialogues/index.json`, `characters/index.json`, `characters/README.md`, `notes/dialogue-index-qa.json`, and `notes/character-index-qa.json`.
 
 ## Exact next activity
 
-> **Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.**
+> **Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.**
 

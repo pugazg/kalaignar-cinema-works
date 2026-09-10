@@ -31,4 +31,4 @@ See `../notes/scene-boundary-ownership-qa.md`.
 
 ## Downstream gate
 
-Scene-text derivatives remain **COMPLETE-VERIFIED**. The downstream immutable dialogue index is now **COMPLETE-VERIFIED — 744 records / QA PASS**. Character/entity indexing is **READY-NEXT**.
+Scene-text derivatives remain **COMPLETE-VERIFIED**. Downstream dialogue indexing is **744 records / COMPLETE-VERIFIED / QA PASS** and character/entity indexing is **32 entities / 38/38 labels / 744/744 dialogue records / COMPLETE-VERIFIED / QA PASS**. Song/performance authorship is **READY-NEXT**.

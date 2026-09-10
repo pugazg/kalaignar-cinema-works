@@ -47,14 +47,19 @@ PDF 4–5 and PDF 88–90 are deliberately outside the scene layer. No canonical
 - unlabelled source blocks assigned a speaker: **0**;
 - duplicate dialogue IDs / speaker-label normalizations: **0 / 0**;
 - dialogue build checkpoint: `a7b80ccac2473b998b40bb05577a439fd970136b`;
-- character/entity index: **READY-NEXT**;
-- song/performance authorship gate: **BLOCKED pending character/entity closure**;
+- character/entity index: **COMPLETE-VERIFIED — 32 entities / 38/38 labels / 744/744 dialogue records / QA PASS**;
+- character/entity types: **15 named characters / 14 roles / 3 collectives**;
+- character/entity review / unresolved: **0 / 0**;
+- source label variants remain immutable upstream; interpretive merges exist only in `characters/`;
+- song/performance authorship gate: **READY-NEXT**;
 - English translation: **BLOCKED**;
 - reader/export / Reading Room: **BLOCKED**.
 
 The three verified cross-page records are `vandikkaran-magan-s035-d006` (source scene `25`, PDF 48→49), `vandikkaran-magan-s055-d004` (source scene `42-எ`, PDF 68→69), and `vandikkaran-magan-s070-d005` (source scene `54`, PDF 85→86). The 16 non-colon preflight candidates are source-visible punctuation/verse fragments and were not promoted to dialogue. No canonical Tamil or scene file was changed by dialogue construction.
 
+Character/entity mapping closed with **0** unmapped labels and **0** unmapped dialogue records. Source-supported mappings include `காளிங்` + `காளிங்க` → காளிங்கராயன், `சொக்` + `சொக்க` → சொக்கலிங்கம், and `ஜமீன்` + `ஜமீன்தார்` → ஜம்புலிங்க பூபதி. Possessive voice labels `கண்ணாயிரத்தின் குரல்`, `சடையன் குரல்`, and `விங்கன் குரல்` link to their named characters only in the interpretive layer. Generic roles/collectives remain categorical; `லிங்கன்` remains distinct from `விங்கன்`, and `ஜம்பு` remains distinct from `ஜம்புலிங்க பூபதி`.
+
 ## Exact next activity
 
-> **Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.**
+> **Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.**
 
