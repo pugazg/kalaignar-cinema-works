@@ -1,0 +1,41 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "english-translation-batch-002-005",
+  "status": "PASS",
+  "scene_ordinals": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_scene_ids": [
+    "2",
+    "3",
+    "4",
+    "4-எ"
+  ],
+  "verified_scenes": 4,
+  "verified_units": 48,
+  "unit_kind_counts": {
+    "dialogue": 35,
+    "stage-direction": 13
+  },
+  "immutable_dialogue_records_expected": 34,
+  "immutable_dialogue_records_linked": 34,
+  "source_unlabelled_spoken_units": 1,
+  "inferred_speaker_assignments": 0,
+  "performance_occurrences_expected": 0,
+  "performance_occurrence_links": 0,
+  "cross_page_units": 0,
+  "checks": {
+    "scene2_and_scene3_zero_dialogue_status_preserved": true,
+    "all_batch_immutable_dialogue_records_linked_exactly_once": true,
+    "reconciled_append_only_ids_d032_and_d033_preserved_in_source_order": true,
+    "source_unlabelled_scene4_speech_kept_unassigned_and_unlinked": true,
+    "structural_star_translated_as_prose": false,
+    "synthetic_scene_end_prose_added": false,
+    "song_or_authorship_invented": false,
+    "closed_tamil_scene_dialogue_character_song_records_modified_by_translation": false
+  },
+  "next_activity": "Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records."
+}

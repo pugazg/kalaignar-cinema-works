@@ -1,0 +1,79 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s003",
+  "scene_ordinal": 3,
+  "source_scene_id": "3",
+  "scene_status": "verified",
+  "unit_count": 2,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s003-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s003",
+      "scene_ordinal": 3,
+      "source_scene_id": "3",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-003.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source location caption `ஜமீன் தேவாலயம் வாயில்`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Entrance of the estate temple.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s003-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s003",
+      "scene_ordinal": 3,
+      "source_scene_id": "3",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-003.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-003.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Carriage arrival, guard greeting and Sadaiyan following with the offering tray."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The zamindar’s carriage stops. Sadaiyan gets down first and respectfully helps the zamindar alight. When the zamindar reaches the entrance, the middle-aged guard there bows in greeting and opens the door. Sadaiyan follows behind the zamindar with great reverence, carrying on a silver tray a coconut, fruit and incense.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

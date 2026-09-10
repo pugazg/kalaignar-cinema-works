@@ -1,0 +1,1205 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s005",
+  "scene_ordinal": 5,
+  "source_scene_id": "4-எ",
+  "scene_status": "verified",
+  "unit_count": 39,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s005-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source location caption `தேவாலய அந்தரங்க அறை`."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Private room of the temple.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Opening view of Maragatham in the private room."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The zamindar enters... an opulent room... On the cot, Maragatham lies turned the other way, in decorative attire, with a strikingly alluring appearance...)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(in a coaxing voice toward the cot) Maragatham!... Asleep? Ah!... Even the beauty of you lying turned away is endlessly delightful!.. (going closer) Is it sleep? Sulking?... I’ll die without seeing your radiant face!... My sugarcane vine! Turn this way a little!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Maragatham turns and rises."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Maragatham turns and sits up....)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you know how long I’ve been waiting?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I too flew here yearning to embrace my lovely peahen... but meanwhile, as usual, a herd of donkeys with mercy petitions at the estate palace gate!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Couldn’t you have chased them away and come quickly?... I’m burning here with the torment of separation—go away!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source stage direction omits an explicit subject; the English preserves that omission rather than assigning one."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Comes forward to touch.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(drawing away) Maragatham! Don’t touch my hand! Pour a little “Dettol” on my hand!... (going to the washbasin) Some poet—and I wiped his child’s nose... damn it!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Hand-washing action after the Dettol request."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Maragatham pours Dettol; the zamindar washes his hands. Maragatham gives him a towel and he wipes them...)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then whose grievances did you settle today?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "An old woman gets a monthly allowance of one hundred rupees for as long as she lives.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That much money!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That old woman won’t live even one more month!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm... then... any new order...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I’ve issued a new order that from now on not even the smell of liquor should enter our estate!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d032",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh!.. (As she says this, she turns the bookcase—the cabinet of liquor bottles swings into view. Maragatham pours some into a glass and gives it to the zamindar...)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Maragatham... you too, a little... (He places the glass at her lips. She drinks. As the zamindar drinks from the same glass) The taste of liquor and the taste of Maragatham’s lips—both together give me a double intoxication... Ah!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You yourself are a double man, aren’t you!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "So that was a jab... are you making fun of me?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I said you alone have the strength of two men... isn’t that right, my beloved?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Maragatham! You’re speaking from your own experience, aren’t you?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d033",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go away!.. (Shyly she lies back on the bed. The zamindar follows and embraces her..)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Maragatham... where is it?.. (He puckers his lips, asking for a kiss.) Give me one...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uh-uh... I’m shy!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What’s this sudden new shyness! There’s no one here—just the two of us... give it!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There’s a third person too!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A third person? What are you saying?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Watching from inside my belly..?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(startled) What? Pregnant?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes... four months!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Four months? Maragatham!... What foolishness is this? Why haven’t you got rid of it until now? You’re only telling me now?... Are you planning to claim a quarter share of the estate property?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who wants your property? I don’t need it!... I want a child!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What did you say? Only if I leave you alive can you have children and all that... I’ll send you where you belong right now!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u035",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Strangling, warning shot and revolver aim before Maragatham’s threat."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(He grips Maragatham by the throat and throws her onto the bed. Maragatham, fallen on the bed, takes the revolver from beneath the pillow, first fires upward, and then aims at the zamindar.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u036",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Jambuling Bhoopathi!... Until now Maragatham was a fawn that leapt and played in your lap!... From now on, a tiger cub that will drink your life!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u037",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(frightened and shaken) Maragatham, forgive me!... Let us come to an understanding between ourselves..?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u038",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "From now on, neither I nor the child I’m going to bear will live here! We will live in the estate palace!... That is where we are going to live—",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s005-u039",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s005",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-005.md",
+        "source_record_id": "vandikkaran-magan-s005-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Maragatham!... In the estate palace, you’ll be the teacher who gives lessons to my daughter Uma!... We can live that way!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

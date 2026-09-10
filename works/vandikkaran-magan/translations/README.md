@@ -1,17 +1,16 @@
 # வண்டிக்காரன் மகன் — English translation
 
-**Status:** **PILOT-VERIFIED / QA PASS**
+**Status:** **VERIFIED THROUGH ARCHIVE SCENE 5 / QA PASS**
 
-- scene 1 / 72 verified;
-- **40** translation units;
-- **31/31** scene-1 immutable dialogue records linked exactly once;
-- **1** source-unlabelled spoken unit retained without speaker inference;
-- **8** stage/location units;
-- **0** scene-1 performance occurrences;
+- scenes verified: **5 / 72** — source scene IDs `1`, `2`, `3`, `4`, `4-எ`;
+- translation units: **88** — **67 dialogue / 21 stage-direction**;
+- reconciled immutable dialogue records linked: **65/65 for translated scenes**;
+- source-unlabelled spoken units retained without speaker inference: **2**;
+- performance occurrence links in scenes 1–5: **0**;
 - upstream source-layer mutations caused by translation: **0**.
 
-See `records/scene-001.json`, `pilot-qa.json`, and `PILOT_REVIEW.md`.
+Scene 1 remains the verified pilot. `batch-002-005-qa.json` closes the first post-pilot batch and preserves the reconciled append-only dialogue IDs in source order. Structural `★` separators are not translated into synthetic prose.
 
 ## Next
 
-Translate and verify archive scene ordinals 2–5 (source scene IDs `2`, `3`, `4`, `4-எ`) as the first bounded post-pilot English batch. Preserve source order and exact Tamil label/provenance metadata; link each explicit utterance to its reconciled immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.
+Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.

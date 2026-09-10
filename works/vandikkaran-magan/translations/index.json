@@ -1,26 +1,35 @@
 {
   "work_id": "vandikkaran-magan",
   "target_language": "en",
-  "status": "pilot-verified",
+  "status": "verified",
   "total_scene_derivatives": 72,
-  "verified_scenes": 1,
+  "verified_scenes": 5,
   "verified_scene_ordinals": [
-    1
+    1,
+    2,
+    3,
+    4,
+    5
   ],
   "verified_source_scene_ids": [
-    "1"
+    "1",
+    "2",
+    "3",
+    "4",
+    "4-எ"
   ],
-  "translation_units": 40,
+  "translation_units": 88,
   "unit_kind_counts": {
-    "dialogue": 32,
-    "stage-direction": 8
+    "dialogue": 67,
+    "stage-direction": 21
   },
-  "immutable_dialogue_records_linked": 31,
-  "source_unlabelled_spoken_units": 1,
+  "immutable_dialogue_records_linked": 65,
+  "source_unlabelled_spoken_units": 2,
   "performance_occurrence_links": 0,
   "cross_page_units": 0,
   "schema": "schema.json",
   "records_directory": "records/",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Translate and verify archive scene ordinals 2–5 (source scene IDs `2`, `3`, `4`, `4-எ`) as the first bounded post-pilot English batch. Preserve source order and exact Tamil label/provenance metadata; link each explicit utterance to its reconciled immutable dialogue ID exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records."
+  "latest_batch_qa": "batch-002-005-qa.json",
+  "next_activity": "Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records."
 }
