@@ -85,8 +85,7 @@ ND = {
 {'text':'(During this exchange the carriage lantern is lit.)'},
 {'text':'(She takes the lamp, gets down and looks at the milestone there...)'},
 {'text':'“Way to David Durai’s estate bungalow!” — she reads the letters on the sign by the light of the lamp.','locator_kind':'written-text'},
-{'kind':'source-unlabelled','text':'We missed the road to our estate twenty miles back!...'},
-{'text':'(The carriage starts moving.)'}
+{'kind':'source-unlabelled','text':'We missed the road to our estate twenty miles back!...'}
 ],
 29: [
 {'text':'Exterior of David’s bungalow.','locator_kind':'location-caption'},
