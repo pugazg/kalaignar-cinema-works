@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 49–63
+# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 64–78
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -29,8 +29,8 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–48 / 45 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **42**;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–63 / 60 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **27**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
 - final visual verification: **NOT-STARTED**;
@@ -39,9 +39,9 @@ Do not interleave phases.
 
 ## Latest dedicated glyph batch
 
-PDF **34–48** was re-read as the first user-authorized **15-page** dedicated historical-glyph iteration. Every occurrence of the mandated families on those pages was checked directly against enlarged controlling-source pixels. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
+PDF **49–63** was independently re-read as a 15-page dedicated historical-glyph iteration. Every occurrence of the mandated families was checked directly against controlling-source pixels. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
-Representative confirmations include `காளிங்கராயனைக் / அவனைத்`; `கலைச்சிட்டே / விங்கனை / பிள்ளையாரப்பா`; `விளையாட்டே / மாலை / சேலை / முத்தாடினான்`; `பிடிக்கவேணா`; `என்னை / காலையில`; `தலையணையையும் / யானை`; `மிருகங்களைப் / ஆணை`; `கண்ணைத் / தவளை / பஜனை`; `வீணை / தாலாட்டினாள்`; and `பிள்ளையும் / அணிவிக்கிறான் / ஆனானோ`.
+Representative confirmations include `சடையனை / விங்கனைப்`; `வீட்டுப்பிள்ளை / மாப்பிள்ளை / தலையா`; `என்னைத் / தலைப்பகுதி`; `புண்ணை / அன்னைக்கே`; `தகப்பனார் / வலைவிரிப்பார்த்து / தலைமயிரைப்`; `சொன்னாய் / இலை / காலை`; `உன்னை / மகளைப் / விங்கனைத்`; `தோல்விகளையும் / அவளைப்`; `சேலைத் / பூனையைவிட / உன்னால / கண்ணாயிரமும்`; `கட்டளையாம்மா / தன்னை`; `கலைந்தால் / தானியங்களை / எத்தனையாவது`; `முன்னால் / வில்லாவளைக்கப் / மாப்பிள்ளை`; and `பதினைந்து / விலையுயர்ந்த / நூறாவது`.
 
 ## Dedicated historical-glyph rule
 
@@ -53,4 +53,4 @@ Inspect enlarged source pixels occurrence by occurrence. Never global-replace. D
 
 ## Exact next activity
 
-> **Process PDF 49–63 as the next fifteen-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 60/87 with next batch PDF 64–78, commit/push the fifteen-page batch to `main`, then synchronize checkpoint docs. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90.**
+> **Process PDF 64–78 as the next fifteen-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 75/87 with final remainder PDF 79–90, commit/push the fifteen-page batch to `main`, then synchronize checkpoint docs. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90.**

@@ -52,8 +52,8 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - visually verified contiguous range: **PDF 4–90**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **PDF 4–48 / 45 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **42**;
+- dedicated historical-glyph verification: **PDF 4–63 / 60 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **27**;
 - active dedicated glyph batch size: **15 source pages**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
@@ -61,16 +61,15 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Dedicated historical-glyph batch 6 — PDF 34–48
+## Dedicated historical-glyph batch 7 — PDF 49–63
 
-- first user-authorized **15-page** dedicated glyph iteration;
 - all fifteen pages were independently re-read against the controlling scan under the dedicated gate;
 - every occurrence of the mandated glyph families was checked occurrence by occurrence;
-- representative source confirmations include `காளிங்கராயனைக்`, `அவனைத்`, `கலைச்சிட்டே`, `விங்கனை`, `பிள்ளையாரப்பா`, `விளையாட்டே`, `மாலை`, `சேலை`, `முத்தாடினான்`, `பிடிக்கவேணா`, `என்னை`, `காலையில`, `தலையணையையும்`, `யானை`, `மிருகங்களைப்`, `ஆணை`, `கண்ணைத்`, `தவளை`, `பஜனை`, `வீணை`, `தாலாட்டினாள்`, `பிள்ளையும்`, `அணிவிக்கிறான்`, and `ஆனானோ`;
+- representative source confirmations include `சடையனை`, `விங்கனைப்`, `வீட்டுப்பிள்ளை`, `மாப்பிள்ளை`, `தலையா`, `என்னைத்`, `தலைப்பகுதி`, `புண்ணை`, `அன்னைக்கே`, `தகப்பனார்`, `வலைவிரிப்பார்த்து`, `தலைமயிரைப்`, `சொன்னாய்`, `இலை`, `காலை`, `உன்னை`, `மகளைப்`, `விங்கனைத்`, `தோல்விகளையும்`, `அவளைப்`, `சேலைத்`, `பூனையைவிட`, `உன்னால`, `கண்ணாயிரமும்`, `கட்டளையாம்மா`, `தன்னை`, `கலைந்தால்`, `தானியங்களை`, `எத்தனையாவது`, `முன்னால்`, `வில்லாவளைக்கப்`, `பதினைந்து`, `விலையுயர்ந்த`, and `நூறாவது`;
 - canonical page-text glyph corrections in this batch: **0**;
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 49–63 as the next fifteen-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 60/87 and next batch PDF 64–78; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
+> **Run dedicated historical-glyph verification on PDF 64–78 as the next fifteen-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 75/87 and set the final remainder to PDF 79–90; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
