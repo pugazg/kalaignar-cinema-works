@@ -1,0 +1,45 @@
+name: Vandikkaran Magan English scene 1 pilot once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-translation-pilot-once.yml']
+permissions:
+  contents: write
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and verify scene 1 English pilot
+        run: python works/vandikkaran-magan/scripts/build_translation_pilot.py
+      - name: Verify source-layer gates remain closed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          w=Path('works/vandikkaran-magan')
+          d=json.loads((w/'dialogues/index.json').read_text(encoding='utf-8'))
+          c=json.loads((w/'characters/index.json').read_text(encoding='utf-8'))
+          s=json.loads((w/'songs/index.json').read_text(encoding='utf-8'))
+          t=json.loads((w/'translations/index.json').read_text(encoding='utf-8'))
+          q=json.loads((w/'translations/pilot-qa.json').read_text(encoding='utf-8'))
+          assert d['dialogue_record_count']==773 and d['status']=='complete-verified-reconciled'
+          assert c['dialogue_record_coverage']=='773/773' and c['label_coverage']=='38/38'
+          assert s['retained_performance_records']==9 and s['status']=='complete-verified-source-only'
+          assert t['status']=='pilot-verified' and t['verified_scenes']==1 and t['translation_units']==40
+          assert q['status']=='PASS' and q['immutable_dialogue_records_linked']==31
+          print('PASS: corrected source derivatives + English scene 1 pilot')
+          PY
+      - name: Commit pilot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/vm-translation-pilot-once.yml
+          git add -A
+          git commit -m 'Verify Vandikkaran Magan English scene 1 pilot [skip ci]'
+          git push
