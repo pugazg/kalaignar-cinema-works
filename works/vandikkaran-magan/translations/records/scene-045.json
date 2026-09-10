@@ -1,0 +1,45 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s045",
+  "scene_ordinal": 45,
+  "source_scene_id": "33-எ",
+  "scene_status": "verified",
+  "unit_count": 1,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s045-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s045",
+      "scene_ordinal": 45,
+      "source_scene_id": "33-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-045.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-045.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (ஜமீன்தார் அறையில் தூங்கிக் கொண்டிருக்க, உமா மெதுவாக வந்து சாவிக்கொத்தை எடுத்துச் செல்கிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(While the zamindar is asleep in his room, Uma comes softly, takes the bunch of keys and leaves.)"
+      }
+    }
+  ]
+}

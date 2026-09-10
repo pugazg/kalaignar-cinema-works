@@ -94,12 +94,14 @@ ND = {
 ],
 54: [
 {'text':'Entrance to the estate temple.','locator_kind':'location-caption'},
-{'text':'(Vingan, Kannaayiram, the poet and elders of the town arrive at the temple entrance. A guard stands blocking them.)'},
+{'text':'(Vingan, Kannaayiram, the poet and the town elders run up... Sadaiyan follows a little behind them... Vingan comes near the door.)'},
+{'text':'(The guard extends a spear-like implement in his hand across the way.)'},
 {'text':'(Vingan pushes the guard.)'},
 {'text':'(Vingan lifts and throws aside the guard who blocks him. Vingan, the others, Kannaayiram and the poet pound on the door and ram it hard. The door opens. Everyone enters.)'}
 ],
 55: [
-{'kind':'performance-cue','occurrence_id':'vandikkaran-magan-perf-007','text':'Interior of the temple. (The poet’s daughter Poongodi sits bent forward as a bride; a bridegroom sits beside her. Mantra sound — wedding dais — those who see it stand astonished.)'},
+{'text':'Interior of the temple.','locator_kind':'location-caption'},
+{'kind':'performance-cue','occurrence_id':'vandikkaran-magan-perf-007','text':'(The poet’s daughter Poongodi sits bent forward as a bride; a bridegroom sits beside her. Mantra sound — wedding dais — those who see it stand astonished.)'},
 {'text':'(One by one everyone leaves. Sadaiyan goes with them. The poet and Vingan remain.)'},
 {'text':'(Vingan leaves quickly.)'},
 {'text':'(After he leaves, the door is closed.)'},

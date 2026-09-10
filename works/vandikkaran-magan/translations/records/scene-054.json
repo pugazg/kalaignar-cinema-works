@@ -1,0 +1,301 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s054",
+  "scene_ordinal": 54,
+  "source_scene_id": "42",
+  "scene_status": "verified",
+  "unit_count": 9,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s054-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் தேவாலய வாயிற்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Entrance to the estate temple."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன், கண்ணாயிரம், புலவர், மற்றும் ஊர்ப்பெரியவர்கள் ஓடிவருதல்...சடையனும் அவர்களுக்குச் சற்றுப் பின்னால் தொடர்ந்து வருகிறான்...கதவருகே விங"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan, Kannaayiram, the poet and the town elders run up... Sadaiyan follows a little behind them... Vingan comes near the door.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-054.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": "vandikkaran-magan-s054-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey, move aside! Open the door!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (காவலன், தன்னகையில் உள்ள ஈட்டிபோன்ற ஒருகருவியைக் குறுக்கே நீட்டியபடி)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The guard extends a spear-like implement in his hand across the way.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-054.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": "vandikkaran-magan-s054-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காவலன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Without Zamindar ayya's order... I cannot let anyone inside...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-054.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": "vandikkaran-magan-s054-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Fool! If the woman crying inside, prey to the zamindar's lust, were your own daughter... you would not wait for permission to enter! You would smash this door down! Hmm.. let go of me!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (காவலனைத் தள்ளுகிறான்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan pushes the guard.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-054.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": "vandikkaran-magan-s054-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காவலன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I can't! (He blocks him.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s054-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s054",
+      "scene_ordinal": 54,
+      "source_scene_id": "42",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-054.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (தடுக்கும் காவலனை விங்கன் தூக்கி எறிதல். விங்கனும், மற்றவர்களும், கண்ணாயிரமும், புலவரும் கதவைத் தடதடவென தட்டுதல். ஓங்கி மோதுதல். கதவு திறக்க"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan lifts and throws aside the guard who blocks him. Vingan, the others, Kannaayiram and the poet pound on the door and ram it hard. The door opens. Everyone enters.)"
+      }
+    }
+  ]
+}

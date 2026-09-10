@@ -1,0 +1,827 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s044",
+  "scene_ordinal": 44,
+  "source_scene_id": "33",
+  "scene_status": "verified",
+  "unit_count": 26,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s044-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 2,
+          "description": "Source block 2: முதல் இரவு அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Bridal-night room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (விங்கன், தான் நின்ற இடத்திலிருந்து அவளைப் பார்க்கிறான்; அவளும் பார்க்கிறாள். அருகே வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan looks at her from where he stands; she looks at him too. He comes closer.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!... What these sweet lips play is a true yaazh; for my goal to be fulfilled... whenever I tell you anything... without asking why... without struggling to understand any reason... you must do exactly what I say!.. You must give exactly what I ask!..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source metaphorically calls the lips a `யாழ்` (yaazh, the classical Tamil harp); English retains the instrument name in transliteration."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I know what you are going to ask now... and I am ready to give it even without your asking...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (அவன் கன்னத்தருகே இதழ்களைக் குவித்து நகருகிறாள்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She moves toward his cheek with her lips pursed...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 58,
+            "printed_page": 57
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not this, Uma!... This is the honey!.. rock candy!.. grapes!.. that you offer for a journey to the city of pleasure! But for my journey toward the city of ideals to reach its end... I am saying that whatever I ask or tell you, you must carry it out without refusing!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Certainly!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(holding out his hand) Where is it?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you doubt me?... I swear!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (கை அடித்துத் தருகிறாள். கைகள் இறுகுகின்றன..)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She gives him her hand in pledge. Their hands clasp tightly.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Aththan!.....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (உதயமாகிறது)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Dawn breaks.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (அயர்ந்து கட்டிலில் உறங்கும் இருவரில், உமா எழுந்து ஆடை திருத்திப் புறப்படுகிறாள். அவள் சேலைத் தலைப்பை இழுத்தவாறு....)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Of the two sleeping exhausted on the bed, Uma wakes, straightens her clothes and starts to leave, drawing the end of her sari around herself....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where are you going, Uma?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Wait! I'll bring bed coffee!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(sitting up) Coffee... later!... Uma!... First go to your father's room!.....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The bunch of keys to the estate granary that he has... bring it just as it is... without his knowing!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The keys? Why?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Didn't I tell you last night that you must not ask for any reason! That no question of why or what for should arise!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right... but how am I to go into Appa's room...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You can do it!... With your silken feet, softer than a cat's, walk without making a sound... and bring that bunch of keys!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 8,
+          "description": "Source block 8: (உமா சிறிது தயக்கம்) ஏன் உமா? முடியாதா?..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "(Uma hesitates a little.) Why, Uma? Can’t you do it?..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s044-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s044",
+      "scene_ordinal": 44,
+      "source_scene_id": "33",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-044.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-044.md",
+        "source_record_id": "vandikkaran-magan-s044-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No... no.. I'm going right now!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

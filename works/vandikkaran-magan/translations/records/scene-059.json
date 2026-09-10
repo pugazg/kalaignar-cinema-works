@@ -1,0 +1,271 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s059",
+  "scene_ordinal": 59,
+  "source_scene_id": "47",
+  "scene_status": "verified",
+  "unit_count": 8,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s059-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: சுற்றடைப்புள்ள ஒரு மைதானம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "An enclosed ground."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கனும், கண்ணாயிரமும் காளையைப் பழக்குகிறார்கள்...காளை, சீறிப்பாய்ந்து அவர்களால் முடுக்கி விடப்பட்டு முன்னோக்கி ஓடுகிறது...ஒரு உருவத்தைப் "
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan and Kannaayiram train the bull... The bull charges fiercely, is urged forward by them and runs ahead... It gores a figure. It is not the zamindar, but a dummy resembling the zamindar.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-059.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": "vandikkaran-magan-s059-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Excellent! That's it!.... Kannaayiram!.. The bull has learned!... Now comes the next lesson it has to learn!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சிரிக்கிறான்) ஹா! ஹா! ஹா! ஹா!...."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He laughs.) Ha! Ha! Ha! Ha!...."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (அப்போது ஒரு சிறுமி ஓடிவந்து....)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(At that moment a little girl runs in....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-059.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": "vandikkaran-magan-s059-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சிறுமி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Anna! Anna!... Uma akka has given birth to a baby!... The baby...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-059.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": "vandikkaran-magan-s059-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah!..... (joy)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s059-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s059",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-059.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (விங்கன் ஓடி வருதல்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan runs off.)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s049",
+  "scene_ordinal": 49,
+  "source_scene_id": "37",
+  "scene_status": "verified",
+  "unit_count": 13,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s049-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: பதுக்கல் கிடங்கு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Hoarding warehouse."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன், தன்னுடன் வரும் கூட்டத்துடன் அங்கே வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan arrives there with the crowd following him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There, you can see it! That is... the hoarding warehouse of that daylight masquerader!... Inside are hundreds of thousands' worth of what belongs to you!... Come; I will take out and give you the food grain you need!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சாவியை கழற்றியபடி முன்னே நடக்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He walks forward, taking out the key.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (அங்கே ஒரு கூட்டத்தின் மத்தியில், ஜமீன்தாரும் காளிங்கனும் இருக்கிறார்கள். அரிசி, கோதுமை முதலிய தானியங்களை வாரி வாரி வழங்கிக் கொண்டிருக்கிறார"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(There, amid another crowd, stand the zamindar and Kalingan, distributing rice, wheat and other grains by the armful. Vingan stops in astonishment at the sight...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalinga! Give each person as much as they need!... What am I going to do keeping all this? Today is my birthday!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(looking sharply at the zamindar) Don't tell them outside which birthday it is!.. The whole year is your birthday—give generously to everyone—eat well, bless him and go! Come, everyone... take everything... come... take whatever is being given and praise our master as the great benefactor Pari before you go! Why are you standing there? Come...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (விங்கன் பின்னே நண்பர்கள் காளிங்கனிடம் ஓடுதல்...விங்கன், தனியாக நிற்கிறான். அருகே ஜமீன்தார் வருகிறார்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The friends behind Vingan run toward Kalingan... Vingan stands alone. The zamindar comes near him...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, son-in-law!... Have you ever at least read a story in which a goat played in front of a tiger?",
+        "mode": "prose-faithful",
+        "notes": [
+          "`வேங்கை` is a tiger and `வெள்ளாடு` a goat; the source uses the predator/prey image as a warning."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The time will come!.. The disguise will fall away! I will defeat you!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ha! Ha! Ha! Poor fellow, you are trying to bend the sky into a bow!... Impossible, son-in-law... impossible!...",
+        "mode": "prose-faithful",
+        "notes": [
+          "`வானத்தை வில்லாவளைக்க` is a hyperbolic image of attempting the impossible; English preserves the bow image."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We shall see!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s049-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s049",
+      "scene_ordinal": 49,
+      "source_scene_id": "37",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-049.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-049.md",
+        "source_record_id": "vandikkaran-magan-s049-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm!... We shall see!... This is my birthday vow!.. This Zamindar Aimpuling Bhoopathi will not lose to anyone—will never lose!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

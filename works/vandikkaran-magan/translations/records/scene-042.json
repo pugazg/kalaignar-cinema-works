@@ -1,0 +1,45 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s042",
+  "scene_ordinal": 42,
+  "source_scene_id": "31",
+  "scene_status": "verified",
+  "unit_count": 1,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s042-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s042",
+      "scene_ordinal": 42,
+      "source_scene_id": "31",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-042.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-042.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (விங்கன் நீச்சல் குளத்தில் குளித்துக்கொண்டிருக்க காளிங்கன் துப்பாக்கியால் சுட, விங்கன் தப்புகிறான். பின்னர் காளிங்கன் அடியாட்களை ஏவிவிட விங்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(While Vingan is bathing in the swimming pool, Kalingan shoots at him with a gun; Vingan escapes. Kalingan then sends his henchmen after him; Vingan beats them too and gets away.)"
+      }
+    }
+  ]
+}

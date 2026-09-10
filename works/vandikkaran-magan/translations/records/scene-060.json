@@ -1,0 +1,923 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s060",
+  "scene_ordinal": 60,
+  "source_scene_id": "48",
+  "scene_status": "verified",
+  "unit_count": 21,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s060-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: குடிசைப் பகுதி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Hut settlement."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (குடிசைப்பகுதி மக்கள், விங்கன், உமா முதலியோர் ஆடிப் பாடி குழந்தைக்கு விழா எடுக்கிறார்கள்..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(People of the hut settlement, Vingan, Uma and others celebrate the child with song and dance..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: பாட்டின் இடையே சடையன், வண்டியோட்டி, ஜமீன்தாரும் காளிங்கனும் வருகிறார்கள்..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "In the middle of the song Sadaiyan drives in the carriage, bringing the zamindar and Kalingan..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: குடிசைப் பகுதியே விழாக் கோலமாக இருக்கிறது....இள மகளிர், வாலிபர் — அனைவரும் பாடியும் ஆடியும் குழந்தையை வாழ்த்துதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "The entire settlement is in festival dress.... Young women and young men all sing and dance, blessing the child.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u005",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 5,
+          "description": "Source block 5: (பாட்டு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_text": "(Song.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u006",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 6,
+          "description": "Source block 6: ஊரைத் திருத்த - ஒரு புள்ளே பொறந்தான்!- அப்பன் பேரை நிறுத்த - இரு கண்ணைத் தொறந்தான்! தாரை தம்பட்டம் கொட்டுங்கடி!- கைத் தாளம் தப்பாமே தட்டுங்க"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "To reform the town — a",
+          "child has been born! — To keep his father’s",
+          "name alive — he opened",
+          "both his eyes!",
+          "Beat the brass and drums,",
+          "girls! — Clap your",
+          "hands without missing",
+          "the beat, girls!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u007",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 7,
+          "description": "Source block 7: — ஊரைத்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— To reform the town"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-060.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": "vandikkaran-magan-s060-d001",
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": null,
+        "speaker_label": "ஒருவன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Little அணிப்புள்ளே; little coconut-palm one;",
+        "mode": "prose-faithful",
+        "notes": [
+          "The opening folk endearments (`அணிப்புள்ளே; தென்னம் புள்ளே; கிளிப்புள்ளே; கிரிப்புள்ளே`) are highly idiomatic. English preserves the cumulative folk-call pattern and leaves the first opaque term in Tamil script rather than inventing a false meaning.",
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u009",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 8,
+          "description": "Source block 8: கிளிப்புள்ளே; கிரிப்புள்ளே; அத்தனைக்கும் ஒசந்து என்ன புள்ளே? ஆடச் சொல்லு, புள்ளே!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Little parrot; little hill one;",
+          "Above all of them,",
+          "What kind of child is this?",
+          "Tell the child to dance!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-060.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": "vandikkaran-magan-s060-d002",
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": null,
+        "speaker_label": "ஒருத்தி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A little child\ncarried in a mother's lap! — touch it\nand your hand will smell sweet—\na colourful little child!",
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u011",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 9,
+          "description": "Source block 9: — ஊரைத்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— To reform the town"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u012",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 10,
+          "description": "Source block 10: வெள்ளரிக்கா விதை போலச் சிரிக்குதடி!- புள்ளே வெள்ளெளுக்கும் பூவாட்டம் இருக்குதடி!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Like cucumber seeds",
+          "the child smiles, girl! — the child",
+          "is like a bright sesame",
+          "flower, girl!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u013",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 11,
+          "description": "Source block 11: கள்ளிருக்கும் தாமரைப்பூ; காடிருக்கும் மல்லிகைப்பூ- முள்ளிருக்கும் சேரியிலே பொறந்ததடி!- இங்கே உள்ளிருக்கும் சேரியெல்லாம் அறிஞ்சுதடி!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The lotus has liquor within;",
+          "the jasmine lives in the wild—",
+          "in the thorn-filled settlement",
+          "this child was born! — Here",
+          "every hut in the settlement",
+          "knows it!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u014",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 12,
+          "description": "Source block 12: — ஊரைத்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— To reform the town"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u015",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 13,
+          "description": "Source block 13: பெத்தெடுத்த அம்மையொரு பணக்காரி!—நல்ல பேறுவெச்ச அப்பனொரு தொழிலாளி!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The mother who bore him",
+          "is a rich woman! — The",
+          "fortunate father",
+          "is a worker!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u016",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 14,
+          "description": "Source block 14: மேலிடத்தைக் கீழிடத்தை ஓரிடத்தில் சேர்த்து வைக்கக் காரணமா வந்ததடி இந்தப்புள்ளே!— இந்தக் காரியத்தை வேறெவனும் செஞ்சதில்லே!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "To bring the high place and the low place",
+          "together in one place,",
+          "this child came",
+          "as the cause! — This",
+          "deed no one else",
+          "has done!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u017",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 15,
+          "description": "Source block 15: — ஊரைத்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— To reform the town"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-060.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": "vandikkaran-magan-s060-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "—",
+        "mode": "prose-faithful",
+        "notes": [
+          "The immutable dialogue record contains only Vingan’s printed turn marker `—`; the lyric body that follows is translated as source-linked song units."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u019",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 16,
+          "description": "Source block 16: ஆனந்தத் தேனே! அருமை மகனே! நான் சொல்லப் போறதைக் கேட்டுக்கடா!— நீ நல்லதைக் காதுலே போட்டுக்கடா!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Honey of delight!",
+          "My precious son!",
+          "Listen, da, to what",
+          "I am going to tell you! — Put",
+          "what is good into",
+          "your ears, da!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u020",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 17,
+          "description": "Source block 17: ஆலையில் உழைக்கும் தொழிலாளி! — உன்னை அரிசியைக் கொடுக்கும் விவசாயி! மூட்டையைத் தூக்கும் மாட்டாளி! — இந்த மூவரும் நமக்குக் கூட்டாளி!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The worker who labours",
+          "in the factory! — The",
+          "farmer who gives you",
+          "rice!",
+          "The load-man who carries",
+          "the sack! — These",
+          "three are our comrades!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s060-u021",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-060.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-008",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 18,
+          "description": "Source block 18: — ஆனந்தத் தேனே"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          },
+          {
+            "pdf_page": 73,
+            "printed_page": 72
+          },
+          {
+            "pdf_page": 74,
+            "printed_page": 73
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "— Honey of delight"
+        ]
+      }
+    }
+  ]
+}

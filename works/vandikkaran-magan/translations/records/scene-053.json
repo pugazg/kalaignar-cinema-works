@@ -1,0 +1,583 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s053",
+  "scene_ordinal": 53,
+  "source_scene_id": "41",
+  "scene_status": "verified",
+  "unit_count": 18,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s053-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: வெளிப்புறக் காட்சி இரவு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior — night."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கண்ணாயிரம் தனியாகப் போய்க் கொண்டிருக்கிறான்—"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kannaayiram is walking alone—"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: \"முன்னையிட்ட தீ முப்புரத்திலே பின்னையிட்ட தீ தென்னிலங்கையிலே அன்னையிட்ட தீ அடிவயிற்றிலே... யானுமிட்ட தீ....\" என்ற பாட்டை முணு முணுத்துக் கொண"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "murmuring the song, “The earlier fire was set in the three cities; the later fire in southern Lanka; the mother-set fire in the lower belly... the fire I set....” — a man approaches from ahead carrying a burning torch.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Fire! Fire!.... (He turns.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (பின்னால் ஒரு ஆள் தீப்பந்தமுடன் எதிரே வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(A man carrying a torch approaches from behind.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Fire! Fire!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (இவ்வாறே நாலு திசையிலிருந்தும் தீப்பந்தங்களுடன் ஆட்கள் சூழ்தல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(In the same way men carrying torches surround him from all four directions.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஆட்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey!... You little runt!.... Are you spreading false propaganda about our zamindar?... Here, bathe in this fire and die!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (கண்ணாயிரம் நடுங்குதல் - தீப்பந்தங்களுக்கு நடுவே சிக்கித் திக்குமாறாகும் நேரத்தில்...அங்கே விங்கன் பிரவேசித்து சண்டை போடுதல்...தீப்பந்தக்கார"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kannaayiram trembles, trapped and confused among the torches. At that moment Vingan enters and fights; the torch-bearers are driven away.... During the fight the townspeople gather... the poet too arrives...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to the townspeople) Come, come! You won't believe it if I tell you!... The truth that a poet's daughter, a young woman named Poongodi, was abducted by the zamindar using his men—this Kannaayiram told it. For that... the zamindar ordered that he be burned alive...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayya, I am... that poet! Poongodi's father—I came asking for help to arrange my daughter's marriage—and where I came, someone carried my daughter away!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No one else! The savage zamindar himself!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (அப்போது சடையன் வண்டி ஓட்டி வருதல்...விங்கன் வண்டியை எதிரே நின்று நிறுத்துகிறான்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Then Sadaiyan comes driving the carriage. Vingan stands in front of it and stops the carriage...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is this commotion, son?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where is your god-before-your-eyes, the zamindar, Appa?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He is in the temple worshipping the Goddess!... Why?... What for?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-053.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": "vandikkaran-magan-s053-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "People of the town!... Poet!... It must be in that temple that the zamindar is ravaging Poongodi's chastity... Please come with me!... At least now understand the truth!... Hmm...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s053-u018",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-053.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Source block 8: (விங்கன் ஓடுகிறான். புலவரும், ஊராரும் பின்தொடருதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 67,
+            "printed_page": 66
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan runs. The poet and the townspeople follow.)"
+      }
+    }
+  ]
+}

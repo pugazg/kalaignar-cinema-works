@@ -1,0 +1,713 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s055",
+  "scene_ordinal": 55,
+  "source_scene_id": "42-எ",
+  "scene_status": "verified",
+  "unit_count": 22,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s055-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: தேவாலய உட்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Interior of the temple."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u002",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-007",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 2,
+          "description": "Source block 2: (புலவர் மகள் பூங்கொடி மணமகளாகக் குனிந்தவாறு உட்கார்ந்திருக்கிறாள்...அருகே மணமகன் உட்கார்ந்திருக்கிறான்...மந்திர ஒலி - மணமேடை - இதனைக் கண்டவர"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Linked source occurrence is non-lyric performance material; lyric authorship is not applicable."
+        ],
+        "english_text": "(The poet’s daughter Poongodi sits bent forward as a bride; a bridegroom sits beside her. Mantra sound — wedding dais — those who see it stand astonished.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come, son-in-law... come!... Oh! Poet!... Where did you go, ayya?... See, your daughter's marriage is taking place just as I said!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Zamindar ayya! Forgive me—I thought wrongly of you. Listening to your son-in-law Vingan's words was my fault.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough, enough, don't praise me beyond measure, poet; all this is my duty!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 68,
+            "printed_page": 67
+          },
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(pointing out the zamindar to Vingan) What do you say now, son?... Did you see my god's divine play?... Haste and anger keep clouding your intelligence!.. This is a form of compassion impossible to find anywhere in this Kali age, da!.. At least now fall at his feet and ask forgiveness!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஊர்ப்பெரியவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to Vingan) Throwing dust and slander on this virtuous man has become your occupation!.. Listening to you, we too became madmen.. Master, forgive us!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Can one human being forgive another human being?.. No! No need!.. First correct yourselves! Then understand me. All of you, go and come again!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Go safely! Greetings!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (ஒவ்வொருவராக எல்லோரும் போகிறார்கள். சடையனும் போய்விடுகிறான் அவர்களுடன். புலவரும், விங்கனும் இருக்கிறார்கள்..)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(One by one everyone leaves. Sadaiyan goes with them. The poet and Vingan remain.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(coming near with a proud laugh) Well, Vingan.. my dear son-in-law!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The illusion will fall away! The people will understand the truth!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "An attempt to twist sand into rope!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`மணலைக் கயிறாகத் திரிக்கும்` literally imagines twisting sand into rope, an image for an impossible undertaking."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'll see about that too!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (வேகமாகப் போகிறான் விங்கன்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan leaves quickly.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (போனதும் கதவு மூடப்படுகிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(After he leaves, the door is closed.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(running to the bridal chamber) Poongodi! How many places I wandered searching for you, child—the benefactor who granted me the blessing of seeing this divine sight of you in bridal dress before the Goddess is this man!..... Get up and bow to him, child! Come, child!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u018",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (புலவர் போய்த் தொடுகிறார்—குனிந்த தலை நிமிராமல் கீழே விழுந்து விடுகிறது பூங்கொடியின் பிணம்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The poet goes and touches her—the corpse of Poongodi falls down without the bowed head rising.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! Poongodi!.. Poongodi!... Ayyo, I have been deceived!.. I have been ruined!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 7,
+          "description": "Source block 7: (ஜமீன்தாரைப் பார்த்து) அடப்பாவி! கொன்னுட்டியா?..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "(Looking at the zamindar) You sinner! Did you kill her?..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u021",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Source block 8: (என்று குத்துவிளக்கை எடுத்து ஜமீன்தாரைக் குத்தப்போக அய்யர் வேடத்தில் இருந்தவன், பூணூலைக் கழற்றி எறிந்துவிட்டு தலை டோப்பாவையும் கழற்றி எறிந்த"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He takes the standing lamp and is about to stab the zamindar with it. The man who had been dressed as an Iyer removes and throws away the sacred thread and headpiece, then stabs the poet in the stomach with a knife. The poet cries out and collapses.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s055-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s055",
+      "scene_ordinal": 55,
+      "source_scene_id": "42-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-055.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-055.md",
+        "source_record_id": "vandikkaran-magan-s055-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 69,
+            "printed_page": 68
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hmm!.. Take both of them away... and bury them where no one's eyes will see them.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

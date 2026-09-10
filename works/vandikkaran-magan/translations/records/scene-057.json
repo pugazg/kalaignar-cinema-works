@@ -1,0 +1,233 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s057",
+  "scene_ordinal": 57,
+  "source_scene_id": "44",
+  "scene_status": "verified",
+  "unit_count": 7,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s057-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: குடிசை வீடு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Hut."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s057-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (அடுப்பு புகைகிறது...உமா, கண்ணைக் கசக்கிக்கொண்டே சமைக்கிறாள்...புகை தாங்காமல் கண்ணில் நீர்வழிய உட்கார்ந்தபடியிருந்து வருகிறாள்...ஒரு கயிற்று"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The stove smokes... Uma cooks while rubbing her eyes. Unable to bear the smoke, tears stream from her eyes as she sits. Vingan, seated on a rope cot, watches her.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s057-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-057.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": "vandikkaran-magan-s057-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, Uma!... Is cooking difficult?... Is that why you're shedding tears?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s057-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-057.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": "vandikkaran-magan-s057-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'm not shedding tears; I can't bear the stove smoke!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s057-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-057.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": "vandikkaran-magan-s057-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Here the stove is smoking, so tears are pouring from your eyes!... Do you know how many mothers in poor homes shed tears because they have no means even to make their stoves smoke?... All right!... All right!.... You eat... rest your eyes a little!... I'll take care of the cooking!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s057-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (எழுகிறான்...உமா, அவனைக் கரம் பிடித்துத் தடுத்து)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He gets up... Uma catches his hand and stops him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s057-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s057",
+      "scene_ordinal": 57,
+      "source_scene_id": "44",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-057.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-057.md",
+        "source_record_id": "vandikkaran-magan-s057-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uh-uh... no... no... Once I get used to all this smoke it will be fine... You stay!.. I'll take care of it myself!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

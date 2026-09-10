@@ -1,0 +1,257 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s051",
+  "scene_ordinal": 51,
+  "source_scene_id": "39",
+  "scene_status": "verified",
+  "unit_count": 8,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s051-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: சடையன் வீடு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Sadaiyan’s house."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(throwing away the painting of the bull goring the woman) What kind of dangerous game is this, da? The zamindar is a treasure-house of greatness!... He tolerated it... If I had been in his place, what happened there would have been different!.. Anyone else would have... thrown you out of the house!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am the son-in-law of that house, Appa!... I may leave on my own, but your zamindar—my dear father-in-law—cannot throw me out!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Son-in-law of the house!... The zamindar's son-in-law!... Husband of Uma, daughter of Zamindar Jambuling Bhoopathi!... Who gave you all this honour? From whom did you get it?... Does anyone take a broken shell and set it into a crown? And because he committed the 'crime' of setting you there, you say you will take revenge on him?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source uses the image of a worthless broken shell being set in a crown to express status contempt; English preserves that image."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am not turning the almanac to find an auspicious day and star for revenge!.. I have already begun writing the chapter of revenge!... The time when it will be completed in full is not far away!... Before then it is my duty to make you understand the truth!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What truth; what wicked truth! Even if God himself came as a witness and said the zamindar killed Sornam... this Sadaiyan would not believe it, da... would never believe it!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will make you believe! Not only you, who mistake a poisonous snake for a green vine... I will make this whole town understand what is truth and what is falsehood, what is shadow and what is light—and I will prove it by winning!.. I swear on my mother, murdered by that human beast!... I will tear away the disguise of that rabid animal and show him as he is!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s051-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s051",
+      "scene_ordinal": 51,
+      "source_scene_id": "39",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-051.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-051.md",
+        "source_record_id": "vandikkaran-magan-s051-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(swearing angrily) Don't babble!.. The zamindar is like a god to our whole town!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

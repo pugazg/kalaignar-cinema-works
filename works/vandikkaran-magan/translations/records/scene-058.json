@@ -1,0 +1,427 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s058",
+  "scene_ordinal": 58,
+  "source_scene_id": "45-46",
+  "scene_status": "verified",
+  "unit_count": 13,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s058-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: வெளிப்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 2,
+          "description": "Source block 2: குடிசைப் பகுதியை ஒட்டிய தெரு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Street adjoining the hut settlement."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bull!... Bull! I've brought the mayilai bull...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (கண்ணாயிரம் காளையைக் கொண்டு வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kannaayiram brings the bull.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bravo, Kannaayiram!.. The right bull! You brought it just as I had in mind...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 4,
+          "description": "Source block 4: (குடிசைக்குள் திரும்பி)....உமா! உமா!.....கொஞ்சம் வெளியே வந்து பாரேன்..உமா!..."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "(Turning toward the hut).... Uma! Uma!..... Come outside and look for a moment, Uma!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (உமா வருகிறாள் குடிசைக்குள்ளிருந்து — அதற்குள் குடிசை வாசிகள் சிலரும் சூழ்கிறார்கள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma comes out of the hut; meanwhile several residents of the settlement gather around.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!... Every day you must perform puja to this bull!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 71,
+            "printed_page": 70
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Puja to a bull?... People perform cow worship only for Bhagavan!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is no ordinary bull—a bull that is going to be raised in our house for an ideal!... It will be fitting only if you perform puja to it!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If you say so, all right...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-058.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": "vandikkaran-magan-s058-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You must not perform the puja for my sake! You must worship it with the power of your own heart!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s058-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s058",
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-058.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: உமா:—(சரியெனப் புன்னகையுடன் தலையசைத்தல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 72,
+            "printed_page": 71
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma smiles and nods to say yes.)"
+      }
+    }
+  ]
+}

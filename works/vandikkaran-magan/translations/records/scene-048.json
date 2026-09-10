@@ -1,0 +1,333 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s048",
+  "scene_ordinal": 48,
+  "source_scene_id": "36",
+  "scene_status": "verified",
+  "unit_count": 7,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s048-u001",
+      "kind": "performance-cue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "performance-cue",
+          "ordinal": 1,
+          "description": "Source block 1: (விங்கன் ஊர்மக்களிடையே பாடுகிறான்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_text": "(Vingan sings among the townspeople.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s048-u002",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 2,
+          "description": "Source block 2: உழைக்கும் இனமே! உடன்பிறப்பே! என்னோடு வாருங்களே! — பகலின் உருவில் ஊரில் உலவும் புலியைக் காட்டுவேன்; பாருங்களே!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Working people!",
+          "My siblings!",
+          "Come along with me! — In broad",
+          "daylight, the tiger",
+          "that prowls the town—",
+          "I will show it; come and see!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s048-u003",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 3,
+          "description": "Source block 3: மனிதரில் சிலபேர் புனிதரைப் போலே இருப்பார் புவிமேலே! மான்களின் கண்ணே மயங்கிட வைக்கும் கானல் நீர்போலே! — உழைக்கும் இனமே"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Among human beings some",
+          "appear upon this earth",
+          "as though they were holy!",
+          "Like a mirage",
+          "that enchants the eyes",
+          "of deer! — Working people"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s048-u004",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 4,
+          "description": "Source block 4: ஏட்டைப் புரட்டி சுயநலக்காரனைக் கேட்பேன் நாடொரு கேள்வி! — அவன் பூட்டைத் திறந்து காட்டுவதற்கு என்னிடம் உள்ளது சாவி!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "Turning the ledger,",
+          "I will ask the selfish man",
+          "a question every day! — To",
+          "open his lock",
+          "and show you what lies there,",
+          "I have the key!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s048-u005",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 5,
+          "description": "Source block 5: எப்படிவன் தன்னை மேய்ப்பவன் என்று — எண்ணியிருக்கும் ஆடு!—நல்ல ஆறறிவுள்ள மனிதரும் அது போல் இருந்தால் சிரிக்கும் நாடு! — உழைக்கும் இனமே"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "The goat that thinks this man",
+          "is its shepherd — if",
+          "a human being",
+          "blessed with sixfold reason",
+          "were to be the same,",
+          "the country would laugh! — Working people"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s048-u006",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 6,
+          "description": "Source block 6: மின்மினிப் பூச்சி வெளிச்சத்தினிலே இருட்டில் பாதை தெரியாது!—அட; மின்னுவதாலே உப்புக்கல் தான் வைரம் போலே ஆகாது!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "By the light",
+          "of a firefly",
+          "you cannot see the road in darkness! — Hey;",
+          "just because it glitters,",
+          "a lump of salt",
+          "does not become a diamond!"
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s048-u007",
+      "kind": "song",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-048.md",
+        "source_record_id": null,
+        "source_occurrence_id": "vandikkaran-magan-perf-006",
+        "source_locator": {
+          "kind": "song-body",
+          "ordinal": 7,
+          "description": "Source block 7: சிங்கக் கூட்டம் தூங்கி யிருந்தால் சிறு நரி ஆட்டும் வாலே!—அதன் தூக்கம் கலைந்தால் நடப்பது என்ன? சரித்திரம் சொல்லும் நாளே! — உழைக்கும் இனமே"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          },
+          {
+            "pdf_page": 61,
+            "printed_page": 60
+          }
+        ]
+      },
+      "translation": {
+        "mode": "semantic-poetic-source-faithful",
+        "notes": [
+          "Item-level lyric authorship remains unresolved; the film-level `பாடல்கள்: கவிஞர் வாலி` credit is not promoted to this occurrence."
+        ],
+        "english_lines": [
+          "When the pride of lions",
+          "lies asleep,",
+          "the little fox wags its tail! — When",
+          "that sleep is broken,",
+          "what will happen?",
+          "History will tell on that day! — Working people"
+        ]
+      }
+    }
+  ]
+}

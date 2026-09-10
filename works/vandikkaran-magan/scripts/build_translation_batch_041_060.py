@@ -73,7 +73,18 @@ def norm(s):
 def source_blocks(n):
     text=(S/f'scene-{n:03d}.md').read_text(encoding='utf-8')
     parts=[b.strip() for b in re.split(r'\n[ \t]*\n',text) if b.strip()]
-    return [b for b in parts if not b.startswith('<!-- derivative provenance:') and not b.startswith('## ') and b!='★']
+    blocks=[b for b in parts if not b.startswith('<!-- derivative provenance:') and not b.startswith('## ') and b!='★']
+    if n==60:
+        expanded=[]
+        marker='ஒருவன்:—அணிப்புள்ளே; தென்னம் புள்ளே;\n'
+        for b in blocks:
+            if b.startswith(marker):
+                first,rest=b.split('\n',1)
+                expanded.extend([first,rest])
+            else:
+                expanded.append(b)
+        blocks=expanded
+    return blocks
 
 page_cache={}
 def page_norm(p):

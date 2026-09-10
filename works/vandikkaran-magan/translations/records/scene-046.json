@@ -1,0 +1,109 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s046",
+  "scene_ordinal": 46,
+  "source_scene_id": "34",
+  "scene_status": "verified",
+  "unit_count": 3,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s046-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s046",
+      "scene_ordinal": 46,
+      "source_scene_id": "34",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-046.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-046.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஊர் பொதுமண்டபம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Town public hall."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s046-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s046",
+      "scene_ordinal": 46,
+      "source_scene_id": "34",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-046.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-046.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஊர் மக்கள் கூடியிருக்கிறார்கள்...கண்ணாயிரமும் இருக்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The townspeople are gathered... Kannaayiram is there too.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s046-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s046",
+      "scene_ordinal": 46,
+      "source_scene_id": "34",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-046.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-046.md",
+        "source_record_id": "vandikkaran-magan-s046-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 59,
+            "printed_page": 58
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Here!... The bunch of keys to the hoarding granary whose contents were going to turn into money on the black market! The bunch of keys that will help distribute to the townspeople the food grains imprisoned in the great granary instead of serving the people!... Come with me!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

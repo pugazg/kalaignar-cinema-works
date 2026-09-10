@@ -1,0 +1,139 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s041",
+  "scene_ordinal": 41,
+  "source_scene_id": "30",
+  "scene_status": "verified",
+  "unit_count": 4,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s041-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s041",
+      "scene_ordinal": 41,
+      "source_scene_id": "30",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-041.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-041.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: அந்தரங்க மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Private palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s041-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s041",
+      "scene_ordinal": 41,
+      "source_scene_id": "30",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-041.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-041.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஜமீன்தார் காளிங்கன் இருக்கின்றனர்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar and Kalingan are there.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s041-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s041",
+      "scene_ordinal": 41,
+      "source_scene_id": "30",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-041.md",
+        "source_record_id": "vandikkaran-magan-s041-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma will be expecting Vingan to come in wedding finery!... We must turn him into a corpse!.. We too must join in the mourning... and make Uma believe us!.. All right, Kalinga... finish the job! Somehow dispose of Vingan!.. Go and bring me news that will cool my ears!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s041-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s041",
+      "scene_ordinal": 41,
+      "source_scene_id": "30",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-041.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-041.md",
+        "source_record_id": "vandikkaran-magan-s041-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 55,
+            "printed_page": 54
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not just cool your ears—your ears will split when the newspapers shout, 'Vingan is dead, Vingan is dead'!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

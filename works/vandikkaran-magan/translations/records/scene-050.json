@@ -1,0 +1,985 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s050",
+  "scene_ordinal": 50,
+  "source_scene_id": "38",
+  "scene_status": "verified",
+  "unit_count": 31,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s050-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஊர் மக்கள், சீமான்கள் ஹாலில் கூடியிருக்கிறார்கள்! மரகதம், கோகிலா, உமா, காளிங்கராயன், சடையன் ஆகியோரும் இருக்கின்றனர்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Townspeople and men of rank are gathered in the hall. Maragatham, Kokila, Uma, Kalingarayan and Sadaiyan are also present.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Giving thanks to almighty God, at this birthday celebration I declare that, as always, I stand before you as a man of noble character, a generous heart and disciplined conduct, labouring for your sake!... Long live the name of God!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The name!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Long live!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The name!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Long live!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஒருவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "For Zamindar Aimpuling Bhoopathi—",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Victory!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: புலவர்:—(பூங்கொடியுடன் நின்றவாறு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The poet stands with Poongodi.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 4,
+          "description": "Source block 4: போற்றி! போற்றி!... புனிதனே போற்றி!... புண்ணியனே போற்றி!... கண்ணியனே போற்றி!.. கடையேழு வள்ளல்களே வென்றவனே போற்றி!... கலியுகக் கர்ண மகாராஜனே ப"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 62,
+            "printed_page": 61
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "Praise! Praise!...\nPraise to the holy one!...\nPraise to the virtuous one!...\nPraise to the honourable one!..\nPraise to the one who surpassed\nthe last seven great benefactors!...\nPraise to the Kali-age Maharaja Karna!..."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 5,
+          "description": "Source block 5: என்னய்யன் ஏழைகளின் தெய்வம் ஐம்புலிங்க பூபதியாருக்கு..இன்னும் பல பிறந்தநாள் விழாக்கள் வரவேண்டும்!.."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "For my lord, the god\nof the poor, Aimpuling\nBhoopathi... may many more\nbirthday celebrations\ncome!.."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-speech",
+          "ordinal": 6,
+          "description": "Source block 6: நூறாவது பிறந்த நாள் விழா கொண்டாட வேண்டும், அதிலும் அடியேன் வந்து வாழ்த்துகின்ற பேற்றினைப் பெறவேண்டும்!!"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": "source-unlabelled",
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "The source prints no speaker label for this spoken unit; no speaker or immutable dialogue ID is inferred."
+        ],
+        "english_text": "May he celebrate\nhis hundredth birthday,\nand may this humble servant too receive\nthe blessing of coming and praising him then!!"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(opening his eyes wide) Kalinga! Who is that?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Our cymbal-beating poet!... He takes Tamil and beats it just like that. (gesturing as though playing jalra cymbals)",
+        "mode": "prose-faithful",
+        "notes": [
+          "`ஜால்ரா` is both a pair of hand cymbals and a colloquial image for sycophantic praise; the source explicitly makes the gesture, so English preserves both senses."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh.. the poet?.. Are you well?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Greetings. May you live many years!... I have come into your presence seeking a birthday gift!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh.. is that so? (looking at Poongodi) Who is this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don't you recognize her? Ten or fifteen years ago! My daughter Poongodi, whom I brought here as a green little baby!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Have you forgotten? Back then that baby was nice and plump. Tiny.. You would hold her chest to chest and play with her for fun!... She'd wipe her running nose on me!... You've forgotten... She was little then! Now she's grown into a young woman!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "She has now become a woman of marriageable age!... You yourself must take the initiative and arrange her marriage....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will conduct it! There is no obstacle... Kalinga! The whole earth knows the regard we show poets!... Take the poet and child Poongodi away and... (signals with his eyes) give them proper hospitality...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I understand, my lord... I understand! Poet, come!... Child Poongodi, come!... You are a lucky girl! The zamindar's gaze has fallen on you.. What comes next is still ahead—come!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u024",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (காளிங்கன் புலவரின் பெண் பூங்கொடியை அழைத்துப் போகிறான். பலரும் பல்வேறுவிலையுயர்ந்த பரிசுகள் வழங்குதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kalingan leads away the poet’s daughter Poongodi. Many others present various costly gifts.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Uma?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 63,
+            "printed_page": 62
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa!... On Aththan's behalf, I present you this birthday gift!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The bridegroom gave it?.. Thank you very much, child! Uma, where is the bridegroom?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He'll be here shortly, Appa!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u029",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Source block 8: (பரிசுப் பொருளைச் சுற்றியிருக்கிற தாளைப் பிரிக்கிறார் ஜமீன்தார். ஒரு பெண்ணை மாடுமுட்டிக் கொல்வது போன்ற ஓவியம்..)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar unwraps the paper around the gift. It is a painting of a woman being gored to death by a bull.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-050.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": "vandikkaran-magan-s050-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Aha... a very beautiful painting! But the place where this belongs is Sadaiyan's house.. Sadaiya!... Sambandhi! A gift from my son-in-law Vingan!... Hang it in your own house! It looks very good, doesn't it!... Here!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s050-u031",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-050.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 9,
+          "description": "Source block 9: (சடையன் அதை வாங்கிப் பார்க்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 64,
+            "printed_page": 63
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Sadaiyan takes it and looks at it.)"
+      }
+    }
+  ]
+}

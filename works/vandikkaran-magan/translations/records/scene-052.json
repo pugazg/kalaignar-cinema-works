@@ -1,0 +1,731 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s052",
+  "scene_ordinal": 52,
+  "source_scene_id": "40",
+  "scene_status": "verified",
+  "unit_count": 23,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s052-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: டீக்கடை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Tea shop."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கடைக்காரன் ஜமீன்தார் படத்தை கடையில் மாட்டுகிறான் அதைப் பார்த்துக்கொண்டே வரும்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The shopkeeper hangs the zamindar’s picture in the shop; Kannaayiram approaches watching him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is this, shopkeeper! Hanging a picture, are you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கடைக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Am I the only one hanging it?.... This whole town is hanging the picture of this virtuous man! He's the benefactor who gave away all the grain in the granary as charity!... If I don't hang his picture, should I hang yours?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (\"பூங்கொடி பூங்கொடி!\" என்று கத்திவாறு புலவர் ஓடிவருதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The poet runs in shouting “Poongodi! Poongodi!”)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to the shopkeeper, Kannaayiram and those there) Ayya!... Have you seen my daughter Poongodi?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Poet ayya! Tell us what happened, ayya!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My girl is a young girl! On the way back from the zamindar's house, two ruffians... beat me down... and carried my daughter away, ayya...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "While you were returning from the zamindar's house?... Then... it must be the zamindar's doing!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "புலவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "None of you saw her?... Poongodi!... Child Poongodi!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (ஓடுகிறார் அந்த இடத்தை விட்டு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He runs away from the place.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கடைக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 65,
+            "printed_page": 64
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to Kannaayiram) Hey, Kannaayiram!... What did you say about the zamindar?... What did you say?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The man whose picture you keep and worship—I told you he's a snake, a scoundrel!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (கடைக்காரன் அடிக்கிறான்..கண்ணாயிரமும் திருப்பி அடிக்கிறான். இருவருக்கும் சண்டை.....அப்போது ஜமீன்தாரும், காளிங்கனும் அவ்வழியே சண்டை ஓய்கிறது."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The shopkeeper hits Kannaayiram. Kannaayiram hits back. The two fight..... Then the zamindar and Kalingan come that way; the fight stops...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is all this, fellows... hmm?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கடைக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This fellow Kannaayiram... is talking wildly about Zamindar ayya!... And some woman named Poongodi!... You...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hush.... Enough!... Does that mean you should beat him?... Let anyone say whatever they want; I never get angry!... Poor fellow, let him go!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u018",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (கண்ணாயிரத்தைத் தவிர எல்லோரும் வணங்குதல்...குதிரைகள் சிறிது தூரம் சென்றதும்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Everyone except Kannaayiram bows... Once the horses have gone a short distance...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalinga!.... I forgave that Kannaayiram in front of the people... but... arrange to finish him off tonight itself!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I'll scorch him with a torch and turn him to ash... that chandala fellow!...",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source uses `சண்டாளப்பயல்`, a caste-derived slur. English retains `chandala` to avoid silently sanitizing the source; this is historical source language, not editorial endorsement."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Bravo!... Hmm... Is Poongodi ready?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-052.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": "vandikkaran-magan-s052-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The flower brought for worship!.. It is ready, awaiting your arrival!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s052-u023",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s052",
+      "scene_ordinal": 52,
+      "source_scene_id": "40",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-052.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (ஜமீன்தார் மகிழ்ச்சி)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 66,
+            "printed_page": 65
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar is pleased.)"
+      }
+    }
+  ]
+}

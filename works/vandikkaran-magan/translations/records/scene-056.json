@@ -1,0 +1,507 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s056",
+  "scene_ordinal": 56,
+  "source_scene_id": "43",
+  "scene_status": "verified",
+  "unit_count": 16,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s056-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (விங்கன் உமா வீட்டை விட்டு வெளியேறப் புறப்பட்டிருக்கிறார்கள். எதிரே ஜமீன்தார் வர, உமா விங்கனைப் பார்க்கிறாள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan and Uma are preparing to leave the house. As the zamindar approaches from the opposite direction, Uma looks at Vingan.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Aththan!... A word to Appa,...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Take leave of Appa! Do not ask permission!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(approaching) What is this, son-in-law?.. What is all this strange business?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am leaving because I cannot bear these outrages!... Bid farewell to your daughter and send her with me!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சடையன் வருதல்)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Sadaiyan arrives.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sadaiya!... Did you see?.. A girl raised in such wealth.. born and brought up in this palace of status and luxury, with a hundred servants ready at the flick of a finger and carrying out every command without refusal.. and the bridegroom says he will take her away to a mud hut... Is that fair?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, son, have you gone mad? Why are you doing all this? Why are you causing such great pain in master's heart?.. And you say you'll take away a woman who is carrying a child!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma! Set out!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Appa! Forgive me! Wherever he is—that is heaven for me!.. I am going!.. (to Vingan) Shall we go?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to the zamindar) I'm going!... We haven't gone very far away, so we won't lose touch... (to Sadaiyan) Appa! It may look as though I'm doing wrong!... But... as time passes the truth will become clear!.. Forgive me! Shall I go?... Uma!.. Come!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u014",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (இருவரும் போகிறார்கள்...ஜமீன்தார் பார்த்துக்கொண்டே நிற்கிறார்..சடையன் முகத்தில் வேதனை.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The two leave... The zamindar stands watching them. Pain shows on Sadaiyan’s face.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(falling at the zamindar's feet) Master.. forgive me!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s056-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s056",
+      "scene_ordinal": 56,
+      "source_scene_id": "43",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-056.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-056.md",
+        "source_record_id": "vandikkaran-magan-s056-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 70,
+            "printed_page": 69
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(with hatred in his heart) Hmm!.. You mustn't fall at my feet!.. Sambandhi... you must remain my sambandhi!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

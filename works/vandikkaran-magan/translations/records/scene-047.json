@@ -1,0 +1,169 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s047",
+  "scene_ordinal": 47,
+  "source_scene_id": "35",
+  "scene_status": "verified",
+  "unit_count": 5,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s047-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s047",
+      "scene_ordinal": 47,
+      "source_scene_id": "35",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s047-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s047",
+      "scene_ordinal": 47,
+      "source_scene_id": "35",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-047.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "source_record_id": "vandikkaran-magan-s047-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your husband's command, child?.. You took the granary key and gave it to him!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s047-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s047",
+      "scene_ordinal": 47,
+      "source_scene_id": "35",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-047.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "source_record_id": "vandikkaran-magan-s047-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is wrong with that, Appa?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s047-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s047",
+      "scene_ordinal": 47,
+      "source_scene_id": "35",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-047.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "source_record_id": "vandikkaran-magan-s047-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There is nothing wrong, child!.. Nothing wrong!.. Ha! Ha! Ha! Ha!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s047-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s047",
+      "scene_ordinal": 47,
+      "source_scene_id": "35",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-047.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கலகலவெனக் கைகொட்டிச் சிரிக்கிறார்....)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 60,
+            "printed_page": 59
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He laughs loudly, clapping his hands....)"
+      }
+    }
+  ]
+}

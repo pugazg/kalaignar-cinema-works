@@ -35,7 +35,7 @@ DIALOGUE_TRANSLATIONS = {
 "Ah!..... (joy)"
 ],
 60: [
-"Little அணிப்புள்ளே; little coconut-palm one;\nlittle parrot; little hill one;\nabove all of them,\nwhat kind of child is this?\nTell the child to dance!",
+"Little அணிப்புள்ளே; little coconut-palm one;",
 "A little child\ncarried in a mother's lap! — touch it\nand your hand will smell sweet—\na colourful little child!",
 "—"
 ]
@@ -81,12 +81,13 @@ ND = {
 {'kind':'performance-cue','occurrence_id':'vandikkaran-magan-perf-008','text':'(Song.)'},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['To reform the town — a','child has been born! — To keep his father’s','name alive — he opened','both his eyes!','Beat the brass and drums,','girls! — Clap your','hands without missing','the beat, girls!']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},
+{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['Little parrot; little hill one;','Above all of them,','What kind of child is this?','Tell the child to dance!']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['Like cucumber seeds','the child smiles, girl! — the child','is like a bright sesame','flower, girl!']},
-{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['The lotus has liquor within;','the jasmine lives in the wild—','in the thorn-filled settlement','this child was born! — Every','hut here knows it!']},
+{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['The lotus has liquor within;','the jasmine lives in the wild—','in the thorn-filled settlement','this child was born! — Here','every hut in the settlement','knows it!']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['The mother who bore him','is a rich woman! — The','fortunate father','is a worker!']},
-{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['To bring the high place and the low place','together into one place,','this child came','as the cause! — No one','else has done this deed!']},
+{'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['To bring the high place and the low place','together in one place,','this child came','as the cause! — This','deed no one else','has done!']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['— To reform the town']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['Honey of delight!','My precious son!','Listen, da, to what','I am going to tell you! — Put','what is good into','your ears, da!']},
 {'kind':'song','occurrence_id':'vandikkaran-magan-perf-008','lines':['The worker who labours','in the factory! — The','farmer who gives you','rice!','The load-man who carries','the sack! — These','three are our comrades!']},
