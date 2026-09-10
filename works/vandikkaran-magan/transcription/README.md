@@ -11,8 +11,8 @@ The rendered scan is the controlling source. First-pass transcription and the fu
 - page records PDF 4–90: `visual-verified`;
 - draft page records: **0**;
 - open uncertainty markers: **0 recorded**;
-- dedicated historical-glyph verification: **PDF 4–8 / 5 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **82**;
+- dedicated historical-glyph verification: **PDF 4–13 / 10 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **77**;
 - legacy prospective drafting checks do not satisfy the dedicated glyph gate;
 - final visual verification: **NOT-STARTED**;
 - batch size: **5 source pages per iteration**.
@@ -21,8 +21,10 @@ The dedicated glyph phase must use enlarged source pixels and inspect only the m
 
 ## Latest dedicated glyph batch
 
-PDF **4–8** is complete. Every target-family occurrence on those pages was re-read against the controlling scan. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**. The historical-glyph audit also corrects one old prospective note: `நாணயத்தின்` is not a `ணா` occurrence; the canonical word itself remains unchanged.
+PDF **9–13** is complete. Every target-family occurrence on those pages was re-read against the controlling scan. Representative confirmations include `முன்னால்`, `வளைத்து`, `வேலைகளைப்`, `கருணை`, `இன்னைக்கு`, `கண்ணாளா`, `மூணாவது`, `இருக்கிறோம்`, `தலையணைக்குக்`, `போகிறோம்`, `சுக்குநூறாப்`, `அனாதை`, `மற்றொரு`, and `கண்ணாமூச்சி`.
+
+No canonical page-text glyph correction was required in the batch; cumulative dedicated-phase glyph corrections remain **0**, with **0 unresolved glyph holds**.
 
 ## Next
 
-Run dedicated historical-glyph verification on PDF **9–13** as the next five-page batch. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **10/87**, set the next batch to PDF **14–18**, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.
+Run dedicated historical-glyph verification on PDF **14–18** as the next five-page batch. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **15/87**, set the next batch to PDF **19–23**, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.

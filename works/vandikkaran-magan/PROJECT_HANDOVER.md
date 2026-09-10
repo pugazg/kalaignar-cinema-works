@@ -54,8 +54,8 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - visually verified contiguous range: **PDF 4–90**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **PDF 4–8 / 5 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **82**;
+- dedicated historical-glyph verification: **PDF 4–13 / 10 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **77**;
 - legacy prospective drafting checks do not close the dedicated glyph gate;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
@@ -74,6 +74,19 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - unresolved glyph holds: **0**;
 - audit-only correction: the old prospective `நாணயத்தின்` → `ணா` example was withdrawn because that word does not contain the `ணா` family.
 
+## Dedicated historical-glyph batch 2 — PDF 9–13
+
+- all five pages were independently re-read from enlarged controlling-source pixels;
+- every occurrence of the mandated glyph families was checked occurrence by occurrence;
+- PDF 9 confirms `னா / ளை / லை / றா`, including `முன்னால்`, `வளைத்து`, `சிலையை`, `வேலைகளைப்`, and `வெளியேறுகிறான்`;
+- PDF 10 confirms `லை / ணை / னை / றா`, including `கட்டிலை`, `கருணை`, `இன்னைக்கு`, and `தருகிறாள்`;
+- PDF 11 confirms `ணை / ணா / றோ / ளை / னை`, including `இணைந்து`, `கண்ணாளா`, `மூணாவது`, `இருக்கிறோம்`, `அவளைத்`, `தலையணைக்குக்`, and `உன்னை`;
+- PDF 12 confirms `னை / றோ / லை / றா / னா`, including `என்னை`, `போகிறோம்`, `நிலைதடுமாறி`, `சுக்குநூறாப்`, and `அனாதை`;
+- PDF 13 confirms `னை / ளை / னா / றொ / ணா / றா`, including `பானை`, `நாளைக்கு`, `சொன்னா`, `மற்றொரு`, `கண்ணாமூச்சி`, and `விளையாடுகிறார்கள்`;
+- canonical page-text glyph corrections in this batch: **0**;
+- cumulative dedicated-phase canonical glyph corrections: **0**;
+- unresolved glyph holds: **0**.
+
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 9–13 as the next five-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 10/87 and next batch PDF 14–18; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
+> **Run dedicated historical-glyph verification on PDF 14–18 as the next five-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 15/87 and next batch PDF 19–23; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**

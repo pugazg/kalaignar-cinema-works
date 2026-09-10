@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 9–13
+# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 14–18
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -29,8 +29,8 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–8 / 5 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **82**;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–13 / 10 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **77**;
 - legacy prospective glyph checks from the drafting phase do **not** count toward the dedicated glyph gate;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0**;
@@ -38,9 +38,11 @@ Do not interleave phases.
 
 ## Latest dedicated glyph batch
 
-PDF **4–8** was independently re-read under the dedicated historical-glyph gate. Every occurrence of the mandated families on those five pages was checked directly against the controlling scan. No canonical page-text glyph correction was required. Representative confirmed families include `ளை / றா` on PDF 4; `ணா / ளை / லை / னை` on PDF 5; `லை / ளை / னா / னை` on PDF 7; and `னை / லை / ளை` on PDF 8. PDF 6 contained no target-family occurrence requiring a glyph-identity correction.
+PDF **9–13** was independently re-read under the dedicated historical-glyph gate. Every occurrence of the mandated families on those five pages was checked directly against enlarged controlling-source pixels. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
-The old prospective audit example `நாணயத்தின்` → `ணா` was corrected in the audit: `நாணயத்தின்` is not a `ணா` occurrence. This was an audit-only correction; the canonical word itself was already correct.
+Representative confirmations include `முன்னால் / வளைத்து / வேலைகளைப் / வெளியேறுகிறான்` on PDF 9; `கட்டிலை / கருணை / இன்னைக்கு / தருகிறாள்` on PDF 10; `இணைந்து / கண்ணாளா / மூணாவது / இருக்கிறோம் / தலையணைக்குக்` on PDF 11; `என்னை / போகிறோம் / நிலைதடுமாறி / சுக்குநூறாப் / அனாதை` on PDF 12; and `பானை / நாளைக்கு / சொன்னா / மற்றொரு / கண்ணாமூச்சி / விளையாடுகிறார்கள்` on PDF 13.
+
+Cumulative canonical glyph corrections in the dedicated phase remain **0**.
 
 ## Dedicated historical-glyph rule
 
@@ -52,4 +54,4 @@ Inspect enlarged source pixels occurrence by occurrence. Never global-replace. D
 
 ## Exact next activity
 
-> **Process PDF 9–13 as the next five-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 10/87 with next batch PDF 14–18, commit/push the five-page batch to `main`, then synchronize checkpoint docs. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90.**
+> **Process PDF 14–18 as the next five-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 15/87 with next batch PDF 19–23, commit/push the five-page batch to `main`, then synchronize checkpoint docs. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90.**
