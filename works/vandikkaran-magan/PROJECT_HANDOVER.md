@@ -51,26 +51,27 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **PDF 4–53 / 50 of 87 COMPLETE-VERIFIED**;
-- visually verified contiguous range: **PDF 4–53**;
-- pages still awaiting visual verification: **37**;
+- visual verification: **PDF 4–58 / 55 of 87 COMPLETE-VERIFIED**;
+- visually verified contiguous range: **PDF 4–58**;
+- pages still awaiting visual verification: **32**;
 - historical-glyph verification: **0 / NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Latest visual-verification batch — PDF 49–53
+## Latest visual-verification batch — PDF 54–58
 
 - all five pages were re-read directly from enlarged source pixels;
-- PDF 49 restores `வயசு`, `கலந்து`, and source `ஏது`;
-- PDF 50 restores source `வீட்டில் இவ்வளவு பெரியவேலை` and source-visible `'பூ'` in the coin-toss direction;
-- PDF 51 restores `எஸ்டேட்டைப் பார்க்கப்`, repeated `உருத்தெரியாமல்`, and `தலைப்பகுதி`;
-- PDF 52 restores `புரியிறது`, `என்னைத் துன்பத்தின்`, and stage text `சிதறிப் போகும் ... ஒன்றுகலக்கின்றன`;
-- PDF 53 restores `காரம் ததும்ப`, `செகரட்டரி`, `விரும்புகிறேன்`, and `அவளின் தலைமயிரைப்`;
+- PDF 54 restores `ஒட்டிக்கொள்வதா?`, `கெளரவத்தைச்`, `வச்சுட்டியே`, `பழைய காலமல்ல`, `தெரிவிக்க`, and `கெளரவத்துக்குப்`;
+- PDF 55 preserves the duplicated source phrase `செத்துட்டான், செத்துட்டான்னு` and restores scene-31 `காளிங்கன்`;
+- PDF 56 restores `ஜமீன்தார் வீட்டுப் பொண்ணுன்னு`, `விபரங்களை`, and `கெளரவக்கொடி`;
+- PDF 57 restores `அவுங்க`, `என்ற உணர்வுகளே`, and `தடையேதும்`;
+- PDF 58 restores `பளபளப்பான`, `தான் நின்ற`, and `இலட்சியபுரிப் பயணம்`;
+- scene starts in the batch are `29-எ`, `30`, `31`, `32`, and `33`;
 - all five records are now `visual-verified`;
 - dedicated historical-glyph verification remains NOT-STARTED.
 
 ## Exact next activity
 
-> **Visually verify PDF 54–58 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 55/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 59–63. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
+> **Visually verify PDF 59–63 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 60/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 64–68. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**

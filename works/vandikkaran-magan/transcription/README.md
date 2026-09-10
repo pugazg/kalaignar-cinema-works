@@ -6,10 +6,10 @@ The rendered scan is the controlling source. First-pass transcription is complet
 
 - transcription scope: **PDF 4–90 / 87 pages**;
 - first pass: **87/87 COMPLETE**;
-- visual verification: **PDF 4–53 / 50 of 87 COMPLETE-VERIFIED**;
-- remaining visual-verification pages: **37**;
-- page records PDF 4–53: `visual-verified`;
-- page records PDF 54–90: `draft` pending visual verification;
+- visual verification: **PDF 4–58 / 55 of 87 COMPLETE-VERIFIED**;
+- remaining visual-verification pages: **32**;
+- page records PDF 4–58: `visual-verified`;
+- page records PDF 59–90: `draft` pending visual verification;
 - open uncertainty markers: **0 recorded**;
 - dedicated historical-glyph verification: **0/87 / NOT-STARTED**;
 - legacy prospective glyph checks on PDF 4–13: **10 pages**, not equivalent to the later dedicated glyph phase;
@@ -20,8 +20,8 @@ The visual pass must use source pixels directly and may correct first-pass OCR-l
 
 ## Latest verified batch
 
-PDF **49–53** is complete. Notable source corrections include `வயசு`, `கலந்து`, `ஏது`, `வீட்டில் இவ்வளவு பெரியவேலை`, `எஸ்டேட்டைப் பார்க்கப்`, repeated `உருத்தெரியாமல்`, `தலைப்பகுதி`, `புரியிறது`, `என்னைத் துன்பத்தின்`, `காரம் ததும்ப`, `செகரட்டரி`, `விரும்புகிறேன்`, and `அவளின் தலைமயிரைப்`.
+PDF **54–58** is complete. Notable source corrections include `ஒட்டிக்கொள்வதா?`, `கெளரவத்தைச்`, `வச்சுட்டியே`, `பழைய காலமல்ல`, `தெரிவிக்க`, duplicated `செத்துட்டான், செத்துட்டான்னு`, scene-31 `காளிங்கன்`, `ஜமீன்தார் வீட்டுப் பொண்ணுன்னு`, `விபரங்களை`, `கெளரவக்கொடி`, `அவுங்க`, `என்ற உணர்வுகளே`, `தடையேதும்`, `பளபளப்பான`, `தான் நின்ற`, and `இலட்சியபுரிப் பயணம்`.
 
 ## Next
 
-Visually verify PDF **54–58** against the controlling scan, mark those five records `visual-verified`, update `index.json` to **55/87**, commit/push the five-page batch, and continue with PDF 59–63. Dedicated historical-glyph verification remains blocked until visual verification reaches PDF 90.
+Visually verify PDF **59–63** against the controlling scan, mark those five records `visual-verified`, update `index.json` to **60/87**, commit/push the five-page batch, and continue with PDF 64–68. Dedicated historical-glyph verification remains blocked until visual verification reaches PDF 90.
