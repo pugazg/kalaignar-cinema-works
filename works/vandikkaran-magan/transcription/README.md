@@ -1,6 +1,6 @@
 # வண்டிக்காரன் மகன் — canonical Tamil transcription
 
-The rendered scan is the controlling source. First-pass transcription and the full visual-fidelity phase are complete. Dedicated historical-glyph verification is now in progress in user-authorized **15-page iterations** from PDF 34 onward.
+The rendered scan is the controlling source. First-pass transcription, full visual verification, and dedicated historical-glyph verification are complete. The project is now at the final full visual-verification phase.
 
 ## Current checkpoint
 
@@ -11,21 +11,19 @@ The rendered scan is the controlling source. First-pass transcription and the fu
 - page records PDF 4–90: `visual-verified`;
 - draft page records: **0**;
 - open uncertainty markers: **0 recorded**;
-- dedicated historical-glyph verification: **PDF 4–78 / 75 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **12**;
+- dedicated historical-glyph verification: **PDF 4–90 / 87 of 87 COMPLETE / PASS**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
-- final visual verification: **NOT-STARTED**;
-- active dedicated glyph batch size: **15 source pages per iteration; final remainder may be shorter**.
+- final visual verification: **NOT-STARTED — 0 / 87**.
 
-The dedicated glyph phase must use enlarged source pixels and inspect only the mandated historical Tamil glyph families occurrence by occurrence. Never global-replace or normalize surrounding source language.
+The dedicated glyph phase inspected the mandated families `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` occurrence by occurrence against source pixels and is now closed. Do not reopen it unless the final visual pass exposes a genuine direct-source contradiction.
 
-## Latest dedicated glyph batch
+## Final dedicated glyph batch
 
-PDF **64–78** is complete. Every target-family occurrence on those fifteen pages was re-read against the controlling scan. Representative confirmations include `மாப்பிள்ளை / கிளிஞ்சலைக் / உன்னை`, `ஆணையிட்டுச் / கலைச்சுக் / கண்ணாயிரம் / பெண்ணைத்`, `பின்னையிட்ட / அன்னையிட்ட`, `சொன்னால் / கல்யாணம்`, `காவலனைத் / திருவிளையாடலைப்`, `கருணை / மணலைக் / சாய்கிறார்`, `மாப்பிள்ளே / வயிற்றுப்பிள்ளையா / வேலை`, `கண்ணைக் / அவளைப் / காளை`, `சொன்னா`, `கண்ணைத் / அத்தனைக்கும்`, `ஆலையில்`, `யானைத் / பேரப்பிள்ளே / காளையைப்`, `நாளைக்கு`, `உங்களையா / இல்லையே / உன்னையும்`, and `மனைவிக்கு`.
+PDF **79–90** completed the phase. Representative confirmations include `மனைவிக்குத் / கண்ணைத் / மண்ணைத் / சதிவேலைக்கு`, `உங்களைப் / உங்களைச் / அவளை`, `காலையில் / பொன்னாடம் / கண்ணாயிரம் / காளையை`, `காளிங்கராயனை / அரிவாள்மனையை / அவனை`, `எத்தனையோ`, `சிலையைத் / கயிறாக / வளைப்பாயோ / எரிமலை / பிள்ளை / அன்னையைக்`, `அணைச்சு / வேலை / இல்லை / காளை / தானியங்களைப்`, `காளையைக் / மாலை`, and film-credit `அண்ணா / கலைஞர்`.
 
 No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
 ## Next
 
-Run dedicated historical-glyph verification on PDF **79–90** as the final twelve-page remainder. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **87/87**, close the historical-glyph phase, commit/push, then transition to final full visual verification.
+Run the **final full visual verification across PDF 4–90**. Re-read every scoped page against the controlling scan, make only direct-source-supported corrections, confirm source structure and the closed glyph identities, then update `index.json` to **final_visual_verified_pages: 87**, mark the final visual phase COMPLETE/PASS, synchronize checkpoint docs, and only then consider unblocking derivatives.
