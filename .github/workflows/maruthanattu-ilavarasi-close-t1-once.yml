@@ -1,4 +1,5 @@
 name: Maruthanattu Ilavarasi close Tamil T1 once
+# retry after output-normalization
 on:
   push:
     branches: [main]
