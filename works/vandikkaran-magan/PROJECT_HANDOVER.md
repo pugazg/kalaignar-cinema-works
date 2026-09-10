@@ -35,7 +35,7 @@ Main screenplay pagination: **printed = PDF − 1**.
 
 1. First-pass transcription — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
 2. Visual verification — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
-3. Historical-glyph verification — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
+3. Historical-glyph verification — **10 pages per iteration from PDF 24 onward; commit/push every batch; repeat through PDF 90.**
 4. Final visual verification — **full-work final source pass.**
 
 Do not interleave phases.
@@ -54,26 +54,24 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - visually verified contiguous range: **PDF 4–90**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **PDF 4–23 / 20 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **67**;
-- legacy prospective drafting checks do not close the dedicated glyph gate;
+- dedicated historical-glyph verification: **PDF 4–33 / 30 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **57**;
+- cumulative canonical glyph corrections: **0**;
+- unresolved glyph holds: **0**;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Dedicated historical-glyph batch 4 — PDF 19–23
+## Dedicated historical-glyph batch 5 — PDF 24–33
 
-- all five pages were independently re-read against the controlling scan under the dedicated gate;
-- every occurrence of the mandated glyph families on those pages was checked occurrence by occurrence;
-- PDF 19 confirms `ளை / லை / னா` in forms including `போறவங்களையெல்லாம்`, `இளைய`, `இல்லை`, `அலையுற`, `போனா`;
-- PDF 20 confirms `னா` in `எவனாயிருந்தாலும்` and `பண்ணினார்`;
-- PDF 21 confirms `னை` in `லிங்கனை`; the remaining mandated families were also re-read without requiring correction;
-- PDF 22 confirms `லை / றா` in `தலையை`, `சென்றாரு`, `கொன்றாரு`;
-- PDF 23 confirms `னை / ணா / ளை / லை` in `உன்னைக்`, `பெண்ணா`, `இளையராணி`, `மாலை`, `காலையில`;
+- first user-authorized **10-page** dedicated glyph iteration;
+- all ten pages were independently re-read against the controlling scan under the dedicated gate;
+- every occurrence of the mandated glyph families was checked occurrence by occurrence;
+- representative source confirmations include `காலையிலே`, `பரவாயில்லை`, `மனுஷனைக்`, `வயசானவனு`, `கண்ணாயிரம்`, `கண்ணைத்`, `என்னைப்பன்`, `தலைமயிரைப்`, `என்னையா`, `அவனைத்தடுத்து`, `வயசான`, `காலை`, `குதிரைகளைப்`, `உன்னையும்`, `இன்னொரு`, `நொண்டியபடியே`, `இன்னைக்கு`, `அவனைப்பிடிச்சு`, `குடிகாரனை`, `பிள்ளை`, `தகப்பனை`, and repeated `பச்சிலை` forms;
 - canonical page-text glyph corrections in this batch: **0**;
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 24–28 as the next five-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 25/87 and next batch PDF 29–33; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
+> **Run dedicated historical-glyph verification on PDF 34–43 as the next ten-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 40/87 and next batch PDF 44–53; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**

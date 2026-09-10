@@ -71,6 +71,7 @@ historical_glyph_policy:
   guide: docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md
   audit_families: "ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ"
   occurrence_by_occurrence_only: true
+  dedicated_batch_size_source_pages: 10
 user_catalogue_context:
   status: contextual-not-canonical-source-text
   note: user supplied title/author/publisher/edition metadata and a descriptive paragraph; source-visible identity controls repository metadata where roles differ
@@ -91,12 +92,13 @@ status:
   canonical_tamil_index_path: works/vandikkaran-magan/transcription/index.json
   canonical_tamil_batch_size_source_pages: 5
   historical_glyph_first_pass_checked_pages: 10
-  historical_glyph_final_verified_pages: 20
-  historical_glyph_verified_pdf_range_completed: 4-23
-  historical_glyph_current_through_pdf: 23
+  historical_glyph_final_verified_pages: 30
+  historical_glyph_verified_pdf_range_completed: 4-33
+  historical_glyph_current_through_pdf: 33
+  historical_glyph_batch_size_source_pages: 10
   historical_glyph_audit_path: works/vandikkaran-magan/notes/historical-glyph-audit.md
   visual_fidelity_audit: complete-87-of-87-through-pdf-90
-  historical_glyph_full_audit: in-progress-20-of-87-through-pdf-23
+  historical_glyph_full_audit: in-progress-30-of-87-through-pdf-33
   scene_text_derivatives: blocked
   dialogue_index: blocked
   character_entity_index: blocked
@@ -104,4 +106,4 @@ status:
   english_translation: not-started
   reader_export: not-started
   reading_room_integration: not-started
-next_action: "Continue dedicated historical-glyph verification with PDF 24–28 as the next five-page batch; inspect mandated historical Tamil glyph families occurrence by occurrence against the controlling scan; record source evidence and any glyph-identity corrections; update the dedicated glyph counters to 25/87 and next batch PDF 29–33; commit/push the batch; then synchronize checkpoints. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90."
+next_action: "Continue dedicated historical-glyph verification with PDF 34–43 as the next ten-page batch; inspect mandated historical Tamil glyph families occurrence by occurrence against the controlling scan; record source evidence and any glyph-identity corrections; update the dedicated glyph counters to 40/87 and next batch PDF 44–53; commit/push the batch; then synchronize checkpoints. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90."

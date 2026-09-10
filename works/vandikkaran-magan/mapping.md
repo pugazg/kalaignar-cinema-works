@@ -145,7 +145,7 @@ Rules:
 - preserve source spelling/grammar/punctuation after glyph identity is decoded;
 - keep unresolved clusters explicit rather than guessing.
 
-Dedicated historical-glyph verification is now complete through PDF **23**: batches PDF 4–8, 9–13, 14–18, and 19–23 all PASS. Cumulative canonical glyph corrections: **0**; unresolved glyph holds: **0**. The old prospective `நாணயத்தின்` → `ணா` example remains withdrawn because that word does not contain the `ணா` family.
+Dedicated historical-glyph verification is now complete through PDF **33**: PDF 4–8, 9–13, 14–18, 19–23, and the first 10-page iteration PDF 24–33 all PASS. The user has changed the active dedicated-glyph cadence to **10 source pages per iteration**. Cumulative canonical glyph corrections: **0**; unresolved glyph holds: **0**. The old prospective `நாணயத்தின்` → `ணா` example remains withdrawn because that word does not contain the `ணா` family.
 
 ## Scan condition / defects
 
@@ -162,11 +162,12 @@ Dedicated historical-glyph verification is now complete through PDF **23**: batc
 - scene-heading inventory: **71/71 observed heading occurrences mapped**;
 - canonical Tamil first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual fidelity audit: **COMPLETE — PDF 4–90 / 87 of 87 visually verified**;
-- historical-glyph full audit: **IN PROGRESS — PDF 4–23 / 20 of 87 verified**;
+- historical-glyph full audit: **IN PROGRESS — PDF 4–33 / 30 of 87 verified**;
+- active historical-glyph batch size: **10 source pages**;
 - structured derivatives: **BLOCKED**;
 - song/performance authorship gate: **NOT-STARTED**;
 - English translation / reader / Reading Room: **NOT-STARTED**.
 
 ## Exact next activity
 
-**Continue the dedicated historical-glyph audit with PDF 24–28 as the next five-page batch. Inspect the mandatory glyph families occurrence by occurrence against enlarged source pixels, record evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph-identity corrections, update the dedicated glyph counters to 25/87 and next batch PDF 29–33, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph audit is complete.**
+**Continue the dedicated historical-glyph audit with PDF 34–43 as the next ten-page batch. Inspect the mandatory glyph families occurrence by occurrence against enlarged source pixels, record evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph-identity corrections, update the dedicated glyph counters to 40/87 and next batch PDF 44–53, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph audit is complete.**

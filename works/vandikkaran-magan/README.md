@@ -44,7 +44,7 @@ Use `docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`. Never global-replace. 
 
 1. **First-pass transcription:** 5 PDF pages → commit/push → repeat through PDF 90.
 2. **Visual verification:** 5 PDF pages → commit/push → repeat through PDF 90.
-3. **Historical-glyph verification:** 5 PDF pages → commit/push → repeat through PDF 90.
+3. **Historical-glyph verification:** **10 PDF pages per iteration from PDF 24 onward** → commit/push → repeat through PDF 90.
 4. **Final visual verification:** full-work final source check.
 
 Do not interleave phases.
@@ -56,19 +56,20 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - remaining visual-verification pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–23 / 20 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **67**;
-- legacy prospective glyph checks from drafting do not close the dedicated glyph phase;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–33 / 30 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **57**;
+- cumulative dedicated glyph corrections: **0**;
+- unresolved glyph holds: **0**;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - structured derivatives / English / reader work: **BLOCKED**.
 
 ## Latest dedicated historical-glyph batch
 
-PDF **19–23** is complete under the dedicated glyph gate. Representative confirmed forms include `போறவங்களையெல்லாம்`, `இளைய`, `இல்லை`, `அலையுற`, `போனா`, `எவனாயிருந்தாலும்`, `பண்ணினார்`, `லிங்கனை`, `தலையை`, `சென்றாரு`, `கொன்றாரு`, `உன்னைக்`, `பெண்ணா`, `இளையராணி`, `மாலை`, and `காலையில`.
+PDF **24–33** is complete as the first 10-page dedicated glyph iteration. Representative confirmed forms include `காலையிலே`, `பரவாயில்லை`, `மனுஷனைக்`, `வயசானவனு`, `கண்ணாயிரம்`, `கண்ணைத்`, `என்னைப்பன்`, `தலைமயிரைப்`, `என்னையா`, `அவனைத்தடுத்து`, `காலை`, `குதிரைகளைப்`, `உன்னையும்`, `இன்னொரு`, `நொண்டியபடியே`, `இன்னைக்கு`, `அவனைப்பிடிச்சு`, `குடிகாரனை`, `பிள்ளை`, `தகப்பனை`, and `பச்சிலை` forms.
 
 Canonical page-text glyph corrections in this batch: **0**. Cumulative dedicated glyph corrections: **0**. Unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 24–28 as the next five-page batch. Inspect every target-family occurrence directly against enlarged source pixels, record source evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 25/87 and next batch PDF 29–33, commit/push, and continue through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.**
+> **Run dedicated historical-glyph verification on PDF 34–43 as the next ten-page batch. Inspect every target-family occurrence directly against enlarged source pixels, record source evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 40/87 and next batch PDF 44–53, commit/push, and continue through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.**
