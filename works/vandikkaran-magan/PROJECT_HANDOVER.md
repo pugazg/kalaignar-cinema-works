@@ -51,27 +51,25 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **PDF 4–43 / 40 of 87 COMPLETE-VERIFIED**;
-- visually verified contiguous range: **PDF 4–43**;
-- pages still awaiting visual verification: **47**;
+- visual verification: **PDF 4–48 / 45 of 87 COMPLETE-VERIFIED**;
+- visually verified contiguous range: **PDF 4–48**;
+- pages still awaiting visual verification: **42**;
 - historical-glyph verification: **0 / NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13: **10 pages** only; these do not close the later glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Latest visual-verification batch — PDF 39–43
+## Latest visual-verification batch — PDF 44–48
 
 - all five pages were re-read directly from enlarged source pixels;
-- substantive first-pass substitutions were corrected instead of merely changing status;
-- PDF 39 restores source `ஏழைபாழைகளுக்குக்`, `ரெடியாயிடு`, and `சடையனே`;
-- PDF 40 preserves source `எஸ்டேட்டைப் சுத்திப்`;
-- PDF 41 removes the spurious exclamation after source `ரொம்ப`;
-- PDF 42 restores `பசியுமில்லே ஒண்ணு மில்லே` and `கட்டில்கூட`;
-- PDF 43 restores source-spaced `வெட வெடன்னு / விட விடன்னு / தட தடன்னு`, plus `வெளியிலே`, `கட்டிலை`, and `போய்யா`;
-- scenes beginning in the batch are `21`, `22`, `22-எ`, `23`, and `24`;
-- all five records are now `visual-verified`.
+- PDF 44 restores `மிருகங்களைப் போலக்`, `ஓநாய்களெல்லாம்`, `தர்மமாகாது`, and `ஒரு ஆணை`;
+- PDF 45 restores `இந்தக்கதை போட்ட பின்பகுதி`, `நான் உன் கிட்ட பேசலே`, `தெரிஞ்சுகிறதிலே`, `முணுமுணுவென்று`, source `ஆகா! ஆகா!`, and `இல்லேன்னு`;
+- PDF 46–47 preserve the source song/performance structure; PDF 47 restores `கட்டையைக் கையால்` and `சதிங்கிற வார்த்தை`;
+- PDF 48 restores `சொக்கலிங்கம் என்ன ஆனானோ`, `அப்பனை`, `என்னபுண்ணியம்`, and `என்னுடைய மரியாதையைத்`;
+- all five records are now `visual-verified`;
+- dedicated historical-glyph verification remains NOT-STARTED.
 
 ## Exact next activity
 
-> **Visually verify PDF 44–48 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 45/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 49–53. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
+> **Visually verify PDF 49–53 directly against the attached controlling scan as one five-page batch. Correct every source discrepancy without normalization or guesswork, mark all five page records `visual-verified`, update `transcription/index.json` to 50/87, commit/push the batch to `main`, synchronize durable status, and continue with PDF 54–58. Do not begin dedicated historical-glyph verification until the visual phase reaches PDF 90.**
