@@ -1,0 +1,421 @@
+name: Vandikkaran Magan synchronize scene checkpoint
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vandikkaran-magan-sync-scene-checkpoint.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize work-local and repository-wide mirrors
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, re
+
+          ROOT = Path('.')
+          W = ROOT/'works/vandikkaran-magan'
+          source = 'TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf'
+          sha = '03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253'
+          ids = ['1','2','3','4','4-எ','5','6','7','8','9','10','10-எ','11','12','13','14','14-எ','15','16','16-எ','17','18','19','20','20-எ','21','22','22-எ','23','24','24-எ','24-பி','24-சி','24-டி','25','26','27','28','29','29-எ','30','31','32','33','33-எ','34','35','36','37','38','39','40','41','42','42-எ','43','44','45-46','47','48','49','50','51','52','53','53-எ','53-பி','53-சி','53-டி','54','55','56']
+          starts = [6,8,9,9,10,12,13,13,16,17,18,19,20,22,24,25,27,28,29,29,30,31,33,35,37,39,40,40,42,42,44,44,46,47,48,50,51,52,53,55,55,55,56,58,59,59,60,60,61,62,64,65,66,67,68,70,71,71,72,72,75,76,76,78,81,81,81,81,83,85,86,87]
+          assert len(ids) == len(starts) == 72
+
+          rows = '\n'.join(f'| {i} | `{sid}` | {pdf} | {pdf-1} |' for i,(sid,pdf) in enumerate(zip(ids,starts),1))
+          suffixes = [x for x in ids if x not in {'45-46'} and not x.isdigit()]
+          assert len(suffixes) == 17 and suffixes[0] == '4-எ'
+
+          audit = f'''# வண்டிக்காரன் மகன் — Scene-heading audit
+
+**Controlling source:** `{source}`  
+**Audit status:** **COMPLETE-VERIFIED — 72/72 source-visible scene-heading occurrences mapped**
+
+## Audit rule
+
+This inventory records each source-visible identifying scene label and its start page. It does **not** normalize the complete printed heading typography. Canonical transcription and scene derivatives preserve each occurrence's exact `காட்சி` wording, dash/spacing form, punctuation and adjacent location caption.
+
+For screenplay PDF 6–87, **printed page = PDF page − 1**.
+
+## Corrective findings
+
+- First-pass review of PDF 83 exposed source-visible `காட்சி -- 53 டி`, increasing the earlier inventory to 71.
+- Scene-derivative boundary QA then exposed one further stale inventory omission already present in the closed canonical source layer: PDF 10 contains source-visible `காட்சி — 4 எ.`. It is a genuine scene boundary and is retained as source scene ID `4-எ`.
+- Therefore the authoritative inventory is **72 observed headings**, not 71. No canonical Tamil was changed by this correction; only structural inventory/derivative mirrors were reconciled.
+
+| Occurrence | Source scene label | PDF start | Printed start |
+|---:|---|---:|---:|
+{rows}
+
+## Sequence findings
+
+- observed heading occurrences: **72**;
+- unsuffixed/combined headings: **55**;
+- suffix insertions: **17**;
+- numerical range represented: **1–56**;
+- combined source heading: **`45-46`**;
+- suffix insertions: {', '.join(f'`{x}`' for x in suffixes)};
+- repeated PDF start pages are source-supported: multiple numbered scenes begin on the same printed page;
+- no synthetic scene 45 or scene 46 is created: the printed combined `45-46` remains one source disposition.
+
+## Typography safeguards
+
+The source varies heading punctuation/spacing. Canonical examples include `காட்சி — 4 எ.`, `காட்சி 10-எ`, `காட்சி—14 எ`, `காட்சி 24-எ`, `காட்சி-24-பி`, `காட்சி-24 சி`, `காட்சி-24 டி`, `காட்சி -- 42`, `காட்சி — 42-எ`, `காட்சி-44`, `காட்சி -- 45-46`, and `காட்சி -- 53 டி`. These observations are not permission to normalize exact source typography.
+
+An internal location caption does not automatically create a scene. PDF 22, for example, begins scene 12 and later contains `கோகிலா அறை` without a new `காட்சி` heading.
+
+## Gate disposition
+
+**PASS — 72/72 source-visible headings are mapped.** `scenes/index.json` and `notes/scene-boundary-ownership-qa.md` independently close the scene derivative gate with 72/72 derivatives, exact ordered-span reconstruction, and 0 gaps / 0 overlaps.
+'''
+          (W/'notes/scene-heading-audit.md').write_text(audit, encoding='utf-8')
+
+          handover = f'''# வண்டிக்காரன் மகன் — Project Handover
+
+Repository: `pugazg/kalaignar-cinema-works`  
+Branch: `main`  
+Work: `works/vandikkaran-magan/`
+
+**LIVE MAIN IS AUTHORITATIVE.**
+
+## Controlling source
+
+`{source}` — **90 PDF pages / 26,391,039 bytes / SHA-256 `{sha}` / first edition 1978 / image-only**. Source pixels control canonical Tamil; do not substitute web text, film audio, OCR, later editions or memory.
+
+## Closed source authority
+
+- PDF 4–5 — `கலைஞரின் முன்னுரை`;
+- PDF 6–87 — screenplay/dialogue, printed pp.5–86;
+- PDF 88–89 — film credits;
+- PDF 90 — back cover;
+- canonical source pages: **87/87 — PDF 4–90**;
+- visual verification: **87/87 COMPLETE**;
+- historical-glyph verification: **87/87 COMPLETE / 0 holds**;
+- final full visual verification: **87/87 PASS / 0 final corrections**;
+- open uncertainty markers: **0**.
+
+## Structural / scene authority
+
+The corrected source-visible scene inventory is **72/72**, after derivative QA exposed the previously omitted but already canonical PDF 10 heading `காட்சி — 4 எ.` (`4-எ`). The sequence spans base numbers 1–56, **17 suffix insertions**, and the source-combined `45-46` heading. `notes/scene-heading-audit.md` is the current mapping record.
+
+Scene-text derivatives are **72/72 COMPLETE-VERIFIED** in `scenes/`. Boundary ownership QA is **PASS**:
+
+- screenplay coverage: **82/82 pages — PDF 6–87**;
+- gaps: **0**;
+- overlaps: **0**;
+- duplicate source ownership: **0**;
+- joined scene-span SHA-256 equals canonical scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`.
+
+PDF 4–5 and PDF 88–90 are deliberately outside the scene layer. No canonical Tamil was rewritten by scene construction.
+
+## Derivative gate state
+
+- scene-text derivatives: **COMPLETE-VERIFIED — 72/72 / QA PASS**;
+- dialogue index: **READY-NEXT**;
+- character/entity index: **BLOCKED pending dialogue closure**;
+- song/performance authorship gate: **BLOCKED**;
+- English translation: **BLOCKED**;
+- reader/export / Reading Room: **BLOCKED**.
+
+## Exact next activity
+
+> **Build the immutable dialogue index from the 72 complete-verified scene derivatives. Only explicitly speaker-labelled source utterances become dialogue records. Preserve exact Tamil `speaker_label`, exact dialogue text, source scene ID, PDF/printed-page provenance, and cross-page ownership; keep one labelled utterance crossing a page as one record; leave unlabelled speech unassigned; allow legitimate zero-dialogue scenes; validate that each extracted dialogue span is owned exactly once with no invented speakers or normalized labels; commit/push the dialogue layer; then synchronize all active status mirrors before opening character/entity indexing.**
+'''
+          (W/'PROJECT_HANDOVER.md').write_text(handover, encoding='utf-8')
+
+          next_prompt = f'''# Next Chat Prompt — வண்டிக்காரன் மகன் / dialogue index
+
+Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
+
+## Controlling source
+
+`{source}` — 90 pages, 26,391,039 bytes, SHA-256 `{sha}`, first edition 1978, image-only. The attached/rendered scan remains canonical authority.
+
+## Durable closed state
+
+- canonical source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90**;
+- open source/glyph uncertainty: **0**;
+- source-visible scene-heading inventory: **72/72 COMPLETE-VERIFIED**;
+- corrective structural finding: PDF 10 source heading `காட்சி — 4 எ.` is authoritative scene ID `4-எ`; no Tamil source rewrite was required;
+- scene derivatives: **72/72 COMPLETE-VERIFIED**;
+- scene boundary ownership: **PASS — 82/82 screenplay pages, 0 gaps, 0 overlaps, 0 duplicate source ownership**;
+- canonical/joined scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
+- PDF 4–5 and PDF 88–90 are not scenes.
+
+Do not reopen the closed Tamil or scene layers without new direct contradictory evidence from the controlling scan.
+
+## Dialogue-index rules
+
+Follow `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` Phase 10. Only explicitly speaker-labelled source utterances become immutable dialogue records. Preserve the exact source label and exact Tamil dialogue. Unlabelled speech stays unlabelled. A labelled utterance crossing pages remains one dialogue record. A scene may legitimately contain zero labelled dialogue.
+
+## Exact next activity
+
+> **Construct and verify the complete immutable dialogue index from `scenes/index.json` and the 72 verified scene files. Create the dialogue schema/index/records in the repository's established format; assign stable IDs; preserve exact `speaker_label`, exact source dialogue, source scene identity, PDF/printed-page provenance and cross-page metadata; do not turn stage directions, songs, written matter or unlabelled speech into dialogue; run whole-work coverage/uniqueness QA; commit/push; then synchronize checkpoints before character/entity indexing.**
+'''
+          (W/'NEXT_CHAT_PROMPT.md').write_text(next_prompt, encoding='utf-8')
+
+          readme = f'''# வண்டிக்காரன் மகன்
+
+Source-led archival workspace for the 1978 first-edition dialogue/screenplay booklet **`வண்டிக்காரன் மகன்`**.
+
+## Source authority
+
+Controlling source: `{source}` — **90 PDF pages / 26,391,039 bytes / SHA-256 `{sha}`**. The image-only scan is canonical authority. Preserve source spelling, punctuation, labels, scene numbering, performance structures and historical glyph identity without silent modernization.
+
+## Current verified state
+
+- source boundaries: PDF 4–5 foreword / PDF 6–87 screenplay-dialogue / PDF 88–89 film credits / PDF 90 back cover;
+- canonical Tamil source records: **87/87 COMPLETE-VERIFIED**;
+- visual / historical-glyph / final-visual gates: **87/87 / 87/87 / 87/87 PASS**;
+- unresolved source/glyph markers: **0**;
+- source-visible scene headings: **72/72 COMPLETE-VERIFIED**;
+- suffix insertions: **17**, including corrected inventory item `4-எ` on PDF 10;
+- combined source heading: **`45-46`**;
+- scene-text derivatives: **72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — PDF 6–87 represented once, 0 gaps / 0 overlaps / 0 duplicate ownership**.
+
+See `notes/scene-heading-audit.md`, `scenes/index.json`, `scenes/README.md`, and `notes/scene-boundary-ownership-qa.md`.
+
+## Downstream gates
+
+- dialogue index: **READY-NEXT**;
+- character/entity index: **BLOCKED pending dialogue closure**;
+- song/performance authorship: **BLOCKED**;
+- English translation: **BLOCKED**;
+- reader/export / Reading Room: **BLOCKED**.
+
+## Exact next activity
+
+Build the immutable dialogue index from the 72 verified scenes. Extract only explicitly speaker-labelled utterances; preserve exact labels/text and page provenance; merge cross-page continuations into one record; leave unlabelled speech unassigned; allow zero-dialogue scenes; run whole-work uniqueness/coverage QA; then synchronize mirrors before character/entity indexing.
+'''
+          (W/'README.md').write_text(readme, encoding='utf-8')
+
+          mapping = f'''# வண்டிக்காரன் மகன் — Structural Mapping
+
+## Controlling source
+
+`{source}` — archive ID `TVA_BOK_0062961`, **90 pages / 26,391,039 bytes / SHA-256 `{sha}`**, image-only first-edition scan.
+
+## Source identity and boundaries
+
+PDF 2 prints `வண்டிக்காரன் மகன்`, `மூலக்கதை அண்ணா`, `திரைக்கதை-வசனம் கலைஞர்`, `கனி பதிப்பகம்`, `சென்னை-34.`. PDF 3 prints `முதற் பதிப்பு : 1978`. PDF 88–89 includes film-level `பாடல்கள்: கவிஞர் வாலி`; that is metadata only and does not by itself settle item-level song authorship.
+
+| PDF | Printed | Disposition |
+|---|---:|---|
+| 1–3 | — | cover/title/edition metadata |
+| 4–5 | — | `கலைஞரின் முன்னுரை` |
+| 6–87 | 5–86 | canonical screenplay/dialogue |
+| 88–89 | — | film credits |
+| 90 | — | back cover |
+
+For PDF 6–87, **printed = PDF − 1**.
+
+## Scene-heading system — corrected and closed
+
+Derivative boundary QA reconciled the structural inventory with the already verified canonical pages and established **72 source-visible headings**. PDF 10 contains the previously omitted inventory item `காட்சி — 4 எ.` → source scene ID `4-எ`.
+
+- observed headings: **72/72**;
+- base numeric range: **1–56**;
+- unsuffixed/combined occurrences: **55**;
+- suffix insertions: **17**;
+- combined printed heading: **`45-46`**;
+- multiple scene starts on one page are source-supported;
+- internal location captions are not automatically scene boundaries.
+
+Observed identifying sequence:
+
+`{', '.join(ids)}`
+
+Exact source typography and start pages are recorded in `notes/scene-heading-audit.md`; scene ownership is fixed by `scenes/index.json`.
+
+## Song / performance safeguard
+
+Performance/lyric structures remain embedded in their canonical scene spans. Film-level lyricist metadata does not authorize item-level attribution or reconstruction of missing lyrics. The dedicated authorship gate remains downstream of dialogue and character/entity indexing.
+
+## Historical-glyph / source gates
+
+Canonical first pass, visual verification, dedicated historical-glyph verification and final full visual verification are all **87/87 COMPLETE / PASS**, with **0** open source/glyph holds and **0** final-pass corrections.
+
+## Scene derivative gate
+
+- derivatives: **72/72 COMPLETE-VERIFIED**;
+- screenplay coverage: **82/82 — PDF 6–87**;
+- gaps / overlaps / duplicate ownership: **0 / 0 / 0**;
+- canonical scene-body and joined derivative SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
+- non-scene PDF 4–5 and PDF 88–90 excluded.
+
+## Exact next activity
+
+**Build and verify immutable dialogue records from the 72 closed scene derivatives, using only explicit source speaker labels; preserve exact labels/text and provenance, merge cross-page labelled utterances, leave unlabelled speech unassigned, and run whole-work uniqueness/coverage QA before character/entity indexing opens.**
+'''
+          (W/'mapping.md').write_text(mapping, encoding='utf-8')
+
+          tr = f'''# வண்டிக்காரன் மகன் — canonical Tamil transcription
+
+The rendered scan is the controlling source. The canonical source layer is closed.
+
+## Closed checkpoint
+
+- transcription scope: **PDF 4–90 / 87 pages**;
+- first pass / visual / historical-glyph / final visual: **87/87 / 87/87 / 87/87 / 87/87 COMPLETE-PASS**;
+- final-pass corrections: **0**;
+- unresolved glyph holds / open uncertainty markers: **0 / 0**;
+- all page records PDF 4–90 remain `visual-verified` canonical source records.
+
+Only PDF 6–87 participates in the screenplay scene layer. Scene construction is now **72/72 COMPLETE-VERIFIED**, including canonical PDF 10 heading `காட்சி — 4 எ.` (`4-எ`), with boundary QA **PASS — 82/82 pages, 0 gaps, 0 overlaps**.
+
+## Next
+
+The immutable dialogue index is **READY-NEXT**. Extract only explicit speaker-labelled utterances from the verified scene layer; preserve exact label/text and page provenance; merge cross-page continuations into one record; leave unlabelled speech unassigned; and validate whole-work uniqueness/coverage before opening character/entity indexing.
+'''
+          (W/'transcription/README.md').write_text(tr, encoding='utf-8')
+
+          # Patch metadata while retaining established fields.
+          mp = W/'metadata.yaml'
+          m = mp.read_text(encoding='utf-8')
+          m = m.replace('observed_scene_heading_occurrences: 71', 'observed_scene_heading_occurrences: 72')
+          m = m.replace('suffix_insert_headings: 16', 'suffix_insert_headings: 17')
+          if '    - 4-எ\n' not in m:
+              m = m.replace('  inserted_suffix_labels:\n    - 10-எ', '  inserted_suffix_labels:\n    - 4-எ\n    - 10-எ')
+          m = m.replace('scene_heading_audit: complete-71-of-71-observed', 'scene_heading_audit: complete-72-of-72-observed')
+          m = m.replace('scene_text_derivatives: ready-next', 'scene_text_derivatives: complete-verified-72-of-72')
+          m = m.replace('dialogue_index: blocked-pending-scene-layer', 'dialogue_index: ready-next')
+          m = re.sub(r'^next_action: .*$', 'next_action: "Build and verify the immutable dialogue index from the 72 complete-verified scene derivatives. Extract only explicit source speaker-labelled utterances; preserve exact speaker labels, dialogue text, scene identity, PDF/printed provenance and cross-page ownership; leave unlabelled speech unassigned; run whole-work uniqueness/coverage QA; commit/push; then synchronize mirrors before character/entity indexing."', m, flags=re.M)
+          mp.write_text(m, encoding='utf-8')
+
+          # Canonical transcription index: preserve page records, advance only downstream status/action.
+          ip = W/'transcription/index.json'
+          ix = json.loads(ip.read_text(encoding='utf-8'))
+          ix['scene_text_derivatives'] = 'complete-verified-72-of-72'
+          ix['scene_index_path'] = '../scenes/index.json'
+          ix['scene_boundary_ownership_qa'] = 'PASS'
+          ix['scene_boundary_qa_path'] = '../notes/scene-boundary-ownership-qa.md'
+          ix['dialogue_index'] = 'ready-next'
+          ix['next_action'] = 'Build and verify immutable dialogue records from the 72 complete-verified scene derivatives. Only explicit source speaker-labelled utterances become records; preserve exact labels/text, scene identity and PDF/printed provenance; merge cross-page utterances; leave unlabelled speech unassigned; run whole-work uniqueness/coverage QA; then synchronize mirrors before character/entity indexing.'
+          ip.write_text(json.dumps(ix, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+
+          # Repository registry.
+          dp = ROOT/'data/works.json'
+          works = json.loads(dp.read_text(encoding='utf-8'))
+          item = next(x for x in works if x.get('id') == 'vandikkaran-magan')
+          item['structural_mapping'] = 'verified'
+          item['scene_headings_observed'] = 72
+          item['source_numbered_scene_headings'] = True
+          item['scene_suffix_insertions'] = 17
+          item['tamil_transcription'] = 'complete-verified'
+          item['tamil_first_pass_complete'] = True
+          item['tamil_transcription_through_pdf_page'] = 90
+          item['tamil_transcription_draft_pages'] = 0
+          item['tamil_transcription_verified_pages'] = 87
+          item['tamil_transcription_review_pages'] = 0
+          item['tamil_fidelity_audit'] = 'complete'
+          item['canonical_range_fidelity_audit_complete'] = True
+          item['total_canonical_pages'] = 87
+          item['total_verified_pages'] = 87
+          item['total_review_pages'] = 0
+          sd = item.setdefault('structured_derivatives', {})
+          sd.update({
+              'scene_index':'complete-verified',
+              'scene_index_path':'works/vandikkaran-magan/scenes/index.json',
+              'scene_records':72,
+              'scene_text_derivatives':'complete-verified',
+              'scene_text_files_completed':72,
+              'scene_boundary_ownership_qa':'PASS',
+              'scene_boundary_gaps':0,
+              'scene_boundary_overlaps':0,
+              'dialogue_index':'ready-next',
+              'next_structured_derivative':'dialogue-index',
+          })
+          item['next_action'] = 'Build and verify the immutable dialogue index from the 72 complete-verified source-led scenes; preserve exact explicit speaker labels/text and provenance, merge cross-page utterances, leave unlabelled speech unassigned, run whole-work uniqueness/coverage QA, then synchronize mirrors.'
+          dp.write_text(json.dumps(works, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Root README: replace only this work's current-status section.
+          rp = ROOT/'README.md'
+          r = rp.read_text(encoding='utf-8')
+          root_section = f'''## வண்டிக்காரன் மகன் status
+
+`{source}` is the current active cinema-work source.
+
+- source: **90 PDF pages / 26,391,039 bytes / SHA-256 `{sha}` / first edition 1978**;
+- source credits: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
+- canonical Tamil source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90 / 0 open uncertainties**;
+- scene-heading inventory: **72/72 COMPLETE-VERIFIED**, including recovered inventory item `4-எ` at PDF 10; base 1–56, 17 suffix insertions, combined `45-46`;
+- scene derivatives: **72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
+- dialogue index: **READY-NEXT**;
+- character/entity, song/performance, English and reader layers: **gated downstream**.
+
+**Next:** Build the immutable dialogue index from the 72 verified scene derivatives. Extract only explicitly speaker-labelled utterances, preserve exact labels/text and page provenance, merge cross-page continuations, leave unlabelled speech unassigned, run whole-work uniqueness/coverage QA, then synchronize mirrors before character/entity indexing.
+
+'''
+          r2, n = re.subn(r'## வண்டிக்காரன் மகன் status\n.*?(?=## நாம் status\n)', root_section, r, count=1, flags=re.S)
+          if n != 1: raise SystemExit(f'root README Vandikkaran section replacement count={n}')
+          rp.write_text(r2, encoding='utf-8')
+
+          # Master handover high-level mirror.
+          hp = ROOT/'docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'
+          h = hp.read_text(encoding='utf-8')
+          h = h.replace('## 7. Current high-level project checkpoint — 2026-09-06', '## 7. Current high-level project checkpoint — 2026-09-10')
+          h, n = re.subn(r'^- \*\*Vandikkaran Magan / வண்டிக்காரன் மகன்\*\* — .*$', '- **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; source-visible scene headings **72/72**; scene derivatives **72/72 COMPLETE-VERIFIED**; boundary ownership **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps**; dialogue index **READY-NEXT**.', h, count=1, flags=re.M)
+          if n != 1: raise SystemExit('master handover Vandikkaran bullet not found')
+          h = re.sub(r'Ammayappan remains closed at its complete-verified checkpoint\. \*\*Naam / நாம் is closed through reader/export and Reading Room payload QA PASS\. The current active production work is வண்டிக்காரன் மகன், whose source intake and structural-mapping gate are now complete-verified; canonical Tamil is next\.\*\*', 'Ammayappan and Naam remain closed at their recorded checkpoints. **The current active production work is வண்டிக்காரன் மகன்: canonical Tamil and all source gates are closed, its corrected 72-scene derivative layer is COMPLETE-VERIFIED with boundary QA PASS, and immutable dialogue indexing is READY-NEXT.**', h, count=1)
+          hp.write_text(h, encoding='utf-8')
+
+          # Status consistency audit mirror.
+          sp = ROOT/'docs/STATUS_CONSISTENCY_AUDIT.md'
+          s = sp.read_text(encoding='utf-8')
+          s = re.sub(r'^Audit date: .*$', 'Audit date: 2026-09-10  ', s, count=1, flags=re.M)
+          s, n = re.subn(r'^\| Vandikkaran Magan / வண்டிக்காரன் மகன் \|.*$', '| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scene derivatives; boundary QA PASS — 0 gaps / 0 overlaps** | not-started | not-started |', s, count=1, flags=re.M)
+          if n != 1: raise SystemExit('status matrix Vandikkaran row not found')
+          current = '''## Vandikkaran Magan current checkpoint
+
+- canonical Tamil / visual / historical-glyph / final visual: **87/87 / 87/87 / 87/87 / 87/87 COMPLETE-PASS**;
+- source-visible scene-heading inventory: **72/72**, with PDF 10 `காட்சி — 4 எ.` correcting the stale 71-heading inventory;
+- scene derivatives: **72/72 COMPLETE-VERIFIED**;
+- boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
+- canonical/joined scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
+- dialogue index: **READY-NEXT**.
+
+**Next production phase:** build and verify immutable dialogue records from explicit source speaker labels only; preserve exact text/provenance and cross-page ownership; leave unlabelled speech unassigned; run whole-work uniqueness/coverage QA; then synchronize mirrors before character/entity indexing.
+
+'''
+          if '## Vandikkaran Magan current checkpoint' not in s:
+              s = s.replace('## Naam current checkpoint\n', current + '## Naam current checkpoint\n', 1)
+          s = s.replace('**PASS for the current repository-wide checkpoint.** Ammayappan remains complete-verified.', '**PASS for the current repository-wide checkpoint.** Vandikkaran Magan is now closed through its 72/72 source-led scene derivative gate with boundary ownership QA PASS; dialogue indexing is READY-NEXT. Ammayappan remains complete-verified.', 1)
+          s = re.sub(r'(## Conclusion\n\n).*?(?=\n\n<!--)', r'\1Vandikkaran Magan is the active production work. Its canonical Tamil/source gates and **72/72 scene derivative layer are COMPLETE-VERIFIED with boundary QA PASS**. **Next: immutable dialogue indexing from explicit source speaker labels only.**', s, count=1, flags=re.S)
+          sp.write_text(s, encoding='utf-8')
+
+          # Current-state sanity checks.
+          assert json.loads((W/'scenes/index.json').read_text(encoding='utf-8'))['total_scenes'] == 72
+          assert 'Status: **PASS**' in (W/'notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
+          assert 'scene_text_derivatives: complete-verified-72-of-72' in mp.read_text(encoding='utf-8')
+          assert 'dialogue_index: ready-next' in mp.read_text(encoding='utf-8')
+          assert '**72/72 COMPLETE-VERIFIED**' in (W/'README.md').read_text(encoding='utf-8')
+          assert '72/72 scene derivatives' in rp.read_text(encoding='utf-8')
+          assert '72/72' in hp.read_text(encoding='utf-8')
+          assert '72/72 scene derivatives' in sp.read_text(encoding='utf-8')
+          print('VANDIKKARAN MAGAN SCENE CHECKPOINT SYNC PASS')
+          PY
+          git diff --check
+          git status --short
+      - name: Commit synchronized checkpoint and remove one-shot workflow
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/vandikkaran-magan-sync-scene-checkpoint.yml
+          git add works/vandikkaran-magan data/works.json README.md docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md
+          git commit -m "Sync Vandikkaran Magan 72-scene checkpoint [skip ci]"
+          git push origin HEAD:main
