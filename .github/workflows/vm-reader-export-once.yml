@@ -1,0 +1,59 @@
+name: Vandikkaran Magan reader export once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/vm-reader-export-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build and QA deterministic English reader/export
+        run: python works/vandikkaran-magan/editions/en/build.py
+      - name: Synchronize reader/export checkpoint
+        run: python works/vandikkaran-magan/scripts/sync_reader_export_checkpoint.py
+      - name: Verify generated artifacts and active gates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('.')
+          out=root/'works/vandikkaran-magan/editions/en'
+          required=['reader-edition.md','reader-edition.html','reader-edition.json','PREFLIGHT_QA_REPORT.md','QA_REPORT.md','manifest.json','README.md']
+          for name in required:
+              p=out/name
+              assert p.exists() and p.stat().st_size>0, name
+          m=json.loads((out/'manifest.json').read_text(encoding='utf-8'))
+          assert m['status']=='complete-verified' and m['qa_status']=='PASS'
+          assert m['archive_scenes']==72 and m['translation_units']==1181
+          assert m['immutable_dialogue_records_linked']==773
+          assert m['source_unlabelled_spoken_units']==27 and m['cross_page_units']==58
+          assert len(m['performance_occurrence_ids_linked'])==9
+          idx=json.loads((root/'works/vandikkaran-magan/translations/index.json').read_text(encoding='utf-8'))
+          assert idx['status']=='complete-verified' and idx['verified_scenes']==72 and idx['translation_units']==1181
+          data=json.loads((root/'data/works.json').read_text(encoding='utf-8'))
+          row=next(x for x in data if x.get('id')=='vandikkaran-magan')
+          sd=row['structured_derivatives']
+          assert sd['english_translation']=='complete-verified'
+          assert sd['reader_export']=='complete-verified' and sd['english_reader_qa']=='PASS'
+          assert sd['reading_room_integration']=='ready-next'
+          print('Vandikkaran Magan reader/export generated artifact gate: PASS')
+          PY
+      - name: Commit verified reader/export checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add works/vandikkaran-magan/editions/en works/vandikkaran-magan/README.md works/vandikkaran-magan/PROJECT_HANDOVER.md works/vandikkaran-magan/NEXT_CHAT_PROMPT.md works/vandikkaran-magan/mapping.md works/vandikkaran-magan/metadata.yaml works/vandikkaran-magan/transcription/README.md works/vandikkaran-magan/dialogues/README.md works/vandikkaran-magan/characters/README.md works/vandikkaran-magan/songs/README.md works/vandikkaran-magan/translations/README.md data/works.json README.md docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md docs/STATUS_CONSISTENCY_AUDIT.md
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m 'Complete Vandikkaran Magan English reader export and sync [skip ci]'
+            git push origin HEAD:main
+          fi
