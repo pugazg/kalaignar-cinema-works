@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / visual verification PDF 34–38
+# Next Chat Prompt — வண்டிக்காரன் மகன் / visual verification PDF 44–48
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -27,8 +27,8 @@ Do not interleave phases.
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **IN PROGRESS — PDF 4–33 / 30 of 87 COMPLETE-VERIFIED**;
-- remaining visual pages: **57**;
+- visual verification: **IN PROGRESS — PDF 4–43 / 40 of 87 COMPLETE-VERIFIED**;
+- remaining visual pages: **47**;
 - historical-glyph verification: **NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13 are not the dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
@@ -36,8 +36,8 @@ Do not interleave phases.
 
 ## Latest batch
 
-PDF **29–33 / printed 28–32** was visually verified directly from enlarged source pixels. Corrections include source `காளிங்கன்`, `ஒரு இடத்துல நிக்க முடியல்ல`, `டீச்சரம்மா`, `காளிங் / காளிங்கா`, `ஒதுங்க`, the restored `சடையன்` speaker label on PDF 32, and `கசிகிற ரத்தத்தையும்` on PDF 33. Scene starts in this batch are `16`, `16 எ`, `17`, `18`, and `19`.
+PDF **39–43 / printed 38–42** was visually verified directly from enlarged source pixels. Source-controlled corrections include `ஏழைபாழைகளுக்குக்`, `ரெடியாயிடு`, `சடையனே`, `எஸ்டேட்டைப் சுத்திப்`, `பசியுமில்லே ஒண்ணு மில்லே`, `கட்டில்கூட`, the source-spaced forms `வெட வெடன்னு / விட விடன்னு / தட தடன்னு`, and `வெளியிலே வந்து கட்டிலை விரிக்கிறான்`. Scene starts in this batch are `21`, `22`, `22-எ`, `23`, and `24`.
 
 ## Exact next activity
 
-> **Process PDF 34–38 as the next five-page visual-verification batch. Compare each existing page record word-for-word and structure-for-structure with the controlling scan; correct source discrepancies without silent modernization; keep historical-glyph-specific closure for the later dedicated phase; mark all five pages `visual-verified`; update `transcription/index.json` to 35/87 and next batch PDF 39–43; commit/push the five-page batch to `main`; then synchronize checkpoint docs.**
+> **Process PDF 44–48 as the next five-page visual-verification batch. Compare each existing page record word-for-word and structure-for-structure with the controlling scan; correct source discrepancies without silent modernization; keep historical-glyph-specific closure for the later dedicated phase; mark all five pages `visual-verified`; update `transcription/index.json` to 45/87 and next batch PDF 49–53; commit/push the five-page batch to `main`; then synchronize checkpoint docs.**
