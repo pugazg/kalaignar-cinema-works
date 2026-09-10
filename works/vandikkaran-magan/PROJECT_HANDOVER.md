@@ -33,7 +33,7 @@ Main screenplay pagination: **printed = PDF − 1**. `notes/scene-heading-audit.
 
 1. First-pass transcription — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
 2. Visual verification — **5 pages per iteration; commit/push every batch; repeat through PDF 90.**
-3. Historical-glyph verification — **15 pages per iteration from PDF 34 onward; commit/push every batch; repeat through PDF 90.**
+3. Historical-glyph verification — **15 pages per iteration from PDF 34 onward; final remainder may be shorter; commit/push every batch; repeat through PDF 90.**
 4. Final visual verification — **full-work final source pass.**
 
 Do not interleave phases.
@@ -52,8 +52,8 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - visually verified contiguous range: **PDF 4–90**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **PDF 4–63 / 60 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **27**;
+- dedicated historical-glyph verification: **PDF 4–78 / 75 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **12**;
 - active dedicated glyph batch size: **15 source pages**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
@@ -61,15 +61,15 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Dedicated historical-glyph batch 7 — PDF 49–63
+## Dedicated historical-glyph batch 8 — PDF 64–78
 
 - all fifteen pages were independently re-read against the controlling scan under the dedicated gate;
 - every occurrence of the mandated glyph families was checked occurrence by occurrence;
-- representative source confirmations include `சடையனை`, `விங்கனைப்`, `வீட்டுப்பிள்ளை`, `மாப்பிள்ளை`, `தலையா`, `என்னைத்`, `தலைப்பகுதி`, `புண்ணை`, `அன்னைக்கே`, `தகப்பனார்`, `வலைவிரிப்பார்த்து`, `தலைமயிரைப்`, `சொன்னாய்`, `இலை`, `காலை`, `உன்னை`, `மகளைப்`, `விங்கனைத்`, `தோல்விகளையும்`, `அவளைப்`, `சேலைத்`, `பூனையைவிட`, `உன்னால`, `கண்ணாயிரமும்`, `கட்டளையாம்மா`, `தன்னை`, `கலைந்தால்`, `தானியங்களை`, `எத்தனையாவது`, `முன்னால்`, `வில்லாவளைக்கப்`, `பதினைந்து`, `விலையுயர்ந்த`, and `நூறாவது`;
+- representative source confirmations include `மாப்பிள்ளை`, `கிளிஞ்சலைக்`, `உன்னை`, `ஆணையிட்டுச்`, `கலைச்சுக்`, `கண்ணாயிரம்`, `பெண்ணைத்`, `பின்னையிட்ட`, `அன்னையிட்ட`, `சொன்னால்`, `கல்யாணம்`, `காவலனைத்`, `திருவிளையாடலைப்`, `கருணை`, `மணலைக்`, `சாய்கிறார்`, `மாப்பிள்ளே`, `வயிற்றுப்பிள்ளையா`, `வேலை`, `கண்ணைக்`, `அவளைப்`, `காளை`, `சொன்னா`, `கண்ணைத்`, `அத்தனைக்கும்`, `ஆலையில்`, `யானைத்`, `பேரப்பிள்ளே`, `காளையைப்`, `நாளைக்கு`, `உங்களையா`, `இல்லையே`, `உன்னையும்`, and `மனைவிக்கு`;
 - canonical page-text glyph corrections in this batch: **0**;
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**.
 
 ## Exact next activity
 
-> **Run dedicated historical-glyph verification on PDF 64–78 as the next fifteen-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 75/87 and set the final remainder to PDF 79–90; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
+> **Run dedicated historical-glyph verification on PDF 79–90 as the final twelve-page remainder. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 87/87 and close the historical-glyph phase; commit/push the remainder to `main`; then synchronize durable status and transition to final full visual verification.**
