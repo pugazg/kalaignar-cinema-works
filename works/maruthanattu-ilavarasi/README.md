@@ -4,35 +4,30 @@ Source-led archival workspace for the scanned **`மருதநாட்டு 
 
 ## Source authority
 
-Controlling source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. The uploaded scan is canonical authority and is not committed to the repository.
+Controlling source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. The scan remains canonical authority and is not committed.
 
-Visible source evidence:
+Visible source evidence includes title `மருதநாட்டு இளவரசி`, recurring body header `மருதநாட்டு இளவரசி—திரை வசனம்`, printed credit `வசனம் : மு. கருணாநிதி.`, cover imprint `வியந்தமிழ்ப் பாசறை, கோவில்பட்டி.`, and cover price `விலை அணா 3.`. No explicit edition statement or publication year was observed.
 
-- title: **`மருதநாட்டு இளவரசி`**;
-- recurring body header: **`மருதநாட்டு இளவரசி—திரை வசனம்`**;
-- printed credit on PDF 2: **`வசனம் : மு. கருணாநிதி.`**;
-- cover imprint/issuing line: **`வியந்தமிழ்ப் பாசறை, கோவில்பட்டி.`**;
-- cover price: **`விலை அணா 3.`**;
-- explicit edition statement: **not observed**;
-- explicit publication year: **not observed**.
+## Corrected source geometry
 
-Library/user ownership stamps, handwriting and later marginal marks are non-source and must not enter canonical transcription.
+Source intake and structural mapping are **COMPLETE-VERIFIED-CORRECTED**.
 
-## Intake / mapping checkpoint
+- PDF 1: cover.
+- PDF 2–16: one logical printed page per scan, representing printed/logical pages 1–15.
+- PDF 17: two-page spread containing printed 16–17; PDF 18 is its exact duplicate.
+- PDF 19: spread 18–19; PDF 20 is its exact duplicate.
+- PDF 21: spread 20–21; PDF 22 is its exact duplicate.
+- Canonical text uses each printed page exactly once; duplicate physical scans 18/20/22 are provenance-only.
+- PDF 2–4 remains an unnumbered opening; no `காட்சி 1.` is invented.
+- Source-numbered headings are **2,3,4,5,6,7,8,9,10**.
+- `காட்சி 9.` is on printed 17 / PDF 17 right.
+- `காட்சி 10.` + `பலி பீடம்.` is on printed 18 / PDF 19 left.
+- printed 21 closes with `நலம்!` and decorative star.
 
-- source intake: **COMPLETE**;
-- structural mapping: **COMPLETE-VERIFIED, corrected during PDF-11 direct source review**;
-- PDF 1: cover; PDF 2–22: body; logical printed pages **1–21**;
-- PDF 2–4 remains an **unnumbered opening source segment**; no source `காட்சி 1.` is invented;
-- corrected source-numbered headings observed: **9 — `காட்சி 2.` through `காட்சி 10.`**;
-- **PDF 11 visibly prints `காட்சி 7.`**; the initial intake claim that scene 7 was absent is superseded;
-- scene 8 carries **`(ராஜ தர்பார்)`**; scene 10 carries **`பலி பீடம்.`**;
-- PDF 4 contains a printed `* * *` structural separator;
-- PDF 22 ends with **`நலம்!`** and a decorative star;
-- historical Tamil typeforms are present and the historical-glyph gate is mandatory.
+## Current gate
 
-Canonical Tamil first pass is **IN PROGRESS — PDF 2–16 / 15 of 21 body pages drafted**. All fifteen pages remain draft. Prospective historical-glyph coverage is **15/21**; visual-fidelity and final historical-glyph verification remain **0/21**. Open first-pass uncertainty markers through PDF 16: **0**. The PDF 12–16 batch was compared directly against rendered source pixels; the user-supplied extraction was used only as a candidate/navigation aid. No structured derivative layer is authorized yet.
+Canonical Tamil first pass: **COMPLETE — 21/21 logical pages DRAFT**. Prospective historical-glyph coverage: **21/21**. Open first-pass uncertainty markers: **0**. Independent visual-fidelity verification: **0/21**. Final historical-glyph verification: **0/21**. Structured scene/dialogue/character/song/English layers remain **BLOCKED**.
 
 ## Exact next activity
 
-> **Canonical Tamil first-pass transcription for PDF 17–21 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**
+> **Begin independent visual-fidelity plus final historical-glyph verification for logical printed pages 1–5 (source PDF 2–6) as the first five-page verification batch. Re-read the controlling pixels independently, correct any draft mismatch before marking a page verified, keep uncertainty explicit, and keep structured derivatives blocked until all 21 canonical logical pages pass both gates.**

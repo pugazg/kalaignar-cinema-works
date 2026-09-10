@@ -4,14 +4,14 @@
   "source_sha256": "8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f",
   "transcription_scope_pdf_pages": "2-22",
   "transcription_scope_page_count": 21,
-  "status": "first-pass-in-progress",
-  "first_pass_pages_completed": 15,
-  "first_pass_pdf_range_completed": "2-16",
-  "first_pass_current_through_pdf": 16,
-  "first_pass_current_through_logical_printed": 15,
-  "draft_pages": 15,
+  "status": "first-pass-complete-draft",
+  "first_pass_pages_completed": 21,
+  "first_pass_pdf_range_completed": "2-22 (PDF 18,20,22 exact duplicate spreads excluded from canonical text)",
+  "first_pass_current_through_pdf": 22,
+  "first_pass_current_through_logical_printed": 21,
+  "draft_pages": 21,
   "visual_verified_pages": 0,
-  "historical_glyph_first_pass_checked_pages": 15,
+  "historical_glyph_first_pass_checked_pages": 21,
   "historical_glyph_final_verified_pages": 0,
   "open_uncertainty_markers": 0,
   "page_records": [
@@ -49,7 +49,10 @@
       "pdf_page": 6,
       "printed_page": 5,
       "kind": "screenplay",
-      "source_scene_ids": ["2", "3"],
+      "source_scene_ids": [
+        "2",
+        "3"
+      ],
       "status": "draft",
       "path": "pages/006.md"
     },
@@ -65,7 +68,11 @@
       "pdf_page": 8,
       "printed_page": 7,
       "kind": "screenplay",
-      "source_scene_ids": ["3", "4", "5"],
+      "source_scene_ids": [
+        "3",
+        "4",
+        "5"
+      ],
       "status": "draft",
       "path": "pages/008.md"
     },
@@ -73,7 +80,10 @@
       "pdf_page": 9,
       "printed_page": 8,
       "kind": "screenplay",
-      "source_scene_ids": ["5", "6"],
+      "source_scene_ids": [
+        "5",
+        "6"
+      ],
       "status": "draft",
       "path": "pages/009.md"
     },
@@ -89,7 +99,10 @@
       "pdf_page": 11,
       "printed_page": 10,
       "kind": "screenplay",
-      "source_scene_ids": ["6", "7"],
+      "source_scene_ids": [
+        "6",
+        "7"
+      ],
       "status": "draft",
       "path": "pages/011.md"
     },
@@ -105,7 +118,10 @@
       "pdf_page": 13,
       "printed_page": 12,
       "kind": "screenplay",
-      "source_scene_ids": ["7", "8"],
+      "source_scene_ids": [
+        "7",
+        "8"
+      ],
       "status": "draft",
       "path": "pages/013.md"
     },
@@ -132,9 +148,106 @@
       "source_scene_id": "8",
       "status": "draft",
       "path": "pages/016.md"
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 16,
+      "scan_side": "left",
+      "kind": "screenplay",
+      "source_scene_id": "8",
+      "status": "draft",
+      "path": "pages/017-left.md",
+      "duplicate_scan_pdf_page": 18
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 17,
+      "scan_side": "right",
+      "kind": "screenplay",
+      "source_scene_ids": [
+        "8",
+        "9"
+      ],
+      "status": "draft",
+      "path": "pages/017-right.md",
+      "duplicate_scan_pdf_page": 18
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 18,
+      "scan_side": "left",
+      "kind": "screenplay",
+      "source_scene_ids": [
+        "9",
+        "10"
+      ],
+      "status": "draft",
+      "path": "pages/019-left.md",
+      "duplicate_scan_pdf_page": 20
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 19,
+      "scan_side": "right",
+      "kind": "screenplay",
+      "source_scene_id": "10",
+      "status": "draft",
+      "path": "pages/019-right.md",
+      "duplicate_scan_pdf_page": 20
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 20,
+      "scan_side": "left",
+      "kind": "screenplay",
+      "source_scene_id": "10",
+      "status": "draft",
+      "path": "pages/021-left.md",
+      "duplicate_scan_pdf_page": 22
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 21,
+      "scan_side": "right",
+      "kind": "screenplay",
+      "source_scene_id": "10",
+      "status": "draft",
+      "path": "pages/021-right.md",
+      "duplicate_scan_pdf_page": 22
     }
   ],
   "batch_size_source_pages": 5,
-  "next_batch_pdf_pages": "17-21",
-  "next_action": "Canonical Tamil first-pass transcription for PDF 17–21 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
+  "next_batch_pdf_pages": null,
+  "next_action": "Begin independent visual-fidelity plus final historical-glyph verification for logical printed pages 1–5 (source PDF 2–6) as the first five-page verification batch. Re-read the controlling pixels independently, correct any draft mismatch before marking a page verified, keep uncertainty explicit, and keep all structured derivatives blocked until all 21 canonical logical pages pass both gates.",
+  "duplicate_pdf_spreads": [
+    {
+      "pdf_page": 18,
+      "duplicates_pdf_page": 17,
+      "printed_pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "duplicates_pdf_page": 19,
+      "printed_pages": [
+        18,
+        19
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "duplicates_pdf_page": 21,
+      "printed_pages": [
+        20,
+        21
+      ]
+    }
+  ],
+  "canonical_representative_pdf_pages_for_printed_16_21": [
+    17,
+    19,
+    21
+  ]
 }

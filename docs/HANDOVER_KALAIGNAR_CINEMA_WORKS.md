@@ -1,7 +1,7 @@
 # Kalaignar Cinema Works — Master Project Handover
 
-Repository: `pugazg/kalaignar-cinema-works`  
-Primary branch: `main`  
+Repository: `pugazg/kalaignar-cinema-works`
+Primary branch: `main`
 Purpose: reusable handover for continuing the archive or onboarding a new Kalaignar cinema work
 
 This is the project-level handover. **Live `main` is authoritative** over copied checkpoints and older handovers.
@@ -143,7 +143,7 @@ Ammayappan and Naam remain closed at their recorded checkpoints. **Vandikkaran M
 
 ## 8. Naam active checkpoint
 
-Work: `works/naam/`  
+Work: `works/naam/`
 Source: `TVA_BOK_0064201_நாம்.pdf`
 
 - intake / map / first pass: **complete / verified / 67/67 COMPLETE**;
@@ -158,7 +158,7 @@ Source: `TVA_BOK_0064201_நாம்.pdf`
 
 ## 9. Ammayappan closed checkpoint
 
-Work: `works/ammaiyappan/`  
+Work: `works/ammaiyappan/`
 Source: `TVA_BOK_0064230_அம்மையப்பன்.pdf`
 
 ### Frozen source layers
@@ -315,14 +315,14 @@ Work: `works/maruthanattu-ilavarasi/`
 Source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf`
 
 - intake: **COMPLETE**;
-- mapping: **COMPLETE-VERIFIED**;
-- source: **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**;
-- body: **PDF 2–22 / logical printed 1–21**;
-- printed credit: **`வசனம் : மு. கருணாநிதி.`**;
-- source headings: **2,3,4,5,6,8,9,10**;
-- opening PDF 2–4 unnumbered; `காட்சி 7.` not observed;
-- historical-glyph gate: **required**;
-- canonical Tamil: **NOT STARTED**;
-- later derivatives: **BLOCKED**.
+- mapping: **COMPLETE-VERIFIED-CORRECTED**;
+- canonical logical pages: **21**;
+- duplicate scan geometry: **PDF 18=17, 20=19, 22=21**; representative spreads 17/19/21 contain printed 16–21;
+- source headings: **2,3,4,5,6,7,8,9,10**; opening remains unnumbered;
+- canonical Tamil first pass: **21/21 DRAFT — COMPLETE**;
+- prospective historical-glyph coverage: **21/21**;
+- visual-fidelity / final glyph verification: **0/21 / 0/21**;
+- first-pass uncertainty markers: **0**;
+- structured derivatives: **BLOCKED**.
 
-**Exact next activity:** Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.
+**Exact next activity:** Independent visual-fidelity + final historical-glyph verification for logical printed pages **1–5 (source PDF 2–6)**. Correct draft mismatches before marking verified; no downstream derivative work until all 21 logical pages pass both gates.

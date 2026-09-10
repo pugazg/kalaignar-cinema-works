@@ -1,7 +1,7 @@
 # Kalaignar Cinema Works — Status Consistency Audit
 
-Audit date: 2026-09-10  
-Repository: `pugazg/kalaignar-cinema-works`  
+Audit date: 2026-09-10
+Repository: `pugazg/kalaignar-cinema-works`
 Branch: `main`
 
 ## Scope
@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil T1 10/21 DRAFT through PDF 11; glyph-first-pass 10/21; final visual/glyph 0/21** | headings **2,3,4,5,6,7,8,9,10**; opening unnumbered; PDF 11 correction confirms scene 7 | not-started | not-started |
+| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil T1 21/21 DRAFT COMPLETE; glyph-first-pass 21/21; final visual/glyph 0/21; duplicate scans 18=17, 20=19, 22=21** | headings **2,3,4,5,6,7,8,9,10**; opening unnumbered | not-started | not-started |
 | Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **reader/export + Reading Room payload QA PASS; site not applied** |
 
 ## Vandikkaran Magan current checkpoint
@@ -152,14 +152,16 @@ Vandikkaran Magan repository-internal production is closed through Reading Room 
 
 ## Maruthanattu Ilavarasi current checkpoint
 
-- source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**;
-- source intake / structural mapping: **COMPLETE / COMPLETE-VERIFIED**;
-- body: **PDF 2–22 / logical printed 1–21**; visible printed numerals 2–21;
-- credit: **`வசனம் : மு. கருணாநிதி.`**;
-- observed numbered scene headings: **8 — 2,3,4,5,6,8,9,10**;
-- PDF 2–4 unnumbered opening; no synthetic scene 1; source `காட்சி 7.` not observed;
-- historical-glyph workflow: **required**;
-- canonical Tamil / visual fidelity / final glyph audit: **NOT STARTED / NOT STARTED / NOT STARTED**;
+- source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / image-only**;
+- source intake / structural mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
+- canonical logical printed pages: **1–21**;
+- PDF 17/19/21 are representative two-page spreads; PDF **18/20/22 are exact duplicate physical scans**;
+- opening logical pages 1–3 remain unnumbered; no synthetic scene 1;
+- observed numbered scene headings: **2–10 contiguous**;
+- canonical Tamil first pass: **21/21 DRAFT — COMPLETE**;
+- prospective historical-glyph coverage: **21/21**;
+- open first-pass uncertainty markers: **0**;
+- independent visual-fidelity / final historical-glyph verification: **0/21 / 0/21**;
 - later derivatives: **BLOCKED**.
 
-**Next production phase:** Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.
+**Next production phase:** Independently verify logical printed pages **1–5 (source PDF 2–6)** for visual fidelity and final historical-glyph identity. Correct any draft mismatch first; structured derivatives remain blocked until the full 21/21 dual gate passes.

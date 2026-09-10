@@ -24,18 +24,21 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## மருதநாட்டு இளவரசி status
 
-`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` is a **22-page image-only திரை வசனம் source** with intake and corrected structural mapping complete-verified.
+`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` is a **22-PDF-page image-only திரை வசனம் source** with corrected structural mapping.
 
 - printed credit: **`வசனம் : மு. கருணாநிதி.`**;
-- body: **PDF 2–22 / logical printed 1–21**;
-- opening PDF 2–4 remains **unnumbered**; no source `காட்சி 1.` heading is invented;
-- numbered headings now confirmed: **9 — 2,3,4,5,6,7,8,9,10**;
-- PDF 11 directly confirms `காட்சி 7.`; the initial missing-scene-7 intake statement is superseded;
-- canonical Tamil first pass: **10/21 DRAFT through PDF 11**;
-- prospective historical-glyph coverage: **10/21**; final visual/glyph verification: **0/21**;
+- canonical logical body: **printed pages 1–21**;
+- PDF 2–16 map one-to-one to printed 1–15;
+- PDF 17/19/21 are two-up representative spreads for printed 16–21; PDF **18/20/22 are exact duplicate spreads**;
+- opening printed 1–3 is unnumbered; no source `காட்சி 1.` is invented;
+- numbered headings: **2,3,4,5,6,7,8,9,10**;
+- canonical Tamil first pass: **21/21 DRAFT — COMPLETE**;
+- prospective historical-glyph coverage: **21/21**;
+- independent visual/glyph verification: **0/21**;
+- first-pass uncertainty markers: **0**;
 - later derivatives: **BLOCKED**.
 
-**Next:** Canonical Tamil first-pass transcription for **PDF 12–16** as the next five-page batch, with source pixels controlling and all pages remaining draft.
+**Next:** Independently verify logical printed pages **1–5 / source PDF 2–6** for both visual fidelity and final historical-glyph identity.
 
 ## வண்டிக்காரன் மகன் status
 
