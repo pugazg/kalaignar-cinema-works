@@ -31,8 +31,8 @@ Library/user ownership stamps, handwriting and later marginal marks are non-sour
 - PDF 22 ends with **`நலம்!`** and a decorative star;
 - historical Tamil typeforms are present and the historical-glyph gate is mandatory.
 
-Canonical Tamil first pass is **IN PROGRESS — PDF 2–11 / 10 of 21 body pages drafted**. All ten pages remain draft. Prospective historical-glyph coverage is **10/21**; visual-fidelity and final historical-glyph verification remain **0/21**. Open first-pass uncertainty markers through PDF 11: **0**. No structured derivative layer is authorized yet.
+Canonical Tamil first pass is **IN PROGRESS — PDF 2–16 / 15 of 21 body pages drafted**. All fifteen pages remain draft. Prospective historical-glyph coverage is **15/21**; visual-fidelity and final historical-glyph verification remain **0/21**. Open first-pass uncertainty markers through PDF 16: **0**. The PDF 12–16 batch was compared directly against rendered source pixels; the user-supplied extraction was used only as a candidate/navigation aid. No structured derivative layer is authorized yet.
 
 ## Exact next activity
 
-> **Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**
+> **Canonical Tamil first-pass transcription for PDF 17–21 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**
