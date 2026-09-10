@@ -1,0 +1,23 @@
+name: Reconcile Vandikkaran Magan dialogue catalogue
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vm-reconcile-dialogue-catalogue.yml']
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: python works/vandikkaran-magan/scripts/reconcile_dialogue_catalogue_once.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/vm-reconcile-dialogue-catalogue.yml
+          rm works/vandikkaran-magan/scripts/reconcile_dialogue_catalogue_once.py
+          git add -A
+          git commit -m 'Reconcile Vandikkaran Magan dialogue catalogue [skip ci]'
+          git push
