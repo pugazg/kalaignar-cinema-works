@@ -1,0 +1,33 @@
+name: Vandikkaran Magan diagnose scene headings
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vandikkaran-magan-debug-scenes.yml"
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: List canonical scene headings
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          root = Path('works/vandikkaran-magan/transcription/pages')
+          pat = re.compile(r'^##\s+(காட்சி.*)$', re.M)
+          rows=[]
+          for pdf in range(6,88):
+              text=(root/f'{pdf:03d}.md').read_text(encoding='utf-8')
+              for m in pat.finditer(text):
+                  rows.append((pdf,m.group(1).strip()))
+          print('COUNT', len(rows))
+          for i,(pdf,h) in enumerate(rows,1):
+              print(f'{i:02d}\tPDF {pdf}\t{h}')
+          PY
