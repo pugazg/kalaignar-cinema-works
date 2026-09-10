@@ -24,17 +24,18 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## மருதநாட்டு இளவரசி status
 
-`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — source intake and structural mapping are complete-verified; canonical Tamil first pass is now **5/21 DRAFT through PDF 6**.
+`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` is a **22-page image-only திரை வசனம் source** with intake and corrected structural mapping complete-verified.
 
+- printed credit: **`வசனம் : மு. கருணாநிதி.`**;
 - body: **PDF 2–22 / logical printed 1–21**;
-- PDF 2–4: unnumbered opening segment; no synthetic `காட்சி 1.`;
-- printed headings observed: **2,3,4,5,6,8,9,10**; `காட்சி 7.` not observed;
-- canonical Tamil first pass: **PDF 2–6 / 5 of 21 DRAFT**;
-- historical-glyph prospective check: **5/21**; final visual/glyph verification: **0/21 / 0/21**;
-- open first-pass uncertainty markers through PDF 6: **0**;
+- opening PDF 2–4 remains **unnumbered**; no source `காட்சி 1.` heading is invented;
+- numbered headings now confirmed: **9 — 2,3,4,5,6,7,8,9,10**;
+- PDF 11 directly confirms `காட்சி 7.`; the initial missing-scene-7 intake statement is superseded;
+- canonical Tamil first pass: **10/21 DRAFT through PDF 11**;
+- prospective historical-glyph coverage: **10/21**; final visual/glyph verification: **0/21**;
 - later derivatives: **BLOCKED**.
 
-**Next:** Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.
+**Next:** Canonical Tamil first-pass transcription for **PDF 12–16** as the next five-page batch, with source pixels controlling and all pages remaining draft.
 
 ## வண்டிக்காரன் மகன் status
 

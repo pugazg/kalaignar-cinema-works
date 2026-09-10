@@ -1264,22 +1264,21 @@
     "main_text_logical_printed_pages": "1-21",
     "visible_printed_page_numbers": "2-21",
     "body_pagination_formula": "logical printed = PDF - 1",
-    "structural_mapping": "complete-verified",
+    "structural_mapping": "verified-corrected",
     "source_numbered_scene_headings": true,
-    "scene_headings_observed": 8,
+    "scene_headings_observed": 9,
     "scene_ids_observed": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "8",
-      "9",
-      "10"
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
-    "scene_number_gaps_observed": [
-      7
-    ],
+    "scene_number_gaps_observed": [],
     "opening_unnumbered_segment_pdf_pages": "2-4",
     "canonical_tamil_transcription": "first-pass-in-progress",
     "canonical_tamil_first_pass_pages_completed": 5,
@@ -1294,9 +1293,21 @@
       "reader_export": "not-started",
       "reading_room_integration": "not-started"
     },
-    "next_action": "Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.",
+    "next_action": "Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-6",
     "canonical_tamil_first_pass_current_through_pdf": 6,
-    "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/006.md"
+    "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/006.md",
+    "tamil_transcription": "first-pass-in-progress",
+    "tamil_first_pass_complete": false,
+    "tamil_transcription_through_pdf_page": 11,
+    "tamil_transcription_through_logical_printed_page": 10,
+    "tamil_transcription_draft_pages": 10,
+    "tamil_transcription_verified_pages": 0,
+    "tamil_transcription_review_pages": 0,
+    "tamil_fidelity_audit": "not-started",
+    "canonical_range_fidelity_audit_complete": false,
+    "total_canonical_pages": 21,
+    "total_verified_pages": 0,
+    "total_review_pages": 0
   }
 ]
