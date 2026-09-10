@@ -82,3 +82,24 @@ Every occurrence of the mandated historical-glyph families on PDF 14–18 was in
 - cumulative canonical glyph corrections in the dedicated phase: **0**;
 - unresolved glyph holds: **0**;
 - next dedicated batch: **PDF 19–23**.
+
+### Batch 4 — PDF 19–23 — PASS / 20 of 87
+
+Every occurrence of the mandated historical-glyph families on PDF 19–23 was independently re-read from enlarged controlling-source pixels. The source shapes resolve to the Unicode identities already present in the visual-verified transcription. No ordinary wording, punctuation, scene structure, or source spelling was reopened.
+
+| PDF | Printed | Target-family evidence re-read from source | Result |
+|---:|:---:|---|---|
+| 19 | 18 | `போறவங்களையெல்லாம்`, `இளைய` (`ளை`); `இல்லை`, `அலையுற` (`லை`); `போனா` (`னா`) | PASS — no glyph correction |
+| 20 | 19 | `எவனாயிருந்தாலும்`, `பண்ணினார்` (`னா`) | PASS — no glyph correction |
+| 21 | 20 | `லிங்கனை` (`னை`); full page re-read for the remaining mandated families | PASS — no glyph correction |
+| 22 | 21 | `தலையை` (`லை`); `சென்றாரு`, `கொன்றாரு` (`றா`) | PASS — no glyph correction |
+| 23 | 22 | `உன்னைக்` (`னை`); `பெண்ணா` (`ணா`); `இளையராணி` (`ளை`); `மாலை`, `காலையில` (`லை`) | PASS — no glyph correction |
+
+### Batch 4 disposition
+
+- dedicated pages verified: **20 / 87**;
+- contiguous dedicated range: **PDF 4–23**;
+- source-supported glyph-identity corrections to canonical page text in this batch: **0**;
+- cumulative canonical glyph corrections in the dedicated phase: **0**;
+- unresolved glyph holds: **0**;
+- next dedicated batch: **PDF 24–28**.
