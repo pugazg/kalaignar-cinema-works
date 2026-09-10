@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 64–78
+# Next Chat Prompt — வண்டிக்காரன் மகன் / final dedicated historical-glyph verification PDF 79–90
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -17,7 +17,7 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 
 1. First-pass transcription — 5 pages, commit/push, repeat through PDF 90.
 2. Visual verification — 5 pages, commit/push, repeat through PDF 90.
-3. Historical-glyph verification — **15 pages per iteration from PDF 34 onward**, commit/push, repeat through PDF 90.
+3. Historical-glyph verification — **15 pages per iteration from PDF 34 onward; final remainder may be shorter**, commit/push, repeat through PDF 90.
 4. Final visual verification — full-work final source pass.
 
 Do not interleave phases.
@@ -29,8 +29,8 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–63 / 60 of 87 VERIFIED**;
-- dedicated glyph pages remaining: **27**;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–78 / 75 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **12**;
 - cumulative canonical glyph corrections: **0**;
 - unresolved glyph holds: **0**;
 - final visual verification: **NOT-STARTED**;
@@ -39,9 +39,9 @@ Do not interleave phases.
 
 ## Latest dedicated glyph batch
 
-PDF **49–63** was independently re-read as a 15-page dedicated historical-glyph iteration. Every occurrence of the mandated families was checked directly against controlling-source pixels. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
+PDF **64–78** was independently re-read as a 15-page dedicated historical-glyph iteration. Every occurrence of the mandated families was checked directly against controlling-source pixels. No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
-Representative confirmations include `சடையனை / விங்கனைப்`; `வீட்டுப்பிள்ளை / மாப்பிள்ளை / தலையா`; `என்னைத் / தலைப்பகுதி`; `புண்ணை / அன்னைக்கே`; `தகப்பனார் / வலைவிரிப்பார்த்து / தலைமயிரைப்`; `சொன்னாய் / இலை / காலை`; `உன்னை / மகளைப் / விங்கனைத்`; `தோல்விகளையும் / அவளைப்`; `சேலைத் / பூனையைவிட / உன்னால / கண்ணாயிரமும்`; `கட்டளையாம்மா / தன்னை`; `கலைந்தால் / தானியங்களை / எத்தனையாவது`; `முன்னால் / வில்லாவளைக்கப் / மாப்பிள்ளை`; and `பதினைந்து / விலையுயர்ந்த / நூறாவது`.
+Representative confirmations include `மாப்பிள்ளை / கிளிஞ்சலைக் / உன்னை`; `ஆணையிட்டுச் / கலைச்சுக் / கண்ணாயிரம் / பெண்ணைத்`; `பின்னையிட்ட / அன்னையிட்ட`; `சொன்னால் / கல்யாணம்`; `காவலனைத் / திருவிளையாடலைப்`; `கருணை / மணலைக் / சாய்கிறார்`; `மாப்பிள்ளே / வயிற்றுப்பிள்ளையா / வேலை / பெண்ணை`; `கண்ணைக் / அவளைப் / காளை`; `சொன்னா`; `கண்ணைத் / அத்தனைக்கும்`; `ஆலையில்`; `யானைத் / பேரப்பிள்ளே / காளையைப்`; `நாளைக்கு`; `உங்களையா / இல்லையே / உன்னையும்`; and `மனைவிக்கு`.
 
 ## Dedicated historical-glyph rule
 
@@ -53,4 +53,4 @@ Inspect enlarged source pixels occurrence by occurrence. Never global-replace. D
 
 ## Exact next activity
 
-> **Process PDF 64–78 as the next fifteen-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 75/87 with final remainder PDF 79–90, commit/push the fifteen-page batch to `main`, then synchronize checkpoint docs. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90.**
+> **Process PDF 79–90 as the final twelve-page dedicated historical-glyph remainder. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 87/87 and close the historical-glyph phase, commit/push the remainder to `main`, then synchronize checkpoint docs and transition to final full visual verification.**
