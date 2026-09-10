@@ -11,8 +11,8 @@ The rendered scan is the controlling source. First-pass transcription and the fu
 - page records PDF 4–90: `visual-verified`;
 - draft page records: **0**;
 - open uncertainty markers: **0 recorded**;
-- dedicated historical-glyph verification: **PDF 4–13 / 10 of 87 VERIFIED / IN PROGRESS**;
-- dedicated glyph pages remaining: **77**;
+- dedicated historical-glyph verification: **PDF 4–18 / 15 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **72**;
 - legacy prospective drafting checks do not satisfy the dedicated glyph gate;
 - final visual verification: **NOT-STARTED**;
 - batch size: **5 source pages per iteration**.
@@ -21,10 +21,10 @@ The dedicated glyph phase must use enlarged source pixels and inspect only the m
 
 ## Latest dedicated glyph batch
 
-PDF **9–13** is complete. Every target-family occurrence on those pages was re-read against the controlling scan. Representative confirmations include `முன்னால்`, `வளைத்து`, `வேலைகளைப்`, `கருணை`, `இன்னைக்கு`, `கண்ணாளா`, `மூணாவது`, `இருக்கிறோம்`, `தலையணைக்குக்`, `போகிறோம்`, `சுக்குநூறாப்`, `அனாதை`, `மற்றொரு`, and `கண்ணாமூச்சி`.
+PDF **14–18** is complete. Every target-family occurrence on those pages was re-read against the controlling scan. Representative confirmations include `மாப்பிள்ளை / பிள்ளைங்க / கல்லை / நிழலை / அவனைத்`, `குழந்தைகளை / தலைமயிரைப் / மயிலை / காளை`, `கவலைப்படாதே / உன்னைக் / உன்னை / சொன்னாய்`, `கண்ணாடியை / லீனா / அவளைப்`, and `சரியில்லை / எத்தனை`.
 
-No canonical page-text glyph correction was required in the batch; cumulative dedicated-phase glyph corrections remain **0**, with **0 unresolved glyph holds**.
+No canonical page-text glyph correction was required and there are **0 unresolved glyph holds**.
 
 ## Next
 
-Run dedicated historical-glyph verification on PDF **14–18** as the next five-page batch. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **15/87**, set the next batch to PDF **19–23**, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.
+Run dedicated historical-glyph verification on PDF **19–23** as the next five-page batch. Record evidence in `../notes/historical-glyph-audit.md`, update the dedicated glyph counters to **20/87**, set the next batch to PDF **24–28**, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.
