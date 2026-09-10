@@ -20,12 +20,13 @@ Work: `works/vandikkaran-magan/`
 - English scene 1 pilot: **PASS — 40 units / 31 immutable links / 1 source-unlabelled speech**;
 - English scenes 2–5: **PASS — 48 units / 34 immutable links / 1 source-unlabelled speech**;
 - English scenes 6–20: **PASS — 267 units / 186 immutable links / 2 source-unlabelled spoken units / 2 verified performance occurrences linked**;
-- cumulative English: **20/72 scenes / 355 units / 251 immutable links / 4 source-unlabelled spoken units / 0 inferred speakers**;
-- English batch policy: **15 scenes per iteration**;
+- English scenes 21–40: **PASS — 385 units / 261 immutable links / 9 source-unlabelled spoken units / 2 verified performance occurrences linked**;
+- cumulative English: **40/72 scenes / 740 units / 512 immutable links / 13 source-unlabelled spoken units / 4 unique verified performance occurrence links / 0 inferred speakers**;
+- English batch policy: **20 scenes per iteration**;
 - reader/export and Reading Room: **BLOCKED pending English closure**.
 
 Do not reopen or rewrite closed Tamil, scene, immutable dialogue-record, character-mapping or song-record authorities without new direct contradictory source evidence. Historical 744 counts refer only to the preserved pre-reconciliation ID set.
 
 ## Exact next activity
 
-> **Translate and verify archive scene ordinals 21–35 as the next 15-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.**
+> **Translate and verify archive scene ordinals 41–60 as the next 20-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.**

@@ -20,6 +20,6 @@
   "scene_text_changed": false,
   "dialogue_records_changed": false,
   "character_entity_mappings_changed": false,
-  "english_translation_gate": "in-progress-verified-through-scene-020",
-  "next_activity": "Translate and verify archive scene ordinals 21–35 as the next 15-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities."
+  "english_translation_gate": "in-progress-verified-through-scene-040",
+  "next_activity": "Translate and verify archive scene ordinals 41–60 as the next 20-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities."
 }
