@@ -194,3 +194,35 @@ Every occurrence of the mandated historical-glyph families on PDF 49–63 was in
 - unresolved glyph holds: **0**;
 - active dedicated batch size: **15 source pages per iteration**;
 - next dedicated batch: **PDF 64–78**.
+
+### Batch 8 — PDF 64–78 — PASS / 75 of 87
+
+Every occurrence of the mandated historical-glyph families on PDF 64–78 was independently re-read against the controlling source pixels under the dedicated gate. The historical letterforms resolve to the Unicode identities already present in the visual-verified transcription. Ordinary wording, punctuation, scene structure, and song/performance layout were not reopened.
+
+| PDF | Printed | Target-family evidence re-read from source | Result |
+|---:|:---:|---|---|
+| 64 | 63 | `மாப்பிள்ளை` (`ளை`); `கிளிஞ்சலைக்` (`லை`); `உன்னை` (`னை`) | PASS — no glyph correction |
+| 65 | 64 | `ஆணையிட்டுச்` (`ணை`); `கலைச்சுக்` (`லை`); `கண்ணாயிரம்` (`ணா`); `பெண்ணைத்` (`ணை`) | PASS — no glyph correction |
+| 66 | 65 | repeated `கண்ணாயிரம்` (`ணா`); `பின்னையிட்ட`, `அன்னையிட்ட` (`னை`) | PASS — no glyph correction |
+| 67 | 66 | `கண்ணாயிரம்` (`ணா`); `சொன்னால்` (`னா`); `அவனைத்` (`னை`); `கல்யாணம்` (`ணா`) | PASS — no glyph correction |
+| 68 | 67 | `காவலனைத்` (`னை`); `மாப்பிள்ளை` (`ளை`); `திருவிளையாடலைப்` (`ளை / லை`) | PASS — no glyph correction |
+| 69 | 68 | `கருணை` (`ணை`); `மணலைக்` (`லை`); `உன்னை` (`னை`); `சாய்கிறார்` (`றா`) | PASS — no glyph correction |
+| 70 | 69 | `மாப்பிள்ளே`, `வயிற்றுப்பிள்ளையா` (`ளை`); `வேலை`, `தொலை` (`லை`); `பெண்ணை` (`ணை`) | PASS — no glyph correction |
+| 71 | 70 | `கண்ணைக்` (`ணை`); `அவளைப்`, `காளை` (`ளை`); `மயிலக்காள` (`லை`) | PASS — no glyph correction |
+| 72 | 71 | repeated `காளை / காளையைப்` (`ளை`); `சொன்னா` (`னா`) | PASS — no glyph correction |
+| 73 | 72 | `கண்ணைத்` (`ணை`); `அத்தனைக்கும்` (`னை`) | PASS — no glyph correction |
+| 74 | 73 | `உன்னை` (`னை`); `ஆலையில்` (`லை`) | PASS — no glyph correction |
+| 75 | 74 | `யானைத்` (`னை`); `பேரப்பிள்ளே`, repeated `காளை / காளையைப்` (`ளை`) | PASS — no glyph correction |
+| 76 | 75 | `காளைமாடு` (`ளை`); `நாளைக்கு` (`ளை`) | PASS — no glyph correction |
+| 77 | 76 | `உங்களையா` (`ளை`); repeated `இல்லையே` (`லை`); `உன்னையும்`, `உன்னை` (`னை`) | PASS — no glyph correction |
+| 78 | 77 | `உன்னை`, `மனைவிக்கு` (`னை`) | PASS — no glyph correction |
+
+### Batch 8 disposition
+
+- dedicated pages verified: **75 / 87**;
+- contiguous dedicated range: **PDF 4–78**;
+- source-supported glyph-identity corrections to canonical page text in this batch: **0**;
+- cumulative canonical glyph corrections in the dedicated phase: **0**;
+- unresolved glyph holds: **0**;
+- active dedicated batch size: **15 source pages per iteration**;
+- final dedicated remainder: **PDF 79–90 / 12 pages**.
