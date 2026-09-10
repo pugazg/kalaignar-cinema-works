@@ -1,0 +1,71 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "english-translation-batch-006-020",
+  "status": "PASS",
+  "batch_size_scenes": 15,
+  "scene_ordinals": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "source_scene_ids": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "10-எ",
+    "11",
+    "12",
+    "13",
+    "14",
+    "14-எ",
+    "15",
+    "16",
+    "16-எ"
+  ],
+  "verified_scenes": 15,
+  "verified_units": 267,
+  "unit_kind_counts": {
+    "dialogue": 188,
+    "performance-cue": 3,
+    "song": 4,
+    "stage-direction": 72
+  },
+  "immutable_dialogue_records_expected": 186,
+  "immutable_dialogue_records_linked": 186,
+  "source_unlabelled_spoken_units": 2,
+  "inferred_speaker_assignments": 0,
+  "performance_occurrence_ids_linked": [
+    "vandikkaran-magan-perf-001",
+    "vandikkaran-magan-perf-002"
+  ],
+  "unique_performance_occurrence_links": 2,
+  "source_page_provenance_fallbacks": 0,
+  "checks": {
+    "all_15_target_scenes_present_in_source_order": true,
+    "all_batch_immutable_dialogue_records_linked_exactly_once": true,
+    "source_unlabelled_speech_kept_unassigned_and_unlinked": true,
+    "scene_7_mock_wedding_performance_linked_to_verified_perf_001_only": true,
+    "scene_10_idealistic_song_linked_to_verified_perf_002_only": true,
+    "scene_10_song_lineation_mapped_one_english_line_per_visible_tamil_line": true,
+    "item_level_song_authorship_left_unresolved_for_perf_002": true,
+    "structural_star_translated_as_prose": false,
+    "synthetic_scene_end_prose_added": false,
+    "closed_tamil_scene_dialogue_character_song_records_modified_by_translation": false
+  },
+  "next_activity": "Translate and verify archive scene ordinals 21–35 as the next 15-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities."
+}

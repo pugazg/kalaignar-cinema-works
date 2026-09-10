@@ -1,0 +1,365 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s020",
+  "scene_ordinal": 20,
+  "source_scene_id": "16-எ",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s020-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன்வீடு வெளிப்புறம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Exterior of the estate house."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (உமாவும், கோகிலாவும் குதிரைச் சவாரிக்கான உடையணிந்து வருகின்றனர்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Uma and Kokila arrive dressed for horse riding.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": "vandikkaran-magan-s020-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kokila! Shall we go ‘horse riding’ toward the lakeside today and come back?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": "vandikkaran-magan-s020-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh!... As you wish!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u005",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சடையன், குதிரைகளைப் பிடித்துக் கொண்டு வருதல்."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Sadaiyan brings the horses, holding their reins."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u006",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: உமா, 'ரம்' சாப்பிட்ட குதிரையில் ஏறி உட்காருகிறாள்...... கோகிலா, தான் ஏறவேண்டிய குதிரைக்குப் போவதற்குள், உமா ஏறிய குதிரை முரண்டு பிடித்து வெற"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Uma mounts the horse that has consumed the rum...... Before Kokila can reach the horse she is to ride, Uma’s horse turns unruly and begins racing away wildly... Uma struggles, unable to control it.... The horse runs beyond her control....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": "vandikkaran-magan-s020-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uma! Uma!::: (She screams.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: அதற்குள் விங்கன் ஓடிவந்து"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Meanwhile Vingan runs up."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": "vandikkaran-magan-s020-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What? What?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-020.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": "vandikkaran-magan-s020-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ayyo! Please save Uma!:::",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s020-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-020.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (விங்கன், கோகிலாவின் குதிரையில் ஏறிக்கொண்டு பின்தொடருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 30,
+            "printed_page": 29
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan mounts Kokila’s horse and rides after her.)"
+      }
+    }
+  ]
+}

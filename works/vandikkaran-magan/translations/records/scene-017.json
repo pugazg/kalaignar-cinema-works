@@ -1,0 +1,147 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s017",
+  "scene_ordinal": 17,
+  "source_scene_id": "14-எ",
+  "scene_status": "verified",
+  "unit_count": 4,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s017-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s017",
+      "scene_ordinal": 17,
+      "source_scene_id": "14-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s017-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s017",
+      "scene_ordinal": 17,
+      "source_scene_id": "14-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 2,
+          "description": "Source block 2: காளிங்கன் அறைக்கு வெளியே"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Outside Kalingan’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s017-u003",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s017",
+      "scene_ordinal": 17,
+      "source_scene_id": "14-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (வெளியேறிய கண்ணாயிரம் ஒரு தூண்பக்கம் போகும்போது — ஒரு கை அவனைத்தடுத்து இழுத்துப் பிடிக்கிறது. கண்ணாயிரம் அதிர்ச்சி — திகைப்பு — விங்கனின் கை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(As Kannaayiram, having come out, goes toward a pillar—a hand stops him and pulls him back. Kannaayiram is shocked and bewildered—it is Vingan’s hand... Vingan gestures for Kannaayiram to remain silent and hides with him behind the pillar."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s017-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s017",
+      "scene_ordinal": 17,
+      "source_scene_id": "14-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-017.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: அப்போது காளிங்கன், அவர்கள் ஒளிந்திருக்கும் தூணைக் கடந்து செல்லுதல் — விங்கன் காளிங்கனைப் பின்தொடரும் சில பகுதிகள் — கண்ணாயிரமும் விங்கன் பின"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Then Kalingan passes the pillar where they are hiding—there are several shots of Vingan following Kalingan—and Kannaayiram follows behind Vingan.)"
+      }
+    }
+  ]
+}

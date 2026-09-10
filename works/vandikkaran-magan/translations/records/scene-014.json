@@ -1,0 +1,879 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s014",
+  "scene_ordinal": 14,
+  "source_scene_id": "12",
+  "scene_status": "verified",
+  "unit_count": 28,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s014-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகை-பல பகுதிகள்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Various parts of the estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஹாலில் மாட்டப்பட்டுள்ள புலியின் தலை, மானின் தலை, எருமையின் தலை ஆகியவற்றைக் காட்டுதல்...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The tiger head, deer head and buffalo head mounted in the hall are shown...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Come! Come! Come! This is a tiger! Don’t think it’s a live tiger; it’s a dead tiger!... They say the people couldn’t bear the havoc this tiger caused, so they all ran to the zamindar and complained. At once the zamindar took his gun! Went to the forest!... Killed the tiger! Brought the head back and hung it here!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This zamindar?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You’re rushing before I finish—the father of this zamindar’s father, that is, his grandfather!... Here, a deer’s head!... The present zamindar is very clever at deer hunting!... Deer that run at a hundred miles an hour—our zamindar goes at a hundred and fifty miles an hour, hunts them down and fells them!... Come!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 3,
+          "description": "Source block 3: கோகிலா அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Kokila’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is my room.. (bringing him inside) This is the first time you’ve come to my room.. Here, have an apple!... (Lingan takes it.) A wonderful Kashmir apple!... You only know my name—Kokila! You saw my mother on the way with Uma!... The woman they introduced as Uma’s teacher—that Maragatham amma’s daughter is me! They say that as soon as I was born, my father quarrelled with Amma, boarded a ship and went abroad.. See what kind of time I was born at?... My birth star is Asvathi—Bharani—Karthigai—Rohini... there are twenty-seven stars, they say.. one of those!... And my lagna is... Mesham—Rishabam—Meenam—Kumbam—Simmam—Kadagam—Dhanusu—Viruchigam...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(taking a clip from the table) Enough!... Enough!... Amma... here, your lips, just a little... (puckering his own lips) hold them like this, let’s see...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How? Like this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (அவள் உதட்டைக் குவிக்கிறாள், அப்போது லிங்கன் தன் கையில் உள்ள கிளிப்பை அவள் உதட்டில் மாட்டிவிடுகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She puckers her lips; Lingan then fastens the clip in his hand onto her lips.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You keep talking on your own without letting me say even one word... Hmm!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (கோகிலா, “வலிக்குது, எடுத்து விடு” என்பது போல கெஞ்சுதல். லிங்கன், சிரித்துக்கொண்டே கிளிப்பை எடுத்துவிடுகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kokila pleads as if saying, “It hurts, take it off.” Lingan laughs and removes the clip.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, don’t you like the way I talk?.. Can’t you enjoy it?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No.. no.. You talk very entertainingly!... If they took you to places like Ajanta, Ellora and Mamallapuram and made you a ‘guide’... you’d explain things to the tourists there all day without taking a breath!... Now answer the question I’m asking!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (உதட்டைத் தடவி, வலியைப் போக்கிக் கொண்டவாறு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Rubbing her lip to ease the pain.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ask!... Are you going to ask when this estate began? Who the first zamindar was?... his name?... and things like that?... For that, here—the whole history of this estate is in a book.. Take it! (She gives him a book.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(taking the book casually) Have you started again?.. Here... the clip! I’ll put it on you!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! No!... My lip is already swollen.. If Amma asks why my lip is swollen, what am I supposed to say?... I’ll tell her it was the work of the new secretary!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You really are a guileless girl!... (laughing) Yes, Kokila!... your young queen, Uma madam’s...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Madam?... She’s Miss Uma!... Hmm... These days even people who are forty or fifty still give themselves the title ‘Miss’!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes—Miss Uma’s everyday pastime is driving the carriage faster than the wind, is it?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That’s her evening pastime!... When she gets up in the morning...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 23,
+            "printed_page": 22
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "She brushes her teeth!... drinks coffee!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 23
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You forgot bathing!.. After bathing and getting dressed, she never goes without horse riding!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 23
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I see..! So she goes horse riding every morning?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-014.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": "vandikkaran-magan-s014-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோகிலா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 23
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes.. Here!... I can show you Uma’s riding horse from right here!.. (pulling aside the window curtain) There!.. See coachman Sadaiyan bathing it... That’s the horse!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s014-u028",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s014",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-014.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (சடையன் குதிரையைக் குளிப்பாட்டுவதை விங்கன் பார்க்கிறான் — விங்கன் முகத்தில் சோகம்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 24,
+            "printed_page": 23
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan watches Sadaiyan bathe the horse—sadness appears on Vingan’s face.)"
+      }
+    }
+  ]
+}

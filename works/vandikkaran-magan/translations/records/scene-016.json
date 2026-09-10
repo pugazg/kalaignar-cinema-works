@@ -1,0 +1,947 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s016",
+  "scene_ordinal": 16,
+  "source_scene_id": "14",
+  "scene_status": "verified",
+  "unit_count": 30,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s016-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: காளிங்கராயன் அறை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Kalingarayan’s room."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (காளிங்கராயன் கண்களை மூடியவாறு குடித்துக்கொண்டிருக்கிறான். கண்ணாயிரம், கோழிக்கால் முதலிய இறைச்சித் துண்டுகளை காளிங்கராயனுக்கு முன்னுள்ள தட்ட"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kalingarayan drinks with his eyes closed. Kannaayiram serves pieces of meat such as chicken legs onto the plate before him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரத்தின் குரல்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why are you drinking without opening your eyes, master! If you open your eyes a little, you can see the fish... chicken... and eat all this properly.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (புட்டிபோட்ட கிளாசை முழுவதும் முடித்துவிட்டு 'சடார்' எனக் கீழே வைத்துவிட்டு)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He finishes the entire glassful from the bottle and sets it down with a sharp thud.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Fool!... When great sages do penance, do they open their eyes, da?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 25,
+            "printed_page": 24
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They don’t!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you know why?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tell me!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Only then does heaven appear, da!.. My lord Sokkalingam will grant me a vision!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: [அப்போது விங்கன் படியேறி வந்து நிற்கிறான்.]"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "[At that moment Vingan comes up the steps and stands there.]"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah, Secretary Vingan... come! come!... Kannaayiram, tell him about Sokkalingam—Secretary Vingan has come, da!... Pour for ayya!.. Whisky? Brandy? Gin? Rum?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! No!.. I’ve never even touched it with my hand!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don’t touch it!.. Just sit there with your mouth open!.. We’ll pour it in!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "But you’ve brought in a law saying nobody in your estate should drink!.. and you swallow it bottle after bottle!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The law is only for the poor! Not for those in authority. Understand? Hey Kannaayiram, you pour.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (தன் கிளாசைக் காட்டுதல் — கண்ணாயிரம் ஊற்றுதல் — காளிங்கன் கண்ணை மூடிக்கொண்டு குடித்தல்... அந்த வேளையில், விங்கன் ஒரு \"ரம்\" பாட்டில் எடுத்து "
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He points to his own glass—Kannaayiram pours—Kalingan drinks with his eyes closed... At that moment Vingan takes a bottle of “rum” and hides it away....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! Ah... splendid!.. We’ve reached Indra’s heaven itself!.. Hmm!.. Urvashi, Rambha and Tilottama are all dancing!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mr. Manager!.. I’m leaving!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You’re going?... Why?... Stay and watch Urvashi and Rambha dance.. Chi!.. Ah! Ayyo... They don’t even have clothes!.. Are they all dancing with just ribbons tied on them!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You watch and enjoy it yourself!.. I have work to do!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u021",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 6,
+          "description": "Source block 6: (விங்கன் போய்விடுதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Vingan leaves.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u022",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 7,
+          "description": "Source block 7: (அவர்கள் பேசிக் கொண்டிருக்கும்போது, கண்ணாயிரம் பாட்டிலில் மீதமுள்ளதைக் குடித்திட ஆரம்பிக்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(While they have been talking, Kannaayiram begins drinking what remains in the bottle.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 26,
+            "printed_page": 25
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey... put it down, da!.. There’s an order that nobody in the estate should drink!... You servant dog, are you drinking?.. Are you getting secretly drunk, da?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u024",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 8,
+          "description": "Source block 8: (என்று அவனக்கோபமாக அடிக்கிறான்.. கண்ணாயிரம் சிரிக்கிறான்.. மீண்டும் காளிங்கன் அடிக்கிறான் கண்ணாயிரம் சிரிக்கிறான். காளிங்கன் அவன் தலைமயிரைப்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Saying this, he angrily beats him.. Kannaayiram laughs.. Kalingan strikes him again and Kannaayiram laughs. Kalingan grabs him by the hair and shakes him.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why, da... I keep hitting you?... and you keep laughing!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Nothing... I take one drop and get this much beating!... I was laughing thinking how much beating you’ll get for drinking so much!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You talk back?... Donkey!... You talk back to me?.. From now on you won’t be able to laugh... you’re going to cry! I’ve dismissed you from your job. Go outside!... Get out!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Thank you very much!.. I’m going...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u029",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 9,
+          "description": "Source block 9: (கண்ணாயிரம் போகிறான்... காளிங்கன் தள்ளாடிக் கொண்டே ஏதோ உளறியவாறு வெளியே வருகிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Kannaayiram leaves... Kalingan staggers outside, muttering something.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s016-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s016",
+      "scene_ordinal": 16,
+      "source_scene_id": "14",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-016.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-016.md",
+        "source_record_id": "vandikkaran-magan-s016-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 27,
+            "printed_page": 26
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Everyone who leaves curses me; this fellow alone leaves thanking me... Get lost!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

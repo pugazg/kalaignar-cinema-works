@@ -28,14 +28,15 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - canonical Tamil: **87/87 COMPLETE-VERIFIED / 0 open uncertainties**;
 - scenes: **72/72 COMPLETE-VERIFIED / boundary QA PASS**;
-- reconciled immutable dialogues: **773 / 38 exact labels / QA PASS** — **744/744 legacy IDs preserved + 29 append-only repairs**;
-- character/entity index: **32 entities / 38/38 labels / 773/773 records / QA PASS**;
+- reconciled immutable dialogues: **773 / 38 exact labels / COMPLETE-VERIFIED-RECONCILED / QA PASS**;
+- character/entity index: **32 entities / 38/38 labels / 773/773 records / COMPLETE-VERIFIED / QA PASS**;
 - song/performance gate: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- English translation: **5/72 scenes VERIFIED / QA PASS — 88 units / 65 immutable dialogue links / 2 source-unlabelled spoken units**;
-- reader/export and Reading Room: **gated pending English closure**.
+- item-level lyric authorship: **0 source-attributed / 6 unresolved**; PDF 88 `பாடல்கள்: கவிஞர் வாலி` remains film-level metadata only;
+- English translation: **20/72 scenes VERIFIED / QA PASS — 355 units / 251 dialogue links / 4 source-unlabelled spoken units / 2 unique performance occurrence links**;
+- English production cadence: **15 scenes per iteration**;
+- reader/export and Reading Room: **gated downstream**.
 
-**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.
-
+**Next:** Translate and verify archive scene ordinals 21–35 as the next 15-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.
 ## நாம் status
 
 `TVA_BOK_0064201_நாம்.pdf` now has **complete-verified canonical Tamil**. The user's manual controlling-scan review resolved the three former source-obscuration holds.

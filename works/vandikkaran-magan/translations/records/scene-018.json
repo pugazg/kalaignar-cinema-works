@@ -1,0 +1,629 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s018",
+  "scene_ordinal": 18,
+  "source_scene_id": "15",
+  "scene_status": "verified",
+  "unit_count": 20,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s018-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் மாளிகையில் ஒரு பகுதி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "A part of the estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (இருளில் மங்கலான விளக்குகளுக்கிடையே சற்று பிரகாசமான ஒளி வட்டத்தின் மத்தியில் மரகதம், புத்தகம் படித்துக் கொண்டிருக்கிறாள். காளிங்கன் போதையில்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(In the darkness, amid dim lamps, Maragatham sits reading a book in the middle of a somewhat brighter circle of light. Kalingan, staggering drunk, comes up behind her and covers her eyes... Startled, she knocks his hands away and rises.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, Manager ayya?.. Can’t you keep quiet at your age!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If he cared about age, would Manmathan shoot his arrow?... Is age a barrier to love? We should both break that barrier and throw it away! What use is it when little boys fall in love these days?.. None at all. People like us are great geniuses!.. men of the old days... our love is something special!.. (He comes close and touches her.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sss!... Then I’ll be very dangerous!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Dangerous is exactly what I want! Only then does it create the mood for me. If she’s innocent, she knows nothing.. like a dumb ox!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(angrily) Manager!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(coaxingly) Teacher madam!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(sternly) I’m only Uma’s teacher! Now I’m the teacher who is going to teach you the right lesson!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A lesson... will you teach me? Teach me! Come... my bedroom is right nearby!.. Come; I’ll see what lesson this is that I haven’t studied until now!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Manager! I’m telling you respectfully! Vacate this place immediately!—otherwise I’ll tell the zamindar!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A flower shouldn’t be crushed just to smell it!... I’m a man with that kind of plan... A time will come!.. Then you’ll come and fall at my feet, begging for alms of love!... I won’t come the way everyone does..",
+        "mode": "prose-faithful",
+        "notes": [
+          "The ending of the verified Tamil source line is syntactically irregular (`எல்லோரும் வார் மாதிரி வரமாட்டே..`). The English renders the apparent sense conservatively without changing the Tamil authority."
+        ]
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 28,
+            "printed_page": 27
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A different size! You’ll come straight, flop down and lie there!.. Then you’ll grab... my feet!.. You’ll beg, ‘Give me alms of love! Give me alms of love!’.. And I’ll say, ‘Get lost, woman!’ and stand there just like Viswamitra!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (விசுவாமித்திரர் மேனகையை விரட்டி வெறுக்கும்பாணியில் கையை வைத்து அபிநயம் காட்டுகிற காளிங்கன் கீழே விழுகிறான் தள்ளாடி.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Putting his hand into a gesture like Viswamitra driving Menaka away in disgust, Kalingan loses his balance and falls.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(laughing dismissively) You can’t even stand steadily in one place... and in this condition you’re guarding Appa!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (என்றவாறு போகிறாள். இவ்வளவு நேரம் மறைந்திருந்து இந்த நிகழ்ச்சியை விங்கனும், கண்ணாயிரமும் பார்த்துக்கொண்டிருக்கிறார்கள்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She leaves. All this time Vingan and Kannaayiram have been hidden, watching what happened.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kannaayiram!.. There’s some mystery in the relationship between Maragatham amma and the zamindar, isn’t there!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கண்ணாயிரம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is that all?... Come!... There are so many more secrets—I’ll tell you!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s018-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s018",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-018.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-018.md",
+        "source_record_id": "vandikkaran-magan-s018-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "விங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right... all right... come!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

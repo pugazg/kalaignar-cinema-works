@@ -1,0 +1,361 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s009",
+  "scene_ordinal": 9,
+  "source_scene_id": "8",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s009-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ரயில் முதல்வகுப்புப் பெட்டி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "First-class railway compartment."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ப்ளாஷ்—பேக் முடிகிறது.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The flashback ends.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": "vandikkaran-magan-s009-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The boy has tears in his eyes. Wiping them with his fingers...) My boy!.. Don’t worry!.. God himself has brought you and placed you with me.... From now on you can stay with me.... It is my responsibility to raise you and make a man of you! Is that all right?... Hmm... nod your head to say yes...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சோகத்திலும் சொக்கலிங்கம் புன்னகை சிந்த தலையசைக்கிறான்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Even through his sadness, Sokkalingam smiles and nods.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": "vandikkaran-magan-s009-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Very good!.. Hmm... Boy! What did you say your name was?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": "vandikkaran-magan-s009-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sokkalingam!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": "vandikkaran-magan-s009-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sukku Lingam!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": "vandikkaran-magan-s009-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Uh-uh!.. Sokka... Lingam!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": "vandikkaran-magan-s009-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why the trouble... From now on I’ll simply call you Lingan!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u010",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (லிங்கன் மகிழ்ச்சியுடன் தலையசைத்தல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Lingan nods happily.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s009-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s009",
+      "scene_ordinal": 9,
+      "source_scene_id": "8",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 5,
+          "description": "Source block 5: (ஆண்டுகள் உருள்கின்றன)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Years roll by.)"
+      }
+    }
+  ]
+}

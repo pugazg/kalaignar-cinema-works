@@ -1,0 +1,537 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s010",
+  "scene_ordinal": 10,
+  "source_scene_id": "9",
+  "scene_status": "verified",
+  "unit_count": 17,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s010-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ஜமீன் அந்தரங்க மாளிகை"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Private estate palace."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (ஜமீன்தார் சாய்ந்து படுத்திருக்கிறார். ஒருத்தி அவருக்கு முன் கண்ணாடியைத் தூக்கிப் பிடித்துக் கொண்டிருக்கிறாள்... ஒருத்தி தலைக்கு “டை” போட்டு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The zamindar is reclining. One woman holds a mirror before him... another is applying “dye” to his hair...)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to one of the women) Vanitha! (peering into the mirror) Look, two white hairs are showing here... blacken these too!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (அவள், அந்த ரோமங்களுக்கு “டை” தடவுகிறாள்.. ரிசீவரை லீனா போனில் வைக்காமலேயே பேசுதல்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She applies dye to those hairs... Leena speaks while still holding the telephone receiver instead of putting it down.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லீனா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You’re the zamindar of this whole town—what does it matter how you look?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Leena!.. You understand nothing!.. Charm in one’s appearance—and a special skill in preaching to the town—those two are my capital!.. Shouldn’t I pay special attention to them?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லீனா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You’re a great man!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(noticing the receiver in Leena’s hand) Leena!.. Why are you still holding the receiver in your hand...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லீனா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh! I forgot!... When I look at your Cupid-like face, I forget everything!... Yes... who called?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That... a white millionaire named David Durai! He said he’s sending a man called Lingan to work for me as secretary.. Nice name, isn’t it—Lingan...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லீனா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Good... I’m going to tell you some news too—it’ll be good for you as well!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What is it, Leena?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லீனா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(shyly, coyly) I... now... haven’t had my period for two months!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What, pregnant?... (cunningly) Leena, is there anyone outside—someone close to you—who knows any secret about me or about you?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லீனா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No! Apart from God, nobody knows anything!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": "vandikkaran-magan-s010-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ஜமீன்தார்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If God knows, that’s all right!.. Leena... come closer!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s010-u017",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s010",
+      "scene_ordinal": 10,
+      "source_scene_id": "9",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (மற்றப் பெண்களைப் போகச்சொல்ல—அவர்கள் போய்விடுகிறார்கள். கதவை மூடிவிட்டு அவள் கழுத்தை நெறித்துக் கொண்டே... “கர்ப்பமா கர்ப்பம்”... என உறுமியவா"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He tells the other women to leave, and they go. After closing the door, he grips Leena by the throat, growling “pregnant, pregnant” as he turns her into a corpse.. Leena collapses lifeless.)"
+      }
+    }
+  ]
+}

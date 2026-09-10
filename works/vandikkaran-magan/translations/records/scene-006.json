@@ -1,0 +1,473 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s006",
+  "scene_ordinal": 6,
+  "source_scene_id": "5",
+  "scene_status": "verified",
+  "unit_count": 15,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s006-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: ரயில் முதல்வகுப்புப் பெட்டி"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "First-class railway compartment."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (டேவிட்துரை சிகரெட்டைப் புகைத்தவாறு மதுப்புட்டியை எதிரே வைத்து குடித்துக் கொண்டிருக்கிறார். அவர் உட்கார்ந்திருக்கும் பெஞ்சுக்குக் கீழே சிறுவ"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(David Durai sits smoking a cigarette, drinking with a liquor bottle before him. Beneath the bench where he sits, the boy Sokkalingam is hiding, sweat pouring down his face. David pours himself another glass and drinks... Staggering, he gets up and tries to go to the train compartment’s “toilet”; losing his balance, he opens the train door and is about to put one foot out. At once Sokkalingam cries out, runs up, wraps an arm around his waist and stops him from falling.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who are you? Who are you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who I am can wait... If I hadn’t come and hidden here just now, you’d have fallen down and been smashed to pieces!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh... I see!.. I was going to the bathroom, boy!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Saying you were going to the bathroom, you’d have gone straight to heaven!.. This is the door for getting down, sir... the door!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(laughing) Good boy!.. Very good boy!... What’s your name, little brother?..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sokkalingam!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Good!... Good!... Boy! How did you come here?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I ran away from the town where I was born!..?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Don’t you have a father or mother? Are you an orphan?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I’m not an orphan, sir... How I ran away and hid here is a big story, sir!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "டேவிட்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh...! Hmm.... Tell me, tell me!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": "vandikkaran-magan-s006-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I’d sit in Appa’s lap!.. Amma would feed me rice!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s006-u015",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s006",
+      "scene_ordinal": 6,
+      "source_scene_id": "5",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-006.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (ப்ளாஷ்-பேக் ஆரம்பம்.)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Flashback begins.)"
+      }
+    }
+  ]
+}

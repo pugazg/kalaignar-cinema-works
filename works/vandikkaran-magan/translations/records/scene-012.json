@@ -1,0 +1,749 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s012",
+  "scene_ordinal": 12,
+  "source_scene_id": "10-எ",
+  "scene_status": "verified",
+  "unit_count": 24,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s012-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 1,
+          "description": "Source block 1: (லிங்கனின் இலட்சிய கீதம் முடிவதற்கும் உமா, ஓட்டிவரும் சாரட் வண்டி அவனை மிக வேகமாக நெருங்குவதற்கும் சரியாக இருக்கிறது. உமாவின் கையிலுள்ள சாட்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [
+          "This is the source-visible end/context cue for `vandikkaran-magan-perf-002`; it is translated here without creating a second performance occurrence link."
+        ],
+        "english_text": "(Just as Lingan’s idealistic song ends, the carriage driven by Uma comes racing toward him at great speed. Lingan snatches the whip from Uma’s hand.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(angrily) Hey! What’s wrong with you!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(flicking his turban) I’m perfectly fine!.. Can’t you tell by looking? You’re asking everyone walking down the street about their health... Are you a lady doctor?...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(even angrier) Huh?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do all lady doctors make enquiries holding a whip like this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Lady doctors who roam about crying for lack of patients ask like this, do they?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough of the mockery and teasing... First give me the whip!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (கையை நீட்டுகிறாள் சவுக்கை வாங்க)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(She stretches out her hand to take the whip.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Shall I give you the whip? Or shall I give you a whipping?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What did you say?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Little brother! Speak with a little respect! Whoever one may be, guard the tongue!..",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Forget guarding the tongue—if you drive this fast, who will guard the lives of people on the street?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who are you to ask that?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who I am can’t be told in a single line!... If you give me a little room, I’ll sit down and explain it in detail!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Brother! Remember that you’re speaking to the young zamindarani of this estate!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh! The zamindarani? (astonished, to Maragatham) Who are you? Her daughter?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மரகதம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Daughter?... There you go!... Brother, are you trying to flatter me? I have a daughter as big as this myself! I’m the teacher for this little queen!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Oh-ho! Teacher madam! Don’t tell your student to drive the carriage so fast!.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u019",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 3,
+          "description": "Source block 3: (சவுக்கைத் தூக்கி எறிய — அதை உமா, கையில் பிடித்தவாறு — கோபமாக)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(He tosses the whip; Uma catches it in her hand, angrily.)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 20,
+            "printed_page": 19
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I’ll drive even faster than this; who’s going to question me?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 20,
+            "printed_page": 19
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I’m questioning you now! Later the whole town will!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "உமா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 20,
+            "printed_page": 19
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "From now on, just watch—I’ll be terrible!...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-012.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": "vandikkaran-magan-s012-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "லிங்கன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 20,
+            "printed_page": 19
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Only from now on?.... Hmm!... Hmm!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s012-u024",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s012",
+      "scene_ordinal": 12,
+      "source_scene_id": "10-எ",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-012.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 4,
+          "description": "Source block 4: (வண்டி போகிறது...)"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 20,
+            "printed_page": 19
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(The carriage moves away...)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s007",
+  "scene_ordinal": 7,
+  "source_scene_id": "6",
+  "scene_status": "verified",
+  "unit_count": 11,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s007-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: சடையன் வீடு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Sadaiyan’s house."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (சடையன் அருகே சொக்கலிங்கம் உட்கார்ந்திருக்கிறான். சடையன் தன் எதிரில் உள்ள; தட்டில் உள்ள சோற்றை அள்ளி வாயில் போட்டுக் கொள்கிறான். மண்டியிட்டு"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Sokkalingam sits beside Sadaiyan. Sadaiyan scoops rice from the plate before him and eats. Kneeling nearby with pots and vessels, Sornam feeds rice to Sokkalingam, who is sitting on Sadaiyan’s lap....)"
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொர்ணம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "They say you give our zamindar’s daughter badam halwa every day... One day, bring one home and give it to our boy, won’t you!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I want it, Amma, I want it! We get this old rice every day... badam halwa will come only for one day...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Sornam!.. Did you hear our boy talk?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொர்ணம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Even when a little child speaks, it’s talk that makes you think!... For workers like us, old rice itself is badam halwa, panchamirtham, everything—isn’t it?....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சடையன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why say that!... If I say one word to zamindar-ayya that our boy wants badam halwa, he’ll send the whole tray of badam halwa just like that!....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Amma!... Appa!... I’m going to play!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொர்ணம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, dear. Play and come back quickly... wash your hands and feet... then study, child...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொக்க",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All right, Amma!... (He gives her a kiss and runs off.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s007-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s007",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "source": {
+        "source_path": "works/vandikkaran-magan/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-007.md",
+        "source_record_id": "vandikkaran-magan-s007-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சொர்ணம்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":—",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(to Sadaiyan, putting away the meal things) Listen!... I too will go to the horse stable, sweep and clean it, and come back...",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "work_id": "vandikkaran-magan",
+  "target_language": "en",
+  "scene_id": "vandikkaran-magan-s019",
+  "scene_ordinal": 19,
+  "source_scene_id": "16",
+  "scene_status": "verified",
+  "unit_count": 2,
+  "units": [
+    {
+      "id": "vandikkaran-magan-en-s019-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s019",
+      "scene_ordinal": 19,
+      "source_scene_id": "16",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-019.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "location-caption",
+          "ordinal": 1,
+          "description": "Source block 1: குதிரை லாயம்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "Horse stable."
+      }
+    },
+    {
+      "id": "vandikkaran-magan-en-s019-u002",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "scene_id": "vandikkaran-magan-s019",
+      "scene_ordinal": 19,
+      "source_scene_id": "16",
+      "source": {
+        "source_path": "works/vandikkaran-magan/scenes/scene-019.md",
+        "canonical_scene_path": "works/vandikkaran-magan/scenes/scene-019.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "stage-direction",
+          "ordinal": 2,
+          "description": "Source block 2: (காலை நேரம் சடையன், குதிரைக்கு சேணம் பூட்டி; தண்ணீர் வைத்துவிட்டு வேறுபக்கம் போகிறான். 'ரம்' பாட்டிலுடன் விங்கன் மறைந்திருக்கிறான்... சடையன்"
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 29,
+            "printed_page": 28
+          }
+        ]
+      },
+      "translation": {
+        "mode": "prose-faithful",
+        "notes": [],
+        "english_text": "(Morning. Sadaiyan saddles the horse, sets down water and goes to the other side. Vingan is hiding with a bottle of rum... Once Sadaiyan has gone, Vingan approaches the horse, takes the rum bottle from his bag, pours it into the water, throws the bottle there and leaves.)"
+      }
+    }
+  ]
+}
