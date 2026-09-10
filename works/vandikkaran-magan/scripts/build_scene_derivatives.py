@@ -60,7 +60,7 @@ def scene_id_from_heading(heading: str) -> str:
     tail = tail.rstrip(".… ").strip()
     tail = re.sub(r"\s+", " ", tail)
     tail = re.sub(r"\s*-\s*", "-", tail).strip("- ")
-    m = re.fullmatch(rf"(\d+(?:-\d+)?)(?:-?([{SUFFIXES}]))?", tail)
+    m = re.fullmatch(r"(\d+(?:-\d+)?)(?:[-\s]+((?:எ|பி|சி|டி)))?", tail)
     if not m:
         raise SystemExit(f"cannot decode scene id from {heading!r}; normalized={tail!r}")
     base, suffix = m.groups()

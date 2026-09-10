@@ -1,0 +1,1655 @@
+{
+  "work_id": "vandikkaran-magan",
+  "status": "complete-verified",
+  "source": {
+    "filename": "TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf",
+    "sha256": "03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253",
+    "authority": "attached-pdf-only"
+  },
+  "canonical_transcription_index": "../transcription/index.json",
+  "mapping": "../mapping.md",
+  "source_numbered_scenes": true,
+  "total_scenes": 72,
+  "ordered_scene_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "4-எ",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "10-எ",
+    "11",
+    "12",
+    "13",
+    "14",
+    "14-எ",
+    "15",
+    "16",
+    "16-எ",
+    "17",
+    "18",
+    "19",
+    "20",
+    "20-எ",
+    "21",
+    "22",
+    "22-எ",
+    "23",
+    "24",
+    "24-எ",
+    "24-பி",
+    "24-சி",
+    "24-டி",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "29-எ",
+    "30",
+    "31",
+    "32",
+    "33",
+    "33-எ",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "42-எ",
+    "43",
+    "44",
+    "45-46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "53-எ",
+    "53-பி",
+    "53-சி",
+    "53-டி",
+    "54",
+    "55",
+    "56"
+  ],
+  "scene_body_scope": "PDF 6–87 from first source scene heading through screenplay EOF",
+  "pre_scene_work_header": "# வண்டிக்காரன் மகன்",
+  "canonical_scene_body_sha256": "84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a",
+  "joined_scene_spans_sha256": "84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a",
+  "scenes": [
+    {
+      "scene_id": "1",
+      "ordinal": 1,
+      "source_heading": "காட்சி—1",
+      "source_heading_markdown": "## காட்சி—1",
+      "location": "ஜமீன்மாளிகை வெளிப்புறம்",
+      "pdf_start": 6,
+      "printed_start": 5,
+      "pdf_end": 8,
+      "printed_end": 7,
+      "pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "canonical_paths": [
+        "transcription/pages/006.md",
+        "transcription/pages/007.md",
+        "transcription/pages/008.md"
+      ],
+      "scene_path": "scenes/scene-001.md",
+      "span_sha256": "701d1aceb573680c1fc263a449982c6ba756f16660a6e451e57fd2f6848a7029",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "2",
+      "ordinal": 2,
+      "source_heading": "காட்சி—2",
+      "source_heading_markdown": "## காட்சி—2",
+      "location": null,
+      "pdf_start": 8,
+      "printed_start": 7,
+      "pdf_end": 8,
+      "printed_end": 7,
+      "pdf_pages": [
+        8
+      ],
+      "canonical_paths": [
+        "transcription/pages/008.md"
+      ],
+      "scene_path": "scenes/scene-002.md",
+      "span_sha256": "75e47543515373f283778c40d951a0df1c3600575065d8be14f95a69fca052d1",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "3",
+      "ordinal": 3,
+      "source_heading": "காட்சி — 3.",
+      "source_heading_markdown": "## காட்சி — 3.",
+      "location": "ஜமீன் தேவாலயம் வாயில்.",
+      "pdf_start": 9,
+      "printed_start": 8,
+      "pdf_end": 9,
+      "printed_end": 8,
+      "pdf_pages": [
+        9
+      ],
+      "canonical_paths": [
+        "transcription/pages/009.md"
+      ],
+      "scene_path": "scenes/scene-003.md",
+      "span_sha256": "1f41d9796ee63503ff748d2fc220daeb96f3603223f085f1ba7b035197d77f48",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "4",
+      "ordinal": 4,
+      "source_heading": "காட்சி — 4",
+      "source_heading_markdown": "## காட்சி — 4",
+      "location": "ஜமீன் தேவாலயம் உட்புறம்",
+      "pdf_start": 9,
+      "printed_start": 8,
+      "pdf_end": 9,
+      "printed_end": 8,
+      "pdf_pages": [
+        9
+      ],
+      "canonical_paths": [
+        "transcription/pages/009.md"
+      ],
+      "scene_path": "scenes/scene-004.md",
+      "span_sha256": "3335a59612ca3c3bf9af9686f788b636dddd7749989a488224c11d575face71d",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "4-எ",
+      "ordinal": 5,
+      "source_heading": "காட்சி — 4 எ.",
+      "source_heading_markdown": "## காட்சி — 4 எ.",
+      "location": "தேவாலய அந்தரங்க அறை.",
+      "pdf_start": 10,
+      "printed_start": 9,
+      "pdf_end": 12,
+      "printed_end": 11,
+      "pdf_pages": [
+        10,
+        11,
+        12
+      ],
+      "canonical_paths": [
+        "transcription/pages/010.md",
+        "transcription/pages/011.md",
+        "transcription/pages/012.md"
+      ],
+      "scene_path": "scenes/scene-005.md",
+      "span_sha256": "b934cfbb1490679142295eea3948a37a496308c8951c3299ce756299e4ff90d8",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "5",
+      "ordinal": 6,
+      "source_heading": "காட்சி — 5",
+      "source_heading_markdown": "## காட்சி — 5",
+      "location": "ரயில் முதல்வகுப்புப் பெட்டி",
+      "pdf_start": 12,
+      "printed_start": 11,
+      "pdf_end": 12,
+      "printed_end": 11,
+      "pdf_pages": [
+        12
+      ],
+      "canonical_paths": [
+        "transcription/pages/012.md"
+      ],
+      "scene_path": "scenes/scene-006.md",
+      "span_sha256": "c436140ab67d1e9ffc97f6de495e198230e833896d3b72038c00951c27e90e24",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "6",
+      "ordinal": 7,
+      "source_heading": "காட்சி — 6",
+      "source_heading_markdown": "## காட்சி — 6",
+      "location": "சடையன் வீடு",
+      "pdf_start": 13,
+      "printed_start": 12,
+      "pdf_end": 13,
+      "printed_end": 12,
+      "pdf_pages": [
+        13
+      ],
+      "canonical_paths": [
+        "transcription/pages/013.md"
+      ],
+      "scene_path": "scenes/scene-007.md",
+      "span_sha256": "7dc2bd8929f6df2eea7af87d994f61a346bea57b81b0227b71a3ccbeb1bbaa4a",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "7",
+      "ordinal": 8,
+      "source_heading": "காட்சி — 7",
+      "source_heading_markdown": "## காட்சி — 7",
+      "location": "குதிரை லாயம்",
+      "pdf_start": 13,
+      "printed_start": 12,
+      "pdf_end": 16,
+      "printed_end": 15,
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "canonical_paths": [
+        "transcription/pages/013.md",
+        "transcription/pages/014.md",
+        "transcription/pages/015.md",
+        "transcription/pages/016.md"
+      ],
+      "scene_path": "scenes/scene-008.md",
+      "span_sha256": "5feaada530a7145417e6c427f7814c3a6a4aad829280148bea614c0cf3c245f7",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "8",
+      "ordinal": 9,
+      "source_heading": "காட்சி — 8",
+      "source_heading_markdown": "## காட்சி — 8",
+      "location": "ரயில் முதல்வகுப்புப் பெட்டி",
+      "pdf_start": 16,
+      "printed_start": 15,
+      "pdf_end": 16,
+      "printed_end": 15,
+      "pdf_pages": [
+        16
+      ],
+      "canonical_paths": [
+        "transcription/pages/016.md"
+      ],
+      "scene_path": "scenes/scene-009.md",
+      "span_sha256": "2f47ccebab8c8e0b69f9b201e9ce1e33405a52051696e7037a1beccd945c3a99",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "9",
+      "ordinal": 10,
+      "source_heading": "காட்சி — 9",
+      "source_heading_markdown": "## காட்சி — 9",
+      "location": "ஜமீன் அந்தரங்க மாளிகை",
+      "pdf_start": 17,
+      "printed_start": 16,
+      "pdf_end": 17,
+      "printed_end": 16,
+      "pdf_pages": [
+        17
+      ],
+      "canonical_paths": [
+        "transcription/pages/017.md"
+      ],
+      "scene_path": "scenes/scene-010.md",
+      "span_sha256": "29514f1e87cfc0daa908ca7791226fbbaecf727c48de5eb6f2305ff3dd8a0d22",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "10",
+      "ordinal": 11,
+      "source_heading": "காட்சி — 10",
+      "source_heading_markdown": "## காட்சி — 10",
+      "location": null,
+      "pdf_start": 18,
+      "printed_start": 17,
+      "pdf_end": 18,
+      "printed_end": 17,
+      "pdf_pages": [
+        18
+      ],
+      "canonical_paths": [
+        "transcription/pages/018.md"
+      ],
+      "scene_path": "scenes/scene-011.md",
+      "span_sha256": "3722673b3146d9a1f41caec3ebe672ea5b0a8f8fcf099df1c51e0e9720259493",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "10-எ",
+      "ordinal": 12,
+      "source_heading": "காட்சி 10-எ",
+      "source_heading_markdown": "## காட்சி 10-எ",
+      "location": null,
+      "pdf_start": 19,
+      "printed_start": 18,
+      "pdf_end": 20,
+      "printed_end": 19,
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "canonical_paths": [
+        "transcription/pages/019.md",
+        "transcription/pages/020.md"
+      ],
+      "scene_path": "scenes/scene-012.md",
+      "span_sha256": "87842a7637f878b26cab99f8d1ffb7628acede34268bac7e0307a793426eb54e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "11",
+      "ordinal": 13,
+      "source_heading": "காட்சி — 11",
+      "source_heading_markdown": "## காட்சி — 11",
+      "location": "ஜமீன் மாளிகை",
+      "pdf_start": 20,
+      "printed_start": 19,
+      "pdf_end": 21,
+      "printed_end": 20,
+      "pdf_pages": [
+        20,
+        21
+      ],
+      "canonical_paths": [
+        "transcription/pages/020.md",
+        "transcription/pages/021.md"
+      ],
+      "scene_path": "scenes/scene-013.md",
+      "span_sha256": "e1091168d82bd5312521060c41718694687bbabd182af411075a15955dc3f231",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "12",
+      "ordinal": 14,
+      "source_heading": "காட்சி — 12",
+      "source_heading_markdown": "## காட்சி — 12",
+      "location": "ஜமீன் மாளிகை-பல பகுதிகள்",
+      "pdf_start": 22,
+      "printed_start": 21,
+      "pdf_end": 24,
+      "printed_end": 23,
+      "pdf_pages": [
+        22,
+        23,
+        24
+      ],
+      "canonical_paths": [
+        "transcription/pages/022.md",
+        "transcription/pages/023.md",
+        "transcription/pages/024.md"
+      ],
+      "scene_path": "scenes/scene-014.md",
+      "span_sha256": "19edb5a5d387ef53ca50bcab9875384e5ab825658a120ef0daefcb0737428f6d",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "13",
+      "ordinal": 15,
+      "source_heading": "காட்சி — 13",
+      "source_heading_markdown": "## காட்சி — 13",
+      "location": "குதிரை லாயம்",
+      "pdf_start": 24,
+      "printed_start": 23,
+      "pdf_end": 25,
+      "printed_end": 24,
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "canonical_paths": [
+        "transcription/pages/024.md",
+        "transcription/pages/025.md"
+      ],
+      "scene_path": "scenes/scene-015.md",
+      "span_sha256": "1ac24e06898234d3c6c665d0b6e97a511f74f3a62d6a0848ab82da62ce8d4f4f",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "14",
+      "ordinal": 16,
+      "source_heading": "காட்சி — 14",
+      "source_heading_markdown": "## காட்சி — 14",
+      "location": "காளிங்கராயன் அறை",
+      "pdf_start": 25,
+      "printed_start": 24,
+      "pdf_end": 27,
+      "printed_end": 26,
+      "pdf_pages": [
+        25,
+        26,
+        27
+      ],
+      "canonical_paths": [
+        "transcription/pages/025.md",
+        "transcription/pages/026.md",
+        "transcription/pages/027.md"
+      ],
+      "scene_path": "scenes/scene-016.md",
+      "span_sha256": "fa52b6b2784d54d885b3e417409370dd0e3d8eb6ca73e57a42bb6f7186ae4a68",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "14-எ",
+      "ordinal": 17,
+      "source_heading": "காட்சி—14 எ",
+      "source_heading_markdown": "## காட்சி—14 எ",
+      "location": "ஜமீன் மாளிகை / காளிங்கன் அறைக்கு வெளியே",
+      "pdf_start": 27,
+      "printed_start": 26,
+      "pdf_end": 27,
+      "printed_end": 26,
+      "pdf_pages": [
+        27
+      ],
+      "canonical_paths": [
+        "transcription/pages/027.md"
+      ],
+      "scene_path": "scenes/scene-017.md",
+      "span_sha256": "28ec355f85b7ed0d7fe40acbbc1f3a0b892af723de857be6101e57e5ce2ddd53",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "15",
+      "ordinal": 18,
+      "source_heading": "காட்சி — 15",
+      "source_heading_markdown": "## காட்சி — 15",
+      "location": "ஜமீன் மாளிகையில் ஒரு பகுதி",
+      "pdf_start": 28,
+      "printed_start": 27,
+      "pdf_end": 29,
+      "printed_end": 28,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "canonical_paths": [
+        "transcription/pages/028.md",
+        "transcription/pages/029.md"
+      ],
+      "scene_path": "scenes/scene-018.md",
+      "span_sha256": "c4b6852840f6745cb907f7accf68128b5fd7c0fbb93666ded8bc553adc0fe34a",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "16",
+      "ordinal": 19,
+      "source_heading": "காட்சி — 16",
+      "source_heading_markdown": "## காட்சி — 16",
+      "location": "குதிரை லாயம்",
+      "pdf_start": 29,
+      "printed_start": 28,
+      "pdf_end": 29,
+      "printed_end": 28,
+      "pdf_pages": [
+        29
+      ],
+      "canonical_paths": [
+        "transcription/pages/029.md"
+      ],
+      "scene_path": "scenes/scene-019.md",
+      "span_sha256": "b6eb75e409d47b63f16f8d0e9637cd518af880f07887ea7c0133feb5405d7c36",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "16-எ",
+      "ordinal": 20,
+      "source_heading": "காட்சி—16 எ",
+      "source_heading_markdown": "## காட்சி—16 எ",
+      "location": "ஜமீன்வீடு வெளிப்புறம்",
+      "pdf_start": 29,
+      "printed_start": 28,
+      "pdf_end": 30,
+      "printed_end": 29,
+      "pdf_pages": [
+        29,
+        30
+      ],
+      "canonical_paths": [
+        "transcription/pages/029.md",
+        "transcription/pages/030.md"
+      ],
+      "scene_path": "scenes/scene-020.md",
+      "span_sha256": "63c57c71420ad4478e4b08989c57911ff9824d38b4e3bc392b2020cd2511ca8b",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "17",
+      "ordinal": 21,
+      "source_heading": "காட்சி — 17",
+      "source_heading_markdown": "## காட்சி — 17",
+      "location": null,
+      "pdf_start": 30,
+      "printed_start": 29,
+      "pdf_end": 31,
+      "printed_end": 30,
+      "pdf_pages": [
+        30,
+        31
+      ],
+      "canonical_paths": [
+        "transcription/pages/030.md",
+        "transcription/pages/031.md"
+      ],
+      "scene_path": "scenes/scene-021.md",
+      "span_sha256": "98bc930d2742b0426929fa043e4e6a3f9f2cb78dbb28a83aaec603a1b89aad8e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "18",
+      "ordinal": 22,
+      "source_heading": "காட்சி—18",
+      "source_heading_markdown": "## காட்சி—18",
+      "location": "ஜமீன்மாளிகை வெளிப்புறம்",
+      "pdf_start": 31,
+      "printed_start": 30,
+      "pdf_end": 32,
+      "printed_end": 31,
+      "pdf_pages": [
+        31,
+        32
+      ],
+      "canonical_paths": [
+        "transcription/pages/031.md",
+        "transcription/pages/032.md"
+      ],
+      "scene_path": "scenes/scene-022.md",
+      "span_sha256": "4503285634d178f06478e1ed4fc64bb50a0ff3f4825eda413c0bc85084a65d97",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "19",
+      "ordinal": 23,
+      "source_heading": "காட்சி —19",
+      "source_heading_markdown": "## காட்சி —19",
+      "location": null,
+      "pdf_start": 33,
+      "printed_start": 32,
+      "pdf_end": 34,
+      "printed_end": 33,
+      "pdf_pages": [
+        33,
+        34
+      ],
+      "canonical_paths": [
+        "transcription/pages/033.md",
+        "transcription/pages/034.md"
+      ],
+      "scene_path": "scenes/scene-023.md",
+      "span_sha256": "8c3aec18d7f23113d31e0a6a3660f02378dfc409e74689341b7c4a10a47b32d7",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "20",
+      "ordinal": 24,
+      "source_heading": "காட்சி — 20",
+      "source_heading_markdown": "## காட்சி — 20",
+      "location": "நீச்சல் குளத்தோட்டம்",
+      "pdf_start": 35,
+      "printed_start": 34,
+      "pdf_end": 37,
+      "printed_end": 36,
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "canonical_paths": [
+        "transcription/pages/035.md",
+        "transcription/pages/036.md",
+        "transcription/pages/037.md"
+      ],
+      "scene_path": "scenes/scene-024.md",
+      "span_sha256": "f71aaf232632c07ccca3d943acd12dd05c297d2792ec56b05f086ceae994fd21",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "20-எ",
+      "ordinal": 25,
+      "source_heading": "காட்சி-20-எ",
+      "source_heading_markdown": "## காட்சி-20-எ",
+      "location": null,
+      "pdf_start": 37,
+      "printed_start": 36,
+      "pdf_end": 38,
+      "printed_end": 37,
+      "pdf_pages": [
+        37,
+        38
+      ],
+      "canonical_paths": [
+        "transcription/pages/037.md",
+        "transcription/pages/038.md"
+      ],
+      "scene_path": "scenes/scene-025.md",
+      "span_sha256": "07fa376b380bdd42e1cc3a0a7ea73c9b9ba6370ba2f6e9b5f52a6f6059d647d4",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "21",
+      "ordinal": 26,
+      "source_heading": "காட்சி — 21",
+      "source_heading_markdown": "## காட்சி — 21",
+      "location": "ஜமீன் மாளிகை / ஜமீன்தார் அலுவலக அறை",
+      "pdf_start": 39,
+      "printed_start": 38,
+      "pdf_end": 40,
+      "printed_end": 39,
+      "pdf_pages": [
+        39,
+        40
+      ],
+      "canonical_paths": [
+        "transcription/pages/039.md",
+        "transcription/pages/040.md"
+      ],
+      "scene_path": "scenes/scene-026.md",
+      "span_sha256": "ff71bc452bf7abe0158d27e0e058c834b9c71c73327f0805afba0be3a5835273",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "22",
+      "ordinal": 27,
+      "source_heading": "காட்சி — 22",
+      "source_heading_markdown": "## காட்சி — 22",
+      "location": null,
+      "pdf_start": 40,
+      "printed_start": 39,
+      "pdf_end": 40,
+      "printed_end": 39,
+      "pdf_pages": [
+        40
+      ],
+      "canonical_paths": [
+        "transcription/pages/040.md"
+      ],
+      "scene_path": "scenes/scene-027.md",
+      "span_sha256": "3937095d6aa9cd85558cdfc358fa603de98e828cd45b024540498f0d778f47f1",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "22-எ",
+      "ordinal": 28,
+      "source_heading": "காட்சி — 22-எ",
+      "source_heading_markdown": "## காட்சி — 22-எ",
+      "location": null,
+      "pdf_start": 40,
+      "printed_start": 39,
+      "pdf_end": 41,
+      "printed_end": 40,
+      "pdf_pages": [
+        40,
+        41
+      ],
+      "canonical_paths": [
+        "transcription/pages/040.md",
+        "transcription/pages/041.md"
+      ],
+      "scene_path": "scenes/scene-028.md",
+      "span_sha256": "3ad6e930160dcea03113d7a48bcc6e5337d3c7c8fe4afc6eccef38677b4322a9",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "23",
+      "ordinal": 29,
+      "source_heading": "காட்சி-23",
+      "source_heading_markdown": "## காட்சி-23",
+      "location": "டேவிட் பங்களா வெளிப்புறம்",
+      "pdf_start": 42,
+      "printed_start": 41,
+      "pdf_end": 42,
+      "printed_end": 41,
+      "pdf_pages": [
+        42
+      ],
+      "canonical_paths": [
+        "transcription/pages/042.md"
+      ],
+      "scene_path": "scenes/scene-029.md",
+      "span_sha256": "222ac3748a84b1599c72b4bcfd8b196375c86244717b2831123a75445c739d40",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "24",
+      "ordinal": 30,
+      "source_heading": "காட்சி-24",
+      "source_heading_markdown": "## காட்சி-24",
+      "location": "டேவிட் மலைப்பங்களா உட்புறம்",
+      "pdf_start": 42,
+      "printed_start": 41,
+      "pdf_end": 43,
+      "printed_end": 42,
+      "pdf_pages": [
+        42,
+        43
+      ],
+      "canonical_paths": [
+        "transcription/pages/042.md",
+        "transcription/pages/043.md"
+      ],
+      "scene_path": "scenes/scene-030.md",
+      "span_sha256": "3ca588b558097b272b97dbb81356e119a252bfb225ee030dd9525c0ff3336103",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "24-எ",
+      "ordinal": 31,
+      "source_heading": "காட்சி 24-எ",
+      "source_heading_markdown": "## காட்சி 24-எ",
+      "location": null,
+      "pdf_start": 44,
+      "printed_start": 43,
+      "pdf_end": 44,
+      "printed_end": 43,
+      "pdf_pages": [
+        44
+      ],
+      "canonical_paths": [
+        "transcription/pages/044.md"
+      ],
+      "scene_path": "scenes/scene-031.md",
+      "span_sha256": "e384cd0629d6445257e126938b5044f22667a11a8955d621f5b7a3aa6f13825e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "24-பி",
+      "ordinal": 32,
+      "source_heading": "காட்சி-24-பி",
+      "source_heading_markdown": "## காட்சி-24-பி",
+      "location": "டேவிட் மலைப்பங்களா உட்புறம்",
+      "pdf_start": 44,
+      "printed_start": 43,
+      "pdf_end": 45,
+      "printed_end": 44,
+      "pdf_pages": [
+        44,
+        45
+      ],
+      "canonical_paths": [
+        "transcription/pages/044.md",
+        "transcription/pages/045.md"
+      ],
+      "scene_path": "scenes/scene-032.md",
+      "span_sha256": "c4c1f4bbef941137d37aadcc70fdd79ddc8466cc196a7d62ed6bab8e02c9ad68",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "24-சி",
+      "ordinal": 33,
+      "source_heading": "காட்சி-24 சி",
+      "source_heading_markdown": "## காட்சி-24 சி",
+      "location": null,
+      "pdf_start": 46,
+      "printed_start": 45,
+      "pdf_end": 47,
+      "printed_end": 46,
+      "pdf_pages": [
+        46,
+        47
+      ],
+      "canonical_paths": [
+        "transcription/pages/046.md",
+        "transcription/pages/047.md"
+      ],
+      "scene_path": "scenes/scene-033.md",
+      "span_sha256": "b80a65ab0197b6a7d83a87250139cf004375ec322d9b666ff68ede93ce230bad",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "24-டி",
+      "ordinal": 34,
+      "source_heading": "காட்சி-24 டி",
+      "source_heading_markdown": "## காட்சி-24 டி",
+      "location": null,
+      "pdf_start": 47,
+      "printed_start": 46,
+      "pdf_end": 48,
+      "printed_end": 47,
+      "pdf_pages": [
+        47,
+        48
+      ],
+      "canonical_paths": [
+        "transcription/pages/047.md",
+        "transcription/pages/048.md"
+      ],
+      "scene_path": "scenes/scene-034.md",
+      "span_sha256": "c57401e4703fde307a23c708374f376dcf54005ecb7a5e1f0370fe09e0251163",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "25",
+      "ordinal": 35,
+      "source_heading": "காட்சி-25",
+      "source_heading_markdown": "## காட்சி-25",
+      "location": "சடையன் வீடு",
+      "pdf_start": 48,
+      "printed_start": 47,
+      "pdf_end": 50,
+      "printed_end": 49,
+      "pdf_pages": [
+        48,
+        49,
+        50
+      ],
+      "canonical_paths": [
+        "transcription/pages/048.md",
+        "transcription/pages/049.md",
+        "transcription/pages/050.md"
+      ],
+      "scene_path": "scenes/scene-035.md",
+      "span_sha256": "94aef82608f5986db1d3e6fef5e36c41f7c42f4436b51084a2f7aa31fda61673",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "26",
+      "ordinal": 36,
+      "source_heading": "காட்சி-26",
+      "source_heading_markdown": "## காட்சி-26",
+      "location": "கோகிலா அறை",
+      "pdf_start": 50,
+      "printed_start": 49,
+      "pdf_end": 51,
+      "printed_end": 50,
+      "pdf_pages": [
+        50,
+        51
+      ],
+      "canonical_paths": [
+        "transcription/pages/050.md",
+        "transcription/pages/051.md"
+      ],
+      "scene_path": "scenes/scene-036.md",
+      "span_sha256": "b9972bdd602dc8080b2a0b48c4fa703ae35aa1f8dfb8b49ca55b29a952edfc7d",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "27",
+      "ordinal": 37,
+      "source_heading": "காட்சி-27",
+      "source_heading_markdown": "## காட்சி-27",
+      "location": "உமா அறை",
+      "pdf_start": 51,
+      "printed_start": 50,
+      "pdf_end": 51,
+      "printed_end": 50,
+      "pdf_pages": [
+        51
+      ],
+      "canonical_paths": [
+        "transcription/pages/051.md"
+      ],
+      "scene_path": "scenes/scene-037.md",
+      "span_sha256": "936ef0852e7940c545b4b114a414f656da3e020cf8090e33d4a5749524cdab9b",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "28",
+      "ordinal": 38,
+      "source_heading": "காட்சி-28",
+      "source_heading_markdown": "## காட்சி-28",
+      "location": "தோட்டத்துக்குளம்",
+      "pdf_start": 52,
+      "printed_start": 51,
+      "pdf_end": 52,
+      "printed_end": 51,
+      "pdf_pages": [
+        52
+      ],
+      "canonical_paths": [
+        "transcription/pages/052.md"
+      ],
+      "scene_path": "scenes/scene-038.md",
+      "span_sha256": "789d69572ca6a6888435aa9b9d28423fc8dbbdc3d7b43c4a9d7c3a862040af99",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "29",
+      "ordinal": 39,
+      "source_heading": "காட்சி-29",
+      "source_heading_markdown": "## காட்சி-29",
+      "location": "ஜமீன் மாளிகை",
+      "pdf_start": 53,
+      "printed_start": 52,
+      "pdf_end": 54,
+      "printed_end": 53,
+      "pdf_pages": [
+        53,
+        54
+      ],
+      "canonical_paths": [
+        "transcription/pages/053.md",
+        "transcription/pages/054.md"
+      ],
+      "scene_path": "scenes/scene-039.md",
+      "span_sha256": "3017c9de73df48e2f477dd024ff68484bb4647f7bb166b6427c2a78632db9be5",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "29-எ",
+      "ordinal": 40,
+      "source_heading": "காட்சி 29-எ",
+      "source_heading_markdown": "## காட்சி 29-எ",
+      "location": "கோகிலா அறை",
+      "pdf_start": 55,
+      "printed_start": 54,
+      "pdf_end": 55,
+      "printed_end": 54,
+      "pdf_pages": [
+        55
+      ],
+      "canonical_paths": [
+        "transcription/pages/055.md"
+      ],
+      "scene_path": "scenes/scene-040.md",
+      "span_sha256": "5dde23fb32fdf483385d3087e492c953d829bb49d14d6d03105ebebe9ddb6b6e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "30",
+      "ordinal": 41,
+      "source_heading": "காட்சி 30",
+      "source_heading_markdown": "## காட்சி 30",
+      "location": "அந்தரங்க மாளிகை",
+      "pdf_start": 55,
+      "printed_start": 54,
+      "pdf_end": 55,
+      "printed_end": 54,
+      "pdf_pages": [
+        55
+      ],
+      "canonical_paths": [
+        "transcription/pages/055.md"
+      ],
+      "scene_path": "scenes/scene-041.md",
+      "span_sha256": "95d727e1b3000126815fa34dabef814544617af3c98c3440b3b14b3309be3e7e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "31",
+      "ordinal": 42,
+      "source_heading": "காட்சி-31",
+      "source_heading_markdown": "## காட்சி-31",
+      "location": null,
+      "pdf_start": 55,
+      "printed_start": 54,
+      "pdf_end": 55,
+      "printed_end": 54,
+      "pdf_pages": [
+        55
+      ],
+      "canonical_paths": [
+        "transcription/pages/055.md"
+      ],
+      "scene_path": "scenes/scene-042.md",
+      "span_sha256": "e4c61065074c012ecd16d490cfebb867d778083dc842c9e06ab6290d43d77e07",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "32",
+      "ordinal": 43,
+      "source_heading": "காட்சி 32",
+      "source_heading_markdown": "## காட்சி 32",
+      "location": "ஜமீன் மாளிகை / திருமண விழா",
+      "pdf_start": 56,
+      "printed_start": 55,
+      "pdf_end": 58,
+      "printed_end": 57,
+      "pdf_pages": [
+        56,
+        57,
+        58
+      ],
+      "canonical_paths": [
+        "transcription/pages/056.md",
+        "transcription/pages/057.md",
+        "transcription/pages/058.md"
+      ],
+      "scene_path": "scenes/scene-043.md",
+      "span_sha256": "9b0648c2f63e43d3a15d367f205de796c6b8cadf653d0f7608594b064b7a0921",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "33",
+      "ordinal": 44,
+      "source_heading": "காட்சி 33",
+      "source_heading_markdown": "## காட்சி 33",
+      "location": "ஜமீன் மாளிகை / முதல் இரவு அறை",
+      "pdf_start": 58,
+      "printed_start": 57,
+      "pdf_end": 59,
+      "printed_end": 58,
+      "pdf_pages": [
+        58,
+        59
+      ],
+      "canonical_paths": [
+        "transcription/pages/058.md",
+        "transcription/pages/059.md"
+      ],
+      "scene_path": "scenes/scene-044.md",
+      "span_sha256": "715a0f650175b139b7efe316c4667109a8d4847478b0caab091ad99eb33b68a3",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "33-எ",
+      "ordinal": 45,
+      "source_heading": "காட்சி-33-எ",
+      "source_heading_markdown": "## காட்சி-33-எ",
+      "location": null,
+      "pdf_start": 59,
+      "printed_start": 58,
+      "pdf_end": 59,
+      "printed_end": 58,
+      "pdf_pages": [
+        59
+      ],
+      "canonical_paths": [
+        "transcription/pages/059.md"
+      ],
+      "scene_path": "scenes/scene-045.md",
+      "span_sha256": "71453f1bfbf5539849149d02dbe1ae5c68f947cc97c235acd3f22d121703715f",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "34",
+      "ordinal": 46,
+      "source_heading": "காட்சி-34",
+      "source_heading_markdown": "## காட்சி-34",
+      "location": "ஊர் பொதுமண்டபம்",
+      "pdf_start": 59,
+      "printed_start": 58,
+      "pdf_end": 59,
+      "printed_end": 58,
+      "pdf_pages": [
+        59
+      ],
+      "canonical_paths": [
+        "transcription/pages/059.md"
+      ],
+      "scene_path": "scenes/scene-046.md",
+      "span_sha256": "0fada9caac8266863a91081782b3521d9f7364c69169e753e30a0f9330df144d",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "35",
+      "ordinal": 47,
+      "source_heading": "காட்சி-35",
+      "source_heading_markdown": "## காட்சி-35",
+      "location": "ஜமீன் மாளிகை",
+      "pdf_start": 60,
+      "printed_start": 59,
+      "pdf_end": 60,
+      "printed_end": 59,
+      "pdf_pages": [
+        60
+      ],
+      "canonical_paths": [
+        "transcription/pages/060.md"
+      ],
+      "scene_path": "scenes/scene-047.md",
+      "span_sha256": "cc736d16b1421680a74c4b068a6c6f18076f53f01364990e81679e25a95594d8",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "36",
+      "ordinal": 48,
+      "source_heading": "காட்சி — 36",
+      "source_heading_markdown": "## காட்சி — 36",
+      "location": null,
+      "pdf_start": 60,
+      "printed_start": 59,
+      "pdf_end": 61,
+      "printed_end": 60,
+      "pdf_pages": [
+        60,
+        61
+      ],
+      "canonical_paths": [
+        "transcription/pages/060.md",
+        "transcription/pages/061.md"
+      ],
+      "scene_path": "scenes/scene-048.md",
+      "span_sha256": "35ae39329782a877ff6acb0ab2d311cb8beb3dcfd01eb458d3b304b32f9c676a",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "37",
+      "ordinal": 49,
+      "source_heading": "காட்சி — 37",
+      "source_heading_markdown": "## காட்சி — 37",
+      "location": "பதுக்கல் கிடங்கு",
+      "pdf_start": 61,
+      "printed_start": 60,
+      "pdf_end": 62,
+      "printed_end": 61,
+      "pdf_pages": [
+        61,
+        62
+      ],
+      "canonical_paths": [
+        "transcription/pages/061.md",
+        "transcription/pages/062.md"
+      ],
+      "scene_path": "scenes/scene-049.md",
+      "span_sha256": "ebb38f730d9c69c1b6afe95b9859cae921e82a4d87783382a62515408a35bc1d",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "38",
+      "ordinal": 50,
+      "source_heading": "காட்சி — 38",
+      "source_heading_markdown": "## காட்சி — 38",
+      "location": "ஜமீன் மாளிகை",
+      "pdf_start": 62,
+      "printed_start": 61,
+      "pdf_end": 64,
+      "printed_end": 63,
+      "pdf_pages": [
+        62,
+        63,
+        64
+      ],
+      "canonical_paths": [
+        "transcription/pages/062.md",
+        "transcription/pages/063.md",
+        "transcription/pages/064.md"
+      ],
+      "scene_path": "scenes/scene-050.md",
+      "span_sha256": "2b9e22ab71e203239a0ed60c57aad9912c88b357b9334e1a321caea97cd2e43b",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "39",
+      "ordinal": 51,
+      "source_heading": "காட்சி - 39",
+      "source_heading_markdown": "## காட்சி - 39",
+      "location": "சடையன் வீடு",
+      "pdf_start": 64,
+      "printed_start": 63,
+      "pdf_end": 65,
+      "printed_end": 64,
+      "pdf_pages": [
+        64,
+        65
+      ],
+      "canonical_paths": [
+        "transcription/pages/064.md",
+        "transcription/pages/065.md"
+      ],
+      "scene_path": "scenes/scene-051.md",
+      "span_sha256": "72ab13e5629e428e441c7c3e7f1a29cedc3338ac09e5fc4309a5d93c4a488b35",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "40",
+      "ordinal": 52,
+      "source_heading": "காட்சி - 40",
+      "source_heading_markdown": "## காட்சி - 40",
+      "location": "டீக்கடை",
+      "pdf_start": 65,
+      "printed_start": 64,
+      "pdf_end": 66,
+      "printed_end": 65,
+      "pdf_pages": [
+        65,
+        66
+      ],
+      "canonical_paths": [
+        "transcription/pages/065.md",
+        "transcription/pages/066.md"
+      ],
+      "scene_path": "scenes/scene-052.md",
+      "span_sha256": "765eac8af9ba0789196cd6ebb0874da47ebece03f75b76f0af986e739a27495a",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "41",
+      "ordinal": 53,
+      "source_heading": "காட்சி - 41",
+      "source_heading_markdown": "## காட்சி - 41",
+      "location": "வெளிப்புறக் காட்சி இரவு",
+      "pdf_start": 66,
+      "printed_start": 65,
+      "pdf_end": 67,
+      "printed_end": 66,
+      "pdf_pages": [
+        66,
+        67
+      ],
+      "canonical_paths": [
+        "transcription/pages/066.md",
+        "transcription/pages/067.md"
+      ],
+      "scene_path": "scenes/scene-053.md",
+      "span_sha256": "e6c41588c3d738278787450bb0d6ac53c2f6ba6ae799a1c03c0f2fed65ef3b5a",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "42",
+      "ordinal": 54,
+      "source_heading": "காட்சி — 42",
+      "source_heading_markdown": "## காட்சி — 42",
+      "location": "ஜமீன் தேவாலய வாயிற்புறம்",
+      "pdf_start": 67,
+      "printed_start": 66,
+      "pdf_end": 68,
+      "printed_end": 67,
+      "pdf_pages": [
+        67,
+        68
+      ],
+      "canonical_paths": [
+        "transcription/pages/067.md",
+        "transcription/pages/068.md"
+      ],
+      "scene_path": "scenes/scene-054.md",
+      "span_sha256": "b359e7fc3752342bdb656bc675bfb9901209ef347fdf0d744cceef49ef09052c",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "42-எ",
+      "ordinal": 55,
+      "source_heading": "காட்சி — 42-எ",
+      "source_heading_markdown": "## காட்சி — 42-எ",
+      "location": "தேவாலய உட்புறம்",
+      "pdf_start": 68,
+      "printed_start": 67,
+      "pdf_end": 69,
+      "printed_end": 68,
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "canonical_paths": [
+        "transcription/pages/068.md",
+        "transcription/pages/069.md"
+      ],
+      "scene_path": "scenes/scene-055.md",
+      "span_sha256": "f75e1b438bf760c6278ba357b99c425c1a689f72896179e24a4811661b29080e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "43",
+      "ordinal": 56,
+      "source_heading": "காட்சி -- 43",
+      "source_heading_markdown": "## காட்சி -- 43",
+      "location": "ஜமீன் மாளிகை",
+      "pdf_start": 70,
+      "printed_start": 69,
+      "pdf_end": 70,
+      "printed_end": 69,
+      "pdf_pages": [
+        70
+      ],
+      "canonical_paths": [
+        "transcription/pages/070.md"
+      ],
+      "scene_path": "scenes/scene-056.md",
+      "span_sha256": "05cfda6d15ad63480e29ce6824f1b1920206a0bfdc508e048c0c94f50462605f",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "44",
+      "ordinal": 57,
+      "source_heading": "காட்சி -- 44",
+      "source_heading_markdown": "## காட்சி -- 44",
+      "location": "குடிசை வீடு",
+      "pdf_start": 71,
+      "printed_start": 70,
+      "pdf_end": 71,
+      "printed_end": 70,
+      "pdf_pages": [
+        71
+      ],
+      "canonical_paths": [
+        "transcription/pages/071.md"
+      ],
+      "scene_path": "scenes/scene-057.md",
+      "span_sha256": "6f69aaa452bae2da532868e65aca5e32a1c2b23212f28abe2eb169c1514ddff7",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "45-46",
+      "ordinal": 58,
+      "source_heading": "காட்சி -- 45-46",
+      "source_heading_markdown": "## காட்சி -- 45-46",
+      "location": "வெளிப்புறம் / குடிசைப் பகுதியை ஒட்டிய தெரு",
+      "pdf_start": 71,
+      "printed_start": 70,
+      "pdf_end": 72,
+      "printed_end": 71,
+      "pdf_pages": [
+        71,
+        72
+      ],
+      "canonical_paths": [
+        "transcription/pages/071.md",
+        "transcription/pages/072.md"
+      ],
+      "scene_path": "scenes/scene-058.md",
+      "span_sha256": "a2c14b17b684d57f449697d160d2e0c119c2255928a9f849f3a5530fc6d4839e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "47",
+      "ordinal": 59,
+      "source_heading": "காட்சி -- 47",
+      "source_heading_markdown": "## காட்சி -- 47",
+      "location": "சுற்றடைப்புள்ள ஒரு மைதானம்",
+      "pdf_start": 72,
+      "printed_start": 71,
+      "pdf_end": 72,
+      "printed_end": 71,
+      "pdf_pages": [
+        72
+      ],
+      "canonical_paths": [
+        "transcription/pages/072.md"
+      ],
+      "scene_path": "scenes/scene-059.md",
+      "span_sha256": "90b7bc1f3fd52e8867fa9e2b3637f075660022b06209e40b5548fc64aa8a9057",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "48",
+      "ordinal": 60,
+      "source_heading": "காட்சி -- 48",
+      "source_heading_markdown": "## காட்சி -- 48",
+      "location": "குடிசைப் பகுதி",
+      "pdf_start": 72,
+      "printed_start": 71,
+      "pdf_end": 74,
+      "printed_end": 73,
+      "pdf_pages": [
+        72,
+        73,
+        74
+      ],
+      "canonical_paths": [
+        "transcription/pages/072.md",
+        "transcription/pages/073.md",
+        "transcription/pages/074.md"
+      ],
+      "scene_path": "scenes/scene-060.md",
+      "span_sha256": "bc6796dbbdb63e7778e326def4d542f39a4446f4fc16428fe9158a0212c648e6",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "49",
+      "ordinal": 61,
+      "source_heading": "காட்சி -- 49",
+      "source_heading_markdown": "## காட்சி -- 49",
+      "location": "விங்கன் குடிசை வெளிப்புறம்",
+      "pdf_start": 75,
+      "printed_start": 74,
+      "pdf_end": 75,
+      "printed_end": 74,
+      "pdf_pages": [
+        75
+      ],
+      "canonical_paths": [
+        "transcription/pages/075.md"
+      ],
+      "scene_path": "scenes/scene-061.md",
+      "span_sha256": "8acb3c80b3a6d01b6318c7e9a3a8079d86f40dd681946582a7c52127ff991d2e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "50",
+      "ordinal": 62,
+      "source_heading": "காட்சி -- 50",
+      "source_heading_markdown": "## காட்சி -- 50",
+      "location": "அந்தரங்க மாளிகை",
+      "pdf_start": 76,
+      "printed_start": 75,
+      "pdf_end": 76,
+      "printed_end": 75,
+      "pdf_pages": [
+        76
+      ],
+      "canonical_paths": [
+        "transcription/pages/076.md"
+      ],
+      "scene_path": "scenes/scene-062.md",
+      "span_sha256": "5c5886bfd9b30779ac96af6b37b939b87f3111be27e21b9c1f4e36b86d941c01",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "51",
+      "ordinal": 63,
+      "source_heading": "காட்சி -- 51",
+      "source_heading_markdown": "## காட்சி -- 51",
+      "location": "கோயில் வாசல்",
+      "pdf_start": 76,
+      "printed_start": 75,
+      "pdf_end": 77,
+      "printed_end": 76,
+      "pdf_pages": [
+        76,
+        77
+      ],
+      "canonical_paths": [
+        "transcription/pages/076.md",
+        "transcription/pages/077.md"
+      ],
+      "scene_path": "scenes/scene-063.md",
+      "span_sha256": "5e7adf65786508a86b00814a8b3170f24dd6b763a70d1cc915da7bc8d7a3ca81",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "52",
+      "ordinal": 64,
+      "source_heading": "காட்சி -- 52",
+      "source_heading_markdown": "## காட்சி -- 52",
+      "location": "ஜமீன் மாளிகை-கோகிலா அறை / இரவு",
+      "pdf_start": 78,
+      "printed_start": 77,
+      "pdf_end": 81,
+      "printed_end": 80,
+      "pdf_pages": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "canonical_paths": [
+        "transcription/pages/078.md",
+        "transcription/pages/079.md",
+        "transcription/pages/080.md",
+        "transcription/pages/081.md"
+      ],
+      "scene_path": "scenes/scene-064.md",
+      "span_sha256": "c81404d2f6d471e1a141609feb8fac41771388345b6a0e983886e00a425acce1",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "53",
+      "ordinal": 65,
+      "source_heading": "காட்சி - 53",
+      "source_heading_markdown": "## காட்சி - 53",
+      "location": "ஜமீன் அந்தரங்க மாளிகை / ஆடம்பர அறை",
+      "pdf_start": 81,
+      "printed_start": 80,
+      "pdf_end": 81,
+      "printed_end": 80,
+      "pdf_pages": [
+        81
+      ],
+      "canonical_paths": [
+        "transcription/pages/081.md"
+      ],
+      "scene_path": "scenes/scene-065.md",
+      "span_sha256": "299bfc4c22d1672215e70a2b4348b41e05f16e4b5896d3ace88cbd94c40a03b4",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "53-எ",
+      "ordinal": 66,
+      "source_heading": "காட்சி - 53 எ",
+      "source_heading_markdown": "## காட்சி - 53 எ",
+      "location": null,
+      "pdf_start": 81,
+      "printed_start": 80,
+      "pdf_end": 81,
+      "printed_end": 80,
+      "pdf_pages": [
+        81
+      ],
+      "canonical_paths": [
+        "transcription/pages/081.md"
+      ],
+      "scene_path": "scenes/scene-066.md",
+      "span_sha256": "1cb7393423d71ccf33f8e7fe96c998f444bd5d09cca542e4a7344930e95a5c61",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "53-பி",
+      "ordinal": 67,
+      "source_heading": "காட்சி - 53 பி",
+      "source_heading_markdown": "## காட்சி - 53 பி",
+      "location": null,
+      "pdf_start": 81,
+      "printed_start": 80,
+      "pdf_end": 81,
+      "printed_end": 80,
+      "pdf_pages": [
+        81
+      ],
+      "canonical_paths": [
+        "transcription/pages/081.md"
+      ],
+      "scene_path": "scenes/scene-067.md",
+      "span_sha256": "e0540dddb5efe14d244aa0c97405f5205b027e25321ef3c941b78709b625ca3f",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "53-சி",
+      "ordinal": 68,
+      "source_heading": "காட்சி - 53 சி",
+      "source_heading_markdown": "## காட்சி - 53 சி",
+      "location": null,
+      "pdf_start": 81,
+      "printed_start": 80,
+      "pdf_end": 82,
+      "printed_end": 81,
+      "pdf_pages": [
+        81,
+        82
+      ],
+      "canonical_paths": [
+        "transcription/pages/081.md",
+        "transcription/pages/082.md"
+      ],
+      "scene_path": "scenes/scene-068.md",
+      "span_sha256": "56863d3043b16bb4adf6e187ca156b8bddf74f590f3ca6b367248a2f93587ccb",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "53-டி",
+      "ordinal": 69,
+      "source_heading": "காட்சி -- 53 டி",
+      "source_heading_markdown": "## காட்சி -- 53 டி",
+      "location": null,
+      "pdf_start": 83,
+      "printed_start": 82,
+      "pdf_end": 84,
+      "printed_end": 83,
+      "pdf_pages": [
+        83,
+        84
+      ],
+      "canonical_paths": [
+        "transcription/pages/083.md",
+        "transcription/pages/084.md"
+      ],
+      "scene_path": "scenes/scene-069.md",
+      "span_sha256": "60898b783aa89616a0630357e0efe0c19a99ea3215027901b545cf915f621fa9",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "54",
+      "ordinal": 70,
+      "source_heading": "காட்சி - 54",
+      "source_heading_markdown": "## காட்சி - 54",
+      "location": "ஜமீன்தாரின் அந்தரங்க மாளிகை",
+      "pdf_start": 85,
+      "printed_start": 84,
+      "pdf_end": 86,
+      "printed_end": 85,
+      "pdf_pages": [
+        85,
+        86
+      ],
+      "canonical_paths": [
+        "transcription/pages/085.md",
+        "transcription/pages/086.md"
+      ],
+      "scene_path": "scenes/scene-070.md",
+      "span_sha256": "6b8d615b213ee311289e01d90c4d157bbc0216c585050ae5ae9686c93dff164e",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "55",
+      "ordinal": 71,
+      "source_heading": "காட்சி - 55",
+      "source_heading_markdown": "## காட்சி - 55",
+      "location": "ஜமீன்தார் அந்தரங்க மாளிகை / வெளிப்புறம்",
+      "pdf_start": 86,
+      "printed_start": 85,
+      "pdf_end": 87,
+      "printed_end": 86,
+      "pdf_pages": [
+        86,
+        87
+      ],
+      "canonical_paths": [
+        "transcription/pages/086.md",
+        "transcription/pages/087.md"
+      ],
+      "scene_path": "scenes/scene-071.md",
+      "span_sha256": "a5d486a3f7a08b9d7fdf6fcbb00f8d5975dff62f625731965b7086ad3a968095",
+      "status": "verified-derivative"
+    },
+    {
+      "scene_id": "56",
+      "ordinal": 72,
+      "source_heading": "காட்சி - 56",
+      "source_heading_markdown": "## காட்சி - 56",
+      "location": "சடையன் வீடு",
+      "pdf_start": 87,
+      "printed_start": 86,
+      "pdf_end": 87,
+      "printed_end": 86,
+      "pdf_pages": [
+        87
+      ],
+      "canonical_paths": [
+        "transcription/pages/087.md"
+      ],
+      "scene_path": "scenes/scene-072.md",
+      "span_sha256": "774d12c9d0b9ebf14b51c84f1418e79e13759213991721ccbc2dfa9dd46c6e14",
+      "status": "verified-derivative"
+    }
+  ],
+  "qa": {
+    "continuity": "pass",
+    "duplicates": "none",
+    "loss": "none",
+    "scene_heading_count": 72,
+    "gaps": 0,
+    "overlaps": 0,
+    "screenplay_pdf_coverage": "82/82 — PDF 6–87",
+    "source_text_policy": "Exact canonical Tamil scene spans; no spelling, punctuation, speaker-label, stage-direction, heading, or performance-text normalization.",
+    "location_policy": "Source location captions remain in scene text; index location is derivative navigation metadata only.",
+    "span_policy": "Scene begins at its source-visible scene heading and ends immediately before the next source-visible scene heading; the final scene ends at screenplay EOF."
+  }
+}
