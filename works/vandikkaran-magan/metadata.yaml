@@ -92,13 +92,15 @@ status:
   canonical_tamil_index_path: works/vandikkaran-magan/transcription/index.json
   canonical_tamil_batch_size_source_pages: 5
   historical_glyph_first_pass_checked_pages: 10
-  historical_glyph_final_verified_pages: 75
-  historical_glyph_verified_pdf_range_completed: 4-78
-  historical_glyph_current_through_pdf: 78
+  historical_glyph_final_verified_pages: 87
+  historical_glyph_verified_pdf_range_completed: 4-90
+  historical_glyph_current_through_pdf: 90
   historical_glyph_batch_size_source_pages: 15
   historical_glyph_audit_path: works/vandikkaran-magan/notes/historical-glyph-audit.md
   visual_fidelity_audit: complete-87-of-87-through-pdf-90
-  historical_glyph_full_audit: in-progress-75-of-87-through-pdf-78
+  historical_glyph_full_audit: complete-pass-87-of-87-through-pdf-90
+  final_visual_full_audit: not-started
+  final_visual_verified_pages: 0
   scene_text_derivatives: blocked
   dialogue_index: blocked
   character_entity_index: blocked
@@ -106,4 +108,4 @@ status:
   english_translation: not-started
   reader_export: not-started
   reading_room_integration: not-started
-next_action: "Complete dedicated historical-glyph verification with the final remainder PDF 79–90 / 12 pages; inspect mandated historical Tamil glyph families occurrence by occurrence against the controlling scan; record source evidence and any glyph-identity corrections; update the dedicated glyph counters to 87/87 and close the historical-glyph phase; commit/push the remainder; then synchronize checkpoints and transition to final full visual verification."
+next_action: "Run final full visual verification across PDF 4–90 against the controlling scan. Re-read every scoped page for final source fidelity, make only direct-source-supported corrections, confirm source structures and the closed historical-glyph identities, then mark final visual verification 87/87 COMPLETE/PASS, synchronize checkpoints, and only then consider unblocking derivatives."
