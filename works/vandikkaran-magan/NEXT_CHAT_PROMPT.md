@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / visual verification PDF 79–83
+# Next Chat Prompt — வண்டிக்காரன் மகன் / visual verification PDF 84–88
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -27,8 +27,8 @@ Do not interleave phases.
 - source intake: **COMPLETE**;
 - structural mapping / scene-heading audit: **COMPLETE-VERIFIED / 71 observed headings**;
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
-- visual verification: **IN PROGRESS — PDF 4–78 / 75 of 87 COMPLETE-VERIFIED**;
-- remaining visual pages: **12**;
+- visual verification: **IN PROGRESS — PDF 4–83 / 80 of 87 COMPLETE-VERIFIED**;
+- remaining visual pages: **7**;
 - historical-glyph verification: **NOT-STARTED** under current phase order;
 - legacy prospective glyph checks on PDF 4–13 are not the dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
@@ -36,8 +36,8 @@ Do not interleave phases.
 
 ## Latest batch
 
-PDF **74–78 / printed 73–77** was visually verified directly from enlarged source pixels. PDF 74 preserves the continuation of the source-visible song/performance block. Source-controlled corrections include `சங்கிலே` on PDF 75; `போய்ப் பாத்துட்டு` on PDF 76; `தெரிஞ்சுக்கிடுவேன்`, `இல்லியே`, `விஷமத்தனம்`, `உத்தியோகத்தைச்`, and `திருப்பிக்கொண்டு` on PDF 77; and `இந்த நேரத்தில்` plus `கவனிச்சுக்கிட்டுத் தானிருந்தேன்` on PDF 78. Scene starts in the batch are `49`, `50`, `51`, and `52`. Historical-glyph-specific closure remains deferred.
+PDF **79–83 / printed 78–82** was visually verified directly from enlarged source pixels. PDF 79 restores `ஏண்டா`, `கண்ணைத் திறக்கிறது ரொம்பகஷ்டம்`, `ஆனா ஒரு நாளுக்குத் திறக்கத்தான் போகிறேன்`, `இவ்வளவுநாளா`, and `ஜம்புலிங்க`. PDF 80 restores `ஊரே வளர்ந்துச்சு`, `உங்களைப் போல`, and `உங்களைச்`. PDF 81 restores `யாருக்கென்று`, `ஓட்டைக் குடிசைப்`, source heading dash forms for `53 / 53 எ / 53 பி / 53 சி`, `கட்டளைப்படி`, and `அழகி ஒன்று`. PDF 82 preserves the source-visible song/performance and fire-sequence text. PDF 83 restores `அரிவாள் மனைக்கட்டையாலடிக்கப்போக`, `ஆனபிறகு`, and `ஏற்பட்டதில்லே`; source scene `53 டி` is preserved. Historical-glyph-specific closure remains deferred.
 
 ## Exact next activity
 
-> **Process PDF 79–83 as the next five-page visual-verification batch. Compare each existing page record word-for-word and structure-for-structure with the controlling scan; correct source discrepancies without silent modernization; keep historical-glyph-specific closure for the later dedicated phase; mark all five pages `visual-verified`; update `transcription/index.json` to 80/87 and next batch PDF 84–88; commit/push the five-page batch to `main`; then synchronize checkpoint docs.**
+> **Process PDF 84–88 as the next five-page visual-verification batch. Compare each existing page record word-for-word and structure-for-structure with the controlling scan; correct source discrepancies without silent modernization; keep historical-glyph-specific closure for the later dedicated phase; mark all five pages `visual-verified`; update `transcription/index.json` to 85/87 and next batch PDF 89–90; commit/push the five-page batch to `main`; then synchronize checkpoint docs.**
