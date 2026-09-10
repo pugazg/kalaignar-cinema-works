@@ -10,7 +10,7 @@ This audit reconciles current repository-wide status mirrors with the authoritat
 
 ## Result
 
-**PASS for the current repository-wide checkpoint.** Vandikkaran Magan English translation is now **40/72 scenes VERIFIED / QA PASS** at **740 units / 512 immutable dialogue links / 13 source-unlabelled spoken units / 4 unique verified performance occurrence links**. Translation production proceeds in **20-scene iterations**. All closed Tamil/scene/dialogue/character/song authorities remain unchanged.
+**PASS for the current repository-wide checkpoint.** Vandikkaran Magan English translation is now **60/72 scenes VERIFIED / QA PASS** at **1009 units / 668 immutable dialogue links / 21 source-unlabelled spoken units / 8 unique verified performance occurrence links**. The latest 41–60 batch passed **156/156** immutable dialogue linkage with **0** inferred speakers and **0** provenance fallbacks. All closed Tamil/scene/dialogue/character/song authorities remain unchanged.
 
 The scene-3 post-closure source form `பூங் ; என்ன அண்ணா...என்ன விசேஷம்.......` remains a distinct பூங்காவனம் dialogue unit with its semicolon preserved exactly. Scene 5 `திரு; ...` remains the other source-explicit non-colon speaker delimiter. Neither form is normalized to a colon.
 
@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **40/72 VERIFIED / 740 units / 512 dialogue links / 4 performance occurrences** | not-started |
+| Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **60/72 VERIFIED / 1009 units / 668 dialogue links / 8 performance occurrences** | not-started |
 
 ## Vandikkaran Magan current checkpoint
 
@@ -36,12 +36,11 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 - character/entity index: **32 entities / 38/38 labels / 773/773 records / COMPLETE-VERIFIED / QA PASS**;
 - song/performance layer: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
 - item-level source-attributed lyricists: **0**; unresolved item-level lyric authorships: **6**;
-- English translation: **40/72 VERIFIED / QA PASS — 740 units / 512 immutable dialogue links / 13 source-unlabelled spoken units / 4 unique performance occurrence links**;
-- latest English batch: **21–40 / PASS — 385 units / 261 immutable dialogue links / 9 source-unlabelled spoken units**;
-- English batch size: **20 scenes per iteration**;
+- English translation: **60/72 VERIFIED / QA PASS — 1009 units / 668 immutable dialogue links / 21 source-unlabelled spoken units / 8 unique performance occurrence links**;
+- latest English batch: **41–60 / PASS — 269 units / 156 immutable dialogue links / 8 source-unlabelled spoken units / 4 performance occurrence links / 0 provenance fallbacks**;
 - upstream canonical Tamil / scene / dialogue-record / character-mapping / song-record mutation from this translation batch: **0**.
 
-**Next production phase:** Translate and verify archive scene ordinals 41–60 as the next 20-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.
+**Next production phase:** Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.
 
 ## Naam current checkpoint
 
@@ -144,7 +143,7 @@ A major phase is not complete while an active current-status document still adve
 
 ## Conclusion
 
-Vandikkaran Magan is the active production work. Its source/Tamil, 72-scene, reconciled 773-dialogue, 32-entity and 9-occurrence song/performance authorities remain closed. English translation is **40/72 VERIFIED / QA PASS** at **740 units / 512 immutable dialogue links**, using **20-scene iterations**. **Next: archive scene ordinals 41–60.**
+Vandikkaran Magan is the active production work. Its source/Tamil, 72-scene, reconciled 773-dialogue, 32-entity and 9-occurrence song/performance authorities remain closed. English translation is **60/72 VERIFIED / QA PASS** at **1009 units / 668 immutable dialogue links**. **Next: the final archive scene ordinals 61–72.**
 
 <!-- Naam song gate reconciled 7/7 -->
 **Naam current structured checkpoint:** song/performance gate **7/7 COMPLETE-VERIFIED-SOURCE-ONLY — RECONCILED** after the pre-English 45-scene sweep restored scene-1 PDF 6–7 `(பாட்டு)` as append-only `naam-perf-007`; 1 item-level source attribution (`ஆயிரம் தெய்வங்கள்` → `பாரதியார்`), 6 unresolved item-level authorships. **Next:** Begin Phase 9 source-linked English translation from the complete-verified Tamil, scene, dialogue, character/entity and reconciled song/performance layers. Preserve source scene order and exact Tamil speaker labels as metadata; link labelled dialogue to immutable IDs; keep source-unlabelled speech unassigned; translate all seven retained performance records from their source-visible Tamil only, carrying `பாரதியார்` attribution only for `ஆயிரம் தெய்வங்கள்` and leaving the other six item-level authorship states unresolved. Follow `docs/SONG_TRANSLATION_GUIDE.md`, begin with a scene-1 pilot, run source-link/dialogue/performance coverage QA, and do not alter closed Tamil or structured source layers.

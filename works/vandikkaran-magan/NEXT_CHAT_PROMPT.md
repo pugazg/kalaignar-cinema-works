@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / English scenes 41–60
+# Next Chat Prompt — வண்டிக்காரன் மகன் / final English scenes 61–72
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -13,10 +13,10 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 - reconciled immutable dialogues: **773 / 38 exact labels / QA PASS** — 744 legacy IDs preserved + 29 append-only repairs;
 - characters/entities: **32 / 38/38 labels / 773/773 records / QA PASS**;
 - song/performance: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- English translation: **40/72 scenes VERIFIED / QA PASS — 740 units / 512 immutable dialogue links / 13 source-unlabelled spoken units / 4 verified performance occurrences linked**;
-- verified archive scene ordinals: **1–40**;
-- latest English batch QA: `translations/batch-021-040-qa.json` — **PASS / 20 scenes / 385 units / 261 of 261 immutable dialogue links**;
-- production batch size: **20 scenes per iteration**.
+- English translation: **60/72 scenes VERIFIED / QA PASS — 1009 units / 668 immutable dialogue links / 21 source-unlabelled spoken units / 8 verified performance occurrences linked**;
+- verified archive scene ordinals: **1–60**;
+- latest English batch QA: `translations/batch-041-060-qa.json` — **PASS / 20 scenes / 269 units / 156 of 156 immutable dialogue links / 0 inferred speakers / 0 provenance fallbacks**;
+- remaining English work: **archive scenes 61–72 / 12 scenes**.
 
 Do not reopen or rewrite closed canonical Tamil, scene derivatives, reconciled immutable dialogue records, character/entity mappings, or song/performance records without new direct contradictory source evidence.
 
@@ -26,4 +26,4 @@ Follow `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` Phase 13 and `docs/SONG_TRANSLATI
 
 ## Exact next activity
 
-> **Translate and verify archive scene ordinals 41–60 as the next 20-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.**
+> **Translate and verify the remaining archive scene ordinals 61–72 as the final 12-scene English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; preserve unresolved item-level authorship as unresolved; and do not modify closed Tamil, scene, dialogue-record, character-mapping or song-record authorities.**
