@@ -226,3 +226,32 @@ Every occurrence of the mandated historical-glyph families on PDF 64–78 was in
 - unresolved glyph holds: **0**;
 - active dedicated batch size: **15 source pages per iteration**;
 - final dedicated remainder: **PDF 79–90 / 12 pages**.
+
+### Batch 9 — PDF 79–90 — PASS / 87 of 87 — PHASE COMPLETE
+
+The final twelve scoped pages were re-read directly from the controlling source. Every occurrence of the mandated historical-glyph families was checked occurrence by occurrence. The historical forms resolve to the Unicode identities already present in the visual-verified page records. No ordinary wording, punctuation, scene structure, credit layout, or back-cover obstruction was normalized or reconstructed.
+
+| PDF | Printed | Target-family evidence re-read from source | Result |
+|---:|:---:|---|---|
+| 79 | 78 | `மனைவிக்குத்`, `மனைவியாக்கின`, `என்னை` (`னை`); repeated `கண்ணைத்`, `மண்ணைத்` (`ணை`); `சதிவேலைக்கு` (`லை`) | PASS — no glyph correction |
+| 80 | 79 | `உங்களைப்`, `உங்களைச்`, `அவளை` (`ளை`); full page re-read for remaining families | PASS — no glyph correction |
+| 81 | 80 | full page re-read; no mandated-family occurrence required a glyph-identity correction | PASS — no glyph correction |
+| 82 | 81 | `காலையில்` (`லை`); `பொன்னாடம்` (`னா`); `கண்ணாயிரம்` (`ணா`); `காளையை` (`ளை`) | PASS — no glyph correction |
+| 83 | 82 | repeated `காளிங்கராயனை / காளிங்கராயனைத்`, `அரிவாள்மனையை`, `அவனை`, `என்னைப்பத்தியும்` (`னை`) | PASS — no glyph correction |
+| 84 | 83 | `எத்தனையோ` (`னை`); full page re-read for remaining families | PASS — no glyph correction |
+| 85 | 84 | `சிலையைத்`, repeated `எரிமலை` (`லை`); `கயிறாக` (`றா`); `வளைப்பாயோ`, `பிள்ளை`, `விளையாட்டில்` (`ளை`); `அன்னையைக்` (`னை`) | PASS — no glyph correction |
+| 86 | 85 | `அணைச்சு` (`ணை`); repeated `வேலை / இல்லை` (`லை`); `கண்ணாயிரம்` (`ணா`); repeated `காளை`, `தானியங்களைப்`, `மகளைக்` (`ளை`) | PASS — no glyph correction |
+| 87 | 86 | repeated `காளையைக்` (`ளை`); `கண்ணாயிரம்` (`ணா`); repeated `மாலை` (`லை`) | PASS — no glyph correction |
+| 88 | — | `அண்ணா` (`ணா`); `கலைஞர்` (`லை`) | PASS — no glyph correction |
+| 89 | — | `அண்ணா` (`ணா`); full credit page re-read for remaining families | PASS — no glyph correction |
+| 90 | — | directly visible canonical back-cover text re-read; no mandated-family occurrence requiring a glyph-identity correction | PASS — no glyph correction |
+
+### Batch 9 / full-phase disposition
+
+- dedicated pages verified: **87 / 87 — COMPLETE / PASS**;
+- contiguous dedicated range: **PDF 4–90**;
+- source-supported glyph-identity corrections to canonical page text in this batch: **0**;
+- cumulative canonical glyph corrections in the dedicated phase: **0**;
+- unresolved glyph holds: **0**;
+- historical-glyph full audit: **COMPLETE / PASS**;
+- next phase: **final full visual verification across PDF 4–90**.
