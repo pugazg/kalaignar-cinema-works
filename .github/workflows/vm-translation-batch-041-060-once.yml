@@ -36,3 +36,4 @@ jobs:
           git diff --cached --check
           git commit -m 'Build Vandikkaran Magan English scenes 41-60 [skip ci]'
           git push origin main
+# retry after scene-54 stage-block repair
