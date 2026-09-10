@@ -10,21 +10,19 @@ Work: `works/maruthanattu-ilavarasi/`
 
 `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. Do not commit the source PDF.
 
-## Durable intake state
+## Durable state
 
-- source intake: **COMPLETE**;
-- structural mapping: **COMPLETE-VERIFIED**;
-- PDF 1 cover; PDF 2–22 body;
-- logical body pages: **PDF 2–22 ↔ printed 1–21**, visible printed numerals 2–21 on PDF 3–22;
-- exact printed credit: **`வசனம் : மு. கருணாநிதி.`**;
-- edition/year: **not observed / not observed**;
-- source headings observed: **8 — 2, 3, 4, 5, 6, 8, 9, 10**;
-- no printed scene-1 heading; PDF 2–4 is unnumbered opening structure;
-- source numbering gap: **7 not observed**;
-- historical-glyph workflow: **required**;
-- canonical Tamil: **NOT STARTED**;
-- all structured/English/reader derivatives: **BLOCKED**.
+- source intake: **COMPLETE**; mapping: **COMPLETE-VERIFIED**;
+- body: PDF **2–22** / logical printed **1–21**;
+- PDF 2–4 remains an unnumbered opening segment; no source `காட்சி 1.` is invented;
+- observed source headings: **2,3,4,5,6,8,9,10**; `காட்சி 7.` not observed;
+- canonical Tamil first pass: **IN PROGRESS — PDF 2–6 / 5 of 21 DRAFT**;
+- prospective historical-glyph check: **5/21**; final independent glyph verification: **0/21**;
+- visual-fidelity verification: **0/21**;
+- open first-pass uncertainty markers through PDF 6: **0**;
+- candidate extracted transcription may assist navigation only; source pixels control;
+- structured/English/reader derivatives remain **BLOCKED**.
 
 ## Exact next activity
 
-> **Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.**
+> **Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**

@@ -1,4 +1,4 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / canonical Tamil PDF 2–6
+# Next Chat Prompt — மருதநாட்டு இளவரசி / canonical Tamil PDF 7–11
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -8,16 +8,14 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 
 ## Durable state
 
-- intake **COMPLETE**;
-- mapping **COMPLETE-VERIFIED**;
-- body PDF **2–22**, logical printed **1–21**;
-- source headings: **2,3,4,5,6,8,9,10**;
-- PDF 2–4 is an unnumbered opening segment; do not invent source scene 1;
-- no source `காட்சி 7.` observed; do not repair numbering;
-- canonical Tamil first pass **0/21 / NOT STARTED**;
-- visual-fidelity and historical-glyph final verification **NOT STARTED**;
-- later derivatives **BLOCKED**.
+- intake/mapping: **COMPLETE / COMPLETE-VERIFIED**;
+- canonical Tamil first pass: **5/21 DRAFT — PDF 2–6**;
+- PDF 2–4 is the unnumbered opening segment; do not invent scene 1;
+- PDF 5 begins `காட்சி 2.`; PDF 6 begins `காட்சி 3.` after scene-2 continuation;
+- historical-glyph prospective coverage: **5/21**; final verification: **0/21**;
+- visual-fidelity verification: **0/21**;
+- later derivatives: **BLOCKED**.
 
 ## Next batch
 
-> **Canonical Tamil first-pass transcription for PDF 2–6 as one five-source-page batch. Visually transcribe each whole page once from the rendered source, preserve exact wording/punctuation/speaker labels/scene headings/stage directions and page boundaries, and keep pages draft. Prospectively inspect the historical-glyph families on every page; use crops/enhancement only when an actual reading is uncertain. Synchronize controls and commit immediately after the five pages. Do not start visual-fidelity verification or structured derivatives in the same batch.**
+> **Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**

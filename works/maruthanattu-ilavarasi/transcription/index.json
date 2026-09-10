@@ -1,0 +1,63 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "source_filename": "TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf",
+  "source_sha256": "8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f",
+  "transcription_scope_pdf_pages": "2-22",
+  "transcription_scope_page_count": 21,
+  "status": "first-pass-in-progress",
+  "first_pass_pages_completed": 5,
+  "first_pass_pdf_range_completed": "2-6",
+  "first_pass_current_through_pdf": 6,
+  "first_pass_current_through_logical_printed": 5,
+  "draft_pages": 5,
+  "visual_verified_pages": 0,
+  "historical_glyph_first_pass_checked_pages": 5,
+  "historical_glyph_final_verified_pages": 0,
+  "open_uncertainty_markers": 0,
+  "page_records": [
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "printed_page_kind": "logical-only",
+      "kind": "unnumbered-opening",
+      "status": "draft",
+      "path": "pages/002.md"
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "kind": "unnumbered-opening",
+      "status": "draft",
+      "path": "pages/003.md"
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "kind": "unnumbered-opening",
+      "status": "draft",
+      "path": "pages/004.md"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "kind": "screenplay",
+      "source_scene_id": "2",
+      "status": "draft",
+      "path": "pages/005.md"
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "kind": "screenplay",
+      "source_scene_ids": [
+        "2",
+        "3"
+      ],
+      "status": "draft",
+      "path": "pages/006.md"
+    }
+  ],
+  "batch_size_source_pages": 5,
+  "next_batch_pdf_pages": "7-11",
+  "next_action": "Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
+}

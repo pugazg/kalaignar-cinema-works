@@ -36,8 +36,8 @@ Library/user ownership stamps, handwriting and later marginal marks are non-sour
 - no clearly bounded song/lyric/chant block was observed during the full-scan structural pass;
 - historical Tamil typeforms are present and the historical-glyph gate is mandatory.
 
-Canonical Tamil transcription has **not started**. No structured derivative layer is authorized yet.
+Canonical Tamil first pass is **IN PROGRESS — PDF 2–6 / 5 of 21 body pages drafted**. All five pages remain draft; visual-fidelity and final historical-glyph verification have not started. No structured derivative layer is authorized yet.
 
 ## Exact next activity
 
-> **Begin canonical Tamil first-pass transcription from PDF 2 onward in five-source-page batches, starting with PDF 2–6. Preserve source order, exact speaker labels, punctuation, stage directions, the unnumbered opening structure, printed scene numbering anomalies and stable PDF/logical-printed page anchors. Inspect all historical-glyph-sensitive families from enlarged source pixels on every page; keep first-pass pages draft, record uncertainty explicitly, and do not begin scene/dialogue/character/song/English derivatives until the later separate full visual-fidelity and historical-glyph verification gates close.**
+> **Canonical Tamil first-pass transcription for PDF 7–11 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**
