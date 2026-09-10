@@ -1,8 +1,8 @@
 # வண்டிக்காரன் மகன் — character/entity index
 
-**Status:** **COMPLETE-VERIFIED / QA PASS**
+**Status:** **COMPLETE-VERIFIED / RECONCILED / QA PASS**
 
-This interpretive layer maps the closed immutable dialogue layer without rewriting any source speaker label or dialogue text.
+This interpretive layer maps the reconciled immutable dialogue authority without rewriting source speaker labels or dialogue text.
 
 ## Coverage
 
@@ -13,10 +13,10 @@ This interpretive layer maps the closed immutable dialogue layer without rewriti
 - unmapped labels / records: **0 / 0**;
 - upstream dialogue records modified: **0**.
 
-Variant and voice mappings exist only here as interpretive metadata. `லிங்கன்` is not collapsed into `விங்கன்`; `ஜம்பு` is not collapsed into `ஜம்புலிங்க பூபதி`; generic labels remain categorical rather than being treated as one continuing person.
+Variant and voice mappings exist only here as interpretive metadata. `லிங்கன்` is not collapsed into `விங்கன்`; `ஜம்பு` is not collapsed into `ஜம்புலிங்க பூபதி`; generic labels remain categorical.
 
-See `labels-preflight.json`, `labels-inventory.json`, `entities.json`, `record-dispositions.json`, and `../notes/character-index-qa.json`.
+## Downstream
 
-## Next
+Song/performance is closed at 9/9 source-visible occurrences; English translation is verified through archive scene 5.
 
-Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.
+**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.

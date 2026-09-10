@@ -433,7 +433,7 @@ index={
     'cue_preflight':'../notes/song-performance-cue-preflight.json',
     'canonical_tamil_changed':False,'scene_text_changed':False,'dialogue_records_changed':False,'character_entity_mappings_changed':False,
     'english_translation_gate':'ready-next',
-    'next_activity':'Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.'
+    'next_activity':'Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.'
 }
 (S/'index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 

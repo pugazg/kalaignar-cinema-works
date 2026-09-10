@@ -31,4 +31,6 @@ See `../notes/scene-boundary-ownership-qa.md`.
 
 ## Downstream gate
 
-Scene-text derivatives remain **COMPLETE-VERIFIED**. Downstream dialogue indexing is **744 records / COMPLETE-VERIFIED / QA PASS** and character/entity indexing is **32 entities / 38/38 labels / 744/744 dialogue records / COMPLETE-VERIFIED / QA PASS**. Song/performance authorship is **READY-NEXT**.
+Scene-text derivatives remain **COMPLETE-VERIFIED**. The reconciled dialogue authority is **773 records / 38 labels / QA PASS**; character/entity coverage is **32 entities / 38/38 labels / 773/773 records / QA PASS**; song/performance is **9/9 source-visible occurrences / QA PASS**; English translation is verified through archive scene 5.
+
+**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.

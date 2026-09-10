@@ -61,7 +61,7 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 
 ## Dialogue derivative gate
 
-- immutable dialogue records: **744 / COMPLETE-VERIFIED / QA PASS**;
+- immutable dialogue records: **773 / COMPLETE-VERIFIED-RECONCILED / QA PASS**;
 - exact source speaker labels: **38**;
 - zero-dialogue scenes: **15**;
 - cross-page dialogue records: **3**;
@@ -72,7 +72,7 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 ## Character/entity derivative gate
 
 - exact source labels mapped: **38/38**;
-- immutable dialogue records mapped: **744/744**;
+- immutable dialogue records mapped: **773/773**;
 - entities: **32 — 15 characters / 14 roles / 3 collectives**;
 - verified / review / unresolved entities: **32 / 0 / 0**;
 - unmapped labels / dialogue records: **0 / 0**;
@@ -80,4 +80,4 @@ Canonical first pass, visual verification, dedicated historical-glyph verificati
 
 ## Exact next activity
 
-**Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.**
+**Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.**

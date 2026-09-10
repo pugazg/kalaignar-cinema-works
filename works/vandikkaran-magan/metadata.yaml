@@ -106,9 +106,9 @@ status:
   final_visual_corrections: 0
   final_visual_audit_path: works/vandikkaran-magan/notes/final-visual-audit.md
   scene_text_derivatives: complete-verified-72-of-72
-  dialogue_index: complete-verified
+  dialogue_index: complete-verified-reconciled
   dialogue_index_path: works/vandikkaran-magan/dialogues/index.json
-  dialogue_records: 744
+  dialogue_records: 773
   dialogue_distinct_exact_speaker_labels: 38
   dialogue_zero_record_scenes: 15
   dialogue_cross_page_records: 3
@@ -123,7 +123,7 @@ status:
   character_entity_type_counts: character=15,role=14,collective=3
   character_exact_source_labels: 38
   character_label_coverage: 38/38
-  character_dialogue_record_coverage: 744/744
+  character_dialogue_record_coverage: 773/773
   character_unmapped_labels: 0
   character_unmapped_records: 0
   character_qa: PASS
@@ -137,7 +137,15 @@ status:
   song_performance_unresolved_item_level_authorship: 6
   song_performance_qa: PASS
   song_performance_qa_path: works/vandikkaran-magan/notes/song-performance-qa.json
-  english_translation: ready-next
+  english_translation: verified-through-scene-005
+  english_translation_index_path: works/vandikkaran-magan/translations/index.json
+  english_translation_verified_scenes: 5
+  english_translation_units: 88
+  english_translation_dialogue_units: 67
+  english_translation_stage_direction_units: 21
+  english_translation_immutable_dialogue_links: 65
+  english_translation_source_unlabelled_spoken_units: 2
+  english_translation_latest_batch_qa_path: works/vandikkaran-magan/translations/batch-002-005-qa.json
   reader_export: blocked
   reading_room_integration: blocked
-next_action: "Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes."
+next_action: "Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records."

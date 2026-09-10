@@ -12,24 +12,20 @@ Work: `works/vandikkaran-magan/`
 
 ## Durable closed state
 
-- canonical source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90 / 0 uncertainties**;
-- scene headings / derivatives: **72/72 / 72/72 COMPLETE-VERIFIED**;
-- scene boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
-- canonical/joined scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
-- immutable dialogue index: **744 records / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
-- character/entity index: **32 entities / 15 characters / 14 roles / 3 collectives / 38/38 labels / 744/744 records / QA PASS**;
-- song/performance inventory: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- bounded Tamil song/lyric bodies: **6** — scenes `10`, `20`, `24-சி`, `36`, `48`, `53-சி`;
-- cue-only non-lyric performances: **3** — scenes `7`, `32`, `42-எ`;
-- item-level source-attributed lyricists: **0**; unresolved item-level lyric authorships: **6**;
-- broad PDF 88 lyricist credit: `பாடல்கள்: கவிஞர் வாலி` — **film-level metadata only; no item-level promotion**;
-- missing lyrics/chant text reconstructed: **0**;
-- song/performance build checkpoint: `b1d197fdb2e850efbb4dff30801c2236e77924c1`;
-- English translation: **READY-NEXT**;
-- reader/export / Reading Room: **BLOCKED**.
+- canonical source: **87/87 COMPLETE-VERIFIED / 0 uncertainties**;
+- scenes: **72/72 COMPLETE-VERIFIED / boundary QA PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps**;
+- dialogue authority: **773 / 38 exact labels / COMPLETE-VERIFIED-RECONCILED / QA PASS**; legacy IDs **744/744 preserved**, append-only repairs **29**, action-only exclusions **2**;
+- character/entity: **32 entities / 38/38 labels / 773/773 dialogue records / QA PASS**;
+- song/performance: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**; 6 bounded bodies / 3 cue-only / 0 source-attributed + 6 unresolved item-level lyric authorships;
+- English scene 1 pilot: **PASS — 40 units / 31 immutable links / 1 source-unlabelled speech**;
+- English post-pilot batch scenes 2–5: **PASS — 48 units / 34 immutable links / 1 source-unlabelled speech**;
+- cumulative English: **5/72 scenes / 88 units / 65 immutable links / 2 source-unlabelled spoken units / 0 inferred speakers**;
+- reader/export and Reading Room: **BLOCKED pending English closure**.
 
-The three cue-only records preserve only what the source supplies: scene 7 mock-wedding music/mantra activity, scene 32 `கெட்டி மேளம்`, and scene `42-எ` `மந்திர ஒலி`. The six bounded bodies preserve exact source wording, lineation, cues and PDF/printed provenance. No canonical Tamil, scene text, immutable dialogue record or character/entity mapping was rewritten by song/performance construction.
+Key durable commits: dialogue reconciliation `e228798a72c6f9ee90f45b36eec5171e6ab549c0`; scene-1 English pilot `1c2c4087ca5ee93572c0b19206e747d7caecb178`; scenes 2–5 English batch `6391e9fa125b5f6aacb031a0a4b18ae28a13e2a3`.
+
+Do not reopen or rewrite closed Tamil, scene, dialogue, character or song layers without new direct contradictory source evidence. Historical 744 counts refer only to the preserved pre-reconciliation ID set.
 
 ## Exact next activity
 
-> **Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.**
+> **Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.**

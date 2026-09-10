@@ -28,16 +28,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - canonical Tamil: **87/87 COMPLETE-VERIFIED / 0 open uncertainties**;
 - scenes: **72/72 COMPLETE-VERIFIED / boundary QA PASS**;
-- immutable dialogues: **744 / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
-- character/entity index: **32 entities / 38/38 labels / 744/744 records / COMPLETE-VERIFIED / QA PASS**;
+- reconciled immutable dialogues: **773 / 38 exact labels / QA PASS** — **744/744 legacy IDs preserved + 29 append-only repairs**;
+- character/entity index: **32 entities / 38/38 labels / 773/773 records / QA PASS**;
 - song/performance gate: **9/9 COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS**;
-- bounded Tamil bodies / cue-only records: **6 / 3**;
-- item-level lyric authorship: **0 source-attributed / 6 unresolved**; PDF 88 `பாடல்கள்: கவிஞர் வாலி` remains film-level metadata only;
-- English translation: **READY-NEXT**;
-- reader/export and Reading Room: **gated downstream**.
+- English translation: **5/72 scenes VERIFIED / QA PASS — 88 units / 65 immutable dialogue links / 2 source-unlabelled spoken units**;
+- reader/export and Reading Room: **gated pending English closure**.
 
-**Next:** Begin a bounded English-translation pilot from source scene 1 using only closed canonical Tamil plus verified scene/dialogue/character/song-performance derivatives. Preserve exact Tamil source labels and provenance, link immutable dialogue IDs without rewriting them, and keep song/performance authorship unresolved wherever the source gate is unresolved. Run pilot QA before scaling to later scenes.
-
+**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.
 
 ## நாம் status
 

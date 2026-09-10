@@ -8,12 +8,10 @@ The rendered scan is the controlling source. The canonical source layer is close
 - first pass / visual / historical-glyph / final visual: **87/87 / 87/87 / 87/87 / 87/87 COMPLETE-PASS**;
 - final-pass corrections: **0**;
 - unresolved glyph holds / open uncertainty markers: **0 / 0**;
-- all page records PDF 4–90 remain `visual-verified` canonical source records.
-
-Only PDF 6–87 participates in the screenplay scene layer. Scene construction is now **72/72 COMPLETE-VERIFIED**, including canonical PDF 10 heading `காட்சி — 4 எ.` (`4-எ`), with boundary QA **PASS — 82/82 pages, 0 gaps, 0 overlaps**.
+- scene derivatives: **72/72 COMPLETE-VERIFIED / boundary QA PASS**.
 
 ## Downstream state
 
-The immutable dialogue index is now **COMPLETE-VERIFIED — 744 records / 38 exact source labels / QA PASS**. Three labelled utterances crossing page boundaries remain single dialogue records; 15 scenes legitimately contain zero labelled dialogue; no source-unlabelled block was assigned a speaker. Canonical Tamil remains closed.
+The reconciled immutable dialogue authority is **773 records / 38 exact source labels / QA PASS**, preserving all **744/744** legacy IDs and adding **29** append-only repaired IDs. Character/entity coverage is **773/773**; song/performance is **9/9** source-only QA PASS; English translation is verified through archive scene 5. Canonical Tamil remains unchanged.
 
-**Next:** Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.
+**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.

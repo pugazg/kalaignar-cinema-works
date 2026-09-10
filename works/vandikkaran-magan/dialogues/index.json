@@ -202,13 +202,13 @@
   "policy": {
     "immutable_unit": "one explicit source speaker-labelled utterance",
     "speaker_label": "exact source label; never normalized",
-    "source_delimiter": "preserved exactly; :— for 736 records and : for 8 records whose source text is —",
+    "source_delimiter": "preserved exactly; :— for 765 records and : for 8 records",
     "page_break": "provenance boundary, not utterance boundary",
     "unlabelled_text_without_active_speaker": "excluded and audited; never guessed",
     "non_colon_punctuation_or_verse_fragments": "16 reviewed candidates excluded from dialogue starts",
     "character_alias_resolution": "deferred"
   },
-  "next_action": "Reconcile the closed character/entity and song/performance layers against the corrected 773-record immutable dialogue authority, then begin the bounded English-translation pilot from source scene 1.",
+  "next_action": "Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.",
   "structural_collision_reconciliation": {
     "status": "PASS",
     "audit": "../notes/dialogue-structural-collision-audit.json",

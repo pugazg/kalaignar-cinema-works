@@ -8,7 +8,7 @@
   "record_dispositions": "record-dispositions.json",
   "entities": "entities.json",
   "qa": "../notes/character-index-qa.json",
-  "dialogue_records_source": 744,
+  "dialogue_records_source": 773,
   "distinct_source_labels": 38,
   "entity_count": 32,
   "entity_type_counts": {
@@ -39,5 +39,5 @@
     "சடையன் குரல்",
     "விங்கன் குரல்"
   ],
-  "next_activity": "Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings."
+  "next_activity": "Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records."
 }

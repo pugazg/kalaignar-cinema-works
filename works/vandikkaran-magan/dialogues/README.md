@@ -16,6 +16,8 @@ Built from the closed 72/72 source-led scene derivatives without rewriting canon
 
 See `../notes/dialogue-structural-collision-audit.json` and `../notes/dialogue-index-qa.json`.
 
-## Next
+## Downstream
 
-Reconcile character/entity and song/performance downstream controls to the corrected 773-record dialogue authority, then begin the bounded English scene-1 pilot.
+Character/entity and song/performance layers are reconciled and closed against this 773-record authority. English translation is verified through archive scene 5.
+
+**Next:** Translate and verify archive scene ordinals 6–10 as the next bounded English batch. Preserve source order and exact Tamil label/provenance metadata; link reconciled immutable dialogue IDs exactly once; keep source-unlabelled speech unassigned; link only verified song/performance occurrences; do not modify closed Tamil, scene, dialogue, character or song records.
