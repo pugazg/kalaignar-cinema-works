@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vandikkaran-magan-s054-d001",
+    "scene_id": "vandikkaran-magan-s054",
+    "scene_ordinal": 54,
+    "source_scene_id": "42",
+    "source_heading": "காட்சி — 42",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-054.md",
+    "page_provenance": [
+      {
+        "pdf_page": 68,
+        "printed_page": 67
+      }
+    ],
+    "text": "ஏய், வழிவிடு! கதவைத் திற!..."
+  },
+  {
+    "id": "vandikkaran-magan-s054-d002",
+    "scene_id": "vandikkaran-magan-s054",
+    "scene_ordinal": 54,
+    "source_scene_id": "42",
+    "source_heading": "காட்சி — 42",
+    "speaker_label": "காவலன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-054.md",
+    "page_provenance": [
+      {
+        "pdf_page": 68,
+        "printed_page": 67
+      }
+    ],
+    "text": "ஜமீன்தாரய்யா உத்திரவில்லாமல்...யாரையும் உள்ளே விட முடியாது..."
+  },
+  {
+    "id": "vandikkaran-magan-s054-d003",
+    "scene_id": "vandikkaran-magan-s054",
+    "scene_ordinal": 54,
+    "source_scene_id": "42",
+    "source_heading": "காட்சி — 42",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-054.md",
+    "page_provenance": [
+      {
+        "pdf_page": 68,
+        "printed_page": 67
+      }
+    ],
+    "text": "முட்டாளே! ஜமீன்தாரின் காமவெறிக்கு ஆளாகி உள்ளே அழுதுகொண்டிருக்கிற பெண்ணுக்கு நீ தந்தையாக இருந்தால்..அப்போது உள்ளே நுழைய உத்திரவை எதிர்பார்க்கமாட்டாய்! உடைத்தெறிவாய் இந்தக் கதவை! ம்..விடு..என்னை!"
+  },
+  {
+    "id": "vandikkaran-magan-s054-d004",
+    "scene_id": "vandikkaran-magan-s054",
+    "scene_ordinal": 54,
+    "source_scene_id": "42",
+    "source_heading": "காட்சி — 42",
+    "speaker_label": "காவலன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-054.md",
+    "page_provenance": [
+      {
+        "pdf_page": 68,
+        "printed_page": 67
+      }
+    ],
+    "text": "முடியாது! (தடுத்தல்)."
+  }
+]

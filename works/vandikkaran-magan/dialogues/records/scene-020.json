@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vandikkaran-magan-s020-d001",
+    "scene_id": "vandikkaran-magan-s020",
+    "scene_ordinal": 20,
+    "source_scene_id": "16-எ",
+    "source_heading": "காட்சி—16 எ",
+    "speaker_label": "உமா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 29,
+        "printed_page": 28
+      }
+    ],
+    "text": "கோகிலா! இன்னைக்கு \"ஹார்ஸ் ரைடிங்\" ஏரிக்கரைப் பக்கம் போயிட்டு வரலாமா?...."
+  },
+  {
+    "id": "vandikkaran-magan-s020-d002",
+    "scene_id": "vandikkaran-magan-s020",
+    "scene_ordinal": 20,
+    "source_scene_id": "16-எ",
+    "source_heading": "காட்சி—16 எ",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 29,
+        "printed_page": 28
+      }
+    ],
+    "text": "ஓ!... உன் இஷ்டப்படி!"
+  },
+  {
+    "id": "vandikkaran-magan-s020-d003",
+    "scene_id": "vandikkaran-magan-s020",
+    "scene_ordinal": 20,
+    "source_scene_id": "16-எ",
+    "source_heading": "காட்சி—16 எ",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 30,
+        "printed_page": 29
+      }
+    ],
+    "text": "என்ன? என்ன?"
+  },
+  {
+    "id": "vandikkaran-magan-s020-d004",
+    "scene_id": "vandikkaran-magan-s020",
+    "scene_ordinal": 20,
+    "source_scene_id": "16-எ",
+    "source_heading": "காட்சி—16 எ",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 30,
+        "printed_page": 29
+      }
+    ],
+    "text": "அய்யோ! உமாவைக் காப்பாத்துங்களேன்!:::"
+  }
+]

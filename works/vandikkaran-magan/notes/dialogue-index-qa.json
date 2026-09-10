@@ -1,0 +1,67 @@
+{
+  "work_id": "vandikkaran-magan",
+  "phase": "immutable-dialogue-index",
+  "status": "PASS",
+  "scene_derivatives": "72/72 complete-verified",
+  "dialogue_records": 744,
+  "distinct_exact_speaker_labels": 38,
+  "delimiter_distribution": {
+    ":": 8,
+    ":—": 736
+  },
+  "zero_dialogue_scenes": [
+    "vandikkaran-magan-s002",
+    "vandikkaran-magan-s003",
+    "vandikkaran-magan-s011",
+    "vandikkaran-magan-s017",
+    "vandikkaran-magan-s019",
+    "vandikkaran-magan-s027",
+    "vandikkaran-magan-s033",
+    "vandikkaran-magan-s042",
+    "vandikkaran-magan-s045",
+    "vandikkaran-magan-s048",
+    "vandikkaran-magan-s065",
+    "vandikkaran-magan-s066",
+    "vandikkaran-magan-s067",
+    "vandikkaran-magan-s068",
+    "vandikkaran-magan-s072"
+  ],
+  "zero_dialogue_source_scene_ids": [
+    "2",
+    "3",
+    "10",
+    "14-எ",
+    "16",
+    "22",
+    "24-சி",
+    "31",
+    "33-எ",
+    "36",
+    "53",
+    "53-எ",
+    "53-பி",
+    "53-சி",
+    "56"
+  ],
+  "multi_page_dialogue_records": 3,
+  "multi_page_record_ids": [
+    "vandikkaran-magan-s035-d006",
+    "vandikkaran-magan-s055-d004",
+    "vandikkaran-magan-s070-d005"
+  ],
+  "reviewed_anomalous_non_colon_candidates": 16,
+  "anomalous_candidates_promoted_to_dialogue": 0,
+  "unlabelled_source_blocks_assigned_a_speaker": 0,
+  "duplicate_dialogue_ids": 0,
+  "speaker_label_normalizations": 0,
+  "canonical_or_scene_files_modified_by_builder": 0,
+  "assertions": {
+    "record_count_matches_preflight": true,
+    "per_scene_counts_match_preflight": true,
+    "exact_label_inventory_matches_preflight": true,
+    "delimiter_inventory_matches_preflight": true,
+    "three_cross_page_utterances_remain_single_records": true,
+    "eight_colon_only_records_preserve_text_as_em_dash": true,
+    "zero_dialogue_scenes_preserved": true
+  }
+}

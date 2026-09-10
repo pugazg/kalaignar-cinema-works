@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vandikkaran-magan-s057-d001",
+    "scene_id": "vandikkaran-magan-s057",
+    "scene_ordinal": 57,
+    "source_scene_id": "44",
+    "source_heading": "காட்சி -- 44",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-057.md",
+    "page_provenance": [
+      {
+        "pdf_page": 71,
+        "printed_page": 70
+      }
+    ],
+    "text": "என்ன உமா!...சமைக்கிறது கஷ்டமா இருக்கா?...அதுக்காகவா கண்ணீர் விடுறே?..."
+  },
+  {
+    "id": "vandikkaran-magan-s057-d002",
+    "scene_id": "vandikkaran-magan-s057",
+    "scene_ordinal": 57,
+    "source_scene_id": "44",
+    "source_heading": "காட்சி -- 44",
+    "speaker_label": "உமா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-057.md",
+    "page_provenance": [
+      {
+        "pdf_page": 71,
+        "printed_page": 70
+      }
+    ],
+    "text": "நான் ஒண்ணும் கண்ணீர் விடலே; அடுப்புப் புகை தாங்கலே!..."
+  },
+  {
+    "id": "vandikkaran-magan-s057-d003",
+    "scene_id": "vandikkaran-magan-s057",
+    "scene_ordinal": 57,
+    "source_scene_id": "44",
+    "source_heading": "காட்சி -- 44",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-057.md",
+    "page_provenance": [
+      {
+        "pdf_page": 71,
+        "printed_page": 70
+      }
+    ],
+    "text": "இங்கே அடுப்பு புகையிறதினாலே உன் கண்ணிலே கண்ணீர் கொட்டுது!...எத்தனை ஏழைங்க வீட்டுல அடுப்பு புகைய வழியில்லையேன்னு தாய்மார்கள் கண்ணீர் சிந்துறாங்க தெரியுமா?...சரி!...சரி!....நீ சாப்பிடு...கொஞ்சம் கண்ணிப்பாறு!...நான் சமையல் வேலையைக் கவனிக்கிறேன்!..."
+  },
+  {
+    "id": "vandikkaran-magan-s057-d004",
+    "scene_id": "vandikkaran-magan-s057",
+    "scene_ordinal": 57,
+    "source_scene_id": "44",
+    "source_heading": "காட்சி -- 44",
+    "speaker_label": "உமா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-057.md",
+    "page_provenance": [
+      {
+        "pdf_page": 71,
+        "printed_page": 70
+      }
+    ],
+    "text": "ஊஹூம்...வேண்டாம்...வேண்டாம்...எல்லாப் புகப் பழக சரியாப் போயிடும்...நீங்க இருங்க!..நானே பாத்துக்கிறேன்!..."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "vandikkaran-magan-s059-d001",
+    "scene_id": "vandikkaran-magan-s059",
+    "scene_ordinal": 59,
+    "source_scene_id": "47",
+    "source_heading": "காட்சி -- 47",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-059.md",
+    "page_provenance": [
+      {
+        "pdf_page": 72,
+        "printed_page": 71
+      }
+    ],
+    "text": "பலே! அப்படித்தான்!....கண்ணாயிரம்!..பழகி விட்டது காளை!...இனி அடுத்தது பழக வாங்கும் பாடம்!...."
+  },
+  {
+    "id": "vandikkaran-magan-s059-d002",
+    "scene_id": "vandikkaran-magan-s059",
+    "scene_ordinal": 59,
+    "source_scene_id": "47",
+    "source_heading": "காட்சி -- 47",
+    "speaker_label": "சிறுமி",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-059.md",
+    "page_provenance": [
+      {
+        "pdf_page": 72,
+        "printed_page": 71
+      }
+    ],
+    "text": "அண்ணே! அண்ணே!...உமா அக்காளுக்கு குழந்தை பொறந்திருக்கு!...குழந்தை..."
+  }
+]

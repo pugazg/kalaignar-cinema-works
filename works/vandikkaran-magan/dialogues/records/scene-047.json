@@ -1,0 +1,53 @@
+[
+  {
+    "id": "vandikkaran-magan-s047-d001",
+    "scene_id": "vandikkaran-magan-s047",
+    "scene_ordinal": 47,
+    "source_scene_id": "35",
+    "source_heading": "காட்சி-35",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-047.md",
+    "page_provenance": [
+      {
+        "pdf_page": 60,
+        "printed_page": 59
+      }
+    ],
+    "text": "கனவன் கட்டளையாம்மா?..களஞ்சியத்து சாவியை எடுத்துக் கொடுத்துட்டே!.."
+  },
+  {
+    "id": "vandikkaran-magan-s047-d002",
+    "scene_id": "vandikkaran-magan-s047",
+    "scene_ordinal": 47,
+    "source_scene_id": "35",
+    "source_heading": "காட்சி-35",
+    "speaker_label": "உமா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-047.md",
+    "page_provenance": [
+      {
+        "pdf_page": 60,
+        "printed_page": 59
+      }
+    ],
+    "text": "அது என்னப்பா தவறு?..."
+  },
+  {
+    "id": "vandikkaran-magan-s047-d003",
+    "scene_id": "vandikkaran-magan-s047",
+    "scene_ordinal": 47,
+    "source_scene_id": "35",
+    "source_heading": "காட்சி-35",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-047.md",
+    "page_provenance": [
+      {
+        "pdf_page": 60,
+        "printed_page": 59
+      }
+    ],
+    "text": "தவறு ஒண்ணுமில்லம்மா!..தவறு ஒண்ணுமில்ல!.. ஹா! ஹா! ஹா! ஹா!...."
+  }
+]

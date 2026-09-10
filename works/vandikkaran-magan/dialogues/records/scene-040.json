@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vandikkaran-magan-s040-d001",
+    "scene_id": "vandikkaran-magan-s040",
+    "scene_ordinal": 40,
+    "source_scene_id": "29-எ",
+    "source_heading": "காட்சி 29-எ",
+    "speaker_label": "மரகதம்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-040.md",
+    "page_provenance": [
+      {
+        "pdf_page": 55,
+        "printed_page": 54
+      }
+    ],
+    "text": "கோகிலா!..உன்னை மணக்கோலத்தில் பார்க்கணும்னு மனசுல கோட்டை கட்டி வச்சிருந்தேன்..."
+  },
+  {
+    "id": "vandikkaran-magan-s040-d002",
+    "scene_id": "vandikkaran-magan-s040",
+    "scene_ordinal": 40,
+    "source_scene_id": "29-எ",
+    "source_heading": "காட்சி 29-எ",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-040.md",
+    "page_provenance": [
+      {
+        "pdf_page": 55,
+        "printed_page": 54
+      }
+    ],
+    "text": "மணக்கோலத்திலே மகளைப் பார்க்காவிட்டாலும்...? உங்க மாணவி...என் ஆருயிர்த் தோழி உமாவைப் பார்க்கத் தானேம்மா போறீங்க!..."
+  },
+  {
+    "id": "vandikkaran-magan-s040-d003",
+    "scene_id": "vandikkaran-magan-s040",
+    "scene_ordinal": 40,
+    "source_scene_id": "29-எ",
+    "source_heading": "காட்சி 29-எ",
+    "speaker_label": "மரகதம்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-040.md",
+    "page_provenance": [
+      {
+        "pdf_page": 55,
+        "printed_page": 54
+      }
+    ],
+    "text": "கோகிலா!"
+  },
+  {
+    "id": "vandikkaran-magan-s040-d004",
+    "scene_id": "vandikkaran-magan-s040",
+    "scene_ordinal": 40,
+    "source_scene_id": "29-எ",
+    "source_heading": "காட்சி 29-எ",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-040.md",
+    "page_provenance": [
+      {
+        "pdf_page": 55,
+        "printed_page": 54
+      }
+    ],
+    "text": "அம்மா!!"
+  }
+]

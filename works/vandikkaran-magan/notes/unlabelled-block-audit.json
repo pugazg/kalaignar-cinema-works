@@ -1,0 +1,2949 @@
+{
+  "work_id": "vandikkaran-magan",
+  "status": "complete-reviewed",
+  "authority": "closed canonical screenplay / dialogue preflight",
+  "policy": "No source text without an explicit speaker label is promoted to immutable dialogue.",
+  "preflight_unlabelled_blocks": 148,
+  "generated_unlabelled_blocks": 91,
+  "reviewed_anomalous_non_colon_candidates": 16,
+  "anomalous_disposition": "all 16 excluded as non-speaker punctuation/verse fragments",
+  "preflight_blocks": [
+    {
+      "scene_id": "3",
+      "scene_ordinal": 3,
+      "pdf_page": 9,
+      "printed_page": 8,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் தேவாலயம் வாயில்.**"
+      ]
+    },
+    {
+      "scene_id": "4",
+      "scene_ordinal": 4,
+      "pdf_page": 9,
+      "printed_page": 8,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் தேவாலயம் உட்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "4",
+      "scene_ordinal": 4,
+      "pdf_page": 9,
+      "printed_page": 8,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "சடையா!... நான் பூஜையிலே உட்கார்ந்தா எப்ப எழுந்திருப்பேனு தெரியாது..நீ போய் மற்ற வேலைகளைப் பாத்துட்டு மெதுவா வா!...போ!..."
+      ]
+    },
+    {
+      "scene_id": "4",
+      "scene_ordinal": 4,
+      "pdf_page": 9,
+      "printed_page": 8,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பின்னர், அம்மன் சிலையை திருக்குகிறார்."
+      ]
+    },
+    {
+      "scene_id": "4-எ",
+      "scene_ordinal": 5,
+      "pdf_page": 10,
+      "printed_page": 9,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**தேவாலய அந்தரங்க அறை.**"
+      ]
+    },
+    {
+      "scene_id": "5",
+      "scene_ordinal": 6,
+      "pdf_page": 12,
+      "printed_page": 11,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ரயில் முதல்வகுப்புப் பெட்டி**"
+      ]
+    },
+    {
+      "scene_id": "6",
+      "scene_ordinal": 7,
+      "pdf_page": 13,
+      "printed_page": 12,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**சடையன் வீடு**"
+      ]
+    },
+    {
+      "scene_id": "7",
+      "scene_ordinal": 8,
+      "pdf_page": 13,
+      "printed_page": 12,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**குதிரை லாயம்**"
+      ]
+    },
+    {
+      "scene_id": "7",
+      "scene_ordinal": 8,
+      "pdf_page": 14,
+      "printed_page": 13,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "டும் டும்! பீப்பி பீப்பி!..."
+      ]
+    },
+    {
+      "scene_id": "7",
+      "scene_ordinal": 8,
+      "pdf_page": 15,
+      "printed_page": 14,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "எஜமான்!... குடிச்சிருக்கீங்களா?.. குடி, குடியைக் கெடுக்கும்ணு ஊருக்குச் சொல்வீங்களே!.. அந்த வெறியிலே தான்... இப்படி நடந்துகிட்டீங்களா?.."
+      ]
+    },
+    {
+      "scene_id": "7",
+      "scene_ordinal": 8,
+      "pdf_page": 15,
+      "printed_page": 14,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "“இவளுக்கு என் உண்மை உருவம் தெரிந்துவிட்டது!.. இனி இந்த ஊருக்கே தெரிந்துவிடும்! இனியும் இவள் உயிரோடிருந்தால்?... கூடாது! கூடாது! கூடவேகூடாது!”"
+      ]
+    },
+    {
+      "scene_id": "8",
+      "scene_ordinal": 9,
+      "pdf_page": 16,
+      "printed_page": 15,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ரயில் முதல்வகுப்புப் பெட்டி**"
+      ]
+    },
+    {
+      "scene_id": "8",
+      "scene_ordinal": 9,
+      "pdf_page": 16,
+      "printed_page": 15,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**(ஆண்டுகள் உருள்கின்றன)**"
+      ]
+    },
+    {
+      "scene_id": "9",
+      "scene_ordinal": 10,
+      "pdf_page": 17,
+      "printed_page": 16,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் அந்தரங்க மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "10",
+      "scene_ordinal": 11,
+      "pdf_page": 18,
+      "printed_page": 17,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஒருநாடகம் நடக்குது நாட்டிலே! — அதை",
+        "நான் சொல்ல வந்தேன் பாட்டிலே! — சிலர்",
+        "ஆடுற மேடையும், போடுற வேஷமும்",
+        "ஊரார் கண்ணுக்குத் தெரியல்லே! — அட;",
+        "உண்மை எவனுக்கும் புரியல்லே! — ஒருநாடகம்"
+      ]
+    },
+    {
+      "scene_id": "10",
+      "scene_ordinal": 11,
+      "pdf_page": 18,
+      "printed_page": 17,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பாய்ந்து வருகுது அதிகாரம்! — அதன்",
+        "பக்கத்தில் ஆயிரம் பரிவாரம்! — இது",
+        "போகுற போக்கு",
+        "சரியில்லை என்று",
+        "ஊருக்குக் காட்டுவேன்",
+        "அடையாளம்! — ஒருநாடகம்"
+      ]
+    },
+    {
+      "scene_id": "10",
+      "scene_ordinal": 11,
+      "pdf_page": 18,
+      "printed_page": 17,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "உத்தமர் போலொரு",
+        "உபதேசம்! — அந்த",
+        "புத்தரைப் போலொரு",
+        "வெளிவேஷம்! — இந்தப்",
+        "போலிகள் போடும்",
+        "போர்வையை எடுத்தால்"
+      ]
+    },
+    {
+      "scene_id": "10",
+      "scene_ordinal": 11,
+      "pdf_page": 18,
+      "printed_page": 17,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "சிறைவாசம்! — ஒருநாடகம்"
+      ]
+    },
+    {
+      "scene_id": "10",
+      "scene_ordinal": 11,
+      "pdf_page": 18,
+      "printed_page": 17,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஏழைகள் குளிப்பது",
+        "கண்ணீரில்! — இந்த",
+        "எத்தர்கள் மிதப்பது",
+        "பன்னீரில்! — இந்தக்",
+        "கோழைகள் வீரம்",
+        "எத்தனை காலம்",
+        "கொடிகட்டிப் பறக்கும்",
+        "தர்பாரில்? — ஒருநாடகம்"
+      ]
+    },
+    {
+      "scene_id": "13",
+      "scene_ordinal": 15,
+      "pdf_page": 24,
+      "printed_page": 23,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**குதிரை லாயம்**"
+      ]
+    },
+    {
+      "scene_id": "14",
+      "scene_ordinal": 16,
+      "pdf_page": 25,
+      "printed_page": 24,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**காளிங்கராயன் அறை**"
+      ]
+    },
+    {
+      "scene_id": "14-எ",
+      "scene_ordinal": 17,
+      "pdf_page": 27,
+      "printed_page": 26,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "14-எ",
+      "scene_ordinal": 17,
+      "pdf_page": 27,
+      "printed_page": 26,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**காளிங்கன் அறைக்கு வெளியே**"
+      ]
+    },
+    {
+      "scene_id": "15",
+      "scene_ordinal": 18,
+      "pdf_page": 28,
+      "printed_page": 27,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகையில் ஒரு பகுதி**"
+      ]
+    },
+    {
+      "scene_id": "16",
+      "scene_ordinal": 19,
+      "pdf_page": 29,
+      "printed_page": 28,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**குதிரை லாயம்**"
+      ]
+    },
+    {
+      "scene_id": "16-எ",
+      "scene_ordinal": 20,
+      "pdf_page": 29,
+      "printed_page": 28,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன்வீடு வெளிப்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "16-எ",
+      "scene_ordinal": 20,
+      "pdf_page": 30,
+      "printed_page": 29,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "அதற்குள் விங்கன் ஓடிவந்து"
+      ]
+    },
+    {
+      "scene_id": "18",
+      "scene_ordinal": 22,
+      "pdf_page": 31,
+      "printed_page": 30,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன்மாளிகை வெளிப்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "19",
+      "scene_ordinal": 23,
+      "pdf_page": 33,
+      "printed_page": 32,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை",
+        "விங்கன் அறை**"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 35,
+      "printed_page": 34,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**நீச்சல் குளத்தோட்டம்**"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 35,
+      "printed_page": 34,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "அவர் நம்ப ஜமீன் அந்தஸ்துக்கு சமமான அந்தஸ்து உள்ளவரா இருப்பாரா?...இல்லே...சாதாரணமான குடும்பத்தைச் சேர்ந்தவரா இருப்பாரா?... விங்கனை நான் விரும்புறேன்!...ஆனா...அதே நேரம் அவர் ஒரு சாதாரணக் குடும்பத்தைச் சேர்ந்தவர்னு தெரிஞ்சு போச்சுன்னு... அடுத்த நிமிஷமே...என் நெஞ்சிலே இருந்து அவரைத் தூக்கி எறிஞ்சிடுவேன்!..."
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 35,
+      "printed_page": 34,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஆ! தலை! தலை!..."
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 35,
+      "printed_page": 34,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பிள்ளையாரப்பா! இந்தத் தடவை பூ விழ நீ தான் அருள் புரியணும்!"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஜார்ஜ் மன்னர் தலையாக இருக்கிறது. அந்தத் தலை விங்கன் தலையாக மாறுகிறது...நினைவு அலைகள்.."
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மேடையில் ஆடிடும்",
+        "மெல்லிய பூங்காற்றே! — நீ",
+        "ஆடையில் ஆடினால்",
+        "மன்மதன் விளையாட்டே!",
+        "மேனகை போலொரு",
+        "பூங்கையை புதுப்பாட்டே! — உன்",
+        "மேனியின் சாயலோ",
+        "ஆனந்த நீரூற்றே!"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "உள்ளூரக் கள்ளூறத்",
+        "தள்ளாடுமோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "குடிக்கக் குடிக்க மனம்",
+        "மிதக்க மிதக்க தினம்",
+        "வண்டாட்டம் கொண்டாட்டம்",
+        "உண்டாகுமோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஓடை மீது",
+        "ஓடும் நீர் வேண்டும்!",
+        "உறவில் நாடும்",
+        "ஒருவன் நீ வேண்டும்! — மேடையில்"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஓடிய ஓடிய இடை",
+        "நெளிய நெளிய நடை,",
+        "உல்லாசப் பல்லாக்கின்",
+        "ஊர்கோலமோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "நெருங்க நெருங்க மெல்ல",
+        "ஒதுங்க ஒதுங்க எண்ணும்",
+        "ஊடல்கள் யுவராணி",
+        "ஒப்பாரமோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 36,
+      "printed_page": 35,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மாலை இடலாமோ?",
+        "மஞ்சம் வரலாமோ?",
+        "சேலை தொடலாமோ?",
+        "கைகள் படலாமோ? — மேடையில்"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 37,
+      "printed_page": 36,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "நழுவ நழுவ எண்ணத்",
+        "தழுவத் தழுவ வரும்",
+        "வித்தைகள் கண்ணே! உன்",
+        "வெள்ளோட்டமோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 37,
+      "printed_page": 36,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மயக்கி மயக்கிப் பின்பு",
+        "மறைத்து மறைத்து வைத்தல்—",
+        "அன்பே! உன் செல்வாக்கின்",
+        "அடையாளமோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 37,
+      "printed_page": 36,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "காதல் விளையாடக்",
+        "காவல் இடையாதோ?"
+      ]
+    },
+    {
+      "scene_id": "20",
+      "scene_ordinal": 24,
+      "pdf_page": 37,
+      "printed_page": 36,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "காவல் தடைபோட்டால்",
+        "ஆவல் மீறுதோ? — மேடையில்"
+      ]
+    },
+    {
+      "scene_id": "21",
+      "scene_ordinal": 26,
+      "pdf_page": 39,
+      "printed_page": 38,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**",
+        "**ஜமீன்தார் அலுவலக அறை**"
+      ]
+    },
+    {
+      "scene_id": "22-எ",
+      "scene_ordinal": 28,
+      "pdf_page": 41,
+      "printed_page": 40,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "“டேவிட் துரை எஸ்டேட் பங்களாவுக்குப் போகும் வழி!” — என்று போர்டில் விளக்கின் உதவியால் எழுத்துக்களைப் படிக்கிறாள்."
+      ]
+    },
+    {
+      "scene_id": "22-எ",
+      "scene_ordinal": 28,
+      "pdf_page": 41,
+      "printed_page": 40,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "நம்ம ஜமீன் எஸ்டேட்டுக்குப் போற வழியை இருபது மைலுக்கு அப்பாலேயே தவற விட்டாச்சு!..."
+      ]
+    },
+    {
+      "scene_id": "23",
+      "scene_ordinal": 29,
+      "pdf_page": 42,
+      "printed_page": 41,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**டேவிட் பங்களா வெளிப்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "23",
+      "scene_ordinal": 29,
+      "pdf_page": 42,
+      "printed_page": 41,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஜம்பு! ஜம்பு!..."
+      ]
+    },
+    {
+      "scene_id": "24",
+      "scene_ordinal": 30,
+      "pdf_page": 42,
+      "printed_page": 41,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**டேவிட் மலைப்பங்களா உட்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "24-பி",
+      "scene_ordinal": 32,
+      "pdf_page": 44,
+      "printed_page": 43,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**டேவிட் மலைப்பங்களா உட்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "24-பி",
+      "scene_ordinal": 32,
+      "pdf_page": 45,
+      "printed_page": 44,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஆஹா! ஆஹா!"
+      ]
+    },
+    {
+      "scene_id": "24-பி",
+      "scene_ordinal": 32,
+      "pdf_page": 45,
+      "printed_page": 44,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "அதிலும் இந்த இடம் இருக்கே....ஆகா! ஆகா! என்ன சுவை! என்ன சுவை! தேன் கலந்து, பால் கலந்து, செங்கரும்புச் சாறு கலந்து, என் ஊன் கலந்து, உயிர் கலந்து உவட்டாமல் இனிக்கின்ற சுவை!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "கார்த்திகை மாதம் கார்காலம்!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "வேர்த்திட நின்றுள் பருவச்சீலை! அதை",
+        "வேடிக்கைப் பார்த்தது பள்ளியறை!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "உறக்கமில்லை! சுகம்",
+        "எடுக்கவும் கொடுக்கவும்",
+        "ஒருத்தனில்லை!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மடல் கொண்ட வாழை",
+        "உடல் கொண்ட பாவை!",
+        "இடைகொள்ளவில்லை",
+        "அவள் கொண்ட சேலை!",
+        "அவள் வந்த பின்பு",
+        "அதற்கென்ன வேலை?"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "தந்தான்! — செவ்",
+        "வாய் மீது ஓயாமல் முத்தாடினான்!",
+        "வண்ணம் கொஞ்சும்",
+        "அன்னம்! தன்",
+        "பூமணி போதைகள் கொண்டாடினாள்!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "படுத்தாள்! புரண்டாள்! உறக்கமில்லை!",
+        "சுகம் எடுக்கவும் கொடுக்கவும் தடுக்கவில்லை!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "நீர் கொண்ட மேகம்",
+        "நிலம் வந்து சேர",
+        "அவள் கொண்ட பூமி",
+        "குளிர் கொண்டு ஆற",
+        "கோடி கொண்ட பூவில்",
+        "மதுவெல்லாம் ஊற —",
+        "முன்னும் பின்னும்"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 46,
+      "printed_page": 45,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பாலேறு ஆனந்த",
+        "நீராடினாள்!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 47,
+      "printed_page": 46,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "தாபங்கள் தாளாமல்"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 47,
+      "printed_page": 46,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஸ்வரம் கொண்ட வீணை",
+        "அவன் கொண்டு மீட்ட;",
+        "உளம் எங்கும் நல்ல",
+        "உயிர் நாதம் கேட்க;",
+        "உறவென்ற ராகம்;",
+        "அரங்கேற்றம் ஆக—"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 47,
+      "printed_page": 46,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "இன்பம் என்னும்"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 47,
+      "printed_page": 46,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பாட்டாகப் பூங்கோதை",
+        "தாலாட்டினாள்!"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 47,
+      "printed_page": 46,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "இன்னும் இன்னும்"
+      ]
+    },
+    {
+      "scene_id": "24-சி",
+      "scene_ordinal": 33,
+      "pdf_page": 47,
+      "printed_page": 46,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "காதாரத் தான் கேட்கப்"
+      ]
+    },
+    {
+      "scene_id": "25",
+      "scene_ordinal": 35,
+      "pdf_page": 48,
+      "printed_page": 47,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**சடையன் வீடு**"
+      ]
+    },
+    {
+      "scene_id": "26",
+      "scene_ordinal": 36,
+      "pdf_page": 50,
+      "printed_page": 49,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**கோகிலா அறை**"
+      ]
+    },
+    {
+      "scene_id": "26",
+      "scene_ordinal": 36,
+      "pdf_page": 50,
+      "printed_page": 49,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "இப்பவேபோய்..உமாகிட்ட இந்தச் சேதியைச் சொல்லி.."
+      ]
+    },
+    {
+      "scene_id": "27",
+      "scene_ordinal": 37,
+      "pdf_page": 51,
+      "printed_page": 50,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**உமா அறை**"
+      ]
+    },
+    {
+      "scene_id": "28",
+      "scene_ordinal": 38,
+      "pdf_page": 52,
+      "printed_page": 51,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**தோட்டத்துக்குளம்**"
+      ]
+    },
+    {
+      "scene_id": "28",
+      "scene_ordinal": 38,
+      "pdf_page": 52,
+      "printed_page": 51,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**(இடை வேளை)**"
+      ]
+    },
+    {
+      "scene_id": "29",
+      "scene_ordinal": 39,
+      "pdf_page": 53,
+      "printed_page": 52,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "29",
+      "scene_ordinal": 39,
+      "pdf_page": 53,
+      "printed_page": 52,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "கேட்டியா கோகிலா...உமாவைப் பெண் கேட்க யாரோ கலெக்டர் வீட்டாம் கலெக்டர்!..கண்டிப்பா சொல்லி துரத்திட்டேன்..மாட மாளிகை, கூட கோபுரம் உள்ள ஒரு ஜமீன் குடும்பத்திலேதான் அவளுக்கு மாப்பிள்ளை வரமுடியுமென்று! என்ன சரிதானே?..."
+      ]
+    },
+    {
+      "scene_id": "29-எ",
+      "scene_ordinal": 40,
+      "pdf_page": 55,
+      "printed_page": 54,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**கோகிலா அறை**"
+      ]
+    },
+    {
+      "scene_id": "30",
+      "scene_ordinal": 41,
+      "pdf_page": 55,
+      "printed_page": 54,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**அந்தரங்க மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "32",
+      "scene_ordinal": 43,
+      "pdf_page": 56,
+      "printed_page": 55,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "32",
+      "scene_ordinal": 43,
+      "pdf_page": 56,
+      "printed_page": 55,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**திருமண விழா**"
+      ]
+    },
+    {
+      "scene_id": "32",
+      "scene_ordinal": 43,
+      "pdf_page": 56,
+      "printed_page": 55,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஜமீன்தார் ஜம்புலிங்க பூபதி அவர்கள், தன் அருமை மகள் உமாவை எனக்கு வாழ்க்கைத் துணைவியாக்க சம்மதித்ததற்காக முதலில் என் நன்றியைத் தெரிவித்துக்கொள்கிறேன்!...ஆனால் ஒன்று நான் இப்போது ஒரு திடுக்கிடும் ரகசியத்தை வெளியிடப் போகிறேன்!..அதற்குப் பிறகும் ஜமீன்தார் என்னை மருமகனாக ஏற்றுக்கொள்ளத் தயாராக இருக்கிறாரா?...இந்தக் கேள்விக்கு எனக்குப் பதில் வேண்டும்!"
+      ]
+    },
+    {
+      "scene_id": "33",
+      "scene_ordinal": 44,
+      "pdf_page": 58,
+      "printed_page": 57,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "33",
+      "scene_ordinal": 44,
+      "pdf_page": 58,
+      "printed_page": 57,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**முதல் இரவு அறை**"
+      ]
+    },
+    {
+      "scene_id": "34",
+      "scene_ordinal": 46,
+      "pdf_page": 59,
+      "printed_page": 58,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஊர் பொதுமண்டபம்**"
+      ]
+    },
+    {
+      "scene_id": "35",
+      "scene_ordinal": 47,
+      "pdf_page": 60,
+      "printed_page": 59,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 60,
+      "printed_page": 59,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "உழைக்கும் இனமே!",
+        "உடன்பிறப்பே!",
+        "என்னோடு வாருங்களே! — பகலின்",
+        "உருவில் ஊரில்",
+        "உலவும் புலியைக்"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 60,
+      "printed_page": 59,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மனிதரில் சிலபேர்",
+        "புனிதரைப் போலே",
+        "இருப்பார் புவிமேலே!",
+        "மான்களின் கண்ணே",
+        "மயங்கிட வைக்கும்",
+        "கானல் நீர்போலே! — உழைக்கும் இனமே"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 60,
+      "printed_page": 59,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஏட்டைப் புரட்டி",
+        "சுயநலக்காரனைக்",
+        "கேட்பேன் நாடொரு கேள்வி! — அவன்",
+        "பூட்டைத் திறந்து",
+        "காட்டுவதற்கு",
+        "என்னிடம் உள்ளது சாவி!"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 60,
+      "printed_page": 59,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "எப்படிவன் தன்னை"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 60,
+      "printed_page": 59,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஆடு!—நல்ல",
+        "ஆறறிவுள்ள",
+        "மனிதரும் அது போல்",
+        "இருந்தால் சிரிக்கும் நாடு! — உழைக்கும் இனமே"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 61,
+      "printed_page": 60,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மின்மினிப் பூச்சி",
+        "வெளிச்சத்தினிலே",
+        "இருட்டில் பாதை தெரியாது!—அட;",
+        "மின்னுவதாலே",
+        "உப்புக்கல் தான்",
+        "வைரம் போலே ஆகாது!"
+      ]
+    },
+    {
+      "scene_id": "36",
+      "scene_ordinal": 48,
+      "pdf_page": 61,
+      "printed_page": 60,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "சிங்கக் கூட்டம்",
+        "தூங்கி யிருந்தால்",
+        "சிறு நரி ஆட்டும் வாலே!—அதன்",
+        "தூக்கம் கலைந்தால்",
+        "நடப்பது என்ன?",
+        "சரித்திரம் சொல்லும் நாளே! — உழைக்கும் இனமே"
+      ]
+    },
+    {
+      "scene_id": "37",
+      "scene_ordinal": 49,
+      "pdf_page": 61,
+      "printed_page": 60,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**பதுக்கல் கிடங்கு**"
+      ]
+    },
+    {
+      "scene_id": "38",
+      "scene_ordinal": 50,
+      "pdf_page": 62,
+      "printed_page": 61,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "38",
+      "scene_ordinal": 50,
+      "pdf_page": 62,
+      "printed_page": 61,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "போற்றி! போற்றி!...",
+        "புனிதனே போற்றி!...",
+        "புண்ணியனே போற்றி!...",
+        "கண்ணியனே போற்றி!..",
+        "கடையேழு வள்ளல்களே",
+        "வென்றவனே போற்றி!...",
+        "கலியுகக் கர்ண மகாராஜனே போற்றி!..."
+      ]
+    },
+    {
+      "scene_id": "38",
+      "scene_ordinal": 50,
+      "pdf_page": 63,
+      "printed_page": 62,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "என்னய்யன் ஏழைகளின்",
+        "தெய்வம் ஐம்புலிங்க",
+        "பூபதியாருக்கு..இன்னும் பல",
+        "பிறந்தநாள் விழாக்கள்",
+        "வரவேண்டும்!.."
+      ]
+    },
+    {
+      "scene_id": "38",
+      "scene_ordinal": 50,
+      "pdf_page": 63,
+      "printed_page": 62,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "நூறாவது பிறந்த நாள் விழா",
+        "கொண்டாட வேண்டும்,",
+        "அதிலும் அடியேன் வந்து",
+        "வாழ்த்துகின்ற பேற்றினைப் பெறவேண்டும்!!"
+      ]
+    },
+    {
+      "scene_id": "39",
+      "scene_ordinal": 51,
+      "pdf_page": 64,
+      "printed_page": 63,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**சடையன் வீடு**"
+      ]
+    },
+    {
+      "scene_id": "40",
+      "scene_ordinal": 52,
+      "pdf_page": 65,
+      "printed_page": 64,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**டீக்கடை**"
+      ]
+    },
+    {
+      "scene_id": "41",
+      "scene_ordinal": 53,
+      "pdf_page": 66,
+      "printed_page": 65,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**வெளிப்புறக் காட்சி இரவு**"
+      ]
+    },
+    {
+      "scene_id": "41",
+      "scene_ordinal": 53,
+      "pdf_page": 66,
+      "printed_page": 65,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "\"முன்னையிட்ட தீ முப்புரத்திலே",
+        "பின்னையிட்ட தீ தென்னிலங்கையிலே",
+        "அன்னையிட்ட தீ அடிவயிற்றிலே...",
+        "யானுமிட்ட தீ....\" என்ற பாட்டை முணு"
+      ]
+    },
+    {
+      "scene_id": "42",
+      "scene_ordinal": 54,
+      "pdf_page": 67,
+      "printed_page": 66,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் தேவாலய வாயிற்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "42-எ",
+      "scene_ordinal": 55,
+      "pdf_page": 68,
+      "printed_page": 67,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**தேவாலய உட்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "43",
+      "scene_ordinal": 56,
+      "pdf_page": 70,
+      "printed_page": 69,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "44",
+      "scene_ordinal": 57,
+      "pdf_page": 71,
+      "printed_page": 70,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**குடிசை வீடு**"
+      ]
+    },
+    {
+      "scene_id": "45-46",
+      "scene_ordinal": 58,
+      "pdf_page": 71,
+      "printed_page": 70,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**வெளிப்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "45-46",
+      "scene_ordinal": 58,
+      "pdf_page": 71,
+      "printed_page": 70,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**குடிசைப் பகுதியை ஒட்டிய தெரு**"
+      ]
+    },
+    {
+      "scene_id": "47",
+      "scene_ordinal": 59,
+      "pdf_page": 72,
+      "printed_page": 71,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**சுற்றடைப்புள்ள ஒரு மைதானம்**"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 72,
+      "printed_page": 71,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**குடிசைப் பகுதி**"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 72,
+      "printed_page": 71,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பாட்டின் இடையே சடையன், வண்டியோட்டி, ஜமீன்தாரும் காளிங்கனும் வருகிறார்கள்..."
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "புள்ளே பொறந்தான்!- அப்பன்"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "கண்ணைத் தொறந்தான்!",
+        "தாரை தம்பட்டம்",
+        "கொட்டுங்கடி!- கைத்",
+        "தாளம் தப்பாமே",
+        "தட்டுங்கடி!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஊரைத்"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "அத்தனைக்கும் ஒசந்து",
+        "என்ன புள்ளே?",
+        "ஆடச் சொல்லு, புள்ளே!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஊரைத்"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "வெள்ளரிக்கா விதை போலச்",
+        "சிரிக்குதடி!- புள்ளே",
+        "வெள்ளெளுக்கும் பூவாட்டம்",
+        "இருக்குதடி!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "கள்ளிருக்கும் தாமரைப்பூ;",
+        "காடிருக்கும் மல்லிகைப்பூ-",
+        "முள்ளிருக்கும் சேரியிலே",
+        "பொறந்ததடி!- இங்கே",
+        "உள்ளிருக்கும் சேரியெல்லாம்",
+        "அறிஞ்சுதடி!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஊரைத்"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 73,
+      "printed_page": 72,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பெத்தெடுத்த அம்மையொரு",
+        "பணக்காரி!—நல்ல",
+        "பேறுவெச்ச அப்பனொரு",
+        "தொழிலாளி!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 74,
+      "printed_page": 73,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "மேலிடத்தைக் கீழிடத்தை",
+        "ஓரிடத்தில் சேர்த்து வைக்கக்",
+        "காரணமா வந்ததடி",
+        "இந்தப்புள்ளே!— இந்தக்",
+        "காரியத்தை வேறெவனும்",
+        "செஞ்சதில்லே!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 74,
+      "printed_page": 73,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஊரைத்"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 74,
+      "printed_page": 73,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஆனந்தத் தேனே!",
+        "அருமை மகனே!",
+        "நான் சொல்லப் போறதைக்",
+        "கேட்டுக்கடா!— நீ",
+        "நல்லதைக் காதுலே",
+        "போட்டுக்கடா!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 74,
+      "printed_page": 73,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஆலையில் உழைக்கும்",
+        "தொழிலாளி! — உன்னை",
+        "அரிசியைக் கொடுக்கும்",
+        "விவசாயி!",
+        "மூட்டையைத் தூக்கும்",
+        "மாட்டாளி! — இந்த",
+        "மூவரும் நமக்குக் கூட்டாளி!"
+      ]
+    },
+    {
+      "scene_id": "48",
+      "scene_ordinal": 60,
+      "pdf_page": 74,
+      "printed_page": 73,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஆனந்தத் தேனே"
+      ]
+    },
+    {
+      "scene_id": "49",
+      "scene_ordinal": 61,
+      "pdf_page": 75,
+      "printed_page": 74,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**விங்கன் குடிசை வெளிப்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "49",
+      "scene_ordinal": 61,
+      "pdf_page": 75,
+      "printed_page": 74,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "பாடல் முடிய... ஜமீன்தார், காளிங்கராயனும் அங்கே வருகின்றனர்."
+      ]
+    },
+    {
+      "scene_id": "50",
+      "scene_ordinal": 62,
+      "pdf_page": 76,
+      "printed_page": 75,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**அந்தரங்க மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "50",
+      "scene_ordinal": 62,
+      "pdf_page": 76,
+      "printed_page": 75,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "விங்கன் வசிக்கிறானே குடிசைப்பகுதி அதற்குத் தீ வைத்தால்... விங்கன்... அந்தக் காளைமாடு.. எல்லாமே வெந்து கருகிப் போவார்கள்!..."
+      ]
+    },
+    {
+      "scene_id": "51",
+      "scene_ordinal": 63,
+      "pdf_page": 76,
+      "printed_page": 75,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**கோயில் வாசல்**"
+      ]
+    },
+    {
+      "scene_id": "52",
+      "scene_ordinal": 64,
+      "pdf_page": 78,
+      "printed_page": 77,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் மாளிகை-கோகிலா அறை**"
+      ]
+    },
+    {
+      "scene_id": "52",
+      "scene_ordinal": 64,
+      "pdf_page": 78,
+      "printed_page": 77,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**இரவு**"
+      ]
+    },
+    {
+      "scene_id": "53",
+      "scene_ordinal": 65,
+      "pdf_page": 81,
+      "printed_page": 80,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன் அந்தரங்க மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "53",
+      "scene_ordinal": 65,
+      "pdf_page": 81,
+      "printed_page": 80,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஆடம்பர அறை**"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 81,
+      "printed_page": 80,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "ஒரு பக்கம் நெருப்பு!",
+        "மறு பக்கம் நிலவு!",
+        "இந்த பக்கம் கொண்டது",
+        "இளமையின் —",
+        "அழகே அழகு!"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "வல்லினம், மெல்லினம்—",
+        "இரண்டும் திரண்டு",
+        "கலந்து புரண்டு",
+        "வளர்ந்த பெண்ணது!"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "வில்லினம், வேலினம்—",
+        "இரண்டும் தெரிந்து",
+        "வளர்ந்து குழைந்து",
+        "மலர்ந்த கண்ணது!"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "இடையினம் ஒரு கொடி போலே!",
+        "படர்ந்திட வரும் மடி மேலே!",
+        "மதுக்குடம் அல்லவோ!",
+        "பெண்ணுக்குக் கண்ணு! உன்",
+        "முன்னழகு தள்ளாடுது!"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஒரு பக்கம்"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "காலையில் சூரியன்",
+        "கிழக்கில் உதிக்கும்",
+        "வரைக்கும் நமக்கு",
+        "இனிக்கும் உல்லாசமே!"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "காமனின் சாஸ்திரம்",
+        "உடம்பில் வரைந்து",
+        "இருட்டில் விரைந்து",
+        "படிக்கும் ஒய்யாரமே!"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "அழகிய மலர் இவள் மேனி!",
+        "அருகினில் ஒரு இசைத்தேனி!",
+        "அற்புதம் இல்லையோ!",
+        "அன்றாடும் மன்னு! உன்",
+        "பொன்னாடம் வந்தாடலா?"
+      ]
+    },
+    {
+      "scene_id": "53-சி",
+      "scene_ordinal": 68,
+      "pdf_page": 82,
+      "printed_page": 81,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "— ஒரு பக்கம்."
+      ]
+    },
+    {
+      "scene_id": "53-டி",
+      "scene_ordinal": 69,
+      "pdf_page": 84,
+      "printed_page": 83,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "தம்பி!..என் கோகிலாவைத் தீ விழுங்கிட்டுது!..இல்ல! அந்தத் தீயவன் ஜம்புலிங்க பூபதி விழுங்கிட்டான்! எந்தப் பெண்ணுக்காக இதுவரையில் உயிர் வாழ்ந்தேனோ; எந்தப் பெண்ணின் வாழ்வு மலர்ந்து மணம் வீச வேண்டுமென்று.... இந்த ஜமீன் மாளிகையின் மர்மங்களே மறைத்துக் கொண்டிருந்தேனோ; எந்தப் பெண்ணுக்காக நான் யார் என்றுகூடச் சொல்லாமல் நடைப்பிணமாகத் திரிந்து கொண்டிருந்தேனோ; அந்தப் பெண்ணே போய்விட்ட பிறகு இனி என்ன இருக்கிறது? இந்த ஊரே உத்தமர்னு நினைச்சுக்கிட்டிருக்கிற ஜம்புலிங்க பூபதி - யார்?... குடிகாரன்!....கொலைகாரன்!...கொள்ளைக்காரன்!...கயவன்!...காமாந்தகாரன்!...கன்னியர் கூட்டக் கடைச்சரக்கென்று மதிக்கும் மனிதமிருகம்!...அந்த மனித மிருகத்தின் மஞ்சத்துப் பதுமையாக ஆக்கப்பட்டவள்தான் இந்த மரகதம்! எங்களுக்குப் பிறந்த குழந்தைதான் கோகிலா!...நீ போன பிறகு எனக்கு என்ன இருக்கிறது? இதோஇப்போதே புறப்படுகிறேன் அவனுடைய அந்தரங்க மாளிகைக்கு! ஆலயங்கிறபேரு அங்கே ஒரு அம்மன் சிலை; அதைத் திருப்பினால் உள்ளே அந்த அக்கிரமக்காரனின் சல்லாப மண்டபம்! எத்தனையோ இளம்பெண்களின் வாழ்க்கையைக் கெடுத்தவன்; ஏழைகள் வாழ்கிற குடிசைகளுக்கும் தீயிடக் கட்டளை யிட்டு நம்மை உயிரோடு கருக்கிவிடத் திட்டம் போட்டவனைப் பழிக்குப் பழி வாங்குகிறேன்!..."
+      ]
+    },
+    {
+      "scene_id": "54",
+      "scene_ordinal": 70,
+      "pdf_page": 85,
+      "printed_page": 84,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன்தாரின் அந்தரங்க மாளிகை**"
+      ]
+    },
+    {
+      "scene_id": "55",
+      "scene_ordinal": 71,
+      "pdf_page": 86,
+      "printed_page": 85,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**ஜமீன்தார் அந்தரங்க மாளிகை**",
+        "**வெளிப்புறம்**"
+      ]
+    },
+    {
+      "scene_id": "55",
+      "scene_ordinal": 71,
+      "pdf_page": 87,
+      "printed_page": 86,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "உம்!.... ஏன் தயக்கம்!.... எல்லோரிடமும் மன்னிப்புக் கேட்க வெட்கமாக இருக்கிறதா?..."
+      ]
+    },
+    {
+      "scene_id": "56",
+      "scene_ordinal": 72,
+      "pdf_page": 87,
+      "printed_page": 86,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**சடையன் வீடு**"
+      ]
+    },
+    {
+      "scene_id": "56",
+      "scene_ordinal": 72,
+      "pdf_page": 87,
+      "printed_page": 86,
+      "reason": "ordinary source text without active explicit speaker label",
+      "lines": [
+        "**வணக்கம்.**"
+      ]
+    }
+  ],
+  "generated_excluded_blocks": [
+    {
+      "scene_id": "vandikkaran-magan-s004",
+      "scene_ordinal": 4,
+      "source_scene_id": "4",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 9,
+          "printed_page": 8
+        }
+      ],
+      "text": "சடையா!... நான் பூஜையிலே உட்கார்ந்தா எப்ப எழுந்திருப்பேனு தெரியாது..நீ போய் மற்ற வேலைகளைப் பாத்துட்டு மெதுவா வா!...போ!...",
+      "block_id": "vandikkaran-magan-s004-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s004",
+      "scene_ordinal": 4,
+      "source_scene_id": "4",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 9,
+          "printed_page": 8
+        }
+      ],
+      "text": "பின்னர், அம்மன் சிலையை திருக்குகிறார்.",
+      "block_id": "vandikkaran-magan-s004-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s008",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 14,
+          "printed_page": 13
+        }
+      ],
+      "text": "டும் டும்! பீப்பி பீப்பி!...",
+      "block_id": "vandikkaran-magan-s008-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s008",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 15,
+          "printed_page": 14
+        }
+      ],
+      "text": "எஜமான்!... குடிச்சிருக்கீங்களா?.. குடி, குடியைக் கெடுக்கும்ணு ஊருக்குச் சொல்வீங்களே!.. அந்த வெறியிலே தான்... இப்படி நடந்துகிட்டீங்களா?..",
+      "block_id": "vandikkaran-magan-s008-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s008",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 15,
+          "printed_page": 14
+        }
+      ],
+      "text": "“இவளுக்கு என் உண்மை உருவம் தெரிந்துவிட்டது!.. இனி இந்த ஊருக்கே தெரிந்துவிடும்! இனியும் இவள் உயிரோடிருந்தால்?... கூடாது! கூடாது! கூடவேகூடாது!”",
+      "block_id": "vandikkaran-magan-s008-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s011",
+      "scene_ordinal": 11,
+      "source_scene_id": "10",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 18,
+          "printed_page": 17
+        }
+      ],
+      "text": "ஒருநாடகம் நடக்குது நாட்டிலே! — அதை\nநான் சொல்ல வந்தேன் பாட்டிலே! — சிலர்\nஆடுற மேடையும், போடுற வேஷமும்\nஊரார் கண்ணுக்குத் தெரியல்லே! — அட;\nஉண்மை எவனுக்கும் புரியல்லே! — ஒருநாடகம்",
+      "block_id": "vandikkaran-magan-s011-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s011",
+      "scene_ordinal": 11,
+      "source_scene_id": "10",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 18,
+          "printed_page": 17
+        }
+      ],
+      "text": "பாய்ந்து வருகுது அதிகாரம்! — அதன்\nபக்கத்தில் ஆயிரம் பரிவாரம்! — இது\nபோகுற போக்கு\nசரியில்லை என்று\nஊருக்குக் காட்டுவேன்\nஅடையாளம்! — ஒருநாடகம்",
+      "block_id": "vandikkaran-magan-s011-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s011",
+      "scene_ordinal": 11,
+      "source_scene_id": "10",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 18,
+          "printed_page": 17
+        }
+      ],
+      "text": "உத்தமர் போலொரு\nஉபதேசம்! — அந்த\nபுத்தரைப் போலொரு\nவெளிவேஷம்! — இந்தப்\nபோலிகள் போடும்\nபோர்வையை எடுத்தால்",
+      "block_id": "vandikkaran-magan-s011-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s011",
+      "scene_ordinal": 11,
+      "source_scene_id": "10",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 18,
+          "printed_page": 17
+        }
+      ],
+      "text": "உருட்டல்; மிரட்டல்;\nசிறைவாசம்! — ஒருநாடகம்",
+      "block_id": "vandikkaran-magan-s011-u004"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s011",
+      "scene_ordinal": 11,
+      "source_scene_id": "10",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 18,
+          "printed_page": 17
+        }
+      ],
+      "text": "ஏழைகள் குளிப்பது\nகண்ணீரில்! — இந்த\nஎத்தர்கள் மிதப்பது\nபன்னீரில்! — இந்தக்\nகோழைகள் வீரம்\nஎத்தனை காலம்\nகொடிகட்டிப் பறக்கும்\nதர்பாரில்? — ஒருநாடகம்",
+      "block_id": "vandikkaran-magan-s011-u005"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s020",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 30,
+          "printed_page": 29
+        }
+      ],
+      "text": "அதற்குள் விங்கன் ஓடிவந்து",
+      "block_id": "vandikkaran-magan-s020-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s023",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 33,
+          "printed_page": 32
+        }
+      ],
+      "text": "**ஜமீன் மாளிகை\nவிங்கன் அறை**",
+      "block_id": "vandikkaran-magan-s023-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 35,
+          "printed_page": 34
+        }
+      ],
+      "text": "அவர் நம்ப ஜமீன் அந்தஸ்துக்கு சமமான அந்தஸ்து உள்ளவரா இருப்பாரா?...இல்லே...சாதாரணமான குடும்பத்தைச் சேர்ந்தவரா இருப்பாரா?... விங்கனை நான் விரும்புறேன்!...ஆனா...அதே நேரம் அவர் ஒரு சாதாரணக் குடும்பத்தைச் சேர்ந்தவர்னு தெரிஞ்சு போச்சுன்னு... அடுத்த நிமிஷமே...என் நெஞ்சிலே இருந்து அவரைத் தூக்கி எறிஞ்சிடுவேன்!...",
+      "block_id": "vandikkaran-magan-s024-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 35,
+          "printed_page": 34
+        }
+      ],
+      "text": "ஆ! தலை! தலை!...",
+      "block_id": "vandikkaran-magan-s024-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 35,
+          "printed_page": 34
+        }
+      ],
+      "text": "பிள்ளையாரப்பா! இந்தத் தடவை பூ விழ நீ தான் அருள் புரியணும்!",
+      "block_id": "vandikkaran-magan-s024-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "ஜார்ஜ் மன்னர் தலையாக இருக்கிறது. அந்தத் தலை விங்கன் தலையாக மாறுகிறது...நினைவு அலைகள்..",
+      "block_id": "vandikkaran-magan-s024-u004"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "மேடையில் ஆடிடும்\nமெல்லிய பூங்காற்றே! — நீ\nஆடையில் ஆடினால்\nமன்மதன் விளையாட்டே!\nமேனகை போலொரு\nபூங்கையை புதுப்பாட்டே! — உன்\nமேனியின் சாயலோ\nஆனந்த நீரூற்றே!",
+      "block_id": "vandikkaran-magan-s024-u005"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "பழுக்கப் பழுக்க-ரசம்",
+      "block_id": "vandikkaran-magan-s024-u006"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "பிழியப் பிழியப்-பழம்\nஉள்ளூரக் கள்ளூறத்\nதள்ளாடுமோ?",
+      "block_id": "vandikkaran-magan-s024-u007"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "குடிக்கக் குடிக்க மனம்\nமிதக்க மிதக்க தினம்\nவண்டாட்டம் கொண்டாட்டம்\nஉண்டாகுமோ?",
+      "block_id": "vandikkaran-magan-s024-u008"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "ஓடை மீது\nஓடும் நீர் வேண்டும்!\nஉறவில் நாடும்\nஒருவன் நீ வேண்டும்! — மேடையில்",
+      "block_id": "vandikkaran-magan-s024-u009"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "ஓடிய ஓடிய இடை\nநெளிய நெளிய நடை,\nஉல்லாசப் பல்லாக்கின்\nஊர்கோலமோ?",
+      "block_id": "vandikkaran-magan-s024-u010"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "நெருங்க நெருங்க மெல்ல\nஒதுங்க ஒதுங்க எண்ணும்\nஊடல்கள் யுவராணி\nஒப்பாரமோ?",
+      "block_id": "vandikkaran-magan-s024-u011"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 36,
+          "printed_page": 35
+        }
+      ],
+      "text": "மாலை இடலாமோ?\nமஞ்சம் வரலாமோ?\nசேலை தொடலாமோ?\nகைகள் படலாமோ? — மேடையில்",
+      "block_id": "vandikkaran-magan-s024-u012"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 37,
+          "printed_page": 36
+        }
+      ],
+      "text": "நழுவ நழுவ எண்ணத்\nதழுவத் தழுவ வரும்\nவித்தைகள் கண்ணே! உன்\nவெள்ளோட்டமோ?",
+      "block_id": "vandikkaran-magan-s024-u013"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 37,
+          "printed_page": 36
+        }
+      ],
+      "text": "மயக்கி மயக்கிப் பின்பு\nமறைத்து மறைத்து வைத்தல்—\nஅன்பே! உன் செல்வாக்கின்\nஅடையாளமோ?",
+      "block_id": "vandikkaran-magan-s024-u014"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 37,
+          "printed_page": 36
+        }
+      ],
+      "text": "காதல் விளையாடக்\nகாவல் இடையாதோ?",
+      "block_id": "vandikkaran-magan-s024-u015"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s024",
+      "scene_ordinal": 24,
+      "source_scene_id": "20",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 37,
+          "printed_page": 36
+        }
+      ],
+      "text": "காவல் தடைபோட்டால்\nஆவல் மீறுதோ? — மேடையில்",
+      "block_id": "vandikkaran-magan-s024-u016"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 41,
+          "printed_page": 40
+        }
+      ],
+      "text": "“டேவிட் துரை எஸ்டேட் பங்களாவுக்குப் போகும் வழி!” — என்று போர்டில் விளக்கின் உதவியால் எழுத்துக்களைப் படிக்கிறாள்.",
+      "block_id": "vandikkaran-magan-s028-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s028",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 41,
+          "printed_page": 40
+        }
+      ],
+      "text": "நம்ம ஜமீன் எஸ்டேட்டுக்குப் போற வழியை இருபது மைலுக்கு அப்பாலேயே தவற விட்டாச்சு!...",
+      "block_id": "vandikkaran-magan-s028-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s029",
+      "scene_ordinal": 29,
+      "source_scene_id": "23",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 42,
+          "printed_page": 41
+        }
+      ],
+      "text": "ஜம்பு! ஜம்பு!...",
+      "block_id": "vandikkaran-magan-s029-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 45,
+          "printed_page": 44
+        }
+      ],
+      "text": "ஆஹா! ஆஹா!",
+      "block_id": "vandikkaran-magan-s032-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s032",
+      "scene_ordinal": 32,
+      "source_scene_id": "24-பி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 45,
+          "printed_page": 44
+        }
+      ],
+      "text": "அதிலும் இந்த இடம் இருக்கே....ஆகா! ஆகா! என்ன சுவை! என்ன சுவை! தேன் கலந்து, பால் கலந்து, செங்கரும்புச் சாறு கலந்து, என் ஊன் கலந்து, உயிர் கலந்து உவட்டாமல் இனிக்கின்ற சுவை!",
+      "block_id": "vandikkaran-magan-s032-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "கார்த்திகை மாதம் கார்காலம்!",
+      "block_id": "vandikkaran-magan-s033-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "கங்குலில் எங்கும் பனிமூட்டம் — உடல்\nவேர்த்திட நின்றுள் பருவச்சீலை! அதை\nவேடிக்கைப் பார்த்தது பள்ளியறை!",
+      "block_id": "vandikkaran-magan-s033-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "படுத்தாள்; புரண்டாள்;\nஉறக்கமில்லை! சுகம்\nஎடுக்கவும் கொடுக்கவும்\nஒருத்தனில்லை!",
+      "block_id": "vandikkaran-magan-s033-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "மடல் கொண்ட வாழை\nஉடல் கொண்ட பாவை!\nஇடைகொள்ளவில்லை\nஅவள் கொண்ட சேலை!\nஅவள் வந்த பின்பு\nஅதற்கென்ன வேலை?",
+      "block_id": "vandikkaran-magan-s033-u004"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "வந்தான்; சேர்ந்தேன்\nதந்தான்! — செவ்\nவாய் மீது ஓயாமல் முத்தாடினான்!\nவண்ணம் கொஞ்சும்\nஅன்னம்! தன்\nபூமணி போதைகள் கொண்டாடினாள்!",
+      "block_id": "vandikkaran-magan-s033-u005"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "படுத்தாள்! புரண்டாள்! உறக்கமில்லை!\nசுகம் எடுக்கவும் கொடுக்கவும் தடுக்கவில்லை!",
+      "block_id": "vandikkaran-magan-s033-u006"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "நீர் கொண்ட மேகம்\nநிலம் வந்து சேர\nஅவள் கொண்ட பூமி\nகுளிர் கொண்டு ஆற\nகோடி கொண்ட பூவில்\nமதுவெல்லாம் ஊற —\nமுன்னும் பின்னும்",
+      "block_id": "vandikkaran-magan-s033-u007"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 46,
+          "printed_page": 45
+        }
+      ],
+      "text": "மின்னும் — பொன்\nபாலேறு ஆனந்த\nநீராடினாள்!",
+      "block_id": "vandikkaran-magan-s033-u008"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "மெத்தை — தத்தும்",
+      "block_id": "vandikkaran-magan-s033-u009"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "தத்தை; தன்\nதாபங்கள் தாளாமல்",
+      "block_id": "vandikkaran-magan-s033-u010"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "ஸ்வரம் கொண்ட வீணை\nஅவன் கொண்டு மீட்ட;\nஉளம் எங்கும் நல்ல\nஉயிர் நாதம் கேட்க;\nஉறவென்ற ராகம்;\nஅரங்கேற்றம் ஆக—",
+      "block_id": "vandikkaran-magan-s033-u011"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "இன்பம் என்னும்",
+      "block_id": "vandikkaran-magan-s033-u012"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "சந்தம் — தன்\nபாட்டாகப் பூங்கோதை\nதாலாட்டினாள்!",
+      "block_id": "vandikkaran-magan-s033-u013"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "இன்னும் இன்னும்",
+      "block_id": "vandikkaran-magan-s033-u014"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s033",
+      "scene_ordinal": 33,
+      "source_scene_id": "24-சி",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 47,
+          "printed_page": 46
+        }
+      ],
+      "text": "என்று—தன்\nகாதாரத் தான் கேட்கப்",
+      "block_id": "vandikkaran-magan-s033-u015"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s036",
+      "scene_ordinal": 36,
+      "source_scene_id": "26",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 50,
+          "printed_page": 49
+        }
+      ],
+      "text": "இப்பவேபோய்..உமாகிட்ட இந்தச் சேதியைச் சொல்லி..",
+      "block_id": "vandikkaran-magan-s036-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s039",
+      "scene_ordinal": 39,
+      "source_scene_id": "29",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 53,
+          "printed_page": 52
+        }
+      ],
+      "text": "கேட்டியா கோகிலா...உமாவைப் பெண் கேட்க யாரோ கலெக்டர் வீட்டாம் கலெக்டர்!..கண்டிப்பா சொல்லி துரத்திட்டேன்..மாட மாளிகை, கூட கோபுரம் உள்ள ஒரு ஜமீன் குடும்பத்திலேதான் அவளுக்கு மாப்பிள்ளை வரமுடியுமென்று! என்ன சரிதானே?...",
+      "block_id": "vandikkaran-magan-s039-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s043",
+      "scene_ordinal": 43,
+      "source_scene_id": "32",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 56,
+          "printed_page": 55
+        }
+      ],
+      "text": "ஜமீன்தார் ஜம்புலிங்க பூபதி அவர்கள், தன் அருமை மகள் உமாவை எனக்கு வாழ்க்கைத் துணைவியாக்க சம்மதித்ததற்காக முதலில் என் நன்றியைத் தெரிவித்துக்கொள்கிறேன்!...ஆனால் ஒன்று நான் இப்போது ஒரு திடுக்கிடும் ரகசியத்தை வெளியிடப் போகிறேன்!..அதற்குப் பிறகும் ஜமீன்தார் என்னை மருமகனாக ஏற்றுக்கொள்ளத் தயாராக இருக்கிறாரா?...இந்தக் கேள்விக்கு எனக்குப் பதில் வேண்டும்!",
+      "block_id": "vandikkaran-magan-s043-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        }
+      ],
+      "text": "உழைக்கும் இனமே!\nஉடன்பிறப்பே!\nஎன்னோடு வாருங்களே! — பகலின்\nஉருவில் ஊரில்\nஉலவும் புலியைக்",
+      "block_id": "vandikkaran-magan-s048-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        }
+      ],
+      "text": "காட்டுவேன்; பாருங்களே!",
+      "block_id": "vandikkaran-magan-s048-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        }
+      ],
+      "text": "மனிதரில் சிலபேர்\nபுனிதரைப் போலே\nஇருப்பார் புவிமேலே!\nமான்களின் கண்ணே\nமயங்கிட வைக்கும்\nகானல் நீர்போலே! — உழைக்கும் இனமே",
+      "block_id": "vandikkaran-magan-s048-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        }
+      ],
+      "text": "ஏட்டைப் புரட்டி\nசுயநலக்காரனைக்\nகேட்பேன் நாடொரு கேள்வி! — அவன்\nபூட்டைத் திறந்து\nகாட்டுவதற்கு\nஎன்னிடம் உள்ளது சாவி!",
+      "block_id": "vandikkaran-magan-s048-u004"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        }
+      ],
+      "text": "எப்படிவன் தன்னை",
+      "block_id": "vandikkaran-magan-s048-u005"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 60,
+          "printed_page": 59
+        }
+      ],
+      "text": "மேய்ப்பவன் என்று — எண்ணியிருக்கும்\nஆடு!—நல்ல\nஆறறிவுள்ள\nமனிதரும் அது போல்\nஇருந்தால் சிரிக்கும் நாடு! — உழைக்கும் இனமே",
+      "block_id": "vandikkaran-magan-s048-u006"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 61,
+          "printed_page": 60
+        }
+      ],
+      "text": "மின்மினிப் பூச்சி\nவெளிச்சத்தினிலே\nஇருட்டில் பாதை தெரியாது!—அட;\nமின்னுவதாலே\nஉப்புக்கல் தான்\nவைரம் போலே ஆகாது!",
+      "block_id": "vandikkaran-magan-s048-u007"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s048",
+      "scene_ordinal": 48,
+      "source_scene_id": "36",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 61,
+          "printed_page": 60
+        }
+      ],
+      "text": "சிங்கக் கூட்டம்\nதூங்கி யிருந்தால்\nசிறு நரி ஆட்டும் வாலே!—அதன்\nதூக்கம் கலைந்தால்\nநடப்பது என்ன?\nசரித்திரம் சொல்லும் நாளே! — உழைக்கும் இனமே",
+      "block_id": "vandikkaran-magan-s048-u008"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 62,
+          "printed_page": 61
+        }
+      ],
+      "text": "போற்றி! போற்றி!...\nபுனிதனே போற்றி!...\nபுண்ணியனே போற்றி!...\nகண்ணியனே போற்றி!..\nகடையேழு வள்ளல்களே\nவென்றவனே போற்றி!...\nகலியுகக் கர்ண மகாராஜனே போற்றி!...",
+      "block_id": "vandikkaran-magan-s050-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 63,
+          "printed_page": 62
+        }
+      ],
+      "text": "என்னய்யன் ஏழைகளின்\nதெய்வம் ஐம்புலிங்க\nபூபதியாருக்கு..இன்னும் பல\nபிறந்தநாள் விழாக்கள்\nவரவேண்டும்!..",
+      "block_id": "vandikkaran-magan-s050-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s050",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 63,
+          "printed_page": 62
+        }
+      ],
+      "text": "நூறாவது பிறந்த நாள் விழா\nகொண்டாட வேண்டும்,\nஅதிலும் அடியேன் வந்து\nவாழ்த்துகின்ற பேற்றினைப் பெறவேண்டும்!!",
+      "block_id": "vandikkaran-magan-s050-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s053",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 66,
+          "printed_page": 65
+        }
+      ],
+      "text": "\"முன்னையிட்ட தீ முப்புரத்திலே\nபின்னையிட்ட தீ தென்னிலங்கையிலே\nஅன்னையிட்ட தீ அடிவயிற்றிலே...\nயானுமிட்ட தீ....\" என்ற பாட்டை முணு",
+      "block_id": "vandikkaran-magan-s053-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 72,
+          "printed_page": 71
+        }
+      ],
+      "text": "பாட்டின் இடையே சடையன், வண்டியோட்டி, ஜமீன்தாரும் காளிங்கனும் வருகிறார்கள்...",
+      "block_id": "vandikkaran-magan-s060-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "ஊரைத் திருத்த - ஒரு\nபுள்ளே பொறந்தான்!- அப்பன்",
+      "block_id": "vandikkaran-magan-s060-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "பேரை நிறுத்த - இரு\nகண்ணைத் தொறந்தான்!\nதாரை தம்பட்டம்\nகொட்டுங்கடி!- கைத்\nதாளம் தப்பாமே\nதட்டுங்கடி!",
+      "block_id": "vandikkaran-magan-s060-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "— ஊரைத்",
+      "block_id": "vandikkaran-magan-s060-u004"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "reviewed non-dialogue non-colon punctuation/verse fragment",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "கிளிப்புள்ளே; கிரிப்புள்ளே;\nஅத்தனைக்கும் ஒசந்து\nஎன்ன புள்ளே?\nஆடச் சொல்லு, புள்ளே!",
+      "block_id": "vandikkaran-magan-s060-u005"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "— ஊரைத்",
+      "block_id": "vandikkaran-magan-s060-u006"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "வெள்ளரிக்கா விதை போலச்\nசிரிக்குதடி!- புள்ளே\nவெள்ளெளுக்கும் பூவாட்டம்\nஇருக்குதடி!",
+      "block_id": "vandikkaran-magan-s060-u007"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "கள்ளிருக்கும் தாமரைப்பூ;\nகாடிருக்கும் மல்லிகைப்பூ-\nமுள்ளிருக்கும் சேரியிலே\nபொறந்ததடி!- இங்கே\nஉள்ளிருக்கும் சேரியெல்லாம்\nஅறிஞ்சுதடி!",
+      "block_id": "vandikkaran-magan-s060-u008"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "— ஊரைத்",
+      "block_id": "vandikkaran-magan-s060-u009"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 73,
+          "printed_page": 72
+        }
+      ],
+      "text": "பெத்தெடுத்த அம்மையொரு\nபணக்காரி!—நல்ல\nபேறுவெச்ச அப்பனொரு\nதொழிலாளி!",
+      "block_id": "vandikkaran-magan-s060-u010"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 74,
+          "printed_page": 73
+        }
+      ],
+      "text": "மேலிடத்தைக் கீழிடத்தை\nஓரிடத்தில் சேர்த்து வைக்கக்\nகாரணமா வந்ததடி\nஇந்தப்புள்ளே!— இந்தக்\nகாரியத்தை வேறெவனும்\nசெஞ்சதில்லே!",
+      "block_id": "vandikkaran-magan-s060-u011"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 74,
+          "printed_page": 73
+        }
+      ],
+      "text": "— ஊரைத்",
+      "block_id": "vandikkaran-magan-s060-u012"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 74,
+          "printed_page": 73
+        }
+      ],
+      "text": "ஆனந்தத் தேனே!\nஅருமை மகனே!\nநான் சொல்லப் போறதைக்\nகேட்டுக்கடா!— நீ\nநல்லதைக் காதுலே\nபோட்டுக்கடா!",
+      "block_id": "vandikkaran-magan-s060-u013"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 74,
+          "printed_page": 73
+        }
+      ],
+      "text": "ஆலையில் உழைக்கும்\nதொழிலாளி! — உன்னை\nஅரிசியைக் கொடுக்கும்\nவிவசாயி!\nமூட்டையைத் தூக்கும்\nமாட்டாளி! — இந்த\nமூவரும் நமக்குக் கூட்டாளி!",
+      "block_id": "vandikkaran-magan-s060-u014"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s060",
+      "scene_ordinal": 60,
+      "source_scene_id": "48",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 74,
+          "printed_page": 73
+        }
+      ],
+      "text": "— ஆனந்தத் தேனே",
+      "block_id": "vandikkaran-magan-s060-u015"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s061",
+      "scene_ordinal": 61,
+      "source_scene_id": "49",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 75,
+          "printed_page": 74
+        }
+      ],
+      "text": "பாடல் முடிய... ஜமீன்தார், காளிங்கராயனும் அங்கே வருகின்றனர்.",
+      "block_id": "vandikkaran-magan-s061-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s062",
+      "scene_ordinal": 62,
+      "source_scene_id": "50",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 76,
+          "printed_page": 75
+        }
+      ],
+      "text": "விங்கன் வசிக்கிறானே குடிசைப்பகுதி அதற்குத் தீ வைத்தால்... விங்கன்... அந்தக் காளைமாடு.. எல்லாமே வெந்து கருகிப் போவார்கள்!...",
+      "block_id": "vandikkaran-magan-s062-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 81,
+          "printed_page": 80
+        }
+      ],
+      "text": "ஒரு பக்கம் நெருப்பு!\nமறு பக்கம் நிலவு!\nஇந்த பக்கம் கொண்டது\nஇளமையின் —\nஅழகே அழகு!",
+      "block_id": "vandikkaran-magan-s068-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "வல்லினம், மெல்லினம்—\nஇரண்டும் திரண்டு\nகலந்து புரண்டு\nவளர்ந்த பெண்ணது!",
+      "block_id": "vandikkaran-magan-s068-u002"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "வில்லினம், வேலினம்—\nஇரண்டும் தெரிந்து\nவளர்ந்து குழைந்து\nமலர்ந்த கண்ணது!",
+      "block_id": "vandikkaran-magan-s068-u003"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "இடையினம் ஒரு கொடி போலே!\nபடர்ந்திட வரும் மடி மேலே!\nமதுக்குடம் அல்லவோ!\nபெண்ணுக்குக் கண்ணு! உன்\nமுன்னழகு தள்ளாடுது!",
+      "block_id": "vandikkaran-magan-s068-u004"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "— ஒரு பக்கம்",
+      "block_id": "vandikkaran-magan-s068-u005"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "காலையில் சூரியன்\nகிழக்கில் உதிக்கும்\nவரைக்கும் நமக்கு\nஇனிக்கும் உல்லாசமே!",
+      "block_id": "vandikkaran-magan-s068-u006"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "காமனின் சாஸ்திரம்\nஉடம்பில் வரைந்து\nஇருட்டில் விரைந்து\nபடிக்கும் ஒய்யாரமே!",
+      "block_id": "vandikkaran-magan-s068-u007"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "அழகிய மலர் இவள் மேனி!\nஅருகினில் ஒரு இசைத்தேனி!\nஅற்புதம் இல்லையோ!\nஅன்றாடும் மன்னு! உன்\nபொன்னாடம் வந்தாடலா?",
+      "block_id": "vandikkaran-magan-s068-u008"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s068",
+      "scene_ordinal": 68,
+      "source_scene_id": "53-சி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 82,
+          "printed_page": 81
+        }
+      ],
+      "text": "— ஒரு பக்கம்.",
+      "block_id": "vandikkaran-magan-s068-u009"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s069",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 84,
+          "printed_page": 83
+        }
+      ],
+      "text": "தம்பி!..என் கோகிலாவைத் தீ விழுங்கிட்டுது!..இல்ல! அந்தத் தீயவன் ஜம்புலிங்க பூபதி விழுங்கிட்டான்! எந்தப் பெண்ணுக்காக இதுவரையில் உயிர் வாழ்ந்தேனோ; எந்தப் பெண்ணின் வாழ்வு மலர்ந்து மணம் வீச வேண்டுமென்று.... இந்த ஜமீன் மாளிகையின் மர்மங்களே மறைத்துக் கொண்டிருந்தேனோ; எந்தப் பெண்ணுக்காக நான் யார் என்றுகூடச் சொல்லாமல் நடைப்பிணமாகத் திரிந்து கொண்டிருந்தேனோ; அந்தப் பெண்ணே போய்விட்ட பிறகு இனி என்ன இருக்கிறது? இந்த ஊரே உத்தமர்னு நினைச்சுக்கிட்டிருக்கிற ஜம்புலிங்க பூபதி - யார்?... குடிகாரன்!....கொலைகாரன்!...கொள்ளைக்காரன்!...கயவன்!...காமாந்தகாரன்!...கன்னியர் கூட்டக் கடைச்சரக்கென்று மதிக்கும் மனிதமிருகம்!...அந்த மனித மிருகத்தின் மஞ்சத்துப் பதுமையாக ஆக்கப்பட்டவள்தான் இந்த மரகதம்! எங்களுக்குப் பிறந்த குழந்தைதான் கோகிலா!...நீ போன பிறகு எனக்கு என்ன இருக்கிறது? இதோஇப்போதே புறப்படுகிறேன் அவனுடைய அந்தரங்க மாளிகைக்கு! ஆலயங்கிறபேரு அங்கே ஒரு அம்மன் சிலை; அதைத் திருப்பினால் உள்ளே அந்த அக்கிரமக்காரனின் சல்லாப மண்டபம்! எத்தனையோ இளம்பெண்களின் வாழ்க்கையைக் கெடுத்தவன்; ஏழைகள் வாழ்கிற குடிசைகளுக்கும் தீயிடக் கட்டளை யிட்டு நம்மை உயிரோடு கருக்கிவிடத் திட்டம் போட்டவனைப் பழிக்குப் பழி வாங்குகிறேன்!...",
+      "block_id": "vandikkaran-magan-s069-u001"
+    },
+    {
+      "scene_id": "vandikkaran-magan-s071",
+      "scene_ordinal": 71,
+      "source_scene_id": "55",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 87,
+          "printed_page": 86
+        }
+      ],
+      "text": "உம்!.... ஏன் தயக்கம்!.... எல்லோரிடமும் மன்னிப்புக் கேட்க வெட்கமாக இருக்கிறதா?...",
+      "block_id": "vandikkaran-magan-s071-u001"
+    }
+  ]
+}

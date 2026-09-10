@@ -1,0 +1,53 @@
+[
+  {
+    "id": "vandikkaran-magan-s060-d001",
+    "scene_id": "vandikkaran-magan-s060",
+    "scene_ordinal": 60,
+    "source_scene_id": "48",
+    "source_heading": "காட்சி -- 48",
+    "speaker_label": "ஒருவன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-060.md",
+    "page_provenance": [
+      {
+        "pdf_page": 73,
+        "printed_page": 72
+      }
+    ],
+    "text": "அணிப்புள்ளே; தென்னம் புள்ளே;"
+  },
+  {
+    "id": "vandikkaran-magan-s060-d002",
+    "scene_id": "vandikkaran-magan-s060",
+    "scene_ordinal": 60,
+    "source_scene_id": "48",
+    "source_heading": "காட்சி -- 48",
+    "speaker_label": "ஒருத்தி",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-060.md",
+    "page_provenance": [
+      {
+        "pdf_page": 73,
+        "printed_page": 72
+      }
+    ],
+    "text": "ஒரு\nஆத்தா மடி சுமந்த\nசின்னப்புள்ளே!- தொட்டுப்\nபாத்தா கைமணக்கும்\nவண்ணப்புள்ளே!"
+  },
+  {
+    "id": "vandikkaran-magan-s060-d003",
+    "scene_id": "vandikkaran-magan-s060",
+    "scene_ordinal": 60,
+    "source_scene_id": "48",
+    "source_heading": "காட்சி -- 48",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":",
+    "source_scene_file": "scene-060.md",
+    "page_provenance": [
+      {
+        "pdf_page": 74,
+        "printed_page": 73
+      }
+    ],
+    "text": "—"
+  }
+]

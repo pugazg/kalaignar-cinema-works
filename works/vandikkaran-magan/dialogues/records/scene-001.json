@@ -1,0 +1,512 @@
+[
+  {
+    "id": "vandikkaran-magan-s001-d001",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "மக்கள்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "ஏ, காளிங்கராயர் வந்துட்டாரு!.. ஜமீன்தாரய்யா வந்துடுவாரு!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d002",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஒருவன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "ஜமீன்தார் ஜம்புலிங்க பூபதி!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d003",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "மக்கள்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "வாழ்க!..."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d004",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "என்னடா காட்டுக்கூட்டம்...வாழ்க...வாழ்க...வாள் வாழ்கன்னு!... அழகா... நல்லா நம்ப சாஸ்திரத்துக்கு சம்பிரதாயத்துக்கு எத்தப்படி... ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு ஜே! ஜே!.. என்று கோஷம் போடுவீங்களா?.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d005",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஒருவன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "ஜமீன்தார் ஜம்புலிங்க பூபதிக்கு..."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d006",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "மக்கள்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "ஜே!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d007",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "பெரியவர்களுக்கு நமஸ்காரம்!.. சிறியவர்களுக்கு ஆசீர்வாதம்!... காளிங்கராயா!..."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d008",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "பிரபு!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d009",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "இவர்களின் குறைகளைக் கேள்!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d010",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 6,
+        "printed_page": 5
+      }
+    ],
+    "text": "உத்தரவு பிரபு..."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d011",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "எழுந்திருங்கள்...எழுந்திருங்கள்...நீங்கள் எல்லாம் என் காலில் விழுந்து வணங்குகிறீர்களே; நான் என்ன மகானு? மகரிஷியா? மகாத்மாவா?.. இல்லை! ஆனால் ஒன்று நீங்கள் விழுந்து வணங்குவது ஜமீன்தார் ஜம்புலிங்கத்தின் காலில் இல்லை!... தர்மத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! நீதியின் காலை — நாணயத்தின் காலைத்தொட்டுக் கும்பிடுகிறீர்கள்! என்ன காளிங்கராயா?...நான் சொல்வது சரிதானு?.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d012",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "வேற யார் சொல்ல முடியும் — நாமே சொல்லிக்க வேண்டியதுதான்!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d013",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "(காலில் விழுந்த பெண்ணிடம்) உன் குறை என்னம்மா?"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d014",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "பெண்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "என் புருஷன் சதாநேரமும் சாராயத்தைக் குடிச்சிட்டு.. குடும்பத்தைக் குட்டிச் சுவராக்கிட்டாருங்க!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d015",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "ஐயகோ! ஐயகோ! தாய்க்குலம் கண்ணீர் வடிப்பதா? அதுவும் என் எதிரிலா? தாய்க்குலத்தின் கண்ணீரை என்னால் தாங்கிக் கொள்ளவே முடியவில்லை... காளிங்கா!... இந்தப் பெண்மணியின் கணவனைக் கூப்பிட்டு... கிரமமாக உத்தரவிடு!.. (பெண்ணை நோக்கி) கவலைப்படாதே அம்மா!.. உன் புருஷனைத் திருத்துவதுதான் பொறுப்பு... காளிங்கா! அதோடு இன்னொரு கட்டளை - உடனே அமுலாக வேண்டும். நமது ஜமீன் எல்லைக்குள் மதுவின் வாடையே அடிக்கக்கூடாது."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d016",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "நம்ம எல்லைக்குள்தானே!... அதை அமுல்படுத்திடலாம்."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d017",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "புலவர்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "மாரி பொய்த்தாலும் பாரியின் கொடை பொய்க்காது!\nதலையைக் கொடுக்கவும் தயாரான குமணன்!\nதான்செய்த தர்மங்களையெல்லாம் கொடையாகக்\nகொடுத்தான் கர்ணன்! பாரியாய் — குமணனாய் —\nகர்ணனாய்க் காட்டியளிக்கும் வள்ளலே வாழ்க!...\nவாழ்க!...."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d018",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "காளிங்கா!: அப்பா யாரு?..."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d019",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "புலவர்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "ஒரு தமிழ்ப்புலவன் ஐயா!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d020",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "முகஸ்துதி பண்ணும் போதே தெரியுதே!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d021",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "புலவர்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "எல்லாப் புலவர்களையும் அப்படிச் சொல்லாதீர்கள்! உறுதியோடு இருக்கிற புலவர்களும் இருக்காங்க... சமயத்துக்குத் தக்கபடி தாளம் போடுகிற புலவர்களும் இருக்காங்க!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d022",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 7,
+        "printed_page": 6
+      }
+    ],
+    "text": "காளிங்கா...புலவர் மனதைப் புண்படுத்தாதே! புலவரே! உங்களுக்கு என்ன வேணும்?"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d023",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "புலவர்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "இதோ... இந்தப் பெண் பூங்கொடியை விட்டுவிட்டு என் மனைவி இறந்துவிட்டாள்!... தாயில்லாக் குழந்தையை வச்சிகிட்டு நான் தவிக்கிறேன்!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d024",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "புலவர்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "நன்றி ஐயா நன்றி!...."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d025",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "காளிங்கா! வண்டி தயாரா?.... எங்கே வண்டிக்காரன்?...."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d026",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "டேய் சடையா!...சடையா!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d027",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "சடையன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "எஜமான்...வண்டி தயாருங்க!.."
+  },
+  {
+    "id": "vandikkaran-magan-s001-d028",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "உமா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "அப்பா! நானும் கூட வரேம்ப்பா!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d029",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "உமா! வேண்டாம்மா...நீ போயி விளையாடு... அப்பா கோயிலுக்குப் போயிட்டு வரேன்!"
+  },
+  {
+    "id": "vandikkaran-magan-s001-d030",
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "குழந்தைங்க கோயிலுக்குப் போகக்கூடாது!...வாம்மா வா...என்கூட வா!"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "vandikkaran-magan-s041-d001",
+    "scene_id": "vandikkaran-magan-s041",
+    "scene_ordinal": 41,
+    "source_scene_id": "30",
+    "source_heading": "காட்சி 30",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 55,
+        "printed_page": 54
+      }
+    ],
+    "text": "மணக்கோலத்தில் வருவான் விங்கன் என்று, உமா எதிர்பார்த்துக் கொண்டிருப்பாள்!...அவனைப் பிணக் கோலமாக்க வேண்டும்!..நாமும் சேர்ந்து அழ வேண்டும்...உமாவையும் நம்பவைக்க வேண்டும்!..சரி காளிங்கா...காரியத்தை முடி! எப்படியாவது விங்கனைத் தீர்த்துக் கட்டு!..என் காது குளிரச் செய்தி கொண்டு வா போ!..."
+  },
+  {
+    "id": "vandikkaran-magan-s041-d002",
+    "scene_id": "vandikkaran-magan-s041",
+    "scene_ordinal": 41,
+    "source_scene_id": "30",
+    "source_heading": "காட்சி 30",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-041.md",
+    "page_provenance": [
+      {
+        "pdf_page": 55,
+        "printed_page": 54
+      }
+    ],
+    "text": "காது குளிர இல்லே, காது கிழிய விங்கன் செத்துட்டான், செத்துட்டான்னு பேப்பால வரப்போகுது பாருங்க!"
+  }
+]
