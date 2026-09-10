@@ -1,0 +1,466 @@
+name: Maruthanattu Ilavarasi Tamil T1 PDF 7-11 once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/maruthanattu-ilavarasi-t1-007-011-once.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply batch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,re
+          W=Path('works/maruthanattu-ilavarasi'); T=W/'transcription'; P=T/'pages'; N=W/'notes'
+          idxp=T/'index.json'; idx=json.loads(idxp.read_text(encoding='utf-8'))
+          assert idx['first_pass_pages_completed']==5 and idx['first_pass_current_through_pdf']==6
+          pages={
+          7:"""<!-- source: pdf=7 printed=6 status=draft -->
+
+# மருதநாட்டு இளவரசி
+
+ராணி:- அப்பா!
+
+மணி:- எனக்காக நீ இந்த தியாகம்கூடவா செய்யக் கூடாது?
+
+ராணி:- தங்களுக்காக உயிரைத் தியாகம் செய்கிறேன். மானம் தியாகம் செய்யும் பொருள் அல்ல தந்தையே!
+
+மணி:- ராணி! வெற்றி அவர்கள் பக்கமென்றால் நம் மானம் என்னாவது?
+
+ராணி:- வெற்றி! அது வீரர்களின் ரத்தம் நிர்ணயிக்க வேண்டிய முடிவு! அதைப்பற்றி இப்போது என்ன கவலை.
+
+மணி:- வீரர்களின் பலமும், என் பலமும் எனக்குத் தெரியும். உன் உபதேசம் வேண்டாம்.
+
+ராணி:- அப்பா! தாங்களா இப்படிப் பேசுகிறீர்கள்! வேலும், வாளும், வாழ்க்கையில் தோழனென்று கூறும் வம்சத்தில் பிறந்த தாங்களா இப்படிப் பேசுகிறீர்கள்! வெண்கொடுமை சாக்காட்டில், விளையாடும் தோளெங்கள் வெற்றித் தோள்கள் என்று வீரப்பாண்டிய பரம்பரையில் பிறந்த தாங்களா இப்படிப் பேசுகிறீர்கள்? ஈட்டியின் பாய்ச்சல் கண்டு இமை கொட்டியவன் கோழை! இதை இதய கீதமாக்கிக்கொண்ட தமிழனுக்குப் பிறந்த தாங்களா இப்படிப் பேசுகிறீர்கள்? வெட்கம், இழிவு, நம் நாட்டு சரித்திரத்திற்கே இழிவு. களம் பலகண்ட கதிரவன் சிரிப்பான்! வீரர்களைத் தாங்கிய இந்த பூமி சிரிக்கும். வேண்டாமப்பா! வீர வரலாற்றில் களங்கம் வேண்டாம். மரணத்திற்குப் பயந்து, மாற்றானுக்கு மகள் கப்பமாக அளித்தார் மணிபல்லவர் என்று மாநிலம் சிரிக்கும். அந்த மாசு படிய வேண்டாம்.
+
+மணி:- வேண்டாம் ராணி! உணர்ச்சியற்ற என் உள்ளத்தை சம்மட்டியால் அடிக்க வேண்டாம். புழுவாய் நெளிந்த என்னை புலியாக மாற்றிவிட்டாய்! கண்ணைப்போல் காப்பதை, அந்தக் கரடிவாயில் தள்ள மாட்டேன்! கொக்
+""",
+          8:"""<!-- source: pdf=8 printed=7 status=draft -->
+
+# மருதநாட்டு இளவரசி
+
+கரிக்கும் குறிஞ்சிநாடே! பெண் கிடையாது! உன் கொட்டத்தை அடக்கப் போர்!
+
+## காட்சி 4.
+
+கோபதி:- போர்! மருதநாட்டானுக்கு அவ்வளவு மண்டைக் கொழுப்பு. கடல் அலைகள்போல் நம்மிடம் படைகள் உண்டென்பது தெரிந்தும் களத்தில் இறங்கத் துணிந்துவிட்டான், கபோதி! இளவரசா! இன்றைக்கு யுத்த முஸ்திபுகள் ஆரம்பமாகட்டும். போர் தளவாடங்கள் புதுப்பிக்கப்படட்டும்.
+
+ரௌத்ரன்:- இப்பொழுதே கேட்டுக்கொள்கிறேன். இந்தப் படையெடுப்புக்கு நான்தான் தளபதி.
+
+கோபதி:- மகிழ்ச்சி! மருதநாட்டு எல்லைக்கோட்டையை அழித்துவிடு. குறிஞ்சிநாட்டுக் கொடியை மணிபல்லவன் மாளிகையில் பறக்கவிடு.
+
+துர்ஜயன்:- கத்தி யில்லாமல் ரத்தம் சிந்தாமல் வெற்றிமாலை சூட வழி இருக்கும்போது........
+
+ரௌத்:- என்ன மாமா வழி?
+
+துர்ஜயன்:- எதிரிகள் தூங்கும்போது படையெடுப்பது. மறைந்திருந்து தாக்குவது. இந்த போர் முறையில் ரத்தச்சிலவு அதிகமில்லை, ஆனால் மூளைக்குக் கொஞ்சம் வேலை.
+
+ரௌத்:- மாமா சொல்வது மகத்துவமான தத்துவம்
+
+கோபதி:- வெகு அருமையான தத்துவம். அவர் இஷ்டம்போல் நடக்கட்டும்
+
+துர்ஜயன்:- எனக்குத் திருமணம் இப்போது தேவை இல்லை. ராணி! அந்த அகம்பாவத்தை இப்போது பார்க்கிறேன்.
+
+## காட்சி 5.
+
+ரௌத்ரன்:- கொக்கரிக்கும் குறிஞ்சிநாடே பெண் கிடையாது. போர்! மணிபல்லவரே உமது மாளிகையில், குறிஞ்சிநாட்டுக் கொடி பறக்கிறது.
+""",
+          9:"""<!-- source: pdf=9 printed=8 status=draft -->
+
+# மருதநாட்டு இளவரசி
+
+துர்ஜயன்:- அதோடு மருதநாட்டு மானமும் சேர்ந்து பறக்கிறது.
+
+ராணி:- மார் தட்டிக்கொள்ளாதீர்கள். நின்று எதிர்க்க முடியாத கோழைகள்!
+
+துர்ஜயன்:- அன்று கடல்மடை திறந்தாற்போல் கர்ஜித்தாயே! இதோ பார் நீ அலட்சியப்படுத்திய ஆணழகன்! உன்னை அடிமையாக்க வந்திருக்கிறான்! வீராதிவீரனாக! வெற்றிச் சிங்கமாக! (சிரிப்பு) உன் வாழ்க்கைத் துணைவனாக!
+
+ராணி:- வஞ்சக நரிகள்! புலியைக் கூண்டில்போட்டு பூட்டிவிட்டு போர் பிரசங்கம் செய்யும் சோதாக்கள்!
+
+துர்ஜயன்:- உன் புலம்பலை கேட்க நேரமில்லை. மணத்திற்கு உன் சம்மதம் அல்லது மணிபல்லவனின் மரணம்!
+
+மணி:- ராணி! சம்மதிக்காதே, என்னைச் சித்திரவதை செய்தாலும் சரி! என்னை நெருப்பில் தள்ளி பொசுக்கினாலும் சரி! என் பிணத்தை காக்கைக்கும் கழுகிற்கும் விருந்தாக்கி, அந்தக் காட்சியை உனக்குக்காட்டினாலும் சரி இந்த சண்டாளனை மணக்கச் சம்மதிக்காதே.
+
+துர்ஜயன்:- சம்மதிக்க வைக்கிறேன்! இப்போது என்ன சொல்கிறாய்!
+
+ராணி:- வேண்டாம், விடுங்கள்.
+
+துர்ஜயன்:- முடியாது! நீ மணத்திற்கு சம்மதித்தாலன்றி விடமுடியாது.
+
+ராணி:- சம்மதித்தேன். அவரை விடுங்கள்!
+
+துர்ஜயன்:- நாளைக்கு பயணம், தயாராகிக்கொள்! அதற்குள் நீ தப்ப முயன்றால் உன் தந்தையின் தலை தரையில் உருளும் ஜாக்கிரதை! இவனைப் பாதுகாப்பில் வையுங்கள்!
+
+## காட்சி 6.
+
+காண்டியன்:- எங்கே ராணி? எங்கே? ராணி! ராணி இளவரசி! என் ராணி இளவரசியா!.............
+""",
+          10:"""<!-- source: pdf=10 printed=9 status=draft -->
+
+# மருதநாட்டு இளவரசி
+
+ராணி:- ஆம்! இளவரசிதான்.
+
+காண:- வேலைக்காரி என்றாயே வேஷக்காரி! சண்டாளி! உன் கண்களில் பொங்குகிறதே அந்தக் காமம்! உன் உதடுகளின் இடுக்கில் வடிகிறதே அந்த நஞ்சு! இவைகளை வைத்துக்கொண்டு, என் நம்பிக்கையை அணு அணுவாக சிதைத்துவிட்டாயே, அரண்மனை பிசாசே!
+
+ராணி:- தங்கள் காதலைப் பெறுவதற்காக.
+
+காண:- காதல்! உன் காம வெறிக்காக போட்ட திரையின் பெயர், காதல்! அழுகல் நாற்றத்திற்குப் பெயர், அந்திமல்லிகையின் வாடை ஆஹா! ஆலகால விஷத்தை அமிர்தம் என்று எண்ணி ஏமாந்தேன்! அஸ்தமனத்தை உதயம் என்று நினைத்து அடியோடு கெட்டேன்! நரகமென்று ஒன்று இருந்தால் உன் நரம்பிற்கு ஒரு நாகத்தை விட்டு கடிக்கவிடுவேன்... அப்போதும் இந்தக் கள்ளியின் நம்பிக்கைக்கு நிவர்த்தி கிடையாது. இளவரசி இரக்கமற்ற பேய்! ஏழைகளை வாட்டி அவர்கள் எலும்பைத் தின்று உடலை மெருகேற்றிக்கொண்ட ராஜவம்சத்தில் உதித்த பிரம்ம ராக்ஷசி! உன் வனப்பாலென்னை மயக்கி, வாக்குவசீகரத்தால் என் வாலிப உள்ளத்தை உருக்குலைத்து நடுத்தெருவில் விட்டு விட்டாயே நாசகாரி! உன்மேல் தவறில்லை! மன்னர்களுக்கு புதுப்புது ராஜ்யங்களைப் பிடிக்கும் ஆசை! அவன் மகளுக்கு புதுப்புது கணவனைப் பிடிக்கும் ஆசை!
+
+ராணி:- இளவரசி ஆணையிடுகிறேன், தயவுசெய்து வெளியேறுங்கள்!
+
+காண:- வெளியேறுகிறேன், ஆனால் வெறுங்கையுடன் போக உத்தேசமில்லை, காமவெறியேற்றி என்னைக் கலங்கச்செய்த உன் விழிகளைப் பிடுங்கிக்கொண்டுதான் வெளியேறுவேன்! நம்பினவனை நட்டாற்றில் விட்டதுமல்லாமல், வெளியே செல்லுங்கள் என்று ஆணையிட்ட அந்த இரும்பு இதயத்தை பெயர்த்துக்கொண்டுதான் வெளியேறுவேன். (கழுத்தை நெறிக்கிறான்)
+""",
+          11:"""<!-- source: pdf=11 printed=10 status=draft -->
+
+# மருதநாட்டு இளவரசி
+
+ரம்பா:- சிப்பாய்கள்! சிப்பாய்கள்!
+
+ராணி:- இப்படி ஓடிவிடுங்கள்.
+
+ரௌத்:- என்ன சதி நடத்துகிறாய்? எங்கு வந்தான் அவன்.
+
+ராணி:- என்னைக் கேட்டுக்கொண்டு வரவில்லை.
+
+ரௌத்:- என் வாளுக்கு வந்த விருந்து தவறிவிட்டது. அந்த ஊதாரி என் கையில் அகப்பட்டிருந்தால் உருத்தெரியாமல் ஆக்கியிருப்பேன்!
+
+ராணி:- வீரர்!
+
+ரௌத்:- சந்தேகமா? உன் அப்பனை என் அடிமையாக்கிய பிறகும் என் வீரத்தில் சந்தேகமா?
+
+ராணி:- சந்தேகமே இல்லை! தூங்குபவன் தலையில் கல்லைப்போடுவதில் சூராதிசூரர்.
+
+ரௌத்:- நான் வேடிக்கை பேச வரவில்லை!
+
+ராணி:- பேசும்படி யாரும் பிரார்த்திக்கவில்லை!
+
+ரௌத்:- போதும் உன் துடுக்கு உன்னை இப்படியே விட்டுவைத்தால், நீ எப்படியும் தப்பிவிடுவாய்; ஓய்! பிரயாணத்திற்கு தயார்செய்யுங்கள்!.....
+
+## காட்சி 7.
+
+(ரௌத்திரன்; காண்டியன் குரலில் பேசுகிறான்)
+
+ரௌத்திரன்:- ராணி...... ராணி, வா, வா .. ஆஹா! முகிலைக்கிழித்து வெளிக்கிளம்பும் முழுமதி உன் சிரிப்பு.
+
+ராணி:- தங்களைப்போல் என் அதரங்கள், கரி நிறமா?
+
+ரௌத்:- அந்திவானத்தின் அழகு வர்ணம் கண்ணே
+
+ராணி:- எங்கே இருக்கிறீர்கள்? என்னைத் தொடுங்கள். தொடமாட்டீர்களா? என்னைப் பிடிக்கவில்லையா?
+
+ரௌத்:- பனியைத் தொடும் இன்பம் உன்னைத் தொடும் இன்பமன்றோ! கனியைச் சுவைப்பேனோ உன் கன்னத்தைச் சுவைத்தபின்!
+"""
+          }
+          P.mkdir(parents=True,exist_ok=True)
+          for n,s in pages.items(): (P/f'{n:03d}.md').write_text(s.rstrip()+"\n",encoding='utf-8')
+          for n in range(7,12):
+              assert f'pdf={n}' in (P/f'{n:03d}.md').read_text(encoding='utf-8')
+          idx['first_pass_pages_completed']=10; idx['first_pass_pdf_range_completed']='2-11'; idx['first_pass_current_through_pdf']=11; idx['first_pass_current_through_logical_printed']=10; idx['draft_pages']=10; idx['historical_glyph_first_pass_checked_pages']=10; idx['open_uncertainty_markers']=0; idx['next_batch_pdf_pages']='12-16';
+          recs=idx['page_records']
+          recs += [
+            {'pdf_page':7,'printed_page':6,'kind':'screenplay','source_scene_id':'3','status':'draft','path':'pages/007.md'},
+            {'pdf_page':8,'printed_page':7,'kind':'screenplay','source_scene_ids':['3','4','5'],'status':'draft','path':'pages/008.md'},
+            {'pdf_page':9,'printed_page':8,'kind':'screenplay','source_scene_ids':['5','6'],'status':'draft','path':'pages/009.md'},
+            {'pdf_page':10,'printed_page':9,'kind':'screenplay','source_scene_id':'6','status':'draft','path':'pages/010.md'},
+            {'pdf_page':11,'printed_page':10,'kind':'screenplay','source_scene_ids':['6','7'],'status':'draft','path':'pages/011.md'}]
+          idx['next_action']='Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.'
+          idxp.write_text(json.dumps(idx,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          (T/'README.md').write_text('''# மருதநாட்டு இளவரசி — canonical Tamil transcription
+
+Status: **FIRST PASS IN PROGRESS — PDF 2–11 / 10 of 21 body pages drafted**.
+
+The rendered scan is canonical authority. The user-supplied extracted transcription may be used only as a candidate/navigation aid; it must never override source pixels.
+
+Current page records are `pages/002.md` through `pages/011.md`. All remain **draft** until the later independent full visual-fidelity and historical-glyph verification gates.
+
+Source structure is preserved: PDF 2–4 is an unnumbered opening segment; PDF 5 begins `காட்சி 2.`; PDF 6 begins `காட்சி 3.` after scene-2 continuation; PDF 8 contains `காட்சி 4.` and `காட்சி 5.`; PDF 9 begins `காட்சி 6.`; and direct source review of PDF 11 confirms printed `காட்சி 7.`. The earlier intake statement that scene 7 was absent is superseded and corrected.
+
+Next batch: **PDF 12–16**.
+''',encoding='utf-8')
+
+          (N/'historical-glyph-audit.md').write_text('''# மருதநாட்டு இளவரசி — historical Tamil glyph audit
+
+Status: **FIRST PASS IN PROGRESS — prospective coverage 10/21 body pages; final independent verification not started**.
+
+The rendered scan uses older Tamil typeforms. Canonical first pass prospectively inspects every source page at enlarged resolution and explicitly checks the known families:
+
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
+
+Rules:
+
+- source pixels control character identity;
+- OCR/parsed text and the user-supplied extraction are candidate aids only;
+- encode proven historical character identity in modern Unicode without modernizing wording;
+- never global-replace a glyph family;
+- preserve occurrence-specific source forms;
+- unresolved glyphs remain explicit and prevent page verification;
+- first-pass pages remain draft until the later independent visual-fidelity and historical-glyph closure gate.
+
+Prospective first-pass coverage: **PDF 2–11 / 10 of 21 body pages**. Open uncertainty markers through PDF 11: **0**. Final independent historical-glyph verification: **0/21**.
+''',encoding='utf-8')
+
+          (N/'scene-heading-correction-001.md').write_text('''# Scene-heading correction 001 — source `காட்சி 7.`
+
+During the PDF 7–11 canonical-Tamil first-pass review, direct inspection of **PDF 11 / printed page 10** clearly showed the heading `காட்சி 7.` followed by `(ரௌத்திரன்; காண்டியன் குரலில் பேசுகிறான்)`.
+
+This supersedes the intake/mapping statement that scene 7 was not observed. The corrected observed numbered-heading sequence is **2,3,4,5,6,7,8,9,10**. PDF 2–4 remains an unnumbered opening segment; no `காட்சி 1.` is invented.
+
+The user-supplied extracted transcription also contained a scene-7 heading, but it is not the authority for this correction; the rendered source pixels are.
+''',encoding='utf-8')
+
+          (W/'mapping.md').write_text('''# மருதநாட்டு இளவரசி — structural mapping
+
+Status: **COMPLETE-VERIFIED, corrected by direct source review during Tamil first pass**.
+
+The scan is image-only. Mapping is established from rendered source pixels, not OCR or extracted text. The initial intake missed `காட்சி 7.`; direct PDF-11 review corrected that error.
+
+## Pagination and content map
+
+| PDF | Printed / logical page | Source structure |
+|---:|:---:|---|
+| 1 | — | Front cover. |
+| 2 | logical 1 | Title/credit box; unnumbered opening begins. |
+| 3 | 2 | Unnumbered opening continues. |
+| 4 | 3 | Unnumbered opening continues; printed `* * *` separator. |
+| 5 | 4 | `காட்சி 2.` begins. |
+| 6 | 5 | `காட்சி 2.` continues; `காட்சி 3.` begins. |
+| 7 | 6 | `காட்சி 3.` continues. |
+| 8 | 7 | `காட்சி 3.` closes; `காட்சி 4.` begins/closes; `காட்சி 5.` begins. |
+| 9 | 8 | `காட்சி 5.` continues; `காட்சி 6.` begins. |
+| 10 | 9 | `காட்சி 6.` continues. |
+| 11 | 10 | `காட்சி 6.` continues; **`காட்சி 7.` begins** with `(ரௌத்திரன்; காண்டியன் குரலில் பேசுகிறான்)`. |
+| 12 | 11 | `காட்சி 7.` continues/closes. |
+| 13 | 12 | `காட்சி 8.` begins with `(ராஜ தர்பார்)`. |
+| 14 | 13 | `காட்சி 8.` continues. |
+| 15 | 14 | `காட்சி 8.` continues. |
+| 16 | 15 | `காட்சி 8.` continues. |
+| 17 | 16 | `காட்சி 8.` continues. |
+| 18 | 17 | `காட்சி 8.` closes; `காட்சி 9.` begins. |
+| 19 | 18 | `காட்சி 9.` continues/closes; `காட்சி 10.` begins with `பலி பீடம்.`. |
+| 20 | 19 | `காட்சி 10.` continues. |
+| 21 | 20 | `காட்சி 10.` continues. |
+| 22 | 21 | `காட்சி 10.` concludes; `நலம்!` and decorative star. |
+
+For PDF 3–22 the visible printed numerals are 2–21. PDF 2 remains logical printed page 1 only; no visible numeral 1 is claimed.
+
+## Corrected observed source-heading sequence
+
+| Order | PDF | Printed/logical | Exact heading / attached source marker |
+|---:|---:|:---:|---|
+| 1 | 5 | 4 | `காட்சி 2.` |
+| 2 | 6 | 5 | `காட்சி 3.` |
+| 3 | 8 | 7 | `காட்சி 4.` |
+| 4 | 8 | 7 | `காட்சி 5.` |
+| 5 | 9 | 8 | `காட்சி 6.` |
+| 6 | 11 | 10 | `காட்சி 7.` + `(ரௌத்திரன்; காண்டியன் குரலில் பேசுகிறான்)` |
+| 7 | 13 | 12 | `காட்சி 8.` + `(ராஜ தர்பார்)` |
+| 8 | 18 | 17 | `காட்சி 9.` |
+| 9 | 19 | 18 | `காட்சி 10.` + `பலி பீடம்.` |
+
+### Numbering disposition
+
+- no source-visible `காட்சி 1.` heading is present in PDF 2–4;
+- PDF 2–4 therefore remains an **unnumbered opening segment**;
+- **`காட்சி 7.` is source-visible on PDF 11**; the earlier intake claim that it was absent is withdrawn;
+- current observed numbered sequence is contiguous from 2 through 10.
+
+## Other structures
+
+- recurring running header: `மருதநாட்டு இளவரசி—திரை வசனம்`;
+- PDF 4 has a `* * *` structural separator;
+- no clearly bounded printed song, lyric or chant block was identified during intake mapping;
+- PDF 22 closes with `நலம்!` and a decorative star;
+- older typeforms require enlarged source-pixel review.
+
+## Gate state
+
+- source intake: **complete**;
+- structural mapping: **complete-verified, corrected for scene 7**;
+- canonical Tamil: **first pass in progress — 10/21 draft**;
+- visual fidelity: **not started**;
+- historical-glyph final audit: **not started**;
+- scene/dialogue/character/song/English/reader layers: **blocked**.
+''',encoding='utf-8')
+
+          metadata='''id: maruthanattu-ilavarasi
+title_ta: "மருதநாட்டு இளவரசி"
+work_type: film
+source_type: printed_screenplay_dialogue_booklet
+source_identifier: TVA_BOK_0065774
+source_filename: "TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf"
+source_pdf_pages: 22
+source_byte_size: 9330870
+source_sha256: 8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f
+source_embedded_text: false
+source_image_only: true
+credit_as_printed: "வசனம் : மு. கருணாநிதி."
+recurring_header_as_printed: "மருதநாட்டு இளவரசி—திரை வசனம்"
+cover_imprint_as_printed: "வியந்தமிழ்ப் பாசறை, கோவில்பட்டி."
+cover_price_as_printed: "விலை அணா 3."
+publication_year_as_printed: null
+edition_statement_as_printed: null
+cover_pdf_pages: "1"
+main_text_pdf_pages: "2-22"
+main_text_logical_printed_pages: "1-21"
+visible_printed_page_numbers: "2-21"
+body_pagination_formula: "logical printed = PDF - 1"
+source_intake: complete
+structural_mapping: complete-verified-corrected
+mapping_path: works/maruthanattu-ilavarasi/mapping.md
+source_numbered_scene_headings: true
+scene_headings_observed: 9
+scene_ids_observed: ["2", "3", "4", "5", "6", "7", "8", "9", "10"]
+scene_number_gaps_observed: []
+source_scene_1_heading_observed: false
+opening_unnumbered_segment_pdf_pages: "2-4"
+opening_unnumbered_segment_logical_printed_pages: "1-3"
+historical_glyph_policy: required
+historical_glyph_guide_path: docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md
+historical_glyph_audit_path: works/maruthanattu-ilavarasi/notes/historical-glyph-audit.md
+canonical_tamil_transcription: first-pass-in-progress
+canonical_tamil_first_pass_pages_completed: 10
+canonical_tamil_first_pass_pdf_range_completed: "2-11"
+canonical_tamil_first_pass_current_through_pdf: 11
+canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/pages/011.md
+canonical_tamil_total_body_pages: 21
+visual_fidelity_audit: not-started
+historical_glyph_audit: first-pass-in-progress-10-of-21
+structured_derivatives: blocked
+next_action: "Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages."
+'''
+          (W/'metadata.yaml').write_text(metadata,encoding='utf-8')
+
+          readme=(W/'README.md').read_text(encoding='utf-8')
+          readme=re.sub(r'## Intake / mapping checkpoint.*?## Exact next activity', '''## Intake / mapping checkpoint
+
+- source intake: **COMPLETE**;
+- structural mapping: **COMPLETE-VERIFIED, corrected during PDF-11 direct source review**;
+- PDF 1 cover; PDF 2–22 body; logical printed 1–21;
+- PDF 2–4 remains an unnumbered opening segment; no source `காட்சி 1.` is invented;
+- corrected source-numbered headings observed: **9 — 2,3,4,5,6,7,8,9,10**;
+- **PDF 11 visibly prints `காட்சி 7.`**; the initial intake claim that scene 7 was absent is superseded;
+- canonical Tamil first pass: **IN PROGRESS — PDF 2–11 / 10 of 21 DRAFT**;
+- prospective historical-glyph check: **10/21**; final independent glyph verification: **0/21**;
+- visual-fidelity verification: **0/21**;
+- open first-pass uncertainty markers through PDF 11: **0**;
+- structured/English/reader derivatives remain **BLOCKED**.
+
+## Exact next activity''',readme,flags=re.S)
+          readme=re.sub(r'> \*\*Canonical Tamil first-pass transcription for PDF 7–11.*?\*\*', '> **Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**',readme,flags=re.S)
+          (W/'README.md').write_text(readme,encoding='utf-8')
+
+          (W/'PROJECT_HANDOVER.md').write_text('''# மருதநாட்டு இளவரசி — Project Handover
+
+Repository: `pugazg/kalaignar-cinema-works`  
+Branch: `main`  
+Work: `works/maruthanattu-ilavarasi/`
+
+**LIVE MAIN IS AUTHORITATIVE.**
+
+## Controlling source
+
+`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. Do not commit the source PDF.
+
+## Durable state
+
+- source intake: **COMPLETE**; mapping: **COMPLETE-VERIFIED-CORRECTED**;
+- body: PDF **2–22** / logical printed **1–21**;
+- PDF 2–4 remains unnumbered; no source `காட்சி 1.` is invented;
+- corrected observed source headings: **2,3,4,5,6,7,8,9,10**;
+- PDF 11 direct review confirms printed `காட்சி 7.`; earlier missing-scene-7 intake statement is superseded;
+- canonical Tamil first pass: **IN PROGRESS — PDF 2–11 / 10 of 21 DRAFT**;
+- prospective historical-glyph check: **10/21**; final independent glyph verification: **0/21**;
+- visual-fidelity verification: **0/21**;
+- open first-pass uncertainty markers through PDF 11: **0**;
+- candidate extracted transcription may assist navigation only; source pixels control;
+- structured/English/reader derivatives remain **BLOCKED**.
+
+## Exact next activity
+
+> **Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**
+''',encoding='utf-8')
+
+          (W/'NEXT_CHAT_PROMPT.md').write_text('''# Next Chat Prompt — மருதநாட்டு இளவரசி / canonical Tamil PDF 12–16
+
+Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`. **LIVE MAIN IS AUTHORITATIVE.**
+
+## Controlling source
+
+`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. Do not commit it.
+
+## Durable state
+
+- intake/mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
+- canonical Tamil first pass: **10/21 DRAFT — PDF 2–11**;
+- PDF 2–4 is the unnumbered opening segment; do not invent scene 1;
+- source headings now confirmed: **2,3,4,5,6,7,8,9,10**;
+- PDF 11 visibly contains `காட்சி 7.`; preserve this correction;
+- historical-glyph prospective coverage: **10/21**; final verification: **0/21**;
+- visual-fidelity verification: **0/21**;
+- later derivatives: **BLOCKED**.
+
+## Next batch
+
+> **Canonical Tamil first-pass transcription for PDF 12–16 as the next five-source-page batch. Use the user-supplied extracted transcription only as a candidate/navigation aid; source pixels remain controlling. Preserve exact wording, punctuation, speaker labels, stage directions, page boundaries and printed scene numbering. Prospectively inspect all historical-glyph-sensitive families on every page, keep all first-pass pages draft, synchronize controls, and commit immediately after the five pages.**
+''',encoding='utf-8')
+
+          # data/works.json
+          dp=Path('data/works.json'); data=json.loads(dp.read_text(encoding='utf-8'))
+          item=next(x for x in data if x.get('id')=='maruthanattu-ilavarasi')
+          item.update({'structural_mapping':'verified-corrected','scene_headings_observed':9,'scene_ids_observed':[2,3,4,5,6,7,8,9,10],'scene_number_gaps_observed':[],'tamil_transcription':'first-pass-in-progress','tamil_first_pass_complete':False,'tamil_transcription_through_pdf_page':11,'tamil_transcription_through_logical_printed_page':10,'tamil_transcription_draft_pages':10,'tamil_transcription_verified_pages':0,'tamil_transcription_review_pages':0,'tamil_fidelity_audit':'not-started','canonical_range_fidelity_audit_complete':False,'total_canonical_pages':21,'total_verified_pages':0,'total_review_pages':0,'next_action':idx['next_action']})
+          dp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # root README status block
+          rp=Path('README.md'); root=rp.read_text(encoding='utf-8')
+          block='''## மருதநாட்டு இளவரசி status
+
+`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` is a **22-page image-only திரை வசனம் source** with intake and corrected structural mapping complete-verified.
+
+- printed credit: **`வசனம் : மு. கருணாநிதி.`**;
+- body: **PDF 2–22 / logical printed 1–21**;
+- opening PDF 2–4 remains **unnumbered**; no source `காட்சி 1.` heading is invented;
+- numbered headings now confirmed: **9 — 2,3,4,5,6,7,8,9,10**;
+- PDF 11 directly confirms `காட்சி 7.`; the initial missing-scene-7 intake statement is superseded;
+- canonical Tamil first pass: **10/21 DRAFT through PDF 11**;
+- prospective historical-glyph coverage: **10/21**; final visual/glyph verification: **0/21**;
+- later derivatives: **BLOCKED**.
+
+**Next:** Canonical Tamil first-pass transcription for **PDF 12–16** as the next five-page batch, with source pixels controlling and all pages remaining draft.
+
+'''
+          root=re.sub(r'## மருதநாட்டு இளவரசி status\n.*?(?=## வண்டிக்காரன் மகன் status)',block,root,flags=re.S)
+          rp.write_text(root,encoding='utf-8')
+
+          # master handover bullet
+          hp=Path('docs/HANDOVER_KALAIGNAR_CINEMA_WORKS.md'); h=hp.read_text(encoding='utf-8')
+          h=re.sub(r'- \*\*Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி\*\* — .*?\n', '- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — source intake **COMPLETE**, structural mapping **COMPLETE-VERIFIED-CORRECTED**; 22-page image-only booklet / body PDF 2–22; printed credit `வசனம் : மு. கருணாநிதி.`; observed source headings **2,3,4,5,6,7,8,9,10** with unnumbered opening PDF 2–4; PDF 11 directly confirms `காட்சி 7.`; canonical Tamil first pass **10/21 DRAFT through PDF 11**; prospective glyph coverage **10/21**, final visual/glyph **0/21**. Next: PDF 12–16 Tamil T1.\n',h)
+          hp.write_text(h,encoding='utf-8')
+
+          sp=Path('docs/STATUS_CONSISTENCY_AUDIT.md'); s=sp.read_text(encoding='utf-8')
+          s=re.sub(r'\| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி \|.*?\| not-started \| not-started \|', '| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil T1 10/21 DRAFT through PDF 11; glyph-first-pass 10/21; final visual/glyph 0/21** | headings **2,3,4,5,6,7,8,9,10**; opening unnumbered; PDF 11 correction confirms scene 7 | not-started | not-started |',s)
+          sp.write_text(s,encoding='utf-8')
+
+          # fail-closed validations
+          assert all((P/f'{n:03d}.md').exists() for n in range(2,12))
+          assert '## காட்சி 7.' in (P/'011.md').read_text(encoding='utf-8')
+          assert 'scene_number_gaps_observed: []' in (W/'metadata.yaml').read_text(encoding='utf-8')
+          assert json.loads(idxp.read_text(encoding='utf-8'))['first_pass_pages_completed']==10
+          assert 'Tamil T1 10/21 DRAFT through PDF 11' in sp.read_text(encoding='utf-8')
+          PY
+      - name: Validate and commit
+        run: |
+          rm .github/workflows/maruthanattu-ilavarasi-t1-007-011-once.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          python -m json.tool works/maruthanattu-ilavarasi/transcription/index.json >/dev/null
+          python -m json.tool data/works.json >/dev/null
+          git commit -m 'Draft Maruthanattu Ilavarasi Tamil PDF 7-11 and correct scene 7 [skip ci]'
+          git push origin main
