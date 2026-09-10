@@ -145,6 +145,8 @@ Rules:
 - preserve source spelling/grammar/punctuation after glyph identity is decoded;
 - keep unresolved clusters explicit rather than guessing.
 
+Dedicated batch 1, PDF **4–8**, is complete with **0 canonical glyph corrections** and **0 unresolved glyph holds**. The old prospective `நாணயத்தின்` → `ணா` example was corrected in the audit because that word does not contain the `ணா` family.
+
 ## Scan condition / defects
 
 - Whole-scan mapping identified **90 complete PDF pages** and did not identify a missing or duplicated complete page.
@@ -160,11 +162,11 @@ Rules:
 - scene-heading inventory: **71/71 observed heading occurrences mapped**;
 - canonical Tamil first pass: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual fidelity audit: **COMPLETE — PDF 4–90 / 87 of 87 visually verified**;
-- historical-glyph full audit: **NOT-STARTED — 0/87** under the mandatory phase order;
+- historical-glyph full audit: **IN PROGRESS — PDF 4–8 / 5 of 87 verified**;
 - structured derivatives: **BLOCKED**;
 - song/performance authorship gate: **NOT-STARTED**;
 - English translation / reader / Reading Room: **NOT-STARTED**.
 
 ## Exact next activity
 
-**Begin the dedicated historical-glyph audit with PDF 4–8 as the first five-page batch. Inspect the mandatory glyph families occurrence by occurrence against enlarged source pixels, record evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph-identity corrections, update the dedicated glyph counters to 5/87 and next batch PDF 9–13, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph audit is complete.**
+**Continue the dedicated historical-glyph audit with PDF 9–13 as the next five-page batch. Inspect the mandatory glyph families occurrence by occurrence against enlarged source pixels, record evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph-identity corrections, update the dedicated glyph counters to 10/87 and next batch PDF 14–18, commit/push, and repeat through PDF 90. Final full visual verification remains blocked until the glyph audit is complete.**

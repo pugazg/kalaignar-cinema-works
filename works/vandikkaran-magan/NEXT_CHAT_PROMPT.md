@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 4–8
+# Next Chat Prompt — வண்டிக்காரன் மகன் / dedicated historical-glyph verification PDF 9–13
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -29,20 +29,18 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **NOT-STARTED — 0 / 87**;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–8 / 5 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **82**;
 - legacy prospective glyph checks from the drafting phase do **not** count toward the dedicated glyph gate;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0**;
 - derivatives: **BLOCKED**.
 
-## Visual-verification closure
+## Latest dedicated glyph batch
 
-The final visual work was completed in the required batch order:
+PDF **4–8** was independently re-read under the dedicated historical-glyph gate. Every occurrence of the mandated families on those five pages was checked directly against the controlling scan. No canonical page-text glyph correction was required. Representative confirmed families include `ளை / றா` on PDF 4; `ணா / ளை / லை / னை` on PDF 5; `லை / ளை / னா / னை` on PDF 7; and `னை / லை / ளை` on PDF 8. PDF 6 contained no target-family occurrence requiring a glyph-identity correction.
 
-- PDF **84–88** — five-page batch, including screenplay ending and first film-credit page;
-- PDF **89–90** — final two-page batch, including remaining film credits and the back cover.
-
-Notable source-controlled corrections in PDF 84–87 include `மர்மங்களே`, `உத்தமர்னு`, `எத்தனையோ`, `இறுக மூடிக்கிடந்த`, `பேயுருவில்`, `தணியுமட்டும்`, `சூழ்கிறார்கள்`, `கள்ளக் கடத்தல்`, `புனிதர்-புண்ணியர்-உத்தமர்-யோகியர்னு`, `ஏன் தயக்கம்`, and `காளையைக் கட்டவிழ்த்து விடவே`. Source scene-heading dash forms `காட்சி - 54`, `காட்சி - 55`, and `காட்சி - 56` were restored. PDF 88–89 credit matter and PDF 90 visible back-cover text were verified directly from the scan.
+The old prospective audit example `நாணயத்தின்` → `ணா` was corrected in the audit: `நாணயத்தின்` is not a `ணா` occurrence. This was an audit-only correction; the canonical word itself was already correct.
 
 ## Dedicated historical-glyph rule
 
@@ -54,4 +52,4 @@ Inspect enlarged source pixels occurrence by occurrence. Never global-replace. D
 
 ## Exact next activity
 
-> **Process PDF 4–8 as the first five-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in the historical-glyph audit, update the dedicated glyph counters to 5/87 with next batch PDF 9–13, commit/push the five-page batch to `main`, then synchronize checkpoint docs. The old prospective drafting checks do not satisfy this dedicated gate.**
+> **Process PDF 9–13 as the next five-page dedicated historical-glyph verification batch. Reinspect every occurrence of the mandated historical Tamil glyph families directly against enlarged source pixels, make only source-supported glyph-identity corrections, record the batch evidence in `notes/historical-glyph-audit.md`, update the dedicated glyph counters to 10/87 with next batch PDF 14–18, commit/push the five-page batch to `main`, then synchronize checkpoint docs. Final full visual verification remains blocked until the historical-glyph phase reaches PDF 90.**

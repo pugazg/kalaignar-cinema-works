@@ -54,24 +54,26 @@ No global replacement; inspect source pixels occurrence by occurrence.
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - visually verified contiguous range: **PDF 4–90**;
 - draft pages: **0**;
-- dedicated historical-glyph verification: **0 / 87 / NOT-STARTED**;
+- dedicated historical-glyph verification: **PDF 4–8 / 5 of 87 VERIFIED / IN PROGRESS**;
+- dedicated glyph pages remaining: **82**;
 - legacy prospective drafting checks do not close the dedicated glyph gate;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - derivatives: **BLOCKED**.
 
-## Final visual-verification closure — PDF 84–90
+## Dedicated historical-glyph batch 1 — PDF 4–8
 
-- PDF 84–88 was completed as the final required five-page batch before the remainder;
-- PDF 89–90 was completed as the final two-page remainder batch;
-- PDF 84 restores `மர்மங்களே`, `உத்தமர்னு`, `எத்தனையோ`, and `இறுக மூடிக்கிடந்த`;
-- PDF 85 restores source `காட்சி - 54` and `பேயுருவில்`;
-- PDF 86 restores `தணியுமட்டும்`, `சூழ்கிறார்கள்`, source `காட்சி - 55`, `முறைதவறி`, and `கள்ளக் கடத்தல்`;
-- PDF 87 restores `புனிதர்-புண்ணியர்-உத்தமர்-யோகியர்னு`, `ஏன் தயக்கம்`, `காளையைக் கட்டவிழ்த்து விடவே`, and source `காட்சி - 56`;
-- PDF 88–89 film-credit matter was verified directly from the scan, including `இயக்குநர்` and the source-visible technical/background-singer credits;
-- PDF 90 visible back-cover text was verified without reconstructing text hidden by the physical label/scan obstruction;
-- all 87 scoped page records are now `visual-verified`.
+- all five pages were independently re-read against the controlling scan under the dedicated gate;
+- every occurrence of the mandated glyph families on those pages was checked occurrence by occurrence;
+- PDF 4 confirms `ளை` and `றா` families in source words including `எதிர்ப்புகளை`, `பிள்ளைதான்`, and `நூற்றாண்டு`;
+- PDF 5 confirms `ணா / ளை / லை / னை`, including multiple `அண்ணா` occurrences, `எதிரிகளைப்`, `தலையெழுத்தை`, `மகனை`, and `இல்லையேல்`;
+- PDF 6 required no target-family glyph correction;
+- PDF 7 confirms `லை / ளை / னா / னை`, including `காலைத்தொட்டுக்`, `என்னால்`, `கட்டளை`, `குமணனாய்`, `கர்ணனாய்க்`, and `புருஷனைத்`;
+- PDF 8 confirms `னை / லை / ளை`, including `மனைவி`, `கவலை`, and `விளையாடு`;
+- canonical page-text glyph corrections in this batch: **0**;
+- unresolved glyph holds: **0**;
+- audit-only correction: the old prospective `நாணயத்தின்` → `ணா` example was withdrawn because that word does not contain the `ணா` family.
 
 ## Exact next activity
 
-> **Begin the dedicated historical-glyph phase with PDF 4–8 as one five-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 5/87 and next batch PDF 9–13; commit/push to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**
+> **Run dedicated historical-glyph verification on PDF 9–13 as the next five-page batch. Inspect every mandated historical Tamil glyph occurrence directly against enlarged source pixels; make only source-supported glyph-identity corrections; record the evidence in `notes/historical-glyph-audit.md`; update the dedicated glyph counters to 10/87 and next batch PDF 14–18; commit/push the batch to `main`; then synchronize durable status. Do not begin final full visual verification until historical-glyph verification reaches PDF 90.**

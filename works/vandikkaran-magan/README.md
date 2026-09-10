@@ -56,20 +56,19 @@ Do not interleave phases.
 - first-pass transcription: **COMPLETE — PDF 4–90 / 87 of 87 scoped pages**;
 - visual verification: **COMPLETE — PDF 4–90 / 87 of 87 VERIFIED**;
 - remaining visual-verification pages: **0**;
-- dedicated historical-glyph verification: **NOT-STARTED — 0/87**;
+- dedicated historical-glyph verification: **IN PROGRESS — PDF 4–8 / 5 of 87 VERIFIED**;
+- dedicated glyph pages remaining: **82**;
 - legacy prospective glyph checks from drafting do not close the dedicated glyph phase;
 - final visual verification: **NOT-STARTED**;
 - open uncertainty markers: **0 recorded**;
 - structured derivatives / English / reader work: **BLOCKED**.
 
-## Final visual batches
+## Latest dedicated historical-glyph batch
 
-- PDF **84–88** completed the last full five-page visual batch;
-- PDF **89–90** completed the final remainder;
-- notable source corrections include `மர்மங்களே`, `உத்தமர்னு`, `எத்தனையோ`, `இறுக மூடிக்கிடந்த`, `பேயுருவில்`, `தணியுமட்டும்`, `சூழ்கிறார்கள்`, `கள்ளக் கடத்தல்`, `புனிதர்-புண்ணியர்-உத்தமர்-யோகியர்னு`, `ஏன் தயக்கம்`, and `காளையைக் கட்டவிழ்த்து விடவே`;
-- source scene-heading dash forms `காட்சி - 54`, `காட்சி - 55`, and `காட்சி - 56` were restored;
-- PDF 88–89 film credits and PDF 90 visible back-cover text were visually verified directly from the scan.
+PDF **4–8** is complete under the dedicated glyph gate. The mandated families were re-read occurrence by occurrence against the controlling scan. Representative confirmed forms include `ளை / றா` on PDF 4, `ணா / ளை / லை / னை` on PDF 5, `லை / ளை / னா / னை` on PDF 7, and `னை / லை / ளை` on PDF 8. PDF 6 required no target-family glyph correction.
+
+Canonical page-text glyph corrections in this batch: **0**. Unresolved glyph holds: **0**. The old prospective audit example `நாணயத்தின்` → `ணா` was corrected as audit metadata only because that word does not contain the `ணா` family.
 
 ## Exact next activity
 
-> **Begin dedicated historical-glyph verification with PDF 4–8. Inspect the mandated glyph families occurrence by occurrence from enlarged source pixels, record the evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 5/87 and next batch PDF 9–13, commit/push, and continue in five-page batches through PDF 90. Final full visual verification remains blocked until that glyph phase is complete.**
+> **Run dedicated historical-glyph verification on PDF 9–13 as the next five-page batch. Inspect every target-family occurrence directly against enlarged source pixels, record source evidence in `notes/historical-glyph-audit.md`, make only source-supported glyph corrections, update the dedicated glyph counters to 10/87 and next batch PDF 14–18, commit/push, and continue through PDF 90. Final full visual verification remains blocked until the glyph phase is complete.**
