@@ -31,4 +31,4 @@ See `../notes/scene-boundary-ownership-qa.md`.
 
 ## Downstream gate
 
-Scene-text derivatives are **COMPLETE-VERIFIED**. Dialogue indexing may now open. Character/entity indexing remains blocked until dialogue indexing closes.
+Scene-text derivatives remain **COMPLETE-VERIFIED**. The downstream immutable dialogue index is now **COMPLETE-VERIFIED — 744 records / QA PASS**. Character/entity indexing is **READY-NEXT**.

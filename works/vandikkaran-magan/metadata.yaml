@@ -93,7 +93,7 @@ status:
   canonical_tamil_index_path: works/vandikkaran-magan/transcription/index.json
   canonical_tamil_batch_size_source_pages: 5
   visual_fidelity_audit: complete-87-of-87-through-pdf-90
-  historical_glyph_first_pass_checked_pages: 10
+  historical_glyph_first_pass_checked_pages: 87
   historical_glyph_final_verified_pages: 87
   historical_glyph_verified_pdf_range_completed: 4-90
   historical_glyph_current_through_pdf: 90
@@ -106,10 +106,20 @@ status:
   final_visual_corrections: 0
   final_visual_audit_path: works/vandikkaran-magan/notes/final-visual-audit.md
   scene_text_derivatives: complete-verified-72-of-72
-  dialogue_index: ready-next
-  character_entity_index: blocked
+  dialogue_index: complete-verified
+  dialogue_index_path: works/vandikkaran-magan/dialogues/index.json
+  dialogue_records: 744
+  dialogue_distinct_exact_speaker_labels: 38
+  dialogue_zero_record_scenes: 15
+  dialogue_cross_page_records: 3
+  dialogue_reviewed_anomalous_non_colon_candidates: 16
+  dialogue_anomalous_candidates_promoted: 0
+  dialogue_unlabelled_speaker_assignments: 0
+  dialogue_qa: PASS
+  dialogue_qa_path: works/vandikkaran-magan/notes/dialogue-index-qa.json
+  character_entity_index: ready-next
   song_performance_authorship_gate: blocked
   english_translation: blocked
   reader_export: blocked
   reading_room_integration: blocked
-next_action: "Build and verify the immutable dialogue index from the 72 complete-verified scene derivatives. Extract only explicit source speaker-labelled utterances; preserve exact speaker labels, dialogue text, scene identity, PDF/printed provenance and cross-page ownership; leave unlabelled speech unassigned; run whole-work uniqueness/coverage QA; commit/push; then synchronize mirrors before character/entity indexing."
+next_action: "Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records."

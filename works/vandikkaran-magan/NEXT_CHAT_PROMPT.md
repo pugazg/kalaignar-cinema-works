@@ -1,4 +1,4 @@
-# Next Chat Prompt — வண்டிக்காரன் மகன் / dialogue index
+# Next Chat Prompt — வண்டிக்காரன் மகன் / character-entity index
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/vandikkaran-magan/`. **LIVE MAIN IS AUTHORITATIVE.**
 
@@ -11,18 +11,23 @@ Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work
 - canonical source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90**;
 - open source/glyph uncertainty: **0**;
 - source-visible scene-heading inventory: **72/72 COMPLETE-VERIFIED**;
-- corrective structural finding: PDF 10 source heading `காட்சி — 4 எ.` is authoritative scene ID `4-எ`; no Tamil source rewrite was required;
 - scene derivatives: **72/72 COMPLETE-VERIFIED**;
-- scene boundary ownership: **PASS — 82/82 screenplay pages, 0 gaps, 0 overlaps, 0 duplicate source ownership**;
+- scene boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
 - canonical/joined scene-body SHA-256: `84227c9855f3de942c8f1c240f9e6ddeee2d13f348fdda14b7712a81c4cfc19a`;
-- PDF 4–5 and PDF 88–90 are not scenes.
+- immutable dialogue index: **744 records / 38 exact source speaker labels / COMPLETE-VERIFIED / QA PASS**;
+- delimiter distribution: **`:—` 736 / `:` 8**;
+- zero-dialogue scenes: **15**;
+- cross-page dialogue records: **3**, preserved as single records with page segments;
+- reviewed anomalous non-colon candidates promoted: **0/16**;
+- unlabelled source blocks assigned a speaker: **0**;
+- duplicate dialogue IDs / speaker-label normalizations: **0 / 0**.
 
-Do not reopen the closed Tamil or scene layers without new direct contradictory evidence from the controlling scan.
+Do not reopen the closed Tamil, scene, or dialogue layers without new direct contradictory evidence from the controlling scan.
 
-## Dialogue-index rules
+## Character/entity-index rules
 
-Follow `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` Phase 10. Only explicitly speaker-labelled source utterances become immutable dialogue records. Preserve the exact source label and exact Tamil dialogue. Unlabelled speech stays unlabelled. A labelled utterance crossing pages remains one dialogue record. A scene may legitimately contain zero labelled dialogue.
+Follow `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` Phase 11. Inventory every exact immutable `speaker_label` first. Character/entity mapping is interpretive metadata only: never rewrite dialogue records, never normalize their source labels, preserve spelling variants and abbreviations, and leave generic roles/voices/collectives explicit when identity is not source-supported. Reused labels such as generic `குரல்`-type labels must not be collapsed automatically.
 
 ## Exact next activity
 
-> **Construct and verify the complete immutable dialogue index from `scenes/index.json` and the 72 verified scene files. Create the dialogue schema/index/records in the repository's established format; assign stable IDs; preserve exact `speaker_label`, exact source dialogue, source scene identity, PDF/printed-page provenance and cross-page metadata; do not turn stage directions, songs, written matter or unlabelled speech into dialogue; run whole-work coverage/uniqueness QA; commit/push; then synchronize checkpoints before character/entity indexing.**
+> **Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.**

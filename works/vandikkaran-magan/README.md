@@ -22,12 +22,21 @@ See `notes/scene-heading-audit.md`, `scenes/index.json`, `scenes/README.md`, and
 
 ## Downstream gates
 
-- dialogue index: **READY-NEXT**;
-- character/entity index: **BLOCKED pending dialogue closure**;
-- song/performance authorship: **BLOCKED**;
+- dialogue index: **COMPLETE-VERIFIED — 744 immutable records / QA PASS**;
+- exact source speaker labels: **38**;
+- delimiter distribution: **`:—` 736 / `:` 8**;
+- zero-dialogue scenes: **15**;
+- cross-page dialogue records: **3**, each retained as one immutable record;
+- unlabelled source blocks assigned a speaker: **0**;
+- reviewed anomalous non-colon candidates promoted to dialogue: **0/16**;
+- character/entity index: **READY-NEXT**;
+- song/performance authorship: **BLOCKED pending character/entity closure**;
 - English translation: **BLOCKED**;
 - reader/export / Reading Room: **BLOCKED**.
 
+See `dialogues/index.json`, `dialogues/README.md`, `notes/unlabelled-block-audit.json`, and `notes/dialogue-index-qa.json`.
+
 ## Exact next activity
 
-Build the immutable dialogue index from the 72 verified scenes. Extract only explicitly speaker-labelled utterances; preserve exact labels/text and page provenance; merge cross-page continuations into one record; leave unlabelled speech unassigned; allow zero-dialogue scenes; run whole-work uniqueness/coverage QA; then synchronize mirrors before character/entity indexing.
+> **Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.**
+

@@ -29,13 +29,15 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 - source: **90 PDF pages / 26,391,039 bytes / SHA-256 `03579030ad0a082062d907c1ac12cb4eb497a261836d676a8fa46cd5c0c86253` / first edition 1978**;
 - source credits: **`மூலக்கதை அண்ணா` / `திரைக்கதை-வசனம் கலைஞர்`**;
 - canonical Tamil source layer: **87/87 COMPLETE-VERIFIED — PDF 4–90 / 0 open uncertainties**;
-- scene-heading inventory: **72/72 COMPLETE-VERIFIED**, including recovered inventory item `4-எ` at PDF 10; base 1–56, 17 suffix insertions, combined `45-46`;
+- scene-heading inventory: **72/72 COMPLETE-VERIFIED**, including source scene `4-எ` at PDF 10; base 1–56, 17 suffix insertions, combined `45-46`;
 - scene derivatives: **72/72 COMPLETE-VERIFIED**;
 - boundary ownership: **PASS — 82/82 screenplay pages / 0 gaps / 0 overlaps / 0 duplicate ownership**;
-- dialogue index: **READY-NEXT**;
-- character/entity, song/performance, English and reader layers: **gated downstream**.
+- immutable dialogue index: **744 records / 38 exact labels / COMPLETE-VERIFIED / QA PASS**;
+- dialogue safeguards: **15 zero-dialogue scenes / 3 cross-page records / 0 unlabelled speaker assignments / 0 of 16 reviewed non-colon candidates promoted**;
+- character/entity index: **READY-NEXT**;
+- song/performance, English and reader layers: **gated downstream**.
 
-**Next:** Build the immutable dialogue index from the 72 verified scene derivatives. Extract only explicitly speaker-labelled utterances, preserve exact labels/text and page provenance, merge cross-page continuations, leave unlabelled speech unassigned, run whole-work uniqueness/coverage QA, then synchronize mirrors before character/entity indexing.
+**Next:** Begin character/entity indexing from the complete-verified immutable dialogue layer. Preserve all exact source speaker labels as immutable provenance; map label variants to character/entity IDs only in a separate interpretive alias layer; keep generic roles, voices, collectives and source abbreviations explicit; and run whole-work label/entity coverage QA before opening the song/performance authorship gate. Do not rewrite canonical Tamil, scenes, or dialogue records.
 
 ## நாம் status
 
