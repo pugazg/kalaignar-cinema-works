@@ -391,6 +391,23 @@
     "text": "இதோ... இந்தப் பெண் பூங்கொடியை விட்டுவிட்டு என் மனைவி இறந்துவிட்டாள்!... தாயில்லாக் குழந்தையை வச்சிகிட்டு நான் தவிக்கிறேன்!.."
   },
   {
+    "scene_id": "vandikkaran-magan-s001",
+    "scene_ordinal": 1,
+    "source_scene_id": "1",
+    "source_heading": "காட்சி—1",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-001.md",
+    "page_provenance": [
+      {
+        "pdf_page": 8,
+        "printed_page": 7
+      }
+    ],
+    "text": "(குழந்தையைத் தூக்கி) அய்யோ பாவம்!...தங்கப் பதுமை மாதிரி இருக்கு...குழந்தை... ஏம்மா! ஜலதோஷமா உனக்கு... (மூக்கைச் சிந்தி விடுகிறார்..)",
+    "id": "vandikkaran-magan-s001-d031"
+  },
+  {
     "id": "vandikkaran-magan-s001-d024",
     "scene_id": "vandikkaran-magan-s001",
     "scene_ordinal": 1,

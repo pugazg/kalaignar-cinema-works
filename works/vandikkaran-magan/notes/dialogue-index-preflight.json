@@ -1,7 +1,7 @@
 {
   "work_id": "vandikkaran-magan",
   "phase": "dialogue-index-preflight",
-  "status": "review-complete",
+  "status": "superseded-by-structural-collision-reconciliation",
   "authority": "72/72 complete-verified source-led scene derivatives backed by canonical PDF 6-87",
   "scene_count": 72,
   "explicit_dialogue_candidates": 744,
@@ -10810,5 +10810,9 @@
       ]
     ],
     "result": "PASS"
-  }
+  },
+  "historical_preflight_explicit_dialogue_candidates": 744,
+  "current_reconciled_dialogue_records": 773,
+  "structural_collision_reconciliation": "dialogue-structural-collision-audit.json",
+  "note": "Historical navigation preflight retained for audit history. It undercounted 29 spoken source-labelled lines because its legacy structural classifier ran before speaker parsing. Current authority is dialogues/index.json plus dialogue-structural-collision-audit.json."
 }

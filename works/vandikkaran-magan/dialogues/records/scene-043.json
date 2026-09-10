@@ -338,5 +338,39 @@
       }
     ],
     "text": "நாம் மட்டுமல்ல; இந்த நாடே பார்க்கத்தான் போகிறது!..."
+  },
+  {
+    "scene_id": "vandikkaran-magan-s043",
+    "scene_ordinal": 43,
+    "source_scene_id": "32",
+    "source_heading": "காட்சி 32",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-043.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 57
+      }
+    ],
+    "text": "ஹா! (சிரிப்பு)",
+    "id": "vandikkaran-magan-s043-d021"
+  },
+  {
+    "scene_id": "vandikkaran-magan-s043",
+    "scene_ordinal": 43,
+    "source_scene_id": "32",
+    "source_heading": "காட்சி 32",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-043.md",
+    "page_provenance": [
+      {
+        "pdf_page": 58,
+        "printed_page": 57
+      }
+    ],
+    "text": "ஹா! (சிரிப்பு)",
+    "id": "vandikkaran-magan-s043-d022"
   }
 ]

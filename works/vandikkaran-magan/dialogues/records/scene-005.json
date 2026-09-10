@@ -187,6 +187,23 @@
     "text": "நம் ஜமீனுக்குள் மதுவின் வாடையே இனிமேல் அடிக்கக் கூடாதுன்னு புதுஉத்தரவு போட்டிருக்கேன்!.."
   },
   {
+    "scene_id": "vandikkaran-magan-s005",
+    "scene_ordinal": 5,
+    "source_scene_id": "4-எ",
+    "source_heading": "காட்சி — 4 எ.",
+    "speaker_label": "மரகதம்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-005.md",
+    "page_provenance": [
+      {
+        "pdf_page": 10,
+        "printed_page": 9
+      }
+    ],
+    "text": "ஓ!.. (என்றவாறு புத்தக அலமாரியைத் திருப்ப — மது பாட்டில்களின் அலமாரி திரும்புகிறது. மரகதம், ஒரு கிளாசில் ஊற்றி ஜமீன்தாருக்குத் தருகிறாள்...)",
+    "id": "vandikkaran-magan-s005-d032"
+  },
+  {
     "id": "vandikkaran-magan-s005-d012",
     "scene_id": "vandikkaran-magan-s005",
     "scene_ordinal": 5,
@@ -270,6 +287,23 @@
       }
     ],
     "text": "மரகதம்! நீ உன் சொந்த அனுபவத்தைத்தானே சொல்றே?..."
+  },
+  {
+    "scene_id": "vandikkaran-magan-s005",
+    "scene_ordinal": 5,
+    "source_scene_id": "4-எ",
+    "source_heading": "காட்சி — 4 எ.",
+    "speaker_label": "மரகதம்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-005.md",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 10
+      }
+    ],
+    "text": "போங்கள்!.. (வெட்கத்துடன் படுக்கையில் போய் சாய்தல். ஜமீன்தார் தொடர்ந்து சென்று அவளைத் தழுவிக் கொண்டு..)",
+    "id": "vandikkaran-magan-s005-d033"
   },
   {
     "id": "vandikkaran-magan-s005-d017",

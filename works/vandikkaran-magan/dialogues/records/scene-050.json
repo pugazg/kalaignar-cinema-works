@@ -136,6 +136,23 @@
     "text": "(கண்களை அகலத் திறந்து) காளிங்கா! யாரது?.."
   },
   {
+    "scene_id": "vandikkaran-magan-s050",
+    "scene_ordinal": 50,
+    "source_scene_id": "38",
+    "source_heading": "காட்சி — 38",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-050.md",
+    "page_provenance": [
+      {
+        "pdf_page": 63,
+        "printed_page": 62
+      }
+    ],
+    "text": "நம்ம ஜால்ராப் புலவர்!...தமிழை எடுத்து அப்படியே தட்டுறார். (ஜால்ரா போல கையை காட்டி)",
+    "id": "vandikkaran-magan-s050-d022"
+  },
+  {
     "id": "vandikkaran-magan-s050-d009",
     "scene_id": "vandikkaran-magan-s050",
     "scene_ordinal": 50,

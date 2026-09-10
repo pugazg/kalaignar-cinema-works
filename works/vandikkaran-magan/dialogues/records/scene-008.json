@@ -119,6 +119,23 @@
     "text": "அப்ப சரி... உமாதான் பொண்ணு! — சொக்கலிங்கம் தான் மாப்பிள்ளே!.."
   },
   {
+    "scene_id": "vandikkaran-magan-s008",
+    "scene_ordinal": 8,
+    "source_scene_id": "7",
+    "source_heading": "காட்சி — 7",
+    "speaker_label": "சொக்க",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-008.md",
+    "page_provenance": [
+      {
+        "pdf_page": 14,
+        "printed_page": 13
+      }
+    ],
+    "text": "நான் மாட்டேண்டா...(என்று ஓட, ஒரு சிறுவன் அவனைத் துரத்துகிறான்.)",
+    "id": "vandikkaran-magan-s008-d029"
+  },
+  {
     "id": "vandikkaran-magan-s008-d008",
     "scene_id": "vandikkaran-magan-s008",
     "scene_ordinal": 8,
@@ -153,6 +170,23 @@
     "text": "வண்டிக்காரப் பயலுக்குப் பொறந்த கழுதை!... நீ ஜமீன்தார் ஜம்புலிங்க பூபதியின் மகளுக்கா தாலி கட்டப் போகிறாய்?..."
   },
   {
+    "scene_id": "vandikkaran-magan-s008",
+    "scene_ordinal": 8,
+    "source_scene_id": "7",
+    "source_heading": "காட்சி — 7",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-008.md",
+    "page_provenance": [
+      {
+        "pdf_page": 14,
+        "printed_page": 13
+      }
+    ],
+    "text": "இனிமே இந்தப் பக்கம் வராதே! வராதே!...(அடிக்கிறார்; அடித்துக் கொண்டே இருக்கிறார்...)",
+    "id": "vandikkaran-magan-s008-d030"
+  },
+  {
     "id": "vandikkaran-magan-s008-d010",
     "scene_id": "vandikkaran-magan-s008",
     "scene_ordinal": 8,
@@ -185,6 +219,23 @@
       }
     ],
     "text": "எஜமான்! எஜமான்! அவனை அடிக்காதீங்க!... எஜமான், அடிக்காதீங்க!..."
+  },
+  {
+    "scene_id": "vandikkaran-magan-s008",
+    "scene_ordinal": 8,
+    "source_scene_id": "7",
+    "source_heading": "காட்சி — 7",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-008.md",
+    "page_provenance": [
+      {
+        "pdf_page": 14,
+        "printed_page": 13
+      }
+    ],
+    "text": "இவன் கையை முறிச்சாதான் என்ன? (சொக்குவின் கையைத் திருகுகிறார். அவன் அலறுகிறான்.)",
+    "id": "vandikkaran-magan-s008-d031"
   },
   {
     "id": "vandikkaran-magan-s008-d012",
@@ -272,6 +323,23 @@
     "text": "கூட்டத்துக்கு மத்தியிலே ஒரு ஜமீன்தார்!... குதிரை லாயத்திலே இன்னொரு ஜமீன்தாரான்னு கேட்கிறேன்!"
   },
   {
+    "scene_id": "vandikkaran-magan-s008",
+    "scene_ordinal": 8,
+    "source_scene_id": "7",
+    "source_heading": "காட்சி — 7",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-008.md",
+    "page_provenance": [
+      {
+        "pdf_page": 15,
+        "printed_page": 14
+      }
+    ],
+    "text": "(சொக்கலிங்கத்தை எறிந்து விட்டு)... கேட்படி. கேட்ப!...(அவள் தலைமயிரைப் பிடித்து அறையப் போகிறார்...)",
+    "id": "vandikkaran-magan-s008-d032"
+  },
+  {
     "id": "vandikkaran-magan-s008-d017",
     "scene_id": "vandikkaran-magan-s008",
     "scene_ordinal": 8,
@@ -287,6 +355,23 @@
       }
     ],
     "text": "எஜமான்!..."
+  },
+  {
+    "scene_id": "vandikkaran-magan-s008",
+    "scene_ordinal": 8,
+    "source_scene_id": "7",
+    "source_heading": "காட்சி — 7",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-008.md",
+    "page_provenance": [
+      {
+        "pdf_page": 15,
+        "printed_page": 14
+      }
+    ],
+    "text": "என்ன சொன்னே?... யாரைப் பார்த்துக் குடிகாரன்னே! என்னைப் பார்த்தா?... என்னைப் பார்த்தா?... (அவளைத் தள்ளிக்கொண்டே போகிறார் தலைமுடியைப் பிடித்தவாறு...)",
+    "id": "vandikkaran-magan-s008-d033"
   },
   {
     "id": "vandikkaran-magan-s008-d018",

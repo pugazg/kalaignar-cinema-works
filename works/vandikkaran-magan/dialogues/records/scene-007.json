@@ -119,6 +119,23 @@
     "text": "சரிடா கண்ணு சீக்கிரம் விளையாடிட்டு வந்து.. கால் கையை கழுவிட்டு...படிடாம்மா..."
   },
   {
+    "scene_id": "vandikkaran-magan-s007",
+    "scene_ordinal": 7,
+    "source_scene_id": "6",
+    "source_heading": "காட்சி — 6",
+    "speaker_label": "சொக்க",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-007.md",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "text": "சரிம்மா!... (முத்தம் கொடுத்து விட்டு ஓடுகிறான்.)",
+    "id": "vandikkaran-magan-s007-d009"
+  },
+  {
     "id": "vandikkaran-magan-s007-d008",
     "scene_id": "vandikkaran-magan-s007",
     "scene_ordinal": 7,

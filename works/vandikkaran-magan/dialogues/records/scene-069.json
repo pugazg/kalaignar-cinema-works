@@ -170,6 +170,23 @@
     "text": "கோகிலா!...."
   },
   {
+    "scene_id": "vandikkaran-magan-s069",
+    "scene_ordinal": 69,
+    "source_scene_id": "53-டி",
+    "source_heading": "காட்சி -- 53 டி",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-069.md",
+    "page_provenance": [
+      {
+        "pdf_page": 83,
+        "printed_page": 82
+      }
+    ],
+    "text": "அம்மா!... அம்மா!!... விங்கன்!... (என்று அவன் கையைப் பிடிக்கப் போனவள் உயிரை விடுகிறாள்.)",
+    "id": "vandikkaran-magan-s069-d015"
+  },
+  {
     "id": "vandikkaran-magan-s069-d011",
     "scene_id": "vandikkaran-magan-s069",
     "scene_ordinal": 69,

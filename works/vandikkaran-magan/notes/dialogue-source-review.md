@@ -1,6 +1,6 @@
 # வண்டிக்காரன் மகன் — dialogue source review
 
-Status: **PASS / CLOSED**
+Status: **PASS / CLOSED / LATE RECONCILIATION APPLIED**
 
 This note records the source-sensitive adjudications that were required between dialogue preflight and immutable record generation. The controlling authority remains the rendered image-only scan `TVA_BOK_0062961_வண்டிக்காரன்_மகன்.pdf`; no PDF binary is committed.
 
@@ -24,4 +24,4 @@ The preflight inventoried **148** unlabelled ordinary blocks. They were reviewed
 
 ## Closure
 
-The final immutable dialogue layer contains **744 records / 38 exact labels**, with **15** legitimate zero-dialogue scenes, **3** multi-page records, **0** duplicate dialogue IDs and **0** speaker-label normalizations. See `dialogue-index-qa.json` and `../dialogues/index.json`.
+A later structural-collision audit reopened this gate on direct canonical evidence: 31 explicit-label lines had been hidden from the legacy parser by line-ending parenthetical syntax. **29** are spoken utterances and were restored with append-only IDs; **2** are source-labelled action-only lines and remain outside dialogue. The reconciled immutable dialogue layer therefore contains **773 records / 38 exact labels**, with **15** legitimate zero-dialogue scenes, **3** multi-page records, **0** duplicate dialogue IDs and **0** speaker-label normalizations. All original **744/744 IDs** remain unchanged. See `dialogue-index-qa.json` and `../dialogues/index.json`.

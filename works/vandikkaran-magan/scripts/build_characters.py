@@ -60,16 +60,16 @@ M = {
 }
 
 idx = json.loads((D / 'index.json').read_text(encoding='utf-8'))
-assert idx['status'] == 'complete-verified'
-assert idx['dialogue_record_count'] == 744
+assert idx['status'] in {'complete-verified','complete-verified-reconciled'}
+assert idx['dialogue_record_count'] == 773
 assert idx['distinct_exact_speaker_labels'] == 38
 
 records = []
 for path in sorted((D / 'records').glob('scene-*.json')):
     rows = json.loads(path.read_text(encoding='utf-8'))
     records.extend(rows)
-assert len(records) == 744
-assert len({r['id'] for r in records}) == 744
+assert len(records) == 773
+assert len({r['id'] for r in records}) == 773
 labels = sorted({r['speaker_label'] for r in records})
 assert len(labels) == 38
 assert set(labels) == set(M), (set(labels)-set(M), set(M)-set(labels))
@@ -162,9 +162,9 @@ for entity_id in sorted(entity_rows):
 assert len(entities) == 32
 entity_type_counts = dict(Counter(e['entity_type'] for e in entities))
 assert entity_type_counts == {'character': 15, 'collective': 3, 'role': 14}, entity_type_counts
-assert sum(e['dialogue_record_count'] for e in entities) == 744
-assert len(record_dispositions) == 744
-assert len({x['record_id'] for x in record_dispositions}) == 744
+assert sum(e['dialogue_record_count'] for e in entities) == 773
+assert len(record_dispositions) == 773
+assert len({x['record_id'] for x in record_dispositions}) == 773
 assert all(x['dialogue_record_modified'] is False for x in record_dispositions)
 assert all(x['status'] == 'verified' for x in label_inventory)
 
@@ -211,7 +211,7 @@ index = {
     'review_labels': 0,
     'unresolved_labels': 0,
     'label_coverage': '38/38',
-    'dialogue_record_coverage': '744/744',
+    'dialogue_record_coverage': '773/773',
     'remaining_unmapped_labels': 0,
     'remaining_unmapped_records': 0,
     'record_aware_labels': [],
@@ -253,8 +253,8 @@ qa = {
         'dialogue_gate_complete_verified': True,
         'all_38_exact_labels_inventoried': True,
         'all_38_exact_labels_mapped_once': True,
-        'all_744_dialogue_records_mapped_once': True,
-        'entity_counts_sum_to_744': True,
+        'all_773_dialogue_records_mapped_once': True,
+        'entity_counts_sum_to_773': True,
         'generic_roles_collectives_not_promoted_to_named_people': True,
         'named_voice_labels_linked_only_by_source_explicit_possessive_identity': True,
         'upstream_dialogue_mutation_required': False,
@@ -262,9 +262,9 @@ qa = {
     'next_activity': NEXT,
 }
 
-preflight_md = '''# வண்டிக்காரன் மகன் — character/entity label preflight\n\nStatus: **REVIEWED / CHARACTER GATE CLOSED**\n\nThe immutable dialogue layer supplied **744 records / 38 exact source speaker labels**. Every exact label was inventoried before interpretation. Dialogue labels were not normalized or rewritten.\n\n## Disposition\n\n- exact labels inventoried: **38/38**;\n- dialogue records covered: **744/744**;\n- character/entity records: **32** — **15 characters / 14 roles / 3 collectives**;\n- verified / review / unresolved labels: **38 / 0 / 0**;\n- verified / review / unresolved entities: **32 / 0 / 0**;\n- unmapped labels / records: **0 / 0**.\n\nSource-supported variant merges are confined to this interpretive layer: `காளிங்` + `காளிங்க` → காளிங்கராயன்; `சொக்` + `சொக்க` → சொக்கலிங்கம்; `ஜமீன்` + `ஜமீன்தார்` → ஜம்புலிங்க பூபதி. Source-explicit possessive voice labels `கண்ணாயிரத்தின் குரல்`, `சடையன் குரல்`, and `விங்கன் குரல்` link to their named characters without changing the source label. Generic roles and collectives remain categorical; `லிங்கன்` remains distinct from `விங்கன்`, and `ஜம்பு` remains distinct from `ஜம்புலிங்க பூபதி`.\n\n**PASS — character/entity index is COMPLETE-VERIFIED. Song/performance authorship is READY-NEXT.**\n'''
+preflight_md = '''# வண்டிக்காரன் மகன் — character/entity label preflight\n\nStatus: **REVIEWED / CHARACTER GATE CLOSED**\n\nThe immutable dialogue layer supplied **773 records / 38 exact source speaker labels**. Every exact label was inventoried before interpretation. Dialogue labels were not normalized or rewritten.\n\n## Disposition\n\n- exact labels inventoried: **38/38**;\n- dialogue records covered: **773/773**;\n- character/entity records: **32** — **15 characters / 14 roles / 3 collectives**;\n- verified / review / unresolved labels: **38 / 0 / 0**;\n- verified / review / unresolved entities: **32 / 0 / 0**;\n- unmapped labels / records: **0 / 0**.\n\nSource-supported variant merges are confined to this interpretive layer: `காளிங்` + `காளிங்க` → காளிங்கராயன்; `சொக்` + `சொக்க` → சொக்கலிங்கம்; `ஜமீன்` + `ஜமீன்தார்` → ஜம்புலிங்க பூபதி. Source-explicit possessive voice labels `கண்ணாயிரத்தின் குரல்`, `சடையன் குரல்`, and `விங்கன் குரல்` link to their named characters without changing the source label. Generic roles and collectives remain categorical; `லிங்கன்` remains distinct from `விங்கன்`, and `ஜம்பு` remains distinct from `ஜம்புலிங்க பூபதி`.\n\n**PASS — character/entity index is COMPLETE-VERIFIED. Song/performance authorship is READY-NEXT.**\n'''
 
-readme = f'''# வண்டிக்காரன் மகன் — character/entity index\n\n**Status:** **COMPLETE-VERIFIED / QA PASS**\n\nThis interpretive layer maps the closed immutable dialogue layer without rewriting any source speaker label or dialogue text.\n\n## Coverage\n\n- immutable dialogue records: **744/744 mapped exactly once**;\n- exact source speaker labels: **38/38 mapped**;\n- entities: **32** — **15 named characters / 14 generic roles / 3 collectives**;\n- verified / review / unresolved entities: **32 / 0 / 0**;\n- unmapped labels / records: **0 / 0**;\n- upstream dialogue records modified: **0**.\n\nVariant and voice mappings exist only here as interpretive metadata. `லிங்கன்` is not collapsed into `விங்கன்`; `ஜம்பு` is not collapsed into `ஜம்புலிங்க பூபதி`; generic labels remain categorical rather than being treated as one continuing person.\n\nSee `labels-preflight.json`, `labels-inventory.json`, `entities.json`, `record-dispositions.json`, and `../notes/character-index-qa.json`.\n\n## Next\n\n{NEXT}\n'''
+readme = f'''# வண்டிக்காரன் மகன் — character/entity index\n\n**Status:** **COMPLETE-VERIFIED / QA PASS**\n\nThis interpretive layer maps the closed immutable dialogue layer without rewriting any source speaker label or dialogue text.\n\n## Coverage\n\n- immutable dialogue records: **773/773 mapped exactly once**;\n- exact source speaker labels: **38/38 mapped**;\n- entities: **32** — **15 named characters / 14 generic roles / 3 collectives**;\n- verified / review / unresolved entities: **32 / 0 / 0**;\n- unmapped labels / records: **0 / 0**;\n- upstream dialogue records modified: **0**.\n\nVariant and voice mappings exist only here as interpretive metadata. `லிங்கன்` is not collapsed into `விங்கன்`; `ஜம்பு` is not collapsed into `ஜம்புலிங்க பூபதி`; generic labels remain categorical rather than being treated as one continuing person.\n\nSee `labels-preflight.json`, `labels-inventory.json`, `entities.json`, `record-dispositions.json`, and `../notes/character-index-qa.json`.\n\n## Next\n\n{NEXT}\n'''
 
 for path, obj in [
     (C/'schema.json', schema),
@@ -285,8 +285,8 @@ re = json.loads((C/'entities.json').read_text(encoding='utf-8'))
 rl = json.loads((C/'labels-inventory.json').read_text(encoding='utf-8'))
 rr = json.loads((C/'record-dispositions.json').read_text(encoding='utf-8'))
 assert ri['status'] == 'complete-verified' and rq['status'] == 'PASS'
-assert len(re) == 32 and len(rl) == 38 and len(rr) == 744
+assert len(re) == 32 and len(rl) == 38 and len(rr) == 773
 assert {x['speaker_label'] for x in rl} == set(labels)
 assert {x['record_id'] for x in rr} == {r['id'] for r in records}
-assert sum(x['dialogue_record_count'] for x in re) == 744
-print('PASS: character/entity index 38/38 labels, 744/744 records, 32 entities (15 character / 14 role / 3 collective)')
+assert sum(x['dialogue_record_count'] for x in re) == 773
+print('PASS: character/entity index 38/38 labels, 773/773 records, 32 entities (15 character / 14 role / 3 collective)')

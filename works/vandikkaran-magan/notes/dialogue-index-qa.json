@@ -1,13 +1,13 @@
 {
   "work_id": "vandikkaran-magan",
   "phase": "immutable-dialogue-index",
-  "status": "PASS",
+  "status": "PASS-RECONCILED",
   "scene_derivatives": "72/72 complete-verified",
-  "dialogue_records": 744,
+  "dialogue_records": 773,
   "distinct_exact_speaker_labels": 38,
   "delimiter_distribution": {
     ":": 8,
-    ":—": 736
+    ":—": 765
   },
   "zero_dialogue_scenes": [
     "vandikkaran-magan-s002",
@@ -54,14 +54,22 @@
   "unlabelled_source_blocks_assigned_a_speaker": 0,
   "duplicate_dialogue_ids": 0,
   "speaker_label_normalizations": 0,
-  "canonical_or_scene_files_modified_by_builder": 0,
+  "canonical_or_scene_files_modified_by_reconciliation": 0,
+  "late_structural_collision_reconciliation": {
+    "collisions_reviewed": 31,
+    "omitted_explicit_utterances_restored": 29,
+    "source_labelled_action_only_excluded": 2,
+    "legacy_record_count": 744,
+    "reconciled_record_count": 773,
+    "existing_ids_preserved": 744,
+    "append_only_ids_added": 29
+  },
   "assertions": {
-    "record_count_matches_preflight": true,
-    "per_scene_counts_match_preflight": true,
-    "exact_label_inventory_matches_preflight": true,
-    "delimiter_inventory_matches_preflight": true,
+    "all_corrected_source_explicit_utterances_indexed": true,
+    "all_legacy_ids_preserved": true,
+    "action_only_source_labels_not_promoted_to_spoken_dialogue": true,
     "three_cross_page_utterances_remain_single_records": true,
-    "eight_colon_only_records_preserve_text_as_em_dash": true,
+    "eight_colon_only_records_preserved": true,
     "zero_dialogue_scenes_preserved": true
   }
 }

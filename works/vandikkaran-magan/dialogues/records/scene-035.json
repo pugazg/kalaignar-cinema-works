@@ -186,6 +186,23 @@
     "text": "சடையா!"
   },
   {
+    "scene_id": "vandikkaran-magan-s035",
+    "scene_ordinal": 35,
+    "source_scene_id": "25",
+    "source_heading": "காட்சி-25",
+    "speaker_label": "சடையன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-035.md",
+    "page_provenance": [
+      {
+        "pdf_page": 49,
+        "printed_page": 48
+      }
+    ],
+    "text": "வாங்க, மச்சரம்மா வாங்க! (எழுகிறான்.)",
+    "id": "vandikkaran-magan-s035-d026"
+  },
+  {
     "id": "vandikkaran-magan-s035-d011",
     "scene_id": "vandikkaran-magan-s035",
     "scene_ordinal": 35,
@@ -269,6 +286,23 @@
       }
     ],
     "text": "(வெளியில் நின்றவாறு) ஜமீன்தார் எஜமான் அவசரமா கூப்பிடுறாரு! தேவாலயத்துக்குப் போகணுமாம்...வண்டி கட்டச் சொல்றாரு!.."
+  },
+  {
+    "scene_id": "vandikkaran-magan-s035",
+    "scene_ordinal": 35,
+    "source_scene_id": "25",
+    "source_heading": "காட்சி-25",
+    "speaker_label": "சடையன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-035.md",
+    "page_provenance": [
+      {
+        "pdf_page": 49,
+        "printed_page": 48
+      }
+    ],
+    "text": "செக்ரட்டரி தம்பி...மன்னிச்சுக்குங்க...எஜமான் கூப்பிடுறாரு; நான் வர்றேன்..வர்றேன்...(போகிறான்.)",
+    "id": "vandikkaran-magan-s035-d027"
   },
   {
     "id": "vandikkaran-magan-s035-d016",

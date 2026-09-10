@@ -6,7 +6,7 @@ This interpretive layer maps the closed immutable dialogue layer without rewriti
 
 ## Coverage
 
-- immutable dialogue records: **744/744 mapped exactly once**;
+- immutable dialogue records: **773/773 mapped exactly once**;
 - exact source speaker labels: **38/38 mapped**;
 - entities: **32** — **15 named characters / 14 generic roles / 3 collectives**;
 - verified / review / unresolved entities: **32 / 0 / 0**;
@@ -17,7 +17,6 @@ Variant and voice mappings exist only here as interpretive metadata. `லிங�
 
 See `labels-preflight.json`, `labels-inventory.json`, `entities.json`, `record-dispositions.json`, and `../notes/character-index-qa.json`.
 
-## Downstream state
+## Next
 
-Song/performance authorship is now **COMPLETE-VERIFIED-SOURCE-ONLY / QA PASS — 9/9 occurrences, 6 bounded Tamil bodies, 3 cue-only records, 0 source-attributed and 6 unresolved item-level lyric authorships**. English translation is **READY-NEXT**. The character/entity mappings remain unchanged.
-
+Begin the song/performance authorship gate from the closed source, scene, dialogue and character/entity layers. Inventory source-visible song, verse and performance occurrences first; preserve exact source wording, lineation, cues and provenance; do not infer item-level lyric authorship from the film-level `பாடல்கள்: கவிஞர் வாலி` credit alone; assign authorship only where item-level evidence supports it; run whole-work occurrence/authorship coverage QA before English translation. Do not rewrite canonical Tamil, scenes, immutable dialogue records or character/entity mappings.

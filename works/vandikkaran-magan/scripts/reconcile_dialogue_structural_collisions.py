@@ -18,7 +18,7 @@ SOURCE_META_RE = re.compile(r'\A<!-- source: pdf=(\d+).*?status=visual-verified 
 SCENE_HEADING_RE = re.compile(r'^##\s+(காட்சி.*)$', re.M)
 DIALOGUE_RE = re.compile(r'^(?P<label>[^:#\[\]{}<>\n]{1,60}?)(?P<delimiter>:\s*(?:—|–|-)?)\s*(?P<text>\S.*)$')
 ALT_RE = re.compile(r'^(?P<label>[\u0B80-\u0BFF A-Za-z.]{1,28}?)\s*(?P<delimiter>[;—–-])\s*(?P<text>\S.*)$')
-PURE_ACTION_RE = re.compile(r'^(?:\([^\n]*\)|\[[^\n]*\]|\{[^\n]*\})$')
+PURE_ACTION_RE = re.compile(r'^(?:\([^()\n]*\)|\[[^\[\]\n]*\]|\{[^{}\n]*\})$')
 NON_SPEAKER_LABELS = {'இடம்','நேரம்','காலம்','பாட்டு','வசனம்','டைரக்ஷன்','கடிதத்தில்'}
 SEPARATORS = {'★','★★★','* * *','---','***','___'}
 EXPECTED_ANOMALOUS = {
@@ -117,7 +117,7 @@ for ordinal,(scene,heading) in enumerate(zip(scenes,headings),1):
     generated=[]; active=None
 
     def flush():
-        nonlocal active
+        global active
         if active is not None:
             finalize(active); generated.append(active); active=None
 

@@ -1,18 +1,17 @@
 # வண்டிக்காரன் மகன் — immutable dialogue index QA
 
-Status: **PASS**
+Status: **PASS / RECONCILED**
 
-- verified scene inputs: **72/72**
-- immutable dialogue records: **744**
-- distinct exact source speaker labels: **38**
-- delimiter distribution: **`:—` 736 / `:` 8**
-- zero-dialogue scenes: **15**
-- cross-page dialogue records: **3**
-- reviewed anomalous non-colon candidates promoted to dialogue: **0/16**
-- source-unlabelled blocks assigned a speaker: **0**
-- duplicate dialogue IDs: **0**
-- source speaker-label normalizations: **0**
+A late source-structure audit found **31** explicit-label lines that the legacy parser could misclassify solely because the complete line ended in a bracket. Direct canonical text review established **29 spoken utterances + 2 source-labelled action-only lines**.
 
-The three cross-page records preserve one immutable utterance across PDF 48→49 (`சடையன்`), PDF 68→69 (`சடையன்`) and PDF 85→86 (`விங்கன்`). The eight colon-delimited records whose complete source text is `—` remain explicit dialogue records with delimiter `:` and text `—`.
+- immutable dialogue records: **773**;
+- existing immutable IDs preserved: **744/744**;
+- append-only repaired IDs: **29**;
+- exact source labels: **38**;
+- delimiters: **`:—` 765 / `:` 8**;
+- action-only source labels promoted to speech: **0/2**;
+- zero-dialogue scenes: **15**;
+- cross-page dialogue records: **3**;
+- duplicate IDs / label normalizations / inferred unlabelled speakers: **0 / 0 / 0**.
 
-**PASS — the immutable dialogue layer is complete-verified. Character/entity indexing is unblocked.**
+**PASS — the corrected immutable dialogue layer is the downstream authority.**

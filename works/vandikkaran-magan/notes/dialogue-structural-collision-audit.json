@@ -1,7 +1,7 @@
 {
   "work_id": "vandikkaran-magan",
   "phase": "dialogue-structural-collision-audit",
-  "status": "review-ready",
+  "status": "PASS-CLOSED",
   "collision_count": 31,
   "collisions": [
     {
@@ -284,5 +284,288 @@
       "raw": "ஜமீன்தார்:—விங்கன்!... நீயா?... இன்னும் உயிரோடு இருக்கிறாயா?.... (வீறு ஓடிவிடல்)"
     }
   ],
-  "note": "Explicit speaker-labelled source lines that the legacy structural classifier can skip solely because the complete line ends with a bracket. These require reconciliation before English translation."
+  "note": "Explicit speaker-labelled source lines that the legacy structural classifier can skip solely because the complete line ends with a bracket. These require reconciliation before English translation.",
+  "promoted_dialogue_records": [
+    {
+      "record_id": "vandikkaran-magan-s001-d031",
+      "scene_ordinal": 1,
+      "source_scene_id": "1",
+      "pdf_page": 8,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:— (குழந்தையைத் தூக்கி) அய்யோ பாவம்!...தங்கப் பதுமை மாதிரி இருக்கு...குழந்தை... ஏம்மா! ஜலதோஷமா உனக்கு... (மூக்கைச் சிந்தி விடுகிறார்..)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s005-d032",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "pdf_page": 10,
+      "speaker_label": "மரகதம்",
+      "source_delimiter": ":—",
+      "raw": "மரகதம்:— ஓ!.. (என்றவாறு புத்தக அலமாரியைத் திருப்ப — மது பாட்டில்களின் அலமாரி திரும்புகிறது. மரகதம், ஒரு கிளாசில் ஊற்றி ஜமீன்தாருக்குத் தருகிறாள்...)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s005-d033",
+      "scene_ordinal": 5,
+      "source_scene_id": "4-எ",
+      "pdf_page": 11,
+      "speaker_label": "மரகதம்",
+      "source_delimiter": ":—",
+      "raw": "மரகதம்:— போங்கள்!.. (வெட்கத்துடன் படுக்கையில் போய் சாய்தல். ஜமீன்தார் தொடர்ந்து சென்று அவளைத் தழுவிக் கொண்டு..)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s007-d009",
+      "scene_ordinal": 7,
+      "source_scene_id": "6",
+      "pdf_page": 13,
+      "speaker_label": "சொக்க",
+      "source_delimiter": ":—",
+      "raw": "சொக்க:— சரிம்மா!... (முத்தம் கொடுத்து விட்டு ஓடுகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s008-d029",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "pdf_page": 14,
+      "speaker_label": "சொக்க",
+      "source_delimiter": ":—",
+      "raw": "சொக்க:— நான் மாட்டேண்டா...(என்று ஓட, ஒரு சிறுவன் அவனைத் துரத்துகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s008-d030",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "pdf_page": 14,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:— இனிமே இந்தப் பக்கம் வராதே! வராதே!...(அடிக்கிறார்; அடித்துக் கொண்டே இருக்கிறார்...)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s008-d031",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "pdf_page": 14,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:— இவன் கையை முறிச்சாதான் என்ன? (சொக்குவின் கையைத் திருகுகிறார். அவன் அலறுகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s008-d032",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "pdf_page": 15,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:— (சொக்கலிங்கத்தை எறிந்து விட்டு)... கேட்படி. கேட்ப!...(அவள் தலைமயிரைப் பிடித்து அறையப் போகிறார்...)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s008-d033",
+      "scene_ordinal": 8,
+      "source_scene_id": "7",
+      "pdf_page": 15,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:— என்ன சொன்னே?... யாரைப் பார்த்துக் குடிகாரன்னே! என்னைப் பார்த்தா?... என்னைப் பார்த்தா?... (அவளைத் தள்ளிக்கொண்டே போகிறார் தலைமுடியைப் பிடித்தவாறு...)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s013-d023",
+      "scene_ordinal": 13,
+      "source_scene_id": "11",
+      "pdf_page": 20,
+      "speaker_label": "உமா",
+      "source_delimiter": ":—",
+      "raw": "உமா:— அப்பா!...இவர்...(ஏதோ சொல்ல முனைகிறாள் — சொல்லவில்லை.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s014-d021",
+      "scene_ordinal": 14,
+      "source_scene_id": "12",
+      "pdf_page": 23,
+      "speaker_label": "கோகிலா",
+      "source_delimiter": ":—",
+      "raw": "கோகிலா:— கேளுங்க!...இந்த ஜமீன் எப்ப ஆரம்பமாச்சு? இந்த ஜமீனின் முதல் ஜமீன்தார் யார்?...அவர்பேர்?...அப்படி யிப்படி யெல்லாம் கேட்கப் போறீங்களா?...அதுக்கு இதோ, இந்த ஜமீன் சரித்திரமே ஒரு புத்தகமா இருக்கு..இந்தாங்க! (ஒருபுத்தகத்தைக்கொடுக்கிறாள்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s018-d016",
+      "scene_ordinal": 18,
+      "source_scene_id": "15",
+      "pdf_page": 28,
+      "speaker_label": "காளிங்",
+      "source_delimiter": ":—",
+      "raw": "காளிங்:—வயசைப் பார்த்தா உடுறவன் மன்மதன்...பாணம்!.. காதலுக்கு வயசு என்ன ஒரு தடையா?... அதை உடைச்சு ரெண்டு பேரும் எறியணும்! இப்போ சின்னப்பசங்க காதல்பண்றாங்களே அதுஎன்ன பிரயோசனம்?.. ஒண்ணுமே இல்ல. நாமன்னு பெரிய ஜீனியஸ்!.. பழைய காலத்து மனிதர்கள்... நம்ப காதலே தனி!.. (நெருங்கி வந்து தொடுதல்)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s020-d005",
+      "scene_ordinal": 20,
+      "source_scene_id": "16-எ",
+      "pdf_page": 30,
+      "speaker_label": "கோகிலா",
+      "source_delimiter": ":—",
+      "raw": "கோகிலா:— உமா! உமா!::: (அலறுகிறாள்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s021-d009",
+      "scene_ordinal": 21,
+      "source_scene_id": "17",
+      "pdf_page": 30,
+      "speaker_label": "விங்கன்",
+      "source_delimiter": ":—",
+      "raw": "விங்கன்:— ஐயையப்பா! கால்ல அடிபட்டுடுச்சா? கையிலே பட்டுச்சா?.. முகத்திலே? முதுகிலே? (என்று உமாவைத் தொட்டுப் பார்க்க...)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s022-d021",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "pdf_page": 32,
+      "speaker_label": "காளிங்",
+      "source_delimiter": ":—",
+      "raw": "காளிங்:— ஒன்றல்ல, ரெண்டல்ல.... ஓராயிரம் அடி கொடுக்கணும்! தெரியாத மாதிரி நடிக்கிறியே?.. அந்த அயோக்கியன் இவன்தான்! (சடையனைக் காட்டியபடி.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s022-d022",
+      "scene_ordinal": 22,
+      "source_scene_id": "18",
+      "pdf_page": 32,
+      "speaker_label": "காளிங்",
+      "source_delimiter": ":—",
+      "raw": "காளிங்:— (சவுக்கைக் கீழே இறக்கவாறு) செகரட்டரி நீங்க ஒதுங்க! வேலக்கார நாயே! உன்னை அடிச்ச அடி அவர் மேல அடிபட்டுப் போச்சே! டேய்! சர்ஜனைக் கூட்டியாடா. உன்னை விடுறதில்லடா. இன்னைக்கு.. டேய்!.. (கை ஓங்கி அறையப்போகும்போது)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s023-d025",
+      "scene_ordinal": 23,
+      "source_scene_id": "19",
+      "pdf_page": 34,
+      "speaker_label": "கோகிலா",
+      "source_delimiter": ":—",
+      "raw": "கோகிலா:— உங்களுக்குத்தான் பின்னென்ன எனக்கா? (சிரிக்கிறாள்)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s028-d015",
+      "scene_ordinal": 28,
+      "source_scene_id": "22-எ",
+      "pdf_page": 40,
+      "speaker_label": "விங்கன்",
+      "source_delimiter": ":—",
+      "raw": "விங்கன்:— சரி, உனக்குப் பிடிக்கவேணா..இப்பவே நான் திரும்பிப் போறேன்... (இறங்கிப் போக முனைகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s034-d008",
+      "scene_ordinal": 34,
+      "source_scene_id": "24-டி",
+      "pdf_page": 48,
+      "speaker_label": "உமா",
+      "source_delimiter": ":—",
+      "raw": "உமா:—எப்படியோ...மன்னிக்க முடியாத குற்றத்துக்கு என்னை ஆளாக்கிட்டீங்க!...(அழுகிறாள்)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s035-d026",
+      "scene_ordinal": 35,
+      "source_scene_id": "25",
+      "pdf_page": 49,
+      "speaker_label": "சடையன்",
+      "source_delimiter": ":—",
+      "raw": "சடையன்:—வாங்க, மச்சரம்மா வாங்க! (எழுகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s035-d027",
+      "scene_ordinal": 35,
+      "source_scene_id": "25",
+      "pdf_page": 49,
+      "speaker_label": "சடையன்",
+      "source_delimiter": ":—",
+      "raw": "சடையன்:—செக்ரட்டரி தம்பி...மன்னிச்சுக்குங்க...எஜமான் கூப்பிடுறாரு; நான் வர்றேன்..வர்றேன்...(போகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s043-d021",
+      "scene_ordinal": 43,
+      "source_scene_id": "32",
+      "pdf_page": 58,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:—ஹா! (சிரிப்பு)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s043-d022",
+      "scene_ordinal": 43,
+      "source_scene_id": "32",
+      "pdf_page": 58,
+      "speaker_label": "விங்கன்",
+      "source_delimiter": ":—",
+      "raw": "விங்கன்:—ஹா! (சிரிப்பு)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s050-d022",
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "pdf_page": 63,
+      "speaker_label": "காளிங்",
+      "source_delimiter": ":—",
+      "raw": "காளிங்:—நம்ம ஜால்ராப் புலவர்!...தமிழை எடுத்து அப்படியே தட்டுறார். (ஜால்ரா போல கையை காட்டி)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s053-d010",
+      "scene_ordinal": 53,
+      "source_scene_id": "41",
+      "pdf_page": 66,
+      "speaker_label": "கண்ணாயிரம்",
+      "source_delimiter": ":—",
+      "raw": "கண்ணாயிரம்:—தீ! தீ!.... (திரும்புகிறான்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s059-d003",
+      "scene_ordinal": 59,
+      "source_scene_id": "47",
+      "pdf_page": 72,
+      "speaker_label": "விங்கன்",
+      "source_delimiter": ":—",
+      "raw": "விங்கன்:—ஆ!.....(மகிழ்ச்சி)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s064-d038",
+      "scene_ordinal": 64,
+      "source_scene_id": "52",
+      "pdf_page": 79,
+      "speaker_label": "கோகிலா",
+      "source_delimiter": ":—",
+      "raw": "கோகிலா:—அய்யோ அம்மா! (காதுகளைப் பொத்திக் கொண்டு கதறல்) உமா!.. என்னை நம்பு!.. (உமா, கோகிலாவைத் தள்ளிவிடுதல்..)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s069-d015",
+      "scene_ordinal": 69,
+      "source_scene_id": "53-டி",
+      "pdf_page": 83,
+      "speaker_label": "கோகிலா",
+      "source_delimiter": ":—",
+      "raw": "கோகிலா:—அம்மா!... அம்மா!!... விங்கன்!... (என்று அவன் கையைப் பிடிக்கப் போனவள் உயிரை விடுகிறாள்.)"
+    },
+    {
+      "record_id": "vandikkaran-magan-s070-d007",
+      "scene_ordinal": 70,
+      "source_scene_id": "54",
+      "pdf_page": 85,
+      "speaker_label": "ஜமீன்தார்",
+      "source_delimiter": ":—",
+      "raw": "ஜமீன்தார்:—விங்கன்!... நீயா?... இன்னும் உயிரோடு இருக்கிறாயா?.... (வீறு ஓடிவிடல்)"
+    }
+  ],
+  "reconciled_dialogue_records": 773,
+  "omitted_dialogue_lines_repaired": 29,
+  "source_labelled_action_only_excluded": 2,
+  "action_only_exclusions": [
+    {
+      "scene_ordinal": 50,
+      "source_scene_id": "38",
+      "pdf_page": 62,
+      "raw": "புலவர்:—(பூங்கொடியுடன் நின்றவாறு)"
+    },
+    {
+      "scene_ordinal": 58,
+      "source_scene_id": "45-46",
+      "pdf_page": 72,
+      "raw": "உமா:—(சரியெனப் புன்னகையுடன் தலையசைத்தல்.)"
+    }
+  ],
+  "stable_existing_dialogue_ids_preserved": 744,
+  "new_append_only_dialogue_ids": 29,
+  "remaining_structural_collision_omissions": 0
 }

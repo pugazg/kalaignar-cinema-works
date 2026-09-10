@@ -1,5 +1,22 @@
 [
   {
+    "scene_id": "vandikkaran-magan-s053",
+    "scene_ordinal": 53,
+    "source_scene_id": "41",
+    "source_heading": "காட்சி - 41",
+    "speaker_label": "கண்ணாயிரம்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-053.md",
+    "page_provenance": [
+      {
+        "pdf_page": 66,
+        "printed_page": 65
+      }
+    ],
+    "text": "தீ! தீ!.... (திரும்புகிறான்.)",
+    "id": "vandikkaran-magan-s053-d010"
+  },
+  {
     "id": "vandikkaran-magan-s053-d001",
     "scene_id": "vandikkaran-magan-s053",
     "scene_ordinal": 53,

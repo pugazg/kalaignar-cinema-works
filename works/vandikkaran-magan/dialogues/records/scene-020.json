@@ -34,6 +34,23 @@
     "text": "ஓ!... உன் இஷ்டப்படி!"
   },
   {
+    "scene_id": "vandikkaran-magan-s020",
+    "scene_ordinal": 20,
+    "source_scene_id": "16-எ",
+    "source_heading": "காட்சி—16 எ",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-020.md",
+    "page_provenance": [
+      {
+        "pdf_page": 30,
+        "printed_page": 29
+      }
+    ],
+    "text": "உமா! உமா!::: (அலறுகிறாள்.)",
+    "id": "vandikkaran-magan-s020-d005"
+  },
+  {
     "id": "vandikkaran-magan-s020-d003",
     "scene_id": "vandikkaran-magan-s020",
     "scene_ordinal": 20,

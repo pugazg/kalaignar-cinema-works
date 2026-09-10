@@ -102,6 +102,23 @@
     "text": "டேவிட் துரை ஜமீன்தாருக்கு லெட்டர் கொடுத்திருக்காரு!"
   },
   {
+    "scene_id": "vandikkaran-magan-s013",
+    "scene_ordinal": 13,
+    "source_scene_id": "11",
+    "source_heading": "காட்சி — 11",
+    "speaker_label": "உமா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-013.md",
+    "page_provenance": [
+      {
+        "pdf_page": 20,
+        "printed_page": 19
+      }
+    ],
+    "text": "அப்பா!...இவர்...(ஏதோ சொல்ல முனைகிறாள் — சொல்லவில்லை.)",
+    "id": "vandikkaran-magan-s013-d023"
+  },
+  {
     "id": "vandikkaran-magan-s013-d007",
     "scene_id": "vandikkaran-magan-s013",
     "scene_ordinal": 13,

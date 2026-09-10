@@ -221,6 +221,23 @@
     "text": "இதமா இருக்குமா? யாருக்கு?"
   },
   {
+    "scene_id": "vandikkaran-magan-s023",
+    "scene_ordinal": 23,
+    "source_scene_id": "19",
+    "source_heading": "காட்சி —19",
+    "speaker_label": "கோகிலா",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-023.md",
+    "page_provenance": [
+      {
+        "pdf_page": 34,
+        "printed_page": 33
+      }
+    ],
+    "text": "உங்களுக்குத்தான் பின்னென்ன எனக்கா? (சிரிக்கிறாள்)",
+    "id": "vandikkaran-magan-s023-d025"
+  },
+  {
     "id": "vandikkaran-magan-s023-d014",
     "scene_id": "vandikkaran-magan-s023",
     "scene_ordinal": 23,

@@ -68,6 +68,23 @@
     "text": "அதுக்காக... (உமா வண்டியிலிருந்து இறங்கி) இதெல்லாம் என்ன விளையாட்டு? என் குணம் தெரியாம நடந்துக்கிறீங்க?.."
   },
   {
+    "scene_id": "vandikkaran-magan-s028",
+    "scene_ordinal": 28,
+    "source_scene_id": "22-எ",
+    "source_heading": "காட்சி — 22-எ",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-028.md",
+    "page_provenance": [
+      {
+        "pdf_page": 40,
+        "printed_page": 39
+      }
+    ],
+    "text": "சரி, உனக்குப் பிடிக்கவேணா..இப்பவே நான் திரும்பிப் போறேன்... (இறங்கிப் போக முனைகிறான்.)",
+    "id": "vandikkaran-magan-s028-d015"
+  },
+  {
     "id": "vandikkaran-magan-s028-d005",
     "scene_id": "vandikkaran-magan-s028",
     "scene_ordinal": 28,

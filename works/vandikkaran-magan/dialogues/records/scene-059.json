@@ -32,5 +32,22 @@
       }
     ],
     "text": "அண்ணே! அண்ணே!...உமா அக்காளுக்கு குழந்தை பொறந்திருக்கு!...குழந்தை..."
+  },
+  {
+    "scene_id": "vandikkaran-magan-s059",
+    "scene_ordinal": 59,
+    "source_scene_id": "47",
+    "source_heading": "காட்சி -- 47",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-059.md",
+    "page_provenance": [
+      {
+        "pdf_page": 72,
+        "printed_page": 71
+      }
+    ],
+    "text": "ஆ!.....(மகிழ்ச்சி)",
+    "id": "vandikkaran-magan-s059-d003"
   }
 ]

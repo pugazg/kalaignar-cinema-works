@@ -1,5 +1,22 @@
 [
   {
+    "scene_id": "vandikkaran-magan-s070",
+    "scene_ordinal": 70,
+    "source_scene_id": "54",
+    "source_heading": "காட்சி - 54",
+    "speaker_label": "ஜமீன்தார்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-070.md",
+    "page_provenance": [
+      {
+        "pdf_page": 85,
+        "printed_page": 84
+      }
+    ],
+    "text": "விங்கன்!... நீயா?... இன்னும் உயிரோடு இருக்கிறாயா?.... (வீறு ஓடிவிடல்)",
+    "id": "vandikkaran-magan-s070-d007"
+  },
+  {
     "id": "vandikkaran-magan-s070-d001",
     "scene_id": "vandikkaran-magan-s070",
     "scene_ordinal": 70,

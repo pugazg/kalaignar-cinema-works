@@ -2,12 +2,12 @@
 
 Status: **REVIEWED / CHARACTER GATE CLOSED**
 
-The immutable dialogue layer supplied **744 records / 38 exact source speaker labels**. Every exact label was inventoried before interpretation. Dialogue labels were not normalized or rewritten.
+The immutable dialogue layer supplied **773 records / 38 exact source speaker labels**. Every exact label was inventoried before interpretation. Dialogue labels were not normalized or rewritten.
 
 ## Disposition
 
 - exact labels inventoried: **38/38**;
-- dialogue records covered: **744/744**;
+- dialogue records covered: **773/773**;
 - character/entity records: **32** — **15 characters / 14 roles / 3 collectives**;
 - verified / review / unresolved labels: **38 / 0 / 0**;
 - verified / review / unresolved entities: **32 / 0 / 0**;

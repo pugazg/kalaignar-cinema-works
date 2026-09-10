@@ -11,7 +11,7 @@ N = W / 'notes'
 char_idx = json.loads((W / 'characters' / 'index.json').read_text(encoding='utf-8'))
 assert char_idx['status'] == 'complete-verified'
 assert char_idx['label_coverage'] == '38/38'
-assert char_idx['dialogue_record_coverage'] == '744/744'
+assert char_idx['dialogue_record_coverage'] == '773/773'
 scene_idx = json.loads((W / 'scenes' / 'index.json').read_text(encoding='utf-8'))
 scene_by_id = {x['scene_id']: x for x in scene_idx['scenes']}
 assert len(scene_by_id) == 72

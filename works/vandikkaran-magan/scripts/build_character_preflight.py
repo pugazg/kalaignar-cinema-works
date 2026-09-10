@@ -9,8 +9,8 @@ C = W / 'characters'
 C.mkdir(exist_ok=True)
 
 idx = json.loads((D / 'index.json').read_text(encoding='utf-8'))
-assert idx['status'] == 'complete-verified'
-assert idx['dialogue_record_count'] == 744
+assert idx['status'] in {'complete-verified','complete-verified-reconciled'}
+assert idx['dialogue_record_count'] == 773
 assert idx['distinct_exact_speaker_labels'] == 38
 
 all_records = []
@@ -20,7 +20,7 @@ for path in sorted((D / 'records').glob('scene-*.json')):
     scene_records[path.name] = rows
     all_records.extend(rows)
 
-assert len(all_records) == 744
+assert len(all_records) == 773
 ids = [r['id'] for r in all_records]
 assert len(ids) == len(set(ids))
 
@@ -82,7 +82,7 @@ payload = {
     'work_id': 'vandikkaran-magan',
     'phase': 'character-entity-preflight',
     'status': 'review-ready',
-    'dialogue_authority': '744 complete-verified immutable records',
+    'dialogue_authority': '773 complete-verified reconciled immutable records',
     'dialogue_records_scanned': len(all_records),
     'distinct_exact_speaker_labels': len(out_labels),
     'labels': out_labels,
@@ -94,4 +94,4 @@ payload = {
     }
 }
 (C / 'labels-preflight.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-print('PASS: 744/744 dialogue records; 38/38 exact labels inventoried')
+print('PASS: 773/773 dialogue records; 38/38 exact labels inventoried')

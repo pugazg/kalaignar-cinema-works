@@ -22,6 +22,7 @@ ALT_RE = re.compile(
     r"^(?P<label>[\u0B80-\u0BFF A-Za-z.]{1,28}?)\s*(?P<delimiter>[;—–-])\s*(?P<text>\S.*)$"
 )
 SEPARATORS = {"★", "★★★", "* * *", "---", "***", "___"}
+PURE_ACTION_RE = re.compile(r"^(?:\([^\n]*\)|\[[^\n]*\]|\{[^\n]*\})$")
 
 
 def sha256(text: str) -> str:
@@ -47,6 +48,9 @@ def structural_kind(s: str) -> str | None:
         return "comment"
     if s.startswith("#"):
         return "heading"
+    # Speaker syntax takes precedence over a line-ending parenthetical action.
+    if DIALOGUE_RE.match(s):
+        return None
     if s in SEPARATORS:
         return "separator"
     if s.startswith("(") or s.endswith(")"):
@@ -162,6 +166,10 @@ def main() -> None:
                     label = m.group("label").strip()
                     delimiter = m.group("delimiter")
                     text = m.group("text")
+                    if PURE_ACTION_RE.fullmatch(text.strip()):
+                        flush_active(); flush_unlabelled()
+                        classification_counts["source_labelled_action_only"] += 1
+                        continue
                     # Reject obvious non-speaker metadata labels conservatively.
                     if label in {"இடம்", "நேரம்", "காலம்", "பாட்டு", "வசனம்", "டைரக்ஷன்", "கடிதத்தில்"}:
                         classification_counts["non_speaker_colon_cue"] += 1

@@ -1,5 +1,22 @@
 [
   {
+    "scene_id": "vandikkaran-magan-s021",
+    "scene_ordinal": 21,
+    "source_scene_id": "17",
+    "source_heading": "காட்சி — 17",
+    "speaker_label": "விங்கன்",
+    "source_delimiter": ":—",
+    "source_scene_file": "scene-021.md",
+    "page_provenance": [
+      {
+        "pdf_page": 30,
+        "printed_page": 29
+      }
+    ],
+    "text": "ஐயையப்பா! கால்ல அடிபட்டுடுச்சா? கையிலே பட்டுச்சா?.. முகத்திலே? முதுகிலே? (என்று உமாவைத் தொட்டுப் பார்க்க...)",
+    "id": "vandikkaran-magan-s021-d009"
+  },
+  {
     "id": "vandikkaran-magan-s021-d001",
     "scene_id": "vandikkaran-magan-s021",
     "scene_ordinal": 21,
