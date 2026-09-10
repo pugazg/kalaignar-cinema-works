@@ -1,0 +1,33 @@
+name: Vandikkaran Magan dialogue preflight once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vandikkaran-magan-dialogue-preflight-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build dialogue preflight
+        run: python works/vandikkaran-magan/scripts/build_dialogue_preflight.py
+      - name: Commit dialogue preflight
+        shell: bash
+        run: |
+          rm .github/workflows/vandikkaran-magan-dialogue-preflight-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Add Vandikkaran Magan dialogue preflight [skip ci]"
+          git push origin HEAD:main
