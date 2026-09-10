@@ -34,7 +34,7 @@ jobs:
           root = Path('works/vandikkaran-magan')
           idx = json.loads((root/'scenes/index.json').read_text(encoding='utf-8'))
           expected = [
-              '1','2','3','4','5','6','7','8','9','10','10-எ','11','12','13','14','14-எ',
+              '1','2','3','4','4-எ','5','6','7','8','9','10','10-எ','11','12','13','14','14-எ',
               '15','16','16-எ','17','18','19','20','20-எ','21','22','22-எ','23','24',
               '24-எ','24-பி','24-சி','24-டி','25','26','27','28','29','29-எ','30','31','32',
               '33','33-எ','34','35','36','37','38','39','40','41','42','42-எ','43','44',
@@ -42,7 +42,7 @@ jobs:
           ]
           assert idx['status'] == 'complete-verified'
           assert idx['source_numbered_scenes'] is True
-          assert idx['total_scenes'] == 71
+          assert idx['total_scenes'] == 72
           assert idx['ordered_scene_ids'] == expected
           assert idx['canonical_scene_body_sha256'] == idx['joined_scene_spans_sha256']
           assert idx['qa']['continuity'] == 'pass'
@@ -50,18 +50,19 @@ jobs:
           assert idx['qa']['loss'] == 'none'
           assert idx['qa']['gaps'] == 0 and idx['qa']['overlaps'] == 0
           recs = idx['scenes']
-          assert len(recs) == 71
-          assert [r['ordinal'] for r in recs] == list(range(1,72))
+          assert len(recs) == 72
+          assert [r['ordinal'] for r in recs] == list(range(1,73))
           assert [r['scene_id'] for r in recs] == expected
           assert all(r['status'] == 'verified-derivative' for r in recs)
           files = sorted((root/'scenes').glob('scene-*.md'))
-          assert len(files) == 71
+          assert len(files) == 72
           qa = (root/'notes/scene-boundary-ownership-qa.md').read_text(encoding='utf-8')
           assert 'Status: **PASS**' in qa
           assert 'gaps between consecutive scene spans: **0**' in qa
           assert 'overlaps between consecutive scene spans: **0**' in qa
           assert '82/82 — PDF 6–87' in qa
-          print('SCENE DERIVATIVE QA PASS: 71/71')
+          assert 'காட்சி — 4 எ.' in qa
+          print('SCENE DERIVATIVE QA PASS: 72/72')
           PY
           git diff --check
           git status --short
@@ -75,5 +76,5 @@ jobs:
             echo "Scene layer already current."
             exit 0
           fi
-          git commit -m "Build Vandikkaran Magan 71 verified scene derivatives [skip ci]"
+          git commit -m "Build Vandikkaran Magan 72 verified scene derivatives [skip ci]"
           git push origin HEAD:main
