@@ -10,29 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build ordered source pack
+      - name: Build compact source pack
         run: |
           python - <<'PY'
           from pathlib import Path
           import json,re
           W=Path('works/vandikkaran-magan'); S=W/'scenes'; D=W/'dialogues'/'records'
           out=[]
-          def norm(s): return re.sub(r'\s+',' ',s.replace('**','')).strip()
           for n in range(21,41):
               rows=json.loads((D/f'scene-{n:03d}.json').read_text(encoding='utf-8'))
-              ri=0
+              out.append(f'=== SCENE {n:03d} DIALOGUES {len(rows)} ===')
+              for r in rows:
+                  out.append('D\t'+r['id']+'\t'+r['speaker_label']+'\t'+json.dumps(r['text'],ensure_ascii=False))
               text=(S/f'scene-{n:03d}.md').read_text(encoding='utf-8')
               blocks=[b.strip() for b in re.split(r'\n[ \t]*\n',text) if b.strip()]
-              out.append(f'=== SCENE {n:03d} ===')
+              out.append(f'=== SCENE {n:03d} SOURCE BLOCKS ===')
               for b in blocks:
                   if b.startswith('<!-- derivative provenance:') or b.startswith('## ') or b=='★': continue
-                  if ri < len(rows):
-                      r=rows[ri]; pref=f"{r['speaker_label']}{r['source_delimiter']}"
-                      if b.startswith(pref) and norm(b[len(pref):])==norm(r['text']):
-                          out.append('D\t'+r['id']+'\t'+r['speaker_label']+'\t'+json.dumps(r['text'],ensure_ascii=False))
-                          ri+=1; continue
-                  out.append('N\t'+json.dumps(b,ensure_ascii=False))
-              if ri!=len(rows): raise SystemExit(f'scene {n}: consumed {ri}/{len(rows)}')
+                  out.append('B\t'+json.dumps(b,ensure_ascii=False))
           p=Path('.github/data/vm_translation_sourcepack_021_040.txt'); p.parent.mkdir(parents=True,exist_ok=True)
           p.write_text('\n'.join(out)+'\n',encoding='utf-8')
           PY
