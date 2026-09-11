@@ -8,24 +8,24 @@ Source-led archival workspace for the scanned மருதநாட்டு இ
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue: **208 records COMPLETE-VERIFIED**;
 - character/entity: **14 entities COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**.
+- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
+- Phase 9 English translation: **COMPLETE-VERIFIED**.
 
-## Phase 9 English translation
+## Phase 9 final state
 
-Status: **IN PROGRESS — 8/10 derivative units VERIFIED**
-
-Verified:
-
-- unnumbered opening;
-- source scenes **2–8**;
-- English units: **192**;
-- immutable dialogue links: **185/208**;
-- scene 8: **52/52 dialogue links + 3/3 stage directions PASS**;
-- cumulative cross-page English units: **4**;
+- derivative units: **10/10** — unnumbered opening + scenes 2–10;
+- English units: **228**;
+- immutable dialogue links: **208/208 exactly once**;
+- non-dialogue source-linked units: **20**;
+- cross-page units: **5/5 exact**;
 - inferred speakers: **0**;
-- performance links: **0/0**;
+- performance translation units: **0**;
+- duplicate source ownership: **0**;
+- placeholder / synthetic scene-end text: **0 / 0**;
 - upstream source-layer modifications: **0**.
+
+Whole-work English reconciliation: **PASS**.
 
 ## Exact next activity
 
-> **Translate and verify source scenes 9–10 as the final bounded English batch. Preserve exact Tamil speaker labels/delimiters as metadata, link every labelled utterance exactly once, preserve stage/unlabelled/cross-page source ownership, and then run whole-work English reconciliation across all 10 derivative units.**
+> **Begin Phase 14 whole-work reader/export layer. Build deterministic Markdown, standalone HTML, machine-readable JSON, QA report and integrity manifest from the verified structured records. Render all 228 verified English units exactly once; preserve 208/208 dialogue links, 5/5 cross-page units, source order and all structural/non-dialogue ownership.**

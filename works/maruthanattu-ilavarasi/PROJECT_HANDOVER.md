@@ -6,33 +6,37 @@ Work: `works/maruthanattu-ilavarasi/`
 
 **LIVE MAIN IS AUTHORITATIVE.**
 
-## Closed upstream state
+## Closed gates
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue: **208 COMPLETE-VERIFIED**;
 - character/entity: **14 COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**.
+- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
+- Phase 9 English translation: **COMPLETE-VERIFIED**.
 
-## Phase 9 durable state
+## English closure
 
-- English translation: **IN PROGRESS — 8/10 derivative units VERIFIED**;
-- verified: **opening + source scenes 2–8**;
-- cumulative English units: **192**;
-- cumulative immutable dialogue links: **185/208**;
-- scene 8: **52/52 dialogue links + 3/3 stage directions PASS**;
-- cumulative cross-page English units: **4**;
+Whole-work reconciliation: **PASS**
+
+- derivative units: **10/10**;
+- English units: **228**;
+- immutable dialogue links: **208/208 exactly once**;
+- non-dialogue source-linked units: **20**;
+- unit IDs unique: **228/228**;
+- cross-page units: **5/5 exact**;
 - inferred speakers: **0**;
-- performance links: **0/0**;
-- canonical / scene / dialogue / character / Phase-8 mutations during English work: **0 / 0 / 0 / 0 / 0**.
+- duplicate non-dialogue ownership: **0**;
+- performance translation units: **0**;
+- placeholder / synthetic scene-end text: **0 / 0**;
+- canonical / scene / dialogue / character / Phase-8 mutations from translation/reconciliation: **0 / 0 / 0 / 0 / 0**.
 
-## Scene 8 precedents
+Authoritative English closure files:
 
-- `(ராஜ தர்பார்)` and two later standalone source directions are translated as stage-direction units with no invented speakers;
-- `s008-d030` and `s008-d047` remain single cross-page English units;
-- source-owned `(ஆச்சரியத்தால்)` remains inside `s008-d041`;
-- courtroom, political, sexual-insult and execution rhetoric is translated as source rhetoric rather than silently softened or converted into factual narration.
+- `translations/index.json`;
+- `translations/whole-work-qa.json`;
+- `translations/WHOLE_WORK_RECONCILIATION.md`.
 
 ## Exact next activity
 
-> **Translate and verify source-numbered scenes 9–10 as the final bounded English batch, then run whole-work English reconciliation across opening + scenes 2–10. Preserve every immutable dialogue link exactly once and keep all closed upstream layers unchanged.**
+> **Begin Phase 14 whole-work reader/export construction. Generate deterministic Markdown, standalone HTML, machine-readable JSON, QA report and integrity manifest from verified structured records. Every one of the 228 verified English units must render exactly once; re-check 208/208 dialogue links, 5/5 cross-page units, source order, provenance bounds, non-dialogue ownership and absence of synthetic text.**

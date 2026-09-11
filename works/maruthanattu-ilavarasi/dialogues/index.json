@@ -69,10 +69,10 @@
   "preflight": "../notes/dialogue-index-preflight.json",
   "unlabelled_block_audit": "../notes/unlabelled-block-audit.json",
   "qa": "../notes/dialogue-index-qa.json",
-  "next_action": "Translate and verify source scenes 9-10; preserve exact Tamil labels, cross-page provenance and immutable dialogue ownership.",
+  "next_action": "Begin Phase 14 reader/export construction; preserve all 208 immutable dialogue links exactly once.",
   "character_entity_index_status": "complete-verified",
   "character_entity_count": 14,
   "song_performance_authorship_gate": "complete-verified-zero-item-pass",
-  "english_translation_status": "scene-008-verified-in-progress",
-  "english_translation_dialogue_links_verified": 185
+  "english_translation_status": "complete-verified",
+  "english_translation_dialogue_links_verified": 208
 }

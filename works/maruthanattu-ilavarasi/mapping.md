@@ -34,6 +34,7 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 - immutable dialogue layer: **208 records COMPLETE-VERIFIED**;
 - character/entity index: **14 entities / 24 labels / 208 records COMPLETE-VERIFIED**;
 - song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
-- English translation: **VERIFIED opening + scenes 2–8 / 8 of 10 derivative units**;
+- English translation: **COMPLETE-VERIFIED — 10/10 derivative units / 228 units / 208/208 dialogue links**;
+- whole-work English reconciliation: **PASS — 5/5 cross-page / 0 duplicate ownership / 0 inferred speakers**;
 
-Next: translate and verify source scenes 9–10 as the final bounded English batch, then run whole-work English reconciliation.
+Next: build the Phase 14 deterministic whole-work reader/export layer from verified structured records.

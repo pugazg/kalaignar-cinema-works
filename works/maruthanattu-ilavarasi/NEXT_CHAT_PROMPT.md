@@ -1,4 +1,4 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 9 English scenes 9–10
+# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 14 reader-export
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`.
 
@@ -12,29 +12,29 @@ Fetch live `main` first and preserve newer durable work.
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue: **208 COMPLETE-VERIFIED**;
 - character/entity: **14 COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**.
+- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
+- Phase 9 English translation: **COMPLETE-VERIFIED**.
 
-## Phase 9 durable state
+## English whole-work closure
 
-- verified derivative units: **8/10** — opening + scenes 2–8;
-- English units: **192**;
-- immutable dialogue links: **185/208**;
-- scene 8: **52/52 dialogue links + 3/3 stage directions PASS**;
-- cumulative cross-page English units: **4**;
+- derivative units: **10/10**;
+- verified English units: **228**;
+- immutable dialogue links: **208/208 exactly once**;
+- non-dialogue units: **20**;
+- cross-page units: **5/5 exact**;
 - inferred speakers: **0**;
-- performance links: **0/0**.
+- duplicate source ownership: **0**;
+- performance units: **0**;
+- whole-work QA: **PASS**.
 
 Read before continuing:
 
-- `translations/schema.json`
-- `translations/PILOT_REVIEW.md`
-- `translations/BATCH_002_005_REVIEW.md`
-- `translations/BATCH_006_007_REVIEW.md`
-- `translations/SCENE_008_REVIEW.md`
-- `translations/scene-008-qa.json`
 - `translations/index.json`
-- `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` section 13.
+- `translations/WHOLE_WORK_RECONCILIATION.md`
+- `translations/whole-work-qa.json`
+- all ten files under `translations/records/`
+- `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` section 14.
 
 ## Exact next activity
 
-> **Translate and verify source scenes 9–10 as one final bounded English batch. Preserve source scene numbers, order and page provenance; retain exact Tamil speaker labels/delimiters as metadata; link every explicitly labelled dialogue record exactly once; preserve source-unlabelled/stage/action ownership without invention; preserve cross-page units as single translation units; add no performance units because Phase 8 retained zero records; do not modify canonical Tamil, scene derivatives, dialogue records, character mappings, or Phase 8 gate records. After this batch, run whole-work English reconciliation across all 10 derivative units before declaring English COMPLETE.**
+> **Build the Phase 14 deterministic whole-work reader/export layer. Preferred outputs: Markdown, standalone HTML, machine-readable JSON, QA report and integrity manifest. Render every verified translation unit exactly once and in canonical order; preserve all 208 immutable dialogue links, all 20 non-dialogue source-linked units, all 5 cross-page units and exact source provenance. Do not create synthetic Scene 1, synthetic scene-end prose, performance material, or new publication formats such as PDF/EPUB. Do not modify closed upstream layers.**
