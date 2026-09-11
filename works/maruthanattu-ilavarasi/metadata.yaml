@@ -41,10 +41,10 @@ canonical_tamil_first_pass_pdf_range_completed: "2-22 (18,20,22 exact duplicate 
 canonical_tamil_first_pass_current_through_pdf: 22
 canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/pages/021-right.md
 canonical_tamil_total_body_pages: 21
-visual_fidelity_audit: in-progress-5-of-21
-historical_glyph_audit: final-in-progress-5-of-21
+visual_fidelity_audit: in-progress-10-of-21
+historical_glyph_audit: final-in-progress-10-of-21
 structured_derivatives: blocked
-next_action: "Independently verify logical printed pages 6–10; then advance both dual-gate counters to 10/21 if PASS."
-visual_verified_pages: 5
-historical_glyph_final_verified_pages: 5
-verification_current_through_logical_printed: 5
+next_action: "Independently verify logical printed pages 11–15; then advance both dual-gate counters to 15/21 if PASS."
+visual_verified_pages: 10
+historical_glyph_final_verified_pages: 10
+verification_current_through_logical_printed: 10
