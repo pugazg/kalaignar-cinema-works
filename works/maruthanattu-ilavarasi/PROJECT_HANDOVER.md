@@ -6,31 +6,35 @@ Work: `works/maruthanattu-ilavarasi/`
 
 **LIVE MAIN IS AUTHORITATIVE.**
 
-## Durable state
+## Closed upstream state
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue: **208 COMPLETE-VERIFIED**;
-- character/entity: **14 entities COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
-- Phase 9 English translation: **PILOT VERIFIED / IN PROGRESS**;
-- verified English derivative units: **1/10 — unnumbered opening**;
-- opening source coverage: **PDF 2–4 / logical 1–3**;
-- opening English units: **39**;
-- opening dialogue links: **36/36 exactly once**;
-- opening unlabelled narrative speakers inferred: **0**;
+- character/entity: **14 COMPLETE-VERIFIED**;
+- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**.
+
+## Phase 9 durable state
+
+- English translation: **IN PROGRESS — 5/10 derivative units VERIFIED**;
+- verified units: **opening + source scenes 2–5**;
+- cumulative English units: **92**;
+- cumulative immutable dialogue links: **89/208**;
+- scenes 2–5 batch: **53/53 dialogue links PASS**;
+- cross-page English units: **1** — `maruthanattu-ilavarasi-en-s003-u014`, PDF 7–8;
+- inferred speakers: **0**;
 - performance links: **0/0**;
-- canonical / scene / dialogue / character / Phase-8 mutations during pilot: **0 / 0 / 0 / 0 / 0**.
+- upstream source-layer mutations during English work: **0**.
 
-## Pilot precedents
+## Translation precedents
 
-- preserve the source's unnumbered opening; do not create Scene 1;
-- preserve exact Tamil labels/delimiters as metadata;
-- source-owned parenthetical action stays inside its immutable dialogue unit;
-- `* * *` remains a structural-separator unit;
-- repeated/anomalous source ownership is translated as printed, not normalized;
-- Phase 8 zero-item performance state remains unchanged.
+- the opening remains unnumbered;
+- exact Tamil labels/delimiters remain metadata;
+- scene 3 letter/signature remain inside immutable dialogue record `s003-d003`;
+- source-owned parentheticals remain in their owning dialogue unit;
+- physical page word-splits are not reproduced as English word-splits;
+- source rhetoric, insults, coercion and repetition are not silently softened or normalized.
 
 ## Exact next activity
 
-> **Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot batch. Use the opening pilot's voice/provenance rules. Link all explicit dialogue records exactly once; preserve stage directions and page provenance; do not alter closed source layers.**
+> **Translate and verify source-numbered scenes 6–7 as the next bounded batch. Keep scene 8 for its own dense batch. Link all explicit dialogue records exactly once; preserve page provenance and source-owned actions; do not alter closed upstream layers.**

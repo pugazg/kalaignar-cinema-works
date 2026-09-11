@@ -24,15 +24,15 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## மருதநாட்டு இளவரசி status
 
-- canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- scene/dialogue/character layers: **10/10 / 208 / 14 COMPLETE-VERIFIED**;
+- canonical Tamil / scenes / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
 - Phase 8 performance/authorship: **ZERO-ITEM PASS**;
-- English translation: **PILOT VERIFIED / IN PROGRESS**;
-- verified English derivative units: **1/10 — unnumbered opening**;
-- pilot English units / dialogue links: **39 / 36 of 36**;
-- inferred opening speakers / performance links: **0 / 0**.
+- English translation: **5/10 derivative units VERIFIED**;
+- verified: **opening + source scenes 2–5**;
+- English units / dialogue links: **92 / 89 of 208**;
+- scenes 2–5 batch: **53/53 dialogue links PASS**;
+- inferred speakers / performance links: **0 / 0**.
 
-**Next:** translate and verify source scenes **2–5** as the first bounded post-pilot English batch.
+**Next:** translate and verify source scenes **6–7**.
 
 ## வண்டிக்காரன் மகன் status
 
