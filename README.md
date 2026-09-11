@@ -26,14 +26,14 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - canonical Tamil / scenes / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
 - Phase 8 performance/authorship: **ZERO-ITEM PASS**;
-- English translation: **7/10 derivative units VERIFIED**;
-- verified: **opening + source scenes 2–7**;
-- English units / dialogue links: **137 / 133 of 208**;
-- latest scenes 6–7 batch: **44/44 dialogue links + 1/1 stage direction PASS**;
-- cumulative cross-page English units: **2**;
+- English translation: **8/10 derivative units VERIFIED**;
+- verified: **opening + source scenes 2–8**;
+- English units / dialogue links: **192 / 185 of 208**;
+- scene 8: **52/52 dialogue links + 3/3 stage directions PASS**;
+- cumulative cross-page English units: **4**;
 - inferred speakers / performance links: **0 / 0**.
 
-**Next:** translate and verify source scene **8** as its own dense batch.
+**Next:** translate and verify source scenes **9–10** as the final bounded English batch, then run whole-work English reconciliation.
 
 ## வண்டிக்காரன் மகன் status
 
