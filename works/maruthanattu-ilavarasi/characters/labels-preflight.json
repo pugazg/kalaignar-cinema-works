@@ -1,0 +1,92 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "character-entity-preflight",
+  "status": "PASS",
+  "dialogue_records_scanned": 208,
+  "exact_source_labels": 24,
+  "proposed_entity_count": 14,
+  "proposed_entity_type_counts": {
+    "character": 11,
+    "role": 1,
+    "collective": 2
+  },
+  "named_alias_groups": {
+    "கோபதிவர்மன்": [
+      "கோபதிவர்மன்",
+      "கோபதி"
+    ],
+    "அன்பானந்தர்": [
+      "அன்பானந்தர்",
+      "அன்பா"
+    ],
+    "துர்ஜயன்": [
+      "துர்ஜயன்",
+      "துர்ஜ",
+      "துர்ஜய"
+    ],
+    "காளிங்கன்": [
+      "காளிங்கன்",
+      "காளிங்"
+    ],
+    "மணிபல்லவர்": [
+      "மணிபல்லவர்",
+      "மணி"
+    ],
+    "ரௌத்ரன் / ரௌத்திரன்": [
+      "ரௌத்ரன்",
+      "ரௌத்",
+      "ரௌத்திரன்"
+    ],
+    "காண்டிபன்": [
+      "காண்டிபன்",
+      "காண்",
+      "காண்டி"
+    ]
+  },
+  "direct_single_label_entities": [
+    {
+      "preferred_name_ta": "சித்ரா",
+      "source_label": "சித்ரா",
+      "entity_type": "character"
+    },
+    {
+      "preferred_name_ta": "சேவகன்",
+      "source_label": "சேவகன்",
+      "entity_type": "role"
+    },
+    {
+      "preferred_name_ta": "ராணி",
+      "source_label": "ராணி",
+      "entity_type": "character"
+    },
+    {
+      "preferred_name_ta": "ரம்பா",
+      "source_label": "ரம்பா",
+      "entity_type": "character"
+    },
+    {
+      "preferred_name_ta": "சபையோர்",
+      "source_label": "சபையோர்",
+      "entity_type": "collective"
+    },
+    {
+      "preferred_name_ta": "அழகு",
+      "source_label": "அழகு",
+      "entity_type": "character"
+    },
+    {
+      "preferred_name_ta": "பொதுமக்கள்",
+      "source_label": "பொதுமக்கள்",
+      "entity_type": "collective"
+    }
+  ],
+  "record_aware_split_labels_required": 0,
+  "unresolved_labels": 0,
+  "policy": {
+    "dialogue_speaker_label": "immutable provenance; never rewritten",
+    "alias_resolution": "separate downstream entity layer only",
+    "generic_role": "category only; does not assert a named person",
+    "collective": "preserved as collective rather than individual",
+    "source_scene_1": "not invented"
+  }
+}

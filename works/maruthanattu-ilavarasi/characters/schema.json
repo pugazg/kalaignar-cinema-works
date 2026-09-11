@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "maruthanattu-ilavarasi-character-entity.schema.json",
+  "title": "Maruthanattu Ilavarasi character/entity record",
+  "type": "object",
+  "required": [
+    "id",
+    "preferred_name_ta",
+    "entity_type",
+    "status",
+    "confidence",
+    "source_labels",
+    "segments",
+    "source_scene_numbers",
+    "dialogue_record_count",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^maruthanattu-ilavarasi-char-[a-z0-9-]+$"
+    },
+    "preferred_name_ta": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "enum": [
+        "character",
+        "role",
+        "collective"
+      ]
+    },
+    "status": {
+      "const": "verified"
+    },
+    "confidence": {
+      "const": "high"
+    },
+    "source_labels": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^maruthanattu-ilavarasi-(?:opening|s00[2-9]|s010)$"
+      }
+    },
+    "source_scene_numbers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 10
+      }
+    },
+    "dialogue_record_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "supporting_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

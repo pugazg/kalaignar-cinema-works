@@ -1,0 +1,401 @@
+[
+  {
+    "speaker_label": "அழகு",
+    "record_count": 2,
+    "segments": [
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-azhagu",
+    "entity_key": "azhagu",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "அன்பா",
+    "record_count": 10,
+    "segments": [
+      "maruthanattu-ilavarasi-opening"
+    ],
+    "source_scene_numbers": [],
+    "entity_id": "maruthanattu-ilavarasi-char-anbanandar",
+    "entity_key": "anbanandar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "அன்பானந்தர்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-opening"
+    ],
+    "source_scene_numbers": [],
+    "entity_id": "maruthanattu-ilavarasi-char-anbanandar",
+    "entity_key": "anbanandar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "காண்",
+    "record_count": 9,
+    "segments": [
+      "maruthanattu-ilavarasi-s006",
+      "maruthanattu-ilavarasi-s007",
+      "maruthanattu-ilavarasi-s008"
+    ],
+    "source_scene_numbers": [
+      6,
+      7,
+      8
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-kandiban",
+    "entity_key": "kandiban",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "காண்டி",
+    "record_count": 17,
+    "segments": [
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      8,
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-kandiban",
+    "entity_key": "kandiban",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "காண்டிபன்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s006"
+    ],
+    "source_scene_numbers": [
+      6
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-kandiban",
+    "entity_key": "kandiban",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "காளிங்",
+    "record_count": 4,
+    "segments": [
+      "maruthanattu-ilavarasi-s009",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      9,
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-kalingan",
+    "entity_key": "kalingan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "காளிங்கன்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-opening"
+    ],
+    "source_scene_numbers": [],
+    "entity_id": "maruthanattu-ilavarasi-char-kalingan",
+    "entity_key": "kalingan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "கோபதி",
+    "record_count": 36,
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s002",
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s009",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      2,
+      4,
+      8,
+      9,
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-gopativarman",
+    "entity_key": "gopativarman",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "கோபதிவர்மன்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-opening"
+    ],
+    "source_scene_numbers": [],
+    "entity_id": "maruthanattu-ilavarasi-char-gopativarman",
+    "entity_key": "gopativarman",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "சபையோர்",
+    "record_count": 5,
+    "segments": [
+      "maruthanattu-ilavarasi-s008"
+    ],
+    "source_scene_numbers": [
+      8
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-sabaiyor-collective",
+    "entity_key": "sabaiyor-collective",
+    "entity_type": "collective",
+    "mapping_mode": "collective-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "சித்ரா",
+    "record_count": 16,
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s008"
+    ],
+    "source_scene_numbers": [
+      8
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-chitra",
+    "entity_key": "chitra",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "சேவகன்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s002"
+    ],
+    "source_scene_numbers": [
+      2
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-sevagan-role",
+    "entity_key": "sevagan-role",
+    "entity_type": "role",
+    "mapping_mode": "role-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "துர்ஜ",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s008"
+    ],
+    "source_scene_numbers": [
+      8
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-durjayan",
+    "entity_key": "durjayan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "துர்ஜய",
+    "record_count": 4,
+    "segments": [
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      8,
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-durjayan",
+    "entity_key": "durjayan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "துர்ஜயன்",
+    "record_count": 41,
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s002",
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s005",
+      "maruthanattu-ilavarasi-s007",
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-durjayan",
+    "entity_key": "durjayan",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "பொதுமக்கள்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-pothumakkal-collective",
+    "entity_key": "pothumakkal-collective",
+    "entity_type": "collective",
+    "mapping_mode": "collective-category",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மணி",
+    "record_count": 7,
+    "segments": [
+      "maruthanattu-ilavarasi-s003",
+      "maruthanattu-ilavarasi-s005"
+    ],
+    "source_scene_numbers": [
+      3,
+      5
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-maniballavar",
+    "entity_key": "maniballavar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "மணிபல்லவர்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s003"
+    ],
+    "source_scene_numbers": [
+      3
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-maniballavar",
+    "entity_key": "maniballavar",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ரம்பா",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s006"
+    ],
+    "source_scene_numbers": [
+      6
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-ramba",
+    "entity_key": "ramba",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ராணி",
+    "record_count": 30,
+    "segments": [
+      "maruthanattu-ilavarasi-s003",
+      "maruthanattu-ilavarasi-s005",
+      "maruthanattu-ilavarasi-s006",
+      "maruthanattu-ilavarasi-s007",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      3,
+      5,
+      6,
+      7,
+      10
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-rani",
+    "entity_key": "rani",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ரௌத்",
+    "record_count": 15,
+    "segments": [
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s006",
+      "maruthanattu-ilavarasi-s007"
+    ],
+    "source_scene_numbers": [
+      4,
+      6,
+      7
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-raudhran",
+    "entity_key": "raudhran",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ரௌத்திரன்",
+    "record_count": 1,
+    "segments": [
+      "maruthanattu-ilavarasi-s007"
+    ],
+    "source_scene_numbers": [
+      7
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-raudhran",
+    "entity_key": "raudhran",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  },
+  {
+    "speaker_label": "ரௌத்ரன்",
+    "record_count": 2,
+    "segments": [
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s005"
+    ],
+    "source_scene_numbers": [
+      4,
+      5
+    ],
+    "entity_id": "maruthanattu-ilavarasi-char-raudhran",
+    "entity_key": "raudhran",
+    "entity_type": "character",
+    "mapping_mode": "global-alias",
+    "unresolved_record_count": 0
+  }
+]

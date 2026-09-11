@@ -1,0 +1,31 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "status": "complete-verified",
+  "dialogue_index": "../dialogues/index.json",
+  "schema": "schema.json",
+  "label_preflight": "labels-preflight.json",
+  "label_inventory": "labels-inventory.json",
+  "record_dispositions": "record-dispositions.json",
+  "entities": "entities.json",
+  "dialogue_records_source": 208,
+  "distinct_source_labels": 24,
+  "entity_count": 14,
+  "entity_type_counts": {
+    "character": 11,
+    "role": 1,
+    "collective": 2
+  },
+  "verified_entities": 14,
+  "review_entities": 0,
+  "unresolved_entities": 0,
+  "verified_labels": 24,
+  "review_labels": 0,
+  "unresolved_labels": 0,
+  "label_coverage": "24/24",
+  "dialogue_record_coverage": "208/208",
+  "remaining_unmapped_labels": 0,
+  "remaining_unmapped_records": 0,
+  "record_aware_labels": [],
+  "dialogue_records_modified": false,
+  "next_activity": "Begin Phase 8 song/performance/authorship gating from source-visible performance/song structures, if any. Preserve source wording and credits; do not infer lyric authorship merely because the work is a Kalaignar dialogue booklet. Run whole-work performance coverage QA before English translation."
+}

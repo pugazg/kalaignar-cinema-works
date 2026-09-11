@@ -1,0 +1,371 @@
+[
+  {
+    "id": "maruthanattu-ilavarasi-char-gopativarman",
+    "preferred_name_ta": "கோபதிவர்மன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "கோபதிவர்மன்",
+      "கோபதி"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s002",
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s009",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      2,
+      4,
+      8,
+      9,
+      10
+    ],
+    "dialogue_record_count": 37,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-opening-d001",
+      "maruthanattu-ilavarasi-opening-d003",
+      "maruthanattu-ilavarasi-opening-d005"
+    ],
+    "notes": "The opening begins with the full label `கோபதிவர்மன்` and immediately continues with `கோபதி`; the same ruler recurs under the abbreviated label. The immutable dialogue labels remain unchanged."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-chitra",
+    "preferred_name_ta": "சித்ரா",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சித்ரா"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s008"
+    ],
+    "source_scene_numbers": [
+      8
+    ],
+    "dialogue_record_count": 16,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-opening-d002",
+      "maruthanattu-ilavarasi-opening-d004",
+      "maruthanattu-ilavarasi-opening-d009"
+    ],
+    "notes": "Named recurring character in the unnumbered opening and scene 8."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-anbanandar",
+    "preferred_name_ta": "அன்பானந்தர்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "அன்பானந்தர்",
+      "அன்பா"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-opening"
+    ],
+    "source_scene_numbers": [],
+    "dialogue_record_count": 11,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-opening-d006",
+      "maruthanattu-ilavarasi-opening-d008",
+      "maruthanattu-ilavarasi-opening-d010"
+    ],
+    "notes": "The opening establishes `அன்பானந்தர்`; subsequent turns use the abbreviated source label `அன்பா`. Variant reconciliation occurs only in this entity layer."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-durjayan",
+    "preferred_name_ta": "துர்ஜயன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "துர்ஜயன்",
+      "துர்ஜ",
+      "துர்ஜய"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s002",
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s005",
+      "maruthanattu-ilavarasi-s007",
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      10
+    ],
+    "dialogue_record_count": 46,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-opening-d022",
+      "maruthanattu-ilavarasi-opening-d024",
+      "maruthanattu-ilavarasi-opening-d034"
+    ],
+    "notes": "Recurring character across the opening and scenes 2, 4, 5, 7, 8 and 10. `துர்ஜ` and `துர்ஜய` are source-visible truncated labels mapped here without rewriting dialogue provenance."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-kalingan",
+    "preferred_name_ta": "காளிங்கன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "காளிங்கன்",
+      "காளிங்"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-opening",
+      "maruthanattu-ilavarasi-s009",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      9,
+      10
+    ],
+    "dialogue_record_count": 5,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-opening-d023",
+      "maruthanattu-ilavarasi-s009-d002",
+      "maruthanattu-ilavarasi-s009-d004"
+    ],
+    "notes": "The opening uses full `காளிங்கன்`; scenes 9–10 use abbreviated `காளிங்`. The identity is continuous in source context."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-sevagan-role",
+    "preferred_name_ta": "சேவகன்",
+    "entity_type": "role",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சேவகன்"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s002"
+    ],
+    "source_scene_numbers": [
+      2
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s002-d001"
+    ],
+    "notes": "Unnamed servant role in scene 2. No unsupported personal name is supplied."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-rani",
+    "preferred_name_ta": "ராணி",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ராணி"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s003",
+      "maruthanattu-ilavarasi-s005",
+      "maruthanattu-ilavarasi-s006",
+      "maruthanattu-ilavarasi-s007",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      3,
+      5,
+      6,
+      7,
+      10
+    ],
+    "dialogue_record_count": 30,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s003-d001",
+      "maruthanattu-ilavarasi-s003-d003",
+      "maruthanattu-ilavarasi-s003-d005"
+    ],
+    "notes": "Continuous central character introduced as மணிபல்லவர்'s daughter and later identified in the source as the மருதநாட்டு இளவரசி. The title-like source label `ராணி` is preserved exactly."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-maniballavar",
+    "preferred_name_ta": "மணிபல்லவர்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "மணிபல்லவர்",
+      "மணி"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s003",
+      "maruthanattu-ilavarasi-s005"
+    ],
+    "source_scene_numbers": [
+      3,
+      5
+    ],
+    "dialogue_record_count": 8,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s003-d002",
+      "maruthanattu-ilavarasi-s003-d004",
+      "maruthanattu-ilavarasi-s003-d006"
+    ],
+    "notes": "Scene 3 prints full `மணிபல்லவர்` then repeatedly uses `மணி`; scene 5 continues the same father/ruler character."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-raudhran",
+    "preferred_name_ta": "ரௌத்ரன் / ரௌத்திரன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ரௌத்ரன்",
+      "ரௌத்",
+      "ரௌத்திரன்"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s004",
+      "maruthanattu-ilavarasi-s005",
+      "maruthanattu-ilavarasi-s006",
+      "maruthanattu-ilavarasi-s007"
+    ],
+    "source_scene_numbers": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "dialogue_record_count": 18,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s004-d002",
+      "maruthanattu-ilavarasi-s004-d005",
+      "maruthanattu-ilavarasi-s004-d007"
+    ],
+    "notes": "One recurring character across scenes 4–7. The source alternates full `ரௌத்ரன்`, abbreviated `ரௌத்`, and spelling variant `ரௌத்திரன்`; all remain unchanged upstream."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-kandiban",
+    "preferred_name_ta": "காண்டிபன்",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "காண்டிபன்",
+      "காண்",
+      "காண்டி"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s006",
+      "maruthanattu-ilavarasi-s007",
+      "maruthanattu-ilavarasi-s008",
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      6,
+      7,
+      8,
+      10
+    ],
+    "dialogue_record_count": 27,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s006-d001",
+      "maruthanattu-ilavarasi-s006-d003",
+      "maruthanattu-ilavarasi-s006-d005"
+    ],
+    "notes": "Recurring central character. Scene 6 begins with full `காண்டிபன்`, then uses `காண்`; scenes 8 and 10 use `காண்டி`. These are mapped only downstream."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-ramba",
+    "preferred_name_ta": "ரம்பா",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "ரம்பா"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s006"
+    ],
+    "source_scene_numbers": [
+      6
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s006-d008"
+    ],
+    "notes": "Named character with one explicit labelled utterance; later source stage directions also refer to ரம்பா."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-sabaiyor-collective",
+    "preferred_name_ta": "சபையோர்",
+    "entity_type": "collective",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "சபையோர்"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s008"
+    ],
+    "source_scene_numbers": [
+      8
+    ],
+    "dialogue_record_count": 5,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s008-d013",
+      "maruthanattu-ilavarasi-s008-d019",
+      "maruthanattu-ilavarasi-s008-d023"
+    ],
+    "notes": "Collective source speaker label in scene 8; not collapsed into an individual."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-azhagu",
+    "preferred_name_ta": "அழகு",
+    "entity_type": "character",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "அழகு"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      10
+    ],
+    "dialogue_record_count": 2,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s010-d008",
+      "maruthanattu-ilavarasi-s010-d011"
+    ],
+    "notes": "Named character in scene 10; the preceding stage direction also names அழகு before the explicit dialogue turns."
+  },
+  {
+    "id": "maruthanattu-ilavarasi-char-pothumakkal-collective",
+    "preferred_name_ta": "பொதுமக்கள்",
+    "entity_type": "collective",
+    "status": "verified",
+    "confidence": "high",
+    "source_labels": [
+      "பொதுமக்கள்"
+    ],
+    "segments": [
+      "maruthanattu-ilavarasi-s010"
+    ],
+    "source_scene_numbers": [
+      10
+    ],
+    "dialogue_record_count": 1,
+    "supporting_records": [
+      "maruthanattu-ilavarasi-s010-d016"
+    ],
+    "notes": "Collective public/crowd source label in scene 10."
+  }
+]
