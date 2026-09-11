@@ -1288,13 +1288,13 @@
       "scene_index": "complete-verified",
       "dialogue_index": "complete-verified",
       "character_index": "not-started",
-      "song_performance_gate": "not-started",
+      "song_performance_gate": "complete-verified-zero-item-pass",
       "english_translation": "not-started",
       "reader_export": "not-started",
       "reading_room_integration": "not-started",
       "character_entity_index": "complete-verified"
     },
-    "next_action": "Begin Phase 8 song/performance/authorship gating; inventory source-visible performance structures and explicit credits without inferring authorship from booklet inclusion.",
+    "next_action": "Begin Phase 9 English translation with the unnumbered opening pilot; link 36/36 labelled opening turns to immutable dialogue IDs exactly once and keep the unlabelled narration unassigned.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1352,6 +1352,12 @@
     },
     "character_entity_label_coverage": "24/24",
     "character_entity_dialogue_record_coverage": "208/208",
-    "song_performance_authorship_gate": "not-started-ready-next"
+    "song_performance_authorship_gate": "complete-verified-zero-item-pass",
+    "song_performance_candidate_mentions_reviewed": 6,
+    "song_performance_records": 0,
+    "song_performance_tamil_derivatives": 0,
+    "song_item_level_authorship_records": 0,
+    "english_translation_gate": "ready-next",
+    "english_translation_status": "not-started"
   }
 ]
