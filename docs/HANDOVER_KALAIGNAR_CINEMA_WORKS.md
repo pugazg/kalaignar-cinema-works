@@ -135,7 +135,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
 - **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45**; dialogues **590**; characters **28 / 45/45 / 590/590**; song/performance gate **7/7 reconciled**; English **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated**.
 - **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; scenes **72/72**; dialogues **773 / 38 labels / reconciled QA PASS**; characters **32 / 38/38 / 773/773**; song/performance **9/9 source-only QA PASS**; English **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 source-unlabelled / 58 cross-page / 9/9 performance identities**; reader/export **QA PASS**; Reading Room payload **QA PASS — 1,610,402 bytes / `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**; site not applied.
-- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — canonical Tamil **21/21 COMPLETE-VERIFIED**; visual/final glyph **21/21 / 21/21 PASS**; scene-text derivatives **10/10 COMPLETE-VERIFIED** = 1 unnumbered opening + source காட்சி 2–10; boundary ownership QA **PASS — 0 gaps / 0 overlaps**; dialogue index **READY-NEXT**.
+- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — canonical Tamil **21/21 COMPLETE-VERIFIED**; scene derivatives **10/10 COMPLETE-VERIFIED**; immutable dialogue layer **208 records / 24 exact labels COMPLETE-VERIFIED**; dialogue QA **PASS 208/208**; character/entity index **READY-NEXT**.
 
 Ammayappan and Naam remain closed at their recorded checkpoints. **Vandikkaran Magan now has no required repository-internal production phase remaining: source/Tamil, structured derivatives, English translation, deterministic reader/export and source-linked Reading Room payload are complete-verified / QA PASS. The separate Reading Room site remains not-applied and requires explicit authorization before modification.**
 
@@ -312,11 +312,11 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 ## 11. மருதநாட்டு இளவரசி active checkpoint
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- visual / final glyph: **21/21 / 21/21 PASS**;
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
-- derivative disposition: **1 unnumbered opening + 9 printed scenes (காட்சி 2–10)**;
-- invented காட்சி 1: **0**;
-- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
-- dialogue index: **NOT STARTED / READY-NEXT**.
+- immutable dialogue records: **208 COMPLETE-VERIFIED**;
+- exact speaker labels: **24**;
+- multi-page dialogue records: **5**;
+- dialogue QA: **PASS — 208/208 exactly once**;
+- character/entity index: **NOT STARTED / READY-NEXT**.
 
-**Next:** build the Phase 6 immutable dialogue index.
+**Next:** build Phase 7 character/entity index without mutating immutable dialogue labels.

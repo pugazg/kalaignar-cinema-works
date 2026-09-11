@@ -1286,14 +1286,14 @@
     "historical_glyph_audit": "final-complete-verified-21-of-21",
     "structured_derivatives": {
       "scene_index": "complete-verified",
-      "dialogue_index": "not-started",
+      "dialogue_index": "complete-verified",
       "character_index": "not-started",
       "song_performance_gate": "not-started",
       "english_translation": "not-started",
       "reader_export": "not-started",
       "reading_room_integration": "not-started"
     },
-    "next_action": "Begin Phase 6 dialogue indexing from the unnumbered opening and source scenes 2–10; preserve exact speaker labels, provenance, and cross-page utterance ownership.",
+    "next_action": "Begin Phase 7 character/entity indexing from the 208 immutable dialogue records and 24 exact source speaker labels.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1337,6 +1337,11 @@
     "scene_derivative_units": 10,
     "source_scene_derivative_files": 9,
     "unnumbered_opening_derivative_files": 1,
-    "scene_boundary_ownership_qa": "pass"
+    "scene_boundary_ownership_qa": "pass",
+    "dialogue_record_count": 208,
+    "dialogue_distinct_exact_speaker_labels": 24,
+    "dialogue_multi_page_records": 5,
+    "dialogue_unlabelled_ordinary_blocks": 1,
+    "character_entity_index": "not-started-ready-next"
   }
 ]

@@ -1,36 +1,31 @@
 # மருதநாட்டு இளவரசி — Project Handover
 
-Repository: pugazg/kalaignar-cinema-works  
-Branch: main  
-Work: works/maruthanattu-ilavarasi/
+Repository: `pugazg/kalaignar-cinema-works`  
+Branch: `main`  
+Work: `works/maruthanattu-ilavarasi/`
 
 **LIVE MAIN IS AUTHORITATIVE.**
 
-## Controlling source
-
-TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf — **22 PDF pages / 9,330,870 bytes / SHA-256 8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f / image-only**.
-
-Source geometry: PDF 1 cover; PDF 2–22 = logical printed 1–21.
-
 ## Durable state
 
-- intake / mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
-- Tamil canonical: **21/21 COMPLETE-VERIFIED**;
+- canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - visual / final glyph: **21/21 / 21/21 PASS**;
-- draft / unresolved: **0 / 0**;
-- scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
-- unnumbered opening: **1/1**;
-- source scene files: **9/9 — காட்சி 2. through காட்சி 10.**;
-- invented காட்சி 1: **0**;
-- scene boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
-- dialogue index: **NOT STARTED**.
+- scene derivatives: **10/10 COMPLETE-VERIFIED**;
+- derivative disposition: **1 unnumbered opening + source காட்சி 2–10**;
+- boundary QA: **PASS — 0 gaps / 0 overlaps**;
+- immutable dialogue index: **208 records COMPLETE-VERIFIED**;
+- exact source speaker labels: **24**;
+- delimiter distribution: **207 × `:-`, 1 × `:`**;
+- multi-page dialogue records: **5**;
+- ordinary unlabelled blocks: **1**, preserved separately;
+- inferred speakers / label normalization: **0 / 0**;
+- dialogue coverage QA: **PASS — 208/208 exactly once**;
+- character/entity index: **NOT STARTED / READY-NEXT**.
 
-## Structural rule that must not regress
+### Immutable-label rule
 
-Logical pages 1–3 are an unnumbered opening. They must not be relabelled or synthesized as காட்சி 1. Source-numbered scene derivatives begin at காட்சி 2.
-
-The final source ornament ★ remains in scene 10 and must not generate synthetic closing prose.
+Do not rewrite exact labels in dialogue records. Variant groups such as `கோபதிவர்மன்` / `கோபதி`, `அன்பானந்தர்` / `அன்பா`, `மணிபல்லவர்` / `மணி`, `ரௌத்ரன்` / `ரௌத்` / `ரௌத்திரன்`, `காண்டிபன்` / `காண்டி` / `காண்`, `துர்ஜயன்` / `துர்ஜ` / `துர்ஜய`, and `காளிங்கன்` / `காளிங்` remain immutable provenance.
 
 ## Exact next activity
 
-> **Begin Phase 6 dialogue indexing across the unnumbered opening and source scenes 2–10. Inventory exact speaker labels, create immutable dialogue records in source order with page provenance, preserve cross-page labelled utterances as one logical record, and leave unlabelled speech unassigned.**
+> **Build the Phase 7 character/entity index from all 24 exact labels. Preserve generic collectives such as சபையோர் and பொதுமக்கள் as explicit entities/roles; map only supported variants; validate 208/208 dialogue-record coverage; do not mutate canonical Tamil, scene derivatives, or immutable dialogue records.**

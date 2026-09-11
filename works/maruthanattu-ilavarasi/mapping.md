@@ -30,6 +30,8 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 - independent visual fidelity: **21/21 PASS**;
 - final historical-glyph verification: **21/21 PASS**;
 - open uncertainty markers: **0**;
-- structured derivatives: **READY-NEXT / NOT STARTED**.
+- scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
+- immutable dialogue layer: **208 records COMPLETE-VERIFIED**;
+- character/entity index: **READY-NEXT**.
 
-Next: build scene-text derivatives from the closed canonical Tamil.
+Next: build the Phase 7 character/entity index from the 24 exact immutable speaker labels.

@@ -1,30 +1,21 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / dialogue indexing
+# Next Chat Prompt — மருதநாட்டு இளவரசி / character & entity index
 
-Continue directly in pugazg/kalaignar-cinema-works, branch main, active work works/maruthanattu-ilavarasi/.
+Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live main first and preserve newer durable work.
+Fetch live `main` first and preserve newer durable work.
 
 ## Closed upstream gates
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- visual fidelity: **21/21 PASS**;
-- final historical-glyph verification: **21/21 PASS**;
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
-- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
-- logical pages 1–3: **unnumbered opening**;
-- source scenes: **காட்சி 2. through காட்சி 10.**;
-- invented காட்சி 1: **0**.
-
-Authoritative derivative layer:
-
-- works/maruthanattu-ilavarasi/scenes/README.md
-- works/maruthanattu-ilavarasi/scenes/index.json
-- works/maruthanattu-ilavarasi/scenes/opening.md
-- works/maruthanattu-ilavarasi/scenes/scene-002.md through scene-010.md
-- works/maruthanattu-ilavarasi/notes/scene-boundary-ownership-qa.md
+- immutable dialogue records: **208 COMPLETE-VERIFIED**;
+- exact speaker labels: **24**;
+- multi-page dialogue records: **5**;
+- dialogue coverage QA: **PASS — 208/208 exactly once**;
+- speaker normalizations / inferred speakers: **0 / 0**.
 
 ## Exact next activity
 
-> **Build the Phase 6 immutable dialogue index from opening.md and scenes 2–10. Inventory every explicitly printed speaker label exactly as written, retain source segment/scene and PDF/printed-page provenance, keep a labelled utterance that crosses a page as one logical dialogue record, do not invent speakers for unlabelled text, and run whole-work dialogue coverage QA before starting the character/entity index. Do not modify closed canonical Tamil or scene-text derivatives.**
+> **Build Phase 7 character/entity indexing from the 24 exact immutable speaker labels. Create stable entity IDs and a separate exact-label alias mapping; merge variants only when supported by source/context; preserve collective labels such as சபையோர் and பொதுமக்கள்; validate that all 208 dialogue records resolve exactly once to an entity/role disposition. Do not rewrite canonical Tamil, scene files, or dialogue records.**

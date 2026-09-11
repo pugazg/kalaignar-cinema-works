@@ -46,6 +46,11 @@ Each file:
 6. keeps source-visible structural ornaments, including the final ★, without synthetic closing prose;
 7. does not modify canonical Tamil.
 
+## Downstream state
+
+- immutable dialogue layer: **COMPLETE-VERIFIED — 208 records / 24 exact labels / 5 multi-page utterances**;
+- character/entity layer: **NOT STARTED / READY-NEXT**.
+
 ## Next activity
 
-Begin Phase 6 dialogue indexing across opening.md and scenes 2–10. Inventory explicit speaker labels exactly as printed, create immutable dialogue records in source order with PDF/printed-page provenance, keep cross-page labelled utterances as one logical record, and leave unlabelled speech unassigned.
+Begin Phase 7 character/entity indexing from the immutable dialogue records. Keep all exact speaker labels unchanged in the dialogue layer and map supported variants only in the separate character/entity layer.

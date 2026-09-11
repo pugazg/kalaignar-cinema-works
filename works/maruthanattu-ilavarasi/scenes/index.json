@@ -211,5 +211,7 @@
       "end_before": null
     }
   ],
-  "next_action": "Begin Phase 6 dialogue indexing from opening.md plus source scenes 2–10. Preserve exact source speaker labels, keep cross-page labelled utterances as one logical record, and leave source-unlabelled speech unassigned."
+  "next_action": "Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer; do not modify canonical Tamil or scene-text derivatives.",
+  "dialogue_index_status": "complete-verified",
+  "dialogue_record_count": 208
 }

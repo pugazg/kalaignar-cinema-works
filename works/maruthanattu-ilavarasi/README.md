@@ -8,24 +8,24 @@ Controlling source: TVA_BOK_0065774_மருதநாட்டு_இளவர�
 
 PDF 1 is the cover; PDF 2–22 are 21 unique body pages; logical printed page = PDF page − 1.
 
-## Closed canonical gate
+## Closed upstream gates
 
-- Tamil T1: **21/21 COMPLETE-VERIFIED**;
-- visual fidelity: **21/21 PASS**;
-- final historical-glyph verification: **21/21 PASS**;
-- draft / open uncertainty: **0 / 0**.
+- Tamil canonical: **21/21 COMPLETE-VERIFIED**;
+- visual fidelity / final historical glyph: **21/21 / 21/21 PASS**;
+- scene-text derivatives: **10/10 COMPLETE-VERIFIED** — 1 unnumbered opening + source காட்சி 2–10;
+- scene boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
+- open source uncertainties: **0**.
 
-## Scene-text derivatives
+## Immutable dialogue layer
 
-- derivative units: **10/10 COMPLETE-VERIFIED**;
-- unnumbered opening: **1/1** — logical 1–3 / PDF 2–4;
-- printed source scenes: **9/9** — காட்சி 2. through காட்சி 10.;
-- invented காட்சி 1: **0**;
-- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
-- canonical Tamil mutated during derivative construction: **0**.
-
-Authoritative derivative files are under scenes/, with scenes/index.json and notes/scene-boundary-ownership-qa.md controlling the current phase state.
+- explicit dialogue records: **208 COMPLETE-VERIFIED**;
+- exact printed speaker labels: **24**;
+- delimiter distribution: **207 `:-` / 1 `:`**;
+- multi-page labelled utterances: **5**;
+- ordinary unlabelled blocks preserved separately: **1**;
+- speaker normalizations / inferred speakers: **0 / 0**;
+- whole-work dialogue coverage QA: **PASS — 208/208 exactly once**.
 
 ## Exact next activity
 
-> **Begin Phase 6 dialogue indexing from opening.md plus source scenes 2–10. Preserve every explicit speaker label exactly as printed, create immutable dialogue records in source order with PDF/printed-page provenance, keep cross-page labelled utterances as one logical record, and leave source-unlabelled speech unassigned.**
+> **Begin Phase 7 character/entity indexing. Map the 24 exact speaker labels to stable character/entity IDs only where source/context supports the relationship; preserve every exact label in immutable dialogue records, keep collective labels explicit, and run whole-work label/entity coverage QA before the song/performance gate.**

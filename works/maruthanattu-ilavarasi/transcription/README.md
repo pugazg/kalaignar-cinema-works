@@ -8,4 +8,4 @@ Source geometry is linear: PDF 1 cover; PDF 2–22 are 21 unique body pages; log
 
 V4 closed logical pages 16–21 / PDF 17–22 after **13 source-supported corrections / 0 unresolved**. No grammatical or spelling normalization was applied beyond what the source pixels support.
 
-Canonical Tamil is now closed. **Next:** build scene-text derivatives while preserving the unnumbered opening and printed scene headings 2–10.
+Canonical Tamil is now closed. **Downstream:** scene-text derivatives **10/10 COMPLETE-VERIFIED**; immutable dialogue layer **208 records COMPLETE-VERIFIED**. Next production phase is the separate character/entity index. Canonical Tamil remains closed.
