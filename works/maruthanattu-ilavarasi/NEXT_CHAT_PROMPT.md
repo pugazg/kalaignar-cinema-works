@@ -1,4 +1,4 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 9 English scenes 6–7
+# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 9 English scene 8
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`.
 
@@ -16,25 +16,24 @@ Fetch live `main` first and preserve newer durable work.
 
 ## Phase 9 durable state
 
-- verified derivative units: **5/10** — opening + scenes 2–5;
-- English units: **92**;
-- immutable dialogue links: **89/208**;
-- opening: **36/36**;
-- scenes 2–5 batch: **53/53**;
+- verified derivative units: **7/10** — opening + scenes 2–7;
+- English units: **137**;
+- immutable dialogue links: **133/208**;
+- scenes 6–7: **44/44 dialogue links + 1/1 stage direction PASS**;
+- cumulative cross-page English units: **2**;
 - inferred speakers: **0**;
-- performance links: **0/0**;
-- cross-page English units: **1** — scene 3 final utterance.
+- performance links: **0/0**.
 
 Read before continuing:
 
 - `translations/schema.json`
 - `translations/PILOT_REVIEW.md`
 - `translations/BATCH_002_005_REVIEW.md`
-- `translations/pilot-qa.json`
-- `translations/batch-002-005-qa.json`
+- `translations/BATCH_006_007_REVIEW.md`
+- `translations/batch-006-007-qa.json`
 - `translations/index.json`
 - `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` section 13.
 
 ## Exact next activity
 
-> **Translate and verify source scenes 6–7 in one bounded batch. Preserve source scene numbers, order and page provenance; retain exact Tamil speaker labels/delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; preserve source-unlabelled/stage/action ownership without invention; add no performance units because Phase 8 retained zero records; do not modify canonical Tamil, scene derivatives, dialogue records, character mappings, or Phase 8 gate records. Keep scene 8 for a separate dense batch.**
+> **Translate and verify source scene 8 as one dense bounded batch. Preserve source scene number 8, source order and page provenance; retain exact Tamil speaker labels/delimiters as metadata; link all explicitly labelled dialogue records exactly once; preserve any source-unlabelled or stage-direction material without invented ownership; preserve all cross-page units as single translation units; add no performance units because Phase 8 retained zero records; do not modify canonical Tamil, scene derivatives, dialogue records, character mappings, or Phase 8 gate records.**

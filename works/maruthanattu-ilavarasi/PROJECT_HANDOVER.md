@@ -16,25 +16,23 @@ Work: `works/maruthanattu-ilavarasi/`
 
 ## Phase 9 durable state
 
-- English translation: **IN PROGRESS — 5/10 derivative units VERIFIED**;
-- verified units: **opening + source scenes 2–5**;
-- cumulative English units: **92**;
-- cumulative immutable dialogue links: **89/208**;
-- scenes 2–5 batch: **53/53 dialogue links PASS**;
-- cross-page English units: **1** — `maruthanattu-ilavarasi-en-s003-u014`, PDF 7–8;
+- English translation: **IN PROGRESS — 7/10 derivative units VERIFIED**;
+- verified: **opening + source scenes 2–7**;
+- cumulative English units: **137**;
+- cumulative immutable dialogue links: **133/208**;
+- scenes 6–7 batch: **44/44 dialogue links + 1/1 stage direction PASS**;
+- cross-page English units: **2** — scene 3 final utterance and scene 7 `s007-d019`;
 - inferred speakers: **0**;
 - performance links: **0/0**;
-- upstream source-layer mutations during English work: **0**.
+- canonical / scene / dialogue / character / Phase-8 mutations during English work: **0 / 0 / 0 / 0 / 0**.
 
-## Translation precedents
+## New translation precedents from scenes 6–7
 
-- the opening remains unnumbered;
-- exact Tamil labels/delimiters remain metadata;
-- scene 3 letter/signature remain inside immutable dialogue record `s003-d003`;
-- source-owned parentheticals remain in their owning dialogue unit;
-- physical page word-splits are not reproduced as English word-splits;
-- source rhetoric, insults, coercion and repetition are not silently softened or normalized.
+- source-owned `(கழுத்தை நெறிக்கிறான்)` remains inside scene 6 dialogue record `s006-d007`;
+- scene 7's source-visible voice-imitation direction is one separate stage-direction unit with no invented speaker;
+- scene 7 `s007-d019` remains one unit across PDF 12–13;
+- source terms around dharma/shastras, Kannagi/`கற்பு`, and Agni/Varuna/Mohana-astra rhetoric are translated conservatively with notes.
 
 ## Exact next activity
 
-> **Translate and verify source-numbered scenes 6–7 as the next bounded batch. Keep scene 8 for its own dense batch. Link all explicit dialogue records exactly once; preserve page provenance and source-owned actions; do not alter closed upstream layers.**
+> **Translate and verify source-numbered scene 8 as its own dense batch. Preserve all immutable dialogue links, cross-page provenance, source-owned stage/unlabelled material and exact source order. Do not alter closed upstream layers.**

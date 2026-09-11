@@ -44,8 +44,8 @@ canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/p
 canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: complete-verified-21-of-21
 historical_glyph_audit: final-complete-verified-21-of-21
-structured_derivatives: english-translation-scenes-002-005-verified
-next_action: "Translate and verify source scenes 6-7 as the next bounded English batch; preserve immutable dialogue ownership and closed upstream layers."
+structured_derivatives: english-translation-scenes-006-007-verified
+next_action: "Translate and verify source scene 8 as its own dense English batch; preserve immutable dialogue ownership and closed upstream layers."
 visual_verified_pages: 21
 historical_glyph_final_verified_pages: 21
 verification_current_through_logical_printed: 21
@@ -80,14 +80,18 @@ song_item_level_authorship_records: 0
 song_external_metadata_consulted: false
 song_performance_index_path: works/maruthanattu-ilavarasi/songs/index.json
 song_performance_qa_path: works/maruthanattu-ilavarasi/notes/song-performance-qa.json
-english_translation_gate: open-batch-002-005-verified
-english_translation_status: scenes-002-005-verified-in-progress
-english_translation_verified_segments: 5
+english_translation_gate: open-batch-006-007-verified
+english_translation_status: scenes-006-007-verified-in-progress
+english_translation_verified_segments: 7
 english_translation_total_derivative_units: 10
-english_translation_units_verified: 92
-english_translation_dialogue_links_verified: 89
+english_translation_units_verified: 137
+english_translation_dialogue_links_verified: 133
 english_translation_opening_dialogue_coverage: 36/36
 english_translation_index_path: works/maruthanattu-ilavarasi/translations/index.json
 english_translation_pilot_qa_path: works/maruthanattu-ilavarasi/translations/pilot-qa.json
 english_translation_batch_002_005_qa_path: works/maruthanattu-ilavarasi/translations/batch-002-005-qa.json
 english_translation_batch_002_005_review_path: works/maruthanattu-ilavarasi/translations/BATCH_002_005_REVIEW.md
+english_translation_batch_006_007_qa_path: works/maruthanattu-ilavarasi/translations/batch-006-007-qa.json
+english_translation_batch_006_007_review_path: works/maruthanattu-ilavarasi/translations/BATCH_006_007_REVIEW.md
+english_translation_stage_direction_units_verified: 1
+english_translation_cross_page_units_verified: 2
