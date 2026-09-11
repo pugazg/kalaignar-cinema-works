@@ -1,6 +1,6 @@
 # மருதநாட்டு இளவரசி — English translation layer
 
-Status: **ALL 10 DERIVATIVE UNITS VERIFIED / RECONCILIATION PENDING**
+Status: **COMPLETE-VERIFIED**
 
 ## Verified pilot
 
@@ -88,6 +88,22 @@ See `SCENE_008_REVIEW.md` and `scene-008-qa.json`.
 
 See `BATCH_009_010_REVIEW.md` and `batch-009-010-qa.json`.
 
+## Whole-work reconciliation
+
+**PASS — English COMPLETE-VERIFIED**
+
+- derivative units: **10/10**;
+- English units: **228**;
+- immutable dialogue links: **208/208 exactly once**;
+- non-dialogue source-linked units: **20**;
+- cross-page units: **5/5 exact**;
+- inferred speakers: **0**;
+- performance translation units: **0**;
+- duplicate source ownership: **0**;
+- placeholder / synthetic scene-end text: **0 / 0**.
+
+See `WHOLE_WORK_RECONCILIATION.md` and `whole-work-qa.json`.
+
 ## Next activity
 
-Run **whole-work English reconciliation** across all 10 derivative units. Do not mark English COMPLETE until the whole-work gate passes.
+Begin **Phase 14 whole-work reader/export layer** from the verified structured records.

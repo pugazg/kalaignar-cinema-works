@@ -1,7 +1,7 @@
 {
   "work_id": "maruthanattu-ilavarasi",
   "target_language": "en",
-  "status": "all-segments-verified-reconciliation-pending",
+  "status": "complete-verified",
   "source_derivative_unit_count": 10,
   "verified_segments": 10,
   "verified_segment_ids": [
@@ -42,7 +42,7 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Run whole-work English reconciliation across all 10 derivative units before declaring English COMPLETE.",
+  "next_activity": "Begin Phase 14 whole-work reader/export layer from verified structured records; render all 228 English units exactly once and preserve 208/208 dialogue links.",
   "batch_002_005_review": "BATCH_002_005_REVIEW.md",
   "batch_002_005_qa": "batch-002-005-qa.json",
   "stage_direction_units_verified": 14,
@@ -53,5 +53,8 @@
   "source_unlabelled_chant_units_verified": 1,
   "written_text_units_verified": 2,
   "batch_009_010_review": "BATCH_009_010_REVIEW.md",
-  "batch_009_010_qa": "batch-009-010-qa.json"
+  "batch_009_010_qa": "batch-009-010-qa.json",
+  "whole_work_reconciliation": "WHOLE_WORK_RECONCILIATION.md",
+  "whole_work_qa": "whole-work-qa.json",
+  "english_translation_complete": true
 }
