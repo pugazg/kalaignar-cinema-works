@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil T1 21/21 complete-draft; visual 5/21; final glyph 5/21; 0 open** | headings **2–10**; duplicate-spread provenance corrected | not-started | not-started |
+| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil T1 21/21 complete-draft; visual 10/21; final glyph 10/21; 0 open** | headings **2–10**; duplicate-spread provenance corrected | not-started | not-started |
 | Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **reader/export + Reading Room payload QA PASS; site not applied** |
 
 ## Vandikkaran Magan current checkpoint
@@ -153,9 +153,9 @@ Vandikkaran Magan repository-internal production is closed through Reading Room 
 ## Maruthanattu Ilavarasi current checkpoint
 
 - Tamil T1: **21/21 COMPLETE-DRAFT**;
-- source geometry: PDF 2 unique; duplicate spreads **3=4 through 21=22**;
-- visual fidelity / final historical glyph: **5/21 / 5/21 PASS**;
+- visual fidelity / final historical glyph: **10/21 / 10/21 PASS**;
+- user/source corrections retained: logical page 1 `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`; logical page 3 `இத்தியாகம் செய்யத்தான் வேண்டும்;`;
 - open uncertainties: **0**;
 - derivatives: **BLOCKED**.
 
-Next: logical pages **6–10** dual-gate verification.
+Next: logical pages **11–15** dual-gate verification.
