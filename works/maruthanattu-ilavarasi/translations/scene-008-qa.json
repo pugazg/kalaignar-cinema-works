@@ -1,0 +1,66 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "english-translation-scene-008-qa",
+  "status": "PASS",
+  "source_scene_number": 8,
+  "source_pdf_pages": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "translation_units": 55,
+  "unit_type_counts": {
+    "dialogue": 52,
+    "stage-direction": 3
+  },
+  "immutable_dialogue_records_expected": 52,
+  "immutable_dialogue_records_linked": 52,
+  "dialogue_coverage": "52/52 exactly once",
+  "missing_dialogue_links": 0,
+  "duplicate_dialogue_links": 0,
+  "exact_tamil_speaker_labels_preserved": true,
+  "source_delimiters_preserved_as_metadata": true,
+  "inferred_unlabelled_speakers": 0,
+  "source_stage_directions_expected": 3,
+  "source_stage_directions_translated": 3,
+  "stage_direction_coverage": "3/3",
+  "source_owned_parenthetical_actions_kept_inside_dialogue_units": [
+    "maruthanattu-ilavarasi-en-s008-u042"
+  ],
+  "cross_page_translation_units": [
+    {
+      "unit_id": "maruthanattu-ilavarasi-en-s008-u031",
+      "source_record_id": "maruthanattu-ilavarasi-s008-d030",
+      "pdf_pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "unit_id": "maruthanattu-ilavarasi-en-s008-u049",
+      "source_record_id": "maruthanattu-ilavarasi-s008-d047",
+      "pdf_pages": [
+        17,
+        18
+      ]
+    }
+  ],
+  "performance_occurrences_expected": [],
+  "performance_occurrences_linked": [],
+  "performance_coverage": "0/0",
+  "source_order_preserved": true,
+  "external_or_unprinted_text_imported": false,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "song_performance_gate_records_modified_by_translation": 0,
+  "cumulative_verified_segments": 8,
+  "cumulative_translation_units": 192,
+  "cumulative_dialogue_links": 185,
+  "cumulative_non_dialogue_units": 7,
+  "next_gate": "source scenes 9-10 final English batch ready"
+}

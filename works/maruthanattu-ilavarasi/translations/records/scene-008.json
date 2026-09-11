@@ -1,0 +1,1765 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s008",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 8,
+  "source_scene_number": 8,
+  "segment_status": "verified",
+  "unit_count": 55,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Opening source-visible setting direction."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Royal court)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You are guilty. Do you admit it?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why ask me? That is a conclusion you must determine after an honest inquiry.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "An inquiry, Maharaja? A lamp is not needed in daylight. This case needs no inquiry at all.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Perhaps. But in these times, when one cannot trust even one's own eyes, we must not act in haste and destroy justice. Kandiba, speak without going against your conscience. It is true that you committed the killing, is it not?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Must I confess to murder merely for your peace of mind? Maharaja, if you possess the unswerving quality of justice, please reflect. Separation from a son heightens anguish. But one killing cannot bring peace for another.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is the accused's dock, not a guru's seat. You killed the prince—what is your objection to that charge?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I have many. Men are forbidden to enter the Kali temple; what business did Durjayan and Raudhran have there at that hour?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Lie—an utter lie. Your Majesty, ask every soldier who arrested him. Is anyone here who saw me in the Kali temple? This madman is flinging out ploughed-up arguments to save his life! The frog has thought the king's court so low!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source insults `உன்மத்தன்` and `மண்டூகம்` are preserved as `madman` and `frog`; no stronger characterization is added."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is this place, which has no time to summon justice but has set aside time for this man's tormenting clamour, called a court? Is what is dispensed here called justice?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The compressed source syntax is translated closely without rewriting the accusation into a smoother but different argument."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This trickster says he wants divine justice.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`தகிடு தத்தக்காரன்` is rendered functionally as `trickster`; the exact Tamil epithet remains upstream."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No. I say human justice is enough, O king. If I am accused of killing the king's son, it is not the king who should sit here in the seat of the god of justice; it is the people of this land.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சபையோர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 14,
+            "printed_page": 13
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes, Maharaja. The accused's argument too is reasonable.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Reasonable indeed. A subject kills the king himself, and then the subjects themselves deliver the verdict in the murder inquiry—that would be even more reasonable.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The sarcasm is preserved without adding an editorial marker."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You have spoken correctly. Entering the Kali temple in violation of the law was one offence of yours.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No. I was not the one who broke the law. Your son was.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There is no discussion here about the dead prince.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then there is no need for this inquiry at all.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சபையோர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Answer the question. There is no time for your mockery.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Honesty appears to be mockery. Has reason gone blind because justice is in darkness? Maharaja, listen! Members of the court, listen!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Listen! Listen! Listen carefully!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Durjayan and Raudhran tried to seize my beloved. For that, at a midnight that makes thieves tremble, they entered the Kali temple. I followed. There these traitors touched and dragged my peahen-like beloved. I am poor—but does a poor man have no heart? I sprang upon these sinners who hunt maidens. This coward hid somewhere. Then came combat—sword-fight, wrestling—and from somewhere a dagger, without even my knowing it, drank Raudhran's life. That is all I know about this killing.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`தோகைமயிலாள்` is translated as `peahen-like beloved` to retain the source image; `கட்டாரி ... உயிரைக் குடித்துவிட்டது` remains a dagger-drank-life metaphor."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சபையோர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Witnesses for all this?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 15,
+            "printed_page": 14
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "None.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜ",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A statement without evidence, like music without a voice, cannot come into the open, Your Majesty! Kandiban argues that Raudhran and I entered the Kali temple. Without any of the soldiers who arrested him knowing, where did I supposedly hide? Am I a magician who blinds the eyes? Or an incarnation of God? That is not the truth. Rani was in the Kali temple; Kandiban went to meet her—that was the lust of illicit love. Raudhran may have noticed it. But you may ask what that has to do with the murder. What if this man himself lured Raudhran to the Kali temple! What if Raudhran fell into his trap and this man himself killed that pure warrior!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`சாரீரமில்லாத சங்கீதம்` is rendered as `music without a voice`; the source's courtroom analogy is retained and not treated as a performance record."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Even if I had killed him, it would not have been unjust. I would consider that I had completed a good deed for this country.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u028",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d027",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u029",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d028",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you not know that the dead prince treated the people of this country like wild beasts?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u030",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d029",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சபையோர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is his kingdom.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u031",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d030",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 16,
+            "printed_page": 15
+          },
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let it be the ruler's kingdom! Subjects have the right to oppose injustice. How many young women's chastity has been sacrificed to your prince's amorous diversions? How many poor people who asked `why` has your prince looked upon in their blood and laughed a ghastly laugh? Had he been left alive—had he come to the throne—would he not have made women's arms his sceptre, the harem his assembly hall, flirtatious dalliance his law book, and ruled under Rati and Madana? Would good government have prevailed in this country? By the good fortune of the people of the land, Raudhran was slain.",
+        "mode": "prose-faithful",
+        "notes": [
+          "This immutable utterance spans PDF 16–17 and remains one English unit. The Rati/Madana political-sexual metaphor and the rhetorical question about good government are retained rather than generalized."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u032",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d031",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Say it that way! The prince acted unjustly, and to stop that injustice you killed him!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u033",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d032",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I was not granted that merit!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`புண்ணியம்` is rendered as `merit`, retaining Kandiban's provocative moral framing."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u034",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d033",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Then who received it? You twisted-minded deceiver who spins barren arguments! Murderer who committed a deed that makes the heart tremble and then came here to speak of justice, fairness and integrity! Who received it, then?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u035",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d034",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "His dagger received it!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u036",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d035",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The merit that did not come to me—the merit of killing our clan's treasure—came to his dagger!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source phrase `எங்கள் குலச்செல்வம்` is retained closely as `our clan's treasure`; the translation does not resolve the source's rhetorical oddity."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u037",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 2,
+          "description": "Source-visible entrance/action direction before Chitra's first labelled turn."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(To prove that her son is innocent and that he is the prince of this country, Maharani Chitra appears there with the dagger.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u038",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d036",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சித்ரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Here is that dagger!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u039",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d037",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u040",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d038",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Isn't this my dagger that went missing? How did you get it? Maharaja, some plot is under way.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u041",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d039",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Who are you?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u042",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d040",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சித்ரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do you not recognize me? Do you not recognize this unfortunate woman, my lord?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u043",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d041",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah......! (In astonishment) Chitra!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source-owned parenthetical remains inside the immutable dialogue unit."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u044",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d042",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Chitra!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u045",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d043",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சபையோர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Maharani! Maharani!! Maharani!!!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u046",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d044",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சித்ரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes. The Maharani!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u047",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d045",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The holy Maharani who went away to begin a new life with Minister Anbanandar!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The line is Durjayan's sarcasm; English preserves the source wording without converting the allegation into narration."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u048",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d046",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Adulteress!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u049",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d047",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சித்ரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 17,
+            "printed_page": 16
+          },
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! My lord, kill me. Do not say that word again. To protect the child, with cruelty pursuing me wherever I went, I entrusted the diamond I had borne to an old woman and lay weeping in the Kali temple. Here—the man in the accused's dock is the prince of this country, our son.",
+        "mode": "prose-faithful",
+        "notes": [
+          "This immutable utterance spans PDF 17–18 and remains one English unit. The source's compressed wording around protecting the child and `நான் பெற்ற வைரம்` is translated conservatively as the child/jewel metaphor without changing the Tamil."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u050",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d048",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Am I a prince? Are you my mother?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u051",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 3,
+          "description": "Source-visible medallion recognition action before Kandiban's `Mother!` turn."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(She shows Kandiban the medallion she had in her hand. He feels his neck and sees that she truly is his mother.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u052",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d049",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Mother!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u053",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d050",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சித்ரா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do not be troubled, my dear! From now on, good times are ours.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u054",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d051",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜய",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The king was not born into a tradition of one justice for his son and another for everyone else. Nor has he forgotten that the Maharani ran away with Minister Anbanandar.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The exact source label remains the truncated `துர்ஜய`; the translation layer does not normalize it."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s008-u055",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 8,
+      "source_scene_number": 8,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-008.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-008.md",
+        "source_record_id": "maruthanattu-ilavarasi-s008-d052",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A son! A son! The woman who lost her reason through lust and ran away with stray dogs was supposedly lying in the Kali temple. What a tale she spins—a tale! Throw this adulteress into the underground prison. Let the law of the Kali temple that abetted this prostitute be abolished today! Take him away too. Let his head roll on the sacrificial altar today. Let the fresh blood of this sinner who killed the heir-prince soak the sacrificial altar.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's sexual insults and execution order are retained as source rhetoric; no euphemistic normalization is introduced."
+        ]
+      }
+    }
+  ]
+}

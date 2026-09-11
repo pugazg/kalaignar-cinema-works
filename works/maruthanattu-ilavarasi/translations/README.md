@@ -1,6 +1,6 @@
 # மருதநாட்டு இளவரசி — English translation layer
 
-Status: **SCENES 6–7 VERIFIED / IN PROGRESS**
+Status: **SCENE 8 VERIFIED / IN PROGRESS**
 
 ## Verified pilot
 
@@ -60,6 +60,19 @@ See `BATCH_002_005_REVIEW.md` and `batch-002-005-qa.json`.
 
 See `BATCH_006_007_REVIEW.md` and `batch-006-007-qa.json`.
 
+## Verified scene 8 batch
+
+- English units: **55**;
+- immutable dialogue links: **52/52 exactly once**;
+- source stage directions: **3/3**;
+- cross-page units: **2**;
+- cumulative verified derivative units: **8/10**;
+- cumulative English units: **192**;
+- cumulative immutable dialogue links: **185/208**;
+- inferred speakers / performance units: **0 / 0**.
+
+See `SCENE_008_REVIEW.md` and `scene-008-qa.json`.
+
 ## Next activity
 
-Translate and verify **source scene 8** as its own dense English batch.
+Translate and verify source scenes **9–10** as the final bounded English batch, then run whole-work English reconciliation.

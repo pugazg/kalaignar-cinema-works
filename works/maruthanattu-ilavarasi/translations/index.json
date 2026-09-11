@@ -1,9 +1,9 @@
 {
   "work_id": "maruthanattu-ilavarasi",
   "target_language": "en",
-  "status": "batch-006-007-verified-in-progress",
+  "status": "scene-008-verified-in-progress",
   "source_derivative_unit_count": 10,
-  "verified_segments": 7,
+  "verified_segments": 8,
   "verified_segment_ids": [
     "maruthanattu-ilavarasi-opening",
     "maruthanattu-ilavarasi-s002",
@@ -11,20 +11,23 @@
     "maruthanattu-ilavarasi-s004",
     "maruthanattu-ilavarasi-s005",
     "maruthanattu-ilavarasi-s006",
-    "maruthanattu-ilavarasi-s007"
+    "maruthanattu-ilavarasi-s007",
+    "maruthanattu-ilavarasi-s008"
   ],
-  "translation_units_verified": 137,
+  "translation_units_verified": 192,
   "immutable_dialogue_records_total": 208,
-  "immutable_dialogue_links_verified": 133,
+  "immutable_dialogue_links_verified": 185,
   "opening_dialogue_coverage": "36/36",
-  "non_dialogue_units_verified": 4,
+  "non_dialogue_units_verified": 7,
   "source_unlabelled_narrative_units_verified": 1,
   "structural_separator_units_verified": 1,
   "retained_performance_records_total": 0,
   "retained_performance_records_translated": 0,
   "cross_page_translation_units": [
     "maruthanattu-ilavarasi-en-s003-u014",
-    "maruthanattu-ilavarasi-en-s007-u020"
+    "maruthanattu-ilavarasi-en-s007-u020",
+    "maruthanattu-ilavarasi-en-s008-u031",
+    "maruthanattu-ilavarasi-en-s008-u049"
   ],
   "authorship_state_changed_by_translation": false,
   "canonical_tamil_changed_by_translation": false,
@@ -36,10 +39,12 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Translate and verify source scene 8 as its own dense English batch. Preserve all immutable dialogue links and source-owned non-dialogue material.",
+  "next_activity": "Translate and verify source scenes 9-10 as the final bounded English batch, then run whole-work English reconciliation across all 10 derivative units.",
   "batch_002_005_review": "BATCH_002_005_REVIEW.md",
   "batch_002_005_qa": "batch-002-005-qa.json",
-  "stage_direction_units_verified": 1,
+  "stage_direction_units_verified": 4,
   "batch_006_007_review": "BATCH_006_007_REVIEW.md",
-  "batch_006_007_qa": "batch-006-007-qa.json"
+  "batch_006_007_qa": "batch-006-007-qa.json",
+  "scene_008_review": "SCENE_008_REVIEW.md",
+  "scene_008_qa": "scene-008-qa.json"
 }
