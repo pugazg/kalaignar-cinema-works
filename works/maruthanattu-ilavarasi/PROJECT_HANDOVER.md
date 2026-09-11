@@ -21,7 +21,7 @@ Source: \`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf\
 - open uncertainties: **0**;
 - derivatives: **BLOCKED**.
 
-V1 logical pages 1–5 passed after **8 scan-supported corrections**, documented in \`notes/fidelity-audit.md\`.
+V1 logical pages 1–5 passed with **9 scan-supported corrections**, documented in \`notes/fidelity-audit.md\`.
 
 ## Exact next activity
 
