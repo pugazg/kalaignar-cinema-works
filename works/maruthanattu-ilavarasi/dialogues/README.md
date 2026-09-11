@@ -19,6 +19,12 @@ The opening narration beginning `குறிஞ்சிநாட்டுக�
 
 Exact label variants remain immutable here. Variant resolution belongs only in Phase 7 character/entity metadata.
 
+## Downstream state
+
+- character/entity layer: **COMPLETE-VERIFIED — 14 entities / 24 exact labels / 208 records mapped**;
+- unresolved entity mappings: **0**;
+- Phase 8 song/performance/authorship gate: **READY-NEXT**.
+
 ## Next activity
 
-Begin Phase 7 character/entity indexing from the 24 exact labels and validate 208/208 dialogue-record coverage.
+Begin Phase 8 song/performance/authorship gating. Inventory source-visible song, verse or performance structures and explicit credits without inferring authorship from booklet inclusion.

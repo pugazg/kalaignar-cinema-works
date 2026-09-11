@@ -1,4 +1,4 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / character & entity index
+# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 8 song-performance-authorship gate
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`.
 
@@ -11,11 +11,24 @@ Fetch live `main` first and preserve newer durable work.
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue records: **208 COMPLETE-VERIFIED**;
-- exact speaker labels: **24**;
-- multi-page dialogue records: **5**;
-- dialogue coverage QA: **PASS — 208/208 exactly once**;
-- speaker normalizations / inferred speakers: **0 / 0**.
+- exact source speaker labels: **24**;
+- character/entity index: **14 entities COMPLETE-VERIFIED**;
+- label coverage: **24/24**;
+- dialogue-record entity coverage: **208/208 exactly once**;
+- unresolved labels / records: **0 / 0**.
+
+Authoritative Phase 7 layer:
+
+- `characters/README.md`
+- `characters/index.json`
+- `characters/schema.json`
+- `characters/entities.json`
+- `characters/labels-inventory.json`
+- `characters/labels-preflight.json`
+- `characters/record-dispositions.json`
+- `notes/character-entity-qa.json`
+- `notes/character-entity-qa.md`
 
 ## Exact next activity
 
-> **Build Phase 7 character/entity indexing from the 24 exact immutable speaker labels. Create stable entity IDs and a separate exact-label alias mapping; merge variants only when supported by source/context; preserve collective labels such as சபையோர் and பொதுமக்கள்; validate that all 208 dialogue records resolve exactly once to an entity/role disposition. Do not rewrite canonical Tamil, scene files, or dialogue records.**
+> **Run Phase 8 song/performance/authorship gating. Inventory all source-visible song, verse or performance structures in the closed verified Tamil/scene layer; record their PDF/printed-page and scene provenance plus any explicit source credit; preserve exact wording and lineation; do not infer authorship from inclusion in the booklet. If no qualifying structures exist, document a zero-item PASS gate rather than inventing derivatives. Do not modify canonical Tamil, scene text, dialogue records or character/entity mappings.**

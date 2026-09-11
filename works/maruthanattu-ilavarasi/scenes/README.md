@@ -48,9 +48,10 @@ Each file:
 
 ## Downstream state
 
-- immutable dialogue layer: **COMPLETE-VERIFIED — 208 records / 24 exact labels / 5 multi-page utterances**;
-- character/entity layer: **NOT STARTED / READY-NEXT**.
+- immutable dialogue layer: **COMPLETE-VERIFIED — 208 records / 24 exact labels**;
+- character/entity layer: **COMPLETE-VERIFIED — 14 entities / 24 labels / 208 records mapped**;
+- Phase 8 song/performance/authorship gate: **READY-NEXT**.
 
 ## Next activity
 
-Begin Phase 7 character/entity indexing from the immutable dialogue records. Keep all exact speaker labels unchanged in the dialogue layer and map supported variants only in the separate character/entity layer.
+Inventory source-visible song, verse or performance structures and explicit credits. Do not infer authorship merely because the material appears inside the dialogue booklet.

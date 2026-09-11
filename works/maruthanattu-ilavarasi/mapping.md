@@ -32,6 +32,6 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 - open uncertainty markers: **0**;
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue layer: **208 records COMPLETE-VERIFIED**;
-- character/entity index: **READY-NEXT**.
+- character/entity index: **14 entities / 24 labels / 208 records COMPLETE-VERIFIED**;
 
-Next: build the Phase 7 character/entity index from the 24 exact immutable speaker labels.
+Next: run the Phase 8 song/performance/authorship gate from source-visible structures and explicit credits.

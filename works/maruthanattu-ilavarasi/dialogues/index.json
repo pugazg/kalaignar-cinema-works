@@ -69,5 +69,7 @@
   "preflight": "../notes/dialogue-index-preflight.json",
   "unlabelled_block_audit": "../notes/unlabelled-block-audit.json",
   "qa": "../notes/dialogue-index-qa.json",
-  "next_action": "Begin Phase 7 character/entity indexing from the complete-verified immutable dialogue layer. Preserve all 24 exact source speaker labels as immutable provenance and map label variants only in a separate alias/entity layer."
+  "next_action": "Begin Phase 8 song/performance/authorship gating from source-visible performance/song structures, if any. Preserve source wording and explicit credits; do not infer authorship from inclusion in the booklet.",
+  "character_entity_index_status": "complete-verified",
+  "character_entity_count": 14
 }

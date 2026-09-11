@@ -44,8 +44,8 @@ canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/p
 canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: complete-verified-21-of-21
 historical_glyph_audit: final-complete-verified-21-of-21
-structured_derivatives: dialogue-index-complete-verified
-next_action: "Begin Phase 7 character/entity indexing from the 208 immutable dialogue records and 24 exact source speaker labels."
+structured_derivatives: character-entity-complete-verified
+next_action: "Begin Phase 8 song/performance/authorship gating from source-visible structures and explicit credits; do not infer authorship from booklet inclusion."
 visual_verified_pages: 21
 historical_glyph_final_verified_pages: 21
 verification_current_through_logical_printed: 21
@@ -63,4 +63,13 @@ dialogue_multi_page_records: 5
 dialogue_unlabelled_ordinary_blocks: 1
 dialogue_index_path: works/maruthanattu-ilavarasi/dialogues/index.json
 dialogue_qa_path: works/maruthanattu-ilavarasi/notes/dialogue-index-qa.json
-character_entity_index: not-started-ready-next
+character_entity_index: complete-verified
+character_entity_count: 14
+character_entity_named_characters: 11
+character_entity_roles: 1
+character_entity_collectives: 2
+character_entity_label_coverage: 24/24
+character_entity_dialogue_record_coverage: 208/208
+character_entity_index_path: works/maruthanattu-ilavarasi/characters/index.json
+character_entity_qa_path: works/maruthanattu-ilavarasi/notes/character-entity-qa.json
+song_performance_authorship_gate: not-started-ready-next
