@@ -115,7 +115,7 @@ All 21 logical printed pages are present. Logical pages **1–5** have passed in
 
 Corrected source geometry: PDF 2 is unique; exact duplicate spreads are **3=4, 5=6, 7=8, 9=10, 11=12, 13=14, 15=16, 17=18, 19=20, 21=22**. Canonical records use representative PDFs 2,3,5,7,9,11,13,15,17,19,21.
 
-V1 records **9 source-supported corrections**; see \`notes/fidelity-audit.md\`.
+V1 records source-supported corrections plus later user/source rechecks; see \`notes/fidelity-audit.md\`.
 
 **Next:** independently verify logical printed pages **6–10** using PDF 7 left/right, PDF 9 left/right, and PDF 11 left. Structured derivatives remain blocked until 21/21 dual-gate closure.
 ''',encoding='utf-8')
@@ -143,7 +143,7 @@ Source: \`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf\
 - open uncertainties: **0**;
 - derivatives: **BLOCKED**.
 
-V1 logical pages 1–5 passed after **9 scan-supported corrections**, documented in \`notes/fidelity-audit.md\`.
+V1 logical pages 1–5 passed after source-supported corrections, documented in \`notes/fidelity-audit.md\`.
 
 ## Exact next activity
 
@@ -252,4 +252,4 @@ assert idx2['canonical_representative_pdf_pages']==[2,3,5,7,9,11,13,15,17,19,21]
 for r in idx2['page_records']:
     first=(T/r['path']).read_text(encoding='utf-8').splitlines()[0]
     assert f"pdf={r['pdf_page']}" in first and f"status={r['status']}" in first
-print('V1 sync QA PASS: 5/21 visual + glyph verified; 9 source corrections; 0 unresolved.')
+print('V1 sync QA PASS: 5/21 visual + glyph verified; 0 unresolved.')
