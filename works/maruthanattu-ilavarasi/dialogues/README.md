@@ -21,10 +21,10 @@ Exact label variants remain immutable here. Variant resolution belongs only in P
 
 ## Downstream state
 
-- character/entity layer: **COMPLETE-VERIFIED — 14 entities / 24 exact labels / 208 records mapped**;
-- unresolved entity mappings: **0**;
-- Phase 8 song/performance/authorship gate: **READY-NEXT**.
+- character/entity layer: **COMPLETE-VERIFIED — 14 entities / 24 labels / 208 records mapped**;
+- Phase 8 song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
+- English translation gate: **READY-NEXT**.
 
 ## Next activity
 
-Begin Phase 8 song/performance/authorship gating. Inventory source-visible song, verse or performance structures and explicit credits without inferring authorship from booklet inclusion.
+Begin Phase 9 translation with the unnumbered opening pilot. Link all 36 labelled opening utterances to immutable dialogue IDs exactly once; keep the opening narration unassigned.

@@ -1,0 +1,77 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "song-performance-candidate-audit",
+  "status": "PASS",
+  "scan_basis": "Cover/front credit visually checked; all 10 complete-verified scene-text derivative units scanned across PDF 2-22.",
+  "lexical_and_contextual_candidates_reviewed": 6,
+  "qualifying_source_visible_performance_structures": 0,
+  "candidates": [
+    {
+      "id": "maruthanattu-ilavarasi-perf-cand-001",
+      "source_file": "opening.md",
+      "source_scene_number": null,
+      "pdf_page": 2,
+      "printed_page": 1,
+      "marker": "நடனம்",
+      "source_fragment": "கோபதிவர்மன் :- கொலைகாரி. போதும் உன் கும்மாளம். அங்கே நாசவேலை நடத்திவிட்டு அதை மறைக்க இங்கே நடனம்.",
+      "disposition": "non-qualifying-contextual-performance-mention",
+      "rationale": "The word `நடனம்` occurs inside a dialogue accusation. The source prints no bounded dance text, performance cue, lyrics, role cue, title, or extractable performance body at this point."
+    },
+    {
+      "id": "maruthanattu-ilavarasi-perf-cand-002",
+      "source_file": "opening.md",
+      "source_scene_number": null,
+      "pdf_page": 3,
+      "printed_page": 2,
+      "marker": "பாட",
+      "source_fragment": "நீதிமன்றத்திற்கு நீரே ஏற்பாடு செய்யும்.",
+      "disposition": "lexical-false-positive",
+      "rationale": "`பாட` occurs only as part of `ஏற்பாடு`; it is not a song/performance marker."
+    },
+    {
+      "id": "maruthanattu-ilavarasi-perf-cand-003",
+      "source_file": "scene-003.md",
+      "source_scene_number": 3,
+      "pdf_page": 7,
+      "printed_page": 6,
+      "marker": "கீத",
+      "source_fragment": "இதை இதய கீதமாக்கிக்கொண்ட தமிழனுக்குப் பிறந்த தாங்களா இப்படிப் பேசுகிறீர்கள்?",
+      "disposition": "non-qualifying-metaphor",
+      "rationale": "`இதய கீதம்` is rhetorical prose within a labelled speech, not a source-bounded song, verse, chant, or performance block."
+    },
+    {
+      "id": "maruthanattu-ilavarasi-perf-cand-004",
+      "source_file": "scene-007.md",
+      "source_scene_number": 7,
+      "pdf_page": 12,
+      "printed_page": 11,
+      "marker": "இசை",
+      "source_fragment": "கருத்துக்கு இசைந்த காதலுக்காக, நாடுநகரம், மாடமாளிகை இத்தனையும் தியாகம் செய்ய துணிந்திருக்கும் என் காதலுக்காவது மதிப்புத் தரக்கூடாதா?",
+      "disposition": "lexical-false-positive",
+      "rationale": "`இசைந்த` means aligned/consonant in this prose sentence and is not a musical/performance cue."
+    },
+    {
+      "id": "maruthanattu-ilavarasi-perf-cand-005",
+      "source_file": "scene-008.md",
+      "source_scene_number": 8,
+      "pdf_page": 16,
+      "printed_page": 15,
+      "marker": "சங்கீதம்",
+      "source_fragment": "சாட்சியம் இல்லாத வாக்குமூலம், சாரீரமில்லாத சங்கீதம் அம்பலத்திற்கு வர முடியாது அரசே!",
+      "disposition": "non-qualifying-analogy",
+      "rationale": "`சங்கீதம்` appears in a courtroom analogy inside dialogue; no source-visible performance structure is present."
+    },
+    {
+      "id": "maruthanattu-ilavarasi-perf-cand-006",
+      "source_file": "scene-010.md",
+      "source_scene_number": 10,
+      "pdf_page": 20,
+      "printed_page": 19,
+      "marker": "பாட",
+      "source_fragment": "என் சாவு உங்களுக்கு ஒரு பாடமாக இருக்கட்டும்.",
+      "disposition": "lexical-false-positive",
+      "rationale": "`பாடம்` means lesson here and is not a song/performance marker."
+    }
+  ],
+  "conclusion": "No source-visible song, verse, chant, lyric block, explicitly staged musical performance, or clearly bounded extractable performance body qualifies for a retained Phase 8 record."
+}

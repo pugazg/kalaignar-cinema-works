@@ -1,0 +1,18 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "work_level_credit": {
+    "pdf_page": 2,
+    "logical_printed_page": 1,
+    "text": "வசனம் : மு. கருணாநிதி.",
+    "credit_kind": "dialogue",
+    "scope_policy": "This is a source-visible dialogue credit only. It is not promoted to song, lyric, verse or performance authorship."
+  },
+  "cover_credit_review": {
+    "pdf_page": 1,
+    "song_or_lyric_credit_observed": false,
+    "note": "Cover visually reviewed for the Phase 8 gate; no source-visible song/lyric authorship credit is retained from it."
+  },
+  "item_level_song_or_performance_credits": [],
+  "external_authorship_sources_consulted": false,
+  "authorship_result": "not-applicable-zero-qualifying-performance-items"
+}

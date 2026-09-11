@@ -49,9 +49,10 @@ Each file:
 ## Downstream state
 
 - immutable dialogue layer: **COMPLETE-VERIFIED — 208 records / 24 exact labels**;
-- character/entity layer: **COMPLETE-VERIFIED — 14 entities / 24 labels / 208 records mapped**;
-- Phase 8 song/performance/authorship gate: **READY-NEXT**.
+- character/entity layer: **COMPLETE-VERIFIED — 14 entities**;
+- Phase 8 song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
+- English translation gate: **READY-NEXT**.
 
 ## Next activity
 
-Inventory source-visible song, verse or performance structures and explicit credits. Do not infer authorship merely because the material appears inside the dialogue booklet.
+Begin Phase 9 source-linked English translation with the unnumbered opening pilot.

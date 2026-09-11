@@ -1,0 +1,25 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "status": "complete-verified-zero-item-pass",
+  "source_scope": {
+    "cover_pdf_page": 1,
+    "work_level_credit_pdf_page": 2,
+    "verified_body_pdf_pages": "2-22",
+    "verified_body_units": "1 unnumbered opening + source scenes 2-10",
+    "body_coverage_basis": "10/10 complete-verified scene-text derivatives covering all 21 body pages"
+  },
+  "mapped_source_visible_structures": 0,
+  "retained_performance_records": 0,
+  "full_or_clearly_bounded_tamil_derivatives": 0,
+  "candidate_mentions_reviewed": 6,
+  "qualifying_candidates": 0,
+  "records": [],
+  "coverage": "0/0",
+  "policy": {
+    "contextual_mentions_do_not_create_performance_records": true,
+    "lexical_substrings_do_not_create_performance_records": true,
+    "item_level_authorship_requires_explicit_or_separately_documented_exact_evidence": true,
+    "missing_lyrics_may_not_be_reconstructed": true,
+    "zero_item_gate_is_valid": true
+  }
+}

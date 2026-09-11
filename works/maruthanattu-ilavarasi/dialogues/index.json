@@ -69,7 +69,8 @@
   "preflight": "../notes/dialogue-index-preflight.json",
   "unlabelled_block_audit": "../notes/unlabelled-block-audit.json",
   "qa": "../notes/dialogue-index-qa.json",
-  "next_action": "Begin Phase 8 song/performance/authorship gating from source-visible performance/song structures, if any. Preserve source wording and explicit credits; do not infer authorship from inclusion in the booklet.",
+  "next_action": "Begin Phase 9 English translation with the unnumbered opening pilot; preserve exact Tamil labels and link immutable dialogue IDs exactly once.",
   "character_entity_index_status": "complete-verified",
-  "character_entity_count": 14
+  "character_entity_count": 14,
+  "song_performance_authorship_gate": "complete-verified-zero-item-pass"
 }

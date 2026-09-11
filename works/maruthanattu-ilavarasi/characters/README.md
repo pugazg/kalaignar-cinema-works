@@ -33,6 +33,12 @@ Mapped alias groups include:
 
 See `../notes/character-entity-qa.json` and `../notes/character-entity-qa.md`.
 
+## Downstream state
+
+- Phase 8 song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
+- qualifying performance records: **0**;
+- English translation gate: **READY-NEXT**.
+
 ## Next activity
 
-Begin Phase 8 song/performance/authorship gating. Inventory source-visible performance or song structures, if any; preserve exact wording/lineation/role cues/credits and do not infer authorship from inclusion in the booklet. Run whole-work performance coverage QA before English translation.
+Begin Phase 9 source-linked English translation with the unnumbered opening as the first bounded pilot. Preserve all immutable Tamil labels and mappings.

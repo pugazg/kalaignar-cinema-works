@@ -33,5 +33,7 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue layer: **208 records COMPLETE-VERIFIED**;
 - character/entity index: **14 entities / 24 labels / 208 records COMPLETE-VERIFIED**;
+- song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
+- English translation gate: **READY-NEXT**;
 
-Next: run the Phase 8 song/performance/authorship gate from source-visible structures and explicit credits.
+Next: translate the unnumbered opening as the Phase 9 pilot with source-linked immutable dialogue IDs.

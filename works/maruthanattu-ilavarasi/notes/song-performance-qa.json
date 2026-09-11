@@ -1,0 +1,21 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "song-performance-authorship-qa",
+  "status": "PASS",
+  "gate_result": "ZERO-ITEM PASS",
+  "source_body_coverage": "PDF 2-22 / 21 of 21 verified body pages via 10/10 scene derivatives",
+  "cover_and_credit_reviewed": true,
+  "lexical_contextual_candidates_reviewed": 6,
+  "retained_performance_records": 0,
+  "standalone_tamil_song_derivatives": 0,
+  "item_level_authorship_records": 0,
+  "unresolved_item_level_authorship_records": 0,
+  "external_metadata_used": 0,
+  "dialogue_credit_misapplied_to_song_authorship": false,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "english_translation_gate": "READY-NEXT",
+  "next_activity": "Begin Phase 9 English translation with the unnumbered opening as the first bounded pilot. Preserve source order and exact Tamil speaker labels as metadata; link all 36 labelled opening turns to immutable dialogue IDs exactly once; keep the unlabelled opening narration unassigned."
+}

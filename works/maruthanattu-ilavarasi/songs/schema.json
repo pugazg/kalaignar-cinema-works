@@ -1,0 +1,24 @@
+{
+  "schema": "maruthanattu-ilavarasi-song-performance-record-v1",
+  "record_id_pattern": "^maruthanattu-ilavarasi-perf-[0-9]{3}$",
+  "required_fields": [
+    "id",
+    "source_pdf_pages",
+    "source_scene_number",
+    "form",
+    "authorship_status"
+  ],
+  "authorship_status_values": [
+    "source-attributed",
+    "unresolved-item-level"
+  ],
+  "policy": {
+    "canonical_text_authority": "../transcription/",
+    "scene_text_authority": "../scenes/",
+    "authorship_requires_item_level_evidence": true,
+    "dialogue_credit_does_not_imply_lyric_authorship": true,
+    "missing_lyrics_may_not_be_reconstructed": true,
+    "source_wording_lineation_roles_and_cues_are_preserved": true,
+    "zero_record_inventory_is_valid_when_no_source_visible_structure_qualifies": true
+  }
+}

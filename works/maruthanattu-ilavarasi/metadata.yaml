@@ -44,8 +44,8 @@ canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/p
 canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: complete-verified-21-of-21
 historical_glyph_audit: final-complete-verified-21-of-21
-structured_derivatives: character-entity-complete-verified
-next_action: "Begin Phase 8 song/performance/authorship gating from source-visible structures and explicit credits; do not infer authorship from booklet inclusion."
+structured_derivatives: song-performance-zero-item-pass
+next_action: "Begin Phase 9 English translation with the unnumbered opening pilot; link 36/36 labelled opening turns to immutable dialogue IDs and keep the unlabelled narration unassigned."
 visual_verified_pages: 21
 historical_glyph_final_verified_pages: 21
 verification_current_through_logical_printed: 21
@@ -72,4 +72,13 @@ character_entity_label_coverage: 24/24
 character_entity_dialogue_record_coverage: 208/208
 character_entity_index_path: works/maruthanattu-ilavarasi/characters/index.json
 character_entity_qa_path: works/maruthanattu-ilavarasi/notes/character-entity-qa.json
-song_performance_authorship_gate: not-started-ready-next
+song_performance_authorship_gate: complete-verified-zero-item-pass
+song_performance_records: 0
+song_performance_candidate_mentions_reviewed: 6
+song_performance_tamil_derivatives: 0
+song_item_level_authorship_records: 0
+song_external_metadata_consulted: false
+song_performance_index_path: works/maruthanattu-ilavarasi/songs/index.json
+song_performance_qa_path: works/maruthanattu-ilavarasi/notes/song-performance-qa.json
+english_translation_gate: ready-next
+english_translation_status: not-started

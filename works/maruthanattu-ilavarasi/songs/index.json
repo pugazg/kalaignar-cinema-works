@@ -1,0 +1,22 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "status": "complete-verified-zero-item-pass",
+  "authorship_gate": "closed-zero-item",
+  "mapped_source_visible_structures": 0,
+  "retained_performance_records": 0,
+  "full_or_clearly_bounded_tamil_derivatives": 0,
+  "source_attributed_authorship_records": 0,
+  "unresolved_item_level_authorship_records": 0,
+  "candidate_mentions_reviewed": 6,
+  "inventory": "inventory.json",
+  "credits": "credits.json",
+  "schema": "schema.json",
+  "candidate_audit": "candidate-audit.json",
+  "qa": "../notes/song-performance-qa.json",
+  "canonical_tamil_changed": false,
+  "scene_text_changed": false,
+  "dialogue_records_changed": false,
+  "character_entity_mappings_changed": false,
+  "english_translation_gate": "ready-next",
+  "next_activity": "Begin Phase 9 source-linked English translation with the unnumbered opening pilot; preserve exact Tamil labels as metadata, link 36/36 opening dialogue records exactly once, and keep the unlabelled opening narration unassigned."
+}
