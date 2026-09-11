@@ -1,7 +1,16 @@
-# மருதநாட்டு இளவரசி — duplicate-spread correction
+# மருதநாட்டு இளவரசி — source-geometry correction
 
-Independent source rendering during V1 established the complete physical pattern: PDF 2 is unique; thereafter **3=4, 5=6, 7=8, 9=10, 11=12, 13=14, 15=16, 17=18, 19=20, 21=22** are exact duplicate two-page spreads.
+Status: **SUPERSEDED DUPLICATE-SPREAD HYPOTHESIS / LINEAR GEOMETRY CONFIRMED**.
 
-Canonical logical pages 1–21 therefore use representative PDFs **2,3,5,7,9,11,13,15,17,19,21**, split left/right where applicable. Duplicate scans contribute provenance only and never duplicate canonical text.
+An earlier review incorrectly concluded that the body contained duplicated two-up spreads. During the independent V3 source review, the exact controlling binary was rechecked page by page and that interpretation was disproved.
 
-This supersedes the earlier one-PDF-page/one-printed-page assumption. The correction was made before structured derivatives opened.
+Correct geometry:
+
+- PDF 1 — cover;
+- PDF 2–22 — 21 **unique** body pages;
+- logical printed page = PDF page − 1;
+- duplicate PDF spreads: **none**.
+
+The binary identity was unchanged: 22 pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f`.
+
+All active mapping, page provenance and status mirrors now use the linear mapping. Legacy `-left` / `-right` filenames in the final range are retained only as stable storage paths and must not be interpreted as physical scan sides.

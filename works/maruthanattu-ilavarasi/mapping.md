@@ -1,39 +1,35 @@
 # மருதநாட்டு இளவரசி — structural mapping
 
-Status: **COMPLETE-VERIFIED-CORRECTED — full duplicate-spread geometry established during independent verification**.
+Status: **COMPLETE-VERIFIED-CORRECTED — linear one-PDF-page/one-logical-page geometry confirmed from the controlling source**.
 
-Rendered source pixels control. The independent V1 re-read established the actual physical scan geometry:
+The exact attached source binary (22 pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f`) was re-rendered page by page during the V3 review. That direct source inspection disproved the earlier two-up/duplicate-spread hypothesis.
+
+## Correct physical geometry
 
 - PDF 1 — cover.
-- PDF 2 — unique scan; logical printed page 1 is on the right.
-- PDF 3=4 — exact duplicate spread, printed 2–3.
-- PDF 5=6 — printed 4–5.
-- PDF 7=8 — printed 6–7.
-- PDF 9=10 — printed 8–9.
-- PDF 11=12 — printed 10–11.
-- PDF 13=14 — printed 12–13.
-- PDF 15=16 — printed 14–15.
-- PDF 17=18 — printed 16–17.
-- PDF 19=20 — printed 18–19.
-- PDF 21=22 — printed 20–21.
+- PDF 2–22 — 21 unique body pages.
+- logical printed page 1 = PDF 2.
+- visible printed pages 2–21 = PDF 3–22.
+- for the body: **logical printed page = PDF page − 1**.
+- duplicate PDF spreads: **none**.
 
-Canonical Tamil represents logical printed pages **1–21 exactly once**, using representative PDFs **2,3,5,7,9,11,13,15,17,19,21**. The following even-numbered scan in each duplicate pair is provenance-only. Stable page-record filenames are retained; index entries and source anchors carry corrected PDF + side provenance.
+Some later page-record filenames retain legacy `-left` / `-right` suffixes. Those filenames are stable storage names only and do not imply a two-up source scan.
 
 ## Scene-heading provenance
 
-| Scene | Logical printed | Representative source |
-|---:|---:|---|
-| 2 | 4 | PDF 5 left |
-| 3 | 5 | PDF 5 right |
-| 4 | 7 | PDF 7 right |
-| 5 | 7 | PDF 7 right |
-| 6 | 8 | PDF 9 left |
-| 7 | 10 | PDF 11 left |
-| 8 | 12 | PDF 13 left |
-| 9 | 17 | PDF 17 right |
-| 10 | 18 | PDF 19 left |
+| Scene | Logical printed page | Controlling PDF page |
+|---:|---:|---:|
+| 2 | 4 | 5 |
+| 3 | 5 | 6 |
+| 4 | 7 | 8 |
+| 5 | 7 | 8 |
+| 6 | 8 | 9 |
+| 7 | 10 | 11 |
+| 8 | 12 | 13 |
+| 9 | 17 | 18 |
+| 10 | 18 | 19 |
 
-Logical pages 1–3 remain an **unnumbered opening**; no source \`காட்சி 1.\` is invented. The source-visible numbered sequence is 2–10.
+Logical pages 1–3 remain an **unnumbered opening**; no source `காட்சி 1.` is invented. The source-visible numbered sequence is 2–10.
 
 ## Gate state
 
@@ -44,3 +40,5 @@ Logical pages 1–3 remain an **unnumbered opening**; no source \`காட்�
 - final historical-glyph verification: **15/21 PASS**;
 - open uncertainty markers: **0**;
 - structured derivatives: **BLOCKED**.
+
+Next: independently verify logical printed pages **16–20** against **PDF 17–21 respectively**.

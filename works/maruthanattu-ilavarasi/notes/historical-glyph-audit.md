@@ -11,4 +11,4 @@ Source pixels control historical glyph identity. OCR/extraction is candidate-onl
 - final historical-glyph verification: **15/21**;
 - open uncertainty markers: **0**.
 
-V3 independently re-read the source-visible accusative endings and word forms that differed from the first-pass candidate, including `இவனை`, `சுத்தவீரனை`, and `மக்களை`, without grammatical normalization beyond what the source itself shows.
+V3 used the exact one-page source mapping (printed 11–15 = PDF 12–16). Every sensitive occurrence was re-read from its own pixels. The source-visible forms `இவனை`, `சுத்தவீரனை`, `என்னைக்` and `வாதங்கள்` were retained from direct evidence. The prepared normalization `மக்களை` was rejected because the source itself prints `மக்கள்`.

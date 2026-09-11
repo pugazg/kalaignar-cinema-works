@@ -1,4 +1,4 @@
-<!-- source: pdf=21 side=right printed=21 duplicate-scan-pdf=22 status=draft -->
+<!-- source: pdf=22 printed=21 status=draft -->
 
 # மருதநாட்டு இளவரசி
 

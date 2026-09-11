@@ -6,7 +6,7 @@
   "transcription_scope_page_count": 21,
   "status": "verification-in-progress",
   "first_pass_pages_completed": 21,
-  "first_pass_pdf_range_completed": "PDF 2–22 source coverage; canonical logical pages 1–21 use representative scans 2,3,5,7,9,11,13,15,17,19,21; exact duplicate scans 4,6,8,10,12,14,16,18,20,22 excluded",
+  "first_pass_pdf_range_completed": "PDF 2–22; one unique source page per logical page; printed = PDF - 1",
   "first_pass_current_through_pdf": 22,
   "first_pass_current_through_logical_printed": 21,
   "draft_pages": 6,
@@ -21,26 +21,21 @@
       "printed_page_kind": "logical-only",
       "kind": "unnumbered-opening",
       "status": "verified",
-      "path": "pages/002.md",
-      "scan_side": "right"
+      "path": "pages/002.md"
     },
     {
       "pdf_page": 3,
       "printed_page": 2,
       "kind": "unnumbered-opening",
       "status": "verified",
-      "path": "pages/003.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 4
+      "path": "pages/003.md"
     },
     {
-      "pdf_page": 3,
+      "pdf_page": 4,
       "printed_page": 3,
       "kind": "unnumbered-opening",
       "status": "verified",
-      "path": "pages/004.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 4
+      "path": "pages/004.md"
     },
     {
       "pdf_page": 5,
@@ -48,12 +43,10 @@
       "kind": "screenplay",
       "source_scene_id": "2",
       "status": "verified",
-      "path": "pages/005.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 6
+      "path": "pages/005.md"
     },
     {
-      "pdf_page": 5,
+      "pdf_page": 6,
       "printed_page": 5,
       "kind": "screenplay",
       "source_scene_ids": [
@@ -61,9 +54,7 @@
         "3"
       ],
       "status": "verified",
-      "path": "pages/006.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 6
+      "path": "pages/006.md"
     },
     {
       "pdf_page": 7,
@@ -71,12 +62,10 @@
       "kind": "screenplay",
       "source_scene_id": "3",
       "status": "verified",
-      "path": "pages/007.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 8
+      "path": "pages/007.md"
     },
     {
-      "pdf_page": 7,
+      "pdf_page": 8,
       "printed_page": 7,
       "kind": "screenplay",
       "source_scene_ids": [
@@ -85,9 +74,7 @@
         "5"
       ],
       "status": "verified",
-      "path": "pages/008.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 8
+      "path": "pages/008.md"
     },
     {
       "pdf_page": 9,
@@ -98,19 +85,15 @@
         "6"
       ],
       "status": "verified",
-      "path": "pages/009.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 10
+      "path": "pages/009.md"
     },
     {
-      "pdf_page": 9,
+      "pdf_page": 10,
       "printed_page": 9,
       "kind": "screenplay",
       "source_scene_id": "6",
       "status": "verified",
-      "path": "pages/010.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 10
+      "path": "pages/010.md"
     },
     {
       "pdf_page": 11,
@@ -121,19 +104,15 @@
         "7"
       ],
       "status": "verified",
-      "path": "pages/011.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 12
+      "path": "pages/011.md"
     },
     {
-      "pdf_page": 11,
+      "pdf_page": 12,
       "printed_page": 11,
       "kind": "screenplay",
       "source_scene_id": "7",
       "status": "verified",
-      "path": "pages/012.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 12
+      "path": "pages/012.md"
     },
     {
       "pdf_page": 13,
@@ -144,19 +123,15 @@
         "8"
       ],
       "status": "verified",
-      "path": "pages/013.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 14
+      "path": "pages/013.md"
     },
     {
-      "pdf_page": 13,
+      "pdf_page": 14,
       "printed_page": 13,
       "kind": "screenplay",
       "source_scene_id": "8",
       "status": "verified",
-      "path": "pages/014.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 14
+      "path": "pages/014.md"
     },
     {
       "pdf_page": 15,
@@ -164,190 +139,107 @@
       "kind": "screenplay",
       "source_scene_id": "8",
       "status": "verified",
-      "path": "pages/015.md",
-      "scan_side": "left",
-      "duplicate_scan_pdf_page": 16
+      "path": "pages/015.md"
     },
     {
-      "pdf_page": 15,
+      "pdf_page": 16,
       "printed_page": 15,
       "kind": "screenplay",
       "source_scene_id": "8",
       "status": "verified",
-      "path": "pages/016.md",
-      "scan_side": "right",
-      "duplicate_scan_pdf_page": 16
+      "path": "pages/016.md"
     },
     {
       "pdf_page": 17,
       "printed_page": 16,
-      "scan_side": "left",
       "kind": "screenplay",
       "source_scene_id": "8",
       "status": "draft",
-      "path": "pages/017-left.md",
-      "duplicate_scan_pdf_page": 18
+      "path": "pages/017-left.md"
     },
     {
-      "pdf_page": 17,
+      "pdf_page": 18,
       "printed_page": 17,
-      "scan_side": "right",
       "kind": "screenplay",
       "source_scene_ids": [
         "8",
         "9"
       ],
       "status": "draft",
-      "path": "pages/017-right.md",
-      "duplicate_scan_pdf_page": 18
+      "path": "pages/017-right.md"
     },
     {
       "pdf_page": 19,
       "printed_page": 18,
-      "scan_side": "left",
       "kind": "screenplay",
       "source_scene_ids": [
         "9",
         "10"
       ],
       "status": "draft",
-      "path": "pages/019-left.md",
-      "duplicate_scan_pdf_page": 20
+      "path": "pages/019-left.md"
     },
     {
-      "pdf_page": 19,
+      "pdf_page": 20,
       "printed_page": 19,
-      "scan_side": "right",
       "kind": "screenplay",
       "source_scene_id": "10",
       "status": "draft",
-      "path": "pages/019-right.md",
-      "duplicate_scan_pdf_page": 20
+      "path": "pages/019-right.md"
     },
     {
       "pdf_page": 21,
       "printed_page": 20,
-      "scan_side": "left",
       "kind": "screenplay",
       "source_scene_id": "10",
       "status": "draft",
-      "path": "pages/021-left.md",
-      "duplicate_scan_pdf_page": 22
+      "path": "pages/021-left.md"
     },
     {
-      "pdf_page": 21,
+      "pdf_page": 22,
       "printed_page": 21,
-      "scan_side": "right",
       "kind": "screenplay",
       "source_scene_id": "10",
       "status": "draft",
-      "path": "pages/021-right.md",
-      "duplicate_scan_pdf_page": 22
+      "path": "pages/021-right.md"
     }
   ],
   "batch_size_source_pages": 5,
   "next_batch_pdf_pages": null,
-  "next_action": "Independently verify logical printed pages 16–20 as the next five-page dual-gate batch. Use representative source pixels PDF 17 left/right (printed 16–17), PDF 19 left/right (printed 18–19), and PDF 21 left (printed 20); PDFs 18,20,22 are exact duplicate spreads. Correct any draft mismatch before marking verified, perform final historical-glyph checks occurrence by occurrence, and keep structured derivatives blocked until all 21 logical pages pass both gates.",
-  "duplicate_pdf_spreads": [
-    {
-      "pdf_page": 4,
-      "duplicates_pdf_page": 3,
-      "printed_pages": [
-        2,
-        3
-      ]
-    },
-    {
-      "pdf_page": 6,
-      "duplicates_pdf_page": 5,
-      "printed_pages": [
-        4,
-        5
-      ]
-    },
-    {
-      "pdf_page": 8,
-      "duplicates_pdf_page": 7,
-      "printed_pages": [
-        6,
-        7
-      ]
-    },
-    {
-      "pdf_page": 10,
-      "duplicates_pdf_page": 9,
-      "printed_pages": [
-        8,
-        9
-      ]
-    },
-    {
-      "pdf_page": 12,
-      "duplicates_pdf_page": 11,
-      "printed_pages": [
-        10,
-        11
-      ]
-    },
-    {
-      "pdf_page": 14,
-      "duplicates_pdf_page": 13,
-      "printed_pages": [
-        12,
-        13
-      ]
-    },
-    {
-      "pdf_page": 16,
-      "duplicates_pdf_page": 15,
-      "printed_pages": [
-        14,
-        15
-      ]
-    },
-    {
-      "pdf_page": 18,
-      "duplicates_pdf_page": 17,
-      "printed_pages": [
-        16,
-        17
-      ]
-    },
-    {
-      "pdf_page": 20,
-      "duplicates_pdf_page": 19,
-      "printed_pages": [
-        18,
-        19
-      ]
-    },
-    {
-      "pdf_page": 22,
-      "duplicates_pdf_page": 21,
-      "printed_pages": [
-        20,
-        21
-      ]
-    }
-  ],
-  "canonical_representative_pdf_pages_for_printed_16_21": [
-    17,
-    19,
-    21
-  ],
+  "next_action": "Independently verify logical printed pages 16–20 against PDF 17–21 respectively as the next five-page dual-gate batch. Correct any draft mismatch before marking verified, perform final historical-glyph checks occurrence by occurrence, and keep structured derivatives blocked until all 21 logical pages pass both gates.",
+  "duplicate_pdf_spreads": [],
   "verification_current_through_logical_printed": 15,
   "verification_batches_completed": 3,
   "canonical_representative_pdf_pages": [
     2,
     3,
+    4,
     5,
+    6,
     7,
+    8,
     9,
+    10,
     11,
+    12,
     13,
+    14,
     15,
+    16,
     17,
+    18,
     19,
-    21
+    20,
+    21,
+    22
+  ],
+  "source_geometry": "linear-one-pdf-page-per-logical-page",
+  "canonical_source_pdf_pages_for_printed_16_21": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
   ]
 }

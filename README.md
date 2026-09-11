@@ -25,12 +25,12 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 ## மருதநாட்டு இளவரசி status
 
 - Tamil T1: **21/21 COMPLETE-DRAFT**;
-- corrected physical geometry: PDF 2 unique; duplicate spreads **3=4 through 21=22**;
+- source geometry: **linear PDF 2–22 ↔ logical printed 1–21; no duplicate spreads**;
 - visual fidelity / final glyph verification: **15/21 / 15/21 PASS**;
 - open uncertainties: **0**;
 - derivatives: **BLOCKED**.
 
-**Next:** logical printed pages **16–20** dual-gate verification.
+**Next:** logical printed pages **16–20** against PDF **17–21** respectively.
 
 ## வண்டிக்காரன் மகன் status
 

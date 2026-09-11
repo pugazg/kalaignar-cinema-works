@@ -2,9 +2,11 @@
 
 Status: **IN PROGRESS — 15/21 canonical logical pages VERIFIED**.
 
+Direct reinspection of the exact controlling binary corrected the physical provenance: **PDF 1 is the cover; PDF 2–22 are 21 unique body pages; logical printed page = PDF page − 1.** The earlier duplicate-spread interpretation is superseded.
+
 ## V1 — logical printed pages 1–5
 
-Representative pixels: printed 1 = PDF 2 right; printed 2–3 = PDF 3 left/right (PDF 4 duplicate); printed 4–5 = PDF 5 left/right (PDF 6 duplicate).
+Controlling pages: printed 1–5 = PDF 2–6 respectively.
 
 V1 closed with source-supported corrections and zero unresolved readings. Two user rechecks were then independently confirmed against the source:
 
@@ -15,11 +17,7 @@ The rejected `செய்துதான்` reading was reverted and the histo
 
 ## V2 — logical printed pages 6–10
 
-Representative pixels independently re-read:
-
-- printed 6–7 — PDF 7 left/right; PDF 8 duplicate;
-- printed 8–9 — PDF 9 left/right; PDF 10 duplicate;
-- printed 10 — PDF 11 left; PDF 12 duplicates the full 10–11 spread.
+Controlling pages: printed 6–10 = PDF 7–11 respectively.
 
 **PASS after 11 source-fidelity findings / 13 text replacements / 0 unresolved:**
 
@@ -37,24 +35,30 @@ Representative pixels independently re-read:
 
 The same independent pass completed the final historical-glyph check for logical pages 6–10. No unresolved source reading remains in V2.
 
-Next: logical printed pages **11–15**.
-
 ## V3 — logical printed pages 11–15
 
-Representative pixels independently re-read:
+Controlling pages were independently re-read page by page:
 
-- printed 11 — PDF 11 right; PDF 12 duplicate;
-- printed 12–13 — PDF 13 left/right; PDF 14 duplicate;
-- printed 14–15 — PDF 15 left/right; PDF 16 duplicate.
+- printed 11 = PDF 12;
+- printed 12 = PDF 13;
+- printed 13 = PDF 14;
+- printed 14 = PDF 15;
+- printed 15 = PDF 16.
 
-**PASS after 5 source-supported corrections / 0 unresolved:**
+### Prepared-candidate adjudication
 
-1. printed 11: `பழக்கொலை நீ!` → source-visible `பழக்கொடி நீ!`;
-2. printed 13: `இவன் கைது செய்த` → `இவனை கைது செய்த`;
-3. printed 15: `இவன் கைது செய்த` → `இவனை கைது செய்த`;
-4. printed 15: `அந்த சுத்தவீரன் இவனே` → `அந்த சுத்தவீரனை இவனே`;
-5. printed 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்` → `இந்நாட்டு மக்களை காட்டு மிருகம்போல்`.
+1. printed 11: `பழக்கொலை நீ!` → `பழக்கொடி நீ!` — **CONFIRMED**;
+2. printed 13: `இவன் கைது செய்த` → `இவனை கைது செய்த` — **CONFIRMED**;
+3. printed 15: `இவன் கைது செய்த` → `இவனை கைது செய்த` — **CONFIRMED**;
+4. printed 15: `அந்த சுத்தவீரன் இவனே` → `அந்த சுத்தவீரனை இவனே` — **CONFIRMED**;
+5. printed 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்` → `இந்நாட்டு மக்களை காட்டு மிருகம்போல்` — **REJECTED**. The source prints `மக்கள்`; grammatical expectation is not authority.
 
-The same independent re-read completed the final historical-glyph check for logical pages 11–15. No unresolved source reading remains in V3.
+### Additional source-supported corrections found during the whole-page re-read
 
-Next: logical printed pages **16–20**.
+6. printed 11: `கிளி... இனிமேல்` → `கிளி. இனிமேல்`;
+7. printed 12: `என்னை காப்பாற்றும்.` → `என்னைக் காப்பாற்றும்.`;
+8. printed 13: `உழுத்த வாதங்களை அள்ளி` → `உழுத்த வாதங்கள் அள்ளி`.
+
+Final V3 disposition: **PASS after 7 source-supported text corrections / 1 prepared candidate rejected / 0 unresolved**. The same independent re-read completed the final historical-glyph check for logical pages 11–15.
+
+Next: logical printed pages **16–20** = PDF **17–21** respectively.
