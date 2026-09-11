@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil 21/21 COMPLETE-VERIFIED** | **scene 10/10; dialogue 208; character 14; Phase 8 ZERO-ITEM PASS** | **English pilot VERIFIED — opening 1/10, 39 units, 36/36 links** | scenes 2–5 READY-NEXT |
+| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil 21/21 COMPLETE-VERIFIED** | **scene 10/10; dialogue 208; character 14; Phase 8 ZERO-ITEM PASS** | **English 5/10 VERIFIED — 92 units / 89 links** | scenes 6–7 READY-NEXT |
 | Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **reader/export + Reading Room payload QA PASS; site not applied** |
 
 ## Vandikkaran Magan current checkpoint
@@ -152,12 +152,11 @@ Vandikkaran Magan repository-internal production is closed through Reading Room 
 
 ## Maruthanattu Ilavarasi current checkpoint
 
-- canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- scene/dialogue/character: **10/10 / 208 / 14 COMPLETE-VERIFIED**;
+- canonical Tamil / scene / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
 - Phase 8: **ZERO-ITEM PASS**;
-- English translation: **PILOT VERIFIED / IN PROGRESS**;
-- verified pilot: **unnumbered opening / PDF 2–4**;
-- English units / dialogue links: **39 / 36 of 36**;
+- English translation: **5/10 derivative units VERIFIED**;
+- English units / dialogue links: **92 / 89**;
+- latest batch scenes 2–5: **PASS — 53/53 links**;
 - inferred speakers / performance links: **0 / 0**.
 
-Next: source scenes **2–5** translation batch.
+Next: source scenes **6–7** translation batch.
