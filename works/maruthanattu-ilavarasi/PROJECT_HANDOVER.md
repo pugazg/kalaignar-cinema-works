@@ -10,21 +10,27 @@ Work: `works/maruthanattu-ilavarasi/`
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
-- dialogue index: **208 records COMPLETE-VERIFIED**;
-- character/entity index: **14 entities COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
-- performance candidates reviewed: **6**;
-- qualifying performance records / Tamil derivatives: **0 / 0**;
-- item-level authorship records: **0**;
-- external authorship metadata used: **0**;
-- source-visible credit `வசனம் : மு. கருணாநிதி.`: retained strictly as a dialogue credit;
-- upstream canonical / scene / dialogue / character modifications in Phase 8: **0 / 0 / 0 / 0**;
-- Phase 9 English translation: **NOT STARTED / READY-NEXT**.
+- immutable dialogue: **208 COMPLETE-VERIFIED**;
+- character/entity: **14 entities COMPLETE-VERIFIED**;
+- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
+- Phase 9 English translation: **PILOT VERIFIED / IN PROGRESS**;
+- verified English derivative units: **1/10 — unnumbered opening**;
+- opening source coverage: **PDF 2–4 / logical 1–3**;
+- opening English units: **39**;
+- opening dialogue links: **36/36 exactly once**;
+- opening unlabelled narrative speakers inferred: **0**;
+- performance links: **0/0**;
+- canonical / scene / dialogue / character / Phase-8 mutations during pilot: **0 / 0 / 0 / 0 / 0**.
 
-## Phase 8 non-record precedents
+## Pilot precedents
 
-The `நடனம்` occurrence on PDF 2 / logical page 1 is a contextual dialogue mention without a bounded performance body. Other audit hits are metaphoric or lexical false positives, including `இதய கீதம்`, `சங்கீதம்`, `இசைந்த`, `ஏற்பாடு`, and `பாடமாக`.
+- preserve the source's unnumbered opening; do not create Scene 1;
+- preserve exact Tamil labels/delimiters as metadata;
+- source-owned parenthetical action stays inside its immutable dialogue unit;
+- `* * *` remains a structural-separator unit;
+- repeated/anomalous source ownership is translated as printed, not normalized;
+- Phase 8 zero-item performance state remains unchanged.
 
 ## Exact next activity
 
-> **Translate the unnumbered opening (PDF 2–4 / logical 1–3) as the Phase 9 pilot. Preserve source order/provenance, retain exact Tamil speaker labels as metadata, link all 36 labelled utterances to immutable dialogue IDs exactly once, and keep the unlabelled opening narration unassigned. Do not alter closed Tamil or structured source layers.**
+> **Translate and verify source-numbered scenes 2–5 as the first bounded post-pilot batch. Use the opening pilot's voice/provenance rules. Link all explicit dialogue records exactly once; preserve stage directions and page provenance; do not alter closed source layers.**

@@ -1289,12 +1289,12 @@
       "dialogue_index": "complete-verified",
       "character_index": "not-started",
       "song_performance_gate": "complete-verified-zero-item-pass",
-      "english_translation": "not-started",
+      "english_translation": "pilot-verified-in-progress",
       "reader_export": "not-started",
       "reading_room_integration": "not-started",
       "character_entity_index": "complete-verified"
     },
-    "next_action": "Begin Phase 9 English translation with the unnumbered opening pilot; link 36/36 labelled opening turns to immutable dialogue IDs exactly once and keep the unlabelled narration unassigned.",
+    "next_action": "Translate and verify source scenes 2-5 as the first bounded post-pilot English batch.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1358,6 +1358,11 @@
     "song_performance_tamil_derivatives": 0,
     "song_item_level_authorship_records": 0,
     "english_translation_gate": "ready-next",
-    "english_translation_status": "not-started"
+    "english_translation_status": "pilot-verified-in-progress",
+    "english_translation_verified_segments": 1,
+    "english_translation_total_derivative_units": 10,
+    "english_translation_units_verified": 39,
+    "english_translation_dialogue_links_verified": 36,
+    "english_translation_opening_dialogue_coverage": "36/36"
   }
 ]

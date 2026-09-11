@@ -17,6 +17,7 @@
   "scene_text_changed": false,
   "dialogue_records_changed": false,
   "character_entity_mappings_changed": false,
-  "english_translation_gate": "ready-next",
-  "next_activity": "Begin Phase 9 source-linked English translation with the unnumbered opening pilot; preserve exact Tamil labels as metadata, link 36/36 opening dialogue records exactly once, and keep the unlabelled opening narration unassigned."
+  "english_translation_gate": "pilot-verified-in-progress",
+  "next_activity": "Translate and verify source scenes 2-5 as the first bounded post-pilot English batch; keep the zero-item Phase 8 gate closed.",
+  "english_translation_verified_segments": 1
 }

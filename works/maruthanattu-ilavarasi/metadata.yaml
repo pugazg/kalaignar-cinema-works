@@ -44,8 +44,8 @@ canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/p
 canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: complete-verified-21-of-21
 historical_glyph_audit: final-complete-verified-21-of-21
-structured_derivatives: song-performance-zero-item-pass
-next_action: "Begin Phase 9 English translation with the unnumbered opening pilot; link 36/36 labelled opening turns to immutable dialogue IDs and keep the unlabelled narration unassigned."
+structured_derivatives: english-translation-pilot-verified
+next_action: "Translate and verify source scenes 2-5 as the first bounded post-pilot English batch; preserve immutable dialogue ownership and closed upstream layers."
 visual_verified_pages: 21
 historical_glyph_final_verified_pages: 21
 verification_current_through_logical_printed: 21
@@ -80,5 +80,12 @@ song_item_level_authorship_records: 0
 song_external_metadata_consulted: false
 song_performance_index_path: works/maruthanattu-ilavarasi/songs/index.json
 song_performance_qa_path: works/maruthanattu-ilavarasi/notes/song-performance-qa.json
-english_translation_gate: ready-next
-english_translation_status: not-started
+english_translation_gate: open-pilot-verified
+english_translation_status: pilot-verified-in-progress
+english_translation_verified_segments: 1
+english_translation_total_derivative_units: 10
+english_translation_units_verified: 39
+english_translation_dialogue_links_verified: 36
+english_translation_opening_dialogue_coverage: 36/36
+english_translation_index_path: works/maruthanattu-ilavarasi/translations/index.json
+english_translation_pilot_qa_path: works/maruthanattu-ilavarasi/translations/pilot-qa.json

@@ -1,0 +1,31 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "status": "pilot-verified-in-progress",
+  "source_derivative_unit_count": 10,
+  "verified_segments": 1,
+  "verified_segment_ids": [
+    "maruthanattu-ilavarasi-opening"
+  ],
+  "translation_units_verified": 39,
+  "immutable_dialogue_records_total": 208,
+  "immutable_dialogue_links_verified": 36,
+  "opening_dialogue_coverage": "36/36",
+  "non_dialogue_units_verified": 3,
+  "source_unlabelled_narrative_units_verified": 1,
+  "structural_separator_units_verified": 1,
+  "retained_performance_records_total": 0,
+  "retained_performance_records_translated": 0,
+  "cross_page_translation_units": [],
+  "authorship_state_changed_by_translation": false,
+  "canonical_tamil_changed_by_translation": false,
+  "scene_text_changed_by_translation": false,
+  "dialogue_records_changed_by_translation": false,
+  "character_entity_mappings_changed_by_translation": false,
+  "song_performance_gate_records_changed_by_translation": false,
+  "schema": "schema.json",
+  "records_directory": "records/",
+  "pilot_review": "PILOT_REVIEW.md",
+  "pilot_qa": "pilot-qa.json",
+  "next_activity": "Translate and verify source scenes 2-5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; preserve stage directions and source order; do not invent performance material or alter closed upstream layers."
+}

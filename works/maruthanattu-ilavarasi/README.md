@@ -2,27 +2,30 @@
 
 Source-led archival workspace for the scanned மருதநாட்டு இளவரசி திரை வசனம் booklet.
 
-## Closed gates
+## Closed source/structured gates
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- visual fidelity / final historical glyph: **21/21 / 21/21 PASS**;
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
-- immutable dialogue layer: **208 records / 24 exact labels COMPLETE-VERIFIED**;
-- character/entity layer: **14 entities COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**.
+- immutable dialogue: **208 records COMPLETE-VERIFIED**;
+- character/entity: **14 entities COMPLETE-VERIFIED**;
+- Phase 8 song/performance/authorship: **COMPLETE-VERIFIED — ZERO-ITEM PASS**.
 
-## Phase 8 result
+## Phase 9 English translation
 
-A whole-work source-visible performance audit reviewed the cover/work-level credit and all verified body material. **Six lexical/contextual candidates** were adjudicated; **zero** qualify as a bounded song, verse, chant, lyric or extractable performance record.
+Status: **PILOT VERIFIED / IN PROGRESS**
 
-The source-level `வசனம் : மு. கருணாநிதி.` credit remains a dialogue credit only. No lyric/performance authorship is inferred from it.
+Verified pilot:
 
-- retained performance records: **0**;
-- Tamil performance derivatives: **0**;
-- item-level authorship records: **0**;
-- external authorship metadata used: **0**;
-- upstream layer modifications during Phase 8: **0**.
+- unnumbered opening — **PDF 2–4 / logical 1–3**;
+- English units: **39**;
+- immutable dialogue links: **36/36 exactly once**;
+- work-credit / unlabelled narrative / structural separator: **1 / 1 / 1**;
+- inferred speakers: **0**;
+- performance units: **0**;
+- upstream source-layer modifications: **0**.
+
+The English layer preserves the opening as unnumbered and does not invent `காட்சி 1`.
 
 ## Exact next activity
 
-> **Begin Phase 9 English translation with the unnumbered opening as the first bounded pilot. Preserve source order and page provenance, retain exact Tamil speaker labels as metadata, link all 36 labelled opening utterances to immutable dialogue IDs exactly once, and keep the unlabelled opening narration without an invented speaker/dialogue ID.**
+> **Translate and verify source scenes 2–5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels/delimiters as metadata, link every labelled utterance to its immutable dialogue ID exactly once, preserve source order and stage/action ownership, and do not alter closed Tamil/structured layers.**

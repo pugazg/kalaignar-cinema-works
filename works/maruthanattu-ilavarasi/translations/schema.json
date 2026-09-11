@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "maruthanattu-ilavarasi-translation-segment-record-schema",
+  "title": "Maruthanattu Ilavarasi source-linked English translation segment record",
+  "description": "Source-linked English derivatives for the unnumbered opening and source-numbered scenes. Canonical Tamil, immutable dialogue records, character mappings and Phase 8 gate records remain authoritative.",
+  "type": "object",
+  "required": [
+    "work_id",
+    "target_language",
+    "segment_id",
+    "segment_kind",
+    "derivative_ordinal",
+    "source_scene_number",
+    "segment_status",
+    "unit_count",
+    "units"
+  ],
+  "properties": {
+    "work_id": {
+      "const": "maruthanattu-ilavarasi"
+    },
+    "target_language": {
+      "const": "en"
+    },
+    "segment_id": {
+      "type": "string",
+      "pattern": "^maruthanattu-ilavarasi-(?:opening|s00[2-9]|s010)$"
+    },
+    "segment_kind": {
+      "enum": [
+        "unnumbered-opening",
+        "source-numbered-scene"
+      ]
+    },
+    "derivative_ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "source_scene_number": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 2,
+      "maximum": 10
+    },
+    "pilot_status": {
+      "enum": [
+        "draft",
+        "review",
+        "verified"
+      ]
+    },
+    "segment_status": {
+      "enum": [
+        "draft",
+        "review",
+        "verified"
+      ]
+    },
+    "unit_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "page_provenance": {
+      "type": "object",
+      "required": [
+        "pdf_page",
+        "printed_page"
+      ],
+      "properties": {
+        "pdf_page": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 22
+        },
+        "printed_page": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 21
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_locator": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string"
+        },
+        "ordinal": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "ordinal",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "source_path",
+        "canonical_scene_path",
+        "source_record_id",
+        "source_occurrence_id",
+        "source_locator",
+        "speaker_label",
+        "speaker_label_origin",
+        "source_delimiter",
+        "page_provenance"
+      ],
+      "properties": {
+        "source_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_scene_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_record_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_occurrence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_locator": {
+          "$ref": "#/$defs/source_locator"
+        },
+        "speaker_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "speaker_label_origin": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "source-explicit",
+            null
+          ]
+        },
+        "source_delimiter": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "page_provenance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/page_provenance"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "translation": {
+      "type": "object",
+      "required": [
+        "english_text",
+        "mode",
+        "notes"
+      ],
+      "properties": {
+        "english_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mode": {
+          "enum": [
+            "prose-faithful",
+            "semantic-poetic-source-faithful"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "status",
+        "target_language",
+        "segment_id",
+        "segment_kind",
+        "derivative_ordinal",
+        "source_scene_number",
+        "source",
+        "translation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^maruthanattu-ilavarasi-en-(?:opening|s00[2-9]|s010)-u[0-9]{3}$"
+        },
+        "kind": {
+          "enum": [
+            "narrative",
+            "dialogue",
+            "stage-direction",
+            "performance-cue",
+            "song",
+            "written-text",
+            "chant",
+            "structural-separator"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "review",
+            "verified"
+          ]
+        },
+        "target_language": {
+          "const": "en"
+        },
+        "segment_id": {
+          "type": "string",
+          "pattern": "^maruthanattu-ilavarasi-(?:opening|s00[2-9]|s010)$"
+        },
+        "segment_kind": {
+          "enum": [
+            "unnumbered-opening",
+            "source-numbered-scene"
+          ]
+        },
+        "derivative_ordinal": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "source_scene_number": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 2,
+          "maximum": 10
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "translation": {
+          "$ref": "#/$defs/translation"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

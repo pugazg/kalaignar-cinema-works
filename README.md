@@ -25,15 +25,14 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 ## மருதநாட்டு இளவரசி status
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
-- immutable dialogue layer: **208 records / 24 exact labels COMPLETE-VERIFIED**;
-- character/entity layer: **14 entities COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
-- candidates reviewed / retained performance records: **6 / 0**;
-- item-level performance authorship records: **0**;
-- English translation gate: **READY-NEXT**.
+- scene/dialogue/character layers: **10/10 / 208 / 14 COMPLETE-VERIFIED**;
+- Phase 8 performance/authorship: **ZERO-ITEM PASS**;
+- English translation: **PILOT VERIFIED / IN PROGRESS**;
+- verified English derivative units: **1/10 — unnumbered opening**;
+- pilot English units / dialogue links: **39 / 36 of 36**;
+- inferred opening speakers / performance links: **0 / 0**.
 
-**Next:** Phase 9 English translation pilot for the unnumbered opening (PDF 2–4), with 36/36 immutable dialogue links and the opening narration kept unassigned.
+**Next:** translate and verify source scenes **2–5** as the first bounded post-pilot English batch.
 
 ## வண்டிக்காரன் மகன் status
 

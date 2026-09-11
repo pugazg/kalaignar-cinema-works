@@ -1,0 +1,51 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "english-translation-pilot-qa",
+  "status": "PASS",
+  "segment_id": "maruthanattu-ilavarasi-opening",
+  "segment_kind": "unnumbered-opening",
+  "source_scene_number": null,
+  "source_pdf_pages": [
+    2,
+    3,
+    4
+  ],
+  "source_printed_pages": [
+    1,
+    2,
+    3
+  ],
+  "translation_units": 39,
+  "unit_type_counts": {
+    "written-text": 1,
+    "narrative": 1,
+    "dialogue": 36,
+    "structural-separator": 1
+  },
+  "immutable_dialogue_records_expected": 36,
+  "immutable_dialogue_records_linked": 36,
+  "dialogue_coverage": "36/36 exactly once",
+  "missing_dialogue_links": 0,
+  "duplicate_dialogue_links": 0,
+  "exact_tamil_speaker_labels_preserved": true,
+  "source_delimiters_preserved_as_metadata": true,
+  "inferred_unlabelled_speakers": 0,
+  "source_unlabelled_narrative_units": 1,
+  "work_credit_units": 1,
+  "structural_separator_units": 1,
+  "source_owned_parenthetical_actions_inside_dialogue_units": 1,
+  "standalone_stage_direction_units": 0,
+  "performance_occurrences_expected": [],
+  "performance_occurrences_linked": [],
+  "performance_coverage": "0/0",
+  "cross_page_units": [],
+  "source_order_preserved": true,
+  "phase8_authorship_state_changed_by_translation": false,
+  "external_or_unprinted_text_imported": false,
+  "canonical_tamil_modified": 0,
+  "scene_text_modified": 0,
+  "dialogue_records_modified": 0,
+  "character_entity_mappings_modified": 0,
+  "song_performance_gate_records_modified_by_translation": 0,
+  "next_gate": "source scenes 2-5 translation batch ready"
+}

@@ -211,10 +211,12 @@
       "end_before": null
     }
   ],
-  "next_action": "Begin Phase 9 English translation with opening.md as the first bounded pilot; keep all closed Tamil and structured layers unchanged.",
+  "next_action": "Translate source scenes 2-5 as the first post-pilot English batch; opening pilot remains verified.",
   "dialogue_index_status": "complete-verified",
   "dialogue_record_count": 208,
   "character_entity_index_status": "complete-verified",
   "character_entity_count": 14,
-  "song_performance_authorship_gate": "complete-verified-zero-item-pass"
+  "song_performance_authorship_gate": "complete-verified-zero-item-pass",
+  "english_translation_status": "pilot-verified-in-progress",
+  "english_translation_verified_segments": 1
 }

@@ -135,7 +135,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
 - **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45**; dialogues **590**; characters **28 / 45/45 / 590/590**; song/performance gate **7/7 reconciled**; English **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated**.
 - **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; scenes **72/72**; dialogues **773 / 38 labels / reconciled QA PASS**; characters **32 / 38/38 / 773/773**; song/performance **9/9 source-only QA PASS**; English **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 source-unlabelled / 58 cross-page / 9/9 performance identities**; reader/export **QA PASS**; Reading Room payload **QA PASS — 1,610,402 bytes / `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**; site not applied.
-- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — canonical Tamil **21/21 COMPLETE-VERIFIED**; scene **10/10**; dialogue **208/208**; character/entity **14 entities COMPLETE-VERIFIED**; Phase 8 song/performance/authorship **ZERO-ITEM PASS** after 6 candidates / 0 retained records; English translation **READY-NEXT**.
+- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — Tamil **21/21**; scenes **10/10**; dialogue **208**; character/entity **14**; Phase 8 **ZERO-ITEM PASS**; English translation **PILOT VERIFIED / 1 of 10 derivative units**, opening dialogue coverage **36/36**.
 
 Ammayappan and Naam remain closed at their recorded checkpoints. **Vandikkaran Magan now has no required repository-internal production phase remaining: source/Tamil, structured derivatives, English translation, deterministic reader/export and source-linked Reading Room payload are complete-verified / QA PASS. The separate Reading Room site remains not-applied and requires explicit authorization before modification.**
 
@@ -313,14 +313,13 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
-- immutable dialogue: **208 records COMPLETE-VERIFIED**;
-- character/entity: **14 entities COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
-- lexical/contextual candidates reviewed: **6**;
-- qualifying / retained performance records: **0 / 0**;
-- Tamil performance derivatives: **0**;
-- item-level authorship records: **0**;
-- source work-level credit remains `வசனம் : மு. கருணாநிதி.` — dialogue credit only;
-- English translation: **NOT STARTED / READY-NEXT**.
+- immutable dialogue: **208 COMPLETE-VERIFIED**;
+- character/entity: **14 COMPLETE-VERIFIED**;
+- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
+- Phase 9 English: **PILOT VERIFIED / IN PROGRESS**;
+- verified English derivative units: **opening 1/10**;
+- opening translation units: **39**;
+- opening dialogue coverage: **36/36 exactly once**;
+- inferred speakers / performance links: **0 / 0**.
 
-**Next:** Phase 9 opening pilot — PDF 2–4 / logical 1–3; preserve 36/36 immutable dialogue links and keep the unlabelled opening narration unassigned.
+**Next:** translate and verify source scenes **2–5** in the first bounded post-pilot batch.
