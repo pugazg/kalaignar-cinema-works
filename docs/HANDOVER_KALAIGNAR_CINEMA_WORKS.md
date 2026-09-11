@@ -312,9 +312,9 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 ## 11. மருதநாட்டு இளவரசி active checkpoint
 
 - Tamil T1: **21/21 COMPLETE-DRAFT**;
-- corrected duplicate-spread provenance: **3=4 through 21=22**, PDF 2 unique;
-- visual fidelity / final glyph: **5/21 / 5/21 PASS**;
+- visual fidelity / final glyph: **10/21 / 10/21 PASS**;
+- user/source corrections retained: logical page 1 `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`; logical page 3 `இத்தியாகம் செய்யத்தான் வேண்டும்;`;
 - open uncertainties: **0**;
 - derivatives: **BLOCKED**.
 
-**Next:** independently verify logical printed pages **6–10**.
+**Next:** independently verify logical printed pages **11–15**.
