@@ -27,10 +27,11 @@
   "remaining_unmapped_records": 0,
   "record_aware_labels": [],
   "dialogue_records_modified": false,
-  "next_activity": "Begin Phase 14 whole-work reader/export layer from the verified structured records.",
+  "next_activity": "Work closed. Preserve character/entity mappings; public-site application requires explicit authorization.",
   "song_performance_authorship_gate": "complete-verified-zero-item-pass",
   "retained_performance_records": 0,
   "english_translation_status": "complete-verified",
   "english_translation_verified_segments": 10,
-  "english_translation_units_verified": 228
+  "english_translation_units_verified": 228,
+  "reading_room_integration_status": "payload-complete-verified"
 }

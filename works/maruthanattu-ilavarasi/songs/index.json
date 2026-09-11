@@ -18,7 +18,8 @@
   "dialogue_records_changed": false,
   "character_entity_mappings_changed": false,
   "english_translation_gate": "complete-verified",
-  "next_activity": "Begin Phase 14 whole-work reader/export layer; Phase 8 zero-item song/performance gate remains closed.",
+  "next_activity": "Work closed. Do not invent song/performance material; public-site application requires explicit authorization.",
   "english_translation_verified_segments": 10,
-  "english_translation_units_verified": 228
+  "english_translation_units_verified": 228,
+  "reading_room_integration_status": "payload-complete-verified"
 }

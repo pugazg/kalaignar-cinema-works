@@ -37,5 +37,6 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 - English translation: **COMPLETE-VERIFIED — 10/10 derivative units / 228 units / 208/208 dialogue links**;
 - whole-work English reconciliation: **PASS — 5/5 cross-page / 0 duplicate ownership / 0 inferred speakers**;
 - reader/export layer: **COMPLETE-VERIFIED — Markdown / HTML / JSON / QA / manifest**;
+- Reading Room integration payload: **PAYLOAD-COMPLETE-VERIFIED — site application not-applied**;
 
-Next: build the Phase 15 Reading Room integration payload from the QA-PASS reader/export and verified source-linked records.
+Next: no mandatory archive phase remains. Public-site application is separate and requires explicit authorization.

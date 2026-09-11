@@ -6,31 +6,35 @@ Work: `works/maruthanattu-ilavarasi/`
 
 **LIVE MAIN IS AUTHORITATIVE.**
 
-## Closed gates
+## Mature completion
+
+Status: **COMPLETE-VERIFIED**
+
+All normal archive gates are closed:
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue: **208 COMPLETE-VERIFIED**;
 - character/entity: **14 COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
-- Phase 9 English translation: **COMPLETE-VERIFIED**;
-- Phase 14 reader/export: **COMPLETE-VERIFIED — QA PASS**.
+- song/performance/authorship: **ZERO-ITEM PASS**;
+- English: **COMPLETE-VERIFIED — 228 units / 208 links**;
+- reader/export: **COMPLETE-VERIFIED — QA PASS**;
+- Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED — QA PASS**.
 
-## Phase 14 durable state
+## Reading Room checkpoint
 
-- reader directory: `editions/en/`;
-- rendered English units: **228/228 exactly once**;
-- immutable dialogue links: **208/208 exactly once**;
-- non-dialogue units: **20**;
-- cross-page units: **5/5 exact**;
-- source navigation: **unnumbered opening + source scenes 2–10**;
-- synthetic Scene 1: **0**;
-- performance units: **0**;
-- Markdown / HTML / JSON integrity hashes recorded in `editions/en/manifest.json`;
-- PDF / EPUB: **not created**.
+- payload: `integrations/reading-room/reading-room.json`;
+- payload SHA-256: `25715b161b9df7e47d158871aab56f479be226d7bde624e45e5c3f50724acbb2`;
+- Tamil/English presentation: **ta / en / parallel**;
+- source structure: **unnumbered opening + source scenes 2–10**;
+- English units: **228**;
+- immutable dialogue links: **208/208**;
+- cross-page units: **5/5**;
+- retained performance records: **0**;
+- site application: **not-applied**.
 
-Reader authority remains downstream. Canonical Tamil, scene derivatives, dialogue records and translation records are unchanged.
+The integration payload is downstream. Canonical Tamil, scene derivatives, dialogue records, entity mappings and English translation records remain unchanged authorities.
 
-## Exact next activity
+## Further action
 
-> **Begin Phase 15 Reading Room integration payload from the QA-PASS reader/export and verified source-linked records. Prepare deterministic data only inside this repository. Do not modify or deploy the separate `nenjukkuneethi.org` implementation repository without explicit authorization.**
+> **No mandatory archive-processing phase remains. Do not modify/deploy the separate public Reading Room site unless the user explicitly authorizes that repository. Do not create PDF/EPUB or another package merely because the archive is complete.**
