@@ -1294,7 +1294,7 @@
       "reading_room_integration": "not-started",
       "character_entity_index": "complete-verified"
     },
-    "next_action": "Begin Phase 15 Reading Room integration payload from the QA-PASS reader/export; site application remains not-applied.",
+    "next_action": "No mandatory archive phase remains. Public Reading Room site application requires explicit authorization.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1376,6 +1376,9 @@
       "reader-edition.html",
       "reader-edition.json"
     ],
-    "reading_room_integration_status": "not-started-ready-next"
+    "reading_room_integration_status": "payload-complete-verified",
+    "processing_status": "complete-verified",
+    "reading_room_site_application_status": "not-applied",
+    "reading_room_payload_sha256": "25715b161b9df7e47d158871aab56f479be226d7bde624e45e5c3f50724acbb2"
   }
 ]

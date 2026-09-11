@@ -24,15 +24,19 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## மருதநாட்டு இளவரசி status
 
-- canonical Tamil / scenes / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
-- Phase 8 performance/authorship: **ZERO-ITEM PASS**;
-- Phase 9 English: **COMPLETE-VERIFIED — 228 units / 208 links**;
-- Phase 14 reader/export: **COMPLETE-VERIFIED — QA PASS**;
-- reader outputs: **Markdown / standalone HTML / machine JSON / QA / manifest**;
-- render coverage: **228/228 units / 208/208 dialogue links / 5/5 cross-page**;
-- PDF / EPUB: **not created**.
+**MATURE COMPLETE / COMPLETE-VERIFIED**
 
-**Next:** Phase 15 Reading Room integration payload; site application remains **not-applied**.
+- canonical Tamil / scenes / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
+- song/performance/authorship: **ZERO-ITEM PASS**;
+- English translation: **COMPLETE-VERIFIED — 228 units / 208 links**;
+- whole-work English reconciliation: **PASS**;
+- reader/export: **COMPLETE-VERIFIED — QA PASS**;
+- Reading Room payload: **PAYLOAD-COMPLETE-VERIFIED — QA PASS**;
+- payload navigation: **unnumbered opening + source scenes 2–10**;
+- cross-page units: **5/5**;
+- public-site application: **not-applied**.
+
+There is no mandatory archive-processing phase remaining. Applying the payload to the separate public Reading Room repository requires explicit authorization.
 
 ## வண்டிக்காரன் மகன் status
 

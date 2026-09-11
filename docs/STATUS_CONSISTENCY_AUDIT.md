@@ -26,7 +26,7 @@ The scene-3 post-closure source form `பூங் ; என்ன அண்ண�
 | Raja Rani | 79/79 source pages; 70/70 screenplay pages verified | 58/58 scenes / 1,071 dialogues / 80 labels / 44 entities | screenplay 1,236 units + 11/11 songs / 181 line-cues | bilingual reader + Reading Room payload QA PASS; site not applied |
 | Ammayappan | canonical Tamil **105/105 complete-verified** | **63/63 scenes; 1,025 dialogue units; 62 labels / 26 entities; song gate closed** | **complete-verified 63/63 / 1,210 units** | reader/export + Reading Room payload **QA PASS**; site not applied |
 | Naam / நாம் | canonical Tamil 67/67 complete-verified; 0 unresolved | **45/45 scenes; 590 dialogue records; 28 character/entities; song/performance 7/7 reconciled** | **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performances translated** | not-started |
-| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **Tamil 21/21; scene 10/10; dialogue 208; character 14 COMPLETE-VERIFIED** | **English COMPLETE-VERIFIED** | **reader/export QA PASS — 228 / 208 / 5 cross-page** | Reading Room payload READY-NEXT |
+| Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி | **MATURE COMPLETE — Tamil 21/21; scene 10/10; dialogue 208; character 14** | **English 228 / 208 links; reader QA PASS** | **Reading Room payload QA PASS** | site not-applied / no mandatory next phase |
 | Vandikkaran Magan / வண்டிக்காரன் மகன் | **87/87 canonical source pages complete-verified; 0 unresolved** | **72/72 scenes; 773 dialogues / 38 labels; 32 entities; song/performance 9/9 QA PASS** | **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 unlabelled / 58 cross-page / 9/9 performance IDs** | **reader/export + Reading Room payload QA PASS; site not applied** |
 
 ## Vandikkaran Magan current checkpoint
@@ -152,12 +152,14 @@ Vandikkaran Magan repository-internal production is closed through Reading Room 
 
 ## Maruthanattu Ilavarasi current checkpoint
 
-- canonical Tamil / scene / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
-- Phase 8: **ZERO-ITEM PASS**;
-- English translation: **COMPLETE-VERIFIED**;
-- reader/export: **COMPLETE-VERIFIED — QA PASS**;
-- reader units / immutable links: **228 / 208**;
-- cross-page units: **5/5 exact**;
-- PDF / EPUB: **not created**.
+**MATURE COMPLETE / COMPLETE-VERIFIED**
 
-Next: **Phase 15 Reading Room integration payload**; site application **not-applied**.
+- canonical Tamil / scene / dialogue / character: **21/21 / 10/10 / 208 / 14**;
+- song/performance gate: **ZERO-ITEM PASS**;
+- English: **228 units / 208 immutable links / COMPLETE-VERIFIED**;
+- reader/export: **QA PASS**;
+- Reading Room integration payload: **QA PASS / payload-complete-verified**;
+- site application: **not-applied**;
+- obsolete next-phase pointers: **none expected**.
+
+No mandatory archive phase remains. A future public-site application requires explicit authorization.
