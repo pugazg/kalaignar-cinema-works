@@ -1,0 +1,25 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "integration": "reading-room",
+  "build_version": 1,
+  "status": "PASS",
+  "site_application_status": "not-applied",
+  "source_sha256": "8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f",
+  "authoritative_input_count": 12,
+  "reader_and_tamil_input_aggregate_sha256": "d8ddd19c06550006db5f88b8f82432f254bac95bef9a14c13ca4315618cfec9f",
+  "checkpoint": {
+    "segments": 10,
+    "unnumbered_opening": 1,
+    "source_numbered_scenes": 9,
+    "translation_units": 228,
+    "immutable_dialogue_links": 208,
+    "non_dialogue_units": 20,
+    "cross_page_units": 5,
+    "retained_performance_records": 0
+  },
+  "output": {
+    "path": "works/maruthanattu-ilavarasi/integrations/reading-room/reading-room.json",
+    "bytes": 236481,
+    "sha256": "25715b161b9df7e47d158871aab56f479be226d7bde624e45e5c3f50724acbb2"
+  }
+}
