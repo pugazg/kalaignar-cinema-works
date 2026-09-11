@@ -26,13 +26,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
-- immutable dialogue layer: **208 records / 24 exact labels / COMPLETE-VERIFIED**;
-- multi-page dialogue records: **5**;
-- dialogue coverage QA: **PASS — 208/208 exactly once**;
-- open source uncertainties: **0**;
-- character/entity index: **READY-NEXT**.
+- immutable dialogue layer: **208 records / 24 exact labels COMPLETE-VERIFIED**;
+- character/entity layer: **14 entities COMPLETE-VERIFIED** — 11 characters / 1 role / 2 collectives;
+- label / dialogue-record entity coverage: **24/24 / 208/208**;
+- unresolved entity mappings: **0**;
+- Phase 8 song/performance/authorship gate: **READY-NEXT**.
 
-**Next:** Phase 7 character/entity indexing.
+**Next:** inventory source-visible performance/song structures and explicit credits; document a zero-item PASS if none qualify.
 
 ## வண்டிக்காரன் மகன் status
 

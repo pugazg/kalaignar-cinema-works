@@ -1291,9 +1291,10 @@
       "song_performance_gate": "not-started",
       "english_translation": "not-started",
       "reader_export": "not-started",
-      "reading_room_integration": "not-started"
+      "reading_room_integration": "not-started",
+      "character_entity_index": "complete-verified"
     },
-    "next_action": "Begin Phase 7 character/entity indexing from the 208 immutable dialogue records and 24 exact source speaker labels.",
+    "next_action": "Begin Phase 8 song/performance/authorship gating; inventory source-visible performance structures and explicit credits without inferring authorship from booklet inclusion.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1342,6 +1343,15 @@
     "dialogue_distinct_exact_speaker_labels": 24,
     "dialogue_multi_page_records": 5,
     "dialogue_unlabelled_ordinary_blocks": 1,
-    "character_entity_index": "not-started-ready-next"
+    "character_entity_index": "not-started-ready-next",
+    "character_entity_count": 14,
+    "character_entity_type_counts": {
+      "character": 11,
+      "role": 1,
+      "collective": 2
+    },
+    "character_entity_label_coverage": "24/24",
+    "character_entity_dialogue_record_coverage": "208/208",
+    "song_performance_authorship_gate": "not-started-ready-next"
   }
 ]
