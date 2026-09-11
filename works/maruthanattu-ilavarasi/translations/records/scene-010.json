@@ -1,0 +1,952 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s010",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 10,
+  "source_scene_number": 10,
+  "segment_status": "verified",
+  "unit_count": 28,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-setting",
+          "ordinal": 1,
+          "description": "Source-visible scene 10 scene-setting 1."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Sacrificial altar.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "Source setting `பலி பீடம்.` is kept as a setting unit, not assigned a speaker."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜய",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Your final words?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          },
+          {
+            "pdf_page": 20,
+            "printed_page": 19
+          },
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Final words? To whom shall I say them! To the key standing there, thirsting to drink my life? To the knife waiting to throttle my neck? Or to you, who have come to relish the sight of my flowing blood? Whoever I speak to, fine! Whoever hears, fine? At least in my final hour, let my heartbeat pound in fury and then fall still! Let my eyes blaze once and then go dark! Let my blood heat and boil, then turn cold! O rich land of noble Tamil that lived as the ground of justice and the furnace of integrity! Why have you become the dwelling of cheats, the abode of conspiracy? O golden motherland that bore only purity, love and truth! Why do you bear traitors, wicked men and villains? Is the only answer I receive to all these questions the sacrificial altar! Sacrificial altar!! Is that this terrible word? O Kurinji country where cruelty dances its tandava! Is it not enough that you kill me and grow fat by sucking my blood? Must you torment my Rani's life too? You tore my beloved away from me and locked the mother who bore me in the underground prison! You are tearing my heart to shreds! You are filled with remorse! Have you not even a sesame-seed's worth of pity, charity or compassion? She loved me, gave me life, said, `Even if the realm falls, I will not forget you`; the flower-tressed woman, the flower-breeze of the flower-garden, has gone somewhere! Even at the foot of the cremation ground, I have become a sinner unable to meet her! From the age I gained awareness I longed, wondering who the father and mother who bore me were! I did not even properly see the face of my mother, whose eyes shone as she spoke loving words, `My son`! Must I die so soon? Are the wrongdoers to relish that joy? I was born in this soil! On this soil I babbled as a child, crawled and played! On this soil I am about to fall as a corpse. In this land that lets those who come live, must a native of the land die unjustly? Must an innocent man die? Must one who does not even know how to conceive of cruelty die? Let my death be a lesson to you. From now on, see that no innocent person's bones are crushed on this sacrificial altar. Put on the sacrificial altar the arrogance, the conceit, the government law that says, `To labour, anything whatsoever may be done`, the gang of traitors that burns incense to it, Durjayan's gang. Smash the backbone of conspiracy to pieces. Pulverize treachery. Bring injustice down atom by atom..........",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source reads `சாவி` in the opening rhetorical question; the English keeps its literal `key` rather than silently correcting it to a contextually expected death-word.",
+          "The source phrase `உழைக்க என்னவேண்டுமானாலும் செய்துவிடலாம்` is compressed/irregular; English stays close with `To labour, anything whatsoever may be done` rather than emending the Tamil.",
+          "This immutable utterance spans PDF 19–21 and remains one English unit; physical Tamil word splits are not reproduced in English."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u004",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Source-visible scene 10 scene-stage-direction 1."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(In his fury, Kandiban's foot slips and he falls down.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u005",
+      "kind": "chant",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "source-unlabelled-chant",
+          "ordinal": 1,
+          "description": "Source-visible scene 10 source-unlabelled-chant 1."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough of falling—now we shall live! Enough of ruin—now we shall rule!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The two source-visible lines are unlabelled. They remain unassigned rather than being attributed to Kandiban by context."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough of your lament! ....Let it proceed.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u007",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 2,
+          "description": "Source-visible scene 10 scene-stage-direction 2."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[The sound of the gallows bell is heard. It is heard twice; not a third time. Why? Thinking that if the bell rang three times Kandiban's head would roll down, Rani sacrificed her own head directly to the third stroke. Because the third ring is not heard, everyone is stunned; Kandiban raises his head and looks.]",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u009",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 3,
+          "description": "Source-visible scene 10 scene-stage-direction 3."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "[Realizing that her princess has fallen, Ramba lifts Rani into her lap.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source has a mismatched opening bracket and closing parenthesis; the translated unit retains that visible bracket/parenthesis shape while canonical Tamil remains authoritative."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜய",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "....Hmm, do not stop. Let it proceed.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u011",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 4,
+          "description": "Source-visible scene 10 scene-stage-direction 4."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(The executioner prepares to cut Kandiban's neck. Azhagu stands stunned, seeing no way to stop it. Then Ramba sneezes. On hearing the sneeze, the usual “jump” begins and the cut is stopped.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The final subject is not expanded beyond the source; English avoids inventing ownership of the habitual `jump`."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜய",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Hey! Seize him.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u013",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 5,
+          "description": "Source-visible scene 10 scene-stage-direction 5."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(At that moment, the king comes there to see his son. Seeing his son alive......)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 21,
+            "printed_page": 20
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! Kandiba!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அழகு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let go! Kandiban is the prince? Kandiba!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u016",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 6,
+          "description": "Source-visible scene 10 scene-stage-direction 6."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Durjayan, seeing Kalingan and Muthammal, is shaken and tries to escape from there.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Kalingan, Muthammal!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u018",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 7,
+          "description": "Source-visible scene 10 scene-stage-direction 7."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Durjayan runs into the crowd. In return for violating her honour, Muthammal settles the score with the bichuwa dagger in her hand!)",
+        "mode": "prose-faithful",
+        "notes": [
+          "`பிச்சுவா` is retained as the weapon term `bichuwa dagger` rather than generalized away."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is the end for everyone whose heart is not pure!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "அழகு",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ramba!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My lord...!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "This is she, Rani! The Princess of Marutha country!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Prince!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "பொதுமக்கள்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Long live!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-010.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": "maruthanattu-ilavarasi-s010-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "People of prosperous Kurinji country, where abundance flows, greetings. I am not the king of this state. I am the leader of the people, the servant of the people. The monarchy of Kurinji country has ended. From now on, people's rule will bloom in full, new life will blossom, new thought will grow. Everyone is one clan! Everyone is one people!! Everyone is a ruler of this land!!!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`குடியாட்சி` is rendered as `people's rule`, preserving the source's contrast with `முடியாட்சி` rather than importing a narrower modern constitutional label."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u027",
+      "kind": "written-text",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "closing-text",
+          "ordinal": 1,
+          "description": "Source-visible scene 10 closing-text 1."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Well-being!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source closing word `நலம்!` is translated literally and is not replaced by a synthetic `The End`."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s010-u028",
+      "kind": "structural-separator",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 10,
+      "source_scene_number": 10,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-010.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "structural-separator",
+          "ordinal": 1,
+          "description": "Source-visible scene 10 structural-separator 1."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 22,
+            "printed_page": 21
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "★",
+        "mode": "prose-faithful",
+        "notes": [
+          "Decorative final star preserved structurally; no synthetic scene-end prose is added."
+        ]
+      }
+    }
+  ]
+}

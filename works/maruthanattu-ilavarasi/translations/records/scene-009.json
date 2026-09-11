@@ -1,0 +1,272 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s009",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 9,
+  "source_scene_number": 9,
+  "segment_status": "verified",
+  "unit_count": 8,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Source-visible scene 9 stage/narrative direction 1."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 18,
+            "printed_page": 17
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Having learned from his daughter Muthammal that Durjayan was the one who had been the death of his daughter's honour and his son's life, Kalingan goes to the palace to expose his plots. Gopativarman, after pronouncing judgment on Kandiban, is in the inner palace.)",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": "maruthanattu-ilavarasi-s009-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Raudhran is your son? What a monstrous injustice!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": "maruthanattu-ilavarasi-s009-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Worse than that was killing Anbanandar, burying him in the palace garden, and falsely accusing him of having run away with the queen!... Look—here is Anbanandar's skeleton. I was the one who buried that holy man.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`அபாண்டம் சுமத்தியது` is rendered as laying a false accusation; the source's reverential `புனித மூர்த்தி` is kept as `holy man`."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": "maruthanattu-ilavarasi-s009-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "How many terrible conspiracies!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": "maruthanattu-ilavarasi-s009-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "All to strengthen that sinner's influence!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": "maruthanattu-ilavarasi-s009-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! Durjayan's ring!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-009.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": "maruthanattu-ilavarasi-s009-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காளிங்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "In the haste of it, I failed to notice even that.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s009-u008",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s009",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 9,
+      "source_scene_number": 9,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-009.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 2,
+          "description": "Source-visible scene 9 stage/narrative direction 2."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 19,
+            "printed_page": 18
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Having learned the truth, the king comes toward the sacrificial altar to save Kandiban. Muthammal comes toward the altar to avenge herself on Durjayan for violating her honour; Kalingan too comes, enraged that Durjayan deceived him, made his son prince, and killed him.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source closes this final unlabelled direction with an extra right parenthesis; the canonical Tamil remains unchanged."
+        ]
+      }
+    }
+  ]
+}
