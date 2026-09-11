@@ -1,14 +1,14 @@
 # மருதநாட்டு இளவரசி — historical Tamil glyph audit
 
-Status: **PROSPECTIVE 21/21 COMPLETE; FINAL INDEPENDENT VERIFICATION 15/21 PASS**.
+Status: **PROSPECTIVE 21/21 COMPLETE; FINAL INDEPENDENT VERIFICATION 21/21 PASS**.
 
 Source pixels control historical glyph identity. OCR/extraction is candidate-only; no global replacements or silent modernization are allowed.
 
 - logical pages 1–5: **FINAL GLYPH PASS**;
 - logical pages 6–10: **FINAL GLYPH PASS**;
 - logical pages 11–15: **FINAL GLYPH PASS**;
-- logical pages 16–21: pending;
-- final historical-glyph verification: **15/21**;
+- logical pages 16–21: **FINAL GLYPH PASS**;
+- final historical-glyph verification: **21/21**;
 - open uncertainty markers: **0**.
 
-V3 used the exact one-page source mapping (printed 11–15 = PDF 12–16). Every sensitive occurrence was re-read from its own pixels. The source-visible forms `இவனை`, `சுத்தவீரனை`, `என்னைக்` and `வாதங்கள்` were retained from direct evidence. The prepared normalization `மக்களை` was rejected because the source itself prints `மக்கள்`.
+The final range was re-read from PDF 17–22 at enlarged resolution. Source-visible forms including `பரிதாபம்`, `பூங்காற்றும்`, `வாழ வைக்கும்`, `சொந்த நாட்டுக்காரன்`, `குடியாட்சி`, and `புதுக் கருத்து` were preserved occurrence-by-occurrence. No global replacement or grammar-driven normalization was used.

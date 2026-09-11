@@ -10,55 +10,29 @@ Work: `works/maruthanattu-ilavarasi/`
 
 `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**.
 
-Source pixels are controlling authority. OCR/extraction, candidate transcriptions and grammatical expectation are never canonical evidence.
-
-## Corrected source geometry
-
-Direct reinspection of the exact source binary during V3 disproved the earlier duplicate-spread hypothesis.
-
-- PDF 1: cover;
-- PDF 2–22: 21 unique body pages;
-- logical printed page = PDF page − 1;
-- no duplicate PDF spreads;
-- logical pages 1–3 are the unnumbered opening;
-- source-numbered scene headings observed: **2–10**.
-
-Legacy `-left` / `-right` page-record filenames in the later range are retained only as stable paths; they do not describe the physical source.
+PDF 1 is the cover; PDF 2–22 are 21 unique body pages; logical printed page = PDF page − 1. Source pixels are controlling authority.
 
 ## Durable state
 
-- source intake / mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
-- Tamil T1: **21/21 COMPLETE-DRAFT**;
-- independent visual fidelity: **15/21 PASS**;
-- final historical-glyph verification: **15/21 PASS**;
-- remaining draft pages: **6**;
-- open uncertainties: **0**;
-- structured derivatives: **BLOCKED**.
+- intake / mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
+- Tamil T1: **21/21 COMPLETE-VERIFIED**;
+- visual fidelity: **21/21 PASS**;
+- final historical-glyph verification: **21/21 PASS**;
+- draft / unresolved: **0 / 0**;
+- source scene headings: **2–10**;
+- logical pages 1–3: **unnumbered opening**;
+- structured derivatives: **NOT STARTED / READY-NEXT**.
 
-### V3 source review
+V4 independently re-read logical pages 16–21 / PDF 17–22 and closed with **13 source-supported corrections / 0 unresolved**. Preserve the source's irregular punctuation/delimiters where recorded; do not normalize them.
 
-Prepared candidates directly checked against printed 11–15:
+Corrections that must not regress include:
 
-1. printed 11: `பழக்கொலை நீ!` → `பழக்கொடி நீ!` — **CONFIRMED**;
-2. printed 13: `இவன் கைது செய்த` → `இவனை கைது செய்த` — **CONFIRMED**;
-3. printed 15: `இவன் கைது செய்த` → `இவனை கைது செய்த` — **CONFIRMED**;
-4. printed 15: `அந்த சுத்தவீரன் இவனே` → `அந்த சுத்தவீரனை இவனே` — **CONFIRMED**;
-5. printed 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்` → `இந்நாட்டு மக்களை காட்டு மிருகம்போல்` — **REJECTED**; source prints `மக்கள்`.
-
-Additional whole-page findings:
-
-- printed 11: `கிளி... இனிமேல்` → `கிளி. இனிமேல்`;
-- printed 12: `என்னை காப்பாற்றும்.` → `என்னைக் காப்பாற்றும்.`;
-- printed 13: `உழுத்த வாதங்களை அள்ளி` → `உழுத்த வாதங்கள் அள்ளி`.
-
-Final V3 result: **7 source-supported corrections / 1 prepared candidate rejected / 0 unresolved**.
-
-Corrections that must not regress:
-
-- logical page 1: `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`;
-- logical page 3: `இத்தியாகம் செய்யத்தான் வேண்டும்;`;
-- logical page 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்`.
+- logical 1: `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`;
+- logical 3: `இத்தியாகம் செய்யத்தான் வேண்டும்;`;
+- logical 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்`;
+- logical 19: `பரிதாபம்`, `பூங்காற்றும்`, `வாழ வைக்கும்`, `சொந்த நாட்டுக்காரன்`;
+- logical 21: `வணக்கம்,`, `குடியாட்சி பூத்துக்குலுங்கும்`, `புதுக் கருத்து வளரும்`.
 
 ## Exact next activity
 
-> **Independently re-read logical printed pages 16–20 against PDF 17–21 respectively. Correct any mismatch first, complete final historical-glyph checks occurrence by occurrence, and advance both final counters to 20/21 only if all five pages pass. Do not start structured derivatives.**
+> **Build source-faithful scene-text derivatives from the 21/21 verified canonical Tamil. Preserve logical pages 1–3 as the unnumbered opening and source scene headings 2–10 exactly. Keep canonical Tamil closed unless genuinely new source evidence appears.**

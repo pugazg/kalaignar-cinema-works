@@ -24,13 +24,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## மருதநாட்டு இளவரசி status
 
-- Tamil T1: **21/21 COMPLETE-DRAFT**;
+- canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - source geometry: **linear PDF 2–22 ↔ logical printed 1–21; no duplicate spreads**;
-- visual fidelity / final glyph verification: **15/21 / 15/21 PASS**;
+- visual fidelity / final glyph verification: **21/21 / 21/21 PASS**;
 - open uncertainties: **0**;
-- derivatives: **BLOCKED**.
+- structured derivatives: **NOT STARTED / READY-NEXT**.
 
-**Next:** logical printed pages **16–20** against PDF **17–21** respectively.
+**Next:** build source-faithful scene-text derivatives while preserving the unnumbered opening and source headings 2–10.
 
 ## வண்டிக்காரன் மகன் status
 

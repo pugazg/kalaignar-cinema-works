@@ -36,16 +36,16 @@ opening_unnumbered_segment_logical_printed_pages: "1-3"
 historical_glyph_policy: required
 historical_glyph_guide_path: docs/HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md
 historical_glyph_audit_path: works/maruthanattu-ilavarasi/notes/historical-glyph-audit.md
-canonical_tamil_transcription: verification-in-progress
+canonical_tamil_transcription: complete-verified
 canonical_tamil_first_pass_pages_completed: 21
 canonical_tamil_first_pass_pdf_range_completed: "2-22"
 canonical_tamil_first_pass_current_through_pdf: 22
 canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/pages/021-right.md
 canonical_tamil_total_body_pages: 21
-visual_fidelity_audit: in-progress-15-of-21
-historical_glyph_audit: final-in-progress-15-of-21
-structured_derivatives: blocked
-next_action: "Independently verify logical printed pages 16–20 against PDF 17–21 respectively; then advance both dual-gate counters to 20/21 if PASS."
-visual_verified_pages: 15
-historical_glyph_final_verified_pages: 15
-verification_current_through_logical_printed: 15
+visual_fidelity_audit: complete-verified-21-of-21
+historical_glyph_audit: final-complete-verified-21-of-21
+structured_derivatives: ready-next
+next_action: "Build scene-text derivatives from the 21/21 verified canonical Tamil, preserving the unnumbered opening and source scene headings 2–10."
+visual_verified_pages: 21
+historical_glyph_final_verified_pages: 21
+verification_current_through_logical_printed: 21

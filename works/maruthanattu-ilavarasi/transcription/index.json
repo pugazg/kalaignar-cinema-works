@@ -4,15 +4,15 @@
   "source_sha256": "8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f",
   "transcription_scope_pdf_pages": "2-22",
   "transcription_scope_page_count": 21,
-  "status": "verification-in-progress",
+  "status": "complete-verified",
   "first_pass_pages_completed": 21,
   "first_pass_pdf_range_completed": "PDF 2–22; one unique source page per logical page; printed = PDF - 1",
   "first_pass_current_through_pdf": 22,
   "first_pass_current_through_logical_printed": 21,
-  "draft_pages": 6,
-  "visual_verified_pages": 15,
+  "draft_pages": 0,
+  "visual_verified_pages": 21,
   "historical_glyph_first_pass_checked_pages": 21,
-  "historical_glyph_final_verified_pages": 15,
+  "historical_glyph_final_verified_pages": 21,
   "open_uncertainty_markers": 0,
   "page_records": [
     {
@@ -154,7 +154,7 @@
       "printed_page": 16,
       "kind": "screenplay",
       "source_scene_id": "8",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/017-left.md"
     },
     {
@@ -165,7 +165,7 @@
         "8",
         "9"
       ],
-      "status": "draft",
+      "status": "verified",
       "path": "pages/017-right.md"
     },
     {
@@ -176,7 +176,7 @@
         "9",
         "10"
       ],
-      "status": "draft",
+      "status": "verified",
       "path": "pages/019-left.md"
     },
     {
@@ -184,7 +184,7 @@
       "printed_page": 19,
       "kind": "screenplay",
       "source_scene_id": "10",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/019-right.md"
     },
     {
@@ -192,7 +192,7 @@
       "printed_page": 20,
       "kind": "screenplay",
       "source_scene_id": "10",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/021-left.md"
     },
     {
@@ -200,16 +200,16 @@
       "printed_page": 21,
       "kind": "screenplay",
       "source_scene_id": "10",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/021-right.md"
     }
   ],
   "batch_size_source_pages": 5,
   "next_batch_pdf_pages": null,
-  "next_action": "Independently verify logical printed pages 16–20 against PDF 17–21 respectively as the next five-page dual-gate batch. Correct any draft mismatch before marking verified, perform final historical-glyph checks occurrence by occurrence, and keep structured derivatives blocked until all 21 logical pages pass both gates.",
+  "next_action": "Build scene-text derivatives from the 21/21 complete-verified canonical Tamil, preserving the unnumbered opening and source scene headings 2–10. Keep canonical Tamil closed unless genuinely new source evidence reopens it.",
   "duplicate_pdf_spreads": [],
-  "verification_current_through_logical_printed": 15,
-  "verification_batches_completed": 3,
+  "verification_current_through_logical_printed": 21,
+  "verification_batches_completed": 4,
   "canonical_representative_pdf_pages": [
     2,
     3,
@@ -241,5 +241,6 @@
     20,
     21,
     22
-  ]
+  ],
+  "verification_complete": true
 }

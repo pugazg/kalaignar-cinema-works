@@ -2,16 +2,7 @@
 
 Status: **COMPLETE-VERIFIED-CORRECTED — linear one-PDF-page/one-logical-page geometry confirmed from the controlling source**.
 
-The exact attached source binary (22 pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f`) was re-rendered page by page during the V3 review. That direct source inspection disproved the earlier two-up/duplicate-spread hypothesis.
-
-## Correct physical geometry
-
-- PDF 1 — cover.
-- PDF 2–22 — 21 unique body pages.
-- logical printed page 1 = PDF 2.
-- visible printed pages 2–21 = PDF 3–22.
-- for the body: **logical printed page = PDF page − 1**.
-- duplicate PDF spreads: **none**.
+The exact controlling source is a 22-page image-only PDF. PDF 1 is the cover; PDF 2–22 are 21 unique body pages. For the body, **logical printed page = PDF page − 1**. There are **no duplicate PDF spreads**.
 
 Some later page-record filenames retain legacy `-left` / `-right` suffixes. Those filenames are stable storage names only and do not imply a two-up source scan.
 
@@ -35,10 +26,10 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 
 - source intake: **COMPLETE**;
 - structural mapping: **COMPLETE-VERIFIED-CORRECTED**;
-- Tamil T1: **21/21 COMPLETE-DRAFT**;
-- independent visual fidelity: **15/21 PASS**;
-- final historical-glyph verification: **15/21 PASS**;
+- Tamil T1: **21/21 COMPLETE-VERIFIED**;
+- independent visual fidelity: **21/21 PASS**;
+- final historical-glyph verification: **21/21 PASS**;
 - open uncertainty markers: **0**;
-- structured derivatives: **BLOCKED**.
+- structured derivatives: **READY-NEXT / NOT STARTED**.
 
-Next: independently verify logical printed pages **16–20** against **PDF 17–21 respectively**.
+Next: build scene-text derivatives from the closed canonical Tamil.

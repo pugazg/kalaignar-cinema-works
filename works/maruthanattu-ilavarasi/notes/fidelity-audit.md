@@ -1,64 +1,52 @@
 # மருதநாட்டு இளவரசி — visual-fidelity audit
 
-Status: **IN PROGRESS — 15/21 canonical logical pages VERIFIED**.
+Status: **COMPLETE — 21/21 canonical logical pages VERIFIED / 0 unresolved**.
 
-Direct reinspection of the exact controlling binary corrected the physical provenance: **PDF 1 is the cover; PDF 2–22 are 21 unique body pages; logical printed page = PDF page − 1.** The earlier duplicate-spread interpretation is superseded.
+Direct reinspection of the exact controlling binary established the physical provenance: **PDF 1 is the cover; PDF 2–22 are 21 unique body pages; logical printed page = PDF page − 1.**
 
 ## V1 — logical printed pages 1–5
 
 Controlling pages: printed 1–5 = PDF 2–6 respectively.
 
-V1 closed with source-supported corrections and zero unresolved readings. Two user rechecks were then independently confirmed against the source:
+V1 closed with source-supported corrections and zero unresolved readings. Two user rechecks were independently confirmed:
 
-- printed 1: `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`, not `தங்கையின் குழந்தை தான் ஆளவேண்டுமே`;
-- printed 3: `இத்தியாகம் செய்யத்தான் வேண்டும்;`, not the temporary verifier reading `செய்துதான்`.
-
-The rejected `செய்துதான்` reading was reverted and the historical V1 builder was patched so it cannot reintroduce it.
+- printed 1: `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`;
+- printed 3: `இத்தியாகம் செய்யத்தான் வேண்டும்;`.
 
 ## V2 — logical printed pages 6–10
 
 Controlling pages: printed 6–10 = PDF 7–11 respectively.
 
-**PASS after 11 source-fidelity findings / 13 text replacements / 0 unresolved:**
+**PASS after 11 source-fidelity findings / 13 text replacements / 0 unresolved.**
 
-1. printed 6: `களம் பலகண்ட` → `களம், பலகண்ட`;
-2. printed 6: `மாற்றானுக்கு மகள் கப்பமாக` → `மாற்றானுக்கு மகளை கப்பமாக`;
-3. printed 6: `என்னை புலியாக` → `என்னைப் புலியாக`;
-4. printed 7: continuation `குறிஞ்சிநாடே` → source-visible `குறிஞ்சி நாடே`;
-5. printed 7: `வெற்றிமாலை` → `வெற்றி மாலை`;
-6. printed 8: `புலம்பலை கேட்க` → `புலம்பலைக் கேட்க`;
-7. printed 8: source speaker `காண்டியன்` → `காண்டிபன்`;
-8. printed 9: all three abbreviated speaker labels `காண` → exact source `காண்`;
-9. printed 9: `நம்பிக்கைக்கு நிவர்த்தி` → source-visible `நம்பிக்கை நிவர்த்தி`;
-10. printed 10: `தயார்செய்யுங்கள்` → `தயார் செய்யுங்கள்`;
-11. printed 10: scene-7 parenthetical `காண்டியன்` → source-visible `காண்டீபன்`.
-
-The same independent pass completed the final historical-glyph check for logical pages 6–10. No unresolved source reading remains in V2.
+Notable retained source forms include `குறிஞ்சி நாடே`, `வெற்றி மாலை`, `காண்டிபன்`, `காண்`, `நம்பிக்கை நிவர்த்தி`, `தயார் செய்யுங்கள்`, and `காண்டீபன்`.
 
 ## V3 — logical printed pages 11–15
 
-Controlling pages were independently re-read page by page:
+Controlling pages: printed 11–15 = PDF 12–16 respectively.
 
-- printed 11 = PDF 12;
-- printed 12 = PDF 13;
-- printed 13 = PDF 14;
-- printed 14 = PDF 15;
-- printed 15 = PDF 16.
+**PASS after 7 source-supported text corrections / 1 prepared candidate rejected / 0 unresolved.**
 
-### Prepared-candidate adjudication
+The rejected candidate was `மக்கள்` → `மக்களை`; source-visible `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்` was retained.
 
-1. printed 11: `பழக்கொலை நீ!` → `பழக்கொடி நீ!` — **CONFIRMED**;
-2. printed 13: `இவன் கைது செய்த` → `இவனை கைது செய்த` — **CONFIRMED**;
-3. printed 15: `இவன் கைது செய்த` → `இவனை கைது செய்த` — **CONFIRMED**;
-4. printed 15: `அந்த சுத்தவீரன் இவனே` → `அந்த சுத்தவீரனை இவனே` — **CONFIRMED**;
-5. printed 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்` → `இந்நாட்டு மக்களை காட்டு மிருகம்போல்` — **REJECTED**. The source prints `மக்கள்`; grammatical expectation is not authority.
+## V4 — logical printed pages 16–21 / FINAL CLOSURE
 
-### Additional source-supported corrections found during the whole-page re-read
+Controlling pages: printed 16–21 = PDF 17–22 respectively.
 
-6. printed 11: `கிளி... இனிமேல்` → `கிளி. இனிமேல்`;
-7. printed 12: `என்னை காப்பாற்றும்.` → `என்னைக் காப்பாற்றும்.`;
-8. printed 13: `உழுத்த வாதங்களை அள்ளி` → `உழுத்த வாதங்கள் அள்ளி`.
+**PASS after 13 source-supported corrections / 0 unresolved:**
 
-Final V3 disposition: **PASS after 7 source-supported text corrections / 1 prepared candidate rejected / 0 unresolved**. The same independent re-read completed the final historical-glyph check for logical pages 11–15.
+1. printed 16: `எனக்குக்கிடைக்கவில்லை.` → `எனக்குக்கிடைக்கவில்லை!`;
+2. printed 16: stage direction closer `அங்கு காட்சி அளிக்கிறாள்)` → `அங்கு காட்சி அளிக்கிறாள்.)`;
+3. printed 17: `இந்நாட்டு இளவரசன், நம்முடைய மகன்.` → `இந்நாட்டு இளவரசன் நம்முடைய மகன்.`;
+4. printed 18: restored the source-visible close parenthesis after `பலிபீடம் நோக்கி வருகிறான்.)`;
+5. printed 19: `புரிதாபம்` → `பரிதாபம்`;
+6. printed 19: `புறங்காணும்` → source-visible `பூங்காற்றும்`;
+7. printed 19: `வாழவைக்கும்` → `வாழ வைக்கும்`;
+8. printed 19: `சொந்தநாட்டுக்காரன்` → `சொந்த நாட்டுக்காரன்`;
+9. printed 20: source irregular delimiter restored: `[...தூக்கிவைக்கிறாள்.)`, not silently balanced to `]`;
+10. printed 20: final stage direction ellipsis corrected from seven dots to source-visible six before `)`;
+11. printed 21: `வணக்கம்;` → `வணக்கம்,`;
+12. printed 21: `குடியாட்சிப் பூத்துக்குலுங்கும்` → `குடியாட்சி பூத்துக்குலுங்கும்`;
+13. printed 21: `புதுக்கருத்து வளரும்` → `புதுக் கருத்து வளரும்`.
 
-Next: logical printed pages **16–20** = PDF **17–21** respectively.
+The same pass completed the final historical-glyph review for logical pages 16–21. Canonical Tamil is **21/21 COMPLETE-VERIFIED**.

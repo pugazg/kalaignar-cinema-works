@@ -10,23 +10,20 @@ Printed credit: `வசனம் : மு. கருணாநிதி.` No expl
 
 ## Source geometry
 
-Direct reinspection of the exact source binary confirms a **linear one-page mapping**: PDF 1 is the cover; PDF 2–22 are 21 unique body pages, with logical printed page = PDF page − 1. The prior duplicate-spread interpretation was incorrect and has been superseded.
-
-The opening logical pages 1–3 are unnumbered; no `காட்சி 1.` is invented. Source-numbered headings are 2 through 10.
+PDF 1 is the cover; PDF 2–22 are 21 unique body pages. Logical printed page = PDF page − 1. The opening logical pages 1–3 are unnumbered; source-numbered headings are 2 through 10.
 
 ## Current gate
 
-- Tamil T1: **21/21 COMPLETE-DRAFT**;
-- independent visual fidelity: **15/21 PASS**;
-- final historical-glyph verification: **15/21 PASS**;
-- remaining draft pages: **6**;
+- Tamil T1: **21/21 COMPLETE-VERIFIED**;
+- independent visual fidelity: **21/21 PASS**;
+- final historical-glyph verification: **21/21 PASS**;
+- remaining draft pages: **0**;
 - open uncertainty markers: **0**;
-- structured scene/dialogue/character/song/English layers: **BLOCKED**.
+- structured scene/dialogue/character/song/English layers: **NOT STARTED**;
+- scene-text derivatives: **READY-NEXT**.
 
-User/source corrections retained: logical page 1 `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`; logical page 3 `இத்தியாகம் செய்யத்தான் வேண்டும்;`.
-
-V3 logical pages 11–15 passed after direct page-by-page source review. Seven source-supported corrections are recorded in `notes/fidelity-audit.md`; one prepared candidate (`மக்கள்` → `மக்களை`) was rejected because the source prints `மக்கள்`.
+V4 independently re-read logical pages 16–21 / PDF 17–22 and closed the canonical Tamil after **13 source-supported corrections / 0 unresolved**. The final page retains source-visible `வணக்கம்,`, `குடியாட்சி பூத்துக்குலுங்கும்`, `புதுக் கருத்து வளரும்`, `நலம்!` and `★`.
 
 ## Exact next activity
 
-> **Independently verify logical printed pages 16–20 against PDF 17, 18, 19, 20 and 21 respectively. Correct any mismatch before verification, complete final historical-glyph checks, and keep structured derivatives blocked until 21/21 dual-gate closure.**
+> **Build source-faithful scene-text derivatives from the 21/21 verified canonical Tamil. Preserve logical pages 1–3 as the unnumbered opening and preserve source scene headings 2–10 exactly. Do not reopen canonical Tamil without new source evidence.**
