@@ -9,10 +9,10 @@
   "first_pass_pdf_range_completed": "PDF 2–22 source coverage; canonical logical pages 1–21 use representative scans 2,3,5,7,9,11,13,15,17,19,21; exact duplicate scans 4,6,8,10,12,14,16,18,20,22 excluded",
   "first_pass_current_through_pdf": 22,
   "first_pass_current_through_logical_printed": 21,
-  "draft_pages": 11,
-  "visual_verified_pages": 10,
+  "draft_pages": 6,
+  "visual_verified_pages": 15,
   "historical_glyph_first_pass_checked_pages": 21,
-  "historical_glyph_final_verified_pages": 10,
+  "historical_glyph_final_verified_pages": 15,
   "open_uncertainty_markers": 0,
   "page_records": [
     {
@@ -130,7 +130,7 @@
       "printed_page": 11,
       "kind": "screenplay",
       "source_scene_id": "7",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/012.md",
       "scan_side": "right",
       "duplicate_scan_pdf_page": 12
@@ -143,7 +143,7 @@
         "7",
         "8"
       ],
-      "status": "draft",
+      "status": "verified",
       "path": "pages/013.md",
       "scan_side": "left",
       "duplicate_scan_pdf_page": 14
@@ -153,7 +153,7 @@
       "printed_page": 13,
       "kind": "screenplay",
       "source_scene_id": "8",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/014.md",
       "scan_side": "right",
       "duplicate_scan_pdf_page": 14
@@ -163,7 +163,7 @@
       "printed_page": 14,
       "kind": "screenplay",
       "source_scene_id": "8",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/015.md",
       "scan_side": "left",
       "duplicate_scan_pdf_page": 16
@@ -173,7 +173,7 @@
       "printed_page": 15,
       "kind": "screenplay",
       "source_scene_id": "8",
-      "status": "draft",
+      "status": "verified",
       "path": "pages/016.md",
       "scan_side": "right",
       "duplicate_scan_pdf_page": 16
@@ -247,7 +247,7 @@
   ],
   "batch_size_source_pages": 5,
   "next_batch_pdf_pages": null,
-  "next_action": "Independently verify logical printed pages 11–15 as the next five-page dual-gate batch. Use representative source pixels PDF 11 right (printed 11), PDF 13 left/right (printed 12–13), and PDF 15 left/right (printed 14–15); PDFs 12,14,16 are exact duplicate spreads. Correct any draft mismatch before marking verified, perform final historical-glyph checks occurrence by occurrence, and keep structured derivatives blocked until all 21 logical pages pass both gates.",
+  "next_action": "Independently verify logical printed pages 16–20 as the next five-page dual-gate batch. Use representative source pixels PDF 17 left/right (printed 16–17), PDF 19 left/right (printed 18–19), and PDF 21 left (printed 20); PDFs 18,20,22 are exact duplicate spreads. Correct any draft mismatch before marking verified, perform final historical-glyph checks occurrence by occurrence, and keep structured derivatives blocked until all 21 logical pages pass both gates.",
   "duplicate_pdf_spreads": [
     {
       "pdf_page": 4,
@@ -335,8 +335,8 @@
     19,
     21
   ],
-  "verification_current_through_logical_printed": 10,
-  "verification_batches_completed": 2,
+  "verification_current_through_logical_printed": 15,
+  "verification_batches_completed": 3,
   "canonical_representative_pdf_pages": [
     2,
     3,

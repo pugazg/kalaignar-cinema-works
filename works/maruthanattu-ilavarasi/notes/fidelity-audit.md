@@ -1,6 +1,6 @@
 # மருதநாட்டு இளவரசி — visual-fidelity audit
 
-Status: **IN PROGRESS — 10/21 canonical logical pages VERIFIED**.
+Status: **IN PROGRESS — 15/21 canonical logical pages VERIFIED**.
 
 ## V1 — logical printed pages 1–5
 
@@ -38,3 +38,23 @@ Representative pixels independently re-read:
 The same independent pass completed the final historical-glyph check for logical pages 6–10. No unresolved source reading remains in V2.
 
 Next: logical printed pages **11–15**.
+
+## V3 — logical printed pages 11–15
+
+Representative pixels independently re-read:
+
+- printed 11 — PDF 11 right; PDF 12 duplicate;
+- printed 12–13 — PDF 13 left/right; PDF 14 duplicate;
+- printed 14–15 — PDF 15 left/right; PDF 16 duplicate.
+
+**PASS after 5 source-supported corrections / 0 unresolved:**
+
+1. printed 11: `பழக்கொலை நீ!` → source-visible `பழக்கொடி நீ!`;
+2. printed 13: `இவன் கைது செய்த` → `இவனை கைது செய்த`;
+3. printed 15: `இவன் கைது செய்த` → `இவனை கைது செய்த`;
+4. printed 15: `அந்த சுத்தவீரன் இவனே` → `அந்த சுத்தவீரனை இவனே`;
+5. printed 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்` → `இந்நாட்டு மக்களை காட்டு மிருகம்போல்`.
+
+The same independent re-read completed the final historical-glyph check for logical pages 11–15. No unresolved source reading remains in V3.
+
+Next: logical printed pages **16–20**.

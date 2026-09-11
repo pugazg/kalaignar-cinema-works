@@ -40,7 +40,7 @@ Logical pages 1–3 remain an **unnumbered opening**; no source \`காட்�
 - source intake: **COMPLETE**;
 - structural mapping: **COMPLETE-VERIFIED-CORRECTED**;
 - Tamil T1: **21/21 COMPLETE-DRAFT**;
-- independent visual fidelity: **5/21 PASS**;
-- final historical-glyph verification: **5/21 PASS**;
+- independent visual fidelity: **15/21 PASS**;
+- final historical-glyph verification: **15/21 PASS**;
 - open uncertainty markers: **0**;
 - structured derivatives: **BLOCKED**.

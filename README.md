@@ -25,12 +25,12 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 ## மருதநாட்டு இளவரசி status
 
 - Tamil T1: **21/21 COMPLETE-DRAFT**;
-- visual fidelity / final historical glyph: **10/21 / 10/21 PASS**;
-- user/source corrections retained: logical page 1 **`தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`**, logical page 3 **`இத்தியாகம் செய்யத்தான் வேண்டும்;`**;
+- corrected physical geometry: PDF 2 unique; duplicate spreads **3=4 through 21=22**;
+- visual fidelity / final glyph verification: **15/21 / 15/21 PASS**;
 - open uncertainties: **0**;
 - derivatives: **BLOCKED**.
 
-**Next:** logical printed pages **11–15** dual-gate verification.
+**Next:** logical printed pages **16–20** dual-gate verification.
 
 ## வண்டிக்காரன் மகன் status
 
