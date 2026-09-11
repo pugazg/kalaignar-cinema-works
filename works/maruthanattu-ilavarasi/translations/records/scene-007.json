@@ -1,0 +1,879 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s007",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 7,
+  "source_scene_number": 7,
+  "segment_status": "verified",
+  "unit_count": 27,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u001",
+      "kind": "stage-direction",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": null,
+        "source_occurrence_id": null,
+        "source_locator": {
+          "kind": "scene-stage-direction",
+          "ordinal": 1,
+          "description": "Source-visible stage direction before the first labelled turn."
+        },
+        "speaker_label": null,
+        "speaker_label_origin": null,
+        "source_delimiter": null,
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(Raudhran; speaks in Kandiban's voice.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The direction identifies a voice imitation; no speaker identity is inferred beyond the printed source."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்திரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani...... Rani, come, come .. Ah! Your smile is the full moon breaking out through the clouds.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Are my lips coal-black like yours?",
+        "mode": "prose-faithful",
+        "notes": [
+          "The taunting comparison is retained without resolving the disguise beyond the explicit preceding stage direction."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The beautiful hue of the evening sky, my dear.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where are you? Touch me. Won't you touch me? Don't you like me?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Touching you is the delight of touching dew! Would I taste fruit after tasting your cheek!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The dew/fruit/cheek courtship imagery is kept rather than replaced with an English idiom."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The dawn-star of delight has risen—now onward.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`இன்பவிடிவெள்ளி` is kept as a dawn-star image; the source line is deliberately compressed."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am the green parrot! You are the fruit-laden vine!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "In the grove of love!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will not let the parrot fly away!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The parrot. From now on, in the palace of Kurinji country, it will frolic with the prince who speaks flute-sweet words and whose eyes dart brightly!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The parrot and flute-speech imagery is retained rather than flattened into generic courtship prose."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A fine dream;",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "To keep it from remaining a dream, the parrot will stay shut in a cage for a few days.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A hero only in words.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Watch me show my valour in action.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Wait, Raudhra. Let her speak a little too. Is she a frightened doe or a roaring lion? Hmm, speak, girl, speak.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You madmen who have come to think of women as objects of lust—if you are warriors, put a sword in my hand and then speak.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`காமப்பதுமைகள்` is rendered by function as `objects of lust`; the exact source compound remains upstream."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u019",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We came to catch the bird with a snare, not to wound it.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u020",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d019",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 12,
+            "printed_page": 11
+          },
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "A screen called clever speech for treachery—think about it. Is this human dharma: behaving so outrageously when a woman stands alone and unprotected? You too must have been born among women! Tell me—is this justice? Should you not at least respect my love, which is prepared to sacrifice country, city, mansions, all of it, for a love in accord with conviction? You have studied all the shastras! You have learned all the arts! You have turned the pages of law books! Tell me truthfully—is this dharma? Is this proper?",
+        "mode": "prose-faithful",
+        "notes": [
+          "This immutable utterance spans PDF 12–13 and remains one English unit. `தர்மம்` and `சாஸ்திரம்` retain their source register as `dharma` and `shastras`; the physical page-break word split is not reproduced in English."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u021",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d020",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That day in the palace you put on the guise of Kali; today you shed tears and beg, you deceiver.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u022",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d021",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Tears are women's final weapon, a shield against men. Rani, you tried hurling the Agni-astra; now you have come to the Varuna-astra. Unless you hurl the Mohana-astra, you cannot conquer the prince.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The Agni/Varuna/Mohana weapon sequence is transliterated as `-astra` to preserve the source's mythic metaphor and fire/water/charm progression."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u023",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d022",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why are you staring?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u024",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d023",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "She will ask Kali for mercy. That is the Kali of our realm.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's compressed `அது எங்கள் ராஜாங்கத்துக் காளி` is translated closely without inferring an unstated referent."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u025",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d024",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I need no one's mercy. I am a Tamil woman, born in the lineage of Kannagi. My chastity will protect me.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`கற்பு` is rendered as `chastity` in the source's Kannagi-lineage register; no broader cultural claim is added."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u026",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d025",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We shall see whether it protects you.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s007-u027",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 7,
+      "source_scene_number": 7,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-007.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-007.md",
+        "source_record_id": "maruthanattu-ilavarasi-s007-d026",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 13,
+            "printed_page": 12
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Let her go!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The exact Tamil label remains `காண்`; the English layer does not expand it even though the separate entity layer maps the label to Kandiban."
+        ]
+      }
+    }
+  ]
+}

@@ -1,27 +1,30 @@
 {
   "work_id": "maruthanattu-ilavarasi",
   "target_language": "en",
-  "status": "batch-002-005-verified-in-progress",
+  "status": "batch-006-007-verified-in-progress",
   "source_derivative_unit_count": 10,
-  "verified_segments": 5,
+  "verified_segments": 7,
   "verified_segment_ids": [
     "maruthanattu-ilavarasi-opening",
     "maruthanattu-ilavarasi-s002",
     "maruthanattu-ilavarasi-s003",
     "maruthanattu-ilavarasi-s004",
-    "maruthanattu-ilavarasi-s005"
+    "maruthanattu-ilavarasi-s005",
+    "maruthanattu-ilavarasi-s006",
+    "maruthanattu-ilavarasi-s007"
   ],
-  "translation_units_verified": 92,
+  "translation_units_verified": 137,
   "immutable_dialogue_records_total": 208,
-  "immutable_dialogue_links_verified": 89,
+  "immutable_dialogue_links_verified": 133,
   "opening_dialogue_coverage": "36/36",
-  "non_dialogue_units_verified": 3,
+  "non_dialogue_units_verified": 4,
   "source_unlabelled_narrative_units_verified": 1,
   "structural_separator_units_verified": 1,
   "retained_performance_records_total": 0,
   "retained_performance_records_translated": 0,
   "cross_page_translation_units": [
-    "maruthanattu-ilavarasi-en-s003-u014"
+    "maruthanattu-ilavarasi-en-s003-u014",
+    "maruthanattu-ilavarasi-en-s007-u020"
   ],
   "authorship_state_changed_by_translation": false,
   "canonical_tamil_changed_by_translation": false,
@@ -33,7 +36,10 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Translate and verify source scenes 6-7 as the next bounded English batch. Keep scene 8 for a separate dense batch.",
+  "next_activity": "Translate and verify source scene 8 as its own dense English batch. Preserve all immutable dialogue links and source-owned non-dialogue material.",
   "batch_002_005_review": "BATCH_002_005_REVIEW.md",
-  "batch_002_005_qa": "batch-002-005-qa.json"
+  "batch_002_005_qa": "batch-002-005-qa.json",
+  "stage_direction_units_verified": 1,
+  "batch_006_007_review": "BATCH_006_007_REVIEW.md",
+  "batch_006_007_qa": "batch-006-007-qa.json"
 }

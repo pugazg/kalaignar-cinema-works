@@ -1,0 +1,580 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s006",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 6,
+  "source_scene_number": 6,
+  "segment_status": "verified",
+  "unit_count": 18,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்டிபன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Where is Rani? Where? Rani! Princess Rani! Is my Rani a princess!.............",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes! A princess indeed.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "You said you were a servant, you masquerader! Wretch! That lust is surging in your eyes! That poison is dripping from the corners of your lips! With these, you have shattered my trust atom by atom, palace demon!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's escalating insults are preserved as rhetoric; exact Tamil forms remain in the immutable record."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "To win your love.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Love! The name of the curtain you drew over your lust-mad desire is love! The stench of rot given the name of evening-jasmine fragrance—ah! I was deceived, taking Halahala poison for nectar! I mistook sunset for sunrise and was ruined to the root! If there is such a thing as hell, I would set a snake upon your veins and have it bite you... Even then there would be no settling this deceiver's betrayal of trust. Princess—merciless demon! A Brahma-rakshasi born in a royal line that torments the poor, eats their bones, and polishes its body with them! You bewitched me with your beauty, shattered my young heart with the charm of your words, and left me stranded in the street, destroyer! The fault is not yours! Kings hunger to seize ever-new kingdoms! A king's daughter hungers to seize ever-new husbands!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`ஆலகால விஷம்` is retained as the mythic Halahala poison rather than generalized. The compressed source phrase around `இந்தக் கள்ளியின் நம்பிக்கை நிவர்த்தி` is rendered conservatively as a betrayal-of-trust image rather than silently emended."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I command you as princess: please leave!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "காண்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 10,
+            "printed_page": 9
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I am leaving, but I do not intend to go empty-handed. I will leave only after plucking out those eyes that inflamed me with desire and drove me mad! Not content with leaving the man who trusted you stranded midstream, you ordered him to leave; I will leave only after tearing out that iron heart. (He strangles her.)",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source-owned parenthetical action remains inside the immutable dialogue-linked unit."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரம்பா",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Soldiers! Soldiers!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Run away this way.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What conspiracy are you plotting? Where did he come from?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He did not come after asking me.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The feast meant for my sword has escaped. If that wastrel had fallen into my hands, I would have made him unrecognizable!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Warrior!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The single-word source line is preserved without adding an explicit sarcasm marker."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Doubt? Even after I made your father my slave, do you doubt my valour?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No doubt at all! A supreme hero at dropping a stone on a sleeping man's head.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source's taunt is kept as sarcasm without editorial explanation inside the dialogue."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I did not come here to trade jokes!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No one begged you to speak!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s006-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s006",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 6,
+      "source_scene_number": 6,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-006.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-006.md",
+        "source_record_id": "maruthanattu-ilavarasi-s006-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 11,
+            "printed_page": 10
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough of your insolence. If I leave you like this, you will escape somehow. Hey! Make preparations for the journey!.....",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}
