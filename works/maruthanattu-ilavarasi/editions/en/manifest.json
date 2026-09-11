@@ -1,0 +1,39 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "edition": "english-reader",
+  "build_version": 1,
+  "status": "PASS",
+  "source_sha256": "8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f",
+  "authoritative_input_count": 14,
+  "authoritative_input_aggregate_sha256": "74f5f36f8a962d2b5ebd95d4852715741fdcd814457c30c50cddf33a3fed6f84",
+  "checkpoint": {
+    "derivative_units": 10,
+    "translation_units": 228,
+    "unit_kind_counts": {
+      "written-text": 2,
+      "narrative": 1,
+      "dialogue": 208,
+      "structural-separator": 2,
+      "stage-direction": 14,
+      "chant": 1
+    },
+    "immutable_dialogue_links": 208,
+    "non_dialogue_units": 20,
+    "cross_page_units": 5,
+    "retained_performance_records": 0
+  },
+  "outputs": {
+    "reader-edition.md": {
+      "bytes": 50416,
+      "sha256": "b8b16d8a0ae91c7d78e6202264f31057ff80cddebd71ac0255f3957fd1a8d26c"
+    },
+    "reader-edition.html": {
+      "bytes": 74368,
+      "sha256": "821f2c4bdc52beda89c860db2d8bba6fcfd2657193a40d1de2d5cc4fa11c03bb"
+    },
+    "reader-edition.json": {
+      "bytes": 167324,
+      "sha256": "57a649b47ba0cd51647f14a480cc33cf5aa89d29645555465546445a8edb32e9"
+    }
+  }
+}
