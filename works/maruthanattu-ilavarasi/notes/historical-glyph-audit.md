@@ -1,21 +1,12 @@
 # மருதநாட்டு இளவரசி — historical Tamil glyph audit
 
-Status: **FIRST-PASS PROSPECTIVE COVERAGE COMPLETE — 21/21 canonical logical pages checked; final independent verification not started**.
+Status: **PROSPECTIVE 21/21 COMPLETE; FINAL INDEPENDENT VERIFICATION 5/21 PASS**.
 
-Known families checked prospectively on every drafted logical page:
+Historical-glyph-sensitive families are read from source pixels occurrence by occurrence; OCR/extraction remains candidate-only and no global normalization is allowed.
 
-`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
+- logical pages 1–5: **FINAL GLYPH PASS**;
+- logical pages 6–21: pending;
+- final historical-glyph verification: **5/21**;
+- open uncertainty markers: **0**.
 
-Rules remain source-first: source pixels control character identity; OCR/extracted text is only a candidate; no global replacements; glyph decoding must not modernize wording.
-
-## Coverage
-
-- canonical logical printed pages 1–21: **first-pass glyph check COMPLETE / draft only**;
-- representative final-range scans: PDF 17, 19, 21 split left/right;
-- duplicate scans PDF 18, 20, 22: provenance-only duplicates, not separate canonical text;
-- final independent historical-glyph verification: **0/21**;
-- open first-pass glyph uncertainty markers: **0**.
-
-Representative first-pass adjudications include the restored source-visible `காட்சி 7.`, source-irregular forms retained in PDF 12–16, and final-range two-up page geometry. None of these prospective readings is promoted to final verification by this file.
-
-All canonical pages remain `draft` until the independent visual-fidelity + final historical-glyph closure campaign.
+V1 also corrected the source provenance to the duplicate-spread geometry documented in \`mapping.md\`; that provenance correction does not promote unreviewed pages.

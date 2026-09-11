@@ -1,34 +1,28 @@
 # மருதநாட்டு இளவரசி — Project Handover
 
-Repository: `pugazg/kalaignar-cinema-works`  
-Branch: `main`  
-Work: `works/maruthanattu-ilavarasi/`
+Repository: \`pugazg/kalaignar-cinema-works\`
+Branch: \`main\`
+Work: \`works/maruthanattu-ilavarasi/\`
 
 **LIVE MAIN IS AUTHORITATIVE.**
 
-## Controlling source
-
-`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**. Do not commit the PDF.
+Source: \`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf\` — **22 PDF pages / 9,330,870 bytes / SHA-256 \`8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f\` / image-only**.
 
 ## Durable state
 
-- source intake: **COMPLETE**;
-- structural mapping: **COMPLETE-VERIFIED-CORRECTED**;
-- canonical logical printed pages: **1–21**;
-- PDF 2–16 represents printed 1–15 one-to-one;
-- PDF 17/19/21 are representative two-up spreads for printed 16–21;
-- PDF 18/20/22 are exact duplicate spreads and add no canonical text;
-- opening printed 1–3 remains unnumbered; do not invent `காட்சி 1.`;
-- observed numbered headings: **2,3,4,5,6,7,8,9,10**;
-- scene 9 provenance: printed 17 / PDF 17 right;
-- scene 10 provenance: printed 18 / PDF 19 left;
-- canonical Tamil first pass: **21/21 DRAFT — COMPLETE**;
-- prospective historical-glyph coverage: **21/21 COMPLETE**;
-- first-pass uncertainty markers: **0**;
-- independent visual-fidelity verification: **0/21**;
-- final historical-glyph verification: **0/21**;
-- later structured/English/reader derivatives: **BLOCKED**.
+- intake / mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
+- actual duplicate pattern: **3=4 through 21=22** in odd/even pairs; PDF 2 unique;
+- canonical logical pages: **21**; representative scans **2,3,5,7,9,11,13,15,17,19,21**;
+- source headings: **2–10**; logical pages 1–3 remain unnumbered;
+- Tamil T1: **21/21 COMPLETE-DRAFT**;
+- visual fidelity: **5/21 PASS**;
+- final historical-glyph verification: **5/21 PASS**;
+- remaining draft pages: **16**;
+- open uncertainties: **0**;
+- derivatives: **BLOCKED**.
+
+V1 logical pages 1–5 passed after **8 scan-supported corrections**, documented in \`notes/fidelity-audit.md\`.
 
 ## Exact next activity
 
-> **Begin independent visual-fidelity plus final historical-glyph verification for logical printed pages 1–5 (source PDF 2–6) as the first five-page verification batch. Re-read the controlling pixels independently, correct any draft mismatch before marking a page verified, keep uncertainty explicit, and keep structured derivatives blocked until all 21 canonical logical pages pass both gates.**
+> **Independently verify logical printed pages 6–10 using representative PDF 7 left/right, PDF 9 left/right and PDF 11 left; PDFs 8,10,12 are duplicates. Correct any mismatch before verification, complete final historical-glyph checks, and keep derivatives blocked until 21/21 dual-gate closure.**

@@ -311,18 +311,10 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 
 ## 11. மருதநாட்டு இளவரசி active checkpoint
 
-Work: `works/maruthanattu-ilavarasi/`
-Source: `TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf`
+- Tamil T1: **21/21 COMPLETE-DRAFT**;
+- corrected duplicate-spread provenance: **3=4 through 21=22**, PDF 2 unique;
+- visual fidelity / final glyph: **5/21 / 5/21 PASS**;
+- open uncertainties: **0**;
+- derivatives: **BLOCKED**.
 
-- intake: **COMPLETE**;
-- mapping: **COMPLETE-VERIFIED-CORRECTED**;
-- canonical logical pages: **21**;
-- duplicate scan geometry: **PDF 18=17, 20=19, 22=21**; representative spreads 17/19/21 contain printed 16–21;
-- source headings: **2,3,4,5,6,7,8,9,10**; opening remains unnumbered;
-- canonical Tamil first pass: **21/21 DRAFT — COMPLETE**;
-- prospective historical-glyph coverage: **21/21**;
-- visual-fidelity / final glyph verification: **0/21 / 0/21**;
-- first-pass uncertainty markers: **0**;
-- structured derivatives: **BLOCKED**.
-
-**Exact next activity:** Independent visual-fidelity + final historical-glyph verification for logical printed pages **1–5 (source PDF 2–6)**. Correct draft mismatches before marking verified; no downstream derivative work until all 21 logical pages pass both gates.
+**Next:** independently verify logical printed pages **6–10**.

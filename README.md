@@ -24,21 +24,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 ## மருதநாட்டு இளவரசி status
 
-`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` is a **22-PDF-page image-only திரை வசனம் source** with corrected structural mapping.
+- Tamil T1: **21/21 COMPLETE-DRAFT**;
+- corrected physical geometry: PDF 2 unique; duplicate spreads **3=4 through 21=22**;
+- visual fidelity / final glyph verification: **5/21 / 5/21 PASS**;
+- open uncertainties: **0**;
+- derivatives: **BLOCKED**.
 
-- printed credit: **`வசனம் : மு. கருணாநிதி.`**;
-- canonical logical body: **printed pages 1–21**;
-- PDF 2–16 map one-to-one to printed 1–15;
-- PDF 17/19/21 are two-up representative spreads for printed 16–21; PDF **18/20/22 are exact duplicate spreads**;
-- opening printed 1–3 is unnumbered; no source `காட்சி 1.` is invented;
-- numbered headings: **2,3,4,5,6,7,8,9,10**;
-- canonical Tamil first pass: **21/21 DRAFT — COMPLETE**;
-- prospective historical-glyph coverage: **21/21**;
-- independent visual/glyph verification: **0/21**;
-- first-pass uncertainty markers: **0**;
-- later derivatives: **BLOCKED**.
-
-**Next:** Independently verify logical printed pages **1–5 / source PDF 2–6** for both visual fidelity and final historical-glyph identity.
+**Next:** logical printed pages **6–10** dual-gate verification.
 
 ## வண்டிக்காரன் மகன் status
 
