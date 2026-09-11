@@ -27,9 +27,9 @@
   "remaining_unmapped_records": 0,
   "record_aware_labels": [],
   "dialogue_records_modified": false,
-  "next_activity": "Translate and verify source scene 8 as a dense batch using the verified opening and scenes 2-7 as precedent.",
+  "next_activity": "Translate and verify source scenes 9-10 as the final bounded English batch, then run whole-work English reconciliation.",
   "song_performance_authorship_gate": "complete-verified-zero-item-pass",
   "retained_performance_records": 0,
-  "english_translation_status": "scenes-006-007-verified-in-progress",
-  "english_translation_verified_segments": 7
+  "english_translation_status": "scene-008-verified-in-progress",
+  "english_translation_verified_segments": 8
 }

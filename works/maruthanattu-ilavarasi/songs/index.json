@@ -17,7 +17,7 @@
   "scene_text_changed": false,
   "dialogue_records_changed": false,
   "character_entity_mappings_changed": false,
-  "english_translation_gate": "scenes-006-007-verified-in-progress",
-  "next_activity": "Translate and verify source scene 8 as its own dense English batch; Phase 8 zero-item gate remains closed.",
-  "english_translation_verified_segments": 7
+  "english_translation_gate": "scene-008-verified-in-progress",
+  "next_activity": "Translate and verify source scenes 9-10 as the final bounded English batch, then run whole-work English reconciliation; Phase 8 zero-item gate remains closed.",
+  "english_translation_verified_segments": 8
 }

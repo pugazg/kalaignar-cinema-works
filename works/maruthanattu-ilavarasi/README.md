@@ -12,20 +12,20 @@ Source-led archival workspace for the scanned மருதநாட்டு இ
 
 ## Phase 9 English translation
 
-Status: **IN PROGRESS — 7/10 derivative units VERIFIED**
+Status: **IN PROGRESS — 8/10 derivative units VERIFIED**
 
 Verified:
 
 - unnumbered opening;
-- source scenes **2–7**;
-- English units: **137**;
-- immutable dialogue links: **133/208**;
-- latest scenes 6–7 batch: **44/44 dialogue links + 1/1 stage direction PASS**;
-- cumulative cross-page English units: **2**;
+- source scenes **2–8**;
+- English units: **192**;
+- immutable dialogue links: **185/208**;
+- scene 8: **52/52 dialogue links + 3/3 stage directions PASS**;
+- cumulative cross-page English units: **4**;
 - inferred speakers: **0**;
 - performance links: **0/0**;
 - upstream source-layer modifications: **0**.
 
 ## Exact next activity
 
-> **Translate and verify source scene 8 as its own dense English batch. Preserve exact Tamil speaker labels/delimiters as metadata, link all immutable dialogue records exactly once, preserve cross-page provenance and source-owned non-dialogue material, and do not alter closed Tamil/structured layers.**
+> **Translate and verify source scenes 9–10 as the final bounded English batch. Preserve exact Tamil speaker labels/delimiters as metadata, link every labelled utterance exactly once, preserve stage/unlabelled/cross-page source ownership, and then run whole-work English reconciliation across all 10 derivative units.**
