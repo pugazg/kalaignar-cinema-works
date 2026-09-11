@@ -1,6 +1,6 @@
 # மருதநாட்டு இளவரசி — English translation layer
 
-Status: **PILOT VERIFIED / IN PROGRESS**
+Status: **SCENES 2–5 VERIFIED / IN PROGRESS**
 
 ## Verified pilot
 
@@ -33,6 +33,20 @@ The opening remains explicitly unnumbered. No synthetic Scene 1 is introduced.
 - `PILOT_REVIEW.md` — translation decisions and scaling precedent;
 - `index.json` — translation checkpoint.
 
+## Verified post-pilot batch
+
+Source scenes **2–5** are now **VERIFIED**:
+
+- new English units: **53**;
+- new immutable dialogue links: **53/53 exactly once**;
+- cumulative verified derivative units: **5/10**;
+- cumulative English units: **92**;
+- cumulative immutable dialogue links: **89/208**;
+- cross-page English units: **1**;
+- inferred speakers / performance units: **0 / 0**.
+
+See `BATCH_002_005_REVIEW.md` and `batch-002-005-qa.json`.
+
 ## Next activity
 
-Translate and verify source scenes **2–5** as the first bounded post-pilot batch.
+Translate and verify source scenes **6–7** as the next bounded English batch.

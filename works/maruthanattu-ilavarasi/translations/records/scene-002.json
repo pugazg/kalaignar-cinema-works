@@ -1,0 +1,576 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s002",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 2,
+  "source_scene_number": 2,
+  "segment_status": "verified",
+  "unit_count": 18,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "சேவகன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Maharaja! We searched everywhere, but the Maharani could not be found.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! She could not be found?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Not only that, Maharaja—the minister too cannot be found!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The man who went searching has not returned?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "He would have to have gone searching in order to return!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The retort preserves Durjayan's insinuation that the minister never went on a genuine search."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Durjaya, what are you saying?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Is this something that even needs saying! Maharaja! When it comes to the Maharani, the minister has a special affection!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yes! That is why he set out to search without our even telling him.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The minister has a special ambition in the government! Even more than that, an extraordinary love for the Maharani!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I too showed love to that demoness.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "The king's love paled by comparison; the minister's love bewitched the Maharani!",
+        "mode": "prose-faithful",
+        "notes": [
+          "`மாற்றுக் குறைந்து` is rendered as `paled by comparison`, preserving Durjayan's comparison."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "What?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "His love is such that he can regard palace life and the office of minister as trifles!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Ah! An outrage impossible even to imagine!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u015",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d015",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Yet it has happened.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u016",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d016",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Shame—great shame!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u017",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d017",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 5,
+            "printed_page": 4
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "If foreign lands hear of it, that will be an even greater shame!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s002-u018",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s002",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 2,
+      "source_scene_number": 2,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-002.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-002.md",
+        "source_record_id": "maruthanattu-ilavarasi-s002-d018",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "கோபதி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Little foxes have plotted inside the lion's cave! Straws have played at the sword-point. Though they knew who Gopativarman was, those wicked, unjust wretches committed this outrage in his own palace. Durjaya, let the search for those traitors proceed relentlessly. Proclaim it throughout the land with drumbeat. Hack that adulteress into pieces and show her before my eyes. Wash away the stain that has fallen on Kurinji country with the blood of those wastrels. Whoever has hidden those great sinners—whoever they may be—death penalty! Torture! Hmm, let it be done.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The violent images and insults are translated as source rhetoric rather than softened. `பறை சாட்டுங்கள்` is rendered as public proclamation by drumbeat; `விபசாரி` is translated contextually as `adulteress`."
+        ]
+      }
+    }
+  ]
+}

@@ -1,22 +1,28 @@
 {
   "work_id": "maruthanattu-ilavarasi",
   "target_language": "en",
-  "status": "pilot-verified-in-progress",
+  "status": "batch-002-005-verified-in-progress",
   "source_derivative_unit_count": 10,
-  "verified_segments": 1,
+  "verified_segments": 5,
   "verified_segment_ids": [
-    "maruthanattu-ilavarasi-opening"
+    "maruthanattu-ilavarasi-opening",
+    "maruthanattu-ilavarasi-s002",
+    "maruthanattu-ilavarasi-s003",
+    "maruthanattu-ilavarasi-s004",
+    "maruthanattu-ilavarasi-s005"
   ],
-  "translation_units_verified": 39,
+  "translation_units_verified": 92,
   "immutable_dialogue_records_total": 208,
-  "immutable_dialogue_links_verified": 36,
+  "immutable_dialogue_links_verified": 89,
   "opening_dialogue_coverage": "36/36",
   "non_dialogue_units_verified": 3,
   "source_unlabelled_narrative_units_verified": 1,
   "structural_separator_units_verified": 1,
   "retained_performance_records_total": 0,
   "retained_performance_records_translated": 0,
-  "cross_page_translation_units": [],
+  "cross_page_translation_units": [
+    "maruthanattu-ilavarasi-en-s003-u014"
+  ],
   "authorship_state_changed_by_translation": false,
   "canonical_tamil_changed_by_translation": false,
   "scene_text_changed_by_translation": false,
@@ -27,5 +33,7 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Translate and verify source scenes 2-5 as the first bounded post-pilot English batch. Preserve exact Tamil speaker labels and source delimiters as metadata; link every explicitly labelled utterance to its immutable dialogue ID exactly once; preserve stage directions and source order; do not invent performance material or alter closed upstream layers."
+  "next_activity": "Translate and verify source scenes 6-7 as the next bounded English batch. Keep scene 8 for a separate dense batch.",
+  "batch_002_005_review": "BATCH_002_005_REVIEW.md",
+  "batch_002_005_qa": "batch-002-005-qa.json"
 }

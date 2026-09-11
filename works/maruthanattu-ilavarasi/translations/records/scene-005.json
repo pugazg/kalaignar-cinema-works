@@ -1,0 +1,394 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s005",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 5,
+  "source_scene_number": 5,
+  "segment_status": "verified",
+  "unit_count": 12,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ரௌத்ரன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "O crowing Kurinji country—no woman for you. War! Maniballavar, the flag of Kurinji country is flying over your palace.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The opening deliberately echoes the preceding declaration in scene 3."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "And the honour of Marutha country is flying away with it.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The repeated `பறக்கிறது` image is retained as flag and honour both `flying`."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Do not beat your chests. Cowards who could not stand and face us!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "That day you roared as though the sea-gate had burst open! Look—here is the handsome man you scorned! He has come to enslave you! As a warrior of warriors! As a lion of victory! (Laughter) As your life-partner!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source-owned `(சிரிப்பு)` remains inside this immutable dialogue-linked unit."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Treacherous foxes! Frauds who lock the tiger in a cage and then preach of war!",
+        "mode": "prose-faithful",
+        "notes": [
+          "The colloquial insult `சோதாக்கள்` is rendered as `frauds`; no stronger identity claim is added."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "There is no time to hear your lament. Your consent to the marriage—or Maniballavan's death!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani! Do not agree. Even if they torture me! Even if they throw me into the fire and burn me to ashes! Even if they make my corpse a feast for crows and vultures and show you that sight—do not agree to marry this wretch.",
+        "mode": "prose-faithful",
+        "notes": [
+          "`சண்டாளன்` is rendered as the abusive `wretch`; the immutable Tamil retains the exact printed term."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I will make you agree! What do you say now!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No—let him go.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Impossible! Unless you agree to the marriage, I cannot let him go.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I agree. Let him go!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s005-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s005",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 5,
+      "source_scene_number": 5,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-005.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-005.md",
+        "source_record_id": "maruthanattu-ilavarasi-s005-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "துர்ஜயன்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 9,
+            "printed_page": 8
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "We travel tomorrow—get ready! If you try to escape before then, your father's head will roll on the ground. Beware! Put this man under guard!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    }
+  ]
+}

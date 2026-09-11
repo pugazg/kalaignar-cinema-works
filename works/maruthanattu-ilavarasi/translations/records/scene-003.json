@@ -1,0 +1,460 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "target_language": "en",
+  "segment_id": "maruthanattu-ilavarasi-s003",
+  "segment_kind": "source-numbered-scene",
+  "derivative_ordinal": 3,
+  "source_scene_number": 3,
+  "segment_status": "verified",
+  "unit_count": 14,
+  "units": [
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u001",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d001",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Father!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u002",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d002",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணிபல்லவர்",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "My child! Look at the wonderful gift you have found for your father. Your father must give up country and city alike and go to the forest.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The father's opening `அப்பா!` is an affectionate/exclamatory address in context; English uses `My child!`."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u003",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d003",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "(She looks at the letter.) Maniballava, O king! A woman or war! Your consent is required.\nGopativarman.\nAh! What a valiant warning. Father! Write the reply—War! Write `War`.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The letter wording and signature are source-owned inside this immutable dialogue record, so they remain inside the same translation unit."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u004",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d004",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Enough—the trouble brought by your own tongue! The chick's fault has fallen upon the hen's head.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The source proverb-like chicken/chick image is kept rather than replaced by a different English proverb."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u005",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d005",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Why are you grieving, Father? Even an ant confronts its enemy!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u006",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d006",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 6,
+            "printed_page": 5
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani! I do not want to redden the waters of the Kaveri. I have no heart to turn the warriors of Marutha country into corpses. For the peace of the country, you must marry Raudhran.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u007",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d007",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Father!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u008",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d008",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Can you not make even this sacrifice for me?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u009",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d009",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "For you I would sacrifice my life. Honour is not something to be sacrificed, Father!",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u010",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d010",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Rani! If victory is on their side, what becomes of our honour?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u011",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d011",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Victory! That is a decision the blood of warriors must determine! Why worry about it now?",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u012",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d012",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "I know the strength of the warriors and my own strength. I do not need your preaching.",
+        "mode": "prose-faithful",
+        "notes": []
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u013",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d013",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "ராணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "Father! Are you the one speaking like this! Born in a lineage that says spear and sword are companions in life, are you speaking like this! Born in the heroic Pandyan line that declared, `In the pale cruelty of the field of death, the shoulders that sport are our victorious shoulders`, are you speaking like this? He who blinks at the thrust of a spear is a coward! Born of the Tamil who made this his heart-song, are you speaking like this? Shame—disgrace—disgrace to the history of our country itself. The sun that has seen many battlefields will laugh! This earth that bore warriors will laugh. No, Father! Let there be no stain on the history of valour. The land will laugh that Maniballavar, afraid of death, gave his daughter as tribute to the enemy. Let that stain not fall.",
+        "mode": "prose-faithful",
+        "notes": [
+          "The dense heroic image around `வெண்கொடுமை சாக்காட்டில்` is rendered conservatively and close to its verified wording; the English does not repair the Tamil image."
+        ]
+      }
+    },
+    {
+      "id": "maruthanattu-ilavarasi-en-s003-u014",
+      "kind": "dialogue",
+      "status": "verified",
+      "target_language": "en",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "segment_kind": "source-numbered-scene",
+      "derivative_ordinal": 3,
+      "source_scene_number": 3,
+      "source": {
+        "source_path": "works/maruthanattu-ilavarasi/dialogues/records/scene-003.json",
+        "canonical_scene_path": "works/maruthanattu-ilavarasi/scenes/scene-003.md",
+        "source_record_id": "maruthanattu-ilavarasi-s003-d014",
+        "source_occurrence_id": null,
+        "source_locator": null,
+        "speaker_label": "மணி",
+        "speaker_label_origin": "source-explicit",
+        "source_delimiter": ":-",
+        "page_provenance": [
+          {
+            "pdf_page": 7,
+            "printed_page": 6
+          },
+          {
+            "pdf_page": 8,
+            "printed_page": 7
+          }
+        ]
+      },
+      "translation": {
+        "english_text": "No, Rani! Do not hammer my unfeeling heart with a sledgehammer. You have turned me, who wriggled like a worm, into a tiger! I will not throw what I guard like my own eye into that bear's mouth! O crowing Kurinji country! No woman for you! War—to curb your swagger!",
+        "mode": "prose-faithful",
+        "notes": [
+          "This is one immutable utterance spanning PDF 7–8; the English keeps it as one unit."
+        ]
+      }
+    }
+  ]
+}
