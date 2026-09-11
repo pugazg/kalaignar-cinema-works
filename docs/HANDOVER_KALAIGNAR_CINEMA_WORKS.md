@@ -135,7 +135,7 @@ A genuine source ambiguity can justify pausing; routine continuation does not.
 - **Ammayappan** — canonical Tamil **105/105 dual-gate complete-verified**; **63/63** scene derivatives; dialogue authority **1,009 explicit + 16 supplements = 1,025 downstream units**; character/entity coverage **1,025/1,025 / 62/62 labels / 26 entities**; song/performance gate **64/64 candidates / 5 retained occurrences / 0 standalone lyric files**; English translation **complete-verified 63/63 / 1,210 units**; reader/export QA PASS; Reading Room payload QA PASS; site not applied.
 - **Naam / நாம்** — canonical Tamil **67/67 COMPLETE-VERIFIED**; scenes **45/45**; dialogues **590**; characters **28 / 45/45 / 590/590**; song/performance gate **7/7 reconciled**; English **5/45 verified / 131 units / 99 immutable dialogue links / 1 of 7 performance records translated**.
 - **Vandikkaran Magan / வண்டிக்காரன் மகன்** — canonical Tamil **87/87 COMPLETE-VERIFIED**; scenes **72/72**; dialogues **773 / 38 labels / reconciled QA PASS**; characters **32 / 38/38 / 773/773**; song/performance **9/9 source-only QA PASS**; English **72/72 COMPLETE-VERIFIED / 1,181 units / 773 dialogue links / 27 source-unlabelled / 58 cross-page / 9/9 performance identities**; reader/export **QA PASS**; Reading Room payload **QA PASS — 1,610,402 bytes / `1d1b611c1261eac75577c8c0499123c260406005f26448bb9aac5f6df22339ba`**; site not applied.
-- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — Tamil **21/21**; scenes **10/10**; dialogue **208**; character/entity **14**; Phase 8 **ZERO-ITEM PASS**; English translation **8/10 derivative units VERIFIED**, **192 units / 185 dialogue links**.
+- **Maruthanattu Ilavarasi / மருதநாட்டு இளவரசி** — Tamil **21/21**; scenes **10/10**; dialogue **208**; character/entity **14**; Phase 8 **ZERO-ITEM PASS**; English translation **COMPLETE-VERIFIED — 10/10 / 228 units / 208/208 links**; whole-work reconciliation **PASS**.
 
 Ammayappan and Naam remain closed at their recorded checkpoints. **Vandikkaran Magan now has no required repository-internal production phase remaining: source/Tamil, structured derivatives, English translation, deterministic reader/export and source-linked Reading Room payload are complete-verified / QA PASS. The separate Reading Room site remains not-applied and requires explicit authorization before modification.**
 
@@ -313,12 +313,13 @@ The preferred public destination remains **`https://nenjukkuneethi.org/read` —
 
 - canonical Tamil / scenes / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
 - Phase 8: **ZERO-ITEM PASS**;
-- Phase 9 English: **IN PROGRESS — 8/10 derivative units VERIFIED**;
-- verified: **opening + source scenes 2–8**;
-- English units: **192**;
-- dialogue links: **185/208**;
-- scene 8: **PASS — 52/52 dialogue links + 3/3 stage directions**;
-- cumulative cross-page English units: **4**;
-- inferred speakers / performance links: **0 / 0**.
+- Phase 9 English: **COMPLETE-VERIFIED**;
+- derivative units: **10/10**;
+- English units: **228**;
+- immutable dialogue links: **208/208 exactly once**;
+- non-dialogue source-linked units: **20**;
+- cross-page units: **5/5 exact**;
+- inferred speakers / performance translation units: **0 / 0**;
+- whole-work reconciliation: **PASS**.
 
-**Next:** translate source scenes **9–10** as the final bounded English batch, then run whole-work reconciliation.
+**Next:** Phase 14 whole-work reader/export layer.
