@@ -25,12 +25,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 ## மருதநாட்டு இளவரசி status
 
 - canonical Tamil: **21/21 COMPLETE-VERIFIED**;
-- source geometry: **linear PDF 2–22 ↔ logical printed 1–21; no duplicate spreads**;
-- visual fidelity / final glyph verification: **21/21 / 21/21 PASS**;
+- visual fidelity / final glyph: **21/21 / 21/21 PASS**;
+- scene-text derivatives: **10/10 COMPLETE-VERIFIED** — 1 unnumbered opening + source காட்சி 2–10;
+- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
 - open uncertainties: **0**;
-- structured derivatives: **NOT STARTED / READY-NEXT**.
+- dialogue index: **NOT STARTED**.
 
-**Next:** build source-faithful scene-text derivatives while preserving the unnumbered opening and source headings 2–10.
+**Next:** Phase 6 immutable dialogue indexing from the verified derivative layer.
 
 ## வண்டிக்காரன் மகன் status
 

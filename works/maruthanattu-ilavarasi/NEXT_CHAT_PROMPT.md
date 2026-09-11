@@ -1,28 +1,30 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / build scene-text derivatives
+# Next Chat Prompt — மருதநாட்டு இளவரசி / dialogue indexing
 
-Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`.
+Continue directly in pugazg/kalaignar-cinema-works, branch main, active work works/maruthanattu-ilavarasi/.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve newer durable work.
+Fetch live main first and preserve newer durable work.
 
-## Controlling source
+## Closed upstream gates
 
-`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — 22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f`.
-
-## Closed canonical state
-
-- source geometry: PDF 1 cover; PDF 2–22 = logical printed 1–21;
-- Tamil T1: **21/21 COMPLETE-VERIFIED**;
+- canonical Tamil: **21/21 COMPLETE-VERIFIED**;
 - visual fidelity: **21/21 PASS**;
 - final historical-glyph verification: **21/21 PASS**;
-- draft / unresolved: **0 / 0**;
+- scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
+- boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
 - logical pages 1–3: **unnumbered opening**;
-- source scene headings: **2–10**;
-- structured derivatives: **NOT STARTED / READY-NEXT**.
+- source scenes: **காட்சி 2. through காட்சி 10.**;
+- invented காட்சி 1: **0**.
 
-V4 logical pages 16–21 closed after **13 source-supported corrections / 0 unresolved**.
+Authoritative derivative layer:
+
+- works/maruthanattu-ilavarasi/scenes/README.md
+- works/maruthanattu-ilavarasi/scenes/index.json
+- works/maruthanattu-ilavarasi/scenes/opening.md
+- works/maruthanattu-ilavarasi/scenes/scene-002.md through scene-010.md
+- works/maruthanattu-ilavarasi/notes/scene-boundary-ownership-qa.md
 
 ## Exact next activity
 
-> **Build source-faithful scene-text derivatives from the closed 21-page canonical Tamil. Preserve the unnumbered opening separately without inventing `காட்சி 1.`; preserve source scene headings 2–10, source order, page provenance, cross-page continuities and source-visible irregularities. Do not mutate canonical Tamil unless genuinely new source evidence requires reopening it.**
+> **Build the Phase 6 immutable dialogue index from opening.md and scenes 2–10. Inventory every explicitly printed speaker label exactly as written, retain source segment/scene and PDF/printed-page provenance, keep a labelled utterance that crosses a page as one logical dialogue record, do not invent speakers for unlabelled text, and run whole-work dialogue coverage QA before starting the character/entity index. Do not modify closed canonical Tamil or scene-text derivatives.**

@@ -1285,7 +1285,7 @@
     "canonical_tamil_total_body_pages": 21,
     "historical_glyph_audit": "final-complete-verified-21-of-21",
     "structured_derivatives": {
-      "scene_index": "not-started",
+      "scene_index": "complete-verified",
       "dialogue_index": "not-started",
       "character_index": "not-started",
       "song_performance_gate": "not-started",
@@ -1293,7 +1293,7 @@
       "reader_export": "not-started",
       "reading_room_integration": "not-started"
     },
-    "next_action": "Build source-faithful scene-text derivatives from the 21/21 verified canonical Tamil, preserving the unnumbered opening and source scene headings 2–10.",
+    "next_action": "Begin Phase 6 dialogue indexing from the unnumbered opening and source scenes 2–10; preserve exact speaker labels, provenance, and cross-page utterance ownership.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1333,6 +1333,10 @@
       21,
       22
     ],
-    "source_geometry": "linear-one-pdf-page-per-logical-page"
+    "source_geometry": "linear-one-pdf-page-per-logical-page",
+    "scene_derivative_units": 10,
+    "source_scene_derivative_files": 9,
+    "unnumbered_opening_derivative_files": 1,
+    "scene_boundary_ownership_qa": "pass"
   }
 ]

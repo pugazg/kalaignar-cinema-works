@@ -44,8 +44,15 @@ canonical_tamil_current_batch_path: works/maruthanattu-ilavarasi/transcription/p
 canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: complete-verified-21-of-21
 historical_glyph_audit: final-complete-verified-21-of-21
-structured_derivatives: ready-next
-next_action: "Build scene-text derivatives from the 21/21 verified canonical Tamil, preserving the unnumbered opening and source scene headings 2–10."
+structured_derivatives: scene-text-complete-verified
+next_action: "Begin Phase 6 dialogue indexing from the unnumbered opening and source scenes 2–10; preserve exact speaker labels and cross-page utterance ownership."
 visual_verified_pages: 21
 historical_glyph_final_verified_pages: 21
 verification_current_through_logical_printed: 21
+scene_text_derivatives: complete-verified
+scene_derivative_units: 10
+source_scene_derivative_files: 9
+unnumbered_opening_derivative_files: 1
+scene_index_path: works/maruthanattu-ilavarasi/scenes/index.json
+scene_boundary_ownership_qa: pass
+scene_boundary_ownership_qa_path: works/maruthanattu-ilavarasi/notes/scene-boundary-ownership-qa.md

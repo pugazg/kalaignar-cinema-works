@@ -1,38 +1,36 @@
 # மருதநாட்டு இளவரசி — Project Handover
 
-Repository: `pugazg/kalaignar-cinema-works`  
-Branch: `main`  
-Work: `works/maruthanattu-ilavarasi/`
+Repository: pugazg/kalaignar-cinema-works  
+Branch: main  
+Work: works/maruthanattu-ilavarasi/
 
 **LIVE MAIN IS AUTHORITATIVE.**
 
 ## Controlling source
 
-`TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf` — **22 PDF pages / 9,330,870 bytes / SHA-256 `8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f` / image-only**.
+TVA_BOK_0065774_மருதநாட்டு_இளவரசி.pdf — **22 PDF pages / 9,330,870 bytes / SHA-256 8191b345c8b82faa25b95d574287cb1510230daea63e32490284dd4482e05d2f / image-only**.
 
-PDF 1 is the cover; PDF 2–22 are 21 unique body pages; logical printed page = PDF page − 1. Source pixels are controlling authority.
+Source geometry: PDF 1 cover; PDF 2–22 = logical printed 1–21.
 
 ## Durable state
 
 - intake / mapping: **COMPLETE / COMPLETE-VERIFIED-CORRECTED**;
-- Tamil T1: **21/21 COMPLETE-VERIFIED**;
-- visual fidelity: **21/21 PASS**;
-- final historical-glyph verification: **21/21 PASS**;
+- Tamil canonical: **21/21 COMPLETE-VERIFIED**;
+- visual / final glyph: **21/21 / 21/21 PASS**;
 - draft / unresolved: **0 / 0**;
-- source scene headings: **2–10**;
-- logical pages 1–3: **unnumbered opening**;
-- structured derivatives: **NOT STARTED / READY-NEXT**.
+- scene-text derivatives: **10/10 COMPLETE-VERIFIED**;
+- unnumbered opening: **1/1**;
+- source scene files: **9/9 — காட்சி 2. through காட்சி 10.**;
+- invented காட்சி 1: **0**;
+- scene boundary ownership QA: **PASS — 0 gaps / 0 overlaps**;
+- dialogue index: **NOT STARTED**.
 
-V4 independently re-read logical pages 16–21 / PDF 17–22 and closed with **13 source-supported corrections / 0 unresolved**. Preserve the source's irregular punctuation/delimiters where recorded; do not normalize them.
+## Structural rule that must not regress
 
-Corrections that must not regress include:
+Logical pages 1–3 are an unnumbered opening. They must not be relabelled or synthesized as காட்சி 1. Source-numbered scene derivatives begin at காட்சி 2.
 
-- logical 1: `தங்கையின் குழந்தை தரணி ஆளவேண்டுமே`;
-- logical 3: `இத்தியாகம் செய்யத்தான் வேண்டும்;`;
-- logical 15: `இந்நாட்டு மக்கள் காட்டு மிருகம்போல்`;
-- logical 19: `பரிதாபம்`, `பூங்காற்றும்`, `வாழ வைக்கும்`, `சொந்த நாட்டுக்காரன்`;
-- logical 21: `வணக்கம்,`, `குடியாட்சி பூத்துக்குலுங்கும்`, `புதுக் கருத்து வளரும்`.
+The final source ornament ★ remains in scene 10 and must not generate synthetic closing prose.
 
 ## Exact next activity
 
-> **Build source-faithful scene-text derivatives from the 21/21 verified canonical Tamil. Preserve logical pages 1–3 as the unnumbered opening and source scene headings 2–10 exactly. Keep canonical Tamil closed unless genuinely new source evidence appears.**
+> **Begin Phase 6 dialogue indexing across the unnumbered opening and source scenes 2–10. Inventory exact speaker labels, create immutable dialogue records in source order with page provenance, preserve cross-page labelled utterances as one logical record, and leave unlabelled speech unassigned.**
