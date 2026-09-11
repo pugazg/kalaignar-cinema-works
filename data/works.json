@@ -1294,7 +1294,7 @@
       "reading_room_integration": "not-started",
       "character_entity_index": "complete-verified"
     },
-    "next_action": "Begin Phase 14 whole-work reader/export layer from verified structured records; render all 228 English units exactly once.",
+    "next_action": "Begin Phase 15 Reading Room integration payload from the QA-PASS reader/export; site application remains not-applied.",
     "canonical_tamil_first_pass_pdf_range_completed": "2-22",
     "canonical_tamil_first_pass_current_through_pdf": 22,
     "canonical_tamil_current_batch_path": "works/maruthanattu-ilavarasi/transcription/pages/021-right.md",
@@ -1367,6 +1367,15 @@
     "english_translation_stage_direction_units_verified": 4,
     "english_translation_cross_page_units_verified": 5,
     "english_translation_non_dialogue_units_verified": 20,
-    "reader_export_status": "not-started-ready-next"
+    "reader_export_status": "complete-verified",
+    "reader_export_units": 228,
+    "reader_export_dialogue_links": 208,
+    "reader_export_cross_page_units": 5,
+    "reader_export_outputs": [
+      "reader-edition.md",
+      "reader-edition.html",
+      "reader-edition.json"
+    ],
+    "reading_room_integration_status": "not-started-ready-next"
   }
 ]

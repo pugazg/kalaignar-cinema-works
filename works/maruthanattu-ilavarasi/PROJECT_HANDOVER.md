@@ -13,30 +13,24 @@ Work: `works/maruthanattu-ilavarasi/`
 - immutable dialogue: **208 COMPLETE-VERIFIED**;
 - character/entity: **14 COMPLETE-VERIFIED**;
 - Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
-- Phase 9 English translation: **COMPLETE-VERIFIED**.
+- Phase 9 English translation: **COMPLETE-VERIFIED**;
+- Phase 14 reader/export: **COMPLETE-VERIFIED — QA PASS**.
 
-## English closure
+## Phase 14 durable state
 
-Whole-work reconciliation: **PASS**
-
-- derivative units: **10/10**;
-- English units: **228**;
+- reader directory: `editions/en/`;
+- rendered English units: **228/228 exactly once**;
 - immutable dialogue links: **208/208 exactly once**;
-- non-dialogue source-linked units: **20**;
-- unit IDs unique: **228/228**;
+- non-dialogue units: **20**;
 - cross-page units: **5/5 exact**;
-- inferred speakers: **0**;
-- duplicate non-dialogue ownership: **0**;
-- performance translation units: **0**;
-- placeholder / synthetic scene-end text: **0 / 0**;
-- canonical / scene / dialogue / character / Phase-8 mutations from translation/reconciliation: **0 / 0 / 0 / 0 / 0**.
+- source navigation: **unnumbered opening + source scenes 2–10**;
+- synthetic Scene 1: **0**;
+- performance units: **0**;
+- Markdown / HTML / JSON integrity hashes recorded in `editions/en/manifest.json`;
+- PDF / EPUB: **not created**.
 
-Authoritative English closure files:
-
-- `translations/index.json`;
-- `translations/whole-work-qa.json`;
-- `translations/WHOLE_WORK_RECONCILIATION.md`.
+Reader authority remains downstream. Canonical Tamil, scene derivatives, dialogue records and translation records are unchanged.
 
 ## Exact next activity
 
-> **Begin Phase 14 whole-work reader/export construction. Generate deterministic Markdown, standalone HTML, machine-readable JSON, QA report and integrity manifest from verified structured records. Every one of the 228 verified English units must render exactly once; re-check 208/208 dialogue links, 5/5 cross-page units, source order, provenance bounds, non-dialogue ownership and absence of synthetic text.**
+> **Begin Phase 15 Reading Room integration payload from the QA-PASS reader/export and verified source-linked records. Prepare deterministic data only inside this repository. Do not modify or deploy the separate `nenjukkuneethi.org` implementation repository without explicit authorization.**

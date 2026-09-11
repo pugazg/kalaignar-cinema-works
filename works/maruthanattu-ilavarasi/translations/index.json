@@ -42,7 +42,7 @@
   "records_directory": "records/",
   "pilot_review": "PILOT_REVIEW.md",
   "pilot_qa": "pilot-qa.json",
-  "next_activity": "Begin Phase 14 whole-work reader/export layer from verified structured records; render all 228 English units exactly once and preserve 208/208 dialogue links.",
+  "next_activity": "Begin Phase 15 Reading Room integration payload from the QA-PASS reader/export and verified Tamil/English structured records; do not modify the separate public-site repository without explicit authorization.",
   "batch_002_005_review": "BATCH_002_005_REVIEW.md",
   "batch_002_005_qa": "batch-002-005-qa.json",
   "stage_direction_units_verified": 14,
@@ -56,5 +56,15 @@
   "batch_009_010_qa": "batch-009-010-qa.json",
   "whole_work_reconciliation": "WHOLE_WORK_RECONCILIATION.md",
   "whole_work_qa": "whole-work-qa.json",
-  "english_translation_complete": true
+  "english_translation_complete": true,
+  "reader_export_status": "complete-verified",
+  "reader_export_directory": "../editions/en",
+  "reader_export_translation_units": 228,
+  "reader_export_dialogue_links": 208,
+  "reader_export_cross_page_units": 5,
+  "reader_export_outputs": [
+    "reader-edition.md",
+    "reader-edition.html",
+    "reader-edition.json"
+  ]
 }

@@ -36,5 +36,6 @@ Logical pages 1–3 remain an **unnumbered opening**; no source `காட்ச
 - song/performance/authorship gate: **COMPLETE-VERIFIED — ZERO-ITEM PASS**;
 - English translation: **COMPLETE-VERIFIED — 10/10 derivative units / 228 units / 208/208 dialogue links**;
 - whole-work English reconciliation: **PASS — 5/5 cross-page / 0 duplicate ownership / 0 inferred speakers**;
+- reader/export layer: **COMPLETE-VERIFIED — Markdown / HTML / JSON / QA / manifest**;
 
-Next: build the Phase 14 deterministic whole-work reader/export layer from verified structured records.
+Next: build the Phase 15 Reading Room integration payload from the QA-PASS reader/export and verified source-linked records.

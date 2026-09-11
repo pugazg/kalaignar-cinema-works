@@ -45,7 +45,7 @@ canonical_tamil_total_body_pages: 21
 visual_fidelity_audit: complete-verified-21-of-21
 historical_glyph_audit: final-complete-verified-21-of-21
 structured_derivatives: english-translation-complete-verified
-next_action: "Begin Phase 14 whole-work reader/export layer from verified structured records; render all 228 English units exactly once."
+next_action: "Begin Phase 15 Reading Room integration payload from the QA-PASS reader/export and verified Tamil/English structured records; do not modify the public-site repository without explicit authorization."
 visual_verified_pages: 21
 historical_glyph_final_verified_pages: 21
 verification_current_through_logical_printed: 21
@@ -101,4 +101,12 @@ english_translation_whole_work_qa_path: works/maruthanattu-ilavarasi/translation
 english_translation_reconciliation_path: works/maruthanattu-ilavarasi/translations/WHOLE_WORK_RECONCILIATION.md
 english_translation_non_dialogue_units_verified: 20
 english_translation_complete: true
-reader_export_status: not-started-ready-next
+reader_export_status: complete-verified
+reader_export_directory: works/maruthanattu-ilavarasi/editions/en
+reader_export_units: 228
+reader_export_dialogue_links: 208/208
+reader_export_cross_page_units: 5/5
+reader_export_markdown_sha256: "b8b16d8a0ae91c7d78e6202264f31057ff80cddebd71ac0255f3957fd1a8d26c"
+reader_export_html_sha256: 821f2c4bdc52beda89c860db2d8bba6fcfd2657193a40d1de2d5cc4fa11c03bb
+reader_export_json_sha256: 57a649b47ba0cd51647f14a480cc33cf5aa89d29645555465546445a8edb32e9
+reading_room_integration_status: "not-started-ready-next"

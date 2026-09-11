@@ -1,4 +1,4 @@
-# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 14 reader-export
+# Next Chat Prompt — மருதநாட்டு இளவரசி / Phase 15 Reading Room payload
 
 Continue directly in `pugazg/kalaignar-cinema-works`, branch `main`, active work `works/maruthanattu-ilavarasi/`.
 
@@ -12,29 +12,16 @@ Fetch live `main` first and preserve newer durable work.
 - scene derivatives: **10/10 COMPLETE-VERIFIED**;
 - immutable dialogue: **208 COMPLETE-VERIFIED**;
 - character/entity: **14 COMPLETE-VERIFIED**;
-- Phase 8 song/performance/authorship: **ZERO-ITEM PASS**;
-- Phase 9 English translation: **COMPLETE-VERIFIED**.
+- Phase 8 performance/authorship: **ZERO-ITEM PASS**;
+- Phase 9 English translation: **COMPLETE-VERIFIED — 228 units / 208 links**;
+- Phase 14 reader/export: **COMPLETE-VERIFIED — QA PASS**.
 
-## English whole-work closure
+Reader authority:
 
-- derivative units: **10/10**;
-- verified English units: **228**;
-- immutable dialogue links: **208/208 exactly once**;
-- non-dialogue units: **20**;
-- cross-page units: **5/5 exact**;
-- inferred speakers: **0**;
-- duplicate source ownership: **0**;
-- performance units: **0**;
-- whole-work QA: **PASS**.
-
-Read before continuing:
-
-- `translations/index.json`
-- `translations/WHOLE_WORK_RECONCILIATION.md`
-- `translations/whole-work-qa.json`
-- all ten files under `translations/records/`
-- `docs/CINEMA_WORKS_PROCESSING_GUIDE.md` section 14.
+- `editions/en/reader-edition.json`;
+- `editions/en/manifest.json`;
+- `editions/en/QA_REPORT.md`.
 
 ## Exact next activity
 
-> **Build the Phase 14 deterministic whole-work reader/export layer. Preferred outputs: Markdown, standalone HTML, machine-readable JSON, QA report and integrity manifest. Render every verified translation unit exactly once and in canonical order; preserve all 208 immutable dialogue links, all 20 non-dialogue source-linked units, all 5 cross-page units and exact source provenance. Do not create synthetic Scene 1, synthetic scene-end prose, performance material, or new publication formats such as PDF/EPUB. Do not modify closed upstream layers.**
+> **Build Phase 15 Reading Room integration data inside `works/maruthanattu-ilavarasi/integrations/reading-room/`. Follow the mature Raja Rani integration precedent. Use the QA-PASS reader model plus verified Tamil scene derivatives as inputs; preserve the unnumbered opening and source scene numbers 2–10; expose Tamil and English as presentation layers only; preserve source/page provenance and exact speaker metadata; keep 208/208 dialogue links and 5/5 cross-page units; create a deterministic `reading-room.json`, QA report, manifest and reproducible builder. Mark site application `not-applied`. Do not modify the separate public-site repository without explicit authorization.**

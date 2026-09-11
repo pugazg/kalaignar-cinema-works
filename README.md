@@ -26,15 +26,13 @@ The preferred public reading destination is the **Kalaignar Digital Library / Re
 
 - canonical Tamil / scenes / dialogue / character: **21/21 / 10/10 / 208 / 14 COMPLETE-VERIFIED**;
 - Phase 8 performance/authorship: **ZERO-ITEM PASS**;
-- Phase 9 English translation: **COMPLETE-VERIFIED**;
-- derivative units / English units: **10/10 / 228**;
-- immutable dialogue links: **208/208 exactly once**;
-- non-dialogue source-linked units: **20**;
-- cross-page units: **5/5 exact**;
-- inferred speakers / performance translation units: **0 / 0**;
-- whole-work English reconciliation: **PASS**.
+- Phase 9 English: **COMPLETE-VERIFIED — 228 units / 208 links**;
+- Phase 14 reader/export: **COMPLETE-VERIFIED — QA PASS**;
+- reader outputs: **Markdown / standalone HTML / machine JSON / QA / manifest**;
+- render coverage: **228/228 units / 208/208 dialogue links / 5/5 cross-page**;
+- PDF / EPUB: **not created**.
 
-**Next:** begin **Phase 14 whole-work reader/export layer**.
+**Next:** Phase 15 Reading Room integration payload; site application remains **not-applied**.
 
 ## வண்டிக்காரன் மகன் status
 
