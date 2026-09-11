@@ -1,0 +1,26 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "status": "complete-verified",
+  "ordinary_unlabelled_block_count": 1,
+  "inferred_speakers": 0,
+  "note": "Stage directions, headings, source anchors, source credit, location text, separators, நலம்! and the final ★ are structural source material and are not counted as ordinary unlabelled dialogue candidates.",
+  "blocks": [
+    {
+      "block_id": "maruthanattu-ilavarasi-opening-u001",
+      "segment_id": "maruthanattu-ilavarasi-opening",
+      "segment_kind": "unnumbered-opening",
+      "derivative_ordinal": 1,
+      "source_scene_number": null,
+      "source_heading": null,
+      "source_scene_file": "opening.md",
+      "reason": "ordinary source text without an active explicit speaker label",
+      "page_provenance": [
+        {
+          "pdf_page": 2,
+          "printed_page": 1
+        }
+      ],
+      "text": "குறிஞ்சிநாட்டுக் கொற்றவனுக்கு இரண்டு மனைவிகள். இருவரும் கர்ப்பவதிகள். இளையாளின் அண்ணன் துர்ஜயன், தன் அதிகாரம் நிலைக்க, தங்கையின் குழந்தை தரணி ஆளவேண்டுமே என்று அவனுக்குத் தனி ஆசை. அதன் காரணமாக................."
+    }
+  ]
+}

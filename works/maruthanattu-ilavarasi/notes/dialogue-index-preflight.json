@@ -1,0 +1,53 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "dialogue-index-preflight",
+  "authority": "10/10 complete-verified scene-text derivative units",
+  "status": "PASS",
+  "derivative_units_scanned": 10,
+  "explicit_source_labels_expected": 208,
+  "distinct_exact_speaker_labels": 24,
+  "delimiter_distribution": {
+    ":-": 207,
+    ":": 1
+  },
+  "unit_record_counts": {
+    "maruthanattu-ilavarasi-opening": 36,
+    "maruthanattu-ilavarasi-s002": 18,
+    "maruthanattu-ilavarasi-s003": 14,
+    "maruthanattu-ilavarasi-s004": 9,
+    "maruthanattu-ilavarasi-s005": 12,
+    "maruthanattu-ilavarasi-s006": 18,
+    "maruthanattu-ilavarasi-s007": 26,
+    "maruthanattu-ilavarasi-s008": 52,
+    "maruthanattu-ilavarasi-s009": 6,
+    "maruthanattu-ilavarasi-s010": 17
+  },
+  "exact_speaker_label_distribution": {
+    "கோபதிவர்மன்": 1,
+    "சித்ரா": 16,
+    "கோபதி": 36,
+    "அன்பானந்தர்": 1,
+    "அன்பா": 10,
+    "துர்ஜயன்": 41,
+    "காளிங்கன்": 1,
+    "சேவகன்": 1,
+    "ராணி": 30,
+    "மணிபல்லவர்": 1,
+    "மணி": 7,
+    "ரௌத்ரன்": 2,
+    "ரௌத்": 15,
+    "காண்டிபன்": 1,
+    "காண்": 9,
+    "ரம்பா": 1,
+    "ரௌத்திரன்": 1,
+    "காண்டி": 17,
+    "சபையோர்": 5,
+    "துர்ஜ": 1,
+    "துர்ஜய": 4,
+    "காளிங்": 4,
+    "அழகு": 2,
+    "பொதுமக்கள்": 1
+  },
+  "multi_page_labelled_utterances_expected": 5,
+  "unlabelled_ordinary_blocks_expected": 1
+}

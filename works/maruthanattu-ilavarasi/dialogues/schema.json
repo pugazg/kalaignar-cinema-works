@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "maruthanattu-ilavarasi-dialogue-record.schema.json",
+  "title": "Maruthanattu Ilavarasi immutable dialogue record",
+  "type": "object",
+  "required": [
+    "id",
+    "segment_id",
+    "segment_kind",
+    "derivative_ordinal",
+    "source_scene_number",
+    "source_heading",
+    "speaker_label",
+    "source_delimiter",
+    "text",
+    "page_provenance",
+    "source_scene_file"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^maruthanattu-ilavarasi-(?:opening|s00[2-9]|s010)-d[0-9]{3}$"
+    },
+    "segment_id": {
+      "type": "string",
+      "pattern": "^maruthanattu-ilavarasi-(?:opening|s00[2-9]|s010)$"
+    },
+    "segment_kind": {
+      "type": "string",
+      "enum": [
+        "unnumbered-opening",
+        "source-numbered-scene"
+      ]
+    },
+    "derivative_ordinal": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "source_scene_number": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 2,
+      "maximum": 10
+    },
+    "source_heading": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "speaker_label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_delimiter": {
+      "type": "string",
+      "enum": [
+        ":",
+        ":-"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "page_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "pdf_page",
+          "printed_page"
+        ],
+        "properties": {
+          "pdf_page": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 22
+          },
+          "printed_page": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 21
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "page_segments": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "pdf_page",
+          "printed_page",
+          "text"
+        ],
+        "properties": {
+          "pdf_page": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 22
+          },
+          "printed_page": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 21
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_scene_file": {
+      "type": "string",
+      "pattern": "^(?:opening|scene-00[2-9]|scene-010)\\.md$"
+    }
+  },
+  "additionalProperties": false
+}

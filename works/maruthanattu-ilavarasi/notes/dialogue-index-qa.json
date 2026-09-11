@@ -1,0 +1,195 @@
+{
+  "work_id": "maruthanattu-ilavarasi",
+  "phase": "dialogue-index-qa",
+  "status": "PASS",
+  "derivative_unit_coverage": "10/10",
+  "source_scene_coverage": "9/9 plus unnumbered opening",
+  "explicit_source_labels_expected": 208,
+  "immutable_dialogue_records": 208,
+  "explicit_label_ownership": "208/208 exactly once",
+  "distinct_exact_speaker_labels": 24,
+  "delimiter_distribution": {
+    ":-": 207,
+    ":": 1
+  },
+  "speaker_alias_normalizations": 0,
+  "inferred_unlabelled_speakers": 0,
+  "ordinary_unlabelled_blocks_preserved": 1,
+  "multi_page_dialogue_records": 5,
+  "multi_page_records": [
+    {
+      "id": "maruthanattu-ilavarasi-s003-d014",
+      "segment_id": "maruthanattu-ilavarasi-s003",
+      "speaker_label": "மணி",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "maruthanattu-ilavarasi-s007-d019",
+      "segment_id": "maruthanattu-ilavarasi-s007",
+      "speaker_label": "ராணி",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "maruthanattu-ilavarasi-s008-d030",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "speaker_label": "காண்",
+      "pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "maruthanattu-ilavarasi-s008-d047",
+      "segment_id": "maruthanattu-ilavarasi-s008",
+      "speaker_label": "சித்ரா",
+      "pages": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": "maruthanattu-ilavarasi-s010-d002",
+      "segment_id": "maruthanattu-ilavarasi-s010",
+      "speaker_label": "காண்டி",
+      "pages": [
+        19,
+        20,
+        21
+      ]
+    }
+  ],
+  "unit_record_counts": {
+    "maruthanattu-ilavarasi-opening": 36,
+    "maruthanattu-ilavarasi-s002": 18,
+    "maruthanattu-ilavarasi-s003": 14,
+    "maruthanattu-ilavarasi-s004": 9,
+    "maruthanattu-ilavarasi-s005": 12,
+    "maruthanattu-ilavarasi-s006": 18,
+    "maruthanattu-ilavarasi-s007": 26,
+    "maruthanattu-ilavarasi-s008": 52,
+    "maruthanattu-ilavarasi-s009": 6,
+    "maruthanattu-ilavarasi-s010": 17
+  },
+  "classification_counts": {
+    "maruthanattu-ilavarasi-opening": {
+      "blank": 42,
+      "metadata_comment": 3,
+      "source_anchor": 3,
+      "heading": 0,
+      "structural": 2,
+      "stage_direction": 0,
+      "explicit_dialogue_start": 36,
+      "owned_unlabelled_continuation": 0,
+      "unowned_ordinary_text": 1
+    },
+    "maruthanattu-ilavarasi-s002": {
+      "blank": 21,
+      "metadata_comment": 2,
+      "source_anchor": 2,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 0,
+      "explicit_dialogue_start": 18,
+      "owned_unlabelled_continuation": 0,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s003": {
+      "blank": 21,
+      "metadata_comment": 2,
+      "source_anchor": 3,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 0,
+      "explicit_dialogue_start": 14,
+      "owned_unlabelled_continuation": 3,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s004": {
+      "blank": 11,
+      "metadata_comment": 2,
+      "source_anchor": 1,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 0,
+      "explicit_dialogue_start": 9,
+      "owned_unlabelled_continuation": 0,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s005": {
+      "blank": 15,
+      "metadata_comment": 2,
+      "source_anchor": 2,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 0,
+      "explicit_dialogue_start": 12,
+      "owned_unlabelled_continuation": 0,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s006": {
+      "blank": 22,
+      "metadata_comment": 2,
+      "source_anchor": 3,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 0,
+      "explicit_dialogue_start": 18,
+      "owned_unlabelled_continuation": 0,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s007": {
+      "blank": 32,
+      "metadata_comment": 2,
+      "source_anchor": 3,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 1,
+      "explicit_dialogue_start": 26,
+      "owned_unlabelled_continuation": 1,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s008": {
+      "blank": 64,
+      "metadata_comment": 2,
+      "source_anchor": 6,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 3,
+      "explicit_dialogue_start": 52,
+      "owned_unlabelled_continuation": 2,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s009": {
+      "blank": 11,
+      "metadata_comment": 2,
+      "source_anchor": 2,
+      "heading": 1,
+      "structural": 0,
+      "stage_direction": 2,
+      "explicit_dialogue_start": 6,
+      "owned_unlabelled_continuation": 0,
+      "unowned_ordinary_text": 0
+    },
+    "maruthanattu-ilavarasi-s010": {
+      "blank": 34,
+      "metadata_comment": 2,
+      "source_anchor": 4,
+      "heading": 1,
+      "structural": 3,
+      "stage_direction": 7,
+      "explicit_dialogue_start": 17,
+      "owned_unlabelled_continuation": 2,
+      "unowned_ordinary_text": 0
+    }
+  },
+  "source_scene_1_invented": false,
+  "canonical_tamil_mutations": 0,
+  "scene_derivative_mutations": 0,
+  "result": "PASS — immutable dialogue layer complete-verified; Phase 7 character/entity indexing may begin."
+}

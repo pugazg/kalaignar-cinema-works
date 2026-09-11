@@ -1,0 +1,110 @@
+[
+  {
+    "id": "maruthanattu-ilavarasi-s009-d001",
+    "segment_id": "maruthanattu-ilavarasi-s009",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 9,
+    "source_scene_number": 9,
+    "source_heading": "காட்சி 9.",
+    "speaker_label": "கோபதி",
+    "source_delimiter": ":-",
+    "text": "ரௌத்திரன் உம்முடைய மகனா? எவ்வளவு பெரிய அக்கிரமம்!",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 18
+      }
+    ],
+    "source_scene_file": "scene-009.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s009-d002",
+    "segment_id": "maruthanattu-ilavarasi-s009",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 9,
+    "source_scene_number": 9,
+    "source_heading": "காட்சி 9.",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":-",
+    "text": "அதைவிட அக்கிரமம் அன்பானந்தரைக் கொன்று அரண்மனைத் தோட்டத்திலே புதைத்துவிட்டு அரசியுடன் ஓடியதாக அபாண்டம் சுமத்தியது!... இதோ பாருங்கள், அன்பானந்தரின் எலும்புக்கூடு. அந்தப் புனித மூர்த்தியை நான்தான் புதைத்தேன்.",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 18
+      }
+    ],
+    "source_scene_file": "scene-009.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s009-d003",
+    "segment_id": "maruthanattu-ilavarasi-s009",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 9,
+    "source_scene_number": 9,
+    "source_heading": "காட்சி 9.",
+    "speaker_label": "கோபதி",
+    "source_delimiter": ":-",
+    "text": "எத்தனை பயங்கரச் சூழ்ச்சிகள்!",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 18
+      }
+    ],
+    "source_scene_file": "scene-009.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s009-d004",
+    "segment_id": "maruthanattu-ilavarasi-s009",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 9,
+    "source_scene_number": 9,
+    "source_heading": "காட்சி 9.",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":-",
+    "text": "அந்தப் பாவியின் செல்வாக்கைப் பலப்படுத்தத்தான்!",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 18
+      }
+    ],
+    "source_scene_file": "scene-009.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s009-d005",
+    "segment_id": "maruthanattu-ilavarasi-s009",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 9,
+    "source_scene_number": 9,
+    "source_heading": "காட்சி 9.",
+    "speaker_label": "கோபதி",
+    "source_delimiter": ":-",
+    "text": "ஆ! துர்ஜயனுடைய மோதிரம்!",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 18
+      }
+    ],
+    "source_scene_file": "scene-009.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s009-d006",
+    "segment_id": "maruthanattu-ilavarasi-s009",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 9,
+    "source_scene_number": 9,
+    "source_heading": "காட்சி 9.",
+    "speaker_label": "காளிங்",
+    "source_delimiter": ":-",
+    "text": "அவசரத்தில் அதைக்கூடக்கவனிக்கவில்லை.",
+    "page_provenance": [
+      {
+        "pdf_page": 19,
+        "printed_page": 18
+      }
+    ],
+    "source_scene_file": "scene-009.md"
+  }
+]

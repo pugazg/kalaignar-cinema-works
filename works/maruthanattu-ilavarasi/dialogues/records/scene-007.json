@@ -1,0 +1,486 @@
+[
+  {
+    "id": "maruthanattu-ilavarasi-s007-d001",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்திரன்",
+    "source_delimiter": ":-",
+    "text": "ராணி...... ராணி, வா, வா .. ஆஹா! முகிலைக்கிழித்து வெளிக்கிளம்பும் முழுமதி உன் சிரிப்பு.",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 10
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d002",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "தங்களைப்போல் என் அதரங்கள், கரி நிறமா?",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 10
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d003",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "அந்திவானத்தின் அழகு வர்ணம் கண்ணே",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 10
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d004",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "எங்கே இருக்கிறீர்கள்? என்னைத் தொடுங்கள். தொடமாட்டீர்களா? என்னைப் பிடிக்கவில்லையா?",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 10
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d005",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "பனியைத் தொடும் இன்பம் உன்னைத் தொடும் இன்பமன்றோ! கனியைச் சுவைப்பேனோ உன் கன்னத்தைச் சுவைத்தபின்!",
+    "page_provenance": [
+      {
+        "pdf_page": 11,
+        "printed_page": 10
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d006",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "இன்பவிடிவெள்ளி முளைத்துவிட்டது இனிமேல்",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d007",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "பச்சைக்கிளி நான்! பழக்கொடி நீ!",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d008",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "காதற் சோலையில்!",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d009",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "கிளியைப் பறக்கவிடமாட்டேன்!",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d010",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "ஆ....",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d011",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "துர்ஜயன்",
+    "source_delimiter": ":-",
+    "text": "கிளி. இனிமேல் குறிஞ்சிநாட்டு மாளிகையில் குழல்மொழி பேசும் குறுகுறுவென விழிக்கும் இளவரசனோடு குலவும்!",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d012",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "நல்ல கனவு;",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d013",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "துர்ஜயன்",
+    "source_delimiter": ":-",
+    "text": "கனவாகாமல் இருக்கக் கிளி கொஞ்ச நாள் கூண்டிலேயும் அடைப்பட்டிருக்கும்.",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d014",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "வாய் சொல் வீரன்.",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d015",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "வீரத்தைச் செய்கையில் காட்டுகிறேன்பார்.",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d016",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "துர்ஜயன்",
+    "source_delimiter": ":-",
+    "text": "பொறு ரௌத்ரா அவளையுந்தான் கொஞ்சம் பேசவிடுவோமே. மிரளுகின்ற மானென்ன உறுமுகின்ற சிங்கமா? ஊம் பேசம்மா பேசு.",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d017",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "பெண்களைக் காமப்பதுமைகளாக நினைத்து விட்ட பைத்தியக்காரர்களே நீங்கள் வீரர்களாக இருந்தால் என் கையில் ஒரு வாளைக் கொடுத்துவிட்டுப் பேசுங்கள்.",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d018",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "துர்ஜயன்",
+    "source_delimiter": ":-",
+    "text": "பறவையைக் கண்ணிவைத்துப் பிடிக்க வந்திருக்கிறோம், காயப்படுத்தியல்ல.",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d019",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "வஞ்சக வேலைக்கு வாக்கு சாதுர்யம் என்ற திரை, நினைத்துப் பாருங்கள். ஒரு பெண் அனாதையாய் இருக்கும்போது இப்படி அக்கிரமமாக நடந்துகொள்வது தான் மனித தர்மமா? நீங்களும் பெண்களோடு பிறந்திருப்பீர்களே! இது நீதியா சொல்லுங்கள். கருத்துக்கு இசைந்த காதலுக்காக, நாடுநகரம், மாடமாளிகை இத்தனையும் தியாகம் செய்ய துணிந்திருக்கும் என் காதலுக்காவது மதிப்புத் தரக்கூடாதா? சகல சாஸ்திரம் படித்திருப்பீர்களே! சகல கலை கற்றிருப்பீர்களே! சட்டப் புத்தகத்தைப் புரட்டியிருப்\nபீர்களே! சத்தியமாகச் சொல்லுங்கள் இது தர்மமா? முறையா?",
+    "page_provenance": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11
+      },
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md",
+    "page_segments": [
+      {
+        "pdf_page": 12,
+        "printed_page": 11,
+        "text": "வஞ்சக வேலைக்கு வாக்கு சாதுர்யம் என்ற திரை, நினைத்துப் பாருங்கள். ஒரு பெண் அனாதையாய் இருக்கும்போது இப்படி அக்கிரமமாக நடந்துகொள்வது தான் மனித தர்மமா? நீங்களும் பெண்களோடு பிறந்திருப்பீர்களே! இது நீதியா சொல்லுங்கள். கருத்துக்கு இசைந்த காதலுக்காக, நாடுநகரம், மாடமாளிகை இத்தனையும் தியாகம் செய்ய துணிந்திருக்கும் என் காதலுக்காவது மதிப்புத் தரக்கூடாதா? சகல சாஸ்திரம் படித்திருப்பீர்களே! சகல கலை கற்றிருப்பீர்களே! சட்டப் புத்தகத்தைப் புரட்டியிருப்"
+      },
+      {
+        "pdf_page": 13,
+        "printed_page": 12,
+        "text": "பீர்களே! சத்தியமாகச் சொல்லுங்கள் இது தர்மமா? முறையா?"
+      }
+    ]
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d020",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "அன்று அரண்மனையில் காளி வேஷம் போட்டாய், இன்று கண்ணீர் விட்டுக் கெஞ்சுகிறாய் கள்ளி.",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d021",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "துர்ஜயன்",
+    "source_delimiter": ":-",
+    "text": "கண்ணீர் பெண்களின் கடேசி ஆயுதம்; ஆண்களை எதிர்க்கும் கேடையம், ராணி அக்கினி ஆஸ்திரத்தை வீசிப்பார்த்தாய் இப்பொழுது வருணாஸ்திரத்திற்கு வந்திருக்கிறாய். மோகனாஸ்திரத்தை வீசினல்லாது இளவரசனை ஜெயிக்க முடியாது.",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d022",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "என்ன விழிக்கிறாய்?",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d023",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "துர்ஜயன்",
+    "source_delimiter": ":-",
+    "text": "காளியிடம் கருணை கேட்பாள். அது எங்கள் ராஜாங்கத்துக் காளி.",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d024",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ராணி",
+    "source_delimiter": ":-",
+    "text": "எனக்கு யாரும் கருண காட்ட வேண்டியதில்லை. நான் தமிழச்சி, கண்ணகி மரபிலே உதித்தவள். கற்பு, என்னைக் காப்பாற்றும்.",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d025",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "ரௌத்",
+    "source_delimiter": ":-",
+    "text": "காப்பாற்றும் அதைத்தான் பார்ப்போமே.",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  },
+  {
+    "id": "maruthanattu-ilavarasi-s007-d026",
+    "segment_id": "maruthanattu-ilavarasi-s007",
+    "segment_kind": "source-numbered-scene",
+    "derivative_ordinal": 7,
+    "source_scene_number": 7,
+    "source_heading": "காட்சி 7.",
+    "speaker_label": "காண்",
+    "source_delimiter": ":-",
+    "text": "விடு அவள்!",
+    "page_provenance": [
+      {
+        "pdf_page": 13,
+        "printed_page": 12
+      }
+    ],
+    "source_scene_file": "scene-007.md"
+  }
+]
